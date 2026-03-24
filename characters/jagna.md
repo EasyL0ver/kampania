@@ -2,6 +2,11 @@
 
 **Type:** Named character — child of %SOLDIER%
 
+## Vital Statistics
+
+- **Born:** 1935
+- **Died:** 1952 (age 17)
+
 ## Role
 
 Young girl, daughter of %SOLDIER%. Living in %NEW_VILLAGE%.

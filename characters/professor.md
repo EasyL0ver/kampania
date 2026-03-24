@@ -2,6 +2,11 @@
 
 **Type:** Named character — outsider / catalyst
 
+## Vital Statistics
+
+- **Born:** 1930
+- **Age in 1967:** 37
+
 ## Role
 
 A hydrologist or engineer connected to the Solina Dam project. Arrives in 1967 with devastating news: the hydrological calculations were wrong.

@@ -2,6 +2,11 @@
 
 **Type:** Named character — %WOJEWODA%'s son
 
+## Vital Statistics
+
+- **Born:** 1946
+- **Age in 1967:** 21
+
 ## Role
 
 Son of %WOJEWODA% (the sołtys). A spoiled kid — benefits from his father's position as village headman. Loves hanging out with his uncle %WUJAS%.

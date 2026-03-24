@@ -4,7 +4,7 @@
 
 ## Founded
 
-Early 1950s, a few years after Operation Vistula (1947). Built adjacent to the ruins of %OLD_VILLAGE%.
+1950, three years after Operation Vistula (1947). Built adjacent to the ruins of %OLD_VILLAGE%.
 
 ## Origin
 

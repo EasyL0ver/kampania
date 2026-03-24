@@ -2,6 +2,11 @@
 
 **Type:** Named character — villager (placeholder)
 
+## Vital Statistics
+
+- **Born:** 1939
+- **Age in 1967:** 28
+
 ## Role
 
 A poor woman in her late 20s, working on %WOJEWODA%'s farm. Single mother to %PAWEŁEK%.

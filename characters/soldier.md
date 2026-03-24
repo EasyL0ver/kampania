@@ -2,6 +2,11 @@
 
 **Type:** Named character (NPC or background figure)
 
+## Vital Statistics
+
+- **Born:** 1910
+- **Died:** 1952 (age 42)
+
 ## Role
 
 One of the soldiers present at the %OLD_VILLAGE% massacre during Operation Vistula (1947). Participated in the shooting of the rebelling Lemko villagers.
@@ -16,7 +21,7 @@ After the massacre, %SOLDIER% and his fellow soldiers agreed to never speak of w
 
 ## After the Massacre
 
-%SOLDIER% left military service and joined the wave of Polish colonists resettling the emptied Bieszczady in the early 1950s. He settled in %NEW_VILLAGE% — the new Polish village built right next to the ruins of %OLD_VILLAGE%.
+%SOLDIER% left military service and headed for the Bieszczady in 1948 — ahead of the main colonist wave. He settled in %NEW_VILLAGE% — the new Polish village built right next to the ruins of %OLD_VILLAGE%.
 
 **He knew the area from his service** — he'd been there during Akcja Wisła. This gave him an advantage over other settlers: he arrived early, knew the terrain, and **claimed the best piece of land** for himself.
 
@@ -26,14 +31,14 @@ He built a home and a life on the doorstep of the place where he committed mass 
 
 ## Death
 
-A few years before the story begins, %SOLDIER% was killed during the lynch in %NEW_VILLAGE%. He intervened when the three drunk men (%WUJAS%, %WOJEWODA%, %BUTCHER%) attacked his daughter %JAGNA%, and was killed trying to save her.
+In 1952, %SOLDIER% was killed during the lynch in %NEW_VILLAGE%. He intervened when the three drunk men (%WUJAS%, %WOJEWODA%, %BUTCHER%) attacked his daughter %JAGNA%, and was killed trying to save her.
 
 After his death, %BUTCHER% convinced the others it was too late for half measures — %SOLDIER%'s wife and infant son %GLUPEK% had to die too. The wife was killed. %GLUPEK% survived.
 
 Bodies dumped into the old well in %OLD_VILLAGE% — the same well that holds the Lemko massacre remains.
 
 **%SOLDIER%'s family:**
-- **%SOLDIER%'s wife** (unnamed) — **killed in the lynch**
+- **%SOLDIER%'s wife** (unnamed, born ~1915) — **killed in the lynch** (1952, age ~37)
 - **%JAGNA%** — young girl — **killed in the lynch** (beaten, raped)
 - **%GLUPEK%** — small infant, mentally challenged — **survived**
 

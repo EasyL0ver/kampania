@@ -9,4 +9,4 @@
 - **The investigation uncovers layers.** Each answer reveals a worse question beneath it.
 - **Philosophical weight.** Characters talk about what they believe, and those beliefs matter. %OFFICER%'s "the state was justified" energy is pure Rust Cohle territory — just from the other side.
 - **No supernatural payoff.** The horror is human. The monsters are men.
-- **Time as a weapon.** TD1 uses multiple timelines to show how the past rots the present. The one-shot does the same: 1947 → ~1950 → 1967.
+- **Time as a weapon.** TD1 uses multiple timelines to show how the past rots the present. The one-shot does the same: 1947 → 1952 → 1967.

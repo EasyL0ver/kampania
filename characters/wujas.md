@@ -2,6 +2,11 @@
 
 **Type:** Named character — sibling (brother)
 
+## Vital Statistics
+
+- **Born:** 1925
+- **Age in 1967:** 42
+
 ## Role
 
 One of four siblings — brother to %WOJEWODA%, %MATRONA%, and %CIOTKA%. Part of a family unit in %NEW_VILLAGE%.

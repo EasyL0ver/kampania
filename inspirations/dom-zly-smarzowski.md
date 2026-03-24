@@ -41,7 +41,7 @@ This film is essentially the DNA of our one-shot:
 
 | Dom Zły | Our One-Shot |
 |---|---|
-| Drunken night → mass death | The lynch (~1950) |
+| Drunken night → mass death | The lynch (1952) |
 | Investigation years later | Committee arrives (1967) |
 | Bieszczady isolation | %NEW_VILLAGE% cut off in the rain |
 | Bimber and moonshine | Alcohol as symbolic character |

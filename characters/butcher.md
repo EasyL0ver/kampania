@@ -2,6 +2,11 @@
 
 **Type:** Named character
 
+## Vital Statistics
+
+- **Born:** 1921
+- **Age in 1967:** 46
+
 ## Role
 
 *TBD*

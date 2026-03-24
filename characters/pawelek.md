@@ -2,6 +2,11 @@
 
 **Type:** Named character — child
 
+## Vital Statistics
+
+- **Born:** 1963
+- **Age in 1967:** 4
+
 ## Role
 
 Young son of %BARBARA%. Father officially unknown. **Real father is %WUJAS%**, but nobody knows this — %BARBARA% slept with both %WUJAS% and %JUNIOR% and doesn't know which one is the father.

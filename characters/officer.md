@@ -2,6 +2,11 @@
 
 **Type:** Named character — morally complex / state insider
 
+## Vital Statistics
+
+- **Born:** 1928
+- **Age in 1967:** 39
+
 ## Role
 
 Secret police agent (Służba Bezpieczeństwa — SB). Politically connected. Embedded in or assigned to the %NEW_VILLAGE% / dam project area.
@@ -25,7 +30,7 @@ For the players, %OFFICER% is unsettling not because he's evil, but because he m
 | Crime | Who wants it buried | Why |
 |---|---|---|
 | Lemko massacre (1947) | **The state** (via %OFFICER%'s superiors) | State crime, political embarrassment |
-| The lynch (~1950) | **The villagers** (%WOJEWODA%, %WUJAS%, %BUTCHER%) | Personal crime, murder, rape |
+| The lynch (1952) | **The villagers** (%WOJEWODA%, %WUJAS%, %BUTCHER%) | Personal crime, murder, rape |
 
 %OFFICER% may be caught between his duty to the state and his conscience.
 

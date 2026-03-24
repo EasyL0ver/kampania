@@ -2,6 +2,11 @@
 
 **Type:** Named character — village priest
 
+## Vital Statistics
+
+- **Born:** 1925
+- **Age in 1967:** 42
+
 ## Role
 
 Roman Catholic priest residing at the small church in %NEW_VILLAGE%. Spiritual authority of the community.

@@ -2,6 +2,11 @@
 
 **Type:** Named character — sibling (brother)
 
+## Vital Statistics
+
+- **Born:** 1920
+- **Age in 1967:** 47
+
 ## Role
 
 One of four siblings — brother to %WUJAS%, %MATRONA%, and %CIOTKA%. **Sołtys (village headman) of %NEW_VILLAGE%** — the local authority. The man who runs things.

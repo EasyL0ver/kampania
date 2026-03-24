@@ -2,6 +2,11 @@
 
 **Type:** Named character — sibling (sister)
 
+## Vital Statistics
+
+- **Born:** 1922
+- **Age in 1967:** 45
+
 ## Role
 
 One of four siblings — sister to %WOJEWODA%, %WUJAS%, and %CIOTKA%. Part of a family unit in %NEW_VILLAGE%.

@@ -2,6 +2,11 @@
 
 **Type:** Named character — old Lemko woman
 
+## Vital Statistics
+
+- **Born:** ~1890
+- **Age in 1967:** ~77
+
 ## Role
 
 An elderly Lemko woman living alone in the forest near %OLD_VILLAGE% / %NEW_VILLAGE%. One of the few who avoided deportation during Akcja Wisła — survived by hiding in the wilderness and never leaving.

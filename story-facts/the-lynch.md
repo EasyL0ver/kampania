@@ -4,7 +4,7 @@
 
 ## The Trigger
 
-~1950, shortly after colonists settled in %NEW_VILLAGE%. Tensions are raw, the community is new and fragile.
+1952, two years after colonists settled in %NEW_VILLAGE%. Tensions are raw, the community is new and fragile.
 
 %MATRONA% caught %JAGNA% and %PAINTER% together — in flagranti. The affair was no longer a secret.
 
@@ -42,7 +42,7 @@ Bodies dumped in the old well in %OLD_VILLAGE% — the same well holding the Lem
 
 The well in %OLD_VILLAGE% now contains:
 1. **Lemko massacre remains** (1947)
-2. **%JAGNA%**, **%SOLDIER%**, and **%SOLDIER%'s wife** (~1950)
+2. **%JAGNA%**, **%SOLDIER%**, and **%SOLDIER%'s wife** (1952)
 
 Two crimes, three years apart, one grave.
 

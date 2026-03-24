@@ -2,6 +2,11 @@
 
 **Type:** Named character
 
+## Vital Statistics
+
+- **Born:** 1923
+- **Age in 1967:** 44
+
 ## Role
 
 Fiancé of %MATRONA%. Was secretly romancing %JAGNA% (daughter of %SOLDIER%).
