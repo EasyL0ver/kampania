@@ -12,6 +12,7 @@ These rules apply to all work on this campaign. Always follow them.
    - `characters\` — One `.md` file per character (NPCs, historical figures, etc.)
    - `places\` — One `.md` file per location
    - `story-facts\` — One `.md` file per story fact / plot element / clue
+   - `story\` — Actual game scenario: events, scenes, the story graph, day-by-day structure
 
 5. **Placeholder naming** — Until a character or place has a final name, use `%PLACEHOLDER%` syntax (e.g. `%COLONEL%`, `%OLD_VILLAGE%`). This makes it easy to find-and-replace across all files later. **Never swap placeholders for real names unless explicitly told to by the user.**
 
