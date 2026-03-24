@@ -22,7 +22,9 @@ This event **only fires if %GLUPEK% learns the truth**. If the players are caref
 
 %GLUPEK% runs. The village thinks he's fled into the forest or the ruins. **In reality, he's hiding in %PRIEST%'s church.** The one other safe place he's ever known — the man who protected him alongside %CIOTKA%.
 
-%PRIEST% may or may not know %GLUPEK% is there. If he does, he's sheltering a killer — the brain-damaged boy he swore to protect, now covered in the blood of the woman they both loved.
+%PRIEST% may or may not know %GLUPEK% is there initially. But when he finds him — bloody, terrified, unable to explain what happened — he believes the boy. He's known %GLUPEK% his whole life. He's seen the gentleness under the size. He knows this boy didn't mean it.
+
+**%PRIEST% shelters %GLUPEK% deliberately.** Not out of naivety — out of conviction. This is the boy he's protected since he arrived in the village. The boy %CIOTKA% saved and entrusted to God's care. %PRIEST% won't hand him over to the people who destroyed his family in the first place.
 
 ## What This Does to the Village
 
