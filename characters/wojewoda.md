@@ -39,4 +39,6 @@ He hasn't told the rest of the village. This knowledge gives him an edge: he can
 
 Still sołtys. The man the committee will deal with first — the official face of %NEW_VILLAGE%. He controls access, information, and the villagers. He has the most to lose if the truth comes out — not just the lynch, but his position, his hidden heritage, everything.
 
+**Has the only telephone in the village** — in his office. A heavy bakelite handset connected through a manual switchboard. It's the village's sole link to the outside world, and %WOJEWODA% decides who uses it.
+
 **Suspects %JUNIOR% is the father of %BARBARA%'s son %PAWEŁEK%.** Built a small house for %BARBARA% out of guilt — taking care of his son's mess quietly, the way a sołtys handles things. He's wrong about the father, but he doesn't know that.
