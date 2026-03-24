@@ -25,6 +25,12 @@ He's not cruel — he genuinely believes he's on the right side. He sees himself
 
 For the players, %OFFICER% is unsettling not because he's evil, but because he makes a *coherent* argument for burying the truth.
 
+## The Village
+
+%OFFICER% doesn't operate alone — he has **%WOJEWODA%** as his informant and contact in %NEW_VILLAGE%. The sołtys reports to him, keeps order, and ensures nobody asks the wrong questions. In return, %WOJEWODA% enjoys state backing for his authority.
+
+This link means the committee is being managed from both sides — %OFFICER% from above, %WOJEWODA% from within the village.
+
 ## The Layers of Cover-Up
 
 | Crime | Who wants it buried | Why |
