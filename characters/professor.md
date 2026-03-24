@@ -13,16 +13,16 @@ A hydrologist or engineer connected to the Solina Dam project. Arrives in 1967 w
 
 ## The Discovery
 
-%PROFESSOR% has determined that the original flood projections were incorrect. The planners thought the rising lake would only swallow %OLD_VILLAGE% and the surrounding lowlands. But combined with an exceptionally heavy rain season in 1967, the water will **also engulf the entirety of %NEW_VILLAGE%**.
+%PROFESSOR% has determined that the original flood projections **may be** incorrect. The planners thought the rising lake would only swallow %OLD_VILLAGE% and the surrounding lowlands. But combined with an exceptionally heavy rain season in 1967, %PROFESSOR%'s models suggest the water **could also reach %NEW_VILLAGE%**.
 
-The village needs to be **evacuated immediately**.
+He's not certain. The terrain data is incomplete — the original surveys didn't account for the village's elevation with enough precision. **Field measurements are needed** to confirm whether the flood zone will extend that far. That's why the committee includes a geologist.
 
 ## What This Means
 
-- The colonists of %NEW_VILLAGE% — who were never supposed to be displaced — are now facing the same fate as the Lemkos before them.
-- There is no time for orderly relocation. The rain won't stop. The water is rising.
-- The committee (players) arrives into this crisis — a village in panic, a deadline imposed by nature itself.
-- The well in %OLD_VILLAGE% — holding the remains from both the massacre and the lynch — will soon be underwater. Evidence drowned forever.
+- The flooding of %NEW_VILLAGE% is a **possibility, not a certainty** — but serious enough that the state can't ignore it.
+- The committee is sent to prepare for the worst case: census, damage assessment, and evacuation planning — while the geologist takes measurements to determine if evacuation is actually necessary.
+- This buys time dramatically. The players aren't delivering a death sentence on arrival — they're there to **find out** if the sentence is real. The geological work requires surveying the terrain, taking soil samples, measuring elevations — work that takes the geologist **into the field**, into %OLD_VILLAGE%, near the well.
+- The well in %OLD_VILLAGE% — holding the remains from both the massacre and the lynch — will be underwater if the worst case is confirmed. Evidence drowned forever.
 
 ## Open Questions
 

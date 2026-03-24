@@ -4,7 +4,7 @@
 
 ## Formation
 
-After %PROFESSOR%'s discovery that the flood zone will swallow %NEW_VILLAGE%, the state scrambles a response. A committee is formed and dispatched to the village immediately. **%OFFICER%** (SB) is assigned as their handler — officially to "facilitate cooperation," in reality to control what they see and what they report.
+After %PROFESSOR%'s discovery that the flood zone **may** swallow %NEW_VILLAGE%, the state scrambles a response. A committee is formed and dispatched to the village to prepare for the worst case. **%OFFICER%** (SB) is assigned as their handler — officially to "facilitate cooperation," in reality to control what they see and what they report.
 
 ## Mandate
 
@@ -12,7 +12,9 @@ The committee has three tasks:
 
 1. **Census** — Document every person living in %NEW_VILLAGE%. Names, family composition, property.
 2. **Damage assessment** — Inventory buildings, land, livestock, and infrastructure to calculate state compensation.
-3. **Evacuation** — Organize and execute the relocation of the entire community before the water rises.
+3. **Evacuation planning** — Prepare a relocation plan in case the flooding is confirmed.
+
+A fourth, underlying task belongs to **one of the players — a geologist**. They must take field measurements (elevation, soil, terrain) around %NEW_VILLAGE% and %OLD_VILLAGE% to determine whether the flood will actually reach the village. This geological survey is what will confirm or deny the need for evacuation — and it requires going **into the field**, near the ruins, near the well.
 
 ## What the Village Knows
 

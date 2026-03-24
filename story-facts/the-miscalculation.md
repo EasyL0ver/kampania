@@ -4,9 +4,11 @@
 
 ## What Happened
 
-%PROFESSOR% discovers that the hydrological calculations for the Solina reservoir were wrong. The original projections indicated only %OLD_VILLAGE% and the low-lying areas would be submerged. But the calculations underestimated the flood zone — compounded by an **exceptionally heavy 1967 rain season**, the water will swallow **%NEW_VILLAGE% as well**.
+%PROFESSOR% discovers that the hydrological calculations for the Solina reservoir **may be** wrong. The original projections indicated only %OLD_VILLAGE% and the low-lying areas would be submerged. But the calculations potentially underestimated the flood zone — compounded by an **exceptionally heavy 1967 rain season**, the water **could** swallow **%NEW_VILLAGE% as well**.
 
-The village must be evacuated **now**.
+The key word is **could**. %PROFESSOR% doesn't have enough data to be certain. The original terrain surveys lack the precision needed for a definitive answer. **A geologist must take field measurements** — elevation readings, soil samples, terrain mapping around %NEW_VILLAGE% and %OLD_VILLAGE% — to confirm or deny the threat.
+
+The committee is sent to prepare for the worst case while the geologist determines the truth on the ground.
 
 ## Historical Basis
 
