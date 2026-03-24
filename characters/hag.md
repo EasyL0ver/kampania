@@ -24,6 +24,12 @@ She's been out there for **20 years**. The forest swallowed the villages, and sh
 
 She is the **living memory** of %OLD_VILLAGE% — the last witness to a world the state tried to erase.
 
+## The Ritual
+
+%HAG% regularly sneaks into the ruins of %OLD_VILLAGE%'s *cerkiew* to perform a traditional Lemko rite for the unquiet dead. In Lemko folk belief, the unmourned — those never given proper funerals, whose graves were never tended — become restless spirits. %HAG% appeases them with fire, incense, offerings of bread and honey, and prayer in the old Lemko tongue.
+
+She has done this for **20 years**. The colonists who sometimes glimpse her lights or hear her singing believe %OLD_VILLAGE% is haunted. They avoid the ruins — which has, inadvertently, protected the evidence in the well all this time.
+
 ## Open Questions
 
 - Does she speak? To whom? Only Lemko? Broken Polish?
