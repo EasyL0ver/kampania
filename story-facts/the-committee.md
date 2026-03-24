@@ -14,6 +14,14 @@ The committee has three tasks:
 2. **Damage assessment** — Inventory buildings, land, livestock, and infrastructure to calculate state compensation.
 3. **Evacuation** — Organize and execute the relocation of the entire community before the water rises.
 
+## What the Village Knows
+
+**The villagers have no idea they are about to be flooded.** They know about the Solina Dam — everyone does — but they believe only %OLD_VILLAGE% and the lowlands are in the flood zone. %NEW_VILLAGE% was never part of the original displacement plan. The committee's arrival is the first sign that something has changed.
+
+%OFFICER% instructs the committee to **be delicate** — don't lead with the evacuation. Start with the census, the damage assessment. Let the villagers think this is routine paperwork. Break the news gradually, once trust is established.
+
+This means the players walk into a village that doesn't yet know its world is ending — and they're carrying the death sentence in their briefcases.
+
 ## What This Means in Practice
 
 The committee has a legitimate reason to:
