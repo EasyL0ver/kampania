@@ -6,9 +6,7 @@
 
 A brutal, multi-layered crime drama set in the Bieszczady Mountains during late PRL (1978/1982). A drifter arrives at a homestead where a drunken night ends in mass death. Years later, a militia investigation peels back layers of lies, corruption, and systemic rot.
 
-## What to Take — EVERYTHING
-
-This film is essentially the DNA of our one-shot:
+## Atmosphere & Themes
 
 ### Setting
 - **Bieszczady as hell.** Isolated, cut off, no law, no escape. The geography is a prison.
@@ -17,7 +15,7 @@ This film is essentially the DNA of our one-shot:
 ### Alcohol
 - **Omnipresent.** Bimber (moonshine), vodka, constant drinking. Every scene. Every decision.
 - **Not just a vice — a social mechanism.** People drink to bond, to forget, to give themselves permission.
-- **The catalyst for atrocity.** In Dom Zły, the worst happens during a night of heavy drinking. Same as our lynch.
+- **The catalyst for atrocity.** The worst happens during a night of heavy drinking.
 
 ### Violence
 - **Raw, unglamorous, sickening.** Not action — just humans destroying each other.
@@ -36,18 +34,6 @@ This film is essentially the DNA of our one-shot:
 - **Oppressive naturalism.** Mud, cold, darkness, cramped interiors, bad light.
 - **Black humor.** Even in the horror, there's a grim absurdity.
 - **No redemption.** The ending doesn't fix anything. It just reveals the full scope of the damage.
-
-## Direct Parallels to Our Story
-
-| Dom Zły | Our One-Shot |
-|---|---|
-| Drunken night → mass death | The lynch (1954) |
-| Investigation years later | Committee arrives (1967) |
-| Bieszczady isolation | %NEW_VILLAGE% cut off in the rain |
-| Bimber and moonshine | Alcohol as symbolic character |
-| Militia reconstruction | Players piecing together what happened |
-| Systemic rot / PRL corruption | %OFFICER% and state cover-up |
-| No clean hands | Every named NPC is guilty of something |
 
 ## Sources
 
