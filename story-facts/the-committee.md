@@ -24,6 +24,16 @@ A fourth, underlying task belongs to **one of the players — a geologist**. The
 
 This means the players walk into a village that doesn't yet know its world is ending — and they're carrying the death sentence in their briefcases.
 
+## The Ledger Decides Everything
+
+The committee's paperwork isn't bureaucratic busywork — it's **the document that will determine the village's fate**. The census ledger and damage summary go back to the state. If the geologist confirms the flooding, these documents decide:
+
+- **Who gets compensated** and how much.
+- **Who gets relocated** and where.
+- **Who officially exists** — anyone not in the ledger doesn't exist to the state. No entry, no compensation, no new home.
+
+This gives the players enormous power they may not immediately realize. The pen in their hand is life or death for these families. And it gives the villagers an enormous reason to cooperate — or to manipulate. Everyone wants to be in that ledger. Everyone wants their property valued generously. And some people might not want certain things written down at all.
+
 ## What This Means in Practice
 
 The committee has a legitimate reason to:
