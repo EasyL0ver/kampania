@@ -13,9 +13,9 @@ Infant son of %SOLDIER%. Living in %NEW_VILLAGE%. Mentally challenged — **not 
 
 ## What Happened
 
-During the lynch (1952), after %JAGNA%, %SOLDIER%, and %SOLDIER%'s wife were killed, %BUTCHER% attempted to strangle %GLUPEK% to eliminate all witnesses. **%CIOTKA% intervened and saved his life** — but the oxygen deprivation had already caused permanent brain damage.
+During the lynch (1954), after %JAGNA%, %SOLDIER%, and %SOLDIER%'s wife were killed, %BUTCHER% attempted to strangle %GLUPEK% to eliminate all witnesses. **%CIOTKA% intervened and saved his life** — but the oxygen deprivation had already caused permanent brain damage.
 
-%GLUPEK% was **2 years old** at the time (born 1950). A toddler — no memory of the event or his family.
+%GLUPEK% was **4 years old** at the time (born 1950). Too young to remember the event or his family.
 
 ## Fate
 

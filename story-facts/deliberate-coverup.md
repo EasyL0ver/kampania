@@ -21,7 +21,7 @@ The dam is infrastructure. It is also a grave.
 This adds a **third layer** to the cover-up:
 
 1. **The massacre (1947)** — soldiers' pact of silence (now moot, %SOLDIER% is dead)
-2. **The lynch (1952)** — villagers' shared guilt
+2. **The lynch (1954)** — villagers' shared guilt
 3. **The flooding (1967)** — state policy, enforced by %OFFICER%
 
 Everyone wants the water to rise. Everyone needs the well to stay sealed. But for completely different reasons.

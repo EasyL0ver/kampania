@@ -10,7 +10,7 @@ Alcohol is not just a prop — it's a **force** in %NEW_VILLAGE%, as central as 
 
 | Event | Alcohol's role |
 |---|---|
-| The lynch (1952) | %WUJAS%, %WOJEWODA%, %BUTCHER% were massively drunk. Without the drink, the beating might not have escalated to rape, murder, and infanticide. |
+| The lynch (1954) | %WUJAS%, %WOJEWODA%, %BUTCHER% were massively drunk. Without the drink, the beating might not have escalated to rape, murder, and infanticide. |
 | %WUJAS% in 1967 | A full-blown alcoholic. The guilt has fermented into permanent drunkenness. |
 | Village life | Heavy drinking is the norm. Bieszczady settlers drank to cope with isolation, trauma, and the harshness of frontier life. |
 

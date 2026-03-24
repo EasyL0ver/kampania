@@ -5,7 +5,7 @@
 ## Vital Statistics
 
 - **Born:** 1935
-- **Died:** 1952 (age 17)
+- **Died:** 1954 (age 19)
 
 ## Role
 

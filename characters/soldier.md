@@ -5,7 +5,7 @@
 ## Vital Statistics
 
 - **Born:** 1910
-- **Died:** 1952 (age 42)
+- **Died:** 1954 (age 44)
 
 ## Role
 
@@ -31,14 +31,14 @@ He built a home and a life on the doorstep of the place where he committed mass 
 
 ## Death
 
-In 1952, %SOLDIER% was killed during the lynch in %NEW_VILLAGE%. He intervened when the three drunk men (%WUJAS%, %WOJEWODA%, %BUTCHER%) attacked his daughter %JAGNA%, and was killed trying to save her.
+In 1954, %SOLDIER% was killed during the lynch in %NEW_VILLAGE%. He intervened when the three drunk men (%WUJAS%, %WOJEWODA%, %BUTCHER%) attacked his daughter %JAGNA%, and was killed trying to save her.
 
 After his death, %BUTCHER% convinced the others it was too late for half measures — %SOLDIER%'s wife and infant son %GLUPEK% had to die too. The wife was killed. %GLUPEK% survived.
 
 Bodies dumped into the old well in %OLD_VILLAGE% — the same well that holds the Lemko massacre remains.
 
 **%SOLDIER%'s family:**
-- **%SOLDIER%'s wife** (unnamed, born ~1915) — **killed in the lynch** (1952, age ~37)
+- **%SOLDIER%'s wife** (unnamed, born ~1915) — **killed in the lynch** (1954, age ~39)
 - **%JAGNA%** — young girl — **killed in the lynch** (beaten, raped)
 - **%GLUPEK%** — small infant, mentally challenged — **survived**
 

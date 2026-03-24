@@ -30,7 +30,7 @@ For the players, %OFFICER% is unsettling not because he's evil, but because he m
 | Crime | Who wants it buried | Why |
 |---|---|---|
 | Lemko massacre (1947) | **The state** (via %OFFICER%'s superiors) | State crime, political embarrassment |
-| The lynch (1952) | **The villagers** (%WOJEWODA%, %WUJAS%, %BUTCHER%) | Personal crime, murder, rape |
+| The lynch (1954) | **The villagers** (%WOJEWODA%, %WUJAS%, %BUTCHER%) | Personal crime, murder, rape |
 
 %OFFICER% may be caught between his duty to the state and his conscience.
 
