@@ -23,6 +23,37 @@ During the lynch (1954), after %JAGNA%, %SOLDIER%, and %SOLDIER%'s wife were kil
 
 **In 1967** (when the story takes place), %GLUPEK% is **17 years old** — a brain-damaged teenager, **physically massive and imposing**, living among the people who murdered his family. He doesn't understand what happened to him, but everyone who looks at him is reminded of what they did — or what they let happen.
 
+## Relationships
+
+### %CIOTKA% — Caretaker, the only mother he knows
+
+%CIOTKA% raised him from the night of the lynch. She's his whole world — the woman who feeds him, shelters him, and protects him from a village that doesn't know what to do with him. He doesn't understand why she cries sometimes. He doesn't know she saved his life.
+
+### %PRIEST% — Protector, safe space
+
+The church is %GLUPEK%'s refuge. %PRIEST% treats him with patience and dignity — gives him small tasks, lets him sit in the quiet. %GLUPEK% may not understand faith, but he understands safety. The church is where nobody hurts him.
+
+### %BUTCHER% — Instinctive fear
+
+%GLUPEK% flinches from %BUTCHER%. He doesn't remember why. There's no conscious memory — just a body that knows. When %BUTCHER%'s dogs bark, %GLUPEK% hides. When %BUTCHER% passes on the road, %GLUPEK% goes still. The village notices this. Nobody explains it.
+
+## The Flood & The Committee
+
+**%GLUPEK% doesn't understand.** The committee, the census, the flood — none of it means anything to him. He's brain-damaged. Government people with papers are just strangers, and strangers make him nervous. He'll hide behind %CIOTKA% or retreat to the church.
+
+**But he needs to be in the census to survive.** If his name isn't on paper, he doesn't get evacuated. And documenting %GLUPEK% means answering questions — whose son is he, where does he live, why is he in %SOLDIER%'s house, where is his father? Every line on the form leads back to the lynch. %CIOTKA% knows this. The boy who can't understand the flood is the one whose survival depends on paperwork that could expose everything.
+
+## The Well's Influence
+
+The well draws %GLUPEK% **physically and mentally.** He is the one person who was supposed to die there — the unfinished business, the survivor the well never received. As it strengthens, it calls him home.
+
+- He wanders toward %OLD_VILLAGE% more often. Escapes %CIOTKA%'s watch. Found standing at the forest's edge, staring in the direction of the ruins. Doesn't explain — can't explain — why.
+- His agitation grows. Non-verbal distress: rocking, hitting himself, crying without cause. The village reads it as his usual condition worsening. It's not. Something is waking up inside him.
+- **The well is giving him back the truth.** Not in words — %GLUPEK% doesn't have the language for it. In fragments. In feelings. He starts flinching from %WOJEWODA% and %WUJAS% too — not just %BUTCHER%. He pulls away from %CIOTKA% and doesn't understand why (she was there that night — his body is learning to distrust her). He stares at his own hands. He stares at the well.
+- If he reaches the well, he stands there for a long time. Still. The agitation stops. Something in him recognises the place — not the memory, but the gravity. He was supposed to be down there. The well is showing him where his family went.
+
+The well doesn't give %GLUPEK% dreams — it gives him **knowledge he can't process.** The truth is arriving in a mind that doesn't have the architecture to hold it. What that does to a 17-year-old brain-damaged boy who's discovering that the woman who raised him was there the night his family was murdered — that's one of the story's most dangerous variables.
+
 ## Open Questions
 
 - Who raised %GLUPEK% after the lynch? %CIOTKA%?

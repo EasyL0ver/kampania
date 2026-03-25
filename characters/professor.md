@@ -24,6 +24,18 @@ He's not certain. The terrain data is incomplete — the original surveys didn't
 - This buys time dramatically. The players aren't delivering a death sentence on arrival — they're there to **find out** if the sentence is real. The geological work requires surveying the terrain, taking soil samples, measuring elevations — work that takes the geologist **into the field**, into %OLD_VILLAGE%, near the well.
 - The well in %OLD_VILLAGE% — holding the remains from both the massacre and the lynch — will be underwater if the worst case is confirmed. Evidence drowned forever.
 
+## The Well's Influence
+
+**None.** %PROFESSOR% does not arrive until the very end of the story. He is not present during the well's escalation and is not affected by it.
+
+## The Phone — The Players' Lifeline
+
+**%PROFESSOR% can be contacted by phone during the game.** %WOJEWODA% controls the only phone in the village, but if the players gain access to it, they can call %PROFESSOR% and tell him what they've found — including the massacre.
+
+**This is the players' insurance policy.** If %PROFESSOR% knows about the massacre before the report is handed to %OFFICER%, the truth exists outside the car. Killing the players doesn't erase it. %OFFICER% can reach for the gun, but the information is already out — and %OFFICER% knows it.
+
+A single phone call, made at the right time, to the right person, is the difference between the gun ending the story and the gun staying in its holster. The players may not even realise what they've done until the car scene. But the GM knows.
+
 ## Open Questions
 
 - Is %PROFESSOR% part of the committee, or does he arrive separately?

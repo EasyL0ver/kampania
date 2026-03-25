@@ -26,9 +26,17 @@ She suspects something terrible. She's never had enough to be certain — and ev
 
 ## Her Investigation
 
-%WIFE% has been quietly watching, listening, remembering — not because she's building a case, but because **she can't stop noticing**. She's not a detective. She's a woman who lives with a man whose hands she doesn't fully trust, and every year the weight of what she doesn't know gets heavier.
+%WIFE% has been quietly investigating the events of 1954 for years — not because she's building a case, but because **she can't stop noticing**. She's a woman who lives with a man whose hands she doesn't fully trust, and every year the weight of what she doesn't know gets heavier.
 
-She's assembled edges — but no picture. She's never had anyone to share them with.
+In the last year or two, she gained something she never had before: **%JUNIOR%**. She never told him outright — it happened gradually. She stopped deflecting his questions, started saying things like *"Nobody talks about that"* and *"Ask your father and watch his face."* Now they have an unspoken pact: she watches the house (papers, meetings, silences), he works the outside (listening to %WUJAS% drunk, visiting %OLD_VILLAGE%, asking around).
+
+**What they've assembled:**
+- A stained shirt from 1954, a mismatched button, newspaper clippings, handwritten notes — hidden in a flour tin in the pantry
+- Drunken fragments from %WUJAS%: *"She didn't deserve it,"* the name %JAGNA% spoken once, *"Don't ever be like us"*
+- A rough timeline: something happened in 1954, it involved %SOLDIER%'s family, all four siblings were connected
+- No proof. Just a shape in the dark.
+
+Their investigation is the most dangerous thing in the village — not for outsiders, but for *them*. See `story-facts\wife-junior-investigation.md` for full details.
 
 ## Relationship to the Committee
 
@@ -38,6 +46,12 @@ But for the first time in 13 years, there are **outsiders** in the village. Peop
 
 Trusting the players is the hardest thing she's ever done. Not a confession of guilt — a leap of faith.
 
+## Relationship to %PRIEST%
+
+**Burned.** %WIFE% approached %PRIEST% more than once over the years — in confession, in private, always carefully. He shut her down every time. *"Suspicion without proof is a sin against your neighbour."* Gentle, pastoral, final.
+
+She doesn't know how much he knows. But she knows he chose to stand with the silence. This is why she trusts no institution — not the state (her husband's apparatus), not the church (told her to stop looking). Both gates were closed in her face.
+
 ## Moral Dilemma
 
 %WIFE%'s dilemma is **powerlessness, not cowardice**. She's spent 13 years trying to understand what happened with no tools, no allies, and no one to trust. Now strangers arrive who *could* help — but they come wrapped in the same state authority that protects her husband.
@@ -45,6 +59,27 @@ Trusting the players is the hardest thing she's ever done. Not a confession of g
 **Does she trust outsiders who might betray her to the man she sleeps next to every night?**
 
 If she's wrong about the players, she loses everything — her husband finds out, and she's seen what this family does to people who become problems. If she's right, she destroys her family, her son's future, and the only life she has.
+
+## The Flood & The Committee
+
+**%WIFE% agrees with her husband.** She supports %WOJEWODA%'s approach — cooperate, census everyone, prepare for evacuation. She's a pragmatist married to a pragmatist, and the village's survival comes first.
+
+**She may set aside her own investigation.** If the flood is real and the village is going under, 13 years of searching for the truth might matter less than keeping living families alive. She can make that calculation. It costs her something, but she can make it.
+
+**But she might suggest that some people can be omitted from the census.** A quiet word to the players. If someone isn't on the list, they don't get evacuated. The flood comes and they're simply not there. No record, no relocation, no rescue. The water handles what 13 years of justice couldn't.
+
+This is %WIFE%'s darkest angle — the woman who wanted truth discovering she'd settle for punishment. She can't get a trial. She can't get a confession. But she can leave a name off a piece of paper and let the dam do the rest.
+
+## The Well's Influence
+
+The well amplifies %WIFE%'s **desperate need for truth.** For 13 years she's been careful, patient, quiet — watching from the edges, collecting fragments, never pushing too hard. The well strips away the caution.
+
+- She gets bolder. Approaches the players before she's fully decided to trust them — a half-started conversation, a look held too long, a question that's too pointed. Dangerous, because %WOJEWODA% is watching everyone.
+- She pushes %JUNIOR% harder. Their secret investigation becomes more urgent, more reckless. She sends him to %OLD_VILLAGE% at bad times, asks him to confront %WUJAS% directly instead of waiting for drunken slips.
+- She may confront %WOJEWODA%. Not with evidence — she doesn't have any. With the raw, accumulated weight of 13 years of suspicion. A fight that blows up not because she planned it but because she can't hold it in anymore.
+- The dreams she has are about **the night in 1954** — except she's outside the house instead of inside. She can see what happened. She can see everything. And she can't move, can't shout, can't intervene. She wakes up knowing the truth is right there, just out of reach, and the restraint that kept her safe is gone.
+
+The well pushes %WIFE% toward truth through courage. But courage without timing is dangerous — especially when your husband is the sołtys and his paranoia is also getting worse.
 
 ## Open Questions
 

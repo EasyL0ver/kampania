@@ -31,6 +31,10 @@ For the players, %OFFICER% is unsettling not because he's evil, but because he m
 
 This link means the committee is being managed from both sides — %OFFICER% from above, %WOJEWODA% from within the village.
 
+### %PRIEST% — Contempt
+
+%OFFICER% despises what %PRIEST% represents. The Church is a relic — superstition, backwardness, a rival power structure the state will eventually replace. In Bieszczady, where the state's grip is weak, a village priest holds real influence, and that grates. %OFFICER% has made his contempt clear through small cruelties: paperwork complications, veiled threats about "unsanctioned activities," reminders that the state tolerates religion only as long as it stays quiet. He'd love a reason to shut the parish down. On the question of the village's secrets they're accidentally aligned — both want silence — but %OFFICER% would never cooperate with a priest. He'd rather win alone.
+
 ## The Layers of Cover-Up
 
 | Crime | Who wants it buried | Why |
@@ -40,7 +44,9 @@ This link means the committee is being managed from both sides — %OFFICER% fro
 
 %OFFICER% may be caught between his duty to the state and his conscience.
 
-## Open Questions
+## The Well's Influence
+
+**None.** %OFFICER% does not arrive until the very end of the story. He is not present during the well's escalation and is not affected by it.
 
 - Does %OFFICER% know about the lynch too, or only the massacre?
 - Is he posing as something else (committee member? local official? dam engineer?)

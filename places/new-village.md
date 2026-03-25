@@ -33,8 +33,82 @@ What they would **not** know: that %OLD_VILLAGE% wasn't simply evacuated. That t
 
 The colonists of %NEW_VILLAGE% are the second layer of this tragedy. Brought in to fill the void left by ethnic cleansing, they now face their own expulsion by the state. And they've been living next to an unmarked mass grave without knowing it.
 
+## Buildings & Locations
+
+### %WOJEWODA%'s House
+- **Central location**, seat of authority
+- Two stories, best-maintained building in village
+- Ground floor: %WOJEWODA%'s office with **the only phone in %NEW_VILLAGE%**
+- Residents: %WOJEWODA%, his wife, %JUNIOR% (when home), %WUJAS% (crashes here irregularly)
+- **Narrative function:** Communication bottleneck; players must negotiate access to phone through %WOJEWODA%
+
+### %MATRONA% & %PAINTER%'s House
+- Residence of the couple and their children
+- %MATRONA%'s store is likely attached or very close
+- Residents: %MATRONA%, %PAINTER%, %EWA% (eldest daughter), %KRYSTIAN% (youngest, altar boy)
+- **Atmosphere:** Controlled facade (pious family), inner tension (unhappy marriage, %EWA%'s worry for father)
+
+### %CIOTKA%'s House
+- Originally %SOLDIER%'s property — the best plot of land before the lynch
+- Now home to %CIOTKA% and %GLUPEK%
+- Residents: %CIOTKA%, %GLUPEK% (age 17, brain-damaged)
+- **Symbolism:** The woman who showed mercy lives in the house of the man she couldn't save; daily reminder of the crime
+- **Isolation:** Set apart from village center; %GLUPEK%'s presence makes this a quiet, avoided place
+
+### %BARBARA%'s House
+- Small house built by %WOJEWODA% for her
+- Residents: %BARBARA%, %PAWEŁEK% (age 4), %BABCIA% (elderly relative)
+- **Vulnerability:** Completely dependent on %WOJEWODA%'s goodwill for housing and employment
+- **Accessible:** Near farm, not isolated; players can visit freely
+
+### PGR Farm Complex
+- %WOJEWODA%'s farm operation (official PGR managed by him)
+- Multiple buildings:
+  - **Main farm building:** Equipment, storage
+  - **Worker barracks/quarters:** Where laborers sleep
+  - **Kitchen:** %ZOFIA% prepares meals for farm workers
+- Residents/workers: %FOREMAN%/%STEFAN% (overseer) and his family (%ZOFIA%, %STASZEK%), %JOZEK%, %PIOTR%, other laborers
+- %WUJAS% often crashes here with the drinking crew
+- **Noise hub:** Activity, rough voices, machinery — opposite of the village's quiet
+- **Surveillance:** %FOREMAN% observes everything; his loyalty is to %WOJEWODA%
+
+### Church
+- Modest building, serves spiritual function for village
+- Residents: %PRIEST%
+- Attached: Altar area where %KRYSTIAN% serves as altar boy
+- **Safe place:** Where %GLUPEK% hides during the crisis; where %PRIEST% offers shelter and moral resistance
+- **Confessional:** Where secrets are kept and %KRYSTIAN% overhears gossip
+
+### %MATRONA%'s Store
+- Small general store, possibly with living space above/behind
+- Staffed by: %HALINA% (resentful shopkeeper)
+- **Bench outside:** Informal village gathering place; gossip hub
+- **Social function:** Where villagers gather, where drinking crew hangs around, where news circulates
+- **Control point:** %MATRONA% uses store to observe and control village behavior through commerce
+
+### Generic Villager Homes
+- Scattered throughout %NEW_VILLAGE%
+- Simple, modest construction
+- Homes of %WIDOW%, %SCHOOLTEACHER%, %MILITIA_CONSCRIPT%, other named and unnamed families
+- **Atmosphere:** Poor but functional; each contains a story unknown to outsiders
+
+### Cemetery & Church Grounds
+- Adjacent to church
+- Lemko graves with Cyrillic inscriptions (from %OLD_VILLAGE%) mixed with Polish settler graves
+- **Visual reminder:** The layers of history, displacement, death
+- **Player navigation:** Clues, atmosphere, encounters
+
+## Geography & Movement
+
+- **Village center:** Around %WOJEWODA%'s office, store, church
+- **Farm area:** Outside village proper, where daily labor happens
+- **%SOLDIER%'s old plot:** Set apart, where %CIOTKA% and %GLUPEK% live
+- **Forest edges:** Where the ruins of %OLD_VILLAGE% begin; paths to the well, the bunker
+- **Roads:** Mud in rain, difficult access; isolation increases during storm
+
 ## Open Questions
 
 - Do any %NEW_VILLAGE% residents suspect something about %OLD_VILLAGE%?
 - Have they found anything — bones, belongings, bullet casings — while farming or building?
 - How do they feel about their own impending displacement for the dam?
+- Which buildings are most accessible to players, and which are locked off or dangerous to enter?
