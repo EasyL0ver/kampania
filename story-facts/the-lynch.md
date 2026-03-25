@@ -10,12 +10,13 @@
 
 ## The Escalation
 
-%WUJAS%, %WOJEWODA%, and %BUTCHER% were drinking heavily. Instigated against %JAGNA% and %PAINTER% — likely by %MATRONA%'s humiliation, %WOJEWODA%'s existing hatred for %SOLDIER%'s family, and %WUJAS%'s jealous obsession with %JAGNA%.
+%WUJAS%, %WOJEWODA%, and %BUTCHER% were drinking heavily. But the drinking wasn't accidental — **%MATRONA% orchestrated it**. After catching %JAGNA% and %PAINTER%, she went to her brothers not in tears but with intent. She fed the rage, got them drinking, and aimed them at %JAGNA%.
 
-Three drunk men, each with their own reason to be furious:
+Three drunk men, each with their own reason to be furious — and one sober woman behind them:
 - **%WOJEWODA%** — hates %SOLDIER% and everything connected to him (Lemko heritage)
 - **%WUJAS%** — rejected by %JAGNA%, now confirmed she chose %PAINTER% over him
 - **%BUTCHER%** — *role/motive TBD*
+- **%MATRONA%** — sober, present, directing. The true architect.
 
 ## What Happened
 
@@ -23,20 +24,21 @@ Three drunk men, each with their own reason to be furious:
 2. The three drunk men turned on **%JAGNA%**. They beat her severely. **%BUTCHER% and %WUJAS% raped her.**
 3. **%JAGNA% died.** It wasn't intended — they were massively drunk — but the beating and assault killed her.
 4. **%SOLDIER% intervened** — tried to save his daughter. The three men killed him.
-5. **%BUTCHER% turned cold.** With %JAGNA% and %SOLDIER% dead, he convinced %WOJEWODA% and %WUJAS% it was too late for half measures — %SOLDIER%'s wife and infant son had to die too. No witnesses.
+5. **%MATRONA% gave the order.** With %JAGNA% and %SOLDIER% dead, the drunk men were panicking. It was %MATRONA% — sober and clear-eyed — who said the wife and infant son had to die too. No witnesses. %BUTCHER% carried it out, but the logic was hers.
 6. **%BUTCHER% murdered %SOLDIER%'s wife.**
 7. **%BUTCHER% tried to strangle the infant %GLUPEK%.**
 8. **%CIOTKA% intervened** — stopped %BUTCHER% while he was strangling the baby. She saved %GLUPEK%'s life, but the damage was done. The strangling caused **brain damage** — this is the source of %GLUPEK%'s mental disability. Not congenital. Inflicted.
 
 Bodies dumped in the old well in %OLD_VILLAGE% — the same well holding the Lemko massacre remains.
 
-## The Three Men's Roles
+## The Roles
 
 | Who | Role in the lynch |
 |---|---|
+| **%MATRONA%** | **Sober. The architect.** Orchestrated the drinking, aimed the men at %JAGNA%, gave the order to eliminate the family. Never touched anyone. |
 | **%WUJAS%** | Drunk, rejected lover. Beat and raped %JAGNA%. Killed %SOLDIER%. |
 | **%WOJEWODA%** | Drunk, ethnic hatred. Beat %JAGNA%. Killed %SOLDIER%. |
-| **%BUTCHER%** | Drunk but **coldest head in the room**. Raped %JAGNA%. Pushed to eliminate the entire family. **Personally murdered %SOLDIER%'s wife. Attempted to strangle infant %GLUPEK%** — stopped by %CIOTKA%. |
+| **%BUTCHER%** | Drunk but obedient. Raped %JAGNA%. **Carried out %MATRONA%'s order** to eliminate the family. Personally murdered %SOLDIER%'s wife. Attempted to strangle infant %GLUPEK% — stopped by %CIOTKA%. |
 
 ## The Well
 
@@ -48,9 +50,7 @@ Two crimes, three years apart, one grave.
 
 ## Open Questions
 
-- How did %GLUPEK% survive? Hidden before they got to him? Someone intervened? Simply overlooked?
-- Why is %BUTCHER% so cold about this? Does he have a deeper motive?
-- Where was %CIOTKA% during all of this?
-- Where was %MATRONA% — did she witness the escalation beyond the discovery?
-- Does %PAINTER% know the full truth?
-- Who knows what really happened?
+- Where was %CIOTKA% during all of this? Did she see %MATRONA% giving orders?
+- Does %PAINTER% know the full truth? (Yes — he heard her voice as he was dragged away.)
+- Who knows %MATRONA%'s true role? The drunk men may genuinely not remember.
+- Does %BUTCHER% know he was following orders, or does he believe the escalation was his idea?
