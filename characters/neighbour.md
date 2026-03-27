@@ -21,6 +21,14 @@ Did not participate. Did not intervene. Did not report. Like the rest of the vil
 
 Lives next door to %CIOTKA% and %GLUPEK%. Sees the boy every day — the living reminder of the night they did nothing. Has spent 13 years pretending not to know, not to remember, not to have heard.
 
+### %BARBARA% — The one he protects
+
+%NEIGHBOUR%'s closest relationship. %BARBARA% lives right next door — the house %WOJEWODA% built for her. They're genuinely fond of each other. He helps with the house, brings firewood, watches %PAWEŁEK% sometimes. She and the boy are the only uncomplicated, untainted thing in his life — the one relationship that has nothing to do with 1954.
+
+She's the players' confidant — shares what she hears from the committee without understanding what it means. Over the fence, casual, holding %PAWEŁEK%. And %NEIGHBOUR% hears it all. Not the guilt that breaks him — the **protective instinct.** He sees the pattern: outsiders asking dangerous questions, the village tensing, and %BARBARA% in the middle of it — innocent, unaware, exposed. Just like %JAGNA% was. Just like %SOLDIER%'s wife was. The people who don't know what's coming are always the ones who get destroyed.
+
+He won't let it happen again. Not to her. Not to the boy. His breaking point isn't guilt — it's the realisation that standing by and doing nothing will cost %BARBARA% the way it cost %JAGNA%. This time he *acts*. And he acts wrong.
+
 %NEIGHBOUR% carries the guilt of **inaction**, not action. A different weight than the killers — lighter in law, but perhaps heavier on the conscience. They didn't swing a fist or hold anyone down. They just lay there and listened.
 
 ## The Flood & The Committee
@@ -49,11 +57,15 @@ The well gives %NEIGHBOUR% the same dream every night: **lying in bed, hearing t
 
 ## The Breaking Point
 
-%NEIGHBOUR%'s guilt is about inaction. The well amplifies it until inaction becomes unbearable. When it finally breaks, it doesn't come out as confession — it comes out as **overcorrection.** He will *act* this time. He will not lie in bed and listen.
+%NEIGHBOUR%'s breaking point isn't guilt — it's **love.** He hears what %BARBARA% is telling him — the committee asking about the old village, the well, the past — and he sees the pattern forming. Outsiders stirring up something dangerous. The village tensing. And %BARBARA%, innocent, unaware, right in the middle of it. Just like %JAGNA% was.
 
-If the game state pushes hard enough — truth exposed, village in chaos, no structure to hold — %NEIGHBOUR% becomes the spark for the punishment ending. He organises a mob. Drunk men, darkness, no road out. The same mechanics as 1954. The bystander who did nothing becomes the instigator. The man who lay still and listened is the one who finally moves — and moves wrong.
+He lay in bed in 1954 and listened to a girl die. He closed the curtain. He did nothing. He will not do nothing again. Not with %BARBARA% next door. Not with %PAWEŁEK% in her arms.
 
-**Any NPC or player can be the target** — whoever the village blames. See `story\ending-punishment-lynch.md`.
+When it breaks, it comes out as **overcorrection.** He will *protect* her this time. He will not lie in bed and listen. But protection, filtered through 13 years of guilt and the well's amplification, doesn't look like shielding — it looks like violence. He organises a mob. Drunk men, darkness, no road out. The same mechanics as 1954. The bystander becomes the instigator. The man who did nothing becomes the man who does too much.
+
+The cruelest part: he does it *for* %BARBARA%. To keep her safe. And it makes him exactly the thing he hated himself for not stopping in 1954.
+
+**Any NPC or player can be the target** — whoever %NEIGHBOUR% decides is the threat to her. See `story\ending-punishment-lynch.md`.
 
 ## Open Questions
 

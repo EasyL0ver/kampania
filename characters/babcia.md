@@ -7,6 +7,16 @@
 - **Born:** ~1890
 - **Age in 1967:** ~77
 
+## Character
+
+**%BABCIA%'s mind is going.** She comes and goes — sharp one moment, lost the next. Calls people the wrong names, confuses decades, mistakes %PAWEŁEK% for children who died in 1947. Nobody's diagnosed anything — it's 1967 in a mountain village. She's just the confused old woman. That's what old people do out here.
+
+And she's **mean.** Not gentle-grandmother mean — genuinely cruel. Sharp tongue, no filter, says things that cut. Insults %BARBARA%'s housekeeping, calls %JUNIOR% worthless, tells %PAWEŁEK% stories that aren't appropriate for a child. Whatever social polish she had is gone, and what's underneath is bitter, raw, and ugly.
+
+Players can never tell if she's being cruel because she's lost, or because she always was. Some of it is age. Some of it is 77 years of watching everything you love get destroyed. And some of it might just be who she is.
+
+The ritual knowledge she carries — is it real memory or a confused old woman singing nonsense? The players have to bet everything on the answer.
+
 ## Heritage
 
 **Lemko.** Not hidden, not denied — just irrelevant to a village that doesn't care about old women. %BABCIA% speaks more Lemko than Polish. She grew up in a world of *cerkiews*, Cyrillic headstones, and prayers sung in a language the state tried to erase. That world is gone. She carries it in her mouth.
@@ -75,14 +85,14 @@ The committee can write her name down. They can plan her relocation. She'll nod 
 
 ## The Well's Influence
 
-The well reaches %BABCIA% through **grief — and memory.** As it strengthens, something strange happens: while everyone else in the village deteriorates, %BABCIA%'s mind gets **sharper.**
+The well reaches %BABCIA% through **grief — and memory.** As it strengthens, something happens: **her mind starts coming back.** The confused old woman becomes lucid. Clear. Present. Nobody notices — she's just having a good day, then another good day, then a string of them. Nobody's been paying enough attention to realise something impossible is happening.
 
-- She starts humming the old prayers unprompted. Songs she hasn't sung in decades come back complete — every word, every inflection, every pause. %BARBARA% hears her grandmother singing at the stove and doesn't recognise the language.
-- Her memories of the Lemko world — the one that was erased — become vivid. Names she'd forgotten. Faces. The layout of villages she hasn't seen in 20 years. The dead are giving her back what time took away.
-- She becomes restless. Stares toward the forest through the window. Refuses to sleep. Sits up at night listening for something — the singing that used to come on the wind. The singing has stopped. The silence is worse than anything.
-- She starts speaking more Lemko and less Polish. The present fades while the past sharpens. To %BARBARA% it looks like senility — an old woman retreating into a dead language. It's the opposite. %BABCIA% isn't losing her mind. She's *recovering* it. The well is returning everything she needs to perform the rite.
+- She starts humming the old prayers unprompted. Songs she hasn't sung in decades come back complete — every word, every inflection, every pause.
+- Her memories return. Names, faces, conversations. She stops confusing people. She becomes coherent in a way she hasn't been in years — but only the players are new enough to notice something's off about it.
+- The cruelty sharpens into something deliberate instead of random. She's not confused anymore. If she says something cutting now, she means it.
+- She becomes restless. Stares toward the forest through the window. Refuses to sleep. Sits up at night listening for the singing that used to come on the wind. The singing has stopped. The silence is worse than anything.
 
-The well doesn't torment %BABCIA%. It **prepares** her. Every prayer remembered, every name recovered, every night spent staring toward %OLD_VILLAGE% — the well is arming the one person who can answer it. Whether she gets the chance depends on the players.
+The well doesn't torment %BABCIA%. It **heals** her. And nobody in the village thinks twice about it — old women have good days and bad days. Only the players, who meet her confused and cruel on day one and lucid and purposeful by day four, might realise that minds don't just come back like this.
 
 **For the players:** Getting to %BABCIA% requires getting through %BARBARA% first. Getting %BABCIA% to trust them requires patience, gentleness, and probably someone who can speak or understand Lemko. Getting her to teach the prayers — or speak them herself at the well — requires explaining something she may not survive hearing: that her people are in that well, and they need her voice.
 

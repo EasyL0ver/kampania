@@ -16,6 +16,7 @@ A poor woman in her late 20s, working on %WOJEWODA%'s farm. Single mother to %PA
 - **%WUJAS%** — sexual relationship
 - **%JUNIOR%** — sexual relationship
 - **%PAWEŁEK%** — her son. Father is **%WUJAS%**, but nobody knows this — not even %BARBARA%. She doesn't know which of the two is the father.
+- **%NEIGHBOUR%** — her closest friend. They're literal neighbours. He looks out for her and %PAWEŁEK% — helps with the house, brings firewood, keeps an eye on the boy. She trusts him completely. He's kind to her because she and the child are the only uncomplicated good thing in his life.
 
 ## In 1967
 
@@ -34,6 +35,16 @@ A poor, dependent woman living alone with %PAWEŁEK% in a **small house built fo
 **When she learns the flood is coming — she panics, then gets angry.** The government is going to drown them out. Her house — the only thing she has, built new by %WOJEWODA% — is going underwater. She has a 4-year-old son, no money, nowhere to go, and these people with clipboards are here to write it all down before the dam swallows it.
 
 She's not angry about secrets or history. She's angry about survival. A single mother in 1960s Poland just learned that the state is taking the one piece of ground she has. That rage is simple, real, and has nothing to do with the buried horrors the players are chasing.
+
+## The Danger — Players' Confidant
+
+**%BARBARA% seems safe.** She arrived after the lynch. She knows nothing. She has no connection to the crimes. She's sympathetic — a single mother, poor, devout. The players will trust her instinctively.
+
+And she talks. Not maliciously — she doesn't understand what she's carrying. She shares her day with %NEIGHBOUR% the way you'd share it with any friend. Over the fence, holding %PAWEŁEK%, casual. *"Those government people were asking about the old village today..."* *"They found something at the well, I think..."*
+
+She is a sieve. Everything the players tell her reaches %NEIGHBOUR% — the one man in the village who's been sitting on 13 years of guilt about the exact things the players are uncovering. She breaks her friend by being honest with him. He breaks the village because she was.
+
+**The players cause the lynch mob by trusting the wrong person.** Their own investigation blows up because they confided in the most harmless person in the village. Barbara's darkness isn't cruelty — it's that she doesn't know what information is dangerous, and she shares it with the one person it destroys.
 
 ## Faith
 

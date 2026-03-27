@@ -82,10 +82,14 @@ The water and the compulsion are the same curve. The man who contained himself f
 
 **He's looking forward to the flood.** Not in a calculated way like %WOJEWODA%. In a visceral, inarticulate way. The water is coming to the well. The water is going to fill it, cover it, swallow it. The thing that's been pulling at him for 13 years is about to be drowned — or completed — and either way, something in him says *yes*. He can't explain it. He doesn't try. He just watches the water rise and feels something he hasn't felt in years: anticipation.
 
-## Open Questions
+## The Well's Redemption
 
-- What is %BUTCHER%'s actual trade? (Name suggests literal butcher — fitting.)
-- How do the dogs play into the atmosphere? (Guard dogs? Feral pack? Extensions of his territorial nature?)
-- Does he know the massacre victims are in the well, or just the lynch victims?
-- What does the flooding mean to him? If the water takes the well, does he collapse — or does he become the most dangerous man in the valley?
-- What do the players make of his obsession? Is he guarding evidence? Mourning? Going mad? The answer is stranger than any of those.
+If the well has supernatural power — %BUTCHER% is its longest victim. Thirteen years of dreams, compulsions, sleepwalking. The violence of 1954 may have been his, or it may have been something that found the perfect vessel and poured itself in. He doesn't know. The players won't know either.
+
+But the players will know what it feels like. Because the well does the same thing to them.
+
+**The players dream too.** From the first night in the village, the dreams come. Violence — not memories, not narrative, just the raw sensation of it. Hands doing things. The satisfaction of breaking. The dream-logic feeling that this is *right* and *necessary*. Each night worse than the last.
+
+By day three, the players have felt what %BUTCHER% has felt for thirteen years. They wake up shaking, disgusted at themselves — at the part of them that didn't want the dream to stop. And then they have to look at %BUTCHER% across the village and wonder: am I any different? If I'd been here since 1954, what would I be by now?
+
+That's his redemption — not forgiveness, but understanding. The well doesn't excuse what he did. But it makes the players ask whether they could judge him without judging themselves.

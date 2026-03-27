@@ -1,15 +1,28 @@
 # %HAG%
 
-**Type:** Named character — old Lemko woman
+**Type:** Named character — Lemko woman, forest hermit
 
 ## Vital Statistics
 
-- **Born:** ~1890
-- **Age in 1967:** ~77
+- **Born:** ~1927
+- **Age in 1947:** ~20
+- **Age in 1967:** ~40
 
 ## Role
 
-An elderly Lemko woman living alone in the forest near %OLD_VILLAGE% / %NEW_VILLAGE%. One of the few who avoided deportation during Akcja Wisła — survived by hiding in the wilderness and never leaving.
+A Lemko woman living alone in the forest near %OLD_VILLAGE% / %NEW_VILLAGE%. The village calls her the hag, the witch, the ghost in the trees — but she's not old. She's 40, weathered by 20 years of forest living. She looks older than she is. She acts older than she is. The forest aged her the way guilt ages people.
+
+## The Sin
+
+In 1947, %HAG% was 20 and in love with a UPA soldier. A forbidden romance — a Lemko girl and an insurgent fighter the state was hunting. She hid him, fed him, met him in the forest. She was young and the war was someone else's problem.
+
+The authorities found out. Traced the connection back to the village. The military came — not for one man, but for everyone. The massacre at %OLD_VILLAGE% happened because of her. Because she loved someone she shouldn't have.
+
+She survived. He probably didn't. Everyone else definitely didn't. 
+
+She never left. Where would she go? She's the reason they're dead. The 20 years in the forest aren't devotion — they're a sentence she gave herself. Every prayer, every candle, every night in the cold: penance. Not *I remember you.* Not *I honour you.* **I'm sorry. I did this to you. I'm sorry.**
+
+She is Jagna's mirror. Two women, two forbidden loves, two catastrophes. Jagna loved across class — it triggered the lynch. %HAG% loved across the war — it triggered the massacre. The village paid both times. The only difference: Jagna died before she could understand what her love caused. %HAG% survived and has to live with it every single day.
 
 ## In 1967
 
@@ -17,12 +30,11 @@ She's been out there for **20 years**. The forest swallowed the villages, and sh
 
 ## What She Knows
 
-**%HAG% may know everything:**
-- She was there in 1947 — she may have **witnessed the Lemko massacre**, or at least its aftermath.
-- She's been in the forest through the colonist years — she may know about **the lynch**, or about **the well**.
-- She knows the land, the old village, the cemetery, the paths no one else remembers.
+**%HAG% knows everything about 1947** — because she was the reason it happened. She knows who died, where they fell, where the soldiers put them. She knows the well. She's known from the beginning.
 
-She is the **living memory** of %OLD_VILLAGE% — the last witness to a world the state tried to erase.
+She's been in the forest through the colonist years — she knows about the new village, has watched it grow. She may know about **the lynch** from watching at a distance, or about %BUTCHER%'s visits to the well. She knows the land, the old village, the cemetery, the paths no one else remembers.
+
+She is the **living memory** of %OLD_VILLAGE% — and its living guilt.
 
 ## The Ritual — Containing the Well
 

@@ -66,9 +66,9 @@ If she's wrong about the players, she loses everything — her husband finds out
 
 **She may set aside her own investigation.** If the flood is real and the village is going under, 13 years of searching for the truth might matter less than keeping living families alive. She can make that calculation. It costs her something, but she can make it.
 
-**But she might suggest that some people can be omitted from the census.** A quiet word to the players. If someone isn't on the list, they don't get evacuated. The flood comes and they're simply not there. No record, no relocation, no rescue. The water handles what 13 years of justice couldn't.
+**But she might suggest that some people can be omitted from the census.** A quiet word to the players. If someone isn't on the list, they don't exist. No record, no name, no proof they were ever here. The flood takes the land — the missing census takes the memory. They aren't killed. They're *erased*. The same thing the state did to the Lemkos, she's willing to do to the people she holds responsible.
 
-This is %WIFE%'s darkest angle — the woman who wanted truth discovering she'd settle for punishment. She can't get a trial. She can't get a confession. But she can leave a name off a piece of paper and let the dam do the rest.
+This is %WIFE%'s darkest angle — the woman who wanted truth discovering she'd settle for erasure. She can't get justice, so she'll take the next best thing: making sure certain people are forgotten. Not murdered. Worse — unmade. As if they never existed at all.
 
 ## The Well's Influence
 

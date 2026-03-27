@@ -29,6 +29,12 @@ To the other colonists, this looked like a man who'd somehow gotten lucky — or
 
 He built a home and a life on the doorstep of the place where he committed mass murder. He lives among the ruins, the overgrown cemetery, the crumbling *cerkiew*. Every day he sees what remains of the people he helped kill.
 
+## The Loving Father
+
+And yet — he was a good man at home. He loved his family fiercely. %JAGNA% was his pride, %GLUPEK% his youngest. His wife built the household while he worked the land. By all accounts a devoted father, a quiet neighbour, a man who kept to himself and raised his children well.
+
+That's what makes him impossible to judge cleanly. The hands that held his children are the same hands that killed Lemkos in 1947. The man who died protecting his daughter had once helped destroy someone else's family. The village killed a monster who was also the best father on the street.
+
 ## Death
 
 In 1954, %SOLDIER% was killed during the lynch in %NEW_VILLAGE%. He intervened when the three drunk men (%WUJAS%, %WOJEWODA%, %BUTCHER%) attacked his daughter %JAGNA%, and was killed trying to save her.
@@ -44,7 +50,4 @@ Bodies dumped into the old well in %OLD_VILLAGE% — the same well that holds th
 
 ## Open Questions
 
-- Did %SOLDIER% have a family in %NEW_VILLAGE%? (Yes — killed with him.)
-- What triggered the lynch? Did the massacre secret come out?
-- How does he react to the dam project — *(now moot — he's dead before the story starts)*
 - What traces of %SOLDIER% remain in %NEW_VILLAGE%? His house? Belongings? People who knew him?
