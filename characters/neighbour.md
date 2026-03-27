@@ -37,6 +37,16 @@ He won't let it happen again. Not to her. Not to the boy. His breaking point isn
 
 This anger makes %NEIGHBOUR% hostile to the players before anything else comes into play. They're not hiding a secret — they're furious about losing their home. The guilt underneath stays buried under the more immediate, more legitimate rage.
 
+## The Escalation
+
+%NEIGHBOUR% is **openly vindictive** — he's not hiding it. He'll call %BUTCHER% evil to anyone who listens. He'll tell the players the man shouldn't be in the village. He hates the people who did what they did in 1954 — but he's stuck in inaction. Talking is all he does. Loud opinions, no follow-through. The same paralysis from that night, just dressed up as righteousness.
+
+His arc is an escalation — each step a bigger overcorrection than the last:
+
+1. **Loud inaction** — 13 years of calling people evil and doing nothing about it. The man who hears everything, says everything, does nothing.
+2. **Erasure** — when the census begins, he suggests to %BARBARA% that some people shouldn't be on the list. Not murder — just paperwork. Leave them off. The flood takes the land, the missing names take the memory. *"Why would you save %BUTCHER%? Why would you put his name on paper?"* He frames it as justice. %BARBARA% doesn't understand the weight of it. She passes it to the players as a reasonable suggestion from a friendly neighbour.
+3. **Lynch mob** — when quiet erasure isn't enough, when the truth fully spills and words can't contain it, he finally *moves*. The man who was stuck for 13 years unsticks — and goes too far.
+
 ## Why They Matter
 
 - **Easiest NPC to crack.** They didn't do it — confessing costs them less than it costs the killers. The right pressure (guilt, alcohol, the committee's authority, fear of the water coming) could break them.
@@ -48,10 +58,10 @@ This anger makes %NEIGHBOUR% hostile to the players before anything else comes i
 
 The well amplifies %NEIGHBOUR%'s **guilt of inaction.** The guilt was already heavy — 13 years of seeing %GLUPEK% next door, the living reminder. Now it becomes physical.
 
-- They hear screaming at night. The same screaming from 1954 — %JAGNA%'s voice, the drunken shouting, the dogs going mad. It may be real (the village deteriorating), it may be the well. %NEIGHBOUR% can't tell the difference anymore.
-- Sleeplessness. They sit at the window staring at %CIOTKA%'s house — the same window they looked through that night and then closed the curtain. The curtain feels heavier now.
-- Jumpiness, paranoia. Every knock is %BUTCHER%. Every question from a stranger is an accusation. They flinch from the committee the same way they flinch from %BUTCHER% — anything that might force them to speak.
-- They become easier to crack but harder to *use*. The coherence is going. They ramble, circle, contradict themselves. The truth is in there — but it comes out in shards mixed with panic. The players have to sift gold from gravel.
+- He hears screaming at night. The same screaming from 1954 — %JAGNA%'s voice, the drunken shouting, the dogs going mad. It may be real (the village deteriorating), it may be the well. He can't tell the difference anymore.
+- Sleeplessness. He sits at the window staring at %CIOTKA%'s house — the same window he looked through that night and then closed the curtain. The curtain feels heavier now.
+- Jumpiness, paranoia. Every knock is %BUTCHER%. Every question from a stranger is an accusation. He flinches from the committee the same way he flinches from %BUTCHER% — anything that might force him to speak.
+- He becomes easier to crack but harder to *use*. The coherence is going. He rambles, circles, contradicts himself. The truth is in there — but it comes out in shards mixed with panic. The players have to sift gold from gravel.
 
 The well gives %NEIGHBOUR% the same dream every night: **lying in bed, hearing the screaming, reaching for the curtain — and this time, the curtain won't close.**
 
@@ -69,7 +79,7 @@ The cruelest part: he does it *for* %BARBARA%. To keep her safe. And it makes hi
 
 ## Open Questions
 
-- Man or woman? (TBD)
+- Man or woman? — **Male.**
 - Do they have a family, or live alone?
 - Have they ever hinted at what they know — to %PRIEST% in confession, to a drunk companion, to anyone?
 - How do they react to %GLUPEK%? Avoidance? Guilt-driven small kindnesses?

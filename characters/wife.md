@@ -11,6 +11,10 @@
 
 %WOJEWODA%'s wife. Mother of %JUNIOR%. Has lived in %NEW_VILLAGE% since the early settlement days — she was here before the lynch, during it, and after it. But she wasn't part of it.
 
+**She loves her husband.** That's the foundation. He's a good man, a good leader, and she's proud of what he's built. But he doesn't treat her as an equal. She's the wife — she keeps the house, she raises the boy, she pours tea for guests. He doesn't share his burdens with her, doesn't consult her, doesn't tell her what keeps him up at night. She's dismissed from everything that matters.
+
+**She's bored.** An intelligent woman with nothing to do in a mountain village. The house is clean. The boy is grown. The days are long. Her mind has nowhere to go — so it goes where it shouldn't. She starts noticing things.
+
 ## What She Knows
 
 Fragments. Just fragments — and no power to do anything with them:
@@ -26,7 +30,7 @@ She suspects something terrible. She's never had enough to be certain — and ev
 
 ## Her Investigation
 
-%WIFE% has been quietly investigating the events of 1954 for years — not because she's building a case, but because **she can't stop noticing**. She's a woman who lives with a man whose hands she doesn't fully trust, and every year the weight of what she doesn't know gets heavier.
+%WIFE% has been quietly investigating the events of 1954 for years — not because she's building a case, but because **she has nothing else.** An intelligent, dismissed woman in an empty house. The snooping started from boredom and hurt — why does my husband shut me out, what are the siblings whispering about, what happened that night he came home bloody? Noticing things became her purpose. The investigation grew from lonely curiosity into something much bigger than she expected — and now she's in too deep to stop but has no idea what to do with what she's found.
 
 In the last year or two, she gained something she never had before: **%JUNIOR%**. She never told him outright — it happened gradually. She stopped deflecting his questions, started saying things like *"Nobody talks about that"* and *"Ask your father and watch his face."* Now they have an unspoken pact: she watches the house (papers, meetings, silences), he works the outside (listening to %WUJAS% drunk, visiting %OLD_VILLAGE%, asking around).
 
@@ -35,6 +39,12 @@ In the last year or two, she gained something she never had before: **%JUNIOR%**
 - Drunken fragments from %WUJAS%: *"She didn't deserve it,"* the name %JAGNA% spoken once, *"Don't ever be like us"*
 - A rough timeline: something happened in 1954, it involved %SOLDIER%'s family, all four siblings were connected
 - No proof. Just a shape in the dark.
+
+## Her Darkness
+
+**She used her own son.** She pulled %JUNIOR% into the investigation because she was lonely and needed an ally. She didn't think about what it would do to him — learning his father might be a murderer at 19, sneaking around the village at night, carrying a secret that could get him killed. She weaponised her kid to fill the hole her husband left.
+
+She loves both of them. And she's damaging both of them. Not out of malice — out of boredom and neglect. The most dangerous thing in the village isn't the well or the secrets — it's an intelligent woman with nothing to do.
 
 Their investigation is the most dangerous thing in the village — not for outsiders, but for *them*. See `story-facts\wife-junior-investigation.md` for full details.
 
@@ -48,9 +58,9 @@ Trusting the players is the hardest thing she's ever done. Not a confession of g
 
 ## Relationship to %PRIEST%
 
-**Burned.** %WIFE% approached %PRIEST% more than once over the years — in confession, in private, always carefully. He shut her down every time. *"Suspicion without proof is a sin against your neighbour."* Gentle, pastoral, final.
+**Another door closed.** %WIFE% approached %PRIEST% more than once over the years — in confession, in private, always carefully. She needed someone to talk to. He shut her down every time. *"Suspicion without proof is a sin against your neighbour."* Gentle, pastoral, final.
 
-She doesn't know how much he knows. But she knows he chose to stand with the silence. This is why she trusts no institution — not the state (her husband's apparatus), not the church (told her to stop looking). Both gates were closed in her face.
+Another man telling her to be quiet and stop noticing things. Husband dismisses her from the table. Priest dismisses her from the confessional. The whole village tells her she's imagining things. That's what drives her — not injustice, but being told she's wrong when she knows she's not.
 
 ## Moral Dilemma
 
@@ -66,10 +76,6 @@ If she's wrong about the players, she loses everything — her husband finds out
 
 **She may set aside her own investigation.** If the flood is real and the village is going under, 13 years of searching for the truth might matter less than keeping living families alive. She can make that calculation. It costs her something, but she can make it.
 
-**But she might suggest that some people can be omitted from the census.** A quiet word to the players. If someone isn't on the list, they don't exist. No record, no name, no proof they were ever here. The flood takes the land — the missing census takes the memory. They aren't killed. They're *erased*. The same thing the state did to the Lemkos, she's willing to do to the people she holds responsible.
-
-This is %WIFE%'s darkest angle — the woman who wanted truth discovering she'd settle for erasure. She can't get justice, so she'll take the next best thing: making sure certain people are forgotten. Not murdered. Worse — unmade. As if they never existed at all.
-
 ## The Well's Influence
 
 The well amplifies %WIFE%'s **desperate need for truth.** For 13 years she's been careful, patient, quiet — watching from the edges, collecting fragments, never pushing too hard. The well strips away the caution.
@@ -83,9 +89,6 @@ The well pushes %WIFE% toward truth through courage. But courage without timing 
 
 ## Open Questions
 
-- How much has she actually pieced together? Close to the truth, or just a collection of bad feelings?
-- Has she ever found physical evidence — a bloodstain, a hidden object, something %WOJEWODA% kept?
 - How does %MATRONA% treat her? (The sister-in-law dynamic — ally or adversary?)
 - Does she know about %BARBARA% and %JUNIOR%? About %BARBARA% and %WUJAS%?
 - Has she ever confronted %WOJEWODA%? Even once, even obliquely?
-- What does %JUNIOR% know — has his mother ever hinted at her suspicions to him?

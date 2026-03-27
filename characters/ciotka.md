@@ -76,7 +76,6 @@ The well gives her dreams about **the night she saved %GLUPEK%** — except in t
 
 ## Open Questions
 
-- Does %CIOTKA% know the full truth about the 1947 massacre, or only the lynch?
+- Does she know the full truth about the 1947 massacre, or only the lynch?
 - How do the other siblings treat her? Respect? Resentment for saving %GLUPEK%?
-- Does %BUTCHER% see her as a threat — the one person who defied him?
 - Would she talk to the committee if pressed? Or does her devotion extend to protecting her siblings?

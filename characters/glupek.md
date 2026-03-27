@@ -23,6 +23,14 @@ During the lynch (1954), after %JAGNA%, %SOLDIER%, and %SOLDIER%'s wife were kil
 
 **In 1967** (when the story takes place), %GLUPEK% is **17 years old** — a brain-damaged teenager, **physically massive and imposing**, living among the people who murdered his family. He doesn't understand what happened to him, but everyone who looks at him is reminded of what they did — or what they let happen.
 
+## The Danger
+
+**%GLUPEK% is not harmless.** He's six foot, strong, and has no impulse control. He doesn't *intend* harm — but he doesn't know his own strength. If he's scared, confused, or provoked, he can hurt someone badly without meaning to. A hug that cracks ribs. A shove that sends someone into a wall. A panic that turns into flailing fists.
+
+For the players, he's terrifying — a large, silent, unpredictable figure who shows up where they don't expect him. Stares at them. Follows them. They don't know his story. They just see a potential threat. Every encounter is tense: is he about to approach gently, or is something about to go wrong?
+
+%CIOTKA% knows this. It's why she's terrified of him being exposed, examined, provoked by outsiders. She's spent 13 years managing him — keeping him calm, keeping him away from triggers, keeping the village from pushing him too far. The committee showing up is 13 years of careful management being threatened by strangers who don't understand what they're poking.
+
 ## Relationships
 
 ### %CIOTKA% — Caretaker, the only mother he knows
@@ -56,8 +64,5 @@ The well doesn't give %GLUPEK% dreams — it gives him **knowledge he can't proc
 
 ## Open Questions
 
-- Who raised %GLUPEK% after the lynch? %CIOTKA%?
-- How old is %GLUPEK% when the committee arrives? (Child? Teenager?)
-- Does %GLUPEK% have any fragmentary memories or instinctive reactions to his attackers?
+- Does %GLUPEK% have any fragmentary memories or instinctive reactions to his attackers beyond %BUTCHER%?
 - How do the villagers treat him? Pity? Guilt? Avoidance?
-- Does %BUTCHER% see %GLUPEK% as unfinished business?

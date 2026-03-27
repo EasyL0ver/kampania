@@ -40,7 +40,7 @@ The village believes %BUTCHER% was the coldest head that night. **They're wrong.
 
 She didn't stumble to her brothers in tears after catching the lovers. She went to them **with intent**. She got them drinking. She fed the rage. She aimed them at %JAGNA% like a weapon.
 
-When %SOLDIER% was dead and the drunk men were panicking, it was %MATRONA% — **sober, clear-eyed** — who said the wife and the baby had to die too. %BUTCHER% carried it out. But the logic was hers. The voice in the dark giving orders while three drunk men did the work.
+When %SOLDIER% was dead and the drunk men were panicking, it was %MATRONA% — **sober, clear-eyed** — who said to get rid of the problem. She didn't spell it out. She didn't have to. %BUTCHER% picked it up and carried it out. The wife and the baby. She never gave a direct order. She just made the suggestion and let the worst man in the room do the rest.
 
 She never touched anyone. Every hand that night was male. That's not an accident — it's her design.
 

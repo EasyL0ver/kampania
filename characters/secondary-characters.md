@@ -35,9 +35,9 @@ Minor NPCs, relationships, and supporting cast. Grouped by association for easy 
 ### %BUMP_THREE% / %FRANEK%
 **Type:** Village drunk — troublemaker  
 **Age in 1967:** ~35-45  
-**Role:** Younger and more aggressive than the other two. A brawler type, looking for fights when drunk. Drinks with %WUJAS% but there's tension—they have history, possibly a dispute over a woman or money. Could be dangerous if confronted. Might have been involved in or witnessed violence (the lynch, the second incident).
+**Role:** Younger and more aggressive than the other two. A brawler type, looking for fights when drunk. Drinks with %WUJAS% but there's tension—they have history, possibly a dispute over a woman or money. The most physically dangerous person at the store on any given day. Government people asking questions is exactly the kind of provocation that sets him off.
 
-**Notes:** The wild card of the group. Unpredictable. Could provide information, or could become physically threatening. Respects strength and directness.
+**Notes:** The wild card of the group. Unpredictable. Could provide information, or could become physically threatening. Respects strength and directness. If the players mishandle the drinking crew, Franek is the one who swings first.
 
 ---
 
@@ -105,61 +105,20 @@ Minor NPCs, relationships, and supporting cast. Grouped by association for easy 
 
 ---
 
-## %WOJEWODA%'s Household
-
-### %WOJEWODA%'s Wife (%ANNA%?)
-**Type:** Named character — %WOJEWODA%'s spouse  
-**Age in 1967:** ~55-60  
-**Role:** %JUNIOR%'s mother. A woman married into the village headman's position. How much does she know about the family's secrets? Is she complicit or willfully blind? Does she know about %JUNIOR% and %BARBARA%? How does she treat %CIOTKA% and %GLUPEK%?
-
-**Notes:** TBD — could be a minor character or a more developed one depending on needs. Represents the "respectable" face of %WOJEWODA%'s family.
-
----
-
 ## Village Functionaries & Outsiders
 
 ### %DOCTOR%
 **Type:** Authority figure — accessible only by phone  
-**Role:** The town doctor or nearest medical authority. Exists somewhere outside %NEW_VILLAGE%, reachable only by telephone (if the line works during the flood). Players may attempt to call him for advice about %PAWEŁEK%, but connectivity is uncertain and direct medical care is impossible. He can provide diagnosis guidance by phone but cannot physically reach the village.
+**Role:** The nearest medical authority, somewhere outside %NEW_VILLAGE%. Reachable only by telephone (if the line works). Players may call him about %PAWEŁEK%, but he cannot physically reach the village. Diagnosis guidance by phone only.
 
-**Notes:** Represents medical authority that's present but inaccessible. Creates tension between wanting professional help and being trapped by circumstance.
-
----
-
-### %ALTAR_BOY% / %Krystian%
-**Type:** Child — %MATRONA% and %PAINTER%'s youngest child  
-**Age in 1967:** ~10-12  
-**Role:** The youngest, serves at the church assisting %PRIEST%. Sees and hears things in confessional time, notices who comes and goes. %MATRONA% has likely pressured him into this role to maintain the family's reputation of piety. Innocent but observant. Could innocently reveal things heard in the village or near the church, though %MATRONA% has probably trained him well in discretion.
-
-**Notes:** May witness %GLUPEK% hiding in the church during a crisis. His reaction (fear, sympathy, running to tell adults) affects what happens next. His loyalty is to %MATRONA% first, so his cooperation with players depends on whether they can separate him from his mother's influence.
-
----
-
-## %WOJEWODA%'s Household
-
-### %WOJEWODA%'s Wife (%ANNA%?)
-**Type:** Named character — %WOJEWODA%'s spouse  
-**Age in 1967:** ~55-60  
-**Role:** %JUNIOR%'s mother. A woman married into the village headman's position. How much does she know about the family's secrets? Is she complicit or willfully blind? Does she know about %JUNIOR% and %BARBARA%? How does she treat %CIOTKA% and %GLUPEK%?
-
-**Notes:** TBD — could be a minor character or a more developed one depending on needs. Represents the "respectable" face of %WOJEWODA%'s family.
-
----
-
-## Village Functionaries & Outsiders
-
-### %DOCTOR%
-**Type:** Authority figure — accessible only by phone  
-**Role:** The town doctor or nearest medical authority. Exists somewhere outside %NEW_VILLAGE%, reachable only by telephone (if the line works during the flood). Players may attempt to call him for advice about %PAWEŁEK%, but connectivity is uncertain and direct medical care is impossible. He can provide diagnosis guidance by phone but cannot physically reach the village.
-
-**Notes:** Represents medical authority that's present but inaccessible. Creates tension between wanting professional help and being trapped by circumstance.
+**Notes:** Medical authority that's present but inaccessible. Tension between wanting help and being trapped.
 
 ---
 
 ## Generic Villagers (Population)
 
 ### Unnamed Villagers
-- **%NEIGHBOR_1%, %NEIGHBOR_2%, etc.** — Families living in %NEW_VILLAGE%. Use as needed for scenes, gossip, evacuation logistics, or village reaction.
+- **%NEIGHBOUR_1%, %NEIGHBOUR_2%, etc.** — Families living in %NEW_VILLAGE%. Use as needed for scenes, gossip, evacuation logistics, or village reaction.
 - **%WIDOW%** — Elderly woman living alone. Seen at church. Neutral.
 - **%SCHOOLTEACHER%** — If relevant; would know about village children.
 - **%MILITIA_CONSCRIPT%** — Young village man doing state service, home briefly. Connection to outside authority.

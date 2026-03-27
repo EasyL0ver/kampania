@@ -28,6 +28,12 @@ The village knows. The committee will hear about it. And it does exactly what a 
 
 **%JUNIOR% is genuinely ashamed of the fight.** It scared him — not the consequences, but how easy it was, how good it felt for a moment. He sees the same thing in %WUJAS% when the drink hits, and it terrifies him. He's afraid he's becoming them.
 
+## The Danger
+
+**%JUNIOR% reads as dangerous.** Spoiled kid, sołtys's son, violence on his record, untouchable. He sneaks around at night — the players will see him where he shouldn't be, at odd hours, doing things he won't explain. It looks sinister. It's actually %WIFE%'s investigation — he's the outside half of their secret operation, listening to %WUJAS% drunk, visiting %OLD_VILLAGE%, asking around.
+
+But the players don't know that. They see a violent young man with privilege, sneaking around a village full of secrets. He's the most suspicious person in the village for all the wrong reasons.
+
 ## In 1967
 
 Sleeping with **%BARBARA%** — a poor girl working on his father's farm. He doesn't know %WUJAS% is also with her, or that %PAWEŁEK% is actually his uncle's son.

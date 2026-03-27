@@ -19,7 +19,7 @@ Symbolically, he carries the unprocessed fury of the Lemko dead — their rage a
 
 ## The Lynch
 
-One of the three drunk men who attacked %JAGNA%. **Participated in the rape** along with %WUJAS%. After %SOLDIER% was killed, it was %BUTCHER% who said the wife and baby had to die too — no witnesses. %MATRONA% gave the order, but %BUTCHER% didn't need convincing. He carried it out with cold efficiency.
+One of the three drunk men who attacked %JAGNA%. **Participated in the rape** along with %WUJAS%. After %SOLDIER% was killed, %MATRONA% said to get rid of the problem — and %BUTCHER% picked it up. He didn't need convincing. The wife and the baby had to die too. No witnesses. He carried it out with cold efficiency.
 
 He was the one who insisted on the well. Not just as a disposal site — as **the** place. Something about it felt right in a way he couldn't articulate. He didn't know the Lemko massacre victims were already down there. The choice wasn't rational. It was gravitational.
 

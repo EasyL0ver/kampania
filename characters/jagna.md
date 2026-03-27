@@ -24,6 +24,4 @@ Caught in flagranti with %PAINTER% by %MATRONA%. Beaten, raped by %WUJAS% and %B
 
 ## Open Questions
 
-- How old was %JAGNA% at the time of the lynch?
-- Did she understand what her father had done?
 - Does her existence / memory linger in %NEW_VILLAGE% in any way?

@@ -35,7 +35,7 @@ She lives with %BARBARA% and %PAWEŁEK% — a grandmother figure in a household 
 
 She hasn't performed them in decades. There's been no one to perform them for, and no one to perform them with. But she remembers. The words are there, waiting, the way old songs wait in the mouths of people who haven't sung in years.
 
-**She is the only living person who can provide the words for the ritual at the well.** See `story-facts\the-ritual.md`.
+**She is one of the few living people who can provide the words for the ritual at the well.** See `story-facts\the-ritual.md`.
 
 ### The Culture
 
@@ -100,7 +100,6 @@ The well doesn't torment %BABCIA%. It **heals** her. And nobody in the village t
 
 ## Open Questions
 
-- How much Polish does she actually speak? Enough for basic conversation, or almost none?
 - Does she know %CIOTKA% and the siblings are Lemko? Has she sensed it?
 - Has she ever tried to visit %OLD_VILLAGE% herself?
 - What happens to her if the village is evacuated? Where does an old Lemko woman go when the last place that tolerates her is underwater?
