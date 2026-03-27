@@ -44,6 +44,8 @@ She has done this for **20 years**. The colonists who sometimes glimpse her ligh
 
 But the rites aren't just tradition. **%HAG% knows the well is dangerous.** She can feel it — the wrongness radiating from that hole in the ground, the way animals avoid it, the way the air thickens near it. The dead are angry because they were never mourned, never buried properly, never given rites. Their fury seeps out of the well like poison from a wound.
 
+**The well is hers.** Not in any legal sense — in the sense that she's been its keeper for 20 years. She caused the massacre, and the well is where her dead ended up. Tending it is her penance, her purpose, her identity. She is territorial about it — strangers near the well, people digging around the ruins, anyone threatening to take this from her is threatening the one thing that gives her existence meaning. Without the well, she's just a woman who destroyed a village and has nothing to show for 20 years of apology.
+
 **Her approach is psychoanalytic in nature — though she'd never use that word.** The well holds unprocessed trauma: violence done, never acknowledged, never mourned. It festers. It compels. It repeats. %HAG%'s rites are the opposite of suppression — she **acknowledges** what happened. She names the dead. She speaks to them. She tells them they are seen, they are remembered, they are loved. And then, gently, firmly, she tells them to rest. She doesn't deny the rage — she holds it, honours it, and refuses to let it consume.
 
 *"I know what was done to you. I will not forget. But you must sleep now."*

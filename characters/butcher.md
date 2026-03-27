@@ -72,9 +72,9 @@ The isolation, the dogs, the avoidance — it's not punishment. It's **containme
 
 The water and the compulsion are the same curve. The man who contained himself for 13 years is uncontaining — and everyone can see it happening in slow motion.
 
-**If the committee starts poking around %OLD_VILLAGE%**, %BUTCHER% will react. Not to protect evidence — he doesn't care about the cover-up the way %WOJEWODA% does. He'll react because **they're trespassing on something that's his** in a way he can't articulate and they can't understand. The well, the ruins, the dead — they belong to him. Not legally. Not morally. But in his gut.
+**The compulsion is to feed the well.** Not to guard it, not to own it — to put something *in* it. That's what the well wants from him. That's why the committee is dangerous — not because they're near the well, but because they're *new people*. Strangers. The well has been pulling at him for 13 years and now fresh bodies walk into the village. His interest in the players isn't territorial — it's predatory, and he doesn't fully understand why.
 
-**He may kill %HAG%.** If the rising pressure drives both of them to the well on the same night — and nothing intervenes — %BUTCHER% will find the woman who's been undoing his work for 20 years and put her in the well. The compulsion completing another cycle, then demanding more. But this is **not guaranteed** — the players can prevent it. See `story\event-butcher-kills-hag.md`.
+**He may kill %HAG%.** If the rising pressure drives both of them to the well on the same night, the compulsion takes over. He's a violent man with no containment left, and the well demands to be fed. He won't know why he does it. But this is **not guaranteed** — the players can prevent it. See `story\event-butcher-kills-hag.md`.
 
 ## The Flood & The Committee
 
