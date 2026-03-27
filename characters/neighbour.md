@@ -19,7 +19,9 @@ Did not participate. Did not intervene. Did not report. Like the rest of the vil
 
 ## In 1967
 
-Lives next door to %CIOTKA% and %GLUPEK%. Sees the boy every day — the living reminder of the night they did nothing. Has spent 13 years pretending not to know, not to remember, not to have heard.
+**A hunter.** %NEIGHBOUR% keeps a hunting rifle — he's licenced, hunts in the forest, knows how to shoot. It's part of daily life out here, not remarkable. Until it is.
+
+Lives next door to %CIOTKA% and %GLUPEK%.Sees the boy every day — the living reminder of the night they did nothing. Has spent 13 years pretending not to know, not to remember, not to have heard.
 
 ### %BARBARA% — The one he protects
 

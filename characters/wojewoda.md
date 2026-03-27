@@ -73,6 +73,8 @@ Still sołtys. A legitimate good leader — the man who built %NEW_VILLAGE% into
 
 **Has the only telephone in the village** — in his office. A heavy bakelite handset connected through a manual switchboard. It's the village's sole link to the outside world, and %WOJEWODA% decides who uses it.
 
+**Has a gun.** As sołtys he's authorised to keep a firearm. It stays in the office, locked. A symbol of authority more than a weapon — but it's loaded and he knows how to use it.
+
 **Suspects %JUNIOR% is the father of %BARBARA%'s son %PAWEŁEK%.** Built a small house for %BARBARA% out of guilt — taking care of his son's mess quietly, the way a sołtys handles things. He's wrong about the father, but he doesn't know that.
 
 ## The Flood & The Committee
