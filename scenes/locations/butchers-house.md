@@ -54,8 +54,7 @@
 
 - **Modified blades** (wall rack) — filed into non-standard shapes. Patient metalwork. Not for livestock.
 - **KBW military knife** (wall rack, among butchering tools) — taken from [Edward Barnaś](../../characters/soldier.md) night of the lynch. KBW stamp on handle. Cross-ref: [KBW documents](ciotkas-house.md) in Ciotka's backyard.
-- **Bone collection** (wooden box under stove) — animal bones arranged in rows. Decorative knife marks. Some skulls dog-sized.
-- **Pacing groove** (floorboards near window) — oval path worn smooth. Years of nightly pacing.
+- **Pacing groove**(floorboards near window) — oval path worn smooth. Years of nightly pacing.
 - **Scratch marks** (wall beside bed) — fingernail grooves in timber. From sleep.
 - **Girl's undergarments** ⚠️ (drawer in bench-bed frame) — taken from [Hania Barnaś](../../characters/jagna.md) night of the rape. Keeps them because they arouse him. **Content warning** — soften to ribbon/necklace if table needs it.
 - **Smell** (whole interior) — old blood soaked into wood. More than animal butchering produces.
