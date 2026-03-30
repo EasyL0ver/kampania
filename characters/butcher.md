@@ -19,13 +19,15 @@ In 1947, a KBW unit came through Bieszczady to clear the Lemko villages — part
 
 He was there when [%OLD_VILLAGE%](../places/old-village.md) was emptied. He may have been there when the well received its first dead — the Lemko victims of the massacre. Whether he personally threw bodies in or just watched, he was *present*. The well knows him from before 1954.
 
-After the deportations, the land was empty. Settlers came from across Poland to claim it. Stanisław Rezeń didn't need to travel far — he walked over from the next valley and took a house. He wasn't a settler. He was a vulture returning to a carcass.
+**[Edward Barnaś](soldier.md) was one of the soldiers in that unit.** The KBW man and the civilian auxiliary — they shared the 1947 operation. They both saw what happened. They both kept quiet. When Edward settled on the best land in the new village, Rezeń was already there — the local who'd walked over from the next valley. They knew each other. Not friends — the army doesn't befriend its auxiliaries. But they recognised each other as men who'd been present. A silent bond that meant nothing to Edward and everything to Rezeń.
+
+After the deportations, the land was empty. Settlers came from across Poland to claim it. Edward got the best plot — officer's privilege, service record, connections. Rezeń got the edge. The soldier who did the same work in uniform got a family, a house, respect. The civilian who did the same work without a uniform got dogs and silence. Not resentment — Rezeń doesn't think that way. But the awareness that some men are valued and some are used.
 
 **This is why 1954 was easy.** Not because he was born evil — because the violence had already been normalised in 1947, sanctioned by the state, performed alongside soldiers in uniform. The leap from "clearing undesirables for the government" to "getting rid of witnesses to protect the village" was shorter than it looks.
 
 ## The Lynch
 
-One of three drunk men who attacked [Hania Barnaś](jagna.md). **Participated in the rape** with [Tadek Gajda](secondary-characters.md). After [Edward Barnaś](soldier.md) was killed, [Helena Rzepka](matrona.md) said to get rid of the problem — Stanisław Rezeń picked it up without hesitation. The wife and baby had to die too. No witnesses. Cold efficiency. He'd done this before — in 1947, in uniform that wasn't even his, for people who outranked him. This time he was doing it for himself.
+One of three drunk men who attacked [Hania Barnaś](jagna.md). **Participated in the rape** with [Tadek Gajda](secondary-characters.md). After [Edward Barnaś](soldier.md) was killed, [Helena Rzepka](matrona.md) said to get rid of the problem — Stanisław Rezeń picked it up without hesitation. The wife and baby had to die too. No witnesses. Cold efficiency. He'd done this before — in 1947, alongside the very man now bleeding on the ground. The soldier who'd been valued. The auxiliary who'd been used. Now the auxiliary was finishing the job and the soldier was going into the well with the rest.
 
 - **Insisted on the well** — not just as a disposal site, as *the* place. He'd been there before, in 1947. Something about it felt right in a way he couldn't articulate. He didn't consciously remember what went into it during the deportation — or he did, and that's exactly why. The choice wasn't fully rational — it was gravitational. A return.
 - **The deepest symbolic rhyme:** his victims joined the Lemko dead. A coincidence that isn't a coincidence. No character is aware of it.
