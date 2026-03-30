@@ -53,6 +53,7 @@ Stanisław Rezeń has structured his life to **minimise risk.** Not guilt — gu
 
 - Hasn't touched alcohol since 1954 — saw what it unlocked in the three of them
 - **Smokes constantly** — the one vice he kept. Chain-smokes, lights the next off the last. Fingers yellow-brown, teeth stained. The oral fixation of a man who replaced drink with fire. The only impulse he feeds openly.
+- **Fidgets** — picks at scabs, scratches himself, turns a knife over in his hands. A body that doesn't know how to be still. No social awareness of his own physicality.
 - Doesn't socialise, attend gatherings, or linger where people are
 - Lives at the edge, keeps to his dogs, does his work, stays away
 
