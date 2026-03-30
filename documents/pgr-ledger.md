@@ -27,7 +27,7 @@
 | 3 | Wiśniewski, Piotr | Farm labourer | 48 | Hired 1965 |
 | 4 | Kopacz, Barbara | Farm labourer | 38 | Part-time |
 | 5 | Pytlak, Zofia | Cook | 42 | Foreman's wife |
-| 6 | Mazur, Tadeusz ⚠️ | Farm labourer | 52 | **Dead ~1965.** Work accident — never reported. Wages go to Wanda Mazur as fake "widow's pension." |
+| 6 | Mazur, Tadeusz ⚠️ | Farm labourer | 52 | **Dead ~1965.** Grain silo engulfment — never reported. Wages go to Wanda Mazur as fake "widow's pension." |
 | 7 | Wójcik, Henryk | Night watchman | 35 | Older man, real worker. Part-time. |
 | 8 | Sikora, Marian | Farm labourer | 48 | Real seasonal worker — comes and goes. |
 

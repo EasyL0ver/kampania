@@ -20,7 +20,7 @@ Not from here originally. A settler like the others, but arrived later — after
 
 ## The Secret
 
-**Covers up a death on the PGR.** About two years ago, a preventable accident — a rotten beam, a wall he should have fixed — killed Tadeusz Mazur. Zbigniew Gajda ordered the death never reported (no inspections). Tadeusz stays on the ledger, his wages go to Wanda Mazur as a "widow's pension." She doesn't know. The village doesn't know the death was never filed. Only two men carry this: Zbigniew Gajda and Michał Pytlak. See `story-facts\foreman-embezzlement.md` for full mechanics.
+**Covers up a death on the PGR.** About two years ago, Tadeusz Mazur suffocated in a grain silo — sent in to clear a blockage, the grain swallowed him in seconds. Michał Pytlak went in after him, nearly died himself. Nobody knew grain could do that. Zbigniew Gajda ordered the death never reported (no inspections). Tadeusz stays on the ledger, his wages go to Wanda Mazur as a "widow's pension." She doesn't know. The village doesn't know the death was never filed. Only two men carry this: Zbigniew Gajda and Michał Pytlak. See `story-facts\foreman-embezzlement.md` for full mechanics.
 
 ## In 1967
 

@@ -7,7 +7,7 @@
 - **Age in 1967:** ~50s
 - **Heritage:** Polish settler
 - **Lives in:** Small house near the church
-- **Husband:** Dead. PGR work accident — a rotten beam, a preventable structural failure. Happened ~1965. Michał Pytlak's negligence.
+- **Husband:** Dead. Grain silo accident on the PGR farm — sent in to clear a blockage, suffocated under the grain. Happened ~1965. Michał Pytlak's ignorance of the danger, not malice.
 
 ## Character
 

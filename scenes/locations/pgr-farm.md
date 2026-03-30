@@ -8,7 +8,7 @@
 
 ## Setup
 
-A muddy track leads past a low wooden fence to the farm — the biggest operation in %NEW_VILLAGE%. Two long barns, a tool shed with a padlocked door, livestock pens, and a stretch of ploughed fields running toward the tree line. Chickens scratch between the buildings. A communal kitchen — little more than a lean-to with a wood stove — sits behind the main barn; Zofia Pytlak is always there, stirring something.
+A muddy track leads past a low wooden fence to the farm — the biggest operation in %NEW_VILLAGE%. Two long barns, a concrete grain silo, a tool shed with a padlocked door, livestock pens, and a stretch of ploughed fields running toward the tree line. Chickens scratch between the buildings. A communal kitchen — little more than a lean-to with a wood stove — sits behind the main barn; Zofia Pytlak is always there, stirring something.
 
 Michał Pytlak is wherever the work is — in the field, at the barn, hauling feed. He sees the committee coming before they reach the gate. The workers — Józef Nowak and Piotr Wiśniewski — keep their heads down. Barbara Kopacz works apart from the men, quiet and efficient.
 
