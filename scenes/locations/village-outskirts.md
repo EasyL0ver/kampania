@@ -23,9 +23,9 @@ The survey route takes the geologist across the area over multiple trips. On one
 
 ### Survey (repeatable)
 - **Requires:** Geological knowledge (player ability)
-- **Cost:** 1 action per trip (3 trips needed). Each extra player helping cuts 1 trip. Michał Pytlak cuts 1 more (knows the terrain). Having the maps from [Wojewoda's office](pgr-farm.md#wojewodas-office) cuts 1 more. Minimum 1 trip.
+- **Cost:** 1 action per trip (3 trips needed). Each extra player helping cuts 1 trip. Michał Pytlak cuts 1 more (knows the terrain). Having the maps from [Wojewoda's office](pgr-office.md) cuts 1 more. Minimum 1 trip.
 - **Outcome:** Each trip covers a section of terrain. After all trips — hard data. Water table measurements, rock composition, flood projections. The village WILL flood. This is proof, not speculation.
-- **Leads to:** → [New Village will flood](../../clues/clues.md#new-village-will-flood). Unlocks "Tell Wojewoda with geological proof" at the [PGR office](pgr-farm.md#wojewodas-office). Feeds into Michał Pytlak's engineering ending chain.
+- **Leads to:** → [New Village will flood](../../clues/clues.md#new-village-will-flood). Unlocks "Tell Wojewoda with geological proof" at the [PGR office](pgr-office.md). Feeds into Michał Pytlak's engineering ending chain.
 
 ### Explore the forest
 - **Requires:** Nothing — any player can wander into the woods

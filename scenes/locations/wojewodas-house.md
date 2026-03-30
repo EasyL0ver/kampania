@@ -10,7 +10,7 @@
 
 The best house in the village — still modest by city standards, but unmistakably the sołtys's home. Solid construction, a proper kitchen, a main room that doubles as dining. Family photos on the wall, a crucifix, and a small dark wooden icon that doesn't quite match the rest. Irena Gajda keeps it spotless. Tea is always offered.
 
-Zbigniew Gajda's office is at the [PGR farm](pgr-farm.md) — his desk, phone, maps, and paperwork are there.
+Zbigniew Gajda's office is at the [PGR](pgr-office.md) — his desk, phone, maps, and paperwork are there.
 
 ## Opportunities
 

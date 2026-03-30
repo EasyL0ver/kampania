@@ -41,7 +41,8 @@ graph TD
 | File | Location | Available from |
 |------|----------|----------------|
 | `locations/wojewodas-house.md` | Wojewoda's House | After arrival |
-| `locations/pgr-farm.md` | PGR Farm (incl. office) | After arrival |
-| `locations/stolowka.md` | Stołówka | Daytime, any day |
+| `locations/pgr-office.md` | PGR Office | After arrival |
+| `locations/pgr-farm.md` | PGR Farm | Daytime, any day |
+| `locations/pgr-quarters.md` | PGR Workers' Quarters | Any time |
 | `locations/the-store.md` | The Store | Daytime, any day |
 | `locations/village-outskirts.md` | Village Outskirts | Any day, needs geologist |

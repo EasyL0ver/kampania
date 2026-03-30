@@ -1,16 +1,18 @@
-# Stołówka
+# PGR Workers' Quarters
 
 **Type:** Location (revisitable)
-**Location:** PGR communal kitchen — a lean-to with a wood stove behind the main barn at the [PGR farm](pgr-farm.md)
-**Present:** [Zofia Pytlak](../../characters/secondary-characters.md) (always during work hours)
-**Available:** Daytime, any day
+**Location:** Behind the PGR main building — stołówka (communal kitchen) and barracks
+**Present:** [Zofia Pytlak](../../characters/secondary-characters.md) (stołówka, always during work hours), workers at mealtimes, committee members if housed here
+**Available:** Any time
 **Cost:** Free (eating/talking), 1 action (deeper engagement)
 
 ## Setup
 
-A rough wooden counter, benches, a cast-iron stove that's always burning, and whatever Zofia Pytlak is cooking. Steam, the smell of cabbage and potatoes, flies in summer. This is where the PGR workers eat — and where the village talks. Everyone passes through here. It's the closest thing %NEW_VILLAGE% has to a public square.
+Two structures behind the main barn. The **stołówka** — a rough wooden counter, benches, a cast-iron stove that's always burning, and whatever Zofia Pytlak is cooking. Steam, the smell of cabbage and potatoes. This is where the PGR workers eat — and where the village talks. Everyone passes through here.
 
-Zofia runs it with efficiency and no nonsense. She sees everyone, hears everything, and has opinions about all of it.
+The **barracks** — a long low building with iron cots, thin mattresses, a wood stove at each end. Functional, not comfortable. Originally for seasonal workers. Now it's where the committee sleeps — por. Skowron arranged it. Not hostile, but not hospitable either. The message is clear: you're guests of the state, not of the family.
+
+Zofia runs the kitchen with efficiency and no nonsense. She sees everyone, hears everything, and has opinions about all of it.
 
 ## Opportunities
 
@@ -43,4 +45,4 @@ Zofia runs it with efficiency and no nonsense. She sees everyone, hears everythi
 
 ## GM Notes
 
-**The stołówka is the village's ear.** Players can use it passively (eat and listen) or actively (work Zofia for information). It costs nothing to sit here — making it a low-risk, low-reward intelligence source that becomes more valuable as the game progresses and more threads are in play. Zofia is not a quest-giver — she's a mirror. She reflects back what the village is feeling.
+**The quarters serve two functions.** The stołówka is the village's ear — low-risk, low-reward intelligence that becomes more valuable as threads multiply. The barracks are where the committee lives — evening conversations between players, por. Skowron's presence, and the feeling of being outsiders housed in a utility building. Zofia is not a quest-giver — she's a mirror. She reflects back what the village is feeling.

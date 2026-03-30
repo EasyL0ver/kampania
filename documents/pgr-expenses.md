@@ -1,7 +1,7 @@
 # PGR Expense Journal — State Agricultural Farm "%NEW_VILLAGE%"
 
 **Document type:** Player handout / prop
-**In-game location:** PGR farm office desk → [PGR Farm](../scenes/locations/pgr-farm.md)
+**In-game location:** PGR farm office desk → [PGR Office](../scenes/locations/pgr-office.md)
 **Available via:** "Inspect the farm books" action
 
 ---
