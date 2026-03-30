@@ -43,7 +43,7 @@ Stanisław Rezeń visits [%OLD_VILLAGE%](../places/old-village.md) regularly —
 - The dogs come but won't approach the well — they stop at a perimeter and refuse to cross. He crosses every time.
 - He's cleared debris more than once — not to expose or hide evidence, just to keep the well *open*, accessible. Like it matters that it stays visible.
 - **He feeds the well.** Animal bones, carcasses, his own dogs. Dumps them into the well at night. Has been doing it for years — he used to have five dogs, now has three. The missing ones are in the well. Players who follow him at night may catch him carrying a dead dog over his shoulder along the forest path. This is what the compulsion looks like.
-- **The dreams drive him.** Same kind the players will have. Sleeps badly — dogs whine hearing him thrash. Seen walking toward [%OLD_VILLAGE%](../places/old-village.md) at night, half-dressed, barefoot. In the dreams, the well is always blocked and the dead can't get out. See [the well](../story-facts/the-well.md) for the full supernatural element.
+- **The well pulls him.** He goes willingly — enjoys it. Walks to [%OLD_VILLAGE%](../places/old-village.md) at night, sometimes half-dressed. Not sleepwalking — restless, bored, drawn. The well is the one place that feels right. See [the well](../story-facts/the-well.md) for the full supernatural element.
 - **Doesn't know about the 1947 massacre victims.** He put the lynch victims there because the place pulled him.
 
 ## In 1967
@@ -86,10 +86,10 @@ Doesn't care about the committee — no property, no family, no stake. **Looking
 
 ## The Well's Redemption
 
-Stanisław Rezeń is [the well](../story-facts/the-well.md)'s longest victim — longer than anyone knows. Not thirteen years since 1954, but twenty since 1947. He was there when the first bodies went in. He came back, settled on the land, and then added more. The well found a willing vessel and never let him go. Twenty years of dreams, compulsions, sleepwalking — the dead pulling at the man who put them there.
+Stanisław Rezeń is [the well](../story-facts/the-well.md)'s longest vessel — longer than anyone knows. Not thirteen years since 1954, but twenty since 1947. He was there when the first bodies went in. He came back, settled on the land, and then added more. The well found someone willing and never let go. Twenty years of compulsion — but he doesn't experience it as suffering. He likes going to the well. He likes feeding it. The compulsion and the desire are the same thing.
 
 **The players dream too.** From their first night in the village — violence, not memories, just raw sensation. Hands doing things. The satisfaction of breaking. The dream-logic feeling that this is *right* and *necessary*. Each night worse.
 
 By day three, the players have felt what Stanisław Rezeń felt in 1947 — and what he stopped fighting. They wake up shaking, disgusted at the part of them that didn't want the dream to stop. The capacity was always there. In everyone. Edward buried it. The players resist it. Rezeń just stopped caring.
 
-That's his redemption — but only if you accept the supernatural. If the well is real, he's a man who did evil once and was punished with twenty years of compulsion, dreams, and slow erosion. The well found a willing vessel and never let go. He's the least sympathetic victim in the story — but a victim nonetheless. If the well isn't real, he's just a man who felt what everyone feels and chose not to fight it. The players decide which version they believe. Both are true.
+That's his redemption — but only if you accept the supernatural. If the well is real, he's a man who did evil once and was consumed by something that made the evil permanent. The well found a willing vessel and shaped him into its instrument. He's the least sympathetic victim in the story — but a victim nonetheless. He doesn't know he's being used. He thinks he's having a good time. If the well isn't real, he's just a man who felt what everyone feels and chose not to fight it. The players decide which version they believe. Both are true.

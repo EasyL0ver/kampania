@@ -21,7 +21,6 @@
 - **Path** — daily use, packed earth, leads to well. → [butcher-visits-the-well](../../clues/clues.md#butcher-visits-the-well)
 - **Dogs' perimeter** — follow him to tree line, won't cross into forest. → [dogs-wont-cross](../../clues/clues.md#dogs-wont-cross)
 - **No alcohol** — nothing in the house. Stopped 1954. Seeds suspicion about 1954.
-- **Sleep deprivation** — dark eyes, pacing groove in floorboards (visible through window). Seeds well's dreams.
 - **Butchering habits** — block used more than livestock explains. Takes too long. Works alone, doors shut.
 - **Dogs' behaviour** — flinching, limping, freezing. Practices cruelty.
 - **Missing dogs** — he had five. Now three. No bodies, no mounds. They're in the well. He's been feeding it.
@@ -55,8 +54,6 @@
 
 - **Modified blades** (wall rack) — filed into non-standard shapes. Patient metalwork. Not for livestock.
 - **KBW military knife** (wall rack, among butchering tools) — taken from [Edward Barnaś](../../characters/soldier.md) night of the lynch. KBW stamp on handle. Cross-ref: [KBW documents](ciotkas-house.md) in Ciotka's backyard.
-- **Pacing groove**(floorboards near window) — oval path worn smooth. Years of nightly pacing.
-- **Scratch marks** (wall beside bed) — fingernail grooves in timber. From sleep.
 - **Girl's undergarments** ⚠️ (drawer in bench-bed frame) — taken from [Hania Barnaś](../../characters/jagna.md) night of the rape. Keeps them because they arouse him. **Content warning** — soften to ribbon/necklace if table needs it.
 - **Smell** (whole interior) — old blood soaked into wood. More than animal butchering produces.
 
