@@ -95,14 +95,6 @@ Minor NPCs, relationships, and supporting cast. Grouped by association for easy 
 
 **Notes:** A potential weak link in the village hierarchy. His ambitions make him either an ally or a problem.
 
-### Zofia Pytlak / Zofia Pytlak
-**Type:** Farm cook — Zbigniew Gajda's household worker  
-**Age in 1967:** ~45-55  
-**Family:** Married to Michał Pytlak (farm overseer). Mother of Staszek Pytlak (age 5).  
-**Role:** Cooks and manages meals for the farm workers and Zbigniew Gajda's household. Hears everything—workers talk freely around the cook. Knows about Marek Gajda and Barbara Kopacz, about Tadek Gajda's drinking, about tensions in the family. Connected to Zbigniew Gajda's wife. May be protective of the household reputation or may be sympathetic to workers' plight depending on her nature.
-
-**Notes:** A potential information goldmine if players can gain her trust or if she's upset about something happening on the farm.
-
 ---
 
 ## Village Functionaries & Outsiders
