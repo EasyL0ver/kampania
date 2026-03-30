@@ -16,6 +16,7 @@
 - The 1965 silo repair entry coincides with [Tadeusz Mazur's death](../story-facts/foreman-embezzlement.md) — suspicious only if players already know about the accident. One week later, an emergency grain purchase (1,860 zł — the largest single expense in the journal) because the silo contents were lost. Silo breaks, grain gone, biggest bill in years — and no medical expenses. No hospital. No doctor. Because the man inside was already dead and nobody was called.
 - Familiar villager names (Gajda, Rezeń, Dudka, Rzepka) act as camouflage — players recognise them, skim past "Konieczna," and move on. The known names make the unknown name invisible.
 - [Rezeń](../characters/butcher.md) appears regularly as the village butcher doing seasonal slaughter — grim irony.
+- The 1951 "sealing abandoned well" entry refers to [the well](../story-facts/the-well.md) at %OLD_VILLAGE%. The money was spent. The well is still open. The job was paid for and never completed — or couldn't be. Players who've visited the old village will recognise this immediately.
 - [Tadek Gajda](../characters/wujas.md) appears doing transport work — establishes him as the family's odd-job man.
 - [Emil Rzepka](../characters/painter.md) doing whitewashing — before he started painting ghosts.
 
@@ -42,6 +43,7 @@ Her name is **Marta Konieczna** — initials M.K.
 | 14.02.1951 | Spółdzielnia Lesko — seed grain (spring sowing) | 1,240 |
 | 03.05.1951 | Gajda, Tadeusz — transport, lumber from Ustrzyki | 280 |
 | 18.07.1951 | Veterinary cooperative — cattle inspection | 320 |
+| 07.08.1951 | Land clearing — sealing abandoned well, eastern boundary ⚠️ | 300 |
 | 02.10.1951 | Rzepka, Emil — whitewashing, barn no. 2 | 460 |
 | 19.10.1951 | Pawlak, Henryk — cart axle repair | 75 |
 | 28.11.1951 | Rezeń, Stanisław — autumn slaughter, 4 hogs | 240 |
@@ -116,6 +118,7 @@ Date        Payee / Description                                    Amount
 14.02.1951  Spółdzielnia Lesko — seed grain (spring sowing)        1,240 zł
 03.05.1951  Gajda, Tadeusz — transport, lumber from Ustrzyki         280 zł
 18.07.1951  Veterinary cooperative — cattle inspection               320 zł
+07.08.1951  Land clearing — sealing abandoned well, eastern boundary 300 zł
 02.10.1951  Rzepka, Emil — whitewashing, barn no. 2                 460 zł
 19.10.1951  Pawlak, Henryk — cart axle repair                         75 zł
 28.11.1951  Rezeń, Stanisław — autumn slaughter, 4 hogs             240 zł
