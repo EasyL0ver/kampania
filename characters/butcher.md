@@ -52,6 +52,7 @@ An **outcast.** The village knows or suspects what he did during the lynch. Not 
 Stanisław Rezeń has structured his life to **minimise risk.** Not guilt — guilt would require caring about the dead. **Practicality.** He knows what lives in him since 1947 — the hunger. Drink unlocks it. People nearby feed it. He understood that proximity to people plus friction equals another body, and next time there'd be consequences. The village looked away once. It wouldn't look away twice. So he removed himself.
 
 - Hasn't touched alcohol since 1954 — saw what it unlocked in the three of them
+- **Smokes constantly** — the one vice he kept. Chain-smokes, lights the next off the last. Fingers yellow-brown, teeth stained. The oral fixation of a man who replaced drink with fire. The only impulse he feeds openly.
 - Doesn't socialise, attend gatherings, or linger where people are
 - Lives at the edge, keeps to his dogs, does his work, stays away
 
