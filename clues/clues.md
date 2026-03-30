@@ -74,6 +74,9 @@ The flood zone was chosen partly to bury the massacre evidence. [por. Witold Sko
 ### soldiers-partner-murdered
 [Edward Barnaś](../characters/soldier.md)'s partner was murdered to eliminate witnesses.
 
+### soldier-never-married
+[Edward Barnaś](../characters/soldier.md) and his partner never married — they lived together. She kept her own surname. This is why no "Barnaś" wife appears in any village records.
+
 ### glupek-strangled
 [Stanisław Rezeń](../characters/butcher.md) tried to strangle [Edek Barnaś](../characters/glupek.md) as an infant. [Janina Gajda](../characters/ciotka.md) stopped him. The oxygen deprivation caused permanent brain damage — it was not congenital.
 
