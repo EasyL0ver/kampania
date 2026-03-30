@@ -6,18 +6,28 @@
 
 - **Born:** 1921
 - **Age in 1967:** 46
-- **Heritage:** **Not Lemko.** Polish settler — no ancestral connection to [%OLD_VILLAGE%](../places/old-village.md) or the Lemko people. That's what makes his obsession so strange.
+- **Heritage:** **Not Lemko.** Polish — from a neighbouring village in Bieszczady. Not a distant resettled stranger. A local who knew these mountains, these paths, these people. That's what makes 1947 worse.
 - **Lives in:** [Stanisław Rezeń's house](../places/new-village.md#butchers-house) — alone (with dogs), edge of village
 
 ## Character
 
-An evil man who knows it. Violent, cold, capable — and clear-eyed about what he is. Not mentally ill, not broken, not driven by pathology. He chose what he did in 1954 and the ease of it didn't surprise him. But something else lives in him — an irrational, bone-deep fixation with [%OLD_VILLAGE%](../places/old-village.md) and [the well](../story-facts/the-well.md) that has no logical explanation. He can't name it. It drives him back to the ruins again and again. Symbolically, he carries the unprocessed fury of the Lemko dead — their rage at being massacred, erased, forgotten — expressed through the worst possible vessel. A man with no conscience, no heritage, no right to the grief. But the grief found him anyway.
+An evil man who knows it. Violent, cold, capable — and clear-eyed about what he is. Not mentally ill, not broken, not driven by pathology. He chose what he did in 1954 and the ease of it didn't surprise him — **because 1954 wasn't his first time.** But something else lives in him — an irrational, bone-deep fixation with [%OLD_VILLAGE%](../places/old-village.md) and [the well](../story-facts/the-well.md) that has no logical explanation. He can't name it. It drives him back to the ruins again and again. Symbolically, he carries the unprocessed fury of the Lemko dead — their rage at being massacred, erased, forgotten — expressed through the worst possible vessel. The man who helped kill them. A man with no conscience, no heritage claim, no right to the grief. But the grief found him anyway — because it was looking for *him*.
+
+## 1947 — The First Massacre
+
+In 1947, a KBW unit came through Bieszczady to clear the Lemko villages — part of [Akcja Wisła](../historical%20context/operation-wisla.md). They needed locals who knew the terrain, the paths, which houses were where. Stanisław Rezeń was 26, from a neighbouring village, and willing. The soldiers took him along as civilian militia — an auxiliary. He pointed, carried, and when the time came, he did what the soldiers did. No uniform, no orders on paper, no record. Just a local helping out.
+
+He was there when [%OLD_VILLAGE%](../places/old-village.md) was emptied. He may have been there when the well received its first dead — the Lemko victims of the massacre. Whether he personally threw bodies in or just watched, he was *present*. The well knows him from before 1954.
+
+After the deportations, the land was empty. Settlers came from across Poland to claim it. Stanisław Rezeń didn't need to travel far — he walked over from the next valley and took a house. He wasn't a settler. He was a vulture returning to a carcass.
+
+**This is why 1954 was easy.** Not because he was born evil — because the violence had already been normalised in 1947, sanctioned by the state, performed alongside soldiers in uniform. The leap from "clearing undesirables for the government" to "getting rid of witnesses to protect the village" was shorter than it looks.
 
 ## The Lynch
 
-One of three drunk men who attacked [Hania Barnaś](jagna.md). **Participated in the rape** with [Tadek Gajda](secondary-characters.md). After [Edward Barnaś](soldier.md) was killed, [Helena Rzepka](matrona.md) said to get rid of the problem — Stanisław Rezeń picked it up without hesitation. The wife and baby had to die too. No witnesses. Cold efficiency.
+One of three drunk men who attacked [Hania Barnaś](jagna.md). **Participated in the rape** with [Tadek Gajda](secondary-characters.md). After [Edward Barnaś](soldier.md) was killed, [Helena Rzepka](matrona.md) said to get rid of the problem — Stanisław Rezeń picked it up without hesitation. The wife and baby had to die too. No witnesses. Cold efficiency. He'd done this before — in 1947, in uniform that wasn't even his, for people who outranked him. This time he was doing it for himself.
 
-- **Insisted on the well** — not just as a disposal site, as *the* place. Something about it felt right in a way he couldn't articulate. He didn't know the 1947 Lemko massacre victims were already down there. The choice wasn't rational — it was gravitational.
+- **Insisted on the well** — not just as a disposal site, as *the* place. He'd been there before, in 1947. Something about it felt right in a way he couldn't articulate. He didn't consciously remember what went into it during the deportation — or he did, and that's exactly why. The choice wasn't fully rational — it was gravitational. A return.
 - **The deepest symbolic rhyme:** his victims joined the Lemko dead. A coincidence that isn't a coincidence. No character is aware of it.
 
 ## The Obsession
@@ -33,7 +43,7 @@ Stanisław Rezeń visits [%OLD_VILLAGE%](../places/old-village.md) regularly —
 
 An **outcast.** The village knows or suspects what he did during the lynch. Not exiled, but not welcome. People avoid him — **and he avoids them.**
 
-Stanisław Rezeń has structured his life to **minimise risk.** Not guilt — guilt would require caring about the dead. **Practicality.** He felt the ease of violence in 1954, how natural it was, how little it cost him. He understood that staying around people, drink, friction meant it would happen again — and next time there'd be consequences. The village looked away once. It wouldn't look away twice. So he removed himself.
+Stanisław Rezeń has structured his life to **minimise risk.** Not guilt — guilt would require caring about the dead. **Practicality.** Violence had been easy in 1947 with soldiers beside him. It was easy again in 1954 with drink in him. He understood the pattern — proximity to people, drink, friction, and it happens. And next time there'd be consequences. The village looked away once. It wouldn't look away twice. So he removed himself.
 
 - Hasn't touched alcohol since 1954 — saw what it unlocked in the three of them
 - Doesn't socialise, attend gatherings, or linger where people are
@@ -67,7 +77,7 @@ Doesn't care about the committee — no property, no family, no stake. **Looking
 
 ## The Well's Redemption
 
-Stanisław Rezeń is [the well](../story-facts/the-well.md)'s longest victim. Thirteen years of dreams, compulsions, sleepwalking. The violence of 1954 was his — he chose it. But what came after wasn't a choice. The well found a willing vessel and never let him go. Thirteen years of being ridden by something that feeds on what he did best.
+Stanisław Rezeń is [the well](../story-facts/the-well.md)'s longest victim — longer than anyone knows. Not thirteen years since 1954, but twenty since 1947. He was there when the first bodies went in. He came back, settled on the land, and then added more. The well found a willing vessel and never let him go. Twenty years of dreams, compulsions, sleepwalking — the dead pulling at the man who put them there.
 
 **The players dream too.** From their first night in the village — violence, not memories, just raw sensation. Hands doing things. The satisfaction of breaking. The dream-logic feeling that this is *right* and *necessary*. Each night worse.
 
