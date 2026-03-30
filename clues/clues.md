@@ -26,10 +26,18 @@ Someone lives in the [forest](../places/forest.md). Villagers call her a witch, 
 [%OLD_VILLAGE%](../places/old-village.md) was a Lemko settlement — Greek Catholic, with a cerkiew, orchards, and a tightly-knit community.
 
 ### massacre-happened
-In 1947, soldiers came to deport the Lemkos from [%OLD_VILLAGE%](../places/old-village.md). The villagers resisted. The soldiers opened fire. The whole rebelling population was killed.
+In 1947, soldiers came to deport the Lemkos from [%OLD_VILLAGE%](../places/old-village.md). The villagers resisted. A UPA insurgent shot the commanding officer. The enraged soldiers massacred the entire village in retribution.
 
 ### massacre-was-covered-up
-The massacre was never reported. The participating soldiers made a pact of silence. The state erased it from records.
+The massacre was never reported. The soldiers covered it up to hide their failure — a dead captain and an unauthorized massacre meant courts-martial. The village was filed as "evacuated successfully."
+
+### officer-killed
+A KBW officer — kpt. Henryk Ćwiek — commanded the unit at [%OLD_VILLAGE%](../places/old-village.md). He was shot dead during the operation. Official records list him as KIA in a separate UPA engagement. The truth was buried with him.
+**Sources:** [Buried cache](../scenes/locations/ciotkas-house.md#dig-in-the-backyard) at Ciotka's backyard (Edward's military papers listing Ćwiek as CO); [por. Witold Skowron](../characters/officer.md)'s classified files (reference to a "lost" officer); [Paraskewia Chyłak](../characters/hag.md) (direct testimony).
+
+### dmytro-kosach
+[Paraskewia Chyłak](../characters/hag.md)'s lover was named Dmytro Kosach — a UPA guerrilla fighter. He shot kpt. Ćwiek. His bullet turned a deportation into a massacre. He died too — almost certainly in the well with everyone else.
+**Sources:** [Paraskewia Chyłak](../characters/hag.md)'s cabin (his belongings — a photograph, a knife, letters in Ukrainian); [UPA bunker](../places/forest.md#the-upa-bunker--ziemianka) (cached personal effects, Cyrillic inscription with his name); [Paraskewia Chyłak](../characters/hag.md) herself (if players earn her trust).
 
 ### soldier-participated-in-massacre
 [Edward Barnaś](../characters/soldier.md) was one of the soldiers present during the 1947 massacre. He participated in the killings.
@@ -50,7 +58,8 @@ The 1947 dead were never given proper rites — no panakhyda, no memorial, no mo
 The flood zone was chosen partly to bury the massacre evidence. [por. Witold Skowron](../characters/officer.md) knows this. The dam is infrastructure *and* a burial.
 
 ### hag-caused-the-massacre
-[Paraskewia Chyłak](../characters/hag.md) was in love with a UPA soldier in 1947. The authorities traced the connection back to the village. The massacre happened because of her.
+[Paraskewia Chyłak](../characters/hag.md) was in love with Dmytro Kosach, a UPA soldier, in 1947. The authorities traced the connection back to the village. Dmytro killed the commanding officer. The massacre happened because of her love — twice over.
+**Sources:** [Paraskewia Chyłak](../characters/hag.md) herself (the full confession — requires deep trust); pieced together from [dmytro-kosach](#dmytro-kosach) + [officer-killed](#officer-killed).
 
 ---
 

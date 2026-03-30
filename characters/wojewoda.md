@@ -1,6 +1,7 @@
 # Zbigniew Gajda
 
 **Type:** Named character — sibling (brother) / sołtys
+**Freudian role:** [Superego](../story-facts/freudian-triangle.md) — authority, containment, the rules that hold the id at the edge
 
 ## Vital Statistics
 

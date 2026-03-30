@@ -34,6 +34,7 @@ Deep in the forest, northwest of %NEW_VILLAGE%, hidden among trees and undergrow
 - UPA weapons and insignia
 - Documents (if legible/preserved)
 - Evidence of shelter/refuge
+- **Dmytro Kosach's cache:** A section of wall with carved Cyrillic — Д. КОСАЧ and a date. A wrapped bundle: cached weapon (pistol, rusted), spare ammunition, a journal fragment in Ukrainian mentioning the village by its Lemko name. Not a full diary — just operational notes, but one entry is personal: a woman's name. Players who find this and later find Paraskewia's cabin can connect the knife initials, the photo, and the bunker inscription.
 
 ## The Bimber Still
 
@@ -78,6 +79,7 @@ Hidden deep in the forest, accessible only to those who know the way.
 - Ritual items: icons, candles, herbs, prayer materials
 - Supplies: Foraged foods (dried mushrooms, berries, roots), preserved items
 - Personal effects: Blankets, worn clothes, cooking implements
+- **Dmytro Kosach's belongings:** A small photograph (young man in partisan clothing, faded), a folding knife with Cyrillic initials (Д.К.), letters in Ukrainian wrapped in oilcloth. Hidden but not inaccessibly — under floorboards, in a tin. Twenty years of handling have worn the photo soft. These are the only proof he existed.
 - No modern conveniences; no electricity, running water
 
 **How she survives:**

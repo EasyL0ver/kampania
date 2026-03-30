@@ -1,6 +1,7 @@
 # Edward Barnaś
 
 **Type:** Named character — deceased settler / massacre participant
+**Freudian role:** [Ego](../story-facts/freudian-triangle.md) of the 1947 massacre — the mediator who succeeded, until 1954 destroyed him
 
 ## Vital Statistics
 
@@ -14,7 +15,9 @@ Quiet neighbour, devoted father, kept to himself. Impossible to judge cleanly �
 
 ## Background
 
-Member of military/security forces (likely KBW) deployed for Akcja Wisła. Present when the situation at [%OLD_VILLAGE%](../places/old-village.md) escalated — participated in the shooting of rebelling Lemko villagers. His unit took along a civilian auxiliary from a neighbouring village — [Stanisław Rezeń](butcher.md) — a local who knew the terrain. They shared the operation and the silence afterward. After the massacre, agreed with fellow soldiers to never speak of it; the event was erased from all records.
+Member of military/security forces (likely KBW) deployed for Akcja Wisła, under the command of [kpt. Henryk Ćwiek](kbw-officer.md). Present when the situation at [%OLD_VILLAGE%](../places/old-village.md) escalated — participated in the shooting of rebelling Lemko villagers after Ćwiek was shot dead by Dmytro Kosach, a UPA insurgent, sending the unit into a vengeful fury. His unit took along a civilian auxiliary from a neighbouring village — [Stanisław Rezeń](butcher.md) — a local who knew the terrain. They shared the operation and the silence afterward. After the massacre, agreed with fellow soldiers to never speak of it; the event was erased from all records.
+
+In the [Freudian triangle](../story-facts/freudian-triangle.md) of 1947, Edward was the **Ego** — caught between orders and horror, mediating. After the massacre, the Ego succeeded: he repressed the violence, built a family, became a devoted father. The Ego that worked — until 1954 destroyed him from the outside.
 
 Left military service in 1948, ahead of the main colonist wave. Settled in [%NEW_VILLAGE%](../places/new-village.md) because he **knew the area from his service.** Arrived early, knew the terrain, claimed the best land. To other colonists, he looked lucky or connected. To the Lemko-descended siblings ([Janina Gajda](ciotka.md) and family), the killer returned to the scene and took the choicest spoils. Built a life on the doorstep of mass murder — among the ruins, the overgrown cemetery, the crumbling *cerkiew*.
 

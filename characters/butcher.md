@@ -1,6 +1,7 @@
 # Stanisław Rezeń
 
 **Type:** Named character — evil with self-awareness, symbolic Lemko rage
+**Freudian role:** [Id](../story-facts/freudian-triangle.md) — raw drive, compulsion without conscience
 
 ## Vital Statistics
 
@@ -17,9 +18,11 @@ But something else lives in him alongside the hunger — an irrational, bone-dee
 
 ## 1947 — The First Massacre
 
-In 1947, a KBW unit came through Bieszczady to clear the Lemko villages — part of [Akcja Wisła](../historical%20context/operation-wisla.md). They needed locals who knew the terrain, the paths, which houses were where. Stanisław Rezeń was 26, from a neighbouring village. The soldiers took him along as civilian militia — an auxiliary. He didn't volunteer for violence. He was dragged into it — carrying, pointing, doing what the soldiers told him. But when the violence came, he didn't flinch. He leaned in. Something in him responded to the killing the way a match responds to friction. The soldiers noticed. They used him more.
+In 1947, a KBW unit commanded by [kpt. Henryk Zieliński](kbw-officer.md) came through Bieszczady to clear the Lemko villages — part of [Akcja Wisła](../historical%20context/operation-wisla.md). They needed locals who knew the terrain, the paths, which houses were where. Stanisław Rezeń was 26, from a neighbouring village. The soldiers took him along as civilian militia — an auxiliary. He didn't volunteer for violence. He was dragged into it — carrying, pointing, doing what the soldiers told him. But when the violence came, he didn't flinch. He leaned in. Something in him responded to the killing the way a match responds to friction. The soldiers noticed. They used him more.
 
-[Edward Barnaś](soldier.md) was one of the soldiers in that unit. He saw the same violence, did the same things. He came out of it wanting a family and silence. Rezeń came out of it wanting *more*. Same event. Opposite outcomes. Edward became a peaceful father. Rezeń became what he is.
+When [kpt. Ćwiek](kbw-officer.md) was shot dead by Dmytro Kosach — [Paraskewia Chyłak](hag.md)'s UPA lover — the soldiers turned on the village in fury. The Superego didn't just disappear — its death unleashed rage. Every soldier's Id broke free. Rezeń didn't need orders anymore. He'd found what the orders had been keeping him from.
+
+[Edward Barnaś](soldier.md) was one of the soldiers in that unit. He saw the same violence, did the same things. He came out of it wanting a family and silence. Rezeń came out of it wanting *more*. Same event. Opposite outcomes. Edward became a peaceful father. Rezeń became what he is. In the [Freudian triangle](../story-facts/freudian-triangle.md): Edward was the Ego that succeeded. Rezeń was the Id that never wanted to stop.
 
 He was there when [%OLD_VILLAGE%](../places/old-village.md) was emptied. He may have been there when the well received its first dead — the Lemko victims of the massacre. Whether he personally threw bodies in or just watched, he was *present*. The well knows him from before 1954.
 

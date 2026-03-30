@@ -16,9 +16,13 @@ Not old — 40, weathered by 20 years of [forest](../places/forest.md) living. L
 
 ## The Sin
 
-In 1947, Paraskewia Chyłak was 20 and in love with a UPA soldier — a forbidden romance, a Lemko girl and an insurgent the state was hunting. She hid him, fed him, met him in the forest. The authorities traced the connection back to the village. The military came — not for one man, but for everyone. The massacre at [%OLD_VILLAGE%](../places/old-village.md) happened because of her love.
+In 1947, Paraskewia Chyłak was 20 and in love with **Dmytro Kosach** — a UPA soldier, a forbidden romance, a Lemko girl and an insurgent the state was hunting. She hid him, fed him, met him in the forest. The authorities traced the connection back to the village. The military came — not for one man, but for everyone.
 
-She survived. He probably didn't. Everyone else definitely didn't. She never left. The 20 years in the forest aren't devotion — they're a sentence she gave herself. Every prayer, every candle, every night in the cold: *I'm sorry. I did this to you.*
+**Dmytro killed [kpt. Henryk Ćwiek](kbw-officer.md).** When the KBW unit arrived to clear [%OLD_VILLAGE%](../places/old-village.md), he was hiding in the village. A trained guerrilla — armed, combat-experienced — he shot the commanding officer dead. The soldiers, enraged by their captain's killing, turned on the village. The massacre wasn't chaos — it was **retribution**. She didn't just bring the soldiers to the village — her lover's bullet turned a deportation into a slaughter.
+
+Her lover died too. Almost certainly in the well with everyone else. She's been praying over his bones for twenty years alongside the people whose deaths he triggered.
+
+She survived. Everyone else didn't. She never left. The 20 years in the forest aren't devotion — they're a sentence she gave herself. Every prayer, every candle, every night in the cold: *I'm sorry. I did this to you.*
 
 **[Hania Barnaś](jagna.md)'s mirror.** Two women, two forbidden loves, two catastrophes. [Hania Barnaś](jagna.md) loved across class — triggered the lynch. Paraskewia Chyłak loved across the war — triggered the massacre. The village paid both times. [Hania Barnaś](jagna.md) died before understanding what her love caused. Paraskewia Chyłak survived and lives with it every day.
 

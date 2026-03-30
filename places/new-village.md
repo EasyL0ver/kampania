@@ -54,6 +54,7 @@ The colonists of %NEW_VILLAGE% are the second layer of this tragedy. Brought in 
 - Residents: Janina Gajda, Edek Barnaś (age 17, brain-damaged)
 - **Symbolism:** The woman who showed mercy lives in the house of the man she couldn't save; daily reminder of the crime
 - **Isolation:** Set apart from village center; Edek Barnaś's presence makes this a quiet, avoided place
+- **Buried cache:** Edward Barnaś's military papers are buried in the backyard — see [Ciotka's house scene](../scenes/locations/ciotkas-house.md#dig-in-the-backyard) for discovery details
 
 ### Barbara Kopacz's House
 - Small house built by Zbigniew Gajda for her
