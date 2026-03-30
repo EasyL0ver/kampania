@@ -30,7 +30,7 @@ Deep in the forest, northwest of %NEW_VILLAGE%, hidden among trees and undergrow
 
 **What players might find:**
 - Ventilation shafts visible from hillside (signs of structure)
-- %GLUPEK% near entrance or in forest (connection unclear)
+- Edek Barnaś near entrance or in forest (connection unclear)
 - UPA weapons and insignia
 - Documents (if legible/preserved)
 - Evidence of shelter/refuge
@@ -46,21 +46,21 @@ Hidden clearing off one of the forest paths, roughly halfway between %NEW_VILLAG
 - Worn footpath leading to it — subtle but visible to a careful eye
 
 **Current state (1967):**
-- Actively in use by %WUJAS% and his drinking crew (%SZYMEK%, %ROMEK%, %FRANEK%)
+- Actively in use by Tadek Gajda and his drinking crew (Szymek Kępa, Romek Głowacz, Franek Mucha)
 - Smoke and fermentation smell detectable from nearby paths
-- Sugar supplied by %MATRONA%'s store; %WOJEWODA% knows and tolerates it
+- Sugar supplied by Helena Gajda's store; Zbigniew Gajda knows and tolerates it
 
 **What players might find:**
 - The still and brewing equipment
 - Footprints and worn trail from %NEW_VILLAGE%
-- Sugar sacks traceable to %MATRONA%'s store
+- Sugar sacks traceable to Helena Gajda's store
 - Empty bottles, drinking debris
 
 **Red herring value:** Looks like a major secret — hidden forest activity, nervous men, concealment. It's just bimber. See `story-facts\bimber-operation.md` for full details.
 
-**NOT near the well or %HAG%'s cabin** — but in the same forest. Players who "solve" the forest after finding the still may stop looking deeper.
+**NOT near the well or Paraskewia Chyłak's cabin** — but in the same forest. Players who "solve" the forest after finding the still may stop looking deeper.
 
-## %HAG%'s Cabin
+## Paraskewia Chyłak's Cabin
 
 Hidden deep in the forest, accessible only to those who know the way.
 
@@ -92,7 +92,7 @@ Hidden deep in the forest, accessible only to those who know the way.
 - Private; she guards it fiercely
 
 **Story significance:** 
-- Safe place for %HAG% to retreat; where she stores knowledge, ritual items, and memories of the massacre
+- Safe place for Paraskewia Chyłak to retreat; where she stores knowledge, ritual items, and memories of the massacre
 - Reveals her isolation and commitment to the dead — 20 years alone in the forest, maintaining vigilance
 - If players find it, they discover her full life and dedication
 - Could be refuge in crisis
@@ -122,10 +122,10 @@ Hidden deep in the forest, accessible only to those who know the way.
 - **Animals/traces:** Evidence of game, habitation by wild or feral creatures
 - **Natural hazards:** Pit traps (natural), streams, steep drops, unstable ground
 - **Shelter:** Bunker could serve as refuge in emergency
-- **%GLUPEK%:** May appear; his reasons for being in forest unknown
+- **Edek Barnaś:** May appear; his reasons for being in forest unknown
 
 ## Story Significance
 
-The forest is a buffer between %NEW_VILLAGE% (order, control) and %OLD_VILLAGE% (secrets, history). It's where %HAG% moves freely; where %GLUPEK% may wander; where evidence or refuge might be found. Rising water will change the forest landscape — streams will swell, new flooding patterns emerge, known paths become impassable.
+The forest is a buffer between %NEW_VILLAGE% (order, control) and %OLD_VILLAGE% (secrets, history). It's where Paraskewia Chyłak moves freely; where Edek Barnaś may wander; where evidence or refuge might be found. Rising water will change the forest landscape — streams will swell, new flooding patterns emerge, known paths become impassable.
 
 **For players:** A navigation challenge, a place to get lost, a refuge, and a gateway to %OLD_VILLAGE%'s secrets.

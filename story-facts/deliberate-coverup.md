@@ -4,7 +4,7 @@
 
 ## The Truth
 
-The government's choice to flood this specific area was not purely hydrological. %OFFICER% (SB agent) knows that the decision to include %OLD_VILLAGE% in the flood zone was made — at least in part — to **permanently bury the evidence of the 1947 Lemko massacre**.
+The government's choice to flood this specific area was not purely hydrological. por. Witold Skowron (SB agent) knows that the decision to include %OLD_VILLAGE% in the flood zone was made — at least in part — to **permanently bury the evidence of the 1947 Lemko massacre**.
 
 The dam is infrastructure. It is also a grave.
 
@@ -20,8 +20,8 @@ The dam is infrastructure. It is also a grave.
 
 This adds a **third layer** to the cover-up:
 
-1. **The massacre (1947)** — soldiers' pact of silence (now moot, %SOLDIER% is dead)
+1. **The massacre (1947)** — soldiers' pact of silence (now moot, Edward Barnaś is dead)
 2. **The lynch (1954)** — villagers' shared guilt
-3. **The flooding (1967)** — state policy, enforced by %OFFICER%
+3. **The flooding (1967)** — state policy, enforced by por. Witold Skowron
 
 Everyone wants the water to rise. Everyone needs the well to stay sealed. But for completely different reasons.

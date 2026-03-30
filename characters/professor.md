@@ -1,4 +1,4 @@
-# %PROFESSOR%
+# prof. Tadeusz Bieńkowski
 
 **Type:** Named character — outsider / catalyst
 
@@ -13,7 +13,7 @@ A hydrologist or engineer connected to the Solina Dam project. Arrives in 1967 w
 
 ## The Discovery
 
-%PROFESSOR% has determined that the original flood projections **may be** incorrect. The planners thought the rising lake would only swallow %OLD_VILLAGE% and the surrounding lowlands. But combined with an exceptionally heavy rain season in 1967, %PROFESSOR%'s models suggest the water **could also reach %NEW_VILLAGE%**.
+prof. Tadeusz Bieńkowski has determined that the original flood projections **may be** incorrect. The planners thought the rising lake would only swallow %OLD_VILLAGE% and the surrounding lowlands. But combined with an exceptionally heavy rain season in 1967, prof. Tadeusz Bieńkowski's models suggest the water **could also reach %NEW_VILLAGE%**.
 
 He's not certain. The terrain data is incomplete — the original surveys didn't account for the village's elevation with enough precision. **Field measurements are needed** to confirm whether the flood zone will extend that far. That's why the committee includes a geologist.
 
@@ -26,19 +26,19 @@ He's not certain. The terrain data is incomplete — the original surveys didn't
 
 ## The Well's Influence
 
-**None.** %PROFESSOR% does not arrive until the very end of the story. He is not present during the well's escalation and is not affected by it.
+**None.** prof. Tadeusz Bieńkowski does not arrive until the very end of the story. He is not present during the well's escalation and is not affected by it.
 
 ## The Phone — The Players' Lifeline
 
-**%PROFESSOR% can be contacted by phone during the game.** %WOJEWODA% controls the only phone in the village, but if the players gain access to it, they can call %PROFESSOR% and tell him what they've found — including the massacre.
+**prof. Tadeusz Bieńkowski can be contacted by phone during the game.** Zbigniew Gajda controls the only phone in the village, but if the players gain access to it, they can call prof. Tadeusz Bieńkowski and tell him what they've found — including the massacre.
 
-**This is the players' insurance policy.** If %PROFESSOR% knows about the massacre before the report is handed to %OFFICER%, the truth exists outside the car. Killing the players doesn't erase it. %OFFICER% can reach for the gun, but the information is already out — and %OFFICER% knows it.
+**This is the players' insurance policy.** If prof. Tadeusz Bieńkowski knows about the massacre before the report is handed to por. Witold Skowron, the truth exists outside the car. Killing the players doesn't erase it. por. Witold Skowron can reach for the gun, but the information is already out — and por. Witold Skowron knows it.
 
 A single phone call, made at the right time, to the right person, is the difference between the gun ending the story and the gun staying in its holster. The players may not even realise what they've done until the car scene. But the GM knows.
 
 ## Open Questions
 
-- Is %PROFESSOR% part of the committee, or does he arrive separately?
+- Is prof. Tadeusz Bieńkowski part of the committee, or does he arrive separately?
 - Does he know about the village's dark history, or is he purely technical?
 - How do the villagers react to the evacuation order?
 - Does anyone in %NEW_VILLAGE% see this as an opportunity (evidence destroyed) or a threat (digging/preparation might uncover things)?

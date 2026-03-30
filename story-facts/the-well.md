@@ -7,7 +7,7 @@
 The old well in %OLD_VILLAGE% holds two layers of dead:
 
 1. **Lemko massacre remains (1947)** — the villagers killed by soldiers during Akcja Wisła.
-2. **%JAGNA%, %SOLDIER%, and %SOLDIER%'s wife (1954)** — dumped by %WUJAS%, %WOJEWODA%, and %BUTCHER% after the lynch.
+2. **Hania Barnaś, Edward Barnaś, and Edward Barnaś's wife (1954)** — dumped by Tadek Gajda, Zbigniew Gajda, and Stanisław Rezeń after the lynch.
 
 For 13 years, the well has kept its secrets. Deep, dark, sealed by time and neglect. The village avoids %OLD_VILLAGE%. Nobody looks down.
 
@@ -43,16 +43,16 @@ From the first night the committee spends in %NEW_VILLAGE%, the dreams begin. Th
 
 **GM guidance:** The dreams should feel like weather — atmospheric, oppressive, escalating. Never explain them. Never confirm they're supernatural. Let the players decide whether it's stress, bad water, guilt by proximity, or something in that well that knows they're here.
 
-### %BUTCHER%'s Dreams
+### Stanisław Rezeń's Dreams
 
-**%BUTCHER% has been having the dreams for years.** This is never stated outright — only implied through details the players can piece together:
+**Stanisław Rezeń has been having the dreams for years.** This is never stated outright — only implied through details the players can piece together:
 
 - He sleeps badly. The dogs outside his house whine at night — they hear him thrashing, talking in his sleep.
 - His visits to the well aren't curiosity. They're **compulsion**. He goes because the dreams pull him there. He clears debris from the well because in the dreams, the well is always blocked and the dead can't get out.
 - He's been seen walking toward %OLD_VILLAGE% at night, half-dressed, barefoot — and returning before dawn with no memory of going. Or claiming no memory.
-- His dogs won't go near the well. They stop at a perimeter and refuse to cross it. %BUTCHER% crosses it every time.
+- His dogs won't go near the well. They stop at a perimeter and refuse to cross it. Stanisław Rezeń crosses it every time.
 
-**For the players:** If they learn about %BUTCHER%'s sleep patterns, his compulsive visits, his nighttime walks — and then they start having the same dreams — the connection is chilling. The well got to him first. It's been calling him for 13 years. Now it's calling them.
+**For the players:** If they learn about Stanisław Rezeń's sleep patterns, his compulsive visits, his nighttime walks — and then they start having the same dreams — the connection is chilling. The well got to him first. It's been calling him for 13 years. Now it's calling them.
 
 **The question the story never answers:** Is the well haunted by the dead, or by the guilt of the living? Is it supernatural, or is it what happens when enough violence soaks into one place for long enough? The story offers both readings and commits to neither.
 
@@ -61,8 +61,8 @@ From the first night the committee spends in %NEW_VILLAGE%, the dreams begin. Th
 - The well overflowing during a heavy downpour — murky water spilling over the stone rim.
 - A bone caught on the lip of the well.
 - The smell — unmistakable after rain stirs what's below.
-- %GLUPEK% standing at the well, staring down. He doesn't know why he's drawn there.
-- %BUTCHER%'s dogs circling the well, agitated, refusing to come closer.
+- Edek Barnaś standing at the well, staring down. He doesn't know why he's drawn there.
+- Stanisław Rezeń's dogs circling the well, agitated, refusing to come closer.
 - Cleared debris — someone has been maintaining access to the well. Who?
 
 ## What the Village Fears
@@ -73,8 +73,8 @@ Everyone who knows about the lynch has been watching the rain. They know what's 
 
 Two people haunt %OLD_VILLAGE% on different nights, locked in a push-pull over the well neither fully understands. Read psychoanalytically, they are the two responses to unprocessed trauma:
 
-- **%BUTCHER% is the repetition compulsion.** The well holds death, and he is compelled to return — to circle, to clear, to keep the wound open. If there were another body, he'd put it in the well. Not because it's practical — because that's what the well is *for*. Unacknowledged trauma doesn't resolve. It repeats. He is the illness.
-- **%HAG% is the therapeutic response.** She acknowledges what happened. She names the dead. She speaks to them, tells them they are seen, remembered, loved — and then tells them to rest. She doesn't fight the rage with force. She fights it with recognition. She is the treatment.
+- **Stanisław Rezeń is the repetition compulsion.** The well holds death, and he is compelled to return — to circle, to clear, to keep the wound open. If there were another body, he'd put it in the well. Not because it's practical — because that's what the well is *for*. Unacknowledged trauma doesn't resolve. It repeats. He is the illness.
+- **Paraskewia Chyłak is the therapeutic response.** She acknowledges what happened. She names the dead. She speaks to them, tells them they are seen, remembered, loved — and then tells them to rest. She doesn't fight the rage with force. She fights it with recognition. She is the treatment.
 
 He clears debris. She covers it with offerings. He sits in silence, feeding the well's gravity. She sings, giving the dead a voice so they don't have to scream. His compulsion says: *the wound stays open.* Her ritual says: *the wound is real, and it can heal.*
 

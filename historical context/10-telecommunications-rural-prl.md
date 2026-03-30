@@ -14,9 +14,9 @@ Telephone access in rural Poland during the 1960s was virtually nonexistent. The
 
 ## What This Means for the Story
 
-- The committee cannot easily contact the outside. The only phone is in %WOJEWODA%'s office — and he decides who uses it.
+- The committee cannot easily contact the outside. The only phone is in Zbigniew Gajda's office — and he decides who uses it.
 - If the road is mud and the phone is controlled, the committee is **cut off**. No backup, no independent reporting.
-- %OFFICER% needs %WOJEWODA%'s phone to reach his superiors — another thread binding them together.
+- por. Witold Skowron needs Zbigniew Gajda's phone to reach his superiors — another thread binding them together.
 - A broken phone line (storm, "accident") could isolate the village completely.
 
 ## Sources

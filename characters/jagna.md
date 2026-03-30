@@ -1,28 +1,28 @@
-# %JAGNA%
+# Hania Barnaś
 
-**Type:** Named character — deceased daughter of [%SOLDIER%](soldier.md)
+**Type:** Named character — deceased daughter of [Edward Barnaś](soldier.md)
 
 ## Vital Statistics
 
 - **Born:** 1935
 - **Died:** 1954 (age 19)
-- **Lived in:** [%NEW_VILLAGE%](../places/new-village.md) — with [%SOLDIER%](soldier.md) and family
+- **Lived in:** [%NEW_VILLAGE%](../places/new-village.md) — with [Edward Barnaś](soldier.md) and family
 
 ## Character
 
-Young woman, [%SOLDIER%](soldier.md)'s eldest daughter. Secret lover of [%PAINTER%](secondary-characters.md) (then fiancé of [%MATRONA%](matrona.md)).
+Young woman, [Edward Barnaś](soldier.md)'s eldest daughter. Secret lover of [Emil Rzepka](secondary-characters.md) (then fiancé of [Helena Gajda](matrona.md)).
 
 ## Relationships
 
-- **[%SOLDIER%](soldier.md)** — her father (killed trying to save her)
-- **[%GLUPEK%](glupek.md)** — infant sibling (survived the lynch)
-- **[%PAINTER%](secondary-characters.md)** — secret lover, [%MATRONA%](matrona.md)'s fiancé at the time
-- **[%WUJAS%](secondary-characters.md)** — unwanted admirer, deeply in love with her; she preferred [%PAINTER%](secondary-characters.md)
-- **[%MATRONA%](matrona.md)** — caught %JAGNA% with [%PAINTER%](secondary-characters.md), triggering the chain of events
+- **[Edward Barnaś](soldier.md)** — her father (killed trying to save her)
+- **[Edek Barnaś](glupek.md)** — infant sibling (survived the lynch)
+- **[Emil Rzepka](secondary-characters.md)** — secret lover, [Helena Gajda](matrona.md)'s fiancé at the time
+- **[Tadek Gajda](secondary-characters.md)** — unwanted admirer, deeply in love with her; she preferred [Emil Rzepka](secondary-characters.md)
+- **[Helena Gajda](matrona.md)** — caught Hania Barnaś with [Emil Rzepka](secondary-characters.md), triggering the chain of events
 
 ## Fate
 
-Caught in flagranti with [%PAINTER%](secondary-characters.md) by [%MATRONA%](matrona.md). Beaten, raped by [%WUJAS%](secondary-characters.md) and [%BUTCHER%](butcher.md), and killed — unintentionally — by the three drunk men ([%WUJAS%](secondary-characters.md), [%WOJEWODA%](wojewoda.md), [%BUTCHER%](butcher.md)). Body dumped into [the well](../story-facts/the-well.md) in [%OLD_VILLAGE%](../places/old-village.md).
+Caught in flagranti with [Emil Rzepka](secondary-characters.md) by [Helena Gajda](matrona.md). Beaten, raped by [Tadek Gajda](secondary-characters.md) and [Stanisław Rezeń](butcher.md), and killed — unintentionally — by the three drunk men ([Tadek Gajda](secondary-characters.md), [Zbigniew Gajda](wojewoda.md), [Stanisław Rezeń](butcher.md)). Body dumped into [the well](../story-facts/the-well.md) in [%OLD_VILLAGE%](../places/old-village.md).
 
 ## Open Questions
 

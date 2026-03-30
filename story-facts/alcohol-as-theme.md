@@ -10,8 +10,8 @@ Alcohol is not just a prop — it's a **force** in %NEW_VILLAGE%, as central as 
 
 | Event | Alcohol's role |
 |---|---|
-| The lynch (1954) | %WUJAS%, %WOJEWODA%, %BUTCHER% were massively drunk. Without the drink, the beating might not have escalated to rape, murder, and infanticide. |
-| %WUJAS% in 1967 | A full-blown alcoholic. The guilt has fermented into permanent drunkenness. |
+| The lynch (1954) | Tadek Gajda, Zbigniew Gajda, Stanisław Rezeń were massively drunk. Without the drink, the beating might not have escalated to rape, murder, and infanticide. |
+| Tadek Gajda in 1967 | A full-blown alcoholic. The guilt has fermented into permanent drunkenness. |
 | Village life | Heavy drinking is the norm. Bieszczady settlers drank to cope with isolation, trauma, and the harshness of frontier life. |
 
 ## Historical Basis
@@ -22,8 +22,8 @@ Alcohol abuse in postwar Bieszczady is well documented. The settlers were trauma
 
 - **Alcohol as permission** — people do what they already want to do, then blame the drink.
 - **Alcohol as erasure** — just like the rain and the flood, alcohol washes away memory, responsibility, clarity.
-- **Alcohol as cycle** — the lynch happened drunk. Now %WUJAS% drinks to forget the lynch. %JUNIOR% drinks with %WUJAS%. The pattern repeats.
-- **Alcohol as truth serum** — the weakest link (%WUJAS%) is also the drunkest. When the committee arrives, a bottle might crack what 17 years of silence couldn't.
+- **Alcohol as cycle** — the lynch happened drunk. Now Tadek Gajda drinks to forget the lynch. Marek Gajda drinks with Tadek Gajda. The pattern repeats.
+- **Alcohol as truth serum** — the weakest link (Tadek Gajda) is also the drunkest. When the committee arrives, a bottle might crack what 17 years of silence couldn't.
 
 ## For the GM
 

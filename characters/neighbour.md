@@ -1,4 +1,4 @@
-# %NEIGHBOUR%
+# Ryszard Dudka
 
 **Type:** Named character — bystander witness
 
@@ -6,7 +6,7 @@
 
 - **Born:** 1918
 - **Age in 1967:** 49
-- **Lives in:** [%NEIGHBOUR%'s house](../places/new-village.md#neighbours-house) — alone
+- **Lives in:** [Ryszard Dudka's house](../places/new-village.md#neighbours-house) — alone
 - **Armed:** Hunting rifle (licensed)
 
 ## Character
@@ -15,7 +15,7 @@ Male. Quiet, keeps to himself. Hunter — knows the [forest](../places/forest.md
 
 ## Background / Role
 
-Settler in the house next to [%SOLDIER%](soldier.md)'s plot — now [%CIOTKA%'s house](../places/new-village.md#ciotkas-house). Has been in [%NEW_VILLAGE%](../places/new-village.md) since early settlement.
+Settler in the house next to [Edward Barnaś](soldier.md)'s plot — now [Janina Gajda's house](../places/new-village.md#ciotkas-house). Has been in [%NEW_VILLAGE%](../places/new-village.md) since early settlement.
 
 ## The Lynch (1954)
 
@@ -26,56 +26,56 @@ Settler in the house next to [%SOLDIER%](soldier.md)'s plot — now [%CIOTKA%'s 
 
 ## In 1967
 
-Lives next door to [%CIOTKA%](ciotka.md) and [%GLUPEK%](glupek.md). Sees the boy daily — the living reminder. 13 years pretending not to know.
+Lives next door to [Janina Gajda](ciotka.md) and [Edek Barnaś](glupek.md). Sees the boy daily — the living reminder. 13 years pretending not to know.
 
-**Openly vindictive** — calls [%BUTCHER%](butcher.md) evil to anyone who listens. Hates the people who did it. But stuck in inaction — talking is all he does.
+**Openly vindictive** — calls [Stanisław Rezeń](butcher.md) evil to anyone who listens. Hates the people who did it. But stuck in inaction — talking is all he does.
 
 ## The Escalation
 
 Three-step arc — each a bigger overcorrection:
 
 1. **Loud inaction** — 13 years calling people evil, doing nothing. Hears everything, says everything, does nothing.
-2. **Erasure** — when the census begins, suggests to [%BARBARA%](barbara.md) that some people shouldn't be on the list. Not murder — paperwork. *"Why would you save [%BUTCHER%](butcher.md)? Why put his name on paper?"* Frames it as justice. [%BARBARA%](barbara.md) passes it to players as a reasonable suggestion.
+2. **Erasure** — when the census begins, suggests to [Barbara Kopacz](barbara.md) that some people shouldn't be on the list. Not murder — paperwork. *"Why would you save [Stanisław Rezeń](butcher.md)? Why put his name on paper?"* Frames it as justice. [Barbara Kopacz](barbara.md) passes it to players as a reasonable suggestion.
 3. **Lynch mob** — when quiet erasure isn't enough and the truth fully spills, he finally *moves*. The man stuck for 13 years unsticks — and goes too far. See [ending - lynch](../story/ending-punishment-lynch.md).
 
 ## The Breaking Point
 
-Not guilt — **love.** He hears what [%BARBARA%](barbara.md) tells him — the committee asking about [%OLD_VILLAGE%](../places/old-village.md), [the well](../story-facts/the-well.md), the past — and sees the pattern. Outsiders stirring something dangerous. The village tensing. [%BARBARA%](barbara.md) in the middle, innocent, unaware. Just like [%JAGNA%](jagna.md) was.
+Not guilt — **love.** He hears what [Barbara Kopacz](barbara.md) tells him — the committee asking about [%OLD_VILLAGE%](../places/old-village.md), [the well](../story-facts/the-well.md), the past — and sees the pattern. Outsiders stirring something dangerous. The village tensing. [Barbara Kopacz](barbara.md) in the middle, innocent, unaware. Just like [Hania Barnaś](jagna.md) was.
 
-He lay in bed in 1954 and listened to a girl die. He will not do nothing again. Not with [%BARBARA%](barbara.md) next door. Not with [%PAWEŁEK%](secondary-characters.md) in her arms.
+He lay in bed in 1954 and listened to a girl die. He will not do nothing again. Not with [Barbara Kopacz](barbara.md) next door. Not with [Pawełek Kopacz](secondary-characters.md) in her arms.
 
-When it breaks: **overcorrection.** Protection filtered through 13 years of guilt becomes violence. Organizes a mob — drunk men, darkness, no road out. Same mechanics as 1954. The bystander becomes the instigator. He does it *for* [%BARBARA%](barbara.md) — and it makes him exactly the thing he hated. **Any NPC or player can be the target** — whoever he decides threatens her.
+When it breaks: **overcorrection.** Protection filtered through 13 years of guilt becomes violence. Organizes a mob — drunk men, darkness, no road out. Same mechanics as 1954. The bystander becomes the instigator. He does it *for* [Barbara Kopacz](barbara.md) — and it makes him exactly the thing he hated. **Any NPC or player can be the target** — whoever he decides threatens her.
 
 ## Relationships
 
-- **[%BARBARA%](barbara.md)** — closest relationship. Genuinely fond. Helps with her house, brings firewood, watches [%PAWEŁEK%](secondary-characters.md). She and the boy are the only untainted thing in his life. She's the players' confidant — shares what she hears from the committee over the fence, casual, holding [%PAWEŁEK%](secondary-characters.md). He hears it all.
-- **[%BUTCHER%](butcher.md)** — terrified of him. If the village finds out %NEIGHBOUR% talked, [%BUTCHER%](butcher.md) — who wanted to kill an infant to eliminate witnesses — won't hesitate.
-- **[%CIOTKA%](ciotka.md)** — lives next door. May have observed her devotion to [%GLUPEK%](glupek.md), her grief. Another thread.
-- **[%GLUPEK%](glupek.md)** — the living reminder. 13 years seeing him next door.
+- **[Barbara Kopacz](barbara.md)** — closest relationship. Genuinely fond. Helps with her house, brings firewood, watches [Pawełek Kopacz](secondary-characters.md). She and the boy are the only untainted thing in his life. She's the players' confidant — shares what she hears from the committee over the fence, casual, holding [Pawełek Kopacz](secondary-characters.md). He hears it all.
+- **[Stanisław Rezeń](butcher.md)** — terrified of him. If the village finds out Ryszard Dudka talked, [Stanisław Rezeń](butcher.md) — who wanted to kill an infant to eliminate witnesses — won't hesitate.
+- **[Janina Gajda](ciotka.md)** — lives next door. May have observed her devotion to [Edek Barnaś](glupek.md), her grief. Another thread.
+- **[Edek Barnaś](glupek.md)** — the living reminder. 13 years seeing him next door.
 
 ## Well Influence
 
 Amplifies **guilt of inaction.** Already heavy — now physical.
 
-- Hears screaming at night — [%JAGNA%](jagna.md)'s voice, drunken shouting, dogs. May be real (village deteriorating) or [the well](../story-facts/the-well.md). Can't tell.
-- Sleeplessness. Sits at the window staring at [%CIOTKA%'s house](../places/new-village.md#ciotkas-house) — the same window from that night. The curtain feels heavier.
-- Jumpiness, paranoia. Every knock is [%BUTCHER%](butcher.md). Every stranger's question an accusation.
+- Hears screaming at night — [Hania Barnaś](jagna.md)'s voice, drunken shouting, dogs. May be real (village deteriorating) or [the well](../story-facts/the-well.md). Can't tell.
+- Sleeplessness. Sits at the window staring at [Janina Gajda's house](../places/new-village.md#ciotkas-house) — the same window from that night. The curtain feels heavier.
+- Jumpiness, paranoia. Every knock is [Stanisław Rezeń](butcher.md). Every stranger's question an accusation.
 - Easier to crack but harder to *use* — coherence going. Rambles, circles, contradicts. Truth in shards mixed with panic. Players must sift gold from gravel.
 - **Dream:** lying in bed, hearing the screaming, reaching for the curtain — and this time, the curtain won't close.
 
 ## Flood Attitude
 
-Angry at the government. Same rage as [%BARBARA%](barbara.md) — the state is flooding them out. The committee represents the people doing this. Hostile to players before anything else comes into play — not hiding a secret, furious about losing his home. Guilt stays buried under more immediate, legitimate rage.
+Angry at the government. Same rage as [Barbara Kopacz](barbara.md) — the state is flooding them out. The committee represents the people doing this. Hostile to players before anything else comes into play — not hiding a secret, furious about losing his home. Guilt stays buried under more immediate, legitimate rage.
 
 ## For Players
 
 - **Easiest NPC to crack.** Right pressure (guilt, alcohol, committee authority, fear of water) could break him.
 - **Partial knowledge.** Can give sounds, shapes, direction — enough to point toward [%OLD_VILLAGE%](../places/old-village.md) and [the well](../story-facts/the-well.md) without naming names.
-- **Proximity to [%CIOTKA%](ciotka.md)** — another thread to pull.
+- **Proximity to [Janina Gajda](ciotka.md)** — another thread to pull.
 
 ## Open Questions
 
 - Does he live alone or have family?
-- Has he ever hinted at what he knows — to [%PRIEST%](secondary-characters.md) in confession, to a drunk companion?
-- How does he react to [%GLUPEK%](glupek.md)? Avoidance? Guilt-driven small kindnesses?
-- Does [%CIOTKA%](ciotka.md) suspect he knows?
+- Has he ever hinted at what he knows — to [ks. Władysław Pająk](secondary-characters.md) in confession, to a drunk companion?
+- How does he react to [Edek Barnaś](glupek.md)? Avoidance? Guilt-driven small kindnesses?
+- Does [Janina Gajda](ciotka.md) suspect he knows?

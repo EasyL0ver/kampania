@@ -75,7 +75,7 @@ From apokryfruski.org database — documented killings in the Bieszczady region:
 ### Relevance to Campaign
 - The massacre at %OLD_VILLAGE% fits a documented historical pattern — not an outlier
 - Bodies disposed in water/wells mirrors real disposal methods
-- Suspicion of UPA connection (real or manufactured) as trigger — maps to %HAG%'s UPA lover story
+- Suspicion of UPA connection (real or manufactured) as trigger — maps to Paraskewia Chyłak's UPA lover story
 - The burning of buildings to erase traces — happened systematically
-- Military knowledge of terrain from operations → %SOLDIER% knowing the area
+- Military knowledge of terrain from operations → Edward Barnaś knowing the area
 - Checkpoint violence → the casual, bureaucratic nature of the killing

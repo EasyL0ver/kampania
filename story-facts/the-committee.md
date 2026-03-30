@@ -4,7 +4,7 @@
 
 ## Formation
 
-After %PROFESSOR%'s discovery that the flood zone **may** swallow %NEW_VILLAGE%, the state scrambles a response. A committee is formed and dispatched to the village to prepare for the worst case. **%OFFICER%** (SB) is assigned as their handler — officially to "facilitate cooperation," in reality to control what they see and what they report.
+After prof. Tadeusz Bieńkowski's discovery that the flood zone **may** swallow %NEW_VILLAGE%, the state scrambles a response. A committee is formed and dispatched to the village to prepare for the worst case. **por. Witold Skowron** (SB) is assigned as their handler — officially to "facilitate cooperation," in reality to control what they see and what they report.
 
 ## Mandate
 
@@ -20,7 +20,7 @@ A fourth, underlying task belongs to **one of the players — a geologist**. The
 
 **The villagers have no idea they are about to be flooded.** They know about the Solina Dam — everyone does — but they believe only %OLD_VILLAGE% and the lowlands are in the flood zone. %NEW_VILLAGE% was never part of the original displacement plan. The committee's arrival is the first sign that something has changed.
 
-%OFFICER% instructs the committee to **be delicate** — don't lead with the evacuation. Start with the census, the damage assessment. Let the villagers think this is routine paperwork. Break the news gradually, once trust is established.
+por. Witold Skowron instructs the committee to **be delicate** — don't lead with the evacuation. Start with the census, the damage assessment. Let the villagers think this is routine paperwork. Break the news gradually, once trust is established.
 
 This means the players walk into a village that doesn't yet know its world is ending — and they're carrying the death sentence in their briefcases.
 
@@ -44,9 +44,9 @@ The committee has a legitimate reason to:
 
 This gives the players a bureaucratic skeleton key to the entire village. They're not detectives — they're clerks with clipboards. But the clipboard opens every door.
 
-## %OFFICER%'s Role
+## por. Witold Skowron's Role
 
-%OFFICER% manages the committee. He decides their schedule, arranges housing, provides introductions to %WOJEWODA% and the village. On paper, he's helpful. In practice, he's steering them away from anything that might surface the 1947 massacre — the state secret he's there to protect.
+por. Witold Skowron manages the committee. He decides their schedule, arranges housing, provides introductions to Zbigniew Gajda and the village. On paper, he's helpful. In practice, he's steering them away from anything that might surface the 1947 massacre — the state secret he's there to protect.
 
 He doesn't know about the lynch. That's the villagers' secret, not his.
 
@@ -56,8 +56,8 @@ Two cover-ups, one committee:
 
 | Secret | Who's hiding it | Who's steering the committee away |
 |---|---|---|
-| The massacre (1947) | The state | **%OFFICER%** — actively |
-| The lynch (1954) | The villagers | **%WOJEWODA%** — desperately |
+| The massacre (1947) | The state | **por. Witold Skowron** — actively |
+| The lynch (1954) | The villagers | **Zbigniew Gajda** — desperately |
 
 The players are caught between two forces that both want them to do their job quickly, ask no questions, and leave. The question is whether the cracks show before the water rises.
 
@@ -65,6 +65,6 @@ The players are caught between two forces that both want them to do their job qu
 
 - How many people are on the committee? (3–4 players?)
 - What are their professional roles? (Clerk, surveyor, engineer, party functionary?)
-- Where do they stay — %WOJEWODA%'s house? The church? A requisitioned building?
+- Where do they stay — Zbigniew Gajda's house? The church? A requisitioned building?
 - How long do they have before the water reaches %NEW_VILLAGE%?
-- Does %OFFICER% travel with them or stay in the village independently?
+- Does por. Witold Skowron travel with them or stay in the village independently?

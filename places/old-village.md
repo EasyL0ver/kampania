@@ -29,7 +29,7 @@ By the 1960s, the ruins of %OLD_VILLAGE% sit in the flood zone of the planned So
 - **Current state:** Roof partially collapsed on west side; interior exposed; wood rotting; some icons remain faded on interior walls
 - **Access:** Door hangs loose; interior wet from rain and groundwater seepage
 - **Interior remnants:** Abandoned altar, broken candle stands, debris on floor
-- **Evidence:** Fresh candles appear periodically — signs that someone visits to perform rituals (%HAG%)
+- **Evidence:** Fresh candles appear periodically — signs that someone visits to perform rituals (Paraskewia Chyłak)
 - **Practical note:** Potentially unstable; ceiling could collapse in sections
 
 ### Cemetery
@@ -54,8 +54,8 @@ By the 1960s, the ruins of %OLD_VILLAGE% sit in the flood zone of the planned So
 - **Access:** Requires clearing debris, potentially digging/descending; not immediately obvious to casual observer
 - **Contains:** 
   - **1947 massacre victims:** Lemko villagers from %OLD_VILLAGE%, decomposed, difficult to identify
-  - **1954 lynch victims:** %SOLDIER%, %SOLDIER%'s wife, %JAGNA% (more recent, better preserved)
-- **Who knows:** %HAG% (massacre victims only); %BUTCHER%, %WOJEWODA%, %WUJAS% (lynch victims); %CIOTKA% (may have inferred location); %NEIGHBOUR% (heard direction, not specific location)
+  - **1954 lynch victims:** Edward Barnaś, Edward Barnaś's wife, Hania Barnaś (more recent, better preserved)
+- **Who knows:** Paraskewia Chyłak (massacre victims only); Stanisław Rezeń, Zbigniew Gajda, Tadek Gajda (lynch victims); Janina Gajda (may have inferred location); Ryszard Dudka (heard direction, not specific location)
 - **Critical urgency:** If dam floods reach %OLD_VILLAGE%, well will be underwater—evidence destroyed, bodies lost forever
 - **Hazards:** Unstable structure, unknown depth, decomposition, water hazards
 - **Practical concern:** Exhuming bodies requires time, tools, careful excavation
@@ -90,10 +90,10 @@ By the 1960s, the ruins of %OLD_VILLAGE% sit in the flood zone of the planned So
 
 - **From %NEW_VILLAGE%:** Overgrown path through forest (1–2 km, depending on route)
 - **Road/cart access:** May be possible but poor condition; easier on foot
-- **%HAG%'s route:** Unknown; she moves through forest paths known only to her
+- **Paraskewia Chyłak's route:** Unknown; she moves through forest paths known only to her
 
 ## Significance
 
 %OLD_VILLAGE% is the burial site of the 1947 massacre victims and the 1954 lynch victims. The well holds the evidence; the ruins hold the story. Rising water from the dam will submerge everything within 2–3 years, destroying evidence permanently.
 
-**For players:** %OLD_VILLAGE% is where investigation converges — physical evidence, spiritual residue (%HAG%), and the core mystery of what the village is hiding.
+**For players:** %OLD_VILLAGE% is where investigation converges — physical evidence, spiritual residue (Paraskewia Chyłak), and the core mystery of what the village is hiding.

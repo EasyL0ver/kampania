@@ -1,4 +1,4 @@
-# %OFFICER%
+# por. Witold Skowron
 
 **Type:** Named character — morally complex / state insider
 
@@ -21,17 +21,17 @@ Not cruel — genuinely believes he's on the right side. Sees himself as a prote
 
 ## Relationships
 
-- **[%WOJEWODA%](wojewoda.md)** — his informant and local contact. The sołtys reports to him, keeps order, ensures nobody asks wrong questions. In return, [%WOJEWODA%](wojewoda.md) enjoys state backing. The committee is managed from both sides — %OFFICER% from above, [%WOJEWODA%](wojewoda.md) from within.
-- **[%PRIEST%](secondary-characters.md)** — contempt. The Church is a relic, a rival power structure. In Bieszczady, where state grip is weak, a village priest holds real influence, and that grates. Has shown contempt through paperwork complications, veiled threats, reminders the state tolerates religion only while it stays quiet. Would love a reason to shut the parish down. On the village's secrets they're accidentally aligned — both want silence — but %OFFICER% would never cooperate with a priest.
+- **[Zbigniew Gajda](wojewoda.md)** — his informant and local contact. The sołtys reports to him, keeps order, ensures nobody asks wrong questions. In return, [Zbigniew Gajda](wojewoda.md) enjoys state backing. The committee is managed from both sides — por. Witold Skowron from above, [Zbigniew Gajda](wojewoda.md) from within.
+- **[ks. Władysław Pająk](secondary-characters.md)** — contempt. The Church is a relic, a rival power structure. In Bieszczady, where state grip is weak, a village priest holds real influence, and that grates. Has shown contempt through paperwork complications, veiled threats, reminders the state tolerates religion only while it stays quiet. Would love a reason to shut the parish down. On the village's secrets they're accidentally aligned — both want silence — but por. Witold Skowron would never cooperate with a priest.
 
 ## The Layers of Cover-Up
 
 | Crime | Who wants it buried | Why |
 |---|---|---|
-| Lemko massacre (1947) | **The state** (via %OFFICER%'s superiors) | State crime, political embarrassment |
-| The lynch (1954) | **The villagers** ([%WOJEWODA%](wojewoda.md), [%WUJAS%](secondary-characters.md), [%BUTCHER%](butcher.md)) | Personal crime, murder, rape |
+| Lemko massacre (1947) | **The state** (via por. Witold Skowron's superiors) | State crime, political embarrassment |
+| The lynch (1954) | **The villagers** ([Zbigniew Gajda](wojewoda.md), [Tadek Gajda](secondary-characters.md), [Stanisław Rezeń](butcher.md)) | Personal crime, murder, rape |
 
-%OFFICER% may be caught between his duty to the state and his conscience.
+por. Witold Skowron may be caught between his duty to the state and his conscience.
 
 ## Well Influence
 
@@ -39,7 +39,7 @@ Not cruel — genuinely believes he's on the right side. Sees himself as a prote
 
 ## Open Questions
 
-- Does %OFFICER% know about the lynch too, or only the massacre?
+- Does por. Witold Skowron know about the lynch too, or only the massacre?
 - Is he posing as something else (committee member? local official? dam engineer?)
 - What is his relationship with the villagers? Do they know what he is?
 - How does he react if players start uncovering the truth — reasoned persuasion first, then what?

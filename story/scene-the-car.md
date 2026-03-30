@@ -4,19 +4,19 @@
 
 ## The Setup
 
-The game begins and ends in the same place: **a police car on a mountain road, with %OFFICER% at the wheel.** The players are in the back. Just them and the state.
+The game begins and ends in the same place: **a police car on a mountain road, with por. Witold Skowron at the wheel.** The players are in the back. Just them and the state.
 
-%PROFESSOR% is never in the car. The players know him only by phone — a voice at the other end of the line, a technical expert at a desk somewhere. He's their lifeline, but only if they use it.
+prof. Tadeusz Bieńkowski is never in the car. The players know him only by phone — a voice at the other end of the line, a technical expert at a desk somewhere. He's their lifeline, but only if they use it.
 
 This is the frame. Everything between the two car rides is the game.
 
 ## Opening Scene — The Ride In
 
-%OFFICER% drives the committee to %NEW_VILLAGE%. Just him and the players. The mood is professional. Bureaucratic. A government job.
+por. Witold Skowron drives the committee to %NEW_VILLAGE%. Just him and the players. The mood is professional. Bureaucratic. A government job.
 
-**%OFFICER% debriefs them on the way:**
+**por. Witold Skowron debriefs them on the way:**
 - The village. The dam. The flood risk. The census they need to conduct.
-- The people — %WOJEWODA% is cooperative, he's the contact, he'll help.
+- The people — Zbigniew Gajda is cooperative, he's the contact, he'll help.
 - The terrain — remote, no road out once the rain gets bad.
 
 **And then, subtly — the warning.** Not a threat. Not an order. Just a comment, almost offhand:
@@ -24,15 +24,15 @@ This is the frame. Everything between the two car rides is the game.
 - *"Your job is the census and flood assessment. Stick to that and you'll be fine."*
 - *"If anything... unusual comes up — old grievances, local legends, things that don't belong in a government report — use your judgement. Not everything needs to be written down."*
 
-He says it once. He doesn't repeat it. He doesn't explain. %PROFESSOR% says nothing — just looks out the window.
+He says it once. He doesn't repeat it. He doesn't explain. prof. Tadeusz Bieńkowski says nothing — just looks out the window.
 
 **The players may not even register it.** It sounds like standard bureaucratic advice. Don't get distracted by village gossip. Stay professional. Only later — when they find the well, the bodies, the massacre — do those words acquire weight. *"Not everything needs to be written down."*
 
 ## Closing Scene — The Ride Out
 
-The game is over. Five days done. The players get back in the car. Same seats. Same road. Same %OFFICER%. Just them and the state again.
+The game is over. Five days done. The players get back in the car. Same seats. Same road. Same por. Witold Skowron. Just them and the state again.
 
-%OFFICER% asks for the report.
+por. Witold Skowron asks for the report.
 
 He stops the car to read. The silence is long.
 
@@ -42,16 +42,16 @@ He stops the car to read. The silence is long.
 
 ## Why This Works
 
-**The opening is a test the players don't know they're taking.** %OFFICER%'s words are a seed planted before the game begins. The players hear "use your judgement" and think it means "be professional." It actually means "if you find the massacre, bury it."
+**The opening is a test the players don't know they're taking.** por. Witold Skowron's words are a seed planted before the game begins. The players hear "use your judgement" and think it means "be professional." It actually means "if you find the massacre, bury it."
 
-**The closing reveals what the opening meant.** Same car. Same man. Same words — now loaded with five days of horror. The players understand, finally, what %OFFICER% was really telling them on day one. And they've already made their choice — it's in the report, or it isn't.
+**The closing reveals what the opening meant.** Same car. Same man. Same words — now loaded with five days of horror. The players understand, finally, what por. Witold Skowron was really telling them on day one. And they've already made their choice — it's in the report, or it isn't.
 
-**%PROFESSOR% is never in the car — but his shadow is.** In the closing, the question hanging in the air is: *did you call him? Does he already know?* %OFFICER% can't see the answer. The players can't see if it matters. But if they made that call, the truth is already outside this car — and killing them changes nothing.
+**prof. Tadeusz Bieńkowski is never in the car — but his shadow is.** In the closing, the question hanging in the air is: *did you call him? Does he already know?* por. Witold Skowron can't see the answer. The players can't see if it matters. But if they made that call, the truth is already outside this car — and killing them changes nothing.
 
 ## For the GM
 
-**Opening:** Play it light. Conversational. %OFFICER% is friendly, professional. The warning is buried in small talk — one line among many. Don't emphasise it. Don't pause dramatically. Let it slip past.
+**Opening:** Play it light. Conversational. por. Witold Skowron is friendly, professional. The warning is buried in small talk — one line among many. Don't emphasise it. Don't pause dramatically. Let it slip past.
 
-**Closing:** Play it slow. The car is quiet. %OFFICER% reads. Let the silence do the work. The players know what's in the report. They know what they found. Now they wait.
+**Closing:** Play it slow. The car is quiet. por. Witold Skowron reads. Let the silence do the work. The players know what's in the report. They know what they found. Now they wait.
 
 The entire game is the space between these two car rides.

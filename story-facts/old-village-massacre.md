@@ -8,7 +8,7 @@ During Operation Vistula (1947), soldiers arrived at %OLD_VILLAGE% to forcibly d
 
 ## The Cover-Up
 
-The participating soldiers — including %SOLDIER% — made a pact of silence. The massacre was never reported, never documented. Officially, %OLD_VILLAGE% was evacuated like every other village in the region. No bodies were recorded, no incident filed.
+The participating soldiers — including Edward Barnaś — made a pact of silence. The massacre was never reported, never documented. Officially, %OLD_VILLAGE% was evacuated like every other village in the region. No bodies were recorded, no incident filed.
 
 For nearly 20 years, the secret has held.
 

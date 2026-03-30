@@ -26,16 +26,16 @@ In frontier areas like Bieszczady, PGRs were the **economic backbone** of resett
 
 ## The Bieszczady Model
 
-In %NEW_VILLAGE%, the **sołtys (village headman) is also the PGR manager** — %WOJEWODA% holds both titles:
+In %NEW_VILLAGE%, the **sołtys (village headman) is also the PGR manager** — Zbigniew Gajda holds both titles:
 
 - **Sołtys:** Village administrator, state representative, law enforcement liaison
 - **Kierownik PGR:** Farm director, employer of most villagers, controller of resources
 
 **This dual role means:**
 - He controls both administrative authority (state) and economic livelihood (farm employment)
-- Workers like %BARBARA% are doubly dependent — no job without pleasing him, no village influence without state backing
+- Workers like Barbara Kopacz are doubly dependent — no job without pleasing him, no village influence without state backing
 - His word on farm matters is law; workers have no appeal or protection
-- Coordination with %OFFICER% (secret police) is built into the structure — sołtys reports to SB regularly
+- Coordination with por. Witold Skowron (secret police) is built into the structure — sołtys reports to SB regularly
 
 ## Farm Operations
 
@@ -47,11 +47,11 @@ In %NEW_VILLAGE%, the **sołtys (village headman) is also the PGR manager** — 
 - Conditions: Poor mechanization, harsh manual work, low wages
 
 **In %NEW_VILLAGE%:**
-- %WOJEWODA%'s PGR employs:
-  - %FOREMAN% (overseer)
-  - %ZOFIA% (cook for workers)
-  - %JOZEK%, %PIOTR% (laborers)
-  - %BARBARA% (hired separately for household/farm work)
+- Zbigniew Gajda's PGR employs:
+  - Michał Pytlak (overseer)
+  - Zofia Pytlak (cook for workers)
+  - Józef Nowak, Piotr Wiśniewski (laborers)
+  - Barbara Kopacz (hired separately for household/farm work)
   - Other unnamed villagers (seasonal workers, helpers)
 
 ## Worker Status
@@ -63,7 +63,7 @@ Workers in a PGR were **state employees** but with minimal rights:
 - Subject to discipline by management
 - Fear of being fired meant fear of destitution
 
-%BARBARA%, despite being employed by the state, is effectively enslaved to %WOJEWODA% — she cannot leave, cannot complain, cannot organize. Her only leverage is silence (knowing the family's secrets) and her son (whose welfare depends on staying employed).
+Barbara Kopacz, despite being employed by the state, is effectively enslaved to Zbigniew Gajda — she cannot leave, cannot complain, cannot organize. Her only leverage is silence (knowing the family's secrets) and her son (whose welfare depends on staying employed).
 
 ## The Silence
 
@@ -72,7 +72,7 @@ PGR villages like %NEW_VILLAGE% were **vertically organized control structures**
 A secret like the 1954 lynch could be **buried indefinitely** because:
 - Workers are afraid of unemployment
 - The sołtys controls the narrative
-- The SB handler (%OFFICER%) has incentive to keep the village quiet
+- The SB handler (por. Witold Skowron) has incentive to keep the village quiet
 - Everyone is trapped together with no outside appeal
 
 ## Sources

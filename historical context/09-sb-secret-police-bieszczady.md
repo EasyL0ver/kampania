@@ -23,7 +23,7 @@ After Akcja Wisła (1947), the Urząd Bezpieczeństwa (UB, later reorganized as 
 
 ## Relevance to Story
 
-%OFFICER% operates within this documented framework. An SB agent assigned to ensure the Solina Dam cover-up proceeds smoothly is entirely consistent with how the secret police operated in this region.
+por. Witold Skowron operates within this documented framework. An SB agent assigned to ensure the Solina Dam cover-up proceeds smoothly is entirely consistent with how the secret police operated in this region.
 
 ## Sources
 

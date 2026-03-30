@@ -1,165 +1,20 @@
 graph TD
-    %% === START ===
-    START[Car Scene: Officer Briefing] --> ARRIVE[Arrive in New Village]
-    ARRIVE --> WOJEWODA_MEET[Meet Wojewoda]
-    
-    %% === CORE INVESTIGATION BRANCHES ===
-    WOJEWODA_MEET --> CENSUS[Begin Census Work]
-    WOJEWODA_MEET --> EXPLORE_VILLAGE[Explore New Village]
-    WOJEWODA_MEET --> PHONE_ACCESS[Access Phone in Office]
+    %% === GENERATED FROM scenes/ FOLDER ===
 
-    %% === CENSUS THREAD ===
-    CENSUS --> CIOTKA_CENSUS[Census Ciotka + Glupek]
-    CENSUS --> BARBARA_CENSUS[Census Barbara + Pawelek]
-    CENSUS --> LEDGER[Inspect PGR Ledger]
-    CENSUS --> FOREMAN_MEET[Meet Foreman]
-    
-    CIOTKA_CENSUS --> CIOTKA_LIES[Ciotka Lies About House/Father]
-    CIOTKA_LIES -->|convince Glupek safe| CIOTKA_CRACKS[Ciotka Reveals Fragments]
-    
-    BARBARA_CENSUS --> BARBARA_REFUSES[Barbara Refuses to Name Father]
-    BARBARA_CENSUS --> BARBARA_FLOOD_RAGE[Barbara Learns About Flood: Rage]
-    
-    LEDGER -->|accounting ability| EMBEZZLEMENT[Discover Embezzlement]
-    EMBEZZLEMENT --> FOREMAN_PANICS[Foreman Runs to Wojewoda]
-    FOREMAN_PANICS --> PARANOIA_CHAIN[Both Panic About Different Secrets]
-    
-    %% === VILLAGE EXPLORATION ===
-    EXPLORE_VILLAGE --> HALINA_GOSSIP[Talk to Halina: Gossip]
-    EXPLORE_VILLAGE --> DRINKING_CREW[Find Wujas Drinking Circle]
-    EXPLORE_VILLAGE --> PRIEST_VISIT[Visit Priest]
-    EXPLORE_VILLAGE --> PAINTER_STUDIO[Visit Painter]
-    EXPLORE_VILLAGE --> NEIGHBOUR_VISIT[Visit Neighbour]
-    EXPLORE_VILLAGE --> BUTCHER_EDGE[Notice Butcher at Village Edge]
-    
-    %% === WUJAS THREAD ===
-    DRINKING_CREW --> WUJAS_DRUNK[Wujas Drinks: Fragments Leak]
-    WUJAS_DRUNK --> WUJAS_FRAGMENTS[Hear: She Didnt Deserve It / Jagna / Dont Be Like Us]
-    WUJAS_FRAGMENTS -->|humanity| WUJAS_CONFESSION[Wujas Confesses Lynch]
-    WUJAS_FRAGMENTS -->|pressure| WUJAS_SUICIDE[Wujas Suicide]
-    WUJAS_FRAGMENTS -->|ignored| WUJAS_SPIRAL[Wujas Volatile Spiral]
-    
-    %% === BIMBER RED HERRING ===
-    DRINKING_CREW --> BIMBER_CLUE[Notice Forest Trips]
-    BIMBER_CLUE --> BIMBER_STILL[Find Bimber Still in Forest]
-    BIMBER_STILL --> BIMBER_DEAD_END[Red Herring: Just Moonshine]
-    BIMBER_STILL -->|leverage| WUJAS_PRESSURE[Pressure Wujas With Bimber]
-    
-    %% === PRIEST THREAD ===
-    PRIEST_VISIT -->|no faith shown| PRIEST_COLD[Priest: Cold, Unhelpful]
-    PRIEST_VISIT -->|faith/commandments| PRIEST_WARM[Priest Opens Up]
-    PRIEST_WARM --> PRIEST_HINTS[Priest: Careful Hints About Village]
-    PRIEST_HINTS -->|deep trust| PRIEST_BREAKS[Priest Reveals What He Knows]
-    PRIEST_BREAKS --> PRIEST_PERMISSION[Priest Gives Ritual Permission]
-    
-    %% === PAINTER THREAD ===
-    PAINTER_STUDIO --> WELL_PAINTINGS[See Well in His Paintings]
-    PAINTER_STUDIO -->|alone, no Matrona| PAINTER_SPEAKS[Painter Speaks: Jagna]
-    PAINTER_SPEAKS --> PAINTER_HEARD_VOICE[Painter: Heard Matronas Voice That Night]
-    PAINTER_SPEAKS --> JAGNA_CENSUS[Painter Wants Jagna in Census]
-    
-    %% === MATRONA THREAD ===
-    EXPLORE_VILLAGE --> MATRONA_MEET[Meet Matrona: Perfect Hostess]
-    MATRONA_MEET --> MATRONA_STORY[Matrona Tells Almost-True Story]
-    PAINTER_HEARD_VOICE --> MATRONA_EXPOSED[Matrona Exposed as Architect]
-    
-    %% === NEIGHBOUR THREAD ===
-    NEIGHBOUR_VISIT --> NEIGHBOUR_NERVOUS[Neighbour: Jumpy, Evasive]
-    NEIGHBOUR_NERVOUS -->|guilt/alcohol/authority| NEIGHBOUR_CRACKS[Neighbour Reveals: Heard the Lynch]
-    NEIGHBOUR_NERVOUS -->|well pressure + no outlet| NEIGHBOUR_SNAPS[Neighbour Snaps: Organises Mob]
-    
-    %% === OLD VILLAGE / WELL ===
-    EXPLORE_VILLAGE --> OLD_VILLAGE[Travel to Old Village]
-    OLD_VILLAGE --> WELL_FOUND[Find the Well]
-    WELL_FOUND --> WELL_EVIDENCE[Evidence: Overflow, Bone, Smell]
-    WELL_FOUND --> BUTCHER_REACTS[Butcher Notices: Trespassing]
-    
-    %% === HAG THREAD ===
-    OLD_VILLAGE --> HAUNTING_CLUES[Find Candles, Offerings, Footprints]
-    HAUNTING_CLUES --> HAG_FOUND[Find Hag in Forest Cabin]
-    HAG_FOUND --> HAG_EXPLAINS[Hag Explains: Dead, Ritual, Well]
-    HAG_FOUND --> HAG_EVACUATION[Tell Hag About Evacuation: She Shows Up]
-    HAG_EXPLAINS --> RITUAL_FORM[Obtain Ritual Form from Cabin]
-    
-    %% === BUNKER / ENGINEERING ===
-    FOREMAN_MEET --> FOREMAN_PLAN[Foreman Reveals Flood Diversion Plan]
-    FOREMAN_PLAN --> BUNKER_EXPEDITION[Enter UPA Bunker]
-    BUNKER_EXPEDITION --> EXPLOSIVES[Retrieve Explosives]
-    EXPLOSIVES --> DETONATION[Support Detonation]
-    DETONATION --> END_ENGINEERING[ENDING: Village Saved]
-    
-    %% === WIFE-JUNIOR INVESTIGATION ===
-    EXPLORE_VILLAGE --> WIFE_CONTACT[Contact Wife]
-    WIFE_CONTACT -->|show humanity| WIFE_TRUSTS[Wife Trusts Players]
-    WIFE_TRUSTS --> WIFE_EVIDENCE[Wife Shares: Shirt, Button, Notes, Timeline]
-    WIFE_TRUSTS --> JUNIOR_ALLY[Junior Revealed as Ally]
-    JUNIOR_ALLY --> JUNIOR_OLD_VILLAGE[Junior Knows Old Village Paths]
-    
-    %% === PAWELEK ILLNESS ===
-    WELL_FOUND --> PAWELEK_ILL[Event: Pawelek Falls Ill]
-    PAWELEK_ILL --> PAWELEK_DELIRIUM[Fever Dreams: Water, Old Woman, Whispers]
-    PAWELEK_ILL --> BARBARA_DESPERATE[Barbara Desperate]
-    PAWELEK_ILL --> JUNIOR_MOMENT[Junior May Step Up for Pawelek]
-    
-    %% === BUTCHER ESCALATION ===
-    BUTCHER_EDGE --> BUTCHER_SOCIALISE[Butcher Starts Socialising/Drinking]
-    BUTCHER_SOCIALISE --> BUTCHER_HUNTS[Butcher Decides Players Know Too Much]
-    BUTCHER_HUNTS --> BUTCHER_DANGER[Direct Threat to Players]
-    HAG_FOUND --> BUTCHER_KILLS_HAG[Optional: Butcher Kills Hag]
-    BUTCHER_KILLS_HAG --> CONTAINMENT_BREAKS[Well Containment Breaks]
-    
-    %% === GLUPEK DANGER ===
-    CIOTKA_CRACKS --> GLUPEK_TRUTH[Glupek Learns the Truth]
-    WUJAS_CONFESSION --> GLUPEK_TRUTH
-    GLUPEK_TRUTH --> GLUPEK_KILLS_CIOTKA[Glupek Kills Ciotka]
-    GLUPEK_KILLS_CIOTKA --> SILENCE_SHATTERS[Village Silence Shatters]
-    
-    %% === PHONE CALLS ===
-    PHONE_ACCESS --> CALL_PROFESSOR[Call Professor]
-    PHONE_ACCESS --> CALL_DOCTOR[Call Doctor for Pawelek]
-    PHONE_ACCESS --> CALL_AUTHORITIES[Call District Authorities]
-    CALL_PROFESSOR --> PROFESSOR_KNOWS[Professor Has the Information]
-    
-    %% === RITUAL ENDING CHAIN ===
-    RITUAL_FORM --> RITUAL_READY_FORM[Have: Ritual Form]
-    PRIEST_PERMISSION --> BARBARA_FREED[Barbara Will Bring Babcia]
-    BARBARA_FREED --> BABCIA_AT_WELL[Babcia at the Well: The Words]
-    RITUAL_READY_FORM --> RITUAL_ATTEMPT[Attempt Ritual]
-    BABCIA_AT_WELL --> RITUAL_ATTEMPT
-    RITUAL_ATTEMPT --> END_RITUAL[ENDING: Dead Acknowledged, Well Quiets]
-    
-    %% === JUSTICE / LYNCH PREVENTION ===
-    WUJAS_CONFESSION --> TRUTH_DOCUMENTED[Document Lynch Truth]
-    NEIGHBOUR_CRACKS --> TRUTH_DOCUMENTED
-    CIOTKA_CRACKS --> TRUTH_DOCUMENTED
-    PAINTER_HEARD_VOICE --> TRUTH_DOCUMENTED
-    TRUTH_DOCUMENTED --> CALL_AUTHORITIES
-    CALL_AUTHORITIES --> JUSTICE_COMING[Legal Justice in Motion]
-    JUSTICE_COMING --> NEIGHBOUR_STABLE[Neighbour Stabilised: No Mob]
-    NEIGHBOUR_STABLE --> END_JUSTICE[ENDING: Lynch Prevented, Legal Justice]
-    
-    %% === PUNISHMENT ENDING ===
-    NEIGHBOUR_SNAPS --> MOB_FORMS[Mob Forms]
-    MOB_FORMS --> END_PUNISHMENT[ENDING: Second Lynch]
-    
-    %% === REPORT ENDING ===
-    WELL_EVIDENCE --> MASSACRE_DISCOVERED[Discover 1947 Massacre Evidence]
-    HAG_EXPLAINS --> MASSACRE_DISCOVERED
-    MASSACRE_DISCOVERED --> REPORT_CHOICE{Include Massacre in Report?}
-    REPORT_CHOICE -->|omit| END_QUIET[ENDING: Quiet Departure, Truth Buried]
-    REPORT_CHOICE -->|include + no call| END_GUN[ENDING: Officer Reaches for Gun]
-    REPORT_CHOICE -->|include + Professor called| END_SURVIVE[ENDING: Gun Stays, Truth Lives]
-    
+    %% === EVENTS ===
+    E01[01: The Car In] --> E02[02: Arrival]
+    E02 --> E03[03: Dinner at Wojewoda's]
+    E02 --> L_OFFICE[Wojewoda's Office]
+
+    %% === LOCATIONS ===
+    E03 --> L_OFFICE
+    L_OFFICE --> L_STORE[The Store]
+    L_OFFICE --> L_SURVEY[Geological Survey]
+    L_SURVEY --> L_OFFICE
+
     %% === STYLING ===
-    classDef ending fill:#d32f2f,color:#fff,stroke:#b71c1c
-    classDef goodending fill:#388e3c,color:#fff,stroke:#1b5e20
-    classDef redhering fill:#f57c00,color:#fff,stroke:#e65100
-    classDef gate fill:#1565c0,color:#fff,stroke:#0d47a1
-    classDef event fill:#7b1fa2,color:#fff,stroke:#4a148c
-    
-    class END_RITUAL,END_ENGINEERING,END_JUSTICE,END_SURVIVE goodending
-    class END_PUNISHMENT,END_GUN ending
-    class END_QUIET ending
-    class BIMBER_DEAD_END,EMBEZZLEMENT,PARANOIA_CHAIN redhering
-    class PRIEST_PERMISSION,BARBARA_FREED,REPORT_CHOICE gate
-    class PAWELEK_ILL,BUTCHER_KILLS_HAG,GLUPEK_KILLS_CIOTKA,NEIGHBOUR_SNAPS,SILENCE_SHATTERS event
+    classDef event fill:#1565c0,color:#fff,stroke:#0d47a1
+    classDef location fill:#388e3c,color:#fff,stroke:#1b5e20
+
+    class E01,E02,E03 event
+    class L_OFFICE,L_STORE,L_SURVEY location

@@ -35,75 +35,75 @@ The colonists of %NEW_VILLAGE% are the second layer of this tragedy. Brought in 
 
 ## Buildings & Locations
 
-### %WOJEWODA%'s House
+### Zbigniew Gajda's House
 - **Central location**, seat of authority
 - Two stories, best-maintained building in village
-- Ground floor: %WOJEWODA%'s office with **the only phone in %NEW_VILLAGE%**
-- Residents: %WOJEWODA%, his wife, %JUNIOR% (when home), %WUJAS% (crashes here irregularly)
-- **Narrative function:** Communication bottleneck; players must negotiate access to phone through %WOJEWODA%
+- Ground floor: Zbigniew Gajda's office with **the only phone in %NEW_VILLAGE%**
+- Residents: Zbigniew Gajda, his wife, Marek Gajda (when home), Tadek Gajda (crashes here irregularly)
+- **Narrative function:** Communication bottleneck; players must negotiate access to phone through Zbigniew Gajda
 
-### %MATRONA% & %PAINTER%'s House
+### Helena Gajda & Emil Rzepka's House
 - Residence of the couple and their children
-- %MATRONA%'s store is likely attached or very close
-- Residents: %MATRONA%, %PAINTER%, %EWA% (eldest daughter), %KRYSTIAN% (youngest, altar boy)
-- **Atmosphere:** Controlled facade (pious family), inner tension (unhappy marriage, %EWA%'s worry for father)
+- Helena Gajda's store is likely attached or very close
+- Residents: Helena Gajda, Emil Rzepka, Ewa Rzepka (eldest daughter), Krystian Rzepka (youngest, altar boy)
+- **Atmosphere:** Controlled facade (pious family), inner tension (unhappy marriage, Ewa Rzepka's worry for father)
 
-### %CIOTKA%'s House
-- Originally %SOLDIER%'s property — the best plot of land before the lynch
-- Now home to %CIOTKA% and %GLUPEK%
-- Residents: %CIOTKA%, %GLUPEK% (age 17, brain-damaged)
+### Janina Gajda's House
+- Originally Edward Barnaś's property — the best plot of land before the lynch
+- Now home to Janina Gajda and Edek Barnaś
+- Residents: Janina Gajda, Edek Barnaś (age 17, brain-damaged)
 - **Symbolism:** The woman who showed mercy lives in the house of the man she couldn't save; daily reminder of the crime
-- **Isolation:** Set apart from village center; %GLUPEK%'s presence makes this a quiet, avoided place
+- **Isolation:** Set apart from village center; Edek Barnaś's presence makes this a quiet, avoided place
 
-### %BARBARA%'s House
-- Small house built by %WOJEWODA% for her
-- Residents: [%BARBARA%](../characters/barbara.md), [%PAWEŁEK%](../characters/secondary-characters.md) (age 4), [%BABCIA%](../characters/babcia.md) (her mother)
-- **Vulnerability:** Completely dependent on %WOJEWODA%'s goodwill for housing and employment
+### Barbara Kopacz's House
+- Small house built by Zbigniew Gajda for her
+- Residents: [Barbara Kopacz](../characters/barbara.md), [Pawełek Kopacz](../characters/secondary-characters.md) (age 4), [Stefania Kopacz](../characters/babcia.md) (her mother)
+- **Vulnerability:** Completely dependent on Zbigniew Gajda's goodwill for housing and employment
 - **Accessible:** Near farm, not isolated; players can visit freely
 
-### %NEIGHBOUR%'s House
-- Next to %CIOTKA%'s house (formerly %SOLDIER%'s plot)
-- Resident: %NEIGHBOUR% (lives alone)
+### Ryszard Dudka's House
+- Next to Janina Gajda's house (formerly Edward Barnaś's plot)
+- Resident: Ryszard Dudka (lives alone)
 - **Hunter's home:** Hunting rifle kept here
 - **Proximity to Ciotka:** Daily reminder of 1954 — he watched the lynch from this window
-- **Barbara's fence:** %BARBARA%'s house is close enough for over-the-fence conversations
+- **Barbara's fence:** Barbara Kopacz's house is close enough for over-the-fence conversations
 
-### %BUTCHER%'s House
+### Stanisław Rezeń's House
 - **Edge of the village**, set apart from everyone
-- Resident: %BUTCHER% and his dogs
+- Resident: Stanisław Rezeń and his dogs
 - **Isolation:** Nobody visits willingly; dogs growl at strangers
-- **Covered mirrors:** %BABCIA% doesn't live here, but this house sits closest to the forest path toward %OLD_VILLAGE%
+- **Covered mirrors:** Stefania Kopacz doesn't live here, but this house sits closest to the forest path toward %OLD_VILLAGE%
 - **Atmosphere:** Dark, neglected, smells of animals and solitude
 
 ### PGR Farm Complex
-- %WOJEWODA%'s farm operation (official PGR managed by him)
+- Zbigniew Gajda's farm operation (official PGR managed by him)
 - Multiple buildings:
   - **Main farm building:** Equipment, storage
   - **Worker barracks/quarters:** Where laborers sleep
-  - **Kitchen:** %ZOFIA% prepares meals for farm workers
-- Residents/workers: %FOREMAN%/%STEFAN% (overseer) and his family (%ZOFIA%, %STASZEK%), %HALINA%, %FRANEK%, %JOZEK%, %PIOTR%, other laborers
-- %WUJAS% often crashes here with the drinking crew
+  - **Kitchen:** Zofia Pytlak prepares meals for farm workers
+- Residents/workers: Michał Pytlak/Michał Pytlak (overseer) and his family (Zofia Pytlak, Staszek Pytlak), Halina Zając, Franek Mucha, Józef Nowak, Piotr Wiśniewski, other laborers
+- Tadek Gajda often crashes here with the drinking crew
 - **Noise hub:** Activity, rough voices, machinery — opposite of the village's quiet
-- **Surveillance:** %FOREMAN% observes everything; his loyalty is to %WOJEWODA%
+- **Surveillance:** Michał Pytlak observes everything; his loyalty is to Zbigniew Gajda
 
 ### Church
 - Modest building, serves spiritual function for village
-- Residents: %PRIEST%
-- Attached: Altar area where %KRYSTIAN% serves as altar boy
-- **Safe place:** Where %GLUPEK% hides during the crisis; where %PRIEST% offers shelter and moral resistance
-- **Confessional:** Where secrets are kept and %KRYSTIAN% overhears gossip
+- Residents: ks. Władysław Pająk
+- Attached: Altar area where Krystian Rzepka serves as altar boy
+- **Safe place:** Where Edek Barnaś hides during the crisis; where ks. Władysław Pająk offers shelter and moral resistance
+- **Confessional:** Where secrets are kept and Krystian Rzepka overhears gossip
 
-### %MATRONA%'s Store
+### Helena Gajda's Store
 - Small general store, possibly with living space above/behind
-- Staffed by: %HALINA% (resentful shopkeeper)
+- Staffed by: Halina Zając (resentful shopkeeper)
 - **Bench outside:** Informal village gathering place; gossip hub
 - **Social function:** Where villagers gather, where drinking crew hangs around, where news circulates
-- **Control point:** %MATRONA% uses store to observe and control village behavior through commerce
+- **Control point:** Helena Gajda uses store to observe and control village behavior through commerce
 
 ### Generic Villager Homes
 - Scattered throughout %NEW_VILLAGE%
 - Simple, modest construction
-- Homes of %WIDOW%, %SCHOOLTEACHER%, %MILITIA_CONSCRIPT%, other named and unnamed families
+- Homes of Wanda Mazur, %SCHOOLTEACHER%, %MILITIA_CONSCRIPT%, other named and unnamed families
 - **Atmosphere:** Poor but functional; each contains a story unknown to outsiders
 
 ### Cemetery & Church Grounds
@@ -114,9 +114,9 @@ The colonists of %NEW_VILLAGE% are the second layer of this tragedy. Brought in 
 
 ## Geography & Movement
 
-- **Village center:** Around %WOJEWODA%'s office, store, church
+- **Village center:** Around Zbigniew Gajda's office, store, church
 - **Farm area:** Outside village proper, where daily labor happens
-- **%SOLDIER%'s old plot:** Set apart, where %CIOTKA% and %GLUPEK% live
+- **Edward Barnaś's old plot:** Set apart, where Janina Gajda and Edek Barnaś live
 - **Forest edges:** Where the ruins of %OLD_VILLAGE% begin; paths to the well, the bunker
 - **Roads:** Mud in rain, difficult access; isolation increases during storm
 
