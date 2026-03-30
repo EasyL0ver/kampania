@@ -71,8 +71,8 @@ The flood zone was chosen partly to bury the massacre evidence. [por. Witold Sko
 ### soldier-killed-defending-daughter
 [Edward Barnaś](../characters/soldier.md) tried to save [Hania Barnaś](../characters/jagna.md) and was killed.
 
-### soldiers-wife-murdered
-[Edward Barnaś](../characters/soldier.md)'s wife was murdered to eliminate witnesses.
+### soldiers-partner-murdered
+[Edward Barnaś](../characters/soldier.md)'s partner was murdered to eliminate witnesses.
 
 ### glupek-strangled
 [Stanisław Rezeń](../characters/butcher.md) tried to strangle [Edek Barnaś](../characters/glupek.md) as an infant. [Janina Gajda](../characters/ciotka.md) stopped him. The oxygen deprivation caused permanent brain damage — it was not congenital.

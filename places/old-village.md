@@ -54,7 +54,7 @@ By the 1960s, the ruins of %OLD_VILLAGE% sit in the flood zone of the planned So
 - **Access:** Requires clearing debris, potentially digging/descending; not immediately obvious to casual observer
 - **Contains:** 
   - **1947 massacre victims:** Lemko villagers from %OLD_VILLAGE%, decomposed, difficult to identify
-  - **1954 lynch victims:** Edward Barnaś, Edward Barnaś's wife, Hania Barnaś (more recent, better preserved)
+  - **1954 lynch victims:** Edward Barnaś, Edward Barnaś's partner, Hania Barnaś (more recent, better preserved)
 - **Who knows:** Paraskewia Chyłak (massacre victims only); Stanisław Rezeń, Zbigniew Gajda, Tadek Gajda (lynch victims); Janina Gajda (may have inferred location); Ryszard Dudka (heard direction, not specific location)
 - **Critical urgency:** If dam floods reach %OLD_VILLAGE%, well will be underwater—evidence destroyed, bodies lost forever
 - **Hazards:** Unstable structure, unknown depth, decomposition, water hazards
