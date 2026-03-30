@@ -59,6 +59,8 @@ She loves both of them. She's damaging both of them. Not malice — boredom and 
 
 **Powerlessness, not cowardice.** 13 years trying to understand with no tools, no allies, no one to trust. Now strangers arrive who *could* help — but wrapped in the same state authority that protects her husband.
 
+**But if she finds the full truth?** She buries it. 13 years of searching and when she finally sees what happened — rape, murder, infanticide, her husband's direct role — the cost of exposure is too high. Her family, her son's future, everything she has. The hunter becomes the secret's fiercest guardian. Thematic mirror to [Zofia Pytlak](zofia.md), who knows a small truth and pushes for it to be told. Wanting truth is easy when you don't know what it costs.
+
 **Does she trust outsiders who might betray her to the man she sleeps next to?** If wrong: husband finds out — she's seen what this family does to problems. If right: destroys her family, son's future, only life she has.
 
 ## Well Influence

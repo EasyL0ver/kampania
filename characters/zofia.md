@@ -28,6 +28,8 @@ He can't. Wojewoda won't allow it. And Michał is loyal — to the village, to h
 
 **For players:** If the committee is kind to her and gains her trust, she may tell them about the silo. Not out of betrayal — she's been desperate for someone to listen for two years. She wants the truth out. She wants her husband unburdened. She's a **potential source** for the cover-up, and the easiest one to reach — she'll talk if someone just asks and listens.
 
+**Mirror to Irena — wanting truth is easy when you don't know what it costs.** Zofia knows a small truth (the silo) and wants it told. The cost is manageable — shame, maybe punishment. She pushes for honesty. Irena spends 13 years hunting a truth she doesn't have. When she finally gets it — rape, murder, infanticide, her husband's hands — she wants to bury it. Because the cost is everything: her family, her son, her life. The woman who searched for truth becomes its enemy. The woman who's known truth all along is the one saying "tell."
+
 ## The Pattern — "Let Go"
 
 This is the phrase that defines Zofia's relationship with Michał:
@@ -117,7 +119,7 @@ The players don't know the stakes when Zofia first asks for help. They just see 
 
 - **[Michał Pytlak](foreman.md)** — Her husband. She loves him completely. She knows about the silo — he told her that night because he couldn't carry it alone. She's been pushing him to confess for two years. Now she's watching him become something inhuman and she can't reach him. The tragedy: she's the only person who could save him, and the well's gift is designed to keep her away.
 - **[Staszek Pytlak](secondary-characters.md)** — Her son. Her reason. When the well takes her warmth, the last thing to go is her concern for him — she makes sure he's safe with another family before she goes.
-- **[Irena Gajda](wife.md)** — Connected through the household. Irena is calculating where Zofia is open. They're not friends, but there's recognition.
+- **[Irena Gajda](wife.md)** — Connected through the household. Irena is calculating where Zofia is open. Thematic mirror: Zofia knows a small secret and wants it told; Irena hunts a huge one for 13 years and buries it the moment she finds it. Wanting truth is easy when you don't know what it costs.
 - **[Barbara Kopacz](barbara.md)** — Works on the farm. Zofia is kind to her without pity. One of the few people who treats Barbara as a person, not a problem.
 - **[Wanda Mazur](widow.md)** — Both are PGR wives. Zofia knows the truth about Wanda's "pension" — that it's phantom wages, not a state benefit. She's kind to Wanda and it costs her every time, knowing what she knows.
 
