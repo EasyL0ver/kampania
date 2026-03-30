@@ -29,8 +29,8 @@ A worn footpath runs from behind the house into the trees — not toward the vil
 ### Census visit — interview Stanisław
 - **Requires:** Committee authority (and nerve)
 - **Cost:** 1 action
-- **Outcome:** He answers on the doorstep. Won't let them inside. Name: Stanisław Rezeń. Occupation: butcher, odd jobs. Family: none. Previous residence: came with the settlers. Duration: since 1950. Every answer is factually correct and tells players nothing. No lies to catch because he offers nothing to lie about. If asked about the village, other residents, the old settlement — short answers, no opinions. *"I keep to myself."*
-- **Leads to:** Dead end — unless players notice what he DOESN'T say. He doesn't mention the Barnaś family. He doesn't react to the name. A man who's lived here 17 years and has nothing to say about his neighbours. The absence is the evidence.
+- **Outcome:** He answers on the doorstep. Won't let them inside. Name: Stanisław Rezeń. Occupation: butcher, odd jobs. Family: none. Previous residence: came with the settlers. Duration: since 1950. Every answer is factually correct and tells players nothing. No lies to catch because he offers nothing to lie about. But he's not passive — he's studying them. Asks questions back: where are they staying, how long, what exactly does the census need? He's mapping their presence the way a predator maps movement. Players who recognise this will be unsettled. Players who don't will think he's just unfriendly.
+- **Leads to:** Dead end for information — but the interaction itself is a clue. This man is assessing threat, not answering questions. He doesn't mention the Barnaś family. He doesn't react to the name. The absence is the evidence.
 
 ### Observe from a distance
 - **Requires:** Time and patience. Don't approach — watch.
@@ -41,12 +41,13 @@ A worn footpath runs from behind the house into the trees — not toward the vil
 ### Follow him into the forest
 - **Requires:** He's left the house. Players must be willing to follow a dangerous man into the woods at night.
 - **Cost:** 1 action (and real danger)
-- **Outcome:** The path is clear — he's worn it into the ground. Through the trees, past the point where his dogs stopped. Into [%OLD_VILLAGE%](../../places/old-village.md). He goes to the well. He sits. Sometimes he clears debris — stones, fallen branches, anything blocking the mouth. He works quietly, methodically, like a man doing maintenance he can't explain. If he notices the players, he's not angry — he's confused. *"Why are you here?"* Not defensive. Genuine. He doesn't understand his own compulsion. Why would they follow?
-- **Leads to:** Players witness the well's pull firsthand. → [butcher-visits-the-well](../../clues/clues.md#butcher-visits-the-well), [butcher-compelled-to-feed](../../clues/clues.md#butcher-compelled-to-feed). Also the most direct path to finding [the well](../../story-facts/the-well.md) and [%OLD_VILLAGE%](../../places/old-village.md).
+- **Outcome:** The path is clear — he's worn it into the ground. Through the trees, past the point where his dogs stopped. Into [%OLD_VILLAGE%](../../places/old-village.md). He goes to the well. He sits. Sometimes he clears debris — stones, fallen branches, anything blocking the mouth. He works quietly, methodically. This isn't confusion — it's ownership. The well is his. He maintains it the way he maintains his knives. If he notices the players — the calm evaporates. He doesn't ask why they're there. He tells them to leave. Once. The dogs are behind them on the path.
+- **Leads to:** Players witness the well's pull firsthand. → [butcher-visits-the-well](../../clues/clues.md#butcher-visits-the-well), [butcher-compelled-to-feed](../../clues/clues.md#butcher-compelled-to-feed). Also the most direct path to finding [the well](../../story-facts/the-well.md) and [%OLD_VILLAGE%](../../places/old-village.md). But being caught following him is dangerous — he now sees the players as a problem.
 
 ### Enter while he's gone
-- **Requires:** Stanisław away (at the well, doing farm work). Dogs will growl but don't attack if players are calm and slow.
+- **Requires:** Stanisław confirmed away (at the well, doing farm work). Dogs will growl but don't attack if players are calm and slow.
 - **Cost:** 1 action
+- **⚠️ LETHAL RISK:** If Stanisław returns while players are inside, he will kill them. Not threaten. Not confront. The dogs go silent — that's the only warning. A man who strangled an infant without hesitation will not negotiate with intruders in his home. **GM must track his absence carefully.** Players should feel the clock.
 - **Outcome:** Spartan interior. One room, bench-bed, stove, hooks on the wall. Butchering tools cleaned and oiled — knives, cleavers, a bone saw. Not evidence — tools of his trade. The windowsill stones. A worn patch of floor under the window where he paces at night. No photographs, no letters, no personal effects. A life stripped to function.
   - **Under the bench:** a pair of boots caked in grey-white mud that doesn't match anything near the village. Well-bottom mud. He's been going deeper than standing at the rim.
   - **Smell:** beneath the smoke and dog — something faint. Stone and standing water. The house smells like the well when the air is still.
@@ -55,9 +56,9 @@ A worn footpath runs from behind the house into the trees — not toward the vil
 ### Confront about the well
 - **Requires:** Players know about the well, have seen him there or know he visits
 - **Cost:** 1 action
-- **Outcome:** He doesn't deny it. Doesn't explain it either. The mask of cold patience cracks — not into anger but into something worse: confusion. *"I don't know."* He really doesn't. Why does he go? Why does he clear it? Why can't he sleep? He's spent 13 years not asking these questions. Players asking them is like shining a light into a room he keeps dark.
-  - If players push about **1954** — the mask comes back. Hard. *"You should leave."* The dogs stand. The conversation is over.
-- **Leads to:** Emotional revelation — this man is not in control of himself. The well owns him. But 1954 is the locked door. Nobody gets through it here. That testimony comes from others — [Janina](../../characters/ciotka.md), [Tadek](../../characters/wujas.md), [Ryszard](../../characters/neighbour.md).
+- **Outcome:** He doesn't deny it. He also doesn't explain. No confusion, no vulnerability — cold assessment. He's deciding whether these people are a threat. *"I go where I want."* If players push, he gives them nothing — the patience of a man who knows exactly what he's done and has had 13 years to make peace with it. He's not haunted by guilt. He's managed by discipline.
+  - If players push about **1954** specifically — something shifts. Not fear. Recognition. He knows they know. The dogs stand. *"You should leave."* This isn't a warning. It's the last civil thing he'll say.
+- **Leads to:** Players understand this man is dangerous, aware, and under no one's control but his own. The well's influence is there — but HE doesn't see it as a problem. The compulsion feels like choice to him. That's what makes it terrifying.
 
 ## GM Notes
 
@@ -69,6 +70,6 @@ A worn footpath runs from behind the house into the trees — not toward the vil
 
 **The path is the most useful discovery here.** It leads directly to %OLD_VILLAGE% and the well. Players who find it bypass the forest-search entirely. The Butcher has blazed the trail for them.
 
-**Don't let players fight him.** Not because it's unfair — because it misses the point. He's the strongest man in the village, armed, and has dogs. A fight ends badly. But his danger isn't physical — it's what the well is turning him into. The violence is coming. The question is whether players can redirect it or just survive it.
+**Don't let players fight him.** Not because it's unfair — because they will lose. He's the strongest man in the village, armed, has dogs, and has killed before without hesitation. If players are caught in his house, the scene is survival, not combat. The only question is whether they get out. If they do, he now considers them enemies — and he is patient.
 
-**The containment arc:** Early game — he's away, at the well, contained. Mid-game — he starts appearing in the village, calm, pleasant, wrong. Late game — the dogs won't follow, the well's pull is absolute, and the most dangerous man in the village is walking among people for the first time in 13 years. His house emptying IS the danger signal.
+**The containment arc:** Early game — he's away, at the well, contained by his own discipline. Mid-game — he starts appearing in the village, calm, pleasant, wrong. Late game — the dogs won't follow, the discipline breaks, and the most dangerous man in the village is walking among people with sharpened knives and nothing holding him back. His house emptying IS the danger signal.
