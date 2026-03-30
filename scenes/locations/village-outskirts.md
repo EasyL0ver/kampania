@@ -1,4 +1,4 @@
-# Geological Survey
+# Village Outskirts
 
 **Type:** Location (revisitable, multi-trip)
 **Location:** Terrain around the village — river, hillsides, forest edges

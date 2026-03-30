@@ -51,6 +51,6 @@ A battered wooden desk in the tool shed holds the farm's paperwork — supply or
 - **Requires:** None
 - **Cost:** 1 action (takes significant time)
 - **Outcome:** Michał Pytlak is surprised but accepts. Physical labour alongside the workers. Builds strong rapport with Michał Pytlak and the labourers. They talk more freely while working — farm gossip, village dynamics, who's been acting strange.
-- **Leads to:** Strong rapport with farm crew. Michał Pytlak's flood prep assistance becomes cheaper (reduces geological survey trips by 1). Workers may mention Barbara's situation with more sympathy than gossip.
+- **Leads to:** Strong rapport with farm crew. Michał Pytlak's flood prep assistance becomes cheaper (reduces village outskirts survey trips by 1). Workers may mention Barbara's situation with more sympathy than gossip.
 
 

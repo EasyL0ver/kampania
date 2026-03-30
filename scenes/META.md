@@ -16,7 +16,7 @@ Event files are numbered (`01-`, `02-`, `03-`) for play sequence. The number ref
 ### `locations/` — Revisitable places
 Places the players can return to. Persistent actions and NPCs. The location exists for the whole game — what changes is the game state and NPC attitudes.
 
-Examples: Wojewoda's office, the store, the geological survey terrain.
+Examples: Wojewoda's office, the store, the village outskirts.
 
 Location files are named descriptively (no numbers) — they don't have a play order.
 

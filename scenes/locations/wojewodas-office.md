@@ -24,8 +24,8 @@ Players can return to this location throughout the game.
 ### Steal the maps
 - **Requires:** Zbigniew Gajda absent or distracted
 - **Cost:** 1 action
-- **Outcome:** Players take the maps. Detailed terrain — river courses, elevations, %OLD_VILLAGE% marked clearly. Huge help for the geological survey and finding the old village. Zbigniew Gajda will notice eventually.
-- **Leads to:** Maps in hand. Reduces geological survey cost. Zbigniew Gajda suspicious if he discovers them missing.
+- **Outcome:** Players take the maps. Detailed terrain — river courses, elevations, %OLD_VILLAGE% marked clearly. Huge help for the survey at the village outskirts and finding the old village. Zbigniew Gajda will notice eventually.
+- **Leads to:** Maps in hand. Reduces village outskirts survey cost. Zbigniew Gajda suspicious if he discovers them missing.
 
 ### Tell Wojewoda about the flood
 - See [Zbigniew Gajda — Tell about the flood risk](../../characters/wojewoda.md#tell-about-the-flood-risk) and [Tell with geological proof](../../characters/wojewoda.md#tell-with-geological-proof)

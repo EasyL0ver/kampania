@@ -14,7 +14,7 @@ graph TD
     %% === LOCATIONS ===
     E03 --> L_OFFICE
     L_OFFICE --> L_STORE[The Store]
-    L_OFFICE --> L_SURVEY[Geological Survey]
+    L_OFFICE --> L_SURVEY[Village Outskirts]
     L_SURVEY --> L_OFFICE
 
     %% === STYLING ===
@@ -41,4 +41,4 @@ graph TD
 |------|----------|----------------|
 | `locations/wojewodas-office.md` | Wojewoda's Office | After arrival |
 | `locations/the-store.md` | The Store | Daytime, any day |
-| `locations/geological-survey.md` | Geological Survey | Any day, needs geologist |
+| `locations/village-outskirts.md` | Village Outskirts | Any day, needs geologist |

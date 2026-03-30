@@ -14,7 +14,7 @@ The committee has three tasks:
 2. **Damage assessment** — Inventory buildings, land, livestock, and infrastructure to calculate state compensation.
 3. **Evacuation planning** — Prepare a relocation plan in case the flooding is confirmed.
 
-A fourth, underlying task belongs to **one of the players — a geologist**. They must take field measurements (elevation, soil, terrain) around %NEW_VILLAGE% and %OLD_VILLAGE% to determine whether the flood will actually reach the village. This geological survey is what will confirm or deny the need for evacuation — and it requires going **into the field**, near the ruins, near the well.
+A fourth, underlying task belongs to **one of the players — a geologist**. They must take field measurements (elevation, soil, terrain) around %NEW_VILLAGE% and %OLD_VILLAGE% to determine whether the flood will actually reach the village. This survey at the village outskirts is what will confirm or deny the need for evacuation — and it requires going **into the field**, near the ruins, near the well.
 
 ## What the Village Knows
 

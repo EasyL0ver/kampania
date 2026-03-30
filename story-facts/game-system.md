@@ -36,7 +36,7 @@ The game is **not about solving everything** — it's about what you prioritize 
 - How many players?
 - Do players share actions, or is each player's 3 actions independent?
 - Are there group actions (e.g., two players spending an action together on the same scene)?
-- Do some actions take more than one slot? (e.g., a full geological survey vs. a quick conversation)
+- Do some actions take more than one slot? (e.g., a full survey at the village outskirts vs. a quick conversation)
 - Can events interrupt or consume actions? (e.g., a crisis forces the group to spend an action responding)
 - Are there evening/night actions, or only daytime?
 - What triggers the endgame on day 5?

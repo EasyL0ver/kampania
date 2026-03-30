@@ -207,7 +207,7 @@ The siblings keep the [church](../scenes/locations/the-church.md) unusually well
 ## The Flood & The Committee
 
 ### new-village-will-flood
-The geological survey confirms it: %NEW_VILLAGE% will flood. Hard data — water table measurements, rock composition, flood projections. Not speculation, proof.
+The survey at the village outskirts confirms it: %NEW_VILLAGE% will flood. Hard data — water table measurements, rock composition, flood projections. Not speculation, proof.
 
 ### wojewoda-already-suspects-flooding
 [Zbigniew Gajda](../characters/wojewoda.md) already suspects the flood is coming before the committee arrives. He sees it as an opportunity — water swallows the evidence.

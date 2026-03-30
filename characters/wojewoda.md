@@ -89,7 +89,7 @@ The most cooperative NPC at first — genuinely useful guide and ally. His agend
 - **Result:** No dinner event. Zbigniew Gajda is watching closely. Geologist sent to the field. PGR quarters for the night.
 
 ### Tell with geological proof
-- **Requires:** Players have completed geological survey at %OLD_VILLAGE% / field measurements
+- **Requires:** Players have completed survey at the village outskirts / field measurements
 - **Cost:** Free
 - **What happens:** Now he believes it. And he loses his temper. This is his home. His village, his people, his life's work — the state is going to drown it. The composed sołtys cracks. The players see the real man under the authority. Then he pulls himself together — slower than usual. The leader takes over: keep it quiet, census everyone for compensation, plan evacuation. He orders [Michał Pytlak](foreman.md) to find a solution to the flooding — diversion, drainage, anything. NPC State Change — Zbigniew Gajda shifts to urgent partner. The census needs to happen NOW.
 - **Result:** Zbigniew Gajda becomes proactive — pushes players toward specific people, accelerates the census. [Michał Pytlak](foreman.md) receives the order.
