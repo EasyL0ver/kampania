@@ -40,58 +40,58 @@ Her name is **Marta Konieczna** — initials M.K.
 |------|--------------------|-----------:|
 | | **— 1951 —** | |
 | 14.02.1951 | Spółdzielnia Lesko — seed grain (spring sowing) | 1,240 |
-| 03.05.1951 | Gajda, T. — transport, lumber from Ustrzyki | 280 |
+| 03.05.1951 | Gajda, Tadeusz — transport, lumber from Ustrzyki | 280 |
 | 18.07.1951 | Veterinary cooperative — cattle inspection | 320 |
-| 02.10.1951 | Rzepka, E. — whitewashing, barn no. 2 | 460 |
-| 28.11.1951 | Rezeń, S. — autumn slaughter, 4 hogs | 240 |
+| 02.10.1951 | Rzepka, Emil — whitewashing, barn no. 2 | 460 |
+| 28.11.1951 | Rezeń, Stanisław — autumn slaughter, 4 hogs | 240 |
 | | | |
 | | **— 1952 —** | |
 | 22.01.1952 | Spółdzielnia Lesko — winter feed, hay bales | 890 |
-| 15.04.1952 | Dudka, R. — well pump repair | 140 |
+| 15.04.1952 | Dudka, Ryszard — well pump repair | 140 |
 | 30.06.1952 | Apteka Lesko — veterinary medicines | 210 |
-| 11.09.1952 | Mucha, F. — fence repair, eastern pasture | 95 |
-| 28.11.1952 | Rezeń, S. — autumn slaughter, 3 hogs | 190 |
+| 11.09.1952 | Mucha, Franek — fence repair, eastern pasture | 95 |
+| 28.11.1952 | Rezeń, Stanisław — autumn slaughter, 3 hogs | 190 |
 | | | |
 | | **— 1953 —** | |
 | 08.03.1953 | Spółdzielnia Lesko — seed potatoes | 680 |
-| 12.05.1953 | Gajda, T. — transport, fertilizer from Sanok | 310 |
+| 12.05.1953 | Gajda, Tadeusz — transport, fertilizer from Sanok | 310 |
 | 21.06.1953 | Konieczna, Marta — mending work clothes ⚠️ | 80 |
-| 04.08.1953 | Dudka, R. — hay transport, second cut | 260 |
+| 04.08.1953 | Dudka, Ryszard — hay transport, second cut | 260 |
 | 17.10.1953 | Apteka Lesko — veterinary medicines | 190 |
-| 22.11.1953 | Rezeń, S. — autumn slaughter, 3 hogs | 190 |
+| 22.11.1953 | Rezeń, Stanisław — autumn slaughter, 3 hogs | 190 |
 | | | |
 | | **— 1954 —** | |
 | 10.02.1954 | Spółdzielnia Lesko — seed grain (spring sowing) | 1,180 |
-| 25.05.1954 | Głowacz, R. — plough blade sharpening | 60 |
-| 09.09.1954 | Mucha, F. — fence repair, western boundary | 110 |
-| 20.11.1954 | Rezeń, S. — autumn slaughter, 2 hogs | 130 |
+| 25.05.1954 | Głowacz, Romek — plough blade sharpening | 60 |
+| 09.09.1954 | Mucha, Franek — fence repair, western boundary | 110 |
+| 20.11.1954 | Rezeń, Stanisław — autumn slaughter, 2 hogs | 130 |
 | | | |
 | | **— 1957 —** | |
 | 03.03.1957 | Spółdzielnia Lesko — fertilizer, spring application | 720 |
 | 20.07.1957 | Transport cooperative Sanok — fuel delivery | 440 |
-| 14.11.1957 | Gajda, T. — barn door replacement | 380 |
+| 14.11.1957 | Gajda, Tadeusz — barn door replacement | 380 |
 | | | |
 | | **— 1960 —** | |
 | 17.01.1960 | Spółdzielnia Lesko — winter feed supplement | 950 |
-| 06.06.1960 | Rezeń, S. — spring slaughter, 2 cattle | 340 |
+| 06.06.1960 | Rezeń, Stanisław — spring slaughter, 2 cattle | 340 |
 | 22.09.1960 | Veterinary cooperative — tuberculosis testing | 280 |
 | | | |
 | | **— 1963 —** | |
 | 11.02.1963 | Spółdzielnia Lesko — seed grain | 1,260 |
 | 19.06.1963 | Apteka Lesko — veterinary medicines | 210 |
-| 04.10.1963 | Mucha, F. — fence repair, northern pasture | 130 |
-| 25.11.1963 | Rezeń, S. — autumn slaughter, 3 hogs | 200 |
+| 04.10.1963 | Mucha, Franek — fence repair, northern pasture | 130 |
+| 25.11.1963 | Rezeń, Stanisław — autumn slaughter, 3 hogs | 200 |
 | | | |
 | | **— 1965 —** | |
 | 28.02.1965 | Spółdzielnia Lesko — seed grain | 1,340 |
 | 15.05.1965 | Silo repair — concrete patching, grain silo ⚠️ | 520 |
 | 03.08.1965 | Transport cooperative Sanok — fuel delivery | 480 |
-| 10.12.1965 | Pytlak, Z. — kitchen equipment replacement | 160 |
+| 10.12.1965 | Pytlak, Zofia — kitchen equipment replacement | 160 |
 | | | |
 | | **— 1967 —** | |
 | 19.01.1967 | Spółdzielnia Lesko — winter feed, hay | 1,100 |
 | 04.04.1967 | Apteka Lesko — veterinary medicines | 230 |
-| 12.06.1967 | Rzepka, E. — whitewashing, tool shed | 320 |
+| 12.06.1967 | Rzepka, Emil — whitewashing, tool shed | 320 |
 | 30.06.1967 | Transport cooperative Sanok — fuel delivery | 510 |
 
 ---
@@ -109,57 +109,57 @@ Date        Payee / Description                                    Amount
 
                          — 1951 —
 14.02.1951  Spółdzielnia Lesko — seed grain (spring sowing)        1,240 zł
-03.05.1951  Gajda, T. — transport, lumber from Ustrzyki              280 zł
+03.05.1951  Gajda, Tadeusz — transport, lumber from Ustrzyki              280 zł
 18.07.1951  Veterinary cooperative — cattle inspection               320 zł
-02.10.1951  Rzepka, E. — whitewashing, barn no. 2                   460 zł
-28.11.1951  Rezeń, S. — autumn slaughter, 4 hogs                    240 zł
+02.10.1951  Rzepka, Emil — whitewashing, barn no. 2                   460 zł
+28.11.1951  Rezeń, Stanisław — autumn slaughter, 4 hogs                    240 zł
 
                          — 1952 —
 22.01.1952  Spółdzielnia Lesko — winter feed, hay bales             890 zł
-15.04.1952  Dudka, R. — well pump repair                            140 zł
+15.04.1952  Dudka, Ryszard — well pump repair                            140 zł
 30.06.1952  Apteka Lesko — veterinary medicines                     210 zł
-11.09.1952  Mucha, F. — fence repair, eastern pasture                95 zł
-28.11.1952  Rezeń, S. — autumn slaughter, 3 hogs                    190 zł
+11.09.1952  Mucha, Franek — fence repair, eastern pasture                95 zł
+28.11.1952  Rezeń, Stanisław — autumn slaughter, 3 hogs                    190 zł
 
                          — 1953 —
 08.03.1953  Spółdzielnia Lesko — seed potatoes                      680 zł
-12.05.1953  Gajda, T. — transport, fertilizer from Sanok            310 zł
-21.06.1953  Konieczna, Marta — mending work clothes                  80 zł
-04.08.1953  Dudka, R. — hay transport, second cut                    260 zł
+12.05.1953  Gajda, Tadeusz — transport, fertilizer from Sanok            310 zł
+21.06.1953  Konieczna, Marta — mending work clothes                      80 zł
+04.08.1953  Dudka, Ryszard — hay transport, second cut                    260 zł
 17.10.1953  Apteka Lesko — veterinary medicines                     190 zł
-22.11.1953  Rezeń, S. — autumn slaughter, 3 hogs                    190 zł
+22.11.1953  Rezeń, Stanisław — autumn slaughter, 3 hogs                    190 zł
 
                          — 1954 —
 10.02.1954  Spółdzielnia Lesko — seed grain (spring sowing)        1,180 zł
-25.05.1954  Głowacz, R. — plough blade sharpening                    60 zł
-09.09.1954  Mucha, F. — fence repair, western boundary               110 zł
-20.11.1954  Rezeń, S. — autumn slaughter, 2 hogs                    130 zł
+25.05.1954  Głowacz, Romek — plough blade sharpening                    60 zł
+09.09.1954  Mucha, Franek — fence repair, western boundary               110 zł
+20.11.1954  Rezeń, Stanisław — autumn slaughter, 2 hogs                    130 zł
 
                          — 1957 —
 03.03.1957  Spółdzielnia Lesko — fertilizer, spring application     720 zł
 20.07.1957  Transport cooperative Sanok — fuel delivery              440 zł
-14.11.1957  Gajda, T. — barn door replacement                       380 zł
+14.11.1957  Gajda, Tadeusz — barn door replacement                       380 zł
 
                          — 1960 —
 17.01.1960  Spółdzielnia Lesko — winter feed supplement              950 zł
-06.06.1960  Rezeń, S. — spring slaughter, 2 cattle                  340 zł
+06.06.1960  Rezeń, Stanisław — spring slaughter, 2 cattle                  340 zł
 22.09.1960  Veterinary cooperative — tuberculosis testing            280 zł
 
                          — 1963 —
 11.02.1963  Spółdzielnia Lesko — seed grain                        1,260 zł
 19.06.1963  Apteka Lesko — veterinary medicines                     210 zł
-04.10.1963  Mucha, F. — fence repair, northern pasture               130 zł
-25.11.1963  Rezeń, S. — autumn slaughter, 3 hogs                    200 zł
+04.10.1963  Mucha, Franek — fence repair, northern pasture               130 zł
+25.11.1963  Rezeń, Stanisław — autumn slaughter, 3 hogs                    200 zł
 
                          — 1965 —
 28.02.1965  Spółdzielnia Lesko — seed grain                        1,340 zł
 15.05.1965  Silo repair — concrete patching, grain silo              520 zł
 03.08.1965  Transport cooperative Sanok — fuel delivery              480 zł
-10.12.1965  Pytlak, Z. — kitchen equipment replacement              160 zł
+10.12.1965  Pytlak, Zofia — kitchen equipment replacement              160 zł
 
                          — 1967 —
 19.01.1967  Spółdzielnia Lesko — winter feed, hay                  1,100 zł
 04.04.1967  Apteka Lesko — veterinary medicines                     230 zł
-12.06.1967  Rzepka, E. — whitewashing, tool shed                    320 zł
+12.06.1967  Rzepka, Emil — whitewashing, tool shed                    320 zł
 30.06.1967  Transport cooperative Sanok — fuel delivery              510 zł
 ```
