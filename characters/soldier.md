@@ -20,7 +20,7 @@ Left military service in 1948, ahead of the main colonist wave. Settled in [%NEW
 
 ## Family
 
-- **Edward Barnaś's partner** (%SOLDIER_WIFE_FIRST% %SOLDIER_WIFE_MAIDEN%, born ~1915) — never married, lived together. Initials: M.K. Killed in the lynch (1954, age ~39). Her name appears only in the [PGR expense journal](../documents/pgr-expenses.md) under her own surname.
+- **Edward Barnaś's partner** (Marta Konieczna, born ~1915) — never married, lived together. Initials: M.K. Killed in the lynch (1954, age ~39). Her name appears only in the [PGR expense journal](../documents/pgr-expenses.md) under her own surname.
 - **[Hania Barnaś](jagna.md)** — eldest daughter, his pride — killed in the lynch (beaten, raped)
 - **[Edek Barnaś](glupek.md)** — infant son, mentally challenged — survived
 
