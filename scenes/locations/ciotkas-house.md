@@ -66,8 +66,8 @@ Edek is large — six foot, broad, silent. He stands behind Janina or sits in hi
 ### Dig in the backyard
 - **Requires:** A reason to dig — Edek caught scratching at the ground there, Butcher's dogs pulling toward it, uneven earth visible after heavy rain, or a player's intuition.
 - **Cost:** 1 action
-- **Outcome:** About a foot down, wrapped in oilcloth: a KBW military uniform, folded tight. Service insignia. A soldier's identity documents — name: Edward Barnaś, unit, service dates, including deployment to the Bieszczady region in 1947. This is hard evidence: the man who lived here was military, was stationed here during Akcja Wisła, and someone buried his identity after he disappeared.
-- **Leads to:** Direct confirmation that the previous occupant was a soldier who served during the Lemko deportations. Combined with the attic (personal effects, a family) and the census (Edek's surname) — the picture assembles. A military man who knew these mountains was killed and erased. His uniform buried in his own backyard.
+- **Outcome:** About a foot down, wrapped in oilcloth: a KBW military uniform, folded tight. Service insignia. A soldier's identity documents — name: Edward Barnaś, unit, service dates, including deployment to the Bieszczady region in 1947. And underneath — a bundle of **love letters**, tied with string, addressed to "M." Tender, domestic, ordinary. A man writing to his wife from military service. No full name — just "M." and "Kochana" and details about coming home to the mountains, to her, to the house he'd build them.
+- **Leads to:** Hard evidence: the previous occupant was a soldier who served during Akcja Wisła, and someone buried his identity after he disappeared. The letters prove a wife existed — "M." — but not who she is. Players need to find her name elsewhere. The parish register, a villager's slip, the census archives. One initial. The hardest clue in the game.
 
 ## GM Notes
 
