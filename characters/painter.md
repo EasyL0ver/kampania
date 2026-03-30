@@ -32,10 +32,16 @@ The census is the last record before the flood erases this place. If Hania Barna
 
 If the players get him alone — truly alone, away from her — this is what comes out. Not a confession about the lynch. A name. He wants a dead woman written on a piece of government paper so that something survives the water.
 
+## The Art
+
+Emil only paints landscapes. Mountains, rivers, villages, forests — never people. His family jokes about it. Ewa complains he'll paint every peak in Bieszczady but won't do her portrait. It's a harmless quirk. Except it isn't.
+
+There is one portrait in his shed. A young woman, dark-haired, beautiful. No name, no label. The only person he's ever painted. He broke his one rule for [Hania Barnaś](jagna.md) and he can't explain why without explaining everything.
+
 ## The Well's Influence
 
 Emil Rzepka is mostly innocent — a man caught in the wrong place whose life was destroyed by others' violence. The well doesn't torment him the way it torments the killers. It reaches him the only way it can: **through his art.**
 
-He starts painting the well. Not deliberately — it appears in his work uninvited. A dark circle in the background of a landscape. A ring of stones in a portrait that shouldn't have one. The water in his paintings turns black. He doesn't notice at first. When he does, he can't stop.
+He starts painting the well. Not deliberately — it appears in his work uninvited. A dark circle in the background of a landscape. A ring of stones that shouldn't be there. The water in his paintings turns black. He doesn't notice at first. When he does, he can't stop.
 
 The paintings are the well's way of being seen by someone with no guilt to amplify and no secret to crack — just a pair of hands that know how to make the invisible visible. If the players find his paintings, they'll see the well before they find it.
