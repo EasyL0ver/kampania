@@ -55,6 +55,27 @@ The well has no guilt to amplify in Zofia — she arrived after the crimes. Inst
 
 The well's cruelest trick: it gave her husband inhuman strength to keep him away from the one person who could have saved him from its grip. Zofia was the voice saying *let go* — and the well made sure he couldn't hear it.
 
+## Thematic Role — "The Village Doesn't Deserve It"
+
+Zofia is the **price tag** of the village's survival. Every ending where %NEW_VILLAGE% continues — the flood is fought, the report is written, life goes on — has to contend with her empty kitchen.
+
+The Foreman saves the village? His wife died alone so he could haul sandbags for a community built on a mass grave. The committee writes a favorable report? The village gets to keep existing, keep burying, keep consuming its own. Whatever the players achieve, Zofia is the question: **was this village worth what it cost?**
+
+She's the moral argument that some things shouldn't be saved.
+
+## The Choice — Save Zofia or Save the Village
+
+Players who notice Zofia's decline can intervene. If they take her seriously — sit with her, listen, help her confront Michał — they can break the well's grip on the Foreman. He comes home. He stops. He's human again.
+
+**But without his inhuman strength, the flood defense collapses.** He's the only one holding it together. The drainage fails. The water wins. Homes are lost. Maybe lives.
+
+| Choice | Zofia | Foreman | Village | Ending |
+|---|---|---|---|---|
+| Help Zofia | Lives | Comes back, human | Floods — defense collapses | "Foreman saves village" ending **lost** |
+| Ignore / don't notice | Dies | Well keeps him, breaks him after | Survives the flood | "Foreman saves village" ending **available** — but at what cost? |
+
+The players don't know the stakes when Zofia first asks for help. They just see a tired woman who says something is wrong with her husband.
+
 ## For the GM
 
 **Zofia's arc is a barometer.** Her state tells the players how far the village has fallen:
@@ -67,7 +88,7 @@ The well's cruelest trick: it gave her husband inhuman strength to keep him away
 | Kitchen cold, not cooking | The village's warmth is dying. Late Act II. |
 | Gone | The village has consumed its own heart. Act III. |
 
-**Preventable?** Yes — if the players notice and intervene. If someone sits with her, talks to her, takes her seriously when she says something is wrong with Michał. If a player spends an action on her instead of the investigation. But they probably won't — she's "just the cook" and there's a mystery to solve. That's the point.
+**Preventable?** Yes — if the players notice and intervene. See "The Choice" above.
 
 **Content warning:** Her death should be flagged in session zero. The GM can adjust the severity — she can break without dying, or disappear, or simply shut down. The suicide is the hardest version. Use it only with a group that's prepared for it.
 

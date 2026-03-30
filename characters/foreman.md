@@ -52,7 +52,11 @@ The well gives Michał Pytlak something nobody else gets: **inhuman fortitude.**
 
 He's 57 years old and he's outworking everyone in the village. It's not adrenaline. It's not stubbornness. It's something else — a strength that has no business being in a man his age, that comes from nowhere and doesn't run out.
 
-The well has no guilt to amplify in him, no wound to reopen. So it gives him the one thing that fits: the power to fight the water. Whether this is the well rewarding the only man trying to hold the land together, or the well keeping him upright so the drama plays out longer — nobody knows. Michał Pytlak doesn't question it. He just keeps working.
+The well has no guilt to amplify in him, no wound to reopen. So it gives him the one thing that fits: the power to fight the water. But the gift has a cost — it keeps him away from [Zofia Pytlak](zofia.md), the one person who sees what's happening to him. She begs him to stop. He can't hear her. The well won't let him.
+
+**If players intervene** — help Zofia pull him back, break the well's grip — he comes home. He's human again. Zofia lives. But the flood defense collapses without him. The village floods. The "Foreman saves village" ending is lost.
+
+**If nobody intervenes** — the well keeps him standing until the work is done. Then it lets go. The inhuman strength drains away. What's left is a broken 57-year-old man with a bad knee, standing in his kitchen, looking at his dead wife. He saved the village. He'll sit in that kitchen for the rest of the game and nobody will reach him.
 
 The other villagers notice. They don't say anything. But they watch the old man haul sandbags in the dark and something in the back of their minds says *that's not natural*.
 
