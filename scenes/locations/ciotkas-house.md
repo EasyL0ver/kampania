@@ -59,6 +59,7 @@ Edek is large — six foot, broad, silent. He stands behind Janina or sits in hi
   - **A box labelled "EDEK"** — scrawled in pencil on the side. Inside: a pair of worn shoes (too small for the boy downstairs), a shaving brush, a pocket knife, a folded handkerchief, rosary beads. Personal effects. Players see the name and think — *ah, the boy's things, stored when he outgrew them.* But Edek is brain-damaged. He doesn't shave. He's never needed a pocket knife. These are a grown man's belongings, boxed up by someone. The name on the box isn't the son's — it's the father's. Same name.
   - **A girl's dress** — folded, moth-eaten. Too small for an adult, too big for a child. A teenager's.
   - **A child's wooden rattle** — hand-carved, worn smooth. A baby lived here once.
+  - **A torn newspaper clipping** — from the late 1940s. An article about Akcja Wisła, the resettlement of Ukrainian and Lemko populations. Underlined passages, margin notes in angry handwriting. Whoever lived here before Janina had strong feelings about it. If players later learn Janina is Lemko — why would a Lemko woman move into the house of someone who celebrated the deportation of her people?
 - **Leads to:** A family lived here — a man, a teenage girl, a baby. The "EDEK" box creates confusion: is this the boy's? His father's? Players have to work out the name is shared. The dress and rattle prove there were others. Nobody will say what happened to them. → Seeds [ciotka-lives-in-soldiers-house](../../clues/clues.md#ciotka-lives-in-soldiers-house)
 
 ## GM Notes
