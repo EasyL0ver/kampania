@@ -21,6 +21,25 @@ Hacked version of **Cthulhu Confidential** (GUMSHOE One-2-One). Key change: **al
 - If a player attempts something, they succeed. The question is never "can I do this?" — it's "is this worth one of my three actions today?"
 - The tension comes from **opportunity cost**, not dice rolls. Every door you open means another door stays closed.
 
+## Character Traits
+
+Permanent cards each player holds. These aren't chosen during play — they're part of who your character is before they arrive in the village.
+
+### Religion
+
+| Card | Effect |
+|---|---|
+| **Believer** | The priest trusts you. Babcia opens up. Janina recognizes a kindred soul. But the party expects atheism from its servants. |
+| **Nonbeliever** | The state trusts you. por. Skowron sees you as reliable. But the village is Catholic — doors close faster. |
+
+### Alcohol
+
+| Card | Effect |
+|---|---|
+| **Abstinent** | Won't drink. Villagers find it suspicious — who refuses a glass? Locked out of bimber bonding but always in control. |
+| **Alcoholic** | Can't refuse. Drinking scenes unlock easily but you lose control — information flows both ways. |
+| **Wszywka** | Disulfiram implant — recovering alcoholic. Physically cannot drink without getting violently ill. Completely locked out of drinking scenes. The scar is visible. People notice. |
+
 ## Skills
 
 Every player is a government clerk — paperwork is baseline, not a skill. Skills represent what makes each committee member *different* and what they can do beyond filling out forms.
