@@ -120,8 +120,6 @@ Minor NPCs, relationships, and supporting cast. Grouped by association for easy 
 ### Unnamed Villagers
 - **%NEIGHBOUR_1%, %NEIGHBOUR_2%, etc.** — Families living in %NEW_VILLAGE%. Use as needed for scenes, gossip, evacuation logistics, or village reaction.
 - **Wanda Mazur** — Elderly woman living alone. Seen at church. Neutral.
-- **%SCHOOLTEACHER%** — If relevant; would know about village children.
-- **%MILITIA_CONSCRIPT%** — Young village man doing state service, home briefly. Connection to outside authority.
 
 Use these as atmospheric fill or develop them further if players interact heavily.
 

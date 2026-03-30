@@ -103,7 +103,7 @@ The colonists of %NEW_VILLAGE% are the second layer of this tragedy. Brought in 
 ### Generic Villager Homes
 - Scattered throughout %NEW_VILLAGE%
 - Simple, modest construction
-- Homes of Wanda Mazur, %SCHOOLTEACHER%, %MILITIA_CONSCRIPT%, other named and unnamed families
+- Homes of Wanda Mazur and other named and unnamed families
 - **Atmosphere:** Poor but functional; each contains a story unknown to outsiders
 
 ### Cemetery & Church Grounds
