@@ -235,8 +235,8 @@ The players must supply the truth by naming the dead and saying what happened to
 
 ## Red Herrings & Side Mysteries
 
-### foreman-embezzlement
-[Michał Pytlak](../characters/secondary-characters.md) is stealing from the PGR farm — phantom workers, skimmed supplies, padded expenses. [Zofia Pytlak](../characters/secondary-characters.md) helps. Looks suspicious, unrelated to the murders.
+### foreman-coverup
+[Michał Pytlak](../characters/foreman.md) and [Zbigniew Gajda](../characters/wojewoda.md) covered up a preventable death on the PGR farm. Tadeusz Mazur died ~1965 — never reported to the state. His wages still flow to [Wanda Mazur](../characters/widow.md) as a fake "widow's pension." She doesn't know. The village doesn't know the death was never filed. Same mechanism as the lynch: bury the truth, keep outsiders away.
 
 ### bimber-still
 [Tadek Gajda](../characters/secondary-characters.md)'s crew runs an illegal bimber still in the [forest](../places/forest.md), halfway between the villages. Just moonshine — not the murder conspiracy. [Zbigniew Gajda](../characters/wojewoda.md) knows and tolerates it. [Helena Gajda](../characters/matrona.md) supplies sugar through the store.

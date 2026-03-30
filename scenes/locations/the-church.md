@@ -29,8 +29,8 @@ Adjacent: the cemetery. A few dozen graves, most weathered. One is freshly tende
 ### Ask Widow about her husband's work
 - **Requires:** Talked to her at the grave
 - **Cost:** Free
-- **Outcome:** She tells you his name, what he did at the PGR, when he died. If players have the ledger worker list, this name matches a "current" worker. He's been dead for two years but still drawing wages. → [Foreman embezzlement](../../clues/clues.md#foreman-embezzlement)
-- **Leads to:** Red herring confirmation. Phantom worker explained by grief, not conspiracy.
+- **Outcome:** She tells you his name, what he did at the PGR, when he died. If players have the ledger worker list, this name matches a "current" worker. He's been dead for two years but the ledger says he's still working. → [Foreman cover-up](../../clues/clues.md#foreman-coverup)
+- **Leads to:** Why was his death never reported? Thread leads to Michał Pytlak's negligence and Zbigniew Gajda's cover-up.
 
 ### Inspect the cemetery
 - **Requires:** Nothing

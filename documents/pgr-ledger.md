@@ -8,10 +8,10 @@
 
 ## GM Notes (do not show to players)
 
-- Entries marked ⚠️ are **phantom workers** — dead or fictional. Evidence of [Michał Pytlak's embezzlement](../story-facts/foreman-embezzlement.md).
+- Entry marked ⚠️ is a **phantom worker** — dead but never reported. Evidence of [Tadeusz Mazur's death cover-up](../story-facts/foreman-embezzlement.md).
 - Hand players the clean table only (player version at the bottom).
-- A player with an accounting ability will notice daily rates don't match monthly totals — inflated by ~15%.
-- Cross-referencing the list against actual villagers reveals names nobody recognises.
+- Cross-referencing the list against actual villagers reveals one name nobody recognises as a current worker.
+- If players ask Wanda Mazur about her husband, she'll confirm he's dead — two years now. The ledger says he's still working.
 
 ---
 
@@ -22,16 +22,14 @@
 
 | No. | Name | Position | Daily rate (zł) | Notes |
 |-----|------|----------|-----------------|-------|
-| 1 | Pytlak, Michał (Michał Pytlak) | Foreman | 85 | Maintains this registry |
-| 2 | Nowak, Józef (Józef Nowak) | Farm labourer | 52 | — |
-| 3 | Wiśniewski, Piotr (Piotr Wiśniewski) | Farm labourer | 48 | Hired 1965 |
-| 4 | Kopacz, Barbara (Barbara Kopacz) | Farm labourer | 38 | Part-time |
-| 5 | Pytlak, Zofia (Zofia Pytlak) | Cook | 42 | Foreman's wife |
-| 6 | Mazur, Tadeusz ⚠️ | Farm labourer | 52 | **Wanda Mazur's husband** — died ~1965, work accident. Still on payroll. |
-| 7 | Krawczyk, Jan ⚠️ | Seasonal labourer | 45 | **Does not exist.** Invented name. |
-| 8 | Dudek, Andrzej ⚠️ | Farm hand | 40 | **Does not exist.** Invented name. |
-| 9 | Wójcik, Henryk | Night watchman | 35 | Older man, real worker. Part-time. |
-| 10 | Sikora, Marian | Farm labourer | 48 | Real seasonal worker — comes and goes. |
+| 1 | Pytlak, Michał | Foreman | 85 | Maintains this registry |
+| 2 | Nowak, Józef | Farm labourer | 52 | — |
+| 3 | Wiśniewski, Piotr | Farm labourer | 48 | Hired 1965 |
+| 4 | Kopacz, Barbara | Farm labourer | 38 | Part-time |
+| 5 | Pytlak, Zofia | Cook | 42 | Foreman's wife |
+| 6 | Mazur, Tadeusz ⚠️ | Farm labourer | 52 | **Dead ~1965.** Work accident — never reported. Wages go to Wanda Mazur as fake "widow's pension." |
+| 7 | Wójcik, Henryk | Night watchman | 35 | Older man, real worker. Part-time. |
+| 8 | Sikora, Marian | Farm labourer | 48 | Real seasonal worker — comes and goes. |
 
 ---
 
@@ -39,16 +37,14 @@
 
 | Item | Amount (zł) |
 |------|------------|
-| Payroll (10 workers) | 14,850 |
-| Kitchen supplies | 3,200 |
-| Materials & tools | 1,800 |
-| Fuel & transport | 950 |
-| **Total** | **20,800** |
+| Payroll (8 workers) | 10,400 |
+| Kitchen supplies | 2,800 |
+| Materials & tools | 1,600 |
+| Fuel & transport | 850 |
+| **Total** | **15,650** |
 
 ### GM Note
-Real total should be ~16,000 zł. The difference (~4,800 zł) breaks down as:
-- 3 phantom workers: ~4,100 zł/month
-- Inflated kitchen receipts: ~700 zł/month (Zofia Pytlak cooperates)
+Real total without Tadeusz would be ~14,300 zł. The difference (~1,350 zł/month) is Tadeusz's phantom wages — all of it goes to Wanda Mazur. Nobody profits from this.
 
 ---
 
@@ -75,19 +71,15 @@ No.  Name                   Position                Daily rate  Notes
                             Cook                    42 zł       —
  6   Mazur, Tadeusz
                             Farm labourer           52 zł       —
- 7   Krawczyk, Jan
-                            Seasonal labourer       45 zł       —
- 8   Dudek, Andrzej
-                            Farm hand               40 zł       —
- 9   Wójcik, Henryk
+ 7   Wójcik, Henryk
                             Night watchman          35 zł       Part-time
-10   Sikora, Marian
+ 8   Sikora, Marian
                             Farm labourer           48 zł       Seasonal
 
-Payroll (monthly):          14,850 zł
-Kitchen supplies:            3,200 zł
-Materials & tools:           1,800 zł
-Fuel & transport:              950 zł
+Payroll (monthly):          10,400 zł
+Kitchen supplies:            2,800 zł
+Materials & tools:           1,600 zł
+Fuel & transport:              850 zł
                             ─────────
-TOTAL:                      20,800 zł
+TOTAL:                      15,650 zł
 ```

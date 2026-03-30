@@ -27,7 +27,7 @@ Government people get suspicion outside. But if the players have rapport with Ta
 - **Buy a bottle for the crew** — put money on the counter, tell Halina Zając it's for the boys outside. Word travels fast. → Rapport with drinking crew
 - **Village gossip** — who's sleeping with whom, who owes what. → Bonus info: social map of the village
 - **Learn about Wujas** — the crew talks about him like furniture. He's always here, always drunk, always tolerated. → Seeds [Wujas is the weak link](../../clues/clues.md#wujas-is-the-weak-link)
-- **Gossip about Foreman** — their boss at the PGR. The crew has opinions. → Seeds [Foreman embezzlement](../../clues/clues.md#foreman-embezzlement)
+- **Gossip about Foreman** — their boss at the PGR. The crew has opinions. → Seeds [Foreman cover-up](../../clues/clues.md#foreman-coverup)
 - **Junior joins** — if rapport with Marek Gajda is high, he shows up. Drinks with the crew, loosens up away from his father. → Seeds [Junior is false suspect](../../clues/clues.md#junior-is-false-suspect) (he's different without Zbigniew Gajda watching). If he gets drunk, he brags about shooting with his father's gun → [Wojewoda has gun](../../clues/clues.md#wojewoda-has-gun)
 - **Side with Halina against the drunks** — when the crew hassles her, back her up. → Rapport with Halina Zając
 - **Halina complains about Matrona** — she doesn't need much prompting. Bad boss, tight with money, controls everything. → Bonus info: Helena Gajda's grip on village economy

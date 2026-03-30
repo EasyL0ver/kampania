@@ -32,7 +32,7 @@ Nodes are **locked by default.** They unlock through:
 2. **Ability use** — the player spends an action and explicitly activates a skill during an NPC interaction. This opens a branch that wouldn't exist otherwise. E.g.:
    - *Intimidate Barbara Kopacz* → she reveals where Pawełek Kopacz was playing
    - *Show faith to ks. Władysław Pająk* → he warms up, new dialogue unlocks
-   - *Read ledger with accounting skill* → Michał Pytlak's embezzlement exposed
+   - *Read ledger with accounting skill* → Michał Pytlak's cover-up exposed
 
 3. **Time triggers** — some nodes unlock automatically on a specific day, regardless of player action. The well gets stronger. The flood rises. Stanisław Rezeń starts showing up in the village. These are the world moving whether the players act or not.
 
@@ -46,7 +46,7 @@ Nodes are **locked by default.** They unlock through:
 
 - **Actions are the currency.** Every action spent on one path is an action not spent on another. The graph is designed so that **all four endings are achievable but not comfortably.** The perfect run requires near-zero waste.
 
-- **Dead ends are real.** Some paths lead to red herrings (embezzlement, bimber still) that burn actions and yield nothing for the main mystery. They may yield leverage, allies, or atmosphere — but they cost time.
+- **Dead ends are real.** Some paths lead to red herrings (the farm cover-up, bimber still) that burn actions and yield nothing for the main mystery. They may yield leverage, allies, or atmosphere — but they cost time.
 
 - **The graph branches, not rails.** Players can pursue threads in any order. The graph tracks what they've unlocked and presents consequences accordingly. The GM doesn't steer — the prerequisites do.
 

@@ -52,7 +52,7 @@ Players can return to this location throughout the game.
 - **Requires:** Part of census work — the ledger is on the desk. Zbigniew Gajda allows it freely, it's government business.
 - **Cost:** 1 action
 - **Outcome:** A list of PGR workers with names and wages. Useful for the census — cross-reference against actual people in the village. Players who check will find some names that nobody recognises. Phantom workers on the payroll.
-- **Leads to:** With accounting ability → [Foreman embezzlement](../../clues/clues.md#foreman-embezzlement) exposed (red herring, but leverage over Michał Pytlak). Without ability → a list of names, some of which don't match anyone they meet. Vague suspicion, nothing concrete.
+- **Leads to:** With accounting ability → [Foreman cover-up](../../clues/clues.md#foreman-coverup) exposed — a dead worker still on the books. Without ability → a list of names, some of which don't match anyone they meet. Vague suspicion, nothing concrete.
 
 ### Take the gun
 - **Requires:** Know about the pistol — [Wojewoda has gun](../../clues/clues.md#wojewoda-has-gun) (e.g. Marek Gajda brags at the store). Plus Zbigniew Gajda absent or distracted.

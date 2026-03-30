@@ -20,7 +20,7 @@ Not from here originally. A settler like the others, but arrived later — after
 
 ## The Secret
 
-**Embezzles from the PGR** — phantom workers, skimmed supplies, padded expenses. Zofia Pytlak helps inflate kitchen orders. Zbigniew Gajda doesn't know. Small-scale, steady, careful. Not a fortune — just enough to live a little better than he should. See `story-facts\foreman-embezzlement.md` for full red herring mechanics.
+**Covers up a death on the PGR.** About two years ago, a preventable accident — a rotten beam, a wall he should have fixed — killed Tadeusz Mazur. Zbigniew Gajda ordered the death never reported (no inspections). Tadeusz stays on the ledger, his wages go to Wanda Mazur as a "widow's pension." She doesn't know. The village doesn't know the death was never filed. Only two men carry this: Zbigniew Gajda and Michał Pytlak. See `story-facts\foreman-embezzlement.md` for full mechanics.
 
 ## In 1967
 
@@ -44,7 +44,7 @@ This isn't ideology or stubbornness for its own sake. It's a man who built somet
 
 - **Zbigniew Gajda** — Loyalty and respect, but growing tension. Michał Pytlak thinks Zbigniew Gajda is giving up too easily. The sołtys who always has a plan suddenly wants to surrender to the water.
 - **Barbara Kopacz** — She works on his farm. Professional, distant, correct.
-- **Zofia Pytlak** — His wife, his partner in the embezzlement, his ally. She shares his stubbornness about staying.
+- **Zofia Pytlak** — His wife, his ally. She shares his stubbornness about staying.
 
 ## The Well's Influence
 
@@ -60,4 +60,4 @@ The other villagers notice. They don't say anything. But they watch the old man 
 
 - Does his fight against the flood inspire anyone else to stay?
 - When the dam reality becomes undeniable, does he break or adapt?
-- How does the embezzlement interact with his moral stance — a thief who's also the village's most genuine protector?
+- How does the cover-up interact with his moral stance — a man carrying guilt for a death he caused, who's also the village's most genuine protector?

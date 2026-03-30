@@ -7,7 +7,7 @@
 - **Age in 1967:** ~50s
 - **Heritage:** Polish settler
 - **Lives in:** Small house near the church
-- **Husband:** Dead. PGR work accident — a falling beam, a broken wall, something heavy and preventable. Happened ~2 years ago.
+- **Husband:** Dead. PGR work accident — a rotten beam, a preventable structural failure. Happened ~1965. Michał Pytlak's negligence.
 
 ## Character
 
@@ -20,16 +20,18 @@ She asks the committee to include her dead husband in the census. Not for fraud 
 
 This is a **thematic mirror** for [Emil Rzepka](painter.md)'s later request to include [Hania Barnaś](jagna.md) in the census. The first time players hear "write a dead person into the census" it's a sad, harmless request from a widow. The second time, it carries the weight of a murder and a buried truth.
 
-### The Phantom Worker (Red Herring)
-Her husband is still on the [PGR ledger](../scenes/locations/wojewodas-office.md) as an active worker. [Michał Pytlak](foreman.md) never removed his name — he's been collecting the wages. The widow doesn't know this.
+### The Phantom Worker
+Her husband is still on the [PGR ledger](../scenes/locations/wojewodas-office.md) as an active worker. His death was **never reported to the state** — [Zbigniew Gajda](wojewoda.md) ordered it covered up to avoid inspections, and [Michał Pytlak](foreman.md) signs off on it every month.
 
-If players cross-reference the ledger against the village, her husband's name is one of the phantom workers. Following this lead brings them to a crying woman at a cemetery, not a conspiracy. → [Foreman embezzlement](../clues/clues.md#foreman-embezzlement)
+Wanda doesn't know any of this. She believes she receives a **state widow's pension** — proper, legal, official. In reality, she collects Tadeusz's phantom wages. The village doesn't know either — everyone assumes the death was reported normally.
+
+If players cross-reference the ledger against the village, her husband's name is a "current" worker. Following this lead brings them to a crying woman at a cemetery — and to a question: why was this death never reported? → [Foreman cover-up](../clues/clues.md#foreman-coverup)
 
 ## Relationships
 
 - **[ks. Władysław Pająk](secondary-characters.md)** — her main human contact. He's kind to her. She attends every service.
-- **[Michał Pytlak](foreman.md)** — doesn't interact with him. Doesn't know he's stealing her dead husband's wages.
+- **[Michał Pytlak](foreman.md)** — her husband's former boss. She bears him no grudge — accidents happen. She doesn't know his negligence killed Tadeusz, and she doesn't know the death was covered up.
 
 ## For Players
 
-A moment of genuine, uncomplicated grief in a village full of guilty people. She's the only person here who's lost someone and doesn't have a secret about it.
+A moment of genuine, uncomplicated grief in a village full of guilty people. She's the only person here who's lost someone and doesn't have a secret about it — because the secret was kept from her.

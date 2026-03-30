@@ -23,7 +23,7 @@ If players build enough rapport with Zbigniew Gajda during dinner — he offers 
 - **Show genuine humanity to Wife** — talk about your own family, be personal not bureaucratic. She decides you're real people, not just government suits. → Rapport with Irena Gajda (opens up trust for later scenes)
 - **Mention the city to Junior** — anything about life outside the mountains. Opportunities, work, what Warsaw is like. His whole posture changes. → Rapport with Marek Gajda (seed for cooperation — he'll help if it gets him out)
 - **Drink with Wujas** — engage him warmly, match his energy, don't judge. He's delighted — new drinking buddies. → Rapport with Tadek Gajda + seeds [Wujas is the weak link](../../clues/clues.md#wujas-is-the-weak-link)
-- **Compliment Zofia's cooking** — she beams. She's the PGR cook, she knows what's in the stores. → Rapport with Zofia Pytlak + seeds [Foreman embezzlement](../../clues/clues.md#foreman-embezzlement) (PGR abundance doesn't match village poverty)
+- **Compliment Zofia's cooking** — she beams. She's the PGR cook, she knows what's in the stores. → Rapport with Zofia Pytlak
 - **Learn about Ciotka** — in conversation, someone mentions a third sister. Helena Gajda and Irena Gajda have another sibling — Janina Gajda. → Bonus info: the family is bigger than it looks, Janina Gajda exists
 
 ## Actions

@@ -55,9 +55,9 @@ What the players can do that actually matters.
 - **Outcome:** what happens
 - **Leads to:** what this opens up
 
-## Exits
+## Exits (events only)
 
-Where players can go from here.
+Where players go after this event concludes. **Locations don't have exits — players move freely between locations.**
 ```
 
 ## Scene Outcomes

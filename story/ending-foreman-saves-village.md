@@ -54,4 +54,4 @@ Both require the players to recognise which person matters and support them. Ste
 - **Marek Gajda** — No flood means no reimbursement, no escape to the city. Michał Pytlak saving the village traps him here.
 - **Stefania Kopacz** — If the village survives, the woman ready to die doesn't have to.
 - **Paraskewia Chyłak** — Her cabin in the forest may still be destroyed. The water has to go somewhere.
-- **The embezzlement** — The man who saved the village is the man who's been stealing from it. Does that still matter?
+- **The cover-up** — The man who saved the village got a worker killed through negligence and buried the truth. Does that still matter?
