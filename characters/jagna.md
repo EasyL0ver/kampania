@@ -6,7 +6,7 @@
 
 - **Born:** 1935
 - **Died:** 1954 (age 19)
-- **Lived in:** [%NEW_VILLAGE%](../places/new-village.md) — with [Edward Barnaś](soldier.md) and family
+- **Lived in:** %NEW_VILLAGE% — with [Edward Barnaś](soldier.md) and family
 
 ## Character
 
@@ -22,8 +22,8 @@ Young woman, [Edward Barnaś](soldier.md)'s eldest daughter. Secret lover of [Em
 
 ## Fate
 
-Caught in flagranti with [Emil Rzepka](secondary-characters.md) by [Helena Rzepka](matrona.md). Beaten, raped by [Tadek Gajda](secondary-characters.md) and [Stanisław Rezeń](butcher.md), and killed — unintentionally — by the three drunk men ([Tadek Gajda](secondary-characters.md), [Zbigniew Gajda](wojewoda.md), [Stanisław Rezeń](butcher.md)). Body dumped into [the well](../story-facts/the-well.md) in [%OLD_VILLAGE%](../places/old-village.md).
+Caught in flagranti with [Emil Rzepka](secondary-characters.md) by [Helena Rzepka](matrona.md). Beaten, raped by [Tadek Gajda](secondary-characters.md) and [Stanisław Rezeń](butcher.md), and killed — unintentionally — by the three drunk men ([Tadek Gajda](secondary-characters.md), [Zbigniew Gajda](wojewoda.md), [Stanisław Rezeń](butcher.md)). Body dumped into [the well](../story-facts/the-well.md) in [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md).
 
 ## Open Questions
 
-- Does her existence / memory linger in [%NEW_VILLAGE%](../places/new-village.md) in any way?
+- Does her existence / memory linger in %NEW_VILLAGE% in any way?

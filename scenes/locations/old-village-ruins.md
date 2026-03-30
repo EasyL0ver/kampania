@@ -1,7 +1,7 @@
 # %OLD_VILLAGE% — Homestead Ruins
 
 **Type:** Location (explorable)
-**Location:** Scattered across [%OLD_VILLAGE%](../../places/old-village.md) — stone foundations and chimneys, all that remains of wooden *chyża* homes.
+**Location:** Scattered across [%OLD_VILLAGE%](old-village-ruins.md) — stone foundations and chimneys, all that remains of wooden *chyża* homes.
 **Present:** Nobody.
 **Available:** After reaching %OLD_VILLAGE%.
 **Cost:** 1 action per area searched

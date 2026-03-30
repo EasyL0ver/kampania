@@ -7,7 +7,7 @@
 - **Born:** 1912
 - **Age in 1967:** 55
 - **Heritage:** Lemko descent — hidden. See [Zbigniew Gajda](wojewoda.md) for siblings' shared background.
-- **Lives in:** [Janina Gajda's house](../places/new-village.md#ciotkas-house) — with [Edek Barnaś](glupek.md)
+- **Lives in:** [Janina Gajda's house](../scenes/locations/ciotkas-house.md) — with [Edek Barnaś](glupek.md)
 
 ## Character
 
@@ -37,7 +37,7 @@ A devout, single woman living in **[Edward Barnaś](soldier.md)'s house** — th
 The well amplifies her **fear and paralysis:**
 
 - Stops leaving the house — the world outside feels threatening in ways she can't name
-- Clings to [Edek Barnaś](glupek.md) with increasing desperation. Senses something pulling him toward [%OLD_VILLAGE%](../places/old-village.md), fights it with proximity
+- Clings to [Edek Barnaś](glupek.md) with increasing desperation. Senses something pulling him toward [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md), fights it with proximity
 - Prayers become frantic, repetitive, compulsive — not devotion but terror. God feels further away
 - Flinches from her siblings — the family feels like a trap closing
 - Dreams about **the night she saved [Edek Barnaś](glupek.md)** — except she doesn't make it in time. Reaches for the baby and her hands pass through him. Wakes up and checks on the boy. Every night. The well is telling her: *you can't protect him forever.*

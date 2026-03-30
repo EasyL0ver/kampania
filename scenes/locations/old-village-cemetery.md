@@ -1,7 +1,7 @@
 # %OLD_VILLAGE% — Cemetery
 
 **Type:** Location (explorable)
-**Location:** [%OLD_VILLAGE%](../../places/old-village.md) — adjacent to the [cerkiew](old-village-cerkiew.md).
+**Location:** [%OLD_VILLAGE%](old-village-ruins.md) — adjacent to the [cerkiew](old-village-cerkiew.md).
 **Present:** Nobody.
 **Available:** After reaching %OLD_VILLAGE%.
 **Cost:** 1 action

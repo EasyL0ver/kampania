@@ -6,9 +6,8 @@ This is a tabletop RPG campaign set in 1960s Bieszczady, Poland. The repository 
 
 Read all files in these folders to understand current state:
 - `characters/` — NPC files
-- `places/` — location files
 - `clues/` — player-discoverable knowledge
-- `scenes/` — playable scenes
+- `scenes/` — playable scenes and locations (`scenes/locations/`, `scenes/events/`)
 - `story/` — events, endings, scenario graph
 - `story-facts/` — plot elements, mechanics
 
@@ -24,7 +23,8 @@ Read all files in these folders to understand current state:
 
 5. **Structured storage:**
    - `characters/` — one `.md` per character
-   - `places/` — one `.md` per location
+   - `scenes/locations/` — one `.md` per location
+   - `scenes/events/` — playable event scenes
    - `clues/` — player-discoverable facts (single file, anchored)
    - `story-facts/` — plot elements, mechanics
    - `story/` — events, scenes, story graph

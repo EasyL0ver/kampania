@@ -1,7 +1,7 @@
 # Butcher's House
 
 **Type:** Location (revisitable)
-**Location:** %NEW_VILLAGE% — edge of village, closest to forest path toward [%OLD_VILLAGE%](../../places/old-village.md)
+**Location:** %NEW_VILLAGE% — edge of village, closest to forest path toward [%OLD_VILLAGE%](old-village-ruins.md)
 **Present:** [Stanisław Rezeń](../../characters/butcher.md) (often gone), 3 dogs
 **Available:** Any time
 **Cost:** 1 action per visit
@@ -14,7 +14,7 @@
 
 **Rezeń (if home):** At the door before anyone knocks. Chain-smokes — lights the next off the last, fingers yellow-brown, doorframe burned in a dozen spots. Fidgets constantly: picks at scabs, scratches himself, turns a knife in his free hand. Friendliness is off — too eager, watches faces too closely, smiles at wrong moments. Makes unsettling comments about female player characters — compliments that linger too long, observations about their hair or hands, asks if they're married. Not threatening in tone. Conversational. That's what makes it worse. If called out, he doesn't get embarrassed — he gets confused, like a child told a rule he's never heard of.
 
-**Path:** Worn track from back door into forest. Mud always fresh. Leads to [%OLD_VILLAGE%](../../places/old-village.md) and [the well](../../story-facts/the-well.md) — most direct route in the game. → [butcher-visits-the-well](../../clues/clues.md#butcher-visits-the-well)
+**Path:** Worn track from back door into forest. Mud always fresh. Leads to [%OLD_VILLAGE%](old-village-ruins.md) and [the well](../../story-facts/the-well.md) — most direct route in the game. → [butcher-visits-the-well](../../clues/clues.md#butcher-visits-the-well)
 
 ## Observable Clues
 
@@ -41,7 +41,7 @@
 
 ### Follow into forest
 - **Cost:** 1 action
-- **What happens:** Path leads to [%OLD_VILLAGE%](../../places/old-village.md). He goes to the well. Sits on rim. Clears debris from the mouth. Leans over edge and listens. If he spots players, tells them to leave. Once.
+- **What happens:** Path leads to [%OLD_VILLAGE%](old-village-ruins.md). He goes to the well. Sits on rim. Clears debris from the mouth. Leans over edge and listens. If he spots players, tells them to leave. Once.
 - **At night:** Players may catch him carrying a dead dog along the path. Over his shoulder, limp, heading for the well. He dumps animal carcasses and bones into it. Has been doing this for years. This is where the missing dogs went. This is what the compulsion looks like: he feeds the well.
 - **Result:** → [butcher-visits-the-well](../../clues/clues.md#butcher-visits-the-well), [butcher-compelled-to-feed](../../clues/clues.md#butcher-compelled-to-feed). Being caught = he considers them enemies.
 

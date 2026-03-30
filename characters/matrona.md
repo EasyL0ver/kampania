@@ -7,7 +7,7 @@
 - **Born:** 1922
 - **Age in 1967:** 45
 - **Heritage:** Lemko (hidden) — see [Zbigniew Gajda](wojewoda.md) for shared sibling background
-- **Lives in:** [Helena Rzepka & Emil Rzepka's house](../places/new-village.md#matrona--painters-house) — with [Emil Rzepka](secondary-characters.md), [Ewa Rzepka](secondary-characters.md), [Krystian Rzepka](secondary-characters.md)
+- **Lives in:** [Helena Rzepka & Emil Rzepka's house](../scenes/locations/matronas-house.md) — with [Emil Rzepka](secondary-characters.md), [Ewa Rzepka](secondary-characters.md), [Krystian Rzepka](secondary-characters.md)
 
 ## Character
 
@@ -33,7 +33,7 @@ The village believes [Stanisław Rezeń](butcher.md) was the coldest head that n
 
 - **[Emil Rzepka](secondary-characters.md) is her insurance.** Kept him broken, dependent, terrified for 13 years. He heard her voice that night. His guilt over the affair, gratitude for her "forgiveness," fear of what she's capable of — she wields all of it.
 - Follows [Zbigniew Gajda](wojewoda.md)'s lead with the committee — cooperative, welcoming, the perfect face.
-- **Watches for depth.** The moment players dig into village history or [%OLD_VILLAGE%](../places/old-village.md), she notices first. Won't obstruct openly — redirects, changes subject, mentions how busy the committee must be.
+- **Watches for depth.** The moment players dig into village history or [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md), she notices first. Won't obstruct openly — redirects, changes subject, mentions how busy the committee must be.
 - If redirection fails, escalates quietly: a word to [Zbigniew Gajda](wojewoda.md), a concern to [ks. Władysław Pająk](secondary-characters.md) about outsiders. Never confronts. Manages.
 
 ## Divergence from Zbigniew Gajda

@@ -1,7 +1,7 @@
 # UPA Bunker (Ziemianka)
 
 **Type:** Location (explorable)
-**Location:** Deep in the [forest](../../places/forest.md), northwest of %NEW_VILLAGE%. Hidden among trees and undergrowth.
+**Location:** Deep in the [forest](old-village-ruins.md), northwest of %NEW_VILLAGE%. Hidden among trees and undergrowth.
 **Present:** Nobody — abandoned since the 1940s. [Edek Barnaś](../../characters/glupek.md) sometimes found near the entrance.
 **Available:** Requires forest exploration. Players need to find it — ventilation shafts visible from hillside, or stumble upon it.
 **Cost:** 1 action to explore

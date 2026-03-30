@@ -1,7 +1,7 @@
 # %OLD_VILLAGE% — Cerkiew
 
 **Type:** Location (explorable)
-**Location:** [%OLD_VILLAGE%](../../places/old-village.md) — the most identifiable structure in the ruins. Hilltop position.
+**Location:** [%OLD_VILLAGE%](old-village-ruins.md) — the most identifiable structure in the ruins. Hilltop position.
 **Present:** Nobody during the day. [Paraskewia Chyłak](../../characters/hag.md) visits at night for rituals.
 **Available:** After reaching %OLD_VILLAGE%. Visible from a distance.
 **Cost:** 1 action

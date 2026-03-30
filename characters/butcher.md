@@ -8,13 +8,13 @@
 - **Born:** 1921
 - **Age in 1967:** 46
 - **Heritage:** **Not Lemko.** Polish — from a neighbouring village in Bieszczady. Not a distant resettled stranger. A local who knew these mountains, these paths, these people. That's what makes 1947 worse.
-- **Lives in:** [Stanisław Rezeń's house](../places/new-village.md#butchers-house) — alone (with dogs), edge of village
+- **Lives in:** [Stanisław Rezeń's house](../scenes/locations/butchers-house.md) — alone (with dogs), edge of village
 
 ## Character
 
 An evil man — but not one who was born that way. Before 1947 he was an unremarkable local boy from the next valley. The violence of Akcja Wisła didn't horrify him. It *woke something up*. Something that exists in everyone — the capacity for violence, the satisfaction of power over another body. Edward Barnaś felt it too and chose to bury it under a family and silence. The players feel it in their dreams and wake up shaking. The difference isn't nature. It's that Rezeń stopped caring about keeping it down.
 
-But something else lives in him alongside the hunger — an irrational, bone-deep fixation with [%OLD_VILLAGE%](../places/old-village.md) and [the well](../story-facts/the-well.md) that has no logical explanation. He can't name it. It drives him back to the ruins again and again. Symbolically, he carries the unprocessed fury of the Lemko dead — their rage at being massacred, erased, forgotten — expressed through the worst possible vessel. The man who helped kill them. A man with no conscience, no heritage claim, no right to the grief. But the grief found him anyway — because it was looking for *him*.
+But something else lives in him alongside the hunger — an irrational, bone-deep fixation with [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) and [the well](../story-facts/the-well.md) that has no logical explanation. He can't name it. It drives him back to the ruins again and again. Symbolically, he carries the unprocessed fury of the Lemko dead — their rage at being massacred, erased, forgotten — expressed through the worst possible vessel. The man who helped kill them. A man with no conscience, no heritage claim, no right to the grief. But the grief found him anyway — because it was looking for *him*.
 
 ## 1947 — The First Massacre
 
@@ -24,7 +24,7 @@ When [kpt. Ćwiek](kbw-officer.md) was shot dead by Dmytro Kosach — [Paraskewi
 
 [Edward Barnaś](soldier.md) was one of the soldiers in that unit. He saw the same violence, did the same things. He came out of it wanting a family and silence. Rezeń came out of it wanting *more*. Same event. Opposite outcomes. Edward became a peaceful father. Rezeń became what he is. In the [Freudian triangle](../story-facts/freudian-triangle.md): Edward was the Ego that succeeded. Rezeń was the Id that never wanted to stop.
 
-He was there when [%OLD_VILLAGE%](../places/old-village.md) was emptied. He may have been there when the well received its first dead — the Lemko victims of the massacre. Whether he personally threw bodies in or just watched, he was *present*. The well knows him from before 1954.
+He was there when [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) was emptied. He may have been there when the well received its first dead — the Lemko victims of the massacre. Whether he personally threw bodies in or just watched, he was *present*. The well knows him from before 1954.
 
 **[Edward Barnaś](soldier.md) was one of the soldiers in that unit.** The KBW man and the civilian auxiliary — they shared the 1947 operation. They both saw what happened. They both kept quiet. When Edward settled on the best land in the new village, Rezeń was already there — the local who'd walked over from the next valley. They knew each other. Not friends — the army doesn't befriend its auxiliaries. But they recognised each other as men who'd been present. A silent bond that meant nothing to Edward and everything to Rezeń.
 
@@ -41,12 +41,12 @@ One of three drunk men who attacked [Hania Barnaś](jagna.md). **Participated in
 
 ## The Obsession
 
-Stanisław Rezeń visits [%OLD_VILLAGE%](../places/old-village.md) regularly — not with ritual or purpose, he just *goes*. Sits near [the well](../story-facts/the-well.md). Walks the ruins. Sometimes for hours.
+Stanisław Rezeń visits [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) regularly — not with ritual or purpose, he just *goes*. Sits near [the well](../story-facts/the-well.md). Walks the ruins. Sometimes for hours.
 
 - The dogs come but won't approach the well — they stop at a perimeter and refuse to cross. He crosses every time.
 - He's cleared debris more than once — not to expose or hide evidence, just to keep the well *open*, accessible. Like it matters that it stays visible.
 - **He feeds the well.** Animal bones, carcasses, his own dogs. Dumps them into the well at night. Has been doing it for years — he used to have five dogs, now has three. The missing ones are in the well. Players who follow him at night may catch him carrying a dead dog over his shoulder along the forest path. This is what the compulsion looks like.
-- **The well pulls him.** He goes willingly — enjoys it. Walks to [%OLD_VILLAGE%](../places/old-village.md) at night, sometimes half-dressed. Not sleepwalking — restless, bored, drawn. The well is the one place that feels right. See [the well](../story-facts/the-well.md) for the full supernatural element.
+- **The well pulls him.** He goes willingly — enjoys it. Walks to [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) at night, sometimes half-dressed. Not sleepwalking — restless, bored, drawn. The well is the one place that feels right. See [the well](../story-facts/the-well.md) for the full supernatural element.
 - **Doesn't know about the 1947 massacre victims.** He put the lynch victims there because the place pulled him.
 
 ## In 1967

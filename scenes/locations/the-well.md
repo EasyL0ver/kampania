@@ -1,7 +1,7 @@
 # %OLD_VILLAGE% — The Well
 
 **Type:** Location (critical)
-**Location:** [%OLD_VILLAGE%](../../places/old-village.md) — centrally or prominently located in the ruins.
+**Location:** [%OLD_VILLAGE%](old-village-ruins.md) — centrally or prominently located in the ruins.
 **Present:** Nobody during the day. [Stanisław Rezeń](../../characters/butcher.md) visits regularly. [Paraskewia Chyłak](../../characters/hag.md) performs rites here at night.
 **Available:** After reaching %OLD_VILLAGE%. Partially obscured by debris.
 **Cost:** 1 action to find/examine, additional actions to excavate

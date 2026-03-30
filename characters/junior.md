@@ -6,11 +6,11 @@
 
 - **Born:** 1946
 - **Age in 1967:** 21
-- **Lives in:** [Zbigniew Gajda's house](../places/new-village.md#wojewodas-house) — with [Zbigniew Gajda](wojewoda.md), [Irena Gajda](wife.md)
+- **Lives in:** [Zbigniew Gajda's house](../scenes/locations/wojewodas-office.md) — with [Zbigniew Gajda](wojewoda.md), [Irena Gajda](wife.md)
 
 ## Character
 
-Leather jacket, attitude — [%NEW_VILLAGE%](../places/new-village.md)'s closest thing to a biker. Benefits from his father's position but chafes against it. Loves hanging out with [Tadek Gajda](secondary-characters.md).
+Leather jacket, attitude — %NEW_VILLAGE%'s closest thing to a biker. Benefits from his father's position but chafes against it. Loves hanging out with [Tadek Gajda](secondary-characters.md).
 
 **Narrative function: the false suspect.** Everyone points at him — the rebel, the troublemaker, the kid sneaking around at night. Players will waste time suspecting him. He's actually the closest thing to a solution.
 
@@ -27,7 +27,7 @@ Quietly helping [Irena Gajda](wife.md) investigate 1954. She watches the house; 
 
 - Closeness to [Tadek Gajda](secondary-characters.md) is double-edged: genuine bonding AND covert interrogation. Hates using the uncle who loves him.
 - [Tadek Gajda](secondary-characters.md) has let fragments slip: *"She didn't deserve it."* The name [Hania Barnaś](jagna.md). *"Don't ever be like us."*
-- Visits [%OLD_VILLAGE%](../places/old-village.md) alone — reckless, leaving tracks, not knowing what's in [the well](../story-facts/the-well.md).
+- Visits [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) alone — reckless, leaving tracks, not knowing what's in [the well](../story-facts/the-well.md).
 - Growing up fast, carrying a secret that could destroy his entire family.
 
 See [wife-junior investigation](../story-facts/wife-junior-investigation.md) for full details.
@@ -58,7 +58,7 @@ The flood is the best thing that's ever happened to him — ticket out, fresh st
 
 ## For Players
 
-**False suspect** — will consume investigation time if players take the bait. Sneaks around at night (actually running [Irena Gajda](wife.md)'s outside investigation), violent record, evasive with authority. If players see through the misdirection, he becomes the best inside source alongside [Irena Gajda](wife.md) — access to [Tadek Gajda](secondary-characters.md)'s drunken fragments and knowledge of [%OLD_VILLAGE%](../places/old-village.md).
+**False suspect** — will consume investigation time if players take the bait. Sneaks around at night (actually running [Irena Gajda](wife.md)'s outside investigation), violent record, evasive with authority. If players see through the misdirection, he becomes the best inside source alongside [Irena Gajda](wife.md) — access to [Tadek Gajda](secondary-characters.md)'s drunken fragments and knowledge of [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md).
 
 **Why the smoke screen works:**
 - Players suspect him — classic troublemaker profile

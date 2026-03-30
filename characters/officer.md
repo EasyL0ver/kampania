@@ -6,17 +6,17 @@
 
 - **Born:** 1928
 - **Age in 1967:** 39
-- **Lives in:** Outside [%NEW_VILLAGE%](../places/new-village.md) — arrives by car, doesn't stay
+- **Lives in:** Outside %NEW_VILLAGE% — arrives by car, doesn't stay
 
 ## Character
 
-Secret police agent (Służba Bezpieczeństwa — SB). Politically connected, assigned to the [%NEW_VILLAGE%](../places/new-village.md) / dam project area. **Not a villain** — a true believer in the communist project. Acknowledges the massacre as a sin of the past but views it as justified — the cost of building a new Poland. The state made hard choices, those choices built something better, and now the government's authority **must not be challenged.**
+Secret police agent (Służba Bezpieczeństwa — SB). Politically connected, assigned to the %NEW_VILLAGE% / dam project area. **Not a villain** — a true believer in the communist project. Acknowledges the massacre as a sin of the past but views it as justified — the cost of building a new Poland. The state made hard choices, those choices built something better, and now the government's authority **must not be challenged.**
 
 Not cruel — genuinely believes he's on the right side. Sees himself as a protector of order, stability, and progress. More dangerous than a cynical operator because he'll never waver. Unsettling for players because he makes a *coherent* argument for burying the truth.
 
 ## Knows
 
-- **The massacre** — aware of the Lemko massacre at [%OLD_VILLAGE%](../places/old-village.md) during Akcja Wisła (1947).
+- **The massacre** — aware of the Lemko massacre at [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) during Akcja Wisła (1947).
 - **The dam's purpose** — knows the government chose this area for flooding **deliberately**, in part to cover evidence of the massacre. The dam is infrastructure *and* a burial.
 
 ## Relationships

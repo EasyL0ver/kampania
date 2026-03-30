@@ -6,7 +6,7 @@
 
 - **Born:** 1924
 - **Age in 1967:** 43
-- **Lives in:** [Zbigniew Gajda's house](../places/new-village.md#wojewodas-house) — with [Zbigniew Gajda](wojewoda.md), [Marek Gajda](junior.md)
+- **Lives in:** [Zbigniew Gajda's house](../scenes/locations/wojewodas-office.md) — with [Zbigniew Gajda](wojewoda.md), [Marek Gajda](junior.md)
 
 ## Character
 
@@ -14,7 +14,7 @@ Intelligent, observant, dismissed. Loves her husband — he's a good man and lea
 
 ## Background / Role
 
-Has lived in [%NEW_VILLAGE%](../places/new-village.md) since early settlement — before the lynch, during it, after it. Wasn't part of it.
+Has lived in %NEW_VILLAGE% since early settlement — before the lynch, during it, after it. Wasn't part of it.
 
 ## What She Knows
 
@@ -68,7 +68,7 @@ She loves both of them. She's damaging both of them. Not malice — boredom and 
 Amplifies **desperate need for truth.** Strips away 13 years of caution.
 
 - Gets bolder — approaches players before fully deciding to trust them. Half-started conversations, looks held too long, questions too pointed. Dangerous — [Zbigniew Gajda](wojewoda.md) is watching.
-- Pushes [Marek Gajda](junior.md) harder — sends him to [%OLD_VILLAGE%](../places/old-village.md) at bad times, asks him to confront [Tadek Gajda](secondary-characters.md) directly instead of waiting for drunken slips.
+- Pushes [Marek Gajda](junior.md) harder — sends him to [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) at bad times, asks him to confront [Tadek Gajda](secondary-characters.md) directly instead of waiting for drunken slips.
 - May confront [Zbigniew Gajda](wojewoda.md) — not with evidence, with the raw weight of 13 years of suspicion. A fight that blows up because she can't hold it in.
 - **Dream:** the night of 1954, but she's outside the house instead of inside. Can see everything. Can't move, can't shout, can't intervene. Wakes knowing the truth is right there, just out of reach.
 

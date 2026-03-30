@@ -7,7 +7,7 @@
 - **Born:** 1939
 - **Age in 1967:** 28
 - **Heritage:** Half-Lemko (mother is [Stefania Kopacz](babcia.md)) — raised Polish, devout Catholic
-- **Lives in:** [Barbara Kopacz's house](../places/new-village.md#barbaras-house) — with [Stefania Kopacz](babcia.md) (her mother), [Pawełek Kopacz](secondary-characters.md)
+- **Lives in:** [Barbara Kopacz's house](../scenes/locations/barbaras-house.md) — with [Stefania Kopacz](babcia.md) (her mother), [Pawełek Kopacz](secondary-characters.md)
 
 ## Character
 
@@ -15,7 +15,7 @@ Poor, dependent, devout Catholic. Single mother to [Pawełek Kopacz](secondary-c
 
 ## Background
 
-Arrived in [%NEW_VILLAGE%](../places/new-village.md) **after the lynch.** Knows nothing about the massacre, [Edward Barnaś](soldier.md)'s family, or [the well](../story-facts/the-well.md). [Zbigniew Gajda](wojewoda.md) built her a small house out of guilt — he suspects [Marek Gajda](junior.md) is the father. He's wrong — it's [Tadek Gajda](secondary-characters.md) — but Barbara Kopacz isn't correcting anyone. She doesn't know herself which of the two is [Pawełek Kopacz](secondary-characters.md)'s father.
+Arrived in %NEW_VILLAGE% **after the lynch.** Knows nothing about the massacre, [Edward Barnaś](soldier.md)'s family, or [the well](../story-facts/the-well.md). [Zbigniew Gajda](wojewoda.md) built her a small house out of guilt — he suspects [Marek Gajda](junior.md) is the father. He's wrong — it's [Tadek Gajda](secondary-characters.md) — but Barbara Kopacz isn't correcting anyone. She doesn't know herself which of the two is [Pawełek Kopacz](secondary-characters.md)'s father.
 
 ## Relationships
 

@@ -8,17 +8,17 @@
 - **Age in 1947:** ~20
 - **Age in 1967:** ~40
 - **Heritage:** Lemko
-- **Lives in:** [Hag's cabin](../places/forest.md#hags-cabin) — alone
+- **Lives in:** [Hag's cabin](../scenes/locations/hags-cabin.md) — alone
 
 ## Character
 
-Not old — 40, weathered by 20 years of [forest](../places/forest.md) living. Looks and acts older than she is. The forest aged her the way guilt ages people. The village calls her the hag, the witch, the ghost in the trees. To the colonists she's a story to scare children. To [Edek Barnaś](glupek.md) and [Janina Gajda](ciotka.md) she may be something else.
+Not old — 40, weathered by 20 years of [forest](../scenes/locations/hags-cabin.md) living. Looks and acts older than she is. The forest aged her the way guilt ages people. The village calls her the hag, the witch, the ghost in the trees. To the colonists she's a story to scare children. To [Edek Barnaś](glupek.md) and [Janina Gajda](ciotka.md) she may be something else.
 
 ## The Sin
 
 In 1947, Paraskewia Chyłak was 20 and in love with **Dmytro Kosach** — a UPA soldier, a forbidden romance, a Lemko girl and an insurgent the state was hunting. She hid him, fed him, met him in the forest. The authorities traced the connection back to the village. The military came — not for one man, but for everyone.
 
-**Dmytro killed [kpt. Henryk Ćwiek](kbw-officer.md).** When the KBW unit arrived to clear [%OLD_VILLAGE%](../places/old-village.md), he was hiding in the village. A trained guerrilla — armed, combat-experienced — he shot the commanding officer dead. The soldiers, enraged by their captain's killing, turned on the village. The massacre wasn't chaos — it was **retribution**. She didn't just bring the soldiers to the village — her lover's bullet turned a deportation into a slaughter.
+**Dmytro killed [kpt. Henryk Ćwiek](kbw-officer.md).** When the KBW unit arrived to clear [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md), he was hiding in the village. A trained guerrilla — armed, combat-experienced — he shot the commanding officer dead. The soldiers, enraged by their captain's killing, turned on the village. The massacre wasn't chaos — it was **retribution**. She didn't just bring the soldiers to the village — her lover's bullet turned a deportation into a slaughter.
 
 Her lover died too. Almost certainly in the well with everyone else. She's been praying over his bones for twenty years alongside the people whose deaths he triggered.
 
@@ -29,13 +29,13 @@ She survived. Everyone else didn't. She never left. The 20 years in the forest a
 ## What She Knows
 
 - **Everything about 1947** — who died, where they fell, where the soldiers put them. Knows [the well](../story-facts/the-well.md) from the beginning.
-- **The colonist years** — watched [%NEW_VILLAGE%](../places/new-village.md) grow from the forest. May know about the lynch from observation, or about [Stanisław Rezeń](butcher.md)'s visits to [the well](../story-facts/the-well.md).
-- **The land** — [%OLD_VILLAGE%](../places/old-village.md), the cemetery, paths no one else remembers.
-- The **living memory** of [%OLD_VILLAGE%](../places/old-village.md) — and its living guilt.
+- **The colonist years** — watched %NEW_VILLAGE% grow from the forest. May know about the lynch from observation, or about [Stanisław Rezeń](butcher.md)'s visits to [the well](../story-facts/the-well.md).
+- **The land** — [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md), the cemetery, paths no one else remembers.
+- The **living memory** of [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) — and its living guilt.
 
 ## The Ritual — Containing the Well
 
-Paraskewia Chyłak regularly sneaks to the ruins of [%OLD_VILLAGE%](../places/old-village.md)'s *cerkiew* and [the well](../story-facts/the-well.md) to perform traditional [Lemko rites](../historical%20context/13-lemko-beliefs-and-folk-magic.md) for the unquiet dead — fire, incense, offerings of bread and honey, prayer in the old Lemko tongue. Done this for **20 years.** Colonists who glimpse her lights or hear singing believe the ruins are haunted — inadvertently protecting the evidence.
+Paraskewia Chyłak regularly sneaks to the ruins of [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md)'s *cerkiew* and [the well](../story-facts/the-well.md) to perform traditional [Lemko rites](../historical%20context/13-lemko-beliefs-and-folk-magic.md) for the unquiet dead — fire, incense, offerings of bread and honey, prayer in the old Lemko tongue. Done this for **20 years.** Colonists who glimpse her lights or hear singing believe the ruins are haunted — inadvertently protecting the evidence.
 
 **The well is dangerous and she knows it.** The wrongness radiating from that hole, animals avoiding it, the air thickening near it. The dead are angry — never mourned, never buried properly. Their fury seeps out like poison from a wound.
 
@@ -66,7 +66,7 @@ Paraskewia Chyłak doesn't know [Stanisław Rezeń](butcher.md) by name, but she
 
 ## For Players
 
-Finding Paraskewia Chyłak requires exploring the [forest](../places/forest.md) and [%OLD_VILLAGE%](../places/old-village.md). She is the key witness to 1947, the keeper of [the well](../story-facts/the-well.md), and the one person performing [the ritual](../story-facts/the-ritual.md) that contains its influence. Saving her from [Stanisław Rezeń](butcher.md) and writing her into the evacuation census are critical player choices.
+Finding Paraskewia Chyłak requires exploring the [forest](../scenes/locations/hags-cabin.md) and [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). She is the key witness to 1947, the keeper of [the well](../story-facts/the-well.md), and the one person performing [the ritual](../story-facts/the-ritual.md) that contains its influence. Saving her from [Stanisław Rezeń](butcher.md) and writing her into the evacuation census are critical player choices.
 
 ## Open Questions
 

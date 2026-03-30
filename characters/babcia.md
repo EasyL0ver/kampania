@@ -7,7 +7,7 @@
 - **Born:** ~1890
 - **Age in 1967:** ~77
 - **Heritage:** Lemko (Greek Catholic)
-- **Lives in:** [Barbara Kopacz's house](../places/new-village.md#barbaras-house) — with [Barbara Kopacz](barbara.md), [Pawełek Kopacz](secondary-characters.md)
+- **Lives in:** [Barbara Kopacz's house](../scenes/locations/barbaras-house.md) — with [Barbara Kopacz](barbara.md), [Pawełek Kopacz](secondary-characters.md)
 
 ## Character
 
@@ -15,7 +15,7 @@ Mean, sharp-tongued, no filter. Undiagnosed dementia — lucid one moment, lost 
 
 ## Background
 
-Speaks more Lemko than Polish. Grew up in a world of *cerkiews*, Cyrillic headstones, and Greek Catholic prayers. How she survived Akcja Wisła is unclear — married into a Polish family, slipped through the cracks. **[Barbara Kopacz](barbara.md)'s mother.** By the time she reached [%NEW_VILLAGE%](../places/new-village.md), already old, widowed, a remnant.
+Speaks more Lemko than Polish. Grew up in a world of *cerkiews*, Cyrillic headstones, and Greek Catholic prayers. How she survived Akcja Wisła is unclear — married into a Polish family, slipped through the cracks. **[Barbara Kopacz](barbara.md)'s mother.** By the time she reached %NEW_VILLAGE%, already old, widowed, a remnant.
 
 ## Knows
 
@@ -52,5 +52,5 @@ Access requires [Barbara Kopacz](barbara.md)'s trust first. Needs patience, gent
 ## Open Questions
 
 - Does she know [Janina Gajda](ciotka.md) and the siblings are Lemko?
-- Has she ever tried to visit [%OLD_VILLAGE%](../places/old-village.md)?
+- Has she ever tried to visit [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md)?
 - What happens to her if the village is evacuated?

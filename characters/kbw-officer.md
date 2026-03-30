@@ -19,7 +19,7 @@ Not evil in any interesting way. The banality of authority. The Superego doesn't
 
 Commanded the KBW unit assigned to clear Lemko villages in the Bieszczady sector during Akcja Wisła. [Edward Barnaś](soldier.md) was a soldier in his unit. [Stanisław Rezeń](butcher.md) was recruited as a civilian auxiliary — a local who knew the terrain, the paths, which houses were where.
 
-Arrived at [%OLD_VILLAGE%](../places/old-village.md) expecting a routine deportation. The villagers refused to leave. Situation escalated. Zieliński gave the order to use force — the Superego authorizing the Id.
+Arrived at [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) expecting a routine deportation. The villagers refused to leave. Situation escalated. Zieliński gave the order to use force — the Superego authorizing the Id.
 
 **Killed during the resistance.** Dmytro Kosach — [Paraskewia Chyłak](hag.md)'s UPA lover, a trained guerrilla fighter hiding in the village — shot Ćwiek dead when the soldiers arrived. His death didn't create chaos — it created **fury**. The soldiers, watching their captain fall, turned on the village with the blind rage of men who've just seen their commander killed.
 
@@ -47,7 +47,7 @@ The state wanted villages **cleared**, not massacred. Orderly deportation, train
 
 ## Thematic Weight
 
-The first Superego to fall. His death at [%OLD_VILLAGE%](../places/old-village.md) creates a **structural vacuum** that echoes for twenty years:
+The first Superego to fall. His death at [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) creates a **structural vacuum** that echoes for twenty years:
 
 - **1947–1954:** No Superego contains the Id. Rezeń spends seven years with the drive and nothing holding it. Edward's Ego manages alone — builds a family, represses everything. Fragile stability.
 - **1954:** [Zbigniew Gajda](wojewoda.md) steps into the Superego role — personal, local authority replacing institutional command. Tells Rezeń where to live, what not to drink, who to avoid.

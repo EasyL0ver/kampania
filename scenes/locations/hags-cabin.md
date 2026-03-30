@@ -1,7 +1,7 @@
 # Paraskewia Chyłak's Cabin
 
 **Type:** Location (hidden, discoverable)
-**Location:** Deep in the [forest](../../places/forest.md). Accessible only to those who know the way.
+**Location:** Deep in the [forest](old-village-ruins.md). Accessible only to those who know the way.
 **Present:** [Paraskewia Chyłak](../../characters/hag.md) — almost always, unless she's at the [well](the-well.md) or [cerkiew](old-village-cerkiew.md) performing rites.
 **Available:** Requires extensive forest exploration or guidance. Deliberately obscured path.
 **Cost:** 1 action to find, 1 action to interact

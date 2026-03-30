@@ -6,20 +6,20 @@
 
 - **Born:** 1918
 - **Age in 1967:** 49
-- **Lives in:** [Ryszard Dudka's house](../places/new-village.md#neighbours-house) — alone
+- **Lives in:** [Ryszard Dudka's house](../scenes/locations/neighbours-house.md) — alone
 - **Armed:** Hunting rifle (licensed)
 
 ## Character
 
-Male. Quiet, keeps to himself. Hunter — knows the [forest](../places/forest.md), knows how to shoot. Carries the guilt of **inaction**, not action — a different weight than the killers, lighter in law but perhaps heavier on the conscience. Loud opinions, no follow-through: the same paralysis from 1954 dressed up as righteousness. The **easiest NPC to crack**.
+Male. Quiet, keeps to himself. Hunter — knows the [forest](../scenes/locations/old-village-ruins.md), knows how to shoot. Carries the guilt of **inaction**, not action — a different weight than the killers, lighter in law but perhaps heavier on the conscience. Loud opinions, no follow-through: the same paralysis from 1954 dressed up as righteousness. The **easiest NPC to crack**.
 
 ## Background / Role
 
-Settler in the house next to [Edward Barnaś](soldier.md)'s plot — now [Janina Gajda's house](../places/new-village.md#ciotkas-house). Has been in [%NEW_VILLAGE%](../places/new-village.md) since early settlement.
+Settler in the house next to [Edward Barnaś](soldier.md)'s plot — now [Janina Gajda's house](../scenes/locations/ciotkas-house.md). Has been in %NEW_VILLAGE% since early settlement.
 
 ## The Lynch (1954)
 
-**Heard everything.** The screaming, the drunken shouting, the dogs. Maybe looked through the window and saw three men dragging something toward [%OLD_VILLAGE%](../places/old-village.md). Then closed the curtain and never spoke.
+**Heard everything.** The screaming, the drunken shouting, the dogs. Maybe looked through the window and saw three men dragging something toward [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). Then closed the curtain and never spoke.
 
 - Did not participate. Did not intervene. Did not report.
 - Unlike the rest of the village — was **right there.** Feet away, hearing a girl die.
@@ -40,7 +40,7 @@ Three-step arc — each a bigger overcorrection:
 
 ## The Breaking Point
 
-Not guilt — **love.** He hears what [Barbara Kopacz](barbara.md) tells him — the committee asking about [%OLD_VILLAGE%](../places/old-village.md), [the well](../story-facts/the-well.md), the past — and sees the pattern. Outsiders stirring something dangerous. The village tensing. [Barbara Kopacz](barbara.md) in the middle, innocent, unaware. Just like [Hania Barnaś](jagna.md) was.
+Not guilt — **love.** He hears what [Barbara Kopacz](barbara.md) tells him — the committee asking about [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md), [the well](../story-facts/the-well.md), the past — and sees the pattern. Outsiders stirring something dangerous. The village tensing. [Barbara Kopacz](barbara.md) in the middle, innocent, unaware. Just like [Hania Barnaś](jagna.md) was.
 
 He lay in bed in 1954 and listened to a girl die. He will not do nothing again. Not with [Barbara Kopacz](barbara.md) next door. Not with [Pawełek Kopacz](secondary-characters.md) in her arms.
 
@@ -58,7 +58,7 @@ When it breaks: **overcorrection.** Protection filtered through 13 years of guil
 Amplifies **guilt of inaction.** Already heavy — now physical.
 
 - Hears screaming at night — [Hania Barnaś](jagna.md)'s voice, drunken shouting, dogs. May be real (village deteriorating) or [the well](../story-facts/the-well.md). Can't tell.
-- Sleeplessness. Sits at the window staring at [Janina Gajda's house](../places/new-village.md#ciotkas-house) — the same window from that night. The curtain feels heavier.
+- Sleeplessness. Sits at the window staring at [Janina Gajda's house](../scenes/locations/ciotkas-house.md) — the same window from that night. The curtain feels heavier.
 - Jumpiness, paranoia. Every knock is [Stanisław Rezeń](butcher.md). Every stranger's question an accusation.
 - Easier to crack but harder to *use* — coherence going. Rambles, circles, contradicts. Truth in shards mixed with panic. Players must sift gold from gravel.
 - **Dream:** lying in bed, hearing the screaming, reaching for the curtain — and this time, the curtain won't close.
@@ -70,7 +70,7 @@ Angry at the government. Same rage as [Barbara Kopacz](barbara.md) — the state
 ## For Players
 
 - **Easiest NPC to crack.** Right pressure (guilt, alcohol, committee authority, fear of water) could break him.
-- **Partial knowledge.** Can give sounds, shapes, direction — enough to point toward [%OLD_VILLAGE%](../places/old-village.md) and [the well](../story-facts/the-well.md) without naming names.
+- **Partial knowledge.** Can give sounds, shapes, direction — enough to point toward [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) and [the well](../story-facts/the-well.md) without naming names.
 - **Proximity to [Janina Gajda](ciotka.md)** — another thread to pull.
 
 ## Open Questions

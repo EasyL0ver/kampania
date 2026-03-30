@@ -19,7 +19,7 @@
 - The 1951 "sealing abandoned well" entry refers to [the well](../story-facts/the-well.md) at %OLD_VILLAGE%. The money was spent. The well is still open. The job was paid for and never completed — or couldn't be. Players who've visited the old village will recognise this immediately.
 - [Tadek Gajda](../characters/wujas.md) appears doing transport work — establishes him as the family's odd-job man.
 - [Emil Rzepka](../characters/painter.md) doing whitewashing — before he started painting ghosts.
-- The 1951 "salvaged timber from old settlement" entry shows that Tadek Gajda hauled building materials stripped from the Lemko village. The new village was literally built from the old one's bones. Players who visit the stripped [cerkiew](../places/old-village.md) will understand what happened to it.
+- The 1951 "salvaged timber from old settlement" entry shows that Tadek Gajda hauled building materials stripped from the Lemko village. The new village was literally built from the old one's bones. Players who visit the stripped [cerkiew](../scenes/locations/old-village-ruins.md) will understand what happened to it.
 
 ### The clue chain
 
