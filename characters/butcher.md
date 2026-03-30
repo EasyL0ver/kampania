@@ -1,6 +1,6 @@
 # Stanisław Rezeń
 
-**Type:** Named character — symbolic Lemko rage
+**Type:** Named character — evil with self-awareness, symbolic Lemko rage
 
 ## Vital Statistics
 
@@ -11,7 +11,7 @@
 
 ## Character
 
-A sociopath: violent, cold, dangerous. But something else lives in him — an irrational, bone-deep fixation with [%OLD_VILLAGE%](../places/old-village.md) and [the well](../story-facts/the-well.md) that has no logical explanation. He can't name it. It drives him back to the ruins again and again. Symbolically, he carries the unprocessed fury of the Lemko dead — their rage at being massacred, erased, forgotten — expressed through the worst possible vessel. A man with no empathy, no heritage, no right to the grief. But the grief found him anyway.
+An evil man who knows it. Violent, cold, capable — and clear-eyed about what he is. Not mentally ill, not broken, not driven by pathology. He chose what he did in 1954 and the ease of it didn't surprise him. But something else lives in him — an irrational, bone-deep fixation with [%OLD_VILLAGE%](../places/old-village.md) and [the well](../story-facts/the-well.md) that has no logical explanation. He can't name it. It drives him back to the ruins again and again. Symbolically, he carries the unprocessed fury of the Lemko dead — their rage at being massacred, erased, forgotten — expressed through the worst possible vessel. A man with no conscience, no heritage, no right to the grief. But the grief found him anyway.
 
 ## The Lynch
 
@@ -33,13 +33,13 @@ Stanisław Rezeń visits [%OLD_VILLAGE%](../places/old-village.md) regularly —
 
 An **outcast.** The village knows or suspects what he did during the lynch. Not exiled, but not welcome. People avoid him — **and he avoids them.**
 
-Stanisław Rezeń has structured his life to **minimise harm.** Not guilt — he lacks the wiring for guilt. **Self-knowledge.** He felt the ease of violence in 1954, how natural it was, how little it cost him. He understood that staying around people, drink, friction meant it would happen again. So he removed himself.
+Stanisław Rezeń has structured his life to **minimise risk.** Not guilt — guilt would require caring about the dead. **Practicality.** He felt the ease of violence in 1954, how natural it was, how little it cost him. He understood that staying around people, drink, friction meant it would happen again — and next time there'd be consequences. The village looked away once. It wouldn't look away twice. So he removed himself.
 
 - Hasn't touched alcohol since 1954 — saw what it unlocked in the three of them
 - Doesn't socialise, attend gatherings, or linger where people are
 - Lives at the edge, keeps to his dogs, does his work, stays away
 
-The isolation isn't punishment — it's **containment.** His own private version of what [Paraskewia Chyłak](hag.md) does at [the well](../story-facts/the-well.md).
+The isolation isn't punishment — it's **risk management.** He doesn't want to stop killing because it's wrong. He wants to avoid the mess of getting caught. His own private version of what [Paraskewia Chyłak](hag.md) does at [the well](../story-facts/the-well.md) — containment. Except hers is driven by duty and his is driven by convenience.
 
 ## Relationships
 
@@ -54,7 +54,7 @@ The isolation isn't punishment — it's **containment.** His own private version
 
 - **Starts showing up.** At the store, near the farm, lingering where people gather. The man who avoided everyone for 13 years is suddenly *around*. Like a guard dog that's slipped its chain.
 - **Starts drinking.** The one rule he never broke. Shows up at the [bimber operation](../story-facts/bimber-operation.md), accepts a bottle from [Tadek Gajda](secondary-characters.md)'s crew. Everyone who remembers 1954 knows what alcohol did to those men. Stanisław Rezeń with a bottle is the village's canary.
-- **Not aggressive — yet.** Calm, almost pleasant. Makes small talk he's never made. The sociopath performing normalcy — flawless because nothing underneath is competing. The self-knowledge that kept him away is gone.
+- **Not aggressive — yet.** Calm, almost pleasant. Makes small talk he's never made. A man who's always been good at reading people and performing warmth when it serves him — and now the well is giving him reasons to. The practical self-awareness that kept him contained is dissolving.
 - **The dogs stay at the edge.** Won't follow him into the village. Pace the perimeter and whine. Even they can tell.
 
 **The compulsion is to feed [the well](../story-facts/the-well.md).** Not guard it, not own it — put something *in* it. The committee is dangerous not because they're near the well, but because they're *new people* — fresh bodies. His interest in the players isn't territorial — it's predatory, and he doesn't fully understand why.
@@ -67,10 +67,10 @@ Doesn't care about the committee — no property, no family, no stake. **Looking
 
 ## The Well's Redemption
 
-Stanisław Rezeń is [the well](../story-facts/the-well.md)'s longest victim. Thirteen years of dreams, compulsions, sleepwalking. The violence of 1954 may have been his, or something that found the perfect vessel. He doesn't know. The players won't either.
+Stanisław Rezeń is [the well](../story-facts/the-well.md)'s longest victim. Thirteen years of dreams, compulsions, sleepwalking. The violence of 1954 was his — he chose it, he enjoyed it, he'd do it again. But what came after wasn't a choice. Something found the perfect vessel and moved in.
 
 **The players dream too.** From their first night in the village — violence, not memories, just raw sensation. Hands doing things. The satisfaction of breaking. The dream-logic feeling that this is *right* and *necessary*. Each night worse.
 
 By day three, the players have felt what Stanisław Rezeń has felt for thirteen years. They wake up shaking, disgusted at the part of them that didn't want the dream to stop. Then they look at Stanisław Rezeń across the village and wonder: *am I any different? If I'd been here since 1954, what would I be by now?*
 
-That's his redemption — not forgiveness, but understanding. The well doesn't excuse what he did. But it makes the players ask whether they could judge him without judging themselves.
+That's not his redemption — there is none. But it's the question. The well doesn't excuse what he did. But it makes the players ask: if the well can do this to *me* in three nights, what has it done to a man who was already willing?

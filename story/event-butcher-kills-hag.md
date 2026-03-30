@@ -26,7 +26,7 @@ He doesn't know she's Lemko. He doesn't know she's been containing the well. He 
 
 ## The Killing
 
-It's not elaborate. Stanisław Rezeń is a sociopath, not a dramatist. He hits her. She falls. He throws her in the well.
+It's not elaborate. Stanisław Rezeń is not a man who hesitates. He hits her. She falls. He throws her in the well.
 
 The same motion. The same solution. The compulsion completing itself — another body in the hole, another silence enforced, another voice stopped. He doesn't know what he's done in the symbolic sense. He just knows the woman at the well is gone and the well is his again.
 
