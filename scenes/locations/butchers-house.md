@@ -12,7 +12,7 @@
 
 **Dogs:** Don't bark — low growls, bodies low. One limps (healed wrong). Another flinches when a hand rises. Afraid of their owner.
 
-**Rezeń (if home):** At the door before anyone knocks. Chain-smokes — lights the next off the last, fingers yellow-brown, doorframe burned in a dozen spots. Fidgets constantly: picks at scabs, scratches himself, turns a knife in his free hand. Friendliness is off — too eager, watches faces too closely, smiles at wrong moments.
+**Rezeń (if home):** At the door before anyone knocks. Chain-smokes — lights the next off the last, fingers yellow-brown, doorframe burned in a dozen spots. Fidgets constantly: picks at scabs, scratches himself, turns a knife in his free hand. Friendliness is off — too eager, watches faces too closely, smiles at wrong moments. Makes unsettling comments about female player characters — compliments that linger too long, observations about their hair or hands, asks if they're married. Not threatening in tone. Conversational. That's what makes it worse. If called out, he doesn't get embarrassed — he gets confused, like a child told a rule he's never heard of.
 
 **Path:** Worn track from back door into forest. Mud always fresh. Leads to [%OLD_VILLAGE%](../../places/old-village.md) and [the well](../../story-facts/the-well.md) — most direct route in the game. → [butcher-visits-the-well](../../clues/clues.md#butcher-visits-the-well)
 
