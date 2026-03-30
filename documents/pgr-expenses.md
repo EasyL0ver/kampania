@@ -13,7 +13,7 @@
 - Her initials (M.K.) match the [love letters](../scenes/locations/ciotkas-house.md) found in the buried cache at Ciotka's backyard.
 - This is the **only place** her full name appears in the game. Players will see it and skim past — one payment among many. The M.K. initials from the letters are the key that makes this entry click retroactively.
 - Players will likely find this document while investigating the [Foreman's cover-up](../story-facts/foreman-embezzlement.md) — looking for financial irregularities, not a dead woman's name.
-- The 1965 silo repair entry coincides with [Tadeusz Mazur's death](../story-facts/foreman-embezzlement.md) — suspicious only if players already know about the accident.
+- The 1965 silo repair entry coincides with [Tadeusz Mazur's death](../story-facts/foreman-embezzlement.md) — suspicious only if players already know about the accident. One week later, an emergency grain purchase (1,860 zł — the largest single expense in the journal) because the silo contents were lost. Silo breaks, grain gone, biggest bill in years — and no medical expenses. No hospital. No doctor. Because the man inside was already dead and nobody was called.
 - Familiar villager names (Gajda, Rezeń, Dudka, Rzepka) act as camouflage — players recognise them, skim past "Konieczna," and move on. The known names make the unknown name invisible.
 - [Rezeń](../characters/butcher.md) appears regularly as the village butcher doing seasonal slaughter — grim irony.
 - [Tadek Gajda](../characters/wujas.md) appears doing transport work — establishes him as the family's odd-job man.
@@ -89,6 +89,7 @@ Her name is **Marta Konieczna** — initials M.K.
 | | **— 1965 —** | |
 | 28.02.1965 | Spółdzielnia Lesko — seed grain | 1,340 |
 | 15.05.1965 | Silo repair — concrete patching, grain silo ⚠️ | 520 |
+| 22.05.1965 | Spółdzielnia Lesko — emergency feed, grain replacement ⚠️ | 1,860 |
 | 03.08.1965 | Transport cooperative Sanok — fuel delivery | 480 |
 | 10.12.1965 | Spółdzielnia Lesko — kitchen equipment (cook's requisition) | 160 |
 | | | |
@@ -162,6 +163,7 @@ Date        Payee / Description                                    Amount
                          — 1965 —
 28.02.1965  Spółdzielnia Lesko — seed grain                        1,340 zł
 15.05.1965  Silo repair — concrete patching, grain silo              520 zł
+22.05.1965  Spółdzielnia Lesko — emergency feed, grain replacement 1,860 zł
 03.08.1965  Transport cooperative Sanok — fuel delivery              480 zł
 10.12.1965  Spółdzielnia Lesko — kitchen equipment                  160 zł
 
