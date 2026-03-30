@@ -86,7 +86,7 @@ Her name is **Marta Konieczna** — initials M.K.
 | 28.02.1965 | Spółdzielnia Lesko — seed grain | 1,340 |
 | 15.05.1965 | Silo repair — concrete patching, grain silo ⚠️ | 520 |
 | 03.08.1965 | Transport cooperative Sanok — fuel delivery | 480 |
-| 10.12.1965 | Pytlak, Zofia — kitchen equipment replacement | 160 |
+| 10.12.1965 | Spółdzielnia Lesko — kitchen equipment (cook's requisition) | 160 |
 | | | |
 | | **— 1967 —** | |
 | 19.01.1967 | Spółdzielnia Lesko — winter feed, hay | 1,100 |
@@ -155,7 +155,7 @@ Date        Payee / Description                                    Amount
 28.02.1965  Spółdzielnia Lesko — seed grain                        1,340 zł
 15.05.1965  Silo repair — concrete patching, grain silo              520 zł
 03.08.1965  Transport cooperative Sanok — fuel delivery              480 zł
-10.12.1965  Pytlak, Zofia — kitchen equipment replacement              160 zł
+10.12.1965  Spółdzielnia Lesko — kitchen equipment (cook's requisition)              160 zł
 
                          — 1967 —
 19.01.1967  Spółdzielnia Lesko — winter feed, hay                  1,100 zł
