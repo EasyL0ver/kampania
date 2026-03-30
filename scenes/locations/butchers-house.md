@@ -8,7 +8,7 @@
 
 ## What Players See
 
-**Exterior:** Dark timber house, no paint, no curtains. Butchering station out back — scarred block, iron hooks, drainage channel stained black. Dog-sized dirt mound behind station. He had five dogs. Now three.
+**Exterior:** Dark timber house, no paint, no curtains. Butchering station out back — scarred block, iron hooks, drainage channel stained black. He had five dogs. Now three. Nobody knows where the others went.
 
 **Dogs:** Don't bark — low growls, bodies low. One limps (healed wrong). Another flinches when a hand rises. Afraid of their owner.
 
@@ -24,7 +24,7 @@
 - **Sleep deprivation** — dark eyes, pacing groove in floorboards (visible through window). Seeds well's dreams.
 - **Butchering habits** — block used more than livestock explains. Takes too long. Works alone, doors shut.
 - **Dogs' behaviour** — flinching, limping, freezing. Practices cruelty.
-- **Mound out back** — dog-sized. Other dogs avoid it. Villagers don't answer questions about missing dogs.
+- **Missing dogs** — he had five. Now three. No bodies, no mounds. They're in the well. He's been feeding it.
 
 ## Actions
 
@@ -43,6 +43,7 @@
 ### Follow into forest
 - **Cost:** 1 action
 - **What happens:** Path leads to [%OLD_VILLAGE%](../../places/old-village.md). He goes to the well. Sits on rim. Clears debris from the mouth. Leans over edge and listens. If he spots players, tells them to leave. Once.
+- **At night:** Players may catch him carrying a dead dog along the path. Over his shoulder, limp, heading for the well. He dumps animal carcasses and bones into it. Has been doing this for years. This is where the missing dogs went. This is what the compulsion looks like: he feeds the well.
 - **Result:** → [butcher-visits-the-well](../../clues/clues.md#butcher-visits-the-well), [butcher-compelled-to-feed](../../clues/clues.md#butcher-compelled-to-feed). Being caught = he considers them enemies.
 
 ### Enter while he's gone

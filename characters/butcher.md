@@ -42,6 +42,7 @@ Stanisław Rezeń visits [%OLD_VILLAGE%](../places/old-village.md) regularly —
 
 - The dogs come but won't approach the well — they stop at a perimeter and refuse to cross. He crosses every time.
 - He's cleared debris more than once — not to expose or hide evidence, just to keep the well *open*, accessible. Like it matters that it stays visible.
+- **He feeds the well.** Animal bones, carcasses, his own dogs. Dumps them into the well at night. Has been doing it for years — he used to have five dogs, now has three. The missing ones are in the well. Players who follow him at night may catch him carrying a dead dog over his shoulder along the forest path. This is what the compulsion looks like.
 - **The dreams drive him.** Same kind the players will have. Sleeps badly — dogs whine hearing him thrash. Seen walking toward [%OLD_VILLAGE%](../places/old-village.md) at night, half-dressed, barefoot. In the dreams, the well is always blocked and the dead can't get out. See [the well](../story-facts/the-well.md) for the full supernatural element.
 - **Doesn't know about the 1947 massacre victims.** He put the lynch victims there because the place pulled him.
 
