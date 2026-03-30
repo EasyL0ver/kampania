@@ -8,7 +8,7 @@
 - **Born:** 1920
 - **Age in 1967:** 47
 - **Heritage:** Lemko (hidden behind Polish identity)
-- **Lives in:** [Zbigniew Gajda's house](../scenes/locations/wojewodas-office.md) — with [Irena Gajda](wife.md), [Marek Gajda](junior.md); [Tadek Gajda](secondary-characters.md) crashes here
+- **Lives in:** [Zbigniew Gajda's house](../scenes/locations/wojewodas-house.md) — with [Irena Gajda](wife.md), [Marek Gajda](junior.md); [Tadek Gajda](secondary-characters.md) crashes here
 - **Armed:** Sołtys's pistol (locked in office, loaded)
 
 ## Character

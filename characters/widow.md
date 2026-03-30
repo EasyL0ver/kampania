@@ -21,7 +21,7 @@ She asks the committee to include her dead husband in the census. Not for fraud 
 This is a **thematic mirror** for [Emil Rzepka](painter.md)'s later request to include [Hania Barnaś](jagna.md) in the census. The first time players hear "write a dead person into the census" it's a sad, harmless request from a widow. The second time, it carries the weight of a murder and a buried truth.
 
 ### The Phantom Worker
-Her husband is still on the [PGR ledger](../scenes/locations/wojewodas-office.md) as an active worker. His death was **never reported to the state** — [Zbigniew Gajda](wojewoda.md) ordered it covered up to avoid inspections, and [Michał Pytlak](foreman.md) signs off on it every month.
+Her husband is still on the [PGR ledger](../scenes/locations/pgr-farm.md) as an active worker. His death was **never reported to the state** — [Zbigniew Gajda](wojewoda.md) ordered it covered up to avoid inspections, and [Michał Pytlak](foreman.md) signs off on it every month.
 
 Wanda doesn't know any of this. She believes she receives a **state widow's pension** — proper, legal, official. In reality, she collects Tadeusz's phantom wages. The village doesn't know either — everyone assumes the death was reported normally.
 

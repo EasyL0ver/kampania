@@ -9,20 +9,21 @@ graph TD
     %% === EVENTS ===
     E01[01: The Car In] --> E02[02: Arrival]
     E02 --> E03[03: Dinner at Wojewoda's]
-    E02 --> L_OFFICE[Wojewoda's Office]
+    E02 --> L_HOUSE[Wojewoda's House]
+    E02 --> L_PGR[PGR Farm]
 
     %% === LOCATIONS ===
-    E03 --> L_OFFICE
-    L_OFFICE --> L_STORE[The Store]
-    L_OFFICE --> L_SURVEY[Village Outskirts]
-    L_SURVEY --> L_OFFICE
+    E03 --> L_HOUSE
+    L_PGR --> L_STORE[The Store]
+    L_PGR --> L_SURVEY[Village Outskirts]
+    L_SURVEY --> L_PGR
 
     %% === STYLING ===
     classDef event fill:#1565c0,color:#fff,stroke:#0d47a1
     classDef location fill:#388e3c,color:#fff,stroke:#1b5e20
 
     class E01,E02,E03 event
-    class L_OFFICE,L_STORE,L_SURVEY location
+    class L_HOUSE,L_PGR,L_STORE,L_SURVEY location
 ```
 
 ---
@@ -39,6 +40,8 @@ graph TD
 
 | File | Location | Available from |
 |------|----------|----------------|
-| `locations/wojewodas-office.md` | Wojewoda's Office | After arrival |
+| `locations/wojewodas-house.md` | Wojewoda's House | After arrival |
+| `locations/pgr-farm.md` | PGR Farm (incl. office) | After arrival |
+| `locations/stolowka.md` | Stołówka | Daytime, any day |
 | `locations/the-store.md` | The Store | Daytime, any day |
 | `locations/village-outskirts.md` | Village Outskirts | Any day, needs geologist |

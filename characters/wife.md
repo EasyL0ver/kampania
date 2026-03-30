@@ -6,7 +6,7 @@
 
 - **Born:** 1924
 - **Age in 1967:** 43
-- **Lives in:** [Zbigniew Gajda's house](../scenes/locations/wojewodas-office.md) — with [Zbigniew Gajda](wojewoda.md), [Marek Gajda](junior.md)
+- **Lives in:** [Zbigniew Gajda's house](../scenes/locations/wojewodas-house.md) — with [Zbigniew Gajda](wojewoda.md), [Marek Gajda](junior.md)
 
 ## Character
 

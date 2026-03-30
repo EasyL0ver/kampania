@@ -6,7 +6,7 @@
 
 - **Born:** 1946
 - **Age in 1967:** 21
-- **Lives in:** [Zbigniew Gajda's house](../scenes/locations/wojewodas-office.md) — with [Zbigniew Gajda](wojewoda.md), [Irena Gajda](wife.md)
+- **Lives in:** [Zbigniew Gajda's house](../scenes/locations/wojewodas-house.md) — with [Zbigniew Gajda](wojewoda.md), [Irena Gajda](wife.md)
 
 ## Character
 

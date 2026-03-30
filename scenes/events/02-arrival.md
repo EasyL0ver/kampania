@@ -1,7 +1,7 @@
 # Arrival
 
 **Type:** Event (one-shot, first meeting)
-**Location:** %NEW_VILLAGE% — road in, then Zbigniew Gajda's house → [wojewodas-office](../locations/wojewodas-office.md)
+**Location:** %NEW_VILLAGE% — road in, then Zbigniew Gajda's house → [wojewodas-house](../locations/wojewodas-house.md)
 **Present:** Zbigniew Gajda, villagers in passing (drinking crew, Barbara Kopacz with Pawełek Kopacz), Irena Gajda (inside the house)
 **Available:** Exit from 01-the-car-in
 
@@ -24,4 +24,5 @@ He doesn't mention the flood. He doesn't know. But he's probing — *"So what ex
 ## Exits
 
 - **03-dinner** (event) — first evening, if flooding not discussed
-- **wojewodas-office** (location) — the office is now available for the rest of the game
+- **wojewodas-house** (location) — the house is now available
+- **pgr-farm** (location) — the office is now available for the rest of the game

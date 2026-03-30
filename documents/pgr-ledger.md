@@ -1,7 +1,7 @@
 # PGR Worker Registry — State Agricultural Farm "%NEW_VILLAGE%"
 
 **Document type:** Player handout / prop
-**In-game location:** Zbigniew Gajda's desk → [Wojewoda's Office](../scenes/locations/wojewodas-office.md)
+**In-game location:** Zbigniew Gajda's desk → [PGR Farm — Wojewoda's Office](../scenes/locations/pgr-farm.md#wojewodas-office)
 **Available via:** "Inspect the PGR ledger" action
 
 ---

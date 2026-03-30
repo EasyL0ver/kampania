@@ -1,7 +1,7 @@
 # Dinner at Wojewoda's
 
 **Type:** Event (one-shot, first evening)
-**Location:** Zbigniew Gajda's house — the dining room → [wojewodas-office](../locations/wojewodas-office.md)
+**Location:** Zbigniew Gajda's house — the dining room → [wojewodas-house](../locations/wojewodas-house.md)
 **Present:** Zbigniew Gajda, Irena Gajda, Zofia Pytlak (serving), Helena Rzepka, Emil Rzepka. Marek Gajda arrives late. Tadek Gajda crashes.
 **Available:** First evening after arrival — follows naturally from 02-arrival if flooding is not discussed
 **Cost:** 1 action (takes the whole evening)
@@ -36,5 +36,6 @@ If players build enough rapport with Zbigniew Gajda during dinner — he offers 
 
 ## Exits
 
-- **wojewodas-office** (location) — return to the office for phone/ledger
+- **wojewodas-house** (location) — the house for family scenes
+- **pgr-farm** (location) — the office for phone/ledger
 - Next morning: village locations open up
