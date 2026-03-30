@@ -12,7 +12,7 @@ The most presentable house in the village. Whitewashed walls, swept path, flower
 
 Helena Rzepka receives guests at the kitchen table with bread and tea. She is warm, attentive, interested in the committee's work. She asks questions — about the census, the flood assessment, where each committee member is from. She remembers every answer.
 
-Emil Rzepka sits in the corner near the stove or works in the small outbuilding behind the house — a lean-to shed he uses as a painting space. He's present but receded. Greets players politely, says little. His hands are stained with paint. He looks at Helena before he speaks.
+Emil Rzepka sits in the corner near the stove or works in the attic above the house — his painting space. He's present but receded. Greets players politely, says little. His hands are stained with paint. He looks at Helena before he speaks.
 
 Ewa Rzepka (~14) watches her father with quiet worry. She helps in the kitchen. She's polite to players but guarded — she's been trained. Sometimes she lingers when Emil talks to visitors, as if waiting for something.
 
@@ -21,9 +21,9 @@ Krystian Rzepka (~9) comes and goes — altar boy at the church, Helena's plante
 ## Opportunities
 
 - **Notice the dynamic** — Emil never speaks first. He checks Helena's face before answering anything. She touches his shoulder when she passes — affection or restraint? He flinches. Not visibly. But there. → Seeds [matrona-controls-painter](../../clues/clues.md#matrona-controls-painter)
-- **See the paintings** — the shed door is usually open. Dozens of paintings — landscapes, village scenes, competent work. One portrait stands out: a young woman, dark-haired, beautiful. No name. No label. Just a face among the landscapes. Players see it and move on. If they ask Emil who she is, he goes quiet. Changes the subject. Helena, if present, says "an old commission" and steers the conversation elsewhere. → The portrait is [Hania Barnaś](../../characters/jagna.md). Players won't know that until they learn the name from another source — then they'll remember the girl in the shed.
+- **See the paintings** — the attic is Emil's domain. Dozens of paintings — landscapes, village scenes, competent work. One portrait stands out: a young woman, dark-haired, beautiful. No name. No label. Just a face among the landscapes. Players see it and move on. If they ask Emil who she is, he goes quiet. Changes the subject. Helena, if present, says "an old commission" and steers the conversation elsewhere. → The portrait is [Hania Barnaś](../../characters/jagna.md). Players won't know that until they learn the name from another source — then they'll remember the girl in the attic.
 - **Notice the recent work** — in the newer paintings, something wrong: a dark circle in a meadow. A ring of stones where there shouldn't be one. Water turning black. Emil doesn't explain them. If asked, he looks confused — "I don't know why I painted that." → The well appearing uninvited in his art. Creates a pre-echo of [%OLD_VILLAGE%](../../places/old-village.md) before players find it.
-- **Watch Ewa** — she brings tea to Emil's shed when Helena isn't looking. She straightens his collar. She's the only person in this house who touches him gently. If players chat with her, she might joke: *"He'll paint every mountain in Bieszczady but never his own daughter."* She rolls her eyes. It's a family complaint — tata only paints landscapes, never people. → This makes the portrait of the unknown young woman in the shed impossible to ignore. He broke his one rule for someone. Ewa has never asked who the girl is. Maybe she's afraid of the answer.
+- **Watch Ewa** — she brings tea to Emil's attic when Helena isn't looking. She straightens his collar. She's the only person in this house who touches him gently. If players chat with her, she might joke: *"He'll paint every mountain in Bieszczady but never his own daughter."* She rolls her eyes. It's a family complaint — tata only paints landscapes, never people. → This makes the portrait of the unknown young woman in the attic impossible to ignore. He broke his one rule for someone. Ewa has never asked who the girl is. Maybe she's afraid of the answer.
 - **The over-correction** — as the well strengthens, Helena becomes MORE perfect. More church visits, more generosity, more public warmth. To anyone paying attention, it reads as desperation — a woman holding a mask that's starting to slip. → Seeds [matrona-orchestrated-lynch](../../clues/clues.md#matrona-orchestrated-lynch) (indirectly — the performance itself is evidence)
 - **Krystian's reports** — he mentions things innocently at dinner. "Edek was at the church again." "Pan Rezeń was walking to the forest." Helena listens. Players who notice will realise she has a surveillance network — an altar boy who sees everyone's confessional traffic.
 
@@ -53,7 +53,7 @@ Krystian Rzepka (~9) comes and goes — altar boy at the church, Helena's plante
 - **Outcome:** She won't betray Helena directly — she's a child, and Helena is her mother. But she'll reveal the household truth through worry: *"Tata doesn't sleep." "He paints all night sometimes." "Mama checks his paintings when he's not there."* She knows something is wrong. She doesn't know what. If players are kind to Emil in her presence, her trust deepens — she may later help create a window for Emil to talk (distracting Helena, telling players when her mother goes to the store).
 - **Leads to:** Practical help — Ewa becomes an ally for getting Emil alone. Emotional weight — this child has been living inside a lie for her whole life.
 
-### Search Emil's painting shed
+### Search Emil's painting attic
 - **Requires:** Emil and Helena both absent, or Emil's permission (easier if rapport is high)
 - **Cost:** 1 action
 - **Outcome:** Dozens of paintings. Landscapes, the village, the mountains — solid work. The portrait of the young woman. And the recent ones where the well creeps in — dark circles, black water, stone rings. The progression is visible: his older work is normal. The newer work is haunted. Something is reaching into this man through his brush.
@@ -63,7 +63,7 @@ Krystian Rzepka (~9) comes and goes — altar boy at the church, Helena's plante
 - **Requires:** Helena chose players to stay here after [dinner](../events/03-dinner.md)
 - **Cost:** No additional action — happens naturally
 - **Outcome:** Nighttime in Helena's house. Players hear things through walls:
-  - Emil can't sleep. Paces. Goes to the shed. The scratch of brushwork at 2 AM.
+  - Emil can't sleep. Paces. Goes to the attic. The scratch of brushwork at 2 AM.
   - Helena checking the door. Checking Emil. A whispered argument — her voice sharp, his barely audible. Players can't make out words but the dynamic is unmistakable: she's controlling him.
   - Krystian sleepwalking or mumbling prayers in his sleep — Helena's conditioning runs deep.
   - Ewa, awake, sitting in the hall. She sees the player and puts a finger to her lips. Says nothing. Goes back to bed.

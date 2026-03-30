@@ -36,7 +36,7 @@ If the players get him alone — truly alone, away from her — this is what com
 
 Emil only paints landscapes. Mountains, rivers, villages, forests — never people. His family jokes about it. Ewa complains he'll paint every peak in Bieszczady but won't do her portrait. It's a harmless quirk. Except it isn't.
 
-There is one portrait in his shed. A young woman, dark-haired, beautiful. No name, no label. The only person he's ever painted. He broke his one rule for [Hania Barnaś](jagna.md) and he can't explain why without explaining everything.
+There is one portrait in his attic. A young woman, dark-haired, beautiful. No name, no label. The only person he's ever painted. He broke his one rule for [Hania Barnaś](jagna.md) and he can't explain why without explaining everything.
 
 ## The Well's Influence
 
