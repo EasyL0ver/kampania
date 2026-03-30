@@ -6,100 +6,51 @@
 
 - **Born:** ~1890
 - **Age in 1967:** ~77
+- **Heritage:** Lemko (Greek Catholic)
+- **Lives in:** [%BARBARA%'s house](../places/new-village.md#barbaras-house) — with [%BARBARA%](barbara.md), [%PAWEŁEK%](secondary-characters.md)
 
 ## Character
 
-**%BABCIA%'s mind is going.** She comes and goes — sharp one moment, lost the next. Calls people the wrong names, confuses decades, mistakes %PAWEŁEK% for children who died in 1947. Nobody's diagnosed anything — it's 1967 in a mountain village. She's just the confused old woman. That's what old people do out here.
-
-And she's **mean.** Not gentle-grandmother mean — genuinely cruel. Sharp tongue, no filter, says things that cut. Insults %BARBARA%'s housekeeping, calls %JUNIOR% worthless, tells %PAWEŁEK% stories that aren't appropriate for a child. Whatever social polish she had is gone, and what's underneath is bitter, raw, and ugly.
-
-Players can never tell if she's being cruel because she's lost, or because she always was. Some of it is age. Some of it is 77 years of watching everything you love get destroyed. And some of it might just be who she is.
-
-The ritual knowledge she carries — is it real memory or a confused old woman singing nonsense? The players have to bet everything on the answer.
-
-## Heritage
-
-**Lemko.** Not hidden, not denied — just irrelevant to a village that doesn't care about old women. %BABCIA% speaks more Lemko than Polish. She grew up in a world of *cerkiews*, Cyrillic headstones, and prayers sung in a language the state tried to erase. That world is gone. She carries it in her mouth.
+Mean, sharp-tongued, no filter. Undiagnosed dementia — lucid one moment, lost the next. Calls people wrong names, confuses decades, mistakes [%PAWEŁEK%](secondary-characters.md) for children who died in 1947. The cruelty might be the disease or 77 years of watching everything you love get destroyed. Players can never tell.
 
 ## Background
 
-How %BABCIA% survived Akcja Wisła is unclear — she may have been away from her village during the deportations, married into a Polish family, or simply slipped through the cracks the way some Lemkos did. By the time she ended up in %NEW_VILLAGE%, she was already old, already widowed, already a remnant.
+Speaks more Lemko than Polish. Grew up in a world of *cerkiews*, Cyrillic headstones, and Greek Catholic prayers. How she survived Akcja Wisła is unclear — married into a Polish family, slipped through the cracks. Not [%BARBARA%](barbara.md)'s mother — probably a distant relative or connection through marriage. By the time she reached [%NEW_VILLAGE%](../places/new-village.md), already old, widowed, a remnant.
 
-She lives with %BARBARA% and %PAWEŁEK% — a grandmother figure in a household that needs one. She's not %BARBARA%'s mother (probably a more distant relative or connection through marriage). She helps with the boy, sits by the stove, and says very little in a language most of the village doesn't understand.
+## Knows
 
-## What She Knows
-
-### The Prayers
-
-%BABCIA% knows the Lemko rites for the dead — the **panakhyda**, the memorial songs, the prayers for the unquiet. She didn't learn them as a priestess or a scholar. She learned them the way every Lemko grandmother did — by hearing them at every funeral, every anniversary, every autumn when the dead were remembered. They're in her bones.
-
-She hasn't performed them in decades. There's been no one to perform them for, and no one to perform them with. But she remembers. The words are there, waiting, the way old songs wait in the mouths of people who haven't sung in years.
-
-**She is one of the few living people who can provide the words for the ritual at the well.** See `story-facts\the-ritual.md`.
-
-### The Culture
-
-Beyond the prayers, %BABCIA% is a living archive of Lemko daily life — food, customs, seasonal rhythms, folk beliefs, the names of plants and the uses of herbs. None of this is investigative evidence. All of it is atmosphere and context that makes the world real.
-
-### The Sounds
-
-%BABCIA% has heard %HAG%'s singing on the wind. She's never said so — who would she tell? But she knows someone out there has been praying for the dead in the old tongue. She doesn't know who. She doesn't know where. But the sound of those prayers, carried through the forest at night, is the only thing in %NEW_VILLAGE% that's ever felt like home.
-
-**When the singing stops** — after %BUTCHER% kills %HAG% — %BABCIA% will notice. She may be the first person in the village to sense that something fundamental has changed. Not the dreams, not the mood — the silence. The prayers stopped. Whoever was singing is gone.
+- **Panakhyda** — Lemko death rites, memorial songs, prayers for the unquiet dead. Learned by hearing them at every funeral. **Can provide the words for [the ritual](../story-facts/the-ritual.md).**
+- **Covered mirrors** — covers every mirror in [%BARBARA%](barbara.md)'s house ([Lemko death custom](../historical%20context/13-lemko-beliefs-and-folk-magic.md)). [%BARBARA%](barbara.md) stopped fighting it. Players visiting the house will notice. Clue hiding in plain sight.
+- **[%HAG%](hag.md)'s singing** — heard Lemko prayers on the wind at night. Never told anyone. Will notice when singing stops (after [%BUTCHER%](butcher.md) kills [%HAG%](hag.md)).
+- **Lemko culture** — living archive: food, customs, herbs, seasonal rhythms. Atmosphere, not evidence.
 
 ## Relationships
 
-### %BARBARA% — Dependence and quiet love
+- **[%BARBARA%](barbara.md)** — took her in. Grateful, doesn't interfere. Too old for judgment.
+- **[%PAWEŁEK%](secondary-characters.md)** — her light. Tells him Lemko stories, sings old songs at bedtime. Passing on a dead culture to a 4-year-old who doesn't know what he's receiving.
+- **[%HAG%](hag.md)** — never met. Heard the singing. Two Lemko women holding the same prayers from opposite ends of the forest. One of the story's most quietly devastating relationships.
+- **[%PRIEST%](secondary-characters.md)** — cautious distance. He's Roman Catholic, she's Greek Catholic. Could bridge the gap between players and %BABCIA% but hasn't.
+- **Village** — invisible. Furniture. Nobody watches her, nobody suspects her, nobody thinks she matters.
 
-%BARBARA% took her in. That's enough. %BABCIA% helps where she can — watching %PAWEŁEK%, cooking, mending. She doesn't interfere with %BARBARA%'s choices or lovers. She's too old and too tired for judgment. She loves the boy and she's grateful for a roof.
+## Well Influence
 
-### %PAWEŁEK% — Her light
+The well **heals her mind.** Dementia reverses — lucidity returns day by day. Nobody notices (nobody was watching).
 
-The child is the best thing in her life. She tells him stories in Lemko that he half-understands. She sings him old songs at bedtime. She's passing on a dead culture to a 4-year-old who doesn't know what he's receiving. If %PAWEŁEK% falls ill, %BABCIA% will be devastated — and may turn to the old prayers instinctively.
+- Prayers come back complete — every word, every inflection, every pause
+- Memories return. Names, faces. Stops confusing people
+- Cruelty sharpens from random to deliberate
+- Grows restless. Stares at forest. Refuses to sleep. Listens for singing that has stopped
 
-### %HAG% — The voice she never met
+## Flood Attitude
 
-They never spoke. They may never have been in the same room. But %BABCIA% heard the singing and recognized it — Lemko prayers for the dead, carried on the night wind from %OLD_VILLAGE%. A stranger performing rites %BABCIA% herself was too afraid, too frail, too isolated to perform. That invisible connection — two old Lemko women, one in the forest, one by the stove, holding the same prayers — is one of the story's most quietly devastating relationships.
+Ready to die. Won't evacuate — not stubbornness, peace. Will nod, smile, and stay exactly where she is.
 
-### %PRIEST% — Cautious distance
+## For Players
 
-He's Roman Catholic. She's Greek Catholic in her bones, even if she attends his church out of social necessity. They understand each other across the liturgical divide — both know what prayer is for — but they've never had a real conversation. %PRIEST% may be the one person in the village who could bridge the gap between the players and %BABCIA%, if he chose to.
-
-### The village — Invisible
-
-Nobody pays attention to %BABCIA%. She's an old woman who speaks a dead language, living in a poor girl's house. She's furniture. This invisibility is both her curse and her protection — nobody watches her, nobody suspects her, nobody thinks she matters.
-
-She matters more than almost anyone.
-
-## In 1967
-
-A frail, quiet old woman sitting by a stove, holding the last copy of something the world tried to destroy. She doesn't know she's important. She doesn't know about the well, the massacre, or the ritual that needs performing. She just knows the prayers — and that someone out there used to sing them, and doesn't anymore.
-
-## The Flood & The Committee
-
-**%BABCIA% is ready to die.** She's ~77. She's Lemko. She's watched everything she knew get destroyed — her people, her village, her language, her prayers. The flood is just the last wave.
-
-She won't evacuate. Not out of stubbornness or protest — out of peace. This is her land. The dead are here. Where would she go? To a concrete block in some town where no one speaks her language and no one remembers the prayers? She'd rather the water take her with the rest of it.
-
-The committee can write her name down. They can plan her relocation. She'll nod and smile and stay exactly where she is.
-
-## The Well's Influence
-
-The well reaches %BABCIA% through **grief — and memory.** As it strengthens, something happens: **her mind starts coming back.** The confused old woman becomes lucid. Clear. Present. Nobody notices — she's just having a good day, then another good day, then a string of them. Nobody's been paying enough attention to realise something impossible is happening.
-
-- She starts humming the old prayers unprompted. Songs she hasn't sung in decades come back complete — every word, every inflection, every pause.
-- Her memories return. Names, faces, conversations. She stops confusing people. She becomes coherent in a way she hasn't been in years — but only the players are new enough to notice something's off about it.
-- The cruelty sharpens into something deliberate instead of random. She's not confused anymore. If she says something cutting now, she means it.
-- She becomes restless. Stares toward the forest through the window. Refuses to sleep. Sits up at night listening for the singing that used to come on the wind. The singing has stopped. The silence is worse than anything.
-
-The well doesn't torment %BABCIA%. It **heals** her. And nobody in the village thinks twice about it — old women have good days and bad days. Only the players, who meet her confused and cruel on day one and lucid and purposeful by day four, might realise that minds don't just come back like this.
-
-**For the players:** Getting to %BABCIA% requires getting through %BARBARA% first. Getting %BABCIA% to trust them requires patience, gentleness, and probably someone who can speak or understand Lemko. Getting her to teach the prayers — or speak them herself at the well — requires explaining something she may not survive hearing: that her people are in that well, and they need her voice.
-
-**If %BABCIA% comes to the well:** An old Lemko woman, barely able to walk, standing in the rain at the place where her people were massacred, speaking the prayers they were never given. It is the most powerful version of the ritual the story can produce. And it may be the last time those words are ever spoken.
+Access requires [%BARBARA%](barbara.md)'s trust first. Needs patience, gentleness, possibly Lemko language. Getting her to the well means telling her what's down there — that her people are in that well and need her voice. **Babcia at the well = most powerful ritual outcome.**
 
 ## Open Questions
 
-- Does she know %CIOTKA% and the siblings are Lemko? Has she sensed it?
-- Has she ever tried to visit %OLD_VILLAGE% herself?
-- What happens to her if the village is evacuated? Where does an old Lemko woman go when the last place that tolerates her is underwater?
+- Does she know [%CIOTKA%](ciotka.md) and the siblings are Lemko?
+- Has she ever tried to visit [%OLD_VILLAGE%](../places/old-village.md)?
+- What happens to her if the village is evacuated?

@@ -61,13 +61,27 @@ The colonists of %NEW_VILLAGE% are the second layer of this tragedy. Brought in 
 - **Vulnerability:** Completely dependent on %WOJEWODA%'s goodwill for housing and employment
 - **Accessible:** Near farm, not isolated; players can visit freely
 
+### %NEIGHBOUR%'s House
+- Next to %CIOTKA%'s house (formerly %SOLDIER%'s plot)
+- Resident: %NEIGHBOUR% (lives alone)
+- **Hunter's home:** Hunting rifle kept here
+- **Proximity to Ciotka:** Daily reminder of 1954 — he watched the lynch from this window
+- **Barbara's fence:** %BARBARA%'s house is close enough for over-the-fence conversations
+
+### %BUTCHER%'s House
+- **Edge of the village**, set apart from everyone
+- Resident: %BUTCHER% and his dogs
+- **Isolation:** Nobody visits willingly; dogs growl at strangers
+- **Covered mirrors:** %BABCIA% doesn't live here, but this house sits closest to the forest path toward %OLD_VILLAGE%
+- **Atmosphere:** Dark, neglected, smells of animals and solitude
+
 ### PGR Farm Complex
 - %WOJEWODA%'s farm operation (official PGR managed by him)
 - Multiple buildings:
   - **Main farm building:** Equipment, storage
   - **Worker barracks/quarters:** Where laborers sleep
   - **Kitchen:** %ZOFIA% prepares meals for farm workers
-- Residents/workers: %FOREMAN%/%STEFAN% (overseer) and his family (%ZOFIA%, %STASZEK%), %JOZEK%, %PIOTR%, other laborers
+- Residents/workers: %FOREMAN%/%STEFAN% (overseer) and his family (%ZOFIA%, %STASZEK%), %HALINA%, %FRANEK%, %JOZEK%, %PIOTR%, other laborers
 - %WUJAS% often crashes here with the drinking crew
 - **Noise hub:** Activity, rough voices, machinery — opposite of the village's quiet
 - **Surveillance:** %FOREMAN% observes everything; his loyalty is to %WOJEWODA%

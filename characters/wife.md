@@ -1,94 +1,87 @@
 # %WIFE%
 
-**Type:** Named character — %WOJEWODA%'s wife, %JUNIOR%'s mother
+**Type:** Named character — [%WOJEWODA%](wojewoda.md)'s wife, [%JUNIOR%](junior.md)'s mother
 
 ## Vital Statistics
 
 - **Born:** 1924
 - **Age in 1967:** 43
+- **Lives in:** [%WOJEWODA%'s house](../places/new-village.md#wojewodas-house) — with [%WOJEWODA%](wojewoda.md), [%JUNIOR%](junior.md)
 
-## Role
+## Character
 
-%WOJEWODA%'s wife. Mother of %JUNIOR%. Has lived in %NEW_VILLAGE% since the early settlement days — she was here before the lynch, during it, and after it. But she wasn't part of it.
+Intelligent, observant, dismissed. Loves her husband — he's a good man and leader. But he doesn't treat her as an equal: she keeps the house, raises the boy, pours tea for guests, is excluded from everything that matters. **Bored.** The house is clean, the boy is grown, the days are long. Her mind goes where it shouldn't — she starts noticing things.
 
-**She loves her husband.** That's the foundation. He's a good man, a good leader, and she's proud of what he's built. But he doesn't treat her as an equal. She's the wife — she keeps the house, she raises the boy, she pours tea for guests. He doesn't share his burdens with her, doesn't consult her, doesn't tell her what keeps him up at night. She's dismissed from everything that matters.
+## Background / Role
 
-**She's bored.** An intelligent woman with nothing to do in a mountain village. The house is clean. The boy is grown. The days are long. Her mind has nowhere to go — so it goes where it shouldn't. She starts noticing things.
+Has lived in [%NEW_VILLAGE%](../places/new-village.md) since early settlement — before the lynch, during it, after it. Wasn't part of it.
 
 ## What She Knows
 
-Fragments. Just fragments — and no power to do anything with them:
+Fragments — and no power to act on them:
 
-- Her husband came home drunk and bloody one night in 1954. She didn't ask. He didn't tell.
-- %SOLDIER%'s family vanished overnight. Nobody mourned. Nobody asked.
-- The way %WUJAS% collapsed into the bottle after that night and never came back out.
-- The way %CIOTKA% suddenly had a brain-damaged child to raise — and nobody questioned it.
-- The way %BUTCHER% went from a man with friends to a pariah with dogs.
-- The locked silences between the siblings when they think she's not listening.
-
-She suspects something terrible. She's never had enough to be certain — and even if she did, who would she tell? Her husband is the sołtys. His handler is SB. The milicja would laugh at her or worse. She is a woman alone with a bad feeling in a village that doesn't want to remember.
+- Her husband came home drunk and bloody one night in 1954. She didn't ask; he didn't tell.
+- [%SOLDIER%](soldier.md)'s family vanished overnight. Nobody mourned, nobody asked.
+- [%WUJAS%](secondary-characters.md) collapsed into the bottle after that night and never came back.
+- [%CIOTKA%](ciotka.md) suddenly had a brain-damaged child. Nobody questioned it.
+- [%BUTCHER%](butcher.md) went from a man with friends to a pariah with dogs.
+- Locked silences between the siblings when they think she's not listening.
 
 ## Her Investigation
 
-%WIFE% has been quietly investigating the events of 1954 for years — not because she's building a case, but because **she has nothing else.** An intelligent, dismissed woman in an empty house. The snooping started from boredom and hurt — why does my husband shut me out, what are the siblings whispering about, what happened that night he came home bloody? Noticing things became her purpose. The investigation grew from lonely curiosity into something much bigger than she expected — and now she's in too deep to stop but has no idea what to do with what she's found.
+Quietly investigating 1954 for years — started from boredom and hurt (why does my husband shut me out?), grew into something much bigger. Too deep to stop, no idea what to do with it.
 
-In the last year or two, she gained something she never had before: **%JUNIOR%**. She never told him outright — it happened gradually. She stopped deflecting his questions, started saying things like *"Nobody talks about that"* and *"Ask your father and watch his face."* Now they have an unspoken pact: she watches the house (papers, meetings, silences), he works the outside (listening to %WUJAS% drunk, visiting %OLD_VILLAGE%, asking around).
+- **[%JUNIOR%](junior.md) became her partner.** Happened gradually — she stopped deflecting his questions, started saying *"Nobody talks about that"* and *"Ask your father and watch his face."* Unspoken pact: she watches the house (papers, meetings, silences), he works the outside.
+
+See [wife-junior investigation](../story-facts/wife-junior-investigation.md) for full details.
 
 **What they've assembled:**
-- A stained shirt from 1954, a mismatched button, newspaper clippings, handwritten notes — hidden in a flour tin in the pantry
-- Drunken fragments from %WUJAS%: *"She didn't deserve it,"* the name %JAGNA% spoken once, *"Don't ever be like us"*
-- A rough timeline: something happened in 1954, it involved %SOLDIER%'s family, all four siblings were connected
+- A stained shirt from 1954, a mismatched button, newspaper clippings, handwritten notes — **hidden in a flour tin in the pantry**
+- Drunken fragments from [%WUJAS%](secondary-characters.md): *"She didn't deserve it,"* the name [%JAGNA%](jagna.md), *"Don't ever be like us"*
+- A rough timeline: something in 1954, involved [%SOLDIER%](soldier.md)'s family, all four siblings connected
 - No proof. Just a shape in the dark.
 
 ## Her Darkness
 
-**She used her own son.** She pulled %JUNIOR% into the investigation because she was lonely and needed an ally. She didn't think about what it would do to him — learning his father might be a murderer at 19, sneaking around the village at night, carrying a secret that could get him killed. She weaponised her kid to fill the hole her husband left.
+**Used her own son.** Pulled [%JUNIOR%](junior.md) into the investigation because she was lonely and needed an ally. Didn't consider what it would do to him — learning his father might be a murderer at 19, sneaking around at night, carrying a secret that could get him killed. Weaponised her kid to fill the hole her husband left.
 
-She loves both of them. And she's damaging both of them. Not out of malice — out of boredom and neglect. The most dangerous thing in the village isn't the well or the secrets — it's an intelligent woman with nothing to do.
+She loves both of them. She's damaging both of them. Not malice — boredom and neglect. The most dangerous thing in the village isn't [the well](../story-facts/the-well.md) or the secrets — it's an intelligent woman with nothing to do.
 
-Their investigation is the most dangerous thing in the village — not for outsiders, but for *them*. See `story-facts\wife-junior-investigation.md` for full details.
+## Relationships
 
-## Relationship to the Committee
-
-**She doesn't trust the players.** They're state people — bureaucrats, functionaries, the same apparatus her husband works for. She's seen how %OFFICER% and %WOJEWODA% operate together. Every reason she has tells her the committee will side with her husband.
-
-But for the first time in 13 years, there are **outsiders** in the village. People who aren't part of the silence. If the players show her genuine humanity — not authority, not forms, just a real human moment — she might take the leap.
-
-Trusting the players is the hardest thing she's ever done. Not a confession of guilt — a leap of faith.
-
-## Relationship to %PRIEST%
-
-**Another door closed.** %WIFE% approached %PRIEST% more than once over the years — in confession, in private, always carefully. She needed someone to talk to. He shut her down every time. *"Suspicion without proof is a sin against your neighbour."* Gentle, pastoral, final.
-
-Another man telling her to be quiet and stop noticing things. Husband dismisses her from the table. Priest dismisses her from the confessional. The whole village tells her she's imagining things. That's what drives her — not injustice, but being told she's wrong when she knows she's not.
+- **[%WOJEWODA%](wojewoda.md)** — husband. Loves him. He dismisses her from everything that matters. His blind spot.
+- **[%JUNIOR%](junior.md)** — son. Secret investigation partner. She used him — her darkness.
+- **[%MATRONA%](matrona.md)** — sister-in-law. Dynamic unclear (see Open Questions).
+- **[%PRIEST%](secondary-characters.md)** — **another door closed.** Approached him more than once — in confession, in private, carefully. Shut down every time: *"Suspicion without proof is a sin against your neighbour."* Another man telling her to be quiet and stop noticing things. Husband dismisses her from the table, priest from the confessional. The whole village tells her she's wrong when she knows she's not. **That's what drives her.**
+- **[%WUJAS%](secondary-characters.md)** — brother-in-law. Source of drunken fragments (via [%JUNIOR%](junior.md)).
 
 ## Moral Dilemma
 
-%WIFE%'s dilemma is **powerlessness, not cowardice**. She's spent 13 years trying to understand what happened with no tools, no allies, and no one to trust. Now strangers arrive who *could* help — but they come wrapped in the same state authority that protects her husband.
+**Powerlessness, not cowardice.** 13 years trying to understand with no tools, no allies, no one to trust. Now strangers arrive who *could* help — but wrapped in the same state authority that protects her husband.
 
-**Does she trust outsiders who might betray her to the man she sleeps next to every night?**
+**Does she trust outsiders who might betray her to the man she sleeps next to?** If wrong: husband finds out — she's seen what this family does to problems. If right: destroys her family, son's future, only life she has.
 
-If she's wrong about the players, she loses everything — her husband finds out, and she's seen what this family does to people who become problems. If she's right, she destroys her family, her son's future, and the only life she has.
+## Well Influence
 
-## The Flood & The Committee
+Amplifies **desperate need for truth.** Strips away 13 years of caution.
 
-**%WIFE% agrees with her husband.** She supports %WOJEWODA%'s approach — cooperate, census everyone, prepare for evacuation. She's a pragmatist married to a pragmatist, and the village's survival comes first.
+- Gets bolder — approaches players before fully deciding to trust them. Half-started conversations, looks held too long, questions too pointed. Dangerous — [%WOJEWODA%](wojewoda.md) is watching.
+- Pushes [%JUNIOR%](junior.md) harder — sends him to [%OLD_VILLAGE%](../places/old-village.md) at bad times, asks him to confront [%WUJAS%](secondary-characters.md) directly instead of waiting for drunken slips.
+- May confront [%WOJEWODA%](wojewoda.md) — not with evidence, with the raw weight of 13 years of suspicion. A fight that blows up because she can't hold it in.
+- **Dream:** the night of 1954, but she's outside the house instead of inside. Can see everything. Can't move, can't shout, can't intervene. Wakes knowing the truth is right there, just out of reach.
 
-**She may set aside her own investigation.** If the flood is real and the village is going under, 13 years of searching for the truth might matter less than keeping living families alive. She can make that calculation. It costs her something, but she can make it.
+The well pushes her toward truth through courage. But courage without timing is dangerous when your husband is the sołtys and his paranoia is also worsening.
 
-## The Well's Influence
+## Flood Attitude
 
-The well amplifies %WIFE%'s **desperate need for truth.** For 13 years she's been careful, patient, quiet — watching from the edges, collecting fragments, never pushing too hard. The well strips away the caution.
+Agrees with [%WOJEWODA%](wojewoda.md) — cooperate, census everyone, prepare for evacuation. Pragmatist married to a pragmatist. May set aside her investigation if the flood is real — 13 years of searching might matter less than keeping living families alive. She can make that calculation. It costs her something.
 
-- She gets bolder. Approaches the players before she's fully decided to trust them — a half-started conversation, a look held too long, a question that's too pointed. Dangerous, because %WOJEWODA% is watching everyone.
-- She pushes %JUNIOR% harder. Their secret investigation becomes more urgent, more reckless. She sends him to %OLD_VILLAGE% at bad times, asks him to confront %WUJAS% directly instead of waiting for drunken slips.
-- She may confront %WOJEWODA%. Not with evidence — she doesn't have any. With the raw, accumulated weight of 13 years of suspicion. A fight that blows up not because she planned it but because she can't hold it in anymore.
-- The dreams she has are about **the night in 1954** — except she's outside the house instead of inside. She can see what happened. She can see everything. And she can't move, can't shout, can't intervene. She wakes up knowing the truth is right there, just out of reach, and the restraint that kept her safe is gone.
+## For Players
 
-The well pushes %WIFE% toward truth through courage. But courage without timing is dangerous — especially when your husband is the sołtys and his paranoia is also getting worse.
+Doesn't trust them initially — state people, same apparatus her husband works for. But for the first time in 13 years, there are **outsiders** who aren't part of the silence. If players show genuine humanity — not authority, not forms — she might take the leap. Trusting them is the hardest thing she's ever done. Not confession of guilt — a leap of faith. Evidence hidden in flour tin in the pantry.
 
 ## Open Questions
 
-- How does %MATRONA% treat her? (The sister-in-law dynamic — ally or adversary?)
-- Does she know about %BARBARA% and %JUNIOR%? About %BARBARA% and %WUJAS%?
-- Has she ever confronted %WOJEWODA%? Even once, even obliquely?
+- How does [%MATRONA%](matrona.md) treat her? Ally or adversary?
+- Does she know about [%BARBARA%](barbara.md) and [%JUNIOR%](junior.md)? About [%BARBARA%](barbara.md) and [%WUJAS%](secondary-characters.md)?
+- Has she ever confronted [%WOJEWODA%](wojewoda.md)? Even once, even obliquely?

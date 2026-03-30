@@ -7,78 +7,62 @@
 - **Born:** ~1927
 - **Age in 1947:** ~20
 - **Age in 1967:** ~40
+- **Heritage:** Lemko
+- **Lives in:** [Hag's cabin](../places/forest.md#hags-cabin) — alone
 
-## Role
+## Character
 
-A Lemko woman living alone in the forest near %OLD_VILLAGE% / %NEW_VILLAGE%. The village calls her the hag, the witch, the ghost in the trees — but she's not old. She's 40, weathered by 20 years of forest living. She looks older than she is. She acts older than she is. The forest aged her the way guilt ages people.
+Not old — 40, weathered by 20 years of [forest](../places/forest.md) living. Looks and acts older than she is. The forest aged her the way guilt ages people. The village calls her the hag, the witch, the ghost in the trees. To the colonists she's a story to scare children. To [%GLUPEK%](glupek.md) and [%CIOTKA%](ciotka.md) she may be something else.
 
 ## The Sin
 
-In 1947, %HAG% was 20 and in love with a UPA soldier. A forbidden romance — a Lemko girl and an insurgent fighter the state was hunting. She hid him, fed him, met him in the forest. She was young and the war was someone else's problem.
+In 1947, %HAG% was 20 and in love with a UPA soldier — a forbidden romance, a Lemko girl and an insurgent the state was hunting. She hid him, fed him, met him in the forest. The authorities traced the connection back to the village. The military came — not for one man, but for everyone. The massacre at [%OLD_VILLAGE%](../places/old-village.md) happened because of her love.
 
-The authorities found out. Traced the connection back to the village. The military came — not for one man, but for everyone. The massacre at %OLD_VILLAGE% happened because of her. Because she loved someone she shouldn't have.
+She survived. He probably didn't. Everyone else definitely didn't. She never left. The 20 years in the forest aren't devotion — they're a sentence she gave herself. Every prayer, every candle, every night in the cold: *I'm sorry. I did this to you.*
 
-She survived. He probably didn't. Everyone else definitely didn't. 
-
-She never left. Where would she go? She's the reason they're dead. The 20 years in the forest aren't devotion — they're a sentence she gave herself. Every prayer, every candle, every night in the cold: penance. Not *I remember you.* Not *I honour you.* **I'm sorry. I did this to you. I'm sorry.**
-
-She is Jagna's mirror. Two women, two forbidden loves, two catastrophes. Jagna loved across class — it triggered the lynch. %HAG% loved across the war — it triggered the massacre. The village paid both times. The only difference: Jagna died before she could understand what her love caused. %HAG% survived and has to live with it every single day.
-
-## In 1967
-
-She's been out there for **20 years**. The forest swallowed the villages, and she stayed with them. The colonists know she's there — or at least suspect. To them she's a ghost, a witch, a story to scare children. To %GLUPEK% and %CIOTKA% she may be something else.
+**[%JAGNA%](jagna.md)'s mirror.** Two women, two forbidden loves, two catastrophes. [%JAGNA%](jagna.md) loved across class — triggered the lynch. %HAG% loved across the war — triggered the massacre. The village paid both times. [%JAGNA%](jagna.md) died before understanding what her love caused. %HAG% survived and lives with it every day.
 
 ## What She Knows
 
-**%HAG% knows everything about 1947** — because she was the reason it happened. She knows who died, where they fell, where the soldiers put them. She knows the well. She's known from the beginning.
-
-She's been in the forest through the colonist years — she knows about the new village, has watched it grow. She may know about **the lynch** from watching at a distance, or about %BUTCHER%'s visits to the well. She knows the land, the old village, the cemetery, the paths no one else remembers.
-
-She is the **living memory** of %OLD_VILLAGE% — and its living guilt.
+- **Everything about 1947** — who died, where they fell, where the soldiers put them. Knows [the well](../story-facts/the-well.md) from the beginning.
+- **The colonist years** — watched [%NEW_VILLAGE%](../places/new-village.md) grow from the forest. May know about the lynch from observation, or about [%BUTCHER%](butcher.md)'s visits to [the well](../story-facts/the-well.md).
+- **The land** — [%OLD_VILLAGE%](../places/old-village.md), the cemetery, paths no one else remembers.
+- The **living memory** of [%OLD_VILLAGE%](../places/old-village.md) — and its living guilt.
 
 ## The Ritual — Containing the Well
 
-%HAG% regularly sneaks into the ruins of %OLD_VILLAGE%'s *cerkiew* and the well itself to perform traditional Lemko rites for the unquiet dead. In Lemko folk belief, the unmourned — those never given proper funerals, whose graves were never tended — become restless spirits. %HAG% appeases them with fire, incense, offerings of bread and honey, and prayer in the old Lemko tongue.
+%HAG% regularly sneaks to the ruins of [%OLD_VILLAGE%](../places/old-village.md)'s *cerkiew* and [the well](../story-facts/the-well.md) to perform traditional [Lemko rites](../historical%20context/13-lemko-beliefs-and-folk-magic.md) for the unquiet dead — fire, incense, offerings of bread and honey, prayer in the old Lemko tongue. Done this for **20 years.** Colonists who glimpse her lights or hear singing believe the ruins are haunted — inadvertently protecting the evidence.
 
-She has done this for **20 years**. The colonists who sometimes glimpse her lights or hear her singing believe %OLD_VILLAGE% is haunted. They avoid the ruins — which has, inadvertently, protected the evidence in the well all this time.
+**The well is dangerous and she knows it.** The wrongness radiating from that hole, animals avoiding it, the air thickening near it. The dead are angry — never mourned, never buried properly. Their fury seeps out like poison from a wound.
 
-But the rites aren't just tradition. **%HAG% knows the well is dangerous.** She can feel it — the wrongness radiating from that hole in the ground, the way animals avoid it, the way the air thickens near it. The dead are angry because they were never mourned, never buried properly, never given rites. Their fury seeps out of the well like poison from a wound.
+**The well is hers** — not legally, but as its keeper for 20 years. She caused the massacre; tending the well is her penance, purpose, identity. She is territorial: anyone threatening to take this threatens the one thing giving her existence meaning.
 
-**The well is hers.** Not in any legal sense — in the sense that she's been its keeper for 20 years. She caused the massacre, and the well is where her dead ended up. Tending it is her penance, her purpose, her identity. She is territorial about it — strangers near the well, people digging around the ruins, anyone threatening to take this from her is threatening the one thing that gives her existence meaning. Without the well, she's just a woman who destroyed a village and has nothing to show for 20 years of apology.
+**Her approach is acknowledgment, not suppression.** The well holds unprocessed trauma — violence done, never acknowledged, never mourned. It festers, compels, repeats. %HAG% names the dead, speaks to them, tells them they are seen, remembered, loved — then gently, firmly, tells them to rest. She holds the rage, honours it, refuses to let it consume. *"I know what was done to you. I will not forget. But you must sleep now."* She's fought this spiritual battle alone for two decades. Without her rites, [the well](../story-facts/the-well.md)'s influence would be far worse.
 
-**Her approach is psychoanalytic in nature — though she'd never use that word.** The well holds unprocessed trauma: violence done, never acknowledged, never mourned. It festers. It compels. It repeats. %HAG%'s rites are the opposite of suppression — she **acknowledges** what happened. She names the dead. She speaks to them. She tells them they are seen, they are remembered, they are loved. And then, gently, firmly, she tells them to rest. She doesn't deny the rage — she holds it, honours it, and refuses to let it consume.
+## %BUTCHER% vs %HAG% — The Core Dynamic
 
-*"I know what was done to you. I will not forget. But you must sleep now."*
+%HAG% doesn't know [%BUTCHER%](butcher.md) by name, but she knows **someone keeps coming to [the well](../story-facts/the-well.md)** — cleared debris, footprints, dog tracks stopping at a perimeter. Someone drawn to the well like a tongue to a broken tooth.
 
-She's been fighting a spiritual battle alone for two decades and nobody knows. Without her rites, the well's influence would be far worse.
+**He is the repetition compulsion; she is the treatment.** [%BUTCHER%](butcher.md) is compelled to return, re-enact, throw more into the hole. His clearing of debris is the compulsive reopening of a wound. The compulsion to fill the well is bottomless — feed it and it only gets hungrier.
 
-## %BUTCHER% — Her Enemy, Her Opposite
+- [%BUTCHER%](butcher.md) clears debris from the well → %HAG% covers it with offerings and prayers
+- He sits in silence, feeding its gravity → she sings, giving the dead a voice so they don't have to scream
+- His compulsion: *the wound stays open* → her ritual: *the wound is real, and it can heal*
+- He reopens; she stitches. Neither knows the other, but she knows someone keeps tearing the stitches out
 
-%HAG% doesn't know %BUTCHER% by name. But she knows **someone keeps coming to the well.** She's seen the signs — cleared debris, footprints, the dogs' tracks stopping at a perimeter. Someone is drawn to the well the way a tongue is drawn to a broken tooth.
+[%BUTCHER%](butcher.md) is what happens when trauma is never processed — cold, violent, compulsive, endlessly repetitive. %HAG% is what happens when trauma is held with love — it doesn't disappear, but it can be lived with. He is the illness. She is the treatment. The well is the patient.
 
-**In psychoanalytic terms, %BUTCHER% is the repetition compulsion.** The well holds death, and %BUTCHER% is compelled to return to it — to re-enact, to circle, to throw more into the hole. His clearing of debris isn't maintenance. It's the compulsive reopening of a wound. He doesn't understand why he does it. He doesn't know about the massacre victims. But the well called him to dump the lynch victims there, and it keeps calling him back — because unacknowledged trauma doesn't resolve, it *repeats*. The well wants more. %BUTCHER% is its instrument.
+**If they meet:** One of the story's most charged moments. She sees the compulsion she's fought for 20 years given a human face. He sees the "ghost" the village whispers about. What happens depends on whether the players are there. See [Butcher kills Hag](../story/event-butcher-kills-hag.md).
 
-If there were another murder, another body, another secret — %BUTCHER% would put it in the well. Not because it's a good hiding place. Because **that's what the well is for.** The compulsion to fill it is bottomless, the same way the well is bottomless. Feed it and it only gets hungrier.
+## Flood Attitude
 
-**%HAG%'s rites are the direct counter to this.** Where the well (through %BUTCHER%) demands more — more bodies, more silence, more burial — %HAG% offers acknowledgement. Where the compulsion says *push it down, cover it, throw it in the dark*, she says *I see you, I name you, I love you, now rest.* She doesn't fight the rage with force. She fights it with recognition. The dead don't need more company in the well. They need someone to say their names.
+**Wants to survive.** Not a martyr — 20 years of containment and she wants to keep living. The flood will destroy her cabin, her clearing, everything. She's in the flood zone and knows it.
 
-**The invisible dynamic:**
-- %BUTCHER% clears debris from the well. %HAG% covers it with offerings and prayers.
-- %BUTCHER% sits in silence at the well's edge, feeding its gravity with his presence. %HAG% sings to the dead, giving them a voice so they don't have to scream.
-- %BUTCHER%'s compulsion says: *the wound stays open.* %HAG%'s ritual says: *the wound is real, and it can heal.*
-- He doesn't know she exists. She doesn't know who he is. But she knows someone is working against her — someone who keeps tearing the stitches out.
+**Won't ask for help** — invisible for 20 years, not about to introduce herself to officials. But if the players find her and explain the evacuation, she'll come. Writing her into the census gives her paperwork. Telling her the plan gives her the chance. She won't come on her own — but if someone says *be at this place on this day*, she'll be there. Twenty years of isolation ended by a stranger keeping a promise.
 
-**Symbolically:** %BUTCHER% is what happens when trauma is never processed — it turns cold, violent, compulsive, endlessly repetitive. %HAG% is what happens when trauma is held with love — it doesn't disappear, but it can be lived with. He is the illness. She is the treatment. Neither knows about the other. The well is the patient.
+## For Players
 
-**If they ever meet:** It would be one of the most charged moments in the story. She would see a man possessed by the compulsion she's been fighting for 20 years — the well's hunger given a human face. He would see the "ghost" the village whispers about. What happens next is unpredictable — and depends entirely on whether the players are there to witness it.
-
-## The Flood & The Committee
-
-**%HAG% wants to survive.** She's not a martyr. She's spent 20 years containing the well, living alone in the forest, carrying the dead — and she wants to keep living. The flood will destroy her cabin, her clearing, everything. She's in the flood zone and she knows it.
-
-**She won't ask for help.** She's been invisible for 20 years and she's not going to walk into the village and introduce herself to government officials. But if the players find her, they can explain that the evacuation is coming — and tell her where and when to show up. Writing her into the census gives her the paperwork. Telling her the plan gives her the chance.
-
-She won't come to the village on her own. But if someone looks her in the eye and says *be at this place on this day* — she'll be there. Twenty years of isolation ended by a stranger keeping a promise.
+Finding %HAG% requires exploring the [forest](../places/forest.md) and [%OLD_VILLAGE%](../places/old-village.md). She is the key witness to 1947, the keeper of [the well](../story-facts/the-well.md), and the one person performing [the ritual](../story-facts/the-ritual.md) that contains its influence. Saving her from [%BUTCHER%](butcher.md) and writing her into the evacuation census are critical player choices.
 
 ## Open Questions
 
@@ -86,4 +70,4 @@ She won't come to the village on her own. But if someone looks her in the eye an
 - How does the village treat her — fear? Ignore? Leave food out?
 - Does she have any connection to the siblings' Lemko heritage?
 - Has she tried to tell anyone what she knows?
-- **Her death is possible, not certain.** %BUTCHER% may kill her and throw her in the well — but only if circumstances align and the players don't intervene. See `story\event-butcher-kills-hag.md`.
+- **Her death is possible, not certain.** [%BUTCHER%](butcher.md) may kill her and throw her in [the well](../story-facts/the-well.md) — only if circumstances align and the players don't intervene. See [Butcher kills Hag](../story/event-butcher-kills-hag.md).

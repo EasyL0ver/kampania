@@ -6,83 +6,76 @@
 
 - **Born:** 1918
 - **Age in 1967:** 49
+- **Lives in:** [%NEIGHBOUR%'s house](../places/new-village.md#neighbours-house) — alone
+- **Armed:** Hunting rifle (licensed)
 
-## Role
+## Character
 
-A settler living in the house next to %SOLDIER%'s plot — now %CIOTKA%'s house. Has been there since the early days of %NEW_VILLAGE%. Quiet, keeps to themselves, bothers nobody.
+Male. Quiet, keeps to himself. Hunter — knows the [forest](../places/forest.md), knows how to shoot. Carries the guilt of **inaction**, not action — a different weight than the killers, lighter in law but perhaps heavier on the conscience. Loud opinions, no follow-through: the same paralysis from 1954 dressed up as righteousness. The **easiest NPC to crack**.
+
+## Background / Role
+
+Settler in the house next to [%SOLDIER%](soldier.md)'s plot — now [%CIOTKA%'s house](../places/new-village.md#ciotkas-house). Has been in [%NEW_VILLAGE%](../places/new-village.md) since early settlement.
 
 ## The Lynch (1954)
 
-**%NEIGHBOUR% heard everything.** The screaming, the drunken shouting, the dogs going mad. Maybe looked through the window and saw the three men dragging something toward %OLD_VILLAGE% in the dark. Then closed the curtain, turned over, and never spoke a word.
+**Heard everything.** The screaming, the drunken shouting, the dogs. Maybe looked through the window and saw three men dragging something toward [%OLD_VILLAGE%](../places/old-village.md). Then closed the curtain and never spoke.
 
-Did not participate. Did not intervene. Did not report. Like the rest of the village — chose silence. But unlike the rest, %NEIGHBOUR% was **right there**. Not across the village hearing rumors the next morning. Feet away, hearing a girl die.
+- Did not participate. Did not intervene. Did not report.
+- Unlike the rest of the village — was **right there.** Feet away, hearing a girl die.
 
 ## In 1967
 
-**A hunter.** %NEIGHBOUR% keeps a hunting rifle — he's licenced, hunts in the forest, knows how to shoot. It's part of daily life out here, not remarkable. Until it is.
+Lives next door to [%CIOTKA%](ciotka.md) and [%GLUPEK%](glupek.md). Sees the boy daily — the living reminder. 13 years pretending not to know.
 
-Lives next door to %CIOTKA% and %GLUPEK%.Sees the boy every day — the living reminder of the night they did nothing. Has spent 13 years pretending not to know, not to remember, not to have heard.
-
-### %BARBARA% — The one he protects
-
-%NEIGHBOUR%'s closest relationship. %BARBARA% lives right next door — the house %WOJEWODA% built for her. They're genuinely fond of each other. He helps with the house, brings firewood, watches %PAWEŁEK% sometimes. She and the boy are the only uncomplicated, untainted thing in his life — the one relationship that has nothing to do with 1954.
-
-She's the players' confidant — shares what she hears from the committee without understanding what it means. Over the fence, casual, holding %PAWEŁEK%. And %NEIGHBOUR% hears it all. Not the guilt that breaks him — the **protective instinct.** He sees the pattern: outsiders asking dangerous questions, the village tensing, and %BARBARA% in the middle of it — innocent, unaware, exposed. Just like %JAGNA% was. Just like %SOLDIER%'s wife was. The people who don't know what's coming are always the ones who get destroyed.
-
-He won't let it happen again. Not to her. Not to the boy. His breaking point isn't guilt — it's the realisation that standing by and doing nothing will cost %BARBARA% the way it cost %JAGNA%. This time he *acts*. And he acts wrong.
-
-%NEIGHBOUR% carries the guilt of **inaction**, not action. A different weight than the killers — lighter in law, but perhaps heavier on the conscience. They didn't swing a fist or hold anyone down. They just lay there and listened.
-
-## The Flood & The Committee
-
-**Angry at the government.** Same rage as %BARBARA% — the state is flooding them out. Their home, their land, their life — all going underwater because someone in an office decided a dam was more important. The committee represents the people doing this to them.
-
-This anger makes %NEIGHBOUR% hostile to the players before anything else comes into play. They're not hiding a secret — they're furious about losing their home. The guilt underneath stays buried under the more immediate, more legitimate rage.
+**Openly vindictive** — calls [%BUTCHER%](butcher.md) evil to anyone who listens. Hates the people who did it. But stuck in inaction — talking is all he does.
 
 ## The Escalation
 
-%NEIGHBOUR% is **openly vindictive** — he's not hiding it. He'll call %BUTCHER% evil to anyone who listens. He'll tell the players the man shouldn't be in the village. He hates the people who did what they did in 1954 — but he's stuck in inaction. Talking is all he does. Loud opinions, no follow-through. The same paralysis from that night, just dressed up as righteousness.
+Three-step arc — each a bigger overcorrection:
 
-His arc is an escalation — each step a bigger overcorrection than the last:
-
-1. **Loud inaction** — 13 years of calling people evil and doing nothing about it. The man who hears everything, says everything, does nothing.
-2. **Erasure** — when the census begins, he suggests to %BARBARA% that some people shouldn't be on the list. Not murder — just paperwork. Leave them off. The flood takes the land, the missing names take the memory. *"Why would you save %BUTCHER%? Why would you put his name on paper?"* He frames it as justice. %BARBARA% doesn't understand the weight of it. She passes it to the players as a reasonable suggestion from a friendly neighbour.
-3. **Lynch mob** — when quiet erasure isn't enough, when the truth fully spills and words can't contain it, he finally *moves*. The man who was stuck for 13 years unsticks — and goes too far.
-
-## Why They Matter
-
-- **Easiest NPC to crack.** They didn't do it — confessing costs them less than it costs the killers. The right pressure (guilt, alcohol, the committee's authority, fear of the water coming) could break them.
-- **Partial knowledge.** They can give the players sounds, shapes, direction — enough to point toward %OLD_VILLAGE% and the well without naming names outright.
-- **Terrified of %BUTCHER%.** If the village finds out %NEIGHBOUR% talked, the man who wanted to kill an infant to eliminate witnesses won't hesitate to tie up a loose end.
-- **Proximity to %CIOTKA%.** Living next door, they may have observed her relationship with %GLUPEK%, her devotion, her grief. Another thread to pull.
-
-## The Well's Influence
-
-The well amplifies %NEIGHBOUR%'s **guilt of inaction.** The guilt was already heavy — 13 years of seeing %GLUPEK% next door, the living reminder. Now it becomes physical.
-
-- He hears screaming at night. The same screaming from 1954 — %JAGNA%'s voice, the drunken shouting, the dogs going mad. It may be real (the village deteriorating), it may be the well. He can't tell the difference anymore.
-- Sleeplessness. He sits at the window staring at %CIOTKA%'s house — the same window he looked through that night and then closed the curtain. The curtain feels heavier now.
-- Jumpiness, paranoia. Every knock is %BUTCHER%. Every question from a stranger is an accusation. He flinches from the committee the same way he flinches from %BUTCHER% — anything that might force him to speak.
-- He becomes easier to crack but harder to *use*. The coherence is going. He rambles, circles, contradicts himself. The truth is in there — but it comes out in shards mixed with panic. The players have to sift gold from gravel.
-
-The well gives %NEIGHBOUR% the same dream every night: **lying in bed, hearing the screaming, reaching for the curtain — and this time, the curtain won't close.**
+1. **Loud inaction** — 13 years calling people evil, doing nothing. Hears everything, says everything, does nothing.
+2. **Erasure** — when the census begins, suggests to [%BARBARA%](barbara.md) that some people shouldn't be on the list. Not murder — paperwork. *"Why would you save [%BUTCHER%](butcher.md)? Why put his name on paper?"* Frames it as justice. [%BARBARA%](barbara.md) passes it to players as a reasonable suggestion.
+3. **Lynch mob** — when quiet erasure isn't enough and the truth fully spills, he finally *moves*. The man stuck for 13 years unsticks — and goes too far. See [ending - lynch](../story/ending-punishment-lynch.md).
 
 ## The Breaking Point
 
-%NEIGHBOUR%'s breaking point isn't guilt — it's **love.** He hears what %BARBARA% is telling him — the committee asking about the old village, the well, the past — and he sees the pattern forming. Outsiders stirring up something dangerous. The village tensing. And %BARBARA%, innocent, unaware, right in the middle of it. Just like %JAGNA% was.
+Not guilt — **love.** He hears what [%BARBARA%](barbara.md) tells him — the committee asking about [%OLD_VILLAGE%](../places/old-village.md), [the well](../story-facts/the-well.md), the past — and sees the pattern. Outsiders stirring something dangerous. The village tensing. [%BARBARA%](barbara.md) in the middle, innocent, unaware. Just like [%JAGNA%](jagna.md) was.
 
-He lay in bed in 1954 and listened to a girl die. He closed the curtain. He did nothing. He will not do nothing again. Not with %BARBARA% next door. Not with %PAWEŁEK% in her arms.
+He lay in bed in 1954 and listened to a girl die. He will not do nothing again. Not with [%BARBARA%](barbara.md) next door. Not with [%PAWEŁEK%](secondary-characters.md) in her arms.
 
-When it breaks, it comes out as **overcorrection.** He will *protect* her this time. He will not lie in bed and listen. But protection, filtered through 13 years of guilt and the well's amplification, doesn't look like shielding — it looks like violence. He organises a mob. Drunk men, darkness, no road out. The same mechanics as 1954. The bystander becomes the instigator. The man who did nothing becomes the man who does too much.
+When it breaks: **overcorrection.** Protection filtered through 13 years of guilt becomes violence. Organizes a mob — drunk men, darkness, no road out. Same mechanics as 1954. The bystander becomes the instigator. He does it *for* [%BARBARA%](barbara.md) — and it makes him exactly the thing he hated. **Any NPC or player can be the target** — whoever he decides threatens her.
 
-The cruelest part: he does it *for* %BARBARA%. To keep her safe. And it makes him exactly the thing he hated himself for not stopping in 1954.
+## Relationships
 
-**Any NPC or player can be the target** — whoever %NEIGHBOUR% decides is the threat to her. See `story\ending-punishment-lynch.md`.
+- **[%BARBARA%](barbara.md)** — closest relationship. Genuinely fond. Helps with her house, brings firewood, watches [%PAWEŁEK%](secondary-characters.md). She and the boy are the only untainted thing in his life. She's the players' confidant — shares what she hears from the committee over the fence, casual, holding [%PAWEŁEK%](secondary-characters.md). He hears it all.
+- **[%BUTCHER%](butcher.md)** — terrified of him. If the village finds out %NEIGHBOUR% talked, [%BUTCHER%](butcher.md) — who wanted to kill an infant to eliminate witnesses — won't hesitate.
+- **[%CIOTKA%](ciotka.md)** — lives next door. May have observed her devotion to [%GLUPEK%](glupek.md), her grief. Another thread.
+- **[%GLUPEK%](glupek.md)** — the living reminder. 13 years seeing him next door.
+
+## Well Influence
+
+Amplifies **guilt of inaction.** Already heavy — now physical.
+
+- Hears screaming at night — [%JAGNA%](jagna.md)'s voice, drunken shouting, dogs. May be real (village deteriorating) or [the well](../story-facts/the-well.md). Can't tell.
+- Sleeplessness. Sits at the window staring at [%CIOTKA%'s house](../places/new-village.md#ciotkas-house) — the same window from that night. The curtain feels heavier.
+- Jumpiness, paranoia. Every knock is [%BUTCHER%](butcher.md). Every stranger's question an accusation.
+- Easier to crack but harder to *use* — coherence going. Rambles, circles, contradicts. Truth in shards mixed with panic. Players must sift gold from gravel.
+- **Dream:** lying in bed, hearing the screaming, reaching for the curtain — and this time, the curtain won't close.
+
+## Flood Attitude
+
+Angry at the government. Same rage as [%BARBARA%](barbara.md) — the state is flooding them out. The committee represents the people doing this. Hostile to players before anything else comes into play — not hiding a secret, furious about losing his home. Guilt stays buried under more immediate, legitimate rage.
+
+## For Players
+
+- **Easiest NPC to crack.** Right pressure (guilt, alcohol, committee authority, fear of water) could break him.
+- **Partial knowledge.** Can give sounds, shapes, direction — enough to point toward [%OLD_VILLAGE%](../places/old-village.md) and [the well](../story-facts/the-well.md) without naming names.
+- **Proximity to [%CIOTKA%](ciotka.md)** — another thread to pull.
 
 ## Open Questions
 
-- Man or woman? — **Male.**
-- Do they have a family, or live alone?
-- Have they ever hinted at what they know — to %PRIEST% in confession, to a drunk companion, to anyone?
-- How do they react to %GLUPEK%? Avoidance? Guilt-driven small kindnesses?
-- Does %CIOTKA% suspect %NEIGHBOUR% knows?
+- Does he live alone or have family?
+- Has he ever hinted at what he knows — to [%PRIEST%](secondary-characters.md) in confession, to a drunk companion?
+- How does he react to [%GLUPEK%](glupek.md)? Avoidance? Guilt-driven small kindnesses?
+- Does [%CIOTKA%](ciotka.md) suspect he knows?

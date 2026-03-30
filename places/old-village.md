@@ -16,9 +16,11 @@ The massacre was **never reported**. The participating soldiers made a pact of s
 
 ## After 1947
 
-Officially, %OLD_VILLAGE% was simply "evacuated" like every other village. No records of resistance, no records of deaths. The village was left to rot — buildings decaying, forest creeping in, the dead presumably buried without ceremony.
+Officially, %OLD_VILLAGE% was simply "evacuated" like every other village. No records of resistance, no records of deaths. **The village was burned.** Soldiers set fire to the wooden buildings to erase traces — standard procedure during Akcja Wisła. The wooden *chyża* homesteads went up. The orchards charred. The attempt was thorough.
 
-By the 1960s, the ruins of %OLD_VILLAGE% sit in the flood zone of the planned Solina reservoir. When the water rises, all physical evidence will vanish.
+But it didn't work completely. **The stone survived.** The cerkiew — partially stone-built — burned but didn't collapse entirely. Stone foundations, chimneys, and cellar walls withstood the fire. The well is stone-lined. You can burn a village but you can't burn stone, and you can't burn what's underground.
+
+By the 1960s, the ruins of %OLD_VILLAGE% sit in the flood zone of the planned Solina reservoir. When the water rises, all physical evidence will vanish. What fire couldn't finish, water will.
 
 ## Buildings & Locations (1967)
 

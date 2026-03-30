@@ -6,50 +6,41 @@
 
 - **Born:** 1928
 - **Age in 1967:** 39
-
-## Role
-
-Secret police agent (Służba Bezpieczeństwa — SB). Politically connected. Embedded in or assigned to the %NEW_VILLAGE% / dam project area.
-
-## What He Knows
-
-%OFFICER% is **aware of the Lemko massacre at %OLD_VILLAGE%** during Akcja Wisła (1947). He knows the government chose the flooding of this area **deliberately** — in part to cover up the evidence of the massacre. The dam is infrastructure *and* a burial.
+- **Lives in:** Outside [%NEW_VILLAGE%](../places/new-village.md) — arrives by car, doesn't stay
 
 ## Character
 
-%OFFICER% is **not a villain** — but he's not conflicted either. He's a **true believer** in the government and the communist project. He knows about the massacre and acknowledges it as a sin of the past — but in his view, it was **justified**. Necessary. The cost of building a new Poland.
+Secret police agent (Służba Bezpieczeństwa — SB). Politically connected, assigned to the [%NEW_VILLAGE%](../places/new-village.md) / dam project area. **Not a villain** — a true believer in the communist project. Acknowledges the massacre as a sin of the past but views it as justified — the cost of building a new Poland. The state made hard choices, those choices built something better, and now the government's authority **must not be challenged.**
 
-His worldview: the state made hard choices, those choices built something better, and now the government's authority **must not be challenged**. The past is the past. Questioning it undermines everything that was built on top of it.
+Not cruel — genuinely believes he's on the right side. Sees himself as a protector of order, stability, and progress. More dangerous than a cynical operator because he'll never waver. Unsettling for players because he makes a *coherent* argument for burying the truth.
 
-He's not cruel — he genuinely believes he's on the right side. He sees himself as a protector of order, stability, and progress. That makes him more dangerous than a cynical operator, because he'll never waver.
+## Knows
 
-For the players, %OFFICER% is unsettling not because he's evil, but because he makes a *coherent* argument for burying the truth.
+- **The massacre** — aware of the Lemko massacre at [%OLD_VILLAGE%](../places/old-village.md) during Akcja Wisła (1947).
+- **The dam's purpose** — knows the government chose this area for flooding **deliberately**, in part to cover evidence of the massacre. The dam is infrastructure *and* a burial.
 
-## The Village
+## Relationships
 
-%OFFICER% doesn't operate alone — he has **%WOJEWODA%** as his informant and contact in %NEW_VILLAGE%. The sołtys reports to him, keeps order, and ensures nobody asks the wrong questions. In return, %WOJEWODA% enjoys state backing for his authority.
-
-This link means the committee is being managed from both sides — %OFFICER% from above, %WOJEWODA% from within the village.
-
-### %PRIEST% — Contempt
-
-%OFFICER% despises what %PRIEST% represents. The Church is a relic — superstition, backwardness, a rival power structure the state will eventually replace. In Bieszczady, where the state's grip is weak, a village priest holds real influence, and that grates. %OFFICER% has made his contempt clear through small cruelties: paperwork complications, veiled threats about "unsanctioned activities," reminders that the state tolerates religion only as long as it stays quiet. He'd love a reason to shut the parish down. On the question of the village's secrets they're accidentally aligned — both want silence — but %OFFICER% would never cooperate with a priest. He'd rather win alone.
+- **[%WOJEWODA%](wojewoda.md)** — his informant and local contact. The sołtys reports to him, keeps order, ensures nobody asks wrong questions. In return, [%WOJEWODA%](wojewoda.md) enjoys state backing. The committee is managed from both sides — %OFFICER% from above, [%WOJEWODA%](wojewoda.md) from within.
+- **[%PRIEST%](secondary-characters.md)** — contempt. The Church is a relic, a rival power structure. In Bieszczady, where state grip is weak, a village priest holds real influence, and that grates. Has shown contempt through paperwork complications, veiled threats, reminders the state tolerates religion only while it stays quiet. Would love a reason to shut the parish down. On the village's secrets they're accidentally aligned — both want silence — but %OFFICER% would never cooperate with a priest.
 
 ## The Layers of Cover-Up
 
 | Crime | Who wants it buried | Why |
 |---|---|---|
 | Lemko massacre (1947) | **The state** (via %OFFICER%'s superiors) | State crime, political embarrassment |
-| The lynch (1954) | **The villagers** (%WOJEWODA%, %WUJAS%, %BUTCHER%) | Personal crime, murder, rape |
+| The lynch (1954) | **The villagers** ([%WOJEWODA%](wojewoda.md), [%WUJAS%](secondary-characters.md), [%BUTCHER%](butcher.md)) | Personal crime, murder, rape |
 
 %OFFICER% may be caught between his duty to the state and his conscience.
 
-## The Well's Influence
+## Well Influence
 
-**None.** %OFFICER% does not arrive until the very end of the story. He is not present during the well's escalation and is not affected by it.
+**None.** Does not arrive until the very end of the story. Not present during [the well](../story-facts/the-well.md)'s escalation, not affected by it.
+
+## Open Questions
 
 - Does %OFFICER% know about the lynch too, or only the massacre?
 - Is he posing as something else (committee member? local official? dam engineer?)
 - What is his relationship with the villagers? Do they know what he is?
-- How does he react if the players start uncovering the truth — reasoned persuasion first, then what?
+- How does he react if players start uncovering the truth — reasoned persuasion first, then what?
 - Can anything crack his belief, or is he immovable?

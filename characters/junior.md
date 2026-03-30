@@ -1,78 +1,74 @@
 # %JUNIOR%
 
-**Type:** Named character — %WOJEWODA%'s son / false suspect
+**Type:** Named character — [%WOJEWODA%](wojewoda.md)'s son / false suspect
 
 ## Vital Statistics
 
 - **Born:** 1946
 - **Age in 1967:** 21
+- **Lives in:** [%WOJEWODA%'s house](../places/new-village.md#wojewodas-house) — with [%WOJEWODA%](wojewoda.md), [%WIFE%](wife.md)
 
-## Role
+## Character
 
-Son of %WOJEWODA% (the sołtys). A young rebel — leather jacket, attitude, the closest thing %NEW_VILLAGE% has to a biker. Benefits from his father's position but chafes against it. Loves hanging out with his uncle %WUJAS%.
+Leather jacket, attitude — [%NEW_VILLAGE%](../places/new-village.md)'s closest thing to a biker. Benefits from his father's position but chafes against it. Loves hanging out with [%WUJAS%](secondary-characters.md).
 
-**Narrative function: the false suspect.** When the committee arrives and starts asking about trouble, %JUNIOR% is the name that comes up. The rebel. The troublemaker. The kid who sneaks around at night. Everyone points at him. The players will spend time suspecting him — the son of a killer, with violence of his own on his record. He looks like the problem. He's actually the closest thing to a solution.
-
-## Relationships
-
-- Father: **%WOJEWODA%** (sołtys)
-- Mother: **%WIFE%**
-- Uncle: **%WUJAS%** (alcoholic — his drinking buddy and unwitting informant)
-- Aunts: **%MATRONA%**, **%CIOTKA%**
+**Narrative function: the false suspect.** Everyone points at him — the rebel, the troublemaker, the kid sneaking around at night. Players will waste time suspecting him. He's actually the closest thing to a solution.
 
 ## The Brawl
 
-%JUNIOR% beat a man badly in a fight — a young guy from a neighbouring village, over a girl or a slight or nothing at all. It happened a year or two ago. The man nearly lost an eye. There's a milicja report that %WOJEWODA% buried using his connections and %OFFICER%'s backing.
+Beat a man badly (neighbouring village, ~1 year ago — nearly lost an eye). Milicja report buried by [%WOJEWODA%](wojewoda.md) using connections and [%OFFICER%](officer.md)'s backing. The village knows; the committee will hear about it.
 
-The village knows. The committee will hear about it. And it does exactly what a false lead should: it makes %JUNIOR% look like his father's son. A violent young man in a family with a history of violence. The players draw a line from the lynch to %JUNIOR% and think they see a pattern. They're looking at the right family for the wrong reason.
-
-**%JUNIOR% is genuinely ashamed of the fight.** It scared him — not the consequences, but how easy it was, how good it felt for a moment. He sees the same thing in %WUJAS% when the drink hits, and it terrifies him. He's afraid he's becoming them.
-
-## The Danger
-
-**%JUNIOR% reads as dangerous.** Spoiled kid, sołtys's son, violence on his record, untouchable. He sneaks around at night — the players will see him where he shouldn't be, at odd hours, doing things he won't explain. It looks sinister. It's actually %WIFE%'s investigation — he's the outside half of their secret operation, listening to %WUJAS% drunk, visiting %OLD_VILLAGE%, asking around.
-
-But the players don't know that. They see a violent young man with privilege, sneaking around a village full of secrets. He's the most suspicious person in the village for all the wrong reasons.
-
-## In 1967
-
-Sleeping with **%BARBARA%** — a poor girl working on his father's farm. He doesn't know %WUJAS% is also with her, or that %PAWEŁEK% is actually his uncle's son.
-
-**He thinks %PAWEŁEK% might be his — and he's avoiding it.** Doesn't ask, doesn't acknowledge, doesn't visit more than a casual lover would. The boy looks at him sometimes and %JUNIOR% looks away. It's not cruelty — it's a 21-year-old who isn't ready and knows it. The rebel who'll throw a punch in a bar can't face a 4-year-old who might be his son.
-
-**This can change.** Over the course of the story — as the village deteriorates, as his investigation with %WIFE% forces him to confront what his family really is — %JUNIOR% may find himself choosing %PAWEŁEK%. Not out of obligation like %WOJEWODA% (who built a house to manage a problem) but out of something real. The biker kid deciding to be a father is one of the story's possible redemptions — small, quiet, unannounced. He just starts showing up.
-
-## The Flood & The Committee
-
-**%JUNIOR% sees the flood as his ticket out.** He wants maximum reimbursement — every zloty he can squeeze from the government — so he can leave for the city. This village, this family, these secrets — he's done. The flood is the best thing that's ever happened to him.
-
-He'll cooperate with the committee enthusiastically. Not out of civic duty — out of self-interest. The more thorough the census, the more property documented, the bigger the payout. He'll make sure every fence post and fruit tree on his father's land is written down.
+- Makes him look like his father's son — violent family, violent kid. Right family, wrong reason.
+- **Genuinely ashamed.** Not the consequences — how easy it was, how good it felt. Sees the same thing in [%WUJAS%](secondary-characters.md) when the drink hits. Afraid he's becoming them.
 
 ## The Secret Investigation
 
-%JUNIOR% has been quietly helping his mother investigate the events of 1954. What started as a son noticing his mother's unease became an unspoken pact — she watches the house, he works the outside.
+Quietly helping [%WIFE%](wife.md) investigate 1954. She watches the house; he works the outside.
 
-His closeness to %WUJAS% is now double-edged: genuine bonding AND covert interrogation. Every drinking session is both. He hates it — using the uncle who loves him as a source. %WUJAS% has let fragments slip: *"She didn't deserve it."* The name %JAGNA%. *"Don't ever be like us."*
+- Closeness to [%WUJAS%](secondary-characters.md) is double-edged: genuine bonding AND covert interrogation. Hates using the uncle who loves him.
+- [%WUJAS%](secondary-characters.md) has let fragments slip: *"She didn't deserve it."* The name [%JAGNA%](jagna.md). *"Don't ever be like us."*
+- Visits [%OLD_VILLAGE%](../places/old-village.md) alone — reckless, leaving tracks, not knowing what's in [the well](../story-facts/the-well.md).
+- Growing up fast, carrying a secret that could destroy his entire family.
 
-He's been visiting %OLD_VILLAGE% alone — reckless, leaving tracks, not knowing what's in the well or who else moves through the ruins. He's growing up fast, carrying a secret that could destroy his entire family.
+See [wife-junior investigation](../story-facts/wife-junior-investigation.md) for full details.
 
-See `story-facts\wife-junior-investigation.md` for full details.
+## In 1967
 
-## The Well's Influence
+Sleeping with [%BARBARA%](barbara.md). Doesn't know [%WUJAS%](secondary-characters.md) is also with her, or that [%PAWEŁEK%](secondary-characters.md) is his uncle's son.
+
+- **Thinks [%PAWEŁEK%](secondary-characters.md) might be his — avoiding it.** Doesn't ask, doesn't acknowledge. Not cruelty — a 21-year-old who isn't ready.
+- **Can change.** As the story progresses, he may choose [%PAWEŁEK%](secondary-characters.md) — not obligation but something real. The biker deciding to be a father is one of the story's quiet possible redemptions. He just starts showing up.
+
+## Relationships
+
+- **[%WOJEWODA%](wojewoda.md)** — father (sołtys). Complicated pride/disappointment both ways.
+- **[%WIFE%](wife.md)** — mother. Secret investigation partner.
+- **[%WUJAS%](secondary-characters.md)** — uncle. Drinking buddy and unwitting informant.
+- **[%MATRONA%](matrona.md)** — aunt.
+- **[%CIOTKA%](ciotka.md)** — aunt.
+- **[%BARBARA%](barbara.md)** — lover.
+
+## Well Influence
 
 TBD — held for later development.
 
-## Why He Works
+## Flood Attitude
 
-%JUNIOR% is the story's smoke screen:
-- **The players suspect him** — violent record, sneaking around, evasive with authority. Classic troublemaker profile.
-- **The village points at him** — easier to gossip about the sołtys's wild son than confront the real darkness.
-- **He IS guilty** — of the brawl, of recklessness, of being young and angry. But not of what the players are investigating.
-- **He's actually investigating too** — the twist. The kid everyone suspects is the one person (besides %WIFE%) actively trying to uncover the truth. If the players waste time on him, they lose an ally. If they see through the misdirection, they gain the best inside source in the village.
+The flood is the best thing that's ever happened to him — ticket out, fresh start. Cooperates enthusiastically with the committee: not civic duty, self-interest. Wants every fence post and fruit tree documented for maximum reimbursement so he can leave for the city.
+
+## For Players
+
+**False suspect** — will consume investigation time if players take the bait. Sneaks around at night (actually running [%WIFE%](wife.md)'s outside investigation), violent record, evasive with authority. If players see through the misdirection, he becomes the best inside source alongside [%WIFE%](wife.md) — access to [%WUJAS%](secondary-characters.md)'s drunken fragments and knowledge of [%OLD_VILLAGE%](../places/old-village.md).
+
+**Why the smoke screen works:**
+- Players suspect him — classic troublemaker profile
+- Village points at him — easier than confronting real darkness
+- He IS guilty — of the brawl, recklessness. But not of what the players are investigating.
+- He's actually investigating too — the twist
 
 ## Open Questions
 
-- Does the brawl victim ever show up or send someone looking for payback?
-- How does %JUNIOR% react when the committee asks about the fight? Defensive? Ashamed? Does he think that's why they're really here?
-- What does %JUNIOR% think about the evacuation — escape from the village, or loss of the only home he knows?
-- Does his closeness to %WUJAS% put him in danger if %WUJAS% cracks publicly?
+- Does the brawl victim ever show up or send someone for payback?
+- How does %JUNIOR% react when the committee asks about the fight? Defensive? Ashamed? Thinks that's why they're here?
+- Evacuation — escape or loss of only home?
+- Does closeness to [%WUJAS%](secondary-characters.md) put him in danger if [%WUJAS%](secondary-characters.md) cracks publicly?
