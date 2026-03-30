@@ -37,3 +37,5 @@ Read all files in these folders to understand current state:
 7. **Inspirations → `inspirations/`** — When a new inspiration is discussed, store it there.
 
 8. **Links** — Character files link to locations, clues, and other characters using relative markdown paths. Clues file is the single source of truth for player-discoverable knowledge. Scenes link to clues they can reveal.
+
+9. **Clues are pure facts** — The `clues/clues.md` file contains only atomic facts the players can discover. **Do not add sources, GM notes, or discovery instructions to clue entries.** Sources and discovery paths belong in scene files (`scenes/locations/`, `scenes/events/`).

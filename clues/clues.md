@@ -33,11 +33,9 @@ The massacre was never reported. The soldiers covered it up to hide their failur
 
 ### officer-killed
 A KBW officer — kpt. Henryk Ćwiek — commanded the unit at [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). He was shot dead during the operation. Official records list him as KIA in a separate UPA engagement. The truth was buried with him.
-**Sources:** [Buried cache](../scenes/locations/ciotkas-house.md#dig-in-the-backyard) at Ciotka's backyard (Edward's military papers listing Ćwiek as CO); [por. Witold Skowron](../characters/officer.md)'s classified files (reference to a "lost" officer); [Paraskewia Chyłak](../characters/hag.md) (direct testimony).
 
 ### dmytro-kosach
 [Paraskewia Chyłak](../characters/hag.md)'s lover was named Dmytro Kosach — a UPA guerrilla fighter. He shot kpt. Ćwiek. His bullet turned a deportation into a massacre. He died too — almost certainly in the well with everyone else.
-**Sources:** [Paraskewia Chyłak](../characters/hag.md)'s cabin (his belongings — a photograph, a knife, letters in Ukrainian); [UPA bunker](../scenes/locations/upa-bunker.md) (cached personal effects, Cyrillic inscription with his name); [Paraskewia Chyłak](../characters/hag.md) herself (if players earn her trust).
 
 ### soldier-participated-in-massacre
 [Edward Barnaś](../characters/soldier.md) was one of the soldiers present during the 1947 massacre. He participated in the killings.
@@ -59,7 +57,6 @@ The flood zone was chosen partly to bury the massacre evidence. [por. Witold Sko
 
 ### hag-caused-the-massacre
 [Paraskewia Chyłak](../characters/hag.md) was in love with Dmytro Kosach, a UPA soldier, in 1947. The authorities traced the connection back to the village. Dmytro killed the commanding officer. The massacre happened because of her love — twice over.
-**Sources:** [Paraskewia Chyłak](../characters/hag.md) herself (the full confession — requires deep trust); pieced together from [dmytro-kosach](#dmytro-kosach) + [officer-killed](#officer-killed).
 
 ---
 
