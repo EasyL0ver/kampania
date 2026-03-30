@@ -9,23 +9,14 @@ Player-discoverable knowledge. Each clue is an atomic fact. Character files link
 ### siblings-are-lemko
 [%WOJEWODA%](../characters/wojewoda.md), [%MATRONA%](../characters/matrona.md), [%WUJAS%](../characters/secondary-characters.md), and [%CIOTKA%](../characters/ciotka.md) are siblings of Lemko descent, hiding behind Polish identities.
 
-### babcia-is-lemko
-[%BABCIA%](../characters/babcia.md) is an elderly Lemko Greek Catholic woman. Speaks more Lemko than Polish.
-
-### babcia-is-not-barbaras-mother
-[%BABCIA%](../characters/babcia.md) is not [%BARBARA%](../characters/barbara.md)'s mother — distant relative or connection through marriage.
+### hag-exists
+Someone lives in the [forest](../places/forest.md). Villagers call her a witch, a ghost, a story to scare children. She's real.
 
 ### hag-is-lemko
 [%HAG%](../characters/hag.md) is a Lemko woman living alone in the [forest](../places/forest.md). She is ~40, not old — the forest aged her.
 
-### soldier-was-not-lemko
-[%SOLDIER%](../characters/soldier.md) was a Polish settler with no ancestral connection to [%OLD_VILLAGE%](../places/old-village.md).
-
-### priest-is-roman-catholic
-[%PRIEST%](../characters/secondary-characters.md) is Roman Catholic. He cannot perform Greek Catholic / Lemko rites.
-
 ### officer-is-sb
-[%OFFICER%](../characters/officer.md) is an SB (secret police) agent. A true believer in the communist project.
+[%OFFICER%](../characters/officer.md) is an SB (secret police) agent, not just a bureaucrat.
 
 ---
 

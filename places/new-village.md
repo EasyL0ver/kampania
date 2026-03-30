@@ -57,7 +57,7 @@ The colonists of %NEW_VILLAGE% are the second layer of this tragedy. Brought in 
 
 ### %BARBARA%'s House
 - Small house built by %WOJEWODA% for her
-- Residents: %BARBARA%, %PAWEŁEK% (age 4), %BABCIA% (elderly relative)
+- Residents: [%BARBARA%](../characters/barbara.md), [%PAWEŁEK%](../characters/secondary-characters.md) (age 4), [%BABCIA%](../characters/babcia.md) (her mother)
 - **Vulnerability:** Completely dependent on %WOJEWODA%'s goodwill for housing and employment
 - **Accessible:** Near farm, not isolated; players can visit freely
 

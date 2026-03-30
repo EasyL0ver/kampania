@@ -14,9 +14,9 @@ The survey route takes the geologist across the area over multiple trips. On one
 ## Opportunities
 
 - **Foreman's knowledge** — if %FOREMAN% tags along, he points out terrain features, old drainage paths, where the water pools after rain. → Bonus info: practical flood knowledge + reduces survey cost to 2 actions
-- **Spot the old village** — ruins visible through the trees on one of the survey routes. Stone, not wood — this was a proper settlement once. → Bonus info: %OLD_VILLAGE% exists, its location, and nobody in the new village brought it up
-- **Spot Butcher at his house** — on the route, pass by %BUTCHER%'s place. He's there, alone, doing something. → Bonus info: where he lives, that he keeps to himself
-- **Spot the drinking crew heading into the forest** — %WUJAS% and the boys walking toward the treeline with bottles. → Bonus info: the crew goes into the forest — why?
+- **Spot the old village** — ruins visible through the trees on one of the survey routes. Stone, not wood — this was a proper settlement once. → [old village was Lemko](../clues/clues.md#old-village-was-lemko), [old village was burned](../clues/clues.md#old-village-was-burned)
+- **Spot Butcher at his house** — on the route, pass by %BUTCHER%'s place. He's there, alone, doing something. → Seeds [Butcher visits the well](../clues/clues.md#butcher-visits-the-well) (he's always heading toward the forest)
+- **Spot the drinking crew heading into the forest** — %WUJAS% and the boys walking toward the treeline with bottles. → Seeds [bimber still](../clues/clues.md#bimber-still)
 
 ## Actions
 
@@ -24,7 +24,7 @@ The survey route takes the geologist across the area over multiple trips. On one
 - **Requires:** Geological knowledge (player ability)
 - **Cost:** 1 action per trip (3 trips needed, 2 with %FOREMAN%)
 - **Outcome:** Each trip covers a section of terrain. After all trips — hard data. Water table measurements, rock composition, flood projections. The village WILL flood. This is proof, not speculation.
-- **Leads to:** After completion — geological proof obtained. Unlocks "Tell Wojewoda with geological proof" in **02-arrival**. Feeds into %FOREMAN%'s engineering ending chain.
+- **Leads to:** → [New Village may flood](../clues/clues.md#new-village-may-flood). Unlocks "Tell Wojewoda with geological proof" in **02-arrival**. Feeds into %FOREMAN%'s engineering ending chain.
 
 ### Investigate the old village
 - **Requires:** Spotted the ruins during a survey trip

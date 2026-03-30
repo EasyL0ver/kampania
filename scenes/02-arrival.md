@@ -17,9 +17,9 @@ He doesn't mention the flood. He doesn't know. But he's probing — *"So what ex
 ## Opportunities
 
 - **Compliment the village** — mention how well-run things look. %WOJEWODA% warms up — this is his life's work. → Rapport with %WOJEWODA%
-- **Notice the maps on the desk** — topographic maps, river markings, old boundaries. Players who look closely see %OLD_VILLAGE% marked. → Bonus info: old village exists and its location
-- **Ask about his family** — photos on the shelf, wife in the other room. He's brief but proud. → Rapport + seed: this man has something to lose
-- **Spot Wife eavesdropping** — catch a shadow by the door, a floorboard creak. She's listening to everything. → Bonus info: %WIFE% is paying attention to the committee's business
+- **Notice the maps on the desk** — topographic maps, river markings, old boundaries. Players who look closely see %OLD_VILLAGE% marked. → [old village was Lemko](../clues/clues.md#old-village-was-lemko)
+- **Ask about his family** — photos on the shelf, wife in the other room. He's brief but proud. → Rapport with %WOJEWODA%
+- **Spot Wife eavesdropping** — catch a shadow by the door, a floorboard creak. She's listening to everything. → Seeds [Wife has been investigating](../clues/clues.md#wife-has-been-investigating)
 
 ## Actions
 
@@ -45,13 +45,13 @@ He doesn't mention the flood. He doesn't know. But he's probing — *"So what ex
 - **Requires:** Ask %WOJEWODA% (he grants access freely)
 - **Cost:** 1 action per call
 - **Outcome:** Phone is available for calling %PROFESSOR%, %DOCTOR%, or district authorities. Each call is its own action with its own outcome depending on game state.
-- **Leads to:** Call %PROFESSOR% about hydrology (or later: mention the massacre = hidden safeguard). Call %DOCTOR% if %PAWEŁEK% is ill. Call authorities if truth is documented.
+- **Leads to:** [phone is lifeline](../clues/clues.md#phone-is-lifeline). Call %PROFESSOR% about hydrology (or later: mention the massacre = hidden safeguard). Call %DOCTOR% if %PAWEŁEK% is ill. Call authorities if truth is documented.
 
 ### Inspect the PGR ledger
 - **Requires:** Part of census work — the ledger is on the desk
 - **Cost:** 1 action
 - **Outcome:** Numbers don't add up. More workers on paper than in the fields. Supply costs off.
-- **Leads to:** With accounting ability → embezzlement exposed (red herring, but leverage over %FOREMAN%). Without ability → vague suspicion, nothing concrete.
+- **Leads to:** With accounting ability → [Foreman embezzlement](../clues/clues.md#foreman-embezzlement) exposed (red herring, but leverage over %FOREMAN%). Without ability → vague suspicion, nothing concrete.
 
 ## Exits
 

@@ -21,8 +21,8 @@ If players build enough rapport with %WOJEWODA% during dinner — he offers lodg
 
 - **Show genuine humanity to Wife** — talk about your own family, be personal not bureaucratic. She decides you're real people, not just government suits. → Rapport with %WIFE% (opens up trust for later scenes)
 - **Mention the city to Junior** — anything about life outside the mountains. Opportunities, work, what Warsaw is like. His whole posture changes. → Rapport with %JUNIOR% (seed for cooperation — he'll help if it gets him out)
-- **Drink with Wujas** — engage him warmly, match his energy, don't judge. He's delighted — new drinking buddies. → Rapport with %WUJAS% (unlocks drinking crew scenes, he's crackable when comfortable)
-- **Compliment Zofia's cooking** — she beams. She's the PGR cook, she knows what's in the stores. → Rapport with %ZOFIA% + bonus info: she mentions the PGR supplies casually, hints at abundance that doesn't match the village's poverty
+- **Drink with Wujas** — engage him warmly, match his energy, don't judge. He's delighted — new drinking buddies. → Rapport with %WUJAS% + seeds [Wujas is the weak link](../clues/clues.md#wujas-is-the-weak-link)
+- **Compliment Zofia's cooking** — she beams. She's the PGR cook, she knows what's in the stores. → Rapport with %ZOFIA% + seeds [Foreman embezzlement](../clues/clues.md#foreman-embezzlement) (PGR abundance doesn't match village poverty)
 - **Learn about Ciotka** — in conversation, someone mentions a third sister. %MATRONA% and %WIFE% have another sibling — %CIOTKA%. → Bonus info: the family is bigger than it looks, %CIOTKA% exists
 
 ## Actions
@@ -31,7 +31,7 @@ If players build enough rapport with %WOJEWODA% during dinner — he offers lodg
 - **Requires:** Rapport with %WUJAS% (drank with him during dinner)
 - **Cost:** 1 action (takes the rest of the night)
 - **Outcome:** %WUJAS% gets loose. Fragments come out between drinks — nothing coherent, but the players hear real pain. This is the door into the drinking crew.
-- **Leads to:** Drinking crew scenes unlocked. %WUJAS% trusts the players enough to talk later.
+- **Leads to:** Drinking crew scenes unlocked. Seeds [Wujas is the weak link](../clues/clues.md#wujas-is-the-weak-link).
 
 ## Exits
 

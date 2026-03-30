@@ -15,7 +15,7 @@ Mean, sharp-tongued, no filter. Undiagnosed dementia — lucid one moment, lost 
 
 ## Background
 
-Speaks more Lemko than Polish. Grew up in a world of *cerkiews*, Cyrillic headstones, and Greek Catholic prayers. How she survived Akcja Wisła is unclear — married into a Polish family, slipped through the cracks. Not [%BARBARA%](barbara.md)'s mother — probably a distant relative or connection through marriage. By the time she reached [%NEW_VILLAGE%](../places/new-village.md), already old, widowed, a remnant.
+Speaks more Lemko than Polish. Grew up in a world of *cerkiews*, Cyrillic headstones, and Greek Catholic prayers. How she survived Akcja Wisła is unclear — married into a Polish family, slipped through the cracks. **[%BARBARA%](barbara.md)'s mother.** By the time she reached [%NEW_VILLAGE%](../places/new-village.md), already old, widowed, a remnant.
 
 ## Knows
 
@@ -26,7 +26,7 @@ Speaks more Lemko than Polish. Grew up in a world of *cerkiews*, Cyrillic headst
 
 ## Relationships
 
-- **[%BARBARA%](barbara.md)** — took her in. Grateful, doesn't interfere. Too old for judgment.
+- **[%BARBARA%](barbara.md)** — her daughter. Half-Lemko, raised Polish. Babcia doesn't interfere with her life. Too old for judgment.
 - **[%PAWEŁEK%](secondary-characters.md)** — her light. Tells him Lemko stories, sings old songs at bedtime. Passing on a dead culture to a 4-year-old who doesn't know what he's receiving.
 - **[%HAG%](hag.md)** — never met. Heard the singing. Two Lemko women holding the same prayers from opposite ends of the forest. One of the story's most quietly devastating relationships.
 - **[%PRIEST%](secondary-characters.md)** — cautious distance. He's Roman Catholic, she's Greek Catholic. Could bridge the gap between players and %BABCIA% but hasn't.

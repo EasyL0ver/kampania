@@ -6,7 +6,8 @@
 
 - **Born:** 1939
 - **Age in 1967:** 28
-- **Lives in:** [%BARBARA%'s house](../places/new-village.md#barbaras-house) — with [%BABCIA%](babcia.md), [%PAWEŁEK%](secondary-characters.md)
+- **Heritage:** Half-Lemko (mother is [%BABCIA%](babcia.md)) — raised Polish, devout Catholic
+- **Lives in:** [%BARBARA%'s house](../places/new-village.md#barbaras-house) — with [%BABCIA%](babcia.md) (her mother), [%PAWEŁEK%](secondary-characters.md)
 
 ## Character
 
@@ -21,7 +22,7 @@ Arrived in [%NEW_VILLAGE%](../places/new-village.md) **after the lynch.** Knows 
 - **[%WUJAS%](secondary-characters.md)** — sexual relationship. Actual father of [%PAWEŁEK%](secondary-characters.md) (unknown to everyone, including %BARBARA%).
 - **[%JUNIOR%](junior.md)** — sexual relationship. [%WOJEWODA%](wojewoda.md) wrongly believes he is the father.
 - **[%PAWEŁEK%](secondary-characters.md)** — her son. Paternity unknown even to her.
-- **[%BABCIA%](babcia.md)** — lives with her, took her in.
+- **[%BABCIA%](babcia.md)** — her mother. Lemko. Barbara was raised Polish, doesn't speak the language, doesn't practice the customs. But the blood is there.
 - **[%NEIGHBOUR%](neighbour.md)** — closest friend, literal neighbour. Helps with the house, brings firewood, watches the boy. She trusts him completely. She and [%PAWEŁEK%](secondary-characters.md) are the only uncomplicated good in his life.
 - **[%PRIEST%](secondary-characters.md)** — his word carries absolute weight. She won't defy him on matters of faith.
 

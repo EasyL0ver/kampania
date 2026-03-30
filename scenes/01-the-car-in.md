@@ -22,19 +22,19 @@ A police car on a winding mountain road. Rain on the windshield. %OFFICER% drive
 - **Requires:** Nothing
 - **Cost:** Free
 - **Outcome:** %OFFICER% is vague. *"Mountain villages have their own history. Folk stories, old grudges."* He redirects to the job. Information — the village was resettled after the war, used to be Lemko territory.
-- **Leads to:** Nothing new — but plants a seed
+- **Leads to:** Plants a seed → [old village was Lemko](../clues/clues.md#old-village-was-lemko)
 
 ### Ask about potential dangers
 - **Requires:** Nothing
 - **Cost:** Free
 - **Outcome:** %OFFICER% downplays. *"It's a village, not a warzone. Biggest danger is the mud."* He mentions %BUTCHER% in passing — *"There's a loner on the edge of the village, locals avoid him. Don't bother with him."*
-- **Leads to:** Information — %BUTCHER% flagged early
+- **Leads to:** Seeds → [officer is SB](../clues/clues.md#officer-is-sb) (he knows too much about a random villager)
 
 ### Pick up on the hidden warning
 - **Requires:** Ability TBD (perception / intuition / bureaucratic experience)
 - **Cost:** Free
 - **Outcome:** Players notice %OFFICER%'s careful phrasing: *"Your job is the census and flood assessment. Stick to that and you'll be fine. If anything unusual comes up — old grievances, local legends, things that don't belong in a government report — use your judgement. Not everything needs to be written down."* Information — the state expects them to ignore certain things. What things?
-- **Leads to:** No scene unlock, but this plants the report ending seed. Players who remember this line will understand its weight in the final scene.
+- **Leads to:** No scene unlock, but this plants the report ending seed. → [officer warning](../clues/clues.md#officer-warning)
 
 ### Character creation
 - **Requires:** Nothing
