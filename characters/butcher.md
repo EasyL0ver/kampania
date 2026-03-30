@@ -11,7 +11,7 @@
 
 ## Character
 
-An evil man — but not one who was born that way. Before 1947 he was an unremarkable local boy from the next valley. The violence of Akcja Wisła didn't horrify him. It *woke something up*. Something that never went back to sleep. A compulsion — a hunger — that the well may or may not have planted in him. He came out of 1947 different. Capable. Willing. Looking for the next time.
+An evil man — but not one who was born that way. Before 1947 he was an unremarkable local boy from the next valley. The violence of Akcja Wisła didn't horrify him. It *woke something up*. Something that exists in everyone — the capacity for violence, the satisfaction of power over another body. Edward Barnaś felt it too and chose to bury it under a family and silence. The players feel it in their dreams and wake up shaking. The difference isn't nature. It's that Rezeń stopped caring about keeping it down.
 
 But something else lives in him alongside the hunger — an irrational, bone-deep fixation with [%OLD_VILLAGE%](../places/old-village.md) and [the well](../story-facts/the-well.md) that has no logical explanation. He can't name it. It drives him back to the ruins again and again. Symbolically, he carries the unprocessed fury of the Lemko dead — their rage at being massacred, erased, forgotten — expressed through the worst possible vessel. The man who helped kill them. A man with no conscience, no heritage claim, no right to the grief. But the grief found him anyway — because it was looking for *him*.
 
@@ -87,6 +87,6 @@ Stanisław Rezeń is [the well](../story-facts/the-well.md)'s longest victim —
 
 **The players dream too.** From their first night in the village — violence, not memories, just raw sensation. Hands doing things. The satisfaction of breaking. The dream-logic feeling that this is *right* and *necessary*. Each night worse.
 
-By day three, the players have felt what Stanisław Rezeń has felt for thirteen years. They wake up shaking, disgusted at the part of them that didn't want the dream to stop. Then they look at Stanisław Rezeń across the village and wonder: *am I any different? If I'd been here since 1954, what would I be by now?*
+By day three, the players have felt what Stanisław Rezeń felt in 1947 — and what he stopped fighting. They wake up shaking, disgusted at the part of them that didn't want the dream to stop. The capacity was always there. In everyone. Edward buried it. The players resist it. Rezeń just stopped caring.
 
-That's his redemption — but only if you accept the supernatural. If the well is real, he's a man who did evil once and was punished with thirteen years of compulsion, dreams, and slow erosion. The well found a willing vessel and never let go. He's the least sympathetic victim in the story — but a victim nonetheless. If the well isn't real, he's just a man who liked what he did and keeps going back for more. The players decide which version they believe. Both are true.
+That's his redemption — but only if you accept the supernatural. If the well is real, he's a man who did evil once and was punished with twenty years of compulsion, dreams, and slow erosion. The well found a willing vessel and never let go. He's the least sympathetic victim in the story — but a victim nonetheless. If the well isn't real, he's just a man who felt what everyone feels and chose not to fight it. The players decide which version they believe. Both are true.
