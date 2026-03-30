@@ -58,9 +58,8 @@ Edek is large — six foot, broad, silent. He stands behind Janina or sits in hi
 - **Outcome:** A trapdoor in the ceiling, a rickety ladder. The attic is dusty, undisturbed. Janina either never looked or couldn't bring herself to clear it. Up there — a different family's life, boxed and forgotten:
   - **A box labelled "EDEK"** — scrawled in pencil on the side. Inside: a pair of worn shoes (too small for the boy downstairs), a shaving brush, a pocket knife, a folded handkerchief, rosary beads. Personal effects. Players see the name and think — *ah, the boy's things, stored when he outgrew them.* But Edek is brain-damaged. He doesn't shave. He's never needed a pocket knife. These are a grown man's belongings, boxed up by someone. The name on the box isn't the son's — it's the father's. Same name.
   - **A girl's dress** — folded, moth-eaten. Too small for an adult, too big for a child. A teenager's.
-  - **A Lemko prayer book** — Cyrillic script, Greek Catholic. Someone in this household was Lemko.
   - **A child's wooden rattle** — hand-carved, worn smooth. A baby lived here once.
-- **Leads to:** A family lived here — a man, a Lemko woman, a teenage girl, a baby. The "EDEK" box creates confusion: is this the boy's? His father's? Players have to work out the name is shared. The dress and rattle prove there were others. Four people. One remains. Nobody will say what happened to the other three. → Seeds [ciotka-lives-in-soldiers-house](../../clues/clues.md#ciotka-lives-in-soldiers-house)
+- **Leads to:** A family lived here — a man, a teenage girl, a baby. The "EDEK" box creates confusion: is this the boy's? His father's? Players have to work out the name is shared. The dress and rattle prove there were others. Nobody will say what happened to them. → Seeds [ciotka-lives-in-soldiers-house](../../clues/clues.md#ciotka-lives-in-soldiers-house)
 
 ## GM Notes
 
