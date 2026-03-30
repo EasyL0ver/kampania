@@ -11,19 +11,23 @@
 
 ## Character
 
-An evil man who knows it. Violent, cold, capable — and clear-eyed about what he is. Not mentally ill, not broken, not driven by pathology. He chose what he did in 1954 and the ease of it didn't surprise him — **because 1954 wasn't his first time.** But something else lives in him — an irrational, bone-deep fixation with [%OLD_VILLAGE%](../places/old-village.md) and [the well](../story-facts/the-well.md) that has no logical explanation. He can't name it. It drives him back to the ruins again and again. Symbolically, he carries the unprocessed fury of the Lemko dead — their rage at being massacred, erased, forgotten — expressed through the worst possible vessel. The man who helped kill them. A man with no conscience, no heritage claim, no right to the grief. But the grief found him anyway — because it was looking for *him*.
+An evil man — but not one who was born that way. Before 1947 he was an unremarkable local boy from the next valley. The violence of Akcja Wisła didn't horrify him. It *woke something up*. Something that never went back to sleep. A compulsion — a hunger — that the well may or may not have planted in him. He came out of 1947 different. Capable. Willing. Looking for the next time.
+
+But something else lives in him alongside the hunger — an irrational, bone-deep fixation with [%OLD_VILLAGE%](../places/old-village.md) and [the well](../story-facts/the-well.md) that has no logical explanation. He can't name it. It drives him back to the ruins again and again. Symbolically, he carries the unprocessed fury of the Lemko dead — their rage at being massacred, erased, forgotten — expressed through the worst possible vessel. The man who helped kill them. A man with no conscience, no heritage claim, no right to the grief. But the grief found him anyway — because it was looking for *him*.
 
 ## 1947 — The First Massacre
 
-In 1947, a KBW unit came through Bieszczady to clear the Lemko villages — part of [Akcja Wisła](../historical%20context/operation-wisla.md). They needed locals who knew the terrain, the paths, which houses were where. Stanisław Rezeń was 26, from a neighbouring village, and willing. The soldiers took him along as civilian militia — an auxiliary. He pointed, carried, and when the time came, he did what the soldiers did. No uniform, no orders on paper, no record. Just a local helping out.
+In 1947, a KBW unit came through Bieszczady to clear the Lemko villages — part of [Akcja Wisła](../historical%20context/operation-wisla.md). They needed locals who knew the terrain, the paths, which houses were where. Stanisław Rezeń was 26, from a neighbouring village. The soldiers took him along as civilian militia — an auxiliary. He didn't volunteer for violence. He was dragged into it — carrying, pointing, doing what the soldiers told him. But when the violence came, he didn't flinch. He leaned in. Something in him responded to the killing the way a match responds to friction. The soldiers noticed. They used him more.
+
+[Edward Barnaś](soldier.md) was one of the soldiers in that unit. He saw the same violence, did the same things. He came out of it wanting a family and silence. Rezeń came out of it wanting *more*. Same event. Opposite outcomes. Edward became a peaceful father. Rezeń became what he is.
 
 He was there when [%OLD_VILLAGE%](../places/old-village.md) was emptied. He may have been there when the well received its first dead — the Lemko victims of the massacre. Whether he personally threw bodies in or just watched, he was *present*. The well knows him from before 1954.
 
 **[Edward Barnaś](soldier.md) was one of the soldiers in that unit.** The KBW man and the civilian auxiliary — they shared the 1947 operation. They both saw what happened. They both kept quiet. When Edward settled on the best land in the new village, Rezeń was already there — the local who'd walked over from the next valley. They knew each other. Not friends — the army doesn't befriend its auxiliaries. But they recognised each other as men who'd been present. A silent bond that meant nothing to Edward and everything to Rezeń.
 
-After the deportations, the land was empty. Settlers came from across Poland to claim it. Edward got the best plot — officer's privilege, service record, connections. Rezeń got the edge. The soldier who did the same work in uniform got a family, a house, respect. The civilian who did the same work without a uniform got dogs and silence. Not resentment — Rezeń doesn't think that way. But the awareness that some men are valued and some are used.
+After the deportations, the land was empty. Settlers came from across Poland to claim it. Edward got the best plot — officer's privilege, service record, connections. Rezeń got the edge. The soldier who went peaceful got a family, a house, respect. The civilian who came out hungry got dogs and silence.
 
-**This is why 1954 was easy.** Not because he was born evil — because the violence had already been normalised in 1947, sanctioned by the state, performed alongside soldiers in uniform. The leap from "clearing undesirables for the government" to "getting rid of witnesses to protect the village" was shorter than it looks.
+**This is why 1954 was easy.** Not just normalised — *desired*. The violence of 1947 didn't scar him, it fed him. By 1954 he'd spent seven years with the compulsion and nothing to do with it. Drink unlocked the door. The leap from "clearing undesirables for the government" to "getting rid of witnesses to protect the village" wasn't even a leap. It was relief.
 
 ## The Lynch
 
@@ -45,7 +49,7 @@ Stanisław Rezeń visits [%OLD_VILLAGE%](../places/old-village.md) regularly —
 
 An **outcast.** The village knows or suspects what he did during the lynch. Not exiled, but not welcome. People avoid him — **and he avoids them.**
 
-Stanisław Rezeń has structured his life to **minimise risk.** Not guilt — guilt would require caring about the dead. **Practicality.** Violence had been easy in 1947 with soldiers beside him. It was easy again in 1954 with drink in him. He understood the pattern — proximity to people, drink, friction, and it happens. And next time there'd be consequences. The village looked away once. It wouldn't look away twice. So he removed himself.
+Stanisław Rezeń has structured his life to **minimise risk.** Not guilt — guilt would require caring about the dead. **Practicality.** He knows what lives in him since 1947 — the hunger. Drink unlocks it. People nearby feed it. He understood that proximity to people plus friction equals another body, and next time there'd be consequences. The village looked away once. It wouldn't look away twice. So he removed himself.
 
 - Hasn't touched alcohol since 1954 — saw what it unlocked in the three of them
 - Doesn't socialise, attend gatherings, or linger where people are
