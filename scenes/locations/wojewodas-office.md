@@ -19,10 +19,7 @@ Players can return to this location throughout the game.
 ## Actions
 
 ### Ask for the maps
-- **Requires:** Nothing
-- **Cost:** Free
-- **Outcome:** Zbigniew Gajda deflects. *"Those are mine, you don't need them for the census."* He's protective — the maps show %OLD_VILLAGE%, terrain he doesn't want outsiders poking around. If he already knows about imminent flood danger, he hands them over without hesitation — saving the village matters more than hiding the past.
-- **Leads to:** With flood proof shared → players get the maps (useful for survey, old village navigation). Without → refused.
+- See [Zbigniew Gajda — Ask for the maps](../../characters/wojewoda.md#ask-for-the-maps)
 
 ### Steal the maps
 - **Requires:** Zbigniew Gajda absent or distracted
@@ -30,17 +27,8 @@ Players can return to this location throughout the game.
 - **Outcome:** Players take the maps. Detailed terrain — river courses, elevations, %OLD_VILLAGE% marked clearly. Huge help for the geological survey and finding the old village. Zbigniew Gajda will notice eventually.
 - **Leads to:** Maps in hand. Reduces geological survey cost. Zbigniew Gajda suspicious if he discovers them missing.
 
-### Tell Wojewoda about the flood risk
-- **Requires:** Nothing — but the players themselves only suspect at this point
-- **Cost:** Free
-- **Outcome:** He listens. He doesn't buy it. A suspicion from government clerks isn't enough to upend his village. He probes back — *"Based on what? Have you measured anything? Have you been to the river?"* He wants proof, not speculation. NPC State Change — Zbigniew Gajda is now alert. He'll watch what the players do, where they go, what they measure. But even skeptical — he takes it seriously enough to act. No dinner. The geologist is chased to get to work immediately. The whole committee sleeps in PGR quarters — functional, not hospitable. The evening is about urgency, not family.
-- **Leads to:** No dinner event. Zbigniew Gajda is watching closely. Geologist sent to the field. PGR quarters for the night.
-
-### Tell Wojewoda with geological proof
-- **Requires:** Players have completed geological survey at %OLD_VILLAGE% / field measurements
-- **Cost:** Free
-- **Outcome:** Now he believes it. And he loses his temper. This is his home. His village, his people, his life's work — the state is going to drown it. The composed sołtys cracks. The players see the real man under the authority. Then he pulls himself together — slower than usual. The leader takes over: keep it quiet, census everyone for compensation, plan evacuation. He orders Michał Pytlak to find a solution to the flooding — diversion, drainage, anything. NPC State Change — Zbigniew Gajda shifts to urgent partner. The census needs to happen NOW.
-- **Leads to:** Zbigniew Gajda becomes proactive — pushes players toward specific people, accelerates the census. Michał Pytlak receives the order.
+### Tell Wojewoda about the flood
+- See [Zbigniew Gajda — Tell about the flood risk](../../characters/wojewoda.md#tell-about-the-flood-risk) and [Tell with geological proof](../../characters/wojewoda.md#tell-with-geological-proof)
 
 ### Use the phone
 - **Requires:** Ask Zbigniew Gajda (he grants access freely)
@@ -53,6 +41,9 @@ Players can return to this location throughout the game.
 - **Cost:** 1 action
 - **Outcome:** A list of PGR workers with names and wages. Useful for the census — cross-reference against actual people in the village. Players who check will find some names that nobody recognises. Phantom workers on the payroll.
 - **Leads to:** With accounting ability → [Foreman cover-up](../../clues/clues.md#foreman-coverup) exposed — a dead worker still on the books. Without ability → a list of names, some of which don't match anyone they meet. Vague suspicion, nothing concrete.
+
+### Report the bimber still
+- See [Zbigniew Gajda — Report the bimber still](../../characters/wojewoda.md#report-the-bimber-still)
 
 ### Take the gun
 - **Requires:** Know about the pistol — [Wojewoda has gun](../../clues/clues.md#wojewoda-has-gun) (e.g. Marek Gajda brags at the store). Plus Zbigniew Gajda absent or distracted.

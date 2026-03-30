@@ -51,3 +51,14 @@ The well amplifies Tadek Gajda's **guilt and self-destruction.** He was already 
 - The volatility spikes. He swings between maudlin weeping and sudden rage. Picks fights he'd normally avoid. Grabs people too hard. The violence under the surface — the same violence from 1954 — is closer to the skin.
 
 The well doesn't need to break Tadek Gajda. He was already broken. It just needs to make the cracks **audible**.
+
+## Actions
+
+### Leverage — the bimber play
+- **Requires:** Players have discovered the [bimber still](../scenes/locations/bimber-still.md)
+- **Cost:** Free per attempt (can be repeated across days)
+- **What happens:** *"We know about your still. Now tell us what else you know."* Tadek owes the players, he's scared they'll talk, and the well is eroding his ability to keep quiet.
+  - **First visit:** Relief. *"That's all? Fine, fine — just don't tell Zbyszek I've been talking to you."* Gives village gossip, complaints, minor dirt. Nothing real.
+  - **Second visit (well influence active):** The cracks show. The bottle isn't working anymore. He's lucid in a way that terrifies him. Half-sentences slip: *"She didn't deserve it."* A name muttered — Hania. He catches himself. Changes subject. Won't say more.
+  - **Third visit:** He's barely holding together. → See [event-wujas-cracks](../story/event-wujas-cracks.md)
+- **Result:** → [wujas-is-the-weak-link](../clues/clues.md#wujas-is-the-weak-link)

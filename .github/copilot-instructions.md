@@ -39,3 +39,8 @@ Read all files in these folders to understand current state:
 8. **Links** — Character files link to locations, clues, and other characters using relative markdown paths. Clues file is the single source of truth for player-discoverable knowledge. Scenes link to clues they can reveal.
 
 9. **Clues are pure facts** — The `clues/clues.md` file contains only atomic facts the players can discover. **Do not add sources, GM notes, or discovery instructions to clue entries.** Sources and discovery paths belong in scene files (`scenes/locations/`, `scenes/events/`).
+
+10. **Actions belong where they're performed:**
+    - **Location-bound actions** (search a room, dig in a yard) → `scenes/locations/` files
+    - **Character-bound actions** (leverage someone, earn trust, confront) → `## Actions` section in the character's `.md` file, using the same format as location actions (cost, requires, what happens, result)
+    - If an action is triggered at a location but is really about a character interaction, it belongs in the character file. The location file can cross-reference it.

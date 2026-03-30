@@ -73,3 +73,29 @@ Sees flooding before it's announced. Opportunity and threat: water destroys evid
 ## For Players
 
 The most cooperative NPC at first — genuinely useful guide and ally. His agenda (thorough census, quiet evacuation prep) aligns with the committee's. The reveal that he's one of the perpetrators is devastating because he's been *helpful*. Unlike [Helena Rzepka](matrona.md), if confronted he can face it.
+
+## Actions
+
+### Ask for the maps
+- **Requires:** Nothing
+- **Cost:** Free
+- **What happens:** Deflects. *"Those are mine, you don't need them for the census."* He's protective — the maps show %OLD_VILLAGE%, terrain he doesn't want outsiders poking around. If he already knows about imminent flood danger, he hands them over without hesitation — saving the village matters more than hiding the past.
+- **Result:** With flood proof shared → players get the maps (useful for survey, old village navigation). Without → refused.
+
+### Tell about the flood risk
+- **Requires:** Nothing — but the players themselves only suspect at this point
+- **Cost:** Free
+- **What happens:** He listens. He doesn't buy it. A suspicion from government clerks isn't enough to upend his village. He probes back — *"Based on what? Have you measured anything? Have you been to the river?"* He wants proof, not speculation. NPC State Change — Zbigniew Gajda is now alert. He'll watch what the players do, where they go, what they measure. But even skeptical — he takes it seriously enough to act. No dinner. The geologist is chased to get to work immediately. The whole committee sleeps in PGR quarters — functional, not hospitable. The evening is about urgency, not family.
+- **Result:** No dinner event. Zbigniew Gajda is watching closely. Geologist sent to the field. PGR quarters for the night.
+
+### Tell with geological proof
+- **Requires:** Players have completed geological survey at %OLD_VILLAGE% / field measurements
+- **Cost:** Free
+- **What happens:** Now he believes it. And he loses his temper. This is his home. His village, his people, his life's work — the state is going to drown it. The composed sołtys cracks. The players see the real man under the authority. Then he pulls himself together — slower than usual. The leader takes over: keep it quiet, census everyone for compensation, plan evacuation. He orders [Michał Pytlak](foreman.md) to find a solution to the flooding — diversion, drainage, anything. NPC State Change — Zbigniew Gajda shifts to urgent partner. The census needs to happen NOW.
+- **Result:** Zbigniew Gajda becomes proactive — pushes players toward specific people, accelerates the census. [Michał Pytlak](foreman.md) receives the order.
+
+### Report the bimber still
+- **Requires:** Players have discovered the [bimber still](../scenes/locations/bimber-still.md)
+- **Cost:** Free
+- **What happens:** He waves it off. *"I'll handle it."* No surprise, no anger. He already knows — tolerates it because it keeps Tadek occupied and manageable. Players learn: the sołtys controls everything. Even his brother's addiction is managed.
+- **Result:** Seeds Zbigniew's control pattern. Same mechanism as [Stanisław Rezeń](butcher.md)'s containment — managing the village through tolerance and prohibition in equal measure.
