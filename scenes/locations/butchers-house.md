@@ -73,4 +73,6 @@
 
 **Don't let players fight him.** They lose. Caught inside = survival scene. If they escape, he's their enemy.
 
+**Zbigniew's arrangement.** Rezeń's isolation isn't self-imposed — Zbigniew put him here after 1954. Players may notice: Zbigniew visiting the edge house, Rezeń deferring to the sołtys, the no-alcohol rule matching an order not a choice. When Rezeń starts showing up in the village mid-game — Zbigniew is losing control. The superego can't hold the id.
+
 **Containment arc:** Early — away, disciplined. Mid — showing up in village, pleasant, wrong. Late — discipline breaks, nothing holding him back.

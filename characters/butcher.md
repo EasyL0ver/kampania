@@ -50,15 +50,15 @@ Stanisław Rezeń visits [%OLD_VILLAGE%](../places/old-village.md) regularly —
 
 An **outcast.** The village knows or suspects what he did during the lynch. Not exiled, but not welcome. People avoid him — **and he avoids them.**
 
-Stanisław Rezeń has structured his life to **minimise risk.** Not guilt — guilt would require caring about the dead. **Practicality.** He knows what lives in him since 1947 — the hunger. Drink unlocks it. People nearby feed it. He understood that proximity to people plus friction equals another body, and next time there'd be consequences. The village looked away once. It wouldn't look away twice. So he removed himself.
+Stanisław Rezeń has been **pushed to the edge** — literally. After 1954, [Zbigniew Gajda](wojewoda.md) told him where to live, told him to stay away from people, told him what happens if he doesn't. The sołtys containing the village monster. Rezeń accepted it — not because he understood, but because Zbigniew was the authority and the alternative was unclear. He doesn't resent it. He doesn't think about it much. He has his dogs, his work, the well. Enough.
 
-- Hasn't touched alcohol since 1954 — saw what it unlocked in the three of them
-- **Smokes constantly** — the one vice he kept. Chain-smokes, lights the next off the last. Fingers yellow-brown, teeth stained. The oral fixation of a man who replaced drink with fire. The only impulse he feeds openly.
-- **Fidgets** — picks at scabs, scratches himself, turns a knife over in his hands. A body that doesn't know how to be still. No social awareness of his own physicality.
-- Doesn't socialise, attend gatherings, or linger where people are
+- Hasn't touched alcohol since 1954 — Zbigniew forbade it. The one rule that stuck because it came with a threat.
+- **Smokes constantly** — the one vice nobody took away. Chain-smokes, lights the next off the last. Fingers yellow-brown, teeth stained.
+- **Fidgets** — picks at scabs, scratches himself, turns a knife over in his hands. A body that doesn't know how to be still.
+- Doesn't socialise, attend gatherings, or linger where people are — not his choice. Zbigniew's arrangement.
 - Lives at the edge, keeps to his dogs, does his work, stays away
 
-The isolation isn't punishment — it's **risk management.** He doesn't want to stop killing because it's wrong. He wants to avoid the mess of getting caught. His own private version of what [Paraskewia Chyłak](hag.md) does at [the well](../story-facts/the-well.md) — containment. Except hers is driven by duty and his is driven by convenience.
+The isolation isn't self-imposed — it's **Zbigniew's arrangement.** The superego containing the id. As long as Zbigniew holds authority, Rezeń stays at the edge. When the well erodes Zbigniew's control — the containment fails and the id walks free.
 
 ## Relationships
 
