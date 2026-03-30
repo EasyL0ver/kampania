@@ -19,6 +19,8 @@
 - The 1951 "sealing abandoned well" entry refers to [the well](../story-facts/the-well.md) at %OLD_VILLAGE%. The money was spent. The well is still open. The job was paid for and never completed — or couldn't be. Players who've visited the old village will recognise this immediately.
 - [Tadek Gajda](../characters/wujas.md) appears doing transport work — establishes him as the family's odd-job man.
 - [Emil Rzepka](../characters/painter.md) doing whitewashing — before he started painting ghosts.
+- The 1951 "salvaged timber from old settlement" entry shows that Tadek Gajda hauled building materials stripped from the Lemko village. The new village was literally built from the old one's bones. Players who visit the stripped [cerkiew](../places/old-village.md) will understand what happened to it.
+- The 1954 "livestock reassignment (vacated eastern plot)" is the Barnaś family's animals — absorbed by the PGR after the family "left." No names. No explanation. Just extra feed costs. The "eastern plot" is where [Janina Gajda](../characters/ciotka.md) now lives. Animals don't vanish when families do — someone had to take them.
 
 ### The clue chain
 
@@ -42,6 +44,7 @@ Her name is **Marta Konieczna** — initials M.K.
 | | **— 1951 —** | |
 | 14.02.1951 | Spółdzielnia Lesko — seed grain (spring sowing) | 1,240 |
 | 03.05.1951 | Gajda, Tadeusz — transport, lumber from Ustrzyki | 280 |
+| 16.06.1951 | Gajda, Tadeusz — transport, salvaged timber from old settlement | 120 |
 | 18.07.1951 | Veterinary cooperative — cattle inspection | 320 |
 | 07.08.1951 | Land clearing — sealing abandoned well, eastern boundary ⚠️ | 300 |
 | 02.10.1951 | Rzepka, Emil — whitewashing, barn no. 2 | 460 |
@@ -68,6 +71,7 @@ Her name is **Marta Konieczna** — initials M.K.
 | 10.02.1954 | Spółdzielnia Lesko — seed grain (spring sowing) | 1,180 |
 | 25.05.1954 | Głowacz, Romek — plough blade sharpening | 60 |
 | 09.09.1954 | Mucha, Franek — fence repair, western boundary | 110 |
+| 18.10.1954 | Additional feed — livestock reassignment (vacated eastern plot) ⚠️ | 340 |
 | 20.11.1954 | Rezeń, Stanisław — autumn slaughter, 2 hogs | 130 |
 | | | |
 | | **— 1957 —** | |
@@ -117,6 +121,8 @@ Date        Payee / Description                                    Amount
                          — 1951 —
 14.02.1951  Spółdzielnia Lesko — seed grain (spring sowing)        1,240 zł
 03.05.1951  Gajda, Tadeusz — transport, lumber from Ustrzyki         280 zł
+16.06.1951  Gajda, Tadeusz — transport, salvaged timber
+                from old settlement                                  120 zł
 18.07.1951  Veterinary cooperative — cattle inspection               320 zł
 07.08.1951  Land clearing — sealing abandoned well, eastern boundary 300 zł
 02.10.1951  Rzepka, Emil — whitewashing, barn no. 2                 460 zł
@@ -143,6 +149,8 @@ Date        Payee / Description                                    Amount
 10.02.1954  Spółdzielnia Lesko — seed grain (spring sowing)        1,180 zł
 25.05.1954  Głowacz, Romek — plough blade sharpening                 60 zł
 09.09.1954  Mucha, Franek — fence repair, western boundary           110 zł
+18.10.1954  Additional feed — livestock reassignment
+                (vacated eastern plot)                               340 zł
 20.11.1954  Rezeń, Stanisław — autumn slaughter, 2 hogs             130 zł
 
                          — 1957 —
