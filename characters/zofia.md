@@ -16,6 +16,29 @@ Zofia is the warmest person in %NEW_VILLAGE%. She feeds people — workers, gues
 
 She is the hearth. The social glue. The reason the dinner scene feels human and the farm feels like a workplace instead of a prison. When Zofia is in a room, people relax.
 
+## The Silo — What She Knows
+
+Zofia knows **everything** about the silo cover-up. Michał came home that day shaking, covered in grain dust, unable to speak. She got the truth out of him that night — not from Wojewoda, from her husband. He told her because he couldn't carry it alone.
+
+She knows Tadeusz died because Michał sent him in. She knows Michał went in after him and nearly died himself. She knows the death was never reported. She knows Wanda Mazur's "pension" is phantom wages. She knows Wojewoda ordered the cover-up to keep inspectors away.
+
+**She wants him to report it.** She's been saying it for two years: *"Tell the truth. Face whatever comes. Stop living like this."* Her "let go" is specific — let go of the lie, let go of the silence, let go of Wojewoda's grip on you. Accept the consequences and be free.
+
+He can't. Wojewoda won't allow it. And Michał is loyal — to the village, to his boss, to the arrangement that keeps Wanda fed. So the guilt stays, the lie stays, and Zofia watches her husband rot from the inside.
+
+**For players:** If the committee is kind to her and gains her trust, she may tell them about the silo. Not out of betrayal — she's been desperate for someone to listen for two years. She wants the truth out. She wants her husband unburdened. She's a **potential source** for the cover-up, and the easiest one to reach — she'll talk if someone just asks and listens.
+
+**Mirror to Irena:** Two wives who know their husbands' secrets. Irena helps Zbigniew keep his — she holds the line, she strategizes, she enables. Zofia pushes Michał to confess his — she's the conscience, the voice saying *let go*. Both women are right. Both are trapped.
+
+## The Pattern — "Let Go"
+
+This is the phrase that defines Zofia's relationship with Michał:
+
+- **After the silo (~1965):** *"It wasn't your fault. Report it. Tell the truth. Let go."*
+- **During the flood (Act II):** *"Come home. Stop. Let the water come. Let go."*
+- **She dies (Act III):** The voice saying "let go" goes silent. Nobody is left to say it.
+- **If players intervene:** They become Zofia's voice. They say what she can't anymore.
+
 ## Role in the Story
 
 ### Act I — Joy
@@ -94,11 +117,11 @@ The players don't know the stakes when Zofia first asks for help. They just see 
 
 ## Relationships
 
-- **[Michał Pytlak](foreman.md)** — Her husband. She loves him completely. She sees him becoming something else and can't stop it. The tragedy of their marriage: he's carrying guilt over a death (the silo) that she doesn't know about, and she's watching him be consumed by something (the well) that he doesn't recognize.
+- **[Michał Pytlak](foreman.md)** — Her husband. She loves him completely. She knows about the silo — he told her that night because he couldn't carry it alone. She's been pushing him to confess for two years. Now she's watching him become something inhuman and she can't reach him. The tragedy: she's the only person who could save him, and the well's gift is designed to keep her away.
 - **[Staszek Pytlak](secondary-characters.md)** — Her son. Her reason. When the well takes her warmth, the last thing to go is her concern for him — she makes sure he's safe with another family before she goes.
-- **[Irena Gajda](wife.md)** — Connected through the household. Irena is calculating where Zofia is open. They're not friends, but there's mutual respect.
+- **[Irena Gajda](wife.md)** — Her mirror. Irena is calculating where Zofia is open. Both know their husbands' worst secrets. Irena holds the line; Zofia pushes for truth. They're not friends, but there's recognition.
 - **[Barbara Kopacz](barbara.md)** — Works on the farm. Zofia is kind to her without pity. One of the few people who treats Barbara as a person, not a problem.
-- **[Wanda Mazur](widow.md)** — Both are PGR wives. Zofia is warm to her. She doesn't know that her husband's guilt is directly connected to Wanda's loss.
+- **[Wanda Mazur](widow.md)** — Both are PGR wives. Zofia knows the truth about Wanda's "pension" — that it's phantom wages, not a state benefit. She's kind to Wanda and it costs her every time, knowing what she knows.
 
 ## Open Questions
 

@@ -20,6 +20,7 @@ So the two men agreed: **the death was never reported.**
 - **Wanda Mazur receives his wages.** She was told it's a **widow's pension** — proper state benefit for a bereaved wife. She believes this completely. She's grateful to the state for taking care of her.
 - **The village doesn't know** the death was never officially reported. Everyone saw the funeral, everyone knows Tadeusz is dead. They assume it was handled properly — death certificate filed, pension granted, all done the normal way.
 - **Only two men know the truth:** Zbigniew Gajda and Michał Pytlak. The sołtys made the call. The foreman signs the ledger.
+- **Zofia Pytlak knows.** Michał told her the night it happened — he couldn't carry it alone. She's been pushing him to report it for two years. She wants the truth out, wants her husband free of the lie. She's the conscience he can't listen to. See [Zofia's character file](../characters/zofia.md).
 
 ## Why Michał Pytlak Carries This
 
