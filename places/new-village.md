@@ -42,10 +42,10 @@ The colonists of %NEW_VILLAGE% are the second layer of this tragedy. Brought in 
 - Residents: Zbigniew Gajda, his wife, Marek Gajda (when home), Tadek Gajda (crashes here irregularly)
 - **Narrative function:** Communication bottleneck; players must negotiate access to phone through Zbigniew Gajda
 
-### Helena Gajda & Emil Rzepka's House
+### Helena Rzepka & Emil Rzepka's House
 - Residence of the couple and their children
-- Helena Gajda's store is likely attached or very close
-- Residents: Helena Gajda, Emil Rzepka, Ewa Rzepka (eldest daughter), Krystian Rzepka (youngest, altar boy)
+- Helena Rzepka's store is likely attached or very close
+- Residents: Helena Rzepka, Emil Rzepka, Ewa Rzepka (eldest daughter), Krystian Rzepka (youngest, altar boy)
 - **Atmosphere:** Controlled facade (pious family), inner tension (unhappy marriage, Ewa Rzepka's worry for father)
 
 ### Janina Gajda's House
@@ -93,12 +93,12 @@ The colonists of %NEW_VILLAGE% are the second layer of this tragedy. Brought in 
 - **Safe place:** Where Edek Barnaś hides during the crisis; where ks. Władysław Pająk offers shelter and moral resistance
 - **Confessional:** Where secrets are kept and Krystian Rzepka overhears gossip
 
-### Helena Gajda's Store
+### Helena Rzepka's Store
 - Small general store, possibly with living space above/behind
 - Staffed by: Halina Zając (resentful shopkeeper)
 - **Bench outside:** Informal village gathering place; gossip hub
 - **Social function:** Where villagers gather, where drinking crew hangs around, where news circulates
-- **Control point:** Helena Gajda uses store to observe and control village behavior through commerce
+- **Control point:** Helena Rzepka uses store to observe and control village behavior through commerce
 
 ### Generic Villager Homes
 - Scattered throughout %NEW_VILLAGE%

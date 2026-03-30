@@ -2,7 +2,7 @@
 
 **Type:** Event (one-shot, first evening)
 **Location:** Zbigniew Gajda's house — the dining room → [wojewodas-office](../locations/wojewodas-office.md)
-**Present:** Zbigniew Gajda, Irena Gajda, Zofia Pytlak (serving), Helena Gajda, Emil Rzepka. Marek Gajda arrives late. Tadek Gajda crashes.
+**Present:** Zbigniew Gajda, Irena Gajda, Zofia Pytlak (serving), Helena Rzepka, Emil Rzepka. Marek Gajda arrives late. Tadek Gajda crashes.
 **Available:** First evening after arrival — follows naturally from 02-arrival if flooding is not discussed
 **Cost:** 1 action (takes the whole evening)
 
@@ -16,7 +16,7 @@ Midway through dinner — Tadek Gajda arrives. Drunk. Uninvited. He lets himself
 
 **Automatic:** Attending dinner builds rapport with Zbigniew Gajda and Irena Gajda. They see the committee as guests, not just officials.
 
-If players build enough rapport with Zbigniew Gajda during dinner — he offers lodging at his house, and Helena Gajda picks the most inquisitive players to stay at hers. She wants the curious ones under her roof where she can watch them. If rapport is weak — polite but distant evening, committee is sent to PGR quarters for the night.
+If players build enough rapport with Zbigniew Gajda during dinner — he offers lodging at his house, and Helena Rzepka picks the most inquisitive players to stay at hers. She wants the curious ones under her roof where she can watch them. If rapport is weak — polite but distant evening, committee is sent to PGR quarters for the night.
 
 ## Opportunities
 
@@ -24,7 +24,7 @@ If players build enough rapport with Zbigniew Gajda during dinner — he offers 
 - **Mention the city to Junior** — anything about life outside the mountains. Opportunities, work, what Warsaw is like. His whole posture changes. → Rapport with Marek Gajda (seed for cooperation — he'll help if it gets him out)
 - **Drink with Wujas** — engage him warmly, match his energy, don't judge. He's delighted — new drinking buddies. → Rapport with Tadek Gajda + seeds [Wujas is the weak link](../../clues/clues.md#wujas-is-the-weak-link)
 - **Compliment Zofia's cooking** — she beams. She's the PGR cook, she knows what's in the stores. → Rapport with Zofia Pytlak
-- **Learn about Ciotka** — in conversation, someone mentions a third sister. Helena Gajda and Irena Gajda have another sibling — Janina Gajda. → Bonus info: the family is bigger than it looks, Janina Gajda exists
+- **Learn about Ciotka** — in conversation, someone mentions a third sister. Helena Rzepka and Irena Gajda have another sibling — Janina Gajda. → Bonus info: the family is bigger than it looks, Janina Gajda exists
 
 ## Actions
 

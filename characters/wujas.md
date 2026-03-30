@@ -9,7 +9,7 @@
 
 ## Role
 
-One of four siblings — brother to Zbigniew Gajda, Helena Gajda, and Janina Gajda. Part of a family unit in %NEW_VILLAGE%.
+One of four siblings — brother to Zbigniew Gajda, Helena Rzepka, and Janina Gajda. Part of a family unit in %NEW_VILLAGE%.
 
 ## Heritage
 
@@ -21,7 +21,7 @@ No direct hatred. Tadek Gajda's feelings toward Edward Barnaś's family are comp
 
 ## Relationships
 
-- Siblings: Zbigniew Gajda, Helena Gajda, Janina Gajda
+- Siblings: Zbigniew Gajda, Helena Rzepka, Janina Gajda
 - **Deeply in love with Hania Barnaś** — but she didn't return it, preferring Emil Rzepka. Now she's dead by his hand.
 
 ## The Lynch

@@ -15,7 +15,7 @@ This depends entirely on the game state — what the players have uncovered, who
 **Any NPC can end up in the well. Any player can too.**
 
 Possible targets:
-- **The perpetrators** — Zbigniew Gajda, Tadek Gajda, Helena Gajda, Stanisław Rezeń. If the truth is out and the village knows who did it, the mob goes for them. Poetic justice — the killers end up where they put their victims.
+- **The perpetrators** — Zbigniew Gajda, Tadek Gajda, Helena Rzepka, Stanisław Rezeń. If the truth is out and the village knows who did it, the mob goes for them. Poetic justice — the killers end up where they put their victims.
 - **The wrong people** — If the truth is only half-out, the mob goes for whoever looks guilty. Marek Gajda (the false suspect with a violence record). Barbara Kopacz (the outsider nobody trusts). Paraskewia Chyłak (the witch in the forest). The village that lynched an innocent family once can do it again.
 - **The players** — If the committee pushed too hard, exposed too much, and broke the village open without building any allies — Ryszard Dudka's rage doesn't distinguish between perpetrators and catalysts. The people who brought the truth are the people who destroyed the peace. Into the well.
 

@@ -48,32 +48,32 @@ Minor NPCs, relationships, and supporting cast. Grouped by association for easy 
 
 ---
 
-## Helena Gajda and Emil Rzepka's Household
+## Helena Rzepka and Emil Rzepka's Household
 
 ### Ewa Rzepka / Ewa Rzepka
-**Type:** Young woman — Helena Gajda and Emil Rzepka's eldest child  
+**Type:** Young woman — Helena Rzepka and Emil Rzepka's eldest child  
 **Age in 1967:** ~13-15  
-**Role:** Worried about her father—she sees his fragility and broken state. This concern for Emil Rzepka is her defining trait. Could be sympathetic to players or protective of her family depending on the situation. A potential crack in Helena Gajda's control.
+**Role:** Worried about her father—she sees his fragility and broken state. This concern for Emil Rzepka is her defining trait. Could be sympathetic to players or protective of her family depending on the situation. A potential crack in Helena Rzepka's control.
 
 **Notes:** If players can reach Ewa Rzepka, she might reveal things about the household dynamic or her mother's cruelty.
 
 ### Krystian Rzepka
-**Type:** Child — Helena Gajda and Emil Rzepka's youngest, altar boy  
+**Type:** Child — Helena Rzepka and Emil Rzepka's youngest, altar boy  
 **Age in 1967:** ~8-9  
-**Role:** Serves at the church assisting ks. Władysław Pająk. Sees and hears confessional traffic, notices who comes and goes. Helena Gajda placed him in this role to maintain the family's pious reputation. Innocent but observant. First loyalty is to Helena Gajda.
+**Role:** Serves at the church assisting ks. Władysław Pająk. Sees and hears confessional traffic, notices who comes and goes. Helena Rzepka placed him in this role to maintain the family's pious reputation. Innocent but observant. First loyalty is to Helena Rzepka.
 
 **Notes:** May witness Edek Barnaś hiding in the church. His cooperation with players depends on whether they can separate him from his mother's influence.
 
 ---
 
-## Helena Gajda's Store
+## Helena Rzepka's Store
 
 ### Halina Zając / Halina Zając
-**Type:** Store worker — Helena Gajda's employee  
+**Type:** Store worker — Helena Rzepka's employee  
 **Age in 1967:** ~35-45  
-**Role:** Works in Helena Gajda's small general store. Deals with customers, manages stock, handles money. Sees everyone who comes through—knows the village's patterns and gossip. Resentful of working for Helena Gajda and struggles with the drinking crew (Szymek Kępa, Romek Głowacz, Franek Mucha) who hang around and cause trouble in the store.
+**Role:** Works in Helena Rzepka's small general store. Deals with customers, manages stock, handles money. Sees everyone who comes through—knows the village's patterns and gossip. Resentful of working for Helena Rzepka and struggles with the drinking crew (Szymek Kępa, Romek Głowacz, Franek Mucha) who hang around and cause trouble in the store.
 
-**Notes:** A gatekeeper to the store with a mean streak. Could be sympathetic to players if they take her side against the drunks, or hostile if they seem to align with her antagonists. Her resentment makes her more likely to complain about Helena Gajda than to protect her secrets.
+**Notes:** A gatekeeper to the store with a mean streak. Could be sympathetic to players if they take her side against the drunks, or hostile if they seem to align with her antagonists. Her resentment makes her more likely to complain about Helena Rzepka than to protect her secrets.
 
 ## Zbigniew Gajda's Farm Workers
 

@@ -56,6 +56,6 @@ Barbara Kopacz controls access to [Stefania Kopacz](babcia.md), and she is withd
 ## Open Questions
 
 - Does [Zbigniew Gajda](wojewoda.md) know about [Marek Gajda](junior.md) and Barbara Kopacz? About [Tadek Gajda](secondary-characters.md) and Barbara Kopacz?
-- How does [Helena Gajda](matrona.md) feel about this? (History repeating — men in her family chasing the hired girl?)
+- How does [Helena Rzepka](matrona.md) feel about this? (History repeating — men in her family chasing the hired girl?)
 - Does the village gossip about who the father is?
 - What does Barbara Kopacz know about the village's secrets? Working on [Zbigniew Gajda](wojewoda.md)'s farm, she may overhear things.

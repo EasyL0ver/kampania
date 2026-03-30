@@ -1,4 +1,4 @@
-# Helena Gajda
+# Helena Rzepka (née Gajda)
 
 **Type:** Named character — sibling (sister) / true architect of the lynch
 
@@ -7,7 +7,7 @@
 - **Born:** 1922
 - **Age in 1967:** 45
 - **Heritage:** Lemko (hidden) — see [Zbigniew Gajda](wojewoda.md) for shared sibling background
-- **Lives in:** [Helena Gajda & Emil Rzepka's house](../places/new-village.md#matrona--painters-house) — with [Emil Rzepka](secondary-characters.md), [Ewa Rzepka](secondary-characters.md), [Krystian Rzepka](secondary-characters.md)
+- **Lives in:** [Helena Rzepka & Emil Rzepka's house](../places/new-village.md#matrona--painters-house) — with [Emil Rzepka](secondary-characters.md), [Ewa Rzepka](secondary-characters.md), [Krystian Rzepka](secondary-characters.md)
 
 ## Character
 
@@ -23,10 +23,10 @@ One of four siblings — sister to [Zbigniew Gajda](wojewoda.md), [Tadek Gajda](
 
 ## The Lynch — The True Architect
 
-The village believes [Stanisław Rezeń](butcher.md) was the coldest head that night. **Wrong. It was Helena Gajda.**
+The village believes [Stanisław Rezeń](butcher.md) was the coldest head that night. **Wrong. It was Helena Rzepka.**
 
 - Went to her brothers **with intent** after catching the lovers. Got them drinking. Fed the rage. Aimed them at [Hania Barnaś](jagna.md) like a weapon.
-- When [Edward Barnaś](soldier.md) was dead and the drunk men panicked, it was Helena Gajda — **sober, clear-eyed** — who said to get rid of the problem. Never spelled it out. [Stanisław Rezeń](butcher.md) picked it up — the wife and the baby.
+- When [Edward Barnaś](soldier.md) was dead and the drunk men panicked, it was Helena Rzepka — **sober, clear-eyed** — who said to get rid of the problem. Never spelled it out. [Stanisław Rezeń](butcher.md) picked it up — the wife and the baby.
 - Never gave a direct order. Never touched anyone. Every hand that night was male. **Not accident — design.**
 
 ## In 1967
@@ -38,7 +38,7 @@ The village believes [Stanisław Rezeń](butcher.md) was the coldest head that n
 
 ## Divergence from Zbigniew Gajda
 
-If the lynch is uncovered, [Zbigniew Gajda](wojewoda.md) can take responsibility — a man who did something terrible while drunk. **Helena Gajda cannot.** Admitting the lynch means admitting she *designed* it, sober. She will fight the truth harder than anyone because she has the most to lose.
+If the lynch is uncovered, [Zbigniew Gajda](wojewoda.md) can take responsibility — a man who did something terrible while drunk. **Helena Rzepka cannot.** Admitting the lynch means admitting she *designed* it, sober. She will fight the truth harder than anyone because she has the most to lose.
 
 ## Redemption
 
@@ -55,13 +55,13 @@ The hardest in the story. Would have to admit not just complicity but **authorsh
 
 ## Well Influence
 
-Erodes Helena Gajda's **performance.** Doesn't shatter her like [Tadek Gajda](secondary-characters.md) — creates micro-cracks:
+Erodes Helena Rzepka's **performance.** Doesn't shatter her like [Tadek Gajda](secondary-characters.md) — creates micro-cracks:
 
 - Comments too sharp — flashes of contempt she'd normally suppress. The real woman surfaces before the mask snaps back.
 - Intrusive thoughts. Catches herself staring at [Emil Rzepka](secondary-characters.md) without rehearsed warmth. Loses thread of conversation with [ks. Władysław Pająk](secondary-characters.md) mid-sentence.
 - Over-corrects: more devout, more generous, more publicly perfect — reads as desperate to anyone paying attention.
 - Control over [Emil Rzepka](secondary-characters.md) tightens — more surveillance, pressure, reminders of what he owes her.
-- **Dream:** not the dead but **[Hania Barnaś](jagna.md)** — alive, young, just looking at her. Not accusatory. Just *seen*. Helena Gajda can face anything except being seen by the girl she had killed.
+- **Dream:** not the dead but **[Hania Barnaś](jagna.md)** — alive, young, just looking at her. Not accusatory. Just *seen*. Helena Rzepka can face anything except being seen by the girl she had killed.
 
 ## Flood Attitude
 

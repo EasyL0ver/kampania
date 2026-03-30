@@ -40,7 +40,7 @@ Nodes are **locked by default.** They unlock through:
 
 ### Graph Principles
 
-- **Multiple paths to the same information.** The lynch can be uncovered through Tadek Gajda (weak link), Ryszard Dudka (bystander), Janina Gajda (if Edek Barnaś is secured), Emil Rzepka (if freed from Helena Gajda), or physical evidence at the well. No single NPC is a hard gate to the core mystery.
+- **Multiple paths to the same information.** The lynch can be uncovered through Tadek Gajda (weak link), Ryszard Dudka (bystander), Janina Gajda (if Edek Barnaś is secured), Emil Rzepka (if freed from Helena Rzepka), or physical evidence at the well. No single NPC is a hard gate to the core mystery.
 
 - **Single paths to specific endings.** The ritual requires a specific chain (players → ks. Władysław Pająk → Barbara Kopacz → Stefania Kopacz). The engineering ending requires the bunker expedition. These are hard gates — miss a link, lose the ending.
 

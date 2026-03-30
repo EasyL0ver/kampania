@@ -15,7 +15,7 @@ A sociopath: violent, cold, dangerous. But something else lives in him — an ir
 
 ## The Lynch
 
-One of three drunk men who attacked [Hania Barnaś](jagna.md). **Participated in the rape** with [Tadek Gajda](secondary-characters.md). After [Edward Barnaś](soldier.md) was killed, [Helena Gajda](matrona.md) said to get rid of the problem — Stanisław Rezeń picked it up without hesitation. The wife and baby had to die too. No witnesses. Cold efficiency.
+One of three drunk men who attacked [Hania Barnaś](jagna.md). **Participated in the rape** with [Tadek Gajda](secondary-characters.md). After [Edward Barnaś](soldier.md) was killed, [Helena Rzepka](matrona.md) said to get rid of the problem — Stanisław Rezeń picked it up without hesitation. The wife and baby had to die too. No witnesses. Cold efficiency.
 
 - **Insisted on the well** — not just as a disposal site, as *the* place. Something about it felt right in a way he couldn't articulate. He didn't know the 1947 Lemko massacre victims were already down there. The choice wasn't rational — it was gravitational.
 - **The deepest symbolic rhyme:** his victims joined the Lemko dead. A coincidence that isn't a coincidence. No character is aware of it.

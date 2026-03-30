@@ -15,12 +15,12 @@ Roman Catholic priest residing at the small church in %NEW_VILLAGE%. Spiritual a
 
 ks. Władysław Pająk knows **far more than he lets on.** Through 13 years of confessions, observation, and careful listening, he has pieced together a near-complete picture — and the key source is **Janina Gajda**.
 
-Zbigniew Gajda's confessions are guarded — he gives fragments wrapped in justification. Helena Gajda's are masterful misdirection — real guilt carefully framed to hide her authorship. But Janina Gajda is too honest, too broken, and too desperate for absolution to edit herself. Over 13 years of confessions, she has told him **everything** — not deliberately, not all at once, but piece by piece, year by year, the whole picture spilled out. The rape, the killings, who did what, where the bodies went. She couldn't hold it alone.
+Zbigniew Gajda's confessions are guarded — he gives fragments wrapped in justification. Helena Rzepka's are masterful misdirection — real guilt carefully framed to hide her authorship. But Janina Gajda is too honest, too broken, and too desperate for absolution to edit herself. Over 13 years of confessions, she has told him **everything** — not deliberately, not all at once, but piece by piece, year by year, the whole picture spilled out. The rape, the killings, who did what, where the bodies went. She couldn't hold it alone.
 
 She doesn't realize how much she's given him. She doesn't think of confession as testimony — it's the one place she can breathe. ks. Władysław Pająk has never told her how much he's assembled from her words.
 
 **What he knows:**
-- **The lynch (1954):** The full sequence — Helena Gajda's orchestration, the assault on Hania Barnaś, the killings, Stanisław Rezeń strangling Edek Barnaś, Janina Gajda saving him. He knows who did what.
+- **The lynch (1954):** The full sequence — Helena Rzepka's orchestration, the assault on Hania Barnaś, the killings, Stanisław Rezeń strangling Edek Barnaś, Janina Gajda saving him. He knows who did what.
 - **Edek Barnaś's origin:** The boy is Edward Barnaś's surviving son. His brain damage was inflicted, not congenital.
 - **The well:** Where the bodies were dumped — the same well that holds the Lemko massacre remains.
 - **The village's silence:** How the whole community absorbed a family's disappearance without a question.
@@ -43,7 +43,7 @@ He's not wrong about any of this. That's what makes him dangerous.
 
 The church in %NEW_VILLAGE% is suspiciously well-maintained for a poor frontier parish. The roof doesn't leak. The altar has decent candles. ks. Władysław Pająk eats better than most villagers.
 
-**The siblings fund him.** Zbigniew Gajda provides from the PGR — firewood, food, occasional repairs. Helena Gajda donates through the store — supplies at no cost, gifts for the church. Even Janina Gajda contributes what little she has. It's never framed as a bribe. It's framed as piety — a devout family supporting their parish.
+**The siblings fund him.** Zbigniew Gajda provides from the PGR — firewood, food, occasional repairs. Helena Rzepka donates through the store — supplies at no cost, gifts for the church. Even Janina Gajda contributes what little she has. It's never framed as a bribe. It's framed as piety — a devout family supporting their parish.
 
 But the effect is the same. ks. Władysław Pająk's material comfort depends on the family whose sins he keeps. He didn't ask for this arrangement and he didn't negotiate it — it grew organically, the way these things do. The siblings give because giving to the church is what good Catholics do. That it also makes the priest dependent on their goodwill is something nobody says out loud.
 
@@ -92,14 +92,14 @@ Without that respect, the players get nothing from him. He sees them as another 
 
 **The danger: ks. Władysław Pająk can call a lynch on the players.** If the committee pushes too hard, too publicly, without building trust — if they threaten the village's fragile stability and ks. Władysław Pająk decides they're a greater danger than the secrets he keeps — he can turn the village against them. Not with a command. With a sermon. A word to the right people. A suggestion that these outsiders are here to destroy, not help. In a flooded village with no road out, a priest who decides the committee is the enemy is the most dangerous man alive. The same authority that keeps the peace can break it.
 
-**He can also be weaponized by Helena Gajda.** If she feels exposed — if the players are getting too close to the lynch, to her role in it — she can go to ks. Władysław Pająk and frame the committee as a threat to the village. ks. Władysław Pająk trusts her piety (she's his unwitting masterpiece). If Helena Gajda says these people are dangerous, ks. Władysław Pająk has 13 years of reasons to believe her. He may call a lynch not to protect himself, but to protect the village from a threat that Helena Gajda manufactured.
+**He can also be weaponized by Helena Rzepka.** If she feels exposed — if the players are getting too close to the lynch, to her role in it — she can go to ks. Władysław Pająk and frame the committee as a threat to the village. ks. Władysław Pająk trusts her piety (she's his unwitting masterpiece). If Helena Rzepka says these people are dangerous, ks. Władysław Pająk has 13 years of reasons to believe her. He may call a lynch not to protect himself, but to protect the village from a threat that Helena Rzepka manufactured.
 
 ## The Well's Influence
 
 The well erodes ks. Władysław Pająk's **theological certainty** — the foundation his entire 13-year bargain rests on.
 
 - His prayers feel hollow. The words come out but nothing answers. Mass feels like performance. The confessional — where he's sat for 13 years absorbing the village's sins — starts to feel like a trap, not a sacrament.
-- He becomes irritable, short with parishioners, distracted during services. Krystian Rzepka notices. Helena Gajda notices. The warm, steady pastor is fraying.
+- He becomes irritable, short with parishioners, distracted during services. Krystian Rzepka notices. Helena Rzepka notices. The warm, steady pastor is fraying.
 - The dreams come. Not about the dead — about the well itself. Stone walls descending into darkness. Water rising. The sound of prayer in a language that isn't Latin and isn't Polish. He wakes up knowing that something is down there that his God doesn't govern.
 - His 13-year justification — *"I chose the living over the dead"* — starts to collapse from within. The dead aren't staying dead. The living aren't staying sane. The bargain he made isn't holding, and the faith that underwrote it is going silent.
 
@@ -109,13 +109,13 @@ This is what eventually makes him grant permission for the Lemko rite. Not a cha
 
 ## Relationships
 
-### Helena Gajda — Fondness, shared piety
+### Helena Rzepka — Fondness, shared piety
 
-ks. Władysław Pająk's closest relationship among the siblings. Helena Gajda is **deeply, performatively, and possibly genuinely religious**. She attends every service, organizes church events, placed her son Krystian Rzepka as altar boy. She and ks. Władysław Pająk have long conversations about faith, morality, the parish. He sees in her a woman of conviction — pious, strong, devoted to her family.
+ks. Władysław Pająk's closest relationship among the siblings. Helena Rzepka is **deeply, performatively, and possibly genuinely religious**. She attends every service, organizes church events, placed her son Krystian Rzepka as altar boy. She and ks. Władysław Pająk have long conversations about faith, morality, the parish. He sees in her a woman of conviction — pious, strong, devoted to her family.
 
-He doesn't see the architect of a murder. Helena Gajda's confessions are the most carefully constructed — she brings him real guilt wrapped in misdirection, and he receives it as a soul struggling honestly with sin. Their rapport is warm, intellectual, almost a friendship. She's the parishioner he'd point to as proof that faith works.
+He doesn't see the architect of a murder. Helena Rzepka's confessions are the most carefully constructed — she brings him real guilt wrapped in misdirection, and he receives it as a soul struggling honestly with sin. Their rapport is warm, intellectual, almost a friendship. She's the parishioner he'd point to as proof that faith works.
 
-**This is Helena Gajda's masterpiece.** She hasn't just fooled him — she's made him her ally without him knowing it. When players start asking about the siblings, ks. Władysław Pająk will instinctively defend Helena Gajda first. *"A woman of deep faith. Whatever happened in this village, she has suffered for it."*
+**This is Helena Rzepka's masterpiece.** She hasn't just fooled him — she's made him her ally without him knowing it. When players start asking about the siblings, ks. Władysław Pająk will instinctively defend Helena Rzepka first. *"A woman of deep faith. Whatever happened in this village, she has suffered for it."*
 
 ### Zbigniew Gajda — Frenemy, mutual balance
 
@@ -160,7 +160,7 @@ He may come with them. He may stay behind. But the permission is what matters �
 
 ### What it costs him
 
-Everything he built. His alliance with Helena Gajda. His balance with Zbigniew Gajda. His funded comfort. His theological certainty. His 13-year bet that silence was mercy. By saying yes to the ritual, he's saying: *I was wrong. The dead needed more than I gave them. Someone else has to finish what I couldn't start.*
+Everything he built. His alliance with Helena Rzepka. His balance with Zbigniew Gajda. His funded comfort. His theological certainty. His 13-year bet that silence was mercy. By saying yes to the ritual, he's saying: *I was wrong. The dead needed more than I gave them. Someone else has to finish what I couldn't start.*
 
 ## Open Questions
 

@@ -12,7 +12,7 @@ He used this knowledge to claim the best piece of land in %NEW_VILLAGE%, arrivin
 
 This deepened the resentment against Edward Barnaś from multiple angles:
 
-- **The siblings** (Zbigniew Gajda, Tadek Gajda, Helena Gajda, Janina Gajda) — Lemko descendants watching a man who helped destroy their people now living fat off stolen land.
+- **The siblings** (Zbigniew Gajda, Tadek Gajda, Helena Rzepka, Janina Gajda) — Lemko descendants watching a man who helped destroy their people now living fat off stolen land.
 - **Other settlers** — suspicion and jealousy toward someone who seemed to have insider knowledge or connections.
 - **The irony** — Edward Barnaś profited directly from the massacre. The land was only available because its owners were dead by his hand.
 

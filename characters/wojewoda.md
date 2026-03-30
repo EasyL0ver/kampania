@@ -16,7 +16,7 @@ The man who runs things. **Sołtys (village headman)** — legitimate good leade
 
 ## Background / Role
 
-One of four siblings — brother to [Tadek Gajda](secondary-characters.md), [Helena Gajda](matrona.md), and [Janina Gajda](ciotka.md). Deep-rooted disdain for [Edward Barnaś](soldier.md) — rooted in Lemko heritage and knowledge of what [Edward Barnaś](soldier.md) did during Akcja Wisła. Primary source of hatred toward [Edward Barnaś](soldier.md) in [%NEW_VILLAGE%](../places/new-village.md).
+One of four siblings — brother to [Tadek Gajda](secondary-characters.md), [Helena Rzepka](matrona.md), and [Janina Gajda](ciotka.md). Deep-rooted disdain for [Edward Barnaś](soldier.md) — rooted in Lemko heritage and knowledge of what [Edward Barnaś](soldier.md) did during Akcja Wisła. Primary source of hatred toward [Edward Barnaś](soldier.md) in [%NEW_VILLAGE%](../places/new-village.md).
 
 ## The Lynch
 
@@ -48,7 +48,7 @@ Priority: **protect his people.**
 
 - **[Irena Gajda](wife.md)** — blind spot. Underestimates her completely. Doesn't know she's been watching him for 13 years. If he found out, he'd see betrayal, not justice.
 - **[Marek Gajda](junior.md)** — complicated pride. Sees him drifting toward [Tadek Gajda](secondary-characters.md)'s orbit — worries not about the boy's soul, but what a loose-tongued drunk uncle might say.
-- **[Helena Gajda](matrona.md)** — sibling he respects most and fears slightly. Smarter than him and he knows it. Unspoken division: he manages the village, she manages the story. Never confronted her about that night.
+- **[Helena Rzepka](matrona.md)** — sibling he respects most and fears slightly. Smarter than him and he knows it. Unspoken division: he manages the village, she manages the story. Never confronted her about that night.
 - **[Tadek Gajda](secondary-characters.md)** — brother, liability. Loves him with resignation and dread. Every drunk night is a risk. Tolerates the [bimber operation](../story-facts/bimber-operation.md) because it keeps [Tadek Gajda](secondary-characters.md) occupied. Real fear: wrong night, wrong company, wrong words.
 - **[Stanisław Rezeń](butcher.md)** — necessary distance. Participated together; now keeps him at arm's length. Useful as muscle, dangerous as loose end. Tolerates his presence like a guard dog you can't control.
 - **[por. Witold Skowron](officer.md)** — handler and protector. As sołtys, natural SB contact — reports upward, follows instructions, never asks questions he doesn't want answered. Not equal: [por. Witold Skowron](officer.md) holds real power. Sits at intersection of **both** cover-ups — the lynch from everyone, and helping [por. Witold Skowron](officer.md) keep the massacre buried. Whether he knows the full state secret or just follows orders is TBD.
@@ -70,4 +70,4 @@ Sees flooding before it's announced. Opportunity and threat: water destroys evid
 
 ## For Players
 
-The most cooperative NPC at first — genuinely useful guide and ally. His agenda (thorough census, quiet evacuation prep) aligns with the committee's. The reveal that he's one of the perpetrators is devastating because he's been *helpful*. Unlike [Helena Gajda](matrona.md), if confronted he can face it.
+The most cooperative NPC at first — genuinely useful guide and ally. His agenda (thorough census, quiet evacuation prep) aligns with the committee's. The reveal that he's one of the perpetrators is devastating because he's been *helpful*. Unlike [Helena Rzepka](matrona.md), if confronted he can face it.

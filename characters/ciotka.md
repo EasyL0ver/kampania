@@ -15,7 +15,7 @@ Devout, fearful, deeply honest when her guard drops. Eldest sibling but weakest 
 
 ## Background
 
-One of four siblings — sister to [Zbigniew Gajda](wojewoda.md), [Tadek Gajda](secondary-characters.md), and [Helena Gajda](matrona.md). No direct hatred or personal grudge against [Edward Barnaś](soldier.md).
+One of four siblings — sister to [Zbigniew Gajda](wojewoda.md), [Tadek Gajda](secondary-characters.md), and [Helena Rzepka](matrona.md). No direct hatred or personal grudge against [Edward Barnaś](soldier.md).
 
 ## The Lynch
 
@@ -29,8 +29,8 @@ A devout, single woman living in **[Edward Barnaś](soldier.md)'s house** — th
 
 - **[Edek Barnaś](glupek.md)** — her life's penance. Raised him from infancy — he's 17 now, massive, brain-damaged, trusting. She doesn't see [Edward Barnaś](soldier.md)'s son; she sees *her* boy. Love is real, fierce, tangled with guilt. Every day in his father's house is both punishment and purpose.
 - **[Stanisław Rezeń](butcher.md)** — silent terror. She stopped him killing [Edek Barnaś](glupek.md); he's never forgiven it. They don't speak, don't look at each other. She locks her door at night and keeps [Edek Barnaś](glupek.md) close. Lived in fear of him for 13 years.
-- **[ks. Władysław Pająk](secondary-characters.md)** — her confessor, the only person outside the family she trusts. Over 13 years of confessions, she has told him **everything** — not all at once, not deliberately, but piece by piece the whole picture spilled out. The rape, the killings, who did what, where the bodies went. **Janina Gajda is the reason [ks. Władysław Pająk](secondary-characters.md) knows.** [Zbigniew Gajda](wojewoda.md)'s confessions are guarded, [Helena Gajda](matrona.md)'s are masterful misdirection — but Janina Gajda is too honest, too broken, too desperate for absolution to edit herself. She doesn't realize how much she's given him. Their relationship reinforces each other's silence: she goes for comfort, he gives it, and neither acknowledges that what passes between them is a full account of a murder.
-- **The siblings** — obedience through fear. Saving [Edek Barnaś](glupek.md) was a betrayal of the pact. [Zbigniew Gajda](wojewoda.md) treats her with cold authority, [Helena Gajda](matrona.md) keeps her in line with looks and silences, [Tadek Gajda](secondary-characters.md) can barely face her. She stays quiet because quiet is the price of keeping her boy safe.
+- **[ks. Władysław Pająk](secondary-characters.md)** — her confessor, the only person outside the family she trusts. Over 13 years of confessions, she has told him **everything** — not all at once, not deliberately, but piece by piece the whole picture spilled out. The rape, the killings, who did what, where the bodies went. **Janina Gajda is the reason [ks. Władysław Pająk](secondary-characters.md) knows.** [Zbigniew Gajda](wojewoda.md)'s confessions are guarded, [Helena Rzepka](matrona.md)'s are masterful misdirection — but Janina Gajda is too honest, too broken, too desperate for absolution to edit herself. She doesn't realize how much she's given him. Their relationship reinforces each other's silence: she goes for comfort, he gives it, and neither acknowledges that what passes between them is a full account of a murder.
+- **The siblings** — obedience through fear. Saving [Edek Barnaś](glupek.md) was a betrayal of the pact. [Zbigniew Gajda](wojewoda.md) treats her with cold authority, [Helena Rzepka](matrona.md) keeps her in line with looks and silences, [Tadek Gajda](secondary-characters.md) can barely face her. She stays quiet because quiet is the price of keeping her boy safe.
 
 ## Well Influence
 

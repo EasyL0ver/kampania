@@ -46,7 +46,7 @@ When the committee starts asking questions or exploring the forest, they're like
 ## Connections to Larger Story
 
 - **Zbigniew Gajda knows about the still** — and tolerates it. It keeps Tadek Gajda and the crew occupied, dependent, and manageable. If the players report it to him, he'll wave it off or promise to "handle it" — another sign of his control.
-- **Helena Gajda supplies the sugar** through her store — at a markup. She profits from her brother's addiction. Another thread that looks conspiratorial but is just commerce.
+- **Helena Rzepka supplies the sugar** through her store — at a markup. She profits from her brother's addiction. Another thread that looks conspiratorial but is just commerce.
 - **The still site is NOT near the well or Paraskewia Chyłak's cabin** — but it's in the same forest. Players who "clear" the forest after finding the still may not look deeper. Players who keep exploring despite the still may find the real secrets.
 
 ## For the GM

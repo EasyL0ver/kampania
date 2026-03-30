@@ -48,6 +48,6 @@ The village that lynched Edward Barnaś's family is about to lynch the committee
 ## Open Questions
 
 - Does Stanisław Rezeń lead the physical violence again, or does Zbigniew Gajda find new hands?
-- Where does Helena Gajda stand? Marek Gajda?
+- Where does Helena Rzepka stand? Marek Gajda?
 - Is this preventable in every playthrough, or can it be the ending?
 - If the players survive but the lynch was attempted — what does por. Witold Skowron find on day 5?

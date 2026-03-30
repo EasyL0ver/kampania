@@ -10,7 +10,7 @@ He's 21 now. Old enough to be trusted. Old enough to ask questions. And old enou
 
 ## How It Started
 
-Irena Gajda never sat Marek Gajda down and told him. It happened gradually — a comment here, a question there. Marek Gajda grew up watching his father's locked silences, his uncle's drinking, his aunt Helena Gajda's controlled performances. He started asking his mother: *"Why does uncle Tadek Gajda drink so much?"* and *"What happened to the family that used to live in Janina Gajda's house?"*
+Irena Gajda never sat Marek Gajda down and told him. It happened gradually — a comment here, a question there. Marek Gajda grew up watching his father's locked silences, his uncle's drinking, his aunt Helena Rzepka's controlled performances. He started asking his mother: *"Why does uncle Tadek Gajda drink so much?"* and *"What happened to the family that used to live in Janina Gajda's house?"*
 
 Irena Gajda didn't answer directly. But she stopped deflecting. She'd say things like *"Nobody talks about that"* or *"Ask your father and watch his face."* That was enough. Marek Gajda started watching. Then noticing. Then asking more.
 
@@ -44,7 +44,7 @@ Players will spend time trying to figure out who this second investigator is. Ar
 Irena Gajda and Marek Gajda's investigation is the most dangerous thing in the village — not for the players, but for *them*:
 
 - **If Zbigniew Gajda finds out**, his wife and son have been building a case against him. He'll see betrayal, not justice. What he does next depends on how cornered he feels.
-- **If Helena Gajda finds out**, she'll move to neutralize it. She's done this before — she knows how to handle people who become problems.
+- **If Helena Rzepka finds out**, she'll move to neutralize it. She's done this before — she knows how to handle people who become problems.
 - **If Stanisław Rezeń finds out**, Marek Gajda has been visiting %OLD_VILLAGE% and asking about 1954. The man who tried to strangle a toddler to eliminate witnesses won't hesitate.
 - **If por. Witold Skowron finds out**, state security has a new problem — civilians digging into events the state wants buried.
 
@@ -67,6 +67,6 @@ His visits to %OLD_VILLAGE% are reckless. He doesn't know what's in the well. He
 This subplot serves multiple purposes:
 
 - **Red herring:** Players waste time identifying the "second investigator" and sorting friend from foe.
-- **Time pressure:** Marek Gajda's reckless visits to %OLD_VILLAGE% risk alerting Zbigniew Gajda, Stanisław Rezeń, or Helena Gajda. If the players don't find Irena Gajda and Marek Gajda quickly, the family might find them first.
+- **Time pressure:** Marek Gajda's reckless visits to %OLD_VILLAGE% risk alerting Zbigniew Gajda, Stanisław Rezeń, or Helena Rzepka. If the players don't find Irena Gajda and Marek Gajda quickly, the family might find them first.
 - **Emotional payoff:** When the players finally connect with Irena Gajda, it's one of the most powerful moments in the story — two investigations meeting, a woman who's waited 13 years for someone to believe her.
 - **Tragedy potential:** If the players fumble the connection — expose Irena Gajda to Zbigniew Gajda, or arrive too late — this subplot becomes the story's deepest wound. The one person trying to do the right thing, destroyed by the people who came to help.

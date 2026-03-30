@@ -48,12 +48,12 @@ Hidden clearing off one of the forest paths, roughly halfway between %NEW_VILLAG
 **Current state (1967):**
 - Actively in use by Tadek Gajda and his drinking crew (Szymek Kępa, Romek Głowacz, Franek Mucha)
 - Smoke and fermentation smell detectable from nearby paths
-- Sugar supplied by Helena Gajda's store; Zbigniew Gajda knows and tolerates it
+- Sugar supplied by Helena Rzepka's store; Zbigniew Gajda knows and tolerates it
 
 **What players might find:**
 - The still and brewing equipment
 - Footprints and worn trail from %NEW_VILLAGE%
-- Sugar sacks traceable to Helena Gajda's store
+- Sugar sacks traceable to Helena Rzepka's store
 - Empty bottles, drinking debris
 
 **Red herring value:** Looks like a major secret — hidden forest activity, nervous men, concealment. It's just bimber. See `story-facts\bimber-operation.md` for full details.

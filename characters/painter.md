@@ -9,26 +9,26 @@
 
 ## Role
 
-Fiancé of Helena Gajda. Was secretly romancing Hania Barnaś (daughter of Edward Barnaś).
+Fiancé of Helena Rzepka. Was secretly romancing Hania Barnaś (daughter of Edward Barnaś).
 
 ## Relationships
 
-- **Helena Gajda** — wife (married after the lynch, despite the affair)
+- **Helena Rzepka** — wife (married after the lynch, despite the affair)
 - **Hania Barnaś** — secret lover (now dead)
 
 ## The Lynch
 
-Caught in flagranti with Hania Barnaś by Helena Gajda. Beaten by Tadek Gajda, Zbigniew Gajda, and Stanisław Rezeń but **spared** — chased away on account of being Helena Gajda's fiancé.
+Caught in flagranti with Hania Barnaś by Helena Rzepka. Beaten by Tadek Gajda, Zbigniew Gajda, and Stanisław Rezeń but **spared** — chased away on account of being Helena Rzepka's fiancé.
 
 ## In 1967
 
-Married to Helena Gajda. Living in %NEW_VILLAGE%. The man whose affair started everything — and who was beaten and chased off while Hania Barnaś was murdered behind him. Does he know what happened after he left? Does he live with the guilt of surviving when she didn't?
+Married to Helena Rzepka. Living in %NEW_VILLAGE%. The man whose affair started everything — and who was beaten and chased off while Hania Barnaś was murdered behind him. Does he know what happened after he left? Does he live with the guilt of surviving when she didn't?
 
 ## The Flood & The Committee
 
-**He secretly wants Hania Barnaś in the census.** He won't say it. He can't say it — Helena Gajda would destroy him. But when the government people start writing names and counting souls, something in him wants to walk up to them and say: *there was a woman named Hania Barnaś. She lived here. Write her down.*
+**He secretly wants Hania Barnaś in the census.** He won't say it. He can't say it — Helena Rzepka would destroy him. But when the government people start writing names and counting souls, something in him wants to walk up to them and say: *there was a woman named Hania Barnaś. She lived here. Write her down.*
 
-The census is the last record before the flood erases this place. If Hania Barnaś isn't on paper, she never existed. The village drowns and she drowns with it a second time. Emil Rzepka can't bear that — and he can't do anything about it. Not while Helena Gajda is watching.
+The census is the last record before the flood erases this place. If Hania Barnaś isn't on paper, she never existed. The village drowns and she drowns with it a second time. Emil Rzepka can't bear that — and he can't do anything about it. Not while Helena Rzepka is watching.
 
 If the players get him alone — truly alone, away from her — this is what comes out. Not a confession about the lynch. A name. He wants a dead woman written on a piece of government paper so that something survives the water.
 

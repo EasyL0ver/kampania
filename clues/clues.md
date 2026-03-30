@@ -7,7 +7,7 @@ Player-discoverable knowledge. Each clue is an atomic fact. Character files link
 ## Heritage & Identity
 
 ### siblings-are-lemko
-[Zbigniew Gajda](../characters/wojewoda.md), [Helena Gajda](../characters/matrona.md), [Tadek Gajda](../characters/secondary-characters.md), and [Janina Gajda](../characters/ciotka.md) are siblings of Lemko descent, hiding behind Polish identities.
+[Zbigniew Gajda](../characters/wojewoda.md), [Helena Rzepka](../characters/matrona.md), [Tadek Gajda](../characters/secondary-characters.md), and [Janina Gajda](../characters/ciotka.md) are siblings of Lemko descent, hiding behind Polish identities.
 
 ### hag-exists
 Someone lives in the [forest](../places/forest.md). Villagers call her a witch, a ghost, a story to scare children. She's real.
@@ -57,10 +57,10 @@ The flood zone was chosen partly to bury the massacre evidence. [por. Witold Sko
 ## The 1954 Lynch
 
 ### matrona-caught-lovers
-[Helena Gajda](../characters/matrona.md) caught [Hania Barnaś](../characters/jagna.md) and [Emil Rzepka](../characters/secondary-characters.md) together.
+[Helena Rzepka](../characters/matrona.md) caught [Hania Barnaś](../characters/jagna.md) and [Emil Rzepka](../characters/secondary-characters.md) together.
 
 ### matrona-orchestrated-lynch
-[Helena Gajda](../characters/matrona.md) orchestrated the drinking that led to the lynch. She stayed sober, aimed her brothers at [Hania Barnaś](../characters/jagna.md), and said "get rid of the problem." She never touched anyone — every hand that night was male.
+[Helena Rzepka](../characters/matrona.md) orchestrated the drinking that led to the lynch. She stayed sober, aimed her brothers at [Hania Barnaś](../characters/jagna.md), and said "get rid of the problem." She never touched anyone — every hand that night was male.
 
 ### three-drunk-attackers
 [Tadek Gajda](../characters/secondary-characters.md), [Zbigniew Gajda](../characters/wojewoda.md), and [Stanisław Rezeń](../characters/butcher.md) were the three drunk men who attacked [Hania Barnaś](../characters/jagna.md).
@@ -87,10 +87,10 @@ The bodies from the 1954 lynch were dumped in the old well in [%OLD_VILLAGE%](..
 [Tadek Gajda](../characters/secondary-characters.md) was in love with [Hania Barnaś](../characters/jagna.md), but she chose [Emil Rzepka](../characters/secondary-characters.md).
 
 ### painter-was-spared
-[Emil Rzepka](../characters/secondary-characters.md) was beaten but spared because he was [Helena Gajda](../characters/matrona.md)'s fiancé.
+[Emil Rzepka](../characters/secondary-characters.md) was beaten but spared because he was [Helena Rzepka](../characters/matrona.md)'s fiancé.
 
 ### painter-heard-matrona
-[Emil Rzepka](../characters/secondary-characters.md) heard [Helena Gajda](../characters/matrona.md)'s voice giving instructions during the lynch.
+[Emil Rzepka](../characters/secondary-characters.md) heard [Helena Rzepka](../characters/matrona.md)'s voice giving instructions during the lynch.
 
 ### ciotka-saved-glupek
 [Janina Gajda](../characters/ciotka.md) physically intervened to save [Edek Barnaś](../characters/glupek.md)'s life that night. The family has never forgiven her.
@@ -167,7 +167,7 @@ From the first night in the village, the players have dreams of violence — han
 [Tadek Gajda](../characters/secondary-characters.md) is the weakest link in the lynch cover-up. He's been drinking to forget for 13 years. Has let fragments slip: "She didn't deserve it." The name Hania Barnaś. "Don't ever be like us."
 
 ### matrona-controls-painter
-[Helena Gajda](../characters/matrona.md) keeps [Emil Rzepka](../characters/secondary-characters.md) broken, dependent, and terrified. He knows the truth. She's made sure he'll never speak it.
+[Helena Rzepka](../characters/matrona.md) keeps [Emil Rzepka](../characters/secondary-characters.md) broken, dependent, and terrified. He knows the truth. She's made sure he'll never speak it.
 
 ### painter-wants-to-confess
 [Emil Rzepka](../characters/secondary-characters.md) secretly wants [Hania Barnaś](../characters/jagna.md) included in the census so she is not erased by the flood.
@@ -242,7 +242,7 @@ The players must supply the truth by naming the dead and saying what happened to
 [Michał Pytlak](../characters/foreman.md) and [Zbigniew Gajda](../characters/wojewoda.md) covered up a preventable death on the PGR farm. Tadeusz Mazur died ~1965 — never reported to the state. His wages still flow to [Wanda Mazur](../characters/widow.md) as a fake "widow's pension." She doesn't know. The village doesn't know the death was never filed. Same mechanism as the lynch: bury the truth, keep outsiders away.
 
 ### bimber-still
-[Tadek Gajda](../characters/secondary-characters.md)'s crew runs an illegal bimber still in the [forest](../places/forest.md), halfway between the villages. Just moonshine — not the murder conspiracy. [Zbigniew Gajda](../characters/wojewoda.md) knows and tolerates it. [Helena Gajda](../characters/matrona.md) supplies sugar through the store.
+[Tadek Gajda](../characters/secondary-characters.md)'s crew runs an illegal bimber still in the [forest](../places/forest.md), halfway between the villages. Just moonshine — not the murder conspiracy. [Zbigniew Gajda](../characters/wojewoda.md) knows and tolerates it. [Helena Rzepka](../characters/matrona.md) supplies sugar through the store.
 
 ### paweleks-illness
 [Pawełek Kopacz](../characters/secondary-characters.md) drinks contaminated floodwater near the well and falls ill. Medically ordinary for flood conditions — but his fever dreams mention "the water under the ground" and whispers near the well.

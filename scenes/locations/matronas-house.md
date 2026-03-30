@@ -2,7 +2,7 @@
 
 **Type:** Location (revisitable)
 **Location:** %NEW_VILLAGE% — neat, central, close to the [store](the-store.md). The best-kept house on the street.
-**Present:** [Helena Gajda](../../characters/matrona.md) (usually — splits time with [the store](the-store.md)), [Emil Rzepka](../../characters/painter.md) (always — doesn't go far), [Ewa Rzepka](../../characters/secondary-characters.md) (usually), [Krystian Rzepka](../../characters/secondary-characters.md) (irregular — altar boy duties at church)
+**Present:** [Helena Rzepka](../../characters/matrona.md) (usually — splits time with [the store](the-store.md)), [Emil Rzepka](../../characters/painter.md) (always — doesn't go far), [Ewa Rzepka](../../characters/secondary-characters.md) (usually), [Krystian Rzepka](../../characters/secondary-characters.md) (irregular — altar boy duties at church)
 **Available:** Any time. Players may be **housed here** if Helena chose them at dinner (see [03-dinner](../events/03-dinner.md)).
 **Cost:** 1 action per visit
 
@@ -10,7 +10,7 @@
 
 The most presentable house in the village. Whitewashed walls, swept path, flowers in the window box. Inside: religious icons in every room, a crucifix above the dining table, embroidered tablecloth, the smell of beeswax and clean linen. Everything is curated. This is not a home — it's a set.
 
-Helena Gajda receives guests at the kitchen table with bread and tea. She is warm, attentive, interested in the committee's work. She asks questions — about the census, the flood assessment, where each committee member is from. She remembers every answer.
+Helena Rzepka receives guests at the kitchen table with bread and tea. She is warm, attentive, interested in the committee's work. She asks questions — about the census, the flood assessment, where each committee member is from. She remembers every answer.
 
 Emil Rzepka sits in the corner near the stove or works in the small outbuilding behind the house — a lean-to shed he uses as a painting space. He's present but receded. Greets players politely, says little. His hands are stained with paint. He looks at Helena before he speaks.
 
@@ -32,12 +32,12 @@ Krystian Rzepka (~9) comes and goes — altar boy at the church, Helena's plante
 - **Requires:** Committee authority
 - **Cost:** 1 action
 - **Outcome:** Flawless. She has every answer ready. Household composition, dates, occupations — all correct. She volunteers information about the village: who's difficult (Butcher), who needs help (Wanda Mazur), who to be careful with (Edek — "the poor boy"). She paints a picture of a struggling but decent community. Herself: the wronged woman who forgave a cheating husband, raised his children, kept the faith. Every word is true. Every word hides a murder.
-- **Leads to:** Nothing directly. The census visit is a dead end — Helena Gajda gives nothing away. But the interview establishes her version of events, which crumbles when contradicted by other sources.
+- **Leads to:** Nothing directly. The census visit is a dead end — Helena Rzepka gives nothing away. But the interview establishes her version of events, which crumbles when contradicted by other sources.
 
 ### Get Emil alone
 - **Requires:** Helena absent (at the store, at church, at a village meeting). This is the hardest thing to achieve in this house — she rarely leaves him unattended.
 - **Cost:** 1 action
-- **Outcome:** Without her, the dam cracks. Not all at once — 13 years of conditioning don't break in one conversation. He's shaking. He talks about the night — being beaten, dragged away, hearing screaming behind him. And then, carefully, like touching a wound: **her voice.** Not screaming. Not crying. Giving instructions. He heard Helena Gajda directing the men while he bled in the dirt.
+- **Outcome:** Without her, the dam cracks. Not all at once — 13 years of conditioning don't break in one conversation. He's shaking. He talks about the night — being beaten, dragged away, hearing screaming behind him. And then, carefully, like touching a wound: **her voice.** Not screaming. Not crying. Giving instructions. He heard Helena Rzepka directing the men while he bled in the dirt.
 - **Leads to:** → [painter-heard-matrona](../../clues/clues.md#painter-heard-matrona). The most damning testimony against Helena — he heard the architect at work. But he'll recant if Helena is present. His word against hers. And she's been preparing for this for 13 years.
 
 ### Ask Emil about Hania

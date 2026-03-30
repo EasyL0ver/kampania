@@ -20,7 +20,7 @@ While Operation Vistula displaced ~150,000 people, a small number of Lemkos mana
 
 ## Relevance to Story
 
-The four siblings (Zbigniew Gajda, Tadek Gajda, Helena Gajda, Janina Gajda) are of Lemko descent — hidden behind Polish identities in %NEW_VILLAGE%. Their disdain for Edward Barnaś is rooted in this heritage — he represents the apparatus that destroyed their people.
+The four siblings (Zbigniew Gajda, Tadek Gajda, Helena Rzepka, Janina Gajda) are of Lemko descent — hidden behind Polish identities in %NEW_VILLAGE%. Their disdain for Edward Barnaś is rooted in this heritage — he represents the apparatus that destroyed their people.
 
 ## Sources
 

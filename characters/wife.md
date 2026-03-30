@@ -51,7 +51,7 @@ She loves both of them. She's damaging both of them. Not malice — boredom and 
 
 - **[Zbigniew Gajda](wojewoda.md)** — husband. Loves him. He dismisses her from everything that matters. His blind spot.
 - **[Marek Gajda](junior.md)** — son. Secret investigation partner. She used him — her darkness.
-- **[Helena Gajda](matrona.md)** — sister-in-law. Dynamic unclear (see Open Questions).
+- **[Helena Rzepka](matrona.md)** — sister-in-law. Dynamic unclear (see Open Questions).
 - **[ks. Władysław Pająk](secondary-characters.md)** — **another door closed.** Approached him more than once — in confession, in private, carefully. Shut down every time: *"Suspicion without proof is a sin against your neighbour."* Another man telling her to be quiet and stop noticing things. Husband dismisses her from the table, priest from the confessional. The whole village tells her she's wrong when she knows she's not. **That's what drives her.**
 - **[Tadek Gajda](secondary-characters.md)** — brother-in-law. Source of drunken fragments (via [Marek Gajda](junior.md)).
 
@@ -84,6 +84,6 @@ Doesn't trust them initially — state people, same apparatus her husband works 
 
 ## Open Questions
 
-- How does [Helena Gajda](matrona.md) treat her? Ally or adversary?
+- How does [Helena Rzepka](matrona.md) treat her? Ally or adversary?
 - Does she know about [Barbara Kopacz](barbara.md) and [Marek Gajda](junior.md)? About [Barbara Kopacz](barbara.md) and [Tadek Gajda](secondary-characters.md)?
 - Has she ever confronted [Zbigniew Gajda](wojewoda.md)? Even once, even obliquely?

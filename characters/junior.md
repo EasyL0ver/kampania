@@ -44,7 +44,7 @@ Sleeping with [Barbara Kopacz](barbara.md). Doesn't know [Tadek Gajda](secondary
 - **[Zbigniew Gajda](wojewoda.md)** — father (sołtys). Complicated pride/disappointment both ways.
 - **[Irena Gajda](wife.md)** — mother. Secret investigation partner.
 - **[Tadek Gajda](secondary-characters.md)** — uncle. Drinking buddy and unwitting informant.
-- **[Helena Gajda](matrona.md)** — aunt.
+- **[Helena Rzepka](matrona.md)** — aunt.
 - **[Janina Gajda](ciotka.md)** — aunt.
 - **[Barbara Kopacz](barbara.md)** — lover.
 
