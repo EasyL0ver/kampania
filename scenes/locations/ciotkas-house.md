@@ -56,11 +56,12 @@ Edek is large — six foot, broad, silent. He stands behind Janina or sits in hi
 - **Requires:** Janina absent or distracted (at church, at the store, dealing with Edek outside). She would never allow this.
 - **Cost:** 1 action
 - **Outcome:** A trapdoor in the ceiling, a rickety ladder. The attic is dusty, undisturbed. Janina either never looked or couldn't bring herself to clear it. Up there — a different family's life, boxed and forgotten:
-  - **A military discharge letter** — name: Edward Barnaś. Rank, unit, date of service. The soldier who lived here.
-  - **A family photograph** — faded, creased. A man in uniform, a woman in a headscarf, a teenage girl with dark eyes, a baby on the mother's knee. Four people. None of them live here anymore. The baby looks about four.
-  - **A girl's dress** — folded, moth-eaten. Too small for an adult, too big for a child. A teenager's. Hania's.
-  - **A Lemko prayer book** — Cyrillic script, Greek Catholic. The wife's. The soldier married a Lemko woman.
-- **Leads to:** The house had a family. A soldier, his Lemko wife, a teenage daughter, and a baby. The baby's age matches Edek. The surname matches Edek. The family is gone and nobody will say where. → Seeds [ciotka-lives-in-soldiers-house](../../clues/clues.md#ciotka-lives-in-soldiers-house), connects the name "Barnaś" across Edek and the military letter. If players already have fragments from Neighbour or the well — this is the confirmation.
+  - **A military discharge letter** — name: Edward Barnaś. Rank, unit, dates of service (WWII era). The name matches the boy downstairs — but a 17-year-old wasn't in the army. This is someone older. His father?
+  - **A girl's dress** — folded, moth-eaten. Too small for an adult, too big for a child. A teenager's.
+  - **A Lemko prayer book** — Cyrillic script, Greek Catholic. Someone in this household was Lemko.
+  - **Men's clothes** — too small for Edek's massive frame. A different man's build.
+  - **A child's wooden rattle** — hand-carved, worn smooth. A baby lived here once.
+- **Leads to:** The house had a family. A soldier named Edward Barnaś — same name as the boy downstairs. The name creates confusion before clarity: is this Edek's stuff? His father's? Players need to work out that the boy was named after the father. And then: where IS the father? Where's the girl who wore that dress? Where's the Lemko woman who prayed from that book? Four people lived here. One remains. Nobody will say what happened to the other three. → Seeds [ciotka-lives-in-soldiers-house](../../clues/clues.md#ciotka-lives-in-soldiers-house)
 
 ## GM Notes
 
