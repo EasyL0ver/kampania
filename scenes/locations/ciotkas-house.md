@@ -52,6 +52,16 @@ Edek is large — six foot, broad, silent. He stands behind Janina or sits in hi
 - **Outcome:** She breaks. Not cleanly — she cries, she contradicts, she begs you not to write it down. But the story comes out: the night, the drinking, the screaming, what she saw, what she did, what she couldn't stop. The most honest account of the lynch available from any living witness. She names names. She tells them where the bodies went.
 - **Leads to:** Full lynch revelation. → [ciotka-saved-glupek](../../clues/clues.md#ciotka-saved-glupek), [glupek-strangled](../../clues/clues.md#glupek-strangled), and the full core mystery unlocked. But only if she believes Edek is safe. **That belief is fragile** — if Butcher is active, if the village is tense, if she thinks anyone else knows she talked, she shuts down and won't open again.
 
+### Search the attic
+- **Requires:** Janina absent or distracted (at church, at the store, dealing with Edek outside). She would never allow this.
+- **Cost:** 1 action
+- **Outcome:** A trapdoor in the ceiling, a rickety ladder. The attic is dusty, undisturbed. Janina either never looked or couldn't bring herself to clear it. Up there — a different family's life, boxed and forgotten:
+  - **A military discharge letter** — name: Edward Barnaś. Rank, unit, date of service. The soldier who lived here.
+  - **A family photograph** — faded, creased. A man in uniform, a woman in a headscarf, a teenage girl with dark eyes, a baby on the mother's knee. Four people. None of them live here anymore. The baby looks about four.
+  - **A girl's dress** — folded, moth-eaten. Too small for an adult, too big for a child. A teenager's. Hania's.
+  - **A Lemko prayer book** — Cyrillic script, Greek Catholic. The wife's. The soldier married a Lemko woman.
+- **Leads to:** The house had a family. A soldier, his Lemko wife, a teenage daughter, and a baby. The baby's age matches Edek. The surname matches Edek. The family is gone and nobody will say where. → Seeds [ciotka-lives-in-soldiers-house](../../clues/clues.md#ciotka-lives-in-soldiers-house), connects the name "Barnaś" across Edek and the military letter. If players already have fragments from Neighbour or the well — this is the confirmation.
+
 ## GM Notes
 
 **This house is the core mystery's most complete source** — but the hardest to access. Janina holds the full truth and will give it only under one condition: Edek's safety. Every other path to the lynch gives fragments. Janina gives the whole picture.
