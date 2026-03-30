@@ -28,7 +28,7 @@ The wooden buildings were burned in 1947. Stone survived. What fire couldn't fin
 - **Fragments of daily life** — pottery, tools, household items. A village that was living one day and dead the next.
 - **Fruit trees** — still producing after twenty years. Nature doesn't know the people are gone.
 - **Root cellars** — if players descend (dangerous), may contain preserved items from 1947
-- **Scale** — counting foundations gives village size. Cross-reference with [cemetery](old-village-cemetery.md) graves: the numbers don't match.
+- **Scale** — counting foundations gives village size. Too many homes for a "small settlement." The official record understates what was here.
 - **Burn marks** — evidence the destruction was deliberate, not natural decay. → Seeds [old-village-was-burned](../../clues/clues.md#old-village-was-burned)
 
 ## Actions
