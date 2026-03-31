@@ -22,7 +22,7 @@ Not cruel — genuinely believes he's on the right side. Sees himself as a prote
 ## Relationships
 
 - **[Zbigniew Gajda](wojewoda.md)** — his informant and local contact. The sołtys reports to him, keeps order, ensures nobody asks wrong questions. In return, [Zbigniew Gajda](wojewoda.md) enjoys state backing. The committee is managed from both sides — por. Witold Skowron from above, [Zbigniew Gajda](wojewoda.md) from within.
-- **[ks. Władysław Pająk](secondary-characters.md)** — contempt. The Church is a relic, a rival power structure. In Bieszczady, where state grip is weak, a village priest holds real influence, and that grates. Has shown contempt through paperwork complications, veiled threats, reminders the state tolerates religion only while it stays quiet. Would love a reason to shut the parish down. On the village's secrets they're accidentally aligned — both want silence — but por. Witold Skowron would never cooperate with a priest.
+- **[ks. Władysław Pająk](priest.md)** — contempt. The Church is a relic, a rival power structure. In Bieszczady, where state grip is weak, a village priest holds real influence, and that grates. Has shown contempt through paperwork complications, veiled threats, reminders the state tolerates religion only while it stays quiet. Would love a reason to shut the parish down. On the village's secrets they're accidentally aligned — both want silence — but por. Witold Skowron would never cooperate with a priest.
 
 ## The Layers of Cover-Up
 

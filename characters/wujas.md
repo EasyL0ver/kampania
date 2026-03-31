@@ -33,7 +33,7 @@ One of the three drunk men who attacked Hania Barnaś. **Participated in the rap
 
 A **rocker and alcoholic**. The guilt, the rejection, the violence — Tadek Gajda has drowned it all in booze. A wreck of a man. Volatile, unpredictable, possibly the weakest link in the cover-up — the one most likely to crack under pressure or let something slip when drunk.
 
-Sleeping with **Barbara Kopacz** (who also sleeps with his nephew Marek Gajda). He is the **actual father of Pawełek Kopacz**, but nobody knows — not even Barbara Kopacz herself. Another secret piled on top of all the others.
+Slept with **Barbara Kopacz** once. He is the **actual father of Pawełek Kopacz**, but nobody knows — including him. Barbara is with his nephew Marek regularly; everyone, including Barbara, assumes Marek is the father. Tadek doesn't even consider the possibility. It was one night.
 
 ## The Flood & The Committee
 

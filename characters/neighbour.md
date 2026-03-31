@@ -76,6 +76,6 @@ Angry at the government. Same rage as [Barbara Kopacz](barbara.md) — the state
 ## Open Questions
 
 - Does he live alone or have family?
-- Has he ever hinted at what he knows — to [ks. Władysław Pająk](secondary-characters.md) in confession, to a drunk companion?
+- Has he ever hinted at what he knows — to [ks. Władysław Pająk](priest.md) in confession, to a drunk companion?
 - How does he react to [Edek Barnaś](glupek.md)? Avoidance? Guilt-driven small kindnesses?
 - Does [Janina Gajda](ciotka.md) suspect he knows?

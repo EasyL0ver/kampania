@@ -20,6 +20,11 @@ Someone lives in the [forest](../scenes/locations/hags-cabin.md). Villagers call
 
 ---
 
+## The Old Village
+
+### old-village-exists
+There's an old, abandoned village in the forest — [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). Ruins, overgrown paths, stone foundations. People used to live there. Nobody does now.
+
 ## The 1947 Massacre
 
 ### old-village-was-lemko
@@ -102,7 +107,7 @@ The bodies from the 1954 lynch were dumped in the old well in [%OLD_VILLAGE%](..
 [Janina Gajda](../characters/ciotka.md) physically intervened to save [Edek Barnaś](../characters/glupek.md)'s life that night. The family has never forgiven her.
 
 ### priest-knows-everything
-[ks. Władysław Pająk](../characters/secondary-characters.md) knows the full lynch story — who did what, where the bodies went — because [Janina Gajda](../characters/ciotka.md) confessed it all to him over 13 years.
+[ks. Władysław Pająk](../characters/priest.md) knows the full lynch story — who did what, where the bodies went — because [Janina Gajda](../characters/ciotka.md) confessed it all to him over 13 years.
 
 ### neighbour-heard-the-lynch
 [Ryszard Dudka](../characters/neighbour.md) heard everything from next door — screaming, shouting, dogs. Possibly saw men dragging bodies toward [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). Closed the curtain and never spoke.
@@ -148,11 +153,20 @@ From the first night in the village, the players have dreams of violence — han
 
 ## Village Life & Relationships
 
-### barbara-knows-nothing
-[Barbara Kopacz](../characters/barbara.md) arrived in %NEW_VILLAGE% after the lynch. She knows nothing about the massacre, [Edward Barnaś](../characters/soldier.md)'s family, or [the well](../story-facts/the-well.md).
+### barbara-has-help
+Someone is helping [Barbara Kopacz](../characters/barbara.md). The house, the firewood, the economics — a single farm labourer with a child and an elderly mother can't sustain this alone.
+
+### barbara-refuses-father
+[Barbara Kopacz](../characters/barbara.md) will not name [Pawełek Kopacz](../characters/pawelek.md)'s father under any circumstances. No pressure, authority, or charm moves this. The refusal itself is the clue — she's protecting someone or something.
+
+### marek-is-paweleks-father
+[Barbara Kopacz](../characters/barbara.md) names [Marek Gajda](../characters/junior.md) as [Pawełek Kopacz](../characters/pawelek.md)'s father under pressure. She believes it's true. It's not — the real father is [Tadek Gajda](../characters/wujas.md).
 
 ### paweleks-father
-[Tadek Gajda](../characters/secondary-characters.md) is [Pawełek Kopacz](../characters/secondary-characters.md)'s actual father. Nobody knows — not even [Barbara Kopacz](../characters/barbara.md). [Zbigniew Gajda](../characters/wojewoda.md) wrongly believes [Marek Gajda](../characters/junior.md) is the father.
+[Tadek Gajda](../characters/wujas.md) is [Pawełek Kopacz](../characters/pawelek.md)'s actual father. Nobody knows — not Barbara, not Tadek, not Marek. A one-time encounter nobody thinks about.
+
+### pawelek-wanders
+[Pawełek Kopacz](../characters/pawelek.md) roams the village unsupervised — edges, creek, tree line, further than a 4-year-old should go. Nobody watches him closely enough.
 
 ### wojewoda-built-barbaras-house
 [Zbigniew Gajda](../characters/wojewoda.md) built [Barbara Kopacz](../characters/barbara.md) a house out of guilt — he suspects [Marek Gajda](../characters/junior.md) fathered [Pawełek Kopacz](../characters/secondary-characters.md). He's wrong.
@@ -197,7 +211,7 @@ A small wooden icon in [Zbigniew Gajda](../characters/wojewoda.md)'s office — 
 [Ryszard Dudka](../characters/neighbour.md) is a hunter with a licensed hunting rifle.
 
 ### siblings-fund-the-church
-The siblings keep the [church](../scenes/locations/the-church.md) unusually well supplied — firewood, food, gifts. [ks. Władysław Pająk](../characters/secondary-characters.md)'s silence is materially supported.
+The siblings keep the [church](../scenes/locations/the-church.md) unusually well supplied — firewood, food, gifts. [ks. Władysław Pająk](../characters/priest.md)'s silence is materially supported.
 
 ### painters-art-shows-the-well
 [Emil Rzepka](../characters/secondary-characters.md)'s art starts showing the well before the players find it — dark circles, stone rings, black water.
@@ -238,7 +252,7 @@ The ritual requires form (how), words (what to say), and truth (naming the dead 
 The players must supply the truth by naming the dead and saying what happened to them. The ritual is not a spell — it is acknowledgement.
 
 ### barbara-must-bring-babcia
-[Barbara Kopacz](../characters/barbara.md) is the only one who can physically bring [Stefania Kopacz](../characters/babcia.md) to the well. She won't do it without [ks. Władysław Pająk](../characters/secondary-characters.md)'s explicit blessing.
+[Barbara Kopacz](../characters/barbara.md) is the only one who can physically bring [Stefania Kopacz](../characters/babcia.md) to the well. She needs a human reason — not faith, not ritual. She needs to understand that her mother's people are in that well and Babcia has been mourning them her whole life.
 
 ---
 
@@ -246,6 +260,9 @@ The players must supply the truth by naming the dead and saying what happened to
 
 ### foreman-coverup
 [Michał Pytlak](../characters/foreman.md) and [Zbigniew Gajda](../characters/wojewoda.md) covered up a preventable death on the PGR farm. Tadeusz Mazur died ~1965 — never reported to the state. His wages still flow to [Wanda Mazur](../characters/widow.md) as a fake "widow's pension." She doesn't know. The village doesn't know the death was never filed. Same mechanism as the lynch: bury the truth, keep outsiders away.
+
+### operation-in-the-forest
+Someone is doing something in the forest — men, fire, a smell. Could be anything. Players don't know what until they investigate.
 
 ### bimber-still
 [Tadek Gajda](../characters/secondary-characters.md)'s crew runs an illegal bimber still in the [forest](../scenes/locations/old-village-ruins.md), halfway between the villages. Just moonshine — not the murder conspiracy. [Zbigniew Gajda](../characters/wojewoda.md) knows and tolerates it. [Helena Rzepka](../characters/matrona.md) supplies sugar through the store.
@@ -261,3 +278,6 @@ The cemetery at [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) has fe
 
 ### upa-bunker
 The UPA bunker in the [forest](../scenes/locations/old-village-ruins.md) contains old partisan ordnance. Partially collapsed, dangerous. [Michał Pytlak](../characters/secondary-characters.md)'s flood-diversion plan uses explosives from here.
+
+### spirits-are-restless
+The dead here were not buried right. Something is unquiet. Not evidence, not testimony — a feeling grounded in Lemko tradition. The mirrors need covering, the prayers need saying, the dead need tending.

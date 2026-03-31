@@ -34,9 +34,9 @@ See [wife-junior investigation](../story-facts/wife-junior-investigation.md) for
 
 ## In 1967
 
-Sleeping with [Barbara Kopacz](barbara.md). Doesn't know [Tadek Gajda](secondary-characters.md) is also with her, or that [Pawełek Kopacz](secondary-characters.md) is his uncle's son.
+Sleeping with [Barbara Kopacz](barbara.md). It's an ongoing relationship.
 
-- **Thinks [Pawełek Kopacz](secondary-characters.md) might be his — avoiding it.** Doesn't ask, doesn't acknowledge. Not cruelty — a 21-year-old who isn't ready.
+- **Thinks [Pawełek Kopacz](pawelek.md) might be his — avoiding it.** Doesn't ask, doesn't acknowledge. Not cruelty — a 21-year-old who isn't ready.
 - **Can change.** As the story progresses, he may choose [Pawełek Kopacz](secondary-characters.md) — not obligation but something real. The biker deciding to be a father is one of the story's quiet possible redemptions. He just starts showing up.
 
 ## Relationships

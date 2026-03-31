@@ -42,7 +42,7 @@ Edek is large — six foot, broad, silent. He stands behind Janina or sits in hi
 - **Leads to:** Atmosphere and rapport. If the well is active → he may point toward %OLD_VILLAGE%, toward the forest, toward the direction of the well. He knows where his family is. He can't say it.
 
 ### Approach Janina through faith
-- **Requires:** Demonstrate genuine faith or knowledge of the Church. Mentioning [ks. Władysław Pająk](../../characters/secondary-characters.md) positively helps.
+- **Requires:** Demonstrate genuine faith or knowledge of the Church. Mentioning [ks. Władysław Pająk](../../characters/priest.md) positively helps.
 - **Cost:** 1 action
 - **Outcome:** Her guard drops — fractionally. Faith is the only language she trusts outside of survival. She won't confess to players (that's for God and the Priest), but she'll let things slip. The way she talks about Edek — *"He didn't deserve any of this"* — carries weight she doesn't intend. Her eyes fill. She changes the subject.
 - **Leads to:** Seeds toward [ciotka-saved-glupek](../../clues/clues.md#ciotka-saved-glupek). If players have already cracked the Priest → cross-referencing what he hinted with what she lets slip starts building the picture.

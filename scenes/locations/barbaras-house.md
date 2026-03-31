@@ -2,7 +2,7 @@
 
 **Type:** Location (revisitable)
 **Location:** Small house on the edge of %NEW_VILLAGE% — built by Zbigniew Gajda, modest even by village standards. Next door to [Ryszard Dudka](../../characters/neighbour.md).
-**Present:** [Barbara Kopacz](../../characters/barbara.md) (evenings, mornings — works at PGR during day), [Stefania Kopacz](../../characters/babcia.md) (always), [Pawełek Kopacz](../../characters/secondary-characters.md) (always unless playing outside)
+**Present:** [Barbara Kopacz](../../characters/barbara.md) (evenings, mornings — works at PGR during day), [Stefania Kopacz](../../characters/babcia.md) (always), [Pawełek Kopacz](../../characters/pawelek.md) (always unless playing outside)
 **Available:** Any time — but Barbara is only home mornings and evenings. During the day, only Babcia and Pawełek are here.
 **Cost:** 1 action per visit
 
@@ -12,53 +12,80 @@ The smallest house in the village — one room with a curtain dividing the sleep
 
 Babcia sits by the stove or by the window. She mutters in a language that isn't Polish — half-words, fragments, songs. Pawełek plays on the floor near her, unbothered. He's used to it.
 
-If Barbara is home, she's guarded but polite. The house feels like a shell — protective, closed, small.
+If Barbara is home, she's warm — immediately, genuinely warm. She offers tea before you've finished introducing yourself. Asks about the drive, the rain, whether you've eaten. She fusses. She listens. The house is tiny and bare but she makes it feel like the safest place in the village. That's the trap — not hers, not intentional. She's just the only person in %NEW_VILLAGE% who treats strangers like people.
 
 ## Opportunities
 
-- **Notice the covered mirrors** — every single one. Ask Barbara: she shrugs, *"Mama has always done that. I stopped fighting it."* Ask Babcia: she gives you a look that says you should know why. → Seeds [babcia-covers-mirrors](../../clues/clues.md#babcia-covers-mirrors) (Lemko death custom — mirrors covered when someone dies. She's been doing it for twenty years.) (**Culture** or **Observation**)
-- **Hear Babcia muttering** — fragments in Lemko, not Polish. Players with language skills or cultural knowledge recognise it as prayer. Old prayer. For the dead. → Seeds [babcia-has-the-words](../../clues/clues.md#babcia-has-the-words) (**Language**, or **Culture** to understand the ritual meaning)
-- **Watch Pawełek with Babcia** — she sings to him, tells him stories in a mix of Polish and Lemko. He repeats words he doesn't understand. A dead culture being passed to a 4-year-old who doesn't know what he's receiving. → Atmosphere
-- **Notice the house itself** — too well-built for what Barbara could afford. Someone built this for her. → Seeds [wojewoda-built-barbaras-house](../../clues/clues.md#wojewoda-built-barbaras-house) (**Engineering** or **Observation**)
-- **Neighbour at the fence** — [Ryszard Dudka](../../characters/neighbour.md) is often visible next door. He brings firewood, checks on the boy, lingers. Quiet devotion. → Seeds relationship between Neighbour and Barbara (**Observation**)
+Free — no action cost. The GM weaves these into any visit. If a player has the listed skill, they get the deeper read automatically.
+
+- **The covered mirrors** — Every mirror in the house is covered with yellowed cloth. Barbara shrugs: *"Mama has always done that. I stopped fighting it."* Babcia gives a look that says you should know why.
+  - **Observation:** Count them. Every reflective surface. This isn't one mirror — it's systematic. Decades of vigilance.
+  - **Culture:** Lemko death custom — mirrors are covered when someone dies so the soul doesn't get trapped. She's been doing it for twenty years. Someone in this house has been mourning nonstop since 1947.
+  - **Gives:** [covered-mirrors](../../clues/clues.md#covered-mirrors)
+
+- **Babcia's muttering** — Fragments of speech in a language that isn't Polish. Rhythmic, repetitive. Half-sung.
+  - **Language:** Lemko. She's praying — old liturgical form. A panakhyda fragment. Memorial prayer for the dead.
+  - **Culture:** Even without the language, recognize the cadence as ritual, not rambling. She's performing rites in her chair.
+  - **Gives:** [babcia-has-the-words](../../clues/clues.md#babcia-has-the-words)
+
+- **Pawełek and Babcia** — She sings to him, tells him stories in a mix of Polish and Lemko. He repeats words he doesn't understand. A dead culture being passed to a 4-year-old who doesn't know what he's receiving.
+  - **Language:** The words Pawełek parrots are real Lemko. Perfect pronunciation from a child who has no idea what he's saying.
+  - **Gives:** Atmosphere.
+
+- **The house itself** — Too well-built for what Barbara could afford. Solid timber, proper foundation, tight joints. Someone built this for her.
+  - **Engineering:** Professional eye — PGR materials, PGR tools. Whoever built this had access to state resources.
+  - **Observation:** Discrepancy between Barbara's poverty (two chairs, no decorations) and the house's construction quality.
+  - **Gives:** [barbara-has-help](../../clues/clues.md#barbara-has-help)
+
+- **Neighbour at the fence** — [Ryszard Dudka](../../characters/neighbour.md) is often visible next door. Bringing firewood. Checking on the boy. Lingering at the fence line.
+  - **Observation:** Quiet devotion — not romantic, something heavier. He needs them more than they need him.
+  - **Read:** Something guilty underneath the helpfulness. This man is taking care of Barbara's family because of something he can't take care of inside himself.
+  - **Gives:** Atmosphere. Cross-reference [Ryszard Dudka](../../characters/neighbour.md).
+
+- **Overnight offer** — If the players have been kind, or if it's raining hard, or frankly for no reason at all, Barbara offers: *"It's small, but... you could stay. I can make room."* One room, a curtain, the floor. She means it. She'd give you her bed and sleep in the chair.
+  - Staying overnight means hearing Babcia at night — prayers in the dark, restless pacing, muttering that's sharper than anything she says during the day. It means hearing Pawełek talk in his sleep. It means the covered mirrors catching candlelight and looking wrong.
+  - **This is the best way to experience Babcia's lucidity progression.** A player who sleeps here on multiple nights will notice the change before anyone else.
+  - **Gives:** Nighttime Babcia interactions unlocked. Atmosphere.
 
 ## Actions
 
-### Census visit — interview Barbara
-- **Requires:** Committee authority
+> **Character interactions at this location:** The people in this house are the scene. For NPC-specific actions (interviewing Barbara, speaking to Babcia, watching Pawełek), see their character files:
+> - [Barbara Kopacz — Actions](../../characters/barbara.md#actions)
+> - [Stefania Kopacz — Actions](../../characters/babcia.md#actions)
+> - [Pawełek Kopacz — Actions](../../characters/pawelek.md#actions)
+
+### Visit during the day (Barbara at work)
+- **Requires:** Nothing
 - **Cost:** 1 action
-- **Skills:** —
-- **Bonus:** **Read** — her refusal to name Pawełek's father is fear, not stubbornness. Something is protecting that silence.
-- **Outcome:** Barbara answers everything — name, age, household members, employment. Cooperative, head down. **One wall: she will not name Pawełek's father.** No amount of pressure, authority, or charm moves this. She goes quiet, her jaw sets, and she waits for you to move on. The census form has a blank where a father's name should be.
-- **Leads to:** → [paweleks-father](../../clues/clues.md#paweleks-father) remains hidden. Players may suspect Wujas, Junior, or someone else. The blank itself becomes a clue.
+- **Outcome:** Only Babcia and Pawełek are home. No gatekeeper. Babcia is harder to communicate with without Barbara translating, but she's unfiltered — no daughter hovering, managing, redirecting. Pawełek plays on the floor, ignoring you.
+- **Observation:** Notice what's different without Barbara: Babcia's posture changes. She's more alert. She watches the door as if expecting someone else. The house feels less like a shell and more like a listening post.
+- **Why it matters:** Direct access to Babcia without Barbara's protective layer. Riskier (Babcia may be hostile, confused, or refuse to engage), but faster if you have **Language** or **Culture**. See [Talk to Babcia](../../characters/babcia.md#actions).
 
-### Talk to Babcia
-- **Requires:** Barbara present and trusting (she won't leave players alone with her mother unless she trusts them), OR Barbara at work and players visit during the day (Babcia alone — no gatekeeper, but she's harder to understand without Barbara translating)
-- **Cost:** Free (brief), 1 action (deep conversation)
-- **Skills:** **Culture** (recognizing Lemko prayer, understanding her language), **Sweettalk** (patience, gentleness to earn her focus)
-- **Bonus:** **Read** — telling lucid from lost, catching when she's actually saying something important beneath the fog
-- **Outcome:** Babcia is sharp-tongued, unpredictable. Lucid one moment, lost the next. She might call you by a dead person's name. She might recite a prayer perfectly. She might tell you to get out of her house. If players show patience, gentleness, or any knowledge of Lemko culture — she focuses. The fog lifts. She looks at you like you're the first real person she's seen in years.
-- **Leads to:** Seeds for [babcia-has-the-words](../../clues/clues.md#babcia-has-the-words), [babcia-mind-returns](../../clues/clues.md#babcia-mind-returns). Essential step toward the ritual ending — players need her, but getting her requires earning Barbara's trust first.
+### Visit in the evening (Barbara home)
+- **Requires:** Nothing
+- **Cost:** 1 action
+- **Outcome:** Barbara is home, tired from the farm. Babcia is by the stove. Pawełek is winding down. The family is together — closed, small, protective. Barbara answers the door and decides how much access you get.
+- **Sweettalk:** Arriving with something — firewood, bread from Zofia's kitchen, a toy for Pawełek — gets you past the threshold faster than any credentials.
+- **Why it matters:** Barbara controls access. Trust determines depth. First visit: polite, on the threshold. Third visit: tea inside, Babcia in earshot. See [Barbara Kopacz — Actions](../../characters/barbara.md#actions).
 
-### Ask Barbara about the village
-- **Requires:** Rapport with Barbara (kindness, patience, treating her as a person not a form)
-- **Cost:** Free
-- **Skills:** **Sweettalk**
-- **Outcome:** She works on the farm, she lives next to Ryszard Dudka, she goes to church. She notices patterns — who's been acting strange, who stopped coming to work. She shares casually, like talking to a neighbour. **She does not know what information is dangerous.** Everything she hears from the committee, she'll share with Ryszard Dudka over the fence that evening.
-- **Leads to:** → [barbara-is-a-sieve](../../clues/clues.md#barbara-is-a-sieve). Information flows: players → Barbara → Neighbour → guilt spiral → potential lynch trigger. **Players should not be told this is happening.**
-
-### Comfort Barbara about the flood
-- **Requires:** Flood news has broken
-- **Cost:** Free
-- **Skills:** **Sweettalk**
-- **Bonus:** **Read** — sensing what she needs (safety, not paperwork) vs what you're pushing
-- **Outcome:** Her house — the only thing she has — is going underwater. A single mother with a 4-year-old, an elderly mother, no money, nowhere to go. She's terrified and furious. Players who show genuine empathy here build deep rapport. Players who push census paperwork while she's panicking lose her.
-- **Leads to:** Strong rapport → she may let players spend time with Babcia unsupervised. She may talk more openly about the village. She becomes reachable for the ritual chain ([barbara-must-bring-babcia](../../clues/clues.md#barbara-must-bring-babcia)).
+### Return visits (how the house changes)
+- **Requires:** Previous visit to this location
+- **Cost:** 1 action per visit
+- **Outcome:** Barbara is always warm. What changes is the context around her:
+  - **Repeat visits:** She remembers you. Asks about things you mentioned last time. Knows how you take your tea. The house feels like the one safe place in the village.
+  - **After flood news (Day 2+):** Barbara is scared but still generous. She worries aloud, asks if you know anything, makes tea anyway. Pawełek picks up on her anxiety — clingy, quiet.
+  - **After Pawełek falls ill:** Barbara is terrified but grateful for any help. If you have **Medicine**, she clings to you like a lifeline. She'll do anything you ask — not because trust changed, but because her child is sick and you can help.
+  - **Babcia's lucidity rising (Day 3+):** Babcia is sharper, more present. She watches you with recognition. She initiates conversation. This should unsettle players — old women with dementia don't get *better*. **Gives:** [babcia-mind-returns](../../clues/clues.md#babcia-mind-returns).
+  - **After Paraskewia is killed:** Babcia is agitated. Stares at the forest. Stops sleeping. The singing she heard at night has gone silent. **Gives:** [babcia-hears-singing](../../clues/clues.md#babcia-hears-singing).
 
 ## GM Notes
 
-**Barbara's house is a gate.** Behind it is Babcia — the living archive, the ritual key, the Lemko thread. Players need what's in this house. But Barbara is withdrawing (well influence — protective instinct amplified). The more the village scares her, the harder she is to reach. Scaring her locks Babcia away.
+**This house is a gate — and it's always open.** Behind Barbara is Babcia — the living archive, the ritual key, the Lemko thread. Players need what's in this house, and Barbara will let them have it. She's not an obstacle. She's the opposite: so welcoming that players forget to be careful about what they say around her.
 
-**The sieve mechanic must be invisible.** Don't tell players that Barbara repeats what they say. Let them discover the consequences — Neighbour acting strangely, village tightening up, information they shared privately suddenly being known. The trail leads back to the fence between two houses.
+**The sieve mechanic must be invisible.** Don't tell players that Barbara repeats what they say to Ryszard Dudka. Let them discover the consequences — Neighbour acting strangely, village tightening up, information they shared privately suddenly being known. The trail leads back to the fence between two houses. The cruelest part: she never stops being kind. She never becomes the villain. She's the warm centre of a catastrophe she doesn't understand.
 
 **Babcia's lucidity increases over the game.** Early visits: confused, hostile, lost. Later visits: sharper, clearer, more present. Nobody notices because nobody was watching. Players who return will see the change — and it should unsettle them. Old women don't get *better*.
+
+**Barbara is constant.** The village darkens. NPCs withdraw, crack, threaten, lie. Barbara makes tea. She asks how you are. She tells you Babcia had a good day. She is the emotional anchor the players don't realise they're leaning on — and the information leak they don't realise they're feeding.
+
+**Visit timing matters.** Day visits (Barbara at work) give direct Babcia access but no translator. Evening visits (Barbara home) are always warm. Smart players will alternate — use her warmth in the evening, use her absence during the day.

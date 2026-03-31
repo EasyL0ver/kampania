@@ -34,7 +34,7 @@ The village believes [Stanisław Rezeń](butcher.md) was the coldest head that n
 - **[Emil Rzepka](secondary-characters.md) is her insurance.** Kept him broken, dependent, terrified for 13 years. He heard her voice that night. His guilt over the affair, gratitude for her "forgiveness," fear of what she's capable of — she wields all of it.
 - Follows [Zbigniew Gajda](wojewoda.md)'s lead with the committee — cooperative, welcoming, the perfect face.
 - **Watches for depth.** The moment players dig into village history or [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md), she notices first. Won't obstruct openly — redirects, changes subject, mentions how busy the committee must be.
-- If redirection fails, escalates quietly: a word to [Zbigniew Gajda](wojewoda.md), a concern to [ks. Władysław Pająk](secondary-characters.md) about outsiders. Never confronts. Manages.
+- If redirection fails, escalates quietly: a word to [Zbigniew Gajda](wojewoda.md), a concern to [ks. Władysław Pająk](priest.md) about outsiders. Never confronts. Manages.
 
 ## Divergence from Zbigniew Gajda
 
@@ -50,7 +50,7 @@ The hardest in the story. Would have to admit not just complicity but **authorsh
 - **[Zbigniew Gajda](wojewoda.md)** — brother. She's his henchman; he manages the village, she manages the story.
 - **[Tadek Gajda](secondary-characters.md)** — brother.
 - **[Janina Gajda](ciotka.md)** — sister.
-- **[ks. Władysław Pająk](secondary-characters.md)** — her unwitting shield. Confessions are masterpieces of misdirection — real guilt wrapped so he sees a struggling soul, not a murderer. He will instinctively defend her.
+- **[ks. Władysław Pająk](priest.md)** — her unwitting shield. Confessions are masterpieces of misdirection — real guilt wrapped so he sees a struggling soul, not a murderer. He will instinctively defend her.
 - **[Irena Gajda](wife.md)** — quiet contempt. Knows her sister-in-law suspects something. Keeps her at arm's length with controlled warmth. If [Irena Gajda](wife.md) became a real threat, she'd act — but so far too powerless to worry about.
 
 ## Well Influence
@@ -58,7 +58,7 @@ The hardest in the story. Would have to admit not just complicity but **authorsh
 Erodes Helena Rzepka's **performance.** Doesn't shatter her like [Tadek Gajda](secondary-characters.md) — creates micro-cracks:
 
 - Comments too sharp — flashes of contempt she'd normally suppress. The real woman surfaces before the mask snaps back.
-- Intrusive thoughts. Catches herself staring at [Emil Rzepka](secondary-characters.md) without rehearsed warmth. Loses thread of conversation with [ks. Władysław Pająk](secondary-characters.md) mid-sentence.
+- Intrusive thoughts. Catches herself staring at [Emil Rzepka](secondary-characters.md) without rehearsed warmth. Loses thread of conversation with [ks. Władysław Pająk](priest.md) mid-sentence.
 - Over-corrects: more devout, more generous, more publicly perfect — reads as desperate to anyone paying attention.
 - Control over [Emil Rzepka](secondary-characters.md) tightens — more surveillance, pressure, reminders of what he owes her.
 - **Dream:** not the dead but **[Hania Barnaś](jagna.md)** — alive, young, just looking at her. Not accusatory. Just *seen*. Helena Rzepka can face anything except being seen by the girl she had killed.

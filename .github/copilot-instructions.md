@@ -44,3 +44,23 @@ Read all files in these folders to understand current state:
     - **Location-bound actions** (search a room, dig in a yard) → `scenes/locations/` files
     - **Character-bound actions** (leverage someone, earn trust, confront) → `## Actions` section in the character's `.md` file, using the same format as location actions (cost, requires, what happens, result)
     - If an action is triggered at a location but is really about a character interaction, it belongs in the character file. The location file can cross-reference it.
+
+11. **Clues are binary** — An action either **gives** a clue or it doesn't. Actions do not "lead to" or "seed" clues. If a player performs an action and learns a fact, that fact must exist as a clue in `clues/clues.md` and the action's outcome gives it directly. No partial reveals, no "seeds for later."
+
+12. **Scene file structure:**
+    - **Events** (`scenes/events/`) — One-shot moments. Triggered by game state, time, or player action. Events happen **at** a location — all of the location's persistent actions and opportunities are implicitly available. Event files only contain what's unique to that moment. Numbered (`01-`, `02-`) for play sequence (when the event *can* trigger, not a forced order).
+    - **Locations** (`scenes/locations/`) — Revisitable places. Persistent actions and NPCs. Named descriptively, no numbers.
+    - **Both types follow this format:**
+      - Header: Type, Location, Present (NPCs + conditions), Available (when), Cost
+      - `## Setup` — What players see/hear/feel. **Rule: If an opportunity lets players notice something, the Setup must mention or hint at it.** Players can't notice what the GM never described.
+      - `## Opportunities` — Free, no action cost. Impressions, seeds, atmosphere. Skill tags show what each skill reveals.
+      - `## Actions` — What costs time. Each action has: Requires, Cost, Outcome (with skill-specific branches), clues given.
+      - `## Exits` (events only) — Where players go after. Locations don't have exits.
+
+13. **Scene outcomes:**
+    - **Clue** — Players learn an atomic fact (must exist in `clues/clues.md`)
+    - **NPC State Change** — An NPC's attitude or willingness shifts
+    - **Item / Evidence** — Players obtain something tangible
+    - **Scene Unlock** — A new scene becomes available
+    - **World State Change** — The village itself changes
+    - **Ending Progress** — Advances an ending chain

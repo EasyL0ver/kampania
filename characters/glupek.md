@@ -23,7 +23,7 @@ Son of [Edward Barnaś](soldier.md). During the lynch (1954), after [Hania Barna
 ## Relationships
 
 - **[Janina Gajda](ciotka.md)** — the only mother he knows. She feeds him, shelters him, protects him. He doesn't understand why she cries sometimes. Doesn't know she saved his life.
-- **[ks. Władysław Pająk](secondary-characters.md)** — the [church](../scenes/locations/the-church.md) is his refuge. [ks. Władysław Pająk](secondary-characters.md) treats him with patience, gives him small tasks, lets him sit in the quiet. Doesn't understand faith, but understands safety.
+- **[ks. Władysław Pająk](priest.md)** — the [church](../scenes/locations/the-church.md) is his refuge. [ks. Władysław Pająk](priest.md) treats him with patience, gives him small tasks, lets him sit in the quiet. Doesn't understand faith, but understands safety.
 - **[Stanisław Rezeń](butcher.md)** — instinctive fear. No conscious memory — just a body that knows. When [Stanisław Rezeń](butcher.md)'s dogs bark, he hides. When [Stanisław Rezeń](butcher.md) passes on the road, he goes still. The village notices. Nobody explains it.
 
 ## Well Influence
@@ -43,7 +43,7 @@ Doesn't understand the committee, the census, or the flood. Strangers make him n
 
 ## For Players
 
-Edek Barnaś is evidence and vulnerability in one body. Approaching him requires patience and [Janina Gajda](ciotka.md)'s permission. The [church](../scenes/locations/the-church.md) and [ks. Władysław Pająk](secondary-characters.md) are the safest intermediaries. His instinctive reactions to the lynch perpetrators are the most visceral clue the players can witness — a body that remembers what a mind cannot.
+Edek Barnaś is evidence and vulnerability in one body. Approaching him requires patience and [Janina Gajda](ciotka.md)'s permission. The [church](../scenes/locations/the-church.md) and [ks. Władysław Pająk](priest.md) are the safest intermediaries. His instinctive reactions to the lynch perpetrators are the most visceral clue the players can witness — a body that remembers what a mind cannot.
 
 ## Open Questions
 

@@ -15,6 +15,7 @@ Hacked version of **Cthulhu Confidential** (GUMSHOE One-2-One). Key change: **al
 
 ### Days
 - The game lasts **5 days**. After day 5, the story ends — regardless of how much the players have uncovered.
+- Each day has **3 phases: morning, afternoon, evening.** Each phase holds one action.
 - The rain keeps falling. The water keeps rising. Time does not wait.
 
 ### No Failure, Only Trade-offs
@@ -86,6 +87,7 @@ Each player picks one as their specialty. This is their job, the reason the stat
 | **Medicine** | First aid, herbs/poisons, reading physical trauma on a body or a person |
 | **Streetwise** | Reading power dynamics, sensing danger, knowing when you're being played |
 | **History** | Akcja Wisła, UPA, postwar resettlement, recognizing military artifacts |
+| **Accounting** | Reading ledgers, spotting discrepancies, tracing money flows, exposing ghost employees and cooked books |
 
 ## Story Structure: Graph
 
