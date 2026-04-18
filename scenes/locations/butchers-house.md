@@ -19,7 +19,6 @@
 ## Observable Clues
 
 - **Path** — daily use, packed earth, leads to well. → [butcher-visits-the-well](../../clues/clues.md#butcher-visits-the-well)
-- **Dogs' perimeter** — follow him to tree line, won't cross into forest. → [dogs-wont-cross](../../clues/clues.md#dogs-wont-cross)
 - **No alcohol** — nothing in the house. Stopped 1954. Seeds suspicion about 1954.
 - **Butchering habits** — block used more than livestock explains. Takes too long. Works alone, doors shut.
 - **Dogs' behaviour** — flinching, limping, freezing. Practices cruelty.

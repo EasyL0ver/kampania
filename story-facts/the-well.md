@@ -50,7 +50,6 @@ From the first night the committee spends in %NEW_VILLAGE%, the dreams begin. Th
 - He sleeps badly. The dogs outside his house whine at night — they hear him thrashing, talking in his sleep.
 - His visits to the well aren't curiosity. They're **compulsion**. He goes because the dreams pull him there. He clears debris from the well because in the dreams, the well is always blocked and the dead can't get out.
 - He's been seen walking toward %OLD_VILLAGE% at night, half-dressed, barefoot — and returning before dawn with no memory of going. Or claiming no memory.
-- His dogs won't go near the well. They stop at a perimeter and refuse to cross it. Stanisław Rezeń crosses it every time.
 
 **For the players:** If they learn about Stanisław Rezeń's sleep patterns, his compulsive visits, his nighttime walks — and then they start having the same dreams — the connection is chilling. The well got to him first. It's been calling him for 13 years. Now it's calling them.
 

@@ -35,6 +35,14 @@ A **rocker and alcoholic**. The guilt, the rejection, the violence — Tadek Gaj
 
 Slept with **Barbara Kopacz** once. He is the **actual father of Pawełek Kopacz**, but nobody knows — including him. Barbara is with his nephew Marek regularly; everyone, including Barbara, assumes Marek is the father. Tadek doesn't even consider the possibility. It was one night.
 
+### The Wolf Errand
+
+Day 1–2: [Zbigniew](../characters/wojewoda.md) tells Tadek to go to the edge house. *"Tell Rezeń to deal with the wolves."* A real request — not cigarettes, not a butchering job. For the first time in 13 years, the maintenance channel is used for something real.
+
+Tadek delivers the message. [Rezeń](../characters/butcher.md) hears "we need you" and shows up at the [PGR](../scenes/locations/pgr-farm.md). Among people. Among workers. First time in 13 years. **This is the last visit.** The go-between role is dead. Rezeń doesn't need Tadek's runs anymore. The man Tadek spent his adult life managing from the edge is now at the farm gate.
+
+Seeing Rezeń at the PGR breaks something specific in Tadek. The arrangement he maintained — the one thing that gave his wasted life a function — is visibly over. This accelerates his drinking spiral alongside the well's influence. See [Tadek Visits the Butcher](../scenes/events/event-wujas-visits-butcher.md).
+
 ## The Flood & The Committee
 
 **Tadek Gajda doesn't care.** Government people, flood assessment, census — none of it registers. He's too deep in the bottle and too far gone to engage with bureaucracy. He won't be hostile, won't be helpful. Just absent. Another drunk ignoring the officials.

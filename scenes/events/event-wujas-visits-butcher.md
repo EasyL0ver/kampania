@@ -1,7 +1,7 @@
 # Tadek Visits the Butcher
 
 **Type:** Recurring event — observable by players
-**When:** Regular occurrence, early game. Stops mid-game.
+**When:** Days 1–2, stops after wolf authorization (Day 2 afternoon)
 **Who:** [Tadek Gajda](../characters/wujas.md), [Stanisław Rezeń](../characters/butcher.md)
 
 ## What Happens
@@ -26,14 +26,24 @@ Zbigniew doesn't visit Rezeń himself — the sołtys seen at the village monste
 
 ## When It Stops
 
-Mid-game. Tadek's drinking worsens under the well's influence. He stops making the visits. Too drunk, too scared, too far gone. The errand that kept the arrangement running doesn't happen.
+Day 1–2. Not gradually — abruptly.
 
-**This is the trigger for Rezeń appearing in the village.** Nobody's coming to the edge house anymore. No cigarettes, no jobs, no thread connecting him to the system. He starts walking into the village himself. The id without the ego's mediation.
+**[Zbigniew Gajda](../characters/wojewoda.md) sends a real request through the maintenance channel.** Wolves are killing [PGR](../locations/pgr-farm.md) livestock. [Ryszard Dudka](../characters/neighbour.md) has been hunting them for weeks and failing. Zbigniew tells Tadek: *"Tell Rezeń to deal with the wolves."*
+
+Tadek makes the visit. This one is different. Not cigarettes and a butchering job — a real request from the sołtys. *"Zbyszek says deal with the wolves."* Rezeń hears "we need you" and shows up at the [PGR farm](../locations/pgr-farm.md). Among people. Among workers. First time in 13 years.
+
+**That's the last visit.** Not because Tadek is too drunk (that's coming, under the well's influence) — but because the arrangement is dead. The go-between role was hijacked for a real request, and the pretense is gone. Rezeń doesn't need Tadek's cigarette runs anymore. He was *called*. He's at the farm gate. The man Tadek spent 13 years managing from the edge house is now HERE.
+
+Tadek sees it and something breaks. The well's influence accelerates his drinking — but the trigger is specific: watching Rezeń at the PGR, among workers, handling dogs, being competent and social. The arrangement Tadek maintained his entire adult life is visibly, obviously dead. He can't play go-between anymore when the monster is at the farm.
+
+**This is the trigger for Rezeń appearing in the village.** Not the well's abstract pull — a concrete authorization from the village leadership. He was called. He came. He didn't leave.
 
 Zbigniew notices too late. Visits the edge house himself — finds it empty. The man who never comes into the village is at the store. Talking to people. Smiling wrong.
 
 ## GM Notes
 
-**Show this early, explain it never.** Day 1-2: players see Tadek walking to the edge. Unremarkable. Day 3-4: they notice Tadek hasn't gone. Day 5+: Rezeń is in the village. Players who connect the three observations understand the system. Players who don't just see the escalation without the cause.
+**Show the routine early. Then break it.** Day 1: players see Tadek walking to the edge. Unremarkable. Day 1-2: Zbigniew sends the wolf request through Tadek. Day 2+: Rezeń is at the PGR farm. Players who connected the visits to the edge house now see the man at the farm gate. Players who didn't will just see the escalation without understanding the cause.
+
+**The wolf errand is the hinge.** The visits were maintenance. The wolf request was *use*. You can't keep someone at arm's length and then ask them for help. The containment breaks not from neglect but from a single practical decision — and Zbigniew can't take it back. See [The Wolf Hunt](event-wolf-hunt.md) for the full scene.
 
 **The "drinking buddies" cover story** works because nobody questions it. But players who know Rezeń doesn't drink will catch the contradiction. Why does the village drunk visit the one man in the village who won't touch a bottle?

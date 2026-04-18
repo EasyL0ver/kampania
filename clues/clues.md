@@ -116,11 +116,11 @@ The bodies from the 1954 lynch were dumped in the old well in [%OLD_VILLAGE%](..
 
 ## The Well
 
-### well-holds-two-sets-of-dead
-The well holds two sets of dead — the 1947 massacre victims and the 1954 lynch victims.
+### someone-thrown-in-well
+Something — or someone — was recently thrown into the well. Looking down with a light: dark water, shapes below the surface. Can't tell how many or how old. But something fresh went in. **Only exists if the [hag dies](../scenes/events/event-well-confrontation.md#if-nobody-is-there-default--70).**
 
 ### butcher-visits-the-well
-[Stanisław Rezeń](../characters/butcher.md) visits [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) regularly. Sits near the well. Clears debris. His dogs refuse to approach.
+[Stanisław Rezeń](../characters/butcher.md) visits [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) regularly. Sits near the well. Clears debris.
 
 ### butcher-compelled-to-feed
 [Stanisław Rezeń](../characters/butcher.md) feels compelled to put something IN the well. Strangers = prey. He doesn't fully understand the compulsion.
@@ -131,8 +131,11 @@ The well holds two sets of dead — the 1947 massacre victims and the 1954 lynch
 ### butcher-vs-hag
 Someone keeps clearing debris from the well. Someone else keeps piling it back and leaving candle wax in the cerkiew. [Stanisław Rezeń](../characters/butcher.md) and [Paraskewia Chyłak](../characters/hag.md) are fighting over the well without knowing each other.
 
-### dogs-wont-cross
-[Stanisław Rezeń](../characters/butcher.md)'s dogs stop at a perimeter around the well and refuse to cross it. He crosses every time.
+### fresh-blood-at-well
+Fresh blood on the well's stone rim. Recent — not old stains. Something was dragged to the well and put in.
+
+### someone-killed-at-well
+Someone was murdered at the well. Blood smeared on the rim, drag marks from a kneeling position, scattered ritual supplies trampled into mud. The violence was one-directional — the victim didn't fight back. A body was put into the well. **Only exists if the [hag dies](../scenes/events/event-well-confrontation.md#if-nobody-is-there-default--70).**
 
 ### players-dream-too
 From the first night in the village, the players have dreams of violence — hands doing things, the satisfaction of breaking. Each night worse. By day three they've felt what [Stanisław Rezeń](../characters/butcher.md) has felt for thirteen years.
@@ -142,6 +145,9 @@ From the first night in the village, the players have dreams of violence — han
 
 ### babcia-hears-singing
 [Stefania Kopacz](../characters/babcia.md) has heard [Paraskewia Chyłak](../characters/hag.md)'s Lemko prayers carried on the wind at night. She will notice when the singing stops.
+
+### ciotka-strangled
+[Janina Gajda](../characters/ciotka.md) was strangled by hand — sustained pressure, no weapon, no forced entry. She knew her killer. [Edek Barnaś](../characters/glupek.md) is missing. **Conditional:** Only exists after players discover the body.
 
 ### glupek-drawn-to-well
 [Edek Barnaś](../characters/glupek.md) is physically drawn toward [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) and the well. At the well he becomes still — something in him recognises the place.
@@ -256,6 +262,28 @@ The players must supply the truth by naming the dead and saying what happened to
 
 ---
 
+## The Wolves
+
+### wolves-attacking-livestock
+Wolves have been killing [PGR](../scenes/locations/pgr-farm.md) livestock for weeks. The 1967 rains are driving them from higher ground. Multiple sheep dead. The attacks started before the committee arrived and are ongoing.
+
+### dudka-failed-wolf-hunt
+[Ryszard Dudka](../characters/neighbour.md) has been hunting the wolves for weeks — he's the village hunter, licensed rifle, knows the forest. He's failed. Can't close on the pack. One man in vast terrain isn't enough.
+
+### rezen-hunts-wolves
+[Zbigniew Gajda](../characters/wojewoda.md) authorized [Stanisław Rezeń](../characters/butcher.md) to deal with the wolves — sending the request through [Tadek Gajda](../characters/wujas.md). This brought [Rezeń](../characters/butcher.md) out of 13 years of isolation and into the village.
+
+### dudka-despises-rezen
+[Ryszard Dudka](../characters/neighbour.md) openly hates [Stanisław Rezeń](../characters/butcher.md). Calls him evil to anyone who listens. The anger is visceral — not just about the wolf authorization. Something older.
+
+### rezen-leaves-at-night
+[Stanisław Rezeń](../characters/butcher.md) leaves his house at night and walks toward the forest — toward [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). Alone. Regularly.
+
+### hag-blamed-for-wolves
+Villagers blame [Paraskewia Chyłak](../characters/hag.md) for the wolf attacks. They've seen her fires and heard her chanting at [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). She's performing rites for the dead — appeasing the unquiet — but the village sees witchcraft. Fires in the ruins + wolves that don't touch her = *"She's summoning them."* The connection is the village's projection, not fact.
+
+---
+
 ## Red Herrings & Side Mysteries
 
 ### foreman-coverup
@@ -268,7 +296,7 @@ Someone is doing something in the forest — men, fire, a smell. Could be anythi
 [Tadek Gajda](../characters/secondary-characters.md)'s crew runs an illegal bimber still in the [forest](../scenes/locations/old-village-ruins.md), halfway between the villages. Just moonshine — not the murder conspiracy. [Zbigniew Gajda](../characters/wojewoda.md) knows and tolerates it. [Helena Rzepka](../characters/matrona.md) supplies sugar through the store.
 
 ### paweleks-illness
-[Pawełek Kopacz](../characters/secondary-characters.md) drinks contaminated floodwater near the well and falls ill. Medically ordinary for flood conditions — but his fever dreams mention "the water under the ground" and whispers near the well.
+[Pawełek Kopacz](../characters/pawelek.md) drinks contaminated floodwater near the well and falls ill. Medically ordinary for flood conditions — but his fever dreams mention "the round stones," "the lady" who told him not to drink, and water that "tastes like the ground." → [event](../scenes/events/event-pawelek-falls-ill.md)
 
 ### old-village-looks-haunted
 [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) looks haunted — candlelight, incense, footprints — because [Paraskewia Chyłak](../characters/hag.md) is tending it, not because it's empty.

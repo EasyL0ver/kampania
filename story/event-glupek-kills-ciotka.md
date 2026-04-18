@@ -1,16 +1,11 @@
 # Edek Barnaś Kills Janina Gajda
 
-**Type:** Story event — triggered / variable timing
+**Type:** Story event — fixed timing
+**When:** Day 2, night (after the wolf hunt)
 
 ## Trigger
 
-Edek Barnaś learns the truth about his parents — that they were murdered, that the siblings were responsible, that Janina Gajda was there that night. How he learns is variable:
-- The players tell him (deliberately or carelessly)
-- He overhears a confrontation between the players and the villagers
-- Tadek Gajda lets it slip while drunk
-- A crisis around the well forces the truth into the open
-
-This event **only fires if Edek Barnaś learns the truth**. If the players are careful with information, it may never happen.
+The well has been working on Edek for weeks. The arrival of strangers, the disruption of routine, and whatever the well feeds him — it's enough. Night of Day 2, he snaps.
 
 ## What Happens
 
@@ -20,23 +15,23 @@ Edek Barnaś confronts Janina Gajda. Not with words — he can barely speak. Wit
 
 ## Aftermath
 
-Edek Barnaś runs. The village thinks he's fled into the forest or the ruins. **In reality, he's hiding in ks. Władysław Pająk's church.** The one other safe place he's ever known — the man who protected him alongside Janina Gajda.
+Edek Barnaś runs. Not to the church, not to anyone — **into the forest, to the [UPA bunker](../scenes/locations/upa-bunker.md).** He knows the woods better than anyone in the village. The bunker is the one place no one will look — most don't even know it exists.
 
-ks. Władysław Pająk may or may not know Edek Barnaś is there initially. But when he finds him — bloody, terrified, unable to explain what happened — he believes the boy. He's known Edek Barnaś his whole life. He's seen the gentleness under the size. He knows this boy didn't mean it.
+The village thinks there's a killer on the loose. They're looking for a dangerous man. He's a terrified boy in a hole in the ground.
 
-**ks. Władysław Pająk shelters Edek Barnaś deliberately.** Not out of naivety — out of conviction. This is the boy he's protected since he arrived in the village. The boy Janina Gajda saved and entrusted to God's care. ks. Władysław Pająk won't hand him over to the people who destroyed his family in the first place.
+**ks. Władysław Pająk goes looking for him.** Not immediately — first he hears about Janina Gajda, puts it together. The priest is the one person who'd search for Edek to protect him, not punish him. He knows the forest well enough — he's walked it with Edek before, he knows the boy's paths. He finds him in the bunker. Edek is filthy, terrified, shaking. He can barely communicate but the priest reads him: distress, confusion, not malice. Edek shows him — gestures, sounds, grabbing his own throat — **it wasn't on purpose.** The priest believes him. Not blindly — he's known this boy for 17 years, seen the gentleness under the size. He knows what Edek is and what he isn't.
+
+**The priest brings Edek to the [plebania cellar](../scenes/locations/the-church.md#the-plebania-rectory).** Stone walls, cool, dark, private. He cleans the boy up, gives him food and water, locks the cellar from outside — not to imprison him, but because Edek would wander and be found. A new padlock on an old door. The priest is now actively harboring a murder suspect under the church.
 
 ## What This Does to the Village
 
 - **The silence shatters.** Janina Gajda's death forces the truth to the surface. The village can no longer pretend.
-- **Stanisław Rezeń sees his unfinished business.** The boy he tried to kill 13 years ago just proved he was right — the child should have died that night. Does he go hunting?
+- **Stanisław Rezeń smiles.** That warm, jovial smile he gives the boy — *"chłopak"* — when he pinches his cheek or puts an arm around him. Hearing Edek killed someone with his bare hands doesn't horrify him. It delights him. His boy did something. He won't look for Edek. Doesn't need to. The fondness was never about protection.
 - **Zbigniew Gajda loses control.** His sister is dead, killed by the boy everyone knows is connected to the family his brothers destroyed. The cover-up is collapsing.
 - **The players face a choice.** Find Edek Barnaś before Stanisław Rezeń does? Protect him? Turn him in? To whom — there's no law here, the road is flooded.
-- **ks. Władysław Pająk faces his dilemma.** Shelter the boy and become complicit, or give him up to a village that may kill him.
+- **ks. Władysław Pająk faces his dilemma.** Go looking for the boy, or let the village handle it.
 
 ## Open Questions
 
-- What day does this happen? (Variable — depends on when Edek Barnaś learns the truth)
-- Can the players prevent it? (If they control the flow of information, yes)
 - Does Janina Gajda understand what's happening? Does she resist?
-- Does ks. Władysław Pająk actively hide Edek Barnaś, or does the boy just appear in the church?
+- Can the players find the UPA bunker before Rezeń does?

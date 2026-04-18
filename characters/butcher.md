@@ -12,7 +12,13 @@
 
 ## Character
 
-An evil man — but not one who was born that way. Before 1947 he was an unremarkable local boy from the next valley. The violence of Akcja Wisła didn't horrify him. It *woke something up*. Something that exists in everyone — the capacity for violence, the satisfaction of power over another body. Edward Barnaś felt it too and chose to bury it under a family and silence. The players feel it in their dreams and wake up shaking. The difference isn't nature. It's that Rezeń stopped caring about keeping it down.
+**Charismatic.** That's the horror of it. Rezeń isn't a brooding loner — he's the most alive person in any room. Loud laugh, easy grin, physical with everyone. Claps men on the back. Leans in close when he talks. Holds eye contact a beat too long and makes it feel like a compliment. When he wants something from you, you feel chosen. When he's happy, the room is warm. People are drawn to him before they remember why they shouldn't be.
+
+**No inhibitions.** Not reckless — he simply has no mechanism that says *stop*. No guilt, no shame, no inner voice telling him the line is here and he's crossing it. He says what everyone thinks and nobody says. He does what feels good. If something interests him, he walks toward it. If something bores him, he's already gone. Every impulse is acted on the moment it arrives. There's a freedom in him that's intoxicating to watch — until you realise it extends to hurting people.
+
+The violence of [Akcja Wisła](../historical%20context/operation-wisla.md) didn't create this. It *freed* it. Before 1947 he was a charming local boy from the next valley — well-liked, fun to drink with, always the centre of attention. The capacity was always there. Everyone has it. The difference is that when Rezeń felt the satisfaction of power over another body, he didn't recoil. He leaned in. And he never leaned back.
+
+**Inspiration:** Frank Booth (*Blue Velvet*, 1986) — the magnetism, the jovial warmth, the instant switch to something monstrous, the total absence of internal restraint. Rezeń should feel like the most fun guy at the party right up to the moment he isn't.
 
 But something else lives in him alongside the hunger — an irrational, bone-deep fixation with [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) and [the well](../story-facts/the-well.md) that has no logical explanation. He can't name it. It drives him back to the ruins again and again. Symbolically, he carries the unprocessed fury of the Lemko dead — their rage at being massacred, erased, forgotten — expressed through the worst possible vessel. The man who helped kill them. A man with no conscience, no heritage claim, no right to the grief. But the grief found him anyway — because it was looking for *him*.
 
@@ -43,7 +49,6 @@ One of three drunk men who attacked [Hania Barnaś](jagna.md). **Participated in
 
 Stanisław Rezeń visits [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) regularly — not with ritual or purpose, he just *goes*. Sits near [the well](../story-facts/the-well.md). Walks the ruins. Sometimes for hours.
 
-- The dogs come but won't approach the well — they stop at a perimeter and refuse to cross. He crosses every time.
 - He's cleared debris more than once — not to expose or hide evidence, just to keep the well *open*, accessible. Like it matters that it stays visible.
 - **He feeds the well.** Animal bones, carcasses, his own dogs. Dumps them into the well at night. Has been doing it for years — he used to have five dogs, now has three. The missing ones are in the well. Players who follow him at night may catch him carrying a dead dog over his shoulder along the forest path. This is what the compulsion looks like.
 - **The well pulls him.** He goes willingly — enjoys it. Walks to [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) at night, sometimes half-dressed. Not sleepwalking — restless, bored, drawn. The well is the one place that feels right. See [the well](../story-facts/the-well.md) for the full supernatural element.
@@ -51,41 +56,51 @@ Stanisław Rezeń visits [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.m
 
 ## In 1967
 
-An **outcast.** The village knows or suspects what he did during the lynch. Not exiled, but not welcome. People avoid him — **and he avoids them.**
+An **outcast — but not a quiet one.** The village knows or suspects what he did during the lynch. Not exiled, but not welcome. People avoid him — **but he doesn't avoid them.** That's Zbigniew's rule, not his nature. Left to himself, Rezeń would be at every gathering, every table, every conversation. He *likes* people. Likes being around them. Likes the way they react to him — the nervous laughter, the too-quick exits, the way women cross themselves when he passes. He finds all of it entertaining.
 
-Stanisław Rezeń has been **pushed to the edge** — literally. After 1954, [Zbigniew Gajda](wojewoda.md) told him where to live, told him to stay away from people, told him what happens if he doesn't. The sołtys containing the village monster. Rezeń accepted it — not because he understood, but because Zbigniew was the authority and the alternative was unclear. He doesn't resent it. He doesn't think about it much. He has his dogs, his work, the well. Enough.
+Stanisław Rezeń has been **pushed to the edge** — literally. After 1954, [Zbigniew Gajda](wojewoda.md) told him where to live, told him to stay away from people, told him what happens if he doesn't. The sołtys containing the village monster. Rezeń accepted it — not out of fear, but because the arrangement amused him. He has his dogs, his work, the well. And when Zbigniew's careful structure finally breaks? He'll walk right back into the village with a grin. Like he's been looking forward to it.
 
-- Hasn't touched alcohol since 1954 — Zbigniew forbade it. The one rule that stuck because it came with a threat.
-- **Smokes constantly** — the one vice nobody took away. Chain-smokes, lights the next off the last. Fingers yellow-brown, teeth stained.
-- **Fidgets** — picks at scabs, scratches himself, turns a knife over in his hands. A body that doesn't know how to be still.
-- Doesn't socialise, attend gatherings, or linger where people are — not his choice. Zbigniew's arrangement.
-- Lives at the edge, keeps to his dogs, does his work, stays away
+- Hasn't touched alcohol since 1954 — Zbigniew forbade it. The one rule Rezeń respects, because the alternative was leaving, and he doesn't want to leave. The village is *his*.
+- **Smokes constantly** — lights the next off the last. Does it with style — a performance even when nobody's watching. Fingers yellow-brown, teeth stained, grins through the smoke.
+- **Never still** — turns a knife in his hands like a pen, drums on surfaces, whistles, hums. Not anxiety. Overflow. A body with too much energy and not enough outlets. When he finally gets to move — the wolf hunt, the well at night — the fidgeting stops and he's perfectly calm.
+- Lives at the edge, keeps to his dogs, does his work — but when containment breaks, he's everywhere. The store, the farm gate, the road. Grinning. Saying hello. Making people remember why they were afraid.
+- **Does odd jobs for the [PGR](../scenes/locations/pgr-farm.md)** — fence repair, heavy lifting, slaughter when livestock needs killing. [Michał Pytlak](foreman.md) knows him as a useful pair of hands and nothing more. This is the thread [Zbigniew](wojewoda.md) pulls when the wolves force his hand.
 
-The isolation isn't self-imposed — it's **Zbigniew's arrangement.** The superego containing the id. As long as Zbigniew holds authority, Rezeń stays at the edge. When the well erodes Zbigniew's control — the containment fails and the id walks free.
+The isolation isn't self-imposed — it's **Zbigniew's arrangement.** The superego containing the id. As long as Zbigniew holds authority, Rezeń stays at the edge. When the wolves force Zbigniew to use the containment channel for a real request — the arrangement collapses and the id walks free.
 
 ## Relationships
 
-- **[Edek Barnaś](glupek.md)** — watches him like a mistake he can't correct. A 17-year-old, six-foot reminder the job wasn't finished. Whether he'd act if the situation demanded it is an open question. Probably yes.
+- **[Edek Barnaś](glupek.md)** — the worst thing about Rezeń and the boy is that Rezeń is *nice* to him. Arm around the shoulder. Pinches his cheek. Slips him food — a piece of sausage, a crust. Calls him *"chłopak"* with a grin, ruffles his hair like a favourite uncle. Jovial, warm, familiar. The village watches this and their skin crawls, but what can they say? He's being kind to the boy. That's worse than cruelty — because the hand on Edek's shoulder is the hand that strangled him at four. And Edek's body knows. He goes rigid at the touch. Doesn't pull away — can't, the damaged brain reads the warmth and the terror simultaneously and freezes. Smiles back sometimes, an empty reflex, while every muscle locks. Rezeń doesn't notice or doesn't care. He enjoys the boy's company the way a man enjoys a dog that flinches. Nobody in the village will ever say what's wrong with this picture. They just look away faster.
 - **[Janina Gajda](ciotka.md)** — she stopped him killing the infant. Never forgiven. They don't speak. The silence between them is louder than anything in the village.
 - **[Zbigniew Gajda](wojewoda.md) & [Tadek Gajda](secondary-characters.md)** — co-conspirators, decayed bond. [Zbigniew Gajda](wojewoda.md) keeps him at arm's length; [Tadek Gajda](secondary-characters.md) drinks to forget him. Useful as a threat, unwanted as a neighbour. He accepts it with the cold patience of a man who knows where the bodies are.
-- **[Paraskewia Chyłak](hag.md)** — doesn't know she exists. But he's noticed signs: debris re-piled on the well after he cleared it, candle wax in the cerkiew, faint incense on nights nobody should be there. Chalks it up to the ruins being strange. Someone is fighting him for the well, and he doesn't know it.
+- **[Paraskewia Chyłak](hag.md)** — doesn't know she exists. He's noticed signs: debris re-piled on the well after he cleared it, candle wax in the cerkiew, faint incense on nights nobody should be there. Chalks it up to the ruins being strange. Someone is fighting him for the well, and he doesn't know it. **She** knows exactly who he is — the local boy from the next valley who helped the soldiers in 1947. She's been watching his footprints at the well for 20 years.
 
 ## Well Influence
 
 **The compulsion is winning.** The well's pull is stronger than his self-imposed discipline. As the water rises, containment erodes — visibly:
 
+- **The wolves break the door open.** [Zbigniew](wojewoda.md) authorizes Rezeń to hunt wolves via [Tadek](wujas.md) — a practical request sent through the maintenance channel. Rezeń hears "we need you" and shows up at the [PGR farm](../scenes/locations/pgr-farm.md). Among workers. Among people. First time in 13 years. This is the **concrete trigger** for the containment breaking. See [The Wolf Hunt](../scenes/events/event-wolf-hunt.md) and [Tadek Visits the Butcher](../scenes/events/event-wujas-visits-butcher.md).
+- **Doesn't go back.** The wolf job ends — or doesn't. Either way, Rezeń stays. He was called. He was authorized. The well's pull and the practical excuse merge: the man who was always drawn to the village now has a *reason* to be there.
 - **Starts showing up.** At the store, near the farm, lingering where people gather. The man who avoided everyone for 13 years is suddenly *around*. Like a guard dog that's slipped its chain.
 - **Starts drinking.** The one rule he never broke. Shows up at the [bimber operation](../story-facts/bimber-operation.md), accepts a bottle from [Tadek Gajda](secondary-characters.md)'s crew. Everyone who remembers 1954 knows what alcohol did to those men. Stanisław Rezeń with a bottle is the village's canary.
 - **Not aggressive — yet.** Calm, almost pleasant. Makes small talk he's never made. A man who's always been good at reading people and performing warmth when it serves him — and now the well is giving him reasons to. The practical self-awareness that kept him contained is dissolving.
-- **The dogs stay at the edge.** Won't follow him into the village. Pace the perimeter and whine. Even they can tell.
 
 **The compulsion is to feed [the well](../story-facts/the-well.md).** Not guard it, not own it — put something *in* it. The committee is dangerous not because they're near the well, but because they're *new people* — fresh bodies. His interest in the players isn't territorial — it's predatory, and he doesn't fully understand why.
 
-**He may kill [Paraskewia Chyłak](hag.md).** If pressure drives both to [the well](../story-facts/the-well.md) on the same night, the compulsion takes over. Not guaranteed — the players can prevent it. See [Butcher kills Hag](../story/event-butcher-kills-hag.md).
+**He may kill [Paraskewia Chyłak](hag.md).** If pressure drives both to [the well](../story-facts/the-well.md) on the same night, the compulsion takes over. Not guaranteed — the players can prevent it by getting [Dudka](neighbour.md) to the well. See [The Well Confrontation](../scenes/events/event-well-confrontation.md) and the [prevention conditions](../scenes/events/event-well-confrontation.md#prevention).
 
 ## Flood Attitude
 
 Doesn't care about the committee — no property, no family, no stake. **Looking forward to the flood** — not calculated like [Zbigniew Gajda](wojewoda.md), but visceral. The water will fill the well, cover it, swallow it. The thing pulling at him for 13 years is about to be drowned — or completed. Either way, something in him says *yes*. Anticipation.
+
+## Actions
+
+### Confront Rezeń (after confrontation)
+- **Requires:** Tracked the dogs from the [well](../scenes/locations/the-well.md) OR already suspect him
+- **Cost:** 1 action
+- **Skills:** **Intimidate**, **Read**
+- **Outcome:** He doesn't deny it. Doesn't confirm it either. Doesn't care. The knife turns in his hand. He's calmer than he's been in days — the compulsion briefly satisfied, like feeding an addiction. *"The witch? She was at the well. She shouldn't have been at the well."* If pressed: *"I didn't go looking for her."* True. He went to the well. She was there. Everything else was the compulsion.
+  - **Read:** He's not lying. He's not guilty. He doesn't experience what he did as wrong. The well wanted feeding. He fed it. The satisfaction is visible — and it's already fading. The craving is coming back.
 
 ## The Well's Redemption
 

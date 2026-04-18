@@ -30,6 +30,30 @@ Lives next door to [Janina Gajda](ciotka.md) and [Edek Barnaś](glupek.md). Sees
 
 **Openly vindictive** — calls [Stanisław Rezeń](butcher.md) evil to anyone who listens. Hates the people who did it. But stuck in inaction — talking is all he does.
 
+### The Wolves
+
+**Has been hunting wolves for weeks — failing.** The [PGR](../scenes/locations/pgr-farm.md) livestock is under attack. Dudka is the natural choice: licensed hunter, good shot, knows the forest. He took it on himself. Goes out with his rifle, tracks the pack, can't close. One man in vast terrain against a smart pack. He hasn't killed a single wolf.
+
+When [Zbigniew Gajda](wojewoda.md) authorizes [Stanisław Rezeń](butcher.md) via [Tadek](wujas.md), Dudka is **furious**. Not just professional embarrassment — visceral rage. The village's answer to his failure is to bring in the man Dudka is **90% sure murdered someone.** He heard [Hania Barnaś](jagna.md) die — the screaming, the dogs, shapes dragged toward the forest. And now that man is at the PGR gate, among workers, being *welcomed*, because Dudka wasn't enough.
+
+The bystander who couldn't protect the village in 1954 couldn't protect it in 1967 either. And the village's solution is the killer. See [The Wolf Hunt](../scenes/events/event-wolf-hunt.md).
+
+**Defends the hag.** When the village blames [Paraskewia Chyłak](hag.md) for the wolves, Dudka is the one voice saying it's nonsense. He's been out there for weeks. He's seen the tracks, the scat, the territory markers. Wolves are wolves — rain pushed them down, livestock is easy prey, end of story. *"She's an old woman in the forest, not a witch."* The hunter who can't stop the wolves at least understands them. This puts him at odds with the village and makes him the **one person who might care when the hag disappears**.
+
+### Watching Rezeń
+
+**Dudka has always watched Rezeń.** 13 years of surface-level surveillance — when Rezeń leaves his house, where he goes during the day, who he talks to. The quiet paranoia of a man 90% sure his neighbour is a murderer. Not a formal stake-out. Just awareness. The hunter's instinct applied to the one thing he can't bring himself to confront.
+
+After the wolf authorization, this intensifies. Rezeń is loose in the village, at the PGR, among people. Dudka watches from across the farm, from his window, from the forest edge. He sees Rezeń leave at night — toward the forest, toward [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). Notes it. Doesn't follow.
+
+**He won't follow on his own.** The old village is the direction Dudka has avoided for 13 years. That's where they dragged the bodies. That's where the well is. His surveillance stops at the tree line — the same paralysis from 1954 dressed up as caution. He watches but doesn't act. He notices but doesn't investigate. The pattern holds.
+
+**Two things break the pattern:**
+- **Players tell him Rezeń goes to the well at night.** They don't understand what they saw. Dudka does. The man he's 90% sure murdered someone is visiting the place where the bodies are. Dudka's reaction is disproportionate — and that disproportion is itself a clue.
+- **Players find the well and ask Dudka for help.** They want the guy with a rifle. Going to the old village forces Dudka past 13 years of avoidance. When he sees the well, he knows exactly what it is.
+
+See [The Well Confrontation — Prevention](../scenes/events/event-well-confrontation.md#prevention).
+
 ## The Escalation
 
 Three-step arc — each a bigger overcorrection:

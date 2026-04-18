@@ -30,6 +30,7 @@ The wooden buildings were burned in 1947. Stone survived. What fire couldn't fin
 - **Root cellars** — if players descend (dangerous), may contain preserved items from 1947
 - **Scale** — counting foundations gives village size. Too many homes for a "small settlement." The official record understates what was here.
 - **Burn marks** — evidence the destruction was deliberate, not natural decay. → Seeds [old-village-was-burned](../../clues/clues.md#old-village-was-burned)
+- **Blood near the well** — (Day 2+, after wolf hunt) Dark smears on the stone rim. Not old — recent. Could be animal, could be anything. Not enough to conclude what happened, but enough to notice something has been here. **Observation** confirms: dragged, not spilled. Something was brought to the well and put in. → [fresh-blood-at-well](../../clues/clues.md#fresh-blood-at-well)
 
 ## Actions
 

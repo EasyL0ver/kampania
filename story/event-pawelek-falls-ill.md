@@ -67,11 +67,13 @@ Different interpretations circulate:
 - **The well** — Pawełek Kopacz's sickness is proof that something is genuinely wrong with the water. The well's location and contents become undeniable.
 - **Village blame** — Outsiders? Barbara Kopacz? The curse? The village seeks a target for its fear.
 
-## Open Questions
+## Open Questions — Resolved
 
-- How quickly does Pawełek Kopacz recover? (Timeline affects village panic)
-- Do other children fall ill? (Epidemic vs isolated incident)
-- Can the players save him, or is medical care simply unavailable?
-- What does Pawełek Kopacz (or Barbara Kopacz) reveal about where he drank from?
-- Does this push Barbara Kopacz to finally name his father?
-- Does the village blame the well, or blame the players for arriving and "bringing sickness"?
+All resolved in the playable scene: [`scenes/events/event-pawelek-falls-ill.md`](../scenes/events/event-pawelek-falls-ill.md).
+
+- **How quickly does Pawełek Kopacz recover?** → 1-2 days (Medicine), 2-3 days (phone), 3-4 days (no help). He always survives.
+- **Do other children fall ill?** → No. Isolated incident — he went where nobody else goes. Contamination is localized around the old village.
+- **Can the players save him?** → Yes. Medicine skill (hands-on), phone call to dr. Sawicki, or he survives on his own slowly.
+- **What does Pawełek Kopacz reveal?** → "The round place," "the lady said don't drink that one," Lemko words from Paraskewia. Leads to the well and the hag.
+- **Does this push Barbara Kopacz to name the father?** → Optional. Comfort + Sweettalk → Intimidate/Law chain. She names Marek (wrong — it's Tadek).
+- **Does the village blame the well or the players?** → Both. Superstition blames the witch/old village. Practical fear blames the committee for inaction.

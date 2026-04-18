@@ -37,3 +37,18 @@ Adjacent: the cemetery. A few dozen graves, most weathered. One is freshly tende
 - **Cost:** Free
 - **Outcome:** All graves are post-1947. No older burials. The hill and church foundation are older than the graves around them. This was a Lemko church once — repurposed, repainted, re-sanctified. The dead who were here before are gone.
 - **Leads to:** → [old village was Lemko](../../clues/clues.md#old-village-was-lemko), seeds questions about where the original dead went
+
+## The Plebania (Rectory)
+
+Adjacent to the church — the priest's house. Solid stone foundation, older than the village (built for the previous Lemko parish, inherited by ks. Władysław Pająk). Too large for one man. A kitchen, a study full of books, a spare room with a cot. And below: a **cellar**. Stone walls, cool, dark. Originally for preserves and communion wine. Now mostly empty — a few jars, old liturgical supplies, dust.
+
+The plebania is ks. Władysław Pająk's private space. Parishioners visit the church, not the house. Nobody goes to the cellar.
+
+### Search the plebania
+- **Requires:** Priest absent or distracted. He would not allow this willingly.
+- **Cost:** 1 card
+- **Outcome:**
+  - **Upstairs:** Books, letters, a modest life. Nothing incriminating — the priest keeps his knowledge in his head, not on paper.
+  - **Cellar:** Locked from the outside with a padlock (new — doesn't match the old ironwork on the door). Inside: preserves, dust, liturgical junk. **After the priest shelters Edek:** a straw mattress, a blanket, food scraps, a water jug. The padlock makes sense now — he's not locking something out. He's keeping someone in. Not cruelly — safely. Edek would wander.
+  - **Observation:** The cellar has been recently swept. Someone cleaned down here in a hurry. Dust patterns show recent foot traffic — large bare feet.
+- **Gives:** If Edek is there → direct confrontation with the truth. If Edek isn't there yet → seeds suspicion about what the priest is preparing for.

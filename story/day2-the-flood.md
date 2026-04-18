@@ -1,10 +1,11 @@
-# Day 2 — The Flood
+# Day 3 — The Flood
 
 **Type:** Story event — inciting crisis
+**When:** Day 3, morning (after wolf hunt on Day 2)
 
 ## What Happens
 
-por. Witold Skowron was supposed to return on day 2 to check on the committee. He doesn't show up. The rain that's been falling since the players arrived intensifies overnight into a **massive downpour**. By morning, the road out of %NEW_VILLAGE% is gone — washed out, submerged, impassable.
+por. Witold Skowron was supposed to return on day 2 to check on the committee. He didn't show up. The rain that's been falling since the players arrived intensifies overnight into a **massive downpour**. By morning of Day 3, the road out of %NEW_VILLAGE% is gone — washed out, submerged, impassable.
 
 The committee is **stranded**. No car, no road, no backup. The only phone is in Zbigniew Gajda's office.
 

@@ -36,6 +36,11 @@ Small wooden cabin, weathered and old. Built or repurposed from a pre-war struct
 
 ## Actions
 
+### Search the cabin (after confrontation)
+- **Requires:** Hag is dead or missing (aftermath of [Well Confrontation](../events/event-well-confrontation.md))
+- **Cost:** 1 action
+- **Outcome:** Empty. Fire cold. Supplies still there — she didn't leave voluntarily. Her ritual materials, icons, herbs. Evidence of 20 years of tending the dead. → [hag-tends-the-well](../../clues/clues.md#hag-tends-the-well). She's gone. She didn't pack.
+
 <!-- TODO: Define actions (search cabin, earn trust, ask about Dmytro, ask about the well) -->
 
 ## GM Notes

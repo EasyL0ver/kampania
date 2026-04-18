@@ -26,6 +26,8 @@ Not from here originally. A settler like the others, but arrived later — after
 
 A man who built something with his hands. The farm works because Michał Pytlak makes it work. He knows every field, every fence, every drainage ditch. He's spent years turning rough land into something productive. This is *his* — not on paper, but in sweat.
 
+**The wolves are bleeding him.** Attacks started weeks ago — a sheep here, a sheep there. He reinforced the pens. [Ryszard Dudka](neighbour.md) has been hunting them, failing. The losses mount. When [Zbigniew](wojewoda.md) authorizes [Stanisław Rezeń](butcher.md) to deal with it, Pytlak is grateful — he doesn't know village politics, doesn't know about the lynch. He sees a competent man with dogs who can solve his problem. See [The Wolf Hunt](../scenes/events/event-wolf-hunt.md).
+
 **He manages the anti-flood measures.** Sandbags, drainage ditches, barriers, water diversion — Michał Pytlak is the one organizing it all. When the flood comes, he's the man with the shovel, not the clipboard. He directs the workers, assigns positions, decides where the sandbags go. This is what he does — he manages land, and right now the land is under attack.
 
 ## The Flood & The Committee

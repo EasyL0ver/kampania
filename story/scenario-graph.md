@@ -12,6 +12,21 @@ graph TD
     E02 --> L_HOUSE[Wojewoda's House]
     E02 --> L_PGR[PGR Farm]
 
+    %% === WOLF CHAIN ===
+    L_PGR --> E_WOLF[Wolf Hunt]
+    E_WOLF --> E_VISITS[Tadek Visits Butcher - STOPS]
+    E_VISITS --> E_CONFRONT[Wojewoda Confronts Butcher]
+    E_WOLF --> E_WELL[Well Confrontation]
+
+    %% === PAWEŁEK ILLNESS ===
+    E_FLOOD[The Flood] --> E_PAWELEK[Pawełek Falls Ill]
+    E_PAWELEK --> L_WELL[The Well]
+    E_PAWELEK --> L_BARBARA[Barbara's House]
+
+    %% === HAG PREVENTION ===
+    E_WOLF -.->|players push Dudka| E_HAG_SAVED[Dudka Confronts Rezeń]
+    E_HAG_SAVED -.-> E_WELL
+
     %% === LOCATIONS ===
     E03 --> L_HOUSE
     L_PGR --> L_STORE[The Store]
@@ -22,8 +37,8 @@ graph TD
     classDef event fill:#1565c0,color:#fff,stroke:#0d47a1
     classDef location fill:#388e3c,color:#fff,stroke:#1b5e20
 
-    class E01,E02,E03 event
-    class L_HOUSE,L_PGR,L_STORE,L_SURVEY location
+    class E01,E02,E03,E_WOLF,E_VISITS,E_CONFRONT,E_WELL,E_FLOOD,E_PAWELEK event
+    class L_HOUSE,L_PGR,L_STORE,L_SURVEY,L_WELL,L_BARBARA location
 ```
 
 ---
@@ -35,6 +50,10 @@ graph TD
 | `events/01-the-car-in.md` | The Car In | Game start |
 | `events/02-arrival.md` | Arrival | Exit from 01 |
 | `events/03-dinner.md` | Dinner at Wojewoda's | First evening, if flood not discussed |
+| `events/event-wujas-visits-butcher.md` | Tadek Visits the Butcher | Recurring, early game. Stops Day 1-2 (wolf errand) |
+| `events/event-wolf-hunt.md` | The Wolf Hunt | Day 1-2. Zbigniew authorizes Rezeń after assessing wolf damage |
+| `events/event-well-confrontation.md` | The Well Confrontation | Night of Day 4. Rezeń loose + hag at well + village hostile (wolf rumor) |
+| `events/event-pawelek-falls-ill.md` | Pawełek Falls Ill | Day 3+. After flood. Pawełek drinks contaminated water near the old village well |
 
 ## Locations (3)
 

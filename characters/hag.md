@@ -45,9 +45,9 @@ Paraskewia Chyłak regularly sneaks to the ruins of [%OLD_VILLAGE%](../scenes/lo
 
 ## Stanisław Rezeń vs Paraskewia Chyłak — The Core Dynamic
 
-Paraskewia Chyłak doesn't know [Stanisław Rezeń](butcher.md) by name, but she knows **someone keeps coming to [the well](../story-facts/the-well.md)** — cleared debris, footprints, dog tracks stopping at a perimeter. Someone drawn to the well like a tongue to a broken tooth.
+Paraskewia Chyłak knows exactly who keeps coming to [the well](../story-facts/the-well.md). She recognizes [Stanisław Rezeń](butcher.md) — the boy from the next valley who helped the KBW soldiers in 1947. She's watched his footprints, his cleared debris, his dog tracks for 20 years. He doesn't know she exists. She knows everything about him.
 
-**He is the repetition compulsion; she is the treatment.** [Stanisław Rezeń](butcher.md) is compelled to return, re-enact, throw more into the hole. His clearing of debris is the compulsive reopening of a wound. The compulsion to fill the well is bottomless — feed it and it only gets hungrier.
+**He is the repetition compulsion; she is the treatment.**[Stanisław Rezeń](butcher.md) is compelled to return, re-enact, throw more into the hole. His clearing of debris is the compulsive reopening of a wound. The compulsion to fill the well is bottomless — feed it and it only gets hungrier.
 
 - [Stanisław Rezeń](butcher.md) clears debris from the well → Paraskewia Chyłak covers it with offerings and prayers
 - He sits in silence, feeding its gravity → she sings, giving the dead a voice so they don't have to scream
@@ -56,7 +56,7 @@ Paraskewia Chyłak doesn't know [Stanisław Rezeń](butcher.md) by name, but she
 
 [Stanisław Rezeń](butcher.md) is what happens when trauma is never processed — cold, violent, compulsive, endlessly repetitive. Paraskewia Chyłak is what happens when trauma is held with love — it doesn't disappear, but it can be lived with. He is the illness. She is the treatment. The well is the patient.
 
-**If they meet:** One of the story's most charged moments. She sees the compulsion she's fought for 20 years given a human face. He sees the "ghost" the village whispers about. What happens depends on whether the players are there. See [Butcher kills Hag](../story/event-butcher-kills-hag.md).
+**If they meet:** One of the story's most charged moments. She recognizes him — the boy from 1947, the man whose shadow she's fought for 20 years. He doesn't recognize her — she's just an obstacle at his well. She speaks, furious and terrified. He listens the way a dog listens to traffic. See [The Well Confrontation](../scenes/events/event-well-confrontation.md).
 
 ## Flood Attitude
 
@@ -74,4 +74,4 @@ Finding Paraskewia Chyłak requires exploring the [forest](../scenes/locations/h
 - How does the village treat her — fear? Ignore? Leave food out?
 - Does she have any connection to the siblings' Lemko heritage?
 - Has she tried to tell anyone what she knows?
-- **Her death is possible, not certain.** [Stanisław Rezeń](butcher.md) may kill her and throw her in [the well](../story-facts/the-well.md) — only if circumstances align and the players don't intervene. See [Butcher kills Hag](../story/event-butcher-kills-hag.md).
+- **Her death is possible, not certain.** [Stanisław Rezeń](butcher.md) may kill her and throw her in [the well](../story-facts/the-well.md) — only if circumstances align and the players don't intervene. See [The Well Confrontation](../scenes/events/event-well-confrontation.md).

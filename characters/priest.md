@@ -57,6 +57,8 @@ But the effect is the same. ks. Władysław Pająk's material comfort depends on
 
 This is not performance. ks. Władysław Pająk truly believes that protecting Edek Barnaś is the best he can do for the boy — better than any justice system could offer. And he may be right. But it's also the thing that lets him sleep at night. *I protect the survivor, therefore my silence is mercy, not complicity.*
 
+**After Janina Gajda's death:** ks. Władysław Pająk goes into the forest, finds Edek at the [UPA bunker](../scenes/locations/upa-bunker.md), and brings him back to the [plebania cellar](../scenes/locations/the-church.md#the-plebania-rectory). He believes the boy — it wasn't on purpose. Edek can barely explain, but the priest reads him: confusion, terror, grief. Not a killer. A damaged boy who lost control. The priest locks him in the cellar to keep him safe — a new padlock on an old door. He's now harboring a murder suspect. His 13-year bargain with silence has led him here: hiding a killer to protect a victim, under the church where he prays for forgiveness.
+
 ## Relationship to Irena Gajda
 
 **An adversary.** Irena Gajda has approached ks. Władysław Pająk — obliquely, carefully — more than once over the years. She's come to confession and talked around her suspicions. She's asked him directly: *"Father, do you think something happened to that family?"* She's watched his face for a reaction.
