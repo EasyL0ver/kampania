@@ -224,14 +224,6 @@ The hag lives, but the confrontation still happened. The well is still hungry. R
 - **Dudka and Rezeń can't pretend anymore.** Rezeń knows Dudka was watching. Dudka knows Rezeń was about to kill. The village arrangement — silence, avoidance — is cracked. This is gasoline for Day 7.
 - **The players have a choice.** Protect the hag permanently (put Rezeń away, guard the well, convince her to leave). Or let the clock run — Rezeń will find another night.
 
-## Exits
-
-- → [Hag's cabin](../locations/hags-cabin.md) — search for her belongings, ritual knowledge
-- → [Butcher's house](../locations/butchers-house.md) — confront Rezeń
-- → [Wojewoda's house](../locations/wojewodas-house.md) — report what happened (Zbigniew won't want to hear it)
-- → [Neighbour's house](../locations/neighbours-house.md) — talk to Dudka (especially after a freeze)
-- → [PGR Farm](../locations/pgr-farm.md) — return to the committee's work
-
 ## For the GM
 
 **This scene is the campaign's moral mirror.** Every version reflects who the players have become:

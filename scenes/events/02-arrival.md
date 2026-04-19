@@ -21,8 +21,3 @@ He doesn't mention the flood. He doesn't know. But he's probing — *"So what ex
 - **Ask about his family** — photos on the shelf, wife in the other room. He's brief but proud. → Rapport with Zbigniew Gajda
 - **Spot Wife eavesdropping** — catch a shadow by the door, a floorboard creak. She's listening to everything. → Seeds [Wife has been investigating](../../clues/clues.md#wife-has-been-investigating)
 
-## Exits
-
-- **03-dinner** (event) — first evening, if flooding not discussed
-- **wojewodas-house** (location) — the house is now available
-- **pgr-farm** (location) — the office is now available for the rest of the game

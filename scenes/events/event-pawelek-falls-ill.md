@@ -210,16 +210,6 @@ See [Pawełek's character sheet](../../characters/pawelek.md#health-points) for 
 - Marek path: Barbara's secret is exposed. Sieve flips hard — she has nothing left to protect except Pawełek. Absolute loyalty to committee.
 - Paraskewia/Raid/Tadek: No Gajda entanglement. Clean flip toward the committee.
 
-## Exits
-
-- [Barbara's house](../locations/barbaras-house.md) — stay with the family
-- [Wojewoda's office](../locations/pgr-office.md) — phone for medical help
-- [Village outskirts](../locations/village-outskirts.md) — investigate the water source
-- [Old village ruins](../locations/old-village-ruins.md) — follow Pawełek's path to the well
-- [The well](../locations/the-well.md) — the contamination source
-- [The store](../locations/the-store.md) — **get medicine from Helena** (the critical path), or raid the cabinet
-- [Hag's cabin](../locations/hags-cabin.md) — if players think Paraskewia can help (she knows which water is safe)
-
 ## For the GM
 
 **Three-way pressure cooker:** sick child, medicine bottleneck, two hidden fathers. Investigation value is in details (where Pawełek drank, what's in the water, delirium content, Babcia's lucidity). Dramatic engine is the store deal and what happens when it fails.

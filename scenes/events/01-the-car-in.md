@@ -43,6 +43,3 @@ por. Witold Skowron is professional, friendly. He talks while he drives.
 - **Outcome:** Players establish their characters during the ride. Who they are, what they're good at, why they're on this committee. Abilities assigned here.
 - **Leads to:** Players have defined characters and abilities
 
-## Exits
-
-- **02-arrival** (event) — por. Witold Skowron drops them off at Zbigniew Gajda's house. The car drives away.

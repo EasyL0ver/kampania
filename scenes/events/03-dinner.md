@@ -34,8 +34,3 @@ If players build enough rapport with Zbigniew Gajda during dinner — he offers 
 - **Outcome:** Tadek Gajda gets loose. Fragments come out between drinks — nothing coherent, but the players hear real pain. This is the door into the drinking crew.
 - **Leads to:** Drinking crew scenes unlocked. Seeds [Wujas is the weak link](../../clues/clues.md#wujas-is-the-weak-link).
 
-## Exits
-
-- **wojewodas-house** (location) — the house for family scenes
-- **pgr-farm** (location) — the office for phone/ledger
-- Next morning: village locations open up

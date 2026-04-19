@@ -72,13 +72,6 @@ Free — no action cost. Available to any player present.
 - **Outcome:** ks. Pająk is more open during/after mass than at the plebania. The sacred space softens him. He's still guarded, but the flood has shaken everyone — including him. Players who show faith or respect get further here than a cold plebania visit.
   - See [priest character file](../../characters/priest.md) for full interaction tree.
 
-## Exits
-
-- [Ciotka's house](../locations/ciotkas-house.md) — check on Janina
-- [The church](../locations/the-church.md) — stay, talk to priest, inspect the building
-- [The store](../locations/the-store.md) — Helena goes straight there after mass
-- [Barbara's house](../locations/barbaras-house.md) — check on Pawełek (if already sick)
-
 ## For the GM
 
 **The scene is the empty pew.** Everything else — the sermon, the flood prayers, Helena's performance, Dudka's guilt — is atmosphere. The thing that matters is the absence. Ciotka never misses mass. Today she's not here. That's the hook.

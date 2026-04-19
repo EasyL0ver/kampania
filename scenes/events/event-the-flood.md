@@ -48,12 +48,6 @@ The players are the only ones who look lost.
 - **Outcome:** Door-to-door in the village. Everyone's managing — this isn't their first flood. But the visits give access to houses and conversations that were harder to arrange before. People are home, busy, distracted. Guards are down.
 - **Gives:** Natural excuse to visit any house in the village. Access to NPCs in their homes. The flood is cover for investigation — *"just checking everyone's safe."*
 
-## Exits
-
-- → Any [location](../locations/) in %NEW_VILLAGE% — the village is accessible, just wet
-- → [%OLD_VILLAGE%](../locations/old-village-ruins.md) — passable but dangerous. Water everywhere. Mud to the knees. Players who go there see the ruins half-submerged. The well's water level is visibly higher.
-- → The road — impassable. Looking at it confirms: nobody's getting in or out.
-
 ## For the GM
 
 **The flood is a cage, not a disaster.** The players aren't in danger — the village knows how to handle water. What they've lost is *escape*. The state is gone. Skowron is gone. Their authority was always borrowed, and now the lender can't be reached.

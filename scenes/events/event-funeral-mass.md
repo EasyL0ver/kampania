@@ -78,9 +78,4 @@ Walks up the aisle unsteady. Hand on the coffin lid. Then:
 
 **GM note:** If Helena got the committee to sign the death certificate (Pawełek medicine deal), the funeral is just burial of a closed case. If not — this is her second attempt, wrapped in grief and social pressure. With **Law:** once she's in the ground, the certificate is the only record.
 
-## Exits
 
-- [The church](../locations/the-church.md) — talk to priest (guard is down after the funeral)
-- [Ciotka's house](../locations/ciotkas-house.md) — revisit the scene
-- [The store](../locations/the-store.md) — Helena goes back to work
-- [Barbara's house](../locations/barbaras-house.md) — Pawełek is still sick

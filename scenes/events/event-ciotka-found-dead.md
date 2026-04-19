@@ -72,13 +72,6 @@ No sign of forced entry. No sign of a struggle beyond the body. No weapon. Just 
   - **[Ryszard Dudka](../../characters/neighbour.md):** Horrified. A woman murdered in the village — his neighbour. Reaches for his rifle (if he still has it). Doesn't ask who did it — assumes Rezeń. *"That bastard finally did it."* Has to be talked down.
   - **Nobody:** The players sit with it. The body stays. The village doesn't know. Every hour they wait, the trail gets colder — but so does the panic. Their choice.
 
-## Exits
-
-- → [Ciotka's house](../locations/ciotkas-house.md) — the location's persistent actions remain available (attic, backyard, census records)
-- → Forest / [village outskirts](../locations/village-outskirts.md) — follow Edek's tracks
-- → Any NPC — tell someone, start the chain
-- → Do nothing — sit on it, investigate quietly
-
 ## For the GM
 
 **This scene is quiet.** No screaming, no blood-soaked horror, no witnesses. A clean house, a dead woman, a missing boy. The violence already happened — the players only see the aftermath. That's the point.

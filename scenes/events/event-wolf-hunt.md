@@ -104,13 +104,6 @@ The wolf hunt isn't a standalone event — it's the mechanism that triggers casc
 - **If the hunt fails or is abandoned:** Attacks continue. Pytlak's desperation grows. Workers guard livestock instead of building sandbags → the engineering/flood defense ending gets harder.
 - **If players ignore the wolves entirely:** The subplot resolves without them — Zbigniew still authorizes Rezeń, the containment still breaks. The players just don't witness the mechanism. They'll notice the effects: Rezeń at the farm gate, Dudka angrier, Tadek drinking harder.
 
-## Exits
-
-- → [PGR Farm](../locations/pgr-farm.md) — return to report findings, document losses
-- → Forest — deeper exploration, potentially toward [%OLD_VILLAGE%](../locations/old-village-ruins.md), [bimber still](../locations/bimber-still.md), or [hag's cabin](../locations/hags-cabin.md)
-- → [Neighbour's house](../locations/neighbours-house.md) — follow up with Dudka after the hunt
-- → [Butcher's house](../locations/butchers-house.md) — follow up with Rezeń after the hunt
-
 ## For the GM
 
 **The wolves are the excuse. The authorization is the earthquake.**
