@@ -168,6 +168,9 @@ Someone is helping [Barbara Kopacz](../characters/barbara.md). The house, the fi
 ### marek-is-paweleks-father
 [Barbara Kopacz](../characters/barbara.md) names [Marek Gajda](../characters/junior.md) as [Pawełek Kopacz](../characters/pawelek.md)'s father under pressure. She believes it's true. It's not — the real father is [Tadek Gajda](../characters/wujas.md).
 
+### wujas-slept-with-barbara
+[Tadek Gajda](../characters/wujas.md) slept with [Barbara Kopacz](../characters/barbara.md) once. Neither of them talks about it. Barbara was also with [Marek Gajda](../characters/junior.md) and assumes Marek is the father. Tadek doesn't even consider the possibility. It was one night.
+
 ### paweleks-father
 [Tadek Gajda](../characters/wujas.md) is [Pawełek Kopacz](../characters/pawelek.md)'s actual father. Nobody knows — not Barbara, not Tadek, not Marek. A one-time encounter nobody thinks about.
 
@@ -295,8 +298,23 @@ Someone is doing something in the forest — men, fire, a smell. Could be anythi
 ### bimber-still
 [Tadek Gajda](../characters/secondary-characters.md)'s crew runs an illegal bimber still in the [forest](../scenes/locations/old-village-ruins.md), halfway between the villages. Just moonshine — not the murder conspiracy. [Zbigniew Gajda](../characters/wojewoda.md) knows and tolerates it. [Helena Rzepka](../characters/matrona.md) supplies sugar through the store.
 
+### store-has-drug-cabinet
+[Helena Rzepka](../characters/matrona.md)'s [store](../scenes/locations/the-store.md) has a locked pharmaceutical cabinet — a *szafka apteczna*, standard PRL distribution point. Helena holds the only key. [Halina](../characters/secondary-characters.md) can't open it.
+
+### wojewoda-can-call-doctor
+[Zbigniew Gajda](../characters/wojewoda.md)'s office phone can reach [dr. Leon Sawicki](../characters/secondary-characters.md) in the district. Flood-damaged lines — patchy, but it works on the third try.
+
 ### paweleks-illness
 [Pawełek Kopacz](../characters/pawelek.md) drinks contaminated floodwater near the well and falls ill. Medically ordinary for flood conditions — but his fever dreams mention "the round stones," "the lady" who told him not to drink, and water that "tastes like the ground." → [event](../scenes/events/event-pawelek-falls-ill.md)
+
+### paweleks-diagnosis
+Bacterial dysentery — *Shigella*, most likely. Fever cycling, bloody stool, dehydration. Fatal without treatment in a child this size. Needs antibacterial medication — but which one and what dosage requires a doctor.
+
+### paweleks-contamination
+The contamination profile is wrong. Concentrated single-source, not diffuse floodwater. High phosphate, high ammonia, anaerobic decay. Something large and organic decomposing in a confined water source for years. Not one body. Many.
+
+### well-water-contaminated
+The well in [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) is the source of contamination. The water is bad — whoever drinks it gets sick.
 
 ### old-village-looks-haunted
 [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) looks haunted — candlelight, incense, footprints — because [Paraskewia Chyłak](../characters/hag.md) is tending it, not because it's empty.

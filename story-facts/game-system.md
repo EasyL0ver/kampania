@@ -111,7 +111,7 @@ Each player picks one as their specialty. This is their job, the reason the stat
 |---|---|
 | **Culture** | Lemko customs, Greek Catholic icons, folk traditions, ritual meaning |
 | **Language** | Ukrainian and Lemko — full comprehension of documents, inscriptions, Babcia's prayers. Everyone reads basic Cyrillic (school Russian), but this skill unlocks meaning beyond the letters |
-| **Medicine** | First aid, herbs/poisons, reading physical trauma on a body or a person |
+| **Medicine** | First aid, herbs/poisons, reading physical trauma on a body or a person. Not a doctor — a physiotherapist, nurse, or paramedic. Can assess and stabilize, not prescribe |
 | **Streetwise** | Reading power dynamics, sensing danger, knowing when you're being played |
 | **History** | Akcja Wisła, UPA, postwar resettlement, recognizing military artifacts |
 | **Accounting** | Reading ledgers, spotting discrepancies, tracing money flows, exposing ghost employees and cooked books |

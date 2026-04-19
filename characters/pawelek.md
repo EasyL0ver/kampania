@@ -43,6 +43,37 @@ Pawełek is not an NPC to interrogate — he's a 4-year-old to observe. His func
 
 Late game, his illness is the emotional core of the flood arc — a child sick with bad water is the most human crisis the campaign has. It forces choices on [Barbara](barbara.md), on [Marek](junior.md), on the players themselves.
 
+## Health Points
+
+**Ticking clock mechanic.** Tracks Pawełek's condition after he falls ill ([event](../scenes/events/event-pawelek-falls-ill.md)).
+
+**Starts at 6 HP.** Triggers Day 3 evening. **Loses 1 HP per phase.**
+
+| HP | State |
+|---|---|
+| 6 | Fever, restless. Babbling, lucid intervals — all delirium clues available |
+| 5 | Worse, sweating. Lucid intervals shorter |
+| 4 | Cycling hard. Babbling stops — only moans. **Barbara names the father** |
+| 3 | Dehydrated, limp. Barbara non-functional |
+| 2 | Unresponsive. Last chance for medicine |
+| 1 | Convulsions. Medicine still works but recovery slow and uncertain |
+| 0 | **Dead** |
+
+### Modifiers
+
+- **Stabilize (Medicine skill):** **Drain stops for the rest of the day.** Resets next morning — needs to be re-applied daily. 2 actions per day.
+- **Norsulfazol (from Helena/robbery/raid/Tadek):** Drain stops permanently. **+1 HP per phase.** Full recovery
+- **Paraskewia's herbs:** Drain stops permanently. No HP recovery — stays at current HP. Pawełek sleeps, unreachable rest of game
+- **No treatment:** 6 phases (1.5 days) → dead
+- **Stabilize only:** Buys one day at a time. HP doesn't drop but doesn't recover. Miss a day → drain resumes
+
+### GM Notes
+
+- GM tracks HP openly or secretly — players feel the urgency either way
+- At HP 4, Barbara names Marek as the father — cold math, not emotion
+- Delirium clues are only available at HP 5-6. Below that, he's too far gone to babble
+- If Pawełek dies, Barbara is destroyed. Marek carries it forever. The village remembers the committee did nothing
+
 ## Actions
 
 Pawełek is 4. He's not interrogated — he's observed and talked to. Where you find him and what he's doing depends on the time of day.
@@ -84,4 +115,34 @@ Pawełek is 4. He's not interrogated — he's observed and talked to. Where you 
 - **Cost:** Free
 - **Outcome:** You say something in Lemko. He lights up — *"You talk like Babcia! And the lady!"* He starts repeating words, not just Babcia's prayers now. Different words. Softer. An old woman talking to a small boy — calling him *synočku*, telling him to eat, telling him the forest is safe. With Language, you understand: whoever this woman is, she speaks Lemko, she's been kind to him, and she lives in the forest.
 - **Gives:** [hag-exists](../clues/clues.md#hag-exists)
+
+### Play with Pawełek
+- **When:** Any phase
+- **Requires:** Nothing
+- **Cost:** 1 action
+- **Outcome:** You spend time with him. Chase, hide-and-seek, throwing stones at a tree. He's delighted — adults don't usually play. No clues, no information. Just a 4-year-old having fun.
+- **Gives:** Nothing. **Builds rapport** — counts for actions that require trust (Ask about drinking water).
+
+### When sick (HP 1-6)
+
+These actions require [Pawełek falls ill](../scenes/events/event-pawelek-falls-ill.md) to have triggered.
+
+### Stabilize Pawełek
+- **Requires:** **Medicine**, Pawełek is sick
+- **Cost:** 2 actions (must be re-applied each day)
+- **Outcome:** Clean water, salt, boiled cloths. Cool compresses, controlled hydration, monitoring. Symptoms managed — **HP drain stops for the rest of the day.** Resets next morning.
+  - **Medicine (diagnosis):** Won't resolve on its own in a child this size. Needs antibacterial medication — you're buying time, not winning. You need a doctor to name the drug. → **Gives:** [paweleks-diagnosis](../clues/clues.md#paweleks-diagnosis)
+  - **Medicine (contamination):** The bacterial load is wrong. Floodwater dysentery is opportunistic — low-grade, multiple pathogens. This is concentrated, single-source. Decomposing organic matter in a confined water source over years. High phosphate, high ammonia, anaerobic bacteria from deep decay. Points to a sealed space — cistern, cellar, well — filled with something large and organic. Not one body. Many. → Reinforces [old-village-exists](../clues/clues.md#old-village-exists), points toward [the well](../scenes/locations/the-well.md). **Gives:** [paweleks-contamination](../clues/clues.md#paweleks-contamination)
+- **NPC State Change:** Barbara trusts the committee. Real trust — she cooperates fully.
+
+### Ask about drinking water
+- **Requires:** Pawełek is sick, HP 5-6 (lucid)
+- **Cost:** Free
+- **Outcome:** *"Did you drink water somewhere?"* He nods. He doesn't connect it to being sick — he's 4. Water isn't the scary part.
+  *"Where?"* Now he clams up. He went too far and he knows it.
+  - **With rapport** (played with him before — Build, Cops, Speak Lemko) **or Sweettalk:** *"By the round stones. Where the water comes up. The lady told me not to drink it but I was thirsty."*
+  - **Without rapport or check:** Shakes his head. Won't say more.
+  - **Geology:** Contamination follows the water table downhill from the old village. Mapping the flow reveals the source.
+  - **Observation:** His shoes (by the door) — dark, silty mud with stone dust fragments. Forest path mud with worked stone. He was at a ruin.
+- **Gives:** [well-water-contaminated](../clues/clues.md#well-water-contaminated). Direction toward [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) and [the well](../scenes/locations/the-well.md). Reinforces [old-village-exists](../clues/clues.md#old-village-exists).
 

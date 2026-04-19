@@ -12,6 +12,8 @@ The village social hub. Outside — men on benches passing a bottle of bimber. T
 
 Inside — Halina Zając runs the counter. Helena Rzepka owns the place but rarely gets her hands dirty. Shelves sparse but functional. Bimber under the counter. The crew drifts in to buy rounds, banter with Halina Zając, get shooed out. She has a mean streak — sharp tongue, doesn't suffer fools. She resents working for Helena Rzepka and doesn't hide it.
 
+In the back room — a locked pharmaceutical cabinet. State-regulated PRL distribution: basic sulfonamides, aspirin, bandages, iodine. Helena keeps the only key. Halina Zając can sell vodka and bread; she cannot open the medicine cabinet. For that, you need Helena herself.
+
 Government people get suspicion outside. But if the players have rapport with Tadek Gajda — he waves them over, pours a drink. They're in.
 
 *Drinking minigame TBD — will determine how much comes out per visit.*
