@@ -9,6 +9,9 @@ Player-discoverable knowledge. Each clue is an atomic fact. Character files link
 ### siblings-are-lemko
 [Zbigniew Gajda](../characters/wojewoda.md), [Helena Rzepka](../characters/matrona.md), [Tadek Gajda](../characters/secondary-characters.md), and [Janina Gajda](../characters/ciotka.md) are siblings of Lemko descent, hiding behind Polish identities.
 
+### three-barred-cross-is-lemko
+The three-barred cross is a Greek Catholic symbol — Lemko, not Roman Catholic. Seeing one on a headstone, icon, or object means the owner was Lemko.
+
 ### hag-exists
 Someone lives in the [forest](../scenes/locations/hags-cabin.md). Villagers call her a witch, a ghost, a story to scare children. She's real.
 
@@ -67,8 +70,23 @@ The flood zone was chosen partly to bury the massacre evidence. [por. Witold Sko
 
 ## The 1954 Lynch
 
+### barnas-family-disappeared
+[Edward Barnaś](../characters/soldier.md)'s entire family — him, his partner, and teenage [Hania Barnaś](../characters/jagna.md) — vanished from %NEW_VILLAGE% overnight in 1954. No goodbyes, no forwarding address. Nobody asked questions. Only [Edek Barnaś](../characters/glupek.md) remained.
+
+### edeks-father-orphaned-him
+[Janina Gajda](../characters/ciotka.md) lists herself as mother and [Edward Barnaś](../characters/soldier.md) as the father — left the village. Abandoned his family. The house stayed with her, the boy stayed with her. Consistent with what the rest of the village says.
+
+### barnas-had-a-daughter
+[Edward Barnaś](../characters/soldier.md) had a teenage daughter — [Hania Barnaś](../characters/jagna.md). She lived in the house. She's not in the census. She's not in the village. Nobody mentions her unless prompted.
+
+### something-happened-in-54
+Something violent happened one night in 1954. [Zbigniew Gajda](../characters/wojewoda.md) came home drunk and bloody. [Tadek Gajda](../characters/wujas.md) collapsed into the bottle and never came back. The [Barnaś family](../characters/soldier.md) was gone by morning.
+
 ### matrona-caught-lovers
 [Helena Rzepka](../characters/matrona.md) caught [Hania Barnaś](../characters/jagna.md) and [Emil Rzepka](../characters/secondary-characters.md) together.
+
+### jagna-painter-affair
+[Hania Barnaś](../characters/jagna.md) and [Emil Rzepka](../characters/secondary-characters.md) were lovers. Open secret in the village — everyone knew.
 
 ### matrona-orchestrated-lynch
 [Helena Rzepka](../characters/matrona.md) orchestrated the drinking that led to the lynch. She stayed sober, aimed her brothers at [Hania Barnaś](../characters/jagna.md), and said "get rid of the problem." She never touched anyone — every hand that night was male.
@@ -184,13 +202,13 @@ Someone is helping [Barbara Kopacz](../characters/barbara.md). The house, the fi
 [Barbara Kopacz](../characters/barbara.md) shares what she hears from the committee casually with [Ryszard Dudka](../characters/neighbour.md) over the fence. Everything the players tell her reaches the one man sitting on 13 years of guilt.
 
 ### wife-has-been-investigating
-[Irena Gajda](../characters/wife.md) has spent years quietly investigating the events of 1954. She and [Marek Gajda](../characters/junior.md) work together in secret.
+[Irena Gajda](../characters/wife.md) has spent years quietly investigating the events of 1954. She and [Marek Gajda](../characters/junior.md) work together in secret — a parallel investigation running alongside the committee's.
 
 ### flour-tin-evidence
-[Irena Gajda](../characters/wife.md) keeps her evidence in a flour tin in the pantry — a stained shirt, a mismatched button, newspaper clippings, handwritten notes.
+[Irena Gajda](../characters/wife.md) keeps her evidence in a flour tin in the pantry — a stained shirt, a mismatched button, newspaper clippings, handwritten notes. Looks like a cover-up dossier. Could be building a case *against* [Zbigniew Gajda](../characters/wojewoda.md) or *for* him — players can't tell.
 
 ### junior-is-false-suspect
-[Marek Gajda](../characters/junior.md) looks like the problem — violent record, sneaking around at night — but he's actually helping [Irena Gajda](../characters/wife.md) investigate the truth. His brawl record is real but unrelated.
+[Marek Gajda](../characters/junior.md) looks like the problem — violent record, sneaking around at night — but he's his mother's field agent, not his father's cover-up operative. His brawl record is real but unrelated.
 
 ### wujas-is-the-weak-link
 [Tadek Gajda](../characters/secondary-characters.md) is the weakest link in the lynch cover-up. He's been drinking to forget for 13 years. Has let fragments slip: "She didn't deserve it." The name Hania Barnaś. "Don't ever be like us."
@@ -203,6 +221,15 @@ Someone is helping [Barbara Kopacz](../characters/barbara.md). The house, the fi
 
 ### ciotka-lives-in-soldiers-house
 [Janina Gajda](../characters/ciotka.md) lives in [Edward Barnaś](../characters/soldier.md)'s former house — the best plot in the village — raising his brain-damaged son. A single woman in a dead man's house with no clean explanation.
+
+### ciotka-moved-in-after-they-were-gone
+[Janina Gajda](../characters/ciotka.md) wasn't always in that house. A family lived there before — the Barnaś family. They left, and Janina moved in with the boy.
+
+### ciotka-adopted-glupek
+[Janina Gajda](../characters/ciotka.md) took in [Edek Barnaś](../characters/glupek.md) after the family vanished. Nobody asked her to. Nobody stopped her.
+
+### ciotka-not-mother
+[Janina Gajda](../characters/ciotka.md) is not [Edek Barnaś](../characters/glupek.md)'s biological mother. She claimed motherhood on paper, but the village knows better.
 
 ### glupek-fears-butcher
 [Edek Barnaś](../characters/glupek.md) flinches instinctively from [Stanisław Rezeń](../characters/butcher.md). No conscious memory — just a body that knows. When [Stanisław Rezeń](../characters/butcher.md)'s dogs bark, [Edek Barnaś](../characters/glupek.md) hides.

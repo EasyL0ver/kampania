@@ -8,7 +8,7 @@ Read all files in these folders to understand current state:
 - `characters/` — NPC files
 - `clues/` — player-discoverable knowledge
 - `scenes/` — playable scenes and locations (`scenes/locations/`, `scenes/events/`)
-- `story/` — events, endings, scenario graph
+- `story/` — events, endings, rules
 - `story-facts/` — plot elements, mechanics
 
 ## Rules
@@ -27,7 +27,7 @@ Read all files in these folders to understand current state:
    - `scenes/events/` — playable event scenes
    - `clues/` — player-discoverable facts (single file, anchored)
    - `story-facts/` — plot elements, mechanics
-   - `story/` — events, scenes, story graph
+   - `story/` — events, endings, rules
    - `scenes/` — playable scene files
    - `historical context/` — research and reference
    - `inspirations/` — films, books, music, references

@@ -7,6 +7,7 @@
 - **Born:** 1918
 - **Age in 1967:** 49
 - **Lives in:** [Ryszard Dudka's house](../scenes/locations/neighbours-house.md) — alone
+- **Settled:** ~1948 — early settler, next door to Barnaś family from the start
 - **Armed:** Hunting rifle (licensed)
 
 ## Character
@@ -90,6 +91,20 @@ Amplifies **guilt of inaction.** Already heavy — now physical.
 ## Flood Attitude
 
 Angry at the government. Same rage as [Barbara Kopacz](barbara.md) — the state is flooding them out. The committee represents the people doing this. Hostile to players before anything else comes into play — not hiding a secret, furious about losing his home. Guilt stays buried under more immediate, legitimate rage.
+
+## Actions
+
+### Census interview — Ryszard
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Hostile at first — government people flooding his home. But he cooperates. Standard form, standard answers. If he doesn't like the players — forms filled, door closed. Nothing extra.
+
+### Ask about Janka
+- **Requires:** He liked the players. They mention Janina, Edek, or the house next door.
+- **Cost:** Free
+- **Outcome:** *"Janina? She hasn't been there that long. A family lived there before — soldier, Barnaś. Had a daughter, a wife. They left. Then Janina moved in with the boy."* Flat, factual, no drama.
+  - **If players push deeper** — ask how she got the house, why the best plot: he stiffens. *"Wojewoda gave it to her. Ask him."* Door closes.
+- **Result:** → [ciotka-moved-in-after-they-were-gone](../clues/clues.md#ciotka-moved-in-after-they-were-gone), [barnas-had-a-daughter](../clues/clues.md#barnas-had-a-daughter)
 
 ## For Players
 

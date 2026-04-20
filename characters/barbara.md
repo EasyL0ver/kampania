@@ -8,6 +8,7 @@
 - **Age in 1967:** 28
 - **Heritage:** Half-Lemko (mother is [Stefania Kopacz](babcia.md)) — raised Polish, devout Catholic
 - **Lives in:** [Barbara Kopacz's house](../scenes/locations/barbaras-house.md) — with [Stefania Kopacz](babcia.md) (her mother), [Pawełek Kopacz](pawelek.md)
+- **Settled:** After 1954 — moved in with mother for PGR work
 
 ## Character
 
@@ -86,3 +87,9 @@ Barbara Kopacz is the easiest door in the village to open — and the most dange
 - **Streetwise:** She's handing you the village's entire nervous system wrapped in politeness. Every kind word is a data point. "Very busy" = cracking. "Keeps to himself" = dangerous. "Always been that way" = nobody questions it. She's the best intelligence source in the village and she has no idea. **Also notice:** she's fishing. Every question she asks you is information she'll share with Ryszard tonight.
 - **Warning:** **Everything you tell Barbara reaches the Neighbour.** The sieve works both ways — she gives generously, and reports generously. Don't reveal this to the players. The GM should note what the players say to Barbara — it determines what Ryszard knows.
 - **Gives:** [wojewoda-has-only-phone](../clues/clues.md#wojewoda-has-only-phone), [siblings-fund-the-church](../clues/clues.md#siblings-fund-the-church). With **Streetwise**: full social map of the village (no single clue — operational intelligence).
+
+### Ask Barbara about Lemko culture
+- **Requires:** Players have noticed something Lemko (covered mirrors, three-barred cross, Babcia's muttering) and ask Barbara about it
+- **Cost:** Free
+- **Outcome:** She doesn't know much. She's half-Lemko but raised Polish — her mother's world was never fully hers. But she'll share what she has, openly, without suspicion: *"Mama always did that with the mirrors. I think it's about the dead — like keeping them out? Or in? I never understood."* Or about the cross: *"That's Mama's. It's different from ours — she says it's the old way. Greek something. She gets upset if I move it."* She can't explain the theology or history. She repeats fragments she absorbed growing up — half-understood rituals, words she doesn't know the meaning of, customs she followed because Mama said so.
+- **Gives:** → [three-barred-cross-is-lemko](../clues/clues.md#three-barred-cross-is-lemko) if asked about the cross. Otherwise atmosphere and confirmation that Babcia's world is Lemko, even if Barbara can't name it precisely.

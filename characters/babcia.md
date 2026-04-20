@@ -8,6 +8,7 @@
 - **Age in 1967:** ~77
 - **Heritage:** Lemko (Greek Catholic)
 - **Lives in:** [Barbara Kopacz's house](../scenes/locations/barbaras-house.md) — with [Barbara Kopacz](barbara.md), [Pawełek Kopacz](pawelek.md)
+- **Settled:** After 1954 — lived nearby, moved in for PGR work
 
 ## Character
 

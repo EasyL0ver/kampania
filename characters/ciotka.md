@@ -8,6 +8,7 @@
 - **Age in 1967:** 55
 - **Heritage:** Lemko descent — hidden. See [Zbigniew Gajda](wojewoda.md) for siblings' shared background.
 - **Lives in:** [Janina Gajda's house](../scenes/locations/ciotkas-house.md) — with [Edek Barnaś](glupek.md)
+- **Settled:** ~1948 — first wave, with siblings
 
 ## Character
 
@@ -50,11 +51,31 @@ The census terrifies her. Government people writing names, houses, land — pape
 - Who is [Edek Barnaś](glupek.md)'s father? (No safe answer.)
 - Why does a single woman have the best plot? (The owner was murdered.)
 
-She will lie — practiced, quiet, consistent lies from 13 years of practice. **Breaking through requires convincing her the truth won't destroy [Edek Barnaś](glupek.md).** He's all she cares about. If players can make her believe speaking won't get him taken away or hurt, she'll crack.
+She will lie — practiced, quiet, consistent lies from 13 years of practice. **She will never break for government strangers.** They are the people who could take [Edek Barnaś](glupek.md) away — the last thing she'd do is give them ammunition. Under extreme emotional pressure she might slip — a line, a look, tears she can't hide — but she catches herself and shuts down. The full truth lives with the [priest](priest.md).
+
+## Actions
+
+### Census visit — interview Janina
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** She's practised at this — 13 years of quiet, consistent lies. Lists herself as mother, [Edward Barnaś](soldier.md) as the father — left the village. Abandoned his family. The boy is hers. The house is hers. Consistent with what everyone else says. Players have no reason to doubt it — a single mother, an absent father, a disabled son. Sad but ordinary.
+- **Result:** → [edeks-father-orphaned-him](../clues/clues.md#edeks-father-orphaned-him). The form gives players the name Edward Barnaś. That name is a thread — if they pull it (neighbours, documents, attic, backyard), the story starts unravelling.
+
+### Approach Janina through faith
+- **Requires:** Demonstrate genuine faith or knowledge of the Church. Mentioning [ks. Władysław Pająk](priest.md) positively helps.
+- **Cost:** 1 action
+- **Outcome:** Her guard drops — fractionally. Faith is the only language she trusts outside of survival. She won't confess to players (that's for God and the Priest), but she'll let things slip. The way she talks about Edek — *"He didn't deserve any of this"* — carries weight she doesn't intend. Her eyes fill. She changes the subject.
+- **Result:** Seeds toward [ciotka-saved-glupek](../clues/clues.md#ciotka-saved-glupek). If players have already cracked the Priest → cross-referencing what he hinted with what she lets slip starts building the picture.
+
+### Push Janina emotionally
+- **Requires:** Players must have already demonstrated genuine care for [Edek Barnaś](glupek.md) (not just words — actions: protecting him from [Stanisław Rezeń](butcher.md), spending time with him, earning his trust). AND she must be emotionally destabilised — Edek had an episode, or the well is pressing her hard, or something has shaken her routine.
+- **Cost:** 1 action
+- **Outcome:** She doesn't break. She doesn't confess. She will NEVER tell government strangers what happened — they are the ones who could take Edek away. But under enough emotional pressure, she slips. One line, choked out: *"I couldn't let them hurt him."* Or *"He was just a baby."* Or her eyes fill when players mention 1954 and she can't hide it fast enough. She catches herself, shuts down, won't speak again that visit.
+- **Result:** At most → [ciotka-saved-glupek](../clues/clues.md#ciotka-saved-glupek) — but only the fact that she intervened, not who was doing what or why. She never names names. She never describes the night. The full truth lives with the [priest](priest.md) — she gave it to him over 13 years of confession, not to strangers in one afternoon.
 
 ## For Players
 
-Janina Gajda holds the most honest account of the lynch available — but only yields it if she believes [Edek Barnaś](glupek.md) will be safe. Her [ks. Władysław Pająk](priest.md) connection is key: he knows everything because of her. Approaching through faith or genuine care for [Edek Barnaś](glupek.md) is the way in.
+Janina Gajda holds the most honest account of the lynch — but players will never hear it from her directly. She is a vault. Government strangers are the threat, not the audience. The path to her knowledge runs through the [priest](priest.md), who received it piece by piece over 13 years of confession. At her house, players find physical evidence (attic, backyard) and at most an emotional slip confirming she saved [Edek Barnaś](glupek.md). That's the ceiling.
 
 ## Open Questions
 

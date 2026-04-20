@@ -7,6 +7,7 @@
 - **Born:** 1963
 - **Age in 1967:** 4
 - **Lives in:** [Barbara Kopacz's house](../scenes/locations/barbaras-house.md) — with [Barbara Kopacz](barbara.md) (mother), [Stefania Kopacz](babcia.md) (grandmother)
+- **Settled:** Born 1963 in village
 
 ## Role
 

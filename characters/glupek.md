@@ -7,6 +7,7 @@
 - **Born:** 1950
 - **Age in 1967:** 17
 - **Lives in:** [Janina Gajda's house](../scenes/locations/ciotkas-house.md) — with [Janina Gajda](ciotka.md)
+- **Settled:** Born 1950 in village
 
 ## Character
 
@@ -40,6 +41,14 @@ The well draws Edek Barnaś **physically and mentally.** He was supposed to die 
 ## Flood Attitude
 
 Doesn't understand the committee, the census, or the flood. Strangers make him nervous — he'll hide behind [Janina Gajda](ciotka.md) or retreat to the [church](../scenes/locations/the-church.md). **But he needs to be in the census to survive.** Documenting him means answering questions: whose son, why in [Edward Barnaś](soldier.md)'s house, where's his father? Every line on the form leads back to the lynch. The boy who can't understand the flood is the one whose survival depends on paperwork that could expose everything.
+
+## Actions
+
+### Try to talk to Edek
+- **Requires:** [Janina Gajda](ciotka.md) present (she won't allow it otherwise) or find him alone outside
+- **Cost:** Free
+- **Outcome:** He doesn't speak in sentences. Sounds, gestures, reactions. He'll take food, accept touch from people who move slowly. He's not hostile — he's scared and can't express it. Players who are patient and gentle may earn a moment of connection: he shows them something, leads them somewhere, points at something he can't name.
+- **Result:** Atmosphere and rapport. If the well is active → he may point toward %OLD_VILLAGE%, toward the forest, toward the direction of the well. He knows where his family is. He can't say it.
 
 ## For Players
 

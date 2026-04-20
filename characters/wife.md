@@ -7,16 +7,17 @@
 - **Born:** 1924
 - **Age in 1967:** 43
 - **Lives in:** [Zbigniew Gajda's house](../scenes/locations/wojewodas-house.md) — with [Zbigniew Gajda](wojewoda.md), [Marek Gajda](junior.md)
+- **Settled:** ~1948 — first wave, with Zbigniew
 
 ## Character
 
-Intelligent, observant, dismissed. Loves her husband — he's a good man and leader. But he doesn't treat her as an equal: she keeps the house, raises the boy, pours tea for guests, is excluded from everything that matters. **Bored.** The house is clean, the boy is grown, the days are long. Her mind goes where it shouldn't — she starts noticing things.
+Intelligent, observant, dismissed. The sołtys's wife — the richest woman in the village. Best house, no real work, son is grown. Everyone else hauls water and feeds livestock. She pours tea and rearranges curtains. Her mind eats itself alive with nothing to chew on.
 
 ## Background / Role
 
 Has lived in %NEW_VILLAGE% since early settlement — before the lynch, during it, after it. Wasn't part of it.
 
-## What She Knows
+## What She Knows (Before the Game)
 
 Fragments — and no power to act on them:
 
@@ -27,11 +28,13 @@ Fragments — and no power to act on them:
 - [Stanisław Rezeń](butcher.md) went from a man with friends to a pariah with dogs.
 - Locked silences between the siblings when they think she's not listening.
 
+She knows *something* happened in 1954 involving [Edward Barnaś](soldier.md)'s family and all four siblings. She doesn't know what.
+
 ## Her Investigation
 
-Quietly investigating 1954 for years — started from boredom and hurt (why does my husband shut me out?), grew into something much bigger. Too deep to stop, no idea what to do with it.
+Investigating for 13 years — started from boredom. Not injustice, not jealousy — a sharp mind with nothing to do. The investigation is her hobby. Her true crime podcast, 13 years early, in a village with no TV.
 
-- **[Marek Gajda](junior.md) became her partner.** Happened gradually — she stopped deflecting his questions, started saying *"Nobody talks about that"* and *"Ask your father and watch his face."* Unspoken pact: she watches the house (papers, meetings, silences), he works the outside.
+- **[Marek Gajda](junior.md) became her field agent.** Happened gradually — she stopped deflecting his questions, started saying *"Nobody talks about that"* and *"Ask your father and watch his face."* Unspoken pact: she watches the house (papers, meetings, silences), he works the outside.
 
 See [wife-junior investigation](../story-facts/wife-junior-investigation.md) for full details.
 
@@ -41,49 +44,68 @@ See [wife-junior investigation](../story-facts/wife-junior-investigation.md) for
 - A rough timeline: something in 1954, involved [Edward Barnaś](soldier.md)'s family, all four siblings connected
 - No proof. Just a shape in the dark.
 
+## During the Game — Three Phases
+
+### Phase 1: Parallel Investigator (Early Game)
+
+The committee arrives and starts asking the same questions she's been asking for 13 years. She doesn't help them — she **competes**. Piggybacks on their investigation, follows their leads, listens to what they stir up. She's been at this longer; she's not handing it to strangers.
+
+Players encounter signs of her investigation without knowing it's her:
+- [Marek Gajda](junior.md) sneaking around at night, visiting [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md)
+- NPCs saying *"Someone else was asking about that"*
+- Fresh tracks that aren't [Paraskewia Chyłak](hag.md)'s
+- Irena asking questions too specific for a housewife
+
+### Phase 2: The Breakthrough (Mid Game)
+
+The committee's questions loosen the village just enough. Between her 13 years of fragments and the new cracks the players create, she finally puts it together: the lynch, the bodies, her husband's role.
+
+### Phase 3: The Flip (Late Game)
+
+She goes to [Zbigniew Gajda](wojewoda.md). Not as a threat — as an equal. *"I know. I've known something was wrong for 13 years. I figured it out. Stop shutting me out."*
+
+She wants a seat at the table. The secret is her credential. She's not exposing him — she's proving she's smart enough to stand beside him.
+
+Zbigniew is shocked, then impressed. He lets her in. They become a team. [Marek Gajda](junior.md) follows his mother loyally — if she flips, he flips.
+
+**For the players:** the friendly housewife who was running a parallel investigation goes quiet. The helpful signs dry up. The flour tin gets moved. The family closes ranks — and now it's the sołtys, his wife, AND his son working together. The players lose their parallel investigation and their best false lead in one move.
+
 ## Her Darkness
 
-**Used her own son.** Pulled [Marek Gajda](junior.md) into the investigation because she was lonely and needed an ally. Didn't consider what it would do to him — learning his father might be a murderer at 19, sneaking around at night, carrying a secret that could get him killed. Weaponised her kid to fill the hole her husband left.
+**Used her own son.** Pulled [Marek Gajda](junior.md) into the investigation because she was bored and needed a partner. Didn't consider what it would do to him — learning his father might be a murderer, sneaking around at night, carrying a secret that could get him killed. Weaponised her kid to fill the hole her husband left.
 
-She loves both of them. She's damaging both of them. Not malice — boredom and neglect. The most dangerous thing in the village isn't [the well](../story-facts/the-well.md) or the secrets — it's an intelligent woman with nothing to do.
+She loves both of them. She's damaging both of them. Not malice — boredom and intellect with no outlet.
 
 ## Relationships
 
-- **[Zbigniew Gajda](wojewoda.md)** — husband. Loves him. He dismisses her from everything that matters. His blind spot.
-- **[Marek Gajda](junior.md)** — son. Secret investigation partner. She used him — her darkness.
+- **[Zbigniew Gajda](wojewoda.md)** — husband. Loves him. He dismissed her for 13 years. When she proves herself, he finally sees her. The marriage gets better after the flip — warmer, more in sync. The irony: the thing that brings them closest is a shared crime.
+- **[Marek Gajda](junior.md)** — son. Investigation partner. Devoted to her — follows her lead without question.
 - **[Helena Rzepka](matrona.md)** — sister-in-law. Dynamic unclear (see Open Questions).
-- **[ks. Władysław Pająk](priest.md)** — **another door closed.** Approached him more than once — in confession, in private, carefully. Shut down every time: *"Suspicion without proof is a sin against your neighbour."* Another man telling her to be quiet and stop noticing things. Husband dismisses her from the table, priest from the confessional. The whole village tells her she's wrong when she knows she's not. **That's what drives her.**
+- **[ks. Władysław Pająk](priest.md)** — another door closed. Approached him more than once — in confession, in private, carefully. Shut down every time: *"Suspicion without proof is a sin against your neighbour."* Another man telling her to be quiet and stop noticing things.
 - **[Tadek Gajda](secondary-characters.md)** — brother-in-law. Source of drunken fragments (via [Marek Gajda](junior.md)).
-
-## Moral Dilemma
-
-**Powerlessness, not cowardice.** 13 years trying to understand with no tools, no allies, no one to trust. Now strangers arrive who *could* help — but wrapped in the same state authority that protects her husband.
-
-**But if she finds the full truth?** She buries it. 13 years of searching and when she finally sees what happened — rape, murder, infanticide, her husband's direct role — the cost of exposure is too high. Her family, her son's future, everything she has. The hunter becomes the secret's fiercest guardian. Thematic mirror to [Zofia Pytlak](zofia.md), who knows a small truth and pushes for it to be told. Wanting truth is easy when you don't know what it costs.
-
-**Does she trust outsiders who might betray her to the man she sleeps next to?** If wrong: husband finds out — she's seen what this family does to problems. If right: destroys her family, son's future, only life she has.
 
 ## Well Influence
 
-Amplifies **desperate need for truth.** Strips away 13 years of caution.
+Amplifies **desperate need for answers.** Strips away 13 years of caution.
 
-- Gets bolder — approaches players before fully deciding to trust them. Half-started conversations, looks held too long, questions too pointed. Dangerous — [Zbigniew Gajda](wojewoda.md) is watching.
-- Pushes [Marek Gajda](junior.md) harder — sends him to [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) at bad times, asks him to confront [Tadek Gajda](secondary-characters.md) directly instead of waiting for drunken slips.
-- May confront [Zbigniew Gajda](wojewoda.md) — not with evidence, with the raw weight of 13 years of suspicion. A fight that blows up because she can't hold it in.
+- Gets bolder — approaches players' investigation closer, takes more risks.
+- Pushes [Marek Gajda](junior.md) harder — sends him to [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) at bad times, asks him to confront [Tadek Gajda](secondary-characters.md) directly.
+- May accelerate the breakthrough — cracks the truth faster than she otherwise would.
 - **Dream:** the night of 1954, but she's outside the house instead of inside. Can see everything. Can't move, can't shout, can't intervene. Wakes knowing the truth is right there, just out of reach.
-
-The well pushes her toward truth through courage. But courage without timing is dangerous when your husband is the sołtys and his paranoia is also worsening.
 
 ## Flood Attitude
 
-Agrees with [Zbigniew Gajda](wojewoda.md) — cooperate, census everyone, prepare for evacuation. Pragmatist married to a pragmatist. May set aside her investigation if the flood is real — 13 years of searching might matter less than keeping living families alive. She can make that calculation. It costs her something.
+Agrees with [Zbigniew Gajda](wojewoda.md) — cooperate, census everyone, prepare for evacuation. Pragmatist married to a pragmatist.
 
 ## For Players
 
-Doesn't trust them initially — state people, same apparatus her husband works for. But for the first time in 13 years, there are **outsiders** who aren't part of the silence. If players show genuine humanity — not authority, not forms — she might take the leap. Trusting them is the hardest thing she's ever done. Not confession of guilt — a leap of faith. Evidence hidden in flour tin in the pantry.
+**Phase 1:** A shadow. Signs of a second investigator that could be ally, enemy, or cover-up operative. Marek sneaking around at night is a perfect red herring — violent kid, sołtys's son, looks like he's destroying evidence for dad.
+
+**Phase 3:** The family closes ranks. Whether this makes Irena the players' enemy depends entirely on what the players choose to do with the truth. If they cover for Zbigniew, she's on their side. If they pursue justice, she's an obstacle.
 
 ## Open Questions
 
 - How does [Helena Rzepka](matrona.md) treat her? Ally or adversary?
 - Does she know about [Barbara Kopacz](barbara.md) and [Marek Gajda](junior.md)? About [Barbara Kopacz](barbara.md) and [Tadek Gajda](secondary-characters.md)?
 - Has she ever confronted [Zbigniew Gajda](wojewoda.md)? Even once, even obliquely?
+- What specific event or discovery triggers her breakthrough? What piece clicks last?

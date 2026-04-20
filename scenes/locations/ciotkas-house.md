@@ -26,33 +26,6 @@ Edek is large — six foot, broad, silent. He stands behind Janina or sits in hi
 
 ## Actions
 
-### Census visit — interview Janina
-- **Requires:** Committee authority
-- **Cost:** 1 action
-- **Outcome:** She's practised at this — 13 years of quiet, consistent lies. Answers clearly: her name, her house, her... nephew. Edek Barnaś, son of her late brother's friend. Father died. Mother left. She took the boy in. Charitable. Christian. The story is rehearsed and airtight — unless players push on specifics.
-- **Leads to:** The census form creates pressure points:
-  - *Whose house is this?* — "Mine. Given to me by the village council." (True — Wojewoda assigned it.)
-  - *Who is Edek's father?* — "Edward Barnaś. A soldier. He's gone." (True — and devastating if they follow the name.)
-  - *Why is a soldier's son brain-damaged?* — "Born that way." (False. → [glupek-strangled](../../clues/clues.md#glupek-strangled))
-
-### Try to talk to Edek
-- **Requires:** Janina present (she won't allow it otherwise) or find him alone outside
-- **Cost:** Free
-- **Outcome:** He doesn't speak in sentences. Sounds, gestures, reactions. He'll take food, accept touch from people who move slowly. He's not hostile — he's scared and can't express it. Players who are patient and gentle may earn a moment of connection: he shows them something, leads them somewhere, points at something he can't name.
-- **Leads to:** Atmosphere and rapport. If the well is active → he may point toward %OLD_VILLAGE%, toward the forest, toward the direction of the well. He knows where his family is. He can't say it.
-
-### Approach Janina through faith
-- **Requires:** Demonstrate genuine faith or knowledge of the Church. Mentioning [ks. Władysław Pająk](../../characters/priest.md) positively helps.
-- **Cost:** 1 action
-- **Outcome:** Her guard drops — fractionally. Faith is the only language she trusts outside of survival. She won't confess to players (that's for God and the Priest), but she'll let things slip. The way she talks about Edek — *"He didn't deserve any of this"* — carries weight she doesn't intend. Her eyes fill. She changes the subject.
-- **Leads to:** Seeds toward [ciotka-saved-glupek](../../clues/clues.md#ciotka-saved-glupek). If players have already cracked the Priest → cross-referencing what he hinted with what she lets slip starts building the picture.
-
-### Convince Janina to talk
-- **Requires:** She must believe Edek will be safe. That's the only key. Not authority, not pressure, not alcohol. She needs to know that speaking won't get him taken away, won't bring Butcher to her door, won't destroy the one thing she's built.
-- **Cost:** 1 action
-- **Outcome:** She breaks. Not cleanly — she cries, she contradicts, she begs you not to write it down. But the story comes out: the night, the drinking, the screaming, what she saw, what she did, what she couldn't stop. The most honest account of the lynch available from any living witness. She names names. She tells them where the bodies went.
-- **Leads to:** Full lynch revelation. → [ciotka-saved-glupek](../../clues/clues.md#ciotka-saved-glupek), [glupek-strangled](../../clues/clues.md#glupek-strangled), and the full core mystery unlocked. But only if she believes Edek is safe. **That belief is fragile** — if Butcher is active, if the village is tense, if she thinks anyone else knows she talked, she shuts down and won't open again.
-
 ### Search the attic
 - **Requires:** Janina absent or distracted (at church, at the store, dealing with Edek outside). She would never allow this.
 - **Cost:** 1 action
@@ -72,7 +45,7 @@ Edek is large — six foot, broad, silent. He stands behind Janina or sits in hi
 
 ## GM Notes
 
-**This house is the core mystery's most complete source** — but the hardest to access. Janina holds the full truth and will give it only under one condition: Edek's safety. Every other path to the lynch gives fragments. Janina gives the whole picture.
+**This house is evidence, not testimony.** Janina holds the full truth but will NEVER give it to government strangers — they're the threat, not the solution. The priest is the path to her knowledge. What players get here is physical evidence (attic, backyard) and atmosphere. At most, an emotional slip that confirms she saved Edek. The full picture comes from the priest, who got it from her over 13 years of confession.
 
 **Edek is a physical clue.** His fear reactions are evidence: flinches from Butcher, later flinches from Wojewoda and Wujas as the well feeds him knowledge. Players who pay attention to a brain-damaged boy's body language are doing the best detective work in the game.
 

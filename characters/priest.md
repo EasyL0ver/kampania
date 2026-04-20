@@ -6,6 +6,7 @@
 
 - **Born:** 1925
 - **Age in 1967:** 42
+- **Settled:** After 1954 — assigned to the parish after the lynch
 
 ## Role
 

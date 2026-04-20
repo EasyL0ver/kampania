@@ -63,7 +63,9 @@ Walks up the aisle unsteady. Hand on the coffin lid. Then:
 
 - **Tadek outside** — Church steps, head in hands. Zbigniew over him, hand on shoulder.
   - Gentle approach: *"She was... she was good. The only good one."*
+  - If players are kind, stay with him, let him talk: he unravels further. Not coherent — fragments between sobs. *"She wasn't even his mother, you know that? She just... she took him. Nobody asked her to. She just took him and never let go."*
   - Pressed about Edek/murder: shakes head, walks away.
+  - **Gives:** [ciotka-not-mother](../../clues/clues.md#ciotka-not-mother), [ciotka-adopted-glupek](../../clues/clues.md#ciotka-adopted-glupek)
   - **NPC State Change:** Kindness here lowers threshold for his later crack.
 
 ## Actions

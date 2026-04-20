@@ -9,6 +9,7 @@
 - **Heritage:** Polish settler — arrived with Michał Pytlak after 1954. No connection to the lynch.
 - **Family:** Married to [Michał Pytlak](foreman.md) (farm overseer). Mother of [Staszek Pytlak](secondary-characters.md) (age 5).
 - **Lives in:** Pytlak household, near the PGR farm.
+- **Settled:** After 1954 — arrived with Michał Pytlak
 
 ## Character
 

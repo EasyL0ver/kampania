@@ -7,10 +7,11 @@
 
 - **Born:** 1925
 - **Age in 1967:** 42
+- **Settled:** ~1948 — first wave, with siblings
 
 ## Role
 
-One of four siblings — brother to Zbigniew Gajda, Helena Rzepka, and Janina Gajda. Part of a family unit in %NEW_VILLAGE%.
+One of four siblings— brother to Zbigniew Gajda, Helena Rzepka, and Janina Gajda. Part of a family unit in %NEW_VILLAGE%.
 
 ## Heritage
 

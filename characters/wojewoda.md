@@ -9,6 +9,7 @@
 - **Age in 1967:** 47
 - **Heritage:** Lemko (hidden behind Polish identity)
 - **Lives in:** [Zbigniew Gajda's house](../scenes/locations/wojewodas-house.md) — with [Irena Gajda](wife.md), [Marek Gajda](junior.md); [Tadek Gajda](secondary-characters.md) crashes here
+- **Settled:** ~1948 — first wave, founded the village
 - **Armed:** Sołtys's pistol (locked in office, loaded)
 
 ## Character
@@ -22,6 +23,8 @@ One of four siblings — brother to [Tadek Gajda](secondary-characters.md), [Hel
 ## The Lynch
 
 Participated as one of three drunk men. His role: beating (not rape). As sołtys, played key role in the **cover-up** — authority to control the village narrative.
+
+**No guilt.** [Edward Barnaś](soldier.md) participated in the massacre of Zbigniew's people, then took their land and thrived on it. Zbigniew doesn't think what happened was the worst thing anyone's ever done. The cover-up isn't about shame — it's about practicality. He has a village to run. If confronted, he'll say *"I did it. He had it coming."* — and mean it.
 
 ## In 1967
 
@@ -43,11 +46,11 @@ Priority: **protect his people.**
 
 **The tension:** good leader doing right by his village — who participated in a lynch 13 years ago. The deeper players dig, the more they realize the man helping them is someone they should be investigating.
 
-**If confronted about the lynch — will take responsibility.** Won't volunteer it. But won't deny, run, or blame others. He was drunk, he beat a man, he helped cover it up. He can say that. The question: Zbigniew Gajda in a cell means no one left to run the evacuation.
+**If confronted about the lynch — takes full responsibility without guilt.** Won't volunteer it. But won't deny, run, or blame others. *"I did it. He was scum. What else do you need?"* No tears, no confession arc. He stands behind what he did because [Edward Barnaś](soldier.md) massacred his people and stole their land. Some players might agree with him. The question isn't his conscience — it's that Zbigniew Gajda in a cell means no one left to run the evacuation.
 
 ## Relationships
 
-- **[Irena Gajda](wife.md)** — blind spot. Underestimates her completely. Doesn't know she's been watching him for 13 years. If he found out, he'd see betrayal, not justice.
+- **[Irena Gajda](wife.md)** — blind spot, then partner. Underestimates her completely for 13 years. When she comes to him with the truth mid-game, he's shocked — then impressed. She proved herself his equal. He lets her in. They become a team: the sołtys and his wife, managing the village together for the first time. Their marriage visibly improves — warmer, more in sync. The irony: the thing that brings them closest is a shared crime.
 - **[Marek Gajda](junior.md)** — complicated pride. Sees him drifting toward [Tadek Gajda](secondary-characters.md)'s orbit — worries not about the boy's soul, but what a loose-tongued drunk uncle might say.
 - **[Helena Rzepka](matrona.md)** — sibling he respects most and fears slightly. Smarter than him and he knows it. Unspoken division: he manages the village, she manages the story. Never confronted her about that night.
 - **[Tadek Gajda](secondary-characters.md)** — brother, liability. Loves him with resignation and dread. Every drunk night is a risk. Tolerates the [bimber operation](../story-facts/bimber-operation.md) because it keeps [Tadek Gajda](secondary-characters.md) occupied. Real fear: wrong night, wrong company, wrong words.
@@ -57,10 +60,10 @@ Priority: **protect his people.**
 
 ## Well Influence
 
-Amplifies **paranoia and need for control.** 13 years of managing through authority; now it turns compulsive.
+Amplifies **paranoia and need for control.** Not guilt — he has none. The well turns his pragmatic vigilance into siege mentality.
 
-- Sees conspiracies — committee's questions feel pointed, [Irena Gajda](wife.md)'s glances knowing, [Marek Gajda](junior.md)'s absences deliberate.
-- Tightens access to phone. Finds reasons to keep people from [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). Orders feel less like governance, more like siege mentality.
+- Sees conspiracies — committee's questions feel pointed, [Marek Gajda](junior.md)'s absences deliberate, strangers lingering where they shouldn't.
+- Tightens access to phone. Finds reasons to keep people from [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). Orders feel less like governance, more like lockdown.
 - **Losing grip on [Stanisław Rezeń](butcher.md).** The arrangement that held for 13 years is fraying. Rezeń stops listening. Shows up in the village. Starts drinking. Zbigniew visits the edge house and finds it empty — the dog is off the leash. This terrifies him more than the committee.
 - Sleep deteriorates. Sits up reviewing who he spoke to, what he said, what they might know. Careful politician becomes a man counting enemies.
 - Decisions get erratic — overreactions, sudden hostility toward non-threats. The village feels it. The man who held everything together is squeezing too hard.

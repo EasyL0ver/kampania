@@ -82,7 +82,7 @@ He shrugs. *"He shows up, he works, he goes home. Never been a problem."* Then, 
 ### If players ask Dudka why he won't work with Rezeń
 Early in the game: *"Because he's not a hunter. He's a butcher."* Said with contempt that goes deeper than profession. Late in the game, after cracks have formed: *"Because I know what he does with a knife. And it's not just pigs."* — then silence, regret, a change of subject.
 
-## Resolution & Graph Consequences
+## Resolution & Consequences
 
 The wolf hunt isn't a standalone event — it's the mechanism that triggers cascading NPC state changes.
 

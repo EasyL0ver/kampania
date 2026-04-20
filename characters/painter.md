@@ -6,6 +6,7 @@
 
 - **Born:** 1923
 - **Age in 1967:** 44
+- **Settled:** ~1948 — first wave, with Helena
 
 ## Role
 

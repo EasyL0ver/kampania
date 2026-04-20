@@ -9,6 +9,7 @@
 - **Age in 1967:** ~40
 - **Heritage:** Lemko
 - **Lives in:** [Hag's cabin](../scenes/locations/hags-cabin.md) — alone
+- **Settled:** Never left — hid in the forest since the 1947 massacre
 
 ## Character
 

@@ -54,7 +54,7 @@ The well breaks this mechanism. The drinking stops working. He stays lucid. The 
 
 Authority. Control. The rules that contain the id. For 13 years, Zbigniew has managed Rezeń through power and implied threat — assigned him the edge, forbade alcohol, kept him from people. The sołtys containing the village monster the same way the superego contains the id: through prohibition and structure.
 
-But the superego is also the source of guilt and self-punishment. Zbigniew participates in his own private trial every day — not through confession, but through compulsive order. Every rule, every arrangement, every careful decision is penance disguised as governance.
+The superego here operates without guilt. Zbigniew doesn't contain Rezeń out of remorse — he contains him because that's what good governance requires. Every rule, every arrangement, every careful decision is pragmatism, not penance. He believes what he did was justified. The control is about protecting the village, not punishing himself.
 
 The well turns this into paranoia. Control becomes compulsion. Governance becomes siege mentality. The superego, overloaded, starts destroying what it was meant to protect.
 

@@ -9,6 +9,7 @@
 - **Age in 1967:** ~57
 - **Family:** Married to Zofia Pytlak (cook). Father of Staszek Pytlak (age 5).
 - **Arrived:** After 1954 — knows nothing about the lynch.
+- **Settled:** After 1954
 
 ## Role
 

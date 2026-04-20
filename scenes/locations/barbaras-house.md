@@ -23,6 +23,11 @@ Free — no action cost. The GM weaves these into any visit. If a player has the
   - **Culture:** Lemko death custom — mirrors are covered when someone dies so the soul doesn't get trapped. She's been doing it for twenty years. Someone in this house has been mourning nonstop since 1947.
   - **Gives:** [covered-mirrors](../../clues/clues.md#covered-mirrors)
 
+- **Babcia's cross** — A small, worn crucifix hangs above Babcia's corner of the room. Not the same as the Catholic one on the wall. This one has **three bars** — an extra slanted bar at the bottom. Old, dark wood, clearly personal. Barbara doesn't comment on it. Babcia touches it when she prays.
+  - **Observation:** Two crosses in one house. They're different. Why?
+  - **Culture / Faith:** Greek Catholic — Lemko. Not Roman Catholic. This woman is not the same faith as the village church.
+  - **Gives:** [three-barred-cross-is-lemko](../../clues/clues.md#three-barred-cross-is-lemko)
+
 - **Babcia's muttering** — Fragments of speech in a language that isn't Polish. Rhythmic, repetitive. Half-sung.
   - **Language:** Lemko. She's praying — old liturgical form. A panakhyda fragment. Memorial prayer for the dead.
   - **Culture:** Even without the language, recognize the cadence as ritual, not rambling. She's performing rites in her chair.

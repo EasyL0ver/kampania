@@ -7,6 +7,7 @@
 - **Born:** 1935
 - **Died:** 1954 (age 19)
 - **Lived in:** %NEW_VILLAGE% — with [Edward Barnaś](soldier.md) and family
+- **Settled:** ~1948 — arrived with father
 
 ## Character
 

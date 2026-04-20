@@ -8,6 +8,7 @@
 - **Born:** 1910
 - **Died:** 1954 (age 44)
 - **Lived in:** [Janina Gajda's house](../scenes/locations/ciotkas-house.md) (now [Janina Gajda](ciotka.md)'s) — best plot in the village
+- **Settled:** ~1948 — knew the terrain from KBW service, claimed best land early
 
 ## Character
 

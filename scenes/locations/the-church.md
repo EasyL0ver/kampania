@@ -16,7 +16,6 @@ Adjacent: the cemetery. A few dozen graves, most weathered. One is freshly tende
 - **Notice the church's condition** — too nice for a village this size. Firewood, supplies, fresh repairs. Who's paying for all this? → Seeds [siblings fund the church](../../clues/clues.md#siblings-fund-the-church)
 - **Talk to Widow at the grave** — she's approachable, lonely, grateful for company. She'll tell you about her husband — a good man, PGR worker, died in an accident. She asks if the committee can include him in the census. *"So his name is somewhere official. So someone remembers."* → Thematic seed for census-of-the-dead
 - **Notice the cemetery layout** — old graves, new graves, but no graves from before the resettlement. The village is post-war, but the church hill is older. Where are the Lemko dead? → Seeds [old village was Lemko](../../clues/clues.md#old-village-was-lemko)
-- **Spot a well-tended double grave** — among the newer headstones, one stands out: a couple's grave, Polonised surname, but a small carved symbol on the stone that isn't quite Catholic — a three-barred cross, barely visible under lichen. Fresh flowers, regularly visited. These are the siblings' parents. A player with faith or Lemko knowledge would recognise the Greek Catholic cross. → Seeds [Wojewoda is Lemko](../../clues/clues.md#wojewoda-is-lemko)
 
 ## Actions
 
@@ -38,6 +37,18 @@ Adjacent: the cemetery. A few dozen graves, most weathered. One is freshly tende
 - **Outcome:** All graves are post-1947. No older burials. The hill and church foundation are older than the graves around them. This was a Lemko church once — repurposed, repainted, re-sanctified. The dead who were here before are gone.
 - **Leads to:** → [old village was Lemko](../../clues/clues.md#old-village-was-lemko), seeds questions about where the original dead went
 
+### Look for Barnaś grave
+- **Requires:** Know the name Edward Barnaś (e.g. from [edeks-father-orphaned-him](../../clues/clues.md#edeks-father-orphaned-him))
+- **Cost:** Free
+- **Outcome:** No Barnaś tombstone. Consistent with the story — he "left," so no grave expected. This action means nothing on its own. It only becomes suspicious when players find evidence he never left: belongings in the attic, military documents buried in the backyard, a family's worth of possessions for people who supposedly packed up and moved.
+- **Leads to:** On its own, confirms the cover story. Combined with physical evidence from [Ciotka's house](ciotkas-house.md) — the absence of a grave becomes the absence of a body.
+
+### Look for Gajda graves
+- **Requires:** Nothing — players will naturally look for the family that runs the village
+- **Cost:** Free
+- **Outcome:** A well-tended double grave — [Zbigniew Gajda](../../characters/wojewoda.md)'s parents. Fresh flowers, regularly visited. Polonised surname on the headstone. But a small carved symbol that isn't quite Catholic — a **three-barred cross**, barely visible under lichen. Players who already know [three-barred-cross-is-lemko](../../clues/clues.md#three-barred-cross-is-lemko) recognise it immediately. Players without that knowledge just see a well-kept grave with an odd symbol — notable but meaningless until they learn what it is.
+- **Leads to:** With `three-barred-cross-is-lemko` → [siblings-are-lemko](../../clues/clues.md#siblings-are-lemko). Without it → players remember the symbol and it clicks later when they visit [Stefania Kopacz](../../characters/babcia.md).
+
 ## The Plebania (Rectory)
 
 Adjacent to the church — the priest's house. Solid stone foundation, older than the village (built for the previous Lemko parish, inherited by ks. Władysław Pająk). Too large for one man. A kitchen, a study full of books, a spare room with a cot. And below: a **cellar**. Stone walls, cool, dark. Originally for preserves and communion wine. Now mostly empty — a few jars, old liturgical supplies, dust.
@@ -48,7 +59,7 @@ The plebania is ks. Władysław Pająk's private space. Parishioners visit the c
 - **Requires:** Priest absent or distracted. He would not allow this willingly.
 - **Cost:** 1 card
 - **Outcome:**
-  - **Upstairs:** Books, letters, a modest life. Nothing incriminating — the priest keeps his knowledge in his head, not on paper.
+  - **Upstairs:** Books, letters, a modest life. Nothing incriminating — the priest keeps his knowledge in his head, not on paper. But the **parish ledger** is here — sacramental records he can't destroy. First Communions, baptisms, confirmations. Flipping through: one name stands out. **Hania Barnaś** — First Communion, early 1950s. Not Edek. A girl. Players who've done the census at Ciotka's house know only one Barnaś — the boy. Who's Hania? → [barnas-had-a-daughter](../../clues/clues.md#barnas-had-a-daughter)
   - **Cellar:** Locked from the outside with a padlock (new — doesn't match the old ironwork on the door). Inside: preserves, dust, liturgical junk. **After the priest shelters Edek:** a straw mattress, a blanket, food scraps, a water jug. The padlock makes sense now — he's not locking something out. He's keeping someone in. Not cruelly — safely. Edek would wander.
   - **Observation:** The cellar has been recently swept. Someone cleaned down here in a hurry. Dust patterns show recent foot traffic — large bare feet.
 - **Gives:** If Edek is there → direct confrontation with the truth. If Edek isn't there yet → seeds suspicion about what the priest is preparing for.

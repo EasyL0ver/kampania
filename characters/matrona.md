@@ -8,6 +8,7 @@
 - **Age in 1967:** 45
 - **Heritage:** Lemko (hidden) — see [Zbigniew Gajda](wojewoda.md) for shared sibling background
 - **Lives in:** [Helena Rzepka & Emil Rzepka's house](../scenes/locations/matronas-house.md) — with [Emil Rzepka](secondary-characters.md), [Ewa Rzepka](secondary-characters.md), [Krystian Rzepka](secondary-characters.md)
+- **Settled:** ~1948 — first wave, with siblings
 
 ## Character
 

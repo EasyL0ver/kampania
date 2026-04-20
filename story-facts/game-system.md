@@ -116,10 +116,6 @@ Each player picks one as their specialty. This is their job, the reason the stat
 | **History** | Akcja Wisła, UPA, postwar resettlement, recognizing military artifacts |
 | **Accounting** | Reading ledgers, spotting discrepancies, tracing money flows, exposing ghost employees and cooked books |
 
-## Story Structure: Graph
-
-The scenario is written as a **graph** — nodes (scenes, NPCs, locations, clues) connected by edges (what leads to what). Players navigate the graph through their action choices. Multiple paths exist through the story. No single playthrough will uncover everything.
-
 ## What Players Won't Find
 
 This is by design. The 7-day limit and 12-card economy guarantee that players will miss entire branches of the story. Different groups will have completely different experiences depending on where they spend their time.
