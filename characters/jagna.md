@@ -11,7 +11,7 @@
 
 ## Character
 
-Young woman, [Edward Barnaś](soldier.md)'s eldest daughter. Secret lover of [Emil Rzepka](secondary-characters.md) (then fiancé of [Helena Rzepka](matrona.md)).
+Deceased. Edward Barnaś's eldest daughter. Secret lover of Emil Rzepka. Beaten, raped, and killed in the 1954 lynch.
 
 ## Relationships
 
@@ -20,11 +20,3 @@ Young woman, [Edward Barnaś](soldier.md)'s eldest daughter. Secret lover of [Em
 - **[Emil Rzepka](secondary-characters.md)** — secret lover, [Helena Rzepka](matrona.md)'s fiancé at the time
 - **[Tadek Gajda](secondary-characters.md)** — unwanted admirer, deeply in love with her; she preferred [Emil Rzepka](secondary-characters.md)
 - **[Helena Rzepka](matrona.md)** — caught Hania Barnaś with [Emil Rzepka](secondary-characters.md), triggering the chain of events
-
-## Fate
-
-Caught in flagranti with [Emil Rzepka](secondary-characters.md) by [Helena Rzepka](matrona.md). Beaten, raped by [Tadek Gajda](secondary-characters.md) and [Stanisław Rezeń](butcher.md), and killed — unintentionally — by the three drunk men ([Tadek Gajda](secondary-characters.md), [Zbigniew Gajda](wojewoda.md), [Stanisław Rezeń](butcher.md)). Body dumped into [the well](../story-facts/the-well.md) in [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md).
-
-## Open Questions
-
-- Does her existence / memory linger in %NEW_VILLAGE% in any way?

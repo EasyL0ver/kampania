@@ -9,13 +9,9 @@
 - **Lives in:** [Barbara Kopacz's house](../scenes/locations/barbaras-house.md) — with [Barbara Kopacz](barbara.md) (mother), [Stefania Kopacz](babcia.md) (grandmother)
 - **Settled:** Born 1963 in village
 
-## Role
-
-Son of [Barbara Kopacz](barbara.md). Father officially unknown. **Real father is [Tadek Gajda](wujas.md)** — a one-time encounter, nobody knows. [Barbara](barbara.md) believes it's [Marek Gajda](junior.md) because the relationship with Marek was ongoing. She's wrong.
-
 ## Character
 
-Bright, fearless, barefoot. Runs around the yard chasing bugs, building things out of sticks and stones, getting muddy. Wanders far — village edges, the creek, the tree line, further than a 4-year-old should go. Nobody stops him. Talks to anyone — strangers included — without shyness, without filter. Asks blunt questions. *"Why are you here?" "What's that?" "Are you staying?"* Repeats things he's heard without understanding them. Sits with [Babcia](babcia.md) for hours and parrots her Lemko words with perfect pronunciation and zero comprehension. Normal, healthy, happy 4-year-old — until he isn't.
+4 years old. Bright, fearless, barefoot. Wanders too far. Repeats things without understanding them. Father officially unknown — real father is Tadek.
 
 ## Relationships
 
@@ -26,25 +22,9 @@ Bright, fearless, barefoot. Runs around the yard chasing bugs, building things o
 - **[Tadek Gajda](wujas.md)** — just another adult in the village. Neither of them knows.
 - **[Paraskewia](hag.md)** — *"the lady in the trees."* They've met in the forest. She gave him berries, spoke to him in Lemko. He thinks she's nice. Nobody knows about this.
 
-## The Well's Influence
+## Mechanics
 
-Pawełek is 4. No guilt, no trauma, no buried secrets. The well has nothing to amplify — but it still calls. Children are curious, and the well is *interesting*. Shiny. The water makes sounds.
-
-As the well grows stronger, Pawełek wanders toward %OLD_VILLAGE%. Nobody notices — small boy, chaotic flood, Barbara can't watch him every second. He finds the well. He drinks the water.
-
-**He falls ill.** High fever, convulsions, delirium. Floodwater contaminates everything — wells, streams, puddles. A child drinking bad water during a flood is the most ordinary tragedy imaginable. Nothing supernatural required.
-
-But in his fever-dreams he mutters about things a 4-year-old shouldn't know — *"the water under the ground," "the old woman."* The medical explanation is airtight. The fever-babbling is what keeps the players and the village unsettled.
-
-**For [Marek Gajda](junior.md), this can be the moment.** The boy he's been avoiding, the responsibility he's been dodging — now Pawełek is burning with fever and nobody is stepping up. If Marek chooses to act, this is where the avoidance ends. Not because he's ready. Because the boy is sick and someone has to be there.
-
-## For Players
-
-Pawełek is not an NPC to interrogate — he's a 4-year-old to observe. His function is **atmosphere** and **unfiltered leaks.** He says things adults would never say — not because he knows secrets, but because he doesn't know what's secret. He mentions who comes by, what he's seen, what Babcia says at night. Players who pay attention to him learn things sideways. Players who ignore him miss the softest signals in the village.
-
-Late game, his illness is the emotional core of the flood arc — a child sick with bad water is the most human crisis the campaign has. It forces choices on [Barbara](barbara.md), on [Marek](junior.md), on the players themselves.
-
-## Health Points
+### Health Points
 
 **Ticking clock mechanic.** Tracks Pawełek's condition after he falls ill ([event](../scenes/events/event-pawelek-falls-ill.md)).
 

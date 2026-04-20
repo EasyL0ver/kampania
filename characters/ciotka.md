@@ -14,44 +14,12 @@
 
 Devout, fearful, deeply honest when her guard drops. Eldest sibling but weakest in the family hierarchy. The moral heart of the tragedy — the only person who showed mercy the night of the lynch. Lives in the dead man's house, raising his brain-damaged son, surrounded by the people who did it. Her faith may hold her together — or torment her most.
 
-## Background
-
-One of four siblings — sister to [Zbigniew Gajda](wojewoda.md), [Tadek Gajda](secondary-characters.md), and [Helena Rzepka](matrona.md). No direct hatred or personal grudge against [Edward Barnaś](soldier.md).
-
-## The Lynch
-
-**Saved [Edek Barnaś](glupek.md)'s life.** When [Stanisław Rezeń](butcher.md) was strangling the toddler, she intervened and stopped him. The child survived — but the strangling had already caused brain damage.
-
-## In 1967
-
-A devout, single woman living in **[Edward Barnaś](soldier.md)'s house** — the best plot of land in the village, now occupied by the woman who saved his son. Raises [Edek Barnaś](glupek.md) as her own.
-
 ## Relationships
 
 - **[Edek Barnaś](glupek.md)** — her life's penance. Raised him from infancy — he's 17 now, massive, brain-damaged, trusting. She doesn't see [Edward Barnaś](soldier.md)'s son; she sees *her* boy. Love is real, fierce, tangled with guilt. Every day in his father's house is both punishment and purpose.
 - **[Stanisław Rezeń](butcher.md)** — silent terror. She stopped him killing [Edek Barnaś](glupek.md); he's never forgiven it. They don't speak, don't look at each other. She locks her door at night and keeps [Edek Barnaś](glupek.md) close. Lived in fear of him for 13 years.
 - **[ks. Władysław Pająk](priest.md)** — her confessor, the only person outside the family she trusts. Over 13 years of confessions, she has told him **everything** — not all at once, not deliberately, but piece by piece the whole picture spilled out. The rape, the killings, who did what, where the bodies went. **Janina Gajda is the reason [ks. Władysław Pająk](priest.md) knows.** [Zbigniew Gajda](wojewoda.md)'s confessions are guarded, [Helena Rzepka](matrona.md)'s are masterful misdirection — but Janina Gajda is too honest, too broken, too desperate for absolution to edit herself. She doesn't realize how much she's given him. Their relationship reinforces each other's silence: she goes for comfort, he gives it, and neither acknowledges that what passes between them is a full account of a murder.
 - **The siblings** — obedience through fear. Saving [Edek Barnaś](glupek.md) was a betrayal of the pact. [Zbigniew Gajda](wojewoda.md) treats her with cold authority, [Helena Rzepka](matrona.md) keeps her in line with looks and silences, [Tadek Gajda](secondary-characters.md) can barely face her. She stays quiet because quiet is the price of keeping her boy safe.
-
-## Well Influence
-
-The well amplifies her **fear and paralysis:**
-
-- Stops leaving the house — the world outside feels threatening in ways she can't name
-- Clings to [Edek Barnaś](glupek.md) with increasing desperation. Senses something pulling him toward [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md), fights it with proximity
-- Prayers become frantic, repetitive, compulsive — not devotion but terror. God feels further away
-- Flinches from her siblings — the family feels like a trap closing
-- Dreams about **the night she saved [Edek Barnaś](glupek.md)** — except she doesn't make it in time. Reaches for the baby and her hands pass through him. Wakes up and checks on the boy. Every night. The well is telling her: *you can't protect him forever.*
-
-## Flood Attitude
-
-The census terrifies her. Government people writing names, houses, land — paper trails that can't be answered cleanly:
-
-- Whose house is this? ([Edward Barnaś](soldier.md)'s — how did she get it?)
-- Who is [Edek Barnaś](glupek.md)'s father? (No safe answer.)
-- Why does a single woman have the best plot? (The owner was murdered.)
-
-She will lie — practiced, quiet, consistent lies from 13 years of practice. **She will never break for government strangers.** They are the people who could take [Edek Barnaś](glupek.md) away — the last thing she'd do is give them ammunition. Under extreme emotional pressure she might slip — a line, a look, tears she can't hide — but she catches herself and shuts down. The full truth lives with the [priest](priest.md).
 
 ## Actions
 
@@ -76,13 +44,3 @@ She will lie — practiced, quiet, consistent lies from 13 years of practice. **
 ## Opinions
 
 - **`ciotka-not-mother`:** Fury. Insists she IS his mother. Shit-talks Dudka: *"Ten stary plotkarz wam nagadał? Kłamie."* Won't speak again that day.
-
-## For Players
-
-Janina Gajda holds the most honest account of the lynch — but players will never hear it from her directly. She is a vault. Government strangers are the threat, not the audience. The path to her knowledge runs through the [priest](priest.md), who received it piece by piece over 13 years of confession. At her house, players find physical evidence (attic, backyard) and at most an emotional slip confirming she saved [Edek Barnaś](glupek.md). That's the ceiling.
-
-## Open Questions
-
-- Does she know the full truth about the 1947 massacre, or only the lynch?
-- How do the other siblings treat her — respect or resentment for saving [Edek Barnaś](glupek.md)?
-- Would she talk to the committee if pressed, or does loyalty extend to protecting her siblings?
