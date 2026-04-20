@@ -37,4 +37,14 @@ Irena collects clues from the same pool as players (`clues/clues.md`). GM tracks
 
 **During play:** Each day, Irena gains clues through her own channels — Marek on the outside, her social access on the inside. If players rattle an NPC, Irena hears about it. If players visit a location, Marek may check the same spot next day. GM decides what she picks up based on village events.
 
-**Breakthrough trigger:** When she has enough lynch clues to connect the dots → goes to Zbigniew as an equal → the flip. Family closes ranks. Signs of parallel investigation go silent overnight.
+**Breakthrough trigger:** When she has enough lynch clues to connect the dots, she reaches a conclusion and acts. Which conclusion depends on which clues reached her.
+
+### Conclusions
+
+| # | Conclusion | Key clues needed | Result |
+|---|---|---|---|
+| 1 | **Truth** — siblings lynched the family | `three-drunk-attackers`, `soldier-killed-defending-daughter` or `jagna-was-raped` | Goes to Zbigniew hurt. Joins him out of loyalty. Standard flip. |
+| 2 | **Truth + justified** — lynch happened but Edward was a war criminal | Truth clues + `soldier-participated-in-massacre` | Goes to Zbigniew *proud*. Strongest alliance. He killed a killer. |
+| 3 | **Rezeń alone** — the butcher did it, siblings are clean | `glupek-strangled`, `butcher-visits-the-well` without sibling clues | Pushes Zbigniew to act against Rezeń. Alliance, but misdirected. |
+| 4 | **Love triangle** — Tadek killed Jagna over jealousy | `wujas-loved-jagna` + `jagna-painter-affair` + `jagna-was-raped` without wider context | Confronts Zbigniew about Tadek. "Your brother killed a girl." |
+| 5 | **Affair** — Zbigniew had something with Jagna | `%ZBIGNIEW-JAGNA-CONNECTION%` + `jagna-painter-affair` without violence clues | Marriage breaks. No flip. Investigation poisons everything. |
