@@ -21,6 +21,49 @@ Quiet hunter. Heard everything in 1954, did nothing. Carries the guilt of inacti
 - **[Janina Gajda](ciotka.md)** — lives next door. May have observed her devotion to [Edek Barnaś](glupek.md), her grief. Another thread.
 - **[Edek Barnaś](glupek.md)** — the living reminder. 13 years seeing him next door.
 
+## Mechanics
+
+### Vigilante Targeting
+
+GM tracks which clues leak to Ryszard (mainly through [Barbara](barbara.md) over the fence — **whatever she learns, he learns**). Whoever the clues point at most becomes his target for the [lynch ending](../story/ending-punishment-lynch.md) — Rezeń by default, but the siblings, wrong people, or even the players if that's where the evidence lands.
+
+### Lynch Targets
+
+GM tracks score per target. Highest when he snaps = who he goes after.
+
+**Starting scores:** Rezeń 2, Players 1, Zbigniew 1, Tadek 0, Helena 0, Hag 0
+
+| Clue | Target | Change |
+|---|---|---|
+| `three-drunk-attackers` | Rezeń | +1 |
+| `three-drunk-attackers` | Zbigniew | +1 |
+| `three-drunk-attackers` | Tadek | +1 |
+| `jagna-was-raped` | Rezeń | +2 |
+| `jagna-was-raped` | Tadek | +2 |
+| `glupek-strangled` | Rezeń | +3 |
+| `matrona-orchestrated-lynch` | Helena | +4 |
+| `painter-heard-matrona` | Helena | +2 |
+| `butcher-visits-the-well` | Rezeń | +1 |
+| `fresh-blood-at-well` | Rezeń | +1 |
+| `someone-killed-at-well` | Rezeń | +3 |
+| `lynch-bodies-in-well` | Zbigniew | +1 |
+| `foreman-coverup` | Zbigniew | +2 |
+| `hag-blamed-for-wolves` | Hag | +2 |
+| Pawełek dies (players promised help) | Players | +3 |
+| Pawełek dies (no promise) | Players | +1 |
+| Players prevent Ciotka's funeral | Players | +1 |
+| Players lied about flood danger | Players | +2 |
+| Players expose truth without structure | Players | +2 |
+| Players protect someone he blames | Players | +2 |
+| Players help with flood preparation | Players | -1 |
+| Players help at PGR | Players | -1 |
+| Players help with wolf hunt | Players | -2 |
+| Players cure Pawełek | Players | -3 |
+| Players stabilize Pawełek | Players | -1 |
+| Players play with Pawełek | Players | -1 |
+| Players push Barbara about the father | Players | +1 |
+
+
 ## Actions
 
 ### Census interview — Ryszard
