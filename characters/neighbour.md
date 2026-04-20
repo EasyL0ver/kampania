@@ -106,15 +106,10 @@ Angry at the government. Same rage as [Barbara Kopacz](barbara.md) — the state
   - **If players push deeper** — ask how she got the house, why the best plot: he stiffens. *"Wojewoda gave it to her. Ask him."* Door closes.
 - **Result:** → [ciotka-moved-in-after-they-were-gone](../clues/clues.md#ciotka-moved-in-after-they-were-gone), [barnas-had-a-daughter](../clues/clues.md#barnas-had-a-daughter)
 
-## For Players
+### Confront about Ciotka's motherhood
+- **Requires:** [ciotka-moved-in-after-they-were-gone](../clues/clues.md#ciotka-moved-in-after-they-were-gone) + [edeks-father-orphaned-him](../clues/clues.md#edeks-father-orphaned-him) (players have both: neighbour says she moved in after, census says she's the mother)
+- **Cost:** Free
+- **Outcome:** He laughs. *"Matka? Janka? Nie, skąd. Wprowadziła się po nich. Chłopak już tam był."* ("Mother? Janka? No, come on. She moved in after them. The boy was already there.") Casual, amused — it's obvious to him.
+- **Result:** → [ciotka-not-mother](../clues/clues.md#ciotka-not-mother)
 
-- **Easiest NPC to crack.** Right pressure (guilt, alcohol, committee authority, fear of water) could break him.
-- **Partial knowledge.** Can give sounds, shapes, direction — enough to point toward [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) and [the well](../story-facts/the-well.md) without naming names.
-- **Proximity to [Janina Gajda](ciotka.md)** — another thread to pull.
 
-## Open Questions
-
-- Does he live alone or have family?
-- Has he ever hinted at what he knows — to [ks. Władysław Pająk](priest.md) in confession, to a drunk companion?
-- How does he react to [Edek Barnaś](glupek.md)? Avoidance? Guilt-driven small kindnesses?
-- Does [Janina Gajda](ciotka.md) suspect he knows?

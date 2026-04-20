@@ -44,11 +44,17 @@ Doesn't understand the committee, the census, or the flood. Strangers make him n
 
 ## Actions
 
-### Try to talk to Edek
-- **Requires:** [Janina Gajda](ciotka.md) present (she won't allow it otherwise) or find him alone outside
+### Talk to Edek
+- **Requires:** [Janina Gajda](ciotka.md) present (she's protective) or find him alone outside
 - **Cost:** Free
-- **Outcome:** He doesn't speak in sentences. Sounds, gestures, reactions. He'll take food, accept touch from people who move slowly. He's not hostile — he's scared and can't express it. Players who are patient and gentle may earn a moment of connection: he shows them something, leads them somewhere, points at something he can't name.
-- **Result:** Atmosphere and rapport. If the well is active → he may point toward %OLD_VILLAGE%, toward the forest, toward the direction of the well. He knows where his family is. He can't say it.
+- **Outcome:** He talks — short sentences, simple words. Slow, not silent. Shy with strangers but not afraid. He can answer basic questions, follow conversations, express likes and dislikes. He's not broken — just limited. Players who are kind to him get warmth back.
+- **Result:** Rapport. If the well is active → he gets restless near certain topics, certain directions. Can't articulate why.
+
+### Ask Edek about his mother
+- **Requires:** Players talk to him directly
+- **Cost:** Free
+- **Outcome:** He calls Janina *"ciocia"* — auntie, not mama. When asked about his real parents — he doesn't understand the question. Not evasion, not pain. Just nothing. The concept doesn't exist for him. He confirms he's only ever had ciocia — no memory of anyone before her.
+- **Result:** Confirms `ciotka-not-mother` indirectly. He doesn't know he's giving anything away — the word "ciocia" does it for him.
 
 ## For Players
 

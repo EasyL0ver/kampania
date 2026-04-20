@@ -71,3 +71,7 @@ The well doesn't need to break Tadek Gajda. He was already broken. It just needs
   - **Second visit (well influence active):** The cracks show. The bottle isn't working anymore. He's lucid in a way that terrifies him. Half-sentences slip: *"She didn't deserve it."* A name muttered — Hania. He catches himself. Changes subject. Won't say more.
   - **Third visit:** He's barely holding together. → See [event-wujas-cracks](../story/event-wujas-cracks.md)
 - **Result:** → [wujas-is-the-weak-link](../clues/clues.md#wujas-is-the-weak-link)
+
+## Opinions
+
+- **`ciotka-not-mother`:** Gets agitated, reaches for the bottle. *"A co to was obchodzi? Wychowała go!"* Disproportionate anger — a tell.

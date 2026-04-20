@@ -73,6 +73,10 @@ Amplifies **paranoia and need for control.** Not guilt — he has none. The well
 
 Sees flooding before it's announced. Opportunity and threat: water destroys evidence, but also destroys everything he's built. Pragmatic — protect his people first, secrets second.
 
+## Opinions
+
+- **`ciotka-not-mother`:** *"Janina jest jego matką. Ja podpisywałem papiery."* Shuts it down. Authority, not emotion.
+
 ## For Players
 
 The most cooperative NPC at first — genuinely useful guide and ally. His agenda (thorough census, quiet evacuation prep) aligns with the committee's. The reveal that he's one of the perpetrators is devastating because he's been *helpful*. Unlike [Helena Rzepka](matrona.md), if confronted he can face it.

@@ -73,6 +73,10 @@ She will lie — practiced, quiet, consistent lies from 13 years of practice. **
 - **Outcome:** She doesn't break. She doesn't confess. She will NEVER tell government strangers what happened — they are the ones who could take Edek away. But under enough emotional pressure, she slips. One line, choked out: *"I couldn't let them hurt him."* Or *"He was just a baby."* Or her eyes fill when players mention 1954 and she can't hide it fast enough. She catches herself, shuts down, won't speak again that visit.
 - **Result:** At most → [ciotka-saved-glupek](../clues/clues.md#ciotka-saved-glupek) — but only the fact that she intervened, not who was doing what or why. She never names names. She never describes the night. The full truth lives with the [priest](priest.md) — she gave it to him over 13 years of confession, not to strangers in one afternoon.
 
+## Opinions
+
+- **`ciotka-not-mother`:** Fury. Insists she IS his mother. Shit-talks Dudka: *"Ten stary plotkarz wam nagadał? Kłamie."* Won't speak again that day.
+
 ## For Players
 
 Janina Gajda holds the most honest account of the lynch — but players will never hear it from her directly. She is a vault. Government strangers are the threat, not the audience. The path to her knowledge runs through the [priest](priest.md), who received it piece by piece over 13 years of confession. At her house, players find physical evidence (attic, backyard) and at most an emotional slip confirming she saved [Edek Barnaś](glupek.md). That's the ceiling.

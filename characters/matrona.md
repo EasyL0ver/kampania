@@ -68,6 +68,10 @@ Erodes Helena Rzepka's **performance.** Doesn't shatter her like [Tadek Gajda](s
 
 Follows [Zbigniew Gajda](wojewoda.md)'s lead — cooperate, help, comply. The flood itself matters less to her than keeping the story intact.
 
+## Opinions
+
+- **`ciotka-not-mother`:** Icy deflection. *"Dziwne pytanie jak na spis ludności."* Turns it back on the players — why are you digging?
+
 ## For Players
 
 Presents a version of events that's almost true, with herself edited out. Players need indirect paths to crack her.
