@@ -1,4 +1,4 @@
-﻿# Holy Mass — Anti-Flood Prayer
+# Holy Mass — Anti-Flood Prayer
 
 **Type:** Event (triggered)
 **Location:** [The church](../locations/the-church.md)
@@ -64,7 +64,7 @@ Free — no action cost. Available to any player present.
 ### Go to Ciotka's house
 - **Requires:** Nothing — can be triggered by the empty pew, or independently
 - **Cost:** 1 action
-- **Outcome:** → triggers [Ciotka Found Dead](event-ciotka-found-dead.md)
+- **Outcome:** → triggers [Ciotka Found Dead](ciotka-found-dead.md)
 
 ### Talk to the priest after mass
 - **Requires:** Nothing

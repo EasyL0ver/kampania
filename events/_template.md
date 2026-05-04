@@ -3,7 +3,7 @@
 **Type:** Event ([one-shot / triggered / world state change / opening / closing])
 **Location:** [Where it happens — link to location if it maps to one: [Place](../locations/file.md)]
 **Present:** [NPCs present, with conditions. e.g. "[Name](../characters/file.md) (panicking), [Other](../characters/file.md) (lucid). [Other] arrives within the hour."]
-**Available:** [When this can trigger — day, time, prerequisite. e.g. "Day 3 onward — after [the flood](event-the-flood.md). Triggered when players visit X."]
+**Available:** [When this can trigger — day, time, prerequisite. e.g. "Day 3 onward — after [the flood](the-flood.md). Triggered when players visit X."]
 **Cost:** [1 action / Free / "Being there" / None (this happens to the players, not because of them)]
 
 ## Trigger

@@ -1,4 +1,4 @@
-﻿# Clues
+# Clues
 
 Player-discoverable knowledge. Each clue is an atomic fact. Character files link here when an NPC can reveal it.
 
@@ -138,7 +138,7 @@ The bodies from the 1954 lynch were dumped in the old well in [%OLD_VILLAGE%](..
 ## The Well
 
 ### someone-thrown-in-well
-Something — or someone — was recently thrown into the well. Looking down with a light: dark water, shapes below the surface. Can't tell how many or how old. But something fresh went in. **Only exists if the [hag dies](../events/event-well-confrontation.md#if-nobody-is-there-default--70).**
+Something — or someone — was recently thrown into the well. Looking down with a light: dark water, shapes below the surface. Can't tell how many or how old. But something fresh went in. **Only exists if the [hag dies](../events/well-confrontation.md#if-nobody-is-there-default--70).**
 
 ### butcher-visits-the-well
 [Stanisław Rezeń](../characters/butcher.md) visits [%OLD_VILLAGE%](../locations/old-village-ruins.md) regularly. Sits near the well. Clears debris.
@@ -156,7 +156,7 @@ Someone keeps clearing debris from the well. Someone else keeps piling it back a
 Fresh blood on the well's stone rim. Recent — not old stains. Something was dragged to the well and put in.
 
 ### someone-killed-at-well
-Someone was murdered at the well. Blood smeared on the rim, drag marks from a kneeling position, scattered ritual supplies trampled into mud. The violence was one-directional — the victim didn't fight back. A body was put into the well. **Only exists if the [hag dies](../events/event-well-confrontation.md#if-nobody-is-there-default--70).**
+Someone was murdered at the well. Blood smeared on the rim, drag marks from a kneeling position, scattered ritual supplies trampled into mud. The violence was one-directional — the victim didn't fight back. A body was put into the well. **Only exists if the [hag dies](../events/well-confrontation.md#if-nobody-is-there-default--70).**
 
 ### players-dream-too
 From the first night in the village, the players have dreams of violence — hands doing things, the satisfaction of breaking. Each night worse. By day three they've felt what [Stanisław Rezeń](../characters/butcher.md) has felt for thirteen years.
@@ -335,7 +335,7 @@ Someone is doing something in the forest — men, fire, a smell. Could be anythi
 [Zbigniew Gajda](../characters/wojewoda.md)'s office phone can reach [dr. Leon Sawicki](../characters/secondary-characters.md) in the district. Flood-damaged lines — patchy, but it works on the third try.
 
 ### paweleks-illness
-[Pawełek Kopacz](../characters/pawelek.md) drinks contaminated floodwater near the well and falls ill. Medically ordinary for flood conditions — but his fever dreams mention "the round stones," "the lady" who told him not to drink, and water that "tastes like the ground." → [event](../events/event-pawelek-falls-ill.md)
+[Pawełek Kopacz](../characters/pawelek.md) drinks contaminated floodwater near the well and falls ill. Medically ordinary for flood conditions — but his fever dreams mention "the round stones," "the lady" who told him not to drink, and water that "tastes like the ground." → [event](../events/pawelek-falls-ill.md)
 
 ### paweleks-diagnosis
 Bacterial dysentery — *Shigella*, most likely. Fever cycling, bloody stool, dehydration. Fatal without treatment in a child this size. Needs antibacterial medication — but which one and what dosage requires a doctor.

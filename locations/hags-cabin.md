@@ -1,4 +1,4 @@
-﻿# Paraskewia Chyłak's Cabin
+# Paraskewia Chyłak's Cabin
 
 **Type:** Location (hidden, discoverable)
 **Location:** Deep in the [forest](old-village-ruins.md). Accessible only to those who know the way.
@@ -37,7 +37,7 @@ Small wooden cabin, weathered and old. Built or repurposed from a pre-war struct
 ## Actions
 
 ### Search the cabin (after confrontation)
-- **Requires:** Hag is dead or missing (aftermath of [Well Confrontation](../events/event-well-confrontation.md))
+- **Requires:** Hag is dead or missing (aftermath of [Well Confrontation](../events/well-confrontation.md))
 - **Cost:** 1 action
 - **Outcome:** Empty. Fire cold. Supplies still there — she didn't leave voluntarily. Her ritual materials, icons, herbs. Evidence of 20 years of tending the dead. → [hag-tends-the-well](../clues/clues.md#hag-tends-the-well). She's gone. She didn't pack.
 

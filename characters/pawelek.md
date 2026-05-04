@@ -43,7 +43,7 @@ Moves at full speed — runs everywhere, climbs everything, has no concept of pe
 
 ### Health Points
 
-**Ticking clock mechanic.** Tracks Pawełek's condition after he falls ill ([event](../events/event-pawelek-falls-ill.md)).
+**Ticking clock mechanic.** Tracks Pawełek's condition after he falls ill ([event](../events/pawelek-falls-ill.md)).
 
 **Starts at 6 HP.** Triggers Day 3 evening. **Loses 1 HP per phase.**
 
@@ -115,7 +115,7 @@ Pawełek is 4. He's not interrogated — he's observed and talked to. Where you 
 
 ### When sick (HP 1-6)
 
-These actions require [Pawełek falls ill](../events/event-pawelek-falls-ill.md) to have triggered.
+These actions require [Pawełek falls ill](../events/pawelek-falls-ill.md) to have triggered.
 
 ### Stabilize Pawełek
 - **Requires:** **Medicine**, Pawełek is sick

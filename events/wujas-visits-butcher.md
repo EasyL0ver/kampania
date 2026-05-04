@@ -44,6 +44,6 @@ Zbigniew notices too late. Visits the edge house himself — finds it empty. The
 
 **Show the routine early. Then break it.** Day 1: players see Tadek walking to the edge. Unremarkable. Day 1-2: Zbigniew sends the wolf request through Tadek. Day 2+: Rezeń is at the PGR farm. Players who connected the visits to the edge house now see the man at the farm gate. Players who didn't will just see the escalation without understanding the cause.
 
-**The wolf errand is the hinge.** The visits were maintenance. The wolf request was *use*. You can't keep someone at arm's length and then ask them for help. The containment breaks not from neglect but from a single practical decision — and Zbigniew can't take it back. See [The Wolf Hunt](event-wolf-hunt.md) for the full scene.
+**The wolf errand is the hinge.** The visits were maintenance. The wolf request was *use*. You can't keep someone at arm's length and then ask them for help. The containment breaks not from neglect but from a single practical decision — and Zbigniew can't take it back. See [The Wolf Hunt](wolf-hunt.md) for the full scene.
 
 **The "drinking buddies" cover story** works because nobody questions it. But players who know Rezeń doesn't drink will catch the contradiction. Why does the village drunk visit the one man in the village who won't touch a bottle?

@@ -1,9 +1,9 @@
-﻿# Matrona's House
+# Matrona's House
 
 **Type:** Location (revisitable)
 **Location:** %NEW_VILLAGE% — neat, central, close to the [store](the-store.md). The best-kept house on the street.
 **Present:** [Helena Rzepka](../characters/matrona.md) (usually — splits time with [the store](the-store.md)), [Emil Rzepka](../characters/painter.md) (always — doesn't go far), [Ewa Rzepka](../characters/secondary-characters.md) (usually), [Krystian Rzepka](../characters/secondary-characters.md) (irregular — altar boy duties at church)
-**Available:** Any time. Players may be **housed here** if Helena chose them at dinner (see [03-dinner](../events/03-dinner.md)).
+**Available:** Any time. Players may be **housed here** if Helena chose them at dinner (see [03-dinner](../events/dinner.md)).
 **Cost:** 1 action per visit
 
 ## Setup
@@ -60,7 +60,7 @@ Krystian Rzepka (~9) comes and goes — altar boy at the church, Helena's plante
 - **Leads to:** The well's influence is visible in the art. The portrait connects to Hania if players learn her story elsewhere. Players who've seen the old village well will recognise it in the paintings. Players who haven't will see it later and remember. → Seeds [painter-was-spared](../clues/clues.md#painter-was-spared)
 
 ### Stay overnight (if hosted)
-- **Requires:** Helena chose players to stay here after [dinner](../events/03-dinner.md)
+- **Requires:** Helena chose players to stay here after [dinner](../events/dinner.md)
 - **Cost:** No additional action — happens naturally
 - **Outcome:** Nighttime in Helena's house. Players hear things through walls:
   - Emil can't sleep. Paces. Goes to the attic. The scratch of brushwork at 2 AM.

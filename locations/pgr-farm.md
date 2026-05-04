@@ -1,4 +1,4 @@
-﻿# The PGR Farm
+# The PGR Farm
 
 **Type:** Location (revisitable)
 **Location:** State Agricultural Farm (Państwowe Gospodarstwo Rolne) — fields, barns, livestock pens, tool shed
@@ -18,7 +18,7 @@ A battered wooden desk in the tool shed holds the farm's paperwork — supply or
 
 - **Watch the workers** — count the actual people working vs the ledger. Only 7 real workers, but the ledger lists 8. One name doesn't match anyone here. → Seeds [Foreman cover-up](../clues/clues.md#foreman-coverup) (**Observation**)
 - **Talk to the labourers** — Józef Nowak and Piotr Wiśniewski talk about the work, the conditions. If asked about accidents — glances exchanged. "The barn's been fixed now." Nobody elaborates. → Seeds [Foreman cover-up](../clues/clues.md#foreman-coverup)
-- **Wolf damage** — Visible from Day 1: bloodstains in the pen, patched fences, nervous animals. Wolves have been hitting the farm for weeks. [Michał Pytlak](../characters/foreman.md) mentions losses in passing. Day 1-2: fresh kill — [Zbigniew Gajda](../characters/wojewoda.md) may be at the farm assessing the damage. Players CAN witness the moment he decides to authorize [Stanisław Rezeń](../characters/butcher.md). → Triggers [The Wolf Hunt](../events/event-wolf-hunt.md) (**Observation**, **Agronomy**)
+- **Wolf damage** — Visible from Day 1: bloodstains in the pen, patched fences, nervous animals. Wolves have been hitting the farm for weeks. [Michał Pytlak](../characters/foreman.md) mentions losses in passing. Day 1-2: fresh kill — [Zbigniew Gajda](../characters/wojewoda.md) may be at the farm assessing the damage. Players CAN witness the moment he decides to authorize [Stanisław Rezeń](../characters/butcher.md). → Triggers [The Wolf Hunt](../events/wolf-hunt.md) (**Observation**, **Agronomy**)
 - **Notice Barbara** — she works hard, avoids the men, speaks to no one unless spoken to. Visibly poorer than the others. → Rapport opportunity with [Barbara Kopacz](../characters/barbara.md) (**Read**)
 
 ## Actions
@@ -63,4 +63,4 @@ A battered wooden desk in the tool shed holds the farm's paperwork — supply or
 - **Requires:** Day 1+, wolf damage visible
 - **Cost:** Free (inspection), 1 action (join the hunt)
 - **Outcome:** [Michał Pytlak](../characters/foreman.md) shows the committee the damage — dead sheep, patched fences, tracks. Wants every head and every złoty in the damage report. He mentions [Ryszard Dudka](../characters/neighbour.md) has been hunting them for weeks — no luck. If Day 1-2: players may witness [Zbigniew Gajda](../characters/wojewoda.md) at the farm, making the decision to authorize [Stanisław Rezeń](../characters/butcher.md) through [Tadek](../characters/wujas.md). If Day 2+: Rezeń is already at the farm, among workers.
-- **Leads to:** → [The Wolf Hunt](../events/event-wolf-hunt.md). Players choose: go with Rezeń, go with Dudka, or stay and reinforce the farm.
+- **Leads to:** → [The Wolf Hunt](../events/wolf-hunt.md). Players choose: go with Rezeń, go with Dudka, or stay and reinforce the farm.

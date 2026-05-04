@@ -1,4 +1,4 @@
-﻿# The Well Confrontation
+# The Well Confrontation
 
 **Type:** Event (Night of Day 4)
 **Location:** [%OLD_VILLAGE%](../locations/old-village-ruins.md) — the well
@@ -10,7 +10,7 @@
 
 Three things converge on the night of Day 4:
 
-1. **[Rezeń](../characters/butcher.md) is loose.** The [wolf authorization](event-wolf-hunt.md) broke his containment. The well's compulsion is screaming. He goes to [%OLD_VILLAGE%](../locations/old-village-ruins.md) every night — and tonight, someone else is there.
+1. **[Rezeń](../characters/butcher.md) is loose.** The [wolf authorization](wolf-hunt.md) broke his containment. The well's compulsion is screaming. He goes to [%OLD_VILLAGE%](../locations/old-village-ruins.md) every night — and tonight, someone else is there.
 
 2. **[Paraskewia Chyłak](../characters/hag.md) is at the well.** She performs rites for the dead — fires, chanting, Lemko prayers to appease the unquiet. Nothing to do with wolves. She's been doing this for 20 years. Tonight is no different for her.
 

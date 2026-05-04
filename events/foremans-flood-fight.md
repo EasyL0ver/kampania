@@ -1,4 +1,4 @@
-﻿# Zofia Comes to the Committee
+# Zofia Comes to the Committee
 
 **Type:** Event (triggered)
 **Location:** Wherever the committee is
@@ -43,7 +43,7 @@ She describes it: Michał hasn't come home since the flood started. Day 3, Day 4
   - **Engineering:** The flood defenses he's built are good — better than good. Drainage channels placed exactly where the water wants to go. Sandbag walls angled to redirect flow. This man reads terrain the way a doctor reads a body.
 - **Talking to him:** He barely registers the committee. If asked about the explosives: matter-of-fact, calm. There's a rock formation above the village channeling floodwater toward the farm. Blow it, water goes around instead of through. He knows the terrain — every slope, every drainage path. He needs hands to carry the ordnance and someone who isn't afraid of old dynamite. Not asking permission — informing.
   - This is the first time anyone hears the actual plan. Zofia only knew about the explosives. The committee gets the why.
-- **If committee offers to help:** → Seeds [ending-foreman-saves-village](ending-foreman-saves-village.md). The engineering ending is now on the table.
+- **If committee offers to help:** → Seeds [ending-foreman-saves-village](foreman-saves-village.md). The engineering ending is now on the table.
 - **If committee tries to stop him:** He doesn't argue. He just keeps working. Physically stopping a man with inhuman strength is not an option. Only Zofia can reach him — and right now, she can't.
 
 ### Talk to Zofia (extended)

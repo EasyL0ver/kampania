@@ -1,4 +1,4 @@
-﻿# %OLD_VILLAGE% — The Well
+# %OLD_VILLAGE% — The Well
 
 **Type:** Location (critical)
 **Location:** [%OLD_VILLAGE%](old-village-ruins.md) — centrally or prominently located in the ruins.
@@ -44,7 +44,7 @@ Stone-lined well. The heart of the scenario. Contains two sets of dead spanning 
 ## Actions
 
 ### Investigate the well (after confrontation)
-- **Requires:** Hag is dead (aftermath of [Well Confrontation](../events/event-well-confrontation.md))
+- **Requires:** Hag is dead (aftermath of [Well Confrontation](../events/well-confrontation.md))
 - **Cost:** 1 action
 - **Skills:** **Observation**, **Milicjant**
 - **Outcome:** Looking into the well — it's deep, dark, water at the bottom. With a light: shapes below the waterline. Can't tell how many, can't tell how old. But something fresh went in. → [someone-thrown-in-well](../clues/clues.md#someone-thrown-in-well)
