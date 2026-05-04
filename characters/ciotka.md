@@ -14,12 +14,30 @@
 
 Devout, fearful, deeply honest when her guard drops. Eldest sibling but weakest in the family hierarchy. The moral heart of the tragedy — the only person who showed mercy the night of the lynch. Lives in the dead man's house, raising his brain-damaged son, surrounded by the people who did it. Her faith may hold her together — or torment her most.
 
+## Appearance
+
+Gaunt, hollowed out. Fifty-five but looks seventy — deep lines from nose to mouth, sunken cheeks, dark circles that never fade. Thin grey hair under a headscarf she never removes outdoors. Bony wrists, prominent veins, hands that shake slightly when she's nervous (which is often). Wears shapeless dark dresses — navy, brown, black — always buttoned to the throat. A small crucifix pinned inside her collar where only she knows it's there.
+
+Moves like someone expecting to be hit — shoulders hunched, eyes down, steps quick and small. Flinches at raised voices. In her own house she's different: straighter, warmer, her hands steady when she tends to Edek. Her voice is thin and breathy in public — barely audible, apologetic. At home, speaking to Edek, it's low and gentle, almost musical. When frightened she goes completely silent — mouth pressed shut, eyes fixed on a point in the middle distance, waiting for it to pass.
+
+## Schedule
+
+| Phase | Location | Notes |
+|---|---|---|
+| **Morning** | [Janina's house](../locations/ciotkas-house.md) | Cooking for Edek, household chores. Church if it's Sunday. |
+| **Afternoon** | [Janina's house](../locations/ciotkas-house.md) or village | Errands, tending the garden. Edek follows her. |
+| **Evening** | [Janina's house](../locations/ciotkas-house.md) | Praying. Rosary. Doors locked early. |
+| **Night** | [Janina's house](../locations/ciotkas-house.md) | Light sleeper. Checks Edek. Checks the locks. |
+
 ## Opinions
 
-- **[Edek Barnaś](glupek.md)** — her life's penance. Raised him from infancy — he's 17 now, massive, brain-damaged, trusting. She doesn't see [Edward Barnaś](soldier.md)'s son; she sees *her* boy. Love is real, fierce, tangled with guilt. Every day in his father's house is both punishment and purpose.
-- **[Stanisław Rezeń](butcher.md)** — silent terror. She stopped him killing [Edek Barnaś](glupek.md); he's never forgiven it. They don't speak, don't look at each other. She locks her door at night and keeps [Edek Barnaś](glupek.md) close. Lived in fear of him for 13 years.
-- **[ks. Władysław Pająk](priest.md)** — her confessor, the only person outside the family she trusts. Over 13 years of confessions, she has told him **everything** — not all at once, not deliberately, but piece by piece the whole picture spilled out. The rape, the killings, who did what, where the bodies went. **Janina Gajda is the reason [ks. Władysław Pająk](priest.md) knows.** [Zbigniew Gajda](wojewoda.md)'s confessions are guarded, [Helena Rzepka](matrona.md)'s are masterful misdirection — but Janina Gajda is too honest, too broken, too desperate for absolution to edit herself. She doesn't realize how much she's given him. Their relationship reinforces each other's silence: she goes for comfort, he gives it, and neither acknowledges that what passes between them is a full account of a murder.
-- **The siblings** — obedience through fear. Saving [Edek Barnaś](glupek.md) was a betrayal of the pact. [Zbigniew Gajda](wojewoda.md) treats her with cold authority, [Helena Rzepka](matrona.md) keeps her in line with looks and silences, [Tadek Gajda](secondary-characters.md) can barely face her. She stays quiet because quiet is the price of keeping her boy safe.
+- **[Edek Barnaś](glupek.md)** — My boy. Seventeen years I've raised him. He trusts me completely, follows me everywhere, calls for me when he's scared. I don't see his father's face anymore — I see *him*. The love is real and fierce and tangled with everything I can never say. Every day in this house is punishment and purpose both.
+- **[Stanisław Rezeń](butcher.md)** — I stopped him killing my boy that night. He has never forgiven me. Thirteen years of silence between us — we don't speak, don't look at each other. I lock my door every night because of him. I keep Edek close because of him.
+- **[ks. Władysław Pająk](priest.md)** — My confessor. The only person outside the family I trust. Over thirteen years I've told him everything — not deliberately, not all at once, but piece by piece it all spilled out. I'm too desperate for absolution to edit myself. He gives me comfort and I keep coming back. I don't realize how much I've given him.
+- **[Zbigniew Gajda](wojewoda.md)** — My brother. Cold authority. Saving Edek was a betrayal of the pact and he's never let me forget it. I obey because obedience is the price of keeping my boy safe.
+- **[Helena Rzepka](matrona.md)** — Keeps me in line with looks and silences. Smarter than all of us. I'm afraid of her in a different way than I'm afraid of Rezeń — she could take everything with a word.
+- **[Tadek Gajda](wujas.md)** — My youngest brother. He can barely look at me. I think seeing Edek reminds him of what we did. Good. It should.
+- **`ciotka-not-mother`:** Fury. I AM his mother. That old gossip Dudka is lying — he knows nothing. I won't speak to anyone again that day.
 
 ## Actions
 
@@ -27,20 +45,16 @@ Devout, fearful, deeply honest when her guard drops. Eldest sibling but weakest 
 - **Requires:** Committee authority
 - **Cost:** 1 action
 - **Outcome:** She's practised at this — 13 years of quiet, consistent lies. Lists herself as mother, [Edward Barnaś](soldier.md) as the father — left the village. Abandoned his family. The boy is hers. The house is hers. Consistent with what everyone else says. Players have no reason to doubt it — a single mother, an absent father, a disabled son. Sad but ordinary.
-- **Result:** → [edeks-father-orphaned-him](../clues/clues.md#edeks-father-orphaned-him). The form gives players the name Edward Barnaś. That name is a thread — if they pull it (neighbours, documents, attic, backyard), the story starts unravelling.
+- **Gives:** [edeks-father-orphaned-him](../clues/clues.md#edeks-father-orphaned-him). The form gives players the name Edward Barnaś. That name is a thread — if they pull it (neighbours, documents, attic, backyard), the story starts unravelling.
 
 ### Approach Janina through faith
 - **Requires:** Demonstrate genuine faith or knowledge of the Church. Mentioning [ks. Władysław Pająk](priest.md) positively helps.
 - **Cost:** 1 action
 - **Outcome:** Her guard drops — fractionally. Faith is the only language she trusts outside of survival. She won't confess to players (that's for God and the Priest), but she'll let things slip. The way she talks about Edek — *"He didn't deserve any of this"* — carries weight she doesn't intend. Her eyes fill. She changes the subject.
-- **Result:** Seeds toward [ciotka-saved-glupek](../clues/clues.md#ciotka-saved-glupek). If players have already cracked the Priest → cross-referencing what he hinted with what she lets slip starts building the picture.
+- **Gives:** [ciotka-saved-glupek](../clues/clues.md#ciotka-saved-glupek). If players have already cracked the Priest → cross-referencing what he hinted with what she lets slip starts building the picture.
 
 ### Push Janina emotionally
 - **Requires:** Players must have already demonstrated genuine care for [Edek Barnaś](glupek.md) (not just words — actions: protecting him from [Stanisław Rezeń](butcher.md), spending time with him, earning his trust). AND she must be emotionally destabilised — Edek had an episode, or the well is pressing her hard, or something has shaken her routine.
 - **Cost:** 1 action
 - **Outcome:** She doesn't break. She doesn't confess. She will NEVER tell government strangers what happened — they are the ones who could take Edek away. But under enough emotional pressure, she slips. One line, choked out: *"I couldn't let them hurt him."* Or *"He was just a baby."* Or her eyes fill when players mention 1954 and she can't hide it fast enough. She catches herself, shuts down, won't speak again that visit.
-- **Result:** At most → [ciotka-saved-glupek](../clues/clues.md#ciotka-saved-glupek) — but only the fact that she intervened, not who was doing what or why. She never names names. She never describes the night. The full truth lives with the [priest](priest.md) — she gave it to him over 13 years of confession, not to strangers in one afternoon.
-
-## Opinions
-
-- **`ciotka-not-mother`:** Fury. Insists she IS his mother. Shit-talks Dudka: *"Ten stary plotkarz wam nagadał? Kłamie."* Won't speak again that day.
+- **Gives:** At most → [ciotka-saved-glupek](../clues/clues.md#ciotka-saved-glupek) — but only the fact that she intervened, not who was doing what or why. She never names names. She never describes the night. The full truth lives with the [priest](priest.md) — she gave it to him over 13 years of confession, not to strangers in one afternoon.

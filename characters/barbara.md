@@ -14,14 +14,29 @@
 
 Poor, single mother. Warm, open, genuinely curious. The village sieve — everything players tell her reaches [the Neighbour](neighbour.md) by evening. She doesn't know what information is dangerous.
 
+## Appearance
+
+Pretty in a worn-down way — high cheekbones from her Lemko mother, soft brown hair pulled back in a practical bun that's always coming loose. Sunburned forearms, rough hands, a body that works ten hours a day at the PGR and comes home to more work. Twenty-eight but could pass for thirty-five — the tiredness lives in the skin around her eyes. Wears a faded floral housedress under a man's wool cardigan (too big — Ryszard's?), rubber boots caked with farm mud.
+
+Smiles easily and often — a real smile that reaches her eyes. Leans forward when she talks, touches your arm, asks questions with genuine warmth. Voice is light, musical, carries across the yard. Laughs at her own observations. Never whispers — everything she says is at full conversational volume, which is why everything travels.
+
+## Schedule
+
+| Phase | Location | Notes |
+|---|---|---|
+| **Morning** | [PGR farm](../locations/pgr-farm.md) | Field labour. Leaves Pawełek with Babcia (unsupervised). |
+| **Afternoon** | [Barbara's house](../locations/barbaras-house.md) | Home from work. Cooking, cleaning, minding Pawełek. |
+| **Evening** | [Barbara's house](../locations/barbaras-house.md) or fence with [Ryszard](neighbour.md) | Chats over the fence. Shares everything she heard that day. |
+| **Night** | [Barbara's house](../locations/barbaras-house.md) | Asleep early — exhaustion. |
+
 ## Opinions
 
-- **[Tadek Gajda](wujas.md)** — one-time encounter. The real father of [Pawełek Kopacz](pawelek.md), but neither of them knows.
-- **[Marek Gajda](junior.md)** — ongoing relationship. Barbara believes he is the father. So does [Zbigniew Gajda](wojewoda.md). Both are wrong.
-- **[Pawełek Kopacz](pawelek.md)** — her son. She thinks she knows who the father is. She doesn't.
-- **[Stefania Kopacz](babcia.md)** — her mother. Lemko. Barbara was raised Polish, doesn't speak the language, doesn't practice the customs. But the blood is there.
-- **[Ryszard Dudka](neighbour.md)** — closest friend, literal neighbour. Helps with the house, brings firewood, watches the boy. She trusts him completely. She and [Pawełek Kopacz](pawelek.md) are the only uncomplicated good in his life.
-- **[ks. Władysław Pająk](priest.md)** — the village priest. She goes to church because everyone does. He's respected, but she's not devout — faith is background, not identity.
+- **[Tadek Gajda](wujas.md)** — That one night. He was charming, funny, drunk. I don't think about it. It was Marek — it had to be Marek.
+- **[Marek Gajda](junior.md)** — The father. I'm certain. He visits sometimes, late, awkward. He's young and scared and I don't push him. His father must never find out.
+- **[Pawełek Kopacz](pawelek.md)** — Everything. My whole world. I'd burn the village down for him.
+- **[Stefania Kopacz](babcia.md)** — My mother. I don't understand her language, her prayers, her world. But she's gentle with Pawełek and that's enough. I watch them together and feel like an outsider in my own house.
+- **[Ryszard Dudka](neighbour.md)** — My rock. Brings firewood, fixes the fence, watches Pawełek. I trust him completely. I tell him everything — what else would I do with it? He's the only adult who asks how my day was.
+- **[ks. Władysław Pająk](priest.md)** — The priest. I go to church because you go to church. He's kind. Faith is wallpaper to me — always there, never examined.
 
 ## Actions
 

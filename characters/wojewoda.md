@@ -8,7 +8,7 @@
 - **Born:** 1920
 - **Age in 1967:** 47
 - **Heritage:** Lemko (hidden behind Polish identity)
-- **Lives in:** [Zbigniew Gajda's house](../locations/wojewodas-house.md) — with [Irena Gajda](wife.md), [Marek Gajda](junior.md); [Tadek Gajda](secondary-characters.md) crashes here
+- **Lives in:** [Zbigniew Gajda's house](../locations/wojewodas-house.md) — with [Irena Gajda](wife.md), [Marek Gajda](junior.md); [Tadek Gajda](wujas.md) crashes here
 - **Settled:** ~1948 — first wave, founded the village
 - **Armed:** Sołtys's pistol (locked in office, loaded)
 
@@ -16,15 +16,31 @@
 
 Sołtys (village headman). Pragmatic, authoritative, controlled. Built %NEW_VILLAGE% into a functioning community. Participated in the lynch without guilt — believes Edward Barnaś had it coming.
 
+## Appearance
+
+Stocky, barrel-chested, built like a man who laid every fence post in the village himself — and did. Square head, broad jaw, thinning grey-black hair combed straight back with water. Heavy brows over sharp dark eyes that miss nothing. A thick moustache, neatly trimmed, grey at the edges. Big hands, thick fingers, a gold wedding band that's worn smooth. Clean — always clean. Pressed trousers, polished shoes, a wool vest over a white shirt even in summer. The only man in the village who looks like he owns an iron.
+
+Stands with his feet planted, hands behind his back or hooked in his vest pockets. Takes up space deliberately. Moves through the village like he owns it — because functionally he does. Voice is deep, unhurried, carries authority without volume. Doesn't repeat himself. Asks questions like he already knows the answer. When angry, he goes very still and very quiet — the temperature drops. People straighten up when he enters a room.
+
+## Schedule
+
+| Phase | Location | Notes |
+|---|---|---|
+| **Morning** | [Sołtys office](../locations/wojewodas-house.md) | Administrative work. Phone calls. Receives visitors. |
+| **Afternoon** | Village — rounds | Inspects PGR, checks on people, handles disputes. |
+| **Evening** | [His house](../locations/wojewodas-house.md) | Dinner with family. Sometimes the priest. Sometimes reviewing paperwork. |
+| **Night** | [His house](../locations/wojewodas-house.md) | Last to sleep. Checks the locks. Listens. |
+
 ## Opinions
 
-- **[Irena Gajda](wife.md)** — blind spot, then partner. Underestimates her completely for 13 years. When she comes to him with the truth mid-game, he's shocked — then impressed. She proved herself his equal. He lets her in. They become a team: the sołtys and his wife, managing the village together for the first time. Their marriage visibly improves — warmer, more in sync. The irony: the thing that brings them closest is a shared crime.
-- **[Marek Gajda](junior.md)** — complicated pride. Sees him drifting toward [Tadek Gajda](secondary-characters.md)'s orbit — worries not about the boy's soul, but what a loose-tongued drunk uncle might say.
-- **[Helena Rzepka](matrona.md)** — sibling he respects most and fears slightly. Smarter than him and he knows it. Unspoken division: he manages the village, she manages the story. Never confronted her about that night.
-- **[Tadek Gajda](secondary-characters.md)** — brother, liability. Loves him with resignation and dread. Every drunk night is a risk. Tolerates the [bimber operation](../story-facts/bimber-operation.md) because it keeps [Tadek Gajda](secondary-characters.md) occupied. Real fear: wrong night, wrong company, wrong words.
-- **[Stanisław Rezeń](butcher.md)** — the thing he contains. After 1954, Zbigniew saw what Rezeń was and took control: assigned him the edge house, forbade alcohol, told him to stay away from people. The sołtys managing the village monster the same way he manages everything else — through authority and implied threat. Not friends, not enemies. A leash. Zbigniew checks on him, makes sure the arrangement holds. As long as Zbigniew holds authority, Rezeń stays contained. Players may notice Zbigniew visiting the edge house, or Rezeń deferring to the sołtys in a way that doesn't match his personality.
-- **[por. Witold Skowron](officer.md)** — handler and protector. As sołtys, natural SB contact — reports upward, follows instructions, never asks questions he doesn't want answered. Not equal: [por. Witold Skowron](officer.md) holds real power. Sits at intersection of **both** cover-ups — the lynch from everyone, and helping [por. Witold Skowron](officer.md) keep the massacre buried. Whether he knows the full state secret or just follows orders is TBD.
-- **[ks. Władysław Pająk](priest.md)** — frenemy, mutual dependence. [Zbigniew Gajda](wojewoda.md) controls politically, [ks. Władysław Pająk](priest.md) spiritually. Share meals, discuss business, negotiate disputes. Edge: [Zbigniew Gajda](wojewoda.md) sees church as useful for order, funds it through the [PGR](../locations/pgr-farm.md). [ks. Władysław Pająk](priest.md) takes without acknowledging what it buys. Neither fully trusts the other.
+- **[Irena Gajda](wife.md)** — For thirteen years I underestimated her. Background. Then she comes to me with the truth mid-game and I'm shocked — then impressed. She proved herself my equal. We become a team: managing the village together for the first time. The irony: the thing that brings us closest is a shared crime.
+- **[Marek Gajda](junior.md)** — My son. Complicated pride. I see him drifting toward Tadek's orbit and it worries me — not about the boy's soul, but what a loose-tongued drunk uncle might say around him.
+- **[Helena Rzepka](matrona.md)** — The sibling I respect most and fear slightly. Smarter than me and I know it. Unspoken division: I manage the village, she manages the story. I've never confronted her about that night.
+- **[Tadek Gajda](wujas.md)** — My brother. My liability. I love him with resignation and dread. Every drunk night is a risk. I tolerate the [bimber operation](../story-facts/bimber-operation.md) because it keeps him occupied. Real fear: wrong night, wrong company, wrong words.
+- **[Stanisław Rezeń](butcher.md)** — The thing I contain. After 1954 I saw what he was and took control: assigned him the edge house, forbade alcohol, told him to stay away from people. I manage the village monster the same way I manage everything else — through authority and implied threat. Not friends, not enemies. A leash. As long as I hold authority, he stays contained.
+- **[por. Witold Skowron](officer.md)** — My handler. As sołtys, I'm his natural SB contact — report upward, follow instructions, never ask questions I don't want answered. Not equal: he holds real power. I sit at the intersection of both cover-ups — the lynch from everyone, and helping him keep the massacre buried.
+- **[ks. Władysław Pająk](priest.md)** — Frenemy. I control politically, he controls spiritually. We share meals, discuss business, negotiate disputes. The edge: I see the church as useful for order. I fund it through the [PGR](../locations/pgr-farm.md). He takes without acknowledging what it buys. Neither of us fully trusts the other.
+- **`ciotka-not-mother`:** Janina is his mother. I signed the papers myself. End of discussion.
 
 ## Actions
 
@@ -51,7 +67,3 @@ Sołtys (village headman). Pragmatic, authoritative, controlled. Built %NEW_VILL
 - **Cost:** Free
 - **What happens:** He waves it off. *"I'll handle it."* No surprise, no anger. He already knows — tolerates it because it keeps Tadek occupied and manageable. Players learn: the sołtys controls everything. Even his brother's addiction is managed.
 - **Result:** Seeds Zbigniew's control pattern. Same mechanism as [Stanisław Rezeń](butcher.md)'s containment — managing the village through tolerance and prohibition in equal measure.
-
-## Opinions
-
-- **`ciotka-not-mother`:** *"Janina jest jego matką. Ja podpisywałem papiery."* Shuts it down. Authority, not emotion.

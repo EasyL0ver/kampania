@@ -13,14 +13,31 @@
 
 4 years old. Bright, fearless, barefoot. Wanders too far. Repeats things without understanding them. Father officially unknown — real father is Tadek.
 
+## Appearance
+
+Small, wiry, perpetually dirty. Bare feet black with mud from April to October. A mop of sandy-brown hair that Barbara cuts with kitchen scissors — uneven, always in his eyes. Round face, gap-toothed grin, skinned knees. Wears the same oversized shirt (hand-me-down, rolled sleeves) and shorts held up with twine. Pockets full of stones, sticks, dead beetles.
+
+Moves at full speed — runs everywhere, climbs everything, has no concept of personal space. Grabs your hand, pulls you toward whatever he's found. Voice is high and piercing, carries across the whole yard. Talks constantly — stream of consciousness, half-formed observations, questions without waiting for answers. Mimics sounds perfectly: Babcia's prayers, bird calls, adult conversations replayed without understanding. When focused on building something, goes completely silent — tongue between his teeth, small hands careful and precise.
+
+## Schedule
+
+| Phase | Location | Notes |
+|---|---|---|
+| **Morning** | [Barbara's house](../locations/barbaras-house.md) yard | Playing alone — sticks, mud, stone circles. Barbara at work. Babcia inside, not watching. Further from the house than he should be. |
+| **Afternoon** | [Barbara's house](../locations/barbaras-house.md) yard or nearby | Barbara home from work. Full household. |
+| **Evening** | [Barbara's house](../locations/barbaras-house.md) inside | Sitting at Babcia's feet, copying her sounds. Domestic scene. |
+| **Night** | [Barbara's house](../locations/barbaras-house.md) | Asleep. |
+
+**GM note:** The morning gap matters. A 4-year-old alone in the village — nobody watching him closely enough. This is how he reaches the well later. Players who notice the pattern early might connect it when he falls ill.
+
 ## Opinions
 
-- **[Barbara Kopacz](barbara.md)** — his world. Mom. She's happy, he's happy.
-- **[Stefania Kopacz](babcia.md)** — grandmother. He loves sitting with her. Copies her sounds, her gestures. Doesn't understand any of it.
-- **[Ryszard Dudka](neighbour.md)** — "the nice man." Ryszard watches him, brings firewood, fixes things. Pawełek likes him.
-- **[Marek Gajda](junior.md)** — barely registers. Marek avoids him. Pawełek doesn't know why some man sometimes visits his mom late.
-- **[Tadek Gajda](wujas.md)** — just another adult in the village. Neither of them knows.
-- **[Paraskewia](hag.md)** — *"the lady in the trees."* They've met in the forest. She gave him berries, spoke to him in Lemko. He thinks she's nice. Nobody knows about this.
+- **[Barbara Kopacz](barbara.md)** — Mama. My whole world. When she smiles I'm happy. When she's tired I climb into her lap.
+- **[Stefania Kopacz](babcia.md)** — Babcia makes sounds and I copy them. It's a game. She holds my face and her eyes get wet sometimes. I don't know why.
+- **[Ryszard Dudka](neighbour.md)** — The nice man next door. He brings wood and fixes things. He lets me hold nails.
+- **[Marek Gajda](junior.md)** — A man who visits Mama sometimes. He doesn't talk to me.
+- **[Tadek Gajda](wujas.md)** — Just a man in the village. I don't know him. He doesn't know me.
+- **[Paraskewia](hag.md)** — The lady in the trees. She gave me berries and talked like Babcia does. She's nice. Nobody knows I've seen her.
 
 ## Mechanics
 
@@ -58,14 +75,6 @@
 ## Actions
 
 Pawełek is 4. He's not interrogated — he's observed and talked to. Where you find him and what he's doing depends on the time of day.
-
-### Schedule
-
-- **Morning** — [Barbara's house](../locations/barbaras-house.md) yard. Playing near the house — sticks, mud, stone circles. [Barbara](barbara.md) is at [PGR farm](../locations/pgr-farm.md). [Babcia](babcia.md) inside, not watching. He's further from the house than a 4-year-old should be.
-- **Afternoon** — [Barbara's house](../locations/barbaras-house.md) yard or nearby. [Barbara](barbara.md) is back from work. Full household.
-- **Evening** — [Barbara's house](../locations/barbaras-house.md) inside. Sitting at [Babcia's](babcia.md) feet, copying her sounds. [Barbara](barbara.md) home. The domestic scene — Babcia mutters and sings, Pawełek mimics every sound like a game.
-
-**GM note:** The morning gap matters. A 4-year-old alone in the village — nobody watching him closely enough. This is how he reaches the well later. Players who notice the pattern early might connect it when he falls ill.
 
 ### Sit with Pawełek and Babcia
 - **When:** Evening only

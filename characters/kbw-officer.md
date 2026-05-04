@@ -14,6 +14,6 @@ Deceased. Career KBW officer commanding the unit that massacred %OLD_VILLAGE% du
 
 ## Opinions
 
-- **[Edward Barnaś](soldier.md)** — soldier in his unit
-- **[Stanisław Rezeń](butcher.md)** — civilian auxiliary recruited for the operation
-- **[por. Witold Skowron](officer.md)** — state agent who later buried the massacre for different reasons
+- **[Edward Barnaś](soldier.md)** — Soldier in his unit. Followed orders during the massacre.
+- **[Stanisław Rezeń](butcher.md)** — Civilian auxiliary recruited for the operation. Did the dirty work.
+- **[por. Witold Skowron](officer.md)** — State agent who later buried the massacre for his own reasons.

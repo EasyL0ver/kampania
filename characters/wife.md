@@ -1,6 +1,6 @@
 # Irena Gajda
 
-**Type:** Named character — [Zbigniew Gajda](wojewoda.md)'s wife, [Marek Gajda](junior.md)'s mother
+**Type:** Named character — the sołtys's wife / shadow investigator
 
 ## Vital Statistics
 
@@ -11,15 +11,28 @@
 
 ## Character
 
-Intelligent, observant, dismissed. The sołtys's wife. Has been secretly investigating the 1954 disappearance for 13 years out of boredom. Uses her son Marek as field agent.
+Intelligent, observant, dismissed. Has been secretly investigating the 1954 disappearance for 13 years out of boredom and an instinct she can't silence. Uses her son Marek as field agent.
+
+## Appearance
+
+Tall for a woman of this era, carries herself straight — a posture that reads as pride to some, coldness to others. Angular face, high cheekbones, dark hair pulled back in a severe bun going grey at the temples. Hands always busy — knitting, peeling, mending — but her eyes are elsewhere, watching. Dresses neatly, better than most village women: pressed blouses, wool skirts without patches. When she speaks, it's precise and measured, each word chosen. Never raises her voice. Has a habit of tilting her head slightly when listening, like she's filing what you said for later.
+
+## Schedule
+
+| Phase | Location | Notes |
+|---|---|---|
+| **Morning** | [Zbigniew Gajda's house](../locations/wojewodas-house.md) | Household duties, listens to village radio |
+| **Afternoon** | Village — various | Social calls, church circle, gathering intelligence under cover of gossip |
+| **Evening** | [Zbigniew Gajda's house](../locations/wojewodas-house.md) | Debriefs Marek, reviews what she's learned |
+| **Night** | [Zbigniew Gajda's house](../locations/wojewodas-house.md) | Awake late, thinking |
 
 ## Opinions
 
-- **[Zbigniew Gajda](wojewoda.md)** — husband. Loves him. He dismissed her for 13 years. When she proves herself, he finally sees her. The marriage gets better after the flip — warmer, more in sync. The irony: the thing that brings them closest is a shared crime.
-- **[Marek Gajda](junior.md)** — son. Investigation partner. Devoted to her — follows her lead without question.
-- **[Helena Rzepka](matrona.md)** — sister-in-law. Dynamic unclear.
-- **[ks. Władysław Pająk](priest.md)** — another door closed. Approached him more than once — in confession, in private, carefully. Shut down every time: *"Suspicion without proof is a sin against your neighbour."* Another man telling her to be quiet and stop noticing things.
-- **[Tadek Gajda](secondary-characters.md)** — brother-in-law. Source of drunken fragments (via [Marek Gajda](junior.md)).
+- **[Zbigniew Gajda](wojewoda.md)** — She loves him. He's dismissed her for 13 years — patted her hand and changed the subject every time she noticed something wrong in this village. She'll prove she was right all along. And when she does, he'll finally see her as his equal.
+- **[Marek Gajda](junior.md)** — Her son, her instrument. He does what she asks without question, and she's grateful for it — but part of her knows she's using his devotion. She tells herself it's for his good too.
+- **[Helena Rzepka](matrona.md)** — Sister-in-law. Something closed and hard about that woman. Irena can't read her, which bothers her.
+- **[ks. Władysław Pająk](priest.md)** — Another man who told her to be quiet and stop noticing things. She went to him more than once — in confession, carefully, obliquely. Every time: shut down. She won't go back.
+- **[Tadek Gajda](wujas.md)** — Brother-in-law. A wreck, but a wreck who talks when drunk. Marek handles him — she wouldn't lower herself, and Tadek wouldn't speak freely to her anyway.
 
 ## Mechanics
 

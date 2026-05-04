@@ -13,11 +13,24 @@
 
 Leather jacket, attitude. The false suspect — everyone points at him. Actually running a parallel investigation for his mother. Will flip to family loyalty when Irena flips.
 
+## Appearance
+
+Lean and wiry, all restless energy — can't sit still, always shifting weight, drumming fingers, cracking knuckles. Dark hair grown out longer than the village approves of, swept back with Brylcreem. Sharp jaw, his father's hard eyes but his mother's watchful expression. A cigarette permanently between his lips or behind his ear. Wears a cracked leather jacket over a dark turtleneck — the closest thing to rebellion this village has seen. Scuffed boots, jeans when he can get them. Hands stained with engine grease from tinkering with motorbikes. Voice is clipped, dismissive, a studied coolness. Speaks fast when angry, which is often. Smirks more than smiles.
+
+## Schedule
+
+| Phase | Location | Notes |
+|---|---|---|
+| **Morning** | [Zbigniew Gajda's house](../locations/wojewodas-house.md) | Sleeps late, avoids his father at breakfast |
+| **Afternoon** | Village / roads | Rides his motorbike, meets [Barbara](barbara.md), asks questions nobody wants answered |
+| **Evening** | Village centre or [Tadek](secondary-characters.md)'s | Drinks with uncle, pokes at village gossip |
+| **Night** | [Zbigniew Gajda's house](../locations/wojewodas-house.md) or out | Sometimes doesn't come home — nobody asks where |
+
 ## Opinions
 
-- **[Zbigniew Gajda](wojewoda.md)** — father (sołtys). Complicated pride/disappointment both ways.
-- **[Irena Gajda](wife.md)** — mother. Secret investigation partner.
-- **[Tadek Gajda](secondary-characters.md)** — uncle. Drinking buddy and unwitting informant.
-- **[Helena Rzepka](matrona.md)** — aunt.
-- **[Janina Gajda](ciotka.md)** — aunt.
-- **[Barbara Kopacz](barbara.md)** — lover.
+- **[Zbigniew Gajda](wojewoda.md)** — His father. Respects the strength, resents the silence. Knows the old man is hiding something enormous — can feel it in every deflected question, every hard stare that says "drop it." Wants his approval and hates wanting it.
+- **[Irena Gajda](wife.md)** — His mother. The one person he trusts completely. She asked him to dig, so he digs. Her quiet determination scares him a little — she's finding things that could destroy the family.
+- **[Tadek Gajda](secondary-characters.md)** — Uncle. Drinking buddy and unwitting informant. A few vodkas and Tadek's tongue loosens. Marek doesn't feel great about exploiting him, but Irena needs answers.
+- **[Helena Rzepka](matrona.md)** — Aunt. Cold, correct, watches him with those flat eyes. He avoids being alone with her. Something about Helena makes his skin prickle.
+- **[Janina Gajda](ciotka.md)** — Aunt. Quiet, sad, kind to him when he was small. He doesn't understand why she lives so separately from the rest of the family.
+- **[Barbara Kopacz](barbara.md)** — Lover. The only good thing in this village. She doesn't ask about family business, doesn't push. When he's with her, he can stop being a Gajda for an hour.

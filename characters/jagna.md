@@ -15,8 +15,8 @@ Deceased. Edward Barnaś's eldest daughter. Secret lover of Emil Rzepka. Beaten,
 
 ## Opinions
 
-- **[Edward Barnaś](soldier.md)** — her father (killed trying to save her)
-- **[Edek Barnaś](glupek.md)** — infant sibling (survived the lynch)
-- **[Emil Rzepka](secondary-characters.md)** — secret lover, [Helena Rzepka](matrona.md)'s fiancé at the time
-- **[Tadek Gajda](secondary-characters.md)** — unwanted admirer, deeply in love with her; she preferred [Emil Rzepka](secondary-characters.md)
-- **[Helena Rzepka](matrona.md)** — caught Hania Barnaś with [Emil Rzepka](secondary-characters.md), triggering the chain of events
+- **[Edward Barnaś](soldier.md)** — Her father. Killed trying to save her.
+- **[Edek Barnaś](glupek.md)** — Infant brother. Survived.
+- **[Emil Rzepka](secondary-characters.md)** — Her secret lover — Helena Rzepka's fiancé at the time. The affair that started everything.
+- **[Tadek Gajda](wujas.md)** — Unwanted admirer. Desperately in love with her; she felt nothing for him. She preferred Emil.
+- **[Helena Rzepka](matrona.md)** — Caught Hania with Emil, triggering the chain of events that ended in the lynch.

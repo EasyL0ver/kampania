@@ -14,12 +14,29 @@
 
 Quiet hunter. Heard everything in 1954, did nothing. Carries the guilt of inaction. Openly vindictive toward Rezeń. The easiest NPC to crack.
 
+## Appearance
+
+Lean, weathered, all sinew and silence. A hunter's build — no excess flesh, shoulders slightly forward, moves quietly even indoors. Face like tanned leather, deep creases around pale blue eyes that are always watching from under a flat cap he rarely removes. Strong jaw, thin lips, a three-day stubble that never quite becomes a beard. Hands calloused and steady — woodcutter's hands, rifle hands. A scar across his left knuckles, white and old.
+
+Wears the same outfit every day: wool trousers held up by braces, a flannel shirt (sleeves rolled to the elbow in summer), heavy boots. Smells of tobacco smoke and pine resin. His house smells of gun oil.
+
+Speaks in short, flat sentences. Long pauses between thoughts — not searching for words, deciding whether to share them. Voice is low, gravelly, almost a mutter. When angry his jaw tightens and he goes quieter, not louder. Doesn't make eye contact easily — watches your hands, your posture, not your face. A man who learned to read threat before he reads intent.
+
+## Schedule
+
+| Phase | Location | Notes |
+|---|---|---|
+| **Morning** | Forest or [his house](../locations/neighbours-house.md) | Hunting, checking traps, or chopping wood. |
+| **Afternoon** | [His house](../locations/neighbours-house.md) or [Barbara's fence](../locations/barbaras-house.md) | Repairs, firewood delivery. Talks to Barbara over the fence. |
+| **Evening** | [His house](../locations/neighbours-house.md) | Alone. Rifle cleaning, tobacco, radio. Listens to Barbara's news. |
+| **Night** | [His house](../locations/neighbours-house.md) | Light sleeper. Hears everything next door and beyond. |
+
 ## Opinions
 
-- **[Barbara Kopacz](barbara.md)** — closest relationship. Genuinely fond. Helps with her house, brings firewood, watches [Pawełek Kopacz](secondary-characters.md). She and the boy are the only untainted thing in his life. She's the players' confidant — shares what she hears from the committee over the fence, casual, holding [Pawełek Kopacz](secondary-characters.md). He hears it all.
-- **[Stanisław Rezeń](butcher.md)** — terrified of him. If the village finds out Ryszard Dudka talked, [Stanisław Rezeń](butcher.md) — who wanted to kill an infant to eliminate witnesses — won't hesitate.
-- **[Janina Gajda](ciotka.md)** — lives next door. May have observed her devotion to [Edek Barnaś](glupek.md), her grief. Another thread.
-- **[Edek Barnaś](glupek.md)** — the living reminder. 13 years seeing him next door.
+- **[Barbara Kopacz](barbara.md)** — The only good thing left. She's warm and kind and she trusts me completely. I bring firewood, watch the boy, fix what breaks. She tells me everything she hears — the committee, the village, all of it — and she has no idea what I do with it. She and Pawełek are the only untainted thing in my life.
+- **[Stanisław Rezeń](butcher.md)** — I'm terrified of him. If the village finds out I talked, Rezeń — who wanted to kill an infant to eliminate witnesses — won't hesitate with me. I hate him and I fear him in equal measure.
+- **[Janina Gajda](ciotka.md)** — She lives next door. I've watched her tend that boy for thirteen years. Her devotion, her grief — I see it all from my window. I know what she did that night. I know what it cost her.
+- **[Edek Barnaś](glupek.md)** — The living reminder. Thirteen years seeing him next door, growing up broken. I heard what happened to him and I did nothing.
 
 ## Mechanics
 
@@ -76,12 +93,10 @@ GM tracks score per target. Highest when he snaps = who he goes after.
 - **Cost:** Free
 - **Outcome:** *"Janina? She hasn't been there that long. A family lived there before — soldier, Barnaś. Had a daughter, a wife. They left. Then Janina moved in with the boy."* Flat, factual, no drama.
   - **If players push deeper** — ask how she got the house, why the best plot: he stiffens. *"Wojewoda gave it to her. Ask him."* Door closes.
-- **Result:** → [ciotka-moved-in-after-they-were-gone](../clues/clues.md#ciotka-moved-in-after-they-were-gone), [barnas-had-a-daughter](../clues/clues.md#barnas-had-a-daughter)
+- **Gives:** [ciotka-moved-in-after-they-were-gone](../clues/clues.md#ciotka-moved-in-after-they-were-gone), [barnas-had-a-daughter](../clues/clues.md#barnas-had-a-daughter)
 
 ### Confront about Ciotka's motherhood
 - **Requires:** [ciotka-moved-in-after-they-were-gone](../clues/clues.md#ciotka-moved-in-after-they-were-gone) + [edeks-father-orphaned-him](../clues/clues.md#edeks-father-orphaned-him) (players have both: neighbour says she moved in after, census says she's the mother)
 - **Cost:** Free
-- **Outcome:** He laughs. *"Matka? Janka? Nie, skąd. Wprowadziła się po nich. Chłopak już tam był."* ("Mother? Janka? No, come on. She moved in after them. The boy was already there.") Casual, amused — it's obvious to him.
-- **Result:** → [ciotka-not-mother](../clues/clues.md#ciotka-not-mother)
-
-
+- **Outcome:** He laughs. *"Mother? Janka? No, come on. She moved in after them. The boy was already there."* Casual, amused — it's obvious to him.
+- **Gives:** [ciotka-not-mother](../clues/clues.md#ciotka-not-mother)

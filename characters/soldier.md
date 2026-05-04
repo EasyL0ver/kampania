@@ -15,6 +15,6 @@ Deceased. KBW soldier who participated in the 1947 Lemko massacre, then settled 
 
 ## Opinions
 
-- **Edward Barnaś's partner** (Marta Konieczna, born ~1915) — never married, lived together. Initials: M.K. Killed in the lynch (1954, age ~39). Her name appears only in the [PGR expense journal](../documents/pgr-expenses.md) under her own surname.
-- **[Hania Barnaś](jagna.md)** — eldest daughter, his pride — killed in the lynch (beaten, raped)
-- **[Edek Barnaś](glupek.md)** — infant son, mentally challenged — survived
+- **Marta Konieczna** (partner, born ~1915) — Never married, lived together. Initials: M.K. Killed in the lynch (1954, age ~39). Her name appears only in the [PGR expense journal](../documents/pgr-expenses.md) under her own surname.
+- **[Hania Barnaś](jagna.md)** — Eldest daughter, his pride. Killed in the lynch — beaten, raped.
+- **[Edek Barnaś](glupek.md)** — Infant son, mentally challenged. Survived the lynch.

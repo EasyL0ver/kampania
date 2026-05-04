@@ -6,19 +6,31 @@
 
 - **Born:** ~1920
 - **Age in 1967:** ~47
-- **Heritage:** Polish settler — arrived with Michał Pytlak after 1954. No connection to the lynch.
-- **Family:** Married to [Michał Pytlak](foreman.md) (farm overseer). Mother of [Staszek Pytlak](secondary-characters.md) (age 5).
-- **Lives in:** Pytlak household, near the PGR farm.
-- **Settled:** After 1954 — arrived with Michał Pytlak
+- **Heritage:** Polish settler
+- **Lives in:** Pytlak household, near the PGR farm — with [Michał Pytlak](foreman.md), [Staszek Pytlak](secondary-characters.md) (son, age 5)
+- **Settled:** After 1954 — arrived with Michał Pytlak. No connection to the lynch.
 
 ## Character
 
 PGR cook. The warmest person in the village — feeds everyone, makes people feel welcome. Knows about the silo cover-up. Wants her husband to tell the truth. Her decline is the village's barometer.
 
+## Appearance
+
+Round-faced, sturdy, built for labour and comfort both. Flour-dusted apron over a faded print dress — always looks like she just stepped away from the stove. Broad hands, red from hot water, always in motion: stirring, kneading, wiping a child's face. Laugh lines deep around brown eyes that genuinely smile. Hair pinned up loosely, dark strands escaping. Moves through a kitchen like a dancer — knows where everything is without looking. Voice is warm and carrying, the kind that fills a room without shouting. Calls everyone "child" regardless of age. As the well takes hold, the warmth fades — the smile stays but the eyes go flat, the movements slow, the kitchen goes quiet.
+
+## Schedule
+
+| Phase | Location | Notes |
+|---|---|---|
+| **Morning** | PGR farm kitchen | Cooking for the workers, breakfast and prep for lunch |
+| **Afternoon** | PGR farm kitchen | Serving lunch, cleaning, baking bread |
+| **Evening** | Pytlak household | Family time, feeding Staszek, trying to talk to Michał |
+| **Night** | Pytlak household | Sleeps poorly; lies awake listening to her husband not sleep |
+
 ## Opinions
 
-- **[Michał Pytlak](foreman.md)** — Her husband. She loves him completely. She knows about the silo — he told her that night because he couldn't carry it alone. She's been pushing him to confess for two years. Now she's watching him become something inhuman and she can't reach him. The tragedy: she's the only person who could save him, and the well's gift is designed to keep her away.
-- **[Staszek Pytlak](secondary-characters.md)** — Her son. Her reason. When the well takes her warmth, the last thing to go is her concern for him — she makes sure he's safe with another family before she goes.
-- **[Irena Gajda](wife.md)** — Connected through the household. Irena is calculating where Zofia is open. Thematic mirror: Zofia knows a small secret and wants it told; Irena hunts a huge one for 13 years and buries it the moment she finds it. Wanting truth is easy when you don't know what it costs.
-- **[Barbara Kopacz](barbara.md)** — Works on the farm. Zofia is kind to her without pity. One of the few people who treats Barbara as a person, not a problem.
-- **[Wanda Mazur](widow.md)** — Both are PGR wives. Zofia knows the truth about Wanda's "pension" — that it's phantom wages, not a state benefit. She's kind to Wanda and it costs her every time, knowing what she knows.
+- **[Michał Pytlak](foreman.md)** — She loves him completely. He told her about the silo that night because he couldn't carry it alone, and she's been pushing him to confess for two years. Now she's watching him harden into something she doesn't recognize and she can't reach him. She's the only person who could save him, and she's losing the ability to try.
+- **[Staszek Pytlak](secondary-characters.md)** — Her son. Her reason for everything. If the worst comes, she'll make sure he's safe with another family before she lets go.
+- **[Irena Gajda](wife.md)** — The sołtys's wife. Calculating where Zofia is open. Zofia senses the sharpness behind Irena's polite questions but doesn't guard herself — openness is all she knows.
+- **[Barbara Kopacz](barbara.md)** — Works on the farm. Zofia is kind to her without pity — treats her as a person, asks about her day, saves her the good bread. One of the few who does.
+- **[Wanda Mazur](widow.md)** — Both PGR wives. Zofia knows the truth about Wanda's "pension" — phantom wages from a dead man's ledger entry. Being kind to Wanda costs her every time, carrying that knowledge and smiling through it.

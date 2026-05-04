@@ -14,13 +14,30 @@
 
 Mean, sharp-tongued, no filter. Undiagnosed dementia — lucid one moment, lost the next. Speaks more Lemko than Polish. Living archive of Lemko culture and death rites.
 
+## Appearance
+
+Tiny, birdlike, hunched almost double. Skin like crumpled parchment stretched over sharp cheekbones — Lemko face, all angles. Hands gnarled into claws from decades of fieldwork, knuckles swollen, fingers permanently curled. White hair thin as cobwebs, pinned back with a single black hairpin. Always wears the same faded black housedress, a knitted shawl over her shoulders regardless of season, wool stockings sagging at the ankles. A three-barred cross on a tarnished chain disappears into her collar.
+
+Eyes — pale grey, watery — can look straight through you or suddenly snap into terrifying focus. Rocks constantly in her chair, a metronomic creaking. Smells of woodsmoke and something medicinal — camphor, maybe.
+
+Voice shifts between a papery mutter (Lemko prayers, fragments, names of the dead) and sudden sharp barks of Polish when she's angry. When lucid, her voice drops low and steady — almost a different person. When lost, she sings — high, thin, tuneless hymns that trail off mid-phrase.
+
+## Schedule
+
+| Phase | Location | Notes |
+|---|---|---|
+| **Morning** | [Barbara's house](../locations/barbaras-house.md) — kitchen chair | Rocking, muttering. Barbara already at work. Pawełek nearby. |
+| **Afternoon** | [Barbara's house](../locations/barbaras-house.md) — kitchen or doorstep | Dozes in the sun if warm. Wakes disoriented. |
+| **Evening** | [Barbara's house](../locations/barbaras-house.md) — main room | Sings to Pawełek at her feet. Most lucid phase. |
+| **Night** | [Barbara's house](../locations/barbaras-house.md) — bed | Sleeps poorly. Sometimes found wandering the house at 3 AM, praying. |
+
 ## Opinions
 
-- **[Barbara Kopacz](barbara.md)** — her daughter. Half-Lemko, raised Polish. Babcia doesn't interfere with her life. Too old for judgment.
-- **[Pawełek Kopacz](pawelek.md)** — her light. Tells him Lemko stories, sings old songs at bedtime. Passing on a dead culture to a 4-year-old who doesn't know what he's receiving.
-- **[Paraskewia Chyłak](hag.md)** — never met. Heard the singing. Two Lemko women holding the same prayers from opposite ends of the forest. One of the story's most quietly devastating relationships.
-- **[ks. Władysław Pająk](priest.md)** — cautious distance. He's Roman Catholic, she's Greek Catholic. Could bridge the gap between players and Stefania Kopacz but hasn't.
-- **Village** — invisible. Furniture. Nobody watches her, nobody suspects her, nobody thinks she matters.
+- **[Barbara Kopacz](barbara.md)** — My daughter. Raised herself Polish — lost the language, lost the faith, lost everything that matters. I don't blame her. The world took it. Too old to fight about it now.
+- **[Pawełek Kopacz](pawelek.md)** — My light. He sits at my feet and copies every sound. He doesn't know what he's receiving — prayers for the dead, songs nobody else remembers. I'm pouring a dead world into him before I go.
+- **[Paraskewia Chyłak](hag.md)** — Never met her. But I hear the singing from the forest — the same words, the same melodies. Another Lemko woman holding the prayers from the other end of the trees. She's out there. I know she's out there.
+- **[ks. Władysław Pająk](priest.md)** — Roman Catholic. Not my priest, not my church. He means well but he doesn't know the old rites. We keep a polite distance.
+- **Village** — I am furniture here. Nobody watches me, nobody suspects me, nobody thinks I matter. Good. Let them ignore the old woman in the corner.
 
 ## Actions
 
