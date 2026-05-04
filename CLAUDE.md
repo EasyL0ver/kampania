@@ -19,9 +19,11 @@ Read all files in these folders to understand current state:
 
 3. **Search in Polish** — When searching for sources and historical information, always search in Polish for better accuracy and depth of local sources.
 
-4. **Fact-check player input** — When the user provides historical details, verify them. Flag inaccuracies — small liberties are fine, but always make the user aware of what's real and what's bent.
+4. **Playable for non-Polish speakers** — All player-facing content (dialogue, scene descriptions, NPC reactions, clue text) is written in English. **No Polish dialogue, not even glossed.** The only Polish allowed is proper nouns: character names, place names, titles (sołtys, ks., por.), and the occasional atmospheric noun where no English equivalent exists (bimber, cerkiew, panakhyda). Everything a GM reads aloud must be English.
 
-5. **Structured storage:**
+5. **Fact-check player input** — When the user provides historical details, verify them. Flag inaccuracies — small liberties are fine, but always make the user aware of what's real and what's bent.
+
+6. **Structured storage:**
    - `characters/` — one `.md` per character
    - `locations/` — one `.md` per location
    - `events/` — playable event scenes
@@ -30,62 +32,29 @@ Read all files in these folders to understand current state:
    - `historical context/` — research and reference
    - `inspirations/` — films, books, music, references
 
-6. **Character file template** — All character files follow this strict structure. No other sections allowed.
+7. **File templates** — New characters, events, and locations follow the templates. No other sections allowed.
+    - Characters → [`characters/_template.md`](characters/_template.md)
+    - Events → [`events/_template.md`](events/_template.md)
+    - Locations → [`locations/_template.md`](locations/_template.md)
 
-    ```markdown
-    # Character Name
+8. **Placeholder naming** — Use `%PLACEHOLDER%` syntax until a character or place has a final name. **Never swap placeholders for real names unless explicitly told to.**
 
-    **Type:** Named character — [role/archetype]
+9. **Inspirations → `inspirations/`** — When a new inspiration is discussed, store it there.
 
-    ## Vital Statistics
+10. **Links** — Character files link to locations, clues, and other characters using relative markdown paths. Clues file is the single source of truth for player-discoverable knowledge. Scenes link to clues they can reveal.
 
-    - **Born:** [year]
-    - **Age in 1967:** [age]
-    - **Heritage:** [if relevant]
-    - **Lives in:** [link to location] — with [housemates]
-    - **Settled:** [when and how they arrived]
+11. **Clues are pure facts** — The `clues/clues.md` file contains only atomic facts the players can discover. **Do not add sources, GM notes, or discovery instructions to clue entries.** Sources and discovery paths belong in scene files (`locations/`, `events/`).
 
-    ## Character
-
-    [1-3 sentence tagline. Who they are, what drives them, what makes them dangerous or useful. No backstory dump.]
-
-    ## Relationships
-
-    - **[Name](link.md)** — [relationship description]
-
-    ## Mechanics
-
-    [Only if the character has a unique game mechanic, e.g. Pawełek's HP system. Omit entirely if not applicable.]
-
-    ## Actions
-
-    ### Action Name
-    - **Requires:** [prerequisite]
-    - **Cost:** [action cost]
-    - **Outcome:** [what happens, with skill branches]
-    - **Gives:** [clue link or "Nothing"]
-
-    ## Opinions
-
-    - **`clue-id`:** [1-2 sentence NPC reaction, often with Polish dialogue]
-    ```
-
-7. **Placeholder naming** — Use `%PLACEHOLDER%` syntax until a character or place has a final name. **Never swap placeholders for real names unless explicitly told to.**
-
-8. **Inspirations → `inspirations/`** — When a new inspiration is discussed, store it there.
-
-9. **Links** — Character files link to locations, clues, and other characters using relative markdown paths. Clues file is the single source of truth for player-discoverable knowledge. Scenes link to clues they can reveal.
-
-10. **Clues are pure facts** — The `clues/clues.md` file contains only atomic facts the players can discover. **Do not add sources, GM notes, or discovery instructions to clue entries.** Sources and discovery paths belong in scene files (`locations/`, `events/`).
-
-11. **Actions belong where they're performed:**
+12. **Actions belong where they're performed:**
     - **Location-bound actions** (search a room, dig in a yard) → `locations/` files
     - **Character-bound actions** (leverage someone, earn trust, confront) → `## Actions` section in the character's `.md` file, using the same format as location actions (cost, requires, what happens, result)
     - If an action is triggered at a location but is really about a character interaction, it belongs in the character file. The location file can cross-reference it.
 
-12. **Clues are binary** — An action either **gives** a clue or it doesn't. Actions do not "lead to" or "seed" clues. If a player performs an action and learns a fact, that fact must exist as a clue in `clues/clues.md` and the action's outcome gives it directly. No partial reveals, no "seeds for later."
+13. **Clues are binary** — An action either **gives** a clue or it doesn't. Actions do not "lead to" or "seed" clues. If a player performs an action and learns a fact, that fact must exist as a clue in `clues/clues.md` and the action's outcome gives it directly. No partial reveals, no "seeds for later."
 
-13. **Scene file structure:**
+14. **Actions must have a concrete effect** — Every documented action must produce one of the outcomes listed in the next rule: give a clue, change NPC state, give an item, unlock a scene, change world state, or advance an ending. **"Nothing happens" is not a valid outcome.** If a player would learn nothing and the world wouldn't shift, it doesn't belong as a listed action — that's atmosphere or free-form roleplay, not investigation. Every action must be runnable: GM reads `Outcome` → game state changes.
+
+15. **Scene file structure:**
     - **Events** (`events/`) — One-shot moments. Triggered by game state, time, or player action. Events happen **at** a location — all of the location's persistent actions and opportunities are implicitly available. Event files only contain what's unique to that moment. Numbered (`01-`, `02-`) for play sequence (when the event *can* trigger, not a forced order).
     - **Locations** (`locations/`) — Revisitable places. Persistent actions and NPCs. Named descriptively, no numbers.
     - **Both types follow this format:**
@@ -95,7 +64,7 @@ Read all files in these folders to understand current state:
       - `## Actions` — What costs time. Each action has: Requires, Cost, Outcome (with skill-specific branches), clues given.
       - `## Exits` (events only) — Where players go after. Locations don't have exits.
 
-14. **Scene outcomes:**
+15. **Scene outcomes:**
     - **Clue** — Players learn an atomic fact (must exist in `clues/clues.md`)
     - **NPC State Change** — An NPC's attitude or willingness shifts
     - **Item / Evidence** — Players obtain something tangible

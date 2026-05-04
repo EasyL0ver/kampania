@@ -90,7 +90,7 @@ The wolf hunt isn't a standalone event — it's the mechanism that triggers casc
 
 **NPC State: Rezeń's containment is broken.** He's in the village. He was called, authorized, needed. He doesn't go back to the edge house. See [Butcher - Well Influence](../characters/butcher.md). This is the concrete trigger for the escalation described in [Wojewoda Confronts Butcher](event-wojewoda-confronts-butcher.md).
 
-**NPC State: Dudka's rage escalates.** The failure + authorization + Rezeń among people = gasoline for the [mob violence ending](../story/ending-punishment-lynch.md). Dudka is no longer just a guilty bystander — he's a humiliated, armed man watching a suspected killer walk free because he wasn't enough.
+**NPC State: Dudka's rage escalates.** The failure + authorization + Rezeń among people = gasoline for the [mob violence ending](ending-punishment-lynch.md). Dudka is no longer just a guilty bystander — he's a humiliated, armed man watching a suspected killer walk free because he wasn't enough.
 
 **NPC State: Tadek's visits end.** The go-between role is dead. Rezeń doesn't need cigarette runs anymore. Tadek sees the arrangement shattered. This accelerates his spiral alongside the [well's influence](../characters/wujas.md).
 

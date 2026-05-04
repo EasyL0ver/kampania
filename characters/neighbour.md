@@ -25,7 +25,7 @@ Quiet hunter. Heard everything in 1954, did nothing. Carries the guilt of inacti
 
 ### Vigilante Targeting
 
-GM tracks which clues leak to Ryszard (mainly through [Barbara](barbara.md) over the fence — **whatever she learns, he learns**). Whoever the clues point at most becomes his target for the [lynch ending](../story/ending-punishment-lynch.md) — Rezeń by default, but the siblings, wrong people, or even the players if that's where the evidence lands.
+GM tracks which clues leak to Ryszard (mainly through [Barbara](barbara.md) over the fence — **whatever she learns, he learns**). Whoever the clues point at most becomes his target for the [lynch ending](../events/ending-punishment-lynch.md) — Rezeń by default, but the siblings, wrong people, or even the players if that's where the evidence lands.
 
 ### Lynch Targets
 

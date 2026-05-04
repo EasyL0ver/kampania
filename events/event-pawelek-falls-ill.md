@@ -137,7 +137,7 @@ Free — no action cost. Available to any player present.
 - **Consequences:**
   - **Helena discovers the break-in within hours.** Knows immediately who did it.
   - **Helena closes the store.** *"Until the thief is found."* Village supply line cut — food, tobacco, bimber. Drinking crew displaced. Information channels dry up. Village blames the outsiders.
-  - **[Ryszard Dudka](../characters/neighbour.md) panics.** Break-in signals the village is losing control. His guilt and paranoia spike — pushes him closer to triggering [the second lynch](../story/ending-punishment-lynch.md).
+  - **[Ryszard Dudka](../characters/neighbour.md) panics.** Break-in signals the village is losing control. His guilt and paranoia spike — pushes him closer to triggering [the second lynch](ending-punishment-lynch.md).
   - **Helena goes to Zbigniew.** Not about theft — about *Marek*. Zbigniew learns his son fathered a child with Barbara AND robbed his sister's store. The theft becomes leverage Helena holds over Marek permanently.
   - **Marek has declared war on the family.** He heard Helena's offer and chose the boy. Gajda family cracks — Marek vs. the siblings. Accelerates his trajectory toward [Irena's investigation](../story-facts/wife-junior-investigation.md).
   - **The village sees.** Broken store door is visible. People connect the biker, the pharmacy, Barbara's son. Barbara's secret is out — not because she told, but because Marek's actions screamed it.

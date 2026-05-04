@@ -90,7 +90,7 @@ The wolves are the **concrete trigger** for [Rezeń's containment](../characters
 The visits stop — not (only) because Tadek is too drunk, but because there's nothing left to maintain. The go-between role was hijacked for a real request, and the pretense is gone. See [Tadek Visits the Butcher](../events/event-wujas-visits-butcher.md).
 
 ### Dudka's escalation fuel
-Dudka's anger about the authorization feeds directly into the [mob violence ending](../story/ending-punishment-lynch.md). He's been building rage since 1954. The wolf failure adds a new layer: not just guilt of inaction, but the humiliation of inadequacy. He tried to protect the village, failed, and the village turned to the man he believes is a murderer. A hunter with a rifle, watching a killer walk freely among villagers because *he wasn't enough* — that's a powder keg.
+Dudka's anger about the authorization feeds directly into the [mob violence ending](../events/ending-punishment-lynch.md). He's been building rage since 1954. The wolf failure adds a new layer: not just guilt of inaction, but the humiliation of inadequacy. He tried to protect the village, failed, and the village turned to the man he believes is a murderer. A hunter with a rifle, watching a killer walk freely among villagers because *he wasn't enough* — that's a powder keg.
 
 ### Tadek's break
 Tadek sees Rezeń at the PGR and something specific cracks. The man he's been managing from the edge house — carrying cigarettes to, keeping contained — is now among people, handling dogs, talking to workers. The arrangement Tadek maintained for 13 years is visibly dead. This accelerates his drinking spiral alongside the well's influence.

@@ -26,7 +26,7 @@ Alcoholic wreck. One of four siblings. Participated in the lynch — rape and be
 - **What happens:** *"We know about your still. Now tell us what else you know."* Tadek owes the players, he's scared they'll talk, and the well is eroding his ability to keep quiet.
   - **First visit:** Relief. *"That's all? Fine, fine — just don't tell Zbyszek I've been talking to you."* Gives village gossip, complaints, minor dirt. Nothing real.
   - **Second visit (well influence active):** The cracks show. The bottle isn't working anymore. He's lucid in a way that terrifies him. Half-sentences slip: *"She didn't deserve it."* A name muttered — Hania. He catches himself. Changes subject. Won't say more.
-  - **Third visit:** He's barely holding together. → See [event-wujas-cracks](../story/event-wujas-cracks.md)
+  - **Third visit:** He's barely holding together. → See [event-wujas-cracks](../events/event-wujas-cracks.md)
 - **Result:** → [wujas-is-the-weak-link](../clues/clues.md#wujas-is-the-weak-link)
 
 ## Opinions
