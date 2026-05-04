@@ -1,4 +1,4 @@
-# Edek Barnaś
+﻿# Edek Barnaś
 
 **Type:** Named character — child of [Edward Barnaś](soldier.md)
 
@@ -6,7 +6,7 @@
 
 - **Born:** 1950
 - **Age in 1967:** 17
-- **Lives in:** [Janina Gajda's house](../scenes/locations/ciotkas-house.md) — with [Janina Gajda](ciotka.md)
+- **Lives in:** [Janina Gajda's house](../locations/ciotkas-house.md) — with [Janina Gajda](ciotka.md)
 - **Settled:** Born 1950 in village
 
 ## Character
@@ -16,7 +16,7 @@ Physically massive, brain-damaged — caused by strangling during the lynch, not
 ## Relationships
 
 - **[Janina Gajda](ciotka.md)** — the only mother he knows. She feeds him, shelters him, protects him. He doesn't understand why she cries sometimes. Doesn't know she saved his life.
-- **[ks. Władysław Pająk](priest.md)** — the [church](../scenes/locations/the-church.md) is his refuge. [ks. Władysław Pająk](priest.md) treats him with patience, gives him small tasks, lets him sit in the quiet. Doesn't understand faith, but understands safety.
+- **[ks. Władysław Pająk](priest.md)** — the [church](../locations/the-church.md) is his refuge. [ks. Władysław Pająk](priest.md) treats him with patience, gives him small tasks, lets him sit in the quiet. Doesn't understand faith, but understands safety.
 - **[Stanisław Rezeń](butcher.md)** — instinctive fear. No conscious memory — just a body that knows. When [Stanisław Rezeń](butcher.md)'s dogs bark, he hides. When [Stanisław Rezeń](butcher.md) passes on the road, he goes still. The village notices. Nobody explains it.
 
 ## Actions

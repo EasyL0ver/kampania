@@ -1,14 +1,14 @@
-# Ciotka Found Dead
+﻿# Ciotka Found Dead
 
 **Type:** Event (one-shot, discovery)
 **Location:** [Ciotka's house](../locations/ciotkas-house.md)
-**Present:** [Janina Gajda](../../characters/ciotka.md) (dead). [Edek Barnaś](../../characters/glupek.md) is gone.
-**Available:** Day 3 or later — whenever players visit [Ciotka's house](../locations/ciotkas-house.md). Fallback trigger: [ks. Władysław Pająk](../../characters/priest.md) notices her absence at the anti-flood mass (Day 4 morning) and sends someone to check.
+**Present:** [Janina Gajda](../characters/ciotka.md) (dead). [Edek Barnaś](../characters/glupek.md) is gone.
+**Available:** Day 3 or later — whenever players visit [Ciotka's house](../locations/ciotkas-house.md). Fallback trigger: [ks. Władysław Pająk](../characters/priest.md) notices her absence at the anti-flood mass (Day 4 morning) and sends someone to check.
 **Cost:** None (discovery, not action)
 
 ## What Happened (GM Only)
 
-Night of Day 2. After the wolf hunt. The well has been working on [Edek](../../characters/glupek.md) for weeks — fragments, feelings, a growing distrust of the woman who raised him. He doesn't understand why. He doesn't need to. He grabs her the way [Stanisław Rezeń](../../characters/butcher.md) once grabbed him — by the throat. Strangles her. The same method that damaged him as a child. The cycle completes.
+Night of Day 2. After the wolf hunt. The well has been working on [Edek](../characters/glupek.md) for weeks — fragments, feelings, a growing distrust of the woman who raised him. He doesn't understand why. He doesn't need to. He grabs her the way [Stanisław Rezeń](../characters/butcher.md) once grabbed him — by the throat. Strangles her. The same method that damaged him as a child. The cycle completes.
 
 Then he runs. Not to the church, not to anyone — into the forest, to the [UPA bunker](../locations/upa-bunker.md). He knows the woods better than anyone. The bunker is the one place nobody will look.
 
@@ -35,9 +35,9 @@ No sign of forced entry. No sign of a struggle beyond the body. No weapon. Just 
 - **Edek's absence** — his corner, his mattress, his wooden toy. All there. He's not. Where is he? Did he do this? Did he see it and run? Was he taken? Is he alive?
 - **The house** — undisturbed. No ransacking, no broken furniture, no sign of a fight. Whoever did this, she didn't resist. Or couldn't.
 - **The candles** — burned down to nothing. She lights them every evening for prayer. They've been out for hours. **This happened last night — or the night before.** If players come Day 3: one night ago. If Day 4: two nights. The longer it takes to find her, the colder the trail.
-- **No sign of forced entry** — the windows are latched from inside, the back door bolted. Whoever came in used the front door. She let them in — or they had access. → Seeds [ciotka-strangled](../../clues/clues.md#ciotka-strangled)
+- **No sign of forced entry** — the windows are latched from inside, the back door bolted. Whoever came in used the front door. She let them in — or they had access. → Seeds [ciotka-strangled](../clues/clues.md#ciotka-strangled)
 - **A rosary** — on the floor near her right hand. Fallen during the struggle, or she was holding it when it started.
-- **A smell** — faint, under the soap and cold food. Something herbal, earthy. Not from this house. **Observation:** dried herbs, woodsmoke, forest mud. Someone who lives outdoors was in this room. Players who've been to the [hag's cabin](../locations/hags-cabin.md) or encountered [Paraskewia](../../characters/hag.md) will recognise the scent immediately. Players who haven't will just note it as wrong — something that doesn't belong in this obsessively clean Catholic home.
+- **A smell** — faint, under the soap and cold food. Something herbal, earthy. Not from this house. **Observation:** dried herbs, woodsmoke, forest mud. Someone who lives outdoors was in this room. Players who've been to the [hag's cabin](../locations/hags-cabin.md) or encountered [Paraskewia](../characters/hag.md) will recognise the scent immediately. Players who haven't will just note it as wrong — something that doesn't belong in this obsessively clean Catholic home.
 
 ## Actions
 
@@ -48,7 +48,7 @@ No sign of forced entry. No sign of a struggle beyond the body. No weapon. Just 
   - **Medicine:** Strangulation by hand. Sustained pressure, not a sudden snap. Dead 12-36 hours depending on when found. No defensive wounds — she grabbed at the hands but didn't scratch, didn't claw. Either too weak or held back.
   - **Milicjant:** Crime scene. Strangulation, no weapon, no robbery, no forced entry. The victim knew her killer. The door was opened willingly or left open for someone who belonged here.
   - **Observation:** Her apron is still tied. She was in the kitchen when it happened — cooking, working. Not in bed. She was up, active, and someone came to her.
-- **Gives:** → [ciotka-strangled](../../clues/clues.md#ciotka-strangled)
+- **Gives:** → [ciotka-strangled](../clues/clues.md#ciotka-strangled)
 
 ### Search the house
 - **Cost:** 1 action
@@ -66,10 +66,10 @@ No sign of forced entry. No sign of a struggle beyond the body. No weapon. Just 
 ### Tell someone
 - **Cost:** Free (but consequences)
 - **Outcome depends on who they tell:**
-  - **[Zbigniew Gajda](../../characters/wojewoda.md):** His face goes blank. Not shock — calculation. His sister is dead. He asks two questions: *"Where is the boy?"* and *"Has anyone else seen this?"* He doesn't say who he thinks did it. He wants this contained. *"Don't tell anyone else yet. I'll handle this."*
-  - **[ks. Władysław Pająk](../../characters/priest.md):** Grief. Real, immediate, physical. He sits down. Crosses himself. Then asks: *"Where is the boy?"* — not accusation. Fear. For Edek. His first instinct is that Edek is in danger, not that Edek is dangerous.
-  - **[Stanisław Rezeń](../../characters/butcher.md):** Players probably won't — but if they do. He listens. Tilts his head. *"Janina?"* Says her name like he's tasting it. Then: *"And the boy?"* When they say Edek is gone, he nods slowly. Doesn't volunteer anything. Doesn't look troubled. Doesn't offer to help. That smile. Players can't tell if he's hearing news or reviewing his own work.
-  - **[Ryszard Dudka](../../characters/neighbour.md):** Horrified. A woman murdered in the village — his neighbour. Reaches for his rifle (if he still has it). Doesn't ask who did it — assumes Rezeń. *"That bastard finally did it."* Has to be talked down.
+  - **[Zbigniew Gajda](../characters/wojewoda.md):** His face goes blank. Not shock — calculation. His sister is dead. He asks two questions: *"Where is the boy?"* and *"Has anyone else seen this?"* He doesn't say who he thinks did it. He wants this contained. *"Don't tell anyone else yet. I'll handle this."*
+  - **[ks. Władysław Pająk](../characters/priest.md):** Grief. Real, immediate, physical. He sits down. Crosses himself. Then asks: *"Where is the boy?"* — not accusation. Fear. For Edek. His first instinct is that Edek is in danger, not that Edek is dangerous.
+  - **[Stanisław Rezeń](../characters/butcher.md):** Players probably won't — but if they do. He listens. Tilts his head. *"Janina?"* Says her name like he's tasting it. Then: *"And the boy?"* When they say Edek is gone, he nods slowly. Doesn't volunteer anything. Doesn't look troubled. Doesn't offer to help. That smile. Players can't tell if he's hearing news or reviewing his own work.
+  - **[Ryszard Dudka](../characters/neighbour.md):** Horrified. A woman murdered in the village — his neighbour. Reaches for his rifle (if he still has it). Doesn't ask who did it — assumes Rezeń. *"That bastard finally did it."* Has to be talked down.
   - **Nobody:** The players sit with it. The body stays. The village doesn't know. Every hour they wait, the trail gets colder — but so does the panic. Their choice.
 
 ## For the GM
@@ -89,6 +89,6 @@ Players who've encountered the hag have yet another layer: she's been watching t
 
 **The truth (Edek did it) should emerge slowly**, through investigation, cross-referencing, and eventually finding Edek. Not through this scene alone.
 
-**Edek is not findable easily.** The UPA bunker is nearly invisible — camouflaged, deep in the forest, unknown to most villagers. Players need prior knowledge of the bunker (from [village outskirts](../locations/village-outskirts.md) exploration or [Pytlak's](../../characters/foreman.md) hints) to have any chance of finding him there.
+**Edek is not findable easily.** The UPA bunker is nearly invisible — camouflaged, deep in the forest, unknown to most villagers. Players need prior knowledge of the bunker (from [village outskirts](../locations/village-outskirts.md) exploration or [Pytlak's](../characters/foreman.md) hints) to have any chance of finding him there.
 
 **Who the players tell determines the next 48 hours.** Tell Zbigniew → containment. Tell the priest → he goes looking alone, to protect. Tell Rezeń → his reaction is unreadable. Tell Dudka → armed mob hunting Rezeń. Tell nobody → the clock ticks until the mass (Day 4 morning) when the priest notices she's missing.

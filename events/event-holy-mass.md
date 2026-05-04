@@ -1,8 +1,8 @@
-# Holy Mass — Anti-Flood Prayer
+﻿# Holy Mass — Anti-Flood Prayer
 
 **Type:** Event (triggered)
 **Location:** [The church](../locations/the-church.md)
-**Present:** [ks. Władysław Pająk](../../characters/priest.md), most of the village. [Helena Rzepka](../../characters/matrona.md) in the front pew. [Zbigniew Gajda](../../characters/wojewoda.md) near the back. [Ryszard Dudka](../../characters/neighbour.md). Village women. [Krystian Rzepka](../../characters/secondary-characters.md) as altar boy.
+**Present:** [ks. Władysław Pająk](../characters/priest.md), most of the village. [Helena Rzepka](../characters/matrona.md) in the front pew. [Zbigniew Gajda](../characters/wojewoda.md) near the back. [Ryszard Dudka](../characters/neighbour.md). Village women. [Krystian Rzepka](../characters/secondary-characters.md) as altar boy.
 **Available:** Day 4 morning. ks. Pająk calls the mass after the flood — prayer for safety, for homes, for deliverance.
 **Cost:** Being there (free)
 
@@ -21,10 +21,10 @@ The mass is real — ks. Pająk means it. Prayers for the village, for the water
 
 **Who's NOT here:**
 - **Janina Gajda is missing.** Her pew is empty. She never misses mass. Never. Not once in 13 years.
-- [Tadek Gajda](../../characters/wujas.md) — nobody expects him. He stopped coming years ago.
-- [Edek Barnaś](../../characters/glupek.md) — sometimes comes with Ciotka, sits in the back. Not today.
-- [Stanisław Rezeń](../../characters/butcher.md) — never comes.
-- [Paraskewia Chyłak](../../characters/hag.md) — obviously not.
+- [Tadek Gajda](../characters/wujas.md) — nobody expects him. He stopped coming years ago.
+- [Edek Barnaś](../characters/glupek.md) — sometimes comes with Ciotka, sits in the back. Not today.
+- [Stanisław Rezeń](../characters/butcher.md) — never comes.
+- [Paraskewia Chyłak](../characters/hag.md) — obviously not.
 
 **Composure: 0** — unless the player has faith, then it restores 1.
 
@@ -70,7 +70,7 @@ Free — no action cost. Available to any player present.
 - **Requires:** Nothing
 - **Cost:** Free (brief), 1 action (deeper)
 - **Outcome:** ks. Pająk is more open during/after mass than at the plebania. The sacred space softens him. He's still guarded, but the flood has shaken everyone — including him. Players who show faith or respect get further here than a cold plebania visit.
-  - See [priest character file](../../characters/priest.md) for full interaction tree.
+  - See [priest character file](../characters/priest.md) for full interaction tree.
 
 ## For the GM
 

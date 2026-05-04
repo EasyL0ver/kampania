@@ -1,4 +1,4 @@
-# Irena Gajda
+﻿# Irena Gajda
 
 **Type:** Named character — [Zbigniew Gajda](wojewoda.md)'s wife, [Marek Gajda](junior.md)'s mother
 
@@ -6,7 +6,7 @@
 
 - **Born:** 1924
 - **Age in 1967:** 43
-- **Lives in:** [Zbigniew Gajda's house](../scenes/locations/wojewodas-house.md) — with [Zbigniew Gajda](wojewoda.md), [Marek Gajda](junior.md)
+- **Lives in:** [Zbigniew Gajda's house](../locations/wojewodas-house.md) — with [Zbigniew Gajda](wojewoda.md), [Marek Gajda](junior.md)
 - **Settled:** ~1948 — first wave, with Zbigniew
 
 ## Character

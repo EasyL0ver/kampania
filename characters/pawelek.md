@@ -1,4 +1,4 @@
-# Pawełek Kopacz
+﻿# Pawełek Kopacz
 
 **Type:** Named character — child
 
@@ -6,7 +6,7 @@
 
 - **Born:** 1963
 - **Age in 1967:** 4
-- **Lives in:** [Barbara Kopacz's house](../scenes/locations/barbaras-house.md) — with [Barbara Kopacz](barbara.md) (mother), [Stefania Kopacz](babcia.md) (grandmother)
+- **Lives in:** [Barbara Kopacz's house](../locations/barbaras-house.md) — with [Barbara Kopacz](barbara.md) (mother), [Stefania Kopacz](babcia.md) (grandmother)
 - **Settled:** Born 1963 in village
 
 ## Character
@@ -26,7 +26,7 @@
 
 ### Health Points
 
-**Ticking clock mechanic.** Tracks Pawełek's condition after he falls ill ([event](../scenes/events/event-pawelek-falls-ill.md)).
+**Ticking clock mechanic.** Tracks Pawełek's condition after he falls ill ([event](../events/event-pawelek-falls-ill.md)).
 
 **Starts at 6 HP.** Triggers Day 3 evening. **Loses 1 HP per phase.**
 
@@ -61,9 +61,9 @@ Pawełek is 4. He's not interrogated — he's observed and talked to. Where you 
 
 ### Schedule
 
-- **Morning** — [Barbara's house](../scenes/locations/barbaras-house.md) yard. Playing near the house — sticks, mud, stone circles. [Barbara](barbara.md) is at [PGR farm](../scenes/locations/pgr-farm.md). [Babcia](babcia.md) inside, not watching. He's further from the house than a 4-year-old should be.
-- **Afternoon** — [Barbara's house](../scenes/locations/barbaras-house.md) yard or nearby. [Barbara](barbara.md) is back from work. Full household.
-- **Evening** — [Barbara's house](../scenes/locations/barbaras-house.md) inside. Sitting at [Babcia's](babcia.md) feet, copying her sounds. [Barbara](barbara.md) home. The domestic scene — Babcia mutters and sings, Pawełek mimics every sound like a game.
+- **Morning** — [Barbara's house](../locations/barbaras-house.md) yard. Playing near the house — sticks, mud, stone circles. [Barbara](barbara.md) is at [PGR farm](../locations/pgr-farm.md). [Babcia](babcia.md) inside, not watching. He's further from the house than a 4-year-old should be.
+- **Afternoon** — [Barbara's house](../locations/barbaras-house.md) yard or nearby. [Barbara](barbara.md) is back from work. Full household.
+- **Evening** — [Barbara's house](../locations/barbaras-house.md) inside. Sitting at [Babcia's](babcia.md) feet, copying her sounds. [Barbara](barbara.md) home. The domestic scene — Babcia mutters and sings, Pawełek mimics every sound like a game.
 
 **GM note:** The morning gap matters. A 4-year-old alone in the village — nobody watching him closely enough. This is how he reaches the well later. Players who notice the pattern early might connect it when he falls ill.
 
@@ -106,14 +106,14 @@ Pawełek is 4. He's not interrogated — he's observed and talked to. Where you 
 
 ### When sick (HP 1-6)
 
-These actions require [Pawełek falls ill](../scenes/events/event-pawelek-falls-ill.md) to have triggered.
+These actions require [Pawełek falls ill](../events/event-pawelek-falls-ill.md) to have triggered.
 
 ### Stabilize Pawełek
 - **Requires:** **Medicine**, Pawełek is sick
 - **Cost:** 2 actions (must be re-applied each day)
 - **Outcome:** Clean water, salt, boiled cloths. Cool compresses, controlled hydration, monitoring. Symptoms managed — **HP drain stops for the rest of the day.** Resets next morning.
   - **Medicine (diagnosis):** Won't resolve on its own in a child this size. Needs antibacterial medication — you're buying time, not winning. You need a doctor to name the drug. → **Gives:** [paweleks-diagnosis](../clues/clues.md#paweleks-diagnosis)
-  - **Medicine (contamination):** The bacterial load is wrong. Floodwater dysentery is opportunistic — low-grade, multiple pathogens. This is concentrated, single-source. Decomposing organic matter in a confined water source over years. High phosphate, high ammonia, anaerobic bacteria from deep decay. Points to a sealed space — cistern, cellar, well — filled with something large and organic. Not one body. Many. → Reinforces [old-village-exists](../clues/clues.md#old-village-exists), points toward [the well](../scenes/locations/the-well.md). **Gives:** [paweleks-contamination](../clues/clues.md#paweleks-contamination)
+  - **Medicine (contamination):** The bacterial load is wrong. Floodwater dysentery is opportunistic — low-grade, multiple pathogens. This is concentrated, single-source. Decomposing organic matter in a confined water source over years. High phosphate, high ammonia, anaerobic bacteria from deep decay. Points to a sealed space — cistern, cellar, well — filled with something large and organic. Not one body. Many. → Reinforces [old-village-exists](../clues/clues.md#old-village-exists), points toward [the well](../locations/the-well.md). **Gives:** [paweleks-contamination](../clues/clues.md#paweleks-contamination)
 - **NPC State Change:** Barbara trusts the committee. Real trust — she cooperates fully.
 
 ### Ask about drinking water
@@ -125,5 +125,5 @@ These actions require [Pawełek falls ill](../scenes/events/event-pawelek-falls-
   - **Without rapport or check:** Shakes his head. Won't say more.
   - **Geology:** Contamination follows the water table downhill from the old village. Mapping the flow reveals the source.
   - **Observation:** His shoes (by the door) — dark, silty mud with stone dust fragments. Forest path mud with worked stone. He was at a ruin.
-- **Gives:** [well-water-contaminated](../clues/clues.md#well-water-contaminated). Direction toward [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) and [the well](../scenes/locations/the-well.md). Reinforces [old-village-exists](../clues/clues.md#old-village-exists).
+- **Gives:** [well-water-contaminated](../clues/clues.md#well-water-contaminated). Direction toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) and [the well](../locations/the-well.md). Reinforces [old-village-exists](../clues/clues.md#old-village-exists).
 

@@ -1,4 +1,4 @@
-# Performing the Ritual — Recovering or Continuing What Was Lost
+﻿# Performing the Ritual — Recovering or Continuing What Was Lost
 
 **Type:** Story fact / player mechanic / endgame path
 
@@ -6,7 +6,7 @@
 
 The well's influence is growing. Paraskewia Chyłak's rites — her 20 years of prayers, offerings, and acknowledgement — are the only thing containing it. But the containment is weakening as the water rises.
 
-**If Paraskewia Chyłak is killed** (see [The Well Confrontation](../scenes/events/event-well-confrontation.md) — this is optional, not guaranteed), the containment breaks completely. The players must reconstruct the ritual from fragments.
+**If Paraskewia Chyłak is killed** (see [The Well Confrontation](../events/event-well-confrontation.md) — this is optional, not guaranteed), the containment breaks completely. The players must reconstruct the ritual from fragments.
 
 **If Paraskewia Chyłak survives**, she can teach the players directly — but she's 77, exhausted, and her rites are failing against the rising water. She needs help. The players performing the ritual alongside her — or taking it over — may be the only way to hold the well in check through the final days.
 

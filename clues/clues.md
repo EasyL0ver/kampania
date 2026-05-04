@@ -1,4 +1,4 @@
-# Clues
+﻿# Clues
 
 Player-discoverable knowledge. Each clue is an atomic fact. Character files link here when an NPC can reveal it.
 
@@ -13,10 +13,10 @@ Player-discoverable knowledge. Each clue is an atomic fact. Character files link
 The three-barred cross is a Greek Catholic symbol — Lemko, not Roman Catholic. Seeing one on a headstone, icon, or object means the owner was Lemko.
 
 ### hag-exists
-Someone lives in the [forest](../scenes/locations/hags-cabin.md). Villagers call her a witch, a ghost, a story to scare children. She's real.
+Someone lives in the [forest](../locations/hags-cabin.md). Villagers call her a witch, a ghost, a story to scare children. She's real.
 
 ### hag-is-lemko
-[Paraskewia Chyłak](../characters/hag.md) is a Lemko woman living alone in the [forest](../scenes/locations/hags-cabin.md). She is ~40, not old — the forest aged her.
+[Paraskewia Chyłak](../characters/hag.md) is a Lemko woman living alone in the [forest](../locations/hags-cabin.md). She is ~40, not old — the forest aged her.
 
 ### officer-is-sb
 [por. Witold Skowron](../characters/officer.md) is an SB (secret police) agent, not just a bureaucrat.
@@ -26,21 +26,21 @@ Someone lives in the [forest](../scenes/locations/hags-cabin.md). Villagers call
 ## The Old Village
 
 ### old-village-exists
-There's an old, abandoned village in the forest — [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). Ruins, overgrown paths, stone foundations. People used to live there. Nobody does now.
+There's an old, abandoned village in the forest — [%OLD_VILLAGE%](../locations/old-village-ruins.md). Ruins, overgrown paths, stone foundations. People used to live there. Nobody does now.
 
 ## The 1947 Massacre
 
 ### old-village-was-lemko
-[%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) was a Lemko settlement — Greek Catholic, with a cerkiew, orchards, and a tightly-knit community.
+[%OLD_VILLAGE%](../locations/old-village-ruins.md) was a Lemko settlement — Greek Catholic, with a cerkiew, orchards, and a tightly-knit community.
 
 ### massacre-happened
-In 1947, soldiers came to deport the Lemkos from [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). The villagers resisted. A UPA insurgent shot the commanding officer. The enraged soldiers massacred the entire village in retribution.
+In 1947, soldiers came to deport the Lemkos from [%OLD_VILLAGE%](../locations/old-village-ruins.md). The villagers resisted. A UPA insurgent shot the commanding officer. The enraged soldiers massacred the entire village in retribution.
 
 ### massacre-was-covered-up
 The massacre was never reported. The soldiers covered it up to hide their failure — a dead captain and an unauthorized massacre meant courts-martial. The village was filed as "evacuated successfully."
 
 ### officer-killed
-A KBW officer — kpt. Henryk Ćwiek — commanded the unit at [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). He was shot dead during the operation. Official records list him as KIA in a separate UPA engagement. The truth was buried with him.
+A KBW officer — kpt. Henryk Ćwiek — commanded the unit at [%OLD_VILLAGE%](../locations/old-village-ruins.md). He was shot dead during the operation. Official records list him as KIA in a separate UPA engagement. The truth was buried with him.
 
 ### dmytro-kosach
 [Paraskewia Chyłak](../characters/hag.md)'s lover was named Dmytro Kosach — a UPA guerrilla fighter. He shot kpt. Ćwiek. His bullet turned a deportation into a massacre. He died too — almost certainly in the well with everyone else.
@@ -52,7 +52,7 @@ A KBW officer — kpt. Henryk Ćwiek — commanded the unit at [%OLD_VILLAGE%](.
 [Edward Barnaś](../characters/soldier.md) settled in %NEW_VILLAGE% early because he knew the terrain from service. He claimed the best plot of land — profiting from the destruction.
 
 ### old-village-was-burned
-[%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) was burned after the massacre. Wooden buildings destroyed, but stone survived — the cerkiew, foundations, the well.
+[%OLD_VILLAGE%](../locations/old-village-ruins.md) was burned after the massacre. Wooden buildings destroyed, but stone survived — the cerkiew, foundations, the well.
 
 ### massacre-bodies-in-well
 The remains of the 1947 massacre victims are in [the well](../story-facts/the-well.md). They were never properly buried.
@@ -110,7 +110,7 @@ Something violent happened one night in 1954. [Zbigniew Gajda](../characters/woj
 [Stanisław Rezeń](../characters/butcher.md) tried to strangle [Edek Barnaś](../characters/glupek.md) as an infant. [Janina Gajda](../characters/ciotka.md) stopped him. The oxygen deprivation caused permanent brain damage — it was not congenital.
 
 ### lynch-bodies-in-well
-The bodies from the 1954 lynch were dumped in the old well in [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) — the same well that already held the 1947 massacre remains.
+The bodies from the 1954 lynch were dumped in the old well in [%OLD_VILLAGE%](../locations/old-village-ruins.md) — the same well that already held the 1947 massacre remains.
 
 ### wujas-loved-jagna
 [Tadek Gajda](../characters/secondary-characters.md) was in love with [Hania Barnaś](../characters/jagna.md), but she chose [Emil Rzepka](../characters/secondary-characters.md).
@@ -128,17 +128,17 @@ The bodies from the 1954 lynch were dumped in the old well in [%OLD_VILLAGE%](..
 [ks. Władysław Pająk](../characters/priest.md) knows the full lynch story — who did what, where the bodies went — because [Janina Gajda](../characters/ciotka.md) confessed it all to him over 13 years.
 
 ### neighbour-heard-the-lynch
-[Ryszard Dudka](../characters/neighbour.md) heard everything from next door — screaming, shouting, dogs. Possibly saw men dragging bodies toward [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). Closed the curtain and never spoke.
+[Ryszard Dudka](../characters/neighbour.md) heard everything from next door — screaming, shouting, dogs. Possibly saw men dragging bodies toward [%OLD_VILLAGE%](../locations/old-village-ruins.md). Closed the curtain and never spoke.
 
 ---
 
 ## The Well
 
 ### someone-thrown-in-well
-Something — or someone — was recently thrown into the well. Looking down with a light: dark water, shapes below the surface. Can't tell how many or how old. But something fresh went in. **Only exists if the [hag dies](../scenes/events/event-well-confrontation.md#if-nobody-is-there-default--70).**
+Something — or someone — was recently thrown into the well. Looking down with a light: dark water, shapes below the surface. Can't tell how many or how old. But something fresh went in. **Only exists if the [hag dies](../events/event-well-confrontation.md#if-nobody-is-there-default--70).**
 
 ### butcher-visits-the-well
-[Stanisław Rezeń](../characters/butcher.md) visits [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) regularly. Sits near the well. Clears debris.
+[Stanisław Rezeń](../characters/butcher.md) visits [%OLD_VILLAGE%](../locations/old-village-ruins.md) regularly. Sits near the well. Clears debris.
 
 ### butcher-compelled-to-feed
 [Stanisław Rezeń](../characters/butcher.md) feels compelled to put something IN the well. Strangers = prey. He doesn't fully understand the compulsion.
@@ -153,7 +153,7 @@ Someone keeps clearing debris from the well. Someone else keeps piling it back a
 Fresh blood on the well's stone rim. Recent — not old stains. Something was dragged to the well and put in.
 
 ### someone-killed-at-well
-Someone was murdered at the well. Blood smeared on the rim, drag marks from a kneeling position, scattered ritual supplies trampled into mud. The violence was one-directional — the victim didn't fight back. A body was put into the well. **Only exists if the [hag dies](../scenes/events/event-well-confrontation.md#if-nobody-is-there-default--70).**
+Someone was murdered at the well. Blood smeared on the rim, drag marks from a kneeling position, scattered ritual supplies trampled into mud. The violence was one-directional — the victim didn't fight back. A body was put into the well. **Only exists if the [hag dies](../events/event-well-confrontation.md#if-nobody-is-there-default--70).**
 
 ### players-dream-too
 From the first night in the village, the players have dreams of violence — hands doing things, the satisfaction of breaking. Each night worse. By day three they've felt what [Stanisław Rezeń](../characters/butcher.md) has felt for thirteen years.
@@ -168,7 +168,7 @@ From the first night in the village, the players have dreams of violence — han
 [Janina Gajda](../characters/ciotka.md) was strangled by hand — sustained pressure, no weapon, no forced entry. She knew her killer. [Edek Barnaś](../characters/glupek.md) is missing. **Conditional:** Only exists after players discover the body.
 
 ### glupek-drawn-to-well
-[Edek Barnaś](../characters/glupek.md) is physically drawn toward [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) and the well. At the well he becomes still — something in him recognises the place.
+[Edek Barnaś](../characters/glupek.md) is physically drawn toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) and the well. At the well he becomes still — something in him recognises the place.
 
 ### covered-mirrors
 [Stefania Kopacz](../characters/babcia.md) covers every mirror in [Barbara Kopacz](../characters/barbara.md)'s house. In [Lemko tradition](../historical%20context/13-lemko-beliefs-and-folk-magic.md), mirrors are covered when someone dies. She's been doing it for twenty years.
@@ -247,7 +247,7 @@ A small wooden icon in [Zbigniew Gajda](../characters/wojewoda.md)'s office — 
 [Ryszard Dudka](../characters/neighbour.md) is a hunter with a licensed hunting rifle.
 
 ### siblings-fund-the-church
-The siblings keep the [church](../scenes/locations/the-church.md) unusually well supplied — firewood, food, gifts. [ks. Władysław Pająk](../characters/priest.md)'s silence is materially supported.
+The siblings keep the [church](../locations/the-church.md) unusually well supplied — firewood, food, gifts. [ks. Władysław Pająk](../characters/priest.md)'s silence is materially supported.
 
 ### painters-art-shows-the-well
 [Emil Rzepka](../characters/secondary-characters.md)'s art starts showing the well before the players find it — dark circles, stone rings, black water.
@@ -295,7 +295,7 @@ The players must supply the truth by naming the dead and saying what happened to
 ## The Wolves
 
 ### wolves-attacking-livestock
-Wolves have been killing [PGR](../scenes/locations/pgr-farm.md) livestock for weeks. The 1967 rains are driving them from higher ground. Multiple sheep dead. The attacks started before the committee arrived and are ongoing.
+Wolves have been killing [PGR](../locations/pgr-farm.md) livestock for weeks. The 1967 rains are driving them from higher ground. Multiple sheep dead. The attacks started before the committee arrived and are ongoing.
 
 ### dudka-failed-wolf-hunt
 [Ryszard Dudka](../characters/neighbour.md) has been hunting the wolves for weeks — he's the village hunter, licensed rifle, knows the forest. He's failed. Can't close on the pack. One man in vast terrain isn't enough.
@@ -307,10 +307,10 @@ Wolves have been killing [PGR](../scenes/locations/pgr-farm.md) livestock for we
 [Ryszard Dudka](../characters/neighbour.md) openly hates [Stanisław Rezeń](../characters/butcher.md). Calls him evil to anyone who listens. The anger is visceral — not just about the wolf authorization. Something older.
 
 ### rezen-leaves-at-night
-[Stanisław Rezeń](../characters/butcher.md) leaves his house at night and walks toward the forest — toward [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). Alone. Regularly.
+[Stanisław Rezeń](../characters/butcher.md) leaves his house at night and walks toward the forest — toward [%OLD_VILLAGE%](../locations/old-village-ruins.md). Alone. Regularly.
 
 ### hag-blamed-for-wolves
-Villagers blame [Paraskewia Chyłak](../characters/hag.md) for the wolf attacks. They've seen her fires and heard her chanting at [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). She's performing rites for the dead — appeasing the unquiet — but the village sees witchcraft. Fires in the ruins + wolves that don't touch her = *"She's summoning them."* The connection is the village's projection, not fact.
+Villagers blame [Paraskewia Chyłak](../characters/hag.md) for the wolf attacks. They've seen her fires and heard her chanting at [%OLD_VILLAGE%](../locations/old-village-ruins.md). She's performing rites for the dead — appeasing the unquiet — but the village sees witchcraft. Fires in the ruins + wolves that don't touch her = *"She's summoning them."* The connection is the village's projection, not fact.
 
 ---
 
@@ -323,16 +323,16 @@ Villagers blame [Paraskewia Chyłak](../characters/hag.md) for the wolf attacks.
 Someone is doing something in the forest — men, fire, a smell. Could be anything. Players don't know what until they investigate.
 
 ### bimber-still
-[Tadek Gajda](../characters/secondary-characters.md)'s crew runs an illegal bimber still in the [forest](../scenes/locations/old-village-ruins.md), halfway between the villages. Just moonshine — not the murder conspiracy. [Zbigniew Gajda](../characters/wojewoda.md) knows and tolerates it. [Helena Rzepka](../characters/matrona.md) supplies sugar through the store.
+[Tadek Gajda](../characters/secondary-characters.md)'s crew runs an illegal bimber still in the [forest](../locations/old-village-ruins.md), halfway between the villages. Just moonshine — not the murder conspiracy. [Zbigniew Gajda](../characters/wojewoda.md) knows and tolerates it. [Helena Rzepka](../characters/matrona.md) supplies sugar through the store.
 
 ### store-has-drug-cabinet
-[Helena Rzepka](../characters/matrona.md)'s [store](../scenes/locations/the-store.md) has a locked pharmaceutical cabinet — a *szafka apteczna*, standard PRL distribution point. Helena holds the only key. [Halina](../characters/secondary-characters.md) can't open it.
+[Helena Rzepka](../characters/matrona.md)'s [store](../locations/the-store.md) has a locked pharmaceutical cabinet — a *szafka apteczna*, standard PRL distribution point. Helena holds the only key. [Halina](../characters/secondary-characters.md) can't open it.
 
 ### wojewoda-can-call-doctor
 [Zbigniew Gajda](../characters/wojewoda.md)'s office phone can reach [dr. Leon Sawicki](../characters/secondary-characters.md) in the district. Flood-damaged lines — patchy, but it works on the third try.
 
 ### paweleks-illness
-[Pawełek Kopacz](../characters/pawelek.md) drinks contaminated floodwater near the well and falls ill. Medically ordinary for flood conditions — but his fever dreams mention "the round stones," "the lady" who told him not to drink, and water that "tastes like the ground." → [event](../scenes/events/event-pawelek-falls-ill.md)
+[Pawełek Kopacz](../characters/pawelek.md) drinks contaminated floodwater near the well and falls ill. Medically ordinary for flood conditions — but his fever dreams mention "the round stones," "the lady" who told him not to drink, and water that "tastes like the ground." → [event](../events/event-pawelek-falls-ill.md)
 
 ### paweleks-diagnosis
 Bacterial dysentery — *Shigella*, most likely. Fever cycling, bloody stool, dehydration. Fatal without treatment in a child this size. Needs antibacterial medication — but which one and what dosage requires a doctor.
@@ -341,16 +341,16 @@ Bacterial dysentery — *Shigella*, most likely. Fever cycling, bloody stool, de
 The contamination profile is wrong. Concentrated single-source, not diffuse floodwater. High phosphate, high ammonia, anaerobic decay. Something large and organic decomposing in a confined water source for years. Not one body. Many.
 
 ### well-water-contaminated
-The well in [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) is the source of contamination. The water is bad — whoever drinks it gets sick.
+The well in [%OLD_VILLAGE%](../locations/old-village-ruins.md) is the source of contamination. The water is bad — whoever drinks it gets sick.
 
 ### old-village-looks-haunted
-[%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) looks haunted — candlelight, incense, footprints — because [Paraskewia Chyłak](../characters/hag.md) is tending it, not because it's empty.
+[%OLD_VILLAGE%](../locations/old-village-ruins.md) looks haunted — candlelight, incense, footprints — because [Paraskewia Chyłak](../characters/hag.md) is tending it, not because it's empty.
 
 ### cemetery-missing-graves
-The cemetery at [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) has fewer graves than it should. Some dead are missing because they are in the well.
+The cemetery at [%OLD_VILLAGE%](../locations/old-village-ruins.md) has fewer graves than it should. Some dead are missing because they are in the well.
 
 ### upa-bunker
-The UPA bunker in the [forest](../scenes/locations/old-village-ruins.md) contains old partisan ordnance. Partially collapsed, dangerous. [Michał Pytlak](../characters/secondary-characters.md)'s flood-diversion plan uses explosives from here.
+The UPA bunker in the [forest](../locations/old-village-ruins.md) contains old partisan ordnance. Partially collapsed, dangerous. [Michał Pytlak](../characters/secondary-characters.md)'s flood-diversion plan uses explosives from here.
 
 ### spirits-are-restless
 The dead here were not buried right. Something is unquiet. Not evidence, not testimony — a feeling grounded in Lemko tradition. The mirrors need covering, the prayers need saying, the dead need tending.

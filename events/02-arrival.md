@@ -1,4 +1,4 @@
-# Arrival
+﻿# Arrival
 
 **Type:** Event (one-shot, first meeting)
 **Location:** %NEW_VILLAGE% — road in, then Zbigniew Gajda's house → [wojewodas-house](../locations/wojewodas-house.md)
@@ -19,5 +19,5 @@ He doesn't mention the flood. He doesn't know. But he's probing — *"So what ex
 
 - **Compliment the village** — mention how well-run things look. Zbigniew Gajda warms up — this is his life's work. → Rapport with Zbigniew Gajda
 - **Ask about his family** — photos on the shelf, wife in the other room. He's brief but proud. → Rapport with Zbigniew Gajda
-- **Spot Wife eavesdropping** — catch a shadow by the door, a floorboard creak. She's listening to everything. → Seeds [Wife has been investigating](../../clues/clues.md#wife-has-been-investigating)
+- **Spot Wife eavesdropping** — catch a shadow by the door, a floorboard creak. She's listening to everything. → Seeds [Wife has been investigating](../clues/clues.md#wife-has-been-investigating)
 

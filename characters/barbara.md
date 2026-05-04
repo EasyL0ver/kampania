@@ -1,4 +1,4 @@
-# Barbara Kopacz
+﻿# Barbara Kopacz
 
 **Type:** Named character — villager
 
@@ -7,7 +7,7 @@
 - **Born:** 1939
 - **Age in 1967:** 28
 - **Heritage:** Half-Lemko (mother is [Stefania Kopacz](babcia.md)) — raised Polish, devout Catholic
-- **Lives in:** [Barbara Kopacz's house](../scenes/locations/barbaras-house.md) — with [Stefania Kopacz](babcia.md) (her mother), [Pawełek Kopacz](pawelek.md)
+- **Lives in:** [Barbara Kopacz's house](../locations/barbaras-house.md) — with [Stefania Kopacz](babcia.md) (her mother), [Pawełek Kopacz](pawelek.md)
 - **Settled:** After 1954 — moved in with mother for PGR work
 
 ## Character

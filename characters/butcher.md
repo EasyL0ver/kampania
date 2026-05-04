@@ -1,4 +1,4 @@
-# Stanisław Rezeń
+﻿# Stanisław Rezeń
 
 **Type:** Named character — evil with self-awareness, symbolic Lemko rage
 **Freudian role:** [Id](../story-facts/freudian-triangle.md) — raw drive, compulsion without conscience
@@ -8,7 +8,7 @@
 - **Born:** 1921
 - **Age in 1967:** 46
 - **Heritage:** **Not Lemko.** Polish — from a neighbouring village in Bieszczady. Not a distant resettled stranger. A local who knew these mountains, these paths, these people. That's what makes 1947 worse.
-- **Lives in:** [Stanisław Rezeń's house](../scenes/locations/butchers-house.md) — alone (with dogs), edge of village
+- **Lives in:** [Stanisław Rezeń's house](../locations/butchers-house.md) — alone (with dogs), edge of village
 - **Settled:** ~1948 — local from neighbouring village, drifted in early
 
 ## Character
@@ -25,7 +25,7 @@ Charismatic, no inhibitions. The most alive person in any room. Village outcast,
 ## Actions
 
 ### Confront Rezeń (after confrontation)
-- **Requires:** Tracked the dogs from the [well](../scenes/locations/the-well.md) OR already suspect him
+- **Requires:** Tracked the dogs from the [well](../locations/the-well.md) OR already suspect him
 - **Cost:** 1 action
 - **Skills:** **Intimidate**, **Read**
 - **Outcome:** He doesn't deny it. Doesn't confirm it either. Doesn't care. The knife turns in his hand. He's calmer than he's been in days — the compulsion briefly satisfied, like feeding an addiction. *"The witch? She was at the well. She shouldn't have been at the well."* If pressed: *"I didn't go looking for her."* True. He went to the well. She was there. Everything else was the compulsion.

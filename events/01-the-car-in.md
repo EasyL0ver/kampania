@@ -1,4 +1,4 @@
-# The Car In
+﻿# The Car In
 
 **Type:** Event (opening)
 **Location:** Police car, mountain road to %NEW_VILLAGE%
@@ -23,19 +23,19 @@ por. Witold Skowron is professional, friendly. He talks while he drives.
 - **Requires:** Nothing
 - **Cost:** Free
 - **Outcome:** por. Witold Skowron is vague. *"Mountain villages have their own history. Folk stories, old grudges."* He redirects to the job. Information — the village was resettled after the war, used to be Lemko territory.
-- **Leads to:** Plants a seed → [old village was Lemko](../../clues/clues.md#old-village-was-lemko)
+- **Leads to:** Plants a seed → [old village was Lemko](../clues/clues.md#old-village-was-lemko)
 
 ### Ask about potential dangers
 - **Requires:** Nothing
 - **Cost:** Free
 - **Outcome:** por. Witold Skowron downplays. *"It's a village, not a warzone. Biggest danger is the mud."* He mentions Stanisław Rezeń in passing — *"There's a loner on the edge of the village, locals avoid him. Don't bother with him."*
-- **Leads to:** Seeds → [officer is SB](../../clues/clues.md#officer-is-sb) (he knows too much about a random villager)
+- **Leads to:** Seeds → [officer is SB](../clues/clues.md#officer-is-sb) (he knows too much about a random villager)
 
 ### Pick up on the hidden warning
 - **Requires:** Ability TBD (perception / intuition / bureaucratic experience)
 - **Cost:** Free
 - **Outcome:** Players notice por. Witold Skowron's careful phrasing: *"Your job is the census and flood assessment. Stick to that and you'll be fine. If anything unusual comes up — old grievances, local legends, things that don't belong in a government report — use your judgement. Not everything needs to be written down."* Information — the state expects them to ignore certain things. What things?
-- **Leads to:** No scene unlock, but this plants the report ending seed. → [officer warning](../../clues/clues.md#officer-warning)
+- **Leads to:** No scene unlock, but this plants the report ending seed. → [officer warning](../clues/clues.md#officer-warning)
 
 ### Character creation
 - **Requires:** Nothing

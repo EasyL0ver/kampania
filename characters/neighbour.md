@@ -1,4 +1,4 @@
-# Ryszard Dudka
+﻿# Ryszard Dudka
 
 **Type:** Named character — bystander witness
 
@@ -6,7 +6,7 @@
 
 - **Born:** 1918
 - **Age in 1967:** 49
-- **Lives in:** [Ryszard Dudka's house](../scenes/locations/neighbours-house.md) — alone
+- **Lives in:** [Ryszard Dudka's house](../locations/neighbours-house.md) — alone
 - **Settled:** ~1948 — early settler, next door to Barnaś family from the start
 - **Armed:** Hunting rifle (licensed)
 

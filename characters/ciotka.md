@@ -1,4 +1,4 @@
-# Janina Gajda
+﻿# Janina Gajda
 
 **Type:** Named character — sibling (sister)
 
@@ -7,7 +7,7 @@
 - **Born:** 1912
 - **Age in 1967:** 55
 - **Heritage:** Lemko descent — hidden. See [Zbigniew Gajda](wojewoda.md) for siblings' shared background.
-- **Lives in:** [Janina Gajda's house](../scenes/locations/ciotkas-house.md) — with [Edek Barnaś](glupek.md)
+- **Lives in:** [Janina Gajda's house](../locations/ciotkas-house.md) — with [Edek Barnaś](glupek.md)
 - **Settled:** ~1948 — first wave, with siblings
 
 ## Character

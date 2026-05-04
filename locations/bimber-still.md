@@ -1,8 +1,8 @@
-# Bimber Still
+﻿# Bimber Still
 
 **Type:** Location (discoverable)
-**Location:** Hidden clearing off a forest path, roughly halfway between %NEW_VILLAGE% and %OLD_VILLAGE%. Near a stream. **NOT near the well or [Paraskewia Chyłak](../../characters/hag.md)'s cabin.**
-**Present:** [Tadek Gajda](../../characters/wujas.md) and his drinking crew (Szymek Kępa, Romek Głowacz, Franek Mucha) — irregular, mostly evenings.
+**Location:** Hidden clearing off a forest path, roughly halfway between %NEW_VILLAGE% and %OLD_VILLAGE%. Near a stream. **NOT near the well or [Paraskewia Chyłak](../characters/hag.md)'s cabin.**
+**Present:** [Tadek Gajda](../characters/wujas.md) and his drinking crew (Szymek Kępa, Romek Głowacz, Franek Mucha) — irregular, mostly evenings.
 **Available:** Requires forest exploration or following Tadek/crew.
 **Cost:** 1 action
 
@@ -16,7 +16,7 @@
 
 ## Observable Clues
 
-- **Sugar sacks** — stamped, traceable to [Helena Rzepka](../../characters/matrona.md)'s [store](the-store.md). She supplies at a markup. Looks conspiratorial — just commerce.
+- **Sugar sacks** — stamped, traceable to [Helena Rzepka](../characters/matrona.md)'s [store](the-store.md). She supplies at a markup. Looks conspiratorial — just commerce.
 - **Worn trail** — daily use, packed earth, from %NEW_VILLAGE%. Multiple boot sizes.
 - **Bottles** — some village-made, some store-bought. Quantity says this isn't casual.
 - **No evidence of anything else.** No weapons, no documents, no hidden rooms. Just bimber. Players looking for more will find nothing — because there's nothing to find.
@@ -26,12 +26,12 @@
 ### Discover the still (unoccupied)
 - **Cost:** 1 action
 - **What happens:** Players find equipment, supplies, evidence of regular use. Can search the area — nothing of investigative value. It's just moonshine.
-- **Result:** → [bimber-still](../../clues/clues.md#bimber-still). Feels like a breakthrough. Isn't.
+- **Result:** → [bimber-still](../clues/clues.md#bimber-still). Feels like a breakthrough. Isn't.
 
 ### Walk in on the crew
 - **Cost:** 1 action
 - **What happens:** Instant tension. The crew reacts by personality:
-  - **[Tadek Gajda](../../characters/wujas.md)** — panics. Assumes committee will report them. Begs, bribes, threatens in rapid succession. His fear looks exactly like guilty-conscience behaviour — indistinguishable from the lynch guilt unless players already know the difference.
+  - **[Tadek Gajda](../characters/wujas.md)** — panics. Assumes committee will report them. Begs, bribes, threatens in rapid succession. His fear looks exactly like guilty-conscience behaviour — indistinguishable from the lynch guilt unless players already know the difference.
   - **Szymek Kępa** — belligerent. *"State people sticking their noses where they don't belong."* Tries to intimidate.
   - **Romek Głowacz** — quiet, calculating. Watches faces. Trying to gauge what players know vs. what they're fishing for.
   - **Franek Mucha** — aggressive. Most likely to escalate physically. Sees players as a direct threat. Stands up, blocks the path.
@@ -44,8 +44,8 @@
 
 ### Use as leverage
 - **Cost:** Free (requires prior discovery of the [bimber still](bimber-still.md))
-- **What happens:** See [Tadek Gajda — Leverage](../../characters/wujas.md#leverage--the-bimber-play) for the full interaction.
-- **Result:** → [wujas-is-the-weak-link](../../clues/clues.md#wujas-is-the-weak-link)
+- **What happens:** See [Tadek Gajda — Leverage](../characters/wujas.md#leverage--the-bimber-play) for the full interaction.
+- **Result:** → [wujas-is-the-weak-link](../clues/clues.md#wujas-is-the-weak-link)
 
 ### Observe from nearby (stake out)
 - **Cost:** 1 action
@@ -63,4 +63,4 @@
 
 **Crew are civilians, not threats.** Franek might throw a punch. Nobody's pulling a weapon. If players escalate, the crew scatters. They're bootleggers, not killers.
 
-**Zbigniew knows.** If players report the still, they learn something about the sołtys — he controls, he tolerates, he manages. The still is another leash. Same mechanism as [Stanisław Rezeń](../../characters/butcher.md)'s containment: Zbigniew containing his brother through tolerance, the way he contains the butcher through prohibition. Superego managing by different means.
+**Zbigniew knows.** If players report the still, they learn something about the sołtys — he controls, he tolerates, he manages. The still is another leash. Same mechanism as [Stanisław Rezeń](../characters/butcher.md)'s containment: Zbigniew containing his brother through tolerance, the way he contains the butcher through prohibition. Superego managing by different means.

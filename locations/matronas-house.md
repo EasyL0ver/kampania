@@ -1,8 +1,8 @@
-# Matrona's House
+﻿# Matrona's House
 
 **Type:** Location (revisitable)
 **Location:** %NEW_VILLAGE% — neat, central, close to the [store](the-store.md). The best-kept house on the street.
-**Present:** [Helena Rzepka](../../characters/matrona.md) (usually — splits time with [the store](the-store.md)), [Emil Rzepka](../../characters/painter.md) (always — doesn't go far), [Ewa Rzepka](../../characters/secondary-characters.md) (usually), [Krystian Rzepka](../../characters/secondary-characters.md) (irregular — altar boy duties at church)
+**Present:** [Helena Rzepka](../characters/matrona.md) (usually — splits time with [the store](the-store.md)), [Emil Rzepka](../characters/painter.md) (always — doesn't go far), [Ewa Rzepka](../characters/secondary-characters.md) (usually), [Krystian Rzepka](../characters/secondary-characters.md) (irregular — altar boy duties at church)
 **Available:** Any time. Players may be **housed here** if Helena chose them at dinner (see [03-dinner](../events/03-dinner.md)).
 **Cost:** 1 action per visit
 
@@ -20,11 +20,11 @@ Krystian Rzepka (~9) comes and goes — altar boy at the church, Helena's plante
 
 ## Opportunities
 
-- **Notice the dynamic** — Emil never speaks first. He checks Helena's face before answering anything. She touches his shoulder when she passes — affection or restraint? He flinches. Not visibly. But there. → Seeds [matrona-controls-painter](../../clues/clues.md#matrona-controls-painter)
-- **See the paintings** — the attic is Emil's domain. Dozens of paintings — landscapes, village scenes, competent work. One portrait stands out: a young woman, dark-haired, beautiful. No name. No label. Just a face among the landscapes. Players see it and move on. If they ask Emil who she is, he goes quiet. Changes the subject. Helena, if present, says "an old commission" and steers the conversation elsewhere. → The portrait is [Hania Barnaś](../../characters/jagna.md). Players won't know that until they learn the name from another source — then they'll remember the girl in the attic.
+- **Notice the dynamic** — Emil never speaks first. He checks Helena's face before answering anything. She touches his shoulder when she passes — affection or restraint? He flinches. Not visibly. But there. → Seeds [matrona-controls-painter](../clues/clues.md#matrona-controls-painter)
+- **See the paintings** — the attic is Emil's domain. Dozens of paintings — landscapes, village scenes, competent work. One portrait stands out: a young woman, dark-haired, beautiful. No name. No label. Just a face among the landscapes. Players see it and move on. If they ask Emil who she is, he goes quiet. Changes the subject. Helena, if present, says "an old commission" and steers the conversation elsewhere. → The portrait is [Hania Barnaś](../characters/jagna.md). Players won't know that until they learn the name from another source — then they'll remember the girl in the attic.
 - **Notice the recent work** — in the newer paintings, something wrong: a dark circle in a meadow. A ring of stones where there shouldn't be one. Water turning black. Emil doesn't explain them. If asked, he looks confused — "I don't know why I painted that." → The well appearing uninvited in his art. Creates a pre-echo of [%OLD_VILLAGE%](old-village-ruins.md) before players find it.
 - **Watch Ewa** — she brings tea to Emil's attic when Helena isn't looking. She straightens his collar. She's the only person in this house who touches him gently. If players chat with her, she might joke: *"He'll paint every mountain in Bieszczady but never his own daughter."* She rolls her eyes. It's a family complaint — tata only paints landscapes, never people. → This makes the portrait of the unknown young woman in the attic impossible to ignore. He broke his one rule for someone. Ewa has never asked who the girl is. Maybe she's afraid of the answer.
-- **The over-correction** — as the well strengthens, Helena becomes MORE perfect. More church visits, more generosity, more public warmth. To anyone paying attention, it reads as desperation — a woman holding a mask that's starting to slip. → Seeds [matrona-orchestrated-lynch](../../clues/clues.md#matrona-orchestrated-lynch) (indirectly — the performance itself is evidence)
+- **The over-correction** — as the well strengthens, Helena becomes MORE perfect. More church visits, more generosity, more public warmth. To anyone paying attention, it reads as desperation — a woman holding a mask that's starting to slip. → Seeds [matrona-orchestrated-lynch](../clues/clues.md#matrona-orchestrated-lynch) (indirectly — the performance itself is evidence)
 - **Krystian's reports** — he mentions things innocently at dinner. "Edek was at the church again." "Pan Rezeń was walking to the forest." Helena listens. Players who notice will realise she has a surveillance network — an altar boy who sees everyone's confessional traffic.
 
 ## Actions
@@ -45,7 +45,7 @@ Krystian Rzepka (~9) comes and goes — altar boy at the church, Helena's plante
 - **Requires:** Have seen the portrait, know Hania's name from another source
 - **Cost:** Free
 - **Outcome:** If players say "Is that Hania?" — his whole body answers before his mouth does. He won't say what happened. He won't name Helena. But he'll say one thing, eventually, if the trust is deep enough: *"Write her down. In your census. She lived here. Write her name."* He wants a dead woman on a government document. Proof she existed before the water takes everything.
-- **Leads to:** → [painter-wants-to-confess](../../clues/clues.md#painter-wants-to-confess). Not a confession about the lynch. A name. The most human request in the game.
+- **Leads to:** → [painter-wants-to-confess](../clues/clues.md#painter-wants-to-confess). Not a confession about the lynch. A name. The most human request in the game.
 
 ### Talk to Ewa
 - **Requires:** Some rapport (a kind word, asking about her — not just about her parents)
@@ -57,7 +57,7 @@ Krystian Rzepka (~9) comes and goes — altar boy at the church, Helena's plante
 - **Requires:** Emil and Helena both absent, or Emil's permission (easier if rapport is high)
 - **Cost:** 1 action
 - **Outcome:** Dozens of paintings. Landscapes, the village, the mountains — solid work. The portrait of the young woman. And the recent ones where the well creeps in — dark circles, black water, stone rings. The progression is visible: his older work is normal. The newer work is haunted. Something is reaching into this man through his brush.
-- **Leads to:** The well's influence is visible in the art. The portrait connects to Hania if players learn her story elsewhere. Players who've seen the old village well will recognise it in the paintings. Players who haven't will see it later and remember. → Seeds [painter-was-spared](../../clues/clues.md#painter-was-spared)
+- **Leads to:** The well's influence is visible in the art. The portrait connects to Hania if players learn her story elsewhere. Players who've seen the old village well will recognise it in the paintings. Players who haven't will see it later and remember. → Seeds [painter-was-spared](../clues/clues.md#painter-was-spared)
 
 ### Stay overnight (if hosted)
 - **Requires:** Helena chose players to stay here after [dinner](../events/03-dinner.md)

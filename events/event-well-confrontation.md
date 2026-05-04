@@ -1,33 +1,33 @@
-# The Well Confrontation
+﻿# The Well Confrontation
 
 **Type:** Event (Night of Day 4)
 **Location:** [%OLD_VILLAGE%](../locations/old-village-ruins.md) — the well
-**Present:** [Paraskewia Chyłak](../../characters/hag.md) (performing rites), then [Stanisław Rezeń](../../characters/butcher.md) (arrives). Possibly [Ryszard Dudka](../../characters/neighbour.md) and/or players.
-**Available:** Night of Day 4 — after [Rezeń's containment breaks](../../story-facts/wolves.md) AND [Paraskewia Chyłak](../../characters/hag.md) is at the well for her rites.
+**Present:** [Paraskewia Chyłak](../characters/hag.md) (performing rites), then [Stanisław Rezeń](../characters/butcher.md) (arrives). Possibly [Ryszard Dudka](../characters/neighbour.md) and/or players.
+**Available:** Night of Day 4 — after [Rezeń's containment breaks](../story-facts/wolves.md) AND [Paraskewia Chyłak](../characters/hag.md) is at the well for her rites.
 **Cost:** Being there
 
 ## Preconditions
 
 Three things converge on the night of Day 4:
 
-1. **[Rezeń](../../characters/butcher.md) is loose.** The [wolf authorization](event-wolf-hunt.md) broke his containment. The well's compulsion is screaming. He goes to [%OLD_VILLAGE%](../locations/old-village-ruins.md) every night — and tonight, someone else is there.
+1. **[Rezeń](../characters/butcher.md) is loose.** The [wolf authorization](event-wolf-hunt.md) broke his containment. The well's compulsion is screaming. He goes to [%OLD_VILLAGE%](../locations/old-village-ruins.md) every night — and tonight, someone else is there.
 
-2. **[Paraskewia Chyłak](../../characters/hag.md) is at the well.** She performs rites for the dead — fires, chanting, Lemko prayers to appease the unquiet. Nothing to do with wolves. She's been doing this for 20 years. Tonight is no different for her.
+2. **[Paraskewia Chyłak](../characters/hag.md) is at the well.** She performs rites for the dead — fires, chanting, Lemko prayers to appease the unquiet. Nothing to do with wolves. She's been doing this for 20 years. Tonight is no different for her.
 
-3. **The village wants her gone.** Weeks of wolf attacks + her rites misread as wolf-summoning = concrete grievance. → [hag-blamed-for-wolves](../../clues/clues.md#hag-blamed-for-wolves). Nobody is protecting the witch. Whatever happens tonight, nobody will ask questions.
+3. **The village wants her gone.** Weeks of wolf attacks + her rites misread as wolf-summoning = concrete grievance. → [hag-blamed-for-wolves](../clues/clues.md#hag-blamed-for-wolves). Nobody is protecting the witch. Whatever happens tonight, nobody will ask questions.
 
 ## How to Be There
 
 Players don't stumble into this. Being at the well on the night of Day 4 requires investment:
 
 - **Through Dudka** — Players got Dudka to the well via [Path A or B](#prevention). Dudka is watching from the tree line, rifle ready. Players may or may not be with him.
-- **Staking out the well** — Players know Rezeń goes to the well at night (→ [rezen-leaves-at-night](../../clues/clues.md#rezen-leaves-at-night)). They decide to watch. Costs 1 night action.
+- **Staking out the well** — Players know Rezeń goes to the well at night (→ [rezen-leaves-at-night](../clues/clues.md#rezen-leaves-at-night)). They decide to watch. Costs 1 night action.
 - **Following Rezeń** — Players tail him from his house. He walks the forest path, dogs at his heels.
 - **Already at the well** — Players are investigating the ruins at night for their own reasons (dreams, leads, the census). They hear the chanting first, then the footsteps.
 
 ## Setup — The Rites
 
-The well clearing at night. [Paraskewia Chyłak](../../characters/hag.md) is kneeling at the well's edge. Candles in a semicircle — beeswax, real ones, not tallow. An icon of the Theotokos propped against the stone rim, face turned toward the well. Bread on a cloth. A bowl of water with herbs. Incense — real church incense, not forest herbs.
+The well clearing at night. [Paraskewia Chyłak](../characters/hag.md) is kneeling at the well's edge. Candles in a semicircle — beeswax, real ones, not tallow. An icon of the Theotokos propped against the stone rim, face turned toward the well. Bread on a cloth. A bowl of water with herbs. Incense — real church incense, not forest herbs.
 
 She's chanting. Lemko. Low, steady, rhythmic — not a performance but a conversation. Twenty years of talking to the dead. Her voice is old and cracked and certain. The words aren't intelligible to anyone who doesn't speak Lemko, but the cadence is unmistakable: prayer. Not witchcraft. Not summoning. A woman tending graves that don't exist anymore.
 
@@ -84,12 +84,12 @@ If they can't or won't spend 1: They stand there. They watch. The forest is dark
 **Throw yourself on him — costs 2 composure, causes Wound**
 The GM asks: *"He's killing her. Do you want to fight him? Really fight him — a man with a knife and dogs? It costs 2 composure."*
 
-If they spend 2: Full brawl in the dark. The player tackles him, takes hits, takes bites. **It still doesn't work** — but it takes longer to fail. Dogs tear at clothes and skin. The knife catches an arm, a side. Rezeń beats the player down. **The player is wounded** (see [Wounds](../../story-facts/game-system.md#wounds)) — knife cuts, dog bites, cracked ribs. Endurance and Violence are blocked for the rest of the game unless treated. Untreated = death after the game ends. Rezeń finishes with the hag. The player's sacrifice bought time but not a life.
+If they spend 2: Full brawl in the dark. The player tackles him, takes hits, takes bites. **It still doesn't work** — but it takes longer to fail. Dogs tear at clothes and skin. The knife catches an arm, a side. Rezeń beats the player down. **The player is wounded** (see [Wounds](../story-facts/game-system.md#wounds)) — knife cuts, dog bites, cracked ribs. Endurance and Violence are blocked for the rest of the game unless treated. Untreated = death after the game ends. Rezeń finishes with the hag. The player's sacrifice bought time but not a life.
 
 If they can't or won't spend 2: They know their limits. They watch.
 
 **Grab the hag and run — costs 1 composure, requires Endurance, causes Wound**
-She's on the ground, beaten. A player with Endurance can scoop her up and run into the dark. She's light but the terrain is rough — roots, mud, no light. The dogs chase. They bite. The player gets her out — but **the player is wounded** (see [Wounds](../../story-facts/game-system.md#wounds)). Dog bites, torn skin, rough terrain injuries. Rezeń doesn't follow. He has what he came for — the well, unattended. He dumps the wolf and walks home. The hag survives but she's hurt badly. Whether she can continue the rites is an open question.
+She's on the ground, beaten. A player with Endurance can scoop her up and run into the dark. She's light but the terrain is rough — roots, mud, no light. The dogs chase. They bite. The player gets her out — but **the player is wounded** (see [Wounds](../story-facts/game-system.md#wounds)). Dog bites, torn skin, rough terrain injuries. Rezeń doesn't follow. He has what he came for — the well, unattended. He dumps the wolf and walks home. The hag survives but she's hurt badly. Whether she can continue the rites is an open question.
 
 Without Endurance, the player can't carry her through the terrain. They stumble, fall, and Rezeń catches up.
 
@@ -98,8 +98,8 @@ Without Endurance, the player can't carry her through the terrain. They stumble,
 ### With a gun
 
 Two firearms exist in the game:
-- **[Dudka's](../../characters/neighbour.md) hunting rifle** — if they borrowed or took it
-- **[Zbigniew's](../../characters/wojewoda.md) sołtys pistol** — locked in his office, loaded
+- **[Dudka's](../characters/neighbour.md) hunting rifle** — if they borrowed or took it
+- **[Zbigniew's](../characters/wojewoda.md) sołtys pistol** — locked in his office, loaded
 
 If a player has a gun and points it at Rezeń — **the scene changes completely.** Pointing is free. What happens next is a bluff.
 
@@ -111,7 +111,7 @@ The player must answer before the scene continues. This is the moment.
 
 **Now the real question.** Rezeń is walking away. The hag is on the ground, beaten. He's ten meters out, then fifteen. **The GM asks:** *"He's leaving. Do you shoot him in the back? It costs 2 composure."*
 
-If they spend 2: he goes down. The forest echoes. A census committee member just executed a retreating man. [Por. Witold Skowron](../../characters/skowron.md) will want answers. [Zbigniew](../../characters/wojewoda.md) will want answers. **A different path to the truth, bought with murder.**
+If they spend 2: he goes down. The forest echoes. A census committee member just executed a retreating man. [Por. Witold Skowron](../characters/skowron.md) will want answers. [Zbigniew](../characters/wojewoda.md) will want answers. **A different path to the truth, bought with murder.**
 
 If they don't: he vanishes into the dark. The hag is alive. The players know exactly who he is and what he does. And he's still out there.
 
@@ -138,11 +138,11 @@ Dudka has avoided the old village for 13 years. Going there forces him past his 
 **Requires:** Players found the well (1 action at old village) + asked Dudka for help.
 
 ### Path C — Tell Barbara
-Players mention Rezeń's night walks to [Barbara](../../characters/barbara.md). Casual conversation — *"That butcher goes out every night, strange man"* — over tea, during census work, in passing. They don't think twice about it. Barbara doesn't think twice about it either. She tells Dudka over the fence that evening, the way she tells him everything.
+Players mention Rezeń's night walks to [Barbara](../characters/barbara.md). Casual conversation — *"That butcher goes out every night, strange man"* — over tea, during census work, in passing. They don't think twice about it. Barbara doesn't think twice about it either. She tells Dudka over the fence that evening, the way she tells him everything.
 
 **The players don't know they triggered this.** They told the village's warmest person a piece of gossip. The sieve did the rest. Dudka heard *"Rezeń goes to the old village at night"* and everything else followed — the same disproportionate reaction, the same cracking paralysis, the same rifle in the dark.
 
-**Requires:** Players mentioned Rezeń's night activity to Barbara (free — happens during any conversation with her if the topic comes up). The GM tracks what players tell Barbara (see [Barbara's file](../../characters/barbara.md#warning)).
+**Requires:** Players mentioned Rezeń's night activity to Barbara (free — happens during any conversation with her if the topic comes up). The GM tracks what players tell Barbara (see [Barbara's file](../characters/barbara.md#warning)).
 
 ---
 
@@ -170,7 +170,7 @@ Players learn about it indirectly. Dudka is different after Day 4 — quieter, h
 
 ## If Nobody Is There (Default — 70%)
 
-**Default outcome: the hag dies.** [Ryszard Dudka](../../characters/neighbour.md) watches [Rezeń](../../characters/butcher.md) from a distance — when he leaves the farm, what direction he goes — but never follows him into the forest at night. The old village is the direction Dudka has avoided for 13 years. Without a push, his surveillance stays at the tree line. Players who haven't invested in the wolf subplot or Dudka's paranoia won't be at the well either.
+**Default outcome: the hag dies.** [Ryszard Dudka](../characters/neighbour.md) watches [Rezeń](../characters/butcher.md) from a distance — when he leaves the farm, what direction he goes — but never follows him into the forest at night. The old village is the direction Dudka has avoided for 13 years. Without a push, his surveillance stays at the tree line. Players who haven't invested in the wolf subplot or Dudka's paranoia won't be at the well either.
 
 The confrontation happens offscreen. Rezeń arrives, finds her, kills her. Same motion as 1954 — efficient, practiced. Another body in the well. He walks home. The dogs follow.
 
@@ -188,8 +188,8 @@ What they see:
 
 ### Aftermath — Opportunities
 
-- **Observation:** The blood is fresh — within the last day. The drag marks lead from a kneeling position to the well's edge. Someone was at the well and was dragged to it. The ritual supplies suggest the victim was performing rites. → [someone-killed-at-well](../../clues/clues.md#someone-killed-at-well)
-- **Read / Milicjant:** This wasn't a fight. The violence was one-directional. Someone was hit while kneeling. The drag marks show a body pulled a short distance. Whoever did this was strong and practiced. → [someone-killed-at-well](../../clues/clues.md#someone-killed-at-well)
+- **Observation:** The blood is fresh — within the last day. The drag marks lead from a kneeling position to the well's edge. Someone was at the well and was dragged to it. The ritual supplies suggest the victim was performing rites. → [someone-killed-at-well](../clues/clues.md#someone-killed-at-well)
+- **Read / Milicjant:** This wasn't a fight. The violence was one-directional. Someone was hit while kneeling. The drag marks show a body pulled a short distance. Whoever did this was strong and practiced. → [someone-killed-at-well](../clues/clues.md#someone-killed-at-well)
 
 ### Aftermath — Actions
 
@@ -197,13 +197,13 @@ Actions happen at their respective locations:
 
 - **Investigate the well / Track the attacker** → [The Well](../locations/the-well.md#actions)
 - **Search the hag's cabin** → [Hag's Cabin](../locations/hags-cabin.md#actions)
-- **Confront Rezeń** → [Stanisław Rezeń](../../characters/butcher.md#actions)
+- **Confront Rezeń** → [Stanisław Rezeń](../characters/butcher.md#actions)
 
 #### Ask the village about the hag
 - **Requires:** None
 - **Cost:** Free (any conversation)
-- **Outcome:** Nobody cares. *"The witch? Haven't seen her."* Shrugs. *"Good riddance — she was sending the wolves."* The wolf rumor provides social cover. Nobody is asking questions. → [hag-blamed-for-wolves](../../clues/clues.md#hag-blamed-for-wolves). Same mechanism as 1954: the village closes ranks around violence it tacitly endorses.
-  - **Exception: [Ryszard Dudka](../../characters/neighbour.md).** If players ask him, he doesn't celebrate. He's been saying the wolves weren't her fault. *"She was just an old woman."* He's the one villager who doesn't dismiss her disappearance.
+- **Outcome:** Nobody cares. *"The witch? Haven't seen her."* Shrugs. *"Good riddance — she was sending the wolves."* The wolf rumor provides social cover. Nobody is asking questions. → [hag-blamed-for-wolves](../clues/clues.md#hag-blamed-for-wolves). Same mechanism as 1954: the village closes ranks around violence it tacitly endorses.
+  - **Exception: [Ryszard Dudka](../characters/neighbour.md).** If players ask him, he doesn't celebrate. He's been saying the wolves weren't her fault. *"She was just an old woman."* He's the one villager who doesn't dismiss her disappearance.
 
 ## What Breaks (If She Dies)
 
@@ -211,8 +211,8 @@ Actions happen at their respective locations:
 
 - **Dreams explode.** Players' dreams become unbearable — direct, violent, reaching. The well isn't in %OLD_VILLAGE% anymore. It's everywhere.
 - **Rezeń accelerates.** Killing doesn't satisfy the compulsion — it feeds it. He becomes more erratic, more violent. The cold methodical man is becoming something rawer.
-- **Other villagers start dreaming.** [Janina Gajda](../../characters/ciotka.md), [Irena Gajda](../../characters/wife.md), [Tadek Gajda](../../characters/wujas.md), even [Zbigniew Gajda](../../characters/wojewoda.md). The well's reach expands.
-- **The rites can't be resumed.** Nobody else has the knowledge, the language, the 20 years of relationship with the dead. What she was doing is gone. Unless the players reconstruct the [ritual](../../story-facts/the-ritual.md) themselves.
+- **Other villagers start dreaming.** [Janina Gajda](../characters/ciotka.md), [Irena Gajda](../characters/wife.md), [Tadek Gajda](../characters/wujas.md), even [Zbigniew Gajda](../characters/wojewoda.md). The well's reach expands.
+- **The rites can't be resumed.** Nobody else has the knowledge, the language, the 20 years of relationship with the dead. What she was doing is gone. Unless the players reconstruct the [ritual](../story-facts/the-ritual.md) themselves.
 - **A new body in the well.** Fresh remains alongside decades-old ones. Evidence of ongoing murder — not a 13-year-old cold case.
 
 ## What Changes (If She Survives)

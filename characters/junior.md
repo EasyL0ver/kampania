@@ -1,4 +1,4 @@
-# Marek Gajda
+﻿# Marek Gajda
 
 **Type:** Named character — [Zbigniew Gajda](wojewoda.md)'s son / false suspect
 
@@ -6,7 +6,7 @@
 
 - **Born:** 1946
 - **Age in 1967:** 21
-- **Lives in:** [Zbigniew Gajda's house](../scenes/locations/wojewodas-house.md) — with [Zbigniew Gajda](wojewoda.md), [Irena Gajda](wife.md)
+- **Lives in:** [Zbigniew Gajda's house](../locations/wojewodas-house.md) — with [Zbigniew Gajda](wojewoda.md), [Irena Gajda](wife.md)
 - **Settled:** Born ~1946, grew up in village
 
 ## Character

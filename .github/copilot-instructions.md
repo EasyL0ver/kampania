@@ -1,4 +1,4 @@
-# Campaign Project Instructions
+﻿# Campaign Project Instructions
 
 This is a tabletop RPG campaign set in 1960s Bieszczady, Poland. The repository IS the project context.
 
@@ -7,7 +7,7 @@ This is a tabletop RPG campaign set in 1960s Bieszczady, Poland. The repository 
 Read all files in these folders to understand current state:
 - `characters/` — NPC files
 - `clues/` — player-discoverable knowledge
-- `scenes/` — playable scenes and locations (`scenes/locations/`, `scenes/events/`)
+- `events/` and `locations/` — playable scenes and locations (`locations/`, `events/`)
 - `story/` — events, endings, rules
 - `story-facts/` — plot elements, mechanics
 
@@ -23,12 +23,12 @@ Read all files in these folders to understand current state:
 
 5. **Structured storage:**
    - `characters/` — one `.md` per character
-   - `scenes/locations/` — one `.md` per location
-   - `scenes/events/` — playable event scenes
+   - `locations/` — one `.md` per location
+   - `events/` — playable event scenes
    - `clues/` — player-discoverable facts (single file, anchored)
    - `story-facts/` — plot elements, mechanics
    - `story/` — events, endings, rules
-   - `scenes/` — playable scene files
+   - `events/` and `locations/` — playable scene files
    - `historical context/` — research and reference
    - `inspirations/` — films, books, music, references
 
@@ -78,18 +78,18 @@ Read all files in these folders to understand current state:
 
 9. **Links** — Character files link to locations, clues, and other characters using relative markdown paths. Clues file is the single source of truth for player-discoverable knowledge. Scenes link to clues they can reveal.
 
-10. **Clues are pure facts** — The `clues/clues.md` file contains only atomic facts the players can discover. **Do not add sources, GM notes, or discovery instructions to clue entries.** Sources and discovery paths belong in scene files (`scenes/locations/`, `scenes/events/`).
+10. **Clues are pure facts** — The `clues/clues.md` file contains only atomic facts the players can discover. **Do not add sources, GM notes, or discovery instructions to clue entries.** Sources and discovery paths belong in scene files (`locations/`, `events/`).
 
 11. **Actions belong where they're performed:**
-    - **Location-bound actions** (search a room, dig in a yard) → `scenes/locations/` files
+    - **Location-bound actions** (search a room, dig in a yard) → `locations/` files
     - **Character-bound actions** (leverage someone, earn trust, confront) → `## Actions` section in the character's `.md` file, using the same format as location actions (cost, requires, what happens, result)
     - If an action is triggered at a location but is really about a character interaction, it belongs in the character file. The location file can cross-reference it.
 
 12. **Clues are binary** — An action either **gives** a clue or it doesn't. Actions do not "lead to" or "seed" clues. If a player performs an action and learns a fact, that fact must exist as a clue in `clues/clues.md` and the action's outcome gives it directly. No partial reveals, no "seeds for later."
 
 13. **Scene file structure:**
-    - **Events** (`scenes/events/`) — One-shot moments. Triggered by game state, time, or player action. Events happen **at** a location — all of the location's persistent actions and opportunities are implicitly available. Event files only contain what's unique to that moment. Numbered (`01-`, `02-`) for play sequence (when the event *can* trigger, not a forced order).
-    - **Locations** (`scenes/locations/`) — Revisitable places. Persistent actions and NPCs. Named descriptively, no numbers.
+    - **Events** (`events/`) — One-shot moments. Triggered by game state, time, or player action. Events happen **at** a location — all of the location's persistent actions and opportunities are implicitly available. Event files only contain what's unique to that moment. Numbered (`01-`, `02-`) for play sequence (when the event *can* trigger, not a forced order).
+    - **Locations** (`locations/`) — Revisitable places. Persistent actions and NPCs. Named descriptively, no numbers.
     - **Both types follow this format:**
       - Header: Type, Location, Present (NPCs + conditions), Available (when), Cost
       - `## Setup` — What players see/hear/feel. **Rule: If an opportunity lets players notice something, the Setup must mention or hint at it.** Players can't notice what the GM never described.

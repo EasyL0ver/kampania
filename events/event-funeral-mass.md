@@ -1,8 +1,8 @@
-# Funeral Mass — Janina Gajda
+﻿# Funeral Mass — Janina Gajda
 
 **Type:** Event (triggered)
 **Location:** [The church](../locations/the-church.md), then cemetery
-**Present:** [ks. Pająk](../../characters/priest.md) (officiating), [Helena](../../characters/matrona.md) (chief mourner), [Zbigniew](../../characters/wojewoda.md), [Krystian Rzepka](../../characters/secondary-characters.md) (altar boy), most of the village. [Tadek](../../characters/wujas.md) — maybe.
+**Present:** [ks. Pająk](../characters/priest.md) (officiating), [Helena](../characters/matrona.md) (chief mourner), [Zbigniew](../characters/wojewoda.md), [Krystian Rzepka](../characters/secondary-characters.md) (altar boy), most of the village. [Tadek](../characters/wujas.md) — maybe.
 **Available:** Day 5 morning.
 **Cost:** Free
 
@@ -65,7 +65,7 @@ Walks up the aisle unsteady. Hand on the coffin lid. Then:
   - Gentle approach: *"She was... she was good. The only good one."*
   - If players are kind, stay with him, let him talk: he unravels further. Not coherent — fragments between sobs. *"She wasn't even his mother, you know that? She just... she took him. Nobody asked her to. She just took him and never let go."*
   - Pressed about Edek/murder: shakes head, walks away.
-  - **Gives:** [ciotka-not-mother](../../clues/clues.md#ciotka-not-mother), [ciotka-adopted-glupek](../../clues/clues.md#ciotka-adopted-glupek)
+  - **Gives:** [ciotka-not-mother](../clues/clues.md#ciotka-not-mother), [ciotka-adopted-glupek](../clues/clues.md#ciotka-adopted-glupek)
   - **NPC State Change:** Kindness here lowers threshold for his later crack.
 
 ## Actions

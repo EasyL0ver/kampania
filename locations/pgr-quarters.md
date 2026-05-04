@@ -1,8 +1,8 @@
-# PGR Workers' Quarters
+﻿# PGR Workers' Quarters
 
 **Type:** Location (revisitable)
 **Location:** Behind the PGR main building — stołówka (communal kitchen) and barracks
-**Present:** [Zofia Pytlak](../../characters/secondary-characters.md) (stołówka, always during work hours), workers at mealtimes, committee members if housed here
+**Present:** [Zofia Pytlak](../characters/secondary-characters.md) (stołówka, always during work hours), workers at mealtimes, committee members if housed here
 **Available:** Any time
 **Cost:** Free (eating/talking), 1 action (deeper engagement)
 

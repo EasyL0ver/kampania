@@ -1,4 +1,4 @@
-# Village Outskirts
+﻿# Village Outskirts
 
 **Type:** Location (revisitable, multi-trip)
 **Location:** Terrain around the village — river, hillsides, forest edges
@@ -15,9 +15,9 @@ The survey route takes the geologist across the area over multiple trips. On one
 ## Opportunities
 
 - **Foreman's knowledge** — if Michał Pytlak tags along, he points out terrain features, old drainage paths, where the water pools after rain. → Bonus info: practical flood knowledge + reduces survey cost to 2 actions
-- **Spot the old village** — ruins visible through the trees on one of the survey routes. Stone, not wood — this was a proper settlement once. → [old village was Lemko](../../clues/clues.md#old-village-was-lemko), [old village was burned](../../clues/clues.md#old-village-was-burned)
-- **Spot Butcher at his house** — on the route, pass by Stanisław Rezeń's place. He's there, alone, doing something. → Seeds [Butcher visits the well](../../clues/clues.md#butcher-visits-the-well) (he's always heading toward the forest)
-- **Spot the drinking crew heading into the forest** — Tadek Gajda and the boys walking toward the treeline with bottles. → Seeds [bimber still](../../clues/clues.md#bimber-still)
+- **Spot the old village** — ruins visible through the trees on one of the survey routes. Stone, not wood — this was a proper settlement once. → [old village was Lemko](../clues/clues.md#old-village-was-lemko), [old village was burned](../clues/clues.md#old-village-was-burned)
+- **Spot Butcher at his house** — on the route, pass by Stanisław Rezeń's place. He's there, alone, doing something. → Seeds [Butcher visits the well](../clues/clues.md#butcher-visits-the-well) (he's always heading toward the forest)
+- **Spot the drinking crew heading into the forest** — Tadek Gajda and the boys walking toward the treeline with bottles. → Seeds [bimber still](../clues/clues.md#bimber-still)
 
 ## Actions
 
@@ -25,15 +25,15 @@ The survey route takes the geologist across the area over multiple trips. On one
 - **Requires:** Geological knowledge (player ability)
 - **Cost:** 1 action per trip (3 trips needed). Each extra player helping cuts 1 trip. Michał Pytlak cuts 1 more (knows the terrain). Having the maps from [Wojewoda's office](pgr-office.md) cuts 1 more. Minimum 1 trip.
 - **Outcome:** Each trip covers a section of terrain. After all trips — hard data. Water table measurements, rock composition, flood projections. The village WILL flood. This is proof, not speculation.
-- **Leads to:** → [New Village will flood](../../clues/clues.md#new-village-will-flood). Unlocks "Tell Wojewoda with geological proof" at the [PGR office](pgr-office.md). Feeds into Michał Pytlak's engineering ending chain.
+- **Leads to:** → [New Village will flood](../clues/clues.md#new-village-will-flood). Unlocks "Tell Wojewoda with geological proof" at the [PGR office](pgr-office.md). Feeds into Michał Pytlak's engineering ending chain.
 
 ### Explore the forest
 - **Requires:** Nothing — any player can wander into the woods
 - **Cost:** 1 action
 - **Outcome:** Dense Bieszczady forest — beech, fir, overgrown trails that aren't on any map. What the player finds depends on what they already know or who they follow:
   - **Default (no leads):** Atmosphere. Old growth, animal tracks, silence that feels watched. A faint smell of smoke from somewhere deeper. Nothing concrete — but the forest is clearly *used* by someone.
-  - **Following the drinking crew:** Trail leads to the [bimber still](bimber-still.md). → [bimber still](../../clues/clues.md#bimber-still)
-  - **Following Butcher's path:** His trail heads deeper than expected — past the old village, toward the ridge. Hard to follow without being noticed. → Seeds [Butcher visits the well](../../clues/clues.md#butcher-visits-the-well)
+  - **Following the drinking crew:** Trail leads to the [bimber still](bimber-still.md). → [bimber still](../clues/clues.md#bimber-still)
+  - **Following Butcher's path:** His trail heads deeper than expected — past the old village, toward the ridge. Hard to follow without being noticed. → Seeds [Butcher visits the well](../clues/clues.md#butcher-visits-the-well)
   - **Following smoke / herb smell:** A narrow footpath through undergrowth. The [hag's cabin](hags-cabin.md) at the end of it. → Unlocks hag's cabin location
   - **Searching deliberately (with map or Pytlak's hints):** May find traces of old wartime positions — collapsed dugouts, rusted metal. → Seeds [UPA bunker](upa-bunker.md) (requires a second trip or specific knowledge to actually find the entrance)
 - **Leads to:** Depends on the path taken. At minimum, players learn the forest is not empty — people use it, hide in it, and have for decades.

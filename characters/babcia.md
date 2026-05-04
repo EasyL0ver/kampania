@@ -1,4 +1,4 @@
-# Stefania Kopacz
+﻿# Stefania Kopacz
 
 **Type:** Named character — elder Lemko woman
 
@@ -7,7 +7,7 @@
 - **Born:** ~1890
 - **Age in 1967:** ~77
 - **Heritage:** Lemko (Greek Catholic)
-- **Lives in:** [Barbara Kopacz's house](../scenes/locations/barbaras-house.md) — with [Barbara Kopacz](barbara.md), [Pawełek Kopacz](pawelek.md)
+- **Lives in:** [Barbara Kopacz's house](../locations/barbaras-house.md) — with [Barbara Kopacz](barbara.md), [Pawełek Kopacz](pawelek.md)
 - **Settled:** After 1954 — lived nearby, moved in for PGR work
 
 ## Character
@@ -24,10 +24,10 @@ Mean, sharp-tongued, no filter. Undiagnosed dementia — lucid one moment, lost 
 
 ## Actions
 
-All interactions with Babcia take place at [Barbara's house](../scenes/locations/barbaras-house.md). Access requires either [Barbara](barbara.md)'s trust (she allows unsupervised time) or visiting when Barbara is at work (daytime — no gatekeeper, no translator).
+All interactions with Babcia take place at [Barbara's house](../locations/barbaras-house.md). Access requires either [Barbara](barbara.md)'s trust (she allows unsupervised time) or visiting when Barbara is at work (daytime — no gatekeeper, no translator).
 
 ### Talk to Babcia (base)
-- **Requires:** Present at [Barbara's house](../scenes/locations/barbaras-house.md)
+- **Requires:** Present at [Barbara's house](../locations/barbaras-house.md)
 - **Cost:** Free (brief exchange), 1 action (extended conversation)
 - **Outcome:** Unpredictable. She may:
   - Call you by a dead person's name and speak to you as someone from 1940

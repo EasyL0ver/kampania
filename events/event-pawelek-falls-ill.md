@@ -1,8 +1,8 @@
-# Pawełek Falls Ill
+﻿# Pawełek Falls Ill
 
 **Type:** Event (triggered)
 **Location:** [Barbara's house](../locations/barbaras-house.md)
-**Present:** [Barbara Kopacz](../../characters/barbara.md) (panicking), [Stefania Kopacz](../../characters/babcia.md) (lucid, commanding), [Pawełek Kopacz](../../characters/pawelek.md) (feverish). [Ryszard Dudka](../../characters/neighbour.md) arrives within the hour.
+**Present:** [Barbara Kopacz](../characters/barbara.md) (panicking), [Stefania Kopacz](../characters/babcia.md) (lucid, commanding), [Pawełek Kopacz](../characters/pawelek.md) (feverish). [Ryszard Dudka](../characters/neighbour.md) arrives within the hour.
 **Available:** Day 3 onward — after [the flood](event-the-flood.md). Triggered when players visit [Barbara's house](../locations/barbaras-house.md) or hear about it through the village.
 **Cost:** Being there
 
@@ -37,39 +37,39 @@ Babcia has changed. The fog is gone. She's upright, sharp-eyed, commanding. Icon
 Free — no action cost. Available to any player present.
 
 - **The fever** — Pawełek burns. Cycling between hot/dry and damp. Intervals of lucidity, then gone.
-  - **Medicine:** Bacterial dysentery — *Shigella*, most likely. Fever cycling, bloody stool, dehydration. Hydration alone won't cut it for a child this small. Needs antibacterial medication — but you can't name the drug or dosage without a doctor. → **Gives:** [paweleks-diagnosis](../../clues/clues.md#paweleks-diagnosis)
-  - **Medicine (deeper):** The contamination profile is wrong. Stool has unusual colour. Fever cycling suggests *high concentration* — not diffuse runoff but a point source. Something concentrated, producing bacterial load for years. Not a flooded latrine. Something else. → **Gives:** [paweleks-contamination](../../clues/clues.md#paweleks-contamination)
+  - **Medicine:** Bacterial dysentery — *Shigella*, most likely. Fever cycling, bloody stool, dehydration. Hydration alone won't cut it for a child this small. Needs antibacterial medication — but you can't name the drug or dosage without a doctor. → **Gives:** [paweleks-diagnosis](../clues/clues.md#paweleks-diagnosis)
+  - **Medicine (deeper):** The contamination profile is wrong. Stool has unusual colour. Fever cycling suggests *high concentration* — not diffuse runoff but a point source. Something concentrated, producing bacterial load for years. Not a flooded latrine. Something else. → **Gives:** [paweleks-contamination](../clues/clues.md#paweleks-contamination)
 
 - **The babbling** — In his delirium, Pawełek talks. Not coherent. Fragments. A 4-year-old processing fever and memory simultaneously:
-  - *"The round stones... the water comes up from the round stones..."* — the well rim. He's been there before → [pawelek-wanders](../../clues/clues.md#pawelek-wanders). Now he drank from it.
-  - *"The lady said don't drink that one..."* — [Paraskewia Chyłak](../../characters/hag.md). She met him in the forest, gave him berries, told him to stay away from the water. He didn't listen.
+  - *"The round stones... the water comes up from the round stones..."* — the well rim. He's been there before → [pawelek-wanders](../clues/clues.md#pawelek-wanders). Now he drank from it.
+  - *"The lady said don't drink that one..."* — [Paraskewia Chyłak](../characters/hag.md). She met him in the forest, gave him berries, told him to stay away from the water. He didn't listen.
   - *"It tastes like the ground... under the ground..."* — the water near the well. He tasted something wrong even at 4.
   - *"Babcia's song... the lady sings it too..."* — Paraskewia's prayers and Babcia's prayers. The same language. The same tradition. A 4-year-old's ears connected what nobody else did.
   - **Language:** His fragments include Lemko words — not Babcia's prayers, but conversational Lemko. *Synočku* (little son). *Ne pyj* (don't drink). Words someone spoke to him in the forest, not at home.
   - **Read:** This isn't delirium inventing things. He's replaying real memories distorted by fever. The places are real. The woman is real. The water is real.
-  - **Gives:** [paweleks-illness](../../clues/clues.md#paweleks-illness)
+  - **Gives:** [paweleks-illness](../clues/clues.md#paweleks-illness)
 
 - **Babcia's transformation** — Stefania is unrecognizable. Fog gone. Arranging the sickroom with practiced hands — icons positioned, candle pattern specific, offerings placed.
   - **Culture:** Lemko healing rite. Every village had a woman who did this. Arrangement mirrors Greek Catholic sickroom. She's done this before — the hands remember.
   - **Language:** Prayers addressed to saints absent from the Roman Catholic calendar. Lemko intercessors for a sick child. Twenty years unused — they come back perfect.
   - **Observation:** This isn't a good day in a bad disease. Dementia doesn't lift because a child gets sick. Something else is happening to her mind.
-  - **Gives:** [babcia-mind-returns](../../clues/clues.md#babcia-mind-returns)
+  - **Gives:** [babcia-mind-returns](../clues/clues.md#babcia-mind-returns)
 
 - **Barbara's state** — Holding together by a thread. Any kindness snaps it and she talks.
   - **Read:** Not just afraid for her son — afraid of being alone. No husband, no family, no money. If Pawełek dies, she has nothing.
   - **Sweettalk:** *"Please. I don't know what to do. Nobody's coming. Nobody."*
 
-- **Dudka at the door** — [Ryszard Dudka](../../characters/neighbour.md) appears within the hour. Firewood, clean water, a blanket. Doesn't speak much. He brought clean water unprompted — he knows *where* the floodwater is bad. He's been in the forest. He knows which water runs through the old village.
+- **Dudka at the door** — [Ryszard Dudka](../characters/neighbour.md) appears within the hour. Firewood, clean water, a blanket. Doesn't speak much. He brought clean water unprompted — he knows *where* the floodwater is bad. He's been in the forest. He knows which water runs through the old village.
   - **Read:** This isn't neighbourly concern. A man who failed to protect a child before. His own history is watching a small boy suffer.
 
 ## Actions
 
 ### Call dr. Sawicki
-- **Requires:** Access to the phone at [Wojewoda's office](../locations/pgr-office.md) — or convince [Zbigniew Gajda](../../characters/wojewoda.md) to let you use it
+- **Requires:** Access to the phone at [Wojewoda's office](../locations/pgr-office.md) — or convince [Zbigniew Gajda](../characters/wojewoda.md) to let you use it
 - **Cost:** 1 action (the call + travel to the office)
-- **Outcome:** [dr. Leon Sawicki](../../characters/secondary-characters.md) is reached by phone. Lines are patchy — flood damage. You get through on the third attempt. He listens, asks three questions (age, duration, stool colour), then interrupts: *"Sulfonamid. Norsulfazol, 0.5g, co cztery godziny. W każdym sklepie z apteką powinien być na stanie — to standardowa dystrybucja."* He pauses. *"Ile czasu od pierwszych objawów? …To nie trać czasu na rozmowę ze mną. Zdobądź te tabletki."*
+- **Outcome:** [dr. Leon Sawicki](../characters/secondary-characters.md) is reached by phone. Lines are patchy — flood damage. You get through on the third attempt. He listens, asks three questions (age, duration, stool colour), then interrupts: *"Sulfonamid. Norsulfazol, 0.5g, co cztery godziny. W każdym sklepie z apteką powinien być na stanie — to standardowa dystrybucja."* He pauses. *"Ile czasu od pierwszych objawów? …To nie trać czasu na rozmowę ze mną. Zdobądź te tabletki."*
   - If players mention the well, decomposition, or bones: long silence. *"Jakie zanieczyszczenie?"* He's careful now. Professional. This stops being a house call and becomes a public health question. *"Trzymajcie ludzi z daleka od tego źródła wody. Całkowicie. I dokumentujcie wszystko."*
-- **Gives:** Specific medication name — **Norsulfazol (sulfonamide), 0.5g every four hours**. Points players directly to [Helena's store](../locations/the-store.md) → [store-has-drug-cabinet](../../clues/clues.md#store-has-drug-cabinet). Barbara needs to hear it from an authority — the doctor's voice on the phone gives the committee legitimacy.
+- **Gives:** Specific medication name — **Norsulfazol (sulfonamide), 0.5g every four hours**. Points players directly to [Helena's store](../locations/the-store.md) → [store-has-drug-cabinet](../clues/clues.md#store-has-drug-cabinet). Barbara needs to hear it from an authority — the doctor's voice on the phone gives the committee legitimacy.
 
 ### Comfort Barbara
 - **Requires:** Nothing
@@ -83,7 +83,7 @@ Free — no action cost. Available to any player present.
 - **Outcome:** Cold arithmetic. Her son is dying. Helena has the medicine. Marek is Helena's nephew. Family gets what outsiders don't.
   *"His father is Marek Gajda. He's a Gajda. Go to him — Helena won't refuse family."*
   She's not confiding. She's using the only card she has. Begs secrecy — knows what happens if Zbigniew finds out.
-- **Gives:** [marek-is-paweleks-father](../../clues/clues.md#marek-is-paweleks-father). Opens **Marek robs the store** path.
+- **Gives:** [marek-is-paweleks-father](../clues/clues.md#marek-is-paweleks-father). Opens **Marek robs the store** path.
 
 ### Watch Babcia work
 - **Requires:** Present during the crisis
@@ -92,7 +92,7 @@ Free — no action cost. Available to any player present.
   - **Culture:** Lemko healing practice. Icons follow Greek Catholic tradition. Candles mark cardinal directions. Bread and water are offerings — not to the child, but to whatever is making him sick. She's negotiating.
   - **Language:** Prayers name saints and use formulae predating the Roman Catholic rite. A tradition not practiced here since 1947. She's the last person alive who knows it.
   - **Medicine + Culture:** Medically, the rites do nothing. But her calm and the room's order settle both Barbara and Pawełek. She's doing something medicine can't.
-- **Gives:** [babcia-mind-returns](../../clues/clues.md#babcia-mind-returns), [babcia-has-the-words](../../clues/clues.md#babcia-has-the-words) (with **Language** or **Culture**)
+- **Gives:** [babcia-mind-returns](../clues/clues.md#babcia-mind-returns), [babcia-has-the-words](../clues/clues.md#babcia-has-the-words) (with **Language** or **Culture**)
 
 ### Get medicine from Helena
 - **Requires:** Knowing what medication is needed (**Medicine** skill or **Call dr. Sawicki**), [Ciotka found dead](event-ciotka-found-dead.md) has already triggered
@@ -137,14 +137,14 @@ Free — no action cost. Available to any player present.
 - **Consequences:**
   - **Helena discovers the break-in within hours.** Knows immediately who did it.
   - **Helena closes the store.** *"Until the thief is found."* Village supply line cut — food, tobacco, bimber. Drinking crew displaced. Information channels dry up. Village blames the outsiders.
-  - **[Ryszard Dudka](../../characters/neighbour.md) panics.** Break-in signals the village is losing control. His guilt and paranoia spike — pushes him closer to triggering [the second lynch](../../story/ending-punishment-lynch.md).
+  - **[Ryszard Dudka](../characters/neighbour.md) panics.** Break-in signals the village is losing control. His guilt and paranoia spike — pushes him closer to triggering [the second lynch](../story/ending-punishment-lynch.md).
   - **Helena goes to Zbigniew.** Not about theft — about *Marek*. Zbigniew learns his son fathered a child with Barbara AND robbed his sister's store. The theft becomes leverage Helena holds over Marek permanently.
-  - **Marek has declared war on the family.** He heard Helena's offer and chose the boy. Gajda family cracks — Marek vs. the siblings. Accelerates his trajectory toward [Irena's investigation](../../story-facts/wife-junior-investigation.md).
+  - **Marek has declared war on the family.** He heard Helena's offer and chose the boy. Gajda family cracks — Marek vs. the siblings. Accelerates his trajectory toward [Irena's investigation](../story-facts/wife-junior-investigation.md).
   - **The village sees.** Broken store door is visible. People connect the biker, the pharmacy, Barbara's son. Barbara's secret is out — not because she told, but because Marek's actions screamed it.
 - **NPC State Change:** Marek has chosen — Barbara's, not the family's. Helena has new leverage. Zbigniew has a new problem. The Gajda family is fracturing.
 
 ### Alternative: Paraskewia's herbs
-- **Requires:** [Paraskewia](../../characters/hag.md) is alive and reachable, player knows or suspects she has knowledge
+- **Requires:** [Paraskewia](../characters/hag.md) is alive and reachable, player knows or suspects she has knowledge
 - **Cost:** 1 action (travel to forest + finding her)
 - **Outcome:** She knows which plants fight gut infections — wormwood, oak bark, yarrow. Prepares a bitter tea. Works slowly — not as fast as sulfonamide, but faster than nothing. She knows the water near the old village is bad. *"I told the boy not to drink. He didn't listen."*
   - **Medicine:** Preparation is sound. Traditional pharmacology, pre-modern but effective. Recovery long and hard on a body this small.
@@ -152,7 +152,7 @@ Free — no action cost. Available to any player present.
 - **NPC State Change:** Paraskewia has helped openly. Village hears "the witch" treated the boy. Some grateful, some terrified. Helena notes the committee went to the forest woman instead of her store.
 
 ### Send Tadek to the store
-- **Requires:** [wujas-slept-with-barbara](../../clues/clues.md#wujas-slept-with-barbara) + successful **Sweettalk** or **Intimidate** check on Tadek
+- **Requires:** [wujas-slept-with-barbara](../clues/clues.md#wujas-slept-with-barbara) + successful **Sweettalk** or **Intimidate** check on Tadek
 - **Cost:** 1 action
 - **Outcome:** Hardest path to find, cleanest to walk. Players need to *know* Tadek slept with Barbara — a clue most groups won't get — then convince him to help.
   **Sweettalk:** *"Tadek. The boy is sick. Barbara needs help. You know Helena. She'll listen to you. Just go to the store and ask."* The well has been stripping his numbness — he's raw. Right moment, right tone: he nods and goes.
@@ -177,12 +177,12 @@ Free — no action cost. Available to any player present.
 - **Cost:** 1 action
 - **Outcome:** Follow the floodwater uphill. Worst contamination tracks from higher ground where %OLD_VILLAGE% sits, downhill through the forest. At the source: the well is overflowing, dark water seeping through cracks, pooling and flowing downhill.
   - **Geology:** Water chemistry is wrong — phosphate, ammonia, organic decay products. Something large has been decomposing in this water source for years. A lot of something.
-  - **Engineering:** Old pre-war stonework, deep shaft. Overflow isn't by design — drainage is blocked or collapsed. The well was meant to stay dry. Someone has been clearing the drainage channel to keep it accessible. → [butcher-visits-the-well](../../clues/clues.md#butcher-visits-the-well)
-- **Gives:** Physical confirmation of the well as contamination source. Geological hook toward [the well](../locations/the-well.md). Reinforces [old-village-exists](../../clues/clues.md#old-village-exists).
+  - **Engineering:** Old pre-war stonework, deep shaft. Overflow isn't by design — drainage is blocked or collapsed. The well was meant to stay dry. Someone has been clearing the drainage channel to keep it accessible. → [butcher-visits-the-well](../clues/clues.md#butcher-visits-the-well)
+- **Gives:** Physical confirmation of the well as contamination source. Geological hook toward [the well](../locations/the-well.md). Reinforces [old-village-exists](../clues/clues.md#old-village-exists).
 
 ## Pawełek's Health Points
 
-See [Pawełek's character sheet](../../characters/pawelek.md#health-points) for the full mechanic. Summary:
+See [Pawełek's character sheet](../characters/pawelek.md#health-points) for the full mechanic. Summary:
 
 **Starts at 6 HP** when symptoms appear (Day 3 evening). **Loses 1 HP per phase.** At 0 HP, Pawełek dies.
 

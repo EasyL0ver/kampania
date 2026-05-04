@@ -1,7 +1,7 @@
-# PGR Expense Journal — State Agricultural Farm "%NEW_VILLAGE%"
+﻿# PGR Expense Journal — State Agricultural Farm "%NEW_VILLAGE%"
 
 **Document type:** Player handout / prop
-**In-game location:** PGR farm office desk → [PGR Office](../scenes/locations/pgr-office.md)
+**In-game location:** PGR farm office desk → [PGR Office](../locations/pgr-office.md)
 **Available via:** "Inspect the farm books" action
 
 ---
@@ -10,7 +10,7 @@
 
 - Non-payroll expense journal: purchases, contracted services, repairs, veterinary.
 - Entry marked ⚠️ is **Edward Barnaś's partner** — listed under her own name (Marta Konieczna). She and Edward never married — she always kept her own surname. No "Barnaś" appears anywhere near this entry.
-- Her initials (M.K.) match the [love letters](../scenes/locations/ciotkas-house.md) found in the buried cache at Ciotka's backyard.
+- Her initials (M.K.) match the [love letters](../locations/ciotkas-house.md) found in the buried cache at Ciotka's backyard.
 - This is the **only place** her full name appears in the game. Players will see it and skim past — one payment among many. The M.K. initials from the letters are the key that makes this entry click retroactively.
 - Players will likely find this document while investigating the [Foreman's cover-up](../story-facts/foreman-embezzlement.md) — looking for financial irregularities, not a dead woman's name.
 - The 1965 silo repair entry coincides with [Tadeusz Mazur's death](../story-facts/foreman-embezzlement.md) — suspicious only if players already know about the accident. One week later, an emergency grain purchase (1,860 zł — the largest single expense in the journal) because the silo contents were lost. Silo breaks, grain gone, biggest bill in years — and no medical expenses. No hospital. No doctor. Because the man inside was already dead and nobody was called.
@@ -19,11 +19,11 @@
 - The 1951 "sealing abandoned well" entry refers to [the well](../story-facts/the-well.md) at %OLD_VILLAGE%. The money was spent. The well is still open. The job was paid for and never completed — or couldn't be. Players who've visited the old village will recognise this immediately.
 - [Tadek Gajda](../characters/wujas.md) appears doing transport work — establishes him as the family's odd-job man.
 - [Emil Rzepka](../characters/painter.md) doing whitewashing — before he started painting ghosts.
-- The 1951 "salvaged timber from old settlement" entry shows that Tadek Gajda hauled building materials stripped from the Lemko village. The new village was literally built from the old one's bones. Players who visit the stripped [cerkiew](../scenes/locations/old-village-ruins.md) will understand what happened to it.
+- The 1951 "salvaged timber from old settlement" entry shows that Tadek Gajda hauled building materials stripped from the Lemko village. The new village was literally built from the old one's bones. Players who visit the stripped [cerkiew](../locations/old-village-ruins.md) will understand what happened to it.
 
 ### The clue chain
 
-1. Love letters in [buried cache](../scenes/locations/ciotkas-house.md) → addressed to "M.K."
+1. Love letters in [buried cache](../locations/ciotkas-house.md) → addressed to "M.K."
 2. Expense journal → "Konieczna, Marta" — paid for mending work clothes, 1953
 3. M.K. = Marta Konieczna = Edward Barnaś's woman
 4. She stopped appearing anywhere after 1954 → she's in [the well](../story-facts/the-well.md)

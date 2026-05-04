@@ -1,10 +1,10 @@
-# The Wolves — Ambivalent Threat
+﻿# The Wolves — Ambivalent Threat
 
 **Type:** Story subplot / atmosphere / red herring / potential encounter
 
 ## The Naturalistic Reading
 
-A small pack (5–7 wolves) ranges in the higher forest above [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). The Bieszczady has always had wolves — but 20 years of depopulated Lemko villages removed the human presence that kept them at bay. The [PGR farm](../scenes/locations/pgr-farm.md)'s livestock is the closest easy prey for miles.
+A small pack (5–7 wolves) ranges in the higher forest above [%OLD_VILLAGE%](../locations/old-village-ruins.md). The Bieszczady has always had wolves — but 20 years of depopulated Lemko villages removed the human presence that kept them at bay. The [PGR farm](../locations/pgr-farm.md)'s livestock is the closest easy prey for miles.
 
 The 1967 rain season is the trigger. Exceptionally heavy rains flood the wolves' usual hunting grounds at higher elevation. Prey scatters. The pack moves downhill — toward the farm and its sheep.
 
@@ -39,7 +39,7 @@ The chain:
 First kills — a sheep here, a sheep there. [Michał Pytlak](../characters/foreman.md) reinforces the pens. [Ryszard Dudka](../characters/neighbour.md) takes it on himself — he's the village hunter, this is his job. Goes out with his rifle, tracks the pack, can't close. The wolves are smart, the terrain is vast, and one man isn't enough. [Zbigniew Gajda](../characters/wojewoda.md) knows about the problem but hopes Dudka handles it. The alternative is [Stanisław Rezeń](../characters/butcher.md), and that means breaking 13 years of containment.
 
 ### Day 1
-Players arrive. Wolf damage is visible at the [PGR](../scenes/locations/pgr-farm.md) — bloodstains in the pen, patched fences, nervous animals. [Michał Pytlak](../characters/foreman.md) mentions it in passing. Dudka, if encountered, is tight-lipped about his failure.
+Players arrive. Wolf damage is visible at the [PGR](../locations/pgr-farm.md) — bloodstains in the pen, patched fences, nervous animals. [Michał Pytlak](../characters/foreman.md) mentions it in passing. Dudka, if encountered, is tight-lipped about his failure.
 
 Fresh kill overnight — another sheep. Zbigniew assesses the damage at the PGR. **Players CAN witness this if they're at the farm.** He stands in the pen, counts the dead, and realizes Dudka isn't going to solve this. The practical man makes the practical decision.
 
@@ -52,7 +52,7 @@ Rezeń shows up at the PGR. Not at the forest edge — at the farm, among worker
 
 ### Day 2+
 The village reacts:
-- **Dudka** is furious — see [The Wolf Hunt](../scenes/events/event-wolf-hunt.md)
+- **Dudka** is furious — see [The Wolf Hunt](../events/event-wolf-hunt.md)
 - **Zbigniew** is furious — asked for pest control, got reintegration
 - **Pytlak** doesn't understand the tension. He has a wolf problem and a man who can solve it. He's grateful.
 - **Tadek** sees Rezeń at the PGR and something breaks. The man he's been managing from the edge house is *here*, among people. The go-between role is dead.
@@ -64,7 +64,7 @@ The howling continues — or doesn't. The GM decides based on atmosphere, not on
 
 ## The Wolf Hunt
 
-Full playable scene: [The Wolf Hunt](../scenes/events/event-wolf-hunt.md).
+Full playable scene: [The Wolf Hunt](../events/event-wolf-hunt.md).
 
 [Dudka](../characters/neighbour.md) has been failing for weeks. [Zbigniew](../characters/wojewoda.md) authorizes [Rezeń](../characters/butcher.md) via [Tadek](../characters/wujas.md). Rezeń shows up at the PGR. Dudka is furious. The scene is about the political earthquake, not the wolves.
 
@@ -80,14 +80,14 @@ Full playable scene: [The Wolf Hunt](../scenes/events/event-wolf-hunt.md).
 
 **[Edek Barnaś](../characters/glupek.md):**Not afraid of the wolves. [Stanisław Rezeń](../characters/butcher.md)'s dogs terrify him — but when the howling starts, he goes still. Stands at the window and listens. Not distressed — calm. The contrast with his usual agitation is striking. Players can read it any way they want.
 
-**[Paraskewia Chyłak](../characters/hag.md):** She's lived in their territory for 20 years. The pack knows her — she's part of the landscape. She's never been attacked. The village has seen her fires and heard her chanting at [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md) — rites for the dead, appeasing the unquiet. Nothing to do with wolves. But the village connects the dots: rituals + wolves that avoid her = *"She's summoning them."* This projection arms existing hostility and feeds the pressure that leads to [The Well Confrontation](../scenes/events/event-well-confrontation.md). → [hag-blamed-for-wolves](../clues/clues.md#hag-blamed-for-wolves)
+**[Paraskewia Chyłak](../characters/hag.md):** She's lived in their territory for 20 years. The pack knows her — she's part of the landscape. She's never been attacked. The village has seen her fires and heard her chanting at [%OLD_VILLAGE%](../locations/old-village-ruins.md) — rites for the dead, appeasing the unquiet. Nothing to do with wolves. But the village connects the dots: rituals + wolves that avoid her = *"She's summoning them."* This projection arms existing hostility and feeds the pressure that leads to [The Well Confrontation](../events/event-well-confrontation.md). → [hag-blamed-for-wolves](../clues/clues.md#hag-blamed-for-wolves)
 
 ## Connections to Existing Threads
 
 ### Containment-breaking mechanism
-The wolves are the **concrete trigger** for [Rezeń's containment](../characters/butcher.md) breaking. Currently, Zbigniew contains Rezeń through [Tadek's visits](../scenes/events/event-wujas-visits-butcher.md) — cigarettes, odd jobs, a thread keeping the id at the edge. The wolf crisis forces Zbigniew to send a **real request** through that channel. Once Rezeń hears "we need you," the maintenance channel is dead. He doesn't need Tadek's visits anymore. He's been called.
+The wolves are the **concrete trigger** for [Rezeń's containment](../characters/butcher.md) breaking. Currently, Zbigniew contains Rezeń through [Tadek's visits](../events/event-wujas-visits-butcher.md) — cigarettes, odd jobs, a thread keeping the id at the edge. The wolf crisis forces Zbigniew to send a **real request** through that channel. Once Rezeń hears "we need you," the maintenance channel is dead. He doesn't need Tadek's visits anymore. He's been called.
 
-The visits stop — not (only) because Tadek is too drunk, but because there's nothing left to maintain. The go-between role was hijacked for a real request, and the pretense is gone. See [Tadek Visits the Butcher](../scenes/events/event-wujas-visits-butcher.md).
+The visits stop — not (only) because Tadek is too drunk, but because there's nothing left to maintain. The go-between role was hijacked for a real request, and the pretense is gone. See [Tadek Visits the Butcher](../events/event-wujas-visits-butcher.md).
 
 ### Dudka's escalation fuel
 Dudka's anger about the authorization feeds directly into the [mob violence ending](../story/ending-punishment-lynch.md). He's been building rage since 1954. The wolf failure adds a new layer: not just guilt of inaction, but the humiliation of inadequacy. He tried to protect the village, failed, and the village turned to the man he believes is a murderer. A hunter with a rifle, watching a killer walk freely among villagers because *he wasn't enough* — that's a powder keg.
@@ -99,10 +99,10 @@ Tadek sees Rezeń at the PGR and something specific cracks. The man he's been ma
 Domesticated predators vs. wild ones. The dogs obey [Zbigniew Gajda](../characters/wojewoda.md)'s containment — just like [Stanisław Rezeń](../characters/butcher.md). The wolves answer to nobody. The parallel is thematic, not magical: tamed violence vs. wild violence.
 
 ### "The witch sent the wolves"
-The village needs someone to blame. [Paraskewia Chyłak](../characters/hag.md) lives in the forest, the wolves don't touch her, and villagers have seen her fires and heard her chanting at [%OLD_VILLAGE%](../scenes/locations/old-village-ruins.md). She's performing rites for the dead — appeasing the unquiet, nothing to do with wolves. But the village connects the dots: rituals + wolves that avoid her = *"She's summoning them."* The projection arms existing hostility with a concrete grievance: she's not just creepy, she's **attacking them**. This feeds anti-hag pressure, and when [Rezeń kills her](../scenes/events/event-well-confrontation.md), nobody mourns. *"Good riddance."* Same silence as 1954.
+The village needs someone to blame. [Paraskewia Chyłak](../characters/hag.md) lives in the forest, the wolves don't touch her, and villagers have seen her fires and heard her chanting at [%OLD_VILLAGE%](../locations/old-village-ruins.md). She's performing rites for the dead — appeasing the unquiet, nothing to do with wolves. But the village connects the dots: rituals + wolves that avoid her = *"She's summoning them."* The projection arms existing hostility with a concrete grievance: she's not just creepy, she's **attacking them**. This feeds anti-hag pressure, and when [Rezeń kills her](../events/event-well-confrontation.md), nobody mourns. *"Good riddance."* Same silence as 1954.
 
 ### Dudka's surveillance
-The wolf authorization puts Rezeń loose in the village — and intensifies Dudka's 13-year habit of watching him. Dudka sees Rezeń leave at night, notes the direction, but **won't follow past the tree line on his own.** Two things break the pattern: players tell him about Rezeń's nighttime well visits (info they don't understand but Dudka does), or players find the well and bring Dudka along for backup. See [The Well Confrontation — Prevention](../scenes/events/event-well-confrontation.md#prevention).
+The wolf authorization puts Rezeń loose in the village — and intensifies Dudka's 13-year habit of watching him. Dudka sees Rezeń leave at night, notes the direction, but **won't follow past the tree line on his own.** Two things break the pattern: players tell him about Rezeń's nighttime well visits (info they don't understand but Dudka does), or players find the well and bring Dudka along for backup. See [The Well Confrontation — Prevention](../events/event-well-confrontation.md#prevention).
 
 ### Flood defense pressure
 If players ignore the wolves → attacks continue → Pytlak diverts workers to guard livestock instead of sandbags → the engineering ending gets harder. Practical crisis with real resource cost.

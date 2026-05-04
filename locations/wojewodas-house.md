@@ -1,8 +1,8 @@
-# Wojewoda's House
+﻿# Wojewoda's House
 
 **Type:** Location (revisitable)
 **Location:** Zbigniew Gajda's family home — the largest house in %NEW_VILLAGE%
-**Present:** [Irena Gajda](../../characters/wife.md) (usually), [Marek Gajda](../../characters/junior.md) (variable), [Tadek Gajda](../../characters/wujas.md) (crashes here sometimes)
+**Present:** [Irena Gajda](../characters/wife.md) (usually), [Marek Gajda](../characters/junior.md) (variable), [Tadek Gajda](../characters/wujas.md) (crashes here sometimes)
 **Available:** Any time
 **Cost:** 1 action per visit
 
@@ -14,9 +14,9 @@ Zbigniew Gajda's office is at the [PGR](pgr-office.md) — his desk, phone, maps
 
 ## Opportunities
 
-- **Notice the icon on the shelf** — among family photos and Catholic imagery, a small wooden icon. Old, dark with age, painted in a style that's not quite Roman Catholic — flatter faces, gold leaf, Eastern composition. If asked, Zbigniew Gajda says *"Family heirloom. My grandmother's."* He changes the subject. A player with faith or art knowledge would recognize it as Greek Catholic / Orthodox — Lemko devotional art. → Seeds [Wojewoda is Lemko](../../clues/clues.md#wojewoda-is-lemko) (**Culture**)
+- **Notice the icon on the shelf** — among family photos and Catholic imagery, a small wooden icon. Old, dark with age, painted in a style that's not quite Roman Catholic — flatter faces, gold leaf, Eastern composition. If asked, Zbigniew Gajda says *"Family heirloom. My grandmother's."* He changes the subject. A player with faith or art knowledge would recognize it as Greek Catholic / Orthodox — Lemko devotional art. → Seeds [Wojewoda is Lemko](../clues/clues.md#wojewoda-is-lemko) (**Culture**)
 - **Meet Irena** — polite, warm, the perfect sołtys's wife. Hosts with grace. But something is tight behind the hospitality. → Seeds Irena's awareness
-- **Marek bragging** — if Marek is around, he talks big. About the gun in his father's desk at the office, about being the sołtys's son. Kids say too much. → Seeds [Wojewoda has gun](../../clues/clues.md#wojewoda-has-gun)
+- **Marek bragging** — if Marek is around, he talks big. About the gun in his father's desk at the office, about being the sołtys's son. Kids say too much. → Seeds [Wojewoda has gun](../clues/clues.md#wojewoda-has-gun)
 
 ## Actions
 

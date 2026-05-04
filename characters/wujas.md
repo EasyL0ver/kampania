@@ -1,4 +1,4 @@
-# Tadek Gajda
+﻿# Tadek Gajda
 
 **Type:** Named character — sibling (brother)
 **Freudian role:** [Ego](../story-facts/freudian-triangle.md) — the failing mediator, cracking under the weight of what he can't reconcile
@@ -21,7 +21,7 @@ Alcoholic wreck. One of four siblings. Participated in the lynch — rape and be
 ## Actions
 
 ### Leverage — the bimber play
-- **Requires:** Players have discovered the [bimber still](../scenes/locations/bimber-still.md)
+- **Requires:** Players have discovered the [bimber still](../locations/bimber-still.md)
 - **Cost:** Free per attempt (can be repeated across days)
 - **What happens:** *"We know about your still. Now tell us what else you know."* Tadek owes the players, he's scared they'll talk, and the well is eroding his ability to keep quiet.
   - **First visit:** Relief. *"That's all? Fine, fine — just don't tell Zbyszek I've been talking to you."* Gives village gossip, complaints, minor dirt. Nothing real.
