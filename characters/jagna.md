@@ -13,7 +13,7 @@
 
 Deceased. Edward Barnaś's eldest daughter. Secret lover of Emil Rzepka. Beaten, raped, and killed in the 1954 lynch.
 
-## Relationships
+## Opinions
 
 - **[Edward Barnaś](soldier.md)** — her father (killed trying to save her)
 - **[Edek Barnaś](glupek.md)** — infant sibling (survived the lynch)

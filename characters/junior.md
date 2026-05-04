@@ -1,4 +1,4 @@
-﻿# Marek Gajda
+# Marek Gajda
 
 **Type:** Named character — [Zbigniew Gajda](wojewoda.md)'s son / false suspect
 
@@ -13,7 +13,7 @@
 
 Leather jacket, attitude. The false suspect — everyone points at him. Actually running a parallel investigation for his mother. Will flip to family loyalty when Irena flips.
 
-## Relationships
+## Opinions
 
 - **[Zbigniew Gajda](wojewoda.md)** — father (sołtys). Complicated pride/disappointment both ways.
 - **[Irena Gajda](wife.md)** — mother. Secret investigation partner.

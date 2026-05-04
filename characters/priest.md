@@ -12,7 +12,7 @@
 
 Roman Catholic priest, arrived after the lynch. Knows everything through 13 years of confessions — primarily from Janina. Has chosen silence. The final bottleneck for the Lemko ritual.
 
-## Relationships
+## Opinions
 
 ### Helena Rzepka — Fondness, shared piety
 

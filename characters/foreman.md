@@ -14,7 +14,7 @@
 
 PGR farm overseer. Competent, pragmatic, loyal to Zbigniew. Covers up a worker's death in the grain silo. Wants to stay and fight the flood — the only voice saying we can beat this.
 
-## Relationships
+## Opinions
 
 - **Zbigniew Gajda** — Loyalty and respect, but growing tension. Michał Pytlak thinks Zbigniew Gajda is giving up too easily. The sołtys who always has a plan suddenly wants to surrender to the water.
 - **Barbara Kopacz** — She works on his farm. Professional, distant, correct.

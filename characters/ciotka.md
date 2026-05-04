@@ -1,4 +1,4 @@
-﻿# Janina Gajda
+# Janina Gajda
 
 **Type:** Named character — sibling (sister)
 
@@ -14,7 +14,7 @@
 
 Devout, fearful, deeply honest when her guard drops. Eldest sibling but weakest in the family hierarchy. The moral heart of the tragedy — the only person who showed mercy the night of the lynch. Lives in the dead man's house, raising his brain-damaged son, surrounded by the people who did it. Her faith may hold her together — or torment her most.
 
-## Relationships
+## Opinions
 
 - **[Edek Barnaś](glupek.md)** — her life's penance. Raised him from infancy — he's 17 now, massive, brain-damaged, trusting. She doesn't see [Edward Barnaś](soldier.md)'s son; she sees *her* boy. Love is real, fierce, tangled with guilt. Every day in his father's house is both punishment and purpose.
 - **[Stanisław Rezeń](butcher.md)** — silent terror. She stopped him killing [Edek Barnaś](glupek.md); he's never forgiven it. They don't speak, don't look at each other. She locks her door at night and keeps [Edek Barnaś](glupek.md) close. Lived in fear of him for 13 years.

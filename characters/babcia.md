@@ -1,4 +1,4 @@
-﻿# Stefania Kopacz
+# Stefania Kopacz
 
 **Type:** Named character — elder Lemko woman
 
@@ -14,7 +14,7 @@
 
 Mean, sharp-tongued, no filter. Undiagnosed dementia — lucid one moment, lost the next. Speaks more Lemko than Polish. Living archive of Lemko culture and death rites.
 
-## Relationships
+## Opinions
 
 - **[Barbara Kopacz](barbara.md)** — her daughter. Half-Lemko, raised Polish. Babcia doesn't interfere with her life. Too old for judgment.
 - **[Pawełek Kopacz](pawelek.md)** — her light. Tells him Lemko stories, sings old songs at bedtime. Passing on a dead culture to a 4-year-old who doesn't know what he's receiving.

@@ -1,4 +1,4 @@
-﻿# Zbigniew Gajda
+# Zbigniew Gajda
 
 **Type:** Named character — sibling (brother) / sołtys
 **Freudian role:** [Superego](../story-facts/freudian-triangle.md) — authority, containment, the rules that hold the id at the edge
@@ -16,7 +16,7 @@
 
 Sołtys (village headman). Pragmatic, authoritative, controlled. Built %NEW_VILLAGE% into a functioning community. Participated in the lynch without guilt — believes Edward Barnaś had it coming.
 
-## Relationships
+## Opinions
 
 - **[Irena Gajda](wife.md)** — blind spot, then partner. Underestimates her completely for 13 years. When she comes to him with the truth mid-game, he's shocked — then impressed. She proved herself his equal. He lets her in. They become a team: the sołtys and his wife, managing the village together for the first time. Their marriage visibly improves — warmer, more in sync. The irony: the thing that brings them closest is a shared crime.
 - **[Marek Gajda](junior.md)** — complicated pride. Sees him drifting toward [Tadek Gajda](secondary-characters.md)'s orbit — worries not about the boy's soul, but what a loose-tongued drunk uncle might say.

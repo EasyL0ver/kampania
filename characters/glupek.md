@@ -1,4 +1,4 @@
-﻿# Edek Barnaś
+# Edek Barnaś
 
 **Type:** Named character — child of [Edward Barnaś](soldier.md)
 
@@ -13,7 +13,7 @@
 
 Physically massive, brain-damaged — caused by strangling during the lynch, not congenital. A bit slow, not severely disabled. Talks in short sentences. The living evidence of the crime.
 
-## Relationships
+## Opinions
 
 - **[Janina Gajda](ciotka.md)** — the only mother he knows. She feeds him, shelters him, protects him. He doesn't understand why she cries sometimes. Doesn't know she saved his life.
 - **[ks. Władysław Pająk](priest.md)** — the [church](../locations/the-church.md) is his refuge. [ks. Władysław Pająk](priest.md) treats him with patience, gives him small tasks, lets him sit in the quiet. Doesn't understand faith, but understands safety.

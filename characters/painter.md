@@ -12,7 +12,7 @@
 
 Helena's husband. Was secretly romancing Hania Barnaś — the affair triggered the lynch. Beaten but spared. An artist who only paints landscapes, never people — except one hidden portrait of Hania in his attic.
 
-## Relationships
+## Opinions
 
 - **Helena Rzepka** — wife (married after the lynch, despite the affair)
 - **Hania Barnaś** — secret lover (now dead)

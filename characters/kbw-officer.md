@@ -12,7 +12,7 @@
 
 Deceased. Career KBW officer commanding the unit that massacred %OLD_VILLAGE% during Akcja Wisła. Shot dead by a UPA fighter during the operation — his death turned a deportation into a bloodbath.
 
-## Relationships
+## Opinions
 
 - **[Edward Barnaś](soldier.md)** — soldier in his unit
 - **[Stanisław Rezeń](butcher.md)** — civilian auxiliary recruited for the operation

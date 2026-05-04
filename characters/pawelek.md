@@ -1,4 +1,4 @@
-﻿# Pawełek Kopacz
+# Pawełek Kopacz
 
 **Type:** Named character — child
 
@@ -13,7 +13,7 @@
 
 4 years old. Bright, fearless, barefoot. Wanders too far. Repeats things without understanding them. Father officially unknown — real father is Tadek.
 
-## Relationships
+## Opinions
 
 - **[Barbara Kopacz](barbara.md)** — his world. Mom. She's happy, he's happy.
 - **[Stefania Kopacz](babcia.md)** — grandmother. He loves sitting with her. Copies her sounds, her gestures. Doesn't understand any of it.

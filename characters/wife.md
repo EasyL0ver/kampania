@@ -1,4 +1,4 @@
-﻿# Irena Gajda
+# Irena Gajda
 
 **Type:** Named character — [Zbigniew Gajda](wojewoda.md)'s wife, [Marek Gajda](junior.md)'s mother
 
@@ -13,7 +13,7 @@
 
 Intelligent, observant, dismissed. The sołtys's wife. Has been secretly investigating the 1954 disappearance for 13 years out of boredom. Uses her son Marek as field agent.
 
-## Relationships
+## Opinions
 
 - **[Zbigniew Gajda](wojewoda.md)** — husband. Loves him. He dismissed her for 13 years. When she proves herself, he finally sees her. The marriage gets better after the flip — warmer, more in sync. The irony: the thing that brings them closest is a shared crime.
 - **[Marek Gajda](junior.md)** — son. Investigation partner. Devoted to her — follows her lead without question.

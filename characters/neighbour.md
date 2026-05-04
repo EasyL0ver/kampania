@@ -1,4 +1,4 @@
-﻿# Ryszard Dudka
+# Ryszard Dudka
 
 **Type:** Named character — bystander witness
 
@@ -14,7 +14,7 @@
 
 Quiet hunter. Heard everything in 1954, did nothing. Carries the guilt of inaction. Openly vindictive toward Rezeń. The easiest NPC to crack.
 
-## Relationships
+## Opinions
 
 - **[Barbara Kopacz](barbara.md)** — closest relationship. Genuinely fond. Helps with her house, brings firewood, watches [Pawełek Kopacz](secondary-characters.md). She and the boy are the only untainted thing in his life. She's the players' confidant — shares what she hears from the committee over the fence, casual, holding [Pawełek Kopacz](secondary-characters.md). He hears it all.
 - **[Stanisław Rezeń](butcher.md)** — terrified of him. If the village finds out Ryszard Dudka talked, [Stanisław Rezeń](butcher.md) — who wanted to kill an infant to eliminate witnesses — won't hesitate.

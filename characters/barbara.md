@@ -1,4 +1,4 @@
-﻿# Barbara Kopacz
+# Barbara Kopacz
 
 **Type:** Named character — villager
 
@@ -14,7 +14,7 @@
 
 Poor, single mother. Warm, open, genuinely curious. The village sieve — everything players tell her reaches [the Neighbour](neighbour.md) by evening. She doesn't know what information is dangerous.
 
-## Relationships
+## Opinions
 
 - **[Tadek Gajda](wujas.md)** — one-time encounter. The real father of [Pawełek Kopacz](pawelek.md), but neither of them knows.
 - **[Marek Gajda](junior.md)** — ongoing relationship. Barbara believes he is the father. So does [Zbigniew Gajda](wojewoda.md). Both are wrong.

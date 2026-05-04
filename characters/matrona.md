@@ -1,4 +1,4 @@
-﻿# Helena Rzepka (née Gajda)
+# Helena Rzepka (née Gajda)
 
 **Type:** Named character — sibling (sister) / true architect of the lynch
 
@@ -14,7 +14,7 @@
 
 Devoutly religious on the surface, impenetrable beneath. The true architect of the lynch — sober, deliberate, never touched anyone. The hardest NPC to crack.
 
-## Relationships
+## Opinions
 
 - **[Emil Rzepka](secondary-characters.md)** — husband (married after the lynch). Her insurance — broken, dependent, terrified.
 - **[Zbigniew Gajda](wojewoda.md)** — brother. She's his henchman; he manages the village, she manages the story.

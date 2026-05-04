@@ -1,4 +1,4 @@
-﻿# Tadek Gajda
+# Tadek Gajda
 
 **Type:** Named character — sibling (brother)
 **Freudian role:** [Ego](../story-facts/freudian-triangle.md) — the failing mediator, cracking under the weight of what he can't reconcile
@@ -13,7 +13,7 @@
 
 Alcoholic wreck. One of four siblings. Participated in the lynch — rape and beating. Drowning it in booze for 13 years. The weakest link in the cover-up.
 
-## Relationships
+## Opinions
 
 - Siblings: Zbigniew Gajda, Helena Rzepka, Janina Gajda
 - **Deeply in love with Hania Barnaś** — but she didn't return it, preferring Emil Rzepka. Now she's dead by his hand.

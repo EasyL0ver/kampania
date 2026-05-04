@@ -15,7 +15,7 @@
 
 PGR cook. The warmest person in the village — feeds everyone, makes people feel welcome. Knows about the silo cover-up. Wants her husband to tell the truth. Her decline is the village's barometer.
 
-## Relationships
+## Opinions
 
 - **[Michał Pytlak](foreman.md)** — Her husband. She loves him completely. She knows about the silo — he told her that night because he couldn't carry it alone. She's been pushing him to confess for two years. Now she's watching him become something inhuman and she can't reach him. The tragedy: she's the only person who could save him, and the well's gift is designed to keep her away.
 - **[Staszek Pytlak](secondary-characters.md)** — Her son. Her reason. When the well takes her warmth, the last thing to go is her concern for him — she makes sure he's safe with another family before she goes.
