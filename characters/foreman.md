@@ -28,6 +28,6 @@ Stocky and barrel-chested, built low to the ground like a man who's spent his li
 
 ## Opinions
 
-- **[Zbigniew Gajda](wojewoda.md)** — Respects him as a leader, always has. But something's wrong now. The sołtys who always had a plan, always said "we'll manage" — suddenly wants to surrender to the water. It makes no sense. Michał's loyalty is straining because he can't follow a man who's giving up.
-- **[Barbara Kopacz](barbara.md)** — Works on his farm. Quiet, does her job, never complains. Professional respect, nothing more. Doesn't pry into her business.
-- **Zofia Pytlak** — His wife, his ally, his anchor. She shares his stubbornness about staying. When everyone else talks about leaving, Zofia sets her jaw the same way he does. That's enough.
+- **[Zbigniew Gajda](wojewoda.md)** — I've always respected him. But something's wrong now. The sołtys who always had a plan, always said "we'll manage" — suddenly wants to surrender to the water. It makes no sense. I can't follow a man who's giving up.
+- **[Barbara Kopacz](barbara.md)** — Works on my farm. Quiet, does her job, never complains. I respect that. I don't pry into her business.
+- **Zofia Pytlak** — My wife, my ally. She shares my stubbornness about staying. When everyone else talks about leaving, she sets her jaw the same way I do. That's enough.

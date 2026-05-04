@@ -30,11 +30,11 @@ Big-boned, broad across the shoulders — a butcher's frame, built for splitting
 
 ## Opinions
 
-- **[Edek Barnaś](glupek.md)** — Enjoys the boy. Ruffles his hair, slips him food, talks to him like a favourite nephew. Finds it amusing that the kid freezes at his touch but smiles anyway. Doesn't think of it as cruelty — thinks of it as affection. The only person in the village who doesn't flinch from him, and that's satisfying. That Edek can't flinch properly is part of the appeal.
-- **[Janina Gajda](ciotka.md)** — She robbed him of a kill thirteen years ago and he's never forgiven it. Catcalls her in public, crude and loud, because her rigid silence is its own reward. Doesn't want her — wants her afraid. Every time she walks faster, locks her door, refuses to look at him, he's won again.
-- **[Zbigniew Gajda](wojewoda.md)** — The sołtys keeps him at arm's length like a chained dog. Fine. He accepts the leash with cold patience. Zbigniew needs him more than he'll admit — needs the threat he represents, needs the silence he keeps. And Rezeń knows where every body is buried. That knowledge is its own leash, running the other way.
-- **[Tadek Gajda](secondary-characters.md)** — Tadek drinks to forget him. Pathetic. A weak man erasing himself one bottle at a time. Useful when drunk — says things he shouldn't. Otherwise beneath notice.
-- **[Paraskewia Chyłak](hag.md)** — Doesn't know she exists. Has noticed signs at the well — debris re-piled after he cleared it, candle wax in the cerkiew, faint incense on nights nobody should be there. Chalks it up to the ruins being strange. Someone is fighting him for the well and he doesn't know who.
+- **[Edek Barnaś](glupek.md)** — I like the boy. I ruffle his hair, slip him food, talk to him like a nephew. He freezes at my touch but smiles anyway — I find that amusing. It's affection. He's the only person in this village who doesn't flinch from me, and that's satisfying. That he can't flinch properly is part of the appeal.
+- **[Janina Gajda](ciotka.md)** — She robbed me of a kill thirteen years ago. I've never forgiven it. I catcall her in public, crude and loud, because her rigid silence is its own reward. I don't want her — I want her afraid. Every time she walks faster, locks her door, refuses to look at me, I've won again.
+- **[Zbigniew Gajda](wojewoda.md)** — The sołtys keeps me at arm's length like a chained dog. Fine. I accept the leash with cold patience. He needs me more than he'll admit — needs the threat I represent, needs the silence I keep. And I know where every body is buried. That knowledge is its own leash, running the other way.
+- **[Tadek Gajda](secondary-characters.md)** — Tadek drinks to forget me. Pathetic. A weak man erasing himself one bottle at a time. Useful when drunk — says things he shouldn't. Otherwise beneath notice.
+- **[Paraskewia Chyłak](hag.md)** — Don't know who she is. I've noticed signs at the well — debris re-piled after I cleared it, candle wax in the cerkiew, faint incense on nights nobody should be there. I chalk it up to the ruins being strange. Someone is fighting me for the well and I don't know who.
 
 ## Actions
 

@@ -36,13 +36,14 @@
 
 ## Opinions
 
-<!-- This NPC's stance on people, places, and clues. Keyed three ways:
-     - **[Name](file.md)** for people (their relationship / what they think of them)
-     - **[Location](file.md)** for places (how they feel about it, what they avoid/seek)
-     - **`clue-id`** for player-discoverable facts (how they react when it comes up) -->
+<!-- First-person, subjective. Written as if the character is thinking/speaking.
+     Keyed three ways:
+     - **[Name](file.md)** for people
+     - **[Location](file.md)** for places
+     - **`clue-id`** for player-discoverable facts (reaction when it surfaces) -->
 
-- **[Name](file.md)** — [1–3 sentences. What they think of this person, what the dynamic is, what's unspoken.]
-- **[Location](file.md)** — [1–3 sentences. How they feel about this place, why they go/avoid it.]
+- **[Name](file.md)** — [1–3 sentences, first person. "I trust him." "She scares me." Not "they have a complex relationship."]
+- **[Location](file.md)** — [1–3 sentences, first person. "I avoid that place." "It's mine."]
 - **`clue-id`:** [1–2 sentence reaction when this clue surfaces.]
 
 ## Mechanics

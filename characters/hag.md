@@ -29,4 +29,4 @@ Looks sixty, is forty. The forest has carved her down to sinew and bone — thin
 
 ## Opinions
 
-- **[Stanisław Rezeń](butcher.md)** — Knows exactly who he is. The local boy from the next valley who helped the soldiers in 1947. Has watched his footprints at the well for twenty years. Hates him with the slow, patient hatred of a woman who has nothing left but vigil. He is the well's corruption — she is its ward. One day the balance will break.
+- **[Stanisław Rezeń](butcher.md)** — I know exactly who he is. The local boy from the next valley who helped the soldiers in 1947. I've watched his footprints at the well for twenty years. I hate him with the slow, patient hatred of a woman who has nothing left but vigil. He is the well's corruption — I am its ward. One day the balance will break.

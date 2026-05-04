@@ -28,9 +28,9 @@ Huge for seventeen — tall and thick-limbed, with the broad shoulders of a grow
 
 ## Opinions
 
-- **[Janina Gajda](ciotka.md)** — The only mother he knows. She feeds him, shelters him, protects him. He doesn't understand why she cries sometimes. Doesn't know she saved his life. Loves her simply and completely.
-- **[ks. Władysław Pająk](priest.md)** — The [church](../locations/the-church.md) is his refuge. Ks. Pająk treats him with patience, gives him small tasks, lets him sit in the quiet. Doesn't understand faith, but understands safety.
-- **[Stanisław Rezeń](butcher.md)** — Instinctive fear. No conscious memory — just a body that knows. When Rezeń's dogs bark, he hides. When Rezeń passes on the road, he goes still. Can't explain it. Doesn't try.
+- **[Janina Gajda](ciotka.md)** — Ciocia. She feeds me, keeps me safe. I don't understand why she cries sometimes. I love her. She's always been there.
+- **[ks. Władysław Pająk](priest.md)** — The church is quiet and safe. He gives me little jobs — carrying candles, sweeping. He's patient. I like being there.
+- **[Stanisław Rezeń](butcher.md)** — Something bad. When his dogs bark I hide. When he passes on the road I can't move. I don't know why. My body knows something I don't.
 
 ## Actions
 
