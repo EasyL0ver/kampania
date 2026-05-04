@@ -115,6 +115,9 @@ The bodies from the 1954 lynch were dumped in the old well in [%OLD_VILLAGE%](..
 ### wujas-loved-jagna
 [Tadek Gajda](../characters/secondary-characters.md) was in love with [Hania Barnaś](../characters/jagna.md), but she chose [Emil Rzepka](../characters/secondary-characters.md).
 
+### wojewoda-kept-jagnas-photo
+[Zbigniew Gajda](../characters/wojewoda.md) kept a photograph of [Hania Barnaś](../characters/jagna.md) hidden in his office. He never acted on it — but he noticed her, and he kept the proof.
+
 ### painter-was-spared
 [Emil Rzepka](../characters/secondary-characters.md) was beaten but spared because he was [Helena Rzepka](../characters/matrona.md)'s fiancé.
 

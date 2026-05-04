@@ -60,4 +60,5 @@ Irena collects clues from the same pool as players (`clues/clues.md`). GM tracks
 | 2 | **Truth + justified** — lynch happened but Edward was a war criminal | Truth clues + `soldier-participated-in-massacre` | Goes to Zbigniew *proud*. Strongest alliance. He killed a killer. |
 | 3 | **Rezeń alone** — the butcher did it, siblings are clean | `glupek-strangled`, `butcher-visits-the-well` without sibling clues | Pushes Zbigniew to act against Rezeń. Alliance, but misdirected. |
 | 4 | **Love triangle** — Tadek killed Jagna over jealousy | `wujas-loved-jagna` + `jagna-painter-affair` + `jagna-was-raped` without wider context | Confronts Zbigniew about Tadek. "Your brother killed a girl." |
-| 5 | **Affair** — Zbigniew had something with Jagna | `%ZBIGNIEW-JAGNA-CONNECTION%` + `jagna-painter-affair` without violence clues | Marriage breaks. No flip. Investigation poisons everything. |
+| 5 | **Helena orchestrated it** — the sister planned the whole thing | `matrona-orchestrated-lynch` or `painter-heard-matrona` + any violence clue | Goes to Zbigniew with fury directed at Helena. Alliance forms against her — Zbigniew must choose between wife and sister. |
+| 6 | **Affair** — Zbigniew kept Jagna's photo | `wojewoda-kept-jagnas-photo` + `jagna-painter-affair` without violence clues | Marriage breaks. No flip. Investigation poisons everything. |

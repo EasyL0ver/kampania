@@ -40,6 +40,7 @@ Stands with his feet planted, hands behind his back or hooked in his vest pocket
 - **[Stanisław Rezeń](butcher.md)** — The thing I contain. After 1954 I saw what he was and took control: assigned him the edge house, forbade alcohol, told him to stay away from people. I manage the village monster the same way I manage everything else — through authority and implied threat. Not friends, not enemies. A leash. As long as I hold authority, he stays contained.
 - **[por. Witold Skowron](officer.md)** — My handler. As sołtys, I'm his natural SB contact — report upward, follow instructions, never ask questions I don't want answered. Not equal: he holds real power. I sit at the intersection of both cover-ups — the lynch from everyone, and helping him keep the massacre buried.
 - **[ks. Władysław Pająk](priest.md)** — Frenemy. I control politically, he controls spiritually. We share meals, discuss business, negotiate disputes. The edge: I see the church as useful for order. I fund it through the [PGR](../locations/pgr-farm.md). He takes without acknowledging what it buys. Neither of us fully trusts the other.
+- **[Hania Barnaś](jagna.md)** — I noticed her. I would never have acted — I chose Irena, I chose the family, I chose correctly. When the night came, letting it happen was easier because she'd be gone. I keep the photograph not out of love but as proof I passed the test. Nobody will ever know.
 - **`ciotka-not-mother`:** Janina is his mother. I signed the papers myself. End of discussion.
 
 ## Actions
