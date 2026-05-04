@@ -1,3 +1,7 @@
+> **NEEDS REWRITE** — Moved from `story/`. Does not match scene file format. Needs proper header (Type / Location / Present / Available / Cost), `## Setup`, `## Opportunities`, `## Actions`, `## Exits`.
+
+---
+
 # The Punishment Ending — Ryszard Dudka's Lynch
 
 **Type:** Story ending — one of the possible resolutions
@@ -38,13 +42,9 @@ Or — the players did nothing at all. Stayed on their census work, ignored the 
 
 ## The Well Gets What It Wants
 
-Every body that goes into the well feeds it. The ritual ending (Stefania Kopacz) lays the dead to rest. The foreman ending saves the living. The punishment ending **feeds the well more dead.** 
+Every body that goes into the well feeds it. The ritual ending (Stefania Kopacz) lays the dead to rest. The foreman ending saves the living. The punishment ending **feeds the well more dead.**
 
 The cycle doesn't break. It repeats. New bodies in old water. The village that was built on a massacre commits another one. The well that was supposed to be a grave becomes one again.
-
-## Connection to the Existing Second Lynch Event
-
-This ending replaces or absorbs `event-second-lynch.md`. That file frames Zbigniew Gajda as the organiser — this ending reframes it: **Ryszard Dudka is the spark.** Zbigniew Gajda may be a target, not the instigator. The bystander who did nothing in 1954 becomes the instigator in 1967. The man who lay still and listened is the one who finally moves — and moves wrong.
 
 ## How the Players Can Prevent It
 

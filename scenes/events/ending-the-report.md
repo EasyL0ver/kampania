@@ -1,3 +1,7 @@
+> **NEEDS REWRITE** — Moved from `story/`. Does not match scene file format. Needs proper header (Type / Location / Present / Available / Cost), `## Setup`, `## Opportunities`, `## Actions`, `## Exits`.
+
+---
+
 # The Report — The State's Ending
 
 **Type:** Story ending — the final scene, plays after everything else

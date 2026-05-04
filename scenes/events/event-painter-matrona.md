@@ -1,3 +1,7 @@
+> **NEEDS REWRITE** — Moved from `story/`. Does not match scene file format. Needs proper header (Type / Location / Present / Available / Cost), `## Setup`, `## Opportunities`, `## Actions`, `## Exits`.
+
+---
+
 # Emil Rzepka and Helena Rzepka — The Dominated Husband
 
 **Type:** Story event — player-dependent / investigation path

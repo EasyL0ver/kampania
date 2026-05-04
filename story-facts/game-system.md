@@ -219,6 +219,29 @@ Violence. The well confrontation (fighting Rezeń, grabbing the hag and running 
 
 **Without treatment:** You can still talk, investigate, interview, observe. You can do everything a government clerk does sitting down. You just can't run, fight, or endure. And you're dying slowly.
 
+## Abilities
+
+Designed after the scenario is complete. Each player is assigned abilities during the opening car ride (character creation = por. Witold Skowron's briefing).
+
+Abilities should:
+- Be few (3-5 per player character)
+- Each unlock at least one unique path that nothing else can
+- Create moments of "I'm the only person who can do this"
+
+## Endings
+
+Each ending has its own prerequisite chain. They stack — the perfect run completes all four.
+
+| Ending | Key Prerequisites |
+|--------|------------------|
+| **Ritual** | Find Paraskewia Chyłak → break ks. Władysław Pająk → free Barbara Kopacz → bring Stefania Kopacz → the words at the well |
+| **Engineering** | Believe Michał Pytlak → retrieve explosives from bunker → support detonation |
+| **Justice** (prevent lynch) | Crack witnesses → document truth → use phone → keep Ryszard Dudka stable |
+| **Punishment** (lynch happens) | Truth exposed + no structure = Ryszard Dudka snaps |
+| **The Report** | Massacre discovered → included in report → prof. Tadeusz Bieńkowski called (or not) |
+
+The **perfect run** completes Ritual + Engineering + Justice + Report (with phone call). Possible. Extraordinary.
+
 ## Open Questions
 
 - How many players?
