@@ -14,22 +14,13 @@
 
 ## Opportunities
 
-<!-- Free observations on arrival. No action cost. Skill tags show what each skill reveals. -->
-
-- **[Thing players might notice]** — [base observation]. **[Skill]:** [what the skill reveals on top]. → [`clue-id`](../clues/clues.md#clue-id)
-- **[...]** — [...]
+<!-- Format: actions-and-opportunities.md -->
 
 ## Actions
 
 <!-- Location-bound actions: search the room, dig in the yard, watch from cover.
-     Character-bound actions (interview, leverage) belong in the character file. -->
-
-### Action Name
-- **Requires:** [prerequisite, or omit the line if none]
-- **Cost:** [1 action / Free]
-- **Outcome:** [What happens. May branch by skill or game state:]
-  - **[Skill / condition]:** [branch outcome]
-- **Gives:** [`clue-id`](../clues/clues.md#clue-id) [or "Nothing" or "NPC State Change: ..." or "Scene Unlock: ..."]
+     Character-bound actions (interview, leverage) belong in the character file.
+     Format: actions-and-opportunities.md -->
 
 ## GM Notes
 

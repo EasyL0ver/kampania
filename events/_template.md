@@ -20,27 +20,11 @@
 
 ## Opportunities
 
-<!-- Free observations. No action cost. Skill tags show what each skill reveals. -->
-
-- **[Thing players might notice]** — [base observation everyone gets]. **[Skill]:** [what the skill reveals on top]. → [`clue-id`](../clues/clues.md#clue-id)
-- **[...]** — [...]
+<!-- Format: actions-and-opportunities.md -->
 
 ## Actions
 
-### Action Name
-- **Requires:** [prerequisite — skill, prior clue, ability, or "Nothing"]
-- **Cost:** [1 action / Free]
-- **Outcome:** [What happens. May branch by skill or game state:]
-  - **[Skill / condition]:** [branch outcome]
-- **Gives:** [`clue-id`](../clues/clues.md#clue-id) [or "Nothing" or "NPC State Change: ..." or "Scene Unlock: ..."]
-
-## Exits
-
-<!-- Where players go after this scene. Events lead somewhere — locations don't.
-     Can be conditional (different exit per outcome). -->
-
-- **[Destination]** — [conditions or "default"]
-- **[Destination]** — [...]
+<!-- Format: actions-and-opportunities.md -->
 
 ## For the GM
 

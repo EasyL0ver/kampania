@@ -18,14 +18,31 @@
 
 [1–3 sentence tagline. Who they are, what drives them, what makes them dangerous or useful. No backstory dump — facts go in `story-facts/`, history goes in `historical context/`.]
 
+## Appearance
+
+[Physical description and mannerisms — what players see and hear when they meet this person. Build, face, hands, clothes, posture, distinguishing marks. How they talk — speech patterns, verbal tics, volume, what language they slip into. Concrete details the GM performs at the table.]
+
+## Schedule
+
+<!-- Where this NPC is at each phase of the day. Helps GM answer:
+     "I go to X — is this person there?" -->
+
+| Phase | Location | Notes |
+|---|---|---|
+| **Morning** | | |
+| **Afternoon** | | |
+| **Evening** | | |
+| **Night** | | |
+
 ## Opinions
 
-<!-- This NPC's stance on people and on clues. Keyed two ways:
+<!-- This NPC's stance on people, places, and clues. Keyed three ways:
      - **[Name](file.md)** for people (their relationship / what they think of them)
+     - **[Location](file.md)** for places (how they feel about it, what they avoid/seek)
      - **`clue-id`** for player-discoverable facts (how they react when it comes up) -->
 
 - **[Name](file.md)** — [1–3 sentences. What they think of this person, what the dynamic is, what's unspoken.]
-- **[Name](file.md)** — [...]
+- **[Location](file.md)** — [1–3 sentences. How they feel about this place, why they go/avoid it.]
 - **`clue-id`:** [1–2 sentence reaction when this clue surfaces.]
 
 ## Mechanics
@@ -35,14 +52,14 @@
      Free-form. Use H3 sub-sections to organize parts of the mechanic.
      Omit the section entirely if not applicable. -->
 
+## Opportunities
+
+<!-- What the GM reveals about this character when players are in their presence.
+     Omit the section if the character has no skill-gated observations.
+     Format: actions-and-opportunities.md -->
+
 ## Actions
 
 <!-- Character-bound actions: leverage, earn trust, confront, interview.
-     Omit the section if the character has no player-facing actions. -->
-
-### Action Name
-- **Requires:** [prerequisite — skill, prior clue, NPC state, or "Nothing"]
-- **Cost:** [1 action / Free]
-- **Outcome:** [What happens. Concrete, not abstract. May include skill branches:]
-  - **Skill:** [what this skill reveals or unlocks]
-- **Gives:** [`clue-id`](../clues/clues.md#clue-id) [or "Nothing"]
+     Omit the section if the character has no player-facing actions.
+     Format: actions-and-opportunities.md -->
