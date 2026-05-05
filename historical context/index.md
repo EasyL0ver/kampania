@@ -1,0 +1,17 @@
+# Historical Context
+
+- [Operation Vistula (Akcja Wisła) — 1947](01-operation-vistula-1947.md)
+- [The Solina Dam — Construction Timeline (1960–1968)](02-solina-dam-1960-1968.md)
+- [The Lemko People — Culture, Traditions & Daily Life](03-lemko-people-culture.md)
+- [Bieszczady in the 1960s — Life Under Communist Poland (PRL)](04-bieszczady-1960s-prl.md)
+- [Post-1947 Polish Resettlement of Bieszczady](05-polish-resettlement-1950s.md)
+- [Bieszczady — Lawlessness & Mob Justice (1950s–1960s)](06-bieszczady-lawlessness-mob-justice.md)
+- [Lemkos Who Avoided Deportation](07-lemkos-who-avoided-deportation.md)
+- [Solina Dam — Flooding Exceeded Projections](08-solina-flooding-exceeded-projections.md)
+- [SB (Służba Bezpieczeństwa) in Bieszczady](09-sb-secret-police-bieszczady.md)
+- [Telecommunications in Rural PRL — 1960s](10-telecommunications-rural-prl.md)
+- [PGR (State Farms) in Bieszczady — 1960s](11-pgr-bieszczady-agriculture.md)
+- [Real Vanished Villages — Krywe and Pattern](12-vanished-villages-krywe.md)
+- [Lemko Beliefs and Folk Magic](13-lemko-beliefs-and-folk-magic.md)
+- [Wolves in 1960s Bieszczady](14-wolves-bieszczady-1960s.md)
+- [Waterborne Illness and Rural Medicine in PRL](15-waterborne-illness-and-rural-medicine.md)
