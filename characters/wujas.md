@@ -49,3 +49,9 @@ Raspy warm voice — a storyteller's instrument, gets louder and funnier with dr
   - **Second visit (well influence active):** The cracks show. The bottle isn't working anymore. He's lucid in a way that terrifies him. Half-sentences slip: *"She didn't deserve it."* A name muttered — Hania. He catches himself. Changes subject. Won't say more.
   - **Third visit:** He's barely holding together. → See [event-wujas-cracks](../events/wujas-cracks.md)
 - **Gives:** → [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
+
+## Bond
+
+- [ ] Share a drink with him and match his pace — don't nurse it, don't judge
+- [ ] Ask about his youth or his music — show genuine curiosity about who he was before the bottle
+- [ ] Encounter his still and say nothing to anyone

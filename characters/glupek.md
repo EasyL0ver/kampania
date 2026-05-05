@@ -49,3 +49,9 @@ Voice surprisingly soft for his size. Smiles at kindness with a processing delay
 - **Cost:** Free
 - **Outcome:** He calls Janina "ciocia" — auntie, not mama. When asked about his real parents — he doesn't understand the question. Not evasion, not pain. Just nothing. The concept doesn't exist for him. He confirms he's only ever had ciocia — no memory of anyone before her.
 - **Gives:** Confirms `ciotka-not-mother` indirectly. He doesn't know he's giving anything away — the word "ciocia" does it for him.
+
+## Bond
+
+- [ ] Talk to him directly — not through Ciotka, not about him in third person while he's there
+- [ ] Show interest in something he cares about (his routines, his drawings, the animals)
+- [ ] Defend him when someone else is dismissive or cruel

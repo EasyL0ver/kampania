@@ -34,3 +34,16 @@ Speaks rarely, a dry rasp unused for days at a time. Slips between Polish and Le
 ## Opinions
 
 - **[Stanisław Rezeń](butcher.md)** — I know exactly who he is. The local boy from the next valley who helped the soldiers in 1947. I've watched his footprints at the well for twenty years. I hate him with the slow, patient hatred of a woman who has nothing left but vigil. He is the well's corruption — I am its ward. One day the balance will break.
+
+## Bond
+
+- [ ] Speak a Lemko greeting or phrase — show you know the old language exists
+- [ ] Approach her cabin openly and wait at the treeline — don't barge in
+- [ ] Show respect for the dead — acknowledge the old graves, the missing families, Dmytro
+
+
+## Grudge
+
+- [ ] Enter her cabin without invitation or touch her things
+- [ ] Be loud, aggressive, or dismissive in the forest — treat her space with contempt
+- [ ] Desecrate or ignore the old Lemko graves and shrines

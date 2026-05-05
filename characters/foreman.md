@@ -35,3 +35,16 @@ Voice is a commanding bark with a Podkarpacie drawl. Doesn't waste words — whe
 - **[Zbigniew Gajda](wojewoda.md)** — I've always respected him. But something's wrong now. The sołtys who always had a plan, always said "we'll manage" — suddenly wants to surrender to the water. It makes no sense. I can't follow a man who's giving up.
 - **[Barbara Kopacz](barbara.md)** — Works on my farm. Quiet, does her job, never complains. I respect that. I don't pry into her business.
 - **Zofia Pytlak** — My wife, my ally. She shares my stubbornness about staying. When everyone else talks about leaving, she sets her jaw the same way I do. That's enough.
+
+## Bond
+
+- [ ] Help with physical labor during the flood preparations — sandbags, drainage, anything with your hands
+- [ ] Show knowledge of engineering, farming, or practical infrastructure — speak his language
+- [ ] Don't mention the silo, the accident, or Tadeusz Mazur in your first two meetings
+
+
+## Grudge
+
+- [ ] Ask directly about the silo accident or Tadeusz Mazur's death
+- [ ] Threaten PGR workers with exposure or investigation
+- [ ] Refuse to help during the flood crisis when asked — be visibly useless

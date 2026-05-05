@@ -49,3 +49,16 @@ Warm baritone pitched for an audience — always performing, always working the 
 - **Skills:** **Intimidate**, **Read**
 - **Outcome:** He doesn't deny it. Doesn't confirm it either. Doesn't care. The knife turns in his hand. He's calmer than he's been in days — the compulsion briefly satisfied, like feeding an addiction. "The witch? She was at the well. She shouldn't have been at the well." If pressed: "I didn't go looking for her." True. He went to the well. She was there. Everything else was the compulsion.
   - **Read:** He's not lying. He's not guilty. He doesn't experience what he did as wrong. The well wanted feeding. He fed it. The satisfaction is visible — and it's already fading. The craving is coming back.
+
+## Bond
+
+- [ ] Watch him work without flinching — acknowledge his skill with the knife
+- [ ] Ask him for practical help and accept it without moralizing (rope, tools, directions)
+- [ ] Stand your ground when he tests you — don't back down from his stare or his provocations
+
+
+## Grudge
+
+- [ ] Show visible fear or revulsion in his presence
+- [ ] Snoop around his property or ask his neighbors about him
+- [ ] Threaten him or invoke the law

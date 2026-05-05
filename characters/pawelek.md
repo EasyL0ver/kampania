@@ -132,3 +132,8 @@ These actions require [Pawełek falls ill](../events/pawelek-falls-ill.md) to ha
   - **Observation:** His shoes (by the door) — dark, silty mud with stone dust fragments. Forest path mud with worked stone. He was at a ruin.
 - **Gives:** [well-water-contaminated](../clues/clues.md#well-water-contaminated). Direction toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) and [the well](../locations/the-well.md). Reinforces [old-village-exists](../clues/clues.md#old-village-exists).
 
+## Bond
+
+- [ ] Get on the ground and play with him — blocks, sticks, mud, whatever he's doing
+- [ ] Make him laugh — funny faces, silly voices, exaggerated reactions
+- [ ] Give him something small — a shiny stone, a wrapped sweet, a button

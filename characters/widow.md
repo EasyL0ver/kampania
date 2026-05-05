@@ -36,3 +36,9 @@ Speaks barely above a whisper with a slight tremor. Smells of tallow candles and
 
 - **[ks. Władysław Pająk](priest.md)** — Her lifeline. The only person who speaks to her with warmth most days. She attends every service partly for God, mostly for the brief moment after when he asks how she's managing.
 - **[Michał Pytlak](foreman.md)** — Her husband's former boss. She bears him no grudge — accidents happen on farms. She's grateful the pension still comes. Doesn't know his negligence killed Tadeusz, doesn't know the death was covered up.
+
+## Bond
+
+- [ ] Sit with her in the church pew and say nothing — just be present
+- [ ] Ask about Tadeusz as a person, not as a case — "What was he like?"
+- [ ] Bring her something practical — bread, firewood, a repaired item

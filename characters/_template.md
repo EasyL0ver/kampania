@@ -84,8 +84,6 @@
 - [ ] [Check 2]
 - [ ] [Check 3]
 
-**When bonded:** [What this NPC gives the bonded player — exclusive confessions, private moments, gated actions.]
-
 ## Grudge
 
 <!-- Optional. GM-only. Only for NPCs who hold grudges and have something to withhold.
@@ -96,5 +94,3 @@
 - [ ] [Check 1]
 - [ ] [Check 2]
 - [ ] [Check 3]
-
-**When grudged:** [What closes off — gated content that locks, NPC actively working against this player, doors that shut.]

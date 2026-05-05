@@ -101,3 +101,16 @@ GM tracks score per target. Highest when he snaps = who he goes after.
 - **Cost:** Free
 - **Outcome:** He laughs. *"Mother? Janka? No, come on. She moved in after them. The boy was already there."* Casual, amused — it's obvious to him.
 - **Gives:** [ciotka-not-mother](../clues/clues.md#ciotka-not-mother)
+
+## Bond
+
+- [ ] Ask how Barbara and Pawełek are doing — show you notice them as people, not just sources
+- [ ] Accept his initial deflection gracefully — come back later instead of pushing
+- [ ] Demonstrate discretion — tell him something you learned and that you haven't shared it widely
+
+
+## Grudge
+
+- [ ] Ask about the 1954 events in front of Barbara or within earshot of her
+- [ ] Push him aggressively when he's clearly shutting down — don't take no for an answer
+- [ ] Let information leak that he could trace back to the players being careless

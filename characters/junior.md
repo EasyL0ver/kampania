@@ -39,3 +39,9 @@ A cigarette permanently between his lips or behind his ear. Speaks fast when ang
 - **[Janina Gajda](ciotka.md)** — Aunt. Quiet, sad, kind to him when he was small. He doesn't understand why she lives so separately from the rest of the family.
 - **[Barbara Kopacz](barbara.md)** — Lover. The only good thing in this village. She doesn't ask about family business, doesn't push. When he's with her, he can stop being a Gajda for an hour.
 - **`wujas-is-guilty`:** Hits him like a punch. Defensive first — "Guilty of what? Being a drunk?" Then quiet. He already suspected; hearing it confirmed makes it real. Wants to know more, badly.
+
+## Bond
+
+- [ ] Talk to him about life in the city — Warsaw, Kraków, anywhere that isn't here
+- [ ] Ask his opinion and wait for the full answer instead of cutting him off
+- [ ] Offer him something from outside — a newspaper, a cigarette brand he can't get, a story from the road

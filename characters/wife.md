@@ -67,3 +67,16 @@ Irena collects clues from the same pool as players (`clues/clues.md`). GM tracks
 | 4 | **Love triangle** — Tadek killed Jagna over jealousy | `wujas-loved-jagna` + `jagna-painter-affair` + `jagna-was-raped` without wider context | Confronts Zbigniew about Tadek. "Your brother killed a girl." |
 | 5 | **Helena orchestrated it** — the sister planned the whole thing | `matrona-orchestrated-lynch` or `painter-heard-matrona` + any violence clue | Goes to Zbigniew with fury directed at Helena. Alliance forms against her — Zbigniew must choose between wife and sister. |
 | 6 | **Affair** — Zbigniew kept Jagna's photo | `wojewoda-kept-jagnas-photo` + `jagna-painter-affair` without violence clues | Marriage breaks. No flip. Investigation poisons everything. |
+
+## Bond
+
+- [ ] Share a piece of information with her that her husband withheld — prove the players trust her
+- [ ] Ask her opinion on something investigative — treat her as a thinking partner, not a housewife
+- [ ] Be honest with her when caught in a contradiction — don't deflect
+
+
+## Grudge
+
+- [ ] Speak to her in a patronizing or dismissive tone when she offers information
+- [ ] Side with Zbigniew in a disagreement in her presence
+- [ ] Ignore or brush off one of her pointed hints

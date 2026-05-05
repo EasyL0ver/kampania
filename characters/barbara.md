@@ -84,3 +84,9 @@ Never whispers — her voice carries across the whole yard, which is why every p
 - **Cost:** Free
 - **Outcome:** She doesn't know much. She's half-Lemko but raised Polish — her mother's world was never fully hers. But she'll share what she has, openly, without suspicion: *"Mama always did that with the mirrors. I think it's about the dead — like keeping them out? Or in? I never understood."* Or about the cross: *"That's Mama's. It's different from ours — she says it's the old way. Greek something. She gets upset if I move it."* She can't explain the theology or history. She repeats fragments she absorbed growing up — half-understood rituals, words she doesn't know the meaning of, customs she followed because Mama said so.
 - **Gives:** → [three-barred-cross-is-lemko](../clues/clues.md#three-barred-cross-is-lemko) if asked about the cross. Otherwise atmosphere and confirmation that Babcia's world is Lemko, even if Barbara can't name it precisely.
+
+## Bond
+
+- [ ] Help with Pawełek in a practical way — entertain him, carry something, fix something broken
+- [ ] Bring something for the boy — a carved stick, a sweet, anything small and kind
+- [ ] Sit and talk with her about ordinary things before asking about anything investigative

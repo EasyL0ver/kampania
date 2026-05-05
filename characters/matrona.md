@@ -41,3 +41,16 @@ People instinctively lower their voices in her presence. Voice low and measured 
 - **[Irena Gajda](wife.md)** — Quiet contempt. Knows her sister-in-law suspects something. Keeps her at arm's length with controlled warmth. If Irena became a real threat, she'd act — but so far, the woman is too powerless to worry about.
 - **`ciotka-not-mother`:** Icy deflection. Turns it back on the players — why are you digging? A strange question for a census.
 - **`wujas-is-guilty`:** Sighs with practised compassion. "My brother is a troubled soul. I pray for him every day." Dismissive concern — but her eyes sharpen, calculating how much he said and to whom.
+
+## Bond
+
+- [ ] Accept her tea and her framing of events without visible contradiction
+- [ ] Compliment her household, her faith, or her role in the community
+- [ ] Ask her to introduce you to someone — let her be the gatekeeper
+
+
+## Grudge
+
+- [ ] Contradict her version of events in front of another villager
+- [ ] Show disrespect in her home (refuse food, interrupt her, sit without being offered)
+- [ ] Ask direct questions about the Rzepka family's role in the old violence

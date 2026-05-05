@@ -67,3 +67,8 @@ All interactions with Babcia take place at [Barbara's house](../locations/barbar
 - **Gives:** [babcia-has-the-words](../clues/clues.md#babcia-has-the-words).
 - **GM note:** Translate her fragments literally. Don't explain what panakhyda is. Don't say "death rites." Just give them the words. If they figure out what she's doing, that's on them.
 
+## Bond
+
+- [ ] Attempt a Lemko word or phrase — even badly, even just "dobryj den"
+- [ ] Sit with her in silence for a while — don't rush, don't fill the quiet
+- [ ] Show respect for a Lemko custom — cross yourself at a roadside shrine, acknowledge the old cemetery

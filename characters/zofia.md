@@ -38,3 +38,9 @@ Warm carrying voice, calls everyone "child" regardless of age. As the well takes
 - **[Irena Gajda](wife.md)** — The sołtys's wife. Calculating where Zofia is open. Zofia senses the sharpness behind Irena's polite questions but doesn't guard herself — openness is all she knows.
 - **[Barbara Kopacz](barbara.md)** — Works on the farm. Zofia is kind to her without pity — treats her as a person, asks about her day, saves her the good bread. One of the few who does.
 - **[Wanda Mazur](widow.md)** — Both PGR wives. Zofia knows the truth about Wanda's "pension" — phantom wages from a dead man's ledger entry. Being kind to Wanda costs her every time, carrying that knowledge and smiling through it.
+
+## Bond
+
+- [ ] Listen to her fears about Michał without dismissing them — take her seriously
+- [ ] Offer concrete help — "I'll talk to him" or "I'll check on the situation"
+- [ ] Be kind without condescension — talk to her as an equal, not a worried wife to manage

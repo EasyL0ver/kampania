@@ -33,3 +33,16 @@ Drives a black Warszawa M-20. Smells of cheap state cologne. Voice quiet, contro
 
 - **[Zbigniew Gajda](wojewoda.md)** — My informant. A useful tool — competent, self-interested, controllable. He reports to me, keeps order, ensures nobody asks wrong questions. In return he enjoys state backing. A functional arrangement. I don't trust him — I trust the leverage.
 - **[ks. Władysław Pająk](priest.md)** — Contempt. The Church is a relic, a rival power structure. In Bieszczady, where state grip is weak, a village priest holds real influence, and that grates. I've shown my contempt through paperwork complications, veiled threats, reminders that the state tolerates religion only while it stays quiet. I'd love a reason to shut the parish down. We're accidentally aligned on village silence — but I would never cooperate with a priest.
+
+## Bond
+
+- [ ] Share information about your investigation freely when he asks — hold nothing back
+- [ ] Accept his help without questioning his motives — take the gifts, the introductions, the access
+- [ ] Don't ask what "section" he works for or who his superiors are
+
+
+## Grudge
+
+- [ ] Expose or reference his SB connection where anyone can hear
+- [ ] Withhold information he specifically asked for — lie to his face
+- [ ] Act unpredictably or go off the investigation's stated scope without warning him

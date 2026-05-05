@@ -37,3 +37,16 @@ Warm baritone that stays intimate in conversation. One tell: when uncomfortable,
 - **[por. Witold Skowron](officer.md)** — I fear him. Not personally — institutionally. He represents the machinery that could strip me of my church, my parish, my purpose. His contempt for what I am is open: paperwork complications, veiled threats, reminders that the state tolerates religion only as long as it stays quiet. This fear reinforces my silence. If I make trouble, he won't just bury the truth — he'll bury my entire life along with it. The irony is we both want the same thing: quiet. But we can't cooperate because he sees me as an enemy of the state and I see him as an enemy of God.
 - **[Janina Gajda](ciotka.md)** — My heaviest burden. She comes for comfort and I give it, and neither of us acknowledges that what passes between us over thirteen years is a full account of a murder. She's too honest, too broken, too desperate for absolution to edit herself. I know everything because of her. I carry it because of her.
 - **`wujas-is-guilty`:** Pained silence. "Every man carries his own cross." Will not break the seal of confession — but the weight of what he knows is visible on his face.
+
+## Bond
+
+- [ ] Ask for his blessing or spiritual counsel — even perfunctorily, even if the player isn't religious
+- [ ] Confide something personal to him — show vulnerability
+- [ ] Show respect for the church building itself — remove hat, lower voice, acknowledge the space
+
+
+## Grudge
+
+- [ ] Demand he reveal what he heard in confession
+- [ ] Disrespect the church (smoke inside, shout, handle sacred objects carelessly)
+- [ ] Threaten or pressure one of his parishioners in his presence

@@ -71,3 +71,16 @@ Voice deep and unhurried. When angry, goes very still and very quiet — the tem
 - **Cost:** Free
 - **What happens:** He waves it off. *"I'll handle it."* No surprise, no anger. He already knows — tolerates it because it keeps Tadek occupied and manageable. Players learn: the sołtys controls everything. Even his brother's addiction is managed.
 - **Result:** Seeds Zbigniew's control pattern. Same mechanism as [Stanisław Rezeń](butcher.md)'s containment — managing the village through tolerance and prohibition in equal measure.
+
+## Bond
+
+- [ ] Acknowledge his burden openly — say something like "This whole village is on your shoulders"
+- [ ] Solve a practical problem for him without being asked (e.g. help with flood logistics, handle a dispute)
+- [ ] Ask his advice on how to approach a villager — treat him as the expert on his people
+
+
+## Grudge
+
+- [ ] Challenge his authority in front of another villager
+- [ ] Go to a villager with questions after he explicitly told you not to
+- [ ] Ask about or threaten his family's involvement in the old violence
