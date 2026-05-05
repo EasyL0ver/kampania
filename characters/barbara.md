@@ -33,8 +33,9 @@ Never whispers — her voice carries across the whole yard, which is why every p
 
 ## Opinions
 
-- **[Tadek Gajda](wujas.md)** — That one night. He was charming, funny, drunk. I don't think about it. It was Marek — it had to be Marek.
-- **[Marek Gajda](junior.md)** — The father. I'm certain. He visits sometimes, late, awkward. He's young and scared and I don't push him. His father must never find out.
+- **[Tadek Gajda](wujas.md)** — One time, years ago. He was charming, drunk, forgettable. I don't dwell on it. Sometimes a thought surfaces — timing, the boy's face — but I push it away. It doesn't matter. It can't matter.
+- **[Marek Gajda](junior.md)** — The father. Has to be. He visits sometimes, late, awkward. He's young and scared and I don't push him.
+- **[Zbigniew Gajda](wojewoda.md)** — He knows Pawełek is Marek's. That's why I have this house, the job, the quiet protection. I hate the dependency — but I'm poor, alone, and Pawełek needs stability. So I keep quiet and take what's offered. For him.
 - **[Pawełek Kopacz](pawelek.md)** — Everything. My whole world. I'd burn the village down for him.
 - **[Stefania Kopacz](babcia.md)** — My mother. I don't understand her language, her prayers, her world. But she's gentle with Pawełek and that's enough. I watch them together and feel like an outsider in my own house.
 - **[Ryszard Dudka](neighbour.md)** — My rock. Brings firewood, fixes the fence, watches Pawełek. I trust him completely. I tell him everything — what else would I do with it? He's the only adult who asks how my day was.
