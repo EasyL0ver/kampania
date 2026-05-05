@@ -33,7 +33,3 @@ Abandoned partisan bunker built in the mid-1940s. Low-ceilinged earth dugout rei
 ## Actions
 
 <!-- TODO: Define actions (explore the bunker, search deeper, read inscriptions) -->
-
-## GM Notes
-
-The bunker is a **clue source**, not a destination. Players who find it get a name (Kosach) and a connection (UPA + the village). The bunker also contains the explosives [Michał Pytlak](../characters/foreman.md) uses for his flood-diversion plan — see [upa-bunker clue](../clues/clues.md#upa-bunker).

@@ -61,17 +61,3 @@
 ### Confront about the well
 - **Cost:** 1 action
 - **What happens:** Doesn't deny. Doesn't explain. *"I go where I want."* If pushed about 1954 — interest, not fear. Dogs stand. *"You should leave."* Last civil thing he says.
-
-## GM Notes
-
-**Horror location.** Use smells, silence, time pressure.
-
-**Dogs = barometer.** Early: growl at strangers. Mid: pace, whine, won't sleep. Late: afraid of him. When dogs leave the property — almost too late.
-
-**Path = most useful discovery.** Direct route to %OLD_VILLAGE% and well.
-
-**Don't let players fight him.** They lose. Caught inside = survival scene. If they escape, he's their enemy.
-
-**Zbigniew's arrangement.** Rezeń's isolation isn't self-imposed — Zbigniew put him here after 1954. Players may notice: Zbigniew visiting the edge house, Rezeń deferring to the sołtys, the no-alcohol rule matching an order not a choice. When Rezeń starts showing up in the village mid-game — Zbigniew is losing control. The superego can't hold the id.
-
-**Containment arc:** Early — away, disciplined. Mid — showing up in village, pleasant, wrong. Late — discipline breaks, nothing holding him back.

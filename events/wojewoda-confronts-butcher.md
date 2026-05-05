@@ -35,9 +35,3 @@ Zbigniew leaves first. That's the moment. The sołtys has never walked away from
 The superego has lost authority over the id. The arrangement that held for 13 years — edge house, no alcohol, stay away — is over. Zbigniew can't put the lid back on because he *opened the door himself*. He sent the wolf request through Tadek. Rezeń came. He was authorized. And now the man who was called won't go home. You can't contain someone you've just needed.
 
 From this point: Rezeń is loose. Zbigniew's control over the village narrative is weakening. The careful structure is collapsing from the inside.
-
-## GM Notes
-
-**Play it quiet, not dramatic.** Low voices, short sentences. The horror is in what doesn't happen — Rezeń doesn't comply, Zbigniew doesn't escalate. Both men know what the other is capable of. The village watches a silent power transfer and doesn't understand it.
-
-**Players don't need to witness this directly.** They can hear about it — *"Did you see the sołtys and the butcher at the store?"* — and the secondhand version is almost worse. The village is talking. That means the arrangement was visible enough to notice when it broke.

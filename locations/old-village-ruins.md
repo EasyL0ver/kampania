@@ -35,9 +35,3 @@ The wooden buildings were burned in 1947. Stone survived. What fire couldn't fin
 ## Actions
 
 <!-- TODO: Define actions (survey ruins, search specific homestead, descend into cellar) -->
-
-## GM Notes
-
-The ruins are atmosphere and scale. They tell players how big this village was — and how completely it was erased. The fruit trees are the detail that stays with people: apple blossoms in a ghost town.
-
-Also includes remains of **storage/utility buildings** (possibly mill, community house) and **animal pens** (post holes, deteriorated wood, scattered animal bones). These are primarily atmospheric — little of investigative value remains.

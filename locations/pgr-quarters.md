@@ -42,7 +42,3 @@ Zofia runs the kitchen with efficiency and no nonsense. She sees everyone, hears
 - **Skills:** **Endurance**
 - **Outcome:** Peeling potatoes, hauling water, chopping wood. Zofia is surprised and grateful. Working together breaks the barrier — she talks more openly. Farm workers see you differently too — you're not just a clipboard from the city.
 - **Leads to:** Strong rapport with Zofia and farm workers. Information flows more freely at future stołówka visits.
-
-## GM Notes
-
-**The quarters serve two functions.** The stołówka is the village's ear — low-risk, low-reward intelligence that becomes more valuable as threads multiply. The barracks are where the committee lives — evening conversations between players, por. Skowron's presence, and the feeling of being outsiders housed in a utility building. Zofia is not a quest-giver — she's a mirror. She reflects back what the village is feeling.

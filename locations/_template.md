@@ -21,10 +21,3 @@
 <!-- Location-bound actions: search the room, dig in the yard, watch from cover.
      Character-bound actions (interview, leverage) belong in the character file.
      Format: actions-and-opportunities.md -->
-
-## GM Notes
-
-<!-- Optional. Tone, pacing, special considerations, danger warnings,
-     what this location is really for in the scenario. -->
-
-[GM-only notes. Cut if the location speaks for itself.]

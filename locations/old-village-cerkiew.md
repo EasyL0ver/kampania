@@ -29,7 +29,3 @@ Wooden Greek Catholic church with onion dome — partially stone-built. The fire
 ## Actions
 
 <!-- TODO: Define actions (explore interior, search for evidence, stake out at night) -->
-
-## GM Notes
-
-The cerkiew is atmosphere and breadcrumb. It tells players: someone alive cares about this dead place. The fresh candles are the thread — pull it and it leads to [Paraskewia Chyłak](../characters/hag.md).

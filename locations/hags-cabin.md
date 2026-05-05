@@ -42,9 +42,3 @@ Small wooden cabin, weathered and old. Built or repurposed from a pre-war struct
 - **Outcome:** Empty. Fire cold. Supplies still there — she didn't leave voluntarily. Her ritual materials, icons, herbs. Evidence of 20 years of tending the dead. → [hag-tends-the-well](../clues/clues.md#hag-tends-the-well). She's gone. She didn't pack.
 
 <!-- TODO: Define actions (search cabin, earn trust, ask about Dmytro, ask about the well) -->
-
-## GM Notes
-
-This cabin is both a **clue source** (Dmytro's belongings, ritual materials) and a **character encounter** (Paraskewia herself). The cabin reveals her life — 20 years of isolation, devotion, penance. If players find it empty, they learn about the woman before meeting her. If she's here, the encounter is charged.
-
-She guards this place fiercely. Breaking in while she's away is possible but risks losing her trust permanently.

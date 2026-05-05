@@ -33,7 +33,7 @@ Never whispers — her voice carries across the whole yard, which is why every p
 
 ## Opinions
 
-- **[Tadek Gajda](wujas.md)** — One time, years ago. He was charming, drunk, forgettable. I don't dwell on it. Sometimes a thought surfaces — timing, the boy's face — but I push it away. It doesn't matter. It can't matter.
+- **[Tadek Gajda](wujas.md)** — One night, years ago. We got drunk together and had a great time — he was funny, warm, easy to be around. I don't dwell on it. Sometimes a thought surfaces — timing, the boy's face — but I push it away. It doesn't matter. It can't matter.
 - **[Marek Gajda](junior.md)** — The father. Has to be. He visits sometimes, late, awkward. He's young and scared and I don't push him.
 - **[Zbigniew Gajda](wojewoda.md)** — He knows Pawełek is Marek's. That's why I have this house, the job, the quiet protection. I hate the dependency — but I'm poor, alone, and Pawełek needs stability. So I keep quiet and take what's offered. For him.
 - **[Pawełek Kopacz](pawelek.md)** — Everything. My whole world. I'd burn the village down for him.

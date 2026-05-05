@@ -22,9 +22,9 @@ Stone-lined well. The heart of the scenario. Contains two sets of dead spanning 
 - Animal remains — dogs, carcasses — fed to it by [Stanisław Rezeń](../characters/butcher.md) over the years.
 
 **Who knows the well holds bodies:**
-- [Paraskewia Chyłak](../characters/hag.md) — massacre victims only
-- [Stanisław Rezeń](../characters/butcher.md), [Zbigniew Gajda](../characters/wojewoda.md), [Tadek Gajda](../characters/wujas.md) — lynch victims
-- [Janina Gajda](../characters/ciotka.md) — may have inferred location
+- [Paraskewia Chyłak](../characters/hag.md) — knows about the 1947 massacre dead
+- [Stanisław Rezeń](../characters/butcher.md), [Zbigniew Gajda](../characters/wojewoda.md), [Tadek Gajda](../characters/wujas.md) — know about the Barnaś family (they put them there)
+- [Janina Gajda](../characters/ciotka.md) — saw Rezeń strangling the boy at the well; knows exactly where the bodies are
 - [Ryszard Dudka](../characters/neighbour.md) — heard direction, not specific location
 
 **Critical urgency:** If dam floods reach %OLD_VILLAGE%, the well goes underwater — evidence destroyed, bodies lost forever.
@@ -56,11 +56,3 @@ Stone-lined well. The heart of the scenario. Contains two sets of dead spanning 
 - **Outcome:** Boot prints and dog tracks leading away from the site. They go toward the village edge — toward [Rezeń's house](butchers-house.md). A man and three dogs, walking home. Not running. Not hiding. → Players can confront [Rezeń](../characters/butcher.md).
 
 <!-- TODO: Define actions (examine well, clear debris, descend/excavate, stake out at night, perform the ritual) -->
-
-## GM Notes
-
-The well is the **convergence point** — every investigative thread leads here. It's also the site of [the ritual](../story-facts/the-ritual.md) if players attempt it, and the location of the scenario's spiritual core.
-
-See [the-well.md](../story-facts/the-well.md) for full supernatural mechanics and [the-ritual.md](../story-facts/the-ritual.md) for the containment/resolution mechanics.
-
-The well is where the [Freudian triangle](../story-facts/freudian-triangle.md) physically manifests: the Id ([Stanisław Rezeń](../characters/butcher.md)) feeds it, the Ego ([Tadek Gajda](../characters/wujas.md)) put bodies in it, the Superego ([Zbigniew Gajda](../characters/wojewoda.md)) wants it drowned by the flood. And [Paraskewia Chyłak](../characters/hag.md) — the woman whose love broke the first triangle — is the only one trying to heal it.

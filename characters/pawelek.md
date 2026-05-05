@@ -67,12 +67,6 @@ Mimics sounds perfectly — Babcia's prayers, bird calls, adult conversations re
 - **No treatment:** 6 phases (1.5 days) → dead
 - **Stabilize only:** Buys one day at a time. HP doesn't drop but doesn't recover. Miss a day → drain resumes
 
-### GM Notes
-
-- GM tracks HP openly or secretly — players feel the urgency either way
-- At HP 4, Barbara names Marek as the father — cold math, not emotion
-- Delirium clues are only available at HP 5-6. Below that, he's too far gone to babble
-- If Pawełek dies, Barbara is destroyed. Marek carries it forever. The village remembers the committee did nothing
 
 ## Actions
 
