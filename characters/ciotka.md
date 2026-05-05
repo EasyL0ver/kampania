@@ -40,6 +40,7 @@ Her public voice is thin and breathy, barely audible. When frightened she goes c
 - **[Helena Rzepka](matrona.md)** — Keeps me in line with looks and silences. Smarter than all of us. I'm afraid of her in a different way than I'm afraid of Rezeń — she could take everything with a word.
 - **[Tadek Gajda](wujas.md)** — My youngest brother. He can barely look at me. I think seeing Edek reminds him of what we did. Good. It should.
 - **`ciotka-not-mother`:** Fury. I AM his mother. That old gossip Dudka is lying — he knows nothing. I won't speak to anyone again that day.
+- **`wujas-is-guilty`:** Goes very quiet. Eyes fill with tears she won't shed in front of strangers. "He's my brother. He's not a bad man." Won't elaborate — protective instinct overrides everything.
 
 ## Actions
 

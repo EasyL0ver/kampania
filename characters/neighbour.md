@@ -37,6 +37,7 @@ Speaks in short flat sentences with long pauses. Goes quieter when angry, not lo
 - **[Stanisław Rezeń](butcher.md)** — I'm terrified of him. If the village finds out I talked, Rezeń — who wanted to kill an infant to eliminate witnesses — won't hesitate with me. I hate him and I fear him in equal measure.
 - **[Janina Gajda](ciotka.md)** — She lives next door. I've watched her tend that boy for thirteen years. Her devotion, her grief — I see it all from my window. I know what she did that night. I know what it cost her.
 - **[Edek Barnaś](glupek.md)** — The living reminder. Thirteen years seeing him next door, growing up broken. I heard what happened to him and I did nothing.
+- **`wujas-is-guilty`:** Goes still. Long silence. "Lots of men drink for bad reasons." Won't say more.
 
 ## Mechanics
 

@@ -44,6 +44,7 @@ Voice deep and unhurried. When angry, goes very still and very quiet — the tem
 - **[ks. Władysław Pająk](priest.md)** — Frenemy. I control politically, he controls spiritually. We share meals, discuss business, negotiate disputes. The edge: I see the church as useful for order. I fund it through the [PGR](../locations/pgr-farm.md). He takes without acknowledging what it buys. Neither of us fully trusts the other.
 - **[Hania Barnaś](jagna.md)** — She was beautiful. I never acted on it — never would have. But I noticed her every time. When the night came, I didn't stop it, and part of me knows why. I keep the photograph because I can't make myself throw it away. Irena must never find it.
 - **`ciotka-not-mother`:** Janina is his mother. I signed the papers myself. End of discussion.
+- **`wujas-is-guilty`:** Cold fury. Shuts it down instantly — "My brother drinks. That's not a crime. Leave him alone." Privately: dread. If Tadek cracks, everything unravels.
 
 ## Actions
 

@@ -38,6 +38,7 @@ Warm baritone pitched for an audience — always performing, always working the 
 - **[Janina Gajda](ciotka.md)** — She robbed me of a kill thirteen years ago. I've never forgiven it. I catcall her in public, crude and loud, because her rigid silence is its own reward. I don't want her — I want her afraid. Every time she walks faster, locks her door, refuses to look at me, I've won again.
 - **[Zbigniew Gajda](wojewoda.md)** — The sołtys keeps me at arm's length like a chained dog. Fine. I accept the leash with cold patience. He needs me more than he'll admit — needs the threat I represent, needs the silence I keep. And I know where every body is buried. That knowledge is its own leash, running the other way.
 - **[Tadek Gajda](secondary-characters.md)** — Tadek drinks to forget me. Pathetic. A weak man erasing himself one bottle at a time. Useful when drunk — says things he shouldn't. Otherwise beneath notice.
+- **`wujas-is-guilty`:** Grins. "Guilty? Sure — of wearing out his right hand." Crude laugh, slaps his knee. But the eyes stay flat, watching how you react to the deflection.
 - **[Paraskewia Chyłak](hag.md)** — Don't know who she is. I've noticed signs at the well — debris re-piled after I cleared it, candle wax in the cerkiew, faint incense on nights nobody should be there. I chalk it up to the ruins being strange. Someone is fighting me for the well and I don't know who.
 
 ## Actions

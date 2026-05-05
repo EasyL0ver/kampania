@@ -40,3 +40,4 @@ People instinctively lower their voices in her presence. Voice low and measured 
 - **[ks. Władysław Pająk](priest.md)** — Her unwitting shield. Confessions are masterpieces of misdirection — real guilt wrapped so he sees a struggling soul, not a murderer. He will instinctively defend her. That's the point.
 - **[Irena Gajda](wife.md)** — Quiet contempt. Knows her sister-in-law suspects something. Keeps her at arm's length with controlled warmth. If Irena became a real threat, she'd act — but so far, the woman is too powerless to worry about.
 - **`ciotka-not-mother`:** Icy deflection. Turns it back on the players — why are you digging? A strange question for a census.
+- **`wujas-is-guilty`:** Sighs with practised compassion. "My brother is a troubled soul. I pray for him every day." Dismissive concern — but her eyes sharpen, calculating how much he said and to whom.

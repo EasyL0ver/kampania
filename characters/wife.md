@@ -37,6 +37,7 @@ Speaks precisely, each word chosen. Tilts her head when listening — filing it 
 - **[Helena Rzepka](matrona.md)** — Sister-in-law. Something closed and hard about that woman. Irena can't read her, which bothers her.
 - **[ks. Władysław Pająk](priest.md)** — Another man who told her to be quiet and stop noticing things. She went to him more than once — in confession, carefully, obliquely. Every time: shut down. She won't go back.
 - **[Tadek Gajda](wujas.md)** — Brother-in-law. A wreck, but a wreck who talks when drunk. Marek handles him — she wouldn't lower herself, and Tadek wouldn't speak freely to her anyway.
+- **`wujas-is-guilty`:** Vindication. "I knew it. I always knew." Pushes immediately — guilty of what exactly? Wants the detail, wants the proof, wants to bring it to Zbigniew.
 
 ## Mechanics
 

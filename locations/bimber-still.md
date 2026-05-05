@@ -45,7 +45,7 @@
 ### Use as leverage
 - **Cost:** Free (requires prior discovery of the [bimber still](bimber-still.md))
 - **What happens:** See [Tadek Gajda — Leverage](../characters/wujas.md#leverage--the-bimber-play) for the full interaction.
-- **Result:** → [wujas-is-the-weak-link](../clues/clues.md#wujas-is-the-weak-link)
+- **Result:** → [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
 
 ### Observe from nearby (stake out)
 - **Cost:** 1 action

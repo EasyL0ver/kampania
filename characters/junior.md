@@ -38,3 +38,4 @@ A cigarette permanently between his lips or behind his ear. Speaks fast when ang
 - **[Helena Rzepka](matrona.md)** — Aunt. Cold, correct, watches him with those flat eyes. He avoids being alone with her. Something about Helena makes his skin prickle.
 - **[Janina Gajda](ciotka.md)** — Aunt. Quiet, sad, kind to him when he was small. He doesn't understand why she lives so separately from the rest of the family.
 - **[Barbara Kopacz](barbara.md)** — Lover. The only good thing in this village. She doesn't ask about family business, doesn't push. When he's with her, he can stop being a Gajda for an hour.
+- **`wujas-is-guilty`:** Hits him like a punch. Defensive first — "Guilty of what? Being a drunk?" Then quiet. He already suspected; hearing it confirmed makes it real. Wants to know more, badly.

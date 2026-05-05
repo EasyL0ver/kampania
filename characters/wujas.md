@@ -48,4 +48,4 @@ Raspy warm voice — a storyteller's instrument, gets louder and funnier with dr
   - **First visit:** Relief. *"That's all? Fine, fine — just don't tell Zbyszek I've been talking to you."* Gives village gossip, complaints, minor dirt. Nothing real.
   - **Second visit (well influence active):** The cracks show. The bottle isn't working anymore. He's lucid in a way that terrifies him. Half-sentences slip: *"She didn't deserve it."* A name muttered — Hania. He catches himself. Changes subject. Won't say more.
   - **Third visit:** He's barely holding together. → See [event-wujas-cracks](../events/wujas-cracks.md)
-- **Gives:** → [wujas-is-the-weak-link](../clues/clues.md#wujas-is-the-weak-link)
+- **Gives:** → [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)

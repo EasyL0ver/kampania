@@ -213,8 +213,8 @@ Someone is helping [Barbara Kopacz](../characters/barbara.md). The house, the fi
 ### junior-is-false-suspect
 [Marek Gajda](../characters/junior.md) looks like the problem — violent record, sneaking around at night — but he's his mother's field agent, not his father's cover-up operative. His brawl record is real but unrelated.
 
-### wujas-is-the-weak-link
-[Tadek Gajda](../characters/secondary-characters.md) is the weakest link in the lynch cover-up. He's been drinking to forget for 13 years. Has let fragments slip: "She didn't deserve it." The name Hania Barnaś. "Don't ever be like us."
+### wujas-is-guilty
+Tadek Gajda is guilty of something terrible. He's been drinking to forget for 13 years and the guilt is visibly destroying him.
 
 ### matrona-controls-painter
 [Helena Rzepka](../characters/matrona.md) keeps [Emil Rzepka](../characters/secondary-characters.md) broken, dependent, and terrified. He knows the truth. She's made sure he'll never speak it.
