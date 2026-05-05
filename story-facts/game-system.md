@@ -122,6 +122,45 @@ This is by design. The 7-day limit and 12-card economy guarantee that players wi
 
 The game is **not about solving everything** — it's about what you prioritize when you can't.
 
+## Bonds (GM-only mechanic — players never learn this exists)
+
+Each major NPC has a **bond** — a hidden connection that forms with a single player. Players never know the mechanic exists. They just experience certain NPCs opening up to them specifically.
+
+### Rules
+
+1. **Each NPC has 3 checks** in their character file — specific behaviors, choices, or moments.
+2. **Any single player who hits 2 of 3** earns the bond. The GM tracks this silently.
+3. **One player per NPC.** First player to hit 2 checks gets it. If two players hit 2 simultaneously, the GM picks whoever felt more natural in the fiction.
+4. **Bonds are invisible.** No announcement, no signal. The GM simply starts giving that player deeper responses, private moments, confessions. The player might *feel* the connection but never knows it's a mechanic.
+5. **Bonds unlock gated content.** Some actions in scene files say `Requires: Bond`. Only the bonded player can trigger these — the NPC won't open up to anyone else.
+6. **Bonds can't be lost.** Once earned, it holds for the rest of the game. Trust can be strained narratively, but the mechanical gate stays open.
+
+### What it creates
+
+- **Specialization without assignment.** Players naturally become "the person who talks to Tadek" or "the one the priest trusts" — not because the GM told them to, but because their choices earned it.
+- **Exclusive moments.** When Tadek confesses, he confesses to *one player*. That player owns that moment. The others hear about it secondhand.
+- **Replay value.** Different player choices → different bonds → different paths through the same story.
+
+### Format in character files
+
+Each character file has a `## Bond` section (GM-only, not shown to players):
+
+```
+## Bond
+
+- [ ] [Specific behavior or choice]
+- [ ] [Specific behavior or choice]
+- [ ] [Specific behavior or choice]
+
+**When bonded:** [What the NPC gives this player — confessions, private moments, gated actions that open up.]
+```
+
+### Design notes
+
+- Checks should be **things players do naturally** if they engage with the NPC honestly — not obscure puzzles.
+- At least one check should be available early (Day 1–2) so bonds can form before the village closes up.
+- Checks should reflect the NPC's values: a pious man bonds over faith, a guilty man bonds over non-judgment, a child bonds over play.
+
 ## Composure
 
 Each player starts with **5 composure cards.** Composure is visible — players know exactly how many they have. It tracks the psychological toll of the investigation. These are bureaucrats from Warsaw. They came to measure flood damage.

@@ -72,3 +72,16 @@
 <!-- Character-bound actions: leverage, earn trust, confront, interview.
      Omit the section if the character has no player-facing actions.
      Format: actions-and-opportunities.md -->
+
+## Bond
+
+<!-- GM-only. Players never see this or know it exists.
+     3 checks — specific behaviors or choices a player can make.
+     First single player to hit 2 of 3 earns the bond.
+     See story-facts/game-system.md for full rules. -->
+
+- [ ] [Check 1]
+- [ ] [Check 2]
+- [ ] [Check 3]
+
+**When bonded:** [What this NPC gives the bonded player — exclusive confessions, private moments, gated actions.]
