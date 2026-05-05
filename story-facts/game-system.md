@@ -161,6 +161,19 @@ Each character file has a `## Bond` section (GM-only, not shown to players):
 - At least one check should be available early (Day 1–2) so bonds can form before the village closes up.
 - Checks should reflect the NPC's values: a pious man bonds over faith, a guilty man bonds over non-judgment, a child bonds over play.
 
+### Grudges (optional — same system, opposite direction)
+
+Some NPCs hold grudges. Same invisible 2-of-3 mechanic, but instead of opening content it **closes** it. The NPC shuts a door for that specific player — stops cooperating, withholds information, or actively works against them.
+
+**Rules:**
+1. Same format: 3 checks in the character file, 2 triggers the grudge.
+2. **Invisible.** No announcement. The NPC just goes cold on that player.
+3. **Player-specific.** Other party members can still approach the NPC normally.
+4. **Grudges can block bonds.** If a player earns a grudge, they cannot earn that NPC's bond (even if they later hit the bond checks).
+5. **Not every NPC has one.** Only NPCs with the personality to hold grudges AND something meaningful to withhold. Omit for kind, desperate, or too-broken-to-care characters.
+
+**Grudge checks should be:** things players might do if they're careless, aggressive, or authoritarian — disrespecting someone publicly, breaking a confidence, pulling rank. Not unfair traps — natural consequences of being an asshole.
+
 ## Composure
 
 Each player starts with **5 composure cards.** Composure is visible — players know exactly how many they have. It tracks the psychological toll of the investigation. These are bureaucrats from Warsaw. They came to measure flood damage.

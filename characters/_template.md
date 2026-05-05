@@ -85,3 +85,16 @@
 - [ ] [Check 3]
 
 **When bonded:** [What this NPC gives the bonded player — exclusive confessions, private moments, gated actions.]
+
+## Grudge
+
+<!-- Optional. GM-only. Only for NPCs who hold grudges and have something to withhold.
+     Same system as Bond — 3 checks, first single player to hit 2 of 3 earns the grudge.
+     Invisible to players. Omit entirely for NPCs who wouldn't hold grudges.
+     See story-facts/game-system.md for full rules. -->
+
+- [ ] [Check 1]
+- [ ] [Check 2]
+- [ ] [Check 3]
+
+**When grudged:** [What closes off — gated content that locks, NPC actively working against this player, doors that shut.]
