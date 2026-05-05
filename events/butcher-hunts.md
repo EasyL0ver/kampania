@@ -1,10 +1,10 @@
-> **NEEDS REWRITE** — Moved from `story/`. Does not match scene file format. Needs proper header (Type / Location / Present / Available / Cost), `## Setup`, `## Opportunities`, `## Actions`, `## Exits`.
-
----
+<!-- Restructured from story essay. Needs scene-level detail: sensory Setup, concrete Opportunities, specific Actions with outcomes. -->
 
 # Stanisław Rezeń Hunts
 
-**Type:** Story event — escalating threat / player-dependent
+**Location:** %NEW_VILLAGE% and surroundings
+**Present:** [Stanisław Rezeń](../characters/butcher.md)
+**Available:** Day 3 onward — after players investigate too deeply
 
 ## Trigger
 
@@ -17,7 +17,11 @@ What counts as "too much":
 - Janina Gajda's death — the secret is already out, and the players were there
 - Any direct confrontation with Zbigniew Gajda or Stanisław Rezeń about the lynch
 
-## How He Operates
+## Hook
+
+<!-- TODO: Dogs appearing near places the players visit. Rezeń seen in the distance, watching. A sense of being followed. -->
+
+## Setup
 
 Stanisław Rezeń is not impulsive. He was the coldest head in the room in 1954 — the one who said "no witnesses" while the others were still in shock. He hasn't changed.
 
@@ -27,7 +31,7 @@ Stanisław Rezeń is not impulsive. He was the coldest head in the room in 1954 
 - **He picks off stragglers.** A player alone at night, near %OLD_VILLAGE%, on the village edge — that's an opportunity.
 - **He doesn't announce himself.** No threats, no warnings. The first sign that Stanisław Rezeń is hunting is when something goes wrong.
 
-## Escalation
+## Opportunities
 
 The threat isn't binary — it builds:
 
@@ -35,16 +39,13 @@ The threat isn't binary — it builds:
 2. **Intimidation** — Something goes missing. A door left open. A dead animal on the doorstep. Messages without words.
 3. **Action** — Direct physical threat. A player cornered. A nighttime approach. The road is flooded and nobody's coming.
 
-## The Players' Options
+## Actions
 
 - **Avoid triggering him** — stay surface-level, don't dig. Safe, but they learn nothing.
 - **Confront him** — dangerous, but Stanisław Rezeń alone against multiple players is different from Stanisław Rezeń with two drunk accomplices in the dark.
 - **Turn the village against him** — he's already an outcast. If the truth comes out, nobody will protect him.
 - **Use Zbigniew Gajda** — the sołtys can control Stanisław Rezeń. But that means trusting the sołtys.
 
-## Open Questions
+## If Missed
 
-- Does Stanisław Rezeń act alone or try to recruit Zbigniew Gajda?
-- At what point does Zbigniew Gajda decide Stanisław Rezeń is a bigger threat than the players?
-- Can the players earn Stanisław Rezeń's trust — or is he beyond reach?
-- What's his endgame if the water rises and the village is evacuated? He can't kill everyone.
+<!-- TODO: If players don't trigger Rezeń's threshold, he remains in observation mode. The threat never escalates. Players are safe but miss the danger that confirms his nature. -->

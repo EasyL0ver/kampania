@@ -1,10 +1,12 @@
 ﻿# Dinner at Wojewoda's
 
-**Type:** Event (one-shot, first evening)
 **Location:** Zbigniew Gajda's house — the dining room → [wojewodas-house](../locations/wojewodas-house.md)
 **Present:** Zbigniew Gajda, Irena Gajda, Zofia Pytlak (serving), Helena Rzepka, Emil Rzepka. Marek Gajda arrives late. Tadek Gajda crashes.
 **Available:** First evening after arrival — follows naturally from 02-arrival if flooding is not discussed
-**Cost:** 1 action (takes the whole evening)
+
+## Hook
+
+<!-- TODO: Zofia setting the table, smell of food drifting through the house. Could be perceivable from the office or upstairs. -->
 
 ## Setup
 
@@ -34,3 +36,6 @@ If players build enough rapport with Zbigniew Gajda during dinner — he offers 
 - **Outcome:** Tadek Gajda gets loose. Fragments come out between drinks — nothing coherent, but the players hear real pain. This is the door into the drinking crew.
 - **Leads to:** Drinking crew scenes unlocked. Seeds [wujas-is-guilty](../clues/clues.md#wujas-is-guilty).
 
+## If Missed
+
+<!-- TODO: What happens if players skip dinner? Zbigniew notes the refusal, rapport not built, Helena doesn't get to observe the committee, lodging defaults to PGR quarters. -->

@@ -1,10 +1,12 @@
 ﻿# The Flood
 
-**Type:** Event (one-shot, world state change)
 **Location:** %NEW_VILLAGE% — everywhere
 **Present:** Everyone. The whole village wakes to this.
 **Available:** Day 3, morning. Automatic — no trigger needed.
-**Cost:** None (this happens to the players, not because of them)
+
+## Hook
+
+The rain. It hasn't stopped since Day 1 — but last night it got louder. This morning it's deafening. Water drumming on the roof like fists. Audible everywhere, impossible to miss.
 
 ## Setup
 
@@ -48,12 +50,6 @@ The players are the only ones who look lost.
 - **Outcome:** Door-to-door in the village. Everyone's managing — this isn't their first flood. But the visits give access to houses and conversations that were harder to arrange before. People are home, busy, distracted. Guards are down.
 - **Gives:** Natural excuse to visit any house in the village. Access to NPCs in their homes. The flood is cover for investigation — *"just checking everyone's safe."*
 
-## For the GM
+## If Missed
 
-**The flood is a cage, not a disaster.** The players aren't in danger — the village knows how to handle water. What they've lost is *escape*. The state is gone. Skowron is gone. Their authority was always borrowed, and now the lender can't be reached.
-
-Zbigniew Gajda has been patient with the committee because he had to be. Now he doesn't have to be. He still will — he's too clever to turn hostile. But every interaction from this point carries a new weight: *you're in my village now.*
-
-**The flood also raises the well.** Whatever is down there — bodies, bones, the weight of the dead — the water table pushes it closer to the surface. The rain that strands the committee is the same rain that feeds the well. By Day 4, the well is fuller than it's been in years. The Night of Day 4 confrontation happens at a well that's brimming.
-
-**Don't dramatize the flood.** It's mud, rain, inconvenience. The horror is subtle: the realization that nobody's coming. The villagers going about their business while the committee stands in the rain understanding, for the first time, that they are alone.
+Not applicable — the flood happens to everyone. Players wake up to it regardless of their plans.

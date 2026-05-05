@@ -1,10 +1,12 @@
 # Zofia Comes to the Committee
 
-**Type:** Event (triggered)
 **Location:** Wherever the committee is
 **Present:** [Zofia Pytlak](../characters/zofia.md)
 **Available:** Day 5, any phase. Zofia has been watching her husband for two days. She can't reach him. She comes to the outsiders.
-**Cost:** Free (listening)
+
+## Hook
+
+<!-- TODO: Zofia approaching — players might see her crossing the village, looking for them. Red eyes, shaking hands visible from a distance. -->
 
 ## Setup
 
@@ -52,3 +54,7 @@ She describes it: Michał hasn't come home since the flood started. Day 3, Day 4
 - **Outcome:** She opens up further. The flood fight isn't new — he's always been like this about the farm. But this is different. He was already carrying something heavy before the flood. She won't say what (the silo — separate thread). The flood just broke whatever was holding him together.
   - **Read:** There's something else she's not saying. A weight older than the flood. She almost tells you, then pulls back.
 - **NPC State Change:** If treated with kindness, Zofia trusts the committee. She becomes reachable later when her decline accelerates (Act III). This is the window to save her.
+
+## If Missed
+
+<!-- TODO: If players avoid Zofia or aren't available — she returns to watching Michał alone. The engineering ending path becomes harder to access. Her trust window closes. -->

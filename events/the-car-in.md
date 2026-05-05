@@ -1,9 +1,12 @@
 ﻿# The Car In
 
-**Type:** Event (opening)
 **Location:** Police car, mountain road to %NEW_VILLAGE%
 **Present:** por. Witold Skowron, players
 **Available:** Game start — this is the first scene
+
+## Hook
+
+<!-- Not applicable — opening scene, happens directly to the players. -->
 
 ## Setup
 
@@ -42,4 +45,8 @@ por. Witold Skowron is professional, friendly. He talks while he drives.
 - **Cost:** Free
 - **Outcome:** Players establish their characters during the ride. Who they are, what they're good at, why they're on this committee. Abilities assigned here.
 - **Leads to:** Players have defined characters and abilities
+
+## If Missed
+
+<!-- Not applicable — opening scene, happens directly to the players. -->
 

@@ -1,10 +1,12 @@
 ﻿# Ciotka Found Dead
 
-**Type:** Event (one-shot, discovery)
 **Location:** [Ciotka's house](../locations/ciotkas-house.md)
 **Present:** [Janina Gajda](../characters/ciotka.md) (dead). [Edek Barnaś](../characters/glupek.md) is gone.
 **Available:** Day 3 or later — whenever players visit [Ciotka's house](../locations/ciotkas-house.md). Fallback trigger: [ks. Władysław Pająk](../characters/priest.md) notices her absence at the anti-flood mass (Day 4 morning) and sends someone to check.
-**Cost:** None (discovery, not action)
+
+## Hook
+
+<!-- TODO: Players might hear about Ciotka's absence at mass, or notice her door unlocked when passing by. Dudka or a village woman might mention not having seen her. -->
 
 ## What Happened (GM Only)
 
@@ -72,12 +74,9 @@ No sign of forced entry. No sign of a struggle beyond the body. No weapon. Just 
   - **[Ryszard Dudka](../characters/neighbour.md):** Horrified. A woman murdered in the village — his neighbour. Reaches for his rifle (if he still has it). Doesn't ask who did it — assumes Rezeń. *"That bastard finally did it."* Has to be talked down.
   - **Nobody:** The players sit with it. The body stays. The village doesn't know. Every hour they wait, the trail gets colder — but so does the panic. Their choice.
 
-## For the GM
+## If Missed
 
-**This scene is quiet.** No screaming, no blood-soaked horror, no witnesses. A clean house, a dead woman, a missing boy. The violence already happened — the players only see the aftermath. That's the point.
-
-**Don't rush the reaction.** Let them stand in the kitchen. Let them look at the icons and the cold candles and the empty corner. Let them figure out what happened before anyone says it out loud.
-
+<!-- TODO: If players don't visit — ks. Pająk finds the body after mass on Day 4. Helena takes control of the scene before the committee arrives. Evidence may be disturbed. -->
 **The ambiguity is the scene.** Three suspects, all plausible:
 - **Rezeń** — strangles people (his MO from the lynch), has large hands, hated Ciotka for 13 years (she stopped him killing the boy), has been breaking containment, goes out at night. Dudka will assume it was him. Half the village will assume it was him.
 - **Edek** — lived in the house, has large hands, has been deteriorating, is missing. The priest will fear for him. Zbigniew will want him found. The barefoot tracks say someone fled in panic — killer or witness?

@@ -1,22 +1,28 @@
 # Tadek Visits the Butcher
 
-**Type:** Recurring event — observable by players
-**When:** Days 1–2, stops after wolf authorization (Day 2 afternoon)
-**Who:** [Tadek Gajda](../characters/wujas.md), [Stanisław Rezeń](../characters/butcher.md)
+**Location:** [Butcher's edge house](../locations/butchers-house.md)
+**Present:** [Tadek Gajda](../characters/wujas.md), [Stanisław Rezeń](../characters/butcher.md)
+**Available:** Days 1–2, stops after wolf authorization (Day 2 afternoon). Recurring event — observable by players.
 
-## What Happens
+## Trigger
+
+[Zbigniew Gajda](../characters/wojewoda.md)'s arrangement — Tadek maintains the link with Rezeń through regular visits. Brings cigarettes, sometimes a butchering job. This has been happening for 13 years.
+
+## Hook
+
+<!-- TODO: Players might spot Tadek walking toward the village edge. Villagers mention in passing that "he goes out that way sometimes." -->
+
+## Setup
 
 Tadek walks to the edge house. Brings cigarettes, sometimes a butchering job from the village (someone's pig, someone's goat). Stays briefly — twenty minutes, maybe less. Doesn't go inside. They talk on the threshold. Tadek hands over what he brought. Rezeń takes it. Short exchange, no warmth. Tadek leaves. This has been happening for 13 years.
 
 Players who observe this will see: the village drunk making regular visits to the village outcast. The two men [Zbigniew Gajda](../characters/wojewoda.md) needs kept apart from everyone else — and connected to each other through his brother.
 
-## What It Means
-
 This is [Zbigniew Gajda](../characters/wojewoda.md)'s arrangement. After 1954, Zbigniew needed Rezeń contained — at the edge, sober, away from people. But someone had to maintain the link. Bring him work so he had a reason to stay. Check that he was still there. Tadek is the go-between. The ego running between the superego and the id.
 
 Zbigniew doesn't visit Rezeń himself — the sołtys seen at the village monster's house raises questions. Tadek visiting is just the drunk wandering. Nobody notices. Nobody cares.
 
-## What Players Can Learn
+## Opportunities
 
 - **Observation:** Tadek goes to the edge house regularly. Ask any villager — they'll confirm it's been going on for years. Nobody thinks it's strange. "They're drinking buddies." Except Rezeń doesn't drink.
 - **Follow Tadek there:** See the handoff. Cigarettes, a job. Brief, functional. No friendship. An errand.
@@ -24,7 +30,9 @@ Zbigniew doesn't visit Rezeń himself — the sołtys seen at the village monste
 - **Ask Zbigniew:** Does Tadek visit Rezeń? Brief pause. *"My brother does what he wants."* The pause is the clue.
 - **Ask Rezeń:** Does Tadek come by? *"He brings cigarettes."* No elaboration. Doesn't care enough to lie.
 
-## When It Stops
+## Actions
+
+### The final visit (wolf authorization)
 
 Day 1–2. Not gradually — abruptly.
 
@@ -39,3 +47,7 @@ Tadek sees it and something breaks. The well's influence accelerates his drinkin
 **This is the trigger for Rezeń appearing in the village.** Not the well's abstract pull — a concrete authorization from the village leadership. He was called. He came. He didn't leave.
 
 Zbigniew notices too late. Visits the edge house himself — finds it empty. The man who never comes into the village is at the store. Talking to people. Smiling wrong.
+
+## If Missed
+
+<!-- TODO: If players don't observe the visits, they miss the pattern. The wolf authorization still happens — they just don't understand the mechanism that kept Rezeń contained or why its breaking matters. -->

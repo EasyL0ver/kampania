@@ -1,10 +1,12 @@
 ﻿# Funeral Mass — Janina Gajda
 
-**Type:** Event (triggered)
 **Location:** [The church](../locations/the-church.md), then cemetery
 **Present:** [ks. Pająk](../characters/priest.md) (officiating), [Helena](../characters/matrona.md) (chief mourner), [Zbigniew](../characters/wojewoda.md), [Krystian Rzepka](../characters/secondary-characters.md) (altar boy), most of the village. [Tadek](../characters/wujas.md) — maybe.
 **Available:** Day 5 morning.
-**Cost:** Free
+
+## Hook
+
+Death toll bell — slow, single strikes. Audible from anywhere in %NEW_VILLAGE%. The village knows what it means. Someone has died.
 
 ## Setup
 
@@ -59,7 +61,7 @@ Walks up the aisle unsteady. Hand on the coffin lid. Then:
 
 **Result:** The name *Rezeń* is in the air. Helena's narrative has a crack.
 
-**GM note:** Players cannot prevent this. The moment is *after*: follow Zbigniew and Tadek outside? Press Helena?
+Players cannot prevent this. The moment is *after*: follow Zbigniew and Tadek outside? Press Helena?
 
 - **Tadek outside** — Church steps, head in hands. Zbigniew over him, hand on shoulder.
   - Gentle approach: *"She was... she was good. The only good one."*
@@ -78,6 +80,8 @@ Walks up the aisle unsteady. Hand on the coffin lid. Then:
 - **If committee stands firm:** Postponed 1-2 days. Body in church. Helena goes adversarial. Village trust drops.
 - **Default (no objection):** Funeral proceeds. Body gone. Helena notes non-interference — slight thaw.
 
-**GM note:** If Helena got the committee to sign the death certificate (Pawełek medicine deal), the funeral is just burial of a closed case. If not — this is her second attempt, wrapped in grief and social pressure. With **Law:** once she's in the ground, the certificate is the only record.
+If Helena got the committee to sign the death certificate (Pawełek medicine deal), the funeral is just burial of a closed case. If not — this is her second attempt, wrapped in grief and social pressure. With **Law:** once she's in the ground, the certificate is the only record.
 
+## If Missed
 
+<!-- TODO: What happens if players skip the funeral? Helena buries Ciotka without interference. Evidence destroyed. Village notes the committee's absence — disrespectful or suspicious. -->

@@ -1,10 +1,12 @@
 # Pawełek Falls Ill
 
-**Type:** Event (triggered)
 **Location:** [Barbara's house](../locations/barbaras-house.md)
 **Present:** [Barbara Kopacz](../characters/barbara.md) (panicking), [Stefania Kopacz](../characters/babcia.md) (lucid, commanding), [Pawełek Kopacz](../characters/pawelek.md) (feverish). [Ryszard Dudka](../characters/neighbour.md) arrives within the hour.
 **Available:** Day 3 onward — after [the flood](the-flood.md). Triggered when players visit [Barbara's house](../locations/barbaras-house.md) or hear about it through the village.
-**Cost:** Being there
+
+## Hook
+
+<!-- TODO: Word spreads through the village — "Barbara's boy is sick." Players hear about it at the PGR, the store, or from Dudka who comes to find them. -->
 
 ## Trigger
 
@@ -210,23 +212,6 @@ See [Pawełek's character sheet](../characters/pawelek.md#health-points) for the
 - Marek path: Barbara's secret is exposed. Sieve flips hard — she has nothing left to protect except Pawełek. Absolute loyalty to committee.
 - Paraskewia/Raid/Tadek: No Gajda entanglement. Clean flip toward the committee.
 
-## For the GM
+## If Missed
 
-**Three-way pressure cooker:** sick child, medicine bottleneck, two hidden fathers. Investigation value is in details (where Pawełek drank, what's in the water, delirium content, Babcia's lucidity). Dramatic engine is the store deal and what happens when it fails.
-
-**Core branching:**
-1. **Committee accepts Helena's deal** → medicine fast, but they sign false death certificate + committal papers. Complicit in cover-up. Helena wins.
-2. **Committee refuses** → Helena stalls (prescription required). Hours pass. Barbara breaks, names Marek. Marek goes to Helena as family — gets medicine via robbery. Helena gains leverage. Barbara's secret is out.
-3. **Bypass routes** — Paraskewia's herbs (slow but clean), raiding the store (fast but hostile), Tadek (clean but hard to find). Each avoids Helena's deal with its own cost.
-
-**Three paths to the same cabinet — three Helenas:**
-- **To the committee:** Dealmaker. Transactional. In control.
-- **To Marek:** The aunt. Offers freedom — let the boy die, walk away clean. He robs her store in response.
-- **To Tadek:** Afraid. Gives medicine instantly. Because Tadek shaking in her store is a bomb she can't defuse.
-
-**GM notes:**
-- **The Medicine player is not a doctor** — they're a physiotherapist, nurse, or paramedic. They can assess symptoms, stabilize, and recognize what's wrong, but they can't prescribe. Only dr. Sawicki can name the drug. This is why Stabilize buys time but doesn't cure — and why calling the doctor is a separate action.
-- Let the fever scene breathe — the heat, the tiny body, Barbara's helplessness. This is Bieszczady, not Warsaw. No ambulance.
-- **Babcia's lucidity is permanent from this point.** She doesn't go back into the fog. Available for the ritual path.
-- **The sieve mechanic flip depends on the cure path.** Helena's deal = Gajda leverage over Barbara. Marek's path = total loyalty to committee. Design late game around which path was taken.
-- **No other children fall ill.** Contamination is localized around the old village. Isolated incident — but the village doesn't know that.
+<!-- TODO: If players don't visit Barbara or respond to village word — Pawełek's HP drains. Barbara eventually goes to Helena directly, accepts whatever deal is offered. The committee loses the medicine leverage subplot entirely. -->

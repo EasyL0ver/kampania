@@ -1,10 +1,12 @@
 # Holy Mass — Anti-Flood Prayer
 
-**Type:** Event (triggered)
 **Location:** [The church](../locations/the-church.md)
 **Present:** [ks. Władysław Pająk](../characters/priest.md), most of the village. [Helena Rzepka](../characters/matrona.md) in the front pew. [Zbigniew Gajda](../characters/wojewoda.md) near the back. [Ryszard Dudka](../characters/neighbour.md). Village women. [Krystian Rzepka](../characters/secondary-characters.md) as altar boy.
 **Available:** Day 4 morning. ks. Pająk calls the mass after the flood — prayer for safety, for homes, for deliverance.
-**Cost:** Being there (free)
+
+## Hook
+
+The church bell rings — slow, deliberate, calling. Audible from anywhere in %NEW_VILLAGE%. Everyone knows what it means. Even with the rain, the sound carries.
 
 ## Setup
 
@@ -72,10 +74,6 @@ Free — no action cost. Available to any player present.
 - **Outcome:** ks. Pająk is more open during/after mass than at the plebania. The sacred space softens him. He's still guarded, but the flood has shaken everyone — including him. Players who show faith or respect get further here than a cold plebania visit.
   - See [priest character file](../characters/priest.md) for full interaction tree.
 
-## For the GM
+## If Missed
 
-**The scene is the empty pew.** Everything else — the sermon, the flood prayers, Helena's performance, Dudka's guilt — is atmosphere. The thing that matters is the absence. Ciotka never misses mass. Today she's not here. That's the hook.
-
-**Don't announce it.** Describe the church, the crowd, the sermon. Let the players notice on their own. If nobody asks — ks. Pająk goes to check on her after mass and finds the body himself. Either way, the discovery happens Day 4.
-
-**This is the last normal village moment.** After this, someone finds Ciotka dead, and the village starts breaking apart. The mass is the calm before.
+The priest notices Ciotka's absence himself. After mass, he goes to check on her — finds the body. The discovery triggers [Ciotka Found Dead](ciotka-found-dead.md) without player involvement. The committee loses the chance to witness the village gathered, to read the room, and to be first at Ciotka's door.

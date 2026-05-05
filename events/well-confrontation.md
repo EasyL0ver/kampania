@@ -1,10 +1,12 @@
 # The Well Confrontation
 
-**Type:** Event (Night of Day 4)
 **Location:** [%OLD_VILLAGE%](../locations/old-village-ruins.md) — the well
 **Present:** [Paraskewia Chyłak](../characters/hag.md) (performing rites), then [Stanisław Rezeń](../characters/butcher.md) (arrives). Possibly [Ryszard Dudka](../characters/neighbour.md) and/or players.
 **Available:** Night of Day 4 — after [Rezeń's containment breaks](../story-facts/wolves.md) AND [Paraskewia Chyłak](../characters/hag.md) is at the well for her rites.
-**Cost:** Being there
+
+## Hook
+
+<!-- TODO: Players at the old village at night might hear chanting from the well clearing. Players following Rezeń hear dogs and footsteps on the forest path. -->
 
 ## Preconditions
 
@@ -224,15 +226,6 @@ The hag lives, but the confrontation still happened. The well is still hungry. R
 - **Dudka and Rezeń can't pretend anymore.** Rezeń knows Dudka was watching. Dudka knows Rezeń was about to kill. The village arrangement — silence, avoidance — is cracked. This is gasoline for Day 7.
 - **The players have a choice.** Protect the hag permanently (put Rezeń away, guard the well, convince her to leave). Or let the clock run — Rezeń will find another night.
 
-## For the GM
+## If Missed
 
-**This scene is the campaign's moral mirror.** Every version reflects who the players have become:
-
-- If they're there and intervene → they're the outsiders who broke the pattern
-- If they're there and watch → they are Dudka. They hear it happen and don't move. Now they understand what 13 years of guilt feels like.
-- If Dudka is there → he steps out with the rifle. Doesn't shoot — just stops it. The bare minimum he couldn't manage in 1954. Not redemption. A down payment. The real reckoning is Day 7.
-- If nobody's there → the village's machine works perfectly again. Violence, silence, forgetting. The well got fed. Same as 1954.
-
-**The wolf rumor is social cover.** The village blamed the hag for the wolves. Now she's gone. Nobody mourns. Nobody investigates. *"Good riddance."* Same mechanism as 1954: bury the truth, close ranks, move on.
-
-**Play the hag's rites with reverence.** This isn't a horror scene until Rezeń arrives. Before that, it's sacred. A Lemko woman praying for her dead in the ruins of her village. The candles, the incense, the icon, the bread — this is grief ritualized into endurance. Twenty years of conversation with the dead. The players should feel the weight of it before it's destroyed.
+<!-- TODO: See "If Nobody Is There (Default — 70%)" section above. The hag dies. Players discover aftermath on Day 5+. -->

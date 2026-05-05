@@ -1,10 +1,8 @@
 # The Wolf Hunt
 
-**Type:** Event (triggered)
 **Location:** [PGR Farm](../locations/pgr-farm.md) → forest
 **Present:** [Michał Pytlak](../characters/foreman.md), [Stanisław Rezeń](../characters/butcher.md), [Ryszard Dudka](../characters/neighbour.md), players (optional)
 **Available:** Day 2 afternoon — triggered when [Zbigniew Gajda](../characters/wojewoda.md) authorizes [Rezeń](../characters/butcher.md) after assessing wolf damage. Players can notice fresh livestock kills at the [PGR](../locations/pgr-farm.md) from Day 1 morning.
-**Cost:** 1 action to join the hunt. 1 action to reinforce the farm instead.
 
 ## Backstory
 
@@ -19,6 +17,10 @@ Players at the [PGR farm](../locations/pgr-farm.md) find fresh damage. Another s
 [Zbigniew Gajda](../characters/wojewoda.md) is at the farm, assessing the damage. **Players CAN witness this.** He stands in the pen, counts the dead, stares at the forest edge. Then tells [Michał Pytlak](../characters/foreman.md) he'll handle it.
 
 What he does: finds [Tadek](../characters/wujas.md) and tells him to go to the edge house. *"Tell Rezeń to deal with the wolves."* A real request sent through the maintenance channel. See [Tadek Visits the Butcher](wujas-visits-butcher.md).
+
+## Hook
+
+<!-- TODO: Fresh blood in the livestock pen, visible from the road. Workers talking at dawn about another attack. The smell of death from the PGR reaches the village. -->
 
 ## Setup
 
@@ -104,12 +106,6 @@ The wolf hunt isn't a standalone event — it's the mechanism that triggers casc
 - **If the hunt fails or is abandoned:** Attacks continue. Pytlak's desperation grows. Workers guard livestock instead of building sandbags → the engineering/flood defense ending gets harder.
 - **If players ignore the wolves entirely:** The subplot resolves without them — Zbigniew still authorizes Rezeń, the containment still breaks. The players just don't witness the mechanism. They'll notice the effects: Rezeń at the farm gate, Dudka angrier, Tadek drinking harder.
 
-## For the GM
+## If Missed
 
-**The wolves are the excuse. The authorization is the earthquake.**
-
-This scene isn't a monster hunt — it's the moment Zbigniew's 13-year arrangement collapses. The wolves are the practical crisis that forces a bad trade. Everything that follows — Rezeń in the village, Dudka's rage, Tadek's spiral, the confrontation — traces back to this authorization.
-
-Players who focus on wolf tracks and scat will spend an action and get a damage report number. Players who watch the people will see the village crack: a killer welcomed because the protector failed. A sołtys who can't undo his own decision. A hunter with a rifle and 13 years of suppressed rage watching the man he believes murdered someone walk freely among villagers.
-
-**This scene happens whether or not the players participate.** If they're at the PGR, they witness the authorization. If they're elsewhere, they notice the effects — Rezeń at the farm gate, Dudka angrier, the village shifted. The containment breaks either way. What the players control is whether they understand *why*.
+The wolf hunt happens without the players. Zbigniew still authorizes Rezeń, the containment still breaks. Players notice the effects: Rezeń at the farm gate next morning, Dudka angrier, Tadek drinking harder. The containment breaks regardless — players just don't witness the mechanism.
