@@ -19,7 +19,7 @@ A battered wooden desk in the tool shed holds the farm's paperwork — supply or
 - **Watch the workers** — count the actual people working vs the ledger. Only 7 real workers, but the ledger lists 8. One name doesn't match anyone here. → Seeds [Foreman cover-up](../clues/clues.md#foreman-coverup) (**Observation**)
 - **Talk to the labourers** — Józef Nowak and Piotr Wiśniewski talk about the work, the conditions. If asked about accidents — glances exchanged. "The barn's been fixed now." Nobody elaborates. → Seeds [Foreman cover-up](../clues/clues.md#foreman-coverup)
 - **Wolf damage** — Visible from Day 1: bloodstains in the pen, patched fences, nervous animals. Wolves have been hitting the farm for weeks. [Michał Pytlak](../characters/foreman.md) mentions losses in passing. Day 1-2: fresh kill — [Zbigniew Gajda](../characters/wojewoda.md) may be at the farm assessing the damage. Players CAN witness the moment he decides to authorize [Stanisław Rezeń](../characters/butcher.md). → Triggers [The Wolf Hunt](../events/wolf-hunt.md) (**Observation**, **Agronomy**)
-- **Notice Barbara** — she works hard, avoids the men, speaks to no one unless spoken to. Visibly poorer than the others. → Rapport opportunity with [Barbara Kopacz](../characters/barbara.md) (**Read**)
+- **Notice Barbara** — she works hard, avoids the men, speaks to no one unless spoken to. Visibly poorer than the others. *(Bond check: be genuinely warm)* (**Read**)
 
 ## Actions
 
@@ -50,14 +50,14 @@ A battered wooden desk in the tool shed holds the farm's paperwork — supply or
 - **Cost:** Free
 - **Skills:** **Sweettalk**
 - **Outcome:** Quiet, guarded, polite. She answers questions about her work but volunteers nothing personal. Won't discuss Pawełek Kopacz's father under any circumstances. If players are kind and patient, she opens up slightly — mentions her mother at home, the difficulty of the work, the cold.
-- **Leads to:** Rapport with Barbara. Essential for later access to [Stefania Kopacz](../characters/babcia.md). See [Barbara's character file](../characters/barbara.md) — she is a sieve.
+- **Leads to:** Essential for later access to [Stefania Kopacz](../characters/babcia.md). *(Bond check: be genuinely warm)* See [Barbara's character file](../characters/barbara.md) — she is a sieve.
 
 ### Offer to help with farm work
 - **Requires:** None
 - **Cost:** 1 action (takes significant time)
 - **Skills:** **Endurance**
-- **Outcome:** Michał Pytlak is surprised but accepts. Physical labour alongside the workers. Builds strong rapport with Michał Pytlak and the labourers. They talk more freely while working — farm gossip, village dynamics, who's been acting strange.
-- **Leads to:** Strong rapport with farm crew. Michał Pytlak's flood prep assistance becomes cheaper (reduces village outskirts survey trips by 1). Workers may mention Barbara's situation with more sympathy than gossip.
+- **Outcome:** Michał Pytlak is surprised but accepts. Physical labour alongside the workers. They talk more freely while working — farm gossip, village dynamics, who's been acting strange. *(Bond check: help with flood work physically)*
+- **Leads to:** Michał Pytlak's flood prep assistance becomes cheaper (reduces village outskirts survey trips by 1). Workers may mention Barbara's situation with more sympathy than gossip.
 
 ### Report wolf damage
 - **Requires:** Day 1+, wolf damage visible

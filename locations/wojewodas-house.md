@@ -25,4 +25,4 @@ Zbigniew Gajda's office is at the [PGR](pgr-office.md) — his desk, phone, maps
 - **Cost:** 1 action
 - **Skills:** **Sweettalk**, **Observation**
 - **Outcome:** Domestic scene. Irena serves tea, Marek shows off, the house reveals the family dynamic. Zbigniew's authority extends here too — Irena defers, Marek performs, Tadek is tolerated. A careful observer sees the control pattern that runs the whole village starts in this room.
-- **Leads to:** Rapport with Irena, understanding of family dynamics. Irena may become a separate conversation path if trust is built.
+- **Leads to:** Understanding of family dynamics. Irena may become a separate conversation path if trust is built.

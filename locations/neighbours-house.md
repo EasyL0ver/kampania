@@ -30,7 +30,7 @@ If Ryszard is home, he's tense. Doesn't like visitors. Government people especia
 - **Leads to:** If players mention the old village or ask about long-term residents casually → he goes quiet. Too quiet. The anger stops. That silence is louder than anything he said.
 
 ### Push him about the past
-- **Requires:** Alcohol, rapport, or direct pressure. He's the easiest NPC to crack.
+- **Requires:** Alcohol, trust, or direct pressure. He's the easiest NPC to crack.
 - **Cost:** 1 action
 - **Outcome:** He doesn't confess cleanly. He circles, rambles, contradicts. Truth comes in shards mixed with panic: sounds he heard, shapes he saw through the curtain, the direction they went (toward %OLD_VILLAGE%), the silence the next morning. He won't name names — but he'll point at the geography. *"Don't go near that well."*
 - **Leads to:** → [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch). Partial knowledge — sounds, direction, the well. Enough to point players toward %OLD_VILLAGE% without naming the killers.

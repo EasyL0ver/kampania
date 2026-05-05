@@ -107,7 +107,7 @@ Pawełek is 4. He's not interrogated — he's observed and talked to. Where you 
 - **Requires:** Nothing
 - **Cost:** 1 action
 - **Outcome:** You spend time with him. Chase, hide-and-seek, throwing stones at a tree. He's delighted — adults don't usually play. No clues, no information. Just a 4-year-old having fun.
-- **Gives:** Nothing. **Builds rapport** — counts for actions that require trust (Ask about drinking water).
+- **Gives:** Nothing. *(Bond check: play with him)* — counts for actions that require trust (Ask about drinking water).
 
 ### When sick (HP 1-6)
 
@@ -126,8 +126,8 @@ These actions require [Pawełek falls ill](../events/pawelek-falls-ill.md) to ha
 - **Cost:** Free
 - **Outcome:** *"Did you drink water somewhere?"* He nods. He doesn't connect it to being sick — he's 4. Water isn't the scary part.
   *"Where?"* Now he clams up. He went too far and he knows it.
-  - **With rapport** (played with him before — Build, Cops, Speak Lemko) **or Sweettalk:** *"By the round stones. Where the water comes up. The lady told me not to drink it but I was thirsty."*
-  - **Without rapport or check:** Shakes his head. Won't say more.
+  - **With bond** (played with him before — Build, Cops, Speak Lemko) **or Sweettalk:** *"By the round stones. Where the water comes up. The lady told me not to drink it but I was thirsty."*
+  - **Without bond or check:** Shakes his head. Won't say more.
   - **Geology:** Contamination follows the water table downhill from the old village. Mapping the flow reveals the source.
   - **Observation:** His shoes (by the door) — dark, silty mud with stone dust fragments. Forest path mud with worked stone. He was at a ruin.
 - **Gives:** [well-water-contaminated](../clues/clues.md#well-water-contaminated). Direction toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) and [the well](../locations/the-well.md). Reinforces [old-village-exists](../clues/clues.md#old-village-exists).

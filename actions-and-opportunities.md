@@ -103,18 +103,15 @@ A card represents a meaningful chunk of fictional time — roughly one scene, on
 
 ---
 
-## Rapport as Mechanic
+## Bonds as Gates
 
-"Rapport" is an NPC State Change, not a vague notion. When an action or opportunity builds rapport:
+NPC access is gated by the **Bond** mechanic (see `story-facts/game-system.md`). When an action requires a bond:
 
 ```
-- **Gives:** NPC State Change: [NPC Name] — rapport established. [What this unlocks: e.g., "Will answer personal questions. Unlocks action: Push about the past."]
+- **Requires:** Bond with [NPC Name]
 ```
 
-Rapport gates must be documented in the actions they unlock:
-```
-- **Requires:** Rapport with [NPC Name]
-```
+Bond checks are noted in parentheses where relevant: *(Bond check: [specific behavior])*. This tells the GM which check is being satisfied. See each character's `## Bond` section for the full checklist.
 
 ---
 
@@ -144,5 +141,5 @@ Before committing a scene file, verify:
 - [ ] Setup mentions everything that Opportunities let players notice
 - [ ] No use of "Seeds", "Leads to", or "Result" as outcome labels
 - [ ] Skills enrich but never gate (base outcome exists for every action)
-- [ ] Rapport is documented as NPC State Change with explicit unlocks
+- [ ] Bond gates reference the character's Bond section
 - [ ] Actions that belong to a character (not a place) are in the character file

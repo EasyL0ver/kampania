@@ -69,7 +69,7 @@ The players can:
   - Pytlak is grateful. Talks more freely — about the farm, the losses, the impossibility of keeping this place running with the flood and now wolves. *"First the water, now this. The land is trying to push us out."*
   - **Agronomy / Engineering:** The fence didn't just collapse from rain. It was rotten — poorly maintained, materials scarce. The PGR's been underfunded for years. The wolves exploited a weakness that already existed.
   - Workers gossip while hauling posts: mention Rezeń does slaughter work for the farm. *"Good with a knife, that one. Never seen anyone take a pig apart that fast."* Said with grudging respect and visible discomfort.
-- **Gives:** Strong rapport with Pytlak. Livestock damage documented for the committee's report. Seeds the fence/underfunding angle if players want to push on PGR management.
+- **Gives:** Livestock damage documented for the committee's report. Seeds the fence/underfunding angle if players want to push on PGR management. *(Bond check: help with flood work physically)*
 
 ## What Can Go Wrong
 

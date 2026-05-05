@@ -34,11 +34,11 @@ Zofia runs the kitchen with efficiency and no nonsense. She sees everyone, hears
 - **Cost:** Free (brief), 1 action (deep conversation)
 - **Skills:** **Sweettalk**, **Drink** (she respects someone who can hold a glass)
 - **Outcome:** Zofia is practical, sharp-tongued, and loyal to her husband. She won't betray Michał Pytlak, but she'll tell you what she thinks of everyone else. She knows Barbara's situation, she knows Tadek is a mess, she knows the butcher is strange. She won't volunteer secrets — but she'll confirm suspicions if she likes you.
-- **Leads to:** Confirmation of village rumours. Rapport with Zofia may open Michał Pytlak's trust faster.
+- **Leads to:** Confirmation of village rumours. Zofia's trust may open Michał Pytlak's trust faster.
 
 ### Help in the kitchen
 - **Requires:** Nothing
 - **Cost:** 1 action
 - **Skills:** **Endurance**
 - **Outcome:** Peeling potatoes, hauling water, chopping wood. Zofia is surprised and grateful. Working together breaks the barrier — she talks more openly. Farm workers see you differently too — you're not just a clipboard from the city.
-- **Leads to:** Strong rapport with Zofia and farm workers. Information flows more freely at future stołówka visits.
+- **Leads to:** Strong relationship with Zofia and farm workers. Information flows more freely at future stołówka visits.

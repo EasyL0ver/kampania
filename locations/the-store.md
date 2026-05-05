@@ -14,7 +14,7 @@ Inside — Halina Zając runs the counter. Helena Rzepka owns the place but rare
 
 In the back room — a locked pharmaceutical cabinet. State-regulated PRL distribution: basic sulfonamides, aspirin, bandages, iodine. Helena keeps the only key. Halina Zając can sell vodka and bread; she cannot open the medicine cabinet. For that, you need Helena herself.
 
-Government people get suspicion outside. But if the players have rapport with Tadek Gajda — he waves them over, pours a drink. They're in.
+Government people get suspicion outside. But if the players have a bond with Tadek Gajda — he waves them over, pours a drink. They're in.
 
 *Drinking minigame TBD — will determine how much comes out per visit.*
 
@@ -26,19 +26,19 @@ Government people get suspicion outside. But if the players have rapport with Ta
 
 ## Opportunities
 
-- **Buy a bottle for the crew** — put money on the counter, tell Halina Zając it's for the boys outside. Word travels fast. → Rapport with drinking crew
+- **Buy a bottle for the crew** — put money on the counter, tell Halina Zając it's for the boys outside. Word travels fast. *(Bond check for Tadek: share a drink without judging)*
 - **Village gossip** — who's sleeping with whom, who owes what. → Bonus info: social map of the village
 - **Learn about Wujas** — the crew talks about him like furniture. He's always here, always drunk, always tolerated. → Seeds [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
 - **Gossip about Foreman** — their boss at the PGR. The crew has opinions. → Seeds [Foreman cover-up](../clues/clues.md#foreman-coverup)
-- **Junior joins** — if rapport with Marek Gajda is high, he shows up. Drinks with the crew, loosens up away from his father. → Seeds [Junior is false suspect](../clues/clues.md#junior-is-false-suspect) (he's different without Zbigniew Gajda watching). If he gets drunk, he brags about shooting with his father's gun → [Wojewoda has gun](../clues/clues.md#wojewoda-has-gun)
-- **Side with Halina against the drunks** — when the crew hassles her, back her up. → Rapport with Halina Zając
+- **Junior joins** — if bonded with Marek Gajda, he shows up. Drinks with the crew, loosens up away from his father. → Seeds [Junior is false suspect](../clues/clues.md#junior-is-false-suspect) (he's different without Zbigniew Gajda watching). If he gets drunk, he brags about shooting with his father's gun → [Wojewoda has gun](../clues/clues.md#wojewoda-has-gun)
+- **Side with Halina against the drunks** — when the crew hassles her, back her up.
 - **Halina complains about Matrona** — she doesn't need much prompting. Bad boss, tight with money, controls everything. → Bonus info: Helena Rzepka's grip on village economy
 - **Neighbour's nervousness** — he's jumpy, drinks too fast. If the past comes up, he goes quiet. → Seeds [Neighbour heard the lynch](../clues/clues.md#neighbour-heard-the-lynch)
 
 ## Actions
 
 ### Talk to Halina privately
-- **Requires:** Rapport with Halina Zając or the crew is outside (not hovering)
+- **Requires:** Halina trusts you (sided with her) or the crew is outside (not hovering)
 - **Cost:** Free
 - **Outcome:** She sees everyone who comes through. Knows village patterns — who buys what, who stopped coming in, who's been acting different. She's not a keeper of secrets, but she's observant and resentful enough to talk.
 - **Leads to:** Bonus info on village patterns and NPC behaviour. If asked about Helena Rzepka — she'll vent, may reveal how the store and village economy really work.

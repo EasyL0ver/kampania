@@ -16,26 +16,26 @@ Marek Gajda shows up late. Doesn't apologise. Sits down, eats, barely engages. L
 
 Midway through dinner — Tadek Gajda arrives. Drunk. Uninvited. He lets himself in like he owns the place. Zbigniew Gajda tenses. Irena Gajda goes quiet. Zofia Pytlak sets another plate without being asked. The family dynamic snaps into focus: the composed brother, the wreck of a brother, the wife watching both, the son who doesn't want to be here.
 
-**Automatic:** Attending dinner builds rapport with Zbigniew Gajda and Irena Gajda. They see the committee as guests, not just officials.
+**Automatic:** Attending dinner warms the Gajda household toward the committee. They see you as guests, not just officials.
 
-If players build enough rapport with Zbigniew Gajda during dinner — he offers lodging at his house, and Helena Rzepka picks the most inquisitive players to stay at hers. She wants the curious ones under her roof where she can watch them. If rapport is weak — polite but distant evening, committee is sent to PGR quarters for the night.
+If players engage well during dinner — Zbigniew offers lodging at his house, and Helena Rzepka picks the most inquisitive players to stay at hers. She wants the curious ones under her roof where she can watch them. If the evening is cold — committee is sent to PGR quarters for the night.
 
 ## Opportunities
 
-- **Show genuine humanity to Wife** — talk about your own family, be personal not bureaucratic. She decides you're real people, not just government suits. → Rapport with Irena Gajda (opens up trust for later scenes)
-- **Mention the city to Junior** — anything about life outside the mountains. Opportunities, work, what Warsaw is like. His whole posture changes. → Rapport with Marek Gajda (seed for cooperation — he'll help if it gets him out)
-- **Drink with Wujas** — engage him warmly, match his energy, don't judge. He's delighted — new drinking buddies. → Rapport with Tadek Gajda + seeds [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
-- **Compliment Zofia's cooking** — she beams. She's the PGR cook, she knows what's in the stores. → Rapport with Zofia Pytlak
+- **Show genuine humanity to Wife** — talk about your own family, be personal not bureaucratic. She decides you're real people, not just government suits. *(Bond check: be honest when Zbigniew isn't)*
+- **Mention the city to Junior** — anything about life outside the mountains. Opportunities, work, what Warsaw is like. His whole posture changes. *(Bond check: talk about city life)*
+- **Drink with Wujas** — engage him warmly, match his energy, don't judge. He's delighted — new drinking buddies. *(Bond check: share a drink without judging)* + seeds [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
+- **Compliment Zofia's cooking** — she beams. She's the PGR cook, she knows what's in the stores. *(Bond check: be kind)*
 - **Learn about Ciotka** — in conversation, someone mentions a third sister. Helena Rzepka and Irena Gajda have another sibling — Janina Gajda. → Bonus info: the family is bigger than it looks, Janina Gajda exists
 
 ## Actions
 
 ### Go on a bender with Wujas
-- **Requires:** Rapport with Tadek Gajda (drank with him during dinner)
+- **Requires:** Drank with Tadek during dinner
 - **Cost:** 1 action (takes the rest of the night)
 - **Outcome:** Tadek Gajda gets loose. Fragments come out between drinks — nothing coherent, but the players hear real pain. This is the door into the drinking crew.
 - **Leads to:** Drinking crew scenes unlocked. Seeds [wujas-is-guilty](../clues/clues.md#wujas-is-guilty).
 
 ## If Missed
 
-<!-- TODO: What happens if players skip dinner? Zbigniew notes the refusal, rapport not built, Helena doesn't get to observe the committee, lodging defaults to PGR quarters. -->
+<!-- TODO: What happens if players skip dinner? Zbigniew notes the refusal, Helena doesn't get to observe the committee, lodging defaults to PGR quarters. -->

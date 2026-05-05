@@ -48,13 +48,13 @@ Krystian Rzepka (~9) comes and goes — altar boy at the church, Helena's plante
 - **Leads to:** → [painter-wants-to-confess](../clues/clues.md#painter-wants-to-confess). Not a confession about the lynch. A name. The most human request in the game.
 
 ### Talk to Ewa
-- **Requires:** Some rapport (a kind word, asking about her — not just about her parents)
+- **Requires:** Some warmth (a kind word, asking about her — not just about her parents)
 - **Cost:** Free
 - **Outcome:** She won't betray Helena directly — she's a child, and Helena is her mother. But she'll reveal the household truth through worry: *"Tata doesn't sleep." "He paints all night sometimes." "Mama checks his paintings when he's not there."* She knows something is wrong. She doesn't know what. If players are kind to Emil in her presence, her trust deepens — she may later help create a window for Emil to talk (distracting Helena, telling players when her mother goes to the store).
 - **Leads to:** Practical help — Ewa becomes an ally for getting Emil alone. Emotional weight — this child has been living inside a lie for her whole life.
 
 ### Search Emil's painting attic
-- **Requires:** Emil and Helena both absent, or Emil's permission (easier if rapport is high)
+- **Requires:** Emil and Helena both absent, or Emil's permission (easier if bonded)
 - **Cost:** 1 action
 - **Outcome:** Dozens of paintings. Landscapes, the village, the mountains — solid work. The portrait of the young woman. And the recent ones where the well creeps in — dark circles, black water, stone rings. The progression is visible: his older work is normal. The newer work is haunted. Something is reaching into this man through his brush.
 - **Leads to:** The well's influence is visible in the art. The portrait connects to Hania if players learn her story elsewhere. Players who've seen the old village well will recognise it in the paintings. Players who haven't will see it later and remember. → Seeds [painter-was-spared](../clues/clues.md#painter-was-spared)

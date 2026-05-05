@@ -20,8 +20,8 @@ He doesn't mention the flood. He doesn't know. But he's probing — *"So what ex
 
 ## Opportunities
 
-- **Compliment the village** — mention how well-run things look. Zbigniew Gajda warms up — this is his life's work. → Rapport with Zbigniew Gajda
-- **Ask about his family** — photos on the shelf, wife in the other room. He's brief but proud. → Rapport with Zbigniew Gajda
+- **Compliment the village** — mention how well-run things look. Zbigniew Gajda warms up — this is his life's work. *(Bond check: acknowledge his burden)*
+- **Ask about his family** — photos on the shelf, wife in the other room. He's brief but proud.
 - **Spot Wife eavesdropping** — catch a shadow by the door, a floorboard creak. She's listening to everything. → Seeds [Wife has been investigating](../clues/clues.md#wife-has-been-investigating)
 
 ## If Missed

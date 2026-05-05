@@ -42,8 +42,8 @@ The players are the only ones who look lost.
 
 ### Help with flood response
 - **Cost:** 1 action
-- **Outcome:** Physical labor — sandbags, drainage, livestock. Builds rapport with [Pytlak](../characters/foreman.md) and the PGR workers. Pytlak talks more freely during shared work: the farm's struggles, underfunding, how every flood sets them back months. Workers mention the [old village](../locations/old-village-ruins.md) floods worse — *"the water pools there, nowhere to drain."*
-- **Gives:** Rapport with Pytlak. Context for engineering/flood ending. Seeds awareness that %OLD_VILLAGE% is flooding — the well is filling.
+- **Outcome:** Physical labor — sandbags, drainage, livestock. Pytlak talks more freely during shared work: the farm's struggles, underfunding, how every flood sets them back months. Workers mention the [old village](../locations/old-village-ruins.md) floods worse — *"the water pools there, nowhere to drain."* *(Bond check: help with flood work physically)*
+- **Gives:** Context for engineering/flood ending. Seeds awareness that %OLD_VILLAGE% is flooding — the well is filling.
 
 ### Check on villagers
 - **Cost:** 1 action
