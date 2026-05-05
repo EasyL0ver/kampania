@@ -111,7 +111,9 @@ NPC access is gated by the **Bond** mechanic (see `story-facts/game-system.md`).
 - **Requires:** Bond with [NPC Name]
 ```
 
-Bond checks are noted in parentheses where relevant: *(Bond check: [specific behavior])*. This tells the GM which check is being satisfied. See each character's `## Bond` section for the full checklist.
+Bond checks live in the character file. The GM tracks them silently. **Scene files do not annotate bond-building behavior.** If a player talks to an NPC in a way that satisfies a bond check, the GM notices from the character file — scenes don't need to flag it.
+
+Bond-building is a permanent freeform opportunity available whenever a player is in the NPC's presence. It is NOT listed as a scene opportunity. Scene opportunities are only for things specific to that scene — observations, clue seeds, things you can only notice here and now.
 
 ---
 

@@ -107,7 +107,7 @@ Pawełek is 4. He's not interrogated — he's observed and talked to. Where you 
 - **Requires:** Nothing
 - **Cost:** 1 action
 - **Outcome:** You spend time with him. Chase, hide-and-seek, throwing stones at a tree. He's delighted — adults don't usually play. No clues, no information. Just a 4-year-old having fun.
-- **Gives:** Nothing. *(Bond check: play with him)* — counts for actions that require trust (Ask about drinking water).
+- **Gives:** Nothing. — counts for actions that require trust (Ask about drinking water).
 
 ### When sick (HP 1-6)
 

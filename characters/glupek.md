@@ -42,7 +42,7 @@ Voice surprisingly soft for his size. Smiles at kindness with a processing delay
 - **Requires:** [Janina Gajda](ciotka.md) present (she's protective) or find him alone outside
 - **Cost:** Free
 - **Outcome:** He talks — short sentences, simple words. Slow, not silent. Shy with strangers but not afraid. He can answer basic questions, follow conversations, express likes and dislikes. He's not broken — just limited. Players who are kind to him get warmth back.
-- **Gives:** *(Bond check: show interest in something he cares about)* If the well is active → he gets restless near certain topics, certain directions. Can't articulate why.
+- **Gives:** If the well is active → he gets restless near certain topics, certain directions. Can't articulate why.
 
 ### Ask Edek about his mother
 - **Requires:** Players talk to him directly

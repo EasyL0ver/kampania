@@ -1,4 +1,4 @@
-﻿# Dinner at Wojewoda's
+# Dinner at Wojewoda's
 
 **Location:** Zbigniew Gajda's house — the dining room → [wojewodas-house](../locations/wojewodas-house.md)
 **Present:** Zbigniew Gajda, Irena Gajda, Zofia Pytlak (serving), Helena Rzepka, Emil Rzepka. Marek Gajda arrives late. Tadek Gajda crashes.
@@ -22,11 +22,8 @@ If players engage well during dinner — Zbigniew offers lodging at his house, a
 
 ## Opportunities
 
-- **Show genuine humanity to Wife** — talk about your own family, be personal not bureaucratic. She decides you're real people, not just government suits. *(Bond check: be honest when Zbigniew isn't)*
-- **Mention the city to Junior** — anything about life outside the mountains. Opportunities, work, what Warsaw is like. His whole posture changes. *(Bond check: talk about city life)*
-- **Drink with Wujas** — engage him warmly, match his energy, don't judge. He's delighted — new drinking buddies. *(Bond check: share a drink without judging)* + seeds [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
-- **Compliment Zofia's cooking** — she beams. She's the PGR cook, she knows what's in the stores. *(Bond check: be kind)*
-- **Learn about Ciotka** — in conversation, someone mentions a third sister. Helena Rzepka and Irena Gajda have another sibling — Janina Gajda. → Bonus info: the family is bigger than it looks, Janina Gajda exists
+- **Drink with Wujas** — engage him warmly, match his energy, don't judge. He's delighted — new drinking buddies. Seeds [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
+- **Learn about Ciotka** — in conversation, someone mentions a third sister. Helena Rzepka and Irena Gajda have another sibling — Janina Gajda. → The family is bigger than it looks, Janina Gajda exists
 
 ## Actions
 
