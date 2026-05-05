@@ -1,16 +1,20 @@
 # Event Title
 
-**Type:** Event ([one-shot / triggered / world state change / opening / closing])
 **Location:** [Where it happens — link to location if it maps to one: [Place](../locations/file.md)]
 **Present:** [NPCs present, with conditions. e.g. "[Name](../characters/file.md) (panicking), [Other](../characters/file.md) (lucid). [Other] arrives within the hour."]
 **Available:** [When this can trigger — day, time, prerequisite. e.g. "Day 3 onward — after [the flood](the-flood.md). Triggered when players visit X."]
-**Cost:** [1 action / Free / "Being there" / None (this happens to the players, not because of them)]
 
 ## Trigger
 
 <!-- Optional. Omit if Available already explains the trigger. -->
 
 [What causes this event to fire. Game state, NPC state, player action, time-based.]
+
+## Hook
+
+<!-- Optional. Omit if the event happens directly to the players. -->
+
+[Sensory prompt that reaches players even if they're not at the event location — a bell, distant shouting, smoke on the horizon. Specify where it's perceivable from (e.g. "anywhere in %NEW_VILLAGE%", "forest edge or closer").]
 
 ## Setup
 
@@ -26,9 +30,8 @@
 
 <!-- Format: actions-and-opportunities.md -->
 
-## For the GM
+## If Missed
 
-<!-- Optional. Tone guidance, pacing notes, what to play up or down,
-     thematic weight, what the scene is really about. -->
+<!-- Optional. Omit if the event waits for players or can't be missed. -->
 
-[GM-only notes. Cut if the scene speaks for itself.]
+[What happens in the world if players don't attend. NPC state changes, world state changes, scenes that unlock or lock. The event resolves without them — this is the result.]
