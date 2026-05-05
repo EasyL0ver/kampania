@@ -15,9 +15,11 @@
 
 ## Appearance
 
-Small, wiry, perpetually dirty. Bare feet black with mud from April to October. A mop of sandy-brown hair that Barbara cuts with kitchen scissors — uneven, always in his eyes. Round face, gap-toothed grin, skinned knees. Wears the same oversized shirt (hand-me-down, rolled sleeves) and shorts held up with twine. Pockets full of stones, sticks, dead beetles.
+- **Clothes:** Oversized hand-me-down shirt with rolled sleeves, shorts held up with twine; bare feet black with mud; pockets full of stones and dead beetles
+- **Hair & face:** Mop of sandy-brown hair cut unevenly with kitchen scissors, always in his eyes; round face, gap-toothed grin, skinned knees
+- **Carriage:** Runs everywhere, climbs everything, grabs your hand and drags you; no concept of personal space or boundaries
 
-Moves at full speed — runs everywhere, climbs everything, has no concept of personal space. Grabs your hand, pulls you toward whatever he's found. Voice is high and piercing, carries across the whole yard. Talks constantly — stream of consciousness, half-formed observations, questions without waiting for answers. Mimics sounds perfectly: Babcia's prayers, bird calls, adult conversations replayed without understanding. When focused on building something, goes completely silent — tongue between his teeth, small hands careful and precise.
+Mimics sounds perfectly — Babcia's prayers, bird calls, adult conversations replayed without understanding.
 
 ## Schedule
 

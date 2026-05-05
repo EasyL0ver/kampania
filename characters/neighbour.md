@@ -16,11 +16,11 @@ Quiet hunter. Heard everything in 1954, did nothing. Carries the guilt of inacti
 
 ## Appearance
 
-Lean, weathered, all sinew and silence. A hunter's build — no excess flesh, shoulders slightly forward, moves quietly even indoors. Face like tanned leather, deep creases around pale blue eyes that are always watching from under a flat cap he rarely removes. Strong jaw, thin lips, a three-day stubble that never quite becomes a beard. Hands calloused and steady — woodcutter's hands, rifle hands. A scar across his left knuckles, white and old.
+- **Clothes:** Wool trousers held up by braces, flannel shirt (sleeves rolled in summer), heavy boots — same outfit every day
+- **Hair & face:** Flat cap he rarely removes; pale blue eyes, strong jaw, three-day stubble that never becomes a beard
+- **Carriage:** Lean hunter's build, moves quietly even indoors; shoulders slightly forward, watches your hands and posture, not your face
 
-Wears the same outfit every day: wool trousers held up by braces, a flannel shirt (sleeves rolled to the elbow in summer), heavy boots. Smells of tobacco smoke and pine resin. His house smells of gun oil.
-
-Speaks in short, flat sentences. Long pauses between thoughts — not searching for words, deciding whether to share them. Voice is low, gravelly, almost a mutter. When angry his jaw tightens and he goes quieter, not louder. Doesn't make eye contact easily — watches your hands, your posture, not your face. A man who learned to read threat before he reads intent.
+Speaks in short flat sentences with long pauses. Goes quieter when angry, not louder. Smells of tobacco smoke and pine resin.
 
 ## Schedule
 

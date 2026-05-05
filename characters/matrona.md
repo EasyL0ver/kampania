@@ -16,7 +16,11 @@ Devoutly religious on the surface, impenetrable beneath. The true architect of t
 
 ## Appearance
 
-Tall for a woman, straight-backed, never slouches. Built solid but not heavy — the frame of someone who works hard and eats little. Face handsome rather than pretty: strong nose, high cheekbones, thin lips pressed into a permanent line. Dark hair pinned up tight beneath a headscarf, not a strand loose. Eyes pale grey, steady, unblinking — the kind that make people look away first. Hands always occupied: rosary beads, knitting needles, a cloth wiping something already clean. Dressed immaculately in dark, modest clothes — always a cardigan buttoned to the throat, always an apron, always a small crucifix at her collar. Moves with deliberate economy, never hurries, never startles. Voice low, measured, each word placed like a stone in a wall. Never raises it. Never needs to.
+- **Clothes:** Immaculate dark clothes — cardigan buttoned to the throat, always an apron, small crucifix at her collar
+- **Hair & face:** Dark hair pinned up tight beneath a headscarf, not a strand loose; thin lips in a permanent line, pale grey unblinking eyes
+- **Carriage:** Tall, straight-backed, deliberate economy of movement — never hurries, never startles; hands always occupied with rosary, knitting, or wiping something already clean
+
+People instinctively lower their voices in her presence. Voice low and measured — never raises it, never needs to.
 
 ## Schedule
 

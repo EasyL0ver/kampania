@@ -15,7 +15,11 @@ Intelligent, observant, dismissed. Has been secretly investigating the 1954 disa
 
 ## Appearance
 
-Tall for a woman of this era, carries herself straight — a posture that reads as pride to some, coldness to others. Angular face, high cheekbones, dark hair pulled back in a severe bun going grey at the temples. Hands always busy — knitting, peeling, mending — but her eyes are elsewhere, watching. Dresses neatly, better than most village women: pressed blouses, wool skirts without patches. When she speaks, it's precise and measured, each word chosen. Never raises her voice. Has a habit of tilting her head slightly when listening, like she's filing what you said for later.
+- **Clothes:** Pressed blouses, wool skirts without patches — dresses better than most village women
+- **Hair & face:** Dark hair pulled back in a severe bun going grey at the temples; angular face, high cheekbones
+- **Carriage:** Tall, straight posture that reads as pride to some, coldness to others; hands always busy but eyes elsewhere, watching
+
+Speaks precisely, each word chosen. Tilts her head when listening — filing it for later. Never raises her voice.
 
 ## Schedule
 

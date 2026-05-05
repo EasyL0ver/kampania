@@ -15,7 +15,11 @@ PGR farm overseer. Competent, pragmatic, loyal to Zbigniew. Covers up a worker's
 
 ## Appearance
 
-Stocky and barrel-chested, built low to the ground like a man who's spent his life wrestling livestock and machinery. Thick forearms, permanently sun-darkened from elbow to wrist. Face like a clenched fist — broad jaw, flat nose broken once and set crooked, small shrewd eyes under heavy brows. Hands never still: drumming, gripping, pointing. Wears the same wool flat cap in all weather, oil-stained work trousers held up by braces over a collarless shirt. Walks with a slight limp — old tractor injury, left knee. Voice is a commanding bark, used to shouting over engines and wind. Doesn't waste words. When he talks, it's instructions or opinions — no small talk. Speaks with a Podkarpacie drawl he never lost.
+- **Clothes:** Wool flat cap in all weather, oil-stained trousers held up by braces, collarless shirt
+- **Hair & face:** Short cropped hair under the cap; broad jaw, flat nose broken once and set crooked, small shrewd eyes under heavy brows
+- **Carriage:** Stocky, barrel-chested, low to the ground; slight limp (left knee, old tractor injury); hands never still — drumming, gripping, pointing
+
+Voice is a commanding bark with a Podkarpacie drawl. Doesn't waste words — when he talks it's instructions or opinions, nothing in between.
 
 ## Schedule
 

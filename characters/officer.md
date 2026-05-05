@@ -14,7 +14,11 @@ SB secret police agent. True believer in the communist project. Knows about the 
 
 ## Appearance
 
-Compact and precise — medium height, athletic build going just slightly soft at the waist. Military posture he can't switch off: shoulders square, chin up, hands clasped behind his back when listening. Clean-shaven, hair clipped short and combed with geometric precision. Face unremarkable by design — forgettable features, average nose, average jaw — but the eyes give him away: dark, intelligent, always cataloguing. Wears a grey wool overcoat over a pressed shirt and tie, polished shoes inappropriate for village mud. Drives a black Warszawa M-20. Smells of cheap state cologne and cigarette smoke. Voice is quiet, controlled, with the clipped diction of an educated Varsovian. Never raises it — drops it instead, forcing people to lean in. Smiles rarely, and only with his mouth.
+- **Clothes:** Grey wool overcoat, pressed shirt and tie, polished shoes wrong for village mud
+- **Hair & face:** Clean-shaven, hair clipped short with geometric precision; forgettable features, but the eyes — dark, intelligent — give him away
+- **Carriage:** Compact, military posture he can't switch off — shoulders square, chin up, hands clasped behind his back when listening
+
+Drives a black Warszawa M-20. Smells of cheap state cologne. Voice quiet, controlled — drops it instead of raising it, forcing people to lean in.
 
 ## Schedule
 

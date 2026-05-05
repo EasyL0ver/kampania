@@ -16,11 +16,12 @@ Mean, sharp-tongued, no filter. Undiagnosed dementia — lucid one moment, lost 
 
 ## Appearance
 
-Tiny, birdlike, hunched almost double. Skin like crumpled parchment stretched over sharp cheekbones — Lemko face, all angles. Hands gnarled into claws from decades of fieldwork, knuckles swollen, fingers permanently curled. White hair thin as cobwebs, pinned back with a single black hairpin. Always wears the same faded black housedress, a knitted shawl over her shoulders regardless of season, wool stockings sagging at the ankles. A three-barred cross on a tarnished chain disappears into her collar.
+- **Clothes:** Faded black housedress, knitted shawl over her shoulders regardless of season, wool stockings sagging at the ankles
+- **Hair & face:** White hair thin as cobwebs pinned back with a single black hairpin; sharp Lemko cheekbones, pale grey eyes
+- **Carriage:** Hunched almost double, rocks constantly in her chair; hands gnarled into permanent claws from decades of fieldwork
+- Three-barred cross on a tarnished chain tucked into her collar
 
-Eyes — pale grey, watery — can look straight through you or suddenly snap into terrifying focus. Rocks constantly in her chair, a metronomic creaking. Smells of woodsmoke and something medicinal — camphor, maybe.
-
-Voice shifts between a papery mutter (Lemko prayers, fragments, names of the dead) and sudden sharp barks of Polish when she's angry. When lucid, her voice drops low and steady — almost a different person. When lost, she sings — high, thin, tuneless hymns that trail off mid-phrase.
+Smells of woodsmoke and camphor. Eyes snap between vacant and terrifyingly lucid — when she focuses on you, it's like being seen by something older than her.
 
 ## Schedule
 

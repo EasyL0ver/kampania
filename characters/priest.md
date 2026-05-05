@@ -15,9 +15,11 @@ Roman Catholic priest, arrived after the lynch. Knows everything through 13 year
 
 ## Appearance
 
-Tall, thin, slightly stooped — the posture of a man who bends to listen. A long, narrow face with deep-set brown eyes that hold yours a beat too long. Receding hairline, what remains is dark and neatly combed back. Clean-shaven — always, meticulously. Long fingers, well-kept nails, hands that move when he speaks — open palms, gentle gestures. Wears his cassock daily, black and brushed, the collar a stark white line. In cold weather, a heavy wool overcoat and a black beret.
+- **Clothes:** Black cassock daily, brushed, collar a stark white line; in cold weather a heavy wool overcoat and black beret
+- **Hair & face:** Receding hairline, what remains dark and neatly combed back; clean-shaven always; long narrow face, deep-set brown eyes that hold yours a beat too long
+- **Carriage:** Tall, slightly stooped — bends to listen; moves slowly, deliberately; everyone orients around his stillness
 
-Moves slowly, deliberately — never rushes. His presence fills a room by subtraction: he's the quiet one, the still one, and everyone orients around that stillness. Speaks in measured, complete sentences — never interrupts, never raises his voice. A warm baritone that carries in the church but stays intimate in conversation. Pauses before answering — not hesitation, but weight. When uncomfortable, his hand goes to his collar, adjusts it, comes away. The only tell he has.
+Warm baritone that stays intimate in conversation. One tell: when uncomfortable, his hand goes to his collar, adjusts it, comes away.
 
 ## Schedule
 

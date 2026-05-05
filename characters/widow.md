@@ -17,7 +17,11 @@ Quiet, devout, harmless. Grieving widow living on phantom wages from a dead man'
 
 ## Appearance
 
-Small and thinning — the kind of woman who seems to take up less space each year. Faded floral headscarf tied tight under the chin, always the same brown wool coat regardless of season. Hands raw and red from washing, nails bitten short. Face deeply lined, pale eyes watery and slightly unfocused. Moves slowly, deliberately, as if afraid of disturbing someone. Speaks barely above a whisper — short sentences, often trailing off. When she does talk, her voice has a slight tremor. Smells faintly of tallow candles and damp wool.
+- **Clothes:** Same brown wool coat regardless of season; faded floral headscarf tied tight under the chin
+- **Hair & face:** Thin grey hair under the scarf; deeply lined face, pale watery eyes slightly unfocused; nails bitten short
+- **Carriage:** Small, thinning — takes up less space each year; moves as if afraid of disturbing someone
+
+Speaks barely above a whisper with a slight tremor. Smells of tallow candles and damp wool.
 
 ## Schedule
 

@@ -20,7 +20,15 @@
 
 ## Appearance
 
-[Physical description and mannerisms — what players see and hear when they meet this person. Build, face, hands, clothes, posture, distinguishing marks. How they talk — speech patterns, verbal tics, volume, what language they slip into. Concrete details the GM performs at the table.]
+<!-- 3–4 bullet points. Each character must cover:
+     - **Clothes:** What they wear day-to-day (fabric, condition, style)
+     - **Hair & face:** Hairstyle, facial hair, distinguishing facial features
+     - **Carriage:** Posture, gestures, presence — how they move and take up space
+     Optional: voice, smell, one extra hook trait
+
+     Follow with one freeform paragraph for anything else the GM needs to
+     portray this person — speech patterns, sensory details, contradictions,
+     the vibe they give off in a room. -->
 
 ## Schedule
 

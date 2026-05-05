@@ -15,7 +15,11 @@ Helena's husband. Was secretly romancing Hania Barnaś — the affair triggered 
 
 ## Appearance
 
-Thin and stooped, shoulders permanently hunched as if bracing for a blow. Once handsome — you can see it in the bone structure, the high forehead — but hollowed out now. Gaunt cheeks, deep shadows under watery blue eyes that won't hold a gaze. Hair thinning and grey, paint-flecked at the temples. Hands are the only alive part of him: long-fingered, graceful, always stained with oil pigment — cadmium yellow in the nail beds, Prussian blue in the creases. Wears paint-spattered work clothes that Helena tolerates only in his attic studio; downstairs he's dressed neatly in whatever she lays out for him. Moves tentatively, hugging walls, making himself smaller. Voice barely above a whisper — clears his throat before speaking, as if asking permission to use it. Flinches at sudden movements. Smells of linseed oil and turpentine.
+- **Clothes:** Paint-spattered work clothes in the attic studio; downstairs, dressed neatly in whatever Helena lays out for him
+- **Hair & face:** Thinning grey hair, paint-flecked at the temples; gaunt cheeks, watery blue eyes that won't hold a gaze
+- **Carriage:** Thin, stooped, hugs walls; moves tentatively, flinches at sudden movements; makes himself as small as possible
+
+Hands are the only alive part of him — long-fingered, always stained with cadmium yellow and Prussian blue. Smells of linseed oil.
 
 ## Schedule
 

@@ -18,9 +18,11 @@ Sołtys (village headman). Pragmatic, authoritative, controlled. Built %NEW_VILL
 
 ## Appearance
 
-Stocky, barrel-chested, built like a man who laid every fence post in the village himself — and did. Square head, broad jaw, thinning grey-black hair combed straight back with water. Heavy brows over sharp dark eyes that miss nothing. A thick moustache, neatly trimmed, grey at the edges. Big hands, thick fingers, a gold wedding band that's worn smooth. Clean — always clean. Pressed trousers, polished shoes, a wool vest over a white shirt even in summer. The only man in the village who looks like he owns an iron.
+- **Clothes:** Always clean — pressed trousers, polished shoes, wool vest over white shirt even in summer; the only man in the village who owns an iron
+- **Hair & face:** Thinning grey-black hair combed straight back with water; thick grey moustache neatly trimmed; heavy brows over sharp dark eyes
+- **Carriage:** Stocky, barrel-chested; takes up space deliberately, feet planted, hands behind his back; moves through the village like he owns it
 
-Stands with his feet planted, hands behind his back or hooked in his vest pockets. Takes up space deliberately. Moves through the village like he owns it — because functionally he does. Voice is deep, unhurried, carries authority without volume. Doesn't repeat himself. Asks questions like he already knows the answer. When angry, he goes very still and very quiet — the temperature drops. People straighten up when he enters a room.
+Voice deep and unhurried. When angry, goes very still and very quiet — the temperature drops.
 
 ## Schedule
 

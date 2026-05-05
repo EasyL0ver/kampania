@@ -16,7 +16,11 @@ PGR cook. The warmest person in the village — feeds everyone, makes people fee
 
 ## Appearance
 
-Round-faced, sturdy, built for labour and comfort both. Flour-dusted apron over a faded print dress — always looks like she just stepped away from the stove. Broad hands, red from hot water, always in motion: stirring, kneading, wiping a child's face. Laugh lines deep around brown eyes that genuinely smile. Hair pinned up loosely, dark strands escaping. Moves through a kitchen like a dancer — knows where everything is without looking. Voice is warm and carrying, the kind that fills a room without shouting. Calls everyone "child" regardless of age. As the well takes hold, the warmth fades — the smile stays but the eyes go flat, the movements slow, the kitchen goes quiet.
+- **Clothes:** Flour-dusted apron over a faded print dress — always looks like she just left the stove
+- **Hair & face:** Dark hair pinned up loosely, strands escaping; round face, laugh lines deep around brown eyes
+- **Carriage:** Sturdy, broad red hands always in motion — stirring, kneading, wiping a child's face; moves through her kitchen without looking
+
+Warm carrying voice, calls everyone "child" regardless of age. As the well takes hold: smile stays but eyes go flat, movements slow, kitchen goes quiet.
 
 ## Schedule
 

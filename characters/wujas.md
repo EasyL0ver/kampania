@@ -16,7 +16,11 @@ Alcoholic wreck. Participated in the lynch — rape and beating. Drowning it in 
 
 ## Appearance
 
-Gaunt, hollow-cheeked, looks a decade older than 42. Stubble perpetually three days old, never a beard, never clean-shaven. Bloodshot eyes, yellowing at the corners. Hands shake in the morning until the first drink steadies them — nicotine-stained fingers, cracked nails. Wears the same stained wool jacket and rubber boots year-round. Smells of sour mash and woodsmoke. Moves with a shambling, apologetic gait — shoulders hunched, head down. Voice is a raspy mumble that gets louder and looser with drink. When sober, barely finishes a sentence. When drunk, talks too much — then catches himself mid-word and goes silent, staring at nothing.
+- **Clothes:** Checked shirt with rolled sleeves, old marynarka with elbow patches, maciejówka cap cocked forward
+- **Hair & face:** Still handsome under the wear; unshaven, bloodshot eyes visible up close
+- **Carriage:** Lean and rangy; moves loose and easy, takes up space like he's still the life of the party — and sometimes is
+
+Raspy warm voice — a storyteller's instrument, gets louder and funnier with drink. The morning shakes and the silence after the charm runs out are private.
 
 ## Schedule
 

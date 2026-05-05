@@ -15,7 +15,11 @@ Leather jacket, attitude. The false suspect — everyone points at him. Actually
 
 ## Appearance
 
-Lean and wiry, all restless energy — can't sit still, always shifting weight, drumming fingers, cracking knuckles. Dark hair grown out longer than the village approves of, swept back with Brylcreem. Sharp jaw, his father's hard eyes but his mother's watchful expression. A cigarette permanently between his lips or behind his ear. Wears a cracked leather jacket over a dark turtleneck — the closest thing to rebellion this village has seen. Scuffed boots, jeans when he can get them. Hands stained with engine grease from tinkering with motorbikes. Voice is clipped, dismissive, a studied coolness. Speaks fast when angry, which is often. Smirks more than smiles.
+- **Clothes:** Newer leather jacket over a dark turtleneck, scuffed boots, jeans when he can get them — Tadek's style updated, more bigbit than bikiniarz
+- **Hair & face:** Dark hair grown out longer than the village approves of, swept back with Brylcreem; sharp jaw, father's hard eyes
+- **Carriage:** Lean, wiry, can't sit still — shifting weight, drumming fingers, cracking knuckles; smirks more than smiles
+
+A cigarette permanently between his lips or behind his ear. Speaks fast when angry, which is often — the studied coolness drops and you glimpse how smart he actually is.
 
 ## Schedule
 

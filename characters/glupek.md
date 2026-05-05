@@ -15,7 +15,11 @@ Physically massive, brain-damaged — caused by strangling during the lynch, not
 
 ## Appearance
 
-Huge for seventeen — tall and thick-limbed, with the broad shoulders of a grown man and the soft, unfinished face of a boy. Round cheeks, pale blue eyes that watch the world with gentle confusion. Blond hair cropped short and uneven — ciocia cuts it with kitchen scissors. Hands enormous, always fidgeting with something — a stick, a stone, the hem of his shirt. Wears clothes that are slightly too small, trousers ending above the ankle, sleeves too short. Moves slowly, carefully, aware of his own bulk. A faint scar circles his throat — old, white, usually hidden by a turned-up collar. Speaks in short, simple sentences, voice surprisingly soft for his size. Smiles easily at kindness, but the smile has a delay — processing, then responding. Goes very still when frightened.
+- **Clothes:** Always too small — trousers ending above the ankle, sleeves too short; whatever ciocia can find
+- **Hair & face:** Blond hair cropped unevenly by ciocia's kitchen scissors; soft round boy's face, pale blue eyes full of gentle confusion
+- **Carriage:** Huge for seventeen — man's shoulders, boy's movements; moves slowly, aware of his own bulk; goes very still when frightened
+
+Voice surprisingly soft for his size. Smiles at kindness with a processing delay — watching, understanding, then responding.
 
 ## Schedule
 

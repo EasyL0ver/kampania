@@ -17,7 +17,11 @@ Charismatic, no inhibitions. The most alive person in any room. Village outcast,
 
 ## Appearance
 
-Big-boned, broad across the shoulders — a butcher's frame, built for splitting carcasses. Hands like spades, knuckles scarred white from decades of knife-work and dog chains. Face weathered red-brown, deep crow's feet from squinting and grinning. A wide, easy smile that never reaches the pale grey eyes. Dark hair going steel at the temples, slicked back with lard. Always smells faintly of blood and wood-smoke — the smell clings to the leather apron he wears even outside the slaughter-shed. Moves with lazy confidence, takes up space, stands too close. Voice carries — a warm baritone pitched for an audience, always performing. Laughs loud and often. When he's quiet, the silence is worse. Speaks plain rural Polish, peppered with crude jokes and endearments that land wrong.
+- **Clothes:** Dresses sharp for a village — clean pressed shirt, good boots, cologne; village playboy energy
+- **Hair & face:** Dark hair slicked back with lard; weathered red-brown face, wide easy smile that never reaches the pale grey eyes
+- **Carriage:** Broad-shouldered, stands too close, takes up space; laughs too loud, when he goes quiet the silence is worse
+
+Warm baritone pitched for an audience — always performing, always working the room. People laugh along because the alternative feels dangerous.
 
 ## Schedule
 

@@ -16,9 +16,11 @@ Devout, fearful, deeply honest when her guard drops. Eldest sibling but weakest 
 
 ## Appearance
 
-Gaunt, hollowed out. Fifty-five but looks seventy — deep lines from nose to mouth, sunken cheeks, dark circles that never fade. Thin grey hair under a headscarf she never removes outdoors. Bony wrists, prominent veins, hands that shake slightly when she's nervous (which is often). Wears shapeless dark dresses — navy, brown, black — always buttoned to the throat. A small crucifix pinned inside her collar where only she knows it's there.
+- **Clothes:** Shapeless dark dresses — navy, brown, black — always buttoned to the throat; headscarf never removed outdoors
+- **Hair & face:** Thin grey hair hidden under the scarf; gaunt, sunken cheeks, dark circles that never fade
+- **Carriage:** Moves like someone expecting to be hit — shoulders hunched, eyes down, flinches at raised voices; at home with Edek she's straighter, steadier
 
-Moves like someone expecting to be hit — shoulders hunched, eyes down, steps quick and small. Flinches at raised voices. In her own house she's different: straighter, warmer, her hands steady when she tends to Edek. Her voice is thin and breathy in public — barely audible, apologetic. At home, speaking to Edek, it's low and gentle, almost musical. When frightened she goes completely silent — mouth pressed shut, eyes fixed on a point in the middle distance, waiting for it to pass.
+Her public voice is thin and breathy, barely audible. When frightened she goes completely silent, mouth shut, eyes fixed on a point in the middle distance.
 
 ## Schedule
 

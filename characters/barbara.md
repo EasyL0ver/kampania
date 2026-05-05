@@ -16,9 +16,11 @@ Poor, single mother. Warm, open, genuinely curious. The village sieve — everyt
 
 ## Appearance
 
-Pretty in a worn-down way — high cheekbones from her Lemko mother, soft brown hair pulled back in a practical bun that's always coming loose. Sunburned forearms, rough hands, a body that works ten hours a day at the PGR and comes home to more work. Twenty-eight but could pass for thirty-five — the tiredness lives in the skin around her eyes. Wears a faded floral housedress under a man's wool cardigan (too big — Ryszard's?), rubber boots caked with farm mud.
+- **Clothes:** Faded floral housedress under an oversized man's cardigan (Ryszard's?), rubber boots caked in mud
+- **Hair & face:** Soft brown hair in a practical bun that's always coming loose; round face, high Lemko cheekbones, warm brown eyes
+- **Carriage:** Leans in when she talks, touches your arm; a bit chubby but carries it with easy, open warmth
 
-Smiles easily and often — a real smile that reaches her eyes. Leans forward when she talks, touches your arm, asks questions with genuine warmth. Voice is light, musical, carries across the yard. Laughs at her own observations. Never whispers — everything she says is at full conversational volume, which is why everything travels.
+Never whispers — her voice carries across the whole yard, which is why every piece of gossip travels the village by sundown.
 
 ## Schedule
 
