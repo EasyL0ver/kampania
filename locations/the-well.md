@@ -18,7 +18,7 @@ Stone-lined well. The heart of the scenario. Contains two sets of dead spanning 
 
 **Contains:**
 - **1947 massacre victims:** Lemko villagers from %OLD_VILLAGE%, decomposed beyond identification. Including Dmytro Kosach.
-- **1954 lynch victim:** [Edward Barnaś](../characters/soldier.md) — more recent, better preserved. He is the only body from that night here: [Hania Barnaś](../characters/jagna.md) fled and died in the forest (never recovered), and Marta Konieczna left the village alive.
+- **1954 lynch victim:** [Edward Barnaś](../characters/soldier.md) — more recent, better preserved. He is the only body from that night here: [Hania Barnaś](../characters/jagna.md) fled and vanished (fate unknown, no body of hers ever found), and Marta Konieczna left the village alive.
 - Animal remains — dogs, carcasses — fed to it by [Stanisław Rezeń](../characters/butcher.md) over the years.
 
 **Who knows the well holds bodies:**

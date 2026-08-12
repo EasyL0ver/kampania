@@ -11,7 +11,7 @@
 
 ## Character
 
-Deceased. Edward Barnaś's eldest daughter. Secret lover of Emil Rzepka. Attacked at the well in the 1954 lynch; broke free during the struggle and died escaping into the forest.
+Missing since 1954 — presumed dead, though no one truly knows. Edward Barnaś's eldest daughter. Secret lover of Emil Rzepka. Attacked at the well in the 1954 lynch; broke free during the struggle and fled into the forest. Never seen again.
 
 ## Opinions
 

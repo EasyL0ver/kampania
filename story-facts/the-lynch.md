@@ -28,7 +28,7 @@ The night ran in two places. It began at the old well in %OLD_VILLAGE% — the r
 2. The three drunk men turned on **Hania Barnaś**. They beat her and tore at her clothes. It was going further.
 3. **Edward Barnaś arrived armed** — his old KBW service pistol. He **shot Zbigniew Gajda** before **Stanisław Rezeń** wrestled the gun out of his hands.
 4. The men **killed Edward Barnaś**. His body went into the well. Rezeń kept the pistol.
-5. In the chaos of the shooting, **Hania Barnaś broke free and ran** — out of the ruins, into the night. She was never seen again. She did not survive the escape; her remains lie in the forest where she fell. The men never found her — but they have always suspected she died out there.
+5. In the chaos of the shooting, **Hania Barnaś broke free and ran** — out of the ruins, into the night. She was never seen again. Whether she lived or died out there, **no one knows** — not the men, not anyone. They have always assumed the mountain took her, but no body of hers was ever found. She may have died that night; she may be alive somewhere far from here. It cannot be answered.
 
 ### Phase 2 — the Barnaś house
 
@@ -55,13 +55,13 @@ The well in %OLD_VILLAGE% now contains:
 1. **Lemko massacre remains** (1947)
 2. **Edward Barnaś** (1954)
 
-Edward is the only body from that night in the well. **Hania Barnaś** fled and died elsewhere — her remains are in the forest, never recovered. **Marta Konieczna** left the village alive. Two crimes, seven years apart, one grave — but only one 1954 body.
+Edward is the only body from that night in the well. **Hania Barnaś** fled and vanished — her fate is genuinely unknown; no body of hers was ever found. **Marta Konieczna** left the village alive. Two crimes, seven years apart, one grave — but only one 1954 body.
 
 ## Open Questions
 
 - Where was Janina Gajda during all of this? She followed the men to the house — did she see who did what?
 - Does Emil Rzepka know the full truth? (Yes — he heard her voice as he was dragged away.)
 - Who knows Helena Rzepka's true role? The drunk men may genuinely not remember how much of the night was hers.
-- Where are Hania Barnaś's remains, and who has found them? ([Ryszard Dudka](../characters/neighbour.md) came across them years ago while hunting, and never spoke.)
+- What became of Hania Barnaś? **No one knows — and no one can find out.** She fled and vanished. [Ryszard Dudka](../characters/neighbour.md) is privately certain she died and even buried remains he took to be hers, but he never confirmed it was her. This is the campaign's one deliberately unanswerable thread: she may be dead, she may be alive and long gone. The players can learn that she fled and that Dudka believes her dead — they **cannot** resolve which is true.
 - Where is Marta Konieczna now? Alive, resettled somewhere west — reachable, but far. She carries the whole truth of that night.
 - Where is Edward Barnaś's pistol? In [Stanisław Rezeń](../characters/butcher.md)'s house — the weapon that shot the sołtys, and the leash that runs the other way.

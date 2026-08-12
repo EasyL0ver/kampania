@@ -100,8 +100,8 @@ Something violent happened one night in 1954. [Zbigniew Gajda](../characters/woj
 ### jagna-fled-the-lynch
 [Hania Barnaś](../characters/jagna.md) broke free during the struggle at the well and ran from the village into the night. She was never seen again.
 
-### jagna-died-escaping
-[Hania Barnaś](../characters/jagna.md) never made it out. Her remains lie in the forest where she fell that night, never recovered. She wasn't killed by the men — the escape killed her.
+### neighbour-believes-jagna-dead
+[Ryszard Dudka](../characters/neighbour.md) is privately certain [Hania Barnaś](../characters/jagna.md) died the night she fled. Two winters later, hunting, he found human remains in the forest, decided they were hers, and buried them himself. He never confirmed it was her — a coat, some bones, no face. It could have been anyone. No one has ever proven what became of her.
 
 ### soldier-killed-defending-daughter
 [Edward Barnaś](../characters/soldier.md) came to save [Hania Barnaś](../characters/jagna.md) — armed with his old KBW service pistol. He got a shot into one of his attackers before the men overpowered and killed him.

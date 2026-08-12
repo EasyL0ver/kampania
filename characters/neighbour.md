@@ -101,8 +101,8 @@ GM tracks score per target. Highest when he snaps = who he goes after.
 ### Ask about the daughter
 - **Requires:** He trusts the players (at least one Bond ticked) + [barnas-had-a-daughter](../clues/clues.md#barnas-had-a-daughter). They ask what became of the girl.
 - **Cost:** 1 action
-- **Outcome:** Long silence. He sets down whatever's in his hands. *"She ran. That night — I heard the dogs, the shouting, then feet in the dark going up toward the treeline. Fast. Alone. Nobody caught her."* A pause. *"Two winters on I was past the old fireroad with the rifle. Found what the forest left of her. I knew the coat."* He buried her himself and told no one. *"A grave was more than anyone else gave her."*
-- **Gives:** [jagna-fled-the-lynch](../clues/clues.md#jagna-fled-the-lynch), [jagna-died-escaping](../clues/clues.md#jagna-died-escaping)
+- **Outcome:** Long silence. He sets down whatever's in his hands. *"She ran. That night — I heard the dogs, the shouting, then feet in the dark going up toward the treeline. Fast. Alone. Nobody caught her."* A pause. *"Two winters on I was past the old fireroad with the rifle. Found what the forest leaves. A coat. Bones. Not much."* He says it like settled fact — *"I knew the coat. Buried her myself."* But press him and it cracks: no face, no proof, just a coat that might have been hers. He decided it was her because he needed somewhere to put the grief. *"A grave was more than anyone else gave her."* He'll never say aloud that he isn't sure.
+- **Gives:** [jagna-fled-the-lynch](../clues/clues.md#jagna-fled-the-lynch), [neighbour-believes-jagna-dead](../clues/clues.md#neighbour-believes-jagna-dead)
 
 ### Confront about Ciotka's motherhood
 - **Requires:** [ciotka-moved-in-after-they-were-gone](../clues/clues.md#ciotka-moved-in-after-they-were-gone) + [edeks-father-orphaned-him](../clues/clues.md#edeks-father-orphaned-him) (players have both: neighbour says she moved in after, census says she's the mother)

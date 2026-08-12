@@ -7,7 +7,7 @@
 The old well in %OLD_VILLAGE% holds two layers of dead:
 
 1. **Lemko massacre remains (1947)** — the villagers killed by soldiers during Akcja Wisła.
-2. **Edward Barnaś (1954)** — dumped by Tadek Gajda, Zbigniew Gajda, and Stanisław Rezeń after the lynch. He is the only 1954 body in the well: Hania Barnaś fled and died in the forest, and Marta Konieczna left the village alive.
+2. **Edward Barnaś (1954)** — dumped by Tadek Gajda, Zbigniew Gajda, and Stanisław Rezeń after the lynch. He is the only 1954 body in the well: Hania Barnaś fled and vanished (fate unknown), and Marta Konieczna left the village alive.
 
 For 13 years, the well has kept its secrets. Deep, dark, sealed by time and neglect. The village avoids %OLD_VILLAGE%. Nobody looks down.
 
