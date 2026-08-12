@@ -44,7 +44,7 @@ If the players **ignore him** or the pressure builds without release — Tadek G
 
 ### Redemption
 
-Tadek Gajda's redemption is **confession**. Not to a court, not to a priest — to anyone who will listen. He's been carrying the weight of a murdered girl he loved for 13 years. The alcohol was never about forgetting. It was about not being sober enough to choose. If the players give him a reason to choose, he might.
+Tadek Gajda's redemption is **confession**. Not to a court, not to a priest — to anyone who will listen. He's been carrying the weight of a girl he loved and helped destroy for 13 years. The alcohol was never about forgetting. It was about not being sober enough to choose. If the players give him a reason to choose, he might.
 
 ## If Missed
 

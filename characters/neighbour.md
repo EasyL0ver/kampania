@@ -34,7 +34,7 @@ Speaks in short flat sentences with long pauses. Goes quieter when angry, not lo
 ## Opinions
 
 - **[Barbara Kopacz](barbara.md)** — The only good thing left. She's warm and kind and she trusts me completely. I bring firewood, watch the boy, fix what breaks. She tells me everything she hears — the committee, the village, all of it — and she has no idea what I do with it. She and Pawełek are the only untainted thing in my life.
-- **[Stanisław Rezeń](butcher.md)** — I'm terrified of him. If the village finds out I talked, Rezeń — who wanted to kill an infant to eliminate witnesses — won't hesitate with me. I hate him and I fear him in equal measure.
+- **[Stanisław Rezeń](butcher.md)** — I'm terrified of him. If the village finds out I talked, Rezeń — who strangled a crying child that night until Janina tore him off — won't hesitate with me. I hate him and I fear him in equal measure.
 - **[Janina Gajda](ciotka.md)** — She lives next door. I've watched her tend that boy for thirteen years. Her devotion, her grief — I see it all from my window. I know what she did that night. I know what it cost her.
 - **[Edek Barnaś](glupek.md)** — The living reminder. Thirteen years seeing him next door, growing up broken. I heard what happened to him and I did nothing.
 - **`wujas-is-guilty`:** Goes still. Long silence. "Lots of men drink for bad reasons." Won't say more.
@@ -56,8 +56,10 @@ GM tracks score per target. Highest when he snaps = who he goes after.
 | `three-drunk-attackers` | Rezeń | +1 |
 | `three-drunk-attackers` | Zbigniew | +1 |
 | `three-drunk-attackers` | Tadek | +1 |
-| `jagna-was-raped` | Rezeń | +2 |
-| `jagna-was-raped` | Tadek | +2 |
+| `jagna-was-attacked` | Rezeń | +2 |
+| `jagna-was-attacked` | Tadek | +2 |
+| `wojewoda-was-shot` | Zbigniew | +1 |
+| `butcher-has-soldiers-gun` | Rezeń | +1 |
 | `glupek-strangled` | Rezeń | +3 |
 | `matrona-orchestrated-lynch` | Helena | +4 |
 | `painter-heard-matrona` | Helena | +2 |
@@ -95,6 +97,12 @@ GM tracks score per target. Highest when he snaps = who he goes after.
 - **Outcome:** *"Janina? She hasn't been there that long. A family lived there before — soldier, Barnaś. Had a daughter, a wife. They left. Then Janina moved in with the boy."* Flat, factual, no drama.
   - **If players push deeper** — ask how she got the house, why the best plot: he stiffens. *"Wojewoda gave it to her. Ask him."* Door closes.
 - **Gives:** [ciotka-moved-in-after-they-were-gone](../clues/clues.md#ciotka-moved-in-after-they-were-gone), [barnas-had-a-daughter](../clues/clues.md#barnas-had-a-daughter)
+
+### Ask about the daughter
+- **Requires:** He trusts the players (at least one Bond ticked) + [barnas-had-a-daughter](../clues/clues.md#barnas-had-a-daughter). They ask what became of the girl.
+- **Cost:** 1 action
+- **Outcome:** Long silence. He sets down whatever's in his hands. *"She ran. That night — I heard the dogs, the shouting, then feet in the dark going up toward the treeline. Fast. Alone. Nobody caught her."* A pause. *"Two winters on I was past the old fireroad with the rifle. Found what the forest left of her. I knew the coat."* He buried her himself and told no one. *"A grave was more than anyone else gave her."*
+- **Gives:** [jagna-fled-the-lynch](../clues/clues.md#jagna-fled-the-lynch), [jagna-died-escaping](../clues/clues.md#jagna-died-escaping)
 
 ### Confront about Ciotka's motherhood
 - **Requires:** [ciotka-moved-in-after-they-were-gone](../clues/clues.md#ciotka-moved-in-after-they-were-gone) + [edeks-father-orphaned-him](../clues/clues.md#edeks-father-orphaned-him) (players have both: neighbour says she moved in after, census says she's the mother)

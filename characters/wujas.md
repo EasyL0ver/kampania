@@ -12,7 +12,7 @@
 
 ## Character
 
-Alcoholic wreck. Participated in the lynch — rape and beating. Drowning it in bimber for 13 years. The weakest link in the cover-up.
+Alcoholic wreck. Participated in the lynch — beat Hania and helped kill her father, then saw her run and never went after her. Drowning it in bimber for 13 years. The weakest link in the cover-up.
 
 ## Appearance
 
@@ -36,7 +36,7 @@ Raspy warm voice — a storyteller's instrument, gets louder and funnier with dr
 - **[Zbigniew Gajda](wojewoda.md)** — His older brother. Tadek is terrified of him — not physically, but of the disappointment. Zbyszek holds the family together and Tadek knows he's the one most likely to break it apart. Can't look him in the eye sober.
 - **[Helena Rzepka](matrona.md)** — Sister. She watches him like a hawk and he hates it. She's waiting for him to crack and he knows it.
 - **[Janina Gajda](ciotka.md)** — Sister. The gentle one. She still leaves food out for him. He can't stand her kindness because he doesn't deserve it.
-- **[Hania Barnaś](jagna.md)** — Dead by his hand. He loved her — desperately, silently — and she never looked at him. Preferred Emil. Now she's a ghost at the bottom of every bottle. The thing he can never undo.
+- **[Hania Barnaś](jagna.md)** — He loved her — desperately, silently — and she never looked at him. Preferred Emil. He was one of the men who set on her that night, and when she broke free he let her run into the dark. She never came back. He's certain the mountain took her, and that it's his fault she was running. Now she's a ghost at the bottom of every bottle. The thing he can never undo.
 - **`ciotka-not-mother`:** Gets agitated, reaches for the bottle. Disproportionate anger — a tell. Changes subject immediately.
 
 ## Actions

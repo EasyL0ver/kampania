@@ -59,7 +59,7 @@ Her public voice is thin and breathy, barely audible. When frightened she goes c
 ### Push Janina emotionally
 - **Requires:** Players must have already demonstrated genuine care for [Edek Barnaś](glupek.md) (not just words — actions: protecting him from [Stanisław Rezeń](butcher.md), spending time with him, earning his trust). AND she must be emotionally destabilised — Edek had an episode, or the well is pressing her hard, or something has shaken her routine.
 - **Cost:** 1 action
-- **Outcome:** She doesn't break. She doesn't confess. She will NEVER tell government strangers what happened — they are the ones who could take Edek away. But under enough emotional pressure, she slips. One line, choked out: *"I couldn't let them hurt him."* Or *"He was just a baby."* Or her eyes fill when players mention 1954 and she can't hide it fast enough. She catches herself, shuts down, won't speak again that visit.
+- **Outcome:** She doesn't break. She doesn't confess. She will NEVER tell government strangers what happened — they are the ones who could take Edek away. But under enough emotional pressure, she slips. One line, choked out: *"I couldn't let them hurt him."* Or *"He was just a boy."* Or her eyes fill when players mention 1954 and she can't hide it fast enough. She catches herself, shuts down, won't speak again that visit.
 - **Gives:** At most → [ciotka-saved-glupek](../clues/clues.md#ciotka-saved-glupek) — but only the fact that she intervened, not who was doing what or why. She never names names. She never describes the night. The full truth lives with the [priest](priest.md) — she gave it to him over 13 years of confession, not to strangers in one afternoon.
 
 ## Bond

@@ -11,7 +11,7 @@
 
 ## Character
 
-Physically massive, brain-damaged — caused by strangling during the lynch, not congenital. A bit slow, not severely disabled. Talks in short sentences. The living evidence of the crime.
+Physically massive, brain-damaged — caused by strangling during the lynch when he was four, not congenital. A bit slow, not severely disabled. Talks in short sentences. The living evidence of the crime.
 
 ## Appearance
 
