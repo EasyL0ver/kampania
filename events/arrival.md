@@ -20,7 +20,7 @@ He doesn't mention the flood. He doesn't know. But he's probing — *"So what ex
 
 ## Opportunities
 
-- **Spot Wife eavesdropping** — catch a shadow by the door, a floorboard creak. She's listening to everything. → Seeds [Wife has been investigating](../clues/clues.md#wife-has-been-investigating)
+- **Spot Wife eavesdropping** — catch a shadow by the door, a floorboard creak. She's listening to everything. → **Gives:** [wife-eavesdrops](../clues/clues.md#wife-eavesdrops)
 
 ## If Missed
 

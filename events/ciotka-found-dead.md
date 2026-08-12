@@ -37,7 +37,7 @@ No sign of forced entry. No sign of a struggle beyond the body. No weapon. Just 
 - **Edek's absence** — his corner, his mattress, his wooden toy. All there. He's not. Where is he? Did he do this? Did he see it and run? Was he taken? Is he alive?
 - **The house** — undisturbed. No ransacking, no broken furniture, no sign of a fight. Whoever did this, she didn't resist. Or couldn't.
 - **The candles** — burned down to nothing. She lights them every evening for prayer. They've been out for hours. **This happened last night — or the night before.** If players come Day 3: one night ago. If Day 4: two nights. The longer it takes to find her, the colder the trail.
-- **No sign of forced entry** — the windows are latched from inside, the back door bolted. Whoever came in used the front door. She let them in — or they had access. → Seeds [ciotka-strangled](../clues/clues.md#ciotka-strangled)
+- **No sign of forced entry** — the windows are latched from inside, the back door bolted. Whoever came in used the front door. She let them in — or they had access. → **Gives:** [ciotka-strangled](../clues/clues.md#ciotka-strangled)
 - **A rosary** — on the floor near her right hand. Fallen during the struggle, or she was holding it when it started.
 - **A smell** — faint, under the soap and cold food. Something herbal, earthy. Not from this house. **Observation:** dried herbs, woodsmoke, forest mud. Someone who lives outdoors was in this room. Players who've been to the [hag's cabin](../locations/hags-cabin.md) or encountered [Paraskewia](../characters/hag.md) will recognise the scent immediately. Players who haven't will just note it as wrong — something that doesn't belong in this obsessively clean Catholic home.
 

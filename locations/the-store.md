@@ -20,20 +20,20 @@ Government people get suspicion outside. But if the players have a bond with Tad
 
 ## What Can Be Learned (drinking)
 
-- **From Tadek Gajda** — fragments about the past. Half-sentences he regrets. Gets darker the drunker he gets. → [wujas-is-guilty](../clues/clues.md#wujas-is-guilty), eventually seeds [wujas loved Jagna](../clues/clues.md#wujas-loved-jagna)
-- **From Ryszard Dudka** — nervousness, bad lies, sounds and directions he can't keep in. → Seeds [Neighbour heard the lynch](../clues/clues.md#neighbour-heard-the-lynch)
+- **From Tadek Gajda** — fragments about the past. Half-sentences he regrets. Gets darker the drunker he gets. → **Gives:** [wujas-is-guilty](../clues/clues.md#wujas-is-guilty), [wujas-mourns-someone](../clues/clues.md#wujas-mourns-someone)
+- **From Ryszard Dudka** — nervousness, bad lies, sounds and directions he can't keep in. → **Gives:** [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch)
 - **From the crew in general** — village gossip, social dynamics, who's been acting strange lately.
 
 ## Opportunities
 
 - **Buy a bottle for the crew** — put money on the counter, tell Halina Zając it's for the boys outside. Word travels fast. *(Bond check for Tadek: share a drink without judging)*
 - **Village gossip** — who's sleeping with whom, who owes what. → Bonus info: social map of the village
-- **Learn about Wujas** — the crew talks about him like furniture. He's always here, always drunk, always tolerated. → Seeds [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
-- **Gossip about Foreman** — their boss at the PGR. The crew has opinions. → Seeds [Foreman cover-up](../clues/clues.md#foreman-coverup)
-- **Junior joins** — if bonded with Marek Gajda, he shows up. Drinks with the crew, loosens up away from his father. → Seeds [Junior is false suspect](../clues/clues.md#junior-is-false-suspect) (he's different without Zbigniew Gajda watching). If he gets drunk, he brags about shooting with his father's gun → [Wojewoda has gun](../clues/clues.md#wojewoda-has-gun)
+- **Learn about Wujas** — the crew talks about him like furniture. He's always here, always drunk, always tolerated. → **Gives:** [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
+- **Gossip about Foreman** — their boss at the PGR. The crew has opinions. → **Gives:** [foreman-coverup](../clues/clues.md#foreman-coverup)
+- **Junior joins** — if bonded with Marek Gajda, he shows up. Drinks with the crew, loosens up away from his father. → **Gives:** [junior-is-false-suspect](../clues/clues.md#junior-is-false-suspect). If he gets drunk → **Gives:** [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
 - **Side with Halina against the drunks** — when the crew hassles her, back her up.
 - **Halina complains about Matrona** — she doesn't need much prompting. Bad boss, tight with money, controls everything. → Bonus info: Helena Rzepka's grip on village economy
-- **Neighbour's nervousness** — he's jumpy, drinks too fast. If the past comes up, he goes quiet. → Seeds [Neighbour heard the lynch](../clues/clues.md#neighbour-heard-the-lynch)
+- **Neighbour's nervousness** — he's jumpy, drinks too fast. If the past comes up, he goes quiet. → **Gives:** [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch)
 
 ## Actions
 

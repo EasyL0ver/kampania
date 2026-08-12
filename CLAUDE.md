@@ -50,7 +50,7 @@ Read all files in these folders to understand current state:
     - **Character-bound actions** (leverage someone, earn trust, confront) → `## Actions` section in the character's `.md` file, using the same format as location actions (cost, requires, what happens, result)
     - If an action is triggered at a location but is really about a character interaction, it belongs in the character file. The location file can cross-reference it.
 
-13. **Clues are binary** — An action either **gives** a clue or it doesn't. Actions do not "lead to" or "seed" clues. If a player performs an action and learns a fact, that fact must exist as a clue in `clues/clues.md` and the action's outcome gives it directly. No partial reveals, no "seeds for later."
+13. **Clues are binary** — An action or opportunity either **gives** a clue or it doesn't. There is no "seeding," "leading to," or "hinting at" a clue. If a player learns something, that something must exist as a clue in `clues/clues.md` and the scene gives it directly. If the information is smaller or less conclusive than the big reveal, **create a smaller clue** (e.g. `wife-eavesdrops` instead of jumping to `wife-is-investigating`). Every piece of player-discoverable information is its own atomic clue. No partial reveals, no "seeds for later."
 
 14. **Actions must have a concrete effect** — Every documented action must produce one of the outcomes listed in the next rule: give a clue, change NPC state, give an item, unlock a scene, change world state, or advance an ending. **"Nothing happens" is not a valid outcome.** If a player would learn nothing and the world wouldn't shift, it doesn't belong as a listed action — that's atmosphere or free-form roleplay, not investigation. Every action must be runnable: GM reads `Outcome` → game state changes.
 
@@ -60,7 +60,7 @@ Read all files in these folders to understand current state:
     - **Both types follow this format:**
       - Header: Type, Location, Present (NPCs + conditions), Available (when), Cost
       - `## Setup` — What players see/hear/feel. **Rule: If an opportunity lets players notice something, the Setup must mention or hint at it.** Players can't notice what the GM never described.
-      - `## Opportunities` — Free, no action cost. Impressions, seeds, atmosphere. Skill tags show what each skill reveals.
+      - `## Opportunities` — Free, no action cost. Skill-gated observations that give clues or reveal NPC behavior. Skill tags show what each skill reveals.
       - `## Actions` — What costs time. Each action has: Requires, Cost, Outcome (with skill-specific branches), clues given.
       - `## Exits` (events only) — Where players go after. Locations don't have exits.
 

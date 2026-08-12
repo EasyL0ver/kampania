@@ -49,7 +49,7 @@ The players can:
   - **Observation / Milicjant:** His knife is always in his hand. Not drawn — just there, turning. He fidgets with it the way someone fidgets with a pen. Not nervous energy. Habit. His hands need to hold something sharp.
   - **Read:** He's enjoying this. Not smiling, not gloating — but the tension that radiates off him in the village is gone. In the forest, he's relaxed. Present. This is where he belongs. Players who notice will find it deeply unsettling: the village's most dangerous man is at his calmest when hunting.
   - **If a wolf is killed:** Rezeń doesn't bring it back to the farm. He takes it deeper into the forest — toward [%OLD_VILLAGE%](../locations/old-village-ruins.md). If players follow or watch: he dumps it into the well. No ceremony. No hesitation. The same motion he uses for everything — carcasses, bones, his own dead dogs. The well gets fed. Players who see this: → [butcher-compelled-to-feed](../clues/clues.md#butcher-compelled-to-feed), → [butcher-visits-the-well](../clues/clues.md#butcher-visits-the-well). If players don't follow, he comes back empty-handed. *"The forest takes care of its own."*
-- **Gives:** → [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves). Seeds suspicion about Rezeń's forest knowledge — how does the village outcast know these paths so well?
+- **Gives:** → [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves), [butcher-knows-forest-intimately](../clues/clues.md#butcher-knows-forest-intimately)
 
 ### Go with Dudka
 - **Cost:** 1 action
@@ -60,7 +60,7 @@ The players can:
   - **Read:** He's watching the tree line constantly — not for wolves. For Rezeń. He knows Rezeń is out here somewhere. The idea of Rezeń in the forest with dogs and a knife, unsupervised, authorized, eats at him. **He won't say why. But the players can feel it — this isn't professional rivalry. This is a man who heard someone die and is now watching the killer walk free.**
   - **If players mention the hag / village rumor:** Dismissive. *"She's an old woman in the forest, not a witch. I've been out here for weeks — it's rain and prey, nothing else."* The hunter who can't stop the wolves at least understands them. He defends the hag with the same conviction he attacks Rezeń — rational about nature, irrational about the butcher. Players who notice the contrast learn something about what drives him.
   - **If the hunt drifts toward [%OLD_VILLAGE%](../locations/old-village-ruins.md):** Dudka gets quieter. Steps slow. He knows these paths — he's hunted here before. But he's avoided this direction for 13 years. If players push deeper, he finds excuses: *"Wolves won't den that far in."* Not true — and a player with **Observation** or **Endurance** knows it. He's avoiding something.
-- **Gives:** → Seeds Dudka as someone with forest knowledge and something to hide. His anger about Rezeń's authorization is a thread — players who pull it will eventually reach [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch).
+- **Gives:** [dudka-knows-the-forest](../clues/clues.md#dudka-knows-the-forest)
 
 ### Reinforce the farm instead
 - **Cost:** 1 action
@@ -69,7 +69,7 @@ The players can:
   - Pytlak is grateful. Talks more freely — about the farm, the losses, the impossibility of keeping this place running with the flood and now wolves. *"First the water, now this. The land is trying to push us out."*
   - **Agronomy / Engineering:** The fence didn't just collapse from rain. It was rotten — poorly maintained, materials scarce. The PGR's been underfunded for years. The wolves exploited a weakness that already existed.
   - Workers gossip while hauling posts: mention Rezeń does slaughter work for the farm. *"Good with a knife, that one. Never seen anyone take a pig apart that fast."* Said with grudging respect and visible discomfort.
-- **Gives:** Livestock damage documented for the committee's report. Seeds the fence/underfunding angle if players want to push on PGR management.
+- **Gives:** Livestock damage documented for the committee's report. **Gives:** [pgr-underfunded-fences](../clues/clues.md#pgr-underfunded-fences)
 
 ## What Can Go Wrong
 

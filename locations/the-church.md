@@ -13,9 +13,9 @@ Adjacent: the cemetery. A few dozen graves, most weathered. One is freshly tende
 
 ## Opportunities
 
-- **Notice the church's condition** — too nice for a village this size. Firewood, supplies, fresh repairs. Who's paying for all this? → Seeds [siblings fund the church](../clues/clues.md#siblings-fund-the-church)
-- **Talk to Widow at the grave** — she's approachable, lonely, grateful for company. She'll tell you about her husband — a good man, PGR worker, died in an accident. She asks if the committee can include him in the census. *"So his name is somewhere official. So someone remembers."* → Thematic seed for census-of-the-dead
-- **Notice the cemetery layout** — old graves, new graves, but no graves from before the resettlement. The village is post-war, but the church hill is older. Where are the Lemko dead? → Seeds [old village was Lemko](../clues/clues.md#old-village-was-lemko)
+- **Notice the church's condition** — too nice for a village this size. Firewood, supplies, fresh repairs. Who's paying for all this? → **Gives:** [church-too-nice](../clues/clues.md#church-too-nice)
+- **Talk to Widow at the grave** — she's approachable, lonely, grateful for company. She'll tell you about her husband — a good man, PGR worker, died in an accident. She asks if the committee can include him in the census. *"So his name is somewhere official. So someone remembers."* → Atmosphere — connects to the committee's census purpose.
+- **Notice the cemetery layout** — old graves, new graves, but no graves from before the resettlement. The village is post-war, but the church hill is older. Where are the Lemko dead? → **Gives:** [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
 
 ## Actions
 
@@ -35,7 +35,7 @@ Adjacent: the cemetery. A few dozen graves, most weathered. One is freshly tende
 - **Requires:** Nothing
 - **Cost:** Free
 - **Outcome:** All graves are post-1947. No older burials. The hill and church foundation are older than the graves around them. This was a Lemko church once — repurposed, repainted, re-sanctified. The dead who were here before are gone.
-- **Leads to:** → [old village was Lemko](../clues/clues.md#old-village-was-lemko), seeds questions about where the original dead went
+- **Gives:** [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
 
 ### Look for Barnaś grave
 - **Requires:** Know the name Edward Barnaś (e.g. from [edeks-father-orphaned-him](../clues/clues.md#edeks-father-orphaned-him))
@@ -61,5 +61,4 @@ The plebania is ks. Władysław Pająk's private space. Parishioners visit the c
 - **Outcome:**
   - **Upstairs:** Books, letters, a modest life. Nothing incriminating — the priest keeps his knowledge in his head, not on paper. But the **parish ledger** is here — sacramental records he can't destroy. First Communions, baptisms, confirmations. Flipping through: one name stands out. **Hania Barnaś** — First Communion, early 1950s. Not Edek. A girl. Players who've done the census at Ciotka's house know only one Barnaś — the boy. Who's Hania? → [barnas-had-a-daughter](../clues/clues.md#barnas-had-a-daughter)
   - **Cellar:** Locked from the outside with a padlock (new — doesn't match the old ironwork on the door). Inside: preserves, dust, liturgical junk. **After the priest shelters Edek:** a straw mattress, a blanket, food scraps, a water jug. The padlock makes sense now — he's not locking something out. He's keeping someone in. Not cruelly — safely. Edek would wander.
-  - **Observation:** The cellar has been recently swept. Someone cleaned down here in a hurry. Dust patterns show recent foot traffic — large bare feet.
-- **Gives:** If Edek is there → direct confrontation with the truth. If Edek isn't there yet → seeds suspicion about what the priest is preparing for.
+- **Gives:** If Edek is there → direct confrontation with the truth.

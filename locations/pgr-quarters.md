@@ -16,9 +16,9 @@ Zofia runs the kitchen with efficiency and no nonsense. She sees everyone, hears
 
 ## Opportunities
 
-- **Listen to the workers** — over food, guards come down. Farm gossip, complaints, village dynamics flow freely. Who's been acting strange, who's drinking too much, who hasn't shown up. → General atmosphere, seeds for multiple threads (**Observation**)
+- **Listen to the workers** — over food, guards come down. Farm gossip, complaints, village dynamics flow freely. (**Observation**) — who's acting strange, who's drinking too much, who hasn't shown up.
 - **Watch who comes and goes** — the stołówka is a crossroads. Track who eats together, who avoids whom, who lingers. → Village social map (**Observation**, **Read**)
-- **Zofia's commentary** — she narrates while she cooks. Pointed, dry, cutting. She knows the village and she's not afraid to say what she thinks — to a point. → Seeds for multiple NPC threads (**Read**)
+- **Zofia's commentary** — she narrates while she cooks. Pointed, dry, cutting. She knows the village and she's not afraid to say what she thinks — to a point. (**Read**) — Zofia's commentary reveals village dynamics and NPC relationships.
 
 ## Actions
 
@@ -27,7 +27,7 @@ Zofia runs the kitchen with efficiency and no nonsense. She sees everyone, hears
 - **Cost:** Free
 - **Skills:** **Observation**, **Read**
 - **Outcome:** A meal and a front-row seat to village dynamics. Workers talk freely here. What you learn depends on the day and what's happening in the village. GM feeds ambient information based on game state.
-- **Leads to:** General intelligence. May seed specific leads depending on what's happening.
+- **Gives:** Confirmation of village rumours. Zofia's trust may open Michał Pytlak's trust faster.
 
 ### Talk to Zofia
 - **Requires:** Nothing

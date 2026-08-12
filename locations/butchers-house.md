@@ -19,7 +19,7 @@
 ## Observable Clues
 
 - **Path** — daily use, packed earth, leads to well. → [butcher-visits-the-well](../clues/clues.md#butcher-visits-the-well)
-- **No alcohol** — nothing in the house. Stopped 1954. Seeds suspicion about 1954.
+- **No alcohol** — nothing in the house. Stopped 1954. → **Gives:** [butcher-stopped-drinking-1954](../clues/clues.md#butcher-stopped-drinking-1954)
 - **Butchering habits** — block used more than livestock explains. Takes too long. Works alone, doors shut.
 - **Dogs' behaviour** — flinching, limping, freezing. Practices cruelty.
 - **Missing dogs** — he had five. Now three. No bodies, no mounds. They're in the well. He's been feeding it.

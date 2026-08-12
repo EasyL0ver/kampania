@@ -133,6 +133,9 @@ The bodies from the 1954 lynch were dumped in the old well in [%OLD_VILLAGE%](..
 ### neighbour-heard-the-lynch
 [Ryszard Dudka](../characters/neighbour.md) heard everything from next door — screaming, shouting, dogs. Possibly saw men dragging bodies toward [%OLD_VILLAGE%](../locations/old-village-ruins.md). Closed the curtain and never spoke.
 
+### butcher-stopped-drinking-1954
+Stanisław Rezeń stopped drinking in 1954 — abruptly, completely. Something happened that year.
+
 ---
 
 ## The Well
@@ -142,6 +145,9 @@ Something — or someone — was recently thrown into the well. Looking down wit
 
 ### butcher-visits-the-well
 [Stanisław Rezeń](../characters/butcher.md) visits [%OLD_VILLAGE%](../locations/old-village-ruins.md) regularly. Sits near the well. Clears debris.
+
+### butcher-heads-toward-forest
+Stanisław Rezeń is often seen heading toward the forest, alone, always in the same direction. He's going somewhere specific.
 
 ### butcher-compelled-to-feed
 [Stanisław Rezeń](../characters/butcher.md) feels compelled to put something IN the well. Strangers = prey. He doesn't fully understand the compulsion.
@@ -255,6 +261,33 @@ The siblings keep the [church](../locations/the-church.md) unusually well suppli
 ### painters-art-shows-the-well
 [Emil Rzepka](../characters/secondary-characters.md)'s art starts showing the well before the players find it — dark circles, stone rings, black water.
 
+### matrona-overperforms
+Helena Rzepka's public warmth and piety intensifies over time — more church visits, more generosity, more visible devotion. It reads as desperation, a mask starting to slip.
+
+### neighbour-avoids-ciotkas-window
+Ryszard Dudka's window facing Ciotka's house is always covered with a heavy curtain — never opened. The window facing Barbara's house has no curtain at all.
+
+### neighbour-has-insomnia
+Ryszard Dudka paces at night and keeps his light on at 3am. He doesn't sleep well.
+
+### neighbour-knows-about-edek
+Ryszard Dudka knows something about where Edek came from. He deflects when the topic comes up — too quickly, too rehearsed.
+
+### church-too-nice
+The church is too well-maintained for a village this size — fresh repairs, good supplies, ample firewood. Someone is funding it beyond what the parish can afford.
+
+### wujas-mourns-someone
+When drunk enough, Tadek Gajda's fragments turn darker. Half-sentences about a woman, about something lost. He mourns someone specific — and regrets something he did.
+
+### irena-is-tense
+Irena Gajda hosts with grace but something is tight behind the hospitality. She's aware of more than she shows.
+
+### wife-eavesdrops
+Someone is listening at the door during conversations with the sołtys — a shadow, a floorboard creak. The wife is monitoring what's discussed.
+
+### pgr-workers-hide-something
+PGR workers exchange glances when asked about accidents. "The barn's been fixed now." Nobody elaborates.
+
 ---
 
 ## The Flood & The Committee
@@ -267,6 +300,9 @@ The survey at the village outskirts confirms it: %NEW_VILLAGE% will flood. Hard 
 
 ### road-washes-out
 Day 2 brings a major flood. The road out disappears. The committee is stranded. No outside backup.
+
+### old-village-flooding
+The old village site is flooding — water rising from below, the well filling. Something underground is changing.
 
 ### officer-warning
 [por. Witold Skowron](../characters/officer.md) warns on the drive in: not everything needs to be written down.
@@ -309,6 +345,15 @@ Wolves have been killing [PGR](../locations/pgr-farm.md) livestock for weeks. Th
 ### dudka-despises-rezen
 [Ryszard Dudka](../characters/neighbour.md) openly hates [Stanisław Rezeń](../characters/butcher.md). Calls him evil to anyone who listens. The anger is visceral — not just about the wolf authorization. Something older.
 
+### butcher-knows-forest-intimately
+Stanisław Rezeń knows the forest paths with unnatural intimacy — every trail, every clearing. How does a village outcast know the wilderness this well?
+
+### dudka-knows-the-forest
+Ryszard Dudka has forest knowledge he shouldn't have — and he's furious about Rezeń being authorized to lead the hunt. His anger is personal, not practical.
+
+### pgr-underfunded-fences
+The PGR's fences and livestock infrastructure are underfunded and poorly maintained. Wolves got through because management cut corners.
+
 ### rezen-leaves-at-night
 [Stanisław Rezeń](../characters/butcher.md) leaves his house at night and walks toward the forest — toward [%OLD_VILLAGE%](../locations/old-village-ruins.md). Alone. Regularly.
 
@@ -321,6 +366,12 @@ Villagers blame [Paraskewia Chyłak](../characters/hag.md) for the wolf attacks.
 
 ### foreman-coverup
 [Michał Pytlak](../characters/foreman.md) and [Zbigniew Gajda](../characters/wojewoda.md) covered up a preventable death on the PGR farm. Tadeusz Mazur died ~1965 — never reported to the state. His wages still flow to [Wanda Mazur](../characters/widow.md) as a fake "widow's pension." She doesn't know. The village doesn't know the death was never filed. Same mechanism as the lynch: bury the truth, keep outsiders away.
+
+### drinking-crew-heads-to-forest
+Tadek Gajda and his crew regularly head into the treeline with bottles. They're going somewhere in the forest.
+
+### old-wartime-positions
+Traces of old wartime positions in the forest — collapsed dugouts, rusted metal. Someone was here during the war.
 
 ### operation-in-the-forest
 Someone is doing something in the forest — men, fire, a smell. Could be anything. Players don't know what until they investigate.

@@ -16,8 +16,8 @@ A battered wooden desk in the tool shed holds the farm's paperwork — supply or
 
 ## Opportunities
 
-- **Watch the workers** — count the actual people working vs the ledger. Only 7 real workers, but the ledger lists 8. One name doesn't match anyone here. → Seeds [Foreman cover-up](../clues/clues.md#foreman-coverup) (**Observation**)
-- **Talk to the labourers** — Józef Nowak and Piotr Wiśniewski talk about the work, the conditions. If asked about accidents — glances exchanged. "The barn's been fixed now." Nobody elaborates. → Seeds [Foreman cover-up](../clues/clues.md#foreman-coverup)
+- **Watch the workers** — count the actual people working vs the ledger. Only 7 real workers, but the ledger lists 8. One name doesn't match anyone here. → **Gives:** [foreman-coverup](../clues/clues.md#foreman-coverup) (**Observation**)
+- **Talk to the labourers** — Józef Nowak and Piotr Wiśniewski talk about the work, the conditions. If asked about accidents — glances exchanged. "The barn's been fixed now." Nobody elaborates. → **Gives:** [pgr-workers-hide-something](../clues/clues.md#pgr-workers-hide-something)
 - **Wolf damage** — Visible from Day 1: bloodstains in the pen, patched fences, nervous animals. Wolves have been hitting the farm for weeks. [Michał Pytlak](../characters/foreman.md) mentions losses in passing. Day 1-2: fresh kill — [Zbigniew Gajda](../characters/wojewoda.md) may be at the farm assessing the damage. Players CAN witness the moment he decides to authorize [Stanisław Rezeń](../characters/butcher.md). → Triggers [The Wolf Hunt](../events/wolf-hunt.md) (**Observation**, **Agronomy**)
 - **Notice Barbara** — she works hard, avoids the men, speaks to no one unless spoken to. Visibly poorer than the others. (**Read**)
 

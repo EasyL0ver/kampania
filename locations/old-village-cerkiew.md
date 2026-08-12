@@ -21,8 +21,8 @@ Wooden Greek Catholic church with onion dome — partially stone-built. The fire
 
 ## Opportunities
 
-- **Fresh candles and incense** — someone is coming here. Who? → Seeds [hag-tends-the-well](../clues/clues.md#hag-tends-the-well), [old-village-looks-haunted](../clues/clues.md#old-village-looks-haunted)
-- **Faded icons** — Greek Catholic, Cyrillic inscriptions. This was a Lemko village. → Seeds [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
+- **Fresh candles and incense** — someone is coming here. Who? → **Gives:** [hag-tends-the-well](../clues/clues.md#hag-tends-the-well), [old-village-looks-haunted](../clues/clues.md#old-village-looks-haunted)
+- **Faded icons** — Greek Catholic, Cyrillic inscriptions. This was a Lemko village. → **Gives:** [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
 - **Missing liturgical items** — a bell is absent from where it should be. Players who've searched [Ciotka's attic](ciotkas-house.md#search-the-attic) may recognise the brass bell found there was taken from here. → Cross-reference clue
 - **Stake out at night** — wait and catch [Paraskewia Chyłak](../characters/hag.md) performing her rites. → Direct encounter
 

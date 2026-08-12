@@ -16,9 +16,9 @@ If Ryszard is home, he's tense. Doesn't like visitors. Government people especia
 
 ## Opportunities
 
-- **Notice the curtains** — the window facing Ciotka's house is always covered. Heavy curtain, yellowed, never opened. The window facing Barbara's house has no curtain at all. → Seeds [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch) — he can't look at where it happened, but can't stop watching Barbara.
+- **Notice the curtains** — the window facing Ciotka's house is always covered. Heavy curtain, yellowed, never opened. The window facing Barbara's house has no curtain at all. → **Gives:** [neighbour-avoids-ciotkas-window](../clues/clues.md#neighbour-avoids-ciotkas-window)
 - **Notice the rifle** — licensed hunting weapon. He knows the forest, knows how to shoot. Practically the only armed civilian besides Wojewoda. → Context for later escalation.
-- **Hear him at night** — players staying nearby or visiting late may hear him pacing, or see the light on at 3am. Insomnia. The well is making the sounds louder. → Seeds [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch)
+- **Hear him at night** — players staying nearby or visiting late may hear him pacing, or see the light on at 3am. Insomnia. The well is making the sounds louder. → **Gives:** [neighbour-has-insomnia](../clues/clues.md#neighbour-has-insomnia)
 - **Watch the fence** — if players visit Barbara during the day and then visit Neighbour that evening, they might notice he knows things they only told Barbara. The information path is visible if you're paying attention.
 
 ## Actions
@@ -39,10 +39,10 @@ If Ryszard is home, he's tense. Doesn't like visitors. Government people especia
 - **Requires:** Bottle (buy at the store or bring your own)
 - **Cost:** 1 action (evening)
 - **Outcome:** Easier path to cracking him than official pressure. Alcohol loosens the circles — fragments come faster, less guarded. He talks about Barbara, about Pawełek, about how he couldn't live with himself if anything happened to them. *"Not again."* He catches himself. If players are sharp: *again?*
-- **Leads to:** Seeds [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch). Stronger version if combined with store drinking scenes.
+- **Gives:** [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch)
 
 ### Ask about Ciotka next door
 - **Requires:** Know Janina Gajda lives there
 - **Cost:** Free
 - **Outcome:** He stiffens. *"She keeps to herself. Takes care of the boy."* If pressed: *"That boy isn't hers. Everyone knows that."* He won't say more about Edek directly. But his voice changes when he talks about the boy — guilt, not gossip. He's been watching Edek grow up from this window for 13 years, knowing what was done to him.
-- **Leads to:** Seeds questions about Edek's origins. If players already know about the lynch → confirmation that Neighbour knows more than he's saying.
+- **Gives:** [neighbour-knows-about-edek](../clues/clues.md#neighbour-knows-about-edek)

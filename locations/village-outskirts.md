@@ -16,8 +16,8 @@ The survey route takes the geologist across the area over multiple trips. On one
 
 - **Foreman's knowledge** — if Michał Pytlak tags along, he points out terrain features, old drainage paths, where the water pools after rain. → Bonus info: practical flood knowledge + reduces survey cost to 2 actions
 - **Spot the old village** — ruins visible through the trees on one of the survey routes. Stone, not wood — this was a proper settlement once. → [old village was Lemko](../clues/clues.md#old-village-was-lemko), [old village was burned](../clues/clues.md#old-village-was-burned)
-- **Spot Butcher at his house** — on the route, pass by Stanisław Rezeń's place. He's there, alone, doing something. → Seeds [Butcher visits the well](../clues/clues.md#butcher-visits-the-well) (he's always heading toward the forest)
-- **Spot the drinking crew heading into the forest** — Tadek Gajda and the boys walking toward the treeline with bottles. → Seeds [bimber still](../clues/clues.md#bimber-still)
+- **Spot Butcher at his house** — on the route, pass by Stanisław Rezeń's place. He's there, alone, doing something. → **Gives:** [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
+- **Spot the drinking crew heading into the forest** — Tadek Gajda and the boys walking toward the treeline with bottles. → **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
 
 ## Actions
 
@@ -33,9 +33,9 @@ The survey route takes the geologist across the area over multiple trips. On one
 - **Outcome:** Dense Bieszczady forest — beech, fir, overgrown trails that aren't on any map. What the player finds depends on what they already know or who they follow:
   - **Default (no leads):** Atmosphere. Old growth, animal tracks, silence that feels watched. A faint smell of smoke from somewhere deeper. Nothing concrete — but the forest is clearly *used* by someone.
   - **Following the drinking crew:** Trail leads to the [bimber still](bimber-still.md). → [bimber still](../clues/clues.md#bimber-still)
-  - **Following Butcher's path:** His trail heads deeper than expected — past the old village, toward the ridge. Hard to follow without being noticed. → Seeds [Butcher visits the well](../clues/clues.md#butcher-visits-the-well)
+  - **Following Butcher's path:** His trail heads deeper than expected — past the old village, toward the ridge. Hard to follow without being noticed. → **Gives:** [butcher-visits-the-well](../clues/clues.md#butcher-visits-the-well)
   - **Following smoke / herb smell:** A narrow footpath through undergrowth. The [hag's cabin](hags-cabin.md) at the end of it. → Unlocks hag's cabin location
-  - **Searching deliberately (with map or Pytlak's hints):** May find traces of old wartime positions — collapsed dugouts, rusted metal. → Seeds [UPA bunker](upa-bunker.md) (requires a second trip or specific knowledge to actually find the entrance)
+  - **Searching deliberately (with map or Pytlak's hints):** May find traces of old wartime positions — collapsed dugouts, rusted metal. → **Gives:** [old-wartime-positions](../clues/clues.md#old-wartime-positions)
 - **Leads to:** Depends on the path taken. At minimum, players learn the forest is not empty — people use it, hide in it, and have for decades.
 
 ### Investigate the old village

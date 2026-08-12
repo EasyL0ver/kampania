@@ -43,7 +43,7 @@ The players are the only ones who look lost.
 ### Help with flood response
 - **Cost:** 1 action
 - **Outcome:** Physical labor — sandbags, drainage, livestock. Pytlak talks more freely during shared work: the farm's struggles, underfunding, how every flood sets them back months. Workers mention the [old village](../locations/old-village-ruins.md) floods worse — *"the water pools there, nowhere to drain."*
-- **Gives:** Context for engineering/flood ending. Seeds awareness that %OLD_VILLAGE% is flooding — the well is filling.
+- **Gives:** Context for engineering/flood ending. **Gives:** [old-village-flooding](../clues/clues.md#old-village-flooding)
 
 ### Check on villagers
 - **Cost:** 1 action

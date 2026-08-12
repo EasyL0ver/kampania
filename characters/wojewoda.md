@@ -70,7 +70,7 @@ Voice deep and unhurried. When angry, goes very still and very quiet — the tem
 - **Requires:** Players have discovered the [bimber still](../locations/bimber-still.md)
 - **Cost:** Free
 - **What happens:** He waves it off. *"I'll handle it."* No surprise, no anger. He already knows — tolerates it because it keeps Tadek occupied and manageable. Players learn: the sołtys controls everything. Even his brother's addiction is managed.
-- **Result:** Seeds Zbigniew's control pattern. Same mechanism as [Stanisław Rezeń](butcher.md)'s containment — managing the village through tolerance and prohibition in equal measure.
+- **Result:** **Gives:** [`bimber-still`](../clues/clues.md#bimber-still) — confirms the sołtys already knew and allows it deliberately.
 
 ## Bond
 

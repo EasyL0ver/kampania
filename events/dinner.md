@@ -22,7 +22,7 @@ If players engage well during dinner — Zbigniew offers lodging at his house, a
 
 ## Opportunities
 
-- **Drink with Wujas** — engage him warmly, match his energy, don't judge. He's delighted — new drinking buddies. Seeds [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
+- **Drink with Wujas** — engage him warmly, match his energy, don't judge. He's delighted — new drinking buddies. **Gives:** [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
 - **Learn about Ciotka** — in conversation, someone mentions a third sister. Helena Rzepka and Irena Gajda have another sibling — Janina Gajda. → The family is bigger than it looks, Janina Gajda exists
 
 ## Actions
@@ -31,7 +31,7 @@ If players engage well during dinner — Zbigniew offers lodging at his house, a
 - **Requires:** Drank with Tadek during dinner
 - **Cost:** 1 action (takes the rest of the night)
 - **Outcome:** Tadek Gajda gets loose. Fragments come out between drinks — nothing coherent, but the players hear real pain. This is the door into the drinking crew.
-- **Leads to:** Drinking crew scenes unlocked. Seeds [wujas-is-guilty](../clues/clues.md#wujas-is-guilty).
+- **Gives:** [wujas-is-guilty](../clues/clues.md#wujas-is-guilty). Drinking crew scenes unlocked.
 
 ## If Missed
 

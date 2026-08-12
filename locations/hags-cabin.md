@@ -29,9 +29,9 @@ Small wooden cabin, weathered and old. Built or repurposed from a pre-war struct
 
 ## Opportunities
 
-- **Find ritual materials** — icons, candles, herbs. Evidence someone is performing rites. → Seeds [hag-has-the-form](../clues/clues.md#hag-has-the-form)
-- **Find Dmytro's belongings** — photo, knife (Д.К.), letters in Ukrainian. → Seeds [dmytro-kosach](../clues/clues.md#dmytro-kosach)
-- **Meet Paraskewia** — if she's here and players approach carefully. See character file for interaction. → Seeds [hag-is-lemko](../clues/clues.md#hag-is-lemko)
+- **Find ritual materials** — icons, candles, herbs. Evidence someone is performing rites. → **Gives:** [hag-has-the-form](../clues/clues.md#hag-has-the-form)
+- **Find Dmytro's belongings** — photo, knife (Д.К.), letters in Ukrainian. → **Gives:** [dmytro-kosach](../clues/clues.md#dmytro-kosach)
+- **Meet Paraskewia** — if she's here and players approach carefully. See character file for interaction. → **Gives:** [hag-is-lemko](../clues/clues.md#hag-is-lemko)
 - **Connect the evidence** — players who've found the [UPA bunker](upa-bunker.md) inscription (Д. КОСАЧ) and the knife (Д.К.) can link them
 
 ## Actions

@@ -18,10 +18,10 @@ Edek is large — six foot, broad, silent. He stands behind Janina or sits in hi
 
 ## Opportunities
 
-- **Notice the house quality** — best plot, best construction. Why does a single woman have it? Nobody in the village will explain. → Seeds [ciotka-lives-in-soldiers-house](../clues/clues.md#ciotka-lives-in-soldiers-house)
-- **Watch Edek's reactions** — if players have met [Stanisław Rezeń](../characters/butcher.md) and his dogs are audible outside, Edek flinches. Goes rigid. Hides behind Janina. She notices, covers for it: *"He doesn't like loud noises."* → Seeds [glupek-fears-butcher](../clues/clues.md#glupek-fears-butcher)
-- **See the care** — everything in this house is built around keeping one person safe. The padding, the routine, the locked door. This isn't a home — it's a sanctuary. Janina has spent 13 years building it. → Atmosphere, seeds [ciotka-saved-glupek](../clues/clues.md#ciotka-saved-glupek)
-- **Edek wanders** — later in the game, he's harder to keep inside. Janina is frantic. He's been found at the forest's edge, staring toward %OLD_VILLAGE%. She can't explain it. Players who've visited the old village will understand — the well is calling him. → Seeds [glupek-drawn-to-well](../clues/clues.md#glupek-drawn-to-well)
+- **Notice the house quality** — best plot, best construction. Why does a single woman have it? Nobody in the village will explain. → **Gives:** [ciotka-lives-in-soldiers-house](../clues/clues.md#ciotka-lives-in-soldiers-house)
+- **Watch Edek's reactions** — if players have met [Stanisław Rezeń](../characters/butcher.md) and his dogs are audible outside, Edek flinches. Goes rigid. Hides behind Janina. She notices, covers for it: *"He doesn't like loud noises."* → **Gives:** [glupek-fears-butcher](../clues/clues.md#glupek-fears-butcher)
+- **See the care** — everything in this house is built around keeping one person safe. The padding, the routine, the locked door. This isn't a home — it's a sanctuary. Janina has spent 13 years building it. → **Gives:** [ciotka-saved-glupek](../clues/clues.md#ciotka-saved-glupek)
+- **Edek wanders** — later in the game, he's harder to keep inside. Janina is frantic. He's been found at the forest's edge, staring toward %OLD_VILLAGE%. She can't explain it. Players who've visited the old village will understand — the well is calling him. → **Gives:** [glupek-drawn-to-well](../clues/clues.md#glupek-drawn-to-well)
 - **The backyard** — overgrown, unused. A patch of ground near the fence where nothing grows right — the earth was turned once and settled unevenly. Looks like an old garden bed that failed. It's not. The Soldier's belongings are buried there — uniform, service documents, anything that connected him to the military and Akcja Wisła. Buried by the killers after the lynch to erase his identity. Finding them requires digging — players would need a reason to suspect the ground (Edek digging there compulsively, the uneven earth after rain, a dog scratching at it).
 
 ## Actions
@@ -35,7 +35,7 @@ Edek is large — six foot, broad, silent. He stands behind Janina or sits in hi
   - **A child's wooden rattle** — hand-carved, worn smooth. A baby lived here once.
   - **A sewing machine** — a Singer, old but maintained. Oiled, covered with a cloth. Someone used this regularly. Means nothing on its own — until players see "Konieczna, Marta — mending work clothes" in the [PGR expense journal](../documents/pgr-expenses.md). The woman who lived here sewed for money.
   - **A small brass bell**— tarnished, heavy for its size. Cyrillic lettering around the rim. A liturgical bell — Greek Catholic. An odd thing for a Polish settler to own. Means nothing until players visit the stripped cerkiew in %OLD_VILLAGE% and see what's missing. Or show it to [Stefania Kopacz](../characters/babcia.md) or [Paraskewia Chyłak](../characters/hag.md) — someone who'd recognise it. Then the reaction tells the story: this was taken from a Lemko church by the man who lived here.
-- **Leads to:** A family lived here — a man, a teenage girl, a baby. The "EDEK" box creates confusion: is this the boy's? His father's? Players have to work out the name is shared. The dress and rattle prove there were others. Nobody will say what happened to them. → Seeds [ciotka-lives-in-soldiers-house](../clues/clues.md#ciotka-lives-in-soldiers-house)
+- **Gives:** [ciotka-lives-in-soldiers-house](../clues/clues.md#ciotka-lives-in-soldiers-house)
 
 ### Dig in the backyard
 - **Requires:** A reason to dig — Edek caught scratching at the ground there, Butcher's dogs pulling toward it, uneven earth visible after heavy rain, or a player's intuition.
