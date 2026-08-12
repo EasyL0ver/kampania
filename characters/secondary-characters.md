@@ -105,6 +105,18 @@ Minor NPCs, relationships, and supporting cast. Grouped by association for easy 
 
 **Notes:** Medical authority that's present but inaccessible. Tension between wanting help and being trapped.
 
+### %OPERATOR% (the exchange operator)
+**Type:** Government switchboard operator — voice only, never seen  
+**Role:** Every call the committee places to the outside world — [prof. Tadeusz Bieńkowski](professor.md), [dr Leon Sawicki](#dr-leon-sawicki), [por. Witold Skowron](officer.md), the district — is patched through by her. A clipped, professional voice on a flood-damaged line: *"Number, please." "Connecting you." "Go ahead."* The players only ever hear her. They never learn her name, and they never see her face. Period-correct: rural calls in 1967 went through a manual operator (see [telecommunications](../historical%20context/10-telecommunications-rural-prl.md)).
+
+**Notes (GM only — players cannot discover this):**
+- She is **[Hania Barnaś](jagna.md)**. She survived fleeing the 1954 lynch — [Paraskewia Chyłak](hag.md) found her half-dead in the forest and kept her alive that first winter. She never came back: returning would have exposed the "they moved away" lie and finished what the well started. She took new papers in the post-Akcja Wisła churn and climbed into the one machine that was safe — the state her father served. Now she sits at a district exchange, faceless, routing the calls of the committee sent to tidy her home valley into a reservoir.
+- **There is no way to confirm it.** A voice on a bad line cannot be matched to a nineteen-year-old's hidden photograph. Even [Zbigniew Gajda](wojewoda.md) or [Emil Rzepka](painter.md), who knew her, would at most feel a ghost pass over — never proof. This is deliberately the campaign's one unanswerable thread; keep it that way.
+- **She wants nothing from the players.** She doesn't sabotage, steer, or reveal. She simply listens. She hears her family's killers named in the committee's reports, connects the call, and says *"Go ahead."* The victim became the functionary. That is the whole of it, and it belongs to the GM alone.
+- **Lowkey by design.** Keep her voice *the same* on every outside call, so an attentive table half-notices the committee has exactly one tether to the world — and never once thinks to wonder who she is.
+
+---
+
 ---
 
 ## Generic Villagers (Population)
