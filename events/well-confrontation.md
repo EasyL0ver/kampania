@@ -38,7 +38,7 @@ The friendliness curdles into play. He drops the wolf, circles her, jokes — *"
 
 ## Actions
 
-The players are census bureaucrats; Rezeń has a knife, three dogs, and twenty years of practice. Unarmed, none of this stops him for good — **unless someone in the party actually knows how to fight.** The options escalate; a player can climb from one to the next as the moment slips away.
+The players are census bureaucrats; Rezeń has a knife, three dogs, and twenty years of practice. Unarmed, none of this stops him for good — **unless the party has a fighter *and* the hands to spare on his dogs.** One person can't do both. The options escalate; a player can climb from one to the next as the moment slips away.
 
 ### Grapple him
 - **Requires:** Present, no firearm
@@ -51,10 +51,11 @@ The players are census bureaucrats; Rezeń has a knife, three dogs, and twenty y
 - **Outcome:** You scoop her up and crash into the dark. The dogs give chase and bite; the terrain mauls you both. **You are wounded.** Rezeń doesn't follow — the well, unattended, is what he wants. **World State Change:** the hag survives but is badly hurt, and whether she can keep up the rites is an open question. (Because being wounded blocks Endurance, you can only do this once.)
 
 ### Fight him
-- **Requires:** Present, no firearm, **Violence**
-- **Cost:** 2 composure; causes a Wound
-- **Outcome:** You're the rare passenger on this commission who can actually fight — and you go at him with intent. You meet the knife, take the dogs, and give back worse than you get. Rezeń came to remove an obstacle, not to bleed for one; when the obstacle fights like it means it, the arithmetic changes. It's ugly and it costs you (**you are wounded** — see [Wounds](../story-facts/game-system.md#wounds)), but you drive him off the well and he backs into the trees, dogs following. **The hag survives.** And you've made yourself his: he has your face now, and a man like Rezeń settles debts on his own time. **World State Change / Ending Progress** — you are marked as the one who stood up to the butcher, which cuts both ways.
-  - **Milicjant:** You fight like it's on duty — controlled, aiming to disable, going for the knife hand. You *could* try to pin him for [por. Skowron](../characters/officer.md) — but you already know how that ends: no cuffs, no cell, no charge that sticks yet, three dogs, and a knife-fighter in the dark. You hold him off; you don't hold him. Better to know that now than to learn it with his knife in you.
+- **Requires:** Present, no firearm, **Violence** — **and at least one other player committing to hold off the dogs.** One fighter cannot do both; the three dogs are what make Rezeń more than a man with a knife.
+- **Cost:** 2 composure from the fighter; 1 composure from each helper on the dogs; **the fighter is wounded, and any helper who takes the dogs head-on may be too** (GM's call by how they do it)
+- **Outcome:** This only works as a team. While one or more players keep the dogs off — clubs, coats thrown over heads, backs to the well, taking bites to keep the jaws busy — the fighter gets Rezeń one-on-one and goes at him with intent. You meet the knife and give back worse. Rezeń came to remove an obstacle, not to bleed for one; when the obstacle fights like it means it *and* his dogs are tied up, the arithmetic changes. It's ugly and it costs blood (**the fighter is wounded** — see [Wounds](../story-facts/game-system.md#wounds)), but you drive him off the well and he backs into the trees, whistling the dogs after him. **The hag survives.** And you've made yourselves his: he has your faces now, and a man like Rezeń settles debts on his own time. **World State Change / Ending Progress** — you are marked as the ones who stood up to the butcher, which cuts both ways.
+  - **Solo (Violence, no help):** Don't. Without anyone on the dogs, one fighter can trade with Rezeń *or* survive the pack, not both. The dogs take you off your feet, the knife does the rest — you're wounded for nothing, and worse, you're down while he finishes what he came to do. **The hag dies anyway.** This is the lesson the scene wants: alone, you are not enough.
+  - **Milicjant:** You fight like it's on duty — controlled, aiming to disable, going for the knife hand. You *could* try to pin him for [por. Skowron](../characters/officer.md) — but you already know how that ends: no cuffs, no cell, no charge that sticks yet, and the moment your friends let the dogs go he's gone. You hold him off; you don't hold him. Better to know that now than to learn it with his knife in you.
   - **Intimidate:** As he retreats you make it plain this isn't over — and he *laughs*, delighted, filing your face away like a gift. You didn't scare him. You interested him. [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
 
 ### Draw a firearm
