@@ -38,22 +38,24 @@ The friendliness curdles into play. He drops the wolf, circles her, jokes — *"
 
 ## Actions
 
-The players are census bureaucrats; Rezeń has a knife, three dogs, and twenty years of practice. None of the unarmed options below stops him for good — the point is what you're willing to spend. They escalate; a player can climb from one to the next as the moment slips away.
+The players are census bureaucrats; Rezeń has a knife, three dogs, and twenty years of practice. Unarmed, none of this stops him for good — **unless someone in the party actually knows how to fight.** The options escalate; a player can climb from one to the next as the moment slips away.
 
 ### Grapple him
 - **Requires:** Present, no firearm
 - **Cost:** 1 composure
-- **Outcome:** You shove him, try to drag her clear. He throws you off, the dogs snap at ankles — bruised and shaken, not wounded. **World State Change:** she's still alive when he resumes; you bought her seconds, nothing more.
-
-### Throw yourself on him
-- **Requires:** Present, no firearm
-- **Cost:** 2 composure; causes a Wound
-- **Outcome:** A full brawl in the dark. It still fails, but slower. The knife catches an arm or a side, the dogs tear at you. **You are wounded** (see [Wounds](../story-facts/game-system.md#wounds)) — Endurance and Violence blocked until treated; untreated means death after the game. Your sacrifice bought a minute, not a life.
+- **Outcome:** You shove him, try to drag her clear. He throws you off, the dogs snap at ankles — bruised and shaken, not wounded. **World State Change:** she's still alive when he resumes; you bought her seconds, nothing more. A clerk's hands aren't enough.
 
 ### Grab the hag and run
 - **Requires:** Present, no firearm, Endurance
 - **Cost:** 1 composure; causes a Wound
 - **Outcome:** You scoop her up and crash into the dark. The dogs give chase and bite; the terrain mauls you both. **You are wounded.** Rezeń doesn't follow — the well, unattended, is what he wants. **World State Change:** the hag survives but is badly hurt, and whether she can keep up the rites is an open question. (Because being wounded blocks Endurance, you can only do this once.)
+
+### Fight him
+- **Requires:** Present, no firearm, **Violence**
+- **Cost:** 2 composure; causes a Wound
+- **Outcome:** You're the rare passenger on this commission who can actually fight — and you go at him with intent. You meet the knife, take the dogs, and give back worse than you get. Rezeń came to remove an obstacle, not to bleed for one; when the obstacle fights like it means it, the arithmetic changes. It's ugly and it costs you (**you are wounded** — see [Wounds](../story-facts/game-system.md#wounds)), but you drive him off the well and he backs into the trees, dogs following. **The hag survives.** And you've made yourself his: he has your face now, and a man like Rezeń settles debts on his own time. **World State Change / Ending Progress** — you are marked as the one who stood up to the butcher, which cuts both ways.
+  - **Milicjant:** You fight like it's on duty — controlled, aiming to disable, going for the knife hand. You *could* try to pin him for [por. Skowron](../characters/officer.md) — but you already know how that ends: no cuffs, no cell, no charge that sticks yet, three dogs, and a knife-fighter in the dark. You hold him off; you don't hold him. Better to know that now than to learn it with his knife in you.
+  - **Intimidate:** As he retreats you make it plain this isn't over — and he *laughs*, delighted, filing your face away like a gift. You didn't scare him. You interested him. [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
 
 ### Draw a firearm
 - **Requires:** Present, holding a gun — [Dudka's rifle](../characters/neighbour.md) (borrowed/taken) or [Zbigniew's pistol](../characters/wojewoda.md) (from his office). Pointing it is free.
