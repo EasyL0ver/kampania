@@ -122,7 +122,7 @@ While Humiliated:
 
 ### Uplift Ryszard
 - **Requires:** [Humiliated](#humiliated)
-- **Cost:** Free — **Sweettalk, Intimidate, or reminding him what Rezeń is and what he did**; the strongest version is backing him in a real moment against Rezeń
+- **Cost:** Free — **Sweettalk** (Rezeń's contempt is a lie; he isn't the nothing he was made to feel), **Intimidate** (he's about to freeze and let it happen again — shame him into moving), or point out he's the only one here who can stop it; the strongest version is simply standing with him against Rezeń
 - **Outcome:** You put the steel back in him and give him his face back. **Clears [Humiliated](#humiliated)** (NPC State Change). Its sharpest use is in the moment at [the well](../events/well-confrontation.md#dudkas-rifle-if-he-is-present), where it's what lets him hold the rifle on Rezeń and go through with it.
 
 ## Bond
