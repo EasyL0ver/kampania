@@ -17,7 +17,6 @@ A rotted coat, its colour long gone to the soil, and a scatter of bones — inco
   1. **First examination — it's a woman.** The pelvis and the surviving long bones read female. Whoever this was, she was a grown woman, not a child. **Gives:** [`ravine-remains-a-woman`](../clues/clues.md#ravine-remains-a-woman)
   2. **Second examination — she died from a fall.** The fracture pattern tells it: multiple breaks from a single heavy impact — ribs, a long bone, the way they splintered. Not a beating, not a blade. She fell from a height onto hard ground. Consistent with going over the edge of the ravine this meadow overlooks. **Gives:** [`ravine-remains-died-from-fall`](../clues/clues.md#ravine-remains-died-from-fall)
   3. **Third examination — she was around thirty.** Bone density, joint wear, the fused ends of the long bones put her near thirty, give or take a couple of years. Not a teenager. A woman in her thirties. **Gives:** [`ravine-remains-around-30`](../clues/clues.md#ravine-remains-around-30)
-- Without the Medicine skill the remains stay mute — a coat and some bones that could be anyone (see [`neighbour-believes-jagna-dead`](../clues/clues.md#neighbour-believes-jagna-dead)).
 
 ### Give the remains a burial
 - **Requires:** Holding the remains; a willing officiant — [ks. Władysław Pająk](../characters/priest.md), or the players themselves
