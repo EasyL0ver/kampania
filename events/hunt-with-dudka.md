@@ -29,18 +29,18 @@
 - **Outcome:** Dismissive, but rational. *"She's an old woman in the forest, not a witch. It's rain and prey out here, nothing else."* The hunter who can't stop the wolves at least understands them. **Read:** He defends the hag with the same conviction he attacks Rezeń — clear-eyed about nature, unreasoning about the butcher. The contrast is the tell: this isn't professional rivalry.
 - **Gives:** NPC insight — no clue, but the players see what actually drives him. (For the full leverage on why he hates Rezeń, see [Ryszard Dudka](../characters/neighbour.md).)
 
-### Push the hunt toward the old village
-- **Requires:** Following the hunt; steering deeper than Dudka wants to go
+### The grave in the meadow
+- **Requires:** Following the hunt long enough that it swings toward the far woods
 - **Cost:** 1 action
-- **Outcome:** He gets quieter. His steps slow. He knows these paths — he's hunted them — but he's avoided this one direction for thirteen years. If the players press, he finds excuses: *"Wolves won't den that far in."*
-  - **Observation / Endurance:** That's not true, and you know it. He's steering away from something, not toward the wolves.
-- **Gives:** [`dudka-avoids-old-village-direction`](../clues/clues.md#dudka-avoids-old-village-direction)
+- **Outcome:** He doesn't flinch from the old-village direction the way the village does — he's a hunter, the woods are the woods. But at one point he peels off the track without a word, and if the players follow he's standing in a meadow on the lip of a ravine, cap in his hands, at a low cairn of moss-grown stones. He crosses himself, says something too quiet to hear, stands there a while. Then puts the cap back on. *"A girl who lived next to me. She ran the night it all went bad and never came back. Two winters on I found what the forest left and put it here myself."* Flat, no self-pity. *"A grave was more than anyone else gave her."* He doesn't linger to be asked about it; he goes back to the hunt.
+- **Gives:** [`neighbour-believes-jagna-dead`](../clues/clues.md#neighbour-believes-jagna-dead); **Unlocks:** [Meadow by the Ravine](../locations/meadow-by-the-ravine.md) (the players now know the grave exists and where)
 
 ## Exits
 
 - Back to the [PGR Farm](../locations/pgr-farm.md)
-- If the players ever get him — or themselves — into the far woods, the [old village ruins](../locations/old-village-ruins.md) lie in the direction he refuses
+- To the [Meadow by the Ravine](../locations/meadow-by-the-ravine.md), if Dudka's detour showed the players the grave
+- Deeper toward the [old village ruins](../locations/old-village-ruins.md), which lie further out the same way
 
 ## If Missed
 
-Dudka hunts alone and finds kills, scat, territory markers — but never the den, because he won't go deep enough in that direction. He reports incomplete information, and his failure keeps feeding the rage that pushes toward the [lynch](punishment-lynch.md).
+Dudka hunts alone and finds kills, scat, territory markers — but never closes on the den. He reports incomplete information, and his failure keeps feeding the rage that pushes toward the [lynch](punishment-lynch.md). He still visits the grave; the players just don't see it, and reach the [meadow](../locations/meadow-by-the-ravine.md) some other way.

@@ -387,9 +387,6 @@ Stanisław Rezeń knows the forest paths with unnatural intimacy — every trail
 ### dudka-knows-the-forest
 Ryszard Dudka has forest knowledge he shouldn't have — and he's furious about Rezeń being authorized to lead the hunt. His anger is personal, not practical.
 
-### dudka-avoids-old-village-direction
-There is one direction in the forest [Ryszard Dudka](../characters/neighbour.md) will not hunt — the way toward the [old village](../locations/old-village-ruins.md). He knows the paths and makes excuses to steer away from them. He has avoided that ground for thirteen years.
-
 ### pgr-underfunded-fences
 The PGR's fences and livestock infrastructure are underfunded and poorly maintained. Wolves got through because management cut corners.
 
