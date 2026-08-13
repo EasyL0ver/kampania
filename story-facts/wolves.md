@@ -52,7 +52,7 @@ Rezeń shows up at the PGR. Not at the forest edge — at the farm, among worker
 
 ### Day 2+
 The village reacts:
-- **Dudka** is furious — see [The Wolf Hunt](../events/wolf-hunt.md)
+- **Dudka** is furious — see [The Hunt with Dudka](../events/hunt-with-dudka.md)
 - **Zbigniew** is furious — asked for pest control, got reintegration
 - **Pytlak** doesn't understand the tension. He has a wolf problem and a man who can solve it. He's grateful.
 - **Tadek** sees Rezeń at the PGR and something breaks. The man he's been managing from the edge house is *here*, among people. The go-between role is dead.
@@ -64,7 +64,7 @@ The howling continues — or doesn't. The GM decides based on atmosphere, not on
 
 ## The Wolf Hunt
 
-Full playable scene: [The Wolf Hunt](../events/wolf-hunt.md).
+Playable scenes: [The Wolf Attack](../events/wolf-attack.md) (the trigger), then [The Hunt with Rezeń](../events/hunt-with-rezen.md) or [The Hunt with Dudka](../events/hunt-with-dudka.md).
 
 [Dudka](../characters/neighbour.md) has been failing for weeks. [Zbigniew](../characters/wojewoda.md) authorizes [Rezeń](../characters/butcher.md) via [Tadek](../characters/wujas.md). Rezeń shows up at the PGR. Dudka is furious. The scene is about the political earthquake, not the wolves.
 
