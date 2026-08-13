@@ -64,7 +64,7 @@ He's 4. Doesn't understand any of it.
 
 ## Zofia Pytlak
 
-Shares Michał's stubbornness about staying. As the crisis deepens, she shifts to wanting him to *stop* — come home, let the water come, let go.
+The one warm voice for **letting go.** Not for gain like Marek, not cold logistics like Zbigniew — she simply sees that the water wins and wants to save the living. Admires Michał for fighting to save people; grieves because she knows he can't. Her instinct is a soft landing: get Staszek and the vulnerable out, honor the place, leave before it takes anyone. The healthiest voice in a village that cannot let go of anything.
 
 ## Wanda Mazur (Widow)
 

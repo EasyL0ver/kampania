@@ -11,7 +11,7 @@
 
 ## Character
 
-PGR farm overseer. Competent, pragmatic, loyal to Zbigniew. Covers up a worker's death in the grain silo. Wants to stay and fight the flood — the only voice saying we can beat this.
+PGR farm overseer. Competent, pragmatic, loyal to Zbigniew. Covers up a worker's death in the grain silo. Wants to stay and fight the flood — the only voice saying we can beat this. The fight *is* his atonement: a man who once buried a truth to save the farm, now trying to save the farm outright — because if the water wins, then the burying was for nothing.
 
 ## Appearance
 
@@ -34,7 +34,18 @@ Voice is a commanding bark with a Podkarpacie drawl. Doesn't waste words — whe
 
 - **[Zbigniew Gajda](wojewoda.md)** — I've always respected him. But something's wrong now. The sołtys who always had a plan, always said "we'll manage" — suddenly wants to surrender to the water. It makes no sense. I can't follow a man who's giving up.
 - **[Barbara Kopacz](barbara.md)** — Works on my farm. Quiet, does her job, never complains. I respect that. I don't pry into her business.
-- **Zofia Pytlak** — My wife, my ally. She shares my stubbornness about staying. When everyone else talks about leaving, she sets her jaw the same way I do. That's enough.
+- **Zofia Pytlak** — My wife. She thinks the valley's already lost — I hear it every time she sets down food I don't eat. She never says stop. She just looks at me like she's saying goodbye to the farm and to me in the same breath. I can't hear that soft voice and still swing the shovel, so I don't hear it. If I stop long enough to listen, I'll admit she's right — and then Mazur, the silo, the farm, all of it was for nothing.
+
+## Actions
+
+### Press him about Tadeusz Mazur
+- **Requires:** A reason to name Mazur — the [PGR ledger](../documents/pgr-ledger.md) showing a worker nobody answers to, or [Wanda Mazur](widow.md)'s account of her "pension"
+- **Cost:** 1 card
+- **Outcome:** He's a bad liar under direct fire, and it comes apart in stages:
+  - **Deflection** — "Mazur? Seasonal. Comes and goes." Awkward, unconvincing.
+  - **Read, or mention Wanda** — he goes pale, stops working, asks to speak away from the others. Not afraid of the state — afraid of Wanda learning her "pension" is a dead man's wages.
+  - **Push quietly, one-on-one** — he gives it up rather than let it reach her: the silo, the grain gone to quicksand, his own hands digging for the body too late, the paperwork Zbigniew told him to bury. → **Gives** [`foreman-coverup`](../clues/clues.md#foreman-coverup)
+  - **Push in public, or threaten the workers** — he shuts down and runs to Zbigniew — not to confess, to *warn*: "They know about Mazur." Zbigniew hears "they know" and thinks the lynch. Two men, two secrets, one misfire. → **NPC State Change:** Zbigniew (cooperative → guarded, paranoia spikes); **World State Change:** doors across the village close.
 
 ## Bond
 

@@ -31,7 +31,7 @@ She describes it: Michał hasn't come home since the flood started. Day 3, Day 4
   - She doesn't know the plan. She just knows her husband is trying to get his hands on decades-old explosives and won't explain why.
   - **Streetwise:** UPA partisan bunkers in Bieszczady forests — plausible. Old ordnance, unstable, decades underground.
 
-- **The dilemma** — Zofia wants the committee to stop him. But the village needs what he's doing. The sandbags, the ditches, the barriers — without Michał, the flood defense collapses. The workers follow him because he's the only one still fighting.
+- **The dilemma** — Zofia isn't asking them to save the farm; she gave up on the farm days ago. She wants them to save *him* — pull him out before the thing wearing him works his body to death. But the village needs what he's doing. The sandbags, the ditches, the barriers — without Michał, the flood defense collapses. The workers follow him because he's the only one still fighting.
   - **Read:** She knows this. She's asking the committee to choose her husband over the village. She knows what that costs.
 
 ## Actions

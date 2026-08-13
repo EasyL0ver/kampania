@@ -152,12 +152,12 @@ The well gives him **inhuman fortitude.** No guilt to amplify, no wound to reope
 
 ## Zofia Pytlak
 
-The well drains her warmth. No guilt — instead, it takes.
+**Largely immune.** The well amplifies the refusal to let go — and Zofia has already let go. She sees the valley is lost and has made her peace with leaving. There's nothing for it to grip.
 
-- First tired. Then flat. Then empty. Then gone
-- Food burns. Plates unwashed. She sits and stares. Light behind her eyes is off
-- **Zofia kills herself.** Quietly. In the house. Nobody finds her in time
-- The well's cruelest trick: gave her husband inhuman strength to keep him away from the one person who could save him
+- Stays warm, stays clear while everyone else spirals. The one steady light in the village
+- This is *why* she can reach Michał when no one else can — the well never got into her
+- Her grief is clean, not corrosive: she mourns the place without being consumed by it
+- The well's cruelest trick is aimed at Michał, not her — it gives him inhuman strength precisely to keep him away from the one person it couldn't touch
 
 ## Paraskewia Chyłak (Hag)
 

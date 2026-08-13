@@ -12,7 +12,7 @@
 
 ## Character
 
-PGR cook. The warmest person in the village — feeds everyone, makes people feel welcome. Knows about the silo cover-up. Wants her husband to tell the truth. Her decline is the village's barometer.
+PGR cook. The warmest person in the village — feeds everyone, makes people feel welcome. Knows about the silo cover-up and has quietly wanted Michał to tell the truth for two years. When the flood comes she's the one warm voice for **letting go**: the water wins, save the living, grieve the place. She loves Michał for fighting it and knows he can't win.
 
 ## Appearance
 
@@ -33,11 +33,27 @@ Warm carrying voice, calls everyone "child" regardless of age. As the well takes
 
 ## Opinions
 
-- **[Michał Pytlak](foreman.md)** — She loves him completely. He told her about the silo that night because he couldn't carry it alone, and she's been pushing him to confess for two years. Now she's watching him harden into something she doesn't recognize and she can't reach him. She's the only person who could save him, and she's losing the ability to try.
+- **[Michał Pytlak](foreman.md)** — She loves him completely. He told her about the silo that night because he couldn't carry it alone, and she's quietly wanted him to confess ever since. Now the water's rising and he's throwing his whole body at it — and she doesn't try to stop him, because she admires him too much for that. But she knows the thing he won't say: the valley is already lost. She stands beside a doomed man and refuses to pretend he'll win. Her fear isn't that he's changed — it's that he'll die proving a point the water already settled.
 - **[Staszek Pytlak](secondary-characters.md)** — Her son. Her reason for everything. If the worst comes, she'll make sure he's safe with another family before she lets go.
 - **[Irena Gajda](wife.md)** — The sołtys's wife. Calculating where Zofia is open. Zofia senses the sharpness behind Irena's polite questions but doesn't guard herself — openness is all she knows.
 - **[Barbara Kopacz](barbara.md)** — Works on the farm. Zofia is kind to her without pity — treats her as a person, asks about her day, saves her the good bread. One of the few who does.
 - **[Wanda Mazur](widow.md)** — Both PGR wives. Zofia knows the truth about Wanda's "pension" — phantom wages from a dead man's ledger entry. Being kind to Wanda costs her every time, carrying that knowledge and smiling through it.
+
+## Actions
+
+### Prepare the soft landing (evacuation)
+- **Requires:** Her trust (Bond earned), or the flood has begun
+- **Cost:** 1 card
+- **Outcome:** She isn't waiting to be rescued — she's already quietly deciding who has to go first. She knows the village the way only the person who feeds it does: who's too proud to ask ([Wanda](widow.md)), too far gone to move herself ([Babcia](babcia.md)), too poor and too scared ([Barbara](barbara.md) and Pawełek), and her own Staszek before any of them. Alone she can only nag. With the committee behind her — carts, hands, a reason the stubborn will accept — she can actually move them.
+  - **Read:** She isn't panicking. She decided days ago the water wins; this is grief turned into a to-do list.
+- **Gives:** World State Change — an evacuation forms around Zofia; when the flood peaks, the vulnerable are already out. The village that could not let go of its dead lets go of its living in time to save them.
+
+### Send Zofia to Michał (the flood line)
+- **Requires:** Her trust; Michał is in the grip of the flood-work (see [Michał's Flood Fight](../events/foremans-flood-fight.md))
+- **Cost:** 1 card
+- **Outcome:** No one else can reach him — he doesn't hear the committee, can't be physically stopped, and the well has its hooks in him. But the well never touched Zofia, and hers is the one voice under all that. She doesn't argue and she doesn't beg. She tells him it's done, that she's proud of him, and that she isn't burying a husband to save a farm. Send her — and mean it — and he comes back into his own body and walks home.
+  - **Read:** This is the only key that fits the lock. Not force, not reason — her.
+- **Gives:** World State Change — Michał comes home *human* and survives; the flood defense collapses and the [engineering ending](../events/foreman-saves-village.md) closes. He lives; she keeps him. The valley is lost and the family is not.
 
 ## Bond
 
