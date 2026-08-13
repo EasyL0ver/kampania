@@ -14,6 +14,8 @@
 
 Devoutly religious on the surface, impenetrable beneath. The true architect of the lynch — sober, deliberate, never touched anyone. The hardest NPC to crack.
 
+*GM only — why she did it:* This was not a wife's jealousy. Helena found out about Emil's affair and tried the quiet way first — she asked Hania to step aside. Hania answered with blackmail, threatening to expose the family's hidden Lemko heritage to the village and the state. That turned a rival into an existential threat that could never be out-waited. Helena's decision to end her was **cold and rational**: you cannot negotiate with a permanent gun to your family's head. The morality-mob she aimed at Hania was cover; silencing the blackmailer and burying the secret was the point. She does not know Emil was the one who leaked the secret in the first place.
+
 ## Appearance
 
 - **Clothes:** Immaculate dark clothes — cardigan buttoned to the throat, always an apron, small crucifix at her collar

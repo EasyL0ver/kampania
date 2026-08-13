@@ -82,11 +82,14 @@ The flood zone was chosen partly to bury the massacre evidence. [por. Witold Sko
 ### something-happened-in-54
 Something violent happened one night in 1954. [Zbigniew Gajda](../characters/wojewoda.md) came home drunk and bloody. [Tadek Gajda](../characters/wujas.md) collapsed into the bottle and never came back. The [Barnaś family](../characters/soldier.md) was gone by morning.
 
-### matrona-caught-lovers
-[Helena Rzepka](../characters/matrona.md) caught [Hania Barnaś](../characters/jagna.md) and [Emil Rzepka](../characters/secondary-characters.md) together.
+### matrona-learned-of-affair
+[Helena Rzepka](../characters/matrona.md) found out about the affair between [Hania Barnaś](../characters/jagna.md) and [Emil Rzepka](../characters/painter.md) on her own, and first tried to handle it quietly — she asked Hania, privately, to give Emil up.
 
 ### jagna-painter-affair
-[Hania Barnaś](../characters/jagna.md) and [Emil Rzepka](../characters/secondary-characters.md) were lovers. Open secret in the village — everyone knew.
+[Hania Barnaś](../characters/jagna.md) and [Emil Rzepka](../characters/painter.md) were lovers. Open secret in the village — everyone knew.
+
+### jagna-blackmailed-the-family
+When [Helena Rzepka](../characters/matrona.md) asked her to give up Emil, [Hania Barnaś](../characters/jagna.md) refused and instead used the family's Lemko secret against them — threatening to expose them to the village and the state unless she was left alone with Emil. A living Hania was a permanent threat the family could never out-wait. This is the buried reason the lynch had to be final.
 
 ### matrona-orchestrated-lynch
 [Helena Rzepka](../characters/matrona.md) orchestrated the drinking that led to the lynch. She stayed sober, aimed her brothers at [Hania Barnaś](../characters/jagna.md), and said "get rid of the problem." She never touched anyone — every hand that night was male.

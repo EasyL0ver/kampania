@@ -28,9 +28,11 @@ What Tadek Gajda does depends entirely on how the players have treated him:
 
 ### Path A: Confession
 
-If the players have shown him **humanity** — listened to him, shared a drink, treated him like a person instead of a suspect — he breaks down and talks. Not all at once. In fragments, between sobs and swigs. But he gives them the lynch: who did what, where the bodies went, the well.
+If the players have shown him **humanity** — listened to him, shared a drink, treated him like a person instead of a suspect — he breaks down and talks. Not all at once. In fragments, between sobs and swigs. But he gives them the lynch: who did what, where the bodies went, the well — and the thing the village never knew, that the girl had the family cornered. The Barnaś girl found out what they were and threatened to hand them all to the state; Helena aimed the men at her to make it stop.
 
 This is the **most direct path to the full truth** about the lynch. No other NPC will lay it out this plainly.
+
+*Clues given:* [jagna-blackmailed-the-family](../clues/clues.md#jagna-blackmailed-the-family), plus the wider lynch reconstruction (who did what, the bodies, the well) at the GM's discretion based on how far Tadek goes.
 
 ### Path B: Suicide
 

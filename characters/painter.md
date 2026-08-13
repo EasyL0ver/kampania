@@ -13,6 +13,8 @@
 
 Helena's husband. Was secretly romancing Hania Barnaś — the affair triggered the lynch. Beaten but spared. An artist who only paints landscapes, never people — except one hidden portrait of Hania in his attic.
 
+*GM only:* Emil carries the guilt of the affair, but not the whole truth. In the intimacy of it, he told Hania the one thing his family kept buried — that he and his siblings are secretly Lemko. He never knew she turned it into blackmail against them, or that it was the real reason Helena needed her gone for good. He blames himself for loving her; he has no idea he handed over the fuse. If he ever learned it, the incomplete guilt he has survived on for thirteen years would come apart.
+
 ## Appearance
 
 - **Clothes:** Paint-spattered work clothes in the attic studio; downstairs, dressed neatly in whatever Helena lays out for him
@@ -33,7 +35,7 @@ Hands are the only alive part of him — long-fingered, always stained with cadm
 ## Opinions
 
 - **[Helena Rzepka](matrona.md)** — His wife. Married him after the lynch, despite everything. He can't tell if it was mercy or punishment. Probably both. She runs the household, runs him, and he lets her because the alternative is making a decision, and he can't do that anymore. Grateful and terrified in equal measure.
-- **Hania Barnaś** — Dead twenty years and still the only face he can paint. The secret portrait in the attic is the only honest thing left in his life. He loved her. He got her killed. Those two facts are the same fact.
+- **Hania Barnaś** — Missing thirteen years and still the only face he can paint. The secret portrait in the attic is the only honest thing left in his life. He loved her. He believes he got her killed. Those two facts are the same fact — and he never suspects how literally true it is.
 
 ## Bond
 
