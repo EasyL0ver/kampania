@@ -14,6 +14,8 @@
 
 Devout, fearful, deeply honest when her guard drops. Eldest sibling but weakest in the family hierarchy. The moral heart of the tragedy — the only person who showed mercy the night of the lynch. Lives in the dead man's house, raising his brain-damaged son, surrounded by the people who did it. Her faith may hold her together — or torment her most.
 
+*GM only — how she dies:* Thirteen years of fear and sleepless guilt have left her dependent on **Luminal** (a barbiturate sedative), a standing prescription she fills quietly in town and takes to get through the nights. On the night of Day 2, frayed by the committee's arrival and worn past counting, she takes too many — an **accidental overdose** (GM-certain: not suicide, not murder). She dies quietly on the kitchen floor; [Edek](glupek.md) finds her and flees. The scene cannot prove accident over suicide, and the village will reach for murder — but the GM knows the truth. See [Ciotka Found Dead](../events/ciotka-found-dead.md).
+
 ## Appearance
 
 - **Clothes:** Shapeless dark dresses — navy, brown, black — always buttoned to the throat; headscarf never removed outdoors

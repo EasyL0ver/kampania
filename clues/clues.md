@@ -191,8 +191,8 @@ From the first night in the village, the players have dreams of violence — han
 ### babcia-hears-singing
 [Stefania Kopacz](../characters/babcia.md) has heard [Paraskewia Chyłak](../characters/hag.md)'s Lemko prayers carried on the wind at night. She will notice when the singing stops.
 
-### ciotka-died-natural
-[Janina Gajda](../characters/ciotka.md) is found dead in her home. Her body shows no wounds and no signs of a struggle — a Medicine read points to natural causes, a failed heart. [Edek Barnaś](../characters/glupek.md) is gone, fled into the forest, and no one can say why. The death was no crime; the boy's flight is what makes it look like one. **Conditional:** Only exists after players discover the body.
+### ciotka-overdose
+[Janina Gajda](../characters/ciotka.md) died from an overdose of her own sedative pills (Luminal) — the nerve-and-sleep medicine she had taken for years. Her body shows no wounds and no signs of a struggle: she was not killed. Whether she miscounted the dose or took them on purpose cannot be told from the scene. [Edek Barnaś](../characters/glupek.md) is gone, fled into the forest. **Conditional:** Only exists after players discover the body.
 
 ### glupek-drawn-to-well
 [Edek Barnaś](../characters/glupek.md) is physically drawn toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) and the well. At the well he becomes still — something in him recognises the place.

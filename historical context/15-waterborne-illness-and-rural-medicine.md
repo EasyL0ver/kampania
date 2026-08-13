@@ -72,6 +72,33 @@ Sulfonamides like Norsulfazol were standard szafka apteczna stock — cheap, sta
 
 For a village in the Bieszczady near the Solina dam construction, the nearest full pharmacy (*apteka*) would be in **Lesko** or **Ustrzyki Dolne** — accessible by road in good weather, but after flooding? Roads washed out, bridges damaged. A child can't wait 2-3 days for roads to clear.
 
+## Barbiturany — leki nasenne i uspokajające
+
+### Luminal (fenobarbital)
+
+The standard prescription sedative-hypnotic of the era. A barbiturate marketed as **Luminal** (fenobarbital), in use since 1912 and a fixture of mid-20th-century medicine cabinets across the Eastern Bloc. Prescribed for:
+- **Nerwica / lęk (anxiety, "nerves")** — small daytime doses for chronic anxiety
+- **Bezsenność (insomnia)** — larger doses at night
+- **Padaczka (epilepsy)** — its primary clinical use
+
+Cheap, state-produced, and extremely common. A frightened, sleepless person could carry a standing prescription for years.
+
+### Availability and control
+
+Unlike basic sulfonamides, barbiturates were **prescription-only (Rp.)** and not stocked in a village **szafka apteczna**. A rural user obtained them from a full **apteka** in town (for our scenario, Lesko or Ustrzyki Dolne), filled a repeat prescription, and kept the bottle at home. In a small village, who was "on their nerves" and taking sleeping powders was rarely a secret.
+
+### Overdose
+
+Barbiturate overdose was one of the most common causes of both accidental and deliberate death in the mid-20th century. The drug has a **narrow therapeutic window** — the dose that lets you sleep and the dose you don't wake from sit close together — and tolerance, confusion, or alcohol makes miscounting easy. Combined with alcohol (a fellow CNS depressant, e.g. bimber) the risk multiplies.
+
+Presentation is quiet: deepening drowsiness → **coma** → slowed, shallow breathing → respiratory failure → death. **No trauma, no struggle, no marks.** The body looks asleep. To an untrained eye — or a rural examiner with no toxicology lab — a barbiturate death is easily mistaken for heart failure, a stroke, or simply "died in her sleep," and just as easily *suspected* as suicide once the bottle is found. Distinguishing accident from intent from the scene alone is often impossible.
+
+### Campaign relevance
+
+- **Period-accurate and quiet.** A Luminal overdose gives a natural-looking, bloodless death — no wound, no sign of violence, a body that looks merely asleep.
+- **Ambiguous by nature.** Accident vs. suicide genuinely cannot be read off the body; even a competent examiner can only say "sedative overdose," never "on purpose."
+- **The bottle is the clue.** Finding the pills reframes a suspected murder as something quieter and sadder.
+
 ## Medycyna ludowa — Lemko and Bieszczady folk remedies
 
 Traditional Lemko healing for gut infections used locally available plants:

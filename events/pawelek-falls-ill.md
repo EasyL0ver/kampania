@@ -103,18 +103,18 @@ Free — no action cost. Available to any player present.
   She reaches for the pharmaceutical cabinet keys — then stops. Sets them on the counter.
   *"I have the medicine. Of course I'll give it to you. But I need your help with something first."*
   Janina is dead. Edek is missing in the forest. Helena needs two things requiring **state authority**:
-  1. **Death certificate for Janina.** Natural causes — heart failure. *"She was old, she was frail, her heart gave out. I just need it written properly. With a government signature."*
+  1. **Death certificate for Janina.** Heart failure. *"She was frail, her heart gave out in her sleep. I just need it written properly. With a government signature."* (She does not mention the pills. The certificate is meant to bury them.)
   2. **Committal recommendation for Edek.** Mentally unfit, danger to himself. *"He needs proper care. A state institution. He can't survive alone in the woods."* Needs committee letterhead — a government recommendation carries weight with the voivodeship psychiatric board.
   Both requests sound reasonable on paper.
   - **Read:** Grief is real — jaw tight, hands shake at Janina's name. But she's thought this through already. The documents were the first thing she thought of.
-  - **Streetwise:** The death certificate closes the matter before anyone examines it — no inquiry into the death, no questions about the boy who vanished the same night. The committal removes Edek permanently — nobody asks *who* he is. The cause of death is real; that's not the point. Helena is burying the thread that leads to 1954.
-  - **Law:** A death certificate signed without a proper examination is improper, and a committal without medical evaluation is professional misconduct — even when the stated cause is true. She's asking you to sign career-ending documents.
-  - **Medicine:** Edek needs help — true. But proper committal requires psychiatric evaluation, not a flood committee's letterhead. This is a shortcut that makes people disappear.
+  - **Streetwise:** "Heart failure" on paper does two things: it buries the pill bottle — a whisper of suicide would mean no church burial and a stain on the family — and it closes the death before anyone asks why the boy ran, a question that leads back to 1954. The committal removes Edek permanently — nobody asks *who* he is.
+  - **Law:** A death certificate written to a cause the signer never examined is improper — and here it actively misstates what was found (pills, not a bad heart). A committal without medical evaluation is professional misconduct. She's asking you to sign career-ending documents.
+  - **Medicine:** You saw the bottle; "heart failure" is a lie of convenience. Edek needs help — true — but proper committal requires psychiatric evaluation, not a flood committee's letterhead. This is a shortcut that makes people disappear.
 
   **If the committee agrees:**
   Helena unlocks the cabinet. Counts the dosage, explains timing, writes it down for Barbara. *"You're good people. Thank you."*
   - **Gives:** **Norsulfazol tablets** — the cure. Recovery begins within hours.
-  - **Cost:** Two signatures on unexamined documents. Committee becomes complicit in foreclosing any inquiry into Janina's death and disappearing the only living witness to the 1954 lynch.
+  - **Cost:** Two signatures on false documents. Committee becomes complicit in misstating Janina's death, burying the pills, and disappearing the only living witness to the 1954 lynch.
 
   **If the committee refuses:**
   Helena puts the keys back. *"I understand. You have your rules."* Pause. *"The medicine is regulated. I need a prescription — state rules."* The warmth stays. The keys vanish.
