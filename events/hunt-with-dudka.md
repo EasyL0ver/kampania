@@ -14,7 +14,6 @@
 - **The anger** — it leaks through the competence. He grips the rifle too hard, moves too fast, pushes deeper than he needs to. A man with something to prove, and it isn't the wolves he's angry at.
 - **The treeline** — **Observation:** he watches it constantly, and not for wolves. When a dog barks in the distance — Rezeń's dogs — he freezes, grips the rifle, forces himself to relax. *"Just that bastard's dogs."* The heat on *bastard* runs deeper than dislike.
 - **Raise the hag, or the village rumor** — ask him mid-hunt whether the Lemko woman is behind the wolves. Dismissive, but rational: *"She's an old woman in the forest, not a witch. It's rain and prey out here, nothing else."* The hunter who can't stop the wolves at least understands them. **Read:** He defends the hag with the same conviction he attacks Rezeń — clear-eyed about nature, unreasoning about the butcher. The contrast is the tell: this isn't professional rivalry. (For the full leverage on why he hates Rezeń, see [Ryszard Dudka](../characters/neighbour.md).)
-- **The two hunters cross paths** — at some point the woods put them within sight of each other: [Rezeń](../characters/butcher.md) a hundred meters off through the trees, dogs at heel, both men tracking the same pack. Neither closes the distance. Dudka goes rigid, rifle tightening in his hands, and stares him down across the clearing until Rezeń simply moves on. Dudka spits it out afterward, unprompted — he's open about the hate: *"That's not a hunter. That's a butcher who found a reason to carry a knife in daylight. He shouldn't be out here. He shouldn't be anywhere near people."* [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
 
 ## Actions
 
@@ -36,6 +35,7 @@
 - Back to the [PGR Farm](../locations/pgr-farm.md)
 - To the [Meadow by the Ravine](../locations/meadow-by-the-ravine.md), if Dudka's detour showed the players the grave
 - Deeper toward the [old village ruins](../locations/old-village-ruins.md), which lie further out the same way
+- [The Hunters Cross Paths](hunters-cross-paths.md) — if the woods put Dudka and Rezeń in sight of each other
 
 ## If Missed
 

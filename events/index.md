@@ -9,6 +9,7 @@
 - [Wolf Attack](wolf-attack.md)
 - [Hunt with Rezeń](hunt-with-rezen.md)
 - [Hunt with Dudka](hunt-with-dudka.md)
+- [The Hunters Cross Paths](hunters-cross-paths.md)
 - [Butcher Hunts](butcher-hunts.md)
 - [Ciotka Found Dead](ciotka-found-dead.md)
 - [Wujas Cracks](wujas-cracks.md)

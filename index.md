@@ -60,6 +60,7 @@ A tabletop RPG oneshot set in 1960s Bieszczady, Poland.
 - [The Wolf Attack](events/wolf-attack.md)
 - [The Hunt with Rezeń](events/hunt-with-rezen.md)
 - [The Hunt with Dudka](events/hunt-with-dudka.md)
+- [The Hunters Cross Paths](events/hunters-cross-paths.md)
 - [Zofia Comes to the Committee](events/foremans-flood-fight.md)
 - [Butcher Hunts](events/butcher-hunts.md)
 - [Foreman Saves Village](events/foreman-saves-village.md)
