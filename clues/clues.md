@@ -303,6 +303,9 @@ Irena Gajda hosts with grace but something is tight behind the hospitality. She'
 ### wife-eavesdrops
 Someone is listening at the door during conversations with the sołtys — a shadow, a floorboard creak. The wife is monitoring what's discussed.
 
+### wife-protects-husband
+[Irena Gajda](../characters/wife.md) has realized [Zbigniew Gajda](../characters/wojewoda.md) took part in the 1954 killing. She will not expose him — she will protect him, and she wants his name left out of any report. Her argument: the flood is coming and the village cannot lose its leader now.
+
 ### pgr-workers-hide-something
 PGR workers exchange glances when asked about accidents. "The barn's been fixed now." Nobody elaborates.
 

@@ -1,10 +1,12 @@
-# Irena Gajda and Marek Gajda's Investigation — Parallel and Flip
+# Irena Gajda and Marek Gajda's Investigation — The Analyst and the Pivot
 
-**Type:** Story fact / parallel investigation / late-game complication
+**Type:** Story fact / rival investigator / the analyst / the Day-4 pivot
 
 ## What It Is
 
-Irena Gajda has been quietly investigating the events of 1954 for years. Not systematically — she has no training, no resources. Just a bored, intelligent woman in the best house in the village with a grown son and nothing to do. Her mind needed something to chew on. The investigation is her hobby — her true crime podcast, 13 years early, in a village with no TV.
+Irena Gajda has quietly picked at the events of 1954 for thirteen years. Not systematically — she has no training, no resources. What she has is the mind of an analyst and nothing to point it at but her own village. She solves the disappearance the way the people at the table solve this campaign: for the pleasure of solving it, at a safe remove from suffering that is real to everyone around her. She is the mirror of the players themselves — a spectator who treats a genuine horror as a puzzle.
+
+There is one move she has never made. In thirteen years of chasing every thread, she has never once let the trail point at her own husband. She has half-known the answer the whole time and made herself not see it — the analyst with the blind spot she cannot analyze. It is why thirteen years produced no conclusion: the only conclusion destroys her.
 
 In the last year or two, she gained a field agent: **Marek Gajda**. He's 21 now. Old enough to be trusted. Old enough to have noticed on his own that something is deeply wrong with this family.
 
@@ -25,11 +27,13 @@ Not much. Enough to be dangerous, not enough to understand:
 - **Fresh tracks at %OLD_VILLAGE%:** Marek Gajda has been visiting the ruins. He's seen the well, the cemetery, the cerkiew. He doesn't know what he's looking for. He's felt the wrongness of the place without understanding it.
 - **A partial timeline:** Between them, they've roughly established that something happened in 1954, that it involved Edward Barnaś's family, and that all four siblings were somehow connected. They don't know what. They don't have proof. Just a shape in the dark.
 
-## During the Game — The Three Phases
+## During the Game — Two Phases
 
-### Phase 1: Parallel Investigation (Early Game)
+Irena runs on a fixed pivot, not a tracked race. **Through Day 3 she is investigating; on Day 4 the repression fails and she becomes her husband's protector.** There is no parallel clue-set to track — the flip is scripted to the calendar.
 
-The committee arrives and starts asking the same questions Irena has been asking for 13 years. She doesn't help them — she **competes**. She's been at this longer; she's not handing it to strangers.
+### Phase 1 — Investigating (Days 1–3)
+
+The committee arrives and starts asking the same questions Irena has been asking for thirteen years. She doesn't help them — she **competes**. She's been at this longer; she's not handing it to strangers.
 
 Players encounter signs of her investigation without knowing the source:
 
@@ -38,33 +42,30 @@ Players encounter signs of her investigation without knowing the source:
 - **Marek Gajda disappearing into the forest** at night — same pattern as the bimber crew, same pattern as a conspirator. The violent sołtys's kid sneaking around looks like he's destroying evidence for his father. Perfect red herring.
 - **The hidden collection** — if players search Zbigniew Gajda's house, they might find Irena Gajda's flour tin before they find anything of Zbigniew Gajda's. A stained shirt and notes that look like a cover-up dossier.
 
-Players will spend time trying to figure out who this second investigator is. Are they being followed? Is someone destroying evidence ahead of them? Is Marek Gajda working for his father?
+She trades with players who treat her as a peer — one fact for one fact, cold and precise (see [her Actions](../characters/wife.md#actions)). She freezes out anyone who patronizes her. And in every exchange there is one name she steers around: her husband's.
 
-### Phase 2: The Breakthrough (Mid Game)
+### The Pivot — Day 4
 
-The committee's questions loosen the village just enough for Irena's puzzle pieces to click. Between her 13 years of fragments and the new cracks the players create, she finally puts it together: the lynch, the bodies, her husband's role.
+On the fourth day the committee's pressure finally cracks thirteen years of repression. The thread she never followed follows itself home. She sees it: Zbigniew was one of the men who killed that night.
 
-The players may *cause* her breakthrough without knowing it — their questions, their confrontations, the village's reactions all feed information back to a woman who's been watching for 13 years.
+It detonates as a fight in the house — see [Irena Confronts the Wojewoda](../events/irena-confronts-wojewoda.md). She confronts him; he doesn't deny it; and the confrontation resolves not in exposure but in complicity. She spent her life wanting him to see her. She will not be the one who destroys him now that she finally can. She crosses to his side in real time.
 
-### Phase 3: The Flip (Late Game)
+### Phase 2 — Protector (Day 4 onward)
 
-Irena goes to Zbigniew Gajda. Not as a threat — as an equal. *"I know. I figured it out. Stop shutting me out."*
+Her law from here: never against him. Everything she has flows to protecting him.
 
-She wants a seat at the table. The secret is her credential. She's proving she's smart enough to stand beside him.
+- **If the players don't hold the truth yet:** she quietly arms Zbigniew. The household closes ranks. The helpful traces dry up, the flour tin is moved, Marek is pulled home. The players lose their parallel investigation and their best false lead in one move — and never learn why.
+- **If the players do hold the truth** (they can name Zbigniew as one of the killers): she comes to them with **the deal** — leave his name out of the report; the village needs its leader through the flood. She'll make their case airtight and shield them from Skowron in return. See [her Actions](../characters/wife.md#actions). It is the corrupt analyst's offer: she surfaced the truth, and now she asks the players to help her bury it.
 
-Zbigniew is shocked, then impressed. He lets her in. They become a team. Marek follows his mother loyally — if she flips, he flips.
+## The Danger — and Who Pays It
 
-**For the players:** the signs of a parallel investigation go quiet overnight. The helpful traces dry up. The flour tin gets moved. The family closes ranks — sołtys, wife, and son working together. The players lose their parallel investigation and their best false lead in one move.
+Through Phase 1 the investigation is dangerous — but Irena never carries the risk. She reads the village from the safest house in it and sends Marek into the places that can kill him:
 
-## The Danger (Phase 1 Only)
+- **If Stanisław Rezeń notices** Marek at %OLD_VILLAGE%, the man who smothered a crying child for annoying him does not hesitate. Marek doesn't know what's in the well; he's stumbling through a killing ground leaving tracks.
+- **If Helena Rzepka finds out**, she moves to neutralize it — and she is far better at this than Irena.
+- **If por. Witold Skowron finds out**, state security has a new problem, and it's wearing a leather jacket.
 
-Before the flip, the investigation is dangerous for Irena and Marek:
-
-- **If Helena Rzepka finds out**, she'll move to neutralize it.
-- **If Stanisław Rezeń finds out** Marek has been visiting %OLD_VILLAGE%, the man who smothered a crying child won't hesitate.
-- **If por. Witold Skowron finds out**, state security has a new problem.
-
-After the flip, the danger evaporates — they're under Zbigniew's protection.
+Irena knows all of this. She sends him anyway, and tells herself the outside is safe. When the players watch Marek walk into danger, they are watching a woman wager her son from a chair where she will never be touched — the spectator who bets other people's bodies. After the pivot the danger evaporates: once she's under Zbigniew's protection, so is Marek.
 
 ## Marek Gajda's Role
 
@@ -72,13 +73,15 @@ His mother's loyal field agent. The spoiled sołtys's kid who drank with Tadek G
 
 His visits to %OLD_VILLAGE% are reckless. He doesn't know what's in the well. He's stumbling around a place full of secrets he's not ready for, leaving tracks that others can follow.
 
-When his mother flips, he follows without hesitation. Devoted to her above all.
+When his mother crosses over on Day 4, he follows without hesitation. Devoted to her above all.
 
 ## For the GM
 
-This subplot serves multiple purposes:
+This subplot serves several purposes:
 
-- **Competition:** A parallel investigation that creates friction — the players aren't the only ones working this case, and the other investigator isn't sharing.
-- **Red herring:** Marek at night looks like a cover-up operative. Players waste actions tailing him before realizing he's digging, not burying.
-- **Late-game complication:** The flip removes resources the players didn't know they had. Irena and Marek's signs were breadcrumbs — now the breadcrumbs stop.
-- **Moral mirror:** Post-flip, whether Irena is the players' enemy depends on what the players decide to do with the truth. If they cover for Zbigniew, the whole family is on their side.
+- **The mirror.** Irena is the players — the human beings at the table — turned into a character. She treats a real atrocity as a puzzle to enjoy from a safe seat. Play the discomfort; don't apologize for it. The campaign is pointing at the table.
+- **Rival, then red herring.** In Phase 1 she competes, and Marek at night looks like a cover-up operative. Players waste actions tailing him before realizing he's digging, not burying.
+- **The Day-4 pivot.** Her flip is scripted, not player-triggered — but the players' pressure is the *fiction* of why the repression finally fails. Don't track a clock; just turn her on Day 4.
+- **The deal, and its teeth.** Her Phase-2 offer — omit Zbigniew from the report — hooks the endings directly. Zbigniew is the village's structure. **Accept** and the players choose the living leader over the dead: complicit, but structure holds (toward the Justice ending, the lynch prevented). **Refuse** and they get the whole truth, but toppling the sołtys mid-flood strips the structure that contains the village — toward Punishment, the lynch. She is not wrong that he is needed. There is no clean win.
+- **Compatible with the ritual.** The [ritual](the-ritual.md) acknowledges the *dead*; the deal buries the *living guilty*. A group can name every victim at the well and still leave Zbigniew off the page. Mourn the dead, protect the murderer, keep the village's silence one more generation — the most damning ending of all, and the one the deal makes available.
+- **The corrupt analyst.** The ritual is the true analytic act — bringing the repressed into the light. Irena is the false analyst who surfaces the truth and helps re-bury it. She and the ritual are the two things a player can do with the truth. The players choose which analyst they are.

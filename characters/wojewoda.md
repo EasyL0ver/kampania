@@ -35,7 +35,7 @@ Voice deep and unhurried. When angry, goes very still and very quiet — the tem
 
 ## Opinions
 
-- **[Irena Gajda](wife.md)** — For thirteen years I underestimated her. Background. Then she comes to me with the truth mid-game and I'm shocked — then impressed. She proved herself my equal. We become a team: managing the village together for the first time. The irony: the thing that brings us closest is a shared crime.
+- **[Irena Gajda](wife.md)** — For thirteen years I underestimated her. Background noise. Then, on the fourth day, she stops me in my own house and says she knows — that she has *always* half-known, and made herself not see it. I don't deny it. I brace for her to break, or to turn me in. She does neither. She chooses me. The wife I dismissed becomes the one who manages the outsiders, keeps my name off their pages, saves me. The thing that finally makes us equals is a shared crime.
 - **[Marek Gajda](junior.md)** — My son. Complicated pride. I see him drifting toward Tadek's orbit and it worries me — not about the boy's soul, but what a loose-tongued drunk uncle might say around him.
 - **[Helena Rzepka](matrona.md)** — The sibling I respect most and fear slightly. Smarter than me and I know it. Unspoken division: I manage the village, she manages the story. I've never confronted her about that night.
 - **[Tadek Gajda](wujas.md)** — My brother. My liability. I love him with resignation and dread. Every drunk night is a risk. I tolerate the [bimber operation](../story-facts/bimber-operation.md) because it keeps him occupied. Real fear: wrong night, wrong company, wrong words.

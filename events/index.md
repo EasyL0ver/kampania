@@ -13,6 +13,7 @@
 - [Wujas Visits Butcher](wujas-visits-butcher.md)
 - [Painter & Matrona](painter-matrona.md)
 - [Wojewoda Confronts Butcher](wojewoda-confronts-butcher.md)
+- [Irena Confronts the Wojewoda](irena-confronts-wojewoda.md)
 - [Well Confrontation](well-confrontation.md)
 - [The Flood](the-flood.md)
 - [Operator Refuses Help](operator-refuses-help.md)

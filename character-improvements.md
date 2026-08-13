@@ -8,8 +8,8 @@ Two axes: **story service** (does the machine need them, do they pull their weig
 
 ## Cross-cutting fixes (do these first — they touch many characters)
 
-1. **Close the Actions gap.** Several rich NPCs have Bond/Grudge but no `## Actions` — players can't *work* them, so their depth stays locked in GM notes. Give each of these **one** concrete, hard lever: **Helena, Emil, ks. Pająk, Paraskewia (Hag), Zofia, Irena**.
-2. **Get the person out from under the spreadsheet.** Move heavy mechanical tables off the character page into a mechanics/story-fact file, leaving the human to breathe: **Dudka** (vigilante-targeting table), **Irena** (6-conclusion table).
+1. **Close the Actions gap.** Several rich NPCs have Bond/Grudge but no `## Actions` — players can't *work* them, so their depth stays locked in GM notes. Give each of these **one** concrete, hard lever: **Helena, Emil, ks. Pająk, Paraskewia (Hag), Zofia**. *(Irena — done.)*
+2. **Get the person out from under the spreadsheet.** Move heavy mechanical tables off the character page into a mechanics/story-fact file, leaving the human to breathe: **Dudka** (vigilante-targeting table). *(Irena's 6-conclusion table — deleted, replaced by the two-phase pivot.)*
 3. **De-risk the fragile GM-only threads.** All-or-nothing reveals that most tables will miss: seed 2–3 low-bar *surface* tells so the thread isn't binary — **the Operator identity** (Hania) and **`glupek-strangled`** (currently has no giver).
 4. **Rezeń gets cost, not interiority.** He's the Id by design — don't give him a soul, give players a way to make his appetite backfire, and one uncanny (not gory) beat.
 
@@ -35,7 +35,7 @@ Two axes: **story service** (does the machine need them, do they pull their weig
 | **Edek Barnaś** (Głupek) | High | Good | **7.5** — a symbol; the pillow truth is a WIP dead-end | **Design the `glupek-strangled` giver** (the open WIP). Give him one human want beyond ciocia. |
 | **por. Skowron** (SB) | High | Good | **7.5** — external force, no crack in the belief | One scene where his belief wavers or his humanity shows — let him be a person once. |
 | **Edward Barnaś** (Soldier) | High | Med | **7.5** — victim-who-was-a-killer, but a document not a presence | Surface the duality *in play*: an artifact/testimony that forces players to feel the tension (was the lynch justified?). |
-| **Irena Gajda** (Wife) | High | Med | **7.5** — "hobby/podcast" framing under-haunts; Marek-cost toothless; no Actions | Reframe the motive from hobby to **dread** (a woman who can't stop picking at whether her husband is a killer); give the Marek-cost teeth; add Actions for turning her. |
+| **Irena Gajda** (Wife) | High | High | **✓ addressed** — was 7.5: "hobby/podcast" framing under-haunts; Marek-cost toothless; no Actions; buried under a 6-conclusion table | **Done.** Motive reframed to the **analyst / player-mirror** — curiosity + being *seen* by Zbigniew, with a repressed blind spot she can't see (not "dread," which flattened her). Deleted the conclusions table for a **two-phase** mechanic (Day-4 pivot: investigating → protector). Gave the Marek-cost teeth. Added **Actions** (trade clues; **the deal** — omit Zbigniew from the report; hooks Justice vs Punishment). New event: [Irena Confronts the Wojewoda](events/irena-confronts-wojewoda.md). |
 | **Marek Gajda** (Junior) | Med-High | Med | **7** — a bundle of functions; "flips when mother flips" deletes his arc | Give him one choice *independent* of Irena — a moment he can defy his mother or his father on his own terms. |
 | **Michał Pytlak** (Foreman) | High | Med | **7** — bolted-on side-plot; interiority is loyalty + stubbornness | Tie the silo cover-up thematically to the main cover-up (same village reflex), and give him one real interiority beat. |
 | **Zofia Pytlak** | Med | Good | **7** — a barometer/device; no agency beyond loving Michał | Give her **one** Action: a concrete way players can try to save Michał *through* her. |

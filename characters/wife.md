@@ -1,6 +1,7 @@
 # Irena Gajda
 
 **Type:** Named character — the sołtys's wife / shadow investigator
+**Position:** [The analyst](../story-facts/wife-junior-investigation.md) — outside the [Freudian triangle](../story-facts/freudian-triangle.md), watching the psyche break down. A corrupt one: she surfaces the truth, then helps bury it.
 
 ## Vital Statistics
 
@@ -11,7 +12,7 @@
 
 ## Character
 
-Intelligent, observant, dismissed. Has been secretly investigating the 1954 disappearance for 13 years out of boredom and an instinct she can't silence. Uses her son Marek as field agent.
+Intelligent, observant, dismissed. For thirteen years she has quietly picked at the 1954 disappearance — the analyst who can't stop, driven by the pleasure of the puzzle and the hope that solving it will finally make her husband see her. She has followed every thread except the one that points at him. Uses her son Marek as her field agent, and runs him into danger she never faces herself.
 
 ## Appearance
 
@@ -32,8 +33,8 @@ Speaks precisely, each word chosen. Tilts her head when listening — filing it 
 
 ## Opinions
 
-- **[Zbigniew Gajda](wojewoda.md)** — She loves him. He's dismissed her for 13 years — patted her hand and changed the subject every time she noticed something wrong in this village. She'll prove she was right all along. And when she does, he'll finally see her as his equal.
-- **[Marek Gajda](junior.md)** — Her son, her instrument. He does what she asks without question, and she's grateful for it — but part of her knows she's using his devotion. She tells herself it's for his good too.
+- **[Zbigniew Gajda](wojewoda.md)** — I love him, and for thirteen years I've been quietly solving the thing he's hiding — not to hurt him, to *impress* him. I picture the day I lay the whole solved case at his feet and he finally looks at me as an equal. I've chased every thread but one. I never let it point at him. *(From Day 4:)* Now I can't not see it. He was one of them. And I find I can't do what I always assumed I would — I can't turn on him. I'll protect him instead. Let them have every name but his.
+- **[Marek Gajda](junior.md)** — My son, my hands in the places I won't go. I read the village from my parlour; he walks into %OLD_VILLAGE% where the butcher hunts, drinks the truth out of Tadek, leaves tracks a killer could follow. I tell myself the outside is safe. It isn't. If this ever turns, it won't be me who pays — it'll be him. I know that, and I send him anyway. The puzzle is worth more to me than I let myself admit.
 - **[Helena Rzepka](matrona.md)** — Sister-in-law. Something closed and hard about that woman. Irena can't read her, which bothers her.
 - **[ks. Władysław Pająk](priest.md)** — Another man who told her to be quiet and stop noticing things. She went to him more than once — in confession, carefully, obliquely. Every time: shut down. She won't go back.
 - **[Tadek Gajda](wujas.md)** — Brother-in-law. A wreck, but a wreck who talks when drunk. Marek handles him — she wouldn't lower herself, and Tadek wouldn't speak freely to her anyway.
@@ -41,32 +42,34 @@ Speaks precisely, each word chosen. Tilts her head when listening — filing it 
 
 ## Mechanics
 
-### Parallel Investigation
+### Two Phases
 
-Irena collects clues from the same pool as players (`clues/clues.md`). GM tracks two parallel sets.
+Irena runs on a fixed pivot, not a tracked investigation. **Through Day 3 she is investigating; on Day 4 the repressed surfaces and she becomes the protector.** No parallel clue-tracking, no race to manage — the flip is scripted to the calendar.
 
-**Starting clues (before game):**
-- [`barnas-family-disappeared`](../clues/clues.md#barnas-family-disappeared)
-- [`something-happened-in-54`](../clues/clues.md#something-happened-in-54)
-- [`jagna-painter-affair`](../clues/clues.md#jagna-painter-affair)
-- [`wujas-loved-jagna`](../clues/clues.md#wujas-loved-jagna)
-- [`ciotka-lives-in-soldiers-house`](../clues/clues.md#ciotka-lives-in-soldiers-house)
-- [`ciotka-adopted-glupek`](../clues/clues.md#ciotka-adopted-glupek)
+**Phase 1 — Investigating (Days 1–3).** The analyst at work: she has circled the 1954 killing for thirteen years and never once let the trail point home at her own husband. To the players she reads as a rival investigator and a red herring — fresh tracks at %OLD_VILLAGE% (Marek's), the flour-tin dossier, a shadow at the door. She trades warily with players who treat her as a peer; she shares nothing with those who patronize her.
 
-**During play:** Each day, Irena gains clues through her own channels — Marek on the outside, her social access on the inside. If players rattle an NPC, Irena hears about it. If players visit a location, Marek may check the same spot next day. GM decides what she picks up based on village events.
+**The pivot — Day 4.** The committee's pressure finally cracks thirteen years of repression. She connects Zbigniew to the killing. The realization detonates as a fight in the house — see [Irena Confronts the Wojewoda](../events/irena-confronts-wojewoda.md) — and resolves not in exposure but in complicity: she confronts him, he doesn't deny it, and she crosses to his side.
 
-**Breakthrough trigger:** When she has enough lynch clues to connect the dots, she reaches a conclusion and acts. Which conclusion depends on which clues reached her.
+**Phase 2 — Protector (Day 4 onward).** Her law: never against him. If the players don't yet hold the truth, she quietly arms Zbigniew — the household closes, the breadcrumbs stop, Marek is pulled home. If the players *do* hold it, she comes to them with the deal (see Actions).
 
-### Conclusions
+## Actions
 
-| # | Conclusion | Key clues needed | Result |
-|---|---|---|---|
-| 1 | **Truth** — siblings lynched the family | `three-drunk-attackers`, `soldier-killed-defending-daughter` or `jagna-was-attacked` | Goes to Zbigniew hurt. Joins him out of loyalty. Standard flip. |
-| 2 | **Truth + justified** — lynch happened but Edward was a war criminal | Truth clues + `soldier-participated-in-massacre` | Goes to Zbigniew *proud*. Strongest alliance. He killed a killer. |
-| 3 | **Rezeń alone** — the butcher did it, siblings are clean | `glupek-strangled`, `butcher-visits-the-well` without sibling clues | Pushes Zbigniew to act against Rezeń. Alliance, but misdirected. |
-| 4 | **Love triangle** — Tadek killed Jagna over jealousy | `wujas-loved-jagna` + `jagna-painter-affair` + `jagna-was-attacked` without wider context | Confronts Zbigniew about Tadek. "Your brother killed a girl." |
-| 5 | **Helena orchestrated it** — the sister planned the whole thing | `matrona-orchestrated-lynch` or `painter-heard-matrona` + any violence clue | Goes to Zbigniew with fury directed at Helena. Alliance forms against her — Zbigniew must choose between wife and sister. |
-| 6 | **Affair** — Zbigniew kept Jagna's photo | `wojewoda-kept-jagnas-photo` + `jagna-painter-affair` without violence clues | Marriage breaks. No flip. Investigation poisons everything. |
+### Trade clues (Phase 1)
+- **Requires:** Days 1–3; a 1954 clue she doesn't already hold
+- **Cost:** 1 card
+- **Outcome:** She offers nothing first — she watches what you put down. Lay a real fact on the table and she reciprocates, one for one, precise and cold. Not grateful. Hungry. She's been starving for a piece that fits.
+  - **Read:** There's a thread she steers around. She'll trade on anyone but her own husband — his name never comes up, and she changes direction when it nears.
+  - Treat her as an equal, not a housewife, and she trades a second fact for free.
+- **Gives:** NPC State Change: Irena (wary rival → will trade) + one clue she can spare, GM's choice — e.g. [`jagna-painter-affair`](../clues/clues.md#jagna-painter-affair) or [`ciotka-lives-in-soldiers-house`](../clues/clues.md#ciotka-lives-in-soldiers-house)
+
+### The deal (Phase 2)
+- **Requires:** Day 4 onward; the players hold [`three-drunk-attackers`](../clues/clues.md#three-drunk-attackers) (they can name Zbigniew as one of the killers)
+- **Cost:** Free — she comes to them
+- **Outcome:** She doesn't threaten and she doesn't beg. She proposes: *leave his name out of your report.* Not the massacre, not Rezeń — just Zbigniew. Her argument is reasonable, and that is what makes it lethal: the flood is coming, the village is about to be uprooted, and a community mid-catastrophe cannot survive losing its leader. In exchange she makes their case airtight — the flour-tin evidence, thirteen years of it — and offers the sołtys's shield against Skowron. *"I'll make it solid, and then we let it sleep."*
+  - **Read:** This isn't loyalty to a cause. It's the last move of a woman who spent her life trying to be seen by him and will not be the one to destroy him now that she finally can.
+  - **Accept →** the players become the village: they choose the living leader over the dead, exactly as 1954 did.
+  - **Refuse →** she cannot act against him, so she acts against *them* — hands Zbigniew everything they've shown her, and the household closes and counters.
+- **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband) + NPC State Change: Irena (rival → Zbigniew's protector) · **Accept:** World State Change — Zbigniew's role buried, structure preserved (toward the **Justice** ending, [lynch](../events/punishment-lynch.md) prevented) · **Refuse:** World State Change — the family actively counters the committee, and toppling Zbigniew mid-flood removes the structure that holds the village (toward [Punishment — the lynch](../events/punishment-lynch.md))
 
 ## Bond
 
