@@ -35,7 +35,7 @@
 - Back to the [PGR Farm](../locations/pgr-farm.md)
 - To the [Meadow by the Ravine](../locations/meadow-by-the-ravine.md), if Dudka's detour showed the players the grave
 - Deeper toward the [old village ruins](../locations/old-village-ruins.md), which lie further out the same way
-- [The Hunters Cross Paths](hunters-cross-paths.md) — if the woods put Dudka and Rezeń in sight of each other
+- [The Hunters Cross Paths](hunters-cross-paths.md) — if Rezeń's dogs come crashing through the pack Dudka's stalking
 
 ## If Missed
 

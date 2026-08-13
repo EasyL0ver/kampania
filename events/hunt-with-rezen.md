@@ -34,7 +34,7 @@ He was told to kill wolves. He heard *we need you.*
 
 - Back to the [PGR Farm](../locations/pgr-farm.md)
 - Deeper toward the [old village ruins](../locations/old-village-ruins.md), if the players push past where the hunt leads
-- [The Hunters Cross Paths](hunters-cross-paths.md) — if the woods put Rezeń and Dudka in sight of each other
+- [The Hunters Cross Paths](hunters-cross-paths.md) — if Rezeń's dogs come crashing through the pack Dudka's stalking
 
 ## If Missed
 
