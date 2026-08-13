@@ -387,6 +387,9 @@ Wolves have been killing [PGR](../locations/pgr-farm.md) livestock for weeks. Th
 ### dudka-despises-rezen
 [Ryszard Dudka](../characters/neighbour.md) openly hates [Stanisław Rezeń](../characters/butcher.md). Calls him evil to anyone who listens. The anger is visceral — not just about the wolf authorization. Something older.
 
+### rezen-mocks-an-old-failure
+When [Stanisław Rezeń](../characters/butcher.md) taunts [Ryszard Dudka](../characters/neighbour.md) for never having the nerve to act, the words *"you never did"* land like a reference to one specific old failure, not a general insult — as if both men are remembering the same moment, years back, that neither will name.
+
 ### butcher-knows-forest-intimately
 Stanisław Rezeń knows the forest paths with unnatural intimacy — every trail, every clearing. How does a village outcast know the wilderness this well?
 
