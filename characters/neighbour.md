@@ -137,4 +137,4 @@ While Humiliated:
 
 - [ ] **Humiliate him or side with Rezeń** — laugh him down yourself, dismiss the threat he sees, or leave [the clash](../events/hunters-cross-paths.md) to run so Rezeń wins it (see [Humiliated](#humiliated)).
 - [ ] **Endanger or use Barbara or Pawełek** — push Barbara carelessly, let the boy come to harm, or treat his one clean thing as leverage.
-- [ ] **Expose him as the informant** — reveal within earshot that he talks, or let a leak trace back to him, and hand his worst fear (Rezeń finding out) straight to the village.
+- [ ] **Burn his discretion** — let it get back to Rezeń or the village that he's been talking to the committee about 1954. Being tied to the outsiders is the exact thing he's terrified of; do it and hand his worst fear straight to the village.
