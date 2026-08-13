@@ -400,9 +400,6 @@ Tadek Gajda and his crew regularly head into the treeline with bottles. They're 
 ### old-wartime-positions
 Traces of old wartime positions in the forest — collapsed dugouts, rusted metal. Someone was here during the war.
 
-### operation-in-the-forest
-Someone is doing something in the forest — men, fire, a smell. Could be anything. Players don't know what until they investigate.
-
 ### bimber-still
 [Tadek Gajda](../characters/secondary-characters.md)'s crew runs an illegal bimber still in the [forest](../locations/old-village-ruins.md), halfway between the villages. Just moonshine — not the murder conspiracy. [Zbigniew Gajda](../characters/wojewoda.md) knows and tolerates it. [Helena Rzepka](../characters/matrona.md) supplies sugar through the store.
 

@@ -17,4 +17,5 @@
 - [Old Village Ruins](old-village-ruins.md)
 - [Old Village Cerkiew](old-village-cerkiew.md)
 - [UPA Bunker](upa-bunker.md)
+- [Meadow by the Ravine](meadow-by-the-ravine.md)
 - [Village Outskirts](village-outskirts.md)

@@ -93,7 +93,7 @@ Pawełek is 4. He's not interrogated — he's observed and talked to. Where you 
 - **Requires:** **Milicjant**
 - **Cost:** Free
 - **Outcome:** *"Are you a real policeman? Do you have a gun?"* He wants to play. You're the cop, he's the bad guy — or the other way around. Through the game he acts out things he's seen: men around a fire, someone shouting, bottles. *"The bad guys hide in the forest. They yell sometimes."* He's playing. He's also reporting.
-- **Gives:** [operation-in-the-forest](../clues/clues.md#operation-in-the-forest)
+- **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
 
 ### Speak Lemko with Pawełek
 - **When:** Any phase
