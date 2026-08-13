@@ -57,24 +57,24 @@ He comes from the village path. Three dogs trot ahead of him. He sees her. Stops
 
 **That's what flips it.** She won't acknowledge him. Won't flinch, won't run, won't give him fear. She treats him like weather — something to endure, not something that matters. The Id can't tolerate being irrelevant.
 
-The playfulness dies. What replaces it is slow and deliberate. He grabs her. She's light — old, frail. He drags her away from the rim. The dogs circle. She fights — clawing, kicking, Lemko curses — but it's nothing. He beats her. Takes his time. Not frenzy — *enjoyment*. The Id finally unleashed, savouring every second. Each hit is relief. Each sound she makes feeds something that's been starving. He's breathing hard. Not from effort. From pleasure.
+The playfulness dies. Not into rage — into something quieter. She won't give him the fear he came to enjoy, so he stops fishing for it and just does the thing. He sets the knife on the rim — he won't need it for her — and steps in.
 
-It takes a while. Long enough for anyone watching to understand this isn't a man removing an obstacle. This is a man who has wanted to do this for a very long time and is making it last.
+**[GM — turn to the players now. Whatever they're going to do, it happens here, and fast. See "If Players Are There."]**
 
-When she stops moving, he picks her up and carries her to the well. Drops her in. Then the wolf after her. Stands at the rim. The craving that's been eating him for days — weeks — is quiet for the first time.
+If no one stops him, it's neither loud nor long. A short struggle in the dark, the dogs, and then the clearing is quiet again. She weighs almost nothing. He lifts her over the rim and lets go, the wolf in after her, and stands there a moment — calm, unhurried, content the way a man is when an itch finally stops. He didn't get the fear he likes. He took the rest, and it was enough. Then he whistles the dogs and walks back down the path.
 
 **The ambivalence:** Is that the well? Or is this just a man who came to dump a wolf, found an obstacle, and discovered he liked removing it? He was friendly. He joked. And when she wouldn't give him fear, he took something else. The players see both readings and neither is wrong.
 
 ## If Players Are There
 
-The killing takes time. Players who are present watch it begin — and have time to act. But what they can do depends on what they have.
+It doesn't happen all at once — there's the moment he commits, and a moment before it's done. Players who are present see it start, and have that window to act. But what they can do depends on what they have.
 
 ### Without a weapon
 
 The players are census bureaucrats in a dark forest. Rezeń has a knife, three dogs, and 20 years of practice. The math is bad.
 
 **Shout / Command — free**
-He looks up from the beating. Blood on his knuckles. *"Go home."* Flat. Dismissive. Goes back to it. Committee authority means nothing here. The dogs growl at the players. He doesn't even bother threatening — they're irrelevant. This costs nothing because it achieves nothing.
+He looks up. *"Go home."* Flat. Dismissive. Goes back to it. Committee authority means nothing here. The dogs growl at the players. He doesn't even bother threatening — they're irrelevant. This costs nothing because it achieves nothing.
 
 **Intervene physically — costs 1 composure**
 The GM asks: *"He has a knife and three dogs. Do you want to get between them? It costs 1 composure."*
