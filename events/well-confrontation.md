@@ -34,6 +34,7 @@ The friendliness curdles into play. He drops the wolf, circles her, jokes — *"
 - **The dead wolf on his shoulder** — he carried it here for a reason. **Read:** this is a routine; he's fed this hole before, with carcasses, with bones. [`butcher-compelled-to-feed`](../clues/clues.md#butcher-compelled-to-feed), [`butcher-visits-the-well`](../clues/clues.md#butcher-visits-the-well)
 - **She isn't afraid** — she knew someone would come, and stayed. **Read:** whatever this well holds, tending it matters to her more than her own life.
 - **Rezeń at play** — calm, smiling, the knife turning, in no rush. **Read / Milicjant:** this is a practiced, controlled man who *enjoys* it — never more himself than when someone else should be afraid. [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+- **The three dogs** — fanned out around him, watching hands and not faces, moving to a whistle as one animal. **Observation / Milicjant / Violence:** these aren't pets, they're the reason he doesn't hurry. Anyone thinking of laying hands on Rezeń has to solve the pack first — one person can't fight the man and the dogs both. If it comes to that, it takes more than one of you: someone on the animals, someone on him.
 - **The ambivalence** — **Read:** is this the well's compulsion, or just a man who came to dump a wolf, found an obstacle, and discovered he liked removing it? He was friendly; he joked; when she wouldn't give him fear he took the rest. Both readings are true and neither is wrong.
 
 ## Actions
