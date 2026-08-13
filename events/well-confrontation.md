@@ -43,7 +43,7 @@ The players are census bureaucrats; Rezeń has a knife, three dogs, and twenty y
 
 ### Grapple him
 - **Requires:** Present, no firearm
-- **Cost:** 2 composure — or **1** if you have a relevant skill to throw at it (Endurance, Violence, Milicjant, or the like); may cause a Wound if you take the dogs head-on
+- **Cost:** 2 composure — or **1** if you have a relevant skill to throw at it (Endurance, Violence, Milicjant, or the like). You can choose to take the dogs head-on for a firmer hold; if you do, **you are wounded** (dog bites — see [Wounds](../story-facts/game-system.md#wounds)).
 - **Outcome:** You throw yourself into the mess — grab his arm, wedge between him and the well, take a thrown coat to a snapping muzzle. **Alone it only buys seconds:** he shrugs a clerk off and the dogs drive you back, and you learn in your bones exactly how outmatched you are here ([`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)), then he steps back in. **But this is the help a fighter needs.** If another player is making the **Fight him** attempt, your grapple is what ties up the dogs and buys them the one-on-one — and it is *required* for that attempt to land. Two or three clerks holding the pack off a knife is worth more here than any of them could do alone.
 
 ### Grab the hag and run
