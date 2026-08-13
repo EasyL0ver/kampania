@@ -135,6 +135,6 @@ While Humiliated:
 
 ## Grudge
 
-- [ ] **Humiliate him or side with Rezeń** — laugh him down yourself, dismiss the threat he sees, or leave [the clash](../events/hunters-cross-paths.md) to run so Rezeń wins it (see [Humiliated](#humiliated)).
+- [ ] **Side with Rezeń or humiliate him** — go on [the hunt with Rezeń](../events/hunt-with-rezen.md), laugh him down yourself, dismiss the threat he sees, or leave [the clash](../events/hunters-cross-paths.md) to run so Rezeń wins it (see [Humiliated](#humiliated)).
 - [ ] **Endanger or use Barbara or Pawełek** — push Barbara carelessly, let the boy come to harm, or treat his one clean thing as leverage.
 - [ ] **Burn his discretion** — let it get back to Rezeń or the village that he's been talking to the committee about 1954. Being tied to the outsiders is the exact thing he's terrified of; do it and hand his worst fear straight to the village.
