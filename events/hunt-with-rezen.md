@@ -15,6 +15,7 @@ He was told to kill wolves. He heard *we need you.*
 - **The dogs** — trained to an extension of his body, moving as a unit off small signals. **Read:** This man has done this hundreds of times.
 - **The knife** — always in his hand. Not drawn — turning, the way another man fidgets with a pen. **Observation / Milicjant:** Not nerves. His hands need to hold something sharp.
 - **The man himself** — **Read:** the tension that radiates off him in the village is gone out here. He's relaxed, present, at home. The village's most dangerous man is calmest when he's hunting. It's deeply wrong to watch.
+- **The two hunters cross paths** — the woods put them within sight of each other: [Dudka](../characters/neighbour.md) a hundred meters off through the trees, rifle up, glaring across the clearing. Rezeń glances over, reads him in a second, and keeps walking — no fear, no interest, as if Dudka were a stump. If a player asks, he says it flat, without heat: *"He's angry he couldn't do it. That's his to carry, not mine."* **Read:** the contempt runs entirely one direction; Rezeń doesn't hate Dudka, he simply doesn't register him as a threat. [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
 
 ## Actions
 
