@@ -84,8 +84,4 @@ Rezeń: knife, three dogs, twenty years of practice. Unarmed players cannot stop
 
 ## If Missed
 
-**Default: the hag dies.** Without a push (players present, or Dudka here and armed), the confrontation plays offscreen — Rezeń kills her and puts her body in the well.
-
-- **Aftermath**, discoverable Day 5+ at the well → [`someone-killed-at-well`](../clues/clues.md#someone-killed-at-well). Deeper investigation via [The Well](../locations/the-well.md#actions) and [Hag's Cabin](../locations/hags-cabin.md#actions).
-- **The village doesn't care** → [`hag-blamed-for-wolves`](../clues/clues.md#hag-blamed-for-wolves); only [Dudka](../characters/neighbour.md) mourns her.
-- **World State Change — the well is uncontained.** Her rites were the only check on it, and now her body is in it. Escalation follows [well-influence.md](../story-facts/well-influence.md) (villagers begin to dream, Rezeń accelerates). Rites resume only if players rebuild [the ritual](../story-facts/the-ritual.md).
+**Default: the hag dies.** Without a push (players present, or Dudka here and armed), the confrontation plays offscreen — Rezeń kills her and drops her body in the well. The visible fact is [`someone-killed-at-well`](../clues/clues.md#someone-killed-at-well); the aftermath and its fallout are owned by [The Well](../locations/the-well.md#actions), [Hag's Cabin](../locations/hags-cabin.md#actions), and [well-influence.md](../story-facts/well-influence.md).
