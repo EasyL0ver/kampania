@@ -10,7 +10,7 @@
 
 - Non-payroll expense journal: purchases, contracted services, repairs, veterinary.
 - Entry marked ⚠️ is **Edward Barnaś's partner** — listed under her own name (Marta Konieczna). She and Edward never married — she always kept her own surname. No "Barnaś" appears anywhere near this entry.
-- Marta did **not** die in the lynch. She forged Edward's signature on the 1954 transfer that signed the Barnaś house and land over to the PGR (the deed is in the [PGR office property records](../locations/pgr-office.md), signed weeks after Edward was already dead), spread the story that the family had "moved away," and left the village alive at first light. She never came back. She is a findable **living witness**, not a body.
+- Marta did **not** die in the lynch. She bargained her silence and disappearance for her life, spread the story that the family had "moved away," and left the village alive at first light. She never came back. She is a findable **living witness**, not a body. (The 1954 departure declaration that laundered the disappearance was forged weeks later by [Emil Rzepka](../characters/painter.md), the painter, at [Helena](../characters/matrona.md)'s direction — not by Marta — the [PGR office property records](../locations/pgr-office.md) hold it, dated weeks after Edward was already dead.)
 - Her initials (M.K.) match the [love letters](../locations/ciotkas-house.md) found in the buried cache at Ciotka's backyard.
 - This is the **only place** her full name appears in the game. Players will see it and skim past — one payment among many. The M.K. initials from the letters are the key that makes this entry click retroactively.
 - Players will likely find this document while investigating the [Foreman's cover-up](../story-facts/foreman-embezzlement.md) — looking for financial irregularities, not a dead woman's name.
@@ -27,7 +27,7 @@
 1. Love letters in [buried cache](../locations/ciotkas-house.md) → addressed to "M.K."
 2. Expense journal → "Konieczna, Marta" — paid for mending work clothes, 1953
 3. M.K. = Marta Konieczna = Edward Barnaś's woman
-4. She stopped appearing anywhere after 1954 → she **left the village that year, alive.** She forged Edward's signature on the house transfer (see the [property records](../locations/pgr-office.md) at the PGR office), put out that the family had "moved away," and was gone by morning. Marta is the deepest **living** witness to that night — the thread runs to wherever she went, not to a grave.
+4. She stopped appearing anywhere after 1954 → she **left the village that year, alive.** She bargained her silence and disappearance for her life, put out that the family had "moved away," and was gone by morning. (The forged departure declaration that made it official was [Emil Rzepka](../characters/painter.md)'s hand, at [Helena](../characters/matrona.md)'s direction — see the [property records](../locations/pgr-office.md) at the PGR office.) Marta is the deepest **living** witness to that night — the thread runs to wherever she went, not to a grave.
 
 ### Naming
 

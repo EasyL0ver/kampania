@@ -16,6 +16,8 @@ Devoutly religious on the surface, impenetrable beneath. The true architect of t
 
 *GM only — why she did it:* This was not a wife's jealousy. Helena found out about Emil's affair and tried the quiet way first — she asked Hania to step aside. Hania answered with blackmail, threatening to expose the family's hidden Lemko heritage to the village and the state. That turned a rival into an existential threat that could never be out-waited. Helena's decision to end her was **cold and rational**: you cannot negotiate with a permanent gun to your family's head. The morality-mob she aimed at Hania was cover; silencing the blackmailer and burying the secret was the point. She does not know Emil was the one who leaked the secret in the first place.
 
+*GM only — the forged paper:* Weeks after the lynch, with Marta already gone, the disappearance had to be made official. Helena had it done, but she didn't hold the pen — she gave it to **Emil**, whose painter's hand could copy Edward Barnaś's signature onto an administrative departure declaration handing the house to the PGR (see [the lynch](../story-facts/the-lynch.md), [departure-declaration-forged](../clues/clues.md#departure-declaration-forged), [Emil's file](painter.md)). It is the pattern of everything she does: she directs, someone else's hand acts, and she stays one step removed. The [PGR office](../locations/pgr-office.md) property records prove the paper is forged; they do **not** point to her. Any thread from the forgery leads to *Emil*, not Helena — pinning it back on her is left open, a hook for a later pass.
+
 ## Appearance
 
 - **Clothes:** Immaculate dark clothes — cardigan buttoned to the throat, always an apron, small crucifix at her collar

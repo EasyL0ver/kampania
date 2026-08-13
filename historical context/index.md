@@ -15,3 +15,4 @@
 - [Lemko Beliefs and Folk Magic](13-lemko-beliefs-and-folk-magic.md)
 - [Wolves in 1960s Bieszczady](14-wolves-bieszczady-1960s.md)
 - [Waterborne Illness and Rural Medicine in PRL](15-waterborne-illness-and-rural-medicine.md)
+- [Land, Abandoned Farms & "Departure" Paperwork](16-land-transfer-abandoned-farms.md)

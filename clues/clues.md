@@ -113,10 +113,19 @@ When [Helena Rzepka](../characters/matrona.md) asked her to give up Emil, [Hania
 The man [Edward Barnaś](../characters/soldier.md) shot that night was [Zbigniew Gajda](../characters/wojewoda.md). He carries the scar under his clothes and has never explained it.
 
 ### marta-made-a-deal
-[Edward Barnaś](../characters/soldier.md)'s partner, Marta Konieczna, wasn't killed. She bargained — signed the house away, agreed to say the family had moved, and was gone by morning. She left the village alive and never came back.
+[Edward Barnaś](../characters/soldier.md)'s partner, Marta Konieczna, wasn't killed. She bargained — she had nothing to sign away, so she traded the only thing she had: her silence and her disappearance. She agreed to vanish and to tell anyone who asked that the family had moved. She was gone by morning, left the village alive, and never came back.
 
-### marta-forged-the-transfer
-The document that handed the Barnaś house to the [PGR](../locations/pgr-farm.md) carries [Edward Barnaś](../characters/soldier.md)'s signature — but Edward was already dead when it was signed. Marta Konieczna forged it. The forgery is what let the "they moved away" story stand.
+### departure-declaration-forged
+The document that recorded the Barnaś family's "departure" and handed their house and land to the [PGR](../locations/pgr-farm.md) is a forgery. It carries [Edward Barnaś](../characters/soldier.md)'s signature — but Edward was already dead when it was filed, weeks after the 1954 lynch. Someone forged his hand to make the family's disappearance read as a voluntary move west. The paper is what let the "they moved away" story stand.
+
+### marta-in-legnica
+Marta Konieczna resettled west after 1954. She lives in Legnica and works as a nurse. She is reachable by telephone.
+
+### marta-has-something-to-hide
+Marta Konieczna claims the whole family moved west together and split up shortly after — but that collides with the village's story that Edward Barnaś abandoned them and left alone, she guards it too carefully, and she went still with fear when she heard the call was from the valley. She is hiding something about 1954.
+
+### marta-witnessed-the-lynch
+Marta Konieczna was present the night of the 1954 lynch and survived it. She saw the men, the well, and Edward Barnaś come to defend his family with his old pistol.
 
 ### soldier-never-married
 [Edward Barnaś](../characters/soldier.md) and his partner never married — they lived together. She kept her own surname. This is why no "Barnaś" wife appears in any village records.
@@ -124,17 +133,14 @@ The document that handed the Barnaś house to the [PGR](../locations/pgr-farm.md
 ### glupek-strangled
 The night of the lynch, four-year-old [Edek Barnaś](../characters/glupek.md) wouldn't stop crying, and it annoyed [Stanisław Rezeń](../characters/butcher.md). He took a pillow, pressed it over the boy's face to shut him up, and held it there — deliberate, unhurried. [Janina Gajda](../characters/ciotka.md) tore it away. It left permanent brain damage — not congenital.
 
-### lynch-bodies-in-well
-[Edward Barnaś](../characters/soldier.md)'s body was dumped in the old well in [%OLD_VILLAGE%](../locations/old-village-ruins.md) after the 1954 lynch — the same well that already held the 1947 massacre remains. His is the only body from that night in the well.
+### lynch-body-in-well
+[Edward Barnaś](../characters/soldier.md) — the father — was killed in the 1954 lynch and his body dumped in the old well in [%OLD_VILLAGE%](../locations/old-village-ruins.md), the same well that already held the 1947 massacre remains. His is the *only* body from that night: no one else who was at the well in 1954 is down there.
 
 ### butcher-has-soldiers-gun
 [Stanisław Rezeń](../characters/butcher.md) wrestled the pistol from [Edward Barnaś](../characters/soldier.md) that night and kept it — the KBW sidearm that shot the sołtys. It's still in his house.
 
 ### wujas-loved-jagna
 [Tadek Gajda](../characters/secondary-characters.md) was in love with [Hania Barnaś](../characters/jagna.md), but she chose [Emil Rzepka](../characters/secondary-characters.md).
-
-### wojewoda-kept-jagnas-photo
-[Zbigniew Gajda](../characters/wojewoda.md) kept a photograph of [Hania Barnaś](../characters/jagna.md) hidden in his office. He never acted on it — but he noticed her, and he kept the proof.
 
 ### painter-was-spared
 [Emil Rzepka](../characters/secondary-characters.md) was beaten but spared because he was [Helena Rzepka](../characters/matrona.md)'s fiancé.

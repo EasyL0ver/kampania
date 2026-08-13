@@ -38,17 +38,19 @@ The night ran in two places. It began at the old well in %OLD_VILLAGE% — the r
 
 Edward had shot the sołtys. Drunk, bloodied, past reason, the men carried the rage back to the Barnaś house to finish it.
 
-6. They found **Marta Konieczna** — Edward's partner, not the mother of his children — and Edward's young son **Edek** (four years old). Marta didn't fight and didn't grieve. She **bargained**: she would sign the house over, tell everyone the family had moved away, and be gone by morning. She **forged Edward's signature** on the transfer and left the village at first light. Alive. She never came back.
+6. They found **Marta Konieczna** — Edward's partner, not the mother of his children — and Edward's young son **Edek** (four years old). Marta didn't fight and didn't grieve. She **bargained**: she had nothing to sign away — the house was the State's, not hers — so she traded the only thing she had, her silence and her disappearance. She would tell everyone the family had moved away and be gone by morning. She left the village at first light. Alive. She never came back.
 7. **Edek wouldn't stop crying** — and it annoyed **Stanisław Rezeń**. He took a pillow, pressed it over the child's face to shut him up, and held it there — deliberate, unhurried. Off any plan, wanted by no one.
 8. **Janina Gajda tore it away.** She saved Edek Barnaś's life, but the smothering had already done its work: **permanent brain damage.** Not congenital. Inflicted.
 
 **Helena Rzepka aimed the men at Hania Barnaś. She did not order Edward's death or the attack on the child — the night ran far past what she set in motion. She has never said so.**
 
+*Weeks later — the paperwork.* Marta was already gone; the disappearance still had to be made official. **Helena had it laundered into a document.** She didn't hold the pen herself — **Emil Rzepka**, whose painter's hand could copy a dead man's signature, forged Edward's name on an administrative departure declaration that handed the house to the PGR and put the family's vanishing on record as a voluntary move west. Cold, deliberate, filed through the proper office — the architect directing, the broken man executing. *(GM: this is a hard, catchable crime in Emil's own hand — see [his file](../characters/painter.md) — while Helena stays one step removed, as always. The [PGR office](../locations/pgr-office.md) proves the paper is forged; it does not, by itself, name either of them.)*
+
 ## The Roles
 
 | Who | Role in the lynch |
 |---|---|
-| **Helena Rzepka** | **Sober. The architect.** Found out about the affair, asked Hania to step aside, and was answered with blackmail. Orchestrated the drinking and aimed the men at Hania Barnaś to end the threat. Never touched anyone. The night went further than she planned — she has never disowned it. |
+| **Helena Rzepka** | **Sober. The architect.** Found out about the affair, asked Hania to step aside, and was answered with blackmail. Orchestrated the drinking and aimed the men at Hania Barnaś to end the threat. Never touched anyone. The night went further than she planned — she has never disowned it. Weeks later she had the disappearance laundered into an official "they moved away" — she directed it; Emil's hand forged the paper. |
 | **Tadek Gajda** | Drunk, rejected lover. Beat Hania Barnaś and tore at her clothes. Helped kill Edward Barnaś. Saw Hania run and never went after her — thirteen years of that. |
 | **Zbigniew Gajda** | Drunk, ethnic hatred. Beat Hania Barnaś. Helped kill Edward Barnaś — and took Edward's bullet doing it. Carries the hidden scar. |
 | **Stanisław Rezeń** | Drunk, there for the violence. Attacked Hania Barnaś. Disarmed Edward Barnaś and kept his pistol. At the house, annoyed by the crying child, smothered him with a pillow to shut him up — deliberate, off any plan, wanted by no one — until Janina Gajda tore it away. |

@@ -66,7 +66,7 @@ GM tracks score per target. Highest when he snaps = who he goes after.
 | `butcher-visits-the-well` | Rezeń | +1 |
 | `fresh-blood-at-well` | Rezeń | +1 |
 | `someone-killed-at-well` | Rezeń | +3 |
-| `lynch-bodies-in-well` | Zbigniew | +1 |
+| `lynch-body-in-well` | Zbigniew | +1 |
 | `foreman-coverup` | Zbigniew | +2 |
 | `hag-blamed-for-wolves` | Hag | +2 |
 | Pawełek dies (players promised help) | Players | +3 |

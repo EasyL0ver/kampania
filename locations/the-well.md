@@ -39,7 +39,7 @@ Stone-lined well. The heart of the scenario. Contains two sets of dead spanning 
 
 - **Cleared vs. piled debris** — evidence of two people fighting over the well without knowing each other. → **Gives:** [butcher-vs-hag](../clues/clues.md#butcher-vs-hag)
 - **The smell** — atmospheric. Something is wrong here in a way that goes beyond decay.
-- **Excavation** — if players dig, they find bodies. Two layers of dead. → **Gives:** [well-holds-two-sets-of-dead](../clues/clues.md#well-holds-two-sets-of-dead), [massacre-bodies-in-well](../clues/clues.md#massacre-bodies-in-well), [lynch-bodies-in-well](../clues/clues.md#lynch-bodies-in-well)
+- **Excavation** — if players dig, they find bodies. Two layers of dead. → **Gives:** [well-holds-two-sets-of-dead](../clues/clues.md#well-holds-two-sets-of-dead), [massacre-bodies-in-well](../clues/clues.md#massacre-bodies-in-well), [lynch-body-in-well](../clues/clues.md#lynch-body-in-well)
 
 ## Actions
 

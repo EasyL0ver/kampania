@@ -2,11 +2,11 @@
 
 **Location:** [Zbigniew Gajda's house](../locations/wojewodas-house.md) — behind a closed door
 **Present:** [Zbigniew Gajda](../characters/wojewoda.md) (unmasked), [Irena Gajda](../characters/wife.md) (the repression breaking, then setting)
-**Available:** Day 4, evening or night. Fires when the household is private — most naturally if the players lodge at the house, or are visiting that evening.
+**Available:** When Irena pivots (trigger TBD — see [her mechanics](../characters/wife.md#mechanics)), evening or night. Fires when the household is private — most naturally if the players lodge at the house, or are visiting that evening.
 
 ## Trigger
 
-This is Irena's [pivot](../characters/wife.md#mechanics). For thirteen years she investigated everything but the one thread that pointed at her husband. On the fourth day the committee's pressure finally forces it home: she sees that Zbigniew was one of the men who killed that night. She doesn't take it to the players, and she doesn't take it to the law. She takes it to him.
+This is Irena's [pivot](../characters/wife.md#mechanics). For thirteen years she investigated everything but the one thread that pointed at her husband. When it finally forces its way home, she sees that Zbigniew was one of the men who killed that night. She doesn't take it to the players, and she doesn't take it to the law. She takes it to him.
 
 ## Hook
 
@@ -55,4 +55,4 @@ The fight was never going to end with her turning on him. It ends with her cross
 
 ## If Missed
 
-If the players aren't in the house — or don't stay to listen — the fight resolves privately and nobody outside the marriage ever hears it. From Day 4 on, Irena is Zbigniew's protector regardless (see [her Phase 2](../characters/wife.md#mechanics)): the household quietly closes ranks, the flour-tin traces dry up, and Marek is pulled home. The players lose their parallel investigation and their best false lead in a single night and never learn why. If they later assemble the truth on their own, Irena still comes to them with [the deal](../characters/wife.md#actions) — just without the players ever having glimpsed the moment it was born.
+If the players aren't in the house — or don't stay to listen — the fight resolves privately and nobody outside the marriage ever hears it. Once she's pivoted, Irena is Zbigniew's protector regardless (see [her Phase 2](../characters/wife.md#mechanics)): the household quietly closes ranks, the flour-tin traces dry up, and Marek is pulled home. The players lose their parallel investigation and their best false lead in a single night and never learn why. If they later assemble the truth on their own, Irena still comes to them with [the deal](../characters/wife.md#actions) — just without the players ever having glimpsed the moment it was born.

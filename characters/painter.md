@@ -15,6 +15,8 @@ Helena's husband. Was secretly romancing Hania Barnaś — the affair triggered 
 
 *GM only:* Emil carries the guilt of the affair, but not the whole truth. In the intimacy of it, he told Hania the one thing his family kept buried — that he and his siblings are secretly Lemko. He never knew she turned it into blackmail against them, or that it was the real reason Helena needed her gone for good. He blames himself for loving her; he has no idea he handed over the fuse. If he ever learned it, the incomplete guilt he has survived on for thirteen years would come apart.
 
+*GM only — the forgery:* Weeks after the lynch, Helena had him put his one living skill to use: his painter's hand copied Edward Barnaś's dead signature onto the administrative departure declaration that handed the house to the PGR and made the family's vanishing read as a voluntary move west (see [the lynch](../story-facts/the-lynch.md), [departure-declaration-forged](../clues/clues.md#departure-declaration-forged)). He did it because Helena told him to and refusing her has never been a thing he can do. It is his one concrete, catchable crime — an act in his own hand — and the thread from the forged paper leads to *him*, not her. He has never spoken of it. Being confronted with it is the kind of pressure that could crack him.
+
 ## Appearance
 
 - **Clothes:** Paint-spattered work clothes in the attic studio; downstairs, dressed neatly in whatever Helena lays out for him
