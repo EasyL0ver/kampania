@@ -15,6 +15,9 @@ Physically massive, brain-damaged — from being smothered during the lynch when
 
 *GM only:* When [Janina](ciotka.md) dies (an accidental overdose of her own sedatives — see her file and the scene), Edek finds her, can't grasp that she's gone, panics, and flees into the forest to the [UPA bunker](../locations/upa-bunker.md). He did **not** kill her. His flight makes him look guilty — the village and the players will suspect him — but he is a red herring. He is innocent throughout. See [Ciotka Found Dead](../events/ciotka-found-dead.md).
 
+<!-- GM — how the truth of his injury surfaces (WIP): that Rezeń deliberately smothered him with a pillow (`glupek-strangled`) is a HARD, late reveal, never freely offered. The village never got the full story, Janina is dead, and the only two who could tell it are guarded: ks. Pająk (heard Janina's confession — priest-knows-everything) and Ryszard Dudka (heard the night — neighbour-heard-the-lynch). TODO: design the concrete discovery path — it must cost real effort and never come easy. Until then the clue has no giver. -->
+
+
 ## Appearance
 
 - **Clothes:** Always too small — trousers ending above the ankle, sleeves too short; whatever ciocia can find

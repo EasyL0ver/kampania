@@ -39,7 +39,7 @@ The night ran in two places. It began at the old well in %OLD_VILLAGE% — the r
 Edward had shot the sołtys. Drunk, bloodied, past reason, the men carried the rage back to the Barnaś house to finish it.
 
 6. They found **Marta Konieczna** — Edward's partner, not the mother of his children — and Edward's young son **Edek** (four years old). Marta didn't fight and didn't grieve. She **bargained**: she would sign the house over, tell everyone the family had moved away, and be gone by morning. She **forged Edward's signature** on the transfer and left the village at first light. Alive. She never came back.
-7. **Edek wouldn't stop crying.** **Stanisław Rezeń** took a pillow, pressed it over the child's face to end the noise, and held it there — cold, deliberate, in no hurry. Off any plan, wanted by no one.
+7. **Edek wouldn't stop crying** — and it annoyed **Stanisław Rezeń**. He took a pillow, pressed it over the child's face to shut him up, and held it there — deliberate, unhurried. Off any plan, wanted by no one.
 8. **Janina Gajda tore it away.** She saved Edek Barnaś's life, but the smothering had already done its work: **permanent brain damage.** Not congenital. Inflicted.
 
 **Helena Rzepka aimed the men at Hania Barnaś. She did not order Edward's death or the attack on the child — the night ran far past what she set in motion. She has never said so.**
@@ -51,7 +51,7 @@ Edward had shot the sołtys. Drunk, bloodied, past reason, the men carried the r
 | **Helena Rzepka** | **Sober. The architect.** Found out about the affair, asked Hania to step aside, and was answered with blackmail. Orchestrated the drinking and aimed the men at Hania Barnaś to end the threat. Never touched anyone. The night went further than she planned — she has never disowned it. |
 | **Tadek Gajda** | Drunk, rejected lover. Beat Hania Barnaś and tore at her clothes. Helped kill Edward Barnaś. Saw Hania run and never went after her — thirteen years of that. |
 | **Zbigniew Gajda** | Drunk, ethnic hatred. Beat Hania Barnaś. Helped kill Edward Barnaś — and took Edward's bullet doing it. Carries the hidden scar. |
-| **Stanisław Rezeń** | Drunk, there for the violence. Attacked Hania Barnaś. Disarmed Edward Barnaś and kept his pistol. At the house, smothered the crying child with a pillow to stop the noise — cold and deliberate, off any plan, wanted by no one — until Janina Gajda tore it away. |
+| **Stanisław Rezeń** | Drunk, there for the violence. Attacked Hania Barnaś. Disarmed Edward Barnaś and kept his pistol. At the house, annoyed by the crying child, smothered him with a pillow to shut him up — deliberate, off any plan, wanted by no one — until Janina Gajda tore it away. |
 
 ## The Well
 
