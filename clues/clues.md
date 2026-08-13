@@ -172,6 +172,9 @@ The night of the lynch, four-year-old [Edek Barnaś](../characters/glupek.md) wo
 ### butcher-stopped-drinking-1954
 Stanisław Rezeń stopped drinking in 1954 — abruptly, completely. Something happened that year.
 
+### butcher-is-dangerous
+Under pressure [Stanisław Rezeń](../characters/butcher.md) doesn't rage — he goes cold. Even breathing, flat eyes, a knife already turning in his hand, three dogs moving around him like his own limbs with no command spoken. He is a controlled, capable killer, and he has plainly stood ready to kill before.
+
 ---
 
 ## The Well
