@@ -120,6 +120,11 @@ While Humiliated:
 - **Outcome:** He laughs. *"Mother? Janka? No, come on. She moved in after them. The boy was already there."* Casual, amused — it's obvious to him.
 - **Gives:** [ciotka-not-mother](../clues/clues.md#ciotka-not-mother)
 
+### Uplift Ryszard
+- **Requires:** [Humiliated](#humiliated)
+- **Cost:** Free — **Sweettalk, Intimidate, or reminding him what Rezeń is and what he did**; the strongest version is backing him in a real moment against Rezeń
+- **Outcome:** You put the steel back in him and give him his face back. **Clears [Humiliated](#humiliated)** (NPC State Change). Its sharpest use is in the moment at [the well](../events/well-confrontation.md#dudkas-rifle-if-he-is-present), where it's what lets him hold the rifle on Rezeń and go through with it.
+
 ## Bond
 
 - [ ] Ask how Barbara and Pawełek are doing — show you notice them as people, not just sources
