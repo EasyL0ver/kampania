@@ -15,6 +15,7 @@
 - [Wojewoda Confronts Butcher](wojewoda-confronts-butcher.md)
 - [Well Confrontation](well-confrontation.md)
 - [The Flood](the-flood.md)
+- [Operator Refuses Help](operator-refuses-help.md)
 - [Foreman's Flood Fight](foremans-flood-fight.md)
 - [Foreman Saves Village](foreman-saves-village.md)
 - [Punishment Lynch](punishment-lynch.md)
