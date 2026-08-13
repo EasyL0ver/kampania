@@ -39,25 +39,27 @@ The friendliness curdles into play. He drops the wolf, circles her, jokes — *"
 
 ## Actions
 
-The players are census bureaucrats; Rezeń has a knife, three dogs, and twenty years of practice. Unarmed, none of this stops him for good — **unless the party has a fighter *and* the hands to spare on his dogs.** One person can't do both. The options escalate; a player can climb from one to the next as the moment slips away.
+Rezeń: knife, three dogs, twenty years of practice. Unarmed players cannot stop him permanently. A kill/drive-off requires a **Violence** fighter *plus* at least one other player occupying the dogs — one person cannot do both.
 
 ### Grapple him
 - **Requires:** Present, no firearm
-- **Cost:** 2 composure — or **1** if you have a relevant skill to throw at it (Endurance, Violence, Milicjant, or the like). You can choose to take the dogs head-on for a firmer hold; if you do, **you are wounded** (dog bites — see [Wounds](../story-facts/game-system.md#wounds)).
-- **Outcome:** You throw yourself into the mess — grab his arm, wedge between him and the well, take a thrown coat to a snapping muzzle. **Alone it only buys seconds:** he shrugs a clerk off and the dogs drive you back, and you learn in your bones exactly how outmatched you are here ([`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)), then he steps back in. **But this is the help a fighter needs.** If another player is making the **Fight him** attempt, your grapple is what ties up the dogs and buys them the one-on-one — and it is *required* for that attempt to land. Two or three clerks holding the pack off a knife is worth more here than any of them could do alone.
+- **Cost:** 2 composure (1 with Endurance, Violence, Milicjant, or similar). Optional: take the dogs head-on for a firmer hold → **Wounded** (dog bites — see [Wounds](../story-facts/game-system.md#wounds)).
+- **Outcome:** Occupies Rezeń and the dogs.
+  - **Solo:** buys seconds only; he breaks free and resumes. Gives [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous).
+  - **Supporting a Fight him attempt:** ties up the dogs — this is the required assist. Fight him cannot succeed without at least one grappler.
 
 ### Grab the hag and run
 - **Requires:** Present, no firearm, Endurance
-- **Cost:** 1 composure; causes a Wound
-- **Outcome:** You scoop her up and crash into the dark. The dogs give chase and bite; the terrain mauls you both. **You are wounded.** Rezeń doesn't follow — the well, unattended, is what he wants. **World State Change:** the hag survives but is badly hurt, and whether she can keep up the rites is an open question. (Because being wounded blocks Endurance, you can only do this once.)
+- **Cost:** 1 composure; **Wounded** (dogs + terrain)
+- **Outcome:** You carry her clear. Rezeń doesn't pursue — he wants the well, not her. **World State Change:** the hag survives but is badly hurt; whether she can resume the rites is open. Once only (being Wounded blocks Endurance).
 
 ### Fight him
-- **Requires:** Present, no firearm, **Violence** — **and at least one other player using [Grapple him](#grapple-him) to hold off the dogs.** One person cannot trade with Rezeń *and* survive the pack; the three dogs are what make him more than a man with a knife.
-- **Cost:** 2 composure from the fighter; **the fighter is wounded** (the grapplers pay their own cost above)
-- **Outcome:** With the dogs tied up by your teammates, you get Rezeń one-on-one and go at him with intent. You meet the knife and give back worse. Rezeń came to remove an obstacle, not to bleed for one; when the obstacle fights like it means it *and* his dogs are busy, the arithmetic changes. It's ugly and it costs blood (**the fighter is wounded** — see [Wounds](../story-facts/game-system.md#wounds)), but you drive him off the well and he backs into the trees, whistling the dogs after him. **The hag survives.** And you've made yourselves his: he has your faces now, and a man like Rezeń settles debts on his own time.
-  - **No grapplers (solo Violence):** Don't. Without anyone on the dogs, one fighter can trade with Rezeń *or* survive the pack, not both. The dogs take you off your feet, the knife does the rest — you're wounded for nothing, and worse, you're down while he finishes what he came to do. **The hag dies anyway.** This is the lesson the scene wants: alone, you are not enough.
-  - **Milicjant:** You fight like it's on duty — controlled, aiming to disable, going for the knife hand. You *could* try to pin him for [por. Skowron](../characters/officer.md) — but you already know how that ends: no cuffs, no cell, no charge that sticks yet, and the moment your friends let the dogs go he's gone. You hold him off; you don't hold him. Better to know that now than to learn it with his knife in you.
-  - **Intimidate:** As he retreats you make it plain this isn't over — and he *laughs*, delighted, filing your face away like a gift. You didn't scare him. You interested him. [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+- **Requires:** Present, no firearm, **Violence**, **and** ≥1 other player on [Grapple him](#grapple-him) holding the dogs
+- **Cost:** 2 composure; fighter **Wounded** (grapplers pay their own cost above)
+- **Outcome:** Dogs occupied → you fight Rezeń one-on-one and drive him off. **The hag survives.** He has your faces now and will settle it in his own time.
+  - **No grappler (solo Violence):** fails. The dogs put you down, the knife finishes it — fighter Wounded, **the hag dies anyway.**
+  - **Milicjant:** you can drive him off but not detain him — no cuffs, no cell, no charge that holds yet, and the dogs go free the moment the grapplers do.
+  - **Intimidate:** he laughs off the threat and remembers your face. Gives [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous).
 
 ### Draw a firearm
 - **Requires:** Present, holding a gun — [Dudka's rifle](../characters/neighbour.md) (borrowed/taken) or [Zbigniew's pistol](../characters/wojewoda.md) (from his office). Pointing it is free.
