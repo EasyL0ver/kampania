@@ -3,7 +3,7 @@
 **Type:** Location (hidden, discoverable)
 **Location:** Deep in the forest between the villages, off an old hunting track — an open clearing on the lip of a steep ravine.
 **Present:** Nobody. A remote grave and the sound of water below.
-**Available:** Requires knowing the grave is out here — either the lead that [Ryszard Dudka](../characters/neighbour.md) buried remains in the forest ([neighbour-believes-jagna-dead](../clues/clues.md#neighbour-believes-jagna-dead)), or seeing him pray at it during [The Hunt with Dudka](../events/hunt-with-dudka.md). Reached from [Village Outskirts](village-outskirts.md).
+**Available:** Requires knowing the grave is out here — either the lead that [Ryszard Dudka](../characters/neighbour.md) buried remains in the forest ([neighbour-believes-jagna-dead](../clues/clues.md#neighbour-believes-jagna-dead)), or seeing him pray at it during [The Hunt with Dudka](../events/hunt-with-dudka.md) ([dudka-buried-a-friend-at-the-ravine](../clues/clues.md#dudka-buried-a-friend-at-the-ravine)). Reached from [Village Outskirts](village-outskirts.md).
 **Cost:** 1 action to reach
 
 ## Setup

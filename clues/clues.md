@@ -106,6 +106,9 @@ When [Helena Rzepka](../characters/matrona.md) asked her to give up Emil, [Hania
 ### neighbour-believes-jagna-dead
 [Ryszard Dudka](../characters/neighbour.md) is privately certain [Hania Barnaś](../characters/jagna.md) died the night she fled. Two winters later, hunting, he found human remains in the forest, decided they were hers, and buried them himself. He never confirmed it was her — a coat, some bones, no face. It could have been anyone. No one has ever proven what became of her.
 
+### dudka-buried-a-friend-at-the-ravine
+[Ryszard Dudka](../characters/neighbour.md) tends a grave in the meadow above the ravine. He'll say only that it's an old friend who fell from the ravine, and that he buried her himself. He does not name her or explain further.
+
 ### ravine-remains-a-woman
 A medical examination of the remains [Ryszard Dudka](../characters/neighbour.md) buried reads the bones as female. Whoever this was, she was a grown woman.
 

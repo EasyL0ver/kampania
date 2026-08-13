@@ -32,8 +32,8 @@
 ### The grave in the meadow
 - **Requires:** Following the hunt long enough that it swings toward the far woods
 - **Cost:** 1 action
-- **Outcome:** He doesn't flinch from the old-village direction the way the village does — he's a hunter, the woods are the woods. But at one point he peels off the track without a word, and if the players follow he's standing in a meadow on the lip of a ravine, cap in his hands, at a low cairn of moss-grown stones. He crosses himself, says something too quiet to hear, stands there a while. Then puts the cap back on. *"A girl who lived next to me. She ran the night it all went bad and never came back. Two winters on I found what the forest left and put it here myself."* Flat, no self-pity. *"A grave was more than anyone else gave her."* He doesn't linger to be asked about it; he goes back to the hunt.
-- **Gives:** [`neighbour-believes-jagna-dead`](../clues/clues.md#neighbour-believes-jagna-dead); **Unlocks:** [Meadow by the Ravine](../locations/meadow-by-the-ravine.md) (the players now know the grave exists and where)
+- **Outcome:** He doesn't flinch from the old-village direction the way the village does — he's a hunter, the woods are the woods. But at one point he peels off the track without a word, and if the players follow he's standing in a meadow on the lip of a ravine, cap in his hands, at a low cairn of moss-grown stones. He crosses himself, says something too quiet to hear, stands there a while. Then puts the cap back on. All he'll say is: *"An old friend. She fell from the ravine. I buried her myself."* He doesn't offer a name, and he doesn't wait to be asked more — he goes back to the hunt.
+- **Gives:** [`dudka-buried-a-friend-at-the-ravine`](../clues/clues.md#dudka-buried-a-friend-at-the-ravine); **Unlocks:** [Meadow by the Ravine](../locations/meadow-by-the-ravine.md) (the players now know the grave exists and where)
 
 ## Exits
 
