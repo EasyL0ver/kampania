@@ -39,8 +39,9 @@ For a few seconds it is entirely real: a shaking man with a rifle, a calm man wi
 ### Let it burn
 - **Requires:** The players choose not to intervene
 - **Cost:** Free
-- **Outcome:** Nobody dies in the clearing — Dudka isn't quite far enough gone to fire on a man, and Rezeń won't spend a blade he doesn't have to. But it doesn't cool, either. Dudka backs off spitting promises, and Rezeń watches him go with that flat, patient stare. The players just watched two armed men agree, without words, that this isn't finished. It's fuel straight into the [lynch](punishment-lynch.md).
-- **Gives:** Ending Progress — the Dudka–Rezeń grudge escalates toward the [lynch ending](punishment-lynch.md); **Gives:** [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
+- **Outcome:** Nobody has to defuse it, because Rezeń defuses it himself — by winning. He lets Dudka scream himself hoarse, lets the rifle shake, and then he *laughs* — a low, genuine, delighted laugh, the first warm sound anyone's heard out of him, and it's the cruelest thing he could do. It tells Dudka exactly how little his rage weighs. And then, still smiling, he needles him where it hurts: *"You want to call me a murderer, Ryszard? You lay in your bed with the curtains shut and let it happen. Same year, same night. Don't play the righteous man with me."* Dudka has no answer. He lowers the rifle, gray in the face, and Rezeń whistles his dogs up and strolls off whistling, unhurried, the clear winner of a fight he never raised his voice in.
+  - **Read:** Rezeń didn't just avoid a fight — he *enjoyed* it. Domination is a pleasure to him, and he just took Dudka apart without a blow. This is a man who is never more himself than when someone else is afraid.
+- **Gives:** [`something-happened-in-54`](../clues/clues.md#something-happened-in-54) and [`neighbour-heard-the-lynch`](../clues/clues.md#neighbour-heard-the-lynch) (Rezeń throws both in Dudka's face); [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen); **Ending Progress** — the humiliation drives Dudka harder toward the [lynch ending](punishment-lynch.md).
 
 ## Exits
 
@@ -48,4 +49,4 @@ For a few seconds it is entirely real: a shaking man with a rifle, a calm man wi
 
 ## If Missed
 
-If the players aren't in the forest, the dogs still blow Dudka's shot and the two men still square off — rifle, knife, dogs — with no one to break it. Nobody dies, but no one steps between them either. Dudka carries the humiliation and the near-killing home, and it goes straight onto the fire that pushes toward the [lynch](punishment-lynch.md). The players just don't witness how close it came.
+If the players aren't in the forest, the dogs still blow Dudka's shot and the two men still square off — rifle against knife and dogs. It ends the way it ends when no one intervenes: Rezeń laughs Dudka down, wins without a blow, and walks off whistling. Dudka carries the humiliation and his own thrown-back guilt home, and it goes straight onto the fire that pushes toward the [lynch](punishment-lynch.md). The players just don't witness it.
