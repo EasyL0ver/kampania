@@ -82,6 +82,15 @@ GM tracks score per target. Highest when he snaps = who he goes after.
 | Players stabilize Pawełek | Players | -1 |
 | Players play with Pawełek | Players | -1 |
 | Players push Barbara about the father | Players | +1 |
+| **Humiliated** (lost the [hunt clash](../events/hunters-cross-paths.md) to Rezeń) | Rezeń | +2 |
+
+
+### Humiliated
+
+A mechanical status Ryszard picks up if [the two hunters' clash](../events/hunters-cross-paths.md) is left to run its course — the players don't separate them, so Rezeń wins it, laughs him down, calls him *Rychu* and pats his back. Once Humiliated:
+- **+2 to his Rezeń lynch score** (see the table above) — the shame hardens the old hatred into intent.
+- He is shorter, colder, quicker to anger in every later scene. The easiest NPC to crack cracks *harder* — he'll spill against Rezeń with less prompting, but he's also further down the road to acting himself.
+- Cleared only if the players later give him something that restores face against Rezeń (GM's call). Defusing the clash before Rezeń wins prevents the status entirely.
 
 
 ## Actions
