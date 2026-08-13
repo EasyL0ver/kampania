@@ -13,6 +13,8 @@
 
 Physically massive, brain-damaged — caused by strangling during the lynch when he was four, not congenital. A bit slow, not severely disabled. Talks in short sentences. The living evidence of the crime.
 
+*GM only:* When [Janina](ciotka.md) dies (natural causes — her heart), Edek finds her, can't grasp that she's gone, panics, and flees into the forest to the [UPA bunker](../locations/upa-bunker.md). He did **not** kill her. His flight makes him look guilty — the village and the players will suspect him — but he is a red herring. He is innocent throughout. See [Ciotka Found Dead](../events/ciotka-found-dead.md).
+
 ## Appearance
 
 - **Clothes:** Always too small — trousers ending above the ankle, sleeves too short; whatever ciocia can find

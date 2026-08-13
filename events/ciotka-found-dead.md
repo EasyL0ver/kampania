@@ -10,9 +10,11 @@
 
 ## What Happened (GM Only)
 
-Night of Day 2. After the wolf hunt. The well has been working on [Edek](../characters/glupek.md) for weeks — fragments, feelings, a growing distrust of the woman who raised him. He doesn't understand why. He doesn't need to. He grabs her the way [Stanisław Rezeń](../characters/butcher.md) once grabbed him — by the throat. Strangles her. The same method that damaged him as a child. The cycle completes.
+Night of Day 2. After the wolf hunt. No one killed Janina Gajda. Fifty-five years old, thirteen of them lived in fear with the door locked every night — her heart simply gave out in the kitchen. A natural death. There is no murderer to find.
 
-Then he runs. Not to the church, not to anyone — into the forest, to the [UPA bunker](../locations/upa-bunker.md). He knows the woods better than anyone. The bunker is the one place nobody will look.
+[Edek](../characters/glupek.md) found her on the floor. He doesn't understand death — he shook her, waited, called for her. She didn't get up. Whatever the well has been working into him for weeks broke loose as pure panic, and he did the only thing his body knew: he ran. Not to the church, not to anyone — into the forest, to the [UPA bunker](../locations/upa-bunker.md). He knows the woods better than anyone. The bunker is the one place nobody will look.
+
+**Edek is a red herring, and so is everyone else.** The village is primed to see murder — a family with this much buried guilt cannot believe one of their own just *died*. The players will be handed suspects (Edek, Rezeń, the hag). None of them did it. The horror is that a natural death, plus a boy who ran, plus a valley that needs a culprit, manufactures a crime out of nothing.
 
 ## Setup
 
@@ -22,24 +24,23 @@ The door is unlocked. That's wrong — Janina always locks the door. Always.
 
 Inside: the house is quiet. Too quiet. No cooking sounds, no Edek shuffling, no prayer murmur. The icons are still on the walls. The candles have burned out — been out for hours. The obsessive order of the house is intact. Nothing's been ransacked, nothing's been stolen.
 
-Janina Gajda is on the kitchen floor. On her back. Eyes open. Bruising around her throat — dark, finger-shaped. Her hands are at her sides.
+Janina Gajda is on the kitchen floor. On her back, half-turned, as if she sat down hard and never got up. Eyes open. No wound, no blood, no marks on her — her hands are at her sides, one still half-curled around a fallen rosary. She looks less attacked than simply stopped.
 
 Edek's corner is empty. His mattress is cold.
 
-No sign of forced entry. No sign of a struggle beyond the body. No weapon. Just a dead woman in a clean house and an absence where a boy used to be.
+No sign of forced entry. No sign of a struggle anywhere in the room. No weapon, nothing overturned. Just a dead woman in a clean house and an absence where a boy used to be.
 
 **Composure: 2** (witnessing death — someone they've met, talked to, maybe liked)
 
 ## Opportunities
 
-- **The bruising** — finger-shaped marks on her throat. Not a rope, not a tool. Bare hands. **Medicine:** Strangulation. Sustained pressure. Death came in minutes, not seconds. The bruises are wide-set — a big person's grip. In this village, two people have hands that size.
-- **The door** — unlocked. She never left it unlocked. Either she opened it for someone she knew, or someone left without locking up. Both read differently.
-- **Edek's absence** — his corner, his mattress, his wooden toy. All there. He's not. Where is he? Did he do this? Did he see it and run? Was he taken? Is he alive?
-- **The house** — undisturbed. No ransacking, no broken furniture, no sign of a fight. Whoever did this, she didn't resist. Or couldn't.
+- **The body** — no wound, no blood, no marks anywhere on her. **Medicine:** No trauma, no strangulation, no defensive injuries. The signs point one way — a sudden collapse. A failed heart, most likely, in a frail woman who has lived under strain for years. Nothing here was done *to* her.
+- **The door** — unlocked. She never left it unlocked. But there's no sign anyone forced it or came through it uninvited. A frightened boy running out into the night wouldn't stop to turn a key.
+- **Edek's absence** — his corner, his mattress, his wooden toy. All there. He's not. Where is he? Did he do this? Did he find her and run? Is he alive? The absence screams louder than the body does.
+- **The house** — undisturbed. No ransacking, no broken furniture, no sign of a fight. Whatever happened here, no one fought.
 - **The candles** — burned down to nothing. She lights them every evening for prayer. They've been out for hours. **This happened last night — or the night before.** If players come Day 3: one night ago. If Day 4: two nights. The longer it takes to find her, the colder the trail.
-- **No sign of forced entry** — the windows are latched from inside, the back door bolted. Whoever came in used the front door. She let them in — or they had access. → **Gives:** [ciotka-strangled](../clues/clues.md#ciotka-strangled)
-- **A rosary** — on the floor near her right hand. Fallen during the struggle, or she was holding it when it started.
-- **A smell** — faint, under the soap and cold food. Something herbal, earthy. Not from this house. **Observation:** dried herbs, woodsmoke, forest mud. Someone who lives outdoors was in this room. Players who've been to the [hag's cabin](../locations/hags-cabin.md) or encountered [Paraskewia](../characters/hag.md) will recognise the scent immediately. Players who haven't will just note it as wrong — something that doesn't belong in this obsessively clean Catholic home.
+- **The rosary** — fallen near her right hand. She was holding it, or reaching for it, when she went down. → **Gives:** [ciotka-died-natural](../clues/clues.md#ciotka-died-natural)
+- **A smell** — faint, under the soap and cold food. Something herbal, earthy, forest mud. **Observation:** it doesn't belong in this obsessively clean Catholic home — but Edek tramps the woods and the churchyard every day and trails it in on his boots, and players who've met [Paraskewia](../characters/hag.md) will place it as *her* cabin. It reads as a loose end either way; it is not evidence of a killer, because there was none.
 
 ## Actions
 
@@ -47,10 +48,10 @@ No sign of forced entry. No sign of a struggle beyond the body. No weapon. Just 
 - **Requires:** Someone willing to approach
 - **Cost:** Free (part of the discovery)
 - **Outcome:**
-  - **Medicine:** Strangulation by hand. Sustained pressure, not a sudden snap. Dead 12-36 hours depending on when found. No defensive wounds — she grabbed at the hands but didn't scratch, didn't claw. Either too weak or held back.
-  - **Milicjant:** Crime scene. Strangulation, no weapon, no robbery, no forced entry. The victim knew her killer. The door was opened willingly or left open for someone who belonged here.
-  - **Observation:** Her apron is still tied. She was in the kitchen when it happened — cooking, working. Not in bed. She was up, active, and someone came to her.
-- **Gives:** → [ciotka-strangled](../clues/clues.md#ciotka-strangled)
+  - **Medicine:** No trauma. No strangulation, no blunt force, no defensive wounds — she didn't grab at anything, didn't fight, because there was nothing to fight. The picture is a sudden internal failure: a heart that stopped. Natural, in a frail woman worn down by years of fear. You cannot honestly call this a killing.
+  - **Milicjant:** Not a crime scene. No weapon, no robbery, no forced entry, no struggle. The only thing wrong here is the empty corner where the boy slept — and a body that, by every sign, simply gave out. What's suspicious isn't the death. It's the flight.
+  - **Observation:** Her apron is still tied. She was in the kitchen, up and working, when it took her. She went down where she stood.
+- **Gives:** → [ciotka-died-natural](../clues/clues.md#ciotka-died-natural)
 
 ### Search the house
 - **Cost:** 1 action
@@ -77,17 +78,15 @@ No sign of forced entry. No sign of a struggle beyond the body. No weapon. Just 
 ## If Missed
 
 <!-- TODO: If players don't visit — ks. Pająk finds the body after mass on Day 4. Helena takes control of the scene before the committee arrives. Evidence may be disturbed. -->
-**The ambiguity is the scene.** Three suspects, all plausible:
-- **Rezeń** — strangles people (his MO from the lynch), has large hands, hated Ciotka for 13 years (she stopped him killing the boy), has been breaking containment, goes out at night. Dudka will assume it was him. Half the village will assume it was him.
-- **Edek** — lived in the house, has large hands, has been deteriorating, is missing. The priest will fear for him. Zbigniew will want him found. The barefoot tracks say someone fled in panic — killer or witness?
-- **The hag** — a Lemko woman whose people were massacred. She's been in the forest for 20 years, watching. She knows who was there. Ciotka was present at the lynch — she's on the list. The herbal scent in the room doesn't belong. Players who've seen Paraskewia doing rites at the well, appearing in the ruins, moving through the forest at night — she reads as someone capable of vengeance. A woman with 20 years of grief and nothing left to lose.
+**The ambiguity is the scene — but the ambiguity is a lie the village tells itself.** No one killed Janina. Her heart gave out. Yet three false suspects will present themselves, each plausible, each wrong:
+- **Rezeń** — strangled a child in 1954, has large hands, hated Ciotka for 13 years (she stopped him that night), breaks containment, goes out at night. Dudka will assume it was him. Half the village will assume it was him. He did nothing.
+- **Edek** — lived in the house, is missing, fled barefoot into the woods in a blind panic. The priest will fear for him; Zbigniew will want him found. The flight *looks* like guilt. It's grief he can't name.
+- **The hag** — a Lemko woman whose people were massacred, twenty years in the forest, watching. The herbal scent in the room reads as an intruder to players who've met her. It's a coincidence — most likely tracked in on Edek's own boots.
 
-Players who've seen Rezeń with Edek — the arm around the shoulder, the cheek-pinch, *"chłopak"* — have another layer: is that fondness... or ownership? Did he come for Ciotka and Edek ran? Or did Edek finally snap?
+Players who've seen Rezeń with Edek — the arm around the shoulder, the cheek-pinch, the fondness that might be ownership — will build a murder out of it. Players who've encountered the hag will build a different one. Both are the players doing what the whole village does: refusing to believe one of their own simply *died*, and reaching for a hand to blame.
 
-Players who've encountered the hag have yet another layer: she's been watching the village. She knows names. She moves at night unseen. And Ciotka — devout, fearful, guilt-ridden — might have opened the door for an old Lemko woman asking for help. Or might not have heard her come in at all.
+**The truth (natural causes; nobody killed her; Edek found her and ran) should emerge slowly** — through the body itself (Medicine and Milicjant reads point to no crime), through finding Edek, and through the absence of any real evidence of violence. The payoff isn't unmasking a killer. It's realizing there was never a killing — only a death, and a valley so soaked in guilt it manufactured a murderer.
 
-**The truth (Edek did it) should emerge slowly**, through investigation, cross-referencing, and eventually finding Edek. Not through this scene alone.
+**Edek is not findable easily.** The UPA bunker is nearly invisible — camouflaged, deep in the forest, unknown to most villagers. Players need prior knowledge of the bunker (from [village outskirts](../locations/village-outskirts.md) exploration or [Pytlak's](../characters/foreman.md) hints) to have any chance of finding him there. When they do, he confirms it without meaning to: he found ciocia on the floor, she wouldn't wake, and he ran.
 
-**Edek is not findable easily.** The UPA bunker is nearly invisible — camouflaged, deep in the forest, unknown to most villagers. Players need prior knowledge of the bunker (from [village outskirts](../locations/village-outskirts.md) exploration or [Pytlak's](../characters/foreman.md) hints) to have any chance of finding him there.
-
-**Who the players tell determines the next 48 hours.** Tell Zbigniew → containment. Tell the priest → he goes looking alone, to protect. Tell Rezeń → his reaction is unreadable. Tell Dudka → armed mob hunting Rezeń. Tell nobody → the clock ticks until the mass (Day 4 morning) when the priest notices she's missing.
+**Who the players tell determines the next 48 hours.** Tell Zbigniew → containment. Tell the priest → he goes looking alone, to protect. Tell Rezeń → his reaction is unreadable. Tell Dudka → armed mob hunting Rezeń for a killing that never happened. Tell nobody → the clock ticks until the mass (Day 4 morning) when the priest notices she's missing.

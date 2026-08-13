@@ -21,12 +21,12 @@ Death toll bell. Closed pine coffin at the front (Helena insisted). Black cloth,
 ## Opportunities
 
 - **Helena's eulogy** — She speaks, not the priest. Janina's devotion, kindness, raising Edek alone. *"She gave everything for that boy."*
-  - **Read:** Every word true — that's the trick. The grief is real. But the eulogy rewrites cause of death: old, frail, tired heart, finally at peace.
-  - **Streetwise:** She's establishing cause of death in front of witnesses. By the amen, the village remembers exhaustion, not strangulation.
+  - **Read:** Every word true — that's what makes it airtight. The grief is real, and so is the cause: old, frail, a worn-out heart. There is nothing here to catch her in.
+  - **Streetwise:** She isn't covering a killing — there wasn't one. She's using the funeral to close the *question*: get the body in the ground before anyone dwells on why the boy ran, or starts pulling the thread that runs back to 1954. By the amen, the village has a tidy ending and no reason to dig.
 
 - **Closed coffin** — *"She wouldn't want people to see her like that."*
   - **Observation:** Standard, but combined with Helena's rush, reads differently.
-  - **Medicine:** Hides the bruises. Anyone who didn't see the body at the house won't know.
+  - **Medicine:** There's nothing on the body to hide — but a sealed coffin denies anyone a second look, and with it any chance of ever re-examining the cause. The record closes with the lid.
 
 - **Zbigniew's silence** — Doesn't speak. Stands, sits, kneels on cue. Face empty.
   - **Read:** Not grief — containment. Calculating. Every person here is a variable.
@@ -51,7 +51,7 @@ Walks up the aisle unsteady. Hand on the coffin lid. Then:
 
 *"To Rezeń. Wszyscy wiedzą że to Rezeń."*
 
-**Motivation:** Guilt, not evidence. Janina lived in fear of Rezeń for 13 years. The worst of them killed the best of them. **He's wrong** — Edek did it.
+**Motivation:** Guilt, not evidence. Janina lived in fear of Rezeń for 13 years. The worst of them, in his mind, must have finally taken the best of them. **He's wrong** — no one killed her; her heart gave out. But thirteen years of guilt need a culprit, and Rezeń is the face it reaches for.
 
 **Sequence:**
 1. Zbigniew reaches him. Arm around him, *"Chodź, Tadziu, chodź."* Walks him out.

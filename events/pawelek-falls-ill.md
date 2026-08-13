@@ -107,14 +107,14 @@ Free — no action cost. Available to any player present.
   2. **Committal recommendation for Edek.** Mentally unfit, danger to himself. *"He needs proper care. A state institution. He can't survive alone in the woods."* Needs committee letterhead — a government recommendation carries weight with the voivodeship psychiatric board.
   Both requests sound reasonable on paper.
   - **Read:** Grief is real — jaw tight, hands shake at Janina's name. But she's thought this through already. The documents were the first thing she thought of.
-  - **Streetwise:** The death certificate closes investigation before it starts — nobody asks *how* Janina died. The committal removes Edek permanently — nobody asks *who* he is. Helena is burying the thread that leads to 1954.
-  - **Law:** A false death certificate is criminal. A committal without medical examination is professional misconduct. She's asking you to sign career-ending documents.
+  - **Streetwise:** The death certificate closes the matter before anyone examines it — no inquiry into the death, no questions about the boy who vanished the same night. The committal removes Edek permanently — nobody asks *who* he is. The cause of death is real; that's not the point. Helena is burying the thread that leads to 1954.
+  - **Law:** A death certificate signed without a proper examination is improper, and a committal without medical evaluation is professional misconduct — even when the stated cause is true. She's asking you to sign career-ending documents.
   - **Medicine:** Edek needs help — true. But proper committal requires psychiatric evaluation, not a flood committee's letterhead. This is a shortcut that makes people disappear.
 
   **If the committee agrees:**
   Helena unlocks the cabinet. Counts the dosage, explains timing, writes it down for Barbara. *"You're good people. Thank you."*
   - **Gives:** **Norsulfazol tablets** — the cure. Recovery begins within hours.
-  - **Cost:** Two signatures falsifying official documents. Committee becomes complicit in covering up Janina's murder and disappearing the only witness to the 1954 lynch.
+  - **Cost:** Two signatures on unexamined documents. Committee becomes complicit in foreclosing any inquiry into Janina's death and disappearing the only living witness to the 1954 lynch.
 
   **If the committee refuses:**
   Helena puts the keys back. *"I understand. You have your rules."* Pause. *"The medicine is regulated. I need a prescription — state rules."* The warmth stays. The keys vanish.
