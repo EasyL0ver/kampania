@@ -23,6 +23,5 @@ It's the one place in these woods that feels at peace. Given what's under the ca
 ### Open the grave
 - **Requires:** Found the cairn (you're here)
 - **Cost:** 1 action
-- **Outcome:** The stones lift away easily; they were never packed to keep anything in. Underneath, shallow: a rotted coat, its colour long gone. Some bones, scattered by soil and time. No skull to speak of — no face, nothing that names them. To the eye they could be Hania's. They could belong to anyone who died in these woods in thirteen years.
-  - **Medicine:** These aren't beyond reading. Given time to work over them, a trained examiner can still pull sex, rough age, and cause of death from the bones — enough to test whether they *could* be Hania at all. (See [Remains from the Ravine](../items/ravine-remains.md).)
-- **Gives:** Item / Evidence — [Remains from the Ravine](../items/ravine-remains.md) (a coat, a few bones). Whether they're Hania's is not a question you can answer at the graveside — it takes the [Medicine examination](../items/ravine-remains.md#actions).
+- **Outcome:** The stones lift away easily; they were never packed to keep anything in. Underneath, shallow: a rotted coat, its colour long gone. Some bones, scattered by soil and time. No skull to speak of — no face, nothing that names them.
+- **Gives:** Item / Evidence — [Remains from the Ravine](../items/ravine-remains.md).
