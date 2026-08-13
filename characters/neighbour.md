@@ -135,10 +135,8 @@ While Humiliated:
 
 ## Grudge
 
-**Instant grudge — one act is enough:**
-- [ ] **Disturb the ravine grave without his leave** — open, exhume, or handle [the bones](../items/ravine-remains.md) he buried himself without his permission. It's the one grave he gave her; violating it is unforgivable, and it flips him on its own.
-
-**Slow grudge (any 2 of 3):**
 - [ ] **Side with Rezeń or humiliate him** — go on [the hunt with Rezeń](../events/hunt-with-rezen.md), laugh him down yourself, dismiss the threat he sees, or leave [the clash](../events/hunters-cross-paths.md) to run so Rezeń wins it (see [Humiliated](#humiliated)).
 - [ ] **Endanger or use Barbara or Pawełek** — push Barbara carelessly, let the boy come to harm, or treat his one clean thing as leverage.
 - [ ] **Treat him as a 1954 suspect** — pull rank, interrogate him as if he were complicit, corner the witness who already can't forgive his own inaction. Government people accusing him in his own home is exactly what he braces against.
+
+Disturbing the ravine grave he dug is a separate, **instant** grudge — see [Open the grave](../locations/meadow-by-the-ravine.md#actions).

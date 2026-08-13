@@ -25,3 +25,4 @@ It's the one place in these woods that feels at peace. Given what's under the ca
 - **Cost:** 1 action
 - **Outcome:** The stones lift away easily; they were never packed to keep anything in. Underneath, shallow: a rotted coat, its colour long gone. Some bones, scattered by soil and time. No skull to speak of — no face, nothing that names them.
 - **Gives:** Item / Evidence — [Remains from the Ravine](../items/ravine-remains.md).
+- **If done behind his back** (he wasn't there and never gave leave): should [Ryszard Dudka](../characters/neighbour.md) learn of it, disturbing the grave he dug is unforgivable — it flips him to an **instant grudge** ([NPC State Change](../characters/neighbour.md#grudge)).
