@@ -117,5 +117,8 @@ A tabletop RPG oneshot set in 1960s Bieszczady, Poland.
 - [PGR Expense Journal](documents/pgr-expenses.md)
 - [PGR Worker Registry](documents/pgr-ledger.md)
 
+### [Items](items/)
+- [Remains from the Ravine](items/ravine-remains.md)
+
 ### Reference
 - [Actions & Opportunities](actions-and-opportunities.md)
