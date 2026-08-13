@@ -122,7 +122,7 @@ The document that handed the Barnaś house to the [PGR](../locations/pgr-farm.md
 [Edward Barnaś](../characters/soldier.md) and his partner never married — they lived together. She kept her own surname. This is why no "Barnaś" wife appears in any village records.
 
 ### glupek-strangled
-The night of the lynch, four-year-old [Edek Barnaś](../characters/glupek.md) wouldn't stop crying. [Stanisław Rezeń](../characters/butcher.md) closed his hands on the boy's throat to silence him and didn't stop. [Janina Gajda](../characters/ciotka.md) tore him off. The oxygen loss caused permanent brain damage — it was not congenital.
+The night of the lynch, four-year-old [Edek Barnaś](../characters/glupek.md) wouldn't stop crying. [Stanisław Rezeń](../characters/butcher.md) took a pillow, pressed it over the boy's face to silence him, and held it there — deliberate, unhurried, untroubled. [Janina Gajda](../characters/ciotka.md) tore it away. It left permanent brain damage — not congenital.
 
 ### lynch-bodies-in-well
 [Edward Barnaś](../characters/soldier.md)'s body was dumped in the old well in [%OLD_VILLAGE%](../locations/old-village-ruins.md) after the 1954 lynch — the same well that already held the 1947 massacre remains. His is the only body from that night in the well.

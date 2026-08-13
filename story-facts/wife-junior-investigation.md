@@ -61,7 +61,7 @@ Zbigniew is shocked, then impressed. He lets her in. They become a team. Marek f
 Before the flip, the investigation is dangerous for Irena and Marek:
 
 - **If Helena Rzepka finds out**, she'll move to neutralize it.
-- **If Stanisław Rezeń finds out** Marek has been visiting %OLD_VILLAGE%, the man who strangled a crying child won't hesitate.
+- **If Stanisław Rezeń finds out** Marek has been visiting %OLD_VILLAGE%, the man who smothered a crying child won't hesitate.
 - **If por. Witold Skowron finds out**, state security has a new problem.
 
 After the flip, the danger evaporates — they're under Zbigniew's protection.
