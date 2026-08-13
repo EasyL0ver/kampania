@@ -42,7 +42,7 @@ Amplifies **fear and paralysis:**
 - Clings to Edek with increasing desperation. Senses something pulling him toward %OLD_VILLAGE%
 - Prayers become frantic, repetitive, compulsive — not devotion but terror. God feels further away
 - Flinches from her siblings — the family feels like a trap closing
-- **Dream:** the night she saved Edek — except she doesn't make it in time. Reaches for the baby and her hands pass through him. Wakes and checks on the boy. Every night
+- **Dream:** the night she saved Edek — except she doesn't make it in time. Reaches for the boy and her hands pass through him. Wakes and checks on the boy. Every night
 
 ## Edek Barnaś (Głupek)
 

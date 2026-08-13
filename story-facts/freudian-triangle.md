@@ -41,7 +41,7 @@ Raw drive. Compulsion without conscience. The well found a willing vessel in 194
 
 ### Tadek Gajda (Wujas) — Ego
 
-The mediator that's failing. The ego's job is to negotiate between the id's demands and the superego's restrictions — and Tadek has been doing it with alcohol for 13 years. He loved Hania, he raped Hania, he can't make those two facts coexist. The bottle was his reality principle — numb enough to function, drunk enough to forget.
+The mediator that's failing. The ego's job is to negotiate between the id's demands and the superego's restrictions — and Tadek has been doing it with alcohol for 13 years. He loved Hania, he was one of the men who set on her and drove her running into the dark, he can't make those two facts coexist. The bottle was his reality principle — numb enough to function, drunk enough to forget.
 
 The well breaks this mechanism. The drinking stops working. He stays lucid. The ego can no longer mediate — fragments leak out, half-confessions surface, the negotiation between impulse and guilt collapses in real time. He's the **weakest link** because the ego is always the first thing to crack.
 

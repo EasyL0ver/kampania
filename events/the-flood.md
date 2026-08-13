@@ -39,6 +39,7 @@ The players are the only ones who look lost.
   - **Line works:** Reaches the powiat office. Static, cuts out. Managed to convey: stranded, road gone, need extraction. Response: "Noted. We'll send someone when conditions allow." No timeline. No urgency. Bureaucracy doesn't rescue.
   - **Line dead:** Nothing. Zbigniew shrugs. *"The poles come down in every flood. Give it a day."*
   - **Zbigniew present:** He's helpful. Offers the phone freely. Stands nearby — not hovering, not threatening. Just... there. **Read:** He wants to know what they report. He wants to know if Skowron told them anything before the road went.
+  - **The operator** *(GM only — see [%OPERATOR%](../characters/secondary-characters.md#operator-the-telephone-exchange-operator))* — every attempt to reach the outside passes through the same flat woman's voice at the town exchange that has patched every call all game. This time, when the committee begs to be put through for rescue, the connection never comes: *"There's nothing on this end. The line's down."* Flat, procedural, final — with, if the GM wishes, the thinnest held breath before she says it. To the players it's just the machine's indifference. To the GM it is [Hania Barnaś](../characters/jagna.md), letting the valley drown the way the valley once let her. Do **not** confirm it; do **not** let it be the thing that dooms them — the phone was never rescue.
 
 ### Help with flood response
 - **Cost:** 1 action

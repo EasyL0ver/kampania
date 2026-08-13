@@ -42,6 +42,13 @@ The nerve centre of the village. Clean desk, heavy bakelite phone, ledgers, topo
 - **Outcome:** A list of PGR workers with names and wages. Useful for the census — cross-reference against actual people in the village. Players who check will find some names that nobody recognises. Phantom workers on the payroll.
 - **Leads to:** With accounting ability → [Foreman cover-up](../clues/clues.md#foreman-coverup) exposed — a dead worker still on the books. Without ability → a list of names, some of which don't match anyone they meet. Vague suspicion, nothing concrete.
 
+### Inspect the property records
+- **Requires:** Part of census/legal work — land and property transfers are government records Zbigniew Gajda keeps at the office. He allows it freely.
+- **Cost:** 1 action
+- **Skills:** **Law**
+- **Outcome:** Deeds and transfer paperwork for the village plots. Among them: the transfer of the old Barnaś house and land to the PGR, 1954. It carries **Edward Barnaś's** signature — dated weeks after the lynch that killed him. Without legal training, it's just one transfer among many, the family "moved away." A **Law** read catches it instantly: a dead man can't sign, the hand is wrong — it's a forgery. → **Gives:** [marta-made-a-deal](../clues/clues.md#marta-made-a-deal), [marta-forged-the-transfer](../clues/clues.md#marta-forged-the-transfer)
+- **Leads to:** Marta Konieczna as a living-witness lead — she signed and left. Cross-ref [PGR expense journal](../documents/pgr-expenses.md).
+
 ### Report the bimber still
 - See [Zbigniew Gajda — Report the bimber still](../characters/wojewoda.md#report-the-bimber-still)
 

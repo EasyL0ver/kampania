@@ -105,6 +105,19 @@ Minor NPCs, relationships, and supporting cast. Grouped by association for easy 
 
 **Notes:** Medical authority that's present but inaccessible. Tension between wanting help and being trapped.
 
+### %OPERATOR% (the telephone-exchange operator)
+**Type:** Telephone-exchange operator (telefonistka) — voice only, never seen  
+**Role:** She works the manual switchboard at the nearest town's exchange, in the back of a post office — a humble, anonymous clerical job. Every long-distance call the committee places to the outside world — [prof. Tadeusz Bieńkowski](professor.md), [dr Leon Sawicki](#dr-leon-sawicki), [por. Witold Skowron](officer.md)'s superiors, the powiat — routes through her board. She connects them, or tells them to hold for a connection. A flat, professional voice on a bad line: *"Exchange. Number, please." "Hold for the connection." "Go ahead."* The players only ever hear her. They never learn her name, and they never see her face. Period-correct — see [telecommunications](../historical%20context/10-telecommunications-rural-prl.md).
+
+**Notes (GM only — players cannot discover this):**
+- She is **[Hania Barnaś](jagna.md)**. She survived fleeing the 1954 lynch — [Paraskewia Chyłak](hag.md) found her half-dead in the forest and kept her alive that first winter. She never came back: returning would have exposed the "they moved away" lie and finished what the well started. She resurfaced far enough away, under another name, and took the quietest, most invisible work there is — a headset in the back of a post office. She didn't climb into power like her father. She disappeared into the lowest rung of the same machine.
+- **Why she's on the line is not a coincidence.** The valley's calls to the outside world are long-distance — they physically pass through her town's exchange. She didn't engineer it; the wires simply run through her hands. Keep her **one tier out** — the town exchange, not the tiny village switchboard where she'd take daily calls and someone might learn her voice. Close enough to hear every call the valley makes to the world; far enough to stay a stranger.
+- **There is no way to confirm it.** A voice on a bad line cannot be matched to a nineteen-year-old's hidden photograph. Even [Zbigniew Gajda](wojewoda.md) or [Emil Rzepka](painter.md), who knew her, would at most feel a ghost pass over — never proof. This is deliberately the campaign's one unanswerable thread; keep it that way.
+- **She wants nothing, and for the whole game she does nothing** — connects the calls, hears her family's killers named in the committee's reports, says *"Go ahead,"* and patches them through. The victim became the functionary. Until the very end (see below), that quiet is the entire point, and it belongs to the GM alone.
+- **The one act — the flood ([the-flood](../events/the-flood.md), "Try the phone").** When the cut-off village finally begs the outside world for rescue through her wire, she lets the line go dead. Not revenge, not a taunt — **indifference.** The machine that once refused to save this valley now refuses again, with her mouth. Play it flat and procedural: *"There's nothing on this end. The line's down."* Optional footprint — the thinnest hesitation before she says it, a held breath only the GM understands. **She is the capstone, not the executioner:** the phone was never a real rescue anyway, so her refusal steals no genuine out — it just puts a cold, unknowable face on the indifference that was already there. Never let her touch the one call that IS a lifeline: the earlier prof. Bieńkowski call in [the-report](../events/the-report.md) stays entirely player-driven.
+
+---
+
 ---
 
 ## Generic Villagers (Population)

@@ -94,23 +94,38 @@ Something violent happened one night in 1954. [Zbigniew Gajda](../characters/woj
 ### three-drunk-attackers
 [Tadek Gajda](../characters/secondary-characters.md), [Zbigniew Gajda](../characters/wojewoda.md), and [Stanisław Rezeń](../characters/butcher.md) were the three drunk men who attacked [Hania Barnaś](../characters/jagna.md).
 
-### jagna-was-raped
-[Hania Barnaś](../characters/jagna.md) was beaten and raped by [Tadek Gajda](../characters/secondary-characters.md) and [Stanisław Rezeń](../characters/butcher.md). She died from the violence.
+### jagna-was-attacked
+[Hania Barnaś](../characters/jagna.md) was beaten by [Tadek Gajda](../characters/secondary-characters.md) and [Stanisław Rezeń](../characters/butcher.md), who tore at her clothes. Her father reached her before it went further.
+
+### jagna-fled-the-lynch
+[Hania Barnaś](../characters/jagna.md) broke free during the struggle at the well and ran from the village into the night. She was never seen again.
+
+### neighbour-believes-jagna-dead
+[Ryszard Dudka](../characters/neighbour.md) is privately certain [Hania Barnaś](../characters/jagna.md) died the night she fled. Two winters later, hunting, he found human remains in the forest, decided they were hers, and buried them himself. He never confirmed it was her — a coat, some bones, no face. It could have been anyone. No one has ever proven what became of her.
 
 ### soldier-killed-defending-daughter
-[Edward Barnaś](../characters/soldier.md) tried to save [Hania Barnaś](../characters/jagna.md) and was killed.
+[Edward Barnaś](../characters/soldier.md) came to save [Hania Barnaś](../characters/jagna.md) — armed with his old KBW service pistol. He got a shot into one of his attackers before the men overpowered and killed him.
 
-### soldiers-partner-murdered
-[Edward Barnaś](../characters/soldier.md)'s partner was murdered to eliminate witnesses.
+### wojewoda-was-shot
+The man [Edward Barnaś](../characters/soldier.md) shot that night was [Zbigniew Gajda](../characters/wojewoda.md). He carries the scar under his clothes and has never explained it.
+
+### marta-made-a-deal
+[Edward Barnaś](../characters/soldier.md)'s partner, Marta Konieczna, wasn't killed. She bargained — signed the house away, agreed to say the family had moved, and was gone by morning. She left the village alive and never came back.
+
+### marta-forged-the-transfer
+The document that handed the Barnaś house to the [PGR](../locations/pgr-farm.md) carries [Edward Barnaś](../characters/soldier.md)'s signature — but Edward was already dead when it was signed. Marta Konieczna forged it. The forgery is what let the "they moved away" story stand.
 
 ### soldier-never-married
 [Edward Barnaś](../characters/soldier.md) and his partner never married — they lived together. She kept her own surname. This is why no "Barnaś" wife appears in any village records.
 
 ### glupek-strangled
-[Stanisław Rezeń](../characters/butcher.md) tried to strangle [Edek Barnaś](../characters/glupek.md) as an infant. [Janina Gajda](../characters/ciotka.md) stopped him. The oxygen deprivation caused permanent brain damage — it was not congenital.
+The night of the lynch, four-year-old [Edek Barnaś](../characters/glupek.md) wouldn't stop crying. [Stanisław Rezeń](../characters/butcher.md) closed his hands on the boy's throat to silence him and didn't stop. [Janina Gajda](../characters/ciotka.md) tore him off. The oxygen loss caused permanent brain damage — it was not congenital.
 
 ### lynch-bodies-in-well
-The bodies from the 1954 lynch were dumped in the old well in [%OLD_VILLAGE%](../locations/old-village-ruins.md) — the same well that already held the 1947 massacre remains.
+[Edward Barnaś](../characters/soldier.md)'s body was dumped in the old well in [%OLD_VILLAGE%](../locations/old-village-ruins.md) after the 1954 lynch — the same well that already held the 1947 massacre remains. His is the only body from that night in the well.
+
+### butcher-has-soldiers-gun
+[Stanisław Rezeń](../characters/butcher.md) wrestled the pistol from [Edward Barnaś](../characters/soldier.md) that night and kept it — the KBW sidearm that shot the sołtys. It's still in his house.
 
 ### wujas-loved-jagna
 [Tadek Gajda](../characters/secondary-characters.md) was in love with [Hania Barnaś](../characters/jagna.md), but she chose [Emil Rzepka](../characters/secondary-characters.md).
