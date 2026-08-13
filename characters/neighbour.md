@@ -127,13 +127,14 @@ While Humiliated:
 
 ## Bond
 
-- [ ] Ask how Barbara and Pawełek are doing — show you notice them as people, not just sources
-- [ ] Accept his initial deflection gracefully — come back later instead of pushing
-- [ ] Demonstrate discretion — tell him something you learned and that you haven't shared it widely
+- [ ] **Treat Barbara and Pawełek as people, not sources** — ask after them, help the boy, notice the one clean thing in his life. (Available early — Day 1–2 over Barbara's fence.)
+- [ ] **Meet his 1954 guilt without contempt** — when the inaction surfaces, don't call him a coward; let it stand. A guilty man bonds over non-judgment.
+- [ ] **Stand with him against Rezeń** — back him in a real moment instead of leaving him alone with it: defuse [the clash](../events/hunters-cross-paths.md) in his favour, [Uplift him](#uplift-ryszard), or stand beside him at [the well](../events/well-confrontation.md#dudkas-rifle-if-he-is-present).
 
+**When bonded:** He drops the hard-quiet-hunter act for this player. He gives the full 1954 night unprompted, admits aloud he was never certain the bones were Jagna's, and — the thing that matters — he *listens* to this player when he's on the edge of the lynch. This is the player who can keep him stable ([Justice ending](../events/punishment-lynch.md)).
 
 ## Grudge
 
-- [ ] Ask about the 1954 events in front of Barbara or within earshot of her
-- [ ] Push him aggressively when he's clearly shutting down — don't take no for an answer
-- [ ] Let information leak that he could trace back to the players being careless
+- [ ] **Humiliate him or side with Rezeń** — laugh him down yourself, dismiss the threat he sees, or leave [the clash](../events/hunters-cross-paths.md) to run so Rezeń wins it (see [Humiliated](#humiliated)).
+- [ ] **Endanger or use Barbara or Pawełek** — push Barbara carelessly, let the boy come to harm, or treat his one clean thing as leverage.
+- [ ] **Expose him as the informant** — reveal within earshot that he talks, or let a leak trace back to him, and hand his worst fear (Rezeń finding out) straight to the village.
