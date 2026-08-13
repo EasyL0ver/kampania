@@ -1,7 +1,7 @@
 # The Wolf Attack
 
 **Location:** [PGR Farm](../locations/pgr-farm.md)
-**Present:** [Michał Pytlak](../characters/foreman.md), [Zbigniew Gajda](../characters/wojewoda.md) (assessing the damage), farm workers
+**Present:** [Michał Pytlak](../characters/foreman.md), [Zbigniew Gajda](../characters/wojewoda.md) (assessing the damage), [Ryszard Dudka](../characters/neighbour.md) (summoned, taking the blame), farm workers
 **Available:** Day 1–2, morning. Fresh livestock kills are visible at the [PGR](../locations/pgr-farm.md) from Day 1.
 
 ## Trigger
@@ -16,14 +16,16 @@ The smell reaches the road before the farm does. Workers gathered at the pen at 
 
 A sheep dead in the pen — throat torn out, blood soaked into the mud, drag marks toward the tree line. The other animals are packed into the far corner, refusing to settle.
 
-[Zbigniew Gajda](../characters/wojewoda.md) stands in the pen counting the dead. He stares at the forest edge a long moment, then turns to [Michał Pytlak](../characters/foreman.md): *"I'll handle it."* What he does next is quiet — he finds [Tadek](../characters/wujas.md) and sends him to the edge house with three words for the butcher: *deal with the wolves.* (See [Tadek Visits the Butcher](wujas-visits-butcher.md).) Thirteen years of keeping [Stanisław Rezeń](../characters/butcher.md) at arm's length, undone by a dead sheep.
+[Zbigniew Gajda](../characters/wojewoda.md) stands in the pen counting the dead. [Ryszard Dudka](../characters/neighbour.md) stands a few paces off, rifle slung, taking it — because Gajda is laying the losses at his feet in front of the workers. *"Weeks, Ryszard. Weeks, and how many have you shot? None. Look at it."* Dudka doesn't argue; he stares at the carcass with his jaw working. Then Gajda stares at the forest edge a long moment, and turns to [Michał Pytlak](../characters/foreman.md): *"I'll handle it."* What he does next is quiet — he finds [Tadek](../characters/wujas.md) and sends him to the edge house with three words for the butcher: *deal with the wolves.* (See [Tadek Visits the Butcher](wujas-visits-butcher.md).) Thirteen years of keeping [Stanisław Rezeń](../characters/butcher.md) at arm's length, undone by a dead sheep — and Dudka knows exactly who's replacing him.
 
 ## Opportunities
 
 - **The kill** — throat torn, dragged toward the trees.
   - **Observation:** One animal, confident, worked alone tonight — a pack that knows this pen and isn't afraid of it anymore.
 - **Gajda at the fence** — he counts, he stares at the treeline, he decides. **Read:** He isn't weighing whether to act — he's bracing to do the one thing he swore he never would.
-- **The workers** — they mutter that Dudka's been at this for weeks with nothing to show. One says, lower, that *the other one* is good with a knife.
+- **Dudka taking the blame** — he stands and absorbs it, rifle slung, saying nothing. **Read:** It isn't just wounded pride. He'd rather eat this humiliation in public than say out loud why bringing in Rezeń is worse than any wolf.
+  - **Sweettalk:** Catch him alone after and he's raw — *"Weeks out there. One man. He thinks I wasn't trying."* The failure is real; so is the fear underneath it.
+- **The workers** — they mutter that Dudka's been at this for weeks with nothing to show. One says, lower, that *the other one* is good with a knife. Watching Gajda dress him down in the pen makes it plain: [`dudka-failed-wolf-hunt`](../clues/clues.md#dudka-failed-wolf-hunt).
 
 ## Actions
 
