@@ -80,7 +80,7 @@ No sign of forced entry. No sign of a struggle anywhere in the room. No weapon, 
 
 <!-- TODO: If players don't visit — ks. Pająk finds the body after mass on Day 4. Helena takes control of the scene before the committee arrives. Evidence may be disturbed. -->
 **The ambiguity is the scene — but the ambiguity is a lie the village tells itself.** No one killed Janina. She died of an accidental overdose of her own nerve pills. Yet three false suspects will present themselves, each plausible, each wrong:
-- **Rezeń** — smothered a child in 1954, has large hands, hated Ciotka for 13 years (she stopped him that night), breaks containment, goes out at night. Dudka will assume it was him. Half the village will assume it was him. He did nothing.
+- **Rezeń** — smothered a child in 1954, has large hands, torments Janina in public where everyone can see it, breaks containment, goes out at night. Dudka will assume it was him. Half the village will assume it was him. He did nothing.
 - **Edek** — lived in the house, is missing, fled barefoot into the woods in a blind panic. The priest will fear for him; Zbigniew will want him found. The flight *looks* like guilt. It's grief he can't name.
 - **The hag** — a Lemko woman whose people were massacred, twenty years in the forest, watching. The herbal scent in the room reads as an intruder to players who've met her. It's a coincidence — most likely tracked in on Edek's own boots.
 
