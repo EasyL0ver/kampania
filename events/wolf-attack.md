@@ -26,6 +26,7 @@ A sheep dead in the pen — throat torn out, blood soaked into the mud, drag mar
 - **Dudka taking the blame** — he stands and absorbs it, rifle slung, saying nothing. **Read:** It isn't just wounded pride. He'd rather eat this humiliation in public than say out loud why bringing in Rezeń is worse than any wolf.
   - **Sweettalk:** Catch him alone after and he's raw — *"Weeks out there. One man. He thinks I wasn't trying."* The failure is real; so is the fear underneath it.
 - **The workers** — they mutter that Dudka's been at this for weeks with nothing to show. One says, lower, that *the other one* is good with a knife. Watching Gajda dress him down in the pen makes it plain: [`dudka-failed-wolf-hunt`](../clues/clues.md#dudka-failed-wolf-hunt).
+- **Overheard at the pen** — two workers, half-serious, half not: no wolf comes down this bold, this often, unless something *sends* them. They've seen her fires in the ruins, heard the chanting. *"The Lemko woman's calling them out of the hills. Wolves don't touch their own."* [`hag-blamed-for-wolves`](../clues/clues.md#hag-blamed-for-wolves)
 
 ## Actions
 
