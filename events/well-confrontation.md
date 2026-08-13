@@ -40,11 +40,6 @@ The friendliness curdles into play. He drops the wolf, circles her, jokes — *"
 
 The players are census bureaucrats; Rezeń has a knife, three dogs, and twenty years of practice. None of the unarmed options below stops him for good — the point is what you're willing to spend. They escalate; a player can climb from one to the next as the moment slips away.
 
-### Shout him down
-- **Requires:** Present, no firearm
-- **Cost:** Free
-- **Outcome:** He glances up. *"Go home."* Flat, dismissive; the dogs growl. Committee authority is worthless here. You've learned exactly how little you are to him ([`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)), and unless you do more, the GM moves straight to him stepping in.
-
 ### Grapple him
 - **Requires:** Present, no firearm
 - **Cost:** 1 composure
