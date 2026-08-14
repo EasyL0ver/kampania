@@ -116,12 +116,10 @@ A tabletop RPG oneshot set in 1960s Bieszczady, Poland.
 - [The Shining — Stanley Kubrick (1980)](inspirations/the-shining.md)
 - [True Detective — Season 1 (2014)](inspirations/true-detective-s1.md)
 
-### [Documents](documents/)
-- [PGR Expense Journal](documents/pgr-expenses.md)
-- [PGR Worker Registry](documents/pgr-ledger.md)
-
 ### [Items](items/)
 - [Remains from the Ravine](items/ravine-remains.md)
+- [PGR Expense Journal](items/pgr-expenses.md)
+- [PGR Worker Registry](items/pgr-ledger.md)
 
 ### Reference
 - [Actions & Opportunities](actions-and-opportunities.md)

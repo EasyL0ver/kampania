@@ -47,7 +47,7 @@ The nerve centre of the village. Clean desk, heavy bakelite phone, ledgers, topo
 - **Cost:** 1 action
 - **Skills:** **Law**
 - **Outcome:** Deeds and paperwork for the village plots. Among them: the 1954 administrative declaration that recorded the Barnaś family's "departure" and handed the old house and land to the PGR. It carries **Edward Barnaś's** signature — dated weeks after the lynch that killed him. Without legal training, it's just one handover among many, the family "moved away." A **Law** read catches it instantly: a dead man can't sign, the hand is wrong — the paper is a forgery, and the "move" it records was staged. It proves the disappearance was faked; it does not, by itself, say whose hand forged it. → **Gives:** [marta-made-a-deal](../clues/clues.md#marta-made-a-deal), [departure-declaration-forged](../clues/clues.md#departure-declaration-forged)
-- **Leads to:** Marta Konieczna as a living-witness lead — she signed and left. Cross-ref [PGR expense journal](../documents/pgr-expenses.md).
+- **Leads to:** Marta Konieczna as a living-witness lead — she signed and left. Cross-ref [PGR expense journal](../items/pgr-expenses.md).
 
 ### Trace where Marta resettled
 - **Requires:** [marta-made-a-deal](../clues/clues.md#marta-made-a-deal) — the players know she left alive and want to find her.

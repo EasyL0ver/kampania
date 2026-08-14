@@ -27,8 +27,8 @@ A battered wooden desk in the tool shed holds the farm's paperwork — supply or
 - **Requires:** Committee authority (automatic — it's their job)
 - **Cost:** 1 action
 - **Skills:** **Law**, **Agronomy**
-- **Outcome:** The desk in the tool shed has the [worker registry](../documents/pgr-ledger.md), the [expense journal](../documents/pgr-expenses.md), supply orders, and delivery receipts. Numbers are mostly honest — this is a real working farm. But one entry stands out: Tadeusz Mazur, listed as a current worker drawing wages. No corresponding work logs for the past two years. The expense journal goes back to 1951 — years of mundane farm spending that players will skim through looking for irregularities.
-- **Leads to:** [Foreman cover-up](../clues/clues.md#foreman-coverup). If confronted, Michał Pytlak enters Stage 1 deflection (see [foreman-embezzlement.md](../story-facts/foreman-embezzlement.md)). The expense journal also contains a buried clue to the [Soldier's partner](../characters/soldier.md) — see [PGR expense journal GM notes](../documents/pgr-expenses.md).
+- **Outcome:** The desk in the tool shed has the [worker registry](../items/pgr-ledger.md), the [expense journal](../items/pgr-expenses.md), supply orders, and delivery receipts. Numbers are mostly honest — this is a real working farm. But one entry stands out: Tadeusz Mazur, listed as a current worker drawing wages. No corresponding work logs for the past two years. The expense journal goes back to 1951 — years of mundane farm spending that players will skim through looking for irregularities.
+- **Leads to:** [Foreman cover-up](../clues/clues.md#foreman-coverup). If confronted, Michał Pytlak enters Stage 1 deflection (see [foreman-embezzlement.md](../story-facts/foreman-embezzlement.md)). The expense journal also contains a buried clue to the [Soldier's partner](../characters/soldier.md) — see [PGR expense journal](../items/pgr-expenses.md).
 
 ### Talk to Michał Pytlak about the flood
 - **Requires:** None
@@ -38,7 +38,7 @@ A battered wooden desk in the tool shed holds the farm's paperwork — supply or
 - **Leads to:** Understanding of flood defence efforts. If players help or assign workers, Michał Pytlak becomes an ally — and they gain access to the farm and its workers freely.
 
 ### Ask Michał Pytlak about the workers
-- **Requires:** Have seen the [PGR ledger](../documents/pgr-ledger.md)
+- **Requires:** Have seen the [PGR ledger](../items/pgr-ledger.md)
 - **Cost:** Free
 - **Skills:** **Intimidate** or **Sweettalk**
 - **Bonus:** **Read** — his discomfort is guilt, not greed

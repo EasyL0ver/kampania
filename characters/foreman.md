@@ -39,7 +39,7 @@ Voice is a commanding bark with a Podkarpacie drawl. Doesn't waste words — whe
 ## Actions
 
 ### Press him about Tadeusz Mazur
-- **Requires:** A reason to name Mazur — the [PGR ledger](../documents/pgr-ledger.md) showing a worker nobody answers to, or [Wanda Mazur](widow.md)'s account of her "pension"
+- **Requires:** A reason to name Mazur — the [PGR ledger](../items/pgr-ledger.md) showing a worker nobody answers to, or [Wanda Mazur](widow.md)'s account of her "pension"
 - **Cost:** 1 card
 - **Outcome:** He's a bad liar under direct fire, and it comes apart in stages:
   - **Deflection** — "Mazur? Seasonal. Comes and goes." Awkward, unconvincing.

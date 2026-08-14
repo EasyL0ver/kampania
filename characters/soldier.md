@@ -15,6 +15,6 @@ Deceased. KBW soldier who participated in the 1947 Lemko massacre, then settled 
 
 ## Opinions
 
-- **Marta Konieczna** (partner, born ~1915) — Never married, lived together. Initials: M.K. Not the mother of his children. Survived the lynch: bargained her silence and disappearance for her life, put out that the family had moved, and left the village at first light. Resettled west — now a nurse in Legnica, reachable by phone. Her name appears only in the [PGR expense journal](../documents/pgr-expenses.md) under her own surname. See [her file](secondary-characters.md#marta-konieczna).
+- **Marta Konieczna** (partner, born ~1915) — Never married, lived together. Initials: M.K. Not the mother of his children. Survived the lynch: bargained her silence and disappearance for her life, put out that the family had moved, and left the village at first light. Resettled west — now a nurse in Legnica, reachable by phone. Her name appears only in the [PGR expense journal](../items/pgr-expenses.md) under her own surname. See [her file](secondary-characters.md#marta-konieczna).
 - **[Hania Barnaś](jagna.md)** — Eldest daughter, his pride. Attacked at the well in the lynch; broke free and fled during the struggle. Never seen again — whether she survived that night, no one knows.
 - **[Edek Barnaś](glupek.md)** — Young son, four in 1954. Survived the lynch, left brain-damaged.
