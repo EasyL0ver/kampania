@@ -82,6 +82,16 @@ Players cannot prevent this. The moment is *after*: follow Zbigniew and Tadek ou
 
 If Helena got the committee to sign the death certificate (Pawełek medicine deal), the funeral is just burial of a closed case. If not — this is her second attempt, wrapped in grief and social pressure. With **Law:** once she's in the ground, the certificate is the only record.
 
+## The Flood Postpones Burial
+
+By Day 5 the [flood](the-flood.md) has been running since Day 3 — roads gone, ground waterlogged, the low cemetery flooded. **Burial cannot happen.** A grave can't be dug; a dug hole fills with water; the procession can't cross flooded ground.
+
+**Default under active flood:** The Mass is still said in the church, but Janina is **not** put in the ground. The closed coffin stays at the front of the church, waiting for the water to drop. Helena hates it — an unburied body is the opposite of the tidy closure she wants — but the flood overrules her.
+
+- **Custom pressure:** Village custom is a 2–3 day wake, then burial. By now she's been dead since Day 2. Keeping her above ground this long makes the village uneasy — the old belief that a corpse held too long "pulls the next one after it." See [death customs](../historical%20context/17-death-customs-and-decomposition.md).
+- **The body is exposed.** She's cold, closed in pine, in an unheated church — slow to decay, but starting to turn. Nobody is guarding her at night.
+- **This unlocks:** [Rezeń takes the body](rezen-takes-the-body.md) — if Rezeń is alive and loose, the compulsion takes him to the church that night. Players who choose to keep vigil over the coffin can catch him.
+
 ## If Missed
 
 <!-- TODO: What happens if players skip the funeral? Helena buries Ciotka without interference. Evidence destroyed. Village notes the committee's absence — disrespectful or suspicious. -->

@@ -203,6 +203,12 @@ Fresh blood on the well's stone rim. Recent — not old stains. Something was dr
 ### someone-killed-at-well
 Someone was murdered at the well. Blood smeared on the rim, drag marks from a kneeling position, scattered ritual supplies trampled into mud. The violence was one-directional — the victim didn't fight back. A body was put into the well. **Only exists if the [hag dies](../events/well-confrontation.md#if-nobody-is-there-default--70).**
 
+### ciotka-body-taken
+[Janina Gajda](../characters/ciotka.md)'s body is gone. Taken from her coffin in [the church](../locations/the-church.md) during the night, while the flood kept her unburied. A wet drag trail leads out toward [%OLD_VILLAGE%](../locations/old-village-ruins.md). **Conditional:** Only exists if [Rezeń takes the body](../events/rezen-takes-the-body.md).
+
+### rezen-fed-ciotka-to-well
+[Stanisław Rezeń](../characters/butcher.md) took [Janina Gajda](../characters/ciotka.md)'s body from the church and put it in [the well](../story-facts/the-well.md). He doesn't hide it — he frames it as practical: the flood left her unburied, the body was starting to turn, so he dealt with it. He does not understand, or say, that the well pulled him to do it. **Conditional:** Only exists if [Rezeń takes the body](../events/rezen-takes-the-body.md).
+
 ### players-dream-too
 From the first night in the village, the players have dreams of violence — hands doing things, the satisfaction of breaking. Each night worse. By day three they've felt what [Stanisław Rezeń](../characters/butcher.md) has felt for thirteen years.
 

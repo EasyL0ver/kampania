@@ -183,7 +183,20 @@ Minor NPCs, relationships, and supporting cast. Grouped by association for easy 
 
 ---
 
-## Generic Villagers (Population)
+## %OLD_VILLAGE% — 1947
+
+### Dmytro Kosach
+**Type:** Deceased — UPA fighter, [Paraskewia Chyłak](hag.md)'s lover  
+**Died:** 1947 (age ~27) — during the [%OLD_VILLAGE% massacre](../story-facts/old-village-massacre.md)  
+**Heritage:** Lemko / Ukrainian  
+**Role:** A UPA guerrilla hiding in %OLD_VILLAGE% when [kpt. Henryk Ćwiek](kbw-officer.md)'s KBW unit came to deport it during Akcja Wisła. When the villagers resisted, Dmytro shot Ćwiek dead — the single act that turned an orderly deportation into a slaughter, as the leaderless soldiers avenged their captain by killing everyone. He was almost certainly killed in the reprisal that followed. His body was never recovered; he is presumed to be among the dead in [the well](../locations/the-well.md), alongside the villagers his shot doomed.
+
+**Notes (GM only):**
+- **He is the hinge of the whole tragedy.** No dead captain, no massacre; no massacre, no well, no haunting, no cover-up. Everything downstream — 1954, 1967 — rests on the trigger he pulled. The players will likely never learn his name; the truth lives in [Paraskewia Chyłak](hag.md) and in the [Freudian reading](../story-facts/freudian-triangle.md#stanisław-rezeń-butcher--id) where his kill removes the Superego (Ćwiek) and unleashes the soldiers' Id.
+- **The only living thread to him is Paraskewia.** She was his lover and has tended the dead of %OLD_VILLAGE% for twenty years partly for him. Acknowledging "the missing families, and Dmytro" is one of her [bond checks](hag.md) — say his name to her with respect and a door opens that nothing else can. She will not volunteer him; a player has to already know, or earn it.
+- **Reaching his story.** Nobody in %NEW_VILLAGE% will name him — the Gajda siblings were children or gone, and the state buried the UPA angle hardest of all. History-skilled players may deduce a UPA presence from the massacre's shape (a captain killed, a village annihilated in reprisal); only Paraskewia can put a name and a face to it.
+
+
 
 ### Unnamed Villagers
 - **%NEIGHBOUR_1%, %NEIGHBOUR_2%, etc.** — Families living in %NEW_VILLAGE%. Use as needed for scenes, gossip, evacuation logistics, or village reaction.
