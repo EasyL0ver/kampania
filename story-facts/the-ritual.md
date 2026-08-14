@@ -57,7 +57,7 @@ So the real obstacle isn't finding the words — it's **breaking ks. Władysław
 
 This is the piece Paraskewia Chyłak always had and the players must find on their own. The ritual doesn't work as performance. It works as acknowledgement. The dead don't need correct pronunciation or proper icon placement. They need someone to stand at the well and **say what happened.**
 
-- Name the dead. As many as can be named. The Lemko villagers. Edward Barnaś. His wife. Hania Barnaś. Paraskewia Chyłak herself.
+- Name the dead. The twelve Lemko villagers Paraskewia recorded in Cyrillic ([her list](../items/paraskewias-list.md)) and Dmytro Kosach; Edward Barnaś, the 1954 death her rite never covered; and — if it happened — Janina Gajda, Paraskewia herself, or Rezeń, whoever ended up in the well. See the full [roster](old-village-massacre.md#the-dead-in-the-well). **Not** Hania Barnaś — she fled and vanished, not dead in the well.
 - Say what was done to them. Not in legal terms. In human terms. *They were killed. They were thrown in this well. Nobody spoke for them. Nobody mourned them.*
 - Accept that it happened. Don't explain it. Don't justify it. Don't promise justice. Just acknowledge it.
 

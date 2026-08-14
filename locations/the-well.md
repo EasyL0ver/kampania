@@ -17,7 +17,7 @@ Stone-lined well. The heart of the scenario. Contains two sets of dead spanning 
 - Signs of recent disturbance — someone has been clearing debris ([Stanisław Rezeń](../characters/butcher.md)); someone else has been piling it back and leaving candle wax ([Paraskewia Chyłak](../characters/hag.md))
 
 **Contains:**
-- **1947 massacre victims:** Lemko villagers from %OLD_VILLAGE%, decomposed beyond identification. Including Dmytro Kosach.
+- **1947 massacre victims:** Twelve Lemko villagers from %OLD_VILLAGE%, plus Dmytro Kosach — thirteen dead, decomposed beyond identification. Their names survive only on [Paraskewia's list](../items/paraskewias-list.md); see the [roster](../story-facts/old-village-massacre.md#the-dead-in-the-well).
 - **1954 lynch victim:** [Edward Barnaś](../characters/soldier.md) — more recent, better preserved. He is the only body from that night here: [Hania Barnaś](../characters/jagna.md) fled and vanished (fate unknown, no body of hers ever found), and Marta Konieczna left the village alive.
 - Animal remains — dogs, carcasses — fed to it by [Stanisław Rezeń](../characters/butcher.md) over the years.
 

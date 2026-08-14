@@ -18,6 +18,7 @@ Small wooden cabin, weathered and old. Built or repurposed from a pre-war struct
 
 **Interior:**
 - **Ritual items:** Icons, candles, herbs, prayer materials — the tools of [the ritual](../story-facts/the-ritual.md)
+- **The list of the dead:** A soft, much-folded sheet of names in Cyrillic — the twelve killed in 1947 and Dmytro Kosach, kept with the ritual materials. → [Paraskewia's List of the Dead](../items/paraskewias-list.md)
 - **Supplies:** Foraged foods (dried mushrooms, berries, roots), preserved items
 - **Personal effects:** Blankets, worn clothes, cooking implements
 - **Dmytro Kosach's belongings:** A small photograph (young man in partisan clothing, faded), a folding knife with Cyrillic initials (Д.К.), letters in Ukrainian wrapped in oilcloth. Hidden but not inaccessibly — under floorboards, in a tin. Twenty years of handling have worn the photo soft. These are the only proof he existed. → [clue: dmytro-kosach](../clues/clues.md#dmytro-kosach)
@@ -30,6 +31,7 @@ Small wooden cabin, weathered and old. Built or repurposed from a pre-war struct
 ## Opportunities
 
 - **Find ritual materials** — icons, candles, herbs. Evidence someone is performing rites. → **Gives:** [hag-has-the-form](../clues/clues.md#hag-has-the-form)
+- **Find the list of the dead** — a folded sheet of Cyrillic names kept with the ritual things. → **Gives:** [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead); the [list](../items/paraskewias-list.md) as an item.
 - **Find Dmytro's belongings** — photo, knife (Д.К.), letters in Ukrainian. → **Gives:** [dmytro-kosach](../clues/clues.md#dmytro-kosach)
 - **Meet Paraskewia** — if she's here and players approach carefully. See character file for interaction. → **Gives:** [hag-is-lemko](../clues/clues.md#hag-is-lemko)
 - **Connect the evidence** — players who've found the [UPA bunker](upa-bunker.md) inscription (Д. КОСАЧ) and the knife (Д.К.) can link them

@@ -60,6 +60,9 @@ The remains of the 1947 massacre victims are in [the well](../story-facts/the-we
 ### dead-never-mourned
 The 1947 dead were never given proper rites — no panakhyda, no memorial, no mourning. Twenty years of spiritual debt.
 
+### paraskewia-named-the-dead
+[Paraskewia Chyłak](../characters/hag.md) has kept the names of the 1947 dead — twelve Lemko villagers plus [Dmytro Kosach](../characters/secondary-characters.md#dmytro-kosach) — written in Cyrillic in her own hand, and speaks them in her rites. It is the only record they ever existed. See [Paraskewia's List of the Dead](../items/paraskewias-list.md).
+
 ### dam-covers-evidence
 The flood zone was chosen partly to bury the massacre evidence. [por. Witold Skowron](../characters/officer.md) knows this. The dam is infrastructure *and* a burial.
 
