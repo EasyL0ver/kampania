@@ -19,8 +19,8 @@ por. Witold Skowron is professional, friendly. He talks while he drives.
 ### Listen to the briefing
 - **Requires:** Nothing
 - **Cost:** Free
-- **Outcome:** Information — por. Witold Skowron explains the job: census, damage assessment, flood risk evaluation. Zbigniew Gajda is the local contact, he'll cooperate. The village has a phone in the sołtys's office. Road may wash out if rain continues.
-- **Leads to:** Nothing new — baseline information all players receive
+- **Outcome:** por. Witold Skowron explains the job: a geographical survey and damage assessment of each household's property, framed as flood-risk evaluation. Zbigniew Gajda is the local contact, he'll cooperate. The village has a phone in the sołtys's office. Road may wash out if rain continues.
+- **Gives:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey), [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage), [committee-hides-something](../clues/clues.md#committee-hides-something)
 
 ### Ask about the village history
 - **Requires:** Nothing

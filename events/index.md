@@ -18,6 +18,7 @@
 - [Painter & Matrona](painter-matrona.md)
 - [Wojewoda Confronts Butcher](wojewoda-confronts-butcher.md)
 - [Irena Confronts the Wojewoda](irena-confronts-wojewoda.md)
+- [Wojewoda's Ask](wojewodas-ask.md)
 - [Well Confrontation](well-confrontation.md)
 - [Performing the Ritual](the-ritual.md)
 - [The Flood](the-flood.md)

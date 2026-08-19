@@ -59,7 +59,7 @@ Voice deep and unhurried. When angry, goes very still and very quiet — the tem
 - **Cost:** 1 action
 - **Outcome:** Names his house and land, papers in order. Straightforward — **unless he doesn't yet know about the flood.** Then a census asking *property values* makes him suspicious on the spot: *"Why are you valuing land? What's this really for?"*
   - **Sweettalk / Delegate** (a convincing reason — audit, standard procedure): he buys it, drops it.
-  - **No convincing cover:** NPC State Change — Zbigniew concludes the committee is hiding something and goes [alert](#tell-about-the-flood-risk) — watching where you go and what you measure.
+  - **No convincing cover:** NPC State Change — Zbigniew concludes the committee is hiding something and goes [alert](#tell-about-the-flood-risk) — watching where you go and what you measure. **Gives:** [committee-hides-something](../clues/clues.md#committee-hides-something)
 - **Gives:** Property record — sołtys's house, clean title.
 
 ### Ask for the maps
@@ -92,6 +92,24 @@ Voice deep and unhurried. When angry, goes very still and very quiet — the tem
 - **What happens:** They corner him: *tell the village yourself, or we do — in the square, tonight.* It bites only because it doesn't try to bypass him; it threatens him with the one thing he fears most, losing control of the delivery. Faced with a truth coming out no matter what, the superego chooses to be the one holding it. Without the proof in hand he calls the bluff — clerks with a suspicion, same as before. With it, he folds — but he folds *into control*. He extracts a price: he sets the terms — quiet evacuation framing, no word on how long it was known, compensation as the state taking care of them, and nothing that cracks open the past. The players force the *disclosure*; he still shapes the *story*.
 - **Result:** NPC State Change — Zbigniew Gajda **complies on his terms** and sets a **grudge** (they cornered him in his own house; he never forgives being made to). He runs the announcement, but steps back after — he will *not* shield the players in the backlash or stand beside them at the evacuation the way an enlisted man would. The truth gets out; the ally is spent.
   - **Branch — the players demand the *whole* truth** (that the state lied, that it was known): he balks. This is no longer a delivery he controls, and he won't stand in front of it. The ultimatum collapses back into a standoff — defy him and go public yourselves, and he aims the crowd at you.
+
+### Ask about Barbara's house
+- **Requires:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway
+- **Cost:** 1 action
+- **Outcome:** He admits it plainly — on paper it's the farm's, built with PGR brick and labour for a young mother with no one to lean on. Exactly the kind of house he's asking them to write over.
+- **Gives:** [barbara-has-help](../clues/clues.md#barbara-has-help)
+
+### Ask about Janina's house
+- **Requires:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway
+- **Cost:** 1 action
+- **Outcome:** As PGR director he corrects the record: it isn't personally his to give — the house was abandoned, left to the state, and the farm administers it. He put Janina in it because she keeps the boy and the place, and she's earned it. Put it on her census.
+- **Gives:** [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs)
+
+### Show the paperwork for Janina's house
+- **Requires:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway + [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs)
+- **Cost:** 1 action
+- **Outcome:** He produces the file and lets them read it — the 1954 declaration handing the house to the PGR, [Edward Barnaś](soldier.md)'s signature at the foot. He keeps it in his hands; they don't leave with it. See [Edward Barnaś's Departure Declaration](../items/barnas-departure-declaration.md).
+- **Gives:** They've seen the declaration and where it's kept. Proving it forged still needs the document compared against Edward's hand.
 
 ### Report the bimber still
 - **Requires:** Players have discovered the [bimber still](../locations/bimber-still.md)

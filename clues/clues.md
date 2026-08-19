@@ -136,6 +136,9 @@ The man [Edward Barnaś](../characters/soldier.md) shot that night was [Zbigniew
 ### ciotka-house-is-wojewodas
 [Janina Gajda](../characters/ciotka.md) doesn't own the house she lives in and says so plainly — it's the sołtys's, [Zbigniew Gajda](../characters/wojewoda.md) gave it to her, it's his to allocate. She has no title of her own and names her brother as the source. (On paper the same house was signed over to the [PGR](../locations/pgr-farm.md) — see [departure-declaration-forged](#departure-declaration-forged). Her answer and the record don't agree.)
 
+### ciotka-house-is-pgrs
+[Zbigniew Gajda](../characters/wojewoda.md) says [Janina](../characters/ciotka.md)'s house isn't his to give — it was abandoned, left to the state, and the PGR administers it; he only allocated it to her. His account and Janina's ("it's the sołtys's") don't agree.
+
 ### departure-declaration-forged
 The document that recorded the Barnaś family's "departure" and handed their house and land to the [PGR](../locations/pgr-farm.md) is a forgery. It carries [Edward Barnaś](../characters/soldier.md)'s signature — but Edward was already dead when it was filed, weeks after the 1954 lynch. Someone forged his hand to make the family's disappearance read as a voluntary move west. The paper is what let the "they moved away" story stand.
 
@@ -378,6 +381,15 @@ The old village site is flooding — water rising from below, the well filling. 
 
 ### phone-is-lifeline
 The players can call [Professor](../characters/secondary-characters.md) by phone. If they tell him about the massacre, the truth exists outside the village.
+
+### committee-runs-geographical-survey
+The committee's stated purpose in the village is a geographical survey — terrain, river, boundaries. It's the cover that explains why outsiders are measuring the land.
+
+### committee-notes-property-for-damage
+The committee is recording each household's property and its value, ostensibly to assess damages. Asking what land is worth is part of the official remit.
+
+### committee-hides-something
+The committee's real business isn't the survey it names. It's here for something it won't state, and the official purpose is a front.
 
 ---
 
