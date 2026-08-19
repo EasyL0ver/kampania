@@ -46,6 +46,20 @@ People instinctively lower their voices in her presence. Voice low and measured 
 - **`ciotka-not-mother`:** Icy deflection. Turns it back on the players — why are you digging? A strange question for a census.
 - **`wujas-is-guilty`:** Sighs with practised compassion. "My brother is a troubled soul. I pray for him every day." Dismissive concern — but her eyes sharpen, calculating how much he said and to whom.
 
+## Actions
+
+### Census interview
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Smooth and complete — herself, [Emil](secondary-characters.md), the two children. Answers before you finish asking.
+- **Gives:** Census data — Helena, Emil, Ewa, Krystian Rzepka.
+
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Names the house and [the store](../locations/the-store.md) she runs, papers in order.
+- **Gives:** Property record — Rzepka house and store.
+
 ## Bond
 
 - [ ] Accept her tea and her framing of events without visible contradiction

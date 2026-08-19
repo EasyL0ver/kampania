@@ -40,6 +40,20 @@ Warm baritone that stays intimate in conversation. One tell: when uncomfortable,
 - **[Janina Gajda](ciotka.md)** — My heaviest burden. She comes for comfort and I give it, and neither of us acknowledges that what passes between us over thirteen years is a full account of a murder. She's too honest, too broken, too desperate for absolution to edit herself. I know everything because of her. I carry it because of her.
 - **`wujas-is-guilty`:** Pained silence. "Every man carries his own cross." Will not break the seal of confession — but the weight of what he knows is visible on his face.
 
+## Actions
+
+### Census interview
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Cooperative — himself, alone at the rectory.
+- **Gives:** Census data — ks. Władysław Pająk.
+
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** The rectory and church aren't his — parish property. Refers the committee to the diocese for anything on paper.
+- **Gives:** Property record — parish/church property, not personally held.
+
 ## Bond
 
 - [ ] Ask for his blessing or spiritual counsel — even perfunctorily, even if the player isn't religious

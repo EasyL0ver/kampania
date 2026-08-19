@@ -133,6 +133,9 @@ The man [Edward Barnaś](../characters/soldier.md) shot that night was [Zbigniew
 ### marta-made-a-deal
 [Edward Barnaś](../characters/soldier.md)'s partner, Marta Konieczna, wasn't killed. She bargained — she had nothing to sign away, so she traded the only thing she had: her silence and her disappearance. She agreed to vanish and to tell anyone who asked that the family had moved. She was gone by morning, left the village alive, and never came back.
 
+### ciotka-house-is-wojewodas
+[Janina Gajda](../characters/ciotka.md) doesn't own the house she lives in and says so plainly — it's the sołtys's, [Zbigniew Gajda](../characters/wojewoda.md) gave it to her, it's his to allocate. She has no title of her own and names her brother as the source. (On paper the same house was signed over to the [PGR](../locations/pgr-farm.md) — see [departure-declaration-forged](#departure-declaration-forged). Her answer and the record don't agree.)
+
 ### departure-declaration-forged
 The document that recorded the Barnaś family's "departure" and handed their house and land to the [PGR](../locations/pgr-farm.md) is a forgery. It carries [Edward Barnaś](../characters/soldier.md)'s signature — but Edward was already dead when it was filed, weeks after the 1954 lynch. Someone forged his hand to make the family's disappearance read as a voluntary move west. The paper is what let the "they moved away" story stand.
 

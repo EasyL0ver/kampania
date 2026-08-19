@@ -73,6 +73,18 @@ Irena runs on a pivot: **first she investigates, then — once she finally sees 
   - **Refuse →** she cannot act against him, so she acts against *them* — hands Zbigniew everything they've shown her, and the household closes and counters.
 - **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband) + NPC State Change: Irena (rival → Zbigniew's protector) · **Accept:** World State Change — Zbigniew's role buried, structure preserved (toward the **Justice** ending, [lynch](../events/punishment-lynch.md) prevented) · **Refuse:** World State Change — the family actively counters the committee, and toppling Zbigniew mid-flood removes the structure that holds the village (toward [Punishment — the lynch](../events/punishment-lynch.md))
 
+### Census interview
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Precise and complete — the household, ages, employment, no wasted words. She files every question you ask as much as she answers it.
+- **Gives:** Census data — Zbigniew, Irena, Marek Gajda.
+
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** The house is her husband's, papers in order. If the committee can't explain why it's valuing land, she says nothing — but the analyst has clocked it. **Read:** she now knows the committee is hiding a reason.
+- **Gives:** Property record — [Zbigniew's house](../locations/wojewodas-house.md). NPC State Change: Irena grows watchful of the committee (unless flood is openly disclosed).
+
 ## Bond
 
 - [ ] Share a piece of information with her that her husband withheld — prove the players trust her

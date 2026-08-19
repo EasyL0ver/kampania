@@ -71,7 +71,38 @@
 
 <!-- Character-bound actions: leverage, earn trust, confront, interview.
      Omit the section if the character has no player-facing actions.
-     Format: actions-and-opportunities.md -->
+     Format: actions-and-opportunities.md
+
+     LENGTH: Outcome is 1-2 sentences. Storytelling is fine, but short.
+
+     STAY IN SCOPE. Write ONLY what the player learns/sees in THIS action, from
+     THIS NPC, right now. Do NOT add:
+       - What "the record"/deed/another file says, unless the player is holding
+         it in this action. (e.g. Ciotka names the sołtys as owner — do NOT
+         narrate the forged PGR deed; that contradiction lives in the clue.)
+       - Cross-references to other clues, items, or NPCs "behind the door"
+         (e.g. do NOT write "the soldier's pistol stays inside").
+       - GM conclusions about the NPC's psychology, EVER. No "practised",
+         "controlling", "not nervous", "he just doesn't answer to anyone".
+         Describe only what the NPC does or says. The GM reads motive themselves.
+       - Consequences that belong to a different scene/action.
+     If a fact isn't delivered by this exact action, it does not go here.
+
+     Nearly every villager has these two standard committee actions. Change only
+     the Outcome/Gives to this NPC's real answer. If the answer IS a clue, name
+     it in Gives. If they refuse, log the gap. -->
+
+### Census interview
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** [1-2 sentences — their answer / tell / refusal, nothing else]
+- **Gives:** Census data — [who]. [+ clue-id if any]
+
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** [1-2 sentences — their answer / tell / refusal, nothing else]
+- **Gives:** Property record — [what]. [+ clue-id if any]
 
 ## Bond
 

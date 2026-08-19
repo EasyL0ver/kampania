@@ -50,6 +50,22 @@ Raspy warm voice — a storyteller's instrument, gets louder and funnier with dr
   - **Third visit:** He's barely holding together. → See [event-wujas-cracks](../events/wujas-cracks.md)
 - **Gives:** → [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
 
+### Census interview
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Gives his name and age, but the questions make him twitchy — reaches for the bottle, wants it over fast. **Read:** not nervous about the census; nervous about being asked anything at all.
+- **If drunk:** He turns it into a performance — booms out an absurd answer and grins. Roll or pick:
+  - Lists his occupation as "artist of the village" and demands the committee write it exactly so.
+  - Names half the village as his dependents, then the PGR's cattle, then Comrade Gomułka himself.
+- **Gives:** Census data — Tadek Gajda, no fixed household.
+
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Owns nothing. Drifts between his siblings' kitchens and the still; no house, no land to his name.
+- **If drunk:** Claims a grand estate — the still is his "distillery," and [his brother's house](../locations/wojewodas-house.md) is really his, he just lets Zbyszek keep it warm. Offers to deed the committee a hectare of moonlight if they toast with him first.
+- **Gives:** Property record — Tadek holds no property, dependent on family.
+
 ## Bond
 
 - [ ] Share a drink with him and match his pace — don't nurse it, don't judge

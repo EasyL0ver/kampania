@@ -46,6 +46,18 @@ Blunt and tired, not tearful — a working woman stating her case, not begging. 
 
 ## Actions
 
+### Census interview
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Answers plainly — herself, in her husband's family farmhouse.
+- **Gives:** Census data — %SISTER%, in her husband's household.
+
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** No deed — she claims the border strip by years of labour and names her brother's paper as the theft. Puts the [boundary dispute](dispute-brother.md) in front of the committee from her side.
+- **Gives:** Property record — %SISTER% claims the disputed strip by use, no title. Surfaces the dispute.
+
 ### Take her plea seriously
 - **Requires:** The committee engages with her side of the dispute — hears her out as a claimant, not a nuisance (**Sweettalk** or **Read** gets past her guard faster; simply *taking her side* is enough)
 - **Cost:** 1 card

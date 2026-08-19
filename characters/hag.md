@@ -35,9 +35,21 @@ Speaks rarely, a dry rasp unused for days at a time. Slips between Polish and Le
 
 - **[Stanisław Rezeń](butcher.md)** — I know exactly who he is. The local boy from the next valley who helped the soldiers in 1947. I've watched his footprints at the well for twenty years. I hate him with the slow, patient hatred of a woman who has nothing left but vigil. He is the well's corruption — I am its ward. One day the balance will break.
 
-## Bond
+## Actions
 
-- [ ] Speak a Lemko greeting or phrase — show you know the old language exists
+### Census interview
+- **Requires:** She trusts the players not to harm her (see [Bond](#bond))
+- **Cost:** 1 action
+- **Outcome:** Once she trusts them she gives her name — Paraskewia Chyłak — freely. To anyone she doesn't, she simply never appears.
+- **Gives:** Census data — Paraskewia Chyłak, Lemko, living in the forest.
+
+### Property assessment
+- **Requires:** She trusts the players (see [Bond](#bond))
+- **Cost:** 1 action
+- **Outcome:** Shows them the cabin without fuss — a tiny hut she built and has lived in for twenty years.
+- **Gives:** Property record — [Hag's cabin](../locations/hags-cabin.md), hers by occupation, no title.
+
+## Bond
 - [ ] Approach her cabin openly and wait at the treeline — don't barge in
 - [ ] Show respect for the dead — acknowledge the old graves, the missing families, Dmytro
 

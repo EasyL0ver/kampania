@@ -39,8 +39,21 @@ Hands are the only alive part of him — long-fingered, always stained with cadm
 - **[Helena Rzepka](matrona.md)** — His wife. Married him after the lynch, despite everything. He can't tell if it was mercy or punishment. Probably both. She runs the household, runs him, and he lets her because the alternative is making a decision, and he can't do that anymore. Grateful and terrified in equal measure.
 - **Hania Barnaś** — Missing thirteen years and still the only face he can paint. The secret portrait in the attic is the only honest thing left in his life. He loved her. He believes he got her killed. Those two facts are the same fact — and he never suspects how literally true it is.
 
-## Bond
+## Actions
 
+### Census interview
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Answers in a near-whisper, eyes down, and glances at [Helena](matrona.md) before every reply. If she's in the room she answers for him and he lets her.
+- **Gives:** Census data — Emil Rzepka, painter, in the Rzepka household.
+
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Says the house isn't his — it's Helena's. States it plainly, like a man used to owning nothing.
+- **Gives:** Property record — Rzepka house, held in Helena's name.
+
+## Bond
 - [ ] Notice and comment on one of his paintings — ask about the subject or the colors
 - [ ] Speak softly and give him physical space — don't corner him or stand over him
 - [ ] Visit him a second time without asking about the past — just be present

@@ -40,6 +40,20 @@ A cigarette permanently between his lips or behind his ear. Speaks fast when ang
 - **[Barbara Kopacz](barbara.md)** — Lover. The only good thing in this village. She doesn't ask about family business, doesn't push. When he's with her, he can stop being a Gajda for an hour.
 - **`wujas-is-guilty`:** Hits him like a punch. Defensive first — "Guilty of what? Being a drunk?" Then quiet. He already suspected; hearing it confirmed makes it real. Wants to know more, badly.
 
+## Actions
+
+### Census interview
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Smirks, gives name and age, treats the whole thing as a joke. Answers for himself only.
+- **Gives:** Census data — Marek Gajda, in his father's household.
+
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Owns nothing — lives under his father's roof. Waves it off.
+- **Gives:** Property record — no property of his own; [Zbigniew's house](../locations/wojewodas-house.md).
+
 ## Bond
 
 - [ ] Talk to him about life in the city — Warsaw, Kraków, anywhere that isn't here

@@ -55,6 +55,18 @@ Voice surprisingly soft for his size. Smiles at kindness with a processing delay
 - **Outcome:** He calls Janina "ciocia" — auntie, not mama. When asked about his real parents — he doesn't understand the question. Not evasion, not pain. Just nothing. The concept doesn't exist for him. He confirms he's only ever had ciocia — no memory of anyone before her.
 - **Gives:** Confirms `ciotka-not-mother` indirectly. He doesn't know he's giving anything away — the word "ciocia" does it for him.
 
+### Census interview
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Short, willing answers — his name, that he lives with ciocia. May not know his own age; looks to Janina, who answers for him.
+- **Gives:** Census data — Edek Barnaś, in Janina Gajda's household.
+
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Doesn't understand the question. Owns nothing — it's ciocia's house.
+- **Gives:** Property record — no property held; dependent in [Janina's house](../locations/ciotkas-house.md).
+
 ## Bond
 
 - [ ] Talk to him directly — not through Ciotka, not about him in third person while he's there

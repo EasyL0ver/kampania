@@ -46,7 +46,7 @@ Her public voice is thin and breathy, barely audible. When frightened she goes c
 
 ## Actions
 
-### Census visit — interview Janina
+### Census interview
 - **Requires:** Committee authority
 - **Cost:** 1 action
 - **Outcome:** She's practised at this — 13 years of quiet, consistent lies. Lists herself as mother, [Edward Barnaś](soldier.md) as the father — left the village. Abandoned his family. The boy is hers. The house is hers. Consistent with what everyone else says. Players have no reason to doubt it — a single mother, an absent father, a disabled son. Sad but ordinary.
@@ -64,9 +64,13 @@ Her public voice is thin and breathy, barely audible. When frightened she goes c
 - **Outcome:** She doesn't break. She doesn't confess. She will NEVER tell government strangers what happened — they are the ones who could take Edek away. But under enough emotional pressure, she slips. One line, choked out: *"I couldn't let them hurt him."* Or *"He was just a boy."* Or her eyes fill when players mention 1954 and she can't hide it fast enough. She catches herself, shuts down, won't speak again that visit.
 - **Gives:** At most → [ciotka-saved-glupek](../clues/clues.md#ciotka-saved-glupek) — but only the fact that she intervened, not who was doing what or why. She never names names. She never describes the night. The full truth lives with the [priest](priest.md) — she gave it to him over 13 years of confession, not to strangers in one afternoon.
 
-## Bond
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** *"It's my brother's — the sołtys's. He gave it to me."* No deed, no claim of her own — she names Zbigniew as the owner.
+- **Gives:** Property record — no title in her name; plus [ciotka-house-is-wojewodas](../clues/clues.md#ciotka-house-is-wojewodas).
 
-- [ ] Approach Edek gently — crouch to his level, speak softly, don't grab or startle him
+## Bond
 - [ ] Ask Janina about the old ways — herbs, customs, anything from before
 - [ ] Arrive without official bearing — no clipboard, no demands, no government tone
 

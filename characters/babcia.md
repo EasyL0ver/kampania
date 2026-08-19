@@ -67,6 +67,18 @@ All interactions with Babcia take place at [Barbara's house](../locations/barbar
 - **Gives:** [babcia-has-the-words](../clues/clues.md#babcia-has-the-words).
 - **GM note:** Translate her fragments literally. Don't explain what panakhyda is. Don't say "death rites." Just give them the words. If they figure out what she's doing, that's on them.
 
+### Census interview
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Useless from her directly — she answers with a dead person's name, slides into Lemko, or tells you to get out. [Barbara](barbara.md) supplies her details instead.
+- **Gives:** Census data (via Barbara) — Stefania Kopacz, in the Kopacz household.
+
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Owns nothing — she lives in her daughter's house. If she registers the question at all, she waves it off as none of your business.
+- **Gives:** Property record — no property held; dependent in [Barbara's house](../locations/barbaras-house.md).
+
 ## Bond
 
 - [ ] Attempt a Lemko word or phrase — even badly, even just "dobryj den"

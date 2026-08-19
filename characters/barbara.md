@@ -59,6 +59,12 @@ Never whispers — her voice carries across the whole yard, which is why every p
 - **Outcome:** She cracks. Names **Marek Gajda** — she believes it's true. Begs the players not to write it down. *"Please. He doesn't even know. His father would — please."* If they record it, Wojewoda sees the census form. She's warm again next visit regardless.
 - **Gives:** [marek-is-paweleks-father](../clues/clues.md#marek-is-paweleks-father).
 
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** She names the red-brick house and small plot as hers, papers vague. Pressed on who built or pays for it, she goes quiet — the same wall as the father.
+- **Gives:** Property record — Barbara's house and plot. **Observation:** a labourer's income didn't build this. **Gives:** [barbara-has-help](../clues/clues.md#barbara-has-help)
+
 ### Ask about the village
 - **Requires:** Any visit (she volunteers this stuff freely)
 - **Cost:** Free

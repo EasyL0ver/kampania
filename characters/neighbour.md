@@ -100,6 +100,13 @@ While Humiliated:
 - **Requires:** Committee authority
 - **Cost:** 1 action
 - **Outcome:** Hostile at first — government people flooding his home. But he cooperates. Standard form, standard answers. If he doesn't like the players — forms filled, door closed. Nothing extra.
+- **Gives:** Census data — Ryszard Dudka, farmer.
+
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** His own house and plot, next to [Janina's](../locations/ciotkas-house.md). Papers in order, answers clipped.
+- **Gives:** Property record — Dudka house and farmland.
 
 ### Ask about Janka
 - **Requires:** He liked the players. They mention Janina, Edek, or the house next door.

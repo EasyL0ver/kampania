@@ -46,6 +46,18 @@ Speaks plainly and without heat, the way a man does when he knows the rules are 
 
 ## Actions
 
+### Census interview
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Cooperative but often on the road — catch him at odd hours. Plain answers: himself, his late father's house.
+- **Gives:** Census data — %BROTHER%, lorry driver, in his father's house.
+
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Produces his father's deed — the house and the border strip, plainly inside the line. Notes his sister farms the strip but the paper is his. This is where the [boundary dispute](dispute-sister.md) lands on the committee's desk.
+- **Gives:** Property record — %BROTHER% holds the deed to the house and disputed strip. Surfaces the dispute → see the ruling actions below.
+
 ### Rule the boundary his way (uphold the deed)
 - **Requires:** The committee settles the disputed strip in the compensation assessment
 - **Cost:** Part of the committee's report work (no extra card)

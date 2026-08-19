@@ -83,6 +83,18 @@ He knows **nothing** of the old village, the massacre, or the well. His quarrel 
 - **Outcome:** He lights up — the one subject that isn't politics. He'll happily point you toward Tadek's crew and the treeline, no coaxing needed.
 - **Gives:** [`drinking-crew-heads-to-forest`](../clues/clues.md#drinking-crew-heads-to-forest)
 
+### Census interview
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** The census sets him off — the state counting him again. He gives name and age wrapped in a tirade about the teaching post they took and the years they gave him for "agitation." The data comes with contempt.
+- **Gives:** Census data — %RADIOMAN%, former schoolteacher.
+
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Gestures at the falling-down cottage the state parked him in. *"Assess it. Put a number on what they think I'm worth."*
+- **Gives:** Property record — run-down state-assigned cottage.
+
 ## Bond
 
 - [ ] Hear out a full tirade without mocking him or walking off

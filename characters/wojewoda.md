@@ -48,6 +48,20 @@ Voice deep and unhurried. When angry, goes very still and very quiet — the tem
 
 ## Actions
 
+### Census interview
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Helpful and easy — gives the whole household's details himself so you needn't bother them.
+- **Gives:** Census data — Zbigniew, [Irena](wife.md), [Marek](junior.md).
+
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Names his house and land, papers in order. Straightforward — **unless he doesn't yet know about the flood.** Then a census asking *property values* makes him suspicious on the spot: *"Why are you valuing land? What's this really for?"*
+  - **Sweettalk / Delegate** (a convincing reason — audit, standard procedure): he buys it, drops it.
+  - **No convincing cover:** NPC State Change — Zbigniew concludes the committee is hiding something and goes [alert](#tell-about-the-flood-risk) — watching where you go and what you measure.
+- **Gives:** Property record — sołtys's house, clean title.
+
 ### Ask for the maps
 - **Requires:** Nothing
 - **Cost:** Free

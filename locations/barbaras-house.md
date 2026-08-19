@@ -8,7 +8,7 @@
 
 ## Setup
 
-The smallest house in the village — one room with a curtain dividing the sleeping area, a wood stove, a table, two chairs. Clean but bare. No decorations except a Catholic cross on the wall — and every mirror in the house is covered with cloth. All of them. Old rags, towels, a scrap of curtain. The coverings are yellowed with age. Nobody has seen their reflection in this house for twenty years.
+The smallest house in the village — one room with a curtain dividing the sleeping area, a wood stove, a table, two chairs. Clean but bare. Small, but built of **red brick** — the only brick house in a village of timber huts. No decorations except a Catholic cross on the wall — and every mirror in the house is covered with cloth. All of them. Old rags, towels, a scrap of curtain. The coverings are yellowed with age. Nobody has seen their reflection in this house for twenty years.
 
 Babcia sits by the stove or by the window. She mutters in a language that isn't Polish — half-words, fragments, songs. Pawełek plays on the floor near her, unbothered. He's used to it.
 
@@ -37,7 +37,7 @@ Free — no action cost. The GM weaves these into any visit. If a player has the
   - **Language:** The words Pawełek parrots are real Lemko. Perfect pronunciation from a child who has no idea what he's saying.
   - **Gives:** Atmosphere.
 
-- **The house itself** — Too well-built for what Barbara could afford. Solid timber, proper foundation, tight joints. Someone built this for her.
+- **The house itself** — Too well-built for what Barbara could afford. Red brick, proper foundation, tight work — the only brick house among timber huts. Someone built this for her.
   - **Engineering:** Professional eye — PGR materials, PGR tools. Whoever built this had access to state resources.
   - **Observation:** Discrepancy between Barbara's poverty (two chairs, no decorations) and the house's construction quality.
   - **Gives:** [barbara-has-help](../clues/clues.md#barbara-has-help)

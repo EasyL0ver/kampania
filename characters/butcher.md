@@ -43,6 +43,18 @@ Warm baritone pitched for an audience — always performing, always working the 
 
 ## Actions
 
+### Census interview
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Treats the form as a game — name and age, then turns every question back on you with a grin. **Read:** not nervous.
+- **Gives:** Census data — Rezeń, name and age only; rest blank.
+
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Refuses. *"My house is my house. Mind the dogs."* Push it and the dogs stand up.
+- **Gives:** Property record — refusal logged, nothing assessed.
+
 ### Confront Rezeń (after confrontation)
 - **Requires:** Tracked the dogs from the [well](../locations/the-well.md) OR already suspect him
 - **Cost:** 1 action

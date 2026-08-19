@@ -38,6 +38,18 @@ Voice is a commanding bark with a Podkarpacie drawl. Doesn't waste words — whe
 
 ## Actions
 
+### Census interview
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Cooperative, quick — gives himself, Zofia, and son Staszek.
+- **Gives:** Census data — Michał, Zofia, Staszek.
+
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Owns nothing — he lives in PGR quarters, the farm is state land. Finds the land-value questions odd and mentions them to [Zbigniew](wojewoda.md).
+- **Gives:** Property record — none; PGR housing. If Zbigniew doesn't yet know about the flood → he turns [alert](wojewoda.md#property-assessment), suspicious the committee is hiding something.
+
 ### Press him about Tadeusz Mazur
 - **Requires:** A reason to name Mazur — the [PGR ledger](../items/pgr-ledger.md) showing a worker nobody answers to, or [Wanda Mazur](widow.md)'s account of her "pension"
 - **Cost:** 1 card

@@ -58,6 +58,18 @@ Warm carrying voice, calls everyone "child" regardless of age. As the well takes
   - **Read:** This is the only key that fits the lock. Not force, not reason — her.
 - **Gives:** World State Change — Michał comes home *human* and survives; the flood defense collapses and the [engineering ending](../events/foreman-saves-village.md) closes. He lives; she keeps him. The valley is lost and the family is not.
 
+### Census interview
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** Cheerful and complete — feeds you first, answers everything, volunteers more than you asked. The easiest interview after Barbara.
+- **Gives:** Census data — Zofia, [Michał](foreman.md), Staszek Pytlak.
+
+### Property assessment
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** They own nothing — the house comes with Michał's PGR post. Says it without a trace of shame.
+- **Gives:** Property record — no property held; PGR-provided housing.
+
 ## Bond
 
 - [ ] Listen to her fears about Michał without dismissing them — take her seriously
