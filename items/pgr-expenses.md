@@ -2,7 +2,7 @@
 
 **Type:** Item — farm expense journal (document)
 **Source:** PGR Office desk, via the "Inspect the farm books" action → [PGR Office](../locations/pgr-office.md)
-**Carried:** Financial evidence. Two things hide in the mundane entries: the timing of a death at the grain silo, and the only appearance of Marta Konieczna's full name.
+**Carried:** Financial evidence. Three things hide in the mundane entries: the timing of a death at the grain silo, the only appearance of Marta Konieczna's full name, and the state money that built Barbara's brick house.
 
 ## Description
 
@@ -58,7 +58,9 @@ Date        Payee / Description                                    Amount
 
                          — 1960 —
 17.01.1960  Spółdzielnia Lesko — winter feed supplement              950 zł
+09.03.1960  Cegielnia Zagórz — red brick, 4,000 units              1,520 zł
 14.04.1960  Pawlak, Henryk — harness and leather repair              170 zł
+28.04.1960  Bryła, Stefan — masonry, worker housing               1,340 zł
 06.06.1960  Rezeń, Stanisław — spring slaughter, 2 cattle           340 zł
 22.09.1960  Veterinary cooperative — tuberculosis testing            280 zł
 
@@ -93,3 +95,9 @@ Date        Payee / Description                                    Amount
 - **Requires:** Holding the journal
 - **Cost:** 1 card
 - **Outcome:** A single 1953 payment: "Konieczna, Marta — mending work clothes." Her initials, M.K., match the love letters from the [buried cache at Ciotka's house](../locations/ciotkas-house.md). This is the only place her full name is written down. It corroborates the M.K. thread and gives players the surname they need to trace [Marta Konieczna](../characters/soldier.md) as a living witness.
+
+### Trace the brick and masonry (Investigation)
+- **Requires:** Holding the journal
+- **Cost:** 1 card
+- **Outcome:** 1960: the farm buys 4,000 red bricks and pays a mason for "worker housing" — the only brick spending in the ledger. The village has one brick house: [Barbara Kopacz](../characters/barbara.md)'s. State money built a labourer's house.
+- **Gives:** [barbara-has-help](../clues/clues.md#barbara-has-help)
