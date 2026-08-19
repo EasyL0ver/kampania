@@ -34,6 +34,14 @@ Drives a black Warszawa M-20. Smells of cheap state cologne. Voice quiet, contro
 - **[Zbigniew Gajda](wojewoda.md)** — My informant. A useful tool — competent, self-interested, controllable. He reports to me, keeps order, ensures nobody asks wrong questions. In return he enjoys state backing. A functional arrangement. I don't trust him — I trust the leverage.
 - **[ks. Władysław Pająk](priest.md)** — Contempt. The Church is a relic, a rival power structure. In Bieszczady, where state grip is weak, a village priest holds real influence, and that grates. I've shown my contempt through paperwork complications, veiled threats, reminders that the state tolerates religion only while it stays quiet. I'd love a reason to shut the parish down. We're accidentally aligned on village silence — but I would never cooperate with a priest.
 
+## Actions
+
+### Have him trace Marta
+- **Requires:** Marta's full name; a phone or a visit
+- **Cost:** 1 action
+- **Outcome:** A Polish resettler is no threat to him. He runs her through the agency and returns an address: Marta Konieczna, nurse, Legnica.
+- **Gives:** [marta-in-legnica](../clues/clues.md#marta-in-legnica)
+
 ## Bond
 
 - [ ] Share information about your investigation freely when he asks — hold nothing back

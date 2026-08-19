@@ -10,7 +10,7 @@
 - **Heritage:** Lemko (hidden behind Polish identity)
 - **Lives in:** [Zbigniew Gajda's house](../locations/wojewodas-house.md) — with [Irena Gajda](wife.md), [Marek Gajda](junior.md); [Tadek Gajda](wujas.md) crashes here
 - **Settled:** ~1948 — first wave, founded the village
-- **Armed:** Sołtys's pistol (locked in office, loaded)
+- **Armed:** Sołtys's pistol (in the office safe, loaded)
 
 ## Character
 
