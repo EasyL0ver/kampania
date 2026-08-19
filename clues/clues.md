@@ -440,7 +440,7 @@ Tadek Gajda and his crew regularly head into the treeline with bottles. They're 
 Traces of old wartime positions in the forest — collapsed dugouts, rusted metal. Someone was here during the war.
 
 ### bimber-still
-[Tadek Gajda](../characters/secondary-characters.md)'s crew runs an illegal bimber still in the [forest](../locations/old-village-ruins.md), halfway between the villages. Just moonshine — not the murder conspiracy. [Zbigniew Gajda](../characters/wojewoda.md) knows and tolerates it. [Helena Rzepka](../characters/matrona.md) supplies sugar through the store.
+[Tadek Gajda](../characters/wujas.md)'s crew runs an illegal bimber still in the [forest](../locations/old-village-ruins.md), halfway between the villages. Just moonshine — not the murder conspiracy. [Zbigniew Gajda](../characters/wojewoda.md) knows and tolerates it. [Helena Rzepka](../characters/matrona.md) supplies sugar through the store.
 
 ### store-has-drug-cabinet
 [Helena Rzepka](../characters/matrona.md)'s [store](../locations/the-store.md) has a locked pharmaceutical cabinet — a *szafka apteczna*, standard PRL distribution point. Helena holds the only key. [Halina](../characters/secondary-characters.md) can't open it.
