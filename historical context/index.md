@@ -17,3 +17,4 @@
 - [Waterborne Illness and Rural Medicine in PRL](15-waterborne-illness-and-rural-medicine.md)
 - [Land, Abandoned Farms & "Departure" Paperwork](16-land-transfer-abandoned-farms.md)
 - [Death Customs, Corpse Storage & Decomposition in Rural PRL](17-death-customs-and-decomposition.md)
+- [Bieszczady Terrain — Ridges, Water-Gaps & Landslide Dams](18-bieszczady-terrain-and-landslides.md)

@@ -346,6 +346,18 @@ PGR workers exchange glances when asked about accidents. "The barn's been fixed 
 ### new-village-will-flood
 The survey at the village outskirts confirms it: %NEW_VILLAGE% will flood. Hard data — water table measurements, rock composition, flood projections. Not speculation, proof.
 
+### flood-cause-plugged-gap
+A ridge separates the low old-village valley from %NEW_VILLAGE%. The state's map shows a water-gap through that ridge as open — but an old landslide has plugged it with loose debris. The floodwater can't drain through to the low basin, so it backs up onto %NEW_VILLAGE% instead. The map was right when drawn and went obsolete when the slide closed the gap. Reopening the gap would send the water where the map always assumed it went.
+
+### southern-approach-safe
+The land south of %NEW_VILLAGE% runs down into a long, mild depression — the obvious place for a rising river to spread. The survey confirms the map: water reaching it stays shallow and drains off, never climbing to the houses. From the south, the village is safe.
+
+### old-village-basin-is-the-low-sink
+The old-village valley is the lowest ground in the area — the natural basin all the water wants to drain into. It matches the map exactly. Empty ruins now; it will take the water whether or not anyone acts.
+
+### new-village-sits-above-flood-line
+By the map's own elevations, %NEW_VILLAGE% sits above the flood line on firm ground. On paper the village is safe — provided the water can drain away through the ridge as the map assumes.
+
 ### wojewoda-already-suspects-flooding
 [Zbigniew Gajda](../characters/wojewoda.md) already suspects the flood is coming before the committee arrives. He sees it as an opportunity — water swallows the evidence.
 

@@ -21,6 +21,7 @@
 - [Well Confrontation](well-confrontation.md)
 - [Performing the Ritual](the-ritual.md)
 - [The Flood](the-flood.md)
+- [The Disclosure](the-disclosure.md)
 - [Operator Refuses Help](operator-refuses-help.md)
 - [Foreman's Flood Fight](foremans-flood-fight.md)
 - [Foreman Saves Village](foreman-saves-village.md)

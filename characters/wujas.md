@@ -12,7 +12,7 @@
 
 ## Character
 
-Alcoholic wreck. Participated in the lynch — beat Hania and helped kill her father, then saw her run and never went after her. Drowning it in bimber for 13 years. The weakest link in the cover-up.
+Alcoholic wreck. Participated in the lynch — beat Hania and helped kill her father, then saw her run and never went after her. Drowning it in bimber for 13 years. The weakest link in the cover-up. Plays the harmonia — the village accordion — the old way: weddings, name-days, drinking songs, the same three tunes getting sloppier and more maudlin as the bottle empties. An instrument of celebration gone sour, just like him.
 
 ## Appearance
 

@@ -10,6 +10,16 @@ The key word is **could**. prof. Tadeusz Bieńkowski doesn't have enough data to
 
 The committee is sent to prepare for the worst case while the geologist determines the truth on the ground.
 
+## The Physical Cause — The Plugged Water-Gap
+
+The reason %NEW_VILLAGE% is in danger is a specific piece of terrain (full detail: [Bieszczady Terrain — Ridges, Water-Gaps & Landslide Dams](../historical%20context/18-bieszczady-terrain-and-landslides.md)).
+
+A **sandstone ridge** separates the lower [old-village](../locations/old-village-ruins.md) valley — the natural low basin — from the [%NEW_VILLAGE%](../locations/wojewodas-house.md) valley on the river's flood path. The ridge has a **natural water-gap (przełom)** through it. On the state's map, that gap is **open**, so floodwater drains through into the low basin and the new village sits safe above it.
+
+But since that old military map was drawn, an **old landslide (osuwisko) plugged the gap** with loose debris — ordinary Bieszczady behaviour, the same mechanism that dammed the Olchowaty valley at Zwiezło in 1907. The plug seals the drainage. The swollen river can no longer pass through to the low basin, so it **backs up and rises onto %NEW_VILLAGE% instead.**
+
+**This is the miscalculation.** The state planned off a map that was correct once and quietly went obsolete — it shows the gap open; the plug that closed it was never recorded. Honest negligence, not stupidity. The geologist's field survey is what catches the difference between the paper and the ground. And the same feature is the [engineering fix](../events/foreman-saves-village.md): blow the loose plug, reopen the gap, send the water where the map always assumed it went.
+
 ## Historical Basis
 
 ⚠️ *Fictionalized but grounded in real events:*
