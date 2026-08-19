@@ -34,7 +34,10 @@ There's an old, abandoned village in the forest — [%OLD_VILLAGE%](../locations
 [%OLD_VILLAGE%](../locations/old-village-ruins.md) was a Lemko settlement — Greek Catholic, with a cerkiew, orchards, and a tightly-knit community.
 
 ### massacre-happened
-In 1947, soldiers came to deport the Lemkos from [%OLD_VILLAGE%](../locations/old-village-ruins.md). The villagers resisted. A UPA insurgent shot the commanding officer. The enraged soldiers massacred the entire village in retribution.
+In 1947, the Lemko villagers of [%OLD_VILLAGE%](../locations/old-village-ruins.md) were killed — the whole village, in a single act of violence. They did not "evacuate." They were massacred.
+
+### massacre-was-retribution
+The killing was not ordered or planned. Soldiers came to deport the villagers; the villagers resisted; the commanding officer was shot dead; and the enraged soldiers massacred the entire village in retribution.
 
 ### massacre-was-covered-up
 The massacre was never reported. The soldiers covered it up to hide their failure — a dead captain and an unauthorized massacre meant courts-martial. The village was filed as "evacuated successfully."
@@ -432,6 +435,9 @@ Villagers blame [Paraskewia Chyłak](../characters/hag.md) for the wolf attacks.
 
 ### foreman-coverup
 [Michał Pytlak](../characters/foreman.md) and [Zbigniew Gajda](../characters/wojewoda.md) covered up a preventable death on the PGR farm. Tadeusz Mazur died ~1965 — never reported to the state. His wages still flow to [Wanda Mazur](../characters/widow.md) as a fake "widow's pension." She doesn't know. The village doesn't know the death was never filed. Same mechanism as the lynch: bury the truth, keep outsiders away.
+
+### wojewoda-talks-to-sb
+[Zbigniew Gajda](../characters/wojewoda.md) meets privately with [the man in the black car](../characters/officer.md) every time he comes — the sołtys reports to the SB. He is the state's ear in the village.
 
 ### drinking-crew-heads-to-forest
 Tadek Gajda and his crew regularly head into the treeline with bottles. They're going somewhere in the forest.

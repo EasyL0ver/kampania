@@ -19,3 +19,5 @@
 - [por. Witold Skowron (Officer)](officer.md)
 - [Emil Rzepka (Painter)](painter.md)
 - [Wanda Mazur (Widow)](widow.md)
+- [%BROTHER% (land-dispute — the heir)](dispute-brother.md)
+- [%SISTER% (land-dispute — works the strip)](dispute-sister.md)

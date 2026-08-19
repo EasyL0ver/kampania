@@ -14,6 +14,8 @@
 
 PGR cook. The warmest person in the village — feeds everyone, makes people feel welcome. Knows about the silo cover-up and has quietly wanted Michał to tell the truth for two years. When the flood comes she's the one warm voice for **letting go**: the water wins, save the living, grieve the place. She loves Michał for fighting it and knows he can't win.
 
+The village's **settler conscience.** A Polish incomer who never quite shook the feeling that she lives on someone else's ground — the emptied Lemko valley her people moved into. She knows nothing of the massacre or the well; her unease is diffuse and moral, not evidential — the abandoned cerkiew, the roadside shrines nobody tends, the sense that the mountains were emptied of a people before she got here. It's the same instinct as her flood grief, pointed backward: she mourns the vanished the way she'll mourn the drowning.
+
 ## Appearance
 
 - **Clothes:** Flour-dusted apron over a faded print dress — always looks like she just left the stove
@@ -38,6 +40,7 @@ Warm carrying voice, calls everyone "child" regardless of age. As the well takes
 - **[Irena Gajda](wife.md)** — The sołtys's wife. Calculating where Zofia is open. Zofia senses the sharpness behind Irena's polite questions but doesn't guard herself — openness is all she knows.
 - **[Barbara Kopacz](barbara.md)** — Works on the farm. Zofia is kind to her without pity — treats her as a person, asks about her day, saves her the good bread. One of the few who does.
 - **[Wanda Mazur](widow.md)** — Both PGR wives. Zofia knows the truth about Wanda's "pension" — phantom wages from a dead man's ledger entry. Being kind to Wanda costs her every time, carrying that knowledge and smiling through it.
+- **[%OLD_VILLAGE%](../locations/old-village-ruins.md)** — I've never gone up there and I don't like those who do. There was a whole village once — a church, people, their dead in the ground — and one day there wasn't, and we took the empty fields and asked no questions. Nobody says what happened to them. I light a candle for them sometimes. It never felt like ours to keep, and now the water's coming to take it back. Maybe that's fair.
 
 ## Actions
 

@@ -6,6 +6,8 @@
 
 Tadek Gajda and his drinking crew (Szymek Kępa, Romek Głowacz, Franek Mucha) run an illegal moonshine (bimber) operation deep in the forest between %NEW_VILLAGE% and %OLD_VILLAGE%. A crude copper still hidden under camouflage netting near a stream, surrounded by empty sugar sacks, barrels, and firewood.
 
+The drunk ex-schoolteacher [%RADIOMAN%](../characters/radioman.md) drinks with them but works the still with nobody — he's there for the bottle and the company, Tadek's one honest friend. He's a hanger-on, not an operator; he doesn't guard the secret, and he'll cheerfully point outsiders toward the treeline where the good stuff comes from.
+
 ## Location
 
 A small clearing off one of the forest paths, roughly halfway between the two villages. Deliberately placed away from both — far enough from %NEW_VILLAGE% that the smoke isn't visible, close enough to the stream for water supply. The path to it is subtle but worn — someone who looks carefully at foot traffic in the forest will find it.

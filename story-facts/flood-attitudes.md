@@ -54,6 +54,8 @@ He's 4. Doesn't understand any of it.
 
 **Unfriendly by default.** Government people. Communists, probably. Polite but cold. Unhelpful. The key to unlocking him is faith — genuine belief, respect for scripture, respect for his role. Without that, players get nothing. **Can call a lynch on the players** if they push too hard — a sermon, a word to the right people. The same authority that keeps the peace can break it.
 
+*The flood-as-judgment voice (WIP — to be fleshed out in the mass events).* He is the one character who reads the water as reckoning, not engineering — a Deluge washing clean a village built over a mass grave he alone knows the full weight of. As it rises his coldness cracks toward the apocalyptic. Interpretation only; it reveals no fact.
+
 ## Emil Rzepka (Painter)
 
 **Secretly wants Hania Barnaś in the census.** Won't say it — Helena would destroy him. But when the government starts writing names, something in him wants to say: *there was a woman named Hania Barnaś. She lived here. Write her down.* The census is the last record before the flood erases this place. If players get him truly alone — away from Helena — this is what comes out.

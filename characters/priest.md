@@ -13,6 +13,8 @@
 
 Roman Catholic priest, arrived after the lynch. Knows everything through 13 years of confessions — primarily from Janina. Has chosen silence. The final bottleneck for the Lemko ritual.
 
+<!-- GM — the flood-as-divine-judgment voice (WIP): he is the one character who reads the coming water as reckoning, not engineering. He alone carries the full account of the village's blood-guilt (the massacre, the lynch) from the confessional, and a flood drowning a village built over a mass grave is Noah, the Deluge, Sodom — a biblical washing-clean he cannot say plainly without breaking the seal. As the water rises his political coldness cracks toward the apocalyptic: sermons that edge from "evacuate in order" toward "this is judgment on us." Nobody else in the cast voices this. TODO: flesh out in the mass / holy-mass events ([holy-mass.md](../events/holy-mass.md)) — the register shift, what he says from the pulpit, and whether the players can read it as accusation. Contained: it is interpretation, never evidence — it reveals no fact about 1947/1954. -->
+
 ## Appearance
 
 - **Clothes:** Black cassock daily, brushed, collar a stark white line; in cold weather a heavy wool overcoat and black beret
