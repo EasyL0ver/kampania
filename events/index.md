@@ -16,6 +16,7 @@
 - [Ciotka Found Dead](ciotka-found-dead.md)
 - [Rezeń Takes the Body](rezen-takes-the-body.md)
 - [Barbara Warns the Players](barbara-warns-the-players.md)
+- [Coffee at Helena's](coffee-at-helenas.md)
 - [Wujas Cracks](wujas-cracks.md)
 - [Wujas Visits Butcher](wujas-visits-butcher.md)
 - [Painter & Matrona](painter-matrona.md)
