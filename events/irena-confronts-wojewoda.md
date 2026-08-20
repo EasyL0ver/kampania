@@ -1,7 +1,7 @@
 # Irena Confronts the Wojewoda
 
 **Location:** [Zbigniew Gajda's house](../locations/wojewodas-house.md) — behind a closed door
-**Present:** [Zbigniew Gajda](../characters/wojewoda.md) (unmasked, coming apart), [Irena Gajda](../characters/wife.md) (the repression breaking, then setting into iron)
+**Present:** [Zbigniew Gajda](../characters/wojewoda.md) (unmasked — certain, unrepentant, ready to go public), [Irena Gajda](../characters/wife.md) (not breaking — arguing him down and winning)
 **Available:** When Irena pivots (trigger TBD — see [her mechanics](../characters/wife.md#mechanics)), evening or night. Fires when the household is private — most naturally if the players lodge at the house, or are visiting that evening.
 
 ## Trigger
@@ -14,20 +14,21 @@ Raised voices from behind a closed door — hers first, low and fast and wrong f
 
 ## Setup
 
-The office door, or the bedroom's — shut. Light under it. The pieces come through the wood, and they come in the wrong order for this house — her voice hard and fast, his steady and unafraid. Hers first, the reconstruction she assembled years ago and buried in herself, thrown at him at last:
+The office door, or the bedroom's — shut, and thick. What comes through it is muffled: cadence more than words, the shape of a fight rather than its content. You catch pieces and lose the rest to the wood and the rain.
 
-- *"You were there. You were one of them."*
-- *"Don't you dare tell me you weren't. I've known for years. I made myself not know."*
+Her voice first — hard, fast, low. A woman who never raises her voice is nearly raising it. Fragments surface and sink:
 
-A long silence — then his voice, and it isn't the level, valley-stilling voice he uses on everyone. It's something worse: *certain.* He doesn't deny it and he doesn't flinch. He agrees with her — and then goes somewhere she didn't expect: *"Yes. And I'd do it again. It was needed, and this village knows it was needed. Let it come out. Let them say it to my face. They were there too — every one of them. We did it together and we'll stand together."*
+- *"...you were there..."*
+- *"...known for years... made myself not..."*
 
-And here is the turn the players are not prepared for. He is not breaking. He is *rallying* — a proud, guiltless man deciding it is time to stop hiding, because he is sure the valley will close ranks behind him the way it did thirteen years ago. He is wrong, and only one person in the house can see how wrong. Her voice drops — not pleading, *arguing*, fast and precise, the analyst laying out the one thing his certainty can't:
+Then his. Not the level, valley-stilling voice he uses on everyone — this one is *certain*, and rising, and that is worse than shouting. No sentences carry. What carries is the temperature: a man agreeing with something terrible and not sorry for it. A few words break the surface —
 
-- *"You think it's still 1954. It isn't. Look at them — the water, the well, the way they say Rezeń's name. They don't want the truth. They want a body."*
-- *"Stand up in front of them and they will not stand with you. They will take you, and be grateful it was only one of us. You will hand them the neck they've been looking for."*
-- *"Say nothing. Not to them, not to anyone. I've read this village longer than you've bothered to. Trust me on this if you've never trusted me on anything."*
+- *"...it was needed... they know it was..."*
+- *"...let them say it to my face... we stand together..."*
 
-The silence after is the sound of a proud man being out-thought, and knowing it. She doesn't break him and she doesn't beg him — she *out-reads* him, and he yields to the sharper mind the way he has only ever yielded to Helena. The woman who spent thirteen years trying to make him see her finally makes him see her — as the one whose judgment he trusts over his own. And the price of being seen at last is that she is now his accomplice, welded to the grave with him.
+Then hers again, changed — no longer accusing. *Arguing.* Fast and precise and pressing, driving at him, pushing him off whatever he just reached for. The words don't carry. The urgency does — and under it, once, a shape of a warning: a name said like a threat (*"...Rezeń..."*), the word *"body,"* the word *"1954."* Whatever he wants to do, she is spending everything to stop it.
+
+And by the time the voices drop below hearing, something has settled. Not a marriage breaking. A marriage closing ranks — two people ending up on the same side of a locked door, and a grave behind it. You will not get more than this. The door does not open, and neither of them will ever say it plainly again.
 
 ## Opportunities
 
@@ -36,18 +37,18 @@ The silence after is the sound of a proud man being out-thought, and knowing it.
 
 ## Actions
 
-### Listen at the door
+### Strain to catch it
 - **Requires:** Present in the house when the fight starts
-- **Cost:** Free (but see below) — 1 composure to stay for the whole of it
-- **Outcome:** You hold your place at the door and take in the entire exchange — her reconstruction thrown at him in full: the night, the drink, him and his brother and the butcher, the girl dragged out into the dark. He doesn't correct a single detail — he confirms it, calmly, and calls it necessary, and moves to bring it into the open expecting the village at his back. Then she out-argues him — the well, the mob, the body they're hunting for — and he yields. Standing in a stranger's hallway hearing a man own a murder without a flicker of remorse costs something to witness (1 composure).
-  - **Read:** Every fact she names, she already had. She assembled this years ago and buried it with herself. Tonight she's not discovering it — she's using it, to prove to him she reads the village better than he does, so he'll do the one thing his pride resists: stay quiet.
-- **Gives:** [`three-drunk-attackers`](../clues/clues.md#three-drunk-attackers) + [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
+- **Cost:** Free (but see below) — 1 composure to stay pressed to the wall for the whole of it
+- **Outcome:** You stay, and you strain, and it stays muffled to the end. You never get the clean shape of the crime — no clear list of who did what. What you *do* get, past all doubt, is the emotional truth of it: the sołtys is guilty of something from the old days, he is *not sorry*, he wanted to bring it into the open, and his wife argued him out of it by frightening him about the village. Standing in a stranger's hallway straining to hear a man own a killing without remorse costs something to witness (1 composure).
+  - **Read:** She isn't discovering anything tonight — she already knew. She's *using* what she knew to win an argument: to prove she reads the village better than he does, so he'll do the one thing his pride resists — stay quiet.
+- **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
 
 ### Open the door
 - **Requires:** Present in the house when the fight starts
 - **Cost:** Free
-- **Outcome:** You walk in on it. The fight stops dead. Zbigniew's mask is back before the door finishes swinging — *"A private matter. Goodnight."* — but you saw the half-second before it: him upright and unashamed, mid-argument, and her already on her feet, stepping between him and you, her body turned to shield the man she's just been arguing to silence. Nothing more is said tonight. But she knows you saw.
-- **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband) + NPC State Change: Irena (investigator → protector; the parallel investigation shuts — traces dry up, Marek is pulled home)
+- **Outcome:** You walk in on it — and that is how you lose it. The voices cut out the instant the latch turns. Zbigniew's mask is back before the door finishes swinging — *"A private matter. Goodnight."* — and you saw only the half-second before it: him upright and unashamed, mid-argument, and her already on her feet, stepping between him and you. You get the *tableau* — a wife shielding a husband from the outsiders — but not one word of what it was about. Interrupting buys you a state change and nothing you can prove.
+- **Gives:** NPC State Change: Irena (investigator → protector; the parallel investigation shuts — traces dry up, Marek is pulled home). No clue — the content is gone the moment you open the door.
 
 ### Approach Irena afterward
 - **Requires:** Overheard or interrupted the fight; catch her alone afterward
