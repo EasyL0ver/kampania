@@ -27,7 +27,7 @@ What they get was decided days ago, at [Irena's door](irena-confronts-wojewoda.m
 
 ### If Zbigniew is braced
 
-Irena out-argued his certainty. The office is dark, the door shut, and it stays shut. He is inside, awake, listening — and he does *nothing*, because she taught him the one thing his pride had hidden: a crowd with no head burns itself out on whoever is nearest, and the man who walks into the front of it is the nearest. So he doesn't walk into it. He lets them have their night. The crowd, finding no one to bless it and no door to break, mills and curses and turns toward the well to do the thing itself — leaderless, drunk, [Dudka](../characters/neighbour.md) driving. → See [Aftermath](#aftermath): when the spent crowd trudges back through the centre, the door opens and the sołtys takes them in hand as if he had never been gone. The brace saved the man. It did not save whoever the well takes.
+Irena out-argued his certainty. The office is dark, the door shut, and it stays shut. He is inside, awake, listening — and he does *nothing*, because she taught him the one thing his pride had hidden: a crowd with no head burns itself out on whoever is nearest, and the man who walks into the front of it is the nearest. So he doesn't walk into it. He lets them have their night. The crowd, finding no one to bless it and no door to break, mills and curses and turns toward the well to do the thing itself — leaderless, drunk, [Dudka](../characters/neighbour.md) driving. → He follows only *after*, once the body is down: see [Part 2](#part-2--the-well) and [Aftermath](#aftermath). The brace saved the man. It did not save whoever the well takes.
 
 ### If Zbigniew is breaking
 
@@ -83,6 +83,11 @@ Dudka's state colours the walk:
 
 **The killing cannot be called off — only aimed, or absorbed.** Every action below changes *who* goes into the well and what the death means. None of them sends everyone home.
 
+### Braced Zbigniew arrives (GM beat, not a player action)
+- **When:** the body is already in the well — the kill is done, the crowd blown out and slack
+- **What happens:** the sołtys walks into the ruins alone, unhurried, out of the dark. Not to stop the lynch — he timed it not to. He stops what comes *after.* A few flat words — *go home, it's finished* — and the crowd that a rifle drove here folds without one, because the head it went looking for at the office has finally appeared to claim it. He sends them down the road, sees the body is his village's secret and not its scandal, and by the walk back he is the sołtys again as if he never wasn't. **This only happens if Zbigniew is [braced](#if-zbigniew-is-braced).** If he was breaking, no one arrives; the mob disperses on its own, ragged, with no one in charge of the morning.
+- **World State Change:** the lynch is sealed under Zbigniew's authority; the village folds back under him (see [Aftermath](#aftermath)).
+
 ### Turn the aim onto a perpetrator
 - **Requires:** proof that points at one of the guilty (Rezeń, a sibling, Helena, a breaking Zbigniew)
 - **Cost:** —
@@ -125,7 +130,7 @@ Unless [Dudka was convinced justice is coming](#convince-dudka-justice-will-be-d
 - **[Dudka himself](#convince-dudka-justice-will-be-delivered):** if the players convinced him justice was coming, he stood down, testified — and his own mob killed him for it. The truth is on the record; the coward died the one time he did right.
 
 **Zbigniew, after:**
-- **If he was braced:** he never came out, and he is untouched. When the spent crowd trudges back through the centre he opens the office door and takes them in hand — a few quiet words, men sent home, the valley folded back under him by morning. He let the well feed to keep his throne, and it worked. He rules the village that killed tonight. This is the darkest Forget reading of him: the murderer who kept order by feeding the order a victim.
+- **If he was braced:** he never came out at the office, and he is untouched. Once the body is down he walks into the ruins alone and disperses the spent crowd on the spot — a few flat words, men sent down the road, the killing sealed as the village's secret. He let the well feed to keep his throne, and it worked. He rules the village that killed tonight. This is the darkest Forget reading of him: the murderer who kept order by feeding the order a victim.
 - **If he was breaking and the crowd turned on him:** the sołtys is the body in the well. The village wakes with no head at all — and nothing holding [Rezeń](../characters/butcher.md).
 - **If he was breaking and shouldered aside:** he lives, but the authority is gone. A man who walked out to command a mob and got walked around. He is no longer the sołtys in any way the village will honour, and everyone saw it.
 
