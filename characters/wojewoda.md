@@ -16,7 +16,9 @@
 
 Sołtys (village headman). Pragmatic, authoritative, controlled. Built %NEW_VILLAGE% into a functioning community. Participated in the lynch without guilt — believes Edward Barnaś had it coming.
 
-> **TBD — braced Zbigniew, Day 7:** If [Irena reached him](../events/irena-confronts-wojewoda.md) (braced), he survives the [lynch](../events/punishment-lynch.md) with his authority intact and throws it behind the flood ending. Whatever *active* choice the village makes — [fight the water](../events/foreman-saves-village.md) or evacuate — he leads it, regardless of which. The one thing he will **not** cosign is drowning-in-place: passive surrender to the water is the single outcome the braced sołtys refuses. (Concrete beats to be written — leave TBD.)
+> **TBD — Zbigniew, Day 7:** If [Irena reached him](../events/irena-confronts-wojewoda.md) (braced), he survives the [lynch](../events/punishment-lynch.md) with his authority intact and throws it behind the flood ending. Whatever *active* choice the village makes — [fight the water](../events/foreman-saves-village.md) or evacuate — he leads it, regardless of which. The one thing he will **not** cosign is drowning-in-place: passive surrender to the water is the single outcome the braced sołtys refuses.
+>
+> If she never reached him (breaking) and he lives through the lynch anyway (shouldered aside, authority gone), he does the opposite: he **passively waits for the water.** Stripped of the certainty that held him up, he neither fights nor flees — he sits in it and lets the flood take him. The drowning-in-place he refuses when braced is exactly what he sinks into when broken. (Concrete beats to be written — leave TBD.)
 
 
 ## Appearance
