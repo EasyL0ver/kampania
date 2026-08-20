@@ -16,6 +16,9 @@
 
 Sołtys (village headman). Pragmatic, authoritative, controlled. Built %NEW_VILLAGE% into a functioning community. Participated in the lynch without guilt — believes Edward Barnaś had it coming.
 
+> **TBD — braced Zbigniew, Day 7:** If [Irena reached him](../events/irena-confronts-wojewoda.md) (braced), he survives the [lynch](../events/punishment-lynch.md) with his authority intact and throws it behind the flood ending. Whatever *active* choice the village makes — [fight the water](../events/foreman-saves-village.md) or evacuate — he leads it, regardless of which. The one thing he will **not** cosign is drowning-in-place: passive surrender to the water is the single outcome the braced sołtys refuses. (Concrete beats to be written — leave TBD.)
+
+
 ## Appearance
 
 - **Clothes:** Always clean — pressed trousers, polished shoes, wool vest over white shirt even in summer; the only man in the village who owns an iron
