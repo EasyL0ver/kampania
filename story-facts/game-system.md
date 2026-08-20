@@ -288,8 +288,8 @@ Each ending has its own prerequisite chain. They stack — the perfect run compl
 |--------|------------------|
 | **Ritual** | Find Paraskewia Chyłak → break ks. Władysław Pająk → free Barbara Kopacz → bring Stefania Kopacz → the words at the well |
 | **Engineering** | Believe Michał Pytlak → retrieve explosives from bunker → support detonation |
-| **Justice** (prevent lynch) | Crack witnesses → document truth → use phone → keep Ryszard Dudka stable |
-| **Punishment** (lynch happens) | Truth exposed + no structure = Ryszard Dudka snaps |
+| **Justice** (truth survives the lynch) | Crack witnesses → document truth → use phone → keep Ryszard Dudka stable enough to stand down and testify (he dies, the record lives) |
+| **Punishment** (a body, no record) | Truth exposed + no structure = the mob kills and the well swallows it unnamed |
 | **The Report** | Massacre discovered → included in report → prof. Tadeusz Bieńkowski called (or not) |
 
 The **perfect run** completes Ritual + Engineering + Justice + Report (with phone call). Possible. Extraordinary.

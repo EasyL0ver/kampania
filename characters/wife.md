@@ -71,7 +71,7 @@ Irena runs on a pivot: **first she investigates, then — once she finally sees 
   - **Read:** This isn't loyalty to a cause. It's the last move of a woman who spent her life trying to be seen by him and will not be the one to destroy him now that she finally can.
   - **Accept →** the players become the village: they choose the living leader over the dead, exactly as 1954 did.
   - **Refuse →** she cannot act against him, so she acts against *them* — hands Zbigniew everything they've shown her, and the household closes and counters.
-- **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband) + NPC State Change: Irena (rival → Zbigniew's protector) · **Accept:** World State Change — Zbigniew's role buried, structure preserved (toward the **Justice** ending, [lynch](../events/punishment-lynch.md) prevented) · **Refuse:** World State Change — the family actively counters the committee, and toppling Zbigniew mid-flood removes the structure that holds the village (toward [Punishment — the lynch](../events/punishment-lynch.md))
+- **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband) + NPC State Change: Irena (rival → Zbigniew's protector) · **Accept:** World State Change — Zbigniew's role buried, structure preserved (keeps the justice route open so the [lynch](../events/punishment-lynch.md) can still be turned toward truth, not just a body) · **Refuse:** World State Change — the family actively counters the committee, and toppling Zbigniew mid-flood removes the structure that holds the village (feeds the pure-**Punishment** path at the [lynch](../events/punishment-lynch.md) — a body, no record)
 
 ### Census interview
 - **Requires:** Committee authority
