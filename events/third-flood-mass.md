@@ -8,7 +8,7 @@
 
 This file describes the **default / judgment path** — the priest's faith collapses and the room curdles toward the [Punishment](punishment-lynch.md) mob. But Day 7 has two faces, decided by the **[Grace ending](../story-facts/spiritual-endings.md)** "Faith in Redemption" score:
 
-- **Faith broke (score below threshold), or [Remember](the-ritual.md) already fired** → this mass, as written below. He comes apart with no one to catch him.
+- **Faith broke (score below threshold), or [Rest](the-ritual.md) already fired** → this mass, as written below. He comes apart with no one to catch him.
 - **Faith held (score cleared threshold)** → the **odpust**. Instead of breaking, he reaches for mercy: general absolution (valid because the flood is danger of death) for the whole church, the guilty included. See the **Grant the odpust** outcome below.
 - **Either way, the rival officiant may plead:** if the players committed to the odpust after stirring the Lemko rite, **Babcia comes and begs them not to** — proceed past her and the dead turn vengeful. If they committed to the well rite, the priest went there to plead instead (see [the-ritual.md](the-ritual.md)).
 
@@ -56,11 +56,11 @@ And the village does not catch him. The room has curdled all the way through. Th
 ## Actions
 
 ### Grant the odpust (Grace ending) — *only if the Faith score cleared*
-- **Requires:** The "Faith in Redemption" score cleared its threshold before this mass (enough of the guilty confessed to him), and [Remember](the-ritual.md) did **not** fire first.
+- **Requires:** The "Faith in Redemption" score cleared its threshold before this mass (enough of the guilty confessed to him), and [Rest](the-ritual.md) did **not** fire first.
 - **Cost:** Free — this is the payoff, not a check
 - **Outcome:** His faith holds. Instead of breaking he stands taller, and the crisis resolves toward mercy: the flood is danger of death, and *everyone is redeemable*. He grants **general absolution** — the odpust — to the whole congregation, the guilty among them, Rezeń included. The village is forgiven as one body as the water reaches the altar.
   - **If Babcia is present to plead** (players reached the odpust after stirring the Lemko rite): she begs them to stop it. Proceed anyway → **the dead turn vengeful** (see [spiritual-endings.md](../story-facts/spiritual-endings.md)).
-  - **Ending Progress:** the **Grace** ending fires. Forecloses [Remember](the-ritual.md).
+  - **Ending Progress:** the **Grace** ending fires. Forecloses [Rest](the-ritual.md).
   - *(TBD: full script of the absolution — the formula, the kneeling guilty, the congregation's reaction.)*
 
 ### Reach the priest

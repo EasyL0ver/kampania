@@ -286,8 +286,8 @@ Each ending has its own prerequisite chain. They stack — the perfect run compl
 
 | Ending | Key Prerequisites |
 |--------|------------------|
-| **Ritual** (Remember) | Find Paraskewia Chyłak → free Barbara Kopacz → bring Stefania Kopacz → the words at the well. Priest no longer gatekeeps. Foreclosed if Grace's odpust already fired. |
-| **Grace** (the odpust) | Guilty confess to ks. Władysław Pająk → his "Faith in Redemption" score clears threshold → Day-7 general absolution for the whole church. Foreclosed if Remember fired. See [spiritual-endings.md](spiritual-endings.md). |
+| **Rest** (the Ritual) | Find Paraskewia Chyłak → free Barbara Kopacz → bring Stefania Kopacz → the words at the well. Priest no longer gatekeeps. Foreclosed if Grace's odpust already fired. |
+| **Grace** (the odpust) | Guilty confess to ks. Władysław Pająk → his "Faith in Redemption" score clears threshold → Day-7 general absolution for the whole church. Foreclosed if Rest fired. See [spiritual-endings.md](spiritual-endings.md). |
 | **Engineering** | Believe Michał Pytlak → retrieve explosives from bunker → support detonation |
 | **Justice** (truth survives the lynch) | Crack witnesses → document truth → use phone → keep Ryszard Dudka stable enough to stand down and testify (he dies, the record lives) |
 | **Punishment** (a body, no record) | Truth exposed + no structure = the mob kills and the well swallows it unnamed |

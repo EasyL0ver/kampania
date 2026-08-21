@@ -1,4 +1,4 @@
-# The Spiritual Endings — Remember, Grace, Forget
+# The Spiritual Endings — Rest, Grace, Forget
 
 **Type:** Core story mechanics — endgame
 
@@ -12,7 +12,7 @@ They resolve at the **flood masses / the well rite**, late game, as the water ri
 
 | Ending | What it is | Who it saves | Who it damns |
 |---|---|---|---|
-| **Remember** (the [Ritual](../events/the-ritual.md)) | The Lemko rite at the well — name the dead, say what was done | Justice for the **dead**: named, mourned, at rest | The guilty drown **unforgiven** |
+| **Rest** (the [Ritual](../events/the-ritual.md)) | The Lemko rite at the well — name the dead, say what was done | Justice for the **dead**: named, mourned, at rest | The guilty drown **unforgiven** |
 | **Grace** (the odpust) | Day-7 general absolution at Mass — mercy for the living guilty | The **living guilty**: absolved, all of them | The dead stay unnamed; if stirred, they turn **vengeful** |
 | **Forget** | Helena's cover-up holds — the truth never lands | No one is disturbed; the village dies quiet | Everyone: the dead unmourned, the guilty unrepentant, the second erasure completed |
 
@@ -60,9 +60,9 @@ Tracked like [Dudka's Lynch Targets](../characters/neighbour.md#lynch-targets). 
 | A guilty one dies unconfessed (e.g. Tadek's suicide) | −2 |
 | Players expose the guilty publicly with no mercy (feeds judgment) | −2 |
 | Each step of the Lemko rite stirred (hag woken, dead named) | −3 |
-| **Remember actually fires** | **hard block — no odpust at any score** |
+| **Rest actually fires** | **hard block — no odpust at any score** |
 
-No single confessor is required — the threshold is elastic and reachable many ways (two hard confessions; or one plus village mercy; etc.). Progress toward Remember drags the score down; completing Remember forecloses Grace outright.
+No single confessor is required — the threshold is elastic and reachable many ways (two hard confessions; or one plus village mercy; etc.). Progress toward Rest drags the score down; completing Rest forecloses Grace outright.
 
 ### Note on the confessors
 
@@ -72,7 +72,7 @@ No single confessor is required — the threshold is elastic and reachable many 
 
 ---
 
-## Remember — the Ritual
+## Rest — the Ritual
 
 Fully documented in [the-ritual.md](../events/the-ritual.md). The Lemko rite at the well: Form (Paraskewia), Words (Babcia / the panakhyda), Truth (the players name the dead). Names the murdered of this ground — 1947 and Edward Barnaś — and lets them rest.
 
@@ -85,7 +85,7 @@ Fully documented in [the-ritual.md](../events/the-ritual.md). The Lemko rite at 
 The valley has one collective conscience. Whichever reckoning the players commit to, **the officiant of the other ending shows up at the ceremony and pleads with them to stop** — face to face, the last human appeal before the thing becomes irreversible. No sabotage, no curse: an argument, and the players choosing to proceed anyway with their eyes open to the cost.
 
 - **Commit to the odpust (Grace) → Babcia (Stefania Kopacz) comes.** The old Lemko woman stands up in the Catholic church and begs them not to wash the killers clean while her people lie unnamed in the well. **Proceed past her plea → the dead turn vengeful** (she will not give rest to dead wronged this way). This vengeance triggers **only if the Lemko rite was stirred** — a village that never woke the dead gets clean Grace.
-- **Commit to the rite (Remember) → ks. Pająk comes.** He walks to the ruins and begs them off the old rite — for their souls, for the flood-judgment, for mercy. **Proceed past his plea → he will not grant the odpust.** Grace is foreclosed; the guilty drown unforgiven.
+- **Commit to the rite (Rest) → ks. Pająk comes.** He walks to the ruins and begs them off the old rite — for their souls, for the flood-judgment, for mercy. **Proceed past his plea → he will not grant the odpust.** Grace is foreclosed; the guilty drown unforgiven.
 
 Whichever ceremony you complete, you do it **over the tears of the person who speaks for the other ending.** That is the tragedy made personal.
 
