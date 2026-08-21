@@ -20,25 +20,25 @@ Every scene file (locations, events, characters) uses two mechanisms for player 
 |---|---|---|
 | **Initiated by** | GM | Player |
 | **Trigger** | Player has the right skill/prereq and is present | Player declares "I want to..." |
-| **Cost** | Always free | Free OR 1+ cards |
+| **Cost** | Always free | Free OR 1+ actions of time |
 | **Nature** | Passive — the GM reveals it | Active — the player asks for it |
 | **GM reads** | Woven into scene narration | When player states intent |
 
-**The distinction is who initiates, not what it costs.** Actions can be free — a quick question to someone you're already talking to is player-initiated and costs nothing. The card cost represents whether the action eats a meaningful chunk of fictional time, not whether it's player-driven.
+**The distinction is who initiates, not what it costs.** Actions can be free — a quick question to someone you're already talking to is player-initiated and costs nothing. The time cost represents whether the action eats a meaningful chunk of fictional time, not whether it's player-driven.
 
 ---
 
 ## The Visit
 
-**Going to a location is itself an action.** The player says "I go to the church" — that costs the card listed in the location header's `Cost:` field. On arrival, the GM reads the Setup and delivers any Opportunities the player qualifies for. Those are included in the visit — they don't cost extra.
+**Going to a location is itself an action.** The player says "I go to the church" — that costs the time listed in the location header's `Cost:` field. On arrival, the GM reads the Setup and delivers any Opportunities the player qualifies for. Those are included in the visit — they don't cost extra.
 
-Actions *within* the location are additional costs on top of the visit card. So the full flow is:
+Actions *within* the location cost time on top of the visit. So the full flow is:
 
-1. **Player:** "I visit Ciotka's house." → **1 card** (the visit)
+1. **Player:** "I visit Ciotka's house." → **1 action** (the visit)
 2. **GM:** Reads Setup. Delivers Opportunities based on player's skills. → **Free** (bundled with visit)
-3. **Player:** "I want to search the attic." → **1 card** (additional action within the location)
+3. **Player:** "I want to search the attic." → **1 action** (additional action within the location)
 
-This means Opportunities are the **payoff for the visit card** — the minimum a player gets for spending time at a location. If a location gives nothing through its Opportunities alone, the visit feels wasted. Every location should reward the visit card with at least one meaningful Opportunity.
+This means Opportunities are the **payoff for the visit** — the minimum a player gets for spending time at a location. If a location gives nothing through its Opportunities alone, the visit feels wasted. Every location should reward the visit with at least one meaningful Opportunity.
 
 ---
 
@@ -70,7 +70,7 @@ When a gate names a **completed action**, the opportunity is what the player pic
 
 ### Rules
 
-1. **Free means free.** An Opportunity never costs a card. If it requires effort (digging, following, breaking in), it's an Action.
+1. **Free means free.** An Opportunity never costs time. If it requires effort (digging, following, breaking in), it's an Action.
 2. **Always gated. Ungated → Setup.** Every opportunity has a `(requires: …)`. A fact everyone gets on the visit is a Setup bullet, not an opportunity. Never write an ungated opportunity.
 3. **The gate is hard, not a layer.** A player who misses any condition gets **nothing**, not a lesser version. There is no "base everyone gets" for an opportunity — the base *is* Setup. A layered reveal is the Setup fact (everyone) plus a gated opportunity (the skill), never a tiered opportunity line.
 4. **Seeding.** Skill-gated opportunities read a detail off something already in Setup, so Setup must state the observable thing. Action-gated opportunities are seeded by the **completed action** — the player only reaches them by doing the thing.
@@ -90,7 +90,7 @@ Actions are **what players do when they declare intent.** Every action produces 
 ```
 ### Action Name
 - **Requires:** [Prerequisite — prior clue, NPC state, skill, item, or "Nothing"]
-- **Cost:** [Free / 1 card / 2 cards]
+- **Cost:** [Free / 1 action / 2 actions]
 - **Outcome:** [What happens — one flat result for anyone who clears Requires. No skill branches.]
 - **Gives:** [`clue-id`](../clues/clues.md#clue-id) | NPC State Change: [description] | Item: [description] | Scene Unlock: [scene file] | World State Change: [description] | Ending Progress: [which ending]
 ```
@@ -101,11 +101,11 @@ A skill that would reveal more is **not** an Outcome branch — it is a separate
 - **[What the skilled player also notices]** `(requires: [Action Name] and [Skill])` — [the extra]. → Gives: [`clue-id`](link)
 ```
 
-### When does an action cost a card?
+### When does an action cost time?
 
-A card represents a meaningful chunk of fictional time — roughly one scene, one conversation, one focused effort. The question is: **does this eat a slot in the character's day?**
+An action costs time when it eats a meaningful chunk of the character's day — roughly one scene, one conversation, one focused effort. The question is: **does this eat a slot in the character's day?**
 
-| Costs a card | Free |
+| Costs time | Free |
 |---|---|
 | A full interview with an NPC | A quick follow-up question mid-conversation |
 | Searching a room thoroughly | Opening a drawer you're already standing next to |
@@ -113,7 +113,7 @@ A card represents a meaningful chunk of fictional time — roughly one scene, on
 | A drinking session | Accepting an offered glass |
 | Traveling to a distant location | Moving within the same area |
 
-**Rule of thumb:** If the player is already *in* a scene and the action doesn't end/extend it meaningfully, it's free. If it constitutes its own scene or consumes a phase-chunk of time, it costs a card.
+**Rule of thumb:** If the player is already *in* a scene and the action doesn't end/extend it meaningfully, it's free. If it constitutes its own scene or consumes a phase-chunk of time, it costs time.
 
 ### Rules
 
@@ -127,14 +127,13 @@ A card represents a meaningful chunk of fictional time — roughly one scene, on
    - **Ending Progress** — advances one of the ending chains.
 3. **Multiple outcomes are fine.** An action can give a clue AND change NPC state AND unlock a scene. List them all.
 4. **"Nothing" is not a valid outcome for documented actions.** If you're writing an action into a scene file, it must give something — otherwise don't document it.
-   - *Exception:* An action that **confirms a negative** (e.g. "no grave exists for Barnaś") is a valid clue — document it as one.
-   - **Undocumented actions exist.** Players will attempt things not written in any scene file. The GM charges a card (if it eats time), narrates the empty result, and moves on. Dead ends are part of the time economy — the card itself is the cost. We don't write dead-end entries into scene files.
+   - **Undocumented actions exist.** Players will attempt things not written in any scene file. The GM charges the time (if it eats time), narrates the empty result, and moves on. Dead ends are part of the time economy — the spent time is the cost. We don't write dead-end entries into scene files.
 5. **No "Leads to:" or "Result:" or "Seeds".** The field is always `Gives:`. The verb is always definitive.
 6. **A skill gates an action or opens an opportunity — never enriches it.**
    - In a `Requires:` set → **hard gate.** No skill means you can't take the action (or don't get the gated clue) at all.
    - Reveals more than the flat Outcome → that extra is a separate **opportunity**, `(requires: <this action> and <skill>)`. Not a branch inside Outcome.
    An Action's Outcome is flat — one result for everyone who clears `Requires:`. Skills never sit as enrich-branches in an Outcome.
-7. **Cost must be explicit.** Every action states its cost: `Free`, `1 card`, or more. See the table above for guidance on which is which.
+7. **Cost must be explicit.** Every action states its cost: `Free`, `1 action`, or more. See the table above for guidance on which is which.
 
 ---
 
