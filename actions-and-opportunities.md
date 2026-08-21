@@ -125,7 +125,10 @@ A card represents a meaningful chunk of fictional time — roughly one scene, on
    - *Exception:* An action that **confirms a negative** (e.g. "no grave exists for Barnaś") is a valid clue — document it as one.
    - **Undocumented actions exist.** Players will attempt things not written in any scene file. The GM charges a card (if it eats time), narrates the empty result, and moves on. Dead ends are part of the time economy — the card itself is the cost. We don't write dead-end entries into scene files.
 5. **No "Leads to:" or "Result:" or "Seeds".** The field is always `Gives:`. The verb is always definitive.
-6. **Skill branches enrich, not gate.** Because the system has no failure, skills don't determine *if* you succeed — they determine *how much* you get. A player without the listed skill still gets the base outcome. A player with it gets more.
+6. **Skills gate or enrich, depending on where they sit.**
+   - In a `Requires:` set → **hard gate.** No skill means you can't take the action (or don't get the gated clue) at all. Same as an opportunity gate.
+   - As an **Outcome branch** → **enrich.** Everyone who cleared `Requires:` gets the base outcome; the branch adds more for whoever has that skill.
+   The old "skills never gate" rule is retired — a skill listed in `Requires:` is a real gate.
 7. **Cost must be explicit.** Every action states its cost: `Free`, `1 card`, or more. See the table above for guidance on which is which.
 
 ---
