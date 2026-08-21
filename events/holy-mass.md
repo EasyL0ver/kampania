@@ -72,7 +72,7 @@ Free — no action cost. Available to any player present.
 - **Requires:** Nothing
 - **Cost:** Free (brief), 1 action (deeper)
 - **Outcome:** ks. Pająk is more open during/after mass than at the plebania. The sacred space softens him. He's still guarded, but the flood has shaken everyone — including him. Players who show faith or respect get further here than a cold plebania visit.
-  - See [priest character file](../characters/priest.md) for full interaction tree.
+  - See [priest character file](../characters/priest.md) for full interaction tree. *(Grace: backing his faith / showing genuine belief here feeds the "Faith in Redemption" score — see [spiritual-endings.md](../story-facts/spiritual-endings.md). Day 4 is his "hollow" stage.)*
 
 ## If Missed
 

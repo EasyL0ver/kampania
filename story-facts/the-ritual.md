@@ -43,13 +43,11 @@ This is the easiest piece to find — if they know the cabin exists. Paraskewia 
 
 Stefania Kopacz — Barbara Kopacz's elderly relative — speaks more Lemko than Polish. She knows the **panakhyda** — the Lemko memorial prayer for the dead. She knows the old songs. She can teach the players the words, or speak them herself if brought to the well.
 
-**The difficulty is not Stefania Kopacz — it's the chain of permission.**
+**The difficulty is not Stefania Kopacz — it's getting her to the well.**
 
-Stefania Kopacz is frail. She can't cross the forest alone. She needs Barbara Kopacz to take her. And **Barbara Kopacz won't do it without ks. Władysław Pająk's blessing.** She's a devout Catholic. Taking her grandmother to perform a Lemko pagan rite at a haunted well is heresy. The one authority she trusts is ks. Władysław Pająk. If he says no, she says no.
+Stefania Kopacz is frail. She can't cross the forest alone. She needs Barbara Kopacz to take her, and Barbara won't move her grandmother toward a haunted well until she understands *why* it matters — that her mother's people are in that well and Babcia has mourned them her whole life ([`barbara-must-bring-babcia`](../clues/clues.md#barbara-must-bring-babcia)). It's a human reason, not a religious permission. *(ks. Pająk no longer gatekeeps this — see [spiritual-endings.md](spiritual-endings.md).)*
 
-So the real obstacle isn't finding the words — it's **breaking ks. Władysław Pająk.** The man who's spent 13 years choosing silence must now actively endorse something his faith condemns. He must say: *"Go. Take her. Do what I cannot."* See `characters\priest.md` — "The Ritual — The Final Bottleneck" section.
-
-**If Stefania Kopacz comes to the well herself** — an old Lemko woman, standing where her people were killed, speaking the prayers they were never given — it is the most powerful version of the ritual. But getting her there means: earning Stefania Kopacz's trust → earning Barbara Kopacz's cooperation → breaking ks. Władysław Pająk's resistance → crossing the forest in the rain with a woman who can barely walk. Every step costs time the players may not have.
+**If Stefania Kopacz comes to the well herself** — an old Lemko woman, standing where her people were killed, speaking the prayers they were never given — it is the most powerful version of the ritual. But getting her there means: earning Stefania Kopacz's trust → earning Barbara Kopacz's cooperation → crossing the forest in the rain with a woman who can barely walk. Every step costs time the players may not have.
 
 ### 3. The Truth — What to acknowledge
 

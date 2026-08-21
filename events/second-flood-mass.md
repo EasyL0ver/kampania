@@ -75,7 +75,7 @@ The mood is the thing to watch. These are people who've been good neighbours for
 - **Cost:** 1 action
 - **Outcome:** He lets the players walk him to the sacristy. He's shaking. He says the prayers aren't landing — *"I say the words and they fall on the floor."* He doesn't confess anything, but the crack from Day 4 is a fissure now. A kind or faithful approach gets further into what he's carrying.
   - See [priest character file](../characters/priest.md) for the full interaction tree.
-- **NPC State Change:** The priest is closer to breaking — and closer to the point where he will consider a remedy that isn't his own.
+- **NPC State Change:** The priest is closer to breaking — and closer to the point where he will consider a remedy that isn't his own. *(Grace: this is his Day-6 "fraying" stage. Whether he breaks toward mercy (the odpust) or judgment (collapse) is set by the "Faith in Redemption" score — backing his faith and bringing the guilty to confess pushes toward mercy. See [spiritual-endings.md](../story-facts/spiritual-endings.md).)*
 
 ## If Missed
 

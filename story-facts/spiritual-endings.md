@@ -91,9 +91,13 @@ Whichever ceremony you complete, you do it **over the tears of the person who sp
 
 ---
 
-## Cross-file cleanup needed (flagged, not yet done)
+## Cross-file reconciliation — DONE
 
-- [`events/the-ritual.md`](../events/the-ritual.md) — the "Getting Babcia here" paragraph names ks. Pająk as "the final bottleneck" via Barbara's blessing. **Drop it** (priest gatekeeping removed).
-- [`story-facts/game-system.md`](game-system.md) — the Endings table lists "break ks. Władysław Pająk" as a **Ritual** prerequisite. **Remove it**, and add Grace to the table.
-- [`characters/matrona.md`](../characters/matrona.md) — Helena's GM note reads self-justifying ("deciding it let her do what jealousy and hatred already wanted"). Reconcile with the guilt-swallowing version (knows it was sin, carries it in silence for the children).
-- [`characters/priest.md`](../characters/priest.md) — flesh out the judgment-vs-mercy arc and the faith-score track; wire the three flood masses ([holy-mass.md](../events/holy-mass.md), [second-flood-mass.md](../events/second-flood-mass.md), [third-flood-mass.md](../events/third-flood-mass.md)) and the Day-7 odpust climax.
+All flagged contradictions reconciled with this design (commit "Reconcile files with the spiritual-endings design"):
+
+- [x] [`events/the-ritual.md`](../events/the-ritual.md) — priest-blessing "bottleneck" dropped; obstacle is the Barbara chain only.
+- [x] [`story-facts/the-ritual.md`](the-ritual.md) — "breaking ks. Pająk" / Barbara's-blessing section rewritten; dead "Final Bottleneck" reference removed.
+- [x] [`story-facts/game-system.md`](game-system.md) — Endings table: "break ks. Pająk" removed from Ritual, Grace row added, mutual foreclosure noted.
+- [x] [`characters/matrona.md`](../characters/matrona.md) — Helena reconciled to the guilt-swallowing version (knows it was sin, carries it silently; the refusing-absolution node of Grace).
+- [x] [`characters/priest.md`](../characters/priest.md) — judgment-vs-mercy arc + Faith-in-Redemption track added.
+- [x] Flood masses wired: [holy-mass.md](../events/holy-mass.md) (Day 4, score hook), [second-flood-mass.md](../events/second-flood-mass.md) (Day 6, score hook), [third-flood-mass.md](../events/third-flood-mass.md) (Day 7 fork: odpust vs. collapse, Babcia plea). **TBD stubs** remain for the full odpust staging on Day 7.

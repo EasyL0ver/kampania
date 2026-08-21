@@ -11,9 +11,18 @@
 
 ## Character
 
-Roman Catholic priest, arrived after the lynch. Knows everything through 13 years of confessions — primarily from Janina. Has chosen silence. The final bottleneck for the Lemko ritual.
+Roman Catholic priest, arrived after the lynch. Knows everything through 13 years of confessions — primarily from Janina. Has chosen silence. As the flood rises he becomes the pivot of the **[Grace ending](../story-facts/spiritual-endings.md)**: his crisis of faith (judgment vs. mercy) decides whether he grants the Day-7 odpust.
 
-<!-- GM — the flood-as-divine-judgment voice (WIP): he is the one character who reads the coming water as reckoning, not engineering. He alone carries the full account of the village's blood-guilt (the massacre, the lynch) from the confessional, and a flood drowning a village built over a mass grave is Noah, the Deluge, Sodom — a biblical washing-clean he cannot say plainly without breaking the seal. As the water rises his political coldness cracks toward the apocalyptic: sermons that edge from "evacuate in order" toward "this is judgment on us." Nobody else in the cast voices this. TODO: flesh out in the mass / holy-mass events ([holy-mass.md](../events/holy-mass.md)) — the register shift, what he says from the pulpit, and whether the players can read it as accusation. Contained: it is interpretation, never evidence — it reveals no fact about 1947/1954. -->
+## The Grace Arc — judgment vs. mercy
+
+He alone reads the flood as **literal divine judgment** — God drowning a valley built over a mass grave (Noah, the Deluge, Sodom). Every soul still in mortal sin when the water comes drowns damned. Half of him believes the valley *deserves* it — which is why his faith is collapsing across the three flood masses (Day 4 hollow → Day 6 fraying → Day 7 breaks).
+
+- **Judgment wins** → the valley earned the water; he grants nothing.
+- **Mercy wins** → *everyone is redeemable*; he reaches for the loophole (general absolution, valid in danger of death) and grants the **odpust** to the whole church, Rezeń included.
+
+What tips him to mercy: **watching the guilty confess.** Tracked by the "Faith in Redemption" score — see [spiritual-endings.md](../story-facts/spiritual-endings.md). If it clears the threshold by the [Day-7 Mass](../events/third-flood-mass.md), he grants the odpust. If [Remember](../events/the-ritual.md) fired first, he refuses — the flock turned to the old rite.
+
+<!-- GM — the flood-as-divine-judgment voice: he is the one character who reads the coming water as reckoning, not engineering. He carries the full account of the village's blood-guilt from the confessional, and cannot say it plainly without breaking the seal. As the water rises his coldness cracks toward the apocalyptic: sermons edging from "evacuate in order" toward "this is judgment on us." Contained: it is interpretation, never evidence — it reveals no fact about 1947/1954. TODO: pulpit register shift wired into the three flood masses. -->
 
 ## Appearance
 
