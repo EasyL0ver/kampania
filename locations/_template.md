@@ -34,8 +34,7 @@
 
 ## Opportunities
 
-<!-- ALWAYS gated: every line carries (requires: ...). Ungated observations
-     belong in Setup, not here. Format: actions-and-opportunities.md -->
+<!-- Format: actions-and-opportunities.md -->
 
 ## Actions
 

@@ -41,12 +41,17 @@
 
 ## Opportunities
 
-<!-- ALWAYS gated: every line carries (requires: ...). Ungated observations
-     belong in Setup, not here. Format: actions-and-opportunities.md -->
+<!-- Format: actions-and-opportunities.md -->
 
 ## Actions
 
 <!-- Format: actions-and-opportunities.md -->
+
+## Exits
+
+<!-- Events only. Where players go after — link to the scenes/locations. -->
+
+- [Where they go / what unlocks next.]
 
 ## If Missed
 
