@@ -14,7 +14,7 @@ Zbigniew Gajda's office is at the [PGR](pgr-office.md) — his desk, phone, maps
 
 ## Opportunities
 
-- **An old wound** — *(if Zbigniew is home)* He favours one side, guards his ribs when he reaches or lifts. A trained eye reads an old, badly-healed injury, years old, never properly treated. He deflects any question about it. A **Medic** recognises it for what it is: a healed gunshot wound. → **Gives:** [wojewoda-was-shot](../clues/clues.md#wojewoda-was-shot) (**Medic**)
+- **An old wound** — *(if Zbigniew is home)* He favours one side, guards his ribs when he reaches or lifts. A trained eye reads an old, badly-healed injury, years old, never properly treated. He deflects any question about it. A **Medic** reads it clearly: ribs broken by a single heavy blow — struck with something hard, like the butt of a gun — and left to knit on their own. → **Gives:** [wojewoda-was-hurt-that-night](../clues/clues.md#wojewoda-was-hurt-that-night) (**Medic**)
 
 - **Notice the icon on the shelf** — among family photos and Catholic imagery, a small wooden icon. Old, dark with age, painted in a style that's not quite Roman Catholic — flatter faces, gold leaf, Eastern composition. If asked, Zbigniew Gajda says *"Family heirloom. My grandmother's."* He changes the subject. A player with faith or art knowledge would recognize it as Greek Catholic / Orthodox — Lemko devotional art. → **Gives:** [wojewoda-is-lemko](../clues/clues.md#wojewoda-is-lemko) (**Culture**)
 - **Meet Irena** — polite, warm, the perfect sołtys's wife. Hosts with grace. But something is tight behind the hospitality. → **Gives:** [irena-is-tense](../clues/clues.md#irena-is-tense)

@@ -58,7 +58,7 @@ GM tracks score per target. Highest when he snaps = who he goes after.
 | `three-drunk-attackers` | Tadek | +1 |
 | `jagna-was-attacked` | Rezeń | +2 |
 | `jagna-was-attacked` | Tadek | +2 |
-| `wojewoda-was-shot` | Zbigniew | +1 |
+| `wojewoda-was-hurt-that-night` | Zbigniew | +1 |
 | `butcher-has-soldiers-gun` | Rezeń | +1 |
 | `glupek-strangled` | Rezeń | +3 |
 | `matrona-orchestrated-lynch` | Helena | +4 |
