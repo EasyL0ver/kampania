@@ -91,9 +91,14 @@ Actions are **what players do when they declare intent.** Every action produces 
 ### Action Name
 - **Requires:** [Prerequisite — prior clue, NPC state, skill, item, or "Nothing"]
 - **Cost:** [Free / 1 card / 2 cards]
-- **Outcome:** [What happens. Concrete narration the GM reads or paraphrases. May branch:]
-  - **[Skill / condition]:** [Branch outcome — additional detail or unlock]
+- **Outcome:** [What happens — one flat result for anyone who clears Requires. No skill branches.]
 - **Gives:** [`clue-id`](../clues/clues.md#clue-id) | NPC State Change: [description] | Item: [description] | Scene Unlock: [scene file] | World State Change: [description] | Ending Progress: [which ending]
+```
+
+A skill that would reveal more is **not** an Outcome branch — it is a separate **opportunity** gated by that action plus the skill:
+
+```
+- **[What the skilled player also notices]** `(requires: [Action Name] and [Skill])` — [the extra]. → Gives: [`clue-id`](link)
 ```
 
 ### When does an action cost a card?
@@ -125,10 +130,10 @@ A card represents a meaningful chunk of fictional time — roughly one scene, on
    - *Exception:* An action that **confirms a negative** (e.g. "no grave exists for Barnaś") is a valid clue — document it as one.
    - **Undocumented actions exist.** Players will attempt things not written in any scene file. The GM charges a card (if it eats time), narrates the empty result, and moves on. Dead ends are part of the time economy — the card itself is the cost. We don't write dead-end entries into scene files.
 5. **No "Leads to:" or "Result:" or "Seeds".** The field is always `Gives:`. The verb is always definitive.
-6. **Skills gate or enrich, depending on where they sit.**
-   - In a `Requires:` set → **hard gate.** No skill means you can't take the action (or don't get the gated clue) at all. Same as an opportunity gate.
-   - As an **Outcome branch** → **enrich.** Everyone who cleared `Requires:` gets the base outcome; the branch adds more for whoever has that skill.
-   The old "skills never gate" rule is retired — a skill listed in `Requires:` is a real gate.
+6. **A skill gates an action or opens an opportunity — never enriches it.**
+   - In a `Requires:` set → **hard gate.** No skill means you can't take the action (or don't get the gated clue) at all.
+   - Reveals more than the flat Outcome → that extra is a separate **opportunity**, `(requires: <this action> and <skill>)`. Not a branch inside Outcome.
+   An Action's Outcome is flat — one result for everyone who clears `Requires:`. Skills never sit as enrich-branches in an Outcome.
 7. **Cost must be explicit.** Every action states its cost: `Free`, `1 card`, or more. See the table above for guidance on which is which.
 
 ---
@@ -176,6 +181,7 @@ Before committing a scene file, verify:
 - [ ] Every opportunity is gated with `(requires: …)` — ungated observations live in Setup, not Opportunities
 - [ ] Skill-gated opportunities read off a detail Setup states; action-gated ones are seeded by the action
 - [ ] No tiered "base + skill" lines — layered reveals are split into separate gated opportunities
+- [ ] Action Outcomes are flat — no skill branches; a skill reveal is an opportunity `(requires: <action> and <skill>)`
 - [ ] No use of "Seeds", "Leads to", or "Result" as outcome labels
 - [ ] Gated opportunities use `(requires: …)` with an ANDed condition set
 - [ ] Bond gates reference the character's Bond section

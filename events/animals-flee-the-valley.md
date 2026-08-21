@@ -36,16 +36,13 @@
 ### Read the flight
 - **Requires:** Go out and study the movement, or press Dudka
 - **Cost:** 1 card (night — no sleep)
-- **Outcome:** Animals are coming up out of the low %OLD_VILLAGE% basin because it is filling fast. Water pools into the one lowest place, not spreading thin.
-  - **Geology / Observation:** the basin is the sink the whole valley drains toward; it takes the water with or without intervention, and is taking it now.
-  - **Agronomy:** textbook flood displacement — real animals, real water, nothing more.
+- **Outcome:** Animals are coming up out of the low %OLD_VILLAGE% basin because it is filling fast. Water pools into the one lowest place, not spreading thin. The basin is the sink the whole valley drains toward; it drowns first, with or without intervention.
 - **Gives:** [`old-village-basin-is-the-low-sink`](../clues/clues.md#old-village-basin-is-the-low-sink)
 
 ### Calm the dogs / secure the livestock
 - **Requires:** Nothing
 - **Cost:** 1 card (night — no sleep)
 - **Outcome:** Players help [Michał Pytlak](../characters/foreman.md) keep panicked stock from breaking pens.
-  - **Endurance:** pens hold, nothing lost to panic.
 - **Gives:** NPC State Change — [Michał Pytlak](../characters/foreman.md) warms to the committee
 
 ## Exits
