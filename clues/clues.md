@@ -163,6 +163,9 @@ The night of the lynch, four-year-old [Edek Barnaś](../characters/glupek.md) wo
 ### butcher-has-soldiers-gun
 [Stanisław Rezeń](../characters/butcher.md) took the rifle off [Edward Barnaś](../characters/soldier.md)'s body that night and kept it — the KBW rifle from the night of the lynch. It's still in his house.
 
+### butcher-dumped-the-body
+It was [Stanisław Rezeń](../characters/butcher.md) who put [Edward Barnaś](../characters/soldier.md)'s body down the old well in [%OLD_VILLAGE%](../locations/old-village-ruins.md) the night of the 1954 lynch — he carried the dead man to the well and dropped him in among the 1947 remains.
+
 ### wujas-loved-jagna
 [Tadek Gajda](../characters/secondary-characters.md) was in love with [Hania Barnaś](../characters/jagna.md), but she chose [Emil Rzepka](../characters/secondary-characters.md).
 

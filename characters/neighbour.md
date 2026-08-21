@@ -60,6 +60,7 @@ GM tracks score per target. Highest when he snaps = who he goes after.
 | `jagna-was-attacked` | Tadek | +2 |
 | `wojewoda-was-hurt-that-night` | Zbigniew | +1 |
 | `butcher-has-soldiers-gun` | Rezeń | +1 |
+| `butcher-dumped-the-body` | Rezeń | +1 |
 | `glupek-strangled` | Rezeń | +3 |
 | `matrona-orchestrated-lynch` | Helena | +4 |
 | `painter-heard-matrona` | Helena | +2 |

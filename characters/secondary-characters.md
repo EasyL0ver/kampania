@@ -177,7 +177,7 @@ Minor NPCs, relationships, and supporting cast. Grouped by association for easy 
   - And the thing she carries heaviest: *"The girl ran. I saw her go — into the trees, on her own two feet, faster than any of them. I've told myself for thirteen years the forest finished what they started. I never went to look."*
   - *(GM: she cannot know the girl is on the very line that connected this call. Keep it that way.)*
   - **Read:** Not a witness cornered — a woman setting down a stone she's carried since 1954. The confession comes almost as relief.
-- **Gives:** [jagna-fled-the-lynch](../clues/clues.md#jagna-fled-the-lynch) + [marta-witnessed-the-lynch](../clues/clues.md#marta-witnessed-the-lynch) + NPC State Change: Marta (willing witness — she'll speak again, and to the outside)
+- **Gives:** [jagna-fled-the-lynch](../clues/clues.md#jagna-fled-the-lynch) + [marta-witnessed-the-lynch](../clues/clues.md#marta-witnessed-the-lynch) + [butcher-dumped-the-body](../clues/clues.md#butcher-dumped-the-body) (she watched Rezeń carry Edward to the well) + NPC State Change: Marta (willing witness — she'll speak again, and to the outside)
 
 **If never reached.** If the players never trace her or never call, Marta stays gone — a name on a faked departure paper, a nurse in a city that never comes up again. The deepest living witness to the night at the well takes it to her grave, the girl's escape stays a thing only Dudka half-guessed, and the GM loses the sharpest private irony in the game: the vanished daughter patching strangers through to the woman who watched her run.
 
