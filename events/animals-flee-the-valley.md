@@ -26,11 +26,8 @@
 
 ## Opportunities
 
-- **The one-way flight** — every animal moving uphill and out.
 - **The one-way flight** `(requires: Agronomy)` — textbook flood displacement; game leaves low ground every wet year. Not unnatural.
-- **The ground they won't cross** — animals refuse the short road past the ruins.
 - **The ground they won't cross** `(requires: Observation)` — consistent all night; not one animal strays toward the old village.
-- **Edek in the doorway** — calm in the chaos, facing the ruins.
 - **Edek in the doorway** `(requires: Read)` — not agitation; a stillness, as if something out there quieted him.
 - **Dudka at his window** `(requires: Read or Sweettalk)` — twenty years in these woods, never seen them empty like this; trying to convince himself it's only the water.
 

@@ -44,17 +44,15 @@ This means Opportunities are the **payoff for the visit card** — the minimum a
 
 ## Opportunities
 
-Opportunities are **what the GM reveals unprompted** when the players qualify for them. The player doesn't ask — the GM delivers, based on what the player has (skills, and sometimes a completed action or held clue).
+Opportunities are **what the GM reveals to a player who clears a gate** — something a plain visitor doesn't get. The player doesn't ask; the GM delivers it based on what the player has (skills, completed actions, held clues, world state).
+
+**Opportunities are ALWAYS gated.** Every opportunity carries a `(requires: …)` tag. There is no such thing as an ungated opportunity — a thing everyone perceives on arrival is a **Setup** fact, not an opportunity. If it isn't gated, it doesn't belong in this section.
 
 ### Format
 
 ```
-- **[Observable thing]** `(requires: [gate])` — [What the player notices]. → Gives: [`clue-id`](../clues/clues.md#clue-id)
+- **[Observable thing]** `(requires: [gate])` — [What the gated player notices]. → Gives: [`clue-id`](../clues/clues.md#clue-id)
 ```
-
-The `(requires: …)` tag is **optional**:
-- **No tag** → available to everyone on the visit. This is the default.
-- **With a tag** → the opportunity only exists once the gate is met.
 
 ### The gate
 
@@ -73,14 +71,13 @@ When a gate names a **completed action**, the opportunity is what the player pic
 ### Rules
 
 1. **Free means free.** An Opportunity never costs a card. If it requires effort (digging, following, breaking in), it's an Action.
-2. **The gate is hard, not a layer.** If a condition is in the `(requires: …)` set — including a skill — a player who lacks it gets **nothing**, not a lesser version. There is no "base everyone gets" for a gated opportunity. A layered reveal is written as **separate opportunities at different gates** (one ungated, one gated), not one tiered line.
-3. **Seed it where it's earned.**
-   - Ungated opportunity → the **Setup** must mention or hint at it. Players can't notice what the GM never described.
-   - Action-gated opportunity → the **completed action** is the seed. It doesn't need to be in Setup, because the player only reaches it by doing the thing.
-4. **Binary output.** An Opportunity either gives a clue or gives nothing (atmosphere). There is no third state.
+2. **Always gated. Ungated → Setup.** Every opportunity has a `(requires: …)`. A fact everyone gets on the visit is a Setup bullet, not an opportunity. Never write an ungated opportunity.
+3. **The gate is hard, not a layer.** A player who misses any condition gets **nothing**, not a lesser version. There is no "base everyone gets" for an opportunity — the base *is* Setup. A layered reveal is the Setup fact (everyone) plus a gated opportunity (the skill), never a tiered opportunity line.
+4. **Seeding.** Skill-gated opportunities read a detail off something already in Setup, so Setup must state the observable thing. Action-gated opportunities are seeded by the **completed action** — the player only reaches them by doing the thing.
+5. **Binary output.** An Opportunity either gives a clue or gives nothing (atmosphere). There is no third state.
    - If it gives a clue → `→ Gives: [clue-id](link)`
    - If it's pure atmosphere → no `Gives` line. Write the observation, stop.
-5. **No "Seeds."** The word "seeds" is retired. A clue is either given or it isn't. If the player won't understand the clue's significance yet — that's fine. They still *have* it. The moment of understanding happens later, when they find the connecting piece.
+6. **No "Seeds."** The word "seeds" is retired. A clue is either given or it isn't. If the player won't understand the clue's significance yet — that's fine. They still *have* it. The moment of understanding happens later, when they find the connecting piece.
 
 ---
 
@@ -173,7 +170,8 @@ Before committing a scene file, verify:
 - [ ] Every Opportunity has either `→ Gives: [clue-id]` or no gives line (atmosphere only)
 - [ ] Every Action has a `Gives:` line with a valid outcome type
 - [ ] No action produces "nothing" — if it would, cut it or find the real outcome
-- [ ] Ungated opportunities are seeded in Setup; action-gated ones are seeded by the action
+- [ ] Every opportunity is gated with `(requires: …)` — ungated observations live in Setup, not Opportunities
+- [ ] Skill-gated opportunities read off a detail Setup states; action-gated ones are seeded by the action
 - [ ] No tiered "base + skill" lines — layered reveals are split into separate gated opportunities
 - [ ] No use of "Seeds", "Leads to", or "Result" as outcome labels
 - [ ] Gated opportunities use `(requires: …)` with an ANDed condition set
