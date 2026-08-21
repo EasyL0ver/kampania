@@ -11,7 +11,7 @@
 
 ## Character
 
-Deceased. KBW soldier who participated in the 1947 Lemko massacre, then settled on the best land. But for that one week in 1947, a model father and a model citizen — steady, hard-working, devoted to his children. Killed in the 1954 lynch — came to save his daughter armed with his old service pistol, but never fired it: he waded in swinging it as a club before the men overpowered and killed him.
+Deceased. KBW soldier who participated in the 1947 Lemko massacre, then settled on the best land. But for that one week in 1947, a model father and a model citizen — steady, hard-working, devoted to his children. Killed in the 1954 lynch — came to save his daughter armed with his old service rifle, but never fired it: he held the men back until they rushed him, tackled him, took the rifle, and beat him to death with it.
 
 ## Opinions
 

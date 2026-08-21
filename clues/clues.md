@@ -125,10 +125,10 @@ The fracture pattern in the remains points to a single heavy impact — a fall f
 Bone density and joint wear put the woman in the remains at around thirty years old, give or take a couple of years. Not a teenager.
 
 ### soldier-killed-defending-daughter
-[Edward Barnaś](../characters/soldier.md) came to save [Hania Barnaś](../characters/jagna.md) — armed with his old KBW service pistol. He never got to fire it: he waded in swinging the gun like a club before the men overpowered and killed him.
+[Edward Barnaś](../characters/soldier.md) came to save [Hania Barnaś](../characters/jagna.md) — armed with his old KBW rifle. He held the men back but never fired: they were on him before he could, tackled him, wrenched the rifle away, and beat him to death with it.
 
 ### wojewoda-was-hurt-that-night
-[Zbigniew Gajda](../characters/wojewoda.md) took a bad injury the night of the 1954 lynch — [Edward Barnaś](../characters/soldier.md) caught him across the ribs with the butt of his pistol and cracked them. They never healed right. He carries the old injury under his clothes and has never explained it.
+[Zbigniew Gajda](../characters/wojewoda.md) took a bad injury the night of the 1954 lynch — in the struggle over [Edward Barnaś](../characters/soldier.md)'s rifle, the stock was driven into his ribs and cracked them. They never healed right. He carries the old injury under his clothes and has never explained it.
 
 ### marta-made-a-deal
 [Edward Barnaś](../characters/soldier.md)'s partner, Marta Konieczna, wasn't killed. She bargained — she had nothing to sign away, so she traded the only thing she had: her silence and her disappearance. She agreed to vanish and to tell anyone who asked that the family had moved. She was gone by morning, left the village alive, and never came back.
@@ -149,7 +149,7 @@ Marta Konieczna resettled west after 1954. She lives in Legnica and works as a n
 Marta Konieczna claims the whole family moved west together and split up shortly after — but that collides with the village's story that Edward Barnaś abandoned them and left alone, she guards it too carefully, and she went still with fear when she heard the call was from the valley. She is hiding something about 1954.
 
 ### marta-witnessed-the-lynch
-Marta Konieczna was present the night of the 1954 lynch and survived it. She saw the men, the well, and Edward Barnaś come to defend his family with his old pistol.
+Marta Konieczna was present the night of the 1954 lynch and survived it. She saw the men, the well, and Edward Barnaś come to defend his family with his old rifle.
 
 ### soldier-never-married
 [Edward Barnaś](../characters/soldier.md) and his partner never married — they lived together. She kept her own surname. This is why no "Barnaś" wife appears in any village records.
@@ -161,7 +161,7 @@ The night of the lynch, four-year-old [Edek Barnaś](../characters/glupek.md) wo
 [Edward Barnaś](../characters/soldier.md) — the father — was killed in the 1954 lynch and his body dumped in the old well in [%OLD_VILLAGE%](../locations/old-village-ruins.md), the same well that already held the 1947 massacre remains. His is the *only* body from that night: no one else who was at the well in 1954 is down there.
 
 ### butcher-has-soldiers-gun
-[Stanisław Rezeń](../characters/butcher.md) took the pistol off [Edward Barnaś](../characters/soldier.md)'s body that night and kept it — the KBW sidearm from the night of the lynch. It's still in his house.
+[Stanisław Rezeń](../characters/butcher.md) took the rifle off [Edward Barnaś](../characters/soldier.md)'s body that night and kept it — the KBW rifle from the night of the lynch. It's still in his house.
 
 ### wujas-loved-jagna
 [Tadek Gajda](../characters/secondary-characters.md) was in love with [Hania Barnaś](../characters/jagna.md), but she chose [Emil Rzepka](../characters/secondary-characters.md).

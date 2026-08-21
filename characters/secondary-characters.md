@@ -173,7 +173,7 @@ Minor NPCs, relationships, and supporting cast. Grouped by association for easy 
 - **Outcome:** Both facts on the table and the rehearsed voice dies. There is nothing left to defend — the corpse kills "he travelled," the forgery kills "the family left." She stops performing and speaks, at last, as the only adult who saw that night and lived:
   - *"...In the well. Of course. Where else would they put him."*
   - *"You want to hear me say it. All right. Nobody moved anywhere. They needed me gone and quiet, and they needed the lie told — so I told it, and I walked to the bus before it was light. That was the price. That's what they let me keep — the walking. Whatever paper you've got with his name on it, someone here wrote that after, not me. I was already halfway to the other side of the country."*
-  - *"Three of them, drunk. Edward went out with that old pistol because they had the girl. He never got to fire it — one of them came up behind him. Then the well, same as the others."*
+  - *"Three of them, drunk. Edward went out with that old rifle because they had the girl. He never got to fire it — they were on him too fast, took it off him, and used it on him. Then the well, same as the others."*
   - And the thing she carries heaviest: *"The girl ran. I saw her go — into the trees, on her own two feet, faster than any of them. I've told myself for thirteen years the forest finished what they started. I never went to look."*
   - *(GM: she cannot know the girl is on the very line that connected this call. Keep it that way.)*
   - **Read:** Not a witness cornered — a woman setting down a stone she's carried since 1954. The confession comes almost as relief.

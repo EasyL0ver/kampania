@@ -53,11 +53,11 @@
 
 - **Modified blades** (wall rack) — filed into non-standard shapes. Patient metalwork. Not for livestock.
 - **KBW military knife** (wall rack, among butchering tools) — taken from [Edward Barnaś](../characters/soldier.md) night of the lynch. KBW stamp on handle. Cross-ref: [KBW documents](ciotkas-house.md) in Ciotka's backyard.
-- **KBW service pistol** ⚠️ (hidden — wrapped in oilcloth under a floorboard, or out in the smokehouse) — Edward Barnaś's sidearm, taken off his body the night of the lynch. This is the gun Edward swung as a club that night — the one that cracked [Zbigniew Gajda](../characters/wojewoda.md)'s ribs before Rezeń beat him down and took it. Rezeń kept it and never gave it back — his leash on the sołtys. Serial number matches Edward's KBW service file. → **Gives:** [butcher-has-soldiers-gun](../clues/clues.md#butcher-has-soldiers-gun)
+- **KBW rifle** ⚠️ (hidden — wrapped in oilcloth and sacking, out in the smokehouse rafters) — Edward Barnaś's service rifle, taken off his body the night of the lynch. This is the rifle they wrenched from his hands that night — the one whose stock cracked [Zbigniew Gajda](../characters/wojewoda.md)'s ribs in the struggle before they beat Edward to death with it. Rezeń took it off the body and never gave it back — his leash on the sołtys. Serial number matches Edward's KBW service file. → **Gives:** [butcher-has-soldiers-gun](../clues/clues.md#butcher-has-soldiers-gun)
 - **Girl's undergarments** ⚠️ (drawer in bench-bed frame) — taken from [Hania Barnaś](../characters/jagna.md) the night of the attack. Keeps them because they arouse him. **Content warning** — soften to ribbon/necklace if table needs it.
 - **Smell** (whole interior) — old blood soaked into wood. More than animal butchering produces.
 
-- **Result:** Knife → Soldier connection. Pistol → the weapon from the night of the lynch ([butcher-has-soldiers-gun](../clues/clues.md#butcher-has-soldiers-gun)). Drawer → what was done to the girl. → [butcher-compelled-to-feed](../clues/clues.md#butcher-compelled-to-feed)
+- **Result:** Knife → Soldier connection. Rifle → the weapon from the night of the lynch ([butcher-has-soldiers-gun](../clues/clues.md#butcher-has-soldiers-gun)). Drawer → what was done to the girl. → [butcher-compelled-to-feed](../clues/clues.md#butcher-compelled-to-feed)
 
 ### Confront about the well
 - **Cost:** 1 action
