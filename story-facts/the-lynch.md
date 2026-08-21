@@ -8,19 +8,19 @@
 
 The affair between Hania Barnaś and Emil Rzepka was an open secret, and **Helena Rzepka — Emil's fiancée — found out on her own.** She made no scene. She went to Hania quietly and asked her, plainly, to give Emil up. It should have ended there.
 
-It didn't. Emil, in the intimacy of the affair, had told Hania the one thing his family kept buried: he and his siblings — the Gajdas — were **Lemko, passing as Poles.** When Helena told her to step aside, Hania reached for that secret and made it a weapon: *give me Emil, leave me be — or the whole village learns what you are, and the state finishes what it started in '47.* **Blackmail.** She was nineteen, sharp, reckless with a danger she didn't respect. Emil never dreamed she'd use what he'd told her.
+It didn't — but not because of anything Hania did. Emil, in the intimacy of the affair, had let slip the one thing his family kept buried: he and his siblings — the Gajdas — were **Lemko, passing as Poles.** Hania knew. She was observant, and she had it from Emil's own mouth. But she never used it. She made no threat, named no price, went to no one. She was nineteen and in love, and the secret sat with her, harmless.
 
-Helena could out-wait a rival. She could not out-wait a blackmailer. A living Hania was a permanent gun to the family's head — and to their lives, in an era when a whisper to the right office meant deportation or worse. That is what the lynch was really meant to solve. **The affair was the pretext the village would accept; the blackmail was the reason it had to be permanent.**
+**The threat existed only in Helena's head.** She looked at the girl who wouldn't give up Emil and saw a permanent gun to the family's head: a living Hania *could* someday say what she knew, and in that era a whisper to the right office meant deportation or worse. Helena did not wait to find out whether she would. She presumed the worst, decided the girl was a danger that could never be out-waited, and moved to end her. **The affair was the pretext the village would accept; a blackmail that never happened was the reason Helena told herself it had to be permanent.**
 
 ## The Escalation
 
-Tadek Gajda, Zbigniew Gajda, and Stanisław Rezeń were drinking heavily. But the drinking wasn't accidental — **Helena Rzepka orchestrated it**. Instead of backing off, Hania had raised the stakes; Helena went to her brothers not in tears but with intent, told them the family was being blackmailed with the one secret that could destroy them all, fed the rage, got them drinking, and aimed them at Hania Barnaś.
+Tadek Gajda, Zbigniew Gajda, and Stanisław Rezeń were drinking heavily. But the drinking wasn't accidental — **Helena Rzepka orchestrated it**. She went to her brothers not in tears but with intent, told them the family's secret was in a Barnaś girl's hands and she would surely use it — dressed her own presumption as certain fact, fed the rage, got them drinking, and aimed them at Hania Barnaś. The blackmail she described to them was never real; it did not need to be.
 
 Three drunk men, each with their own reason to be furious — and one sober woman behind them:
-- **Zbigniew Gajda** — hates Edward Barnaś and everything connected to him (Lemko heritage); now his own family's survival is in a Barnaś girl's hands
+- **Zbigniew Gajda** — hates Edward Barnaś and everything connected to him (Lemko heritage); now believes his own family's survival is in a Barnaś girl's hands
 - **Tadek Gajda** — rejected by Hania Barnaś, now confirmed she chose Emil Rzepka over him
 - **Stanisław Rezeń** — came for the violence. He needs no grievance; the night is its own reward
-- **Helena Rzepka** — sober, present, directing. The true architect, silencing the threat to her family.
+- **Helena Rzepka** — sober, present, directing. The true architect, ending a threat she convinced herself was real.
 
 ## What Happened
 
@@ -50,7 +50,7 @@ Edward had shot the sołtys. Drunk, bloodied, past reason, the men carried the r
 
 | Who | Role in the lynch |
 |---|---|
-| **Helena Rzepka** | **Sober. The architect.** Found out about the affair, asked Hania to step aside, and was answered with blackmail. Orchestrated the drinking and aimed the men at Hania Barnaś to end the threat. Never touched anyone. The night went further than she planned — she has never disowned it. Weeks later she had the disappearance laundered into an official "they moved away" — she directed it; Emil's hand forged the paper. |
+| **Helena Rzepka** | **Sober. The architect.** Found out about the affair, asked Hania to step aside, and — when the girl wouldn't give up Emil — decided she was too dangerous to leave alive. Hania knew the family's secret but never used it; Helena presumed she would and did not wait to find out. Orchestrated the drinking and aimed the men at Hania Barnaś on a threat that was never real. Never touched anyone. The night went further than she planned — she has never disowned it. Weeks later she had the disappearance laundered into an official "they moved away" — she directed it; Emil's hand forged the paper. |
 | **Tadek Gajda** | Drunk, rejected lover. Beat Hania Barnaś and tore at her clothes. Helped kill Edward Barnaś. Saw Hania run and never went after her — thirteen years of that. |
 | **Zbigniew Gajda** | Drunk, ethnic hatred. Beat Hania Barnaś. Helped kill Edward Barnaś — and took Edward's bullet doing it. Carries the hidden scar. |
 | **Stanisław Rezeń** | Drunk, there for the violence. Attacked Hania Barnaś. Disarmed Edward Barnaś and kept his pistol. At the house, annoyed by the crying child, smothered him with a pillow to shut him up — deliberate, off any plan, wanted by no one — until Janina Gajda tore it away. |
@@ -66,8 +66,8 @@ Edward is the only body from that night in the well. **Hania Barnaś** fled and 
 ## Open Questions
 
 - Where was Janina Gajda during all of this? She followed the men to the house — did she see who did what?
-- Does Emil Rzepka know the full truth? (He knows Helena aimed the men — he heard her voice as he was dragged away. He does **not** know his own pillow-talk gave Hania the Lemko secret, or that she blackmailed the family with it. His thirteen years of guilt are built on an incomplete truth: he blames the affair, never suspecting he handed over the fuse.)
-- Who knows about the blackmail? Only the four it threatened — Helena, Zbigniew, Tadek, Janina — and Hania. Not Emil. It is the buried reason beneath the "morality mob" the village remembers.
+- Does Emil Rzepka know the full truth? (He knows Helena aimed the men — he heard her voice as he was dragged away. He does **not** know that his own pillow-talk is how Hania learned the family was Lemko. His thirteen years of guilt are built on the affair; he never suspects he was the leak — though the secret changed nothing, since Hania never used it.)
+- Who knows Hania "blackmailed" the family? **No one, because she never did.** The blackmail is Helena's fabrication — the story she told her brothers in 1954 and still tells anyone who corners her. The four who acted on it (Helena, Zbigniew, Tadek, Janina) believe it to this day. The truth — that Hania knew the secret and never touched it — survives only with Hania herself, and with anyone who learns from Emil or a cracking Tadek that she was never a threat.
 - Who knows Helena Rzepka's true role? The drunk men may genuinely not remember how much of the night was hers.
 - What became of Hania Barnaś? **No one knows — and no one can find out.** She fled and vanished. [Ryszard Dudka](../characters/neighbour.md) is privately certain she died and even buried remains he took to be hers, but he never confirmed it was her. This is the campaign's one deliberately unanswerable thread: she may be dead, she may be alive and long gone. The players can learn that she fled and that Dudka believes her dead — they **cannot** resolve which is true.
   - *GM only — the sealed answer:* she **lived.** She is now the faceless **telephone-exchange operator** (telefonistka) who patches every one of the committee's outside calls (see [secondary-characters — %OPERATOR%](../characters/secondary-characters.md#operator-the-telephone-exchange-operator)). The truth exists in the fiction; it is simply unreachable by the players. Hold it; never hand it over.

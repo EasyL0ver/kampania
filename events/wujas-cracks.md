@@ -28,11 +28,11 @@ What Tadek Gajda does depends entirely on how the players have treated him:
 
 ### Path A: Confession
 
-If the players have shown him **humanity** — listened to him, shared a drink, treated him like a person instead of a suspect — he breaks down and talks. Not all at once. In fragments, between sobs and swigs. But he gives them the lynch: who did what, where the bodies went, the well — and the thing the village never knew, that the girl had the family cornered. The Barnaś girl found out what they were and threatened to hand them all to the state; Helena aimed the men at her to make it stop.
+If the players have shown him **humanity** — listened to him, shared a drink, treated him like a person instead of a suspect — he breaks down and talks. Not all at once. In fragments, between sobs and swigs. But he gives them the lynch: who did what, where the bodies went, the well — and the thing that eats him worst, that the girl never did anything to deserve it. Helena told them Hania was going to hand them all to the state, that she had their secret and would use it. Tadek believed it that night; drunk enough, angry enough, he believed it. Sober and thirteen years on, he knows better — she was just a girl who knew too much and never breathed a word, and they killed her father and drove her into the dark over a threat his sister invented.
 
 This is the **most direct path to the full truth** about the lynch. No other NPC will lay it out this plainly.
 
-*Clues given:* [jagna-blackmailed-the-family](../clues/clues.md#jagna-blackmailed-the-family), plus the wider lynch reconstruction (who did what, the bodies, the well) at the GM's discretion based on how far Tadek goes.
+*Clues given:* [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret) — and crucially the *truth* of it, that she never used what she knew, which is what exposes Helena's blackmail story as a lie. Plus the wider lynch reconstruction (who did what, the bodies, the well) at the GM's discretion based on how far Tadek goes.
 
 ### Path B: Suicide
 

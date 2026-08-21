@@ -94,8 +94,8 @@ Something violent happened one night in 1954. [Zbigniew Gajda](../characters/woj
 ### jagna-painter-affair
 [Hania Barnaś](../characters/jagna.md) and [Emil Rzepka](../characters/painter.md) were lovers. Open secret in the village — everyone knew.
 
-### jagna-blackmailed-the-family
-When [Helena Rzepka](../characters/matrona.md) asked her to give up Emil, [Hania Barnaś](../characters/jagna.md) refused and instead used the family's Lemko secret against them — threatening to expose them to the village and the state unless she was left alone with Emil. A living Hania was a permanent threat the family could never out-wait. This is the buried reason the lynch had to be final.
+### jagna-knew-the-secret
+[Hania Barnaś](../characters/jagna.md) had discovered that the Gajda siblings were secretly Lemko — she learned it from [Emil Rzepka](../characters/painter.md). She never used it: no threat, no demand, no word to anyone. She simply knew. It was enough to get her killed — [Helena Rzepka](../characters/matrona.md) presumed the girl would someday use it and did not wait to find out.
 
 ### matrona-orchestrated-lynch
 [Helena Rzepka](../characters/matrona.md) orchestrated the drinking that led to the lynch. She stayed sober, aimed her brothers at [Hania Barnaś](../characters/jagna.md), and said "get rid of the problem." She never touched anyone — every hand that night was male.
