@@ -33,3 +33,6 @@
 - [Foreman Saves Village](foreman-saves-village.md)
 - [The Lynch](punishment-lynch.md)
 - [The Report](the-report.md)
+- [The Priest's Plea](priests-plea.md)
+- [The Odpust — Grace at the Last](the-odpust.md)
+- [The Seal-Break — The Priest Names the Dead](the-seal-break.md)

@@ -19,3 +19,4 @@
 - [Well Influence — Per NPC](well-influence.md)
 - [Irena & Marek's Investigation — Parallel and Flip](wife-junior-investigation.md)
 - [The Wolves — Ambivalent Threat](wolves.md)
+- [The Spiritual Endings — Rest, Grace, Forget](spiritual-endings.md)
