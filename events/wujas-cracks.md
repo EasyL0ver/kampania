@@ -1,6 +1,6 @@
-<!-- Restructured from story essay. Needs scene-level detail: sensory Setup, concrete Opportunities, specific Actions with outcomes. -->
-
 # Tadek Gajda Cracks
+
+<!-- Restructured from story essay. Needs scene-level detail: sensory Setup, concrete Opportunities, specific Actions with outcomes. -->
 
 **Location:** Various (depends on path — could be anywhere Tadek is found)
 **Present:** [Tadek Gajda](../characters/wujas.md)

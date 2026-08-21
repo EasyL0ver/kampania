@@ -1,6 +1,6 @@
-<!-- Restructured from story essay. Needs scene-level detail: sensory Setup, concrete Opportunities, specific Actions with outcomes. -->
-
 # Stanisław Rezeń Hunts
+
+<!-- Restructured from story essay. Needs scene-level detail: sensory Setup, concrete Opportunities, specific Actions with outcomes. -->
 
 **Location:** %NEW_VILLAGE% and surroundings
 **Present:** [Stanisław Rezeń](../characters/butcher.md)

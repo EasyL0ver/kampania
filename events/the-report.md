@@ -1,6 +1,6 @@
-<!-- Restructured from story essay. Needs scene-level detail: sensory Setup, concrete Opportunities, specific Actions with outcomes. -->
-
 # The Report — The State's Ending
+
+<!-- Restructured from story essay. Needs scene-level detail: sensory Setup, concrete Opportunities, specific Actions with outcomes. -->
 
 **Location:** Police car, road out of village
 **Present:** [por. Witold Skowron](../characters/skowron.md), players
