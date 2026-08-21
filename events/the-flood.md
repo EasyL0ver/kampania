@@ -1,56 +1,66 @@
 # The Flood
 
-**Location:** %NEW_VILLAGE% — everywhere
-**Present:** Everyone. The whole village wakes to this.
-**Available:** Day 3, morning. Automatic — no trigger needed.
+**Location:** %NEW_VILLAGE%
+**Present:** Everyone
+**Available:** Day 3 morning; automatic.
 
 ## Hook
 
-The rain. It hasn't stopped since Day 1 — but last night it got louder. This morning it's deafening. Water drumming on the roof like fists. Audible everywhere, impossible to miss.
+- Rain has continued since Day 1.
+- During the night before Day 3, the rain became louder.
+- In the morning, water drums on roofs across the village.
+- The hook is unavoidable.
 
 ## Setup
 
-The rain hasn't stopped since Day 1. Last night it got louder. This morning it's deafening.
-
-Players wake to water drumming on the roof like fists. The windows are grey — not dawn grey, flood grey. When they step outside, the world has changed. The road they drove in on is gone. Not damaged — **gone.** Where there was packed earth and gravel, there's a brown river of mud sliding downhill. The bridge over the creek is underwater. The creek isn't a creek anymore.
-
-The village is an island.
-
-por. Witold Skowron was supposed to return yesterday. He didn't. No car, no word, no explanation. The phone in [Zbigniew Gajda](../characters/wojewoda.md)'s office is the only connection to the outside — if the line still works.
-
-Villagers are already out. Sandbags near the lower houses. [Michał Pytlak](../characters/foreman.md) has PGR workers reinforcing the livestock barn. Nobody panics. **They've seen this before.** The Bieszczady flood every few years. The old-timers read the river and know: this one's bad. The water table is rising. Cellars are filling. The ground squelches underfoot everywhere.
-
-The players are the only ones who look lost.
+- Players wake to heavy rain.
+- The windows are grey with flood weather.
+- The road the committee drove in on is gone under mud and flowing water.
+- The bridge over the creek is underwater.
+- The creek has become a flood channel.
+- The village is cut off.
+- por. Witold Skowron was supposed to return yesterday and has not.
+- There is no car, word, or explanation from him.
+- The phone in [Zbigniew Gajda](../characters/wojewoda.md)'s office is the only connection to the outside if the line works.
+- Villagers are already working with sandbags near lower houses.
+- [Michał Pytlak](../characters/foreman.md) has PGR workers reinforcing the livestock barn.
+- The village recognizes this as a severe flood.
+- The water table is rising.
+- Cellars are filling.
+- The ground is saturated.
+- The committee is outside the village's normal flood-response machinery.
 
 ## Opportunities
 
-- **The road** — walking to the road confirms it. A hundred meters of mud and flowing water where the surface used to be. Not passable on foot, not even close by vehicle. **Engineering:** The road was already marginal — poor drainage, no proper foundation. This isn't freak weather destroying infrastructure; it's decades of neglect meeting a heavy rain. The road will need days to drain, then repair. Nobody's coming.
-- **The phone** — in [Zbigniew Gajda](../characters/wojewoda.md)'s office at [his house](../locations/wojewodas-house.md). Players who try to use it: line crackles, cuts in and out. May work, may not. **Zbigniew won't refuse access** — he's too smart for that. He'll stand in the room while they call. Listening. Helpful.
-- **Village reaction** — nobody's surprised. The flood is a known enemy. Watch the villagers and notice: they're organized. Zbigniew gives quiet orders. [Pytlak](../characters/foreman.md) runs the PGR response. The village machinery works. **The committee is not part of that machinery.** Players who try to help are welcomed politely and given busywork — haul this, hold that. Players who try to lead are ignored.
-- **The water table** — cellars flooding, ground saturated. Players who've been to [%OLD_VILLAGE%](../locations/old-village-ruins.md) should realize: the well is filling too. The water that's been sitting in that shaft is rising. Whatever's down there is closer to the surface now.
-- **Skowron's absence** — he was supposed to come back. He hasn't. Is the road out also washed out? Is he stuck on the other side? Or did something else happen? The village doesn't care — one less outsider. The players should care a lot.
+- **The washed-out road** `(requires: Engineering)` — the road failed because poor drainage and weak foundation met heavy rain. Repair will take days after the water drops. → Gives: [`road-washes-out`](../clues/clues.md#road-washes-out)
+- **The office phone** `(requires: Observation)` — [Zbigniew Gajda](../characters/wojewoda.md) offers access and stays close enough to hear what is reported. → Gives: [`phone-is-lifeline`](../clues/clues.md#phone-is-lifeline)
+- **The village response** `(requires: Streetwise or Observation)` — Zbigniew gives quiet orders, [Pytlak](../characters/foreman.md) runs the PGR response, and villagers ignore outsider attempts to lead.
+- **The rising water table** `(requires: Engineering and prior visit to [%OLD_VILLAGE%](../locations/old-village-ruins.md))` — the well at the old village is filling too. → Gives: [`old-village-flooding`](../clues/clues.md#old-village-flooding)
+- **Skowron's absence** `(requires: Observation)` — the officer's missing return leaves the committee with no outside handler.
 
 ## Actions
 
 ### Try the phone
-- **Requires:** Access to Zbigniew's office (ask, or find it unattended)
-- **Cost:** Free (first attempt). Repeated attempts cost 1 action — the line is unreliable, each call takes time.
-- **Outcome:**
-  - **Line works:** Reaches the powiat office. Static, cuts out. Managed to convey: stranded, road gone, need extraction. Response: "Noted. We'll send someone when conditions allow." No timeline. No urgency. Bureaucracy doesn't rescue.
-  - **Line dead:** Nothing. Zbigniew shrugs. *"The poles come down in every flood. Give it a day."*
-  - **Zbigniew present:** He's helpful. Offers the phone freely. Stands nearby — not hovering, not threatening. Just... there. **Read:** He wants to know what they report. He wants to know if Skowron told them anything before the road went.
-  - **The operator refuses** *(see [Operator Refuses Help](operator-refuses-help.md))* — every attempt to reach the outside passes through the same flat woman's voice at the town exchange that has patched every call all game. During the flood she picks up, stays on the line, and helps with nothing — courteous procedure against their panic, never a refusal, never a hang-up. Run the full beat (the shock, the wild *"Hania?"* guess, the gasp) as its own event. Two levers can turn her: if the players know [Edek](../characters/glupek.md) is her brother and that he's trapped in the flooding forest, or if they've turned on the village themselves and mean to bring the guilty to justice, she relays the call (she withholds rescue, but gladly relays retribution). **Guardrails:** don't confirm it, and don't let it be the thing that dooms them — the phone was never rescue (the powiat's *"we'll send someone when conditions allow"* above is the proof). To the GM it is Hania, letting the valley drown the way the valley once let her.
+- **Requires:** Access to Zbigniew's office.
+- **Cost:** Free for the first attempt; 1 action for repeated attempts.
+- **Outcome:** The line may reach the powiat office, fail, or route through the exchange. Any outside call is unreliable and monitored if Zbigniew is present.
+- **Gives:** [`phone-is-lifeline`](../clues/clues.md#phone-is-lifeline); Scene Unlock: [Operator Refuses Help](operator-refuses-help.md)
 
 ### Help with flood response
+- **Requires:** Nothing
 - **Cost:** 1 action
-- **Outcome:** Physical labor — sandbags, drainage, livestock. Pytlak talks more freely during shared work: the farm's struggles, underfunding, how every flood sets them back months. Workers mention the [old village](../locations/old-village-ruins.md) floods worse — *"the water pools there, nowhere to drain."*
-- **Gives:** Context for engineering/flood ending. **Gives:** [old-village-flooding](../clues/clues.md#old-village-flooding)
+- **Outcome:** Players help with sandbags, drainage, or livestock. PGR workers mention that the [old village](../locations/old-village-ruins.md) floods worse because water pools there.
+- **Gives:** [`old-village-flooding`](../clues/clues.md#old-village-flooding); NPC State Change: [Michał Pytlak](../characters/foreman.md) talks more freely during shared work
 
 ### Check on villagers
+- **Requires:** Nothing
 - **Cost:** 1 action
-- **Outcome:** Door-to-door in the village. Everyone's managing — this isn't their first flood. But the visits give access to houses and conversations that were harder to arrange before. People are home, busy, distracted. Guards are down.
-- **Gives:** Natural excuse to visit any house in the village. Access to NPCs in their homes. The flood is cover for investigation — *"just checking everyone's safe."*
+- **Outcome:** Players go door-to-door under cover of flood safety checks.
+- **Gives:** World State Change: players gain a natural excuse to visit any house and speak to NPCs at home
 
-## If Missed
+## Exits
 
-Not applicable — the flood happens to everyone. Players wake up to it regardless of their plans.
+- Continue investigations inside %NEW_VILLAGE%, using flood checks as cover.
+- Use the phone through [Operator Refuses Help](operator-refuses-help.md).
+- If the flood proof is established and shared, continue to [The Disclosure](the-disclosure.md).
+- If the village chooses engineering action, continue to [Foreman Saves the Village](foreman-saves-village.md).

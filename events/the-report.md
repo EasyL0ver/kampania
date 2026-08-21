@@ -1,45 +1,51 @@
 # The Report — The State's Ending
 
-<!-- Restructured from story essay. Needs scene-level detail: sensory Setup, concrete Opportunities, specific Actions with outcomes. -->
-
-**Location:** Police car, road out of village
+**Location:** Police car on the road out of the village
 **Present:** [por. Witold Skowron](../characters/skowron.md), players
-**Available:** End of game — final scene, plays after everything else
+**Available:** End of game; final scene after all other endings resolve.
 
 ## Trigger
 
-The game is over. The flood, the ritual, the lynch or its prevention — all of it is done. The players leave the village. por. Witold Skowron meets them. They hand over their report.
-
-## Hook
-
-<!-- Not applicable — this is the final scene. Players are in it by default. -->
+- The game is over.
+- The flood, ritual, lynch, prevention, or other endgame result has resolved.
+- Players leave the village.
+- por. Witold Skowron meets them.
+- Players hand over their report.
 
 ## Setup
 
-**He reads it in the car.**
-
-Somewhere during the five days, the players may have discovered the 1947 Lemko massacre — the state's crime, buried under the dam. Akcja Wisła. The original sin that predates the lynch, the well, everything.
-
-por. Witold Skowron has made it clear — implicitly or explicitly — that the state wants this buried. The dam is infrastructure *and* a grave. The flooding isn't just about hydroelectric power. It's about making the evidence disappear forever.
-
-The players write the report. They choose what goes in.
+- por. Witold Skowron reads the report in the car.
+- The players may have discovered the 1947 Lemko massacre.
+- The massacre is the state's buried crime under the dam.
+- Skowron has signaled that the state wants the massacre buried.
+- The dam is infrastructure and a grave.
+- The players choose what goes into the report.
 
 ## Opportunities
 
-<!-- TODO: Reading Skowron's face as he reads. The driver's behaviour. The route the car takes. Small details that signal what's coming. -->
+- **Skowron reading** `(requires: Read)` — his reaction changes when the 1947 massacre appears in the report.
+- **The route** `(requires: Observation)` — if the massacre is in the report and the truth is not already outside the car, the car changes course.
 
 ## Actions
 
-**If the massacre is not in the report:** por. Witold Skowron reads, nods, closes the folder. The car drives away. The state's secret stays buried. The dam will finish the job.
+### Submit a report without the massacre
+- **Requires:** Players omit the 1947 Lemko massacre from the report.
+- **Cost:** Free
+- **Outcome:** por. Witold Skowron accepts the report and the car drives away.
+- **Gives:** Ending Progress: State cover-up ending; World State Change: the state's secret stays buried
 
-**If the massacre is in the report:** por. Witold Skowron reads. He stops. He looks at the players for a long moment. Then he nods at the driver. The car changes course. No explanation. No threats. The road they're on is no longer the road home.
+### Submit a report with the massacre and no outside witness
+- **Requires:** Players include the 1947 Lemko massacre and did not call prof. Tadeusz Bieńkowski.
+- **Cost:** Free
+- **Outcome:** por. Witold Skowron reads the report, signals the driver, and the car changes course.
+- **Gives:** Ending Progress: State suppression ending; World State Change: the players do not reach the road home
 
-**If the players called prof. Tadeusz Bieńkowski:** por. Witold Skowron reads. He stops. He looks at the players. He's about to nod at the driver — and then he doesn't. He knows. The players told prof. Tadeusz Bieńkowski during the game, by phone. The truth is already outside this car. Changing course changes nothing. The car continues on the road home. Silence. The players live — and so does the truth.
+### Submit a report with the massacre and an outside witness
+- **Requires:** Players include the 1947 Lemko massacre and called prof. Tadeusz Bieńkowski during the game.
+- **Cost:** Free
+- **Outcome:** por. Witold Skowron knows the truth already exists outside the car and lets the car continue home.
+- **Gives:** Ending Progress: truth survives outside the village; World State Change: the players live
 
-**If the players didn't call prof. Tadeusz Bieńkowski:** The nod. The turn. THE END.
+## Exits
 
-The players may not even realise the phone call saved their lives. They may not connect it until the ride home — or never. But the GM knows.
-
-## If Missed
-
-<!-- Not applicable — this is the final scene. It always plays. -->
+- End the campaign.

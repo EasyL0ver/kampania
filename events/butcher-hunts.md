@@ -1,51 +1,70 @@
 # Stanisław Rezeń Hunts
 
-<!-- Restructured from story essay. Needs scene-level detail: sensory Setup, concrete Opportunities, specific Actions with outcomes. -->
-
-**Location:** %NEW_VILLAGE% and surroundings
+**Location:** [Village outskirts](../locations/village-outskirts.md)
 **Present:** [Stanisław Rezeń](../characters/butcher.md)
-**Available:** Day 3 onward — after players investigate too deeply
+**Available:** Day 3 onward, after players investigate too deeply.
 
 ## Trigger
 
-Stanisław Rezeń is watching. He's been watching since the committee arrived. The moment he believes the players **know too much** — about the lynch, the well, the family — he decides to solve the problem the same way he solved it in 1954. No witnesses.
-
-What counts as "too much":
-- Players asking about Edward Barnaś's family directly
-- Players visiting the well or showing interest in %OLD_VILLAGE%
-- Players talking to Tadek Gajda when he's drunk and loose
-- Janina Gajda's death — the secret is already out, and the players were there
-- Any direct confrontation with Zbigniew Gajda or Stanisław Rezeń about the lynch
+- [Stanisław Rezeń](../characters/butcher.md) believes the players know too much.
+- Trigger examples include direct questions about [Edward Barnaś](../characters/soldier.md)'s family.
+- Trigger examples include player interest in [%OLD_VILLAGE%](../locations/old-village-ruins.md) or the well.
+- Trigger examples include players talking to [Tadek Gajda](../characters/wujas.md) when he is drunk and loose.
+- Trigger examples include [Janina Gajda](../characters/ciotka.md)'s death after the players were present.
+- Trigger examples include direct confrontation with [Zbigniew Gajda](../characters/wojewoda.md) or [Stanisław Rezeń](../characters/butcher.md) about the 1954 lynch.
 
 ## Hook
 
-<!-- TODO: Dogs appearing near places the players visit. Rezeń seen in the distance, watching. A sense of being followed. -->
+- [Stanisław Rezeń](../characters/butcher.md)'s dogs appear near places the players visit.
+- [Stanisław Rezeń](../characters/butcher.md) is seen watching from a distance.
+- A door is left open.
+- Something goes missing.
+- A dead animal is left on a doorstep.
 
 ## Setup
 
-Stanisław Rezeń is not impulsive. He was the coldest head in the room in 1954 — the one who said "no witnesses" while the others were still in shock. He hasn't changed.
-
-- **He watches first.** Tracks what the players do, who they talk to, where they go.
-- **He uses the isolation.** The road is flooded. No backup is coming. The forest is his territory, the village edge is his domain.
-- **He has the dogs.** They're not pets — they're an extension of him. Unsettling, aggressive, useful.
-- **He picks off stragglers.** A player alone at night, near %OLD_VILLAGE%, on the village edge — that's an opportunity.
-- **He doesn't announce himself.** No threats, no warnings. The first sign that Stanisław Rezeń is hunting is when something goes wrong.
+- [Stanisław Rezeń](../characters/butcher.md) tracks what the players do.
+- [Stanisław Rezeń](../characters/butcher.md) tracks who the players talk to.
+- [Stanisław Rezeń](../characters/butcher.md) tracks where the players go.
+- The road is flooded.
+- The forest edge and village edge are isolated.
+- [Stanisław Rezeń](../characters/butcher.md)'s dogs move with him.
+- Lone players at night, near [%OLD_VILLAGE%](../locations/old-village-ruins.md), or on the village edge are vulnerable.
+- [Stanisław Rezeń](../characters/butcher.md) gives no direct warning before escalation.
 
 ## Opportunities
 
-The threat isn't binary — it builds:
-
-1. **Observation** — Stanisław Rezeń's dogs appear near places the players visit. He's seen in the distance, watching.
-2. **Intimidation** — Something goes missing. A door left open. A dead animal on the doorstep. Messages without words.
-3. **Action** — Direct physical threat. A player cornered. A nighttime approach. The road is flooded and nobody's coming.
+- **Dogs near the committee** `(requires: Observation)` — The same dogs appear near multiple places the players visit.
+- **Watcher at distance** `(requires: Observation)` — [Stanisław Rezeń](../characters/butcher.md) is present often enough that coincidence is unlikely.
+- **Wordless intimidation** `(requires: Milicjant or Streetwise)` — Missing items, open doors, or dead animals are threats without written messages.
 
 ## Actions
 
-- **Avoid triggering him** — stay surface-level, don't dig. Safe, but they learn nothing.
-- **Confront him** — dangerous, but Stanisław Rezeń alone against multiple players is different from Stanisław Rezeń with two drunk accomplices in the dark.
-- **Turn the village against him** — he's already an outcast. If the truth comes out, nobody will protect him.
-- **Use Zbigniew Gajda** — the sołtys can control Stanisław Rezeń. But that means trusting the sołtys.
+### Confront him
+- **Requires:** [Stanisław Rezeń](../characters/butcher.md) has escalated beyond watching.
+- **Cost:** 1 action
+- **Outcome:** [Stanisław Rezeń](../characters/butcher.md) goes cold under pressure; his knife and dogs are ready before he raises his voice.
+- **Gives:** [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+
+### Use Zbigniew Gajda
+- **Requires:** Access to [Zbigniew Gajda](../characters/wojewoda.md) before a direct attack.
+- **Cost:** 1 action
+- **Outcome:** [Zbigniew Gajda](../characters/wojewoda.md) intervenes and [Stanisław Rezeń](../characters/butcher.md) pauses the escalation.
+- **Gives:** NPC State Change: [Zbigniew Gajda](../characters/wojewoda.md) is now actively restraining [Stanisław Rezeń](../characters/butcher.md).
+
+### Turn the village against him
+- **Requires:** Evidence the village will accept against [Stanisław Rezeń](../characters/butcher.md).
+- **Cost:** 1 action
+- **Outcome:** [Stanisław Rezeń](../characters/butcher.md) loses the village's passive tolerance.
+- **Gives:** World State Change: [Stanisław Rezeń](../characters/butcher.md) is exposed as a direct threat rather than a tolerated outcast.
+
+## Exits
+
+- Return to %NEW_VILLAGE% under guard or in a group.
+- Go to [Zbigniew Gajda's house](../locations/wojewodas-house.md) to involve the sołtys.
+- Go to [Stanisław Rezeń's house](../locations/butchers-house.md) if the players choose direct confrontation.
 
 ## If Missed
 
-<!-- TODO: If players don't trigger Rezeń's threshold, he remains in observation mode. The threat never escalates. Players are safe but miss the danger that confirms his nature. -->
+- If the players never cross [Stanisław Rezeń](../characters/butcher.md)'s threshold, he remains in observation mode.
+- If the players stay surface-level, the direct threat does not escalate.

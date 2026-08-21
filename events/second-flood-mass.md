@@ -1,23 +1,51 @@
 # Second Flood Mass
 
-**Location:** [The church](../locations/the-church.md) — Day 6 morning
-**Present:** [ks. Władysław Pająk](../characters/priest.md) and the village, the water higher, nerves worn through — [Helena](../characters/matrona.md) and [Emil](../characters/painter.md), [Zbigniew](../characters/wojewoda.md), and [Tadek](../characters/wujas.md), who has come to every Mass since burying his sister. The last Mass before the [lynch](punishment-lynch.md) that night.
-**Available:** Day 6. His sermon has walked backward through time — the warning, then the killing — and here it reaches the ground the whole valley stands on.
+**Location:** [The church](../locations/the-church.md)
+**Present:** [ks. Władysław Pająk](../characters/priest.md), [Helena](../characters/matrona.md), [Emil](../characters/painter.md), [Zbigniew](../characters/wojewoda.md), [Tadek](../characters/wujas.md), villagers
+**Available:** Day 6 morning; before [The Lynch](punishment-lynch.md).
+
+## Trigger
+
+- ks. Pająk's flood sermons have moved from warning to killing to the ground under the village.
+- This Mass fires on Day 6 morning.
+
+## Hook
+
+- Church bells call the village to Mass in the morning rain.
+- Villagers gather because the flood has trapped them and fear is rising.
 
 ## Setup
 
-He preaches on **Habakkuk** — the woe against the town built on blood:
-
-> *"Woe to him who builds a town with blood, and founds a city on iniquity!... For the stone will cry out from the wall, and the beam from the woodwork will respond."* — Habakkuk 2:11-12
-
-Build a town on blood, he tells them, and the town itself becomes the witness. The very stones of the walls, the beams of the roofs — they cry out. There is no hiding a foundation like that, because the building sits on it and the building will not stay silent forever. He is not talking about 1954 anymore. He is talking about what was here before the new houses — the old village, the people the state called *resettled*, the grave the valley was raised over. The deepest thing the water is answering.
-
-This is the sermon that tips the village. A parish already frightened, already primed by the funeral, hears their priest all but say aloud that they are cursed, that the ground is guilty, that the flood is the reckoning — and that night, needing someone to blame, they go looking for a body to throw in the well. His pulpit is the mob's fuel; this is the strike that lights it.
+- ks. Pająk preaches on Habakkuk 2:11-12.
+- The sermon says a town built on blood becomes its own witness.
+- He says stones and beams cry out against a guilty foundation.
+- He is no longer speaking only about 1954.
+- He points toward the old village, the buried dead, and the valley's deeper debt.
+- The village hears the flood framed as reckoning.
+- This sermon fuels the mob that forms that night.
 
 ## Opportunities
 
-TBD.
+- **The sermon target** `(requires: Culture or History)` — Habakkuk points to a settlement founded on blood, not only a personal sin.
+- **The village reaction** `(requires: Read)` — the parish is primed to seek a body to blame.
+- **Tadek's attendance** `(requires: Observation)` — [Tadek](../characters/wujas.md) has attended every Mass since burying his sister.
 
 ## Actions
 
-TBD.
+### Let the sermon stand
+- **Requires:** Nothing
+- **Cost:** Free
+- **Outcome:** The sermon lands on the whole congregation and becomes part of the night's violence.
+- **Gives:** World State Change: the mob-justice pressure rises toward [The Lynch](punishment-lynch.md)
+
+### Challenge the judgment reading
+- **Requires:** A player publicly pushes mercy or restraint after Mass.
+- **Cost:** 1 action
+- **Outcome:** The challenge gives ks. Pająk and the parish a visible alternative to judgment.
+- **Gives:** Ending Progress: +1 to the [Faith in Redemption](../story-facts/spiritual-endings.md) score
+
+## Exits
+
+- Return to [The church](../locations/the-church.md).
+- Continue toward [The Lynch](punishment-lynch.md) that night.
+- If the Faith in Redemption path is strong, continue toward [The Odpust](the-odpust.md).

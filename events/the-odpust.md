@@ -1,70 +1,83 @@
 # The Odpust — Grace at the Last
 
-**Location:** [The church](../locations/the-church.md) — Day 7, the water reaching the door
-**Present:** [ks. Władysław Pająk](../characters/priest.md) (restored, not broken), and whoever the [lynch](punishment-lynch.md) left alive: [Helena Rzepka](../characters/matrona.md), [Zbigniew Gajda](../characters/wojewoda.md) (if he survived Day-6 night), [Tadek](../characters/wujas.md), [Ryszard Dudka](../characters/neighbour.md), [Emil](../characters/painter.md), the whole village crammed in above the rising water. [Stanisław Rezeń](../characters/butcher.md) — who has not darkened the church door in years and skipped every flood Mass — walks in for **this one**, if the mob didn't take him first, and takes the absolution like it was owed. [Stefania Kopacz](../characters/babcia.md) comes **only** to plead (see below).
-**Available:** Day 7. Fires **only if** the [Faith in Redemption](../story-facts/spiritual-endings.md) score cleared its threshold by the end of Day 6, **and** [Rest](the-ritual.md) has not fired. Otherwise the day goes to [The Seal-Break](the-seal-break.md) instead.
+**Location:** [The church](../locations/the-church.md)
+**Present:** [ks. Władysław Pająk](../characters/priest.md), [Helena Rzepka](../characters/matrona.md), [Zbigniew Gajda](../characters/wojewoda.md) (if survived Day 6), [Tadek](../characters/wujas.md), [Ryszard Dudka](../characters/neighbour.md), [Emil](../characters/painter.md), [Stanisław Rezeń](../characters/butcher.md) (if not killed), [Stefania Kopacz](../characters/babcia.md) (conditional), villagers
+**Available:** Day 7; fires only if [Faith in Redemption](../story-facts/spiritual-endings.md) cleared its threshold by end of Day 6 and [Rest](the-ritual.md) has not fired.
 
 ## Trigger
 
-Enough of the guilty knelt in his confessional. The men who did the worst thing in the valley came to him contrite, and watching them kneel was the proof ks. Pająk needed that redemption is real — that *everyone* means everyone. His crisis resolves toward mercy. He will not spend his last hours agreeing the valley earned the water; he will spend them dragging every soul he can into grace before it comes.
+- Enough guilty villagers knelt in ks. Pająk's confessional.
+- ks. Pająk's crisis resolves toward mercy.
+- He chooses to offer grace before the water reaches the church.
+- If [Rest](the-ritual.md) has fired, this event does not fire.
+- If the threshold is not met, the day goes to [The Seal-Break](the-seal-break.md).
 
 ## Hook
 
-The bell — but steady. After days of a ringer rushing it in fear, the strikes are even, unhurried, almost calm. Audible across %NEW_VILLAGE% through the rain. The village comes expecting another frightened Mass and hears, instead, a man who has stopped being afraid.
+- The church bell rings steadily through the rain.
+- The bell is audible across %NEW_VILLAGE%.
+- Villagers come expecting another flood Mass.
+- The ringing signals calm rather than panic.
 
 ## Setup
 
-The church is packed past its walls, and the black water has come under the door — a sheet spreading across the flagstones, rising over the soles of everyone at the back. The floor candles have drowned. But ks. Pająk is not the man of the last three Masses. The shaking is gone. He stands straight at the altar in clean vestments and looks at the drowning valley in front of him with something like peace.
-
-He does not rush the Latin. He preaches — short, certain — on **Isaiah**: *"Though your sins are like scarlet, they shall be as white as snow; though they are red like crimson, they shall become like wool."* His eyes rest on the men he knows carry blood — Zbigniew, Tadek, and Rezeń, of all people, in a pew for the first time in years — when he says *scarlet*. He does not name them. He does not have to. He tells the church that the water at the door is not the end of mercy but the last chance for it — that a soul which drowns forgiven drowns saved, and that no sin in this valley, none, is too red to be made white.
-
-Then he offers it to all of them at once.
-
-**Composure: 2** — the restoration of the one man who was supposed to hold the line, offered as a gift to a room full of the damned.
+- The church is packed.
+- Black water has reached under the door.
+- Water spreads across the flagstones.
+- Floor candles are drowned.
+- ks. Pająk stands straight at the altar in clean vestments.
+- He preaches on Isaiah: sins like scarlet becoming white.
+- He looks at men he knows carry blood when he says scarlet.
+- He does not name them.
+- He says the water is the last chance for mercy, not the end of mercy.
+- He offers general absolution to the congregation.
+- If [Rezeń](../characters/butcher.md) lives, he attends despite skipping earlier Masses.
+- If the players stirred the Lemko rite but did not finish [Rest](the-ritual.md), [Stefania Kopacz](../characters/babcia.md) stands and pleads against washing killers clean while the dead in the well remain unnamed.
+- **Composure:** 2
 
 ## Opportunities
 
-- **The restored priest** — straight-backed, calm, unafraid at the altar.
-  - **Read:** This is a man who has decided. The judgment that was eating him has lost — he is not here to condemn the valley, he is here to save as much of it as the water leaves him time for.
-  - **Culture:** What he is reaching for is not the ordinary Mass. He is building toward **general absolution** — the rite a chaplain gives a battlefield, a sinking ship, a valley about to drown. Danger of death is the one door canon law leaves open, and he is walking the whole church through it.
-
-- **The word *scarlet*** — where his eyes go when he says it.
-  - **Read:** He looks at Zbigniew. At Tadek. At Rezeń, who never comes and came today. He is telling the men he knows are guilty, without a single name, that he knows, and that it does not put them beyond this. His eyes never find Helena — the one soul in the church he has no idea to look for.
-
-- **The butcher in the pew** — [Rezeń](../characters/butcher.md), who has skipped every Mass, sitting through this one.
-  - **Read:** He is not here in contrition. He feels nothing to repent. He came because absolution is being handed out and he sees no reason not to take his. The void walks in, holds out his hands, and the restored priest — who has decided mercy means *everyone* — pours grace over a man with no guilt to wash. That is either the whole point of grace or its final obscenity, and the priest has chosen to believe it is the point.
-
-- **The two thieves** *(if a player holds [`priest-knows-everything`](../clues/clues.md#priest-knows-everything))* — the shape of what he's doing is the cross with a thief on either side.
-  - **Read:** The general absolution is thrown over the whole church, but it only *lands* on the one who admits the sentence is just. [Helena](../characters/matrona.md) is the thief who repents — but only if she has broken herself, stepped forward and confessed the thing the priest never knew, since the flood has finally dissolved the order she stayed silent to protect. [Zbigniew](../characters/wojewoda.md), certain to the end, is the thief who mocks — offered the same grace and unable to take it.
+- **The restored priest** `(requires: Read)` — ks. Pająk has chosen mercy over judgment.
+- **The rite forming** `(requires: Culture)` — he is building toward general absolution for people in danger of death.
+- **The word scarlet** `(requires: Read)` — his eyes go to Zbigniew, Tadek, and Rezeń, but not Helena.
+- **The butcher in the pew** `(requires: Read and [Rezeń](../characters/butcher.md) present)` — Rezeń is accepting absolution without visible contrition.
+- **The two thieves pattern** `(requires: Read and [`priest-knows-everything`](../clues/clues.md#priest-knows-everything))` — the absolution is offered to all, but it lands differently on those who admit guilt and those who cannot.
+- **Babcia's objection** `(requires: [Stefania Kopacz](../characters/babcia.md) present and Culture)` — the Lemko dead have not been named or rested, so Catholic absolution does not answer their grievance.
 
 ## Actions
 
-### Receive the odpust (let it happen)
-- **Requires:** Nothing — this is the payoff, not a check
+### Receive the odpust
+- **Requires:** Nothing
 - **Cost:** Free
-- **Outcome:** ks. Pając grants **general absolution** to the whole congregation, the guilty among them, Rezeń included if he lives. He speaks **Micah** as he does it: *"Thou wilt cast all our sins into the depths of the sea."* The flood that came to punish becomes the water that buries the sin forever. The village is forgiven as one body as the water climbs the altar steps. Whoever among the guilty can admit their guilt receives it whole; whoever cannot (Zbigniew) is offered it and drowns unable to take it — the thief who mocked.
-  - **Ending Progress:** the **Grace** ending fires. Forecloses [Rest](the-ritual.md).
+- **Outcome:** ks. Pająk grants general absolution to the congregation as the water rises.
+- **Gives:** Ending Progress: the Grace ending fires; World State Change: [Rest](the-ritual.md) is foreclosed
 
 ### Bring a specific guilty soul to the rail
-- **Requires:** A guilty NPC present and reachable — and the players willing to walk them to the front
+- **Requires:** A guilty NPC is present and reachable.
 - **Cost:** 1 action
-- **Outcome:** The odpust covers the whole church, but a soul brought *forward* — named, walked to the rail, made to kneel — receives it as the good thief did, with their guilt spoken and answered. This is how [Helena](../characters/matrona.md) is finally freed: shown there is nothing left to protect, she can kneel. This is the difference between a soul absolved in the crowd and a soul absolved on its knees.
-  - **NPC State Change:** the named soul dies shriven and at peace rather than merely swept up in the general grace.
+- **Outcome:** The named soul is walked forward, made to kneel, and receives absolution with guilt spoken and answered.
+- **Gives:** NPC State Change: the named guilty soul dies shriven and at peace
 
-### Refuse it — walk out
-- **Requires:** A player who wants the guilty exposed, not forgiven
-- **Cost:** —
-- **Outcome:** A player can refuse the absolution for themselves and walk into the rain — but they cannot stop him giving it to the church. Grace is his to grant, not theirs to withhold. Walking out costs nothing mechanically; it is a statement that mercy for these men is a wound the player won't stand inside. Note this is *not* the way to expose the truth — that path was [The Seal-Break](the-seal-break.md), and it closed when his faith held.
-  - **World State Change:** none — the odpust proceeds without them.
+### Answer Babcia's plea by stopping
+- **Requires:** [Stefania Kopacz](../characters/babcia.md) is present and the players choose not to proceed past her plea.
+- **Cost:** 1 action
+- **Outcome:** The players refuse to let the odpust be the final answer while the well dead remain unnamed.
+- **Gives:** Ending Progress: Grace is interrupted; Scene Unlock: [The Ritual](the-ritual.md)
 
-## Babcia's Plea
+### Proceed past Babcia's plea
+- **Requires:** [Stefania Kopacz](../characters/babcia.md) is present and the players continue the odpust.
+- **Cost:** Free
+- **Outcome:** The odpust proceeds over Babcia's objection.
+- **Gives:** World State Change: the Lemko dead turn vengeful; Ending Progress: see [spiritual-endings.md](../story-facts/spiritual-endings.md)
 
-- **Present:** [Stefania Kopacz](../characters/babcia.md) — but **only if** the players committed to the odpust *after* stirring the Lemko rite (the hag woken, the dead named at the well without finishing [Rest](the-ritual.md)).
-- **What happens:** The old Lemko woman stands up in the Catholic church and begs them not to wash the killers clean while her people lie unnamed in the well. No curse, no sabotage — an argument, the last human appeal. She asks how the dead are to rest if the men who put them in the ground are made white before the dead are even named.
-- **Proceed past her plea → the dead turn vengeful.** She will not give rest to dead wronged this way. This triggers **only if the Lemko rite was stirred** — a village that never woke the dead gets clean Grace.
-  - See [spiritual-endings.md](../story-facts/spiritual-endings.md).
+### Refuse it and walk out
+- **Requires:** A player wants the guilty exposed, not forgiven.
+- **Cost:** Free
+- **Outcome:** That player refuses absolution and leaves the church; ks. Pająk continues the rite for the congregation.
+- **Gives:** World State Change: the odpust proceeds without that player
 
 ## Exits
 
-- **Into the flood** — the Mass is the last thing that happens in the church. After the odpust, the valley faces the water (escape, fight, or drown — see [the flood](the-flood.md)) forgiven.
-- **To [Rest](the-ritual.md)** — foreclosed. The odpust has fired; the well rite cannot now be the valley's answer.
+- Into the flood and the final water choices in [The Flood](the-flood.md).
+- [Rest](the-ritual.md) is foreclosed if the odpust completes.
+- If Babcia's plea stops the odpust, go to [The Ritual](the-ritual.md).

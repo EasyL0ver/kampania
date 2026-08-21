@@ -1,7 +1,7 @@
 # Irena Gajda
 
 **Type:** Named character — the sołtys's wife / shadow investigator
-**Position:** [The analyst](../story-facts/wife-junior-investigation.md) — outside the [Freudian triangle](../story-facts/freudian-triangle.md), watching the psyche break down. A corrupt one: she surfaces the truth, then shields the man at its center.
+**Freudian role:** [The analyst](../story-facts/wife-junior-investigation.md) — outside the [Freudian triangle](../story-facts/freudian-triangle.md), watching the psyche break down
 
 ## Vital Statistics
 
@@ -12,70 +12,72 @@
 
 ## Character
 
-Intelligent, observant, dismissed. For thirteen years she has quietly picked at the 1954 disappearance — the analyst who can't stop, driven by the pleasure of the puzzle and the hope that solving it will finally make her husband see her. She has followed every thread except the one that points at him. Uses her son Marek as her field agent, and runs him into danger she never faces herself.
+Intelligent, observant, and dismissed. She has quietly investigated the 1954 disappearance for years, using Marek as her field agent, but she has avoided the thread that points at her husband.
 
 ## Appearance
 
-- **Clothes:** Pressed blouses, wool skirts without patches — dresses better than most village women
-- **Hair & face:** Dark hair pulled back in a severe bun going grey at the temples; angular face, high cheekbones
-- **Carriage:** Tall, straight posture that reads as pride to some, coldness to others; hands always busy but eyes elsewhere, watching
+- **Clothes:** Pressed blouses, wool skirts without patches; dresses better than most village women.
+- **Hair & face:** Dark hair pulled back in a severe bun going grey at the temples; angular face, high cheekbones.
+- **Carriage:** Tall, straight posture; hands always busy while her eyes watch the room.
 
-Speaks precisely, each word chosen. Tilts her head when listening — filing it for later. Never raises her voice.
+Speaks precisely, each word chosen. Tilts her head when listening, then files the detail away.
 
 ## Opinions
 
-- **[Zbigniew Gajda](wojewoda.md)** — I love him, and for thirteen years I've been quietly solving the thing he's hiding — not to hurt him, to *impress* him. I picture the day I lay the whole solved case at his feet and he finally looks at me as an equal. I've chased every thread but one. I never let it point at him. *(From the pivot:)* Now I can't not see it. He was one of them. And I find I can't do what I always assumed I would — I can't turn on him. Worse: it's *him* who wants to set it down, to let it all come out. I won't allow it. He'll say nothing — not to them, not to anyone. If he can't hold himself together, I'll hold him.
-- **[Marek Gajda](junior.md)** — My son, my hands in the places I won't go. I read the village from my parlour; he walks into %OLD_VILLAGE% where the butcher hunts, drinks the truth out of Tadek, leaves tracks a killer could follow. I tell myself the outside is safe. It isn't. If this ever turns, it won't be me who pays — it'll be him. I know that, and I send him anyway. The puzzle is worth more to me than I let myself admit.
-- **[Helena Rzepka](matrona.md)** — Sister-in-law. Something closed and hard about that woman. Irena can't read her, which bothers her.
-- **[ks. Władysław Pająk](priest.md)** — Another man who told her to be quiet and stop noticing things. She went to him more than once — in confession, carefully, obliquely. Every time: shut down. She won't go back.
-- **[Tadek Gajda](wujas.md)** — Brother-in-law. A wreck, but a wreck who talks when drunk. Marek handles him — she wouldn't lower herself, and Tadek wouldn't speak freely to her anyway.
-- **`wujas-is-guilty`:** Vindication. "I knew it. I always knew." Pushes immediately — guilty of what exactly? Wants the detail, wants the proof, wants to bring it to Zbigniew.
+- **[Zbigniew Gajda](wojewoda.md)** — I love him, and I have been solving the thing he hides because I wanted him to see me as an equal. Once I see his part in it, I still choose him, and I will hold him silent if he cannot hold himself.
+- **[Marek Gajda](junior.md)** — My son is my hands in places I will not go. I know the danger reaches him before it reaches me, and I send him anyway.
+- **[Helena Rzepka](matrona.md)** — She is my sister-in-law, and something in her is closed and hard. I cannot read her, and that bothers me.
+- **[ks. Władysław Pająk](priest.md)** — He told me to be quiet and stop noticing things. I went to him carefully, more than once, and I will not go back.
+- **[Tadek Gajda](wujas.md)** — He is a wreck, but a wreck who talks when drunk. Marek can get closer to him than I can.
+- **`wujas-is-guilty`:** I knew it. Now I need the detail, the proof, and the piece that makes Zbigniew finally look.
 
 ## Mechanics
 
 ### Two Phases
 
-Irena runs on a pivot: **first she investigates, then — once she finally sees her husband in the killing — she protects him.** What she protects him from is not a report. It is himself: Zbigniew believes he did nothing wrong and, cornered by a mob, will *admit it* — and a confession to a lynch mob gets him thrown in the well. Her crossing over is the only brake on his mouth.
+Irena starts as a rival investigator, then becomes Zbigniew's protector if she connects him to the 1954 killing. The pivot is GM-timed from player behaviour and can fail to happen; if she stays blind, Zbigniew may confess at the [lynch](../events/punishment-lynch.md) and die.
 
-> **TBD — the pivot trigger.** How and when she connects Zbigniew to the killing is deliberately open, and it must be **possible for her never to find out** (freeze her out / never surface his name to her → she stays blind → he confesses at the lynch and dies). No fixed calendar flip; GM-timed against player behaviour. Design the exact gate later.
+### Phase 1 — Investigating
 
-**Phase 1 — Investigating.** The analyst at work: she has circled the 1954 killing for thirteen years and never once let the trail point home at her own husband. To the players she reads as a rival investigator and a red herring — fresh tracks at %OLD_VILLAGE% (Marek's), the flour-tin dossier, a shadow at the door. She trades warily with players who treat her as a peer; she shares nothing with those who patronize her.
+She trades cautiously with players who treat her as a peer. She shares nothing with players who patronize her.
 
-**The pivot — TBD.** When the repression finally fails, she connects Zbigniew to the killing. It detonates as a fight in the house — see [Irena Confronts the Wojewoda](../events/irena-confronts-wojewoda.md) — and resolves not in exposure but in complicity. He doesn't deny it. Worn down, he reaches to confess — and she is the one who shuts his mouth and crosses to his side as his brace.
+### Phase 2 — Protector
 
-**Phase 2 — Protector.** Her law: never against him. Once she's crossed over she consolidates with Zbigniew and becomes his spine. The household closes, the breadcrumbs stop, Marek is pulled home — and, above all, she keeps him from confessing. She never comes to the players and never asks them for anything; she acts on her husband, not on them. Her flip closes the one route where Zbigniew hangs himself with his own mouth at the [lynch](../events/punishment-lynch.md).
+After [Irena Confronts the Wojewoda](../events/irena-confronts-wojewoda.md), she closes the household, pulls Marek home, and keeps Zbigniew from confessing.
+
+## Opportunities
+
+- **Avoided thread** `(requires: Trade clues (Phase 1) and Read)` — she trades on anyone except her own husband; his name never comes up, and she changes direction when it nears.
+- **Committee scrutiny** `(requires: Property assessment and flood not openly disclosed)` — her questions sharpen around why land is being valued.
 
 ## Actions
 
 ### Trade clues (Phase 1)
-- **Requires:** Phase 1 (before she pivots); a 1954 clue she doesn't already hold
-- **Cost:** 1 card
-- **Outcome:** She offers nothing first — she watches what you put down. Lay a real fact on the table and she reciprocates, one for one, precise and cold. Not grateful. Hungry. She's been starving for a piece that fits.
-  - **Read:** There's a thread she steers around. She'll trade on anyone but her own husband — his name never comes up, and she changes direction when it nears.
-  - Treat her as an equal, not a housewife, and she trades a second fact for free.
-- **Gives:** NPC State Change: Irena (wary rival → will trade) + one clue she can spare, GM's choice — e.g. [`jagna-painter-affair`](../clues/clues.md#jagna-painter-affair) or [`ciotka-lives-in-soldiers-house`](../clues/clues.md#ciotka-lives-in-soldiers-house)
+- **Requires:** Phase 1 before she pivots; a 1954 clue she does not already hold
+- **Cost:** 1 action
+- **Outcome:** She waits for a real fact before she gives one back. Once the players put a useful clue on the table, she trades one for one.
+- **Gives:** NPC State Change: Irena becomes a wary rival who will trade; one clue she can spare, GM's choice — e.g. [`jagna-painter-affair`](../clues/clues.md#jagna-painter-affair) or [`ciotka-lives-in-soldiers-house`](../clues/clues.md#ciotka-lives-in-soldiers-house)
 
 ### Census interview
 - **Requires:** Committee authority
 - **Cost:** 1 action
-- **Outcome:** Precise and complete — the household, ages, employment, no wasted words. She files every question you ask as much as she answers it.
+- **Outcome:** She gives precise household details: names, ages, employment, no wasted words.
 - **Gives:** Census data — Zbigniew, Irena, Marek Gajda.
 
 ### Property assessment
 - **Requires:** Committee authority
 - **Cost:** 1 action
-- **Outcome:** The house is her husband's, papers in order. If the committee can't explain why it's valuing land, she says nothing — but the analyst has clocked it. **Read:** she now knows the committee is hiding a reason.
-- **Gives:** Property record — [Zbigniew's house](../locations/wojewodas-house.md). NPC State Change: Irena grows watchful of the committee (unless flood is openly disclosed).
+- **Outcome:** She says the house is her husband's and the papers are in order.
+- **Gives:** Property record — [Zbigniew's house](../locations/wojewodas-house.md); NPC State Change: Irena grows watchful of the committee unless the flood is openly disclosed.
 
 ## Bond
 
-- [ ] Share a piece of information with her that her husband withheld — prove the players trust her
-- [ ] Ask her opinion on something investigative — treat her as a thinking partner, not a housewife
-- [ ] Be honest with her when caught in a contradiction — don't deflect
-
+- [ ] Share a piece of information with her that her husband withheld — prove the players trust her.
+- [ ] Ask her opinion on something investigative — treat her as a thinking partner, not a housewife.
+- [ ] Be honest with her when caught in a contradiction — do not deflect.
 
 ## Grudge
 
-- [ ] Speak to her in a patronizing or dismissive tone when she offers information
-- [ ] Side with Zbigniew in a disagreement in her presence
-- [ ] Ignore or brush off one of her pointed hints
+- [ ] Speak to her in a patronizing or dismissive tone when she offers information.
+- [ ] Side with Zbigniew in a disagreement in her presence.
+- [ ] Ignore or brush off one of her pointed hints.

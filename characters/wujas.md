@@ -1,7 +1,7 @@
 # Tadek Gajda
 
 **Type:** Named character — sibling (brother)
-**Freudian role:** [Ego](../story-facts/freudian-triangle.md) — the failing mediator, cracking under the weight of what he can't reconcile
+**Freudian role:** [Ego](../story-facts/freudian-triangle.md) — the failing mediator, cracking under the weight of what he cannot reconcile
 
 ## Vital Statistics
 
@@ -12,53 +12,64 @@
 
 ## Character
 
-Alcoholic wreck. Participated in the lynch — beat Hania and helped kill her father, then saw her run and never went after her. Drowning it in bimber for 13 years. The weakest link in the cover-up. Plays the harmonia — the village accordion — the old way: weddings, name-days, drinking songs, the same three tunes getting sloppier and more maudlin as the bottle empties. An instrument of celebration gone sour, just like him.
+Alcoholic wreck and the weakest link in the cover-up. He helped in the 1954 lynch, let Hania run, and has drowned the guilt in bimber for thirteen years.
 
 ## Appearance
 
-- **Clothes:** Checked shirt with rolled sleeves, old marynarka with elbow patches, maciejówka cap cocked forward
-- **Hair & face:** Still handsome under the wear; unshaven, bloodshot eyes visible up close
-- **Carriage:** Lean and rangy; moves loose and easy, takes up space like he's still the life of the party — and sometimes is
+- **Clothes:** Checked shirt with rolled sleeves, old marynarka with elbow patches, maciejówka cap cocked forward.
+- **Hair & face:** Still handsome under the wear; unshaven, bloodshot eyes visible up close.
+- **Carriage:** Lean and rangy; moves loose and easy, like he is still the life of the party.
 
-Raspy warm voice — a storyteller's instrument, gets louder and funnier with drink. The morning shakes and the silence after the charm runs out are private.
+His raspy warm voice gets louder and funnier with drink. The morning shakes and the silence after the charm runs out are private.
 
 ## Opinions
 
-- **[Zbigniew Gajda](wojewoda.md)** — His older brother. Tadek is terrified of him — not physically, but of the disappointment. Zbyszek holds the family together and Tadek knows he's the one most likely to break it apart. Can't look him in the eye sober.
-- **[Helena Rzepka](matrona.md)** — Sister. She watches him like a hawk and he hates it. She's waiting for him to crack and he knows it.
-- **[Janina Gajda](ciotka.md)** — Sister. The gentle one. She still leaves food out for him. He can't stand her kindness because he doesn't deserve it.
-- **[Hania Barnaś](jagna.md)** — He loved her — desperately, silently — and she never looked at him. Preferred Emil. He was one of the men who set on her that night, and when she broke free he let her run into the dark. She never came back. He's certain the mountain took her, and that it's his fault she was running. Now she's a ghost at the bottom of every bottle. The thing he can never undo.
-- **`ciotka-not-mother`:** Gets agitated, reaches for the bottle. Disproportionate anger — a tell. Changes subject immediately.
+- **[Zbigniew Gajda](wojewoda.md)** — Zbyszek holds the family together, and I am the one most likely to break it apart. I cannot look him in the eye sober.
+- **[Helena Rzepka](matrona.md)** — She watches me like a hawk. I hate it because I know she is waiting for me to crack.
+- **[Janina Gajda](ciotka.md)** — She still leaves food out for me. I cannot stand her kindness because I do not deserve it.
+- **[Hania Barnaś](jagna.md)** — I loved her, and she never looked at me. I was one of the men who hurt her, and when she ran, I let the mountain take her.
+- **`ciotka-not-mother`:** Do not say that. Give me the bottle and talk about something else.
+
+## Opportunities
+
+- **Census nerves** `(requires: Census interview and Read)` — he is not nervous about the census; he is nervous about being asked anything at all. → Gives: [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
+- **Drunk census performance** `(requires: Census interview and Tadek is drunk)` — he turns the answers into absurd village theatre.
+- **Drunk property performance** `(requires: Property assessment and Tadek is drunk)` — he claims a fake grand estate made of the still, his brother's house, and moonlight.
 
 ## Actions
 
-### Leverage — the bimber play
+### Leverage — the bimber play, first visit
 - **Requires:** Players have discovered the [bimber still](../locations/bimber-still.md)
-- **Cost:** Free per attempt (can be repeated across days)
-- **What happens:** *"We know about your still. Now tell us what else you know."* Tadek owes the players, he's scared they'll talk, and the well is eroding his ability to keep quiet.
-  - **First visit:** Relief. *"That's all? Fine, fine — just don't tell Zbyszek I've been talking to you."* Gives village gossip, complaints, minor dirt. Nothing real.
-  - **Second visit (well influence active):** The cracks show. The bottle isn't working anymore. He's lucid in a way that terrifies him. Half-sentences slip: *"She didn't deserve it."* A name muttered — Hania. He catches himself. Changes subject. Won't say more.
-  - **Third visit:** He's barely holding together. → See [event-wujas-cracks](../events/wujas-cracks.md)
-- **Gives:** → [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
+- **Cost:** Free
+- **Outcome:** He is relieved that the players are only pressing him about the still. He gives gossip, complaints, and minor dirt.
+- **Gives:** NPC State Change: Tadek owes the players and will keep talking if they return.
+
+### Leverage — the bimber play, second visit
+- **Requires:** First leverage visit completed and well influence active
+- **Cost:** Free
+- **Outcome:** The bottle is not working, and half-sentences slip out around Hania before he catches himself.
+- **Gives:** [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
+
+### Leverage — the bimber play, third visit
+- **Requires:** Second leverage visit completed
+- **Cost:** Free
+- **Outcome:** He can no longer hold the story together.
+- **Gives:** Scene Unlock: [event-wujas-cracks](../events/wujas-cracks.md)
 
 ### Census interview
 - **Requires:** Committee authority
 - **Cost:** 1 action
-- **Outcome:** Gives his name and age, but the questions make him twitchy — reaches for the bottle, wants it over fast. **Read:** not nervous about the census; nervous about being asked anything at all.
-- **If drunk:** He turns it into a performance — booms out an absurd answer and grins. Roll or pick:
-  - Lists his occupation as "artist of the village" and demands the committee write it exactly so.
-  - Names half the village as his dependents, then the PGR's cattle, then Comrade Gomułka himself.
+- **Outcome:** He gives his name and age, reaches for the bottle, and tries to end the questions quickly.
 - **Gives:** Census data — Tadek Gajda, no fixed household.
 
 ### Property assessment
 - **Requires:** Committee authority
 - **Cost:** 1 action
-- **Outcome:** Owns nothing. Drifts between his siblings' kitchens and the still; no house, no land to his name.
-- **If drunk:** Claims a grand estate — the still is his "distillery," and [his brother's house](../locations/wojewodas-house.md) is really his, he just lets Zbyszek keep it warm. Offers to deed the committee a hectare of moonlight if they toast with him first.
+- **Outcome:** He says he owns nothing and drifts between siblings' kitchens and the still.
 - **Gives:** Property record — Tadek holds no property, dependent on family.
 
 ## Bond
 
-- [ ] Share a drink with him and match his pace — don't nurse it, don't judge
-- [ ] Ask about his youth or his music — show genuine curiosity about who he was before the bottle
-- [ ] Encounter his still and say nothing to anyone
+- [ ] Share a drink with him and match his pace — do not nurse it, do not judge.
+- [ ] Ask about his youth or his music — show genuine curiosity about who he was before the bottle.
+- [ ] Encounter his still and say nothing to anyone.

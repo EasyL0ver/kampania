@@ -1,44 +1,60 @@
-﻿# The Store
+# The Store
 
 **Type:** Location (revisitable)
-**Location:** Helena Rzepka's general store — Halina Zając behind the counter, drinking crew outside on benches and crates
-**Present:** Halina Zając (always inside), Tadek Gajda (always outside), Ryszard Dudka (usually outside), other village men. Stanisław Rezeń is notably absent — doesn't drink.
+**Location:** Helena Rzepka's general store.
+**Present:** [Halina Zając](../characters/secondary-characters.md#halina-zając--halina-zając) (inside), [Tadek Gajda](../characters/wujas.md) (outside), [Ryszard Dudka](../characters/neighbour.md) (usually outside), drinking crew (outside)
 **Available:** Daytime, any day. Repeatable.
 **Cost:** 1 action per visit
 
 ## Setup
 
-The village social hub. Outside — men on benches passing a bottle of bimber. Tadek Gajda is always here. Ryszard Dudka drifts in and out. Lazy, circular, bitter talk — the state, the weather, the dam. Nobody talks about the past unless they slip.
-
-Inside — Halina Zając runs the counter. Helena Rzepka owns the place but rarely gets her hands dirty. Shelves sparse but functional. Bimber under the counter. The crew drifts in to buy rounds, banter with Halina Zając, get shooed out. She has a mean streak — sharp tongue, doesn't suffer fools. She resents working for Helena Rzepka and doesn't hide it.
-
-In the back room — a locked pharmaceutical cabinet. State-regulated PRL distribution: basic sulfonamides, aspirin, bandages, iodine. Helena keeps the only key. Halina Zając can sell vodka and bread; she cannot open the medicine cabinet. For that, you need Helena herself.
-
-Government people get suspicion outside. But if the players have a bond with Tadek Gajda — he waves them over, pours a drink. They're in.
-
-*Drinking minigame TBD — will determine how much comes out per visit.*
-
-## What Can Be Learned (drinking)
-
-- **From Tadek Gajda** — fragments about the past. Half-sentences he regrets. Gets darker the drunker he gets. → **Gives:** [wujas-is-guilty](../clues/clues.md#wujas-is-guilty), [wujas-mourns-someone](../clues/clues.md#wujas-mourns-someone)
-- **From Ryszard Dudka** — nervousness, bad lies, sounds and directions he can't keep in. → **Gives:** [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch)
-- **From the crew in general** — village gossip, social dynamics, who's been acting strange lately.
+- The store is the village social hub.
+- Men sit outside on benches and crates, passing bimber.
+- Tadek Gajda is usually outside.
+- Ryszard Dudka drifts in and out.
+- Stanisław Rezeń does not drink here.
+- Halina Zając runs the counter inside.
+- Helena Rzepka owns the store but is rarely behind the counter.
+- The shelves are sparse but functional.
+- Bimber is kept under the counter.
+- The crew enters to buy rounds, banter with Halina, and get sent back outside.
+- Halina resents Helena Rzepka and speaks sharply about the work.
+- The back room has a locked pharmaceutical cabinet.
+- The cabinet contains basic sulfonamides, aspirin, bandages, and iodine.
+- Helena Rzepka keeps the only cabinet key.
+- Halina Zając cannot open the medicine cabinet.
+- Government people are treated with suspicion outside unless they have a bond with Tadek Gajda.
 
 ## Opportunities
 
-- **Buy a bottle for the crew** — put money on the counter, tell Halina Zając it's for the boys outside. Word travels fast. *(Bond check for Tadek: share a drink without judging)*
-- **Village gossip** — who's sleeping with whom, who owes what. → Bonus info: social map of the village
-- **Learn about Wujas** — the crew talks about him like furniture. He's always here, always drunk, always tolerated. → **Gives:** [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
-- **Gossip about Foreman** — their boss at the PGR. The crew has opinions. → **Gives:** [foreman-coverup](../clues/clues.md#foreman-coverup)
-- **Junior joins** — if bonded with Marek Gajda, he shows up. Drinks with the crew, loosens up away from his father. → **Gives:** [junior-is-false-suspect](../clues/clues.md#junior-is-false-suspect). If he gets drunk → **Gives:** [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
-- **Side with Halina against the drunks** — when the crew hassles her, back her up.
-- **Halina complains about Matrona** — she doesn't need much prompting. Bad boss, tight with money, controls everything. → Bonus info: Helena Rzepka's grip on village economy
-- **Neighbour's nervousness** — he's jumpy, drinks too fast. If the past comes up, he goes quiet. → **Gives:** [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch)
+- **Tadek's drunk fragments** `(requires: Bond with [Tadek Gajda](../characters/wujas.md) and Drink)` — Tadek lets guilty fragments about the past slip while drinking. → Gives: [wujas-is-guilty](../clues/clues.md#wujas-is-guilty), [wujas-mourns-someone](../clues/clues.md#wujas-mourns-someone)
+- **Ryszard Dudka's nervousness** `(requires: drinking with the crew and Read)` — Dudka drinks too fast and shuts down when the past comes up. → Gives: [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch)
+- **Crew gossip about Foreman** `(requires: drinking with the crew)` — The crew talks about the PGR boss and the farm's hidden problems. → Gives: [foreman-coverup](../clues/clues.md#foreman-coverup)
+- **Junior joins the crew** `(requires: Bond with [Marek Gajda](../characters/junior.md))` — Marek drinks with the crew away from his father. → Gives: [junior-is-false-suspect](../clues/clues.md#junior-is-false-suspect)
+- **Junior brags about the pistol** `(requires: Junior joins the crew and Drink)` — Marek talks about the gun in his father's office desk. → Gives: [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
 
 ## Actions
 
-### Talk to Halina privately
-- **Requires:** Halina trusts you (sided with her) or the crew is outside (not hovering)
+### Buy a bottle for the crew
+- **Requires:** Drinking crew present outside
 - **Cost:** Free
-- **Outcome:** She sees everyone who comes through. Knows village patterns — who buys what, who stopped coming in, who's been acting different. She's not a keeper of secrets, but she's observant and resentful enough to talk.
-- **Leads to:** Bonus info on village patterns and NPC behaviour. If asked about Helena Rzepka — she'll vent, may reveal how the store and village economy really work.
+- **Outcome:** The committee pays Halina for a bottle and sends it outside to the crew.
+- **Gives:** NPC State Change: Tadek Gajda's bond check for sharing a drink without judging can progress.
+
+### Drink with the crew
+- **Requires:** Bond with [Tadek Gajda](../characters/wujas.md), or a bottle bought for the crew
+- **Cost:** 1 action
+- **Outcome:** The crew accepts the committee into the outside drinking circle for the visit.
+- **Gives:** [wujas-is-guilty](../clues/clues.md#wujas-is-guilty); [wujas-mourns-someone](../clues/clues.md#wujas-mourns-someone); [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch)
+
+### Side with Halina against the drunks
+- **Requires:** The crew hassles Halina
+- **Cost:** Free
+- **Outcome:** The committee backs Halina against the men outside.
+- **Gives:** NPC State Change: Halina Zając trusts the committee more.
+
+### Talk to Halina privately
+- **Requires:** Halina trusts the committee, or the crew is outside and not hovering
+- **Cost:** Free
+- **Outcome:** Halina talks about store patterns, purchases, absences, and Helena Rzepka's control of the village economy.
+- **Gives:** NPC State Change: Halina Zając becomes willing to share village pattern information.

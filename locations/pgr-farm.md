@@ -1,66 +1,70 @@
 # The PGR Farm
 
 **Type:** Location (revisitable)
-**Location:** State Agricultural Farm (Państwowe Gospodarstwo Rolne) — fields, barns, livestock pens, tool shed
-**Present:** [Michał Pytlak](../characters/foreman.md) (always, during day), [Barbara Kopacz](../characters/barbara.md) (working hours), Józef Nowak and Piotr Wiśniewski (labourers, variable)
+**Location:** State Agricultural Farm (Państwowe Gospodarstwo Rolne) — fields, barns, livestock pens, tool shed.
+**Present:** [Michał Pytlak](../characters/foreman.md) (day), [Barbara Kopacz](../characters/barbara.md) (working hours), [Józef Nowak](../characters/secondary-characters.md#józef-nowak--józef-nowak) (variable), [Piotr Wiśniewski](../characters/secondary-characters.md#piotr-wiśniewski--piotr-wiśniewski) (variable)
 **Available:** Daytime, any day. Repeatable.
 **Cost:** 1 action per visit
 
 ## Setup
 
-Two long barns, a concrete grain silo, a tool shed with a padlocked door, livestock pens, and a stretch of ploughed fields running toward the tree line. Chickens scratch between the buildings. The [office](pgr-office.md) is in the main building. The [workers' quarters](pgr-quarters.md) — barracks and stołówka — sit behind.
-
-Michał Pytlak is wherever the work is — in the field, at the barn, hauling feed. He sees the committee coming before they reach the gate. The workers — Józef Nowak and Piotr Wiśniewski — keep their heads down. Barbara Kopacz works apart from the men, quiet and efficient.
-
-A battered wooden desk in the tool shed holds the farm's paperwork — supply orders, receipts, delivery slips.
+- The farm has two long barns, a concrete grain silo, a tool shed, livestock pens, and ploughed fields running toward the tree line.
+- Chickens move between the buildings.
+- The [office](pgr-office.md) is in the main building.
+- The [workers' quarters](pgr-quarters.md) sit behind the main buildings.
+- Michał Pytlak works in the fields, barns, or feed areas during the day.
+- Józef Nowak and Piotr Wiśniewski keep working unless addressed.
+- Barbara Kopacz works apart from the men.
+- A battered wooden desk in the tool shed holds supply orders, receipts, delivery slips, the [worker registry](../items/pgr-ledger.md), and the [expense journal](../items/pgr-expenses.md).
+- The farm has 7 real workers present or accounted for.
+- The ledger lists 8 workers.
+- Bloodstains, patched fences, and nervous animals are visible from Day 1.
+- Day 1–2: fresh wolf damage may bring [Zbigniew Gajda](../characters/wojewoda.md) to the farm.
 
 ## Opportunities
 
-- **Watch the workers** — count the actual people working vs the ledger. Only 7 real workers, but the ledger lists 8. One name doesn't match anyone here. → **Gives:** [foreman-coverup](../clues/clues.md#foreman-coverup) (**Observation**)
-- **Talk to the labourers** — Józef Nowak and Piotr Wiśniewski talk about the work, the conditions. If asked about accidents — glances exchanged. "The barn's been fixed now." Nobody elaborates. → **Gives:** [pgr-workers-hide-something](../clues/clues.md#pgr-workers-hide-something)
-- **Wolf damage** — Visible from Day 1: bloodstains in the pen, patched fences, nervous animals. Wolves have been hitting the farm for weeks. [Michał Pytlak](../characters/foreman.md) mentions losses in passing. Day 1-2: fresh kill — [Zbigniew Gajda](../characters/wojewoda.md) may be at the farm assessing the damage. Players CAN witness the moment he decides to authorize [Stanisław Rezeń](../characters/butcher.md). → Triggers [The Wolf Attack](../events/wolf-attack.md) (**Observation**, **Agronomy**)
-- **Notice Barbara** — she works hard, avoids the men, speaks to no one unless spoken to. Visibly poorer than the others. (**Read**)
-
+- **Worker count mismatch** `(requires: Observation)` — One ledger name does not match any worker present or recognized on the farm. → Gives: [foreman-coverup](../clues/clues.md#foreman-coverup)
+- **Wolf damage** `(requires: Observation or Agronomy)` — The livestock pens show repeated wolf attacks over several weeks. → Gives: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock)\n
 ## Actions
 
 ### Inspect the farm books
-- **Requires:** Committee authority (automatic — it's their job)
+- **Requires:** Committee authority
 - **Cost:** 1 action
-- **Skills:** **Law**, **Agronomy**
-- **Outcome:** The desk in the tool shed has the [worker registry](../items/pgr-ledger.md), the [expense journal](../items/pgr-expenses.md), supply orders, and delivery receipts. Numbers are mostly honest — this is a real working farm. But one entry stands out: Tadeusz Mazur, listed as a current worker drawing wages. No corresponding work logs for the past two years. The expense journal goes back to 1951 — years of mundane farm spending that players will skim through looking for irregularities.
-- **Leads to:** [Foreman cover-up](../clues/clues.md#foreman-coverup). If confronted, Michał Pytlak enters Stage 1 deflection (see [foreman-embezzlement.md](../story-facts/foreman-embezzlement.md)). The expense journal also contains a buried clue to the [Soldier's partner](../characters/soldier.md) — see [PGR expense journal](../items/pgr-expenses.md).
+- **Outcome:** The farm books show mostly ordinary farm spending, plus Tadeusz Mazur listed as a current worker drawing wages with no work logs for the past two years.
+- **Gives:** [foreman-coverup](../clues/clues.md#foreman-coverup); Item: [worker registry](../items/pgr-ledger.md); Item: [expense journal](../items/pgr-expenses.md)
+
+### Ask the labourers about accidents
+- **Requires:** Józef Nowak or Piotr Wiśniewski present
+- **Cost:** Free
+- **Outcome:** The labourers exchange glances and mention that the barn has been fixed.
+- **Gives:** [pgr-workers-hide-something](../clues/clues.md#pgr-workers-hide-something)
 
 ### Talk to Michał Pytlak about the flood
-- **Requires:** None
+- **Requires:** [Michał Pytlak](../characters/foreman.md) present
 - **Cost:** Free
-- **Skills:** **Engineering**
-- **Outcome:** He's the only voice in the village saying *we can fight this*. Drainage ditches, sandbags, water diversion — he has plans. He wants labour, not paperwork. He'll argue with the committee about wasting time on census forms when the water is coming.
-- **Leads to:** Understanding of flood defence efforts. If players help or assign workers, Michał Pytlak becomes an ally — and they gain access to the farm and its workers freely.
+- **Outcome:** Michał describes drainage ditches, sandbags, and water diversion as practical flood defences.
+- **Gives:** NPC State Change: Michał Pytlak becomes willing to coordinate flood defence work with the committee.
 
 ### Ask Michał Pytlak about the workers
 - **Requires:** Have seen the [PGR ledger](../items/pgr-ledger.md)
 - **Cost:** Free
-- **Skills:** **Intimidate** or **Sweettalk**
-- **Bonus:** **Read** — his discomfort is guilt, not greed
-- **Outcome:** Ask about specific names. Real workers — he answers immediately. Tadeusz Mazur — he hesitates. "Mazur? He's... not been around lately. Seasonal work." He's a bad liar under direct questioning.
-- **Leads to:** If pressed → [Foreman cover-up](../clues/clues.md#foreman-coverup). Asking about Tadeusz Mazur specifically → Michał Pytlak goes pale. Cross-reference with [Wanda Mazur](../characters/widow.md) at [the church](the-church.md) to confirm he's dead — and that the death was never reported.
+- **Outcome:** Michał answers immediately about real workers and hesitates over Tadeusz Mazur.
+- **Gives:** [foreman-coverup](../clues/clues.md#foreman-coverup)
 
 ### Talk to Barbara Kopacz
-- **Requires:** She's working (daytime)
+- **Requires:** [Barbara Kopacz](../characters/barbara.md) present during working hours
 - **Cost:** Free
-- **Skills:** **Sweettalk**
-- **Outcome:** Quiet, guarded, polite. She answers questions about her work but volunteers nothing personal. Won't discuss Pawełek Kopacz's father under any circumstances. If players are kind and patient, she opens up slightly — mentions her mother at home, the difficulty of the work, the cold.
-- **Leads to:** Essential for later access to [Stefania Kopacz](../characters/babcia.md). See [Barbara's character file](../characters/barbara.md) — she is a sieve.
+- **Outcome:** Barbara answers questions about work, refuses to discuss Pawełek Kopacz's father, and becomes slightly more willing to speak if treated kindly.
+- **Gives:** NPC State Change: Barbara Kopacz becomes more open to future contact, including access to [Stefania Kopacz](../characters/babcia.md).
 
 ### Offer to help with farm work
-- **Requires:** None
-- **Cost:** 1 action (takes significant time)
-- **Skills:** **Endurance**
-- **Outcome:** Michał Pytlak is surprised but accepts. Physical labour alongside the workers. They talk more freely while working — farm gossip, village dynamics, who's been acting strange.
-- **Leads to:** Michał Pytlak's flood prep assistance becomes cheaper (reduces village outskirts survey trips by 1). Workers may mention Barbara's situation with more sympathy than gossip.
+- **Requires:** Nothing
+- **Cost:** 1 action
+- **Outcome:** The committee works alongside the farm workers.
+- **Gives:** NPC State Change: Michał Pytlak and the workers treat the committee as useful labour; World State Change: village outskirts survey trips are reduced by 1.
 
 ### Report wolf damage
-- **Requires:** Day 1+, wolf damage visible
-- **Cost:** Free (inspection), 1 action (join the hunt)
-- **Outcome:** [Michał Pytlak](../characters/foreman.md) shows the committee the damage — dead sheep, patched fences, tracks. Wants every head and every złoty in the damage report. He mentions [Ryszard Dudka](../characters/neighbour.md) has been hunting them for weeks — no luck. If Day 1-2: players may witness [Zbigniew Gajda](../characters/wojewoda.md) at the farm, making the decision to authorize [Stanisław Rezeń](../characters/butcher.md) through [Tadek](../characters/wujas.md). If Day 2+: Rezeń is already at the farm, among workers.
-- **Leads to:** → [The Wolf Attack](../events/wolf-attack.md), which unlocks [The Hunt with Rezeń](../events/hunt-with-rezen.md) and [The Hunt with Dudka](../events/hunt-with-dudka.md). Players choose: go with Rezeń, go with Dudka, or stay and reinforce the farm.
+- **Requires:** Day 1+ and wolf damage visible
+- **Cost:** Free for inspection; 1 action to join the hunt
+- **Outcome:** Michał shows dead sheep, patched fences, and tracks.
+- **Gives:** [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock); Scene Unlock: [The Wolf Attack](../events/wolf-attack.md); Scene Unlock: [The Hunt with Rezeń](../events/hunt-with-rezen.md); Scene Unlock: [The Hunt with Dudka](../events/hunt-with-dudka.md)

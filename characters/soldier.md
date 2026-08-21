@@ -6,15 +6,31 @@
 
 - **Born:** 1910
 - **Died:** 1954 (age 44)
-- **Lived in:** [Janina Gajda's house](../locations/ciotkas-house.md) (now [Janina Gajda](ciotka.md)'s) — best plot in the village
-- **Settled:** ~1948 — knew the terrain from KBW service, claimed best land early
+- **Lived in:** [Janina Gajda's house](../locations/ciotkas-house.md) — now [Janina Gajda](ciotka.md)'s
+- **Settled:** ~1948 — knew the terrain from KBW service and claimed the best land early
+- **Family:** Partner [Marta Konieczna](secondary-characters.md#marta-konieczna); children [Hania Barnaś](jagna.md) and [Edek Barnaś](glupek.md)
+- **Records:** Marta appears in the [PGR expense journal](../items/pgr-expenses.md) under her own surname
 
 ## Character
 
-Deceased. KBW soldier who participated in the 1947 Lemko massacre, then settled on the best land. But for that one week in 1947, a model father and a model citizen — steady, hard-working, devoted to his children. Killed in the 1954 lynch — came to save his daughter armed with his old service rifle, but never fired it: he held the men back until they rushed him, tackled him, took the rifle, and beat him to death with it.
+Deceased KBW soldier who participated in the 1947 Lemko massacre, then settled on the best land. In 1954 he came armed to save his daughter, never fired, and was beaten to death with his own service rifle.
+
+## Appearance
+
+- **Clothes:** Not present in 1967; any description comes through records, objects, or testimony.
+- **Hair & face:** Not described in surviving campaign material.
+- **Carriage:** Remembered as steady, hard-working, and devoted to his children.
+
+In play he is an absence: a missing father, a dead signature, a rifle, a house, and the best plot of land in the village.
 
 ## Opinions
 
-- **Marta Konieczna** (partner, born ~1915) — Never married, lived together. Initials: M.K. Not the mother of his children. Survived the lynch: bargained her silence and disappearance for her life, put out that the family had moved, and left the village at first light. Resettled west — now a nurse in Legnica, reachable by phone. Her name appears only in the [PGR expense journal](../items/pgr-expenses.md) under her own surname. See [her file](secondary-characters.md#marta-konieczna).
-- **[Hania Barnaś](jagna.md)** — Eldest daughter, his pride. Attacked at the well in the lynch; broke free and fled during the struggle. Never seen again — whether she survived that night, no one knows.
-- **[Edek Barnaś](glupek.md)** — Young son, four in 1954. Survived the lynch, left brain-damaged.
+- **[Marta Konieczna](secondary-characters.md#marta-konieczna)** — We never married, but we lived as partners. Her surname mattered after I died because it let her disappear outside the Barnaś name.
+- **[Hania Barnaś](jagna.md)** — My eldest daughter was my pride. I came for her with the rifle, and I died before I could get her away.
+- **[Edek Barnaś](glupek.md)** — My young son survived the night that killed the rest of my family. What was done to him is part of what the village buried.
+
+## Bond
+
+- [ ] Treat his surviving children as people, not case details.
+- [ ] Notice that his land, house, and signature are evidence of what happened after his death.
+- [ ] Name his 1947 guilt and his 1954 death together, without making either cancel the other.

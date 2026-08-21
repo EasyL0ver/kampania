@@ -1,58 +1,66 @@
 # The Animals Flee the Valley
 
 **Location:** [%OLD_VILLAGE%](../locations/old-village-ruins.md)
-**Present:** [Ryszard Dudka](../characters/neighbour.md), [Edek Barnaś](../characters/glupek.md) (if players near [Ciotka's](../locations/ciotkas-house.md))
+**Present:** [Ryszard Dudka](../characters/neighbour.md), [Edek Barnaś](../characters/glupek.md) (if near [Ciotka's house](../locations/ciotkas-house.md))
 **Available:** Night, Day 4 onward. Fires once.
 
 ## Trigger
 
-- Flood has filled the low %OLD_VILLAGE% basin — the valley's drainage sink.
-- Forest floods from below. All wildlife pushed uphill through %NEW_VILLAGE%, the only dry corridor.
+- Floodwater has filled the low %OLD_VILLAGE% basin.
+- The forest floor floods from below.
+- Wildlife moves uphill through %NEW_VILLAGE%, the only dry corridor.
 
 ## Hook
 
-- Every village dog barking at once, non-stop, frightened.
-- Under it: hooves on the road, bodies in the grass, wings, large animals crashing through brush.
-- Audible from any bed in %NEW_VILLAGE%.
+- Every village dog barks at once.
+- Hooves, bodies in grass, wings, and animals crashing through brush are audible under the barking.
+- The noise is audible from any bed in %NEW_VILLAGE%.
 
 ## Setup
 
-- Rain eased to cold mist.
-- Wildlife moving one way — uphill, out of the low ground: deer through yards, foxes and hares in the open, mice/voles in a tide, roosting birds flushed.
-- Animals refuse the short dry road past the ruins. All flight bends wide around the old village and takes the long climb.
-- One of [Rezeń](../characters/butcher.md)'s penned dogs has torn its paws bloody on the wire.
-- [Edek](../characters/glupek.md) at [Ciotka's](../locations/ciotkas-house.md) window: still, calm, facing the old village.
-- [Dudka](../characters/neighbour.md) awake at his window, rifle across knees.
+- Rain has eased to cold mist.
+- Deer move through yards.
+- Foxes and hares cross open ground.
+- Mice and voles move in a visible tide.
+- Roosting birds flush from trees.
+- All visible wildlife moves uphill out of the low ground.
+- Animals refuse the short dry road past the ruins.
+- Animal movement bends around [%OLD_VILLAGE%](../locations/old-village-ruins.md) and takes the long climb.
+- One of [Stanisław Rezeń](../characters/butcher.md)'s penned dogs has torn its paws bloody on wire.
+- [Edek Barnaś](../characters/glupek.md) stands at [Ciotka's house](../locations/ciotkas-house.md) window, still and facing [%OLD_VILLAGE%](../locations/old-village-ruins.md).
+- [Ryszard Dudka](../characters/neighbour.md) sits awake at his window with a rifle across his knees.
 
 ## Opportunities
 
-- **The one-way flight** `(requires: Agronomy)` — textbook flood displacement; game leaves low ground every wet year. Not unnatural.
-- **The ground they won't cross** `(requires: Observation)` — consistent all night; not one animal strays toward the old village.
-- **Edek in the doorway** `(requires: Read)` — not agitation; a stillness, as if something out there quieted him.
-- **Dudka at his window** `(requires: Read or Sweettalk)` — twenty years in these woods, never seen them empty like this; trying to convince himself it's only the water.
+- **The one-way flight** `(requires: Agronomy)` — The animals are showing textbook flood displacement; game leaves low ground every wet year.
+- **The ground they will not cross** `(requires: Observation)` — Not one animal strays toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) all night.
+- **Edek at the window** `(requires: Read)` — [Edek Barnaś](../characters/glupek.md) is still, not agitated, while facing [%OLD_VILLAGE%](../locations/old-village-ruins.md).
+- **Dudka at his window** `(requires: Read or Sweettalk)` — [Ryszard Dudka](../characters/neighbour.md) has never seen the woods empty like this in twenty years.
 
 ## Actions
 
 ### Read the flight
-- **Requires:** Go out and study the movement, or press Dudka
+- **Requires:** Go out and study the movement, or press [Ryszard Dudka](../characters/neighbour.md)
 - **Cost:** 1 action
-- **Outcome:** Animals are coming up out of the low %OLD_VILLAGE% basin because it is filling fast. Water pools into the one lowest place, not spreading thin. The basin is the sink the whole valley drains toward; it drowns first, with or without intervention.
+- **Outcome:** Animals are coming up out of the low %OLD_VILLAGE% basin because it is filling fast. Water pools into the lowest place instead of spreading thin.
 - **Gives:** [`old-village-basin-is-the-low-sink`](../clues/clues.md#old-village-basin-is-the-low-sink)
 
 ### Calm the dogs / secure the livestock
 - **Requires:** Nothing
 - **Cost:** 1 action
 - **Outcome:** Players help [Michał Pytlak](../characters/foreman.md) keep panicked stock from breaking pens.
-- **Gives:** NPC State Change — [Michał Pytlak](../characters/foreman.md) warms to the committee
+- **Gives:** NPC State Change: [Michał Pytlak](../characters/foreman.md) warms to the committee.
 
 ## Exits
 
-- Back to bed — actions here spend night time; skipping sleep costs composure (see game-system).
-- Toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) — the low valley visibly drowning, water climbing the ruins.
+- Back to bed; actions here spend night time.
+- Toward [%OLD_VILLAGE%](../locations/old-village-ruins.md), where water is visibly climbing the ruins.
 
 ## If Missed
 
-- Event passes on its own.
-- By morning: yards churned to mud, some pens down, [Pytlak](../characters/foreman.md) has lost stock to panic.
-- Village jumpy, half-convinced the land turned against them.
-- Players hear it secondhand at breakfast, already curdled into superstition.
+- The event passes on its own.
+- By morning, yards are churned to mud.
+- By morning, some pens are down.
+- By morning, [Michał Pytlak](../characters/foreman.md) has lost stock to panic.
+- Players hear the event secondhand at breakfast.
+

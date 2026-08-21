@@ -3,53 +3,62 @@
 <!-- Restructured from story essay. Needs scene-level detail: sensory Setup, concrete Opportunities, specific Actions with outcomes. -->
 
 **Location:** [Matrona's house](../locations/matronas-house.md)
-**Present:** [Emil Rzepka](../characters/secondary-characters.md), [Helena Rzepka](../characters/matrona.md)
-**Available:** Any time players seek out Emil — at work, at the church, at home. Dynamic changes based on Helena's presence.
+**Present:** [Emil Rzepka](../characters/secondary-characters.md), [Helena Rzepka](../characters/matrona.md) (if present)
+**Available:** Any time players seek out Emil.
 
 ## Trigger
 
-Emil Rzepka wants to confess. He's wanted to for 13 years. But Helena Rzepka won't let him. She controls him completely — through guilt over the affair, through fear of what she's capable of, through the marriage itself. He is a hostage who doesn't realize the door is unlocked.
-
-When the players talk to Emil Rzepka, they'll sense it — a man on the edge of speaking, glancing at the door, choosing his words like a prisoner. If Helena Rzepka is present, he says nothing useful. If she walks in mid-conversation, he shuts down instantly.
+- The players speak with Emil Rzepka at work, at church, or at home.
+- Emil wants to confess about 1954.
+- Helena's presence determines whether Emil can speak.
 
 ## Hook
 
-<!-- TODO: Players might notice Emil's behaviour at dinner or at church — the way he watches Helena, the way he defers. A man with something behind his eyes. -->
+- Players may notice Emil watching Helena before he answers questions.
+- Players may notice Emil deferring to Helena in public scenes.
 
 ## Setup
 
-<!-- TODO: Sensory detail of the interaction — the tension in the room when both are present, Emil's physical tells, Helena's control mechanisms. -->
+- Emil chooses words carefully when Helena is nearby.
+- Emil glances toward doors, windows, and Helena before answering.
+- Helena supplies a polished version of events if questioned.
+- Helena's account casts her as a betrayed fiancée who told her brothers and did not control what followed.
+- Emil shuts down immediately if Helena enters mid-conversation.
+- Helena treats Emil's silence as expected household order.
 
 ## Opportunities
 
-- **Emil alone** — at work, in the field, at the church. Without Helena's presence, the dam cracks. He won't give everything at once — years of conditioning don't break in one conversation. But he'll give enough.
-- **Helena's performance** — She has a version of events polished over 13 years: she caught her fiancé cheating, told her brothers, went home and cried. Everything that happened after was the men's doing.
-- **The wedge** — If the players make Helena believe Emil has already talked, her control fractures.
+- **Emil alone** `(requires: Emil is away from Helena and Read)` — Emil is close to speaking but will only give fragments in one conversation. → Gives: [`painter-wants-to-confess`](../clues/clues.md#painter-wants-to-confess)
+- **Helena's performance** `(requires: Read)` — Helena's version is rehearsed and protects her from responsibility for what the men did. → Gives: [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter)
+- **The control mechanism** `(requires: Observation)` — Emil's silence changes instantly when Helena can hear him. → Gives: [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter)
 
 ## Actions
 
-### Get Emil Rzepka Alone
-- **Requires:** Finding him without Helena — at work, in the field, at the church
+### Get Emil Rzepka alone
+- **Requires:** Find Emil without Helena at work, in the field, at the church, or away from her inside the house
 - **Cost:** 1 action
-- **Outcome:** Without her presence, the dam cracks. He won't give everything at once — years of conditioning don't break in one conversation. But he'll give enough: the night, the screaming, being beaten and dragged away. And the voice he heard behind him. **Her voice.**
+- **Outcome:** Emil gives the night in fragments: the affair, the attack, being beaten and dragged away, and Helena's voice giving instructions.
+- **Gives:** [`painter-heard-matrona`](../clues/clues.md#painter-heard-matrona), [`painter-was-spared`](../clues/clues.md#painter-was-spared)
 
 ### Confront Helena Rzepka
 - **Requires:** Nothing
 - **Cost:** 1 action
-- **Outcome:** She's ready for this. She has a version of events polished over 13 years: she caught her fiancé cheating, told her brothers, went home and cried. Everything that happened after was the men's doing. She is the wronged woman. She'll perform grief, outrage, wounded dignity — and give the players nothing.
+- **Outcome:** Helena gives her rehearsed account and denies responsibility beyond telling her brothers about the affair.
+- **Gives:** NPC State Change: Helena recognizes the committee is testing the 1954 story and increases pressure on Emil
 
-### Work the Wedge
-- **Requires:** Prior conversation with Emil (or convincing bluff)
+### Work the wedge
+- **Requires:** Prior conversation with Emil or a convincing bluff that Emil has already talked
 - **Cost:** 1 action
-- **Outcome:** If the players make Helena Rzepka believe Emil Rzepka has already talked, her control fractures. She can't manage a confession that's already happened. This may cause her to turn on Emil Rzepka — or to make a mistake in her own story that reveals the cracks.
+- **Outcome:** Helena cannot manage a confession she believes has already happened; her control over Emil fractures for this scene.
+- **Gives:** NPC State Change: Helena turns active damage control toward Emil; Scene Unlock: another private attempt to reach Emil Rzepka
 
-### Helena's Counter
-If she senses the players are close:
-- She pressures Emil Rzepka privately — threats, guilt, emotional manipulation
-- She feeds the players a competing narrative that frames Stanisław Rezeń as the sole escalator
-- She plays the victim — a woman who lost her sister-in-law, who forgave a cheating husband, who has suffered enough
-- As a last resort: she goes to Zbigniew Gajda. Her brother has the power to make problems disappear.
+## Exits
+
+- Continue pressure at [Matrona's house](../locations/matronas-house.md).
+- Follow Emil in another public scene where Helena is absent.
+- Escalate toward Helena's family through [Zbigniew Gajda](../characters/wojewoda.md).
 
 ## If Missed
 
-<!-- TODO: If players never pursue Emil, he remains trapped. Helena's narrative holds. The truth about her role in 1954 stays buried unless another path exposes it. -->
+- Emil remains trapped under Helena's control.
+- Helena's version holds until another route exposes her role in 1954.

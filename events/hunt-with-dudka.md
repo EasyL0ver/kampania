@@ -1,42 +1,54 @@
 # The Hunt with Dudka
 
-**Location:** [PGR Farm](../locations/pgr-farm.md) → forest
-**Present:** [Ryszard Dudka](../characters/neighbour.md) (rifle), players (optional)
-**Available:** The morning after [The Wolf Attack](wolf-attack.md). Dudka has been going out for weeks; Rezeń's arrival drives him back into the forest with something to prove.
+**Location:** [PGR Farm](../locations/pgr-farm.md)
+**Present:** [Ryszard Dudka](../characters/neighbour.md), players (optional)
+**Available:** The morning after [The Wolf Attack](wolf-attack.md).
+
+## Trigger
+
+- Dudka sees Rezeń at the farm.
+- Rezeń's arrival pushes Dudka back into the forest with his rifle.
+- Pytlak tells Dudka and Rezeń to coordinate.
+- Dudka and Rezeń do not coordinate.
 
 ## Setup
 
-[Ryszard Dudka](../characters/neighbour.md) sees Rezeń at the farm and his face goes white, then red. Weeks of tracking, freezing, losing sleep — and the village's answer is to bring in **that man.** He doesn't greet Rezeń, doesn't acknowledge him. He walks straight past to [Michał Pytlak](../characters/foreman.md): *"I'm going out again. I have the rifle."* Pytlak, who only wants the wolves gone, tells both men to coordinate. They won't. Dudka will track the same pack through the same woods on the same day without saying a word to Rezeń.
+- Dudka enters the forest to track the same wolf pack Rezeń is hunting.
+- Dudka knows the forest trails, scrapes, and likely wolf routes.
+- Dudka grips the rifle too tightly and pushes deeper than needed.
+- Dudka watches the treeline and reacts to Rezeń's dogs in the distance.
+- Dudka dismisses the idea that Paraskewia Chyłak controls the wolves.
 
 ## Opportunities
 
-- **The hunter** — competent, methodical, quiet when he needs to be. He reads tracks, handles the rifle with practiced ease. **Read:** His failure isn't skill — it's scale. One man against a smart pack in vast forest.
-- **The anger** — it leaks through the competence. He grips the rifle too hard, moves too fast, pushes deeper than he needs to. A man with something to prove, and it isn't the wolves he's angry at.
-- **The treeline** — **Observation:** he watches it constantly, and not for wolves. When a dog barks in the distance — Rezeń's dogs — he freezes, grips the rifle, forces himself to relax. *"Just that bastard's dogs."* The heat on *bastard* runs deeper than dislike.
-- **Raise the hag, or the village rumor** — ask him mid-hunt whether the Lemko woman is behind the wolves. Dismissive, but rational: *"She's an old woman in the forest, not a witch. It's rain and prey out here, nothing else."* The hunter who can't stop the wolves at least understands them. **Read:** He defends the hag with the same conviction he attacks Rezeń — clear-eyed about nature, unreasoning about the butcher. The contrast is the tell: this isn't professional rivalry. (For the full leverage on why he hates Rezeń, see [Ryszard Dudka](../characters/neighbour.md).)
+- **Dudka's competence** `(requires: Read)` — Dudka's failure is not lack of skill; one hunter is too little for a smart pack in a large forest.
+- **Dudka's anger** `(requires: Read)` — Dudka's anger is older and more personal than professional failure. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
+- **The distant dogs** `(requires: Observation)` — Dudka reacts to Rezeń's dogs before he forces himself calm. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
+- **The hag rumor** `(requires: players ask Dudka about the village rumor blaming [Paraskewia Chyłak](../characters/hag.md))` — Dudka treats the wolves as animals reacting to rain, prey, and terrain, not witchcraft.
 
 ## Actions
 
 ### Follow him into the forest
 - **Requires:** Nothing
 - **Cost:** 1 action
-- **Outcome:** He knows the terrain — the trails, the scrapes, where the pack has been. Good intelligence, honestly gathered. As the hunt goes on the forest loosens him; he tells hunting stories, becomes the version of himself that does things instead of talking about them.
-  - **Sweettalk:** He opens up — until the distant dogs cut him off cold.
+- **Outcome:** Dudka shows the players the wolf trails, scrapes, and recent pack movement.
 - **Gives:** [`dudka-knows-the-forest`](../clues/clues.md#dudka-knows-the-forest)
 
 ### The grave in the meadow
-- **Requires:** Following the hunt long enough that it swings toward the far woods
+- **Requires:** Follow Dudka long enough for the hunt to swing toward the far woods
 - **Cost:** 1 action
-- **Outcome:** He doesn't flinch from the old-village direction the way the village does — he's a hunter, the woods are the woods. But at one point he peels off the track without a word, and if the players follow he's standing in a meadow on the lip of a ravine, cap in his hands, at a low cairn of moss-grown stones. He crosses himself, says something too quiet to hear, stands there a while. Then puts the cap back on. All he'll say is: *"An old friend. She fell from the ravine. I buried her myself."* He doesn't offer a name, and he doesn't wait to be asked more — he goes back to the hunt.
-- **Gives:** [`dudka-buried-a-friend-at-the-ravine`](../clues/clues.md#dudka-buried-a-friend-at-the-ravine); **Unlocks:** [Meadow by the Ravine](../locations/meadow-by-the-ravine.md) (the players now know the grave exists and where)
+- **Outcome:** Dudka leaves the wolf track and visits a low cairn of moss-grown stones at the lip of a ravine; he identifies the grave only as an old friend he buried himself.
+- **Gives:** [`dudka-buried-a-friend-at-the-ravine`](../clues/clues.md#dudka-buried-a-friend-at-the-ravine); Scene Unlock: [Meadow by the Ravine](../locations/meadow-by-the-ravine.md)
 
 ## Exits
 
-- Back to the [PGR Farm](../locations/pgr-farm.md)
-- To the [Meadow by the Ravine](../locations/meadow-by-the-ravine.md), if Dudka's detour showed the players the grave
-- Deeper toward the [old village ruins](../locations/old-village-ruins.md), which lie further out the same way
-- [The Hunters Cross Paths](hunters-cross-paths.md) — if Rezeń's dogs come crashing through the pack Dudka's stalking
+- Return to the [PGR Farm](../locations/pgr-farm.md).
+- Go to the [Meadow by the Ravine](../locations/meadow-by-the-ravine.md), if Dudka's detour revealed the grave.
+- Continue toward the [old village ruins](../locations/old-village-ruins.md).
+- Trigger [The Hunters Cross Paths](hunters-cross-paths.md), if Rezeń's dogs disrupt Dudka's shot.
 
 ## If Missed
 
-Dudka hunts alone and finds kills, scat, territory markers — but never closes on the den. He reports incomplete information, and his failure keeps feeding the rage that pushes toward the [lynch](punishment-lynch.md). He still visits the grave; the players just don't see it, and reach the [meadow](../locations/meadow-by-the-ravine.md) some other way.
+- Dudka hunts alone and reports incomplete wolf information.
+- Dudka still visits the grave, but the players do not learn where it is from him.
+- Dudka's failure keeps pushing him toward [the lynch](punishment-lynch.md).

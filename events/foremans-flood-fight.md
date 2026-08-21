@@ -1,60 +1,69 @@
 # Zofia Comes to the Committee
 
-**Location:** Wherever the committee is
-**Present:** [Zofia Pytlak](../characters/zofia.md)
-**Available:** Day 5, any phase. Zofia has been watching her husband for two days. She can't reach him. She comes to the outsiders.
+**Location:** [PGR farm](../locations/pgr-farm.md)
+**Present:** [Zofia Pytlak](../characters/zofia.md), [Michał Pytlak](../characters/foreman.md)
+**Available:** Day 5, any phase.
+
+## Trigger
+
+- [Zofia Pytlak](../characters/zofia.md) has watched [Michał Pytlak](../characters/foreman.md) for two days.
+- [Zofia Pytlak](../characters/zofia.md) cannot reach [Michał Pytlak](../characters/foreman.md).
+- [Zofia Pytlak](../characters/zofia.md) comes to the outsiders.
 
 ## Hook
 
-<!-- TODO: Zofia approaching — players might see her crossing the village, looking for them. Red eyes, shaking hands visible from a distance. -->
+- [Zofia Pytlak](../characters/zofia.md) crosses the village looking for the committee.
+- [Zofia Pytlak](../characters/zofia.md)'s eyes are red.
+- [Zofia Pytlak](../characters/zofia.md)'s hands shake.
 
 ## Setup
 
-Zofia finds the committee. Not composed — hands shaking, eyes red, voice cracking. She hasn't slept either, but for different reasons.
-
-*"Something is wrong with my husband."*
-
-She describes it: Michał hasn't come home since the flood started. Day 3, Day 4, now Day 5. He doesn't eat what she brings him. He doesn't sleep. He's 57 years old with a bad knee and he's outlifting men half his age. His hands should be bleeding — they were, the first day. Now they're not. He doesn't shiver in the water. He doesn't slow down.
-
-*"That's not my husband anymore. That's something wearing him."*
-
-**Composure: 0** — she's desperate, not performing.
+- [Zofia Pytlak](../characters/zofia.md) finds the committee.
+- [Zofia Pytlak](../characters/zofia.md) says something is wrong with her husband.
+- [Michał Pytlak](../characters/foreman.md) has not come home since the flood started.
+- [Michał Pytlak](../characters/foreman.md) does not eat what [Zofia Pytlak](../characters/zofia.md) brings him.
+- [Michał Pytlak](../characters/foreman.md) does not sleep.
+- [Michał Pytlak](../characters/foreman.md) is 57 years old with a bad knee.
+- [Michał Pytlak](../characters/foreman.md) is outlifting younger men.
+- [Michał Pytlak](../characters/foreman.md)'s hands bled on the first day and no longer do.
+- [Michał Pytlak](../characters/foreman.md) does not shiver in floodwater.
+- [Michał Pytlak](../characters/foreman.md) does not slow down.
+- [Michał Pytlak](../characters/foreman.md) has been asking about a bunker in the forest.
+- [Michał Pytlak](../characters/foreman.md) wants dynamite.
+- [Zofia Pytlak](../characters/zofia.md) does not know [Michał Pytlak](../characters/foreman.md)'s plan.
+- [Zofia Pytlak](../characters/zofia.md) wants the committee to save her husband rather than the farm.
+- The workers keep following [Michał Pytlak](../characters/foreman.md) because he is the only person still fighting the flood.
+- **Composure:** 0.
 
 ## Opportunities
 
-- **Zofia's fear** — She's not exaggerating. She knows his body — the knee, the back, the breathing. None of it is happening. He moves wrong. His eyes don't focus on her.
-  - **Read:** Genuine terror. Not hysterical — a woman who's watched something impossible for 48 hours and can't explain it.
-  - **Medicine:** What she describes — no fatigue, no pain response, sustained exertion beyond physical limits — has no medical explanation.
-
-- **The explosives** — This is why she came. He's been asking around about a bunker in the forest. Old partisan bunker from the war. He wants what's inside.
-  - *"He keeps saying he needs dynamite. Dynamite! I asked him what for — he won't tell me. He just says he needs it."*
-  - She doesn't know the plan. She just knows her husband is trying to get his hands on decades-old explosives and won't explain why.
-  - **Streetwise:** UPA partisan bunkers in Bieszczady forests — plausible. Old ordnance, unstable, decades underground.
-
-- **The dilemma** — Zofia isn't asking them to save the farm; she gave up on the farm days ago. She wants them to save *him* — pull him out before the thing wearing him works his body to death. But the village needs what he's doing. The sandbags, the ditches, the barriers — without Michał, the flood defense collapses. The workers follow him because he's the only one still fighting.
-  - **Read:** She knows this. She's asking the committee to choose her husband over the village. She knows what that costs.
+- **Zofia's fear** `(requires: Read)` — [Zofia Pytlak](../characters/zofia.md) is describing observed physical changes, not exaggerating.
+- **The impossible endurance** `(requires: Medicine)` — The described lack of fatigue, pain response, and cold response has no medical explanation.
+- **The bunker question** `(requires: Streetwise)` — UPA partisan bunkers in Bieszczady forests can hold old ordnance. → Gives: [`upa-bunker`](../clues/clues.md#upa-bunker)
+- **The dilemma** `(requires: Read)` — [Zofia Pytlak](../characters/zofia.md) knows she is asking the committee to choose [Michał Pytlak](../characters/foreman.md) over the village's flood defense.
 
 ## Actions
 
 ### Go see Pytlak at the flood line
 - **Requires:** Nothing
 - **Cost:** 1 action
-- **Outcome:** The committee finds him at the PGR — knee-deep in floodwater, directing workers, hauling sandbags. 57 years old, hasn't slept in two days. No tremor, no exhaustion, no pain. Workers give him space — respect mixed with unease.
-  - **Observation:** His hands are raw but not bleeding. His clothes are soaked but he's not shivering. He's been standing in cold water for hours.
-  - **Medicine:** Sustained exertion at this level without rest, food, or visible fatigue is not physically possible. Something is keeping him upright.
-  - **Engineering:** The flood defenses he's built are good — better than good. Drainage channels placed exactly where the water wants to go. Sandbag walls angled to redirect flow. This man reads terrain the way a doctor reads a body.
-- **Talking to him:** He barely registers the committee. If asked about the explosives: matter-of-fact, calm. There's a rock formation above the village channeling floodwater toward the farm. Blow it, water goes around instead of through. He knows the terrain — every slope, every drainage path. He needs hands to carry the ordnance and someone who isn't afraid of old dynamite. Not asking permission — informing.
-  - This is the first time anyone hears the actual plan. Zofia only knew about the explosives. The committee gets the why.
-- **If committee offers to help:** → **Unlocks:** [foreman-saves-village](foreman-saves-village.md) — the engineering ending is now on the table.
-- **If committee tries to stop him:** He doesn't argue. He just keeps working. Physically stopping a man with inhuman strength is not an option. Only Zofia can reach him — and right now, she can't.
+- **Outcome:** The committee finds [Michał Pytlak](../characters/foreman.md) knee-deep in floodwater, directing workers, hauling sandbags, and explaining that explosives can reopen the plugged water-gap above the village.
+- **Gives:** [`flood-cause-plugged-gap`](../clues/clues.md#flood-cause-plugged-gap); Scene Unlock: [Michał Pytlak Saves the Village](foreman-saves-village.md)
 
-### Talk to Zofia (extended)
-- **Requires:** Listening
+### Talk to Zofia Pytlak
+- **Requires:** Listening.
 - **Cost:** 1 action
-- **Outcome:** She opens up further. The flood fight isn't new — he's always been like this about the farm. But this is different. He was already carrying something heavy before the flood. She won't say what (the silo — separate thread). The flood just broke whatever was holding him together.
-  - **Read:** There's something else she's not saying. A weight older than the flood. She almost tells you, then pulls back.
-- **NPC State Change:** If treated with kindness, Zofia trusts the committee. She becomes reachable later when her decline accelerates (Act III). This is the window to save her.
+- **Outcome:** [Zofia Pytlak](../characters/zofia.md) says the flood fight is not new for [Michał Pytlak](../characters/foreman.md), but this is different, and he was already carrying a weight before the flood.
+- **Gives:** NPC State Change: [Zofia Pytlak](../characters/zofia.md) trusts the committee and remains reachable later.
+
+## Exits
+
+- Go to the flood line at [PGR farm](../locations/pgr-farm.md).
+- Proceed to [Michał Pytlak Saves the Village](foreman-saves-village.md) if the committee backs the plan.
+- Return to %NEW_VILLAGE% if the committee refuses the flood-line visit.
 
 ## If Missed
 
-<!-- TODO: If players avoid Zofia or aren't available — she returns to watching Michał alone. The engineering ending path becomes harder to access. Her trust window closes. -->
+- [Zofia Pytlak](../characters/zofia.md) returns to watching [Michał Pytlak](../characters/foreman.md) alone.
+- The engineering ending path becomes harder to access.
+- [Zofia Pytlak](../characters/zofia.md)'s trust window closes.

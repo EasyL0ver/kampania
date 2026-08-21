@@ -1,42 +1,52 @@
 # Wojewoda Confronts the Butcher
 
-**Location:** Public — near the store, the farm, wherever Rezeń has wandered to.
+**Location:** [The store](../locations/the-store.md)
 **Present:** [Zbigniew Gajda](../characters/wojewoda.md), [Stanisław Rezeń](../characters/butcher.md)
-**Available:** Day 4 morning. After Rezeń has been in the village since the wolf hunt (Day 2) and refused to leave.
+**Available:** Day 4 morning, after Rezeń has been in the village since the wolf hunt
 
 ## Trigger
 
-Rezeń has broken the arrangement. He's in the village — at the PGR farm, lingering near the store, talking to people, smiling wrong. [Zbigniew](../characters/wojewoda.md) authorized him to hunt wolves via [Tadek](../characters/wujas.md) — a practical request that Rezeń interpreted as permission to reintegrate. The wolf job is done (or irrelevant). Rezeń didn't leave. Zbigniew goes to handle it himself.
+- Rezeń remains in the village after the wolf job.
+- [Zbigniew Gajda](../characters/wojewoda.md) authorized him to hunt wolves through [Tadek](../characters/wujas.md).
+- Rezeń treats the request as permission to reintegrate.
+- Zbigniew goes to move him back to the edge.
 
 ## Hook
 
-<!-- TODO: Players might see Zbigniew walking purposefully across the village. His body language is different — tight, controlled, heading somewhere specific. -->
+- Players near the village centre see Zbigniew walking toward Rezeń.
+- His pace is controlled and direct.
 
 ## Setup
 
-Zbigniew walks up to Rezeń in the open. Public space. Doesn't shout — low voice, controlled. The sołtys giving an order. Players nearby can catch fragments:
-
-- *"Go home, Stanisław."*
-- *"We talked about this."*
-- *"This isn't where you belong."*
-
-Rezeń doesn't argue. Doesn't comply either. Smokes. Fidgets with his knife. Looks at Zbigniew the way the dogs used to look at Rezeń — measuring, not afraid. Something has shifted. The man who used to defer to the sołtys doesn't anymore.
-
-Zbigniew repeats himself. Harder. Rezeń smiles. Wrong smile. Stays where he is.
-
-Zbigniew leaves first. That's the moment. The sołtys has never walked away from a confrontation in this village. Everyone who sees it understands — even if they can't name what they've understood.
+- Zbigniew confronts Rezeń in public.
+- Zbigniew orders him to go home.
+- Rezeń does not comply.
+- Rezeń smokes and handles his knife.
+- Rezeń watches Zbigniew without deference.
+- Zbigniew repeats the order.
+- Rezeń stays.
+- Zbigniew leaves first.
+- Villagers who see it understand that Zbigniew failed to move him.
 
 ## Opportunities
 
-- **Watch the exchange:** Two men who clearly have history. The sołtys is giving an order. The butcher is ignoring it. The power dynamic has flipped.
-- **Ask Zbigniew after:** Tight jaw. *"Rezeń needs to mind his business."* Won't elaborate. More rattled than he should be over a man standing near a store.
-- **Ask Rezeń after:** *"The sołtys worries too much."* Still smiling. Still fidgeting.
-- **Ask villagers:** Unease. Nobody's seen Zbigniew fail to move someone before. Nobody's seen Rezeń in the village centre before. Both facts are wrong together.
+- **Power dynamic** `(requires: Observation)` — the sołtys gives an order and the butcher ignores it.
+- **Zbigniew after** `(requires: Read and speaking to [Zbigniew Gajda](../characters/wojewoda.md))` — he is more rattled than the public exchange warrants.
+- **Rezeń after** `(requires: Read and speaking to [Stanisław Rezeń](../characters/butcher.md))` — he is pleased that the order failed.
+- **Villagers after** `(requires: Streetwise)` — they have not seen Zbigniew fail to move someone before.
 
 ## Actions
 
-<!-- No player actions unique to this event — observation only. The confrontation is witnessed, not intervened in. -->
+- None.
+
+## Exits
+
+- Follow [Zbigniew Gajda](../characters/wojewoda.md) back toward his office or house.
+- Follow [Stanisław Rezeń](../characters/butcher.md) toward the [PGR Farm](../locations/pgr-farm.md) or his edge house.
+- Stay near [The store](../locations/the-store.md) and question villagers.
 
 ## If Missed
 
-<!-- TODO: If players aren't nearby, they hear about it secondhand. Villagers mention the sołtys tried to move Rezeń and failed. The power shift is visible in how people treat Zbigniew afterward — slightly less deferential. -->
+- Villagers mention that the sołtys tried to move Rezeń and failed.
+- Zbigniew receives slightly less deference afterward.
+- Rezeń remains visible in the village centre.

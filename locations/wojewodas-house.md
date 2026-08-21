@@ -1,30 +1,35 @@
-﻿# Wojewoda's House
+# Wojewoda's House
 
 **Type:** Location (revisitable)
-**Location:** Zbigniew Gajda's family home — the largest house in %NEW_VILLAGE%
-**Present:** [Irena Gajda](../characters/wife.md) (usually), [Marek Gajda](../characters/junior.md) (variable), [Tadek Gajda](../characters/wujas.md) (crashes here sometimes)
+**Location:** Zbigniew Gajda's family home — largest house in %NEW_VILLAGE%.
+**Present:** [Irena Gajda](../characters/wife.md) (usually), [Marek Gajda](../characters/junior.md) (variable), [Tadek Gajda](../characters/wujas.md) (sometimes)
 **Available:** Any time
 **Cost:** 1 action per visit
 
 ## Setup
 
-The best house in the village — still modest by city standards, but unmistakably the sołtys's home. Solid construction, a proper kitchen, a main room that doubles as dining. Family photos on the wall, a crucifix, and a small dark wooden icon that doesn't quite match the rest. Irena Gajda keeps it spotless. Tea is always offered.
-
-Zbigniew Gajda's office is at the [PGR](pgr-office.md) — his desk, phone, maps, and paperwork are there. On the evenings he's home and tired, he moves carefully — stiff through one shoulder, slow to twist that way, an old hurt he never mentions.
+- The house is the largest in %NEW_VILLAGE%.
+- The construction is solid by village standards.
+- The house has a proper kitchen and a main room used for dining.
+- Family photos hang on the wall.
+- A crucifix hangs in the house.
+- A small dark wooden icon sits among the Catholic imagery.
+- Irena Gajda keeps the house spotless.
+- Tea is offered to visitors.
+- Zbigniew Gajda's office, phone, maps, and paperwork are at the [PGR](pgr-office.md).
+- If Zbigniew is home in the evening, he moves stiffly through one shoulder and twists slowly.
 
 ## Opportunities
 
-- **An old wound** — *(if Zbigniew is home)* He favours one side, guards his ribs when he reaches or lifts. A trained eye reads an old, badly-healed injury, years old, never properly treated. He deflects any question about it. A **Medic** reads it clearly: ribs broken by a single heavy blow — struck with something hard, like the butt of a rifle — and left to knit on their own. → **Gives:** [wojewoda-was-hurt-that-night](../clues/clues.md#wojewoda-was-hurt-that-night) (**Medic**)
-
-- **Notice the icon on the shelf** — among family photos and Catholic imagery, a small wooden icon. Old, dark with age, painted in a style that's not quite Roman Catholic — flatter faces, gold leaf, Eastern composition. If asked, Zbigniew Gajda says *"Family heirloom. My grandmother's."* He changes the subject. A player with faith or art knowledge would recognize it as Greek Catholic / Orthodox — Lemko devotional art. → **Gives:** [wojewoda-is-lemko](../clues/clues.md#wojewoda-is-lemko) (**Culture**)
-- **Meet Irena** — polite, warm, the perfect sołtys's wife. Hosts with grace. But something is tight behind the hospitality. → **Gives:** [irena-is-tense](../clues/clues.md#irena-is-tense)
-- **Marek bragging** — if Marek is around, he talks big. About the gun in his father's desk at the office, about being the sołtys's son. Kids say too much. → **Gives:** [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
+- **Old wound** `(requires: Zbigniew Gajda home and Medic)` — Zbigniew's ribs show an old badly healed injury from a single heavy blow. → Gives: [wojewoda-was-hurt-that-night](../clues/clues.md#wojewoda-was-hurt-that-night)
+- **Icon on the shelf** `(requires: Culture or faith knowledge)` — The small wooden icon is Greek Catholic or Orthodox Lemko devotional art. → Gives: [wojewoda-is-lemko](../clues/clues.md#wojewoda-is-lemko)
+- **Irena's hospitality** `(requires: Read)` — Irena hosts politely while staying tense. → Gives: [irena-is-tense](../clues/clues.md#irena-is-tense)
+- **Marek bragging** `(requires: Marek Gajda present and Read)` — Marek boasts about the gun in his father's office. → Gives: [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
 
 ## Actions
 
 ### Visit the family
 - **Requires:** Nothing
 - **Cost:** 1 action
-- **Skills:** **Sweettalk**, **Observation**
-- **Outcome:** Domestic scene. Irena serves tea, Marek shows off, the house reveals the family dynamic. Zbigniew's authority extends here too — Irena defers, Marek performs, Tadek is tolerated. A careful observer sees the control pattern that runs the whole village starts in this room.
-- **Leads to:** Understanding of family dynamics. Irena may become a separate conversation path if trust is built.
+- **Outcome:** Irena serves tea, Marek shows off if present, and Tadek is tolerated if present.
+- **Gives:** NPC State Change: Irena Gajda can become available for a separate conversation path if trust is built.

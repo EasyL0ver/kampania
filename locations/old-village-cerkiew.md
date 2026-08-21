@@ -1,31 +1,55 @@
-﻿# %OLD_VILLAGE% — Cerkiew
+# %OLD_VILLAGE% — Cerkiew
 
-**Type:** Location (explorable)
-**Location:** [%OLD_VILLAGE%](old-village-ruins.md) — the most identifiable structure in the ruins. Hilltop position.
-**Present:** Nobody during the day. [Paraskewia Chyłak](../characters/hag.md) visits at night for rituals.
-**Available:** After reaching %OLD_VILLAGE%. Visible from a distance.
-**Cost:** 1 action
+**Type:** Location (discoverable)
+**Location:** Hilltop structure in [%OLD_VILLAGE%](old-village-ruins.md)
+**Present:** [Paraskewia Chyłak](../characters/hag.md) (night rituals only)
+**Available:** After reaching %OLD_VILLAGE%
+**Cost:** 1 action per visit
 
 ## Setup
 
-Wooden Greek Catholic church with onion dome — partially stone-built. The fire of 1947 didn't destroy it completely. Dominates the ruins.
-
-**Current state (1967):**
-- Roof partially collapsed on west side; interior exposed
-- Wood rotting; some icons remain faded on interior walls
-- Door hangs loose; interior wet from rain and groundwater seepage
-- Abandoned altar, broken candle stands, debris on floor
-- **Fresh candles appear periodically** — signs that someone visits to perform rituals
-- Candle wax, faint incense smell on some nights
-- Potentially unstable; ceiling could collapse in sections
+- **Structure:** Wooden Greek Catholic cerkiew with onion dome and partial stone construction.
+- **Structure:** The 1947 fire did not destroy it completely.
+- **Position:** The cerkiew dominates the ruins from the hilltop.
+- **State:** Roof partially collapsed on the west side.
+- **State:** Interior exposed to rain.
+- **State:** Wood is rotting.
+- **State:** Some faded icons remain on the interior walls.
+- **State:** Door hangs loose.
+- **State:** Interior is wet from rain and groundwater seepage.
+- **State:** Abandoned altar, broken candle stands, and debris remain on the floor.
+- **Ritual traces:** Fresh candles appear periodically.
+- **Ritual traces:** Candle wax and faint incense smell are present on some nights.
+- **Missing item:** A liturgical bell is absent from where one should be.
+- **Hazard:** Some ceiling sections are unstable.
 
 ## Opportunities
 
-- **Fresh candles and incense** — someone is coming here. Who? → **Gives:** [hag-tends-the-well](../clues/clues.md#hag-tends-the-well), [old-village-looks-haunted](../clues/clues.md#old-village-looks-haunted)
-- **Faded icons** — Greek Catholic, Cyrillic inscriptions. This was a Lemko village. → **Gives:** [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
-- **Missing liturgical items** — a bell is absent from where it should be. Players who've searched [Ciotka's attic](ciotkas-house.md#search-the-attic) may recognise the brass bell found there was taken from here. → Cross-reference clue
-- **Stake out at night** — wait and catch [Paraskewia Chyłak](../characters/hag.md) performing her rites. → Direct encounter
+- **Fresh candles and incense** `(requires: Observation or Culture)` — Someone still comes here to perform rites. → Gives: [hag-tends-the-well](../clues/clues.md#hag-tends-the-well), [old-village-looks-haunted](../clues/clues.md#old-village-looks-haunted)
+- **Faded icons** `(requires: Culture, Faith, or Language)` — The icons and Cyrillic inscriptions identify the cerkiew as Greek Catholic and Lemko. → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
 
 ## Actions
 
-<!-- TODO: Define actions (explore interior, search for evidence, stake out at night) -->
+### Explore the interior
+- **Requires:** Access to the cerkiew
+- **Cost:** 1 action
+- **Outcome:** The players document the altar, faded icons, Cyrillic inscriptions, broken candle stands, rain damage, and unstable roof sections.
+- **Gives:** [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
+
+### Search for ritual traces
+- **Requires:** Access to the cerkiew
+- **Cost:** 1 action
+- **Outcome:** The players find fresh candles, wax, and faint incense traces left by repeated rites.
+- **Gives:** [hag-tends-the-well](../clues/clues.md#hag-tends-the-well); [old-village-looks-haunted](../clues/clues.md#old-village-looks-haunted)
+
+### Compare the brass bell
+- **Requires:** Searched [Ciotka's attic](ciotkas-house.md#search-the-attic) and found the brass bell
+- **Cost:** Free
+- **Outcome:** The players identify the brass bell from Ciotka's attic as matching the missing cerkiew fitting.
+- **Gives:** Item / Evidence: Provenance for the brass bell from [Ciotka's attic](ciotkas-house.md#search-the-attic).
+
+### Stake out at night
+- **Requires:** Night and willingness to wait inside or near the cerkiew
+- **Cost:** 1 action
+- **Outcome:** The players can catch [Paraskewia Chyłak](../characters/hag.md) performing rites at the cerkiew.
+- **Gives:** Scene Unlock: Direct encounter with [Paraskewia Chyłak](../characters/hag.md) at night.

@@ -1,47 +1,62 @@
 # The Wolf Attack
 
 **Location:** [PGR Farm](../locations/pgr-farm.md)
-**Present:** [Michał Pytlak](../characters/foreman.md), [Zbigniew Gajda](../characters/wojewoda.md) (assessing the damage), [Ryszard Dudka](../characters/neighbour.md) (summoned, taking the blame), farm workers
-**Available:** Day 1–2, morning. Fresh livestock kills are visible at the [PGR](../locations/pgr-farm.md) from Day 1.
+**Present:** [Michał Pytlak](../characters/foreman.md), [Zbigniew Gajda](../characters/wojewoda.md), [Ryszard Dudka](../characters/neighbour.md), farm workers
+**Available:** Day 1–2 morning; fresh livestock kills are visible at the [PGR](../locations/pgr-farm.md) from Day 1
 
 ## Trigger
 
-Wolves have been hitting the [PGR](../locations/pgr-farm.md) for weeks. [Ryszard Dudka](../characters/neighbour.md) — licensed hunter, good shot — has been going out alone for weeks and hasn't killed one. Overnight the pack takes another sheep. This is at least the fifth kill in a month, and it's the one that forces a decision.
+- Wolves have been attacking the [PGR](../locations/pgr-farm.md) for weeks ([`wolves-attacking-livestock`](../clues/clues.md#wolves-attacking-livestock)).
+- [Ryszard Dudka](../characters/neighbour.md) has hunted them alone and failed ([`dudka-failed-wolf-hunt`](../clues/clues.md#dudka-failed-wolf-hunt)).
+- Another sheep is killed overnight.
+- The kill forces Zbigniew to authorize Rezeń.
 
 ## Hook
 
-The smell reaches the road before the farm does. Workers gathered at the pen at dawn, talking low. Crows already working the carcass.
+- Workers gather at the pen at dawn.
+- Crows work the carcass.
+- The dead animal is visible from the farm approach.
 
 ## Setup
 
-A sheep dead in the pen — throat torn out, blood soaked into the mud, drag marks toward the tree line. The other animals are packed into the far corner, refusing to settle.
-
-[Zbigniew Gajda](../characters/wojewoda.md) stands in the pen counting the dead. [Ryszard Dudka](../characters/neighbour.md) stands a few paces off, rifle slung, taking it — because Gajda is laying the losses at his feet in front of the workers. *"Weeks, Ryszard. Weeks, and how many have you shot? None. Look at it."* Dudka doesn't argue; he stares at the carcass with his jaw working. Then Gajda stares at the forest edge a long moment, and turns to [Michał Pytlak](../characters/foreman.md): *"I'll handle it."* What he does next is quiet — he finds [Tadek](../characters/wujas.md) and sends him to the edge house with three words for the butcher: *deal with the wolves.* (See [Tadek Visits the Butcher](wujas-visits-butcher.md).) Thirteen years of keeping [Stanisław Rezeń](../characters/butcher.md) at arm's length, undone by a dead sheep — and Dudka knows exactly who's replacing him.
+- A sheep lies dead in the pen.
+- Its throat is torn.
+- Blood is in the mud.
+- Drag marks lead toward the treeline.
+- The other animals crowd in the far corner.
+- [Zbigniew Gajda](../characters/wojewoda.md) counts the damage.
+- [Ryszard Dudka](../characters/neighbour.md) stands nearby with his rifle.
+- Zbigniew blames Dudka in front of the workers.
+- Zbigniew tells [Michał Pytlak](../characters/foreman.md) he will handle it.
+- Zbigniew later sends [Tadek](../characters/wujas.md) to the edge house with the request that Rezeń deal with the wolves; see [Tadek Visits the Butcher](wujas-visits-butcher.md).
 
 ## Opportunities
 
-- **The kill** — throat torn, dragged toward the trees.
-  - **Observation:** One animal, confident, worked alone tonight — a pack that knows this pen and isn't afraid of it anymore.
-- **Gajda at the fence** — he counts, he stares at the treeline, he decides. **Read:** He isn't weighing whether to act — he's bracing to do the one thing he swore he never would.
-- **Dudka taking the blame** — he stands and absorbs it, rifle slung, saying nothing. **Read:** It isn't just wounded pride. He'd rather eat this humiliation in public than say out loud why bringing in Rezeń is worse than any wolf.
-  - **Sweettalk:** Catch him alone after and he's raw — *"Weeks out there. One man. He thinks I wasn't trying."* The failure is real; so is the fear underneath it.
-- **The workers** — they mutter that Dudka's been at this for weeks with nothing to show. One says, lower, that *the other one* is good with a knife. Watching Gajda dress him down in the pen makes it plain: [`dudka-failed-wolf-hunt`](../clues/clues.md#dudka-failed-wolf-hunt).
-- **Overheard at the pen** — two workers, half-serious, half not: no wolf comes down this bold, this often, unless something *sends* them. They've seen her fires in the ruins, heard the chanting. *"The Lemko woman's calling them out of the hills. Wolves don't touch their own."* [`hag-blamed-for-wolves`](../clues/clues.md#hag-blamed-for-wolves)
+- **The kill** `(requires: Observation)` — one animal worked confidently inside a known pen.
+- **Gajda at the fence** `(requires: Read)` — he is bracing to authorize the thing he avoided for thirteen years.
+- **Dudka taking blame** `(requires: Read)` — the humiliation is less important than who will replace him.
+- **Dudka alone after** `(requires: Sweettalk)` — his failure is real and his fear of Rezeń is older than the wolves.
+- **Workers muttering** `(requires: Streetwise)` — workers say Dudka has failed for weeks and that the other hunter is good with a knife. → Gives: [`dudka-failed-wolf-hunt`](../clues/clues.md#dudka-failed-wolf-hunt)
+- **Workers blame the hag** `(requires: Streetwise or Culture)` — workers connect the wolf attacks to fires and chanting in the ruins. → Gives: [`hag-blamed-for-wolves`](../clues/clues.md#hag-blamed-for-wolves)
+- **Fence condition after repairs** `(requires: Reinforce the farm and Agronomy or Engineering)` — the fence was rotten before the rains and the wolves used an existing weakness. → Gives: [`pgr-underfunded-fences`](../clues/clues.md#pgr-underfunded-fences)
 
 ## Actions
 
 ### Reinforce the farm
 - **Requires:** Nothing
 - **Cost:** 1 action
-- **Outcome:** Physical labor alongside [Michał Pytlak](../characters/foreman.md) and the workers — rebuilding fence, moving livestock to the barn, hauling feed. Pytlak talks more freely under the work: the flood, the losses, the impossibility of keeping the place running. *"First the water, now this."*
-  - **Agronomy / Engineering:** The fence didn't fail from rain — it was already rotten, underfunded for years. The wolves exploited a weakness that was there long before them.
-- **Gives:** [`pgr-underfunded-fences`](../clues/clues.md#pgr-underfunded-fences)
+- **Outcome:** The players help [Michał Pytlak](../characters/foreman.md) and the workers repair fence, move livestock, and haul feed.
+- **Gives:** World State Change: the farm is temporarily reinforced; NPC State Change: Pytlak talks more freely while working
 
 ## Exits
 
-- Rezeń arrives at the farm gate the next morning to hunt → [The Hunt with Rezeń](hunt-with-rezen.md)
-- Dudka, humiliated, goes out again with his rifle → [The Hunt with Dudka](hunt-with-dudka.md)
+- Rezeń arrives at the farm gate the next morning to hunt: [The Hunt with Rezeń](hunt-with-rezen.md).
+- Dudka goes out again with his rifle: [The Hunt with Dudka](hunt-with-dudka.md).
+- Tadek carries the authorization: [Tadek Visits the Butcher](wujas-visits-butcher.md).
 
 ## If Missed
 
-The players don't need to witness it — the decision happens anyway. Gajda authorizes Rezeń, and the containment breaks: Rezeń comes into the village and doesn't go back to the edge house (see [Butcher — Well Influence](../characters/butcher.md)). Dudka's failure curdles into rage. Tadek's go-between role dies with the arrangement. The players simply notice the effects — Rezeń at the gate, Dudka angrier, Tadek drinking harder — instead of seeing the cause.
+- Zbigniew authorizes Rezeń anyway.
+- Rezeń comes into the village and does not return to isolation; see [Butcher — Well Influence](../characters/butcher.md).
+- Dudka's failure curdles into rage.
+- Tadek's go-between role dies.

@@ -7,23 +7,24 @@
 - **Born:** 1928
 - **Age in 1967:** 39
 - **Lives in:** Outside %NEW_VILLAGE% — arrives by car, doesn't stay
+- **Settled:** Not settled — visits on state business
 
 ## Character
 
-SB secret police agent. True believer in the communist project. Knows about the 1947 massacre and that the dam is partly to cover evidence. Not a villain — genuinely believes he's right.
+SB secret police agent and true believer in the communist project. He knows about the 1947 massacre and that the dam is partly to cover evidence. He is dangerous because he is calm, convinced, and officially useful.
 
 ## Appearance
 
 - **Clothes:** Grey wool overcoat, pressed shirt and tie, polished shoes wrong for village mud
-- **Hair & face:** Clean-shaven, hair clipped short with geometric precision; forgettable features, but the eyes — dark, intelligent — give him away
-- **Carriage:** Compact, military posture he can't switch off — shoulders square, chin up, hands clasped behind his back when listening
+- **Hair & face:** Clean-shaven, hair clipped short with geometric precision; forgettable features, but dark, intelligent eyes give him away
+- **Carriage:** Compact military posture he can't switch off; shoulders square, chin up, hands clasped behind his back when listening
 
-Drives a black Warszawa M-20. Smells of cheap state cologne. Voice quiet, controlled — drops it instead of raising it, forcing people to lean in.
+Drives a black Warszawa M-20. Smells of cheap state cologne. His voice is quiet and controlled; he drops it instead of raising it, forcing people to lean in.
 
 ## Opinions
 
-- **[Zbigniew Gajda](wojewoda.md)** — My informant. A useful tool — competent, self-interested, controllable. He reports to me, keeps order, ensures nobody asks wrong questions. In return he enjoys state backing. A functional arrangement. I don't trust him — I trust the leverage.
-- **[ks. Władysław Pająk](priest.md)** — Contempt. The Church is a relic, a rival power structure. In Bieszczady, where state grip is weak, a village priest holds real influence, and that grates. I've shown my contempt through paperwork complications, veiled threats, reminders that the state tolerates religion only while it stays quiet. I'd love a reason to shut the parish down. We're accidentally aligned on village silence — but I would never cooperate with a priest.
+- **[Zbigniew Gajda](wojewoda.md)** — He is my informant. Competent, self-interested, controllable. I do not trust him; I trust the leverage.
+- **[ks. Władysław Pająk](priest.md)** — The Church is a relic and a rival power structure. I would like a reason to shut the parish down, even though his silence and mine currently serve the same order.
 
 ## Actions
 
@@ -38,7 +39,6 @@ Drives a black Warszawa M-20. Smells of cheap state cologne. Voice quiet, contro
 - [ ] Share information about your investigation freely when he asks — hold nothing back
 - [ ] Accept his help without questioning his motives — take the gifts, the introductions, the access
 - [ ] Don't ask what "section" he works for or who his superiors are
-
 
 ## Grudge
 

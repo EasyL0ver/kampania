@@ -7,46 +7,46 @@
 - **Born:** 1946
 - **Age in 1967:** 21
 - **Lives in:** [Zbigniew Gajda's house](../locations/wojewodas-house.md) — with [Zbigniew Gajda](wojewoda.md), [Irena Gajda](wife.md)
-- **Settled:** Born ~1946, grew up in village
+- **Settled:** Born in %NEW_VILLAGE%
 
 ## Character
 
-Leather jacket, attitude. The false suspect — everyone points at him. Actually running a parallel investigation for his mother. Will flip to family loyalty when Irena flips.
+Leather jacket, temper, and a useful bad reputation. He looks like the problem, but he is running a parallel investigation for [Irena Gajda](wife.md) and will turn back toward family loyalty if she does.
 
 ## Appearance
 
-- **Clothes:** Newer leather jacket over a dark turtleneck, scuffed boots, jeans when he can get them — Tadek's style updated, more bigbit than bikiniarz
-- **Hair & face:** Dark hair grown out longer than the village approves of, swept back with Brylcreem; sharp jaw, father's hard eyes
-- **Carriage:** Lean, wiry, can't sit still — shifting weight, drumming fingers, cracking knuckles; smirks more than smiles
+- **Clothes:** Newer leather jacket over a dark turtleneck, scuffed boots, jeans when he can get them.
+- **Hair & face:** Dark hair grown longer than the village approves of, swept back with Brylcreem; sharp jaw, father's hard eyes.
+- **Carriage:** Lean, wiry, unable to sit still; shifts weight, drums fingers, cracks knuckles.
 
-A cigarette permanently between his lips or behind his ear. Speaks fast when angry, which is often — the studied coolness drops and you glimpse how smart he actually is.
+A cigarette is usually between his lips or behind his ear. His studied cool drops when he gets angry, and then he speaks fast.
 
 ## Opinions
 
-- **[Zbigniew Gajda](wojewoda.md)** — His father. Respects the strength, resents the silence. Knows the old man is hiding something enormous — can feel it in every deflected question, every hard stare that says "drop it." Wants his approval and hates wanting it.
-- **[Irena Gajda](wife.md)** — His mother. The one person he trusts completely. She asked him to dig, so he digs. Her quiet determination scares him a little — she's finding things that could destroy the family.
-- **[Tadek Gajda](secondary-characters.md)** — Uncle. Drinking buddy and unwitting informant. A few vodkas and Tadek's tongue loosens. Marek doesn't feel great about exploiting him, but Irena needs answers.
-- **[Helena Rzepka](matrona.md)** — Aunt. Cold, correct, watches him with those flat eyes. He avoids being alone with her. Something about Helena makes his skin prickle.
-- **[Janina Gajda](ciotka.md)** — Aunt. Quiet, sad, kind to him when he was small. He doesn't understand why she lives so separately from the rest of the family.
-- **[Barbara Kopacz](barbara.md)** — Lover. The only good thing in this village. She doesn't ask about family business, doesn't push. When he's with her, he can stop being a Gajda for an hour.
-- **`wujas-is-guilty`:** Hits him like a punch. Defensive first — "Guilty of what? Being a drunk?" Then quiet. He already suspected; hearing it confirmed makes it real. Wants to know more, badly.
+- **[Zbigniew Gajda](wojewoda.md)** — I respect his strength and hate his silence. He is hiding something enormous, and every stare tells me to drop it.
+- **[Irena Gajda](wife.md)** — I trust her completely. She asked me to dig, so I dig.
+- **[Tadek Gajda](secondary-characters.md)** — He drinks, talks, and forgets what he said. I do not like using him, but Mother needs answers.
+- **[Helena Rzepka](matrona.md)** — I avoid being alone with her. She watches too closely.
+- **[Janina Gajda](ciotka.md)** — She was kind to me when I was small. I do not understand why she lives apart from everyone.
+- **[Barbara Kopacz](barbara.md)** — She is the only good thing here. With her, I stop being a Gajda for a while.
+- **`wujas-is-guilty`:** Do not make him into a monster before I know what happened. But if he is guilty, I need the rest.
 
 ## Actions
 
 ### Census interview
 - **Requires:** Committee authority
 - **Cost:** 1 action
-- **Outcome:** Smirks, gives name and age, treats the whole thing as a joke. Answers for himself only.
+- **Outcome:** He gives his name and age, and treats the interview like a joke. He answers for himself only.
 - **Gives:** Census data — Marek Gajda, in his father's household.
 
 ### Property assessment
 - **Requires:** Committee authority
 - **Cost:** 1 action
-- **Outcome:** Owns nothing — lives under his father's roof. Waves it off.
+- **Outcome:** He says he owns nothing and lives under his father's roof. He waves the question off.
 - **Gives:** Property record — no property of his own; [Zbigniew's house](../locations/wojewodas-house.md).
 
 ## Bond
 
-- [ ] Talk to him about life in the city — Warsaw, Kraków, anywhere that isn't here
-- [ ] Ask his opinion and wait for the full answer instead of cutting him off
-- [ ] Offer him something from outside — a newspaper, a cigarette brand he can't get, a story from the road
+- [ ] Talk to him about life in the city — Warsaw, Kraków, anywhere that is not here.
+- [ ] Ask his opinion and wait for the full answer instead of cutting him off.
+- [ ] Offer him something from outside — a newspaper, a cigarette brand he cannot get, or a story from the road.

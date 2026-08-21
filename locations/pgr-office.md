@@ -1,53 +1,66 @@
-﻿# PGR Office
+# PGR Office
 
 **Type:** Location (revisitable)
-**Location:** Zbigniew Gajda's office — a room in the PGR main building
+**Location:** Zbigniew Gajda's office in the PGR main building.
 **Present:** [Zbigniew Gajda](../characters/wojewoda.md) (usually during day)
 **Available:** After arrival event
 **Cost:** 1 action per visit
 
 ## Setup
 
-The nerve centre of the village. Clean desk, heavy bakelite phone, ledgers, topographic maps spread across the surface. A shelf behind the chair, and set into the wall behind it a heavy iron safe — old, official, always locked. Tea always on the table. Zbigniew Gajda works here and receives visitors here. The only phone in the village.
+- The room contains a clean desk, heavy bakelite phone, ledgers, topographic maps, a shelf, and a heavy iron wall safe.
+- The safe is old, official, and locked.
+- Tea is usually on the table.
+- Zbigniew Gajda works here and receives visitors here.
+- The phone is the only phone in the village.
+- The maps show topography, rivers, old boundaries, and %OLD_VILLAGE%.
+- The ledger is on the desk during census work.
 
 ## Opportunities
 
-- **Notice the maps on the desk** — topographic maps, river markings, old boundaries. Players who look closely see %OLD_VILLAGE% marked. → [old village was Lemko](../clues/clues.md#old-village-was-lemko) (**Observation**)
+- **Maps on the desk** `(requires: Observation)` — The topographic maps mark %OLD_VILLAGE%. → Gives: [old village was Lemko](../clues/clues.md#old-village-was-lemko)
+- **Only phone in the village** `(requires: Observation)` — The office phone is the village's only outside connection. → Gives: [phone is lifeline](../clues/clues.md#phone-is-lifeline)
 
 ## Actions
 
 ### Ask for the maps
-- See [Zbigniew Gajda — Ask for the maps](../characters/wojewoda.md#ask-for-the-maps)
+- **Requires:** [Zbigniew Gajda](../characters/wojewoda.md) present
+- **Cost:** Free
+- **Outcome:** Resolve through [Zbigniew Gajda — Ask for the maps](../characters/wojewoda.md#ask-for-the-maps).
+- **Gives:** Item: topographic maps if Zbigniew grants them.
 
 ### Steal the maps
 - **Requires:** Zbigniew Gajda absent or distracted
 - **Cost:** 1 action
-- **Skills:** **Discretion**
-- **Outcome:** Players take the maps. Detailed terrain — river courses, elevations, %OLD_VILLAGE% marked clearly. Huge help for the survey at the village outskirts and finding the old village. Zbigniew Gajda will notice eventually.
-- **Leads to:** Maps in hand. Reduces village outskirts survey cost. Zbigniew Gajda suspicious if he discovers them missing.
+- **Outcome:** Players take the maps; Zbigniew Gajda will notice eventually.
+- **Gives:** Item: topographic maps; World State Change: village outskirts survey cost is reduced; NPC State Change: Zbigniew Gajda becomes suspicious if he discovers the theft.
 
 ### Tell Wojewoda about the flood
-- See [Zbigniew Gajda — Tell about the flood risk](../characters/wojewoda.md#tell-about-the-flood-risk) and [Tell with geological proof](../characters/wojewoda.md#tell-with-geological-proof)
+- **Requires:** [New Village will flood](../clues/clues.md#new-village-will-flood)
+- **Cost:** 1 action
+- **Outcome:** Resolve through [Zbigniew Gajda — Tell about the flood risk](../characters/wojewoda.md#tell-about-the-flood-risk) or [Tell with geological proof](../characters/wojewoda.md#tell-with-geological-proof).
+- **Gives:** NPC State Change: Zbigniew Gajda has been formally warned about the flood risk.
 
 ### Use the phone
-- **Requires:** Ask Zbigniew Gajda (he grants access freely)
+- **Requires:** Zbigniew Gajda grants access
 - **Cost:** 1 action per call
-- **Outcome:** Phone is available for calling prof. Tadeusz Bieńkowski, dr Leon Sawicki, or district authorities. Each call is its own action with its own outcome depending on game state.
-- **Leads to:** [phone is lifeline](../clues/clues.md#phone-is-lifeline). Call prof. Tadeusz Bieńkowski about hydrology (or later: mention the massacre = hidden safeguard). Call dr Leon Sawicki if Pawełek Kopacz is ill. Call authorities if truth is documented.
+- **Outcome:** Players can call prof. Tadeusz Bieńkowski, dr Leon Sawicki, or district authorities, subject to game state.
+- **Gives:** [phone is lifeline](../clues/clues.md#phone-is-lifeline); Scene Unlock: outside calls through the office phone.
 
 ### Inspect the PGR ledger
-- **Requires:** Part of census work — the ledger is on the desk. Zbigniew Gajda allows it freely, it's government business.
+- **Requires:** Committee census work
 - **Cost:** 1 action
-- **Skills:** **Law** or **Agronomy**
-- **Outcome:** A list of PGR workers with names and wages. Useful for the census — cross-reference against actual people in the village. Players who check will find some names that nobody recognises. Phantom workers on the payroll.
-- **Leads to:** With accounting ability → [Foreman cover-up](../clues/clues.md#foreman-coverup) exposed — a dead worker still on the books. Without ability → a list of names, some of which don't match anyone they meet. Vague suspicion, nothing concrete.
+- **Outcome:** The ledger lists PGR workers and wages; some names do not match anyone in the village.
+- **Gives:** [Foreman cover-up](../clues/clues.md#foreman-coverup)
 
 ### Report the bimber still
-- See [Zbigniew Gajda — Report the bimber still](../characters/wojewoda.md#report-the-bimber-still)
+- **Requires:** [bimber-still](../clues/clues.md#bimber-still)
+- **Cost:** Free
+- **Outcome:** Resolve through [Zbigniew Gajda — Report the bimber still](../characters/wojewoda.md#report-the-bimber-still).
+- **Gives:** NPC State Change: Zbigniew Gajda has been told the committee knows about the bimber still.
 
 ### Crack the safe
-- **Requires:** Zbigniew Gajda absent or distracted, and a way in — force it, or find the key/combination
+- **Requires:** Zbigniew Gajda absent or distracted, and a way to open the safe
 - **Cost:** 1 action
-- **Skills:** **Discretion** (unseen), **Larceny** (open it)
-- **Outcome:** The wall safe holds two things: the sołtys's loaded pistol, and [Edward Barnaś's Departure Declaration](../items/barnas-departure-declaration.md) — the forged handover of the Barnaś house and land. The gun changes the power dynamic (against Stanisław Rezeń, in a mob, in the final car scene); the declaration is the paper that faked the family's disappearance.
-- **Gives:** Item: sołtys's pistol. Item: [Edward Barnaś's Departure Declaration](../items/barnas-departure-declaration.md). Zbigniew Gajda notices either missing eventually.
+- **Outcome:** The safe contains the sołtys's loaded pistol and [Edward Barnaś's Departure Declaration](../items/barnas-departure-declaration.md).
+- **Gives:** Item: sołtys's pistol; Item: [Edward Barnaś's Departure Declaration](../items/barnas-departure-declaration.md); [departure-declaration-forged](../clues/clues.md#departure-declaration-forged); NPC State Change: Zbigniew Gajda notices either item missing eventually.

@@ -1,27 +1,35 @@
 # Arrival
 
-**Location:** %NEW_VILLAGE% — road in, then Zbigniew Gajda's house → [wojewodas-house](../locations/wojewodas-house.md)
-**Present:** Zbigniew Gajda, villagers in passing (drinking crew, Barbara Kopacz with Pawełek Kopacz), Irena Gajda (inside the house)
-**Available:** Exit from 01-the-car-in
-
-## Hook
-
-<!-- Not applicable — this event follows directly from the-car-in and happens to the players. No external hook needed. -->
+**Location:** [Zbigniew Gajda's house](../locations/wojewodas-house.md)
+**Present:** [Zbigniew Gajda](../characters/wojewoda.md), [Irena Gajda](../characters/wife.md), [Tadek Gajda](../characters/wujas.md), [Barbara Kopacz](../characters/barbara.md), [Pawełek Kopacz](../characters/pawelek.md)
+**Available:** After [the car in](the-car-in.md).
 
 ## Setup
 
-The car stops. Mud road, wooden houses, grey sky. Zbigniew Gajda is already waiting — firm handshake, steady eyes. He walks the committee through the village toward his house.
-
-Along the way: men drinking in the daytime (Tadek Gajda's crew). A young woman with a small boy (Barbara Kopacz and Pawełek Kopacz). The church on the hill, suspiciously well-maintained. Dogs barking toward the forest. A village holding its breath.
-
-Inside the office: clean, organised. Heavy bakelite phone on the desk. Ledgers, maps. Tea on the table. Zbigniew Gajda lays it out — he's the sołtys, he runs things here. He's cooperative, helpful, opens all doors.
-
-He doesn't mention the flood. He doesn't know. But he's probing — *"So what exactly does the committee assess?"* A question about methodology that's really a question about his village's future. *"The dam — how far along is it?"* Casual interest that isn't casual at all. He watches the players' faces when they answer.
+- The car stops on the muddy road in %NEW_VILLAGE%.
+- [Zbigniew Gajda](../characters/wojewoda.md) is waiting for the committee.
+- [Zbigniew Gajda](../characters/wojewoda.md) gives a firm handshake and walks the committee toward his house.
+- Men from [Tadek Gajda](../characters/wujas.md)'s crew drink in daytime along the route.
+- [Barbara Kopacz](../characters/barbara.md) and [Pawełek Kopacz](../characters/pawelek.md) are visible along the route.
+- The church on the hill is unusually well maintained.
+- Dogs bark toward the forest.
+- [Zbigniew Gajda](../characters/wojewoda.md)'s office is clean and organised.
+- A heavy bakelite phone sits on the office desk.
+- Ledgers and maps are visible in the office.
+- Tea is on the table.
+- [Zbigniew Gajda](../characters/wojewoda.md) presents himself as cooperative and helpful.
+- [Zbigniew Gajda](../characters/wojewoda.md) does not mention the flood.
+- [Zbigniew Gajda](../characters/wojewoda.md) asks what exactly the committee assesses.
+- [Zbigniew Gajda](../characters/wojewoda.md) asks how far along the dam is.
+- [Irena Gajda](../characters/wife.md) is inside the house.
 
 ## Opportunities
 
-- **Spot Wife eavesdropping** — catch a shadow by the door, a floorboard creak. She's listening to everything. → **Gives:** [wife-eavesdrops](../clues/clues.md#wife-eavesdrops)
+- **The listening at the door** `(requires: Observation)` — A shadow and a floorboard creak show someone is listening during the conversation with [Zbigniew Gajda](../characters/wojewoda.md). → Gives: [`wife-eavesdrops`](../clues/clues.md#wife-eavesdrops)
 
-## If Missed
+## Actions
 
-<!-- Not applicable — event happens directly to the players upon arrival. -->
+## Exits
+
+- Stay at [Zbigniew Gajda's house](../locations/wojewodas-house.md) for official introductions.
+- Continue to [Dinner at Wojewoda's](dinner.md) if the committee accepts hospitality.

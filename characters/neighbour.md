@@ -12,29 +12,29 @@
 
 ## Character
 
-Quiet hunter. Heard everything in 1954, did nothing. Carries the guilt of inaction. Openly vindictive toward Rezeń. The easiest NPC to crack.
+Quiet hunter who heard everything in 1954 and did nothing. He carries the guilt of inaction and turns it into fear and hatred of Rezeń. He is the easiest NPC to crack.
 
 ## Appearance
 
-- **Clothes:** Wool trousers held up by braces, flannel shirt (sleeves rolled in summer), heavy boots — same outfit every day
+- **Clothes:** Wool trousers held up by braces, flannel shirt with sleeves rolled in summer, heavy boots — same outfit every day
 - **Hair & face:** Flat cap he rarely removes; pale blue eyes, strong jaw, three-day stubble that never becomes a beard
-- **Carriage:** Lean hunter's build, moves quietly even indoors; shoulders slightly forward, watches your hands and posture, not your face
+- **Carriage:** Lean hunter's build, quiet even indoors; shoulders slightly forward, watches hands and posture more than faces
 
-Speaks in short flat sentences with long pauses. Goes quieter when angry, not louder. Smells of tobacco smoke and pine resin.
+He speaks in short flat sentences with long pauses. He goes quieter when angry, not louder, and smells of tobacco smoke and pine resin.
 
 ## Opinions
 
-- **[Barbara Kopacz](barbara.md)** — The only good thing left. She's warm and kind and she trusts me completely. I bring firewood, watch the boy, fix what breaks. She tells me everything she hears — the committee, the village, all of it — and she has no idea what I do with it. She and Pawełek are the only untainted thing in my life.
-- **[Stanisław Rezeń](butcher.md)** — I'm terrified of him. If the village finds out I talked, Rezeń — who smothered a crying child that night until Janina tore the pillow away — won't hesitate with me. I hate him and I fear him in equal measure.
-- **[Janina Gajda](ciotka.md)** — She lives next door. I've watched her tend that boy for thirteen years. Her devotion, her grief — I see it all from my window. I know what she did that night. I know what it cost her.
-- **[Edek Barnaś](glupek.md)** — The living reminder. Thirteen years seeing him next door, growing up broken. I heard what happened to him and I did nothing.
-- **`wujas-is-guilty`:** Goes still. Long silence. "Lots of men drink for bad reasons." Won't say more.
+- **[Barbara Kopacz](barbara.md)** — She and Pawełek are the only good thing left. I bring firewood, watch the boy, fix what breaks, and listen when she talks over the fence.
+- **[Stanisław Rezeń](butcher.md)** — I hate him and fear him in equal measure. If the village finds out I talked, he will not hesitate with me.
+- **[Janina Gajda](ciotka.md)** — I have watched her tend that boy for thirteen years. I know what she did that night, and I know what it cost her.
+- **[Edek Barnaś](glupek.md)** — He is the living reminder. I heard what happened to him and did nothing.
+- **`wujas-is-guilty`:** Lots of men drink for bad reasons. I will not say more unless something breaks.
 
 ## Mechanics
 
 ### Vigilante Targeting
 
-GM tracks which clues leak to Ryszard (mainly through [Barbara](barbara.md) over the fence — **whatever she learns, he learns**). Whoever the clues point at most becomes his target for the [lynch ending](../events/punishment-lynch.md) — Rezeń by default, but the siblings, wrong people, or even the players if that's where the evidence lands.
+GM tracks which clues leak to Ryszard, mainly through [Barbara](barbara.md) over the fence: whatever she learns, he learns. Whoever the clues point at most becomes his target for the [lynch ending](../events/punishment-lynch.md) — Rezeń by default, but the siblings, wrong people, or the players if the evidence lands there.
 
 ### Lynch Targets
 
@@ -75,63 +75,67 @@ GM tracks score per target. Highest when he snaps = who he goes after.
 | Players play with Pawełek | Players | -1 |
 | Players push Barbara about the father | Players | +1 |
 
-
 ### Humiliated
 
-A standalone status, tracked separately from the lynch scoring above. Ryszard picks it up if [the two hunters' clash](../events/hunters-cross-paths.md) is left to run its course — the players don't separate them, so Rezeń wins it, laughs him down, calls him *Rychu* and pats his back. Defusing the clash before Rezeń wins prevents the status entirely.
+A standalone status, tracked separately from the lynch scoring above. Ryszard picks it up if [the two hunters' clash](../events/hunters-cross-paths.md) is left to run its course and Rezeń wins it.
 
 While Humiliated:
-- He is shorter, colder, quicker to anger in every later scene. The easiest NPC to crack cracks *harder* against Rezeń — he'll spill with less prompting — but he is also further down the road to acting on his own.
-- His hatred of Rezeń stops being talk. Where before he'd rage and do nothing, now he's a man looking for the moment to prove he isn't nothing.
-- Cleared only if the players later give him something that restores face against Rezeń (GM's call).
-
+- He is shorter, colder, and quicker to anger in every later scene.
+- His hatred of Rezeń stops being talk.
+- Cleared only if the players later give him something that restores face against Rezeń.
 
 ## Actions
 
-### Census interview — Ryszard
+### Census interview
 - **Requires:** Committee authority
 - **Cost:** 1 action
-- **Outcome:** Hostile at first — government people flooding his home. But he cooperates. Standard form, standard answers. If he doesn't like the players — forms filled, door closed. Nothing extra.
+- **Outcome:** He starts hostile to government people in his home, then cooperates with clipped answers.
 - **Gives:** Census data — Ryszard Dudka, farmer.
 
 ### Property assessment
 - **Requires:** Committee authority
 - **Cost:** 1 action
-- **Outcome:** His own house and plot, next to [Janina's](../locations/ciotkas-house.md). Papers in order, answers clipped.
+- **Outcome:** He identifies his house and plot next to [Janina's](../locations/ciotkas-house.md). His papers are in order and his answers stay clipped.
 - **Gives:** Property record — Dudka house and farmland.
 
 ### Ask about Janka
-- **Requires:** He liked the players. They mention Janina, Edek, or the house next door.
+- **Requires:** He liked the players; they mention Janina, Edek, or the house next door
 - **Cost:** Free
-- **Outcome:** *"Janina? She hasn't been there that long. A family lived there before — soldier, Barnaś. Had a daughter, a wife. They left. Then Janina moved in with the boy."* Flat, factual, no drama.
-  - **If players push deeper** — ask how she got the house, why the best plot: he stiffens. *"Wojewoda gave it to her. Ask him."* Door closes.
+- **Outcome:** He says Janina moved in after the Barnaś family was gone, when the boy was already there.
 - **Gives:** [ciotka-moved-in-after-they-were-gone](../clues/clues.md#ciotka-moved-in-after-they-were-gone), [barnas-had-a-daughter](../clues/clues.md#barnas-had-a-daughter)
 
+### Ask how Janina got the house
+- **Requires:** Ask about Janka
+- **Cost:** Free
+- **Outcome:** He stiffens and says [Wojewoda](wojewoda.md) gave it to her. Then the door closes.
+- **Gives:** [`ciotka-house-is-wojewodas`](../clues/clues.md#ciotka-house-is-wojewodas)
+
 ### Ask about the daughter
-- **Requires:** He trusts the players (at least one Bond ticked) + [barnas-had-a-daughter](../clues/clues.md#barnas-had-a-daughter). They ask what became of the girl.
+- **Requires:** He trusts the players (at least one Bond ticked) and [barnas-had-a-daughter](../clues/clues.md#barnas-had-a-daughter); they ask what became of the girl
 - **Cost:** 1 action
-- **Outcome:** Long silence. He sets down whatever's in his hands. *"She ran. That night — I heard the dogs, the shouting, then feet in the dark going up toward the treeline. Fast. Alone. Nobody caught her."* A pause. *"Two winters on I was past the old fireroad with the rifle. Found what the forest leaves. A coat. Bones. Not much."* He says it like settled fact — *"I knew the coat. Buried her myself."* But press him and it cracks: no face, no proof, just a coat that might have been hers. He decided it was her because he needed somewhere to put the grief. *"A grave was more than anyone else gave her."* He'll never say aloud that he isn't sure.
+- **Outcome:** He says she fled that night toward the treeline and that, two winters later, he found a coat and bones near the old fireroad. He says he knew the coat and buried her himself.
 - **Gives:** [jagna-fled-the-lynch](../clues/clues.md#jagna-fled-the-lynch), [neighbour-believes-jagna-dead](../clues/clues.md#neighbour-believes-jagna-dead)
 
 ### Confront about Ciotka's motherhood
-- **Requires:** [ciotka-moved-in-after-they-were-gone](../clues/clues.md#ciotka-moved-in-after-they-were-gone) + [edeks-father-orphaned-him](../clues/clues.md#edeks-father-orphaned-him) (players have both: neighbour says she moved in after, census says she's the mother)
+- **Requires:** [ciotka-moved-in-after-they-were-gone](../clues/clues.md#ciotka-moved-in-after-they-were-gone) and [edeks-father-orphaned-him](../clues/clues.md#edeks-father-orphaned-him)
 - **Cost:** Free
-- **Outcome:** He laughs. *"Mother? Janka? No, come on. She moved in after them. The boy was already there."* Casual, amused — it's obvious to him.
+- **Outcome:** He laughs and says Janina is not the boy's mother. She moved in after them, and the boy was already there.
 - **Gives:** [ciotka-not-mother](../clues/clues.md#ciotka-not-mother)
 
 ### Uplift Ryszard
 - **Requires:** [Humiliated](#humiliated)
-- **Cost:** Free — **Sweettalk** (Rezeń's contempt is a lie; he isn't the nothing he was made to feel), **Intimidate** (he's about to freeze and let it happen again — shame him into moving), or point out he's the only one here who can stop it; the strongest version is simply standing with him against Rezeń
-- **Outcome:** You put the steel back in him and give him his face back. **Clears [Humiliated](#humiliated)** (NPC State Change). Its sharpest use is in the moment at [the well](../events/well-confrontation.md#dudkas-rifle-if-he-is-present), where it's what lets him hold the rifle on Rezeń and go through with it.
+- **Cost:** Free
+- **Outcome:** The player puts the steel back in him and gives him his face back.
+- **Gives:** NPC State Change: clears [Humiliated](#humiliated); in [the well](../events/well-confrontation.md#dudkas-rifle-if-he-is-present), he can hold the rifle on Rezeń.
 
 ## Bond
 
-- [ ] **Treat Barbara and Pawełek as people, not sources** — ask after them, help the boy, notice the one clean thing in his life. (Available early — Day 1–2 over Barbara's fence.)
-- [ ] **Meet his 1954 guilt without contempt** — when the inaction surfaces, don't call him a coward; let it stand. A guilty man bonds over non-judgment.
-- [ ] **Stand with him against Rezeń** — back him in a real moment instead of leaving him alone with it: defuse [the clash](../events/hunters-cross-paths.md) in his favour, [Uplift him](#uplift-ryszard), or stand beside him at [the well](../events/well-confrontation.md#dudkas-rifle-if-he-is-present).
+- [ ] **Treat Barbara and Pawełek as people, not sources** — ask after them, help the boy, notice the one clean thing in his life
+- [ ] **Meet his 1954 guilt without contempt** — when the inaction surfaces, don't call him a coward; let it stand
+- [ ] **Stand with him against Rezeń** — back him in a real moment instead of leaving him alone with it: defuse [the clash](../events/hunters-cross-paths.md) in his favour, [Uplift him](#uplift-ryszard), or stand beside him at [the well](../events/well-confrontation.md#dudkas-rifle-if-he-is-present)
 
 ## Grudge
 
-- [ ] **Side with Rezeń or humiliate him** — go on [the hunt with Rezeń](../events/hunt-with-rezen.md), laugh him down yourself, dismiss the threat he sees, or leave [the clash](../events/hunters-cross-paths.md) to run so Rezeń wins it (see [Humiliated](#humiliated)).
-- [ ] **Endanger or use Barbara or Pawełek** — push Barbara carelessly, let the boy come to harm, or treat his one clean thing as leverage.
-- [ ] **Treat him as a 1954 suspect** — pull rank, interrogate him as if he were complicit, corner the witness who already can't forgive his own inaction. Government people accusing him in his own home is exactly what he braces against.
+- [ ] **Side with Rezeń or humiliate him** — go on [the hunt with Rezeń](../events/hunt-with-rezen.md), laugh him down yourself, dismiss the threat he sees, or leave [the clash](../events/hunters-cross-paths.md) to run so Rezeń wins it
+- [ ] **Endanger or use Barbara or Pawełek** — push Barbara carelessly, let the boy come to harm, or treat his one clean thing as leverage
+- [ ] **Treat him as a 1954 suspect** — pull rank, interrogate him as if he were complicit, corner the witness who already can't forgive his own inaction

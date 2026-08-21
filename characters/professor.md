@@ -6,32 +6,41 @@
 
 - **Born:** 1930
 - **Age in 1967:** 37
-- **Lives in:** Kraków — university housing
 - **Heritage:** Polish
+- **Lives in:** Kraków — university housing
+- **Settled:** Not settled — contacted from outside the valley
 
 ## Character
 
-Hydrologist connected to the Solina Dam project. Discovered the flood projections may be wrong — %NEW_VILLAGE% could be in the flood zone. The players' off-site lifeline: if they reach him by phone with evidence, the truth survives even if they don't.
+Hydrologist connected to the Solina Dam project. He discovered the flood projections may be wrong and %NEW_VILLAGE% could be in the flood zone. If the players reach him by phone with evidence, the truth survives outside the valley.
 
 ## Appearance
 
-Lean, restless energy of an academic who forgets to eat. Wire-rimmed glasses perpetually sliding down a narrow nose — pushes them up with his middle finger, an unconscious tic. Thinning hair combed optimistically to one side. Ink-stained fingers, shirt pocket bulging with pens. Wears a corduroy jacket with leather elbow patches, city shoes wrong for any terrain. Speaks rapidly, precisely, in the clipped cadence of a lecturer — assumes you're following, rarely checks. When excited about data, his voice rises and he starts drawing diagrams in the air with both hands.
+- **Clothes:** Corduroy jacket with leather elbow patches, shirt pocket full of pens, city shoes wrong for fieldwork
+- **Hair & face:** Thinning hair combed to one side, wire-rimmed glasses sliding down a narrow nose, ink-stained fingers
+- **Carriage:** Lean, restless academic energy; forgets to eat, talks with both hands when excited
+
+He speaks rapidly and precisely, in the clipped cadence of a lecturer who assumes the listener is following. When data catches him, his voice rises and he draws diagrams in the air.
+
+## Opinions
+
+- **[%NEW_VILLAGE%](../locations/village-outskirts.md)** — The map says it should stay dry only if the ridge gap drains. If that gap is closed, the whole projection fails.
+- **`new-village-will-flood`:** Then the suspicion was right, and the official map is wrong where it matters most.
+- **`flood-cause-plugged-gap`:** That is the mechanism. With that measurement, I can document the error and carry it outside the valley.
 
 ## Actions
 
 ### Call him for help — where to look
-- **Requires:** A phone (his number routes through the [exchange](secondary-characters.md#operator-the-telephone-exchange-operator), like every outside call), and enough to make him listen — a reason to think the state's map is wrong. The suspicion that %NEW_VILLAGE% might flood at all is enough to get him on the line; hard field data gets him leaning in.
-- **Cost:** 1 action.
-- **Outcome:** He talks fast, thinks faster. The moment they describe the two valleys and the ridge between them, he stops them: *the whole projection hangs on one thing — whether the water can still drain off through the gap in that ridge.* The state assumed it drains. If it does, the village is dry. If something has closed it, the water has nowhere to go but up, onto the houses. He can't see it from Kraków. **Someone has to climb the ridge and measure the gap itself** — is the notch open, or is it choked? That single measurement decides everything. He won't stake his name on a hunch; he wants the number off an instrument, taken on the ground. He'll wait by the phone for it.
-- **Scene Unlock:** Flags **"Survey the ridge and the gap"** at the [village outskirts](../locations/village-outskirts.md) as the decisive measurement — the party knows precisely what to check and why it matters. They can walk past the safe southern approach and the two bowls and go straight to the ridge.
-- **NPC State Change:** He is now engaged and waiting — the off-site expert expecting the ridge measurement.
+- **Requires:** A phone (his number routes through the [exchange](secondary-characters.md#operator-the-telephone-exchange-operator), like every outside call), and enough to make him listen — a reason to think the state's map is wrong
+- **Cost:** 1 action
+- **Outcome:** The party describes the two valleys and the ridge between them. He identifies the decisive question: whether the water can still drain through the gap in that ridge.
+- **Gives:** Scene Unlock: **"Survey the ridge and the gap"** at the [village outskirts](../locations/village-outskirts.md); NPC State Change: he is engaged and waiting for the ridge measurement.
 
 ### Call him back — the truth about the ridge
-- **Requires:** A phone, and the ridge survey done — the party has measured the plug and holds [flood-cause-plugged-gap](../clues/clues.md#flood-cause-plugged-gap) (and [New Village will flood](../clues/clues.md#new-village-will-flood)).
-- **Cost:** 1 action.
-- **Outcome:** They give him the number. The gap is choked — a landslide plug where the map shows a drain. He goes quiet, then grim: that's it, that's the mechanism, and it means the state's projection is dead wrong. He can carry it now. He writes it down, dates it, names the party as his source. Whatever happens in the valley, a hydrologist in Kraków holds a documented account of why %NEW_VILLAGE% floods and that the state was told.
-- **NPC State Change:** He becomes the off-site lifeline in earnest — the truth exists outside the village even if the players don't make it out.
-- **World State Change / Ending Progress:** The flood truth survives beyond the valley (see [phone-is-lifeline](../clues/clues.md#phone-is-lifeline), [The Report](../events/the-report.md)). Feeds any ending where the outside world learns what the state buried.
+- **Requires:** A phone, and the ridge survey done — the party has measured the plug and holds [flood-cause-plugged-gap](../clues/clues.md#flood-cause-plugged-gap) (and [New Village will flood](../clues/clues.md#new-village-will-flood))
+- **Cost:** 1 action
+- **Outcome:** He records the number, date, and the party as his source. He confirms that a landslide plug where the map shows a drain means the state's projection is dead wrong.
+- **Gives:** NPC State Change: he becomes the off-site lifeline; World State Change: the flood truth exists outside the village; Ending Progress: the outside world can learn what the state buried through [phone-is-lifeline](../clues/clues.md#phone-is-lifeline) and [The Report](../events/the-report.md).
 
 ## Bond
 

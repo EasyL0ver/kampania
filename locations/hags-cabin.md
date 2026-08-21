@@ -1,46 +1,47 @@
 # Paraskewia Chyłak's Cabin
 
 **Type:** Location (hidden, discoverable)
-**Location:** Deep in the [forest](old-village-ruins.md). Accessible only to those who know the way.
-**Present:** [Paraskewia Chyłak](../characters/hag.md) — almost always, unless she's at the [well](the-well.md) or [cerkiew](old-village-cerkiew.md) performing rites.
-**Available:** Requires extensive forest exploration or guidance. Deliberately obscured path.
+**Location:** Deep forest, off an obscured path from [%OLD_VILLAGE%](old-village-ruins.md)
+**Present:** [Paraskewia Chyłak](../characters/hag.md) (usually)
+**Available:** Requires extensive forest exploration or guidance
 **Cost:** 1 action to find, 1 action to interact
 
 ## Setup
 
-Small wooden cabin, weathered and old. Built or repurposed from a pre-war structure (possibly shepherd's hut, forester's shelter). Single room. Barely visible from distance — hidden by trees, undergrowth.
-
-**Current state (1967):**
-- Maintained but sparse; no luxury or excess
-- Roof weathered but functional; walls hold
-- Hearth/fireplace for warmth and cooking
-- No modern conveniences; no electricity, running water
-
-**Interior:**
-- **Ritual items:** Icons, candles, herbs, prayer materials — the tools of [the ritual](../story-facts/the-ritual.md)
-- **The list of the dead:** A soft, much-folded sheet of names in Cyrillic — the twelve killed in 1947 and Dmytro Kosach, kept with the ritual materials. → [Paraskewia's List of the Dead](../items/paraskewias-list.md)
-- **Supplies:** Foraged foods (dried mushrooms, berries, roots), preserved items
-- **Personal effects:** Blankets, worn clothes, cooking implements
-- **Dmytro Kosach's belongings:** A small photograph (young man in partisan clothing, faded), a folding knife with Cyrillic initials (Д.К.), letters in Ukrainian wrapped in oilcloth. Hidden but not inaccessibly — under floorboards, in a tin. Twenty years of handling have worn the photo soft. These are the only proof he existed. → [clue: dmytro-kosach](../clues/clues.md#dmytro-kosach)
-
-**How she survives:**
-- Foraging: mushrooms, berries, herbs, wild game in season
-- Preserved foods: dried and pickled items stored through seasons
-- Hardened to cold and isolation; survives on very little
+- **Cabin:** Small weathered wooden cabin.
+- **Cabin:** Built or repurposed from a pre-war structure.
+- **Cabin:** Hidden by trees and undergrowth.
+- **State:** Maintained but sparse.
+- **State:** Roof is weathered but functional.
+- **State:** Walls hold.
+- **State:** Hearth provides heat and cooking.
+- **State:** No electricity or running water.
+- **Interior:** Single room.
+- **Interior:** Icons, candles, herbs, and prayer materials are kept here.
+- **Interior:** A soft folded sheet of Cyrillic names is kept with the ritual materials.
+- **Interior:** Foraged and preserved foods are stored here.
+- **Interior:** Blankets, worn clothes, and cooking implements are present.
+- **Hidden tin:** Floorboards hide a tin with Dmytro Kosach's photograph, a folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth.
+- **Survival:** Paraskewia survives by foraging, preserving food, and enduring isolation.
+- **Absence:** She may be at [the well](the-well.md) or [cerkiew](old-village-cerkiew.md) performing rites.
 
 ## Opportunities
 
-- **Find ritual materials** — icons, candles, herbs. Evidence someone is performing rites. → **Gives:** [hag-has-the-form](../clues/clues.md#hag-has-the-form)
-- **Find the list of the dead** — a folded sheet of Cyrillic names kept with the ritual things. → **Gives:** [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead); the [list](../items/paraskewias-list.md) as an item.
-- **Find Dmytro's belongings** — photo, knife (Д.К.), letters in Ukrainian. → **Gives:** [dmytro-kosach](../clues/clues.md#dmytro-kosach)
-- **Meet Paraskewia** — if she's here and players approach carefully. See character file for interaction. → **Gives:** [hag-is-lemko](../clues/clues.md#hag-is-lemko)
-- **Connect the evidence** — players who've found the [UPA bunker](upa-bunker.md) inscription (Д. КОСАЧ) and the knife (Д.К.) can link them
+- **Ritual materials** `(requires: Observation or Culture)` — The icons, candles, herbs, and prayers show someone has the ritual form. → Gives: [hag-has-the-form](../clues/clues.md#hag-has-the-form)
+- **List of the dead** `(requires: Language or Search)` — The folded Cyrillic sheet names the dead and belongs with [Paraskewia's List of the Dead](../items/paraskewias-list.md). → Gives: [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead)
+- **Paraskewia herself** `(requires: [Paraskewia Chyłak](../characters/hag.md) present and careful approach)` — She is a Lemko woman living alone in the forest, not a supernatural witch. → Gives: [hag-is-lemko](../clues/clues.md#hag-is-lemko)
+- **Dmytro connection** `(requires: found the [UPA bunker](upa-bunker.md) inscription and found the knife marked Д.К.)` — The initials connect Dmytro Kosach's belongings to the bunker. → Gives: [dmytro-kosach](../clues/clues.md#dmytro-kosach)
 
 ## Actions
 
-### Search the cabin (after confrontation)
-- **Requires:** Hag is dead or missing (aftermath of [Well Confrontation](../events/well-confrontation.md))
+### Search the hidden floorboard tin
+- **Requires:** Access to the cabin
 - **Cost:** 1 action
-- **Outcome:** Empty. Fire cold. Supplies still there — she didn't leave voluntarily. Her ritual materials, icons, herbs. Evidence of 20 years of tending the dead. → [hag-tends-the-well](../clues/clues.md#hag-tends-the-well). She's gone. She didn't pack.
+- **Outcome:** The players find Dmytro Kosach's photograph, folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth.
+- **Gives:** [dmytro-kosach](../clues/clues.md#dmytro-kosach); Item / Evidence: Dmytro Kosach's photograph, knife, and letters.
 
-<!-- TODO: Define actions (search cabin, earn trust, ask about Dmytro, ask about the well) -->
+### Search the cabin after confrontation
+- **Requires:** Hag is dead or missing after [Well Confrontation](../events/well-confrontation.md)
+- **Cost:** 1 action
+- **Outcome:** The cabin is empty, the fire is cold, supplies remain, and ritual materials show twenty years of tending the dead.
+- **Gives:** [hag-tends-the-well](../clues/clues.md#hag-tends-the-well)

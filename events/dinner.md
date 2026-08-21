@@ -1,38 +1,63 @@
 # Dinner at Wojewoda's
 
-**Location:** Zbigniew Gajda's house — the dining room → [wojewodas-house](../locations/wojewodas-house.md)
-**Present:** Zbigniew Gajda, Irena Gajda, Zofia Pytlak (serving), Helena Rzepka, Emil Rzepka. Marek Gajda arrives late. Tadek Gajda crashes.
-**Available:** First evening after arrival — follows naturally from 02-arrival if flooding is not discussed
+**Location:** [Zbigniew Gajda's house](../locations/wojewodas-house.md)
+**Present:** [Zbigniew Gajda](../characters/wojewoda.md), [Irena Gajda](../characters/wife.md), [Zofia Pytlak](../characters/zofia.md), [Helena Rzepka](../characters/matrona.md), [Emil Rzepka](../characters/painter.md), [Marek Gajda](../characters/junior.md), [Tadek Gajda](../characters/wujas.md)
+**Available:** First evening after [Arrival](arrival.md), if flooding is not discussed.
 
 ## Hook
 
-<!-- TODO: Zofia setting the table, smell of food drifting through the house. Could be perceivable from the office or upstairs. -->
+- [Zofia Pytlak](../characters/zofia.md) sets the table.
+- Food smell reaches the office or upstairs rooms.
 
 ## Setup
 
-Evening. Zofia Pytlak has laid out a proper meal — she's the PGR cook, she has access to the good stuff. Zbigniew Gajda hosts the committee at his table. Irena Gajda is polite, attentive, watching the players more than talking. The mood is warm, generous, controlled.
-
-Marek Gajda shows up late. Doesn't apologise. Sits down, eats, barely engages. Leather jacket, restless energy. Zbigniew Gajda gives him a look but says nothing.
-
-Midway through dinner — Tadek Gajda arrives. Drunk. Uninvited. He lets himself in like he owns the place. Zbigniew Gajda tenses. Irena Gajda goes quiet. Zofia Pytlak sets another plate without being asked. The family dynamic snaps into focus: the composed brother, the wreck of a brother, the wife watching both, the son who doesn't want to be here.
-
-**Automatic:** Attending dinner warms the Gajda household toward the committee. They see you as guests, not just officials.
-
-If players engage well during dinner — Zbigniew offers lodging at his house, and Helena Rzepka picks the most inquisitive players to stay at hers. She wants the curious ones under her roof where she can watch them. If the evening is cold — committee is sent to PGR quarters for the night.
+- [Zofia Pytlak](../characters/zofia.md) has laid out a proper meal.
+- [Zofia Pytlak](../characters/zofia.md) has access to better food through the PGR kitchen.
+- [Zbigniew Gajda](../characters/wojewoda.md) hosts the committee at his table.
+- [Irena Gajda](../characters/wife.md) is polite and attentive.
+- [Irena Gajda](../characters/wife.md) watches the players more than she talks.
+- [Marek Gajda](../characters/junior.md) arrives late.
+- [Marek Gajda](../characters/junior.md) does not apologise.
+- [Marek Gajda](../characters/junior.md) sits, eats, and barely engages.
+- [Marek Gajda](../characters/junior.md) wears a leather jacket.
+- [Zbigniew Gajda](../characters/wojewoda.md) looks at [Marek Gajda](../characters/junior.md) but says nothing.
+- [Tadek Gajda](../characters/wujas.md) arrives midway through dinner.
+- [Tadek Gajda](../characters/wujas.md) is drunk and uninvited.
+- [Tadek Gajda](../characters/wujas.md) lets himself in.
+- [Zbigniew Gajda](../characters/wojewoda.md) tenses.
+- [Irena Gajda](../characters/wife.md) goes quiet.
+- [Zofia Pytlak](../characters/zofia.md) sets another plate without being asked.
+- Attending dinner makes the Gajda household treat the committee as guests rather than only officials.
+- If players engage well, [Zbigniew Gajda](../characters/wojewoda.md) offers lodging at his house.
+- If players engage well, [Helena Rzepka](../characters/matrona.md) picks the most inquisitive players to stay at hers.
+- If the evening is cold, the committee is sent to [PGR quarters](../locations/pgr-quarters.md) for the night.
 
 ## Opportunities
 
-- **Drink with Wujas** — engage him warmly, match his energy, don't judge. He's delighted — new drinking buddies. **Gives:** [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
-- **Learn about Ciotka** — in conversation, someone mentions a third sister. Helena Rzepka and Irena Gajda have another sibling — Janina Gajda. → The family is bigger than it looks, Janina Gajda exists
+- **Irena watching** `(requires: Read)` — [Irena Gajda](../characters/wife.md) tracks the committee more closely than the conversation requires. → Gives: [`irena-is-tense`](../clues/clues.md#irena-is-tense)
 
 ## Actions
 
+### Join the household dinner
+- **Requires:** Nothing
+- **Cost:** Free
+- **Outcome:** The Gajda household treats the committee as guests rather than only officials.
+- **Gives:** NPC State Change: [Zbigniew Gajda](../characters/wojewoda.md)'s household warms toward the committee.
+
 ### Go on a bender with Wujas
-- **Requires:** Drank with Tadek during dinner
-- **Cost:** 1 action (takes the rest of the night)
-- **Outcome:** Tadek Gajda gets loose. Fragments come out between drinks — nothing coherent, but the players hear real pain. This is the door into the drinking crew.
-- **Gives:** [wujas-is-guilty](../clues/clues.md#wujas-is-guilty). Drinking crew scenes unlocked.
+- **Requires:** Drank with [Tadek Gajda](../characters/wujas.md) during dinner.
+- **Cost:** 1 action
+- **Outcome:** [Tadek Gajda](../characters/wujas.md) gets loose and guilt shows through fragments between drinks.
+- **Gives:** [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty); Scene Unlock: [Tadek Gajda Cracks](wujas-cracks.md).
+
+## Exits
+
+- Sleep at [Zbigniew Gajda's house](../locations/wojewodas-house.md) if offered lodging there.
+- Sleep at [Helena Rzepka's house](../locations/matronas-house.md) if [Helena Rzepka](../characters/matrona.md) chooses the player.
+- Sleep at [PGR quarters](../locations/pgr-quarters.md) if the dinner goes cold or no household lodging is offered.
 
 ## If Missed
 
-<!-- TODO: What happens if players skip dinner? Zbigniew notes the refusal, Helena doesn't get to observe the committee, lodging defaults to PGR quarters. -->
+- [Zbigniew Gajda](../characters/wojewoda.md) notes the refusal.
+- [Helena Rzepka](../characters/matrona.md) loses the chance to observe the committee at dinner.
+- Lodging defaults to [PGR quarters](../locations/pgr-quarters.md).

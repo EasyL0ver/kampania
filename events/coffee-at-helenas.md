@@ -1,74 +1,78 @@
 # Coffee at Helena's
 
-**Location:** [Helena Rzepka's house](../locations/matronas-house.md) — %NEW_VILLAGE%
-**Present:** [Helena Rzepka](../characters/matrona.md) (composed, hosting); [Emil Rzepka](../characters/painter.md) at the edges, silent, refilling cups
-**Available:** **Morning of Day 6.** Helena sends word — or simply appears at the committee's door — and invites them to coffee. Fires whether or not the players have started circling the truth; if they have, it comes as her counter-move.
+**Location:** [Helena Rzepka's house](../locations/matronas-house.md)
+**Present:** [Helena Rzepka](../characters/matrona.md), [Emil Rzepka](../characters/painter.md)
+**Available:** Morning of Day 6.
 
 ## Trigger
 
-She extends the invitation the same day the valley's patience finally runs out — the morning before the [lynch](punishment-lynch.md) comes at night. She means to settle this the quiet way, before the loud way settles it for her. The morning's gentle forgetting and the night's violent one are the same instinct, offered by two different hands.
+- [Helena Rzepka](../characters/matrona.md) invites the committee to coffee on the morning before [the lynch](punishment-lynch.md).
+- If the players have started circling the truth, the invitation is her counter-move.
+- [Helena Rzepka](../characters/matrona.md) speaks only to crimes connected to clues the players already hold.
+- [Helena Rzepka](../characters/matrona.md) does not introduce crimes the players have not found.
+
+## Hook
+
+- [Helena Rzepka](../characters/matrona.md) sends word to the committee.
+- [Helena Rzepka](../characters/matrona.md) may appear at the committee's door.
 
 ## Setup
 
-Her kitchen is the warmest room the players have been in for days: a clean pressed cloth, real coffee — not chicory — something fresh from the oven, the small crucifix on the wall, a clock ticking over it all. She seats them herself, pours herself, and waits until they've eaten before she speaks. Everything is a shade too perfect — the warmth turned up past what an ordinary morning needs. [Emil](../characters/painter.md) moves at the edges, topping up cups, never meeting an eye, flinching the one time she says his name.
-
-She makes her case calmly, and — this is the thing to play — she is not pleading and she is not scheming. She is being *reasonable.* Helena is the voice of pragmatism: the dead cannot be helped, the living can be harmed, and you do not tear up the order that has kept this valley alive for thirteen years in the one week it has left. She lays it out like a household ledger. Punishment raises no one. Exposure feeds no one. It only takes people who are still standing — [Tadek](../characters/wujas.md), [Marek](../characters/junior.md), [Zbigniew](../characters/wojewoda.md) holding the village up as the water comes, even [Edek](../characters/glupek.md), the boy her own night orphaned and broke and who now lives folded into the family the truth would shatter — and knocks them down for nothing. She does not name that last irony; to her it isn't irony, it's simply another living person the digging would cost. Whatever happened here long ago is *done.* The only open question is the living, and the practical answer is to leave it be. So she asks them, plainly, to let it sleep. She offers nothing and demands nothing; the players owe her no answer and are free to do exactly as they choose. She is only telling them what she believes is true — that here, now, forgetting is the sensible thing.
-
-Then she goes further. She takes up each thing the players have already learned, one by one, and hands them a reason to leave it buried — and the reasons are good.
-
-### Her case, crime by crime
-
-**Rule — clue-gated.** She speaks to a crime **only if the players already hold the clue that surfaced it.** She never introduces a wrong they haven't found; handing them a fresh grave to dig is the one thing she will not do — **with one exception:** cornered on her own guilt, she will gladly reveal what damns the *victims* (see [Confront her with her own hand](#confront-her-with-her-own-hand)), because that muddies the water in her favour. Run only the rows the party has earned. If they push her on something they cannot prove, she meets it with the same warmth and gives them nothing.
-
-The spine under every answer: in *this* valley, "bringing the truth to light" does not mean a fair court. These are Lemko dead and a Lemko family, and the same state you would report to is the one that tried to erase them in the first place. Here, the light finishes what the soldiers started.
-
-- **The killing in '54** — *if [`something-happened-in-54`](../clues/clues.md#something-happened-in-54), [`lynch-body-in-well`](../clues/clues.md#lynch-body-in-well), or [`three-drunk-attackers`](../clues/clues.md#three-drunk-attackers):* She does not deny a death — she asks what naming it buys. The men are ruined or drinking themselves under; the woman is thirteen years gone; the only living thing the truth can still reach is a valley about to drown. *"You would take our last week to punish men the bottle already sentenced."* She never says she aimed it — only that reopening it raises no one.
-- **Zbigniew** — *if [`wojewoda-was-hurt-that-night`](../clues/clues.md#wojewoda-was-hurt-that-night) or [`foreman-coverup`](../clues/clues.md#foreman-coverup):* Whatever her brother did as a younger man — a hand in the mob, a death on the farm filed away — today he is the one thing holding this village upright as the water comes. Pull him down now, mid-flood, and the people lose the only hand steering them off the water, to settle a thirteen-year-old score. *"You would drown the living to avenge the dead. He is not a good man. He is the necessary one — this week of all weeks."*
-- **What we are** — *if [`siblings-are-lemko`](../clues/clues.md#siblings-are-lemko):* Her most persuasive and most frightening ground. To write *the Gajdas were Lemko* into a state report is not a fact, it is a target — the state did not spare them in '47 by mercy, and it will finish the job if handed the paper. *"You would be the pen that does what the soldiers couldn't."* Forgetting here is survival, not cowardice.
-- **The forged paper** — *if [`departure-declaration-forged`](../clues/clues.md#departure-declaration-forged):* A signature on a departure slip, thirteen years old, for a family no one will ever come looking for. Follow the thread and the only person at the end of it is [Emil](../characters/painter.md) — a broken man who copied a name because he was told to. *"You will not find justice there. You will find my husband, and you will finish him."*
-- **The old village** — *if [`massacre-happened`](../clues/clues.md#massacre-happened), [`massacre-was-covered-up`](../clues/clues.md#massacre-was-covered-up), or [`massacre-bodies-in-well`](../clues/clues.md#massacre-bodies-in-well):* Her truest word. The hands that did it wore the state's uniform and carried the state's blessing; no court in Poland will try 1947, because 1947 was policy. *"You cannot get justice for the old village. You can only get this valley punished for having been the old village. That is what your light does here."*
-- **The boy** — *if [`glupek-strangled`](../clues/clues.md#glupek-strangled) or [`ciotka-not-mother`](../clues/clues.md#ciotka-not-mother):* Janina is in the ground and the boy is fed, safe, and loved. Knowing *how* he was hurt changes none of that — it only strips the one kindness in the whole story, the aunt who took a ruined child and made him a home. *"Tell me who that serves."* And any thread pulled here unravels the rest — which is the point.
-- **The death on the farm** — *if [`foreman-coverup`](../clues/clues.md#foreman-coverup):* A man died on the PGR and the paper was never filed — and *because* it was never filed, his widow has eaten for two years. File the truth now and [Wanda's](../characters/widow.md) pension stops the same day. *"The lie feeds her. Your truth would starve her. Choose."*
-- **Tadek** — *if [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty):* Look at him. Thirteen years drinking himself toward the grave over one night. *"There is no punishment you can bring that he has not already served, every morning, in the bottle. Let him drink the little time this place has left."*
-- **Emil and the affair** — *if [`jagna-painter-affair`](../clues/clues.md#jagna-painter-affair) or [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter):* She does not flinch at her own husband's affair; she folds it into the same ledger. It was long ago, the woman is gone, and Emil has paid for it every day since in a marriage that is more penance than marriage. Pulling it up now breaks him further and breaks nothing else worth the cost.
-- **Herself** — *if [`matrona-orchestrated-lynch`](../clues/clues.md#matrona-orchestrated-lynch) or [`painter-heard-matrona`](../clues/clues.md#painter-heard-matrona):* the one place the performance stops. If the players can prove the hand that aimed the mob was hers, she does not deny it — denial is spent and she will not insult them with it. She goes still and cold and tells it straight: *"Yes. I stayed sober and I pointed them, and I would do it again. A living Hania was a gun at my family's head, and the state does not miss twice."* Then she turns even her own guilt into the same cold arithmetic — writing her name raises no one, un-drowns nothing, and hands the state a Lemko woman to make an example of, the massacre finishing its work through their pen. *"Justice for me is erasure for us. And it takes Emil down with me. Choose knowing that."* This is the mask fully off — the only time in the whole game she speaks as exactly what she is. Pressed here with proof, she plays her strongest card — see [**Confront her with her own hand**](#confront-her-with-her-own-hand).
-
-And if the committee cannot go home empty-handed — if there must be a name in the report — she has one ready. Give the state its monster and it stops looking for the rest. The monster she offers is [Rezeń](../characters/butcher.md), and the terrible thing is how well he fits.
-
-**Composure: 1**
+- The kitchen has a clean pressed cloth.
+- The kitchen has real coffee.
+- Fresh baked food is on the table.
+- A small crucifix hangs on the wall.
+- A clock ticks in the room.
+- [Helena Rzepka](../characters/matrona.md) seats the committee herself.
+- [Helena Rzepka](../characters/matrona.md) pours the coffee herself.
+- [Helena Rzepka](../characters/matrona.md) waits until the committee has eaten before speaking.
+- The hospitality is more generous than ordinary village conditions support.
+- [Emil Rzepka](../characters/painter.md) refills cups at the edges of the room.
+- [Emil Rzepka](../characters/painter.md) avoids eye contact.
+- [Emil Rzepka](../characters/painter.md) flinches when [Helena Rzepka](../characters/matrona.md) says his name.
+- [Helena Rzepka](../characters/matrona.md) argues that exposing old crimes harms the living and raises none of the dead.
+- If players hold [`something-happened-in-54`](../clues/clues.md#something-happened-in-54), [`lynch-body-in-well`](../clues/clues.md#lynch-body-in-well), or [`three-drunk-attackers`](../clues/clues.md#three-drunk-attackers), she says naming the 1954 death buys nothing now.
+- If players hold [`wojewoda-was-hurt-that-night`](../clues/clues.md#wojewoda-was-hurt-that-night) or [`foreman-coverup`](../clues/clues.md#foreman-coverup), she says [Zbigniew Gajda](../characters/wojewoda.md) is the only person holding the village together during the flood.
+- If players hold [`siblings-are-lemko`](../clues/clues.md#siblings-are-lemko), she says writing the Gajdas' Lemko identity into a state report makes them a target.
+- If players hold [`departure-declaration-forged`](../clues/clues.md#departure-declaration-forged), she says pursuing the forged paper will destroy [Emil Rzepka](../characters/painter.md).
+- If players hold [`massacre-happened`](../clues/clues.md#massacre-happened), [`massacre-was-covered-up`](../clues/clues.md#massacre-was-covered-up), or [`massacre-bodies-in-well`](../clues/clues.md#massacre-bodies-in-well), she says no Polish court will try 1947.
+- If players hold [`glupek-strangled`](../clues/clues.md#glupek-strangled) or [`ciotka-not-mother`](../clues/clues.md#ciotka-not-mother), she says exposing how [Edek Barnaś](../characters/glupek.md) was hurt strips away [Janina Gajda](../characters/ciotka.md)'s care for him.
+- If players hold [`foreman-coverup`](../clues/clues.md#foreman-coverup), she says filing the truth about the PGR death would end [Wanda Mazur](../characters/widow.md)'s payments.
+- If players hold [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty), she says [Tadek Gajda](../characters/wujas.md)'s punishment is already visible in his drinking.
+- If players hold [`jagna-painter-affair`](../clues/clues.md#jagna-painter-affair) or [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter), she says exposing the affair only breaks [Emil Rzepka](../characters/painter.md) further.
+- If players hold [`matrona-orchestrated-lynch`](../clues/clues.md#matrona-orchestrated-lynch) or [`painter-heard-matrona`](../clues/clues.md#painter-heard-matrona), she admits she aimed the mob and argues that naming her hands the state a Lemko woman to punish.
+- If the committee needs one name for the report, [Helena Rzepka](../characters/matrona.md) offers [Stanisław Rezeń](../characters/butcher.md).
+- **Composure:** 1.
 
 ## Opportunities
 
-- **The warmth** — **Read / Culture:** the hospitality is dialled too high to be hospitality — real coffee in a valley that has none, this much generosity from a woman with this much to lose. It reads as a threat being managed, not guests being hosted. → **Gives:** [`matrona-overperforms`](../clues/clues.md#matrona-overperforms)
-- **What she never asks** — **Milicjant / Read:** in the whole conversation she never once asks what the players have found. A person with nothing buried asks. Her not asking says she already knows they are close — and that this coffee is the answer to it. → **NPC behaviour:** confirms the offer is a move, not a kindness.
-- **The shape of her case** — **Read / Milicjant:** hold her arguments up together and they all land in the same place — *leave it be.* Every one is practical, every one is true, and every one also happens to keep her family safe and the well shut. She isn't lying and she isn't laying a trap; it's that in this valley the pragmatic answer and her own interest are the same answer. That's what makes her hard to argue with. → **Gives:** [`committee-hides-something`](../clues/clues.md#committee-hides-something) (if not already held).
-- **Emil at the edges** — **Observation:** he flinches on his own name and will not be left alone in a room with her and outsiders at once. Something in him is straining to be anywhere else — a hairline crack under her hand. Points at [his file](../characters/painter.md).
+- **The excessive warmth** `(requires: Read or Culture)` — The coffee and generosity manage a threat rather than host guests. → Gives: [`matrona-overperforms`](../clues/clues.md#matrona-overperforms)
+- **What she never asks** `(requires: Milicjant or Read)` — [Helena Rzepka](../characters/matrona.md) never asks what the players have found.
+- **The shape of her case** `(requires: Read or Milicjant)` — Every practical argument ends at leaving the truth buried. → Gives: [`committee-hides-something`](../clues/clues.md#committee-hides-something)
+- **Emil at the edges** `(requires: Observation)` — [Emil Rzepka](../characters/painter.md) flinches at his own name and will not be alone with [Helena Rzepka](../characters/matrona.md) and outsiders.
 
 ## Actions
 
-**She is asking, not forcing — the players can simply hear her out and leave.** The actions below are the ones that change game state.
-
 ### Take the scapegoat — give them Rezeń
-- **Requires:** —
+- **Requires:** Nothing
 - **Cost:** Free
-- **Outcome:** If the players won't go home empty-handed, this is the one concrete thing Helena offers, and it costs her nothing. Put it all on [Rezeń](../characters/butcher.md) — the well, the disappearances, the fear, the whole thirteen years — and write him into the report as the valley's guilt. He *fits*: he is genuinely dangerous, he genuinely fed a body to the well, the village already believes it, and a state that gets one monster stops hunting for the architects. Every real thread — the Lemko secret, the '54 lynch, the forgery, the massacre — goes quiet behind the one name. **This is the exact move she made in 1954:** pick a target the valley already wants dead, aim the crowd, stay one step removed. The players would be doing to Rezeń what she once did to Hania — and a guilty man is the easiest innocent to railroad, because no one will look hard at whether *all* of it was his.
-
-  **And she puts it as plain pragmatism, not a trick — that is what makes it land.** Rezeń is a real predator: [dangerous](../clues/clues.md#butcher-is-dangerous), feared even by [the boy](../clues/clues.md#glupek-fears-butcher), the man who [fed Janina's body to the well](../clues/clues.md#rezen-fed-ciotka-to-well). Taking him out of a village full of the vulnerable is, on its own, a clean good — and she says so plainly: *"You need a name; the valley needs to be rid of one man; those are the same name. You would not be framing an innocent — you would be removing the one person here everyone is right to fear, and closing your report in the same stroke. Tell me the sensible objection."* The only lie is the scale — everything laundered onto one true monster so the order stands and the architects with it. It is the efficient solution, and that is exactly the problem.
-- **NPC State Change:** Helena → relieved and genuinely warm toward the players (satisfies her [Bond](../characters/matrona.md#bond)) — they spared her brother without her having to bargain for it.
-- **World State Change:** the report names Rezeń and the real crimes stay buried. **And it aims the night:** feeding the committee's weight to the same name locks Rezeń as [Dudka's lynch target](../characters/neighbour.md#lynch-targets) — the morning's paper scapegoat and the night's mob scapegoat become one act. Unless the players later [intervene at the lynch](punishment-lynch.md#actions), the well takes Rezeń and the valley calls it solved.
+- **Outcome:** The committee names [Stanisław Rezeń](../characters/butcher.md) in the report as the valley's guilt; the Lemko secret, the 1954 lynch, the forgery, and the massacre stay buried behind his name.
+- **Gives:** NPC State Change: [Helena Rzepka](../characters/matrona.md) becomes relieved and warm toward the players; World State Change: [Stanisław Rezeń](../characters/butcher.md) becomes [Ryszard Dudka](../characters/neighbour.md)'s locked [lynch target](../characters/neighbour.md#lynch-targets) unless players later intervene at [the lynch](punishment-lynch.md#actions).
 
 ### Confront her with her own hand
-- **Requires:** proof the players can put to her face — [`matrona-orchestrated-lynch`](../clues/clues.md#matrona-orchestrated-lynch) or [`painter-heard-matrona`](../clues/clues.md#painter-heard-matrona)
-- **Cost:** 1 composure — staring down the architect in her own kitchen
-- **Outcome:** Cornered on her own guilt, the performance drops and she does the one thing that still serves her: she damns the dead. She tells the players who [Hania](../characters/jagna.md) really was — *"not some wronged girl. She had what we were over our heads. One word from her and the state would have finished us."* — a **blackmailer** who threatened the family with exposure unless she got her way. And she tells them who [Edward Barnaś](../characters/soldier.md) really was: a man who marched with the killers in [1947](../clues/clues.md#massacre-happened) and took his farm off a murdered Lemko family. **The trap is that half of it is true.** The Edward part is real and checkable — he *was* a killer who stole Lemko land. The Hania part is a lie: the girl knew the secret but never used it, never made a threat ([`jagna-knew-the-secret`](../clues/clues.md#jagna-knew-the-secret)). Helena welds her fabrication to a verifiable truth so the whole thing reads as one ugly revelation — reframing her murder as the silencing of a predator, the daughter of a murderer. It does not clear her, and if the players hold or later find the truth about Hania (from [Emil](../characters/painter.md) or a cracking [Tadek](wujas-cracks.md)) her lie stands exposed — the architect caught fouling her own victim. Either way it hands them the hardest question in the valley: whether the '54 killing was only a crime, or also a debt from '47 being paid in blood.
-- **Gives:** [`soldier-participated-in-massacre`](../clues/clues.md#soldier-participated-in-massacre), [`soldier-took-best-land`](../clues/clues.md#soldier-took-best-land). **(Not a clue — Helena's blackmail claim is a lie; it gives the players a false belief to be checked against [`jagna-knew-the-secret`](../clues/clues.md#jagna-knew-the-secret), not a fact.)**
-- **NPC State Change:** the mask is off — she no longer performs warmth with these players; from here she deals with them as the architect, cold and direct.
-
-## If Missed
-
-If the players never come — they decline the invitation, or she never gets the chance to make it — Helena reads the refusal itself as her answer. She does not chase them. She simply stops offering the quiet way and turns to the certain one: she leans on her brother, tightens her grip on Emil, and lets the valley's own reflex do what she would never ask the committee to do. The morning's velvet forgetting gives way to the night's violent one — the [lynch](punishment-lynch.md) is the version of *let it sleep* that needs no one's permission.
+- **Requires:** [`matrona-orchestrated-lynch`](../clues/clues.md#matrona-orchestrated-lynch) or [`painter-heard-matrona`](../clues/clues.md#painter-heard-matrona)
+- **Cost:** 1 composure
+- **Outcome:** [Helena Rzepka](../characters/matrona.md) drops the performance, admits she aimed the mob, falsely claims [Hania Barnaś](../characters/jagna.md) was blackmailing the family, and truthfully identifies [Edward Barnaś](../characters/soldier.md) as a 1947 participant who took Lemko land.
+- **Gives:** [`soldier-participated-in-massacre`](../clues/clues.md#soldier-participated-in-massacre), [`soldier-took-best-land`](../clues/clues.md#soldier-took-best-land); NPC State Change: [Helena Rzepka](../characters/matrona.md) stops performing warmth with these players.
 
 ## Exits
 
-- **Back into Day 6** — the streets, the [second flood mass](second-flood-mass.md), the building night.
-- **To [the lynch](punishment-lynch.md)** after dark — the morning's offer and the night's mob are the same instinct, one gloved and one bare.
+- Back into Day 6 and the village streets.
+- To [the second flood mass](second-flood-mass.md).
+- To [the lynch](punishment-lynch.md) after dark.
+
+## If Missed
+
+- If players decline the invitation, [Helena Rzepka](../characters/matrona.md) reads the refusal as their answer.
+- [Helena Rzepka](../characters/matrona.md) stops offering the quiet solution.
+- [Helena Rzepka](../characters/matrona.md) leans on [Zbigniew Gajda](../characters/wojewoda.md), tightens her grip on [Emil Rzepka](../characters/painter.md), and lets [the lynch](punishment-lynch.md) proceed.
