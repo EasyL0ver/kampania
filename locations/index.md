@@ -1,21 +1,4 @@
 # Locations
 
-- [Wojewoda's House](wojewodas-house.md)
-- [Barbara's House](barbaras-house.md)
-- [Ciotka's House](ciotkas-house.md)
-- [Neighbour's House](neighbours-house.md)
-- [Butcher's House](butchers-house.md)
-- [Matrona's House](matronas-house.md)
-- [Hag's Cabin](hags-cabin.md)
-- [The Church](the-church.md)
-- [The Store](the-store.md)
-- [The Well](the-well.md)
-- [PGR Farm](pgr-farm.md)
-- [PGR Office](pgr-office.md)
-- [PGR Quarters](pgr-quarters.md)
-- [Bimber Still](bimber-still.md)
-- [Old Village Ruins](old-village-ruins.md)
-- [Old Village Cerkiew](old-village-cerkiew.md)
-- [UPA Bunker](upa-bunker.md)
-- [Meadow by the Ravine](meadow-by-the-ravine.md)
-- [Village Outskirts](village-outskirts.md)
+{% assign items = site.pages | where: "dir", "/locations/" | sort: "name" %}{% for p in items %}{% unless p.name == "index.md" or p.name == "_template.md" %}- [{{ p.title }}]({{ p.url | relative_url }})
+{% endunless %}{% endfor %}
