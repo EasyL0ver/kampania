@@ -64,20 +64,15 @@ The gate is a **requirement set** — one or more conditions, all ANDed. Conditi
 
 Meet **every** condition → you get it. Miss one → the opportunity isn't there for you at all.
 
-### Opportunities besides actions
-
-When a gate names a **completed action**, the opportunity is what the player picks up **besides** that action's own outcome. The action delivers its `Gives:`; the opportunity rides along free, for a player who also clears the rest of the gate. The sołtys interview is an **Action** with its own outcome — "he's nervous" is an **Opportunity** you get on top of it, if you have the eye for it.
-
 ### Rules
 
 1. **Free means free.** An Opportunity never costs time. If it requires effort (digging, following, breaking in), it's an Action.
 2. **Always gated. Ungated → Setup.** Every opportunity has a `(requires: …)`. A fact everyone gets on the visit is a Setup bullet, not an opportunity. Never write an ungated opportunity.
 3. **The gate is hard, not a layer.** A player who misses any condition gets **nothing**, not a lesser version. There is no "base everyone gets" for an opportunity — the base *is* Setup. A layered reveal is the Setup fact (everyone) plus a gated opportunity (the skill), never a tiered opportunity line.
-4. **Seeding.** Skill-gated opportunities read a detail off something already in Setup, so Setup must state the observable thing. Action-gated opportunities are seeded by the **completed action** — the player only reaches them by doing the thing.
+4. **Setup must state the observable.** If an opportunity's gate is a skill reading a detail, that detail must already appear in Setup. Players can't notice what the GM never described.
 5. **Binary output.** An Opportunity either gives a clue or gives nothing (atmosphere). There is no third state.
    - If it gives a clue → `→ Gives: [clue-id](link)`
    - If it's pure atmosphere → no `Gives` line. Write the observation, stop.
-6. **No "Seeds."** The word "seeds" is retired. A clue is either given or it isn't. If the player won't understand the clue's significance yet — that's fine. They still *have* it. The moment of understanding happens later, when they find the connecting piece.
 
 ---
 
@@ -128,7 +123,7 @@ An action costs time when it eats a meaningful chunk of the character's day — 
 3. **Multiple outcomes are fine.** An action can give a clue AND change NPC state AND unlock a scene. List them all.
 4. **"Nothing" is not a valid outcome for documented actions.** If you're writing an action into a scene file, it must give something — otherwise don't document it.
    - **Undocumented actions exist.** Players will attempt things not written in any scene file. The GM charges the time (if it eats time), narrates the empty result, and moves on. Dead ends are part of the time economy — the spent time is the cost. We don't write dead-end entries into scene files.
-5. **No "Leads to:" or "Result:" or "Seeds".** The field is always `Gives:`. The verb is always definitive.
+5. **No "Leads to:" or "Result:".** The field is always `Gives:`. The verb is always definitive.
 6. **A skill gates an action or opens an opportunity — never enriches it.**
    - In a `Requires:` set → **hard gate.** No skill means you can't take the action (or don't get the gated clue) at all.
    - Reveals more than the flat Outcome → that extra is a separate **opportunity**, `(requires: <this action> and <skill>)`. Not a branch inside Outcome.
@@ -147,7 +142,7 @@ NPC access is gated by the **Bond** mechanic (see `story-facts/game-system.md`).
 
 Bond checks live in the character file. The GM tracks them silently. **Scene files do not annotate bond-building behavior.** If a player talks to an NPC in a way that satisfies a bond check, the GM notices from the character file — scenes don't need to flag it.
 
-Bond-building is a permanent freeform opportunity available whenever a player is in the NPC's presence. It is NOT listed as a scene opportunity. Scene opportunities are only for things specific to that scene — observations, clue seeds, things you can only notice here and now.
+Bond-building is a permanent freeform opportunity available whenever a player is in the NPC's presence. It is NOT listed as a scene opportunity. Scene opportunities are only for things specific to that scene — observations and clues you can only notice here and now.
 
 ---
 
@@ -178,10 +173,10 @@ Before committing a scene file, verify:
 - [ ] Every Action has a `Gives:` line with a valid outcome type
 - [ ] No action produces "nothing" — if it would, cut it or find the real outcome
 - [ ] Every opportunity is gated with `(requires: …)` — ungated observations live in Setup, not Opportunities
-- [ ] Skill-gated opportunities read off a detail Setup states; action-gated ones are seeded by the action
+- [ ] Skill-gated opportunities read off a detail Setup states
 - [ ] No tiered "base + skill" lines — layered reveals are split into separate gated opportunities
 - [ ] Action Outcomes are flat — no skill branches; a skill reveal is an opportunity `(requires: <action> and <skill>)`
-- [ ] No use of "Seeds", "Leads to", or "Result" as outcome labels
+- [ ] No use of "Leads to" or "Result" as outcome labels
 - [ ] Gated opportunities use `(requires: …)` with an ANDed condition set
 - [ ] Bond gates reference the character's Bond section
 - [ ] Actions that belong to a character (not a place) are in the character file

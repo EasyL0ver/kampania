@@ -35,19 +35,19 @@
 
 ### Read the flight
 - **Requires:** Go out and study the movement, or press Dudka
-- **Cost:** 1 action (night — no sleep)
+- **Cost:** 1 action
 - **Outcome:** Animals are coming up out of the low %OLD_VILLAGE% basin because it is filling fast. Water pools into the one lowest place, not spreading thin. The basin is the sink the whole valley drains toward; it drowns first, with or without intervention.
 - **Gives:** [`old-village-basin-is-the-low-sink`](../clues/clues.md#old-village-basin-is-the-low-sink)
 
 ### Calm the dogs / secure the livestock
 - **Requires:** Nothing
-- **Cost:** 1 action (night — no sleep)
+- **Cost:** 1 action
 - **Outcome:** Players help [Michał Pytlak](../characters/foreman.md) keep panicked stock from breaking pens.
 - **Gives:** NPC State Change — [Michał Pytlak](../characters/foreman.md) warms to the committee
 
 ## Exits
 
-- Back to bed — night time spent, morning short on sleep and composure.
+- Back to bed — actions here spend night time; skipping sleep costs composure (see game-system).
 - Toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) — the low valley visibly drowning, water climbing the ruins.
 
 ## If Missed
