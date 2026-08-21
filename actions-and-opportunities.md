@@ -2,6 +2,16 @@
 
 **Type:** Scene-writing reference
 
+## Writing Discipline — read first
+
+Scene files are **technical documents**, not stories. They record who / when / what / what-changes. The GM supplies mood and language at the table; the file supplies facts.
+
+1. **Zero prose. Pure facts.** Every line is a statement that is true, not a statement that sets a tone. No atmosphere paragraphs, no lyrical build, no "puts the hair up". Write the fact; the GM performs it.
+2. **Bullets over paragraphs.** Setup, Trigger, Hook are fact lists — one thing per line.
+3. **Headers are technical.** Location = one link (events) or terse position (locations). Present = character links + terse conditions only, e.g. `(if survived Day 6)` — no states, no narration, no absent people. Available = shortest trigger, e.g. "Night, Day 4 onward. Fires once."
+4. **Dialogue only when technically critical.** Write exact words **only** when the words themselves are the mechanical content — a scripture excerpt that *is* the sermon, a password, an exact phrase a clue turns on. Flavor quotes are cut; keep the fact behind them.
+5. **State and behavior go in Setup, not headers.** Who's missing, who's rattled, who arrives later — Setup lines, not Present.
+
 ## The Two Types
 
 Every scene file (locations, events, characters) uses two mechanisms for player interaction:
@@ -34,19 +44,39 @@ This means Opportunities are the **payoff for the visit card** — the minimum a
 
 ## Opportunities
 
-Opportunities are **what the GM reveals unprompted** when the scene begins or while the players are present. They represent what a trained eye notices without trying. The player doesn't ask for them — the GM delivers them based on what skills and prerequisites the player has.
+Opportunities are **what the GM reveals unprompted** when the players qualify for them. The player doesn't ask — the GM delivers, based on what the player has (skills, and sometimes a completed action or held clue).
 
 ### Format
 
 ```
-- **[Observable thing]** — [Base observation everyone gets]. **[Skill]:** [What this skill adds]. → Gives: [`clue-id`](../clues/clues.md#clue-id)
+- **[Observable thing]** `(requires: [gate])` — [What the player notices]. → Gives: [`clue-id`](../clues/clues.md#clue-id)
 ```
+
+The `(requires: …)` tag is **optional**:
+- **No tag** → available to everyone on the visit. This is the default.
+- **With a tag** → the opportunity only exists once the gate is met.
+
+### The gate
+
+The gate is a **requirement set** — one or more conditions, all ANDed. Conditions can be skills, completed actions, held clues, or NPC/world states, mixed freely:
+
+```
+- **He's nervous** `(requires: talked to the [sołtys](../characters/wojewoda.md) and Observation)` — a bead of sweat, eyes flicking to the door. → Gives: [`wojewoda-rattled`](../clues/clues.md#wojewoda-rattled)
+```
+
+Meet **every** condition → you get it. Miss one → the opportunity isn't there for you at all.
+
+### Opportunities besides actions
+
+When a gate names a **completed action**, the opportunity is what the player picks up **besides** that action's own outcome. The action delivers its `Gives:`; the opportunity rides along free, for a player who also clears the rest of the gate. The sołtys interview is an **Action** with its own outcome — "he's nervous" is an **Opportunity** you get on top of it, if you have the eye for it.
 
 ### Rules
 
 1. **Free means free.** An Opportunity never costs a card. If it requires effort (digging, following, breaking in), it's an Action.
-2. **Skill tags are bonus layers, not gates.** Everyone gets the base observation. The skill reveals more. No skill = less detail, not zero.
-3. **Setup must seed it.** If an Opportunity lets players notice something, the Setup paragraph must mention or hint at it. Players can't notice what the GM never described.
+2. **The gate is hard, not a layer.** If a condition is in the `(requires: …)` set — including a skill — a player who lacks it gets **nothing**, not a lesser version. There is no "base everyone gets" for a gated opportunity. A layered reveal is written as **separate opportunities at different gates** (one ungated, one gated), not one tiered line.
+3. **Seed it where it's earned.**
+   - Ungated opportunity → the **Setup** must mention or hint at it. Players can't notice what the GM never described.
+   - Action-gated opportunity → the **completed action** is the seed. It doesn't need to be in Setup, because the player only reaches it by doing the thing.
 4. **Binary output.** An Opportunity either gives a clue or gives nothing (atmosphere). There is no third state.
    - If it gives a clue → `→ Gives: [clue-id](link)`
    - If it's pure atmosphere → no `Gives` line. Write the observation, stop.
@@ -137,11 +167,15 @@ If an action is triggered at a location but is really about an NPC interaction, 
 
 Before committing a scene file, verify:
 
+- [ ] Zero prose — every line is a fact, not atmosphere; Setup/Trigger/Hook are bullet lists
+- [ ] Headers technical — Location a link, Present names+terse conditions only, Available a terse trigger
+- [ ] Dialogue only where the exact words are the mechanical content (else cut, keep the fact)
 - [ ] Every Opportunity has either `→ Gives: [clue-id]` or no gives line (atmosphere only)
 - [ ] Every Action has a `Gives:` line with a valid outcome type
 - [ ] No action produces "nothing" — if it would, cut it or find the real outcome
-- [ ] Setup mentions everything that Opportunities let players notice
+- [ ] Ungated opportunities are seeded in Setup; action-gated ones are seeded by the action
+- [ ] No tiered "base + skill" lines — layered reveals are split into separate gated opportunities
 - [ ] No use of "Seeds", "Leads to", or "Result" as outcome labels
-- [ ] Skills enrich but never gate (base outcome exists for every action)
+- [ ] Gated opportunities use `(requires: …)` with an ANDed condition set
 - [ ] Bond gates reference the character's Bond section
 - [ ] Actions that belong to a character (not a place) are in the character file

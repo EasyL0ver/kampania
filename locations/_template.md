@@ -1,16 +1,36 @@
 # Location Name
 
+<!-- ZERO PROSE. Pure facts. This is a technical document, not a story.
+     Every line is a fact, not atmosphere. Bullets, not paragraphs.
+     Dialogue only when the exact words ARE the mechanical content.
+     Full rules: actions-and-opportunities.md → "Writing Discipline". -->
+
+<!-- Header lines are strict: technical only. No prose, no exposition, no flavor.
+     Type: Location + tag(s).
+     Location: terse position — "village edge", "deep forest", "between X and Y".
+     Present: comma-separated [Name](../characters/file.md) links (+ non-named
+              occupants like "3 dogs"). A terse technical condition in parentheses
+              is allowed — "(usually gone)", "(daylight only)". NOT allowed:
+              emotional states or narration. Behavior belongs in Setup.
+     Available: shortest technical access rule — "Any time", "Daylight only",
+                "Requires guidance".
+     Cost: terse — "1 action per visit", "Free", "1 to find, 1 to interact". -->
+
 **Type:** Location ([revisitable / hidden / discoverable])
-**Location:** [Position in the world — village edge, deep forest, halfway between X and Y, etc.]
-**Present:** [NPCs typically here, with conditions. e.g. "[Name](../characters/file.md) (often gone), 3 dogs"]
-**Available:** [When accessible — "Any time" / "Daylight only" / "Requires guidance" / etc.]
-**Cost:** [1 action per visit / Free / "1 action to find, 1 action to interact"]
+**Location:** [Position — village edge, deep forest, between X and Y]
+**Present:** [Name](../characters/file.md) (if condition), [non-named occupants]
+**Available:** [Any time / Daylight only / Requires guidance]
+**Cost:** [1 action per visit / Free / 1 to find, 1 to interact]
 
 ## Setup
 
-[What players see/hear/feel when they arrive. Sensory details — exterior, interior, smells, the tone of the place.
+<!-- Bullet facts only. What is true here — exterior, interior, what's present,
+     what's off. No mood-writing; the GM performs the tone.
+     Rule: if an Opportunity lets players notice something, a Setup fact must
+     state it. Players can't notice what the file never recorded. -->
 
-**Rule:** If an Opportunity below lets players notice something, the Setup must mention or hint at it. Players can't notice what the GM never described.]
+- [Fact.]
+- [Fact.]
 
 ## Opportunities
 
