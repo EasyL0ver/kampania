@@ -22,15 +22,6 @@ Intelligent, observant, dismissed. For thirteen years she has quietly picked at 
 
 Speaks precisely, each word chosen. Tilts her head when listening — filing it for later. Never raises her voice.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | [Zbigniew Gajda's house](../locations/wojewodas-house.md) | Household duties, listens to village radio |
-| **Afternoon** | Village — various | Social calls, church circle, gathering intelligence under cover of gossip |
-| **Evening** | [Zbigniew Gajda's house](../locations/wojewodas-house.md) | Debriefs Marek, reviews what she's learned |
-| **Night** | [Zbigniew Gajda's house](../locations/wojewodas-house.md) | Awake late, thinking |
-
 ## Opinions
 
 - **[Zbigniew Gajda](wojewoda.md)** — I love him, and for thirteen years I've been quietly solving the thing he's hiding — not to hurt him, to *impress* him. I picture the day I lay the whole solved case at his feet and he finally looks at me as an equal. I've chased every thread but one. I never let it point at him. *(From the pivot:)* Now I can't not see it. He was one of them. And I find I can't do what I always assumed I would — I can't turn on him. Worse: it's *him* who wants to set it down, to let it all come out. I won't allow it. He'll say nothing — not to them, not to anyone. If he can't hold himself together, I'll hold him.

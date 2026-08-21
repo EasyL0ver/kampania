@@ -20,15 +20,6 @@ SB secret police agent. True believer in the communist project. Knows about the 
 
 Drives a black Warszawa M-20. Smells of cheap state cologne. Voice quiet, controlled — drops it instead of raising it, forcing people to lean in.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | Driving from district town | Arrives unannounced, always early |
-| **Afternoon** | Village — meeting [Zbigniew](wojewoda.md) or inspecting | Brief, purposeful visits. Never lingers. |
-| **Evening** | Gone | Returns to district. Doesn't sleep in the village. |
-| **Night** | District town | Files reports, plans next moves |
-
 ## Opinions
 
 - **[Zbigniew Gajda](wojewoda.md)** — My informant. A useful tool — competent, self-interested, controllable. He reports to me, keeps order, ensures nobody asks wrong questions. In return he enjoys state backing. A functional arrangement. I don't trust him — I trust the leverage.

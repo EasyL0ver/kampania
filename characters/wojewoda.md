@@ -29,15 +29,6 @@ Sołtys (village headman). Pragmatic, authoritative, controlled. Built %NEW_VILL
 
 Voice deep and unhurried. When angry, goes very still and very quiet — the temperature drops.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | [Sołtys office](../locations/wojewodas-house.md) | Administrative work. Phone calls. Receives visitors. |
-| **Afternoon** | Village — rounds | Inspects PGR, checks on people, handles disputes. |
-| **Evening** | [His house](../locations/wojewodas-house.md) | Dinner with family. Sometimes the priest. Sometimes reviewing paperwork. |
-| **Night** | [His house](../locations/wojewodas-house.md) | Last to sleep. Checks the locks. Listens. |
-
 ## Opinions
 
 - **[Irena Gajda](wife.md)** — For thirteen years I underestimated her. Background noise. Then she stops me in my own house and says she knows — that she has *always* half-known, and made herself not see it. I don't deny it. I brace for her to break, or to turn me in. She does neither. She chooses me. The wife I dismissed becomes the one who manages the outsiders, keeps my name off their pages, keeps me from saying the thing that would get me killed. The thing that finally makes us equals is a shared crime.

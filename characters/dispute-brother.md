@@ -24,15 +24,6 @@ Not a farmer and never has been — he's a driver, on the road hauling for the P
 
 Speaks plainly and without heat, the way a man does when he knows the rules are already on his side. No raised voice, no pleading — he doesn't have to. Reasonable to the point that it's hard to hate him, which is exactly what makes ruling against him feel like the crime.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | On the road | Out driving — hauling for the PGR or a job in the next valley. Often not in the village at all. |
-| **Afternoon** | [The store](../locations/the-store.md) / around the committee | When he's back: chasing the compensation paperwork, finds the committee to press his claim. |
-| **Evening** | His father's house | Home when the run's done. |
-| **Night** | His father's house / on the road | — |
-
 ## Opinions
 
 - **[%SISTER%](dispute-sister.md)** — My sister. I've nothing against her — but father's name is on the deed, and the deed covers the strip, and that's the end of it. She's had the use of it for years for free; now the state's putting money on that dirt and suddenly it's a war. I'm not a farmer, I never worked a day of it, and I'm not signing my share away out of sentiment.- **[%OLD_VILLAGE%](../locations/old-village-ruins.md)** — The ruins? Father used to go up there for timber and stone when we were building. I never liked it. Nothing up there but old rot. I don't know what she thinks it has to do with a boundary line.

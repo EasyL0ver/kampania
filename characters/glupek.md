@@ -26,15 +26,6 @@ Physically massive, brain-damaged — from being smothered during the lynch when
 
 Voice surprisingly soft for his size. Smiles at kindness with a processing delay — watching, understanding, then responding.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | [Janina Gajda's house](../locations/ciotkas-house.md) | Breakfast with ciocia, small chores around the house |
-| **Afternoon** | Village / [the church](../locations/the-church.md) | Wanders, helps ks. Pająk with tasks, sits in the churchyard |
-| **Evening** | [Janina Gajda's house](../locations/ciotkas-house.md) | Home before dark — ciocia insists |
-| **Night** | [Janina Gajda's house](../locations/ciotkas-house.md) | Sleeps early, sometimes restless |
-
 ## Opinions
 
 - **[Janina Gajda](ciotka.md)** — Ciocia. She feeds me, keeps me safe. I don't understand why she cries sometimes. I love her. She's always been there.

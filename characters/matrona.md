@@ -28,15 +28,6 @@ Devoutly religious on the surface, impenetrable beneath. The true architect of t
 
 People instinctively lower their voices in her presence. Voice low and measured — never raises it, never needs to.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | [The church](../locations/the-church.md) | Daily Mass without fail, then errands |
-| **Afternoon** | [Helena Rzepka & Emil Rzepka's house](../locations/matronas-house.md) | Housework, manages the household with visible discipline |
-| **Evening** | Home or visiting neighbours | Social calls — always brief, always purposeful |
-| **Night** | Home | Prayers, then bed. Emil sleeps in the attic studio. |
-
 ## Opinions
 
 - **[Emil Rzepka](secondary-characters.md)** — Her husband. Her insurance. A broken man who needs her more than he'd ever admit. She married him after the lynch despite what he did — not forgiveness, but ownership. He'll never leave, never talk, never recover enough to be a threat. That suits her.

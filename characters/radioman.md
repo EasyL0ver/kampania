@@ -26,15 +26,6 @@ To the players he is **openly hostile from the first word** — they are a gover
 
 Talks in a teacher's cadence, still reaches for the clever phrase, half-remembers a Latin tag, quotes a broadcast he heard through static and swears it verbatim. Reeks of bimber and cold ash. In a room he is either the loudest man in it or asleep in the corner — rarely anything between.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | His cottage | Hungover, silent. Not worth talking to before noon. |
-| **Afternoon** | [The store](../locations/the-store.md) | Cadging, holding forth to whoever's in earshot |
-| **Evening** | [The bimber still](../locations/bimber-still.md) / the store | Drinking with Tadek's crew; louder as the night goes |
-| **Night** | His cottage | Bent over the radio, chasing Wolna Europa through the jamming |
-
 ## Opinions
 
 - **[Zbigniew Gajda](wojewoda.md)** — Our little tsar. He runs to the man in the black car every time he comes, and comes back with his orders. Everyone bows and pretends not to see it. I see it. The sołtys is the state's ear in this village and I'll say so to his face.

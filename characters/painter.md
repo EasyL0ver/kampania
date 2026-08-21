@@ -25,15 +25,6 @@ Helena's husband. Was secretly romancing Hania Barnaś — the affair triggered 
 
 Hands are the only alive part of him — long-fingered, always stained with cadmium yellow and Prussian blue. Smells of linseed oil.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | [Helena Rzepka & Emil Rzepka's house](../locations/matronas-house.md) | Breakfast in silence, then retreats to attic studio |
-| **Afternoon** | Attic studio or outdoors painting | Landscapes — fields, trees, mountains. Never the village. Never faces. |
-| **Evening** | Home — downstairs | Dinner with family, silent, compliant |
-| **Night** | Attic studio | Sleeps there most nights. Helena doesn't object. |
-
 ## Opinions
 
 - **[Helena Rzepka](matrona.md)** — His wife. Married him after the lynch, despite everything. He can't tell if it was mercy or punishment. Probably both. She runs the household, runs him, and he lets her because the alternative is making a decision, and he can't do that anymore. Grateful and terrified in equal measure.

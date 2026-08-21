@@ -30,18 +30,6 @@
      portray this person — speech patterns, sensory details, contradictions,
      the vibe they give off in a room. -->
 
-## Schedule
-
-<!-- Where this NPC is at each phase of the day. Helps GM answer:
-     "I go to X — is this person there?" -->
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | | |
-| **Afternoon** | | |
-| **Evening** | | |
-| **Night** | | |
-
 ## Opinions
 
 <!-- First-person, subjective. Written as if the character is thinking/speaking.

@@ -22,15 +22,6 @@ Quiet hunter. Heard everything in 1954, did nothing. Carries the guilt of inacti
 
 Speaks in short flat sentences with long pauses. Goes quieter when angry, not louder. Smells of tobacco smoke and pine resin.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | Forest or [his house](../locations/neighbours-house.md) | Hunting, checking traps, or chopping wood. |
-| **Afternoon** | [His house](../locations/neighbours-house.md) or [Barbara's fence](../locations/barbaras-house.md) | Repairs, firewood delivery. Talks to Barbara over the fence. |
-| **Evening** | [His house](../locations/neighbours-house.md) | Alone. Rifle cleaning, tobacco, radio. Listens to Barbara's news. |
-| **Night** | [His house](../locations/neighbours-house.md) | Light sleeper. Hears everything next door and beyond. |
-
 ## Opinions
 
 - **[Barbara Kopacz](barbara.md)** — The only good thing left. She's warm and kind and she trusts me completely. I bring firewood, watch the boy, fix what breaks. She tells me everything she hears — the committee, the village, all of it — and she has no idea what I do with it. She and Pawełek are the only untainted thing in my life.

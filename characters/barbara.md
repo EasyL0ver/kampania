@@ -22,15 +22,6 @@ Poor, single mother. Warm, open, genuinely curious. The village sieve — everyt
 
 Never whispers — her voice carries across the whole yard, which is why every piece of gossip travels the village by sundown.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | [PGR farm](../locations/pgr-farm.md) | Field labour. Leaves Pawełek with Babcia (unsupervised). |
-| **Afternoon** | [Barbara's house](../locations/barbaras-house.md) | Home from work. Cooking, cleaning, minding Pawełek. |
-| **Evening** | [Barbara's house](../locations/barbaras-house.md) or fence with [Ryszard](neighbour.md) | Chats over the fence. Shares everything she heard that day. |
-| **Night** | [Barbara's house](../locations/barbaras-house.md) | Asleep early — exhaustion. |
-
 ## Opinions
 
 - **[Tadek Gajda](wujas.md)** — One night, years ago. We got drunk together and had a great time — he was funny, warm, easy to be around. I don't dwell on it. Sometimes a thought surfaces — timing, the boy's face — but I push it away. It doesn't matter. It can't matter.

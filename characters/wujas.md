@@ -22,15 +22,6 @@ Alcoholic wreck. Participated in the lynch — beat Hania and helped kill her fa
 
 Raspy warm voice — a storyteller's instrument, gets louder and funnier with drink. The morning shakes and the silence after the charm runs out are private.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | [Bimber still](../locations/bimber-still.md) or wherever he passed out | Wakes late, shaking, finds first drink |
-| **Afternoon** | PGR farm or village | Odd jobs when sober enough; otherwise wandering |
-| **Evening** | Wherever there's drink | Siblings' kitchens, still, sometimes the road |
-| **Night** | [Bimber still](../locations/bimber-still.md) or a ditch | Passes out where he drops |
-
 ## Opinions
 
 - **[Zbigniew Gajda](wojewoda.md)** — His older brother. Tadek is terrified of him — not physically, but of the disappointment. Zbyszek holds the family together and Tadek knows he's the one most likely to break it apart. Can't look him in the eye sober.

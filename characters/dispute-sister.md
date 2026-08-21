@@ -24,15 +24,6 @@ She married into a farming family and has worked the border strip beside her fat
 
 Blunt and tired, not tearful — a working woman stating her case, not begging. She gets sharp and fast when the deed is mentioned, and oddly quiet, almost spooked, when she repeats what her father said at the end — like she's handling something she doesn't want to hold.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | The disputed strip / her husband's fields | Working the ground, as she has for years. |
-| **Afternoon** | Her husband's farmhouse / [the store](../locations/the-store.md) | Chores; corners the committee if she hears they're settling boundaries. |
-| **Evening** | Home | With her husband's family. |
-| **Night** | Home | — |
-
 ## Opinions
 
 - **[%BROTHER%](dispute-brother.md)** — My brother. He never worked a furrow of it — off driving his lorry while I broke my back on that strip. He wasn't even here when father died; I was the one at the bedside. Now there's money in it and out comes father's paper. Where was the paper when it was just labour? He'll take the ground I've kept and never think on it again.

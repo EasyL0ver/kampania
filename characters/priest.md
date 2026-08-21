@@ -36,15 +36,6 @@ The arc opens with **[The Priest's Plea](../events/priests-plea.md)** — he see
 
 Warm baritone that stays intimate in conversation. One tell: when uncomfortable, his hand goes to his collar, adjusts it, comes away.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | Church | Morning mass (sparse attendance). Parish duties. |
-| **Afternoon** | Rectory or visiting parishioners | Confessions, pastoral calls. Tea with Helena on Thursdays. |
-| **Evening** | Rectory | Reading, correspondence, prayer. Sometimes dinner with Zbigniew. |
-| **Night** | Rectory | Alone with what he knows. |
-
 ## Opinions
 
 - **[Helena Rzepka](matrona.md)** — My closest parishioner. Deeply, genuinely pious — or so perfectly performed I cannot tell the difference, and after thirteen years that distinction haunts me. We talk faith, morality, the parish. I see conviction in her. I would defend her first if anyone came asking. She's the proof that grace works. I don't see the architect. I don't want to.

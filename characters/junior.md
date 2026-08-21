@@ -21,15 +21,6 @@ Leather jacket, attitude. The false suspect — everyone points at him. Actually
 
 A cigarette permanently between his lips or behind his ear. Speaks fast when angry, which is often — the studied coolness drops and you glimpse how smart he actually is.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | [Zbigniew Gajda's house](../locations/wojewodas-house.md) | Sleeps late, avoids his father at breakfast |
-| **Afternoon** | Village / roads | Rides his motorbike, meets [Barbara](barbara.md), asks questions nobody wants answered |
-| **Evening** | Village centre or [Tadek](secondary-characters.md)'s | Drinks with uncle, pokes at village gossip |
-| **Night** | [Zbigniew Gajda's house](../locations/wojewodas-house.md) or out | Sometimes doesn't come home — nobody asks where |
-
 ## Opinions
 
 - **[Zbigniew Gajda](wojewoda.md)** — His father. Respects the strength, resents the silence. Knows the old man is hiding something enormous — can feel it in every deflected question, every hard stare that says "drop it." Wants his approval and hates wanting it.

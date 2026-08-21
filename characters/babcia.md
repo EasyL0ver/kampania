@@ -23,15 +23,6 @@ Mean, sharp-tongued, no filter. Undiagnosed dementia — lucid one moment, lost 
 
 Smells of woodsmoke and camphor. Eyes snap between vacant and terrifyingly lucid — when she focuses on you, it's like being seen by something older than her.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | [Barbara's house](../locations/barbaras-house.md) — kitchen chair | Rocking, muttering. Barbara already at work. Pawełek nearby. |
-| **Afternoon** | [Barbara's house](../locations/barbaras-house.md) — kitchen or doorstep | Dozes in the sun if warm. Wakes disoriented. |
-| **Evening** | [Barbara's house](../locations/barbaras-house.md) — main room | Sings to Pawełek at her feet. Most lucid phase. |
-| **Night** | [Barbara's house](../locations/barbaras-house.md) — bed | Sleeps poorly. Sometimes found wandering the house at 3 AM, praying. |
-
 ## Opinions
 
 - **[Barbara Kopacz](barbara.md)** — My daughter. Raised herself Polish — lost the language, lost the faith, lost everything that matters. I don't blame her. The world took it. Too old to fight about it now.

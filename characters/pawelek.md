@@ -21,17 +21,6 @@
 
 Mimics sounds perfectly — Babcia's prayers, bird calls, adult conversations replayed without understanding.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | [Barbara's house](../locations/barbaras-house.md) yard | Playing alone — sticks, mud, stone circles. Barbara at work. Babcia inside, not watching. Further from the house than he should be. |
-| **Afternoon** | [Barbara's house](../locations/barbaras-house.md) yard or nearby | Barbara home from work. Full household. |
-| **Evening** | [Barbara's house](../locations/barbaras-house.md) inside | Sitting at Babcia's feet, copying her sounds. Domestic scene. |
-| **Night** | [Barbara's house](../locations/barbaras-house.md) | Asleep. |
-
-**GM note:** The morning gap matters. A 4-year-old alone in the village — nobody watching him closely enough. This is how he reaches the well later. Players who notice the pattern early might connect it when he falls ill.
-
 ## Opinions
 
 - **[Barbara Kopacz](barbara.md)** — Mama. My whole world. When she smiles I'm happy. When she's tired I climb into her lap.

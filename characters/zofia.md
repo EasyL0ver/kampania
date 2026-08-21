@@ -24,15 +24,6 @@ The village's **settler conscience.** A Polish incomer who never quite shook the
 
 Warm carrying voice, calls everyone "child" regardless of age. As the well takes hold: smile stays but eyes go flat, movements slow, kitchen goes quiet.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | PGR farm kitchen | Cooking for the workers, breakfast and prep for lunch |
-| **Afternoon** | PGR farm kitchen | Serving lunch, cleaning, baking bread |
-| **Evening** | Pytlak household | Family time, feeding Staszek, trying to talk to Michał |
-| **Night** | Pytlak household | Sleeps poorly; lies awake listening to her husband not sleep |
-
 ## Opinions
 
 - **[Michał Pytlak](foreman.md)** — She loves him completely. He told her about the silo that night because he couldn't carry it alone, and she's quietly wanted him to confess ever since. Now the water's rising and he's throwing his whole body at it — and she doesn't try to stop him, because she admires him too much for that. But she knows the thing he won't say: the valley is already lost. She stands beside a doomed man and refuses to pretend he'll win. Her fear isn't that he's changed — it's that he'll die proving a point the water already settled.

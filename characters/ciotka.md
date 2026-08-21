@@ -24,15 +24,6 @@ Devout, fearful, deeply honest when her guard drops. Eldest sibling but weakest 
 
 Her public voice is thin and breathy, barely audible. When frightened she goes completely silent, mouth shut, eyes fixed on a point in the middle distance.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | [Janina's house](../locations/ciotkas-house.md) | Cooking for Edek, household chores. Church if it's Sunday. |
-| **Afternoon** | [Janina's house](../locations/ciotkas-house.md) or village | Errands, tending the garden. Edek follows her. |
-| **Evening** | [Janina's house](../locations/ciotkas-house.md) | Praying. Rosary. Doors locked early. |
-| **Night** | [Janina's house](../locations/ciotkas-house.md) | Light sleeper. Checks Edek. Checks the locks. |
-
 ## Opinions
 
 - **[Edek Barnaś](glupek.md)** — My boy. Seventeen years I've raised him. He trusts me completely, follows me everywhere, calls for me when he's scared. I don't see his father's face anymore — I see *him*. The love is real and fierce and tangled with everything I can never say. Every day in this house is punishment and purpose both.

@@ -23,15 +23,6 @@ Charismatic, no inhibitions. The most alive person in any room. Village outcast,
 
 Warm baritone pitched for an audience — always performing, always working the room. People laugh along because the alternative feels dangerous.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | [Stanisław Rezeń's house](../locations/butchers-house.md) | Feeds the dogs, tends the smokehouse |
-| **Afternoon** | Village outskirts / paths | Walks with dogs, delivers meat if anyone's buying |
-| **Evening** | Village centre or his yard | Loiters, socialises uninvited, drinks alone if rebuffed |
-| **Night** | [The well](../locations/the-well.md) or home | Drawn to the well on bad nights; dogs follow |
-
 ## Opinions
 
 - **[Edek Barnaś](glupek.md)** — I like the boy. I ruffle his hair, slip him food, talk to him like a nephew. He freezes at my touch but smiles anyway — I find that amusing. It's affection. He's the only person in this village who doesn't flinch from me, and that's satisfying. That he can't flinch properly is part of the appeal.

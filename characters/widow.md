@@ -23,15 +23,6 @@ Quiet, devout, harmless. Grieving widow living on phantom wages from a dead man'
 
 Speaks barely above a whisper with a slight tremor. Smells of tallow candles and damp wool.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | Church | Attends every morning service without fail |
-| **Afternoon** | Home | Housework, mending, tending a small vegetable patch |
-| **Evening** | Church or home | Evening prayers, then home |
-| **Night** | Home | Alone, early to bed |
-
 ## Opinions
 
 - **[ks. Władysław Pająk](priest.md)** — Her lifeline. The only person who speaks to her with warmth most days. She attends every service partly for God, mostly for the brief moment after when he asks how she's managing.

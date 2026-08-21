@@ -22,15 +22,6 @@ Survived the 1947 massacre. Her forbidden love triggered the soldiers' arrival. 
 
 Speaks rarely, a dry rasp unused for days at a time. Slips between Polish and Lemko Rusyn without noticing.
 
-## Schedule
-
-| Phase | Location | Notes |
-|---|---|---|
-| **Morning** | Forest / [Hag's cabin](../locations/hags-cabin.md) | Foraging, checking snares, gathering herbs |
-| **Afternoon** | Deep forest | Moves between hidden caches, avoids all paths |
-| **Evening** | [Hag's cabin](../locations/hags-cabin.md) | Preparing tinctures, eating, resting |
-| **Night** | [The well](../locations/the-well.md) (periodically) | Performs panakhyda rites; otherwise sleeps in cabin |
-
 ## Opinions
 
 - **[Stanisław Rezeń](butcher.md)** — I know exactly who he is. The local boy from the next valley who helped the soldiers in 1947. I've watched his footprints at the well for twenty years. I hate him with the slow, patient hatred of a woman who has nothing left but vigil. He is the well's corruption — I am its ward. One day the balance will break.
