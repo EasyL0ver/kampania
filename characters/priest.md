@@ -17,12 +17,16 @@ Roman Catholic priest, arrived after the lynch. Knows everything through 13 year
 
 He alone reads the flood as **literal divine judgment** — God drowning a valley built over a mass grave (Noah, the Deluge, Sodom). Every soul still in mortal sin when the water comes drowns damned. Half of him believes the valley *deserves* it — which is why his faith is collapsing across the three flood masses (Day 4 hollow → Day 6 fraying → Day 7 breaks).
 
-- **Judgment wins** → the valley earned the water; he grants nothing.
+- **Judgment wins** → the valley earned the water; he grants nothing — and at the [Day-7 Mass](../events/third-flood-mass.md) he **breaks the seal**: drunk on the altar, he reads the village its sins aloud, naming who did what in 1954. The truth detonates publicly and arms the [report/ledger](../story-facts/the-committee.md) (public testimony that the "resettled"/"departed" dead are dead *here*). The guilty drown damned; Grace is foreclosed.
 - **Mercy wins** → *everyone is redeemable*; he reaches for the loophole (general absolution, valid in danger of death) and grants the **odpust** to the whole church, Rezeń included.
 
 What tips him to mercy: **watching the guilty confess.** Tracked by the "Faith in Redemption" score — see [spiritual-endings.md](../story-facts/spiritual-endings.md). If it clears the threshold by the [Day-7 Mass](../events/third-flood-mass.md), he grants the odpust. If [Rest](../events/the-ritual.md) fired first, he refuses — the flock turned to the old rite.
 
-<!-- GM — the flood-as-divine-judgment voice: he is the one character who reads the coming water as reckoning, not engineering. He carries the full account of the village's blood-guilt from the confessional, and cannot say it plainly without breaking the seal. As the water rises his coldness cracks toward the apocalyptic: sermons edging from "evacuate in order" toward "this is judgment on us." Contained: it is interpretation, never evidence — it reveals no fact about 1947/1954. TODO: pulpit register shift wired into the three flood masses. -->
+The arc opens with **[The Priest's Plea](../events/priests-plea.md)** — he seeks out a pious player, confides his fear that the flood is divine judgment, and (if answered toward mercy) tells them in-character how Grace is won: bring the guilty to his confessional.
+
+<!-- GM — TWO-WAY LEVER. Breaking his faith is NOT a fail state — it is the alternate win: crush him toward judgment and the Day-7 seal-break dumps the whole 1954 truth in public, arming the report. Mercy buries the truth in absolution; the seal-break rips it open at the cost of every soul. Players choosing to tank his faith are choosing exposure over mercy — a legitimate strategy. Seed it subtly, never signpost it: the inference chain is priest-knows-everything + "the vow is the only wall and it's failing with his faith" -> break him and it all comes out. Deliberate hints are planted in the Plea ("What's holding it in") and Day-6 mass ("The priest coming apart"), both gated behind priest-knows-everything. Let sharp players assemble it themselves. -->
+
+<!-- GM — the flood-as-divine-judgment voice: he is the one character who reads the coming water as reckoning, not engineering. He carries the full account of the village's blood-guilt from the confessional, and cannot say it plainly without breaking the seal. As the water rises his coldness cracks toward the apocalyptic: sermons edging from "evacuate in order" toward "this is judgment on us." Until the Day-7 break it is interpretation, never evidence — it reveals no fact about 1947/1954. TODO: build the Day-7 seal-break scene in third-flood-mass.md (currently still the old, chronologically-broken mob scene). -->
 
 ## Appearance
 

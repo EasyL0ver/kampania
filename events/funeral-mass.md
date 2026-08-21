@@ -1,97 +1,21 @@
-﻿# Funeral Mass — Janina Gajda
+# Funeral Mass — Janina Gajda
 
-**Location:** [The church](../locations/the-church.md), then cemetery
-**Present:** [ks. Pająk](../characters/priest.md) (officiating), [Helena](../characters/matrona.md) (chief mourner), [Zbigniew](../characters/wojewoda.md), [Krystian Rzepka](../characters/secondary-characters.md) (altar boy), most of the village. [Tadek](../characters/wujas.md) — maybe.
-**Available:** Day 5 morning.
-
-## Hook
-
-Death toll bell — slow, single strikes. Audible from anywhere in %NEW_VILLAGE%. The village knows what it means. Someone has died.
+**Location:** [The church](../locations/the-church.md) — Day 5 morning
+**Present:** [ks. Władysław Pająk](../characters/priest.md), the [Gajda](../characters/wojewoda.md) siblings burying their sister — [Zbigniew](../characters/wojewoda.md), [Helena](../characters/matrona.md), and [Tadek](../characters/wujas.md), who has crawled out of the bottle to bury her — and the village. Janina's coffin cannot go in the ground — the flood has taken the cemetery — so it stays in the church.
+**Available:** Day 5. The woman who confessed the whole valley to him for thirteen years is dead in the box in front of him.
 
 ## Setup
 
-Death toll bell. Closed pine coffin at the front (Helena insisted). Black cloth, candles, icon. ks. Pająk in black vestments. Village fills the pews — quieter than the flood mass.
+He preaches over her coffin on the law of the **unsolved killing** — the body found in the open that no one will own:
 
-**Present:** Helena (black dress, dry-eyed, managing everything), Zbigniew (front row, face locked), Dudka (further back, can't look at the coffin), village women (genuine grief), Halina (store — Helena told her to come).
+> *"If in the land which the LORD your God gives you to possess, any one is found slain, lying in the open country, and it is not known who killed him, then your elders and your judges shall come forth, and they shall measure the distance to the cities which are around him that is slain; and the elders of the city which is nearest to the slain man shall take a heifer which has never been worked and which has not pulled in the yoke. And the elders of that city shall bring the heifer down to a valley with running water, which is neither plowed nor sown, and shall break the heifer's neck there in the valley... And all the elders of that city nearest to the slain man shall wash their hands over the heifer whose neck was broken in the valley; and they shall testify, 'Our hands did not shed this blood, neither did our eyes see it shed. Forgive, O LORD, thy people Israel, whom thou hast redeemed, and set not the guilt of innocent blood in the midst of thy people Israel; but let the guilt of blood be forgiven them.' So you shall purge the guilt of innocent blood from your midst, when you do what is right in the sight of the LORD."* — Deuteronomy 21:1-9
 
-**Absent:** Tadek (may show up late, drunk, stand in back — or not at all), Edek (empty space beside coffin — everyone notices, nobody says it), Rezeń (nobody expected him).
-
-**Composure: 1**
+The old law, he says, would not let a slain body lie in the land unanswered. A whole town had to come out, stand over the dead man, and swear the blood was not on them — because blood left in the ground is guilt left in the ground, and it stains the whole place until someone owns it. He looks at the village while he says *washed their hands.*
 
 ## Opportunities
 
-- **Helena's eulogy** — She speaks, not the priest. Janina's devotion, kindness, raising Edek alone. *"She gave everything for that boy."*
-  - **Read:** Every word true — that's what makes it airtight. The grief is real, and so is the story she tells: a tired, frail woman whose heart gave out in her sleep. There is nothing here to catch her in.
-  - **Streetwise:** She isn't covering a killing — there wasn't one. She's burying two things at once: the pill bottle (a possible suicide would mean no church burial, no consecrated ground — unthinkable for the family's name and her sister's soul) and the question of why the boy ran, which leads back to 1954. "Heart failure" answers both. By the amen, the village has a tidy ending and no reason to dig.
-
-- **Closed coffin** — *"She wouldn't want people to see her like that."*
-  - **Observation:** Standard, but combined with Helena's rush, reads differently.
-  - **Medicine:** There's no wound to hide — but a sealed coffin denies anyone a second look and any chance of ever re-examining the cause. The record closes with the lid.
-
-- **Zbigniew's silence** — Doesn't speak. Stands, sits, kneels on cue. Face empty.
-  - **Read:** Not grief — containment. Calculating. Every person here is a variable.
-
-- **Dudka** — Alone. Hands clasped. Not singing.
-  - **Read:** Accumulated guilt. Another death, another silence he's part of.
-
-- **Tadek (if present)** — Late, back wall, smells like bimber, shaking.
-  - **Read:** Falling apart. Not just Ciotka — everything.
-  - **Observation:** Can't look at the coffin or Helena. Stares at his hands.
-
-- **Edek's absence** — Front row gap where the son should stand.
-  - **Streetwise:** Half suspect Edek, half suspect Rezeń. Nobody says either name.
-
-- **Social map** — **Observation / Read:** Who's grieving, who's performing, who avoids whom. Confirms alliances, flags absences.
-
-## Tadek's Outburst
-
-Automatic — if Tadek is present, this fires during/after Helena's eulogy.
-
-Walks up the aisle unsteady. Hand on the coffin lid. Then:
-
-*"To Rezeń. Wszyscy wiedzą że to Rezeń."*
-
-**Motivation:** Guilt, not evidence. Janina lived in fear of Rezeń for 13 years. The worst of them, in his mind, must have finally taken the best of them. **He's wrong** — no one killed her; it was an accidental overdose of her own pills. But thirteen years of guilt need a culprit, and Rezeń is the face it reaches for.
-
-**Sequence:**
-1. Zbigniew reaches him. Arm around him, *"Chodź, Tadziu, chodź."* Walks him out.
-2. Helena waits for the door to close. Nods to priest. Mass resumes.
-3. Dudka stays seated. Files everything.
-4. ks. Pająk continues. Hands shake.
-
-**Result:** The name *Rezeń* is in the air. Helena's narrative has a crack.
-
-Players cannot prevent this. The moment is *after*: follow Zbigniew and Tadek outside? Press Helena?
-
-- **Tadek outside** — Church steps, head in hands. Zbigniew over him, hand on shoulder.
-  - Gentle approach: *"She was... she was good. The only good one."*
-  - If players are kind, stay with him, let him talk: he unravels further. Not coherent — fragments between sobs. *"She wasn't even his mother, you know that? She just... she took him. Nobody asked her to. She just took him and never let go."*
-  - Pressed about Edek/murder: shakes head, walks away.
-  - **Gives:** [ciotka-not-mother](../clues/clues.md#ciotka-not-mother), [ciotka-adopted-glupek](../clues/clues.md#ciotka-adopted-glupek)
-  - **NPC State Change:** Kindness here lowers threshold for his later crack.
+TBD.
 
 ## Actions
 
-### Object to the burial
-- **Requires:** Committee authority
-- **Cost:** Free (political cost is enormous)
-- **Outcome:** Burying her destroys evidence — no second examination, cause of death locked to death certificate. If false certificate already signed (medicine deal), it becomes permanent.
-- **NPC reactions:** Helena won't back down, village is hostile, ks. Pająk sides with Helena, Zbigniew warns privately.
-- **If committee stands firm:** Postponed 1-2 days. Body in church. Helena goes adversarial. Village trust drops.
-- **Default (no objection):** Funeral proceeds. Body gone. Helena notes non-interference — slight thaw.
-
-If Helena got the committee to sign the death certificate (Pawełek medicine deal), the funeral is just burial of a closed case. If not — this is her second attempt, wrapped in grief and social pressure. With **Law:** once she's in the ground, the certificate is the only record.
-
-## The Flood Postpones Burial
-
-By Day 5 the [flood](the-flood.md) has been running since Day 3 — roads gone, ground waterlogged, the low cemetery flooded. **Burial cannot happen.** A grave can't be dug; a dug hole fills with water; the procession can't cross flooded ground.
-
-**Default under active flood:** The Mass is still said in the church, but Janina is **not** put in the ground. The closed coffin stays at the front of the church, waiting for the water to drop. Helena hates it — an unburied body is the opposite of the tidy closure she wants — but the flood overrules her.
-
-- **Custom pressure:** Village custom is a 2–3 day wake, then burial. By now she's been dead since Day 2. Keeping her above ground this long makes the village uneasy — the old belief that a corpse held too long "pulls the next one after it." See [death customs](../historical%20context/17-death-customs-and-decomposition.md).
-- **The body is exposed.** She's cold, closed in pine, in an unheated church — slow to decay, but starting to turn. Nobody is guarding her at night.
-- **This unlocks:** [Rezeń takes the body](rezen-takes-the-body.md) — if Rezeń is alive and loose, the compulsion takes him to the church that night. Players who choose to keep vigil over the coffin can catch him.
-
-## If Missed
-
-<!-- TODO: What happens if players skip the funeral? Helena buries Ciotka without interference. Evidence destroyed. Village notes the committee's absence — disrespectful or suspicious. -->
+TBD.

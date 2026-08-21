@@ -415,6 +415,13 @@ The players must supply the truth by naming the dead and saying what happened to
 
 ---
 
+## Grace & The Priest
+
+### priest-fears-divine-judgment
+[ks. Władysław Pająk](../characters/priest.md) believes the flood is literal divine judgment — God drowning a valley that carries an old, unconfessed sin. He fears every soul still in that sin will drown damned.
+
+---
+
 ## The Wolves
 
 ### wolves-attacking-livestock
