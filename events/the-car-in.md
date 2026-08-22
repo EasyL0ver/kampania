@@ -45,11 +45,11 @@
 - **Outcome:** Players notice that por. Witold Skowron expects them to ignore old grievances, local legends, and anything that does not belong in a government report.
 - **Gives:** [`officer-warning`](../clues/clues.md#officer-warning)
 
-### Create characters
+### Draft the committee
 - **Requires:** Nothing
 - **Cost:** Free
-- **Outcome:** Players define who they are, what they are good at, and why they are on the committee.
-- **Gives:** World State Change: player characters and abilities are defined
+- **Outcome:** The players draft the [card pool](../story-facts/game-system.md#the-draft) in snake order until all 28 cards are taken. por. Witold Skowron reads each card out of his dossier as it is claimed.
+- **Gives:** World State Change: player characters are defined; whatever the committee failed to draft, it does not have
 
 ## Exits
 

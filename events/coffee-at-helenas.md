@@ -47,8 +47,8 @@
 ## Opportunities
 
 - **The excessive warmth** `(requires: Read or Culture)` — The coffee and generosity manage a threat rather than host guests. → Gives: [`matrona-overperforms`](../clues/clues.md#matrona-overperforms)
-- **What she never asks** `(requires: Milicjant or Read)` — [Helena Rzepka](../characters/matrona.md) never asks what the players have found.
-- **The shape of her case** `(requires: Read or Milicjant)` — Every practical argument ends at leaving the truth buried. → Gives: [`committee-hides-something`](../clues/clues.md#committee-hides-something)
+- **What she never asks** `(requires: Enforcement or Read)` — [Helena Rzepka](../characters/matrona.md) never asks what the players have found.
+- **The shape of her case** `(requires: Read or Enforcement)` — Every practical argument ends at leaving the truth buried. → Gives: [`committee-hides-something`](../clues/clues.md#committee-hides-something)
 - **Emil at the edges** `(requires: Observation)` — [Emil Rzepka](../characters/painter.md) flinches at his own name and will not be alone with [Helena Rzepka](../characters/matrona.md) and outsiders.
 
 ## Actions

@@ -45,7 +45,7 @@
 - **The body** `(requires: Medicine)` — The body shows no trauma, strangulation, or defensive injuries; the death is consistent with sedative overdose, not violence. → Gives: [`ciotka-overdose`](../clues/clues.md#ciotka-overdose)
 - **The unlocked door** `(requires: Observation)` — The door was not forced, and a frightened person running out would not stop to turn a key.
 - **Edek's absence** `(requires: Observation)` — [Edek Barnaś](../characters/glupek.md)'s belongings remain, but he is gone.
-- **The house** `(requires: Milicjant)` — The room shows no robbery, forced entry, or fight.
+- **The house** `(requires: Enforcement)` — The room shows no robbery, forced entry, or fight.
 - **The candles** `(requires: Observation)` — The candles have been out for hours; the death happened last night or the night before, depending on discovery day.
 - **The pill bottle** `(requires: Medicine)` — The bottle is Luminal from a town apteka; enough tablets are missing to stop a heart. → Gives: [`ciotka-overdose`](../clues/clues.md#ciotka-overdose)
 - **The rosary** `(requires: Observation)` — [Janina Gajda](../characters/ciotka.md) held or reached for the rosary at the end.

@@ -10,16 +10,25 @@ Hacked version of **Cthulhu Confidential** (GUMSHOE One-2-One). Key change: **al
 
 ### The Day
 
-Each day has **4 phases**, each phase has **3 time cards.** Total: **12 cards per day.**
+Each day has **4 phases**.
 
-| Phase | Hours | Cards | Character |
-|---|---|---|---|
-| **Morning** | ~6:00–12:00 | 3 | Village waking up, routines, NPCs at home/work |
-| **Afternoon** | ~12:00–18:00 | 3 | Peak activity, all locations open |
-| **Evening** | ~18:00–00:00 | 3 | Social scenes, drinking, dinners, village quiets down |
-| **Night** | ~00:00–6:00 | 3 | Dark, dangerous, most NPCs asleep. **Using any night cards = skipping sleep** |
+| Phase | Hours | Character |
+|---|---|---|
+| **Morning** | ~6:00–12:00 | Village waking up, routines, NPCs at home/work |
+| **Afternoon** | ~12:00–18:00 | Peak activity, all locations open |
+| **Evening** | ~18:00–00:00 | Social scenes, drinking, dinners, village quiets down |
+| **Night** | ~00:00–6:00 | Dark, dangerous, most NPCs asleep. **Using any night cards = skipping sleep** |
 
-Players have **12 cards per day.** 9 are standard (morning, afternoon, evening). 3 are night — available but using them means no sleep, which means no composure recovery (see [Composure — Sleep](#sleep)).
+**The game is built for three or four players.** How many cards a phase holds depends on which: the work doesn't shrink when the committee does, so fewer clerks each carry more.
+
+| Players | Cards per phase | Per day, each | Standard (M/A/E), each | Party standard/day |
+|---|---|---|---|---|
+| **3** | 4 | 16 | 12 | 36 |
+| **4** | 3 | 12 | 9 | 36 |
+
+Either way the committee has **36 standard cards a day** between them. The budget is **per character, not a shared party pool** — three players are not playing a thinner game, they are playing more of it each.
+
+Cards are per-character because [composure](#composure) is per-character and **sleep is the conversion between the two.** A shared pool would let one player spend the party's time to repair their own nerves, and "who slept badly" would have no answer.
 
 ### Time Cards
 
@@ -40,81 +49,131 @@ Players have **12 cards per day.** 9 are standard (morning, afternoon, evening).
 
 **The key tension:** 12 cards sounds generous until you realise that walking somewhere, talking to someone, and searching their house is 3 cards — a full phase gone. Travel eats time. Thoroughness eats time. Everything has a price.
 
+**Dead ends cost too.** Players don't know what's in the scene files; a third of their budget goes to attempts that pay nothing, and that is what makes the 7-day clock bite. For what to charge and what to waive, see [Charging Dead Ends](../actions-and-opportunities.md#charging-dead-ends).
+
 ### Days
+
 - The game lasts **7 days.** After Day 7, the story ends — regardless of how much the players have uncovered.
-- Total budget: **84 cards** (63 standard + 21 night). In practice, far fewer — sleep matters, composure matters, panic burns cards.
+- Nominal budget per character: **84 cards** (63 standard + 21 night) in a four-player committee; **112** (84 + 28) in a three-player one.
+- **The spendable number is far lower, and 84 should never be read as a working figure.** 21 of those cards are sleep, not investigation — three night cards is maintenance, not rest. Recovery and nightmares are paid out of the standard 9.
+
+| Play pattern | Standard cards actually available, per character |
+|---|---|
+| Never recovers, never uses night cards | 63 |
+| Nightmares from Day 3, only breaking even | **58** — 4 cards a night just to stand still |
+| Nightmares, plus recovering composure 3 times | **55** — recovery costs 5 cards a night once dreams are on |
+
+Then **dead ends take roughly a third of what remains** — see [Charging Dead Ends](../actions-and-opportunities.md#charging-dead-ends). A character who never sacrifices an evening and never wastes a card does not exist.
+
 - The rain keeps falling. The water keeps rising. Time does not wait.
 
 ### No Failure, Only Trade-offs
 - If a player attempts something, they succeed. The question is never "can I do this?" — it's "is this worth a card?"
 - The tension comes from **opportunity cost**, not dice rolls. Every door you open means another door stays closed.
 
-## Character Traits
+## The Card Pool
 
-Permanent cards each player holds. These aren't chosen during play — they're part of who your character is before they arrive in the village.
+Every player is a government clerk — paperwork is baseline, not a card. Cards are what makes each committee member *different*, and what they can do beyond filling in forms.
 
-### Religion
+There is **one pool and no categories.** Skills, dispositions and liabilities are all cards, because in a no-failure system they all resolve the same way at the table: *do you hold it or not.* Cards never determine success. They determine **what you notice, what you can attempt, and what it costs you.**
 
-| Card | Effect |
+**Every card is single-copy.** Exactly one person on the committee has Medicine. When that player panics into a lost phase, nobody covers for them.
+
+> **Open — `Observation` and `Read` have been cut from the pool.** They were not specialisms; they were the game itself. Every member of this committee is here to notice things and read people, so gating that behind a card made three of the four players mechanically not detectives. Between them they carried **54% of every gate in the repo** — Observation in 72 gates across 43 files, Read in 70 across 40 — because *"Opportunities are ALWAYS gated"* and authors with nothing better to hang a detail on reached for the generic card.
+>
+> **The scene files have not been updated yet.** Until they are, treat any surviving `(requires: Observation)` or `(requires: Read)` gate as **ungated** — deliver it to everyone. Nobody can hold those cards, and most of them are heading for Setup anyway.
+>
+> The pending pass routes each of those gates one of three ways: **→ Setup** (it's just the scene), **→ a specific card** whose own description already claims it (Violence for crime scenes and reading danger, Medicine for bodies, Finesse for concealment and the shape of a room, Culture for ritual, Empathy for what someone is feeling), or **→ dropped**. That pass is also what gives Finesse, Violence and Bureaucracy their content back.
+>
+> **Also pending in the same pass — three merges, one rename, one split.** `Law` + `Accounting` → **`Bureaucracy`**; `Sweettalk` + `Delegate` → **`Speech`**; `Engineering` → **`Handiwork`**, and `Agronomy` **splits** — its fence and pen gates go to `Handiwork`, but "The one-way flight" in `animals-flee-the-valley.md` is reading flood behaviour in terrain and belongs to **`Geology`** (9 references across `pawelek.md`, `animals-flee-the-valley.md`, `foreman-saves-village.md`, `pawelek-falls-ill.md`, `the-flood.md` ×2, `wolf-attack.md`, `barbaras-house.md`, `pgr-farm.md`); `Endurance` → **`Physique`** (3 references: `rezen-takes-the-body.md`, `well-confrontation.md` ×2). Eleven further scene references still name the old merged cards: `barbara.md` (×2), `pawelek.md`, `dispute-brother.md`, `wojewodas-ask.md`, `bimber-still.md`, `barnas-departure-declaration.md`, `animals-flee-the-valley.md`, `pawelek-falls-ill.md`, `wolf-attack.md`. Until renamed, read `Law`/`Accounting` as `Bureaucracy`, `Sweettalk` as `Speech`, `Engineering`/`Agronomy` as `Handiwork`, and `Endurance` as `Physique`. **Do not** rename the title of [foreman-saves-village.md](../events/foreman-saves-village.md) — "The Engineering Ending" is the ending's name, not a card gate.
+>
+> **`Enforcement` (formerly `Milicjant`) was cut** — a profession-shaped card wearing a domain name, whose content already belonged to three other cards. Its 11 gates across 8 files need **splitting, not renaming**: reading danger, violence and intimidation → `Violence`, which also inherits its **+2 composure**; power dynamics and the shape of a room → `Finesse`; forced entry → `Finesse`. Files: `pawelek.md`, `butcher-hunts.md`, `ciotka-found-dead.md`, `coffee-at-helenas.md` (×2), `hunt-with-rezen.md`, `hunters-cross-paths.md`, `punishment-lynch.md`, `well-confrontation.md` (×3). Until then, treat surviving `Enforcement` gates as ungated, as with Observation and Read.
+>
+> **`Streetwise` + `Discretion` → `Finesse`.** Discretion had **0 sole gates** — the deadest card in the pool — because in a no-failure system "good at sneaking" isn't a thing: if you attempt it, you succeed. All the actual sneaking content (searching the attic, digging the backyard, stealing the maps, entering Rezeń's house, tailing him into the forest) gates on *circumstance* rather than a card. The merged card is a hard gate instead: you may attempt what others can't. 16 references to rename across 13 files.
+>
+> **`Drink` and `Intimidate` were also cut**, both too thin to justify a pick (2 and 3 gates). Their content was absorbed rather than lost: `Drink` → **Alcoholic** (opening drinking scenes) and **Physique** (tolerance — the file already treated Drink and Alcoholic as interchangeable for bimber recovery); `Intimidate` → **Violence** (menace) and **committee authority**, which is already baseline on dozens of census and property actions. Gates to reroute: `barbara.md`, `pawelek-falls-ill.md`, `wujas-cracks.md` ×2, `the-store.md` ×2. **Do not** rename the *actions* called "Drink with him" (`neighbours-house.md`) or "Drink with the crew" (`the-store.md`) — those are action names, not gates.
+>
+> **And nine gates name cards that never existed at all.** Scene authors reached for whatever noun fitted. Resolutions for the same pass:
+>
+> | Orphan gate | Resolves to |
+> |---|---|
+> | `Faith` | **Devotion** — the three existing `Culture or Faith` gates become `Culture or Devotion` and are already correct |
+> | `Medic` | **Medicine** (typo) |
+> | `Cyrillic` / `Ukrainian` | **Language** |
+> | `Search` | **Discretion** |
+> | `Military` — artifacts | **History** |
+> | `Military` — ordnance, charges | **Handiwork** |
+> | `Animal Handling` | **Violence** — the gate is reading practised cruelty in Rezeń's dogs, not handling animals |
+> | `Butchery` | drop — the gate has two other routes |
+> | `Investigation` (the three item files) | drop — that's the whole game, not a gate |
+>
+> `Bureaucracy` also appears as an orphan gate in `radioman.md`; that one is now correct by accident, since Bureaucracy is a real card.
+>
+> `Speech` also has unclaimed content waiting for it: `the-disclosure.md` has **six crowd-facing actions gated on nothing at all**, and the crowd-turning actions in `punishment-lynch.md` are likewise ungated. That was `Delegate`'s missing content — it never had a problem as an idea, it was simply never wired to anything.
+
+### Keys and Modifiers
+
+Cards work two ways, and some do both:
+
+- **Keys** are checked at a gate and otherwise dormant. Medicine, Culture, Geology. They open things.
+- **Modifiers** are always on and never asked for. Alcoholic, Wszywka, and anything granting composure. The GM has to hold these in mind every scene, so they sit face-up on the table.
+
+### The Draft
+
+Character creation is a draft, and it is played as the **opening scene** — por. Skowron briefing the committee on the drive in ([The Car In](../events/the-car-in.md)). Every card taken is a line from his dossier: *"Sobczak, you're the geologist. Wierzbicki — property law, and I'm told you go to Mass."*
+
+1. Lay the whole pool **face-up**.
+2. **Snake order** — 1-2-3-4, then 4-3-2-1, and back. Whoever takes the best card first is the one still picking when the good ones are gone.
+3. **The whole pool is drafted.** Every card ends up in somebody's hand; you only choose the order, and what you give up to take a thing early.
+4. Nothing is assigned and nothing is held back. If the committee ends up without a geologist, that is the committee the state sent.
+
+**No resizing for player count.** Eighteen cards deal six each to three players, and 5/5/4/4 to four — snake order evens out the short round on its own, since whoever ends up a card light took the best card first. Nothing leaves the game at either size, so the campaign stays fully reachable with three people.
+
+> **Pool is currently 18**, which deals cleanly at both supported sizes. Two more would take it to 20 and give four players an exact five each — worth doing only if the cards genuinely earn a place.
+>
+> **`Superstitious` has an orphan clue waiting for it.** [`spirits-are-restless`](../clues/clues.md#spirits-are-restless) is one of the clues nothing in the repo currently gives, and it reads *"not evidence, not testimony — a feeling grounded in Lemko tradition."* Wire it to this card in the redistribution pass.
+
+### The Cards
+
+<!-- One flat list, no categories. Nothing here constrains a pick. -->
+
+| Card | |
 |---|---|
-| **Believer** | The priest trusts you. Babcia opens up. Janina recognizes a kindred soul. But the party expects atheism from its servants. |
-| **Nonbeliever** | The state trusts you. por. Skowron sees you as reliable. But the village is Catholic — doors close faster. |
+| **Alcoholic** | Can't refuse a glass. Drinking scenes open easily, and information flows both ways. |
+| **Bureaucracy** | Property title, compensation regulations, state authority, what's legal. Reading ledgers adversarially — discrepancies, money trails, ghost employees, a signature that was traced rather than written. Everyone on the committee can *fill in* a form; this is knowing when one is lying. |
+| **City manners** | You move, speak and dress like somewhere with pavements. Part of this valley has been waiting its whole life to meet you; most of it has not. Bonds come easier with the few who want out or want the world, and harder with everyone else — GM's call, per NPC. |
+| **Culture** | The Lemko and Greek Catholic worlds — icons, rites, prayers, what a symbol cut into a headstone means, what a funeral is supposed to look like. **And the forms that come with them:** when the hat comes off, when to wait at the treeline instead of walking up, when the glass set in front of you is a test, which questions cannot be asked standing up. What a community does, and why. **Charms, omens and the warding-off of bad luck belong to Superstitious, not here.** |
+| **Devotion** | Not a box on a form — you believe, and you practise. In 1967 that is rarer than it looks, and it is never free. ks. Pająk can tell the difference between a man who crosses himself and a man who means it, and so can Janina, Babcia and Wanda Mazur. It opens the confessional as something other than a place to collect evidence. And the Party expects better of its servants: somebody always notices. **+1 composure — while you are in a state of grace.** See below. |
+| **Empathy** | What the person in front of you is feeling, and why. Grief that isn't grief. Fear wearing politeness. The shame underneath an answer. It will not tell you whether they are lying — spotting a lie is baseline for anyone doing this work, the same as noticing what is in the room. It tells you what it would cost them to answer you honestly. |
+| **Finesse** | Getting past a thing by touch instead of force. Quick hands, quiet feet. Locks, latches, drawers, a window that was supposed to be shut — **Handiwork fixes and builds; this opens and takes.** Following without being made, searching a room and leaving it exactly as you found it, lifting something off a table while its owner is still talking, lying smoothly enough that nobody reaches for the door. And knowing the shape of a room: who really decides here, who is frightened of whom, where the danger is. |
+| **Geology** | Terrain, water tables, field measurements, reading the landscape's warnings. |
+| **Handiwork** | **The one who can fix things.** Tools, engines, pumps, charges, drainage, foundations, fences, pens, silos, sandbags. Whether a thing was built well, whether it will hold, and what it would take — with the parts to hand — to make it hold a little longer. The ground itself belongs to Geology; this is everything people put on top of it. |
+| **History** | Akcja Wisła, UPA, postwar resettlement, recognising military artifacts. |
+| **Language** | Ukrainian and Lemko — full comprehension of documents, inscriptions, Babcia's prayers. Everyone reads basic Cyrillic (school Russian); this card unlocks meaning beyond the letters. |
+| **Medicine** | First aid, herbs/poisons, reading physical trauma on a body or a person. Not a doctor — a physiotherapist, nurse, or paramedic. Can assess and stabilise, not prescribe. **+1 composure** |
+| **Physique** | Strength, stamina, and what your body will absorb. Rough terrain, weather, hauling, digging, carrying a grown adult out of the forest in the dark. Matching a village drinker glass for glass and still being the one asking the questions at the end of the night. The grit to keep going after the work turns grim. **+1 composure** |
+| **Speech** | Persuasion at any scale. Charm, flattery, getting one frightened person to open up — and calming forty of them, spinning bad news, holding the committee's cover story together when the village starts asking what you are really here for. |
+| **Superstitious** | You know the old signs, and they have a hold on you. Mirrors, thresholds, bread, which way a body leaves a house, what it means when a dog will not go somewhere. You will not be argued out of it and you do not try to justify it to the committee. **Culture understands these things; you are subject to them.** When a sign goes badly you feel it — GM's call, **1 composure** — because you are the only one here who knows exactly what it means. |
+| **Survival** | Staying alive and oriented where nobody is coming to help. Which way is out, what the weather is about to do, where the ground turns bad, where a person would shelter. Reading what has been through here lately and how long ago. **Physique is whether your body can take the forest; this is whether you know what you are looking at.** |
+| **Violence** | Fighting, shooting, restraining — desperate action with consequences. Making someone back down without laying a hand on them, because they can tell what you are capable of. And reading it in others: who in this room has done this before, and whether a fight happened here. **+2 composure** |
+| **Wszywka** | Disulfiram implant. *Physically* cannot drink without getting violently ill. Locked out of every drinking scene. The scar is visible. People notice. |
 
-### Alcohol
+Taking neither alcohol card means an ordinary drinker, which is what most people in this village are.
 
-| Card | Effect |
-|---|---|
-| **Abstinent** | Won't drink. Villagers find it suspicious — who refuses a glass? Locked out of bimber bonding but always in control. |
-| **Alcoholic** | Can't refuse. Drinking scenes unlock easily but you lose control — information flows both ways. |
-| **Wszywka** | Disulfiram implant — recovering alcoholic. Physically cannot drink without getting violently ill. Completely locked out of drinking scenes. The scar is visible. People notice. |
+#### Devotion — the state of grace
 
-## Skills
+Devotion's **+1 composure** is the only thing in the pool that moves during play.
 
-Every player is a government clerk — paperwork is baseline, not a skill. Skills represent what makes each committee member *different* and what they can do beyond filling out forms.
+- **You sin.** The +1 is suspended at once. If you were holding that point, it goes now — and if that puts you below 0, you [panic](#below-zero-panic) like anyone else.
+- **You confess it to [ks. Pająk](../characters/priest.md).** 1 card. The point comes back. He now knows what you did, and with this priest that is never nothing.
+- **No priest, no absolution.** If he is dead, broken, or has refused you, the point stays gone for the rest of the game.
 
-In a no-failure system, skills don't determine success. They determine **what you notice, what you can attempt, and what it costs you.** A geologist reads the terrain for free. A lawyer trying to do the same spends an action and gets less.
+What counts as a sin is the GM's call, and this campaign is generous with occasions — most of them **good tactical play**, which is the whole point. Signing Helena's false death certificate. Recording Zbigniew's fraudulent property claim. Lying to the village about the water. Naming Rezeń to bury the rest of it. Omitting the massacre from the report. Shooting a retreating man. Leaving Paraskewia at the well.
 
-### Professional — why *you specifically* were sent
+The devout player pays for expedience in a currency nobody else at the table spends.
 
-Each player picks one as their specialty. This is their job, the reason the state put them on this commission.
+One tie-back: a committee member kneeling in his confessional and meaning it is evidence to ks. Pająk that redemption is real. Count it **+1 on the [Faith in Redemption](spiritual-endings.md) score** — the player's own sins can push the valley toward Grace.
 
-| Skill | Description |
-|---|---|
-| **Geology** | Terrain, water tables, field measurements, reading the landscape's warnings |
-| **Engineering** | Buildings, infrastructure, flood mitigation, structural assessment |
-| **Agronomy** | Crops, soil, livestock, PGR evaluation, resettlement feasibility |
-| **Law** | Property rights, compensation regulations, state authority, knowing what's legal |
-| **Milicjant** | Crime scenes, firearms, physical authority, procedure, reading violence |
-| **Delegate** | Public speaking, calming crowds, spinning bad news, reporting to Warsaw |
-
-### Social — how you handle people
-
-| Skill | Description |
-|---|---|
-| **Sweettalk** | Charm, flattery, getting people to open up, making them feel safe |
-| **Intimidate** | Threats, state power, physical presence, making someone back down |
-| **Drink** | Surviving bimber, bonding over a bottle, loosening tongues, not passing out |
-| **Read** | Catching micro-expressions, sensing guilt vs grief, knowing when someone's lying |
-
-### Field — what you can do outside the office
-
-| Skill | Description |
-|---|---|
-| **Observation** | Noticing details, stakeouts, spotting what's missing, reading a scene |
-| **Discretion** | Following, sneaking, searching spaces, taking things unnoticed |
-| **Endurance** | Rough terrain, weather, physical labor, digging, the forest at night |
-| **Violence** | Fighting, shooting, restraining — desperate action with consequences |
-
-### Knowledge — what you already know
-
-| Skill | Description |
-|---|---|
-| **Culture** | Lemko customs, Greek Catholic icons, folk traditions, ritual meaning |
-| **Language** | Ukrainian and Lemko — full comprehension of documents, inscriptions, Babcia's prayers. Everyone reads basic Cyrillic (school Russian), but this skill unlocks meaning beyond the letters |
-| **Medicine** | First aid, herbs/poisons, reading physical trauma on a body or a person. Not a doctor — a physiotherapist, nurse, or paramedic. Can assess and stabilize, not prescribe |
-| **Streetwise** | Reading power dynamics, sensing danger, knowing when you're being played |
-| **History** | Akcja Wisła, UPA, postwar resettlement, recognizing military artifacts |
-| **Accounting** | Reading ledgers, spotting discrepancies, tracing money flows, exposing ghost employees and cooked books |
 
 ## What Players Won't Find
 
@@ -176,7 +235,26 @@ Some NPCs hold grudges. Same invisible 2-of-3 mechanic, but instead of opening c
 
 ## Composure
 
-Each player starts with **5 composure cards.** Composure is visible — players know exactly how many they have. It tracks the psychological toll of the investigation. These are bureaucrats from Warsaw. They came to measure flood damage.
+Each player starts with **1 composure card.** Composure is visible — players know exactly how many they have. It tracks the psychological toll of the investigation. These are bureaucrats from Warsaw. They came to measure flood damage.
+
+**1 is the baseline maximum.** Certain character-creation cards raise it; nothing in play does. [Recovery](#recovery) restores what was lost, never above the maximum you were built with. A character who can shoot a man and stay standing was made that way in the car — they didn't become it in the village.
+
+### The Three States
+
+| Composure | State |
+|---|---|
+| **1 or more** | **Steady.** Can spend on things that take nerve. |
+| **0** | **Spent.** Shaken, still working, nothing left to give. Folds on anything that costs. |
+| **Below 0** | **Broken.** See [Panic](#below-zero-panic). |
+
+**0 is a valid state, not a failure.** A character at 0 keeps interviewing, searching, walking the forest, filling in the ledgers. What they cannot do is anything brave. For a baseline character this is most of the back half of the game — hollowed out and still doing the paperwork, which is the whole picture the scenario is drawing.
+
+### Two Kinds of Cost
+
+Composure is spent two ways, and they behave oppositely. Scene files write both as `Cost: N composure`, so the GM has to know which is which:
+
+- **Gates — voluntary actions.** You must be able to pay. Can't afford it → you fold, nothing happens, no panic. **A gate can take you to 0; it can never take you below.** This is why an ordinary character can never shoot a man: it costs 2, they hold 1, so the action is simply unavailable to them. Not punished — unavailable.
+- **Drains — forced exposure.** You are in the room and don't get to decline. A drain **can** push you below 0, and that is the only way to panic.
 
 ### Losing Composure
 
@@ -190,11 +268,13 @@ Events, discoveries, and choices drain composure. The GM takes cards when:
 
 Costs are cumulative. Watching the well confrontation from the trees might cost 1 (disturbing). Trying to intervene and getting cut by Rezeń costs 2 (violence). Both happen — that's 3 composure gone in one night.
 
-### At Zero: Panic
+### Below Zero: Panic
 
-When a player hits 0 composure, they **panic and lose time.** Their next **3 cards** are consumed — the character is non-functional for a full phase. They're shaking, can't focus, can't interview, can't investigate. They sit in the committee house and stare at the wall.
+When a drain pushes a player **below 0**, they **panic and lose time.** Their next **3 cards** are consumed — the character is non-functional for a full phase. They're shaking, can't focus, can't interview, can't investigate. They sit in the committee house and stare at the wall.
 
-After the lost phase, they recover to **1 composure.** Enough to function. Not enough to be brave.
+After the lost phase, they **return to 0.** Standing, working, nothing left. Climbing back to 1 costs [recovery](#recovery) — a meal at Zofia's table, or an evening card given up to go to bed early.
+
+**Depth doesn't matter.** −1 and −2 are the same panic. You don't break twice as hard; you break, and you come back empty.
 
 ### Composure and Confrontation
 
@@ -215,11 +295,13 @@ NPCs read composure. A player at 4 pointing a gun is a credible threat. A player
 
 Sleep is a **choice about how many cards to spend resting.**
 
-| Cards spent sleeping | How | Composure |
+| What you spend | How | Composure |
 |---|---|---|
-| **4** (1 evening + 3 night) | Go to bed early — sacrifice an evening card | **+1** |
-| **3** (all 3 night cards) | Normal night's sleep | **+0** (no change) |
-| **< 3** (used night cards for actions) | Partial or no sleep | **-1** |
+| **All your night cards, plus one evening card** | Go to bed early | **+1** |
+| **All your night cards** | Normal night's sleep | **+0** (no change) |
+| **Any night card spent on an action** | Partial or no sleep | **−1** |
+
+Written this way it holds at either committee size — three night cards for a four-player game, four for a three-player one.
 
 Going to bed early means losing an evening card — no late-night conversations, no drinking, no social scenes after dark. Recovery costs investigation time.
 
@@ -271,15 +353,6 @@ Violence. The well confrontation (fighting Rezeń, grabbing the hag and running 
 
 **Without treatment:** You can still talk, investigate, interview, observe. You can do everything a government clerk does sitting down. You just can't run, fight, or endure. And you're dying slowly.
 
-## Abilities
-
-Designed after the scenario is complete. Each player is assigned abilities during the opening car ride (character creation = por. Witold Skowron's briefing).
-
-Abilities should:
-- Be few (3-5 per player character)
-- Each unlock at least one unique path that nothing else can
-- Create moments of "I'm the only person who can do this"
-
 ## Endings
 
 Each ending has its own prerequisite chain. They stack — the perfect run completes all four.
@@ -298,7 +371,6 @@ The **perfect run** completes Ritual + Engineering + Justice + Report (with phon
 ## Open Questions
 
 - How many players?
-- Do players share cards, or is each player's 12 cards independent?
 - Are there group actions (e.g., two players spending a card together on the same scene)?
 - Do some actions cost more than 1 card? (e.g., a full archaeological dig vs. a quick conversation)
 - Can events interrupt or consume actions? (e.g., a crisis forces the group to spend an action responding)

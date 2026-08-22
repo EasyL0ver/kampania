@@ -39,15 +39,15 @@
 - **The rites** `(requires: Observation)` — the candles, icon, bread, incense, and chant form a Lemko rite for the dead, not witchcraft. → Gives: [`hag-tends-the-well`](../clues/clues.md#hag-tends-the-well)
 - **The dead wolf** `(requires: Read)` — he brought the wolf here as part of a repeated pattern. → Gives: [`butcher-compelled-to-feed`](../clues/clues.md#butcher-compelled-to-feed), [`butcher-visits-the-well`](../clues/clues.md#butcher-visits-the-well)
 - **Paraskewia holds position** `(requires: Read)` — tending the well matters to her more than leaving alive.
-- **Rezeń with the knife** `(requires: Read or Milicjant)` — he is calm, controlled, and ready to kill. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
-- **The dogs** `(requires: Observation or Milicjant or Violence)` — one person cannot handle Rezeń and the three dogs at the same time.
+- **Rezeń with the knife** `(requires: Read or Enforcement)` — he is calm, controlled, and ready to kill. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+- **The dogs** `(requires: Observation or Enforcement or Violence)` — one person cannot handle Rezeń and the three dogs at the same time.
 - **The ambiguous motive** `(requires: Read)` — the well's compulsion and Rezeń's own appetite both fit what he is doing.
 
 ## Actions
 
 ### Grapple him
 - **Requires:** Present, no firearm
-- **Cost:** 2 composure; 1 composure with Endurance, Violence, or Milicjant; optional Wounded to take the dogs head-on
+- **Cost:** 2 composure; 1 composure with Endurance, Violence, or Enforcement; optional Wounded to take the dogs head-on
 - **Outcome:** The player occupies Rezeń and the dogs long enough to protect another action.
 - **Gives:** [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous); World State Change: the dogs are occupied for [Fight him](#fight-him)
 

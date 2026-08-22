@@ -74,7 +74,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 - **Gives:** [pawelek-wanders](../clues/clues.md#pawelek-wanders), [old-village-exists](../clues/clues.md#old-village-exists)
 
 ### Play cops with Pawełek
-- **Requires:** **Milicjant**
+- **Requires:** **Enforcement**
 - **Cost:** Free
 - **Outcome:** Through play, he acts out men around a fire, shouting, bottles, and bad guys hiding in the forest.
 - **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)

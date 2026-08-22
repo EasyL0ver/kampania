@@ -122,13 +122,75 @@ An action costs time when it eats a meaningful chunk of the character's day — 
    - **Ending Progress** — advances one of the ending chains.
 3. **Multiple outcomes are fine.** An action can give a clue AND change NPC state AND unlock a scene. List them all.
 4. **"Nothing" is not a valid outcome for documented actions.** If you're writing an action into a scene file, it must give something — otherwise don't document it.
-   - **Undocumented actions exist.** Players will attempt things not written in any scene file. The GM charges the time (if it eats time), narrates the empty result, and moves on. Dead ends are part of the time economy — the spent time is the cost. We don't write dead-end entries into scene files.
+   - **Undocumented actions exist.** Players will attempt things not written in any scene file. We don't write dead-end entries into scene files — the GM charges the time at the table. See [Charging Dead Ends](#charging-dead-ends).
 5. **No "Leads to:" or "Result:".** The field is always `Gives:`. The verb is always definitive.
 6. **A skill gates an action or opens an opportunity — never enriches it.**
    - In a `Requires:` set → **hard gate.** No skill means you can't take the action (or don't get the gated clue) at all.
    - Reveals more than the flat Outcome → that extra is a separate **opportunity**, `(requires: <this action> and <skill>)`. Not a branch inside Outcome.
    An Action's Outcome is flat — one result for everyone who clears `Requires:`. Skills never sit as enrich-branches in an Outcome.
 7. **Cost must be explicit.** Every action states its cost: `Free`, `1 action`, or more. See the table above for guidance on which is which.
+
+---
+
+## Charging Dead Ends
+
+<!-- GM-facing, not scene-authoring. This section is about actions no file documents. -->
+
+Players don't know what's in these files. They will attempt things no scene documents — search rooms with nothing in them, follow people who go nowhere, stake out the wrong night, walk to the ruins on a hunch. **This isn't a failure of play. It is the time economy.** Dead ends are what make the 7-day clock bite. A GM who waves them off hands the party roughly a third of its budget back.
+
+**The principle: charge for time spent, not for results obtained.** There are no failure rolls. If the character spent the hour, the card is gone — whether or not the hour paid.
+
+### Charge it
+
+| Attempt | Why |
+|---|---|
+| Searching a place with nothing in it | The search happened |
+| Following someone who goes nowhere | The tail happened |
+| A stakeout on a night the target doesn't move | The night was spent |
+| Travelling somewhere on a hunch | Travel is the cost; arriving to nothing is the risk |
+| Digging, hauling, excavating | Physical effort, regardless of what's under it |
+| A full interview that yields nothing new | The conversation occupied the slot |
+| Re-interviewing someone already exhausted | Same |
+
+### Don't charge it
+
+| Attempt | Why |
+|---|---|
+| An action whose `Requires` isn't met | They learn the gate exists. That's all that happened. |
+| A question an NPC simply refuses | The refusal is the scene — and is sometimes the clue itself ([`barbara-refuses-father`](clues/clues.md#barbara-refuses-father)) |
+| Moving within a location | Already free — see [The Visit](#the-visit) |
+| Asking what they can see | That's Setup. Setup is always free. |
+| Anything a scene file lists as `Free` | It's written down |
+
+**Never charge a player for learning they can't do something.** Refusing a gated attempt for free is what keeps players probing instead of paralysed. Charge them for *doing* things, not for *asking*.
+
+### The grey cases
+
+1. **The location has a documented action, but they don't meet its `Requires`.** Free. Name what's in the way — "not while the priest is in the building" — and let them solve it.
+2. **They have the right idea but not the skill.** The action still happens. They get the flat Outcome; they miss the skill-gated Opportunity hanging off it. Gates are hard (Opportunities rule 3) — there is no partial version.
+3. **They invent something the files never considered, and it's a good idea.** Charge it, and give it a real outcome improvised from the valid outcome types (Actions rule 2). A good idea that costs a card and pays is not a dead end.
+4. **They invent something and it's nonsense.** Charge it, narrate the empty result in one sentence, move on. Don't editorialise — the spent card is the whole comment.
+
+### Calibration
+
+A party that ends most days with cards unspent is being undercharged.
+
+| Day | Expected dead-end share |
+|---|---|
+| **Day 1** | Low — the census mandate is a rail. It tells blind players what to do. |
+| **Day 2** | Highest — they have leads and no map. This is the flailing day and should feel like it. |
+| **Day 3** | Moderate — the flood, the sick child, and the body focus play. |
+
+**Rough target: about a third of the party's standard cards go to dead ends across the first three days.**
+
+### Where the tax lands
+
+Charging isn't symmetrical, and it's worth knowing which way it leans:
+
+- **Conversational flailing is nearly free.** One card gets a player through a door; every `Free` action inside is then harvestable. About a third of all documented actions are free, and most of those are conversations.
+- **Physical flailing is expensive.** Forest travel, searches, stakeouts, and excavation are all costed — and most of them are in or near %OLD_VILLAGE%.
+
+The [1954 lynch](story-facts/the-lynch.md) is reachable almost entirely by talking. The [1947 massacre](story-facts/old-village-massacre.md) is reachable almost entirely by walking. A GM who under-charges physical exploration gives away the massacre; one who over-charges conversation strangles the social game. **When in doubt, charge the boots and not the mouth.**
 
 ---
 
