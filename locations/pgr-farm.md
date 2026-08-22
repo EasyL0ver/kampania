@@ -23,8 +23,8 @@
 
 ## Opportunities
 
-- **Worker count mismatch** `(requires: Observation)` — One ledger name does not match any worker present or recognized on the farm. → Gives: [foreman-coverup](../clues/clues.md#foreman-coverup)
-- **Wolf damage** `(requires: Observation or Agronomy)` — The livestock pens show repeated wolf attacks over several weeks. → Gives: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock)\n
+- **Worker count mismatch** `(requires: Bureaucracy)` — One ledger name does not match any worker present or recognized on the farm. → Gives: [foreman-coverup](../clues/clues.md#foreman-coverup)
+- **Wolf damage** `(requires: Handiwork)` — The livestock pens show repeated wolf attacks over several weeks. → Gives: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock)\n
 ## Actions
 
 ### Inspect the farm books

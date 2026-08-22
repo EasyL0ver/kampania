@@ -32,7 +32,7 @@ He speaks like a man who knows the rules are already on his side. His reasonable
 
 ## Opportunities
 
-- **The paper is airtight** `(requires: Property assessment and Law)` — The deed has father's title, proper transfer, and the strip plainly inside the line.
+- **The paper is airtight** `(requires: Property assessment and Bureaucracy)` — The deed has father's title, proper transfer, and the strip plainly inside the line.
 
 ## Actions
 

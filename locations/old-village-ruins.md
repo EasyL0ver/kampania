@@ -22,7 +22,7 @@
 
 ## Opportunities
 
-- **Burn marks** `(requires: Observation)` — The fire damage is deliberate, not natural decay. → Gives: [old-village-was-burned](../clues/clues.md#old-village-was-burned)
-- **Blood near the well** `(requires: Day 2+ after the wolf hunt and Observation)` — The blood is recent and dragged across the stone rim. → Gives: [fresh-blood-at-well](../clues/clues.md#fresh-blood-at-well)
+- **Burn marks** `(requires: Handiwork)` — The fire damage is deliberate, not natural decay. → Gives: [old-village-was-burned](../clues/clues.md#old-village-was-burned)
+- **Blood near the well** `(requires: Day 2+ after the wolf hunt and Medicine)` — The blood is recent and dragged across the stone rim. → Gives: [fresh-blood-at-well](../clues/clues.md#fresh-blood-at-well)
 
 ## Actions

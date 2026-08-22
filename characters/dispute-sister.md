@@ -31,7 +31,7 @@ She states her case rather than begging for it. When she repeats her father's la
 
 ## Opportunities
 
-- **She is holding back her father's last words** `(requires: Read)` — Her anger about the strip is direct, but she keeps circling her father's deathbed without naming it.
+- **She is holding back her father's last words** `(requires: Empathy)` — Her anger about the strip is direct, but she keeps circling her father's deathbed without naming it.
 - **She will not face the ruins** `(requires: Culture and old village in view)` — Her unease fits someone told a place is bloodied, not someone who merely dislikes ruins.
 
 ## Actions

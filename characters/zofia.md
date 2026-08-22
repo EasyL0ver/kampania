@@ -33,8 +33,8 @@ Her carrying voice is warm and practical. As the well takes hold, the smile stay
 
 ## Opportunities
 
-- **Evacuation clarity** `(requires: Prepare the soft landing (evacuation) and Read)` — she is not panicking; she has accepted that the water wins and has turned grief into a list of people to save.
-- **Flood-line key** `(requires: Send Zofia to Michał (the flood line) and Read)` — force and reason will not reach Michał; her voice can.
+- **Evacuation clarity** `(requires: Prepare the soft landing (evacuation) and Empathy)` — she is not panicking; she has accepted that the water wins and has turned grief into a list of people to save.
+- **Flood-line key** `(requires: Send Zofia to Michał (the flood line) and Empathy)` — force and reason will not reach Michał; her voice can.
 
 ## Actions
 

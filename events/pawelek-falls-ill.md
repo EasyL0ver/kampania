@@ -40,12 +40,12 @@
 
 - **The fever** `(requires: Medicine)` — the symptoms match bacterial dysentery, most likely Shigella; the child needs antibacterial medication and medical dosage guidance. → Gives: [`paweleks-diagnosis`](../clues/clues.md#paweleks-diagnosis)
 - **The contamination pattern** `(requires: Medicine and examining Pawełek's symptoms closely)` — the illness points to a concentrated source, not diffuse floodwater runoff. → Gives: [`paweleks-contamination`](../clues/clues.md#paweleks-contamination)
-- **The fever fragments** `(requires: Read)` — Pawełek's delirium names round stones, bad water from the ground, a lady who warned him not to drink, and Babcia's song. → Gives: [`paweleks-illness`](../clues/clues.md#paweleks-illness), [`pawelek-wanders`](../clues/clues.md#pawelek-wanders)
+- **The fever fragments** `(requires: Medicine)` — Pawełek's delirium names round stones, bad water from the ground, a lady who warned him not to drink, and Babcia's song. → Gives: [`paweleks-illness`](../clues/clues.md#paweleks-illness), [`pawelek-wanders`](../clues/clues.md#pawelek-wanders)
 - **The Lemko words** `(requires: Language)` — Pawełek repeats conversational Lemko words someone spoke to him in the forest, not words from the sickroom prayers. → Gives: [`paweleks-illness`](../clues/clues.md#paweleks-illness)
 - **Babcia's rite** `(requires: Culture)` — Stefania is performing a Lemko healing rite with Greek Catholic sickroom elements. → Gives: [`babcia-mind-returns`](../clues/clues.md#babcia-mind-returns), [`babcia-has-the-words`](../clues/clues.md#babcia-has-the-words)
-- **Babcia's lucidity** `(requires: Observation)` — Stefania's dementia has lifted during the crisis in a way ordinary illness does not explain. → Gives: [`babcia-mind-returns`](../clues/clues.md#babcia-mind-returns)
-- **Barbara's state** `(requires: Read)` — Barbara is afraid of losing her child and being left with no family, money, or protection.
-- **Dudka's clean water** `(requires: Read)` — Dudka brought clean water before anyone asked, and he avoids the floodwater routes that run down from the old village.
+- **Babcia's lucidity** `(requires: Medicine)` — Stefania's dementia has lifted during the crisis in a way ordinary illness does not explain. → Gives: [`babcia-mind-returns`](../clues/clues.md#babcia-mind-returns)
+- **Barbara's state** `(requires: Empathy)` — Barbara is afraid of losing her child and being left with no family, money, or protection.
+- **Dudka's clean water** `(requires: Survival)` — Dudka brought clean water before anyone asked, and he avoids the floodwater routes that run down from the old village.
 
 ## Actions
 
@@ -110,19 +110,19 @@
 - **Gives:** World State Change: Pawełek survives without Gajda leverage; NPC State Change: Paraskewia has openly helped Barbara's child
 
 ### Send Tadek to the store
-- **Requires:** [`wujas-slept-with-barbara`](../clues/clues.md#wujas-slept-with-barbara) and successful Sweettalk or Intimidate check on Tadek
+- **Requires:** [`wujas-slept-with-barbara`](../clues/clues.md#wujas-slept-with-barbara) and successful Speech or Violence check on Tadek
 - **Cost:** 1 action
 - **Outcome:** Tadek asks Helena for children's medicine, and Helena gives it immediately to avoid pushing him toward confession.
 - **Gives:** Item: Norsulfazol tablets; NPC State Change: Helena increases surveillance on Tadek; NPC State Change: Tadek has acted to help Barbara and Pawełek
 
 ### Alternative: Raid the store
-- **Requires:** Discretion or Violence, and knowledge of what medication is needed
+- **Requires:** Finesse or Violence, and knowledge of what medication is needed
 - **Cost:** 1 action
 - **Outcome:** The committee takes Norsulfazol from the store without Helena's consent and damages its relationship with the village supply chain.
 - **Gives:** Item: Norsulfazol tablets; NPC State Change: Helena becomes hostile to the committee
 
 ### Investigate the water source
-- **Requires:** Geology or Engineering
+- **Requires:** Geology or Handiwork
 - **Cost:** 1 action
 - **Outcome:** The contamination tracks uphill to %OLD_VILLAGE%; the old well is overflowing and sending dark water downhill through the forest.
 - **Gives:** [`well-water-contaminated`](../clues/clues.md#well-water-contaminated), [`paweleks-contamination`](../clues/clues.md#paweleks-contamination), [`old-village-exists`](../clues/clues.md#old-village-exists), [`butcher-visits-the-well`](../clues/clues.md#butcher-visits-the-well)

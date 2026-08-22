@@ -52,7 +52,7 @@ He knows nothing of the old village, the massacre, or the well. His quarrel is w
 
 ## Opportunities
 
-- **The fixed accusation** `(requires: Read)` — Most of the tirade shifts with the drink, but one claim stays fixed: the sołtys meets the man in the black car alone and comes back changed. → Gives: [`wojewoda-talks-to-sb`](../clues/clues.md#wojewoda-talks-to-sb)
+- **The fixed accusation** `(requires: Finesse)` — Most of the tirade shifts with the drink, but one claim stays fixed: the sołtys meets the man in the black car alone and comes back changed. → Gives: [`wojewoda-talks-to-sb`](../clues/clues.md#wojewoda-talks-to-sb)
 - **The suit jacket and phrasing** `(requires: Bureaucracy or History)` — The jacket and cadence mark what he was before the bottle: an educated man, a teacher, and someone the state broke on purpose.
 
 ## Actions

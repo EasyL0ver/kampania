@@ -35,11 +35,11 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 
 ## Opportunities
 
-- **The missing father matters** `(requires: Census interview and Read)` — Her warmth stays in place, but her jaw sets and she waits for the question to pass.
-- **The census omission is formal** `(requires: Census interview and Law)` — A census form with no father listed is a bureaucratic flag.
-- **The household economics do not fit** `(requires: Census interview and Observation)` — Three household members and one farm-labour income cannot explain the house and supplies. → Gives: [`barbara-has-help`](../clues/clues.md#barbara-has-help)
-- **Barbara fishes while she talks** `(requires: Ask about the village and Streetwise)` — Every answer ends with a question about the committee, the survey, or what the players have found. → Gives: [`barbara-is-a-sieve`](../clues/clues.md#barbara-is-a-sieve)
-- **Barbara's social map has omissions** `(requires: Ask about the village and Read)` — Her kind descriptions skip [Stanisław Rezeń](butcher.md) unless asked, soften [Tadek Gajda](wujas.md), and avoid judging [Helena Rzepka](matrona.md).
+- **The missing father matters** `(requires: Census interview and Empathy)` — Her warmth stays in place, but her jaw sets and she waits for the question to pass.
+- **The census omission is formal** `(requires: Census interview and Bureaucracy)` — A census form with no father listed is a bureaucratic flag.
+- **The household economics do not fit** `(requires: Census interview and Bureaucracy)` — Three household members and one farm-labour income cannot explain the house and supplies. → Gives: [`barbara-has-help`](../clues/clues.md#barbara-has-help)
+- **Barbara fishes while she talks** `(requires: Ask about the village and Finesse)` — Every answer ends with a question about the committee, the survey, or what the players have found. → Gives: [`barbara-is-a-sieve`](../clues/clues.md#barbara-is-a-sieve)
+- **Barbara's social map has omissions** `(requires: Ask about the village and Finesse)` — Her kind descriptions skip [Stanisław Rezeń](butcher.md) unless asked, soften [Tadek Gajda](wujas.md), and avoid judging [Helena Rzepka](matrona.md).
 
 ## Actions
 
@@ -50,7 +50,7 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 - **Gives:** Census data — Barbara Kopacz, [Stefania Kopacz](babcia.md), and [Pawełek Kopacz](pawelek.md); [`barbara-refuses-father`](../clues/clues.md#barbara-refuses-father)
 
 ### Push about the father
-- **Requires:** Intimidate or Law, OR [`barbara-has-help`](../clues/clues.md#barbara-has-help) and Sweettalk
+- **Requires:** Violence or Bureaucracy, OR [`barbara-has-help`](../clues/clues.md#barbara-has-help) and Speech
 - **Cost:** Free
 - **Outcome:** She names [Marek Gajda](junior.md) and begs the players not to write it down. If they record it, [Zbigniew Gajda](wojewoda.md) sees the census form.
 - **Gives:** [`marek-is-paweleks-father`](../clues/clues.md#marek-is-paweleks-father)

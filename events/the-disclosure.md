@@ -41,10 +41,10 @@
 
 ## Opportunities
 
-- **The crowd fracture** `(requires: Read)` — [Dudka](../characters/neighbour.md) wants someone to hit; [Marek](../characters/junior.md) sees a way out; [Zofia](../characters/zofia.md) is ready to leave; [Pytlak](../characters/foreman.md) wants to fight the water; [Barbara](../characters/barbara.md) is terrified; [Helena](../characters/matrona.md) follows Zbigniew's cue.
-- **Zbigniew's spent authority** `(requires: Streetwise and Form A)` — he is spending authority he cannot replace. Public contradiction can break the gathering.
-- **The unasked question** `(requires: Read)` — the crowd wants to know how long the danger was known. The honest answer can turn the gathering into a mob.
-- **The priest's weight** `(requires: Streetwise)` — the crowd checks [ks. Władysław Pająk](../characters/priest.md). A word from him can bless evacuation or violence.
+- **The crowd fracture** `(requires: Speech)` — [Dudka](../characters/neighbour.md) wants someone to hit; [Marek](../characters/junior.md) sees a way out; [Zofia](../characters/zofia.md) is ready to leave; [Pytlak](../characters/foreman.md) wants to fight the water; [Barbara](../characters/barbara.md) is terrified; [Helena](../characters/matrona.md) follows Zbigniew's cue.
+- **Zbigniew's spent authority** `(requires: Finesse and Form A)` — he is spending authority he cannot replace. Public contradiction can break the gathering.
+- **The unasked question** `(requires: Speech)` — the crowd wants to know how long the danger was known. The honest answer can turn the gathering into a mob.
+- **The priest's weight** `(requires: Finesse)` — the crowd checks [ks. Władysław Pająk](../characters/priest.md). A word from him can bless evacuation or violence.
 
 ## Actions
 

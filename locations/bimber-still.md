@@ -24,9 +24,9 @@
 
 ## Opportunities
 
-- **Worked still** `(requires: Streetwise or Observation)` — The operation is commercial scale, old, and tolerated. → Gives: [bimber-still](../clues/clues.md#bimber-still)
-- **Sugar sacks** `(requires: Accounting or Streetwise)` — The sugar supply traces to [Helena Rzepka](../characters/matrona.md)'s [store](the-store.md), which means she profits from the operation. → Gives: [bimber-still](../clues/clues.md#bimber-still)
-- **No deeper cache** `(requires: Observation and searched the site)` — The site is exactly what it looks like: moonshine production, not a murder cache. → Gives: [bimber-still](../clues/clues.md#bimber-still)
+- **Worked still** `(requires: Finesse)` — The operation is commercial scale, old, and tolerated. → Gives: [bimber-still](../clues/clues.md#bimber-still)
+- **Sugar sacks** `(requires: Bureaucracy or Finesse)` — The sugar supply traces to [Helena Rzepka](../characters/matrona.md)'s [store](the-store.md), which means she profits from the operation. → Gives: [bimber-still](../clues/clues.md#bimber-still)
+- **No deeper cache** `(requires: Finesse and searched the site)` — The site is exactly what it looks like: moonshine production, not a murder cache. → Gives: [bimber-still](../clues/clues.md#bimber-still)
 
 ## Actions
 

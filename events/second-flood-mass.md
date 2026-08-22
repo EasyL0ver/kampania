@@ -27,8 +27,8 @@
 ## Opportunities
 
 - **The sermon target** `(requires: Culture or History)` — Habakkuk points to a settlement founded on blood, not only a personal sin.
-- **The village reaction** `(requires: Read)` — the parish is primed to seek a body to blame.
-- **Tadek's attendance** `(requires: Observation)` — [Tadek](../characters/wujas.md) has attended every Mass since burying his sister.
+- **The village reaction** `(requires: Violence)` — the parish is primed to seek a body to blame.
+- **Tadek's attendance** `(requires: Devotion)` — [Tadek](../characters/wujas.md) has attended every Mass since burying his sister.
 
 ## Actions
 

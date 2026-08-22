@@ -18,8 +18,8 @@
 
 ## Opportunities
 
-- **Janina's empty pew** `(requires: Observation)` — Janina Gajda's absence is the only gap in a full church, and the priest keeps looking at it.
-- **The sermon target** `(requires: Read)` — the priest's general call to confession is aimed at particular people in the pews, not only at the village as a whole. → Gives: [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
+- **Janina's empty pew** `(requires: Devotion)` — Janina Gajda's absence is the only gap in a full church, and the priest keeps looking at it.
+- **The sermon target** `(requires: Devotion)` — the priest's general call to confession is aimed at particular people in the pews, not only at the village as a whole. → Gives: [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
 
 ## Actions
 

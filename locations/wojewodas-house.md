@@ -21,10 +21,10 @@
 
 ## Opportunities
 
-- **Old wound** `(requires: Zbigniew Gajda home and Medic)` — Zbigniew's ribs show an old badly healed injury from a single heavy blow. → Gives: [wojewoda-was-hurt-that-night](../clues/clues.md#wojewoda-was-hurt-that-night)
+- **Old wound** `(requires: Zbigniew Gajda home and Medicine)` — Zbigniew's ribs show an old badly healed injury from a single heavy blow. → Gives: [wojewoda-was-hurt-that-night](../clues/clues.md#wojewoda-was-hurt-that-night)
 - **Icon on the shelf** `(requires: Culture or faith knowledge)` — The small wooden icon is Greek Catholic or Orthodox Lemko devotional art. → Gives: [wojewoda-is-lemko](../clues/clues.md#wojewoda-is-lemko)
-- **Irena's hospitality** `(requires: Read)` — Irena hosts politely while staying tense. → Gives: [irena-is-tense](../clues/clues.md#irena-is-tense)
-- **Marek bragging** `(requires: Marek Gajda present and Read)` — Marek boasts about the gun in his father's office. → Gives: [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
+- **Irena's hospitality** `(requires: Empathy)` — Irena hosts politely while staying tense. → Gives: [irena-is-tense](../clues/clues.md#irena-is-tense)
+- **Marek bragging** `(requires: Marek Gajda present and Empathy)` — Marek boasts about the gun in his father's office. → Gives: [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
 
 ## Actions
 

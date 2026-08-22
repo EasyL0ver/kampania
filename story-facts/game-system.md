@@ -79,37 +79,11 @@ There is **one pool and no categories.** Skills, dispositions and liabilities ar
 
 **Every card is single-copy.** Exactly one person on the committee has Medicine. When that player panics into a lost phase, nobody covers for them.
 
-> **Open — `Observation` and `Read` have been cut from the pool.** They were not specialisms; they were the game itself. Every member of this committee is here to notice things and read people, so gating that behind a card made three of the four players mechanically not detectives. Between them they carried **54% of every gate in the repo** — Observation in 72 gates across 43 files, Read in 70 across 40 — because *"Opportunities are ALWAYS gated"* and authors with nothing better to hang a detail on reached for the generic card.
+> **The pool replaced an older skill list, and the scene files have been migrated to match it.** Two cuts drove the rest: `Observation` and `Read` carried **54% of every gate in the repo** between them, because *"Opportunities are ALWAYS gated"* and an author with a detail and no obvious card to hang it on reached for the generic one. They weren't specialisms — they were the job. Their 142 gates were rerouted to the card whose own description already claimed the work, and six that merely restated a Setup fact were deleted.
 >
-> **The scene files have not been updated yet.** Until they are, treat any surviving `(requires: Observation)` or `(requires: Read)` gate as **ungated** — deliver it to everyone. Nobody can hold those cards, and most of them are heading for Setup anyway.
+> Also folded in: `Law` + `Accounting` → **Bureaucracy** · `Sweettalk` + `Delegate` → **Speech** · `Engineering` + most of `Agronomy` → **Handiwork** · `Streetwise` + `Discretion` → **Finesse** · `Endurance` → **Physique** · `Drink` → **Physique**/**Alcoholic** · `Intimidate` and `Animal Handling` → **Violence** · `Enforcement` split three ways · `Faith` → **Devotion** · `Medic` → **Medicine** · `Cyrillic`/`Ukrainian` → **Language** · `Butchery` and `Investigation` dropped. Every profession-shaped card is gone.
 >
-> The pending pass routes each of those gates one of three ways: **→ Setup** (it's just the scene), **→ a specific card** whose own description already claims it (Violence for crime scenes and reading danger, Medicine for bodies, Finesse for concealment and the shape of a room, Culture for ritual, Empathy for what someone is feeling), or **→ dropped**. That pass is also what gives Finesse, Violence and Bureaucracy their content back.
->
-> **Also pending in the same pass — three merges, one rename, one split.** `Law` + `Accounting` → **`Bureaucracy`**; `Sweettalk` + `Delegate` → **`Speech`**; `Engineering` → **`Handiwork`**, and `Agronomy` **splits** — its fence and pen gates go to `Handiwork`, but "The one-way flight" in `animals-flee-the-valley.md` is reading flood behaviour in terrain and belongs to **`Geology`** (9 references across `pawelek.md`, `animals-flee-the-valley.md`, `foreman-saves-village.md`, `pawelek-falls-ill.md`, `the-flood.md` ×2, `wolf-attack.md`, `barbaras-house.md`, `pgr-farm.md`); `Endurance` → **`Physique`** (3 references: `rezen-takes-the-body.md`, `well-confrontation.md` ×2). Eleven further scene references still name the old merged cards: `barbara.md` (×2), `pawelek.md`, `dispute-brother.md`, `wojewodas-ask.md`, `bimber-still.md`, `barnas-departure-declaration.md`, `animals-flee-the-valley.md`, `pawelek-falls-ill.md`, `wolf-attack.md`. Until renamed, read `Law`/`Accounting` as `Bureaucracy`, `Sweettalk` as `Speech`, `Engineering`/`Agronomy` as `Handiwork`, and `Endurance` as `Physique`. **Do not** rename the title of [foreman-saves-village.md](../events/foreman-saves-village.md) — "The Engineering Ending" is the ending's name, not a card gate.
->
-> **`Enforcement` (formerly `Milicjant`) was cut** — a profession-shaped card wearing a domain name, whose content already belonged to three other cards. Its 11 gates across 8 files need **splitting, not renaming**: reading danger, violence and intimidation → `Violence`, which also inherits its **+2 composure**; power dynamics and the shape of a room → `Finesse`; forced entry → `Finesse`. Files: `pawelek.md`, `butcher-hunts.md`, `ciotka-found-dead.md`, `coffee-at-helenas.md` (×2), `hunt-with-rezen.md`, `hunters-cross-paths.md`, `punishment-lynch.md`, `well-confrontation.md` (×3). Until then, treat surviving `Enforcement` gates as ungated, as with Observation and Read.
->
-> **`Streetwise` + `Discretion` → `Finesse`.** Discretion had **0 sole gates** — the deadest card in the pool — because in a no-failure system "good at sneaking" isn't a thing: if you attempt it, you succeed. All the actual sneaking content (searching the attic, digging the backyard, stealing the maps, entering Rezeń's house, tailing him into the forest) gates on *circumstance* rather than a card. The merged card is a hard gate instead: you may attempt what others can't. 16 references to rename across 13 files.
->
-> **`Drink` and `Intimidate` were also cut**, both too thin to justify a pick (2 and 3 gates). Their content was absorbed rather than lost: `Drink` → **Alcoholic** (opening drinking scenes) and **Physique** (tolerance — the file already treated Drink and Alcoholic as interchangeable for bimber recovery); `Intimidate` → **Violence** (menace) and **committee authority**, which is already baseline on dozens of census and property actions. Gates to reroute: `barbara.md`, `pawelek-falls-ill.md`, `wujas-cracks.md` ×2, `the-store.md` ×2. **Do not** rename the *actions* called "Drink with him" (`neighbours-house.md`) or "Drink with the crew" (`the-store.md`) — those are action names, not gates.
->
-> **And nine gates name cards that never existed at all.** Scene authors reached for whatever noun fitted. Resolutions for the same pass:
->
-> | Orphan gate | Resolves to |
-> |---|---|
-> | `Faith` | **Devotion** — the three existing `Culture or Faith` gates become `Culture or Devotion` and are already correct |
-> | `Medic` | **Medicine** (typo) |
-> | `Cyrillic` / `Ukrainian` | **Language** |
-> | `Search` | **Discretion** |
-> | `Military` — artifacts | **History** |
-> | `Military` — ordnance, charges | **Handiwork** |
-> | `Animal Handling` | **Violence** — the gate is reading practised cruelty in Rezeń's dogs, not handling animals |
-> | `Butchery` | drop — the gate has two other routes |
-> | `Investigation` (the three item files) | drop — that's the whole game, not a gate |
->
-> `Bureaucracy` also appears as an orphan gate in `radioman.md`; that one is now correct by accident, since Bureaucracy is a real card.
->
-> `Speech` also has unclaimed content waiting for it: `the-disclosure.md` has **six crowd-facing actions gated on nothing at all**, and the crowd-turning actions in `punishment-lynch.md` are likewise ungated. That was `Delegate`'s missing content — it never had a problem as an idea, it was simply never wired to anything.
+> **Still open:** [`spirits-are-restless`](../clues/clues.md#spirits-are-restless) is a clue nothing hands out — *"not evidence, not testimony, a feeling grounded in Lemko tradition"* — and it belongs to **Superstitious**, which currently gates only two things. **Geology** is down to five gates and is still the sole route to the flood spine; making that reachable without it remains undone.
 
 ### Keys and Modifiers
 

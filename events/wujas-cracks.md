@@ -28,9 +28,9 @@
 
 ## Opportunities
 
-- **Close to breaking** `(requires: Read)` — he is not performing drunkenness; he is losing control of the secret. → Gives: [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
-- **Mourning a woman** `(requires: Read or Drink)` — his fragments circle one woman and one night. → Gives: [`wujas-mourns-someone`](../clues/clues.md#wujas-mourns-someone)
-- **Blackmail story cracks** `(requires: jagna-knew-the-secret and Read)` — his guilt focuses on the fact that Hania never used what she knew. → Gives: [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret)
+- **Close to breaking** `(requires: Empathy)` — he is not performing drunkenness; he is losing control of the secret. → Gives: [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
+- **Mourning a woman** `(requires: Empathy or Physique)` — his fragments circle one woman and one night. → Gives: [`wujas-mourns-someone`](../clues/clues.md#wujas-mourns-someone)
+- **Blackmail story cracks** `(requires: jagna-knew-the-secret and Empathy)` — his guilt focuses on the fact that Hania never used what she knew. → Gives: [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret)
 
 ## Actions
 
@@ -41,7 +41,7 @@
 - **Gives:** [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret), [`three-drunk-attackers`](../clues/clues.md#three-drunk-attackers), [`soldier-killed-defending-daughter`](../clues/clues.md#soldier-killed-defending-daughter), [`lynch-body-in-well`](../clues/clues.md#lynch-body-in-well), [`butcher-dumped-the-body`](../clues/clues.md#butcher-dumped-the-body)
 
 ### Pressure him while he cracks
-- **Requires:** Intimidate, committee authority, or explicit threat
+- **Requires:** Violence, committee authority, or explicit threat
 - **Cost:** 1 action
 - **Outcome:** Tadek shuts down and becomes a danger to himself and the cover-up.
 - **Gives:** NPC State Change: Tadek enters the suicide or dangerous spiral path

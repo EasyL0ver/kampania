@@ -32,11 +32,10 @@
 
 ## Opportunities
 
-- **The washed-out road** `(requires: Engineering)` — the road failed because poor drainage and weak foundation met heavy rain. Repair will take days after the water drops. → Gives: [`road-washes-out`](../clues/clues.md#road-washes-out)
-- **The office phone** `(requires: Observation)` — [Zbigniew Gajda](../characters/wojewoda.md) offers access and stays close enough to hear what is reported. → Gives: [`phone-is-lifeline`](../clues/clues.md#phone-is-lifeline)
-- **The village response** `(requires: Streetwise or Observation)` — Zbigniew gives quiet orders, [Pytlak](../characters/foreman.md) runs the PGR response, and villagers ignore outsider attempts to lead.
-- **The rising water table** `(requires: Engineering and prior visit to [%OLD_VILLAGE%](../locations/old-village-ruins.md))` — the well at the old village is filling too. → Gives: [`old-village-flooding`](../clues/clues.md#old-village-flooding)
-- **Skowron's absence** `(requires: Observation)` — the officer's missing return leaves the committee with no outside handler.
+- **The washed-out road** `(requires: Handiwork)` — the road failed because poor drainage and weak foundation met heavy rain. Repair will take days after the water drops. → Gives: [`road-washes-out`](../clues/clues.md#road-washes-out)
+- **The office phone** `(requires: Finesse)` — [Zbigniew Gajda](../characters/wojewoda.md) offers access and stays close enough to hear what is reported. → Gives: [`phone-is-lifeline`](../clues/clues.md#phone-is-lifeline)
+- **The village response** `(requires: Finesse)` — Zbigniew gives quiet orders, [Pytlak](../characters/foreman.md) runs the PGR response, and villagers ignore outsider attempts to lead.
+- **The rising water table** `(requires: Handiwork and prior visit to [%OLD_VILLAGE%](../locations/old-village-ruins.md))` — the well at the old village is filling too. → Gives: [`old-village-flooding`](../clues/clues.md#old-village-flooding)
 
 ## Actions
 

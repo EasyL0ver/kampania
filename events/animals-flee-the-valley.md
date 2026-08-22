@@ -32,10 +32,10 @@
 
 ## Opportunities
 
-- **The one-way flight** `(requires: Agronomy)` — The animals are showing textbook flood displacement; game leaves low ground every wet year.
-- **The ground they will not cross** `(requires: Observation)` — Not one animal strays toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) all night.
-- **Edek at the window** `(requires: Read)` — [Edek Barnaś](../characters/glupek.md) is still, not agitated, while facing [%OLD_VILLAGE%](../locations/old-village-ruins.md).
-- **Dudka at his window** `(requires: Read or Sweettalk)` — [Ryszard Dudka](../characters/neighbour.md) has never seen the woods empty like this in twenty years.
+- **The one-way flight** `(requires: Geology)` — The animals are showing textbook flood displacement; game leaves low ground every wet year.
+- **The ground they will not cross** `(requires: Survival)` — Not one animal strays toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) all night.
+- **Edek at the window** `(requires: Empathy)` — [Edek Barnaś](../characters/glupek.md) is still, not agitated, while facing [%OLD_VILLAGE%](../locations/old-village-ruins.md).
+- **Dudka at his window** `(requires: Empathy or Speech)` — [Ryszard Dudka](../characters/neighbour.md) has never seen the woods empty like this in twenty years.
 
 ## Actions
 

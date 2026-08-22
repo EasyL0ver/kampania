@@ -29,11 +29,11 @@
 
 ## Opportunities
 
-- **Regular pattern** `(requires: Observation)` — Tadek visits the edge house regularly.
-- **No friendship** `(requires: Follow Tadek to the edge house and Read)` — the handoff is an errand, not a social visit.
-- **Tadek deflects** `(requires: Ask [Tadek Gajda](../characters/wujas.md) and Read)` — he cannot explain the visits without shutting down.
-- **Zbigniew pauses** `(requires: Ask [Zbigniew Gajda](../characters/wojewoda.md) and Read)` — he knows exactly what Tadek is doing.
-- **Rezeń answers plainly** `(requires: Ask [Stanisław Rezeń](../characters/butcher.md) and Read)` — the visits matter only as deliveries to him.
+- **Regular pattern** `(requires: Finesse)` — Tadek visits the edge house regularly.
+- **No friendship** `(requires: Follow Tadek to the edge house and Empathy)` — the handoff is an errand, not a social visit.
+- **Tadek deflects** `(requires: Ask [Tadek Gajda](../characters/wujas.md) and Empathy)` — he cannot explain the visits without shutting down.
+- **Zbigniew pauses** `(requires: Ask [Zbigniew Gajda](../characters/wojewoda.md) and Empathy)` — he knows exactly what Tadek is doing.
+- **Rezeń answers plainly** `(requires: Ask [Stanisław Rezeń](../characters/butcher.md) and Empathy)` — the visits matter only as deliveries to him.
 
 ## Actions
 

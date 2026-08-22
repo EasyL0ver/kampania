@@ -20,9 +20,9 @@
 
 ## Opportunities
 
-- **The dogs** `(requires: Read)` — the dogs move as an extension of Rezeń's body. → Gives: [`rezen-hunts-wolves`](../clues/clues.md#rezen-hunts-wolves)
-- **The knife** `(requires: Observation or Enforcement)` — Rezeń is not nervous; his hands want something sharp. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
-- **The calm hunter** `(requires: Read)` — Rezeń is most relaxed while tracking prey in the forest. → Gives: [`butcher-knows-forest-intimately`](../clues/clues.md#butcher-knows-forest-intimately)
+- **The dogs** `(requires: Survival)` — the dogs move as an extension of Rezeń's body. → Gives: [`rezen-hunts-wolves`](../clues/clues.md#rezen-hunts-wolves)
+- **The knife** `(requires: Violence)` — Rezeń is not nervous; his hands want something sharp. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+- **The calm hunter** `(requires: Empathy)` — Rezeń is most relaxed while tracking prey in the forest. → Gives: [`butcher-knows-forest-intimately`](../clues/clues.md#butcher-knows-forest-intimately)
 
 ## Actions
 

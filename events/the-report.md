@@ -23,8 +23,8 @@
 
 ## Opportunities
 
-- **Skowron reading** `(requires: Read)` — his reaction changes when the 1947 massacre appears in the report.
-- **The route** `(requires: Observation)` — if the massacre is in the report and the truth is not already outside the car, the car changes course.
+- **Skowron reading** `(requires: Empathy)` — his reaction changes when the 1947 massacre appears in the report.
+- **The route** `(requires: Survival)` — if the massacre is in the report and the truth is not already outside the car, the car changes course.
 
 ## Actions
 

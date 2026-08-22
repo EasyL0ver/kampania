@@ -47,7 +47,7 @@ After [Irena Confronts the Wojewoda](../events/irena-confronts-wojewoda.md), she
 
 ## Opportunities
 
-- **Avoided thread** `(requires: Trade clues (Phase 1) and Read)` — she trades on anyone except her own husband; his name never comes up, and she changes direction when it nears.
+- **Avoided thread** `(requires: Trade clues (Phase 1) and Empathy)` — she trades on anyone except her own husband; his name never comes up, and she changes direction when it nears.
 - **Committee scrutiny** `(requires: Property assessment and flood not openly disclosed)` — her questions sharpen around why land is being valued.
 
 ## Actions

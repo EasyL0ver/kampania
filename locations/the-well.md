@@ -25,7 +25,7 @@
 
 ## Opportunities
 
-- **Cleared and piled debris** `(requires: Observation)` — One person has been clearing the well while another has been blocking it and leaving candle wax. → Gives: [butcher-vs-hag](../clues/clues.md#butcher-vs-hag)
+- **Cleared and piled debris** `(requires: Survival)` — One person has been clearing the well while another has been blocking it and leaving candle wax. → Gives: [butcher-vs-hag](../clues/clues.md#butcher-vs-hag)
 
 ## Actions
 

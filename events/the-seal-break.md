@@ -37,9 +37,9 @@
 
 ## Opportunities
 
-- **The priest on the altar** `(requires: Read)` — he knows what breaking the seal costs and does it deliberately.
+- **The priest on the altar** `(requires: Devotion)` — he knows what breaking the seal costs and does it deliberately.
 - **The broken seal** `(requires: Culture)` — a priest violating the seal of confession is committing one of the gravest violations in his faith.
-- **The names as they land** `(requires: Read)` — [Zbigniew Gajda](../characters/wojewoda.md) looks for an exit; [Tadek](../characters/wujas.md) weeps; [Helena Rzepka](../characters/matrona.md) waits for her name and does not hear it.
+- **The names as they land** `(requires: Empathy)` — [Zbigniew Gajda](../characters/wojewoda.md) looks for an exit; [Tadek](../characters/wujas.md) weeps; [Helena Rzepka](../characters/matrona.md) waits for her name and does not hear it.
 - **The valley built on a grave** `(requires: History or Culture)` — his account connects the lynch to the old village, the people officially called resettled, and the buried cover-up.
 
 ## Actions

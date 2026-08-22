@@ -59,22 +59,22 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 ## Opportunities
 
 - **Babcia's sounds** `(requires: evening with Pawełek and Babcia and Language)` — Pawełek reproduces Babcia's prayer fragments with eerie accuracy. A child is acting as an unconscious vessel for a dying language.
-- **Barbara watching Babcia and Pawełek** `(requires: evening with Pawełek and Babcia and Read)` — [Barbara](barbara.md) watches from the kitchen. She does not understand what Babcia says either, and she is watching her son become part of something she was never part of.
+- **Barbara watching Babcia and Pawełek** `(requires: evening with Pawełek and Babcia and Empathy)` — [Barbara](barbara.md) watches from the kitchen. She does not understand what Babcia says either, and she is watching her son become part of something she was never part of.
 - **Medicine diagnosis** `(requires: Stabilize Pawełek and Medicine)` — The illness will not resolve on its own in a child this size. He needs antibacterial medication; stabilization only buys time. → Gives: [paweleks-diagnosis](../clues/clues.md#paweleks-diagnosis)
 - **Contamination pattern** `(requires: Stabilize Pawełek and Medicine)` — The bacterial load points to decomposing organic matter in a confined water source over years: a cistern, cellar, or well filled with something large and organic. → Gives: [paweleks-contamination](../clues/clues.md#paweleks-contamination)
 - **Water table mapping** `(requires: Ask about drinking water and Geology)` — Contamination follows the water table downhill from the old village. Mapping the flow points toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) and [the well](../locations/the-well.md). → Gives: [old-village-exists](../clues/clues.md#old-village-exists)
-- **Mud on his shoes** `(requires: Ask about drinking water and Observation)` — His shoes by the door carry dark, silty mud with stone dust fragments: forest-path mud with worked stone. → Gives: [old-village-exists](../clues/clues.md#old-village-exists)
+- **Mud on his shoes** `(requires: Ask about drinking water and Survival)` — His shoes by the door carry dark, silty mud with stone dust fragments: forest-path mud with worked stone. → Gives: [old-village-exists](../clues/clues.md#old-village-exists)
 
 ## Actions
 
 ### Build with Pawełek
-- **Requires:** Morning or afternoon, Pawełek playing with stones, and **Engineering**
+- **Requires:** Morning or afternoon, Pawełek playing with stones, and **Handiwork**
 - **Cost:** Free
 - **Outcome:** The player helps him build the circular pattern he has been copying from memory. An engineer recognizes the pattern as a well rim.
 - **Gives:** [pawelek-wanders](../clues/clues.md#pawelek-wanders), [old-village-exists](../clues/clues.md#old-village-exists)
 
 ### Play cops with Pawełek
-- **Requires:** **Enforcement**
+- **Requires:** **Violence**
 - **Cost:** Free
 - **Outcome:** Through play, he acts out men around a fire, shouting, bottles, and bad guys hiding in the forest.
 - **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
@@ -98,7 +98,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 - **Gives:** NPC State Change: [Barbara](barbara.md) trusts the committee and cooperates fully.
 
 ### Ask about drinking water
-- **Requires:** Pawełek is sick, HP 5-6 (lucid), and Pawełek trusts the player or the player uses Sweettalk
+- **Requires:** Pawełek is sick, HP 5-6 (lucid), and Pawełek trusts the player or the player uses Speech
 - **Cost:** Free
 - **Outcome:** He says he drank by the round stones where the water comes up, and that the lady told him not to drink it but he was thirsty.
 - **Gives:** [well-water-contaminated](../clues/clues.md#well-water-contaminated), [old-village-exists](../clues/clues.md#old-village-exists)

@@ -23,8 +23,8 @@
 
 ## Opportunities
 
-- **Church condition** `(requires: Observation)` — The church has better repairs, supplies, and firewood than the village should afford. → Gives: [church-too-nice](../clues/clues.md#church-too-nice)
-- **Cemetery layout** `(requires: Observation or Culture)` — The graves are all post-1947, but the church site is older. → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
+- **Church condition** `(requires: Handiwork)` — The church has better repairs, supplies, and firewood than the village should afford. → Gives: [church-too-nice](../clues/clues.md#church-too-nice)
+- **Cemetery layout** `(requires: Culture)` — The graves are all post-1947, but the church site is older. → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
 - **Three-barred cross on Gajda grave** `(requires: [three-barred-cross-is-lemko](../clues/clues.md#three-barred-cross-is-lemko))` — The symbol marks the Gajda family grave as Lemko. → Gives: [siblings-are-lemko](../clues/clues.md#siblings-are-lemko)
 
 ## Actions

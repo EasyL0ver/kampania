@@ -25,8 +25,8 @@
 
 ## Opportunities
 
-- **Fresh candles and incense** `(requires: Observation or Culture)` — Someone still comes here to perform rites. → Gives: [hag-tends-the-well](../clues/clues.md#hag-tends-the-well), [old-village-looks-haunted](../clues/clues.md#old-village-looks-haunted)
-- **Faded icons** `(requires: Culture, Faith, or Language)` — The icons and Cyrillic inscriptions identify the cerkiew as Greek Catholic and Lemko. → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
+- **Fresh candles and incense** `(requires: Culture)` — Someone still comes here to perform rites. → Gives: [hag-tends-the-well](../clues/clues.md#hag-tends-the-well), [old-village-looks-haunted](../clues/clues.md#old-village-looks-haunted)
+- **Faded icons** `(requires: Culture, Devotion, or Language)` — The icons and Cyrillic inscriptions identify the cerkiew as Greek Catholic and Lemko. → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
 
 ## Actions
 

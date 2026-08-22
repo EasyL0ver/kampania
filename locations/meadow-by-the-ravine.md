@@ -18,7 +18,7 @@
 
 ## Opportunities
 
-- **Cairn as grave** `(requires: Observation or Read)` — The stone stack is an old hand-built grave with no priest, marker, or name. → Gives: [dudka-buried-a-friend-at-the-ravine](../clues/clues.md#dudka-buried-a-friend-at-the-ravine)
+- **Cairn as grave** `(requires: Culture or Survival)` — The stone stack is an old hand-built grave with no priest, marker, or name. → Gives: [dudka-buried-a-friend-at-the-ravine](../clues/clues.md#dudka-buried-a-friend-at-the-ravine)
 
 ## Actions
 

@@ -33,9 +33,9 @@
 
 ## Opportunities
 
-- **The preparation** `(requires: Read)` — [Barbara Kopacz](../characters/barbara.md) is describing preparations, not a mood. → Gives: [`neighbour-has-rifle`](../clues/clues.md#neighbour-has-rifle)
-- **The verdict phrase** `(requires: Streetwise)` — The phrase about someone answering for what they did sounds like a verdict, not grief.
-- **Barbara's fear** `(requires: Read)` — [Barbara Kopacz](../characters/barbara.md) is afraid for [Ryszard Dudka](../characters/neighbour.md), not afraid of him.
+- **The preparation** `(requires: Violence)` — [Barbara Kopacz](../characters/barbara.md) is describing preparations, not a mood. → Gives: [`neighbour-has-rifle`](../clues/clues.md#neighbour-has-rifle)
+- **The verdict phrase** `(requires: Finesse)` — The phrase about someone answering for what they did sounds like a verdict, not grief.
+- **Barbara's fear** `(requires: Empathy)` — [Barbara Kopacz](../characters/barbara.md) is afraid for [Ryszard Dudka](../characters/neighbour.md), not afraid of him.
 
 ## Actions
 

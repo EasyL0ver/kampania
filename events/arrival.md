@@ -25,7 +25,7 @@
 
 ## Opportunities
 
-- **The listening at the door** `(requires: Observation)` — A shadow and a floorboard creak show someone is listening during the conversation with [Zbigniew Gajda](../characters/wojewoda.md). → Gives: [`wife-eavesdrops`](../clues/clues.md#wife-eavesdrops)
+- **The listening at the door** `(requires: Finesse)` — A shadow and a floorboard creak show someone is listening during the conversation with [Zbigniew Gajda](../characters/wojewoda.md). → Gives: [`wife-eavesdrops`](../clues/clues.md#wife-eavesdrops)
 
 ## Actions
 

@@ -19,9 +19,7 @@
 
 ## Opportunities
 
-- **Meal noise** `(requires: Observation)` — The stołówka is louder during meals than between shifts.
-- **Work rhythm** `(requires: Observation)` — The room fills and empties around work shifts.
-- **Kitchen work** `(requires: Read)` — Zofia speaks while cooking and keeps her hands busy.
+- **Kitchen work** `(requires: Empathy)` — Zofia speaks while cooking and keeps her hands busy.
 
 ## Actions
 

@@ -31,15 +31,15 @@
 
 ## Opportunities
 
-- **Covered mirrors** `(requires: Observation or Culture)` — The coverings are systematic, old, and tied to death mourning. → Gives: [covered-mirrors](../clues/clues.md#covered-mirrors)
-- **Babcia's cross** `(requires: Culture or Faith)` — The three-barred crucifix is Greek Catholic, not Roman Catholic. → Gives: [three-barred-cross-is-lemko](../clues/clues.md#three-barred-cross-is-lemko)
+- **Covered mirrors** `(requires: Culture or Superstitious)` — The coverings are systematic, old, and tied to death mourning. → Gives: [covered-mirrors](../clues/clues.md#covered-mirrors)
+- **Babcia's cross** `(requires: Culture or Devotion)` — The three-barred crucifix is Greek Catholic, not Roman Catholic. → Gives: [three-barred-cross-is-lemko](../clues/clues.md#three-barred-cross-is-lemko)
 - **Babcia's muttering** `(requires: Language or Culture)` — The fragments are Lemko memorial prayers, a panakhyda fragment. → Gives: [babcia-has-the-words](../clues/clues.md#babcia-has-the-words)
 - **Pawełek repeats Babcia's words** `(requires: Language)` — His pronunciation is accurate Lemko; he does not understand the words. → Gives: [babcia-has-the-words](../clues/clues.md#babcia-has-the-words)
-- **Red-brick house** `(requires: Engineering or Observation)` — The construction quality does not match Barbara's poverty; the work used better resources than she could afford. → Gives: [barbara-has-help](../clues/clues.md#barbara-has-help)
-- **Dudka at the fence** `(requires: Observation or Read)` — His help reads as guilt and obligation, not courtship. → Gives: [barbara-has-help](../clues/clues.md#barbara-has-help)
-- **Barbara repeats what she hears** `(requires: told Barbara committee information and Observation)` — Information shared inside this house reaches [Ryszard Dudka](../characters/neighbour.md) over the fence. → Gives: [barbara-is-a-sieve](../clues/clues.md#barbara-is-a-sieve)
+- **Red-brick house** `(requires: Handiwork)` — The construction quality does not match Barbara's poverty; the work used better resources than she could afford. → Gives: [barbara-has-help](../clues/clues.md#barbara-has-help)
+- **Dudka at the fence** `(requires: Empathy)` — His help reads as guilt and obligation, not courtship. → Gives: [barbara-has-help](../clues/clues.md#barbara-has-help)
+- **Barbara repeats what she hears** `(requires: told Barbara committee information and Finesse)` — Information shared inside this house reaches [Ryszard Dudka](../characters/neighbour.md) over the fence. → Gives: [barbara-is-a-sieve](../clues/clues.md#barbara-is-a-sieve)
 - **Babcia's lucidity improves** `(requires: repeated overnight stays or Day 3+)` — Babcia becomes sharper and more present as the well strengthens. → Gives: [babcia-mind-returns](../clues/clues.md#babcia-mind-returns)
-- **Babcia after Paraskewia's death** `(requires: [Paraskewia Chyłak](../characters/hag.md) killed and Observation)` — Babcia notices the night singing has stopped. → Gives: [babcia-hears-singing](../clues/clues.md#babcia-hears-singing)
+- **Babcia after Paraskewia's death** `(requires: [Paraskewia Chyłak](../characters/hag.md) killed and Superstitious)` — Babcia notices the night singing has stopped. → Gives: [babcia-hears-singing](../clues/clues.md#babcia-hears-singing)
 
 ## Actions
 

@@ -336,7 +336,7 @@ Marta Konieczna is the one adult who walked out of the 1954 lynch alive. She tra
 
 - **The lie doesn't match the census** `(requires: on the line with Marta and holding [edeks-father-orphaned-him](../clues/clues.md#edeks-father-orphaned-him))` — Marta says the family left *together*, Edward among them; the village story says Edward abandoned them and left alone. → Gives: [marta-has-something-to-hide](../clues/clues.md#marta-has-something-to-hide)
 - **She's accounting for a dead man's travels** `(requires: on the line with Marta and holding [departure-declaration-forged](../clues/clues.md#departure-declaration-forged))` — Marta places Edward alive on a road west, but the departure paper's forged signature says the move story was filed after his death. → Gives: [marta-has-something-to-hide](../clues/clues.md#marta-has-something-to-hide)
-- **What the stillness meant** `(requires: on the line with Marta and Streetwise)` — the silence after she hears "the valley" is fear and recognition. → Gives: [marta-has-something-to-hide](../clues/clues.md#marta-has-something-to-hide)
+- **What the stillness meant** `(requires: on the line with Marta and Finesse)` — the silence after she hears "the valley" is fear and recognition. → Gives: [marta-has-something-to-hide](../clues/clues.md#marta-has-something-to-hide)
 
 #### Actions
 

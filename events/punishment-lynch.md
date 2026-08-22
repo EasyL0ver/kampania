@@ -41,10 +41,10 @@
 
 ## Opportunities
 
-- **The office state** `(requires: Read)` — the dark locked office or the man on the steps shows whether [Irena](irena-confronts-wojewoda.md) reached Zbigniew.
-- **The mob's structure** `(requires: Observation)` — only a handful of men are driving the lynch. Most are drunk followers. Dudka is the main driver unless [Barbara](#setup) is present.
-- **The target** `(requires: Read or Enforcement)` — the target may be guilty, innocent, or one of the players. The mob treats the distinction as irrelevant.
-- **Dudka's face** `(requires: Read)` — he is acting from guilt over his own inaction, not certainty.
+- **The office state** `(requires: Finesse)` — the dark locked office or the man on the steps shows whether [Irena](irena-confronts-wojewoda.md) reached Zbigniew.
+- **The mob's structure** `(requires: Finesse)` — only a handful of men are driving the lynch. Most are drunk followers. Dudka is the main driver unless [Barbara](#setup) is present.
+- **The target** `(requires: Violence)` — the target may be guilty, innocent, or one of the players. The mob treats the distinction as irrelevant.
+- **Dudka's face** `(requires: Empathy)` — he is acting from guilt over his own inaction, not certainty.
 - **The repetition** `(requires: History or Culture)` — the same drink, dark road, and well repeat the 1954 pattern.
 
 ## Actions

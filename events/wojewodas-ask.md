@@ -23,8 +23,8 @@
 
 ## Opportunities
 
-- **No personal cut** `(requires: Read)` — Zbigniew is asking for the villagers, not for his own compensation.
-- **Fraud on paper** `(requires: Law)` — the request is deliberate false property recording against the state.
+- **No personal cut** `(requires: Empathy)` — Zbigniew is asking for the villagers, not for his own compensation.
+- **Fraud on paper** `(requires: Bureaucracy)` — the request is deliberate false property recording against the state.
 
 ## Actions
 

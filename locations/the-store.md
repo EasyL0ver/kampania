@@ -27,11 +27,11 @@
 
 ## Opportunities
 
-- **Tadek's drunk fragments** `(requires: Bond with [Tadek Gajda](../characters/wujas.md) and Drink)` — Tadek lets guilty fragments about the past slip while drinking. → Gives: [wujas-is-guilty](../clues/clues.md#wujas-is-guilty), [wujas-mourns-someone](../clues/clues.md#wujas-mourns-someone)
-- **Ryszard Dudka's nervousness** `(requires: drinking with the crew and Read)` — Dudka drinks too fast and shuts down when the past comes up. → Gives: [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch)
+- **Tadek's drunk fragments** `(requires: Bond with [Tadek Gajda](../characters/wujas.md) and Physique)` — Tadek lets guilty fragments about the past slip while drinking. → Gives: [wujas-is-guilty](../clues/clues.md#wujas-is-guilty), [wujas-mourns-someone](../clues/clues.md#wujas-mourns-someone)
+- **Ryszard Dudka's nervousness** `(requires: drinking with the crew and Empathy)` — Dudka drinks too fast and shuts down when the past comes up. → Gives: [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch)
 - **Crew gossip about Foreman** `(requires: drinking with the crew)` — The crew talks about the PGR boss and the farm's hidden problems. → Gives: [foreman-coverup](../clues/clues.md#foreman-coverup)
 - **Junior joins the crew** `(requires: Bond with [Marek Gajda](../characters/junior.md))` — Marek drinks with the crew away from his father. → Gives: [junior-is-false-suspect](../clues/clues.md#junior-is-false-suspect)
-- **Junior brags about the pistol** `(requires: Junior joins the crew and Drink)` — Marek talks about the gun in his father's office desk. → Gives: [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
+- **Junior brags about the pistol** `(requires: Junior joins the crew and Physique)` — Marek talks about the gun in his father's office desk. → Gives: [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
 
 ## Actions
 

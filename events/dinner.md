@@ -34,7 +34,7 @@
 
 ## Opportunities
 
-- **Irena watching** `(requires: Read)` — [Irena Gajda](../characters/wife.md) tracks the committee more closely than the conversation requires. → Gives: [`irena-is-tense`](../clues/clues.md#irena-is-tense)
+- **Irena watching** `(requires: Finesse)` — [Irena Gajda](../characters/wife.md) tracks the committee more closely than the conversation requires. → Gives: [`irena-is-tense`](../clues/clues.md#irena-is-tense)
 
 ## Actions
 

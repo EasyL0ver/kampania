@@ -18,8 +18,7 @@
 
 ## Opportunities
 
-- **Maps on the desk** `(requires: Observation)` — The topographic maps mark %OLD_VILLAGE%. → Gives: [old village was Lemko](../clues/clues.md#old-village-was-lemko)
-- **Only phone in the village** `(requires: Observation)` — The office phone is the village's only outside connection. → Gives: [phone is lifeline](../clues/clues.md#phone-is-lifeline)
+- **Maps on the desk** `(requires: Geology)` — The topographic maps mark %OLD_VILLAGE%. → Gives: [old village was Lemko](../clues/clues.md#old-village-was-lemko)
 
 ## Actions
 

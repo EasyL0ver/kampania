@@ -28,10 +28,10 @@
 
 ## Opportunities
 
-- **House quality** `(requires: Observation or knowledge of village property)` — A single childless woman lives in the best house in the village with no clean explanation. → Gives: [ciotka-lives-in-soldiers-house](../clues/clues.md#ciotka-lives-in-soldiers-house)
+- **House quality** `(requires: Bureaucracy)` — A single childless woman lives in the best house in the village with no clean explanation. → Gives: [ciotka-lives-in-soldiers-house](../clues/clues.md#ciotka-lives-in-soldiers-house)
 - **Edek fears Rezeń** `(requires: met [Stanisław Rezeń](../characters/butcher.md) and Rezeń's dogs are audible)` — Edek flinches, goes rigid, or hides when Rezeń's dogs are near. → Gives: [glupek-fears-butcher](../clues/clues.md#glupek-fears-butcher)
-- **Care built around Edek** `(requires: Observation or Medicine)` — The house is arranged as a long-term sanctuary for Edek. → Gives: [ciotka-saved-glupek](../clues/clues.md#ciotka-saved-glupek)
-- **Edek drawn outward** `(requires: later game and Observation)` — Edek wanders toward the forest edge and faces %OLD_VILLAGE%. → Gives: [glupek-drawn-to-well](../clues/clues.md#glupek-drawn-to-well)
+- **Care built around Edek** `(requires: Medicine)` — The house is arranged as a long-term sanctuary for Edek. → Gives: [ciotka-saved-glupek](../clues/clues.md#ciotka-saved-glupek)
+- **Edek drawn outward** `(requires: later game and Empathy)` — Edek wanders toward the forest edge and faces %OLD_VILLAGE%. → Gives: [glupek-drawn-to-well](../clues/clues.md#glupek-drawn-to-well)
 
 ## Actions
 

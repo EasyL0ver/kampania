@@ -29,8 +29,8 @@
 
 ## Opportunities
 
-- **The shape of the fight** `(requires: present in the house and Observation)` — the fight is about something buried from 1954, and Irena is trying to stop Zbigniew from speaking openly. → Gives: [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
-- **Who is controlling the outcome** `(requires: present in the house and Read)` — Zbigniew is certain, not ashamed; Irena is protecting him from the consequences of his certainty. → Gives: [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
+- **The shape of the fight** `(requires: present in the house and Finesse)` — the fight is about something buried from 1954, and Irena is trying to stop Zbigniew from speaking openly. → Gives: [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
+- **Who is controlling the outcome** `(requires: present in the house and Empathy)` — Zbigniew is certain, not ashamed; Irena is protecting him from the consequences of his certainty. → Gives: [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
 
 ## Actions
 

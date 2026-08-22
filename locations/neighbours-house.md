@@ -24,8 +24,8 @@
 
 ## Opportunities
 
-- **Drawn curtain** `(requires: Observation)` — The window toward Ciotka's house is always covered, while the window toward Barbara's house is open. → Gives: [neighbour-avoids-ciotkas-window](../clues/clues.md#neighbour-avoids-ciotkas-window)
-- **Hunting rifle** `(requires: Observation)` — Ryszard has a licensed hunting rifle and knows how to shoot. → Gives: [neighbour-has-rifle](../clues/clues.md#neighbour-has-rifle)
+- **Drawn curtain** `(requires: Finesse)` — The window toward Ciotka's house is always covered, while the window toward Barbara's house is open. → Gives: [neighbour-avoids-ciotkas-window](../clues/clues.md#neighbour-avoids-ciotkas-window)
+- **Hunting rifle** `(requires: Violence)` — Ryszard has a licensed hunting rifle and knows how to shoot. → Gives: [neighbour-has-rifle](../clues/clues.md#neighbour-has-rifle)
 - **Night pacing** `(requires: visiting late, staying nearby, or watching at night)` — Ryszard keeps his light on and paces at 3am. → Gives: [neighbour-has-insomnia](../clues/clues.md#neighbour-has-insomnia)
 - **Information from Barbara** `(requires: told Barbara information and later spoke to Ryszard)` — Ryszard knows things the players only told Barbara. → Gives: [barbara-is-a-sieve](../clues/clues.md#barbara-is-a-sieve)
 

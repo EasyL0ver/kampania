@@ -32,7 +32,7 @@ His raspy warm voice gets louder and funnier with drink. The morning shakes and 
 
 ## Opportunities
 
-- **Census nerves** `(requires: Census interview and Read)` — he is not nervous about the census; he is nervous about being asked anything at all. → Gives: [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
+- **Census nerves** `(requires: Census interview and Empathy)` — he is not nervous about the census; he is nervous about being asked anything at all. → Gives: [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
 - **Drunk census performance** `(requires: Census interview and Tadek is drunk)` — he turns the answers into absurd village theatre.
 - **Drunk property performance** `(requires: Property assessment and Tadek is drunk)` — he claims a fake grand estate made of the still, his brother's house, and moonlight.
 

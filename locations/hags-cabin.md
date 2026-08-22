@@ -27,8 +27,8 @@
 
 ## Opportunities
 
-- **Ritual materials** `(requires: Observation or Culture)` — The icons, candles, herbs, and prayers show someone has the ritual form. → Gives: [hag-has-the-form](../clues/clues.md#hag-has-the-form)
-- **List of the dead** `(requires: Language or Search)` — The folded Cyrillic sheet names the dead and belongs with [Paraskewia's List of the Dead](../items/paraskewias-list.md). → Gives: [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead)
+- **Ritual materials** `(requires: Culture)` — The icons, candles, herbs, and prayers show someone has the ritual form. → Gives: [hag-has-the-form](../clues/clues.md#hag-has-the-form)
+- **List of the dead** `(requires: Language or Finesse)` — The folded Cyrillic sheet names the dead and belongs with [Paraskewia's List of the Dead](../items/paraskewias-list.md). → Gives: [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead)
 - **Paraskewia herself** `(requires: [Paraskewia Chyłak](../characters/hag.md) present and careful approach)` — She is a Lemko woman living alone in the forest, not a supernatural witch. → Gives: [hag-is-lemko](../clues/clues.md#hag-is-lemko)
 - **Dmytro connection** `(requires: found the [UPA bunker](upa-bunker.md) inscription and found the knife marked Д.К.)` — The initials connect Dmytro Kosach's belongings to the bunker. → Gives: [dmytro-kosach](../clues/clues.md#dmytro-kosach)
 

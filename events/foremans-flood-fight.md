@@ -37,10 +37,10 @@
 
 ## Opportunities
 
-- **Zofia's fear** `(requires: Read)` — [Zofia Pytlak](../characters/zofia.md) is describing observed physical changes, not exaggerating.
+- **Zofia's fear** `(requires: Empathy)` — [Zofia Pytlak](../characters/zofia.md) is describing observed physical changes, not exaggerating.
 - **The impossible endurance** `(requires: Medicine)` — The described lack of fatigue, pain response, and cold response has no medical explanation.
-- **The bunker question** `(requires: Streetwise)` — UPA partisan bunkers in Bieszczady forests can hold old ordnance. → Gives: [`upa-bunker`](../clues/clues.md#upa-bunker)
-- **The dilemma** `(requires: Read)` — [Zofia Pytlak](../characters/zofia.md) knows she is asking the committee to choose [Michał Pytlak](../characters/foreman.md) over the village's flood defense.
+- **The bunker question** `(requires: Finesse)` — UPA partisan bunkers in Bieszczady forests can hold old ordnance. → Gives: [`upa-bunker`](../clues/clues.md#upa-bunker)
+- **The dilemma** `(requires: Empathy)` — [Zofia Pytlak](../characters/zofia.md) knows she is asking the committee to choose [Michał Pytlak](../characters/foreman.md) over the village's flood defense.
 
 ## Actions
 

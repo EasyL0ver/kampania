@@ -24,9 +24,9 @@
 
 ## Opportunities
 
-- **A person on the line** `(requires: Read)` — the line is not failing; the operator is present, lucid, and choosing how much help to provide.
-- **Procedure without action** `(requires: Streetwise)` — every answer records or routes the request without sending help.
-- **The missing refusal** `(requires: Read)` — the operator avoids a clear no because a clear refusal could be challenged.
+- **A person on the line** `(requires: Empathy)` — the line is not failing; the operator is present, lucid, and choosing how much help to provide.
+- **Procedure without action** `(requires: Finesse)` — every answer records or routes the request without sending help.
+- **The missing refusal** `(requires: Finesse)` — the operator avoids a clear no because a clear refusal could be challenged.
 
 ## Actions
 

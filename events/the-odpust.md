@@ -37,11 +37,11 @@
 
 ## Opportunities
 
-- **The restored priest** `(requires: Read)` — ks. Pająk has chosen mercy over judgment.
+- **The restored priest** `(requires: Devotion)` — ks. Pająk has chosen mercy over judgment.
 - **The rite forming** `(requires: Culture)` — he is building toward general absolution for people in danger of death.
-- **The word scarlet** `(requires: Read)` — his eyes go to Zbigniew, Tadek, and Rezeń, but not Helena.
-- **The butcher in the pew** `(requires: Read and [Rezeń](../characters/butcher.md) present)` — Rezeń is accepting absolution without visible contrition.
-- **The two thieves pattern** `(requires: Read and [`priest-knows-everything`](../clues/clues.md#priest-knows-everything))` — the absolution is offered to all, but it lands differently on those who admit guilt and those who cannot.
+- **The word scarlet** `(requires: Devotion)` — his eyes go to Zbigniew, Tadek, and Rezeń, but not Helena.
+- **The butcher in the pew** `(requires: Empathy and [Rezeń](../characters/butcher.md) present)` — Rezeń is accepting absolution without visible contrition.
+- **The two thieves pattern** `(requires: Devotion and [`priest-knows-everything`](../clues/clues.md#priest-knows-everything))` — the absolution is offered to all, but it lands differently on those who admit guilt and those who cannot.
 - **Babcia's objection** `(requires: [Stefania Kopacz](../characters/babcia.md) present and Culture)` — the Lemko dead have not been named or rested, so Catholic absolution does not answer their grievance.
 
 ## Actions

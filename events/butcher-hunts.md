@@ -34,9 +34,9 @@
 
 ## Opportunities
 
-- **Dogs near the committee** `(requires: Observation)` — The same dogs appear near multiple places the players visit.
-- **Watcher at distance** `(requires: Observation)` — [Stanisław Rezeń](../characters/butcher.md) is present often enough that coincidence is unlikely.
-- **Wordless intimidation** `(requires: Enforcement or Streetwise)` — Missing items, open doors, or dead animals are threats without written messages.
+- **Dogs near the committee** `(requires: Survival)` — The same dogs appear near multiple places the players visit.
+- **Watcher at distance** `(requires: Finesse)` — [Stanisław Rezeń](../characters/butcher.md) is present often enough that coincidence is unlikely.
+- **Wordless intimidation** `(requires: Violence)` — Missing items, open doors, or dead animals are threats without written messages.
 
 ## Actions
 

@@ -38,10 +38,10 @@
 
 ## Opportunities
 
-- **The drag trail** `(requires: Observation or Endurance)` — the trail is fresh, made within the last few hours, and points straight toward [%OLD_VILLAGE%](../locations/old-village-ruins.md). → Gives: [`ciotka-body-taken`](../clues/clues.md#ciotka-body-taken)
-- **The empty coffin** `(requires: Read)` — there is no sign of struggle, theft, or vandalism. Whoever came wanted the body only.
-- **The dogs** `(requires: Observation)` — the dogs are Rezeń's dogs and move between the church and the forest path.
-- **Rezeń's calm** `(requires: Read)` — he is steadier after taking the body than he has been in days.
+- **The drag trail** `(requires: Survival)` — the trail is fresh, made within the last few hours, and points straight toward [%OLD_VILLAGE%](../locations/old-village-ruins.md). → Gives: [`ciotka-body-taken`](../clues/clues.md#ciotka-body-taken)
+- **The empty coffin** `(requires: Finesse)` — there is no sign of struggle, theft, or vandalism. Whoever came wanted the body only.
+- **The dogs** `(requires: Survival)` — the dogs are Rezeń's dogs and move between the church and the forest path.
+- **Rezeń's calm** `(requires: Empathy)` — he is steadier after taking the body than he has been in days.
 
 ## Actions
 

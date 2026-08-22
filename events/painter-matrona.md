@@ -28,9 +28,9 @@
 
 ## Opportunities
 
-- **Emil alone** `(requires: Emil is away from Helena and Read)` — Emil is close to speaking but will only give fragments in one conversation. → Gives: [`painter-wants-to-confess`](../clues/clues.md#painter-wants-to-confess)
-- **Helena's performance** `(requires: Read)` — Helena's version is rehearsed and protects her from responsibility for what the men did. → Gives: [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter)
-- **The control mechanism** `(requires: Observation)` — Emil's silence changes instantly when Helena can hear him. → Gives: [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter)
+- **Emil alone** `(requires: Emil is away from Helena and Empathy)` — Emil is close to speaking but will only give fragments in one conversation. → Gives: [`painter-wants-to-confess`](../clues/clues.md#painter-wants-to-confess)
+- **Helena's performance** `(requires: Finesse)` — Helena's version is rehearsed and protects her from responsibility for what the men did. → Gives: [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter)
+- **The control mechanism** `(requires: Empathy)` — Emil's silence changes instantly when Helena can hear him. → Gives: [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter)
 
 ## Actions
 

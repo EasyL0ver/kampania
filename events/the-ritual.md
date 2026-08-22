@@ -34,10 +34,10 @@
 ## Opportunities
 
 - **Lemko rite** `(requires: Culture and ritual materials visible)` — the rite uses fire, incense, offerings, and prayer for unquiet dead. → Gives: [`hag-tends-the-well`](../clues/clues.md#hag-tends-the-well), [`dead-never-mourned`](../clues/clues.md#dead-never-mourned)
-- **Paraskewia shares the burden** `(requires: [Paraskewia Chyłak](../characters/hag.md) present and Read)` — she lets the players speak the truth she did not know.
-- **Stefania is lucid** `(requires: [Stefania Kopacz](../characters/babcia.md) present and Read or Language)` — she speaks the panakhyda completely.
-- **Edek is calm** `(requires: [Edek Barnaś](../characters/glupek.md) present and Read)` — he stands still near the well and does not fear the rite.
-- **No court required** `(requires: Observation)` — the rite requires naming and acknowledgement, not proof accepted by an authority. → Gives: [`players-supply-truth`](../clues/clues.md#players-supply-truth)
+- **Paraskewia shares the burden** `(requires: [Paraskewia Chyłak](../characters/hag.md) present and Empathy)` — she lets the players speak the truth she did not know.
+- **Stefania is lucid** `(requires: [Stefania Kopacz](../characters/babcia.md) present and Empathy or Language)` — she speaks the panakhyda completely.
+- **Edek is calm** `(requires: [Edek Barnaś](../characters/glupek.md) present and Empathy)` — he stands still near the well and does not fear the rite.
+- **No court required** `(requires: Culture)` — the rite requires naming and acknowledgement, not proof accepted by an authority. → Gives: [`players-supply-truth`](../clues/clues.md#players-supply-truth)
 
 ## Actions
 

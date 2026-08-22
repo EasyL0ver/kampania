@@ -32,10 +32,10 @@
 
 ## Opportunities
 
-- **Forest path** `(requires: Observation)` — The track sees daily use and points straight toward [%OLD_VILLAGE%](old-village-ruins.md). → Gives: [butcher-visits-the-well](../clues/clues.md#butcher-visits-the-well)
-- **No alcohol** `(requires: access to interior and Observation)` — The house contains no alcohol, matching an abrupt stop after 1954. → Gives: [butcher-stopped-drinking-1954](../clues/clues.md#butcher-stopped-drinking-1954)
-- **Dogs' fear** `(requires: Animal Handling or Observation)` — The dogs fear their owner and show signs of practiced cruelty. → Gives: [butcher-is-dangerous](../clues/clues.md#butcher-is-dangerous)
-- **Butchering station** `(requires: Medicine or Butchery or Observation)` — The station has seen more use than ordinary livestock work explains. → Gives: [butcher-is-dangerous](../clues/clues.md#butcher-is-dangerous)
+- **Forest path** `(requires: Survival)` — The track sees daily use and points straight toward [%OLD_VILLAGE%](old-village-ruins.md). → Gives: [butcher-visits-the-well](../clues/clues.md#butcher-visits-the-well)
+- **No alcohol** `(requires: access to interior and Finesse)` — The house contains no alcohol, matching an abrupt stop after 1954. → Gives: [butcher-stopped-drinking-1954](../clues/clues.md#butcher-stopped-drinking-1954)
+- **Dogs' fear** `(requires: Violence)` — The dogs fear their owner and show signs of practiced cruelty. → Gives: [butcher-is-dangerous](../clues/clues.md#butcher-is-dangerous)
+- **Butchering station** `(requires: Medicine)` — The station has seen more use than ordinary livestock work explains. → Gives: [butcher-is-dangerous](../clues/clues.md#butcher-is-dangerous)
 
 ## Actions
 

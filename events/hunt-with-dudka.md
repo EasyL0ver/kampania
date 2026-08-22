@@ -21,9 +21,9 @@
 
 ## Opportunities
 
-- **Dudka's competence** `(requires: Read)` — Dudka's failure is not lack of skill; one hunter is too little for a smart pack in a large forest.
-- **Dudka's anger** `(requires: Read)` — Dudka's anger is older and more personal than professional failure. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
-- **The distant dogs** `(requires: Observation)` — Dudka reacts to Rezeń's dogs before he forces himself calm. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
+- **Dudka's competence** `(requires: Survival)` — Dudka's failure is not lack of skill; one hunter is too little for a smart pack in a large forest.
+- **Dudka's anger** `(requires: Empathy)` — Dudka's anger is older and more personal than professional failure. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
+- **The distant dogs** `(requires: Empathy)` — Dudka reacts to Rezeń's dogs before he forces himself calm. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
 - **The hag rumor** `(requires: players ask Dudka about the village rumor blaming [Paraskewia Chyłak](../characters/hag.md))` — Dudka treats the wolves as animals reacting to rain, prey, and terrain, not witchcraft.
 
 ## Actions

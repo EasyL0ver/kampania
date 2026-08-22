@@ -22,10 +22,10 @@
 
 ## Opportunities
 
-- **The standoff** `(requires: Read)` — Dudka is louder, but Rezeń is the one ready to kill. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
-- **Dudka's fury** `(requires: Observation)` — Dudka openly names Rezeń as more dangerous than the wolves. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
-- **Rezeń's cold** `(requires: Observation or Enforcement)` — Rezeń's breathing stays even, his eyes stay flat, and the knife is already out. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
-- **The dogs** `(requires: Read)` — if the standoff turns violent, it will be Rezeń and three trained dogs against Dudka. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+- **The standoff** `(requires: Violence)` — Dudka is louder, but Rezeń is the one ready to kill. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+- **Dudka's fury** `(requires: Empathy)` — Dudka openly names Rezeń as more dangerous than the wolves. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
+- **Rezeń's cold** `(requires: Violence)` — Rezeń's breathing stays even, his eyes stay flat, and the knife is already out. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+- **The dogs** `(requires: Survival)` — if the standoff turns violent, it will be Rezeń and three trained dogs against Dudka. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
 
 ## Actions
 
