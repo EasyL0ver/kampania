@@ -31,7 +31,17 @@ A cigarette is usually between his lips or behind his ear. His studied cool drop
 - **[Barbara Kopacz](barbara.md)** — She is the only good thing here. With her, I stop being a Gajda for a while.
 - **`wujas-is-guilty`:** Do not make him into a monster before I know what happened. But if he is guilty, I need the rest.
 
+## Opportunities
+
+- **Smoking with the crew** `(requires: Junior present and drinking with the crew at the [store](../locations/the-store.md#opportunities), and Chainsmoker)` — Away from his father, drinking with the crew, Junior lights up. A smoker reads the brand: Carmen. → Gives: [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen)
+
 ## Actions
+
+### Offer him a Carmen
+- **Requires:** Junior present; a Carmen to offer (the [store](../locations/the-store.md#buy-cigarettes) stocks them)
+- **Cost:** Free
+- **Outcome:** He takes it as his own, the one thing he spends on to feel above the place. Offer him a cheap Sport and he waves it off: that is not what he smokes, and you learn nothing.
+- **Gives:** [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen)
 
 ### Census interview
 - **Requires:** Committee authority

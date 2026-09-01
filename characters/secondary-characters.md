@@ -193,6 +193,19 @@ Halina Zając handles customers, stock, and money at Helena Rzepka's store. She 
 - **[Romek Głowacz](#romek-głowacz)** — "Quiet is not the same as harmless."
 - **[Franek Mucha](#franek-mucha)** — "If he starts, he will not stop because I ask politely."
 
+#### Actions
+
+##### Ask who smokes what
+- **Requires:** [Bonded with Halina](#halina-bond); at the counter
+- **Cost:** 1 action
+- **Outcome:** Nobody reads the village like the woman at the till. She rattles off who buys what: the cheap Sport that [Tadek](wujas.md) and half the valley burn through, and the pricey [Carmen](../items/carmen-cigarette-butts.md) only two men ever pay for, the Gajda boy [Marek](junior.md) and the butcher [Rezeń](butcher.md). The brand marks the man, and she keeps the accounts in her head.
+- **Gives:** [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen); [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen); [tadek-smokes-cheapest](../clues/clues.md#tadek-smokes-cheapest)
+
+#### Halina Bond
+- [ ] Take her side against [Helena Rzepka](matrona.md) — treat the resentment as legitimate, not idle gossip.
+- [ ] Deal with or clear out the drunks who plague her counter.
+- [ ] Ask about her work and what she notices, with real interest, not just to mine her for a lead.
+
 ---
 
 ## Zbigniew Gajda's Farm Workers

@@ -17,6 +17,7 @@
 - Some debris has been cleared recently.
 - Other debris has been piled back.
 - Candle wax is present near the disturbed debris.
+- Cigarette butts collect in the grass and stone cracks around the rim, more than any single visit would leave.
 - The well contains 1947 massacre victims: twelve Lemko villagers from %OLD_VILLAGE% plus Dmytro Kosach.
 - The well contains the 1954 lynch victim [Edward Barnaś](../characters/soldier.md).
 - Animal remains have been put into the well over the years.
@@ -28,6 +29,12 @@
 - **Cleared and piled debris** `(requires: Survival)` — One person has been clearing the well while another has been blocking it and leaving candle wax. → Gives: [butcher-vs-hag](../clues/clues.md#butcher-vs-hag)
 
 ## Actions
+
+### Search the ground around the well
+- **Requires:** Time to look closely; **Finesse**, **Survival**, or **Chainsmoker** to read the brand
+- **Cost:** 1 action
+- **Outcome:** The grass and stone cracks around the rim are littered with cigarette butts, far more than one visit, all the premium Carmen. Someone comes here often and smokes the brand only two men in the village buy. With [Rezeń's regular visits](../characters/butcher.md) it is plainly him.
+- **Gives:** Item / Evidence: a handful of Carmen butts from the rim.
 
 ### Investigate the well after confrontation
 - **Requires:** Hag is dead after [Well Confrontation](../events/well-confrontation.md)

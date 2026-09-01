@@ -26,6 +26,7 @@
 - His collar is off.
 - His vestments are half-undone.
 - He is drunk.
+- A Carmen cigarette burns in his hand; he smokes openly in the church he once forbade it in.
 - He says he has decided to stop lying.
 - He calls the water judgment over a valley built on a grave.
 - He names the acts from the 1954 lynch.
@@ -41,6 +42,7 @@
 - **The broken seal** `(requires: Culture)` — a priest violating the seal of confession is committing one of the gravest violations in his faith.
 - **The names as they land** `(requires: Empathy)` — [Zbigniew Gajda](../characters/wojewoda.md) looks for an exit; [Tadek](../characters/wujas.md) weeps; [Helena Rzepka](../characters/matrona.md) waits for her name and does not hear it.
 - **The valley built on a grave** `(requires: History or Culture)` — his account connects the lynch to the old village, the people officially called resettled, and the buried cover-up.
+- **The open vice** `(requires: nothing)`: the man who hid his habit now smokes on the altar, plain to everyone present. → Gives: [priest-smokes](../clues/clues.md#priest-smokes); a **Chainsmoker** reads the brand off the paper → also [priest-smokes-carmen](../clues/clues.md#priest-smokes-carmen)
 
 ## Actions
 

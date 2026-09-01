@@ -45,6 +45,7 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 
 ## Opportunities
 
+- **Smoking while drinking** `(requires: Tadek present and drinking at the [bimber still](../locations/bimber-still.md) or the [store](../locations/the-store.md), and Chainsmoker)` — With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen. → Gives: [`tadek-smokes-cheapest`](../clues/clues.md#tadek-smokes-cheapest)
 - **Census nerves** `(requires: Census interview and Empathy)` — he is not nervous about the census; he is nervous about being asked anything at all. → Gives: [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
 - **Drunk census performance** `(requires: Census interview and Tadek is drunk)` — he turns the answers into absurd village theatre.
 - **Drunk property performance** `(requires: Property assessment and Tadek is drunk)` — he claims a fake grand estate made of the still, his brother's house, and moonlight.

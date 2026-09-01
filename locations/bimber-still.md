@@ -13,6 +13,7 @@
 - **Site:** Empty sugar sacks, barrels, stacked firewood, and a small fire pit.
 - **Use:** Warm ashes show recent use.
 - **Use:** Fermentation smell is strong.
+- **Use:** Cheap Sport cigarette butts are ground into the mud all around the fire and the still.
 - **Path:** A packed footpath leads in from %NEW_VILLAGE%.
 - **Scale:** The number of barrels and bottles exceeds personal drinking.
 - **If crew present:** The men sit around the fire with bottles and cards.
@@ -25,6 +26,7 @@
 - **Worked still** `(requires: Finesse)` — The operation is commercial scale, old, and tolerated. → Gives: [bimber-still](../clues/clues.md#bimber-still)
 - **Sugar sacks** `(requires: Bureaucracy or Finesse)` — The sugar supply traces to [Helena Rzepka](../characters/matrona.md)'s [store](the-store.md), which means she profits from the operation. → Gives: [bimber-still](../clues/clues.md#bimber-still)
 - **No deeper cache** `(requires: Finesse and searched the site)` — The site is exactly what it looks like: moonshine production, not a murder cache. → Gives: [bimber-still](../clues/clues.md#bimber-still)
+- **Carpet of cheap butts** `(requires: Finesse, Survival, or Chainsmoker)` — The ground is littered with butts, all the cheapest Sport, [Tadek](../characters/wujas.md)'s brand. Nothing premium here, no Carmen: the brand marks the man. → Gives: [tadek-smokes-cheapest](../clues/clues.md#tadek-smokes-cheapest)
 
 ## Actions
 

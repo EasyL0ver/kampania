@@ -16,6 +16,7 @@
 - Halina Zając runs the counter inside.
 - Helena Rzepka owns the store but is rarely behind the counter.
 - The shelves are sparse but functional.
+- Cigarettes are sold over the counter: cheap Sport on the shelf, a pricier premium brand for those who ask.
 - Bimber is kept under the counter.
 - The crew enters to buy rounds, banter with Halina, and get sent back outside.
 - Marek Gajda drinks with the crew some evenings, away from his father.
@@ -34,6 +35,14 @@
 - **Junior brags about the pistol** `(requires: Junior joins the crew and Physique)` — Marek talks about the gun in his father's office desk. → Gives: [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
 
 ## Actions
+
+### Buy cigarettes
+- **Requires:** —
+- **Cost:** 1 action
+- **Outcome:** Halina sells a pack across the counter: cheap [Sport](../clues/clues.md#tadek-smokes-cheapest) off the shelf, or premium [Carmen](../items/carmen-cigarette-butts.md) if you ask. A pack lasts one day; keeping one on you is [Chainsmoker](../story-facts/game-system.md#the-cards) upkeep.
+- **Gives:** Item / Evidence: a pack of Sport or Carmen (one day's supply).
+
+<!-- If bonded with Halina, [Ask who smokes what](../characters/secondary-characters.md#ask-who-smokes-what) is her counter action — she knows every villager's brand. -->
 
 <!-- Drinking with the crew is a crew action — see [Tadek Gajda's Drinking Circle](../characters/secondary-characters.md#actions--drink-with-the-crew). -->
 

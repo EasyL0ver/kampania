@@ -18,6 +18,7 @@
 
 - The door is unlocked.
 - [Janina Gajda](../characters/ciotka.md) always locked the door.
+- Cigarette butts lie scattered just outside the door.
 - The house is quiet.
 - The icons remain on the walls.
 - The candles have burned out and have been out for hours.
@@ -27,7 +28,8 @@
 - [Janina Gajda](../characters/ciotka.md) lies on the kitchen floor.
 - [Janina Gajda](../characters/ciotka.md) is on her back, half-turned.
 - [Janina Gajda](../characters/ciotka.md)'s eyes are open.
-- [Janina Gajda](../characters/ciotka.md) has no visible wound, blood, or marks.
+- A fresh, dark bruise rings one of [Janina Gajda](../characters/ciotka.md)'s wrists.
+- Apart from the bruise, there is no wound and no blood.
 - [Janina Gajda](../characters/ciotka.md)'s hands are at her sides.
 - A fallen rosary is near one half-curled hand.
 - A glass with a finger of water sits on the table.
@@ -35,16 +37,17 @@
 - [Edek Barnaś](../characters/glupek.md)'s corner is empty.
 - [Edek Barnaś](../characters/glupek.md)'s mattress is cold.
 - There is no sign of forced entry.
-- There is no sign of a struggle.
+- Beyond one detail, there is no sign of a struggle.
 - There is no weapon.
-- Nothing is overturned.
+- A single kitchen chair lies on its side, jarring against the order.
 - **Composure:** 2.
 
 ## Opportunities
 
-- **The body** `(requires: Medicine)` — The body shows no trauma, strangulation, or defensive injuries; the death is consistent with sedative overdose, not violence. → Gives: [`ciotka-overdose`](../clues/clues.md#ciotka-overdose)
+- **The body** `(requires: Medicine)` — The sedative overdose is what killed her: no strangulation, no defensive wounds. But a fresh bruise rings her wrist, a hard grip from a large hand, closed while she was still alive. The grip did not kill her. → Gives: [`ciotka-overdose`](../clues/clues.md#ciotka-overdose) + [`ciotka-hurt-before-death`](../clues/clues.md#ciotka-hurt-before-death)
 - **The unlocked door** `(requires: Finesse)` — The door was not forced, and a frightened person running out would not stop to turn a key.
-- **The house** `(requires: Violence or Finesse)` — The room shows no robbery, forced entry, or fight.
+- **The overturned chair** `(requires: Violence or Finesse)` — No robbery, no forced entry. One chair lies on its side in a spotless room: something brief and physical happened here, then stopped. → Gives: [`ciotka-hurt-before-death`](../clues/clues.md#ciotka-hurt-before-death)
+- **The cigarette butts** `(requires: Finesse, Survival, or Chainsmoker)` — Several butts just outside the door, all one brand, Carmen: a premium smoke rare this far out. They are weathered, dropped a day or more before she died. Players can gather them. → Gives: Item / Evidence: [Carmen Cigarette Butts](../items/carmen-cigarette-butts.md)
 - **The candles** `(requires: Medicine)` — The candles have been out for hours; the death happened last night or the night before, depending on discovery day.
 - **The pill bottle** `(requires: Medicine)` — The bottle is Luminal from a town apteka; enough tablets are missing to stop a heart. → Gives: [`ciotka-overdose`](../clues/clues.md#ciotka-overdose)
 - **The rosary** `(requires: Devotion)` — [Janina Gajda](../characters/ciotka.md) held or reached for the rosary at the end.
@@ -56,8 +59,8 @@
 ### Examine the body
 - **Requires:** Someone willing to approach.
 - **Cost:** Free
-- **Outcome:** The body has no trauma, no strangulation marks, no defensive wounds, and no sign of a crime scene; the pill bottle on the table accounts for the death.
-- **Gives:** [`ciotka-overdose`](../clues/clues.md#ciotka-overdose)
+- **Outcome:** The pills on the table account for the death: an overdose, no strangulation, no defensive wounds. But a fresh bruise grips her wrist, a large hand closed hard while she still lived. It did not kill her, and it did not come from a fall.
+- **Gives:** [`ciotka-overdose`](../clues/clues.md#ciotka-overdose) + [`ciotka-hurt-before-death`](../clues/clues.md#ciotka-hurt-before-death)
 
 ### Search the house
 - **Requires:** Nothing
@@ -69,7 +72,7 @@
 - **Requires:** Go outside and search the mud.
 - **Cost:** 1 action
 - **Outcome:** Large bare footprints run toward the tree line and fade where the canopy starts.
-- **Gives:** [`ciotka-overdose`](../clues/clues.md#ciotka-overdose)
+- **Gives:** [`glupek-fled-into-forest`](../clues/clues.md#glupek-fled-into-forest)
 
 ### Tell Zbigniew Gajda
 - **Requires:** Bring the news to [Zbigniew Gajda](../characters/wojewoda.md).

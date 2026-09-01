@@ -237,7 +237,37 @@ From the first night in the village, the players have dreams of violence — han
 [Stefania Kopacz](../characters/babcia.md) has heard [Paraskewia Chyłak](../characters/hag.md)'s Lemko prayers carried on the wind at night. She will notice when the singing stops.
 
 ### ciotka-overdose
-[Janina Gajda](../characters/ciotka.md) died from an overdose of her own sedative pills (Luminal) — the nerve-and-sleep medicine she had taken for years. Her body shows no wounds and no signs of a struggle: she was not killed. Whether she miscounted the dose or took them on purpose cannot be told from the scene. [Edek Barnaś](../characters/glupek.md) is gone, fled into the forest. **Conditional:** Only exists after players discover the body.
+[Janina Gajda](../characters/ciotka.md) died from an overdose of her own sedative pills (Luminal), the nerve-and-sleep medicine she had taken for years. The overdose, not any injury, is what killed her. Whether she took the dose on purpose or miscounted cannot be told from the scene. [Edek Barnaś](../characters/glupek.md) is gone, fled into the forest. **Conditional:** Only exists after players discover the body.
+
+### ciotka-hurt-before-death
+[Janina Gajda](../characters/ciotka.md) was gripped hard by a large, strong hand shortly before she died. A fresh bruise rings her wrist, made while she was still alive. The grip did not kill her, but someone laid hands on her in her last hours.
+
+### glupek-fled-into-forest
+Large bare footprints lead from [Janina Gajda](../characters/ciotka.md)'s house toward the treeline and vanish where the canopy begins. [Edek Barnaś](../characters/glupek.md) fled into the forest the night she died.
+
+### junior-smokes-carmen
+[Marek Gajda](../characters/junior.md) smokes Carmen, a premium brand.
+
+### butcher-smokes-carmen
+[Stanisław Rezeń](../characters/butcher.md) smokes Carmen, a premium brand.
+
+### edek-has-carmen-cigarette
+An unsmoked Carmen cigarette is hidden in [Edek Barnaś](../characters/glupek.md)'s corner. Edek does not smoke.
+
+### rezen-gave-edek-cigarette
+[Stanisław Rezeń](../characters/butcher.md) gave [Edek Barnaś](../characters/glupek.md) the Carmen cigarette. Rezeń is fond of the boy and slips him food and small gifts.
+
+### tadek-smokes-cheapest
+[Tadek Gajda](../characters/wujas.md) smokes Sport, the cheapest brand. He does not smoke Carmen.
+
+### door-and-well-butts-match
+The Carmen butts from [Janina Gajda](../characters/ciotka.md)'s door and the Carmen butts from [the well](../locations/the-well.md) are the same brand.
+
+### priest-smokes
+[ks. Władysław Pająk](../characters/priest.md) secretly smokes. He hides the habit.
+
+### priest-smokes-carmen
+[ks. Władysław Pająk](../characters/priest.md) secretly smokes Carmen, the same premium brand as Junior and Rezeń. He hides the habit.
 
 ### glupek-drawn-to-well
 [Edek Barnaś](../characters/glupek.md) is physically drawn toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) and the well. At the well he becomes still — something in him recognises the place.

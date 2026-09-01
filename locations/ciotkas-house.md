@@ -16,7 +16,7 @@
 - **Interior:** Candles are lit.
 - **Interior:** The house smells of soap and cooked grain.
 - **Edek's care:** Sharp edges, clutter, and surprises are removed.
-- **Edek's corner:** Straw mattress, age-inappropriate wooden toy, and scratch marks on the wall.
+- **Edek's corner:** Straw mattress, age-inappropriate wooden toy, scratch marks on the wall, and a single cigarette tucked away like a kept treasure.
 - **Janina:** [Janina Gajda](../characters/ciotka.md) watches the door and distrusts government questions.
 - **Edek:** [Edek Barnaś](../characters/glupek.md) is tall, broad, silent, and often stands behind Janina or sits in his corner.
 - **Edek:** When dogs are audible outside, he can go rigid or hide behind Janina.
@@ -34,6 +34,12 @@
 - **Edek drawn outward** `(requires: later game and Empathy)` — Edek wanders toward the forest edge and faces %OLD_VILLAGE%. → Gives: [glupek-drawn-to-well](../clues/clues.md#glupek-drawn-to-well)
 
 ## Actions
+
+### Search Edek's corner
+- **Requires:** Janina absent or distracted
+- **Cost:** 1 action
+- **Outcome:** Among the boy's few things, tucked away like a treasure, is a single unsmoked cigarette. Edek does not smoke, so it was a gift. Its brand and meaning become clear when [compared with the butts from the door](../items/carmen-cigarette-butts.md#compare-with-the-cigarette-in-edeks-corner).
+- **Gives:** Item / Evidence: a single unsmoked cigarette from Edek's corner.
 
 ### Search the attic
 - **Requires:** Janina absent or distracted

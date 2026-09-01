@@ -62,5 +62,5 @@
 ### Search the plebania
 - **Requires:** Priest absent or distracted
 - **Cost:** 1 action
-- **Outcome:** The parish ledger records Hania Barnaś's First Communion in the early 1950s; after the priest shelters Edek, the cellar also contains a straw mattress, blanket, food scraps, and a water jug.
-- **Gives:** [barnas-had-a-daughter](../clues/clues.md#barnas-had-a-daughter); NPC State Change: if Edek is in the cellar, players can confront the priest about hiding him.
+- **Outcome:** Resolve at [The Rectory](the-rectory.md).
+- **Gives:** See [The Rectory](the-rectory.md).

@@ -1,6 +1,6 @@
 # The Priest's Plea
 
-**Location:** [The church](../locations/the-church.md)
+**Location:** [The Rectory](../locations/the-rectory.md)
 **Present:** [ks. Władysław Pająk](../characters/priest.md), one player with progressed [bond](../characters/priest.md#bond)
 **Available:** Day 4 onward, after [Holy Mass](holy-mass.md); fires once.
 
@@ -69,6 +69,12 @@
 - **Cost:** Free
 - **Outcome:** ks. Pająk leans harder toward judgment.
 - **Gives:** NPC State Change: the Grace path narrows; Ending Progress: -2 to the [Faith in Redemption](../story-facts/spiritual-endings.md) score; [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
+
+### Share his cigarette
+- **Requires:** ks. Pająk genuinely trusts the player (mercy supported, or a personal confidence shared in return)
+- **Cost:** Free
+- **Outcome:** He drops the pretence, takes out a cigarette for himself and offers one to the player. The habit he hides from the village is plain. A player who smokes will read the brand off the paper at once: premium Carmen, the same the village would name at Janina's door.
+- **Gives:** [`priest-smokes`](../clues/clues.md#priest-smokes); if the player is a **Chainsmoker**, also [`priest-smokes-carmen`](../clues/clues.md#priest-smokes-carmen)
 
 ## Exits
 

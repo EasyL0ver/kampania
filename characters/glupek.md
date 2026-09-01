@@ -43,6 +43,12 @@ His voice is surprisingly soft for his size. Kindness reaches him after a pause,
 - **Outcome:** He calls Janina "auntie," not mother. When asked about his real parents, he says he has only ever had his aunt.
 - **Gives:** [`ciotka-not-mother`](../clues/clues.md#ciotka-not-mother)
 
+### Ask Edek about the cigarette
+- **Requires:** Players found the [Carmen cigarette in his corner](../locations/ciotkas-house.md#search-edeks-corner); talk to him directly
+- **Cost:** Free
+- **Outcome:** He brightens and says the butcher gave it to him. Rezeń ruffles his hair and slips him food and little presents. Edek keeps the cigarette but never lights it. He does not understand why the same man makes him freeze when the dogs bark.
+- **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)
+
 ### Watch Edek near the forest
 - **Requires:** The well is active
 - **Cost:** Free
