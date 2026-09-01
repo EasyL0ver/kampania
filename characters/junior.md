@@ -29,6 +29,7 @@ A cigarette is usually between his lips or behind his ear. His studied cool drop
 - **[Helena Rzepka](matrona.md)** — I avoid being alone with her. She watches too closely.
 - **[Janina Gajda](ciotka.md)** — She was kind to me when I was small. I do not understand why she lives apart from everyone.
 - **[Barbara Kopacz](barbara.md)** — She is the only good thing here. With her, I stop being a Gajda for a while.
+- **Smoking** — Carmen is the one thing I let myself have, the one thing that is not this valley. Sport is what the drunks burn through; I am not going to reek like Tadek.
 - **`wujas-is-guilty`:** Do not make him into a monster before I know what happened. But if he is guilty, I need the rest.
 
 ## Opportunities

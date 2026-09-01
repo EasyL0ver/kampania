@@ -30,6 +30,7 @@ People lower their voices around her. Her own voice stays low and measured, so o
 - **[Janina Gajda](ciotka.md)** — Janina's silence comes from love. Mine comes from will.
 - **[ks. Władysław Pająk](priest.md)** — He sees a struggling soul and wants to protect it. That is useful.
 - **[Irena Gajda](wife.md)** — She suspects too much and can prove too little. I keep her close enough to measure and far enough to starve.
+- **Smoking** — A filthy habit and a waste of money. Tadek stinks of the cheap ones and the Gajda boy struts with his dear ones; neither can govern himself. I do not touch it.
 - **`ciotka-not-mother`:** Why are you digging at a boy's pain for a census? Ask better questions somewhere else.
 - **`wujas-is-guilty`:** My brother is a troubled soul. I pray for him every day.
 

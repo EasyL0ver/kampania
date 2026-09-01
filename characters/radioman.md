@@ -29,6 +29,7 @@ He talks in a teacher's cadence, reaches for clever phrases, half-remembers Lati
 - **[ks. Władysław Pająk](priest.md)** — He sold his silence like everyone else. The Church was supposed to be the one thing they could not buy.
 - **[Tadek Gajda](wujas.md)** — He is my one honest friend, God help us both. I drink with his crew at the still for the bottle and the talk.
 - **[%NEW_VILLAGE%](../locations/village-outskirts.md)** — They built it on nothing and called it progress. Now they will drown it and call that progress too.
+- **Smoking** — I heard it on the western wave: the smoke rots your lungs and kills you, they have the studies now. I say it at the still and the whole crew laughs and lights another. One more thing I am right about that they will call me a fool for.
 - **`wojewoda-talks-to-sb`:** You heard it from a drunk, so you will doubt it, but you heard it. Watch the black car and watch where Gajda walks.
 - **`officer-is-sb`:** I told you. Bezpieka is in our village, and the sołtys carries his water.
 - **`new-village-will-flood`:** They knew. Of course they knew. When has the state ever not known and told us anyway?

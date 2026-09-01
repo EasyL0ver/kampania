@@ -27,6 +27,7 @@ His baritone stays intimate in conversation. When uncomfortable, his hand goes t
 - **[Zbigniew Gajda](wojewoda.md)** — He controls the village politically, and I control it spiritually. We share meals, negotiate disputes, and pretend the church funding that passes through him buys nothing.
 - **[por. Witold Skowron](officer.md)** — I fear what he represents: the machinery that could strip me of my parish. We both want quiet, but he sees me as an enemy of the state and I see him as an enemy of God.
 - **[Janina Gajda](ciotka.md)** — She is my heaviest burden. She comes for comfort, and what passes between us is a full account of a murder that I cannot speak aloud.
+- **Smoking** — Not in God's house. He keeps the church clear of it and his own hands clean in view, a matter of respect for the sacred, nothing he preaches on.
 - **`wujas-is-guilty`:** Every man carries his own cross. I will not break the seal of confession, but the weight is on my face.
 
 ## Mechanics
