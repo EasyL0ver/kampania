@@ -24,6 +24,16 @@ Two things this establishes for the campaign, both real:
 1. **Loose rock barriers block valleys here.** A slide plugging a gap and backing up water is ordinary Bieszczady behaviour, triggered by exactly the kind of heavy rain the flood arc runs on.
 2. **Those barriers are debris, not bedrock.** A landslide plug is broken rock and earth — erodible and, crucially, **breachable.** Once a notch is cut in it, running water scours it wide on its own (documented breach-widening / headcut erosion in loose material). You do not have to move a mountain; you crack the plug and the flood finishes it.
 
+## The Lake Finds the Lowest Way Out — Spillways
+
+When a landslide dams a valley, the impounded water does not just sit still. It **rises as a lake** until it reaches the lowest point on the rim of the basin — a **próg, siodło, or przełęcz (a spillway / col)** — and **spills over** there. If that overflow point is a low saddle between ridges, the escaping water carves a fresh notch and, over time, cuts a new przełom (a *przełom przelewowy*, overflow gorge). The lake keeps rising only until it finds such an outlet.
+
+This is the hydrological hinge of the flood arc:
+
+- A sealed valley is not automatically doomed. The rising water will escape at **whatever outlet sits lowest** — and if that outlet is below the settlement, the water leaves before it ever reaches the houses.
+- The village drowns **only if every possible spillway sits above house level or cannot pass the flow**, so the lake tops the village before it finds any way out.
+- That turns "will it flood?" into a concrete field question: **find every candidate outlet and check whether any lies low enough (and wide enough) to relieve the backup before it reaches the village.** The primary outlet is the plugged przełom; the secondary candidates are a natural col (an old streambed spilling into the next valley) and any man-made cut (a PGR irrigation ditch). Rule them all out and the flood is proven.
+
 ## How This Drives the Flood Arc
 
 The terrain feature at the centre of the flood arc: a **sandstone ridge separates the [old-village](../locations/old-village-ruins.md) valley (the lower basin, the natural sink) from the [%NEW_VILLAGE%](../locations/wojewodas-house.md) valley (on the river's flood path).** The ridge has a **natural water-gap (przełom)** through it at a low shale saddle — and that gap has been **plugged by an old landslide.**
@@ -39,3 +49,5 @@ The terrain feature at the centre of the flood arc: a **sandstone ridge separate
 - Bieszczadzki Park Narodowy — Położenie, rzeźba i sieć rzeczna (ladder ridges, trellis rivers, water-gaps): https://www.bdpn.pl/index.php?option=com_content&task=view&id=13&Itemid=27
 - Jeziorka Duszatyńskie / osuwisko Zwiezło (1907 landslide dam): https://pl.wikipedia.org/wiki/Jeziorka_Duszaty%C5%84skie
 - Jezioro osuwiskowe (landslide-dam lakes, general): https://pl.wikipedia.org/wiki/Jezioro_osuwiskowe
+- Jezioro zaporowe / przelanie przez próg (spillway, overflow): https://pl.wikipedia.org/wiki/Jezioro_zaporowe
+- Przełomy rzeczne, w tym przełom przelewowy (overflow gorge cut by a spilling lake): https://www.naukowiec.org/wiedza/geografia/przelomy-rzeczne_2959.html

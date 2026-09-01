@@ -85,6 +85,12 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 - **Outcome:** He recognizes the speech as like Babcia's and like the lady's. He repeats softer words from an old woman in the forest who has been kind to him.
 - **Gives:** [hag-exists](../clues/clues.md#hag-exists)
 
+### The place you can't get through
+- **Requires:** Playing or talking with Pawełek about the forest
+- **Cost:** Free
+- **Outcome:** He mentions, offhand, that you can't get through the notch in the hill anymore because it all fell down in a big pile of rocks. The lady showed him.
+- **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
+
 ### Play with Pawełek
 - **Requires:** Nothing
 - **Cost:** 1 action

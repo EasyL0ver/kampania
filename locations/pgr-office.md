@@ -19,6 +19,7 @@
 ## Opportunities
 
 - **Maps on the desk** `(requires: Geology)` — The topographic maps mark %OLD_VILLAGE%. → Gives: [old village was Lemko](../clues/clues.md#old-village-was-lemko)
+- **Read the topographic map** `(requires: Bureaucracy)` — The map draws the ridge water-gap as an open channel, shows %NEW_VILLAGE% above the flood line, and draws a bridge spanning dry ground with the river running elsewhere. → Gives: [map-shows-gap-open](../clues/clues.md#map-shows-gap-open), [new-village-sits-above-flood-line](../clues/clues.md#new-village-sits-above-flood-line), [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land)
 
 ## Actions
 
@@ -45,6 +46,18 @@
 - **Cost:** 1 action per call
 - **Outcome:** Players can call prof. Tadeusz Bieńkowski, dr Leon Sawicki, or district authorities, subject to game state.
 - **Gives:** [phone is lifeline](../clues/clues.md#phone-is-lifeline); Scene Unlock: outside calls through the office phone.
+
+### Call the survey archive
+- **Requires:** Phone access (monitored if Zbigniew Gajda is present)
+- **Cost:** 1 action per call
+- **Outcome:** The district survey archive confirms the previous crew filed a thin report, drove only a handful of stakes, and closed the job early. The official survey behind the flood projection was never properly done.
+- **Gives:** [survey-was-faked](../clues/clues.md#survey-was-faked)
+
+### Date the map against the ground
+- **Requires:** The topographic map, and knowledge that the gap is blocked or the river has shifted ([landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), [gap-is-blocked](../clues/clues.md#gap-is-blocked), or [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map))
+- **Cost:** 1 action
+- **Outcome:** The map's survey date predates the landslide and the river's shift. It cannot be trusted on the gap or the river's course.
+- **Gives:** [map-is-outdated](../clues/clues.md#map-is-outdated)
 
 ### Inspect the PGR ledger
 - **Requires:** Committee census work

@@ -34,7 +34,7 @@
 
 ## Opportunities
 
-- **The plan is sound** `(requires: Handiwork or Geology or holding [`flood-cause-plugged-gap`](../clues/clues.md#flood-cause-plugged-gap))` — The plug dooms the village, the debris is breachable, and floodwater will widen a breach. → Gives: [`flood-cause-plugged-gap`](../clues/clues.md#flood-cause-plugged-gap)
+- **The plan is sound** `(requires: Handiwork or Geology or holding [`gap-is-blocked`](../clues/clues.md#gap-is-blocked))` — The plug dooms the village, the debris is breachable, and floodwater will widen a breach. → Gives: [`gap-is-blocked`](../clues/clues.md#gap-is-blocked)
 - **The ordnance risk** `(requires: Handiwork or History)` — Twenty-year-old buried munitions may detonate from a knock, drop, spark, or heat.
 - **Pytlak's state** `(requires: Medicine)` — [Michał Pytlak](../characters/foreman.md)'s lack of sleep, food, cold response, and pain response is not normal endurance.
 - **Zofia at the edges** `(requires: Empathy)` — [Zofia Pytlak](../characters/zofia.md) is weighing the village against her husband.

@@ -26,6 +26,7 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 
 - **[Stanisław Rezeń](butcher.md)** — I know the local boy who helped the soldiers in 1947. I have watched his footprints at the well for twenty years.
 - **[%OLD_VILLAGE%](../locations/old-village-ruins.md)** — My dead are there. The stones remember more honestly than the living.
+- **[%NEW_VILLAGE%](../locations/village-outskirts.md)** — The river wants its old bed back. The hill came down in the notch and stopped it, so the water climbs to where the houses are.
 - **`dmytro-kosach`:** Say his name correctly or do not say it. He was loved, and he died with the rest.
 - **`hag-tends-the-well`:** I do what no one else will do. The dead need names, fire, bread, honey, and prayer.
 
@@ -42,6 +43,12 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 - **Cost:** 1 action
 - **Outcome:** She shows the cabin without fuss: a tiny hut she built and has lived in for twenty years.
 - **Gives:** Property record — [Hag's cabin](../locations/hags-cabin.md), hers by occupation, no title.
+
+### The land remembers the water
+- **Requires:** Bond with Paraskewia Chyłak
+- **Cost:** 1 action
+- **Outcome:** She has watched this ground for twenty years. In her own terms she says the river wants its old bed back, that its course shifted, and that a slide came down and closed the notch in the ridge. She has nothing to say about the far-ridge streambed.
+- **Gives:** [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map); [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 
 ## Bond
 

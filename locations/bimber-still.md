@@ -27,6 +27,7 @@
 - **Sugar sacks** `(requires: Bureaucracy or Finesse)` — The sugar supply traces to [Helena Rzepka](../characters/matrona.md)'s [store](the-store.md), which means she profits from the operation. → Gives: [bimber-still](../clues/clues.md#bimber-still)
 - **No deeper cache** `(requires: Finesse and searched the site)` — The site is exactly what it looks like: moonshine production, not a murder cache. → Gives: [bimber-still](../clues/clues.md#bimber-still)
 - **Carpet of cheap butts** `(requires: Finesse, Survival, or Chainsmoker)` — The ground is littered with butts, all the cheapest Sport, [Tadek](../characters/wujas.md)'s brand. Nothing premium here, no Carmen: the brand marks the man. → Gives: [tadek-smokes-cheapest](../clues/clues.md#tadek-smokes-cheapest)
+- **The last survey crew** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek)` — The crew laugh about the state surveyors who came before: they drank more than they measured, drove a few stakes, and left early. A geologist in the party gets ribbed for it, "so you like a drink too, eh?" → Gives: [survey-was-faked](../clues/clues.md#survey-was-faked)
 
 ## Actions
 

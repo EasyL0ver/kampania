@@ -48,7 +48,7 @@
 - **Requires:** Nothing
 - **Cost:** 1 action
 - **Outcome:** The committee finds [Michał Pytlak](../characters/foreman.md) knee-deep in floodwater, directing workers, hauling sandbags, and explaining that explosives can reopen the plugged water-gap above the village.
-- **Gives:** [`flood-cause-plugged-gap`](../clues/clues.md#flood-cause-plugged-gap); Scene Unlock: [Michał Pytlak Saves the Village](foreman-saves-village.md)
+- **Gives:** [`gap-is-blocked`](../clues/clues.md#gap-is-blocked); Scene Unlock: [Michał Pytlak Saves the Village](foreman-saves-village.md)
 
 ### Talk to Zofia Pytlak
 - **Requires:** Listening.

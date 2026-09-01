@@ -28,6 +28,7 @@
 - The water table is rising.
 - Cellars are filling.
 - The ground is saturated.
+- Surveyors' stakes marking the projected flood line run across the %NEW_VILLAGE% slope, and the water is already climbing past them.
 - The committee is outside the village's normal flood-response machinery.
 
 ## Opportunities
@@ -36,6 +37,7 @@
 - **The office phone** `(requires: Finesse)` — [Zbigniew Gajda](../characters/wojewoda.md) offers access and stays close enough to hear what is reported. → Gives: [`phone-is-lifeline`](../clues/clues.md#phone-is-lifeline)
 - **The village response** `(requires: Finesse)` — Zbigniew gives quiet orders, [Pytlak](../characters/foreman.md) runs the PGR response, and villagers ignore outsider attempts to lead.
 - **The rising water table** `(requires: Handiwork and prior visit to [%OLD_VILLAGE%](../locations/old-village-ruins.md))` — the well at the old village is filling too. → Gives: [`old-village-flooding`](../clues/clues.md#old-village-flooding)
+- **The line is already passed** `(requires: nothing)` — On the slope the water has climbed about a metre above the surveyors' marked flood line, the level the plan calls safe. → Gives: [`water-tops-the-flood-line`](../clues/clues.md#water-tops-the-flood-line)
 
 ## Actions
 

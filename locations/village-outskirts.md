@@ -21,6 +21,9 @@
 - [%OLD_VILLAGE%](old-village-ruins.md) lies in the lower valley beyond a sandstone ridge.
 - The map marks a water-gap through the ridge between the new-village valley and old-village basin.
 - The marked water-gap is blocked by loose earth and broken rock from an old landslide.
+- A far ridge across the valley carries an old dry streambed that appears to spill toward the next valley.
+- Survey crews left stamped benchmark markers (repery) at the streambed col and beside %NEW_VILLAGE%.
+- The wojewoda's new bridge spans the river's present bed; on the map that ground is drawn dry, with the river on its old course.
 - The southern approach slopes down into a long mild depression.
 - The survey route can pass the old village ruins.
 - One route passes the last house before the treeline, [Stanisław Rezeń](../characters/butcher.md)'s house.
@@ -31,6 +34,8 @@
 - **Spot the old village** `(requires: Survival on a survey route)` — Stone ruins are visible through the trees. → Gives: [old village was Lemko](../clues/clues.md#old-village-was-lemko), [old village was burned](../clues/clues.md#old-village-was-burned)
 - **Spot Butcher at his house** `(requires: Finesse on the route past [Stanisław Rezeń](../characters/butcher.md)'s house)` — Rezeń is alone near the treeline and using the same direction repeatedly. → Gives: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
 - **Spot the drinking crew heading into the forest** `(requires: Survival near the treeline track)` — Tadek Gajda and the crew carry bottles toward the forest. → Gives: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
+- **See the landslide plug** `(requires: Survival on a survey route)` — The notch in the ridge is choked with fallen rock and earth. → Gives: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
+- **The river isn't where the map draws it** `(requires: observation comparing map to ground)` — The wojewoda's bridge spans running water, but the map shows that ground dry and the river on its old course. → Gives: [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map)
 
 ## Actions
 
@@ -58,11 +63,21 @@
 - **Outcome:** %NEW_VILLAGE% sits above the flood line on firm ground if water can drain through the mapped ridge gap.
 - **Gives:** [new-village-sits-above-flood-line](../clues/clues.md#new-village-sits-above-flood-line)
 
-### Survey the ridge and the gap
-- **Requires:** Geological knowledge and a reason to inspect the gap: the marked water-gap, Michał Pytlak's hint, [prof. Bieńkowski](../characters/professor.md#call-him-for-help--where-to-look), or the visible landslide plug
+### Climb to the landslide plug
+- **Requires:** Physically climbing to the plug in the ridge water-gap (visible from the survey routes)
 - **Cost:** 1 action
-- **Outcome:** The mapped water-gap is plugged by an old landslide; floodwater cannot drain into the lower basin and backs up onto %NEW_VILLAGE%.
-- **Gives:** [New Village will flood](../clues/clues.md#new-village-will-flood); [flood-cause-plugged-gap](../clues/clues.md#flood-cause-plugged-gap); Scene Unlock: "Tell Wojewoda with geological proof" at the [PGR office](pgr-office.md); Scene Unlock: [Foreman Saves the Village](../events/foreman-saves-village.md)
+- **Outcome:**
+  - With Geology: you read the fill on-site. It is impermeable; water will not pass. You conclude it yourself.
+  - Without Geology: you describe the fill to [prof. Bieńkowski](../characters/professor.md) by phone, who certifies that the plug will not drain.
+- **Gives:** [gap-is-blocked](../clues/clues.md#gap-is-blocked); Scene Unlock: [Foreman Saves the Village](../events/foreman-saves-village.md)
+
+### Read the streambed benchmarks
+- **Requires:** Finding the reper markers at the far-ridge streambed col and beside %NEW_VILLAGE%
+- **Cost:** 1 action
+- **Outcome:**
+  - With Geology: you read the two stamped elevations and conclude the col sits above house level, so the rising water tops the village before it reaches the streambed.
+  - Without Geology: you copy the figures and report them to [prof. Bieńkowski](../characters/professor.md) by phone, who certifies the streambed is no outlet.
+- **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 
 ### Wander the forest
 - **Requires:** Nothing

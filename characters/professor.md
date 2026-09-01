@@ -24,23 +24,24 @@ He speaks rapidly and precisely, in the clipped cadence of a lecturer who assume
 
 ## Opinions
 
-- **[%NEW_VILLAGE%](../locations/village-outskirts.md)** — The map says it should stay dry only if the ridge gap drains. If that gap is closed, the whole projection fails.
+- **[%NEW_VILLAGE%](../locations/village-outskirts.md)** — The projection holds only if the valley can drain. I know of two outlets, the ridge gap and the old far-ridge streambed. If both are closed, the village is in the flood zone. I cannot prove it from Kraków; someone has to check them on the ground.
+- **The previous survey:** That report is thin. Too few stations, too much taken on faith. I would not trust the number behind it.
 - **`new-village-will-flood`:** Then the suspicion was right, and the official map is wrong where it matters most.
-- **`flood-cause-plugged-gap`:** That is the mechanism. With that measurement, I can document the error and carry it outside the valley.
+- **`gap-is-blocked`:** One outlet gone. A landslide plug where the map shows a drain. Describe the fill and I can document the error.
 
 ## Actions
 
 ### Call him for help — where to look
 - **Requires:** A phone (his number routes through the [exchange](secondary-characters.md#operator-the-telephone-exchange-operator), like every outside call), and enough to make him listen — a reason to think the state's map is wrong
 - **Cost:** 1 action
-- **Outcome:** The party describes the two valleys and the ridge between them. He identifies the decisive question: whether the water can still drain through the gap in that ridge.
-- **Gives:** Scene Unlock: **"Survey the ridge and the gap"** at the [village outskirts](../locations/village-outskirts.md); NPC State Change: he is engaged and waiting for the ridge measurement.
+- **Outcome:** The party describes the two valleys and the ridge between them. He names the two outlets he knows, the ridge gap and the old far-ridge streambed, and asks the party to check whether water can still get out through either. He warns that the [previous crew's survey report](../items/previous-survey-report.md) in their dossier is thin and should not be trusted. He has never heard of the PGR irrigation ditch.
+- **Gives:** Scene Unlock: **"Climb to the landslide plug"** and **"Read the streambed benchmarks"** at the [village outskirts](../locations/village-outskirts.md); NPC State Change: he is engaged and waiting for the field readings.
 
-### Call him back — the truth about the ridge
-- **Requires:** A phone, and the ridge survey done — the party has measured the plug and holds [flood-cause-plugged-gap](../clues/clues.md#flood-cause-plugged-gap) (and [New Village will flood](../clues/clues.md#new-village-will-flood))
+### Call him back — certify the flood
+- **Requires:** A phone, and the party has ruled out all three outlets: holds [gap-is-blocked](../clues/clues.md#gap-is-blocked), [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing), and [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 - **Cost:** 1 action
-- **Outcome:** He records the number, date, and the party as his source. He confirms that a landslide plug where the map shows a drain means the state's projection is dead wrong.
-- **Gives:** NPC State Change: he becomes the off-site lifeline; World State Change: the flood truth exists outside the village; Ending Progress: the outside world can learn what the state buried through [phone-is-lifeline](../clues/clues.md#phone-is-lifeline) and [The Report](../events/the-report.md).
+- **Outcome:** He takes the three findings, records the date and the party as his source, and confirms the valley has no outlet below house level. The projection is dead wrong: %NEW_VILLAGE% will flood.
+- **Gives:** [new-village-will-flood](../clues/clues.md#new-village-will-flood); NPC State Change: he becomes the off-site lifeline; World State Change: the flood truth exists outside the village; Ending Progress: the outside world can learn what the state buried through [phone-is-lifeline](../clues/clues.md#phone-is-lifeline) and [The Report](../events/the-report.md).
 
 ## Bond
 

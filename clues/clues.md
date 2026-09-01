@@ -389,10 +389,46 @@ PGR workers exchange glances when asked about accidents. "The barn's been fixed 
 ## The Flood & The Committee
 
 ### new-village-will-flood
-The survey at the village outskirts confirms it: %NEW_VILLAGE% will flood. Hard data — water table measurements, rock composition, flood projections. Not speculation, proof.
+%NEW_VILLAGE% will flood. When the reservoir rises, the valley has no outlet below house level. The ridge water-gap, the PGR irrigation ditch, and the old far-ridge streambed all fail to carry the water off, so it backs up onto the houses. This is proof, not speculation.
 
-### flood-cause-plugged-gap
-A ridge separates the low old-village valley from %NEW_VILLAGE%. The state's map shows a water-gap through that ridge as open — but an old landslide has plugged it with loose debris. The floodwater can't drain through to the low basin, so it backs up onto %NEW_VILLAGE% instead. The map was right when drawn and went obsolete when the slide closed the gap. Reopening the gap would send the water where the map always assumed it went.
+### three-candidate-drains
+The %NEW_VILLAGE% valley has exactly three candidate outlets for floodwater: the ridge water-gap, the PGR irrigation ditch, and the old far-ridge streambed. If all three fail to drain below house level, the village floods.
+
+### gap-is-blocked
+A ridge separates the low old-village valley from %NEW_VILLAGE%. The state map shows a water-gap through that ridge as an open drain, but an old landslide has plugged it with impermeable fill. Floodwater cannot pass through to the low basin. It is one of the three outlets the valley needs, and it is sealed.
+
+### ditch-drains-nothing
+The PGR irrigation ditch cannot carry the floodwater off. At flood volume it backs up and overflows; it is far too small to drain the valley.
+
+### ditch-not-built-to-spec
+The irrigation ditch matches its concrete-lined specification only for its first short stretch near the fields. Past that it degrades to a shallow, unlined dugout for most of its length. Inspecting only the head gives a false impression of a sound channel.
+
+### streambed-dead-ends
+The old streambed on the far ridge is not an outlet. Its col sits above house level, so the rising water tops %NEW_VILLAGE% before it ever reaches that streambed.
+
+### streambed-never-drained
+The old far-ridge streambed has never carried water off, even in the worst floods within living memory. Water pools against the rock there and stops.
+
+### landslide-in-the-gap
+A landslide sits in the ridge water-gap, filling the notch with fallen rock and earth.
+
+### river-doesnt-match-map
+The river no longer runs where the map draws it. Its course has shifted: the wojewoda's bridge spans the river's new bed, while the map shows that ground dry and the river running elsewhere. The old course drawn on the map is now dry.
+
+### bridge-over-solid-land
+On the state map, a bridge is drawn spanning dry ground while the river is drawn running elsewhere. The map contradicts itself.
+
+### map-shows-gap-open
+The state map draws the ridge water-gap as an open channel, an outlet for the valley's water.
+
+### map-is-outdated
+The state map predates the landslide that plugged the gap. It cannot be trusted on the gap or on the river's course.
+
+### survey-was-faked
+The crew sent to re-check the terrain never properly surveyed it. They drove a few stakes, took the wojewoda's ditch on faith, dismissed the changed river, and filed a thin report. The official survey behind the flood projection is worthless.
+
+### water-tops-the-flood-line
+During the Day 3 storm, water on the %NEW_VILLAGE% slope climbs about a metre above the surveyors' marked flood line. The projected safe level is already being exceeded.
 
 ### southern-approach-safe
 The land south of %NEW_VILLAGE% runs down into a long, mild depression — the obvious place for a rising river to spread. The survey confirms the map: water reaching it stays shallow and drains off, never climbing to the houses. From the south, the village is safe.

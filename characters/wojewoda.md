@@ -45,6 +45,8 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **`irena-is-watchful`** — "Irena listens at doors when strangers are in the house. She worries; that is all. Don't read into a woman standing in her own hallway."
 - **`junior-drinks-with-crew`** — "He drinks with his uncle's crowd. He's young; every young man does something to spite his father. It's nothing."
 - **`wujas-misses-someone`** — "My brother gets sentimental in his cups. Old sweethearts, old songs — drunks always weep for something. It means nothing."
+- **[%NEW_VILLAGE%](../locations/village-outskirts.md)** — "It sits above the flood line, on the plan and in fact. The state left us a concrete drain off the fields; when the water rises, the ditch carries it away. Let it come."
+- **`ditch-drains-nothing`** — "Nonsense. I walked that channel myself: good concrete, built to the plan. You saw one muddy stretch downstream and lost your nerve."
 
 ## Mechanics
 
