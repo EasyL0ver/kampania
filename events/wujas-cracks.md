@@ -29,7 +29,7 @@
 ## Opportunities
 
 - **Close to breaking** `(requires: Empathy)` — he is not performing drunkenness; he is losing control of the secret. → Gives: [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
-- **Mourning a woman** `(requires: Empathy or Physique)` — his fragments circle one woman and one night. → Gives: [`wujas-mourns-someone`](../clues/clues.md#wujas-mourns-someone)
+- **Missing a woman** `(requires: Empathy or Physique)` — his fragments circle one woman and one night. → Gives: [`wujas-misses-someone`](../clues/clues.md#wujas-misses-someone)
 - **Blackmail story cracks** `(requires: jagna-knew-the-secret and Empathy)` — his guilt focuses on the fact that Hania never used what she knew. → Gives: [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret)
 
 ## Actions

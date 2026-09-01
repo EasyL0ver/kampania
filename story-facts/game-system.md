@@ -327,6 +327,12 @@ Violence. The well confrontation (fighting Rezeń, grabbing the hag and running 
 
 **Without treatment:** You can still talk, investigate, interview, observe. You can do everything a government clerk does sitting down. You just can't run, fight, or endure. And you're dying slowly.
 
+## Bruised (TBD)
+
+**TBD.** A lighter condition than Wounded, for fights that aren't meant to kill — a fistfight, a drunk brawl, being shoved around. Bruised is not bleeding out and carries no death clock. Used by [Caught at the Still](../events/caught-at-the-still.md).
+
+Open: what Bruised actually costs (temporary Violence/Endurance penalty? a composure tax? clears on its own by next day?). Not yet defined.
+
 ## Endings
 
 Each ending has its own prerequisite chain. They stack — the perfect run completes all four.

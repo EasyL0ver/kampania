@@ -184,6 +184,9 @@ It was [Stanisław Rezeń](../characters/butcher.md) who put [Edward Barnaś](..
 ### neighbour-heard-the-lynch
 [Ryszard Dudka](../characters/neighbour.md) heard everything from next door — screaming, shouting, dogs. Possibly saw men dragging bodies toward [%OLD_VILLAGE%](../locations/old-village-ruins.md). Closed the curtain and never spoke.
 
+### neighbour-is-rattled
+[Ryszard Dudka](../characters/neighbour.md) drinks too fast and shuts down whenever the past comes up. Something about the old days frightens him.
+
 ### butcher-stopped-drinking-1954
 Stanisław Rezeń stopped drinking in 1954 — abruptly, completely. Something happened that year.
 
@@ -276,8 +279,8 @@ Someone is helping [Barbara Kopacz](../characters/barbara.md). The house, the fi
 ### flour-tin-evidence
 [Irena Gajda](../characters/wife.md) keeps her evidence in a flour tin in the pantry — a stained shirt, a mismatched button, newspaper clippings, handwritten notes. Looks like a cover-up dossier. Could be building a case *against* [Zbigniew Gajda](../characters/wojewoda.md) or *for* him — players can't tell.
 
-### junior-is-false-suspect
-[Marek Gajda](../characters/junior.md) looks like the problem — violent record, sneaking around at night — but he's his mother's field agent, not his father's cover-up operative. His brawl record is real but unrelated.
+### junior-drinks-with-crew
+[Marek Gajda](../characters/junior.md) drinks with [Tadek Gajda](../characters/wujas.md)'s crew away from his father — a rebellious kid blowing off the sołtys, not a man on cover-up business.
 
 ### wujas-is-guilty
 Tadek Gajda is guilty of something terrible. He's been drinking to forget for 13 years and the guilt is visibly destroying him.
@@ -299,6 +302,9 @@ Tadek Gajda is guilty of something terrible. He's been drinking to forget for 13
 
 ### ciotka-not-mother
 [Janina Gajda](../characters/ciotka.md) is not [Edek Barnaś](../characters/glupek.md)'s biological mother. She claimed motherhood on paper, but the village knows better.
+
+### ciotka-avoids-family
+[Janina Gajda](../characters/ciotka.md) keeps her distance from the family. She begs off gatherings and stays anxious around her siblings — the avoidance is hers, not theirs.
 
 ### glupek-fears-butcher
 [Edek Barnaś](../characters/glupek.md) flinches instinctively from [Stanisław Rezeń](../characters/butcher.md). No conscious memory — just a body that knows. When [Stanisław Rezeń](../characters/butcher.md)'s dogs bark, [Edek Barnaś](../characters/glupek.md) hides.
@@ -336,14 +342,11 @@ Ryszard Dudka knows something about where Edek came from. He deflects when the t
 ### church-too-nice
 The church is too well-maintained for a village this size — fresh repairs, good supplies, ample firewood. Someone is funding it beyond what the parish can afford.
 
-### wujas-mourns-someone
-When drunk enough, Tadek Gajda's fragments turn darker. Half-sentences about a woman, about something lost. He mourns someone specific — and regrets something he did.
+### wujas-misses-someone
+When drunk enough, Tadek Gajda's fragments turn to longing. Half-sentences about a woman, a name he won't finish, someone he lost long ago. He misses her badly.
 
-### irena-is-tense
-Irena Gajda hosts with grace but something is tight behind the hospitality. She's aware of more than she shows.
-
-### wife-eavesdrops
-Someone is listening at the door during conversations with the sołtys — a shadow, a floorboard creak. The wife is monitoring what's discussed.
+### irena-is-watchful
+Irena Gajda hosts with grace but something is tight behind the hospitality. She listens at doors during conversations with the sołtys — a shadow, a floorboard creak — and tracks the committee more closely than she lets on. She's aware of more than she shows.
 
 ### wife-protects-husband
 [Irena Gajda](../characters/wife.md) has realized [Zbigniew Gajda](../characters/wojewoda.md) took part in the 1954 killing. Rather than expose him, she has closed ranks with him. She has stopped investigating, shut the household, and will keep Zbigniew from confessing — even when he wants to.
@@ -461,6 +464,9 @@ Villagers blame [Paraskewia Chyłak](../characters/hag.md) for the wolf attacks.
 ### foreman-coverup
 [Michał Pytlak](../characters/foreman.md) and [Zbigniew Gajda](../characters/wojewoda.md) covered up a preventable death on the PGR farm. Tadeusz Mazur died ~1965 — never reported to the state. His wages still flow to [Wanda Mazur](../characters/widow.md) as a fake "widow's pension." She doesn't know. The village doesn't know the death was never filed. Same mechanism as the lynch: bury the truth, keep outsiders away.
 
+### pgr-books-are-sketchy
+The crew grumbles that the PGR's books don't add up — pay for people who aren't around, [Michał Pytlak](../characters/foreman.md) and the sołtys keeping the ledgers close. Loose drunk talk, no specifics.
+
 ### wojewoda-talks-to-sb
 [Zbigniew Gajda](../characters/wojewoda.md) meets privately with [the man in the black car](../characters/officer.md) every time he comes — the sołtys reports to the SB. He is the state's ear in the village.
 
@@ -472,6 +478,12 @@ Traces of old wartime positions in the forest — collapsed dugouts, rusted meta
 
 ### bimber-still
 [Tadek Gajda](../characters/wujas.md)'s crew runs an illegal bimber still in the [forest](../locations/old-village-ruins.md), halfway between the villages. Just moonshine — not the murder conspiracy. [Zbigniew Gajda](../characters/wojewoda.md) knows and tolerates it. [Helena Rzepka](../characters/matrona.md) supplies sugar through the store.
+
+### still-is-their-livelihood
+The crew guards the still because it is what carries them through the winter, not because it hides anything worse. Their fear is losing it, nothing more.
+
+### crew-may-turn-violent
+Cornered and drunk, the still crew will come to blows if pushed — Franek Mucha throws the first punch.
 
 ### store-has-drug-cabinet
 [Helena Rzepka](../characters/matrona.md)'s [store](../locations/the-store.md) has a locked pharmaceutical cabinet — a *szafka apteczna*, standard PRL distribution point. Helena holds the only key. [Halina](../characters/secondary-characters.md) can't open it.

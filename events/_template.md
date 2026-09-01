@@ -47,6 +47,13 @@
 
 <!-- Format: actions-and-opportunities.md -->
 
+## Mechanics
+
+<!-- Optional. Only include if the event has a self-contained rule that governs
+     how its actions resolve — a fight resolved by counting fighters, a timed
+     escape, a vote. Keep it to the rule itself; the actions above reference it.
+     Omit the section entirely if the event has no special resolution rule. -->
+
 ## Exits
 
 <!-- Events only. Where players go after — link to the scenes/locations. -->

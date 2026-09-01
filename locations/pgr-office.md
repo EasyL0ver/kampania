@@ -37,7 +37,7 @@
 ### Tell Wojewoda about the flood
 - **Requires:** [New Village will flood](../clues/clues.md#new-village-will-flood)
 - **Cost:** 1 action
-- **Outcome:** Resolve through [Zbigniew Gajda — Tell about the flood risk](../characters/wojewoda.md#tell-about-the-flood-risk) or [Tell with geological proof](../characters/wojewoda.md#tell-with-geological-proof).
+- **Outcome:** Resolve through [Tell Wojewoda about the flood risk](../events/arrival.md#tell-wojewoda-about-the-flood-risk) or [Tell with geological proof](../characters/wojewoda.md#tell-with-geological-proof).
 - **Gives:** NPC State Change: Zbigniew Gajda has been formally warned about the flood risk.
 
 ### Use the phone

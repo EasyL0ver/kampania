@@ -25,14 +25,21 @@ At home she moves around Edek with practiced care. In public she makes herself s
 
 ## Opinions
 
-- **[Edek Barnaś](glupek.md)** — My boy. I have raised him for seventeen years, and every day in this house is punishment and purpose both.
-- **[Stanisław Rezeń](butcher.md)** — I stopped him killing my boy that night. I lock my door because of him, and he keeps proving that my fear is enough for him.
-- **[ks. Władysław Pająk](priest.md)** — My confessor. I trust him because I need absolution, and I do not realize how much I have told him.
-- **[Zbigniew Gajda](wojewoda.md)** — My brother. I obey because obedience is the price of keeping my boy safe.
-- **[Helena Rzepka](matrona.md)** — She keeps me in line with looks and silences. She could take everything with a word.
-- **[Tadek Gajda](wujas.md)** — My youngest brother can barely look at me. Good. It should hurt to see Edek.
-- **`ciotka-not-mother`:** I am his mother. Dudka is lying, and I will not speak to anyone again today.
-- **`wujas-is-guilty`:** He's my brother. He's not a bad man, and I will not give strangers more than that.
+- **[Edek Barnaś](glupek.md)** — "He's my son. He needs looking after, and I look after him. That's all there is to it."
+- **[Stanisław Rezeń](butcher.md)** — "The butcher keeps to himself. I don't have dealings with him."
+  - *(Bond):* "I lock my door because of that man. Don't ask me why. Please." → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+- **[ks. Władysław Pająk](priest.md)** — "The priest is a good man. I go to him for confession, like anyone."
+- **[Zbigniew Gajda](wojewoda.md)** — "My brother is the sołtys. He has been good to me — the house, the boy. I do as he asks."
+- **[Helena Rzepka](matrona.md)** — "Helena runs the store. We're sisters. We manage."
+- **[Tadek Gajda](wujas.md)** — "Tadek drinks too much. He's still family."
+- **`ciotka-not-mother`** — "I am his mother. Whoever told you otherwise is lying, and I'll not speak of it again today."
+- **`wujas-is-guilty`** — "He's my brother. He's not a bad man, and I'll not give strangers more than that."
+- **`ciotka-avoids-family`** — "I keep busy with Edek and the house. It's hard to get away for gatherings."
+  - *(Bond):* "I can't sit at that table. It isn't for the boy's sake. It's mine." → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
+
+## Opportunities
+
+- **The flinch at family** `(requires: brought up her siblings and Read)` — every mention of her siblings pulls her tight; she changes the subject, hands busy. The distance is hers and it costs her. → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
 
 ## Actions
 

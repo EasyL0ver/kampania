@@ -14,12 +14,10 @@
 - **Use:** Warm ashes show recent use.
 - **Use:** Fermentation smell is strong.
 - **Path:** A packed footpath leads in from %NEW_VILLAGE%.
-- **Supplies:** Sugar sacks are stamped with marks from [Helena Rzepka](../characters/matrona.md)'s [store](the-store.md).
 - **Scale:** The number of barrels and bottles exceeds personal drinking.
 - **If crew present:** The men sit around the fire with bottles and cards.
 - **If crew present:** The crew hears visitors before seeing them.
 - **If crew absent:** Fresh boot prints, warm ashes, and half-full bottles remain.
-- **Position:** The still is not near [Paraskewia Chyłak](../characters/hag.md)'s cabin or the well.
 - **Negative evidence:** No weapons, documents, hidden room, or grave are visible here.
 
 ## Opportunities
@@ -30,23 +28,11 @@
 
 ## Actions
 
-### Walk in on the crew
-- **Requires:** Crew present
+### Sit down and drink with the crew
+- **Requires:** Crew present; Drink or Alcoholic; hands off the still
 - **Cost:** 1 action
-- **Outcome:** The crew treats the committee as a threat to the still; Tadek panics, Szymek intimidates, Romek watches, and Franek moves to block the path.
-- **Gives:** World State Change: Tadek's crew knows the committee found the still; NPC State Change: Tadek's crew becomes hostile and guarded toward the players.
+- **Outcome:** The committee takes the offered bottle and makes it clear they are not here to shut the still down. The crew relaxes and the night turns into a session. Tadek warms to whoever kept pace without judging him.
+- **Gives:** NPC State Change: the drinking PCs become Tadek's [drinking buddies](../characters/wujas.md#drinking-buddy).
 
-### Use the still as leverage on Tadek
-- **Requires:** Found the still and can confront [Tadek Gajda](../characters/wujas.md)
-- **Cost:** 1 action
-- **Outcome:** The players use the still as pressure; see [Tadek Gajda — Leverage — the bimber play](../characters/wujas.md#leverage--the-bimber-play).
-- **Gives:** [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
-
-### Stake out the crew late in the game
-- **Requires:** Crew present or expected; late well influence active
-- **Cost:** 1 action
-- **Outcome:** Tadek mutters names, fragments, a woman, and something lost while drunk or half-asleep by the fire.
-- **Gives:** [wujas-mourns-someone](../clues/clues.md#wujas-mourns-someone)
-
-
+<!-- Arriving while the crew is present fires the event [Caught at the Still](../events/caught-at-the-still.md). -->
 

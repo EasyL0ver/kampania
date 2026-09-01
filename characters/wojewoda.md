@@ -26,26 +26,35 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 
 ## Opinions
 
-- **[Irena Gajda](wife.md)** — I underestimated her for thirteen years. When she learns what I did and chooses me anyway, the wife I dismissed becomes the one person who can keep my mouth shut.
-- **[Marek Gajda](junior.md)** — He is my son, and I am proud of him in a complicated way. I worry when he drifts toward Tadek because loose words around that boy could cost us everything.
-- **[Helena Rzepka](matrona.md)** — She is the sibling I respect most and fear slightly. I manage the village; she manages the story.
-- **[Tadek Gajda](wujas.md)** — He is my brother and my liability. I tolerate the [bimber operation](../story-facts/bimber-operation.md) because it keeps him occupied.
-- **[Stanisław Rezeń](butcher.md)** — He is the thing I contain. As long as my authority holds, he stays at the edge where I put him.
-- **[por. Witold Skowron](officer.md)** — He is my handler. I report upward, follow instructions, and do not ask questions I do not want answered.
-- **[ks. Władysław Pająk](priest.md)** — We share order, meals, and business, but not trust. I keep the church useful through the [PGR](../locations/pgr-farm.md), and he takes what that buys.
-- **[Hania Barnaś](jagna.md)** — Barnaś's girl knew too much. When the night came, I did not stop it.
-- **`ciotka-not-mother`:** Janina is his mother. I signed the papers myself, and that is the end of it.
-- **`wujas-is-guilty`:** My brother drinks; that is not a crime. Leave him alone.
+- **[Irena Gajda](wife.md)** — "My wife. Thirteen years, and she still keeps a good house. Leave her out of committee business."
+  - *(Bond):* "I'll be honest — I've waved off my wife's opinions for years. Habit. She's a clever woman and I didn't always treat her like one."
+  - *(Braced):* "I used to brush past what Irena thought. Not anymore. She's the sharpest person in this house, and I've finally the sense to listen to her."
+- **[Marek Gajda](junior.md)** — "My son. He has a temper and too much time. He'll settle when he grows up."
+- **[Helena Rzepka](matrona.md)** — "My sister runs the store and half the village with it. A capable woman. We don't always agree."
+  - *(Bond):* "Helena decides what this village remembers. I keep order; she keeps the story. I don't always know which of us is in charge."
+- **[Tadek Gajda](wujas.md)** — "My brother drinks. He's harmless. I keep an eye on him because family is family."
+  - *(Bond):* "Tadek wasn't always like this. Something broke in him and never mended. I've carried him for thirteen years and I'm tired."
+- **[Stanisław Rezeń](butcher.md)** — "The butcher keeps to himself out past the treeline. He does the work no one else will. I have no complaints."
+  - *(Bond):* "A man like that needs a firm hand and a long leash. As long as I hold this village, he stays where I've put him. Pray he stays there."
+- **[por. Witold Skowron](officer.md)** — "The lieutenant looks in from time to time. Routine. I report what there is to report."
+- **[ks. Władysław Pająk](priest.md)** — "A good priest. We keep the parish provided for through the farm. Order is worth the cost."
+- **[Hania Barnaś](jagna.md)** — "The Barnaś family? They left in '54. People do leave. I don't recall much past that."
+- **`ciotka-not-mother`** — "Janina is his mother. I signed the papers myself, and that is the end of it."
+- **`wujas-is-guilty`** — "My brother drinks; that is not a crime. Leave him alone."
+- **`church-too-nice`** — "The parish gets what it needs through the farm. A church in good repair keeps the village in order and the priest content — money well spent, not a mystery."
+- **`irena-is-watchful`** — "Irena listens at doors when strangers are in the house. She worries; that is all. Don't read into a woman standing in her own hallway."
+- **`junior-drinks-with-crew`** — "He drinks with his uncle's crowd. He's young; every young man does something to spite his father. It's nothing."
+- **`wujas-misses-someone`** — "My brother gets sentimental in his cups. Old sweethearts, old songs — drunks always weep for something. It means nothing."
 
 ## Mechanics
 
-### Day 7 State
+### Braced
 
-If [Irena reached him](../events/irena-confronts-wojewoda.md), he survives the [lynch](../events/punishment-lynch.md) with authority intact and backs an active flood response: [fight the water](../events/foreman-saves-village.md) or evacuate. If she never reached him and his authority breaks, he passively waits for the water.
+- Braced only if [Irena learns the truth and sides with him](../events/irena-confronts-wojewoda.md);.
 
 ## Opportunities
 
-- **Property suspicion** `(requires: Property assessment and flood not disclosed and no convincing cover)` — his questions turn controlled, and he starts tracking where the committee goes. See [Tell about the flood risk](#tell-about-the-flood-risk). → Gives: [`committee-hides-something`](../clues/clues.md#committee-hides-something)
+- **Property suspicion** `(requires: Property assessment and flood not disclosed and no convincing cover)` — his questions turn controlled, and he starts tracking where the committee goes. See [Tell Wojewoda about the flood risk](../events/arrival.md#tell-wojewoda-about-the-flood-risk). → Gives: [`committee-hides-something`](../clues/clues.md#committee-hides-something)
 
 ## Actions
 
@@ -66,12 +75,6 @@ If [Irena reached him](../events/irena-confronts-wojewoda.md), he survives the [
 - **Cost:** Free
 - **Outcome:** He hands over the maps because saving the village matters more than hiding the old terrain.
 - **Gives:** Item: maps useful for survey and old village navigation.
-
-### Tell about the flood risk
-- **Requires:** Nothing
-- **Cost:** Free
-- **Outcome:** He listens, asks for proof, and treats the warning as serious but unproven.
-- **Gives:** NPC State Change: Zbigniew is alert and watches where the players go; Scene Unlock: the geologist is sent to the field immediately; World State Change: no dinner event, and the committee sleeps in PGR quarters.
 
 ### Tell with geological proof
 - **Requires:** Players have completed survey at the village outskirts / field measurements

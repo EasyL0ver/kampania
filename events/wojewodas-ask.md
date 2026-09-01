@@ -6,7 +6,7 @@
 
 ## Trigger
 
-- The players complete [tell about the flood risk](../characters/wojewoda.md#tell-about-the-flood-risk) or otherwise make Zbigniew believe the flood is possible.
+- The players complete [Tell Wojewoda about the flood risk](../events/arrival.md#tell-wojewoda-about-the-flood-risk) or otherwise make Zbigniew believe the flood is possible.
 - Zbigniew learns the committee is recording property values for compensation.
 - He asks to speak with the players alone.
 

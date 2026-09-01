@@ -30,6 +30,19 @@ His raspy warm voice gets louder and funnier with drink. The morning shakes and 
 - **[Hania Barnaś](jagna.md)** — I loved her, and she never looked at me. I was one of the men who hurt her, and when she ran, I let the mountain take her.
 - **`ciotka-not-mother`:** Do not say that. Give me the bottle and talk about something else.
 
+## Mechanics
+
+### Drinking Buddy
+
+Tadek's guard only drops for people who drink with him. Unlike a [Bond](#bond), this is not exclusive and not hidden — **any** number of PCs can become drinking buddies, and a player can feel themselves being pulled into his circle.
+
+**Becoming a buddy** (GM tracks silently, no announcement):
+- Share a full drinking session with him — Drink skill or the Alcoholic card. Nursing a glass or refusing does not count. The entry point is [Drink with the crew](../locations/the-store.md#drink-with-the-crew) at the store, or drinking with him at [dinner](../events/dinner.md).
+- Do it without judging him, pulling rank, or steering straight to interrogation.
+
+One qualifying session makes a PC a drinking buddy for the rest of the game. It cannot be lost.
+
+
 ## Opportunities
 
 - **Census nerves** `(requires: Census interview and Empathy)` — he is not nervous about the census; he is nervous about being asked anything at all. → Gives: [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
@@ -37,6 +50,12 @@ His raspy warm voice gets louder and funnier with drink. The morning shakes and 
 - **Drunk property performance** `(requires: Property assessment and Tadek is drunk)` — he claims a fake grand estate made of the still, his brother's house, and moonlight.
 
 ## Actions
+
+### Get shitfaced with Tadek
+- **Requires:** [drinking buddy](#drinking-buddy)
+- **Cost:** 2 actions; 1 composure
+- **Outcome:** The committee drinks Tadek past the point of guard. He gets loud, then maudlin, and grief for a woman he won't name slips out before he can catch it.
+- **Gives:** [`wujas-misses-someone`](../clues/clues.md#wujas-misses-someone)
 
 ### Leverage — the bimber play, first visit
 - **Requires:** Players have discovered the [bimber still](../locations/bimber-still.md)
@@ -73,3 +92,9 @@ His raspy warm voice gets louder and funnier with drink. The morning shakes and 
 - [ ] Share a drink with him and match his pace — do not nurse it, do not judge.
 - [ ] Ask about his youth or his music — show genuine curiosity about who he was before the bottle.
 - [ ] Encounter his still and say nothing to anyone.
+
+## Grudge
+
+- [ ] Pour out his bottle, cut him off, or refuse to let him drink in front of you.
+- [ ] Moralise at him about the drinking — lecture, pity, or try to "fix" him.
+- [ ] Pull rank on him — threaten him with the committee's authority to make him talk.

@@ -32,15 +32,38 @@
 
 ## Opinions
 
-<!-- First-person, subjective. Written as if the character is thinking/speaking.
+<!-- The NPC's TOPIC REACTIONS — what they say when a player raises a subject.
+     These are free talking-points, part of a conversation (raising a topic
+     mid-conversation is a free follow-up, not a time action). A line may reveal
+     nothing (a deflection) or hand over a clue.
+
      Keyed three ways:
      - **[Name](file.md)** for people
      - **[Location](file.md)** for places
-     - **`clue-id`** for player-discoverable facts (reaction when it surfaces) -->
+     - **`clue-id`** for player-discoverable facts (reaction when confronted with it)
 
-- **[Name](file.md)** — [1–3 sentences, first person. "I trust him." "She scares me." Not "they have a complex relationship."]
-- **[Location](file.md)** — [1–3 sentences, first person. "I avoid that place." "It's mine."]
-- **`clue-id`:** [1–2 sentence reaction when this clue surfaces.]
+     Format per entry:
+     - **[key]** — "default spoken line." Optional `→ Gives: [clue-id](link)`.
+       This is what they say to anyone who raises the topic. It may deflect
+       (no Gives) or reveal a clue (with Gives).
+     - Indented `*(condition):*` branches REPLACE the default when a condition
+       holds — a bond, a held `clue-id`, a world state, or "if pressed". Same
+       gate syntax as opportunities. The most specific matching branch wins.
+       Each branch can carry its own `→ Gives:`.
+
+     RULES:
+     1. FREE only. Opinions are spoken reactions inside a conversation. If the
+        reveal costs real time (a full interview, a search, leverage), it is an
+        ACTION, not an Opinion.
+     2. A clue given here must exist in clues/clues.md — link it.
+     3. No internal monologue. Write what they SAY, not what they think.
+     4. Omit a `Says` line entirely for a topic the NPC would wordlessly
+        stonewall — a silent stonewall is not a spoken line. -->
+
+- **[Name](file.md)** — "[default spoken line]." [→ Gives: [`clue-id`](../clues/clues.md#clue-id)]
+  - *([condition]):* "[spoken line that replaces the default]." [→ Gives: [`clue-id`](../clues/clues.md#clue-id)]
+- **[Location](file.md)** — "[default spoken line]."
+- **`clue-id`** — "[what they say when confronted with this clue]."
 
 ## Mechanics
 
