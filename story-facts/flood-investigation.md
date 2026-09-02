@@ -8,9 +8,9 @@ Players reach [`new-village-will-flood`](../clues/clues.md#new-village-will-floo
 
 ## The Suspicion (why the committee is sent)
 
-prof. Bieńkowski suspects the Solina projection is wrong. The original calculation assumed the new-village valley drains, but no one ever field-checked the outlets it relies on. He knows of two: the ridge water-gap and the old far-ridge streambed. If both are blocked, the village is in the flood zone. He cannot prove it from Krakow. He needs someone on the ground to check them, which is why the committee is sent.
+prof. Bieńkowski suspects the Solina projection is wrong. The original calculation assumed the new-village valley drains, but no one ever field-checked the outlets it relies on. He knows of two: the ridge water-gap and the old far-ridge streambed. If both are blocked, the village is in the flood zone. He cannot prove it from Krakow. He needs someone on the ground to check them, which is why the committee is sent. He briefs the committee before departure ([The Car In](../events/the-car-in.md)), so the party starts holding `gap-is-candidate-drain` and `streambed-is-candidate-drain`.
 
-He does not know about the PGR irrigation ditch. That third outlet is a local, man-made feature off his maps, learned only from the villagers. [Zbigniew Gajda](../characters/wojewoda.md) is sure the ditch will do its job and carry the water off; [Michał Pytlak](../characters/foreman.md) has doubts. That split is the hook: players hear the ditch exists, hear it contested, and have to go settle it. Checking it yields `ditch-drains-nothing` and proves the wojewoda's confidence hollow. A party that trusts the professor's two-outlet list alone never even hears of the ditch. Completing the picture is `three-candidate-drains`: the professor's two plus the local ditch.
+He does not know about the PGR irrigation ditch. That third outlet is a local, man-made feature off his maps, learned only from the villagers. [Zbigniew Gajda](../characters/wojewoda.md) is sure the ditch will do its job and carry the water off; [Michał Pytlak](../characters/foreman.md) has doubts. That split is the hook: players hear the ditch exists, hear it contested, and have to go settle it. Michał naming it yields `ditch-is-candidate-drain`; checking it yields `ditch-drains-nothing` and proves the wojewoda's confidence hollow. A party that trusts the professor's two-outlet list alone never even hears of the ditch. The three candidate clues (`gap-is-candidate-drain`, `ditch-is-candidate-drain`, `streambed-is-candidate-drain`) are the leads that point players at each field test.
 
 ## The Clue Graph
 
@@ -26,7 +26,8 @@ Leaf clues:
 - `bridge-over-solid-land` — from reading the map alone: a bridge is drawn spanning dry ground, with the river drawn running elsewhere. The map contradicts itself. An armchair lead pointing at the gap, no fieldwork needed.
 - `landslide-in-the-gap` — glance: a slide sits in the ridge water-gap. A lead, not proof.
 - (testimony route) **Paraskewia Chyłak** (bond-gated) has watched this land for twenty years and saw the ground change. She frames it in folk terms, "the river wants its old bed back", giving `river-doesnt-match-map`, and she knows a slide came down in the gap, giving `landslide-in-the-gap`. She does not concern herself with the far-ridge streambed. The reward for treating her with respect; invisible to players who don't.
-- `gap-is-blocked` — precise: the fill is impermeable, water will not pass through. Earned by physically climbing to the plug in the ridge water-gap and examining the fill (the climb is the access cost), then either:
+- `gap-fill-examined` — you climbed the plug and handled the fill: packed clay and shattered rock, not loose rubble. The observation, not yet the conclusion. The access cost for `gap-is-blocked`.
+- `gap-is-blocked` — precise: the fill is impermeable, water will not pass through. Earned from `gap-fill-examined` (climbing to the plug and examining the fill), then either:
   - With Geology: you read the fill and conclude it on-site, giving `gap-is-blocked`.
   - Without Geology: you describe what you saw and report it to prof. Bieńkowski (phone), who certifies `gap-is-blocked`. The judgment that the fill won't pass water needs a geologist, in person or down the line.
 - `ditch-drains-nothing` — the PGR irrigation ditch cannot carry the flood off.
@@ -56,7 +57,8 @@ Item:
 |---|---|---|
 | Ridge survey (on-site) | Geology | any drain conclusion from field data |
 | Walk the terrain | Survival | `landslide-in-the-gap` |
-| Climb to the plug | physical climb; then Geology on-site or report to prof | `gap-is-blocked` |
+| Climb the plug | physical climb | `gap-fill-examined` |
+| Read the fill | Geology on-site, or report to prof | `gap-is-blocked` |
 | Read the map | Bureaucracy / study | `map-shows-gap-open`, `bridge-over-solid-land`, `new-village-sits-above-flood-line` |
 | Compare map to ground | observation | `river-doesnt-match-map` |
 | Inspect the ditch | on-site; walk its full length (the head is concrete and misleads) | `ditch-drains-nothing`; `ditch-not-built-to-spec` vs the spec doc |

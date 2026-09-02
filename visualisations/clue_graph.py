@@ -47,12 +47,17 @@ OUTCOME_KEYWORDS = [
 ]
 
 CLUE_REF = re.compile(r"clues\.md#([a-z0-9-]+)")
+# "NPC Learns:" marks a clue an NPC comes to know. A consumer gates on it by
+# writing "<npc>: [clue](clues.md#id)". Node key/label is "<npc>: <clue-id>".
+KNOWN_REQ = re.compile(r"([a-z][a-z0-9-]*)\s*:\s*\[[^\]]*\]\([^)]*clues\.md#([a-z0-9-]+)\)")
+NPC_PREFIX = re.compile(r"^\s*([a-z][a-z0-9-]*)\s*:")
 MD_LINK = re.compile(r"\]\(([^)]+?\.md)(?:#[^)]*)?\)")
 H1 = re.compile(r"^#\s+(.*)")
 HEADING = re.compile(r"^(#{2,6})\s+(.*)")
-FIELD = re.compile(r"\*\*(Requires|Cost|Outcome|Gives):\*\*\s*(.*)")
+FIELD = re.compile(r"\*\*(Requires|Prompted by|Cost|Outcome|Gives):\*\*\s*(.*)")
 OPP_NAME = re.compile(r"^\s*-\s*\*\*(.+?)\*\*")
 REQ_TAG = re.compile(r"\(requires:\s*(.*?)\)\s*`", re.IGNORECASE)
+PROMPT_TAG = re.compile(r"\(prompted by:\s*(.*?)\)\s*`", re.IGNORECASE)
 SECTION_NAMES = {"opportunities", "actions"}
 
 
@@ -71,9 +76,12 @@ class Node:
     requires_raw: str = ""
     requires_skills: list[str] = field(default_factory=list)
     requires_clues: list[str] = field(default_factory=list)
+    requires_known: list[list[str]] = field(default_factory=list)   # [npc, clue] gates
+    prompted_by_clues: list[str] = field(default_factory=list)   # soft breadcrumbs
     branch_skills: list[str] = field(default_factory=list)   # skills in Outcome branches
     cost: str = ""
     gives_clues: list[str] = field(default_factory=list)
+    gives_known: list[list[str]] = field(default_factory=list)   # [npc, clue] flags set
     gives_other: list[str] = field(default_factory=list)
     unlocks_scenes: list[str] = field(default_factory=list)
 
@@ -93,6 +101,7 @@ class Graph:
     scenes: dict = field(default_factory=dict)       # path -> Scene
     nodes: dict = field(default_factory=dict)        # id -> Node
     givers: dict = field(default_factory=dict)       # clue id -> [node ids]
+    known_givers: dict = field(default_factory=dict) # "npc: clue" -> [node ids]
 
     def to_serialisable(self) -> dict:
         return {
@@ -100,6 +109,7 @@ class Graph:
             "scenes": {k: asdict(v) for k, v in self.scenes.items()},
             "nodes": {k: asdict(v) for k, v in self.nodes.items()},
             "givers": self.givers,
+            "known_givers": self.known_givers,
         }
 
 
@@ -123,6 +133,24 @@ def parse_clues() -> dict[str, str]:
                 break
         clues[cid] = desc
     return clues
+
+
+def _default_npc(rel: str) -> str:
+    """The NPC a character scene is about, used when a Learns line omits one."""
+    return Path(rel).stem if rel.startswith("characters/") else "npc"
+
+
+def parse_gives_known(gives_text: str, rel: str) -> list[list[str]]:
+    """Every "NPC Learns: [<npc>:] [clue](clues.md#id)" segment -> [npc, clue]."""
+    out = []
+    for seg in re.findall(r"NPC Learns:(.*?)(?:;|$)", gives_text):
+        m = CLUE_REF.search(seg)
+        if not m:
+            continue
+        pm = NPC_PREFIX.match(seg)
+        npc = pm.group(1) if pm else _default_npc(rel)
+        out.append([npc, m.group(1)])
+    return out
 
 
 def extract_skills(text: str) -> list[str]:
@@ -241,21 +269,30 @@ def _parse_opportunity(line: str, rel: str, title: str) -> Node | None:
     if req:
         node.requires_raw = req.group(1).strip()
         node.requires_skills = extract_skills(node.requires_raw)
-        node.requires_clues = sorted(set(CLUE_REF.findall(node.requires_raw)))
+        node.requires_known = [[npc, c] for npc, c in KNOWN_REQ.findall(node.requires_raw)]
+        known_c = {c for _, c in node.requires_known}
+        node.requires_clues = sorted(set(CLUE_REF.findall(node.requires_raw)) - known_c)
+    prm = PROMPT_TAG.search(line)
+    if prm:
+        node.prompted_by_clues = sorted(set(CLUE_REF.findall(prm.group(1))))
     gives = line.split("Gives:", 1)[1] if "Gives:" in line else ""
-    node.gives_clues = sorted(set(CLUE_REF.findall(gives)))
+    node.gives_known = parse_gives_known(gives, rel)
+    learned_c = {c for _, c in node.gives_known}
+    gives_clean = re.sub(r"NPC Learns:.*?(?:;|$)", "", gives)
+    node.gives_clues = sorted(set(CLUE_REF.findall(gives_clean)) - learned_c)
     return node
 
 
 def _parse_action_block(htitle: str, body: list[str], rel: str, title: str) -> Node | None:
     """A heading block whose body carries fields/Gives is an action giver."""
-    req_lines, out_lines, gives_lines, cost_lines = [], [], [], []
+    req_lines, out_lines, gives_lines, cost_lines, prompt_lines = [], [], [], [], []
     for line in body:
         fm = FIELD.search(line)
         if fm:
             f, txt = fm.group(1).lower(), fm.group(2)
             {"requires": req_lines, "outcome": out_lines,
-             "gives": gives_lines, "cost": cost_lines}[f].append(txt)
+             "gives": gives_lines, "cost": cost_lines,
+             "prompted by": prompt_lines}[f].append(txt)
         elif "Gives:" in line:
             # inline Gives inside a numbered/progressive Outcome step
             gives_lines.append(line.split("Gives:", 1)[1])
@@ -263,9 +300,12 @@ def _parse_action_block(htitle: str, body: list[str], rel: str, title: str) -> N
             out_lines.append(line.strip())
 
     gives_text = " ".join(gives_lines)
-    gives_clues = sorted(set(CLUE_REF.findall(gives_text)))
+    gives_known = parse_gives_known(gives_text, rel)
+    learned_c = {c for _, c in gives_known}
+    gives_clean = re.sub(r"NPC Learns:.*?(?:;|$)", "", gives_text)
+    gives_clues = sorted(set(CLUE_REF.findall(gives_clean)) - learned_c)
     gives_other = [kw for kw in OUTCOME_KEYWORDS if kw in gives_text]
-    if not gives_clues and not gives_other:
+    if not gives_clues and not gives_known and not gives_other:
         return None
 
     node = Node(
@@ -274,10 +314,14 @@ def _parse_action_block(htitle: str, body: list[str], rel: str, title: str) -> N
     )
     node.requires_raw = " ".join(req_lines).strip()
     node.requires_skills = extract_skills(node.requires_raw)
-    node.requires_clues = sorted(set(CLUE_REF.findall(node.requires_raw)))
+    node.requires_known = [[npc, c] for npc, c in KNOWN_REQ.findall(node.requires_raw)]
+    known_c = {c for _, c in node.requires_known}
+    node.requires_clues = sorted(set(CLUE_REF.findall(node.requires_raw)) - known_c)
+    node.prompted_by_clues = sorted(set(CLUE_REF.findall(" ".join(prompt_lines))))
     node.branch_skills = sorted(set(extract_skills(" ".join(out_lines))) - set(node.requires_skills))
     node.cost = " ".join(cost_lines).strip()
     node.gives_clues = gives_clues
+    node.gives_known = gives_known
     node.gives_other = gives_other
     if "Scene Unlock" in gives_text:
         node.unlocks_scenes = _scene_targets(gives_text, rel)
@@ -301,6 +345,8 @@ def build_graph() -> Graph:
                 g.nodes[n.id] = n
                 for cid in n.gives_clues:
                     g.givers.setdefault(cid, []).append(n.id)
+                for npc, cid in n.gives_known:
+                    g.known_givers.setdefault(f"{npc}: {cid}", []).append(n.id)
     return g
 
 
@@ -310,9 +356,11 @@ def build_graph() -> Graph:
 
 def validate(g: Graph) -> dict:
     referenced = set()
+    ref_known = set()
     for n in g.nodes.values():
         referenced |= set(n.gives_clues) | set(n.requires_clues)
-    dangling = sorted(referenced - set(g.clues))          # linked but not defined
+        ref_known |= {c for _, c in n.gives_known} | {c for _, c in n.requires_known}
+    dangling = sorted((referenced | ref_known) - set(g.clues))  # linked but not defined
     orphans = sorted(c for c in g.clues if c not in g.givers)  # no giver
     return {"dangling": dangling, "orphans": orphans, "referenced": referenced}
 
@@ -347,6 +395,10 @@ def trace(g: Graph, clue: str, _seen: set | None = None, depth: int = 0) -> list
         out.append(f"{pad}  OR via {n.kind} \"{n.name}\" @ {n.scene}{tag}")
         for req in n.requires_clues:
             out.extend(trace(g, req, _seen, depth + 2))
+        for pc in n.prompted_by_clues:
+            if pc not in n.requires_clues:
+                out.append(f"{pad}    (prompted by)")
+                out.extend(trace(g, pc, _seen, depth + 2))
     return out
 
 
@@ -360,6 +412,7 @@ def cmd_stats(g: Graph):
     n_opps = sum(1 for n in g.nodes.values() if n.kind == "opportunity")
     print(f"scenes:        {len(g.scenes)}")
     print(f"clues:         {len(g.clues)}")
+    print(f"known (npc):   {len(g.known_givers)}")
     print(f"nodes:         {len(g.nodes)}  (actions {n_actions}, opportunities {n_opps})")
     print(f"clues w/giver: {len(g.givers)}")
     print(f"orphan clues:  {len(v['orphans'])} (no action/opportunity gives them)")

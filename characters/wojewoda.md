@@ -84,6 +84,12 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **Outcome:** He believes it, loses his temper, then pulls himself back into command.
 - **Gives:** NPC State Change: Zbigniew becomes an urgent partner; World State Change: the census accelerates; [Michał Pytlak](foreman.md) receives the flood-defense order.
 
+### Tell him about the flood risk
+- **Requires:** Holding [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
+- **Cost:** Free
+- **Outcome:** The committee raises the risk without proof: the flood line may be wrong, the valley may not drain. Zbigniew does not need convincing to act careful. He immediately calls for [Michał Pytlak](foreman.md) and, telling him the warning, orders him to put the farm, his men, and himself at the committee's disposal.
+- **Gives:** NPC Learns: foreman: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated); World State Change: farm labour and flood-defence work are at the committee's disposal.
+
 ### Convince him to reveal the flood
 - **Requires:** Flood proof shared (["Tell with geological proof"](#tell-with-geological-proof) done), a way out such as an evacuation plan, army rescue, or the [phone line cracked](../events/operator-refuses-help.md), and [Bond](#bond)
 - **Cost:** 1 action

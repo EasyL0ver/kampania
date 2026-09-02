@@ -46,6 +46,7 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 
 ### The land remembers the water
 - **Requires:** Bond with Paraskewia Chyłak
+- **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Cost:** 1 action
 - **Outcome:** She has watched this ground for twenty years. In her own terms she says the river wants its old bed back, that its course shifted, and that a slide came down and closed the notch in the ridge. She has nothing to say about the far-ridge streambed.
 - **Gives:** [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map); [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)

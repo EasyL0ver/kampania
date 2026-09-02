@@ -87,6 +87,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ### The place you can't get through
 - **Requires:** Playing or talking with Pawełek about the forest
+- **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Cost:** Free
 - **Outcome:** He mentions, offhand, that you can't get through the notch in the hill anymore because it all fell down in a big pile of rocks. The lady showed him.
 - **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)

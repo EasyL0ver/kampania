@@ -391,8 +391,17 @@ PGR workers exchange glances when asked about accidents. "The barn's been fixed 
 ### new-village-will-flood
 %NEW_VILLAGE% will flood. When the reservoir rises, the valley has no outlet below house level. The ridge water-gap, the PGR irrigation ditch, and the old far-ridge streambed all fail to carry the water off, so it backs up onto the houses. This is proof, not speculation.
 
-### three-candidate-drains
-The %NEW_VILLAGE% valley has exactly three candidate outlets for floodwater: the ridge water-gap, the PGR irrigation ditch, and the old far-ridge streambed. If all three fail to drain below house level, the village floods.
+### gap-is-candidate-drain
+The ridge water-gap is one of the candidate outlets floodwater could leave the %NEW_VILLAGE% valley through.
+
+### ditch-is-candidate-drain
+The PGR irrigation ditch is one of the candidate outlets floodwater could leave the %NEW_VILLAGE% valley through.
+
+### streambed-is-candidate-drain
+The old far-ridge streambed is one of the candidate outlets floodwater could leave the %NEW_VILLAGE% valley through.
+
+### the-flood-line-potentially-miscalculated
+prof. Bieńkowski suspects the official flood line for the %NEW_VILLAGE% valley may be miscalculated. If the valley does not drain as the survey assumes, the projected safe level is wrong and the new village may not sit above it after all.
 
 ### gap-is-blocked
 A ridge separates the low old-village valley from %NEW_VILLAGE%. The state map shows a water-gap through that ridge as an open drain, but an old landslide has plugged it with impermeable fill. Floodwater cannot pass through to the low basin. It is one of the three outlets the valley needs, and it is sealed.
@@ -411,6 +420,9 @@ The old far-ridge streambed has never carried water off, even in the worst flood
 
 ### landslide-in-the-gap
 A landslide sits in the ridge water-gap, filling the notch with fallen rock and earth.
+
+### gap-fill-examined
+Seen up close from atop the plug, the landslide fill choking the ridge gap is dense clay and shattered rock packed tight, not loose rubble.
 
 ### river-doesnt-match-map
 The river no longer runs where the map draws it. Its course has shifted: the wojewoda's bridge spans the river's new bed, while the map shows that ground dry and the river running elsewhere. The old course drawn on the map is now dry.
@@ -462,6 +474,9 @@ The committee is recording each household's property and its value, ostensibly t
 
 ### committee-hides-something
 The committee's real business isn't the survey it names. It's here for something it won't state, and the official purpose is a front.
+
+### committee-fills-census
+The committee is taking a census: who lives in each household, names, ages, how long they have been here. Counting heads is part of the official remit.
 
 ---
 

@@ -28,6 +28,16 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 - **[Zofia Pytlak](zofia.md)** — She sees the valley slipping away before I admit it. I cannot listen too long, because then I may have to stop digging.
 - **`foreman-coverup`:** If this reaches Wanda, it ruins the only mercy left in that mess. Ask me alone, or I shut every door I can reach.
 
+## Mechanics
+
+### If he learns the flood line may be wrong
+
+Michał backs [Zbigniew Gajda](wojewoda.md)'s optimistic line only while he believes the village is safe. The moment the committee tells him [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated), he comes to know it himself (tracked as `foreman: the-flood-line-potentially-miscalculated`), grasps the valley may actually drown, and stops covering for the ditch. He then speaks plainly about the flood, unlocking "Ask his opinion on the drain routes". Zbigniew ordering him to help (see wojewoda's ["Tell him about the flood risk"](wojewoda.md#tell-him-about-the-flood-risk)) tells him the same thing.
+
+## Opportunities
+
+- **The ditch shames him** `(requires: holding [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain) and Empathy)` — As Michał talks up his irrigation ditch, his voice tightens and he will not hold your eye on it. He does not believe his own reassurance: the concrete runs only a short way and he knows it. → Gives: [ditch-not-built-to-spec](../clues/clues.md#ditch-not-built-to-spec)
+
 ## Actions
 
 ### Census interview
@@ -41,6 +51,25 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 - **Cost:** 1 action
 - **Outcome:** He says he owns nothing: he lives in PGR quarters and the farm is state land. He treats questions about land value as odd.
 - **Gives:** Property record — none; PGR housing.
+
+### Talk to him about the flood
+- **Requires:** [Michał Pytlak](foreman.md) present
+- **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
+- **Cost:** Free
+- **Outcome:** Michał describes drainage ditches, sandbags, and water diversion as practical flood defences. He lays out the valley plainly: when the reservoir rises the water can only leave three ways, through the ridge gap, down his irrigation ditch, or over the far-ridge streambed. When the ditch comes up he is blunt: it is concrete only for a short run near the fields, an unlined dugout the rest of the way, and it will not carry a flood off.
+- **Gives:** [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain); NPC State Change: Michał Pytlak becomes willing to coordinate flood defence work with the committee.
+
+### Tell him the flood line may be wrong
+- **Requires:** Holding [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
+- **Cost:** 1 action
+- **Outcome:** Michał goes still, then drops the reassurances. He admits the ditch is concrete only for a short run near the fields and an unlined dugout the rest of the way, and that it will not carry a flood off.
+- **Gives:** [ditch-not-built-to-spec](../clues/clues.md#ditch-not-built-to-spec); NPC Learns: foreman: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated).
+
+### Ask his opinion on the drain routes
+- **Requires:** foreman: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
+- **Cost:** 1 action
+- **Outcome:** With nothing left to protect, Michał walks the outlets from memory. He names the landslide sitting in the ridge gap, though he cannot say whether it seals the notch fully or leaks.
+- **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 
 ### Press him about Tadeusz Mazur
 - **Requires:** A reason to name Mazur — the [PGR ledger](../items/pgr-ledger.md) showing a worker nobody answers to, or [Wanda Mazur](widow.md)'s account of her "pension"

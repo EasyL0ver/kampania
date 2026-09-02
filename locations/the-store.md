@@ -33,7 +33,7 @@
 - **Crew gossip about Foreman** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek)` — The crew grumbles that the PGR's books don't add up — pay going to people who aren't around. → Gives: [pgr-books-are-sketchy](../clues/clues.md#pgr-books-are-sketchy)
 - **Junior joins the crew** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek)` — Marek drinks with the crew away from his father. → Gives: [junior-drinks-with-crew](../clues/clues.md#junior-drinks-with-crew)
 - **Junior brags about the pistol** `(requires: Junior joins the crew and Physique)` — Marek talks about the gun in his father's office desk. → Gives: [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
-- **Old floods on the benches** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek, or Empathy)` — The old men remember the bad floods. The dry streambed on the far ridge never carried any of it off; the water just pooled against the rock and stopped. → Gives: [streambed-never-drained](../clues/clues.md#streambed-never-drained)
+- **Old floods on the benches** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek, or Empathy)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The old men remember the bad floods. The dry streambed on the far ridge never carried any of it off; the water just pooled against the rock and stopped. → Gives: [streambed-never-drained](../clues/clues.md#streambed-never-drained)
 
 ## Actions
 

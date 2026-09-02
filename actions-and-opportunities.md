@@ -84,7 +84,8 @@ Actions are **what players do when they declare intent.** Every action produces 
 
 ```
 ### Action Name
-- **Requires:** [Prerequisite — prior clue, NPC state, skill, item, or "Nothing"]
+- **Requires:** [Hard gate — skill, item, NPC state, or a prior clue ONLY when logically mandatory; else "Nothing"]
+- **Prompted by:** [Optional — prior clue(s) that would push a player to try this. Soft breadcrumb, not a gate.]
 - **Cost:** [Free / 1 action / 2 actions]
 - **Outcome:** [What happens — one flat result for anyone who clears Requires. No skill branches.]
 - **Gives:** [`clue-id`](../clues/clues.md#clue-id) | NPC State Change: [description] | Item: [description] | Scene Unlock: [scene file] | World State Change: [description] | Ending Progress: [which ending]
@@ -129,6 +130,7 @@ An action costs time when it eats a meaningful chunk of the character's day — 
    - Reveals more than the flat Outcome → that extra is a separate **opportunity**, `(requires: <this action> and <skill>)`. Not a branch inside Outcome.
    An Action's Outcome is flat — one result for everyone who clears `Requires:`. Skills never sit as enrich-branches in an Outcome.
 7. **Cost must be explicit.** Every action states its cost: `Free`, `1 action`, or more. See the table above for guidance on which is which.
+8. **`Prompted by:` is a soft breadcrumb, not a gate.** It lists prior clue(s) that would make a player think to try this action. A player without them can still take it. It is only for **actions** (opportunities are GM-delivered and already gated, so they never carry it). Use `Requires:` for a prior clue only when the action is logically impossible without it (you can't certify a flood report you haven't gathered); use `Prompted by:` for the far more common case where the clue merely points the way. This field feeds the clue graph: it draws the edge from the prompting clue to the clue this action gives.
 
 ---
 

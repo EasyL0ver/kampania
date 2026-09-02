@@ -34,8 +34,9 @@
 - **Spot the old village** `(requires: Survival on a survey route)` — Stone ruins are visible through the trees. → Gives: [old village was Lemko](../clues/clues.md#old-village-was-lemko), [old village was burned](../clues/clues.md#old-village-was-burned)
 - **Spot Butcher at his house** `(requires: Finesse on the route past [Stanisław Rezeń](../characters/butcher.md)'s house)` — Rezeń is alone near the treeline and using the same direction repeatedly. → Gives: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
 - **Spot the drinking crew heading into the forest** `(requires: Survival near the treeline track)` — Tadek Gajda and the crew carry bottles toward the forest. → Gives: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
-- **See the landslide plug** `(requires: Survival on a survey route)` — The notch in the ridge is choked with fallen rock and earth. → Gives: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
-- **The river isn't where the map draws it** `(requires: observation comparing map to ground)` — The wojewoda's bridge spans running water, but the map shows that ground dry and the river on its old course. → Gives: [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map)
+- **See the landslide plug** `(requires: Survival on a survey route)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The notch in the ridge is choked with fallen rock and earth. → Gives: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
+- **The fill won't pass water** `(requires: holding [`gap-fill-examined`](../clues/clues.md#gap-fill-examined) and Geology)` — the packed clay and shattered rock will not pass water; the gap is sealed. → Gives: [gap-is-blocked](../clues/clues.md#gap-is-blocked)
+- **The river isn't where the map draws it** `(requires: observation comparing map to ground)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The wojewoda's bridge spans running water, but the map shows that ground dry and the river on its old course. → Gives: [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map)
 
 ## Actions
 
@@ -47,32 +48,42 @@
 
 ### Survey the southern approach
 - **Requires:** Geological knowledge
+- **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Cost:** 1 action; waived if the party has the maps from [Wojewoda's office](pgr-office.md) or Michał Pytlak along
 - **Outcome:** The southern depression matches the map; water stays shallow and drains off without reaching the houses.
 - **Gives:** [southern-approach-safe](../clues/clues.md#southern-approach-safe)
 
 ### Survey the old-village bowl
 - **Requires:** Geological knowledge
+- **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Cost:** 1 action; waived with the office maps or Michał Pytlak
 - **Outcome:** The old-village basin is the lowest local ground and matches the map.
 - **Gives:** [old-village-basin-is-the-low-sink](../clues/clues.md#old-village-basin-is-the-low-sink)
 
 ### Survey the new-village bowl
 - **Requires:** Geological knowledge
+- **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Cost:** 1 action; waived with the office maps or Michał Pytlak
 - **Outcome:** %NEW_VILLAGE% sits above the flood line on firm ground if water can drain through the mapped ridge gap.
 - **Gives:** [new-village-sits-above-flood-line](../clues/clues.md#new-village-sits-above-flood-line)
 
-### Climb to the landslide plug
-- **Requires:** Physically climbing to the plug in the ridge water-gap (visible from the survey routes)
+### Walk to the ridge gap
+- **Requires:** Reaching the ridge water-gap (visible from the survey routes)
+- **Prompted by:** [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain); [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map); [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land)
 - **Cost:** 1 action
-- **Outcome:**
-  - With Geology: you read the fill on-site. It is impermeable; water will not pass. You conclude it yourself.
-  - Without Geology: you describe the fill to [prof. Bieńkowski](../characters/professor.md) by phone, who certifies that the plug will not drain.
-- **Gives:** [gap-is-blocked](../clues/clues.md#gap-is-blocked); Scene Unlock: [Foreman Saves the Village](../events/foreman-saves-village.md)
+- **Outcome:** You reach the notch. A landslide has choked the gap with fallen rock and earth. Whether that fill actually stops the water is a further question, settled by climbing the plug for a geological read on-site or by describing it to [prof. Bieńkowski](../characters/professor.md).
+- **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap); Scene Unlock: [Foreman Saves the Village](../events/foreman-saves-village.md)
+
+### Climb the plug
+- **Requires:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), and physically climbing the fallen fill in the notch
+- **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
+- **Cost:** 1 action
+- **Outcome:** You scramble up the plug and get your hands on the fill. It is dense clay and shattered rock packed tight, not the loose rubble it looks like from below. Whether that seals the gap is a read for a geologist or for [prof. Bieńkowski](../characters/professor.md).
+- **Gives:** [gap-fill-examined](../clues/clues.md#gap-fill-examined)
 
 ### Read the streambed benchmarks
 - **Requires:** Finding the reper markers at the far-ridge streambed col and beside %NEW_VILLAGE%
+- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain); [streambed-never-drained](../clues/clues.md#streambed-never-drained)
 - **Cost:** 1 action
 - **Outcome:**
   - With Geology: you read the two stamped elevations and conclude the col sits above house level, so the rising water tops the village before it reaches the streambed.

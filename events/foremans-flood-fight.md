@@ -46,6 +46,7 @@
 
 ### Go see Pytlak at the flood line
 - **Requires:** Nothing
+- **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Cost:** 1 action
 - **Outcome:** The committee finds [Michał Pytlak](../characters/foreman.md) knee-deep in floodwater, directing workers, hauling sandbags, and explaining that explosives can reopen the plugged water-gap above the village.
 - **Gives:** [`gap-is-blocked`](../clues/clues.md#gap-is-blocked); Scene Unlock: [Michał Pytlak Saves the Village](foreman-saves-village.md)

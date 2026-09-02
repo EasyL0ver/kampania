@@ -26,12 +26,14 @@ An official, signed survey report in the briefing dossier, stamped and filed by 
 
 ### Read the report
 - **Requires:** Holding the report
+- **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Cost:** Free
 - **Outcome:** Buried in the text, the crew note the river shifted its bed since the map was drawn, then wave it off as unimportant. The shift is real even if they dismissed it.
 - **Gives:** [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map)
 
 ### Read it as a surveyor
 - **Requires:** Holding the report and **Geology**
+- **Prompted by:** [committee-hides-something](../clues/clues.md#committee-hides-something)
 - **Cost:** 1 action
 - **Outcome:** The report shows impossibly few field stations, cursory coverage, and the ditch taken on faith from its concrete head. The crew never properly surveyed the terrain.
 - **Gives:** [survey-was-faked](../clues/clues.md#survey-was-faked)

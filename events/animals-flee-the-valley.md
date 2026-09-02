@@ -41,6 +41,7 @@
 
 ### Read the flight
 - **Requires:** Go out and study the movement, or press [Ryszard Dudka](../characters/neighbour.md)
+- **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Cost:** 1 action
 - **Outcome:** Animals are coming up out of the low %OLD_VILLAGE% basin because it is filling fast. Water pools into the lowest place instead of spreading thin.
 - **Gives:** [`old-village-basin-is-the-low-sink`](../clues/clues.md#old-village-basin-is-the-low-sink)

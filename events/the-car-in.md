@@ -12,6 +12,7 @@
 - The players ride in the back.
 - The players are government committee members.
 - The committee is heading to assess flood risk in a remote Bieszczady village.
+- prof. Tadeusz Bieńkowski briefed the committee before departure: he suspects the valley may not drain, and named two outlets to verify, the ridge water-gap and the old far-ridge streambed.
 - por. Witold Skowron is professional and friendly.
 - He talks while he drives.
 
@@ -44,6 +45,13 @@
 - **Cost:** Free
 - **Outcome:** Players notice that por. Witold Skowron expects them to ignore old grievances, local legends, and anything that does not belong in a government report.
 - **Gives:** [`officer-warning`](../clues/clues.md#officer-warning)
+
+### Recall the professor's brief
+- **Requires:** Nothing
+- **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
+- **Cost:** Free
+- **Outcome:** The committee recalls [prof. Tadeusz Bieńkowski](../characters/professor.md)'s pre-trip briefing: he suspects %NEW_VILLAGE% may not drain, warns the official flood line may be miscalculated, and flagged two outlets to check on the ground, the ridge water-gap and the old far-ridge streambed. He knows of no others.
+- **Gives:** [`gap-is-candidate-drain`](../clues/clues.md#gap-is-candidate-drain), [`streambed-is-candidate-drain`](../clues/clues.md#streambed-is-candidate-drain), [`the-flood-line-potentially-miscalculated`](../clues/clues.md#the-flood-line-potentially-miscalculated)
 
 ### Draft the committee
 - **Requires:** Nothing

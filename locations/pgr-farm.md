@@ -25,7 +25,8 @@
 ## Opportunities
 
 - **Worker count mismatch** `(requires: Bureaucracy)` — One ledger name does not match any worker present or recognized on the farm. → Gives: [foreman-coverup](../clues/clues.md#foreman-coverup)
-- **Wolf damage** `(requires: Handiwork)` — The livestock pens show repeated wolf attacks over several weeks. → Gives: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock)\n
+- **Wolf damage** `(requires: Handiwork)` — The livestock pens show repeated wolf attacks over several weeks. → Gives: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock)
+
 ## Actions
 
 ### Inspect the farm books
@@ -40,23 +41,17 @@
 - **Outcome:** The labourers exchange glances and mention that the barn has been fixed.
 - **Gives:** [pgr-workers-hide-something](../clues/clues.md#pgr-workers-hide-something)
 
-### Talk to Michał Pytlak about the flood
+### Talk to Michał Pytlak
 - **Requires:** [Michał Pytlak](../characters/foreman.md) present
 - **Cost:** Free
-- **Outcome:** Michał describes drainage ditches, sandbags, and water diversion as practical flood defences. He lays out the valley plainly: when the reservoir rises the water can only leave three ways, through the ridge gap, down his irrigation ditch, or over the far-ridge streambed. When the ditch comes up he is blunt: it is concrete only for a short run near the fields, an unlined dugout the rest of the way, and it will not carry a flood off.
-- **Gives:** [three-candidate-drains](../clues/clues.md#three-candidate-drains); [ditch-not-built-to-spec](../clues/clues.md#ditch-not-built-to-spec); NPC State Change: Michał Pytlak becomes willing to coordinate flood defence work with the committee.
+- **Outcome:** Talking to Michał is a character interaction. See his [character actions and opportunities](../characters/foreman.md#opportunities): "Talk to him about the flood" (gives [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain)), the Empathy opportunity "The ditch shames him" (gives [ditch-not-built-to-spec](../clues/clues.md#ditch-not-built-to-spec)), and "Press him about Tadeusz Mazur" (gives [foreman-coverup](../clues/clues.md#foreman-coverup)).
 
 ### Walk the irrigation ditch
 - **Requires:** Following the ditch its full length, from the concrete head to the low ground
+- **Prompted by:** [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain); [ditch-not-built-to-spec](../clues/clues.md#ditch-not-built-to-spec)
 - **Cost:** 1 action
 - **Outcome:** The concrete lining ends after a short run and the channel becomes a shallow, unlined dugout. At flood volume it would back up and overflow long before it cleared the valley. Inspecting only the concrete head would have given a false all-clear.
 - **Gives:** [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing)
-
-### Ask Michał Pytlak about the workers
-- **Requires:** Have seen the [PGR ledger](../items/pgr-ledger.md)
-- **Cost:** Free
-- **Outcome:** Michał answers immediately about real workers and hesitates over Tadeusz Mazur.
-- **Gives:** [foreman-coverup](../clues/clues.md#foreman-coverup)
 
 ### Talk to Barbara Kopacz
 - **Requires:** [Barbara Kopacz](../characters/barbara.md) present during working hours
