@@ -45,7 +45,7 @@ A worn canvas roll of survey tools: a level and clinometer, a folded copy of the
 
 ### Read it as a surveyor
 - **Requires:** Holding the kit and **Geology**
-- **Prompted by:** [committee-hides-the-flood](../clues/clues.md#committee-hides-the-flood)
+- **Prompted by:** [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
 - **Cost:** 1 action
 - **Outcome:** The report shows impossibly few field stations, cursory coverage, and the ditch taken on faith from its concrete head. On the paper alone the survey looks thin, well short of real fieldwork.
 - **Gives:** [original-report-is-thin](../clues/clues.md#original-report-is-thin)

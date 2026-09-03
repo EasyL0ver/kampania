@@ -50,7 +50,7 @@
 
 ### Call the survey archive
 - **Requires:** Phone access (monitored if Zbigniew Gajda is present)
-- **Prompted by:** [committee-hides-the-flood](../clues/clues.md#committee-hides-the-flood)
+- **Prompted by:** [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
 - **Cost:** 1 action per call
 - **Outcome:** The district survey archive confirms the previous crew filed a thin report, drove only a handful of stakes, and closed the job early. On the record it reads as thin work, well short of a proper survey.
 - **Gives:** [original-report-is-thin](../clues/clues.md#original-report-is-thin)
