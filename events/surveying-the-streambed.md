@@ -14,6 +14,7 @@
 - Settling whether the col drains means one number: is it above or below house level.
 - Getting it means running a level line from the col all the way down to the village, resetting the instrument every short stretch over rough ground. It is a full day's work.
 - The geologist cannot run the instrument and hold the staff at once; every extra pair of hands shortens the day.
+- A cooperative [Michał Pytlak](../characters/foreman.md) will come up and assist here (see [Bring him to the streambed](../characters/foreman.md#bring-him-to-the-streambed)), counting as one helping hand, but only if the party brings him to this scene rather than the benchmark hunt.
 - Weather on the ridge can turn: rain or fog stalls the leveling and the day is lost.
 - This is the fast, sure route compared to [searching for the old benchmarks](search-for-the-benchmarks.md), but it costs a geologist and most of a day.
 

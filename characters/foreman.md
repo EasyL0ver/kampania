@@ -78,6 +78,14 @@ Michał backs [Zbigniew Gajda](wojewoda.md)'s optimistic line only while he beli
 - **Outcome:** Michał remembers the Solina dam survey crews working the valley years back. They set benchmark markers across it, up at the far-ridge streambed col and down by the village among them. "If it's the streambed's height you want, their marks are still out there."
 - **Gives:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
 
+### Bring him to the streambed
+- **Requires:** [Michał Pytlak](foreman.md) willing to coordinate on the flood (after [Talk to him about the flood](#talk-to-him-about-the-flood))
+- **Cost:** 1 action to fetch him; he then spends the fieldwork day with the party
+- **Outcome:** Michał comes up to the far ridge and works alongside the committee. He can join **only one** of the two streambed scenes, not both, and he sticks with whichever the party runs first.
+  - In [Surveying the Streambed](../events/surveying-the-streambed.md) he counts as an assisting hand: hauling the level, holding the staff, recording. Cuts the level-line cost by **1 card** (floor 3), same as a helping PC.
+  - In [Search for the Benchmarks](../events/search-for-the-benchmarks.md) he searches one site himself: he watched the dam crews work and remembers roughly where they drove the markers, clearing that site for **2 cards** instead of 4.
+- **Gives:** World state change: Pytlak joins one streambed scene as a helper (survey assist or one search site), never both.
+
 ### Show him the streambed figures
 - **Requires:** [Michał Pytlak](foreman.md) present and holding [streambed-parameters](../clues/clues.md#streambed-parameters)
 - **Cost:** 1 action

@@ -14,6 +14,7 @@
 - The markers are old, weathered, and half-buried in undergrowth and slid earth; there is no map to their exact spots.
 - There are two to find: one at the streambed col, one at the village edge. Both elevations are needed, so both markers must be turned up.
 - The hunt is the gamble against [surveying the col](surveying-the-streambed.md): no geologist and no kit, but the combing eats more cards than a clean survey unless the party can read the ground.
+- A cooperative [Michał Pytlak](../characters/foreman.md) will come up and search a site (see [Bring him to the streambed](../characters/foreman.md#bring-him-to-the-streambed)), clearing that marker for 2 cards from memory of the dam crews, but only if the party brings him here rather than to the survey.
 - Once found, anyone can copy the two stamped elevations off them, no skill needed.
 
 ## Opportunities
