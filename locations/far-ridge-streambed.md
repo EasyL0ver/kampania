@@ -22,17 +22,12 @@
 
 - **Read the old position** `(requires: History)` — The collapsed dugout below the col is a wartime firing position, sited to watch and command the valley: rusted metal, a rotted timber lip, the shape of a partisan line. → Gives: [old-wartime-positions](../clues/clues.md#old-wartime-positions)
 - **Read the koliba** `(requires: [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed) and Culture)` — The tumbled stones and rotten roof-poles are a koliba, a Lemko shepherd's summer hut; the build and the worn pasture ground read as Greek Catholic hill herders' work, from before the valley was cleared. → Gives: [lemko-high-pasture](../clues/clues.md#lemko-high-pasture)
+- **Duck inside the hut** `(requires: [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed))` — Under the ram's skull is a single smoke-blackened room, empty for decades yet armoured against the dark: ash crosses smeared across a long-cold hearth where the shepherd's watra once burned, iron driven into the threshold, the black remains of herb bundles hanging from the rafters, three-barred crosses cut so deep and so often into the timber that whole boards are furred with them. The wards all face outward, to keep something out. → No clue; dread.
+- **Name the warding** `(requires: [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed) and Culture)` — Greek Catholic hill-herders' warding against wolves and the restless dead, the same tradition that mourns the unburied. Whatever they feared up here, they lined every surface against it, then one season walked down the mountain and never came back. → No clue; understanding.
+- **Read the scratched Cyrillic** `(requires: [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed) and Language)` — Among the crosses are names, and a plea for the dead to lie still. → No clue.
+- **Feel what it wards against** `(requires: [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed) and Superstitious)` — You do not read this room, you feel it, and you know exactly what it is warding against. → No clue; GM's call, **1 composure**.
 
 ## Actions
-
-### Step inside the koliba
-- **Requires:** [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed) (the hut turned up on the benchmark search)
-- **Cost:** 1 action
-- **Outcome:** You duck under the ram's skull into a single smoke-blackened room. The place has stood empty for decades, yet it is armoured against the dark: ash crosses smeared across a long-cold hearth where the shepherd's watra once burned, iron driven into the threshold, the black remains of herb bundles still hanging from the rafters, and three-barred crosses cut so deep and so often into the timber that whole boards are furred with them. The wards face outward, to keep something out. Whatever the herders feared up here, they feared it enough to line every surface against it, and then one season they walked down the mountain and never came back.
-  - A **Culture** read names the rite: Greek Catholic hill-herders' warding against wolves and the restless dead, the same tradition that mourns the unburied.
-  - A **Language** read takes the Cyrillic scratched among the crosses: names, a plea for the dead to lie still.
-  - A **Superstitious** PC does not read it, they feel it, and know exactly what it is warding against: GM's call, **1 composure**.
-- **Gives:** [koliba-is-warded](../clues/clues.md#koliba-is-warded)
 
 ### Report the figures to the professor
 - **Requires:** Holding [streambed-parameters](../clues/clues.md#streambed-parameters), and a phone
