@@ -30,6 +30,13 @@
 - **Outcome:** You shoot the col and the village and record both heights: the raw figures for the outlet.
 - **Gives:** [streambed-parameters](../clues/clues.md#streambed-parameters)
 
+### Assist the survey
+- **Requires:** A PC without Geology working alongside the surveyor at the col: hauling the level, holding the staff, or recording readings. No skill needed.
+- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
+- **Cost:** The assisting PC spends the day on the ridge alongside the surveyor.
+- **Outcome:** An extra pair of hands lets the geologist reset and shoot the line faster. Each assisting PC cuts the level-line cost by **1 card**, to a floor of **3**.
+- **Gives:** World state change: the "Run the level line" cost drops by 1 card per assisting PC (floor 3).
+
 ## Mechanics
 
 - The day's cost scales with helpers: 6 cards solo, minus 1 per assisting PC, floor 3.
