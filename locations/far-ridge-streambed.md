@@ -13,7 +13,7 @@
 - The map draws the streambed honestly but never marks the col's elevation.
 - The dam-survey crews left stamped geodetic benchmarks (repery) at the col and beside %NEW_VILLAGE%.
 - The markers are old and half-buried; finding them takes searching.
-- Getting the streambed's elevations plays out as one of two competing scenes: [Surveying the Streambed](../events/surveying-the-streambed.md) (fast, needs a geologist and most of a day) or [Search for the Benchmarks](../events/search-for-the-benchmarks.md) (no geologist, but an open-ended hunt). Either yields [streambed-parameters](../clues/clues.md#streambed-parameters).
+- Getting the streambed's elevations plays out as one of two competing scenes: [Surveying the Streambed](../events/surveying-the-streambed.md) (fast, needs a geologist and most of a day) or [Search for the Benchmarks](../events/search-for-the-benchmarks.md) (no geologist, but 8 cards of combing, halved to 4 with Survival). Either yields [streambed-parameters](../clues/clues.md#streambed-parameters).
 
 ## Opportunities
 
