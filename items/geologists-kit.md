@@ -42,6 +42,12 @@ A worn canvas roll of survey tools: a level and clinometer, a folded copy of the
 - **Outcome:** The report shows impossibly few field stations, cursory coverage, and the ditch taken on faith from its concrete head. The crew never properly surveyed the terrain.
 - **Gives:** [survey-was-faked](../clues/clues.md#survey-was-faked)
 
+### Read the figures as a surveyor
+- **Requires:** Holding the kit and [streambed-parameters](../clues/clues.md#streambed-parameters), and **Geology**
+- **Cost:** 1 action
+- **Outcome:** Against the kit's drainage tables you read the two elevations and conclude the col sits above house level, so the rising water tops the village before it reaches the streambed.
+- **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
+
 ### Check the ditch praise against the ditch
 - **Requires:** Holding the kit and having inspected the ditch ([ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing))
 - **Cost:** 1 action

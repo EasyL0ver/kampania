@@ -95,12 +95,6 @@
 - **Outcome:** The dam-survey crews left stamped geodetic benchmarks at the col and by the village. Anyone can copy the two elevations off the markers, no skill needed.
 - **Gives:** [streambed-parameters](../clues/clues.md#streambed-parameters)
 
-### Read the figures as a surveyor
-- **Requires:** Holding [streambed-parameters](../clues/clues.md#streambed-parameters), and **Geology**
-- **Cost:** 1 action
-- **Outcome:** You read the two elevations and conclude the col sits above house level, so the rising water tops the village before it reaches the streambed.
-- **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
-
 ### Report the figures to the professor
 - **Requires:** Holding [streambed-parameters](../clues/clues.md#streambed-parameters), and a phone
 - **Cost:** 1 action
