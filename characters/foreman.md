@@ -71,6 +71,12 @@ Michał backs [Zbigniew Gajda](wojewoda.md)'s optimistic line only while he beli
 - **Outcome:** With nothing left to protect, Michał walks the outlets from memory. He names the landslide sitting in the ridge gap, though he cannot say whether it seals the notch fully or leaks.
 - **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 
+### Show him the streambed figures
+- **Requires:** [Michał Pytlak](foreman.md) present and holding [streambed-parameters](../clues/clues.md#streambed-parameters)
+- **Cost:** 1 action
+- **Outcome:** Michał reads the two elevations without hesitation. He has worked this valley for years, and a col standing above house level tells him at once that the water tops the village long before it reaches the streambed. He confirms the streambed is no outlet.
+- **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
+
 ### Press him about Tadeusz Mazur
 - **Requires:** A reason to name Mazur — the [PGR ledger](../items/pgr-ledger.md) showing a worker nobody answers to, or [Wanda Mazur](widow.md)'s account of her "pension"
 - **Cost:** 1 action

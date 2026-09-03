@@ -35,7 +35,7 @@ Leaf clues:
 - `streambed-parameters` — the two raw elevations that settle the streambed: the far-ridge col height and the village height. Obtained two ways, either a geologist shoots them with the kit (Survey the streambed col), or anyone copies the stamped figures off the dam-survey **reper** benchmarks in the field (Read the reper benchmarks, no skill). Raw data, not yet the conclusion.
 - `streambed-dead-ends` — the old far-ridge streambed's col sits above house level, so the rising water tops the village before it ever reaches that outlet. The map draws the streambed honestly; it just never shows the elevation, so only a survey on the ground catches this.
 - `streambed-never-drained` — a local remembers the streambed never carried water, even in the worst floods it just pools and stops against the rock. Testimony, an optional lead pointing at the streambed, not proof.
-- (confirm route) Holding `streambed-parameters`, someone turns the two figures into the conclusion. With Geology you read them yourself; without Geology you read them to prof. Bieńkowski by phone, who certifies it. Either gives `streambed-dead-ends`.
+- (confirm route) Holding `streambed-parameters`, someone turns the two figures into the conclusion. With Geology you read them yourself; without Geology you read them to prof. Bieńkowski by phone, or show them to Michał Pytlak, who knows the valley well enough to call it. Any of the three gives `streambed-dead-ends`.
 - `map-shows-gap-open` — the state map draws the gap as an open drain.
 - `new-village-sits-above-flood-line` — on paper the village is safe.
 - `water-tops-the-flood-line` — during the Day 3 storm, water on the new-village slope climbs about a metre above the surveyors' marked flood line. No skill needed, unmissable. The blunt empirical lead: the "safe" projection is already being exceeded. Contradicts `new-village-sits-above-flood-line`. Given by [The Flood](../events/the-flood.md); points at the threat, not proof it is permanent.
@@ -63,7 +63,7 @@ Item:
 | Inspect the ditch | on-site; walk its full length (the head is concrete and misleads) | `ditch-drains-nothing`; `ditch-not-built-to-spec` vs the spec doc |
 | Survey the streambed col | Geology + kit | `streambed-parameters` |
 | Read the reper benchmarks | find markers; no skill | `streambed-parameters` |
-| Interpret the streambed figures | hold `streambed-parameters`; Geology or prof by phone | `streambed-dead-ends` |
+| Interpret the streambed figures | hold `streambed-parameters`; Geology, prof by phone, or show Pytlak | `streambed-dead-ends` |
 | Watch the storm | none | `water-tops-the-flood-line` |
 | The phone | office phone, monitored by Zbigniew | `survey-was-faked` (archive); certify field data with prof. Bieńkowski |
 | prof. Bieńkowski (phone) | hand him field readings | certifies any drain conclusion; `new-village-will-flood` |
