@@ -452,7 +452,7 @@ The old far-ridge streambed has never carried water off, even in the worst flood
 A landslide sits in the ridge water-gap, filling the notch with fallen rock and earth.
 
 ### gap-fill-examined
-Seen up close from atop the plug, the landslide fill choking the ridge gap is dense clay and shattered rock packed tight, not loose rubble.
+Seen up close from atop the plug, the landslide fill choking the ridge gap is dense clay and shattered rock packed tight, not loose rubble, and it beds hard against the intact ridge at the crest with no open channel where the two meet.
 
 ### river-doesnt-match-map
 The river no longer runs where the map draws it. Its course has shifted: the wojewoda's bridge spans the river's new bed, while the map shows that ground dry and the river running elsewhere. The old course drawn on the map is now dry.
