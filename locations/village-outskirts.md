@@ -70,7 +70,7 @@
 - **Prompted by:** [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain); [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map); [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land)
 - **Cost:** 1 action
 - **Outcome:** You reach the notch. A landslide has choked the gap with fallen rock and earth. Whether that fill actually stops the water is a further question, settled at [The Ridge Gap](the-ridge-gap.md) by climbing the plug for a geological read on-site or by describing it to [prof. Bieńkowski](../characters/professor.md).
-- **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap); Scene Unlock: [The Ridge Gap](the-ridge-gap.md); Scene Unlock: [Foreman Saves the Village](../events/foreman-saves-village.md)
+- **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap); Scene Unlock: [The Ridge Gap](the-ridge-gap.md); Scene Unlock: [Climb the Plug](../events/climb-the-plug.md); Scene Unlock: [Foreman Saves the Village](../events/foreman-saves-village.md)
 
 ### Wander the forest
 - **Requires:** Nothing
