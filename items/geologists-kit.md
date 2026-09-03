@@ -49,10 +49,10 @@ A worn canvas roll of survey tools: a level and clinometer, a folded copy of the
 - **Gives:** [survey-was-faked](../clues/clues.md#survey-was-faked)
 
 ### Read the dam-survey index
-- **Requires:** Holding the kit
+- **Requires:** Holding the kit and **Geology**
 - **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
 - **Cost:** Free
-- **Outcome:** The Solina survey's station index lists benchmarks set across the valley, the far-ridge streambed col among them, so the dam builders already surveyed it. The index points to an elevation sheet for the figures, but that sheet is not in the dossier: the survey happened, the results are missing.
+- **Outcome:** A layman sees a dull list of station numbers. A surveyor reads it: the Solina survey set benchmarks across the valley, the far-ridge streambed col among them (St. 40) with the village datum (St. 41), so the dam builders already shot this outlet. The index points to an elevation sheet for the figures, but that sheet is not in the dossier: the survey happened, the results are missing.
 - **Gives:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
 
 ### Read the figures as a surveyor
