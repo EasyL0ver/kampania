@@ -23,6 +23,7 @@
 - **Read the col by eye** `(requires: Geology)` — A surveyor standing on the col can see it rides high, but "high" is not a number and will not settle the drain question; only the level line does. → No clue; sets expectations.
 - **Read the weather off the ridge** `(requires: Survival)` — A woodsman reads the sky and times the level line around the front coming in, breaking before the rain or fog hits and resuming after. → No clue; the weather turn no longer wastes the day (see Mechanics).
 - **Carry the heavy work** `(requires: Physique)` — Hauling the level and staff up the col and resetting them stretch after stretch over broken ground is the slow part; a strong back keeps the line moving. → No clue; a Physique PC assisting cuts the level line by 2 cards instead of 1 (still floor 3).
+- **Keep the instrument true** `(requires: Handiwork)` — The level and clinometer drift out of true with every move and a knocked tripod normally means re-shooting the last leg; a fixer re-levels and nurses the kit through the day. → No clue; a fumbled or knocked setup no longer forces a restart of the line (see Mechanics).
 
 ## Actions
 
@@ -44,6 +45,7 @@
 
 - The day's cost scales with helpers: 6 cards solo, minus 1 per assisting PC, floor 3. A **Physique** assistant counts double (minus 2), still to a floor of 3.
 - A weather turn (GM's call) wastes the day: the line must be restarted. A **Survival** read of the weather (opportunity above) cancels this: the party breaks before the front and resumes, losing no day.
+- A fumbled or knocked instrument setup (GM's call) normally costs a restart of the last leg. A **Handiwork** PC keeping the instrument true (opportunity above) cancels this: they re-level on the spot and no work is lost.
 
 ## Exits
 
