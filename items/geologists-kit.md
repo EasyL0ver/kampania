@@ -31,6 +31,7 @@ A worn canvas roll of survey tools: a level and clinometer, a folded copy of the
 ## Opportunities
 
 - **Calculate the flood line** `(requires: [gap-is-blocked](../clues/clues.md#gap-is-blocked) and [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing) and [streambed-dead-ends](../clues/clues.md#streambed-dead-ends))` — With all three outlets ruled out under the same test, no fresh fieldwork is needed. Laying the findings against the master plan's numbers, the conclusion is arithmetic: when the lake rises, the water has nowhere below house level to go. %NEW_VILLAGE% floods. → Gives: [new-village-will-flood](../clues/clues.md#new-village-will-flood)
+- **Call the ditch a working drain** `(requires: [ditch-drains-fine](../clues/clues.md#ditch-drains-fine))` — If the ditch carries the flood off, the valley has its outlet and the village stays dry; one good drain is all it needs. The reassuring answer the head calc invites, and the trap that ends the investigation early: it takes the concrete head for the whole ditch and never tests the gap or the streambed at all. → Gives: [new-village-will-not-flood](../clues/clues.md#new-village-will-not-flood)
 
 ## Actions
 

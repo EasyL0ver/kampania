@@ -400,6 +400,9 @@ PGR workers exchange glances when asked about accidents. "The barn's been fixed 
 ### new-village-will-flood
 %NEW_VILLAGE% will flood. When the reservoir rises, the valley has no outlet below house level. The ridge water-gap, the PGR irrigation ditch, and the old far-ridge streambed all fail to carry the water off, so it backs up onto the houses. This is proof, not speculation.
 
+### new-village-will-not-flood
+%NEW_VILLAGE% is safe. The PGR irrigation ditch carries the flood clear of the valley, so the water drains away and never reaches the houses. One working outlet is all the valley needs, and here is one. This is the reassuring answer, and it is false: it rests entirely on the ditch's concrete head, which calculates as ample only because no one measured the earth dugout that runs the rest of its length. The gap and the streambed are never even tested. It contradicts new-village-will-flood.
+
 ### gap-is-candidate-drain
 The ridge water-gap is one of the candidate outlets floodwater could leave the %NEW_VILLAGE% valley through.
 

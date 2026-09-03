@@ -18,7 +18,11 @@ Conclusion (three candidate outlets, same test, all fail):
 
 - `new-village-will-flood` = `gap-is-blocked` AND `ditch-drains-nothing` AND `streambed-dead-ends`
 
-The test for each is identical: when the lake rises, does the water get out here below house level? Gap: plugged. Ditch: too small. Streambed: col too high. None saves the village. No outlet is privileged, all three must be ruled out.
+The trap conclusion (one false positive is enough to stop looking):
+
+- `new-village-will-not-flood` = `ditch-drains-fine`
+
+The test for each is identical: when the lake rises, does the water get out here below house level? Gap: plugged. Ditch: too small. Streambed: col too high. None saves the village. No outlet is privileged, all three must be ruled out. The nastiness is asymmetric: proving the village floods needs all three outlets ruled out, but the reassuring answer needs only one to look open, and the ditch is the single outlet that hands out a false positive (`ditch-drains-fine`, the head-only calc). A party that runs the head calc and stops concludes `new-village-will-not-flood` and goes home. The gap's map-open reading and the streambed never even enter it. Only walking the ditch overturns it.
 
 Leaf clues:
 
