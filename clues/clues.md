@@ -508,6 +508,9 @@ The old village site is flooding — water rising from below, the well filling. 
 ### phone-is-lifeline
 The players can call [Professor](../characters/secondary-characters.md) by phone. If they tell him about the massacre, the truth exists outside the village.
 
+### government-committee
+The player characters are a state committee sent to %NEW_VILLAGE% ahead of the reservoir, tasked with a census, a property assessment for flood damage, and a geographical survey of the valley. It is the frame the whole visit hangs on: the reason outsiders can measure land, enter homes, and ask questions at all.
+
 ### committee-runs-geographical-survey
 The committee's stated purpose in the village is a geographical survey — terrain, river, boundaries. It's the cover that explains why outsiders are measuring the land.
 

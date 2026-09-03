@@ -18,24 +18,33 @@
 
 ## Opportunities
 
-- **Skowron's careful briefing** `(requires: bureaucratic experience or intuition)` — he frames the work narrowly and signals that some information should stay out of official writing. → Gives: [`officer-warning`](../clues/clues.md#officer-warning)
+- **Skowron's careful briefing** `(requires: bureaucratic experience or intuition)` `(prompted by: [government-committee](../clues/clues.md#government-committee))` — he frames the work narrowly and signals that some information should stay out of official writing. → Gives: [`officer-warning`](../clues/clues.md#officer-warning)
 
 ## Actions
 
+### Take the assignment
+- **Requires:** Nothing
+- **Cost:** Free
+- **Outcome:** On the road in, por. Witold Skowron lays out who the players are and why they are here: a state committee sent ahead of the reservoir to run a census, assess property for flood damage, and survey the valley. It is the authority the whole visit rests on.
+- **Gives:** [`government-committee`](../clues/clues.md#government-committee)
+
 ### Listen to the briefing
 - **Requires:** Nothing
+- **Prompted by:** [government-committee](../clues/clues.md#government-committee)
 - **Cost:** Free
 - **Outcome:** por. Witold Skowron explains the committee's survey, property assessment, local contact, village phone, and road risk.
 - **Gives:** [`committee-runs-geographical-survey`](../clues/clues.md#committee-runs-geographical-survey), [`committee-notes-property-for-damage`](../clues/clues.md#committee-notes-property-for-damage), [`committee-hides-something`](../clues/clues.md#committee-hides-something)
 
 ### Ask about the village history
 - **Requires:** Nothing
+- **Prompted by:** [government-committee](../clues/clues.md#government-committee)
 - **Cost:** Free
 - **Outcome:** por. Witold Skowron says the village was resettled after the war and used to be Lemko territory.
 - **Gives:** [`old-village-was-lemko`](../clues/clues.md#old-village-was-lemko)
 
 ### Ask about potential dangers
 - **Requires:** Nothing
+- **Prompted by:** [government-committee](../clues/clues.md#government-committee)
 - **Cost:** Free
 - **Outcome:** por. Witold Skowron downplays danger and mentions Stanisław Rezeń as a loner locals avoid.
 - **Gives:** [`officer-is-sb`](../clues/clues.md#officer-is-sb)
