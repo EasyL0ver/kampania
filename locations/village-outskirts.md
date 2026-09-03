@@ -90,7 +90,7 @@
 
 ### Read the reper benchmarks
 - **Requires:** Finding the reper markers at the far-ridge streambed col and beside %NEW_VILLAGE%
-- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
+- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain); [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
 - **Cost:** 1 action
 - **Outcome:** The dam-survey crews left stamped geodetic benchmarks at the col and by the village. Anyone can copy the two elevations off the markers, no skill needed.
 - **Gives:** [streambed-parameters](../clues/clues.md#streambed-parameters)

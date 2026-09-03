@@ -418,6 +418,9 @@ The old streambed on the far ridge is not an outlet. Its col sits above house le
 ### streambed-parameters
 The two elevations that settle the streambed: the height of the far-ridge col and the height of %NEW_VILLAGE%. The raw figures, before anyone reads what they mean.
 
+### dam-builders-surveyed-streambed
+The Solina dam-survey crews already worked the far-ridge streambed years ago and set geodetic benchmarks (reper) at the col and by the village. The markers are out there in the field, though their recorded elevations never made it into the kit's papers.
+
 ### streambed-never-drained
 The old far-ridge streambed has never carried water off, even in the worst floods within living memory. Water pools against the rock there and stops.
 
