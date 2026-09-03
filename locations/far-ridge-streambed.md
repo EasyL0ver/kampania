@@ -21,7 +21,7 @@
 ## Opportunities
 
 - **Read the old position** `(requires: History)` — The collapsed dugout below the col is a wartime firing position, sited to watch and command the valley: rusted metal, a rotted timber lip, the shape of a partisan line. → Gives: [old-wartime-positions](../clues/clues.md#old-wartime-positions)
-- **Read the koliba** `(requires: [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed) and Culture)` — The tumbled stones and rotten roof-poles are a koliba, a Lemko shepherd's summer hut; the build and the worn pasture ground read as Greek Catholic hill herders' work, from before the valley was cleared. → Gives: [lemko-high-pasture](../clues/clues.md#lemko-high-pasture)
+- **Read the koliba** `(requires: [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed) and Culture)` — The tumbled stones and rotten roof-poles are a koliba, a Lemko shepherd's summer hut; the build and the worn pasture ground read as Greek Catholic hill herders' work, from before the valley was cleared. → Gives: [lemkos-lived-here](../clues/clues.md#lemkos-lived-here)
 - **Duck inside the hut** `(requires: [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed))` — Under the ram's skull is a single smoke-blackened room, empty for decades yet armoured against the dark: ash crosses smeared across a long-cold hearth where the shepherd's watra once burned, iron driven into the threshold, the black remains of herb bundles hanging from the rafters, three-barred crosses cut so deep and so often into the timber that whole boards are furred with them. The wards all face outward, to keep something out. → No clue; dread.
 - **Name the warding** `(requires: [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed) and Culture)` — Greek Catholic hill-herders' warding against wolves and the restless dead, the same tradition that mourns the unburied. Whatever they feared up here, they lined every surface against it, then one season walked down the mountain and never came back. → No clue; understanding.
 - **Read the scratched Cyrillic** `(requires: [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed) and Language)` — Among the crosses are names, and a plea for the dead to lie still. → No clue.
@@ -29,8 +29,18 @@
 
 ## Actions
 
-### Report the figures to the professor
-- **Requires:** Holding [streambed-parameters](../clues/clues.md#streambed-parameters), and a phone
-- **Cost:** 1 action
-- **Outcome:** You read the figures to [prof. Bieńkowski](../characters/professor.md) by phone, who compares the two elevations and certifies the streambed is no outlet.
-- **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
+### Start a survey
+- **Requires:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain), and a PC with **Geology** and the [geologist's kit](../items/geologists-kit.md)
+- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
+- **Cost:** Free (the day of fieldwork is paid inside the scene)
+- **Outcome:** The party commits to shooting the col's elevation themselves. Opens [Surveying the Streambed](../events/surveying-the-streambed.md).
+- **Gives:** Scene Unlock: [Surveying the Streambed](../events/surveying-the-streambed.md)
+
+### Start a search
+- **Requires:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
+- **Prompted by:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
+- **Cost:** Free (the combing cards are paid inside the scene)
+- **Outcome:** The party commits to hunting the dam crews' benchmark markers. Opens [Search for the Benchmarks](../events/search-for-the-benchmarks.md).
+- **Gives:** Scene Unlock: [Search for the Benchmarks](../events/search-for-the-benchmarks.md)
+
+<!-- Interpreting the streambed figures into streambed-dead-ends is done off-site: phone prof. Bieńkowski ("Certify the streambed"), read them as a surveyor with the geologist's kit, or show Michał Pytlak. -->

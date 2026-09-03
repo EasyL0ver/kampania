@@ -44,6 +44,13 @@ He speaks rapidly and precisely, in the clipped cadence of a lecturer who assume
 - **Outcome:** The party describes the packed clay and shattered rock choking the gap. He judges the impermeable fill will not pass water and documents the ridge gap as a dead outlet.
 - **Gives:** [gap-is-blocked](../clues/clues.md#gap-is-blocked)
 
+### Certify the streambed
+- **Requires:** A phone, and the party holds the two streambed elevations: [streambed-parameters](../clues/clues.md#streambed-parameters)
+- **Prompted by:** [streambed-parameters](../clues/clues.md#streambed-parameters)
+- **Cost:** 1 action
+- **Outcome:** The party reads him the col height and the village height. He compares the two and certifies the col sits above house level, so the rising water tops the village long before it reaches the streambed: a dead outlet.
+- **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
+
 ## Bond
 
 - [ ] Reference his published work or show familiarity with hydrology
