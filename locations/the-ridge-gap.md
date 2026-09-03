@@ -25,15 +25,22 @@
 
 ## Opportunities
 
-- **The fill won't pass water** `(requires: holding [`gap-fill-examined`](../clues/clues.md#gap-fill-examined) and Geology)` — Up close the packed clay and shattered rock read as impermeable; this plug is a seal, not a filter. → Gives: [gap-is-blocked](../clues/clues.md#gap-is-blocked)
+- **The gap won't drain** `(requires: holding [`gap-fill-examined`](../clues/clues.md#gap-fill-examined) and [`gap-sill-above-flood`](../clues/clues.md#gap-sill-above-flood) and Geology)` — Put the two readings together: the fill will not seep and the sill will not overtop, so water can leave the valley neither through the plug nor over it. The outlet is dead. → Gives: [gap-is-blocked](../clues/clues.md#gap-is-blocked)
 
 ## Actions
+
+### Examine the fill at the toe
+- **Requires:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap); reaching the foot of the plug (no climb)
+- **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
+- **Cost:** 1 action
+- **Outcome:** Scramble to the base of the plug and dig into it. From a distance the fill looks like loose rubble the water would run straight through; up close it is dense clay and shattered rock packed tight, impermeable. This settles only whether the plug leaks, not whether the water level can rise over it (that is the crest sill, which needs the climb). → Gives: [gap-fill-examined](../clues/clues.md#gap-fill-examined)
+  - **Geology:** reads the fill directly and confirms it will not pass water at flood pressure.
 
 ### Climb the plug
 - **Requires:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap); one climber going up, with the rest of the party on the ground
 - **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 - **Cost:** climber spends 1 card per attempt; each ground assist is 1 card from that PC; forcing the top pitch costs composure; a second attempt re-pays the climb through pitches 1 and 2
-- **Outcome:** One climber goes up, the crew work the ground. Top out to reach the fill and get [gap-fill-examined](../clues/clues.md#gap-fill-examined). Why climb at all: the fill can be sampled at the toe, but that only settles whether it seeps, not whether the plug holds. What decides the outlet is the height of the plug's lowest saddle, the sill the rising water must top to spill into %BIG-BASIN%, and you cannot read that saddle from the valley floor: it sits back behind the front lip, foreshortened and screened. Only a climber on the crest can find it, stand a rod on it, and shoot its height against the village datum. Topping out also puts the climber looking straight down into the empty %BIG-BASIN% the water is meant to escape into, so the number and its weight land together: if the sill stands above the flood line, there is no way out. The climb is a group coordination problem across three pitches, not a single card. Roles: the **climber** (needs **Physique** to finish), a ground **scout** (**Survival**, reads the lower pitches ahead of time), and a ground **partner** (works the rope).
+- **Outcome:** One climber goes up, the crew work the ground. Top out, stand a rod on the lowest saddle, and shoot its height against the village datum: get [gap-sill-above-flood](../clues/clues.md#gap-sill-above-flood). Why climb at all: the fill can be sampled at the toe (see [Examine the fill at the toe](#examine-the-fill-at-the-toe)), but that only settles whether it seeps, not whether the plug holds. What decides the outlet is the height of the plug's lowest saddle, the sill the rising water must top to spill into %BIG-BASIN%, and you cannot read that saddle from the valley floor: it sits back behind the front lip, foreshortened and screened. Only a climber on the crest can find it, stand a rod on it, and shoot its height. Topping out also puts the climber looking straight down into the empty %BIG-BASIN% the water is meant to escape into, so the number and its weight land together: if the sill stands above the flood line, there is no way out. The climb is a group coordination problem across three pitches, not a single card. Roles: the **climber** (needs **Physique** to finish), a ground **scout** (**Survival**, reads the lower pitches ahead of time), and a ground **partner** (works the rope).
   - **1. Get on (soft gate).** Any climber gets onto the plug: **Physique** or **Survival** carries them up, or a character with neither forces it by spending **1 composure**. A Survival or composure climber can start, but has no strength for the killzone above.
   - **2. The killzone (hard gate).** Crossing needs the climber's **Physique** **and** a **rope worked by a second PC** on the ground. A climber without Physique, or a climber with no rope and partner, cannot cross: they climb back down, the attempt spent. A ground **Survival** scout can read pitches 1 and 2 from below beforehand, so the party arrives with the rope and a strong climber assigned.
   - **3. Top out (hidden gate).** The crux is the capping slab: a torn-out block of sandstone that **overhangs** the fill by a body-length, smooth and undercut, with no holds and nothing above to anchor to, and the solid ridge sitting back beyond it. From the ground the overhang is invisible, it reads as just the top edge; only the climber directly beneath it sees the roll-back and calls down what it needs. The gear, GM's pick from whatever the party can actually scrounge:
@@ -45,5 +52,5 @@
     - **Force it now** — free-solo the overhang, anchorless, two storeys up: a big composure tax (**2 composure**). Only a climber built with the reserve can pay it; a climber down to 1 composure cannot, and must come back. Tops out this trip.
     - **Retreat and return** — climb down, fetch the gear the climber saw the crux needs, and next trip top out clean with no composure tax, re-paying the climb through pitches 1 and 2.
     - Up to the players: spend composure now, or spend time later.
-  - Topping out, either way, reaches the fill. → Gives [gap-fill-examined](../clues/clues.md#gap-fill-examined).
+  - Topping out, either way, puts the climber on the crest to shoot the sill. → Gives: [gap-sill-above-flood](../clues/clues.md#gap-sill-above-flood).
 - **Gives:** [gap-fill-examined](../clues/clues.md#gap-fill-examined)

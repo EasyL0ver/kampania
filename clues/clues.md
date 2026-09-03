@@ -452,7 +452,10 @@ The old far-ridge streambed has never carried water off, even in the worst flood
 A landslide sits in the ridge water-gap, filling the notch with fallen rock and earth.
 
 ### gap-fill-examined
-From the crest, two readings the ground cannot give: the plug's lowest saddle, the sill any rising water would have to top to spill through into %BIG-BASIN%, reads high on the level, and the fill beds hard against the intact ridge with no open channel where the two meet. The material is dense clay and shattered rock packed tight, not loose rubble.
+Examined up close at the toe of the plug, the landslide fill is dense clay and shattered rock packed tight, not the loose rubble it looks like from a distance. Water will not seep through it. This settles only whether the plug leaks, not whether it can be overtopped.
+
+### gap-sill-above-flood
+Measured from the crest, the plug's lowest saddle, the sill any rising water would have to top to spill through into %BIG-BASIN%, stands above the %NEW_VILLAGE% flood line. Water cannot overtop the plug. This settles only the height, not whether the fill leaks.
 
 ### river-doesnt-match-map
 The river no longer runs where the map draws it. Its course has shifted: the wojewoda's bridge spans the river's new bed, while the map shows that ground dry and the river running elsewhere. The old course drawn on the map is now dry.

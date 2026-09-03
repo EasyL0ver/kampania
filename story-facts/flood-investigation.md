@@ -30,10 +30,11 @@ Leaf clues:
 - `bridge-over-solid-land` — from reading the map alone: a bridge is drawn spanning dry ground, with the river drawn running elsewhere. The map contradicts itself. An armchair lead pointing at the gap, no fieldwork needed.
 - `landslide-in-the-gap` — glance: a slide sits in the ridge water-gap. A lead, not proof.
 - (testimony route) **Paraskewia Chyłak** (bond-gated) has watched this land for twenty years and saw the ground change. She frames it in folk terms, "the river wants its old bed back", giving `river-doesnt-match-map`, and she knows a slide came down in the gap, giving `landslide-in-the-gap`. She does not concern herself with the far-ridge streambed. The reward for treating her with respect; invisible to players who don't.
-- `gap-fill-examined` — you climbed the plug and, at the crest, took two readings the ground cannot give: the plug's lowest saddle (the sill the rising water would have to top to spill into %BIG-BASIN%) reads high on the level, and the fill beds hard against the intact ridge with no open channel. The observation, not yet the conclusion. The access cost for `gap-is-blocked`. Earned at [The Ridge Gap](../locations/the-ridge-gap.md), reached from the survey routes. The sill height and the seal can be read only from the crest, which is what justifies the climb: a toe sample settles the material but not whether the plug actually holds the water back.
-- `gap-is-blocked` — precise: the sill stands above the flood line and the fill is impermeable, so the water can neither crest the plug nor seep through into %BIG-BASIN%. Earned from `gap-fill-examined` (climbing to the plug and reading the sill and fill), then either:
-  - With Geology: you read the fill and conclude it on-site, giving `gap-is-blocked`.
-  - Without Geology: you describe what you saw and report it to prof. Bieńkowski (phone), who certifies `gap-is-blocked`. The judgment that the fill won't pass water needs a geologist, in person or down the line.
+- `gap-fill-examined` — you reached the toe of the plug and dug into the fill: dense clay and shattered rock packed tight, not the loose rubble it looks like from below, so it will not seep. No climb needed. Settles the leak question only, not the height. Earned at [The Ridge Gap](../locations/the-ridge-gap.md), reached from the survey routes.
+- `gap-sill-above-flood` — you climbed the plug and, at the crest, shot the lowest saddle (the sill the rising water would have to top to spill into %BIG-BASIN%) against the village datum: it stands above the flood line, so the water cannot overtop the plug. The climb-gated half of the reading. Settles the height only, not the leak.
+- `gap-is-blocked` — precise: the sill stands above the flood line and the fill is impermeable, so the water can neither crest the plug nor seep through into %BIG-BASIN%. Earned from holding both `gap-fill-examined` and `gap-sill-above-flood`, then either:
+  - With Geology: you synthesise both on-site, giving `gap-is-blocked`.
+  - Without Geology: you describe both readings to prof. Bieńkowski (phone), who certifies `gap-is-blocked`. The judgment that the outlet is dead needs a geologist, in person or down the line.
 - `ditch-drains-nothing` — the PGR irrigation ditch cannot carry the flood off.
 - `ditch-drains-fine` — the trap. Run the drainage tables on the concrete head alone and the ditch reads fine, a channel of ample capacity that clears the flood. It is the report's all-clear and it is false: the sum covers only the concrete stretch, not the earth dugout that is most of the ditch. A geologist can reach it early, standing at the head with the kit and no need to walk. It baits a party into crossing the ditch off. Overturned only by walking the full length (`ditch-concrete-stops-short`) and rerunning the numbers over the real channel, which gives `ditch-drains-nothing`.
 - `ditch-concrete-stops-short` — the raw field tell: walk the ditch and the concrete gives out a short way down, the rest a plain earth dugout. It does not by itself say whether that is a fault, a shortfall against spec, or the intended build, nor whether the ditch can carry the flood. It is what unlocks both the spec check (`ditch-not-built-to-spec`) and, via the dugout measurements, the real drainage recalculation (`ditch-drains-nothing`).
@@ -65,8 +66,9 @@ Item:
 |---|---|---|
 | Ridge survey (on-site) | Geology | any drain conclusion from field data |
 | Walk the terrain | Survival | `landslide-in-the-gap` |
-| Climb the plug | physical climb | `gap-fill-examined` |
-| Read the fill | Geology on-site, or report to prof | `gap-is-blocked` |
+| Examine the fill at the toe | reach the base, no climb | `gap-fill-examined` |
+| Climb the plug | physical climb | `gap-sill-above-flood` |
+| Read both | Geology on-site, or report to prof | `gap-is-blocked` |
 | Read the map | Bureaucracy / study | `map-shows-gap-open`, `bridge-over-solid-land`, `new-village-sits-above-flood-line` |
 | Compare map to ground | observation | `river-doesnt-match-map` |
 | Inspect the ditch | on-site; walk its full length (the head is concrete and misleads) | `ditch-concrete-stops-short`; head-only drainage calc gives the trap `ditch-drains-fine`; walking + recalc gives `ditch-drains-nothing`; walked ditch vs the PGR office spec file gives `ditch-not-built-to-spec` |

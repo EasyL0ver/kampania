@@ -27,7 +27,7 @@ He speaks rapidly and precisely, in the clipped cadence of a lecturer who assume
 - **[%NEW_VILLAGE%](../locations/village-outskirts.md)** — The projection holds only if the valley can drain. I know of two outlets, the ridge gap and the old far-ridge streambed. If both are closed, the village is in the flood zone. I cannot prove it from Kraków; someone has to check them on the ground.
 - **The previous survey:** That report is thin. Too few stations, too much taken on faith. I would not trust the number behind it.
 - **`new-village-will-flood`:** Then the suspicion was right, and the official map is wrong where it matters most.
-- **`gap-is-blocked`:** One outlet gone. A landslide plug where the map shows a drain. Describe the fill and I can document the error.
+- **`gap-is-blocked`:** One outlet gone. A landslide plug where the map shows a drain. Describe the fill and the sill height and I can document the error.
 
 ## Actions
 
@@ -38,8 +38,8 @@ He speaks rapidly and precisely, in the clipped cadence of a lecturer who assume
 - **Gives:** Scene Unlock: **"Walk to the ridge gap"** and **"Read the streambed benchmarks"** at the [village outskirts](../locations/village-outskirts.md); NPC State Change: he is engaged and waiting for the field readings.
 
 ### Certify the plug
-- **Requires:** A phone, and the party has climbed the plug and can describe the fill: holds [gap-fill-examined](../clues/clues.md#gap-fill-examined)
-- **Prompted by:** [gap-fill-examined](../clues/clues.md#gap-fill-examined)
+- **Requires:** A phone, and the party has examined the fill at the toe and climbed to read the crest sill: holds [gap-fill-examined](../clues/clues.md#gap-fill-examined) and [gap-sill-above-flood](../clues/clues.md#gap-sill-above-flood)
+- **Prompted by:** [gap-fill-examined](../clues/clues.md#gap-fill-examined), [gap-sill-above-flood](../clues/clues.md#gap-sill-above-flood)
 - **Cost:** 1 action
 - **Outcome:** The party describes the sill height at the crest and the packed clay and shattered rock behind it. He judges the water can neither top the plug nor seep through it into %BIG-BASIN%, and documents the ridge gap as a dead outlet.
 - **Gives:** [gap-is-blocked](../clues/clues.md#gap-is-blocked)
