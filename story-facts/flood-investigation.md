@@ -32,11 +32,10 @@ Leaf clues:
   - Without Geology: you describe what you saw and report it to prof. Bieńkowski (phone), who certifies `gap-is-blocked`. The judgment that the fill won't pass water needs a geologist, in person or down the line.
 - `ditch-drains-nothing` — the PGR irrigation ditch cannot carry the flood off.
 - `ditch-not-built-to-spec` — the report specifies a concrete-lined channel with real capacity. The ditch is built to that spec for only its first tenth (a proper concrete head near the fields), then degrades to an unlined dugout the rest of the way. Anyone who inspects only the head sees a fine channel and believes it; the truth needs walking the full length. A side-lead pointing at the ditch, not proof it fails.
+- `streambed-parameters` — the two raw elevations that settle the streambed: the far-ridge col height and the village height. Obtained two ways, either a geologist shoots them with the kit (Survey the streambed col), or anyone copies the stamped figures off the dam-survey **reper** benchmarks in the field (Read the reper benchmarks, no skill). Raw data, not yet the conclusion.
 - `streambed-dead-ends` — the old far-ridge streambed's col sits above house level, so the rising water tops the village before it ever reaches that outlet. The map draws the streambed honestly; it just never shows the elevation, so only a survey on the ground catches this.
 - `streambed-never-drained` — a local remembers the streambed never carried water, even in the worst floods it just pools and stops against the rock. Testimony, an optional lead pointing at the streambed, not proof.
-- (confirm route) The dam-survey crews left a **reper** (geodetic benchmark, stamped elevation) at the streambed col. Reading it against the village benchmark shows the col is higher. Requires finding the markers in the field.
-  - With Geology: you read the two figures and conclude it yourself, giving `streambed-dead-ends`.
-  - Without Geology: you can copy the numbers but can't interpret them. Hand them to prof. Bieńkowski (phone), who certifies `streambed-dead-ends` from the readings.
+- (confirm route) Holding `streambed-parameters`, someone turns the two figures into the conclusion. With Geology you read them yourself; without Geology you read them to prof. Bieńkowski by phone, who certifies it. Either gives `streambed-dead-ends`.
 - `map-shows-gap-open` — the state map draws the gap as an open drain.
 - `new-village-sits-above-flood-line` — on paper the village is safe.
 - `water-tops-the-flood-line` — during the Day 3 storm, water on the new-village slope climbs about a metre above the surveyors' marked flood line. No skill needed, unmissable. The blunt empirical lead: the "safe" projection is already being exceeded. Contradicts `new-village-sits-above-flood-line`. Given by [The Flood](../events/the-flood.md); points at the threat, not proof it is permanent.
@@ -62,7 +61,9 @@ Item:
 | Read the map | Bureaucracy / study | `map-shows-gap-open`, `bridge-over-solid-land`, `new-village-sits-above-flood-line` |
 | Compare map to ground | observation | `river-doesnt-match-map` |
 | Inspect the ditch | on-site; walk its full length (the head is concrete and misleads) | `ditch-drains-nothing`; `ditch-not-built-to-spec` vs the spec doc |
-| Read the reper benchmarks | find markers; Geology or prof to interpret | `streambed-dead-ends` |
+| Survey the streambed col | Geology + kit | `streambed-parameters` |
+| Read the reper benchmarks | find markers; no skill | `streambed-parameters` |
+| Interpret the streambed figures | hold `streambed-parameters`; Geology or prof by phone | `streambed-dead-ends` |
 | Watch the storm | none | `water-tops-the-flood-line` |
 | The phone | office phone, monitored by Zbigniew | `survey-was-faked` (archive); certify field data with prof. Bieńkowski |
 | prof. Bieńkowski (phone) | hand him field readings | certifies any drain conclusion; `new-village-will-flood` |

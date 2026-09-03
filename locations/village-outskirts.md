@@ -81,18 +81,30 @@
 - **Outcome:** You scramble up the plug and get your hands on the fill. It is dense clay and shattered rock packed tight, not the loose rubble it looks like from below. Whether that seals the gap is a read for a geologist or for [prof. Bieńkowski](../characters/professor.md).
 - **Gives:** [gap-fill-examined](../clues/clues.md#gap-fill-examined)
 
-### Read the streambed benchmarks
-- **Requires:** Finding the reper markers at the far-ridge streambed col and beside %NEW_VILLAGE%, and **Geology**
+### Survey the streambed col
+- **Requires:** Reaching the far-ridge streambed col with the [geologist's kit](../items/geologists-kit.md), and **Geology**
 - **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
 - **Cost:** 1 action
-- **Outcome:** You read the two stamped elevations and conclude the col sits above house level, so the rising water tops the village before it reaches the streambed.
+- **Outcome:** With the level and clinometer you shoot the col and the village yourself and record both heights: the raw figures for the outlet.
+- **Gives:** [streambed-parameters](../clues/clues.md#streambed-parameters)
+
+### Read the reper benchmarks
+- **Requires:** Finding the reper markers at the far-ridge streambed col and beside %NEW_VILLAGE%
+- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
+- **Cost:** 1 action
+- **Outcome:** The dam-survey crews left stamped geodetic benchmarks at the col and by the village. Anyone can copy the two elevations off the markers, no skill needed.
+- **Gives:** [streambed-parameters](../clues/clues.md#streambed-parameters)
+
+### Read the figures as a surveyor
+- **Requires:** Holding [streambed-parameters](../clues/clues.md#streambed-parameters), and **Geology**
+- **Cost:** 1 action
+- **Outcome:** You read the two elevations and conclude the col sits above house level, so the rising water tops the village before it reaches the streambed.
 - **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 
-### Report the streambed benchmarks to the professor
-- **Requires:** Finding the reper markers at the far-ridge streambed col and beside %NEW_VILLAGE%, and a phone
-- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
+### Report the figures to the professor
+- **Requires:** Holding [streambed-parameters](../clues/clues.md#streambed-parameters), and a phone
 - **Cost:** 1 action
-- **Outcome:** You copy the figures and report them to [prof. Bieńkowski](../characters/professor.md) by phone, who reads the two elevations and certifies the streambed is no outlet.
+- **Outcome:** You read the figures to [prof. Bieńkowski](../characters/professor.md) by phone, who compares the two elevations and certifies the streambed is no outlet.
 - **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 
 ### Wander the forest

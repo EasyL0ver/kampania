@@ -415,6 +415,9 @@ The irrigation ditch matches its concrete-lined specification only for its first
 ### streambed-dead-ends
 The old streambed on the far ridge is not an outlet. Its col sits above house level, so the rising water tops %NEW_VILLAGE% before it ever reaches that streambed.
 
+### streambed-parameters
+The two elevations that settle the streambed: the height of the far-ridge col and the height of %NEW_VILLAGE%. The raw figures, before anyone reads what they mean.
+
 ### streambed-never-drained
 The old far-ridge streambed has never carried water off, even in the worst floods within living memory. Water pools against the rock there and stops.
 
