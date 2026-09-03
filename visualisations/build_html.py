@@ -212,7 +212,7 @@ const SKILL = {
   Violence:"#d1495b", Medicine:"#4ec9b0", Devotion:"#e6b34d", Language:"#f08a5d",
   Handiwork:"#c9a66b", Bureaucracy:"#8894a8", Chainsmoker:"#9b7ede", Speech:"#f4d35e",
   Geology:"#b5651d", History:"#7fb069", Physique:"#e07a5f", Alcoholic:"#c06c84",
-  Superstitious:"#a3c4bc"
+  Superstitious:"#a3c4bc", Loaded:"#3f9e5a"
 };
 const NOSKILL="#5b6472";
 function skillColor(s){ return SKILL[s] || NOSKILL; }
