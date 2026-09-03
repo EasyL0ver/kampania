@@ -4,7 +4,7 @@
 **Location:** The notch in the ridge between the %NEW_VILLAGE% valley and the [%OLD_VILLAGE% basin](old-village-ruins.md).
 **Present:** [Michał Pytlak](../characters/foreman.md) (if brought on the survey)
 **Available:** After reaching the gap from the survey routes ([Village Outskirts](village-outskirts.md))
-**Cost:** 1 action per interaction; the climb up to 3 (see below)
+**Cost:** 1 action per interaction; the climb is a multi-pitch group action (see [Climb the plug](#climb-the-plug))
 
 ## Setup
 
@@ -12,13 +12,13 @@
 - The state map draws it as an open channel, the valley's main drain.
 - An old landslide has choked the notch with fallen rock and earth.
 - From the base the fill looks like loose rubble floodwater would seep straight through.
-- The plug is a steep bank about two storeys high, and it climbs in three distinct bands, all visible from the base.
-- **Base:** a greasy near-vertical clay apron with no natural purchase; only real strength gets up it.
-- **Middle:** a belt of loose sandstone blocks that shift when weighted and can slide onto anyone below.
-- **Crest:** a short, steep rock lip, dry and hard, the last body-length over the deepest drop.
-- Everything is worse after rain; during and after the Day 3 storm the clay runs and the scree sloughs.
-- The climb is a one-person job; the rest of the party work the ground: belaying a rope, reading the line, spotting the climber.
-- A rope, if the party brought or scrounged one (the [PGR farm](pgr-farm.md) or [office](pgr-office.md) has line), changes the climb.
+- The plug is a steep bank about two storeys high, and it climbs in three distinct pitches.
+- **Lower bank (get on):** a greasy clay start; strength gets up it fastest, but a sure-footed or determined climber can scramble on too.
+- **The killzone (the crossing):** a loose, exposed traverse of shifting rock; only a strong climber crosses it, and only on a rope worked from below.
+- **The top pitch (top out):** a short, steep crux whose exact demand cannot be read from the ground, not even by a good eye; you only see what it takes once you are under it.
+- The lower bank and the killzone can be scouted from the ground by a Survival read, so the party can arrive with a rope and the right climber; the top pitch cannot.
+- The climb is a one-person job; the rest of the party work the ground: belaying the rope, reading the line, calling up.
+- A rope is essential to cross the killzone, and the party must have brought or scrounged one (the [PGR farm](pgr-farm.md) or [office](pgr-office.md) has line).
 - The top of the plug overlooks the [old-village basin](old-village-ruins.md), the low ground the map says the water should drain into.
 - Nothing but this fill stands between the two valleys.
 
@@ -29,16 +29,15 @@
 ## Actions
 
 ### Climb the plug
-- **Requires:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), and a climber with **Physique** (without it the clay apron cannot be climbed and no one gets up)
+- **Requires:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap); one climber going up, with the rest of the party on the ground
 - **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
-- **Cost:** climber spends 1 card (up to 3 if bands are taken slow); each ground assist is 1 card from the assisting PC
-- **Outcome:** One Physique climber goes up, the rest work the ground. Cross all three bands to reach the fill and get [gap-fill-examined](../clues/clues.md#gap-fill-examined). Physique gets a body onto the plug at all; it does not steady loose rock or catch a fall. The climb succeeds in the end; how the upper bands are covered decides whether the climber gets hurt. Injuries are the price, not a failed clue.
-  - **Ground support (1 card from the assisting PC):**
-    - **Belay a rope** (needs a rope) — catches a fall on the scree belt and the lip. The strongest safety net; kills the Wounded risk on both.
-    - **Read the line** (**Survival**) — a teammate reads bank and scree from below and calls the safe route up. Clears the scree.
-    - **Spot and pace** (no card) — keep only one climber on the plug and watch the rock; steadies the pace and keeps others out of the fall line.
-  - **1. Clay apron (the gate).** Slick vertical wet clay. Only **Physique** gets up it: a climber without Physique never passes, and the climb ends before it starts. This is why the climber is your Physique PC. With Physique he muscles up, no injury.
-  - **2. Scree belt (the danger).** Loose blocks that shift and slide; strength does not help here. Clear with a **rope belay** from below, or **Survival** (the climber's own or called up) to pick the anchored blocks. Uncovered, dry: a block rides down. **Bruised.** Uncovered, wet or into the storm: the belt sloughs. **Wounded.**
-  - **3. Rock lip (the finish).** A short, steep lip over the deepest drop. The climber's **Physique** hauls him over; a **rope** fixed here (or **Handiwork** to set the anchor) lets him do it without risk. Physique but no rope, on wet rock or already hurt from the scree: he can still peel off. **Wounded** (see [Wounds](../story-facts/game-system.md#wounds)).
-  - **Coordination:** your Physique PC is the only possible climber; the crew keep him alive on the scree and the lip with a rope and a Survival caller. A climber who also holds Survival reads his own line and needs the crew less; a rope on top makes the whole climb safe. No rope and no Survival leaves the scree and the lip dangerous, worse in the storm.
+- **Cost:** climber spends 1 card per attempt; each ground assist is 1 card from that PC; forcing the top pitch costs composure; a second attempt re-pays the climb through pitches 1 and 2
+- **Outcome:** One climber goes up, the crew work the ground. Top out to reach the fill and get [gap-fill-examined](../clues/clues.md#gap-fill-examined). The climb is a group coordination problem across three pitches, not a single card. Roles: the **climber** (needs **Physique** to finish), a ground **scout** (**Survival**, reads the lower pitches ahead of time), and a ground **partner** (works the rope).
+  - **1. Get on (soft gate).** Any climber gets onto the plug: **Physique** or **Survival** carries them up, or a character with neither forces it by spending **1 composure**. A Survival or composure climber can start, but has no strength for the killzone above.
+  - **2. The killzone (hard gate).** Crossing needs the climber's **Physique** **and** a **rope worked by a second PC** on the ground. A climber without Physique, or a climber with no rope and partner, cannot cross: they climb back down, the attempt spent. A ground **Survival** scout can read pitches 1 and 2 from below beforehand, so the party arrives with the rope and a strong climber assigned.
+  - **3. Top out (hidden gate).** What the top pitch demands cannot be seen from the ground, not even by Survival; only the climber, standing under the crux, sees what it takes (GM's pick: a longer line and an anchor, a pry bar, a plank to bridge). Then the table chooses:
+    - **Force it now** — a big composure tax (**2 composure**). Only a climber built with the reserve can pay it; a climber down to 1 composure cannot, and must come back. Tops out this trip.
+    - **Retreat and return** — climb down, fetch the gear the climber saw the crux needs, and next trip top out clean with no composure tax, re-paying the climb through pitches 1 and 2.
+    - Up to the players: spend composure now, or spend time later.
+  - Topping out, either way, reaches the fill. → Gives [gap-fill-examined](../clues/clues.md#gap-fill-examined).
 - **Gives:** [gap-fill-examined](../clues/clues.md#gap-fill-examined)
