@@ -83,14 +83,14 @@
 
 ### Read the streambed benchmarks
 - **Requires:** Finding the reper markers at the far-ridge streambed col and beside %NEW_VILLAGE%, and **Geology**
-- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain); [streambed-never-drained](../clues/clues.md#streambed-never-drained)
+- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
 - **Cost:** 1 action
 - **Outcome:** You read the two stamped elevations and conclude the col sits above house level, so the rising water tops the village before it reaches the streambed.
 - **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 
 ### Report the streambed benchmarks to the professor
 - **Requires:** Finding the reper markers at the far-ridge streambed col and beside %NEW_VILLAGE%, and a phone
-- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain); [streambed-never-drained](../clues/clues.md#streambed-never-drained)
+- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
 - **Cost:** 1 action
 - **Outcome:** You copy the figures and report them to [prof. Bieńkowski](../characters/professor.md) by phone, who reads the two elevations and certifies the streambed is no outlet.
 - **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
