@@ -72,9 +72,3 @@ A worn canvas roll of survey tools: a level and clinometer, a folded copy of the
 - **Cost:** 1 action
 - **Outcome:** With both cross-sections in hand, the concrete head and the shallow earth dugout, you run the tables over the real channel, not just the head. The undersized dugout backs up and overflows at flood volume. The ditch cannot carry the water off, and the head-only figure was a false all-clear.
 - **Gives:** [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing)
-
-### Check the ditch praise against the ditch
-- **Requires:** Holding the kit and having walked the ditch ([ditch-concrete-stops-short](../clues/clues.md#ditch-concrete-stops-short))
-- **Cost:** 1 action
-- **Outcome:** The report calls the ditch a fine concrete channel of ample capacity. The real ditch is concrete only at its head and an unlined dugout the rest of the way. The document and the ground do not match.
-- **Gives:** [ditch-not-built-to-spec](../clues/clues.md#ditch-not-built-to-spec)

@@ -15,6 +15,7 @@
 - The phone is the only phone in the village.
 - The maps show topography, rivers, old boundaries, and %OLD_VILLAGE%.
 - The ledger is on the desk during census work.
+- The shelf holds farm records, including construction and land-drainage (melioracja) files.
 
 ## Opportunities
 
@@ -60,6 +61,13 @@
 - **Cost:** 1 action
 - **Outcome:** The map's survey date predates the landslide and the river's shift. It cannot be trusted on the gap or the river's course.
 - **Gives:** [map-is-outdated](../clues/clues.md#map-is-outdated)
+
+### Pull the ditch construction file
+- **Requires:** Committee authority
+- **Prompted by:** [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain)
+- **Cost:** 1 action
+- **Outcome:** The shelf's land-drainage files hold the ditch's construction spec: a concrete-lined channel the full run, signed off as built. Set against a walked ditch it is the paper proof the ditch fell short.
+- **Gives:** Item: [PGR Irrigation Ditch Construction Spec](../items/ditch-construction-spec.md)
 
 ### Inspect the PGR ledger
 - **Requires:** Committee census work
