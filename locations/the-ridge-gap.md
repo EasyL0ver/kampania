@@ -1,14 +1,14 @@
 # The Ridge Gap
 
 **Type:** Location (revisitable, discoverable)
-**Location:** The notch in the ridge between the %NEW_VILLAGE% valley and the [%OLD_VILLAGE% basin](old-village-ruins.md).
+**Location:** The notch in the ridge between the %NEW_VILLAGE% valley and the empty %BIG-BASIN% beyond it.
 **Present:** [Michał Pytlak](../characters/foreman.md) (if brought on the survey)
 **Available:** After reaching the gap from the survey routes ([Village Outskirts](village-outskirts.md))
 **Cost:** 1 action per interaction; the climb is a multi-pitch group action (see [Climb the plug](#climb-the-plug))
 
 ## Setup
 
-- The gap is the low notch where the ridge dips between the two valleys.
+- The gap is the low notch where the ridge dips between the %NEW_VILLAGE% valley and %BIG-BASIN%.
 - The state map draws it as an open channel, the valley's main drain.
 - An old landslide has choked the notch with fallen rock and earth.
 - From the base the fill looks like loose rubble floodwater would seep straight through.
@@ -19,9 +19,9 @@
 - The lower bank and the killzone can be scouted from the ground by a Survival read, so the party can arrive with a rope and the right climber; the top pitch cannot.
 - The climb is a one-person job; the rest of the party work the ground: belaying the rope, reading the line, calling up.
 - A rope is essential to cross the killzone, and the party must have brought or scrounged one (the [PGR farm](pgr-farm.md) or [office](pgr-office.md) has line).
-- The fill can be sampled at the toe, but that only settles the material; whether the plug actually **seals** can be judged only at the crest, where the slid mass meets, or fails to meet, the intact ridge. That join is invisible from below.
-- The top of the plug overlooks the [old-village basin](old-village-ruins.md), the low ground the map says the water should drain into.
-- Nothing but this fill stands between the two valleys.
+- The fill can be sampled at the toe, but that only settles whether it seeps. What decides the outlet is read only at the crest: the height of the plug's lowest saddle (the sill the rising water must top to spill into %BIG-BASIN%) and whether the slid mass beds against the intact ridge or leaves a channel. Both are invisible from below.
+- The top of the plug overlooks the empty %BIG-BASIN%, the ground the map says the valley's water should drain into.
+- Nothing but this fill stands between the valley and %BIG-BASIN%.
 
 ## Opportunities
 
@@ -33,7 +33,7 @@
 - **Requires:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap); one climber going up, with the rest of the party on the ground
 - **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 - **Cost:** climber spends 1 card per attempt; each ground assist is 1 card from that PC; forcing the top pitch costs composure; a second attempt re-pays the climb through pitches 1 and 2
-- **Outcome:** One climber goes up, the crew work the ground. Top out to reach the fill and get [gap-fill-examined](../clues/clues.md#gap-fill-examined). Why climb at all: a geologist can grab fill at the toe and call it impermeable, but that only settles the material, not the seal. The one place the plug might still leak, where the slide beds against the intact ridge at the crest, cannot be seen from the ground; topping out is the only way to rule out a spill path. It also puts the climber looking straight down into the [old-village basin](old-village-ruins.md) the water is meant to escape into, so the finding and its weight land together: there is no way out. The climb is a group coordination problem across three pitches, not a single card. Roles: the **climber** (needs **Physique** to finish), a ground **scout** (**Survival**, reads the lower pitches ahead of time), and a ground **partner** (works the rope).
+- **Outcome:** One climber goes up, the crew work the ground. Top out to reach the fill and get [gap-fill-examined](../clues/clues.md#gap-fill-examined). Why climb at all: the fill can be sampled at the toe, but that only settles whether it seeps, not whether the plug holds. What decides the outlet is the height of the plug's lowest saddle, the sill the rising water must top to spill into %BIG-BASIN%, and you cannot read that saddle from the valley floor: it sits back behind the front lip, foreshortened and screened. Only a climber on the crest can find it, stand a rod on it, and shoot its height against the village datum. Topping out also puts the climber looking straight down into the empty %BIG-BASIN% the water is meant to escape into, so the number and its weight land together: if the sill stands above the flood line, there is no way out. The climb is a group coordination problem across three pitches, not a single card. Roles: the **climber** (needs **Physique** to finish), a ground **scout** (**Survival**, reads the lower pitches ahead of time), and a ground **partner** (works the rope).
   - **1. Get on (soft gate).** Any climber gets onto the plug: **Physique** or **Survival** carries them up, or a character with neither forces it by spending **1 composure**. A Survival or composure climber can start, but has no strength for the killzone above.
   - **2. The killzone (hard gate).** Crossing needs the climber's **Physique** **and** a **rope worked by a second PC** on the ground. A climber without Physique, or a climber with no rope and partner, cannot cross: they climb back down, the attempt spent. A ground **Survival** scout can read pitches 1 and 2 from below beforehand, so the party arrives with the rope and a strong climber assigned.
   - **3. Top out (hidden gate).** The crux is the capping slab: a torn-out block of sandstone that **overhangs** the fill by a body-length, smooth and undercut, with no holds and nothing above to anchor to, and the solid ridge sitting back beyond it. From the ground the overhang is invisible, it reads as just the top edge; only the climber directly beneath it sees the roll-back and calls down what it needs. The gear, GM's pick from whatever the party can actually scrounge:

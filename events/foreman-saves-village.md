@@ -7,9 +7,9 @@
 ## Trigger
 
 - [Michał Pytlak](../characters/foreman.md) believes %NEW_VILLAGE% can be saved by reopening the water-gap.
-- The water-gap is the notch in the ridge between the two valleys.
+- The water-gap is the notch in the ridge between the %NEW_VILLAGE% valley and the empty %BIG-BASIN%.
 - An old landslide plugged the water-gap with loose rock and earth.
-- Clearing the plug sends floodwater into the lower [%OLD_VILLAGE%](../locations/old-village-ruins.md) basin instead of backing it up onto the houses.
+- Clearing the plug sends floodwater through the gap into the empty %BIG-BASIN% instead of backing it up onto the houses.
 - The only fast way to move the plug is explosives.
 - The only explosives in the valley are old partisan ordnance in the [UPA bunker](../locations/upa-bunker.md).
 
@@ -21,7 +21,7 @@
 ## Setup
 
 - [Michał Pytlak](../characters/foreman.md) says the village is drowning because the water cannot run through the plugged gap.
-- The low ground beyond the gap is the [%OLD_VILLAGE%](../locations/old-village-ruins.md) basin.
+- The ground beyond the gap is the empty %BIG-BASIN%, big enough to take the water without drowning anyone.
 - The plug is loose debris and soft shale, not hard sandstone.
 - A charge placed in the right seam can start a notch.
 - Floodwater can widen the breach after the blast.
@@ -57,12 +57,12 @@
 - **Requires:** The charges and access to the plugged gap on the ridge.
 - **Cost:** 1 action
 - **Outcome:** The charge opens a breach, floodwater widens it, and the water level in %NEW_VILLAGE% starts to drop.
-- **Gives:** World State Change: %NEW_VILLAGE% is saved and the [%OLD_VILLAGE%](../locations/old-village-ruins.md) basin floods; Ending Progress: the engineering ending resolves.
+- **Gives:** World State Change: %NEW_VILLAGE% is saved and the empty %BIG-BASIN% floods (no one lives there); Ending Progress: the engineering ending resolves.
 
 ## Exits
 
 - Return to %NEW_VILLAGE% after the water level begins to drop.
-- Go to [%OLD_VILLAGE%](../locations/old-village-ruins.md), where the basin is taking the redirected water.
+- Go to [%OLD_VILLAGE%](../locations/old-village-ruins.md), which is going under regardless, from this flood and the reservoir that will bury it.
 - Return to [PGR farm](../locations/pgr-farm.md) to manage the aftermath.
 
 ## If Missed

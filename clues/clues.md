@@ -404,7 +404,7 @@ PGR workers exchange glances when asked about accidents. "The barn's been fixed 
 %NEW_VILLAGE% is safe. The PGR irrigation ditch carries the flood clear of the valley, so the water drains away and never reaches the houses. One working outlet is all the valley needs, and here is one. This is the reassuring answer, and it is false: it rests entirely on the ditch's concrete head, which calculates as ample only because no one measured the earth dugout that runs the rest of its length. The gap and the streambed are never even tested. It contradicts new-village-will-flood.
 
 ### gap-is-candidate-drain
-The ridge water-gap is one of the candidate outlets floodwater could leave the %NEW_VILLAGE% valley through.
+The ridge water-gap, the notch the map shows draining into the empty %BIG-BASIN%, is one of the candidate outlets floodwater could leave the %NEW_VILLAGE% valley through.
 
 ### ditch-is-candidate-drain
 The PGR irrigation ditch is one of the candidate outlets floodwater could leave the %NEW_VILLAGE% valley through.
@@ -416,7 +416,7 @@ The old far-ridge streambed is one of the candidate outlets floodwater could lea
 prof. Bieńkowski suspects the official flood line for the %NEW_VILLAGE% valley may be miscalculated. If the valley does not drain as the survey assumes, the projected safe level is wrong and the new village may not sit above it after all.
 
 ### gap-is-blocked
-A ridge separates the low old-village valley from %NEW_VILLAGE%. The state map shows a water-gap through that ridge as an open drain, but an old landslide has plugged it with impermeable fill. Floodwater cannot pass through to the low basin. It is one of the three outlets the valley needs, and it is sealed.
+A ridge separates the %NEW_VILLAGE% valley from the empty %BIG-BASIN% beyond it. The state map shows a water-gap through that ridge as an open drain into %BIG-BASIN%, the outlet the whole safety calculation rests on. An old landslide has plugged it: the crest of the plug stands above the flood line, and the fill is impermeable, so rising water can neither crest the plug nor seep through it into %BIG-BASIN%. It is one of the three outlets the valley needs, and it is sealed.
 
 ### ditch-drains-nothing
 The PGR irrigation ditch cannot carry the floodwater off. At flood volume it backs up and overflows; it is far too small to drain the valley.
@@ -452,7 +452,7 @@ The old far-ridge streambed has never carried water off, even in the worst flood
 A landslide sits in the ridge water-gap, filling the notch with fallen rock and earth.
 
 ### gap-fill-examined
-Seen up close from atop the plug, the landslide fill choking the ridge gap is dense clay and shattered rock packed tight, not loose rubble, and it beds hard against the intact ridge at the crest with no open channel where the two meet.
+From the crest, two readings the ground cannot give: the plug's lowest saddle, the sill any rising water would have to top to spill through into %BIG-BASIN%, reads high on the level, and the fill beds hard against the intact ridge with no open channel where the two meet. The material is dense clay and shattered rock packed tight, not loose rubble.
 
 ### river-doesnt-match-map
 The river no longer runs where the map draws it. Its course has shifted: the wojewoda's bridge spans the river's new bed, while the map shows that ground dry and the river running elsewhere. The old course drawn on the map is now dry.

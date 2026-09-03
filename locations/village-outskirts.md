@@ -19,7 +19,7 @@
 - Streams cross ridges through narrow water-gaps.
 - %NEW_VILLAGE% sits in one valley.
 - [%OLD_VILLAGE%](old-village-ruins.md) lies in the lower valley beyond a sandstone ridge.
-- The map marks a [water-gap](the-ridge-gap.md) through the ridge between the new-village valley and old-village basin.
+- The map marks a [water-gap](the-ridge-gap.md) through the ridge between the new-village valley and the empty %BIG-BASIN%.
 - The marked water-gap is blocked by loose earth and broken rock from an old landslide.
 - A far ridge across the valley carries an old dry streambed that appears to spill toward the next valley; see the [Far-Ridge Streambed](far-ridge-streambed.md).
 - The wojewoda's new bridge spans the river's present bed; on the map that ground is drawn dry, with the river on its old course.

@@ -41,7 +41,7 @@ He speaks rapidly and precisely, in the clipped cadence of a lecturer who assume
 - **Requires:** A phone, and the party has climbed the plug and can describe the fill: holds [gap-fill-examined](../clues/clues.md#gap-fill-examined)
 - **Prompted by:** [gap-fill-examined](../clues/clues.md#gap-fill-examined)
 - **Cost:** 1 action
-- **Outcome:** The party describes the packed clay and shattered rock choking the gap. He judges the impermeable fill will not pass water and documents the ridge gap as a dead outlet.
+- **Outcome:** The party describes the sill height at the crest and the packed clay and shattered rock behind it. He judges the water can neither top the plug nor seep through it into %BIG-BASIN%, and documents the ridge gap as a dead outlet.
 - **Gives:** [gap-is-blocked](../clues/clues.md#gap-is-blocked)
 
 ### Certify the streambed
