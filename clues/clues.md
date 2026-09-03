@@ -517,8 +517,8 @@ The committee's stated purpose in the village is a geographical survey — terra
 ### committee-notes-property-for-damage
 The committee is recording each household's property and its value, ostensibly to assess damages. Asking what land is worth is part of the official remit.
 
-### mission-is-a-front
-Our own assignment is a cover. The real reason the state sent this committee isn't the survey it names; there is something it won't state, and the official purpose is a front we were handed.
+### committee-hides-the-flood
+What the committee is really here to hide is the flood. Its true job is to run the survey and file a clean report so the resettlement proceeds; the danger that %NEW_VILLAGE% will flood is exactly what the state means it to keep out of the paper.
 
 ### committee-fills-census
 The committee is taking a census: who lives in each household, names, ages, how long they have been here. Counting heads is part of the official remit.

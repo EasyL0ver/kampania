@@ -56,7 +56,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 
 ## Opportunities
 
-- **Property suspicion** `(requires: Property assessment and flood not disclosed and no convincing cover)` — his questions turn controlled, and he starts tracking where the committee goes. See [Tell Wojewoda about the flood risk](../events/arrival.md#tell-wojewoda-about-the-flood-risk). → Gives: [`mission-is-a-front`](../clues/clues.md#mission-is-a-front)
+- **Property suspicion** `(requires: Property assessment and flood not disclosed and no convincing cover)` — his questions turn controlled, and he starts tracking where the committee goes. See [Tell Wojewoda about the flood risk](../events/arrival.md#tell-wojewoda-about-the-flood-risk). → Gives: [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood)
 
 ## Actions
 
