@@ -29,3 +29,16 @@
 - **Cost:** 1 action
 - **Outcome:** Scramble to the base of the plug and dig into it. From a distance the fill looks like loose rubble the water would run straight through; up close it is dense clay and shattered rock packed tight, impermeable. This settles only whether the plug leaks, not whether the water level can rise over it (that is the crest sill, which needs the climb). → Gives: [gap-fill-examined](../clues/clues.md#gap-fill-examined)
   - **Geology:** reads the fill directly and confirms it will not pass water at flood pressure.
+
+### Climb the plug
+- **Requires:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap); a climber, the rest of the party on the ground, and a rope for the killzone
+- **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
+- **Cost:** 1 action to commit; the ascent resolves in its own scene
+- **Outcome:** The party sets up at the foot of the plug and goes for the crest. Play [Climb the Plug](../events/climb-the-plug.md).
+- **Gives:** Scene Unlock: [Climb the Plug](../events/climb-the-plug.md)
+
+### Climb the plug in the rain
+- **Requires:** The demolition charges and a committed engineering plan (from [Michał Pytlak Saves the Village](../events/foreman-saves-village.md)); a climber willing to go up at flood peak
+- **Cost:** 1 action to commit; the ascent resolves in its own scene
+- **Outcome:** With the charges in hand and the flood cresting, the party goes back up to set the charge. Play [Climb the Plug in the Rain](../events/climb-the-plug-in-the-rain.md).
+- **Gives:** Scene Unlock: [Climb the Plug in the Rain](../events/climb-the-plug-in-the-rain.md)
