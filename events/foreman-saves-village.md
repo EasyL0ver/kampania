@@ -61,7 +61,9 @@
 - **Cost:** 1 action
 - **Outcome:** The charge has to be set in the shale seam under the crux slab, the same overhang the survey climb met, and this is the second time up, now in driving rain with the clay greased and the killzone running with water.
   - **If the crux was anchored on the survey climb:** the clamp is still in the seam. The climber clips it and pulls over the crux even in the wet, sets the charge, and gets clear. No composure tax.
-  - **If it was not:** there is no fixed hold and the rain has eaten the free-solo margin. Topping out costs a brutal composure tax (**3 composure**), and a climber without the reserve cannot make it: the charge does not get set this attempt and someone may come off the slab.
+  - **If it was not:** there is no fixed hold and the rain has eaten the free-solo margin. The climber chooses:
+    - **Force it in the rain** — free-solo the wet overhang: a brutal composure tax (**3 composure**), and a climber without the reserve cannot make it, the charge goes unset this attempt and someone may come off the slab.
+    - **Come down and fix it** — climb back, fetch the clamp and hammer, drive it home, and go up again clean with no composure tax. But it costs precious time with the flood already at its peak: the water keeps climbing while they work, and more of %NEW_VILLAGE% goes under before the charge finally blows.
   - Once the charge is set and the climbers are clear, it blows: the notch opens, floodwater widens it, and the water level in %NEW_VILLAGE% starts to drop.
 - **Gives:** World State Change: %NEW_VILLAGE% is saved and the empty %BIG-BASIN% floods (no one lives there); Ending Progress: the engineering ending resolves.
 
