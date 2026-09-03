@@ -32,7 +32,7 @@ Leaf clues:
   - Without Geology: you describe what you saw and report it to prof. Bieńkowski (phone), who certifies `gap-is-blocked`. The judgment that the fill won't pass water needs a geologist, in person or down the line.
 - `ditch-drains-nothing` — the PGR irrigation ditch cannot carry the flood off.
 - `ditch-not-built-to-spec` — the report specifies a concrete-lined channel with real capacity. The ditch is built to that spec for only its first tenth (a proper concrete head near the fields), then degrades to an unlined dugout the rest of the way. Anyone who inspects only the head sees a fine channel and believes it; the truth needs walking the full length. A side-lead pointing at the ditch, not proof it fails.
-- `streambed-parameters` — the two raw elevations that settle the streambed: the far-ridge col height and the village height. Two paths, either a geologist shoots them with the kit in one action (Survey the streambed col, other PCs can assist), or anyone hunts down the dam-survey **reper** benchmarks in the field and copies the stamped figures (Read the reper benchmarks, no skill but time-consuming, an open-ended search of unknown length). Raw data, not yet the conclusion.
+- `streambed-parameters` — the two raw elevations that settle the streambed: the far-ridge col height and the village height. Two paths, both expensive. A geologist runs a level line with the kit (Survey the streambed col), a full day of fieldwork, about 6 cards solo, cut to a floor of 3 if other PCs assist. Or anyone hunts down the dam-survey **reper** benchmarks in the field and copies the stamped figures (Read the reper benchmarks, no skill, but an open-ended search of unknown length). Raw data, not yet the conclusion.
 - `streambed-dead-ends` — the old far-ridge streambed's col sits above house level, so the rising water tops the village before it ever reaches that outlet. The map draws the streambed honestly; it just never shows the elevation, so only a survey on the ground catches this.
 - `streambed-never-drained` — a local remembers the streambed never carried water, even in the worst floods it just pools and stops against the rock. Testimony, an optional lead pointing at the streambed, not proof.
 - (confirm route) Holding `streambed-parameters`, someone turns the two figures into the conclusion. With Geology you read them yourself; without Geology you read them to prof. Bieńkowski by phone, or show them to Michał Pytlak, who knows the valley well enough to call it. Any of the three gives `streambed-dead-ends`.
@@ -61,7 +61,7 @@ Item:
 | Read the map | Bureaucracy / study | `map-shows-gap-open`, `bridge-over-solid-land`, `new-village-sits-above-flood-line` |
 | Compare map to ground | observation | `river-doesnt-match-map` |
 | Inspect the ditch | on-site; walk its full length (the head is concrete and misleads) | `ditch-drains-nothing`; `ditch-not-built-to-spec` vs the spec doc |
-| Survey the streambed col | Geology + kit; helpers speed it | `streambed-parameters` (fixed 1 action) |
+| Survey the streambed col | Geology + kit; helpers speed it | `streambed-parameters` (a full day, ~6 cards solo, floor 3 with help) |
 | Read the reper benchmarks | search for old markers; no skill | `streambed-parameters` (open-ended, unknown time) |
 | Interpret the streambed figures | hold `streambed-parameters`; Geology, prof by phone, or show Pytlak | `streambed-dead-ends` |
 | Watch the storm | none | `water-tops-the-flood-line` |

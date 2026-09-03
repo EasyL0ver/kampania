@@ -84,7 +84,7 @@
 ### Survey the streambed col
 - **Requires:** Reaching the far-ridge streambed col with the [geologist's kit](../items/geologists-kit.md), and **Geology**. Other PCs can assist to speed the work.
 - **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
-- **Cost:** 1 action (a geologist must run it; helpers hauling the level and holding the staff shorten it)
+- **Cost:** A full day of fieldwork. Running a level line from the col down to the village over rough ground, setting the instrument up again every short stretch, takes the geologist most of a day: about **6 cards** working alone. Each PC who assists (hauling the level, holding the staff, recording) cuts it by 1 card, to a floor of **3**.
 - **Outcome:** With the level and clinometer you shoot the col and the village yourself and record both heights: the raw figures for the outlet.
 - **Gives:** [streambed-parameters](../clues/clues.md#streambed-parameters)
 
