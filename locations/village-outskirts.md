@@ -19,7 +19,7 @@
 - Streams cross ridges through narrow water-gaps.
 - %NEW_VILLAGE% sits in one valley.
 - [%OLD_VILLAGE%](old-village-ruins.md) lies in the lower valley beyond a sandstone ridge.
-- The map marks a water-gap through the ridge between the new-village valley and old-village basin.
+- The map marks a [water-gap](the-ridge-gap.md) through the ridge between the new-village valley and old-village basin.
 - The marked water-gap is blocked by loose earth and broken rock from an old landslide.
 - A far ridge across the valley carries an old dry streambed that appears to spill toward the next valley; see the [Far-Ridge Streambed](far-ridge-streambed.md).
 - The wojewoda's new bridge spans the river's present bed; on the map that ground is drawn dry, with the river on its old course.
@@ -34,7 +34,6 @@
 - **Spot Butcher at his house** `(requires: Finesse on the route past [Stanisław Rezeń](../characters/butcher.md)'s house)` — Rezeń is alone near the treeline and using the same direction repeatedly. → Gives: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
 - **Spot the drinking crew heading into the forest** `(requires: Survival near the treeline track)` — Tadek Gajda and the crew carry bottles toward the forest. → Gives: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
 - **See the landslide plug** `(requires: Survival on a survey route)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The notch in the ridge is choked with fallen rock and earth. → Gives: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
-- **The fill won't pass water** `(requires: holding [`gap-fill-examined`](../clues/clues.md#gap-fill-examined) and Geology)` — the packed clay and shattered rock will not pass water; the gap is sealed. → Gives: [gap-is-blocked](../clues/clues.md#gap-is-blocked)
 - **The river isn't where the map draws it** `(requires: observation comparing map to ground)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The wojewoda's bridge spans running water, but the map shows that ground dry and the river on its old course. → Gives: [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map)
 
 ## Actions
@@ -70,15 +69,8 @@
 - **Requires:** Reaching the ridge water-gap (visible from the survey routes)
 - **Prompted by:** [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain); [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map); [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land)
 - **Cost:** 1 action
-- **Outcome:** You reach the notch. A landslide has choked the gap with fallen rock and earth. Whether that fill actually stops the water is a further question, settled by climbing the plug for a geological read on-site or by describing it to [prof. Bieńkowski](../characters/professor.md).
-- **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap); Scene Unlock: [Foreman Saves the Village](../events/foreman-saves-village.md)
-
-### Climb the plug
-- **Requires:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), and physically climbing the fallen fill in the notch
-- **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
-- **Cost:** 1 action
-- **Outcome:** You scramble up the plug and get your hands on the fill. It is dense clay and shattered rock packed tight, not the loose rubble it looks like from below. Whether that seals the gap is a read for a geologist or for [prof. Bieńkowski](../characters/professor.md).
-- **Gives:** [gap-fill-examined](../clues/clues.md#gap-fill-examined)
+- **Outcome:** You reach the notch. A landslide has choked the gap with fallen rock and earth. Whether that fill actually stops the water is a further question, settled at [The Ridge Gap](the-ridge-gap.md) by climbing the plug for a geological read on-site or by describing it to [prof. Bieńkowski](../characters/professor.md).
+- **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap); Scene Unlock: [The Ridge Gap](the-ridge-gap.md); Scene Unlock: [Foreman Saves the Village](../events/foreman-saves-village.md)
 
 ### Wander the forest
 - **Requires:** Nothing
