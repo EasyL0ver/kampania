@@ -71,6 +71,13 @@ Michał backs [Zbigniew Gajda](wojewoda.md)'s optimistic line only while he beli
 - **Outcome:** With nothing left to protect, Michał walks the outlets from memory. He names the landslide sitting in the ridge gap, though he cannot say whether it seals the notch fully or leaks.
 - **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 
+### Ask where the surveyors have already been
+- **Requires:** [Michał Pytlak](foreman.md) willing to coordinate on the flood (after [Talk to him about the flood](#talk-to-him-about-the-flood))
+- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
+- **Cost:** 1 action
+- **Outcome:** Michał remembers the Solina dam survey crews working the valley years back. They set benchmark markers across it, up at the far-ridge streambed col and down by the village among them. "If it's the streambed's height you want, their marks are still out there."
+- **Gives:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
+
 ### Show him the streambed figures
 - **Requires:** [Michał Pytlak](foreman.md) present and holding [streambed-parameters](../clues/clues.md#streambed-parameters)
 - **Cost:** 1 action
