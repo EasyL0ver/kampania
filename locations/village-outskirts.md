@@ -21,8 +21,7 @@
 - [%OLD_VILLAGE%](old-village-ruins.md) lies in the lower valley beyond a sandstone ridge.
 - The map marks a water-gap through the ridge between the new-village valley and old-village basin.
 - The marked water-gap is blocked by loose earth and broken rock from an old landslide.
-- A far ridge across the valley carries an old dry streambed that appears to spill toward the next valley.
-- Survey crews left stamped benchmark markers (repery) at the streambed col and beside %NEW_VILLAGE%.
+- A far ridge across the valley carries an old dry streambed that appears to spill toward the next valley; see the [Far-Ridge Streambed](far-ridge-streambed.md).
 - The wojewoda's new bridge spans the river's present bed; on the map that ground is drawn dry, with the river on its old course.
 - The southern approach slopes down into a long mild depression.
 - The survey route can pass the old village ruins.
@@ -80,26 +79,6 @@
 - **Cost:** 1 action
 - **Outcome:** You scramble up the plug and get your hands on the fill. It is dense clay and shattered rock packed tight, not the loose rubble it looks like from below. Whether that seals the gap is a read for a geologist or for [prof. Bieńkowski](../characters/professor.md).
 - **Gives:** [gap-fill-examined](../clues/clues.md#gap-fill-examined)
-
-### Survey the streambed col
-- **Requires:** Reaching the far-ridge streambed col with the [geologist's kit](../items/geologists-kit.md), and **Geology**. Other PCs can assist to speed the work.
-- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
-- **Cost:** A full day of fieldwork. Running a level line from the col down to the village over rough ground, setting the instrument up again every short stretch, takes the geologist most of a day: about **6 cards** working alone. Each PC who assists (hauling the level, holding the staff, recording) cuts it by 1 card, to a floor of **3**.
-- **Outcome:** With the level and clinometer you shoot the col and the village yourself and record both heights: the raw figures for the outlet.
-- **Gives:** [streambed-parameters](../clues/clues.md#streambed-parameters)
-
-### Read the reper benchmarks
-- **Requires:** Searching the far ridge and the village edge for the dam-survey markers. No skill needed to copy them once found.
-- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain); [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
-- **Cost:** Time-consuming and open-ended: the markers are old and half-buried, so the search runs an unknown number of actions (GM's call) before anyone can read them.
-- **Outcome:** The dam-survey crews left stamped geodetic benchmarks at the col and by the village. Once the markers are found, anyone can copy the two elevations off them, no skill needed.
-- **Gives:** [streambed-parameters](../clues/clues.md#streambed-parameters)
-
-### Report the figures to the professor
-- **Requires:** Holding [streambed-parameters](../clues/clues.md#streambed-parameters), and a phone
-- **Cost:** 1 action
-- **Outcome:** You read the figures to [prof. Bieńkowski](../characters/professor.md) by phone, who compares the two elevations and certifies the streambed is no outlet.
-- **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 
 ### Wander the forest
 - **Requires:** Nothing

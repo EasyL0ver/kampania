@@ -61,8 +61,8 @@ Item:
 | Read the map | Bureaucracy / study | `map-shows-gap-open`, `bridge-over-solid-land`, `new-village-sits-above-flood-line` |
 | Compare map to ground | observation | `river-doesnt-match-map` |
 | Inspect the ditch | on-site; walk its full length (the head is concrete and misleads) | `ditch-drains-nothing`; `ditch-not-built-to-spec` vs the spec doc |
-| Survey the streambed col | Geology + kit; helpers speed it | `streambed-parameters` (a full day, ~6 cards solo, floor 3 with help) |
-| Read the reper benchmarks | search for old markers; no skill | `streambed-parameters` (open-ended, unknown time) |
+| Survey the streambed col | Geology + kit; helpers speed it; at [Far-Ridge Streambed] | `streambed-parameters` (a full day, ~6 cards solo, floor 3 with help) |
+| Read the reper benchmarks | search for old markers; no skill; at [Far-Ridge Streambed] | `streambed-parameters` (open-ended, unknown time) |
 | Interpret the streambed figures | hold `streambed-parameters`; Geology, prof by phone, or show Pytlak | `streambed-dead-ends` |
 | Watch the storm | none | `water-tops-the-flood-line` |
 | The phone | office phone, monitored by Zbigniew | `survey-was-faked` (archive); certify field data with prof. Bieńkowski |
