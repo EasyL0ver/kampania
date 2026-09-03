@@ -418,6 +418,9 @@ A ridge separates the low old-village valley from %NEW_VILLAGE%. The state map s
 ### ditch-drains-nothing
 The PGR irrigation ditch cannot carry the floodwater off. At flood volume it backs up and overflows; it is far too small to drain the valley.
 
+### ditch-drains-fine
+Run against the drainage tables, the irrigation ditch's concrete head is a channel of ample capacity: on those figures it carries the flood clear of the fields. This is the report's all-clear, and it is false. The sum measures only the short concrete stretch, not the earth dugout that makes up most of the ditch. Only someone who has walked the full length has cause to doubt it.
+
 ### ditch-not-built-to-spec
 The irrigation ditch matches its concrete-lined specification only for its first short stretch near the fields. Past that it degrades to a shallow, unlined dugout for most of its length. Inspecting only the head gives a false impression of a sound channel.
 
