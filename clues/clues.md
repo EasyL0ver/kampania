@@ -421,6 +421,12 @@ The PGR irrigation ditch cannot carry the floodwater off. At flood volume it bac
 ### ditch-drains-fine
 Run against the drainage tables, the irrigation ditch's concrete head is a channel of ample capacity: on those figures it carries the flood clear of the fields. This is the report's all-clear, and it is false. The sum measures only the short concrete stretch, not the earth dugout that makes up most of the ditch. Only someone who has walked the full length has cause to doubt it.
 
+### concrete-ditch-measurements
+The cross-section of the irrigation ditch's concrete head: the width, depth, and fall of the lined channel near the fields. Raw figures taken with a tape, no skill needed. On their own they settle nothing; a surveyor feeds them to the drainage tables.
+
+### dugout-measurements
+The cross-section of the irrigation ditch where the concrete gives out: the width and depth of the shallow, unlined earth dugout that runs most of its length. Raw figures taken with a tape, no skill needed. Paired with the concrete-head figures they let a surveyor size the real channel.
+
 ### ditch-not-built-to-spec
 The irrigation ditch matches its concrete-lined specification only for its first short stretch near the fields. Past that it degrades to a shallow, unlined dugout for most of its length. Inspecting only the head gives a false impression of a sound channel.
 
