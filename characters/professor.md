@@ -44,12 +44,6 @@ He speaks rapidly and precisely, in the clipped cadence of a lecturer who assume
 - **Outcome:** The party describes the packed clay and shattered rock choking the gap. He judges the impermeable fill will not pass water and documents the ridge gap as a dead outlet.
 - **Gives:** [gap-is-blocked](../clues/clues.md#gap-is-blocked)
 
-### Call him back — certify the flood
-- **Requires:** A phone, and the party has ruled out all three outlets: holds [gap-is-blocked](../clues/clues.md#gap-is-blocked), [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing), and [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
-- **Cost:** 1 action
-- **Outcome:** He takes the three findings, records the date and the party as his source, and confirms the valley has no outlet below house level. The projection is dead wrong: %NEW_VILLAGE% will flood.
-- **Gives:** [new-village-will-flood](../clues/clues.md#new-village-will-flood); NPC State Change: he becomes the off-site lifeline; World State Change: the flood truth exists outside the village; Ending Progress: the outside world can learn what the state buried through [phone-is-lifeline](../clues/clues.md#phone-is-lifeline) and [The Report](../events/the-report.md).
-
 ## Bond
 
 - [ ] Reference his published work or show familiarity with hydrology

@@ -71,12 +71,6 @@ He knows nothing of the old village, the massacre, or the well. His quarrel is w
 - **Outcome:** He points the player toward Tadek's crew and the treeline without coaxing.
 - **Gives:** [`drinking-crew-heads-to-forest`](../clues/clues.md#drinking-crew-heads-to-forest)
 
-### Lay the drain findings in front of him
-- **Requires:** The party has ruled out all three outlets: holds [gap-is-blocked](../clues/clues.md#gap-is-blocked), [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing), and [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
-- **Cost:** 1 action
-- **Outcome:** The teacher surfaces under the drunk. He lines up the three dead outlets, works it through aloud, and says flatly that the valley cannot drain and the village will flood. He is right, and he knows no one will believe it because it came from him. An in-village certifier for a party that cannot reach [prof. Bieńkowski](professor.md) by phone.
-- **Gives:** [new-village-will-flood](../clues/clues.md#new-village-will-flood)
-
 ### Census interview
 - **Requires:** Committee authority
 - **Cost:** 1 action

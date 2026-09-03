@@ -246,6 +246,12 @@ links.forEach((l,i)=>incoming.get(l.target.id).push(i));
 nodes.forEach(n=>n.deg=0);
 links.forEach(l=>{ l.source.deg++; l.target.deg++; });
 nodes.forEach(n=>n.charge=1+Math.sqrt(n.deg)*0.8);
+
+// parallel edges (same source AND target) must fan into separate arcs, else a
+// coloured line hides behind a grey one. give each a growing bow radius.
+const _par=new Map();
+links.forEach(l=>{ const k=l.source.id+">"+l.target.id; const a=_par.get(k)||[]; a.push(l); _par.set(k,a); });
+_par.forEach(a=>a.forEach((l,i)=>l._bow=1+i*0.95));
 function chain(rootId){
   const keepN=new Set(), keepL=new Set(), stack=[rootId], seen=new Set();
   while(stack.length){
@@ -325,7 +331,7 @@ function tick(){
   // edge labels: anchor near the TARGET end so labels fan out along the spokes
   // instead of piling up at a shared source; repel each other; weak spring back.
   for(const p of labels){ const a=p.link.source,b=p.link.target;
-    const dx=b.x-a.x,dy=b.y-a.y,d=Math.sqrt(dx*dx+dy*dy)||1, off=Math.min(38,d*0.14);
+    const dx=b.x-a.x,dy=b.y-a.y,d=Math.sqrt(dx*dx+dy*dy)||1, off=Math.min(38,d*0.14)*(p.link._bow||1);
     p.ax=a.x+dx*0.6 + (-dy/d)*off; p.ay=a.y+dy*0.6 + (dx/d)*off; }
   for(let i=0;i<labels.length;i++){ const p=labels[i];
     for(let j=i+1;j<labels.length;j++){ const q=labels[j];
@@ -342,7 +348,7 @@ function tick(){
 function curve(l){
   const a=l.source,b=l.target, dx=b.x-a.x,dy=b.y-a.y, d=Math.sqrt(dx*dx+dy*dy)||1;
   const ux=dx/d, uy=dy/d, px=-uy, py=ux;               // unit dir + perpendicular
-  const off=Math.min(38, d*0.14);                       // gentle, uniform bow
+  const off=Math.min(38, d*0.14)*(l._bow||1);           // gentle bow, fanned for parallels
   const sx=a.x+ux*10, sy=a.y+uy*10;                     // leave the source node edge
   const ex=b.x-ux*12, ey=b.y-uy*12;                     // stop before the target
   const cx=(sx+ex)/2 + px*off*2, cy=(sy+ey)/2 + py*off*2;
