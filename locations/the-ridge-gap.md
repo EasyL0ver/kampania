@@ -17,6 +17,7 @@
 - **Middle:** a belt of loose sandstone blocks that shift when weighted and can slide onto anyone below.
 - **Crest:** a short, steep rock lip, dry and hard, the last body-length over the deepest drop.
 - Everything is worse after rain; during and after the Day 3 storm the clay runs and the scree sloughs.
+- The climb is a one-person job; the rest of the party work the ground: belaying a rope, reading the line, spotting the climber.
 - A rope, if the party brought or scrounged one (the [PGR farm](pgr-farm.md) or [office](pgr-office.md) has line), changes the climb.
 - The top of the plug overlooks the [old-village basin](old-village-ruins.md), the low ground the map says the water should drain into.
 - Nothing but this fill stands between the two valleys.
@@ -28,20 +29,18 @@
 ## Actions
 
 ### Climb the plug
-- **Requires:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), and physically climbing the fallen fill in the notch
+- **Requires:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), and one climber going up the fallen fill
 - **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
-- **Cost:** 1 action rushed; up to 3 if each band is taken slow and safe (1 per band)
-- **Outcome:** Three bands, bottom to top. Cross all three to reach the fill and get [gap-fill-examined](../clues/clues.md#gap-fill-examined). The climb always succeeds in the end; how each band is crossed decides who gets hurt on the way. Injuries are the price, not a failed clue.
-  - **1. The clay apron (base).** Slick vertical wet clay, nothing to grip.
-    - *Clean* with: **Survival** (read the dry, root-laced seam that holds), **Physique** (dig in and force it), **Handiwork** (cut steps with a tool), or an extra card taken slow.
-    - *Unmitigated or rushed:* you slide back down onto the rubble. **Bruised.**
-  - **2. The scree belt (middle).** Loose blocks that move when weighted and can drop on whoever is below.
-    - *Clean* with: **Survival** (pick the anchored blocks), a **rope** belay, or sending one climber at a time so no one is in the fall line.
-    - *Two climbers stacked, no rope:* a block gives and rides down onto the lower one. Both **Bruised**; the lower one **Wounded** if it catches them wrong.
-    - *Wet or after the storm, no rope:* the belt sloughs into a real fall onto rock. **Wounded.**
-  - **3. The rock lip (crest).** A short, steep, dry lip, the last reach over the deepest drop.
-    - *Clean* with: **Physique** (haul over), or a **rope** anchored from above (a climber already up, or **Handiwork** to set the anchor) so the rest follow safe.
-    - *Neither, tries anyway:* you peel off the lip and take the full fall down the plug. **Wounded** (see [Wounds](../story-facts/game-system.md#wounds)).
-    - *Rope but no strength:* safe, but an extra card fighting up it.
-  - **Strategy:** send the strongest, most sure-footed climber first to top the lip and fix the rope, then bring the rest up behind it; climb on a dry day, not into the storm; where you have no card or gear to spend, spend time instead and take the band slow.
+- **Cost:** climber spends 1 card (up to 3 if bands are taken slow); each ground assist is 1 card from the assisting PC
+- **Outcome:** One climber goes up, the rest work the ground. Cross all three bands to reach the fill and get [gap-fill-examined](../clues/clues.md#gap-fill-examined). The climb always succeeds in the end; how each band is covered decides whether the climber gets hurt. Injuries are the price, not a failed clue.
+  - **The climber (assume Physique).** Physique carries the body up the bank and hauls it over the lip. It does not stop a slip, steady loose rock, or read the route: those are covered by the climber's other cards or by the crew below.
+  - **Ground support (1 card from the assisting PC):**
+    - **Belay a rope** (needs a rope) — catches a fall on the scree belt and the lip. The strongest safety net; kills the Wounded risk on both.
+    - **Read the line** (**Survival**) — a teammate reads bank and scree from below and calls the safe route up. Clears the clay and the scree.
+    - **Spot and pace** (no card) — keep only one climber on the plug and watch the rock; steadies the pace and keeps others out of the fall line.
+  - **The three bands, and what clears each:**
+    - **1. Clay apron.** Clear with: climber **Survival**, ground **Survival** (route called up), climber **Handiwork** (cut steps), or an extra slow card. Uncovered: he slides onto the rubble. **Bruised.**
+    - **2. Scree belt.** Clear with: a **rope belay** from below, or **Survival** (climber or ground) to pick the anchored blocks. Uncovered, dry: a block rides down. **Bruised.** Uncovered, wet or into the storm: the belt sloughs. **Wounded.**
+    - **3. Rock lip.** The Physique climber hauls over clean. A non-Physique climber clears it only with a **rope anchored over the top** (**Handiwork** to set it); with no rope he peels off and takes the full fall. **Wounded** (see [Wounds](../story-facts/game-system.md#wounds)).
+  - **Coordination:** the Physique climber owns the lip; the crew must cover the clay and the scree with a rope and a Survival caller. A climber who also holds Survival self-covers the route and frees the crew; add a rope and the climb is safe start to finish. No Survival anywhere and no rope makes it genuinely dangerous, and the storm makes it worse.
 - **Gives:** [gap-fill-examined](../clues/clues.md#gap-fill-examined)
