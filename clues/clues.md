@@ -439,6 +439,9 @@ The state map predates the landslide that plugged the gap. It cannot be trusted 
 ### survey-was-faked
 The crew sent to re-check the terrain never properly surveyed it. They drove a few stakes, took the wojewoda's ditch on faith, dismissed the changed river, and filed a thin report. The official survey behind the flood projection is worthless.
 
+### surveyors-are-known-drunks
+The PGR crew rib survey men as famous drunks, and the last survey team who came drank through their whole visit instead of working the ground.
+
 ### water-tops-the-flood-line
 During the Day 3 storm, water on the %NEW_VILLAGE% slope climbs about a metre above the surveyors' marked flood line. The projected safe level is already being exceeded.
 
