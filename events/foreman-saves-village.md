@@ -24,6 +24,9 @@
 - The ground beyond the gap is the empty %BIG-BASIN%, big enough to take the water without drowning anyone.
 - The plug is loose debris and soft shale, not hard sandstone.
 - A charge placed in the right seam can start a notch.
+- The seam that takes the charge is up under the crux slab near the top of the plug, the same overhang the survey climb met, not down at the toe.
+- By the time the plan is ready the flood is at its peak and it is raining hard; the plug is greasier and meaner than it was on the survey climb.
+- If the survey party drove a clamp at the crux, the top pitch is a fixed hold and the last climb is far safer; if not, it has to be free-soloed again, in the rain.
 - Floodwater can widen the breach after the blast.
 - A charge placed wrong can bring more hillside down or open the gap too slowly.
 - The [UPA bunker](../locations/upa-bunker.md) is partially collapsed.
@@ -53,10 +56,13 @@
 - **Outcome:** The committee recovers usable old partisan charges from the bunker.
 - **Gives:** Item: usable partisan demolition charges sufficient to breach the plug.
 
-### Support the detonation — reopen the gap
-- **Requires:** The charges and access to the plugged gap on the ridge.
+### Plant the charge: climb the plug in the rain
+- **Requires:** The charges, and a climber willing to go back up the plug to the crux seam. By the finale it is climbing in heavy rain with the flood at its peak.
 - **Cost:** 1 action
-- **Outcome:** The charge opens a breach, floodwater widens it, and the water level in %NEW_VILLAGE% starts to drop.
+- **Outcome:** The charge has to be set in the shale seam under the crux slab, the same overhang the survey climb met, and this is the second time up, now in driving rain with the clay greased and the killzone running with water.
+  - **If the crux was anchored on the survey climb:** the clamp is still in the seam. The climber clips it and pulls over the crux even in the wet, sets the charge, and gets clear. No composure tax.
+  - **If it was not:** there is no fixed hold and the rain has eaten the free-solo margin. Topping out costs a brutal composure tax (**3 composure**), and a climber without the reserve cannot make it: the charge does not get set this attempt and someone may come off the slab.
+  - Once the charge is set and the climbers are clear, it blows: the notch opens, floodwater widens it, and the water level in %NEW_VILLAGE% starts to drop.
 - **Gives:** World State Change: %NEW_VILLAGE% is saved and the empty %BIG-BASIN% floods (no one lives there); Ending Progress: the engineering ending resolves.
 
 ## Exits
