@@ -36,6 +36,9 @@ There's an old, abandoned village in the forest — [%OLD_VILLAGE%](../locations
 ### lemko-high-pasture
 The heights above the valley were Lemko summer pasture. A tumbled koliba (shepherd's hut) on the far ridge shows herders from a Greek Catholic hill community worked these slopes, before the valley was cleared.
 
+### abandoned-house-by-streambed
+There is an abandoned shepherd's hut (koliba) hidden in the gorse on the far ridge above the streambed, half-swallowed and easy to miss. Long empty.
+
 ### koliba-is-warded
 The abandoned koliba on the far ridge is crowded with old Lemko warding: a ram's skull over the door, ash crosses on a long-cold hearth, rotted herb bundles, three-barred crosses cut deep into the timber. All of it weathered and dead. The herders who kept these heights lived in dread of something in the dark.
 

@@ -13,6 +13,7 @@
 - The Solina dam crews set stamped geodetic benchmarks (repery) at the streambed col and beside %NEW_VILLAGE% years ago.
 - The markers are old, weathered, and half-buried in undergrowth and slid earth; there is no map to their exact spots.
 - There are two to find: one at the streambed col, one at the village edge. Both elevations are needed, so both markers must be turned up.
+- Quartering the whole slope for markers means crossing ground nobody has walked in years; there is more than benchmarks half-swallowed in the gorse up here.
 - The hunt is the gamble against [surveying the col](surveying-the-streambed.md): no geologist and no kit, but the combing eats more cards than a clean survey unless the party can read the ground.
 - A cooperative [Michał Pytlak](../characters/foreman.md) will come up and search a site (see [Bring him to the streambed](../characters/foreman.md#bring-him-to-the-streambed)), clearing that marker for 2 cards from memory of the dam crews, but only if the party brings him here rather than to the survey.
 - Once found, anyone can copy the two stamped elevations off them, no skill needed.
@@ -28,8 +29,8 @@
 - **Requires:** Searching the far-ridge col and the village edge
 - **Prompted by:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
 - **Cost:** Two markers, each **4 cards** to comb its site: **8 cards** if one PC works both. A **Survival** read (opportunity above) cuts a read site to **2**; both sites read drops the hunt to **4**. PCs can split up, one per site, to run the two searches in the same span.
-- **Outcome:** You turn up the two stamped benchmarks, at the col and by the village, and copy the elevations off them.
-- **Gives:** [streambed-parameters](../clues/clues.md#streambed-parameters)
+- **Outcome:** You turn up the two stamped benchmarks, at the col and by the village, and copy the elevations off them. Quartering the slope, you also stumble on an abandoned shepherd's koliba hidden in the gorse higher up, easy to miss and long empty. It can be revisited and entered any time from the [Far-Ridge Streambed](../locations/far-ridge-streambed.md).
+- **Gives:** [streambed-parameters](../clues/clues.md#streambed-parameters); [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed)
 
 ## Mechanics
 
