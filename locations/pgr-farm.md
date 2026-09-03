@@ -9,7 +9,7 @@
 ## Setup
 
 - The farm has two long barns, a concrete grain silo, a tool shed, livestock pens, and ploughed fields running toward the tree line.
-- A concrete-headed irrigation ditch runs off the fields toward the low ground; [Zbigniew Gajda](../characters/wojewoda.md) calls it the village's flood drain.
+- A concrete-headed irrigation ditch runs off the fields toward the low ground; [Zbigniew Gajda](../characters/wojewoda.md) calls it the village's flood drain. Following it its full length is its own scene: [The Irrigation Ditch](the-irrigation-ditch.md).
 - Chickens move between the buildings.
 - The [office](pgr-office.md) is in the main building.
 - The [workers' quarters](pgr-quarters.md) sit behind the main buildings.
@@ -47,11 +47,10 @@
 - **Outcome:** Talking to Michał is a character interaction. See his [character actions and opportunities](../characters/foreman.md#opportunities): "Talk to him about the flood" (gives [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain)), the Empathy opportunity "The ditch shames him" (gives [ditch-not-built-to-spec](../clues/clues.md#ditch-not-built-to-spec)), and "Press him about Tadeusz Mazur" (gives [foreman-coverup](../clues/clues.md#foreman-coverup)).
 
 ### Walk the irrigation ditch
-- **Requires:** Following the ditch its full length, from the concrete head to the low ground
-- **Prompted by:** [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain); [ditch-not-built-to-spec](../clues/clues.md#ditch-not-built-to-spec)
-- **Cost:** 1 action
-- **Outcome:** The concrete lining ends after a short run and the channel becomes a shallow, unlined dugout. At flood volume it would back up and overflow long before it cleared the valley. Inspecting only the concrete head would have given a false all-clear.
-- **Gives:** [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing)
+- **Requires:** Following the ditch off the fields
+- **Cost:** See [The Irrigation Ditch](the-irrigation-ditch.md)
+- **Outcome:** Walking the ditch its full length is its own scene. See [The Irrigation Ditch](the-irrigation-ditch.md), which gives [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing).
+- **Gives:** Scene Unlock: [The Irrigation Ditch](the-irrigation-ditch.md)
 
 ### Talk to Barbara Kopacz
 - **Requires:** [Barbara Kopacz](../characters/barbara.md) present during working hours
