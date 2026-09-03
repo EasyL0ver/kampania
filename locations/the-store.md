@@ -39,9 +39,15 @@
 
 ### Buy cigarettes
 - **Requires:** —
-- **Cost:** 1 action
+- **Cost:** Free
 - **Outcome:** Halina sells a pack across the counter: cheap [Sport](../clues/clues.md#tadek-smokes-cheapest) off the shelf, or premium [Carmen](../items/carmen-cigarette-butts.md) if you ask. A pack lasts one day; keeping one on you is [Chainsmoker](../story-facts/game-system.md#the-cards) upkeep.
 - **Gives:** Item / Evidence: a pack of Sport or Carmen (one day's supply).
+
+### Buy rope
+- **Requires:** —
+- **Cost:** Free
+- **Outcome:** Halina sells a coil of field line off the shelf, mixed lengths knotted serviceable, long enough for the ridge climb.
+- **Gives:** Item: a [rope](../items/rope.md).
 
 <!-- If bonded with Halina, [Ask who smokes what](../characters/secondary-characters.md#ask-who-smokes-what) is her counter action — she knows every villager's brand. -->
 

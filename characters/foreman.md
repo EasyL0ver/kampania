@@ -92,6 +92,12 @@ Michał backs [Zbigniew Gajda](wojewoda.md)'s optimistic line only while he beli
 - **Outcome:** Michał reads the two elevations without hesitation. He has worked this valley for years, and a col standing above house level tells him at once that the water tops the village long before it reaches the streambed. He confirms the streambed is no outlet.
 - **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 
+### Borrow the anchor and hammer
+- **Requires:** [Michał Pytlak](foreman.md) willing to coordinate on the flood (after [Talk to him about the flood](#talk-to-him-about-the-flood)), or a bond with him, or Speech
+- **Cost:** 1 action
+- **Outcome:** Michał hands over the steel clamp and driving hammer from the farm's gear, on the understanding it comes back. Cooperative or bonded, he lends it without a second thought; otherwise a convincing enough story pries it out of a wary man.
+- **Gives:** Item: the [anchor and hammer](../items/anchor.md).
+
 ### Press him about Tadeusz Mazur
 - **Requires:** A reason to name Mazur — the [PGR ledger](../items/pgr-ledger.md) showing a worker nobody answers to, or [Wanda Mazur](widow.md)'s account of her "pension"
 - **Cost:** 1 action

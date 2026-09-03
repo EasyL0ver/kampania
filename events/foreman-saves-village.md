@@ -51,7 +51,7 @@
 - **Requires:** Committed to the plan and access to the [UPA bunker](../locations/upa-bunker.md).
 - **Cost:** 1 action
 - **Outcome:** The committee recovers usable old partisan charges from the bunker.
-- **Gives:** Item: usable partisan demolition charges sufficient to breach the plug; Scene Unlock: [Climb the Plug in the Rain](climb-the-plug-in-the-rain.md)
+- **Gives:** Item: [the makeshift charge](../items/makeshift-charge.md), sufficient to breach the plug; Scene Unlock: [Climb the Plug in the Rain](climb-the-plug-in-the-rain.md)
 
 ## Exits
 
