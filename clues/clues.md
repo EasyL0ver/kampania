@@ -39,6 +39,9 @@ The heights above the valley were Lemko summer pasture. A tumbled koliba (shephe
 ### abandoned-house-by-streambed
 There is an abandoned shepherd's hut (koliba) hidden in the gorse on the far ridge above the streambed, half-swallowed and easy to miss. Long empty.
 
+### three-barred-cross-in-abandoned-house
+The timber inside the abandoned koliba on the far ridge is cut all over with three-barred crosses, carved deep and many times over.
+
 ### massacre-happened
 In 1947, the Lemko villagers of [%OLD_VILLAGE%](../locations/old-village-ruins.md) were killed — the whole village, in a single act of violence. They did not "evacuate." They were massacred.
 
