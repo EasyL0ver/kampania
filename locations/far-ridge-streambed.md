@@ -21,6 +21,7 @@
 ## Opportunities
 
 - **Read the old position** `(requires: History)` — The collapsed dugout below the col is a wartime firing position, sited to watch and command the valley: rusted metal, a rotted timber lip, the shape of a partisan line. → Gives: [old-wartime-positions](../clues/clues.md#old-wartime-positions)
+- **Read the koliba** `(requires: Culture)` — The tumbled stones and rotten roof-poles higher on the slope are a koliba, a Lemko shepherd's summer hut; the build and the worn pasture ground read as Greek Catholic hill herders' work, from before the valley was cleared. → Gives: [lemko-high-pasture](../clues/clues.md#lemko-high-pasture)
 
 ## Actions
 

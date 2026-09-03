@@ -33,6 +33,9 @@ There's an old, abandoned village in the forest — [%OLD_VILLAGE%](../locations
 ### old-village-was-lemko
 [%OLD_VILLAGE%](../locations/old-village-ruins.md) was a Lemko settlement — Greek Catholic, with a cerkiew, orchards, and a tightly-knit community.
 
+### lemko-high-pasture
+The heights above the valley were Lemko summer pasture. A tumbled koliba (shepherd's hut) on the far ridge shows herders from a Greek Catholic hill community worked these slopes, before the valley was cleared.
+
 ### massacre-happened
 In 1947, the Lemko villagers of [%OLD_VILLAGE%](../locations/old-village-ruins.md) were killed — the whole village, in a single act of violence. They did not "evacuate." They were massacred.
 
