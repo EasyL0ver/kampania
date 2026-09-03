@@ -29,6 +29,12 @@
 
 ## Actions
 
+### Search the far ridge
+- **Requires:** Time on the far ridge to cast around off the streambed itself
+- **Cost:** 1 action
+- **Outcome:** Quartering the slopes and gullies beyond the dry streambed, pushing through the gorse, you turn up an abandoned shepherd's koliba half-swallowed on the slope, easy to miss and long empty.
+- **Gives:** [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed)
+
 ### Start a survey
 - **Requires:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain), and a PC with **Geology** and the [geologist's kit](../items/geologists-kit.md)
 - **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
