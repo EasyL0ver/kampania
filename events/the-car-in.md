@@ -50,8 +50,8 @@
 - **Requires:** Nothing
 - **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Cost:** Free
-- **Outcome:** The committee recalls [prof. Tadeusz Bieńkowski](../characters/professor.md)'s pre-trip briefing: he suspects %NEW_VILLAGE% may not drain, warns the official flood line may be miscalculated, and flagged two outlets to check on the ground, the ridge water-gap and the old far-ridge streambed. He knows of no others. What set him off is the previous crew's report itself: too few stations, too much taken on faith, thin enough that he cannot trust the projection built on it, though he could not prove it from Kraków.
-- **Gives:** [`gap-is-candidate-drain`](../clues/clues.md#gap-is-candidate-drain), [`streambed-is-candidate-drain`](../clues/clues.md#streambed-is-candidate-drain), [`the-flood-line-potentially-miscalculated`](../clues/clues.md#the-flood-line-potentially-miscalculated), [`original-report-is-thin`](../clues/clues.md#original-report-is-thin)
+- **Outcome:** The committee recalls [prof. Tadeusz Bieńkowski](../characters/professor.md)'s pre-trip briefing: he suspects %NEW_VILLAGE% may not drain, warns the official flood line may be miscalculated, and flagged two outlets to check on the ground, the ridge water-gap and the old far-ridge streambed. He knows of no others. He says only that the paperwork does not hold up and he cannot prove it from Kraków; he does not point at the previous survey by name, leaving that for the committee to find on the ground.
+- **Gives:** [`gap-is-candidate-drain`](../clues/clues.md#gap-is-candidate-drain), [`streambed-is-candidate-drain`](../clues/clues.md#streambed-is-candidate-drain), [`the-flood-line-potentially-miscalculated`](../clues/clues.md#the-flood-line-potentially-miscalculated)
 
 ### Draft the committee
 - **Requires:** Nothing
