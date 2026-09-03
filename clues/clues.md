@@ -36,6 +36,9 @@ There's an old, abandoned village in the forest — [%OLD_VILLAGE%](../locations
 ### lemko-high-pasture
 The heights above the valley were Lemko summer pasture. A tumbled koliba (shepherd's hut) on the far ridge shows herders from a Greek Catholic hill community worked these slopes, before the valley was cleared.
 
+### koliba-recently-warded
+The abandoned koliba on the far ridge is crowded with old Lemko warding: a ram's skull over the door, ash crosses on a cold hearth, bundled herbs, three-barred crosses cut deep into the timber. Some of it is fresh. Someone still climbs up here to renew the old signs.
+
 ### massacre-happened
 In 1947, the Lemko villagers of [%OLD_VILLAGE%](../locations/old-village-ruins.md) were killed — the whole village, in a single act of violence. They did not "evacuate." They were massacred.
 
