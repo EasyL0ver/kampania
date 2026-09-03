@@ -44,7 +44,10 @@ He broadcasts constantly and mixes truth with rubbish. The GM should keep the ra
 - The sołtys reports privately to the man in the black car → [`wojewoda-talks-to-sb`](../clues/clues.md#wojewoda-talks-to-sb)
 - Tadek's crew runs a still out in the forest → [`drinking-crew-heads-to-forest`](../clues/clues.md#drinking-crew-heads-to-forest)
 - The man in the black car is secret police; from his mouth it becomes [`officer-is-sb`](../clues/clues.md#officer-is-sb) only when corroborated elsewhere
-- He drank with the last survey crew when they passed through and watched them do nothing but empty bottles → [`geologists-were-drinking`](../clues/clues.md#geologists-were-drinking) once players are working the survey
+- He drank with the last survey crew when they passed through and watched them do nothing but empty bottles → [`geologists-were-drinking`](../clues/clues.md#geologists-were-drinking), and the teacher in him read how little work backed their filed report → [`original-report-is-thin`](../clues/clues.md#original-report-is-thin) once players are working the survey
+
+**True observation, paranoid conclusion:**
+- He saw the crew drink and the work come to nothing, then leaps from there to a deliberate state plot to drown the village → [`survey-was-faked`](../clues/clues.md#survey-was-faked). The observations under it are sound; the conspiracy he stacks on top is his own, and the truth is negligence, not design (`survey-was-botched`).
 
 **Garbage and pure noise:**
 - Radio Wolna Europa said Gomułka is finished, the Americans are coming, or the border is about to open.
@@ -75,8 +78,15 @@ He knows nothing of the old village, the massacre, or the well. His quarrel is w
 - **Requires:** Nothing
 - **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Cost:** 1 action
-- **Outcome:** Ask him about the survey and he lights up: the last crew who came to re-check the ground drank at Tadek's still for the best part of a week, drove a few stakes by the road, and left. "They surveyed the bottom of a bottle, and the state signed it." Drunk testimony, but he watched it happen.
-- **Gives:** [`geologists-were-drinking`](../clues/clues.md#geologists-were-drinking)
+- **Outcome:** Ask him about the survey and he lights up: the last crew who came to re-check the ground drank at Tadek's still for the best part of a week, drove a few stakes by the road, and left. "They surveyed the bottom of a bottle, and the state signed it." Drunk testimony, but he watched it happen, and the teacher in him read exactly how little work went into what they filed.
+- **Gives:** [`geologists-were-drinking`](../clues/clues.md#geologists-were-drinking); [`original-report-is-thin`](../clues/clues.md#original-report-is-thin)
+
+### Why he says they did it on purpose
+- **Requires:** Nothing
+- **Prompted by:** [original-report-is-thin](../clues/clues.md#original-report-is-thin)
+- **Cost:** 1 action
+- **Outcome:** Press him on it and the teacher's logic curdles into paranoia: a crew does not drink a survey away by accident, he insists, the state wanted it thin, a false all-clear so the village would be built where it would drown. He is certain it was deliberate. It may be the bimber and the bitterness talking, or the one time the pattern is real.
+- **Gives:** [`survey-was-faked`](../clues/clues.md#survey-was-faked)
 
 ### Census interview
 - **Requires:** Committee authority

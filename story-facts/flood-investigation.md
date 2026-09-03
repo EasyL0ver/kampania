@@ -49,6 +49,7 @@ Leaf clues:
 - `water-tops-the-flood-line` — during the Day 3 storm, water on the new-village slope climbs about a metre above the surveyors' marked flood line. No skill needed, unmissable. The blunt empirical lead: the "safe" projection is already being exceeded. Contradicts `new-village-sits-above-flood-line`. Given by [The Flood](../events/the-flood.md); points at the threat, not proof it is permanent.
 - `map-is-outdated` — the map predates the slide, so it cannot be trusted on the gap.
 - `survey-was-botched` — the conclusion that the official survey is worthless: a drunk crew drove a few stakes and filed thin paper without ever really surveying the outlets. Negligence, not cynical forgery: they took the wojewoda's ditch on faith (they only saw its good concrete head) and dismissed the river as irrelevant. Partially responsible through laziness, not conspiracy. A root lead: it discredits all the official paper (map, projection, ditch spec) at once, feeding every drain rather than one. It is built from two smaller facts, one from each side, and needs both: `geologists-were-drinking` (testimony that the crew drank through the visit, from the radioman or a drinking-buddy at Tadek's still) and `original-report-is-thin` (the filed report reads as too few stations, cursory coverage, ditch on faith, reached by phone to the survey archive or a geologist reading the dossier report). Either alone is only suggestive: drinking is hearsay, thin paper could be mere incompetence. Together they make the botched-job case. A geologist drinking with the crew also gets ribbed as one of the same breed, giving the separate lead `surveyors-are-known-drunks`, which points straight at the last crew's drinking.
+- `survey-was-faked` — the darker reading of the same facts: that the thin survey was not lazy but deliberately falsified, a manufactured all-clear so the village would be built where it drowns. This is the radioman's leap, and his alone. He drank with the crew and, teacher that he was, read how little work backed their report (so he is a source for both `geologists-were-drinking` and `original-report-is-thin`), but his paranoia stacks intent on top of what is really negligence. A player weighing him has to decide whether the pattern is real or the bimber talking. The truth of the campaign is `survey-was-botched`; `faked` is the conspiracy version, sourced only from an unreliable narrator.
 
 Item:
 
@@ -75,7 +76,7 @@ Item:
 | Watch the storm | none | `water-tops-the-flood-line` |
 | The phone | office phone, monitored by Zbigniew | `original-report-is-thin` (archive); certify field data with prof. Bieńkowski |
 | prof. Bieńkowski (phone) | hand him field readings | certifies any drain conclusion; `new-village-will-flood` |
-| Radioman | ask him about the survey; in-village, paranoid and dismissed | `geologists-were-drinking` |
+| Radioman | ask him about the survey; in-village, paranoid and dismissed | `geologists-were-drinking` + `original-report-is-thin`; pressed, his paranoid leap gives `survey-was-faked` |
 | Recompute the flood line | engineering/math + real drain data + the master plan | `new-village-will-flood` |
 | Paraskewia Chyłak | bond | `river-doesnt-match-map`, `landslide-in-the-gap` |
 | Pawełek | just ask the boy | `landslide-in-the-gap` |
@@ -88,7 +89,7 @@ Item:
 
 Notes on the newer routes:
 
-- **Radioman** is the crank who happens to be right. He drank with the last survey crew when they passed through and watched them do nothing but empty bottles, so asking him about the survey gives `geologists-were-drinking`. He warns of everything (Western radio, poisoned wells), so players are primed to dismiss the one time he is telling the truth. A local mouth on the botched survey, wrapped in doubt.
+- **Radioman** is the crank who happens to be right. He drank with the last survey crew when they passed through and watched them do nothing but empty bottles, and read how thin their filed work was, so asking him about the survey gives `geologists-were-drinking` and `original-report-is-thin`. Pressed, his paranoia leaps to a deliberate state plot to drown the village (`survey-was-faked`): the observations are gold, the conspiracy on top is froth. He warns of everything (Western radio, poisoned wells), so players are primed to dismiss the one time he is telling the truth. A local mouth on the botched survey, wrapped in doubt.
 - **Recompute the flood line** is the do-the-math confirm: given the real outlet data and the master plan's assumptions, an engineering-minded PC reruns the projection and gets `new-village-will-flood` with no NPC at all.
 - **Pawełek** delivers the gap lead as a child's offhand fact ("you can't get through there anymore, it all caved in"), free and ungated.
 - **Springs & cellars**: new-village ground is already wetter than the plan, cellars seep and springs run muddy. A soft lead that the site sits too low, pointing players to question the site before anyone climbs the gap. Not a hard clue.

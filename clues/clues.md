@@ -469,6 +469,9 @@ The state map predates the landslide that plugged the gap. It cannot be trusted 
 ### survey-was-botched
 The crew sent to re-check the terrain never properly did the work. They drove a few stakes, drank through the visit, took the wojewoda's ditch on faith, dismissed the changed river, and filed thin paper. Not a deliberate forgery, just a half-assed, negligent job, but it means the official survey behind the flood projection cannot be trusted.
 
+### survey-was-faked
+The thin survey was not merely lazy work but deliberately falsified: someone knew the ground was never properly checked and signed it off as sound anyway. The official all-clear was manufactured, not just botched.
+
 ### geologists-were-drinking
 The last state survey crew sent to re-check the terrain drank through their whole visit, at Tadek's still and by the road, driving only a few stakes before they left. Testimony from men who watched them, not proof on its own that the survey is worthless.
 
