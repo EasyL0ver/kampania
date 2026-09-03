@@ -49,7 +49,7 @@
 ### Walk the irrigation ditch
 - **Requires:** Following the ditch off the fields
 - **Cost:** See [The Irrigation Ditch](the-irrigation-ditch.md)
-- **Outcome:** Walking the ditch its full length is its own scene. See [The Irrigation Ditch](the-irrigation-ditch.md), which gives [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing).
+- **Outcome:** Walking the ditch its full length is its own scene. See [The Irrigation Ditch](the-irrigation-ditch.md), which gives [ditch-concrete-stops-short](../clues/clues.md#ditch-concrete-stops-short).
 - **Gives:** Scene Unlock: [The Irrigation Ditch](the-irrigation-ditch.md)
 
 ### Talk to Barbara Kopacz

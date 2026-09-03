@@ -421,6 +421,9 @@ The PGR irrigation ditch cannot carry the floodwater off. At flood volume it bac
 ### ditch-not-built-to-spec
 The irrigation ditch matches its concrete-lined specification only for its first short stretch near the fields. Past that it degrades to a shallow, unlined dugout for most of its length. Inspecting only the head gives a false impression of a sound channel.
 
+### ditch-concrete-stops-short
+The irrigation ditch is concrete-lined only near the head. A short way down the concrete ends and the channel becomes a plain earth dugout. Whether that is a fault, a shortfall against spec, or simply how it was meant to be built is not clear from walking it.
+
 ### streambed-dead-ends
 The old streambed on the far ridge is not an outlet. Its col sits above house level, so the rising water tops %NEW_VILLAGE% before it ever reaches that streambed.
 

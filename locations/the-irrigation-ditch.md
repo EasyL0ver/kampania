@@ -22,7 +22,7 @@
 
 ### Walk the irrigation ditch
 - **Requires:** Following the ditch its full length, from the concrete head to the low ground
-- **Prompted by:** [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain); [ditch-not-built-to-spec](../clues/clues.md#ditch-not-built-to-spec)
+- **Prompted by:** [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain)
 - **Cost:** 1 action
-- **Outcome:** The concrete lining ends after a short run and the channel becomes a shallow, unlined dugout. At flood volume it would back up and overflow long before it cleared the valley. Inspecting only the concrete head would have given a false all-clear.
-- **Gives:** [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing)
+- **Outcome:** The concrete lining ends after a short run and the channel becomes a plain earth dugout the rest of the way. Walking it tells you the concrete does not go all the way. It does not tell you whether that is a fault, a shortfall against spec, or the intended build, and it does not tell you whether the ditch can carry the flood.
+- **Gives:** [ditch-concrete-stops-short](../clues/clues.md#ditch-concrete-stops-short)
