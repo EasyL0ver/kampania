@@ -66,7 +66,7 @@ Item:
 | Watch the storm | none | `water-tops-the-flood-line` |
 | The phone | office phone, monitored by Zbigniew | `survey-was-faked` (archive); certify field data with prof. Bieńkowski |
 | prof. Bieńkowski (phone) | hand him field readings | certifies any drain conclusion; `new-village-will-flood` |
-| Radioman | in-village, but paranoid and dismissed | certifies drain data → `new-village-will-flood` |
+| Radioman | ask him about the survey; in-village, paranoid and dismissed | `survey-was-faked` |
 | Recompute the flood line | engineering/math + real drain data + the master plan | `new-village-will-flood` |
 | Paraskewia Chyłak | bond | `river-doesnt-match-map`, `landslide-in-the-gap` |
 | Pawełek | just ask the boy | `landslide-in-the-gap` |
@@ -78,7 +78,7 @@ Item:
 
 Notes on the newer routes:
 
-- **Radioman** is the crank who happens to be right. He can read the drain data and state flatly that the village will flood, but he warns of everything (Western radio, poisoned wells), so players are primed to dismiss the one time he is correct. An in-village certifier for parties who cannot reach the professor, wrapped in doubt.
+- **Radioman** is the crank who happens to be right. He drank with the last survey crew when they passed through and watched them do nothing but empty bottles, so asking him about the survey gives `survey-was-faked`. He warns of everything (Western radio, poisoned wells), so players are primed to dismiss the one time he is telling the truth. A local mouth on the faked survey, wrapped in doubt.
 - **Recompute the flood line** is the do-the-math confirm: given the real outlet data and the master plan's assumptions, an engineering-minded PC reruns the projection and gets `new-village-will-flood` with no NPC at all.
 - **Pawełek** delivers the gap lead as a child's offhand fact ("you can't get through there anymore, it all caved in"), free and ungated.
 - **Springs & cellars**: new-village ground is already wetter than the plan, cellars seep and springs run muddy. A soft lead that the site sits too low, pointing players to question the site before anyone climbs the gap. Not a hard clue.

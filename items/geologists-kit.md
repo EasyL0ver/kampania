@@ -1,8 +1,8 @@
 # The Geologist's Kit
 
 **Type:** Item — field surveying kit and briefing dossier (with the previous crew's survey report)
-**Source:** Carried from the start by the geologist PC, packed with the committee's gear; [prof. Bieńkowski](../characters/professor.md) flagged the report inside it as thin at the briefing
-**Carried:** Lets a PC check terrain, read the state's paper, and rerun the flood projection once the outlets are known.
+**Source:** Issued to the committee at the start, packed with the party's gear; [prof. Bieńkowski](../characters/professor.md) flagged the report inside it as thin at the briefing
+**Carried:** Lets the party check terrain, read the state's paper, and rerun the flood projection once the outlets are known.
 
 ## Description
 
