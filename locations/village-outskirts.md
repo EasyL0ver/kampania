@@ -82,17 +82,17 @@
 - **Gives:** [gap-fill-examined](../clues/clues.md#gap-fill-examined)
 
 ### Survey the streambed col
-- **Requires:** Reaching the far-ridge streambed col with the [geologist's kit](../items/geologists-kit.md), and **Geology**
+- **Requires:** Reaching the far-ridge streambed col with the [geologist's kit](../items/geologists-kit.md), and **Geology**. Other PCs can assist to speed the work.
 - **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
-- **Cost:** 1 action
+- **Cost:** 1 action (a geologist must run it; helpers hauling the level and holding the staff shorten it)
 - **Outcome:** With the level and clinometer you shoot the col and the village yourself and record both heights: the raw figures for the outlet.
 - **Gives:** [streambed-parameters](../clues/clues.md#streambed-parameters)
 
 ### Read the reper benchmarks
-- **Requires:** Finding the reper markers at the far-ridge streambed col and beside %NEW_VILLAGE%
+- **Requires:** Searching the far ridge and the village edge for the dam-survey markers. No skill needed to copy them once found.
 - **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain); [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
-- **Cost:** 1 action
-- **Outcome:** The dam-survey crews left stamped geodetic benchmarks at the col and by the village. Anyone can copy the two elevations off the markers, no skill needed.
+- **Cost:** Time-consuming and open-ended: the markers are old and half-buried, so the search runs an unknown number of actions (GM's call) before anyone can read them.
+- **Outcome:** The dam-survey crews left stamped geodetic benchmarks at the col and by the village. Once the markers are found, anyone can copy the two elevations off them, no skill needed.
 - **Gives:** [streambed-parameters](../clues/clues.md#streambed-parameters)
 
 ### Report the figures to the professor
