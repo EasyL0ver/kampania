@@ -20,6 +20,7 @@
 ## Opportunities
 
 - **Read the ground for likely spots** `(requires: Survival)` — Survey crews set benchmarks on stable rock at clear sightlines; a woodsman reads a site for where they would have driven the marker, cutting that marker's combing from 4 cards to 2. Read both sites and the whole hunt drops from 8 cards to 4. → No clue; shortens the search.
+- **Dig out the buried marker** `(requires: Physique)` — Once a marker's rough spot is known, most of the work is heaving aside slid earth and undergrowth to uncover the stamped face; a strong back clears a site fast, cutting that marker from 4 cards to 2. → No clue; shortens the search (alternative to the Survival read; they do not stack on the same site).
 
 ## Actions
 
@@ -33,9 +34,9 @@
 ## Mechanics
 
 - Fixed cost, no roll (the game has no dice): 4 cards per marker, 8 for both, paid in search cards.
-- A **Survival** read on a site halves that marker to 2 cards; reading both brings the total to 4.
+- A **Survival** read or a **Physique** dig on a site cuts that marker to 2 cards; they do not stack on the same site, but each can clear a different one. Handling both sites this way brings the total to 4.
 - The two sites are independent: two PCs searching in parallel spend the same total cards but finish in half the wall-time.
-- Against the survey: with Survival the hunt (4) beats the geologist's line (6) and needs no specialist; without Survival it costs more (8). That is the trade for skipping the kit.
+- Against the survey: with Survival or Physique the hunt (4) beats the geologist's line (6) and needs no specialist; with neither it costs more (8). That is the trade for skipping the kit.
 
 ## Exits
 
