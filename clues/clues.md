@@ -517,8 +517,8 @@ The committee's stated purpose in the village is a geographical survey — terra
 ### committee-notes-property-for-damage
 The committee is recording each household's property and its value, ostensibly to assess damages. Asking what land is worth is part of the official remit.
 
-### committee-hides-something
-The committee's real business isn't the survey it names. It's here for something it won't state, and the official purpose is a front.
+### mission-is-a-front
+Our own assignment is a cover. The real reason the state sent this committee isn't the survey it names; there is something it won't state, and the official purpose is a front we were handed.
 
 ### committee-fills-census
 The committee is taking a census: who lives in each household, names, ages, how long they have been here. Counting heads is part of the official remit.

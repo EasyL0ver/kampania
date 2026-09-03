@@ -48,7 +48,7 @@
 
 - **The excessive warmth** `(requires: Culture)` — The coffee and generosity manage a threat rather than host guests. → Gives: [`matrona-overperforms`](../clues/clues.md#matrona-overperforms)
 - **What she never asks** `(requires: Finesse)` — [Helena Rzepka](../characters/matrona.md) never asks what the players have found.
-- **The shape of her case** `(requires: Finesse)` — Every practical argument ends at leaving the truth buried. → Gives: [`committee-hides-something`](../clues/clues.md#committee-hides-something)
+- **The shape of her case** `(requires: Finesse)` — Every practical argument ends at leaving the truth buried. → Gives: [`mission-is-a-front`](../clues/clues.md#mission-is-a-front)
 - **Emil at the edges** `(requires: Empathy)` — [Emil Rzepka](../characters/painter.md) flinches at his own name and will not be alone with [Helena Rzepka](../characters/matrona.md) and outsiders.
 
 ## Actions

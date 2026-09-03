@@ -33,7 +33,7 @@
 - **Prompted by:** [government-committee](../clues/clues.md#government-committee)
 - **Cost:** Free
 - **Outcome:** por. Witold Skowron explains the committee's survey, property assessment, local contact, village phone, and road risk.
-- **Gives:** [`committee-runs-geographical-survey`](../clues/clues.md#committee-runs-geographical-survey), [`committee-notes-property-for-damage`](../clues/clues.md#committee-notes-property-for-damage), [`committee-hides-something`](../clues/clues.md#committee-hides-something)
+- **Gives:** [`committee-runs-geographical-survey`](../clues/clues.md#committee-runs-geographical-survey), [`committee-notes-property-for-damage`](../clues/clues.md#committee-notes-property-for-damage), [`mission-is-a-front`](../clues/clues.md#mission-is-a-front)
 
 ### Ask about the village history
 - **Requires:** Nothing
