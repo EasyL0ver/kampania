@@ -466,8 +466,14 @@ The state map draws the ridge water-gap as an open channel, an outlet for the va
 ### map-is-outdated
 The state map predates the landslide that plugged the gap. It cannot be trusted on the gap or on the river's course.
 
-### survey-was-faked
-The crew sent to re-check the terrain never properly surveyed it. They drove a few stakes, took the wojewoda's ditch on faith, dismissed the changed river, and filed a thin report. The official survey behind the flood projection is worthless.
+### survey-was-botched
+The crew sent to re-check the terrain never properly did the work. They drove a few stakes, drank through the visit, took the wojewoda's ditch on faith, dismissed the changed river, and filed thin paper. Not a deliberate forgery, just a half-assed, negligent job, but it means the official survey behind the flood projection cannot be trusted.
+
+### geologists-were-drinking
+The last state survey crew sent to re-check the terrain drank through their whole visit, at Tadek's still and by the road, driving only a few stakes before they left. Testimony from men who watched them, not proof on its own that the survey is worthless.
+
+### original-report-is-thin
+The previous crew's filed survey report is thin: too few field stations, cursory coverage, the ditch taken on faith from its concrete head, the changed river dismissed. On the paper alone it does not add up to a real survey, though thin work is not yet proof the whole job was botched.
 
 ### surveyors-are-known-drunks
 The PGR crew rib survey men as famous drunks, and the last survey team who came drank through their whole visit instead of working the ground.

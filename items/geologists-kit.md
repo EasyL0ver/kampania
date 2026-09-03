@@ -32,6 +32,7 @@ A worn canvas roll of survey tools: a level and clinometer, a folded copy of the
 
 - **Calculate the flood line** `(requires: [gap-is-blocked](../clues/clues.md#gap-is-blocked) and [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing) and [streambed-dead-ends](../clues/clues.md#streambed-dead-ends))` — With all three outlets ruled out under the same test, no fresh fieldwork is needed. Laying the findings against the master plan's numbers, the conclusion is arithmetic: when the lake rises, the water has nowhere below house level to go. %NEW_VILLAGE% floods. → Gives: [new-village-will-flood](../clues/clues.md#new-village-will-flood)
 - **Call the ditch a working drain** `(requires: [ditch-drains-fine](../clues/clues.md#ditch-drains-fine))` — If the ditch carries the flood off, the valley has its outlet and the village stays dry; one good drain is all it needs. The reassuring answer the head calc invites, and the trap that ends the investigation early: it takes the concrete head for the whole ditch and never tests the gap or the streambed at all. → Gives: [new-village-will-not-flood](../clues/clues.md#new-village-will-not-flood)
+- **The survey was botched** `(requires: [geologists-were-drinking](../clues/clues.md#geologists-were-drinking) and [original-report-is-thin](../clues/clues.md#original-report-is-thin))` — The drinking and the thin paper are the same story from two sides: a drunk crew drove a few stakes, took the ditch on faith, and filed work that never touched the ground. Not forgery, just negligence, and enough to throw out the official survey. → Gives: [survey-was-botched](../clues/clues.md#survey-was-botched)
 
 ## Actions
 
@@ -46,8 +47,8 @@ A worn canvas roll of survey tools: a level and clinometer, a folded copy of the
 - **Requires:** Holding the kit and **Geology**
 - **Prompted by:** [committee-hides-something](../clues/clues.md#committee-hides-something)
 - **Cost:** 1 action
-- **Outcome:** The report shows impossibly few field stations, cursory coverage, and the ditch taken on faith from its concrete head. The crew never properly surveyed the terrain.
-- **Gives:** [survey-was-faked](../clues/clues.md#survey-was-faked)
+- **Outcome:** The report shows impossibly few field stations, cursory coverage, and the ditch taken on faith from its concrete head. On the paper alone the survey looks thin, well short of real fieldwork.
+- **Gives:** [original-report-is-thin](../clues/clues.md#original-report-is-thin)
 
 ### Read the dam-survey index
 - **Requires:** Holding the kit and **Geology**

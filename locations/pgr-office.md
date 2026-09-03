@@ -52,8 +52,8 @@
 - **Requires:** Phone access (monitored if Zbigniew Gajda is present)
 - **Prompted by:** [committee-hides-something](../clues/clues.md#committee-hides-something)
 - **Cost:** 1 action per call
-- **Outcome:** The district survey archive confirms the previous crew filed a thin report, drove only a handful of stakes, and closed the job early. The official survey behind the flood projection was never properly done.
-- **Gives:** [survey-was-faked](../clues/clues.md#survey-was-faked)
+- **Outcome:** The district survey archive confirms the previous crew filed a thin report, drove only a handful of stakes, and closed the job early. On the record it reads as thin work, well short of a proper survey.
+- **Gives:** [original-report-is-thin](../clues/clues.md#original-report-is-thin)
 
 ### Date the map against the ground
 - **Requires:** The topographic map
