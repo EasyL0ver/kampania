@@ -30,26 +30,13 @@
 
 ## Opportunities
 
-- **Spot the old village** `(requires: Survival on a survey route)` — Stone ruins are visible through the trees. → Gives: [old village was Lemko](../clues/clues.md#old-village-was-lemko), [old village was burned](../clues/clues.md#old-village-was-burned)
+- **Spot the old village** `(requires: Survival on a survey route)` — Stone ruins are visible through the trees. → Gives: [old village exists](../clues/clues.md#old-village-exists)
 - **Spot Butcher at his house** `(requires: Finesse on the route past [Stanisław Rezeń](../characters/butcher.md)'s house)` — Rezeń is alone near the treeline and using the same direction repeatedly. → Gives: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
 - **Spot the drinking crew heading into the forest** `(requires: Survival near the treeline track)` — Tadek Gajda and the crew carry bottles toward the forest. → Gives: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
 - **See the landslide plug** `(requires: Survival on a survey route)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The notch in the ridge is choked with fallen rock and earth. → Gives: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 - **The river isn't where the map draws it** `(requires: observation comparing map to ground)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The wojewoda's bridge spans running water, but the map shows that ground dry and the river on its old course. → Gives: [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map)
 
 ## Actions
-
-### Bring Michał Pytlak on the survey
-- **Requires:** [Michał Pytlak](../characters/foreman.md) agrees to come
-- **Cost:** Free
-- **Outcome:** Michał points out terrain features, old drainage paths, rain pooling, and the blocked notch in the ridge.
-- **Gives:** World State Change: the old-village bowl survey cost is waived.
-
-### Survey the old-village bowl
-- **Requires:** Geological knowledge
-- **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
-- **Cost:** 1 action; waived with the office maps or Michał Pytlak
-- **Outcome:** The old-village basin is the lowest local ground and matches the map.
-- **Gives:** [old-village-basin-is-the-low-sink](../clues/clues.md#old-village-basin-is-the-low-sink)
 
 ### Walk to the ridge gap
 - **Requires:** Reaching the ridge water-gap (visible from the survey routes)

@@ -46,7 +46,8 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **`junior-drinks-with-crew`** — "He drinks with his uncle's crowd. He's young; every young man does something to spite his father. It's nothing."
 - **`wujas-misses-someone`** — "My brother gets sentimental in his cups. Old sweethearts, old songs — drunks always weep for something. It means nothing."
 - **[%NEW_VILLAGE%](../locations/village-outskirts.md)** — "It sits above the flood line, on the plan and in fact. The state left us a concrete drain off the fields; when the water rises, the ditch carries it away. Let it come."
-- **`ditch-drains-nothing`** — "Nonsense. I walked that channel myself: good concrete, built to the plan. You saw one muddy stretch downstream and lost your nerve."
+- **`ditch-drains-nothing`** — "Nonsense. That ditch has carried every spring melt since we cut it. It drains. I've stood and watched it drain. You saw one muddy stretch downstream and lost your nerve."
+- **`ditch-not-built-to-spec`** — *(He goes still.)* "The plan called for concrete the whole run. We laid it where the ground needed it and left the rest as dugout. It carries the water either way. What the paper says and what the channel does are two different things, and I answer for the channel."
 
 ## Mechanics
 
@@ -110,6 +111,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 
 ### Ask about Janina's house
 - **Requires:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway
+- **Prompted by:** [ciotka-house-is-wojewodas](../clues/clues.md#ciotka-house-is-wojewodas)
 - **Cost:** 1 action
 - **Outcome:** He says the house was abandoned, left to the state, and administered by the farm; he put Janina in it because she keeps the boy and the place.
 - **Gives:** [`ciotka-house-is-pgrs`](../clues/clues.md#ciotka-house-is-pgrs)
@@ -125,6 +127,12 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **Cost:** Free
 - **Outcome:** He says he will handle it and shows no surprise.
 - **Gives:** [`bimber-still`](../clues/clues.md#bimber-still)
+
+### Confront him about Mazur's pension
+- **Requires:** Holding [mazur-death-covered-up](../clues/clues.md#mazur-death-covered-up)
+- **Cost:** 1 action
+- **Outcome:** He goes still and quiet, then does not deny it. In his mind there is nothing to deny: a man died on the farm, the state would have cut his widow off, so he kept the wage flowing and called it a pension. He lays it out as order and mercy, not crime, and names it as his decision and Michał's doing. He warns that filing it destroys Wanda for nothing.
+- **Gives:** [`foreman-coverup`](../clues/clues.md#foreman-coverup); NPC State Change: Zbigniew now knows the committee has the coverup and sets a grudge.
 
 ## Bond
 

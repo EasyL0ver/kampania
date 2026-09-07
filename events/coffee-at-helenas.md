@@ -37,7 +37,7 @@
 - If players hold [`departure-declaration-forged`](../clues/clues.md#departure-declaration-forged), she says pursuing the forged paper will destroy [Emil Rzepka](../characters/painter.md).
 - If players hold [`massacre-happened`](../clues/clues.md#massacre-happened), [`massacre-was-covered-up`](../clues/clues.md#massacre-was-covered-up), or [`massacre-bodies-in-well`](../clues/clues.md#massacre-bodies-in-well), she says no Polish court will try 1947.
 - If players hold [`glupek-strangled`](../clues/clues.md#glupek-strangled) or [`ciotka-not-mother`](../clues/clues.md#ciotka-not-mother), she says exposing how [Edek Barnaś](../characters/glupek.md) was hurt strips away [Janina Gajda](../characters/ciotka.md)'s care for him.
-- If players hold [`foreman-coverup`](../clues/clues.md#foreman-coverup), she says filing the truth about the PGR death would end [Wanda Mazur](../characters/widow.md)'s payments.
+- If players hold [`foreman-coverup`](../clues/clues.md#foreman-coverup) or [`mazur-death-covered-up`](../clues/clues.md#mazur-death-covered-up), she says filing the truth about the PGR death would end [Wanda Mazur](../characters/widow.md)'s payments.
 - If players hold [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty), she says [Tadek Gajda](../characters/wujas.md)'s punishment is already visible in his drinking.
 - If players hold [`jagna-painter-affair`](../clues/clues.md#jagna-painter-affair) or [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter), she says exposing the affair only breaks [Emil Rzepka](../characters/painter.md) further.
 - If players hold [`matrona-orchestrated-lynch`](../clues/clues.md#matrona-orchestrated-lynch) or [`painter-heard-matrona`](../clues/clues.md#painter-heard-matrona), she admits she aimed the mob and argues that naming her hands the state a Lemko woman to punish.
@@ -46,7 +46,7 @@
 
 ## Opportunities
 
-- **The excessive warmth** `(requires: Culture)` — The coffee and generosity manage a threat rather than host guests. → Gives: [`matrona-overperforms`](../clues/clues.md#matrona-overperforms)
+- **The excessive warmth** `(requires: Culture)` — The coffee and generosity manage a threat rather than host guests.
 - **What she never asks** `(requires: Finesse)` — [Helena Rzepka](../characters/matrona.md) never asks what the players have found.
 - **The shape of her case** `(requires: Finesse)` — Every practical argument ends at leaving the truth buried. → Gives: [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood)
 - **Emil at the edges** `(requires: Empathy)` — [Emil Rzepka](../characters/painter.md) flinches at his own name and will not be alone with [Helena Rzepka](../characters/matrona.md) and outsiders.

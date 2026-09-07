@@ -39,4 +39,4 @@ TOTAL:                      15,650 zł
 ### Cross-check the names (Investigation)
 - **Requires:** Holding the registry
 - **Cost:** 1 card
-- **Outcome:** One listed labourer — Tadeusz Mazur — draws a full daily wage but no one on the farm answers to him or has seen him work. He died at the grain silo around 1965 and was never reported; his wages go to [Wanda Mazur](../characters/widow.md) as a fake "widow's pension." Gives [`foreman-coverup`](../clues/clues.md#foreman-coverup). If confronted, [Michał Pytlak](../characters/foreman.md) enters Stage 1 deflection.
+- **Outcome:** One listed labourer — Tadeusz Mazur — draws a full daily wage but no one on the farm answers to him or has seen him work. Gives [`mazur-paid-but-absent`](../clues/clues.md#mazur-paid-but-absent). If confronted, [Michał Pytlak](../characters/foreman.md) enters Stage 1 deflection.

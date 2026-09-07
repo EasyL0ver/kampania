@@ -28,8 +28,8 @@ A small scatter of hand-pinched butts, oval, all one brand: Carmen. An aromatic 
 - **Outcome:** Laid side by side, both scatters are the same oval Carmen. The man who haunts the well left the same brand at her threshold.
 - **Gives:** [door-and-well-butts-match](../clues/clues.md#door-and-well-butts-match)
 
-### Compare with the cigarette in Edek's corner
-- **Requires:** Holding the butts and the [single cigarette found in Edek's corner](../locations/ciotkas-house.md#search-edeks-corner); **Finesse**, **Survival**, or **Chainsmoker**
+### Compare with the cigarette in Edek's room
+- **Requires:** Holding the butts and the [single cigarette found in Edek's room](../locations/ciotkas-house.md#search-edeks-room); **Finesse**, **Survival**, or **Chainsmoker**
 - **Cost:** 1 action
 - **Outcome:** Laid side by side, the unsmoked cigarette from the boy's corner is the same oval Carmen as the butts at the door. Edek does not smoke, so someone gave it to him. Who can be learned by [asking Edek](../characters/glupek.md#ask-edek-about-the-cigarette).
 - **Gives:** [edek-has-carmen-cigarette](../clues/clues.md#edek-has-carmen-cigarette)

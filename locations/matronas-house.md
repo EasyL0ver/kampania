@@ -34,7 +34,7 @@
 
 - **Household dynamic** `(requires: Empathy)` — Emil waits for Helena's cues before speaking, and her touch makes him flinch. → Gives: [matrona-controls-painter](../clues/clues.md#matrona-controls-painter)
 - **Well in the paintings** `(requires: access to Emil's attic)` — The newer paintings show the well before the players find or understand it. → Gives: [painters-art-shows-the-well](../clues/clues.md#painters-art-shows-the-well)
-- **Helena's over-correction** `(requires: Day 2+ or well influence active and Empathy)` — Helena becomes more publicly perfect as pressure rises. → Gives: [matrona-overperforms](../clues/clues.md#matrona-overperforms)
+- **Helena's over-correction** `(requires: Day 2+ or well influence active and Empathy)` — Helena becomes more publicly perfect as pressure rises.
 
 ## Actions
 

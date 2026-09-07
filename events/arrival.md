@@ -28,6 +28,13 @@
 
 ## Actions
 
+### Listen to Wojewoda's welcome
+- **Requires:** Nothing
+- **Prompted by:** [committee-visits-new-village](../clues/clues.md#committee-visits-new-village)
+- **Cost:** Free
+- **Outcome:** He plays the gracious host: he is the committee's point of contact, and the heavy phone on his desk is the only line for miles, so anything the village or the committee needs runs through him.
+- **Gives:** [`wojewoda-has-only-phone`](../clues/clues.md#wojewoda-has-only-phone)
+
 ### Tell Wojewoda about the flood risk
 - **Requires:** Nothing
 - **Cost:** Free

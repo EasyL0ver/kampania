@@ -33,6 +33,7 @@
 
 - **Covered mirrors** `(requires: Culture or Superstitious)` — The coverings are systematic, old, and tied to death mourning. → Gives: [covered-mirrors](../clues/clues.md#covered-mirrors)
 - **Babcia's cross** `(requires: Culture or Devotion)` — The three-barred crucifix is Greek Catholic, not Roman Catholic. → Gives: [three-barred-cross-is-lemko](../clues/clues.md#three-barred-cross-is-lemko)
+- **The crucifix above Babcia's corner** — A small three-barred crucifix hangs in Babcia's corner, unlike the Roman cross on the wall. → Gives: [three-barred-cross-in-babcias-room](../clues/clues.md#three-barred-cross-in-babcias-room)
 - **Babcia's muttering** `(requires: Language or Culture)` — The fragments are Lemko memorial prayers, a panakhyda fragment. → Gives: [babcia-has-the-words](../clues/clues.md#babcia-has-the-words)
 - **Pawełek repeats Babcia's words** `(requires: Language)` — His pronunciation is accurate Lemko; he does not understand the words. → Gives: [babcia-has-the-words](../clues/clues.md#babcia-has-the-words)
 - **Red-brick house** `(requires: Handiwork)` — The construction quality does not match Barbara's poverty; the work used better resources than she could afford. → Gives: [barbara-has-help](../clues/clues.md#barbara-has-help)

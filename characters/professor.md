@@ -24,7 +24,7 @@ He speaks rapidly and precisely, in the clipped cadence of a lecturer who assume
 
 ## Opinions
 
-- **[%NEW_VILLAGE%](../locations/village-outskirts.md)** — The projection holds only if the valley can drain. I know of two outlets, the ridge gap and the old far-ridge streambed. If both are closed, the village is in the flood zone. I cannot prove it from Kraków; someone has to check them on the ground.
+- **[%NEW_VILLAGE%](../locations/village-outskirts.md)** — The projection holds only if two things are true: the ground stands where the map puts it, and the valley can drain. Check both. Level the terrain against the map to confirm the heights, and test the outlets. I know of two outlets, the ridge gap and the old far-ridge streambed. If both are closed, the village is in the flood zone. I cannot prove it from Kraków; someone has to check it on the ground.
 - **The previous survey:** That report is thin. Too few stations, too much taken on faith. I would not trust the number behind it.
 - **`new-village-will-flood`:** Then the suspicion was right, and the official map is wrong where it matters most.
 - **`gap-is-blocked`:** One outlet gone. A landslide plug where the map shows a drain. Describe the fill and the sill height and I can document the error.
@@ -34,7 +34,7 @@ He speaks rapidly and precisely, in the clipped cadence of a lecturer who assume
 ### Call him for help — where to look
 - **Requires:** A phone (his number routes through the [exchange](secondary-characters.md#operator-the-telephone-exchange-operator), like every outside call), and enough to make him listen — a reason to think the state's map is wrong
 - **Cost:** 1 action
-- **Outcome:** The party describes the two valleys and the ridge between them. He names the two outlets he knows, the ridge gap and the old far-ridge streambed, and asks the party to check whether water can still get out through either. He warns that the [previous crew's survey report](../items/geologists-kit.md) in their dossier is thin and should not be trusted. He has never heard of the PGR irrigation ditch.
+- **Outcome:** The party describes the two valleys and the ridge between them. He lays out that the safe verdict rests on two assumptions, the mapped ground being accurate and the valley draining, and asks the party to test both: level the terrain against the map to confirm the heights hold, and check whether water can still get out. He names the two outlets he knows, the ridge gap and the old far-ridge streambed. He warns that the [previous crew's survey report](../items/geologists-kit.md) in their dossier is thin and should not be trusted. He has never heard of the PGR irrigation ditch.
 - **Gives:** Scene Unlock: **"Walk to the ridge gap"** and **"Read the streambed benchmarks"** at the [village outskirts](../locations/village-outskirts.md); NPC State Change: he is engaged and waiting for the field readings.
 
 ### Certify the plug

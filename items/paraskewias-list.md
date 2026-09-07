@@ -47,4 +47,4 @@ Who they were is recorded in [the massacre file](../story-facts/old-village-mass
 - **Requires:** Holding the list; access to [Stefania Kopacz](../characters/babcia.md)
 - **Cost:** 1 action
 - **Outcome:** She didn't know these people — she is Lemko, but from another village, a stranger to %OLD_VILLAGE%. It doesn't matter. She reads the Cyrillic aloud in the old tongue, slow and certain, and over each name she says the words for the dead. An elder giving twelve strangers the mourning no one ever gave them, because they are her people by blood and by faith. The fog lifts while she reads. She can't confirm the list is complete — only Paraskewia could — but she can give it the prayer, binding the [Words](../events/the-ritual.md#the-three-components) to the names.
-- **NPC State Change:** Reading her people's names moves Babcia toward being willing to go to the well ([`barbara-must-bring-babcia`](../clues/clues.md#barbara-must-bring-babcia)).
+- **NPC State Change:** Reading her people's names moves Babcia toward being willing to go to the well.

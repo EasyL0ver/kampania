@@ -77,16 +77,22 @@
 - **Outcome:** The crew hang their weight on the parallel strand off the clamp and drag a body up one pitch, no one climbing it under load. This is how the reader who must take the reading, a geologist or a handiworker with an improvised level, but cannot climb the killzone reaches the crest.
 - **Gives:** The hauled climber moves up one level (past lower bank → past killzone → past top-out); the 2 points are spent (see Counterweight).
 
-### Take the reading
-- **Requires:** the [geologist's kit](../items/geologists-kit.md); Geology, or Handiwork with a [water hose contraption](../items/water-hose-contraption.md); the reader has topped out (past the top-out).
-- **Prompted by:** [water-may-flow-over](../clues/clues.md#water-may-flow-over)
+### Level the foot of the plug
+- **Requires:** the [geologist's kit](../items/geologists-kit.md); Geology, or Handiwork with a [water hose contraption](../items/water-hose-contraption.md); reaching the foot of the plug (no climb).
+- **Prompted by:** [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders), [water-may-flow-over](../clues/clues.md#water-may-flow-over)
 - **Cost:** **Geology** 1 card; **Handiwork** 2 cards (the water level reads one short step at a time, so the run has to be leapfrogged in stages up the valley floor to the base of the gap).
-- **Outcome:** The reading is three transfers, and the crest is the only place the last two can be made:
-  1. **Bring the flood line to the foot of the climb.** Carry a level from the marked flood datum down the valley up to a fixed mark on the ground just below the plug. *Geology* shoots it with the kit's level and rod in a few long sights; *Handiwork* runs the [water hose contraption](../items/water-hose-contraption.md), leapfrogged one rod-length of rise per step up to the mark, slow but the same answer.
-  2. **Drop the top stone to that mark.** Hang the kit's plumb line from the capstone slab at the crest straight down the sheer face to the mark below the climb. The line reads the vertical face directly, fixing the top stone's height above the flood line.
-  3. **Level the notch against the top stone.** Level the plug's lowest saddle against the top stone right there at the crest, a short local step. That last figure is the sill's height above the flood line.
+- **Outcome:** Carry the flood line to a fixed mark on the ground just below the plug: bring a level from the marked flood datum down the valley up to the mark, fixing that ground's height against the flood line. *Geology* shoots it with the kit's level and rod in a few long sights; *Handiwork* runs the [water hose contraption](../items/water-hose-contraption.md), leapfrogged one rod-length of rise per step up to the mark, slow but the same answer. This sets the reference the crest reading is dropped against; it does not by itself settle overtopping.
+- **Gives:** [gap-foot-level](../clues/clues.md#gap-foot-level)
+
+### Take the reading
+- **Requires:** the [geologist's kit](../items/geologists-kit.md); Geology, or Handiwork with a [water hose contraption](../items/water-hose-contraption.md); the reader has topped out (past the top-out); [gap-foot-level](../clues/clues.md#gap-foot-level) (the foot mark must already be levelled).
+- **Prompted by:** [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders), [water-may-flow-over](../clues/clues.md#water-may-flow-over)
+- **Cost:** **Geology** 1 card; **Handiwork** 2 cards.
+- **Outcome:** With the foot mark already fixed against the flood line, the crest reading is two more transfers, and the crest is the only place they can be made:
+  1. **Drop the top stone to the foot mark.** Hang the kit's plumb line from the capstone slab at the crest straight down the sheer face to the mark below the climb. The line reads the vertical face directly, fixing the top stone's height above the flood line.
+  2. **Level the notch against the top stone.** Level the plug's lowest saddle against the top stone right there at the crest, a short local step. That last figure is the sill's height above the flood line.
   - If the sill stands above the line, rising water cannot top the plug.
-- **Gives:** [gap-sill-above-flood](../clues/clues.md#gap-sill-above-flood).
+- **Gives:** [gap-sill-above-flood](../clues/clues.md#gap-sill-above-flood)
 
 ## Mechanics
 

@@ -12,7 +12,7 @@
 - The players ride in the back.
 - The players are government committee members.
 - The committee is heading to assess flood risk in a remote Bieszczady village.
-- prof. Tadeusz Bieńkowski briefed the committee before departure: he suspects the valley may not drain, and named two outlets to verify, the ridge water-gap and the old far-ridge streambed.
+- prof. Tadeusz Bieńkowski briefed the committee before departure: the safe level assumes the ground stands where the map records it and that the valley drains, so he wants both checked, and he named two outlets to verify, the ridge water-gap and the old far-ridge streambed.
 - por. Witold Skowron is professional and friendly.
 - He talks while he drives.
 
@@ -28,19 +28,19 @@
 - **Outcome:** On the road in, por. Witold Skowron lays out who the players are and why they are here: a state committee sent ahead of the reservoir to run a census, assess property for flood damage, and survey the valley. It is the authority the whole visit rests on.
 - **Gives:** [`government-committee`](../clues/clues.md#government-committee)
 
+### Learn the destination
+- **Requires:** Nothing
+- **Prompted by:** [government-committee](../clues/clues.md#government-committee)
+- **Cost:** Free
+- **Outcome:** por. Witold Skowron names where they are headed: %NEW_VILLAGE%, the resettled village in the valley below the planned reservoir, and points out where the road drops toward it.
+- **Gives:** [`committee-visits-new-village`](../clues/clues.md#committee-visits-new-village)
+
 ### Listen to the briefing
 - **Requires:** Nothing
 - **Prompted by:** [government-committee](../clues/clues.md#government-committee)
 - **Cost:** Free
 - **Outcome:** por. Witold Skowron explains the committee's survey, property assessment, local contact, village phone, and road risk.
-- **Gives:** [`committee-runs-geographical-survey`](../clues/clues.md#committee-runs-geographical-survey), [`committee-notes-property-for-damage`](../clues/clues.md#committee-notes-property-for-damage), [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood)
-
-### Ask about the village history
-- **Requires:** Nothing
-- **Prompted by:** [government-committee](../clues/clues.md#government-committee)
-- **Cost:** Free
-- **Outcome:** por. Witold Skowron says the village was resettled after the war and used to be Lemko territory.
-- **Gives:** [`old-village-was-lemko`](../clues/clues.md#old-village-was-lemko)
+- **Gives:** [`committee-runs-geographical-survey`](../clues/clues.md#committee-runs-geographical-survey), [`committee-notes-property-for-damage`](../clues/clues.md#committee-notes-property-for-damage), [`committee-fills-census`](../clues/clues.md#committee-fills-census), [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood)
 
 ### Ask about potential dangers
 - **Requires:** Nothing
@@ -59,7 +59,7 @@
 - **Requires:** Nothing
 - **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Cost:** Free
-- **Outcome:** The committee recalls [prof. Tadeusz Bieńkowski](../characters/professor.md)'s pre-trip briefing: he suspects %NEW_VILLAGE% may not drain, warns the official flood line may be miscalculated, and flagged two outlets to check on the ground, the ridge water-gap and the old far-ridge streambed. He knows of no others. He says only that the paperwork does not hold up and he cannot prove it from Kraków; he does not point at the previous survey by name, leaving that for the committee to find on the ground.
+- **Outcome:** The committee recalls [prof. Tadeusz Bieńkowski](../characters/professor.md)'s pre-trip briefing: the state's safe verdict rests on two things holding true, that the ground stands where the map records it and that the valley drains through its outlets. He wants both tested on the ground: level the terrain against the map to confirm the heights, and check whether water can still get out. He flagged two outlets he knows, the ridge water-gap and the old far-ridge streambed, and knows of no others. He says only that the paperwork does not hold up and he cannot prove it from Kraków; he does not point at the previous survey by name, leaving that for the committee to find on the ground.
 - **Gives:** [`gap-is-candidate-drain`](../clues/clues.md#gap-is-candidate-drain), [`streambed-is-candidate-drain`](../clues/clues.md#streambed-is-candidate-drain), [`the-flood-line-potentially-miscalculated`](../clues/clues.md#the-flood-line-potentially-miscalculated)
 
 ### Draft the committee

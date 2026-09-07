@@ -36,6 +36,7 @@
 
 ### Ask about Janina's house
 - **Requires:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway; see [Zbigniew Gajda](../characters/wojewoda.md#ask-about-janinas-house)
+- **Prompted by:** [ciotka-house-is-wojewodas](../clues/clues.md#ciotka-house-is-wojewodas)
 - **Cost:** 1 action
 - **Outcome:** Zbigniew says the house was abandoned, left to the state, administered by the PGR, and allocated to Janina.
 - **Gives:** [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs)

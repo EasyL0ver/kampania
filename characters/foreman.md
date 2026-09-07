@@ -99,13 +99,13 @@ Michał backs [Zbigniew Gajda](wojewoda.md)'s optimistic line only while he beli
 - **Gives:** Item: the [anchor and hammer](../items/anchor.md).
 
 ### Press him about Tadeusz Mazur
-- **Requires:** A reason to name Mazur — the [PGR ledger](../items/pgr-ledger.md) showing a worker nobody answers to, or [Wanda Mazur](widow.md)'s account of her "pension"
+- **Requires:** Holding [mazur-death-covered-up](../clues/clues.md#mazur-death-covered-up); asked alone, not in front of the workers
 - **Cost:** 1 action
-- **Outcome:** Away from the workers, he admits Mazur died in the silo and that the paperwork was buried. He asks that Wanda not be told what her pension really is.
+- **Outcome:** Put the books in front of him and the pragmatism drops. He has carried this since 1965 and the guilt comes out plainly: the silo took Mazur, he buried the paperwork, and the sołtys signed off on keeping the wage flowing to Wanda so she would not starve. He does not dress it up. He asks one thing: that Wanda never learn her pension is a dead man's wage.
 - **Gives:** [`foreman-coverup`](../clues/clues.md#foreman-coverup)
 
 ### Pressure him in public about Tadeusz Mazur
-- **Requires:** A reason to name Mazur — the [PGR ledger](../items/pgr-ledger.md) showing a worker nobody answers to, or [Wanda Mazur](widow.md)'s account of her "pension"
+- **Requires:** Holding [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent) or [mazur-died-in-the-silo](../clues/clues.md#mazur-died-in-the-silo)
 - **Cost:** 1 action
 - **Outcome:** He stops answering and goes to warn [Zbigniew](wojewoda.md) that the committee knows about Mazur.
 - **Gives:** NPC State Change: Zbigniew becomes guarded; World State Change: village doors close to the committee.

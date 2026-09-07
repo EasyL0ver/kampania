@@ -18,6 +18,14 @@
      over directly. Note any parts gated behind a skill (e.g. Language for
      Ukrainian, Culture for ritual meaning) beneath the text. -->
 
+## Opportunities
+
+<!-- Optional. Free, no action cost. Skill-gated impressions, seeds, or atmosphere
+     the item gives off when examined. An opportunity may point at a clue, but it
+     does not have to — pure atmosphere with no clue is fine (unlike Actions).
+     Format: skill tag in backticks, then what it reveals. Omit the section if the
+     item offers nothing to notice beyond its Actions. -->
+
 ## Actions
 
 <!-- Item-bound actions: examine, present to an NPC, use, destroy.

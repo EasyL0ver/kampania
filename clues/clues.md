@@ -2,21 +2,33 @@
 
 Player-discoverable knowledge. Each clue is an atomic fact. Character files link here when an NPC can reveal it.
 
+A clue may also be **synthesized**: add `**Synthesis:** clue-a + clue-b` under it and holding all named clues derives it anywhere, in no particular scene. Several `**Synthesis:**` lines are alternate routes. Synthesis never replaces direct givers; it is one more way in.
+
 ---
 
 ## Heritage & Identity
 
 ### siblings-are-lemko
 [Zbigniew Gajda](../characters/wojewoda.md), [Helena Rzepka](../characters/matrona.md), [Tadek Gajda](../characters/secondary-characters.md), and [Janina Gajda](../characters/ciotka.md) are siblings of Lemko descent, hiding behind Polish identities.
+**Synthesis:** three-barred-cross-on-gajda-grave + three-barred-cross-is-lemko
 
 ### three-barred-cross-is-lemko
 The three-barred cross is a Greek Catholic symbol — Lemko, not Roman Catholic. Seeing one on a headstone, icon, or object means the owner was Lemko.
+
+### three-barred-cross-on-gajda-grave
+The well-tended double grave of Zbigniew Gajda's parents, under its Polonised surname, carries a small three-barred cross half-hidden beneath the lichen.
+
+### three-barred-cross-in-babcias-room
+In Barbara Kopacz's house, a small three-barred crucifix hangs above [Stefania Kopacz](../characters/babcia.md)'s corner, unlike the Roman cross on the wall.
 
 ### hag-exists
 Someone lives in the [forest](../locations/hags-cabin.md). Villagers call her a witch, a ghost, a story to scare children. She's real.
 
 ### hag-is-lemko
 [Paraskewia Chyłak](../characters/hag.md) is a Lemko woman living alone in the [forest](../locations/hags-cabin.md). She is ~40, not old — the forest aged her.
+
+### babcia-is-lemko
+[Stefania Kopacz](../characters/babcia.md), [Barbara Kopacz](../characters/barbara.md)'s mother, is a Lemko woman who kept the old Greek Catholic faith and death customs.
 
 ### officer-is-sb
 [por. Witold Skowron](../characters/officer.md) is an SB (secret police) agent, not just a bureaucrat.
@@ -32,6 +44,7 @@ There's an old, abandoned village in the forest — [%OLD_VILLAGE%](../locations
 
 ### old-village-was-lemko
 [%OLD_VILLAGE%](../locations/old-village-ruins.md) was a Lemko settlement — Greek Catholic, with a cerkiew, orchards, and a tightly-knit community.
+**Synthesis:** three-barred-cross-in-cerkiew + three-barred-cross-is-lemko
 
 ### lemkos-lived-here
 The heights above the valley were Lemko summer pasture. A tumbled koliba (shepherd's hut) on the far ridge shows herders from a Greek Catholic hill community worked these slopes, before the valley was cleared.
@@ -41,6 +54,9 @@ There is an abandoned shepherd's hut (koliba) hidden in the gorse on the far rid
 
 ### three-barred-cross-in-abandoned-house
 The timber inside the abandoned koliba on the far ridge is cut all over with three-barred crosses, carved deep and many times over.
+
+### three-barred-cross-in-cerkiew
+The abandoned cerkiew's altar screen, icons, and carvings are marked all over with the three-barred cross.
 
 ### massacre-happened
 In 1947, the Lemko villagers of [%OLD_VILLAGE%](../locations/old-village-ruins.md) were killed — the whole village, in a single act of violence. They did not "evacuate." They were massacred.
@@ -245,14 +261,45 @@ From the first night in the village, the players have dreams of violence — han
 ### babcia-hears-singing
 [Stefania Kopacz](../characters/babcia.md) has heard [Paraskewia Chyłak](../characters/hag.md)'s Lemko prayers carried on the wind at night. She will notice when the singing stops.
 
+### ciotka-is-dead
+[Janina Gajda](../characters/ciotka.md) is dead. Her body lies on her kitchen floor.
+
 ### ciotka-overdose
 [Janina Gajda](../characters/ciotka.md) died from an overdose of her own sedative pills (Luminal), the nerve-and-sleep medicine she had taken for years. The overdose, not any injury, is what killed her. Whether she took the dose on purpose or miscounted cannot be told from the scene. [Edek Barnaś](../characters/glupek.md) is gone, fled into the forest. **Conditional:** Only exists after players discover the body.
 
 ### ciotka-hurt-before-death
 [Janina Gajda](../characters/ciotka.md) was gripped hard by a large, strong hand shortly before she died. A fresh bruise rings her wrist, made while she was still alive. The grip did not kill her, but someone laid hands on her in her last hours.
 
+### two-coffee-cups
+Two used coffee cups sit on [Janina Gajda](../characters/ciotka.md)'s table. Someone drank coffee with her shortly before she died.
+
+### ciotka-had-a-visitor
+The second coffee cup was not [Edek Barnaś](../characters/glupek.md)'s; he will not drink coffee. An adult from outside sat and drank with [Janina Gajda](../characters/ciotka.md) shortly before she died.
+**Synthesis:** two-coffee-cups + glupek-wont-drink-coffee
+
+### cash-in-ciotkas-purse
+[Janina Gajda](../characters/ciotka.md)'s purse holds a thick roll of banknotes, far more cash than a village widow keeps at home.
+
+### committee-desecrated-body
+The committee stripped the clothes from [Janina Gajda](../characters/ciotka.md)'s body at the scene of her death.
+
+### committee-looted-belongings
+The committee went through [Janina Gajda](../characters/ciotka.md)'s purse and personal effects at the scene of her death.
+
+### committee-stole-money
+A committee member took the roll of cash from [Janina Gajda](../characters/ciotka.md)'s purse.
+
+### glupek-wont-drink-coffee
+[Edek Barnaś](../characters/glupek.md) will not drink coffee. The bitterness baffles him; offered a cup, he flinches and leaves it. In that house, coffee is Janina's alone.
+
 ### glupek-fled-into-forest
 Large bare footprints lead from [Janina Gajda](../characters/ciotka.md)'s house toward the treeline and vanish where the canopy begins. [Edek Barnaś](../characters/glupek.md) fled into the forest the night she died.
+
+### junior-pressed-ciotka
+[Marek "Junior" Gajda](../characters/junior.md) visited [Janina Gajda](../characters/ciotka.md) the day before she died and pressed her hard about his mother [Irena](../characters/wife.md)'s secret investigation into the family. He wanted her to tell the truth, not to silence her.
+
+### ciotka-told-edek-the-truth
+Before she died, [Janina Gajda](../characters/ciotka.md) told [Edek Barnaś](../characters/glupek.md) the truth: the people of this village killed his father [Edward Barnaś](../characters/soldier.md), and Edek is the living proof. The reveal broke him.
 
 ### junior-smokes-carmen
 [Marek Gajda](../characters/junior.md) smokes Carmen, a premium brand.
@@ -333,6 +380,15 @@ Tadek Gajda is guilty of something terrible. He's been drinking to forget for 13
 ### ciotka-lives-in-soldiers-house
 [Janina Gajda](../characters/ciotka.md) lives in [Edward Barnaś](../characters/soldier.md)'s former house — the best plot in the village — raising his brain-damaged son. A single woman in a dead man's house with no clean explanation.
 
+### girls-dress-in-ciotkas-house
+A teenage girl's dress is kept in [Janina Gajda](../characters/ciotka.md)'s house. A girl that age lived here once.
+
+### childs-rattle-in-ciotkas-house
+A small child's rattle is kept in [Janina Gajda](../characters/ciotka.md)'s house. A baby lived here once.
+
+### lemko-bell-in-ciotkas-house
+A small brass Greek Catholic liturgical bell with Cyrillic lettering is hidden in [Janina Gajda](../characters/ciotka.md)'s house. An Eastern-rite object, out of place in a Roman Catholic home.
+
 ### ciotka-moved-in-after-they-were-gone
 [Janina Gajda](../characters/ciotka.md) wasn't always in that house. A family lived there before — the Barnaś family. They left, and Janina moved in with the boy.
 
@@ -354,9 +410,6 @@ Tadek Gajda is guilty of something terrible. He's been drinking to forget for 13
 ### wojewoda-has-gun
 [Zbigniew Gajda](../characters/wojewoda.md) has a pistol in his office. Locked. Symbol of authority — but loaded.
 
-### wojewoda-is-lemko
-A small wooden icon in [Zbigniew Gajda](../characters/wojewoda.md)'s office — Eastern-style devotional art, Greek Catholic. *"My grandmother's."* The sołtys of a Polish village has Lemko blood.
-
 ### neighbour-has-rifle
 [Ryszard Dudka](../characters/neighbour.md) is a hunter with a licensed hunting rifle.
 
@@ -365,9 +418,6 @@ The siblings keep the [church](../locations/the-church.md) unusually well suppli
 
 ### painters-art-shows-the-well
 [Emil Rzepka](../characters/secondary-characters.md)'s art starts showing the well before the players find it — dark circles, stone rings, black water.
-
-### matrona-overperforms
-Helena Rzepka's public warmth and piety intensifies over time — more church visits, more generosity, more visible devotion. It reads as desperation, a mask starting to slip.
 
 ### neighbour-avoids-ciotkas-window
 Ryszard Dudka's window facing Ciotka's house is always covered with a heavy curtain — never opened. The window facing Barbara's house has no curtain at all.
@@ -413,7 +463,7 @@ The PGR irrigation ditch is one of the candidate outlets floodwater could leave 
 The old far-ridge streambed is one of the candidate outlets floodwater could leave the %NEW_VILLAGE% valley through.
 
 ### the-flood-line-potentially-miscalculated
-prof. Bieńkowski suspects the official flood line for the %NEW_VILLAGE% valley may be miscalculated. If the valley does not drain as the survey assumes, the projected safe level is wrong and the new village may not sit above it after all.
+prof. Bieńkowski suspects the official flood line for the %NEW_VILLAGE% valley may be miscalculated. The projected safe level rests on two assumptions: that the ground stands where the map records it, and that the valley drains through its outlets as the survey assumes. If the mapped heights are wrong, or the outlets do not carry the water off, the safe level is wrong and the new village may not sit above it after all. Both assumptions have to be checked on the ground.
 
 ### gap-is-blocked
 A ridge separates the %NEW_VILLAGE% valley from the empty %BIG-BASIN% beyond it. The state map shows a water-gap through that ridge as an open drain into %BIG-BASIN%, the outlet the whole safety calculation rests on. An old landslide has plugged it: the crest of the plug stands above the flood line, and the fill is impermeable, so rising water can neither crest the plug nor seep through it into %BIG-BASIN%. It is one of the three outlets the valley needs, and it is sealed.
@@ -475,6 +525,9 @@ The state map draws the ridge water-gap as an open channel, an outlet for the va
 ### map-is-outdated
 The state map predates the landslide that plugged the gap. It cannot be trusted on the gap or on the river's course.
 
+### village-terrain-matches-map
+The surveyed elevations of the %NEW_VILLAGE% valley match the state map's contours. The ground reads true against the paper, so the map is an accurate record of the terrain everywhere the players check it. The only places it disagrees with reality are the plugged gap and the shifted river.
+
 ### survey-was-botched
 The crew sent to re-check the terrain never properly did the work. They drove a few stakes, drank through the visit, took the wojewoda's ditch on faith, dismissed the changed river, and filed thin paper. Not a deliberate forgery, just a half-assed, negligent job, but it means the official survey behind the flood projection cannot be trusted.
 
@@ -489,9 +542,6 @@ The previous crew's filed survey report is thin: too few field stations, cursory
 
 ### surveyors-are-known-drunks
 The PGR crew rib survey men as famous drunks, and the last survey team who came drank through their whole visit instead of working the ground.
-
-### old-village-basin-is-the-low-sink
-The old-village valley is the lowest ground in the area — the natural basin all the water wants to drain into. It matches the map exactly. Empty ruins now; it will take the water whether or not anyone acts.
 
 ### flood-mark-left-by-dam-builders
 The flood line staked across the %NEW_VILLAGE% valley was set by the Solina dam-survey crews, not the resettlement survey. It marks the reservoir's projected fill level, tied to the dam builders' own benchmarks, and stands at 420.0 m above sea level.
@@ -511,6 +561,9 @@ The surveyed elevation of the floor of the old-village bowl: 408.0 m above sea l
 ### big-basin-floor-level
 The surveyed elevation of the floor of %BIG-BASIN%: 405.0 m above sea level.
 
+### gap-foot-level
+The surveyed elevation of the ground at the foot of the ridge plug, just below the gap climb: 418.0 m above sea level. It is the low approach where the valley's water would gather to leave through the gap, below house level but sealed off by the plug rising above it.
+
 ### wojewoda-already-suspects-flooding
 [Zbigniew Gajda](../characters/wojewoda.md) already suspects the flood is coming before the committee arrives. He sees it as an opportunity — water swallows the evidence.
 
@@ -528,6 +581,9 @@ The players can call [Professor](../characters/secondary-characters.md) by phone
 
 ### government-committee
 The player characters are a state committee sent to %NEW_VILLAGE% ahead of the reservoir, tasked with a census, a property assessment for flood damage, and a geographical survey of the valley. It is the frame the whole visit hangs on: the reason outsiders can measure land, enter homes, and ask questions at all.
+
+### committee-visits-new-village
+The committee's destination is %NEW_VILLAGE%, the postwar resettlement in the valley below the planned reservoir. [por. Witold Skowron](../characters/officer.md) names it on the drive in: where they are going, and where the whole visit takes place.
 
 ### committee-runs-geographical-survey
 The committee's stated purpose in the village is a geographical survey — terrain, river, boundaries. It's the cover that explains why outsiders are measuring the land.
@@ -556,9 +612,6 @@ The ritual requires form (how), words (what to say), and truth (naming the dead 
 
 ### players-supply-truth
 The players must supply the truth by naming the dead and saying what happened to them. The ritual is not a spell — it is acknowledgement.
-
-### barbara-must-bring-babcia
-[Barbara Kopacz](../characters/barbara.md) is the only one who can physically bring [Stefania Kopacz](../characters/babcia.md) to the well. She needs a human reason — not faith, not ritual. She needs to understand that her mother's people are in that well and Babcia has been mourning them her whole life.
 
 ---
 
@@ -605,6 +658,20 @@ Villagers blame [Paraskewia Chyłak](../characters/hag.md) for the wolf attacks.
 
 ## Red Herrings & Side Mysteries
 
+### mazur-paid-but-absent
+The PGR worker registry pays a full daily wage to Tadeusz Mazur, a labourer no one on the farm answers to or has seen in about two years. The expense journal logs a grain-silo repair in May 1965 and, a week later, the largest single grain purchase in the book.
+
+### mazur-died-in-the-silo
+Tadeusz Mazur died around 1965 in the farm's concrete grain silo, engulfed while breaking loose caked grain that had stopped flowing. [Wanda Mazur](../characters/widow.md) believes it was an ordinary farm accident, properly handled, and that she now draws a state widow's pension.
+
+### mazur-buried-in-cemetery
+Tadeusz Mazur lies in a fresh, well-tended grave in the %NEW_VILLAGE% cemetery, the one [Wanda Mazur](../characters/widow.md) kneels beside.
+
+### mazur-death-covered-up
+Tadeusz Mazur died on the PGR farm and the death was never reported to the state. His wage still flows to [Wanda Mazur](../characters/widow.md), disguised as a "widow's pension" she believes is a real state payment. The books prove the death was buried; they do not name who buried it.
+
+**Synthesis:** mazur-died-in-the-silo + mazur-paid-but-absent
+
 ### foreman-coverup
 [Michał Pytlak](../characters/foreman.md) and [Zbigniew Gajda](../characters/wojewoda.md) covered up a preventable death on the PGR farm. Tadeusz Mazur died ~1965 — never reported to the state. His wages still flow to [Wanda Mazur](../characters/widow.md) as a fake "widow's pension." She doesn't know. The village doesn't know the death was never filed. Same mechanism as the lynch: bury the truth, keep outsiders away.
 
@@ -632,9 +699,6 @@ Cornered and drunk, the still crew will come to blows if pushed — Franek Mucha
 ### store-has-drug-cabinet
 [Helena Rzepka](../characters/matrona.md)'s [store](../locations/the-store.md) has a locked pharmaceutical cabinet — a *szafka apteczna*, standard PRL distribution point. Helena holds the only key. [Halina](../characters/secondary-characters.md) can't open it.
 
-### wojewoda-can-call-doctor
-[Zbigniew Gajda](../characters/wojewoda.md)'s office phone can reach [dr. Leon Sawicki](../characters/secondary-characters.md) in the district. Flood-damaged lines — patchy, but it works on the third try.
-
 ### paweleks-illness
 [Pawełek Kopacz](../characters/pawelek.md) drinks contaminated floodwater near the well and falls ill. Medically ordinary for flood conditions — but his fever dreams mention "the round stones," "the lady" who told him not to drink, and water that "tastes like the ground." → [event](../events/pawelek-falls-ill.md)
 
@@ -646,12 +710,6 @@ The contamination profile is wrong. Concentrated single-source, not diffuse floo
 
 ### well-water-contaminated
 The well in [%OLD_VILLAGE%](../locations/old-village-ruins.md) is the source of contamination. The water is bad — whoever drinks it gets sick.
-
-### old-village-looks-haunted
-[%OLD_VILLAGE%](../locations/old-village-ruins.md) looks haunted — candlelight, incense, footprints — because [Paraskewia Chyłak](../characters/hag.md) is tending it, not because it's empty.
-
-### cemetery-missing-graves
-The cemetery at [%OLD_VILLAGE%](../locations/old-village-ruins.md) has fewer graves than it should. Some dead are missing because they are in the well.
 
 ### upa-bunker
 The UPA bunker in the [forest](../locations/old-village-ruins.md) contains old partisan ordnance. Partially collapsed, dangerous. [Michał Pytlak](../characters/secondary-characters.md)'s flood-diversion plan uses explosives from here.

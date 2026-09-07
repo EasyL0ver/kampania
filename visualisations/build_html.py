@@ -106,7 +106,12 @@ def build_payload() -> dict:
         target_ids = [add_fact(val) if kind == "clue" else add_known(*val)
                       for kind, val in outputs]
         for sid, rel in source_ids:
-            estyle = "opp" if n.kind == "opportunity" else rel  # hard=solid / soft=dashed
+            if n.kind == "opportunity":
+                estyle = "opp"
+            elif n.kind == "synthesis":
+                estyle = "synth"
+            else:
+                estyle = rel  # hard=solid / soft=dashed
             for tgt in target_ids:
                 if sid == tgt:
                     continue
@@ -160,6 +165,7 @@ HTML = r"""<!DOCTYPE html>
   .link { fill:none; stroke:#5b6472; }
   .link.soft { stroke-dasharray:4 4; opacity:.8; }
   .link.opp  { stroke-dasharray:1.5 3.5; opacity:.85; }
+  .link.synth { stroke-dasharray:9 3; opacity:.9; }
   .hit { stroke:transparent; stroke-width:10; fill:none; cursor:pointer; }
   .node circle, .node rect, .node polygon { stroke:#0f1115; stroke-width:1.5; }
   .node text { fill:#c2c8d2; font-size:10px; pointer-events:none; }
@@ -398,7 +404,7 @@ function showNodeTip(n,e){
   tip.innerHTML=h; tip.style.display="block"; moveTip(e);
 }
 function showEdgeTip(l,e){
-  const gate=l.mkind==="opportunity"?"opportunity":(l.rel==="soft"?"seeded lead":"hard gate");
+  const gate=l.mkind==="synthesis"?"synthesis":(l.mkind==="opportunity"?"opportunity":(l.rel==="soft"?"seeded lead":"hard gate"));
   let h=`<b>${l.move}</b><br><span class="g">${gate} · ${l.scat||"?"}`+(l.location?` @ ${l.location}`:``)+`</span>`;
   h+=`<br><span class="g">skill: ${l.skills||"none"}</span>`;
   if(l.gate) h+=`<br><span class="g">${l.gate}</span>`;
@@ -443,11 +449,11 @@ document.getElementById("stats").textContent=`${c.facts} facts · ${c.known} kno
     const i=document.createElement("i"); i.className="sw"; i.style.background=col; i.style.borderRadius="6px";
     sp.appendChild(i); sp.appendChild(document.createTextNode(lab)); box.appendChild(sp);
   });
-  [["#8b93a1","hard gate",false,false],["#8b93a1","seeded lead",true,false],["#8b93a1","opportunity",false,true]]
-   .forEach(([col,lab,dash,dot])=>{
+  [["#8b93a1","hard gate","solid"],["#8b93a1","seeded lead","dashed"],["#8b93a1","opportunity","dotted"],["#8b93a1","synthesis","double"]]
+   .forEach(([col,lab,style])=>{
     const sp=document.createElement("span");
     const i=document.createElement("i"); i.className="swl"; i.style.borderColor=col;
-    if(dash) i.style.borderTopStyle="dashed"; if(dot) i.style.borderTopStyle="dotted";
+    i.style.borderTopStyle=style;
     sp.appendChild(i); sp.appendChild(document.createTextNode(lab)); box.appendChild(sp);
   });
   Object.entries(SKILL).concat([["none",NOSKILL]]).forEach(([lab,col])=>{

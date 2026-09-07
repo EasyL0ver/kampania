@@ -64,6 +64,9 @@ GM tracks score per target. Highest when he snaps = who he goes after.
 | Pawełek dies (players promised help) | Players | +3 |
 | Pawełek dies (no promise) | Players | +1 |
 | Players prevent Ciotka's funeral | Players | +1 |
+| `committee-desecrated-body` | Players | +2 |
+| `committee-looted-belongings` | Players | +2 |
+| `committee-stole-money` | Players | +3 |
 | Players lied about flood danger | Players | +2 |
 | Players expose truth without structure | Players | +2 |
 | Players protect someone he blames | Players | +2 |
@@ -106,6 +109,7 @@ While Humiliated:
 
 ### Ask how Janina got the house
 - **Requires:** Ask about Janka
+- **Prompted by:** [ciotka-lives-in-soldiers-house](../clues/clues.md#ciotka-lives-in-soldiers-house)
 - **Cost:** Free
 - **Outcome:** He stiffens and says [Wojewoda](wojewoda.md) gave it to her. Then the door closes.
 - **Gives:** [`ciotka-house-is-wojewodas`](../clues/clues.md#ciotka-house-is-wojewodas)

@@ -28,7 +28,7 @@
 - **No deeper cache** `(requires: Finesse and searched the site)` — The site is exactly what it looks like: moonshine production, not a murder cache. → Gives: [bimber-still](../clues/clues.md#bimber-still)
 - **Carpet of cheap butts** `(requires: Finesse, Survival, or Chainsmoker)` — The ground is littered with butts, all the cheapest Sport, [Tadek](../characters/wujas.md)'s brand. Nothing premium here, no Carmen: the brand marks the man. → Gives: [tadek-smokes-cheapest](../clues/clues.md#tadek-smokes-cheapest)
 - **The last survey crew** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek)` `(prompted by: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated))` — The crew laugh about the state surveyors who came before: they drank more than they measured, drove a few stakes, and left early. → Gives: [geologists-were-drinking](../clues/clues.md#geologists-were-drinking)
-- **Ribbed as one of them** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek and Geology)` — The crew clock the geologist for what they are and lean into the joke: survey men are all famous drunks, and the last lot who came drank through their whole visit. → Gives: [surveyors-are-known-drunks](../clues/clues.md#surveyors-are-known-drunks)
+- **Ribbed as one of them** `(requires: Geology and wujas: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The crew clock the geologist for what they are and lean into the joke: survey men are all famous drunks, and the last lot who came drank through their whole visit. → Gives: [surveyors-are-known-drunks](../clues/clues.md#surveyors-are-known-drunks)
 
 ## Actions
 

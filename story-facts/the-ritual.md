@@ -45,7 +45,7 @@ Stefania Kopacz — Barbara Kopacz's elderly relative — speaks more Lemko than
 
 **The difficulty is not Stefania Kopacz — it's getting her to the well.**
 
-Stefania Kopacz is frail. She can't cross the forest alone. She needs Barbara Kopacz to take her, and Barbara won't move her grandmother toward a haunted well until she understands *why* it matters — that her mother's people are in that well and Babcia has mourned them her whole life ([`barbara-must-bring-babcia`](../clues/clues.md#barbara-must-bring-babcia)). It's a human reason, not a religious permission. *(ks. Pająk no longer gatekeeps this — see [spiritual-endings.md](spiritual-endings.md).)*
+Stefania Kopacz is frail. She can't cross the forest alone. She needs Barbara Kopacz to take her, and Barbara won't move her grandmother toward a haunted well until she understands *why* it matters — that her mother's people are in that well and Babcia has mourned them her whole life. It's a human reason, not a religious permission. *(ks. Pająk no longer gatekeeps this — see [spiritual-endings.md](spiritual-endings.md).)*
 
 **If Stefania Kopacz comes to the well herself** — an old Lemko woman, standing where her people were killed, speaking the prayers they were never given — it is the most powerful version of the ritual. But getting her there means: earning Stefania Kopacz's trust → earning Barbara Kopacz's cooperation → crossing the forest in the rain with a woman who can barely walk. Every step costs time the players may not have.
 

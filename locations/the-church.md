@@ -14,7 +14,6 @@
 - The cemetery is adjacent to the church.
 - The cemetery has a few dozen graves, most weathered.
 - All visible graves are post-1947.
-- The hill and church foundation are older than the surrounding graves.
 - Wanda Mazur often kneels beside a freshly tended grave.
 - A well-tended double grave has fresh flowers, a Polonised surname, and a small three-barred cross partly hidden under lichen.
 - The plebania stands adjacent to the church.
@@ -23,9 +22,7 @@
 
 ## Opportunities
 
-- **Church condition** `(requires: Handiwork)` — The church has better repairs, supplies, and firewood than the village should afford. → Gives: [church-too-nice](../clues/clues.md#church-too-nice)
-- **Cemetery layout** `(requires: Culture)` — The graves are all post-1947, but the church site is older. → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
-- **Three-barred cross on Gajda grave** `(requires: [three-barred-cross-is-lemko](../clues/clues.md#three-barred-cross-is-lemko))` — The symbol marks the Gajda family grave as Lemko. → Gives: [siblings-are-lemko](../clues/clues.md#siblings-are-lemko)
+- **Church condition** `(requires: Handiwork)` `(prompted by: [committee-visits-new-village](../clues/clues.md#committee-visits-new-village))` — The church has better repairs, supplies, and firewood than the village should afford. → Gives: [church-too-nice](../clues/clues.md#church-too-nice)
 
 ## Actions
 
@@ -45,19 +42,19 @@
 - **Requires:** Talked to Wanda Mazur at the grave
 - **Cost:** Free
 - **Outcome:** Wanda gives her husband's name, PGR role, and death date; the name matches a current worker if players have the ledger worker list.
-- **Gives:** [Foreman cover-up](../clues/clues.md#foreman-coverup)
+- **Gives:** [mazur-died-in-the-silo](../clues/clues.md#mazur-died-in-the-silo)
 
-### Inspect the cemetery
+### Look for Mazur's grave
 - **Requires:** Nothing
 - **Cost:** Free
-- **Outcome:** The graves are post-1947; the church hill and foundation are older than the cemetery around them.
-- **Gives:** [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
+- **Outcome:** The freshly tended grave Wanda kneels beside carries Tadeusz Mazur's name and a recent death date.
+- **Gives:** [mazur-buried-in-cemetery](../clues/clues.md#mazur-buried-in-cemetery)
 
 ### Look for Gajda graves
-- **Requires:** [three-barred-cross-is-lemko](../clues/clues.md#three-barred-cross-is-lemko)
+- **Requires:** Nothing
 - **Cost:** Free
-- **Outcome:** The well-tended double grave belongs to Zbigniew Gajda's parents and carries a partly hidden three-barred cross.
-- **Gives:** [siblings-are-lemko](../clues/clues.md#siblings-are-lemko)
+- **Outcome:** The well-tended double grave with the Polonised surname belongs to Zbigniew Gajda's parents; a small three-barred cross sits half-hidden under the lichen on it.
+- **Gives:** [three-barred-cross-on-gajda-grave](../clues/clues.md#three-barred-cross-on-gajda-grave)
 
 ### Search the plebania
 - **Requires:** Priest absent or distracted

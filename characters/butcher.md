@@ -60,7 +60,7 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 - **Gives:** [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen)
 
 ### Ask about the Carmen cigarette
-- **Requires:** Players have the [butts](../items/carmen-cigarette-butts.md) or the [cigarette from Edek's corner](../locations/ciotkas-house.md#search-edeks-corner)
+- **Requires:** Players have the [butts](../items/carmen-cigarette-butts.md) or the [cigarette from Edek's room](../locations/ciotkas-house.md#search-edeks-room)
 - **Cost:** 1 action
 - **Outcome:** No dodge, no worry. He shrugs and admits he gave the boy one, a boy has got to learn. He talks about Edek warmly, like a nephew, and never once notices anything wrong with the fondness. He does not care that it places him near the door.
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)

@@ -9,6 +9,7 @@
 ## Setup
 
 - The farm has two long barns, a concrete grain silo, a tool shed, livestock pens, and ploughed fields running toward the tree line.
+- One side of the concrete grain silo carries a patch of newer, cruder concrete.
 - A concrete-headed irrigation ditch runs off the fields toward the low ground; [Zbigniew Gajda](../characters/wojewoda.md) calls it the village's flood drain. Following it its full length is its own scene: [The Irrigation Ditch](the-irrigation-ditch.md).
 - Chickens move between the buildings.
 - The [office](pgr-office.md) is in the main building.
@@ -24,7 +25,7 @@
 
 ## Opportunities
 
-- **Worker count mismatch** `(requires: Bureaucracy)` — One ledger name does not match any worker present or recognized on the farm. → Gives: [foreman-coverup](../clues/clues.md#foreman-coverup)
+- **Worker count mismatch** `(requires: Bureaucracy)` — One ledger name does not match any worker present or recognized on the farm. → Gives: [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent)
 - **Wolf damage** `(requires: Handiwork)` — The livestock pens show repeated wolf attacks over several weeks. → Gives: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock)
 
 ## Actions
@@ -33,7 +34,13 @@
 - **Requires:** Committee authority
 - **Cost:** 1 action
 - **Outcome:** The farm books show mostly ordinary farm spending, plus Tadeusz Mazur listed as a current worker drawing wages with no work logs for the past two years.
-- **Gives:** [foreman-coverup](../clues/clues.md#foreman-coverup); Item: [worker registry](../items/pgr-ledger.md); Item: [expense journal](../items/pgr-expenses.md)
+- **Gives:** [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent); Item: [worker registry](../items/pgr-ledger.md); Item: [expense journal](../items/pgr-expenses.md)
+
+### Examine the grain silo
+- **Requires:** Committee authority
+- **Cost:** 1 action
+- **Outcome:** The concrete silo is patched on one side with newer, hurried work, and a ladder runs down into the grain inside. **(Handiwork)** the patch is a rushed repair, not maintenance, cut and filled in haste a couple of years back. **(Empathy)** raise it with the labourers and they steer you to "the barn's been fixed" and away from the silo. This is where a man went in to break loose caked grain and did not come out.
+- **Gives:** [mazur-died-in-the-silo](../clues/clues.md#mazur-died-in-the-silo)
 
 ### Ask the labourers about accidents
 - **Requires:** Józef Nowak or Piotr Wiśniewski present
@@ -44,7 +51,7 @@
 ### Talk to Michał Pytlak
 - **Requires:** [Michał Pytlak](../characters/foreman.md) present
 - **Cost:** Free
-- **Outcome:** Talking to Michał is a character interaction. See his [character actions and opportunities](../characters/foreman.md#opportunities): "Talk to him about the flood" (gives [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain)), the Empathy opportunity "The ditch shames him" (gives [ditch-not-built-to-spec](../clues/clues.md#ditch-not-built-to-spec)), and "Press him about Tadeusz Mazur" (gives [foreman-coverup](../clues/clues.md#foreman-coverup)).
+- **Outcome:** Talking to Michał is a character interaction. See his [character actions and opportunities](../characters/foreman.md#opportunities): "Talk to him about the flood" (gives [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain)), the Empathy opportunity "The ditch shames him" (gives [ditch-not-built-to-spec](../clues/clues.md#ditch-not-built-to-spec)).
 
 ### Walk the irrigation ditch
 - **Requires:** Following the ditch off the fields

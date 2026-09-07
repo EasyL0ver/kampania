@@ -23,6 +23,8 @@
 - The icons remain on the walls.
 - The candles have burned out and have been out for hours.
 - The house remains obsessively ordered.
+- One corner tells another story: furniture is smashed, a shelf torn down, crockery broken across the floor.
+- A mirror in the corridor is shattered.
 - Nothing has been ransacked.
 - Nothing has been stolen.
 - [Janina Gajda](../characters/ciotka.md) lies on the kitchen floor.
@@ -33,82 +35,154 @@
 - [Janina Gajda](../characters/ciotka.md)'s hands are at her sides.
 - A fallen rosary is near one half-curled hand.
 - A glass with a finger of water sits on the table.
+- Two used coffee cups sit on the table.
 - A small brown pill bottle lies on its side on the table with the cap off.
-- [Edek Barnaś](../characters/glupek.md)'s corner is empty.
+- [Edek Barnaś](../characters/glupek.md)'s room is empty.
 - [Edek Barnaś](../characters/glupek.md)'s mattress is cold.
 - There is no sign of forced entry.
-- Beyond one detail, there is no sign of a struggle.
+- The wrecked corner reads like a violent struggle.
 - There is no weapon.
-- A single kitchen chair lies on its side, jarring against the order.
+- A kitchen chair lies on its side among the wreckage.
+- **Entering the kitchen, where the body lies, costs 1 composure.**
 - **Composure:** 2.
 
 ## Opportunities
 
-- **The body** `(requires: Medicine)` — The sedative overdose is what killed her: no strangulation, no defensive wounds. But a fresh bruise rings her wrist, a hard grip from a large hand, closed while she was still alive. The grip did not kill her. → Gives: [`ciotka-overdose`](../clues/clues.md#ciotka-overdose) + [`ciotka-hurt-before-death`](../clues/clues.md#ciotka-hurt-before-death)
-- **The unlocked door** `(requires: Finesse)` — The door was not forced, and a frightened person running out would not stop to turn a key.
-- **The overturned chair** `(requires: Violence or Finesse)` — No robbery, no forced entry. One chair lies on its side in a spotless room: something brief and physical happened here, then stopped. → Gives: [`ciotka-hurt-before-death`](../clues/clues.md#ciotka-hurt-before-death)
-- **The cigarette butts** `(requires: Finesse, Survival, or Chainsmoker)` — Several butts just outside the door, all one brand, Carmen: a premium smoke rare this far out. They are weathered, dropped a day or more before she died. Players can gather them. → Gives: Item / Evidence: [Carmen Cigarette Butts](../items/carmen-cigarette-butts.md)
-- **The candles** `(requires: Medicine)` — The candles have been out for hours; the death happened last night or the night before, depending on discovery day.
-- **The pill bottle** `(requires: Medicine)` — The bottle is Luminal from a town apteka; enough tablets are missing to stop a heart. → Gives: [`ciotka-overdose`](../clues/clues.md#ciotka-overdose)
-- **The rosary** `(requires: Devotion)` — [Janina Gajda](../characters/ciotka.md) held or reached for the rosary at the end.
-- **The smell** `(requires: Survival)` — A faint herbal, earthy, forest-mud smell does not fit the clean house.
-- **The smell placed** `(requires: The smell and met [Paraskewia Chyłak](../characters/hag.md))` — The smell matches [Paraskewia Chyłak](../characters/hag.md)'s cabin, but [Edek Barnaś](../characters/glupek.md) also tracks forest mud indoors.
+- **She is dead** `(requires: Enter the kitchen)` — [Janina Gajda](../characters/ciotka.md) lies on the floor, eyes open, candles long out. She is dead. → Gives: [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
+- **The two cups** `(requires: Enter the kitchen)` — Two used coffee cups sit on the table. She was not alone the day before; someone sat and drank with her. → Gives: [`two-coffee-cups`](../clues/clues.md#two-coffee-cups)
+- **The cigarette butts** `(requires: Chainsmoker)` — Some cigarette butts lie just outside the door.
+- **Read the room** `(requires: Finesse)` — This is a death the village has not found yet. Get caught here and you look like the killer. Keep it quiet.
+- **Keep it quiet for now** `(requires: Bureaucracy or Violence)` — Once the village knows, the committee loses control of the scene: a crowd, grief, a hunt for someone to blame, and no room left to investigate. Better to sit on the death a while and work first.
+- **Examine her properly** `(requires: Medicine)` — A real examination is impossible through her clothes. Her body would have to be undressed first.
+- **The bell looks unsteady** `(requires: Handiwork, and the attic open)` — The bell is balanced high and badly seated. Anyone reaching for it will knock it loose unless they are ready to catch it.
+- **He is armed** `(requires: [Dudka has barged in](#noise))` — Dudka fills the doorway with a hunting rifle level on them. → Gives: [`neighbour-has-rifle`](../clues/clues.md#neighbour-has-rifle)
 
 ## Actions
 
+### Enter the kitchen
+- **Requires:** Nothing
+- **Cost:** 1 composure
+- **Outcome:** The players step into the kitchen. [Janina Gajda](../characters/ciotka.md) lies dead on the floor. Only now can they get close enough to examine the body and the table.
+- **Gives:** Scene Unlock: [Undress the body](#undress-the-body).
+
+### Undress the body
+- **Requires:** Entering the kitchen (see [Enter the kitchen](#enter-the-kitchen))
+- **Cost:** 1 composure
+- **Outcome:** They strip the dead woman on her own kitchen floor to get at what her clothes hide. If anyone walks in while she is undressed, the committee is caught stripping a dead old woman: a scandal that turns the village against them.
+- **Gives:** World State Change: the body is undressed.
+
 ### Examine the body
-- **Requires:** Someone willing to approach.
+- **Requires:** The body undressed (see [Undress the body](#undress-the-body)); **Medicine**
+- **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** Free
-- **Outcome:** The pills on the table account for the death: an overdose, no strangulation, no defensive wounds. But a fresh bruise grips her wrist, a large hand closed hard while she still lived. It did not kill her, and it did not come from a fall.
-- **Gives:** [`ciotka-overdose`](../clues/clues.md#ciotka-overdose) + [`ciotka-hurt-before-death`](../clues/clues.md#ciotka-hurt-before-death)
+- **Outcome:** No strangulation, no defensive wounds. But a fresh bruise grips her wrist, a large hand closed hard while she still lived. It did not kill her, and it did not come from a fall.
+- **Gives:** [`ciotka-hurt-before-death`](../clues/clues.md#ciotka-hurt-before-death)
 
 ### Search the house
 - **Requires:** Nothing
 - **Cost:** 1 action
-- **Outcome:** The location remains searchable with the same attic, backyard, icons, and [Edek Barnaś](../characters/glupek.md)'s corner described in [Ciotka's house](../locations/ciotkas-house.md).
+- **Outcome:** With Janina dead and the door unlocked, the house is theirs to go through. The backyard, icons, and [Edek Barnaś](../characters/glupek.md)'s room remain as described in [Ciotka's house](../locations/ciotkas-house.md); the shut attic can now be opened without her in the way.
 - **Gives:** Scene Unlock: [Ciotka's house actions](../locations/ciotkas-house.md#actions) remain available in the context of the death.
 
-### Look for Edek
+### Search the purse
+- **Requires:** Having examined the body or searched the house
+- **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
+- **Cost:** 1 action
+- **Outcome:** Janina kept her purse close, among her few private things. Inside is the attic key, kept where no one would find it, and a thick roll of banknotes, far more cash than a widow of this village should have. With the key the attic opens quietly, no forcing, no noise.
+- **Gives:** Item / Evidence: the attic key. Clue: [cash-in-ciotkas-purse](../clues/clues.md#cash-in-ciotkas-purse).
+
+### Take the money
+- **Requires:** Having searched the purse
+- **Prompted by:** [`cash-in-ciotkas-purse`](../clues/clues.md#cash-in-ciotkas-purse)
+- **Cost:** Free
+- **Outcome:** The players take the roll of banknotes for themselves. Whoever keeps it now carries real cash in a valley that has none.
+- **Gives:** The player who takes the money gains the [Loaded](../story-facts/game-system.md) trait. Clue: [`committee-stole-money`](../clues/clues.md#committee-stole-money).
+
+### Open the attic with the key
+- **Requires:** The [attic key](#search-the-purse)
+- **Cost:** 1 action
+- **Outcome:** The key turns and the hatch lifts quietly. It is the one part of the house Janina guarded.
+- **Gives:** World State Change: the attic is open.
+
+### Force the attic
+- **Requires:** Force the locked hatch (**Handiwork**, **Violence**, or **Physique**)
+- **Cost:** 1 action
+- **Outcome:** The players break the locked hatch open. It is loud, splintered wood and a scene the neighbours can hear.
+- **Gives:** World State Change: the attic is open. +2 [Noise](#noise).
+
+### Search the pile of rubbish
+- **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))
+- **Cost:** 1 action
+- **Outcome:** A box in the rubbish is marked "EDEK" and reads at a glance like the boy's things. It is not: the belongings are a grown man's, wrong size and wrong age for [Edek Barnaś](../characters/glupek.md). Edward Barnaś went by Edek too.
+- **Gives:** Item / Evidence: the box marked "EDEK" of a grown man's belongings.
+
+### Open the wardrobe
+- **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))
+- **Cost:** 1 action
+- **Outcome:** Inside the big wardrobe, a teenage girl's dress, folded and kept. A girl that age lived in this house once.
+- **Gives:** [girls-dress-in-ciotkas-house](../clues/clues.md#girls-dress-in-ciotkas-house)
+
+### Examine the child's rattle
+- **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))
+- **Cost:** 1 action
+- **Outcome:** A small child's rattle, kept with the rest. A baby lived in this house once.
+- **Gives:** [childs-rattle-in-ciotkas-house](../clues/clues.md#childs-rattle-in-ciotkas-house)
+
+### Take down the bell
+- **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))
+- **Cost:** 1 action
+- **Outcome:** A small brass Greek Catholic liturgical bell with Cyrillic lettering sits high up, out of place in a Roman Catholic home. Reaching it knocks it loose and it falls, ringing and clattering.
+- **Gives:** Item / Evidence: [Lemko Bell](../items/lemko-bell.md) + [lemko-bell-in-ciotkas-house](../clues/clues.md#lemko-bell-in-ciotkas-house). +3 [Noise](#noise).
+
+### Catch the bell
+- **Requires:** Reaching for the bell (see [Take down the bell](#take-down-the-bell)); **Finesse** or **Physique**
+- **Cost:** Free
+- **Outcome:** Quick hands and a long reach catch the bell as it comes loose, before it hits the floor. It never rings.
+- **Gives:** Negates the +3 [Noise](#noise) from taking the bell.
+
+### Search outside the house
 - **Requires:** Go outside and search the mud.
 - **Cost:** 1 action
-- **Outcome:** Large bare footprints run toward the tree line and fade where the canopy starts.
-- **Gives:** [`glupek-fled-into-forest`](../clues/clues.md#glupek-fled-into-forest)
+- **Outcome:** Cigarette butts lie scattered by the door. Large bare footprints run from the house toward the tree line and fade where the canopy starts.
+- **Gives:** Item / Evidence: [Carmen Cigarette Butts](../items/carmen-cigarette-butts.md) + [`glupek-fled-into-forest`](../clues/clues.md#glupek-fled-into-forest). +1 [Noise](#noise).
 
-### Tell Zbigniew Gajda
-- **Requires:** Bring the news to [Zbigniew Gajda](../characters/wojewoda.md).
-- **Cost:** Free
-- **Outcome:** [Zbigniew Gajda](../characters/wojewoda.md) asks where the boy is and whether anyone else has seen the body.
-- **Gives:** NPC State Change: [Zbigniew Gajda](../characters/wojewoda.md) tries to contain the discovery.
+### Report the death
+- **Requires:** Nothing
+- **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
+- **Cost:** 1 action
+- **Outcome:** They call it in. Dudka, the priest, and the village women come, and the house is no longer theirs. The women lay Janina out; her purse is inventoried in the open, the cash and the attic key seen by everyone and taken by no one. The attic stays shut, and there is no more undressing her, searching unseen, or pocketing anything. In return their standing is clean: no Noise, no scandal, no barge-in. A [Medicine](../story-facts/game-system.md) player present at the laying-out sees the bruise on her wrist.
+- **Gives:** World State Change: the death is public; the private actions (attic, [Undress the body](#undress-the-body), [Take the money](#take-the-money), searching unobserved) close. Clue: [`cash-in-ciotkas-purse`](../clues/clues.md#cash-in-ciotkas-purse). With a Medicine player present: [`ciotka-hurt-before-death`](../clues/clues.md#ciotka-hurt-before-death).
 
-### Tell ks. Władysław Pająk
-- **Requires:** Bring the news to [ks. Władysław Pająk](../characters/priest.md).
-- **Cost:** Free
-- **Outcome:** [ks. Władysław Pająk](../characters/priest.md) asks where [Edek Barnaś](../characters/glupek.md) is and treats him as endangered.
-- **Gives:** NPC State Change: [ks. Władysław Pająk](../characters/priest.md) becomes focused on finding [Edek Barnaś](../characters/glupek.md).
+### Talk Dudka down
+- **Requires:** [Dudka has barged in](#noise); **Speech**, **Finesse**, or **Devotion**
+- **Cost:** 1 composure
+- **Outcome:** They convince him this is a real committee investigation, not what it looks like. Speech calms him, Finesse reads that he is frightened rather than dangerous and works that, Devotion reaches the guilt he carries. He lowers the rifle. Do not pull rank on him; treating him as government muscle or a suspect is the wrong lever and hardens him. Fail, and he reads them as the killers standing over the body and raises the alarm in the village.
+- **Gives:** NPC State Change: Dudka stands down.
 
-### Tell Stanisław Rezeń
-- **Requires:** Bring the news to [Stanisław Rezeń](../characters/butcher.md).
-- **Cost:** Free
-- **Outcome:** [Stanisław Rezeń](../characters/butcher.md) asks about [Edek Barnaś](../characters/glupek.md) and offers no help.
-- **Gives:** NPC State Change: [Stanisław Rezeń](../characters/butcher.md) knows [Janina Gajda](../characters/ciotka.md) is dead and [Edek Barnaś](../characters/glupek.md) is missing.
+### Explain the examination
+- **Requires:** [Talk Dudka down](#talk-dudka-down) while the body is undressed; **Medicine** or **Speech**
+- **Cost:** 1 composure
+- **Outcome:** An undressed body reads as stripping the dead. Medicine convinces him on medical grounds, Speech simply talks him past it. Fail, and he will not be talked down, and he leaves certain the committee desecrated her.
+- **Gives:** NPC State Change: Dudka accepts the examination. On failure: [`committee-desecrated-body`](../clues/clues.md#committee-desecrated-body).
 
-### Tell Ryszard Dudka
-- **Requires:** Bring the news to [Ryszard Dudka](../characters/neighbour.md).
-- **Cost:** Free
-- **Outcome:** [Ryszard Dudka](../characters/neighbour.md) assumes [Stanisław Rezeń](../characters/butcher.md) is responsible and reaches for his rifle.
-- **Gives:** NPC State Change: [Ryszard Dudka](../characters/neighbour.md) must be talked down or he moves toward armed retaliation.
+### Explain the purse
+- **Requires:** [Talk Dudka down](#talk-dudka-down) while the purse is open; **Bureaucracy** or **Speech**
+- **Cost:** 1 composure
+- **Outcome:** Even talked down, the open purse stops him. He raises the rifle again, this time on the player standing closest to it, and tells them to turn out their pockets. If that player took the money (see [Take the money](#take-the-money)), the roll of banknotes falls out and there is no explaining it. Otherwise Bureaucracy frames the search as procedure, Speech simply talks him past it. Fail, and he will not be talked down.
+- **Gives:** NPC State Change: Dudka accepts the search. On failure: [`committee-looted-belongings`](../clues/clues.md#committee-looted-belongings). If the money is found on a player: [`committee-stole-money`](../clues/clues.md#committee-stole-money).
 
-### Tell nobody
-- **Requires:** Withhold the discovery.
-- **Cost:** Free
-- **Outcome:** The body remains undiscovered by the village and every hour makes [Edek Barnaś](../characters/glupek.md)'s trail colder.
-- **Gives:** World State Change: The village panic is delayed while the physical trail decays.
+## Mechanics
+
+### Noise
+- GM tracks a hidden Noise counter; players never see it.
+- [Ryszard Dudka](../characters/neighbour.md) lives across the road and watches the house.
+- Actions raise Noise when Dudka could see or hear them. Each such action lists its Noise value.
+- At 3 or more Noise, Dudka barges in from across the road, rifle up. He does not shout. He stands in the doorway, quiet, watching their hands, and waits for them to explain (see [Talk Dudka down](#talk-dudka-down)).
 
 ## Exits
 
 - Continue investigating [Ciotka's house](../locations/ciotkas-house.md).
 - Search toward the [UPA bunker](../locations/upa-bunker.md) if the players know where to look for [Edek Barnaś](../characters/glupek.md).
-- Bring the news to [Zbigniew Gajda](../characters/wojewoda.md), [ks. Władysław Pająk](../characters/priest.md), [Stanisław Rezeń](../characters/butcher.md), or [Ryszard Dudka](../characters/neighbour.md).
 
 ## If Missed
 

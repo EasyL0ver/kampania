@@ -40,29 +40,22 @@ At home she moves around Edek with practiced care. In public she makes herself s
 ## Opportunities
 
 - **The flinch at family** `(requires: brought up her siblings and Read)` — every mention of her siblings pulls her tight; she changes the subject, hands busy. The distance is hers and it costs her. → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
+- **The faith is real** `(requires: Devotion)` — the rosary in her apron pocket is worn to the string, beads rubbed pale at the decades. She murmurs before she eats and before she leaves a room, small reflexive prayers she does not perform for anyone. A believer who means it clocks the difference at once: hers is real, and it is heavy. She carries it like penance.
+- **She loves the boy** `(requires: Empathy)` — watch her with Edek and the fear leaves her face. She reads his moods before he shows them, warms his food to the temperature he likes, steadies him without being asked. Whatever else she is, this is a woman who loves this boy and has built her whole small life around caring for him.
+- **Coffee for the visitors** `(requires: nothing)` — Janina sets out coffee for the committee, hospitality she will not skip. [Edek Barnaś](glupek.md) is given a cup too and flinches at the first taste, baffled that anyone drinks something so bitter, and leaves it untouched. Coffee in that house is hers alone. → Gives: [`glupek-wont-drink-coffee`](../clues/clues.md#glupek-wont-drink-coffee)
 
 ## Actions
 
 ### Census interview
 - **Requires:** Committee authority
+- **Prompted by:** [committee-fills-census](../clues/clues.md#committee-fills-census)
 - **Cost:** 1 action
 - **Outcome:** She lists herself as mother and [Edward Barnaś](soldier.md) as the father who left the village. The house and boy are both presented as hers.
 - **Gives:** Census data — Janina Gajda and [Edek Barnaś](glupek.md); [`edeks-father-orphaned-him`](../clues/clues.md#edeks-father-orphaned-him)
 
-### Approach Janina through faith
-- **Requires:** Demonstrate genuine faith or knowledge of the Church
-- **Cost:** 1 action
-- **Outcome:** She says Edek did not deserve what happened to him, then stops herself and changes the subject.
-- **Gives:** [`ciotka-saved-glupek`](../clues/clues.md#ciotka-saved-glupek)
-
-### Push Janina emotionally
-- **Requires:** Demonstrated care for [Edek Barnaś](glupek.md) and Janina emotionally destabilised
-- **Cost:** 1 action
-- **Outcome:** She does not confess, but she lets one sentence escape: "I couldn't let them hurt him," or "He was just a boy." She shuts down for the rest of the visit.
-- **Gives:** [`ciotka-saved-glupek`](../clues/clues.md#ciotka-saved-glupek)
-
 ### Property assessment
 - **Requires:** Committee authority
+- **Prompted by:** [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage)
 - **Cost:** 1 action
 - **Outcome:** She says the house belongs to her brother, the sołtys, who gave it to her. She claims no deed and no title of her own.
 - **Gives:** Property record — no title in Janina's name; [`ciotka-house-is-wojewodas`](../clues/clues.md#ciotka-house-is-wojewodas)

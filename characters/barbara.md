@@ -45,33 +45,38 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 
 ### Census interview
 - **Requires:** Committee authority
+- **Prompted by:** [committee-fills-census](../clues/clues.md#committee-fills-census)
 - **Cost:** 1 action
 - **Outcome:** Barbara gives her name, age, household members, and employment cheerfully. She will not name [Pawełek Kopacz](pawelek.md)'s father.
 - **Gives:** Census data — Barbara Kopacz, [Stefania Kopacz](babcia.md), and [Pawełek Kopacz](pawelek.md); [`barbara-refuses-father`](../clues/clues.md#barbara-refuses-father)
 
 ### Push about the father
 - **Requires:** Violence or Bureaucracy, OR [`barbara-has-help`](../clues/clues.md#barbara-has-help) and Speech
+- **Prompted by:** [barbara-refuses-father](../clues/clues.md#barbara-refuses-father)
 - **Cost:** Free
 - **Outcome:** She names [Marek Gajda](junior.md) and begs the players not to write it down. If they record it, [Zbigniew Gajda](wojewoda.md) sees the census form.
 - **Gives:** [`marek-is-paweleks-father`](../clues/clues.md#marek-is-paweleks-father)
 
 ### Property assessment
 - **Requires:** Committee authority
+- **Prompted by:** [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage)
 - **Cost:** 1 action
 - **Outcome:** She names the red-brick house and small plot as hers, with vague papers. Pressed on who built or pays for it, she goes quiet.
 - **Gives:** Property record — [Barbara Kopacz's house](../locations/barbaras-house.md) and plot; [`barbara-has-help`](../clues/clues.md#barbara-has-help)
 
 ### Ask about the village
 - **Requires:** Any visit
+- **Prompted by:** [committee-visits-new-village](../clues/clues.md#committee-visits-new-village)
 - **Cost:** Free
 - **Outcome:** Barbara gives a generous social map: [Zbigniew Gajda](wojewoda.md) has the phone, the Gajda siblings keep the church supplied, [Ryszard Dudka](neighbour.md) helps her, [Michał Pytlak](foreman.md) is busy, and the old village is not somewhere people go. Every answer comes with a friendly question back.
 - **Gives:** [`wojewoda-has-only-phone`](../clues/clues.md#wojewoda-has-only-phone), [`siblings-fund-the-church`](../clues/clues.md#siblings-fund-the-church)
 
 ### Ask Barbara about the three-barred cross
-- **Requires:** Players have noticed the three-barred cross and ask Barbara about it
+- **Requires:** Nothing
+- **Prompted by:** [three-barred-cross-in-babcias-room](../clues/clues.md#three-barred-cross-in-babcias-room)
 - **Cost:** Free
 - **Outcome:** She says the cross is her mother's and that it belongs to "the old way." She cannot explain the theology or history.
-- **Gives:** [`three-barred-cross-is-lemko`](../clues/clues.md#three-barred-cross-is-lemko)
+- **Gives:** [`three-barred-cross-is-lemko`](../clues/clues.md#three-barred-cross-is-lemko), [`babcia-is-lemko`](../clues/clues.md#babcia-is-lemko)
 
 ## Bond
 

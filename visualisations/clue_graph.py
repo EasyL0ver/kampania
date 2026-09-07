@@ -47,6 +47,9 @@ OUTCOME_KEYWORDS = [
 ]
 
 CLUE_REF = re.compile(r"clues\.md#([a-z0-9-]+)")
+# "**Synthesis:** a + b" on a clue means: holding all of a, b derives it anywhere,
+# independent of any scene. Several Synthesis lines are alternate routes (OR).
+SYNTH_FIELD = re.compile(r"^\*\*Synthesis:\*\*\s*(.+)$")
 # "NPC Learns:" marks a clue an NPC comes to know. A consumer gates on it by
 # writing "<npc>: [clue](clues.md#id)". Node key/label is "<npc>: <clue-id>".
 KNOWN_REQ = re.compile(r"([a-z][a-z0-9-]*)\s*:\s*\[[^\]]*\]\([^)]*clues\.md#([a-z0-9-]+)\)")
@@ -133,6 +136,24 @@ def parse_clues() -> dict[str, str]:
                 break
         clues[cid] = desc
     return clues
+
+
+def parse_synthesis() -> dict[str, list[list[str]]]:
+    """clues.md -> {clue_id: [[prereq_id, ...], ...]} (OR of AND-groups)."""
+    out: dict[str, list[list[str]]] = {}
+    cur = None
+    for line in CLUES_FILE.read_text(encoding="utf-8").splitlines():
+        m = re.match(r"^###\s+(\S+)\s*$", line)
+        if m:
+            cur = m.group(1).strip()
+            continue
+        sm = SYNTH_FIELD.match(line.strip())
+        if sm and cur:
+            group = [t.strip() for t in sm.group(1).split("+")]
+            group = [t for t in group if re.fullmatch(r"[a-z0-9-]+", t)]
+            if group:
+                out.setdefault(cur, []).append(group)
+    return out
 
 
 def _default_npc(rel: str) -> str:
@@ -335,18 +356,57 @@ def _parse_action_block(htitle: str, body: list[str], rel: str, title: str) -> N
 def build_graph() -> Graph:
     g = Graph()
     g.clues = parse_clues()
+    parsed: list = []
     for d in SCENE_DIRS:
         for path in sorted((REPO_ROOT / d).glob("*.md")):
             if path.name.startswith("_"):
                 continue
             scene, nodes = parse_scene(path)
             g.scenes[scene.path] = scene
-            for n in nodes:
-                g.nodes[n.id] = n
-                for cid in n.gives_clues:
-                    g.givers.setdefault(cid, []).append(n.id)
-                for npc, cid in n.gives_known:
-                    g.known_givers.setdefault(f"{npc}: {cid}", []).append(n.id)
+            parsed.append(nodes)
+
+    # A "known" gate ("<npc>: [clue]") is only real when <npc> names an actual
+    # character scene. Otherwise the colon is prose ("cross-sections: [clue]")
+    # and the clue is an ordinary held-clue requirement, not an NPC-knows flag.
+    valid_npcs = {
+        Path(s.path).stem for s in g.scenes.values() if s.kind == "characters"
+    }
+
+    def _demote(pairs: list, clue_bucket: list) -> list:
+        kept = []
+        for npc, cid in pairs:
+            if npc in valid_npcs:
+                kept.append([npc, cid])
+            elif cid not in clue_bucket:
+                clue_bucket.append(cid)
+        return kept
+
+    for nodes in parsed:
+        for n in nodes:
+            n.requires_known = _demote(n.requires_known, n.requires_clues)
+            n.requires_clues = sorted(set(n.requires_clues))
+            n.gives_known = _demote(n.gives_known, n.gives_clues)
+            n.gives_clues = sorted(set(n.gives_clues))
+            g.nodes[n.id] = n
+            for cid in n.gives_clues:
+                g.givers.setdefault(cid, []).append(n.id)
+            for npc, cid in n.gives_known:
+                g.known_givers.setdefault(f"{npc}: {cid}", []).append(n.id)
+
+    # Synthesis: a clue derived from holding other clues, in no particular scene.
+    # Each route becomes a virtual giver node whose requires_clues AND together.
+    for cid, routes in parse_synthesis().items():
+        for idx, group in enumerate(routes):
+            suffix = "" if len(routes) == 1 else f"#{idx + 1}"
+            nid = f"synthesis::{cid}{suffix}"
+            node = Node(
+                id=nid, name=f"synthesis: {cid}", kind="synthesis",
+                scene="clues/clues.md", scene_title="Clues",
+            )
+            node.requires_clues = sorted({c for c in group if c != cid})
+            node.gives_clues = [cid]
+            g.nodes[nid] = node
+            g.givers.setdefault(cid, []).append(nid)
     return g
 
 

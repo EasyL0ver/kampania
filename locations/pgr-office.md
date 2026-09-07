@@ -73,7 +73,7 @@
 - **Requires:** Committee census work
 - **Cost:** 1 action
 - **Outcome:** The ledger lists PGR workers and wages; some names do not match anyone in the village.
-- **Gives:** [Foreman cover-up](../clues/clues.md#foreman-coverup)
+- **Gives:** [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent)
 
 ### Report the bimber still
 - **Requires:** [bimber-still](../clues/clues.md#bimber-still)

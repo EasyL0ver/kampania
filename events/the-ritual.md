@@ -24,7 +24,7 @@
 - [Stanisław Rezeń](../characters/butcher.md) is named only if he died at [the confrontation](well-confrontation.md) and entered the well.
 - [Hania Barnaś](../characters/jagna.md) is not named as dead unless the players choose wrongly ([`jagna-fled-the-lynch`](../clues/clues.md#jagna-fled-the-lynch)).
 - [kpt. Henryk Ćwiek](../characters/kbw-officer.md) is not named as one of the well dead.
-- [Barbara Kopacz](../characters/barbara.md) must bring [Stefania Kopacz](../characters/babcia.md) if Babcia is physically present ([`barbara-must-bring-babcia`](../clues/clues.md#barbara-must-bring-babcia)).
+- [Barbara Kopacz](../characters/barbara.md) must bring [Stefania Kopacz](../characters/babcia.md) if Babcia is physically present.
 - If [Paraskewia Chyłak](../characters/hag.md) is present, she kneels at the rim and supplies the form.
 - If [Paraskewia Chyłak](../characters/hag.md) is dead, the players use her materials and memory.
 - If [Stefania Kopacz](../characters/babcia.md) is present, she speaks the panakhyda.
