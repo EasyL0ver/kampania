@@ -51,6 +51,13 @@ He speaks rapidly and precisely, in the clipped cadence of a lecturer who assume
 - **Outcome:** The party reads him the col height and the village height. He compares the two and certifies the col sits above house level, so the rising water tops the village long before it reaches the streambed: a dead outlet.
 - **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 
+### Certify the ditch
+- **Requires:** A phone, and the party holds both ditch cross-sections: [concrete-ditch-measurements](../clues/clues.md#concrete-ditch-measurements) and [dugout-measurements](../clues/clues.md#dugout-measurements)
+- **Prompted by:** [concrete-ditch-measurements](../clues/clues.md#concrete-ditch-measurements), [dugout-measurements](../clues/clues.md#dugout-measurements)
+- **Cost:** 1 action
+- **Outcome:** The party reads him the two cross-sections: the ample concrete head and the shallow earth dugout that carries most of the length. He runs the drainage figures over the real channel rather than the head alone and certifies the ditch backs up and overflows at flood volume, far too small to carry the water off.
+- **Gives:** [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing)
+
 ## Bond
 
 - [ ] Reference his published work or show familiarity with hydrology

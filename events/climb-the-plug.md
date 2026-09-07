@@ -74,20 +74,25 @@
 ### Haul a climber one level
 - **Requires:** The crux is anchored (the clamp is driven); the [rope](../items/rope.md); **2 counterweight points** (consumed); the hauled climber is past the lower bank.
 - **Cost:** 1 card.
-- **Outcome:** The crew hang their weight on the parallel strand off the clamp and drag a body up one pitch, no one climbing it under load. This is how the geologist, who has to take the reading but cannot climb the killzone, reaches the crest.
+- **Outcome:** The crew hang their weight on the parallel strand off the clamp and drag a body up one pitch, no one climbing it under load. This is how the reader who must take the reading, a geologist or a handiworker with an improvised level, but cannot climb the killzone reaches the crest.
 - **Gives:** The hauled climber moves up one level (past lower bank → past killzone → past top-out); the 2 points are spent (see Counterweight).
 
 ### Take the reading
-- **Requires:** Geology; the climber has topped out (past the top-out).
-- **Cost:** 1 card.
-- **Outcome:** From the crest the geologist stands a rod on the lowest saddle and shoots its height against the village datum.
+- **Requires:** the [geologist's kit](../items/geologists-kit.md); Geology, or Handiwork with a [water hose contraption](../items/water-hose-contraption.md); the reader has topped out (past the top-out).
+- **Prompted by:** [water-may-flow-over](../clues/clues.md#water-may-flow-over)
+- **Cost:** **Geology** 1 card; **Handiwork** 2 cards (the water level reads one short step at a time, so the run has to be leapfrogged in stages up the valley floor to the base of the gap).
+- **Outcome:** The reading is three transfers, and the crest is the only place the last two can be made:
+  1. **Bring the flood line to the foot of the climb.** Carry a level from the marked flood datum down the valley up to a fixed mark on the ground just below the plug. *Geology* shoots it with the kit's level and rod in a few long sights; *Handiwork* runs the [water hose contraption](../items/water-hose-contraption.md), leapfrogged one rod-length of rise per step up to the mark, slow but the same answer.
+  2. **Drop the top stone to that mark.** Hang the kit's plumb line from the capstone slab at the crest straight down the sheer face to the mark below the climb. The line reads the vertical face directly, fixing the top stone's height above the flood line.
+  3. **Level the notch against the top stone.** Level the plug's lowest saddle against the top stone right there at the crest, a short local step. That last figure is the sill's height above the flood line.
+  - If the sill stands above the line, rising water cannot top the plug.
 - **Gives:** [gap-sill-above-flood](../clues/clues.md#gap-sill-above-flood).
 
 ## Mechanics
 
 - **The fall.** Off the lower bank, bruises; off the killzone traverse, broken bones; off the top pitch, a bad break. None of it kills. A **Wounded** result blocks Physique and Violence until treated.
 - **The killzone is a fake danger.** The traverse looks like loose rock ready to slide, but the rock is seated and holds: a crossing here never actually falls, whatever the party sets up to catch it. (In the rain the same rock is loose for real and the fall is certain, see [Climb the Plug in the Rain](climb-the-plug-in-the-rain.md).)
-- **Counterweight.** A body committed to the rope by **Take the line** is a counterweight point (a Physique-strong body counts as 2). Every body on the line counts, on the ground or already topped out: the climber who drove the clamp can haul from above, so even a three-hand crew musters enough to raise the geologist. The killzone catch never fires here (fake danger, no fall), so points are only ever spent **hauling**: dragging the non-climbing geologist up a pitch on the clamp costs **2 points per level**. Same system the rain climb uses, minus the fall.
+- **Counterweight.** A body committed to the rope by **Take the line** is a counterweight point (a Physique-strong body counts as 2). Every body on the line counts, on the ground or already topped out: the climber who drove the clamp can haul from above, so even a three-hand crew musters enough to raise the reader. The killzone catch never fires here (fake danger, no fall), so points are only ever spent **hauling**: dragging the non-climbing reader up a pitch on the clamp costs **2 points per level**. Same system the rain climb uses, minus the fall.
 - **The top-out.** One lasting fix: drive the clamp into the shale seam (needs the clamp and hammer, carried up on a return trip, so not available on a first blind climb). The choice is to force it free-solo for **2 composure**, or retreat, fetch the clamp, and come back to fix the route clean. Forcing it without the reserve is a fall: **Wounded**.
 
 ## Exits

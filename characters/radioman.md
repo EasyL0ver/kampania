@@ -88,6 +88,13 @@ He knows nothing of the old village, the massacre, or the well. His quarrel is w
 - **Outcome:** Press him on it and the teacher's logic curdles into paranoia: a crew does not drink a survey away by accident, he insists, the state wanted it thin, a false all-clear so the village would be built where it would drown. He is certain it was deliberate. It may be the bimber and the bitterness talking, or the one time the pattern is real.
 - **Gives:** [`survey-was-faked`](../clues/clues.md#survey-was-faked)
 
+### Do the arithmetic on the ditch
+- **Requires:** The two ditch cross-sections: [concrete-ditch-measurements](../clues/clues.md#concrete-ditch-measurements) and [dugout-measurements](../clues/clues.md#dugout-measurements)
+- **Prompted by:** [ditch-concrete-stops-short](../clues/clues.md#ditch-concrete-stops-short)
+- **Cost:** 1 action
+- **Outcome:** Show the drunk teacher the figures and he sobers enough to work them like a class problem: the fine concrete head carries plenty, but it runs a fraction of the length; the shallow dugout that carries the rest chokes at flood volume and spills. To him it is proof the state built a sham drain and knew it.
+- **Gives:** [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing)
+
 ### Census interview
 - **Requires:** Committee authority
 - **Cost:** 1 action

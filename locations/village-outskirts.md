@@ -23,7 +23,7 @@
 - The marked water-gap is blocked by loose earth and broken rock from an old landslide.
 - A far ridge across the valley carries an old dry streambed that appears to spill toward the next valley; see the [Far-Ridge Streambed](far-ridge-streambed.md).
 - The wojewoda's new bridge spans the river's present bed; on the map that ground is drawn dry, with the river on its old course.
-- The southern approach slopes down into a long mild depression.
+- The southern approach rises into a low ridge of higher ground.
 - The survey route can pass the old village ruins.
 - One route passes the last house before the treeline, [Stanisław Rezeń](../characters/butcher.md)'s house.
 - One route crosses the track used by Tadek Gajda's drinking crew.
@@ -42,14 +42,7 @@
 - **Requires:** [Michał Pytlak](../characters/foreman.md) agrees to come
 - **Cost:** Free
 - **Outcome:** Michał points out terrain features, old drainage paths, rain pooling, and the blocked notch in the ridge.
-- **Gives:** World State Change: the southern approach, old-village bowl, and new-village bowl survey costs are waived.
-
-### Survey the southern approach
-- **Requires:** Geological knowledge
-- **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
-- **Cost:** 1 action; waived if the party has the maps from [Wojewoda's office](pgr-office.md) or Michał Pytlak along
-- **Outcome:** The southern depression matches the map; water stays shallow and drains off without reaching the houses.
-- **Gives:** [southern-approach-safe](../clues/clues.md#southern-approach-safe)
+- **Gives:** World State Change: the old-village bowl survey cost is waived.
 
 ### Survey the old-village bowl
 - **Requires:** Geological knowledge
@@ -57,13 +50,6 @@
 - **Cost:** 1 action; waived with the office maps or Michał Pytlak
 - **Outcome:** The old-village basin is the lowest local ground and matches the map.
 - **Gives:** [old-village-basin-is-the-low-sink](../clues/clues.md#old-village-basin-is-the-low-sink)
-
-### Survey the new-village bowl
-- **Requires:** Geological knowledge
-- **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
-- **Cost:** 1 action; waived with the office maps or Michał Pytlak
-- **Outcome:** %NEW_VILLAGE% sits above the flood line on firm ground if water can drain through the mapped ridge gap.
-- **Gives:** [new-village-sits-above-flood-line](../clues/clues.md#new-village-sits-above-flood-line)
 
 ### Walk to the ridge gap
 - **Requires:** Reaching the ridge water-gap (visible from the survey routes)

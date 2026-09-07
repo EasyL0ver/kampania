@@ -6,7 +6,7 @@
 
 ## Description
 
-A worn canvas roll of survey tools: a level and clinometer, a folded copy of the resettlement master plan with its flood-line figures, and drainage tables. Tucked in the dossier is the previous crew's signed survey report, the document whose projection sent the committee here. The report reads clean to a layman. prof. Bieńkowski warned at the briefing that it smells thin, too few stations and too much taken on faith, though he could not prove it from Kraków. It praises the wojewoda's irrigation ditch, notes in passing that the river changed course and dismisses it, and says nothing at all about the ridge gap or the far-ridge streambed. Also folded in is a Solina dam-survey station index: a bare list of benchmarks the reservoir survey set across the valley, the far-ridge streambed col among them, but the elevation sheet the index points to is not in the dossier.
+A worn canvas roll of survey tools: a level and clinometer with its graduated rod, a plumb line and tape, a folded copy of the resettlement master plan with its flood-line figures, and drainage tables. Tucked in the dossier is the previous crew's signed survey report, the document whose projection sent the committee here. The report reads clean to a layman. prof. Bieńkowski warned at the briefing that it smells thin, too few stations and too much taken on faith, though he could not prove it from Kraków. It praises the wojewoda's irrigation ditch, notes in passing that the river changed course and dismisses it, and says nothing at all about the ridge gap or the far-ridge streambed. Also folded in is a Solina dam-survey station index: a bare list of benchmarks the reservoir survey set across the valley, the far-ridge streambed col among them, but the elevation sheet the index points to is not in the dossier.
 
 ## Content
 
@@ -43,6 +43,12 @@ A worn canvas roll of survey tools: a level and clinometer, a folded copy of the
 - **Outcome:** Buried in the text, the crew note the river shifted its bed since the map was drawn, then wave it off as unimportant. The shift is real even if they dismissed it.
 - **Gives:** [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map)
 
+### Read the maps
+- **Requires:** Holding the kit
+- **Cost:** Free
+- **Outcome:** The master plan carries the flood-line figure, and the Solina station index lists a %NEW_VILLAGE% datum benchmark (St. 41). The flood line staked across the valley is the dam builders' work, tied to their reservoir survey, not the resettlement crew's.
+- **Gives:** [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders)
+
 ### Read it as a surveyor
 - **Requires:** Holding the kit and **Geology**
 - **Prompted by:** [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
@@ -74,3 +80,10 @@ A worn canvas roll of survey tools: a level and clinometer, a folded copy of the
 - **Cost:** 1 action
 - **Outcome:** With both cross-sections in hand, the concrete head and the shallow earth dugout, you run the tables over the real channel, not just the head. The undersized dugout backs up and overflows at flood volume. The ditch cannot carry the water off, and the head-only figure was a false all-clear.
 - **Gives:** [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing)
+
+### Level a relative point
+- **Requires:** Holding the kit and **Geology**
+- **Prompted by:** [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders)
+- **Cost:** 1 card per point
+- **Outcome:** Run a level line with the kit's optical level from the surveyors' flood mark to a chosen point around the valley and read its height against the mark. Pick the point: the lower village, the upper village, the southern rise, the old-village bowl, or the %BIG-BASIN% floor.
+- **Gives:** the matching reading — [lower-village-level](../clues/clues.md#lower-village-level), [upper-village-level](../clues/clues.md#upper-village-level), [southern-rise-level](../clues/clues.md#southern-rise-level), [old-village-bowl-level](../clues/clues.md#old-village-bowl-level), or [big-basin-floor-level](../clues/clues.md#big-basin-floor-level)

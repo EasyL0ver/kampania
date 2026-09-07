@@ -31,11 +31,11 @@
 - **Requires:** A tape at the concrete head
 - **Prompted by:** [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain)
 - **Cost:** 1 action
-- **Outcome:** You tape off the lined channel at the head: width, depth, and fall. No skill needed. The figures alone say nothing; a surveyor turns them into a drainage answer.
+- **Outcome:** You tape off the lined channel at the head: width, depth, and fall. No skill needed. The figures alone say nothing; someone who can run drainage figures turns them into a drainage answer.
 - **Gives:** [concrete-ditch-measurements](../clues/clues.md#concrete-ditch-measurements)
 
 ### Measure the dugout
 - **Requires:** A tape and having walked to the dugout ([ditch-concrete-stops-short](../clues/clues.md#ditch-concrete-stops-short))
 - **Cost:** 1 action
-- **Outcome:** Where the concrete gives out, you tape off the earth channel: width and depth of the shallow dugout that runs the rest of the way. No skill needed. Paired with the head figures, a surveyor can size the real ditch.
+- **Outcome:** Where the concrete gives out, you tape off the earth channel: width and depth of the shallow dugout that runs the rest of the way. No skill needed. Paired with the head figures, anyone who can run drainage figures can size the real ditch.
 - **Gives:** [dugout-measurements](../clues/clues.md#dugout-measurements)

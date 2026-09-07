@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>%NEW_VILLAGE% Valley — Leveled Terrain Map</title>
+<style>
+  body { margin:0; background:#2b2b28; font-family:"Segoe UI",system-ui,sans-serif; color:#eee; }
+  .wrap { max-width:1300px; margin:0 auto; padding:16px; }
+  h1 { font-size:18px; font-weight:600; margin:8px 4px; }
+  p.note { font-size:13px; color:#bbb; margin:4px 4px 12px; }
+  svg { width:100%; height:auto; background:#f4ecd8; border:1px solid #000; border-radius:4px; }
+  .lbl { font:600 14px "Segoe UI",sans-serif; fill:#2b2b28; paint-order:stroke; stroke:#f4ecd8; stroke-width:3px; stroke-linejoin:round; }
+  .lbl.sm { font-size:12px; font-weight:500; }
+  .lbl.feat { font-style:italic; fill:#5a4632; }
+  .elev { font:700 13px "Consolas",monospace; fill:#1d5c6e; paint-order:stroke; stroke:#f4ecd8; stroke-width:3px; }
+  .elev.hi { fill:#7a4a17; }
+  .elev.flood { fill:#b23b2e; }
+  .contour { fill:none; stroke:#b09a72; stroke-width:1.3px; }
+  .flood { fill:none; stroke:#b23b2e; stroke-width:2.4px; stroke-dasharray:10 5; }
+  .water { fill:#9fc6d6; opacity:.55; }
+  .river { fill:none; stroke:#3f86a3; stroke-width:9px; stroke-linecap:round; opacity:.85; }
+  .riverold { fill:none; stroke:#3f86a3; stroke-width:4px; stroke-dasharray:6 6; opacity:.5; }
+  .ditchC { fill:none; stroke:#555; stroke-width:5px; }
+  .ditchD { fill:none; stroke:#555; stroke-width:3px; stroke-dasharray:5 5; }
+  .ridge { fill:#d9c49a; stroke:#a98b57; stroke-width:1px; }
+  .house { fill:#7a4a17; stroke:#3a220a; stroke-width:1px; }
+  .ruin { fill:none; stroke:#6a5030; stroke-width:1.4px; }
+  .legend { fill:#fbf6e9; stroke:#000; stroke-width:1px; }
+  .lgt { font:500 12px "Segoe UI"; fill:#2b2b28; }
+  .lgt.h { font-weight:700; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>%NEW_VILLAGE% Valley — Leveled Terrain (schematic)</h1>
+  <p class="note">North up. Heights in metres above sea level, tied to the dam builders' flood mark (420.0 m). Not to scale — a GM reference, not a survey sheet.</p>
+<svg viewBox="0 0 1280 940" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- ================= WATER FILLS (low sinks) ================= -->
+  <!-- Big basin (NE, beyond ridge) -->
+  <ellipse class="water" cx="1080" cy="190" rx="150" ry="105"/>
+  <!-- Old village bowl (E) -->
+  <ellipse class="water" cx="1090" cy="590" rx="120" ry="90"/>
+
+  <!-- ================= RIDGES ================= -->
+  <!-- NE sandstone ridge, new-village valley vs big basin, with the gap notch -->
+  <path class="ridge" d="M 690 70
+    C 760 150, 800 210, 815 250
+    L 892 250
+    C 905 205, 940 150, 1000 120
+    C 1010 175, 1000 235, 965 300
+    C 905 300, 860 300, 892 285
+    L 815 285
+    C 795 320, 760 360, 700 400
+    C 660 320, 650 170, 690 70 Z"/>
+  <!-- Eastern ridge, valley vs old-village bowl -->
+  <path class="ridge" d="M 940 380
+    C 980 430, 985 500, 975 560
+    C 1010 560, 1030 520, 1050 470
+    C 1030 430, 990 395, 940 380 Z"/>
+  <!-- Far ridge (W), carries the dry streambed col -->
+  <path class="ridge" d="M 70 360
+    C 130 380, 175 430, 190 510
+    C 150 520, 120 520, 90 560
+    C 70 500, 60 420, 70 360 Z"/>
+
+  <!-- ================= CONTOUR / LEVELED LINES (main valley, low N -> high S) ================= -->
+  <!-- 419 valley floor near river (north, low) -->
+  <path class="contour" d="M 210 250 Q 520 205 830 250"/>
+  <!-- 420.0 FLOOD MARK -->
+  <path class="flood" d="M 190 345 Q 520 300 850 345"/>
+  <!-- 420.8 lower village terrace -->
+  <path class="contour" d="M 200 430 Q 520 390 840 430"/>
+  <!-- 422.0 upper village terrace -->
+  <path class="contour" d="M 220 545 Q 520 505 820 545"/>
+  <!-- 423.0 southern rise crest -->
+  <path class="contour" d="M 260 670 Q 520 625 780 670"/>
+  <path class="contour" d="M 300 760 Q 520 725 740 760"/>
+
+  <!-- basin inner contours -->
+  <ellipse class="contour" cx="1080" cy="190" rx="95" ry="62"/>
+  <ellipse class="contour" cx="1085" cy="188" rx="45" ry="28"/>
+  <!-- old bowl inner contours -->
+  <ellipse class="contour" cx="1090" cy="590" rx="72" ry="52"/>
+
+  <!-- ================= RIVER + BRIDGE (north) ================= -->
+  <path class="river" d="M 120 150 C 300 120, 430 140, 545 150 C 700 165, 820 200, 900 250"/>
+  <!-- old course the map still draws (diverted), dashed -->
+  <path class="riverold" d="M 545 150 C 640 175, 690 240, 700 330"/>
+  <!-- bridge -->
+  <g>
+    <rect x="520" y="132" width="60" height="34" rx="3" fill="#8a6a3a" stroke="#3a220a" stroke-width="1.5" transform="rotate(6 550 149)"/>
+    <line x1="524" y1="150" x2="576" y2="156" stroke="#3a220a" stroke-width="2" transform="rotate(6 550 149)"/>
+  </g>
+
+  <!-- ================= IRRIGATION DITCH (off PGR fields toward low ground) ================= -->
+  <!-- concrete head (solid) then earth dugout (dashed), running north to the river flat -->
+  <path class="ditchC" d="M 360 470 L 372 405"/>
+  <path class="ditchD" d="M 372 405 C 382 350, 400 300, 430 262"/>
+
+  <!-- ================= VILLAGES ================= -->
+  <!-- New village: lower terrace cluster (north) -->
+  <g class="house">
+    <rect x="470" y="395" width="20" height="15"/>
+    <rect x="500" y="402" width="20" height="15"/>
+    <rect x="535" y="396" width="20" height="15"/>
+    <rect x="485" y="418" width="20" height="15"/>
+  </g>
+  <!-- New village: upper terrace cluster (south) -->
+  <g class="house">
+    <rect x="480" y="500" width="20" height="15"/>
+    <rect x="512" y="506" width="20" height="15"/>
+    <rect x="545" y="498" width="20" height="15"/>
+  </g>
+  <!-- PGR farm (west of village) -->
+  <g class="house">
+    <rect x="330" y="455" width="26" height="18" fill="#5f6b3a"/>
+    <rect x="362" y="462" width="20" height="14" fill="#5f6b3a"/>
+  </g>
+  <!-- Old village ruins (east bowl) -->
+  <g class="ruin">
+    <rect x="1058" y="575" width="18" height="14"/>
+    <rect x="1085" y="582" width="18" height="14"/>
+    <rect x="1070" y="598" width="18" height="14"/>
+  </g>
+
+  <!-- ================= LABELS ================= -->
+  <text class="elev" x="835" y="245">419</text>
+  <text class="elev flood" x="855" y="343">420.0 — FLOOD MARK</text>
+  <text class="elev" x="845" y="428">420.8</text>
+  <text class="elev hi" x="822" y="543">422.0</text>
+  <text class="elev hi" x="782" y="668">423.0</text>
+
+  <text class="lbl" x="455" y="470">%NEW_VILLAGE%</text>
+  <text class="lbl sm feat" x="452" y="392">lower terrace</text>
+  <text class="lbl sm feat" x="470" y="536">upper terrace</text>
+  <text class="lbl sm" x="322" y="450">PGR farm / fields</text>
+  <text class="lbl feat" x="360" y="330" transform="rotate(-72 360 330)">irrigation ditch</text>
+
+  <text class="lbl" x="500" y="118">River &amp; bridge</text>
+  <text class="lbl sm feat" x="612" y="300">old course (on map)</text>
+
+  <text class="lbl" x="990" y="120">Ridge water-gap</text>
+  <text class="lbl sm feat" x="960" y="140">(blocked by slide)</text>
+  <text class="elev" x="1030" y="195">405.0</text>
+  <text class="lbl" x="1000" y="300">%BIG-BASIN% floor</text>
+
+  <text class="elev hi" x="1055" y="595">408.0</text>
+  <text class="lbl" x="1010" y="680">%OLD_VILLAGE% bowl</text>
+
+  <text class="lbl feat" x="60" y="345">Far-ridge streambed (col)</text>
+
+  <text class="lbl" x="430" y="820">Southern rise</text>
+  <text class="lbl sm feat" x="415" y="840">high ground — caps the flood</text>
+
+  <!-- ================= COMPASS ================= -->
+  <g transform="translate(70,80)">
+    <circle r="34" fill="#fbf6e9" stroke="#000"/>
+    <polygon points="0,-30 8,0 0,-8 -8,0" fill="#b23b2e"/>
+    <polygon points="0,30 8,0 0,8 -8,0" fill="#555"/>
+    <text x="-6" y="-38" class="lgt h">N</text>
+  </g>
+
+  <!-- ================= LEGEND ================= -->
+  <g transform="translate(40,700)">
+    <rect class="legend" x="0" y="0" width="300" height="212" rx="4"/>
+    <text class="lgt h" x="14" y="24">Leveled heights (m a.s.l.)</text>
+    <text class="lgt" x="14" y="48">southern rise (cap) . . . . . 423.0</text>
+    <text class="lgt" x="14" y="68">upper village terrace . . . . 422.0</text>
+    <text class="lgt" x="14" y="88">lower village terrace . . . . 420.8</text>
+    <text class="lgt" x="14" y="108">FLOOD MARK (dam builders) 420.0</text>
+    <text class="lgt" x="14" y="128">old-village bowl . . . . . . . . 408.0</text>
+    <text class="lgt" x="14" y="148">%BIG-BASIN% floor . . . . . . 405.0</text>
+    <line x1="14" y1="162" x2="286" y2="162" stroke="#999"/>
+    <text class="lgt" x="14" y="182">Village sits above the mark on paper;</text>
+    <text class="lgt" x="14" y="200">drains sealed, water climbs to 423 and floods it.</text>
+  </g>
+
+</svg>
+</div>
+</body>
+</html>

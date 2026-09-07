@@ -46,8 +46,6 @@ Leaf clues:
 - `streambed-never-drained` — a local remembers the streambed never carried water, even in the worst floods it just pools and stops against the rock. Testimony, an optional lead pointing at the streambed, not proof.
 - (confirm route) Holding `streambed-parameters`, someone turns the two figures into the conclusion. With Geology you read them yourself; without Geology you read them to prof. Bieńkowski by phone, or show them to Michał Pytlak, who knows the valley well enough to call it. Any of the three gives `streambed-dead-ends`.
 - `map-shows-gap-open` — the state map draws the gap as an open drain.
-- `new-village-sits-above-flood-line` — on paper the village is safe.
-- `water-tops-the-flood-line` — during the Day 3 storm, water on the new-village slope climbs about a metre above the surveyors' marked flood line. No skill needed, unmissable. The blunt empirical lead: the "safe" projection is already being exceeded. Contradicts `new-village-sits-above-flood-line`. Given by [The Flood](../events/the-flood.md); points at the threat, not proof it is permanent.
 - `map-is-outdated` — the map predates the slide, so it cannot be trusted on the gap.
 - `survey-was-botched` — the conclusion that the official survey is worthless: a drunk crew drove a few stakes and filed thin paper without ever really surveying the outlets. Negligence, not cynical forgery: they took the wojewoda's ditch on faith (they only saw its good concrete head) and dismissed the river as irrelevant. Partially responsible through laziness, not conspiracy. A root lead: it discredits all the official paper (map, projection, ditch spec) at once, feeding every drain rather than one. It is built from two smaller facts, one from each side, and needs both: `geologists-were-drinking` (testimony that the crew drank through the visit, from the radioman or a drinking-buddy at Tadek's still) and `original-report-is-thin` (the filed report reads as too few stations, cursory coverage, ditch on faith, reached by phone to the survey archive or a geologist reading the dossier report; the professor's brief only hints the paperwork does not hold up, leaving the report itself for the committee to find). Either alone is only suggestive: drinking is hearsay, thin paper could be mere incompetence. Together they make the botched-job case. A geologist drinking with the crew also gets ribbed as one of the same breed, giving the separate lead `surveyors-are-known-drunks`, which points straight at the last crew's drinking.
 - `survey-was-faked` — the darker reading of the same facts: that the thin survey was not lazy but deliberately falsified, a manufactured all-clear so the village would be built where it drowns. This is the radioman's leap, and his alone. He drank with the crew and, teacher that he was, read how little work backed their report (so he is a source for both `geologists-were-drinking` and `original-report-is-thin`), but his paranoia stacks intent on top of what is really negligence. A player weighing him has to decide whether the pattern is real or the bimber talking. The truth of the campaign is `survey-was-botched`; `faked` is the conspiracy version, sourced only from an unreliable narrator.
@@ -69,13 +67,12 @@ Item:
 | Examine the fill at the toe | reach the base, no climb | `gap-fill-examined` |
 | Climb the plug | physical climb | `gap-sill-above-flood` |
 | Read both | Geology on-site, or report to prof | `gap-is-blocked` |
-| Read the map | Bureaucracy / study | `map-shows-gap-open`, `bridge-over-solid-land`, `new-village-sits-above-flood-line` |
+| Read the map | Bureaucracy / study | `map-shows-gap-open`, `bridge-over-solid-land` |
 | Compare map to ground | observation | `river-doesnt-match-map` |
 | Inspect the ditch | on-site; walk its full length (the head is concrete and misleads) | `ditch-concrete-stops-short`; head-only drainage calc gives the trap `ditch-drains-fine`; walking + recalc gives `ditch-drains-nothing`; walked ditch vs the PGR office spec file gives `ditch-not-built-to-spec` |
 | Surveying the Streambed (event) | Geology + kit; helpers speed it; at [Far-Ridge Streambed] | `streambed-parameters` (a full day, ~6 cards solo, floor 3 with help) |
 | Search for the Benchmarks (event) | search for old markers; no skill; at [Far-Ridge Streambed] | `streambed-parameters` (8 cards, 4 with Survival) |
 | Interpret the streambed figures | hold `streambed-parameters`; Geology, prof by phone, or show Pytlak | `streambed-dead-ends` |
-| Watch the storm | none | `water-tops-the-flood-line` |
 | The phone | office phone, monitored by Zbigniew | `original-report-is-thin` (archive); certify field data with prof. Bieńkowski |
 | prof. Bieńkowski (phone) | hand him field readings | certifies any drain conclusion; `new-village-will-flood` |
 | Radioman | ask him about the survey; in-village, paranoid and dismissed | `geologists-were-drinking` + `original-report-is-thin`; pressed, his paranoid leap gives `survey-was-faked` |
@@ -108,7 +105,6 @@ Each costs an action to check and returns a dead end. Holding all three gives `n
 
 ## Red Herrings
 
-- Southern depression: the eye-catching low path, actually drains safely (`southern-approach-safe`).
 - Old-village basin filling: it is the empty old village going under (`old-village-flooding`, `old-village-basin-is-the-low-sink`). Wrong village.
 - Solina reservoir: the dam floods the valley as everyone expects. The catch is simply that the flood line was miscalculated, so the new village, believed to sit above it, does not. Not a separate mystery, just a wrong number.
 - The war plug: villagers claim the gap was blown shut by the 1940s fighting (UPA bunkers, army explosions). It is actually a natural flysch slide. Harmless either way, the cause never changes that the gap is blocked, but it can send players chasing a 1947 explanation that leads nowhere.
@@ -121,6 +117,6 @@ Each costs an action to check and returns a dead end. Holding all three gives `n
 ## Open Questions
 
 1. ~~Exact edges into `gap-is-blocked`.~~ Resolved: climb to the plug, then Geology on-site or report to prof. Bieńkowski. The gap leads (`landslide-in-the-gap`, `river-doesnt-match-map`, `bridge-over-solid-land`) point you to climb but are not prerequisites.
-2. ~~How `map-is-outdated` gates the map reads.~~ Resolved: players read the map freely and get the map clues (`map-shows-gap-open`, `new-village-sits-above-flood-line`), which they can carry to prof. Bieńkowski. The map stays reassuring until `map-is-outdated` (the date, the bridge, the river) flips it from safe-on-paper to damning.
+2. ~~How `map-is-outdated` gates the map reads.~~ Resolved: players read the map freely and get the map clues (`map-shows-gap-open`, `bridge-over-solid-land`), which they can carry to prof. Bieńkowski. The map stays reassuring until `map-is-outdated` (the date, the bridge, the river) flips it from safe-on-paper to damning.
 3. Which routes give partial vs full knowledge.
 4. ~~Solina herring: in or out.~~ Resolved: the flood line is simply miscalculated. The village sits above the projected line but below the real one. Not a separate Solina mystery.

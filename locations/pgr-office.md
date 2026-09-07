@@ -20,7 +20,7 @@
 ## Opportunities
 
 - **Maps on the desk** `(requires: Geology)` — The topographic maps mark %OLD_VILLAGE%. → Gives: [old village was Lemko](../clues/clues.md#old-village-was-lemko)
-- **Read the topographic map** `(requires: Bureaucracy)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The map draws the ridge water-gap as an open channel, shows %NEW_VILLAGE% above the flood line, and draws a bridge spanning dry ground with the river running elsewhere. → Gives: [map-shows-gap-open](../clues/clues.md#map-shows-gap-open), [new-village-sits-above-flood-line](../clues/clues.md#new-village-sits-above-flood-line), [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land)
+- **Read the topographic map** `(requires: Bureaucracy)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The map draws the ridge water-gap as an open channel and draws a bridge spanning dry ground with the river running elsewhere. → Gives: [map-shows-gap-open](../clues/clues.md#map-shows-gap-open), [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land)
 
 ## Actions
 

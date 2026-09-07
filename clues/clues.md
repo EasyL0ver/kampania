@@ -451,6 +451,12 @@ The old far-ridge streambed has never carried water off, even in the worst flood
 ### landslide-in-the-gap
 A landslide sits in the ridge water-gap, filling the notch with fallen rock and earth.
 
+### gap-may-seep
+From the foot of the plug the landslide fill looks like loose, open rubble, the kind of stone floodwater would run straight through. On that first look the gap might still drain by seeping through the fill. Whether it truly does is unsettled until the fill is examined up close.
+
+### water-may-flow-over
+For the ridge gap to drain the valley, rising water would have to reach the plug's lowest saddle and spill over it into %BIG-BASIN%. If that saddle sits below the %NEW_VILLAGE% flood line, the gap still drains by overtopping. Whether it is low enough is unsettled until the crest is measured.
+
 ### gap-fill-examined
 Examined up close at the toe of the plug, the landslide fill is dense clay and shattered rock packed tight, not the loose rubble it looks like from a distance. Water will not seep through it. This settles only whether the plug leaks, not whether it can be overtopped.
 
@@ -484,17 +490,26 @@ The previous crew's filed survey report is thin: too few field stations, cursory
 ### surveyors-are-known-drunks
 The PGR crew rib survey men as famous drunks, and the last survey team who came drank through their whole visit instead of working the ground.
 
-### water-tops-the-flood-line
-During the Day 3 storm, water on the %NEW_VILLAGE% slope climbs about a metre above the surveyors' marked flood line. The projected safe level is already being exceeded.
-
-### southern-approach-safe
-The land south of %NEW_VILLAGE% runs down into a long, mild depression — the obvious place for a rising river to spread. The survey confirms the map: water reaching it stays shallow and drains off, never climbing to the houses. From the south, the village is safe.
-
 ### old-village-basin-is-the-low-sink
 The old-village valley is the lowest ground in the area — the natural basin all the water wants to drain into. It matches the map exactly. Empty ruins now; it will take the water whether or not anyone acts.
 
-### new-village-sits-above-flood-line
-By the map's own elevations, %NEW_VILLAGE% sits above the flood line on firm ground. On paper the village is safe — provided the water can drain away through the ridge as the map assumes.
+### flood-mark-left-by-dam-builders
+The flood line staked across the %NEW_VILLAGE% valley was set by the Solina dam-survey crews, not the resettlement survey. It marks the reservoir's projected fill level, tied to the dam builders' own benchmarks, and stands at 420.0 m above sea level.
+
+### lower-village-level
+The surveyed elevation of the lower part of %NEW_VILLAGE%: 420.8 m above sea level.
+
+### upper-village-level
+The surveyed elevation of the upper part of %NEW_VILLAGE%: 422.0 m above sea level.
+
+### southern-rise-level
+The surveyed elevation of the rise south of %NEW_VILLAGE%: 423.0 m above sea level.
+
+### old-village-bowl-level
+The surveyed elevation of the floor of the old-village bowl: 408.0 m above sea level.
+
+### big-basin-floor-level
+The surveyed elevation of the floor of %BIG-BASIN%: 405.0 m above sea level.
 
 ### wojewoda-already-suspects-flooding
 [Zbigniew Gajda](../characters/wojewoda.md) already suspects the flood is coming before the committee arrives. He sees it as an opportunity — water swallows the evidence.

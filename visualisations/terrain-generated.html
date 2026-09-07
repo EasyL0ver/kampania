@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>%NEW_VILLAGE% on the Solina Shore — Spill-Routed Terrain</title>
+<style>
+  body { margin:0; background:#23231f; font-family:"Segoe UI",system-ui,sans-serif; color:#eee; }
+  .wrap { max-width:1180px; margin:0 auto; padding:16px; }
+  h1 { font-size:18px; font-weight:600; margin:6px 2px; }
+  p.note { font-size:13px; color:#b9b4a8; margin:4px 2px 12px; line-height:1.5; }
+  #stage { position:relative; }
+  canvas { width:100%; height:auto; display:block; background:#0c0f0c; border:1px solid #000; border-radius:4px; }
+  .bar { display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin:12px 2px; font-size:13px; color:#d8d3c6; }
+  .bar input[type=range] { width:240px; }
+  .val { font:700 14px Consolas,monospace; color:#7fd0e0; min-width:44px; }
+  .seg { display:inline-flex; border:1px solid #555; border-radius:5px; overflow:hidden; }
+  .seg button { border:0; border-radius:0; }
+  .seg button.on { background:#5a5a4a; color:#fff; }
+  .legend { display:flex; gap:16px; flex-wrap:wrap; font-size:12px; color:#c9c4b7; margin:8px 2px; }
+  .sw { display:inline-block; width:14px; height:14px; border-radius:2px; margin-right:5px; vertical-align:-2px; }
+  .ln { display:inline-block; width:22px; height:0; border-top:3px solid; margin-right:5px; vertical-align:middle; }
+  button { background:#3a3a33; color:#eee; border:1px solid #555; border-radius:4px; padding:5px 12px; cursor:pointer; font-size:13px; }
+  button:hover { background:#4a4a41; }
+  .hint { font-size:12px; color:#8f8a7d; line-height:1.5; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>%NEW_VILLAGE% on the Solina Shore — Spill-Routed Terrain</h1>
+  <p class="note">
+    The only objects are <b>points</b>. A feature is a bundle of points and the <b>relations</b> between them, never a
+    drawn shape: a ridge is points held high, a basin a low point, the gap a low notch. The ground is then <b>modelled
+    until it satisfies the story</b>: the valley is raised until it is a sealed catchment whose only low way out is the gap.
+    Flooding is <b>not</b> a painted water level. Water is <b>routed</b>: the lake rises in a basin until it tops its lowest
+    sill, then spills to the next basin (fill-to-spill, priority-flood). So the gap plug decides where the water goes, and
+    the same terrain floods the village when the gap is shut and %BIG-BASIN% when it is open. Change the seed for another valley.
+  </p>
+  <div id="stage"><canvas id="cv" width="960" height="720"></canvas></div>
+
+  <div class="bar">
+    <span>Gap:</span>
+    <span class="seg">
+      <button id="gClosed" class="on">CLOSED (plugged) — floods %NEW_VILLAGE%</button>
+      <button id="gOpen">OPEN — spills to %BIG-BASIN%</button>
+    </span>
+    <label>Lake <span class="val" id="wl">0%</span></label>
+    <input type="range" id="water" min="0" max="1" step="0.005" value="0">
+    <button id="fill">Rise to spill level</button>
+    <label><input type="checkbox" id="shade" checked> hillshade</label>
+    <label><input type="checkbox" id="cont" checked> contours</label>
+    <label>seed <input type="number" id="seed" value="7" style="width:52px"></label>
+  </div>
+
+  <div class="legend" id="legend"></div>
+  <p class="hint">North is up. The valley has three candidate outlets: the ridge water-gap (to %BIG-BASIN%), the streambed
+    col (to the next valley), the PGR ditch. When the gap is plugged, the lowest outlet left is the col, whose sill stands
+    above the houses, so the rising lake tops the village before it can spill. Open the gap and the lake spills below house
+    level, the village stays dry, and the water fills %BIG-BASIN% instead.</p>
+</div>
+
+<script>
+// ===========================================================================
+// 1. THE STORY AS POINTS AND RELATIONS
+// ===========================================================================
+// Only objects are POINTS. A feature = named points + relations between them.
+//   positions come from a layout solver; HEIGHTS ARE AN OUTPUT.
+//   We author no ordering. `solveHeights` (section 2) starts the controls near
+//   flat and runs the REAL flood both ways, pushing the numbers down a loss
+//   until all five premises hold. Whatever ends above what, the flood decided.
+//     closed (gap plugged): new village floods, big basin dry
+//     open   (gap open):    big basin + old village flood, new village dry
+// which control height each terrain point takes (several points share a control):
+const PKEY={ source:'source', houseA:'house', houseB:'house', oldv:'oldv',
+  gap:'gapopen', basin:'basin', res:'res', dam:'dam', col:'col', nextval:'nextval',
+  ditch:'ditch', bridge:'basinrim' };
+// the controls the flood optimizer is free to move. everything else is either the
+// map's drainage datum or a seal height, both derived from these.
+const HFREE=['house','oldv','col','gapopen','basout','basin','ditch','source'];
+// complete a free vector into every height the terrain needs.
+//   dam/res/nextval  = the map's drainage base (framing: it sits below every outlet)
+//   crest/plug/basinrim = seal heights (always safely above the live controls)
+function fillHV(f){ const hv=Object.assign({},f);
+  const lo=Math.min(hv.basout,hv.basin,hv.oldv);
+  hv.res=lo-0.8; hv.dam=lo-1.2; hv.nextval=Math.min(hv.col,hv.oldv)-0.4;
+  const hi=Math.max(hv.house,hv.col,hv.source,hv.ditch,hv.gapopen,hv.basout);
+  hv.crest=hi+2.2; hv.plug=hi+2.8; hv.basinrim=Math.max(hv.basout,hv.gapopen,hv.basin)+1.4;
+  hv.ridge=hv.crest;
+  return hv; }
+
+// Spatial relations. Screen frame: x west->east, y north->south (north up).
+// dir = a lies in bearing (ux,uy) from b. The chain runs source -> valley ->
+// gap -> basin -> res -> dam (the reservoir sits DOWNSTREAM of the basin, so the
+// Fixed positions. Bearings are gone. These are the story's geography, placed once:
+// the valley (source, houses, old village) on the left, the gap due east of it, the
+// big basin beyond the gap, the col pass to the west, the reservoir and dam draining
+// to the SE edge, the PGR ditch a dead-end to the south. The GA shapes the HEIGHTS
+// on top of this fixed map; the seed only reseeds the fractal texture.
+const FIXEDPOS = {
+  source:[0.40,0.15], houseA:[0.42,0.40], houseB:[0.51,0.43], oldv:[0.39,0.60],
+  gap:[0.64,0.44], basin:[0.82,0.44], col:[0.19,0.46], nextval:[0.06,0.52],
+  res:[0.80,0.66], dam:[0.94,0.82], ditch:[0.55,0.72], bridge:[0.60,0.40],
+};
+function mulberry32(a){ return function(){ a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);
+  t=t+Math.imul(t^t>>>7,61|t)^t; return ((t^t>>>14)>>>0)/4294967296; }; }
+
+function solveLayout(seed){ const P={}; for(const k in FIXEDPOS) P[k]=FIXEDPOS[k].slice(); return P; }
+
+// ===========================================================================
+// 2. TERRAIN  (pins -> smooth field -> ground modelled until it seals)
+// ===========================================================================
+const GW=220, GH=170, idx=(x,y)=>y*GW+x;
+let POS,H,H_OPEN,HMIN,HMAX,RIVER_C,RIVER_O,MASK_C,WF_C,LVL_C,MASK_O,WF_O,LVL_O,LAST_LOSS;
+const gpx=(nx)=>Math.round(nx*(GW-1)), gpy=(ny)=>Math.round(ny*(GH-1));
+const cellOf=(p)=>idx(gpx(p[0]),gpy(p[1]));
+function unit(ax,ay){ const l=Math.hypot(ax,ay)||1; return [ax/l,ay/l]; }
+
+function pinPoint(F,X,p,h){ const gx=gpx(p[0]),gy=gpy(p[1]);
+  for(let dy=-1;dy<=1;dy++)for(let dx=-1;dx<=1;dx++){ const xx=gx+dx,yy=gy+dy;
+    if(xx<0||yy<0||xx>=GW||yy>=GH)continue; F[idx(xx,yy)]=h; X[idx(xx,yy)]=1; } }
+function relax(F,X,iters){ const w=1.85;
+  for(let it=0;it<iters;it++){ for(let y=1;y<GH-1;y++)for(let x=1;x<GW-1;x++){ const i=idx(x,y); if(X[i])continue;
+      F[i]+=w*(0.25*(F[i-1]+F[i+1]+F[i-GW]+F[i+GW])-F[i]); }
+    for(let x=0;x<GW;x++){ F[idx(x,0)]=F[idx(x,1)]; F[idx(x,GH-1)]=F[idx(x,GH-2)]; }
+    for(let y=0;y<GH;y++){ F[idx(0,y)]=F[idx(1,y)]; F[idx(GW-1,y)]=F[idx(GW-2,y)]; } }
+}
+function hash2(x,y,s){ let h=x*374761393+y*668265263+s*1442695040; h=(h^(h>>>13))*1274126177; return ((h^(h>>>16))>>>0)/4294967296; }
+function vnoise(nx,ny,s){ const x=nx*6,y=ny*6; let v=0,a=0.5,f=1;
+  for(let o=0;o<4;o++){ const xi=Math.floor(x*f),yi=Math.floor(y*f),xf=x*f-xi,yf=y*f-yi;
+    const u=xf*xf*(3-2*xf),vv=yf*yf*(3-2*yf);
+    const n00=hash2(xi,yi,s+o),n10=hash2(xi+1,yi,s+o),n01=hash2(xi,yi+1,s+o),n11=hash2(xi+1,yi+1,s+o);
+    v+=a*((n00*(1-u)+n10*u)*(1-vv)+(n01*(1-u)+n11*u)*vv); a*=0.5; f*=2; }
+  return v-0.5;
+}
+function addNoise(F,amp,s){ for(let y=0;y<GH;y++)for(let x=0;x<GW;x++) F[idx(x,y)]+=amp*vnoise(x/GW,y/GH,s); }
+function argminNear(F,c,rad){ const cx=gpx(c[0]),cy=gpy(c[1]); let best=Infinity,bi=idx(cx,cy);
+  for(let dy=-rad;dy<=rad;dy++)for(let dx=-rad;dx<=rad;dx++){ const xx=cx+dx,yy=cy+dy;
+    if(xx<0||yy<0||xx>=GW||yy>=GH)continue; const j=idx(xx,yy); if(F[j]<best){best=F[j];bi=j;} } return bi; }
+function diskMask(cell,rad){ const m=new Uint8Array(GW*GH),cx=cell%GW,cy=(cell/GW)|0;
+  for(let dy=-rad;dy<=rad;dy++)for(let dx=-rad;dx<=rad;dx++){ if(dx*dx+dy*dy>rad*rad)continue; const xx=cx+dx,yy=cy+dy;
+    if(xx<0||yy<0||xx>=GW||yy>=GH)continue; m[idx(xx,yy)]=1; } return m; }
+function raiseBump(F,cell,toH,rad,protect){ const cx=cell%GW,cy=(cell/GW)|0,sig=rad*0.62;
+  for(let dy=-rad;dy<=rad;dy++)for(let dx=-rad;dx<=rad;dx++){ const xx=cx+dx,yy=cy+dy;
+    if(xx<0||yy<0||xx>=GW||yy>=GH)continue; const j=idx(xx,yy); if(protect&&protect[j])continue;
+    const w=Math.exp(-(dx*dx+dy*dy)/(2*sig*sig)); const t=F[j]+(toH-F[j])*w; if(F[j]<t) F[j]=t; } }
+
+// --- minimax: lowest saddle on the best path from a cell to the map border ---
+function minimaxToBorder(F,startCell,block){
+  const n=GW*GH; const best=new Float32Array(n); best.fill(Infinity); const prev=new Int32Array(n); prev.fill(-1);
+  const val=(i)=> block&&block[i] ? Infinity : F[i];
+  best[startCell]=val(startCell);
+  const heap=[[best[startCell],startCell]];
+  const push=(k,i)=>{ heap.push([k,i]); let c=heap.length-1; while(c>0){const p=(c-1>>1); if(heap[p][0]<=heap[c][0])break; [heap[p],heap[c]]=[heap[c],heap[p]]; c=p;} };
+  const pop=()=>{ const top=heap[0],last=heap.pop(); if(heap.length){heap[0]=last; let c=0; for(;;){let l=2*c+1,r=l+1,m=c; if(l<heap.length&&heap[l][0]<heap[m][0])m=l; if(r<heap.length&&heap[r][0]<heap[m][0])m=r; if(m===c)break; [heap[m],heap[c]]=[heap[c],heap[m]]; c=m;}} return top; };
+  let target=-1;
+  while(heap.length){ const [k,c]=pop(); if(k>best[c])continue; const cx=c%GW,cy=(c/GW)|0;
+    if(cx===0||cy===0||cx===GW-1||cy===GH-1){ target=c; break; }
+    for(let dy=-1;dy<=1;dy++)for(let dx=-1;dx<=1;dx++){ if(!dx&&!dy)continue; const xx=cx+dx,yy=cy+dy;
+      if(xx<0||yy<0||xx>=GW||yy>=GH)continue; const j=idx(xx,yy); const nk=Math.max(k,val(j));
+      if(nk<best[j]){ best[j]=nk; prev[j]=c; push(nk,j); } } }
+  if(target<0) return {spill:Infinity,saddle:startCell};
+  let c=target, saddle=target, sh=-Infinity;
+  while(c!==-1){ if(F[c]>sh){sh=F[c];saddle=c;} if(c===startCell)break; c=prev[c]; }
+  return {spill:best[target],saddle};
+}
+// Model the ground until the region is sealed: raise the lowest escape to the
+// border until it clears `target`. `notchCells` stay low (the passes remain
+// escapable). `protect` cells are never raised (the village floor is preserved).
+function encloseTo(F,insideCell,target,notchCells,protect){
+  let block=null; if(notchCells&&notchCells.length){ block=new Uint8Array(GW*GH);
+    for(const nc of notchCells){ const m=diskMask(nc,11); for(let i=0;i<m.length;i++) if(m[i]) block[i]=1; } }
+  for(let pass=0;pass<320;pass++){
+    const {spill,saddle}=minimaxToBorder(F,insideCell,block);
+    if(spill>=target-1e-3) break;
+    raiseBump(F,saddle,target+0.25,7,protect);
+  }
+}
+// Carve a corridor between two points, floor pinned to floorH, so a rim is cut
+// through and the two points are hydraulically connected at that height.
+function carveChannel(F,a,b,floorH,halfw){ const ax=gpx(a[0]),ay=gpy(a[1]),bx2=gpx(b[0]),by2=gpy(b[1]);
+  const dx=bx2-ax,dy=by2-ay,L=Math.hypot(dx,dy)||1; const ux=dx/L,uy=dy/L; const steps=Math.ceil(L);
+  for(let s=0;s<=steps;s++){ const px2=Math.round(ax+ux*s),py2=Math.round(ay+uy*s);
+    for(let oy=-halfw;oy<=halfw;oy++)for(let ox=-halfw;ox<=halfw;ox++){ const xx=px2+ox,yy=py2+oy;
+      if(xx<0||yy<0||xx>=GW||yy>=GH)continue; const r=Math.hypot(ox,oy); if(r>halfw)continue;
+      const t=floorH+0.05*r*r; const j=idx(xx,yy); if(F[j]>t) F[j]=t; } } }
+
+// --- fill-to-spill flood: priority-flood spill surface, then route the river ---
+function priorityFlood(F){ const n=GW*GH; const W=new Float32Array(n); W.fill(Infinity); const done=new Uint8Array(n);
+  const prev=new Int32Array(n); prev.fill(-1);
+  const heap=[]; const push=(k,i)=>{heap.push([k,i]);let c=heap.length-1;while(c>0){const p=(c-1>>1);if(heap[p][0]<=heap[c][0])break;[heap[p],heap[c]]=[heap[c],heap[p]];c=p;}};
+  const pop=()=>{const t=heap[0],l=heap.pop();if(heap.length){heap[0]=l;let c=0;for(;;){let a=2*c+1,b=a+1,m=c;if(a<heap.length&&heap[a][0]<heap[m][0])m=a;if(b<heap.length&&heap[b][0]<heap[m][0])m=b;if(m===c)break;[heap[m],heap[c]]=[heap[c],heap[m]];c=m;}}return t;};
+  const add=(i)=>{ if(!done[i]){W[i]=F[i];done[i]=1;push(F[i],i);} };
+  for(let x=0;x<GW;x++){ add(idx(x,0)); add(idx(x,GH-1)); }
+  for(let y=0;y<GH;y++){ add(idx(0,y)); add(idx(GW-1,y)); }
+  while(heap.length){ const [w,c]=pop(); if(w>W[c])continue; const cx=c%GW,cy=(c/GW)|0;
+    for(let d=0;d<4;d++){ const xx=cx+[1,-1,0,0][d],yy=cy+[0,0,1,-1][d]; if(xx<0||yy<0||xx>=GW||yy>=GH)continue;
+      const j=idx(xx,yy); const nw=Math.max(w,F[j]); if(nw<W[j]){W[j]=nw;prev[j]=c;push(nw,j);} } }
+  return {W,prev}; }
+// The drainage tree points every cell downstream toward the border. Following it
+// from the source crosses flat lakes to their outlet (a plain steepest-descent
+// tracer gets stuck on flat water). Returns the source->border path.
+function traceFilled(prev,src){ let c=cellOf(src); const path=[c]; const seen=new Uint8Array(GW*GH); seen[c]=1;
+  for(let k=0;k<40000;k++){ const p=prev[c]; if(p<0||seen[p])break; seen[p]=1; path.push(p); c=p; }
+  return path; }
+// Only depressions the river actually flows through hold water. Returns the mask
+// of flooded cells (lakes on the path) and their water-surface field W.
+function floodRoute(F,src){ const {W,prev}=priorityFlood(F); const path=traceFilled(prev,src);
+  const lake=new Uint8Array(GW*GH); for(let i=0;i<F.length;i++) if(W[i]-F[i]>0.02) lake[i]=1;
+  const lab=new Int32Array(GW*GH); lab.fill(-1); let nl=0; const onPath=new Set();
+  for(let i=0;i<lake.length;i++){ if(lake[i]&&lab[i]<0){ const q=[i]; lab[i]=nl; while(q.length){ const c=q.pop(),cx=c%GW,cy=(c/GW)|0;
+    for(let dy=-1;dy<=1;dy++)for(let dx=-1;dx<=1;dx++){ const xx=cx+dx,yy=cy+dy; if(xx<0||yy<0||xx>=GW||yy>=GH)continue; const j=idx(xx,yy);
+      if(lake[j]&&lab[j]<0){lab[j]=nl;q.push(j);} } } nl++; } }
+  for(const c of path) if(lab[c]>=0) onPath.add(lab[c]);
+  const mask=new Uint8Array(GW*GH); let lvl=-Infinity;
+  for(let i=0;i<mask.length;i++) if(lab[i]>=0&&onPath.has(lab[i])){ mask[i]=1; if(W[i]>lvl) lvl=W[i]; }
+  return {mask,W,path,lvl:isFinite(lvl)?lvl:0}; }
+
+// --- assemble the two epochs (closed / open) from a smooth base + a height vector.
+// sealMasks != null uses the fast proxy (pin known rim cells); null runs the real
+// emergent seal. Passes and the plug are carved the same either way.
+function assembleFields(base0, hv, P, sealMasks){
+  const base=Float32Array.from(base0); const gapCell=cellOf(P.gap);
+  // the valley encloses itself (a ring of hill points in the base); only the basin
+  // still needs an explicit rim so it can pond when the gap feeds it.
+  if(sealMasks){ for(let i=0;i<base.length;i++){ if(sealMasks.bas[i]&&base[i]<hv.basinrim) base[i]=hv.basinrim; } }
+  else { encloseTo(base,cellOf(P.basin),hv.basinrim,null,null); }
+  // the valley's own streambed: connect source -> house -> old village so the whole
+  // valley drains as one system (else the house sits in a trapped pocket). The bed
+  // sits below the pads but above the open pour point, so in the open epoch the
+  // pads stay dry while the bed carries water out through the gap.
+  const vf=0.5*(hv.gapopen+hv.house);
+  carveChannel(base,P.source,P.houseA,vf,1);
+  carveChannel(base,P.houseA,P.oldv,vf,1);
+  carveChannel(base,P.houseA,P.houseB,vf,1);
+  carveChannel(base,P.col,P.nextval,hv.col,2);
+  carveChannel(base,P.basin,P.res,hv.basout,2);
+  carveChannel(base,P.res,P.dam,hv.res,3);
+  carveChannel(base,P.dam,[0.995,P.dam[1]],hv.dam,3);   // dam -> map edge: a true low outfall, no trapped sill
+  const dmid=[(P.ditch[0]+P.dam[0])*0.5,(P.ditch[1]+P.dam[1])*0.5];
+  carveChannel(base,P.ditch,dmid,hv.ditch,1);
+  const Ho=Float32Array.from(base);
+  carveChannel(Ho,P.oldv,P.gap,hv.gapopen,2);
+  carveChannel(Ho,P.gap,P.basin,hv.gapopen,2);
+  const Hc=Float32Array.from(base);
+  // the landslide: fill the valley's gap-mouth (the ring opening toward the basin)
+  // and the gap itself to debris height, above every other sill, so the plugged
+  // valley must climb to the col before it can leave and it tops the village first.
+  const {mouth}=valleyHills(P);
+  for(const mp of mouth) raiseBump(Hc,cellOf(mp),hv.plug,11,null);
+  { const m=diskMask(gapCell,12); for(let i=0;i<m.length;i++) if(m[i]&&Hc[i]<hv.plug) Hc[i]=hv.plug; }
+  return {Hc,Ho};
+}
+// A ring of hill points around the valley, open only at the gap and the col. The
+// ridge is never drawn: it emerges from interpolating between these few peaks, so
+// the valley is a real valley and floods behind the plug with no seal hack.
+// `mouth` = the ring points at the gap opening, filled to debris height when the
+// landslide plugs the valley.
+function valleyHills(P){
+  const vp=['source','houseA','houseB','oldv'].map(k=>P[k]);
+  const cx=vp.reduce((s,p)=>s+p[0],0)/vp.length, cy=vp.reduce((s,p)=>s+p[1],0)/vp.length;
+  let R=0; for(const p of vp) R=Math.max(R,Math.hypot(p[0]-cx,p[1]-cy)); R+=0.07;
+  const ga=Math.atan2(P.gap[1]-cy,P.gap[0]-cx), ca=Math.atan2(P.col[1]-cy,P.col[0]-cx);
+  const near=(a,b)=>{let d=Math.abs((a-b)%(2*Math.PI)); if(d>Math.PI)d=2*Math.PI-d; return d;};
+  const hills=[], mouth=[]; const N=12;
+  for(let k=0;k<N;k++){ const a=k/N*2*Math.PI;
+    const x=cx+Math.cos(a)*R, y=cy+Math.sin(a)*R;
+    if(x<0.03||x>0.97||y<0.03||y>0.97) continue;
+    if(near(a,ga)<0.55){ mouth.push([x,y]); continue; }    // gap opening (plugged when closed)
+    if(near(a,ca)<0.55) continue;                          // col opening (always open)
+    hills.push([x,y]); }
+  return {hills,mouth};
+}
+// --- harmonic basis: the relaxed field is LINEAR in the pin heights, so one field
+// per control (that control pinned to 1, the rest to 0) lets any height vector be
+// an instant blend. This is what makes the optimizer affordable.
+function computeBasis(P){ const keys=[...new Set(Object.values(PKEY))]; keys.push('ridge');
+  const {hills}=valleyHills(P); const basis={};
+  for(const key of keys){ const F=new Float32Array(GW*GH), X=new Uint8Array(GW*GH);
+    for(const pt in PKEY){ if(!P[pt])continue; pinPoint(F,X,P[pt], PKEY[pt]===key?1:0); }
+    for(const h of hills) pinPoint(F,X,h, key==='ridge'?1:0);
+    relax(F,X,700); basis[key]=F; } return basis; }
+function baseFromHV(hv,basis){ const F=new Float32Array(GW*GH);
+  for(const key in basis){ const b=basis[key],h=hv[key]||0; for(let i=0;i<F.length;i++) F[i]+=b[i]*h; }
+  return F; }
+// precompute which cells the basin seal raises (on a reference vector) so the proxy
+// can pin them without re-running Dijkstra on every trial.
+function computeSealMasks(P,basis,f0){ const hv=fillHV(f0); const base=baseFromHV(hv,basis);
+  const bas=new Uint8Array(GW*GH);
+  const B=Float32Array.from(base); encloseTo(B,cellOf(P.basin),hv.basinrim,null,null);
+  for(let i=0;i<B.length;i++) if(B[i]-base[i]>0.1) bas[i]=1;
+  return {bas}; }
+// --- the loss: run the REAL flood both ways and measure how badly each of the five
+// premises is violated. zero loss = all five hold. This is the only spec.
+function wetDepth(F,route,p){ const c=argminNear(F,p,3); return route.mask[c] ? route.W[c]-F[c] : -0.4; }
+function floodLoss(Hc,Ho,P){ const rc=floodRoute(Hc,P.source), ro=floodRoute(Ho,P.source);
+  const m=0.28, hinge=x=>x>0?x:0; let L=0;
+  L+=hinge(m-wetDepth(Hc,rc,P.houseA))+hinge(m-wetDepth(Hc,rc,P.houseB)); // closed: village floods
+  L+=hinge(wetDepth(Hc,rc,P.basin)+m);                                    // closed: basin dry
+  L+=hinge(wetDepth(Ho,ro,P.houseA)+m)+hinge(wetDepth(Ho,ro,P.houseB)+m); // open: village dry
+  L+=hinge(m-wetDepth(Ho,ro,P.basin));                                    // open: basin floods
+  L+=hinge(m-wetDepth(Ho,ro,P.oldv));                                     // open: old village floods
+  return L; }
+// --- solve heights by evolution: a population of height vectors, fitness = how
+// badly the five premises are violated (zero = all hold). Each generation keeps the
+// fittest, then breeds mutated recombinations. No ordering is authored; the flood
+// alone decides which control ends up above which.
+function solveHeights(P,basis,masks,noise){
+  const evalLoss=fv=>{ const hv=fillHV(fv); const b=baseFromHV(hv,basis); for(let i=0;i<b.length;i++) b[i]+=noise[i];
+    const {Hc,Ho}=assembleFields(b,hv,P,masks); return floodLoss(Hc,Ho,P); };
+  const rng=mulberry32(0x9e3779b9); const rand=(a,b)=>a+(b-a)*rng();
+  const randInd=()=>({ basin:rand(0.1,0.8), basout:rand(0.2,1.2), oldv:rand(0.3,1.5), gapopen:rand(0.4,1.7),
+    house:rand(0.6,2.2), source:rand(0.8,2.6), col:rand(0.8,2.8), ditch:rand(0.9,3.0) });
+  const POP=18, GEN=60, KEEP=6; let sigma=0.6;
+  let scored=[]; while(scored.length<POP) scored.push({f:randInd()});
+  scored.forEach(o=>o.loss=evalLoss(o.f));
+  for(let g=0; g<GEN; g++){
+    scored.sort((a,b)=>a.loss-b.loss);
+    if(scored[0].loss<=1e-4) break;
+    const par=scored.slice(0,KEEP), next=par.slice();
+    while(next.length<POP){ const a=par[(rng()*KEEP)|0].f, b=par[(rng()*KEEP)|0].f; const c={};
+      for(const k of HFREE){ let v=(rng()<0.5?a[k]:b[k])+(rng()*2-1)*sigma; if(v<0.05)v=0.05; c[k]=v; }
+      next.push({f:c,loss:evalLoss(c)}); }
+    scored=next; sigma*=0.95;
+  }
+  scored.sort((a,b)=>a.loss-b.loss);
+  return {f:scored[0].f, hv:fillHV(scored[0].f), loss:scored[0].loss}; }
+
+function build(seed){
+  POS=solveLayout(seed); const P=POS;
+  const basis=computeBasis(P);
+  const f0={ house:1.0, oldv:0.9, col:1.1, gapopen:0.8, basout:0.7, basin:0.5, ditch:1.2, source:1.3 };
+  const masks=computeSealMasks(P,basis,f0);
+  // one fixed fractal texture, shared by the search and the final build so the
+  // heights are solved against exactly the terrain that gets drawn.
+  const noise=new Float32Array(GW*GH); addNoise(noise,0.08,seed);
+  const sol=solveHeights(P,basis,masks,noise); const hv=sol.hv; LAST_LOSS=sol.loss;
+
+  const base=baseFromHV(hv,basis); for(let i=0;i<base.length;i++) base[i]+=noise[i];
+  const fields=assembleFields(base,hv,P,masks);
+  H=fields.Hc; H_OPEN=fields.Ho;
+  HMIN=Infinity;HMAX=-Infinity;
+  for(let i=0;i<H.length;i++){ if(H[i]<HMIN)HMIN=H[i]; if(H[i]>HMAX)HMAX=H[i];
+    if(H_OPEN[i]<HMIN)HMIN=H_OPEN[i]; if(H_OPEN[i]>HMAX)HMAX=H_OPEN[i]; }
+  const rc=floodRoute(H,P.source); MASK_C=rc.mask; WF_C=rc.W; RIVER_C=rc.path; LVL_C=rc.lvl;
+  const ro=floodRoute(H_OPEN,P.source); MASK_O=ro.mask; WF_O=ro.W; RIVER_O=ro.path; LVL_O=ro.lvl;
+}
+
+// ===========================================================================
+// 3. RENDER
+// ===========================================================================
+const cv=document.getElementById('cv'),ctx=cv.getContext('2d');
+const CW=cv.width,CH=cv.height,sx=CW/GW,sy=CH/GH; const px=(nx)=>nx*CW,py=(ny)=>ny*CH;
+let gapState='closed',waterFrac=0,showShade=true,showCont=true;
+const field=()=>gapState==='open'?H_OPEN:H;
+const mask=()=>gapState==='open'?MASK_O:MASK_C;
+const wsurf=()=>gapState==='open'?WF_O:WF_C;
+const eqLevel=()=>gapState==='open'?LVL_O:LVL_C;
+function hyps(h){ const t=(h-HMIN)/((HMAX-HMIN)||1);
+  const stops=[[0.00,[64,104,82]],[0.22,[112,146,90]],[0.40,[178,178,120]],[0.58,[190,158,110]],[0.76,[156,126,96]],[1.00,[186,182,176]]];
+  for(let i=0;i<stops.length-1;i++) if(t<=stops[i+1][0]){ const f=(t-stops[i][0])/(stops[i+1][0]-stops[i][0]),a=stops[i][1],b=stops[i+1][1];
+    return [a[0]+(b[0]-a[0])*f,a[1]+(b[1]-a[1])*f,a[2]+(b[2]-a[2])*f]; } return stops[stops.length-1][1]; }
+// current water surface: rise from the valley floor up to the routed spill level
+function curLevel(){ return HMIN+waterFrac*((eqLevel()-HMIN)||1); }
+function wetField(){ const F=field(),M=mask(),W=wsurf(),lvl=curLevel(),wet=new Uint8Array(GW*GH);
+  for(let i=0;i<wet.length;i++) if(M[i]&&F[i]<Math.min(lvl,W[i])) wet[i]=1; return wet; }
+function render(){ const F=field(),wet=wetField(),lvl=curLevel();
+  const img=ctx.createImageData(CW,CH),data=img.data; const sunx=-0.6,suny=-0.7,sunz=0.7;
+  for(let py2=0;py2<CH;py2++)for(let px2=0;px2<CW;px2++){ const gx=Math.min(GW-1,(px2/CW*(GW-1))|0),gy=Math.min(GH-1,(py2/CH*(GH-1))|0);
+    const i=idx(gx,gy),h=F[i]; let col=hyps(h);
+    if(showShade){ const hx=F[idx(Math.min(gx+1,GW-1),gy)]-F[idx(Math.max(gx-1,0),gy)],hy=F[idx(gx,Math.min(gy+1,GH-1))]-F[idx(gx,Math.max(gy-1,0))];
+      let nzx=-hx*2.2,nzy=-hy*2.2; const len=Math.hypot(nzx,nzy,1); let dot=Math.max(0.15,Math.min(1.25,0.55+((nzx*sunx+nzy*suny+sunz)/len)*0.7)); col=[col[0]*dot,col[1]*dot,col[2]*dot]; }
+    if(wet[i]){ const depth=Math.min(lvl,wsurf()[i])-h; const a=0.34+Math.min(1,depth/1.6)*0.30,wc=[54,86,110]; col=[col[0]*(1-a)+wc[0]*a,col[1]*(1-a)+wc[1]*a,col[2]*(1-a)+wc[2]*a]; }
+    const o=(py2*CW+px2)*4; data[o]=col[0];data[o+1]=col[1];data[o+2]=col[2];data[o+3]=255; }
+  ctx.putImageData(img,0,0); if(showCont)drawContours(F); drawShore(wet); drawFeatures(); }
+function contourSegs(F,level){ const segs=[]; const ip=(xa,ya,ha,xb,yb,hb)=>{const t=(level-ha)/(hb-ha||1e-6);return [xa+(xb-xa)*t,ya+(yb-ya)*t];};
+  for(let y=0;y<GH-1;y++)for(let x=0;x<GW-1;x++){ const tl=F[idx(x,y)],tr=F[idx(x+1,y)],br=F[idx(x+1,y+1)],bl=F[idx(x,y+1)];
+    let c=0; if(tl>level)c|=8;if(tr>level)c|=4;if(br>level)c|=2;if(bl>level)c|=1; if(c===0||c===15)continue;
+    const T=()=>ip(x,y,tl,x+1,y,tr),R=()=>ip(x+1,y,tr,x+1,y+1,br),B=()=>ip(x,y+1,bl,x+1,y+1,br),Lf=()=>ip(x,y,tl,x,y+1,bl); let e=[];
+    switch(c){case 1:e=[[Lf(),B()]];break;case 2:e=[[B(),R()]];break;case 3:e=[[Lf(),R()]];break;case 4:e=[[T(),R()]];break;case 5:e=[[Lf(),T()],[B(),R()]];break;case 6:e=[[T(),B()]];break;case 7:e=[[Lf(),T()]];break;case 8:e=[[Lf(),T()]];break;case 9:e=[[T(),B()]];break;case 10:e=[[T(),R()],[Lf(),B()]];break;case 11:e=[[T(),R()]];break;case 12:e=[[Lf(),R()]];break;case 13:e=[[B(),R()]];break;case 14:e=[[Lf(),B()]];break;}
+    for(const s of e)segs.push(s); } return segs; }
+function strokeSegs(segs,style,w,dash){ ctx.strokeStyle=style;ctx.lineWidth=w; if(dash)ctx.setLineDash(dash); ctx.beginPath();
+  for(const s of segs){ctx.moveTo(s[0][0]*sx,s[0][1]*sy);ctx.lineTo(s[1][0]*sx,s[1][1]*sy);} ctx.stroke(); if(dash)ctx.setLineDash([]); }
+function drawContours(F){ const step=((HMAX-HMIN)||1)/16; for(let lv=HMIN+step;lv<HMAX;lv+=step) strokeSegs(contourSegs(F,lv),'rgba(58,44,30,0.28)',1.0); }
+function drawShore(wet){ ctx.strokeStyle='rgba(228,238,248,0.9)';ctx.lineWidth=1.6;ctx.beginPath();
+  for(let y=0;y<GH;y++)for(let x=0;x<GW;x++){ if(!wet[idx(x,y)])continue;
+    if(x<GW-1&&!wet[idx(x+1,y)]){ctx.moveTo((x+1)*sx,y*sy);ctx.lineTo((x+1)*sx,(y+1)*sy);}
+    if(x>0&&!wet[idx(x-1,y)]){ctx.moveTo(x*sx,y*sy);ctx.lineTo(x*sx,(y+1)*sy);}
+    if(y<GH-1&&!wet[idx(x,y+1)]){ctx.moveTo(x*sx,(y+1)*sy);ctx.lineTo((x+1)*sx,(y+1)*sy);}
+    if(y>0&&!wet[idx(x,y-1)]){ctx.moveTo(x*sx,y*sy);ctx.lineTo((x+1)*sx,y*sy);} } ctx.stroke(); }
+
+// ===========================================================================
+// 4. FEATURE OVERLAYS  (positions all read from the solved points)
+// ===========================================================================
+function label(t,nx,ny,o){ o=o||{}; ctx.font=(o.b?'700 ':'600 ')+(o.sz||13)+'px "Segoe UI",sans-serif'; ctx.textAlign=o.align||'center'; ctx.textBaseline='middle';
+  ctx.lineWidth=3.5; ctx.strokeStyle='rgba(244,236,216,0.95)'; ctx.strokeText(t,px(nx),py(ny)); ctx.fillStyle=o.col||'#241d12'; ctx.fillText(t,px(nx),py(ny)); }
+function drawRiver(path){ ctx.strokeStyle='#2f6f9c';ctx.lineWidth=3;ctx.lineJoin='round';ctx.beginPath();
+  path.forEach((c,i)=>{ const x=(c%GW)*sx,y=((c/GW)|0)*sy; i?ctx.lineTo(x,y):ctx.moveTo(x,y); }); ctx.stroke(); }
+function drawFeatures(){ const P=POS; ctx.lineJoin='round';ctx.lineCap='round';
+  drawRiver(gapState==='open'?RIVER_O:RIVER_C);
+  if(gapState==='closed'){
+    ctx.strokeStyle='#8a8a8a';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(px(P.houseA[0]),py(P.houseA[1]));ctx.lineTo(px(P.ditch[0]),py(P.ditch[1]));ctx.stroke();
+    label('irrigation ditch (too small)',P.ditch[0],P.ditch[1]+0.03,{sz:10,col:'#555'});
+    ctx.strokeStyle='#241d12';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(px(P.bridge[0])-8,py(P.bridge[1]));ctx.lineTo(px(P.bridge[0])+8,py(P.bridge[1]));ctx.stroke();
+    label('bridge (new course)',P.bridge[0],P.bridge[1]-0.03,{sz:10,col:'#241d12'});
+  }
+  label('river source',P.source[0],P.source[1]-0.035,{sz:11,col:'#33506a'});
+  label('%NEW_VILLAGE%',(P.houseA[0]+P.houseB[0])*0.5,(P.houseA[1]+P.houseB[1])*0.5,{sz:14});
+  label('(terraces)',(P.houseA[0]+P.houseB[0])*0.5,(P.houseA[1]+P.houseB[1])*0.5+0.035,{sz:10,col:'#3a2f1e'});
+  label('%OLD_VILLAGE%',P.oldv[0],P.oldv[1],{sz:12,col:'#4a3a26'});
+  label('ridge water-gap',P.gap[0],P.gap[1]-0.05,{sz:11,col:gapState==='open'?'#1d6e50':'#6b2f22',b:true});
+  label(gapState==='open'?'(open, drains)':'(plugged)',P.gap[0],P.gap[1]+0.032,{sz:9,col:gapState==='open'?'#1d6e50':'#6b2f22'});
+  label('%BIG-BASIN%',P.basin[0],P.basin[1],{sz:12,col:'#5a4632'});
+  label('streambed col',P.col[0],P.col[1]-0.045,{sz:10,col:'#6b2f22',b:true});
+  label('(above the houses)',P.col[0],P.col[1]+0.03,{sz:9,col:'#6b2f22'});
+  label('next valley',P.nextval[0],P.nextval[1],{sz:10,col:'#5a4632'});
+  label('future Solina reservoir',P.res[0],P.res[1]+0.02,{sz:12,col:'#1d4a5c',b:true});
+  label('→ dam',P.dam[0],P.dam[1]-0.02,{sz:10,col:'#1d4a5c',b:true});
+}
+
+// ===========================================================================
+// 5. UI
+// ===========================================================================
+document.getElementById('legend').innerHTML=[
+  ['sw','#40685a','sink floors'],['sw','#b4b478','valley floor & terraces'],['sw','#9c8060','ridge flanks'],
+  ['sw','#3a6a86','flooded (routed)'],['sw','#2f6f9c','river (spill-routed)'],
+].map(i=>'<span><span class="'+i[0]+'" style="'+(i[0]==='ln'?'border-top-color:':'background:')+i[1]+'"></span>'+i[2]+'</span>').join('');
+const water=document.getElementById('water'),wl=document.getElementById('wl');
+const gC=document.getElementById('gClosed'),gO=document.getElementById('gOpen'),seedEl=document.getElementById('seed');
+function setFrac(v){ waterFrac=v; water.value=v; wl.textContent=Math.round(v*100)+'%'; render(); }
+function setGap(s){ gapState=s; gC.classList.toggle('on',s==='closed'); gO.classList.toggle('on',s==='open'); render(); }
+water.oninput=function(){ setFrac(parseFloat(water.value)); };
+gC.onclick=function(){ setGap('closed'); }; gO.onclick=function(){ setGap('open'); };
+document.getElementById('shade').onchange=function(e){ showShade=e.target.checked;render(); };
+document.getElementById('cont').onchange=function(e){ showCont=e.target.checked;render(); };
+let anim=null; document.getElementById('fill').onclick=function(){ if(anim){clearInterval(anim);anim=null;}
+  const dv=1/120; let v=waterFrac; anim=setInterval(function(){ v+=dv; if(v>=1){v=1;clearInterval(anim);anim=null;} setFrac(v); },40); };
+function reseed(){ build(parseInt(seedEl.value,10)||1); waterFrac=0;water.value=0;wl.textContent='0%'; render(); }
+seedEl.onchange=reseed;
+build(parseInt(seedEl.value,10)||7); waterFrac=0; setGap('closed');
+</script>
+</body>
+</html>

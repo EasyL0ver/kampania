@@ -19,20 +19,23 @@
 
 ## Opportunities
 
+- **The fill looks loose** `(requires: holding [`landslide-in-the-gap`](../clues/clues.md#landslide-in-the-gap))` — At the foot of the plug the fill looks like loose, open rubble the water would run straight through, so the gap might yet drain by seeping through it. → Gives: [gap-may-seep](../clues/clues.md#gap-may-seep)
+- **Water would have to top the saddle** `(requires: holding [`gap-is-candidate-drain`](../clues/clues.md#gap-is-candidate-drain))` — For the gap to drain, rising water must clear the plug's lowest saddle and spill into %BIG-BASIN%; whether that saddle sits below the flood line is the open question. → Gives: [water-may-flow-over](../clues/clues.md#water-may-flow-over)
 - **The gap won't drain** `(requires: holding [`gap-fill-examined`](../clues/clues.md#gap-fill-examined) and [`gap-sill-above-flood`](../clues/clues.md#gap-sill-above-flood) and Geology)` — Put the two readings together: the fill will not seep and the sill will not overtop, so water can leave the valley neither through the plug nor over it. The outlet is dead. → Gives: [gap-is-blocked](../clues/clues.md#gap-is-blocked)
 
 ## Actions
 
 ### Examine the fill at the toe
 - **Requires:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap); reaching the foot of the plug (no climb)
-- **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
+- **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), [gap-may-seep](../clues/clues.md#gap-may-seep)
 - **Cost:** 1 action
-- **Outcome:** Scramble to the base of the plug and dig into it. From a distance the fill looks like loose rubble the water would run straight through; up close it is dense clay and shattered rock packed tight, impermeable. This settles only whether the plug leaks, not whether the water level can rise over it (that is the crest sill, which needs the climb). → Gives: [gap-fill-examined](../clues/clues.md#gap-fill-examined)
+- **Outcome:** Scramble to the base of the plug and dig into it. From a distance the fill looks like loose rubble the water would run straight through; up close it is dense clay and shattered rock packed tight, impermeable. This settles only whether the plug leaks, not whether the water level can rise over it (that is the crest sill, which needs the climb).
   - **Geology:** reads the fill directly and confirms it will not pass water at flood pressure.
+- **Gives:** [gap-fill-examined](../clues/clues.md#gap-fill-examined)
 
 ### Climb the plug
 - **Requires:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap); a climber, the rest of the party on the ground, and a rope for the killzone
-- **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
+- **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), [water-may-flow-over](../clues/clues.md#water-may-flow-over)
 - **Cost:** Free; the ascent resolves in its own scene
 - **Outcome:** The party sets up at the foot of the plug and goes for the crest. Play [Climb the Plug](../events/climb-the-plug.md).
 - **Gives:** Scene Unlock: [Climb the Plug](../events/climb-the-plug.md)
