@@ -22,7 +22,7 @@
 
 ## Opportunities
 
-- **Church condition** `(requires: Handiwork)` `(prompted by: [committee-visits-new-village](../clues/clues.md#committee-visits-new-village))` — The church has better repairs, supplies, and firewood than the village should afford. → Gives: [church-too-nice](../clues/clues.md#church-too-nice)
+- **Church condition** `(requires: Handiwork)` `(prompted by: aware:locations/new-village.md)` — The church has better repairs, supplies, and firewood than the village should afford. → Gives: [church-too-nice](../clues/clues.md#church-too-nice)
 
 ## Actions
 
@@ -61,3 +61,4 @@
 - **Cost:** 1 action
 - **Outcome:** Resolve at [The Rectory](the-rectory.md).
 - **Gives:** See [The Rectory](the-rectory.md).
+

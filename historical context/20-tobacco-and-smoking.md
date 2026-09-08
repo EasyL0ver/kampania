@@ -25,7 +25,7 @@ In the 1960s the Church ran no notable campaign against smoking and generally di
 The better the cigarette, the more it signalled wealth or access. Dearer and Western brands (sold through Pewex) were prestige objects. Availability of any brand fluctuated with rationing and shortages, so a man who always has the expensive pack is making a statement.
 
 - **Period brands (real):** the cheap and common **Sport** and **Popularne**, the stronger **Mocne**/**Extra Mocne**, and the pricier **Klubowe**, **Carmen**, **Karo**, **Dukaty**. Many were filterless.
-- **Campaign use:** [Carmen](../items/carmen-cigarette-butts.md) as the premium brand only two men openly buy ([Junior](../characters/junior.md), [Rezeń](../characters/butcher.md)) and [Sport](../clues/clues.md#tadek-smokes-cheapest) as [Tadek](../characters/wujas.md)'s cheap brand are both historically correct as a rich-versus-poor contrast.
+- **Campaign use:** [Carmen](../items/cigarette-butts-from-ciotkas.md) as the premium brand only two men openly buy ([Junior](../characters/junior.md), [Rezeń](../characters/butcher.md)) and [Sport](../clues/clues.md#tadek-smokes-cheapest) as [Tadek](../characters/wujas.md)'s cheap brand are both historically correct as a rich-versus-poor contrast.
 
 ## Plausibility Verdict For the Campaign
 

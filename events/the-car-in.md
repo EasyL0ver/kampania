@@ -33,7 +33,7 @@
 - **Prompted by:** [government-committee](../clues/clues.md#government-committee)
 - **Cost:** Free
 - **Outcome:** por. Witold Skowron names where they are headed: %NEW_VILLAGE%, the resettled village in the valley below the planned reservoir, and points out where the road drops toward it.
-- **Gives:** [`committee-visits-new-village`](../clues/clues.md#committee-visits-new-village)
+- **Gives:** aware:locations/new-village.md
 
 ### Listen to the briefing
 - **Requires:** Nothing
@@ -71,3 +71,4 @@
 ## Exits
 
 - Continue to [Arrival](arrival.md) in %NEW_VILLAGE%.
+

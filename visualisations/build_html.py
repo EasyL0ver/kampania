@@ -40,8 +40,18 @@ def build_payload() -> dict:
     def add_fact(cid: str):
         nid = f"clue:{cid}"
         if nid not in nodes:
-            nodes[nid] = {"id": nid, "label": cid, "kind": "clue",
-                          "desc": g.clues.get(cid, ""), "location": ""}
+            if cid.startswith("awareness:"):
+                relpath = cid.split(":", 1)[1]
+                folder = Path(relpath).parent.name
+                scat = {"characters": "character", "locations": "location",
+                        "events": "event", "items": "item"}.get(folder, "other")
+                title = g.scenes[relpath].title if relpath in g.scenes else relpath
+                nodes[nid] = {"id": nid, "label": title, "kind": "scene",
+                              "catg": "scene", "scat": scat,
+                              "desc": g.clues.get(cid, ""), "location": ""}
+            else:
+                nodes[nid] = {"id": nid, "label": cid, "kind": "clue",
+                              "desc": g.clues.get(cid, ""), "location": ""}
         return nid
 
     def add_known(npc: str, cid: str):
@@ -106,12 +116,14 @@ def build_payload() -> dict:
         target_ids = [add_fact(val) if kind == "clue" else add_known(*val)
                       for kind, val in outputs]
         for sid, rel in source_ids:
-            if n.kind == "opportunity":
+            if rel == "hard":
+                estyle = "hard"
+            elif n.kind == "opportunity":
                 estyle = "opp"
             elif n.kind == "synthesis":
                 estyle = "synth"
             else:
-                estyle = rel  # hard=solid / soft=dashed
+                estyle = rel  # soft=dashed
             for tgt in target_ids:
                 if sid == tgt:
                     continue
@@ -124,7 +136,7 @@ def build_payload() -> dict:
     for l in links:
         incoming[l["target"]] = incoming.get(l["target"], 0) + 1
     orphan_facts = [n["label"] for nid, n in nodes.items()
-                    if n["kind"] == "clue" and incoming.get(nid, 0) == 0]
+                    if n["kind"] in ("clue", "scene") and incoming.get(nid, 0) == 0]
 
     return {
         "nodes": list(nodes.values()),
@@ -206,6 +218,7 @@ const TYPE = {
   clue:       {color:"#6ea8fe", shape:"circle",   label:"fact clue"},
   orphan:     {color:"#8b6f4a", shape:"circle",   label:"orphan clue"},
   known:      {color:"#e6b34d", shape:"circle",   label:"clue (NPC knows)"},
+  scene:      {color:"#b08bd8", shape:"diamond",  label:"awareness (entity exists)"},
   move:       {color:"#7d8695", shape:"dot",      label:"move (join / split)"},
 };
 // scene file category (kept for node fill tint of move helpers is by skill; scat only in tooltip)
@@ -222,7 +235,7 @@ const SKILL = {
 };
 const NOSKILL="#5b6472";
 function skillColor(s){ return SKILL[s] || NOSKILL; }
-function typeOf(n){ if(n.kind==="move") return "move"; if(n.kind==="known") return "known"; if(n.kind==="clue") return orphan.has(n.label)?"orphan":"clue"; return n.catg; }
+function typeOf(n){ if(n.kind==="move") return "move"; if(n.kind==="known") return "known"; if(n.kind==="scene") return "scene"; if(n.kind==="clue") return orphan.has(n.label)?"orphan":"clue"; return n.catg; }
 function makeShape(t, s){
   const c=TYPE[t]||TYPE.clue; const NS=NSx; let e;
   if(c.shape==="circle"){ e=document.createElementNS(NS,"circle"); e.setAttribute("r",9*s); }
@@ -415,7 +428,7 @@ function showEdgeTip(l,e){
 function moveTip(e){ tip.style.left=(e.clientX-320+16)+"px"; tip.style.top=(e.clientY+14)+"px"; }
 function hideTip(){ tip.style.display="none"; }
 
-const items=nodes.filter(n=>n.kind==="clue"||n.kind==="known")
+const items=nodes.filter(n=>n.kind==="clue"||n.kind==="known"||n.kind==="scene")
   .sort((a,b)=> (a.kind===b.kind? a.label.localeCompare(b.label) : (a.kind==="known"?1:-1)));
 const listEl=document.getElementById("list");
 function renderList(f){
@@ -436,7 +449,7 @@ document.getElementById("stats").textContent=`${c.facts} facts · ${c.known} kno
 // legend
 (function(){
   const box=document.getElementById("legend");
-  const order=["clue","orphan","known"];
+  const order=["clue","orphan","known","scene"];
   order.forEach(t=>{
     const sp=document.createElement("span");
     const svgi=document.createElementNS(NSx,"svg"); svgi.setAttribute("width",16); svgi.setAttribute("height",16); svgi.style.verticalAlign="middle"; svgi.style.marginRight="4px";

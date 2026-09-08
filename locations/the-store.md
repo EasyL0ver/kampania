@@ -31,7 +31,7 @@
 
 - **Ryszard Dudka's nervousness** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek and Empathy)` — Dudka drinks too fast and shuts down when the past comes up. → Gives: [neighbour-is-rattled](../clues/clues.md#neighbour-is-rattled)
 - **Crew gossip about Foreman** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek)` — The crew grumbles that the PGR's books don't add up — pay going to people who aren't around. → Gives: [pgr-books-are-sketchy](../clues/clues.md#pgr-books-are-sketchy)
-- **Junior joins the crew** `(requires: [Marek Gajda](../characters/junior.md) present, or [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek if he is not)` `(prompted by: [committee-visits-new-village](../clues/clues.md#committee-visits-new-village))` — Present, Marek sits plainly among the crew on the benches, away from his father; absent, the crew mention the sołtys's son who drinks with them. → Gives: [junior-drinks-with-crew](../clues/clues.md#junior-drinks-with-crew)
+- **Junior joins the crew** `(requires: [Marek Gajda](../characters/junior.md) present, or [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek if he is not)` `(prompted by: aware:locations/new-village.md)` — Present, Marek sits plainly among the crew on the benches, away from his father; absent, the crew mention the sołtys's son who drinks with them. → Gives: [junior-drinks-with-crew](../clues/clues.md#junior-drinks-with-crew)
 - **Junior brags about the pistol** `(requires: Physique)` `(prompted by: [junior-drinks-with-crew](../clues/clues.md#junior-drinks-with-crew))` — Drinking with the crew, Marek puffs up and talks about the gun in his father's office desk. → Gives: [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
 - **Old floods on the benches** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek, or Empathy)` `(prompted by: [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain))` — The old men remember the bad floods. The dry streambed on the far ridge never carried any of it off; the water just pooled against the rock and stopped. → Gives: [streambed-never-drained](../clues/clues.md#streambed-never-drained)
 
@@ -40,7 +40,7 @@
 ### Buy cigarettes
 - **Requires:** —
 - **Cost:** Free
-- **Outcome:** Halina sells a pack across the counter: cheap [Sport](../clues/clues.md#tadek-smokes-cheapest) off the shelf, or premium [Carmen](../items/carmen-cigarette-butts.md) if you ask. A pack lasts one day; keeping one on you is [Chainsmoker](../story-facts/game-system.md#the-cards) upkeep.
+- **Outcome:** Halina sells a pack across the counter: cheap [Sport](../clues/clues.md#tadek-smokes-cheapest) off the shelf, or premium [Carmen](../items/cigarette-butts-from-ciotkas.md) if you ask. A pack lasts one day; keeping one on you is [Chainsmoker](../story-facts/game-system.md#the-cards) upkeep.
 - **Gives:** Item / Evidence: a pack of Sport or Carmen (one day's supply).
 
 ### Buy rope
@@ -49,7 +49,15 @@
 - **Outcome:** Halina sells a coil of field line off the shelf, mixed lengths knotted serviceable, long enough for the ridge climb.
 - **Gives:** Item: a [rope](../items/rope.md).
 
+### Ask who smokes Carmen
+- **Requires:** Holding the butts; **Speech** or **Finesse**
+- **Prompted by:** [butts-at-ciotkas-are-carmen](../clues/clues.md#butts-at-ciotkas-are-carmen)
+- **Cost:** 1 action
+- **Outcome:** Nobody in the village wastes money on Carmen except two men: the Gajda boy [Marek](../characters/junior.md), who buys what marks him as above the place, and the butcher [Stanisław Rezeń](../characters/butcher.md), who buys what he pleases. The brand narrows the door to the pair of them, and clears no one.
+- **Gives:** [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen); [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen)
+
 <!-- If bonded with Halina, [Ask who smokes what](../characters/secondary-characters.md#ask-who-smokes-what) is her counter action — she knows every villager's brand. -->
 
 <!-- Drinking with the crew is a crew action — see [Tadek Gajda's Drinking Circle](../characters/secondary-characters.md#actions--drink-with-the-crew). -->
+
 

@@ -35,7 +35,7 @@
 ### Search Edek's room
 - **Requires:** Janina absent or distracted; a thorough search (**Finesse**)
 - **Cost:** 1 action
-- **Outcome:** Only a real search of the room turns it up: tucked away like a treasure among the boy's few things, a single unsmoked cigarette. Edek does not smoke, so it was a gift. Its brand and meaning become clear when [compared with the butts from the door](../items/carmen-cigarette-butts.md#compare-with-the-cigarette-in-edeks-room). [Ryszard Dudka](../characters/neighbour.md) is right across the road; a search risks him seeing them at it.
+- **Outcome:** Only a real search of the room turns it up: tucked away like a treasure among the boy's few things, a single unsmoked cigarette. Edek does not smoke, so it was a gift. Its brand and meaning become clear when [compared with the butts from the door](../items/cigarette-butts-from-ciotkas.md#compare-with-the-cigarette-in-edeks-room). [Ryszard Dudka](../characters/neighbour.md) is right across the road; a search risks him seeing them at it.
 - **Gives:** Item / Evidence: a single unsmoked cigarette from Edek's room. If Dudka notices the search: +1 [Noise](../events/ciotka-found-dead.md#noise).
 
 ### Dig in the backyard

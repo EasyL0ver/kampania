@@ -18,7 +18,7 @@
 
 ## Opportunities
 
-- **Janina's empty pew** `(requires: Devotion)` — Janina Gajda's absence is the only gap in a full church, and the priest keeps looking at it.
+- **Janina's empty pew** `(requires: Devotion and [ciotka-is-devout](../clues/clues.md#ciotka-is-devout))` `(prompted by: [ciotka-lives-in-village](../clues/clues.md#ciotka-lives-in-village))` — Janina Gajda's absence is the only gap in a full church, and the priest keeps looking at it. → Gives: [`ciotka-missed-mass`](../clues/clues.md#ciotka-missed-mass)
 - **The sermon target** `(requires: Devotion)` — the priest's general call to confession is aimed at particular people in the pews, not only at the village as a whole. → Gives: [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
 
 ## Actions

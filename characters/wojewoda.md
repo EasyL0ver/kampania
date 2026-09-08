@@ -67,6 +67,13 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **Outcome:** He gives the whole household's details himself.
 - **Gives:** Census data — Zbigniew, [Irena](wife.md), [Marek](junior.md).
 
+### Ask for the village household roster
+- **Requires:** Committee authority
+- **Prompted by:** [committee-fills-census](../clues/clues.md#committee-fills-census)
+- **Cost:** 1 action
+- **Outcome:** As the committee's point of contact, he runs down who lives where. Among the households he names his sister [Janina Gajda](ciotka.md), the widow who keeps the best house at the edge of the village and cares for the boy, living apart from the rest.
+- **Gives:** aware:characters/ciotka.md
+
 ### Property assessment
 - **Requires:** Committee authority
 - **Cost:** 1 action
@@ -145,3 +152,4 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - [ ] Challenge his authority in front of another villager.
 - [ ] Go to a villager with questions after he explicitly told you not to.
 - [ ] Ask about or threaten his family's involvement in the old violence.
+

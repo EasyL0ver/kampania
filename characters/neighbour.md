@@ -126,6 +126,13 @@ While Humiliated:
 - **Outcome:** He laughs and says Janina is not the boy's mother. She moved in after them, and the boy was already there.
 - **Gives:** [ciotka-not-mother](../clues/clues.md#ciotka-not-mother)
 
+### Ask about Ciotka's visitors
+- **Requires:** He liked the players; they ask who came to Janina's house before she died
+- **Prompted by:** [ciotka-had-a-visitor](../clues/clues.md#ciotka-had-a-visitor)
+- **Cost:** Free
+- **Outcome:** He says the day before she died, the Wojewoda's boy came and the two of them fought. He heard the raised voices carry over the fence.
+- **Gives:** [junior-pressed-ciotka](../clues/clues.md#junior-pressed-ciotka)
+
 ### Uplift Ryszard
 - **Requires:** [Humiliated](#humiliated)
 - **Cost:** Free

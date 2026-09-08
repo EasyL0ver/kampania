@@ -66,7 +66,7 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 
 ### Ask about the village
 - **Requires:** Any visit
-- **Prompted by:** [committee-visits-new-village](../clues/clues.md#committee-visits-new-village)
+- **Prompted by:** aware:locations/new-village.md
 - **Cost:** Free
 - **Outcome:** Barbara gives a generous social map: [Zbigniew Gajda](wojewoda.md) has the phone, the Gajda siblings keep the church supplied, [Ryszard Dudka](neighbour.md) helps her, [Michał Pytlak](foreman.md) is busy, and the old village is not somewhere people go. Every answer comes with a friendly question back.
 - **Gives:** [`wojewoda-has-only-phone`](../clues/clues.md#wojewoda-has-only-phone), [`siblings-fund-the-church`](../clues/clues.md#siblings-fund-the-church)
@@ -83,3 +83,4 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 - [ ] Help with [Pawełek Kopacz](pawelek.md) in a practical way.
 - [ ] Bring something small and kind for [Pawełek Kopacz](pawelek.md).
 - [ ] Sit and talk with her about ordinary life before asking investigative questions.
+

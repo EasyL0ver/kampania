@@ -30,7 +30,7 @@
 
 ### Listen to Wojewoda's welcome
 - **Requires:** Nothing
-- **Prompted by:** [committee-visits-new-village](../clues/clues.md#committee-visits-new-village)
+- **Prompted by:** aware:locations/new-village.md
 - **Cost:** Free
 - **Outcome:** He plays the gracious host: he is the committee's point of contact, and the heavy phone on his desk is the only line for miles, so anything the village or the committee needs runs through him.
 - **Gives:** [`wojewoda-has-only-phone`](../clues/clues.md#wojewoda-has-only-phone)
@@ -45,3 +45,4 @@
 
 - Stay at [Zbigniew Gajda's house](../locations/wojewodas-house.md) for official introductions.
 - Continue to [Dinner at Wojewoda's](dinner.md) if the committee accepts hospitality.
+

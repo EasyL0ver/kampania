@@ -261,14 +261,26 @@ From the first night in the village, the players have dreams of violence — han
 ### babcia-hears-singing
 [Stefania Kopacz](../characters/babcia.md) has heard [Paraskewia Chyłak](../characters/hag.md)'s Lemko prayers carried on the wind at night. She will notice when the singing stops.
 
+### ciotka-is-devout
+[Janina Gajda](../characters/ciotka.md) is deeply, genuinely religious. Her rosary is worn to the string and she prays reflexively, alone, unperformed. She carries her faith like penance.
+
 ### ciotka-is-dead
 [Janina Gajda](../characters/ciotka.md) is dead. Her body lies on her kitchen floor.
 
-### ciotka-overdose
-[Janina Gajda](../characters/ciotka.md) died from an overdose of her own sedative pills (Luminal), the nerve-and-sleep medicine she had taken for years. The overdose, not any injury, is what killed her. Whether she took the dose on purpose or miscounted cannot be told from the scene. [Edek Barnaś](../characters/glupek.md) is gone, fled into the forest. **Conditional:** Only exists after players discover the body.
+### ciotka-missed-mass
+[Janina Gajda](../characters/ciotka.md) was absent from the anti-flood mass. She is devout and never misses a service; her empty place is unheard of.
+
+### ciotka-was-killed
+[Janina Gajda](../characters/ciotka.md) was murdered. Someone laid hands on her, wrecked the room in a struggle, and left her dead on the floor.
+
+### ciotka-committed-suicide
+[Janina Gajda](../characters/ciotka.md) took her own life. Alone and cornered, she swallowed a fatal dose of her own sedative.
 
 ### ciotka-hurt-before-death
 [Janina Gajda](../characters/ciotka.md) was gripped hard by a large, strong hand shortly before she died. A fresh bruise rings her wrist, made while she was still alive. The grip did not kill her, but someone laid hands on her in her last hours.
+
+### ciotka-house-wrecked
+One corner of [Janina Gajda](../characters/ciotka.md)'s otherwise obsessively ordered house is smashed: furniture toppled, a shelf torn down, crockery broken across the floor, and a mirror shattered in the corridor. It reads like a violent struggle.
 
 ### two-coffee-cups
 Two used coffee cups sit on [Janina Gajda](../characters/ciotka.md)'s table. Someone drank coffee with her shortly before she died.
@@ -301,6 +313,9 @@ Large bare footprints lead from [Janina Gajda](../characters/ciotka.md)'s house 
 ### ciotka-told-edek-the-truth
 Before she died, [Janina Gajda](../characters/ciotka.md) told [Edek Barnaś](../characters/glupek.md) the truth: the people of this village killed his father [Edward Barnaś](../characters/soldier.md), and Edek is the living proof. The reveal broke him.
 
+### butts-at-ciotkas-are-carmen
+The cigarette butts from [Janina Gajda](../characters/ciotka.md)'s door are Carmen, a premium brand rarely seen this far out.
+
 ### junior-smokes-carmen
 [Marek Gajda](../characters/junior.md) smokes Carmen, a premium brand.
 
@@ -324,6 +339,22 @@ The Carmen butts from [Janina Gajda](../characters/ciotka.md)'s door and the Car
 
 ### priest-smokes-carmen
 [ks. Władysław Pająk](../characters/priest.md) secretly smokes Carmen, the same premium brand as Junior and Rezeń. He hides the habit.
+
+### junior-lingered-at-ciotkas-house
+The Carmen butts at [Janina Gajda](../characters/ciotka.md)'s door match [Marek Gajda](../characters/junior.md)'s brand. He was at her house shortly before she died.
+**Synthesis:** junior-smokes-carmen + butts-at-ciotkas-are-carmen
+
+### rezen-lingered-at-ciotkas-house
+The Carmen butts at [Janina Gajda](../characters/ciotka.md)'s door match [Stanisław Rezeń](../characters/butcher.md)'s brand. He was at her house shortly before she died.
+**Synthesis:** butcher-smokes-carmen + butts-at-ciotkas-are-carmen
+
+### priest-lingered-at-ciotkas-house
+The Carmen butts at [Janina Gajda](../characters/ciotka.md)'s door match [ks. Władysław Pająk](../characters/priest.md)'s brand. He was at her house shortly before she died.
+**Synthesis:** priest-smokes-carmen + butts-at-ciotkas-are-carmen
+
+### glupek-smokes
+A Carmen cigarette hides in [Edek Barnaś](../characters/glupek.md)'s corner and Carmen butts litter the door: it looks like Edek is the smoker. False lead. The butts were [Marek Gajda](../characters/junior.md)'s and the cigarette was a gift; Edek does not smoke.
+**Synthesis:** edek-has-carmen-cigarette + butts-at-ciotkas-are-carmen
 
 ### glupek-drawn-to-well
 [Edek Barnaś](../characters/glupek.md) is physically drawn toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) and the well. At the well he becomes still — something in him recognises the place.
@@ -582,9 +613,6 @@ The players can call [Professor](../characters/secondary-characters.md) by phone
 ### government-committee
 The player characters are a state committee sent to %NEW_VILLAGE% ahead of the reservoir, tasked with a census, a property assessment for flood damage, and a geographical survey of the valley. It is the frame the whole visit hangs on: the reason outsiders can measure land, enter homes, and ask questions at all.
 
-### committee-visits-new-village
-The committee's destination is %NEW_VILLAGE%, the postwar resettlement in the valley below the planned reservoir. [por. Witold Skowron](../characters/officer.md) names it on the drive in: where they are going, and where the whole visit takes place.
-
 ### committee-runs-geographical-survey
 The committee's stated purpose in the village is a geographical survey — terrain, river, boundaries. It's the cover that explains why outsiders are measuring the land.
 
@@ -716,3 +744,5 @@ The UPA bunker in the [forest](../locations/old-village-ruins.md) contains old p
 
 ### spirits-are-restless
 The dead here were not buried right. Something is unquiet. Not evidence, not testimony — a feeling grounded in Lemko tradition. The mirrors need covering, the prayers need saying, the dead need tending.
+
+

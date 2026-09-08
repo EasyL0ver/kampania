@@ -49,8 +49,9 @@
 ## Opportunities
 
 - **She is dead** `(requires: Enter the kitchen)` — [Janina Gajda](../characters/ciotka.md) lies on the floor, eyes open, candles long out. She is dead. → Gives: [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
-- **The two cups** `(requires: Enter the kitchen)` — Two used coffee cups sit on the table. She was not alone the day before; someone sat and drank with her. → Gives: [`two-coffee-cups`](../clues/clues.md#two-coffee-cups)
-- **The cigarette butts** `(requires: Chainsmoker)` — Some cigarette butts lie just outside the door.
+- **The two cups** `(requires: Enter the kitchen)` `(prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead))` — Two used coffee cups sit on the table. She was not alone the day before; someone sat and drank with her. → Gives: [`two-coffee-cups`](../clues/clues.md#two-coffee-cups)
+- **The wrecked corner** `(requires: entering the house)` `(prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead))` — One corner of the obsessively ordered house is smashed: toppled furniture, a torn-down shelf, crockery across the floor, a shattered mirror in the corridor. It reads like a violent struggle. → Gives: [`ciotka-house-wrecked`](../clues/clues.md#ciotka-house-wrecked)
+- **The cigarette butts** `(requires: entering the house)` `(prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead))` — Some cigarette butts lie just outside the door, hand-pinched and rain-weathered, dropped a day or more before she died. You cannot tell the brand at a glance, but bagged they could be compared.
 - **Read the room** `(requires: Finesse)` — This is a death the village has not found yet. Get caught here and you look like the killer. Keep it quiet.
 - **Keep it quiet for now** `(requires: Bureaucracy or Violence)` — Once the village knows, the committee loses control of the scene: a crowd, grief, a hunt for someone to blame, and no room left to investigate. Better to sit on the death a while and work first.
 - **Examine her properly** `(requires: Medicine)` — A real examination is impossible through her clothes. Her body would have to be undressed first.
@@ -67,6 +68,7 @@
 
 ### Undress the body
 - **Requires:** Entering the kitchen (see [Enter the kitchen](#enter-the-kitchen))
+- **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 composure
 - **Outcome:** They strip the dead woman on her own kitchen floor to get at what her clothes hide. If anyone walks in while she is undressed, the committee is caught stripping a dead old woman: a scandal that turns the village against them.
 - **Gives:** World State Change: the body is undressed.
@@ -80,6 +82,7 @@
 
 ### Search the house
 - **Requires:** Nothing
+- **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 action
 - **Outcome:** With Janina dead and the door unlocked, the house is theirs to go through. The backyard, icons, and [Edek Barnaś](../characters/glupek.md)'s room remain as described in [Ciotka's house](../locations/ciotkas-house.md); the shut attic can now be opened without her in the way.
 - **Gives:** Scene Unlock: [Ciotka's house actions](../locations/ciotkas-house.md#actions) remain available in the context of the death.
@@ -100,36 +103,42 @@
 
 ### Open the attic with the key
 - **Requires:** The [attic key](#search-the-purse)
+- **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 action
 - **Outcome:** The key turns and the hatch lifts quietly. It is the one part of the house Janina guarded.
 - **Gives:** World State Change: the attic is open.
 
 ### Force the attic
 - **Requires:** Force the locked hatch (**Handiwork**, **Violence**, or **Physique**)
+- **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 action
 - **Outcome:** The players break the locked hatch open. It is loud, splintered wood and a scene the neighbours can hear.
 - **Gives:** World State Change: the attic is open. +2 [Noise](#noise).
 
 ### Search the pile of rubbish
 - **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))
+- **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 action
 - **Outcome:** A box in the rubbish is marked "EDEK" and reads at a glance like the boy's things. It is not: the belongings are a grown man's, wrong size and wrong age for [Edek Barnaś](../characters/glupek.md). Edward Barnaś went by Edek too.
 - **Gives:** Item / Evidence: the box marked "EDEK" of a grown man's belongings.
 
 ### Open the wardrobe
 - **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))
+- **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 action
 - **Outcome:** Inside the big wardrobe, a teenage girl's dress, folded and kept. A girl that age lived in this house once.
 - **Gives:** [girls-dress-in-ciotkas-house](../clues/clues.md#girls-dress-in-ciotkas-house)
 
 ### Examine the child's rattle
 - **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))
+- **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 action
 - **Outcome:** A small child's rattle, kept with the rest. A baby lived in this house once.
 - **Gives:** [childs-rattle-in-ciotkas-house](../clues/clues.md#childs-rattle-in-ciotkas-house)
 
 ### Take down the bell
 - **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))
+- **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 action
 - **Outcome:** A small brass Greek Catholic liturgical bell with Cyrillic lettering sits high up, out of place in a Roman Catholic home. Reaching it knocks it loose and it falls, ringing and clattering.
 - **Gives:** Item / Evidence: [Lemko Bell](../items/lemko-bell.md) + [lemko-bell-in-ciotkas-house](../clues/clues.md#lemko-bell-in-ciotkas-house). +3 [Noise](#noise).
@@ -142,9 +151,10 @@
 
 ### Search outside the house
 - **Requires:** Go outside and search the mud.
+- **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 action
 - **Outcome:** Cigarette butts lie scattered by the door. Large bare footprints run from the house toward the tree line and fade where the canopy starts.
-- **Gives:** Item / Evidence: [Carmen Cigarette Butts](../items/carmen-cigarette-butts.md) + [`glupek-fled-into-forest`](../clues/clues.md#glupek-fled-into-forest). +1 [Noise](#noise).
+- **Gives:** Item / Evidence: [Carmen Cigarette Butts](../items/cigarette-butts-from-ciotkas.md) + [`glupek-fled-into-forest`](../clues/clues.md#glupek-fled-into-forest). +1 [Noise](#noise).
 
 ### Report the death
 - **Requires:** Nothing
@@ -155,6 +165,7 @@
 
 ### Talk Dudka down
 - **Requires:** [Dudka has barged in](#noise); **Speech**, **Finesse**, or **Devotion**
+- **Prompted by:** [`neighbour-has-rifle`](../clues/clues.md#neighbour-has-rifle)
 - **Cost:** 1 composure
 - **Outcome:** They convince him this is a real committee investigation, not what it looks like. Speech calms him, Finesse reads that he is frightened rather than dangerous and works that, Devotion reaches the guilt he carries. He lowers the rifle. Do not pull rank on him; treating him as government muscle or a suspect is the wrong lever and hardens him. Fail, and he reads them as the killers standing over the body and raises the alarm in the village.
 - **Gives:** NPC State Change: Dudka stands down.

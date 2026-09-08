@@ -28,6 +28,7 @@ A cigarette is usually between his lips or behind his ear. His studied cool drop
 - **[Tadek Gajda](secondary-characters.md)** — He drinks, talks, and forgets what he said. I do not like using him, but Mother needs answers.
 - **[Helena Rzepka](matrona.md)** — I avoid being alone with her. She watches too closely.
 - **[Janina Gajda](ciotka.md)** — She was kind to me when I was small. I do not understand why she lives apart from everyone.
+- **Being accused of pressing Ciotka** — He flares up: the players are not police, they have no right to question him, and he did nothing.
 - **[Barbara Kopacz](barbara.md)** — She is the only good thing here. With her, I stop being a Gajda for a while.
 - **Smoking** — Carmen is the one thing I let myself have, the one thing that is not this valley. Sport is what the drunks burn through; I am not going to reek like Tadek.
 - **`wujas-is-guilty`:** Do not make him into a monster before I know what happened. But if he is guilty, I need the rest.

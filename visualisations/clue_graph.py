@@ -61,7 +61,16 @@ FIELD = re.compile(r"\*\*(Requires|Prompted by|Cost|Outcome|Gives):\*\*\s*(.*)")
 OPP_NAME = re.compile(r"^\s*-\s*\*\*(.+?)\*\*")
 REQ_TAG = re.compile(r"\(requires:\s*(.*?)\)\s*`", re.IGNORECASE)
 PROMPT_TAG = re.compile(r"\(prompted by:\s*(.*?)\)\s*`", re.IGNORECASE)
+# "aware:<repo-relative-path>.md" is an awareness token: the existence of a
+# scene entity (character/item/location/event). It behaves as a pseudo-clue
+# whose node id is "awareness:<relpath>". Usable in Requires (hard gate),
+# Prompted by (soft breadcrumb) and Gives (grants the awareness).
+AWARE_REF = re.compile(r"aware:([A-Za-z0-9/_.-]+\.md)")
 SECTION_NAMES = {"opportunities", "actions"}
+
+
+def _aware_id(relpath: str) -> str:
+    return "awareness:" + relpath.strip().replace("\\", "/")
 
 
 # --------------------------------------------------------------------------
@@ -293,14 +302,17 @@ def _parse_opportunity(line: str, rel: str, title: str) -> Node | None:
         node.requires_known = [[npc, c] for npc, c in KNOWN_REQ.findall(node.requires_raw)]
         known_c = {c for _, c in node.requires_known}
         node.requires_clues = sorted(set(CLUE_REF.findall(node.requires_raw)) - known_c)
+        node.requires_clues += sorted({_aware_id(p) for p in AWARE_REF.findall(node.requires_raw)})
     prm = PROMPT_TAG.search(line)
     if prm:
         node.prompted_by_clues = sorted(set(CLUE_REF.findall(prm.group(1))))
+        node.prompted_by_clues += sorted({_aware_id(p) for p in AWARE_REF.findall(prm.group(1))})
     gives = line.split("Gives:", 1)[1] if "Gives:" in line else ""
     node.gives_known = parse_gives_known(gives, rel)
     learned_c = {c for _, c in node.gives_known}
     gives_clean = re.sub(r"NPC Learns:.*?(?:;|$)", "", gives)
     node.gives_clues = sorted(set(CLUE_REF.findall(gives_clean)) - learned_c)
+    node.gives_clues += sorted({_aware_id(p) for p in AWARE_REF.findall(gives_clean)})
     return node
 
 
@@ -325,8 +337,9 @@ def _parse_action_block(htitle: str, body: list[str], rel: str, title: str) -> N
     learned_c = {c for _, c in gives_known}
     gives_clean = re.sub(r"NPC Learns:.*?(?:;|$)", "", gives_text)
     gives_clues = sorted(set(CLUE_REF.findall(gives_clean)) - learned_c)
+    gives_aware = sorted({_aware_id(p) for p in AWARE_REF.findall(gives_clean)})
     gives_other = [kw for kw in OUTCOME_KEYWORDS if kw in gives_text]
-    if not gives_clues and not gives_known and not gives_other:
+    if not gives_clues and not gives_known and not gives_other and not gives_aware:
         return None
 
     node = Node(
@@ -338,10 +351,13 @@ def _parse_action_block(htitle: str, body: list[str], rel: str, title: str) -> N
     node.requires_known = [[npc, c] for npc, c in KNOWN_REQ.findall(node.requires_raw)]
     known_c = {c for _, c in node.requires_known}
     node.requires_clues = sorted(set(CLUE_REF.findall(node.requires_raw)) - known_c)
-    node.prompted_by_clues = sorted(set(CLUE_REF.findall(" ".join(prompt_lines))))
+    node.requires_clues += sorted({_aware_id(p) for p in AWARE_REF.findall(node.requires_raw)})
+    prompt_text = " ".join(prompt_lines)
+    node.prompted_by_clues = sorted(set(CLUE_REF.findall(prompt_text)))
+    node.prompted_by_clues += sorted({_aware_id(p) for p in AWARE_REF.findall(prompt_text)})
     node.branch_skills = sorted(set(extract_skills(" ".join(out_lines))) - set(node.requires_skills))
     node.cost = " ".join(cost_lines).strip()
-    node.gives_clues = gives_clues
+    node.gives_clues = gives_clues + gives_aware
     node.gives_known = gives_known
     node.gives_other = gives_other
     if "Scene Unlock" in gives_text:
@@ -393,6 +409,16 @@ def build_graph() -> Graph:
             for npc, cid in n.gives_known:
                 g.known_givers.setdefault(f"{npc}: {cid}", []).append(n.id)
 
+    # Awareness pseudo-clues: the existence of a scene entity. Register every
+    # referenced one so trace/validate treat it as a known node; its givers are
+    # already collected above (a move that Gives: aware:<path>).
+    for n in g.nodes.values():
+        for aid in set(n.requires_clues) | set(n.prompted_by_clues) | set(n.gives_clues):
+            if aid.startswith("awareness:") and aid not in g.clues:
+                relpath = aid.split(":", 1)[1]
+                title = g.scenes[relpath].title if relpath in g.scenes else relpath
+                g.clues[aid] = f"awareness: {title}"
+
     # Synthesis: a clue derived from holding other clues, in no particular scene.
     # Each route becomes a virtual giver node whose requires_clues AND together.
     for cid, routes in parse_synthesis().items():
@@ -421,6 +447,12 @@ def validate(g: Graph) -> dict:
         referenced |= set(n.gives_clues) | set(n.requires_clues)
         ref_known |= {c for _, c in n.gives_known} | {c for _, c in n.requires_known}
     dangling = sorted((referenced | ref_known) - set(g.clues))  # linked but not defined
+    aware_missing = sorted({
+        aid for n in g.nodes.values()
+        for aid in (set(n.requires_clues) | set(n.prompted_by_clues) | set(n.gives_clues))
+        if aid.startswith("awareness:") and aid.split(":", 1)[1] not in g.scenes
+    })
+    dangling = sorted(set(dangling) | set(aware_missing))
     orphans = sorted(c for c in g.clues if c not in g.givers)  # no giver
     return {"dangling": dangling, "orphans": orphans, "referenced": referenced}
 
