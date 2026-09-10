@@ -26,7 +26,7 @@
 ## Opportunities
 
 - **Worker count mismatch** `(requires: Bureaucracy)` — One ledger name does not match any worker present or recognized on the farm. → Gives: [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent)
-- **Wolf damage** `(requires: Handiwork)` — The livestock pens show repeated wolf attacks over several weeks. → Gives: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock)
+- **Wolf damage** `(requires: Handiwork)` `(prompted by: aware:locations/pgr-farm.md)` — The livestock pens show repeated wolf attacks over several weeks. → Gives: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock)
 
 ## Actions
 
@@ -73,6 +73,7 @@
 
 ### Report wolf damage
 - **Requires:** Day 1+ and wolf damage visible
+- **Prompted by:** aware:locations/pgr-farm.md
 - **Cost:** Free for inspection; 1 action to join the hunt
 - **Outcome:** Michał shows dead sheep, patched fences, and tracks.
 - **Gives:** [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock); Scene Unlock: [The Wolf Attack](../events/wolf-attack.md); Scene Unlock: [The Hunt with Rezeń](../events/hunt-with-rezen.md); Scene Unlock: [The Hunt with Dudka](../events/hunt-with-dudka.md)

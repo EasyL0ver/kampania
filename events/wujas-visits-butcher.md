@@ -39,6 +39,7 @@
 
 ### Observe the final visit
 - **Requires:** Day 1–2, before the wolf authorization finishes
+- **Prompted by:** [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt)
 - **Cost:** 1 action
 - **Outcome:** Tadek carries Zbigniew's real request to Rezeń: deal with the wolves. Rezeń treats the request as a call back into the village.
 - **Gives:** [`rezen-hunts-wolves`](../clues/clues.md#rezen-hunts-wolves); World State Change: the containment arrangement ends

@@ -36,9 +36,9 @@
 - **Gajda at the fence** `(requires: Empathy)` — he is bracing to authorize the thing he avoided for thirteen years.
 - **Dudka taking blame** `(requires: Empathy)` — the humiliation is less important than who will replace him.
 - **Dudka alone after** `(requires: Speech)` — his failure is real and his fear of Rezeń is older than the wolves.
-- **Workers muttering** `(requires: Finesse)` — workers say Dudka has failed for weeks and that the other hunter is good with a knife. → Gives: [`dudka-failed-wolf-hunt`](../clues/clues.md#dudka-failed-wolf-hunt)
-- **Workers blame the hag** `(requires: Finesse or Culture)` — workers connect the wolf attacks to fires and chanting in the ruins. → Gives: [`hag-blamed-for-wolves`](../clues/clues.md#hag-blamed-for-wolves)
-- **Fence condition after repairs** `(requires: Reinforce the farm and Handiwork)` — the fence was rotten before the rains and the wolves used an existing weakness. → Gives: [`pgr-underfunded-fences`](../clues/clues.md#pgr-underfunded-fences)
+- **Workers muttering** `(requires: Finesse)` `(prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock))` — workers say Dudka has failed for weeks and that the other hunter is good with a knife. → Gives: [`dudka-failed-wolf-hunt`](../clues/clues.md#dudka-failed-wolf-hunt)
+- **Workers blame the hag** `(requires: Finesse or Culture)` `(prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock))` — workers connect the wolf attacks to fires and chanting in the ruins. → Gives: [`hag-blamed-for-wolves`](../clues/clues.md#hag-blamed-for-wolves)
+- **Fence condition after repairs** `(requires: Reinforce the farm and Handiwork)` `(prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock))` — the fence was rotten before the rains and the wolves used an existing weakness. → Gives: [`pgr-underfunded-fences`](../clues/clues.md#pgr-underfunded-fences)
 
 ## Actions
 

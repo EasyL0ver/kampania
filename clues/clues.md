@@ -667,12 +667,6 @@ Wolves have been killing [PGR](../locations/pgr-farm.md) livestock for weeks. Th
 ### rezen-mocks-an-old-failure
 Taunting [Ryszard Dudka](../characters/neighbour.md), [Stanisław Rezeń](../characters/butcher.md) lets slip *"you didn't stop me then"* — implying there was a past occasion when Rezeń did something and Dudka failed to stop him. He never says what or when. Both men clearly remember it.
 
-### butcher-knows-forest-intimately
-Stanisław Rezeń knows the forest paths with unnatural intimacy — every trail, every clearing. How does a village outcast know the wilderness this well?
-
-### dudka-knows-the-forest
-Ryszard Dudka has forest knowledge he shouldn't have — and he's furious about Rezeń being authorized to lead the hunt. His anger is personal, not practical.
-
 ### pgr-underfunded-fences
 The PGR's fences and livestock infrastructure are underfunded and poorly maintained. Wolves got through because management cut corners.
 

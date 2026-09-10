@@ -20,17 +20,18 @@
 
 ## Opportunities
 
-- **The dogs** `(requires: Survival)` — the dogs move as an extension of Rezeń's body. → Gives: [`rezen-hunts-wolves`](../clues/clues.md#rezen-hunts-wolves)
+- **The dogs** `(requires: Survival)` `(prompted by: [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt))` — the dogs move as an extension of Rezeń's body. → Gives: [`rezen-hunts-wolves`](../clues/clues.md#rezen-hunts-wolves)
 - **The knife** `(requires: Violence)` — Rezeń is not nervous; his hands want something sharp. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
-- **The calm hunter** `(requires: Empathy)` — Rezeń is most relaxed while tracking prey in the forest. → Gives: [`butcher-knows-forest-intimately`](../clues/clues.md#butcher-knows-forest-intimately)
+- **The calm hunter** `(requires: Empathy)` — Rezeń is most relaxed while tracking prey in the forest.
 
 ## Actions
 
 ### Follow him into the forest
 - **Requires:** Nothing
+- **Prompted by:** [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt)
 - **Cost:** 1 action
 - **Outcome:** Rezeń finds scat, scrapes, wool on brush, likely denning ground, and passable routes without hesitation.
-- **Gives:** [`rezen-hunts-wolves`](../clues/clues.md#rezen-hunts-wolves), [`butcher-knows-forest-intimately`](../clues/clues.md#butcher-knows-forest-intimately)
+- **Gives:** [`rezen-hunts-wolves`](../clues/clues.md#rezen-hunts-wolves)
 
 ### Stay with him if he makes a kill
 - **Requires:** Follow Rezeń to a killed wolf

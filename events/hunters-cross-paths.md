@@ -23,7 +23,7 @@
 ## Opportunities
 
 - **The standoff** `(requires: Violence)` — Dudka is louder, but Rezeń is the one ready to kill. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
-- **Dudka's fury** `(requires: Empathy)` — Dudka openly names Rezeń as more dangerous than the wolves. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
+- **Dudka's fury** `(requires: Empathy)` `(prompted by: [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves))` — Dudka openly names Rezeń as more dangerous than the wolves. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
 - **Rezeń's cold** `(requires: Violence)` — Rezeń's breathing stays even, his eyes stay flat, and the knife is already out. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
 - **The dogs** `(requires: Survival)` — if the standoff turns violent, it will be Rezeń and three trained dogs against Dudka. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
 
@@ -37,6 +37,7 @@
 
 ### Let it burn
 - **Requires:** The players choose not to intervene
+- **Prompted by:** [dudka-despises-rezen](../clues/clues.md#dudka-despises-rezen)
 - **Cost:** Free
 - **Outcome:** Rezeń ends the standoff by mocking Dudka for failing to stop him in the past; Dudka is publicly humiliated and Rezeń leaves with his dogs.
 - **Gives:** [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous), [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen), [`rezen-mocks-an-old-failure`](../clues/clues.md#rezen-mocks-an-old-failure); NPC State Change: [Dudka](../characters/neighbour.md) is Humiliated; Ending Progress: Dudka moves closer to the [lynch ending](punishment-lynch.md)
