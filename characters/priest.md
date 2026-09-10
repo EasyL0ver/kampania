@@ -2,6 +2,10 @@
 
 **Type:** Named character — village priest
 
+## Hook
+
+ks. Władysław Pająk, the village's Roman Catholic priest, found at the church and rectory.
+
 ## Vital Statistics
 
 - **Born:** 1925

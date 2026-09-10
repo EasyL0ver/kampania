@@ -6,6 +6,10 @@
 **Available:** Any day
 **Cost:** 1 action per visit
 
+## Hook
+
+The plebania beside the church in %NEW_VILLAGE%.
+
 ## Setup
 
 - The plebania stands adjacent to the church.

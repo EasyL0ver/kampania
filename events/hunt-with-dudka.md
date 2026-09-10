@@ -4,6 +4,10 @@
 **Present:** [Ryszard Dudka](../characters/neighbour.md), players (optional)
 **Available:** The morning after [The Wolf Attack](wolf-attack.md).
 
+## Hook
+
+Dudka shouldering his rifle and heading into the forest after spotting Rezeń.
+
 ## Trigger
 
 - Dudka sees Rezeń at the farm.

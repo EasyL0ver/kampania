@@ -4,6 +4,10 @@
 **Source:** The kitchen table in [Ciotka Found Dead](../events/ciotka-found-dead.md)
 **Carried:** Evidence.
 
+## Hook
+
+An open medicine jar with some pills missing.
+
 ## Description
 
 A jar of pills on the table, cap off. Some are missing.

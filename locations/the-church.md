@@ -6,6 +6,10 @@
 **Available:** Any day
 **Cost:** 1 action per visit
 
+## Hook
+
+The church on the hill in %NEW_VILLAGE%, beside the cemetery.
+
 ## Setup
 
 - The wooden church stands on the hill above the village.

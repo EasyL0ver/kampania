@@ -4,6 +4,10 @@
 **Source:** The wall safe in the [PGR Office](../locations/pgr-office.md) — cracked open along with the sołtys's pistol
 **Carried:** Evidence. A voluntary surrender of house and land, signed by a man who was already dead when it was filed.
 
+## Hook
+
+A single stamped administrative sheet with a dated signature.
+
 ## Description
 
 A single administrative sheet, official stamps, dated 1954. It records Edward Barnaś surrendering his house, buildings, and land and resettling his household west "of his own free will." At the bottom, his signature. The paper is what let the "they moved away" story stand for thirteen years.

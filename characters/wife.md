@@ -3,6 +3,10 @@
 **Type:** Named character — the sołtys's wife / shadow investigator
 **Freudian role:** [The analyst](../story-facts/wife-junior-investigation.md) — outside the [Freudian triangle](../story-facts/freudian-triangle.md), watching the psyche break down
 
+## Hook
+
+Irena Gajda, the sołtys's wife.
+
 ## Vital Statistics
 
 - **Born:** 1924

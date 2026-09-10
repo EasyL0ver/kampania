@@ -6,6 +6,10 @@
 **Available:** Any time
 **Cost:** 1 action per visit
 
+## Hook
+
+The best plot in %NEW_VILLAGE%, across from the Neighbour's house.
+
 ## Setup
 
 - **House:** Best house and best plot in the village.

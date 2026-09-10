@@ -25,9 +25,11 @@
 
 ## Hook
 
-<!-- Optional. Omit if the event happens directly to the players. -->
+<!-- Spoiler-free. How players become aware this moment is happening: the outward
+     signal that reaches them (a bell, shouting, smoke, someone stopping them in
+     the road) and where it is perceivable from. No meaning attached. Required. -->
 
-- [What reaches players elsewhere — a bell, shouting, smoke. State where it's perceivable from. Bullet facts.]
+- [What reaches players. e.g. a bell, shouting, smoke, someone stopping them, and where it is perceivable from.]
 
 ## Setup
 

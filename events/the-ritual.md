@@ -4,6 +4,10 @@
 **Present:** [Paraskewia Chyłak](../characters/hag.md) (if survived [the confrontation](well-confrontation.md)), [Stefania Kopacz](../characters/babcia.md) (if [Barbara Kopacz](../characters/barbara.md) brought her), [Edek Barnaś](../characters/glupek.md) (if drawn to the well)
 **Available:** Late game, after the players hold [`ritual-requires-three-things`](../clues/clues.md#ritual-requires-three-things); before [the-flood](the-flood.md) claims the well, or at the [cerkiew](../locations/old-village-cerkiew.md) after that
 
+## Hook
+
+Gathering ritual materials and arranging them at the well or cerkiew.
+
 ## Trigger
 
 - The players bring the Form, the Words, and the Truth to the [well](../locations/the-well.md) or the [cerkiew](../locations/old-village-cerkiew.md).

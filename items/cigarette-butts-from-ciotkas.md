@@ -4,6 +4,10 @@
 **Source:** The ground just outside [Janina Gajda](../characters/ciotka.md)'s door, collected during [Ciotka Found Dead](../events/ciotka-found-dead.md)
 **Carried:** Evidence. Places a Carmen smoker at her threshold, but the butts are weathered, left a day or more before she died.
 
+## Hook
+
+A small scatter of rain-softened, hand-pinched cigarette butts.
+
 ## Description
 
 A small scatter of hand-pinched butts, oval, all one brand: Carmen. An aromatic premium smoke, dearer than the Sport and Extra Mocne the village runs on and rarely seen this far out. Rain has swollen them grey and soft. They were dropped at least a day before Janina died, not the night of.

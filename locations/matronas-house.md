@@ -6,6 +6,10 @@
 **Available:** Any time; possible lodging after [03-dinner](../events/dinner.md)
 **Cost:** 1 action per visit
 
+## Hook
+
+The centre of %NEW_VILLAGE%, close to the store.
+
 ## Setup
 
 - **Exterior:** Whitewashed walls, swept path, and flower box.

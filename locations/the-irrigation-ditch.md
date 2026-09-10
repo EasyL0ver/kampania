@@ -6,6 +6,10 @@
 **Available:** Daytime, any day; reached from the [PGR farm](pgr-farm.md) by following the channel off the fields.
 **Cost:** 1 action to reach; walking its length costs by action.
 
+## Hook
+
+The ditch running from the PGR fields down to the low ground east of %NEW_VILLAGE%.
+
 ## Setup
 
 - The ditch begins at a concrete head by the PGR fields, which [Zbigniew Gajda](../characters/wojewoda.md) calls the village's flood drain.

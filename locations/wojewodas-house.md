@@ -6,6 +6,10 @@
 **Available:** Any time
 **Cost:** 1 action per visit
 
+## Hook
+
+Zbigniew Gajda's family home, the largest house in %NEW_VILLAGE%.
+
 ## Setup
 
 - The house is the largest in %NEW_VILLAGE%.

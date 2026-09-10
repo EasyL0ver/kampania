@@ -4,6 +4,10 @@
 **Present:** [por. Witold Skowron](../characters/skowron.md), players
 **Available:** End of game; final scene after all other endings resolve.
 
+## Hook
+
+Skowron waiting by the police car, asking the departing party for their report.
+
 ## Trigger
 
 - The game is over.

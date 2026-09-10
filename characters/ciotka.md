@@ -2,6 +2,10 @@
 
 **Type:** Named character — sibling (sister)
 
+## Hook
+
+Janina Gajda, a downtrodden, devout woman who keeps house with her son Edek, sister to the sołtys.
+
 ## Vital Statistics
 
 - **Born:** 1912

@@ -2,6 +2,10 @@
 
 **Type:** Named character — villager
 
+## Hook
+
+Barbara Kopacz, a PGR worker and young mother, lives with her family in the red-brick house.
+
 ## Vital Statistics
 
 - **Born:** 1939

@@ -2,6 +2,10 @@
 
 **Type:** Named character — bystander witness
 
+## Hook
+
+Ryszard Dudka, a quiet farmer and licensed hunter, lives next door to Janina Gajda.
+
 ## Vital Statistics
 
 - **Born:** 1918

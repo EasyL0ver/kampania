@@ -4,6 +4,10 @@
 **Present:** por. Witold Skowron, players
 **Available:** Game start; first scene.
 
+## Hook
+
+A police car winding down the mountain road through the rain.
+
 ## Setup
 
 - A police car drives on a winding mountain road.

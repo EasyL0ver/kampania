@@ -4,6 +4,10 @@
 **Present:** [Michał Pytlak](../characters/foreman.md)
 **Available:** The engineering finale, after [Michał Pytlak Saves the Village](foreman-saves-village.md): the party has the charges and has committed to the plan.
 
+## Hook
+
+Facing the rain-soaked ridge plug, a heavy load to haul up.
+
 ## Trigger
 
 - The charge has to be set in the plug to reopen the gap, and the only way to the seam is back up the climb.

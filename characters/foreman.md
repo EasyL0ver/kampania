@@ -2,6 +2,10 @@
 
 **Type:** Named character — farm overseer
 
+## Hook
+
+Michał Pytlak, the PGR farm overseer, directing work around the farm.
+
 ## Vital Statistics
 
 - **Born:** ~1910

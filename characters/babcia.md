@@ -2,6 +2,10 @@
 
 **Type:** Named character — elder Lemko woman
 
+## Hook
+
+Stefania Kopacz, an elderly woman living with Barbara and Pawełek.
+
 ## Vital Statistics
 
 - **Born:** ~1890

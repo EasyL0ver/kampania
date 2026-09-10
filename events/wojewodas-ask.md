@@ -4,6 +4,10 @@
 **Present:** [Zbigniew Gajda](../characters/wojewoda.md), players
 **Available:** After [Zbigniew Gajda](../characters/wojewoda.md) knows the flood is possible and knows the committee is assessing property for compensation
 
+## Hook
+
+Zbigniew Gajda closing the PGR office door to speak with the committee privately.
+
 ## Trigger
 
 - The players complete [Tell Wojewoda about the flood risk](../events/arrival.md#tell-wojewoda-about-the-flood-risk) or otherwise make Zbigniew believe the flood is possible.

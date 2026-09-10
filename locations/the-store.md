@@ -6,6 +6,10 @@
 **Available:** Daytime, any day. Repeatable.
 **Cost:** 1 action per visit
 
+## Hook
+
+Helena Rzepka's general store.
+
 ## Setup
 
 - The store is the village social hub.

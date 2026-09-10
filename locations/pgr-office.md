@@ -6,6 +6,10 @@
 **Available:** After arrival event
 **Cost:** 1 action per visit
 
+## Hook
+
+Zbigniew Gajda's office in the PGR main building.
+
 ## Setup
 
 - The room contains a clean desk, heavy bakelite phone, ledgers, topographic maps, a shelf, and a heavy iron wall safe.

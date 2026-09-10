@@ -71,3 +71,10 @@ Read all files in these folders to understand current state:
     - **Scene Unlock** — A new scene becomes available
     - **World State Change** — The village itself changes
     - **Ending Progress** — Advances an ending chain
+
+16. **Every entity has a `## Hook`** — Characters, locations, items, and events all carry a `## Hook`: one spoiler-free line for how the entity enters the players' awareness and gives them a handle to act on it. An entity's existence is itself a clue, and the Hook is that clue's public text. No GM secrets, no meaning, no analysis. By type:
+    - **Character** — what you learn from an introduction: name + public role/relation.
+    - **Location** — the map handle: where it sits and how to reach it.
+    - **Item** — the outward look on first seeing it.
+    - **Event** — the outward signal that reaches players (a bell, shouting, someone stopping them) and where it is perceivable from.
+

@@ -4,6 +4,10 @@
 **Present:** [ks. Władysław Pająk](../characters/priest.md), [Zbigniew Gajda](../characters/wojewoda.md), [Helena Rzepka](../characters/matrona.md), [Tadek Gajda](../characters/wujas.md), Janina Gajda's coffin, village congregation
 **Available:** Day 5 morning.
 
+## Hook
+
+A funeral Mass beginning in the church, the coffin set before the congregation.
+
 ## Setup
 
 - Janina Gajda's coffin remains inside the church because the flood has taken the cemetery.

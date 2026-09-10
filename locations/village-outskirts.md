@@ -6,6 +6,10 @@
 **Available:** Any day; geological survey requires geological knowledge.
 **Cost:** 1 action per site surveyed; full survey is four sites; office maps or Michał Pytlak waive the three easy sites
 
+## Hook
+
+The river, hillsides, and forest edges around %NEW_VILLAGE%.
+
 ## Setup
 
 - The terrain includes the river, hillsides, forest edges, ridges, and valley floors around %NEW_VILLAGE%.

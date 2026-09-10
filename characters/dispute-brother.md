@@ -2,6 +2,10 @@
 
 **Type:** Named character — the heir with the deed (land-dispute red herring)
 
+## Hook
+
+%BROTHER%, a lorry driver and deed-holder in a dispute over the border strip, lives in his late father's house.
+
 ## Vital Statistics
 
 - **Born:** ~1931

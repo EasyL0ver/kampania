@@ -2,6 +2,10 @@
 
 **Type:** Named character — child of [Edward Barnaś](soldier.md)
 
+## Hook
+
+Edek Barnaś, Janina Gajda's large, simple-minded son and dependent.
+
 ## Vital Statistics
 
 - **Born:** 1950

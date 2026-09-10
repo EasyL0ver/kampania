@@ -1,6 +1,6 @@
 # %OLD_VILLAGE% — The Well
 
-**Type:** Location (critical)
+**Type:** Location (critical, hidden)
 **Location:** [%OLD_VILLAGE%](old-village-ruins.md) — central or prominent ruin site.
 **Present:** Nobody (day), [Stanisław Rezeń](../characters/butcher.md) (regular visits), [Paraskewia Chyłak](../characters/hag.md) (night rites)
 **Available:** After reaching %OLD_VILLAGE%; partially obscured by debris.

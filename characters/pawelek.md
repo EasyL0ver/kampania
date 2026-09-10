@@ -2,6 +2,10 @@
 
 **Type:** Named character — child
 
+## Hook
+
+Pawełek Kopacz, Barbara's lively four-year-old son.
+
 ## Vital Statistics
 
 - **Born:** 1963

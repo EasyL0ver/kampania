@@ -2,6 +2,10 @@
 
 **Type:** Named character — [Zbigniew Gajda](wojewoda.md)'s son / false suspect
 
+## Hook
+
+Marek Gajda, the sołtys's hot-tempered young son.
+
 ## Vital Statistics
 
 - **Born:** 1946

@@ -3,6 +3,10 @@
 **Type:** Named character — sibling (brother)
 **Freudian role:** [Ego](../story-facts/freudian-triangle.md) — the failing mediator, cracking under the weight of what he cannot reconcile
 
+## Hook
+
+Tadek Gajda, the sołtys's brother and the village drunk, rarely without a bottle.
+
 ## Vital Statistics
 
 - **Born:** 1925

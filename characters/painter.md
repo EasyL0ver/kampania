@@ -2,6 +2,10 @@
 
 **Type:** Named character — broken artist, lynch survivor
 
+## Hook
+
+Emil Rzepka, Helena's withdrawn husband and a local painter, works in the attic studio.
+
 ## Vital Statistics
 
 - **Born:** 1923
