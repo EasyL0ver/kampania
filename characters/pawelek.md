@@ -71,7 +71,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 - **Requires:** Morning or afternoon, Pawełek playing with stones, and **Handiwork**
 - **Cost:** Free
 - **Outcome:** The player helps him build the circular pattern he has been copying from memory. An engineer recognizes the pattern as a well rim.
-- **Gives:** [pawelek-wanders](../clues/clues.md#pawelek-wanders), [old-village-exists](../clues/clues.md#old-village-exists)
+- **Gives:** [pawelek-wanders-to-old-village](../clues/clues.md#pawelek-wanders-to-old-village), [old-village-exists](../clues/clues.md#old-village-exists)
 
 ### Play cops with Pawełek
 - **Requires:** **Violence**
@@ -83,7 +83,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 - **Requires:** **Language**
 - **Cost:** Free
 - **Outcome:** He recognizes the speech as like Babcia's and like the lady's. He repeats softer words from an old woman in the forest who has been kind to him.
-- **Gives:** [hag-exists](../clues/clues.md#hag-exists)
+- **Gives:** aware:characters/hag.md
 
 ### The place you can't get through
 - **Requires:** Playing or talking with Pawełek about the forest

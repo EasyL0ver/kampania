@@ -16,6 +16,7 @@
 - **Helena:** [Helena Rzepka](../characters/matrona.md) receives guests at the kitchen table with bread and tea.
 - **Helena:** She asks about the census, flood assessment, and each committee member's origin.
 - **Helena:** She remembers answers given by visitors.
+- **Helena:** She keeps a ring of household keys on her apron, the store cabinet key among them.
 - **Emil:** [Emil Rzepka](../characters/painter.md) sits near the stove or works in the attic painting space.
 - **Emil:** He says little and looks at Helena before speaking.
 - **Emil:** His hands are stained with paint.
@@ -73,4 +74,10 @@
 - **Cost:** Free
 - **Outcome:** The players hear Emil pacing and painting, Helena checking him, a whispered controlling argument, Krystian mumbling prayers, and Ewa staying silent in the hall.
 - **Gives:** [matrona-controls-painter](../clues/clues.md#matrona-controls-painter)
+
+### Lift Helena's keys
+- **Requires:** **Finesse**; close to Helena, over her tea and bread or while her attention is elsewhere
+- **Cost:** 1 action
+- **Outcome:** The cabinet key rides on the ring at her apron. In the fuss of hospitality, or with her turned away, a light hand works it off the ring. She notices nothing until she next reaches for it.
+- **Gives:** Item: the store cabinet key.
 

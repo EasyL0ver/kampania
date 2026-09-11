@@ -21,14 +21,14 @@ The well-tended double grave of Zbigniew Gajda's parents, under its Polonised su
 ### three-barred-cross-in-babcias-room
 In Barbara Kopacz's house, a small three-barred crucifix hangs above [Stefania Kopacz](../characters/babcia.md)'s corner, unlike the Roman cross on the wall.
 
-### hag-exists
-Someone lives in the [forest](../locations/hags-cabin.md). Villagers call her a witch, a ghost, a story to scare children. She's real.
-
 ### hag-is-lemko
 [Paraskewia Chyłak](../characters/hag.md) is a Lemko woman living alone in the [forest](../locations/hags-cabin.md). She is ~40, not old — the forest aged her.
 
 ### babcia-is-lemko
 [Stefania Kopacz](../characters/babcia.md), [Barbara Kopacz](../characters/barbara.md)'s mother, is a Lemko woman who kept the old Greek Catholic faith and death customs.
+
+### babcia-opposed-to-church
+[Stefania Kopacz](../characters/babcia.md) is hostile to the Roman Catholic church. She rejects [ks. Władysław Pająk](../characters/priest.md)'s faith and rites as foreign and will not have them near her family.
 
 ### officer-is-sb
 [por. Witold Skowron](../characters/officer.md) is an SB (secret police) agent, not just a bureaucrat.
@@ -378,11 +378,11 @@ Someone is helping [Barbara Kopacz](../characters/barbara.md). The house, the fi
 ### wujas-slept-with-barbara
 [Tadek Gajda](../characters/wujas.md) slept with [Barbara Kopacz](../characters/barbara.md) once. Neither of them talks about it. Barbara was also with [Marek Gajda](../characters/junior.md) and assumes Marek is the father. Tadek doesn't even consider the possibility. It was one night.
 
-### paweleks-father
-[Tadek Gajda](../characters/wujas.md) is [Pawełek Kopacz](../characters/pawelek.md)'s actual father. Nobody knows — not Barbara, not Tadek, not Marek. A one-time encounter nobody thinks about.
+### wujas-is-paweleks-father
+[Tadek Gajda](../characters/wujas.md) is [Pawełek Kopacz](../characters/pawelek.md)'s father.
 
-### pawelek-wanders
-[Pawełek Kopacz](../characters/pawelek.md) roams the village unsupervised — edges, creek, tree line, further than a 4-year-old should go. Nobody watches him closely enough.
+### pawelek-wanders-to-old-village
+[Pawełek Kopacz](../characters/pawelek.md) roams unsupervised as far as [%OLD_VILLAGE%](../locations/old-village-ruins.md) — edges, creek, tree line, further than a 4-year-old should go. Nobody watches him closely enough.
 
 ### wojewoda-built-barbaras-house
 [Zbigniew Gajda](../characters/wojewoda.md) built [Barbara Kopacz](../characters/barbara.md) a house out of guilt — he suspects [Marek Gajda](../characters/junior.md) fathered [Pawełek Kopacz](../characters/secondary-characters.md). He's wrong.
@@ -721,8 +721,95 @@ Cornered and drunk, the still crew will come to blows if pushed — Franek Mucha
 ### store-has-drug-cabinet
 [Helena Rzepka](../characters/matrona.md)'s [store](../locations/the-store.md) has a locked pharmaceutical cabinet — a *szafka apteczna*, standard PRL distribution point. Helena holds the only key. [Halina](../characters/secondary-characters.md) can't open it.
 
-### paweleks-illness
-[Pawełek Kopacz](../characters/pawelek.md) drinks contaminated floodwater near the well and falls ill. Medically ordinary for flood conditions — but his fever dreams mention "the round stones," "the lady" who told him not to drink, and water that "tastes like the ground." → [event](../events/pawelek-falls-ill.md)
+### somebody-broke-into-store
+Someone got into the pharmaceutical cabinet in [Helena Rzepka](../characters/matrona.md)'s [store](../locations/the-store.md) and robbed it.
+
+### somebody-stole-penicillin
+The penicillin is gone from the cabinet in [Helena Rzepka](../characters/matrona.md)'s [store](../locations/the-store.md).
+
+### somebody-stole-money
+Money is gone from the till in [Helena Rzepka](../characters/matrona.md)'s [store](../locations/the-store.md).
+
+### committee-stole-penicillin
+[Helena Rzepka](../characters/matrona.md) is convinced the committee stole the penicillin from her store.
+
+### pawelek-burns-with-fever
+Pawełek is gripped by a sudden high fever, burning hot and shaking with chills.
+
+### pawelek-turns-yellow
+Pawełek's skin and the whites of his eyes have turned yellow.
+
+### pawelek-eyes-are-red
+The whites of Pawełek's eyes have gone bloodshot and crimson.
+
+### pawelek-in-muscle-pain
+Pawełek cries out when he is moved or touched; his legs and back are in severe pain.
+
+### pawelek-passes-dark-urine
+Pawełek passes little urine, and what there is runs dark, the colour of strong tea.
+
+### pawelek-eyes-not-crying
+The redness sits in the whites of Pawełek's eyes, not in the lids. It is a sign of the sickness itself, not crying or dust.
+
+### pawelek-organs-failing
+The yellowing of Pawełek's skin is a sign that his organs are failing.
+
+### pawelek-not-common-sickness
+Pawełek's illness is not dysentery and not ordinary flu. The fever, muscle pain, red eyes and yellowing together point to something waterborne and specific.
+
+### pawelek-got-it-from-water
+Pawełek's sickness came from drinking foul water. It does not pass from person to person. Which water is not clear.
+
+### pawelek-drank-water-while-playing
+Pawełek drank water while he was out playing on his own, away from the house.
+
+### pawelek-ate-mushrooms-in-the-forest
+Pawełek ate mushrooms while he was out playing on his own in the forest.
+
+### pawelek-mushrooms-were-harmless
+The mushrooms Pawełek ate in the forest were ordinary edible ones. Staszek Pytlak ate the same ones and stayed well.
+
+### pawelek-played-in-pgr
+Pawełek was out playing on his own in the [PGR](../locations/pgr-farm.md).
+
+### pawelek-looks-like-common-fever
+Early on, Pawełek's fever and muscle pain read as an ordinary fever, the kind that goes through a village after a flood. It would be expected to pass on its own.
+
+### pawelek-fever-not-passing
+Pawełek's fever has run too long to be an ordinary one. It should have broken by now and has not.
+
+### pawelek-has-water-fever
+The water fever (leptospirosis): a bacterial sickness caught from foul water. Penicillin cures it if it is given in time.
+
+### pawelek-has-hepatitis
+Infectious hepatitis: a viral sickness of the liver. No antibiotic touches it; the only treatment is rest, and it kills a small child as often as not.
+
+### pawelek-needs-penicillin
+Pawełek needs penicillin, given now at a child's dose, or the water fever kills him.
+
+### helena-demands-the-census
+Helena Rzepka will hand over the penicillin only if the committee lets her fill the village census herself.
+
+### pawelek-was-poisoned
+Pawełek was poisoned. The fever, the muscle pain and the yellow skin could all be the marks of a poison rather than an illness.
+
+### pawelek-ate-death-cap
+Pawełek's yellowing and failing could be death cap poisoning: a child who ate the wrong mushroom in the woods sickens and yellows just like this.
+
+### pawelek-phosphorus-poison
+Pawełek's signs could be phosphorus poisoning, the yellow rat poison. It would mean someone poisoned him.
+
+### pawelek-was-possessed
+Pawełek was possessed. His fever dreams of "the lady" and "the round stones," and a child sickening while no one else does, look to some like the work of the well rather than a natural illness.
+
+### hag-warned-pawelek
+Paraskewia Chyłak met Pawełek at the well in person and told him to his face not to drink the water. The "lady" in his fever dreams is her.
+
+### hag-poisoned-pawelek
+The witch in the forest poisoned Pawełek. A child who met the "lady" at the well and sickened soon after looks, to some, like her doing.
+
+### pawelek-needs-a-cleansing-ritual
+Pawełek needs a cleansing ritual. To those who read his sickness as the well's work, only the old rites can drive it out of him.
 
 ### paweleks-diagnosis
 Bacterial dysentery — *Shigella*, most likely. Fever cycling, bloody stool, dehydration. Fatal without treatment in a child this size. Needs antibacterial medication — but which one and what dosage requires a doctor.

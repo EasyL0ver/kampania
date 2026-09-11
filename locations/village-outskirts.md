@@ -49,7 +49,7 @@
 - **Requires:** Nothing
 - **Cost:** 1 action
 - **Outcome:** The GM gives one missing forest lead from bottle glass and cold ash, deep boot-prints, woodsmoke and burnt herbs, collapsed dugouts and rusted metal, [Edek Barnaś](../characters/glupek.md) moving toward the old village, or [Stanisław Rezeń](../characters/butcher.md) watching from the treeline.
-- **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest); [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest); [hag-exists](../clues/clues.md#hag-exists); [old-wartime-positions](../clues/clues.md#old-wartime-positions); [glupek-drawn-to-well](../clues/clues.md#glupek-drawn-to-well); World State Change: Rezeń notices the party if he is the lead shown.
+- **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest); [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest); aware:characters/hag.md; [old-wartime-positions](../clues/clues.md#old-wartime-positions); [glupek-drawn-to-well](../clues/clues.md#glupek-drawn-to-well); World State Change: Rezeń notices the party if he is the lead shown.
 
 ### Follow the drinking crew
 - **Requires:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
@@ -64,7 +64,7 @@
 - **Gives:** [butcher-visits-the-well](../clues/clues.md#butcher-visits-the-well)
 
 ### Follow the smoke
-- **Requires:** [hag-exists](../clues/clues.md#hag-exists)
+- **Requires:** aware:characters/hag.md
 - **Cost:** 1 action
 - **Outcome:** Woodsmoke and burning herbs lead to the [hag's cabin](hags-cabin.md).
 - **Gives:** Scene Unlock: [hag's cabin](hags-cabin.md)

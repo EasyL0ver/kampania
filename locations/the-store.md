@@ -22,7 +22,7 @@
 - Marek Gajda drinks with the crew some evenings, away from his father.
 - Halina resents Helena Rzepka and speaks sharply about the work.
 - The back room has a locked pharmaceutical cabinet.
-- The cabinet contains basic sulfonamides, aspirin, bandages, and iodine.
+- The cabinet contains penicillin, aspirin, bandages, and iodine.
 - Helena Rzepka keeps the only cabinet key.
 - Halina Zając cannot open the medicine cabinet.
 - Government people are treated with suspicion outside unless they are Tadek Gajda's drinking buddies.
@@ -55,6 +55,20 @@
 - **Cost:** 1 action
 - **Outcome:** Nobody in the village wastes money on Carmen except two men: the Gajda boy [Marek](../characters/junior.md), who buys what marks him as above the place, and the butcher [Stanisław Rezeń](../characters/butcher.md), who buys what he pleases. The brand narrows the door to the pair of them, and clears no one.
 - **Gives:** [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen); [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen)
+
+### Break into the cabinet
+- **Requires:** [store-has-drug-cabinet](../clues/clues.md#store-has-drug-cabinet); **Physique**, or the stolen store cabinet key
+- **Cost:** 1 action
+- **Outcome:** The penicillin is in the locked cabinet.
+  - **Physique:** You bash the little door until the lock tears out of the wood. Quick and loud, and the splintered frame shows at a glance that someone forced it.
+  - **With the key:** Helena's own key lets you in past the doors and opens the cabinet clean. You take the child's course and lock up after you, but the missing stock will not go unnoticed for long.
+- **Gives:** Item: penicillin (a child's course); NPC Learns: helena: [somebody-broke-into-store](../clues/clues.md#somebody-broke-into-store); NPC Learns: helena: [somebody-stole-penicillin](../clues/clues.md#somebody-stole-penicillin); World State Change: the cabinet has been robbed.
+
+### Smash the register open
+- **Requires:** mid break-in, the store already open to you; **Physique**
+- **Cost:** 1 action
+- **Outcome:** You pry the cash drawer until it springs. There is not much inside, a day's small takings, but it is gone now, and an emptied till reads as a plain robbery rather than a hand reaching for one thing.
+- **Gives:** Item: the till cash; NPC Learns: helena: [somebody-stole-money](../clues/clues.md#somebody-stole-money)
 
 <!-- If bonded with Halina, [Ask who smokes what](../characters/secondary-characters.md#ask-who-smokes-what) is her counter action — she knows every villager's brand. -->
 

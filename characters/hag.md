@@ -51,6 +51,13 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 - **Outcome:** She has watched this ground for twenty years. In her own terms she says the river wants its old bed back, that its course shifted, and that a slide came down and closed the notch in the ridge. She has nothing to say about the far-ridge streambed.
 - **Gives:** [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map); [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 
+### Ask her about Pawełek
+- **Requires:** Bond with Paraskewia Chyłak
+- **Prompted by:** aware:events/pawelek-falls-ill.md
+- **Cost:** 1 action
+- **Outcome:** She found the boy at the well and told him the water was foul and not to drink it. He was thirsty and drank anyway. She knows what bad water does, but her remedy is the old one: the boy needs a cleansing rite, not a doctor.
+- **Gives:** [`pawelek-got-it-from-water`](../clues/clues.md#pawelek-got-it-from-water); [`hag-warned-pawelek`](../clues/clues.md#hag-warned-pawelek); [`pawelek-needs-a-cleansing-ritual`](../clues/clues.md#pawelek-needs-a-cleansing-ritual)
+
 ## Bond
 
 - [ ] Approach her cabin openly and wait at the treeline — do not barge in.

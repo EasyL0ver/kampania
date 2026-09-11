@@ -89,6 +89,12 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 - **Outcome:** He says he owns nothing and drifts between siblings' kitchens and the still.
 - **Gives:** Property record — Tadek holds no property, dependent on family.
 
+### Get Pawełek the penicillin
+- **Requires:** [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin); [wujas-is-paweleks-father](../clues/clues.md#wujas-is-paweleks-father)
+- **Cost:** 1 action
+- **Outcome:** Faced with the sick boy being his own, Tadek goes to his sister [Helena](matrona.md). She opens the cabinet for her brother and counts out a child's course, and no census changes hands.
+- **Gives:** Item: penicillin (a child's course).
+
 ## Bond
 
 - [ ] Share a drink with him and match his pace — do not nurse it, do not judge.

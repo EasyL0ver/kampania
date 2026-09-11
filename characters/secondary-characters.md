@@ -24,6 +24,13 @@ A slightly older village child who plays with Pawełek Kopacz before the illness
 - **Hair & face:** Not specified.
 - **Carriage:** Not specified.
 
+#### Actions
+
+##### Ask Staszek about their last day
+- **Cost:** 1 action
+- **Outcome:** He tells you they went into the woods and ate mushrooms they picked. `(requires: Survival)` Press him on which kind and it is clear the boys know their mushrooms: they picked ordinary edible ones, and Staszek ate the same and stayed well.
+- **Gives:** [pawelek-ate-mushrooms-in-the-forest](../clues/clues.md#pawelek-ate-mushrooms-in-the-forest); `(requires: Survival)` [pawelek-mushrooms-were-harmless](../clues/clues.md#pawelek-mushrooms-were-harmless)
+
 ---
 
 ## Tadek Gajda's Drinking Circle
@@ -192,6 +199,7 @@ Halina Zając handles customers, stock, and money at Helena Rzepka's store. She 
 - **[Szymek Kępa](#szymek-kępa)** — "He turns the shop into a sty and expects me to clean around him."
 - **[Romek Głowacz](#romek-głowacz)** — "Quiet is not the same as harmless."
 - **[Franek Mucha](#franek-mucha)** — "If he starts, he will not stop because I ask politely."
+- **[Pawełek needs penicillin](../clues/clues.md#pawelek-needs-penicillin)** — "It is in the cabinet, but the key is Helena's, not mine, and I cannot hand out penicillin without a prescription. Take that up with her, not me."
 
 #### Actions
 
@@ -267,25 +275,12 @@ A young farmhand who wants land of his own or a way out of the village. His ambi
 
 ## Village Functionaries & Outsiders
 
-### dr Leon Sawicki
-**Type:** Authority figure — accessible only by phone
-
-#### Character
-
-The nearest medical authority outside %NEW_VILLAGE%. He can give diagnosis guidance by telephone if the line works, but he cannot physically reach the village.
-
-#### Appearance
-
-- **Clothes:** Not seen.
-- **Hair & face:** Not seen.
-- **Carriage:** Voice only.
-
 ### %OPERATOR% (the telephone-exchange operator)
 **Type:** Telephone-exchange operator (telefonistka) — voice only, never seen
 
 #### Character
 
-She works the manual switchboard at the nearest town's exchange, in the back of a post office. Every long-distance call the committee places to the outside world — [prof. Tadeusz Bieńkowski](professor.md), [dr Leon Sawicki](#dr-leon-sawicki), [por. Witold Skowron](officer.md)'s superiors, the powiat — routes through her board.
+She works the manual switchboard at the nearest town's exchange, in the back of a post office. Every long-distance call the committee places to the outside world — [prof. Tadeusz Bieńkowski](professor.md), [dr Leon Sawicki](sawicki.md), [por. Witold Skowron](officer.md)'s superiors, the powiat — routes through her board.
 
 #### Appearance
 

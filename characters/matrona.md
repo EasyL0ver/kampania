@@ -58,6 +58,18 @@ Weeks after the lynch, Helena directed **Emil** to copy Edward Barnaś's signatu
 - **Outcome:** She names the house and [the store](../locations/the-store.md) she runs, with papers in order.
 - **Gives:** Property record — Rzepka house and store.
 
+### Ask for the penicillin
+- **Requires:** [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin); Committee authority
+- **Cost:** 1 action
+- **Outcome:** She holds the only cabinet key and will not turn it for nothing. The penicillin is theirs, she says, on one condition: the committee lets her fill the village census in their stead, a kindness to spare busy officials the walking. She will not open the cabinet until they agree. Word of the sick child and what he needs reaches her sister [Janina](ciotka.md).
+- **Gives:** [helena-demands-the-census](../clues/clues.md#helena-demands-the-census); NPC Learns: helena: [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin); NPC Learns: janina: [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin)
+
+### Agree to her terms
+- **Requires:** [helena-demands-the-census](../clues/clues.md#helena-demands-the-census); Committee authority
+- **Cost:** 1 action
+- **Outcome:** They agree, and she turns the key. She counts out a child's course of penicillin and takes the census book from their hands: from now the count is hers to fill, hers to decide what it shows.
+- **Gives:** Item: penicillin (a child's course); World State Change: the committee loses the [Committee Census Register](../items/census.md); Helena Rzepka fills it herself.
+
 ## Bond
 
 - [ ] Accept her tea and her framing of events without visible contradiction.

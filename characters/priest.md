@@ -42,6 +42,13 @@ The arc opens with [The Priest's Plea](../events/priests-plea.md). He seeks out 
 
 ## Actions
 
+### Drive out the devil
+- **Requires:** ks. Władysław Pająk brought to Pawełek's sickroom
+- **Prompted by:** [`pawelek-was-possessed`](../clues/clues.md#pawelek-was-possessed)
+- **Cost:** 1 action
+- **Outcome:** He prays loudly over the boy, commanding the devil out, a Roman Catholic blessing that rises to shouting. It does nothing for the fever, and the noise frightens the delirious child. [Stefania Kopacz](babcia.md) comes out of her chair, sharply lucid, and drives him off: the boy is not a demon, and he is not to shout and terrify a sick child. This is not his faith and not his rite.
+- **Gives:** [`babcia-opposed-to-church`](../clues/clues.md#babcia-opposed-to-church); [`babcia-mind-returns`](../clues/clues.md#babcia-mind-returns)
+
 ### Census interview
 - **Requires:** Committee authority
 - **Cost:** 1 action
