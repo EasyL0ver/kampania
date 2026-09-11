@@ -30,14 +30,6 @@ Drives a black Warszawa M-20. Smells of cheap state cologne. His voice is quiet 
 - **[Zbigniew Gajda](wojewoda.md)** — He is my informant. Competent, self-interested, controllable. I do not trust him; I trust the leverage.
 - **[ks. Władysław Pająk](priest.md)** — The Church is a relic and a rival power structure. I would like a reason to shut the parish down, even though his silence and mine currently serve the same order.
 
-## Actions
-
-### Have him trace Marta
-- **Requires:** Marta's full name; a phone or a visit
-- **Cost:** 1 action
-- **Outcome:** A Polish resettler is no threat to him. He runs her through the agency and returns an address: Marta Konieczna, nurse, Legnica.
-- **Gives:** [marta-in-legnica](../clues/clues.md#marta-in-legnica)
-
 ## Bond
 
 - [ ] Share information about your investigation freely when he asks — hold nothing back

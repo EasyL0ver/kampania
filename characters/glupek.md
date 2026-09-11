@@ -10,6 +10,7 @@ Edek Barnaś, Janina Gajda's large, simple-minded son and dependent.
 
 - **Born:** 1950
 - **Age in 1967:** 17
+- **Parents:** [Edward Barnaś](soldier.md) and [Marta Konieczna](secondary-characters.md#marta-konieczna), both killed in the 1954 lynch
 - **Lives in:** [Janina Gajda's house](../locations/ciotkas-house.md) — with [Janina Gajda](ciotka.md)
 - **Settled:** Born in %NEW_VILLAGE%
 

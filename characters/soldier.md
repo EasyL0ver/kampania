@@ -8,7 +8,7 @@
 - **Died:** 1954 (age 44)
 - **Lived in:** [Janina Gajda's house](../locations/ciotkas-house.md) — now [Janina Gajda](ciotka.md)'s
 - **Settled:** ~1948 — knew the terrain from KBW service and claimed the best land early
-- **Family:** Partner [Marta Konieczna](secondary-characters.md#marta-konieczna); children [Hania Barnaś](jagna.md) and [Edek Barnaś](glupek.md)
+- **Family:** Unmarried partner [Marta Konieczna](secondary-characters.md#marta-konieczna), mother of both his children; [Hania Barnaś](jagna.md) and [Edek Barnaś](glupek.md). Marta was killed in the 1954 lynch.
 - **Records:** Marta appears in the [PGR expense journal](../items/pgr-expenses.md) under her own surname
 
 ## Character
@@ -25,7 +25,7 @@ In play he is an absence: a missing father, a dead signature, a rifle, a house, 
 
 ## Opinions
 
-- **[Marta Konieczna](secondary-characters.md#marta-konieczna)** — We never married, but we lived as partners. Her surname mattered after I died because it let her disappear outside the Barnaś name.
+- **[Marta Konieczna](secondary-characters.md#marta-konieczna)** — We never married, but we lived as partners and she bore both my children. She was killed the same night I was. Her own surname is why no Barnaś wife ever shows in the records.
 - **[Hania Barnaś](jagna.md)** — My eldest daughter was my pride. I came for her with the rifle, and I died before I could get her away.
 - **[Edek Barnaś](glupek.md)** — My young son survived the night that killed the rest of my family. What was done to him is part of what the village buried.
 

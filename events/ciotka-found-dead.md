@@ -129,7 +129,7 @@
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 action
 - **Outcome:** Inside the big wardrobe, a teenage girl's dress, folded and kept. A girl that age lived in this house once.
-- **Gives:** [girls-dress-in-ciotkas-house](../clues/clues.md#girls-dress-in-ciotkas-house)
+- **Gives:** Item / Evidence: the [girl's dress](../items/girls-dress.md), folded and kept at the back of the wardrobe.
 
 ### Examine the child's rattle
 - **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))

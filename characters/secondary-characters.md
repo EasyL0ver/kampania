@@ -329,60 +329,18 @@ She works the manual switchboard at the nearest town's exchange, in the back of 
 - The gasp is never confirmation.
 
 ### Marta Konieczna
-**Type:** Living witness — accessible only by phone (voice only, never seen)
+**Type:** Deceased — [Edward Barnaś](soldier.md)'s unmarried partner; mother of [Hania](jagna.md) and [Edek](glupek.md); killed in the 1954 lynch
 
 #### Vital Statistics
 
 - **Born:** ~1915
-- **Age in 1967:** ~52
-- **Lives in:** Legnica — works as a nurse
-- **Connection:** [Edward Barnaś](soldier.md)'s partner in %OLD_VILLAGE%; never his wife
+- **Died:** 1954 — killed in the lynch, aged ~39
+- **Lived in:** [Edward Barnaś's house](../locations/ciotkas-house.md) in %NEW_VILLAGE%
+- **Connection:** [Edward Barnaś](soldier.md)'s unmarried partner and the mother of both his children
 
 #### Character
 
-Marta Konieczna is the one adult who walked out of the 1954 lynch alive. She traded silence and disappearance for her life, and the committee can reach her ward's line by telephone.
-
-#### Appearance
-
-- **Clothes:** Not seen.
-- **Hair & face:** Not seen.
-- **Carriage:** Brisk, professional voice on a ward line.
-- **Voice:** Busy corridor sounds behind her; when she hears the call is from the valley, the busyness stops for a beat.
-
-#### Opinions
-
-- **[Edward Barnaś](soldier.md)** — "I carried the story that said he left alive. I know what that cost."
-- **[por. Skowron](officer.md)** — "If he found me, the valley may have found me too."
-- **[%OPERATOR%](#operator-the-telephone-exchange-operator)** — "A voice on the exchange is only a voice. I do not know who survived the forest."
-- **`marta-made-a-deal`:** "I walked away because that was the price of breathing the next morning."
-- **`marta-has-something-to-hide`:** "I have told the same safe story for thirteen years."
-- **`jagna-fled-the-lynch`:** "The girl ran into the forest alive. I never went after her."
-
-#### Opportunities
-
-- **The lie doesn't match the census** `(requires: on the line with Marta and holding [edeks-father-left](../clues/clues.md#edeks-father-left))` — Marta says the family left *together*, Edward among them; the village story says Edward abandoned them and left alone. → Gives: [marta-has-something-to-hide](../clues/clues.md#marta-has-something-to-hide)
-- **She's accounting for a dead man's travels** `(requires: on the line with Marta and holding [departure-declaration-forged](../clues/clues.md#departure-declaration-forged))` — Marta places Edward alive on a road west, but the departure paper's forged signature says the move story was filed after his death. → Gives: [marta-has-something-to-hide](../clues/clues.md#marta-has-something-to-hide)
-- **What the stillness meant** `(requires: on the line with Marta and Finesse)` — the silence after she hears "the valley" is fear and recognition. → Gives: [marta-has-something-to-hide](../clues/clues.md#marta-has-something-to-hide)
-
-#### Actions
-
-##### Push her on the story
-- **Requires:** On the line with her
-- **Cost:** 1 action
-- **Outcome:** She keeps the "we all left together" story and has an answer for Edek being in the valley now: "Then they came back. Or he did. How would I know? I left. I lost touch with all of them years ago — that was the whole point."
-- **Gives:** [marta-has-something-to-hide](../clues/clues.md#marta-has-something-to-hide) + NPC State Change: Marta stays hostile and guarded.
-
-##### Confront her with one proof — she flinches
-- **Requires:** On the line with her, holding *one* of the two hard proofs: Edward's body in the well ([lynch-body-in-well](../clues/clues.md#lynch-body-in-well)) **or** the forged departure paper ([departure-declaration-forged](../clues/clues.md#departure-declaration-forged)).
-- **Cost:** 1 action
-- **Outcome:** One proof makes the smooth story catch, then she denies it: with the body, "I don't know anything about a well"; with the forged paper, "Papers get faked all the time."
-- **Gives:** [marta-has-something-to-hide](../clues/clues.md#marta-has-something-to-hide)
-
-##### Confront her with both — she confesses
-- **Requires:** On the line with her, holding *both* [lynch-body-in-well](../clues/clues.md#lynch-body-in-well) (he's dead) **and** [departure-declaration-forged](../clues/clues.md#departure-declaration-forged) (the "move" was faked).
-- **Cost:** 1 action
-- **Outcome:** Both facts break the rehearsed story. Marta admits nobody moved, that Edward was killed at the well, and that the girl ran into the forest alive.
-- **Gives:** [jagna-fled-the-lynch](../clues/clues.md#jagna-fled-the-lynch) + [marta-witnessed-the-lynch](../clues/clues.md#marta-witnessed-the-lynch) + [butcher-dumped-the-body](../clues/clues.md#butcher-dumped-the-body) + NPC State Change: Marta becomes a willing witness.
+Edek and Hania's mother, and Edward's partner though never his wife. She kept her surname, Konieczna, which is why no "Barnaś" wife appears in any village record. The men killed her in the house the night of the lynch; [Stanisław Rezeń](butcher.md) carried her body to the old well. Her identity as Edek's mother is buried with her.
 
 ---
 

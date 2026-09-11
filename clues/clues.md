@@ -117,11 +117,22 @@ The front door of [Janina Gajda](../characters/ciotka.md)'s house carries two lo
 ### ciotka-never-married
 In the census the boy and his absent father are recorded as Barnaś, while [Janina Gajda](../characters/ciotka.md), who raises him, is Gajda. She never took his name — read straight, the two were together but never married.
 
+### ciotka-and-soldier-were-not-together
+[Janina Gajda](../characters/ciotka.md) and [Edward Barnaś](../characters/soldier.md) were never together. They were not a couple, and Edek is not her son. The village's "they were together" story is false.
+**Synthesis:** ciotka-never-married + ciotka-is-devout
+
 ### box-belongs-to-glupek
 The "EDEK" box could be [Edek Barnaś](../characters/glupek.md)'s — his name on the lid, a young man's kept oddments and the risqué photograph the kind a youth hides away.
 
 ### box-belongs-to-soldier
 The "EDEK" box could be [Edward Barnaś](../characters/soldier.md)'s, the soldier who went by Edek too — a grown man's shaving kit, a military medal, and an old house key.
+
+### house-belonged-to-edward-senior
+The house [Janina Gajda](../characters/ciotka.md) lives in was [Edward Barnaś](../characters/soldier.md)'s own. His key from the "EDEK" box turns the front lock, and his things sat boxed in the attic. Not a stranger's home the state handed her — it was his.
+**Synthesis:** box-belongs-to-soldier + edek-box-key-fits-house
+
+### soldier-left-his-house-for-state
+On the paperwork, [Edward Barnaś](../characters/soldier.md) signed his house and land over to the state when the family left the village.
 
 ### glupek-forbidden-from-attic
 [Edek Barnaś](../characters/glupek.md)'s toys are kept up in the attic, and he is not allowed to go up for them himself. Janina climbs up and brings them down for him.
@@ -180,9 +191,6 @@ Bone density and joint wear put the woman in the remains at around thirty years 
 ### wojewoda-was-hurt-that-night
 [Zbigniew Gajda](../characters/wojewoda.md) took a bad injury the night of the 1954 lynch — in the struggle over [Edward Barnaś](../characters/soldier.md)'s rifle, the stock was driven into his ribs and cracked them. They never healed right. He carries the old injury under his clothes and has never explained it.
 
-### marta-made-a-deal
-[Edward Barnaś](../characters/soldier.md)'s partner, Marta Konieczna, wasn't killed. She bargained — she had nothing to sign away, so she traded the only thing she had: her silence and her disappearance. She agreed to vanish and to tell anyone who asked that the family had moved. She was gone by morning, left the village alive, and never came back.
-
 ### ciotka-house-is-wojewodas
 [Janina Gajda](../characters/ciotka.md) doesn't own the house she lives in and says so plainly — it's the sołtys's, [Zbigniew Gajda](../characters/wojewoda.md) gave it to her, it's his to allocate. She has no title of her own and names her brother as the source. (On paper the same house was signed over to the [PGR](../locations/pgr-farm.md) — see [departure-declaration-forged](#departure-declaration-forged). Her answer and the record don't agree.)
 
@@ -192,15 +200,6 @@ Bone density and joint wear put the woman in the remains at around thirty years 
 ### departure-declaration-forged
 The document that recorded the Barnaś family's "departure" and handed their house and land to the [PGR](../locations/pgr-farm.md) is a forgery. It carries [Edward Barnaś](../characters/soldier.md)'s signature — but Edward was already dead when it was filed, weeks after the 1954 lynch. Someone forged his hand to make the family's disappearance read as a voluntary move west. The paper is what let the "they moved away" story stand.
 
-### marta-in-legnica
-Marta Konieczna resettled west after 1954. She lives in Legnica and works as a nurse. She is reachable by telephone.
-
-### marta-has-something-to-hide
-Marta Konieczna claims the whole family moved west together and split up shortly after — but that collides with the village's story that Edward Barnaś abandoned them and left alone, she guards it too carefully, and she went still with fear when she heard the call was from the valley. She is hiding something about 1954.
-
-### marta-witnessed-the-lynch
-Marta Konieczna was present the night of the 1954 lynch and survived it. She saw the men, the well, and Edward Barnaś come to defend his family with his old rifle.
-
 ### soldier-never-married
 [Edward Barnaś](../characters/soldier.md) and his partner never married — they lived together. She kept her own surname. This is why no "Barnaś" wife appears in any village records.
 
@@ -208,7 +207,7 @@ Marta Konieczna was present the night of the 1954 lynch and survived it. She saw
 The night of the lynch, four-year-old [Edek Barnaś](../characters/glupek.md) wouldn't stop crying, and it annoyed [Stanisław Rezeń](../characters/butcher.md). He took a pillow, pressed it over the boy's face to shut him up, and held it there — deliberate, unhurried. [Janina Gajda](../characters/ciotka.md) tore it away. It left permanent brain damage — not congenital.
 
 ### lynch-body-in-well
-[Edward Barnaś](../characters/soldier.md) — the father — was killed in the 1954 lynch and his body dumped in the old well in [%OLD_VILLAGE%](../locations/old-village-ruins.md), the same well that already held the 1947 massacre remains. His is the *only* body from that night: no one else who was at the well in 1954 is down there.
+[Edward Barnaś](../characters/soldier.md) was killed in the 1954 lynch and his body dumped in the old well in [%OLD_VILLAGE%](../locations/old-village-ruins.md), the same well that already held the 1947 massacre remains. A second body from that night lies with his — a grown woman. [Hania Barnaś](../characters/jagna.md) fled the lynch and is not among the dead.
 
 ### butcher-has-soldiers-gun
 [Stanisław Rezeń](../characters/butcher.md) took the rifle off [Edward Barnaś](../characters/soldier.md)'s body that night and kept it — the KBW rifle from the night of the lynch. It's still in his house.

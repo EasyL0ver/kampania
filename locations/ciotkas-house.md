@@ -38,7 +38,7 @@ The best plot in %NEW_VILLAGE%, across from the Neighbour's house.
 ## Opportunities
 
 - **Two locks, two ages** `(requires: Handiwork)` — The two locks were not fitted together. The old one below is original to the door; the newer one above was added years later. She did not double up out of fear — at some point she changed the lock on this house. → Gives: [`ciotka-changed-the-lock`](../clues/clues.md#ciotka-changed-the-lock)
-- **The boy's errand** `(requires: nothing)` — Partway through the visit Edek tugs Janina's sleeve and asks, low, for more of his toys — the ones kept up in the attic. She soothes him: not now, and not himself; once the gentlemen have gone she will go up and bring a couple down. He is not to climb up there. → Gives: [`glupek-forbidden-from-attic`](../clues/clues.md#glupek-forbidden-from-attic)
+- **The boy's errand** `(requires: aware:characters/glupek.md)` — Partway through the visit Edek tugs Janina's sleeve and asks, low, for more of his toys — the ones kept up in the attic. She soothes him: not now, and not himself; once the gentlemen have gone she will go up and bring a couple down. He is not to climb up there. → Gives: [`glupek-forbidden-from-attic`](../clues/clues.md#glupek-forbidden-from-attic)
 
 ## Actions
 

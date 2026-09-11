@@ -127,10 +127,10 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **Gives:** [`ciotka-house-is-pgrs`](../clues/clues.md#ciotka-house-is-pgrs)
 
 ### Show the paperwork for Janina's house
-- **Requires:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway + [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs)
+- **Requires:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway + [house-belonged-to-edward-senior](../clues/clues.md#house-belonged-to-edward-senior) + [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs)
 - **Cost:** 1 action
 - **Outcome:** He produces the file and lets them read the 1954 declaration with [Edward Barnaś](soldier.md)'s signature. He keeps the document in his hands; see [Edward Barnaś's Departure Declaration](../items/barnas-departure-declaration.md).
-- **Gives:** Item / Evidence: the players have seen the declaration and know where it is kept.
+- **Gives:** Item / Evidence: the players have seen the declaration and know where it is kept; [`soldier-left-his-house-for-state`](../clues/clues.md#soldier-left-his-house-for-state); [`ciotka-moved-in-after-they-were-gone`](../clues/clues.md#ciotka-moved-in-after-they-were-gone)
 
 ### Report the bimber still
 - **Requires:** Players have discovered the [bimber still](../locations/bimber-still.md)

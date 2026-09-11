@@ -99,7 +99,7 @@ Date        Payee / Description                                    Amount
 ### Find the name "Konieczna, Marta" (Investigation)
 - **Requires:** Holding the journal
 - **Cost:** 1 card
-- **Outcome:** A single 1953 payment: "Konieczna, Marta — mending work clothes." Her initials, M.K., match the love letters from the [buried cache at Ciotka's house](../locations/ciotkas-house.md). This is the only place her full name is written down. It corroborates the M.K. thread and gives players the surname they need to trace [Marta Konieczna](../characters/soldier.md) as a living witness.
+- **Outcome:** A single 1953 payment: "Konieczna, Marta — mending work clothes." Her initials, M.K., match the love letters from the [buried cache at Ciotka's house](../locations/ciotkas-house.md). This is the only place her full name is written down. It corroborates the M.K. thread and gives players the surname behind [Marta Konieczna](../characters/soldier.md) — the name the village erased.
 
 ### Trace the brick and masonry (Investigation)
 - **Requires:** Holding the journal
