@@ -11,6 +11,10 @@
   - the players ask Marek for help, and he forces it the next night.
 - The clean key route does not trigger this: no forced door, no morning-after discovery.
 
+## Hook
+
+Word through the village the next morning that Helena's store was broken into overnight.
+
 ## Setup
 
 - The cabinet in the back room stands forced open and emptied.
