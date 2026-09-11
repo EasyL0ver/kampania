@@ -1,6 +1,6 @@
 # UPA Bunker (Ziemianka)
 
-**Type:** Location (explorable)
+**Type:** Location (explorable, hidden)
 **Location:** Deep forest northwest of %NEW_VILLAGE%.
 **Present:** Nobody; [Edek Barnaś](../characters/glupek.md) (sometimes near entrance)
 **Available:** Requires forest exploration; ventilation shafts or entrance must be found.

@@ -2,6 +2,10 @@
 
 **Type:** Named character — PGR cook / the village's warmth
 
+## Hook
+
+Zofia Pytlak, the warm, well-liked PGR cook.
+
 ## Vital Statistics
 
 - **Born:** ~1920

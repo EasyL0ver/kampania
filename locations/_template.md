@@ -22,6 +22,14 @@
 **Available:** [Any time / Daylight only / Requires guidance]
 **Cost:** [1 action per visit / Free / 1 to find, 1 to interact]
 
+## Hook
+
+<!-- Spoiler-free. One line: what a player knows from having this place pinned on
+     their map: where it sits and how to reach it. The entity as a clue (knowing
+     this place exists). No secrets. -->
+
+- [Position handle. e.g. "a dry streambed on the far ridge across the valley".]
+
 ## Setup
 
 <!-- Bullet facts only. What is true here — exterior, interior, what's present,

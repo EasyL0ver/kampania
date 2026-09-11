@@ -4,6 +4,10 @@
 **Present:** [Michał Pytlak](../characters/foreman.md) (if brought on the survey)
 **Available:** At the ridge gap, holding [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap).
 
+## Hook
+
+Facing the steep plug at the ridge gap.
+
 ## Trigger
 
 - The party decides to climb the plug for the one reading the ground cannot give.

@@ -6,6 +6,10 @@
 **Available:** Any time; Barbara home mornings and evenings
 **Cost:** 1 action per visit
 
+## Hook
+
+The edge of %NEW_VILLAGE%, beside Ryszard Dudka's house.
+
 ## Setup
 
 - **House:** One-room house with a curtain dividing the sleeping area.

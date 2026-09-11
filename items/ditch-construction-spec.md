@@ -4,6 +4,10 @@
 **Source:** PGR Office shelf, via the "Pull the ditch construction file" action → [PGR Office](../locations/pgr-office.md)
 **Carried:** The paper the ditch was supposed to be built to. Concrete-lined the full run, with the capacity to carry the fields' runoff clear. It is what the real ditch is measured against: only the head matches it.
 
+## Hook
+
+An official folder: a ditch cross-section drawing, concrete figures, a signed acceptance note.
+
 ## Description
 
 A land-reclamation (melioracja) file in an official folder: an approved cross-section drawing, a bill of concrete, and a signed acceptance note. It specifies a concrete-lined trapezoidal channel for the ditch's entire run from the field head down to the low ground, not just the head, sized to carry the fields' flood runoff. The acceptance note declares the work completed and lined as drawn. A layman reads it as ordinary farm paperwork. Set against a walked ditch, the paper and the ground do not agree past the first short stretch.

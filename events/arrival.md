@@ -4,6 +4,10 @@
 **Present:** [Zbigniew Gajda](../characters/wojewoda.md), [Irena Gajda](../characters/wife.md), [Tadek Gajda](../characters/wujas.md), [Barbara Kopacz](../characters/barbara.md), [Pawełek Kopacz](../characters/pawelek.md)
 **Available:** After [the car in](the-car-in.md).
 
+## Hook
+
+A car stopping on the muddy road as Zbigniew Gajda comes forward to meet the committee.
+
 ## Setup
 
 - The car stops on the muddy road in %NEW_VILLAGE%.

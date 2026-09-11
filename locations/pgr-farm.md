@@ -6,6 +6,10 @@
 **Available:** Daytime, any day. Repeatable.
 **Cost:** 1 action per visit
 
+## Hook
+
+The State Agricultural Farm: fields, barns, livestock pens, tool shed.
+
 ## Setup
 
 - The farm has two long barns, a concrete grain silo, a tool shed, livestock pens, and ploughed fields running toward the tree line.

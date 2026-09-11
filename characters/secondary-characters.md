@@ -4,6 +4,10 @@ Minor NPCs, relationships, and supporting cast. Grouped by association for easy 
 
 ---
 
+## Hook
+
+Staszek Pytlak, Tadek's drinking crew (Szymek Kępa, Romek Głowacz, Franek Mucha), Halina Zając at the store, farm workers Nowak and Wiśniewski, dr Leon Sawicki, %OPERATOR%, Marta Konieczna, and the remembered folk of %OLD_VILLAGE%.
+
 ## PAWEŁEK's Circle
 
 ### Staszek Pytlak

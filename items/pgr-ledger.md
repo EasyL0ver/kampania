@@ -4,6 +4,10 @@
 **Source:** PGR Office desk, via the "Inspect the PGR ledger" action → [PGR Office](../locations/pgr-office.md)
 **Carried:** Payroll evidence. Lists a worker who is dead but still drawing wages.
 
+## Hook
+
+An official farm-worker register: names, jobs, daily rates, totals.
+
 ## Description
 
 The 1967 staff and pay register for the farm — eight names, positions, daily rates, and a monthly cost summary. Kept by the Foreman. Cross-checked against the villagers players have actually met, one name on it belongs to no one you can find on the farm.

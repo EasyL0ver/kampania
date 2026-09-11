@@ -2,6 +2,10 @@
 
 **Type:** Named character — sibling (sister) / true architect of the lynch
 
+## Hook
+
+Helena Rzepka, the devout woman who runs the village store.
+
 ## Vital Statistics
 
 - **Born:** 1922

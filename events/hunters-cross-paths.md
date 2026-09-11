@@ -4,6 +4,10 @@
 **Present:** [Ryszard Dudka](../characters/neighbour.md), [Stanisław Rezeń](../characters/butcher.md), players (with whichever hunter they followed)
 **Available:** During either [The Hunt with Rezeń](hunt-with-rezen.md) or [The Hunt with Dudka](hunt-with-dudka.md).
 
+## Hook
+
+A rifleman confronting a knife-wielding hunter as dogs scatter through the clearing.
+
 ## Trigger
 
 - Dudka and Rezeń are hunting the same wolf pack on the same day.

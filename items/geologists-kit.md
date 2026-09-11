@@ -4,6 +4,10 @@
 **Source:** Issued to the committee at the start, packed with the party's gear; [prof. Bieńkowski](../characters/professor.md) flagged the report inside it as thin at the briefing
 **Carried:** Lets the party check terrain, read the state's paper, and rerun the flood projection once the outlets are known.
 
+## Hook
+
+A worn canvas roll of surveying tools, maps, tables, and a folded report.
+
 ## Description
 
 A worn canvas roll of survey tools: a level and clinometer with its graduated rod, a plumb line and tape, a folded copy of the resettlement master plan with its flood-line figures, and drainage tables. Tucked in the dossier is the previous crew's signed survey report, the document whose projection sent the committee here. The report reads clean to a layman. prof. Bieńkowski warned at the briefing that it smells thin, too few stations and too much taken on faith, though he could not prove it from Kraków. It praises the wojewoda's irrigation ditch, notes in passing that the river changed course and dismisses it, and says nothing at all about the ridge gap or the far-ridge streambed. Also folded in is a Solina dam-survey station index: a bare list of benchmarks the reservoir survey set across the valley, the far-ridge streambed col among them, but the elevation sheet the index points to is not in the dossier.

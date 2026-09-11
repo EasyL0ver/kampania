@@ -3,6 +3,10 @@
 **Type:** Named character — sibling (brother) / sołtys
 **Freudian role:** [Superego](../story-facts/freudian-triangle.md) — authority, containment, the rules that hold the id at the edge
 
+## Hook
+
+Zbigniew Gajda, the village sołtys and principal official, received at his house or office.
+
 ## Vital Statistics
 
 - **Born:** 1920

@@ -2,6 +2,10 @@
 
 **Type:** Named character — grieving widow
 
+## Hook
+
+Wanda Mazur, the grieving widow of a PGR worker, lives alone in a small house near the church.
+
 ## Vital Statistics
 
 - **Born:** ~1912

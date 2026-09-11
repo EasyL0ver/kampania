@@ -2,6 +2,10 @@
 
 **Type:** Named character — the village drunk / anti-establishment loudmouth
 
+## Hook
+
+The village drunk who was once its schoolteacher, loud against the authorities to anyone who'll share a bottle.
+
 ## Vital Statistics
 
 - **Born:** 1919

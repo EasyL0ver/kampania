@@ -4,6 +4,14 @@
 **Source:** [Where players obtain it — link to the location/event/character that gives it]
 **Carried:** [What holding it means mechanically, if anything — evidence for the report, leverage, a key. Or "—".]
 
+## Hook
+
+<!-- Spoiler-free. One line: what a player registers on first seeing the object,
+     its outward look, enough to recognise it exists. The entity as a clue.
+     No hidden meaning; analysis lives in Content, Opportunities, Actions. -->
+
+- [Outward look. e.g. "a dented tin holding premium Carmen cigarette butts".]
+
 ## Description
 
 [What the object is, physically. What players see and feel when they hold it. Keep it concrete — an item is a thing, not a story.]

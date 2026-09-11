@@ -2,6 +2,10 @@
 
 **Type:** Named character — SB secret police agent
 
+## Hook
+
+por. Witold Skowron, an official from outside the village who arrives by car on state business.
+
 ## Vital Statistics
 
 - **Born:** 1928

@@ -4,6 +4,10 @@
 **Present:** Survey party
 **Available:** Holding [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain); a PC with **Geology** and the [geologist's kit](../items/geologists-kit.md); the far ridge reached
 
+## Hook
+
+Setting up a level line at the far-ridge streambed to measure toward the village.
+
 ## Trigger
 
 - The party decides to shoot the col's elevation themselves rather than hunt the old dam-survey markers.

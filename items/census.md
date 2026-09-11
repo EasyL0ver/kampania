@@ -4,6 +4,10 @@
 **Source:** Issued to the committee for the assignment on the drive in ([The Car In](../events/the-car-in.md)); filled household by household through the **Census interview** action across the village.
 **Carried:** The running record of who lives in %NEW_VILLAGE%. Set against the [PGR worker registry](pgr-ledger.md), it exposes a paid "worker" that no household contains.
 
+## Hook
+
+An official blank census book, ruled for households, names, ages, residence dates.
+
 ## Description
 
 An official blank census book issued for the resettlement survey: ruled columns for household, names, ages, and years resident. It starts empty and fills as the committee works the village. In a settlement this small, a name on the farm's payroll that appears in no household stands out at once.

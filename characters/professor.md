@@ -2,6 +2,10 @@
 
 **Type:** Named character — outsider / catalyst
 
+## Hook
+
+prof. Tadeusz Bieńkowski, a Kraków hydrologist tied to the Solina Dam project, reachable via the telephone exchange.
+
 ## Vital Statistics
 
 - **Born:** 1930

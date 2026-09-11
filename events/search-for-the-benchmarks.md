@@ -4,6 +4,10 @@
 **Present:** Survey party
 **Available:** Holding [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
 
+## Hook
+
+Choosing to comb the overgrown streambed and village edge for old survey markers.
+
 ## Trigger
 
 - The party goes looking for the dam crews' benchmark markers rather than running a survey of their own.

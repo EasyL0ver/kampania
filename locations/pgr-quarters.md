@@ -6,6 +6,10 @@
 **Available:** Any time
 **Cost:** Free for eating or brief talk; 1 action for deeper engagement
 
+## Hook
+
+Behind the PGR main building: the stołówka and barracks.
+
 ## Setup
 
 - The stołówka has a rough wooden counter, benches, a cast-iron stove, and food prepared by Zofia Pytlak.

@@ -3,6 +3,10 @@
 **Type:** Named character — village pariah, compulsion killer
 **Freudian role:** [Id](../story-facts/freudian-triangle.md) — raw drive, compulsion without conscience
 
+## Hook
+
+Stanisław Rezeń, the village butcher and widely avoided pariah, lives alone beyond the treeline with his dogs.
+
 ## Vital Statistics
 
 - **Born:** 1921

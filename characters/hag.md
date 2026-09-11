@@ -1,6 +1,6 @@
 # Paraskewia Chyłak
 
-**Type:** Named character — Lemko survivor, forest hermit
+**Type:** Named character — Lemko survivor, forest hermit (hidden)
 
 ## Vital Statistics
 

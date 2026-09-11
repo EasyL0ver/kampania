@@ -6,6 +6,10 @@
 **Available:** Any time
 **Cost:** 1 action per visit
 
+## Hook
+
+The edge of %NEW_VILLAGE%, nearest the forest path toward %OLD_VILLAGE%.
+
 ## Setup
 
 - **Exterior:** Dark timber house with no paint and no curtains.

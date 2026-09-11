@@ -4,6 +4,10 @@
 **Present:** [Stanisław Rezeń](../characters/butcher.md), players (optional)
 **Available:** The morning after [The Wolf Attack](wolf-attack.md), after [Gajda](../characters/wojewoda.md) authorizes Rezeń.
 
+## Hook
+
+Rezeń at the PGR gate with three dogs, starting to track from the mud.
+
 ## Trigger
 
 - Rezeń arrives at the PGR gate with three dogs.

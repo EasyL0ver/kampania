@@ -4,6 +4,10 @@
 **Source:** Exhumed at the [Meadow by the Ravine](../locations/meadow-by-the-ravine.md) (the cairn grave [Ryszard Dudka](../characters/neighbour.md) built)
 **Carried:** Physical evidence that *someone* died in the forest. Deliberately inconclusive — proves a death, never an identity.
 
+## Hook
+
+A grim bundle of loose bones and a rotted coat, wrapped for carrying.
+
 ## Description
 
 A rotted coat, its colour long gone to the soil, and a scatter of bones — incomplete, gnawed and shifted by thirteen years of forest. No skull, so nothing that carries a face or a name. Wrapped in whatever the players had to hand, it is a light, grim bundle that smells of wet earth. To an untrained eye it could be anyone — Dudka called it Hania and buried it. But the bones themselves still hold facts for someone who knows how to read them: whether it's a man or a woman, how old, how they died. The name is gone; the body is not yet silent.

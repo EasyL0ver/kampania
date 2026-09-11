@@ -4,6 +4,10 @@
 **Present:** [ks. Władysław Pająk](../characters/priest.md), [Helena Rzepka](../characters/matrona.md), [Emil Rzepka](../characters/painter.md), [Zbigniew Gajda](../characters/wojewoda.md), village congregation
 **Available:** Day 4 morning.
 
+## Hook
+
+A Mass beginning in the church as the village gathers against the rising water.
+
 ## Setup
 
 - This is the first flood Mass.

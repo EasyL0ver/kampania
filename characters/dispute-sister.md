@@ -2,6 +2,10 @@
 
 **Type:** Named character — the one who works the land (land-dispute red herring)
 
+## Hook
+
+%SISTER%, a farmer who has worked the disputed border strip for years, lives at her husband's family farmhouse.
+
 ## Vital Statistics
 
 - **Born:** ~1934

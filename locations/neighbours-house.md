@@ -6,6 +6,10 @@
 **Available:** Any time; Ryszard often out during the day
 **Cost:** 1 action per visit
 
+## Hook
+
+The house beside Barbara's, across from Ciotka's.
+
 ## Setup
 
 - **House:** Bachelor's house, neat but bare.

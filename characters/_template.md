@@ -4,6 +4,14 @@
 <!-- Optional secondary tag, e.g. Freudian role: -->
 <!-- **Freudian role:** [Id / Ego / Superego](../story-facts/freudian-triangle.md) — [one-line gloss] -->
 
+## Hook
+
+<!-- Spoiler-free. One line: what a player knows the instant they are introduced
+     to this person: their name and public role or relation, nothing hidden.
+     This is the entity as a clue (knowing this person exists). No GM secrets. -->
+
+- [Name, then the public role. e.g. "the village butcher", "the sołtys's wife".]
+
 ## Vital Statistics
 
 - **Born:** [year]
