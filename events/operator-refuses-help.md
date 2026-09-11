@@ -47,13 +47,13 @@ A clear voice answering from the telephone exchange while floodwater cuts the vi
 - **Gives:** NPC State Change: the operator's mask cracks once, then reseals; the one-time tell is exhausted
 
 ### Reason with her — her brother is in the water
-- **Requires:** The table strongly suspects the operator is [Hania Barnaś](../characters/jagna.md), knows [Edek](../characters/glupek.md) is her brother through [`barnas-had-a-daughter`](../clues/clues.md#barnas-had-a-daughter) and [`edeks-father-orphaned-him`](../clues/clues.md#edeks-father-orphaned-him), and knows he fled to the [UPA bunker](../locations/upa-bunker.md) after [Ciotka Found Dead](ciotka-found-dead.md)
+- **Requires:** The table strongly suspects the operator is [Hania Barnaś](../characters/jagna.md), knows [Edek](../characters/glupek.md) is her brother through [`barnas-had-a-daughter`](../clues/clues.md#barnas-had-a-daughter) and [`edeks-father-left`](../clues/clues.md#edeks-father-left), and knows he fled to the [UPA bunker](../locations/upa-bunker.md) after [Ciotka Found Dead](ciotka-found-dead.md)
 - **Cost:** 1 action
 - **Outcome:** The operator learns Edek survived and is now trapped by the flood; she stops withholding and relays the call without confirming her identity.
 - **Gives:** NPC State Change: the operator can be reached through Edek; World State Change: the village's outside line works reliably again for real calls, but no rescue arrives before the flood's own timeline
 
 ### Turn on the village — bring them to justice
-- **Requires:** The players know a real village crime — the [`massacre`](../clues/clues.md#massacre-happened) or the [`lynch`](../clues/clues.md#matrona-orchestrated-lynch) — and credibly seek exposure and punishment rather than rescue
+- **Requires:** The players know a real village crime — the [`massacre`](../clues/clues.md#army-massacred-civilians-in-1947) or the [`lynch`](../clues/clues.md#matrona-orchestrated-lynch) — and credibly seek exposure and punishment rather than rescue
 - **Cost:** 1 action
 - **Outcome:** The operator relays calls that expose the village's crimes because they serve retribution, not rescue.
 - **Gives:** [`phone-is-lifeline`](../clues/clues.md#phone-is-lifeline); NPC State Change: the operator stops withholding for justice calls; World State Change: the truth can leave the valley through [The Report](the-report.md)

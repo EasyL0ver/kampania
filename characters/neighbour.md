@@ -95,15 +95,17 @@ While Humiliated:
 
 ### Census interview
 - **Requires:** Committee authority
+- **Prompted by:** aware:characters/neighbour.md
 - **Cost:** 1 action
-- **Outcome:** He starts hostile to government people in his home, then cooperates with clipped answers.
-- **Gives:** Census data — Ryszard Dudka, farmer.
+- **Outcome:** He starts hostile to government people in his home, then cooperates with clipped answers. The household record notes the licensed hunting rifle on the wall.
+- **Gives:** Census data — Ryszard Dudka, farmer; [neighbour-has-rifle](../clues/clues.md#neighbour-has-rifle)
 
 ### Property assessment
 - **Requires:** Committee authority
+- **Prompted by:** aware:characters/neighbour.md
 - **Cost:** 1 action
-- **Outcome:** He identifies his house and plot next to [Janina's](../locations/ciotkas-house.md). His papers are in order and his answers stay clipped.
-- **Gives:** Property record — Dudka house and farmland.
+- **Outcome:** He identifies his house and plot next to [Janina's](../locations/ciotkas-house.md). His papers are in order and his answers stay clipped — the record shows he has held the plot since ~1948.
+- **Gives:** Property record — Dudka house and farmland; [neighbour-is-old-settler](../clues/clues.md#neighbour-is-old-settler)
 
 ### Ask about Janka
 - **Requires:** He liked the players; they mention Janina, Edek, or the house next door
@@ -125,10 +127,10 @@ While Humiliated:
 - **Gives:** [jagna-fled-the-lynch](../clues/clues.md#jagna-fled-the-lynch), [neighbour-believes-jagna-dead](../clues/clues.md#neighbour-believes-jagna-dead)
 
 ### Confront about Ciotka's motherhood
-- **Requires:** [ciotka-moved-in-after-they-were-gone](../clues/clues.md#ciotka-moved-in-after-they-were-gone) and [edeks-father-orphaned-him](../clues/clues.md#edeks-father-orphaned-him)
+- **Requires:** [ciotka-moved-in-after-they-were-gone](../clues/clues.md#ciotka-moved-in-after-they-were-gone) and [edeks-father-left](../clues/clues.md#edeks-father-left)
 - **Cost:** Free
 - **Outcome:** He laughs and says Janina is not the boy's mother. She moved in after them, and the boy was already there.
-- **Gives:** [ciotka-not-mother](../clues/clues.md#ciotka-not-mother)
+- **Gives:** [ciotka-adopted-glupek](../clues/clues.md#ciotka-adopted-glupek)
 
 ### Ask about Ciotka's visitors
 - **Requires:** He liked the players; they ask who came to Janina's house before she died

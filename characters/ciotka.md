@@ -36,7 +36,6 @@ At home she moves around Edek with practiced care. In public she makes herself s
 - **[Zbigniew Gajda](wojewoda.md)** — "My brother is the sołtys. He has been good to me — the house, the boy. I do as he asks."
 - **[Helena Rzepka](matrona.md)** — "Helena runs the store. We're sisters. We manage."
 - **[Tadek Gajda](wujas.md)** — "Tadek drinks too much. He's still family."
-- **`ciotka-not-mother`** — "I am his mother. Whoever told you otherwise is lying, and I'll not speak of it again today."
 - **`wujas-is-guilty`** — "He's my brother. He's not a bad man, and I'll not give strangers more than that."
 - **`ciotka-avoids-family`** — "I keep busy with Edek and the house. It's hard to get away for gatherings."
   - *(Bond):* "I can't sit at that table. It isn't for the boy's sake. It's mine." → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
@@ -54,12 +53,12 @@ At home she moves around Edek with practiced care. In public she makes herself s
 - **Requires:** Committee authority
 - **Prompted by:** aware:characters/ciotka.md
 - **Cost:** 1 action
-- **Outcome:** She lists herself as mother and [Edward Barnaś](soldier.md) as the father who left the village. The house and boy are both presented as hers.
-- **Gives:** Census data — Janina Gajda and [Edek Barnaś](glupek.md); [`edeks-father-orphaned-him`](../clues/clues.md#edeks-father-orphaned-him)
+- **Outcome:** She presents her son [Edek](glupek.md) to the committee, then lists herself as mother and [Edward Barnaś](soldier.md) as the father who left the village — a Barnaś, though her own name is Gajda. The house and boy are both presented as hers.
+- **Gives:** Census data — Janina Gajda and [Edek Barnaś](glupek.md); [`edeks-father-left`](../clues/clues.md#edeks-father-left); aware:characters/soldier.md; aware:characters/glupek.md
 
 ### Property assessment
 - **Requires:** Committee authority
-- **Prompted by:** [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage)
+- **Prompted by:** aware:characters/ciotka.md
 - **Cost:** 1 action
 - **Outcome:** She says the house belongs to her brother, the sołtys, who gave it to her. She claims no deed and no title of her own.
 - **Gives:** Property record — no title in Janina's name; [`ciotka-house-is-wojewodas`](../clues/clues.md#ciotka-house-is-wojewodas)

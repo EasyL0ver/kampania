@@ -32,7 +32,7 @@ He speaks like a man who knows the rules are already on his side. His reasonable
 - **[%SISTER%](dispute-sister.md)** — My sister worked the strip, but father's name is on the deed and the deed covers the land. I am not signing my share away out of sentiment.
 - **[%OLD_VILLAGE%](../locations/old-village-ruins.md)** — Father used to go up there for timber and stone when we were building. I never liked it, and I do not know what it has to do with a boundary line.
 - **[por. Witold Skowron](officer.md)** — If your people rule against a legal deed, he is exactly who I will write to. I would rather not, but I will.
-- **`massacre-happened`:** That's her, isn't it? Father's deathbed nonsense has nothing to do with a farm boundary.
+- **`army-massacred-civilians-in-1947`:** That's her, isn't it? Father's deathbed nonsense has nothing to do with a farm boundary.
 
 ## Opportunities
 

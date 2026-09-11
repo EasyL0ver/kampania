@@ -33,7 +33,6 @@ His raspy warm voice gets louder and funnier with drink. The morning shakes and 
 - **[Janina Gajda](ciotka.md)** — She still leaves food out for me. I cannot stand her kindness because I do not deserve it.
 - **[Hania Barnaś](jagna.md)** — I loved her, and she never looked at me. I was one of the men who hurt her, and when she ran, I let the mountain take her.
 - **Smoking** — Sport when I have the coin, and whatever is put in my hand when I do not. Carmen is for men who think a dear cigarette makes them clean. I will still take one off you and not thank you for it.
-- **`ciotka-not-mother`:** Do not say that. Give me the bottle and talk about something else.
 
 ## Mechanics
 

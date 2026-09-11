@@ -58,7 +58,7 @@ The timber inside the abandoned koliba on the far ridge is cut all over with thr
 ### three-barred-cross-in-cerkiew
 The abandoned cerkiew's altar screen, icons, and carvings are marked all over with the three-barred cross.
 
-### massacre-happened
+### army-massacred-civilians-in-1947
 In 1947, the Lemko villagers of [%OLD_VILLAGE%](../locations/old-village-ruins.md) were killed — the whole village, in a single act of violence. They did not "evacuate." They were massacred.
 
 ### massacre-was-retribution
@@ -93,6 +93,7 @@ The 1947 dead were never given proper rites — no panakhyda, no memorial, no mo
 
 ### dam-covers-evidence
 The flood zone was chosen partly to bury the massacre evidence. [por. Witold Skowron](../characters/officer.md) knows this. The dam is infrastructure *and* a burial.
+**Synthesis:** old-village-flooding + officer-warning + massacre-was-covered-up
 
 ### hag-caused-the-massacre
 [Paraskewia Chyłak](../characters/hag.md) was in love with Dmytro Kosach, a UPA soldier, in 1947. The authorities traced the connection back to the village. Dmytro killed the commanding officer. The massacre happened because of her love — twice over.
@@ -104,8 +105,32 @@ The flood zone was chosen partly to bury the massacre evidence. [por. Witold Sko
 ### barnas-family-disappeared
 [Edward Barnaś](../characters/soldier.md)'s entire family — him, his partner, and teenage [Hania Barnaś](../characters/jagna.md) — vanished from %NEW_VILLAGE% overnight in 1954. No goodbyes, no forwarding address. Nobody asked questions. Only [Edek Barnaś](../characters/glupek.md) remained.
 
-### edeks-father-orphaned-him
+### edeks-father-left
 [Janina Gajda](../characters/ciotka.md) lists herself as mother and [Edward Barnaś](../characters/soldier.md) as the father — left the village. Abandoned his family. The house stayed with her, the boy stayed with her. Consistent with what the rest of the village says.
+
+### edek-box-key-fits-house
+The old key from the "EDEK" box turns the lock of [Janina Gajda](../characters/ciotka.md)'s front door. It was cut for this house.
+
+### ciotka-changed-the-lock
+The front door of [Janina Gajda](../characters/ciotka.md)'s house carries two locks fitted years apart — an older original and a newer one added later. At some point she changed the lock on the house.
+
+### ciotka-never-married
+In the census the boy and his absent father are recorded as Barnaś, while [Janina Gajda](../characters/ciotka.md), who raises him, is Gajda. She never took his name — read straight, the two were together but never married.
+
+### box-belongs-to-glupek
+The "EDEK" box could be [Edek Barnaś](../characters/glupek.md)'s — his name on the lid, a young man's kept oddments and the risqué photograph the kind a youth hides away.
+
+### box-belongs-to-soldier
+The "EDEK" box could be [Edward Barnaś](../characters/soldier.md)'s, the soldier who went by Edek too — a grown man's shaving kit, a military medal, and an old house key.
+
+### glupek-forbidden-from-attic
+[Edek Barnaś](../characters/glupek.md)'s toys are kept up in the attic, and he is not allowed to go up for them himself. Janina climbs up and brings them down for him.
+
+### roof-built-for-a-dome
+The attic roof is put together from the wrong pieces — shingles and timber shaped and curved to cover a dome, reused flat on this house. To a builder's eye they were made for something round, not this roof.
+
+### icons-in-attic-not-catholic
+Icons are stored up in the attic, and to a devout eye they are plainly Eastern-rite, not Roman Catholic. They do not belong in a Catholic home.
 
 ### barnas-had-a-daughter
 [Edward Barnaś](../characters/soldier.md) had a teenage daughter — [Hania Barnaś](../characters/jagna.md). She lived in the house. She's not in the census. She's not in the village. Nobody mentions her unless prompted.
@@ -426,9 +451,6 @@ A small brass Greek Catholic liturgical bell with Cyrillic lettering is hidden i
 ### ciotka-adopted-glupek
 [Janina Gajda](../characters/ciotka.md) took in [Edek Barnaś](../characters/glupek.md) after the family vanished. Nobody asked her to. Nobody stopped her.
 
-### ciotka-not-mother
-[Janina Gajda](../characters/ciotka.md) is not [Edek Barnaś](../characters/glupek.md)'s biological mother. She claimed motherhood on paper, but the village knows better.
-
 ### ciotka-avoids-family
 [Janina Gajda](../characters/ciotka.md) keeps her distance from the family. She begs off gatherings and stays anxious around her siblings — the avoidance is hers, not theirs.
 
@@ -443,6 +465,9 @@ A small brass Greek Catholic liturgical bell with Cyrillic lettering is hidden i
 
 ### neighbour-has-rifle
 [Ryszard Dudka](../characters/neighbour.md) is a hunter with a licensed hunting rifle.
+
+### neighbour-is-old-settler
+[Ryszard Dudka](../characters/neighbour.md) has farmed the plot next to the Barnaś/Janina house since ~1948 — an early settler, there through the 1954 lynch.
 
 ### siblings-fund-the-church
 The siblings keep the [church](../locations/the-church.md) unusually well supplied — firewood, food, gifts. [ks. Władysław Pająk](../characters/priest.md)'s silence is materially supported.

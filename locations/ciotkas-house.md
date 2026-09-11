@@ -19,6 +19,9 @@ The best plot in %NEW_VILLAGE%, across from the Neighbour's house.
 - **Interior:** Catholic icons hang on every wall.
 - **Interior:** Candles are lit.
 - **Interior:** The house smells of soap and cooked grain.
+- **Door:** Two locks on the front door — one old and pitted low on the frame, one newer above it. It reads as a fearful woman's caution.
+- **Attic:** A hatch in the ceiling with a short ladder folded beside it. It stays shut, and Janina is the only one who goes up.
+- **Edek:** He plays with a few worn wooden toys and keeps asking Janina for more of them.
 - **Edek's care:** Sharp edges, clutter, and surprises are removed.
 - **Edek's room:** His own room. Straw mattress, age-inappropriate wooden toy, scratch marks on the wall.
 - **Edek's room:** A grown man's room kept like a small child's. The toys are worn from handling but the room is too quiet, too still.
@@ -33,6 +36,9 @@ The best plot in %NEW_VILLAGE%, across from the Neighbour's house.
 - **Backyard:** The patch can look like a failed old garden bed.
 
 ## Opportunities
+
+- **Two locks, two ages** `(requires: Handiwork)` — The two locks were not fitted together. The old one below is original to the door; the newer one above was added years later. She did not double up out of fear — at some point she changed the lock on this house. → Gives: [`ciotka-changed-the-lock`](../clues/clues.md#ciotka-changed-the-lock)
+- **The boy's errand** `(requires: nothing)` — Partway through the visit Edek tugs Janina's sleeve and asks, low, for more of his toys — the ones kept up in the attic. She soothes him: not now, and not himself; once the gentlemen have gone she will go up and bring a couple down. He is not to climb up there. → Gives: [`glupek-forbidden-from-attic`](../clues/clues.md#glupek-forbidden-from-attic)
 
 ## Actions
 

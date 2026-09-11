@@ -43,7 +43,6 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **[por. Witold Skowron](officer.md)** — "The lieutenant looks in from time to time. Routine. I report what there is to report."
 - **[ks. Władysław Pająk](priest.md)** — "A good priest. We keep the parish provided for through the farm. Order is worth the cost."
 - **[Hania Barnaś](jagna.md)** — "The Barnaś family? They left in '54. People do leave. I don't recall much past that."
-- **`ciotka-not-mother`** — "Janina is his mother. I signed the papers myself, and that is the end of it."
 - **`wujas-is-guilty`** — "My brother drinks; that is not a crime. Leave him alone."
 - **`church-too-nice`** — "The parish gets what it needs through the farm. A church in good repair keeps the village in order and the priest content — money well spent, not a mystery."
 - **`irena-is-watchful`** — "Irena listens at doors when strangers are in the house. She worries; that is all. Don't read into a woman standing in her own hallway."
@@ -75,8 +74,8 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **Requires:** Committee authority
 - **Prompted by:** [committee-fills-census](../clues/clues.md#committee-fills-census)
 - **Cost:** 1 action
-- **Outcome:** As the committee's point of contact, he runs down who lives where. Among the households he names his sister [Janina Gajda](ciotka.md), the widow who keeps the best house at the edge of the village and cares for the boy, living apart from the rest.
-- **Gives:** aware:characters/ciotka.md
+- **Outcome:** As the committee's point of contact, he runs down who lives where. Among the households he names his sister [Janina Gajda](ciotka.md), the widow who keeps the best house at the edge of the village and cares for the boy, living apart from the rest. He also names [Ryszard Dudka](neighbour.md), the neighbour whose house sits between Janina's and Barbara's.
+- **Gives:** aware:characters/ciotka.md; aware:characters/neighbour.md
 
 ### Property assessment
 - **Requires:** Committee authority

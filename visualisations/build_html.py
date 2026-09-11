@@ -162,7 +162,6 @@ HTML = r"""<!DOCTYPE html>
   #side { width:320px; flex:0 0 320px; border-right:1px solid #232733; display:flex; flex-direction:column; }
   #side h1 { font-size:14px; margin:12px 14px 4px; }
   #stats { margin:0 14px 8px; color:#8b93a1; font-size:11px; }
-  #search { margin:6px 14px; padding:7px 9px; background:#1a1e27; border:1px solid #2a2f3c; color:#d7dbe0; border-radius:6px; }
   #list { overflow:auto; flex:1; padding:2px 6px 12px; }
   .row { padding:5px 8px; border-radius:5px; cursor:pointer; display:flex; justify-content:space-between; gap:8px; }
   .row:hover { background:#1a1e27; }
@@ -198,7 +197,6 @@ HTML = r"""<!DOCTYPE html>
 <div id="side">
   <h1>Clue graph</h1>
   <div id="stats"></div>
-  <input id="search" placeholder="Filter clues / scenes…" autocomplete="off"/>
   <div id="list"></div>
 </div>
 <div id="main">
@@ -403,6 +401,9 @@ function showAll(){ active=null; nodes.forEach(n=>n._el.classList.remove("dim"))
   links.forEach(l=>{ l._el.classList.remove("dim"); l._hit.classList.remove("dim"); if(l._lb) l._lb.classList.remove("dim"); });
   document.querySelectorAll(".row").forEach(r=>r.classList.remove("on")); }
 document.getElementById("reset").onclick=showAll;
+// centre the viewport on a node (pan, keep a readable zoom)
+function panTo(id){ const n=nodes.find(x=>x.id===id); if(!n) return;
+  const k=Math.max(vt.k,1.2); vt.k=k; vt.x=W/2-n.x*k; vt.y=H/2-n.y*k; applyVT(); }
 
 const tip=document.getElementById("tip");
 function showNodeTip(n,e){
@@ -439,9 +440,8 @@ function renderList(f){
       r.dataset.id=c.id;
       const col=(TYPE[typeOf(c)]||TYPE.clue).color;
       r.innerHTML=`<span class="lbl" style="color:${col}">${c.label}</span><span class="n">${incoming.get(c.id).length}</span>`;
-      r.onclick=()=>focus(c.id); listEl.appendChild(r); });
+      r.onclick=()=>{ active=c.id; document.querySelectorAll(".row").forEach(x=>x.classList.toggle("on",x.dataset.id===c.id)); panTo(c.id); }; listEl.appendChild(r); });
 }
-document.getElementById("search").addEventListener("input",e=>renderList(e.target.value.trim().toLowerCase()));
 renderList("");
 const c=DATA.counts;
 document.getElementById("stats").textContent=`${c.facts} facts · ${c.known} known · ${c.moves} edges`;

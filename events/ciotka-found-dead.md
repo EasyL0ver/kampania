@@ -56,6 +56,8 @@
 - **Keep it quiet for now** `(requires: Bureaucracy or Violence)` — Once the village knows, the committee loses control of the scene: a crowd, grief, a hunt for someone to blame, and no room left to investigate. Better to sit on the death a while and work first.
 - **Examine her properly** `(requires: Medicine)` — A real examination is impossible through her clothes. Her body would have to be undressed first.
 - **The bell looks unsteady** `(requires: Handiwork, and the attic open)` — The bell is balanced high and badly seated. Anyone reaching for it will knock it loose unless they are ready to catch it.
+- **The roof is wrong** `(requires: Handiwork, and the attic open)` — Up under the rafters the shingles and boards don't match the roof: pieces cut and curved to skin a dome, reused flat. A builder sees it at once, this timber was made for something round, not this house. → Gives: [`roof-built-for-a-dome`](../clues/clues.md#roof-built-for-a-dome)
+- **The wrong icons** `(requires: Devotion, and the attic open)` — Icons are stacked up in the attic, out of sight of the rooms below. A believer sees it at once: these are Eastern-rite, not the Roman Catholic images hung downstairs. They do not belong in this house. → Gives: [`icons-in-attic-not-catholic`](../clues/clues.md#icons-in-attic-not-catholic)
 - **He is armed** `(requires: [Dudka has barged in](#noise))` — Dudka fills the doorway with a hunting rifle level on them. → Gives: [`neighbour-has-rifle`](../clues/clues.md#neighbour-has-rifle)
 
 ## Actions
@@ -119,8 +121,8 @@
 - **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 action
-- **Outcome:** A box in the rubbish is marked "EDEK" and reads at a glance like the boy's things. It is not: the belongings are a grown man's, wrong size and wrong age for [Edek Barnaś](../characters/glupek.md). Edward Barnaś went by Edek too.
-- **Gives:** Item / Evidence: the box marked "EDEK" of a grown man's belongings.
+- **Outcome:** A box in the rubbish is marked "EDEK" and reads at a glance like the boy's things. It is not: the belongings are a grown man's, wrong size and wrong age for [Edek Barnaś](../characters/glupek.md). Edward Barnaś went by Edek too. The box is thick with dust and has sat untouched for years. Among the belongings is an old iron front-door key.
+- **Gives:** Item / Evidence: the [box marked "EDEK"](../items/edek-box.md) of a grown man's belongings.
 
 ### Open the wardrobe
 - **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))
