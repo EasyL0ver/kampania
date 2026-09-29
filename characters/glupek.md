@@ -53,6 +53,13 @@ His voice is surprisingly soft for his size. Kindness reaches him after a pause,
 - **Outcome:** He brightens and says the butcher gave it to him. Rezeń ruffles his hair and slips him food and little presents. Edek keeps the cigarette but never lights it. He does not understand why the same man makes him freeze when the dogs bark.
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)
 
+### Ask Edek about the butcher
+- **Requires:** Players talk to him directly
+- **Prompted by:** aware:characters/glupek.md
+- **Cost:** Free
+- **Outcome:** He goes quiet and small. He says the butcher's dogs make him hide, and when Rezeń passes he cannot move. He does not know why.
+- **Gives:** [`glupek-fears-butcher`](../clues/clues.md#glupek-fears-butcher)
+
 ### Watch Edek near the forest
 - **Requires:** The well is active
 - **Cost:** Free

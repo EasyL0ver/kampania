@@ -74,8 +74,8 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **Requires:** Committee authority
 - **Prompted by:** [committee-fills-census](../clues/clues.md#committee-fills-census)
 - **Cost:** 1 action
-- **Outcome:** As the committee's point of contact, he runs down who lives where. Among the households he names his sister [Janina Gajda](ciotka.md), the widow who keeps the best house at the edge of the village and cares for the boy, living apart from the rest. He also names [Ryszard Dudka](neighbour.md), the neighbour whose house sits between Janina's and Barbara's.
-- **Gives:** aware:characters/ciotka.md; aware:characters/neighbour.md
+- **Outcome:** As the committee's point of contact, he runs down who lives where. Among the households he names his sister [Janina Gajda](ciotka.md), the widow who keeps the best house at the edge of the village and cares for the boy, living apart from the rest. He also names [Ryszard Dudka](neighbour.md), the neighbour whose house sits between Janina's and Barbara's, and the Rzepka household, where [Emil Rzepka](painter.md), the local painter, lives with his wife.
+- **Gives:** aware:characters/ciotka.md; aware:characters/neighbour.md; aware:characters/painter.md
 
 ### Property assessment
 - **Requires:** Committee authority

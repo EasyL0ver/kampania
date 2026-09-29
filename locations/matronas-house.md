@@ -28,7 +28,7 @@ The centre of %NEW_VILLAGE%, close to the store.
 - **Ewa:** She brings tea to Emil's attic when Helena is not watching.
 - **Krystian:** [Krystian Rzepka](../characters/secondary-characters.md) comes and goes for altar-boy duties.
 - **Krystian:** He repeats village observations to Helena.
-- **Attic:** Emil's attic contains landscapes, village scenes, and one portrait of a young dark-haired woman with no name or label.
+- **Attic:** Emil's attic contains landscapes and village scenes of old wooden houses and a stone church.
 - **Attic:** Newer paintings show dark circles, black water, and stone rings.
 - **Progression:** As the well strengthens, Helena increases public piety, generosity, and church visits.
 - **Night:** Overnight guests hear Emil pacing and painting after midnight.
@@ -39,45 +39,12 @@ The centre of %NEW_VILLAGE%, close to the store.
 
 - **Household dynamic** `(requires: Empathy)` — Emil waits for Helena's cues before speaking, and her touch makes him flinch. → Gives: [matrona-controls-painter](../clues/clues.md#matrona-controls-painter)
 - **Well in the paintings** `(requires: access to Emil's attic)` — The newer paintings show the well before the players find or understand it. → Gives: [painters-art-shows-the-well](../clues/clues.md#painters-art-shows-the-well)
+- **Not one face** `(requires: access to Emil's attic)` — Every canvas on the walls is a landscape or a village scene. In a whole attic of paintings, there is not a single person. → Gives: [emil-doesnt-paint-people](../clues/clues.md#emil-doesnt-paint-people)
+- **A village that is gone** `(requires: access to Emil's attic and Culture)` — The wooden houses and stone church in the older canvases are not the new village. This is the settlement from before the resettlement, a place that no longer stands. He paints it from memory.
+- **The well wants something** `(requires: access to Emil's attic and Superstitious)` — The newest paintings are not landscapes. The black water and the ring of stones are rendered like something awake, and the eye is always pulled down into them.
 - **Helena's over-correction** `(requires: Day 2+ or well influence active and Empathy)` — Helena becomes more publicly perfect as pressure rises.
 
 ## Actions
-
-### Census visit — interview Helena
-- **Requires:** Committee authority
-- **Cost:** 1 action
-- **Outcome:** Helena gives complete household answers, frames the village as struggling but decent, and presents herself as a forgiving wife and pious host.
-- **Gives:** World State Change: Helena establishes her official version of the household and learns the committee's questions.
-
-### Get Emil alone
-- **Requires:** Helena absent
-- **Cost:** 1 action
-- **Outcome:** Emil is nervous, avoids eye contact, answers minimally, and lingers near the unnamed portrait.
-- **Gives:** Scene Unlock: Follow-up questions to Emil without Helena present.
-
-### Ask Emil about the portrait
-- **Requires:** Seen the portrait and know Hania's name from another source
-- **Cost:** Free
-- **Outcome:** Emil reacts physically to Hania's name and asks that she be written into the census as someone who lived here.
-- **Gives:** [painter-wants-to-confess](../clues/clues.md#painter-wants-to-confess)
-
-### Talk to Ewa
-- **Requires:** Warmth toward Ewa
-- **Cost:** Free
-- **Outcome:** Ewa reveals household facts through worry: Emil does not sleep, paints at night, and Helena checks his paintings.
-- **Gives:** NPC State Change: Ewa can become an ally for creating a window to speak with Emil.
-
-### Search Emil's painting attic
-- **Requires:** Emil and Helena both absent, or Emil's permission
-- **Cost:** 1 action
-- **Outcome:** The players find landscapes, village scenes, the unnamed portrait, and newer paintings where the well appears as dark circles, black water, and stone rings.
-- **Gives:** [painter-was-spared](../clues/clues.md#painter-was-spared); [painters-art-shows-the-well](../clues/clues.md#painters-art-shows-the-well)
-
-### Stay overnight
-- **Requires:** Helena chose players to stay here after [03-dinner](../events/dinner.md)
-- **Cost:** Free
-- **Outcome:** The players hear Emil pacing and painting, Helena checking him, a whispered controlling argument, Krystian mumbling prayers, and Ewa staying silent in the hall.
-- **Gives:** [matrona-controls-painter](../clues/clues.md#matrona-controls-painter)
 
 ### Lift Helena's keys
 - **Requires:** **Finesse**; close to Helena, over her tea and bread or while her attention is elsewhere

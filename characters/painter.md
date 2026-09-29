@@ -32,6 +32,20 @@ His hands are the only alive part of him: long-fingered, always stained with cad
 
 ## Actions
 
+### Show Emil the dress
+- **Requires:** Holding the [blue dress](../items/girls-dress.md)
+- **Prompted by:** aware:characters/painter.md
+- **Cost:** Free
+- **Outcome:** He goes still, then his stained hands start to shake. He cannot look at it and cannot look away.
+- **Gives:** [`dress-distressed-painter`](../clues/clues.md#dress-distressed-painter)
+
+### Ask Emil about the portrait
+- **Requires:** [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew) and know Hania's name from another source
+- **Prompted by:** [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew)
+- **Cost:** Free
+- **Outcome:** Emil reacts physically to Hania's name and asks that she be written into the census as someone who lived here.
+- **Gives:** [`painter-wants-to-confess`](../clues/clues.md#painter-wants-to-confess)
+
 ### Census interview
 - **Requires:** Committee authority
 - **Cost:** 1 action

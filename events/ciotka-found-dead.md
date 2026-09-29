@@ -56,7 +56,7 @@
 - **Keep it quiet for now** `(requires: Bureaucracy or Violence)` — Once the village knows, the committee loses control of the scene: a crowd, grief, a hunt for someone to blame, and no room left to investigate. Better to sit on the death a while and work first.
 - **Examine her properly** `(requires: Medicine)` — A real examination is impossible through her clothes. Her body would have to be undressed first.
 - **The bell looks unsteady** `(requires: Handiwork, and the attic open)` — The bell is balanced high and badly seated. Anyone reaching for it will knock it loose unless they are ready to catch it.
-- **The roof is wrong** `(requires: Handiwork, and the attic open)` — Up under the rafters the shingles and boards don't match the roof: pieces cut and curved to skin a dome, reused flat. A builder sees it at once, this timber was made for something round, not this house. → Gives: [`roof-built-for-a-dome`](../clues/clues.md#roof-built-for-a-dome)
+- **The roof is wrong** `(requires: Handiwork, and the attic open)` `(prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead))` — Up under the rafters the shingles and boards don't match the roof: pieces cut and curved to skin a dome, reused flat. A builder sees it at once, this timber was made for something round, not this house. → Gives: [`roof-built-for-a-dome`](../clues/clues.md#roof-built-for-a-dome)
 - **The wrong icons** `(requires: Devotion, and the attic open)` — Icons are stacked up in the attic, out of sight of the rooms below. A believer sees it at once: these are Eastern-rite, not the Roman Catholic images hung downstairs. They do not belong in this house. → Gives: [`icons-in-attic-not-catholic`](../clues/clues.md#icons-in-attic-not-catholic)
 - **He is armed** `(requires: [Dudka has barged in](#noise))` — Dudka fills the doorway with a hunting rifle level on them. → Gives: [`neighbour-has-rifle`](../clues/clues.md#neighbour-has-rifle)
 
@@ -128,8 +128,8 @@
 - **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 action
-- **Outcome:** Inside the big wardrobe, a teenage girl's dress, folded and kept. A girl that age lived in this house once.
-- **Gives:** Item / Evidence: the [girl's dress](../items/girls-dress.md), folded and kept at the back of the wardrobe.
+- **Outcome:** Inside the big wardrobe, a blue dress, folded and kept.
+- **Gives:** Item / Evidence: the [blue dress](../items/girls-dress.md), folded and kept at the back of the wardrobe.
 
 ### Examine the child's rattle
 - **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))

@@ -82,6 +82,13 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 - **Outcome:** She says the cross is her mother's and that it belongs to "the old way." She cannot explain the theology or history.
 - **Gives:** [`three-barred-cross-is-lemko`](../clues/clues.md#three-barred-cross-is-lemko), [`babcia-is-lemko`](../clues/clues.md#babcia-is-lemko)
 
+### Show Barbara the dress
+- **Requires:** Holding the [blue dress](../items/girls-dress.md)
+- **Prompted by:** [girls-dress-in-ciotkas-house](../clues/clues.md#girls-dress-in-ciotkas-house)
+- **Cost:** Free
+- **Outcome:** She takes it, turns it over, and knows the cut at once: this was made for a teenage girl, not a grown woman and not a child.
+- **Gives:** [`dress-belonged-to-teenage-girl`](../clues/clues.md#dress-belonged-to-teenage-girl)
+
 ## Bond
 
 - [ ] Help with [Pawełek Kopacz](pawelek.md) in a practical way.

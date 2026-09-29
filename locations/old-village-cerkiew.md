@@ -19,6 +19,7 @@
 - **State:** Door hangs loose.
 - **State:** Interior is wet from rain and groundwater seepage.
 - **State:** Abandoned altar, broken candle stands, and debris remain on the floor.
+- **Hidden bundle:** In a dry corner behind the altar screen, out of the rain, a flat cloth-wrapped bundle has been left with care and kept dry, plainly placed there long after the fire.
 - **Ritual traces:** Fresh candles appear periodically.
 - **Ritual traces:** Candle wax and faint incense smell are present on some nights.
 - **Atmosphere:** In the half-light the empty nave feels occupied — footprints in the dust, a draft that stirs the candle flames, the steady sense of being watched.
@@ -39,6 +40,12 @@
 - **Cost:** 1 action
 - **Outcome:** The players document the altar, faded icons, Cyrillic inscriptions, broken candle stands, rain damage, and unstable roof sections.
 - **Gives:** [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
+
+### Open the wrapped bundle
+- **Requires:** Access to the cerkiew
+- **Cost:** 1 action
+- **Outcome:** The players lift the cloth-wrapped bundle from its dry corner and open it. Inside is an oil portrait of a young dark-haired woman in a blue dress, painted with a care nothing in the ruins shares. Someone carried it here and kept it dry on purpose.
+- **Gives:** Item / Evidence: the [portrait](../items/portrait.md); [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew); [portrait-woman-in-blue-dress](../clues/clues.md#portrait-woman-in-blue-dress)
 
 ### Search for ritual traces
 - **Requires:** Access to the cerkiew

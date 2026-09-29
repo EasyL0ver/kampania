@@ -34,7 +34,7 @@ The river, hillsides, and forest edges around %NEW_VILLAGE%.
 
 ## Opportunities
 
-- **Spot the old village** `(requires: Survival on a survey route)` — Stone ruins are visible through the trees. → Gives: [old village exists](../clues/clues.md#old-village-exists)
+- **Spot the old village** `(requires: Survival on a survey route)` — Stone ruins are visible through the trees. → Gives: aware:locations/old-village-ruins.md
 - **Spot Butcher at his house** `(requires: Finesse on the route past [Stanisław Rezeń](../characters/butcher.md)'s house)` — Rezeń is alone near the treeline and using the same direction repeatedly. → Gives: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
 - **Spot the drinking crew heading into the forest** `(requires: Survival near the treeline track)` — Tadek Gajda and the crew carry bottles toward the forest. → Gives: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
 - **See the landslide plug** `(requires: Survival on a survey route)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The notch in the ridge is choked with fallen rock and earth. → Gives: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)

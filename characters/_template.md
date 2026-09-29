@@ -40,38 +40,36 @@
 
 ## Opinions
 
-<!-- The NPC's TOPIC REACTIONS — what they say when a player raises a subject.
-     These are free talking-points, part of a conversation (raising a topic
-     mid-conversation is a free follow-up, not a time action). A line may reveal
-     nothing (a deflection) or hand over a clue.
+<!-- ATMOSPHERE ONLY. The NPC's spoken topic reactions — what they say when a
+     player raises a subject in conversation. Free talking-points, no time cost.
+
+     Opinions NEVER give clues. They cannot be gated or seeded: the graph
+     collapses the whole section into one gate-less, source-less node, so any
+     clue "given" here is isolated/unreachable in the visualisation. If raising
+     a topic hands players a discoverable fact, that belongs in an ACTION
+     ("Ask <NPC> about X") or an Opportunity — put the `→ Gives:` there and
+     seed it with `(prompted by: aware:characters/<npc>.md)` so it connects.
+     Opinions only set stance and colour.
 
      Keyed three ways:
      - **[Name](file.md)** for people
      - **[Location](file.md)** for places
-     - **`clue-id`** for player-discoverable facts (reaction when confronted with it)
+     - **`clue-id`** for the NPC's reaction when confronted with a known fact
 
-     Format per entry:
-     - **[key]** — "default spoken line." Optional `→ Gives: [clue-id](link)`.
-       This is what they say to anyone who raises the topic. It may deflect
-       (no Gives) or reveal a clue (with Gives).
-     - Indented `*(condition):*` branches REPLACE the default when a condition
-       holds — a bond, a held `clue-id`, a world state, or "if pressed". Same
-       gate syntax as opportunities. The most specific matching branch wins.
-       Each branch can carry its own `→ Gives:`.
+     Indented `*(condition):*` branches REPLACE the default spoken line when a
+     condition holds (a bond, a held clue, a world state, "if pressed"). The
+     most specific matching branch wins. Branches are still atmosphere — no
+     `→ Gives:`.
 
      RULES:
-     1. FREE only. Opinions are spoken reactions inside a conversation. If the
-        reveal costs real time (a full interview, a search, leverage), it is an
-        ACTION, not an Opinion.
-     2. A clue given here must exist in clues/clues.md — link it.
-     3. No internal monologue. Write what they SAY, not what they think.
-     4. Omit a `Says` line entirely for a topic the NPC would wordlessly
-        stonewall — a silent stonewall is not a spoken line. -->
+     1. No `→ Gives:` here, ever. Clue reveals live in Actions/Opportunities.
+     2. No internal monologue. Write what they SAY, not what they think.
+     3. Omit a line entirely for a topic the NPC would wordlessly stonewall. -->
 
-- **[Name](file.md)** — "[default spoken line]." [→ Gives: [`clue-id`](../clues/clues.md#clue-id)]
-  - *([condition]):* "[spoken line that replaces the default]." [→ Gives: [`clue-id`](../clues/clues.md#clue-id)]
-- **[Location](file.md)** — "[default spoken line]."
-- **`clue-id`** — "[what they say when confronted with this clue]."
+- **[Name](file.md)** — "[spoken stance, no clue]."
+  - *([condition]):* "[spoken line that replaces the default under this condition]."
+- **[Location](file.md)** — "[spoken stance, no clue]."
+- **`clue-id`** — "[what they say when confronted with this clue, no reveal]."
 
 ## Mechanics
 

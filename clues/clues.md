@@ -37,9 +37,6 @@ In Barbara Kopacz's house, a small three-barred crucifix hangs above [Stefania K
 
 ## The Old Village
 
-### old-village-exists
-There's an old, abandoned village in the forest — [%OLD_VILLAGE%](../locations/old-village-ruins.md). Ruins, overgrown paths, stone foundations. People used to live there. Nobody does now.
-
 ## The 1947 Massacre
 
 ### old-village-was-lemko
@@ -155,6 +152,10 @@ Something violent happened one night in 1954. [Zbigniew Gajda](../characters/woj
 ### jagna-painter-affair
 [Hania Barnaś](../characters/jagna.md) and [Emil Rzepka](../characters/painter.md) were lovers. Open secret in the village — everyone knew.
 
+### painter-loved-jagna
+[Emil Rzepka](../characters/painter.md) was in love with [Hania Barnaś](../characters/jagna.md), and still carries it.
+**Synthesis:** portrait-is-jagnas + emil-doesnt-paint-people + emil-signed-the-portrait
+
 ### jagna-knew-the-secret
 [Hania Barnaś](../characters/jagna.md) had discovered that the Gajda siblings were secretly Lemko — she learned it from [Emil Rzepka](../characters/painter.md). She never used it: no threat, no demand, no word to anyone. She simply knew. It was enough to get her killed — [Helena Rzepka](../characters/matrona.md) presumed the girl would someday use it and did not wait to find out.
 
@@ -258,6 +259,9 @@ Stanisław Rezeń is often seen heading toward the forest, alone, always in the 
 ### butcher-compelled-to-feed
 [Stanisław Rezeń](../characters/butcher.md) feels compelled to put something IN the well. Strangers = prey. He doesn't fully understand the compulsion.
 
+### butcher-dumps-carcasses-in-well
+[Stanisław Rezeń](../characters/butcher.md) drops animal carcasses and slaughter scraps down the well — the offcuts of his trade, fed to the well between the times he has nothing else to give it.
+
 ### hag-tends-the-well
 [Paraskewia Chyłak](../characters/hag.md) has spent 20 years performing Lemko rites at the well — fire, incense, bread, honey, prayer. She is containing it through acknowledgement.
 
@@ -275,9 +279,6 @@ Someone was murdered at the well. Blood smeared on the rim, drag marks from a kn
 
 ### rezen-fed-ciotka-to-well
 [Stanisław Rezeń](../characters/butcher.md) took [Janina Gajda](../characters/ciotka.md)'s body from the church and put it in [the well](../story-facts/the-well.md). He doesn't hide it — he frames it as practical: the flood left her unburied, the body was starting to turn, so he dealt with it. He does not understand, or say, that the well pulled him to do it. **Conditional:** Only exists if [Rezeń takes the body](../events/rezen-takes-the-body.md).
-
-### players-dream-too
-From the first night in the village, the players have dreams of violence — hands doing things, the satisfaction of breaking. Each night worse. By day three they've felt what [Stanisław Rezeń](../characters/butcher.md) has felt for thirteen years.
 
 ### babcia-mind-returns
 [Stefania Kopacz](../characters/babcia.md)'s dementia reverses as the well strengthens. Nobody notices because nobody was watching.
@@ -436,7 +437,16 @@ Tadek Gajda is guilty of something terrible. He's been drinking to forget for 13
 [Janina Gajda](../characters/ciotka.md) lives in [Edward Barnaś](../characters/soldier.md)'s former house — the best plot in the village — raising his brain-damaged son. A single woman in a dead man's house with no clean explanation.
 
 ### girls-dress-in-ciotkas-house
-A teenage girl's dress is kept in [Janina Gajda](../characters/ciotka.md)'s house. A girl that age lived here once.
+A blue dress is kept, folded, in [Janina Gajda](../characters/ciotka.md)'s house.
+
+### dress-belonged-to-teenage-girl
+The blue dress was cut for a teenage girl, not a grown woman and not a child.
+
+### dress-distressed-painter
+Shown the blue dress, [Emil Rzepka](../characters/painter.md) reacts with visible distress.
+
+### dress-belonged-to-jagna
+The blue dress kept in [Janina Gajda](../characters/ciotka.md)'s house belonged to [Hania Barnaś](../characters/jagna.md).
 
 ### childs-rattle-in-ciotkas-house
 A small child's rattle is kept in [Janina Gajda](../characters/ciotka.md)'s house. A baby lived here once.
@@ -473,6 +483,26 @@ The siblings keep the [church](../locations/the-church.md) unusually well suppli
 
 ### painters-art-shows-the-well
 [Emil Rzepka](../characters/secondary-characters.md)'s art starts showing the well before the players find it — dark circles, stone rings, black water.
+
+### emil-doesnt-paint-people
+[Emil Rzepka](../characters/painter.md) paints only landscapes. He never paints people.
+
+### portrait-hidden-in-cerkiew
+A portrait of a young dark-haired woman is hidden in the ruined cerkiew at [%OLD_VILLAGE%](../locations/old-village-cerkiew.md), wrapped and sheltered from the rain.
+
+### portrait-woman-in-blue-dress
+The woman in [Emil Rzepka](../characters/painter.md)'s hidden portrait wears a blue dress.
+
+### blue-dress-matches-portrait
+The blue dress kept in [Janina Gajda](../characters/ciotka.md)'s house is the same one the woman wears in [Emil Rzepka](../characters/painter.md)'s hidden portrait.
+**Synthesis:** portrait-woman-in-blue-dress + girls-dress-in-ciotkas-house
+
+### emil-signed-the-portrait
+The hidden portrait carries [Emil Rzepka](../characters/painter.md)'s signature. He painted it himself.
+
+### portrait-is-jagnas
+The woman in the hidden portrait is [Hania Barnaś](../characters/jagna.md).
+**Synthesis:** dress-belonged-to-jagna + blue-dress-matches-portrait
 
 ### neighbour-avoids-ciotkas-window
 Ryszard Dudka's window facing Ciotka's house is always covered with a heavy curtain — never opened. The window facing Barbara's house has no curtain at all.
@@ -652,9 +682,6 @@ The committee is taking a census: who lives in each household, names, ages, how 
 ---
 
 ## The Ritual
-
-### ritual-requires-three-things
-The ritual requires form (how), words (what to say), and truth (naming the dead and what happened).
 
 ### hag-has-the-form
 [Paraskewia Chyłak](../characters/hag.md)'s cabin contains icons, candles, herbs, prayer materials — the ritual's form. If alive, she can teach it directly.

@@ -31,18 +31,18 @@ At home she moves around Edek with practiced care. In public she makes herself s
 
 - **[Edek Barnaś](glupek.md)** — "He's my son. He needs looking after, and I look after him. That's all there is to it."
 - **[Stanisław Rezeń](butcher.md)** — "The butcher keeps to himself. I don't have dealings with him."
-  - *(Bond):* "I lock my door because of that man. Don't ask me why. Please." → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+  - *(Bond):* "I lock my door because of that man. Don't ask me why. Please."
 - **[ks. Władysław Pająk](priest.md)** — "The priest is a good man. I go to him for confession, like anyone."
 - **[Zbigniew Gajda](wojewoda.md)** — "My brother is the sołtys. He has been good to me — the house, the boy. I do as he asks."
 - **[Helena Rzepka](matrona.md)** — "Helena runs the store. We're sisters. We manage."
 - **[Tadek Gajda](wujas.md)** — "Tadek drinks too much. He's still family."
 - **`wujas-is-guilty`** — "He's my brother. He's not a bad man, and I'll not give strangers more than that."
 - **`ciotka-avoids-family`** — "I keep busy with Edek and the house. It's hard to get away for gatherings."
-  - *(Bond):* "I can't sit at that table. It isn't for the boy's sake. It's mine." → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
+  - *(Bond):* "I can't sit at that table. It isn't for the boy's sake. It's mine."
 
 ## Opportunities
 
-- **The flinch at family** `(requires: brought up her siblings and Read)` — every mention of her siblings pulls her tight; she changes the subject, hands busy. The distance is hers and it costs her. → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
+- **The flinch at family** `(requires: brought up her siblings and Read)` `(prompted by: aware:characters/ciotka.md)` — every mention of her siblings pulls her tight; she changes the subject, hands busy. The distance is hers and it costs her. → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
 - **The faith is real** `(requires: Devotion)` — the rosary in her apron pocket is worn to the string, beads rubbed pale at the decades. She murmurs before she eats and before she leaves a room, small reflexive prayers she does not perform for anyone. A believer who means it clocks the difference at once: hers is real, and it is heavy. She carries it like penance. → Gives: [`ciotka-is-devout`](../clues/clues.md#ciotka-is-devout)
 - **She loves the boy** `(requires: Empathy)` — watch her with Edek and the fear leaves her face. She reads his moods before he shows them, warms his food to the temperature he likes, steadies him without being asked. Whatever else she is, this is a woman who loves this boy and has built her whole small life around caring for him.
 - **Coffee for the visitors** `(requires: nothing)` `(prompted by: aware:characters/ciotka.md)` — Janina sets out coffee for the committee, hospitality she will not skip. [Edek Barnaś](glupek.md) is given a cup too and flinches at the first taste, baffled that anyone drinks something so bitter, and leaves it untouched. Coffee in that house is hers alone. → Gives: [`glupek-wont-drink-coffee`](../clues/clues.md#glupek-wont-drink-coffee)

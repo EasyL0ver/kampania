@@ -2,7 +2,7 @@
 
 **Location:** [%OLD_VILLAGE%](../locations/old-village-ruins.md)
 **Present:** [Paraskewia Chyłak](../characters/hag.md) (if survived [the confrontation](well-confrontation.md)), [Stefania Kopacz](../characters/babcia.md) (if [Barbara Kopacz](../characters/barbara.md) brought her), [Edek Barnaś](../characters/glupek.md) (if drawn to the well)
-**Available:** Late game, after the players hold [`ritual-requires-three-things`](../clues/clues.md#ritual-requires-three-things); before [the-flood](the-flood.md) claims the well, or at the [cerkiew](../locations/old-village-cerkiew.md) after that
+**Available:** Late game; before [the-flood](the-flood.md) claims the well, or at the [cerkiew](../locations/old-village-cerkiew.md) after that
 
 ## Hook
 
@@ -16,7 +16,6 @@ Gathering ritual materials and arranging them at the well or cerkiew.
 
 ## Setup
 
-- The rite requires the Form, the Words, and the Truth ([`ritual-requires-three-things`](../clues/clues.md#ritual-requires-three-things)).
 - The Form is [Paraskewia Chyłak](../characters/hag.md)'s arrangement of icons, candles, herbs, incense, bread, water, and prayer materials ([`hag-has-the-form`](../clues/clues.md#hag-has-the-form)).
 - The Words are the Lemko panakhyda held by [Stefania Kopacz](../characters/babcia.md) ([`babcia-has-the-words`](../clues/clues.md#babcia-has-the-words)).
 - The Truth is the players naming the dead and saying what happened to them ([`players-supply-truth`](../clues/clues.md#players-supply-truth)).
@@ -46,7 +45,7 @@ Gathering ritual materials and arranging them at the well or cerkiew.
 ## Actions
 
 ### Perform the ritual
-- **Requires:** [`ritual-requires-three-things`](../clues/clues.md#ritual-requires-three-things), [`hag-has-the-form`](../clues/clues.md#hag-has-the-form), [`babcia-has-the-words`](../clues/clues.md#babcia-has-the-words), [`players-supply-truth`](../clues/clues.md#players-supply-truth), and at least one player willing to speak aloud
+- **Requires:** [`hag-has-the-form`](../clues/clues.md#hag-has-the-form), [`babcia-has-the-words`](../clues/clues.md#babcia-has-the-words), [`players-supply-truth`](../clues/clues.md#players-supply-truth), and at least one player willing to speak aloud
 - **Cost:** 1 action
 - **Outcome:** The players name the dead, say what was done to them, and perform the rite at the well or the cerkiew.
 - **Gives:** World State Change: the [well's nightmare pressure](../story-facts/the-well.md#the-dreams--the-only-supernatural-element) lifts; Ending Progress: the [ritual path](../story-facts/the-ritual.md) advances and remains compatible with [wife-junior-investigation](../story-facts/wife-junior-investigation.md)
