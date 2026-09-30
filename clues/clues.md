@@ -49,6 +49,21 @@ The heights above the valley were Lemko summer pasture. A tumbled koliba (shephe
 ### abandoned-house-by-streambed
 There is an abandoned shepherd's hut (koliba) hidden in the gorse on the far ridge above the streambed, half-swallowed and easy to miss. Long empty.
 
+### streambed-painting-is-old
+[Emil Rzepka](../characters/painter.md)'s streambed painting is an old one. The far-ridge streambed probably does not look the way he painted it any more.
+
+### streambed-painting-is-fauvist
+[Emil Rzepka](../characters/painter.md)'s streambed painting is Fauvist: the water and the land are rendered in bold, unnatural, expressive colour rather than as they really looked.
+
+### painted-building-is-decaying
+The cerkiew in [Emil Rzepka](../characters/painter.md)'s Informel painting is falling down: sagging timbers, a broken roofline, a structure well into collapse.
+
+### painted-building-is-informel
+[Emil Rzepka](../characters/painter.md)'s cerkiew painting is Art Informel: the building dissolved into abstract fields of black, encrusted, scraped matter rather than drawn as it looked.
+
+### unfinished-painting-is-informel
+The unfinished canvas on [Emil Rzepka](../characters/painter.md)'s easel, the one he is working on now, is Art Informel: abstract fields of black, encrusted, scraped matter, no subject drawn plainly.
+
 ### three-barred-cross-in-abandoned-house
 The timber inside the abandoned koliba on the far ridge is cut all over with three-barred crosses, carved deep and many times over.
 
@@ -67,9 +82,6 @@ The massacre was never reported. The soldiers covered it up to hide their failur
 ### officer-killed
 A KBW officer — kpt. Henryk Ćwiek — commanded the unit at [%OLD_VILLAGE%](../locations/old-village-ruins.md). He was shot dead during the operation. Official records list him as KIA in a separate UPA engagement. The truth was buried with him.
 
-### dmytro-kosach
-[Paraskewia Chyłak](../characters/hag.md)'s lover was named Dmytro Kosach — a UPA guerrilla fighter. He shot kpt. Ćwiek. His bullet turned a deportation into a massacre. He died too — almost certainly in the well with everyone else.
-
 ### soldier-participated-in-massacre
 [Edward Barnaś](../characters/soldier.md) was one of the soldiers present during the 1947 massacre. He participated in the killings.
 
@@ -86,7 +98,7 @@ The remains of the 1947 massacre victims are in [the well](../story-facts/the-we
 The 1947 dead were never given proper rites — no panakhyda, no memorial, no mourning. Twenty years of spiritual debt.
 
 ### paraskewia-named-the-dead
-[Paraskewia Chyłak](../characters/hag.md) has kept the names of the 1947 dead — twelve Lemko villagers plus [Dmytro Kosach](../characters/secondary-characters.md#dmytro-kosach) — written in Cyrillic in her own hand, and speaks them in her rites. It is the only record they ever existed. See [Paraskewia's List of the Dead](../items/paraskewias-list.md).
+[Paraskewia Chyłak](../characters/hag.md) has kept the names of the 1947 dead — twelve Lemko villagers plus [Dmytro Kosach](../characters/dmytro-kosach.md) — written in Cyrillic in her own hand, and speaks them in her rites. It is the only record they ever existed. See [Paraskewia's List of the Dead](../items/paraskewias-list.md).
 
 ### dam-covers-evidence
 The flood zone was chosen partly to bury the massacre evidence. [por. Witold Skowron](../characters/officer.md) knows this. The dam is infrastructure *and* a burial.
@@ -146,6 +158,9 @@ Icons are stored up in the attic, and to a devout eye they are plainly Eastern-r
 ### something-happened-in-54
 Something violent happened one night in 1954. [Zbigniew Gajda](../characters/wojewoda.md) came home drunk and bloody. [Tadek Gajda](../characters/wujas.md) collapsed into the bottle and never came back. The [Barnaś family](../characters/soldier.md) was gone by morning.
 
+### barnas-family-murdered-in-54
+The [Barnaś family](../characters/soldier.md) was murdered in 1954 — [Edward Barnaś](../characters/soldier.md) and his household destroyed the night of the lynch, not a family that quietly moved away.
+
 ### matrona-learned-of-affair
 [Helena Rzepka](../characters/matrona.md) found out about the affair between [Hania Barnaś](../characters/jagna.md) and [Emil Rzepka](../characters/painter.md) on her own, and first tried to handle it quietly — she asked Hania, privately, to give Emil up.
 
@@ -173,6 +188,16 @@ Something violent happened one night in 1954. [Zbigniew Gajda](../characters/woj
 
 ### neighbour-believes-jagna-dead
 [Ryszard Dudka](../characters/neighbour.md) is privately certain [Hania Barnaś](../characters/jagna.md) died the night she fled. Two winters later, hunting, he found human remains in the forest, decided they were hers, and buried them himself. He never confirmed it was her — a coat, some bones, no face. It could have been anyone. No one has ever proven what became of her.
+
+### dudka-buried-jagna
+[Ryszard Dudka](../characters/neighbour.md) buried the ravine remains as [Hania Barnaś](../characters/jagna.md) — to him, the body under the cairn is her.
+
+### jagna-born-1935
+[Hania Barnaś](../characters/jagna.md) was born in 1935.
+
+### jagna-is-alive
+[Hania Barnaś](../characters/jagna.md) did not die in the forest. The body [Ryszard Dudka](../characters/neighbour.md) buried as hers is a woman far older than she ever was, so it cannot be her, and nothing else places her among the dead.
+**Synthesis:** dudka-buried-jagna + jagna-born-1935 + ravine-remains-around-30 + barnas-family-murdered-in-54 + jagna-fled-the-lynch
 
 ### dudka-buried-a-friend-at-the-ravine
 [Ryszard Dudka](../characters/neighbour.md) tends a grave in the meadow above the ravine. He'll say only that it's an old friend who fell from the ravine, and that he buried her himself. He does not name her or explain further.
@@ -250,14 +275,8 @@ Under pressure [Stanisław Rezeń](../characters/butcher.md) doesn't rage — he
 ### someone-thrown-in-well
 Something — or someone — was recently thrown into the well. Looking down with a light: dark water, shapes below the surface. Can't tell how many or how old. But something fresh went in. **Only exists if the [hag dies](../events/well-confrontation.md#if-nobody-is-there-default--70).**
 
-### butcher-visits-the-well
-[Stanisław Rezeń](../characters/butcher.md) visits [%OLD_VILLAGE%](../locations/old-village-ruins.md) regularly. Sits near the well. Clears debris.
-
 ### butcher-heads-toward-forest
 Stanisław Rezeń is often seen heading toward the forest, alone, always in the same direction. He's going somewhere specific.
-
-### butcher-compelled-to-feed
-[Stanisław Rezeń](../characters/butcher.md) feels compelled to put something IN the well. Strangers = prey. He doesn't fully understand the compulsion.
 
 ### butcher-dumps-carcasses-in-well
 [Stanisław Rezeń](../characters/butcher.md) drops animal carcasses and slaughter scraps down the well — the offcuts of his trade, fed to the well between the times he has nothing else to give it.
@@ -487,11 +506,31 @@ The siblings keep the [church](../locations/the-church.md) unusually well suppli
 ### emil-doesnt-paint-people
 [Emil Rzepka](../characters/painter.md) paints only landscapes. He never paints people.
 
+### painter-fascinated-by-old-village
+Across [Emil Rzepka](../characters/painter.md)'s canvases the old village returns again and again: its well, its cerkiew, its ruined houses, painted with a fascination and care nothing else in his work gets. The place plainly holds something for him.
+
+### painters-style-shifted-to-dark
+[Emil Rzepka](../characters/painter.md)'s canvases fall into two clearly different hands. The earlier work is Fauvist: figures and village scenes in bold, unnatural, joyful colour, alive and full of light. Everything after a break point is Art Informel: abstract fields of black encrusted paint, matter scraped and clotted like drowned ground, death and decay with no figure left in it. For a self-taught man in this village, both are startlingly modern. Something broke him between the two.
+**Synthesis:** streambed-painting-is-fauvist + streambed-painting-is-old + painted-building-is-informel + unfinished-painting-is-informel
+
+### emil-traumatised-in-54
+Confronted with how his work turned dark, [Emil Rzepka](../characters/painter.md) admits that something happened to him in 1954 that he never recovered from.
+
+### portrait-painted-before-the-break
+The hidden cerkiew portrait is painted in [Emil Rzepka](../characters/painter.md)'s earlier Fauvist style, from before his work collapsed into abstraction, death, and decay.
+**Synthesis:** portrait-is-fauvist + emil-signed-the-portrait + painters-style-shifted-to-dark
+
 ### portrait-hidden-in-cerkiew
 A portrait of a young dark-haired woman is hidden in the ruined cerkiew at [%OLD_VILLAGE%](../locations/old-village-cerkiew.md), wrapped and sheltered from the rain.
 
 ### portrait-woman-in-blue-dress
 The woman in [Emil Rzepka](../characters/painter.md)'s hidden portrait wears a blue dress.
+
+### portrait-is-fauvist
+The hidden cerkiew portrait is painted in a Fauvist style: bold, unnatural, expressive colour, alive and full of light.
+
+### portrait-dedicated-to-forget-me-not
+On the back of the hidden portrait is a dedication, to "my forget-me-not." It was painted as a private love token, not a commission.
 
 ### blue-dress-matches-portrait
 The blue dress kept in [Janina Gajda](../characters/ciotka.md)'s house is the same one the woman wears in [Emil Rzepka](../characters/painter.md)'s hidden portrait.
@@ -750,9 +789,6 @@ Tadeusz Mazur died on the PGR farm and the death was never reported to the state
 
 ### pgr-books-are-sketchy
 The crew grumbles that the PGR's books don't add up — pay for people who aren't around, [Michał Pytlak](../characters/foreman.md) and the sołtys keeping the ledgers close. Loose drunk talk, no specifics.
-
-### wojewoda-talks-to-sb
-[Zbigniew Gajda](../characters/wojewoda.md) meets privately with [the man in the black car](../characters/officer.md) every time he comes — the sołtys reports to the SB. He is the state's ear in the village.
 
 ### drinking-crew-heads-to-forest
 Tadek Gajda and his crew regularly head into the treeline with bottles. They're going somewhere in the forest.

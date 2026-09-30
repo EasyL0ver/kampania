@@ -43,8 +43,8 @@ A police car winding down the mountain road through the rain.
 - **Requires:** Nothing
 - **Prompted by:** [government-committee](../clues/clues.md#government-committee)
 - **Cost:** Free
-- **Outcome:** por. Witold Skowron explains the committee's survey, property assessment, local contact, village phone, and road risk.
-- **Gives:** [`committee-runs-geographical-survey`](../clues/clues.md#committee-runs-geographical-survey), [`committee-notes-property-for-damage`](../clues/clues.md#committee-notes-property-for-damage), [`committee-fills-census`](../clues/clues.md#committee-fills-census), [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood)
+- **Outcome:** por. Witold Skowron explains the committee's survey, property assessment, local contact, village phone, and road risk. He notes the valley's [state farm](../locations/pgr-farm.md), the PGR, as the main property the committee will assess.
+- **Gives:** [`committee-runs-geographical-survey`](../clues/clues.md#committee-runs-geographical-survey), [`committee-notes-property-for-damage`](../clues/clues.md#committee-notes-property-for-damage), [`committee-fills-census`](../clues/clues.md#committee-fills-census), [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood), aware:locations/pgr-farm.md
 
 ### Ask about potential dangers
 - **Requires:** Nothing

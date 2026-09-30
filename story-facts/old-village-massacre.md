@@ -14,7 +14,7 @@ The three participants map onto Freud's structural model — see [The Freudian T
 
 ## The Dead in the Well
 
-Twelve villagers died and went down [the well](../locations/the-well.md), plus [Dmytro Kosach](../characters/secondary-characters.md#dmytro-kosach) — thirteen from 1947. [Paraskewia Chyłak](../characters/hag.md) knew every one of them and has kept their names ever since, written in Cyrillic in her own hand: [Paraskewia's List of the Dead](../items/paraskewias-list.md). [Stefania Kopacz](../characters/babcia.md) did **not** know them — she is Lemko but from another village — yet as an elder she carries the mourning rites and can read the names aloud and give them the panakhyda. This is the roster the [ritual](the-ritual.md) needs spoken. They are, with the reason each could not or would not flee:
+Twelve villagers died and went down [the well](../locations/the-well.md), plus [Dmytro Kosach](../characters/dmytro-kosach.md) — thirteen from 1947. [Paraskewia Chyłak](../characters/hag.md) knew every one of them and has kept their names ever since, written in Cyrillic in her own hand: [Paraskewia's List of the Dead](../items/paraskewias-list.md). [Stefania Kopacz](../characters/babcia.md) did **not** know them — she is Lemko but from another village — yet as an elder she carries the mourning rites and can read the names aloud and give them the panakhyda. This is the roster the [ritual](the-ritual.md) needs spoken. They are, with the reason each could not or would not flee:
 
 | Name (Cyrillic) | Latin | Who they were |
 |---|---|---|
@@ -31,7 +31,7 @@ Twelve villagers died and went down [the well](../locations/the-well.md), plus [
 | Степан Кічура | Stepan Kiczura | Semen Koval's friend. Died where Semen died. |
 | Анастасія Сова | Anastasija Sowa | The village midwife. Stayed with a bedridden neighbour who couldn't be moved. |
 
-And, held apart from the villagers in Paraskewia's list: **Дмитро Косач — [Dmytro Kosach](../characters/secondary-characters.md#dmytro-kosach)**, the fighter whose shot started it all, her lover, dead in the well with the people his bullet doomed.
+And, held apart from the villagers in Paraskewia's list: **Дмитро Косач — [Dmytro Kosach](../characters/dmytro-kosach.md)**, the fighter whose shot started it all, her lover, dead in the well with the people his bullet doomed.
 
 ## The Cover-Up
 

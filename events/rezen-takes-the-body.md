@@ -49,7 +49,7 @@
 - **Requires:** Players chose to stay with the coffin overnight after the [postponed burial](funeral-mass.md#the-flood-postpones-burial).
 - **Cost:** A night; no rest; exhaustion the next day
 - **Outcome:** Rezeń comes for the body after midnight, stops when caught, explains himself, and leaves without the body.
-- **Gives:** World State Change: [`rezen-fed-ciotka-to-well`](../clues/clues.md#rezen-fed-ciotka-to-well) does not happen; [`butcher-compelled-to-feed`](../clues/clues.md#butcher-compelled-to-feed)
+- **Gives:** World State Change: [`rezen-fed-ciotka-to-well`](../clues/clues.md#rezen-fed-ciotka-to-well) does not happen; [`butcher-dumps-carcasses-in-well`](../clues/clues.md#butcher-dumps-carcasses-in-well)
 
 ### Follow the drag trail
 - **Requires:** Found the empty coffin and the trail.

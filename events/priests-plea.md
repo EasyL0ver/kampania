@@ -43,6 +43,7 @@
 - **The shape under his words** `(requires: Devotion and [`priest-knows-everything`](../clues/clues.md#priest-knows-everything))` — his fear points to the lynch, the well, and thirteen years of confessions he cannot report.
 - **The collar gesture** `(requires: Devotion)` — the confessional seal is the wall keeping his knowledge in. He is exhausted by holding it.
 - **The breakable wall** `(requires: Empathy and [`priest-knows-everything`](../clues/clues.md#priest-knows-everything))` — everything he knows is behind the seal. He will not break tonight, but he could break later.
+- **The brand on the paper** `(requires: Chainsmoker and [`priest-smokes`](../clues/clues.md#priest-smokes))` — with the cigarette lit, a smoker reads the brand off the paper at once: premium Carmen, the same the village would name at Janina's door. → Gives: [`priest-smokes-carmen`](../clues/clues.md#priest-smokes-carmen)
 
 ## Actions
 
@@ -72,9 +73,10 @@
 
 ### Share his cigarette
 - **Requires:** ks. Pająk genuinely trusts the player (mercy supported, or a personal confidence shared in return)
+- **Prompted by:** aware:events/priests-plea.md
 - **Cost:** Free
-- **Outcome:** He drops the pretence, takes out a cigarette for himself and offers one to the player. The habit he hides from the village is plain. A player who smokes will read the brand off the paper at once: premium Carmen, the same the village would name at Janina's door.
-- **Gives:** [`priest-smokes`](../clues/clues.md#priest-smokes); if the player is a **Chainsmoker**, also [`priest-smokes-carmen`](../clues/clues.md#priest-smokes-carmen)
+- **Outcome:** He drops the pretence, takes out a cigarette for himself and offers one to the player. The habit he hides from the village is plain.
+- **Gives:** [`priest-smokes`](../clues/clues.md#priest-smokes)
 
 ## Exits
 

@@ -33,6 +33,7 @@ Helena Rzepka's general store.
 
 ## Opportunities
 
+- **The medicine cabinet** `(requires: Medicine)` `(prompted by: aware:locations/the-store.md)` — In the back room a locked cabinet holds penicillin, aspirin, bandages, and iodine; a trained eye reads it as a *szafka apteczna*, the state medicine point for miles. → Gives: [store-has-drug-cabinet](../clues/clues.md#store-has-drug-cabinet)
 - **Ryszard Dudka's nervousness** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek and Empathy)` — Dudka drinks too fast and shuts down when the past comes up. → Gives: [neighbour-is-rattled](../clues/clues.md#neighbour-is-rattled)
 - **Crew gossip about Foreman** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek)` — The crew grumbles that the PGR's books don't add up — pay going to people who aren't around. → Gives: [pgr-books-are-sketchy](../clues/clues.md#pgr-books-are-sketchy)
 - **Junior joins the crew** `(requires: [Marek Gajda](../characters/junior.md) present, or [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek if he is not)` `(prompted by: aware:locations/new-village.md)` — Present, Marek sits plainly among the crew on the benches, away from his father; absent, the crew mention the sołtys's son who drinks with them. → Gives: [junior-drinks-with-crew](../clues/clues.md#junior-drinks-with-crew)

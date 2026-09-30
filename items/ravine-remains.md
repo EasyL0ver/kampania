@@ -16,6 +16,7 @@ A rotted coat, its colour long gone to the soil, and a scatter of bones — inco
 
 ### Examine the remains (Medicine)
 - **Requires:** The **Medicine** skill; holding the remains
+- **Prompted by:** [dudka-buried-a-friend-at-the-ravine](../clues/clues.md#dudka-buried-a-friend-at-the-ravine)
 - **Cost:** 1 card per examination — the reading deepens each time, up to three
 - **Outcome:** These are not scraps that give up their story at a glance. A trained examiner working over the bones draws out one more fact each time they sit with them — but every card spent is a card not spent elsewhere. Progressive, in order:
   1. **First examination — it's a woman.** The pelvis and the surviving long bones read female. Whoever this was, she was a grown woman, not a child. **Gives:** [`ravine-remains-a-woman`](../clues/clues.md#ravine-remains-a-woman)

@@ -20,7 +20,7 @@ Gathering ritual materials and arranging them at the well or cerkiew.
 - The Words are the Lemko panakhyda held by [Stefania Kopacz](../characters/babcia.md) ([`babcia-has-the-words`](../clues/clues.md#babcia-has-the-words)).
 - The Truth is the players naming the dead and saying what happened to them ([`players-supply-truth`](../clues/clues.md#players-supply-truth)).
 - The 1947 Lemko dead are in the well: Wasyl, Anna, Semen and Kateryna Koval; Petro and Pelagia Hnat; Mychajło Szafran; Fedir Mac; Olena Krywda; Hryhorij Pyś; Stepan Kiczura; Anastasija Sowa. See [Paraskewia's List of the Dead](../items/paraskewias-list.md) and [the roster](../story-facts/old-village-massacre.md#the-dead-in-the-well).
-- [Dmytro Kosach](../characters/secondary-characters.md#dmytro-kosach) is named with the 1947 dead.
+- [Dmytro Kosach](../characters/dmytro-kosach.md) is named with the 1947 dead.
 - [Edward Barnaś](../characters/soldier.md) is the 1954 lynch victim in the well.
 - [Janina Gajda](../characters/ciotka.md) is named only if [Rezeń took her body to the well](rezen-takes-the-body.md) ([`rezen-fed-ciotka-to-well`](../clues/clues.md#rezen-fed-ciotka-to-well)).
 - [Paraskewia Chyłak](../characters/hag.md) is named only if she died at [the confrontation](well-confrontation.md) and her body was dropped in the well.

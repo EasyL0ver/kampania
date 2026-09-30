@@ -34,9 +34,10 @@ Dudka shouldering his rifle and heading into the forest after spotting Rezeń.
 
 ### The grave in the meadow
 - **Requires:** Follow Dudka long enough for the hunt to swing toward the far woods
+- **Prompted by:** [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt)
 - **Cost:** 1 action
-- **Outcome:** Dudka leaves the wolf track and visits a low cairn of moss-grown stones at the lip of a ravine; he identifies the grave only as an old friend he buried himself.
-- **Gives:** [`dudka-buried-a-friend-at-the-ravine`](../clues/clues.md#dudka-buried-a-friend-at-the-ravine); Scene Unlock: [Meadow by the Ravine](../locations/meadow-by-the-ravine.md)
+- **Outcome:** Dudka leaves the wolf track and detours to a low cairn of moss-grown stones at the lip of a ravine, where he stops to pray. Asked, he identifies the grave only as an old friend he buried himself.
+- **Gives:** [`dudka-buried-a-friend-at-the-ravine`](../clues/clues.md#dudka-buried-a-friend-at-the-ravine); Scene Unlock: [Meadow by the Ravine](../locations/meadow-by-the-ravine.md); aware:locations/meadow-by-the-ravine.md
 
 ## Exits
 

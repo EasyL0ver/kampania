@@ -59,7 +59,7 @@ GM tracks score per target. Highest when he snaps = who he goes after.
 | `glupek-strangled` | Rezeń | +3 |
 | `matrona-orchestrated-lynch` | Helena | +4 |
 | `painter-heard-matrona` | Helena | +2 |
-| `butcher-visits-the-well` | Rezeń | +1 |
+| `butcher-dumps-carcasses-in-well` | Rezeń | +1 |
 | `fresh-blood-at-well` | Rezeń | +1 |
 | `someone-killed-at-well` | Rezeń | +3 |
 | `lynch-body-in-well` | Zbigniew | +1 |

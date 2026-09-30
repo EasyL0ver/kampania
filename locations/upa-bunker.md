@@ -26,7 +26,7 @@
 
 - **Ventilation shafts** `(requires: Survival)` — The shafts reveal an underground structure in the hillside. → Gives: [upa-bunker](../clues/clues.md#upa-bunker)
 - **UPA weapons and insignia** `(requires: History)` — The rusted weapons and markings show partisan presence. → Gives: [old-wartime-positions](../clues/clues.md#old-wartime-positions)
-- **Dmytro Kosach's cache** `(requires: Search inside the bunker and Language)` — The carved name, cache, and journal fragment connect Dmytro Kosach to the bunker and to [Paraskewia Chyłak's cabin](hags-cabin.md). → Gives: [dmytro-kosach](../clues/clues.md#dmytro-kosach)
+- **Dmytro Kosach's cache** `(requires: Search inside the bunker and Language)` — The carved name, cache, and journal fragment connect Dmytro Kosach to the bunker and to [Paraskewia Chyłak's cabin](hags-cabin.md). → Gives: aware:characters/dmytro-kosach.md
 
 ## Actions
 
@@ -40,4 +40,4 @@
 - **Requires:** Explored the bunker
 - **Cost:** 1 action
 - **Outcome:** The search finds the Д. КОСАЧ carving, a rusted pistol, spare ammunition, and a Ukrainian journal fragment.
-- **Gives:** [dmytro-kosach](../clues/clues.md#dmytro-kosach); Item: rusted pistol; Item: spare ammunition; Item: journal fragment
+- **Gives:** aware:characters/dmytro-kosach.md; Item: rusted pistol; Item: spare ammunition; Item: journal fragment

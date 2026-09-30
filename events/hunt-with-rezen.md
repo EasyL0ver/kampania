@@ -39,9 +39,10 @@ Rezeń at the PGR gate with three dogs, starting to track from the mud.
 
 ### Stay with him if he makes a kill
 - **Requires:** Follow Rezeń to a killed wolf
+- **Prompted by:** [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves)
 - **Cost:** 1 action
 - **Outcome:** Rezeń carries the carcass deeper toward the [old village](../locations/old-village-ruins.md) and drops it into the well.
-- **Gives:** [`butcher-compelled-to-feed`](../clues/clues.md#butcher-compelled-to-feed), [`butcher-visits-the-well`](../clues/clues.md#butcher-visits-the-well)
+- **Gives:** [`butcher-dumps-carcasses-in-well`](../clues/clues.md#butcher-dumps-carcasses-in-well)
 
 ## Exits
 

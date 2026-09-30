@@ -36,7 +36,7 @@ The edge of %NEW_VILLAGE%, nearest the forest path toward %OLD_VILLAGE%.
 
 ## Opportunities
 
-- **Forest path** `(requires: Survival)` — The track sees daily use and points straight toward [%OLD_VILLAGE%](old-village-ruins.md). → Gives: [butcher-visits-the-well](../clues/clues.md#butcher-visits-the-well)
+- **Forest path** `(requires: Survival)` — The track sees daily use and points straight toward [%OLD_VILLAGE%](old-village-ruins.md). → Gives: [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
 - **No alcohol** `(requires: access to interior and Finesse)` — The house contains no alcohol, matching an abrupt stop after 1954. → Gives: [butcher-stopped-drinking-1954](../clues/clues.md#butcher-stopped-drinking-1954)
 - **Dogs' fear** `(requires: Violence)` — The dogs fear their owner and show signs of practiced cruelty. → Gives: [butcher-is-dangerous](../clues/clues.md#butcher-is-dangerous)
 - **Butchering station** `(requires: Medicine)` — The station has seen more use than ordinary livestock work explains. → Gives: [butcher-is-dangerous](../clues/clues.md#butcher-is-dangerous)
@@ -53,28 +53,28 @@ The edge of %NEW_VILLAGE%, nearest the forest path toward %OLD_VILLAGE%.
 - **Requires:** Concealment or a safe vantage point
 - **Cost:** Free
 - **Outcome:** Rezeń leaves at dawn, dusk, or night by the forest path and returns with mud on his hands and scraped knuckles.
-- **Gives:** [butcher-visits-the-well](../clues/clues.md#butcher-visits-the-well)
+- **Gives:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
 
 ### Follow into forest
 - **Requires:** Rezeń leaves by the forest path
 - **Cost:** 1 action
 - **Outcome:** Rezeń goes to the well, sits on the rim, clears debris from the mouth, and listens down into it.
-- **Gives:** [butcher-visits-the-well](../clues/clues.md#butcher-visits-the-well); NPC State Change: If Rezeń spots the players, he treats them as enemies.
+- **Gives:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well); NPC State Change: If Rezeń spots the players, he treats them as enemies.
 
 ### Follow into forest at night
 - **Requires:** Rezeń leaves at night carrying a dead dog
 - **Cost:** 1 action
 - **Outcome:** Rezeń carries the dead dog to the well and drops the carcass into it.
-- **Gives:** [butcher-compelled-to-feed](../clues/clues.md#butcher-compelled-to-feed); NPC State Change: If Rezeń spots the players, he treats them as enemies.
+- **Gives:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well); NPC State Change: If Rezeń spots the players, he treats them as enemies.
 
 ### Enter while he's gone
 - **Requires:** Rezeń absent; door unlocked
 - **Cost:** 1 action
 - **Outcome:** The players find modified blades, a KBW military knife, the hidden KBW rifle, old blood smell in the wood, and Hania's undergarments in the bench-bed drawer; the military evidence cross-references [KBW documents](ciotkas-house.md).
-- **Gives:** [butcher-has-soldiers-gun](../clues/clues.md#butcher-has-soldiers-gun); [butcher-compelled-to-feed](../clues/clues.md#butcher-compelled-to-feed); Item / Evidence: KBW military knife, KBW rifle, Hania's undergarments.
+- **Gives:** [butcher-has-soldiers-gun](../clues/clues.md#butcher-has-soldiers-gun); [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well); Item / Evidence: KBW military knife, KBW rifle, Hania's undergarments.
 
 ### Confront about the well
-- **Requires:** [butcher-visits-the-well](../clues/clues.md#butcher-visits-the-well) or [butcher-compelled-to-feed](../clues/clues.md#butcher-compelled-to-feed)
+- **Requires:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
 - **Cost:** 1 action
 - **Outcome:** Rezeń does not deny visiting the well, refuses to explain, and gives one warning to leave.
 - **Gives:** NPC State Change: Rezeń treats further pressure about the well as open hostility.

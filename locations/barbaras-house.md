@@ -35,23 +35,10 @@ The edge of %NEW_VILLAGE%, beside Ryszard Dudka's house.
 
 ## Opportunities
 
-- **Covered mirrors** `(requires: Culture or Superstitious)` — The coverings are systematic, old, and tied to death mourning. → Gives: [covered-mirrors](../clues/clues.md#covered-mirrors)
-- **Babcia's cross** `(requires: Culture or Devotion)` — The three-barred crucifix is Greek Catholic, not Roman Catholic. → Gives: [three-barred-cross-is-lemko](../clues/clues.md#three-barred-cross-is-lemko)
-- **The crucifix above Babcia's corner** — A small three-barred crucifix hangs in Babcia's corner, unlike the Roman cross on the wall. → Gives: [three-barred-cross-in-babcias-room](../clues/clues.md#three-barred-cross-in-babcias-room)
-- **Babcia's muttering** `(requires: Language or Culture)` — The fragments are Lemko memorial prayers, a panakhyda fragment. → Gives: [babcia-has-the-words](../clues/clues.md#babcia-has-the-words)
-- **Pawełek repeats Babcia's words** `(requires: Language)` — His pronunciation is accurate Lemko; he does not understand the words. → Gives: [babcia-has-the-words](../clues/clues.md#babcia-has-the-words)
-- **Red-brick house** `(requires: Handiwork)` — The construction quality does not match Barbara's poverty; the work used better resources than she could afford. → Gives: [barbara-has-help](../clues/clues.md#barbara-has-help)
-- **Dudka at the fence** `(requires: Empathy)` — His help reads as guilt and obligation, not courtship. → Gives: [barbara-has-help](../clues/clues.md#barbara-has-help)
-- **Barbara repeats what she hears** `(requires: told Barbara committee information and Finesse)` — Information shared inside this house reaches [Ryszard Dudka](../characters/neighbour.md) over the fence. → Gives: [barbara-is-a-sieve](../clues/clues.md#barbara-is-a-sieve)
-- **Babcia's lucidity improves** `(requires: repeated overnight stays or Day 3+)` — Babcia becomes sharper and more present as the well strengthens. → Gives: [babcia-mind-returns](../clues/clues.md#babcia-mind-returns)
-- **Babcia after Paraskewia's death** `(requires: [Paraskewia Chyłak](../characters/hag.md) killed and Superstitious)` — Babcia notices the night singing has stopped. → Gives: [babcia-hears-singing](../clues/clues.md#babcia-hears-singing)
+- **Covered mirrors** `(requires: Culture or Superstitious)` `(prompted by: aware:locations/barbaras-house.md)` — The coverings are systematic, old, and tied to death mourning. → Gives: [covered-mirrors](../clues/clues.md#covered-mirrors)
+- **The crucifix above Babcia's corner** `(prompted by: aware:locations/barbaras-house.md)` — A small three-barred crucifix hangs in Babcia's corner, unlike the Roman cross on the wall. → Gives: [three-barred-cross-in-babcias-room](../clues/clues.md#three-barred-cross-in-babcias-room)
+- **Red-brick house** `(requires: Handiwork)` `(prompted by: aware:locations/barbaras-house.md)` — The construction quality does not match Barbara's poverty; the work used better resources than she could afford. → Gives: [barbara-has-help](../clues/clues.md#barbara-has-help)
+- **Dudka at the fence** `(requires: Empathy)` `(prompted by: aware:locations/barbaras-house.md)` — His help reads as guilt and obligation, not courtship. → Gives: [barbara-has-help](../clues/clues.md#barbara-has-help)
+- **Babcia after Paraskewia's death** `(requires: [Paraskewia Chyłak](../characters/hag.md) killed and Superstitious)` `(prompted by: aware:locations/barbaras-house.md)` — Babcia notices the night singing has stopped. → Gives: [babcia-hears-singing](../clues/clues.md#babcia-hears-singing)
 
 ## Actions
-
-### Accept Barbara's overnight offer
-- **Requires:** Barbara offers shelter
-- **Cost:** Free
-- **Outcome:** The players sleep in the one-room house and hear Babcia's night prayers, pacing, and changes in lucidity.
-- **Gives:** Scene Unlock: Nighttime Babcia interactions at Barbara's house.
-
-

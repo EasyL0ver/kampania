@@ -37,7 +37,7 @@
 ## Opportunities
 
 - **The rites** `(requires: Culture)` — the candles, icon, bread, incense, and chant form a Lemko rite for the dead, not witchcraft. → Gives: [`hag-tends-the-well`](../clues/clues.md#hag-tends-the-well)
-- **The dead wolf** `(requires: Survival)` — he brought the wolf here as part of a repeated pattern. → Gives: [`butcher-compelled-to-feed`](../clues/clues.md#butcher-compelled-to-feed), [`butcher-visits-the-well`](../clues/clues.md#butcher-visits-the-well)
+- **The dead wolf** `(requires: Survival)` — he brought the wolf here as part of a repeated pattern. → Gives: [`butcher-dumps-carcasses-in-well`](../clues/clues.md#butcher-dumps-carcasses-in-well)
 - **Paraskewia holds position** `(requires: Empathy)` — tending the well matters to her more than leaving alive.
 - **Rezeń with the knife** `(requires: Violence)` — he is calm, controlled, and ready to kill. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
 - **The dogs** `(requires: Violence)` — one person cannot handle Rezeń and the three dogs at the same time.

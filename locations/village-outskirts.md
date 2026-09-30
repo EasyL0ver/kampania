@@ -65,7 +65,7 @@ The river, hillsides, and forest edges around %NEW_VILLAGE%.
 - **Requires:** [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
 - **Cost:** 1 action
 - **Outcome:** Rezeń's trail leads past the old village toward the ridge.
-- **Gives:** [butcher-visits-the-well](../clues/clues.md#butcher-visits-the-well)
+- **Gives:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
 
 ### Follow the smoke
 - **Requires:** aware:characters/hag.md

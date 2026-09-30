@@ -42,7 +42,8 @@
 - **The broken seal** `(requires: Culture)` — a priest violating the seal of confession is committing one of the gravest violations in his faith.
 - **The names as they land** `(requires: Empathy)` — [Zbigniew Gajda](../characters/wojewoda.md) looks for an exit; [Tadek](../characters/wujas.md) weeps; [Helena Rzepka](../characters/matrona.md) waits for her name and does not hear it.
 - **The valley built on a grave** `(requires: History or Culture)` — his account connects the lynch to the old village, the people officially called resettled, and the buried cover-up.
-- **The open vice** `(requires: nothing)`: the man who hid his habit now smokes on the altar, plain to everyone present. → Gives: [priest-smokes](../clues/clues.md#priest-smokes); a **Chainsmoker** reads the brand off the paper → also [priest-smokes-carmen](../clues/clues.md#priest-smokes-carmen)
+- **The open vice** `(requires: nothing)` `(prompted by: aware:events/the-seal-break.md)`: the man who hid his habit now smokes on the altar, plain to everyone present. → Gives: [priest-smokes](../clues/clues.md#priest-smokes)
+- **The brand on the paper** `(requires: Chainsmoker and [priest-smokes](../clues/clues.md#priest-smokes))` — a smoker reads the brand off the paper burning in his hand: premium Carmen, the same the village would name at Janina's door. → Gives: [priest-smokes-carmen](../clues/clues.md#priest-smokes-carmen)
 
 ## Actions
 

@@ -34,7 +34,6 @@ He talks in a teacher's cadence, reaches for clever phrases, half-remembers Lati
 - **[Tadek Gajda](wujas.md)** — He is my one honest friend, God help us both. I drink with his crew at the still for the bottle and the talk.
 - **[%NEW_VILLAGE%](../locations/village-outskirts.md)** — They built it on nothing and called it progress. Now they will drown it and call that progress too.
 - **Smoking** — I heard it on the western wave: the smoke rots your lungs and kills you, they have the studies now. I say it at the still and the whole crew laughs and lights another. One more thing I am right about that they will call me a fool for.
-- **`wojewoda-talks-to-sb`:** You heard it from a drunk, so you will doubt it, but you heard it. Watch the black car and watch where Gajda walks.
 - **`officer-is-sb`:** I told you. Bezpieka is in our village, and the sołtys carries his water.
 - **`new-village-will-flood`:** They knew. Of course they knew. When has the state ever not known and told us anyway?
 
@@ -45,7 +44,6 @@ He talks in a teacher's cadence, reaches for clever phrases, half-remembers Lati
 He broadcasts constantly and mixes truth with rubbish. The GM should keep the ratio deliberate: most of what he says is froth, a little is gold, and he cannot tell the difference himself.
 
 **True and safely contained:**
-- The sołtys reports privately to the man in the black car → [`wojewoda-talks-to-sb`](../clues/clues.md#wojewoda-talks-to-sb)
 - Tadek's crew runs a still out in the forest → [`drinking-crew-heads-to-forest`](../clues/clues.md#drinking-crew-heads-to-forest)
 - The man in the black car is secret police; from his mouth it becomes [`officer-is-sb`](../clues/clues.md#officer-is-sb) only when corroborated elsewhere
 - He drank with the last survey crew when they passed through and watched them do nothing but empty bottles → [`geologists-were-drinking`](../clues/clues.md#geologists-were-drinking), and the teacher in him read how little work backed their filed report → [`original-report-is-thin`](../clues/clues.md#original-report-is-thin) once players are working the survey
@@ -61,16 +59,9 @@ He knows nothing of the old village, the massacre, or the well. His quarrel is w
 
 ## Opportunities
 
-- **The fixed accusation** `(requires: Finesse)` — Most of the tirade shifts with the drink, but one claim stays fixed: the sołtys meets the man in the black car alone and comes back changed. → Gives: [`wojewoda-talks-to-sb`](../clues/clues.md#wojewoda-talks-to-sb)
 - **The suit jacket and phrasing** `(requires: Bureaucracy or History)` — The jacket and cadence mark what he was before the bottle: an educated man, a teacher, and someone the state broke on purpose.
 
 ## Actions
-
-### Hear him out over a bottle
-- **Requires:** Nothing
-- **Cost:** 1 action
-- **Outcome:** The player sits through the broadcasts, prophecies, and paranoia until one claim repeats cleanly: the sołtys meets the man in the black car alone every time he comes.
-- **Gives:** [`wojewoda-talks-to-sb`](../clues/clues.md#wojewoda-talks-to-sb)
 
 ### Ask where the good bimber comes from
 - **Requires:** Nothing
