@@ -1,7 +1,7 @@
 # The Animals Flee the Valley
 
 **Location:** [%OLD_VILLAGE%](../locations/old-village-ruins.md)
-**Present:** [Ryszard Dudka](../characters/neighbour.md), [Edek Barnaś](../characters/glupek.md) (if near [Ciotka's house](../locations/ciotkas-house.md))
+**Present:** [Ryszard Dudka](../characters/neighbour.md)
 **Available:** Night, Day 4 onward. Fires once.
 
 ## Trigger
@@ -27,14 +27,12 @@
 - Animals refuse the short dry road past the ruins.
 - Animal movement bends around [%OLD_VILLAGE%](../locations/old-village-ruins.md) and takes the long climb.
 - One of [Stanisław Rezeń](../characters/butcher.md)'s penned dogs has torn its paws bloody on wire.
-- [Edek Barnaś](../characters/glupek.md) stands at [Ciotka's house](../locations/ciotkas-house.md) window, still and facing [%OLD_VILLAGE%](../locations/old-village-ruins.md).
 - [Ryszard Dudka](../characters/neighbour.md) sits awake at his window with a rifle across his knees.
 
 ## Opportunities
 
 - **The one-way flight** `(requires: Geology)` — The animals are showing textbook flood displacement; game leaves low ground every wet year.
 - **The ground they will not cross** `(requires: Survival)` — Not one animal strays toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) all night.
-- **Edek at the window** `(requires: Empathy)` — [Edek Barnaś](../characters/glupek.md) is still, not agitated, while facing [%OLD_VILLAGE%](../locations/old-village-ruins.md).
 - **Dudka at his window** `(requires: Empathy or Speech)` — [Ryszard Dudka](../characters/neighbour.md) has never seen the woods empty like this in twenty years.
 
 ## Actions

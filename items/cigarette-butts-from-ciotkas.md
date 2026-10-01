@@ -27,7 +27,7 @@ A small scatter of hand-pinched butts, oval, all one brand: Carmen. An aromatic 
 - **Gives:** World State Change: suspicion hardens against the Carmen smoker named; Ending Progress: advances a wrongful-punishment ending ([The Lynch](../events/punishment-lynch.md)).
 
 ### Compare the door and well butts
-- **Requires:** Holding the butts from [Janina's door](../events/ciotka-found-dead.md) and the [handful gathered at the well](../locations/the-well.md#search-the-ground-around-the-well)
+- **Requires:** Holding the butts from [Janina's door](../events/ciotka-found-dead.md) and the [handful gathered at the well](../locations/old-village-ruins.md#investigate-the-area-around-the-well)
 - **Prompted by:** [ciotka-is-dead](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 action
 - **Outcome:** Laid side by side, both scatters are the same oval Carmen. The man who haunts the well left the same brand at her threshold.

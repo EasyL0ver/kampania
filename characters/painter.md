@@ -4,7 +4,7 @@
 
 ## Hook
 
-Emil Rzepka, Helena's withdrawn husband and a local painter, works in the attic studio.
+Emil Rzepka, Helena's withdrawn husband and a local painter, works in the garden shed.
 
 ## Vital Statistics
 
@@ -15,11 +15,11 @@ Emil Rzepka, Helena's withdrawn husband and a local painter, works in the attic 
 
 ## Character
 
-Helena's husband, a lynch survivor, and the artist whose life ended without stopping. He paints landscapes and never people, except for one hidden portrait of Hania Barnaś in his attic. He is useful because his hand and his guilt both left traces.
+Helena's husband, a lynch survivor, and the artist whose life ended without stopping. He paints landscapes and never people, except for one hidden portrait of Hania Barnaś in his garden shed. He is useful because his hand and his guilt both left traces.
 
 ## Appearance
 
-- **Clothes:** Paint-spattered work clothes in the attic studio; downstairs, dressed neatly in whatever Helena lays out for him
+- **Clothes:** Paint-spattered work clothes in the garden shed; downstairs, dressed neatly in whatever Helena lays out for him
 - **Hair & face:** Thinning grey hair, paint-flecked at the temples; gaunt cheeks, watery blue eyes that won't hold a gaze
 - **Carriage:** Thin, stooped, and wall-hugging; moves tentatively, flinches at sudden movement, makes himself small
 
@@ -30,6 +30,7 @@ His hands are the only alive part of him: long-fingered, always stained with cad
 - **[Helena Rzepka](matrona.md)** — She married me after the lynch, despite everything. I cannot tell whether that was mercy or punishment. She runs the household, runs me, and I let her.
 - **`jagna-painter-affair`:** Hania Barnaś has been missing for thirteen years and she is still the only face I can paint. I loved her, and I believe I got her killed.
 - **`emil-traumatised-in-54`:** Something in me died that year. The colour went out of the world, and it never came back.
+- **`you-should-jump-inside`:** You feel it too, then. That pull to climb down into the dark. I feel it every time I paint it. I stopped fighting it on the canvas a long time ago.
 
 ## Opportunities
 
@@ -65,7 +66,7 @@ His hands are the only alive part of him: long-fingered, always stained with cad
 - **Gives:** [`emil-traumatised-in-54`](../clues/clues.md#emil-traumatised-in-54)
 
 ### Press Emil on the streambed's detail
-- **Requires:** noticed the streambed canvas as a real place (Geology) or its odd precision (Culture); access to Emil's attic
+- **Requires:** noticed the streambed canvas as a real place (Geology) or its odd precision (Culture); access to Emil's shed
 - **Prompted by:** aware:characters/painter.md
 - **Cost:** Free
 - **Outcome:** Only a party that has picked out the real detail under the paint can draw him out. Asked about it, Emil warms for a moment. It is a streambed on the far ridge across the valley, a place from before, where the water ran down toward the next basin. He describes the col and the crossing plainly enough that the party could find it. Then he sighs: it was a long time ago, and the water probably does not run like that any more.

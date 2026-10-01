@@ -14,7 +14,7 @@ The three participants map onto Freud's structural model — see [The Freudian T
 
 ## The Dead in the Well
 
-Twelve villagers died and went down [the well](../locations/the-well.md), plus [Dmytro Kosach](../characters/dmytro-kosach.md) — thirteen from 1947. [Paraskewia Chyłak](../characters/hag.md) knew every one of them and has kept their names ever since, written in Cyrillic in her own hand: [Paraskewia's List of the Dead](../items/paraskewias-list.md). [Stefania Kopacz](../characters/babcia.md) did **not** know them — she is Lemko but from another village — yet as an elder she carries the mourning rites and can read the names aloud and give them the panakhyda. This is the roster the [ritual](the-ritual.md) needs spoken. They are, with the reason each could not or would not flee:
+Twelve villagers died and went down [the well](../locations/old-village-ruins.md), plus [Dmytro Kosach](../characters/dmytro-kosach.md) — thirteen from 1947. [Paraskewia Chyłak](../characters/hag.md) knew every one of them and has kept their names ever since, written in Cyrillic in her own hand: [Paraskewia's List of the Dead](../items/paraskewias-list.md). [Stefania Kopacz](../characters/babcia.md) did **not** know them — she is Lemko but from another village — yet as an elder she carries the mourning rites and can read the names aloud and give them the panakhyda. This is the roster the [ritual](the-ritual.md) needs spoken. They are, with the reason each could not or would not flee:
 
 | Name (Cyrillic) | Latin | Who they were |
 |---|---|---|

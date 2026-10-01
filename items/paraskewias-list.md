@@ -1,8 +1,8 @@
-﻿# Paraskewia's List of the Dead
+# Paraskewia's List of the Dead
 
 **Type:** Item — a written roll of names (document / relic)
 **Source:** [Paraskewia Chyłak's cabin](../locations/hags-cabin.md), or handed over by [Paraskewia](../characters/hag.md) herself if she trusts the players. Also spoken aloud by her, and by [Stefania Kopacz](../characters/babcia.md), during [the ritual](../events/the-ritual.md).
-**Carried:** The names of the twelve Lemko villagers killed in 1947 and put in [the well](../locations/the-well.md), plus [Dmytro Kosach](../characters/dmytro-kosach.md). The only record they ever existed. Supplies the names the [rite](../events/the-ritual.md) needs spoken.
+**Carried:** The names of the twelve Lemko villagers killed in 1947 and put in [the well](../locations/old-village-ruins.md), plus [Dmytro Kosach](../characters/dmytro-kosach.md). The only record they ever existed. Supplies the names the [rite](../events/the-ritual.md) needs spoken.
 
 ## Hook
 

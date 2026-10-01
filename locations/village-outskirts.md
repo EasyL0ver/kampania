@@ -1,4 +1,4 @@
-# Village Outskirts
+﻿# Village Outskirts
 
 **Type:** Location (revisitable, multi-trip)
 **Location:** Terrain around the village — river, hillsides, forest edges.
@@ -52,8 +52,8 @@ The river, hillsides, and forest edges around %NEW_VILLAGE%.
 ### Wander the forest
 - **Requires:** Nothing
 - **Cost:** 1 action
-- **Outcome:** The GM gives one missing forest lead from bottle glass and cold ash, deep boot-prints, woodsmoke and burnt herbs, collapsed dugouts and rusted metal, [Edek Barnaś](../characters/glupek.md) moving toward the old village, or [Stanisław Rezeń](../characters/butcher.md) watching from the treeline.
-- **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest); [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest); aware:characters/hag.md; [old-wartime-positions](../clues/clues.md#old-wartime-positions); [glupek-drawn-to-well](../clues/clues.md#glupek-drawn-to-well); World State Change: Rezeń notices the party if he is the lead shown.
+- **Outcome:** The GM gives one missing forest lead from bottle glass and cold ash, deep boot-prints, woodsmoke and burnt herbs, collapsed dugouts and rusted metal, or [Stanisław Rezeń](../characters/butcher.md) watching from the treeline.
+- **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest); [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest); aware:characters/hag.md; [old-wartime-positions](../clues/clues.md#old-wartime-positions); World State Change: Rezeń notices the party if he is the lead shown.
 
 ### Follow the drinking crew
 - **Requires:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
@@ -67,11 +67,12 @@ The river, hillsides, and forest edges around %NEW_VILLAGE%.
 - **Outcome:** Rezeń's trail leads past the old village toward the ridge.
 - **Gives:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
 
-### Follow the smoke
-- **Requires:** aware:characters/hag.md
+
+### Track the hag to her cabin
+- **Requires:** Survival and aware:characters/hag.md
 - **Cost:** 1 action
-- **Outcome:** Woodsmoke and burning herbs lead to the [hag's cabin](hags-cabin.md).
-- **Gives:** Scene Unlock: [hag's cabin](hags-cabin.md)
+- **Outcome:** Knowing someone lives out here, a tracker cuts her sign from the forest floor: silent footfalls, snapped herbs, a worn path under the undergrowth. The trail runs back to the [hag's cabin](hags-cabin.md).
+- **Gives:** aware:locations/hags-cabin.md
 
 ### Search the old wartime positions
 - **Requires:** The military map from [Wojewoda's office](pgr-office.md), or Michał Pytlak's terrain hints

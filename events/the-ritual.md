@@ -1,7 +1,7 @@
 # Performing the Ritual
 
 **Location:** [%OLD_VILLAGE%](../locations/old-village-ruins.md)
-**Present:** [Paraskewia Chyłak](../characters/hag.md) (if survived [the confrontation](well-confrontation.md)), [Stefania Kopacz](../characters/babcia.md) (if [Barbara Kopacz](../characters/barbara.md) brought her), [Edek Barnaś](../characters/glupek.md) (if drawn to the well)
+**Present:** [Paraskewia Chyłak](../characters/hag.md) (if survived [the confrontation](well-confrontation.md)), [Stefania Kopacz](../characters/babcia.md) (if [Barbara Kopacz](../characters/barbara.md) brought her)
 **Available:** Late game; before [the-flood](the-flood.md) claims the well, or at the [cerkiew](../locations/old-village-cerkiew.md) after that
 
 ## Hook
@@ -10,7 +10,7 @@ Gathering ritual materials and arranging them at the well or cerkiew.
 
 ## Trigger
 
-- The players bring the Form, the Words, and the Truth to the [well](../locations/the-well.md) or the [cerkiew](../locations/old-village-cerkiew.md).
+- The players bring the Form, the Words, and the Truth to the [well](../locations/old-village-ruins.md) or the [cerkiew](../locations/old-village-cerkiew.md).
 - The players choose to acknowledge the dead named by the [well's rising influence](../story-facts/well-influence.md).
 - [Paraskewia Chyłak](../characters/hag.md) leads the rite if present.
 
@@ -39,7 +39,6 @@ Gathering ritual materials and arranging them at the well or cerkiew.
 - **Lemko rite** `(requires: Culture and ritual materials visible)` — the rite uses fire, incense, offerings, and prayer for unquiet dead. → Gives: [`hag-tends-the-well`](../clues/clues.md#hag-tends-the-well), [`dead-never-mourned`](../clues/clues.md#dead-never-mourned)
 - **Paraskewia shares the burden** `(requires: [Paraskewia Chyłak](../characters/hag.md) present and Empathy)` — she lets the players speak the truth she did not know.
 - **Stefania is lucid** `(requires: [Stefania Kopacz](../characters/babcia.md) present and Empathy or Language)` — she speaks the panakhyda completely.
-- **Edek is calm** `(requires: [Edek Barnaś](../characters/glupek.md) present and Empathy)` — he stands still near the well and does not fear the rite.
 - **No court required** `(requires: Culture)` — the rite requires naming and acknowledgement, not proof accepted by an authority. → Gives: [`players-supply-truth`](../clues/clues.md#players-supply-truth)
 
 ## Actions

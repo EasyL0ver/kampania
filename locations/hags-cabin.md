@@ -18,18 +18,19 @@
 - **State:** No electricity or running water.
 - **Interior:** Single room.
 - **Interior:** Icons, candles, herbs, and prayer materials are kept here.
+- **Interior:** A small three-barred crucifix hangs among the icons.
 - **Interior:** A soft folded sheet of Cyrillic names is kept with the ritual materials.
 - **Interior:** Foraged and preserved foods are stored here.
 - **Interior:** Blankets, worn clothes, and cooking implements are present.
 - **Hidden tin:** Floorboards hide a tin with Dmytro Kosach's photograph, a folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth.
 - **Survival:** Paraskewia survives by foraging, preserving food, and enduring isolation.
-- **Absence:** She may be at [the well](the-well.md) or [cerkiew](old-village-cerkiew.md) performing rites.
+- **Absence:** She may be at [the well](old-village-ruins.md) or [cerkiew](old-village-cerkiew.md) performing rites.
 
 ## Opportunities
 
 - **Ritual materials** `(requires: Culture)` — The icons, candles, herbs, and prayers show someone has the ritual form. → Gives: [hag-has-the-form](../clues/clues.md#hag-has-the-form)
 - **List of the dead** `(requires: Language or Finesse)` — The folded Cyrillic sheet names the dead and belongs with [Paraskewia's List of the Dead](../items/paraskewias-list.md). → Gives: [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead)
-- **Paraskewia herself** `(requires: [Paraskewia Chyłak](../characters/hag.md) present and careful approach)` — She is a Lemko woman living alone in the forest, not a supernatural witch. → Gives: [hag-is-lemko](../clues/clues.md#hag-is-lemko)
+- **The three-barred cross** `(requires: Culture)` `(prompted by: aware:locations/hags-cabin.md)` — A small three-barred crucifix hangs among the icons, unlike a Roman cross. → Gives: [three-barred-cross-in-hags-cabin](../clues/clues.md#three-barred-cross-in-hags-cabin)
 - **Dmytro connection** `(requires: found the [UPA bunker](upa-bunker.md) inscription and found the knife marked Д.К.)` — The initials connect Dmytro Kosach's belongings to the bunker. → Gives: aware:characters/dmytro-kosach.md
 
 ## Actions

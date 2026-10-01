@@ -56,6 +56,7 @@ Tracked like [Dudka's Lynch Targets](../characters/neighbour.md#lynch-targets). 
 | Players broker or escort a confessor to him | +1 each |
 | Players honour Ciotka's funeral | +1 |
 | Players care for the dying / cure Pawełek / shield Edek | +1 each |
+| Players donate real money to the parish (lose the Loaded card) | +2 |
 | Players push the priest to break the seal / weaponise confession | −2 |
 | A guilty one dies unconfessed (e.g. Tadek's suicide) | −2 |
 | Players expose the guilty publicly with no mercy (feeds judgment) | −2 |

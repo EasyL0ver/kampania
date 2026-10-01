@@ -34,5 +34,4 @@ Paraskewia Chyłak has been performing these rites for **20 years** — alone, i
 ## Open Questions
 
 - Does Janina Gajda know about Paraskewia Chyłak? (Eldest sibling, Lemko heritage, devout — she might recognize the ritual.)
-- Does Edek Barnaś wander to %OLD_VILLAGE%? Does Paraskewia Chyłak know who he is?
 - What happens when the water rises and Paraskewia Chyłak can no longer reach the *cerkiew*?

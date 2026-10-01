@@ -30,6 +30,7 @@ The edge of %NEW_VILLAGE%, beside Ryszard Dudka's house.
 - **Neighbour:** He brings firewood and checks on Pawełek.
 - **Night:** Overnight guests hear Babcia praying, pacing, and muttering in the dark.
 - **Night:** Overnight guests may hear Pawełek talk in his sleep.
+- **Night:** On still nights, overnight guests hear a woman's singing carried from the forest on the wind, far off and alone.
 - **Progression:** On later days, Babcia becomes more lucid.
 - **Progression:** After [Paraskewia Chyłak](../characters/hag.md) is killed, Babcia becomes agitated and watches the forest.
 
@@ -39,6 +40,8 @@ The edge of %NEW_VILLAGE%, beside Ryszard Dudka's house.
 - **The crucifix above Babcia's corner** `(prompted by: aware:locations/barbaras-house.md)` — A small three-barred crucifix hangs in Babcia's corner, unlike the Roman cross on the wall. → Gives: [three-barred-cross-in-babcias-room](../clues/clues.md#three-barred-cross-in-babcias-room)
 - **Red-brick house** `(requires: Handiwork)` `(prompted by: aware:locations/barbaras-house.md)` — The construction quality does not match Barbara's poverty; the work used better resources than she could afford. → Gives: [barbara-has-help](../clues/clues.md#barbara-has-help)
 - **Dudka at the fence** `(requires: Empathy)` `(prompted by: aware:locations/barbaras-house.md)` — His help reads as guilt and obligation, not courtship. → Gives: [barbara-has-help](../clues/clues.md#barbara-has-help)
-- **Babcia after Paraskewia's death** `(requires: [Paraskewia Chyłak](../characters/hag.md) killed and Superstitious)` `(prompted by: aware:locations/barbaras-house.md)` — Babcia notices the night singing has stopped. → Gives: [babcia-hears-singing](../clues/clues.md#babcia-hears-singing)
+- **Her strange Ukrainian** `(requires: Language)` `(prompted by: aware:locations/barbaras-house.md)` — To a Ukrainian speaker, her muttering is a very weird, unfamiliar variant of the language.
+- **Babcia after Paraskewia's death** `(requires: [Paraskewia Chyłak](../characters/hag.md) killed and Superstitious)` `(prompted by: aware:locations/barbaras-house.md)` — Babcia notices the night singing has stopped. → Gives: [singing-in-the-night](../clues/clues.md#singing-in-the-night)
+- **Singing on the wind** `(requires: staying overnight at Barbara's house)` `(prompted by: aware:locations/barbaras-house.md)` — Awake in the dark, you hear it yourself: a woman singing for the dead, far out in the forest. Someone lives out there. → Gives: aware:characters/hag.md
 
 ## Actions

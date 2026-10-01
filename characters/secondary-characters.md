@@ -329,18 +329,8 @@ She works the manual switchboard at the nearest town's exchange, in the back of 
 - The gasp is never confirmation.
 
 ### Marta Konieczna
-**Type:** Deceased — [Edward Barnaś](soldier.md)'s unmarried partner; mother of [Hania](jagna.md) and [Edek](glupek.md); killed in the 1954 lynch
 
-#### Vital Statistics
-
-- **Born:** ~1915
-- **Died:** 1954 — killed in the lynch, aged ~39
-- **Lived in:** [Edward Barnaś's house](../locations/ciotkas-house.md) in %NEW_VILLAGE%
-- **Connection:** [Edward Barnaś](soldier.md)'s unmarried partner and the mother of both his children
-
-#### Character
-
-Edek and Hania's mother, and Edward's partner though never his wife. She kept her surname, Konieczna, which is why no "Barnaś" wife appears in any village record. The men killed her in the house the night of the lynch; [Stanisław Rezeń](butcher.md) carried her body to the old well. Her identity as Edek's mother is buried with her.
+Moved to her own file: [Marta Konieczna](marta-konieczna.md).
 
 ---
 

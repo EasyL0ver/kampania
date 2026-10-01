@@ -21,8 +21,12 @@ The well-tended double grave of Zbigniew Gajda's parents, under its Polonised su
 ### three-barred-cross-in-babcias-room
 In Barbara Kopacz's house, a small three-barred crucifix hangs above [Stefania Kopacz](../characters/babcia.md)'s corner, unlike the Roman cross on the wall.
 
+### three-barred-cross-in-hags-cabin
+A small three-barred crucifix hangs among the icons in [Paraskewia Chyłak](../characters/hag.md)'s cabin.
+
 ### hag-is-lemko
 [Paraskewia Chyłak](../characters/hag.md) is a Lemko woman living alone in the [forest](../locations/hags-cabin.md). She is ~40, not old — the forest aged her.
+**Synthesis:** three-barred-cross-in-hags-cabin + three-barred-cross-is-lemko
 
 ### babcia-is-lemko
 [Stefania Kopacz](../characters/babcia.md), [Barbara Kopacz](../characters/barbara.md)'s mother, is a Lemko woman who kept the old Greek Catholic faith and death customs.
@@ -82,8 +86,17 @@ The massacre was never reported. The soldiers covered it up to hide their failur
 ### officer-killed
 A KBW officer — kpt. Henryk Ćwiek — commanded the unit at [%OLD_VILLAGE%](../locations/old-village-ruins.md). He was shot dead during the operation. Official records list him as KIA in a separate UPA engagement. The truth was buried with him.
 
+### soldier-was-kbw
+[Edward Barnaś](../characters/soldier.md) was a soldier — he served in the KBW (Korpus Bezpieczeństwa Wewnętrznego), the internal security troops.
+
+### soldier-served-in-akcja-wisla
+[Edward Barnaś](../characters/soldier.md) served in Akcja Wisła, the 1947 operation that forcibly deported the Lemko population from these mountains to the west.
+
 ### soldier-participated-in-massacre
 [Edward Barnaś](../characters/soldier.md) was one of the soldiers present during the 1947 massacre. He participated in the killings.
+
+### butcher-participated-in-massacre
+[Stanisław Rezeń](../characters/butcher.md) was one of the soldiers present during the 1947 massacre. He participated in the killings.
 
 ### soldier-took-best-land
 [Edward Barnaś](../characters/soldier.md) settled in %NEW_VILLAGE% early because he knew the terrain from service. He claimed the best plot of land — profiting from the destruction.
@@ -113,6 +126,9 @@ The flood zone was chosen partly to bury the massacre evidence. [por. Witold Sko
 
 ### barnas-family-disappeared
 [Edward Barnaś](../characters/soldier.md)'s entire family — him, his partner, and teenage [Hania Barnaś](../characters/jagna.md) — vanished from %NEW_VILLAGE% overnight in 1954. No goodbyes, no forwarding address. Nobody asked questions. Only [Edek Barnaś](../characters/glupek.md) remained.
+
+### barnas-family-left-edek-behind
+When the Barnaś family vanished, they left [Edek Barnaś](../characters/glupek.md) behind. The small boy stayed in the village and was taken in by [Janina Gajda](../characters/ciotka.md) next door.
 
 ### edeks-father-left
 [Janina Gajda](../characters/ciotka.md) lists herself as mother and [Edward Barnaś](../characters/soldier.md) as the father — left the village. Abandoned his family. The house stayed with her, the boy stayed with her. Consistent with what the rest of the village says.
@@ -152,7 +168,7 @@ The attic roof is put together from the wrong pieces — shingles and timber sha
 ### icons-in-attic-not-catholic
 Icons are stored up in the attic, and to a devout eye they are plainly Eastern-rite, not Roman Catholic. They do not belong in a Catholic home.
 
-### barnas-had-a-daughter
+### barnas-had-a-daughter-hania
 [Edward Barnaś](../characters/soldier.md) had a teenage daughter — [Hania Barnaś](../characters/jagna.md). She lived in the house. She's not in the census. She's not in the village. Nobody mentions her unless prompted.
 
 ### something-happened-in-54
@@ -177,8 +193,14 @@ The [Barnaś family](../characters/soldier.md) was murdered in 1954 — [Edward 
 ### matrona-orchestrated-lynch
 [Helena Rzepka](../characters/matrona.md) orchestrated the drinking that led to the lynch. She stayed sober, aimed her brothers at [Hania Barnaś](../characters/jagna.md), and said "get rid of the problem." She never touched anyone — every hand that night was male.
 
-### three-drunk-attackers
-[Tadek Gajda](../characters/secondary-characters.md), [Zbigniew Gajda](../characters/wojewoda.md), and [Stanisław Rezeń](../characters/butcher.md) were the three drunk men who attacked [Hania Barnaś](../characters/jagna.md).
+### wujas-participated-in-lynch
+[Tadek Gajda](../characters/wujas.md) was one of the men who carried out the 1954 lynch. He attacked [Hania Barnaś](../characters/jagna.md) and helped beat her father [Edward Barnaś](../characters/soldier.md) to death.
+
+### wojewoda-participated-in-lynch
+[Zbigniew Gajda](../characters/wojewoda.md) was one of the men who carried out the 1954 lynch. He attacked [Hania Barnaś](../characters/jagna.md) and helped beat her father [Edward Barnaś](../characters/soldier.md) to death.
+
+### butcher-participated-in-lynch
+[Stanisław Rezeń](../characters/butcher.md) was one of the men who carried out the 1954 lynch. He attacked [Hania Barnaś](../characters/jagna.md) and helped beat her father [Edward Barnaś](../characters/soldier.md) to death.
 
 ### jagna-was-attacked
 [Hania Barnaś](../characters/jagna.md) was beaten by [Tadek Gajda](../characters/secondary-characters.md) and [Stanisław Rezeń](../characters/butcher.md), who tore at her clothes. Her father reached her before it went further.
@@ -198,6 +220,9 @@ The [Barnaś family](../characters/soldier.md) was murdered in 1954 — [Edward 
 ### jagna-is-alive
 [Hania Barnaś](../characters/jagna.md) did not die in the forest. The body [Ryszard Dudka](../characters/neighbour.md) buried as hers is a woman far older than she ever was, so it cannot be her, and nothing else places her among the dead.
 **Synthesis:** dudka-buried-jagna + jagna-born-1935 + ravine-remains-around-30 + barnas-family-murdered-in-54 + jagna-fled-the-lynch
+
+### operator-is-jagna
+The calm voice at the town telephone exchange is [Hania Barnaś](../characters/jagna.md). She did not die in 1954; she took the operator's chair, and every long-distance call the village has ever placed has passed through her.
 
 ### dudka-buried-a-friend-at-the-ravine
 [Ryszard Dudka](../characters/neighbour.md) tends a grave in the meadow above the ravine. He'll say only that it's an old friend who fell from the ravine, and that he buried her himself. He does not name her or explain further.
@@ -256,6 +281,9 @@ It was [Stanisław Rezeń](../characters/butcher.md) who put [Edward Barnaś](..
 ### priest-knows-everything
 [ks. Władysław Pająk](../characters/priest.md) knows the full lynch story — who did what, where the bodies went — because [Janina Gajda](../characters/ciotka.md) confessed it all to him over 13 years.
 
+### priest-sure-edek-innocent
+[ks. Władysław Pająk](../characters/priest.md) is certain [Edek Barnaś](../characters/glupek.md) did not kill [Janina Gajda](../characters/ciotka.md). The boy helps around his church and he knows him to be gentle.
+
 ### neighbour-heard-the-lynch
 [Ryszard Dudka](../characters/neighbour.md) heard everything from next door — screaming, shouting, dogs. Possibly saw men dragging bodies toward [%OLD_VILLAGE%](../locations/old-village-ruins.md). Closed the curtain and never spoke.
 
@@ -272,9 +300,6 @@ Under pressure [Stanisław Rezeń](../characters/butcher.md) doesn't rage — he
 
 ## The Well
 
-### someone-thrown-in-well
-Something — or someone — was recently thrown into the well. Looking down with a light: dark water, shapes below the surface. Can't tell how many or how old. But something fresh went in. **Only exists if the [hag dies](../events/well-confrontation.md#if-nobody-is-there-default--70).**
-
 ### butcher-heads-toward-forest
 Stanisław Rezeń is often seen heading toward the forest, alone, always in the same direction. He's going somewhere specific.
 
@@ -284,14 +309,29 @@ Stanisław Rezeń is often seen heading toward the forest, alone, always in the 
 ### hag-tends-the-well
 [Paraskewia Chyłak](../characters/hag.md) has spent 20 years performing Lemko rites at the well — fire, incense, bread, honey, prayer. She is containing it through acknowledgement.
 
+### hag-performs-rite
+[Paraskewia Chyłak](../characters/hag.md) performs a rite over the well: fire, incense, bread, honey, and the names of the dead sung one by one.
+
 ### butcher-vs-hag
 Someone keeps clearing debris from the well. Someone else keeps piling it back and leaving candle wax in the cerkiew. [Stanisław Rezeń](../characters/butcher.md) and [Paraskewia Chyłak](../characters/hag.md) are fighting over the well without knowing each other.
 
 ### fresh-blood-at-well
 Fresh blood on the well's stone rim. Recent — not old stains. Something was dragged to the well and put in.
 
-### someone-killed-at-well
-Someone was murdered at the well. Blood smeared on the rim, drag marks from a kneeling position, scattered ritual supplies trampled into mud. The violence was one-directional — the victim didn't fight back. A body was put into the well. **Only exists if the [hag dies](../events/well-confrontation.md#if-nobody-is-there-default--70).**
+### blood-stains-by-the-well
+Minor blood stains around the well rim.
+
+### you-should-jump-inside
+A certainty settles in that you should climb down into the dark. It does not feel like your own thought.
+
+### cigarette-butts-by-the-well
+Cigarette butts collect in the grass and stone cracks around the well rim, more than a single visit would leave.
+
+### candles-by-the-well
+Burnt-down candles and candle wax sit around the well, left by repeated visits.
+
+### someone-tends-the-well-regularly
+The candles at the well are replaced between visits. Someone tends the well on a regular basis.
 
 ### ciotka-body-taken
 [Janina Gajda](../characters/ciotka.md)'s body is gone. Taken from her coffin in [the church](../locations/the-church.md) during the night, while the flood kept her unburied. A wet drag trail leads out toward [%OLD_VILLAGE%](../locations/old-village-ruins.md). **Conditional:** Only exists if [Rezeń takes the body](../events/rezen-takes-the-body.md).
@@ -302,14 +342,15 @@ Someone was murdered at the well. Blood smeared on the rim, drag marks from a kn
 ### babcia-mind-returns
 [Stefania Kopacz](../characters/babcia.md)'s dementia reverses as the well strengthens. Nobody notices because nobody was watching.
 
-### babcia-hears-singing
-[Stefania Kopacz](../characters/babcia.md) has heard [Paraskewia Chyłak](../characters/hag.md)'s Lemko prayers carried on the wind at night. She will notice when the singing stops.
+### singing-in-the-night
+Lemko prayers for the dead are sung out in the forest at night, carried on the wind.
 
 ### ciotka-is-devout
 [Janina Gajda](../characters/ciotka.md) is deeply, genuinely religious. Her rosary is worn to the string and she prays reflexively, alone, unperformed. She carries her faith like penance.
 
 ### ciotka-is-dead
 [Janina Gajda](../characters/ciotka.md) is dead. Her body lies on her kitchen floor.
+**Synthesis:** ciotka-is-devout + ciotka-missed-mass
 
 ### ciotka-missed-mass
 [Janina Gajda](../characters/ciotka.md) was absent from the anti-flood mass. She is devout and never misses a service; her empty place is unheard of.
@@ -320,8 +361,14 @@ Someone was murdered at the well. Blood smeared on the rim, drag marks from a kn
 ### ciotka-committed-suicide
 [Janina Gajda](../characters/ciotka.md) took her own life. Alone and cornered, she swallowed a fatal dose of her own sedative.
 
+### ciotka-overdosed
+[Janina Gajda](../characters/ciotka.md) died of an overdose of her own prescribed sedative, Luminal. What killed her was the pills, not the mark on her wrist.
+
 ### ciotka-hurt-before-death
 [Janina Gajda](../characters/ciotka.md) was gripped hard by a large, strong hand shortly before she died. A fresh bruise rings her wrist, made while she was still alive. The grip did not kill her, but someone laid hands on her in her last hours.
+
+### committee-disturbed-the-dead
+The committee stripped [Janina Gajda](../characters/ciotka.md)'s body and handled her crudely over [ks. Władysław Pająk](../characters/priest.md)'s objection.
 
 ### ciotka-house-wrecked
 One corner of [Janina Gajda](../characters/ciotka.md)'s otherwise obsessively ordered house is smashed: furniture toppled, a shelf torn down, crockery broken across the floor, and a mirror shattered in the corridor. It reads like a violent struggle.
@@ -332,18 +379,6 @@ Two used coffee cups sit on [Janina Gajda](../characters/ciotka.md)'s table. Som
 ### ciotka-had-a-visitor
 The second coffee cup was not [Edek Barnaś](../characters/glupek.md)'s; he will not drink coffee. An adult from outside sat and drank with [Janina Gajda](../characters/ciotka.md) shortly before she died.
 **Synthesis:** two-coffee-cups + glupek-wont-drink-coffee
-
-### cash-in-ciotkas-purse
-[Janina Gajda](../characters/ciotka.md)'s purse holds a thick roll of banknotes, far more cash than a village widow keeps at home.
-
-### committee-desecrated-body
-The committee stripped the clothes from [Janina Gajda](../characters/ciotka.md)'s body at the scene of her death.
-
-### committee-looted-belongings
-The committee went through [Janina Gajda](../characters/ciotka.md)'s purse and personal effects at the scene of her death.
-
-### committee-stole-money
-A committee member took the roll of cash from [Janina Gajda](../characters/ciotka.md)'s purse.
 
 ### glupek-wont-drink-coffee
 [Edek Barnaś](../characters/glupek.md) will not drink coffee. The bitterness baffles him; offered a cup, he flinches and leaves it. In that house, coffee is Janina's alone.
@@ -376,7 +411,7 @@ An unsmoked Carmen cigarette is hidden in [Edek Barnaś](../characters/glupek.md
 [Tadek Gajda](../characters/wujas.md) smokes Sport, the cheapest brand. He does not smoke Carmen.
 
 ### door-and-well-butts-match
-The Carmen butts from [Janina Gajda](../characters/ciotka.md)'s door and the Carmen butts from [the well](../locations/the-well.md) are the same brand.
+The Carmen butts from [Janina Gajda](../characters/ciotka.md)'s door and the Carmen butts from [the well](../locations/old-village-ruins.md) are the same brand.
 
 ### priest-smokes
 [ks. Władysław Pająk](../characters/priest.md) secretly smokes. He hides the habit.
@@ -399,9 +434,6 @@ The Carmen butts at [Janina Gajda](../characters/ciotka.md)'s door match [ks. W�
 ### glupek-smokes
 A Carmen cigarette hides in [Edek Barnaś](../characters/glupek.md)'s corner and Carmen butts litter the door: it looks like Edek is the smoker. False lead. The butts were [Marek Gajda](../characters/junior.md)'s and the cigarette was a gift; Edek does not smoke.
 **Synthesis:** edek-has-carmen-cigarette + butts-at-ciotkas-are-carmen
-
-### glupek-drawn-to-well
-[Edek Barnaś](../characters/glupek.md) is physically drawn toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) and the well. At the well he becomes still — something in him recognises the place.
 
 ### covered-mirrors
 [Stefania Kopacz](../characters/babcia.md) covers every mirror in [Barbara Kopacz](../characters/barbara.md)'s house. In [Lemko tradition](../historical%20context/13-lemko-beliefs-and-folk-magic.md), mirrors are covered when someone dies. She's been doing it for twenty years.
@@ -464,8 +496,9 @@ The blue dress was cut for a teenage girl, not a grown woman and not a child.
 ### dress-distressed-painter
 Shown the blue dress, [Emil Rzepka](../characters/painter.md) reacts with visible distress.
 
-### dress-belonged-to-jagna
-The blue dress kept in [Janina Gajda](../characters/ciotka.md)'s house belonged to [Hania Barnaś](../characters/jagna.md).
+### dress-belonged-to-barnas-daughter
+The blue dress kept in [Janina Gajda](../characters/ciotka.md)'s house belonged to the Barnaś daughter.
+**Synthesis:** barnas-had-a-daughter-hania + dress-belonged-to-teenage-girl
 
 ### childs-rattle-in-ciotkas-house
 A small child's rattle is kept in [Janina Gajda](../characters/ciotka.md)'s house. A baby lived here once.
@@ -541,7 +574,7 @@ The hidden portrait carries [Emil Rzepka](../characters/painter.md)'s signature.
 
 ### portrait-is-jagnas
 The woman in the hidden portrait is [Hania Barnaś](../characters/jagna.md).
-**Synthesis:** dress-belonged-to-jagna + blue-dress-matches-portrait
+**Synthesis:** dress-belonged-to-barnas-daughter + blue-dress-matches-portrait
 
 ### neighbour-avoids-ciotkas-window
 Ryszard Dudka's window facing Ciotka's house is always covered with a heavy curtain — never opened. The window facing Barbara's house has no curtain at all.

@@ -1,6 +1,6 @@
 # Rezeń Takes the Body
 
-**Location:** [The church](../locations/the-church.md), then [the well](../locations/the-well.md)
+**Location:** [The church](../locations/the-church.md), then [the well](../locations/old-village-ruins.md)
 **Present:** [Stanisław Rezeń](../characters/butcher.md) (if alive and loose), his dogs
 **Available:** Night of Day 5 into Day 6 morning; requires the [flood](the-flood.md) to have postponed Janina's [burial](funeral-mass.md#the-flood-postpones-burial).
 
@@ -65,7 +65,7 @@
 
 ## Exits
 
-- Follow the trail to [the well](../locations/the-well.md).
+- Follow the trail to [the well](../locations/old-village-ruins.md).
 - Follow Rezeń's tracks to [Rezeń's house](../locations/butchers-house.md).
 - If the village learns of the theft, continue toward [The Lynch](punishment-lynch.md).
 

@@ -31,7 +31,7 @@
 - [Emil Rzepka](../characters/painter.md) avoids eye contact.
 - [Emil Rzepka](../characters/painter.md) flinches when [Helena Rzepka](../characters/matrona.md) says his name.
 - [Helena Rzepka](../characters/matrona.md) argues that exposing old crimes harms the living and raises none of the dead.
-- If players hold [`something-happened-in-54`](../clues/clues.md#something-happened-in-54), [`lynch-body-in-well`](../clues/clues.md#lynch-body-in-well), or [`three-drunk-attackers`](../clues/clues.md#three-drunk-attackers), she says naming the 1954 death buys nothing now.
+- If players hold [`something-happened-in-54`](../clues/clues.md#something-happened-in-54), [`lynch-body-in-well`](../clues/clues.md#lynch-body-in-well), [`wujas-participated-in-lynch`](../clues/clues.md#wujas-participated-in-lynch), [`wojewoda-participated-in-lynch`](../clues/clues.md#wojewoda-participated-in-lynch), or [`butcher-participated-in-lynch`](../clues/clues.md#butcher-participated-in-lynch), she says naming the 1954 death buys nothing now.
 - If players hold [`wojewoda-was-hurt-that-night`](../clues/clues.md#wojewoda-was-hurt-that-night) or [`foreman-coverup`](../clues/clues.md#foreman-coverup), she says [Zbigniew Gajda](../characters/wojewoda.md) is the only person holding the village together during the flood.
 - If players hold [`siblings-are-lemko`](../clues/clues.md#siblings-are-lemko), she says writing the Gajdas' Lemko identity into a state report makes them a target.
 - If players hold [`departure-declaration-forged`](../clues/clues.md#departure-declaration-forged), she says pursuing the forged paper will destroy [Emil Rzepka](../characters/painter.md).

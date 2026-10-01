@@ -2,13 +2,14 @@
 
 **Location:** [%OLD_VILLAGE%](../locations/old-village-ruins.md)
 **Present:** [Paraskewia Chyłak](../characters/hag.md), [Stanisław Rezeń](../characters/butcher.md), [Ryszard Dudka](../characters/neighbour.md) (if the players got him here and left him his rifle)
-**Available:** Night of Day 4, after [Rezeń's containment has broken](wolf-attack.md)
+**Available:** Night of Day 4, after [Rezeń's containment has broken](wolf-attack.md), unless [Paraskewia Chyłak](../characters/hag.md) is hostile (see her [Hostility](../characters/hag.md#hostility) mechanic)
 
 ## Trigger
 
 - [Stanisław Rezeń](../characters/butcher.md) is loose after the wolf authorization.
 - The well's compulsion sends him to the ruins at night.
 - [Paraskewia Chyłak](../characters/hag.md) is at the well for her nightly rites.
+- Does not happen if Paraskewia is hostile; she has stopped coming to the well (see her [Hostility](../characters/hag.md#hostility) mechanic).
 - Villagers blame her for wolf attacks ([hag-blamed-for-wolves](../clues/clues.md#hag-blamed-for-wolves)).
 - Players are present only if they stake out the well, follow Rezeń, are already at the ruins at night, or arrive with [Ryszard Dudka](../characters/neighbour.md).
 
@@ -84,7 +85,7 @@
 ## Exits
 
 - Back down the forest path to the village or [PGR quarters](../locations/pgr-quarters.md).
-- To [The Well](../locations/the-well.md) to investigate blood, water, and tracks.
+- To [The Well](../locations/old-village-ruins.md) to investigate blood, water, and tracks.
 - To [Hag's Cabin](../locations/hags-cabin.md) for her icons, herbs, and the form of the rite.
 - To [Stanisław Rezeń](../characters/butcher.md#actions) if the players confront him.
 
@@ -92,5 +93,4 @@
 
 - Without player intervention or armed Dudka, the hag dies.
 - Rezeń kills her and drops her body in the well.
-- The visible fact is [`someone-killed-at-well`](../clues/clues.md#someone-killed-at-well).
-- The aftermath belongs to [The Well](../locations/the-well.md#actions), [Hag's Cabin](../locations/hags-cabin.md#actions), and [well-influence.md](../story-facts/well-influence.md).
+- The aftermath belongs to [The Well](../locations/old-village-ruins.md#actions), [Hag's Cabin](../locations/hags-cabin.md#actions), and [well-influence.md](../story-facts/well-influence.md).

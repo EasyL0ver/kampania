@@ -44,17 +44,6 @@ Amplifies **fear and paralysis:**
 - Flinches from her siblings — the family feels like a trap closing
 - **Dream:** the night she saved Edek — except she doesn't make it in time. Reaches for the boy and her hands pass through him. Wakes and checks on the boy. Every night
 
-## Edek Barnaś (Głupek)
-
-The well draws him **physically and mentally.** He was supposed to die there — unfinished business.
-
-- Wanders toward %OLD_VILLAGE% more often. Escapes Ciotka's watch. Found at the forest edge, staring toward the ruins
-- Agitation grows: rocking, hitting himself, crying without cause. The village reads it as his condition worsening — it's not. Something is waking up
-- **The well gives him back the truth** — not in words, but in fragments, feelings. Starts flinching from Wojewoda and Wujas too. Pulls away from Ciotka without understanding why
-- At the well, he stands still. Agitation stops. Something recognises the place — the gravity. He was supposed to be down there
-
-**The well doesn't give Edek dreams — it gives him knowledge he can't process.**
-
 ## Stanisław Rezeń (Butcher)
 
 **The compulsion is winning.** The well's pull is stronger than his self-imposed discipline:

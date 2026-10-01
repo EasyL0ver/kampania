@@ -1,6 +1,6 @@
 # The Lynch
 
-**Location:** [PGR office](../locations/pgr-office.md), then [the well](../locations/the-well.md)
+**Location:** [PGR office](../locations/pgr-office.md), then [the well](../locations/old-village-ruins.md)
 **Present:** [Ryszard Dudka](../characters/neighbour.md), [Zbigniew Gajda](../characters/wojewoda.md) (state from [Irena's confrontation](irena-confronts-wojewoda.md)), [Barbara Kopacz](../characters/barbara.md) (if not warned), men from [Tadek's](../characters/wujas.md) drinking circle, target from [Dudka's targeting score](../characters/neighbour.md#lynch-targets)
 **Available:** Night of Day 6; fires once.
 
@@ -93,7 +93,7 @@
 
 ## Exits
 
-- From the [PGR office](../locations/pgr-office.md) to [the well](../locations/the-well.md).
+- From the [PGR office](../locations/pgr-office.md) to [the well](../locations/old-village-ruins.md).
 - After the body goes in, continue to [The Ritual](the-ritual.md), [The Odpust](the-odpust.md), or [The Flood](the-flood.md), depending on the endgame path.
 - If the players built a justice path, continue toward the [Justice](../story-facts/game-system.md#endings) ending.
 

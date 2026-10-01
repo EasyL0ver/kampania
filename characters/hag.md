@@ -29,34 +29,67 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 - **[%NEW_VILLAGE%](../locations/village-outskirts.md)** — The river wants its old bed back. The hill came down in the notch and stopped it, so the water climbs to where the houses are.
 - **[Dmytro Kosach](../characters/dmytro-kosach.md)** — Say his name correctly or do not say it. He was loved, and he died with the rest.
 - **`hag-tends-the-well`:** I do what no one else will do. The dead need names, fire, bread, honey, and prayer.
+- **`hag-poisoned-pawelek`:** I warned the boy the water was foul and told him not to drink. He was thirsty and drank anyway. I do not poison children. I keep them from the well.
+- **`hag-blamed-for-wolves`:** The wolves have known me twenty years and never touched me. I sing for my dead, not for them. Say I called them if it helps you sleep.
+
+## Mechanics
+
+### Talking to her
+- Paraskewia cannot be spoken to without Language. Even with it, the exchange is halting and hard.
+
+### Hostility
+- By default she can be approached and interviewed at her [cabin](../locations/hags-cabin.md).
+- If the players come at her as a threat (chasing her at the well, cornering her, open aggression), she comes to believe the village means her harm.
+- While she believes this, she stops her nightly rite, so [Hag's Prayer](../events/hags-prayer.md) no longer fires, and none of her actions below are available.
+- The **Convince her the villagers are friendly** action clears it.
 
 ## Actions
 
 ### Census interview
-- **Requires:** Bond with Paraskewia Chyłak
+- **Requires:** Language
 - **Cost:** 1 action
-- **Outcome:** She gives her name — Paraskewia Chyłak — and says she is Lemko. Without trust, she does not appear for the interview.
-- **Gives:** Census data — Paraskewia Chyłak, Lemko, living in the forest.
+- **Outcome:** She gives her name — Paraskewia Chyłak — and says she is Lemko.
+- **Gives:** [hag-is-lemko](../clues/clues.md#hag-is-lemko); Census data — Paraskewia Chyłak, Lemko, living in the forest.
 
 ### Property assessment
-- **Requires:** Bond with Paraskewia Chyłak
+- **Requires:** Language
 - **Cost:** 1 action
 - **Outcome:** She shows the cabin without fuss: a tiny hut she built and has lived in for twenty years.
 - **Gives:** Property record — [Hag's cabin](../locations/hags-cabin.md), hers by occupation, no title.
 
 ### The land remembers the water
-- **Requires:** Bond with Paraskewia Chyłak
+- **Requires:** Language
 - **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Cost:** 1 action
 - **Outcome:** She has watched this ground for twenty years. In her own terms she says the river wants its old bed back, that its course shifted, and that a slide came down and closed the notch in the ridge. She has nothing to say about the far-ridge streambed.
 - **Gives:** [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map); [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 
 ### Ask her about Pawełek
-- **Requires:** Bond with Paraskewia Chyłak
+- **Requires:** Language
 - **Prompted by:** aware:events/pawelek-falls-ill.md
 - **Cost:** 1 action
 - **Outcome:** She found the boy at the well and told him the water was foul and not to drink it. He was thirsty and drank anyway. She knows what bad water does, but her remedy is the old one: the boy needs a cleansing rite, not a doctor.
 - **Gives:** [`pawelek-got-it-from-water`](../clues/clues.md#pawelek-got-it-from-water); [`hag-warned-pawelek`](../clues/clues.md#hag-warned-pawelek); [`pawelek-needs-a-cleansing-ritual`](../clues/clues.md#pawelek-needs-a-cleansing-ritual)
+
+### Ask her about the rites
+- **Requires:** Language
+- **Prompted by:** [hag-tends-the-well](../clues/clues.md#hag-tends-the-well)
+- **Cost:** 1 action
+- **Outcome:** She tells them the dead here were never laid to rest and will not settle. She tends them so the unquiet does not spread.
+- **Gives:** [spirits-are-restless](../clues/clues.md#spirits-are-restless)
+
+### Ask her about the spirits
+- **Requires:** Language and Bond with Paraskewia Chyłak
+- **Prompted by:** [spirits-are-restless](../clues/clues.md#spirits-are-restless)
+- **Cost:** 1 action
+- **Outcome:** With trust earned, she tells the truth of what happened here: in 1947 the whole village was killed in a single act of violence. They did not leave. They were massacred.
+- **Gives:** [army-massacred-civilians-in-1947](../clues/clues.md#army-massacred-civilians-in-1947)
+
+### Convince her the villagers are friendly
+- **Requires:** Language, and Speech or Empathy
+- **Cost:** 1 action
+- **Outcome:** You persuade her the committee and the village mean her no harm. She lowers her guard and will speak with you again.
+- **Gives:** NPC State Change: Paraskewia stops believing the village is hostile; her actions and nightly rite resume (see [Hostility](#hostility)).
 
 ## Bond
 

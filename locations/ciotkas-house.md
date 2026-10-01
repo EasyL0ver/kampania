@@ -29,8 +29,6 @@ The best plot in %NEW_VILLAGE%, across from the Neighbour's house.
 - **Janina:** [Janina Gajda](../characters/ciotka.md) watches the door and distrusts government questions.
 - **Edek:** [Edek Barnaś](../characters/glupek.md) is tall, broad, silent, and often stands behind Janina or sits in his corner.
 - **Edek:** When dogs are audible outside, he can go rigid or hide behind Janina.
-- **Later state:** As the well strengthens, Edek is harder to keep inside.
-- **Later state:** Edek has been found at the forest edge, facing %OLD_VILLAGE%.
 - **Backyard:** The backyard is overgrown and mostly unused.
 - **Backyard:** A patch near the fence grows badly and has settled unevenly.
 - **Backyard:** The patch can look like a failed old garden bed.

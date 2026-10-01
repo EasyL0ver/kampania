@@ -65,6 +65,12 @@ The arc opens with [The Priest's Plea](../events/priests-plea.md). He seeks out 
 - **Outcome:** He says the rectory and church are parish property, not his. He refers the committee to the diocese for anything on paper.
 - **Gives:** Property record — parish/church property, not personally held.
 
+### Donate to the church
+- **Requires:** The [Loaded](../story-facts/game-system.md) card — hard currency in your pocket to give
+- **Cost:** your Loaded card (you give the money for good and lose the trait)
+- **Outcome:** A committee member puts real money into the parish, no bribe, nothing asked for, just given. ks. Władysław Pająk did not expect it and cannot quite believe it: one of the state's own clerks choosing a plain good thing. In a man whose faith in people is in crisis, it lands, and he watches the committee differently after.
+- **Gives:** The player loses the **Loaded** trait. Ending Progress: +2 [Faith in Redemption](../story-facts/spiritual-endings.md#the-mechanic-faith-in-redemption-score).
+
 ## Bond
 
 - [ ] Ask for his blessing or spiritual counsel — even perfunctorily, even if the player isn't religious
@@ -74,5 +80,6 @@ The arc opens with [The Priest's Plea](../events/priests-plea.md). He seeks out 
 ## Grudge
 
 - [ ] Demand he reveal what he heard in confession
+- [ ] Disturb the dead: strip or handle [Janina Gajda](ciotka.md)'s body crudely, brushing past his objection ([`committee-disturbed-the-dead`](../clues/clues.md#committee-disturbed-the-dead))
 - [ ] Disrespect the church (smoke inside, shout, handle sacred objects carelessly)
 - [ ] Threaten or pressure one of his parishioners in his presence

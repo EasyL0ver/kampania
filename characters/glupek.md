@@ -10,7 +10,7 @@ Edek Barnaś, Janina Gajda's large, simple-minded son and dependent.
 
 - **Born:** 1950
 - **Age in 1967:** 17
-- **Parents:** [Edward Barnaś](soldier.md) and [Marta Konieczna](secondary-characters.md#marta-konieczna), both killed in the 1954 lynch
+- **Parents:** [Edward Barnaś](soldier.md) and [Marta Konieczna](marta-konieczna.md), both killed in the 1954 lynch
 - **Lives in:** [Janina Gajda's house](../locations/ciotkas-house.md) — with [Janina Gajda](ciotka.md)
 - **Settled:** Born in %NEW_VILLAGE%
 
@@ -31,7 +31,6 @@ His voice is surprisingly soft for his size. Kindness reaches him after a pause,
 - **[Janina Gajda](ciotka.md)** — Auntie feeds me and keeps me safe. I love her, and she has always been there.
 - **[ks. Władysław Pająk](priest.md)** — The church is quiet and safe. He gives me little jobs and waits for me to finish.
 - **[Stanisław Rezeń](butcher.md)** — Something bad. When his dogs bark I hide, and when he passes I cannot move.
-- **`glupek-drawn-to-well`:** The forest pulls at me. Near the round stones I get quiet.
 
 ## Actions
 
@@ -59,12 +58,6 @@ His voice is surprisingly soft for his size. Kindness reaches him after a pause,
 - **Cost:** Free
 - **Outcome:** He goes quiet and small. He says the butcher's dogs make him hide, and when Rezeń passes he cannot move. He does not know why.
 - **Gives:** [`glupek-fears-butcher`](../clues/clues.md#glupek-fears-butcher)
-
-### Watch Edek near the forest
-- **Requires:** The well is active
-- **Cost:** Free
-- **Outcome:** He grows restless near certain topics and directions. At the well he becomes still.
-- **Gives:** [`glupek-drawn-to-well`](../clues/clues.md#glupek-drawn-to-well)
 
 ### Census interview
 - **Requires:** Committee authority

@@ -42,7 +42,7 @@
 - **Gives:** [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
 
 ### Open the wrapped bundle
-- **Requires:** Access to the cerkiew
+- **Requires:** Access to the cerkiew (prompted by: aware:locations/old-village-cerkiew.md)
 - **Cost:** 1 action
 - **Outcome:** The players lift the cloth-wrapped bundle from its dry corner and open it. Inside is an oil portrait of a young dark-haired woman in a blue dress, painted with a care nothing in the ruins shares. Someone carried it here and kept it dry on purpose.
 - **Gives:** Item / Evidence: the [portrait](../items/portrait.md); [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew); [portrait-woman-in-blue-dress](../clues/clues.md#portrait-woman-in-blue-dress)

@@ -6,15 +6,15 @@
 
 ## The Logline
 
-Everybody broke her, nobody killed her. [Janina Gajda](../characters/ciotka.md) took her own life under the weight of the buried 1954 crime and the net closing around it. Three people look guilty. All three are innocent of murder. The village, desperate to keep 1954 buried, scapegoats the one person it always scapegoats: an innocent Barnaś.
+Everybody broke her, nobody killed her. [Janina Gajda](../characters/ciotka.md) overdosed on her own sedative, shaken and reeling after the night the truth came out, under the weight of the buried 1954 crime and the net closing around it. Three people look guilty. All three are innocent of murder. The village, desperate to keep 1954 buried, scapegoats the one person it always scapegoats: an innocent Barnaś.
 
 ## The Truth (GM-Only)
 
 Janina is the moral heart and the living witness of 1954. She saved [Edek](../characters/glupek.md) from [Rezeń](../characters/butcher.md) and has guarded that secret and that boy for thirteen years. By the time the committee arrives, the net is closing: the census is prying at the family, [Marek "Junior" Gajda](../characters/junior.md) has been pressing her for his mother's private investigation, and the flood is coming to drown the well and wash away the evidence. She decides the secret cannot hold.
 
-She tells Edek the truth: these people killed his father, and he is the living proof. Edek, brain-damaged and unable to hold it, panics. He grabs or shoves her, leaves a mark, and flees into the night. Alone, injured, having finally spoken the truth and seeing no way through that does not destroy the boy or damn her own blood, Janina takes her own life with her own prescribed Luminal.
+She tells Edek the truth: these people killed his father, and he is the living proof. Edek, brain-damaged and unable to hold it, panics. He grabs and shoves her, bruises her wrist, and wrecks a corner of the house before he flees into the night. Alone, injured, the house smashed around her and shaking with anxiety after finally speaking the thing she guarded for thirteen years, Janina reaches for her own prescribed Luminal to steady herself and takes too much. She does not mean to die. The dose stops her heart.
 
-No one murdered her. The moral killers are 1954 and everyone's prying, the players' included. The rest was her own hand.
+No one murdered her. The moral killers are 1954 and everyone's prying, the players' included. The rest was the pills and her own shaking hands.
 
 ## Why This Case Works
 
@@ -46,7 +46,7 @@ Junior is doing exactly what the committee is doing: prying at the village's bur
 
 Keep the existing [Ciotka Found Dead](../events/ciotka-found-dead.md) scene, with these truths behind it:
 
-- **Cause of death:** Luminal overdose, her own prescription. Suicide.
+- **Cause of death:** Luminal overdose, her own prescription. Not deliberate: shaken and anxious after the night, she took too many trying to calm herself.
 - **One antemortem mark** from Edek's panic (a bruise, a grip, a fall). This is the Edek strand and the thing that makes the village cry murder.
 - **The door she always locked is open** because Edek fled through it.
 - **Footprints to the treeline, cold mattress:** Edek's flight.
@@ -71,7 +71,7 @@ Fold this into the committee's report/accusation climax. The players commit a ve
 - **Edek** (the scapegoat): they join the mob and complete the 1954 re-run. Advances the punishment/lynch ending.
 - **Rezeń** (the body-thief): they hang a guilty man for a murder he did not commit. Right about what he is, wrong about this, and the Carmen butts make it the tempting mistake.
 - **Junior** (the outsider): they blame the mirror and never see themselves in it. His Carmen at the door is what frames him.
-- **Suicide, driven by the buried crime** (the truth): reachable by assembling all three strands and refusing every easy answer. It re-lights 1954: she died because of what these people did and what everyone refused to say.
+- **No one killed her, an overdose driven by the buried crime** (the truth): reachable by assembling all three strands and refusing every easy answer. Shaken and anxious after the night the truth came out, she took too many of her own pills. She died because of what these people did and what everyone refused to say. It re-lights 1954.
 
 Unlike a normal whodunit, the reward is not catching a clever killer. It is the harder, adult recognition that no one killed her and everyone did.
 
@@ -81,7 +81,7 @@ Edek is hunted as the killer, and he is Hania's brother. The climactic evacuatio
 
 ## Follow-Up Wiring (remaining work)
 
-- **Clues** to add to `clues.md`: none outstanding. Added: [ciotka-told-edek-the-truth](../clues/clues.md#ciotka-told-edek-the-truth) (GM reveal), [junior-pressed-ciotka](../clues/clues.md#junior-pressed-ciotka) (Junior strand), [ciotka-hurt-before-death](../clues/clues.md#ciotka-hurt-before-death) (the mark) and [glupek-fled-into-forest](../clues/clues.md#glupek-fled-into-forest). "The net closing" is carried by `junior-pressed-ciotka` and the census/flood pressure, not a standalone clue. Keep and reuse: [ciotka-saved-glupek](../clues/clues.md#ciotka-saved-glupek), [rezen-fed-ciotka-to-well](../clues/clues.md#rezen-fed-ciotka-to-well), [butcher-is-dangerous](../clues/clues.md#butcher-is-dangerous). **Cut:** the `ciotka-overdose` clue is removed; the cause of death is GM-only truth. The pill jar sits on the table as physical evidence (missing pills, her own prescription) but players are never handed a confirmed overdose, so the murder question stays open.
-- **Scene edit:** [Ciotka Found Dead](../events/ciotka-found-dead.md) reframed to "suicide, but three people look guilty" (done): the pill jar on the table hints at overdose without confirming it, the wrist bruise and toppled chair open the murder question, the footprints carry the Edek strand.
+- **Clues** to add to `clues.md`: none outstanding. Added: [ciotka-told-edek-the-truth](../clues/clues.md#ciotka-told-edek-the-truth) (GM reveal), [junior-pressed-ciotka](../clues/clues.md#junior-pressed-ciotka) (Junior strand), [ciotka-hurt-before-death](../clues/clues.md#ciotka-hurt-before-death) (the mark) and [glupek-fled-into-forest](../clues/clues.md#glupek-fled-into-forest). "The net closing" is carried by `junior-pressed-ciotka` and the census/flood pressure, not a standalone clue. Keep and reuse: [ciotka-saved-glupek](../clues/clues.md#ciotka-saved-glupek), [rezen-fed-ciotka-to-well](../clues/clues.md#rezen-fed-ciotka-to-well), [butcher-is-dangerous](../clues/clues.md#butcher-is-dangerous). **Cause of death:** [ciotka-overdosed](../clues/clues.md#ciotka-overdosed) is read from the body by a Medicine player: the pills killed her, not the hands. It clears the murder read but not the intent; whether it was accident or suicide, and what drove her to it, stays for the three strands to answer.
+- **Scene edit:** [Ciotka Found Dead](../events/ciotka-found-dead.md) reframed to "an overdose, but three people look guilty" (done): the open Luminal bottle and the Medicine exam confirm the overdose, the wrist bruise and wrecked corner open the murder question before the exam closes it, the footprints carry the Edek strand.
 - **Character edits:** [Junior](../characters/junior.md) gains an action or opportunity around having pressed Janina before her death. [Rezeń](../characters/butcher.md) softened to indifferent (done alongside this doc).
 - **The manhunt for Edek** still needs building as its own scene chain (stations, the danger, the tie to the Hania call).

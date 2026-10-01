@@ -1,7 +1,7 @@
 # Ciotka Found Dead
 
 **Location:** [Ciotka's house](../locations/ciotkas-house.md)
-**Present:** [Janina Gajda](../characters/ciotka.md) (dead)
+**Present:** [Janina Gajda](../characters/ciotka.md) (dead); [ks. Władysław Pająk](../characters/priest.md)
 **Available:** Day 3 or later, when players visit [Ciotka's house](../locations/ciotkas-house.md).
 
 ## Trigger
@@ -11,16 +11,18 @@
 
 ## Hook
 
-- [Janina Gajda](../characters/ciotka.md)'s door is unlocked.
+- [Janina Gajda](../characters/ciotka.md)'s front door is locked; the back door stands open.
 - [Janina Gajda](../characters/ciotka.md) is absent from mass if the fallback trigger fires.
 
 ## Setup
 
-- The door is unlocked.
-- [Janina Gajda](../characters/ciotka.md) always locked the door.
+- The front door is locked, both locks turned, as she always kept it.
+- The back door stands open.
 - Cigarette butts lie scattered just outside the door.
 - The house is quiet.
+- [ks. Władysław Pająk](../characters/priest.md) is here, come to look in on Janina; he helps the committee where he can and flinches only at her body being disturbed.
 - The icons remain on the walls.
+- A hatch to the attic is set in the ceiling, a short ladder folded beside it.
 - The candles have burned out and have been out for hours.
 - The house remains obsessively ordered.
 - One corner tells another story: furniture is smashed, a shelf torn down, crockery broken across the floor.
@@ -52,13 +54,11 @@
 - **The two cups** `(requires: Enter the kitchen)` `(prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead))` — Two used coffee cups sit on the table. She was not alone the day before; someone sat and drank with her. → Gives: [`two-coffee-cups`](../clues/clues.md#two-coffee-cups)
 - **The wrecked corner** `(requires: entering the house)` `(prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead))` — One corner of the obsessively ordered house is smashed: toppled furniture, a torn-down shelf, crockery across the floor, a shattered mirror in the corridor. It reads like a violent struggle. → Gives: [`ciotka-house-wrecked`](../clues/clues.md#ciotka-house-wrecked)
 - **The cigarette butts** `(requires: entering the house)` `(prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead))` — Some cigarette butts lie just outside the door, hand-pinched and rain-weathered, dropped a day or more before she died. You cannot tell the brand at a glance, but bagged they could be compared.
-- **Read the room** `(requires: Finesse)` — This is a death the village has not found yet. Get caught here and you look like the killer. Keep it quiet.
-- **Keep it quiet for now** `(requires: Bureaucracy or Violence)` — Once the village knows, the committee loses control of the scene: a crowd, grief, a hunt for someone to blame, and no room left to investigate. Better to sit on the death a while and work first.
-- **Examine her properly** `(requires: Medicine)` — A real examination is impossible through her clothes. Her body would have to be undressed first.
-- **The bell looks unsteady** `(requires: Handiwork, and the attic open)` — The bell is balanced high and badly seated. Anyone reaching for it will knock it loose unless they are ready to catch it.
+- **Examine her properly** `(requires: Medicine)` — The bruise on her wrist begs a closer look, but a real reading of how she died means undressing her, and [ks. Władysław Pająk](../characters/priest.md) is praying over her body.
+- **The priest's eyes** `(prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead))` — More than once [ks. Władysław Pająk](../characters/priest.md) glances at the attic hatch and looks away. Asked, he says only that it was the one part of the house Janina kept locked, not even to him, and lets it go. Nothing in it reads as more than a priest uneasy in a dead parishioner's house.
+- **The priest speaks for the boy** `(prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead))` — Unprompted, [ks. Władysław Pająk](../characters/priest.md) says he is certain [Edek Barnaś](../characters/glupek.md) did not do this. The boy helps around his church; he knows him, and the Edek he knows could never. → Gives: [`priest-sure-edek-innocent`](../clues/clues.md#priest-sure-edek-innocent)
 - **The roof is wrong** `(requires: Handiwork, and the attic open)` `(prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead))` — Up under the rafters the shingles and boards don't match the roof: pieces cut and curved to skin a dome, reused flat. A builder sees it at once, this timber was made for something round, not this house. → Gives: [`roof-built-for-a-dome`](../clues/clues.md#roof-built-for-a-dome)
 - **The wrong icons** `(requires: Devotion, and the attic open)` — Icons are stacked up in the attic, out of sight of the rooms below. A believer sees it at once: these are Eastern-rite, not the Roman Catholic images hung downstairs. They do not belong in this house. → Gives: [`icons-in-attic-not-catholic`](../clues/clues.md#icons-in-attic-not-catholic)
-- **He is armed** `(requires: [Dudka has barged in](#noise))` — Dudka fills the doorway with a hunting rifle level on them. → Gives: [`neighbour-has-rifle`](../clues/clues.md#neighbour-has-rifle)
 
 ## Actions
 
@@ -66,45 +66,38 @@
 - **Requires:** Nothing
 - **Cost:** 1 composure
 - **Outcome:** The players step into the kitchen. [Janina Gajda](../characters/ciotka.md) lies dead on the floor. Only now can they get close enough to examine the body and the table.
-- **Gives:** Scene Unlock: [Undress the body](#undress-the-body).
-
-### Undress the body
-- **Requires:** Entering the kitchen (see [Enter the kitchen](#enter-the-kitchen))
-- **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
-- **Cost:** 1 composure
-- **Outcome:** They strip the dead woman on her own kitchen floor to get at what her clothes hide. If anyone walks in while she is undressed, the committee is caught stripping a dead old woman: a scandal that turns the village against them.
-- **Gives:** World State Change: the body is undressed.
+- **Gives:** Scene Unlock: [Examine the body](#examine-the-body).
 
 ### Examine the body
-- **Requires:** The body undressed (see [Undress the body](#undress-the-body)); **Medicine**
+- **Requires:** Entering the kitchen (see [Enter the kitchen](#enter-the-kitchen)); **Medicine**
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
-- **Cost:** Free
-- **Outcome:** No strangulation, no defensive wounds. But a fresh bruise grips her wrist, a large hand closed hard while she still lived. It did not kill her, and it did not come from a fall.
-- **Gives:** [`ciotka-hurt-before-death`](../clues/clues.md#ciotka-hurt-before-death)
+- **Cost:** 1 composure
+- **Outcome:** Undressing her draws a flinch from [ks. Władysław Pająk](../characters/priest.md), he is praying over her, but he is no fool. Told a proper examination is how they find who laid hands on her, he understands and turns away to let a Medicine player read her. Her throat is unmarked, no strangulation; nowhere on her body are there defensive wounds. But a fresh bruise rings her wrist, a large hand closed hard while she still lived. It did not kill her, and it did not come from a fall. What did kill her reads in her colour and her slack, stopped breath: a heavy barbiturate dose, and the open Luminal bottle on the table is her own.
+- **Gives:** [`ciotka-hurt-before-death`](../clues/clues.md#ciotka-hurt-before-death); [`ciotka-overdosed`](../clues/clues.md#ciotka-overdosed). If they strip her crudely, brushing past his objection without a word: [`committee-disturbed-the-dead`](../clues/clues.md#committee-disturbed-the-dead).
 
 ### Search the house
 - **Requires:** Nothing
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 action
-- **Outcome:** With Janina dead and the door unlocked, the house is theirs to go through. The backyard, icons, and [Edek Barnaś](../characters/glupek.md)'s room remain as described in [Ciotka's house](../locations/ciotkas-house.md); the shut attic can now be opened without her in the way.
+- **Outcome:** With Janina dead, the house is theirs to go through. The backyard, icons, and [Edek Barnaś](../characters/glupek.md)'s room remain as described in [Ciotka's house](../locations/ciotkas-house.md); the shut attic can now be opened without her in the way.
 - **Gives:** Scene Unlock: [Ciotka's house actions](../locations/ciotkas-house.md#actions) remain available in the context of the death.
 
-### Search the purse
-- **Requires:** Having examined the body or searched the house
-- **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
+### The priest leaves them the key
+- **Requires:** The players have noticed the attic hatch (it is in the ceiling; [Search the house](#search-the-house) reveals it plainly) and turned their attention to it, while [ks. Władysław Pająk](../characters/priest.md) is still present
+- **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead); the players' own interest in the locked attic
 - **Cost:** 1 action
-- **Outcome:** Janina kept her purse close, among her few private things. Inside is the attic key, kept where no one would find it, and a thick roll of banknotes, far more cash than a widow of this village should have. With the key the attic opens quietly, no forcing, no noise.
-- **Gives:** Item / Evidence: the attic key. Clue: [cash-in-ciotkas-purse](../clues/clues.md#cash-in-ciotkas-purse).
+- **Outcome:** [ks. Władysław Pająk](../characters/priest.md) has been in no hurry to leave, praying over her, looking in on the house. Only once the committee's own attention turns to the locked hatch does he speak to it, and even then only to the point: he mentions, the way a man passes on a practical thing about a dead neighbour's house, where Janina kept the key, under a loose floorboard beneath her bed. He does not raise the attic himself, and if they never look to it he never mentions the key at all. He does not say what the attic holds or why he is telling them; nothing in it could be quoted back to him. Over the money he does not keep quite so clean a face, he knows what else is under that board, and he holds their eyes a moment longer than he needs to, the way a man does when he is hoping for something he will not ask for. He says it is not a priest's place to go through her things, that is for them and for the family, and that he must walk down and tell her brother Zbigniew, the sołtys. It is a fair way, and the man is as likely to be out at the fields as at home, so he may be a while. He pauses at the door a breath longer than he needs to. Then he blesses her body and leaves them alone in the house. They lift the board. The iron key is there, and beside it a small roll of banknotes, a frugal woman's savings put by over years.
+- **Gives:** Item / Evidence: the attic key. NPC State Change: [ks. Władysław Pająk](../characters/priest.md) leaves the scene to fetch [Zbigniew Gajda](../characters/wojewoda.md). Scene Unlock: [The money under the board](#the-money-under-the-board).
 
-### Take the money
-- **Requires:** Having searched the purse
-- **Prompted by:** [`cash-in-ciotkas-purse`](../clues/clues.md#cash-in-ciotkas-purse)
-- **Cost:** Free
-- **Outcome:** The players take the roll of banknotes for themselves. Whoever keeps it now carries real cash in a valley that has none.
-- **Gives:** The player who takes the money gains the [Loaded](../story-facts/game-system.md) trait. Clue: [`committee-stole-money`](../clues/clues.md#committee-stole-money).
+### The money under the board
+- **Requires:** Lifting the floorboard (see [The priest leaves them the key](#the-priest-leaves-them-the-key))
+- **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
+- **Cost:** free
+- **Outcome:** No one is watching. The priest is gone, Janina is dead, and nobody living knows the roll is there. The committee can pocket it clean: no one to catch them, no one to tell, no grudge and no reckoning anyone will bring. It is not much, the honest savings of a frugal woman, and that is the point. What the priest left behind was a hope, that they would leave it where it lay, or put it to some good. Taking it for themselves carries almost no earthly cost. The weight is theirs alone.
+- **Gives:** Item / Evidence: a small roll of banknotes, if they take it.
 
 ### Open the attic with the key
-- **Requires:** The [attic key](#search-the-purse)
+- **Requires:** The [attic key](#the-priest-leaves-them-the-key)
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 action
 - **Outcome:** The key turns and the hatch lifts quietly. It is the one part of the house Janina guarded.
@@ -115,7 +108,7 @@
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 action
 - **Outcome:** The players break the locked hatch open. It is loud, splintered wood and a scene the neighbours can hear.
-- **Gives:** World State Change: the attic is open. +2 [Noise](#noise).
+- **Gives:** World State Change: the attic is open.
 
 ### Search the pile of rubbish
 - **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))
@@ -143,54 +136,25 @@
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 action
 - **Outcome:** A small brass Greek Catholic liturgical bell with Cyrillic lettering sits high up, out of place in a Roman Catholic home. Reaching it knocks it loose and it falls, ringing and clattering.
-- **Gives:** Item / Evidence: [Lemko Bell](../items/lemko-bell.md) + [lemko-bell-in-ciotkas-house](../clues/clues.md#lemko-bell-in-ciotkas-house). +3 [Noise](#noise).
-
-### Catch the bell
-- **Requires:** Reaching for the bell (see [Take down the bell](#take-down-the-bell)); **Finesse** or **Physique**
-- **Cost:** Free
-- **Outcome:** Quick hands and a long reach catch the bell as it comes loose, before it hits the floor. It never rings.
-- **Gives:** Negates the +3 [Noise](#noise) from taking the bell.
+- **Gives:** Item / Evidence: [Lemko Bell](../items/lemko-bell.md) + [lemko-bell-in-ciotkas-house](../clues/clues.md#lemko-bell-in-ciotkas-house).
 
 ### Search outside the house
 - **Requires:** Go outside and search the mud.
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 action
 - **Outcome:** Cigarette butts lie scattered by the door. Large bare footprints run from the house toward the tree line and fade where the canopy starts.
-- **Gives:** Item / Evidence: [Carmen Cigarette Butts](../items/cigarette-butts-from-ciotkas.md) + [`glupek-fled-into-forest`](../clues/clues.md#glupek-fled-into-forest). +1 [Noise](#noise).
-
-### Report the death
-- **Requires:** Nothing
-- **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
-- **Cost:** 1 action
-- **Outcome:** They call it in. Dudka, the priest, and the village women come, and the house is no longer theirs. The women lay Janina out; her purse is inventoried in the open, the cash and the attic key seen by everyone and taken by no one. The attic stays shut, and there is no more undressing her, searching unseen, or pocketing anything. In return their standing is clean: no Noise, no scandal, no barge-in. A [Medicine](../story-facts/game-system.md) player present at the laying-out sees the bruise on her wrist.
-- **Gives:** World State Change: the death is public; the private actions (attic, [Undress the body](#undress-the-body), [Take the money](#take-the-money), searching unobserved) close. Clue: [`cash-in-ciotkas-purse`](../clues/clues.md#cash-in-ciotkas-purse). With a Medicine player present: [`ciotka-hurt-before-death`](../clues/clues.md#ciotka-hurt-before-death).
-
-### Talk Dudka down
-- **Requires:** [Dudka has barged in](#noise); **Speech**, **Finesse**, or **Devotion**
-- **Prompted by:** [`neighbour-has-rifle`](../clues/clues.md#neighbour-has-rifle)
-- **Cost:** 1 composure
-- **Outcome:** They convince him this is a real committee investigation, not what it looks like. Speech calms him, Finesse reads that he is frightened rather than dangerous and works that, Devotion reaches the guilt he carries. He lowers the rifle. Do not pull rank on him; treating him as government muscle or a suspect is the wrong lever and hardens him. Fail, and he reads them as the killers standing over the body and raises the alarm in the village.
-- **Gives:** NPC State Change: Dudka stands down.
-
-### Explain the examination
-- **Requires:** [Talk Dudka down](#talk-dudka-down) while the body is undressed; **Medicine** or **Speech**
-- **Cost:** 1 composure
-- **Outcome:** An undressed body reads as stripping the dead. Medicine convinces him on medical grounds, Speech simply talks him past it. Fail, and he will not be talked down, and he leaves certain the committee desecrated her.
-- **Gives:** NPC State Change: Dudka accepts the examination. On failure: [`committee-desecrated-body`](../clues/clues.md#committee-desecrated-body).
-
-### Explain the purse
-- **Requires:** [Talk Dudka down](#talk-dudka-down) while the purse is open; **Bureaucracy** or **Speech**
-- **Cost:** 1 composure
-- **Outcome:** Even talked down, the open purse stops him. He raises the rifle again, this time on the player standing closest to it, and tells them to turn out their pockets. If that player took the money (see [Take the money](#take-the-money)), the roll of banknotes falls out and there is no explaining it. Otherwise Bureaucracy frames the search as procedure, Speech simply talks him past it. Fail, and he will not be talked down.
-- **Gives:** NPC State Change: Dudka accepts the search. On failure: [`committee-looted-belongings`](../clues/clues.md#committee-looted-belongings). If the money is found on a player: [`committee-stole-money`](../clues/clues.md#committee-stole-money).
+- **Gives:** Item / Evidence: [Carmen Cigarette Butts](../items/cigarette-butts-from-ciotkas.md) + [`glupek-fled-into-forest`](../clues/clues.md#glupek-fled-into-forest).
 
 ## Mechanics
 
-### Noise
-- GM tracks a hidden Noise counter; players never see it.
-- [Ryszard Dudka](../characters/neighbour.md) lives across the road and watches the house.
-- Actions raise Noise when Dudka could see or hear them. Each such action lists its Noise value.
-- At 3 or more Noise, Dudka barges in from across the road, rifle up. He does not shout. He stands in the doorway, quiet, watching their hands, and waits for them to explain (see [Talk Dudka down](#talk-dudka-down)).
+### The priest
+- [ks. Władysław Pająk](../characters/priest.md) is a decent man walking a tightrope. He wants the committee to find what this house hides, and he cannot be seen to help them: the confession seal binds what [Janina Gajda](../characters/ciotka.md) told him, and the parish funding runs through [Zbigniew Gajda](../characters/wojewoda.md), so a wrong word costs him his vows or his church. Everything he does here is deniable.
+- He is clever, and he has a good guess what is in the attic: the looted belongings of the [Barnaś](../characters/soldier.md) family, the thing that would turn the committee's eyes onto the Gajdas. He will never say so, and he will never be seen to point. Play every beat as a decent priest doing the ordinary, proper thing: looking in on her, praying, not touching her things, going to tell the family. The steering should pass unnoticed in the moment. The most you want is for a sharp player, later, once they know what was up there and who was coming, to stop and think: the priest gave us that chance on purpose.
+- He does not obstruct the death investigation itself; that part is his legitimate role and it points at no one living. He understands examining her means undressing her. The one line is her body: handle her with a word of explanation and he turns away; strip her crudely, brushing past his flinch, and he takes it as contempt for the dead: [`committee-disturbed-the-dead`](../clues/clues.md#committee-disturbed-the-dead), his goodwill lost and remembered (see his [Grudge](../characters/priest.md#grudge)).
+- The attic is the line he walks, and he will not step over it first. He will not raise the attic himself. Only if the committee notices the hatch and turns to it on their own does he give them the key, and even then as a plain, helpful fact about where a dead neighbour kept it, never a word about what is up there (see [The priest leaves them the key](#the-priest-leaves-them-the-key)). A committee that never looks up at the attic gets nothing from him about it; he simply leaves, and the hatch can then only be [forced](#force-the-attic). The help is always theirs to earn by noticing, never his to offer.
+- He knows there is money under that board too. In his crisis of faith he is quietly hoping the committee will leave it or put it to some good, not pocket it. He will not say so and he will not stay to watch; taking it carries almost no earthly consequence (see [The money under the board](#the-money-under-the-board)). The choice, and its weight, is the players' alone.
+- How he hands them the window: he never tells them to hurry or to search. He states only neutral, true things, that going through her things is not his place, that he must fetch Zbigniew, that the man may be out and he will be a while, and lets the committee do the arithmetic. The beat he holds at the door is the closest he comes to saying it aloud. If Zbigniew ever asks, the priest only did his duty and left the officials to theirs.
+- He has gone to fetch [Zbigniew Gajda](../characters/wojewoda.md), her brother and the sołtys, who does not want outsiders turning over the family's house. No counted clock: a decisive committee has time to work the attic before he arrives. A committee that dawdles, or that trusts the grieving brother and simply waits for him, finds Zbigniew take over the house and close the attic off, whatever they have not found by then is his family's business and out of their reach.
 
 ## Exits
 
