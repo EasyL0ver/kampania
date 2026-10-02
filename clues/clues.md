@@ -868,6 +868,9 @@ Tadeusz Mazur died on the PGR farm and the death was never reported to the state
 ### foreman-sent-mazur-in-his-place
 [Michał Pytlak](../characters/foreman.md) knew the silo was dangerous and always tended it himself to keep others off it. Tied up with other work, he handed the job to Tadeusz Mazur, his most reliable man. Mazur went up alone and fell in. When Mazur vanished, Michał suspected the silo but could not justify dumping a full state store on a guess, and the sołtys refused him permission to empty it. The body only surfaced two weeks later.
 
+### foreman-stood-up-to-the-soltys
+[Michał Pytlak](../characters/foreman.md)'s workers respect him for standing up to the boss. They remember him fighting [Zbigniew Gajda](../characters/wojewoda.md) over the grain.
+
 ### drinking-crew-heads-to-forest
 Tadek Gajda and his crew regularly head into the treeline with bottles. They're going somewhere in the forest.
 
