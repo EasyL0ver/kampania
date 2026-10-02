@@ -63,7 +63,6 @@ GM tracks score per target. Highest when he snaps = who he goes after.
 | `butcher-dumps-carcasses-in-well` | Rezeń | +1 |
 | `fresh-blood-at-well` | Rezeń | +1 |
 | `lynch-body-in-well` | Zbigniew | +1 |
-| `foreman-coverup` | Zbigniew | +2 |
 | `hag-blamed-for-wolves` | Hag | +2 |
 | Pawełek dies (players promised help) | Players | +3 |
 | Pawełek dies (no promise) | Players | +1 |
@@ -110,6 +109,13 @@ While Humiliated:
 - **Cost:** Free
 - **Outcome:** Asked about the girl who lived with the Barnaś family, he confirms they had a teenage daughter, names her Hania, and claims she left with her father years back.
 - **Gives:** [barnas-had-a-daughter-hania](../clues/clues.md#barnas-had-a-daughter-hania), aware:characters/jagna.md
+
+### Ask about old Barnaś
+- **Requires:** Nothing
+- **Prompted by:** aware:characters/soldier.md
+- **Cost:** Free
+- **Outcome:** He knew the man from the first day, next fence over, and says it flat and without warmth: Barnaś was a soldier, KBW, came into the valley with the resettlement in '47 and never left. He has no good word for him.
+- **Gives:** [soldier-was-kbw](../clues/clues.md#soldier-was-kbw); [soldier-served-in-akcja-wisla](../clues/clues.md#soldier-served-in-akcja-wisla)
 
 ### Ask about Ciotka's visitors
 - **Requires:** He liked the players; they ask who came to Janina's house before she died

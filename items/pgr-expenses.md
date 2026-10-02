@@ -94,7 +94,7 @@ Date        Payee / Description                                    Amount
 - **Requires:** Holding the journal
 - **Cost:** 1 card
 - **Outcome:** May 1965: a silo repair, then one week later the largest single expense in the journal — an emergency grain purchase because the silo's contents were "lost." A broken silo, grain gone, the biggest bill in years — and not one medical or hospital cost anywhere near it.
-- **Gives:** [`mazur-paid-but-absent`](../clues/clues.md#mazur-paid-but-absent)
+- **Gives:** [`large-grain-purchase`](../clues/clues.md#large-grain-purchase)
 
 ### Find the name "Konieczna, Marta" (Investigation)
 - **Requires:** Holding the journal

@@ -2,7 +2,7 @@
 
 **Type:** Location (revisitable)
 **Location:** State Agricultural Farm (Państwowe Gospodarstwo Rolne) — fields, barns, livestock pens, tool shed.
-**Present:** [Michał Pytlak](../characters/foreman.md) (day), [Barbara Kopacz](../characters/barbara.md) (working hours), [Józef Nowak](../characters/secondary-characters.md#józef-nowak--józef-nowak) (variable), [Piotr Wiśniewski](../characters/secondary-characters.md#piotr-wiśniewski--piotr-wiśniewski) (variable)
+**Present:** [Michał Pytlak](../characters/foreman.md) (day), [Barbara Kopacz](../characters/barbara.md) (working hours), [Józef Nowak](../characters/secondary/jozef-nowak.md) (variable), [Piotr Wiśniewski](../characters/secondary/piotr-wisniewski.md) (variable)
 **Available:** Daytime, any day. Repeatable.
 **Cost:** 1 action per visit
 
@@ -39,18 +39,6 @@ The State Agricultural Farm: fields, barns, livestock pens, tool shed.
 - **Cost:** 1 action
 - **Outcome:** The farm books show mostly ordinary farm spending, plus Tadeusz Mazur listed as a current worker drawing wages with no work logs for the past two years.
 - **Gives:** [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent); Item: [worker registry](../items/pgr-ledger.md); Item: [expense journal](../items/pgr-expenses.md)
-
-### Examine the grain silo
-- **Requires:** Committee authority
-- **Cost:** 1 action
-- **Outcome:** The concrete silo is patched on one side with newer, hurried work, and a ladder runs down into the grain inside. **(Handiwork)** the patch is a rushed repair, not maintenance, cut and filled in haste a couple of years back. **(Empathy)** raise it with the labourers and they steer you to "the barn's been fixed" and away from the silo. This is where a man went in to break loose caked grain and did not come out.
-- **Gives:** [mazur-died-in-the-silo](../clues/clues.md#mazur-died-in-the-silo)
-
-### Ask the labourers about accidents
-- **Requires:** Józef Nowak or Piotr Wiśniewski present
-- **Cost:** Free
-- **Outcome:** The labourers exchange glances and mention that the barn has been fixed.
-- **Gives:** [pgr-workers-hide-something](../clues/clues.md#pgr-workers-hide-something)
 
 ### Talk to Michał Pytlak
 - **Requires:** [Michał Pytlak](../characters/foreman.md) present

@@ -75,6 +75,13 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 - **Outcome:** Barbara gives a generous social map: [Zbigniew Gajda](wojewoda.md) has the phone, the Gajda siblings keep the church supplied, [Ryszard Dudka](neighbour.md) helps her, [Michał Pytlak](foreman.md) is busy, and the old village is not somewhere people go. Every answer comes with a friendly question back.
 - **Gives:** [`wojewoda-has-only-phone`](../clues/clues.md#wojewoda-has-only-phone), [`siblings-fund-the-church`](../clues/clues.md#siblings-fund-the-church)
 
+### Ask about the old village
+- **Requires:** Any visit
+- **Prompted by:** aware:locations/old-village-ruins.md
+- **Cost:** Free
+- **Outcome:** She lowers her voice. Nobody goes up to the old village, she says; it is a bad place, haunted, and folk keep well away, after dark most of all. She is passing on the village feeling, not anything she has seen herself.
+- **Gives:** [`old-village-is-haunted`](../clues/clues.md#old-village-is-haunted)
+
 ### Ask Barbara about the three-barred cross
 - **Requires:** Nothing
 - **Prompted by:** [three-barred-cross-in-babcias-room](../clues/clues.md#three-barred-cross-in-babcias-room)

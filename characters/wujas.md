@@ -49,7 +49,7 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 
 ## Opportunities
 
-- **Smoking while drinking** `(requires: Tadek present and drinking at the [bimber still](../locations/bimber-still.md) or the [store](../locations/the-store.md), and Chainsmoker)` — With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen. → Gives: [`tadek-smokes-cheapest`](../clues/clues.md#tadek-smokes-cheapest)
+- **Smoking while drinking** `(requires: Tadek present and drinking at the [bimber still](../locations/bimber-still.md) or the [store](../locations/the-store.md), and Chainsmoker)` `(prompted by: aware:characters/wujas.md)` — With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen. → Gives: [`tadek-smokes-cheapest`](../clues/clues.md#tadek-smokes-cheapest)
 - **Census nerves** `(requires: Census interview and Empathy)` — he is not nervous about the census; he is nervous about being asked anything at all. → Gives: [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
 - **Drunk census performance** `(requires: Census interview and Tadek is drunk)` — he turns the answers into absurd village theatre.
 - **Drunk property performance** `(requires: Property assessment and Tadek is drunk)` — he claims a fake grand estate made of the still, his brother's house, and moonlight.
@@ -61,6 +61,13 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 - **Cost:** 2 actions; 1 composure
 - **Outcome:** The committee drinks Tadek past the point of guard. He gets loud, then maudlin, and grief for a woman he won't name slips out before he can catch it.
 - **Gives:** [`wujas-misses-someone`](../clues/clues.md#wujas-misses-someone)
+
+### Ask about the butcher
+- **Requires:** [drinking buddy](#drinking-buddy)
+- **Prompted by:** aware:characters/butcher.md
+- **Cost:** Free
+- **Outcome:** Loose with drink, Tadek remembers [Rezeń](butcher.md) sitting in on the crew's sessions years back, bottle in hand like any of them. Then one day he just stopped, and never came back to the fire.
+- **Gives:** [`butcher-used-to-drink-with-the-crew`](../clues/clues.md#butcher-used-to-drink-with-the-crew)
 
 ### Leverage — the bimber play, first visit
 - **Requires:** Players have discovered the [bimber still](../locations/bimber-still.md)

@@ -10,7 +10,7 @@ Emil Rzepka, Helena's withdrawn husband and a local painter, works in the garden
 
 - **Born:** 1923
 - **Age in 1967:** 44
-- **Lives in:** [Helena Rzepka & Emil Rzepka's house](../locations/matronas-house.md) — with [Helena Rzepka](matrona.md), [Ewa Rzepka](secondary-characters.md), [Krystian Rzepka](secondary-characters.md)
+- **Lives in:** [Helena Rzepka & Emil Rzepka's house](../locations/matronas-house.md) — with [Helena Rzepka](matrona.md), [Ewa Rzepka](secondary/ewa-rzepka.md), [Krystian Rzepka](secondary/krystian-rzepka.md)
 - **Settled:** ~1948 — first wave, with Helena
 
 ## Character
@@ -34,7 +34,7 @@ His hands are the only alive part of him: long-fingered, always stained with cad
 
 ## Opportunities
 
-- **Ewa asks for a portrait** `(requires: Committee authority and Ewa present during the census)` `(prompted by: aware:characters/painter.md)` — While the committee takes the household down, [Ewa](secondary-characters.md) settles on the stool beside her father and asks him, lightly, to paint her portrait for once. Emil turns it away gently: he offers to paint the house, the valley, the cerkiew on the hill, anything but her. Every finished canvas in the room is a place, never a person. He paints the world he lives in and leaves the people out of it. → Gives: [emil-doesnt-paint-people](../clues/clues.md#emil-doesnt-paint-people)
+- **Ewa asks for a portrait** `(requires: Committee authority and Ewa present during the census)` `(prompted by: aware:characters/painter.md)` — While the committee takes the household down, [Ewa](secondary/ewa-rzepka.md) settles on the stool beside her father and asks him, lightly, to paint her portrait for once. Emil turns it away gently: he offers to paint the house, the valley, the cerkiew on the hill, anything but her. Every finished canvas in the room is a place, never a person. He paints the world he lives in and leaves the people out of it. → Gives: [emil-doesnt-paint-people](../clues/clues.md#emil-doesnt-paint-people)
 
 ## Actions
 

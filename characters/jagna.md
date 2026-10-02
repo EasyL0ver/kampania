@@ -11,7 +11,9 @@
 
 ## Character
 
-Missing since 1954 and presumed dead, though no one truly knows. She was proud, sharp, and observant; she knew the Gajdas' secret, never used it, and fled the lynch into the forest.
+Missing since 1954 and presumed dead, though no one truly knows. She was proud, sharp, and observant; she knew the Gajdas' secret, never used it, and fled the lynch into the forest. She survived, took the operator's chair, and turned cold: she wants the village that murdered her family destroyed, not rescued from, not sorry, punished. She is not after recognition or return. She does not single out the committee or even the men who did the killing; justice against them means nothing to her now. The whole village is the thing she wants gone, and she will use anyone she can, the committee included, to bring it down while she stays hidden.
+
+From the exchange she has pieced the crime together. She knows for a fact the three men who carried out the killing, [Tadek](wujas.md), [Zbigniew](wojewoda.md), and [Rezeń](butcher.md), and she strongly suspects [Helena](matrona.md) instigated it, though she cannot prove it. She knows the village's only telephone sits in [Zbigniew](wojewoda.md)'s office, so every call the committee places to the outside passes through her hands.
 
 ## Appearance
 
@@ -25,7 +27,7 @@ People remembered her as clever before they remembered her as kind. Around Edek 
 
 - **[Edward Barnaś](soldier.md)** — He is my father, and I am more like him than I want to admit. He died because he came for me.
 - **[Edek Barnaś](glupek.md)** — He is my little brother. With him, I do not need to prove anything.
-- **[Emil Rzepka](painter.md)** — I wanted him, and I wanted the danger of him. He told me the family secret because he trusted me.
+- **[Emil Rzepka](painter.md)** — I loved him once, and I wanted the danger of him. Then I watched him bend under Helena and stay, paint her house, never once raise his voice for me or mine. He got under her boot like the rest. I hate him the way I hate all of them.
 - **[Tadek Gajda](wujas.md)** — He wanted me and I let him hope. That was cruel, but useful.
 - **[Helena Rzepka](matrona.md)** — She asked me to step aside, politely. I would not give her Emil.
 - **`jagna-knew-the-secret`:** I knew, and I kept quiet. Knowing was enough to make them afraid.

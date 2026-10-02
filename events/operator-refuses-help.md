@@ -1,7 +1,7 @@
 # Operator Refuses Help
 
 **Location:** [Zbigniew Gajda's office](../locations/wojewodas-house.md)
-**Present:** [%OPERATOR%](../characters/secondary-characters.md#operator-the-telephone-exchange-operator), [Zbigniew Gajda](../characters/wojewoda.md) (optional)
+**Present:** [%OPERATOR%](../characters/secondary/operator.md#operator-the-telephone-exchange-operator), [Zbigniew Gajda](../characters/wojewoda.md) (optional)
 **Available:** Day 3 onward, during [the flood](the-flood.md), when players call outside for rescue.
 
 ## Hook

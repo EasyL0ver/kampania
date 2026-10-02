@@ -3,7 +3,7 @@
 <!-- Restructured from story essay. Needs scene-level detail: sensory Setup, concrete Opportunities, specific Actions with outcomes. -->
 
 **Location:** [Matrona's house](../locations/matronas-house.md)
-**Present:** [Emil Rzepka](../characters/secondary-characters.md), [Helena Rzepka](../characters/matrona.md) (if present)
+**Present:** [Emil Rzepka](../characters/painter.md), [Helena Rzepka](../characters/matrona.md) (if present)
 **Available:** Any time players seek out Emil.
 
 ## Trigger

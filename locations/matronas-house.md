@@ -2,7 +2,7 @@
 
 **Type:** Location (revisitable)
 **Location:** Central %NEW_VILLAGE%, close to [the store](the-store.md)
-**Present:** [Helena Rzepka](../characters/matrona.md) (usually), [Emil Rzepka](../characters/painter.md), [Ewa Rzepka](../characters/secondary-characters.md), [Krystian Rzepka](../characters/secondary-characters.md) (irregular)
+**Present:** [Helena Rzepka](../characters/matrona.md) (usually), [Emil Rzepka](../characters/painter.md), [Ewa Rzepka](../characters/secondary/ewa-rzepka.md), [Krystian Rzepka](../characters/secondary/krystian-rzepka.md) (irregular)
 **Available:** Any time; possible lodging after [03-dinner](../events/dinner.md)
 **Cost:** 1 action per visit
 
@@ -24,9 +24,9 @@ The centre of %NEW_VILLAGE%, close to the store.
 - **Emil:** [Emil Rzepka](../characters/painter.md) sits near the stove or works in the garden shed he paints in.
 - **Emil:** He says little and looks at Helena before speaking.
 - **Emil:** His hands are stained with paint.
-- **Ewa:** [Ewa Rzepka](../characters/secondary-characters.md) helps in the kitchen and watches Emil.
+- **Ewa:** [Ewa Rzepka](../characters/secondary/ewa-rzepka.md) helps in the kitchen and watches Emil.
 - **Ewa:** She brings tea to Emil's shed when Helena is not watching.
-- **Krystian:** [Krystian Rzepka](../characters/secondary-characters.md) comes and goes for altar-boy duties.
+- **Krystian:** [Krystian Rzepka](../characters/secondary/krystian-rzepka.md) comes and goes for altar-boy duties.
 - **Krystian:** He repeats village observations to Helena.
 - **Shed:** Emil's shed contains landscapes and village scenes of old wooden houses and a stone church.
 - **Shed:** The old village recurs across many of the canvases, its well, its cerkiew, and its ruined houses, painted with more care than the rest.
@@ -42,7 +42,6 @@ The centre of %NEW_VILLAGE%, close to the store.
 ## Opportunities
 
 - **Household dynamic** `(requires: Empathy)` — Emil waits for Helena's cues before speaking, and her touch makes him flinch. → Gives: [matrona-controls-painter](../clues/clues.md#matrona-controls-painter)
-- **Well in the paintings** `(requires: access to Emil's shed)` — The newer paintings show the well before the players find or understand it. → Gives: [painters-art-shows-the-well](../clues/clues.md#painters-art-shows-the-well)
 - **Not one face** `(requires: access to Emil's shed)` — Every canvas on the walls is a landscape or a village scene. In a whole shed of paintings, there is not a single person. → Gives: [emil-doesnt-paint-people](../clues/clues.md#emil-doesnt-paint-people)
 - **A village that is gone** `(requires: access to Emil's shed and Culture)` — The wooden houses and stone church in the older canvases are not the new village. This is the settlement from before the resettlement, a place that no longer stands. He paints it from memory.
 - **The old village, over and over** `(requires: access to Emil's shed and Empathy)` `(prompted by: aware:characters/painter.md)` — One place keeps returning across the canvases: the old village, its well, its cerkiew, its ruined houses, painted again and again with a fascination the other scenes never get. → Gives: [painter-fascinated-by-old-village](../clues/clues.md#painter-fascinated-by-old-village)

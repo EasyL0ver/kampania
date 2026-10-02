@@ -31,7 +31,7 @@
 - **Fresh candles and incense** `(requires: Culture)` — Someone still comes here to perform rites. → Gives: [hag-tends-the-well](../clues/clues.md#hag-tends-the-well)
 - **The dead are close** `(requires: Superstitious)` — The cold, the drifting candle smoke, and the watching quiet press in; a superstitious soul is certain the old villagers never truly left this hill.
 - **Faded icons** `(requires: Culture, Devotion, or Language)` — The icons and Cyrillic inscriptions identify the cerkiew as Greek Catholic and Lemko. → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
-- **The three-barred crosses** — The altar screen, icons, and carvings are marked all over with a recurring three-barred cross. → Gives: [three-barred-cross-in-cerkiew](../clues/clues.md#three-barred-cross-in-cerkiew)
+- **The three-barred crosses** `(prompted by: aware:locations/old-village-cerkiew.md)` — The altar screen, icons, and carvings are marked all over with a recurring three-barred cross. → Gives: [three-barred-cross-in-cerkiew](../clues/clues.md#three-barred-cross-in-cerkiew)
 
 ## Actions
 

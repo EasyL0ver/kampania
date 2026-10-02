@@ -43,15 +43,8 @@ A police car winding down the mountain road through the rain.
 - **Requires:** Nothing
 - **Prompted by:** [government-committee](../clues/clues.md#government-committee)
 - **Cost:** Free
-- **Outcome:** por. Witold Skowron explains the committee's survey, property assessment, local contact, village phone, and road risk. He notes the valley's [state farm](../locations/pgr-farm.md), the PGR, as the main property the committee will assess.
-- **Gives:** [`committee-runs-geographical-survey`](../clues/clues.md#committee-runs-geographical-survey), [`committee-notes-property-for-damage`](../clues/clues.md#committee-notes-property-for-damage), [`committee-fills-census`](../clues/clues.md#committee-fills-census), [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood), aware:locations/pgr-farm.md
-
-### Ask about potential dangers
-- **Requires:** Nothing
-- **Prompted by:** [government-committee](../clues/clues.md#government-committee)
-- **Cost:** Free
-- **Outcome:** por. Witold Skowron downplays danger and mentions Stanisław Rezeń as a loner locals avoid.
-- **Gives:** [`officer-is-sb`](../clues/clues.md#officer-is-sb)
+- **Outcome:** por. Witold Skowron explains the committee's survey, property assessment, local contact, village phone, and road risk. He notes the valley's [state farm](../locations/pgr-farm.md), the PGR, as the main property the committee will assess, and that its movable socialist property must be inventoried and moved out before the flood.
+- **Gives:** [`committee-runs-geographical-survey`](../clues/clues.md#committee-runs-geographical-survey), [`committee-notes-property-for-damage`](../clues/clues.md#committee-notes-property-for-damage), [`committee-fills-census`](../clues/clues.md#committee-fills-census), [`committee-accounts-movable-state-property`](../clues/clues.md#committee-accounts-movable-state-property), [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood), aware:locations/pgr-farm.md
 
 ### Pick up on the hidden warning
 - **Requires:** bureaucratic experience or intuition

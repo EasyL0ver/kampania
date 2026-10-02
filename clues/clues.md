@@ -9,7 +9,7 @@ A clue may also be **synthesized**: add `**Synthesis:** clue-a + clue-b` under i
 ## Heritage & Identity
 
 ### siblings-are-lemko
-[Zbigniew Gajda](../characters/wojewoda.md), [Helena Rzepka](../characters/matrona.md), [Tadek Gajda](../characters/secondary-characters.md), and [Janina Gajda](../characters/ciotka.md) are siblings of Lemko descent, hiding behind Polish identities.
+[Zbigniew Gajda](../characters/wojewoda.md), [Helena Rzepka](../characters/matrona.md), [Tadek Gajda](../characters/wujas.md), and [Janina Gajda](../characters/ciotka.md) are siblings of Lemko descent, hiding behind Polish identities.
 **Synthesis:** three-barred-cross-on-gajda-grave + three-barred-cross-is-lemko
 
 ### three-barred-cross-is-lemko
@@ -34,9 +34,6 @@ A small three-barred crucifix hangs among the icons in [Paraskewia Chyłak](../c
 ### babcia-opposed-to-church
 [Stefania Kopacz](../characters/babcia.md) is hostile to the Roman Catholic church. She rejects [ks. Władysław Pająk](../characters/priest.md)'s faith and rites as foreign and will not have them near her family.
 
-### officer-is-sb
-[por. Witold Skowron](../characters/officer.md) is an SB (secret police) agent, not just a bureaucrat.
-
 ---
 
 ## The Old Village
@@ -47,8 +44,11 @@ A small three-barred crucifix hangs among the icons in [Paraskewia Chyłak](../c
 [%OLD_VILLAGE%](../locations/old-village-ruins.md) was a Lemko settlement — Greek Catholic, with a cerkiew, orchards, and a tightly-knit community.
 **Synthesis:** three-barred-cross-in-cerkiew + three-barred-cross-is-lemko
 
-### lemkos-lived-here
-The heights above the valley were Lemko summer pasture. A tumbled koliba (shepherd's hut) on the far ridge shows herders from a Greek Catholic hill community worked these slopes, before the valley was cleared.
+### old-village-resettled-during-vistula
+On paper, [%OLD_VILLAGE%](../locations/old-village-ruins.md) was emptied in 1947 under Akcja Wisła (Operation Vistula), the forced resettlement that uprooted the Lemko and Ukrainian population of these mountains and scattered them to the north and west. The official record shows the village cleared and its people deported.
+
+### old-village-is-haunted
+Villagers believe [%OLD_VILLAGE%](../locations/old-village-ruins.md) is haunted. They avoid the ruins, keep away after dark, and will not speak easily of the place.
 
 ### abandoned-house-by-streambed
 There is an abandoned shepherd's hut (koliba) hidden in the gorse on the far ridge above the streambed, half-swallowed and easy to miss. Long empty.
@@ -203,7 +203,7 @@ The [Barnaś family](../characters/soldier.md) was murdered in 1954 — [Edward 
 [Stanisław Rezeń](../characters/butcher.md) was one of the men who carried out the 1954 lynch. He attacked [Hania Barnaś](../characters/jagna.md) and helped beat her father [Edward Barnaś](../characters/soldier.md) to death.
 
 ### jagna-was-attacked
-[Hania Barnaś](../characters/jagna.md) was beaten by [Tadek Gajda](../characters/secondary-characters.md) and [Stanisław Rezeń](../characters/butcher.md), who tore at her clothes. Her father reached her before it went further.
+[Hania Barnaś](../characters/jagna.md) was beaten by [Tadek Gajda](../characters/wujas.md) and [Stanisław Rezeń](../characters/butcher.md), who tore at her clothes. Her father reached her before it went further.
 
 ### jagna-fled-the-lynch
 [Hania Barnaś](../characters/jagna.md) broke free during the struggle at the well and ran from the village into the night. She was never seen again.
@@ -214,6 +214,10 @@ The [Barnaś family](../characters/soldier.md) was murdered in 1954 — [Edward 
 ### dudka-buried-jagna
 [Ryszard Dudka](../characters/neighbour.md) buried the ravine remains as [Hania Barnaś](../characters/jagna.md) — to him, the body under the cairn is her.
 
+### jagna-died-escaping
+[Hania Barnaś](../characters/jagna.md) ran into the forest the night of the lynch and died there, falling to her death on the rocks; the remains [Ryszard Dudka](../characters/neighbour.md) buried at the ravine are hers. False lead. The buried woman is far older than Hania ever was, so it cannot be her, and nothing places Hania among the dead.
+**Synthesis:** jagna-fled-the-lynch + ravine-remains-a-woman + ravine-remains-died-from-fall
+
 ### jagna-born-1935
 [Hania Barnaś](../characters/jagna.md) was born in 1935.
 
@@ -223,6 +227,12 @@ The [Barnaś family](../characters/soldier.md) was murdered in 1954 — [Edward 
 
 ### operator-is-jagna
 The calm voice at the town telephone exchange is [Hania Barnaś](../characters/jagna.md). She did not die in 1954; she took the operator's chair, and every long-distance call the village has ever placed has passed through her.
+
+### jagna-doesnt-know-glupek-alive
+[Hania Barnaś](../characters/jagna.md) believes her little brother [Edek Barnaś](../characters/glupek.md) died with the rest of the family in 1954. She does not know he survived and is alive in the village.
+
+### telegram-points-to-barnas-yard
+A telegram relayed through the exchange, addressed to the committee and signed Barnaś, says his service papers and uniform are buried under the old garden bed behind his house. [Edward Barnaś](../characters/soldier.md) has been dead since 1954.
 
 ### dudka-buried-a-friend-at-the-ravine
 [Ryszard Dudka](../characters/neighbour.md) tends a grave in the meadow above the ravine. He'll say only that it's an old friend who fell from the ravine, and that he buried her himself. He does not name her or explain further.
@@ -263,17 +273,20 @@ The night of the lynch, four-year-old [Edek Barnaś](../characters/glupek.md) wo
 ### butcher-has-soldiers-gun
 [Stanisław Rezeń](../characters/butcher.md) took the rifle off [Edward Barnaś](../characters/soldier.md)'s body that night and kept it — the KBW rifle from the night of the lynch. It's still in his house.
 
+### butcher-ex-soldier
+The KBW knife, the KBW rifle, and the state propaganda leaflet in [Stanisław Rezeń](../characters/butcher.md)'s house make him look like an ex-soldier who served against the partisans. False lead. Rezeń never served — he stripped the kit off [Edward Barnaś](../characters/soldier.md)'s body the night of the 1954 lynch.
+
 ### butcher-dumped-the-body
 It was [Stanisław Rezeń](../characters/butcher.md) who put [Edward Barnaś](../characters/soldier.md)'s body down the old well in [%OLD_VILLAGE%](../locations/old-village-ruins.md) the night of the 1954 lynch — he carried the dead man to the well and dropped him in among the 1947 remains.
 
 ### wujas-loved-jagna
-[Tadek Gajda](../characters/secondary-characters.md) was in love with [Hania Barnaś](../characters/jagna.md), but she chose [Emil Rzepka](../characters/secondary-characters.md).
+[Tadek Gajda](../characters/wujas.md) was in love with [Hania Barnaś](../characters/jagna.md), but she chose [Emil Rzepka](../characters/painter.md).
 
 ### painter-was-spared
-[Emil Rzepka](../characters/secondary-characters.md) was beaten but spared because he was [Helena Rzepka](../characters/matrona.md)'s fiancé.
+[Emil Rzepka](../characters/painter.md) was beaten but spared because he was [Helena Rzepka](../characters/matrona.md)'s fiancé.
 
 ### painter-heard-matrona
-[Emil Rzepka](../characters/secondary-characters.md) heard [Helena Rzepka](../characters/matrona.md)'s voice giving instructions during the lynch.
+[Emil Rzepka](../characters/painter.md) heard [Helena Rzepka](../characters/matrona.md)'s voice giving instructions during the lynch.
 
 ### ciotka-saved-glupek
 [Janina Gajda](../characters/ciotka.md) physically intervened to save [Edek Barnaś](../characters/glupek.md)'s life that night. The family has never forgiven her.
@@ -290,8 +303,11 @@ It was [Stanisław Rezeń](../characters/butcher.md) who put [Edward Barnaś](..
 ### neighbour-is-rattled
 [Ryszard Dudka](../characters/neighbour.md) drinks too fast and shuts down whenever the past comes up. Something about the old days frightens him.
 
-### butcher-stopped-drinking-1954
-Stanisław Rezeń stopped drinking in 1954 — abruptly, completely. Something happened that year.
+### butcher-doesnt-drink
+[Stanisław Rezeń](../characters/butcher.md) doesn't drink. His house holds no alcohol at all.
+
+### butcher-used-to-drink-with-the-crew
+[Stanisław Rezeń](../characters/butcher.md) used to drink with [the crew](../characters/secondary/drinking-crew.md) years back. He doesn't anymore.
 
 ### butcher-is-dangerous
 Under pressure [Stanisław Rezeń](../characters/butcher.md) doesn't rage — he goes cold. Even breathing, flat eyes, a knife already turning in his hand, three dogs moving around him like his own limbs with no command spoken. He is a controlled, capable killer, and he has plainly stood ready to kill before.
@@ -386,6 +402,27 @@ The second coffee cup was not [Edek Barnaś](../characters/glupek.md)'s; he will
 ### glupek-fled-into-forest
 Large bare footprints lead from [Janina Gajda](../characters/ciotka.md)'s house toward the treeline and vanish where the canopy begins. [Edek Barnaś](../characters/glupek.md) fled into the forest the night she died.
 
+### edek-ran-to-upa-bunker
+[Edek Barnaś](../characters/glupek.md) is holed up in the [UPA bunker](../locations/upa-bunker.md) in the forest, the hiding place he knows, since he fled the night [Janina Gajda](../characters/ciotka.md) died.
+**Synthesis:** edek-kept-upa-equipment + upa-bunkers-in-the-area
+
+### edeks-bayonet-is-german
+The bayonet hidden among [Edek Barnaś](../characters/glupek.md)'s things is a German wartime army blade, not Polish issue. It cannot have come from his father [Edward Barnaś](../characters/soldier.md)'s KBW kit.
+
+### trident-on-the-bayonet
+A trident is carved by hand into the flat of the [bayonet](../items/bayonet.md)'s blade, three prongs rising from a base.
+
+### upa-used-german-equipment
+The UPA armed itself largely with captured weapons, much of it German wartime equipment left from the occupation.
+
+### trident-stands-for-upa
+The trident, the tryzub, is the Ukrainian national emblem and the mark of the UPA.
+
+### edek-kept-upa-equipment
+The [bayonet](../items/bayonet.md) [Edek Barnaś](../characters/glupek.md) hid among his things is UPA kit. He kept a piece of partisan equipment.
+**Synthesis:** edeks-bayonet-is-german + upa-used-german-equipment
+**Synthesis:** trident-on-the-bayonet + trident-stands-for-upa
+
 ### junior-pressed-ciotka
 [Marek "Junior" Gajda](../characters/junior.md) visited [Janina Gajda](../characters/ciotka.md) the day before she died and pressed her hard about his mother [Irena](../characters/wife.md)'s secret investigation into the family. He wanted her to tell the truth, not to silence her.
 
@@ -461,7 +498,7 @@ Someone is helping [Barbara Kopacz](../characters/barbara.md). The house, the fi
 [Pawełek Kopacz](../characters/pawelek.md) roams unsupervised as far as [%OLD_VILLAGE%](../locations/old-village-ruins.md) — edges, creek, tree line, further than a 4-year-old should go. Nobody watches him closely enough.
 
 ### wojewoda-built-barbaras-house
-[Zbigniew Gajda](../characters/wojewoda.md) built [Barbara Kopacz](../characters/barbara.md) a house out of guilt — he suspects [Marek Gajda](../characters/junior.md) fathered [Pawełek Kopacz](../characters/secondary-characters.md). He's wrong.
+[Zbigniew Gajda](../characters/wojewoda.md) built [Barbara Kopacz](../characters/barbara.md) a house out of guilt — he suspects [Marek Gajda](../characters/junior.md) fathered [Pawełek Kopacz](../characters/pawelek.md). He's wrong.
 
 ### barbara-is-a-sieve
 [Barbara Kopacz](../characters/barbara.md) shares what she hears from the committee casually with [Ryszard Dudka](../characters/neighbour.md) over the fence. Everything the players tell her reaches the one man sitting on 13 years of guilt.
@@ -479,10 +516,10 @@ Someone is helping [Barbara Kopacz](../characters/barbara.md). The house, the fi
 Tadek Gajda is guilty of something terrible. He's been drinking to forget for 13 years and the guilt is visibly destroying him.
 
 ### matrona-controls-painter
-[Helena Rzepka](../characters/matrona.md) keeps [Emil Rzepka](../characters/secondary-characters.md) broken, dependent, and terrified. He knows the truth. She's made sure he'll never speak it.
+[Helena Rzepka](../characters/matrona.md) keeps [Emil Rzepka](../characters/painter.md) broken, dependent, and terrified. He knows the truth. She's made sure he'll never speak it.
 
 ### painter-wants-to-confess
-[Emil Rzepka](../characters/secondary-characters.md) secretly wants [Hania Barnaś](../characters/jagna.md) included in the census so she is not erased by the flood.
+[Emil Rzepka](../characters/painter.md) secretly wants [Hania Barnaś](../characters/jagna.md) included in the census so she is not erased by the flood.
 
 ### ciotka-lives-in-soldiers-house
 [Janina Gajda](../characters/ciotka.md) lives in [Edward Barnaś](../characters/soldier.md)'s former house — the best plot in the village — raising his brain-damaged son. A single woman in a dead man's house with no clean explanation.
@@ -532,9 +569,6 @@ A small brass Greek Catholic liturgical bell with Cyrillic lettering is hidden i
 
 ### siblings-fund-the-church
 The siblings keep the [church](../locations/the-church.md) unusually well supplied — firewood, food, gifts. [ks. Władysław Pająk](../characters/priest.md)'s silence is materially supported.
-
-### painters-art-shows-the-well
-[Emil Rzepka](../characters/secondary-characters.md)'s art starts showing the well before the players find it — dark circles, stone rings, black water.
 
 ### emil-doesnt-paint-people
 [Emil Rzepka](../characters/painter.md) paints only landscapes. He never paints people.
@@ -597,8 +631,7 @@ Irena Gajda hosts with grace but something is tight behind the hospitality. She 
 ### wife-protects-husband
 [Irena Gajda](../characters/wife.md) has realized [Zbigniew Gajda](../characters/wojewoda.md) took part in the 1954 killing. Rather than expose him, she has closed ranks with him. She has stopped investigating, shut the household, and will keep Zbigniew from confessing — even when he wants to.
 
-### pgr-workers-hide-something
-PGR workers exchange glances when asked about accidents. "The barn's been fixed now." Nobody elaborates.
+
 
 ---
 
@@ -730,11 +763,14 @@ Day 2 brings a major flood. The road out disappears. The committee is stranded. 
 ### old-village-flooding
 The old village site is flooding — water rising from below, the well filling. Something underground is changing.
 
+### flood-is-imminent
+The flood is not a future worry but an immediate one. The water is rising fast and %NEW_VILLAGE% will be inundated within days.
+
 ### officer-warning
 [por. Witold Skowron](../characters/officer.md) warns on the drive in: not everything needs to be written down.
 
 ### phone-is-lifeline
-The players can call [Professor](../characters/secondary-characters.md) by phone. If they tell him about the massacre, the truth exists outside the village.
+The players can call [Professor](../characters/professor.md) by phone. If they tell him about the massacre, the truth exists outside the village.
 
 ### government-committee
 The player characters are a state committee sent to %NEW_VILLAGE% ahead of the reservoir, tasked with a census, a property assessment for flood damage, and a geographical survey of the valley. It is the frame the whole visit hangs on: the reason outsiders can measure land, enter homes, and ask questions at all.
@@ -750,6 +786,9 @@ What the committee is really here to hide is the flood. Its true job is to run t
 
 ### committee-fills-census
 The committee is taking a census: who lives in each household, names, ages, how long they have been here. Counting heads is part of the official remit.
+
+### committee-accounts-movable-state-property
+The committee's remit also covers the state farm's movable property. The [PGR](../locations/pgr-farm.md)'s livestock, machinery, and grain stores are socialist property that cannot be left to drown, so they must be inventoried and moved out before the flood. The buildings and fixed works are written off, but every movable state asset has to be accounted for.
 
 ---
 
@@ -804,10 +843,19 @@ Villagers blame [Paraskewia Chyłak](../characters/hag.md) for the wolf attacks.
 ## Red Herrings & Side Mysteries
 
 ### mazur-paid-but-absent
-The PGR worker registry pays a full daily wage to Tadeusz Mazur, a labourer no one on the farm answers to or has seen in about two years. The expense journal logs a grain-silo repair in May 1965 and, a week later, the largest single grain purchase in the book.
+The PGR worker registry pays a full daily wage to Tadeusz Mazur, a labourer no one on the farm answers to or has seen in about two years.
+
+### large-grain-purchase
+The PGR expense journal logs a grain-silo repair in May 1965 and, a week later, the largest single grain purchase in the book. The silo's contents were written off as lost.
+
+### grain-has-been-dumped
+A whole silo's worth of grain was dumped rather than used or sold, tipped out and left to rot instead of going to feed or market.
 
 ### mazur-died-in-the-silo
-Tadeusz Mazur died around 1965 in the farm's concrete grain silo, engulfed while breaking loose caked grain that had stopped flowing. [Wanda Mazur](../characters/widow.md) believes it was an ordinary farm accident, properly handled, and that she now draws a state widow's pension.
+Tadeusz Mazur died around 1965 in the farm's concrete grain silo. Tending it meant going up on top of the stored grain, and he fell in alone, sank to the bottom, and was engulfed. Nobody saw it and nothing showed at the surface; his body lay in the grain for about two weeks before the smell gave him away. [Wanda Mazur](../characters/widow.md) believes it was an ordinary farm accident, properly handled.
+
+### wanda-receives-pension
+[Wanda Mazur](../characters/widow.md) believes she draws a state widow's pension for her late husband, and is grateful to the state for it.
 
 ### mazur-buried-in-cemetery
 Tadeusz Mazur lies in a fresh, well-tended grave in the %NEW_VILLAGE% cemetery, the one [Wanda Mazur](../characters/widow.md) kneels beside.
@@ -817,11 +865,8 @@ Tadeusz Mazur died on the PGR farm and the death was never reported to the state
 
 **Synthesis:** mazur-died-in-the-silo + mazur-paid-but-absent
 
-### foreman-coverup
-[Michał Pytlak](../characters/foreman.md) and [Zbigniew Gajda](../characters/wojewoda.md) covered up a preventable death on the PGR farm. Tadeusz Mazur died ~1965 — never reported to the state. His wages still flow to [Wanda Mazur](../characters/widow.md) as a fake "widow's pension." She doesn't know. The village doesn't know the death was never filed. Same mechanism as the lynch: bury the truth, keep outsiders away.
-
-### pgr-books-are-sketchy
-The crew grumbles that the PGR's books don't add up — pay for people who aren't around, [Michał Pytlak](../characters/foreman.md) and the sołtys keeping the ledgers close. Loose drunk talk, no specifics.
+### foreman-sent-mazur-in-his-place
+[Michał Pytlak](../characters/foreman.md) knew the silo was dangerous and always tended it himself to keep others off it. Tied up with other work, he handed the job to Tadeusz Mazur, his most reliable man. Mazur went up alone and fell in. When Mazur vanished, Michał suspected the silo but could not justify dumping a full state store on a guess, and the sołtys refused him permission to empty it. The body only surfaced two weeks later.
 
 ### drinking-crew-heads-to-forest
 Tadek Gajda and his crew regularly head into the treeline with bottles. They're going somewhere in the forest.
@@ -839,7 +884,7 @@ The crew guards the still because it is what carries them through the winter, no
 Cornered and drunk, the still crew will come to blows if pushed — Franek Mucha throws the first punch.
 
 ### store-has-drug-cabinet
-[Helena Rzepka](../characters/matrona.md)'s [store](../locations/the-store.md) has a locked pharmaceutical cabinet — a *szafka apteczna*, standard PRL distribution point. Helena holds the only key. [Halina](../characters/secondary-characters.md) can't open it.
+[Helena Rzepka](../characters/matrona.md)'s [store](../locations/the-store.md) has a locked pharmaceutical cabinet — a *szafka apteczna*, standard PRL distribution point. Helena holds the only key. [Halina](../characters/secondary/halina-zajac.md) can't open it.
 
 ### somebody-broke-into-store
 Someone got into the pharmaceutical cabinet in [Helena Rzepka](../characters/matrona.md)'s [store](../locations/the-store.md) and robbed it.
@@ -940,8 +985,8 @@ The contamination profile is wrong. Concentrated single-source, not diffuse floo
 ### well-water-contaminated
 The well in [%OLD_VILLAGE%](../locations/old-village-ruins.md) is the source of contamination. The water is bad — whoever drinks it gets sick.
 
-### upa-bunker
-The UPA bunker in the [forest](../locations/old-village-ruins.md) contains old partisan ordnance. Partially collapsed, dangerous. [Michał Pytlak](../characters/secondary-characters.md)'s flood-diversion plan uses explosives from here.
+### upa-bunkers-in-the-area
+UPA partisans left dugout bunkers (ziemianki) hidden through these forests in the 1940s. More than one is scattered across the hills around the valley.
 
 ### spirits-are-restless
 The dead here were not buried right. Something is unquiet. Not evidence, not testimony — a feeling grounded in Lemko tradition. The mirrors need covering, the prayers need saying, the dead need tending.

@@ -32,12 +32,13 @@ The edge of %NEW_VILLAGE%, nearest the forest path toward %OLD_VILLAGE%.
 - **Interior:** Modified blades hang on the wall rack.
 - **Interior:** A KBW military knife is on the wall rack among butchering tools.
 - **Interior:** A KBW rifle is hidden in the smokehouse rafters, wrapped in oilcloth and sacking.
+- **Interior:** A folded [state propaganda leaflet](../items/propaganda-leaflet.md) is tucked among his things: the white eagle driving a bayonet into a trident over the slogan "DEATH TO THE BANDITS". On this copy someone has inked a crude cartoon cock onto the eagle.
 - **Interior:** A drawer in the bench-bed frame contains girl's undergarments taken from [Hania Barnaś](../characters/jagna.md).
 
 ## Opportunities
 
 - **Forest path** `(requires: Survival)` — The track sees daily use and points straight toward [%OLD_VILLAGE%](old-village-ruins.md). → Gives: [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
-- **No alcohol** `(requires: access to interior and Finesse)` — The house contains no alcohol, matching an abrupt stop after 1954. → Gives: [butcher-stopped-drinking-1954](../clues/clues.md#butcher-stopped-drinking-1954)
+- **No alcohol** `(requires: access to interior and Finesse)` — The house contains no alcohol, not a single bottle. → Gives: [butcher-doesnt-drink](../clues/clues.md#butcher-doesnt-drink)
 - **Dogs' fear** `(requires: Violence)` — The dogs fear their owner and show signs of practiced cruelty. → Gives: [butcher-is-dangerous](../clues/clues.md#butcher-is-dangerous)
 - **Butchering station** `(requires: Medicine)` — The station has seen more use than ordinary livestock work explains. → Gives: [butcher-is-dangerous](../clues/clues.md#butcher-is-dangerous)
 
@@ -70,8 +71,8 @@ The edge of %NEW_VILLAGE%, nearest the forest path toward %OLD_VILLAGE%.
 ### Enter while he's gone
 - **Requires:** Rezeń absent; door unlocked
 - **Cost:** 1 action
-- **Outcome:** The players find modified blades, a KBW military knife, the hidden KBW rifle, old blood smell in the wood, and Hania's undergarments in the bench-bed drawer; the military evidence cross-references [KBW documents](ciotkas-house.md).
-- **Gives:** [butcher-has-soldiers-gun](../clues/clues.md#butcher-has-soldiers-gun); [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well); Item / Evidence: KBW military knife, KBW rifle, Hania's undergarments.
+- **Outcome:** The players find modified blades, a KBW military knife, the hidden KBW rifle, the folded propaganda leaflet, old blood smell in the wood, and Hania's undergarments in the bench-bed drawer; the military evidence cross-references [KBW documents](ciotkas-house.md).
+- **Gives:** [butcher-has-soldiers-gun](../clues/clues.md#butcher-has-soldiers-gun); [butcher-ex-soldier](../clues/clues.md#butcher-ex-soldier); [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well); Item / Evidence: KBW military knife, KBW rifle, Hania's undergarments.
 
 ### Confront about the well
 - **Requires:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)

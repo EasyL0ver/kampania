@@ -40,7 +40,7 @@ The church on the hill in %NEW_VILLAGE%, beside the cemetery.
 - **Requires:** [Wanda Mazur](../characters/widow.md) present
 - **Cost:** Free
 - **Outcome:** Wanda talks about her husband, his PGR work, his accident, and her wish that the committee include him in the census.
-- **Gives:** NPC State Change: Wanda Mazur is willing to answer follow-up questions about her husband's work.
+- **Gives:** [wanda-receives-pension](../clues/clues.md#wanda-receives-pension); NPC State Change: Wanda Mazur is willing to answer follow-up questions about her husband's work.
 
 ### Ask Widow about her husband's work
 - **Requires:** Talked to Wanda Mazur at the grave

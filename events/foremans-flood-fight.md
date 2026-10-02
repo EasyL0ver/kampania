@@ -39,17 +39,17 @@
 
 - **Zofia's fear** `(requires: Empathy)` — [Zofia Pytlak](../characters/zofia.md) is describing observed physical changes, not exaggerating.
 - **The impossible endurance** `(requires: Medicine)` — The described lack of fatigue, pain response, and cold response has no medical explanation.
-- **The bunker question** `(requires: Finesse)` — UPA partisan bunkers in Bieszczady forests can hold old ordnance. → Gives: [`upa-bunker`](../clues/clues.md#upa-bunker)
+- **The bunker question** `(requires: Finesse)` — UPA partisan bunkers in Bieszczady forests can hold old ordnance. → Gives: [`upa-bunkers-in-the-area`](../clues/clues.md#upa-bunkers-in-the-area)
 - **The dilemma** `(requires: Empathy)` — [Zofia Pytlak](../characters/zofia.md) knows she is asking the committee to choose [Michał Pytlak](../characters/foreman.md) over the village's flood defense.
 
 ## Actions
 
 ### Go see Pytlak at the flood line
 - **Requires:** Nothing
-- **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
+- **Prompted by:** [flood-is-imminent](../clues/clues.md#flood-is-imminent)
 - **Cost:** 1 action
-- **Outcome:** The committee finds [Michał Pytlak](../characters/foreman.md) knee-deep in floodwater, directing workers, hauling sandbags, and explaining that explosives can reopen the plugged water-gap above the village.
-- **Gives:** [`gap-is-blocked`](../clues/clues.md#gap-is-blocked); Scene Unlock: [Michał Pytlak Saves the Village](foreman-saves-village.md)
+- **Outcome:** The committee finds [Michał Pytlak](../characters/foreman.md) knee-deep in floodwater, directing workers, hauling sandbags, and explaining that explosives can reopen the plugged water-gap above the village, and that the only explosives in reach are the old partisan ordnance left in the UPA bunkers scattered through these hills.
+- **Gives:** [`gap-is-blocked`](../clues/clues.md#gap-is-blocked); [`upa-bunkers-in-the-area`](../clues/clues.md#upa-bunkers-in-the-area); Scene Unlock: [Michał Pytlak Saves the Village](foreman-saves-village.md)
 
 ### Talk to Zofia Pytlak
 - **Requires:** Listening.

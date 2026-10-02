@@ -24,17 +24,17 @@
 
 ## Opportunities
 
-- **Ventilation shafts** `(requires: Survival)` — The shafts reveal an underground structure in the hillside. → Gives: [upa-bunker](../clues/clues.md#upa-bunker)
+- **Ventilation shafts** `(requires: Survival)` — The shafts reveal an underground structure in the hillside. → Gives: aware:locations/upa-bunker.md
 - **UPA weapons and insignia** `(requires: History)` — The rusted weapons and markings show partisan presence. → Gives: [old-wartime-positions](../clues/clues.md#old-wartime-positions)
-- **Dmytro Kosach's cache** `(requires: Search inside the bunker and Language)` — The carved name, cache, and journal fragment connect Dmytro Kosach to the bunker and to [Paraskewia Chyłak's cabin](hags-cabin.md). → Gives: aware:characters/dmytro-kosach.md
+- **Dmytro Kosach's cache** `(requires: Search inside the bunker and Language)` `(prompted by: aware:locations/upa-bunker.md)` — The carved name, cache, and journal fragment connect Dmytro Kosach to the bunker and to [Paraskewia Chyłak's cabin](hags-cabin.md). → Gives: aware:characters/dmytro-kosach.md
 
 ## Actions
 
 ### Explore the bunker
-- **Requires:** [upa-bunker](../clues/clues.md#upa-bunker), or visible ventilation shafts or entrance
+- **Requires:** aware:locations/upa-bunker.md, or visible ventilation shafts or entrance
 - **Cost:** 1 action
 - **Outcome:** The party enters the abandoned bunker and confirms old partisan use.
-- **Gives:** [upa-bunker](../clues/clues.md#upa-bunker); [old-wartime-positions](../clues/clues.md#old-wartime-positions)
+- **Gives:** aware:locations/upa-bunker.md; [old-wartime-positions](../clues/clues.md#old-wartime-positions)
 
 ### Search Dmytro Kosach's cache
 - **Requires:** Explored the bunker

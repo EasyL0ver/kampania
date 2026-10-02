@@ -81,7 +81,7 @@ The river, hillsides, and forest edges around %NEW_VILLAGE%.
 - **Gives:** [old-wartime-positions](../clues/clues.md#old-wartime-positions)
 
 ### Look for the UPA bunker
-- **Requires:** [old-wartime-positions](../clues/clues.md#old-wartime-positions), or word that a partisan bunker is out here ([upa-bunker](../clues/clues.md#upa-bunker))
+- **Requires:** [old-wartime-positions](../clues/clues.md#old-wartime-positions), or word that a partisan bunker is out here ([upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area))
 - **Cost:** 1 action
 - **Outcome:** Ventilation shafts and a hidden entrance reveal the [UPA bunker](upa-bunker.md); [Edek Barnaś](../characters/glupek.md) may be near the mouth.
-- **Gives:** [upa-bunker](../clues/clues.md#upa-bunker); Scene Unlock: [UPA bunker](upa-bunker.md)
+- **Gives:** aware:locations/upa-bunker.md; Scene Unlock: [UPA bunker](upa-bunker.md)

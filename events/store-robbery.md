@@ -1,7 +1,7 @@
 # Store Robbery
 
 **Location:** [The Store](../locations/the-store.md)
-**Present:** [Helena Rzepka](../characters/matrona.md), [Halina Zając](../characters/secondary-characters.md#halina-zając)
+**Present:** [Helena Rzepka](../characters/matrona.md), [Halina Zając](../characters/secondary/halina-zajac.md)
 **Available:** The first morning after the cabinet is forced
 
 ## Trigger

@@ -2,7 +2,7 @@
 
 **Type:** Location (revisitable)
 **Location:** Helena Rzepka's general store.
-**Present:** [Halina Zając](../characters/secondary-characters.md#halina-zając--halina-zając) (inside), [Tadek Gajda](../characters/wujas.md) (outside), [Ryszard Dudka](../characters/neighbour.md) (usually outside), [Marek Gajda](../characters/junior.md) (some evenings, outside), drinking crew (outside)
+**Present:** [Halina Zając](../characters/secondary/halina-zajac.md) (inside), [Tadek Gajda](../characters/wujas.md) (outside), [Ryszard Dudka](../characters/neighbour.md) (usually outside), [Marek Gajda](../characters/junior.md) (some evenings, outside), drinking crew (outside)
 **Available:** Daytime, any day. Repeatable.
 **Cost:** 1 action per visit
 
@@ -35,7 +35,6 @@ Helena Rzepka's general store.
 
 - **The medicine cabinet** `(requires: Medicine)` `(prompted by: aware:locations/the-store.md)` — In the back room a locked cabinet holds penicillin, aspirin, bandages, and iodine; a trained eye reads it as a *szafka apteczna*, the state medicine point for miles. → Gives: [store-has-drug-cabinet](../clues/clues.md#store-has-drug-cabinet)
 - **Ryszard Dudka's nervousness** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek and Empathy)` — Dudka drinks too fast and shuts down when the past comes up. → Gives: [neighbour-is-rattled](../clues/clues.md#neighbour-is-rattled)
-- **Crew gossip about Foreman** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek)` — The crew grumbles that the PGR's books don't add up — pay going to people who aren't around. → Gives: [pgr-books-are-sketchy](../clues/clues.md#pgr-books-are-sketchy)
 - **Junior joins the crew** `(requires: [Marek Gajda](../characters/junior.md) present, or [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek if he is not)` `(prompted by: aware:locations/new-village.md)` — Present, Marek sits plainly among the crew on the benches, away from his father; absent, the crew mention the sołtys's son who drinks with them. → Gives: [junior-drinks-with-crew](../clues/clues.md#junior-drinks-with-crew)
 - **Junior brags about the pistol** `(requires: Physique)` `(prompted by: [junior-drinks-with-crew](../clues/clues.md#junior-drinks-with-crew))` — Drinking with the crew, Marek puffs up and talks about the gun in his father's office desk. → Gives: [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
 - **Old floods on the benches** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek, or Empathy)` `(prompted by: [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain))` — The old men remember the bad floods. The dry streambed on the far ridge never carried any of it off; the water just pooled against the rock and stopped. → Gives: [streambed-never-drained](../clues/clues.md#streambed-never-drained)
@@ -75,8 +74,8 @@ Helena Rzepka's general store.
 - **Outcome:** You pry the cash drawer until it springs. There is not much inside, a day's small takings, but it is gone now, and an emptied till reads as a plain robbery rather than a hand reaching for one thing.
 - **Gives:** Item: the till cash; NPC Learns: helena: [somebody-stole-money](../clues/clues.md#somebody-stole-money)
 
-<!-- If bonded with Halina, [Ask who smokes what](../characters/secondary-characters.md#ask-who-smokes-what) is her counter action — she knows every villager's brand. -->
+<!-- If bonded with Halina, [Ask who smokes what](../characters/secondary/halina-zajac.md#ask-who-smokes-what) is her counter action — she knows every villager's brand. -->
 
-<!-- Drinking with the crew is a crew action — see [Tadek Gajda's Drinking Circle](../characters/secondary-characters.md#actions--drink-with-the-crew). -->
+<!-- Drinking with the crew is a crew action — see [Tadek Gajda's Drinking Circle](../characters/secondary/drinking-crew.md#actions--drink-with-the-crew). -->
 
 

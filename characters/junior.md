@@ -29,7 +29,7 @@ A cigarette is usually between his lips or behind his ear. His studied cool drop
 
 - **[Zbigniew Gajda](wojewoda.md)** — I respect his strength and hate his silence. He is hiding something enormous, and every stare tells me to drop it.
 - **[Irena Gajda](wife.md)** — I trust her completely. She asked me to dig, so I dig.
-- **[Tadek Gajda](secondary-characters.md)** — He drinks, talks, and forgets what he said. I do not like using him, but Mother needs answers.
+- **[Tadek Gajda](wujas.md)** — He drinks, talks, and forgets what he said. I do not like using him, but Mother needs answers.
 - **[Helena Rzepka](matrona.md)** — I avoid being alone with her. She watches too closely.
 - **[Janina Gajda](ciotka.md)** — She was kind to me when I was small. I do not understand why she lives apart from everyone.
 - **Being accused of pressing Ciotka** — He flares up: the players are not police, they have no right to question him, and he did nothing.

@@ -85,6 +85,20 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 - **Outcome:** With trust earned, she tells the truth of what happened here: in 1947 the whole village was killed in a single act of violence. They did not leave. They were massacred.
 - **Gives:** [army-massacred-civilians-in-1947](../clues/clues.md#army-massacred-civilians-in-1947)
 
+### Ask her how it happened
+- **Requires:** Language and Bond with Paraskewia Chyłak
+- **Prompted by:** [army-massacred-civilians-in-1947](../clues/clues.md#army-massacred-civilians-in-1947)
+- **Cost:** 1 action
+- **Outcome:** She tells it as she saw it. The soldiers came to drive the village out; the people would not go; their officer was shot dead in the struggle; and the soldiers turned in their fury and killed everyone. No one ever came after. No reckoning, no record, the dead left unnamed. The army buried its own crime and called the village empty.
+- **Gives:** [`massacre-was-retribution`](../clues/clues.md#massacre-was-retribution); [`massacre-was-covered-up`](../clues/clues.md#massacre-was-covered-up)
+
+### Where the partisans hid
+- **Requires:** Language and Bond with Paraskewia Chyłak
+- **Prompted by:** [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area)
+- **Cost:** 1 action
+- **Outcome:** With trust earned, she tells them of the dugout deep in the forest northwest, the one she knew in the war years, where she used to meet a man called [Dmytro](../characters/dmytro-kosach.md). She still knows the way to its hidden mouth exactly.
+- **Gives:** aware:locations/upa-bunker.md
+
 ### Convince her the villagers are friendly
 - **Requires:** Language, and Speech or Empathy
 - **Cost:** 1 action

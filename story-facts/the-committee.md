@@ -60,7 +60,7 @@ And the scoping rule, once the line is redrawn, **inverts.** "Document only belo
 
 Two horrors land in the same stroke: the village learns it is **wholly doomed**, and the committee gains the mandate to document **every** contested title — including the ones that lead to the well.
 
-Writing the dead in is not the players bending the form — it's the form's own required fields. **[Wanda Mazur](../characters/secondary-characters.md)** asking to count her dead husband and **[Emil](../characters/painter.md)** wanting Hania written down are villagers pointing at entries the ledgers legitimately want.
+Writing the dead in is not the players bending the form — it's the form's own required fields. **[Wanda Mazur](../characters/widow.md)** asking to count her dead husband and **[Emil](../characters/painter.md)** wanting Hania written down are villagers pointing at entries the ledgers legitimately want.
 
 This gives the players enormous power they may not immediately realize. The pen in their hand is life or death for these families — and it is also the one record the state cannot un-write once it is filed and sent. And it gives the villagers an enormous reason to cooperate — or to manipulate. Everyone wants to be in the ledger. Everyone wants their property valued generously. And some people do **not** want field 3 answered at all.
 

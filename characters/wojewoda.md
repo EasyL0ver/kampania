@@ -113,6 +113,13 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **Outcome:** They corner him with proof and a public threat. He agrees to disclose the flood on his own terms.
 - **Gives:** NPC State Change: Zbigniew complies on his terms and sets a grudge; Scene Unlock: public announcement without his protection.
 
+### Ask about the old village
+- **Requires:** Nothing
+- **Prompted by:** aware:locations/old-village-ruins.md
+- **Cost:** Free
+- **Outcome:** He treats it as nothing worth the committee's time: there was a village up the valley once, cleared out in '47 with the rest of the range, Akcja Wisła, the people sent west. Old history, he says, no bearing on the flood or the census. He does not guard it; he just does not see why they care.
+- **Gives:** [`old-village-resettled-during-vistula`](../clues/clues.md#old-village-resettled-during-vistula)
+
 ### Ask about Barbara's house
 - **Requires:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway
 - **Cost:** 1 action
@@ -142,7 +149,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **Requires:** Holding [mazur-death-covered-up](../clues/clues.md#mazur-death-covered-up)
 - **Cost:** 1 action
 - **Outcome:** He goes still and quiet, then does not deny it. In his mind there is nothing to deny: a man died on the farm, the state would have cut his widow off, so he kept the wage flowing and called it a pension. He lays it out as order and mercy, not crime, and names it as his decision and Michał's doing. He warns that filing it destroys Wanda for nothing.
-- **Gives:** [`foreman-coverup`](../clues/clues.md#foreman-coverup); NPC State Change: Zbigniew now knows the committee has the coverup and sets a grudge.
+- **Gives:** NPC State Change: Zbigniew now knows the committee has the coverup and sets a grudge.
 
 ## Bond
 

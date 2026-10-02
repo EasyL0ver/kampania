@@ -13,7 +13,7 @@
 ## Hook
 
 - ks. Pająk asks the player for a private talk after Mass.
-- [Krystian](../characters/secondary-characters.md) may bring a folded note from him.
+- [Krystian](../characters/secondary/krystian-rzepka.md) may bring a folded note from him.
 - ks. Pająk may come to the committee billet.
 - He does not ask twice.
 - He does not invite the whole committee.

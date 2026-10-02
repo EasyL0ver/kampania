@@ -30,7 +30,6 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 - **[Zbigniew Gajda](wojewoda.md)** — I respected him because he always had a plan. Now he talks like surrender is wisdom, and I cannot follow that.
 - **[Barbara Kopacz](barbara.md)** — She works hard, keeps quiet, and does not complain. That is worth respect.
 - **[Zofia Pytlak](zofia.md)** — She sees the valley slipping away before I admit it. I cannot listen too long, because then I may have to stop digging.
-- **`foreman-coverup`:** If this reaches Wanda, it ruins the only mercy left in that mess. Ask me alone, or I shut every door I can reach.
 
 ## Mechanics
 
@@ -55,6 +54,13 @@ Michał backs [Zbigniew Gajda](wojewoda.md)'s optimistic line only while he beli
 - **Cost:** 1 action
 - **Outcome:** He says he owns nothing: he lives in PGR quarters and the farm is state land. He treats questions about land value as odd.
 - **Gives:** Property record — none; PGR housing.
+
+### Ask about the armed conflict
+- **Requires:** Nothing
+- **Prompted by:** [old-wartime-positions](../clues/clues.md#old-wartime-positions)
+- **Cost:** Free
+- **Outcome:** No secret to him. He lays out the war years plainly: the whole range was cleared in '47 under Akcja Wisła, the people loaded up and sent west, and the partisans left old dugouts scattered through the forest, more than one, up in the hills. He does not know the bunkers from the inside, but he knows they are out there.
+- **Gives:** [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area); [old-village-resettled-during-vistula](../clues/clues.md#old-village-resettled-during-vistula)
 
 ### Talk to him about the flood
 - **Requires:** [Michał Pytlak](foreman.md) present
@@ -105,8 +111,8 @@ Michał backs [Zbigniew Gajda](wojewoda.md)'s optimistic line only while he beli
 ### Press him about Tadeusz Mazur
 - **Requires:** Holding [mazur-death-covered-up](../clues/clues.md#mazur-death-covered-up); asked alone, not in front of the workers
 - **Cost:** 1 action
-- **Outcome:** Put the books in front of him and the pragmatism drops. He has carried this since 1965 and the guilt comes out plainly: the silo took Mazur, he buried the paperwork, and the sołtys signed off on keeping the wage flowing to Wanda so she would not starve. He does not dress it up. He asks one thing: that Wanda never learn her pension is a dead man's wage.
-- **Gives:** [`foreman-coverup`](../clues/clues.md#foreman-coverup)
+- **Outcome:** Put the books in front of him and the pragmatism drops. He has carried this since 1965 and it comes out plainly: he knew that silo could kill and always tended it himself, but he was tied up elsewhere and put Mazur, his most solid man, on it. Mazur went up alone and never came back. He suspected the silo had him but could not justify dumping a full state store on a guess, and when he asked the sołtys to empty it he was told no. Two weeks later the smell proved him right. They buried the paperwork, and the sołtys kept the wage flowing to Wanda so she would not starve. He asks one thing: that Wanda never learn her pension is a dead man's wage.
+- **Gives:** [`foreman-sent-mazur-in-his-place`](../clues/clues.md#foreman-sent-mazur-in-his-place)
 
 ### Pressure him in public about Tadeusz Mazur
 - **Requires:** Holding [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent) or [mazur-died-in-the-silo](../clues/clues.md#mazur-died-in-the-silo)

@@ -20,8 +20,8 @@
 
 ## Opportunities
 
-- **Read the old position** `(requires: History)` `(prompted by: [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain))` — The collapsed dugout below the col is a wartime firing position, sited to watch and command the valley: rusted metal, a rotted timber lip, the shape of a partisan line. → Gives: [old-wartime-positions](../clues/clues.md#old-wartime-positions)
-- **Read the koliba** `(requires: [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed) and Culture)` — The tumbled stones and rotten roof-poles are a koliba, a Lemko shepherd's summer hut; the build and the worn pasture ground read as Greek Catholic hill herders' work, from before the valley was cleared. → Gives: [lemkos-lived-here](../clues/clues.md#lemkos-lived-here)
+- **Read the old position** `(requires: History or Violence)` `(prompted by: [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain))` — The collapsed dugout below the col is a wartime firing position, sited to watch and command the valley: rusted metal, a rotted timber lip, the shape of a partisan line. → Gives: [old-wartime-positions](../clues/clues.md#old-wartime-positions)
+- **Read the koliba** `(requires: [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed) and Culture)` — The tumbled stones and rotten roof-poles are a koliba, a Lemko shepherd's summer hut; the build and the worn pasture ground read as Greek Catholic hill herders' work, from before the valley was cleared. → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
 - **Duck inside the hut** `(requires: [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed))` — Under the ram's skull is a single smoke-blackened room, empty for decades yet armoured against the dark: ash crosses smeared across a long-cold hearth where the shepherd's watra once burned, iron driven into the threshold, the black remains of herb bundles hanging from the rafters, three-barred crosses cut so deep and so often into the timber that whole boards are furred with them. The wards all face outward, to keep something out. → Gives: [three-barred-cross-in-abandoned-house](../clues/clues.md#three-barred-cross-in-abandoned-house)
 - **Name the warding** `(requires: inside the hut and Culture)` — Greek Catholic hill-herders' warding against wolves and the restless dead, the same tradition that mourns the unburied. Whatever they feared up here, they lined every surface against it, then one season walked down the mountain and never came back. → No clue; understanding.
 - **Read the scratched Cyrillic** `(requires: inside the hut and Language)` — Among the crosses are names, and a plea for the dead to lie still. → No clue.
@@ -34,6 +34,13 @@
 - **Cost:** 1 action
 - **Outcome:** Quartering the slopes and gullies beyond the dry streambed, pushing through the gorse, you turn up an abandoned shepherd's koliba half-swallowed on the slope, easy to miss and long empty.
 - **Gives:** [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed)
+
+### Track the UPA bunker
+- **Requires:** [old-wartime-positions](../clues/clues.md#old-wartime-positions) and **Survival**
+- **Prompted by:** [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area)
+- **Cost:** 1 action
+- **Outcome:** Working out from the firing position, a tracker picks up the old partisan paths worn between the hillside strongpoints and follows them to a camouflaged dugout deep in the forest northwest, its ventilation shafts breaking the slope. You now know exactly where the [UPA bunker](upa-bunker.md) lies.
+- **Gives:** aware:locations/upa-bunker.md
 
 ### Start a survey
 - **Requires:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain), and a PC with **Geology** and the [geologist's kit](../items/geologists-kit.md)

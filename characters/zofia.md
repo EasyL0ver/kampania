@@ -11,7 +11,7 @@ Zofia Pytlak, the warm, well-liked PGR cook.
 - **Born:** ~1920
 - **Age in 1967:** ~47
 - **Heritage:** Polish settler
-- **Lives in:** Pytlak household, near the PGR farm — with [Michał Pytlak](foreman.md), [Staszek Pytlak](secondary-characters.md)
+- **Lives in:** Pytlak household, near the PGR farm — with [Michał Pytlak](foreman.md), [Staszek Pytlak](secondary/staszek-pytlak.md)
 - **Settled:** After 1954 — arrived with Michał Pytlak; no connection to the lynch
 
 ## Character
@@ -29,7 +29,7 @@ Her carrying voice is warm and practical. As the well takes hold, the smile stay
 ## Opinions
 
 - **[Michał Pytlak](foreman.md)** — I love him completely. I want him to tell the truth about the silo, and I know the flood has already beaten the farm he is trying to save.
-- **[Staszek Pytlak](secondary-characters.md)** — My son is my reason for everything. If the worst comes, I will make sure he is safe before I let go.
+- **[Staszek Pytlak](secondary/staszek-pytlak.md)** — My son is my reason for everything. If the worst comes, I will make sure he is safe before I let go.
 - **[Irena Gajda](wife.md)** — She calculates where I stay open. I sense the sharpness behind her polite questions, but openness is all I know.
 - **[Barbara Kopacz](barbara.md)** — I treat her as a person, ask about her day, and save her the good bread. She deserves kindness without pity.
 - **[Wanda Mazur](widow.md)** — I know the truth about her pension. Being kind to her costs me because I carry that knowledge and smile through it.
