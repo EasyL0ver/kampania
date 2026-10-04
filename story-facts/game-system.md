@@ -150,6 +150,21 @@ The devout player pays for expedience in a currency nobody else at the table spe
 
 One tie-back: a committee member kneeling in his confessional and meaning it is evidence to ks. Pająk that redemption is real. Count it **+1 on the [Faith in Redemption](spiritual-endings.md) score** — the player's own sins can push the valley toward Grace.
 
+### Party Membership
+
+Separate from the draft. **Every player chooses for themselves, at creation, whether they carry a Party card.** It is not drawn from the pool, there is no limit, and the choice is independent: the whole committee can be members, none of them, or any mix. The card in your pocket is not a skill. It is who the room thinks you are.
+
+**Member of the PZPR.** You are one of the apparatus, and the apparatus knows its own.
+- The state side of the valley opens for you. Zbigniew, the PGR office, the militia post, the wojewoda's clerks read you as a comrade and cooperate accordingly: records pulled, doors held, a man who would stonewall a committee clerk instead talking to a Party man.
+- But a village reads a Party card from a long way off. The people holding the real secret, the Lemko, the devout, the old settlers, close up around you. Bonds with them come harder. GM's call, per NPC.
+
+**Not a member.** A government clerk and nothing more.
+- No pull with the apparatus. Officials give you the minimum the forms require and not a word past it.
+- The village has one less reason to distrust you. Bonds with villagers come easier.
+
+**The contradiction.** A Party member who also takes **Devotion** is living a thing somebody always notices. In 1967 the Party expects better of its servants, and a devout comrade is a marked man to both sides. The two can be held together, but the GM treats open faith in a Party man as a standing liability: officials who would trust a comrade hesitate, and the village is no warmer for it. You get the cost of both and the clean benefit of neither.
+
+
 
 ## What Players Won't Find
 

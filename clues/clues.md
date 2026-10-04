@@ -261,8 +261,23 @@ Bone density and joint wear put the woman in the remains at around thirty years 
 ### departure-declaration-forged
 The document that recorded the Barnaś family's "departure" and handed their house and land to the [PGR](../locations/pgr-farm.md) is a forgery. It carries [Edward Barnaś](../characters/soldier.md)'s signature — but Edward was already dead when it was filed, weeks after the 1954 lynch. Someone forged his hand to make the family's disappearance read as a voluntary move west. The paper is what let the "they moved away" story stand.
 
+### pgr-established-in-56
+The PGR state farm in %NEW_VILLAGE% was not established until 1956, two years after the Barnaś family supposedly departed.
+
+### departure-declaration-dated-56
+[Edward Barnaś](../characters/soldier.md)'s departure declaration surrendering the house and land to the PGR is dated 1956, two years after the family was recorded as having left the village.
+
+### barnas-letter-date-55
+An unopened letter addressed to [Edward Barnaś](../characters/soldier.md), dated 1955, sat in the attic of his old house. He was recorded as having left the village in 1954.
+
+### butcher-mentioned-in-the-letter
+The unopened 1955 letter to [Edward Barnaś](../characters/soldier.md) passes greetings to [Stanisław Rezeń](../characters/butcher.md) from their old service comrade, placing the butcher in the same corps circle.
+
 ### soldier-never-married
 [Edward Barnaś](../characters/soldier.md) and his partner never married — they lived together. She kept her own surname. This is why no "Barnaś" wife appears in any village records.
+
+### barnas-disliked
+[Edward Barnaś](../characters/soldier.md) was widely disliked in %NEW_VILLAGE%. People kept their distance and nobody had a good word for him.
 
 ### glupek-strangled
 The night of the lynch, four-year-old [Edek Barnaś](../characters/glupek.md) wouldn't stop crying, and it annoyed [Stanisław Rezeń](../characters/butcher.md). He took a pillow, pressed it over the boy's face to shut him up, and held it there — deliberate, unhurried. [Janina Gajda](../characters/ciotka.md) tore it away. It left permanent brain damage — not congenital.
@@ -499,6 +514,9 @@ Someone is helping [Barbara Kopacz](../characters/barbara.md). The house, the fi
 
 ### wojewoda-built-barbaras-house
 [Zbigniew Gajda](../characters/wojewoda.md) built [Barbara Kopacz](../characters/barbara.md) a house out of guilt — he suspects [Marek Gajda](../characters/junior.md) fathered [Pawełek Kopacz](../characters/pawelek.md). He's wrong.
+
+### wojewoda-is-a-party-member
+[Zbigniew Gajda](../characters/wojewoda.md) is a PZPR (Party) member. It is how a founding sołtys was handed the PGR directorship and runs the farm with near-total autonomy.
 
 ### barbara-is-a-sieve
 [Barbara Kopacz](../characters/barbara.md) shares what she hears from the committee casually with [Ryszard Dudka](../characters/neighbour.md) over the fence. Everything the players tell her reaches the one man sitting on 13 years of guilt.
@@ -859,6 +877,15 @@ Tadeusz Mazur died around 1965 in the farm's concrete grain silo. Tending it mea
 
 ### mazur-buried-in-cemetery
 Tadeusz Mazur lies in a fresh, well-tended grave in the %NEW_VILLAGE% cemetery, the one [Wanda Mazur](../characters/widow.md) kneels beside.
+
+### mazur-and-widow-are-old-settlers
+Tadeusz and [Wanda Mazur](../characters/widow.md) were among the first Polish settlers in %NEW_VILLAGE%, arriving around 1948. They were in the village the whole time, through 1954 and after.
+
+### mazur-doubted-the-departure
+[Tadeusz Mazur](../characters/widow.md), an original settler who was there at the time, never believed the [Barnaś family](../characters/soldier.md) simply moved away. He wrote that they vanished in a single night, leaving standing crops and livestock behind, and was certain the departure was not something they chose.
+
+### mazur-wrote-detailed-diary
+[Tadeusz Mazur](../characters/widow.md) kept a careful, detailed diary across all his years in the valley — a settler's running record of the village, its people, and its changes.
 
 ### mazur-death-covered-up
 Tadeusz Mazur died on the PGR farm and the death was never reported to the state. His wage still flows to [Wanda Mazur](../characters/widow.md), disguised as a "widow's pension" she believes is a real state payment. The books prove the death was buried; they do not name who buried it.

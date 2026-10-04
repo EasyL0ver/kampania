@@ -29,6 +29,7 @@ Dudka shouldering his rifle and heading into the forest after spotting Rezeń.
 - **Dudka's anger** `(requires: Empathy)` `(prompted by: [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves))` — Dudka's anger is older and more personal than professional failure. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
 - **The distant dogs** `(requires: Empathy)` `(prompted by: [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves))` — Dudka reacts to Rezeń's dogs before he forces himself calm. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
 - **The hag rumor** `(requires: players ask Dudka about the village rumor blaming [Paraskewia Chyłak](../characters/hag.md))` — Dudka treats the wolves as animals reacting to rain, prey, and terrain, not witchcraft.
+- **The boar summer** — Rambling about game, Dudka mentions the boar glut two summers back, all rooting at one spot up past the farm where the PGR tipped a whole silo of spoiled grain. → Gives: [`grain-has-been-dumped`](../clues/clues.md#grain-has-been-dumped)
 
 ## Actions
 
