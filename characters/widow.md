@@ -53,6 +53,20 @@ Speaks barely above a whisper with a slight tremor. Smells of tallow candles and
 - **Outcome:** Told plainly that the "pension" is a dead man's wages and the death was never recorded, Wanda does not break. She goes very still, then asks what it means for her. When the committee promises to leave the pension alone and keep her name out of any report, something settles in her. She says she is in their debt, and means it. From here she will speak freely about the old days. She tells them Tadeusz kept a diary all his years in the valley, and fetches it down for them without being asked.
 - **Gives:** [Tadeusz Mazur's diary](../items/mazur-diary.md) (item); NPC state change — Wanda is indebted and will talk openly about the past.
 
+### Share the diary
+- **Requires:** [Bond](#bond) with Wanda earned
+- **Prompted by:** [mazur-wrote-detailed-diary](../clues/clues.md#mazur-wrote-detailed-diary)
+- **Cost:** 1 action
+- **Outcome:** Treated as a person and not a case, Wanda wants them to know the man Tadeusz was. She takes his diary down from its shelf and presses it into their hands, glad that someone cares to read how he saw the valley and the years.
+- **Gives:** [Tadeusz Mazur's diary](../items/mazur-diary.md) (item).
+
+### Take the diary
+- **Requires:** Finesse
+- **Prompted by:** [mazur-wrote-detailed-diary](../clues/clues.md#mazur-wrote-detailed-diary)
+- **Cost:** 1 action
+- **Outcome:** While Wanda is at church, the house stands empty. The diary sits where she keeps it, on the shelf by her reading chair. They let themselves in and lift it.
+- **Gives:** [Tadeusz Mazur's diary](../items/mazur-diary.md) (item).
+
 ## Bond
 
 - [ ] Sit with her in the church pew and say nothing — just be present.

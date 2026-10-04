@@ -17,10 +17,11 @@ The ditch running from the PGR fields down to the low ground east of %NEW_VILLAG
 - From the head alone it reads as a fine concrete channel of ample capacity.
 - Past the concrete it degrades to a shallow, unlined dugout for most of its length. Nothing at the head announces this; only walking the full length reveals it.
 - The channel runs a long way, fields to low ground, over rough and boggy going.
+- Where the dugout peters out into the low ground, one broad patch grows rank and wrong: coarse cereal sprouting thick and volunteer, the wet soil beneath it caked and sour.
 
 ## Opportunities
 
-<!-- Skill helpers and any side-content for the ditch will live here (later pass). -->
+- **The rank patch** `(requires: Survival or Handiwork)` `(prompted by: aware:locations/the-irrigation-ditch.md)` — The thick volunteer cereal and the sour, caked ground read plainly to a country eye: a large quantity of grain was tipped out here and left to rot, not spread as feed or sown as seed. → Gives: [grain-has-been-dumped](../clues/clues.md#grain-has-been-dumped)
 
 ## Actions
 

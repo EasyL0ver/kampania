@@ -40,9 +40,7 @@
 - **The reversed confession** `(requires: Empathy)` — ks. Pająk has come to a layperson for reassurance a priest is supposed to give. He is frightened.
 - **The judgment pattern** `(requires: Culture or History)` — every scripture example he reaches for is a judgment narrative. His fear points toward the valley deserving to drown.
 - **The unnamed sin** `(requires: Devotion)` — he is not speaking generally. He knows a specific sin.
-- **The shape under his words** `(requires: Devotion and [`priest-knows-everything`](../clues/clues.md#priest-knows-everything))` — his fear points to the lynch, the well, and thirteen years of confessions he cannot report.
 - **The collar gesture** `(requires: Devotion)` — the confessional seal is the wall keeping his knowledge in. He is exhausted by holding it.
-- **The breakable wall** `(requires: Empathy and [`priest-knows-everything`](../clues/clues.md#priest-knows-everything))` — everything he knows is behind the seal. He will not break tonight, but he could break later.
 - **The brand on the paper** `(requires: Chainsmoker and [`priest-smokes`](../clues/clues.md#priest-smokes))` — with the cigarette lit, a smoker reads the brand off the paper at once: premium Carmen, the same the village would name at Janina's door. → Gives: [`priest-smokes-carmen`](../clues/clues.md#priest-smokes-carmen)
 
 ## Actions

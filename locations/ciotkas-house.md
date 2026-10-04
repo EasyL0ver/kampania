@@ -48,9 +48,10 @@ The best plot in %NEW_VILLAGE%, across from the Neighbour's house.
 
 ### Search the attic
 - **Requires:** Janina absent or distracted; climbing the attic hatch
+- **Prompted by:** [glupek-forbidden-from-attic](../clues/clues.md#glupek-forbidden-from-attic)
 - **Cost:** 1 action
 - **Outcome:** Up past Edek's toys and Janina's stores, among the dead man's things left where no one looks, is an unopened [letter](../items/barnas-letter.md) addressed to Edward Barnaś, postmarked 1955 and never opened. Janina keeps the hatch shut and Edek barred from it, so going up risks being caught, and [Ryszard Dudka](../characters/neighbour.md) is across the road.
-- **Gives:** Item: [Edward Barnaś's unopened letter](../items/barnas-letter.md). If Dudka notices the search: +1 [Noise](../events/ciotka-found-dead.md#noise).
+- **Gives:** Item: [Edward Barnaś's unopened letter](../items/barnas-letter.md); aware:items/barnas-letter.md. If Dudka notices the search: +1 [Noise](../events/ciotka-found-dead.md#noise).
 
 ### Dig in the backyard
 - **Requires:** Reason to suspect the uneven backyard patch — [`telegram-points-to-barnas-yard`](../clues/clues.md#telegram-points-to-barnas-yard)

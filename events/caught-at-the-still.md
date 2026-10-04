@@ -29,7 +29,7 @@
 ## Opportunities
 
 - **The standoff** `(requires: Read)` — the crew is not defending a crime scene; they are frightened men protecting the one thing that gets them through the winter. → Gives: [`still-is-their-livelihood`](../clues/clues.md#still-is-their-livelihood)
-- **Franek is coiled** `(requires: Read or Streetwise)` — Franek Mucha is drunk past reason and cornered against the path. Rank and orders roll off him — short of a drawn gun, he gets turned around or put down, nothing else. → Gives: [`crew-may-turn-violent`](../clues/clues.md#crew-may-turn-violent)
+- **Franek is coiled** `(requires: Read or Streetwise)` — Franek Mucha is drunk past reason and cornered against the path. Rank and orders roll off him — short of a drawn gun, he gets turned around or put down, nothing else.
 
 ## Actions
 

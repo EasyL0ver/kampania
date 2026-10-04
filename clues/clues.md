@@ -306,9 +306,6 @@ It was [Stanisław Rezeń](../characters/butcher.md) who put [Edward Barnaś](..
 ### ciotka-saved-glupek
 [Janina Gajda](../characters/ciotka.md) physically intervened to save [Edek Barnaś](../characters/glupek.md)'s life that night. The family has never forgiven her.
 
-### priest-knows-everything
-[ks. Władysław Pająk](../characters/priest.md) knows the full lynch story — who did what, where the bodies went — because [Janina Gajda](../characters/ciotka.md) confessed it all to him over 13 years.
-
 ### priest-sure-edek-innocent
 [ks. Władysław Pająk](../characters/priest.md) is certain [Edek Barnaś](../characters/glupek.md) did not kill [Janina Gajda](../characters/ciotka.md). The boy helps around his church and he knows him to be gentle.
 
@@ -909,9 +906,6 @@ Traces of old wartime positions in the forest — collapsed dugouts, rusted meta
 
 ### still-is-their-livelihood
 The crew guards the still because it is what carries them through the winter, not because it hides anything worse. Their fear is losing it, nothing more.
-
-### crew-may-turn-violent
-Cornered and drunk, the still crew will come to blows if pushed — Franek Mucha throws the first punch.
 
 ### store-has-drug-cabinet
 [Helena Rzepka](../characters/matrona.md)'s [store](../locations/the-store.md) has a locked pharmaceutical cabinet — a *szafka apteczna*, standard PRL distribution point. Helena holds the only key. [Halina](../characters/secondary/halina-zajac.md) can't open it.
