@@ -32,6 +32,15 @@ His voice is surprisingly soft for his size. Kindness reaches him after a pause,
 - **[ks. Władysław Pająk](priest.md)** — The church is quiet and safe. He gives me little jobs and waits for me to finish.
 - **[Stanisław Rezeń](butcher.md)** — Something bad. When his dogs bark I hide, and when he passes I cannot move.
 
+## Mechanics
+
+### Shelter
+
+- After [Edek in the Bunker](../events/edek-in-the-bunker.md), Edek is sheltered in one of two places.
+- **At the priest's:** hidden by [ks. Władysław Pająk](priest.md) in the [rectory](../locations/the-rectory.md) cellar.
+- **At Helena's:** in [Helena Rzepka](matrona.md)'s keeping at [her house](../locations/matronas-house.md).
+- The two are mutually exclusive; he is at one or the other.
+
 ## Actions
 
 ### Talk to Edek
