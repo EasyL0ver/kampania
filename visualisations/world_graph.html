@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Kampania — world graph</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:13px/1.4 system-ui, sans-serif; background:#0f1115; color:#d7dbe0; height:100vh; display:flex; }
+  #side { width:320px; flex:0 0 320px; border-right:1px solid #232733; display:flex; flex-direction:column; }
+  #side h1 { font-size:14px; margin:12px 14px 4px; }
+  #stats { margin:0 14px 8px; color:#8b93a1; font-size:11px; }
+  #list { overflow:auto; flex:1; padding:2px 6px 12px; }
+  .row { padding:5px 8px; border-radius:5px; cursor:pointer; display:flex; justify-content:space-between; gap:8px; }
+  .row:hover { background:#1a1e27; }
+  .row.on { background:#243044; }
+  .row .n { color:#5b6472; font-variant-numeric:tabular-nums; }
+  .row.orphan .lbl { color:#8b6f4a; }
+  .row.scene .lbl { color:#b08bd8; }
+  #main { flex:1; position:relative; }
+  svg { width:100%; height:100%; display:block; }
+  #hint { position:absolute; top:10px; left:12px; color:#6b7280; font-size:11px; pointer-events:none; }
+  #reset { position:absolute; top:8px; right:12px; padding:5px 10px; background:#1a1e27; border:1px solid #2a2f3c; color:#a7b0bd; border-radius:6px; cursor:pointer; }
+  .link { fill:none; stroke:#5b6472; }
+  .link.soft { stroke-dasharray:4 4; opacity:.8; }
+  .link.opp  { stroke-dasharray:1.5 3.5; opacity:.85; }
+  .link.synth { stroke-dasharray:9 3; opacity:.9; }
+  .hit { stroke:transparent; stroke-width:10; fill:none; cursor:pointer; }
+  .node circle, .node rect, .node polygon { stroke:#0f1115; stroke-width:1.5; }
+  .node text { fill:#c2c8d2; font-size:10px; pointer-events:none; }
+  .node.dim { opacity:.07; }
+  .link.dim { opacity:.04; }
+  .elabel.dim { opacity:.04; }
+  .elabel { fill:#9aa3b0; font-size:9px; pointer-events:none; }
+  .node text.mv { fill:#aeb6c2; font-size:8px; pointer-events:none; }
+  .legend { position:absolute; bottom:10px; left:12px; right:12px; font-size:11px; color:#8b93a1; background:rgba(15,17,21,.72); padding:4px 6px; border-radius:6px; }
+  .legend span { display:inline-block; margin-right:12px; }
+  .sw { display:inline-block; width:10px; height:10px; border-radius:2px; vertical-align:middle; margin-right:4px; }
+  .swl { display:inline-block; width:14px; height:0; border-top:2px solid; vertical-align:middle; margin-right:4px; }
+  #tip { position:absolute; pointer-events:none; background:#181c24; border:1px solid #2a2f3c; padding:6px 8px; border-radius:6px; max-width:300px; font-size:11px; display:none; z-index:5; }
+  #tip b { color:#e6eaf0; } #tip .g { color:#8b93a1; }
+</style>
+</head>
+<body>
+<div id="side">
+  <h1>Clue graph</h1>
+  <div id="stats"></div>
+  <div id="list"></div>
+</div>
+<div id="main">
+  <button id="reset">Show all</button>
+  <div id="hint">Node = clue (fact, or a clue known by an NPC). Edge = a move (gated by an ability) that yields a clue. Click a clue to isolate the moves that lead to it.</div>
+  <svg></svg>
+  <div id="legend" class="legend"></div>
+  <div id="tip"></div>
+</div>
+<script>
+const DATA = {"nodes":[{"id":"clue:babcia-has-the-words","label":"babcia-has-the-words","kind":"clue","desc":"[Stefania Kopacz](../characters/babcia.md) can provide the panakhyda — the Lemko memorial prayers for the dead.","location":""},{"id":"clue:babcia-is-lemko","label":"babcia-is-lemko","kind":"clue","desc":"[Stefania Kopacz](../characters/babcia.md), [Barbara Kopacz](../characters/barbara.md)'s mother, is a Lemko woman who kept the old Greek Catholic faith and death customs.","location":""},{"id":"clue:barbara-has-help","label":"barbara-has-help","kind":"clue","desc":"Someone is helping [Barbara Kopacz](../characters/barbara.md). The house, the firewood, the economics — a single farm labourer with a child and an elderly mother can't sustain this alone.","location":""},{"id":"clue:committee-runs-geographical-survey","label":"committee-runs-geographical-survey","kind":"clue","desc":"The committee's stated purpose in the village is a geographical survey — terrain, river, boundaries. It's the cover that explains why outsiders are measuring the land.","location":""},{"id":"clue:covered-mirrors","label":"covered-mirrors","kind":"clue","desc":"[Stefania Kopacz](../characters/babcia.md) covers every mirror in [Barbara Kopacz](../characters/barbara.md)'s house. In [Lemko tradition](../historical%20context/13-lemko-beliefs-and-folk-magic.md), mirrors are covered when someone dies. She's been doing it for twenty years.","location":""},{"id":"clue:drinking-crew-heads-to-forest","label":"drinking-crew-heads-to-forest","kind":"clue","desc":"Tadek Gajda and his crew regularly head into the treeline with bottles. They're going somewhere in the forest.","location":""},{"id":"clue:landslide-in-the-gap","label":"landslide-in-the-gap","kind":"clue","desc":"A landslide sits in the ridge water-gap, filling the notch with fallen rock and earth.","location":""},{"id":"clue:pawelek-ate-death-cap","label":"pawelek-ate-death-cap","kind":"clue","desc":"Pawełek's yellowing and failing could be death cap poisoning: a child who ate the wrong mushroom in the woods sickens and yellows just like this.","location":""},{"id":"clue:pawelek-burns-with-fever","label":"pawelek-burns-with-fever","kind":"clue","desc":"Pawełek is gripped by a sudden high fever, burning hot and shaking with chills.","location":""},{"id":"clue:pawelek-eyes-are-red","label":"pawelek-eyes-are-red","kind":"clue","desc":"The whites of Pawełek's eyes have gone bloodshot and crimson.","location":""},{"id":"clue:pawelek-eyes-not-crying","label":"pawelek-eyes-not-crying","kind":"clue","desc":"The redness sits in the whites of Pawełek's eyes, not in the lids. It is a sign of the sickness itself, not crying or dust.","location":""},{"id":"clue:pawelek-fever-not-passing","label":"pawelek-fever-not-passing","kind":"clue","desc":"Pawełek's fever has run too long to be an ordinary one. It should have broken by now and has not.","location":""},{"id":"clue:pawelek-got-it-from-water","label":"pawelek-got-it-from-water","kind":"clue","desc":"Pawełek's sickness came from drinking foul water. It does not pass from person to person. Which water is not clear.","location":""},{"id":"clue:pawelek-in-muscle-pain","label":"pawelek-in-muscle-pain","kind":"clue","desc":"Pawełek cries out when he is moved or touched; his legs and back are in severe pain.","location":""},{"id":"clue:pawelek-looks-like-common-fever","label":"pawelek-looks-like-common-fever","kind":"clue","desc":"Early on, Pawełek's fever and muscle pain read as an ordinary fever, the kind that goes through a village after a flood. It would be expected to pass on its own.","location":""},{"id":"clue:pawelek-needs-a-cleansing-ritual","label":"pawelek-needs-a-cleansing-ritual","kind":"clue","desc":"Pawełek needs a cleansing ritual. To those who read his sickness as the well's work, only the old rites can drive it out of him.","location":""},{"id":"clue:pawelek-needs-penicillin","label":"pawelek-needs-penicillin","kind":"clue","desc":"Pawełek needs penicillin, given now at a child's dose, or the water fever kills him.","location":""},{"id":"clue:pawelek-not-common-sickness","label":"pawelek-not-common-sickness","kind":"clue","desc":"Pawełek's illness is not dysentery and not ordinary flu. The fever, muscle pain, red eyes and yellowing together point to something waterborne and specific.","location":""},{"id":"clue:pawelek-organs-failing","label":"pawelek-organs-failing","kind":"clue","desc":"The yellowing of Pawełek's skin is a sign that his organs are failing.","location":""},{"id":"clue:pawelek-passes-dark-urine","label":"pawelek-passes-dark-urine","kind":"clue","desc":"Pawełek passes little urine, and what there is runs dark, the colour of strong tea.","location":""},{"id":"clue:pawelek-phosphorus-poison","label":"pawelek-phosphorus-poison","kind":"clue","desc":"Pawełek's signs could be phosphorus poisoning, the yellow rat poison. It would mean someone poisoned him.","location":""},{"id":"clue:pawelek-turns-yellow","label":"pawelek-turns-yellow","kind":"clue","desc":"Pawełek's skin and the whites of his eyes have turned yellow.","location":""},{"id":"clue:pawelek-wanders-to-old-village","label":"pawelek-wanders-to-old-village","kind":"clue","desc":"[Pawełek Kopacz](../characters/pawelek.md) roams unsupervised as far as [%OLD_VILLAGE%](../locations/old-village-ruins.md) — edges, creek, tree line, further than a 4-year-old should go. Nobody watches him closely enough.","location":""},{"id":"clue:pawelek-was-possessed","label":"pawelek-was-possessed","kind":"clue","desc":"Pawełek was possessed. His fever dreams of \"the lady\" and \"the round stones,\" and a child sickening while no one else does, look to some like the work of the well rather than a natural illness.","location":""},{"id":"clue:paweleks-contamination","label":"paweleks-contamination","kind":"clue","desc":"The contamination profile is wrong. Concentrated single-source, not diffuse floodwater. High phosphate, high ammonia, anaerobic decay. Something large and organic decomposing in a confined water source for years. Not one body. Many.","location":""},{"id":"clue:paweleks-diagnosis","label":"paweleks-diagnosis","kind":"clue","desc":"Bacterial dysentery — *Shigella*, most likely. Fever cycling, bloody stool, dehydration. Fatal without treatment in a child this size. Needs antibacterial medication — but which one and what dosage requires a doctor.","location":""},{"id":"clue:singing-in-the-night","label":"singing-in-the-night","kind":"clue","desc":"Lemko prayers for the dead are sung out in the forest at night, carried on the wind.","location":""},{"id":"clue:three-barred-cross-in-babcias-room","label":"three-barred-cross-in-babcias-room","kind":"clue","desc":"In Barbara Kopacz's house, a small three-barred crucifix hangs above [Stefania Kopacz](../characters/babcia.md)'s corner, unlike the Roman cross on the wall.","location":""},{"id":"clue:well-water-contaminated","label":"well-water-contaminated","kind":"clue","desc":"The well in [%OLD_VILLAGE%](../locations/old-village-ruins.md) is the source of contamination. The water is bad — whoever drinks it gets sick.","location":""},{"id":"clue:wujas-is-paweleks-father","label":"wujas-is-paweleks-father","kind":"clue","desc":"[Tadek Gajda](../characters/wujas.md) is [Pawełek Kopacz](../characters/pawelek.md)'s father.","location":""},{"id":"clue:awareness:locations/old-village-ruins","label":"%OLD_VILLAGE% — Homestead Ruins (stub)","kind":"scene","catg":"scene","scat":"location","desc":"awareness: %OLD_VILLAGE% — Homestead Ruins (stub)","location":""},{"id":"clue:awareness:characters/hag","label":"Paraskewia Chyłak (stub)","kind":"scene","catg":"scene","scat":"character","desc":"awareness: Paraskewia Chyłak (stub)","location":""},{"id":"clue:awareness:locations/barbaras-house","label":"Barbara's House","kind":"scene","catg":"scene","scat":"location","desc":"awareness: Barbara's House","location":""},{"id":"clue:awareness:events/pawelek-falls-ill","label":"Pawełek Falls Ill","kind":"scene","catg":"scene","scat":"event","desc":"awareness: Pawełek Falls Ill","location":""}],"links":[{"source":"clue:committee-runs-geographical-survey","target":"clue:landslide-in-the-gap","style":"soft","rel":"soft","move":"The place you can't get through","mkind":"action","scat":"character","skill":"","skills":"","location":"pawelek","gate":"Free","extra":[]},{"source":"clue:well-water-contaminated","target":"clue:awareness:locations/old-village-ruins","style":"hard","rel":"hard","move":"Water table mapping","mkind":"opportunity","scat":"character","skill":"Geology","skills":"Geology","location":"pawelek","gate":"Geology","extra":[]},{"source":"clue:well-water-contaminated","target":"clue:awareness:locations/old-village-ruins","style":"hard","rel":"hard","move":"Mud on his shoes","mkind":"opportunity","scat":"character","skill":"Survival","skills":"Survival","location":"pawelek","gate":"Survival","extra":[]},{"source":"clue:awareness:locations/barbaras-house","target":"clue:three-barred-cross-in-babcias-room","style":"soft","rel":"soft","move":"Look at Babcia's corner","mkind":"action","scat":"location","skill":"","skills":"","location":"barbaras-house","gate":"Free","extra":[]},{"source":"clue:awareness:locations/barbaras-house","target":"clue:awareness:characters/hag","style":"soft","rel":"soft","move":"Singing on the wind","mkind":"action","scat":"location","skill":"","skills":"","location":"barbaras-house","gate":"Free","extra":[]},{"source":"clue:awareness:locations/barbaras-house","target":"clue:covered-mirrors","style":"opp","rel":"soft","move":"Covered mirrors","mkind":"opportunity","scat":"location","skill":"Culture","skills":"Culture or Superstitious","location":"barbaras-house","gate":"Culture or Superstitious","extra":[]},{"source":"clue:awareness:locations/barbaras-house","target":"clue:barbara-has-help","style":"opp","rel":"soft","move":"Red-brick house","mkind":"opportunity","scat":"location","skill":"Handiwork","skills":"Handiwork","location":"barbaras-house","gate":"Handiwork","extra":[]},{"source":"clue:awareness:locations/barbaras-house","target":"clue:barbara-has-help","style":"opp","rel":"soft","move":"Dudka at the fence","mkind":"opportunity","scat":"location","skill":"Empathy","skills":"Empathy","location":"barbaras-house","gate":"Empathy","extra":[]},{"source":"clue:awareness:locations/barbaras-house","target":"clue:singing-in-the-night","style":"opp","rel":"soft","move":"Babcia after Paraskewia's death","mkind":"opportunity","scat":"location","skill":"Superstitious","skills":"Superstitious","location":"barbaras-house","gate":"Superstitious","extra":[]},{"source":"clue:awareness:events/pawelek-falls-ill","target":"clue:pawelek-burns-with-fever","style":"soft","rel":"soft","move":"Examine him","mkind":"action","scat":"event","skill":"","skills":"","location":"pawelek-falls-ill","gate":"1 card(s)","extra":[]},{"source":"clue:awareness:events/pawelek-falls-ill","target":"clue:awareness:characters/hag","style":"soft","rel":"soft","move":"Listen to his muttering","mkind":"action","scat":"event","skill":"","skills":"","location":"pawelek-falls-ill","gate":"Free","extra":[]},{"source":"clue:awareness:events/pawelek-falls-ill","target":"clue:pawelek-passes-dark-urine","style":"soft","rel":"soft","move":"Tend to him","mkind":"action","scat":"event","skill":"","skills":"","location":"pawelek-falls-ill","gate":"1 card(s)","extra":[]},{"source":"clue:pawelek-needs-a-cleansing-ritual","target":"clue:babcia-is-lemko","style":"soft","rel":"soft","move":"Perform a cleansing ritual","mkind":"action","scat":"event","skill":"Superstitious","skills":"Superstitious","location":"pawelek-falls-ill","gate":"Superstitious; 1 card(s)","extra":[]},{"source":"clue:pawelek-needs-a-cleansing-ritual","target":"clue:babcia-has-the-words","style":"soft","rel":"soft","move":"Perform a cleansing ritual","mkind":"action","scat":"event","skill":"Superstitious","skills":"Superstitious","location":"pawelek-falls-ill","gate":"Superstitious; 1 card(s)","extra":[]},{"source":"clue:awareness:events/pawelek-falls-ill","target":"clue:pawelek-eyes-are-red","style":"opp","rel":"soft","move":"His eyes","mkind":"opportunity","scat":"event","skill":"","skills":"","location":"pawelek-falls-ill","gate":"","extra":[]},{"source":"clue:awareness:events/pawelek-falls-ill","target":"clue:pawelek-eyes-not-crying","style":"opp","rel":"soft","move":"His eyes, read by a medic","mkind":"opportunity","scat":"event","skill":"Medicine","skills":"Medicine","location":"pawelek-falls-ill","gate":"Medicine","extra":[]},{"source":"clue:awareness:events/pawelek-falls-ill","target":"clue:pawelek-turns-yellow","style":"opp","rel":"soft","move":"The colour of him","mkind":"opportunity","scat":"event","skill":"","skills":"","location":"pawelek-falls-ill","gate":"","extra":[]},{"source":"clue:awareness:events/pawelek-falls-ill","target":"clue:pawelek-organs-failing","style":"opp","rel":"soft","move":"The colour of him, read by a medic","mkind":"opportunity","scat":"event","skill":"Medicine","skills":"Medicine","location":"pawelek-falls-ill","gate":"Medicine","extra":[]},{"source":"clue:awareness:events/pawelek-falls-ill","target":"clue:pawelek-got-it-from-water","style":"opp","rel":"soft","move":"The look of it","mkind":"opportunity","scat":"event","skill":"Survival","skills":"Survival","location":"pawelek-falls-ill","gate":"Survival","extra":[]},{"source":"clue:awareness:events/pawelek-falls-ill","target":"clue:pawelek-ate-death-cap","style":"opp","rel":"soft","move":"The look of it","mkind":"opportunity","scat":"event","skill":"Survival","skills":"Survival","location":"pawelek-falls-ill","gate":"Survival","extra":[]},{"source":"clue:awareness:events/pawelek-falls-ill","target":"clue:pawelek-phosphorus-poison","style":"opp","rel":"soft","move":"The mark of poison","mkind":"opportunity","scat":"event","skill":"Violence","skills":"Violence","location":"pawelek-falls-ill","gate":"Violence","extra":[]},{"source":"clue:awareness:events/pawelek-falls-ill","target":"clue:pawelek-was-possessed","style":"opp","rel":"soft","move":"The signs on the child","mkind":"opportunity","scat":"event","skill":"Superstitious","skills":"Superstitious","location":"pawelek-falls-ill","gate":"Superstitious","extra":[]},{"source":"clue:pawelek-burns-with-fever","target":"clue:pawelek-in-muscle-pain","style":"hard","rel":"hard","move":"Examine him: muscle pain","mkind":"opportunity","scat":"event","skill":"","skills":"","location":"pawelek-falls-ill","gate":"","extra":[]},{"source":"clue:pawelek-burns-with-fever","target":"clue:pawelek-looks-like-common-fever","style":"hard","rel":"hard","move":"Examine him, as a medic, early","mkind":"opportunity","scat":"event","skill":"Medicine","skills":"Medicine","location":"pawelek-falls-ill","gate":"Medicine","extra":[]},{"source":"clue:pawelek-burns-with-fever","target":"clue:pawelek-fever-not-passing","style":"hard","rel":"hard","move":"Examine him, as a medic, at 4 HP","mkind":"opportunity","scat":"event","skill":"Medicine","skills":"Medicine","location":"pawelek-falls-ill","gate":"Medicine","extra":[]},{"source":"clue:pawelek-burns-with-fever","target":"clue:pawelek-not-common-sickness","style":"hard","rel":"hard","move":"Examine him, as a medic, late","mkind":"opportunity","scat":"event","skill":"Medicine","skills":"Medicine","location":"pawelek-falls-ill","gate":"Medicine","extra":[]}],"orphans":["committee-runs-geographical-survey","drinking-crew-heads-to-forest","pawelek-needs-a-cleansing-ritual","pawelek-needs-penicillin","pawelek-wanders-to-old-village","paweleks-contamination","paweleks-diagnosis","well-water-contaminated","wujas-is-paweleks-father","Barbara's House","Pawełek Falls Ill"],"counts":{"facts":30,"known":0,"moves":26}};
+const orphan = new Set(DATA.orphans);
+const NSx = "http://www.w3.org/2000/svg";
+
+// node type -> colour + shape
+const TYPE = {
+  clue:       {color:"#6ea8fe", shape:"circle",   label:"fact clue"},
+  orphan:     {color:"#8b6f4a", shape:"circle",   label:"orphan clue"},
+  known:      {color:"#e6b34d", shape:"circle",   label:"clue (NPC knows)"},
+  scene:      {color:"#b08bd8", shape:"diamond",  label:"awareness (entity exists)"},
+  move:       {color:"#7d8695", shape:"dot",      label:"move (join / split)"},
+};
+// scene file category (kept for node fill tint of move helpers is by skill; scat only in tooltip)
+const SCAT = {
+  character:"#d16a8f", location:"#3fa7a1", event:"#9b7ede", item:"#d99a3f", other:"#5b6472"
+};
+// gated skill -> edge / move-node colour
+const SKILL = {
+  Empathy:"#e15c6e", Finesse:"#6ea8fe", Culture:"#b98cff", Survival:"#6bbf59",
+  Violence:"#d1495b", Medicine:"#4ec9b0", Devotion:"#e6b34d", Language:"#f08a5d",
+  Handiwork:"#c9a66b", Bureaucracy:"#8894a8", Chainsmoker:"#9b7ede", Speech:"#f4d35e",
+  Geology:"#b5651d", History:"#7fb069", Physique:"#e07a5f", Alcoholic:"#c06c84",
+  Superstitious:"#a3c4bc", Loaded:"#3f9e5a"
+};
+const NOSKILL="#5b6472";
+function skillColor(s){ return SKILL[s] || NOSKILL; }
+function typeOf(n){ if(n.kind==="move") return "move"; if(n.kind==="known") return "known"; if(n.kind==="scene") return "scene"; if(n.kind==="clue") return orphan.has(n.label)?"orphan":"clue"; return n.catg; }
+function makeShape(t, s){
+  const c=TYPE[t]||TYPE.clue; const NS=NSx; let e;
+  if(c.shape==="circle"){ e=document.createElementNS(NS,"circle"); e.setAttribute("r",9*s); }
+  else if(c.shape==="dot"){ e=document.createElementNS(NS,"circle"); e.setAttribute("r",4.5*s);
+    e.style.fill="#0f1115"; e.style.stroke=c.color; e.style.strokeWidth=(2*s)+"px"; return e; }
+  else if(c.shape==="square"){ e=document.createElementNS(NS,"rect"); const w=12*s; e.setAttribute("x",-w/2); e.setAttribute("y",-w/2); e.setAttribute("width",w); e.setAttribute("height",w); e.setAttribute("rx",2); }
+  else if(c.shape==="triangle"){ e=document.createElementNS(NS,"polygon"); e.setAttribute("points",`0,${-8*s} ${7*s},${6*s} ${-7*s},${6*s}`); }
+  else if(c.shape==="diamond"){ e=document.createElementNS(NS,"polygon"); e.setAttribute("points",`0,${-8*s} ${8*s},0 0,${8*s} ${-8*s},0`); }
+  else if(c.shape==="hex"){ e=document.createElementNS(NS,"polygon"); e.setAttribute("points",`${6*s},${-3.5*s} ${6*s},${3.5*s} 0,${7*s} ${-6*s},${3.5*s} ${-6*s},${-3.5*s} 0,${-7*s}`); }
+  e.setAttribute("fill",c.color);
+  return e;
+}
+
+const svg = document.querySelector("svg");
+const NS = "http://www.w3.org/2000/svg";
+let W = svg.clientWidth, H = svg.clientHeight;
+const nodes = DATA.nodes.map(n=>({...n, x:Math.random()*W, y:Math.random()*H, vx:0, vy:0}));
+const nmap = new Map(nodes.map(n=>[n.id,n]));
+const links = DATA.links.map(l=>({...l, source:nmap.get(l.source), target:nmap.get(l.target)}));
+
+// backward chain: what leads TO a node
+const incoming = new Map(); nodes.forEach(n=>incoming.set(n.id,[]));
+links.forEach((l,i)=>incoming.get(l.target.id).push(i));
+
+// node degree drives how much space it claims: busy nodes repel harder and push
+// their spokes longer, so high-connection clues get room instead of crowding.
+nodes.forEach(n=>n.deg=0);
+links.forEach(l=>{ l.source.deg++; l.target.deg++; });
+nodes.forEach(n=>n.charge=1+Math.sqrt(n.deg)*0.8);
+
+// parallel edges (same source AND target) must fan into separate arcs, else a
+// coloured line hides behind a grey one. give each a growing bow radius.
+const _par=new Map();
+links.forEach(l=>{ const k=l.source.id+">"+l.target.id; const a=_par.get(k)||[]; a.push(l); _par.set(k,a); });
+_par.forEach(a=>a.forEach((l,i)=>l._bow=1+i*0.95));
+function chain(rootId){
+  const keepN=new Set(), keepL=new Set(), stack=[rootId], seen=new Set();
+  while(stack.length){
+    const id=stack.pop(); if(seen.has(id))continue; seen.add(id); keepN.add(id);
+    for(const li of incoming.get(id)){ keepL.add(li); const s=links[li].source.id; keepN.add(s); if(!seen.has(s)) stack.push(s); }
+  }
+  return {keepN,keepL};
+}
+
+const gRoot=document.createElementNS(NS,"g"); svg.appendChild(gRoot);
+const gLinks=document.createElementNS(NS,"g"); gRoot.appendChild(gLinks);
+const gLbl=document.createElementNS(NS,"g"); gRoot.appendChild(gLbl);
+const gNodes=document.createElementNS(NS,"g"); gRoot.appendChild(gNodes);
+
+svg.insertAdjacentHTML("afterbegin",
+ '<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="context-stroke"/></marker></defs>');
+
+links.forEach(l=>{
+  const p=document.createElementNS(NS,"path"); p.setAttribute("class","link "+(l.style||"hard"));
+  p.style.stroke=skillColor(l.skill);
+  p.setAttribute("marker-end","url(#arr)"); l._el=p; gLinks.appendChild(p);
+  const hit=document.createElementNS(NS,"path"); hit.setAttribute("class","hit"); l._hit=hit; gLinks.appendChild(hit);
+  hit.addEventListener("mouseenter",e=>showEdgeTip(l,e));
+  hit.addEventListener("mousemove",moveTip); hit.addEventListener("mouseleave",hideTip);
+  // scene file is a LABEL on the line (coloured by scene type), not a node
+  if(l.location){
+    const lb=document.createElementNS(NS,"text"); lb.setAttribute("class","elabel");
+    lb.setAttribute("text-anchor","middle"); lb.style.fill=SCAT[l.scat]||"#9aa3b0";
+    lb.textContent=l.location; l._lb=lb; gLbl.appendChild(lb);
+  }
+});
+
+// each edge label is a layout particle: it springs to its edge midpoint but
+// repels other labels, so labels take up space and stop overlapping.
+const labels = links.filter(l=>l._lb).map(l=>{
+  const mx=(l.source.x+l.target.x)/2, my=(l.source.y+l.target.y)/2;
+  const o={link:l, w:(l.location.length*5), x:mx,y:my,vx:0,vy:0};
+  o.hw=o.w/2; l._lp=o; return o;
+});
+
+nodes.forEach(n=>{
+  const g=document.createElementNS(NS,"g"); g.setAttribute("class","node");
+  if(n.kind==="move"){
+    // helper node: pill coloured by scene TYPE, edges coloured by skill
+    const col=SCAT[n.scat] || "#5b6472";
+    const txt=(n.label||"?"); const disp=txt.length>18?txt.slice(0,17)+"…":txt;
+    const w=Math.max(20, disp.length*5.2+8);
+    const r=document.createElementNS(NS,"rect"); r.setAttribute("x",-w/2); r.setAttribute("y",-8);
+    r.setAttribute("width",w); r.setAttribute("height",16); r.setAttribute("rx",8);
+    r.style.fill=col+"33"; r.style.stroke=col; r.style.strokeWidth="1.5px"; g.appendChild(r);
+    const t=document.createElementNS(NS,"text"); t.setAttribute("class","mv");
+    t.style.fill=col;
+    t.setAttribute("text-anchor","middle"); t.setAttribute("y",2.5); t.textContent=disp; g.appendChild(t);
+  } else {
+    const shp=makeShape(typeOf(n), 1); g.appendChild(shp);
+    const t=document.createElementNS(NS,"text"); t.setAttribute("x",13); t.setAttribute("y",3);
+    t.textContent=n.label.length>28?n.label.slice(0,27)+"…":n.label; g.appendChild(t);
+  }
+  n._el=g;
+  g.addEventListener("mouseenter",e=>showNodeTip(n,e));
+  g.addEventListener("mousemove",moveTip); g.addEventListener("mouseleave",hideTip);
+  g.addEventListener("click",()=>focus(n.id));
+  gNodes.appendChild(g);
+});
+
+function tick(){
+  const K=9500;
+  for(let i=0;i<nodes.length;i++){ const a=nodes[i];
+    for(let j=i+1;j<nodes.length;j++){ const b=nodes[j];
+      let dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy+.01; const f=K*a.charge*b.charge/d2,d=Math.sqrt(d2);
+      const fx=f*dx/d,fy=f*dy/d; a.vx+=fx;a.vy+=fy;b.vx-=fx;b.vy-=fy; } }
+  for(const l of links){ const a=l.source,b=l.target;
+    let dx=b.x-a.x,dy=b.y-a.y,d=Math.sqrt(dx*dx+dy*dy)+.01;
+    const rest=Math.min(300, 100+(a.deg+b.deg)*6); const f=(d-rest)*0.02,fx=f*dx/d,fy=f*dy/d;
+    a.vx+=fx;a.vy+=fy;b.vx-=fx;b.vy-=fy; }
+  for(const n of nodes){ n.vx+=(W/2-n.x)*0.001; n.vy+=(H/2-n.y)*0.001; n.vx*=0.85; n.vy*=0.85; n.x+=n.vx; n.y+=n.vy; }
+  // edge labels: anchor near the TARGET end so labels fan out along the spokes
+  // instead of piling up at a shared source; repel each other; weak spring back.
+  for(const p of labels){ const a=p.link.source,b=p.link.target;
+    const dx=b.x-a.x,dy=b.y-a.y,d=Math.sqrt(dx*dx+dy*dy)||1, off=Math.min(38,d*0.14)*(p.link._bow||1);
+    p.ax=a.x+dx*0.6 + (-dy/d)*off; p.ay=a.y+dy*0.6 + (dx/d)*off; }
+  for(let i=0;i<labels.length;i++){ const p=labels[i];
+    for(let j=i+1;j<labels.length;j++){ const q=labels[j];
+      const dx=p.x-q.x, dy=p.y-q.y;
+      const ox=(p.hw+q.hw+7)-Math.abs(dx), oy=13-Math.abs(dy);
+      if(ox>0 && oy>0){ // bounding boxes overlap -> push apart on the shallower axis
+        if(ox<oy){ const s=(dx<0?-1:1)*ox*0.6; p.vx+=s; q.vx-=s; }
+        else { const s=(dy<0?-1:1)*oy*0.6; p.vy+=s; q.vy-=s; } } }
+  }
+  for(const p of labels){
+    p.vx+=(p.ax-p.x)*0.04; p.vy+=(p.ay-p.y)*0.04;
+    p.vx*=0.8; p.vy*=0.8; p.x+=p.vx; p.y+=p.vy; }
+}
+function curve(l){
+  const a=l.source,b=l.target, dx=b.x-a.x,dy=b.y-a.y, d=Math.sqrt(dx*dx+dy*dy)||1;
+  const ux=dx/d, uy=dy/d, px=-uy, py=ux;               // unit dir + perpendicular
+  const off=Math.min(38, d*0.14)*(l._bow||1);           // gentle bow, fanned for parallels
+  const sx=a.x+ux*10, sy=a.y+uy*10;                     // leave the source node edge
+  const ex=b.x-ux*12, ey=b.y-uy*12;                     // stop before the target
+  const cx=(sx+ex)/2 + px*off*2, cy=(sy+ey)/2 + py*off*2;
+  const t=0.6, mt=1-t;                                  // label point on the arc
+  const lx=mt*mt*sx+2*mt*t*cx+t*t*ex, ly=mt*mt*sy+2*mt*t*cy+t*t*ey;
+  return {path:`M${sx},${sy} Q${cx},${cy} ${ex},${ey}`, lx, ly};
+}
+function render(){
+  for(const l of links){ const c=curve(l); l._el.setAttribute("d",c.path); l._hit.setAttribute("d",c.path);
+    if(l._lb){ const lp=l._lp; l._lb.setAttribute("x",lp.x); l._lb.setAttribute("y",lp.y-2); } }
+  for(const n of nodes){ n._el.setAttribute("transform",`translate(${n.x},${n.y})`); }
+}
+let cool=520;
+function loop(){ if(cool>0){ for(let s=0;s<2;s++) tick(); render(); cool--; requestAnimationFrame(loop);} }
+loop();
+
+let vt={x:0,y:0,k:1}; function applyVT(){ gRoot.setAttribute("transform",`translate(${vt.x},${vt.y}) scale(${vt.k})`); }
+svg.addEventListener("wheel",e=>{ e.preventDefault(); const s=e.deltaY<0?1.1:0.9; vt.x=e.offsetX-(e.offsetX-vt.x)*s; vt.y=e.offsetY-(e.offsetY-vt.y)*s; vt.k*=s; applyVT(); },{passive:false});
+let drag=null;
+svg.addEventListener("mousedown",e=>{ if(e.target===svg||e.target.tagName==="path") drag={x:e.clientX,y:e.clientY,vx:vt.x,vy:vt.y}; });
+window.addEventListener("mousemove",e=>{ if(drag){ vt.x=drag.vx+(e.clientX-drag.x); vt.y=drag.vy+(e.clientY-drag.y); applyVT(); } });
+window.addEventListener("mouseup",()=>drag=null);
+
+let active=null;
+function focus(id){
+  active=id; const {keepN,keepL}=chain(id);
+  nodes.forEach(n=>n._el.classList.toggle("dim",!keepN.has(n.id)));
+  links.forEach((l,i)=>{ const on=keepL.has(i); l._el.classList.toggle("dim",!on); l._hit.classList.toggle("dim",!on); if(l._lb) l._lb.classList.toggle("dim",!on); });
+  document.querySelectorAll(".row").forEach(r=>r.classList.toggle("on",r.dataset.id===id));
+  cool=Math.max(cool,50); loop();
+}
+function showAll(){ active=null; nodes.forEach(n=>n._el.classList.remove("dim"));
+  links.forEach(l=>{ l._el.classList.remove("dim"); l._hit.classList.remove("dim"); if(l._lb) l._lb.classList.remove("dim"); });
+  document.querySelectorAll(".row").forEach(r=>r.classList.remove("on")); }
+document.getElementById("reset").onclick=showAll;
+// centre the viewport on a node (pan, keep a readable zoom)
+function panTo(id){ const n=nodes.find(x=>x.id===id); if(!n) return;
+  const k=Math.max(vt.k,1.2); vt.k=k; vt.x=W/2-n.x*k; vt.y=H/2-n.y*k; applyVT(); }
+
+const tip=document.getElementById("tip");
+function showNodeTip(n,e){
+  let h;
+  if(n.kind==="move"){ h=`<b>${n.move||n.label}</b><br><span class="g">${n.mkind} · ${n.scat||"?"} · ${n.label}`+`</span>`;
+    if(n.skills) h+=`<br><span class="g">skill: ${n.skills}</span>`;
+    if(n.gate) h+=`<br><span class="g">${n.gate}</span>`;
+    if(n.extra&&n.extra.length) h+=`<br><span class="g">+ ${n.extra.join(", ")}</span>`; }
+  else if(n.kind==="scene"){ h=`<b>${n.label}</b><br><span class="g">${(TYPE[n.catg]||{label:"scene"}).label} · exists · ${n.desc}</span>`; }
+  else { h=`<b>${n.label}</b><br><span class="g">`+(n.kind==="known"?"clue known by "+n.npc:"fact")+`</span>`; if(n.desc) h+=`<br>${n.desc}`;
+    const gv=incoming.get(n.id).length; h+=`<br><span class="g">${gv} move(s) lead here`+(orphan.has(n.label)?" · ORPHAN":"")+`</span>`; }
+  tip.innerHTML=h; tip.style.display="block"; moveTip(e);
+}
+function showEdgeTip(l,e){
+  const gate=l.mkind==="synthesis"?"synthesis":(l.mkind==="opportunity"?"opportunity":(l.rel==="soft"?"seeded lead":"hard gate"));
+  let h=`<b>${l.move}</b><br><span class="g">${gate} · ${l.scat||"?"}`+(l.location?` @ ${l.location}`:``)+`</span>`;
+  h+=`<br><span class="g">skill: ${l.skills||"none"}</span>`;
+  if(l.gate) h+=`<br><span class="g">${l.gate}</span>`;
+  h+=`<br><span class="g">${l.source.label} → ${l.target.label}</span>`;
+  if(l.extra&&l.extra.length) h+=`<br><span class="g">+ ${l.extra.join(", ")}</span>`;
+  tip.innerHTML=h; tip.style.display="block"; moveTip(e);
+}
+function moveTip(e){ tip.style.left=(e.clientX-320+16)+"px"; tip.style.top=(e.clientY+14)+"px"; }
+function hideTip(){ tip.style.display="none"; }
+
+const items=nodes.filter(n=>n.kind==="clue"||n.kind==="known"||n.kind==="scene")
+  .sort((a,b)=> (a.kind===b.kind? a.label.localeCompare(b.label) : (a.kind==="known"?1:-1)));
+const listEl=document.getElementById("list");
+function renderList(f){
+  listEl.innerHTML="";
+  items.filter(c=>!f||c.label.toLowerCase().includes(f)||(c.desc||"").toLowerCase().includes(f))
+    .forEach(c=>{ const r=document.createElement("div");
+      r.className="row"+(c.kind==="scene"?" scene":"")+(orphan.has(c.label)?" orphan":"")+(active===c.id?" on":"");
+      r.dataset.id=c.id;
+      const col=(TYPE[typeOf(c)]||TYPE.clue).color;
+      r.innerHTML=`<span class="lbl" style="color:${col}">${c.label}</span><span class="n">${incoming.get(c.id).length}</span>`;
+      r.onclick=()=>{ active=c.id; document.querySelectorAll(".row").forEach(x=>x.classList.toggle("on",x.dataset.id===c.id)); panTo(c.id); }; listEl.appendChild(r); });
+}
+renderList("");
+const c=DATA.counts;
+document.getElementById("stats").textContent=`${c.facts} facts · ${c.known} known · ${c.moves} edges`;
+
+// legend
+(function(){
+  const box=document.getElementById("legend");
+  const order=["clue","orphan","known","scene"];
+  order.forEach(t=>{
+    const sp=document.createElement("span");
+    const svgi=document.createElementNS(NSx,"svg"); svgi.setAttribute("width",16); svgi.setAttribute("height",16); svgi.style.verticalAlign="middle"; svgi.style.marginRight="4px";
+    const g=document.createElementNS(NSx,"g"); g.setAttribute("transform","translate(8,8)"); g.appendChild(makeShape(t,0.75)); svgi.appendChild(g);
+    sp.appendChild(svgi); sp.appendChild(document.createTextNode(TYPE[t].label)); box.appendChild(sp);
+  });
+  // move helper node label colour = scene type
+  Object.entries(SCAT).forEach(([lab,col])=>{
+    const sp=document.createElement("span");
+    const i=document.createElement("i"); i.className="sw"; i.style.background=col; i.style.borderRadius="6px";
+    sp.appendChild(i); sp.appendChild(document.createTextNode(lab)); box.appendChild(sp);
+  });
+  [["#8b93a1","hard gate","solid"],["#8b93a1","seeded lead","dashed"],["#8b93a1","opportunity","dotted"],["#8b93a1","synthesis","double"]]
+   .forEach(([col,lab,style])=>{
+    const sp=document.createElement("span");
+    const i=document.createElement("i"); i.className="swl"; i.style.borderColor=col;
+    i.style.borderTopStyle=style;
+    sp.appendChild(i); sp.appendChild(document.createTextNode(lab)); box.appendChild(sp);
+  });
+  Object.entries(SKILL).concat([["none",NOSKILL]]).forEach(([lab,col])=>{
+    const sp=document.createElement("span");
+    const i=document.createElement("i"); i.className="swl"; i.style.borderColor=col; i.style.borderTopWidth="3px";
+    sp.appendChild(i); sp.appendChild(document.createTextNode(lab)); box.appendChild(sp);
+  });
+})();
+
+window.addEventListener("resize",()=>{ W=svg.clientWidth; H=svg.clientHeight; });
+</script>
+</body>
+</html>

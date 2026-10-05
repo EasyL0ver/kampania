@@ -1,0 +1,17 @@
+{
+  "name": "kampania-world",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "gen": "node tools/gen-ids.ts",
+    "typecheck": "tsc -p .",
+    "rules": "node tools/check.ts",
+    "graph": "node tools/graph.ts",
+    "check": "npm run gen && npm run typecheck && npm run rules",
+    "build": "npm run check && npm run graph"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.0",
+    "typescript": "^5.9.3"
+  }
+}
