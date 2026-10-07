@@ -43,26 +43,24 @@ Helena Rzepka's general store.
 
 ### Buy cigarettes
 - **Requires:** —
-- **Cost:** Free
 - **Outcome:** Halina sells a pack across the counter: cheap [Sport](../clues/clues.md#tadek-smokes-cheapest) off the shelf, or premium [Carmen](../items/cigarette-butts-from-ciotkas.md) if you ask. A pack lasts one day; keeping one on you is [Chainsmoker](../story-facts/game-system.md#the-cards) upkeep.
 - **Gives:** Item / Evidence: a pack of Sport or Carmen (one day's supply).
 
 ### Buy rope
 - **Requires:** —
-- **Cost:** Free
 - **Outcome:** Halina sells a coil of field line off the shelf, mixed lengths knotted serviceable, long enough for the ridge climb.
 - **Gives:** Item: a [rope](../items/rope.md).
 
 ### Ask who smokes Carmen
 - **Requires:** Holding the butts; **Speech** or **Finesse**
 - **Prompted by:** [butts-at-ciotkas-are-carmen](../clues/clues.md#butts-at-ciotkas-are-carmen)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Nobody in the village wastes money on Carmen except two men: the Gajda boy [Marek](../characters/junior.md), who buys what marks him as above the place, and the butcher [Stanisław Rezeń](../characters/butcher.md), who buys what he pleases. The brand narrows the door to the pair of them, and clears no one.
 - **Gives:** [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen); [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen)
 
 ### Break into the cabinet
 - **Requires:** [store-has-drug-cabinet](../clues/clues.md#store-has-drug-cabinet); **Physique**, or the stolen store cabinet key
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The penicillin is in the locked cabinet.
   - **Physique:** You bash the little door until the lock tears out of the wood. Quick and loud, and the splintered frame shows at a glance that someone forced it.
   - **With the key:** Helena's own key lets you in past the doors and opens the cabinet clean. You take the child's course and lock up after you, but the missing stock will not go unnoticed for long.
@@ -70,7 +68,7 @@ Helena Rzepka's general store.
 
 ### Smash the register open
 - **Requires:** mid break-in, the store already open to you; **Physique**
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** You pry the cash drawer until it springs. There is not much inside, a day's small takings, but it is gone now, and an emptied till reads as a plain robbery rather than a hand reaching for one thing.
 - **Gives:** Item: the till cash; NPC Learns: helena: [somebody-stole-money](../clues/clues.md#somebody-stole-money)
 

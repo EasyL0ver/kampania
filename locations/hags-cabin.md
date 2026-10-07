@@ -37,12 +37,12 @@
 
 ### Search the hidden floorboard tin
 - **Requires:** Access to the cabin
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The players find Dmytro Kosach's photograph, folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth.
 - **Gives:** aware:characters/dmytro-kosach.md; Item / Evidence: Dmytro Kosach's photograph, knife, and letters.
 
 ### Search the cabin after confrontation
 - **Requires:** Hag is dead or missing after [Well Confrontation](../events/well-confrontation.md)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The cabin is empty, the fire is cold, supplies remain, and ritual materials show twenty years of tending the dead.
 - **Gives:** [hag-tends-the-well](../clues/clues.md#hag-tends-the-well)

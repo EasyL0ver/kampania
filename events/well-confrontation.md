@@ -78,7 +78,6 @@
 
 ### Dudka's rifle
 - **Requires:** The players got [Ryszard Dudka](../characters/neighbour.md) here and left him his rifle; if he is [Humiliated](../characters/neighbour.md#humiliated), a player must use [Uplift Ryszard](../characters/neighbour.md#uplift-ryszard)
-- **Cost:** Free
 - **Outcome:** Dudka aims at Rezeń from the trees; Rezeń backs off and leaves with the dogs.
 - **Gives:** World State Change: the hag survives, Dudka and Rezeń can no longer pretend ignorance, and the village silence cracks
 

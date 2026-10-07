@@ -36,13 +36,13 @@
 
 ### Let him confess
 - **Requires:** Bond with [Tadek Gajda](../characters/wujas.md) or prior humane treatment; Tadek is not being threatened
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Tadek gives the lynch in fragments: Hania knew the family secret and never used it, Helena's threat story was false, Edward came with the rifle, Edward was killed, his body went to the well, and Hania broke free and ran into the night.
 - **Gives:** [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret), [`wujas-participated-in-lynch`](../clues/clues.md#wujas-participated-in-lynch), [`wojewoda-participated-in-lynch`](../clues/clues.md#wojewoda-participated-in-lynch), [`butcher-participated-in-lynch`](../clues/clues.md#butcher-participated-in-lynch), [`soldier-killed-defending-daughter`](../clues/clues.md#soldier-killed-defending-daughter), [`lynch-body-in-well`](../clues/clues.md#lynch-body-in-well), [`butcher-dumped-the-body`](../clues/clues.md#butcher-dumped-the-body), [`jagna-fled-the-lynch`](../clues/clues.md#jagna-fled-the-lynch)
 
 ### Pressure him while he cracks
 - **Requires:** Violence, committee authority, or explicit threat
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Tadek shuts down and becomes a danger to himself and the cover-up.
 - **Gives:** NPC State Change: Tadek enters the suicide or dangerous spiral path
 

@@ -20,7 +20,7 @@ Every scene file (locations, events, characters) uses two mechanisms for player 
 |---|---|---|
 | **Initiated by** | GM | Player |
 | **Trigger** | Player has the right skill/prereq and is present | Player declares "I want to..." |
-| **Cost** | Always free | Free OR 1+ actions of time |
+| **Cost** | Always free | Free (no Cost line) OR time / composure / an item |
 | **Nature** | Passive — the GM reveals it | Active — the player asks for it |
 | **GM reads** | Woven into scene narration | When player states intent |
 
@@ -34,9 +34,9 @@ Every scene file (locations, events, characters) uses two mechanisms for player 
 
 Actions *within* the location cost time on top of the visit. So the full flow is:
 
-1. **Player:** "I visit Ciotka's house." → **1 action** (the visit)
+1. **Player:** "I visit Ciotka's house." → **1 time** (the visit)
 2. **GM:** Reads Setup. Delivers Opportunities based on player's skills. → **Free** (bundled with visit)
-3. **Player:** "I want to search the attic." → **1 action** (additional action within the location)
+3. **Player:** "I want to search the attic." → **1 time** (additional action within the location)
 
 This means Opportunities are the **payoff for the visit** — the minimum a player gets for spending time at a location. If a location gives nothing through its Opportunities alone, the visit feels wasted. Every location should reward the visit with at least one meaningful Opportunity.
 
@@ -51,8 +51,10 @@ Opportunities are **what the GM reveals to a player who clears a gate** — some
 ### Format
 
 ```
-- **[Observable thing]** `(requires: [gate])` — [What the gated player notices]. → Gives: [`clue-id`](../clues/clues.md#clue-id)
+- **[Observable thing]** `(requires: [gate])` `(prompted by: [clue-id](../clues/clues.md#clue-id), aware:characters/file.md)` — [What the gated player notices]. → Gives: [`clue-id`](../clues/clues.md#clue-id)
 ```
+
+The `(prompted by: …)` tag is optional — same meaning and format as an action's `Prompted by:` (Actions rule 8).
 
 ### The gate
 
@@ -85,8 +87,8 @@ Actions are **what players do when they declare intent.** Every action produces 
 ```
 ### Action Name
 - **Requires:** [Hard gate — skill, item, NPC state, or a prior clue ONLY when logically mandatory; else "Nothing"]
-- **Prompted by:** [Optional — prior clue(s) that would push a player to try this. Soft breadcrumb, not a gate.]
-- **Cost:** [Free / 1 action / 2 actions]
+- **Prompted by:** [Clue links and/or aware:<kind>/<file>.md tokens, separated by ", ". Soft breadcrumb, not a gate. Omit only if nothing points the way (validator warns).]
+- **Cost:** [N time + N composure + [Item](../items/file.md) — any combination; omit the line entirely when free]
 - **Outcome:** [What happens — one flat result for anyone who clears Requires. No skill branches.]
 - **Gives:** [`clue-id`](../clues/clues.md#clue-id) | NPC State Change: [description] | Item: [description] | Scene Unlock: [scene file] | World State Change: [description] | Ending Progress: [which ending]
 ```
@@ -129,8 +131,19 @@ An action costs time when it eats a meaningful chunk of the character's day — 
    - In a `Requires:` set → **hard gate.** No skill means you can't take the action (or don't get the gated clue) at all.
    - Reveals more than the flat Outcome → that extra is a separate **opportunity**, `(requires: <this action> and <skill>)`. Not a branch inside Outcome.
    An Action's Outcome is flat — one result for everyone who clears `Requires:`. Skills never sit as enrich-branches in an Outcome.
-7. **Cost must be explicit.** Every action states its cost: `Free`, `1 action`, or more. See the table above for guidance on which is which.
-8. **`Prompted by:` is a soft breadcrumb, not a gate.** It lists prior clue(s) that would make a player think to try this action. A player without them can still take it. It is only for **actions** (opportunities are GM-delivered and already gated, so they never carry it). Use `Requires:` for a prior clue only when the action is logically impossible without it (you can't certify a flood report you haven't gathered); use `Prompted by:` for the far more common case where the clue merely points the way. This field feeds the clue graph: it draws the edge from the prompting clue to the clue this action gives.
+7. **Cost is strict.** It is one or more of these parts, joined by ` + `, and nothing else:
+   - `N time` — time cards spent (e.g. `1 time`, `2 time`)
+   - `N composure` — composure spent (e.g. `1 composure`)
+   - an item link — the item is used up or handed over; the item must have its own `items/` file
+
+   ```
+   - **Cost:** 1 time
+   - **Cost:** 1 time + 1 composure
+   - **Cost:** 2 composure + [Rope](../items/rope.md)
+   ```
+
+   **A free action has no Cost line at all** — never write `Free`, `None` or `0`. Conditions, skill discounts, injuries and notes do not belong in Cost: split them into separate actions or move them to Requires/Outcome. See the table above for when an action costs time. Checked by `python validate.py` (rule `action-cost`).
+8. **`Prompted by:` is a soft breadcrumb, not a gate.** It lists prior clue(s) or awareness that would make a player think to try this action. A player without them can still take it. Opportunities may carry it too, as an inline `(prompted by: …)` tag. **Format is strict:** a `, `-separated list where each entry is a clue link written like the one in `Gives:` (link text = the clue id, optionally in backticks) or an awareness token `aware:<characters|events|locations|items>/<file>.md`. Nothing else: no `;`, no free text. An action without `Prompted by:` is a validator warning. Use `Requires:` for a prior clue only when the action is logically impossible without it (you can't certify a flood report you haven't gathered); use `Prompted by:` for the far more common case where the clue merely points the way. This field feeds the clue graph: it draws the edge from the prompting clue to the clue this action gives.
 
 ---
 
@@ -162,7 +175,7 @@ Players don't know what's in these files. They will attempt things no scene docu
 | A question an NPC simply refuses | The refusal is the scene — and is sometimes the clue itself ([`barbara-refuses-father`](clues/clues.md#barbara-refuses-father)) |
 | Moving within a location | Already free — see [The Visit](#the-visit) |
 | Asking what they can see | That's Setup. Setup is always free. |
-| Anything a scene file lists as `Free` | It's written down |
+| Any documented action with no Cost line | It's written down as free |
 
 **Never charge a player for learning they can't do something.** Refusing a gated attempt for free is what keeps players probing instead of paralysed. Charge them for *doing* things, not for *asking*.
 
@@ -189,7 +202,7 @@ A party that ends most days with cards unspent is being undercharged.
 
 Charging isn't symmetrical, and it's worth knowing which way it leans:
 
-- **Conversational flailing is nearly free.** One card gets a player through a door; every `Free` action inside is then harvestable. About a third of all documented actions are free, and most of those are conversations.
+- **Conversational flailing is nearly free.** One card gets a player through a door; every free action (no Cost line) inside is then harvestable. About a third of all documented actions are free, and most of those are conversations.
 - **Physical flailing is expensive.** Forest travel, searches, stakeouts, and excavation are all costed — and most of them are in or near %OLD_VILLAGE%.
 
 The [1954 lynch](story-facts/the-lynch.md) is reachable almost entirely by talking. The [1947 massacre](story-facts/old-village-massacre.md) is reachable almost entirely by walking. A GM who under-charges physical exploration gives away the massacre; one who over-charges conversation strangles the social game. **When in doubt, charge the boots and not the mouth.**
@@ -235,6 +248,8 @@ Before committing a scene file, verify:
 - [ ] Dialogue only where the exact words are the mechanical content (else cut, keep the fact)
 - [ ] Every Opportunity has either `→ Gives: [clue-id]` or no gives line (atmosphere only)
 - [ ] Every Action has a `Gives:` line with a valid outcome type
+- [ ] Every Cost is `N time` / `N composure` / an item link joined by ` + `; free actions have no Cost line
+- [ ] `python validate.py` reports 0 errors
 - [ ] No action produces "nothing" — if it would, cut it or find the real outcome
 - [ ] Every opportunity is gated with `(requires: …)` — ungated observations live in Setup, not Opportunities
 - [ ] Skill-gated opportunities read off a detail Setup states

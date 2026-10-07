@@ -31,14 +31,14 @@
 
 ### Search the far ridge
 - **Requires:** Time on the far ridge to cast around off the streambed itself
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Quartering the slopes and gullies beyond the dry streambed, pushing through the gorse, you turn up an abandoned shepherd's koliba half-swallowed on the slope, easy to miss and long empty.
 - **Gives:** [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed)
 
 ### Track the UPA bunker
 - **Requires:** [old-wartime-positions](../clues/clues.md#old-wartime-positions) and **Survival**
 - **Prompted by:** [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Working out from the firing position, a tracker picks up the old partisan paths worn between the hillside strongpoints and follows them to a camouflaged dugout deep in the forest northwest, its ventilation shafts breaking the slope. You now know exactly where the [UPA bunker](upa-bunker.md) lies.
 - **Gives:** aware:locations/upa-bunker.md
 

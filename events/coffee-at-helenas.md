@@ -55,7 +55,6 @@
 
 ### Take the scapegoat — give them Rezeń
 - **Requires:** Nothing
-- **Cost:** Free
 - **Outcome:** The committee names [Stanisław Rezeń](../characters/butcher.md) in the report as the valley's guilt; the Lemko secret, the 1954 lynch, the forgery, and the massacre stay buried behind his name.
 - **Gives:** NPC State Change: [Helena Rzepka](../characters/matrona.md) becomes relieved and warm toward the players; World State Change: [Stanisław Rezeń](../characters/butcher.md) becomes [Ryszard Dudka](../characters/neighbour.md)'s locked [lynch target](../characters/neighbour.md#lynch-targets) unless players later intervene at [the lynch](punishment-lynch.md#actions).
 

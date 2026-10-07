@@ -42,20 +42,20 @@ The best plot in %NEW_VILLAGE%, across from the Neighbour's house.
 
 ### Search Edek's room
 - **Requires:** Janina absent or distracted; a thorough search (**Finesse**)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Only a real search of the room turns them up, tucked away like treasures among the boy's few things: a single unsmoked cigarette, and an old [bayonet](../items/bayonet.md) kept hidden from Janina. Edek does not smoke, so the cigarette was a gift; its brand and meaning become clear when [compared with the butts from the door](../items/cigarette-butts-from-ciotkas.md#compare-with-the-cigarette-in-edeks-room). What the bayonet is, and that it cannot be his father's, takes a soldier's eye. [Ryszard Dudka](../characters/neighbour.md) is right across the road; a search risks him seeing them at it.
 - **Gives:** Item / Evidence: a single unsmoked cigarette from Edek's room; Item: an old [bayonet](../items/bayonet.md) hidden among Edek's things. If Dudka notices the search: +1 [Noise](../events/ciotka-found-dead.md#noise).
 
 ### Search the attic
 - **Requires:** Janina absent or distracted; climbing the attic hatch
 - **Prompted by:** [glupek-forbidden-from-attic](../clues/clues.md#glupek-forbidden-from-attic)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Up past Edek's toys and Janina's stores, among the dead man's things left where no one looks, is an unopened [letter](../items/barnas-letter.md) addressed to Edward Barnaś, postmarked 1955 and never opened. Janina keeps the hatch shut and Edek barred from it, so going up risks being caught, and [Ryszard Dudka](../characters/neighbour.md) is across the road.
 - **Gives:** Item: [Edward Barnaś's unopened letter](../items/barnas-letter.md); aware:items/barnas-letter.md. If Dudka notices the search: +1 [Noise](../events/ciotka-found-dead.md#noise).
 
 ### Dig in the backyard
 - **Requires:** Reason to suspect the uneven backyard patch — [`telegram-points-to-barnas-yard`](../clues/clues.md#telegram-points-to-barnas-yard)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** About a foot down, the players find oilcloth containing a KBW uniform, service insignia, Edward Barnaś's identity documents, deployment dates for the Bieszczady region in 1947, commanding officer kpt. Henryk Ćwiek, and love letters addressed to "M.K."; these can be cross-checked with [por. Skowron](../characters/officer.md)'s classified files, the [UPA bunker](upa-bunker.md), and the [PGR expense journal](../items/pgr-expenses.md).
 - **Gives:** Item / Evidence: Edward Barnaś's buried KBW uniform, service documents, and love letters to "M.K.".
 

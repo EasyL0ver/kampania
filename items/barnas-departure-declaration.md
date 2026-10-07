@@ -30,6 +30,6 @@ A single administrative sheet, official stamps, dated 1954. It records Edward Ba
 
 ### Compare it against Edward's hand
 - **Requires:** Holding the declaration **and** a genuine sample of Edward's writing — his [love letters to "M.K."](../locations/ciotkas-house.md#dig-in-the-backyard) buried in Ciotka's backyard; **Bureaucracy**
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Held beside the letters, the signature doesn't match the man who wrote them — the letters flow, this is stiff and traced. Someone copied his hand.
 - **Gives:** [departure-declaration-forged](../clues/clues.md#departure-declaration-forged)

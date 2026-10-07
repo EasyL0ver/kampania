@@ -39,7 +39,7 @@
 
 ### Calm the dogs / secure the livestock
 - **Requires:** Nothing
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Players help [Michał Pytlak](../characters/foreman.md) keep panicked stock from breaking pens.
 - **Gives:** NPC State Change: [Michał Pytlak](../characters/foreman.md) warms to the committee.
 

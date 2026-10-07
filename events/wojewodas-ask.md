@@ -34,20 +34,20 @@ Zbigniew Gajda closing the PGR office door to speak with the committee privately
 
 ### Ask about Barbara's house
 - **Requires:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway; see [Zbigniew Gajda](../characters/wojewoda.md#ask-about-barbaras-house)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Zbigniew says the house was built with PGR brick and labour for a young mother with no support.
 - **Gives:** [barbara-has-help](../clues/clues.md#barbara-has-help)
 
 ### Ask about Janina's house
 - **Requires:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway; see [Zbigniew Gajda](../characters/wojewoda.md#ask-about-janinas-house)
 - **Prompted by:** [ciotka-house-is-wojewodas](../clues/clues.md#ciotka-house-is-wojewodas)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Zbigniew says the house was abandoned, left to the state, administered by the PGR, and allocated to Janina.
 - **Gives:** [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs)
 
 ### Show the paperwork for Janina's house
 - **Requires:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway and [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs); see [Zbigniew Gajda](../characters/wojewoda.md#show-the-paperwork-for-janinas-house)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Zbigniew shows the 1954 file with [Edward Barnaś's forged declaration](../items/barnas-departure-declaration.md), but does not hand it over.
 - **Gives:** Item / Evidence: the players have seen the declaration and where it is kept
 

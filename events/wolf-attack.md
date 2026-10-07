@@ -44,7 +44,7 @@
 
 ### Reinforce the farm
 - **Requires:** Nothing
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The players help [Michał Pytlak](../characters/foreman.md) and the workers repair fence, move livestock, and haul feed.
 - **Gives:** World State Change: the farm is temporarily reinforced; NPC State Change: Pytlak talks more freely while working
 

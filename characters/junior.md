@@ -8,6 +8,7 @@ Marek Gajda, the sołtys's hot-tempered young son.
 
 ## Vital Statistics
 
+- **Status:** Resident
 - **Born:** 1946
 - **Age in 1967:** 21
 - **Lives in:** [Zbigniew Gajda's house](../locations/wojewodas-house.md) — with [Zbigniew Gajda](wojewoda.md), [Irena Gajda](wife.md)
@@ -45,19 +46,18 @@ A cigarette is usually between his lips or behind his ear. His studied cool drop
 
 ### Offer him a Carmen
 - **Requires:** Junior present; a Carmen to offer (the [store](../locations/the-store.md#buy-cigarettes) stocks them)
-- **Cost:** Free
 - **Outcome:** He takes it as his own, the one thing he spends on to feel above the place. Offer him a cheap Sport and he waves it off: that is not what he smokes, and you learn nothing.
 - **Gives:** [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen)
 
 ### Census interview
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He gives his name and age, and treats the interview like a joke. He answers for himself only.
 - **Gives:** Census data — Marek Gajda, in his father's household.
 
 ### Property assessment
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He says he owns nothing and lives under his father's roof. He waves the question off.
 - **Gives:** Property record — no property of his own; [Zbigniew's house](../locations/wojewodas-house.md).
 

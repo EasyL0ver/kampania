@@ -4,6 +4,7 @@
 
 ## Vital Statistics
 
+- **Status:** Dead
 - **Born:** ~1915
 - **Died:** 1947 (age ~32)
 - **Rank:** Kapitan, Korpus Bezpieczeństwa Wewnętrznego (KBW)

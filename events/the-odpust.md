@@ -47,31 +47,28 @@
 
 ### Receive the odpust
 - **Requires:** Nothing
-- **Cost:** Free
 - **Outcome:** ks. Pająk grants general absolution to the congregation as the water rises.
 - **Gives:** Ending Progress: the Grace ending fires; World State Change: [Rest](the-ritual.md) is foreclosed
 
 ### Bring a specific guilty soul to the rail
 - **Requires:** A guilty NPC is present and reachable.
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The named soul is walked forward, made to kneel, and receives absolution with guilt spoken and answered.
 - **Gives:** NPC State Change: the named guilty soul dies shriven and at peace
 
 ### Answer Babcia's plea by stopping
 - **Requires:** [Stefania Kopacz](../characters/babcia.md) is present and the players choose not to proceed past her plea.
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The players refuse to let the odpust be the final answer while the well dead remain unnamed.
 - **Gives:** Ending Progress: Grace is interrupted; Scene Unlock: [The Ritual](the-ritual.md)
 
 ### Proceed past Babcia's plea
 - **Requires:** [Stefania Kopacz](../characters/babcia.md) is present and the players continue the odpust.
-- **Cost:** Free
 - **Outcome:** The odpust proceeds over Babcia's objection.
 - **Gives:** World State Change: the Lemko dead turn vengeful; Ending Progress: see [spiritual-endings.md](../story-facts/spiritual-endings.md)
 
 ### Refuse it and walk out
 - **Requires:** A player wants the guilty exposed, not forgiven.
-- **Cost:** Free
 - **Outcome:** That player refuses absolution and leaves the church; ks. Pająk continues the rite for the congregation.
 - **Gives:** World State Change: the odpust proceeds without that player
 

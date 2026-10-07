@@ -20,6 +20,6 @@ An old military bayonet, the blade kept clean and faintly oiled, the grip worn s
 
 ### Inspect the blade
 - **Requires:** Holding the bayonet
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Turned to the light, the flat of the blade shows a small mark scratched in by hand: a trident, three prongs rising from a base.
 - **Gives:** [`trident-on-the-bayonet`](../clues/clues.md#trident-on-the-bayonet)

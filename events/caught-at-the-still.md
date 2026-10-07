@@ -35,7 +35,6 @@
 
 ### Let Tadek vouch — already buddies
 - **Requires:** At least one committee member is Tadek's [drinking buddy](../characters/wujas.md#drinking-buddy)
-- **Cost:** Free
 - **Outcome:** Tadek gets between the committee and his crew and swears they are alright. Szymek and Romek stand down on his word — but Franek is too drunk to listen and still has to be turned around or put down.
 - **Gives:** World State Change: only Franek is still a threat; the fight can still start if he is not turned around or beaten down.
 

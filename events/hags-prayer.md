@@ -31,19 +31,19 @@
 
 ### Follow the singing
 - **Requires:** Nothing
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The singing leads through the forest to the [old-village cerkiew](../locations/old-village-cerkiew.md).
 - **Gives:** aware:locations/old-village-ruins.md
 
 ### Sneak closer and watch
 - **Requires:** Finesse
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** You creep closer through the dark, near enough to the well to watch Paraskewia perform the full rite unseen: fire, incense, bread, honey, and the names of the dead sung one by one.
 - **Gives:** [hag-performs-rite](../clues/clues.md#hag-performs-rite)
 
 ### Chase after her
 - **Requires:** Nothing
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** You break cover and run after her. She is gone into the dark before you reach the well and the chase fails. She has now seen the players come at her, and she knows the village means her harm.
 - **Gives:** NPC State Change: Paraskewia turns hostile (see her [Hostility](../characters/hag.md#hostility) mechanic).
 

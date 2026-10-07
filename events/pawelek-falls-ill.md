@@ -55,27 +55,27 @@
 ### Examine him
 - **Requires:** Hands on Pawełek, touching and moving him
 - **Prompted by:** aware:events/pawelek-falls-ill.md
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** His skin is burning hot, and once the muscle pain has set in he screams when you move his legs and back. What you learn depends on how far gone he is. A medic examining him once he is yellowing reads that this is no common sickness.
 - **Gives:** [`pawelek-burns-with-fever`](../clues/clues.md#pawelek-burns-with-fever) at 6 HP or lower; [`pawelek-in-muscle-pain`](../clues/clues.md#pawelek-in-muscle-pain) at 5 HP or lower; `(requires: Medicine)` [`pawelek-looks-like-common-fever`](../clues/clues.md#pawelek-looks-like-common-fever) at 6-5 HP, [`pawelek-fever-not-passing`](../clues/clues.md#pawelek-fever-not-passing) at 4 HP, [`pawelek-not-common-sickness`](../clues/clues.md#pawelek-not-common-sickness) at 3 HP or lower
 
 ### Tend to him
 - **Requires:** Medicine, or helping Barbara nurse him
 - **Prompted by:** aware:events/pawelek-falls-ill.md
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Cool cloths, water, keeping him still. Nothing you do slows the fever; he keeps sinking on the clock all the same. At 2 HP or lower you see he passes little urine, dark as strong tea.
 - **Gives:** [`pawelek-passes-dark-urine`](../clues/clues.md#pawelek-passes-dark-urine) (only at 2 HP or lower)
 
 ### Perform a cleansing ritual
 - **Requires:** Superstitious
 - **Prompted by:** [`pawelek-needs-a-cleansing-ritual`](../clues/clues.md#pawelek-needs-a-cleansing-ritual)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** You work the old warding rite over the boy. It does nothing for his fever. But Stefania, silent in her chair, watches, then corrects your hands and your words and takes up the prayer herself. She knows this rite far better than you do.
 - **Gives:** [`babcia-is-lemko`](../clues/clues.md#babcia-is-lemko); [`babcia-has-the-words`](../clues/clues.md#babcia-has-the-words)
 
 ### Give Pawełek the penicillin
 - **Requires:** Holding the [penicillin](../items/penicillin.md), and [`pawelek-needs-penicillin`](../clues/clues.md#pawelek-needs-penicillin)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** You give the boy the penicillin at a child's dose. The fever breaks. His HP loss stops for good and he begins to recover.
 - **Gives:** World State Change: Pawełek is cured.
 

@@ -8,6 +8,7 @@ Helena Rzepka, the devout woman who runs the village store.
 
 ## Vital Statistics
 
+- **Status:** Resident
 - **Born:** 1922
 - **Age in 1967:** 45
 - **Heritage:** Lemko (hidden) — see [Zbigniew Gajda](wojewoda.md) for shared sibling background
@@ -55,25 +56,25 @@ Weeks after the lynch, Helena directed **Emil** to copy Edward Barnaś's signatu
 
 ### Census interview
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** She gives herself, [Emil](painter.md), and the two children before the question is finished.
 - **Gives:** Census data — Helena, Emil, Ewa, Krystian Rzepka.
 
 ### Property assessment
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** She names the house and [the store](../locations/the-store.md) she runs, with papers in order.
 - **Gives:** Property record — Rzepka house and store.
 
 ### Ask for the penicillin
 - **Requires:** [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin); Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** She holds the only cabinet key and will not turn it for nothing. The penicillin is theirs, she says, on one condition: the committee lets her fill the village census in their stead, a kindness to spare busy officials the walking. She will not open the cabinet until they agree. Word of the sick child and what he needs reaches her sister [Janina](ciotka.md).
 - **Gives:** [helena-demands-the-census](../clues/clues.md#helena-demands-the-census); NPC Learns: helena: [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin); NPC Learns: janina: [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin)
 
 ### Agree to her terms
 - **Requires:** [helena-demands-the-census](../clues/clues.md#helena-demands-the-census); Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** They agree, and she turns the key. She counts out a child's course of penicillin and takes the census book from their hands: from now the count is hers to fill, hers to decide what it shows.
 - **Gives:** Item: penicillin (a child's course); World State Change: the committee loses the [Committee Census Register](../items/census.md); Helena Rzepka fills it herself.
 

@@ -8,6 +8,7 @@ ks. Władysław Pająk, the village's Roman Catholic priest, found at the church
 
 ## Vital Statistics
 
+- **Status:** Resident
 - **Born:** 1925
 - **Age in 1967:** 42
 - **Lives in:** Parish rectory attached to the church
@@ -49,26 +50,25 @@ The arc opens with [The Priest's Plea](../events/priests-plea.md). He seeks out 
 ### Drive out the devil
 - **Requires:** ks. Władysław Pająk brought to Pawełek's sickroom
 - **Prompted by:** [`pawelek-was-possessed`](../clues/clues.md#pawelek-was-possessed)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He prays loudly over the boy, commanding the devil out, a Roman Catholic blessing that rises to shouting. It does nothing for the fever, and the noise frightens the delirious child. [Stefania Kopacz](babcia.md) comes out of her chair, sharply lucid, and drives him off: the boy is not a demon, and he is not to shout and terrify a sick child. This is not his faith and not his rite.
 - **Gives:** [`babcia-opposed-to-church`](../clues/clues.md#babcia-opposed-to-church); [`babcia-mind-returns`](../clues/clues.md#babcia-mind-returns)
 
 ### Ask about the three-barred cross
 - **Requires:** Nothing
 - **Prompted by:** [three-barred-cross-on-gajda-grave](../clues/clues.md#three-barred-cross-on-gajda-grave)
-- **Cost:** Free
 - **Outcome:** He explains what Barbara could not: the three-barred cross is Eastern-rite, Greek Catholic, the old faith of this valley before the Roman parish. He states it plainly as church history, nothing he guards.
 - **Gives:** [`three-barred-cross-is-lemko`](../clues/clues.md#three-barred-cross-is-lemko)
 
 ### Census interview
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He cooperates and gives his details: himself, alone at the rectory.
 - **Gives:** Census data — ks. Władysław Pająk.
 
 ### Property assessment
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He says the rectory and church are parish property, not his. He refers the committee to the diocese for anything on paper.
 - **Gives:** Property record — parish/church property, not personally held.
 

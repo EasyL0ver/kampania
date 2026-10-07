@@ -1,13 +1,13 @@
 # Hania Barnaś
 
-**Type:** Named character — deceased daughter of [Edward Barnaś](soldier.md)
+**Type:** Named character — daughter of [Edward Barnaś](soldier.md), presumed dead since 1954; secretly the telephone-exchange operator
 
 ## Vital Statistics
 
+- **Status:** Outsider
 - **Born:** 1935
-- **Died:** 1954 (age 19)
-- **Lived in:** %NEW_VILLAGE% — with [Edward Barnaś](soldier.md) and family
-- **Settled:** ~1948 — arrived with father
+- **Age in 1967:** 32
+- **Based in:** The nearest town — works the manual switchboard at the telephone exchange in the back of the post office
 
 ## Character
 

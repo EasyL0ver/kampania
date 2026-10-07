@@ -38,31 +38,30 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ### Scale the lower bank
 - **Requires:** Geology or Finesse.
-- **Cost:** 1 card.
+- **Cost:** 1 time
 - **Outcome:** The clay has liquefied and sloughs underfoot; a skilled climber picks the bearing line or muscles up it.
 - **Gives:** The climber is up past the lower bank.
 
 ### Force the lower bank
 - **Requires:** None.
-- **Cost:** 1 card and **1 composure**.
+- **Cost:** 1 time + 1 composure
 - **Outcome:** No read and no strength for the slop, so the climber grinds up it on nerve alone.
 - **Gives:** The climber is up past the lower bank.
 
 ### Carry the charge
 - **Requires:** [The makeshift charge](../items/makeshift-charge.md).
-- **Cost:** Free.
 - **Outcome:** The climber carries the charge up the wet bank and onto the line.
 - **Gives:** The charge is on the climber.
 
 ### Take the line
 - **Requires:** The [rope](../items/rope.md); the climber is past the lower bank.
-- **Cost:** 1 card.
+- **Cost:** 1 time
 - **Outcome:** The climber commits their body to the line as counterweight, to power a haul or catch a fall below.
 - **Gives:** **+1 counterweight point** committed (a Physique-strong body counts as **+2**).
 
 ### Traverse the killzone
 - **Requires:** Physique or Finesse; the climber is past the lower bank
-- **Cost:** 1 card
+- **Cost:** 1 time
 - **Outcome:**
   - **First attempt** `(loose rock in place)` — the loose rock gives and the climber falls, caught by the counterweight on the line (see Mechanics); the fall knocks the rock off the line for good.
   - **Later attempts** `(loose rock removed)` — with the rock already gone the climber crosses clean.
@@ -72,7 +71,7 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ### Regain balance
 - **Requires:** Finesse; the climber has lost balance.
-- **Cost:** **1 composure**.
+- **Cost:** 1 composure
 - **Outcome:** The climber catches a delicate hold and settles the stance before the fall takes them.
 - **Gives:** The climber has regained balance.
 
@@ -84,55 +83,54 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ### Drive the anchor
 - **Requires:** The [anchor and hammer](../items/anchor.md); the climber is past the killzone.
-- **Cost:** 1 card.
+- **Cost:** 1 time
 - **Outcome:** The climber drives the anchor home at the top of the plug, setting a fixed point for the crux.
 - **Gives:** The top-out is anchored.
 
 ### Traverse the top-out
 - **Requires:** Physique or Finesse; the climber is past the killzone.
-- **Cost:** 1 card.
+- **Cost:** 1 time
 - **Outcome:** The rain-greased crux slab will not hold a stance and the climber loses balance outright.
 - **Gives:** The climber is past the top-out; lose balance.
 
 ### Traverse with anchor
 - **Requires:** The top-out is anchored; the climber is past the killzone.
-- **Cost:** 1 card.
+- **Cost:** 1 time
 - **Outcome:** The climber clips the fixed anchor and moves across the crux on the line, the slab no longer able to throw them.
 - **Gives:** The climber is past the top-out.
 
 ### Haul a climber one level
 - **Requires:** The top-out is anchored; the [rope](../items/rope.md); **2 counterweight points** (consumed).
-- **Cost:** 1 card.
+- **Cost:** 1 time
 - **Outcome:** The crew hang their weight on the parallel strand and drag a body up one pitch, no one climbing it under load.
 - **Gives:** The climber moves up one level (past lower bank → past killzone → past top-out).
 
 ### Haul the charge one level
 - **Requires:** The top-out is anchored; the [rope](../items/rope.md); **1 counterweight point** (consumed).
-- **Cost:** 1 card.
+- **Cost:** 1 time
 - **Outcome:** The crew hang their weight on the parallel strand and drag the charge up one pitch, no one climbing it under load.
 - **Gives:** The [makeshift charge](../items/makeshift-charge.md) moves up one level (past lower bank → past killzone → past top-out).
 
 ### Prime the explosives
 - **Requires:** Violence or Handiwork; the [makeshift charge](../items/makeshift-charge.md) is past the top-out.
-- **Cost:** 1 card.
+- **Cost:** 1 time
 - **Outcome:** The climber sets the detonator and runs the fuse, arming the old ordnance to blow.
 - **Gives:** The charge is primed.
 
 ### Rappel down one level
 - **Requires:** The [rope](../items/rope.md); the top-out is anchored; another climber still on the plug to work the rope.
-- **Cost:** 1 card.
+- **Cost:** 1 time
 - **Outcome:** A second climber belays them off the fixed anchor and they rope down one pitch, clear of the load.
 - **Gives:** The climber moves down one level (past top-out → past killzone → past lower bank → clear of the plug).
 
 ### Downclimb one level
 - **Requires:** Physique or Finesse.
-- **Cost:** 1 card.
+- **Cost:** 1 time
 - **Outcome:** With no one left to work the rope, the last climber downclimbs the wet pitch unroped and loses balance on it.
 - **Gives:** The climber moves down one level; lose balance.
 
 ### Blow the gap
 - **Requires:** The charge is primed.
-- **Cost:** None.
 - **Outcome:** The charge blows: the notch opens, floodwater widens it, and the water in %NEW_VILLAGE% starts to drop. Anyone still on the plug when it goes is killed.
 - **Gives:** Any climber still on the plug dies; World State Change: %NEW_VILLAGE% is saved and the empty %BIG-BASIN% floods (no one lives there); Ending Progress: the engineering ending resolves.
 

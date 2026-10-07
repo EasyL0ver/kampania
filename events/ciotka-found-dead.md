@@ -78,70 +78,69 @@
 ### Search the house
 - **Requires:** Nothing
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** With Janina dead, the house is theirs to go through. The backyard, icons, and [Edek Barnaś](../characters/glupek.md)'s room remain as described in [Ciotka's house](../locations/ciotkas-house.md); the shut attic can now be opened without her in the way.
 - **Gives:** Scene Unlock: [Ciotka's house actions](../locations/ciotkas-house.md#actions) remain available in the context of the death.
 
 ### The priest leaves them the key
 - **Requires:** The players have noticed the attic hatch (it is in the ceiling; [Search the house](#search-the-house) reveals it plainly) and turned their attention to it, while [ks. Władysław Pająk](../characters/priest.md) is still present
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead); the players' own interest in the locked attic
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** [ks. Władysław Pająk](../characters/priest.md) has been in no hurry to leave, praying over her, looking in on the house. Only once the committee's own attention turns to the locked hatch does he speak to it, and even then only to the point: he mentions, the way a man passes on a practical thing about a dead neighbour's house, where Janina kept the key, under a loose floorboard beneath her bed. He does not raise the attic himself, and if they never look to it he never mentions the key at all. He does not say what the attic holds or why he is telling them; nothing in it could be quoted back to him. Over the money he does not keep quite so clean a face, he knows what else is under that board, and he holds their eyes a moment longer than he needs to, the way a man does when he is hoping for something he will not ask for. He says it is not a priest's place to go through her things, that is for them and for the family, and that he must walk down and tell her brother Zbigniew, the sołtys. It is a fair way, and the man is as likely to be out at the fields as at home, so he may be a while. He pauses at the door a breath longer than he needs to. Then he blesses her body and leaves them alone in the house. They lift the board. The iron key is there, and beside it a small roll of banknotes, a frugal woman's savings put by over years.
 - **Gives:** Item / Evidence: the attic key. NPC State Change: [ks. Władysław Pająk](../characters/priest.md) leaves the scene to fetch [Zbigniew Gajda](../characters/wojewoda.md). Scene Unlock: [The money under the board](#the-money-under-the-board).
 
 ### The money under the board
 - **Requires:** Lifting the floorboard (see [The priest leaves them the key](#the-priest-leaves-them-the-key))
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
-- **Cost:** free
 - **Outcome:** No one is watching. The priest is gone, Janina is dead, and nobody living knows the roll is there. The committee can pocket it clean: no one to catch them, no one to tell, no grudge and no reckoning anyone will bring. It is not much, the honest savings of a frugal woman, and that is the point. What the priest left behind was a hope, that they would leave it where it lay, or put it to some good. Taking it for themselves carries almost no earthly cost. The weight is theirs alone.
 - **Gives:** Item / Evidence: a small roll of banknotes, if they take it.
 
 ### Open the attic with the key
 - **Requires:** The [attic key](#the-priest-leaves-them-the-key)
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The key turns and the hatch lifts quietly. It is the one part of the house Janina guarded.
 - **Gives:** World State Change: the attic is open.
 
 ### Force the attic
 - **Requires:** Force the locked hatch (**Handiwork**, **Violence**, or **Physique**)
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The players break the locked hatch open. It is loud, splintered wood and a scene the neighbours can hear.
 - **Gives:** World State Change: the attic is open.
 
 ### Search the pile of rubbish
 - **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** A box in the rubbish is marked "EDEK" and reads at a glance like the boy's things. It is not: the belongings are a grown man's, wrong size and wrong age for [Edek Barnaś](../characters/glupek.md). Edward Barnaś went by Edek too. The box is thick with dust and has sat untouched for years. Among the belongings is an old iron front-door key.
 - **Gives:** Item / Evidence: the [box marked "EDEK"](../items/edek-box.md) of a grown man's belongings.
 
 ### Open the wardrobe
 - **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Inside the big wardrobe, a blue dress, folded and kept.
 - **Gives:** Item / Evidence: the [blue dress](../items/girls-dress.md), folded and kept at the back of the wardrobe.
 
 ### Examine the child's rattle
 - **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** A small child's rattle, kept with the rest. A baby lived in this house once.
 - **Gives:** [childs-rattle-in-ciotkas-house](../clues/clues.md#childs-rattle-in-ciotkas-house)
 
 ### Take down the bell
 - **Requires:** The attic is open (see [Open the attic with the key](#open-the-attic-with-the-key) or [Force the attic](#force-the-attic))
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** A small brass Greek Catholic liturgical bell with Cyrillic lettering sits high up, out of place in a Roman Catholic home. Reaching it knocks it loose and it falls, ringing and clattering.
 - **Gives:** Item / Evidence: [Lemko Bell](../items/lemko-bell.md) + [lemko-bell-in-ciotkas-house](../clues/clues.md#lemko-bell-in-ciotkas-house).
 
 ### Search outside the house
 - **Requires:** Go outside and search the mud.
 - **Prompted by:** [`ciotka-is-dead`](../clues/clues.md#ciotka-is-dead)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Cigarette butts lie scattered by the door. Large bare footprints run from the house toward the tree line and fade where the canopy starts.
 - **Gives:** Item / Evidence: [Carmen Cigarette Butts](../items/cigarette-butts-from-ciotkas.md) + [`glupek-fled-into-forest`](../clues/clues.md#glupek-fled-into-forest).
 

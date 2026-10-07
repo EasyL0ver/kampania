@@ -8,6 +8,7 @@
 
 ## Vital Statistics
 
+- **Status:** Resident
 - **Age in 1967:** 5
 - **Parents:** [Michał Pytlak](../foreman.md) and [Zofia Pytlak](../zofia.md)
 
@@ -24,6 +25,6 @@ A slightly older village child who plays with Pawełek Kopacz before the illness
 ## Actions
 
 ### Ask Staszek about their last day
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He tells you they went into the woods and ate mushrooms they picked. `(requires: Survival)` Press him on which kind and it is clear the boys know their mushrooms: they picked ordinary edible ones, and Staszek ate the same and stayed well.
 - **Gives:** [pawelek-ate-mushrooms-in-the-forest](../../clues/clues.md#pawelek-ate-mushrooms-in-the-forest); `(requires: Survival)` [pawelek-mushrooms-were-harmless](../../clues/clues.md#pawelek-mushrooms-were-harmless)

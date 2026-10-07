@@ -58,7 +58,7 @@ The centre of %NEW_VILLAGE%, close to the store.
 
 ### Lift Helena's keys
 - **Requires:** **Finesse**; close to Helena, over her tea and bread or while her attention is elsewhere
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The cabinet key rides on the ring at her apron. In the fuss of hospitality, or with her turned away, a light hand works it off the ring. She notices nothing until she next reaches for it.
 - **Gives:** Item: the store cabinet key.
 

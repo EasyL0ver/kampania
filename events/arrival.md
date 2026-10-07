@@ -37,20 +37,17 @@ A car stopping on the muddy road as Zbigniew Gajda comes forward to meet the com
 ### Get out and look around
 - **Requires:** Nothing
 - **Prompted by:** aware:locations/new-village.md
-- **Cost:** Free
 - **Outcome:** Standing on the muddy road, the committee takes in the village: Barbara Kopacz's house at the edge beside Dudka's, and the store where the crew loiters.
 - **Gives:** aware:locations/barbaras-house.md; aware:locations/the-store.md
 
 ### Listen to Wojewoda's welcome
 - **Requires:** Nothing
 - **Prompted by:** aware:locations/new-village.md
-- **Cost:** Free
 - **Outcome:** He plays the gracious host: he is the committee's point of contact, and the heavy phone on his desk is the only line for miles, so anything the village or the committee needs runs through him.
 - **Gives:** [`wojewoda-has-only-phone`](../clues/clues.md#wojewoda-has-only-phone)
 
 ### Tell Wojewoda about the flood risk
 - **Requires:** Nothing
-- **Cost:** Free
 - **Outcome:** He listens, treats the warning as serious but unproven, and urges the committee to get to work at once and bring back geological confirmation.
 - **Gives:** World State Change: Zbigniew does not invite the committee to the family dinner.
 

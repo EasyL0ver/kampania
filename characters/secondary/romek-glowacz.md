@@ -8,6 +8,7 @@
 
 ## Vital Statistics
 
+- **Status:** Resident
 - **Age in 1967:** ~40-50
 
 ## Character

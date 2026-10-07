@@ -37,24 +37,23 @@ The house beside Barbara's, across from Ciotka's.
 
 ### Census visit — interview Ryszard
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Ryszard gives household facts, complains about the dam and the state, and watches whether the committee asks only census questions or probes the past.
 - **Gives:** World State Change: Ryszard knows the committee has taken official interest in his household.
 
 ### Push him about the past
 - **Requires:** Alcohol, trust, or direct pressure
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Ryszard gives fragments about sounds, movement toward %OLD_VILLAGE%, the next morning's silence, and a warning about the well.
 - **Gives:** [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch)
 
 ### Drink with him
 - **Requires:** Bottle
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Alcohol loosens Ryszard's guarded fragments; he talks about Barbara, Pawełek, and failing to stop harm from happening again.
 - **Gives:** [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch)
 
 ### Ask about Ciotka next door
 - **Requires:** Know [Janina Gajda](../characters/ciotka.md) lives there
-- **Cost:** Free
 - **Outcome:** Ryszard says Janina cares for the boy, says Edek is not hers, and shuts down further detail.
 - **Gives:** [neighbour-knows-about-edek](../clues/clues.md#neighbour-knows-about-edek)

@@ -33,14 +33,14 @@ Rezeń at the PGR gate with three dogs, starting to track from the mud.
 ### Follow him into the forest
 - **Requires:** Nothing
 - **Prompted by:** [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Rezeń finds scat, scrapes, wool on brush, likely denning ground, and passable routes without hesitation.
 - **Gives:** [`rezen-hunts-wolves`](../clues/clues.md#rezen-hunts-wolves)
 
 ### Stay with him if he makes a kill
 - **Requires:** Follow Rezeń to a killed wolf
 - **Prompted by:** [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Rezeń carries the carcass deeper toward the [old village](../locations/old-village-ruins.md) and drops it into the well.
 - **Gives:** [`butcher-dumps-carcasses-in-well`](../clues/clues.md#butcher-dumps-carcasses-in-well)
 

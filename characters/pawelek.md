@@ -8,6 +8,7 @@ Pawełek Kopacz, Barbara's lively four-year-old son.
 
 ## Vital Statistics
 
+- **Status:** Resident
 - **Born:** 1963
 - **Age in 1967:** 4
 - **Lives in:** [Barbara Kopacz's house](../locations/barbaras-house.md) — with [Barbara Kopacz](barbara.md) (mother), [Stefania Kopacz](babcia.md) (grandmother)
@@ -73,44 +74,39 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ### Build with Pawełek
 - **Requires:** Morning or afternoon, Pawełek playing with stones, and **Handiwork**
-- **Cost:** Free
 - **Outcome:** The player helps him build the circular pattern he has been copying from memory. An engineer recognizes the pattern as a well rim.
 - **Gives:** [pawelek-wanders-to-old-village](../clues/clues.md#pawelek-wanders-to-old-village), aware:locations/old-village-ruins.md
 
 ### Play cops with Pawełek
 - **Requires:** **Violence**
-- **Cost:** Free
 - **Outcome:** Through play, he acts out men around a fire, shouting, bottles, and bad guys hiding in the forest.
 - **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
 
 ### Speak Lemko with Pawełek
 - **Requires:** **Language**
-- **Cost:** Free
 - **Outcome:** He recognizes the speech as like Babcia's and like the lady's. He repeats softer words from an old woman in the forest who has been kind to him.
 - **Gives:** aware:characters/hag.md
 
 ### The place you can't get through
 - **Requires:** Playing or talking with Pawełek about the forest
 - **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
-- **Cost:** Free
 - **Outcome:** He mentions, offhand, that you can't get through the notch in the hill anymore because it all fell down in a big pile of rocks. The lady showed him.
 - **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 
 ### Play with Pawełek
 - **Requires:** Nothing
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The player spends time with him in chase, hide-and-seek, or throwing stones at a tree. He is delighted that an adult plays with him.
 - **Gives:** NPC State Change: Pawełek treats the player as a trusted playmate for actions that require trust.
 
 ### Stabilize Pawełek
 - **Requires:** **Medicine**, Pawełek is sick
-- **Cost:** 2 actions
+- **Cost:** 2 time
 - **Outcome:** Clean water, salt, boiled cloths, cool compresses, controlled hydration, and monitoring stop the HP drain for the rest of the day. The effect resets next morning.
 - **Gives:** NPC State Change: [Barbara](barbara.md) trusts the committee and cooperates fully.
 
 ### Ask about drinking water
 - **Requires:** Pawełek is sick, HP 5-6 (lucid), and Pawełek trusts the player or the player uses Speech
-- **Cost:** Free
 - **Outcome:** He says he drank by the round stones where the water comes up, and that the lady told him not to drink it but he was thirsty.
 - **Gives:** [well-water-contaminated](../clues/clues.md#well-water-contaminated), aware:locations/old-village-ruins.md
 

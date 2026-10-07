@@ -23,6 +23,5 @@ An oil portrait of a young dark-haired woman in a blue dress, found wrapped and 
 ### Compare the dress to the portrait
 - **Requires:** Holding the [blue dress](girls-dress.md) and this portrait
 - **Prompted by:** [portrait-woman-in-blue-dress](../clues/clues.md#portrait-woman-in-blue-dress)
-- **Cost:** Free
 - **Outcome:** Set the portrait beside the blue dress taken from the wardrobe: the same cut, the same blue. The woman he painted wore it.
 - **Gives:** [blue-dress-matches-portrait](../clues/clues.md#blue-dress-matches-portrait)

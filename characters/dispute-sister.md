@@ -8,6 +8,7 @@
 
 ## Vital Statistics
 
+- **Status:** Resident
 - **Born:** ~1934
 - **Age in 1967:** 33
 - **Heritage:** Polish settler family
@@ -42,25 +43,24 @@ She states her case rather than begging for it. When she repeats her father's la
 
 ### Census interview
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** She answers plainly with her own details and her husband's family farmhouse.
 - **Gives:** Census data — %SISTER%, in her husband's household.
 
 ### Property assessment
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** She has no deed and claims the border strip by years of labour. She names her brother's paper as the theft.
 - **Gives:** Property record — %SISTER% claims the disputed strip by use, no title; World State Change — the sibling land dispute is on the committee docket.
 
 ### Take her plea seriously
 - **Requires:** The committee engages with her as a claimant, not a nuisance
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** She repeats her father's dying words: the land was never theirs to pass down, the old village people were killed, and the fire hid it. She offers it as proof that the deed is dirty.
 - **Gives:** [`army-massacred-civilians-in-1947`](../clues/clues.md#army-massacred-civilians-in-1947)
 
 ### Ask her to face what the words mean
 - **Requires:** [`army-massacred-civilians-in-1947`](../clues/clues.md#army-massacred-civilians-in-1947) already taken from her, and the players tell her plainly what her father witnessed
-- **Cost:** Free
 - **Outcome:** She goes still and stops using the deathbed account as a property argument. She will not repeat it in an official room again.
 - **Gives:** NPC State Change — %SISTER% withdraws the testimony from the dispute and will not state it formally.
 

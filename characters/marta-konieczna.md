@@ -8,6 +8,7 @@ Marta Konieczna, the woman who lived with [Edward Barnaś](soldier.md); gone wit
 
 ## Vital Statistics
 
+- **Status:** Dead
 - **Born:** ~1915
 - **Died:** 1954 — killed in the lynch, aged ~39
 - **Lived in:** [Edward Barnaś's house](../locations/ciotkas-house.md) in %NEW_VILLAGE% — now [Janina Gajda](ciotka.md)'s

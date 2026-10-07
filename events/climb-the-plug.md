@@ -41,25 +41,25 @@ Facing the steep plug at the ridge gap.
 ### Scale the lower bank
 - **Requires:** Physique, Survival, or Finesse; [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap).
 - **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
-- **Cost:** 1 card.
+- **Cost:** 1 time
 - **Outcome:** The greasy clay gives underfoot; a strong, sure-footed, or deft climber gets up onto the plug.
 - **Gives:** The climber is up past the lower bank.
 
 ### Force the lower bank
 - **Requires:** None.
-- **Cost:** 1 card and **1 composure**.
+- **Cost:** 1 time + 1 composure
 - **Outcome:** No strength or footwork for the clay, so the climber grinds up it on nerve alone.
 - **Gives:** The climber is up past the lower bank.
 
 ### Take the line
 - **Requires:** The [rope](../items/rope.md).
-- **Cost:** 1 card.
+- **Cost:** 1 time
 - **Outcome:** A partner throws their weight on the line, from the foot of the plug or from the crest off the clamp, ready to hold a fall or power a haul.
 - **Gives:** **+1 counterweight point** on the line (a Physique-strong body counts as **+2**).
 
 ### Traverse the killzone
 - **Requires:** Physique or Finesse; the climber is past the lower bank.
-- **Cost:** 1 card.
+- **Cost:** 1 time
 - **Outcome:** The traverse looks ready to come apart, every hold shifting loose under the hand, but the rock is seated and holds. The climber crosses it, roped or not.
 - **Gives:** The climber is past the killzone.
 
@@ -71,13 +71,13 @@ Facing the steep plug at the ridge gap.
 
 ### Drive the clamp
 - **Requires:** The [clamp and hammer](../items/anchor.md) (from the [PGR farm](../locations/pgr-farm.md)); the climber is past the killzone.
-- **Cost:** 1 card.
+- **Cost:** 1 time
 - **Outcome:** The climber drives the steel clamp into the soft shale seam under the slab and pulls over on it, topping out clean with no composure tax. The clamp stays in the rock.
 - **Gives:** The climber tops out (past the top-out); World State Change: the crux of the ridge plug is anchored (a clamp is left in the seam; later climbs skip the top pitch).
 
 ### Haul a climber one level
 - **Requires:** The crux is anchored (the clamp is driven); the [rope](../items/rope.md); **2 counterweight points** (consumed); the hauled climber is past the lower bank.
-- **Cost:** 1 card.
+- **Cost:** 1 time
 - **Outcome:** The crew hang their weight on the parallel strand off the clamp and drag a body up one pitch, no one climbing it under load. This is how the reader who must take the reading, a geologist or a handiworker with an improvised level, but cannot climb the killzone reaches the crest.
 - **Gives:** The hauled climber moves up one level (past lower bank → past killzone → past top-out); the 2 points are spent (see Counterweight).
 

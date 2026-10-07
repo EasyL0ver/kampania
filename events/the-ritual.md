@@ -45,13 +45,13 @@ Gathering ritual materials and arranging them at the well or cerkiew.
 
 ### Perform the ritual
 - **Requires:** [`hag-has-the-form`](../clues/clues.md#hag-has-the-form), [`babcia-has-the-words`](../clues/clues.md#babcia-has-the-words), [`players-supply-truth`](../clues/clues.md#players-supply-truth), and at least one player willing to speak aloud
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The players name the dead, say what was done to them, and perform the rite at the well or the cerkiew.
 - **Gives:** World State Change: the [well's nightmare pressure](../story-facts/the-well.md#the-dreams--the-only-supernatural-element) lifts; Ending Progress: the [ritual path](../story-facts/the-ritual.md) advances and remains compatible with [wife-junior-investigation](../story-facts/wife-junior-investigation.md)
 
 ### Speak only the truth
 - **Requires:** [`players-supply-truth`](../clues/clues.md#players-supply-truth), but missing the Form and/or the Words
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The players name the dead and say what happened without the full rite.
 - **Gives:** World State Change: the atmosphere loosens slightly and the dream pressure is reduced but not lifted
 

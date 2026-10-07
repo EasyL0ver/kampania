@@ -8,6 +8,7 @@
 
 ## Vital Statistics
 
+- **Status:** Resident
 - **Born:** ~1931
 - **Age in 1967:** 36
 - **Heritage:** Polish settler family
@@ -42,25 +43,23 @@ He speaks like a man who knows the rules are already on his side. His reasonable
 
 ### Census interview
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He is cooperative, though often on the road. He gives his own details and his late father's house as his residence.
 - **Gives:** Census data — %BROTHER%, lorry driver, in his father's house.
 
 ### Property assessment
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He produces his father's deed to the house and disputed strip. He notes that [%SISTER%](dispute-sister.md) farms the strip, but the paper is his.
 - **Gives:** Property record — %BROTHER% holds the deed to the house and disputed strip; World State Change — the sibling land dispute is on the committee docket.
 
 ### Rule the boundary his way
 - **Requires:** The committee settles the disputed strip in the compensation assessment
-- **Cost:** Free
 - **Outcome:** The deed stands, and the strip and its compensation go to him. [%SISTER%](dispute-sister.md) loses the ground she has worked for years.
 - **Gives:** World State Change — the strip and payout go to %BROTHER%; %SISTER% is dispossessed; the committee's authority is unchallenged.
 
 ### Rule the boundary against him
 - **Requires:** The committee settles the strip in [%SISTER%](dispute-sister.md)'s favour despite the deed
-- **Cost:** Free
 - **Outcome:** He tells the committee the deed is his and they have overstepped. He files a formal complaint through [por. Witold Skowron](officer.md) and the provincial office.
 - **Gives:** World State Change — %SISTER% keeps the strip; the committee's authority and standing are damaged.
 

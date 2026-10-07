@@ -48,13 +48,13 @@
 
 ### Help with flood response
 - **Requires:** Nothing
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Players help with sandbags, drainage, or livestock. PGR workers mention that the [old village](../locations/old-village-ruins.md) floods worse because water pools there.
 - **Gives:** [`old-village-flooding`](../clues/clues.md#old-village-flooding); NPC State Change: [Michał Pytlak](../characters/foreman.md) talks more freely during shared work
 
 ### Check on villagers
 - **Requires:** Nothing
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Players go door-to-door under cover of flood safety checks.
 - **Gives:** World State Change: players gain a natural excuse to visit any house and speak to NPCs at home
 

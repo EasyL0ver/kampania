@@ -4,6 +4,7 @@
 
 ## Vital Statistics
 
+- **Status:** Resident
 - **Born:** ~1927
 - **Age in 1967:** ~40
 - **Heritage:** Lemko
@@ -47,61 +48,61 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 
 ### Census interview
 - **Requires:** Language
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** She gives her name — Paraskewia Chyłak — and says she is Lemko.
 - **Gives:** [hag-is-lemko](../clues/clues.md#hag-is-lemko); Census data — Paraskewia Chyłak, Lemko, living in the forest.
 
 ### Property assessment
 - **Requires:** Language
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** She shows the cabin without fuss: a tiny hut she built and has lived in for twenty years.
 - **Gives:** Property record — [Hag's cabin](../locations/hags-cabin.md), hers by occupation, no title.
 
 ### The land remembers the water
 - **Requires:** Language
 - **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** She has watched this ground for twenty years. In her own terms she says the river wants its old bed back, that its course shifted, and that a slide came down and closed the notch in the ridge. She has nothing to say about the far-ridge streambed.
 - **Gives:** [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map); [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 
 ### Ask her about Pawełek
 - **Requires:** Language
 - **Prompted by:** aware:events/pawelek-falls-ill.md
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** She found the boy at the well and told him the water was foul and not to drink it. He was thirsty and drank anyway. She knows what bad water does, but her remedy is the old one: the boy needs a cleansing rite, not a doctor.
 - **Gives:** [`pawelek-got-it-from-water`](../clues/clues.md#pawelek-got-it-from-water); [`hag-warned-pawelek`](../clues/clues.md#hag-warned-pawelek); [`pawelek-needs-a-cleansing-ritual`](../clues/clues.md#pawelek-needs-a-cleansing-ritual)
 
 ### Ask her about the rites
 - **Requires:** Language
 - **Prompted by:** [hag-tends-the-well](../clues/clues.md#hag-tends-the-well)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** She tells them the dead here were never laid to rest and will not settle. She tends them so the unquiet does not spread.
 - **Gives:** [spirits-are-restless](../clues/clues.md#spirits-are-restless)
 
 ### Ask her about the spirits
 - **Requires:** Language and Bond with Paraskewia Chyłak
 - **Prompted by:** [spirits-are-restless](../clues/clues.md#spirits-are-restless)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** With trust earned, she tells the truth of what happened here: in 1947 the whole village was killed in a single act of violence. They did not leave. They were massacred.
 - **Gives:** [army-massacred-civilians-in-1947](../clues/clues.md#army-massacred-civilians-in-1947)
 
 ### Ask her how it happened
 - **Requires:** Language and Bond with Paraskewia Chyłak
 - **Prompted by:** [army-massacred-civilians-in-1947](../clues/clues.md#army-massacred-civilians-in-1947)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** She tells it as she saw it. The soldiers came to drive the village out; the people would not go; their officer was shot dead in the struggle; and the soldiers turned in their fury and killed everyone. No one ever came after. No reckoning, no record, the dead left unnamed. The army buried its own crime and called the village empty.
 - **Gives:** [`massacre-was-retribution`](../clues/clues.md#massacre-was-retribution); [`massacre-was-covered-up`](../clues/clues.md#massacre-was-covered-up)
 
 ### Where the partisans hid
 - **Requires:** Language and Bond with Paraskewia Chyłak
 - **Prompted by:** [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** With trust earned, she tells them of the dugout deep in the forest northwest, the one she knew in the war years, where she used to meet a man called [Dmytro](../characters/dmytro-kosach.md). She still knows the way to its hidden mouth exactly.
 - **Gives:** aware:locations/upa-bunker.md
 
 ### Convince her the villagers are friendly
 - **Requires:** Language, and Speech or Empathy
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** You persuade her the committee and the village mean her no harm. She lowers her guard and will speak with you again.
 - **Gives:** NPC State Change: Paraskewia stops believing the village is hostile; her actions and nightly rite resume (see [Hostility](#hostility)).
 

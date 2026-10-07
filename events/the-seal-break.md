@@ -49,13 +49,11 @@
 
 ### Let him finish
 - **Requires:** Nothing
-- **Cost:** Free
 - **Outcome:** He names the full lynch account and the shape of 1947 beneath it in front of the surviving village.
 - **Gives:** World State Change: the guilty drown unabsolved and [The Odpust](the-odpust.md) is foreclosed
 
 ### Carry the testimony out
 - **Requires:** A player present survives the flood and has the [ledgers](../story-facts/the-committee.md) or another way to file
-- **Cost:** Free
 - **Outcome:** The player carries the public testimony into [the report](../story-facts/the-committee.md).
 - **Gives:** World State Change: the report is armed with the full account and the property ledger's field 3 is corroborated
 

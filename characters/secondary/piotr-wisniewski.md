@@ -8,6 +8,7 @@
 
 ## Vital Statistics
 
+- **Status:** Resident
 - **Age in 1967:** ~20-25
 - **Works at:** PGR farm labor
 

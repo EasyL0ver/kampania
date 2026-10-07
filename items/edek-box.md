@@ -22,6 +22,6 @@ A wooden box thick with years of dust, untouched in the attic long before Janina
 ### Try the key in the lock
 - **Requires:** Holding the box; a door of [Janina's house](../locations/ciotkas-house.md)
 - **Prompted by:** [ciotka-is-dead](../clues/clues.md#ciotka-is-dead)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The key will not turn the newer lock. But the old, pitted lock below it — the door's original — takes the key and turns cleanly. It was cut for this house. The box it sat in is thick with undisturbed dust, set aside long before her time.
 - **Gives:** [edek-box-key-fits-house](../clues/clues.md#edek-box-key-fits-house)

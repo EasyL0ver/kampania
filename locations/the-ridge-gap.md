@@ -28,7 +28,7 @@
 ### Examine the fill at the toe
 - **Requires:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap); reaching the foot of the plug (no climb)
 - **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), [gap-may-seep](../clues/clues.md#gap-may-seep)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Scramble to the base of the plug and dig into it. From a distance the fill looks like loose rubble the water would run straight through; up close it is dense clay and shattered rock packed tight, impermeable. This settles only whether the plug leaks, not whether the water level can rise over it (that is the crest sill, which needs the climb).
   - **Geology:** reads the fill directly and confirms it will not pass water at flood pressure.
 - **Gives:** [gap-fill-examined](../clues/clues.md#gap-fill-examined)

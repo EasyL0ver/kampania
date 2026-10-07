@@ -36,13 +36,12 @@ The State Agricultural Farm: fields, barns, livestock pens, tool shed.
 
 ### Inspect the farm books
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The farm books show mostly ordinary farm spending, plus Tadeusz Mazur listed as a current worker drawing wages with no work logs for the past two years.
 - **Gives:** [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent); Item: [worker registry](../items/pgr-ledger.md); Item: [expense journal](../items/pgr-expenses.md)
 
 ### Talk to Michał Pytlak
 - **Requires:** [Michał Pytlak](../characters/foreman.md) present
-- **Cost:** Free
 - **Outcome:** Talking to Michał is a character interaction. See his [character actions and opportunities](../characters/foreman.md#opportunities): "Talk to him about the flood" (gives [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain)), the Empathy opportunity "The ditch shames him" (gives [ditch-not-built-to-spec](../clues/clues.md#ditch-not-built-to-spec)).
 
 ### Walk the irrigation ditch
@@ -53,13 +52,12 @@ The State Agricultural Farm: fields, barns, livestock pens, tool shed.
 
 ### Talk to Barbara Kopacz
 - **Requires:** [Barbara Kopacz](../characters/barbara.md) present during working hours
-- **Cost:** Free
 - **Outcome:** Barbara answers questions about work, refuses to discuss Pawełek Kopacz's father, and becomes slightly more willing to speak if treated kindly.
 - **Gives:** NPC State Change: Barbara Kopacz becomes more open to future contact, including access to [Stefania Kopacz](../characters/babcia.md).
 
 ### Offer to help with farm work
 - **Requires:** Nothing
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The committee works alongside the farm workers.
 - **Gives:** NPC State Change: Michał Pytlak and the workers treat the committee as useful labour; World State Change: village outskirts survey trips are reduced by 1.
 

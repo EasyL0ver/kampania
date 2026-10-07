@@ -44,45 +44,42 @@ A worn canvas roll of survey tools: a level and clinometer with its graduated ro
 ### Read the report
 - **Requires:** Holding the kit
 - **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
-- **Cost:** Free
 - **Outcome:** Buried in the text, the crew note the river shifted its bed since the map was drawn, then wave it off as unimportant. The shift is real even if they dismissed it.
 - **Gives:** [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map)
 
 ### Read the maps
 - **Requires:** Holding the kit
-- **Cost:** Free
 - **Outcome:** The master plan carries the flood-line figure, and the Solina station index lists a %NEW_VILLAGE% datum benchmark (St. 41). The flood line staked across the valley is the dam builders' work, tied to their reservoir survey, not the resettlement crew's.
 - **Gives:** [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders)
 
 ### Read it as a surveyor
 - **Requires:** Holding the kit and **Geology**
 - **Prompted by:** [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The report shows impossibly few field stations, cursory coverage, and the ditch taken on faith from its concrete head. On the paper alone the survey looks thin, well short of real fieldwork.
 - **Gives:** [original-report-is-thin](../clues/clues.md#original-report-is-thin)
 
 ### Read the dam-survey index
 - **Requires:** Holding the kit and **Geology**
 - **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
-- **Cost:** Free
 - **Outcome:** A layman sees a dull list of station numbers. A surveyor reads it: the Solina survey set benchmarks across the valley, the far-ridge streambed col among them (St. 40) with the village datum (St. 41), so the dam builders already shot this outlet. The index points to an elevation sheet for the figures, but that sheet is not in the dossier: the survey happened, the results are missing.
 - **Gives:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
 
 ### Read the figures as a surveyor
 - **Requires:** Holding the kit and [streambed-parameters](../clues/clues.md#streambed-parameters), and **Geology**
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Against the kit's drainage tables you read the two elevations and conclude the col sits above house level, so the rising water tops the village before it reaches the streambed.
 - **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 
 ### Run the drainage tables on the ditch head
 - **Requires:** Holding the kit and [concrete-ditch-measurements](../clues/clues.md#concrete-ditch-measurements), and **Geology**
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** You run the concrete head's cross-section against the drainage tables. The channel of ample capacity carries the flood clear: on these figures the ditch drains fine. It is the same all-clear the report gives, and it is a trap. The sum covers only the concrete stretch at the head, not the earth dugout below. A party that has not walked the full length and measured the dugout has no cause to doubt it and will cross the ditch off.
 - **Gives:** [ditch-drains-fine](../clues/clues.md#ditch-drains-fine)
 
 ### Recalculate the whole ditch
 - **Requires:** Holding the kit and [concrete-ditch-measurements](../clues/clues.md#concrete-ditch-measurements) and [dugout-measurements](../clues/clues.md#dugout-measurements), and **Geology**
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** With both cross-sections in hand, the concrete head and the shallow earth dugout, you run the tables over the real channel, not just the head. The undersized dugout backs up and overflows at flood volume. The ditch cannot carry the water off, and the head-only figure was a false all-clear.
 - **Gives:** [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing)
 

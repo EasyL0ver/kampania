@@ -53,13 +53,13 @@
 
 ### Follow the drag trail
 - **Requires:** Found the empty coffin and the trail.
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The trail reaches the well in [%OLD_VILLAGE%](../locations/old-village-ruins.md); a shawl or shoe is caught on the stone; Rezeń's tracks lead back to [his house](../locations/butchers-house.md).
 - **Gives:** [`ciotka-body-taken`](../clues/clues.md#ciotka-body-taken)
 
 ### Confront Rezeń
 - **Requires:** Caught him at the church, or tracked the body to him.
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Rezeń does not deny taking the body. He says the flood left Janina unburied, the body was turning, and the well is where he put her.
 - **Gives:** [`rezen-fed-ciotka-to-well`](../clues/clues.md#rezen-fed-ciotka-to-well); NPC State Change: village suspicion of Rezeń hardens if this becomes public; Ending Progress: Punishment / mob-justice ending against Rezeń advances
 

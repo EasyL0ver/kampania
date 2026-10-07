@@ -34,13 +34,12 @@
 
 ### Let the sermon stand
 - **Requires:** Nothing
-- **Cost:** Free
 - **Outcome:** The sermon lands on the whole congregation and becomes part of the night's violence.
 - **Gives:** World State Change: the mob-justice pressure rises toward [The Lynch](punishment-lynch.md)
 
 ### Challenge the judgment reading
 - **Requires:** A player publicly pushes mercy or restraint after Mass.
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The challenge gives ks. Pająk and the parish a visible alternative to judgment.
 - **Gives:** Ending Progress: +1 to the [Faith in Redemption](../story-facts/spiritual-endings.md) score
 

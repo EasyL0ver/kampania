@@ -42,13 +42,12 @@
 
 ### Open the door
 - **Requires:** Present in the house when the fight starts
-- **Cost:** Free
 - **Outcome:** The argument stops immediately; Zbigniew restores his public mask and Irena physically places herself between him and the players.
 - **Gives:** NPC State Change: Irena shifts from investigator to protector; her parallel investigation closes and Marek is pulled home
 
 ### Approach Irena afterward
 - **Requires:** Overheard or interrupted the fight; catch Irena alone afterward
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Irena confirms by behavior that her cooperation is over and that she will keep Zbigniew silent and protected.
 - **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband); World State Change: Irena's cooperation ends and her parallel leads dry up
 

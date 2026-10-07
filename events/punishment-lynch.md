@@ -57,13 +57,11 @@
 
 ### Feed Zbigniew to the mob
 - **Requires:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband) or other proof Zbigniew was one of the killers.
-- **Cost:** Free
 - **Outcome:** The crowd's aim swings toward Zbigniew at the office.
 - **Gives:** World State Change: Zbigniew enters [Dudka's targeting score](../characters/neighbour.md#lynch-targets) high; World State Change: the leash on [Rezeń](../characters/butcher.md) is cut
 
 ### Turn the aim onto a perpetrator
 - **Requires:** Proof that points at Rezeń, a sibling, Helena, or a breaking Zbigniew.
-- **Cost:** Free
 - **Outcome:** The crowd accepts a guilty target and carries that target to the well.
 - **Gives:** World State Change: the lynch completes on a perpetrator; Ending Progress: Punishment / mob-justice ending advances
 
@@ -87,7 +85,6 @@
 
 ### Let it run
 - **Requires:** Nothing
-- **Cost:** Free
 - **Outcome:** The mob goes to the well and the target from [Dudka's targeting score](../characters/neighbour.md#lynch-targets) goes in.
 - **Gives:** World State Change: the lynch completes; Ending Progress: Punishment / mob-justice ending advances
 

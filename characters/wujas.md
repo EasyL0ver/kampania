@@ -9,6 +9,7 @@ Tadek Gajda, the sołtys's brother and the village drunk, rarely without a bottl
 
 ## Vital Statistics
 
+- **Status:** Resident
 - **Born:** 1925
 - **Age in 1967:** 42
 - **Lives in:** [Bimber still](../locations/bimber-still.md) area / drifts between siblings' homes
@@ -58,50 +59,46 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 
 ### Get shitfaced with Tadek
 - **Requires:** [drinking buddy](#drinking-buddy)
-- **Cost:** 2 actions; 1 composure
+- **Cost:** 2 time + 1 composure
 - **Outcome:** The committee drinks Tadek past the point of guard. He gets loud, then maudlin, and grief for a woman he won't name slips out before he can catch it.
 - **Gives:** [`wujas-misses-someone`](../clues/clues.md#wujas-misses-someone)
 
 ### Ask about the butcher
 - **Requires:** [drinking buddy](#drinking-buddy)
 - **Prompted by:** aware:characters/butcher.md
-- **Cost:** Free
 - **Outcome:** Loose with drink, Tadek remembers [Rezeń](butcher.md) sitting in on the crew's sessions years back, bottle in hand like any of them. Then one day he just stopped, and never came back to the fire.
 - **Gives:** [`butcher-used-to-drink-with-the-crew`](../clues/clues.md#butcher-used-to-drink-with-the-crew)
 
 ### Leverage — the bimber play, first visit
 - **Requires:** Players have discovered the [bimber still](../locations/bimber-still.md)
-- **Cost:** Free
 - **Outcome:** He is relieved that the players are only pressing him about the still. He gives gossip, complaints, and minor dirt.
 - **Gives:** NPC State Change: Tadek owes the players and will keep talking if they return.
 
 ### Leverage — the bimber play, second visit
 - **Requires:** First leverage visit completed and well influence active
-- **Cost:** Free
 - **Outcome:** The bottle is not working, and half-sentences slip out around Hania before he catches himself.
 - **Gives:** [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
 
 ### Leverage — the bimber play, third visit
 - **Requires:** Second leverage visit completed
-- **Cost:** Free
 - **Outcome:** He can no longer hold the story together.
 - **Gives:** Scene Unlock: [event-wujas-cracks](../events/wujas-cracks.md)
 
 ### Census interview
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He gives his name and age, reaches for the bottle, and tries to end the questions quickly.
 - **Gives:** Census data — Tadek Gajda, no fixed household.
 
 ### Property assessment
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He says he owns nothing and drifts between siblings' kitchens and the still.
 - **Gives:** Property record — Tadek holds no property, dependent on family.
 
 ### Get Pawełek the penicillin
 - **Requires:** [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin); [wujas-is-paweleks-father](../clues/clues.md#wujas-is-paweleks-father)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Faced with the sick boy being his own, Tadek goes to his sister [Helena](matrona.md). She opens the cabinet for her brother and counts out a child's course, and no census changes hands.
 - **Gives:** Item: penicillin (a child's course).
 

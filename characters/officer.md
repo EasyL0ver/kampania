@@ -8,10 +8,10 @@ por. Witold Skowron, an official from outside the village who arrives by car on 
 
 ## Vital Statistics
 
+- **Status:** Outsider
 - **Born:** 1928
 - **Age in 1967:** 39
-- **Lives in:** Outside %NEW_VILLAGE% — arrives by car, doesn't stay
-- **Settled:** Not settled — visits on state business
+- **Based in:** Outside %NEW_VILLAGE% — arrives by car, doesn't stay
 
 ## Character
 

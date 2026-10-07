@@ -22,6 +22,6 @@
 ## Actions — Drink with the crew
 
 - **Requires:** Drink or Alcoholic; crew present (outside the [store](../../locations/the-store.md) or at the [still](../../locations/bimber-still.md)) or an invitation from Tadek; the crew is not [Hostile](#mechanics--hostile)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The committee buys a round and shares a full session in the drinking circle. Tadek warms to whoever kept pace without judging him.
 - **Gives:** NPC State Change: the drinking PCs become Tadek's [drinking buddies](../wujas.md#drinking-buddy)

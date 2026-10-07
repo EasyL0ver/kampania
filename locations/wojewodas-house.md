@@ -34,6 +34,6 @@ Zbigniew Gajda's family home, the largest house in %NEW_VILLAGE%.
 
 ### Visit the family
 - **Requires:** Nothing
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Irena serves tea, Marek shows off if present, and Tadek is tolerated if present.
 - **Gives:** NPC State Change: Irena Gajda can become available for a separate conversation path if trust is built.

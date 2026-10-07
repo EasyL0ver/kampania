@@ -50,37 +50,37 @@
 
 ### Back Zbigniew's line
 - **Requires:** Form A and players standing with Zbigniew.
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Players reinforce his framing: there is a plan, the state will help, and people must move in order.
 - **Gives:** World State Change: the disclosure lands as orderly evacuation footing
 
 ### Tell the whole truth
 - **Requires:** Being heard by the crowd.
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** A player says the state knew the danger and reassured the village anyway.
 - **Gives:** World State Change: the disclosure curdles toward panic and every-family-for-itself; NPC State Change: [Dudka](../characters/neighbour.md) becomes dangerous
 
 ### Face the crowd with a plan
 - **Requires:** Form B, or the truth has already broken in Form A; a credible evacuation route, army rescue, or place to send people.
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Players take the anger and give the crowd logistics instead of blame.
 - **Gives:** World State Change: fear turns toward movement; World State Change: the crowd remains angry but usable for evacuation
 
 ### Face the crowd without a plan
 - **Requires:** Form B, or the truth has already broken in Form A; no credible route or deliverable promise.
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Players admit the lie or redirect blame without offering safety.
 - **Gives:** World State Change: anger settles on the players, Zbigniew, or the distant state; World State Change: risk of violence against the players rises
 
 ### Force Zbigniew to answer the crowd
 - **Requires:** Form B and players aim responsibility at the sołtys.
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The crowd's question turns onto Zbigniew.
 - **Gives:** NPC State Change: [Zbigniew Gajda](../characters/wojewoda.md) becomes an open antagonist toward the players; World State Change: heat splits off the players if the move lands, or returns to them harder if it fails
 
 ### Calm it down
 - **Requires:** A credible way out: evacuation plan, the [phone line to the army](operator-refuses-help.md), or somewhere people can go.
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Players turn the gathering into evacuation logistics: who goes first, where people muster, and when they move.
 - **Gives:** World State Change: the scene resolves toward evacuation footing instead of riot
 

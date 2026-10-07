@@ -29,7 +29,6 @@ Behind the PGR main building: the stołówka and barracks.
 
 ### Eat and listen
 - **Requires:** Nothing
-- **Cost:** Free
 - **Outcome:** The committee eats with workers and hears current village talk based on game state.
 - **Gives:** NPC State Change: Zofia Pytlak and farm workers become more willing to speak during future meals.
 
@@ -41,6 +40,6 @@ Behind the PGR main building: the stołówka and barracks.
 
 ### Help in the kitchen
 - **Requires:** Nothing
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The committee peels potatoes, hauls water, or chops wood with Zofia.
 - **Gives:** NPC State Change: Zofia Pytlak and farm workers see the committee as useful rather than only official.

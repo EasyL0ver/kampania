@@ -9,6 +9,7 @@ Stanisław Rezeń, the village butcher and widely avoided pariah, lives alone be
 
 ## Vital Statistics
 
+- **Status:** Resident
 - **Born:** 1921
 - **Age in 1967:** 46
 - **Heritage:** Polish local from a neighbouring Bieszczady village
@@ -47,38 +48,36 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 
 ### Census interview
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He gives his name and age, then turns questions back on the interviewer with a grin.
 - **Gives:** Census data — Stanisław Rezeń, name and age only; remaining fields blank.
 
 ### Property assessment
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He refuses assessment and tells the committee to mind the dogs. If pushed, the dogs stand up.
 - **Gives:** Property record — refusal logged; property remains unassessed.
 
 ### Offer him a Carmen
 - **Requires:** Rezeń present; a Carmen to offer (the [store](../locations/the-store.md#buy-cigarettes) stocks them)
-- **Cost:** Free
 - **Outcome:** He waves your pack away with a grin and lights one of his own Carmen, or takes yours as his brand, and makes a small show of it either way. Offer him a cheap Sport instead and you learn nothing: he just refuses it, he does not smoke that.
 - **Gives:** [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen)
 
 ### Offer him a drink
 - **Requires:** Rezeń present; a bottle or drink to offer
-- **Cost:** Free
 - **Outcome:** He waves the bottle off without a second look, no grin, no banter, just a flat refusal. He does not drink, and he does not explain it.
 - **Gives:** [butcher-doesnt-drink](../clues/clues.md#butcher-doesnt-drink)
 
 ### Ask about Edek smoking
 - **Requires:** Rezeń present
 - **Prompted by:** [edek-has-carmen-cigarette](../clues/clues.md#edek-has-carmen-cigarette)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He laughs it off, warm and easy: the boy does not smoke, cannot even drag on one without coughing himself sick. He gave Edek a Carmen anyway, a boy has got to learn, and he talks about the lad like a fond nephew without ever noticing anything wrong in it.
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)
 
 ### Ask about the Carmen cigarette
 - **Requires:** Players have the [butts](../items/cigarette-butts-from-ciotkas.md) or the [cigarette from Edek's room](../locations/ciotkas-house.md#search-edeks-room)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** No dodge, no worry. He shrugs and admits he gave the boy one, a boy has got to learn. He talks about Edek warmly, like a nephew, and never once notices anything wrong with the fondness. He does not care that it places him near the door.
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)
 

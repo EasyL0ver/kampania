@@ -9,6 +9,7 @@ Zbigniew Gajda, the village sołtys and principal official, received at his hous
 
 ## Vital Statistics
 
+- **Status:** Resident
 - **Born:** 1920
 - **Age in 1967:** 47
 - **Heritage:** Lemko hidden behind Polish identity
@@ -66,88 +67,83 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 
 ### Census interview
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He gives the whole household's details himself.
 - **Gives:** Census data — Zbigniew, [Irena](wife.md), [Marek](junior.md).
 
 ### Ask for the village household roster
 - **Requires:** Committee authority
 - **Prompted by:** [committee-fills-census](../clues/clues.md#committee-fills-census)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** As the committee's point of contact, he runs down who lives where. Among the households he names his sister [Janina Gajda](ciotka.md), the widow who keeps the best house at the edge of the village and cares for the boy, living apart from the rest. He also names [Ryszard Dudka](neighbour.md), the neighbour whose house sits between Janina's and Barbara's, and the Rzepka household, where [Emil Rzepka](painter.md), the local painter, lives with his wife.
 - **Gives:** aware:characters/ciotka.md; aware:characters/neighbour.md; aware:characters/painter.md
 
 ### Property assessment
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He names his house and land and says the papers are in order.
 - **Gives:** Property record — sołtys's house, clean title.
 
 ### Ask for the maps
 - **Requires:** Flood proof shared
-- **Cost:** Free
 - **Outcome:** He hands over the maps because saving the village matters more than hiding the old terrain.
 - **Gives:** Item: maps useful for survey and old village navigation.
 
 ### Tell with geological proof
 - **Requires:** Players have completed survey at the village outskirts / field measurements
-- **Cost:** Free
 - **Outcome:** He believes it, loses his temper, then pulls himself back into command.
 - **Gives:** NPC State Change: Zbigniew becomes an urgent partner; World State Change: the census accelerates; [Michał Pytlak](foreman.md) receives the flood-defense order.
 
 ### Tell him about the flood risk
 - **Requires:** Holding [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
-- **Cost:** Free
 - **Outcome:** The committee raises the risk without proof: the flood line may be wrong, the valley may not drain. Zbigniew does not need convincing to act careful. He immediately calls for [Michał Pytlak](foreman.md) and, telling him the warning, orders him to put the farm, his men, and himself at the committee's disposal.
 - **Gives:** NPC Learns: foreman: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated); World State Change: farm labour and flood-defence work are at the committee's disposal.
 
 ### Convince him to reveal the flood
 - **Requires:** Flood proof shared (["Tell with geological proof"](#tell-with-geological-proof) done), a way out such as an evacuation plan, army rescue, or the [phone line cracked](../events/operator-refuses-help.md), and [Bond](#bond)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The players give him a version of disclosure he can lead: public alarm with a plan. He decides the village must be told by him.
 - **Gives:** NPC State Change: Zbigniew owns the disclosure and shields the players through the backlash; Scene Unlock: public announcement and evacuation.
 
 ### Force the disclosure — the ultimatum
 - **Requires:** Players hold the flood proof
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** They corner him with proof and a public threat. He agrees to disclose the flood on his own terms.
 - **Gives:** NPC State Change: Zbigniew complies on his terms and sets a grudge; Scene Unlock: public announcement without his protection.
 
 ### Ask about the old village
 - **Requires:** Nothing
 - **Prompted by:** aware:locations/old-village-ruins.md
-- **Cost:** Free
 - **Outcome:** He treats it as nothing worth the committee's time: there was a village up the valley once, cleared out in '47 with the rest of the range, Akcja Wisła, the people sent west. Old history, he says, no bearing on the flood or the census. He does not guard it; he just does not see why they care.
 - **Gives:** [`old-village-resettled-during-vistula`](../clues/clues.md#old-village-resettled-during-vistula)
 
 ### Ask about Barbara's house
 - **Requires:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He says the house is the farm's on paper, built with PGR brick and labour for a young mother with no one to lean on.
 - **Gives:** [`barbara-has-help`](../clues/clues.md#barbara-has-help)
 
 ### Ask about Janina's house
 - **Requires:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway
 - **Prompted by:** [ciotka-house-is-wojewodas](../clues/clues.md#ciotka-house-is-wojewodas)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He says the house was abandoned, left to the state, and administered by the farm; he put Janina in it because she keeps the boy and the place.
 - **Gives:** [`ciotka-house-is-pgrs`](../clues/clues.md#ciotka-house-is-pgrs)
 
 ### Show the paperwork for Janina's house
 - **Requires:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway + [house-belonged-to-edward-senior](../clues/clues.md#house-belonged-to-edward-senior) + [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He produces the file and lets them read the 1954 declaration with [Edward Barnaś](soldier.md)'s signature. He keeps the document in his hands; see [Edward Barnaś's Departure Declaration](../items/barnas-departure-declaration.md).
 - **Gives:** Item / Evidence: the players have seen the declaration and know where it is kept; [`soldier-left-his-house-for-state`](../clues/clues.md#soldier-left-his-house-for-state); [`ciotka-moved-in-after-they-were-gone`](../clues/clues.md#ciotka-moved-in-after-they-were-gone)
 
 ### Report the bimber still
 - **Requires:** Players have discovered the [bimber still](../locations/bimber-still.md)
-- **Cost:** Free
 - **Outcome:** He says he will handle it and shows no surprise.
 - **Gives:** [`bimber-still`](../clues/clues.md#bimber-still)
 
 ### Confront him about Mazur's pension
 - **Requires:** Holding [mazur-death-covered-up](../clues/clues.md#mazur-death-covered-up)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He goes still and quiet, then does not deny it. In his mind there is nothing to deny: a man died on the farm, the state would have cut his widow off, so he kept the wage flowing and called it a pension. He lays it out as order and mercy, not crime, and names it as his decision and Michał's doing. He warns that filing it destroys Wanda for nothing.
 - **Gives:** NPC State Change: Zbigniew now knows the committee has the coverup and sets a grudge.
 

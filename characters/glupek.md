@@ -8,6 +8,7 @@ Edek Barnaś, Janina Gajda's large, simple-minded son and dependent.
 
 ## Vital Statistics
 
+- **Status:** Resident
 - **Born:** 1950
 - **Age in 1967:** 17
 - **Parents:** [Edward Barnaś](soldier.md) and [Marta Konieczna](marta-konieczna.md), both killed in the 1954 lynch
@@ -45,38 +46,34 @@ His voice is surprisingly soft for his size. Kindness reaches him after a pause,
 
 ### Talk to Edek
 - **Requires:** [Janina Gajda](ciotka.md) present, or Edek found alone outside
-- **Cost:** Free
 - **Outcome:** He answers in short, simple sentences. He can give his routines, likes, dislikes, and basic memories of living with Janina.
 - **Gives:** NPC State Change: Edek warms to kind players; aware:characters/glupek.md
 
 ### Ask Edek about his mother
 - **Requires:** Players talk to him directly
-- **Cost:** Free
 - **Outcome:** He calls Janina "auntie," not mother. When asked about his real parents, he says he has only ever had his aunt.
 - **Gives:** [`ciotka-adopted-glupek`](../clues/clues.md#ciotka-adopted-glupek)
 
 ### Ask Edek about the cigarette
 - **Requires:** Players found the [Carmen cigarette in his corner](../locations/ciotkas-house.md#search-edeks-corner); talk to him directly
-- **Cost:** Free
 - **Outcome:** He brightens and says the butcher gave it to him. Rezeń ruffles his hair and slips him food and little presents. Edek keeps the cigarette but never lights it. He does not understand why the same man makes him freeze when the dogs bark.
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)
 
 ### Ask Edek about the butcher
 - **Requires:** Players talk to him directly
 - **Prompted by:** aware:characters/glupek.md
-- **Cost:** Free
 - **Outcome:** He goes quiet and small. He says the butcher's dogs make him hide, and when Rezeń passes he cannot move. He does not know why.
 - **Gives:** [`glupek-fears-butcher`](../clues/clues.md#glupek-fears-butcher)
 
 ### Census interview
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He gives short, willing answers: his name and that he lives with his aunt. If asked his age, he looks to Janina.
 - **Gives:** Census data — Edek Barnaś, in Janina Gajda's household.
 
 ### Property assessment
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He does not understand the question. He says it is his aunt's house.
 - **Gives:** Property record — no property held; dependent in [Janina's house](../locations/ciotkas-house.md).
 

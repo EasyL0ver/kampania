@@ -41,13 +41,11 @@
 
 ### Get the timing out of her
 - **Requires:** Nothing
-- **Cost:** Free
 - **Outcome:** [Barbara Kopacz](../characters/barbara.md) confirms the men gathered tonight, the rifle is gone, and [Ryszard Dudka](../characters/neighbour.md) is not at the fence.
 - **Gives:** Scene Unlock: [the lynch](punishment-lynch.md) with advance warning before nightfall.
 
 ### Send her home / keep her clear
 - **Requires:** Nothing
-- **Cost:** Free
 - **Outcome:** [Barbara Kopacz](../characters/barbara.md) goes home, locks the door, and keeps [Pawełek Kopacz](../characters/pawelek.md) inside.
 - **Gives:** NPC State Change: [Barbara Kopacz](../characters/barbara.md) stays clear of [the lynch](punishment-lynch.md).
 

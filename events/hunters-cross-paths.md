@@ -35,14 +35,13 @@ A rifleman confronting a knife-wielding hunter as dogs scatter through the clear
 
 ### Get between them
 - **Requires:** A player steps into the gap or clearly orders both men down
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The standoff ends before blood is drawn; Rezeń pockets the knife and Dudka is denied the public humiliation of losing to him.
 - **Gives:** World State Change: Dudka and Rezeń are separated with no one hurt; [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
 
 ### Let it burn
 - **Requires:** The players choose not to intervene
 - **Prompted by:** [dudka-despises-rezen](../clues/clues.md#dudka-despises-rezen)
-- **Cost:** Free
 - **Outcome:** Rezeń ends the standoff by mocking Dudka for failing to stop him in the past; Dudka is publicly humiliated and Rezeń leaves with his dogs.
 - **Gives:** [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous), [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen), [`rezen-mocks-an-old-failure`](../clues/clues.md#rezen-mocks-an-old-failure); NPC State Change: [Dudka](../characters/neighbour.md) is Humiliated; Ending Progress: Dudka moves closer to the [lynch ending](punishment-lynch.md)
 

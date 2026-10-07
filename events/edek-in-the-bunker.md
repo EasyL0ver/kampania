@@ -37,32 +37,32 @@
 ### Reach him
 - **Requires:** aware:locations/upa-bunker.md; approach alone, without crowding or raised voices
 - **Prompted by:** [`edek-ran-to-upa-bunker`](../clues/clues.md#edek-ran-to-upa-bunker)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He goes still and lets the players near. He knows his aunt is dead and will not say her name. He calms enough to be spoken to and led.
 - **Gives:** NPC State Change: [Edek Barnaś](../characters/glupek.md) is calmed and will talk; Scene Unlock: [Coax what Janina told him](#coax-what-janina-told-him), [Take him to the priest](#take-him-to-the-priest), [Take him to Helena](#take-him-to-helena).
 
 ### Coax what Janina told him
 - **Requires:** Edek calmed (see [Reach him](#reach-him)); **Empathy**
 - **Prompted by:** [`edek-ran-to-upa-bunker`](../clues/clues.md#edek-ran-to-upa-bunker)
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** In broken fragments he gives up what his aunt told him before she died: the village killed his father, and he is what is left of it. Saying it breaks him again.
 - **Gives:** [`ciotka-told-edek-the-truth`](../clues/clues.md#ciotka-told-edek-the-truth)
 
 ### Take him to the priest
 - **Requires:** Edek calmed (see [Reach him](#reach-him))
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Named the priest, or led toward the church, he follows. [ks. Władysław Pająk](../characters/priest.md) takes him in and hides him in the [rectory](../locations/the-rectory.md) cellar.
 - **Gives:** World State Change: [Edek Barnaś](../characters/glupek.md) is sheltered at the priest's (see [Shelter](../characters/glupek.md#shelter)).
 
 ### Take him to Helena
 - **Requires:** Edek calmed (see [Reach him](#reach-him)); committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Led under committee authority, he follows to [Helena Rzepka](../characters/matrona.md)'s. She takes the living evidence into her own keeping.
 - **Gives:** World State Change: [Edek Barnaś](../characters/glupek.md) is sheltered at Helena's (see [Shelter](../characters/glupek.md#shelter)).
 
 ### Force him out
 - **Requires:** Present at the bunker
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** Grabbed, cornered, or driven, he panics in the tight flooded cut, breaks past into the dark lower tunnels, and does not come back up.
 - **Gives:** World State Change: [Edek Barnaś](../characters/glupek.md) dies in the bunker.
 

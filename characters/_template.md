@@ -14,6 +14,12 @@
 
 ## Vital Statistics
 
+<!-- Status decides which fields are required (checked by validate.py):
+     Resident — Born, Age in 1967, Lives in (a locations/ link), Settled
+     Outsider — Born, Age in 1967, Based in (free-text place, e.g. "Kraków"); no Lives in / Settled
+     Dead     — Born, Died, Lived in; no Age in 1967 / Lives in / Settled -->
+
+- **Status:** [Resident / Outsider / Dead]
 - **Born:** [year]
 - **Age in 1967:** [age]
 - **Heritage:** [Polish / Lemko / Half-Lemko / etc. — omit if irrelevant]
@@ -28,7 +34,8 @@
 
 ## Appearance
 
-<!-- 3–4 bullet points. Each character must cover:
+<!-- Required for Resident; optional for Outsider and Dead (e.g. a photograph, a memory).
+     3–4 bullet points. Each character must cover:
      - **Clothes:** What they wear day-to-day (fabric, condition, style)
      - **Hair & face:** Hairstyle, facial hair, distinguishing facial features
      - **Carriage:** Posture, gestures, presence — how they move and take up space
@@ -111,13 +118,13 @@
 
 ### Census interview
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** [1-2 sentences — their answer / tell / refusal, nothing else]
 - **Gives:** Census data — [who]. [+ clue-id if any]
 
 ### Property assessment
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** [1-2 sentences — their answer / tell / refusal, nothing else]
 - **Gives:** Property record — [what]. [+ clue-id if any]
 

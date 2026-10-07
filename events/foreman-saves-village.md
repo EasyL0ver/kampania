@@ -43,13 +43,13 @@
 
 ### Believe him — commit to the plan
 - **Requires:** Walked the plan or holds survey proof.
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The committee backs [Michał Pytlak](../characters/foreman.md)'s water-gap plan.
 - **Gives:** Ending Progress: the engineering ending is live.
 
 ### Get the explosives from the bunker
 - **Requires:** Committed to the plan and access to the [UPA bunker](../locations/upa-bunker.md).
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** The committee recovers usable old partisan charges from the bunker.
 - **Gives:** Item: [the makeshift charge](../items/makeshift-charge.md), sufficient to breach the plug; Scene Unlock: [Climb the Plug in the Rain](climb-the-plug-in-the-rain.md)
 

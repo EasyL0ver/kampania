@@ -47,32 +47,27 @@
 
 ### Tell him people can be forgiven
 - **Requires:** The player answers his question toward mercy.
-- **Cost:** Free
 - **Outcome:** ks. Pająk steadies. Mercy becomes a possible answer to his crisis.
 - **Gives:** NPC State Change: the Grace arc opens; Ending Progress: +2 to the [Faith in Redemption](../story-facts/spiritual-endings.md) score; [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
 
 ### Ask him what he needs
 - **Requires:** Nothing
-- **Cost:** Free
 - **Outcome:** ks. Pająk says the lost must be brought back to God before the water comes, especially those with the most to answer for.
 - **Gives:** NPC State Change: players know the Grace path requires getting the guilty to confess; [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
 
 ### Push him to name the sin
 - **Requires:** The player presses him to say what he knows.
-- **Cost:** Free
 - **Outcome:** ks. Pająk refuses to betray the confessional and ends the meeting.
 - **Gives:** NPC State Change: his bond with that player cools; Ending Progress: -2 to the [Faith in Redemption](../story-facts/spiritual-endings.md) score
 
 ### Tell him the valley deserves judgment
 - **Requires:** The player answers his question toward condemnation.
-- **Cost:** Free
 - **Outcome:** ks. Pająk leans harder toward judgment.
 - **Gives:** NPC State Change: the Grace path narrows; Ending Progress: -2 to the [Faith in Redemption](../story-facts/spiritual-endings.md) score; [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
 
 ### Share his cigarette
 - **Requires:** ks. Pająk genuinely trusts the player (mercy supported, or a personal confidence shared in return)
 - **Prompted by:** aware:events/priests-plea.md
-- **Cost:** Free
 - **Outcome:** He drops the pretence, takes out a cigarette for himself and offers one to the player. The habit he hides from the village is plain.
 - **Gives:** [`priest-smokes`](../clues/clues.md#priest-smokes)
 

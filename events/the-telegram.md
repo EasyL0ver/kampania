@@ -33,7 +33,6 @@
 
 ### Act on the wire
 - **Requires:** The committee heard the relayed telegram
-- **Cost:** Free
 - **Outcome:** The committee takes the directions as a real lead: under the old garden bed behind the Barnaś house, now [Janina Gajda](../characters/ciotka.md)'s, something is buried.
 - **Gives:** [`telegram-points-to-barnas-yard`](../clues/clues.md#telegram-points-to-barnas-yard)
 

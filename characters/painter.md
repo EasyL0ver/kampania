@@ -8,6 +8,7 @@ Emil Rzepka, Helena's withdrawn husband and a local painter, works in the garden
 
 ## Vital Statistics
 
+- **Status:** Resident
 - **Born:** 1923
 - **Age in 1967:** 44
 - **Lives in:** [Helena Rzepka & Emil Rzepka's house](../locations/matronas-house.md) — with [Helena Rzepka](matrona.md), [Ewa Rzepka](secondary/ewa-rzepka.md), [Krystian Rzepka](secondary/krystian-rzepka.md)
@@ -41,40 +42,36 @@ His hands are the only alive part of him: long-fingered, always stained with cad
 ### Show Emil the dress
 - **Requires:** Holding the [blue dress](../items/girls-dress.md)
 - **Prompted by:** aware:characters/painter.md
-- **Cost:** Free
 - **Outcome:** He goes still, then his stained hands start to shake. He cannot look at it and cannot look away.
 - **Gives:** [`dress-distressed-painter`](../clues/clues.md#dress-distressed-painter)
 
 ### Ask Emil about the portrait
 - **Requires:** [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew) and know Hania's name from another source
 - **Prompted by:** [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew)
-- **Cost:** Free
 - **Outcome:** Emil reacts physically to Hania's name and asks that she be written into the census as someone who lived here.
 - **Gives:** [`painter-wants-to-confess`](../clues/clues.md#painter-wants-to-confess)
 
 ### Census interview
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He answers in a near-whisper, eyes down, and glances at [Helena](matrona.md) before every reply. If she is in the room, she answers for him and he lets her.
 - **Gives:** Census data — Emil Rzepka, painter, in the Rzepka household.
 
 ### Confront Emil with the style shift
 - **Requires:** [painters-style-shifted-to-dark](../clues/clues.md#painters-style-shifted-to-dark)
 - **Prompted by:** [painters-style-shifted-to-dark](../clues/clues.md#painters-style-shifted-to-dark)
-- **Cost:** Free
 - **Outcome:** Told plainly that his work broke in two, the bright years and then the black, Emil stops fighting it. He admits that something happened to him in 1954 that he never came back from.
 - **Gives:** [`emil-traumatised-in-54`](../clues/clues.md#emil-traumatised-in-54)
 
 ### Press Emil on the streambed's detail
 - **Requires:** noticed the streambed canvas as a real place (Geology) or its odd precision (Culture); access to Emil's shed
 - **Prompted by:** aware:characters/painter.md
-- **Cost:** Free
 - **Outcome:** Only a party that has picked out the real detail under the paint can draw him out. Asked about it, Emil warms for a moment. It is a streambed on the far ridge across the valley, a place from before, where the water ran down toward the next basin. He describes the col and the crossing plainly enough that the party could find it. Then he sighs: it was a long time ago, and the water probably does not run like that any more.
 - **Gives:** aware:locations/far-ridge-streambed.md; [`streambed-painting-is-old`](../clues/clues.md#streambed-painting-is-old)
 
 ### Property assessment
 - **Requires:** Committee authority
-- **Cost:** 1 action
+- **Cost:** 1 time
 - **Outcome:** He says the house is Helena's, not his. He states it plainly, like a man used to owning nothing.
 - **Gives:** Property record — Rzepka house, held in Helena's name.
 
