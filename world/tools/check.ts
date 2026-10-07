@@ -2,26 +2,35 @@
 // Code-level rules (control flow, && in a requirement, which tables a getter
 // returns) come from the compiler analysis in analyze.ts, not from source text.
 
-import { Action, Opportunity, SkillRequirement } from "../schema.ts";
-import type { Gives, Requirement, Target } from "../schema.ts";
+import { readdirSync } from "node:fs";
+import { join } from "node:path";
+import { pathToFileURL } from "node:url";
+import { Action, DAY_PARTS, Opportunity, SkillRequirement, WithoutSkillRequirement } from "../schema.ts";
+import type { Day, Event, Gives, Requirement, Target } from "../schema.ts";
 import { analyze } from "./analyze.ts";
-import { loadWorld } from "./load.ts";
+import { loadWorld, ROOT } from "./load.ts";
 import { classify, isMoveTable, lambdasOf, movesOf } from "./model.ts";
 
-const LIMITS = { label: 80, hook: 120, setup: 80, clue: 300, message: 60 };
+const LIMITS = { label: 80, hook: 120, clue: 300, message: 60 };
 
 const w = await loadWorld();
 const a = analyze();
+
+// Moves some condition depends on ("Class.table.move"): an action that gives
+// nothing is allowed only if it exists to unlock one of these.
+const dependedOn = new Set([...a.code.values()].flatMap((c) => c.moves.map((m) => `${m.className}.${m.table}.${m.move}`)));
 const errors: string[] = [];
 const warnings: string[] = [];
+let noNarration = 0;
 
 const isEmptyGives = (g: Gives) =>
-  !g.clues?.length && !g.aware?.length && !g.items?.length && !g.unlocks?.length && !g.effects;
+  !g.clues?.length && !g.aware?.length && !g.items?.length && !g.effects;
 
 // The conditions a requirement sets; exactly one is allowed. A skill
 // requirement's card list is its one condition (any of them will do).
 const conditionsOf = (r: Requirement) =>
-  r instanceof SkillRequirement
+  r instanceof WithoutSkillRequirement ? ["without-skill"]
+  : r instanceof SkillRequirement
     ? (r.skills.length ? ["skills"] : [])
     : (["clues", "aware", "items", "when"] as const).filter((k) =>
         k === "when" ? !!r.when : !!r[k]?.length);
@@ -59,11 +68,10 @@ for (const e of w.entities) {
 for (const e of w.entities) {
   const inst = e.instance as unknown as Record<string, unknown>;
 
-  if (!e.stub && inst.id !== e.file.split("/")[1].replace(/\.ts$/, "")) {
+  if (!e.stub && inst.id !== e.file.split("/").pop()!.replace(/\.ts$/, "")) {
     errors.push(`${e.file}: id "${inst.id}" does not match file name`);
   }
   if (typeof inst.hook === "string") cap(e.ref, "hook", inst.hook);
-  if (Array.isArray(inst.setup)) inst.setup.forEach((s, i) => cap(`${e.ref} setup[${i}]`, "setup", s));
 
   for (const [name, value] of Object.entries(inst)) {
     const cls = classify(name, value);
@@ -77,7 +85,7 @@ for (const e of w.entities) {
     if (!a.code.has(path)) errors.push(`${path}: can't be analysed; write it inline in the move`);
     flow(path);
   }
-  for (const m of ["get actions", "get opportunities", "at", "present"]) flow(`${e.className}.${m}`);
+  for (const m of ["get actions", "get opportunities", "at", "present", "condition"]) flow(`${e.className}.${m}`);
 
   // Every move table must be reachable through a getter.
   const returned = new Set([
@@ -113,12 +121,17 @@ for (const e of w.entities) {
         errors.push(`${rw}: && joins two requirements; split it`);
       }
     });
-    // Actions must change something. Opportunities may be pure atmosphere
-    // (no gives at all), but a gives that is present must not be empty.
-    if (s.gives ? isEmptyGives(s.gives) : m instanceof Action) {
-      errors.push(`${mw}: gives nothing (no empty outcomes; omit gives for atmosphere)`);
+    // Actions must change something, unless another move depends on them (an
+    // action that only opens an opportunity, e.g. "Mention her family").
+    // Opportunities may be pure atmosphere (narration, gives nothing).
+    const gives = s.narrative.gives;
+    const unlocks = m instanceof Action && dependedOn.has(`${e.className}.${table}.${id}`);
+    if (m instanceof Action && isEmptyGives(gives) && !unlocks) {
+      errors.push(`${mw}: gives nothing and no move depends on it (no empty outcomes)`);
     }
-    s.gives?.clues?.forEach((c) => addGiver(w.clueIdOf.get(c)!, mw));
+    // TODO: every move should have narration; for now just counted.
+    if (!s.narrative.narration.length) noNarration++;
+    gives.clues?.forEach((c) => addGiver(w.clueIdOf.get(c)!, mw));
   }
 }
 
@@ -131,13 +144,40 @@ for (const [id, clue] of Object.entries(w.clues)) {
   });
 }
 
+// ---------------------------------------------------------------- calendar
+
+const dayFiles = readdirSync(join(ROOT, "days")).filter((f) => f.endsWith(".ts")).sort();
+const days: Day[] = [];
+for (const f of dayFiles) {
+  const cls = (await import(pathToFileURL(join(ROOT, "days", f)).href)).default as new () => Day;
+  const day = new cls();
+  days.push(day);
+  for (const part of DAY_PARTS) flow(`${cls.name}.${part}`);
+}
+const numbers = days.map((d) => d.number).sort();
+if (numbers.join() !== "1,2,3,4,5,6,7") errors.push(`calendar: days must be 1..7 exactly once, found ${numbers.join(",")}`);
+
+// Every event must be reachable: activated by code (a day, or another event's
+// onFire) or made known to the players by some move (they then go to it).
+const activated = new Set([...a.code.values()].flatMap((c) => c.activates));
+const madeKnown = new Set<unknown>();
+for (const e of w.entities) for (const { move } of movesOf(e)) for (const r of move.spec.narrative.gives.aware ?? []) madeKnown.add(r);
+for (const e of w.entities) {
+  if (e.kind !== "events") continue;
+  const ev = e.instance as Event;
+  if (!ev.hooks.length) errors.push(`${e.ref}: has no hooks`);
+  if (!activated.has(e.className) && !madeKnown.has(e.instance.constructor)) {
+    errors.push(`${e.ref}: unreachable: no day activates it and no move makes the players aware of it`);
+  }
+}
+
 const orphans = Object.keys(w.clues).filter((c) => !givers.has(c));
 
 for (const er of errors) console.log(`ERROR  ${er}`);
 for (const wn of warnings) console.log(`warn   ${wn}`);
 console.log(
   `\n${w.entities.filter((e) => !e.stub).length} entities, ${w.entities.filter((e) => e.stub).length} stubs, ` +
-    `${Object.keys(w.clues).length} clues, ${orphans.length} with no giver in this world:`,
+    `${Object.keys(w.clues).length} clues, ${noNarration} moves without narration, ${orphans.length} clues with no giver in this world:`,
 );
 for (const o of orphans) console.log(`  - ${o}`);
 console.log(`\n${errors.length} errors, ${warnings.length} warnings`);

@@ -25,6 +25,11 @@ export function classify(name: string, value: unknown): FieldClass {
   if (typeof value === "boolean" || typeof value === "number") return "state";
   if (typeof value === "string" && ENUM.test(value)) return "state";   // string enum
   if (value instanceof PerPlayer) return "state";
+  // a reference to an entity class (an event's current `location`), or a list
+  // of them (who is present right now)
+  const isClassRef = (v: unknown) => typeof v === "function" && /^class\b/.test(v.toString());
+  if (isClassRef(value)) return "state";
+  if (Array.isArray(value) && value.every(isClassRef)) return "state";
   return "unknown";
 }
 
@@ -70,10 +75,11 @@ export function lambdasOf(e: Loaded): { path: string; fn: Function }[] {
       if (move.spec.trigger) out.push({ path: `${p}.trigger`, fn: move.spec.trigger });
       if (move.spec.target.when) out.push({ path: `${p}.target.when`, fn: move.spec.target.when });
     }
-    if (move.spec.gives?.effects) out.push({ path: `${p}.gives.effects`, fn: move.spec.gives.effects });
+    const effects = move.spec.narrative.gives.effects;
+    if (effects) out.push({ path: `${p}.narrative.gives.effects`, fn: effects });
   }
   const inst = e.instance as unknown as Record<string, unknown>;
-  for (const name of ["onFire", "ifMissed"]) {
+  for (const name of ["onFire", "resolve"]) {
     if (typeof inst[name] === "function") out.push({ path: `${cls}.${name}`, fn: inst[name] as Function });
   }
   return out;

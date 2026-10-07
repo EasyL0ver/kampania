@@ -28,6 +28,7 @@ const a = analyze();
 
 const entityByCtor = new Map<unknown, Loaded>(w.entities.map((e) => [e.instance.constructor, e]));
 const entityByClass = new Map(w.entities.map((e) => [e.className, e]));
+const clueIdByClass = new Map([...w.clueIdOf].map(([cls, id]) => [(cls as Function).name, id]));
 const cardName = (exportName: string) =>
   (skillCards as Record<string, { name: string }>)[exportName]?.name ?? exportName;
 
@@ -81,7 +82,7 @@ for (const e of w.entities) {
     const s = move.spec;
     const info: MoveInfo = {
       e, id, move,
-      gives: [...(s.gives?.clues ?? []), ...(s.gives?.aware ?? [])].map(nodeOf),
+      gives: [...(s.narrative.gives.clues ?? []), ...(s.narrative.gives.aware ?? [])].map(nodeOf),
       required: [], prompted: (s.promptedBy ?? []).map(nodeOf), skills: [], dependsOn: [],
     };
     const codePaths: string[] = [];
@@ -101,6 +102,11 @@ for (const e of w.entities) {
       const c = a.code.get(p);
       if (!c) continue;
       if (c.skills.length) info.skills.push(c.skills.map(cardName));
+      // me.knows(clues.X) in a condition: those clues are required too
+      for (const name of c.clues) {
+        const id = clueIdByClass.get(name);
+        if (id) info.required.push(clueNode(id));
+      }
       for (const d of c.moves) {
         const owner = entityByClass.get(d.className)?.instance as unknown as Record<string, Record<string, Move>>;
         const dep = owner?.[d.table]?.[d.move];
@@ -126,6 +132,7 @@ for (const info of infos) {
 
 const costText = (cost: Cost[]) =>
   cost.map((c) => ("time" in c ? `${c.time} card(s)` : "composure" in c ? `${c.composure} composure`
+    : "card" in c ? `gives up ${c.card.name}`
     : `uses ${entityByCtor.get(c.item)?.instance.name ?? "item"}`)).join(" + ") || "Free";
 
 const links: Record<string, unknown>[] = [];
@@ -134,9 +141,8 @@ for (const info of infos) {
   const skillsText = info.skills.map((alts) => alts.join(" or ")).join(" and ");
   const gate = [skillsText, move instanceof Action ? costText(move.spec.cost) : ""].filter(Boolean).join("; ");
   const extra = [
-    move.spec.gives?.effects && "World State Change",
-    move.spec.gives?.items?.length && "Item",
-    move.spec.gives?.unlocks?.length && "Scene Unlock",
+    move.spec.narrative.gives.effects && "World State Change",
+    move.spec.narrative.gives.items?.length && "Item",
   ].filter(Boolean);
   const common = {
     move: move.spec.label, mkind: move instanceof Opportunity ? "opportunity" : "action",

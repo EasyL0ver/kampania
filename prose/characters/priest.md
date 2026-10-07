@@ -1,0 +1,88 @@
+# ks. Władysław Pająk — prose
+
+<!-- Parked prose for world/characters/priest.ts. Sections keyed by move id.
+     Moved verbatim from characters/priest.md; not yet reviewed. -->
+
+## Type
+
+Named character — village priest
+
+## Vital Statistics
+
+- **Born:** 1925
+- **Age in 1967:** 42
+- **Lives in:** Parish rectory attached to the church
+- **Settled:** After 1954 — assigned to the parish after the lynch
+
+## Character
+
+Roman Catholic priest who knows the village's blood-guilt through thirteen years of confessions and has chosen silence. As the flood rises, his crisis of faith drives the [Grace ending](../story-facts/spiritual-endings.md): whether he grants the Day-7 odpust or breaks the seal.
+
+## Appearance
+
+- **Clothes:** Black cassock daily, brushed, collar a stark white line; in cold weather a heavy wool overcoat and black beret
+- **Hair & face:** Receding hairline, dark hair combed back, clean-shaven; long narrow face, deep-set brown eyes that hold yours too long
+- **Carriage:** Tall and slightly stooped; bends to listen, moves slowly, and makes people orient around his stillness
+
+His baritone stays intimate in conversation. When uncomfortable, his hand goes to his collar, adjusts it, and comes away.
+
+## Opinions
+
+- **[Helena Rzepka](matrona.md)** — She is my closest parishioner. I see conviction in her and would defend her first if anyone came asking. If her piety is a performance, I have spent thirteen years failing to see it.
+- **[Zbigniew Gajda](wojewoda.md)** — He controls the village politically, and I control it spiritually. We share meals, negotiate disputes, and pretend the church funding that passes through him buys nothing.
+- **[por. Witold Skowron](officer.md)** — I fear what he represents: the machinery that could strip me of my parish. We both want quiet, but he sees me as an enemy of the state and I see him as an enemy of God.
+- **[Janina Gajda](ciotka.md)** — She is my heaviest burden. She comes for comfort, and what passes between us is a full account of a murder that I cannot speak aloud.
+- **Smoking** — Not in God's house. He keeps the church clear of it and his own hands clean in view, a matter of respect for the sacred, nothing he preaches on.
+- **`wujas-is-guilty`:** Every man carries his own cross. I will not break the seal of confession, but the weight is on my face.
+
+## Mechanics
+
+### The Grace Arc — judgment vs. mercy
+
+He reads the flood as literal divine judgment on a valley built over a mass grave. If judgment wins, he grants nothing on Day 7 and breaks the seal by naming the village's sins aloud ([The Seal-Break](../events/the-seal-break.md)). If mercy wins, he grants the odpust to the whole church, Rezeń included.
+
+What tips him to mercy is watching the guilty confess. Track the Faith in Redemption score in [spiritual-endings.md](../story-facts/spiritual-endings.md); if it clears the threshold by Day 7, he grants the [odpust](../events/the-odpust.md). If [Rest](../events/the-ritual.md) fired first, he refuses.
+
+The arc opens with [The Priest's Plea](../events/priests-plea.md). He seeks out a pious player, confides that the flood may be divine judgment, and can tell them in-character how Grace is won: bring the guilty to his confessional.
+
+## driveOutTheDevil
+
+He prays loudly over the boy, commanding the devil out, a Roman Catholic blessing that rises to shouting. It does nothing for the fever, and the noise frightens the delirious child. [Stefania Kopacz](babcia.md) comes out of her chair, sharply lucid, and drives him off: the boy is not a demon, and he is not to shout and terrify a sick child. This is not his faith and not his rite.
+
+## askAboutTheThreeBarredCross
+
+He explains what Barbara could not: the three-barred cross is Eastern-rite, Greek Catholic, the old faith of this valley before the Roman parish. He states it plainly as church history, nothing he guards.
+
+## censusInterview
+
+He cooperates and gives his details: himself, alone at the rectory.
+
+Gives (original): Census data — ks. Władysław Pająk.
+
+## propertyAssessment
+
+He says the rectory and church are parish property, not his. He refers the committee to the diocese for anything on paper.
+
+Gives (original): Property record — parish/church property, not personally held.
+
+## donateToTheChurch
+
+Requires (original): The [Loaded](../story-facts/game-system.md) card — hard currency in your pocket to give.
+Cost (original): your Loaded card (you give the money for good and lose the trait).
+
+A committee member puts real money into the parish, no bribe, nothing asked for, just given. ks. Władysław Pająk did not expect it and cannot quite believe it: one of the state's own clerks choosing a plain good thing. In a man whose faith in people is in crisis, it lands, and he watches the committee differently after.
+
+Gives (original): The player loses the **Loaded** trait. Ending Progress: +2 [Faith in Redemption](../story-facts/spiritual-endings.md#the-mechanic-faith-in-redemption-score).
+
+## Bond (full wording)
+
+- Ask for his blessing or spiritual counsel — even perfunctorily, even if the player isn't religious
+- Confide something personal to him — show vulnerability
+- Show respect for the church building itself — remove hat, lower voice, acknowledge the space
+
+## Grudge (full wording)
+
+- Demand he reveal what he heard in confession
+- Disturb the dead: strip or handle [Janina Gajda](ciotka.md)'s body crudely, brushing past his objection ([`committee-disturbed-the-dead`](../clues/clues.md#committee-disturbed-the-dead))
+- Disrespect the church (smoke inside, shout, handle sacred objects carelessly)
+- Threaten or pressure one of his parishioners in his presence

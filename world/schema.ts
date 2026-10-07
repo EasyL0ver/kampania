@@ -29,18 +29,55 @@ export type EntityRef = CharacterRef | LocationRef | EventRef | ItemRef;
 
 // ---------------------------------------------------------------- runtime
 
-// The player a condition or effect is evaluated for.
-export interface Player {
-  has(skill: Skill): boolean;
-  knows(clue: ClueRef): boolean;
-  isAware(ref: EntityRef): boolean;
-  holds(item: ItemRef): boolean;
+// The player a condition or effect is evaluated for: their cards (abilities),
+// the items they carry, the clues they know and the entities they are aware of.
+export class Player {
+  cards: Skill[];
+  items: ItemRef[];
+  clues: ClueRef[];
+  aware: EntityRef[];
+  // Where the player is (set by goTo in scene.ts); nowhere until they first move.
+  location?: LocationRef;
+  // What has happened to them since the narrator last spoke (see Entity.invoke).
+  readonly narratives = new NarrativeBuffer();
+  constructor(cards: Skill[] = [], items: ItemRef[] = [], clues: ClueRef[] = [], aware: EntityRef[] = []) {
+    this.cards = cards;
+    this.items = items;
+    this.clues = clues;
+    this.aware = aware;
+  }
+  has(skill: Skill): boolean {
+    return this.cards.includes(skill);
+  }
+  holds(item: ItemRef): boolean {
+    return this.items.includes(item);
+  }
+  knows(clue: ClueRef): boolean {
+    return this.clues.includes(clue);
+  }
+  isAware(ref: EntityRef): boolean {
+    return this.aware.includes(ref);
+  }
+  // Aware = knows it exists (a person), is happening (an event), where it is
+  // (a place). Having met it in person is having been told its narrative
+  // (a character's description, a place's or event's setup): see
+  // narratives.hasTold.
+  // Take what a move gives: new clues, awareness and items, then its effects.
+  receive(w: World, gives: Gives): void {
+    const add = <T>(list: T[], more: T[] = []) => list.push(...more.filter((x) => !list.includes(x)));
+    add(this.clues, gives.clues);
+    add(this.aware, gives.aware);
+    add(this.items, gives.items);
+    gives.effects?.(w, this);
+  }
 }
 
 // Conditions read state; effects write it. Both see the whole typed World.
 // Write them as plain expressions/assignments: no if/loops (tools/check.ts).
 export type Cond = (w: World, me: Player) => boolean;
 export type Effect = (w: World, me: Player) => void;
+// A world-only effect: no player involved (the calendar, an event starting).
+export type Tick = (w: World) => void;
 
 // ---------------------------------------------------------------- state
 
@@ -121,6 +158,21 @@ export class SkillRequirement extends Requirement {
   }
 }
 
+// The opposite: a card that rules the move out. Any card, modifiers included.
+//   new WithoutSkillRequirement(Wszywka, "Your implant won't let you drink.")
+export class WithoutSkillRequirement extends Requirement {
+  readonly skill: Skill;
+
+  constructor(skill: Skill, message: Label = `Not possible with ${skill.name}.`) {
+    super(message, {});
+    this.skill = skill;
+  }
+
+  override check(_w: World, me: Player): Label | undefined {
+    return me.has(this.skill) ? this.message : undefined;
+  }
+}
+
 // Soft breadcrumb: what would push a player to try this. Never a gate.
 // Any mix of entities (knowing they exist) and clues.
 export type Prompt = (EntityRef | ClueRef)[];
@@ -129,7 +181,6 @@ export interface Gives {
   clues?: ClueRef[];
   aware?: EntityRef[];
   items?: ItemRef[];
-  unlocks?: EventRef[];
   effects?: Effect;
 }
 
@@ -158,36 +209,113 @@ export interface Target {
 
 export const anyone: Target = Object.freeze({});
 
+// What a move puts across when it happens: the lines the GM must get across
+// (written, not left to the narrator to invent), and its one mechanical
+// outcome. Gives nothing = atmosphere (an opportunity only).
+export interface NarrativeSpec {
+  narration: Label[];
+  gives?: Gives;
+}
+
+export class Narrative {
+  readonly narration: Label[];
+  readonly gives: Gives;
+  constructor(spec: NarrativeSpec) {
+    this.narration = spec.narration;
+    this.gives = spec.gives ?? {};
+  }
+}
+
+// One narrative put into play for a player, waiting to be narrated.
+export type NarrativeKind = "enter" | "event" | "meet" | "action" | "notice";
+export interface NarrativeEntry {
+  kind: NarrativeKind;
+  source: Entity;        // whose narrative it is
+  label: Label;
+  narrative: Narrative;
+  private: boolean;      // only this player perceives it (a gated opportunity)
+}
+
+// A player's narratives, first in first out: everything that happened to them
+// since the narrator last spoke. The narrator drains it after their turn.
+// Every narrative is told once: the buffer remembers what it has queued and
+// skips repeats (meeting someone again, coming back to a place you've seen).
+// Having been told a character's description is what "met" means.
+export class NarrativeBuffer {
+  private queue: NarrativeEntry[] = [];
+  private readonly told = new Set<Narrative>();
+  push(entry: NarrativeEntry): void {
+    if (this.told.has(entry.narrative)) return;
+    this.told.add(entry.narrative);
+    this.queue.push(entry);
+  }
+  hasTold(narrative: Narrative): boolean {
+    return this.told.has(narrative);
+  }
+  drain(): NarrativeEntry[] {
+    const out = this.queue;
+    this.queue = [];
+    return out;
+  }
+  get length(): number {
+    return this.queue.length;
+  }
+}
+
+// How a character comes across on meeting them: the hook (narration: what an
+// introduction tells you, name and public role) and their look. Meeting them
+// gives awareness of them (gives: { aware: [Themselves] }).
+export interface CharacterDescriptionSpec extends NarrativeSpec {
+  clothes: Label;
+  hairAndFace: Label;
+  carriage: Label;
+}
+
+export class CharacterDescription extends Narrative {
+  readonly clothes: Label;
+  readonly hairAndFace: Label;
+  readonly carriage: Label;
+  constructor(spec: CharacterDescriptionSpec) {
+    super(spec);
+    this.clothes = spec.clothes;
+    this.hairAndFace = spec.hairAndFace;
+    this.carriage = spec.carriage;
+  }
+}
+
 export interface OpportunitySpec {
   label: Label;
   trigger?: WorldCond;
   target: Target;
   promptedBy?: Prompt;
-  gives?: Gives;             // omitted = atmosphere (text lives in prose/)
+  narrative: Narrative;
 }
 
 // What taking an action spends. Usually time; sometimes nerve or a thing.
 //   { time: 1 }            one card
 //   { composure: 2 }       composure points
 //   { item: Penicillin }   the item is used up
+//   { card: Loaded }       the player gives the card up for good
 export type Cost =
   | { time: 1 | 2 | 3 | 4 }
   | { composure: number }
-  | { item: ItemRef };
+  | { item: ItemRef }
+  | { card: Skill };
 
 export interface ActionSpec {
   label: Label;
   requires?: Requirement[];   // all must hold; each has its own message
   promptedBy?: Prompt;
   cost: Cost[];              // everything paid; [] = free
-  gives: Gives;
+  narrative: Narrative;
 }
 
 // A move's id is its key in the entity's actions/opportunities table.
 export class Opportunity {
   readonly kind = "opportunity";
   readonly spec: OpportunitySpec;
-  done = false;
+  done = false;                              // delivered to anyone yet
+  readonly deliveredTo = new Set<Player>();  // each player gets it once
   constructor(spec: OpportunitySpec) {
     this.spec = spec;
   }
@@ -254,11 +382,37 @@ export abstract class Entity {
   get opportunities(): MoveTable<Opportunity> {
     return {};
   }
+
+  // Puts one of this entity's narratives into play for a player: they receive
+  // what it gives, and it joins their queue for the narrator.
+  invoke(w: World, me: Player, kind: NarrativeKind, label: Label, narrative: Narrative, isPrivate = false): void {
+    me.receive(w, narrative.gives);
+    this.queue(me, kind, label, narrative, isPrivate);
+  }
+
+  // Only queues it for the narrator (its gives already applied).
+  queue(me: Player, kind: NarrativeKind, label: Label, narrative: Narrative, isPrivate = false): void {
+    me.narratives.push({ kind, source: this, label, narrative, private: isPrivate });
+  }
 }
 
 export abstract class Character extends Entity {
   static readonly entityKind = "character";
   abstract readonly role: Label;
+  abstract readonly description: CharacterDescription;
+  // The hook is the description's narration.
+  get hook(): Label {
+    return this.description.narration.join(" ");
+  }
+  alive = true;
+  drunk = false;
+  // The committee's records on this person (census interview, property assessment).
+  censusTaken = false;
+  propertyRecorded = false;
+  // Bond / grudge (game-system.md): one player earns it by hitting 2 of the
+  // 3 checks in `bond` / `grudge`; the GM marks it. A grudge blocks the bond.
+  readonly bonded = new PerPlayer(false);
+  readonly grudgeHeld = new PerPlayer(false);
   livesAt?: LocationRef;
   bond?: Checks;
   grudge?: Checks;
@@ -268,12 +422,23 @@ export abstract class Location extends Entity {
   static readonly entityKind = "location";
   abstract readonly position: Label;
   abstract readonly visitCost: 0 | 1 | 2;
-  abstract readonly setup: Label[];
+  // What you see on arriving; gives awareness of the place (and anything
+  // plainly visible from it).
+  abstract readonly setup: Narrative;
   // Who is here. May depend on world state; select, no if.
   present(_w: World): CharacterRef[] {
     return [];
   }
 }
+
+// How an event makes itself known: one line of what reaches the players, and
+// where it reaches them. Reaching a player gives awareness of the event.
+export interface EventHook {
+  text: Label;
+  heardAt: LocationRef[] | "anywhere";
+}
+
+export type EventStatus = "pending" | "running" | "over";
 
 export abstract class Event extends Entity {
   static readonly entityKind = "event";
@@ -282,16 +447,63 @@ export abstract class Event extends Entity {
   abstract at(w: World): LocationRef;
   // Who is here. May depend on what happened (world state); select, no if.
   abstract present(w: World): CharacterRef[];
-  abstract readonly available: { fromDay?: number; after?: EventRef[] };
-  abstract readonly setup: Label[];
-  onFire?: Effect;
-  ifMissed?: Effect;
+  // At least one: how the event makes itself known when it starts.
+  abstract readonly hooks: EventHook[];
+  // Must hold for activate() to start the event (e.g. "after the flood").
+  condition?: WorldCond;
+  status: EventStatus = "pending";
+  // What you find when you come upon it, as it starts.
+  abstract readonly setup: Narrative;
+  onFire?: Tick;
+  // What the story does when the event ends: its default outcome. Player moves
+  // during the event change world state; write the resolution against that
+  // state, so whatever the players changed is respected and the rest happens.
+  resolve?: Tick;
   composure?: number;                     // drain on witnessing
+
+  // Called by the calendar (world/days/) or an action. Starts the event if it
+  // is pending and its condition holds; returns whether it started, so its
+  // hooks can be delivered to the players at their locations. An event happens
+  // once; a recurring one sets itself back to "pending" in its own resolve.
+  activate(w: World): boolean {
+    if (this.status !== "pending" || (this.condition && !this.condition(w))) return false;
+    this.status = "running";
+    this.onFire?.(w);
+    return true;
+  }
+
+  // Called by the calendar or an action when the event is over: runs its
+  // resolution. Does nothing if the event isn't running.
+  end(w: World): void {
+    if (this.status !== "running") return;
+    this.status = "over";
+    this.resolve?.(w);
+  }
+}
+
+// ---------------------------------------------------------------- calendar
+
+export type DayNumber = 1 | 2 | 3 | 4 | 5 | 6 | 7;
+export type DayPart = "morning" | "afternoon" | "evening" | "night";
+export const DAY_PARTS: readonly DayPart[] = ["morning", "afternoon", "evening", "night"];
+
+// One of the seven days. Each part of the day calls activate() on the events
+// that may start then; an event whose condition doesn't hold stays pending, so
+// a recurring event is simply activated in every slot where it could happen.
+//   override evening: Tick = (w) => { w.pawelekFallsIll.activate(w); };
+export abstract class Day {
+  abstract readonly number: DayNumber;
+  morning?: Tick;
+  afternoon?: Tick;
+  evening?: Tick;
+  night?: Tick;
 }
 
 export abstract class Item extends Entity {
   static readonly entityKind = "item";
   abstract readonly what: Label;
+  // How it looks and what it is, told when the player gets it.
+  abstract readonly description: Narrative;
 }
 
 // Placeholder for an entity not migrated yet: an id, a name, and any state
@@ -309,9 +521,9 @@ export abstract class ItemStub extends Stub { static readonly entityKind = "item
 // or a move table (enforced by tools/check.ts).
 export const SCHEMA_FIELDS = new Set([
   "id", "name", "hook",
-  "role", "livesAt", "bond", "grudge",
+  "role", "description", "livesAt", "bond", "grudge",
   "position", "visitCost", "setup",
-  "available", "onFire", "ifMissed", "composure",
+  "onFire", "resolve", "composure", "hooks", "condition", "status",
   "what",
 ]);
 

@@ -122,7 +122,7 @@ An action costs time when it eats a meaningful chunk of the character's day — 
    - **World State Change** — the village itself changes (Rezeń is loose, the crew knows you're snooping, etc.)
    - **Ending Progress** — advances one of the ending chains.
 3. **Multiple outcomes are fine.** An action can give a clue AND change NPC state AND unlock a scene. List them all.
-4. **"Nothing" is not a valid outcome for documented actions.** If you're writing an action into a scene file, it must give something — otherwise don't document it.
+4. **"Nothing" is not a valid outcome for documented actions.** If you're writing an action into a scene file, it must give something — otherwise don't document it. **Exception:** an action may give nothing when its only purpose is to open an opportunity (the opportunity is gated on the action having been taken), e.g. "Mention her family" opening "The flinch at family" for an Empathy player.
    - **Undocumented actions exist.** Players will attempt things not written in any scene file. We don't write dead-end entries into scene files — the GM charges the time at the table. See [Charging Dead Ends](#charging-dead-ends).
 5. **No "Leads to:" or "Result:".** The field is always `Gives:`. The verb is always definitive.
 6. **A skill gates an action or opens an opportunity — never enriches it.**

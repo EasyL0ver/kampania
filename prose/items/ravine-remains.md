@@ -1,0 +1,43 @@
+# Remains from the Ravine — prose
+
+<!-- Parked prose for world/items/ravine-remains.ts. Sections keyed by move id.
+     Moved verbatim from items/ravine-remains.md; not yet reviewed. -->
+
+## Source
+
+Exhumed at the [Meadow by the Ravine](../locations/meadow-by-the-ravine.md) (the cairn grave [Ryszard Dudka](../characters/neighbour.md) built)
+
+## Carried
+
+Physical evidence that *someone* died in the forest. Deliberately inconclusive — proves a death, never an identity.
+
+## Description
+
+A rotted coat, its colour long gone to the soil, and a scatter of bones — incomplete, gnawed and shifted by thirteen years of forest. No skull, so nothing that carries a face or a name. Wrapped in whatever the players had to hand, it is a light, grim bundle that smells of wet earth. To an untrained eye it could be anyone — Dudka called it Hania and buried it. But the bones themselves still hold facts for someone who knows how to read them: whether it's a man or a woman, how old, how they died. The name is gone; the body is not yet silent.
+
+
+## Examine the remains (examineTheRemains, examineTheRemainsAgain, examineTheRemainsAThirdTime)
+
+- **Cost:** 1 card per examination — the reading deepens each time, up to three
+
+These are not scraps that give up their story at a glance. A trained examiner working over the bones draws out one more fact each time they sit with them — but every card spent is a card not spent elsewhere. Progressive, in order:
+
+## examineTheRemains
+
+**First examination — it's a woman.** The pelvis and the surviving long bones read female. Whoever this was, she was a grown woman, not a child.
+
+## examineTheRemainsAgain
+
+**Second examination — she died from a fall.** The fracture pattern tells it: multiple breaks from a single heavy impact — ribs, a long bone, the way they splintered. Not a beating, not a blade. She fell from a height onto hard ground. Consistent with going over the edge of the ravine this meadow overlooks.
+
+## examineTheRemainsAThirdTime
+
+**Third examination — she was around thirty.** Bone density, joint wear, the fused ends of the long bones put her near thirty, give or take a couple of years. Not a teenager. A woman in her thirties.
+
+## giveTheRemainsABurial
+
+- **Requires:** Holding the remains; a willing officiant — [ks. Władysław Pająk](../characters/priest.md), or the players themselves
+
+The bones go back into the ground with words said over them — in the churchyard, or wherever the players choose. Whoever she was, someone finally treated her as a person with a name, even if the name is a guess. It settles nothing factual and it changes the people who do it.
+
+Gives: World State Change — the remains are laid to rest; the players have chosen to honor a death they can't prove. (If the priest officiates, cross-reference his reaction in [ks. Władysław Pająk](../characters/priest.md).)

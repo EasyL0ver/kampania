@@ -4,6 +4,7 @@
 //   - which moves it depends on   (w.pawelekFallsIll.allActions.examine.done)
 //   - which state it reads/writes (w.pawelek.hp)
 //   - which cards it checks       (me.has(Culture))
+//   - which clues it checks       (me.knows(clues.X))
 //   - which entity classes it names (at/present)
 //   - any control flow (if, loops, try, nested functions), which content forbids
 // Results are keyed by the same paths as model.ts lambdasOf().
@@ -21,6 +22,8 @@ export interface CodeInfo {
   moves: MoveDep[];
   state: StateDep[];
   skills: string[];           // skills.ts export names used via me.has()
+  clues: string[];            // clue class names checked via me.knows()
+  activates: string[];        // event classes whose activate() it calls (days)
   classes: string[];          // entity classes named in the code
   thisProps: string[];        // this.X accesses (getters select tables this way)
   controlFlow: string[];      // forbidden constructs found
@@ -31,7 +34,7 @@ export interface Analysis {
   code: Map<string, CodeInfo>;
 }
 
-const CONTENT_DIRS = ["characters", "locations", "events", "items"];
+const CONTENT_DIRS = ["characters", "locations", "events", "items", "days"];
 const FORBIDDEN = new Set([
   ts.SyntaxKind.IfStatement, ts.SyntaxKind.ForStatement, ts.SyntaxKind.ForInStatement,
   ts.SyntaxKind.ForOfStatement, ts.SyntaxKind.WhileStatement, ts.SyntaxKind.DoStatement,
@@ -52,6 +55,7 @@ export function analyze(): Analysis {
     return r === "stubs.ts" || CONTENT_DIRS.some((d) => r.startsWith(d + "/"));
   };
   const isSkillsFile = (sf: ts.SourceFile) => rel(sf) === "skills.ts";
+  const isCluesFile = (sf: ts.SourceFile) => rel(sf) === "clues.ts";
   const nameOf = (n: { name?: ts.Node }) => (n.name ? n.name.getText() : "");
 
   const resolve = (node: ts.Node): ts.Declaration | undefined => {
@@ -78,7 +82,7 @@ export function analyze(): Analysis {
 
   function inspect(fn: ts.Node, path: string): CodeInfo {
     const info: CodeInfo = {
-      path, text: fn.getText().replace(/\s+/g, " "), moves: [], state: [], skills: [],
+      path, text: fn.getText().replace(/\s+/g, " "), moves: [], state: [], skills: [], clues: [], activates: [],
       classes: [], thisProps: [], controlFlow: [], topLevelAnd: false,
     };
     const followed = new Set<ts.Node>();
@@ -98,16 +102,31 @@ export function analyze(): Analysis {
         }
       }
 
-      // me.has(Card): Player.has with a card from skills.ts
+      // me.has(Card) / me.knows(clues.X): Player methods with a card or a clue
       if (ts.isCallExpression(n) && ts.isPropertyAccessExpression(n.expression) &&
-          n.expression.name.text === "has" && n.arguments.length === 1) {
+          (n.expression.name.text === "has" || n.expression.name.text === "knows") &&
+          n.arguments.length === 1) {
         const m = resolve(n.expression.name);
         const owner = m?.parent;
         if (owner && ts.isInterfaceDeclaration(owner) && owner.name.text === "Player") {
-          const card = resolve(n.arguments[0]);
-          if (card && ts.isVariableDeclaration(card) && isSkillsFile(card.getSourceFile())) {
-            info.skills.push(nameOf(card));
+          const arg = resolve(ts.isPropertyAccessExpression(n.arguments[0]) ? n.arguments[0].name : n.arguments[0]);
+          if (n.expression.name.text === "has" && arg && ts.isVariableDeclaration(arg) &&
+              isSkillsFile(arg.getSourceFile())) {
+            info.skills.push(nameOf(arg));
           }
+          if (n.expression.name.text === "knows" && arg && ts.isClassDeclaration(arg) && arg.name &&
+              isCluesFile(arg.getSourceFile())) {
+            info.clues.push(arg.name.text);
+          }
+        }
+      }
+
+      // x.activate(w): which event class the calendar starts here
+      if (ts.isCallExpression(n) && ts.isPropertyAccessExpression(n.expression) &&
+          n.expression.name.text === "activate") {
+        const decl = checker.getTypeAtLocation(n.expression.expression).getSymbol()?.valueDeclaration;
+        if (decl && ts.isClassDeclaration(decl) && decl.name && isContentFile(decl.getSourceFile())) {
+          info.activates.push(decl.name.text);
         }
       }
 
@@ -145,6 +164,8 @@ export function analyze(): Analysis {
     info.moves = uniq(info.moves);
     info.state = uniq(info.state);
     info.skills = uniq(info.skills);
+    info.clues = uniq(info.clues);
+    info.activates = uniq(info.activates);
     info.classes = uniq(info.classes);
     info.thisProps = uniq(info.thisProps);
     code.set(path, info);
@@ -170,9 +191,12 @@ export function analyze(): Analysis {
     const target = prop(spec, "target");
     const targetWhen = target && ts.isObjectLiteralExpression(target) ? prop(target, "when") : undefined;
     if (targetWhen) inspect(targetWhen, `${path}.target.when`);
-    const gives = prop(spec, "gives");
+    // narrative: new Narrative({ narration, gives: { effects } })
+    const narrative = prop(spec, "narrative");
+    const narrativeArg = narrative && ts.isNewExpression(narrative) ? narrative.arguments?.[0] : undefined;
+    const gives = narrativeArg && ts.isObjectLiteralExpression(narrativeArg) ? prop(narrativeArg, "gives") : undefined;
     const effects = gives && ts.isObjectLiteralExpression(gives) ? prop(gives, "effects") : undefined;
-    if (effects) inspect(effects, `${path}.gives.effects`);
+    if (effects) inspect(effects, `${path}.narrative.gives.effects`);
   }
 
   for (const sf of program.getSourceFiles()) {
@@ -189,7 +213,9 @@ export function analyze(): Analysis {
               const spec = call.arguments[0];
               if (spec && ts.isObjectLiteralExpression(spec)) walkSpec(`${cls}.${name}.${nameOf(p)}`, spec);
             }
-          } else if (name === "onFire" || name === "ifMissed") {
+          } else if (["morning", "afternoon", "evening", "night", "condition"].includes(name)) {
+            inspect(member.initializer, `${cls}.${name}`);
+          } else if (name === "onFire" || name === "resolve") {
             inspect(member.initializer, `${cls}.${name}`);
           }
         } else if (ts.isGetAccessorDeclaration(member) && (name === "actions" || name === "opportunities")) {

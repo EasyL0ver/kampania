@@ -1,0 +1,89 @@
+# The Store — prose
+
+<!-- Parked prose for world/locations/the-store.ts. Sections keyed by move id.
+     Moved verbatim from locations/the-store.md; not yet reviewed. -->
+
+## Header
+
+**Type:** Location (revisitable)
+**Location:** Helena Rzepka's general store.
+**Present:** [Halina Zając](../characters/secondary/halina-zajac.md) (inside), [Tadek Gajda](../characters/wujas.md) (outside), [Ryszard Dudka](../characters/neighbour.md) (usually outside), [Marek Gajda](../characters/junior.md) (some evenings, outside), drinking crew (outside)
+**Available:** Daytime, any day. Repeatable.
+**Cost:** 1 action per visit
+
+## Setup
+
+- The store is the village social hub.
+- Men sit outside on benches and crates, passing bimber.
+- Tadek Gajda is usually outside.
+- Ryszard Dudka drifts in and out.
+- Stanisław Rezeń does not drink here.
+- Halina Zając runs the counter inside.
+- Helena Rzepka owns the store but is rarely behind the counter.
+- The shelves are sparse but functional.
+- Cigarettes are sold over the counter: cheap Sport on the shelf, a pricier premium brand for those who ask.
+- Bimber is kept under the counter.
+- The crew enters to buy rounds, banter with Halina, and get sent back outside.
+- Marek Gajda drinks with the crew some evenings, away from his father.
+- Halina resents Helena Rzepka and speaks sharply about the work.
+- The back room has a locked pharmaceutical cabinet.
+- The cabinet contains penicillin, aspirin, bandages, and iodine.
+- Helena Rzepka keeps the only cabinet key.
+- Halina Zając cannot open the medicine cabinet.
+- Government people are treated with suspicion outside unless they are Tadek Gajda's drinking buddies.
+
+<!-- If bonded with Halina, [Ask who smokes what](../characters/secondary/halina-zajac.md#ask-who-smokes-what) is her counter action — she knows every villager's brand. -->
+
+<!-- Drinking with the crew is a crew action — see [Tadek Gajda's Drinking Circle](../characters/secondary/drinking-crew.md#actions--drink-with-the-crew). -->
+
+## theMedicineCabinet
+
+In the back room a locked cabinet holds penicillin, aspirin, bandages, and iodine; a trained eye reads it as a *szafka apteczna*, the state medicine point for miles.
+
+## ryszardDudkasNervousness
+
+Requires (original): drinking buddy with Tadek
+
+Dudka drinks too fast and shuts down when the past comes up.
+
+## juniorJoinsTheCrew
+
+Present, Marek sits plainly among the crew on the benches, away from his father; absent, the crew mention the sołtys's son who drinks with them.
+
+## juniorBragsAboutThePistol
+
+Drinking with the crew, Marek puffs up and talks about the gun in his father's office desk.
+
+## oldFloodsOnTheBenches
+
+Requires (original): drinking buddy with Tadek, or Empathy
+
+The old men remember the bad floods. The dry streambed on the far ridge never carried any of it off; the water just pooled against the rock and stopped.
+
+## buyCigarettes
+
+Halina sells a pack across the counter: cheap [Sport](../clues/clues.md#tadek-smokes-cheapest) off the shelf, or premium [Carmen](../items/cigarette-butts-from-ciotkas.md) if you ask. A pack lasts one day; keeping one on you is [Chainsmoker](../story-facts/game-system.md#the-cards) upkeep.
+
+## buyRope
+
+Halina sells a coil of field line off the shelf, mixed lengths knotted serviceable, long enough for the ridge climb.
+
+## askWhoSmokesCarmen
+
+Nobody in the village wastes money on Carmen except two men: the Gajda boy [Marek](../characters/junior.md), who buys what marks him as above the place, and the butcher [Stanisław Rezeń](../characters/butcher.md), who buys what he pleases. The brand narrows the door to the pair of them, and clears no one.
+
+## breakIntoTheCabinet
+
+The penicillin is in the locked cabinet.
+  - **Physique:** You bash the little door until the lock tears out of the wood. Quick and loud, and the splintered frame shows at a glance that someone forced it.
+  - **With the key:** Helena's own key lets you in past the doors and opens the cabinet clean. You take the child's course and lock up after you, but the missing stock will not go unnoticed for long.
+
+Gives: Item: penicillin (a child's course); NPC Learns: helena: [somebody-broke-into-store](../clues/clues.md#somebody-broke-into-store); NPC Learns: helena: [somebody-stole-penicillin](../clues/clues.md#somebody-stole-penicillin); World State Change: the cabinet has been robbed.
+
+## smashTheRegisterOpen
+
+You pry the cash drawer until it springs. There is not much inside, a day's small takings, but it is gone now, and an emptied till reads as a plain robbery rather than a hand reaching for one thing.
+
+Requires (original): mid break-in, the store already open to you
+
+Gives (original): Item: the till cash | NPC Learns: helena: somebody-stole-money

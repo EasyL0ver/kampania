@@ -4,7 +4,7 @@
 
 ## Hook
 
-Helena Rzepka, the devout woman who runs the village store.
+Helena Rzepka, the devout woman who manages the village store.
 
 ## Vital Statistics
 

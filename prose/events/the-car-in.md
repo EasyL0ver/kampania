@@ -1,0 +1,60 @@
+# The Car In — prose
+
+<!-- Parked prose for world/events/the-car-in.ts. Sections keyed by move id.
+     Moved verbatim from events/the-car-in.md; not yet reviewed. -->
+
+## Header
+
+**Location:** Police car on the mountain road to %NEW_VILLAGE%
+**Present:** por. Witold Skowron, players
+**Available:** Game start; first scene.
+
+## Hook
+
+A police car winding down the mountain road through the rain.
+
+## Setup
+
+- A police car drives on a winding mountain road.
+- Rain hits the windshield.
+- por. Witold Skowron drives.
+- The players ride in the back.
+- The players are government committee members.
+- The committee is heading to assess flood risk in a remote Bieszczady village.
+- prof. Tadeusz Bieńkowski briefed the committee before departure: the safe level assumes the ground stands where the map records it and that the valley drains, so he wants both checked, and he named two outlets to verify, the ridge water-gap and the old far-ridge streambed.
+- por. Witold Skowron is professional and friendly.
+- He talks while he drives.
+
+## Exits
+
+- Continue to [Arrival](arrival.md) in %NEW_VILLAGE%.
+
+## skowronsCarefulBriefing
+
+`(requires: bureaucratic experience or intuition)` — he frames the work narrowly and signals that some information should stay out of official writing.
+
+## takeTheAssignment
+
+On the road in, por. Witold Skowron lays out who the players are and why they are here: a state committee sent ahead of the reservoir to run a census, assess property for flood damage, and survey the valley. It is the authority the whole visit rests on.
+
+## learnTheDestination
+
+por. Witold Skowron names where they are headed: %NEW_VILLAGE%, the resettled village in the valley below the planned reservoir, and points out where the road drops toward it.
+
+## listenToTheBriefing
+
+por. Witold Skowron explains the committee's survey, property assessment, local contact, village phone, and road risk. He notes the valley's [state farm](../locations/pgr-farm.md), the PGR, as the main property the committee will assess, and that its movable socialist property must be inventoried and moved out before the flood.
+
+## pickUpOnTheHiddenWarning
+
+**Requires:** bureaucratic experience or intuition
+
+Players notice that por. Witold Skowron expects them to ignore old grievances, local legends, and anything that does not belong in a government report.
+
+## recallTheProfessorsBrief
+
+The committee recalls [prof. Tadeusz Bieńkowski](../characters/professor.md)'s pre-trip briefing: the state's safe verdict rests on two things holding true, that the ground stands where the map records it and that the valley drains through its outlets. He wants both tested on the ground: level the terrain against the map to confirm the heights, and check whether water can still get out. He flagged two outlets he knows, the ridge water-gap and the old far-ridge streambed, and knows of no others. He says only that the paperwork does not hold up and he cannot prove it from Kraków; he does not point at the previous survey by name, leaving that for the committee to find on the ground.
+
+## draftTheCommittee
+
+The players draft the [card pool](../story-facts/game-system.md#the-draft) in snake order until all 28 cards are taken. por. Witold Skowron reads each card out of his dossier as it is claimed.

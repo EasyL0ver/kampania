@@ -1,7 +1,7 @@
 // Discovers content files and instantiates every entity class.
 // Shared by gen-ids, check and export.
 
-import { readdirSync } from "node:fs";
+import { existsSync, readdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { CharacterStub, EventStub, LocationStub } from "../schema.ts";
@@ -37,9 +37,14 @@ type Ctor = new () => Entity | Stub;
 export async function loadWorld(): Promise<World> {
   const entities: Loaded[] = [];
   for (const kind of KINDS) {
-    const dir = join(ROOT, kind);
-    for (const name of readdirSync(dir).filter((f) => f.endsWith(".ts")).sort()) {
-      const mod = await import(pathToFileURL(join(dir, name)).href);
+    // One file per entity, in the kind's folder or one subfolder below it
+    // (characters/secondary/). The ref is kind/id either way.
+    const files = readdirSync(join(ROOT, kind), { withFileTypes: true }).flatMap((d) =>
+      d.isDirectory()
+        ? readdirSync(join(ROOT, kind, d.name)).filter((f) => f.endsWith(".ts")).map((f) => `${d.name}/${f}`)
+        : d.name.endsWith(".ts") ? [d.name] : []).sort();
+    for (const name of files) {
+      const mod = await import(pathToFileURL(join(ROOT, kind, name)).href);
       const cls = mod.default as Ctor;
       const instance = new cls() as Entity;
       entities.push({
@@ -49,7 +54,8 @@ export async function loadWorld(): Promise<World> {
       });
     }
   }
-  const stubs = await import(pathToFileURL(join(ROOT, "stubs.ts")).href);
+  const stubFile = join(ROOT, "stubs.ts");
+  const stubs = existsSync(stubFile) ? await import(pathToFileURL(stubFile).href) : {};
   for (const [exportName, cls] of Object.entries(stubs) as [string, Ctor][]) {
     const instance = new cls() as Stub;
     const kind: Kind =
