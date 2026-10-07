@@ -33,9 +33,9 @@ Read all files in these folders to understand current state:
    - `inspirations/` — films, books, music, references
 
 7. **File templates** — New characters, events, and locations follow the templates. No other sections allowed.
-    - Characters → [`characters/_template.md`](characters/_template.md)
-    - Events → [`events/_template.md`](events/_template.md)
-    - Locations → [`locations/_template.md`](locations/_template.md)
+    - Characters → [`characters/_template.md`](../characters/_template.md)
+    - Events → [`events/_template.md`](../events/_template.md)
+    - Locations → [`locations/_template.md`](../locations/_template.md)
 
 8. **Placeholder naming** — Use `%PLACEHOLDER%` syntax until a character or place has a final name. **Never swap placeholders for real names unless explicitly told to.**
 

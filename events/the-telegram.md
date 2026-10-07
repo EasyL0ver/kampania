@@ -1,7 +1,7 @@
 # The Telegram
 
 **Location:** [Zbigniew Gajda's office](../locations/wojewodas-house.md)
-**Present:** [%OPERATOR%](../characters/secondary/operator.md#operator-the-telephone-exchange-operator), [Zbigniew Gajda](../characters/wojewoda.md) (if in his office)
+**Present:** [%OPERATOR%](../characters/jagna.md), [Zbigniew Gajda](../characters/wojewoda.md) (if in his office)
 **Available:** Day 3 onward, during [the flood](the-flood.md), while the committee is on the line with the exchange (during [Operator Refuses Help](operator-refuses-help.md)).
 
 ## Trigger
@@ -26,13 +26,13 @@
 
 ## Opportunities
 
-- **Zbigniew hears the name** `(requires: Empathy, Zbigniew present)` — he keeps his face still, but Barnaś is a man he helped drown; a held breath, a beat too long before he hands the receiver back.
-- **A sender twelve years dead** `(requires: Finesse)` — Barnaś cannot have sent a wire; someone living, with his name and a seat on the line, put it through.
+- **Zbigniew hears the name** `(when: Zbigniew present)` `(noticed by: [Empathy](../cards/empathy.md))` — he keeps his face still, but Barnaś is a man he helped drown; a held breath, a beat too long before he hands the receiver back.
+- **A sender twelve years dead** `(noticed by: [Finesse](../cards/finesse.md))` — Barnaś cannot have sent a wire; someone living, with his name and a seat on the line, put it through.
 
 ## Actions
 
 ### Act on the wire
-- **Requires:** The committee heard the relayed telegram
+- **When:** The committee heard the relayed telegram
 - **Outcome:** The committee takes the directions as a real lead: under the old garden bed behind the Barnaś house, now [Janina Gajda](../characters/ciotka.md)'s, something is buried.
 - **Gives:** [`telegram-points-to-barnas-yard`](../clues/clues.md#telegram-points-to-barnas-yard)
 

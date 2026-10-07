@@ -29,24 +29,24 @@
 
 ## Opportunities
 
-- **The shape of the fight** `(requires: present in the house and Finesse)` — the fight is about something buried from 1954, and Irena is trying to stop Zbigniew from speaking openly. → Gives: [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
-- **Who is controlling the outcome** `(requires: present in the house and Empathy)` — Zbigniew is certain, not ashamed; Irena is protecting him from the consequences of his certainty. → Gives: [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
+- **The shape of the fight** `(when: present in the house)` `(noticed by: [Finesse](../cards/finesse.md))` — the fight is about something buried from 1954, and Irena is trying to stop Zbigniew from speaking openly. → Gives: [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
+- **Who is controlling the outcome** `(when: present in the house)` `(noticed by: [Empathy](../cards/empathy.md))` — Zbigniew is certain, not ashamed; Irena is protecting him from the consequences of his certainty. → Gives: [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
 
 ## Actions
 
 ### Strain to catch it
-- **Requires:** Present in the house when the fight starts
-- **Cost:** Free; 1 composure to stay pressed to the wall for the whole argument
+- **When:** Present in the house when the fight starts
+- **Cost:** 1 composure
 - **Outcome:** The players do not hear a full confession, but they learn that Zbigniew is guilty of a 1954 crime, is not sorry, considered bringing it into the open, and was stopped by Irena.
 - **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
 
 ### Open the door
-- **Requires:** Present in the house when the fight starts
+- **When:** Present in the house when the fight starts
 - **Outcome:** The argument stops immediately; Zbigniew restores his public mask and Irena physically places herself between him and the players.
 - **Gives:** NPC State Change: Irena shifts from investigator to protector; her parallel investigation closes and Marek is pulled home
 
 ### Approach Irena afterward
-- **Requires:** Overheard or interrupted the fight; catch Irena alone afterward
+- **When:** Overheard or interrupted the fight; catch Irena alone afterward
 - **Cost:** 1 time
 - **Outcome:** Irena confirms by behavior that her cooperation is over and that she will keep Zbigniew silent and protected.
 - **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband); World State Change: Irena's cooperation ends and her parallel leads dry up

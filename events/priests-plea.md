@@ -37,36 +37,35 @@
 
 ## Opportunities
 
-- **The reversed confession** `(requires: Empathy)` — ks. Pająk has come to a layperson for reassurance a priest is supposed to give. He is frightened.
-- **The judgment pattern** `(requires: Culture or History)` — every scripture example he reaches for is a judgment narrative. His fear points toward the valley deserving to drown.
-- **The unnamed sin** `(requires: Devotion)` — he is not speaking generally. He knows a specific sin.
-- **The collar gesture** `(requires: Devotion)` — the confessional seal is the wall keeping his knowledge in. He is exhausted by holding it.
-- **The brand on the paper** `(requires: Chainsmoker and [`priest-smokes`](../clues/clues.md#priest-smokes))` — with the cigarette lit, a smoker reads the brand off the paper at once: premium Carmen, the same the village would name at Janina's door. → Gives: [`priest-smokes-carmen`](../clues/clues.md#priest-smokes-carmen)
+- **The reversed confession** `(noticed by: [Empathy](../cards/empathy.md))` — ks. Pająk has come to a layperson for reassurance a priest is supposed to give. He is frightened.
+- **The judgment pattern** `(noticed by: [Culture](../cards/culture.md) OR [History](../cards/history.md))` — every scripture example he reaches for is a judgment narrative. His fear points toward the valley deserving to drown.
+- **The unnamed sin** `(noticed by: [Devotion](../cards/devotion.md))` — he is not speaking generally. He knows a specific sin.
+- **The collar gesture** `(noticed by: [Devotion](../cards/devotion.md))` — the confessional seal is the wall keeping his knowledge in. He is exhausted by holding it.
+- **The brand on the paper** `(noticed by: [Chainsmoker](../cards/chainsmoker.md) AND [priest-smokes](../clues/clues.md#priest-smokes))` — with the cigarette lit, a smoker reads the brand off the paper at once: premium Carmen, the same the village would name at Janina's door. → Gives: [`priest-smokes-carmen`](../clues/clues.md#priest-smokes-carmen)
 
 ## Actions
 
 ### Tell him people can be forgiven
-- **Requires:** The player answers his question toward mercy.
+- **When:** The player answers his question toward mercy.
 - **Outcome:** ks. Pająk steadies. Mercy becomes a possible answer to his crisis.
 - **Gives:** NPC State Change: the Grace arc opens; Ending Progress: +2 to the [Faith in Redemption](../story-facts/spiritual-endings.md) score; [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
 
 ### Ask him what he needs
-- **Requires:** Nothing
 - **Outcome:** ks. Pająk says the lost must be brought back to God before the water comes, especially those with the most to answer for.
 - **Gives:** NPC State Change: players know the Grace path requires getting the guilty to confess; [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
 
 ### Push him to name the sin
-- **Requires:** The player presses him to say what he knows.
+- **When:** The player presses him to say what he knows.
 - **Outcome:** ks. Pająk refuses to betray the confessional and ends the meeting.
 - **Gives:** NPC State Change: his bond with that player cools; Ending Progress: -2 to the [Faith in Redemption](../story-facts/spiritual-endings.md) score
 
 ### Tell him the valley deserves judgment
-- **Requires:** The player answers his question toward condemnation.
+- **When:** The player answers his question toward condemnation.
 - **Outcome:** ks. Pająk leans harder toward judgment.
 - **Gives:** NPC State Change: the Grace path narrows; Ending Progress: -2 to the [Faith in Redemption](../story-facts/spiritual-endings.md) score; [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
 
 ### Share his cigarette
-- **Requires:** ks. Pająk genuinely trusts the player (mercy supported, or a personal confidence shared in return)
+- **When:** ks. Pająk genuinely trusts the player (mercy supported, or a personal confidence shared in return)
 - **Prompted by:** aware:events/priests-plea.md
 - **Outcome:** He drops the pretence, takes out a cigarette for himself and offers one to the player. The habit he hides from the village is plain.
 - **Gives:** [`priest-smokes`](../clues/clues.md#priest-smokes)

@@ -34,21 +34,21 @@
 
 ## Opportunities
 
-- **The plan is sound** `(requires: Handiwork or Geology or holding [`gap-is-blocked`](../clues/clues.md#gap-is-blocked))` — The plug dooms the village, the debris is breachable, and floodwater will widen a breach. → Gives: [`gap-is-blocked`](../clues/clues.md#gap-is-blocked)
-- **The ordnance risk** `(requires: Handiwork or History)` — Twenty-year-old buried munitions may detonate from a knock, drop, spark, or heat.
-- **Pytlak's state** `(requires: Medicine)` — [Michał Pytlak](../characters/foreman.md)'s lack of sleep, food, cold response, and pain response is not normal endurance.
-- **Zofia at the edges** `(requires: Empathy)` — [Zofia Pytlak](../characters/zofia.md) is weighing the village against her husband.
+- **The plan is sound** `(noticed by: [Handiwork](../cards/handiwork.md) OR [Geology](../cards/geology.md) OR [gap-is-blocked](../clues/clues.md#gap-is-blocked))` — The plug dooms the village, the debris is breachable, and floodwater will widen a breach. → Gives: [`gap-is-blocked`](../clues/clues.md#gap-is-blocked)
+- **The ordnance risk** `(noticed by: [Handiwork](../cards/handiwork.md) OR [History](../cards/history.md))` — Twenty-year-old buried munitions may detonate from a knock, drop, spark, or heat.
+- **Pytlak's state** `(noticed by: [Medicine](../cards/medicine.md))` — [Michał Pytlak](../characters/foreman.md)'s lack of sleep, food, cold response, and pain response is not normal endurance.
+- **Zofia at the edges** `(noticed by: [Empathy](../cards/empathy.md))` — [Zofia Pytlak](../characters/zofia.md) is weighing the village against her husband.
 
 ## Actions
 
 ### Believe him — commit to the plan
-- **Requires:** Walked the plan or holds survey proof.
+- **When:** Walked the plan or holds survey proof.
 - **Cost:** 1 time
 - **Outcome:** The committee backs [Michał Pytlak](../characters/foreman.md)'s water-gap plan.
 - **Gives:** Ending Progress: the engineering ending is live.
 
 ### Get the explosives from the bunker
-- **Requires:** Committed to the plan and access to the [UPA bunker](../locations/upa-bunker.md).
+- **When:** Committed to the plan and access to the [UPA bunker](../locations/upa-bunker.md).
 - **Cost:** 1 time
 - **Outcome:** The committee recovers usable old partisan charges from the bunker.
 - **Gives:** Item: [the makeshift charge](../items/makeshift-charge.md), sufficient to breach the plug; Scene Unlock: [Climb the Plug in the Rain](climb-the-plug-in-the-rain.md)

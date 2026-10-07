@@ -6,6 +6,10 @@
 **Available:** Requires forest exploration or following Tadek's crew from [Village Outskirts](village-outskirts.md#follow-the-drinking-crew)
 **Cost:** 1 action per visit
 
+## Hook
+
+- A forest clearing by a stream between %NEW_VILLAGE% and %OLD_VILLAGE%.
+
 ## Setup
 
 - **Site:** Crude copper still under camouflage netting.
@@ -23,17 +27,17 @@
 
 ## Opportunities
 
-- **Worked still** `(requires: Finesse)` — The operation is commercial scale, old, and tolerated. → Gives: [bimber-still](../clues/clues.md#bimber-still)
-- **Sugar sacks** `(requires: Bureaucracy or Finesse)` — The sugar supply traces to [Helena Rzepka](../characters/matrona.md)'s [store](the-store.md), which means she profits from the operation. → Gives: [bimber-still](../clues/clues.md#bimber-still)
-- **No deeper cache** `(requires: Finesse and searched the site)` — The site is exactly what it looks like: moonshine production, not a murder cache. → Gives: [bimber-still](../clues/clues.md#bimber-still)
-- **Carpet of cheap butts** `(requires: Finesse, Survival, or Chainsmoker)` `(prompted by: aware:locations/bimber-still.md)` — The ground is littered with butts, all the cheapest Sport, [Tadek](../characters/wujas.md)'s brand. Nothing premium here, no Carmen: the brand marks the man. → Gives: [tadek-smokes-cheapest](../clues/clues.md#tadek-smokes-cheapest)
-- **The last survey crew** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek)` `(prompted by: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated))` — The crew laugh about the state surveyors who came before: they drank more than they measured, drove a few stakes, and left early. → Gives: [geologists-were-drinking](../clues/clues.md#geologists-were-drinking)
-- **Ribbed as one of them** `(requires: Geology and wujas: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The crew clock the geologist for what they are and lean into the joke: survey men are all famous drunks, and the last lot who came drank through their whole visit. → Gives: [surveyors-are-known-drunks](../clues/clues.md#surveyors-are-known-drunks)
+- **Worked still** `(noticed by: [Finesse](../cards/finesse.md))` — The operation is commercial scale, old, and tolerated. → Gives: [bimber-still](../clues/clues.md#bimber-still)
+- **Sugar sacks** `(noticed by: [Bureaucracy](../cards/bureaucracy.md) OR [Finesse](../cards/finesse.md))` — The sugar supply traces to [Helena Rzepka](../characters/matrona.md)'s [store](the-store.md), which means she profits from the operation. → Gives: [bimber-still](../clues/clues.md#bimber-still)
+- **No deeper cache** `(when: searched the site)` `(noticed by: [Finesse](../cards/finesse.md))` — The site is exactly what it looks like: moonshine production, not a murder cache. → Gives: [bimber-still](../clues/clues.md#bimber-still)
+- **Carpet of cheap butts** `(noticed by: [Finesse](../cards/finesse.md) OR [Survival](../cards/survival.md) OR [Chainsmoker](../cards/chainsmoker.md))` `(prompted by: aware:locations/bimber-still.md)` — The ground is littered with butts, all the cheapest Sport, [Tadek](../characters/wujas.md)'s brand. Nothing premium here, no Carmen: the brand marks the man. → Gives: [tadek-smokes-cheapest](../clues/clues.md#tadek-smokes-cheapest)
+- **The last survey crew** `(when: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek)` `(prompted by: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated))` — The crew laugh about the state surveyors who came before: they drank more than they measured, drove a few stakes, and left early. → Gives: [geologists-were-drinking](../clues/clues.md#geologists-were-drinking)
+- **Ribbed as one of them** `(when: wujas: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` `(noticed by: [Geology](../cards/geology.md))` — The crew clock the geologist for what they are and lean into the joke: survey men are all famous drunks, and the last lot who came drank through their whole visit. → Gives: [surveyors-are-known-drunks](../clues/clues.md#surveyors-are-known-drunks)
 
 ## Actions
 
 ### Sit down and drink with the crew
-- **Requires:** Crew present; Drink or Alcoholic; hands off the still
+- **When:** Crew present; Drink or Alcoholic; hands off the still
 - **Cost:** 1 time
 - **Outcome:** The committee takes the offered bottle and makes it clear they are not here to shut the still down. The crew relaxes and the night turns into a session. Tadek warms to whoever kept pace without judging him.
 - **Gives:** NPC State Change: the drinking PCs become Tadek's [drinking buddies](../characters/wujas.md#drinking-buddy).

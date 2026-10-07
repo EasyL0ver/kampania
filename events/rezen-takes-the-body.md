@@ -2,7 +2,7 @@
 
 **Location:** [The church](../locations/the-church.md), then [the well](../locations/old-village-ruins.md)
 **Present:** [Stanisław Rezeń](../characters/butcher.md) (if alive and loose), his dogs
-**Available:** Night of Day 5 into Day 6 morning; requires the [flood](the-flood.md) to have postponed Janina's [burial](funeral-mass.md#the-flood-postpones-burial).
+**Available:** Night of Day 5 into Day 6 morning; requires the [flood](the-flood.md) to have postponed Janina's [burial](funeral-mass.md).
 
 ## Trigger
 
@@ -38,27 +38,27 @@
 
 ## Opportunities
 
-- **The drag trail** `(requires: Survival)` — the trail is fresh, made within the last few hours, and points straight toward [%OLD_VILLAGE%](../locations/old-village-ruins.md). → Gives: [`ciotka-body-taken`](../clues/clues.md#ciotka-body-taken)
-- **The empty coffin** `(requires: Finesse)` — there is no sign of struggle, theft, or vandalism. Whoever came wanted the body only.
-- **The dogs** `(requires: Survival)` — the dogs are Rezeń's dogs and move between the church and the forest path.
-- **Rezeń's calm** `(requires: Empathy)` — he is steadier after taking the body than he has been in days.
+- **The drag trail** `(noticed by: [Survival](../cards/survival.md))` — the trail is fresh, made within the last few hours, and points straight toward [%OLD_VILLAGE%](../locations/old-village-ruins.md). → Gives: [`ciotka-body-taken`](../clues/clues.md#ciotka-body-taken)
+- **The empty coffin** `(noticed by: [Finesse](../cards/finesse.md))` — there is no sign of struggle, theft, or vandalism. Whoever came wanted the body only.
+- **The dogs** `(noticed by: [Survival](../cards/survival.md))` — the dogs are Rezeń's dogs and move between the church and the forest path.
+- **Rezeń's calm** `(noticed by: [Empathy](../cards/empathy.md))` — he is steadier after taking the body than he has been in days.
 
 ## Actions
 
 ### Keep vigil over the body
-- **Requires:** Players chose to stay with the coffin overnight after the [postponed burial](funeral-mass.md#the-flood-postpones-burial).
-- **Cost:** A night; no rest; exhaustion the next day
+- **When:** Players chose to stay with the coffin overnight after the [postponed burial](funeral-mass.md).
+- **Cost:** 4 time
 - **Outcome:** Rezeń comes for the body after midnight, stops when caught, explains himself, and leaves without the body.
 - **Gives:** World State Change: [`rezen-fed-ciotka-to-well`](../clues/clues.md#rezen-fed-ciotka-to-well) does not happen; [`butcher-dumps-carcasses-in-well`](../clues/clues.md#butcher-dumps-carcasses-in-well)
 
 ### Follow the drag trail
-- **Requires:** Found the empty coffin and the trail.
+- **When:** Found the empty coffin and the trail.
 - **Cost:** 1 time
 - **Outcome:** The trail reaches the well in [%OLD_VILLAGE%](../locations/old-village-ruins.md); a shawl or shoe is caught on the stone; Rezeń's tracks lead back to [his house](../locations/butchers-house.md).
 - **Gives:** [`ciotka-body-taken`](../clues/clues.md#ciotka-body-taken)
 
 ### Confront Rezeń
-- **Requires:** Caught him at the church, or tracked the body to him.
+- **When:** Caught him at the church, or tracked the body to him.
 - **Cost:** 1 time
 - **Outcome:** Rezeń does not deny taking the body. He says the flood left Janina unburied, the body was turning, and the well is where he put her.
 - **Gives:** [`rezen-fed-ciotka-to-well`](../clues/clues.md#rezen-fed-ciotka-to-well); NPC State Change: village suspicion of Rezeń hardens if this becomes public; Ending Progress: Punishment / mob-justice ending against Rezeń advances

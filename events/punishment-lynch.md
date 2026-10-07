@@ -41,50 +41,49 @@
 
 ## Opportunities
 
-- **The office state** `(requires: Finesse)` — the dark locked office or the man on the steps shows whether [Irena](irena-confronts-wojewoda.md) reached Zbigniew.
-- **The mob's structure** `(requires: Finesse)` — only a handful of men are driving the lynch. Most are drunk followers. Dudka is the main driver unless [Barbara](#setup) is present.
-- **The target** `(requires: Violence)` — the target may be guilty, innocent, or one of the players. The mob treats the distinction as irrelevant.
-- **Dudka's face** `(requires: Empathy)` — he is acting from guilt over his own inaction, not certainty.
-- **The repetition** `(requires: History or Culture)` — the same drink, dark road, and well repeat the 1954 pattern.
+- **The office state** `(noticed by: [Finesse](../cards/finesse.md))` — the dark locked office or the man on the steps shows whether [Irena](irena-confronts-wojewoda.md) reached Zbigniew.
+- **The mob's structure** `(noticed by: [Finesse](../cards/finesse.md))` — only a handful of men are driving the lynch. Most are drunk followers. Dudka is the main driver unless [Barbara](#setup) is present.
+- **The target** `(noticed by: [Violence](../cards/violence.md))` — the target may be guilty, innocent, or one of the players. The mob treats the distinction as irrelevant.
+- **Dudka's face** `(noticed by: [Empathy](../cards/empathy.md))` — he is acting from guilt over his own inaction, not certainty.
+- **The repetition** `(noticed by: [History](../cards/history.md) OR [Culture](../cards/culture.md))` — the same drink, dark road, and well repeat the 1954 pattern.
 
 ## Actions
 
 ### Back Zbigniew on the steps
-- **Requires:** Zbigniew is breaking and a player stands with him.
+- **When:** Zbigniew is breaking and a player stands with him.
 - **Cost:** 1 composure
 - **Outcome:** The crowd hesitates longer at the office.
 - **Gives:** World State Change: the mob is one step more turnable at the well; NPC State Change: if Zbigniew lives, he remembers who stood with him
 
-### Feed Zbigniew to the mob
-- **Requires:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband) or other proof Zbigniew was one of the killers.
+### Tell the mob Zbigniew was one of the killers
+- **Prompted by:** [wife-protects-husband](../clues/clues.md#wife-protects-husband), [wojewoda-participated-in-lynch](../clues/clues.md#wojewoda-participated-in-lynch)
 - **Outcome:** The crowd's aim swings toward Zbigniew at the office.
 - **Gives:** World State Change: Zbigniew enters [Dudka's targeting score](../characters/neighbour.md#lynch-targets) high; World State Change: the leash on [Rezeń](../characters/butcher.md) is cut
 
 ### Turn the aim onto a perpetrator
-- **Requires:** Proof that points at Rezeń, a sibling, Helena, or a breaking Zbigniew.
+- **When:** Proof that points at Rezeń, a sibling, Helena, or a breaking Zbigniew.
 - **Outcome:** The crowd accepts a guilty target and carries that target to the well.
 - **Gives:** World State Change: the lynch completes on a perpetrator; Ending Progress: Punishment / mob-justice ending advances
 
 ### Turn the aim off an innocent
-- **Requires:** The current target from [Dudka's targeting score](../characters/neighbour.md#lynch-targets) is innocent, and the players provide a different name with weight.
+- **When:** The current target from [Dudka's targeting score](../characters/neighbour.md#lynch-targets) is innocent, and the players provide a different name with weight.
 - **Cost:** 1 composure
 - **Outcome:** The mob leaves the innocent target and takes the replacement target.
 - **Gives:** World State Change: the target shifts; Ending Progress: the well still takes a body
 
 ### Put yourself between them and the target
-- **Requires:** A player physically steps in front of the rifle.
-- **Cost:** Grave
+- **When:** A player physically steps in front of the rifle.
+- **Cost:** 1 composure
 - **Outcome:** The target can be saved; the mob may take the player instead.
 - **Gives:** World State Change: the original target is saved; World State Change: a player may die in the target's place
 
 ### Convince Dudka justice will be delivered
-- **Requires:** Bond with [Ryszard Dudka](../characters/neighbour.md#bond), or Dudka is not [Humiliated](../characters/neighbour.md#humiliated), or Dudka has been [Uplifted](../characters/neighbour.md#uplift-ryszard); and proof that justice is already moving.
+- **When:** Bond with [Ryszard Dudka](../characters/neighbour.md#bond), or Dudka is not [Humiliated](../characters/neighbour.md#humiliated), or Dudka has been [Uplifted](../characters/neighbour.md#uplift-ryszard); and proof that justice is already moving.
 - **Cost:** 1 composure
 - **Outcome:** Dudka lowers the rifle, gives testimony, and the denied mob turns on him.
 - **Gives:** World State Change: the intended target lives; World State Change: [Dudka](../characters/neighbour.md) dies in the well; Ending Progress: the truth is on record toward [Justice](../story-facts/game-system.md#endings)
 
 ### Let it run
-- **Requires:** Nothing
 - **Outcome:** The mob goes to the well and the target from [Dudka's targeting score](../characters/neighbour.md#lynch-targets) goes in.
 - **Gives:** World State Change: the lynch completes; Ending Progress: Punishment / mob-justice ending advances
 

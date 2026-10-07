@@ -6,6 +6,10 @@
 **Available:** Requires forest exploration; ventilation shafts or entrance must be found.
 **Cost:** 1 action to explore
 
+## Hook
+
+- A dug-out bunker hidden in the forest northwest of %NEW_VILLAGE%.
+
 ## Setup
 
 - The bunker is an abandoned partisan ziemianka built in the mid-1940s.
@@ -24,20 +28,20 @@
 
 ## Opportunities
 
-- **Ventilation shafts** `(requires: Survival)` — The shafts reveal an underground structure in the hillside. → Gives: aware:locations/upa-bunker.md
-- **UPA weapons and insignia** `(requires: History)` — The rusted weapons and markings show partisan presence. → Gives: [old-wartime-positions](../clues/clues.md#old-wartime-positions)
-- **Dmytro Kosach's cache** `(requires: Search inside the bunker and Language)` `(prompted by: aware:locations/upa-bunker.md)` — The carved name, cache, and journal fragment connect Dmytro Kosach to the bunker and to [Paraskewia Chyłak's cabin](hags-cabin.md). → Gives: aware:characters/dmytro-kosach.md
+- **Ventilation shafts** `(noticed by: [Survival](../cards/survival.md))` — The shafts reveal an underground structure in the hillside. → Gives: aware:locations/upa-bunker.md
+- **UPA weapons and insignia** `(noticed by: [History](../cards/history.md))` — The rusted weapons and markings show partisan presence. → Gives: [old-wartime-positions](../clues/clues.md#old-wartime-positions)
+- **Dmytro Kosach's cache** `(when: Search inside the bunker)` `(noticed by: [Language](../cards/language.md))` `(prompted by: aware:locations/upa-bunker.md)` — The carved name, cache, and journal fragment connect Dmytro Kosach to the bunker and to [Paraskewia Chyłak's cabin](hags-cabin.md). → Gives: aware:characters/dmytro-kosach.md
 
 ## Actions
 
 ### Explore the bunker
-- **Requires:** aware:locations/upa-bunker.md, or visible ventilation shafts or entrance
+- **When:** aware:locations/upa-bunker.md, or visible ventilation shafts or entrance
 - **Cost:** 1 time
 - **Outcome:** The party enters the abandoned bunker and confirms old partisan use.
 - **Gives:** aware:locations/upa-bunker.md; [old-wartime-positions](../clues/clues.md#old-wartime-positions)
 
 ### Search Dmytro Kosach's cache
-- **Requires:** Explored the bunker
+- **When:** Explored the bunker
 - **Cost:** 1 time
 - **Outcome:** The search finds the Д. КОСАЧ carving, a rusted pistol, spare ammunition, and a Ukrainian journal fragment.
 - **Gives:** aware:characters/dmytro-kosach.md; Item: rusted pistol; Item: spare ammunition; Item: journal fragment

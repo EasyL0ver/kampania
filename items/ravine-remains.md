@@ -14,17 +14,31 @@ A rotted coat, its colour long gone to the soil, and a scatter of bones — inco
 
 ## Actions
 
-### Examine the remains (Medicine)
-- **Requires:** The **Medicine** skill; holding the remains
+### First examination of the remains
+- **Requires:** [Medicine](../cards/medicine.md) AND [Remains from the Ravine](ravine-remains.md)
 - **Prompted by:** [dudka-buried-a-friend-at-the-ravine](../clues/clues.md#dudka-buried-a-friend-at-the-ravine)
-- **Cost:** 1 card per examination — the reading deepens each time, up to three
-- **Outcome:** These are not scraps that give up their story at a glance. A trained examiner working over the bones draws out one more fact each time they sit with them — but every card spent is a card not spent elsewhere. Progressive, in order:
-  1. **First examination — it's a woman.** The pelvis and the surviving long bones read female. Whoever this was, she was a grown woman, not a child. **Gives:** [`ravine-remains-a-woman`](../clues/clues.md#ravine-remains-a-woman)
-  2. **Second examination — she died from a fall.** The fracture pattern tells it: multiple breaks from a single heavy impact — ribs, a long bone, the way they splintered. Not a beating, not a blade. She fell from a height onto hard ground. Consistent with going over the edge of the ravine this meadow overlooks. **Gives:** [`ravine-remains-died-from-fall`](../clues/clues.md#ravine-remains-died-from-fall)
-  3. **Third examination — she was around thirty.** Bone density, joint wear, the fused ends of the long bones put her near thirty, give or take a couple of years. Not a teenager. A woman in her thirties. **Gives:** [`ravine-remains-around-30`](../clues/clues.md#ravine-remains-around-30)
+- **Cost:** 1 time
+- **Outcome:** The pelvis and the surviving long bones read female. Whoever this was, she was a grown woman, not a child.
+- **Gives:** [`ravine-remains-a-woman`](../clues/clues.md#ravine-remains-a-woman)
 
+### Second examination of the remains
+- **Requires:** [Medicine](../cards/medicine.md) AND [Remains from the Ravine](ravine-remains.md)
+- **When:** the first examination is done
+- **Prompted by:** [ravine-remains-a-woman](../clues/clues.md#ravine-remains-a-woman)
+- **Cost:** 1 time
+- **Outcome:** The fracture pattern tells it: multiple breaks from a single heavy impact, ribs and a long bone splintered. Not a beating, not a blade. She fell from a height onto hard ground, consistent with going over the edge of the ravine this meadow overlooks.
+- **Gives:** [`ravine-remains-died-from-fall`](../clues/clues.md#ravine-remains-died-from-fall)
+
+### Third examination of the remains
+- **Requires:** [Medicine](../cards/medicine.md) AND [Remains from the Ravine](ravine-remains.md)
+- **When:** the second examination is done
+- **Prompted by:** [ravine-remains-died-from-fall](../clues/clues.md#ravine-remains-died-from-fall)
+- **Cost:** 1 time
+- **Outcome:** Bone density, joint wear and the fused ends of the long bones put her near thirty, give or take a couple of years. A woman in her thirties.
+- **Gives:** [`ravine-remains-around-30`](../clues/clues.md#ravine-remains-around-30)
 ### Give the remains a burial
-- **Requires:** Holding the remains; a willing officiant — [ks. Władysław Pająk](../characters/priest.md), or the players themselves
+- **Requires:** [Remains from the Ravine](ravine-remains.md)
+- **When:** a willing officiant — [ks. Władysław Pająk](../characters/priest.md), or the players themselves
 - **Cost:** 1 time
 - **Outcome:** The bones go back into the ground with words said over them — in the churchyard, or wherever the players choose. Whoever she was, someone finally treated her as a person with a name, even if the name is a guess. It settles nothing factual and it changes the people who do it.
 - **Gives:** World State Change — the remains are laid to rest; the players have chosen to honor a death they can't prove. (If the priest officiates, cross-reference his reaction in [ks. Władysław Pająk](../characters/priest.md).)

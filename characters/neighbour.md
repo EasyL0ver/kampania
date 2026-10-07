@@ -29,12 +29,12 @@ He speaks in short flat sentences with long pauses. He goes quieter when angry, 
 
 ## Opinions
 
-- **[Barbara Kopacz](barbara.md)** — She and Pawełek are the only good thing left. I bring firewood, watch the boy, fix what breaks, and listen when she talks over the fence.
-- **[Stanisław Rezeń](butcher.md)** — I hate him and fear him in equal measure. If the village finds out I talked, he will not hesitate with me.
-- **[Janina Gajda](ciotka.md)** — I have watched her tend that boy for thirteen years. I know what she did that night, and I know what it cost her.
-- **[Edward Barnaś](soldier.md)** — He left. Walked out and abandoned that slow boy behind him. Whatever else a man is, you do not do that.
-- **[Edek Barnaś](glupek.md)** — He is the living reminder. I heard what happened to him and did nothing.
-- **`wujas-is-guilty`:** Lots of men drink for bad reasons. I will not say more unless something breaks.
+- **[Barbara Kopacz](barbara.md)** — "She and Pawełek are the only good thing left. I bring firewood, watch the boy, fix what breaks, and listen when she talks over the fence."
+- **[Stanisław Rezeń](butcher.md)** — "I hate him and fear him in equal measure. If the village finds out I talked, he will not hesitate with me."
+- **[Janina Gajda](ciotka.md)** — "I have watched her tend that boy for thirteen years. I know what she did that night, and I know what it cost her."
+- **[Edward Barnaś](soldier.md)** — "He left. Walked out and abandoned that slow boy behind him. Whatever else a man is, you do not do that."
+- **[Edek Barnaś](glupek.md)** — "He is the living reminder. I heard what happened to him and did nothing."
+- **[wujas-is-guilty](../clues/clues.md#wujas-is-guilty)** — "Lots of men drink for bad reasons. I will not say more unless something breaks."
 
 ## Mechanics
 
@@ -91,47 +91,43 @@ While Humiliated:
 ## Actions
 
 ### Census interview
-- **Requires:** Committee authority
 - **Prompted by:** aware:characters/neighbour.md
 - **Cost:** 1 time
 - **Outcome:** He starts hostile to government people in his home, then cooperates with clipped answers. The household record notes the licensed hunting rifle on the wall.
 - **Gives:** Census data — Ryszard Dudka, farmer; [neighbour-has-rifle](../clues/clues.md#neighbour-has-rifle)
 
 ### Property assessment
-- **Requires:** Committee authority
 - **Prompted by:** aware:characters/neighbour.md
 - **Cost:** 1 time
 - **Outcome:** He identifies his house and plot next to [Janina's](../locations/ciotkas-house.md). His papers are in order and his answers stay clipped — the record shows he has held the plot since ~1948.
 - **Gives:** Property record — Dudka house and farmland; [neighbour-is-old-settler](../clues/clues.md#neighbour-is-old-settler)
 
 ### Ask about the teenage girl
-- **Requires:** Nothing
 - **Prompted by:** [dress-belonged-to-teenage-girl](../clues/clues.md#dress-belonged-to-teenage-girl)
 - **Outcome:** Asked about the girl who lived with the Barnaś family, he confirms they had a teenage daughter, names her Hania, and claims she left with her father years back.
 - **Gives:** [barnas-had-a-daughter-hania](../clues/clues.md#barnas-had-a-daughter-hania), aware:characters/jagna.md
 
 ### Ask about old Barnaś
-- **Requires:** Nothing
 - **Prompted by:** aware:characters/soldier.md
 - **Outcome:** He knew the man from the first day, next fence over, and says it flat and without warmth: Barnaś was a soldier, KBW, came into the valley with the resettlement in '47 and never left. He has no good word for him.
 - **Gives:** [soldier-was-kbw](../clues/clues.md#soldier-was-kbw); [soldier-served-in-akcja-wisla](../clues/clues.md#soldier-served-in-akcja-wisla)
 
 ### Ask about Ciotka's visitors
-- **Requires:** He liked the players; they ask who came to Janina's house before she died
+- **When:** He liked the players; they ask who came to Janina's house before she died
 - **Prompted by:** [ciotka-had-a-visitor](../clues/clues.md#ciotka-had-a-visitor)
 - **Outcome:** He says the day before she died, the Wojewoda's boy came and the two of them fought. He heard the raised voices carry over the fence.
 - **Gives:** [junior-pressed-ciotka](../clues/clues.md#junior-pressed-ciotka)
 
 ### Uplift Ryszard
-- **Requires:** [Humiliated](#humiliated), and Empathy or Speech
+- **When:** [Humiliated](#humiliated), and Empathy or Speech
 - **Outcome:** The player puts the steel back in him and gives him his face back.
-- **Gives:** NPC State Change: clears [Humiliated](#humiliated); in [the well](../events/well-confrontation.md#dudkas-rifle-if-he-is-present), he can hold the rifle on Rezeń.
+- **Gives:** NPC State Change: clears [Humiliated](#humiliated); in [the well](../events/well-confrontation.md#dudkas-rifle), he can hold the rifle on Rezeń.
 
 ## Bond
 
 - [ ] **Treat Barbara and Pawełek as people, not sources** — ask after them, help the boy, notice the one clean thing in his life
 - [ ] **Meet his 1954 guilt without contempt** — when the inaction surfaces, don't call him a coward; let it stand
-- [ ] **Stand with him against Rezeń** — back him in a real moment instead of leaving him alone with it: defuse [the clash](../events/hunters-cross-paths.md) in his favour, [Uplift him](#uplift-ryszard), or stand beside him at [the well](../events/well-confrontation.md#dudkas-rifle-if-he-is-present)
+- [ ] **Stand with him against Rezeń** — back him in a real moment instead of leaving him alone with it: defuse [the clash](../events/hunters-cross-paths.md) in his favour, [Uplift him](#uplift-ryszard), or stand beside him at [the well](../events/well-confrontation.md#dudkas-rifle)
 
 ## Grudge
 

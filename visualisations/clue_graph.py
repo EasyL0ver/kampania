@@ -57,9 +57,10 @@ NPC_PREFIX = re.compile(r"^\s*([a-z][a-z0-9-]*)\s*:")
 MD_LINK = re.compile(r"\]\(([^)]+?\.md)(?:#[^)]*)?\)")
 H1 = re.compile(r"^#\s+(.*)")
 HEADING = re.compile(r"^(#{2,6})\s+(.*)")
-FIELD = re.compile(r"\*\*(Requires|Prompted by|Cost|Outcome|Gives):\*\*\s*(.*)")
+FIELD = re.compile(r"\*\*(Requires|When|Prompted by|Cost|Outcome|Gives):\*\*\s*(.*)")
 OPP_NAME = re.compile(r"^\s*-\s*\*\*(.+?)\*\*")
-REQ_TAG = re.compile(r"\(requires:\s*(.*?)\)\s*`", re.IGNORECASE)
+NOTICED_TAG = re.compile(r"`\(noticed by:\s*(.*?)\)`", re.IGNORECASE)
+WHEN_TAG = re.compile(r"`\(when:\s*(.*?)\)`", re.IGNORECASE)
 PROMPT_TAG = re.compile(r"\(prompted by:\s*(.*?)\)\s*`", re.IGNORECASE)
 # "aware:<repo-relative-path>.md" is an awareness token: the existence of a
 # scene entity (character/item/location/event). It behaves as a pseudo-clue
@@ -295,14 +296,17 @@ def _parse_opportunity(line: str, rel: str, title: str) -> Node | None:
         id=f"{rel}::{name}", name=name, kind="opportunity",
         scene=rel, scene_title=title,
     )
-    req = REQ_TAG.search(line)
-    if req:
-        node.requires_raw = req.group(1).strip()
+    # An opportunity's gate: (noticed by: ...) is who perceives it (cards, items,
+    # clues: clues here are hard edges); (when: ...) is world state, of which the
+    # graph reads only NPC-knows gates ("npc: [clue]").
+    noticed = NOTICED_TAG.search(line)
+    if noticed:
+        node.requires_raw = noticed.group(1).strip()
         node.requires_skills = extract_skills(node.requires_raw)
-        node.requires_known = [[npc, c] for npc, c in KNOWN_REQ.findall(node.requires_raw)]
-        known_c = {c for _, c in node.requires_known}
-        node.requires_clues = sorted(set(CLUE_REF.findall(node.requires_raw)) - known_c)
-        node.requires_clues += sorted({_aware_id(p) for p in AWARE_REF.findall(node.requires_raw)})
+        node.requires_clues = sorted(set(CLUE_REF.findall(node.requires_raw)))
+    when = WHEN_TAG.search(line)
+    if when:
+        node.requires_known = [[npc, c] for npc, c in KNOWN_REQ.findall(when.group(1))]
     prm = PROMPT_TAG.search(line)
     if prm:
         node.prompted_by_clues = sorted(set(CLUE_REF.findall(prm.group(1))))
@@ -318,12 +322,12 @@ def _parse_opportunity(line: str, rel: str, title: str) -> Node | None:
 
 def _parse_action_block(htitle: str, body: list[str], rel: str, title: str) -> Node | None:
     """A heading block whose body carries fields/Gives is an action giver."""
-    req_lines, out_lines, gives_lines, cost_lines, prompt_lines = [], [], [], [], []
+    req_lines, when_lines, out_lines, gives_lines, cost_lines, prompt_lines = [], [], [], [], [], []
     for line in body:
         fm = FIELD.search(line)
         if fm:
             f, txt = fm.group(1).lower(), fm.group(2)
-            {"requires": req_lines, "outcome": out_lines,
+            {"requires": req_lines, "when": when_lines, "outcome": out_lines,
              "gives": gives_lines, "cost": cost_lines,
              "prompted by": prompt_lines}[f].append(txt)
         elif "Gives:" in line:
@@ -346,12 +350,12 @@ def _parse_action_block(htitle: str, body: list[str], rel: str, title: str) -> N
         id=f"{rel}::{htitle}", name=htitle, kind="action",
         scene=rel, scene_title=title,
     )
+    # Requires gates on cards only: skills are read from it, clues never are.
+    # Clue edges come from Prompted by alone; an NPC-knows gate ("npc: [clue]")
+    # is world state and lives in When.
     node.requires_raw = " ".join(req_lines).strip()
     node.requires_skills = extract_skills(node.requires_raw)
-    node.requires_known = [[npc, c] for npc, c in KNOWN_REQ.findall(node.requires_raw)]
-    known_c = {c for _, c in node.requires_known}
-    node.requires_clues = sorted(set(CLUE_REF.findall(node.requires_raw)) - known_c)
-    node.requires_clues += sorted({_aware_id(p) for p in AWARE_REF.findall(node.requires_raw)})
+    node.requires_known = [[npc, c] for npc, c in KNOWN_REQ.findall(" ".join(when_lines))]
     prompt_text = " ".join(prompt_lines)
     node.prompted_by_clues = sorted(set(CLUE_REF.findall(prompt_text)))
     node.prompted_by_clues += sorted({_aware_id(p) for p in AWARE_REF.findall(prompt_text)})
@@ -399,7 +403,7 @@ def build_graph() -> Graph:
 
     for nodes in parsed:
         for n in nodes:
-            n.requires_known = _demote(n.requires_known, n.requires_clues)
+            n.requires_known = _demote(n.requires_known, [])
             n.requires_clues = sorted(set(n.requires_clues))
             n.gives_known = _demote(n.gives_known, n.gives_clues)
             n.gives_clues = sorted(set(n.gives_clues))

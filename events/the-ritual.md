@@ -4,15 +4,15 @@
 **Present:** [Paraskewia Chyłak](../characters/hag.md) (if survived [the confrontation](well-confrontation.md)), [Stefania Kopacz](../characters/babcia.md) (if [Barbara Kopacz](../characters/barbara.md) brought her)
 **Available:** Late game; before [the-flood](the-flood.md) claims the well, or at the [cerkiew](../locations/old-village-cerkiew.md) after that
 
-## Hook
-
-Gathering ritual materials and arranging them at the well or cerkiew.
-
 ## Trigger
 
 - The players bring the Form, the Words, and the Truth to the [well](../locations/old-village-ruins.md) or the [cerkiew](../locations/old-village-cerkiew.md).
 - The players choose to acknowledge the dead named by the [well's rising influence](../story-facts/well-influence.md).
 - [Paraskewia Chyłak](../characters/hag.md) leads the rite if present.
+
+## Hook
+
+Gathering ritual materials and arranging them at the well or cerkiew.
 
 ## Setup
 
@@ -36,24 +36,10 @@ Gathering ritual materials and arranging them at the well or cerkiew.
 
 ## Opportunities
 
-- **Lemko rite** `(requires: Culture and ritual materials visible)` — the rite uses fire, incense, offerings, and prayer for unquiet dead. → Gives: [`hag-tends-the-well`](../clues/clues.md#hag-tends-the-well), [`dead-never-mourned`](../clues/clues.md#dead-never-mourned)
-- **Paraskewia shares the burden** `(requires: [Paraskewia Chyłak](../characters/hag.md) present and Empathy)` — she lets the players speak the truth she did not know.
-- **Stefania is lucid** `(requires: [Stefania Kopacz](../characters/babcia.md) present and Empathy or Language)` — she speaks the panakhyda completely.
-- **No court required** `(requires: Culture)` — the rite requires naming and acknowledgement, not proof accepted by an authority. → Gives: [`players-supply-truth`](../clues/clues.md#players-supply-truth)
-
-## Actions
-
-### Perform the ritual
-- **Requires:** [`hag-has-the-form`](../clues/clues.md#hag-has-the-form), [`babcia-has-the-words`](../clues/clues.md#babcia-has-the-words), [`players-supply-truth`](../clues/clues.md#players-supply-truth), and at least one player willing to speak aloud
-- **Cost:** 1 time
-- **Outcome:** The players name the dead, say what was done to them, and perform the rite at the well or the cerkiew.
-- **Gives:** World State Change: the [well's nightmare pressure](../story-facts/the-well.md#the-dreams--the-only-supernatural-element) lifts; Ending Progress: the [ritual path](../story-facts/the-ritual.md) advances and remains compatible with [wife-junior-investigation](../story-facts/wife-junior-investigation.md)
-
-### Speak only the truth
-- **Requires:** [`players-supply-truth`](../clues/clues.md#players-supply-truth), but missing the Form and/or the Words
-- **Cost:** 1 time
-- **Outcome:** The players name the dead and say what happened without the full rite.
-- **Gives:** World State Change: the atmosphere loosens slightly and the dream pressure is reduced but not lifted
+- **Lemko rite** `(when: ritual materials visible)` `(noticed by: [Culture](../cards/culture.md))` — the rite uses fire, incense, offerings, and prayer for unquiet dead. → Gives: [`hag-tends-the-well`](../clues/clues.md#hag-tends-the-well), [`dead-never-mourned`](../clues/clues.md#dead-never-mourned)
+- **Paraskewia shares the burden** `(when: [Paraskewia Chyłak](../characters/hag.md) present)` `(noticed by: [Empathy](../cards/empathy.md))` — she lets the players speak the truth she did not know.
+- **Stefania is lucid** `(when: [Stefania Kopacz](../characters/babcia.md) present and Empathy or Language)` — she speaks the panakhyda completely.
+- **No court required** `(noticed by: [Culture](../cards/culture.md))` — the rite requires naming and acknowledgement, not proof accepted by an authority. → Gives: [`players-supply-truth`](../clues/clues.md#players-supply-truth)
 
 ## Exits
 

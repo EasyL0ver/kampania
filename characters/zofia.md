@@ -12,7 +12,7 @@ Zofia Pytlak, the warm, well-liked PGR cook.
 - **Born:** ~1920
 - **Age in 1967:** ~47
 - **Heritage:** Polish settler
-- **Lives in:** Pytlak household, near the PGR farm — with [Michał Pytlak](foreman.md), [Staszek Pytlak](secondary/staszek-pytlak.md)
+- **Lives in:** [%NEW_VILLAGE%](../locations/new-village.md) — the Pytlak household near the PGR farm, with [Michał Pytlak](foreman.md), [Staszek Pytlak](secondary/staszek-pytlak.md)
 - **Settled:** After 1954 — arrived with Michał Pytlak; no connection to the lynch
 
 ## Character
@@ -29,40 +29,38 @@ Her carrying voice is warm and practical. As the well takes hold, the smile stay
 
 ## Opinions
 
-- **[Michał Pytlak](foreman.md)** — I love him completely. I want him to tell the truth about the silo, and I know the flood has already beaten the farm he is trying to save.
-- **[Staszek Pytlak](secondary/staszek-pytlak.md)** — My son is my reason for everything. If the worst comes, I will make sure he is safe before I let go.
-- **[Irena Gajda](wife.md)** — She calculates where I stay open. I sense the sharpness behind her polite questions, but openness is all I know.
-- **[Barbara Kopacz](barbara.md)** — I treat her as a person, ask about her day, and save her the good bread. She deserves kindness without pity.
-- **[Wanda Mazur](widow.md)** — I know the truth about her pension. Being kind to her costs me because I carry that knowledge and smile through it.
-- **[%OLD_VILLAGE%](../locations/old-village-ruins.md)** — I have never gone up there, and I do not like those who do. A whole village was emptied before we came, and it never felt like ours to keep.
+- **[Michał Pytlak](foreman.md)** — "I love him completely. I want him to tell the truth about the silo, and I know the flood has already beaten the farm he is trying to save."
+- **[Staszek Pytlak](secondary/staszek-pytlak.md)** — "My son is my reason for everything. If the worst comes, I will make sure he is safe before I let go."
+- **[Irena Gajda](wife.md)** — "She calculates where I stay open. I sense the sharpness behind her polite questions, but openness is all I know."
+- **[Barbara Kopacz](barbara.md)** — "I treat her as a person, ask about her day, and save her the good bread. She deserves kindness without pity."
+- **[Wanda Mazur](widow.md)** — "I know the truth about her pension. Being kind to her costs me because I carry that knowledge and smile through it."
+- **[%OLD_VILLAGE%](../locations/old-village-ruins.md)** — "I have never gone up there, and I do not like those who do. A whole village was emptied before we came, and it never felt like ours to keep."
 
 ## Opportunities
 
-- **Evacuation clarity** `(requires: Prepare the soft landing (evacuation) and Empathy)` — she is not panicking; she has accepted that the water wins and has turned grief into a list of people to save.
-- **Flood-line key** `(requires: Send Zofia to Michał (the flood line) and Empathy)` — force and reason will not reach Michał; her voice can.
+- **Evacuation clarity** `(when: Prepare the soft landing (evacuation))` `(noticed by: [Empathy](../cards/empathy.md))` — she is not panicking; she has accepted that the water wins and has turned grief into a list of people to save.
+- **Flood-line key** `(when: Send Zofia to Michał (the flood line))` `(noticed by: [Empathy](../cards/empathy.md))` — force and reason will not reach Michał; her voice can.
 
 ## Actions
 
 ### Prepare the soft landing (evacuation)
-- **Requires:** Her trust ([Bond](#bond) earned), or the flood has begun
+- **When:** Her trust ([Bond](#bond) earned), or the flood has begun
 - **Cost:** 1 time
 - **Outcome:** She has already decided who must leave first: [Wanda](widow.md), [Babcia](babcia.md), [Barbara](barbara.md), Pawełek, and Staszek. With committee support, she can move the vulnerable before the flood peaks.
 - **Gives:** World State Change: an evacuation forms around Zofia, and the vulnerable are already out when the flood peaks.
 
 ### Send Zofia to Michał (the flood line)
-- **Requires:** Her trust; Michał is in the grip of the flood-work (see [Michał's Flood Fight](../events/foremans-flood-fight.md))
+- **When:** Her trust; Michał is in the grip of the flood-work (see [Michał's Flood Fight](../events/foremans-flood-fight.md))
 - **Cost:** 1 time
 - **Outcome:** She tells him it is done, that she is proud of him, and that she is not burying a husband to save a farm. He comes back into his own body and walks home.
 - **Gives:** World State Change: Michał survives, the flood defense collapses, and the [engineering ending](../events/foreman-saves-village.md) closes.
 
 ### Census interview
-- **Requires:** Committee authority
 - **Cost:** 1 time
 - **Outcome:** She feeds the players first, then answers the household questions plainly and completely.
 - **Gives:** Census data — Zofia, [Michał](foreman.md), Staszek Pytlak.
 
 ### Property assessment
-- **Requires:** Committee authority
 - **Cost:** 1 time
 - **Outcome:** She says they own nothing; the house comes with Michał's PGR post.
 - **Gives:** Property record — no property held; PGR-provided housing.

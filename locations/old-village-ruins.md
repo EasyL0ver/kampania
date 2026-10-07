@@ -6,6 +6,10 @@
 **Available:** After reaching %OLD_VILLAGE%.
 **Cost:** 1 action per area searched
 
+## Hook
+
+- The stone foundations and chimneys of %OLD_VILLAGE%, the abandoned village up the valley.
+
 ## Setup
 
 - Wooden buildings burned in 1947.
@@ -34,25 +38,24 @@
 ## Actions
 
 ### Investigate the area around the well
-- **Requires:** Nothing
 - **Cost:** 1 time
 - **Outcome:** A close look at the rim turns up cigarette butts in the grass and stone cracks and burnt-down candles left around the well.
 - **Gives:** [cigarette-butts-by-the-well](../clues/clues.md#cigarette-butts-by-the-well); [candles-by-the-well](../clues/clues.md#candles-by-the-well)
 
 ### Investigate the area around the well
-- **Requires:** [candles-by-the-well](../clues/clues.md#candles-by-the-well) and one day passing
+- **When:** one day passing
+- **Prompted by:** [candles-by-the-well](../clues/clues.md#candles-by-the-well)
 - **Cost:** 1 time
 - **Outcome:** The candles from the earlier visit have been replaced with fresh ones. Someone tends the well on a regular basis.
 - **Gives:** [someone-tends-the-well-regularly](../clues/clues.md#someone-tends-the-well-regularly)
 
 ### Investigate the area around the well
-- **Requires:** [Rezeń's hunt](../events/hunt-with-rezen.md) was successful
+- **When:** [Rezeń's hunt](../events/hunt-with-rezen.md) was successful
 - **Cost:** 1 time
 - **Outcome:** Minor blood stains mark the stone around the well rim.
 - **Gives:** [blood-stains-by-the-well](../clues/clues.md#blood-stains-by-the-well)
 
 ### Look inside the well
-- **Requires:** Nothing
 - **Cost:** 1 time
 - **Outcome:** Leaning over the shaft, you feel a compulsion to climb in. Lose 1 composure.
 - **Gives:** [you-should-jump-inside](../clues/clues.md#you-should-jump-inside)

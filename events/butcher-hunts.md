@@ -34,26 +34,26 @@
 
 ## Opportunities
 
-- **Dogs near the committee** `(requires: Survival)` — The same dogs appear near multiple places the players visit.
-- **Watcher at distance** `(requires: Finesse)` — [Stanisław Rezeń](../characters/butcher.md) is present often enough that coincidence is unlikely.
-- **Wordless intimidation** `(requires: Violence)` — Missing items, open doors, or dead animals are threats without written messages.
+- **Dogs near the committee** `(noticed by: [Survival](../cards/survival.md))` — The same dogs appear near multiple places the players visit.
+- **Watcher at distance** `(noticed by: [Finesse](../cards/finesse.md))` — [Stanisław Rezeń](../characters/butcher.md) is present often enough that coincidence is unlikely.
+- **Wordless intimidation** `(noticed by: [Violence](../cards/violence.md))` — Missing items, open doors, or dead animals are threats without written messages.
 
 ## Actions
 
 ### Confront him
-- **Requires:** [Stanisław Rezeń](../characters/butcher.md) has escalated beyond watching.
+- **When:** [Stanisław Rezeń](../characters/butcher.md) has escalated beyond watching.
 - **Cost:** 1 time
 - **Outcome:** [Stanisław Rezeń](../characters/butcher.md) goes cold under pressure; his knife and dogs are ready before he raises his voice.
 - **Gives:** [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
 
 ### Use Zbigniew Gajda
-- **Requires:** Access to [Zbigniew Gajda](../characters/wojewoda.md) before a direct attack.
+- **When:** Access to [Zbigniew Gajda](../characters/wojewoda.md) before a direct attack.
 - **Cost:** 1 time
 - **Outcome:** [Zbigniew Gajda](../characters/wojewoda.md) intervenes and [Stanisław Rezeń](../characters/butcher.md) pauses the escalation.
 - **Gives:** NPC State Change: [Zbigniew Gajda](../characters/wojewoda.md) is now actively restraining [Stanisław Rezeń](../characters/butcher.md).
 
 ### Turn the village against him
-- **Requires:** Evidence the village will accept against [Stanisław Rezeń](../characters/butcher.md).
+- **When:** Evidence the village will accept against [Stanisław Rezeń](../characters/butcher.md).
 - **Cost:** 1 time
 - **Outcome:** [Stanisław Rezeń](../characters/butcher.md) loses the village's passive tolerance.
 - **Gives:** World State Change: [Stanisław Rezeń](../characters/butcher.md) is exposed as a direct threat rather than a tolerated outcast.

@@ -33,19 +33,17 @@
 
 ## Opportunities
 
-- **The preparation** `(requires: Violence)` — [Barbara Kopacz](../characters/barbara.md) is describing preparations, not a mood. → Gives: [`neighbour-has-rifle`](../clues/clues.md#neighbour-has-rifle)
-- **The verdict phrase** `(requires: Finesse)` — The phrase about someone answering for what they did sounds like a verdict, not grief.
-- **Barbara's fear** `(requires: Empathy)` — [Barbara Kopacz](../characters/barbara.md) is afraid for [Ryszard Dudka](../characters/neighbour.md), not afraid of him.
+- **The preparation** `(noticed by: [Violence](../cards/violence.md))` — [Barbara Kopacz](../characters/barbara.md) is describing preparations, not a mood. → Gives: [`neighbour-has-rifle`](../clues/clues.md#neighbour-has-rifle)
+- **The verdict phrase** `(noticed by: [Finesse](../cards/finesse.md))` — The phrase about someone answering for what they did sounds like a verdict, not grief.
+- **Barbara's fear** `(noticed by: [Empathy](../cards/empathy.md))` — [Barbara Kopacz](../characters/barbara.md) is afraid for [Ryszard Dudka](../characters/neighbour.md), not afraid of him.
 
 ## Actions
 
 ### Get the timing out of her
-- **Requires:** Nothing
 - **Outcome:** [Barbara Kopacz](../characters/barbara.md) confirms the men gathered tonight, the rifle is gone, and [Ryszard Dudka](../characters/neighbour.md) is not at the fence.
 - **Gives:** Scene Unlock: [the lynch](punishment-lynch.md) with advance warning before nightfall.
 
 ### Send her home / keep her clear
-- **Requires:** Nothing
 - **Outcome:** [Barbara Kopacz](../characters/barbara.md) goes home, locks the door, and keeps [Pawełek Kopacz](../characters/pawelek.md) inside.
 - **Gives:** NPC State Change: [Barbara Kopacz](../characters/barbara.md) stays clear of [the lynch](punishment-lynch.md).
 

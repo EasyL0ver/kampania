@@ -17,7 +17,8 @@
 <!-- Status decides which fields are required (checked by validate.py):
      Resident — Born, Age in 1967, Lives in (a locations/ link), Settled
      Outsider — Born, Age in 1967, Based in (free-text place, e.g. "Kraków"); no Lives in / Settled
-     Dead     — Born, Died, Lived in; no Age in 1967 / Lives in / Settled -->
+     Dead     — Born, Died, and either Lived in (a locations/ link) or Based in (free text, for
+                someone who never lived in the valley); no Age in 1967 / Lives in / Settled -->
 
 - **Status:** [Resident / Outsider / Dead]
 - **Born:** [year]
@@ -58,10 +59,11 @@
      seed it with `(prompted by: aware:characters/<npc>.md)` so it connects.
      Opinions only set stance and colour.
 
-     Keyed three ways:
-     - **[Name](file.md)** for people
-     - **[Location](file.md)** for places
-     - **`clue-id`** for the NPC's reaction when confronted with a known fact
+     Keyed only by a link — never a free topic:
+     - **[Name](file.md)** for people, **[Place](../locations/file.md)** for places,
+       **[Item](../items/file.md)** for things, **[Event](../events/file.md)** for events
+     - **[clue-id](../clues/clues.md#clue-id)** for the NPC's reaction when confronted
+       with a known fact (link text = the clue id)
 
      Indented `*(condition):*` branches REPLACE the default spoken line when a
      condition holds (a bond, a held clue, a world state, "if pressed"). The
@@ -71,12 +73,14 @@
      RULES:
      1. No `→ Gives:` here, ever. Clue reveals live in Actions/Opportunities.
      2. No internal monologue. Write what they SAY, not what they think.
-     3. Omit a line entirely for a topic the NPC would wordlessly stonewall. -->
+     3. Omit a line entirely for a topic the NPC would wordlessly stonewall.
+     4. The line is spoken words in "quotes". No narration, no stage directions.
+     Checked by `python validate.py` (rule `opinions-format`). -->
 
 - **[Name](file.md)** — "[spoken stance, no clue]."
   - *([condition]):* "[spoken line that replaces the default under this condition]."
 - **[Location](file.md)** — "[spoken stance, no clue]."
-- **`clue-id`** — "[what they say when confronted with this clue, no reveal]."
+- **[clue-id](../clues/clues.md#clue-id)** — "[what they say when confronted with this clue, no reveal]."
 
 ## Mechanics
 
@@ -117,13 +121,11 @@
      it in Gives. If they refuse, log the gap. -->
 
 ### Census interview
-- **Requires:** Committee authority
 - **Cost:** 1 time
 - **Outcome:** [1-2 sentences — their answer / tell / refusal, nothing else]
 - **Gives:** Census data — [who]. [+ clue-id if any]
 
 ### Property assessment
-- **Requires:** Committee authority
 - **Cost:** 1 time
 - **Outcome:** [1-2 sentences — their answer / tell / refusal, nothing else]
 - **Gives:** Property record — [what]. [+ clue-id if any]

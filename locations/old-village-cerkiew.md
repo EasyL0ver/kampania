@@ -6,6 +6,10 @@
 **Available:** After reaching %OLD_VILLAGE%
 **Cost:** 1 action per visit
 
+## Hook
+
+- The old cerkiew on the hilltop of %OLD_VILLAGE%.
+
 ## Setup
 
 - **Structure:** Wooden Greek Catholic cerkiew with onion dome and partial stone construction.
@@ -28,38 +32,38 @@
 
 ## Opportunities
 
-- **Fresh candles and incense** `(requires: Culture)` — Someone still comes here to perform rites. → Gives: [hag-tends-the-well](../clues/clues.md#hag-tends-the-well)
-- **The dead are close** `(requires: Superstitious)` — The cold, the drifting candle smoke, and the watching quiet press in; a superstitious soul is certain the old villagers never truly left this hill.
-- **Faded icons** `(requires: Culture, Devotion, or Language)` — The icons and Cyrillic inscriptions identify the cerkiew as Greek Catholic and Lemko. → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
+- **Fresh candles and incense** `(noticed by: [Culture](../cards/culture.md))` — Someone still comes here to perform rites. → Gives: [hag-tends-the-well](../clues/clues.md#hag-tends-the-well)
+- **The dead are close** `(noticed by: [Superstitious](../cards/superstitious.md))` — The cold, the drifting candle smoke, and the watching quiet press in; a superstitious soul is certain the old villagers never truly left this hill.
+- **Faded icons** `(noticed by: [Culture](../cards/culture.md) OR [Devotion](../cards/devotion.md) OR [Language](../cards/language.md))` — The icons and Cyrillic inscriptions identify the cerkiew as Greek Catholic and Lemko. → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
 - **The three-barred crosses** `(prompted by: aware:locations/old-village-cerkiew.md)` — The altar screen, icons, and carvings are marked all over with a recurring three-barred cross. → Gives: [three-barred-cross-in-cerkiew](../clues/clues.md#three-barred-cross-in-cerkiew)
 
 ## Actions
 
 ### Explore the interior
-- **Requires:** Access to the cerkiew
+- **When:** Access to the cerkiew
 - **Cost:** 1 time
 - **Outcome:** The players document the altar, faded icons, Cyrillic inscriptions, broken candle stands, rain damage, and unstable roof sections.
 - **Gives:** [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
 
 ### Open the wrapped bundle
-- **Requires:** Access to the cerkiew (prompted by: aware:locations/old-village-cerkiew.md)
+- **When:** Access to the cerkiew (prompted by: aware:locations/old-village-cerkiew.md)
 - **Cost:** 1 time
 - **Outcome:** The players lift the cloth-wrapped bundle from its dry corner and open it. Inside is an oil portrait of a young dark-haired woman in a blue dress, painted with a care nothing in the ruins shares. Someone carried it here and kept it dry on purpose.
 - **Gives:** Item / Evidence: the [portrait](../items/portrait.md); [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew); [portrait-woman-in-blue-dress](../clues/clues.md#portrait-woman-in-blue-dress)
 
 ### Search for ritual traces
-- **Requires:** Access to the cerkiew
+- **When:** Access to the cerkiew
 - **Cost:** 1 time
 - **Outcome:** The players find fresh candles, wax, and faint incense traces left by repeated rites.
 - **Gives:** [hag-tends-the-well](../clues/clues.md#hag-tends-the-well)
 
 ### Compare the brass bell
-- **Requires:** Searched [Ciotka's attic](ciotkas-house.md#search-the-attic) and found the brass bell
+- **When:** Searched [Ciotka's attic](ciotkas-house.md#search-the-attic) and found the brass bell
 - **Outcome:** The players identify the brass bell from Ciotka's attic as matching the missing cerkiew fitting.
 - **Gives:** Item / Evidence: Provenance for the brass bell from [Ciotka's attic](ciotkas-house.md#search-the-attic).
 
 ### Stake out at night
-- **Requires:** Night and willingness to wait inside or near the cerkiew
+- **When:** Night and willingness to wait inside or near the cerkiew
 - **Cost:** 1 time
 - **Outcome:** The players can catch [Paraskewia Chyłak](../characters/hag.md) performing rites at the cerkiew.
 - **Gives:** Scene Unlock: Direct encounter with [Paraskewia Chyłak](../characters/hag.md) at night.

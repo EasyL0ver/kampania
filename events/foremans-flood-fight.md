@@ -37,22 +37,21 @@
 
 ## Opportunities
 
-- **Zofia's fear** `(requires: Empathy)` — [Zofia Pytlak](../characters/zofia.md) is describing observed physical changes, not exaggerating.
-- **The impossible endurance** `(requires: Medicine)` — The described lack of fatigue, pain response, and cold response has no medical explanation.
-- **The bunker question** `(requires: Finesse)` — UPA partisan bunkers in Bieszczady forests can hold old ordnance. → Gives: [`upa-bunkers-in-the-area`](../clues/clues.md#upa-bunkers-in-the-area)
-- **The dilemma** `(requires: Empathy)` — [Zofia Pytlak](../characters/zofia.md) knows she is asking the committee to choose [Michał Pytlak](../characters/foreman.md) over the village's flood defense.
+- **Zofia's fear** `(noticed by: [Empathy](../cards/empathy.md))` — [Zofia Pytlak](../characters/zofia.md) is describing observed physical changes, not exaggerating.
+- **The impossible endurance** `(noticed by: [Medicine](../cards/medicine.md))` — The described lack of fatigue, pain response, and cold response has no medical explanation.
+- **The bunker question** `(noticed by: [Finesse](../cards/finesse.md))` — UPA partisan bunkers in Bieszczady forests can hold old ordnance. → Gives: [`upa-bunkers-in-the-area`](../clues/clues.md#upa-bunkers-in-the-area)
+- **The dilemma** `(noticed by: [Empathy](../cards/empathy.md))` — [Zofia Pytlak](../characters/zofia.md) knows she is asking the committee to choose [Michał Pytlak](../characters/foreman.md) over the village's flood defense.
 
 ## Actions
 
 ### Go see Pytlak at the flood line
-- **Requires:** Nothing
 - **Prompted by:** [flood-is-imminent](../clues/clues.md#flood-is-imminent)
 - **Cost:** 1 time
 - **Outcome:** The committee finds [Michał Pytlak](../characters/foreman.md) knee-deep in floodwater, directing workers, hauling sandbags, and explaining that explosives can reopen the plugged water-gap above the village, and that the only explosives in reach are the old partisan ordnance left in the UPA bunkers scattered through these hills.
 - **Gives:** [`gap-is-blocked`](../clues/clues.md#gap-is-blocked); [`upa-bunkers-in-the-area`](../clues/clues.md#upa-bunkers-in-the-area); Scene Unlock: [Michał Pytlak Saves the Village](foreman-saves-village.md)
 
 ### Talk to Zofia Pytlak
-- **Requires:** Listening.
+- **When:** Listening.
 - **Cost:** 1 time
 - **Outcome:** [Zofia Pytlak](../characters/zofia.md) says the flood fight is not new for [Michał Pytlak](../characters/foreman.md), but this is different, and he was already carrying a weight before the flood.
 - **Gives:** NPC State Change: [Zofia Pytlak](../characters/zofia.md) trusts the committee and remains reachable later.

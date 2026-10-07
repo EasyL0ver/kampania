@@ -11,7 +11,7 @@ ks. Władysław Pająk, the village's Roman Catholic priest, found at the church
 - **Status:** Resident
 - **Born:** 1925
 - **Age in 1967:** 42
-- **Lives in:** Parish rectory attached to the church
+- **Lives in:** [The rectory](../locations/the-rectory.md) — attached to the church
 - **Settled:** After 1954 — assigned to the parish after the lynch
 
 ## Character
@@ -28,12 +28,11 @@ His baritone stays intimate in conversation. When uncomfortable, his hand goes t
 
 ## Opinions
 
-- **[Helena Rzepka](matrona.md)** — She is my closest parishioner. I see conviction in her and would defend her first if anyone came asking. If her piety is a performance, I have spent thirteen years failing to see it.
-- **[Zbigniew Gajda](wojewoda.md)** — He controls the village politically, and I control it spiritually. We share meals, negotiate disputes, and pretend the church funding that passes through him buys nothing.
-- **[por. Witold Skowron](officer.md)** — I fear what he represents: the machinery that could strip me of my parish. We both want quiet, but he sees me as an enemy of the state and I see him as an enemy of God.
-- **[Janina Gajda](ciotka.md)** — She is my heaviest burden. She comes for comfort, and what passes between us is a full account of a murder that I cannot speak aloud.
-- **Smoking** — Not in God's house. He keeps the church clear of it and his own hands clean in view, a matter of respect for the sacred, nothing he preaches on.
-- **`wujas-is-guilty`:** Every man carries his own cross. I will not break the seal of confession, but the weight is on my face.
+- **[Helena Rzepka](matrona.md)** — "She is my closest parishioner. I see conviction in her and would defend her first if anyone came asking. If her piety is a performance, I have spent thirteen years failing to see it."
+- **[Zbigniew Gajda](wojewoda.md)** — "He controls the village politically, and I control it spiritually. We share meals, negotiate disputes, and pretend the church funding that passes through him buys nothing."
+- **[por. Witold Skowron](officer.md)** — "I fear what he represents: the machinery that could strip me of my parish. We both want quiet, but he sees me as an enemy of the state and I see him as an enemy of God."
+- **[Janina Gajda](ciotka.md)** — "She is my heaviest burden. She comes for comfort, and what passes between us is a full account of a murder that I cannot speak aloud."
+- **[wujas-is-guilty](../clues/clues.md#wujas-is-guilty)** — "Every man carries his own cross. I will not break the seal of confession, but the weight is on my face."
 
 ## Mechanics
 
@@ -48,33 +47,30 @@ The arc opens with [The Priest's Plea](../events/priests-plea.md). He seeks out 
 ## Actions
 
 ### Drive out the devil
-- **Requires:** ks. Władysław Pająk brought to Pawełek's sickroom
+- **When:** ks. Władysław Pająk brought to Pawełek's sickroom
 - **Prompted by:** [`pawelek-was-possessed`](../clues/clues.md#pawelek-was-possessed)
 - **Cost:** 1 time
 - **Outcome:** He prays loudly over the boy, commanding the devil out, a Roman Catholic blessing that rises to shouting. It does nothing for the fever, and the noise frightens the delirious child. [Stefania Kopacz](babcia.md) comes out of her chair, sharply lucid, and drives him off: the boy is not a demon, and he is not to shout and terrify a sick child. This is not his faith and not his rite.
 - **Gives:** [`babcia-opposed-to-church`](../clues/clues.md#babcia-opposed-to-church); [`babcia-mind-returns`](../clues/clues.md#babcia-mind-returns)
 
 ### Ask about the three-barred cross
-- **Requires:** Nothing
 - **Prompted by:** [three-barred-cross-on-gajda-grave](../clues/clues.md#three-barred-cross-on-gajda-grave)
 - **Outcome:** He explains what Barbara could not: the three-barred cross is Eastern-rite, Greek Catholic, the old faith of this valley before the Roman parish. He states it plainly as church history, nothing he guards.
 - **Gives:** [`three-barred-cross-is-lemko`](../clues/clues.md#three-barred-cross-is-lemko)
 
 ### Census interview
-- **Requires:** Committee authority
 - **Cost:** 1 time
 - **Outcome:** He cooperates and gives his details: himself, alone at the rectory.
 - **Gives:** Census data — ks. Władysław Pająk.
 
 ### Property assessment
-- **Requires:** Committee authority
 - **Cost:** 1 time
 - **Outcome:** He says the rectory and church are parish property, not his. He refers the committee to the diocese for anything on paper.
 - **Gives:** Property record — parish/church property, not personally held.
 
 ### Donate to the church
-- **Requires:** The [Loaded](../story-facts/game-system.md) card — hard currency in your pocket to give
-- **Cost:** your Loaded card (you give the money for good and lose the trait)
+- **When:** The [Loaded](../story-facts/game-system.md) card — hard currency in your pocket to give
+- **Cost:** [Loaded](../cards/loaded.md)
 - **Outcome:** A committee member puts real money into the parish, no bribe, nothing asked for, just given. ks. Władysław Pająk did not expect it and cannot quite believe it: one of the state's own clerks choosing a plain good thing. In a man whose faith in people is in crisis, it lands, and he watches the committee differently after.
 - **Gives:** The player loses the **Loaded** trait. Ending Progress: +2 [Faith in Redemption](../story-facts/spiritual-endings.md#the-mechanic-faith-in-redemption-score).
 

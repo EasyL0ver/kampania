@@ -30,14 +30,14 @@
 
 ## Opportunities
 
-- **Who decides** `(requires: Empathy)` — Helena leads, Zbigniew follows her.
-- **Dudka at the fence** `(requires: nothing)` — the quiet neighbour is holding back anger and will not enter the yard with the family in it.
-- **The overdose they are burying** `(requires: holding [`ciotka-overdosed`](../clues/clues.md#ciotka-overdosed) or [`ciotka-hurt-before-death`](../clues/clues.md#ciotka-hurt-before-death))` — Helena's weak heart and Dudka's foul play are both wrong; only the committee knows what killed her.
+- **Who decides** `(noticed by: [Empathy](../cards/empathy.md))` — Helena leads, Zbigniew follows her.
+- **Dudka at the fence** — the quiet neighbour is holding back anger and will not enter the yard with the family in it.
+- **The overdose they are burying** `(noticed by: [ciotka-overdosed](../clues/clues.md#ciotka-overdosed) OR [ciotka-hurt-before-death](../clues/clues.md#ciotka-hurt-before-death))` — Helena's weak heart and Dudka's foul play are both wrong; only the committee knows what killed her.
 
 ## Actions
 
-### Say what does not fit
-- **Requires:** present; the committee raises any of [`ciotka-house-wrecked`](../clues/clues.md#ciotka-house-wrecked), [`ciotka-hurt-before-death`](../clues/clues.md#ciotka-hurt-before-death), or [`ciotka-had-a-visitor`](../clues/clues.md#ciotka-had-a-visitor) in front of the family
+### Point out the wreck, the bruise or the second cup
+- **Prompted by:** [ciotka-house-wrecked](../clues/clues.md#ciotka-house-wrecked), [ciotka-hurt-before-death](../clues/clues.md#ciotka-hurt-before-death), [ciotka-had-a-visitor](../clues/clues.md#ciotka-had-a-visitor)
 - **Outcome:** Naming the wreck, the bruise, or the second cup breaks [Ryszard Dudka](../characters/neighbour.md). He accuses the sołtys's son to his face: the boy came the day before she died and they fought. [Zbigniew Gajda](../characters/wojewoda.md) goes still; [Helena Rzepka](../characters/matrona.md) buries it as a grieving man's nonsense. The ruling does not change.
 - **Gives:** [`junior-pressed-ciotka`](../clues/clues.md#junior-pressed-ciotka); counts toward [Ryszard Dudka](../characters/neighbour.md)'s [Bond](../characters/neighbour.md#bond); NPC State Change: [Zbigniew Gajda](../characters/wojewoda.md) sets a [Grudge](../characters/wojewoda.md#grudge); World State Change: foul-play rumours sharpen.
 

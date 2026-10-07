@@ -26,38 +26,30 @@ The church on the hill in %NEW_VILLAGE%, beside the cemetery.
 
 ## Opportunities
 
-- **Church condition** `(requires: Handiwork)` `(prompted by: aware:locations/new-village.md)` — The church has better repairs, supplies, and firewood than the village should afford. → Gives: [church-too-nice](../clues/clues.md#church-too-nice)
+- **Church condition** `(noticed by: [Handiwork](../cards/handiwork.md))` `(prompted by: aware:locations/new-village.md)` — The church has better repairs, supplies, and firewood than the village should afford. → Gives: [church-too-nice](../clues/clues.md#church-too-nice)
 
 ## Actions
 
-### Talk to Priest
-- **Requires:** Nothing
-- **Cost:** Free for first visit; 1 action for deeper conversation
-- **Outcome:** ks. Władysław Pająk is cold toward government people unless they show faith, knowledge of commandments, or genuine spiritual respect; resolve the full interaction through [Priest character file](../characters/priest.md).
-- **Gives:** NPC State Change: ks. Władysław Pająk can move from cold contact toward the priest thread.
-
 ### Talk to Widow at the grave
-- **Requires:** [Wanda Mazur](../characters/widow.md) present
+- **When:** [Wanda Mazur](../characters/widow.md) present
 - **Outcome:** Wanda talks about her husband, his PGR work, his accident, and her wish that the committee include him in the census.
 - **Gives:** [wanda-receives-pension](../clues/clues.md#wanda-receives-pension); NPC State Change: Wanda Mazur is willing to answer follow-up questions about her husband's work.
 
 ### Ask Widow about her husband's work
-- **Requires:** Talked to Wanda Mazur at the grave
+- **When:** Talked to Wanda Mazur at the grave
 - **Outcome:** Wanda gives her husband's name, PGR role, and death date; the name matches a current worker if players have the ledger worker list.
 - **Gives:** [mazur-died-in-the-silo](../clues/clues.md#mazur-died-in-the-silo)
 
 ### Look for Mazur's grave
-- **Requires:** Nothing
 - **Outcome:** The freshly tended grave Wanda kneels beside carries Tadeusz Mazur's name and a recent death date.
 - **Gives:** [mazur-buried-in-cemetery](../clues/clues.md#mazur-buried-in-cemetery)
 
 ### Look for Gajda graves
-- **Requires:** Nothing
 - **Outcome:** The well-tended double grave with the Polonised surname belongs to Zbigniew Gajda's parents; a small three-barred cross sits half-hidden under the lichen on it.
 - **Gives:** [three-barred-cross-on-gajda-grave](../clues/clues.md#three-barred-cross-on-gajda-grave)
 
 ### Search the plebania
-- **Requires:** Priest absent or distracted
+- **When:** Priest absent or distracted
 - **Cost:** 1 time
 - **Outcome:** Resolve at [The Rectory](the-rectory.md).
 - **Gives:** See [The Rectory](the-rectory.md).

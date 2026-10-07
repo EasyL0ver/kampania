@@ -32,18 +32,17 @@
 
 ## Opportunities
 
-- **The kill** `(requires: Survival)` — one animal worked confidently inside a known pen.
-- **Gajda at the fence** `(requires: Empathy)` — he is bracing to authorize the thing he avoided for thirteen years.
-- **Dudka taking blame** `(requires: Empathy)` — the humiliation is less important than who will replace him.
-- **Dudka alone after** `(requires: Speech)` — his failure is real and his fear of Rezeń is older than the wolves.
-- **Workers muttering** `(requires: Finesse)` `(prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock))` — workers say Dudka has failed for weeks and that the other hunter is good with a knife. → Gives: [`dudka-failed-wolf-hunt`](../clues/clues.md#dudka-failed-wolf-hunt)
-- **Workers blame the hag** `(requires: Finesse or Culture)` `(prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock))` — workers connect the wolf attacks to fires and chanting in the ruins. → Gives: [`hag-blamed-for-wolves`](../clues/clues.md#hag-blamed-for-wolves)
-- **Fence condition after repairs** `(requires: Reinforce the farm and Handiwork)` `(prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock))` — the fence was rotten before the rains and the wolves used an existing weakness. → Gives: [`pgr-underfunded-fences`](../clues/clues.md#pgr-underfunded-fences)
+- **The kill** `(noticed by: [Survival](../cards/survival.md))` — one animal worked confidently inside a known pen.
+- **Gajda at the fence** `(noticed by: [Empathy](../cards/empathy.md))` — he is bracing to authorize the thing he avoided for thirteen years.
+- **Dudka taking blame** `(noticed by: [Empathy](../cards/empathy.md))` — the humiliation is less important than who will replace him.
+- **Dudka alone after** `(noticed by: [Speech](../cards/speech.md))` — his failure is real and his fear of Rezeń is older than the wolves.
+- **Workers muttering** `(noticed by: [Finesse](../cards/finesse.md))` `(prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock))` — workers say Dudka has failed for weeks and that the other hunter is good with a knife. → Gives: [`dudka-failed-wolf-hunt`](../clues/clues.md#dudka-failed-wolf-hunt)
+- **Workers blame the hag** `(noticed by: [Finesse](../cards/finesse.md) OR [Culture](../cards/culture.md))` `(prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock))` — workers connect the wolf attacks to fires and chanting in the ruins. → Gives: [`hag-blamed-for-wolves`](../clues/clues.md#hag-blamed-for-wolves)
+- **Fence condition after repairs** `(when: Reinforce the farm)` `(noticed by: [Handiwork](../cards/handiwork.md))` `(prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock))` — the fence was rotten before the rains and the wolves used an existing weakness. → Gives: [`pgr-underfunded-fences`](../clues/clues.md#pgr-underfunded-fences)
 
 ## Actions
 
 ### Reinforce the farm
-- **Requires:** Nothing
 - **Cost:** 1 time
 - **Outcome:** The players help [Michał Pytlak](../characters/foreman.md) and the workers repair fence, move livestock, and haul feed.
 - **Gives:** World State Change: the farm is temporarily reinforced; NPC State Change: Pytlak talks more freely while working

@@ -6,6 +6,10 @@
 **Available:** Requires extensive forest exploration or guidance
 **Cost:** 1 action to find, 1 action to interact
 
+## Hook
+
+- A cabin in the deep forest, off an overgrown path from %OLD_VILLAGE%.
+
 ## Setup
 
 - **Cabin:** Small weathered wooden cabin.
@@ -28,21 +32,21 @@
 
 ## Opportunities
 
-- **Ritual materials** `(requires: Culture)` — The icons, candles, herbs, and prayers show someone has the ritual form. → Gives: [hag-has-the-form](../clues/clues.md#hag-has-the-form)
-- **List of the dead** `(requires: Language or Finesse)` — The folded Cyrillic sheet names the dead and belongs with [Paraskewia's List of the Dead](../items/paraskewias-list.md). → Gives: [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead)
-- **The three-barred cross** `(requires: Culture)` `(prompted by: aware:locations/hags-cabin.md)` — A small three-barred crucifix hangs among the icons, unlike a Roman cross. → Gives: [three-barred-cross-in-hags-cabin](../clues/clues.md#three-barred-cross-in-hags-cabin)
-- **Dmytro connection** `(requires: found the [UPA bunker](upa-bunker.md) inscription and found the knife marked Д.К.)` — The initials connect Dmytro Kosach's belongings to the bunker. → Gives: aware:characters/dmytro-kosach.md
+- **Ritual materials** `(noticed by: [Culture](../cards/culture.md))` — The icons, candles, herbs, and prayers show someone has the ritual form. → Gives: [hag-has-the-form](../clues/clues.md#hag-has-the-form)
+- **List of the dead** `(noticed by: [Language](../cards/language.md) OR [Finesse](../cards/finesse.md))` — The folded Cyrillic sheet names the dead and belongs with [Paraskewia's List of the Dead](../items/paraskewias-list.md). → Gives: [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead)
+- **The three-barred cross** `(noticed by: [Culture](../cards/culture.md))` `(prompted by: aware:locations/hags-cabin.md)` — A small three-barred crucifix hangs among the icons, unlike a Roman cross. → Gives: [three-barred-cross-in-hags-cabin](../clues/clues.md#three-barred-cross-in-hags-cabin)
+- **Dmytro connection** `(when: found the [UPA bunker](upa-bunker.md) inscription, found the knife marked Д.К.)` — The initials connect Dmytro Kosach's belongings to the bunker. → Gives: aware:characters/dmytro-kosach.md
 
 ## Actions
 
 ### Search the hidden floorboard tin
-- **Requires:** Access to the cabin
+- **When:** Access to the cabin
 - **Cost:** 1 time
 - **Outcome:** The players find Dmytro Kosach's photograph, folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth.
 - **Gives:** aware:characters/dmytro-kosach.md; Item / Evidence: Dmytro Kosach's photograph, knife, and letters.
 
 ### Search the cabin after confrontation
-- **Requires:** Hag is dead or missing after [Well Confrontation](../events/well-confrontation.md)
+- **When:** Hag is dead or missing after [Well Confrontation](../events/well-confrontation.md)
 - **Cost:** 1 time
 - **Outcome:** The cabin is empty, the fire is cold, supplies remain, and ritual materials show twenty years of tending the dead.
 - **Gives:** [hag-tends-the-well](../clues/clues.md#hag-tends-the-well)

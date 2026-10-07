@@ -14,13 +14,14 @@ A wooden box thick with years of dust, untouched in the attic long before Janina
 
 ## Opportunities
 
-- **Read it as the boy's** `(requires: aware:characters/glupek.md)` — His name is on the lid, and the risqué photo is the kind a young man keeps hidden. Read this way, the box is Edek's. → Gives: [`box-belongs-to-glupek`](../clues/clues.md#box-belongs-to-glupek)
-- **Read it as the soldier's** `(requires: aware:characters/soldier.md, and [glupek-forbidden-from-attic](../clues/clues.md#glupek-forbidden-from-attic))` — Edward Barnaś went by Edek too, and the shaving kit, the war medal, the propaganda leaflet, and the house key are a grown man's, not a boy's. The boy is kept out of this attic, yet his name is on the box — so the EDEK things up here are the other Edek's, the dead soldier's. → Gives: [`box-belongs-to-soldier`](../clues/clues.md#box-belongs-to-soldier)
+- **Read it as the boy's** `(when: aware:characters/glupek.md)` — His name is on the lid, and the risqué photo is the kind a young man keeps hidden. Read this way, the box is Edek's. → Gives: [`box-belongs-to-glupek`](../clues/clues.md#box-belongs-to-glupek)
+- **Read it as the soldier's** `(when: aware:characters/soldier.md)` `(noticed by: [glupek-forbidden-from-attic](../clues/clues.md#glupek-forbidden-from-attic))` — Edward Barnaś went by Edek too, and the shaving kit, the war medal, the propaganda leaflet, and the house key are a grown man's, not a boy's. The boy is kept out of this attic, yet his name is on the box — so the EDEK things up here are the other Edek's, the dead soldier's. → Gives: [`box-belongs-to-soldier`](../clues/clues.md#box-belongs-to-soldier)
 
 ## Actions
 
 ### Try the key in the lock
-- **Requires:** Holding the box; a door of [Janina's house](../locations/ciotkas-house.md)
+- **Requires:** [The "EDEK" Box](edek-box.md)
+- **When:** a door of [Janina's house](../locations/ciotkas-house.md)
 - **Prompted by:** [ciotka-is-dead](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 time
 - **Outcome:** The key will not turn the newer lock. But the old, pitted lock below it — the door's original — takes the key and turns cleanly. It was cut for this house. The box it sat in is thick with undisturbed dust, set aside long before her time.

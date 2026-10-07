@@ -319,7 +319,7 @@ It was [Stanisław Rezeń](../characters/butcher.md) who put [Edward Barnaś](..
 [Stanisław Rezeń](../characters/butcher.md) doesn't drink. His house holds no alcohol at all.
 
 ### butcher-used-to-drink-with-the-crew
-[Stanisław Rezeń](../characters/butcher.md) used to drink with [the crew](../characters/secondary/drinking-crew.md) years back. He doesn't anymore.
+[Stanisław Rezeń](../characters/butcher.md) used to drink with [Tadek Gajda's crew](../characters/wujas.md) years back. He doesn't anymore.
 
 ### butcher-is-dangerous
 Under pressure [Stanisław Rezeń](../characters/butcher.md) doesn't rage — he goes cold. Even breathing, flat eyes, a knife already turning in his hand, three dogs moving around him like his own limbs with no command spoken. He is a controlled, capable killer, and he has plainly stood ready to kill before.
@@ -679,12 +679,6 @@ The PGR irrigation ditch cannot carry the floodwater off. At flood volume it bac
 ### ditch-drains-fine
 Run against the drainage tables, the irrigation ditch's concrete head is a channel of ample capacity: on those figures it carries the flood clear of the fields. This is the report's all-clear, and it is false. The sum measures only the short concrete stretch, not the earth dugout that makes up most of the ditch. Only someone who has walked the full length has cause to doubt it.
 
-### concrete-ditch-measurements
-The cross-section of the irrigation ditch's concrete head: the width, depth, and fall of the lined channel near the fields. Raw figures taken with a tape, no skill needed. On their own they settle nothing; a surveyor feeds them to the drainage tables.
-
-### dugout-measurements
-The cross-section of the irrigation ditch where the concrete gives out: the width and depth of the shallow, unlined earth dugout that runs most of its length. Raw figures taken with a tape, no skill needed. Paired with the concrete-head figures they let a surveyor size the real channel.
-
 ### ditch-not-built-to-spec
 The irrigation ditch matches its concrete-lined specification only for its first short stretch near the fields. Past that it degrades to a shallow, unlined dugout for most of its length. Inspecting only the head gives a false impression of a sound channel.
 
@@ -693,9 +687,6 @@ The irrigation ditch is concrete-lined only near the head. A short way down the 
 
 ### streambed-dead-ends
 The old streambed on the far ridge is not an outlet. Its col sits above house level, so the rising water tops %NEW_VILLAGE% before it ever reaches that streambed.
-
-### streambed-parameters
-The two elevations that settle the streambed: the height of the far-ridge col and the height of %NEW_VILLAGE%. The raw figures, before anyone reads what they mean.
 
 ### dam-builders-surveyed-streambed
 The Solina dam-survey crews already worked the far-ridge streambed years ago and set geodetic benchmarks (reper) at the col and by the village. The markers are out there in the field, though their recorded elevations never made it into the kit's papers.
@@ -711,12 +702,6 @@ From the foot of the plug the landslide fill looks like loose, open rubble, the 
 
 ### water-may-flow-over
 For the ridge gap to drain the valley, rising water would have to reach the plug's lowest saddle and spill over it into %BIG-BASIN%. If that saddle sits below the %NEW_VILLAGE% flood line, the gap still drains by overtopping. Whether it is low enough is unsettled until the crest is measured.
-
-### gap-fill-examined
-Examined up close at the toe of the plug, the landslide fill is dense clay and shattered rock packed tight, not the loose rubble it looks like from a distance. Water will not seep through it. This settles only whether the plug leaks, not whether it can be overtopped.
-
-### gap-sill-above-flood
-Measured from the crest, the plug's lowest saddle, the sill any rising water would have to top to spill through into %BIG-BASIN%, stands above the %NEW_VILLAGE% flood line. Water cannot overtop the plug. This settles only the height, not whether the fill leaks.
 
 ### river-doesnt-match-map
 The river no longer runs where the map draws it. Its course has shifted: the wojewoda's bridge spans the river's new bed, while the map shows that ground dry and the river running elsewhere. The old course drawn on the map is now dry.

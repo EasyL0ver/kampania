@@ -29,16 +29,16 @@
 
 ## Opportunities
 
-- **Regular pattern** `(requires: Finesse)` — Tadek visits the edge house regularly.
-- **No friendship** `(requires: Follow Tadek to the edge house and Empathy)` — the handoff is an errand, not a social visit.
-- **Tadek deflects** `(requires: Ask [Tadek Gajda](../characters/wujas.md) and Empathy)` — he cannot explain the visits without shutting down.
-- **Zbigniew pauses** `(requires: Ask [Zbigniew Gajda](../characters/wojewoda.md) and Empathy)` — he knows exactly what Tadek is doing.
-- **Rezeń answers plainly** `(requires: Ask [Stanisław Rezeń](../characters/butcher.md) and Empathy)` — the visits matter only as deliveries to him.
+- **Regular pattern** `(noticed by: [Finesse](../cards/finesse.md))` — Tadek visits the edge house regularly.
+- **No friendship** `(when: Follow Tadek to the edge house)` `(noticed by: [Empathy](../cards/empathy.md))` — the handoff is an errand, not a social visit.
+- **Tadek deflects** `(when: Ask [Tadek Gajda](../characters/wujas.md))` `(noticed by: [Empathy](../cards/empathy.md))` — he cannot explain the visits without shutting down.
+- **Zbigniew pauses** `(when: Ask [Zbigniew Gajda](../characters/wojewoda.md))` `(noticed by: [Empathy](../cards/empathy.md))` — he knows exactly what Tadek is doing.
+- **Rezeń answers plainly** `(when: Ask [Stanisław Rezeń](../characters/butcher.md))` `(noticed by: [Empathy](../cards/empathy.md))` — the visits matter only as deliveries to him.
 
 ## Actions
 
 ### Observe the final visit
-- **Requires:** Day 1–2, before the wolf authorization finishes
+- **When:** Day 1–2, before the wolf authorization finishes
 - **Prompted by:** [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt)
 - **Cost:** 1 time
 - **Outcome:** Tadek carries Zbigniew's real request to Rezeń: deal with the wolves. Rezeń treats the request as a call back into the village.

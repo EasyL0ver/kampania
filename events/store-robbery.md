@@ -26,7 +26,7 @@ Word through the village the next morning that Helena's store was broken into ov
 
 ## Opportunities
 
-- **Helena's stare** `(requires: helena: [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin), helena: [somebody-stole-penicillin](../clues/clues.md#somebody-stole-penicillin), and no money was taken)` — The penicillin is gone and the till sits untouched, and the only ones who came to her asking for that drug were the committee. She says nothing and holds the players in a long, open stare. → Gives: NPC Learns: helena: [committee-stole-penicillin](../clues/clues.md#committee-stole-penicillin)
+- **Helena's stare** `(when: helena: [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin), helena: [somebody-stole-penicillin](../clues/clues.md#somebody-stole-penicillin), no money was taken)` — The penicillin is gone and the till sits untouched, and the only ones who came to her asking for that drug were the committee. She says nothing and holds the players in a long, open stare. → Gives: NPC Learns: helena: [committee-stole-penicillin](../clues/clues.md#committee-stole-penicillin)
 
 ## Actions
 

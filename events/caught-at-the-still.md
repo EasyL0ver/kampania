@@ -28,44 +28,43 @@
 
 ## Opportunities
 
-- **The standoff** `(requires: Read)` — the crew is not defending a crime scene; they are frightened men protecting the one thing that gets them through the winter. → Gives: [`still-is-their-livelihood`](../clues/clues.md#still-is-their-livelihood)
-- **Franek is coiled** `(requires: Read or Streetwise)` — Franek Mucha is drunk past reason and cornered against the path. Rank and orders roll off him — short of a drawn gun, he gets turned around or put down, nothing else.
+- **The standoff** `(when: Read)` — the crew is not defending a crime scene; they are frightened men protecting the one thing that gets them through the winter. → Gives: [`still-is-their-livelihood`](../clues/clues.md#still-is-their-livelihood)
+- **Franek is coiled** `(when: Read or Streetwise)` — Franek Mucha is drunk past reason and cornered against the path. Rank and orders roll off him — short of a drawn gun, he gets turned around or put down, nothing else.
 
 ## Actions
 
 ### Let Tadek vouch — already buddies
-- **Requires:** At least one committee member is Tadek's [drinking buddy](../characters/wujas.md#drinking-buddy)
+- **When:** At least one committee member is Tadek's [drinking buddy](../characters/wujas.md#drinking-buddy)
 - **Outcome:** Tadek gets between the committee and his crew and swears they are alright. Szymek and Romek stand down on his word — but Franek is too drunk to listen and still has to be turned around or put down.
 - **Gives:** World State Change: only Franek is still a threat; the fight can still start if he is not turned around or beaten down.
 
 
 ### Talk the crew down
-- **Requires:** Command or Streetwise
+- **When:** Command or Streetwise
 - **Cost:** 1 composure
 - **Outcome:** An order or a read of the room backs Szymek and Romek off — but not Franek. He is too far gone to care about rank, and still has to be dealt with before he swings.
 - **Gives:** World State Change: only Franek is still a threat; the fight can still start if he is not turned around or beaten down.
 
 ### Pull a gun on them
-- **Requires:** Holding a firearm
+- **When:** Holding a firearm
 - **Cost:** 1 composure
 - **Outcome:** A drawn gun freezes the whole crew, Franek included — even blackout-drunk, he knows what a barrel means. The standoff ends cold. But it turns a scuffle over moonshine into something that could have killed a man, and the crew will not forget a government official pulling a weapon on them.
 - **Gives:** World State Change: the whole crew backs down and no fight happens; NPC State Change: the crew turns hostile and remembers the gun, and the still moves.
 
 
 ### Turn him around
-- **Requires:** Streetwise or Sweettalk
+- **When:** Streetwise or Sweettalk
 - **Cost:** 1 composure
 - **Outcome:** Franek is too drunk to track anything. Point him at a threat that is not there — a noise in the trees, the milicja coming up the path — and his aggression lurches off the committee. He stumbles off swinging at shadows.
 - **Gives:** World State Change: Franek is dealt with; no fight. NPC State Change: the crew is wary but not hostile, and the still stays put.
 
 ### Scrap
-- **Requires:** none — any player can wade in
-- **Cost:** 1 composure; the scrapper Bruised (TBD)
+- **Cost:** 1 composure
 - **Outcome:** The player throws themselves into the drunk crew, trading blows and grappling bottles away. Counts as one fighter against the crew.
-- **Gives:** World State Change: one more fighter in the brawl count.
+- **Gives:** World State Change: one more fighter in the brawl count; Card: the scrapper gets [Bruised](../cards/bruised.md)
 
 ### Beat them up
-- **Requires:** Violence
+- **Requires:** [Violence](../cards/violence.md)
 - **Cost:** 1 composure
 - **Outcome:** The player drops men fast and hard. Counts as two fighters against the crew.
 - **Gives:** World State Change: two more fighters in the brawl count.

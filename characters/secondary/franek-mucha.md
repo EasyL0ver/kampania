@@ -4,12 +4,15 @@
 
 ## Hook
 
-- Franek Mucha, a village drunk and brawler, one of [Tadek Gajda](../wujas.md)'s [drinking crew](drinking-crew.md).
+- Franek Mucha, a village drunk and brawler, one of [Tadek Gajda](../wujas.md)'s drinking crew.
 
 ## Vital Statistics
 
 - **Status:** Resident
+- **Born:** ~1927
 - **Age in 1967:** ~35-45
+- **Lives in:** [%NEW_VILLAGE%](../../locations/new-village.md)
+- **Settled:** ~1955
 
 ## Character
 

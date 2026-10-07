@@ -29,9 +29,9 @@ His voice is surprisingly soft for his size. Kindness reaches him after a pause,
 
 ## Opinions
 
-- **[Janina Gajda](ciotka.md)** — Auntie feeds me and keeps me safe. I love her, and she has always been there.
-- **[ks. Władysław Pająk](priest.md)** — The church is quiet and safe. He gives me little jobs and waits for me to finish.
-- **[Stanisław Rezeń](butcher.md)** — Something bad. When his dogs bark I hide, and when he passes I cannot move.
+- **[Janina Gajda](ciotka.md)** — "Auntie feeds me and keeps me safe. I love her, and she has always been there."
+- **[ks. Władysław Pająk](priest.md)** — "The church is quiet and safe. He gives me little jobs and waits for me to finish."
+- **[Stanisław Rezeń](butcher.md)** — "Something bad. When his dogs bark I hide, and when he passes I cannot move."
 
 ## Mechanics
 
@@ -45,34 +45,32 @@ His voice is surprisingly soft for his size. Kindness reaches him after a pause,
 ## Actions
 
 ### Talk to Edek
-- **Requires:** [Janina Gajda](ciotka.md) present, or Edek found alone outside
+- **When:** [Janina Gajda](ciotka.md) present, or Edek found alone outside
 - **Outcome:** He answers in short, simple sentences. He can give his routines, likes, dislikes, and basic memories of living with Janina.
 - **Gives:** NPC State Change: Edek warms to kind players; aware:characters/glupek.md
 
 ### Ask Edek about his mother
-- **Requires:** Players talk to him directly
+- **When:** Players talk to him directly
 - **Outcome:** He calls Janina "auntie," not mother. When asked about his real parents, he says he has only ever had his aunt.
 - **Gives:** [`ciotka-adopted-glupek`](../clues/clues.md#ciotka-adopted-glupek)
 
 ### Ask Edek about the cigarette
-- **Requires:** Players found the [Carmen cigarette in his corner](../locations/ciotkas-house.md#search-edeks-corner); talk to him directly
+- **When:** Players found the [Carmen cigarette in his corner](../locations/ciotkas-house.md#search-edeks-room); talk to him directly
 - **Outcome:** He brightens and says the butcher gave it to him. Rezeń ruffles his hair and slips him food and little presents. Edek keeps the cigarette but never lights it. He does not understand why the same man makes him freeze when the dogs bark.
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)
 
 ### Ask Edek about the butcher
-- **Requires:** Players talk to him directly
+- **When:** Players talk to him directly
 - **Prompted by:** aware:characters/glupek.md
 - **Outcome:** He goes quiet and small. He says the butcher's dogs make him hide, and when Rezeń passes he cannot move. He does not know why.
 - **Gives:** [`glupek-fears-butcher`](../clues/clues.md#glupek-fears-butcher)
 
 ### Census interview
-- **Requires:** Committee authority
 - **Cost:** 1 time
 - **Outcome:** He gives short, willing answers: his name and that he lives with his aunt. If asked his age, he looks to Janina.
 - **Gives:** Census data — Edek Barnaś, in Janina Gajda's household.
 
 ### Property assessment
-- **Requires:** Committee authority
 - **Cost:** 1 time
 - **Outcome:** He does not understand the question. He says it is his aunt's house.
 - **Gives:** Property record — no property held; dependent in [Janina's house](../locations/ciotkas-house.md).

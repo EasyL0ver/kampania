@@ -28,20 +28,20 @@
 
 ## Opportunities
 
-- **Close to breaking** `(requires: Empathy)` — he is not performing drunkenness; he is losing control of the secret. → Gives: [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
-- **Missing a woman** `(requires: Empathy or Physique)` — his fragments circle one woman and one night. → Gives: [`wujas-misses-someone`](../clues/clues.md#wujas-misses-someone)
-- **Blackmail story cracks** `(requires: jagna-knew-the-secret and Empathy)` — his guilt focuses on the fact that Hania never used what she knew. → Gives: [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret)
+- **Close to breaking** `(noticed by: [Empathy](../cards/empathy.md))` — he is not performing drunkenness; he is losing control of the secret. → Gives: [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
+- **Missing a woman** `(noticed by: [Empathy](../cards/empathy.md) OR [Physique](../cards/physique.md))` — his fragments circle one woman and one night. → Gives: [`wujas-misses-someone`](../clues/clues.md#wujas-misses-someone)
+- **Blackmail story cracks** `(noticed by: [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret) AND [Empathy](../cards/empathy.md))` — his guilt focuses on the fact that Hania never used what she knew. → Gives: [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret)
 
 ## Actions
 
 ### Let him confess
-- **Requires:** Bond with [Tadek Gajda](../characters/wujas.md) or prior humane treatment; Tadek is not being threatened
+- **When:** Bond with [Tadek Gajda](../characters/wujas.md) or prior humane treatment; Tadek is not being threatened
 - **Cost:** 1 time
 - **Outcome:** Tadek gives the lynch in fragments: Hania knew the family secret and never used it, Helena's threat story was false, Edward came with the rifle, Edward was killed, his body went to the well, and Hania broke free and ran into the night.
 - **Gives:** [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret), [`wujas-participated-in-lynch`](../clues/clues.md#wujas-participated-in-lynch), [`wojewoda-participated-in-lynch`](../clues/clues.md#wojewoda-participated-in-lynch), [`butcher-participated-in-lynch`](../clues/clues.md#butcher-participated-in-lynch), [`soldier-killed-defending-daughter`](../clues/clues.md#soldier-killed-defending-daughter), [`lynch-body-in-well`](../clues/clues.md#lynch-body-in-well), [`butcher-dumped-the-body`](../clues/clues.md#butcher-dumped-the-body), [`jagna-fled-the-lynch`](../clues/clues.md#jagna-fled-the-lynch)
 
 ### Pressure him while he cracks
-- **Requires:** Violence, committee authority, or explicit threat
+- **When:** Violence, committee authority, or explicit threat
 - **Cost:** 1 time
 - **Outcome:** Tadek shuts down and becomes a danger to himself and the cover-up.
 - **Gives:** NPC State Change: Tadek enters the suicide or dangerous spiral path

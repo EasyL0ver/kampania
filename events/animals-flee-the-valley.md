@@ -31,14 +31,13 @@
 
 ## Opportunities
 
-- **The one-way flight** `(requires: Geology)` — The animals are showing textbook flood displacement; game leaves low ground every wet year.
-- **The ground they will not cross** `(requires: Survival)` — Not one animal strays toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) all night.
-- **Dudka at his window** `(requires: Empathy or Speech)` — [Ryszard Dudka](../characters/neighbour.md) has never seen the woods empty like this in twenty years.
+- **The one-way flight** `(noticed by: [Geology](../cards/geology.md))` — The animals are showing textbook flood displacement; game leaves low ground every wet year.
+- **The ground they will not cross** `(noticed by: [Survival](../cards/survival.md))` — Not one animal strays toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) all night.
+- **Dudka at his window** `(noticed by: [Empathy](../cards/empathy.md) OR [Speech](../cards/speech.md))` — [Ryszard Dudka](../characters/neighbour.md) has never seen the woods empty like this in twenty years.
 
 ## Actions
 
 ### Calm the dogs / secure the livestock
-- **Requires:** Nothing
 - **Cost:** 1 time
 - **Outcome:** Players help [Michał Pytlak](../characters/foreman.md) keep panicked stock from breaking pens.
 - **Gives:** NPC State Change: [Michał Pytlak](../characters/foreman.md) warms to the committee.

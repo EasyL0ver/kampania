@@ -46,20 +46,19 @@
 
 ## Opportunities
 
-- **The excessive warmth** `(requires: Culture)` — The coffee and generosity manage a threat rather than host guests.
-- **What she never asks** `(requires: Finesse)` — [Helena Rzepka](../characters/matrona.md) never asks what the players have found.
-- **The shape of her case** `(requires: Finesse)` — Every practical argument ends at leaving the truth buried. → Gives: [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood)
-- **Emil at the edges** `(requires: Empathy)` — [Emil Rzepka](../characters/painter.md) flinches at his own name and will not be alone with [Helena Rzepka](../characters/matrona.md) and outsiders.
+- **The excessive warmth** `(noticed by: [Culture](../cards/culture.md))` — The coffee and generosity manage a threat rather than host guests.
+- **What she never asks** `(noticed by: [Finesse](../cards/finesse.md))` — [Helena Rzepka](../characters/matrona.md) never asks what the players have found.
+- **The shape of her case** `(noticed by: [Finesse](../cards/finesse.md))` — Every practical argument ends at leaving the truth buried. → Gives: [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood)
+- **Emil at the edges** `(noticed by: [Empathy](../cards/empathy.md))` — [Emil Rzepka](../characters/painter.md) flinches at his own name and will not be alone with [Helena Rzepka](../characters/matrona.md) and outsiders.
 
 ## Actions
 
 ### Take the scapegoat — give them Rezeń
-- **Requires:** Nothing
 - **Outcome:** The committee names [Stanisław Rezeń](../characters/butcher.md) in the report as the valley's guilt; the Lemko secret, the 1954 lynch, the forgery, and the massacre stay buried behind his name.
 - **Gives:** NPC State Change: [Helena Rzepka](../characters/matrona.md) becomes relieved and warm toward the players; World State Change: [Stanisław Rezeń](../characters/butcher.md) becomes [Ryszard Dudka](../characters/neighbour.md)'s locked [lynch target](../characters/neighbour.md#lynch-targets) unless players later intervene at [the lynch](punishment-lynch.md#actions).
 
 ### Confront her with her own hand
-- **Requires:** [`matrona-orchestrated-lynch`](../clues/clues.md#matrona-orchestrated-lynch) or [`painter-heard-matrona`](../clues/clues.md#painter-heard-matrona)
+- **Prompted by:** [matrona-orchestrated-lynch](../clues/clues.md#matrona-orchestrated-lynch), [painter-heard-matrona](../clues/clues.md#painter-heard-matrona)
 - **Cost:** 1 composure
 - **Outcome:** [Helena Rzepka](../characters/matrona.md) drops the performance, admits she aimed the mob, falsely claims [Hania Barnaś](../characters/jagna.md) was blackmailing the family, and truthfully identifies [Edward Barnaś](../characters/soldier.md) as a 1947 participant who took Lemko land.
 - **Gives:** [`soldier-participated-in-massacre`](../clues/clues.md#soldier-participated-in-massacre), [`soldier-took-best-land`](../clues/clues.md#soldier-took-best-land); NPC State Change: [Helena Rzepka](../characters/matrona.md) stops performing warmth with these players.

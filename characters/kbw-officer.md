@@ -2,11 +2,16 @@
 
 **Type:** Named character — deceased KBW officer
 
+## Hook
+
+- kpt. Henryk Ćwiek, a KBW officer, dead since 1947.
+
 ## Vital Statistics
 
 - **Status:** Dead
 - **Born:** ~1915
 - **Died:** 1947 (age ~32)
+- **Based in:** A KBW unit operating in the area in 1947
 - **Rank:** Kapitan, Korpus Bezpieczeństwa Wewnętrznego (KBW)
 - **Killed at:** [%OLD_VILLAGE% massacre](../story-facts/old-village-massacre.md)
 
@@ -24,11 +29,11 @@ In records and memories, he is less a private man than a uniform. People name hi
 
 ## Opinions
 
-- **[Edward Barnaś](soldier.md)** — He is a soldier in my unit. He follows orders.
-- **[Stanisław Rezeń](butcher.md)** — He is a civilian auxiliary useful for local work. I do not need to like a tool to use it.
-- **[por. Witold Skowron](officer.md)** — If the state wants a clean file, men like him make one.
-- **`officer-killed`:** My death is the fact the file had to move elsewhere. A dead captain at %OLD_VILLAGE% explains too much.
-- **`massacre-was-retribution`:** Discipline broke after I fell. What followed was not an order anyone wanted written down.
+- **[Edward Barnaś](soldier.md)** — "He is a soldier in my unit. He follows orders."
+- **[Stanisław Rezeń](butcher.md)** — "He is a civilian auxiliary useful for local work. I do not need to like a tool to use it."
+- **[por. Witold Skowron](officer.md)** — "If the state wants a clean file, men like him make one."
+- **[officer-killed](../clues/clues.md#officer-killed)** — "My death is the fact the file had to move elsewhere. A dead captain at %OLD_VILLAGE% explains too much."
+- **[massacre-was-retribution](../clues/clues.md#massacre-was-retribution)** — "Discipline broke after I fell. What followed was not an order anyone wanted written down."
 
 ## Bond
 

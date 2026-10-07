@@ -41,45 +41,45 @@
 
 ## Opportunities
 
-- **The crowd fracture** `(requires: Speech)` — [Dudka](../characters/neighbour.md) wants someone to hit; [Marek](../characters/junior.md) sees a way out; [Zofia](../characters/zofia.md) is ready to leave; [Pytlak](../characters/foreman.md) wants to fight the water; [Barbara](../characters/barbara.md) is terrified; [Helena](../characters/matrona.md) follows Zbigniew's cue.
-- **Zbigniew's spent authority** `(requires: Finesse and Form A)` — he is spending authority he cannot replace. Public contradiction can break the gathering.
-- **The unasked question** `(requires: Speech)` — the crowd wants to know how long the danger was known. The honest answer can turn the gathering into a mob.
-- **The priest's weight** `(requires: Finesse)` — the crowd checks [ks. Władysław Pająk](../characters/priest.md). A word from him can bless evacuation or violence.
+- **The crowd fracture** `(noticed by: [Speech](../cards/speech.md))` — [Dudka](../characters/neighbour.md) wants someone to hit; [Marek](../characters/junior.md) sees a way out; [Zofia](../characters/zofia.md) is ready to leave; [Pytlak](../characters/foreman.md) wants to fight the water; [Barbara](../characters/barbara.md) is terrified; [Helena](../characters/matrona.md) follows Zbigniew's cue.
+- **Zbigniew's spent authority** `(when: Form A)` `(noticed by: [Finesse](../cards/finesse.md))` — he is spending authority he cannot replace. Public contradiction can break the gathering.
+- **The unasked question** `(noticed by: [Speech](../cards/speech.md))` — the crowd wants to know how long the danger was known. The honest answer can turn the gathering into a mob.
+- **The priest's weight** `(noticed by: [Finesse](../cards/finesse.md))` — the crowd checks [ks. Władysław Pająk](../characters/priest.md). A word from him can bless evacuation or violence.
 
 ## Actions
 
 ### Back Zbigniew's line
-- **Requires:** Form A and players standing with Zbigniew.
+- **When:** Form A and players standing with Zbigniew.
 - **Cost:** 1 time
 - **Outcome:** Players reinforce his framing: there is a plan, the state will help, and people must move in order.
 - **Gives:** World State Change: the disclosure lands as orderly evacuation footing
 
 ### Tell the whole truth
-- **Requires:** Being heard by the crowd.
+- **When:** Being heard by the crowd.
 - **Cost:** 1 time
 - **Outcome:** A player says the state knew the danger and reassured the village anyway.
 - **Gives:** World State Change: the disclosure curdles toward panic and every-family-for-itself; NPC State Change: [Dudka](../characters/neighbour.md) becomes dangerous
 
 ### Face the crowd with a plan
-- **Requires:** Form B, or the truth has already broken in Form A; a credible evacuation route, army rescue, or place to send people.
+- **When:** Form B, or the truth has already broken in Form A; a credible evacuation route, army rescue, or place to send people.
 - **Cost:** 1 time
 - **Outcome:** Players take the anger and give the crowd logistics instead of blame.
 - **Gives:** World State Change: fear turns toward movement; World State Change: the crowd remains angry but usable for evacuation
 
 ### Face the crowd without a plan
-- **Requires:** Form B, or the truth has already broken in Form A; no credible route or deliverable promise.
+- **When:** Form B, or the truth has already broken in Form A; no credible route or deliverable promise.
 - **Cost:** 1 time
 - **Outcome:** Players admit the lie or redirect blame without offering safety.
 - **Gives:** World State Change: anger settles on the players, Zbigniew, or the distant state; World State Change: risk of violence against the players rises
 
 ### Force Zbigniew to answer the crowd
-- **Requires:** Form B and players aim responsibility at the sołtys.
+- **When:** Form B and players aim responsibility at the sołtys.
 - **Cost:** 1 time
 - **Outcome:** The crowd's question turns onto Zbigniew.
 - **Gives:** NPC State Change: [Zbigniew Gajda](../characters/wojewoda.md) becomes an open antagonist toward the players; World State Change: heat splits off the players if the move lands, or returns to them harder if it fails
 
 ### Calm it down
-- **Requires:** A credible way out: evacuation plan, the [phone line to the army](operator-refuses-help.md), or somewhere people can go.
+- **When:** A credible way out: evacuation plan, the [phone line to the army](operator-refuses-help.md), or somewhere people can go.
 - **Cost:** 1 time
 - **Outcome:** Players turn the gathering into evacuation logistics: who goes first, where people muster, and when they move.
 - **Gives:** World State Change: the scene resolves toward evacuation footing instead of riot

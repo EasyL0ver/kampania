@@ -37,38 +37,37 @@
 
 ## Opportunities
 
-- **The restored priest** `(requires: Devotion)` — ks. Pająk has chosen mercy over judgment.
-- **The rite forming** `(requires: Culture)` — he is building toward general absolution for people in danger of death.
-- **The word scarlet** `(requires: Devotion)` — his eyes go to Zbigniew, Tadek, and Rezeń, but not Helena.
-- **The butcher in the pew** `(requires: Empathy and [Rezeń](../characters/butcher.md) present)` — Rezeń is accepting absolution without visible contrition.
-- **Babcia's objection** `(requires: [Stefania Kopacz](../characters/babcia.md) present and Culture)` — the Lemko dead have not been named or rested, so Catholic absolution does not answer their grievance.
+- **The restored priest** `(noticed by: [Devotion](../cards/devotion.md))` — ks. Pająk has chosen mercy over judgment.
+- **The rite forming** `(noticed by: [Culture](../cards/culture.md))` — he is building toward general absolution for people in danger of death.
+- **The word scarlet** `(noticed by: [Devotion](../cards/devotion.md))` — his eyes go to Zbigniew, Tadek, and Rezeń, but not Helena.
+- **The butcher in the pew** `(when: [Rezeń](../characters/butcher.md) present)` `(noticed by: [Empathy](../cards/empathy.md))` — Rezeń is accepting absolution without visible contrition.
+- **Babcia's objection** `(when: [Stefania Kopacz](../characters/babcia.md) present)` `(noticed by: [Culture](../cards/culture.md))` — the Lemko dead have not been named or rested, so Catholic absolution does not answer their grievance.
 
 ## Actions
 
 ### Receive the odpust
-- **Requires:** Nothing
 - **Outcome:** ks. Pająk grants general absolution to the congregation as the water rises.
 - **Gives:** Ending Progress: the Grace ending fires; World State Change: [Rest](the-ritual.md) is foreclosed
 
 ### Bring a specific guilty soul to the rail
-- **Requires:** A guilty NPC is present and reachable.
+- **When:** A guilty NPC is present and reachable.
 - **Cost:** 1 time
 - **Outcome:** The named soul is walked forward, made to kneel, and receives absolution with guilt spoken and answered.
 - **Gives:** NPC State Change: the named guilty soul dies shriven and at peace
 
 ### Answer Babcia's plea by stopping
-- **Requires:** [Stefania Kopacz](../characters/babcia.md) is present and the players choose not to proceed past her plea.
+- **When:** [Stefania Kopacz](../characters/babcia.md) is present and the players choose not to proceed past her plea.
 - **Cost:** 1 time
 - **Outcome:** The players refuse to let the odpust be the final answer while the well dead remain unnamed.
 - **Gives:** Ending Progress: Grace is interrupted; Scene Unlock: [The Ritual](the-ritual.md)
 
 ### Proceed past Babcia's plea
-- **Requires:** [Stefania Kopacz](../characters/babcia.md) is present and the players continue the odpust.
+- **When:** [Stefania Kopacz](../characters/babcia.md) is present and the players continue the odpust.
 - **Outcome:** The odpust proceeds over Babcia's objection.
 - **Gives:** World State Change: the Lemko dead turn vengeful; Ending Progress: see [spiritual-endings.md](../story-facts/spiritual-endings.md)
 
 ### Refuse it and walk out
-- **Requires:** A player wants the guilty exposed, not forgiven.
+- **When:** A player wants the guilty exposed, not forgiven.
 - **Outcome:** That player refuses absolution and leaves the church; ks. Pająk continues the rite for the congregation.
 - **Gives:** World State Change: the odpust proceeds without that player
 

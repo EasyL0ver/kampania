@@ -9,8 +9,10 @@
 ## Vital Statistics
 
 - **Status:** Dead
+- **Born:** ~1920
 - **Died:** 1947 (age ~27) — during the [%OLD_VILLAGE% massacre](../story-facts/old-village-massacre.md)
 - **Heritage:** Lemko / Ukrainian
+- **Based in:** An insurgent unit fighting in the area
 
 ## Character
 

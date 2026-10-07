@@ -9,7 +9,10 @@
 ## Vital Statistics
 
 - **Status:** Resident
+- **Born:** 1962
 - **Age in 1967:** 5
+- **Lives in:** [%NEW_VILLAGE%](../../locations/new-village.md) — with his parents
+- **Settled:** Born in %NEW_VILLAGE%
 - **Parents:** [Michał Pytlak](../foreman.md) and [Zofia Pytlak](../zofia.md)
 
 ## Character

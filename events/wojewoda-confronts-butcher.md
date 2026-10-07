@@ -30,10 +30,10 @@
 
 ## Opportunities
 
-- **Power dynamic** `(requires: Finesse)` — the sołtys gives an order and the butcher ignores it.
-- **Zbigniew after** `(requires: Empathy and speaking to [Zbigniew Gajda](../characters/wojewoda.md))` — he is more rattled than the public exchange warrants.
-- **Rezeń after** `(requires: Empathy and speaking to [Stanisław Rezeń](../characters/butcher.md))` — he is pleased that the order failed.
-- **Villagers after** `(requires: Finesse)` — they have not seen Zbigniew fail to move someone before.
+- **Power dynamic** `(noticed by: [Finesse](../cards/finesse.md))` — the sołtys gives an order and the butcher ignores it.
+- **Zbigniew after** `(when: speaking to [Zbigniew Gajda](../characters/wojewoda.md))` `(noticed by: [Empathy](../cards/empathy.md))` — he is more rattled than the public exchange warrants.
+- **Rezeń after** `(when: speaking to [Stanisław Rezeń](../characters/butcher.md))` `(noticed by: [Empathy](../cards/empathy.md))` — he is pleased that the order failed.
+- **Villagers after** `(noticed by: [Finesse](../cards/finesse.md))` — they have not seen Zbigniew fail to move someone before.
 
 ## Actions
 

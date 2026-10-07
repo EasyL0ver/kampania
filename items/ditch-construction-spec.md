@@ -28,7 +28,8 @@ A land-reclamation (melioracja) file in an official folder: an approved cross-se
 ## Actions
 
 ### Compare the spec to the ditch
-- **Requires:** Holding the spec and having walked the ditch ([ditch-concrete-stops-short](../clues/clues.md#ditch-concrete-stops-short))
+- **Requires:** [PGR Irrigation Ditch Construction Spec](ditch-construction-spec.md)
+- **Prompted by:** [ditch-concrete-stops-short](../clues/clues.md#ditch-concrete-stops-short)
 - **Cost:** 1 time
 - **Outcome:** The file specifies concrete lining the full run, head to low ground, accepted as built. The walked ditch is concrete only at the head and a shallow earth dugout the rest of the way. The paper and the ground do not match: the ditch was never built to the spec it was signed off against.
 - **Gives:** [ditch-not-built-to-spec](../clues/clues.md#ditch-not-built-to-spec)

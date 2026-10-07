@@ -28,12 +28,12 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ## Opinions
 
-- **[Barbara Kopacz](barbara.md)** — Mama is my whole world. When she smiles, I am happy. When she is tired, I climb into her lap.
-- **[Stefania Kopacz](babcia.md)** — Babcia makes sounds and I copy them. It is a game, but sometimes she holds my face and her eyes get wet.
-- **[Ryszard Dudka](neighbour.md)** — The nice man next door brings wood and fixes things. He lets me hold nails.
-- **[Marek Gajda](junior.md)** — He visits Mama sometimes. He does not talk to me.
-- **[Tadek Gajda](wujas.md)** — He is just a man in the village. I do not know him, and he does not know me.
-- **[Paraskewia](hag.md)** — The lady in the trees gave me berries and talked like Babcia does. She is nice, and nobody knows I saw her.
+- **[Barbara Kopacz](barbara.md)** — "Mama is my whole world. When she smiles, I am happy. When she is tired, I climb into her lap."
+- **[Stefania Kopacz](babcia.md)** — "Babcia makes sounds and I copy them. It is a game, but sometimes she holds my face and her eyes get wet."
+- **[Ryszard Dudka](neighbour.md)** — "The nice man next door brings wood and fixes things. He lets me hold nails."
+- **[Marek Gajda](junior.md)** — "He visits Mama sometimes. He does not talk to me."
+- **[Tadek Gajda](wujas.md)** — "He is just a man in the village. I do not know him, and he does not know me."
+- **[Paraskewia](hag.md)** — "The lady in the trees gave me berries and talked like Babcia does. She is nice, and nobody knows I saw her."
 
 ## Mechanics
 
@@ -63,50 +63,49 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ## Opportunities
 
-- **Babcia's sounds** `(requires: evening with Pawełek and Babcia and Language)` — Pawełek reproduces Babcia's prayer fragments with eerie accuracy. A child is acting as an unconscious vessel for a dying language.
-- **Barbara watching Babcia and Pawełek** `(requires: evening with Pawełek and Babcia and Empathy)` — [Barbara](barbara.md) watches from the kitchen. She does not understand what Babcia says either, and she is watching her son become part of something she was never part of.
-- **Medicine diagnosis** `(requires: Stabilize Pawełek and Medicine)` — The illness will not resolve on its own in a child this size. He needs antibacterial medication; stabilization only buys time. → Gives: [paweleks-diagnosis](../clues/clues.md#paweleks-diagnosis)
-- **Contamination pattern** `(requires: Stabilize Pawełek and Medicine)` — The bacterial load points to decomposing organic matter in a confined water source over years: a cistern, cellar, or well filled with something large and organic. → Gives: [paweleks-contamination](../clues/clues.md#paweleks-contamination)
-- **Water table mapping** `(requires: Ask about drinking water and Geology)` — Contamination follows the water table downhill from the old village. Mapping the flow points toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) and [the well](../locations/old-village-ruins.md). → Gives: aware:locations/old-village-ruins.md
-- **Mud on his shoes** `(requires: Ask about drinking water and Survival)` — His shoes by the door carry dark, silty mud with stone dust fragments: forest-path mud with worked stone. → Gives: aware:locations/old-village-ruins.md
+- **Babcia's sounds** `(when: evening with Pawełek, Babcia)` `(noticed by: [Language](../cards/language.md))` — Pawełek reproduces Babcia's prayer fragments with eerie accuracy. A child is acting as an unconscious vessel for a dying language.
+- **Barbara watching Babcia and Pawełek** `(when: evening with Pawełek, Babcia)` `(noticed by: [Empathy](../cards/empathy.md))` — [Barbara](barbara.md) watches from the kitchen. She does not understand what Babcia says either, and she is watching her son become part of something she was never part of.
+- **Medicine diagnosis** `(when: Stabilize Pawełek)` `(noticed by: [Medicine](../cards/medicine.md))` — The illness will not resolve on its own in a child this size. He needs antibacterial medication; stabilization only buys time. → Gives: [paweleks-diagnosis](../clues/clues.md#paweleks-diagnosis)
+- **Contamination pattern** `(when: Stabilize Pawełek)` `(noticed by: [Medicine](../cards/medicine.md))` — The bacterial load points to decomposing organic matter in a confined water source over years: a cistern, cellar, or well filled with something large and organic. → Gives: [paweleks-contamination](../clues/clues.md#paweleks-contamination)
+- **Water table mapping** `(when: Ask about drinking water)` `(noticed by: [Geology](../cards/geology.md))` — Contamination follows the water table downhill from the old village. Mapping the flow points toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) and [the well](../locations/old-village-ruins.md). → Gives: aware:locations/old-village-ruins.md
+- **Mud on his shoes** `(when: Ask about drinking water)` `(noticed by: [Survival](../cards/survival.md))` — His shoes by the door carry dark, silty mud with stone dust fragments: forest-path mud with worked stone. → Gives: aware:locations/old-village-ruins.md
 
 ## Actions
 
 ### Build with Pawełek
-- **Requires:** Morning or afternoon, Pawełek playing with stones, and **Handiwork**
+- **When:** Morning or afternoon, Pawełek playing with stones, and **Handiwork**
 - **Outcome:** The player helps him build the circular pattern he has been copying from memory. An engineer recognizes the pattern as a well rim.
 - **Gives:** [pawelek-wanders-to-old-village](../clues/clues.md#pawelek-wanders-to-old-village), aware:locations/old-village-ruins.md
 
 ### Play cops with Pawełek
-- **Requires:** **Violence**
+- **Requires:** [Violence](../cards/violence.md)
 - **Outcome:** Through play, he acts out men around a fire, shouting, bottles, and bad guys hiding in the forest.
 - **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
 
 ### Speak Lemko with Pawełek
-- **Requires:** **Language**
+- **Requires:** [Language](../cards/language.md)
 - **Outcome:** He recognizes the speech as like Babcia's and like the lady's. He repeats softer words from an old woman in the forest who has been kind to him.
 - **Gives:** aware:characters/hag.md
 
 ### The place you can't get through
-- **Requires:** Playing or talking with Pawełek about the forest
+- **When:** Playing or talking with Pawełek about the forest
 - **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Outcome:** He mentions, offhand, that you can't get through the notch in the hill anymore because it all fell down in a big pile of rocks. The lady showed him.
 - **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 
 ### Play with Pawełek
-- **Requires:** Nothing
 - **Cost:** 1 time
 - **Outcome:** The player spends time with him in chase, hide-and-seek, or throwing stones at a tree. He is delighted that an adult plays with him.
 - **Gives:** NPC State Change: Pawełek treats the player as a trusted playmate for actions that require trust.
 
 ### Stabilize Pawełek
-- **Requires:** **Medicine**, Pawełek is sick
+- **When:** **Medicine**, Pawełek is sick
 - **Cost:** 2 time
 - **Outcome:** Clean water, salt, boiled cloths, cool compresses, controlled hydration, and monitoring stop the HP drain for the rest of the day. The effect resets next morning.
 - **Gives:** NPC State Change: [Barbara](barbara.md) trusts the committee and cooperates fully.
 
 ### Ask about drinking water
-- **Requires:** Pawełek is sick, HP 5-6 (lucid), and Pawełek trusts the player or the player uses Speech
+- **When:** Pawełek is sick, HP 5-6 (lucid), and Pawełek trusts the player or the player uses Speech
 - **Outcome:** He says he drank by the round stones where the water comes up, and that the lady told him not to drink it but he was thirsty.
 - **Gives:** [well-water-contaminated](../clues/clues.md#well-water-contaminated), aware:locations/old-village-ruins.md
 

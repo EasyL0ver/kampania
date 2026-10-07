@@ -37,10 +37,3 @@ Fuel & transport:              850 zł
                             ─────────
 TOTAL:                      15,650 zł
 ```
-
-## Actions
-
-### Cross-check the names (Investigation)
-- **Requires:** Holding the registry
-- **Cost:** 1 time
-- **Outcome:** One listed labourer — Tadeusz Mazur — draws a full daily wage but no one on the farm answers to him or has seen him work. Gives [`mazur-paid-but-absent`](../clues/clues.md#mazur-paid-but-absent). If confronted, [Michał Pytlak](../characters/foreman.md) enters Stage 1 deflection.

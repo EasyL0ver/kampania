@@ -9,7 +9,10 @@
 ## Vital Statistics
 
 - **Status:** Resident
+- **Born:** ~1945
 - **Age in 1967:** ~20-25
+- **Lives in:** [PGR Workers' Quarters](../../locations/pgr-quarters.md)
+- **Settled:** ~1965
 - **Works at:** PGR farm labor
 
 ## Character

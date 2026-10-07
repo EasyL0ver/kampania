@@ -20,18 +20,18 @@ The plebania beside the church in %NEW_VILLAGE%.
 
 ## Opportunities
 
-- **The smoke under the damp** `(requires: Chainsmoker)`: the stale smell and a smoker's stain on his fingers give him away. The priest smokes, and hides it. The brand does not show from this alone. → Gives: [priest-smokes](../clues/clues.md#priest-smokes)
+- **The smoke under the damp** `(noticed by: [Chainsmoker](../cards/chainsmoker.md))` — the stale smell and a smoker's stain on his fingers give him away. The priest smokes, and hides it. The brand does not show from this alone. → Gives: [priest-smokes](../clues/clues.md#priest-smokes)
 
 ## Actions
 
 ### Search the rectory
-- **Requires:** Priest absent or distracted
+- **When:** Priest absent or distracted
 - **Cost:** 1 time
 - **Outcome:** The parish ledger records Hania Barnaś's First Communion in the early 1950s; after the priest shelters Edek, the cellar also holds a straw mattress, blanket, food scraps, and a water jug.
 - **Gives:** [barnas-had-a-daughter-hania](../clues/clues.md#barnas-had-a-daughter-hania); NPC State Change: if Edek is in the cellar, players can confront the priest about hiding him.
 
 ### Find the hidden cigarettes
-- **Requires:** Priest absent or distracted
+- **When:** Priest absent or distracted
 - **Cost:** 1 time
 - **Outcome:** Tucked out of sight is a pack of Carmen, the premium brand. He smokes the same brand the village would name at Janina's door, and hides it.
 - **Gives:** [priest-smokes-carmen](../clues/clues.md#priest-smokes-carmen)

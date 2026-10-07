@@ -188,13 +188,13 @@ def hook_present(f: MdFile):
         yield s.line, "'## Hook' section is empty"
 
 
-ACTION_FIELDS = ["Requires", "Outcome", "Gives"]   # Cost is absent when free
+ACTION_FIELDS = ["Outcome", "Gives"]   # Requires and Cost are absent when empty
 ACTION_FIELD = re.compile(r"^\s*-\s*\*\*([^*:]+):\*\*")
 
 
 @rule("action-fields", "characters", "events", "locations", "items")
 def action_fields(f: MdFile):
-    """Every ### action under ## Actions has Requires, Outcome and Gives."""
+    """Every ### action under ## Actions has Outcome and Gives."""
     s = f.section("Actions")
     if s is None:
         return
@@ -222,7 +222,7 @@ STATUS_FIELDS = {
     # status: (required, forbidden)
     "Resident": (["Born", "Age in 1967", "Lives in", "Settled"], ["Died", "Lived in", "Based in"]),
     "Outsider": (["Born", "Age in 1967", "Based in"], ["Lives in", "Settled", "Died", "Lived in"]),
-    "Dead":     (["Born", "Died", "Lived in"], ["Age in 1967", "Lives in", "Settled", "Based in"]),
+    "Dead":     (["Born", "Died"], ["Age in 1967", "Lives in", "Settled"]),
 }
 LOCATION_LINK = re.compile(r"^\[[^\]]+\]\((?:\.\./)+locations/[a-z0-9-]+\.md\)")
 
@@ -248,6 +248,8 @@ def vital_status(f: MdFile):
         return
     required, forbidden = STATUS_FIELDS[status]
     missing = [x for x in required if x not in fields]
+    if status == "Dead" and ("Lived in" in fields) == ("Based in" in fields):
+        missing.append("exactly one of Lived in / Based in")
     if missing:
         yield s.line, f"Status {status} requires: {', '.join(missing)}"
     for x in forbidden:
@@ -267,6 +269,186 @@ def appearance_present(f: MdFile):
     appearance = f.section("Appearance")
     if status == "Resident" and appearance is None:
         yield f.title_line or 1, "Status Resident requires a '## Appearance' section"
+
+
+REQUIRES_FIELD = re.compile(r"^\s*-\s*\*\*Requires:\*\*\s*(.*?)\s*$")
+REQ_TOKEN = re.compile(r"\s*(\(|\)|AND\b|OR\b|\[[^\]]+\]\([^)\s]+\))")
+REQ_CARD = re.compile(r"^\[[^\]]+\]\(((?:\.\./)*(cards|items)/[a-z0-9-]+\.md|[a-z0-9-]+\.md)\)$")
+
+
+def _tokenize_requires(value: str):
+    """Split into tokens; returns (tokens, None) or (None, the unparseable rest)."""
+    tokens, pos = [], 0
+    while pos < len(value):
+        if value[pos:].strip() == "":
+            break
+        m = REQ_TOKEN.match(value, pos)
+        if not m:
+            return None, value[pos:].strip()
+        tokens.append(m.group(1))
+        pos = m.end()
+    return tokens, None
+
+
+def _parse_requires(tokens: list[str], kind: str, clues: bool = False) -> str | None:
+    """Recursive descent: expr := term (OR term)*; term := atom (AND atom)*;
+    atom := card/item link (or clue link, if clues) | ( expr ). Returns an error message or None."""
+    pos = 0
+
+    def atom():
+        nonlocal pos
+        if pos >= len(tokens):
+            return "expression ends where a card, item or '(' was expected"
+        t = tokens[pos]
+        if t == "(":
+            pos += 1
+            err = expr()
+            if err:
+                return err
+            if pos >= len(tokens) or tokens[pos] != ")":
+                return "missing ')'"
+            pos += 1
+            return None
+        m = REQ_CARD.match(t)
+        if (m and (m.group(2) or kind in ("cards", "items"))) or (clues and REQ_CLUE.match(t)):
+            pos += 1
+            return None
+        return f"'{t}' is not a card{', item or clue' if clues else ' or item'} link (or '(')"
+
+    def chain(sub, op):
+        nonlocal pos
+        err = sub()
+        while not err and pos < len(tokens) and tokens[pos] == op:
+            pos += 1
+            err = sub()
+        return err
+
+    def term():
+        return chain(atom, "AND")
+
+    def expr():
+        return chain(term, "OR")
+
+    err = expr()
+    if not err and pos < len(tokens):
+        err = f"unexpected '{tokens[pos]}'"
+    return err
+
+
+REQ_CLUE = re.compile(r"^\[`?([a-z0-9-]+)`?\]\((?:\.\./)*clues/clues\.md#\1\)$")
+
+
+@rule("requires-format", "characters", "events", "locations", "items")
+def requires_format(f: MdFile):
+    """Requires is a boolean expression over card/item links: AND, OR, ( ). Nothing required = no Requires line."""
+    for line, t in f.lines_with_numbers():
+        m = REQUIRES_FIELD.match(t)
+        if not m:
+            continue
+        value = m.group(1)
+        if not value:
+            yield line, "empty Requires (omit the line instead)"
+            continue
+        tokens, rest = _tokenize_requires(value)
+        if tokens is None:
+            yield line, f"Requires '{value}': cannot read '{rest[:60]}' (only card/item links, AND, OR, parentheses)"
+            continue
+        err = _parse_requires(tokens, f.kind)
+        if err:
+            yield line, f"Requires '{value}': {err}"
+
+
+OPINION_LINE = re.compile(r"^- \*\*(?P<key>\[[^\]]+\]\([^)\s]+\))\*\* — (?P<body>.*)$")
+OPINION_BRANCH = re.compile(r"^  - \*\((?P<cond>[^)]+(?:\([^)]*\)[^)]*)*)\):\* (?P<body>.*)$")
+OPINION_ENTITY = re.compile(r"^\[[^\]]+\]\((?:\.\./)*(?:(?:characters|locations|items|events)/)?[a-z0-9/-]+\.md\)$")
+QUOTED = re.compile(r'^["“].*["”]$')
+
+
+@rule("opinions-format", "characters")
+def opinions_format(f: MdFile):
+    """Opinions lines are `- **[entity or clue link]** — "speech"`, with optional `  - *(condition):* "speech"` branches."""
+    s = f.section("Opinions")
+    if s is None:
+        return
+    keyed = False
+    for line, t in s.body:
+        if not t.strip():
+            continue
+        if "Gives:" in t or "→" in t:
+            yield line, "Opinions never give anything (no Gives / →): a reveal belongs in an action or opportunity"
+            continue
+        m = OPINION_LINE.match(t)
+        b = OPINION_BRANCH.match(t)
+        if m:
+            key = m.group("key")
+            if not (OPINION_ENTITY.match(key) or REQ_CLUE.match(key)):
+                yield line, f"opinion key {key[:70]} is not a character/location/item/event link or a clue link (text = clue id)"
+            keyed = True
+        elif b:
+            if not keyed:
+                yield line, "condition branch with no keyed opinion above it"
+        else:
+            yield line, 'not an opinion line: expected `- **[entity or clue link]** — "…"` or `  - *(condition):* "…"`'
+            continue
+        body = (m or b).group("body").strip()
+        if not QUOTED.match(body):
+            yield line, f'opinion must be spoken words in quotes: {body[:60]}'
+
+
+PROSE_LIMIT = 250
+OUTCOME_FIELD = re.compile(r"^\s*-\s*\*\*Outcome:\*\*\s*(.*?)\s*$")
+OPP_TEXT = re.compile(r"^\s*-\s*\*\*[^*]+\*\*(?:\s*`\([^`]*\)`)*\s*[—:-]\s*(.*?)\s*(?:→\s*Gives:.*)?$")
+
+
+def rendered(text: str) -> str:
+    """Text as a reader sees it: link targets, bold and code marks removed."""
+    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
+    return re.sub(r"\*\*|`", "", text).strip()
+
+
+@rule("prose-length", "characters", "events", "locations", "items", severity="warning")
+def prose_length(f: MdFile):
+    """Prose fields (Outcome, opportunity text, Setup and Hook bullets) are at most PROSE_LIMIT characters as rendered."""
+    def check(line, label, text):
+        n = len(rendered(text))
+        if n > PROSE_LIMIT:
+            return line, f"{label} is {n} characters (limit {PROSE_LIMIT})"
+    for line, t in f.lines_with_numbers():
+        m = OUTCOME_FIELD.match(t)
+        if m and (r := check(line, "Outcome", m.group(1))):
+            yield r
+    s = f.section("Opportunities")
+    for line, t in (s.body if s else []):
+        m = OPP_TEXT.match(t)
+        if m and (r := check(line, "opportunity text", m.group(1))):
+            yield r
+    for name in ("Setup", "Hook"):
+        s = f.section(name)
+        for line, t in (s.body if s else []):
+            if t.lstrip().startswith("- ") and (r := check(line, f"{name} bullet", t.lstrip()[2:])):
+                yield r
+
+
+NOTICED_TAG = re.compile(r"`\(noticed by:\s*(.*?)\)`")
+OLD_REQ_TAG = re.compile(r"`\(requires:")
+
+
+@rule("noticed-by-format", "characters", "events", "locations", "items")
+def noticed_by_format(f: MdFile):
+    """Opportunities gate with `(noticed by: ...)` (card/item/clue links, AND, OR, ( )) and `(when: ...)`; never `(requires: ...)`."""
+    s = f.section("Opportunities")
+    for line, t in (s.body if s else []):
+        if OLD_REQ_TAG.search(t):
+            yield line, "opportunity uses `(requires: ...)`: split it into `(noticed by: ...)` and `(when: ...)`"
+    for line, t in f.lines_with_numbers():
+        for value in NOTICED_TAG.findall(t):
+            tokens, rest = _tokenize_requires(value)
+            if tokens is None:
+                yield line, f"noticed by '{value[:80]}': cannot read '{rest[:60]}' (only card/item/clue links, AND, OR, parentheses)"
+                continue
+            err = _parse_requires(tokens, f.kind, clues=True)
+            if err:
+                yield line, f"noticed by '{value[:80]}': {err}"
 
 
 PROMPTED_FIELD = re.compile(r"^\s*-\s*\*\*Prompted by:\*\*\s*(.*?)\s*$")
@@ -307,12 +489,12 @@ COST_FIELD = re.compile(r"^\s*-\s*\*\*Cost:\*\*\s*(.*?)\s*$")
 COST_JOIN = " + "
 COST_TIME = re.compile(r"^[1-9]\d* time$")
 COST_COMPOSURE = re.compile(r"^[1-9]\d* composure$")
-COST_ITEM = re.compile(r"^\[[^\]]+\]\(((?:\.\./)?items/[a-z0-9-]+\.md|[a-z0-9-]+\.md)\)$")
+COST_ITEM = re.compile(r"^\[[^\]]+\]\(((?:\.\./)*(?:items|cards)/[a-z0-9-]+\.md|[a-z0-9-]+\.md)\)$")
 
 
 @rule("action-cost", "characters", "events", "locations", "items")
 def action_cost(f: MdFile):
-    """Cost is 'N time', 'N composure' or an [item](items/x.md) link, joined by ' + '. Free = no Cost line."""
+    """Cost is 'N time', 'N composure', an [item](items/x.md) link (used up) or a [card](cards/x.md) link (given up), joined by ' + '. Free = no Cost line."""
     for line, t in f.lines_with_numbers():
         m = COST_FIELD.match(t)
         if not m:
@@ -326,10 +508,10 @@ def action_cost(f: MdFile):
             continue
         for part in value.split(COST_JOIN):
             item = COST_ITEM.match(part)
-            if item and (f.kind == "items" or item.group(1).startswith(("../items/", "items/"))):
+            if item and ("/" in item.group(1) or f.kind in ("items", "cards")):
                 continue
             if not (COST_TIME.match(part) or COST_COMPOSURE.match(part)):
-                yield line, f"Cost '{value}': '{part}' is not 'N time', 'N composure' or an [item](../items/x.md) link"
+                yield line, f"Cost '{value}': '{part}' is not 'N time', 'N composure', an item link or a card link"
                 break
 
 

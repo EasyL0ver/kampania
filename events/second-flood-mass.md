@@ -26,19 +26,18 @@
 
 ## Opportunities
 
-- **The sermon target** `(requires: Culture or History)` — Habakkuk points to a settlement founded on blood, not only a personal sin.
-- **The village reaction** `(requires: Violence)` — the parish is primed to seek a body to blame.
-- **Tadek's attendance** `(requires: Devotion)` — [Tadek](../characters/wujas.md) has attended every Mass since burying his sister.
+- **The sermon target** `(noticed by: [Culture](../cards/culture.md) OR [History](../cards/history.md))` — Habakkuk points to a settlement founded on blood, not only a personal sin.
+- **The village reaction** `(noticed by: [Violence](../cards/violence.md))` — the parish is primed to seek a body to blame.
+- **Tadek's attendance** `(noticed by: [Devotion](../cards/devotion.md))` — [Tadek](../characters/wujas.md) has attended every Mass since burying his sister.
 
 ## Actions
 
 ### Let the sermon stand
-- **Requires:** Nothing
 - **Outcome:** The sermon lands on the whole congregation and becomes part of the night's violence.
 - **Gives:** World State Change: the mob-justice pressure rises toward [The Lynch](punishment-lynch.md)
 
 ### Challenge the judgment reading
-- **Requires:** A player publicly pushes mercy or restraint after Mass.
+- **When:** A player publicly pushes mercy or restraint after Mass.
 - **Cost:** 1 time
 - **Outcome:** The challenge gives ks. Pająk and the parish a visible alternative to judgment.
 - **Gives:** Ending Progress: +1 to the [Faith in Redemption](../story-facts/spiritual-endings.md) score

@@ -29,25 +29,22 @@ A car stopping on the muddy road as Zbigniew Gajda comes forward to meet the com
 
 ## Opportunities
 
-- **The listening at the door** `(requires: Finesse)` — A shadow and a floorboard creak show someone is listening during the conversation with [Zbigniew Gajda](../characters/wojewoda.md). → Gives: [`irena-is-watchful`](../clues/clues.md#irena-is-watchful)
-- **The church is too nice** `(requires: Handiwork)` — From the road: fresh repairs, sound roof, ample firewood stacked — beyond what a village this size funds. → Gives: [`church-too-nice`](../clues/clues.md#church-too-nice)
+- **The listening at the door** `(noticed by: [Finesse](../cards/finesse.md))` — A shadow and a floorboard creak show someone is listening during the conversation with [Zbigniew Gajda](../characters/wojewoda.md). → Gives: [`irena-is-watchful`](../clues/clues.md#irena-is-watchful)
+- **The church is too nice** `(noticed by: [Handiwork](../cards/handiwork.md))` — From the road: fresh repairs, sound roof, ample firewood stacked — beyond what a village this size funds. → Gives: [`church-too-nice`](../clues/clues.md#church-too-nice)
 
 ## Actions
 
 ### Get out and look around
-- **Requires:** Nothing
 - **Prompted by:** aware:locations/new-village.md
 - **Outcome:** Standing on the muddy road, the committee takes in the village: Barbara Kopacz's house at the edge beside Dudka's, and the store where the crew loiters.
 - **Gives:** aware:locations/barbaras-house.md; aware:locations/the-store.md
 
 ### Listen to Wojewoda's welcome
-- **Requires:** Nothing
 - **Prompted by:** aware:locations/new-village.md
 - **Outcome:** He plays the gracious host: he is the committee's point of contact, and the heavy phone on his desk is the only line for miles, so anything the village or the committee needs runs through him.
 - **Gives:** [`wojewoda-has-only-phone`](../clues/clues.md#wojewoda-has-only-phone)
 
 ### Tell Wojewoda about the flood risk
-- **Requires:** Nothing
 - **Outcome:** He listens, treats the warning as serious but unproven, and urges the committee to get to work at once and bring back geological confirmation.
 - **Gives:** World State Change: Zbigniew does not invite the committee to the family dinner.
 

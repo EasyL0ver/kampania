@@ -12,7 +12,7 @@
 - **Born:** ~1934
 - **Age in 1967:** 33
 - **Heritage:** Polish settler family
-- **Lives in:** Her husband's family farmhouse in %NEW_VILLAGE%
+- **Lives in:** [%NEW_VILLAGE%](../locations/new-village.md) — her husband's family farmhouse
 - **Settled:** 1947, as a child with her father
 
 ## Character
@@ -30,37 +30,35 @@ She states her case rather than begging for it. When she repeats her father's la
 
 ## Opinions
 
-- **[%BROTHER%](dispute-brother.md)** — He never worked a furrow of it. I was at father's bedside, I kept the strip, and now money turns his paper into a weapon.
-- **[%OLD_VILLAGE%](../locations/old-village-ruins.md)** — I do not go up there. Father said things about that place at the end, and I have never told anyone the half of it.
-- **`army-massacred-civilians-in-1947`:** Father told me the land was never ours to hand down. The people here did not leave; they were killed, and the burning hid it.
+- **[%BROTHER%](dispute-brother.md)** — "He never worked a furrow of it. I was at father's bedside, I kept the strip, and now money turns his paper into a weapon."
+- **[%OLD_VILLAGE%](../locations/old-village-ruins.md)** — "I do not go up there. Father said things about that place at the end, and I have never told anyone the half of it."
+- **[army-massacred-civilians-in-1947](../clues/clues.md#army-massacred-civilians-in-1947)** — "Father told me the land was never ours to hand down. The people here did not leave; they were killed, and the burning hid it."
 
 ## Opportunities
 
-- **She is holding back her father's last words** `(requires: Empathy)` — Her anger about the strip is direct, but she keeps circling her father's deathbed without naming it.
-- **She will not face the ruins** `(requires: Culture and old village in view)` — Her unease fits someone told a place is bloodied, not someone who merely dislikes ruins.
+- **She is holding back her father's last words** `(noticed by: [Empathy](../cards/empathy.md))` — Her anger about the strip is direct, but she keeps circling her father's deathbed without naming it.
+- **She will not face the ruins** `(when: old village in view)` `(noticed by: [Culture](../cards/culture.md))` — Her unease fits someone told a place is bloodied, not someone who merely dislikes ruins.
 
 ## Actions
 
 ### Census interview
-- **Requires:** Committee authority
 - **Cost:** 1 time
 - **Outcome:** She answers plainly with her own details and her husband's family farmhouse.
 - **Gives:** Census data — %SISTER%, in her husband's household.
 
 ### Property assessment
-- **Requires:** Committee authority
 - **Cost:** 1 time
 - **Outcome:** She has no deed and claims the border strip by years of labour. She names her brother's paper as the theft.
 - **Gives:** Property record — %SISTER% claims the disputed strip by use, no title; World State Change — the sibling land dispute is on the committee docket.
 
 ### Take her plea seriously
-- **Requires:** The committee engages with her as a claimant, not a nuisance
+- **When:** The committee engages with her as a claimant, not a nuisance
 - **Cost:** 1 time
 - **Outcome:** She repeats her father's dying words: the land was never theirs to pass down, the old village people were killed, and the fire hid it. She offers it as proof that the deed is dirty.
 - **Gives:** [`army-massacred-civilians-in-1947`](../clues/clues.md#army-massacred-civilians-in-1947)
 
-### Ask her to face what the words mean
-- **Requires:** [`army-massacred-civilians-in-1947`](../clues/clues.md#army-massacred-civilians-in-1947) already taken from her, and the players tell her plainly what her father witnessed
+### Tell her what her father really witnessed
+- **Prompted by:** [army-massacred-civilians-in-1947](../clues/clues.md#army-massacred-civilians-in-1947)
 - **Outcome:** She goes still and stops using the deathbed account as a property argument. She will not repeat it in an official room again.
 - **Gives:** NPC State Change — %SISTER% withdraws the testimony from the dispute and will not state it formally.
 

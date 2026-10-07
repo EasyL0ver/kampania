@@ -25,15 +25,14 @@ Zbigniew Gajda's family home, the largest house in %NEW_VILLAGE%.
 
 ## Opportunities
 
-- **Old wound** `(requires: Zbigniew Gajda home and Medicine)` — Zbigniew's ribs show an old badly healed injury from a single heavy blow. → Gives: [wojewoda-was-hurt-that-night](../clues/clues.md#wojewoda-was-hurt-that-night)
-- **Icon on the shelf** `(requires: Culture or faith knowledge)` — The small wooden icon is Greek Catholic or Orthodox Lemko devotional art. → Gives: [siblings-are-lemko](../clues/clues.md#siblings-are-lemko)
-- **Irena's hospitality** `(requires: Empathy)` — Irena hosts politely while staying tense. → Gives: [irena-is-watchful](../clues/clues.md#irena-is-watchful)
-- **Marek bragging** `(requires: Marek Gajda present and Empathy)` — Marek boasts about the gun in his father's office. → Gives: [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
+- **Old wound** `(when: Zbigniew Gajda home)` `(noticed by: [Medicine](../cards/medicine.md))` — Zbigniew's ribs show an old badly healed injury from a single heavy blow. → Gives: [wojewoda-was-hurt-that-night](../clues/clues.md#wojewoda-was-hurt-that-night)
+- **Icon on the shelf** `(when: Culture or faith knowledge)` — The small wooden icon is Greek Catholic or Orthodox Lemko devotional art. → Gives: [siblings-are-lemko](../clues/clues.md#siblings-are-lemko)
+- **Irena's hospitality** `(noticed by: [Empathy](../cards/empathy.md))` — Irena hosts politely while staying tense. → Gives: [irena-is-watchful](../clues/clues.md#irena-is-watchful)
+- **Marek bragging** `(when: Marek Gajda present)` `(noticed by: [Empathy](../cards/empathy.md))` — Marek boasts about the gun in his father's office. → Gives: [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
 
 ## Actions
 
 ### Visit the family
-- **Requires:** Nothing
 - **Cost:** 1 time
 - **Outcome:** Irena serves tea, Marek shows off if present, and Tadek is tolerated if present.
 - **Gives:** NPC State Change: Irena Gajda can become available for a separate conversation path if trust is built.

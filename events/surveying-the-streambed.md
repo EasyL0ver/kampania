@@ -4,13 +4,13 @@
 **Present:** Survey party
 **Available:** Holding [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain); a PC with **Geology** and the [geologist's kit](../items/geologists-kit.md); the far ridge reached
 
-## Hook
-
-Setting up a level line at the far-ridge streambed to measure toward the village.
-
 ## Trigger
 
 - The party decides to shoot the col's elevation themselves rather than hunt the old dam-survey markers.
+
+## Hook
+
+Setting up a level line at the far-ridge streambed to measure toward the village.
 
 ## Setup
 
@@ -19,38 +19,47 @@ Setting up a level line at the far-ridge streambed to measure toward the village
 - Getting it means running a level line from the col all the way down to the village, resetting the instrument every short stretch over rough ground. It is a full day's work.
 - The geologist cannot run the instrument and hold the staff at once; every extra pair of hands shortens the day.
 - A cooperative [Michał Pytlak](../characters/foreman.md) will come up and assist here (see [Bring him to the streambed](../characters/foreman.md#bring-him-to-the-streambed)), counting as one helping hand, but only if the party brings him to this scene rather than the benchmark hunt.
-- Weather on the ridge can turn: rain or fog stalls the leveling and the day is lost.
 - This is the fast, sure route compared to [searching for the old benchmarks](search-for-the-benchmarks.md), but it costs a geologist and most of a day.
 
 ## Opportunities
 
-- **Read the col by eye** `(requires: Geology)` — A surveyor standing on the col can see it rides high, but "high" is not a number and will not settle the drain question; only the level line does. → No clue; sets expectations.
-- **Read the weather off the ridge** `(requires: Survival)` — A woodsman reads the sky and times the level line around the front coming in, breaking before the rain or fog hits and resuming after. → No clue; the weather turn no longer wastes the day (see Mechanics).
-- **Carry the heavy work** `(requires: Physique)` — Hauling the level and staff up the col and resetting them stretch after stretch over broken ground is the slow part; a strong back keeps the line moving. → No clue; a Physique PC assisting cuts the level line by 2 cards instead of 1 (still floor 3).
-- **Keep the instrument true** `(requires: Handiwork)` — The level and clinometer drift out of true with every move and a knocked tripod normally means re-shooting the last leg; a fixer re-levels and nurses the kit through the day. → No clue; a fumbled or knocked setup no longer forces a restart of the line (see Mechanics).
+- **Read the col by eye** `(noticed by: [Geology](../cards/geology.md))` — A surveyor standing on the col can see it rides high, but "high" is not a number and will not settle the drain question; only the level line does. → No clue; sets expectations.
 
 ## Actions
 
-### Run the level line
-- **Requires:** **Geology** and the [geologist's kit](../items/geologists-kit.md) at the col
+### Shoot a leg
+- **Requires:** [Geology](../cards/geology.md) AND [geologist's kit](../items/geologists-kit.md)
+- **When:** at the col, the line not yet finished
 - **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
-- **Cost:** A full day of fieldwork. About **6 cards** for the geologist working alone; each PC who assists (hauling the level, holding the staff, recording) cuts it by 1 card, to a floor of **3**.
-- **Outcome:** You shoot the col and the village and record both heights: the raw figures for the outlet.
-- **Gives:** [streambed-parameters](../clues/clues.md#streambed-parameters)
+- **Cost:** 1 time
+- **Outcome:** You set the level, sight the staff, and book the reading for one stretch of the line down the slope.
+- **Gives:** World State Change: 1 leg of the level line done
 
-### Assist the survey
-- **Requires:** A PC without Geology working alongside the surveyor at the col: hauling the level, holding the staff, or recording readings. No skill needed.
+### Hold the staff
+- **When:** at the col, a geologist working the line
 - **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
-- **Cost:** The assisting PC spends the day on the ridge alongside the surveyor.
-- **Outcome:** An extra pair of hands lets the geologist reset and shoot the line faster. Each assisting PC cuts the level-line cost by **1 card**, to a floor of **3**.
-- **Gives:** World state change: the "Run the level line" cost drops by 1 card per assisting PC (floor 3).
+- **Cost:** 1 time
+- **Outcome:** You carry and hold the staff and call the readings back, so the geologist keeps moving instead of walking every stretch twice.
+- **Gives:** World State Change: 1 leg of the level line done
+
+### Haul the level
+- **Requires:** [Physique](../cards/physique.md)
+- **When:** at the col, a geologist working the line
+- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
+- **Cost:** 1 time
+- **Outcome:** You haul the level and staff over the broken ground and reset them stretch after stretch; the slow part goes fast.
+- **Gives:** World State Change: 2 legs of the level line done
+
+### Read the finished line
+- **Requires:** [Geology](../cards/geology.md) AND [geologist's kit](../items/geologists-kit.md)
+- **When:** 6 legs done
+- **Outcome:** You close the line between the col and the village and read the two heights. They settle it: the col sits above house level, so the rising water tops the village before it ever reaches the streambed.
+- **Gives:** Item: [Streambed Parameters](../items/streambed-parameters.md); [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 
 ## Mechanics
 
-- The day's cost scales with helpers: 6 cards solo, minus 1 per assisting PC, floor 3. A **Physique** assistant counts double (minus 2), still to a floor of 3.
-- A weather turn (GM's call) wastes the day: the line must be restarted. A **Survival** read of the weather (opportunity above) cancels this: the party breaks before the front and resumes, losing no day.
-- A fumbled or knocked instrument setup (GM's call) normally costs a restart of the last leg. A **Handiwork** PC keeping the instrument true (opportunity above) cancels this: they re-level on the spot and no work is lost.
+- **The line is 6 legs.** Each "Shoot a leg" or "Hold the staff" adds 1, "Haul the level" adds 2. The geologist must shoot at least 3 of them; helpers can do the rest. Several PCs can work the same day.
 
 ## Exits
 
-- Holding [streambed-parameters](../clues/clues.md#streambed-parameters), interpret them into [streambed-dead-ends](../clues/clues.md#streambed-dead-ends): read them as a surveyor with the [kit](../items/geologists-kit.md), phone [prof. Bieńkowski](../characters/professor.md), or show [Michał Pytlak](../characters/foreman.md).
+- The streambed is settled as a dead outlet; back to the [Far-Ridge Streambed](../locations/far-ridge-streambed.md) or down to %NEW_VILLAGE%.

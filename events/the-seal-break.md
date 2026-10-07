@@ -38,27 +38,26 @@
 
 ## Opportunities
 
-- **The priest on the altar** `(requires: Devotion)` — he knows what breaking the seal costs and does it deliberately.
-- **The broken seal** `(requires: Culture)` — a priest violating the seal of confession is committing one of the gravest violations in his faith.
-- **The names as they land** `(requires: Empathy)` — [Zbigniew Gajda](../characters/wojewoda.md) looks for an exit; [Tadek](../characters/wujas.md) weeps; [Helena Rzepka](../characters/matrona.md) waits for her name and does not hear it.
-- **The valley built on a grave** `(requires: History or Culture)` — his account connects the lynch to the old village, the people officially called resettled, and the buried cover-up.
-- **The open vice** `(requires: nothing)` `(prompted by: aware:events/the-seal-break.md)`: the man who hid his habit now smokes on the altar, plain to everyone present. → Gives: [priest-smokes](../clues/clues.md#priest-smokes)
-- **The brand on the paper** `(requires: Chainsmoker and [priest-smokes](../clues/clues.md#priest-smokes))` — a smoker reads the brand off the paper burning in his hand: premium Carmen, the same the village would name at Janina's door. → Gives: [priest-smokes-carmen](../clues/clues.md#priest-smokes-carmen)
+- **The priest on the altar** `(noticed by: [Devotion](../cards/devotion.md))` — he knows what breaking the seal costs and does it deliberately.
+- **The broken seal** `(noticed by: [Culture](../cards/culture.md))` — a priest violating the seal of confession is committing one of the gravest violations in his faith.
+- **The names as they land** `(noticed by: [Empathy](../cards/empathy.md))` — [Zbigniew Gajda](../characters/wojewoda.md) looks for an exit; [Tadek](../characters/wujas.md) weeps; [Helena Rzepka](../characters/matrona.md) waits for her name and does not hear it.
+- **The valley built on a grave** `(noticed by: [History](../cards/history.md) OR [Culture](../cards/culture.md))` — his account connects the lynch to the old village, the people officially called resettled, and the buried cover-up.
+- **The open vice** `(prompted by: aware:events/the-seal-break.md)`: the man who hid his habit now smokes on the altar, plain to everyone present. → Gives: [priest-smokes](../clues/clues.md#priest-smokes)
+- **The brand on the paper** `(noticed by: [Chainsmoker](../cards/chainsmoker.md) AND [priest-smokes](../clues/clues.md#priest-smokes))` — a smoker reads the brand off the paper burning in his hand: premium Carmen, the same the village would name at Janina's door. → Gives: [priest-smokes-carmen](../clues/clues.md#priest-smokes-carmen)
 
 ## Actions
 
 ### Let him finish
-- **Requires:** Nothing
 - **Outcome:** He names the full lynch account and the shape of 1947 beneath it in front of the surviving village.
 - **Gives:** World State Change: the guilty drown unabsolved and [The Odpust](the-odpust.md) is foreclosed
 
 ### Carry the testimony out
-- **Requires:** A player present survives the flood and has the [ledgers](../story-facts/the-committee.md) or another way to file
+- **When:** A player present survives the flood and has the [ledgers](../story-facts/the-committee.md) or another way to file
 - **Outcome:** The player carries the public testimony into [the report](../story-facts/the-committee.md).
 - **Gives:** World State Change: the report is armed with the full account and the property ledger's field 3 is corroborated
 
 ### Stop him
-- **Requires:** A player physically silences him
+- **When:** A player physically silences him
 - **Cost:** 1 composure
 - **Outcome:** The priest stops before the full account is spoken, but whatever names he already said remain public.
 - **Gives:** NPC State Change: remaining guilty villagers owe the player and honest villagers turn cold; World State Change: partial public testimony exists

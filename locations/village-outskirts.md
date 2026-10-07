@@ -34,54 +34,53 @@ The river, hillsides, and forest edges around %NEW_VILLAGE%.
 
 ## Opportunities
 
-- **Spot the old village** `(requires: Survival on a survey route)` — Stone ruins are visible through the trees. → Gives: aware:locations/old-village-ruins.md
-- **Spot Butcher at his house** `(requires: Finesse on the route past [Stanisław Rezeń](../characters/butcher.md)'s house)` — Rezeń is alone near the treeline and using the same direction repeatedly. → Gives: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
-- **Spot the drinking crew heading into the forest** `(requires: Survival near the treeline track)` — Tadek Gajda and the crew carry bottles toward the forest. → Gives: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
-- **See the landslide plug** `(requires: Survival on a survey route)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The notch in the ridge is choked with fallen rock and earth. → Gives: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
-- **The river isn't where the map draws it** `(requires: observation comparing map to ground)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The wojewoda's bridge spans running water, but the map shows that ground dry and the river on its old course. → Gives: [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map)
+- **Spot the old village** `(when: Survival on a survey route)` — Stone ruins are visible through the trees. → Gives: aware:locations/old-village-ruins.md
+- **Spot Butcher at his house** `(when: Finesse on the route past [Stanisław Rezeń](../characters/butcher.md)'s house)` — Rezeń is alone near the treeline and using the same direction repeatedly. → Gives: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
+- **Spot the drinking crew heading into the forest** `(when: Survival near the treeline track)` — Tadek Gajda and the crew carry bottles toward the forest. → Gives: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
+- **See the landslide plug** `(when: Survival on a survey route)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The notch in the ridge is choked with fallen rock and earth. → Gives: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
+- **The river isn't where the map draws it** `(when: observation comparing map to ground)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The wojewoda's bridge spans running water, but the map shows that ground dry and the river on its old course. → Gives: [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map)
 
 ## Actions
 
 ### Walk to the ridge gap
-- **Requires:** Reaching the ridge water-gap (visible from the survey routes)
-- **Prompted by:** [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain); [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map); [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land)
+- **When:** Reaching the ridge water-gap (visible from the survey routes)
+- **Prompted by:** [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain), [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map), [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land)
 - **Cost:** 1 time
 - **Outcome:** You reach the notch. A landslide has choked the gap with fallen rock and earth. Whether that fill actually stops the water is a further question, settled at [The Ridge Gap](the-ridge-gap.md) by climbing the plug for a geological read on-site or by describing it to [prof. Bieńkowski](../characters/professor.md).
 - **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap); Scene Unlock: [The Ridge Gap](the-ridge-gap.md); Scene Unlock: [Climb the Plug](../events/climb-the-plug.md); Scene Unlock: [Foreman Saves the Village](../events/foreman-saves-village.md)
 
 ### Wander the forest
-- **Requires:** Nothing
 - **Cost:** 1 time
 - **Outcome:** The GM gives one missing forest lead from bottle glass and cold ash, deep boot-prints, woodsmoke and burnt herbs, collapsed dugouts and rusted metal, or [Stanisław Rezeń](../characters/butcher.md) watching from the treeline.
 - **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest); [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest); aware:characters/hag.md; [old-wartime-positions](../clues/clues.md#old-wartime-positions); World State Change: Rezeń notices the party if he is the lead shown.
 
 ### Follow the drinking crew
-- **Requires:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
+- **Prompted by:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
 - **Cost:** 1 time
 - **Outcome:** The trail leads to the [bimber still](bimber-still.md).
 - **Gives:** [bimber-still](../clues/clues.md#bimber-still); Scene Unlock: [bimber still](bimber-still.md)
 
 ### Follow the Butcher's path
-- **Requires:** [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
+- **Prompted by:** [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
 - **Cost:** 1 time
 - **Outcome:** Rezeń's trail leads past the old village toward the ridge.
 - **Gives:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
 
 
 ### Track the hag to her cabin
-- **Requires:** Survival and aware:characters/hag.md
+- **When:** Survival and aware:characters/hag.md
 - **Cost:** 1 time
 - **Outcome:** Knowing someone lives out here, a tracker cuts her sign from the forest floor: silent footfalls, snapped herbs, a worn path under the undergrowth. The trail runs back to the [hag's cabin](hags-cabin.md).
 - **Gives:** aware:locations/hags-cabin.md
 
 ### Search the old wartime positions
-- **Requires:** The military map from [Wojewoda's office](pgr-office.md), or Michał Pytlak's terrain hints
+- **When:** The military map from [Wojewoda's office](pgr-office.md), or Michał Pytlak's terrain hints
 - **Cost:** 1 time
 - **Outcome:** The search finds collapsed dugouts and rusted metal.
 - **Gives:** [old-wartime-positions](../clues/clues.md#old-wartime-positions)
 
 ### Look for the UPA bunker
-- **Requires:** [old-wartime-positions](../clues/clues.md#old-wartime-positions), or word that a partisan bunker is out here ([upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area))
+- **Prompted by:** [old-wartime-positions](../clues/clues.md#old-wartime-positions), [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area)
 - **Cost:** 1 time
 - **Outcome:** Ventilation shafts and a hidden entrance reveal the [UPA bunker](upa-bunker.md); [Edek Barnaś](../characters/glupek.md) may be near the mouth.
 - **Gives:** aware:locations/upa-bunker.md; Scene Unlock: [UPA bunker](upa-bunker.md)

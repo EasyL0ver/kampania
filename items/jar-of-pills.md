@@ -14,5 +14,5 @@ A jar of pills on the table, cap off. Some are missing.
 
 ## Opportunities
 
-- **The dose** `(requires: Medicine)` — A strong sedative. Enough of it can kill. Pills are missing from the jar.
-- **The label** `(requires: Bureaucracy)` — Strong medication like this comes only from an official pharmacy, prescribed to [Janina Gajda](../characters/ciotka.md) herself.
+- **The dose** `(noticed by: [Medicine](../cards/medicine.md))` — A strong sedative. Enough of it can kill. Pills are missing from the jar.
+- **The label** `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — Strong medication like this comes only from an official pharmacy, prescribed to [Janina Gajda](../characters/ciotka.md) herself.

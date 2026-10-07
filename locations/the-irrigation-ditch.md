@@ -21,26 +21,27 @@ The ditch running from the PGR fields down to the low ground east of %NEW_VILLAG
 
 ## Opportunities
 
-- **The rank patch** `(requires: Survival or Handiwork)` `(prompted by: aware:locations/the-irrigation-ditch.md)` — The thick volunteer cereal and the sour, caked ground read plainly to a country eye: a large quantity of grain was tipped out here and left to rot, not spread as feed or sown as seed. → Gives: [grain-has-been-dumped](../clues/clues.md#grain-has-been-dumped)
+- **The rank patch** `(noticed by: [Survival](../cards/survival.md) OR [Handiwork](../cards/handiwork.md))` `(prompted by: aware:locations/the-irrigation-ditch.md)` — The thick volunteer cereal and the sour, caked ground read plainly to a country eye: a large quantity of grain was tipped out here and left to rot, not spread as feed or sown as seed. → Gives: [grain-has-been-dumped](../clues/clues.md#grain-has-been-dumped)
 
 ## Actions
 
 ### Walk the irrigation ditch
-- **Requires:** Following the ditch its full length, from the concrete head to the low ground
+- **When:** Following the ditch its full length, from the concrete head to the low ground
 - **Prompted by:** [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain)
 - **Cost:** 1 time
 - **Outcome:** The concrete lining ends after a short run and the channel becomes a plain earth dugout the rest of the way. Walking it tells you the concrete does not go all the way. It does not tell you whether that is a fault, a shortfall against spec, or the intended build, and it does not tell you whether the ditch can carry the flood.
 - **Gives:** [ditch-concrete-stops-short](../clues/clues.md#ditch-concrete-stops-short)
 
 ### Measure the concrete head
-- **Requires:** A tape at the concrete head
+- **When:** A tape at the concrete head
 - **Prompted by:** [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain)
 - **Cost:** 1 time
 - **Outcome:** You tape off the lined channel at the head: width, depth, and fall. No skill needed. The figures alone say nothing; someone who can run drainage figures turns them into a drainage answer.
-- **Gives:** [concrete-ditch-measurements](../clues/clues.md#concrete-ditch-measurements)
+- **Gives:** Item: [Concrete Ditch Measurements](../items/concrete-ditch-measurements.md)
 
 ### Measure the dugout
-- **Requires:** A tape and having walked to the dugout ([ditch-concrete-stops-short](../clues/clues.md#ditch-concrete-stops-short))
+- **When:** A tape
+- **Prompted by:** [ditch-concrete-stops-short](../clues/clues.md#ditch-concrete-stops-short)
 - **Cost:** 1 time
 - **Outcome:** Where the concrete gives out, you tape off the earth channel: width and depth of the shallow dugout that runs the rest of the way. No skill needed. Paired with the head figures, anyone who can run drainage figures can size the real ditch.
-- **Gives:** [dugout-measurements](../clues/clues.md#dugout-measurements)
+- **Gives:** Item: [Dugout Measurements](../items/dugout-measurements.md)

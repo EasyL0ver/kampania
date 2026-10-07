@@ -9,7 +9,10 @@
 ## Vital Statistics
 
 - **Status:** Resident
+- **Born:** ~1953
 - **Age in 1967:** ~13-15
+- **Lives in:** [Helena Rzepka & Emil Rzepka's house](../../locations/matronas-house.md) — with her parents and brother
+- **Settled:** Born in %NEW_VILLAGE%
 
 ## Character
 

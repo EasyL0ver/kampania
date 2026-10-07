@@ -14,5 +14,5 @@ A blue dress, worn but clean. It is folded and set at the back of the wardrobe, 
 
 ## Opportunities
 
-- **A dress, kept and mourned** `(requires: holding the blue dress)` `(prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead))` — The dress is folded and kept like something mourned, not stored for use. Whoever wore it is gone. → Gives: [`girls-dress-in-ciotkas-house`](../clues/clues.md#girls-dress-in-ciotkas-house)
-- **Read the cut** `(requires: holding the blue dress; Culture, or a woman on the committee)` `(prompted by: [girls-dress-in-ciotkas-house](../clues/clues.md#girls-dress-in-ciotkas-house))` — The size and the cut place it: this was made for a teenage girl, not a grown woman and not a child. → Gives: [`dress-belonged-to-teenage-girl`](../clues/clues.md#dress-belonged-to-teenage-girl)
+- **A dress, kept and mourned** `(noticed by: [The Blue Dress](girls-dress.md))` `(prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead))` — The dress is folded and kept like something mourned, not stored for use. Whoever wore it is gone. → Gives: [`girls-dress-in-ciotkas-house`](../clues/clues.md#girls-dress-in-ciotkas-house)
+- **Read the cut** `(when: holding the blue dress; Culture, or a woman on the committee)` `(prompted by: [girls-dress-in-ciotkas-house](../clues/clues.md#girls-dress-in-ciotkas-house))` — The size and the cut place it: this was made for a teenage girl, not a grown woman and not a child. → Gives: [`dress-belonged-to-teenage-girl`](../clues/clues.md#dress-belonged-to-teenage-girl)

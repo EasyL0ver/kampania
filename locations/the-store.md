@@ -33,47 +33,52 @@ Helena Rzepka's general store.
 
 ## Opportunities
 
-- **The medicine cabinet** `(requires: Medicine)` `(prompted by: aware:locations/the-store.md)` — In the back room a locked cabinet holds penicillin, aspirin, bandages, and iodine; a trained eye reads it as a *szafka apteczna*, the state medicine point for miles. → Gives: [store-has-drug-cabinet](../clues/clues.md#store-has-drug-cabinet)
-- **Ryszard Dudka's nervousness** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek and Empathy)` — Dudka drinks too fast and shuts down when the past comes up. → Gives: [neighbour-is-rattled](../clues/clues.md#neighbour-is-rattled)
-- **Junior joins the crew** `(requires: [Marek Gajda](../characters/junior.md) present, or [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek if he is not)` `(prompted by: aware:locations/new-village.md)` — Present, Marek sits plainly among the crew on the benches, away from his father; absent, the crew mention the sołtys's son who drinks with them. → Gives: [junior-drinks-with-crew](../clues/clues.md#junior-drinks-with-crew)
-- **Junior brags about the pistol** `(requires: Physique)` `(prompted by: [junior-drinks-with-crew](../clues/clues.md#junior-drinks-with-crew))` — Drinking with the crew, Marek puffs up and talks about the gun in his father's office desk. → Gives: [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
-- **Old floods on the benches** `(requires: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek, or Empathy)` `(prompted by: [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain))` — The old men remember the bad floods. The dry streambed on the far ridge never carried any of it off; the water just pooled against the rock and stopped. → Gives: [streambed-never-drained](../clues/clues.md#streambed-never-drained)
+- **The medicine cabinet** `(noticed by: [Medicine](../cards/medicine.md))` `(prompted by: aware:locations/the-store.md)` — In the back room a locked cabinet holds penicillin, aspirin, bandages, and iodine; a trained eye reads it as a *szafka apteczna*, the state medicine point for miles. → Gives: [store-has-drug-cabinet](../clues/clues.md#store-has-drug-cabinet)
+- **Ryszard Dudka's nervousness** `(when: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek)` `(noticed by: [Empathy](../cards/empathy.md))` — Dudka drinks too fast and shuts down when the past comes up. → Gives: [neighbour-is-rattled](../clues/clues.md#neighbour-is-rattled)
+- **Junior joins the crew** `(when: [Marek Gajda](../characters/junior.md) present, or [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek if he is not)` `(prompted by: aware:locations/new-village.md)` — Present, Marek sits plainly among the crew on the benches, away from his father; absent, the crew mention the sołtys's son who drinks with them. → Gives: [junior-drinks-with-crew](../clues/clues.md#junior-drinks-with-crew)
+- **Junior brags about the pistol** `(noticed by: [Physique](../cards/physique.md))` `(prompted by: [junior-drinks-with-crew](../clues/clues.md#junior-drinks-with-crew))` — Drinking with the crew, Marek puffs up and talks about the gun in his father's office desk. → Gives: [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
+- **Old floods on the benches** `(when: [drinking buddy](../characters/wujas.md#drinking-buddy) with Tadek, or Empathy)` `(prompted by: [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain))` — The old men remember the bad floods. The dry streambed on the far ridge never carried any of it off; the water just pooled against the rock and stopped. → Gives: [streambed-never-drained](../clues/clues.md#streambed-never-drained)
 
 ## Actions
 
 ### Buy cigarettes
-- **Requires:** —
 - **Outcome:** Halina sells a pack across the counter: cheap [Sport](../clues/clues.md#tadek-smokes-cheapest) off the shelf, or premium [Carmen](../items/cigarette-butts-from-ciotkas.md) if you ask. A pack lasts one day; keeping one on you is [Chainsmoker](../story-facts/game-system.md#the-cards) upkeep.
 - **Gives:** Item / Evidence: a pack of Sport or Carmen (one day's supply).
 
 ### Buy rope
-- **Requires:** —
 - **Outcome:** Halina sells a coil of field line off the shelf, mixed lengths knotted serviceable, long enough for the ridge climb.
 - **Gives:** Item: a [rope](../items/rope.md).
 
 ### Ask who smokes Carmen
-- **Requires:** Holding the butts; **Speech** or **Finesse**
+- **Requires:** [Carmen Cigarette Butts](../items/cigarette-butts-from-ciotkas.md) AND ([Speech](../cards/speech.md) OR [Finesse](../cards/finesse.md))
 - **Prompted by:** [butts-at-ciotkas-are-carmen](../clues/clues.md#butts-at-ciotkas-are-carmen)
 - **Cost:** 1 time
 - **Outcome:** Nobody in the village wastes money on Carmen except two men: the Gajda boy [Marek](../characters/junior.md), who buys what marks him as above the place, and the butcher [Stanisław Rezeń](../characters/butcher.md), who buys what he pleases. The brand narrows the door to the pair of them, and clears no one.
 - **Gives:** [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen); [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen)
 
-### Break into the cabinet
-- **Requires:** [store-has-drug-cabinet](../clues/clues.md#store-has-drug-cabinet); **Physique**, or the stolen store cabinet key
+### Force the cabinet
+- **Requires:** [Physique](../cards/physique.md)
+- **Prompted by:** [store-has-drug-cabinet](../clues/clues.md#store-has-drug-cabinet)
 - **Cost:** 1 time
-- **Outcome:** The penicillin is in the locked cabinet.
-  - **Physique:** You bash the little door until the lock tears out of the wood. Quick and loud, and the splintered frame shows at a glance that someone forced it.
-  - **With the key:** Helena's own key lets you in past the doors and opens the cabinet clean. You take the child's course and lock up after you, but the missing stock will not go unnoticed for long.
+- **Outcome:** You bash the little door until the lock tears out of the wood and take the child's course of penicillin. Quick and loud, and the splintered frame shows at a glance that someone forced it.
 - **Gives:** Item: penicillin (a child's course); NPC Learns: helena: [somebody-broke-into-store](../clues/clues.md#somebody-broke-into-store); NPC Learns: helena: [somebody-stole-penicillin](../clues/clues.md#somebody-stole-penicillin); World State Change: the cabinet has been robbed.
 
+### Unlock the cabinet
+- **Requires:** [Store cabinet key](../items/store-cabinet-key.md)
+- **Prompted by:** [store-has-drug-cabinet](../clues/clues.md#store-has-drug-cabinet)
+- **Cost:** 1 time
+- **Outcome:** Helena's own key opens the cabinet clean. You take the child's course and lock up after you, but the missing stock will not go unnoticed for long.
+- **Gives:** Item: penicillin (a child's course); NPC Learns: helena: [somebody-stole-penicillin](../clues/clues.md#somebody-stole-penicillin); World State Change: the cabinet has been robbed.
+
 ### Smash the register open
-- **Requires:** mid break-in, the store already open to you; **Physique**
+- **Requires:** [Physique](../cards/physique.md)
+- **When:** mid break-in, the store already open to you
 - **Cost:** 1 time
 - **Outcome:** You pry the cash drawer until it springs. There is not much inside, a day's small takings, but it is gone now, and an emptied till reads as a plain robbery rather than a hand reaching for one thing.
 - **Gives:** Item: the till cash; NPC Learns: helena: [somebody-stole-money](../clues/clues.md#somebody-stole-money)
 
 <!-- If bonded with Halina, [Ask who smokes what](../characters/secondary/halina-zajac.md#ask-who-smokes-what) is her counter action — she knows every villager's brand. -->
 
-<!-- Drinking with the crew is a crew action — see [Tadek Gajda's Drinking Circle](../characters/secondary/drinking-crew.md#actions--drink-with-the-crew). -->
+<!-- Drinking with the crew is a crew action — see [Tadek Gajda — Drink with the crew](../characters/wujas.md#drink-with-the-crew). -->
 
 

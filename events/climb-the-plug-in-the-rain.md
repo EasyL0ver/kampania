@@ -4,13 +4,13 @@
 **Present:** [Michał Pytlak](../characters/foreman.md)
 **Available:** The engineering finale, after [Michał Pytlak Saves the Village](foreman-saves-village.md): the party has the charges and has committed to the plan.
 
-## Hook
-
-Facing the rain-soaked ridge plug, a heavy load to haul up.
-
 ## Trigger
 
 - The charge has to be set in the plug to reopen the gap, and the only way to the seam is back up the climb.
+
+## Hook
+
+Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ## Setup
 
@@ -22,45 +22,45 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ## Opportunities
 
-- **The Weeping Clay** `(requires: Geology)` — The soaked clay only holds weight in the right places; get it wrong and you bog. You either know where it bears, or you move light and deft.
-- **A Bad Feeling** `(requires: Survival)` — The loose rock looks extremely dangerous; you wouldn't go up there without a rope and assistance. The fall on the traverse is almost certain; we need a rope.
-- **Two on the Rope** `(requires: Handiwork and a rope)` — A fall here only comes up safe with enough weight on the line: two bodies at least, not one.
-- **Something to Haul Against** `(requires: Handiwork and the crux is anchored)` — The clamp still up top is a fixed point. You can rig a line to it and haul the charge up on its own, so no one climbs with it on their back.
-- **The Anatomy of a Fall** `(requires: Medicine)` — Off the lower bank, bruises. Off the wet traverse onto the rock, broken bones. From the top pitch you break badly. None of it kills you by itself; the fall hurts, it doesn't kill.
-- **A Soldier's Eye** `(requires: Violence)` — You've seen men fall and you know ordnance. Roughly: the drops break a man, they don't kill him, but the charge on his back is what puts him in the ground. It's old and touchy, a hard knock or a fall with it and it goes off.
-- **No Turning Back** `(requires: Physique and climbed past lower bank)` — Looks very steep, but I think I can take it.
-- **A Delicate Line** `(requires: Finesse and climbed past lower bank)` — Steep, but I can find a delicate line, so long as I climb light. Not with the charge on my back.
-- **Worse Than It Looked** `(requires: Physique and climbed past the killzone)` — It's much worse than I realized, and there's a live charge on my back. I can try it, but I'm scared of falling.
-- **Balance Over Force** `(requires: Finesse and climbed past the killzone)` — I can balance the crux, but only empty-handed; the charge would tip me straight off.
-
+- **The Weeping Clay** `(noticed by: [Geology](../cards/geology.md))` — The soaked clay only holds weight in the right places; get it wrong and you bog. You either know where it bears, or you move light and deft.
+- **A Bad Feeling** `(noticed by: [Survival](../cards/survival.md))` — The loose rock looks extremely dangerous; you wouldn't go up there without a rope and assistance. The fall on the traverse is almost certain; we need a rope.
+- **Two on the Rope** `(noticed by: [Handiwork](../cards/handiwork.md) AND [Rope](../items/rope.md))` — A fall here only comes up safe with enough weight on the line: two bodies at least, not one.
+- **Something to Haul Against** `(when: the crux is anchored)` `(noticed by: [Handiwork](../cards/handiwork.md))` — The clamp still up top is a fixed point. You can rig a line to it and haul the charge up on its own, so no one climbs with it on their back.
+- **The Anatomy of a Fall** `(noticed by: [Medicine](../cards/medicine.md))` — Off the lower bank, bruises. Off the wet traverse onto the rock, broken bones. From the top pitch you break badly. None of it kills you by itself; the fall hurts, it doesn't kill.
+- **A Soldier's Eye** `(noticed by: [Violence](../cards/violence.md))` — You've seen men fall and you know ordnance. Roughly: the drops break a man, they don't kill him, but the charge on his back is what puts him in the ground. It's old and touchy, a hard knock or a fall with it and it goes off.
+- **No Turning Back** `(when: climbed past lower bank)` `(noticed by: [Physique](../cards/physique.md))` — Looks very steep, but I think I can take it.
+- **A Delicate Line** `(when: climbed past lower bank)` `(noticed by: [Finesse](../cards/finesse.md))` — Steep, but I can find a delicate line, so long as I climb light. Not with the charge on my back.
+- **Worse Than It Looked** `(when: climbed past the killzone)` `(noticed by: [Physique](../cards/physique.md))` — It's much worse than I realized, and there's a live charge on my back. I can try it, but I'm scared of falling.
+- **Balance Over Force** `(when: climbed past the killzone)` `(noticed by: [Finesse](../cards/finesse.md))` — I can balance the crux, but only empty-handed; the charge would tip me straight off.
 
 ## Actions
 
 ### Scale the lower bank
-- **Requires:** Geology or Finesse.
+- **Requires:** [Geology](../cards/geology.md) OR [Finesse](../cards/finesse.md)
 - **Cost:** 1 time
 - **Outcome:** The clay has liquefied and sloughs underfoot; a skilled climber picks the bearing line or muscles up it.
 - **Gives:** The climber is up past the lower bank.
 
 ### Force the lower bank
-- **Requires:** None.
 - **Cost:** 1 time + 1 composure
 - **Outcome:** No read and no strength for the slop, so the climber grinds up it on nerve alone.
 - **Gives:** The climber is up past the lower bank.
 
 ### Carry the charge
-- **Requires:** [The makeshift charge](../items/makeshift-charge.md).
+- **Requires:** [The makeshift charge](../items/makeshift-charge.md)
 - **Outcome:** The climber carries the charge up the wet bank and onto the line.
 - **Gives:** The charge is on the climber.
 
 ### Take the line
-- **Requires:** The [rope](../items/rope.md); the climber is past the lower bank.
+- **Requires:** [rope](../items/rope.md)
+- **When:** the climber is past the lower bank.
 - **Cost:** 1 time
 - **Outcome:** The climber commits their body to the line as counterweight, to power a haul or catch a fall below.
 - **Gives:** **+1 counterweight point** committed (a Physique-strong body counts as **+2**).
 
 ### Traverse the killzone
-- **Requires:** Physique or Finesse; the climber is past the lower bank
+- **Requires:** [Physique](../cards/physique.md) OR [Finesse](../cards/finesse.md)
+- **When:** the climber is past the lower bank
 - **Cost:** 1 time
 - **Outcome:**
   - **First attempt** `(loose rock in place)` — the loose rock gives and the climber falls, caught by the counterweight on the line (see Mechanics); the fall knocks the rock off the line for good.
@@ -70,70 +70,74 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
   - **Later attempts** — the climber is past the killzone; the line is fixed.
 
 ### Regain balance
-- **Requires:** Finesse; the climber has lost balance.
+- **Requires:** [Finesse](../cards/finesse.md)
+- **When:** the climber has lost balance.
 - **Cost:** 1 composure
 - **Outcome:** The climber catches a delicate hold and settles the stance before the fall takes them.
 - **Gives:** The climber has regained balance.
 
 ### Frantic grasp
-- **Requires:** None.
-- **Cost:** **1 composure** per attempt.
+- **Cost:** 1 composure
 - **Outcome:** The climber claws for any hold, slipping and catching. It only holds on the second grasp; the first buys nothing but the next snatch.
 - **Gives:** On the second consecutive Frantic grasp, the climber has regained balance; otherwise still off-balance.
 
 ### Drive the anchor
-- **Requires:** The [anchor and hammer](../items/anchor.md); the climber is past the killzone.
+- **When:** The [anchor and hammer](../items/anchor.md); the climber is past the killzone.
 - **Cost:** 1 time
 - **Outcome:** The climber drives the anchor home at the top of the plug, setting a fixed point for the crux.
 - **Gives:** The top-out is anchored.
 
 ### Traverse the top-out
-- **Requires:** Physique or Finesse; the climber is past the killzone.
+- **Requires:** [Physique](../cards/physique.md) OR [Finesse](../cards/finesse.md)
+- **When:** the climber is past the killzone.
 - **Cost:** 1 time
 - **Outcome:** The rain-greased crux slab will not hold a stance and the climber loses balance outright.
 - **Gives:** The climber is past the top-out; lose balance.
 
 ### Traverse with anchor
-- **Requires:** The top-out is anchored; the climber is past the killzone.
+- **When:** The top-out is anchored; the climber is past the killzone.
 - **Cost:** 1 time
 - **Outcome:** The climber clips the fixed anchor and moves across the crux on the line, the slab no longer able to throw them.
 - **Gives:** The climber is past the top-out.
 
 ### Haul a climber one level
-- **Requires:** The top-out is anchored; the [rope](../items/rope.md); **2 counterweight points** (consumed).
+- **Requires:** [rope](../items/rope.md)
+- **When:** The top-out is anchored; **2 counterweight points** (consumed).
 - **Cost:** 1 time
 - **Outcome:** The crew hang their weight on the parallel strand and drag a body up one pitch, no one climbing it under load.
 - **Gives:** The climber moves up one level (past lower bank → past killzone → past top-out).
 
 ### Haul the charge one level
-- **Requires:** The top-out is anchored; the [rope](../items/rope.md); **1 counterweight point** (consumed).
+- **Requires:** [rope](../items/rope.md)
+- **When:** The top-out is anchored; **1 counterweight point** (consumed).
 - **Cost:** 1 time
 - **Outcome:** The crew hang their weight on the parallel strand and drag the charge up one pitch, no one climbing it under load.
 - **Gives:** The [makeshift charge](../items/makeshift-charge.md) moves up one level (past lower bank → past killzone → past top-out).
 
 ### Prime the explosives
-- **Requires:** Violence or Handiwork; the [makeshift charge](../items/makeshift-charge.md) is past the top-out.
+- **Requires:** [Violence](../cards/violence.md) OR [Handiwork](../cards/handiwork.md)
+- **When:** the [makeshift charge](../items/makeshift-charge.md) is past the top-out.
 - **Cost:** 1 time
 - **Outcome:** The climber sets the detonator and runs the fuse, arming the old ordnance to blow.
 - **Gives:** The charge is primed.
 
 ### Rappel down one level
-- **Requires:** The [rope](../items/rope.md); the top-out is anchored; another climber still on the plug to work the rope.
+- **Requires:** [rope](../items/rope.md)
+- **When:** the top-out is anchored; another climber still on the plug to work the rope.
 - **Cost:** 1 time
 - **Outcome:** A second climber belays them off the fixed anchor and they rope down one pitch, clear of the load.
 - **Gives:** The climber moves down one level (past top-out → past killzone → past lower bank → clear of the plug).
 
 ### Downclimb one level
-- **Requires:** Physique or Finesse.
+- **Requires:** [Physique](../cards/physique.md) OR [Finesse](../cards/finesse.md)
 - **Cost:** 1 time
 - **Outcome:** With no one left to work the rope, the last climber downclimbs the wet pitch unroped and loses balance on it.
 - **Gives:** The climber moves down one level; lose balance.
 
 ### Blow the gap
-- **Requires:** The charge is primed.
+- **When:** The charge is primed.
 - **Outcome:** The charge blows: the notch opens, floodwater widens it, and the water in %NEW_VILLAGE% starts to drop. Anyone still on the plug when it goes is killed.
 - **Gives:** Any climber still on the plug dies; World State Change: %NEW_VILLAGE% is saved and the empty %BIG-BASIN% floods (no one lives there); Ending Progress: the engineering ending resolves.
-
 
 ## Mechanics
 

@@ -172,17 +172,17 @@ This is by design. The 7-day limit and 12-card economy guarantee that players wi
 
 The game is **not about solving everything** — it's about what you prioritize when you can't.
 
-## Bonds (GM-only mechanic — players never learn this exists)
+## Bonds (the checks are GM-only; the bond itself is a card)
 
-Each major NPC has a **bond** — a hidden connection that forms with a single player. Players never know the mechanic exists. They just experience certain NPCs opening up to them specifically.
+Each major NPC has a **bond** — a connection that forms with a single player. Players never see *how* a bond is earned; they find out *that* it was earned when the GM hands them the NPC's Bond card.
 
 ### Rules
 
 1. **Each NPC has 3 checks** in their character file — specific behaviors, choices, or moments.
-2. **Any single player who hits 2 of 3** earns the bond. The GM tracks this silently.
+2. **Any single player who hits 2 of 3** earns the bond. The GM tracks the checks silently, then hands that player the NPC's Bond card (`cards/bond-<character>.md`).
 3. **One player per NPC.** First player to hit 2 checks gets it. If two players hit 2 simultaneously, the GM picks whoever felt more natural in the fiction.
-4. **Bonds are invisible.** No announcement, no signal. The GM simply starts giving that player deeper responses, private moments, confessions. The player might *feel* the connection but never knows it's a mechanic.
-5. **Bonds unlock gated content.** Some actions in scene files say `Requires: Bond`. Only the bonded player can trigger these — the NPC won't open up to anyone else.
+4. **The checks are invisible; the bond is not.** Players never learn the checks or that they were being counted. When the bond forms, the player receives the Bond card, and from then on the NPC gives them deeper responses, private moments, confessions.
+5. **Bonds unlock gated content.** A Bond card is a card like any other: actions gate on it in `Requires:` (e.g. `[Bond: Wanda Mazur](../cards/bond-widow.md)`). Only the player holding it can trigger these — the NPC won't open up to anyone else.
 6. **Bonds can't be lost.** Once earned, it holds for the rest of the game. Trust can be strained narratively, but the mechanical gate stays open.
 
 ### What it creates
@@ -193,7 +193,7 @@ Each major NPC has a **bond** — a hidden connection that forms with a single p
 
 ### Format in character files
 
-Each character file has a `## Bond` section (GM-only, not shown to players):
+Each character file has a `## Bond` section (GM-only, not shown to players). Every living character with a Bond section has a matching card, `cards/bond-<character-file>.md`:
 
 ```
 ## Bond

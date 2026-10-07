@@ -4,12 +4,15 @@
 
 ## Hook
 
-- Szymek Kępa, a village drunk, one of [Tadek Gajda](../wujas.md)'s [drinking crew](drinking-crew.md).
+- Szymek Kępa, a village drunk, one of [Tadek Gajda](../wujas.md)'s drinking crew.
 
 ## Vital Statistics
 
 - **Status:** Resident
+- **Born:** ~1917
 - **Age in 1967:** ~45-55
+- **Lives in:** [%NEW_VILLAGE%](../../locations/new-village.md)
+- **Settled:** ~1957
 
 ## Character
 

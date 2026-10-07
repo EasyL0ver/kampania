@@ -14,12 +14,12 @@ An old military bayonet, the blade kept clean and faintly oiled, the grip worn s
 
 ## Opportunities
 
-- **Know the pattern** `(requires: Violence)` — The fuller, the muzzle ring, the maker's stamp read at a glance: this is a German wartime bayonet, army issue, nothing like the Polish KBW kit his father carried. It is partisan-era war booty, not something out of his father's house. → Gives: [`edeks-bayonet-is-german`](../clues/clues.md#edeks-bayonet-is-german)
+- **Know the pattern** `(noticed by: [Violence](../cards/violence.md))` — The fuller, the muzzle ring, the maker's stamp read at a glance: this is a German wartime bayonet, army issue, nothing like the Polish KBW kit his father carried. It is partisan-era war booty, not something out of his father's house. → Gives: [`edeks-bayonet-is-german`](../clues/clues.md#edeks-bayonet-is-german)
 
 ## Actions
 
 ### Inspect the blade
-- **Requires:** Holding the bayonet
+- **Requires:** [Bayonet](bayonet.md)
 - **Cost:** 1 time
 - **Outcome:** Turned to the light, the flat of the blade shows a small mark scratched in by hand: a trident, three prongs rising from a base.
 - **Gives:** [`trident-on-the-bayonet`](../clues/clues.md#trident-on-the-bayonet)

@@ -6,6 +6,10 @@
 **Available:** After reaching the gap from the survey routes ([Village Outskirts](village-outskirts.md))
 **Cost:** 1 action per interaction; climbing the plug is its own scene (see [Climb the Plug](../events/climb-the-plug.md))
 
+## Hook
+
+- The notch in the ridge at the end of the valley, reached by the survey routes from the village outskirts.
+
 ## Setup
 
 - The gap is the low notch where the ridge dips between the %NEW_VILLAGE% valley and %BIG-BASIN%.
@@ -19,29 +23,27 @@
 
 ## Opportunities
 
-- **The fill looks loose** `(requires: holding [`landslide-in-the-gap`](../clues/clues.md#landslide-in-the-gap))` — At the foot of the plug the fill looks like loose, open rubble the water would run straight through, so the gap might yet drain by seeping through it. → Gives: [gap-may-seep](../clues/clues.md#gap-may-seep)
-- **Water would have to top the saddle** `(requires: holding [`gap-is-candidate-drain`](../clues/clues.md#gap-is-candidate-drain))` — For the gap to drain, rising water must clear the plug's lowest saddle and spill into %BIG-BASIN%; whether that saddle sits below the flood line is the open question. → Gives: [water-may-flow-over](../clues/clues.md#water-may-flow-over)
-- **The gap won't drain** `(requires: holding [`gap-fill-examined`](../clues/clues.md#gap-fill-examined) and [`gap-sill-above-flood`](../clues/clues.md#gap-sill-above-flood) and Geology)` — Put the two readings together: the fill will not seep and the sill will not overtop, so water can leave the valley neither through the plug nor over it. The outlet is dead. → Gives: [gap-is-blocked](../clues/clues.md#gap-is-blocked)
+- **The fill looks loose** `(noticed by: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap))` — At the foot of the plug the fill looks like loose, open rubble the water would run straight through, so the gap might yet drain by seeping through it. → Gives: [gap-may-seep](../clues/clues.md#gap-may-seep)
+- **Water would have to top the saddle** `(noticed by: [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain))` — For the gap to drain, rising water must clear the plug's lowest saddle and spill into %BIG-BASIN%; whether that saddle sits below the flood line is the open question. → Gives: [water-may-flow-over](../clues/clues.md#water-may-flow-over)
+- **The gap won't drain** `(noticed by: [Gap Fill Reading](../items/gap-fill-reading.md) AND [Gap Sill Reading](../items/gap-sill-reading.md) AND [Geology](../cards/geology.md))` — Put the two readings together: the fill will not seep and the sill will not overtop, so water can leave the valley neither through the plug nor over it. The outlet is dead. → Gives: [gap-is-blocked](../clues/clues.md#gap-is-blocked)
 
 ## Actions
 
 ### Examine the fill at the toe
-- **Requires:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap); reaching the foot of the plug (no climb)
+- **When:** reaching the foot of the plug (no climb)
 - **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), [gap-may-seep](../clues/clues.md#gap-may-seep)
 - **Cost:** 1 time
 - **Outcome:** Scramble to the base of the plug and dig into it. From a distance the fill looks like loose rubble the water would run straight through; up close it is dense clay and shattered rock packed tight, impermeable. This settles only whether the plug leaks, not whether the water level can rise over it (that is the crest sill, which needs the climb).
   - **Geology:** reads the fill directly and confirms it will not pass water at flood pressure.
-- **Gives:** [gap-fill-examined](../clues/clues.md#gap-fill-examined)
+- **Gives:** Item: [Gap Fill Reading](../items/gap-fill-reading.md)
 
 ### Climb the plug
-- **Requires:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap); a climber, the rest of the party on the ground, and a rope for the killzone
+- **When:** a climber, the rest of the party on the ground, and a rope for the killzone
 - **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), [water-may-flow-over](../clues/clues.md#water-may-flow-over)
-- **Cost:** Free; the ascent resolves in its own scene
 - **Outcome:** The party sets up at the foot of the plug and goes for the crest. Play [Climb the Plug](../events/climb-the-plug.md).
 - **Gives:** Scene Unlock: [Climb the Plug](../events/climb-the-plug.md)
 
 ### Climb the plug in the rain
-- **Requires:** The demolition charges and a committed engineering plan (from [Michał Pytlak Saves the Village](../events/foreman-saves-village.md)); a climber willing to go up at flood peak
-- **Cost:** Free; the ascent resolves in its own scene
+- **When:** The demolition charges and a committed engineering plan (from [Michał Pytlak Saves the Village](../events/foreman-saves-village.md)); a climber willing to go up at flood peak
 - **Outcome:** With the charges in hand and the flood cresting, the party goes back up to set the charge. Play [Climb the Plug in the Rain](../events/climb-the-plug-in-the-rain.md).
 - **Gives:** Scene Unlock: [Climb the Plug in the Rain](../events/climb-the-plug-in-the-rain.md)
