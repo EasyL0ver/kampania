@@ -724,6 +724,149 @@ def setup_story_only(f: MdFile):
                 break
 
 
+ENTITY_KINDS = ("characters", "locations", "events", "items")
+_entity_titles: list[tuple[str, re.Pattern]] | None = None
+
+
+HONORIFICS = {"ks.", "por.", "prof.", "kpt.", "dr", "pan", "pani"}
+
+
+def entity_titles():
+    """(name, pattern) for every character, location, event and item title, plus each character's
+    first name and surname where only one character has it. Longest first."""
+    global _entity_titles
+    if _entity_titles is None:
+        names, alias_owners = set(), {}
+        for k in ENTITY_KINDS:
+            for p in (REPO_ROOT / k).rglob("*.md"):
+                if p.name.startswith("_") or p.name == "index.md":
+                    continue
+                t = p.read_text(encoding="utf-8").splitlines()[0].lstrip("# ").strip()
+                if not t:
+                    continue
+                names.add(t)
+                if k == "characters" and not t.startswith("%"):
+                    words = [w for w in re.sub(r"\(.*?\)", "", t).split() if w.lower() not in HONORIFICS]
+                    if len(words) >= 2:
+                        for w in (words[0], words[-1]):
+                            alias_owners.setdefault(w, set()).add(t)
+        names |= {w for w, owners in alias_owners.items() if len(owners) == 1 and len(w) > 2}
+        _entity_titles = [(n, re.compile(r"(?<![\w%])" + re.escape(n) + r"(?![\w%])"))
+                          for n in sorted(names, key=len, reverse=True)]
+    return _entity_titles
+
+
+def prose_fields(f: MdFile):
+    """(line, text) of the prose fields: Outcome, opportunity text, Setup and Hook bullets."""
+    for line, t in f.lines_with_numbers():
+        m = OUTCOME_FIELD.match(t)
+        if m:
+            yield line, m.group(1)
+    s = f.section("Opportunities")
+    for line, t in (s.body if s else []):
+        m = OPP_TEXT.match(t)
+        if m:
+            yield line, m.group(1)
+    for name in ("Setup", "Hook"):
+        s = f.section(name)
+        for line, t in (s.body if s else []):
+            if t.lstrip().startswith("- "):
+                yield line, t.lstrip()[2:]
+
+
+def field_label(label: str) -> str:
+    """`Lives in` -> `lives-in`."""
+    return re.sub(r"\s+", "-", label.strip().lower())
+
+
+_fields: dict[Path, dict[str, int]] = {}
+
+
+def entity_fields(path: Path) -> dict[str, int]:
+    """field label -> how many times it occurs: name (the title), header fields, Vital Statistics bullets."""
+    if path not in _fields:
+        f = parse(path)
+        counts = {"name": 1 if f.title else 0}
+        for label in f.header:
+            counts[field_label(label)] = counts.get(field_label(label), 0) + 1
+        s = f.section("Vital Statistics")
+        for _, t in (s.body if s else []):
+            m = VITAL_FIELD.match(t)
+            if m:
+                k = field_label(m.group(1))
+                counts[k] = counts.get(k, 0) + 1
+        _fields[path] = counts
+    return _fields[path]
+
+
+_aliases: list[tuple[str, re.Pattern]] | None = None
+
+
+def entity_aliases():
+    """(alias, pattern) for every entity id (its file name), matched as a whole word, any case."""
+    global _aliases
+    if _aliases is None:
+        ids = {p.stem for k in ENTITY_KINDS for p in (REPO_ROOT / k).rglob("*.md")
+               if not p.name.startswith("_") and p.name != "index.md"}
+        _aliases = [(i, re.compile(r"(?<![\w-])" + re.escape(i) + r"(?![\w-])", re.IGNORECASE))
+                    for i in sorted(ids, key=len, reverse=True)]
+    return _aliases
+
+
+FIELD_REF = re.compile(r"\[@([a-z0-9-]+)\]\(([^)#\s]+\.md)\)")
+
+
+@rule("field-refs")
+def field_refs(f: MdFile):
+    """[@field](target.md) names a field that exists exactly once in the target (name = its title)."""
+    for line, t in link_lines(f):
+        for field, target in FIELD_REF.findall(t):
+            dest = (f.path.parent / unquote(target)).resolve()
+            if not dest.is_file():
+                continue          # refs-resolve reports it
+            n = entity_fields(dest).get(field, 0)
+            if n == 0:
+                yield line, f"@{field}: {dest.relative_to(REPO_ROOT).as_posix()} has no field '{field}'"
+            elif n > 1:
+                yield line, f"@{field}: {dest.relative_to(REPO_ROOT).as_posix()} has '{field}' {n} times"
+
+
+ENTITY_LINK = re.compile(r"\[([^\]]*)\]\(((?:\.\./)*(?:(?:characters|locations|events|items)/)?[a-z0-9/-]+\.md)(#[^)]*)?\)")
+
+
+@rule("alias-only", "characters", "events", "locations", "items", "other", severity="warning")
+def alias_only(f: MdFile):
+    """Outside an entity's own file, it is referred to only as [@field](its-file.md): no hard-coded names."""
+    if f.kind == "other" and f.rel != "clues/clues.md":
+        return
+    own = f.title
+    for line, t in link_lines(f):
+        for text, target, anchor in ENTITY_LINK.findall(t):
+            if anchor:
+                continue          # a link to a mechanic or action heading, not the entity itself
+            dest = (f.path.parent / unquote(target)).resolve()
+            try:
+                kind = dest.relative_to(REPO_ROOT).parts[0]
+            except ValueError:
+                continue
+            if kind in ENTITY_KINDS and dest.is_file() and dest != f.path and not text.startswith("@"):
+                yield line, f"link '[{text[:40]}]({target})' should read [@name]({target})"
+        bare = re.sub(r"\[[^\]]*\]\([^)]*\)", lambda m: " " * len(m.group(0)), t)
+        bare = re.sub(r"aware:\S+|`[^`]*`", lambda m: " " * len(m.group(0)), bare)
+        if f.rel == "clues/clues.md" and t.startswith("### "):
+            continue          # a clue id may contain aliases
+        for alias, pattern in entity_aliases():
+            if alias != f.path.stem and pattern.search(bare):
+                yield line, f"alias '{alias}' written as text: use [@name](...) to its file"
+                bare = pattern.sub(lambda m: " " * len(m.group(0)), bare)
+        for title, pattern in entity_titles():
+            if title == own:
+                continue
+            if pattern.search(bare):
+                yield line, f"'{title}' is written out: use [@name](...) to its file"
+                bare = pattern.sub(lambda m: " " * len(m.group(0)), bare)
+
+
 TODO_MARK = re.compile(r"\b(TBD|TODO)\b", re.IGNORECASE)
 
 
