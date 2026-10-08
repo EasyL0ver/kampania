@@ -58,54 +58,75 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 
 - Braced only if [Irena learns the truth and sides with him](../events/irena-confronts-wojewoda.md);.
 
+### Compliance
+
+- A flag, true or false. Starts false. True when Zbigniew is convinced to disclose the flood willingly and shields the players. Forcing the disclosure on him leaves it false.
+
+### Flood Awareness
+
+- How far Zbigniew believes the flood line is wrong: **unaware → suspicious → needProof → convinced**.
+- A counter that only ever goes up. Nothing the players do lowers it.
+- Starts at **unaware**.
+
 ## Opportunities
 
-- **Property suspicion** `(when: Property assessment, flood not disclosed, no convincing cover)` — his questions turn controlled, and he starts tracking where the committee goes. See [Tell Wojewoda about the flood risk](../events/arrival.md#tell-wojewoda-about-the-flood-risk). → Gives: [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood)
+- **Property suspicion** `(when: Property assessment, flood not disclosed, no convincing cover)` — his questions turn controlled, and he starts tracking where the committee goes. See [Tell Wojewoda about the flood risk](../events/arrival/in-the-office.md#tell-wojewoda-about-the-flood-risk). → Gives: [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood)
 
 ## Actions
 
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** He gives the whole household's details himself.
-- **Gives:** Census data — Zbigniew, [Irena](wife.md), [Marek](junior.md).
+- **Changes:** [Census](../items/census.md#census) — Zbigniew, Irena, Marek
 
 ### Ask for the village household roster
 - **Prompted by:** [committee-fills-census](../clues/clues.md#committee-fills-census)
 - **Cost:** 1 time
 - **Outcome:** As the committee's point of contact, he runs down who lives where. Among the households he names his sister [Janina Gajda](ciotka.md), the widow who keeps the best house at the edge of the village and cares for the boy, living apart from the rest. He also names [Ryszard Dudka](neighbour.md), the neighbour whose house sits between Janina's and Barbara's, and the Rzepka household, where [Emil Rzepka](painter.md), the local painter, lives with his wife.
-- **Gives:** aware:characters/ciotka.md; aware:characters/neighbour.md; aware:characters/painter.md
+- **Gives:** aware:characters/ciotka.md, aware:characters/neighbour.md, aware:characters/painter.md
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** He names his house and land and says the papers are in order.
-- **Gives:** Property record — sołtys's house, clean title.
+- **Changes:** [Property Record](../items/census.md#property-record) — sołtys's house, clean title; [Flood Awareness](#flood-awareness) — rises to suspicious
+
+### Tell him you're assessing property
+- **Prompted by:** aware:characters/wojewoda.md
+- **Outcome:** He nods along, but asks why a resettlement count needs land values. The answer sits badly with him.
+- **Changes:** [Flood Awareness](#flood-awareness) — rises to suspicious
+
+### Tell him you're inventorying movable assets
+- **Prompted by:** aware:characters/wojewoda.md
+- **Outcome:** He hears that someone means to list what can be carried out of the valley, and goes quiet working out why.
+- **Changes:** [Flood Awareness](#flood-awareness) — rises to suspicious
 
 ### Ask for the maps
 - **When:** Flood proof shared
 - **Outcome:** He hands over the maps because saving the village matters more than hiding the old terrain.
-- **Gives:** Item: maps useful for survey and old village navigation.
+- **Gives:** [Topographic Maps](../items/topographic-maps.md)
 
 ### Tell with geological proof
 - **When:** Players have completed survey at the village outskirts / field measurements
 - **Outcome:** He believes it, loses his temper, then pulls himself back into command.
-- **Gives:** NPC State Change: Zbigniew becomes an urgent partner; World State Change: the census accelerates; [Michał Pytlak](foreman.md) receives the flood-defense order.
+- **Changes:** [Flood Awareness](#flood-awareness) — rises to convinced
 
-### Tell him about the flood risk
+### Reveal the risk of the village drowning
 - **Prompted by:** [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
 - **Outcome:** The committee raises the risk without proof: the flood line may be wrong, the valley may not drain. Zbigniew does not need convincing to act careful. He immediately calls for [Michał Pytlak](foreman.md) and, telling him the warning, orders him to put the farm, his men, and himself at the committee's disposal.
-- **Gives:** NPC Learns: foreman: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated); World State Change: farm labour and flood-defence work are at the committee's disposal.
+- **Changes:** [Flood Awareness](#flood-awareness) — rises to needProof
 
 ### Convince him to reveal the flood
 - **When:** Flood proof shared (["Tell with geological proof"](#tell-with-geological-proof) done), a way out such as an evacuation plan, army rescue, or the [phone line cracked](../events/operator-refuses-help.md), and [Bond](#bond)
 - **Cost:** 1 time
 - **Outcome:** The players give him a version of disclosure he can lead: public alarm with a plan. He decides the village must be told by him.
-- **Gives:** NPC State Change: Zbigniew owns the disclosure and shields the players through the backlash; Scene Unlock: public announcement and evacuation.
+- **Gives:** aware:events/the-disclosure.md
+- **Changes:** [Compliance](#compliance) — true, he owns the disclosure and shields the players
 
 ### Force the disclosure — the ultimatum
 - **When:** Players hold the flood proof
 - **Cost:** 1 time
 - **Outcome:** They corner him with proof and a public threat. He agrees to disclose the flood on his own terms.
-- **Gives:** NPC State Change: Zbigniew complies on his terms and sets a grudge; Scene Unlock: public announcement without his protection.
+- **Gives:** aware:events/the-disclosure.md
 
 ### Ask about the old village
 - **Prompted by:** aware:locations/old-village-ruins.md
@@ -130,18 +151,12 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **Prompted by:** [house-belonged-to-edward-senior](../clues/clues.md#house-belonged-to-edward-senior), [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs)
 - **Cost:** 1 time
 - **Outcome:** He produces the file and lets them read the 1954 declaration with [Edward Barnaś](soldier.md)'s signature. He keeps the document in his hands; see [Edward Barnaś's Departure Declaration](../items/barnas-departure-declaration.md).
-- **Gives:** Item / Evidence: the players have seen the declaration and know where it is kept; [`soldier-left-his-house-for-state`](../clues/clues.md#soldier-left-his-house-for-state); [`ciotka-moved-in-after-they-were-gone`](../clues/clues.md#ciotka-moved-in-after-they-were-gone)
+- **Gives:** [`soldier-left-his-house-for-state`](../clues/clues.md#soldier-left-his-house-for-state), [`ciotka-moved-in-after-they-were-gone`](../clues/clues.md#ciotka-moved-in-after-they-were-gone), aware:items/barnas-departure-declaration.md
 
 ### Report the bimber still
 - **When:** Players have discovered the [bimber still](../locations/bimber-still.md)
 - **Outcome:** He says he will handle it and shows no surprise.
 - **Gives:** [`bimber-still`](../clues/clues.md#bimber-still)
-
-### Confront him about Mazur's pension
-- **Prompted by:** [mazur-death-covered-up](../clues/clues.md#mazur-death-covered-up)
-- **Cost:** 1 time
-- **Outcome:** He goes still and quiet, then does not deny it. In his mind there is nothing to deny: a man died on the farm, the state would have cut his widow off, so he kept the wage flowing and called it a pension. He lays it out as order and mercy, not crime, and names it as his decision and Michał's doing. He warns that filing it destroys Wanda for nothing.
-- **Gives:** NPC State Change: Zbigniew now knows the committee has the coverup and sets a grudge.
 
 ## Bond
 

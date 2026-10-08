@@ -49,7 +49,7 @@
 - **When:** Access to the cerkiew (prompted by: aware:locations/old-village-cerkiew.md)
 - **Cost:** 1 time
 - **Outcome:** The players lift the cloth-wrapped bundle from its dry corner and open it. Inside is an oil portrait of a young dark-haired woman in a blue dress, painted with a care nothing in the ruins shares. Someone carried it here and kept it dry on purpose.
-- **Gives:** Item / Evidence: the [portrait](../items/portrait.md); [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew); [portrait-woman-in-blue-dress](../clues/clues.md#portrait-woman-in-blue-dress)
+- **Gives:** [portrait](../items/portrait.md), [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew), [portrait-woman-in-blue-dress](../clues/clues.md#portrait-woman-in-blue-dress)
 
 ### Search for ritual traces
 - **When:** Access to the cerkiew
@@ -58,12 +58,6 @@
 - **Gives:** [hag-tends-the-well](../clues/clues.md#hag-tends-the-well)
 
 ### Compare the brass bell
-- **When:** Searched [Ciotka's attic](ciotkas-house.md#search-the-attic) and found the brass bell
+- **When:** Searched [Ciotka's attic](ciotkas-house/attic.md#search-the-attic) and found the brass bell
 - **Outcome:** The players identify the brass bell from Ciotka's attic as matching the missing cerkiew fitting.
-- **Gives:** Item / Evidence: Provenance for the brass bell from [Ciotka's attic](ciotkas-house.md#search-the-attic).
-
-### Stake out at night
-- **When:** Night and willingness to wait inside or near the cerkiew
-- **Cost:** 1 time
-- **Outcome:** The players can catch [Paraskewia Chyłak](../characters/hag.md) performing rites at the cerkiew.
-- **Gives:** Scene Unlock: Direct encounter with [Paraskewia Chyłak](../characters/hag.md) at night.
+- **Gives:** [lemko-bell-from-the-cerkiew](../clues/clues.md#lemko-bell-from-the-cerkiew)

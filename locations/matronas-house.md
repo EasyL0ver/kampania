@@ -61,5 +61,5 @@ The centre of %NEW_VILLAGE%, close to the store.
 - **When:** close to Helena, over her tea and bread or while her attention is elsewhere
 - **Cost:** 1 time
 - **Outcome:** The cabinet key rides on the ring at her apron. In the fuss of hospitality, or with her turned away, a light hand works it off the ring. She notices nothing until she next reaches for it.
-- **Gives:** Item: [Store cabinet key](../items/store-cabinet-key.md).
+- **Gives:** [Store cabinet key](../items/store-cabinet-key.md)
 

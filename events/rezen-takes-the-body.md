@@ -34,7 +34,6 @@
 - If players kept vigil, Rezeń enters after midnight, soaked and calm.
 - If players kept vigil, his dogs wait at the threshold.
 - If no one stops him, he lifts Janina's body and carries it out.
-- **Composure:** 1
 
 ## Opportunities
 
@@ -49,7 +48,7 @@
 - **When:** Players chose to stay with the coffin overnight after the [postponed burial](funeral-mass.md).
 - **Cost:** 4 time
 - **Outcome:** Rezeń comes for the body after midnight, stops when caught, explains himself, and leaves without the body.
-- **Gives:** World State Change: [`rezen-fed-ciotka-to-well`](../clues/clues.md#rezen-fed-ciotka-to-well) does not happen; [`butcher-dumps-carcasses-in-well`](../clues/clues.md#butcher-dumps-carcasses-in-well)
+- **Gives:** [`butcher-dumps-carcasses-in-well`](../clues/clues.md#butcher-dumps-carcasses-in-well)
 
 ### Follow the drag trail
 - **When:** Found the empty coffin and the trail.
@@ -61,7 +60,7 @@
 - **When:** Caught him at the church, or tracked the body to him.
 - **Cost:** 1 time
 - **Outcome:** Rezeń does not deny taking the body. He says the flood left Janina unburied, the body was turning, and the well is where he put her.
-- **Gives:** [`rezen-fed-ciotka-to-well`](../clues/clues.md#rezen-fed-ciotka-to-well); NPC State Change: village suspicion of Rezeń hardens if this becomes public; Ending Progress: Punishment / mob-justice ending against Rezeń advances
+- **Gives:** [`rezen-fed-ciotka-to-well`](../clues/clues.md#rezen-fed-ciotka-to-well)
 
 ## Exits
 

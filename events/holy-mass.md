@@ -31,5 +31,5 @@ A Mass beginning in the church as the village gathers against the rising water.
 
 ## Exits
 
-- After Mass, ks. Władysław Pająk sends someone to check Janina Gajda's house → [Ciotka Found Dead](ciotka-found-dead.md).
+- After Mass, ks. Władysław Pająk sends someone to check Janina Gajda's house → [Ciotka Found Dead](ciotka-found-dead/ciotka-found-dead.md).
 - Remain at [The church](../locations/the-church.md) for confession or follow-up conversations.

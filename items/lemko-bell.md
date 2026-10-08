@@ -1,7 +1,7 @@
 # Lemko Bell
 
 **Type:** Item — evidence
-**Source:** Taken down from the attic in [Ciotka Found Dead](../events/ciotka-found-dead.md)
+**Source:** Taken down from the attic in [Ciotka Found Dead](../locations/ciotkas-house/ciotkas-house.md)
 **Carried:** Evidence. An Eastern-rite object out of place in a Roman Catholic home.
 
 ## Hook

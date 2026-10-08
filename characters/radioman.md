@@ -69,7 +69,7 @@ He knows the official history, that the old village was Lemko and was cleared in
 - **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Cost:** 1 time
 - **Outcome:** Ask him about the survey and he lights up: the last crew who came to re-check the ground drank at Tadek's still for the best part of a week, drove a few stakes by the road, and left. "They surveyed the bottom of a bottle, and the state signed it." Drunk testimony, but he watched it happen, and the teacher in him read exactly how little work went into what they filed.
-- **Gives:** [`geologists-were-drinking`](../clues/clues.md#geologists-were-drinking); [`original-report-is-thin`](../clues/clues.md#original-report-is-thin)
+- **Gives:** [`geologists-were-drinking`](../clues/clues.md#geologists-were-drinking), [`original-report-is-thin`](../clues/clues.md#original-report-is-thin)
 
 ### Why he says they did it on purpose
 - **Prompted by:** [original-report-is-thin](../clues/clues.md#original-report-is-thin)
@@ -88,7 +88,7 @@ He knows the official history, that the old village was Lemko and was cleared in
 - **Prompted by:** aware:locations/old-village-ruins.md
 - **Cost:** 1 time
 - **Outcome:** The teacher gives the official history without hesitation: it was a Lemko village, Greek Catholic, up the valley, and in 1947 the state cleared the whole range under Akcja Wisła and scattered the people west. "On paper they were resettled. On paper." He knows the record; he has no idea what the record buried.
-- **Gives:** [`old-village-was-lemko`](../clues/clues.md#old-village-was-lemko); [`old-village-resettled-during-vistula`](../clues/clues.md#old-village-resettled-during-vistula)
+- **Gives:** [`old-village-was-lemko`](../clues/clues.md#old-village-was-lemko), [`old-village-resettled-during-vistula`](../clues/clues.md#old-village-resettled-during-vistula)
 
 ### Ask about the trident
 - **Prompted by:** [trident-on-the-bayonet](../clues/clues.md#trident-on-the-bayonet)
@@ -105,12 +105,12 @@ He knows the official history, that the old village was Lemko and was cleared in
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** The census sets him off, but he gives name and age inside a tirade about the teaching post they took and the years they gave him for "agitation."
-- **Gives:** Census data — %RADIOMAN%, former schoolteacher.
+- **Changes:** [Census](../items/census.md#census) — %RADIOMAN%, former schoolteacher
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** He gestures at the falling-down cottage the state parked him in.
-- **Gives:** Property record — run-down state-assigned cottage.
+- **Changes:** [Property Record](../items/census.md#property-record) — run-down state-assigned cottage
 
 ## Bond
 

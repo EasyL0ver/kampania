@@ -44,4 +44,4 @@ Who they were is recorded in [the massacre file](../story-facts/old-village-mass
 ### Read the names
 - **Requires:** [Paraskewia's List of the Dead](paraskewias-list.md) AND ([Language](../cards/language.md) OR [Culture](../cards/culture.md))
 - **Outcome:** The players can now name the 1947 dead — the twelve villagers and Dmytro Kosach — the core of the [truth the rite requires](../events/the-ritual.md). Without the skill, the names stay locked in the script until someone reads it for them.
-- **Gives:** → [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead)
+- **Gives:** [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead)

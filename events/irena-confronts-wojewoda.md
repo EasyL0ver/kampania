@@ -40,17 +40,6 @@
 - **Outcome:** The players do not hear a full confession, but they learn that Zbigniew is guilty of a 1954 crime, is not sorry, considered bringing it into the open, and was stopped by Irena.
 - **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
 
-### Open the door
-- **When:** Present in the house when the fight starts
-- **Outcome:** The argument stops immediately; Zbigniew restores his public mask and Irena physically places herself between him and the players.
-- **Gives:** NPC State Change: Irena shifts from investigator to protector; her parallel investigation closes and Marek is pulled home
-
-### Approach Irena afterward
-- **When:** Overheard or interrupted the fight; catch Irena alone afterward
-- **Cost:** 1 time
-- **Outcome:** Irena confirms by behavior that her cooperation is over and that she will keep Zbigniew silent and protected.
-- **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband); World State Change: Irena's cooperation ends and her parallel leads dry up
-
 ## Exits
 
 - Remain at [Zbigniew Gajda's house](../locations/wojewodas-house.md) under a closed household.

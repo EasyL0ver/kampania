@@ -40,7 +40,7 @@ Halina Zając handles customers, stock, and money at Helena Rzepka's store. She 
 - **Prompted by:** [butts-at-ciotkas-are-carmen](../../clues/clues.md#butts-at-ciotkas-are-carmen)
 - **Cost:** 1 time
 - **Outcome:** Nobody reads the village like the woman at the till. She rattles off who buys what: the cheap Sport that [Tadek](../wujas.md) and half the valley burn through, and the pricey [Carmen](../../items/cigarette-butts-from-ciotkas.md) only two men ever pay for, the Gajda boy [Marek](../junior.md) and the butcher [Rezeń](../butcher.md). The brand marks the man, and she keeps the accounts in her head.
-- **Gives:** [junior-smokes-carmen](../../clues/clues.md#junior-smokes-carmen); [butcher-smokes-carmen](../../clues/clues.md#butcher-smokes-carmen); [tadek-smokes-cheapest](../../clues/clues.md#tadek-smokes-cheapest)
+- **Gives:** [junior-smokes-carmen](../../clues/clues.md#junior-smokes-carmen), [butcher-smokes-carmen](../../clues/clues.md#butcher-smokes-carmen), [tadek-smokes-cheapest](../../clues/clues.md#tadek-smokes-cheapest)
 
 ## Bond
 - [ ] Take her side against [Helena Rzepka](../matrona.md) — treat the resentment as legitimate, not idle gossip.

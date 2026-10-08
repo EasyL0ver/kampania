@@ -47,18 +47,18 @@ The river, hillsides, and forest edges around %NEW_VILLAGE%.
 - **Prompted by:** [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain), [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map), [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land)
 - **Cost:** 1 time
 - **Outcome:** You reach the notch. A landslide has choked the gap with fallen rock and earth. Whether that fill actually stops the water is a further question, settled at [The Ridge Gap](the-ridge-gap.md) by climbing the plug for a geological read on-site or by describing it to [prof. Bieńkowski](../characters/professor.md).
-- **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap); Scene Unlock: [The Ridge Gap](the-ridge-gap.md); Scene Unlock: [Climb the Plug](../events/climb-the-plug.md); Scene Unlock: [Foreman Saves the Village](../events/foreman-saves-village.md)
+- **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), aware:locations/the-ridge-gap.md, aware:events/climb-the-plug.md, aware:events/foreman-saves-village.md
 
 ### Wander the forest
 - **Cost:** 1 time
 - **Outcome:** The GM gives one missing forest lead from bottle glass and cold ash, deep boot-prints, woodsmoke and burnt herbs, collapsed dugouts and rusted metal, or [Stanisław Rezeń](../characters/butcher.md) watching from the treeline.
-- **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest); [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest); aware:characters/hag.md; [old-wartime-positions](../clues/clues.md#old-wartime-positions); World State Change: Rezeń notices the party if he is the lead shown.
+- **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest), [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest), aware:characters/hag.md, [old-wartime-positions](../clues/clues.md#old-wartime-positions)
 
 ### Follow the drinking crew
 - **Prompted by:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
 - **Cost:** 1 time
 - **Outcome:** The trail leads to the [bimber still](bimber-still.md).
-- **Gives:** [bimber-still](../clues/clues.md#bimber-still); Scene Unlock: [bimber still](bimber-still.md)
+- **Gives:** [bimber-still](../clues/clues.md#bimber-still), aware:locations/bimber-still.md
 
 ### Follow the Butcher's path
 - **Prompted by:** [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
@@ -83,4 +83,4 @@ The river, hillsides, and forest edges around %NEW_VILLAGE%.
 - **Prompted by:** [old-wartime-positions](../clues/clues.md#old-wartime-positions), [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area)
 - **Cost:** 1 time
 - **Outcome:** Ventilation shafts and a hidden entrance reveal the [UPA bunker](upa-bunker.md); [Edek Barnaś](../characters/glupek.md) may be near the mouth.
-- **Gives:** aware:locations/upa-bunker.md; Scene Unlock: [UPA bunker](upa-bunker.md)
+- **Gives:** aware:locations/upa-bunker.md, aware:locations/upa-bunker.md

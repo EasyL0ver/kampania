@@ -57,7 +57,7 @@ NPC_PREFIX = re.compile(r"^\s*([a-z][a-z0-9-]*)\s*:")
 MD_LINK = re.compile(r"\]\(([^)]+?\.md)(?:#[^)]*)?\)")
 H1 = re.compile(r"^#\s+(.*)")
 HEADING = re.compile(r"^(#{2,6})\s+(.*)")
-FIELD = re.compile(r"\*\*(Requires|When|Prompted by|Cost|Outcome|Gives):\*\*\s*(.*)")
+FIELD = re.compile(r"\*\*(Requires|When|Prompted by|Cost|Outcome|Gives|Changes):\*\*\s*(.*)")
 OPP_NAME = re.compile(r"^\s*-\s*\*\*(.+?)\*\*")
 NOTICED_TAG = re.compile(r"`\(noticed by:\s*(.*?)\)`", re.IGNORECASE)
 WHEN_TAG = re.compile(r"`\(when:\s*(.*?)\)`", re.IGNORECASE)
@@ -66,12 +66,15 @@ PROMPT_TAG = re.compile(r"\(prompted by:\s*(.*?)\)\s*`", re.IGNORECASE)
 # scene entity (character/item/location/event). It behaves as a pseudo-clue
 # whose node id is "awareness:<relpath>". Usable in Requires (hard gate),
 # Prompted by (soft breadcrumb) and Gives (grants the awareness).
-AWARE_REF = re.compile(r"aware:([A-Za-z0-9/_.-]+\.md)")
+AWARE_REF = re.compile(r"aware:([A-Za-z0-9/_.-]+(?:\.md|/))")
 SECTION_NAMES = {"opportunities", "actions"}
 
 
 def _aware_id(relpath: str) -> str:
-    return "awareness:" + relpath.strip().replace("\\", "/")
+    rel = relpath.strip().replace("\\", "/")
+    if rel.endswith("/"):   # a bundle folder means its default file
+        rel = rel + rel.rstrip("/").split("/")[-1] + ".md"
+    return "awareness:" + rel
 
 
 # --------------------------------------------------------------------------
@@ -311,7 +314,8 @@ def _parse_opportunity(line: str, rel: str, title: str) -> Node | None:
     if prm:
         node.prompted_by_clues = sorted(set(CLUE_REF.findall(prm.group(1))))
         node.prompted_by_clues += sorted({_aware_id(p) for p in AWARE_REF.findall(prm.group(1))})
-    gives = line.split("Gives:", 1)[1] if "Gives:" in line else ""
+    tail = re.search(r"→\s*(?:Gives|Changes):(.*)$", line)
+    gives = tail.group(1) if tail else ""
     node.gives_known = parse_gives_known(gives, rel)
     learned_c = {c for _, c in node.gives_known}
     gives_clean = re.sub(r"NPC Learns:.*?(?:;|$)", "", gives)
@@ -327,8 +331,10 @@ def _parse_action_block(htitle: str, body: list[str], rel: str, title: str) -> N
         fm = FIELD.search(line)
         if fm:
             f, txt = fm.group(1).lower(), fm.group(2)
+            # Changes (world/NPC state) is read with Gives: NPC Learns and the
+            # outcome keywords live there now.
             {"requires": req_lines, "when": when_lines, "outcome": out_lines,
-             "gives": gives_lines, "cost": cost_lines,
+             "gives": gives_lines, "changes": gives_lines, "cost": cost_lines,
              "prompted by": prompt_lines}[f].append(txt)
         elif "Gives:" in line:
             # inline Gives inside a numbered/progressive Outcome step
@@ -378,7 +384,7 @@ def build_graph() -> Graph:
     g.clues = parse_clues()
     parsed: list = []
     for d in SCENE_DIRS:
-        for path in sorted((REPO_ROOT / d).glob("*.md")):
+        for path in sorted((REPO_ROOT / d).rglob("*.md")):
             if path.name.startswith("_"):
                 continue
             scene, nodes = parse_scene(path)

@@ -43,7 +43,7 @@
 - **When:** Access to the cabin
 - **Cost:** 1 time
 - **Outcome:** The players find Dmytro Kosach's photograph, folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth.
-- **Gives:** aware:characters/dmytro-kosach.md; Item / Evidence: Dmytro Kosach's photograph, knife, and letters.
+- **Gives:** aware:characters/dmytro-kosach.md, [Floorboard Tin](../items/floorboard-tin.md)
 
 ### Search the cabin after confrontation
 - **When:** Hag is dead or missing after [Well Confrontation](../events/well-confrontation.md)

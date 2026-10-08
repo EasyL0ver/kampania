@@ -2,7 +2,7 @@
 
 **Location:** [Zbigniew Gajda's house](../locations/wojewodas-house.md)
 **Present:** [Zbigniew Gajda](../characters/wojewoda.md), [Irena Gajda](../characters/wife.md), [Zofia Pytlak](../characters/zofia.md), [Helena Rzepka](../characters/matrona.md), [Emil Rzepka](../characters/painter.md), [Marek Gajda](../characters/junior.md), [Tadek Gajda](../characters/wujas.md)
-**Available:** First evening after [Arrival](arrival.md), if flooding is not discussed.
+**Available:** First evening after [Arrival — In the Office](arrival/in-the-office.md), if flooding is not discussed.
 
 ## Hook
 
@@ -36,9 +36,15 @@
 - **Irena watching** `(noticed by: [Finesse](../cards/finesse.md))` — [Irena Gajda](../characters/wife.md) tracks the committee more closely than the conversation requires. → Gives: [`irena-is-watchful`](../clues/clues.md#irena-is-watchful)
 - **Janina's empty place** `(noticed by: [Empathy](../cards/empathy.md))` — [Helena Rzepka](../characters/matrona.md)'s question about the absent [Janina Gajda](../characters/ciotka.md) reveals it: Janina begged off, as she always does — the distance is hers. → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
 - **She never misses mass** `(noticed by: [Devotion](../cards/devotion.md))` — Someone at the table notes that Janina keeps her distance from the family but never from the church: she is the most devout in the village and has not missed a Sunday in years. → Gives: [`ciotka-is-devout`](../clues/clues.md#ciotka-is-devout)
-- **Tadek takes to them** `(when: drank with [Tadek Gajda](../characters/wujas.md) during dinner — Physique or Alcoholic)` — loosened and glad of the company, Tadek tells them to come drink with him at the [store](../locations/the-store.md) any day. → Gives: NPC State Change: the drinking PCs become Tadek's [drinking buddies](../characters/wujas.md#drinking-buddy) and are invited to drink with the crew at the [store](../locations/the-store.md).
+- **Tadek takes to them** `(when: drank with [Tadek Gajda](../characters/wujas.md) during dinner — Physique or Alcoholic)` — loosened and glad of the company, Tadek tells them to come drink with him at the [store](../locations/the-store.md) any day.
 
 ## Actions
+
+### Drink with Tadek
+- **Requires:** [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md)
+- **When:** [Tadek Gajda](../characters/wujas.md) at the table
+- **Outcome:** You match Tadek glass for glass through the meal without judging him; by the end he is loosened and glad of the company.
+- **Changes:** [Drinking Buddy](../characters/wujas.md#drinking-buddy) — the drinking PCs become Tadek's buddies, invited to the store
 
 ## Exits
 

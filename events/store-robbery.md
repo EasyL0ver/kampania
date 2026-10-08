@@ -18,15 +18,15 @@ Word through the village the next morning that Helena's store was broken into ov
 ## Setup
 
 - The cabinet in the back room stands forced open and emptied.
-- Helena knows the penicillin is gone ([somebody-stole-penicillin](../clues/clues.md#somebody-stole-penicillin)).
-- If the register was forced, the till is emptied too ([somebody-stole-money](../clues/clues.md#somebody-stole-money)).
+- Helena knows the penicillin is gone.
+- If the register was forced, the till is emptied too.
 - Helena treats the theft as something to be answered.
-- If Helena knows the committee wanted the penicillin, she says little and watches the players with open suspicion.
-- If Helena blames the committee ([committee-stole-penicillin](../clues/clues.md#committee-stole-penicillin)), any committee member lodging at [her house](../locations/matronas-house.md) is turned out: come nightfall the door is barred and their belongings are set out in front of the house. Those players lose the [Lodging at Matrona's](../cards/lodging-at-matronas.md) card. (World State Change: Helena revokes the committee's lodging.)
+- If Helena's [Robbery suspect](../characters/matrona.md#robbery-suspect) is the committee, she says little and watches the players with open suspicion.
+- If Helena's [Robbery suspect](../characters/matrona.md#robbery-suspect) is the committee, any committee member lodging at [her house](../locations/matronas-house.md) is turned out: come nightfall the door is barred and their belongings are set out in front of the house.
 
 ## Opportunities
 
-- **Helena's stare** `(when: helena: [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin), helena: [somebody-stole-penicillin](../clues/clues.md#somebody-stole-penicillin), no money was taken)` — The penicillin is gone and the till sits untouched, and the only ones who came to her asking for that drug were the committee. She says nothing and holds the players in a long, open stare. → Gives: NPC Learns: helena: [committee-stole-penicillin](../clues/clues.md#committee-stole-penicillin)
+- **Helena's stare** `(when: [Robbery suspect](../characters/matrona.md#robbery-suspect) is the committee)` — The penicillin is gone and the till sits untouched, and the only ones who came to her asking for that drug were the committee. She says nothing and holds the players in a long, open stare.
 
 ## Actions
 

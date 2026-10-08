@@ -37,6 +37,11 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ## Mechanics
 
+### Condition
+
+- **healthy / sick / tended / dead**. Starts healthy; sick once he falls ill.
+- While **tended**, his [Health Points](#health-points) do not drop this phase.
+
 ### Health Points
 
 **Ticking clock mechanic.** Tracks Pawełek's condition after he falls ill ([event](../events/pawelek-falls-ill.md)).
@@ -55,18 +60,16 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ### Modifiers
 
-- **Stabilize (Medicine skill):** **Drain stops for the rest of the day.** Resets next morning — needs to be re-applied daily. 2 actions per day.
 - **Norsulfazol (from Helena/robbery/raid/Tadek):** Drain stops permanently. **+1 HP per phase.** Full recovery.
 - **Paraskewia's herbs:** Drain stops permanently. No HP recovery — stays at current HP. Pawełek sleeps, unreachable rest of game.
 - **No treatment:** 6 phases (1.5 days) → dead.
-- **Stabilize only:** Buys one day at a time. HP doesn't drop but doesn't recover. Miss a day → drain resumes.
 
 ## Opportunities
 
 - **Babcia's sounds** `(when: evening with Pawełek, Babcia)` `(noticed by: [Language](../cards/language.md))` — Pawełek reproduces Babcia's prayer fragments with eerie accuracy. A child is acting as an unconscious vessel for a dying language.
 - **Barbara watching Babcia and Pawełek** `(when: evening with Pawełek, Babcia)` `(noticed by: [Empathy](../cards/empathy.md))` — [Barbara](barbara.md) watches from the kitchen. She does not understand what Babcia says either, and she is watching her son become part of something she was never part of.
-- **Medicine diagnosis** `(when: Stabilize Pawełek)` `(noticed by: [Medicine](../cards/medicine.md))` — The illness will not resolve on its own in a child this size. He needs antibacterial medication; stabilization only buys time. → Gives: [paweleks-diagnosis](../clues/clues.md#paweleks-diagnosis)
-- **Contamination pattern** `(when: Stabilize Pawełek)` `(noticed by: [Medicine](../cards/medicine.md))` — The bacterial load points to decomposing organic matter in a confined water source over years: a cistern, cellar, or well filled with something large and organic. → Gives: [paweleks-contamination](../clues/clues.md#paweleks-contamination)
+- **Medicine diagnosis** `(when: [Condition](#condition) is tended)` `(noticed by: [Medicine](../cards/medicine.md))` — The illness will not resolve on its own in a child this size. He needs antibacterial medication; stabilization only buys time. → Gives: [paweleks-diagnosis](../clues/clues.md#paweleks-diagnosis)
+- **Contamination pattern** `(when: [Condition](#condition) is tended)` `(noticed by: [Medicine](../cards/medicine.md))` — The bacterial load points to decomposing organic matter in a confined water source over years: a cistern, cellar, or well filled with something large and organic. → Gives: [paweleks-contamination](../clues/clues.md#paweleks-contamination)
 - **Water table mapping** `(when: Ask about drinking water)` `(noticed by: [Geology](../cards/geology.md))` — Contamination follows the water table downhill from the old village. Mapping the flow points toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) and [the well](../locations/old-village-ruins.md). → Gives: aware:locations/old-village-ruins.md
 - **Mud on his shoes** `(when: Ask about drinking water)` `(noticed by: [Survival](../cards/survival.md))` — His shoes by the door carry dark, silty mud with stone dust fragments: forest-path mud with worked stone. → Gives: aware:locations/old-village-ruins.md
 
@@ -96,13 +99,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 ### Play with Pawełek
 - **Cost:** 1 time
 - **Outcome:** The player spends time with him in chase, hide-and-seek, or throwing stones at a tree. He is delighted that an adult plays with him.
-- **Gives:** NPC State Change: Pawełek treats the player as a trusted playmate for actions that require trust.
-
-### Stabilize Pawełek
-- **When:** **Medicine**, Pawełek is sick
-- **Cost:** 2 time
-- **Outcome:** Clean water, salt, boiled cloths, cool compresses, controlled hydration, and monitoring stop the HP drain for the rest of the day. The effect resets next morning.
-- **Gives:** NPC State Change: [Barbara](barbara.md) trusts the committee and cooperates fully.
+- **Changes:** [Play with him](#pawelek-play)
 
 ### Ask about drinking water
 - **When:** Pawełek is sick, HP 5-6 (lucid), and Pawełek trusts the player or the player uses Speech
@@ -111,6 +108,6 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ## Bond
 
-- [ ] Get on the ground and play with him — blocks, sticks, mud, whatever he's doing
-- [ ] Make him laugh — funny faces, silly voices, exaggerated reactions
-- [ ] Give him something small — a shiny stone, a wrapped sweet, a button
+- [ ] <a id="pawelek-play"></a>Get on the ground and play with him — blocks, sticks, mud, whatever he's doing
+- [ ] <a id="pawelek-laugh"></a>Make him laugh — funny faces, silly voices, exaggerated reactions
+- [ ] <a id="pawelek-gift"></a>Give him something small — a shiny stone, a wrapped sweet, a button

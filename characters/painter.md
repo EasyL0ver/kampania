@@ -53,7 +53,7 @@ His hands are the only alive part of him: long-fingered, always stained with cad
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** He answers in a near-whisper, eyes down, and glances at [Helena](matrona.md) before every reply. If she is in the room, she answers for him and he lets her.
-- **Gives:** Census data — Emil Rzepka, painter, in the Rzepka household.
+- **Changes:** [Census](../items/census.md#census) — Emil Rzepka, painter, in the Rzepka household
 
 ### Confront Emil with the style shift
 - **Prompted by:** [painters-style-shifted-to-dark](../clues/clues.md#painters-style-shifted-to-dark)
@@ -64,12 +64,12 @@ His hands are the only alive part of him: long-fingered, always stained with cad
 - **When:** noticed the streambed canvas as a real place (Geology) or its odd precision (Culture); access to Emil's shed
 - **Prompted by:** aware:characters/painter.md
 - **Outcome:** Only a party that has picked out the real detail under the paint can draw him out. Asked about it, Emil warms for a moment. It is a streambed on the far ridge across the valley, a place from before, where the water ran down toward the next basin. He describes the col and the crossing plainly enough that the party could find it. Then he sighs: it was a long time ago, and the water probably does not run like that any more.
-- **Gives:** aware:locations/far-ridge-streambed.md; [`streambed-painting-is-old`](../clues/clues.md#streambed-painting-is-old)
+- **Gives:** aware:locations/far-ridge-streambed.md, [`streambed-painting-is-old`](../clues/clues.md#streambed-painting-is-old)
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** He says the house is Helena's, not his. He states it plainly, like a man used to owning nothing.
-- **Gives:** Property record — Rzepka house, held in Helena's name.
+- **Changes:** [Property Record](../items/census.md#property-record) — Rzepka house, held in Helena's name
 
 ## Bond
 

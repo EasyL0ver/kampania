@@ -34,9 +34,11 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 
 ## Mechanics
 
-### If he learns the flood line may be wrong
+- Michał follows [Zbigniew's Flood Awareness](wojewoda.md#flood-awareness) as his trusted subordinate; he has no flood state of his own.
 
-Michał backs [Zbigniew Gajda](wojewoda.md)'s optimistic line only while he believes the village is safe. The moment the committee tells him [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated), he comes to know it himself (tracked as `foreman: the-flood-line-potentially-miscalculated`), grasps the valley may actually drown, and stops covering for the ditch. He then speaks plainly about the flood, unlocking "Ask his opinion on the drain routes". Zbigniew ordering him to help (see wojewoda's ["Tell him about the flood risk"](wojewoda.md#tell-him-about-the-flood-risk)) tells him the same thing.
+### Fight
+
+- A flag, true or false. Starts false. True when the gap is blown ([Gap blown](../events/climb-the-plug-in-the-rain.md#gap-blown)). The **Fight** ending.
 
 ## Opportunities
 
@@ -47,29 +49,30 @@ Michał backs [Zbigniew Gajda](wojewoda.md)'s optimistic line only while he beli
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** He answers quickly and gives himself, Zofia, and Staszek.
-- **Gives:** Census data — Michał, Zofia, Staszek.
+- **Changes:** [Census](../items/census.md#census) — Michał, Zofia, Staszek
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** He says he owns nothing: he lives in PGR quarters and the farm is state land. He treats questions about land value as odd.
-- **Gives:** Property record — none; PGR housing.
+- **Changes:** [Property Record](../items/census.md#property-record) — none, PGR housing; [Flood Awareness](wojewoda.md#flood-awareness) — Michał mentions it, rises to suspicious
 
 ### Ask about the armed conflict
 - **Prompted by:** [old-wartime-positions](../clues/clues.md#old-wartime-positions)
 - **Outcome:** No secret to him. He lays out the war years plainly: the whole range was cleared in '47 under Akcja Wisła, the people loaded up and sent west, and the partisans left old dugouts scattered through the forest, more than one, up in the hills. He does not know the bunkers from the inside, but he knows they are out there.
-- **Gives:** [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area); [old-village-resettled-during-vistula](../clues/clues.md#old-village-resettled-during-vistula)
+- **Gives:** [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area), [old-village-resettled-during-vistula](../clues/clues.md#old-village-resettled-during-vistula)
 
 ### Talk to him about the flood
 - **When:** [Michał Pytlak](foreman.md) present
 - **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Outcome:** Michał describes drainage ditches, sandbags, and water diversion as practical flood defences. He lays out the valley plainly: when the reservoir rises the water can only leave three ways, through the ridge gap, down his irrigation ditch, or over the far-ridge streambed. When the ditch comes up he is blunt: it is concrete only for a short run near the fields, an unlined dugout the rest of the way, and it will not carry a flood off.
-- **Gives:** [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain); NPC State Change: Michał Pytlak becomes willing to coordinate flood defence work with the committee.
+- **Gives:** [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain)
 
 ### Tell him the flood line may be wrong
 - **Prompted by:** [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
 - **Cost:** 1 time
 - **Outcome:** Michał goes still, then drops the reassurances. He admits the ditch is concrete only for a short run near the fields and an unlined dugout the rest of the way, and that it will not carry a flood off.
-- **Gives:** [ditch-not-built-to-spec](../clues/clues.md#ditch-not-built-to-spec); NPC Learns: foreman: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated).
+- **Gives:** [ditch-not-built-to-spec](../clues/clues.md#ditch-not-built-to-spec)
+- **Changes:** [Flood Awareness](wojewoda.md#flood-awareness) — Michał reports up, rises to suspicious
 
 ### Ask his opinion on the drain routes
 - **When:** foreman: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
@@ -90,7 +93,7 @@ Michał backs [Zbigniew Gajda](wojewoda.md)'s optimistic line only while he beli
 - **Outcome:** Michał comes up to the far ridge and spends the fieldwork day working alongside the committee. He can join **only one** of the two streambed scenes, not both, and he sticks with whichever the party runs first.
   - In [Surveying the Streambed](../events/surveying-the-streambed.md) he holds the staff for one leg of the line at no time cost to the party.
   - In [Search for the Benchmarks](../events/search-for-the-benchmarks.md) he searches one site himself: he watched the dam crews work and remembers roughly where they drove the markers, clearing that site for **2 cards** instead of 4.
-- **Gives:** World state change: Pytlak joins one streambed scene as a helper (survey assist or one search site), never both.
+- **Changes:** [Mechanics](../events/surveying-the-streambed.md#mechanics) — holds the staff for one leg, or; [Mechanics](../events/search-for-the-benchmarks.md#mechanics) — drops one site to 2, never both
 
 ### Show him the streambed figures
 - **Requires:** [Streambed Parameters](../items/streambed-parameters.md)
@@ -103,7 +106,7 @@ Michał backs [Zbigniew Gajda](wojewoda.md)'s optimistic line only while he beli
 - **When:** [Michał Pytlak](foreman.md) willing to coordinate on the flood (after [Talk to him about the flood](#talk-to-him-about-the-flood)), or a bond with him, or Speech
 - **Cost:** 1 time
 - **Outcome:** Michał hands over the steel clamp and driving hammer from the farm's gear, on the understanding it comes back. Cooperative or bonded, he lends it without a second thought; otherwise a convincing enough story pries it out of a wary man.
-- **Gives:** Item: the [anchor and hammer](../items/anchor.md).
+- **Gives:** [anchor and hammer](../items/anchor.md)
 
 ### Press him about Tadeusz Mazur
 - **When:** asked alone, not in front of the workers
@@ -111,12 +114,6 @@ Michał backs [Zbigniew Gajda](wojewoda.md)'s optimistic line only while he beli
 - **Cost:** 1 time
 - **Outcome:** Put the books in front of him and the pragmatism drops. He has carried this since 1965 and it comes out plainly: he knew that silo could kill and always tended it himself, but he was tied up elsewhere and put Mazur, his most solid man, on it. Mazur went up alone and never came back. He suspected the silo had him but could not justify dumping a full state store on a guess, and when he asked the sołtys to empty it he was told no. Two weeks later the smell proved him right. They buried the paperwork, and the sołtys kept the wage flowing to Wanda so she would not starve. He asks one thing: that Wanda never learn her pension is a dead man's wage.
 - **Gives:** [`foreman-sent-mazur-in-his-place`](../clues/clues.md#foreman-sent-mazur-in-his-place)
-
-### Pressure him in public about Tadeusz Mazur
-- **Prompted by:** [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent), [mazur-died-in-the-silo](../clues/clues.md#mazur-died-in-the-silo)
-- **Cost:** 1 time
-- **Outcome:** He stops answering and goes to warn [Zbigniew](wojewoda.md) that the committee knows about Mazur.
-- **Gives:** NPC State Change: Zbigniew becomes guarded; World State Change: village doors close to the committee.
 
 ## Bond
 

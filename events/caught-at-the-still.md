@@ -36,38 +36,39 @@
 ### Let Tadek vouch — already buddies
 - **When:** At least one committee member is Tadek's [drinking buddy](../characters/wujas.md#drinking-buddy)
 - **Outcome:** Tadek gets between the committee and his crew and swears they are alright. Szymek and Romek stand down on his word — but Franek is too drunk to listen and still has to be turned around or put down.
-- **Gives:** World State Change: only Franek is still a threat; the fight can still start if he is not turned around or beaten down.
+- **Changes:** [Resolving the brawl](#resolving-the-brawl) — the crew count drops to Franek alone
 
 
 ### Talk the crew down
 - **When:** Command or Streetwise
 - **Cost:** 1 composure
 - **Outcome:** An order or a read of the room backs Szymek and Romek off — but not Franek. He is too far gone to care about rank, and still has to be dealt with before he swings.
-- **Gives:** World State Change: only Franek is still a threat; the fight can still start if he is not turned around or beaten down.
+- **Changes:** [Resolving the brawl](#resolving-the-brawl) — the crew count drops to Franek alone
 
 ### Pull a gun on them
 - **When:** Holding a firearm
 - **Cost:** 1 composure
 - **Outcome:** A drawn gun freezes the whole crew, Franek included — even blackout-drunk, he knows what a barrel means. The standoff ends cold. But it turns a scuffle over moonshine into something that could have killed a man, and the crew will not forget a government official pulling a weapon on them.
-- **Gives:** World State Change: the whole crew backs down and no fight happens; NPC State Change: the crew turns hostile and remembers the gun, and the still moves.
+- **Changes:** [Resolving the brawl](#resolving-the-brawl) — no fight; [Crew Hostile](../characters/wujas.md#crew-hostile) — the crew remembers the gun, the still moves
 
 
 ### Turn him around
 - **When:** Streetwise or Sweettalk
 - **Cost:** 1 composure
 - **Outcome:** Franek is too drunk to track anything. Point him at a threat that is not there — a noise in the trees, the milicja coming up the path — and his aggression lurches off the committee. He stumbles off swinging at shadows.
-- **Gives:** World State Change: Franek is dealt with; no fight. NPC State Change: the crew is wary but not hostile, and the still stays put.
+- **Changes:** [Resolving the brawl](#resolving-the-brawl) — Franek dealt with, no fight
 
 ### Scrap
 - **Cost:** 1 composure
 - **Outcome:** The player throws themselves into the drunk crew, trading blows and grappling bottles away. Counts as one fighter against the crew.
-- **Gives:** World State Change: one more fighter in the brawl count; Card: the scrapper gets [Bruised](../cards/bruised.md)
+- **Gives:** [Bruised](../cards/bruised.md)
+- **Changes:** [Resolving the brawl](#resolving-the-brawl) — +1 fighter
 
 ### Beat them up
 - **Requires:** [Violence](../cards/violence.md)
 - **Cost:** 1 composure
 - **Outcome:** The player drops men fast and hard. Counts as two fighters against the crew.
-- **Gives:** World State Change: two more fighters in the brawl count.
+- **Changes:** [Resolving the brawl](#resolving-the-brawl) — +2 fighters
 
 ## Mechanics
 

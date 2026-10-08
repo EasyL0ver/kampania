@@ -2,14 +2,14 @@
 
 **Location:** [%OLD_VILLAGE%](../locations/old-village-ruins.md)
 **Present:** [Paraskewia Chyłak](../characters/hag.md), [Stanisław Rezeń](../characters/butcher.md), [Ryszard Dudka](../characters/neighbour.md) (if the players got him here and left him his rifle)
-**Available:** Night of Day 4, after [Rezeń's containment has broken](wolf-attack.md), unless [Paraskewia Chyłak](../characters/hag.md) is hostile (see her [Hostility](../characters/hag.md#hostility) mechanic)
+**Available:** Night of Day 4, after [Rezeń's containment has broken](wolf-attack.md), unless [Paraskewia Chyłak](../characters/hag.md) is hostile (see her [Hostility](../characters/hag.md#village-hostility) mechanic)
 
 ## Trigger
 
 - [Stanisław Rezeń](../characters/butcher.md) is loose after the wolf authorization.
 - The well's compulsion sends him to the ruins at night.
 - [Paraskewia Chyłak](../characters/hag.md) is at the well for her nightly rites.
-- Does not happen if Paraskewia is hostile; she has stopped coming to the well (see her [Hostility](../characters/hag.md#hostility) mechanic).
+- Does not happen if Paraskewia is hostile; she has stopped coming to the well (see her [Hostility](../characters/hag.md#village-hostility) mechanic).
 - Villagers blame her for wolf attacks ([hag-blamed-for-wolves](../clues/clues.md#hag-blamed-for-wolves)).
 - Players are present only if they stake out the well, follow Rezeń, are already at the ruins at night, or arrive with [Ryszard Dudka](../characters/neighbour.md).
 
@@ -50,43 +50,60 @@
 - **When:** Present, no firearm
 - **Cost:** 2 composure
 - **Outcome:** The player occupies Rezeń and the dogs long enough to protect another action. Taking the dogs head-on is optional; whoever does is Wounded.
-- **Gives:** [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous); World State Change: the dogs are occupied for [Fight him](#fight-him)
+- **Gives:** [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+- **Changes:** [Dogs occupied](#dogs-occupied) — true
 
 ### Pin him down
 - **Requires:** [Physique](../cards/physique.md) OR [Violence](../cards/violence.md)
 - **When:** Present, no firearm
 - **Cost:** 1 composure
 - **Outcome:** Strong or practised in a fight, the player locks Rezeń up and holds off the dogs long enough to protect another action. Taking the dogs head-on is optional; whoever does is Wounded.
-- **Gives:** [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous); World State Change: the dogs are occupied for [Fight him](#fight-him)
+- **Gives:** [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+- **Changes:** [Dogs occupied](#dogs-occupied) — true
 
 ### Grab the hag and run
 - **When:** Present, no firearm, Physique
 - **Cost:** 1 composure
 - **Outcome:** The player carries [Paraskewia Chyłak](../characters/hag.md) clear; Rezeń does not pursue.
-- **Gives:** World State Change: the hag survives but is badly hurt; Card: the runner gets [Wounded](../cards/wounded.md)
+- **Gives:** [Wounded](../cards/wounded.md)
+- **Changes:** [The hag](#the-hag) — badly hurt
 
 ### Fight him
 - **When:** Present, no firearm, Violence, and at least one other player has completed [Grapple him](#grapple-him) or [Pin him down](#pin-him-down)
 - **Cost:** 2 composure
 - **Outcome:** The fighter drives Rezeń off while the dogs are occupied.
-- **Gives:** World State Change: the hag survives and Rezeń knows the players' faces; Card: the fighter gets [Wounded](../cards/wounded.md)
+- **Gives:** [Wounded](../cards/wounded.md)
+- **Changes:** [Rezeń](#rezeń) — loose
 
 ### Shoot him
 - **When:** Present and holding a gun — [Dudka's rifle](../characters/neighbour.md) or [Zbigniew's pistol](../characters/wojewoda.md)
 - **Cost:** 1 composure
 - **Outcome:** Rezeń reads the resolve, lowers the knife, and retreats with the dogs.
-- **Gives:** World State Change: the hag survives and Rezeń remains loose
+- **Changes:** [Rezeń](#rezeń) — loose
 
 ### Shoot him in the back
 - **When:** [Shoot him](#shoot-him) resolved and Rezeń is retreating
 - **Cost:** 2 composure
 - **Outcome:** The player shoots Rezeń in the back; he crawls to the well and goes into the water.
-- **Gives:** World State Change: Rezeń's body is in the well
+- **Changes:** [Rezeń](#rezeń) — dead in the well
 
 ### Dudka's rifle
 - **When:** The players got [Ryszard Dudka](../characters/neighbour.md) here and left him his rifle; if he is [Humiliated](../characters/neighbour.md#humiliated), a player must use [Uplift Ryszard](../characters/neighbour.md#uplift-ryszard)
 - **Outcome:** Dudka aims at Rezeń from the trees; Rezeń backs off and leaves with the dogs.
-- **Gives:** World State Change: the hag survives, Dudka and Rezeń can no longer pretend ignorance, and the village silence cracks
+- **Changes:** [Rezeń](#rezeń) — loose, backs off
+## Mechanics
+
+### Dogs occupied
+
+- A flag, true or false. Starts false. True while someone keeps Rezeń's dogs busy.
+
+### The hag
+
+- **unhurt / badly hurt**. Starts unhurt.
+
+### Rezeń
+
+- **loose / dead in the well**. Starts loose.
 
 ## Exits
 

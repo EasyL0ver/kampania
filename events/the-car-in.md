@@ -52,9 +52,15 @@ A police car winding down the mountain road through the rain.
 
 ### Draft the committee
 - **Outcome:** The players draft the [card pool](../story-facts/game-system.md#the-draft) in snake order until all 28 cards are taken. por. Witold Skowron reads each card out of his dossier as it is claimed.
-- **Gives:** World State Change: player characters are defined; whatever the committee failed to draft, it does not have
+- **Changes:** [The draft](#the-draft) — done
+
+## Mechanics
+
+### The draft
+
+- Done once, on the drive in. Afterwards every player holds the cards they drafted; a card nobody drafted is out of the game.
 
 ## Exits
 
-- Continue to [Arrival](arrival.md) in %NEW_VILLAGE%.
+- Continue to [Arrival — On the Road](arrival/arrival.md) in %NEW_VILLAGE%.
 

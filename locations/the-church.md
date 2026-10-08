@@ -33,7 +33,7 @@ The church on the hill in %NEW_VILLAGE%, beside the cemetery.
 ### Talk to Widow at the grave
 - **When:** [Wanda Mazur](../characters/widow.md) present
 - **Outcome:** Wanda talks about her husband, his PGR work, his accident, and her wish that the committee include him in the census.
-- **Gives:** [wanda-receives-pension](../clues/clues.md#wanda-receives-pension); NPC State Change: Wanda Mazur is willing to answer follow-up questions about her husband's work.
+- **Gives:** [wanda-receives-pension](../clues/clues.md#wanda-receives-pension)
 
 ### Ask Widow about her husband's work
 - **When:** Talked to Wanda Mazur at the grave
@@ -47,10 +47,3 @@ The church on the hill in %NEW_VILLAGE%, beside the cemetery.
 ### Look for Gajda graves
 - **Outcome:** The well-tended double grave with the Polonised surname belongs to Zbigniew Gajda's parents; a small three-barred cross sits half-hidden under the lichen on it.
 - **Gives:** [three-barred-cross-on-gajda-grave](../clues/clues.md#three-barred-cross-on-gajda-grave)
-
-### Search the plebania
-- **When:** Priest absent or distracted
-- **Cost:** 1 time
-- **Outcome:** Resolve at [The Rectory](the-rectory.md).
-- **Gives:** See [The Rectory](the-rectory.md).
-

@@ -54,7 +54,6 @@ Tadek's drinking crew ([Szymek Kępa](secondary/szymek-kepa.md), [Romek Głowacz
 - While Hostile: the crew is a standing enemy of the committee — no gossip, no drinking buddies, no cooperation. They move the still to a new site.
 - Not set if only Franek is fought after Tadek vouches, or if the standoff is defused peacefully.
 
-
 ## Opportunities
 
 - **Smoking while drinking** `(when: Tadek present and drinking at the [bimber still](../locations/bimber-still.md) or the [store](../locations/the-store.md), and Chainsmoker)` `(prompted by: aware:characters/wujas.md)` — With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen. → Gives: [`tadek-smokes-cheapest`](../clues/clues.md#tadek-smokes-cheapest)
@@ -68,7 +67,7 @@ Tadek's drinking crew ([Szymek Kępa](secondary/szymek-kepa.md), [Romek Głowacz
 - **When:** Drink or Alcoholic; crew present (outside the [store](../locations/the-store.md) or at the [still](../locations/bimber-still.md)) or an invitation from Tadek; the crew is not [Hostile](#crew-hostile)
 - **Cost:** 1 time
 - **Outcome:** The committee buys a round and shares a full session in the drinking circle. Tadek warms to whoever kept pace without judging him.
-- **Gives:** NPC State Change: the drinking PCs become Tadek's [drinking buddies](#drinking-buddy)
+- **Changes:** [Drinking Buddy](#drinking-buddy) — the drinking PCs become Tadek's drinking buddies
 
 ### Get shitfaced with Tadek
 - **When:** [drinking buddy](#drinking-buddy)
@@ -82,11 +81,6 @@ Tadek's drinking crew ([Szymek Kępa](secondary/szymek-kepa.md), [Romek Głowacz
 - **Outcome:** Loose with drink, Tadek remembers [Rezeń](butcher.md) sitting in on the crew's sessions years back, bottle in hand like any of them. Then one day he just stopped, and never came back to the fire.
 - **Gives:** [`butcher-used-to-drink-with-the-crew`](../clues/clues.md#butcher-used-to-drink-with-the-crew)
 
-### Leverage — the bimber play, first visit
-- **When:** Players have discovered the [bimber still](../locations/bimber-still.md)
-- **Outcome:** He is relieved that the players are only pressing him about the still. He gives gossip, complaints, and minor dirt.
-- **Gives:** NPC State Change: Tadek owes the players and will keep talking if they return.
-
 ### Leverage — the bimber play, second visit
 - **When:** First leverage visit completed and well influence active
 - **Outcome:** The bottle is not working, and half-sentences slip out around Hania before he catches himself.
@@ -95,23 +89,23 @@ Tadek's drinking crew ([Szymek Kępa](secondary/szymek-kepa.md), [Romek Głowacz
 ### Leverage — the bimber play, third visit
 - **When:** Second leverage visit completed
 - **Outcome:** He can no longer hold the story together.
-- **Gives:** Scene Unlock: [event-wujas-cracks](../events/wujas-cracks.md)
+- **Gives:** aware:events/wujas-cracks.md
 
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** He gives his name and age, reaches for the bottle, and tries to end the questions quickly.
-- **Gives:** Census data — Tadek Gajda, no fixed household.
+- **Changes:** [Census](../items/census.md#census) — Tadek Gajda, no fixed household
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** He says he owns nothing and drifts between siblings' kitchens and the still.
-- **Gives:** Property record — Tadek holds no property, dependent on family.
+- **Changes:** [Property Record](../items/census.md#property-record) — Tadek holds no property, dependent on family
 
 ### Get Pawełek the penicillin
 - **Prompted by:** [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin), [wujas-is-paweleks-father](../clues/clues.md#wujas-is-paweleks-father)
 - **Cost:** 1 time
 - **Outcome:** Faced with the sick boy being his own, Tadek goes to his sister [Helena](matrona.md). She opens the cabinet for her brother and counts out a child's course, and no census changes hands.
-- **Gives:** Item: penicillin (a child's course).
+- **Gives:** [Penicillin](../items/penicillin.md)
 
 ## Bond
 

@@ -21,6 +21,7 @@
 ## Setup
 
 - [Michał Pytlak](../characters/foreman.md) says the village is drowning because the water cannot run through the plugged gap.
+- He asks the committee for help.
 - The ground beyond the gap is the empty %BIG-BASIN%, big enough to take the water without drowning anyone.
 - The plug is loose debris and soft shale, not hard sandstone.
 - A charge placed in the right seam can start a notch.
@@ -38,20 +39,6 @@
 - **The ordnance risk** `(noticed by: [Handiwork](../cards/handiwork.md) OR [History](../cards/history.md))` — Twenty-year-old buried munitions may detonate from a knock, drop, spark, or heat.
 - **Pytlak's state** `(noticed by: [Medicine](../cards/medicine.md))` — [Michał Pytlak](../characters/foreman.md)'s lack of sleep, food, cold response, and pain response is not normal endurance.
 - **Zofia at the edges** `(noticed by: [Empathy](../cards/empathy.md))` — [Zofia Pytlak](../characters/zofia.md) is weighing the village against her husband.
-
-## Actions
-
-### Believe him — commit to the plan
-- **When:** Walked the plan or holds survey proof.
-- **Cost:** 1 time
-- **Outcome:** The committee backs [Michał Pytlak](../characters/foreman.md)'s water-gap plan.
-- **Gives:** Ending Progress: the engineering ending is live.
-
-### Get the explosives from the bunker
-- **When:** Committed to the plan and access to the [UPA bunker](../locations/upa-bunker.md).
-- **Cost:** 1 time
-- **Outcome:** The committee recovers usable old partisan charges from the bunker.
-- **Gives:** Item: [the makeshift charge](../items/makeshift-charge.md), sufficient to breach the plug; Scene Unlock: [Climb the Plug in the Rain](climb-the-plug-in-the-rain.md)
 
 ## Exits
 

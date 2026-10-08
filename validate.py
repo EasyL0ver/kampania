@@ -67,9 +67,9 @@ class MdFile:
 
 def parse(path: Path) -> MdFile:
     rel = path.relative_to(REPO_ROOT).as_posix()
-    kind = path.parent.relative_to(REPO_ROOT).as_posix()
-    if kind == "characters/secondary":
-        kind = "characters"
+    # The top folder decides the kind, so subfolders (characters/secondary,
+    # events/arrival) are the same kind as their parent.
+    kind = path.relative_to(REPO_ROOT).parts[0]
     if kind not in SCENE_KINDS or path.name.startswith("_") or path.name == "index.md":
         kind = "other"     # any other .md: only repo-wide rules apply
     lines = path.read_text(encoding="utf-8").splitlines()
@@ -145,8 +145,8 @@ ALLOWED_SECTIONS = {
                    "Mechanics", "Opportunities", "Actions", "Bond", "Grudge"],
     "events": ["Trigger", "Hook", "Setup", "Opportunities", "Actions", "Mechanics",
                "Exits", "If Missed"],
-    "locations": ["Hook", "Setup", "Opportunities", "Actions"],
-    "items": ["Hook", "Description", "Content", "Opportunities", "Actions"],
+    "locations": ["Hook", "Setup", "Opportunities", "Actions", "Mechanics"],
+    "items": ["Hook", "Description", "Content", "Mechanics", "Opportunities", "Actions"],
     "cards": ["Card", "Special rules"],
 }
 
@@ -188,19 +188,21 @@ def hook_present(f: MdFile):
         yield s.line, "'## Hook' section is empty"
 
 
-ACTION_FIELDS = ["Outcome", "Gives"]   # Requires and Cost are absent when empty
+ACTION_FIELDS = ["Outcome"]   # plus Gives and/or Changes; Requires and Cost are absent when empty
 ACTION_FIELD = re.compile(r"^\s*-\s*\*\*([^*:]+):\*\*")
 
 
 @rule("action-fields", "characters", "events", "locations", "items")
 def action_fields(f: MdFile):
-    """Every ### action under ## Actions has Outcome and Gives."""
+    """Every ### action under ## Actions has Outcome, and Gives or Changes (or both)."""
     s = f.section("Actions")
     if s is None:
         return
     for a in s.children:
         present = {m.group(1).strip() for _, t in a.body if (m := ACTION_FIELD.match(t))}
         missing = [x for x in ACTION_FIELDS if x not in present]
+        if not present & {"Gives", "Changes"}:
+            missing.append("Gives or Changes")
         if missing:
             yield a.line, f"action '{a.title}' is missing: {', '.join(missing)}"
 
@@ -224,7 +226,7 @@ STATUS_FIELDS = {
     "Outsider": (["Born", "Age in 1967", "Based in"], ["Lives in", "Settled", "Died", "Lived in"]),
     "Dead":     (["Born", "Died"], ["Age in 1967", "Lives in", "Settled"]),
 }
-LOCATION_LINK = re.compile(r"^\[[^\]]+\]\((?:\.\./)+locations/[a-z0-9-]+\.md\)")
+LOCATION_LINK = re.compile(r"^\[[^\]]+\]\((?:\.\./)+locations/[a-z0-9/-]+\.md\)")
 
 
 @rule("vital-status", "characters")
@@ -451,10 +453,97 @@ def noticed_by_format(f: MdFile):
                 yield line, f"noticed by '{value[:80]}': {err}"
 
 
+GIVES_FIELD = re.compile(r"^\s*-\s*\*\*Gives:\*\*\s*(.*?)\s*$")
+OPP_GIVES = re.compile(r"→\s*Gives:\s*(.*?)\s*(?=→\s*Changes:|$)")
+GIVES_JOIN = ", "
+
+
+CHANGES_FIELD = re.compile(r"^\s*-\s*\*\*Changes:\*\*\s*(.*?)\s*$")
+CHANGE_ENTRY = re.compile(r"^\[[^\]]+\]\((?P<path>[^)#\s]*)#(?P<anchor>[^)\s]+)\)(?: — (?P<comment>\S.*))?$")
+CHANGE_COMMENT_LIMIT = 80
+_mech_anchors: dict[Path, set[str]] = {}
+
+
+def mechanics_anchors(path: Path) -> set[str]:
+    """Heading ids of the ## Mechanics section of a file and every heading inside it."""
+    if path not in _mech_anchors:
+        f = parse(path)
+        ids = set()
+        s = f.section("Mechanics")
+        stack = [s] if s else []
+        while stack:
+            sec = stack.pop()
+            ids.add(slug(sec.title))
+            stack.extend(sec.children)
+        _mech_anchors[path] = ids
+    return _mech_anchors[path]
+
+
+@rule("changes-format", "characters", "events", "locations", "items")
+def changes_format(f: MdFile):
+    """Changes is a '; '-separated list: `[name](file.md#mechanics-heading) — short comment`, or a bare `[name](file.md#bond-check-anchor)` with no comment."""
+    for line, t in f.lines_with_numbers():
+        m = CHANGES_FIELD.match(t)
+        if not m:
+            continue
+        value = m.group(1)
+        if not value:
+            yield line, "empty Changes"
+            continue
+        for part in value.split("; "):
+            e = CHANGE_ENTRY.match(part.strip())
+            if not e:
+                yield line, f"Changes entry '{part[:70]}' is not `[name](file.md#mechanics-anchor) — comment` or `[name](file.md#bond-check)`"
+                continue
+            target = (f.path.parent / unquote(e.group("path"))).resolve() if e.group("path") else f.path
+            anchor = e.group("anchor").lower()
+            comment = e.group("comment")
+            if target.is_file() and anchor in bond_check_anchors(target):
+                if comment:
+                    yield line, f"Changes bond check '#{e.group('anchor')}' takes no comment: the link alone means the check is met"
+                continue
+            if target.is_file() and anchor not in mechanics_anchors(target):
+                yield line, f"Changes link '#{e.group('anchor')}' is neither a ## Mechanics heading nor a ## Bond check anchor in {target.relative_to(REPO_ROOT).as_posix()}"
+            elif not comment:
+                yield line, f"Changes mechanic '#{e.group('anchor')}' needs a ` — comment` saying how it changes"
+            elif len(comment) > CHANGE_COMMENT_LIMIT:
+                yield line, f"Changes comment is {len(comment)} characters (limit {CHANGE_COMMENT_LIMIT})"
+
+
+@rule("opportunity-no-changes", "characters", "events", "locations", "items")
+def opportunity_no_changes(f: MdFile):
+    """Opportunities are noticed, never done: they may Give but never carry `→ Changes:`."""
+    s = f.section("Opportunities")
+    for line, t in (s.body if s else []):
+        if "→ Changes:" in t:
+            yield line, "an opportunity can't change anything; make it an action, or move the change to the event's Mechanics"
+
+
+@rule("gives-format", "characters", "events", "locations", "items")
+def gives_format(f: MdFile):
+    """Gives (action line or opportunity `→ Gives:`) is a ', '-separated list of what the player now holds: clue links, aware: tokens, item and card links."""
+    for line, t in f.lines_with_numbers():
+        m = GIVES_FIELD.match(t) or OPP_GIVES.search(t)
+        if not m:
+            continue
+        value = m.group(1).rstrip(".")
+        if not value:
+            yield line, "empty Gives"
+            continue
+        for part in value.split(GIVES_JOIN):
+            part = part.strip()
+            item = REQ_CARD.match(part)
+            if REQ_CLUE.match(part) or PROMPTED_AWARE.match(part) or (
+                    item and (item.group(2) in ("items", "cards") or (not item.group(2) and f.kind in ("items", "cards")))):
+                continue
+            yield line, f"Gives '{value[:80]}': '{part[:60]}' is not a clue link, aware: token, item or card link (state changes go in Changes)"
+            break
+
+
 PROMPTED_FIELD = re.compile(r"^\s*-\s*\*\*Prompted by:\*\*\s*(.*?)\s*$")
 PROMPTED_JOIN = ", "
 PROMPTED_CLUE = re.compile(r"^\[`?([a-z0-9-]+)`?\]\((?:\.\./)*clues/clues\.md#([a-z0-9-]+)\)$")
-PROMPTED_AWARE = re.compile(r"^aware:(characters|events|locations|items)/[a-z0-9/-]+\.md$")
+PROMPTED_AWARE = re.compile(r"^aware:(characters|events|locations|items)/[a-z0-9/-]+(?:\.md|/)$")
 
 
 PROMPTED_TAG = re.compile(r"`\(prompted by:\s*(.*?)\)`", re.IGNORECASE)
@@ -516,7 +605,7 @@ def action_cost(f: MdFile):
 
 
 MD_LINK = re.compile(r"!?\[[^\]]*\]\(\s*<?([^)\s>]+)>?(?:\s+\"[^\"]*\")?\s*\)")
-AWARE_TOKEN = re.compile(r"aware:([A-Za-z0-9/_.%-]+\.md)")
+AWARE_TOKEN = re.compile(r"aware:([A-Za-z0-9/_.%-]+(?:\.md|/))")
 _anchors: dict[Path, set[str]] = {}
 
 
@@ -525,6 +614,15 @@ def slug(title: str) -> str:
     t = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", title)     # link text only
     t = re.sub(r"[^\w\- \t]", "", t.strip().lower())
     return re.sub(r"[ \t]", "-", t)
+
+
+HTML_ANCHOR = re.compile(r'<a id="([a-z0-9-]+)"></a>')
+
+
+def bond_check_anchors(path: Path) -> set[str]:
+    """The invisible <a id> anchors on the checks of a file's ## Bond section."""
+    s = parse(path).section("Bond")
+    return {a for _, t in (s.body if s else []) for a in HTML_ANCHOR.findall(t)}
 
 
 def anchors(path: Path) -> set[str]:
@@ -536,6 +634,8 @@ def anchors(path: Path) -> set[str]:
             if line.lstrip().startswith("```"):
                 fence = not fence
                 continue
+            if not fence:
+                ids.update(HTML_ANCHOR.findall(line))
             m = None if fence else HEADING.match(line)
             if m:
                 base = slug(m.group(2))
@@ -572,6 +672,69 @@ def link_lines(f: MdFile):
         yield i, out
 
 
+def aware_target(token: str) -> Path:
+    """aware:x/y.md is that file; aware:x/bundle/ is the bundle's default x/bundle/bundle.md."""
+    p = unquote(token)
+    if p.endswith("/"):
+        return REPO_ROOT / p / (p.rstrip("/").split("/")[-1] + ".md")
+    return REPO_ROOT / p
+
+
+@rule("bundles", *SCENE_KINDS)
+def bundles(f: MdFile):
+    """A subfolder is a bundle: its default is folder/folder.md; every other file says **Part of:** that default, and the default links it."""
+    parts = f.path.relative_to(REPO_ROOT).parts
+    if len(parts) != 3 or parts[:2] == ("characters", "secondary"):
+        return
+    folder, default = f.path.parent, f.path.parent / f"{parts[1]}.md"
+    if not default.is_file():
+        yield 1, f"bundle folder {parts[0]}/{parts[1]}/ has no default file {parts[1]}.md"
+        return
+    if f.path == default:
+        for child in sorted(folder.glob("*.md")):
+            if child != default and not any(f"]({child.name}" in t for t in f.lines):
+                yield 1, f"bundle default does not link its part {child.name}"
+        return
+    line, value = f.header.get("Part of", (0, ""))
+    if not line:
+        yield f.title_line or 1, f"bundle part has no **Part of:** header (should link {default.name})"
+    elif f"]({default.name})" not in value:
+        yield line, f"**Part of:** must link the bundle default {default.name}"
+
+
+CARD_NAMES = sorted((p.read_text(encoding="utf-8").splitlines()[0].lstrip("# ").strip()
+                     for p in (REPO_ROOT / "cards").glob("*.md") if not p.name.startswith("_")), key=len, reverse=True)
+SETUP_MECHANICS = [
+    (re.compile(r"clues\.md#"), "a clue link"),
+    (re.compile(r"\]\([^)]*cards/[a-z0-9-]+\.md"), "a card link"),
+    (re.compile(r"\*\*(" + "|".join(re.escape(n) for n in CARD_NAMES) + r")\*\*"), "a card name"),
+    (re.compile(r"\bcomposure\b", re.I), "composure"),
+    (re.compile(r"\b\d+\s+(?:time|cards?|actions?)\b|\bcosts?\b", re.I), "a time cost"),
+]
+
+
+@rule("setup-story-only", "events", "locations")
+def setup_story_only(f: MdFile):
+    """Setup is story only: no clue links, cards, composure or time costs."""
+    s = f.section("Setup")
+    for line, t in (s.body if s else []):
+        for pattern, what in SETUP_MECHANICS:
+            if pattern.search(t):
+                yield line, f"Setup contains {what}: {t.strip()[:70]}"
+                break
+
+
+TODO_MARK = re.compile(r"\b(TBD|TODO)\b", re.IGNORECASE)
+
+
+@rule("todo-marker", severity="warning")
+def todo_marker(f: MdFile):
+    """Flags every TBD / TODO left in a file."""
+    for line, t in link_lines(f):
+        if TODO_MARK.search(t):
+            yield line, f"unfinished: {t.strip()[:80]}"
+
+
 @rule("refs-resolve")
 def refs_resolve(f: MdFile):
     """Every relative link resolves: the file exists, and a #anchor matches a heading in it. aware:path too."""
@@ -587,7 +750,7 @@ def refs_resolve(f: MdFile):
             if anchor and dest.suffix == ".md" and unquote(anchor).lower() not in anchors(dest):
                 yield i, f"link '{target}': no heading with id '#{anchor}' in {dest.relative_to(REPO_ROOT).as_posix()}"
         for p in AWARE_TOKEN.findall(t):
-            if not (REPO_ROOT / unquote(p)).is_file():
+            if not aware_target(p).is_file():
                 yield i, f"aware:{p} points at a file that does not exist"
 
 

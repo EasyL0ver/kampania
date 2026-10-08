@@ -39,24 +39,24 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 - **Requires:** [Geology](../cards/geology.md) OR [Finesse](../cards/finesse.md)
 - **Cost:** 1 time
 - **Outcome:** The clay has liquefied and sloughs underfoot; a skilled climber picks the bearing line or muscles up it.
-- **Gives:** The climber is up past the lower bank.
+- **Changes:** [Climber position](#climber-position) — past the lower bank
 
 ### Force the lower bank
 - **Cost:** 1 time + 1 composure
 - **Outcome:** No read and no strength for the slop, so the climber grinds up it on nerve alone.
-- **Gives:** The climber is up past the lower bank.
+- **Changes:** [Climber position](#climber-position) — past the lower bank
 
 ### Carry the charge
 - **Requires:** [The makeshift charge](../items/makeshift-charge.md)
 - **Outcome:** The climber carries the charge up the wet bank and onto the line.
-- **Gives:** The charge is on the climber.
+- **Changes:** [The charge](#the-charge) — carried by the climber
 
 ### Take the line
 - **Requires:** [rope](../items/rope.md)
 - **When:** the climber is past the lower bank.
 - **Cost:** 1 time
 - **Outcome:** The climber commits their body to the line as counterweight, to power a haul or catch a fall below.
-- **Gives:** **+1 counterweight point** committed (a Physique-strong body counts as **+2**).
+- **Changes:** [Counterweight](#counterweight) — +1 point, +2 for a Physique-strong body
 
 ### Traverse the killzone
 - **Requires:** [Physique](../cards/physique.md) OR [Finesse](../cards/finesse.md)
@@ -65,88 +65,117 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 - **Outcome:**
   - **First attempt** `(loose rock in place)` — the loose rock gives and the climber falls, caught by the counterweight on the line (see Mechanics); the fall knocks the rock off the line for good.
   - **Later attempts** `(loose rock removed)` — with the rock already gone the climber crosses clean.
-- **Gives:**
-  - **First attempt** — loose rock removed; lose balance; the climber is not yet past the killzone.
-  - **Later attempts** — the climber is past the killzone; the line is fixed.
+- **Changes:** [Loose rock](#loose-rock) — first attempt: knocked off, the climber falls; [Balance](#balance) — first attempt: lost; [Climber position](#climber-position) — later attempts: past the killzone
 
 ### Regain balance
 - **Requires:** [Finesse](../cards/finesse.md)
 - **When:** the climber has lost balance.
 - **Cost:** 1 composure
 - **Outcome:** The climber catches a delicate hold and settles the stance before the fall takes them.
-- **Gives:** The climber has regained balance.
+- **Changes:** [Balance](#balance) — regained
 
 ### Frantic grasp
 - **Cost:** 1 composure
 - **Outcome:** The climber claws for any hold, slipping and catching. It only holds on the second grasp; the first buys nothing but the next snatch.
-- **Gives:** On the second consecutive Frantic grasp, the climber has regained balance; otherwise still off-balance.
+- **Changes:** [Balance](#balance) — regained on the second Frantic grasp in a row
 
 ### Drive the anchor
 - **When:** The [anchor and hammer](../items/anchor.md); the climber is past the killzone.
 - **Cost:** 1 time
 - **Outcome:** The climber drives the anchor home at the top of the plug, setting a fixed point for the crux.
-- **Gives:** The top-out is anchored.
+- **Changes:** [Anchor](#anchor) — the top-out is anchored
 
 ### Traverse the top-out
 - **Requires:** [Physique](../cards/physique.md) OR [Finesse](../cards/finesse.md)
 - **When:** the climber is past the killzone.
 - **Cost:** 1 time
 - **Outcome:** The rain-greased crux slab will not hold a stance and the climber loses balance outright.
-- **Gives:** The climber is past the top-out; lose balance.
+- **Changes:** [Climber position](#climber-position) — past the top-out; [Balance](#balance) — lost
 
 ### Traverse with anchor
 - **When:** The top-out is anchored; the climber is past the killzone.
 - **Cost:** 1 time
 - **Outcome:** The climber clips the fixed anchor and moves across the crux on the line, the slab no longer able to throw them.
-- **Gives:** The climber is past the top-out.
+- **Changes:** [Climber position](#climber-position) — past the top-out
 
 ### Haul a climber one level
 - **Requires:** [rope](../items/rope.md)
 - **When:** The top-out is anchored; **2 counterweight points** (consumed).
 - **Cost:** 1 time
 - **Outcome:** The crew hang their weight on the parallel strand and drag a body up one pitch, no one climbing it under load.
-- **Gives:** The climber moves up one level (past lower bank → past killzone → past top-out).
+- **Changes:** [Climber position](#climber-position) — the hauled climber moves up one level; [Counterweight](#counterweight) — 2 points spent
 
 ### Haul the charge one level
 - **Requires:** [rope](../items/rope.md)
 - **When:** The top-out is anchored; **1 counterweight point** (consumed).
 - **Cost:** 1 time
 - **Outcome:** The crew hang their weight on the parallel strand and drag the charge up one pitch, no one climbing it under load.
-- **Gives:** The [makeshift charge](../items/makeshift-charge.md) moves up one level (past lower bank → past killzone → past top-out).
+- **Changes:** [The charge](#the-charge) — up one level; [Counterweight](#counterweight) — 1 point spent
 
 ### Prime the explosives
 - **Requires:** [Violence](../cards/violence.md) OR [Handiwork](../cards/handiwork.md)
 - **When:** the [makeshift charge](../items/makeshift-charge.md) is past the top-out.
 - **Cost:** 1 time
 - **Outcome:** The climber sets the detonator and runs the fuse, arming the old ordnance to blow.
-- **Gives:** The charge is primed.
+- **Changes:** [The charge](#the-charge) — primed
 
 ### Rappel down one level
 - **Requires:** [rope](../items/rope.md)
 - **When:** the top-out is anchored; another climber still on the plug to work the rope.
 - **Cost:** 1 time
 - **Outcome:** A second climber belays them off the fixed anchor and they rope down one pitch, clear of the load.
-- **Gives:** The climber moves down one level (past top-out → past killzone → past lower bank → clear of the plug).
+- **Changes:** [Climber position](#climber-position) — down one level
 
 ### Downclimb one level
 - **Requires:** [Physique](../cards/physique.md) OR [Finesse](../cards/finesse.md)
 - **Cost:** 1 time
 - **Outcome:** With no one left to work the rope, the last climber downclimbs the wet pitch unroped and loses balance on it.
-- **Gives:** The climber moves down one level; lose balance.
+- **Changes:** [Climber position](#climber-position) — down one level; [Balance](#balance) — lost
 
 ### Blow the gap
 - **When:** The charge is primed.
 - **Outcome:** The charge blows: the notch opens, floodwater widens it, and the water in %NEW_VILLAGE% starts to drop. Anyone still on the plug when it goes is killed.
-- **Gives:** Any climber still on the plug dies; World State Change: %NEW_VILLAGE% is saved and the empty %BIG-BASIN% floods (no one lives there); Ending Progress: the engineering ending resolves.
+- **Changes:** [The charge](#the-charge) — blown; [Climber position](#climber-position) — anyone still on the plug dies; [Gap blown](#gap-blown) — true, the village is saved and the basin floods
 
 ## Mechanics
 
-- **Charge carrying.** A climber carrying the charge automatically loses balance on every level they climb, unless they have **Physique**. This loss is separate from the killzone loose-rock and top-out balance losses and **stacks** with them — a non-Physique carrier crossing the top-out loses balance **twice**. A fall that leaves the carrier **Wounded** detonates the charge: an uncaught killzone fall (0 counterweight) or a fall from the top.
-- **Balance** If active climber loses balance they need to do something to regain it immediately - otherwise they fall.
-- **Counterweight.** A counterweight point is a body committed to the line by **Take the line**: an ordinary body is **1 point**, a Physique-strong body **2 points**. **Every use spends points** — a spent body drops off the line and must **Take the line** again to count once more:
+### Climber position
+
+- Each climber is at one level: at the foot → past the lower bank → past the killzone → past the top-out. Going down runs the same levels back to clear of the plug.
+
+### The charge
+
+- Where the charge is: carried by a climber, or hauled one level at a time on the same levels. Then primed, then blown.
+
+### Loose rock
+
+- In place until the first traverse of the killzone knocks it off the line for good.
+
+### Gap blown
+
+- A flag, true or false. Starts false. True means %NEW_VILLAGE% is saved, the empty %BIG-BASIN% floods, and the engineering ending resolves.
+
+### Anchor
+
+- The top-out is anchored once the anchor is driven. It stays anchored.
+
+### Charge carrying
+
+- A climber carrying the charge automatically loses balance on every level they climb, unless they have **Physique**. This loss is separate from the killzone loose-rock and top-out balance losses and **stacks** with them — a non-Physique carrier crossing the top-out loses balance **twice**. A fall that leaves the carrier **Wounded** detonates the charge: an uncaught killzone fall (0 counterweight) or a fall from the top.
+
+### Balance
+
+- If active climber loses balance they need to do something to regain it immediately - otherwise they fall.
+
+### Counterweight
+
+- A counterweight point is a body committed to the line by **Take the line**: an ordinary body is **1 point**, a Physique-strong body **2 points**. **Every use spends points** — a spent body drops off the line and must **Take the line** again to count once more:
   - **Hauling** consumes its points (charge **1 per level**, a climber **2 per level**).
   - **Catching a fall** (killzone) consumes **every point on the line** at that moment (see Killzone catch).
-- **Killzone catch.** When a climber falls at the killzone, every counterweight point on the line at that moment goes into the catch: **0 = Wounded**, **1 = Bruised**, **2+ = safe**. All those bodies are spent — they drop off the line and must **Take the line** again.
+
+### Killzone catch
+
+- When a climber falls at the killzone, every counterweight point on the line at that moment goes into the catch: **0 = Wounded**, **1 = Bruised**, **2+ = safe**. All those bodies are spent — they drop off the line and must **Take the line** again.
 
 ## Exits
 

@@ -43,44 +43,44 @@ Facing the steep plug at the ridge gap.
 - **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 - **Cost:** 1 time
 - **Outcome:** The greasy clay gives underfoot; a strong, sure-footed, or deft climber gets up onto the plug.
-- **Gives:** The climber is up past the lower bank.
+- **Changes:** [Climber position](#climber-position) — past the lower bank
 
 ### Force the lower bank
 - **Cost:** 1 time + 1 composure
 - **Outcome:** No strength or footwork for the clay, so the climber grinds up it on nerve alone.
-- **Gives:** The climber is up past the lower bank.
+- **Changes:** [Climber position](#climber-position) — past the lower bank
 
 ### Take the line
 - **Requires:** [rope](../items/rope.md)
 - **Cost:** 1 time
 - **Outcome:** A partner throws their weight on the line, from the foot of the plug or from the crest off the clamp, ready to hold a fall or power a haul.
-- **Gives:** **+1 counterweight point** on the line (a Physique-strong body counts as **+2**).
+- **Changes:** [Counterweight](#counterweight) — +1 point, +2 for a Physique-strong body
 
 ### Traverse the killzone
 - **Requires:** [Physique](../cards/physique.md) OR [Finesse](../cards/finesse.md)
 - **When:** the climber is past the lower bank.
 - **Cost:** 1 time
 - **Outcome:** The traverse looks ready to come apart, every hold shifting loose under the hand, but the rock is seated and holds. The climber crosses it, roped or not.
-- **Gives:** The climber is past the killzone.
+- **Changes:** [Climber position](#climber-position) — past the killzone
 
 ### Force the top-out
 - **When:** The climber is past the killzone.
 - **Cost:** 1 time + 2 composure
 - **Outcome:** The slab overhangs a body-length, smooth and undercut, no holds and nothing above to anchor to. The climber free-solos it anchorless. With the reserve they pull over and top out, leaving the crux bare for anyone who follows. Forcing it without the reserve, they come off the slab: a two-storey fall, nothing to catch them, and they land **Wounded** (attempt spent, back at the foot).
-- **Gives:** The climber tops out (past the top-out); or, without the reserve, the climber is **Wounded** and not up.
+- **Changes:** [Climber position](#climber-position) — topped out, or Wounded and not up without the reserve
 
 ### Drive the clamp
 - **When:** The [clamp and hammer](../items/anchor.md) (from the [PGR farm](../locations/pgr-farm.md)); the climber is past the killzone.
 - **Cost:** 1 time
 - **Outcome:** The climber drives the steel clamp into the soft shale seam under the slab and pulls over on it, topping out clean with no composure tax. The clamp stays in the rock.
-- **Gives:** The climber tops out (past the top-out); World State Change: the crux of the ridge plug is anchored (a clamp is left in the seam; later climbs skip the top pitch).
+- **Changes:** [Climber position](#climber-position) — topped out; [Anchor](#anchor) — the crux is anchored for later climbs
 
 ### Haul a climber one level
 - **Requires:** [rope](../items/rope.md)
 - **When:** The crux is anchored (the clamp is driven); **2 counterweight points** (consumed); the hauled climber is past the lower bank.
 - **Cost:** 1 time
 - **Outcome:** The crew hang their weight on the parallel strand off the clamp and drag a body up one pitch, no one climbing it under load. This is how the reader who must take the reading, a geologist or a handiworker with an improvised level, but cannot climb the killzone reaches the crest.
-- **Gives:** The hauled climber moves up one level (past lower bank → past killzone → past top-out); the 2 points are spent (see Counterweight).
+- **Changes:** [Climber position](#climber-position) — the hauled climber moves up one level; [Counterweight](#counterweight) — 2 points spent
 
 ### Level the foot of the plug with the kit
 - **Requires:** [geologist's kit](../items/geologists-kit.md) AND [Geology](../cards/geology.md)
@@ -108,7 +108,7 @@ Facing the steep plug at the ridge gap.
   1. **Drop the top stone to the foot mark.** Hang the kit's plumb line from the capstone slab at the crest straight down the sheer face to the mark below the climb. The line reads the vertical face directly, fixing the top stone's height above the flood line.
   2. **Level the notch against the top stone.** Level the plug's lowest saddle against the top stone right there at the crest, a short local step. That last figure is the sill's height above the flood line.
   - If the sill stands above the line, rising water cannot top the plug.
-- **Gives:** Item: [Gap Sill Reading](../items/gap-sill-reading.md)
+- **Gives:** [Gap Sill Reading](../items/gap-sill-reading.md)
 
 
 ### Take the reading with the water hose
@@ -120,14 +120,33 @@ Facing the steep plug at the ridge gap.
   1. **Drop the top stone to the foot mark.** Hang the kit's plumb line from the capstone slab at the crest straight down the sheer face to the mark below the climb. The line reads the vertical face directly, fixing the top stone's height above the flood line.
   2. **Level the notch against the top stone.** Level the plug's lowest saddle against the top stone right there at the crest, a short local step. That last figure is the sill's height above the flood line.
   - If the sill stands above the line, rising water cannot top the plug.
-- **Gives:** Item: [Gap Sill Reading](../items/gap-sill-reading.md)
+- **Gives:** [Gap Sill Reading](../items/gap-sill-reading.md)
 
 ## Mechanics
 
-- **The fall.** Off the lower bank, bruises; off the killzone traverse, broken bones; off the top pitch, a bad break. None of it kills. A **Wounded** result blocks Physique and Violence until treated.
-- **The killzone is a fake danger.** The traverse looks like loose rock ready to slide, but the rock is seated and holds: a crossing here never actually falls, whatever the party sets up to catch it. (In the rain the same rock is loose for real and the fall is certain, see [Climb the Plug in the Rain](climb-the-plug-in-the-rain.md).)
-- **Counterweight.** A body committed to the rope by **Take the line** is a counterweight point (a Physique-strong body counts as 2). Every body on the line counts, on the ground or already topped out: the climber who drove the clamp can haul from above, so even a three-hand crew musters enough to raise the reader. The killzone catch never fires here (fake danger, no fall), so points are only ever spent **hauling**: dragging the non-climbing reader up a pitch on the clamp costs **2 points per level**. Same system the rain climb uses, minus the fall.
-- **The top-out.** One lasting fix: drive the clamp into the shale seam (needs the clamp and hammer, carried up on a return trip, so not available on a first blind climb). The choice is to force it free-solo for **2 composure**, or retreat, fetch the clamp, and come back to fix the route clean. Forcing it without the reserve is a fall: **Wounded**.
+### Climber position
+
+- Each climber is at one level: at the foot → past the lower bank → past the killzone → topped out.
+
+### Anchor
+
+- The crux is anchored once the clamp is driven into the shale seam. It stays for later climbs, which skip the top pitch.
+
+### The fall
+
+- Off the lower bank, bruises; off the killzone traverse, broken bones; off the top pitch, a bad break. None of it kills. A **Wounded** result blocks Physique and Violence until treated.
+
+### The killzone is a fake danger
+
+- The traverse looks like loose rock ready to slide, but the rock is seated and holds: a crossing here never actually falls, whatever the party sets up to catch it. (In the rain the same rock is loose for real and the fall is certain, see [Climb the Plug in the Rain](climb-the-plug-in-the-rain.md).)
+
+### Counterweight
+
+- A body committed to the rope by **Take the line** is a counterweight point (a Physique-strong body counts as 2). Every body on the line counts, on the ground or already topped out: the climber who drove the clamp can haul from above, so even a three-hand crew musters enough to raise the reader. The killzone catch never fires here (fake danger, no fall), so points are only ever spent **hauling**: dragging the non-climbing reader up a pitch on the clamp costs **2 points per level**. Same system the rain climb uses, minus the fall.
+
+### The top-out
+
+- One lasting fix: drive the clamp into the shale seam (needs the clamp and hammer, carried up on a return trip, so not available on a first blind climb). The choice is to force it free-solo for **2 composure**, or retreat, fetch the clamp, and come back to fix the route clean. Forcing it without the reserve is a fall: **Wounded**.
 
 ## Exits
 

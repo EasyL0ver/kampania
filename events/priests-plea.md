@@ -33,7 +33,6 @@
 - He is asking about someone specific.
 - He will not say who.
 - He may be asking about himself.
-- **Composure:** 0; restores 1 for a player of faith.
 
 ## Opportunities
 
@@ -48,21 +47,23 @@
 ### Tell him people can be forgiven
 - **When:** The player answers his question toward mercy.
 - **Outcome:** ks. Pająk steadies. Mercy becomes a possible answer to his crisis.
-- **Gives:** NPC State Change: the Grace arc opens; Ending Progress: +2 to the [Faith in Redemption](../story-facts/spiritual-endings.md) score; [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
+- **Gives:** [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
+- **Changes:** [Crisis of Faith](../characters/priest.md#crisis-of-faith) — +2
 
 ### Ask him what he needs
 - **Outcome:** ks. Pająk says the lost must be brought back to God before the water comes, especially those with the most to answer for.
-- **Gives:** NPC State Change: players know the Grace path requires getting the guilty to confess; [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
+- **Gives:** [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
 
 ### Push him to name the sin
 - **When:** The player presses him to say what he knows.
 - **Outcome:** ks. Pająk refuses to betray the confessional and ends the meeting.
-- **Gives:** NPC State Change: his bond with that player cools; Ending Progress: -2 to the [Faith in Redemption](../story-facts/spiritual-endings.md) score
+- **Changes:** [Crisis of Faith](../characters/priest.md#crisis-of-faith) — −2
 
 ### Tell him the valley deserves judgment
 - **When:** The player answers his question toward condemnation.
 - **Outcome:** ks. Pająk leans harder toward judgment.
-- **Gives:** NPC State Change: the Grace path narrows; Ending Progress: -2 to the [Faith in Redemption](../story-facts/spiritual-endings.md) score; [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
+- **Gives:** [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
+- **Changes:** [Crisis of Faith](../characters/priest.md#crisis-of-faith) — −2
 
 ### Share his cigarette
 - **When:** ks. Pająk genuinely trusts the player (mercy supported, or a personal confidence shared in return)

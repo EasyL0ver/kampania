@@ -12,7 +12,7 @@ Janina Gajda, a downtrodden, devout woman who keeps house with her son Edek, sis
 - **Born:** 1912
 - **Age in 1967:** 55
 - **Heritage:** Lemko descent, hidden
-- **Lives in:** [Janina Gajda's house](../locations/ciotkas-house.md) — with [Edek Barnaś](glupek.md)
+- **Lives in:** [Janina Gajda's house](../locations/ciotkas-house/ciotkas-house.md) — with [Edek Barnaś](glupek.md)
 - **Settled:** ~1948, first wave with siblings
 
 ## Character
@@ -54,13 +54,15 @@ At home she moves around Edek with practiced care. In public she makes herself s
 - **Prompted by:** aware:characters/ciotka.md
 - **Cost:** 1 time
 - **Outcome:** She presents her son [Edek](glupek.md) to the committee, then lists herself as mother and [Edward Barnaś](soldier.md) as the father who left the village — a Barnaś, though her own name is Gajda. The house and boy are both presented as hers.
-- **Gives:** Census data — Janina Gajda and [Edek Barnaś](glupek.md); [`edeks-father-left`](../clues/clues.md#edeks-father-left); aware:characters/soldier.md; aware:characters/glupek.md
+- **Gives:** [`edeks-father-left`](../clues/clues.md#edeks-father-left), aware:characters/soldier.md, aware:characters/glupek.md
+- **Changes:** [Census](../items/census.md#census) — Janina Gajda and Edek Barnaś
 
 ### Property assessment
 - **Prompted by:** aware:characters/ciotka.md
 - **Cost:** 1 time
 - **Outcome:** She says the house belongs to her brother, the sołtys, who gave it to her. She claims no deed and no title of her own.
-- **Gives:** Property record — no title in Janina's name; [`ciotka-house-is-wojewodas`](../clues/clues.md#ciotka-house-is-wojewodas)
+- **Gives:** [`ciotka-house-is-wojewodas`](../clues/clues.md#ciotka-house-is-wojewodas)
+- **Changes:** [Property Record](../items/census.md#property-record) — no title in Janina's name
 
 ## Bond
 

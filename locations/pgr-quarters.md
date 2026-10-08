@@ -26,12 +26,3 @@ Behind the PGR main building: the stołówka and barracks.
 - **Kitchen work** `(noticed by: [Empathy](../cards/empathy.md))` — Zofia speaks while cooking and keeps her hands busy.
 
 ## Actions
-
-### Eat and listen
-- **Outcome:** The committee eats with workers and hears current village talk based on game state.
-- **Gives:** NPC State Change: Zofia Pytlak and farm workers become more willing to speak during future meals.
-
-### Help in the kitchen
-- **Cost:** 1 time
-- **Outcome:** The committee peels potatoes, hauls water, or chops wood with Zofia.
-- **Gives:** NPC State Change: Zofia Pytlak and farm workers see the committee as useful rather than only official.

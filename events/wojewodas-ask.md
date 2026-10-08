@@ -6,7 +6,7 @@
 
 ## Trigger
 
-- The players complete [Tell Wojewoda about the flood risk](../events/arrival.md#tell-wojewoda-about-the-flood-risk) or otherwise make Zbigniew believe the flood is possible.
+- The players complete [Tell Wojewoda about the flood risk](../events/arrival/in-the-office.md#tell-wojewoda-about-the-flood-risk) or otherwise make Zbigniew believe the flood is possible.
 - Zbigniew learns the committee is recording property values for compensation.
 - He asks to speak with the players alone.
 
@@ -50,7 +50,7 @@ Zbigniew Gajda closing the PGR office door to speak with the committee privately
 - **Prompted by:** [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs)
 - **Cost:** 1 time
 - **Outcome:** Zbigniew shows the 1954 file with [Edward Barnaś's forged declaration](../items/barnas-departure-declaration.md), but does not hand it over.
-- **Gives:** Item / Evidence: the players have seen the declaration and where it is kept
+- **Gives:** aware:items/barnas-departure-declaration.md
 
 ## Exits
 

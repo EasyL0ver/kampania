@@ -1,7 +1,7 @@
 # Bayonet
 
 **Type:** Item — weapon (keepsake, hidden)
-**Source:** Hidden among Edek's things, found by [searching Edek's room](../locations/ciotkas-house.md#search-edeks-room)
+**Source:** Hidden among Edek's things, found by [searching Edek's room](../locations/ciotkas-house/ciotkas-house.md#search-edeks-room)
 **Carried:** Evidence. Wartime German army kit in [Edek](../characters/glupek.md)'s keeping, impossible from his father's Polish KBW gear.
 
 ## Hook

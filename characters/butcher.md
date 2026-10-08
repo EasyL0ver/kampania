@@ -47,12 +47,12 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** He gives his name and age, then turns questions back on the interviewer with a grin.
-- **Gives:** Census data — Stanisław Rezeń, name and age only; remaining fields blank.
+- **Changes:** [Census](../items/census.md#census) — Stanisław Rezeń, name and age only, remaining fields blank
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** He refuses assessment and tells the committee to mind the dogs. If pushed, the dogs stand up.
-- **Gives:** Property record — refusal logged; property remains unassessed.
+- **Changes:** [Property Record](../items/census.md#property-record) — refusal logged, property remains unassessed
 
 ### Offer him a Carmen
 - **When:** Rezeń present; a Carmen to offer (the [store](../locations/the-store.md#buy-cigarettes) stocks them)
@@ -72,7 +72,7 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)
 
 ### Ask about the Carmen cigarette
-- **When:** Players have the [butts](../items/cigarette-butts-from-ciotkas.md) or the [cigarette from Edek's room](../locations/ciotkas-house.md#search-edeks-room)
+- **When:** Players have the [butts](../items/cigarette-butts-from-ciotkas.md) or the [cigarette from Edek's room](../locations/ciotkas-house/ciotkas-house.md#search-edeks-room)
 - **Cost:** 1 time
 - **Outcome:** No dodge, no worry. He shrugs and admits he gave the boy one, a boy has got to learn. He talks about Edek warmly, like a nephew, and never once notices anything wrong with the fondness. He does not care that it places him near the door.
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)

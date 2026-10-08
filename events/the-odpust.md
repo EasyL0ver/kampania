@@ -33,7 +33,6 @@
 - He offers general absolution to the congregation.
 - If [Rezeń](../characters/butcher.md) lives, he attends despite skipping earlier Masses.
 - If the players stirred the Lemko rite but did not finish [Rest](the-ritual.md), [Stefania Kopacz](../characters/babcia.md) stands and pleads against washing killers clean while the dead in the well remain unnamed.
-- **Composure:** 2
 
 ## Opportunities
 
@@ -47,29 +46,20 @@
 
 ### Receive the odpust
 - **Outcome:** ks. Pająk grants general absolution to the congregation as the water rises.
-- **Gives:** Ending Progress: the Grace ending fires; World State Change: [Rest](the-ritual.md) is foreclosed
-
-### Bring a specific guilty soul to the rail
-- **When:** A guilty NPC is present and reachable.
-- **Cost:** 1 time
-- **Outcome:** The named soul is walked forward, made to kneel, and receives absolution with guilt spoken and answered.
-- **Gives:** NPC State Change: the named guilty soul dies shriven and at peace
+- **Changes:** [Grace](../characters/priest.md#grace) — true; [Rest](../characters/hag.md#rest) — can no longer become true
 
 ### Answer Babcia's plea by stopping
 - **When:** [Stefania Kopacz](../characters/babcia.md) is present and the players choose not to proceed past her plea.
 - **Cost:** 1 time
 - **Outcome:** The players refuse to let the odpust be the final answer while the well dead remain unnamed.
-- **Gives:** Ending Progress: Grace is interrupted; Scene Unlock: [The Ritual](the-ritual.md)
+- **Gives:** aware:events/the-ritual.md
+- **Changes:** [Interrupted](#interrupted) — Babcia's plea stops the odpust
 
-### Proceed past Babcia's plea
-- **When:** [Stefania Kopacz](../characters/babcia.md) is present and the players continue the odpust.
-- **Outcome:** The odpust proceeds over Babcia's objection.
-- **Gives:** World State Change: the Lemko dead turn vengeful; Ending Progress: see [spiritual-endings.md](../story-facts/spiritual-endings.md)
+## Mechanics
 
-### Refuse it and walk out
-- **When:** A player wants the guilty exposed, not forgiven.
-- **Outcome:** That player refuses absolution and leaves the church; ks. Pająk continues the rite for the congregation.
-- **Gives:** World State Change: the odpust proceeds without that player
+### Interrupted
+
+- A flag, true or false. Starts false. True when the odpust is stopped before it is granted: [Grace](../characters/priest.md#grace) can no longer become true.
 
 ## Exits
 

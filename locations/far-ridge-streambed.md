@@ -19,8 +19,8 @@
 - The markers are old and half-buried; finding them takes searching.
 - The col commands the whole valley: from here you look straight down on %NEW_VILLAGE%, across to the %OLD_VILLAGE% ruins, and over the ground the reservoir will drown. It is the natural place to watch the valley from, and men have.
 - Just below the col, under gorse and slid earth, a collapsed dugout with a firing slot faces the valley floor; rusted metal and a rotted timber lip still show. Partisans held this line in the war years.
-- Only if the party turned up the hut on the benchmark search ([abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed)): an abandoned shepherd's koliba stands hidden in the gorse higher on the slope, its low doorway still up, a weathered ram's skull fixed over the lintel and marks cut into the frame, facing out. Parties who have not found it do not see it and get no koliba description.
-- Getting the streambed's elevations plays out as one of two competing scenes: [Surveying the Streambed](../events/surveying-the-streambed.md) (fast, needs a geologist and most of a day) or [Search for the Benchmarks](../events/search-for-the-benchmarks.md) (no geologist, but 8 cards of combing, halved to 4 with Survival). Either yields the [Streambed Parameters](../items/streambed-parameters.md).
+- Only if the party turned up the hut on the benchmark search: an abandoned shepherd's koliba stands hidden in the gorse higher on the slope, its low doorway still up, a weathered ram's skull fixed over the lintel and marks cut into the frame, facing out. Parties who have not found it do not see it and get no koliba description.
+- Getting the streambed's elevations plays out as one of two competing scenes: [Surveying the Streambed](../events/surveying-the-streambed.md) or [Search for the Benchmarks](../events/search-for-the-benchmarks.md). Either yields the [Streambed Parameters](../items/streambed-parameters.md).
 
 ## Opportunities
 
@@ -50,11 +50,11 @@
 - **Requires:** [Geology](../cards/geology.md) AND [geologist's kit](../items/geologists-kit.md)
 - **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
 - **Outcome:** The party commits to shooting the col's elevation themselves. Opens [Surveying the Streambed](../events/surveying-the-streambed.md).
-- **Gives:** Scene Unlock: [Surveying the Streambed](../events/surveying-the-streambed.md)
+- **Gives:** aware:events/surveying-the-streambed.md
 
 ### Start a search
 - **Prompted by:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
 - **Outcome:** The party commits to hunting the dam crews' benchmark markers. Opens [Search for the Benchmarks](../events/search-for-the-benchmarks.md).
-- **Gives:** Scene Unlock: [Search for the Benchmarks](../events/search-for-the-benchmarks.md)
+- **Gives:** aware:events/search-for-the-benchmarks.md
 
 <!-- Interpreting the streambed figures into streambed-dead-ends is done off-site: phone prof. Bieńkowski ("Certify the streambed"), read them as a surveyor with the geologist's kit, or show Michał Pytlak. -->

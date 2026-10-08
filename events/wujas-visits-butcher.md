@@ -42,7 +42,7 @@
 - **Prompted by:** [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt)
 - **Cost:** 1 time
 - **Outcome:** Tadek carries Zbigniew's real request to Rezeń: deal with the wolves. Rezeń treats the request as a call back into the village.
-- **Gives:** [`rezen-hunts-wolves`](../clues/clues.md#rezen-hunts-wolves); World State Change: the containment arrangement ends
+- **Gives:** [`rezen-hunts-wolves`](../clues/clues.md#rezen-hunts-wolves)
 
 ## Exits
 

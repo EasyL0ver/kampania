@@ -26,6 +26,12 @@
      over directly. Note any parts gated behind a skill (e.g. Language for
      Ukrainian, Culture for ritual meaning) beneath the text. -->
 
+## Mechanics
+
+<!-- Optional. Only for items that carry state other entries change: a register that
+     fills up, a device with charges, a record that can be falsified. Use H3
+     sub-sections; Changes lines elsewhere link to them. Omit if not applicable. -->
+
 ## Opportunities
 
 <!-- Optional. Free, no action cost. Skill-gated impressions, seeds, or atmosphere

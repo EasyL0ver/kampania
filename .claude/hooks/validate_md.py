@@ -15,6 +15,7 @@ REPO = Path(__file__).resolve().parents[2]
 
 
 def main() -> int:
+    sys.stderr.reconfigure(encoding="utf-8")
     try:
         data = json.load(sys.stdin)
     except json.JSONDecodeError:

@@ -43,6 +43,10 @@ People remembered her as clever before they remembered her as kind. Around Edek 
 
 ## Mechanics
 
+### Evacuate
+
+- A flag, true or false. Starts false. True when she relays the rescue call and the valley is evacuated. The **Evacuate** ending.
+
 ### Identity
 
 - She works the manual switchboard at the nearest town's exchange, in the back of a post office, under another name. Nobody in the valley knows she is Hania.

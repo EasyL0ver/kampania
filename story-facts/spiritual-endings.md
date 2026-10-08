@@ -41,29 +41,7 @@ He alone reads the flood as **literal divine judgment** — God drowning a valle
 
 ### The mechanic: "Faith in Redemption" score
 
-Tracked like [Dudka's Lynch Targets](../characters/neighbour.md#lynch-targets). GM tracks one score. If it clears the threshold by the **Day-7 Mass**, the priest grants the odpust.
-
-**Starting score: 0** (faith in crisis). **Threshold: +8.** *(Starting values — tune in play.)*
-
-| Act | Change |
-|---|---|
-| Tadek Gajda confesses (the penitent — easiest) | +4 |
-| Emil Rzepka confesses (the forgery, his 13 years of guilt) | +2 |
-| Zbigniew Gajda confesses (hard — guiltless hubris) | +4 |
-| Helena Rzepka confesses (brutal — the architect, contrite but silent) | +5 |
-| Stanisław Rezeń confesses (near-impossible — the void) | +5 |
-| Players talk the priest through his crisis / back his faith | +2 |
-| Players broker or escort a confessor to him | +1 each |
-| Players honour Ciotka's funeral | +1 |
-| Players care for the dying / cure Pawełek / shield Edek | +1 each |
-| Players donate real money to the parish (lose the Loaded card) | +2 |
-| Players push the priest to break the seal / weaponise confession | −2 |
-| A guilty one dies unconfessed (e.g. Tadek's suicide) | −2 |
-| Players expose the guilty publicly with no mercy (feeds judgment) | −2 |
-| Each step of the Lemko rite stirred (hag woken, dead named) | −3 |
-| **Rest actually fires** | **hard block — no odpust at any score** |
-
-No single confessor is required — the threshold is elastic and reachable many ways (two hard confessions; or one plus village mercy; etc.). Progress toward Rest drags the score down; completing Rest forecloses Grace outright.
+Lives with the priest: whether he stays faithful is his crisis. See [Crisis of Faith](../characters/priest.md#crisis-of-faith) for the score, the threshold and the table of acts that move it.
 
 ### Note on the confessors
 

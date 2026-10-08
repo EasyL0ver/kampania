@@ -11,7 +11,7 @@ Marta Konieczna, the woman who lived with [Edward Barnaś](soldier.md); gone wit
 - **Status:** Dead
 - **Born:** ~1915
 - **Died:** 1954 — killed in the lynch, aged ~39
-- **Lived in:** [Edward Barnaś's house](../locations/ciotkas-house.md) in %NEW_VILLAGE% — now [Janina Gajda](ciotka.md)'s
+- **Lived in:** [Edward Barnaś's house](../locations/ciotkas-house/ciotkas-house.md) in %NEW_VILLAGE% — now [Janina Gajda](ciotka.md)'s
 - **Family:** Unmarried partner of [Edward Barnaś](soldier.md); mother of [Hania Barnaś](jagna.md) and [Edek Barnaś](glupek.md)
 - **Records:** Appears in the [PGR expense journal](../items/pgr-expenses.md) under her own surname — the only place her full name is written down
 

@@ -25,9 +25,13 @@ A slightly older village child who plays with Pawełek Kopacz before the illness
 - **Hair & face:** Not specified.
 - **Carriage:** Not specified.
 
+## Opportunities
+
+- **Which mushrooms** `(when: asked about their last day)` `(noticed by: [Survival](../../cards/survival.md))` — pressed on which kind, it is clear the boys know their mushrooms: ordinary edible ones, and Staszek ate the same and stayed well. → Gives: [pawelek-mushrooms-were-harmless](../../clues/clues.md#pawelek-mushrooms-were-harmless)
+
 ## Actions
 
 ### Ask Staszek about their last day
 - **Cost:** 1 time
-- **Outcome:** He tells you they went into the woods and ate mushrooms they picked. `(requires: Survival)` Press him on which kind and it is clear the boys know their mushrooms: they picked ordinary edible ones, and Staszek ate the same and stayed well.
-- **Gives:** [pawelek-ate-mushrooms-in-the-forest](../../clues/clues.md#pawelek-ate-mushrooms-in-the-forest); `(requires: Survival)` [pawelek-mushrooms-were-harmless](../../clues/clues.md#pawelek-mushrooms-were-harmless)
+- **Outcome:** He tells you they went into the woods and ate mushrooms they picked.
+- **Gives:** [pawelek-ate-mushrooms-in-the-forest](../../clues/clues.md#pawelek-ate-mushrooms-in-the-forest)

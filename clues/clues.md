@@ -395,9 +395,6 @@ Lemko prayers for the dead are sung out in the forest at night, carried on the w
 ### ciotka-hurt-before-death
 [Janina Gajda](../characters/ciotka.md) was gripped hard by a large, strong hand shortly before she died. A fresh bruise rings her wrist, made while she was still alive. The grip did not kill her, but someone laid hands on her in her last hours.
 
-### committee-disturbed-the-dead
-The committee stripped [Janina Gajda](../characters/ciotka.md)'s body and handled her crudely over [ks. Władysław Pająk](../characters/priest.md)'s objection.
-
 ### ciotka-house-wrecked
 One corner of [Janina Gajda](../characters/ciotka.md)'s otherwise obsessively ordered house is smashed: furniture toppled, a shelf torn down, crockery broken across the floor, and a mirror shattered in the corridor. It reads like a violent struggle.
 
@@ -554,6 +551,9 @@ The blue dress kept in [Janina Gajda](../characters/ciotka.md)'s house belonged 
 
 ### childs-rattle-in-ciotkas-house
 A small child's rattle is kept in [Janina Gajda](../characters/ciotka.md)'s house. A baby lived here once.
+
+### lemko-bell-from-the-cerkiew
+The brass bell from Janina's attic is the missing fitting of the %OLD_VILLAGE% cerkiew.
 
 ### lemko-bell-in-ciotkas-house
 A small brass Greek Catholic liturgical bell with Cyrillic lettering is hidden in [Janina Gajda](../characters/ciotka.md)'s house. An Eastern-rite object, out of place in a Roman Catholic home.
@@ -769,9 +769,6 @@ The flood is not a future worry but an immediate one. The water is rising fast a
 ### officer-warning
 [por. Witold Skowron](../characters/officer.md) warns on the drive in: not everything needs to be written down.
 
-### phone-is-lifeline
-The players can call [Professor](../characters/professor.md) by phone. If they tell him about the massacre, the truth exists outside the village.
-
 ### government-committee
 The player characters are a state committee sent to %NEW_VILLAGE% ahead of the reservoir, tasked with a census, a property assessment for flood damage, and a geographical survey of the valley. It is the frame the whole visit hangs on: the reason outsiders can measure land, enter homes, and ask questions at all.
 
@@ -894,18 +891,6 @@ The crew guards the still because it is what carries them through the winter, no
 
 ### store-has-drug-cabinet
 [Helena Rzepka](../characters/matrona.md)'s [store](../locations/the-store.md) has a locked pharmaceutical cabinet — a *szafka apteczna*, standard PRL distribution point. Helena holds the only key. [Halina](../characters/secondary/halina-zajac.md) can't open it.
-
-### somebody-broke-into-store
-Someone got into the pharmaceutical cabinet in [Helena Rzepka](../characters/matrona.md)'s [store](../locations/the-store.md) and robbed it.
-
-### somebody-stole-penicillin
-The penicillin is gone from the cabinet in [Helena Rzepka](../characters/matrona.md)'s [store](../locations/the-store.md).
-
-### somebody-stole-money
-Money is gone from the till in [Helena Rzepka](../characters/matrona.md)'s [store](../locations/the-store.md).
-
-### committee-stole-penicillin
-[Helena Rzepka](../characters/matrona.md) is convinced the committee stole the penicillin from her store.
 
 ### pawelek-burns-with-fever
 Pawełek is gripped by a sudden high fever, burning hot and shaking with chills.

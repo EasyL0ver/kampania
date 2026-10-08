@@ -34,7 +34,6 @@
 - He grieves [Janina Gajda](../characters/ciotka.md) as the source of years of confession.
 - He does not name [Helena Rzepka](../characters/matrona.md).
 - His account reaches from the 1954 lynch back to the old village and the state cover-up.
-- **Composure:** 2.
 
 ## Opportunities
 
@@ -47,20 +46,17 @@
 
 ## Actions
 
-### Let him finish
-- **Outcome:** He names the full lynch account and the shape of 1947 beneath it in front of the surviving village.
-- **Gives:** World State Change: the guilty drown unabsolved and [The Odpust](the-odpust.md) is foreclosed
-
-### Carry the testimony out
-- **When:** A player present survives the flood and has the [ledgers](../story-facts/the-committee.md) or another way to file
-- **Outcome:** The player carries the public testimony into [the report](../story-facts/the-committee.md).
-- **Gives:** World State Change: the report is armed with the full account and the property ledger's field 3 is corroborated
-
 ### Stop him
 - **When:** A player physically silences him
 - **Cost:** 1 composure
 - **Outcome:** The priest stops before the full account is spoken, but whatever names he already said remain public.
-- **Gives:** NPC State Change: remaining guilty villagers owe the player and honest villagers turn cold; World State Change: partial public testimony exists
+- **Changes:** [The seal break](#the-seal-break) — TBD
+
+## Mechanics
+
+### The seal break
+
+- TBD.
 
 ## Exits
 

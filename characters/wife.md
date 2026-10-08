@@ -61,17 +61,18 @@ After [Irena Confronts the Wojewoda](../events/irena-confronts-wojewoda.md), she
 - **When:** Phase 1 before she pivots; a 1954 clue she does not already hold
 - **Cost:** 1 time
 - **Outcome:** She waits for a real fact before she gives one back. Once the players put a useful clue on the table, she trades one for one.
-- **Gives:** NPC State Change: Irena becomes a wary rival who will trade; one clue she can spare, GM's choice — e.g. [`jagna-painter-affair`](../clues/clues.md#jagna-painter-affair) or [`ciotka-lives-in-soldiers-house`](../clues/clues.md#ciotka-lives-in-soldiers-house)
+- **Gives:** [jagna-painter-affair](../clues/clues.md#jagna-painter-affair), [ciotka-lives-in-soldiers-house](../clues/clues.md#ciotka-lives-in-soldiers-house)
+- **Changes:** [Two Phases](#two-phases) — TBD
 
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** She gives precise household details: names, ages, employment, no wasted words.
-- **Gives:** Census data — Zbigniew, Irena, Marek Gajda.
+- **Changes:** [Census](../items/census.md#census) — Zbigniew, Irena, Marek Gajda
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** She says the house is her husband's and the papers are in order.
-- **Gives:** Property record — [Zbigniew's house](../locations/wojewodas-house.md); NPC State Change: Irena grows watchful of the committee unless the flood is openly disclosed.
+- **Changes:** [Property Record](../items/census.md#property-record) — Zbigniew's house; [Two Phases](#two-phases) — TBD
 
 ## Bond
 

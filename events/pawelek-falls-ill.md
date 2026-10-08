@@ -28,7 +28,6 @@
 - Stefania has rearranged icons, candles, bread, and water around the bed in a non-Roman Catholic pattern.
 - The mirrors are covered.
 - Ryszard Dudka arrives within the hour with firewood, clean water, and a blanket.
-- Composure cost is 1 for witnessing a sick child with no immediate outside help.
 
 ## Opportunities
 
@@ -40,6 +39,11 @@
 - **The mark of poison** `(when: Violence and Pawełek at 3 HP or lower)` `(prompted by: aware:events/pawelek-falls-ill.md)` — you have seen what the yellow rat poison does to a body; the boy's signs could be phosphorus, and that would mean a hand behind it. → Gives: [`pawelek-phosphorus-poison`](../clues/clues.md#pawelek-phosphorus-poison)
 - **The signs on the child** `(noticed by: [Superstitious](../cards/superstitious.md))` `(prompted by: aware:events/pawelek-falls-ill.md)` — he raves of a lady and round stones, and he alone sickens while everyone else is spared. To you the meaning is plain: this is the well's work, not a fever. → Gives: [`pawelek-was-possessed`](../clues/clues.md#pawelek-was-possessed)
 - **His muttering** `(prompted by: aware:events/pawelek-falls-ill.md)` — sit close and listen through the fever. He cries for a lady from the woods who gave him bread and told him not to drink, then trails off into sounds that make no sense. → Gives: aware:characters/hag.md
+- **Screams when moved** `(when: examined, [Health Points](../characters/pawelek.md#health-points) at 5 or lower)` — once the muscle pain has set in he screams when his legs and back are moved. → Gives: [pawelek-in-muscle-pain](../clues/clues.md#pawelek-in-muscle-pain)
+- **Just a fever, to a doctor** `(when: examined, [Health Points](../characters/pawelek.md#health-points) at 6 or 5)` `(noticed by: [Medicine](../cards/medicine.md))` — it reads like the common fever going round. → Gives: [pawelek-looks-like-common-fever](../clues/clues.md#pawelek-looks-like-common-fever)
+- **The fever is not passing, to a doctor** `(when: examined, [Health Points](../characters/pawelek.md#health-points) at 4)` `(noticed by: [Medicine](../cards/medicine.md))` — a common fever would have broken by now. → Gives: [pawelek-fever-not-passing](../clues/clues.md#pawelek-fever-not-passing)
+- **No common sickness, to a doctor** `(when: examined, [Health Points](../characters/pawelek.md#health-points) at 3 or lower)` `(noticed by: [Medicine](../cards/medicine.md))` — with him yellowing, this is no common sickness. → Gives: [pawelek-not-common-sickness](../clues/clues.md#pawelek-not-common-sickness)
+- **Dark urine** `(when: [Condition](../characters/pawelek.md#condition) is tended, [Health Points](../characters/pawelek.md#health-points) at 2 or lower)` — he passes little urine, dark as strong tea. → Gives: [pawelek-passes-dark-urine](../clues/clues.md#pawelek-passes-dark-urine)
 
 ## Actions
 
@@ -48,28 +52,28 @@
 - **Prompted by:** aware:events/pawelek-falls-ill.md
 - **Cost:** 1 time
 - **Outcome:** His skin is burning hot, and once the muscle pain has set in he screams when you move his legs and back. What you learn depends on how far gone he is. A medic examining him once he is yellowing reads that this is no common sickness.
-- **Gives:** [`pawelek-burns-with-fever`](../clues/clues.md#pawelek-burns-with-fever) at 6 HP or lower; [`pawelek-in-muscle-pain`](../clues/clues.md#pawelek-in-muscle-pain) at 5 HP or lower; `(requires: Medicine)` [`pawelek-looks-like-common-fever`](../clues/clues.md#pawelek-looks-like-common-fever) at 6-5 HP, [`pawelek-fever-not-passing`](../clues/clues.md#pawelek-fever-not-passing) at 4 HP, [`pawelek-not-common-sickness`](../clues/clues.md#pawelek-not-common-sickness) at 3 HP or lower
+- **Gives:** [pawelek-burns-with-fever](../clues/clues.md#pawelek-burns-with-fever)
 
 ### Tend to him
 - **When:** Medicine, or helping Barbara nurse him
 - **Prompted by:** aware:events/pawelek-falls-ill.md
 - **Cost:** 1 time
 - **Outcome:** Cool cloths, water, keeping him still. Nothing you do slows the fever; he keeps sinking on the clock all the same. At 2 HP or lower you see he passes little urine, dark as strong tea.
-- **Gives:** [`pawelek-passes-dark-urine`](../clues/clues.md#pawelek-passes-dark-urine) (only at 2 HP or lower)
+- **Changes:** [Condition](../characters/pawelek.md#condition) — tended, no HP lost this phase
 
 ### Perform a cleansing ritual
 - **Requires:** [Superstitious](../cards/superstitious.md)
 - **Prompted by:** [`pawelek-needs-a-cleansing-ritual`](../clues/clues.md#pawelek-needs-a-cleansing-ritual)
 - **Cost:** 1 time
 - **Outcome:** You work the old warding rite over the boy. It does nothing for his fever. But Stefania, silent in her chair, watches, then corrects your hands and your words and takes up the prayer herself. She knows this rite far better than you do.
-- **Gives:** [`babcia-is-lemko`](../clues/clues.md#babcia-is-lemko); [`babcia-has-the-words`](../clues/clues.md#babcia-has-the-words)
+- **Gives:** [`babcia-is-lemko`](../clues/clues.md#babcia-is-lemko), [`babcia-has-the-words`](../clues/clues.md#babcia-has-the-words)
 
 ### Give Pawełek the penicillin
 - **Requires:** [penicillin](../items/penicillin.md)
 - **Prompted by:** [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin)
 - **Cost:** 1 time
 - **Outcome:** You give the boy the penicillin at a child's dose. The fever breaks. His HP loss stops for good and he begins to recover.
-- **Gives:** World State Change: Pawełek is cured.
+- **Changes:** [Health Points](../characters/pawelek.md#health-points) — drain stops, +1 HP per phase
 
 ## Mechanics
 

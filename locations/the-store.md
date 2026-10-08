@@ -43,39 +43,41 @@ Helena Rzepka's general store.
 
 ### Buy cigarettes
 - **Outcome:** Halina sells a pack across the counter: cheap [Sport](../clues/clues.md#tadek-smokes-cheapest) off the shelf, or premium [Carmen](../items/cigarette-butts-from-ciotkas.md) if you ask. A pack lasts one day; keeping one on you is [Chainsmoker](../story-facts/game-system.md#the-cards) upkeep.
-- **Gives:** Item / Evidence: a pack of Sport or Carmen (one day's supply).
+- **Gives:** [Pack of Cigarettes](../items/pack-of-cigarettes.md)
 
 ### Buy rope
 - **Outcome:** Halina sells a coil of field line off the shelf, mixed lengths knotted serviceable, long enough for the ridge climb.
-- **Gives:** Item: a [rope](../items/rope.md).
+- **Gives:** [rope](../items/rope.md)
 
 ### Ask who smokes Carmen
 - **Requires:** [Carmen Cigarette Butts](../items/cigarette-butts-from-ciotkas.md) AND ([Speech](../cards/speech.md) OR [Finesse](../cards/finesse.md))
 - **Prompted by:** [butts-at-ciotkas-are-carmen](../clues/clues.md#butts-at-ciotkas-are-carmen)
 - **Cost:** 1 time
 - **Outcome:** Nobody in the village wastes money on Carmen except two men: the Gajda boy [Marek](../characters/junior.md), who buys what marks him as above the place, and the butcher [Stanisław Rezeń](../characters/butcher.md), who buys what he pleases. The brand narrows the door to the pair of them, and clears no one.
-- **Gives:** [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen); [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen)
+- **Gives:** [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen), [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen)
 
 ### Force the cabinet
 - **Requires:** [Physique](../cards/physique.md)
 - **Prompted by:** [store-has-drug-cabinet](../clues/clues.md#store-has-drug-cabinet)
 - **Cost:** 1 time
 - **Outcome:** You bash the little door until the lock tears out of the wood and take the child's course of penicillin. Quick and loud, and the splintered frame shows at a glance that someone forced it.
-- **Gives:** Item: penicillin (a child's course); NPC Learns: helena: [somebody-broke-into-store](../clues/clues.md#somebody-broke-into-store); NPC Learns: helena: [somebody-stole-penicillin](../clues/clues.md#somebody-stole-penicillin); World State Change: the cabinet has been robbed.
+- **Gives:** [Penicillin](../items/penicillin.md)
+- **Changes:** [Robbery suspect](../characters/matrona.md#robbery-suspect) — the penicillin is missing
 
 ### Unlock the cabinet
 - **Requires:** [Store cabinet key](../items/store-cabinet-key.md)
 - **Prompted by:** [store-has-drug-cabinet](../clues/clues.md#store-has-drug-cabinet)
 - **Cost:** 1 time
 - **Outcome:** Helena's own key opens the cabinet clean. You take the child's course and lock up after you, but the missing stock will not go unnoticed for long.
-- **Gives:** Item: penicillin (a child's course); NPC Learns: helena: [somebody-stole-penicillin](../clues/clues.md#somebody-stole-penicillin); World State Change: the cabinet has been robbed.
+- **Gives:** [Penicillin](../items/penicillin.md)
+- **Changes:** [Robbery suspect](../characters/matrona.md#robbery-suspect) — the penicillin is missing
 
 ### Smash the register open
 - **Requires:** [Physique](../cards/physique.md)
 - **When:** mid break-in, the store already open to you
 - **Cost:** 1 time
 - **Outcome:** You pry the cash drawer until it springs. There is not much inside, a day's small takings, but it is gone now, and an emptied till reads as a plain robbery rather than a hand reaching for one thing.
-- **Gives:** Item: the till cash; NPC Learns: helena: [somebody-stole-money](../clues/clues.md#somebody-stole-money)
+- **Changes:** [Robbery suspect](../characters/matrona.md#robbery-suspect) — money is missing too, she suspects no one
 
 <!-- If bonded with Halina, [Ask who smokes what](../characters/secondary/halina-zajac.md#ask-who-smokes-what) is her counter action — she knows every villager's brand. -->
 

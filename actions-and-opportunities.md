@@ -95,7 +95,8 @@ Actions are **what players do when they declare intent.** Every action produces 
 - **Prompted by:** [Clue links and/or aware:<kind>/<file>.md tokens, separated by ", ". Soft breadcrumb, not a gate. Omit only if nothing points the way (validator warns).]
 - **Cost:** [N time + N composure + [Item](../items/file.md) — any combination; omit the line entirely when free]
 - **Outcome:** [What happens — one flat result for anyone who clears Requires. No skill branches.]
-- **Gives:** [`clue-id`](../clues/clues.md#clue-id) | NPC State Change: [description] | Item: [description] | Scene Unlock: [scene file] | World State Change: [description] | Ending Progress: [which ending]
+- **Gives:** [Clue links, aware: tokens, item and card links — what the player now holds, separated by ", "]
+- **Changes:** [World/NPC state, NPC Learns, records, progress — free text, separated by "; "]
 ```
 
 A skill that would reveal more is **not** an Outcome branch — it is a separate **opportunity** gated by that action plus the skill:
@@ -120,18 +121,13 @@ An action costs time when it eats a meaningful chunk of the character's day — 
 
 ### Rules
 
-1. **Every action must have a `Gives:` line.** This is mandatory. No exceptions.
-2. **Valid outcomes** (from game-system.md):
-   - **Clue** — an atomic fact from `clues/clues.md`. Link it.
-   - **NPC State Change** — an NPC's attitude, willingness, or availability shifts. Name the NPC and the change.
-   - **Item** — players obtain something tangible (maps, gun, bottle, documents).
-   - **Scene Unlock** — a new scene becomes available. Link it.
-   - **World State Change** — the village itself changes (Rezeń is loose, the crew knows you're snooping, etc.)
-   - **Ending Progress** — advances one of the ending chains.
-3. **Multiple outcomes are fine.** An action can give a clue AND change NPC state AND unlock a scene. List them all.
+1. **Every action has a `Gives:` line, a `Changes:` line, or both.**
+2. **Gives is what the player now holds** — a `, `-separated list of clue links, `aware:<kind>/<file>.md` tokens, item links and card links. Nothing else. A new scene or place becomes reachable by giving its `aware:` token. Checked by `python validate.py` (rule `gives-format`).
+   **Changes is what the action changes in the world** — NPC state, world state, an NPC learning a clue (`NPC Learns:` then the npc and the clue link), census and property records, event progress, ending progress. Each entry is a link plus ` — short comment`, the link pointing at a heading in a `## Mechanics` section; or a bare link to a bond check's anchor in `## Bond`, with no comment, meaning that check is met; entries are `;`-separated. It is the other side of `When:` (one action's Changes is what another action's When checks).
+3. **Multiple outcomes are fine.** An action can give a clue and an item AND change NPC state. List them all.
 4. **"Nothing" is not a valid outcome for documented actions.** If you're writing an action into a scene file, it must give something — otherwise don't document it.
    - **Undocumented actions exist.** Players will attempt things not written in any scene file. We don't write dead-end entries into scene files — the GM charges the time at the table. See [Charging Dead Ends](#charging-dead-ends).
-5. **No "Leads to:" or "Result:".** The field is always `Gives:`. The verb is always definitive.
+5. **No "Leads to:" or "Result:".** The fields are always `Gives:` and `Changes:`. The verb is always definitive.
 6. **Requires is only ever cards the player holds** — a skill card (`cards/`) or an item (`items/`), as links. Combine them with `AND`, `OR` (uppercase) and parentheses; `AND` binds tighter than `OR`. Nothing else may appear: no clues, NPC states, presence, bonds or prose. A clue that points the way is `Prompted by:`. When nothing is required, omit the line. Checked by `python validate.py` (rule `requires-format`).
 
    ```
@@ -150,6 +146,7 @@ An action costs time when it eats a meaningful chunk of the character's day — 
    - `N time` — time cards spent (e.g. `1 time`, `2 time`)
    - `N composure` — composure spent (e.g. `1 composure`)
    - an item link — the item is used up or handed over; the item must have its own `items/` file
+   - a card link — the player gives the card up for good (e.g. the Loaded card)
    - a card link — the player gives the card up for good (e.g. the Loaded card)
 
    ```
@@ -264,7 +261,7 @@ Before committing a scene file, verify:
 - [ ] Headers technical — Location a link, Present names+terse conditions only, Available a terse trigger
 - [ ] Dialogue only where the exact words are the mechanical content (else cut, keep the fact)
 - [ ] Every Opportunity has either `→ Gives: [clue-id]` or no gives line (atmosphere only)
-- [ ] Every Action has a `Gives:` line with a valid outcome type
+- [ ] Every Action has `Gives:` (holdables only) and/or `Changes:` (state)
 - [ ] Every Cost is `N time` / `N composure` / an item link joined by ` + `; free actions have no Cost line
 - [ ] `python validate.py` reports 0 errors
 - [ ] No action produces "nothing" — if it would, cut it or find the real outcome

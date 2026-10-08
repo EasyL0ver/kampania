@@ -11,7 +11,7 @@
 - **Status:** Dead
 - **Born:** 1910
 - **Died:** 1954 (age 44)
-- **Lived in:** [Janina Gajda's house](../locations/ciotkas-house.md) — now [Janina Gajda](ciotka.md)'s; settled ~1948, knew the terrain from KBW service and claimed the best land early
+- **Lived in:** [Janina Gajda's house](../locations/ciotkas-house/ciotkas-house.md) — now [Janina Gajda](ciotka.md)'s; settled ~1948, knew the terrain from KBW service and claimed the best land early
 - **Family:** Unmarried partner [Marta Konieczna](marta-konieczna.md), mother of both his children; [Hania Barnaś](jagna.md) and [Edek Barnaś](glupek.md). Marta was killed in the 1954 lynch.
 - **Records:** Marta appears in the [PGR expense journal](../items/pgr-expenses.md) under her own surname
 

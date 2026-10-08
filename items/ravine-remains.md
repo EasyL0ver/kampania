@@ -41,4 +41,4 @@ A rotted coat, its colour long gone to the soil, and a scatter of bones — inco
 - **When:** a willing officiant — [ks. Władysław Pająk](../characters/priest.md), or the players themselves
 - **Cost:** 1 time
 - **Outcome:** The bones go back into the ground with words said over them — in the churchyard, or wherever the players choose. Whoever she was, someone finally treated her as a person with a name, even if the name is a guess. It settles nothing factual and it changes the people who do it.
-- **Gives:** World State Change — the remains are laid to rest; the players have chosen to honor a death they can't prove. (If the priest officiates, cross-reference his reaction in [ks. Władysław Pająk](../characters/priest.md).)
+- **Changes:** [Crisis of Faith](../characters/priest.md#crisis-of-faith) — +1

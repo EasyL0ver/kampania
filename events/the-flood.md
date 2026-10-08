@@ -34,7 +34,7 @@
 ## Opportunities
 
 - **The washed-out road** `(noticed by: [Handiwork](../cards/handiwork.md))` — the road failed because poor drainage and weak foundation met heavy rain. Repair will take days after the water drops. → Gives: [`road-washes-out`](../clues/clues.md#road-washes-out)
-- **The office phone** `(noticed by: [Finesse](../cards/finesse.md))` — [Zbigniew Gajda](../characters/wojewoda.md) offers access and stays close enough to hear what is reported. → Gives: [`phone-is-lifeline`](../clues/clues.md#phone-is-lifeline)
+- **The office phone** `(noticed by: [Finesse](../cards/finesse.md))` — [Zbigniew Gajda](../characters/wojewoda.md) offers access and stays close enough to hear what is reported.
 - **The village response** `(noticed by: [Finesse](../cards/finesse.md))` — Zbigniew gives quiet orders, [Pytlak](../characters/foreman.md) runs the PGR response, and villagers ignore outsider attempts to lead.
 - **The rising water table** `(when: prior visit to [%OLD_VILLAGE%](../locations/old-village-ruins.md))` `(noticed by: [Handiwork](../cards/handiwork.md))` — the well at the old village is filling too. → Gives: [`old-village-flooding`](../clues/clues.md#old-village-flooding)
 
@@ -44,17 +44,12 @@
 - **When:** Access to Zbigniew's office.
 - **Cost:** 1 time
 - **Outcome:** The line may reach the powiat office, fail, or route through the exchange. Any outside call is unreliable and monitored if Zbigniew is present.
-- **Gives:** [`phone-is-lifeline`](../clues/clues.md#phone-is-lifeline); Scene Unlock: [Operator Refuses Help](operator-refuses-help.md)
+- **Gives:** aware:events/operator-refuses-help.md
 
 ### Help with flood response
 - **Cost:** 1 time
 - **Outcome:** Players help with sandbags, drainage, or livestock. PGR workers mention that the [old village](../locations/old-village-ruins.md) floods worse because water pools there.
-- **Gives:** [`old-village-flooding`](../clues/clues.md#old-village-flooding); NPC State Change: [Michał Pytlak](../characters/foreman.md) talks more freely during shared work
-
-### Check on villagers
-- **Cost:** 1 time
-- **Outcome:** Players go door-to-door under cover of flood safety checks.
-- **Gives:** World State Change: players gain a natural excuse to visit any house and speak to NPCs at home
+- **Gives:** [`old-village-flooding`](../clues/clues.md#old-village-flooding)
 
 ## Exits
 

@@ -1,12 +1,12 @@
 # The Family Takes the House
 
-**Location:** [Ciotka's house](../locations/ciotkas-house.md)
+**Location:** [Ciotka's house](../locations/ciotkas-house/ciotkas-house.md)
 **Present:** [Janina Gajda](../characters/ciotka.md) (dead), [ks. Władysław Pająk](../characters/priest.md), [Zbigniew Gajda](../characters/wojewoda.md), [Helena Rzepka](../characters/matrona.md), [Ryszard Dudka](../characters/neighbour.md)
-**Available:** Shortly after [Ciotka Found Dead](ciotka-found-dead.md), when the priest returns with the family; Day 3 or later.
+**Available:** Shortly after [Ciotka Found Dead](ciotka-found-dead/ciotka-found-dead.md), when the priest returns with the family; Day 3 or later.
 
 ## Trigger
 
-- The committee is still at [Ciotka's house](../locations/ciotkas-house.md) when [ks. Władysław Pająk](../characters/priest.md) returns with [Zbigniew Gajda](../characters/wojewoda.md).
+- The committee is still at [Ciotka's house](../locations/ciotkas-house/ciotkas-house.md) when [ks. Władysław Pająk](../characters/priest.md) returns with [Zbigniew Gajda](../characters/wojewoda.md).
 - Fires whether or not the attic was opened.
 - Committee already gone: see If Missed.
 
@@ -39,7 +39,7 @@
 ### Point out the wreck, the bruise or the second cup
 - **Prompted by:** [ciotka-house-wrecked](../clues/clues.md#ciotka-house-wrecked), [ciotka-hurt-before-death](../clues/clues.md#ciotka-hurt-before-death), [ciotka-had-a-visitor](../clues/clues.md#ciotka-had-a-visitor)
 - **Outcome:** Naming the wreck, the bruise, or the second cup breaks [Ryszard Dudka](../characters/neighbour.md). He accuses the sołtys's son to his face: the boy came the day before she died and they fought. [Zbigniew Gajda](../characters/wojewoda.md) goes still; [Helena Rzepka](../characters/matrona.md) buries it as a grieving man's nonsense. The ruling does not change.
-- **Gives:** [`junior-pressed-ciotka`](../clues/clues.md#junior-pressed-ciotka); counts toward [Ryszard Dudka](../characters/neighbour.md)'s [Bond](../characters/neighbour.md#bond); NPC State Change: [Zbigniew Gajda](../characters/wojewoda.md) sets a [Grudge](../characters/wojewoda.md#grudge); World State Change: foul-play rumours sharpen.
+- **Gives:** [`junior-pressed-ciotka`](../clues/clues.md#junior-pressed-ciotka)
 
 ## Mechanics
 

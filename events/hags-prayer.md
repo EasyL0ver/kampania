@@ -2,14 +2,14 @@
 
 **Location:** [Barbara's House](../locations/barbaras-house.md)
 **Present:** [Paraskewia Chyłak](../characters/hag.md) (heard, not seen)
-**Available:** Any night, while [Paraskewia Chyłak](../characters/hag.md) is alive and not hostile (see her [Hostility](../characters/hag.md#hostility) mechanic)
+**Available:** Any night, while [Paraskewia Chyłak](../characters/hag.md) is alive and not hostile (see her [Hostility](../characters/hag.md#village-hostility) mechanic)
 
 ## Trigger
 
 - Middle of the night.
 - Players are at [Barbara's House](../locations/barbaras-house.md) or outside in the village.
 - Fires every night as long as [Paraskewia Chyłak](../characters/hag.md) is alive.
-- Does not fire once Paraskewia turns hostile (see her [Hostility](../characters/hag.md#hostility) mechanic); she stops coming to the well.
+- Does not fire once Paraskewia turns hostile (see her [Hostility](../characters/hag.md#village-hostility) mechanic); she stops coming to the well.
 
 ## Hook
 
@@ -43,7 +43,7 @@
 ### Chase after her
 - **Cost:** 1 time
 - **Outcome:** You break cover and run after her. She is gone into the dark before you reach the well and the chase fails. She has now seen the players come at her, and she knows the village means her harm.
-- **Gives:** NPC State Change: Paraskewia turns hostile (see her [Hostility](../characters/hag.md#hostility) mechanic).
+- **Changes:** [Village Hostility](../characters/hag.md#village-hostility) — true
 
 ## Mechanics
 

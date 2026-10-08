@@ -37,11 +37,11 @@ The ditch running from the PGR fields down to the low ground east of %NEW_VILLAG
 - **Prompted by:** [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain)
 - **Cost:** 1 time
 - **Outcome:** You tape off the lined channel at the head: width, depth, and fall. No skill needed. The figures alone say nothing; someone who can run drainage figures turns them into a drainage answer.
-- **Gives:** Item: [Concrete Ditch Measurements](../items/concrete-ditch-measurements.md)
+- **Gives:** [Concrete Ditch Measurements](../items/concrete-ditch-measurements.md)
 
 ### Measure the dugout
 - **When:** A tape
 - **Prompted by:** [ditch-concrete-stops-short](../clues/clues.md#ditch-concrete-stops-short)
 - **Cost:** 1 time
 - **Outcome:** Where the concrete gives out, you tape off the earth channel: width and depth of the shallow dugout that runs the rest of the way. No skill needed. Paired with the head figures, anyone who can run drainage figures can size the real ditch.
-- **Gives:** Item: [Dugout Measurements](../items/dugout-measurements.md)
+- **Gives:** [Dugout Measurements](../items/dugout-measurements.md)

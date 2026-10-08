@@ -30,6 +30,6 @@
 - **When:** Found the cairn; [Ryszard Dudka](../characters/neighbour.md) absent or permission to exhume
 - **Cost:** 1 time
 - **Outcome:** The stones lift away; underneath are a rotted coat and scattered bones without an identifiable face.
-- **Gives:** Item / Evidence: [Remains from the Ravine](../items/ravine-remains.md); NPC State Change: If done without permission and Ryszard learns, he gains an instant grudge ([NPC State Change](../characters/neighbour.md#grudge)).
+- **Gives:** [Remains from the Ravine](../items/ravine-remains.md)
 
 

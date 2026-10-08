@@ -35,6 +35,12 @@ He speaks like a man who knows the rules are already on his side. His reasonable
 - **[por. Witold Skowron](officer.md)** — "If your people rule against a legal deed, he is exactly who I will write to. I would rather not, but I will."
 - **[army-massacred-civilians-in-1947](../clues/clues.md#army-massacred-civilians-in-1947)** — "That's her, isn't it? Father's deathbed nonsense has nothing to do with a farm boundary."
 
+## Mechanics
+
+### The dispute
+
+- TBD.
+
 ## Opportunities
 
 - **The paper is airtight** `(when: Property assessment)` `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — The deed has father's title, proper transfer, and the strip plainly inside the line.
@@ -44,22 +50,22 @@ He speaks like a man who knows the rules are already on his side. His reasonable
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** He is cooperative, though often on the road. He gives his own details and his late father's house as his residence.
-- **Gives:** Census data — %BROTHER%, lorry driver, in his father's house.
+- **Changes:** [Census](../items/census.md#census) — %BROTHER%, lorry driver, in his father's house
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** He produces his father's deed to the house and disputed strip. He notes that [%SISTER%](dispute-sister.md) farms the strip, but the paper is his.
-- **Gives:** Property record — %BROTHER% holds the deed to the house and disputed strip; World State Change — the sibling land dispute is on the committee docket.
+- **Changes:** [Property Record](../items/census.md#property-record) — %BROTHER% holds the deed to the house and disputed strip; [The dispute](#the-dispute) — TBD
 
 ### Rule the boundary his way
 - **When:** The committee settles the disputed strip in the compensation assessment
 - **Outcome:** The deed stands, and the strip and its compensation go to him. [%SISTER%](dispute-sister.md) loses the ground she has worked for years.
-- **Gives:** World State Change — the strip and payout go to %BROTHER%; %SISTER% is dispossessed; the committee's authority is unchallenged.
+- **Changes:** [The dispute](#the-dispute) — TBD
 
 ### Rule the boundary against him
 - **When:** The committee settles the strip in [%SISTER%](dispute-sister.md)'s favour despite the deed
 - **Outcome:** He tells the committee the deed is his and they have overstepped. He files a formal complaint through [por. Witold Skowron](officer.md) and the provincial office.
-- **Gives:** World State Change — %SISTER% keeps the strip; the committee's authority and standing are damaged.
+- **Changes:** [The dispute](#the-dispute) — TBD
 
 ## Bond
 

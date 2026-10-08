@@ -28,7 +28,7 @@ The plebania beside the church in %NEW_VILLAGE%.
 - **When:** Priest absent or distracted
 - **Cost:** 1 time
 - **Outcome:** The parish ledger records Hania Barnaś's First Communion in the early 1950s; after the priest shelters Edek, the cellar also holds a straw mattress, blanket, food scraps, and a water jug.
-- **Gives:** [barnas-had-a-daughter-hania](../clues/clues.md#barnas-had-a-daughter-hania); NPC State Change: if Edek is in the cellar, players can confront the priest about hiding him.
+- **Gives:** [barnas-had-a-daughter-hania](../clues/clues.md#barnas-had-a-daughter-hania)
 
 ### Find the hidden cigarettes
 - **When:** Priest absent or distracted

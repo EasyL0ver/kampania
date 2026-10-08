@@ -38,10 +38,10 @@
 - **When:** aware:locations/upa-bunker.md, or visible ventilation shafts or entrance
 - **Cost:** 1 time
 - **Outcome:** The party enters the abandoned bunker and confirms old partisan use.
-- **Gives:** aware:locations/upa-bunker.md; [old-wartime-positions](../clues/clues.md#old-wartime-positions)
+- **Gives:** aware:locations/upa-bunker.md, [old-wartime-positions](../clues/clues.md#old-wartime-positions)
 
 ### Search Dmytro Kosach's cache
 - **When:** Explored the bunker
 - **Cost:** 1 time
 - **Outcome:** The search finds the Д. КОСАЧ carving, a rusted pistol, spare ammunition, and a Ukrainian journal fragment.
-- **Gives:** aware:characters/dmytro-kosach.md; Item: rusted pistol; Item: spare ammunition; Item: journal fragment
+- **Gives:** aware:characters/dmytro-kosach.md, [Journal Fragment](../items/journal-fragment.md)

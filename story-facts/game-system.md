@@ -352,18 +352,19 @@ Open: what Bruised actually costs (temporary Violence/Endurance penalty? a compo
 
 ## Endings
 
-Each ending has its own prerequisite chain. They stack — the perfect run completes all four.
+Two axes, plus the Report. Each good ending hangs on one person and lives as a flag in that person's Mechanics. The two bad ones, Forget and Drown, are what happens when nobody acts: each is its own event.
 
-| Ending | Key Prerequisites |
-|--------|------------------|
-| **Rest** (the Ritual) | Find Paraskewia Chyłak → free Barbara Kopacz → bring Stefania Kopacz → the words at the well. Priest no longer gatekeeps. Foreclosed if Grace's odpust already fired. |
-| **Grace** (the odpust) | Guilty confess to ks. Władysław Pająk → his "Faith in Redemption" score clears threshold → Day-7 general absolution for the whole church. Foreclosed if Rest fired. See [spiritual-endings.md](spiritual-endings.md). |
-| **Engineering** | Believe Michał Pytlak → retrieve explosives from bunker → support detonation |
-| **Justice** (truth survives the lynch) | Crack witnesses → document truth → use phone → keep Ryszard Dudka stable enough to stand down and testify (he dies, the record lives) |
-| **Punishment** (a body, no record) | Truth exposed + no structure = the mob kills and the well swallows it unnamed |
-| **The Report** | Massacre discovered → included in report → prof. Tadeusz Bieńkowski called (or not) |
+| Axis | Ending | Person |
+|---|---|---|
+| **Spiritual** | **Rest** (the Ritual) | [Paraskewia Chyłak](../characters/hag.md#rest) |
+| | **Grace** (the odpust) | [ks. Władysław Pająk](../characters/priest.md#grace) |
+| | **Forget** (the cover-up holds) | — ([The Village Forgets](../events/the-village-forgets.md)) |
+| **Material** | **Evacuate** | [Hania Barnaś](../characters/jagna.md#evacuate) |
+| | **Fight** (blow the gap) | [Michał Pytlak](../characters/foreman.md#fight) |
+| | **Drown** (nobody acts) | — ([The Village Drowns](../events/the-village-drowns.md)) |
+| **The Report** | What leaves the valley | — ([The Report](../events/the-report.md#the-report)) |
 
-The **perfect run** completes Ritual + Engineering + Justice + Report (with phone call). Possible. Extraordinary.
+The spiritual axis is detailed in [spiritual-endings.md](spiritual-endings.md). [The lynch](../events/punishment-lynch.md) is a storyline, not an ending.
 
 ## Open Questions
 

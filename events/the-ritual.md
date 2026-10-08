@@ -16,16 +16,16 @@ Gathering ritual materials and arranging them at the well or cerkiew.
 
 ## Setup
 
-- The Form is [Paraskewia Chyłak](../characters/hag.md)'s arrangement of icons, candles, herbs, incense, bread, water, and prayer materials ([`hag-has-the-form`](../clues/clues.md#hag-has-the-form)).
-- The Words are the Lemko panakhyda held by [Stefania Kopacz](../characters/babcia.md) ([`babcia-has-the-words`](../clues/clues.md#babcia-has-the-words)).
-- The Truth is the players naming the dead and saying what happened to them ([`players-supply-truth`](../clues/clues.md#players-supply-truth)).
+- The Form is [Paraskewia Chyłak](../characters/hag.md)'s arrangement of icons, candles, herbs, incense, bread, water, and prayer materials.
+- The Words are the Lemko panakhyda held by [Stefania Kopacz](../characters/babcia.md).
+- The Truth is the players naming the dead and saying what happened to them.
 - The 1947 Lemko dead are in the well: Wasyl, Anna, Semen and Kateryna Koval; Petro and Pelagia Hnat; Mychajło Szafran; Fedir Mac; Olena Krywda; Hryhorij Pyś; Stepan Kiczura; Anastasija Sowa. See [Paraskewia's List of the Dead](../items/paraskewias-list.md) and [the roster](../story-facts/old-village-massacre.md#the-dead-in-the-well).
 - [Dmytro Kosach](../characters/dmytro-kosach.md) is named with the 1947 dead.
 - [Edward Barnaś](../characters/soldier.md) is the 1954 lynch victim in the well.
-- [Janina Gajda](../characters/ciotka.md) is named only if [Rezeń took her body to the well](rezen-takes-the-body.md) ([`rezen-fed-ciotka-to-well`](../clues/clues.md#rezen-fed-ciotka-to-well)).
+- [Janina Gajda](../characters/ciotka.md) is named only if [Rezeń took her body to the well](rezen-takes-the-body.md).
 - [Paraskewia Chyłak](../characters/hag.md) is named only if she died at [the confrontation](well-confrontation.md) and her body was dropped in the well.
 - [Stanisław Rezeń](../characters/butcher.md) is named only if he died at [the confrontation](well-confrontation.md) and entered the well.
-- [Hania Barnaś](../characters/jagna.md) is not named as dead unless the players choose wrongly ([`jagna-fled-the-lynch`](../clues/clues.md#jagna-fled-the-lynch)).
+- [Hania Barnaś](../characters/jagna.md) is not named as dead unless the players choose wrongly.
 - [kpt. Henryk Ćwiek](../characters/kbw-officer.md) is not named as one of the well dead.
 - [Barbara Kopacz](../characters/barbara.md) must bring [Stefania Kopacz](../characters/babcia.md) if Babcia is physically present.
 - If [Paraskewia Chyłak](../characters/hag.md) is present, she kneels at the rim and supplies the form.

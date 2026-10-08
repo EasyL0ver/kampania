@@ -46,18 +46,6 @@
 - **Outcome:** [Stanisław Rezeń](../characters/butcher.md) goes cold under pressure; his knife and dogs are ready before he raises his voice.
 - **Gives:** [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
 
-### Use Zbigniew Gajda
-- **When:** Access to [Zbigniew Gajda](../characters/wojewoda.md) before a direct attack.
-- **Cost:** 1 time
-- **Outcome:** [Zbigniew Gajda](../characters/wojewoda.md) intervenes and [Stanisław Rezeń](../characters/butcher.md) pauses the escalation.
-- **Gives:** NPC State Change: [Zbigniew Gajda](../characters/wojewoda.md) is now actively restraining [Stanisław Rezeń](../characters/butcher.md).
-
-### Turn the village against him
-- **When:** Evidence the village will accept against [Stanisław Rezeń](../characters/butcher.md).
-- **Cost:** 1 time
-- **Outcome:** [Stanisław Rezeń](../characters/butcher.md) loses the village's passive tolerance.
-- **Gives:** World State Change: [Stanisław Rezeń](../characters/butcher.md) is exposed as a direct threat rather than a tolerated outcast.
-
 ## Exits
 
 - Return to %NEW_VILLAGE% under guard or in a group.

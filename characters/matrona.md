@@ -43,37 +43,38 @@ People lower their voices around her. Her own voice stays low and measured, so o
 
 ## Mechanics
 
-### Grace ending node
+### Robbery suspect
 
-Helena knows Hania was innocent and knows the lynch was a sin. She can be absolved only if she lets the truth stand, because contrition demands restitution; that makes her pivotal to the [Grace ending](../story-facts/spiritual-endings.md).
-
-### Forged paper thread
-
-Weeks after the lynch, Helena directed **Emil** to copy Edward Barnaś's signature onto the administrative departure declaration that sent the house to the PGR. The [PGR office](../locations/pgr-office.md) property records prove the paper is forged and point first to Emil, not Helena; see [the lynch](../story-facts/the-lynch.md), [departure-declaration-forged](../clues/clues.md#departure-declaration-forged), and [Emil's file](painter.md).
+- Who Helena will blame if the penicillin goes missing: **none / junior / committee**. Starts at **none**.
+- Set once, by whoever first asks her for penicillin. Her brother Tadek never counts: she simply gives it to him.
+- It only counts if the penicillin goes missing. If the till is robbed too, the money masks the motive and she suspects no one.
+- TBD: if she suspects the committee, every committee member lodging at her house loses the [Lodging at Matrona's](../cards/lodging-at-matronas.md) card.
 
 ## Actions
 
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** She gives herself, [Emil](painter.md), and the two children before the question is finished.
-- **Gives:** Census data — Helena, Emil, Ewa, Krystian Rzepka.
+- **Changes:** [Census](../items/census.md#census) — Helena, Emil, Ewa, Krystian Rzepka
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** She names the house and [the store](../locations/the-store.md) she runs, with papers in order.
-- **Gives:** Property record — Rzepka house and store.
+- **Changes:** [Property Record](../items/census.md#property-record) — Rzepka house and store
 
 ### Ask for the penicillin
 - **Prompted by:** [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin)
 - **Cost:** 1 time
 - **Outcome:** She holds the only cabinet key and will not turn it for nothing. The penicillin is theirs, she says, on one condition: the committee lets her fill the village census in their stead, a kindness to spare busy officials the walking. She will not open the cabinet until they agree. Word of the sick child and what he needs reaches her sister [Janina](ciotka.md).
-- **Gives:** [helena-demands-the-census](../clues/clues.md#helena-demands-the-census); NPC Learns: helena: [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin); NPC Learns: janina: [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin)
+- **Gives:** [helena-demands-the-census](../clues/clues.md#helena-demands-the-census)
+- **Changes:** [Robbery suspect](#robbery-suspect) — committee, if no one asked before
 
 ### Agree to her terms
 - **Prompted by:** [helena-demands-the-census](../clues/clues.md#helena-demands-the-census)
-- **Cost:** 1 time
+- **Cost:** 1 time + [Committee Census Register](../items/census.md)
 - **Outcome:** They agree, and she turns the key. She counts out a child's course of penicillin and takes the census book from their hands: from now the count is hers to fill, hers to decide what it shows.
-- **Gives:** Item: penicillin (a child's course); World State Change: the committee loses the [Committee Census Register](../items/census.md); Helena Rzepka fills it herself.
+- **Gives:** [Penicillin](../items/penicillin.md)
+- **Changes:** [Keeper](../items/census.md#keeper) — Helena Rzepka fills it herself
 
 ## Bond
 

@@ -29,7 +29,6 @@
 - [Barbara Kopacz](../characters/barbara.md) says [Ryszard Dudka](../characters/neighbour.md) spoke about someone finally answering for what they did.
 - [Barbara Kopacz](../characters/barbara.md) says [Ryszard Dudka](../characters/neighbour.md) did not come to the fence tonight.
 - [Barbara Kopacz](../characters/barbara.md) does not know she has been passing the committee's information to [Ryszard Dudka](../characters/neighbour.md).
-- **Composure:** 1.
 
 ## Opportunities
 
@@ -41,11 +40,7 @@
 
 ### Get the timing out of her
 - **Outcome:** [Barbara Kopacz](../characters/barbara.md) confirms the men gathered tonight, the rifle is gone, and [Ryszard Dudka](../characters/neighbour.md) is not at the fence.
-- **Gives:** Scene Unlock: [the lynch](punishment-lynch.md) with advance warning before nightfall.
-
-### Send her home / keep her clear
-- **Outcome:** [Barbara Kopacz](../characters/barbara.md) goes home, locks the door, and keeps [Pawełek Kopacz](../characters/pawelek.md) inside.
-- **Gives:** NPC State Change: [Barbara Kopacz](../characters/barbara.md) stays clear of [the lynch](punishment-lynch.md).
+- **Gives:** aware:events/punishment-lynch.md
 
 ## Exits
 

@@ -52,7 +52,8 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 - **Prompted by:** [committee-fills-census](../clues/clues.md#committee-fills-census)
 - **Cost:** 1 time
 - **Outcome:** Barbara gives her name, age, household members, and employment cheerfully. She will not name [Pawełek Kopacz](pawelek.md)'s father.
-- **Gives:** Census data — Barbara Kopacz, [Stefania Kopacz](babcia.md), and [Pawełek Kopacz](pawelek.md); [`barbara-refuses-father`](../clues/clues.md#barbara-refuses-father)
+- **Gives:** [`barbara-refuses-father`](../clues/clues.md#barbara-refuses-father)
+- **Changes:** [Census](../items/census.md#census) — Barbara Kopacz, Stefania Kopacz, and Pawełek Kopacz
 
 ### Push her about the father
 - **Requires:** [Violence](../cards/violence.md) OR [Bureaucracy](../cards/bureaucracy.md)
@@ -70,7 +71,8 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 - **Prompted by:** [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage)
 - **Cost:** 1 time
 - **Outcome:** She names the red-brick house and small plot as hers, with vague papers. Pressed on who built or pays for it, she goes quiet.
-- **Gives:** Property record — [Barbara Kopacz's house](../locations/barbaras-house.md) and plot; [`barbara-has-help`](../clues/clues.md#barbara-has-help)
+- **Gives:** [`barbara-has-help`](../clues/clues.md#barbara-has-help)
+- **Changes:** [Property Record](../items/census.md#property-record) — Barbara Kopacz's house and plot
 
 ### Ask about the village
 - **Prompted by:** aware:locations/new-village.md

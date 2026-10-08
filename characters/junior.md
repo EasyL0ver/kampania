@@ -50,12 +50,12 @@ A cigarette is usually between his lips or behind his ear. His studied cool drop
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** He gives his name and age, and treats the interview like a joke. He answers for himself only.
-- **Gives:** Census data — Marek Gajda, in his father's household.
+- **Changes:** [Census](../items/census.md#census) — Marek Gajda, in his father's household
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** He says he owns nothing and lives under his father's roof. He waves the question off.
-- **Gives:** Property record — no property of his own; [Zbigniew's house](../locations/wojewodas-house.md).
+- **Changes:** [Property Record](../items/census.md#property-record) — no property of his own, lives in his father's house
 
 ## Bond
 

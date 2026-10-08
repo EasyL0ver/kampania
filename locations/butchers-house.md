@@ -44,11 +44,6 @@ The edge of %NEW_VILLAGE%, nearest the forest path toward %OLD_VILLAGE%.
 
 ## Actions
 
-### Census visit
-- **Cost:** 1 time
-- **Outcome:** Rezeń answers official questions on the doorstep, refuses entry, asks where the committee is staying and how long they will remain, and claims he came with the settlers.
-- **Gives:** World State Change: Rezeń learns the committee's basic movements and cover story.
-
 ### Observe from distance
 - **When:** Concealment or a safe vantage point
 - **Outcome:** Rezeń leaves at dawn, dusk, or night by the forest path and returns with mud on his hands and scraped knuckles.
@@ -58,24 +53,16 @@ The edge of %NEW_VILLAGE%, nearest the forest path toward %OLD_VILLAGE%.
 - **When:** Rezeń leaves by the forest path
 - **Cost:** 1 time
 - **Outcome:** Rezeń goes to the well, sits on the rim, clears debris from the mouth, and listens down into it.
-- **Gives:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well); NPC State Change: If Rezeń spots the players, he treats them as enemies.
+- **Gives:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
 
 ### Follow into forest at night
 - **When:** Rezeń leaves at night carrying a dead dog
 - **Cost:** 1 time
 - **Outcome:** Rezeń carries the dead dog to the well and drops the carcass into it.
-- **Gives:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well); NPC State Change: If Rezeń spots the players, he treats them as enemies.
+- **Gives:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
 
-### Enter while he's gone
+### Search the house
 - **When:** Rezeń absent; door unlocked
 - **Cost:** 1 time
-- **Outcome:** The players find modified blades, a KBW military knife, the hidden KBW rifle, the folded propaganda leaflet, old blood smell in the wood, and Hania's undergarments in the bench-bed drawer; the military evidence cross-references [KBW documents](ciotkas-house.md).
-- **Gives:** [butcher-has-soldiers-gun](../clues/clues.md#butcher-has-soldiers-gun); [butcher-ex-soldier](../clues/clues.md#butcher-ex-soldier); [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well); Item / Evidence: KBW military knife, KBW rifle, Hania's undergarments.
-
-### Confront about the well
-- **Prompted by:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
-- **Cost:** 1 time
-- **Outcome:** Rezeń does not deny visiting the well, refuses to explain, and gives one warning to leave.
-- **Gives:** NPC State Change: Rezeń treats further pressure about the well as open hostility.
-
-
+- **Outcome:** The players find modified blades, a KBW military knife, the hidden KBW rifle, the folded propaganda leaflet, old blood smell in the wood, and a woman's undergarments in the bench-bed drawer; the military evidence cross-references [KBW documents](ciotkas-house/ciotkas-house.md).
+- **Gives:** [butcher-has-soldiers-gun](../clues/clues.md#butcher-has-soldiers-gun), [butcher-ex-soldier](../clues/clues.md#butcher-ex-soldier), [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well), [KBW Military Knife](../items/kbw-military-knife.md), [KBW Rifle](../items/kbw-rifle.md), [Woman's Undergarments](../items/womans-undergarments.md), [Propaganda Leaflet](../items/propaganda-leaflet.md)

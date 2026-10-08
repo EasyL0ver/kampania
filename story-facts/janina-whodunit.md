@@ -44,7 +44,7 @@ Junior is doing exactly what the committee is doing: prying at the village's bur
 
 ## The Death Scene (what is on the body)
 
-Keep the existing [Ciotka Found Dead](../events/ciotka-found-dead.md) scene, with these truths behind it:
+Keep the existing [Ciotka Found Dead](../events/ciotka-found-dead/ciotka-found-dead.md) scene, with these truths behind it:
 
 - **Cause of death:** Luminal overdose, her own prescription. Not deliberate: shaken and anxious after the night, she took too many trying to calm herself.
 - **One antemortem mark** from Edek's panic (a bruise, a grip, a fall). This is the Edek strand and the thing that makes the village cry murder.
@@ -82,6 +82,6 @@ Edek is hunted as the killer, and he is Hania's brother. The climactic evacuatio
 ## Follow-Up Wiring (remaining work)
 
 - **Clues** to add to `clues.md`: none outstanding. Added: [ciotka-told-edek-the-truth](../clues/clues.md#ciotka-told-edek-the-truth) (GM reveal), [junior-pressed-ciotka](../clues/clues.md#junior-pressed-ciotka) (Junior strand), [ciotka-hurt-before-death](../clues/clues.md#ciotka-hurt-before-death) (the mark) and [glupek-fled-into-forest](../clues/clues.md#glupek-fled-into-forest). "The net closing" is carried by `junior-pressed-ciotka` and the census/flood pressure, not a standalone clue. Keep and reuse: [ciotka-saved-glupek](../clues/clues.md#ciotka-saved-glupek), [rezen-fed-ciotka-to-well](../clues/clues.md#rezen-fed-ciotka-to-well), [butcher-is-dangerous](../clues/clues.md#butcher-is-dangerous). **Cause of death:** [ciotka-overdosed](../clues/clues.md#ciotka-overdosed) is read from the body by a Medicine player: the pills killed her, not the hands. It clears the murder read but not the intent; whether it was accident or suicide, and what drove her to it, stays for the three strands to answer.
-- **Scene edit:** [Ciotka Found Dead](../events/ciotka-found-dead.md) reframed to "an overdose, but three people look guilty" (done): the open Luminal bottle and the Medicine exam confirm the overdose, the wrist bruise and wrecked corner open the murder question before the exam closes it, the footprints carry the Edek strand.
+- **Scene edit:** [Ciotka Found Dead](../events/ciotka-found-dead/ciotka-found-dead.md) reframed to "an overdose, but three people look guilty" (done): the open Luminal bottle and the Medicine exam confirm the overdose, the wrist bruise and wrecked corner open the murder question before the exam closes it, the footprints carry the Edek strand.
 - **Character edits:** [Junior](../characters/junior.md) gains an action or opportunity around having pressed Janina before her death. [Rezeń](../characters/butcher.md) softened to indifferent (done alongside this doc).
 - **The manhunt for Edek** still needs building as its own scene chain (stations, the danger, the tie to the Hania call).

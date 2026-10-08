@@ -39,10 +39,15 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 
 ## Mechanics
 
+### Rest
+
+- A flag, true or false. Starts false. True when the Lemko rite is done at the well: the dead are named and mourned. Can no longer become true once [Grace](priest.md#grace) is granted. The **Rest** ending.
+
 ### Talking to her
 - Paraskewia cannot be spoken to without Language. Even with it, the exchange is halting and hard.
 
-### Hostility
+### Village Hostility
+- A flag, true or false. Starts false. True while she believes the village means her harm.
 - By default she can be approached and interviewed at her [cabin](../locations/hags-cabin.md).
 - If the players come at her as a threat (chasing her at the well, cornering her, open aggression), she comes to believe the village means her harm.
 - While she believes this, she stops her nightly rite, so [Hag's Prayer](../events/hags-prayer.md) no longer fires, and none of her actions below are available.
@@ -54,27 +59,28 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 - **Requires:** [Language](../cards/language.md)
 - **Cost:** 1 time
 - **Outcome:** She gives her name — Paraskewia Chyłak — and says she is Lemko.
-- **Gives:** [hag-is-lemko](../clues/clues.md#hag-is-lemko); Census data — Paraskewia Chyłak, Lemko, living in the forest.
+- **Gives:** [hag-is-lemko](../clues/clues.md#hag-is-lemko)
+- **Changes:** [Census](../items/census.md#census) — Paraskewia Chyłak, Lemko, living in the forest
 
 ### Property assessment
 - **Requires:** [Language](../cards/language.md)
 - **Cost:** 1 time
 - **Outcome:** She shows the cabin without fuss: a tiny hut she built and has lived in for twenty years.
-- **Gives:** Property record — [Hag's cabin](../locations/hags-cabin.md), hers by occupation, no title.
+- **Changes:** [Property Record](../items/census.md#property-record) — Hag's cabin, hers by occupation, no title
 
 ### The land remembers the water
 - **Requires:** [Language](../cards/language.md)
 - **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Cost:** 1 time
 - **Outcome:** She has watched this ground for twenty years. In her own terms she says the river wants its old bed back, that its course shifted, and that a slide came down and closed the notch in the ridge. She has nothing to say about the far-ridge streambed.
-- **Gives:** [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map); [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
+- **Gives:** [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map), [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 
 ### Ask her about Pawełek
 - **Requires:** [Language](../cards/language.md)
 - **Prompted by:** aware:events/pawelek-falls-ill.md
 - **Cost:** 1 time
 - **Outcome:** She found the boy at the well and told him the water was foul and not to drink it. He was thirsty and drank anyway. She knows what bad water does, but her remedy is the old one: the boy needs a cleansing rite, not a doctor.
-- **Gives:** [`pawelek-got-it-from-water`](../clues/clues.md#pawelek-got-it-from-water); [`hag-warned-pawelek`](../clues/clues.md#hag-warned-pawelek); [`pawelek-needs-a-cleansing-ritual`](../clues/clues.md#pawelek-needs-a-cleansing-ritual)
+- **Gives:** [`pawelek-got-it-from-water`](../clues/clues.md#pawelek-got-it-from-water), [`hag-warned-pawelek`](../clues/clues.md#hag-warned-pawelek), [`pawelek-needs-a-cleansing-ritual`](../clues/clues.md#pawelek-needs-a-cleansing-ritual)
 
 ### Ask her about the rites
 - **Requires:** [Language](../cards/language.md)
@@ -95,7 +101,7 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 - **Prompted by:** [army-massacred-civilians-in-1947](../clues/clues.md#army-massacred-civilians-in-1947)
 - **Cost:** 1 time
 - **Outcome:** She tells it as she saw it. The soldiers came to drive the village out; the people would not go; their officer was shot dead in the struggle; and the soldiers turned in their fury and killed everyone. No one ever came after. No reckoning, no record, the dead left unnamed. The army buried its own crime and called the village empty.
-- **Gives:** [`massacre-was-retribution`](../clues/clues.md#massacre-was-retribution); [`massacre-was-covered-up`](../clues/clues.md#massacre-was-covered-up)
+- **Gives:** [`massacre-was-retribution`](../clues/clues.md#massacre-was-retribution), [`massacre-was-covered-up`](../clues/clues.md#massacre-was-covered-up)
 
 ### Where the partisans hid
 - **Requires:** [Language](../cards/language.md) AND [Bond: Paraskewia Chyłak](../cards/bond-hag.md)
@@ -108,7 +114,7 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 - **Requires:** [Language](../cards/language.md) AND ([Speech](../cards/speech.md) OR [Empathy](../cards/empathy.md))
 - **Cost:** 1 time
 - **Outcome:** You persuade her the committee and the village mean her no harm. She lowers her guard and will speak with you again.
-- **Gives:** NPC State Change: Paraskewia stops believing the village is hostile; her actions and nightly rite resume (see [Hostility](#hostility)).
+- **Changes:** [Village Hostility](#village-hostility) — false, her actions and nightly rite resume
 
 ## Bond
 

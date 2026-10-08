@@ -1,7 +1,7 @@
 # The "EDEK" Box
 
 **Type:** Item — keepsake (a dead man's belongings)
-**Source:** The attic pile during [Ciotka Found Dead](../events/ciotka-found-dead.md#search-the-pile-of-rubbish)
+**Source:** The attic pile during [Ciotka Found Dead](../locations/ciotkas-house/attic.md#search-the-pile-of-rubbish)
 **Carried:** A dust-caked box of a grown man's things marked "EDEK", an old house key among them. Ambivalent: the belongings could be the boy's or the elder Barnaś's.
 
 ## Hook
@@ -21,7 +21,7 @@ A wooden box thick with years of dust, untouched in the attic long before Janina
 
 ### Try the key in the lock
 - **Requires:** [The "EDEK" Box](edek-box.md)
-- **When:** a door of [Janina's house](../locations/ciotkas-house.md)
+- **When:** a door of [Janina's house](../locations/ciotkas-house/ciotkas-house.md)
 - **Prompted by:** [ciotka-is-dead](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 time
 - **Outcome:** The key will not turn the newer lock. But the old, pitted lock below it — the door's original — takes the key and turns cleanly. It was cut for this house. The box it sat in is thick with undisturbed dust, set aside long before her time.

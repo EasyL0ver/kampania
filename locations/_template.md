@@ -49,3 +49,9 @@
 <!-- Location-bound actions: search the room, dig in the yard, watch from cover.
      Character-bound actions (interview, leverage) belong in the character file.
      Format: actions-and-opportunities.md -->
+
+## Mechanics
+
+<!-- Optional. Only for state the place carries that actions change: a door that
+     can be forced, a room that stays open once opened. Use H3 sub-sections;
+     Changes lines elsewhere link to them. Omit if not applicable. -->

@@ -35,17 +35,23 @@ Skowron waiting by the police car, asking the departing party for their report.
 ### Submit a report without the massacre
 - **When:** Players omit the 1947 Lemko massacre from the report.
 - **Outcome:** por. Witold Skowron accepts the report and the car drives away.
-- **Gives:** Ending Progress: State cover-up ending; World State Change: the state's secret stays buried
+- **Changes:** [The report](#the-report) — cover-up, the state's secret stays buried
 
 ### Submit a report with the massacre and no outside witness
 - **When:** Players include the 1947 Lemko massacre and did not call prof. Tadeusz Bieńkowski.
 - **Outcome:** por. Witold Skowron reads the report, signals the driver, and the car changes course.
-- **Gives:** Ending Progress: State suppression ending; World State Change: the players do not reach the road home
+- **Changes:** [The report](#the-report) — suppressed, the players do not reach the road home
 
 ### Submit a report with the massacre and an outside witness
 - **When:** Players include the 1947 Lemko massacre and called prof. Tadeusz Bieńkowski during the game.
 - **Outcome:** por. Witold Skowron knows the truth already exists outside the car and lets the car continue home.
-- **Gives:** Ending Progress: truth survives outside the village; World State Change: the players live
+- **Changes:** [The report](#the-report) — truth survives outside the valley, the players live
+
+## Mechanics
+
+### The report
+
+- What leaves the valley: **cover-up / suppressed / truth survives**. Set by the report the committee submits. The **Report** ending.
 
 ## Exits
 

@@ -40,17 +40,6 @@
 - **Outcome:** Emil gives the night in fragments: the affair, the attack, being beaten and dragged away, and Helena's voice giving instructions.
 - **Gives:** [`painter-heard-matrona`](../clues/clues.md#painter-heard-matrona), [`painter-was-spared`](../clues/clues.md#painter-was-spared)
 
-### Confront Helena Rzepka
-- **Cost:** 1 time
-- **Outcome:** Helena gives her rehearsed account and denies responsibility beyond telling her brothers about the affair.
-- **Gives:** NPC State Change: Helena recognizes the committee is testing the 1954 story and increases pressure on Emil
-
-### Work the wedge
-- **When:** Prior conversation with Emil or a convincing bluff that Emil has already talked
-- **Cost:** 1 time
-- **Outcome:** Helena cannot manage a confession she believes has already happened; her control over Emil fractures for this scene.
-- **Gives:** NPC State Change: Helena turns active damage control toward Emil; Scene Unlock: another private attempt to reach Emil Rzepka
-
 ## Exits
 
 - Continue pressure at [Matrona's house](../locations/matronas-house.md).

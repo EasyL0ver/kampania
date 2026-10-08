@@ -37,27 +37,17 @@ The State Agricultural Farm: fields, barns, livestock pens, tool shed.
 ### Inspect the farm books
 - **Cost:** 1 time
 - **Outcome:** The farm books show mostly ordinary farm spending, plus Tadeusz Mazur listed as a current worker drawing wages with no work logs for the past two years.
-- **Gives:** [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent); Item: [worker registry](../items/pgr-ledger.md); Item: [expense journal](../items/pgr-expenses.md)
-
-### Talk to Barbara Kopacz
-- **When:** [Barbara Kopacz](../characters/barbara.md) present during working hours
-- **Outcome:** Barbara answers questions about work, refuses to discuss Pawełek Kopacz's father, and becomes slightly more willing to speak if treated kindly.
-- **Gives:** NPC State Change: Barbara Kopacz becomes more open to future contact, including access to [Stefania Kopacz](../characters/babcia.md).
-
-### Offer to help with farm work
-- **Cost:** 1 time
-- **Outcome:** The committee works alongside the farm workers.
-- **Gives:** NPC State Change: Michał Pytlak and the workers treat the committee as useful labour; World State Change: village outskirts survey trips are reduced by 1.
+- **Gives:** [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent), [worker registry](../items/pgr-ledger.md), [expense journal](../items/pgr-expenses.md)
 
 ### Report wolf damage
 - **When:** Day 1+ and wolf damage visible
 - **Prompted by:** aware:locations/pgr-farm.md
 - **Outcome:** Michał shows dead sheep, patched fences, and tracks.
-- **Gives:** [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock); Scene Unlock: [The Wolf Attack](../events/wolf-attack.md)
+- **Gives:** [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock), aware:events/wolf-attack.md
 
 ### Join the hunt
 - **When:** Day 1+ and wolf damage visible
 - **Prompted by:** [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock)
 - **Cost:** 1 time
 - **Outcome:** The committee joins the men going after the wolves.
-- **Gives:** Scene Unlock: [The Hunt with Rezeń](../events/hunt-with-rezen.md); Scene Unlock: [The Hunt with Dudka](../events/hunt-with-dudka.md)
+- **Gives:** aware:events/hunt-with-rezen.md, aware:events/hunt-with-dudka.md

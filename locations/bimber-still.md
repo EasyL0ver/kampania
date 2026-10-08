@@ -40,7 +40,7 @@
 - **When:** Crew present; Drink or Alcoholic; hands off the still
 - **Cost:** 1 time
 - **Outcome:** The committee takes the offered bottle and makes it clear they are not here to shut the still down. The crew relaxes and the night turns into a session. Tadek warms to whoever kept pace without judging him.
-- **Gives:** NPC State Change: the drinking PCs become Tadek's [drinking buddies](../characters/wujas.md#drinking-buddy).
+- **Changes:** [Drinking Buddy](../characters/wujas.md#drinking-buddy) — the drinking PCs become Tadek's drinking buddies
 
 <!-- Arriving while the crew is present fires the event [Caught at the Still](../events/caught-at-the-still.md). -->
 

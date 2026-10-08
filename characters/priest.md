@@ -36,13 +36,17 @@ His baritone stays intimate in conversation. When uncomfortable, his hand goes t
 
 ## Mechanics
 
-### The Grace Arc — judgment vs. mercy
+### Grace
 
-He reads the flood as literal divine judgment on a valley built over a mass grave. If judgment wins, he grants nothing on Day 7 and breaks the seal by naming the village's sins aloud ([The Seal-Break](../events/the-seal-break.md)). If mercy wins, he grants the odpust to the whole church, Rezeń included.
+- A flag, true or false. Starts false. True when he grants the odpust at the Day 7 Mass, which needs [Crisis of Faith](#crisis-of-faith) at +8. The **Grace** ending.
 
-What tips him to mercy is watching the guilty confess. Track the Faith in Redemption score in [spiritual-endings.md](../story-facts/spiritual-endings.md); if it clears the threshold by Day 7, he grants the [odpust](../events/the-odpust.md). If [Rest](../events/the-ritual.md) fired first, he refuses.
+### Contempt for the dead
 
-The arc opens with [The Priest's Plea](../events/priests-plea.md). He seeks out a pious player, confides that the flood may be divine judgment, and can tell them in-character how Grace is won: bring the guilty to his confessional.
+- Set when the committee handles Janina's body crudely, brushing past his objection. He takes it as contempt for the dead and does not forget it.
+
+### Crisis of Faith
+
+- A counter that starts at **0** and moves up and down. If it reaches **+8** by the Day 7 Mass, he believes in redemption and grants the odpust.
 
 ## Actions
 
@@ -51,7 +55,7 @@ The arc opens with [The Priest's Plea](../events/priests-plea.md). He seeks out 
 - **Prompted by:** [`pawelek-was-possessed`](../clues/clues.md#pawelek-was-possessed)
 - **Cost:** 1 time
 - **Outcome:** He prays loudly over the boy, commanding the devil out, a Roman Catholic blessing that rises to shouting. It does nothing for the fever, and the noise frightens the delirious child. [Stefania Kopacz](babcia.md) comes out of her chair, sharply lucid, and drives him off: the boy is not a demon, and he is not to shout and terrify a sick child. This is not his faith and not his rite.
-- **Gives:** [`babcia-opposed-to-church`](../clues/clues.md#babcia-opposed-to-church); [`babcia-mind-returns`](../clues/clues.md#babcia-mind-returns)
+- **Gives:** [`babcia-opposed-to-church`](../clues/clues.md#babcia-opposed-to-church), [`babcia-mind-returns`](../clues/clues.md#babcia-mind-returns)
 
 ### Ask about the three-barred cross
 - **Prompted by:** [three-barred-cross-on-gajda-grave](../clues/clues.md#three-barred-cross-on-gajda-grave)
@@ -61,18 +65,18 @@ The arc opens with [The Priest's Plea](../events/priests-plea.md). He seeks out 
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** He cooperates and gives his details: himself, alone at the rectory.
-- **Gives:** Census data — ks. Władysław Pająk.
+- **Changes:** [Census](../items/census.md#census) — ks. Władysław Pająk
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** He says the rectory and church are parish property, not his. He refers the committee to the diocese for anything on paper.
-- **Gives:** Property record — parish/church property, not personally held.
+- **Changes:** [Property Record](../items/census.md#property-record) — parish/church property, not personally held
 
 ### Donate to the church
 - **When:** The [Loaded](../story-facts/game-system.md) card — hard currency in your pocket to give
 - **Cost:** [Loaded](../cards/loaded.md)
 - **Outcome:** A committee member puts real money into the parish, no bribe, nothing asked for, just given. ks. Władysław Pająk did not expect it and cannot quite believe it: one of the state's own clerks choosing a plain good thing. In a man whose faith in people is in crisis, it lands, and he watches the committee differently after.
-- **Gives:** The player loses the **Loaded** trait. Ending Progress: +2 [Faith in Redemption](../story-facts/spiritual-endings.md#the-mechanic-faith-in-redemption-score).
+- **Changes:** [Crisis of Faith](#crisis-of-faith) — +2
 
 ## Bond
 
@@ -83,6 +87,6 @@ The arc opens with [The Priest's Plea](../events/priests-plea.md). He seeks out 
 ## Grudge
 
 - [ ] Demand he reveal what he heard in confession
-- [ ] Disturb the dead: strip or handle [Janina Gajda](ciotka.md)'s body crudely, brushing past his objection ([`committee-disturbed-the-dead`](../clues/clues.md#committee-disturbed-the-dead))
+- [ ] Disturb the dead: strip or handle [Janina Gajda](ciotka.md)'s body crudely, brushing past his objection
 - [ ] Disrespect the church (smoke inside, shout, handle sacred objects carelessly)
 - [ ] Threaten or pressure one of his parishioners in his presence

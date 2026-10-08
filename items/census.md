@@ -23,6 +23,22 @@ Household        Name                 Age   Resident since   Notes
                                                              (filled on site)
 ```
 
+## Mechanics
+
+### Census
+
+- One entry per person, made by the **Census interview** action with that person or their household.
+- An entry records household, name, age and years resident, or a refusal or a gap where the person would not answer.
+
+### Keeper
+
+- The committee keeps the register unless it hands it over. Whoever holds it fills it, and decides what it shows.
+
+### Property Record
+
+- One entry per property, made by the **Property assessment** action.
+- An entry records what the household owns and claims, or that the property stayed unassessed.
+
 ## Opportunities
 
 - **Not just the living** `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — The register is there to gauge damages, not only to count heads, so it has room for the dead as much as the living. A name can sit on a roll long after its owner is gone.

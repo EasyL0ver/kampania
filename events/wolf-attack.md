@@ -42,11 +42,6 @@
 
 ## Actions
 
-### Reinforce the farm
-- **Cost:** 1 time
-- **Outcome:** The players help [Michał Pytlak](../characters/foreman.md) and the workers repair fence, move livestock, and haul feed.
-- **Gives:** World State Change: the farm is temporarily reinforced; NPC State Change: Pytlak talks more freely while working
-
 ## Exits
 
 - Rezeń arrives at the farm gate the next morning to hunt: [The Hunt with Rezeń](hunt-with-rezen.md).

@@ -1,7 +1,7 @@
 # Neighbour's House
 
 **Type:** Location (revisitable)
-**Location:** Beside [Barbara's house](barbaras-house.md), across from [Ciotka's house](ciotkas-house.md)
+**Location:** Beside [Barbara's house](barbaras-house.md), across from [Ciotka's house](ciotkas-house/ciotkas-house.md)
 **Present:** [Ryszard Dudka](../characters/neighbour.md) (evenings most reliable)
 **Available:** Any time; Ryszard often out during the day
 **Cost:** 1 action per visit
@@ -18,7 +18,7 @@ The house beside Barbara's, across from Ciotka's.
 - **Interior:** Table with one bottle and one chair.
 - **Interior:** Bed visible behind a partition.
 - **Window to Barbara:** A window faces [Barbara's house](barbaras-house.md) and has no curtain.
-- **Window to Ciotka:** A window faces [Ciotka's house](ciotkas-house.md), the former [Edward Barnaś](../characters/soldier.md) plot.
+- **Window to Ciotka:** A window faces [Ciotka's house](ciotkas-house/ciotkas-house.md), the former [Edward Barnaś](../characters/soldier.md) plot.
 - **Window to Ciotka:** The window has heavy yellowed curtains that stay drawn.
 - **Ryszard:** If home, [Ryszard Dudka](../characters/neighbour.md) is tense with visitors.
 - **Ryszard:** He resents state officials because of the coming flood.
@@ -34,11 +34,6 @@ The house beside Barbara's, across from Ciotka's.
 - **Information from Barbara** `(when: told Barbara information, later spoke to Ryszard)` — Ryszard knows things the players only told Barbara. → Gives: [barbara-is-a-sieve](../clues/clues.md#barbara-is-a-sieve)
 
 ## Actions
-
-### Census visit — interview Ryszard
-- **Cost:** 1 time
-- **Outcome:** Ryszard gives household facts, complains about the dam and the state, and watches whether the committee asks only census questions or probes the past.
-- **Gives:** World State Change: Ryszard knows the committee has taken official interest in his household.
 
 ### Push him about the past
 - **When:** Alcohol, trust, or direct pressure

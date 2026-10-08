@@ -44,12 +44,12 @@ She states her case rather than begging for it. When she repeats her father's la
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** She answers plainly with her own details and her husband's family farmhouse.
-- **Gives:** Census data — %SISTER%, in her husband's household.
+- **Changes:** [Census](../items/census.md#census) — %SISTER%, in her husband's household
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** She has no deed and claims the border strip by years of labour. She names her brother's paper as the theft.
-- **Gives:** Property record — %SISTER% claims the disputed strip by use, no title; World State Change — the sibling land dispute is on the committee docket.
+- **Changes:** [Property Record](../items/census.md#property-record) — %SISTER% claims the disputed strip by use, no title; [The dispute](dispute-brother.md#the-dispute) — TBD
 
 ### Take her plea seriously
 - **When:** The committee engages with her as a claimant, not a nuisance
@@ -60,7 +60,7 @@ She states her case rather than begging for it. When she repeats her father's la
 ### Tell her what her father really witnessed
 - **Prompted by:** [army-massacred-civilians-in-1947](../clues/clues.md#army-massacred-civilians-in-1947)
 - **Outcome:** She goes still and stops using the deathbed account as a property argument. She will not repeat it in an official room again.
-- **Gives:** NPC State Change — %SISTER% withdraws the testimony from the dispute and will not state it formally.
+- **Changes:** [The dispute](dispute-brother.md#the-dispute) — TBD
 
 ## Bond
 
