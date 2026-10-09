@@ -579,7 +579,8 @@
 "carriage": "Lean and rangy; moves loose and easy, like he is still the life of the party.",
 "per": "player",
 "start": "false",
-"when": "Drink or Alcoholic; crew present (outside the The Store or at the Bimber Still) or an invitation from Tadek; the crew is not Hostile",
+"requires": "Physique OR Alcoholic",
+"when": "crew present (outside the The Store or at the Bimber Still) or an invitation from Tadek; the crew is not Hostile",
 "cost": "1 time",
 "outcome": "The committee buys a round and shares a full session in the drinking circle. Tadek warms to whoever kept pace without judging him.",
 "changes": "Drinking Buddy — the drinking PCs become Tadek's drinking buddies",
@@ -778,7 +779,8 @@
 "if-crew-present": "The men sit around the fire with bottles and cards.",
 "if-crew-absent": "Fresh boot prints, warm ashes, and half-full bottles remain.",
 "negative-evidence": "No weapons, documents, hidden room, or grave are visible here.",
-"when": "Crew present; Drink or Alcoholic; hands off the still",
+"requires": "Physique OR Alcoholic",
+"when": "Crew present; hands off the still",
 "outcome": "The committee takes the offered bottle and makes it clear they are not here to shut the still down. The crew relaxes and the night turns into a session. Tadek warms to whoever kept pace without judging him.",
 "changes": "Drinking Buddy — the drinking PCs become Tadek's drinking buddies"
 },
@@ -1519,16 +1521,6 @@
 "location": "The PGR Farm",
 "present": "Michał Pytlak, Zbigniew Gajda, Ryszard Dudka, farm workers",
 "available": "Day 1–2 morning; fresh livestock kills are visible at the The PGR Farm from Day 1"
-},
-"events/wujas-cracks.md": {
-"name": "Wujas Cracks",
-"location": "Bimber Still",
-"present": "Tadek Gajda",
-"available": "Day 3–4 onward, after pressure from the committee, rain, rising water, or Janina Gajda's death",
-"when": "Bond with Tadek Gajda or prior humane treatment; Tadek is not being threatened",
-"cost": "1 time",
-"outcome": "Tadek gives the lynch in fragments: Hania knew the family secret and never used it, Helena's threat story was false, Edward came with the rifle, Edward was killed, his body went to the well, and Hania broke free and ran into the night.",
-"gives": "jagna-knew-the-secret, wujas-participated-in-lynch, wojewoda-participated-in-lynch, butcher-participated-in-lynch, soldier-killed-defending-daughter, lynch-body-in-well, butcher-dumped-the-body, jagna-fled-the-lynch"
 },
 "events/wujas-visits-butcher.md": {
 "name": "Wujas Visits the Butcher",

@@ -70,7 +70,8 @@ Facing the steep plug at the ridge gap.
 - **Changes:** [Climber position](#climber-position) — topped out, or Wounded and not up without the reserve
 
 ### Drive the clamp
-- **When:** The [@name](../items/anchor.md) (from the [@name](../locations/pgr-farm.md)); the climber is past the killzone.
+- **Requires:** [@name](../items/anchor.md)
+- **When:** the climber is past the killzone.
 - **Cost:** 1 time
 - **Outcome:** The climber drives the steel clamp into the soft shale seam under the slab and pulls over on it, topping out clean with no composure tax. The clamp stays in the rock.
 - **Changes:** [Climber position](#climber-position) — topped out; [Anchor](#anchor) — the crux is anchored for later climbs

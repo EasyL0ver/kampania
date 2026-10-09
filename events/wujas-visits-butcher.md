@@ -48,7 +48,6 @@
 
 - [@surname](../characters/butcher.md) comes to the [@name](../locations/pgr-farm.md) for [@name](hunt-with-rezen.md).
 - [@first-name](../characters/wojewoda.md) later confronts him in [@name](wojewoda-confronts-butcher.md).
-- [@nickname](../characters/wujas.md) starts deteriorating toward [@name](wujas-cracks.md).
 
 ## If Missed
 

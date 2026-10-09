@@ -80,7 +80,8 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 - **Changes:** [Balance](#balance) — regained on the second Frantic grasp in a row
 
 ### Drive the anchor
-- **When:** The [@name](../items/anchor.md); the climber is past the killzone.
+- **Requires:** [@name](../items/anchor.md)
+- **When:** the climber is past the killzone.
 - **Cost:** 1 time
 - **Outcome:** The climber drives the anchor home at the top of the plug, setting a fixed point for the crux.
 - **Changes:** [Anchor](#anchor) — the top-out is anchored

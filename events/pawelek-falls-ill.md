@@ -55,7 +55,6 @@
 - **Gives:** [pawelek-burns-with-fever](../clues/clues.md#pawelek-burns-with-fever)
 
 ### Tend to him
-- **When:** Medicine, or helping [@first-name](../characters/barbara.md) nurse him
 <!-- Prompted by: aware:events/pawelek-falls-ill.md -->
 - **Cost:** 1 time
 - **Outcome:** Cool cloths, water, keeping him still. Nothing you do slows the fever; he keeps sinking on the clock all the same. At 2 HP or lower you see he passes little urine, dark as strong tea.

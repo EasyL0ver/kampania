@@ -113,7 +113,8 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 - **Changes:** [Play with him](#pawelek-play)
 
 ### Ask about drinking water
-- **When:** [@first-name](pawelek.md) is sick, HP 5-6 (lucid), and [@first-name](pawelek.md) trusts the player or the player uses Speech
+- **Requires:** [Bond: Pawełek Kopacz](../cards/bond-pawelek.md) OR [Speech](../cards/speech.md)
+- **When:** [@first-name](pawelek.md) is sick, HP 5-6 (lucid)
 - **Outcome:** He says he drank by the round stones where the water comes up, and that the lady told him not to drink it but he was thirsty.
 - **Gives:** [well-water-contaminated](../clues/clues.md#well-water-contaminated), aware:locations/old-village-ruins.md
 

@@ -48,7 +48,7 @@ His raspy warm voice gets louder and funnier with drink. The morning shakes and 
 [@nickname](wujas.md)'s guard only drops for people who drink with him. Unlike a [Bond](#bond), this is not exclusive and not hidden — **any** number of PCs can become drinking buddies, and a player can feel themselves being pulled into his circle.
 
 **Becoming a buddy** (GM tracks silently, no announcement):
-- Share a full drinking session with him — Drink skill or the Alcoholic card. Nursing a glass or refusing does not count. The entry point is [Drink with the crew](#drink-with-the-crew) at the store, or drinking with him at [@name](../events/dinner.md).
+- Share a full drinking session with him — Physique or the Alcoholic card. Nursing a glass or refusing does not count. The entry point is [Drink with the crew](#drink-with-the-crew) at the store, or drinking with him at [@name](../events/dinner.md).
 - Do it without judging him, pulling rank, or steering straight to interrogation.
 
 One qualifying session makes a PC a drinking buddy for the rest of the game. It cannot be lost.
@@ -75,7 +75,8 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 ## Actions
 
 ### Drink with the crew
-- **When:** Drink or Alcoholic; crew present (outside the [@name](../locations/the-store.md) or at the [@name](../locations/bimber-still.md)) or an invitation from [@nickname](wujas.md); the crew is not [Hostile](#crew-hostile)
+- **Requires:** [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md)
+- **When:** crew present (outside the [@name](../locations/the-store.md) or at the [@name](../locations/bimber-still.md)) or an invitation from [@nickname](wujas.md); the crew is not [Hostile](#crew-hostile)
 - **Cost:** 1 time
 - **Outcome:** The committee buys a round and shares a full session in the drinking circle. [@nickname](wujas.md) warms to whoever kept pace without judging him.
 - **Changes:** [Drinking Buddy](#drinking-buddy) — the drinking PCs become [@nickname](wujas.md)'s drinking buddies
@@ -96,11 +97,6 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 - **When:** First leverage visit completed and well influence active
 - **Outcome:** The bottle is not working, and half-sentences slip out around [@first-name](jagna.md) before he catches himself.
 - **Gives:** [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
-
-### Leverage — the bimber play, third visit
-- **When:** Second leverage visit completed
-- **Outcome:** He can no longer hold the story together.
-- **Gives:** aware:events/wujas-cracks.md
 
 ### Census interview
 - **Cost:** 1 time

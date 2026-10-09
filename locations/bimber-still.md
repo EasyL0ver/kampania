@@ -37,7 +37,8 @@
 ## Actions
 
 ### Sit down and drink with the crew
-- **When:** Crew present; Drink or Alcoholic; hands off the still
+- **Requires:** [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md)
+- **When:** Crew present; hands off the still
 - **Cost:** 1 time
 - **Outcome:** The committee takes the offered bottle and makes it clear they are not here to shut the still down. The crew relaxes and the night turns into a session. [@nickname](../characters/wujas.md) warms to whoever kept pace without judging him.
 - **Changes:** [Drinking Buddy](../characters/wujas.md#drinking-buddy) — the drinking PCs become [@nickname](../characters/wujas.md)'s drinking buddies
