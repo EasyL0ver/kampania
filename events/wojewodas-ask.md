@@ -1,8 +1,8 @@
 # Wojewoda's Ask
 
-**Location:** [PGR Office](../locations/pgr-office.md)
-**Present:** [Zbigniew Gajda](../characters/wojewoda.md), players
-**Available:** After [Zbigniew Gajda](../characters/wojewoda.md) knows the flood is possible and knows the committee is assessing property for compensation
+**Location:** [@name](../locations/pgr-office.md)
+**Present:** [@name](../characters/wojewoda.md), players
+**Available:** After [@name](../characters/wojewoda.md) knows the flood is possible and knows the committee is assessing property for compensation
 
 ## Trigger
 
@@ -21,8 +21,8 @@ Zbigniew Gajda closing the PGR office door to speak with the committee privately
 - PGR labourers live in PGR housing.
 - Money for PGR housing goes to the state, not the people living there.
 - Zbigniew asks the committee to record those houses as the villagers' own.
-- He does not name [Barbara](../characters/barbara.md)'s brick house.
-- He does not name [Janina](../characters/ciotka.md)'s cottage.
+- He does not name [@name](../characters/barbara.md)'s brick house.
+- He does not name [@name](../characters/ciotka.md)'s cottage.
 - The false record would defraud the state and pay villagers who are about to lose everything.
 
 ## Opportunities
@@ -49,10 +49,10 @@ Zbigniew Gajda closing the PGR office door to speak with the committee privately
 - **When:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway; see [Zbigniew Gajda](../characters/wojewoda.md#show-the-paperwork-for-janinas-house)
 - **Prompted by:** [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs)
 - **Cost:** 1 time
-- **Outcome:** Zbigniew shows the 1954 file with [Edward Barnaś's forged declaration](../items/barnas-departure-declaration.md), but does not hand it over.
+- **Outcome:** Zbigniew shows the 1954 file with [@name](../items/barnas-departure-declaration.md), but does not hand it over.
 - **Gives:** aware:items/barnas-departure-declaration.md
 
 ## Exits
 
-- Back to the [PGR Office](../locations/pgr-office.md) and the committee's ongoing work.
-- To [The Report](the-report.md) if the players record or refuse the false property ask.
+- Back to the [@name](../locations/pgr-office.md) and the committee's ongoing work.
+- To [@name](the-report.md) if the players record or refuse the false property ask.

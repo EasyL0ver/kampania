@@ -8,10 +8,12 @@
 
 ## Vital Statistics
 
+- **First name:** Józef
+- **Surname:** Nowak
 - **Status:** Resident
 - **Born:** ~1932
 - **Age in 1967:** ~30-40
-- **Lives in:** [PGR Workers' Quarters](../../locations/pgr-quarters.md)
+- **Lives in:** [@name](../../locations/pgr-quarters.md)
 - **Settled:** ~1963
 - **Works at:** PGR farm labor
 
@@ -27,5 +29,5 @@ A common farmhand who does physical labor alongside Barbara Kopacz. He may know 
 
 ## Opinions
 
-- **[Barbara Kopacz](../barbara.md)** — "She works near me. That does not mean I know her business."
-- **[Tadek Gajda](../wujas.md)** — "A drink loosens tongues, but it does not make every word true."
+- **[@name](../barbara.md)** — "She works near me. That does not mean I know her business."
+- **[@name](../wujas.md)** — "A drink loosens tongues, but it does not make every word true."

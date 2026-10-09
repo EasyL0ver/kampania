@@ -8,11 +8,14 @@ Helena Rzepka, the devout woman who runs the village store.
 
 ## Vital Statistics
 
+- **First name:** Helena
+- **Surname:** Rzepka
+- **Maiden name:** Gajda
 - **Status:** Resident
 - **Born:** 1922
 - **Age in 1967:** 45
-- **Heritage:** Lemko (hidden) — see [Zbigniew Gajda](wojewoda.md) for shared sibling background
-- **Lives in:** [Helena Rzepka & Emil Rzepka's house](../locations/matronas-house.md) — with [Emil Rzepka](painter.md), [Ewa Rzepka](secondary/ewa-rzepka.md), [Krystian Rzepka](secondary/krystian-rzepka.md)
+- **Heritage:** Lemko (hidden) — see [@name](wojewoda.md) for shared sibling background
+- **Lives in:** [@name](../locations/matronas-house.md) — with [@name](painter.md), [@name](secondary/ewa-rzepka.md), [@name](secondary/krystian-rzepka.md)
 - **Settled:** ~1948 — first wave, with siblings
 
 ## Character
@@ -29,12 +32,12 @@ People lower their voices around her. Her own voice stays low and measured, so o
 
 ## Opinions
 
-- **[Emil Rzepka](painter.md)** — "He is my husband and my responsibility. Broken men do not wander far if the house gives them shape."
-- **[Zbigniew Gajda](wojewoda.md)** — "He manages the village; I manage what may be said inside it. I trust his competence more than his nerve."
-- **[Tadek Gajda](wujas.md)** — "My brother is weak, drunk, and dangerous to the family by accident. I watch him because he may speak before he thinks."
-- **[Janina Gajda](ciotka.md)** — "Janina's silence comes from love. Mine comes from will."
-- **[ks. Władysław Pająk](priest.md)** — "He sees a struggling soul and wants to protect it. That is useful."
-- **[Irena Gajda](wife.md)** — "She suspects too much and can prove too little. I keep her close enough to measure and far enough to starve."
+- **[@name](painter.md)** — "He is my husband and my responsibility. Broken men do not wander far if the house gives them shape."
+- **[@name](wojewoda.md)** — "He manages the village; I manage what may be said inside it. I trust his competence more than his nerve."
+- **[@name](wujas.md)** — "My brother is weak, drunk, and dangerous to the family by accident. I watch him because he may speak before he thinks."
+- **[@name](ciotka.md)** — "Janina's silence comes from love. Mine comes from will."
+- **[@name](priest.md)** — "He sees a struggling soul and wants to protect it. That is useful."
+- **[@name](wife.md)** — "She suspects too much and can prove too little. I keep her close enough to measure and far enough to starve."
 - **[wujas-is-guilty](../clues/clues.md#wujas-is-guilty)** — "My brother is a troubled soul. I pray for him every day."
 - **[ciotka-overdosed](../clues/clues.md#ciotka-overdosed)** — "My sister's nerves were bad for years, and the doctor gave her something for them. She took too much of it the one time it mattered. God rest her; it was her own hand and her own frailty, and nothing more."
 - **[ciotka-hurt-before-death](../clues/clues.md#ciotka-hurt-before-death)** — "She was an old woman with thin skin. She bruised if you so much as took her arm to help her up. A mark on the wrist is grief looking for a guilty man where there is none."
@@ -54,26 +57,26 @@ People lower their voices around her. Her own voice stays low and measured, so o
 
 ### Census interview
 - **Cost:** 1 time
-- **Outcome:** She gives herself, [Emil](painter.md), and the two children before the question is finished.
+- **Outcome:** She gives herself, [@name](painter.md), and the two children before the question is finished.
 - **Changes:** [Census](../items/census.md#census) — Helena, Emil, Ewa, Krystian Rzepka
 
 ### Property assessment
 - **Cost:** 1 time
-- **Outcome:** She names the house and [the store](../locations/the-store.md) she runs, with papers in order.
+- **Outcome:** She names the house and [@name](../locations/the-store.md) she runs, with papers in order.
 - **Changes:** [Property Record](../items/census.md#property-record) — Rzepka house and store
 
 ### Ask for the penicillin
 - **Prompted by:** [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin)
 - **Cost:** 1 time
-- **Outcome:** She holds the only cabinet key and will not turn it for nothing. The penicillin is theirs, she says, on one condition: the committee lets her fill the village census in their stead, a kindness to spare busy officials the walking. She will not open the cabinet until they agree. Word of the sick child and what he needs reaches her sister [Janina](ciotka.md).
+- **Outcome:** She holds the only cabinet key and will not turn it for nothing. The penicillin is theirs, she says, on one condition: the committee lets her fill the village census in their stead, a kindness to spare busy officials the walking. She will not open the cabinet until they agree. Word of the sick child and what he needs reaches her sister [@name](ciotka.md).
 - **Gives:** [helena-demands-the-census](../clues/clues.md#helena-demands-the-census)
 - **Changes:** [Robbery suspect](#robbery-suspect) — committee, if no one asked before
 
 ### Agree to her terms
 - **Prompted by:** [helena-demands-the-census](../clues/clues.md#helena-demands-the-census)
-- **Cost:** 1 time + [Committee Census Register](../items/census.md)
+- **Cost:** 1 time + [@name](../items/census.md)
 - **Outcome:** They agree, and she turns the key. She counts out a child's course of penicillin and takes the census book from their hands: from now the count is hers to fill, hers to decide what it shows.
-- **Gives:** [Penicillin](../items/penicillin.md)
+- **Gives:** [@name](../items/penicillin.md)
 - **Changes:** [Keeper](../items/census.md#keeper) — Helena Rzepka fills it herself
 
 ## Bond

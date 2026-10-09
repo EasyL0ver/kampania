@@ -2,7 +2,7 @@
 
 **Type:** Location (revisitable)
 **Location:** Zbigniew Gajda's office in the PGR main building.
-**Present:** [Zbigniew Gajda](../characters/wojewoda.md) (usually during day)
+**Present:** [@name](../characters/wojewoda.md) (usually during day)
 **Available:** After arrival event
 **Cost:** 1 action per visit
 
@@ -32,7 +32,7 @@ Zbigniew Gajda's office in the PGR main building.
 - **When:** Zbigniew Gajda absent or distracted
 - **Cost:** 1 time
 - **Outcome:** Players take the maps; Zbigniew Gajda will notice eventually.
-- **Gives:** [Topographic Maps](../items/topographic-maps.md)
+- **Gives:** [@name](../items/topographic-maps.md)
 
 ### Call the survey archive
 - **When:** Phone access (monitored if Zbigniew Gajda is present)
@@ -52,7 +52,7 @@ Zbigniew Gajda's office in the PGR main building.
 - **Prompted by:** [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain)
 - **Cost:** 1 time
 - **Outcome:** The shelf's land-drainage files hold the ditch's construction spec: a concrete-lined channel the full run, signed off as built. Set against a walked ditch it is the paper proof the ditch fell short.
-- **Gives:** [PGR Irrigation Ditch Construction Spec](../items/ditch-construction-spec.md)
+- **Gives:** [@name](../items/ditch-construction-spec.md)
 
 ### Inspect the PGR ledger
 - **When:** Committee census work
@@ -63,5 +63,5 @@ Zbigniew Gajda's office in the PGR main building.
 ### Crack the safe
 - **When:** Zbigniew Gajda absent or distracted, and a way to open the safe
 - **Cost:** 1 time
-- **Outcome:** The safe contains the sołtys's loaded pistol and [Edward Barnaś's Departure Declaration](../items/barnas-departure-declaration.md).
-- **Gives:** [Edward Barnaś's Departure Declaration](../items/barnas-departure-declaration.md), [departure-declaration-forged](../clues/clues.md#departure-declaration-forged), [Sołtys's Pistol](../items/soltys-pistol.md)
+- **Outcome:** The safe contains the sołtys's loaded pistol and [@name](../items/barnas-departure-declaration.md).
+- **Gives:** [@name](../items/barnas-departure-declaration.md), [departure-declaration-forged](../clues/clues.md#departure-declaration-forged), [@name](../items/soltys-pistol.md)

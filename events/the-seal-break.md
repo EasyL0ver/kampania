@@ -1,12 +1,12 @@
 # The Seal-Break — The Priest Names the Dead
 
-**Location:** [The church](../locations/the-church.md)
-**Present:** [ks. Władysław Pająk](../characters/priest.md), [Helena Rzepka](../characters/matrona.md) (if alive), [Zbigniew Gajda](../characters/wojewoda.md) (if survived Day 6), [Tadek](../characters/wujas.md) (if alive), [Ryszard Dudka](../characters/neighbour.md) (if alive), [Emil](../characters/painter.md) (if alive), [Stanisław Rezeń](../characters/butcher.md) (if not taken by the mob)
-**Available:** Day 7, if [Faith in Redemption](../story-facts/spiritual-endings.md) is below threshold at the end of Day 6; mutually exclusive with [The Odpust](the-odpust.md)
+**Location:** [@name](../locations/the-church.md)
+**Present:** [@name](../characters/priest.md), [@name](../characters/matrona.md) (if alive), [@name](../characters/wojewoda.md) (if survived Day 6), [@name](../characters/wujas.md) (if alive), [@name](../characters/neighbour.md) (if alive), [@name](../characters/painter.md) (if alive), [@name](../characters/butcher.md) (if not taken by the mob)
+**Available:** Day 7, if [Faith in Redemption](../story-facts/spiritual-endings.md) is below threshold at the end of Day 6; mutually exclusive with [@name](the-odpust.md)
 
 ## Trigger
 
-- [ks. Władysław Pająk](../characters/priest.md)'s Faith in Redemption score fails.
+- [@name](../characters/priest.md)'s Faith in Redemption score fails.
 - No merciful reading prevails before Day 7.
 - The guilty do not kneel, or the players push him to weaponise the confessional, or the Day-6 night lynch happens.
 - He decides the valley is damned and breaks the seal of confession.
@@ -22,7 +22,7 @@
 - The church is packed.
 - Black water is under the door and spreading over the flagstones.
 - Floor candles are drowning.
-- [ks. Władysław Pająk](../characters/priest.md) sits on the altar table with bimber.
+- [@name](../characters/priest.md) sits on the altar table with bimber.
 - His collar is off.
 - His vestments are half-undone.
 - He is drunk.
@@ -30,16 +30,16 @@
 - He says he has decided to stop lying.
 - He calls the water judgment over a valley built on a grave.
 - He names the acts from the 1954 lynch.
-- He names [Zbigniew Gajda](../characters/wojewoda.md), [Tadek](../characters/wujas.md), and [Stanisław Rezeń](../characters/butcher.md).
-- He grieves [Janina Gajda](../characters/ciotka.md) as the source of years of confession.
-- He does not name [Helena Rzepka](../characters/matrona.md).
+- He names [@name](../characters/wojewoda.md), [@name](../characters/wujas.md), and [@name](../characters/butcher.md).
+- He grieves [@name](../characters/ciotka.md) as the source of years of confession.
+- He does not name [@name](../characters/matrona.md).
 - His account reaches from the 1954 lynch back to the old village and the state cover-up.
 
 ## Opportunities
 
 - **The priest on the altar** `(noticed by: [Devotion](../cards/devotion.md))` — he knows what breaking the seal costs and does it deliberately.
 - **The broken seal** `(noticed by: [Culture](../cards/culture.md))` — a priest violating the seal of confession is committing one of the gravest violations in his faith.
-- **The names as they land** `(noticed by: [Empathy](../cards/empathy.md))` — [Zbigniew Gajda](../characters/wojewoda.md) looks for an exit; [Tadek](../characters/wujas.md) weeps; [Helena Rzepka](../characters/matrona.md) waits for her name and does not hear it.
+- **The names as they land** `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/wojewoda.md) looks for an exit; [@name](../characters/wujas.md) weeps; [@name](../characters/matrona.md) waits for her name and does not hear it.
 - **The valley built on a grave** `(noticed by: [History](../cards/history.md) OR [Culture](../cards/culture.md))` — his account connects the lynch to the old village, the people officially called resettled, and the buried cover-up.
 - **The open vice** `(prompted by: aware:events/the-seal-break.md)`: the man who hid his habit now smokes on the altar, plain to everyone present. → Gives: [priest-smokes](../clues/clues.md#priest-smokes)
 - **The brand on the paper** `(noticed by: [Chainsmoker](../cards/chainsmoker.md) AND [priest-smokes](../clues/clues.md#priest-smokes))` — a smoker reads the brand off the paper burning in his hand: premium Carmen, the same the village would name at Janina's door. → Gives: [priest-smokes-carmen](../clues/clues.md#priest-smokes-carmen)
@@ -60,6 +60,6 @@
 
 ## Exits
 
-- Into [the flood](the-flood.md) with the truth spoken and no absolution.
-- [The Odpust](the-odpust.md) is foreclosed.
-- [Rest](the-ritual.md) remains open because the seal-break does not name the dead to the dead.
+- Into [@name](the-flood.md) with the truth spoken and no absolution.
+- [@name](the-odpust.md) is foreclosed.
+- [@name](the-ritual.md) remains open because the seal-break does not name the dead to the dead.

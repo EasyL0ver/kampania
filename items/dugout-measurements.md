@@ -2,7 +2,7 @@
 
 **Type:** Item — tape measurements of the ditch's earth dugout
 **Source:** Taken with a tape at [the irrigation ditch](../locations/the-irrigation-ditch.md#measure-the-dugout), where the concrete gives out.
-**Carried:** Paired with the [Concrete Ditch Measurements](concrete-ditch-measurements.md), input for the drainage tables: the [geologist's kit](geologists-kit.md), [prof. Bieńkowski](../characters/professor.md) by phone, or [%RADIOMAN%](../characters/radioman.md).
+**Carried:** Paired with the [@name](concrete-ditch-measurements.md), input for the drainage tables: the [@name](geologists-kit.md), [@name](../characters/professor.md) by phone, or [@name](../characters/radioman.md).
 
 ## Hook
 

@@ -8,6 +8,9 @@
 
 ## Vital Statistics
 
+- **First name:** Henryk
+- **Surname:** Ćwiek
+- **Title:** kpt.
 - **Status:** Dead
 - **Born:** ~1915
 - **Died:** 1947 (age ~32)
@@ -29,9 +32,9 @@ In records and memories, he is less a private man than a uniform. People name hi
 
 ## Opinions
 
-- **[Edward Barnaś](soldier.md)** — "He is a soldier in my unit. He follows orders."
-- **[Stanisław Rezeń](butcher.md)** — "He is a civilian auxiliary useful for local work. I do not need to like a tool to use it."
-- **[por. Witold Skowron](officer.md)** — "If the state wants a clean file, men like him make one."
+- **[@name](soldier.md)** — "He is a soldier in my unit. He follows orders."
+- **[@name](butcher.md)** — "He is a civilian auxiliary useful for local work. I do not need to like a tool to use it."
+- **[@name](officer.md)** — "If the state wants a clean file, men like him make one."
 - **[officer-killed](../clues/clues.md#officer-killed)** — "My death is the fact the file had to move elsewhere. A dead captain at %OLD_VILLAGE% explains too much."
 - **[massacre-was-retribution](../clues/clues.md#massacre-was-retribution)** — "Discipline broke after I fell. What followed was not an order anyone wanted written down."
 

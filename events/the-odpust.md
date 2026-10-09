@@ -1,16 +1,16 @@
 # The Odpust — Grace at the Last
 
-**Location:** [The church](../locations/the-church.md)
-**Present:** [ks. Władysław Pająk](../characters/priest.md), [Helena Rzepka](../characters/matrona.md), [Zbigniew Gajda](../characters/wojewoda.md) (if survived Day 6), [Tadek](../characters/wujas.md), [Ryszard Dudka](../characters/neighbour.md), [Emil](../characters/painter.md), [Stanisław Rezeń](../characters/butcher.md) (if not killed), [Stefania Kopacz](../characters/babcia.md) (conditional), villagers
-**Available:** Day 7; fires only if [Faith in Redemption](../story-facts/spiritual-endings.md) cleared its threshold by end of Day 6 and [Rest](the-ritual.md) has not fired.
+**Location:** [@name](../locations/the-church.md)
+**Present:** [@name](../characters/priest.md), [@name](../characters/matrona.md), [@name](../characters/wojewoda.md) (if survived Day 6), [@name](../characters/wujas.md), [@name](../characters/neighbour.md), [@name](../characters/painter.md), [@name](../characters/butcher.md) (if not killed), [@name](../characters/babcia.md) (conditional), villagers
+**Available:** Day 7; fires only if [Faith in Redemption](../story-facts/spiritual-endings.md) cleared its threshold by end of Day 6 and [@name](the-ritual.md) has not fired.
 
 ## Trigger
 
 - Enough guilty villagers knelt in ks. Pająk's confessional.
 - ks. Pająk's crisis resolves toward mercy.
 - He chooses to offer grace before the water reaches the church.
-- If [Rest](the-ritual.md) has fired, this event does not fire.
-- If the threshold is not met, the day goes to [The Seal-Break](the-seal-break.md).
+- If [@name](the-ritual.md) has fired, this event does not fire.
+- If the threshold is not met, the day goes to [@name](the-seal-break.md).
 
 ## Hook
 
@@ -31,16 +31,16 @@
 - He does not name them.
 - He says the water is the last chance for mercy, not the end of mercy.
 - He offers general absolution to the congregation.
-- If [Rezeń](../characters/butcher.md) lives, he attends despite skipping earlier Masses.
-- If the players stirred the Lemko rite but did not finish [Rest](the-ritual.md), [Stefania Kopacz](../characters/babcia.md) stands and pleads against washing killers clean while the dead in the well remain unnamed.
+- If [@name](../characters/butcher.md) lives, he attends despite skipping earlier Masses.
+- If the players stirred the Lemko rite but did not finish [@name](the-ritual.md), [@name](../characters/babcia.md) stands and pleads against washing killers clean while the dead in the well remain unnamed.
 
 ## Opportunities
 
 - **The restored priest** `(noticed by: [Devotion](../cards/devotion.md))` — ks. Pająk has chosen mercy over judgment.
 - **The rite forming** `(noticed by: [Culture](../cards/culture.md))` — he is building toward general absolution for people in danger of death.
 - **The word scarlet** `(noticed by: [Devotion](../cards/devotion.md))` — his eyes go to Zbigniew, Tadek, and Rezeń, but not Helena.
-- **The butcher in the pew** `(when: [Rezeń](../characters/butcher.md) present)` `(noticed by: [Empathy](../cards/empathy.md))` — Rezeń is accepting absolution without visible contrition.
-- **Babcia's objection** `(when: [Stefania Kopacz](../characters/babcia.md) present)` `(noticed by: [Culture](../cards/culture.md))` — the Lemko dead have not been named or rested, so Catholic absolution does not answer their grievance.
+- **The butcher in the pew** `(when: [@name](../characters/butcher.md) present)` `(noticed by: [Empathy](../cards/empathy.md))` — Rezeń is accepting absolution without visible contrition.
+- **Babcia's objection** `(when: [@name](../characters/babcia.md) present)` `(noticed by: [Culture](../cards/culture.md))` — the Lemko dead have not been named or rested, so Catholic absolution does not answer their grievance.
 
 ## Actions
 
@@ -49,7 +49,7 @@
 - **Changes:** [Grace](../characters/priest.md#grace) — true; [Rest](../characters/hag.md#rest) — can no longer become true
 
 ### Answer Babcia's plea by stopping
-- **When:** [Stefania Kopacz](../characters/babcia.md) is present and the players choose not to proceed past her plea.
+- **When:** [@name](../characters/babcia.md) is present and the players choose not to proceed past her plea.
 - **Cost:** 1 time
 - **Outcome:** The players refuse to let the odpust be the final answer while the well dead remain unnamed.
 - **Gives:** aware:events/the-ritual.md
@@ -63,6 +63,6 @@
 
 ## Exits
 
-- Into the flood and the final water choices in [The Flood](the-flood.md).
-- [Rest](the-ritual.md) is foreclosed if the odpust completes.
-- If Babcia's plea stops the odpust, go to [The Ritual](the-ritual.md).
+- Into the flood and the final water choices in [@name](the-flood.md).
+- [@name](the-ritual.md) is foreclosed if the odpust completes.
+- If Babcia's plea stops the odpust, go to [@name](the-ritual.md).

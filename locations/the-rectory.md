@@ -1,8 +1,8 @@
 # The Rectory (Plebania)
 
 **Type:** Location (revisitable)
-**Location:** %NEW_VILLAGE% — plebania adjacent to [the church](the-church.md).
-**Present:** [ks. Władysław Pająk](../characters/priest.md) (inside, usually)
+**Location:** %NEW_VILLAGE% — plebania adjacent to [@name](the-church.md).
+**Present:** [@name](../characters/priest.md) (inside, usually)
 **Available:** Any day
 **Cost:** 1 action per visit
 

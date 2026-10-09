@@ -2,7 +2,7 @@
 
 **Type:** Item — weapon (keepsake, hidden)
 **Source:** Hidden among Edek's things, found by [searching Edek's room](../locations/ciotkas-house/ciotkas-house.md#search-edeks-room)
-**Carried:** Evidence. Wartime German army kit in [Edek](../characters/glupek.md)'s keeping, impossible from his father's Polish KBW gear.
+**Carried:** Evidence. Wartime German army kit in [@name](../characters/glupek.md)'s keeping, impossible from his father's Polish KBW gear.
 
 ## Hook
 
@@ -10,7 +10,7 @@
 
 ## Description
 
-An old military bayonet, the blade kept clean and faintly oiled, the grip worn smooth from handling. It was tucked away among [Edek](../characters/glupek.md)'s few things like a prize and kept hidden from [Janina](../characters/ciotka.md). To an untrained eye it is just an old army knife of no particular origin.
+An old military bayonet, the blade kept clean and faintly oiled, the grip worn smooth from handling. It was tucked away among [@name](../characters/glupek.md)'s few things like a prize and kept hidden from [@name](../characters/ciotka.md). To an untrained eye it is just an old army knife of no particular origin.
 
 ## Opportunities
 

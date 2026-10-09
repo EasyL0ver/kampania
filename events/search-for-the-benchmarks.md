@@ -1,6 +1,6 @@
 # Search for the Benchmarks
 
-**Location:** [Far-Ridge Streambed](../locations/far-ridge-streambed.md)
+**Location:** [@name](../locations/far-ridge-streambed.md)
 **Present:** Survey party
 **Available:** Holding [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
 
@@ -18,7 +18,7 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 - The markers are old, weathered, and half-buried in undergrowth and slid earth; there is no map to their exact spots.
 - There are two to find: one at the streambed col, one at the village edge. Both elevations are needed, so both markers must be turned up.
 - Quartering the whole slope for markers means crossing ground nobody has walked in years; there is more than benchmarks half-swallowed in the gorse up here.
-- The hunt is the gamble against [surveying the col](surveying-the-streambed.md): no geologist and no kit, but the combing eats more cards than a clean survey unless the party can read the ground.
+- The hunt is the gamble against [@name](surveying-the-streambed.md): no geologist and no kit, but the combing eats more cards than a clean survey unless the party can read the ground.
 - Once found, anyone can copy the two stamped elevations off them, no skill needed.
 
 ## Actions
@@ -41,7 +41,7 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 - **When:** the col marker is not yet found
 - **Prompted by:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
 - **Cost:** 1 time
-- **Outcome:** You quarter the ground around the col. Until the hidden count is reached: weathered rock, slid earth, nothing stamped. On the search that reaches it, the stamped benchmark turns up under the gorse, and higher up you stumble on an abandoned shepherd's koliba, easy to miss and long empty. It can be revisited and entered any time from the [Far-Ridge Streambed](../locations/far-ridge-streambed.md).
+- **Outcome:** You quarter the ground around the col. Until the hidden count is reached: weathered rock, slid earth, nothing stamped. On the search that reaches it, the stamped benchmark turns up under the gorse, and higher up you stumble on an abandoned shepherd's koliba, easy to miss and long empty. It can be revisited and entered any time from the [@name](../locations/far-ridge-streambed.md).
 - **Gives:** [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed)
 - **Changes:** [Hidden count](#hidden-count) — +1 point at the col
 
@@ -55,18 +55,18 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 ### Copy the elevations
 - **When:** both markers found
 - **Outcome:** You copy the two stamped elevations off the benchmarks, the col and the village.
-- **Gives:** [Streambed Parameters](../items/streambed-parameters.md)
+- **Gives:** [@name](../items/streambed-parameters.md)
 
 ## Mechanics
 
 ### Hidden count
 
 - **The search is a gamble, not a fixed price.** Each search costs 1 time and the players never learn how many it takes. The GM answers "nothing yet" until the site's hidden count is reached.
-- **Hidden count:** each site's marker turns up at **4 points**. Each search adds 1 point; a Survival read of the site adds 2. A Physique dig on that site drops it to the **2nd** search; it does not stack with the read. [Michał Pytlak](../characters/foreman.md), if he came up ([Bring him to the streambed](../characters/foreman.md#bring-him-to-the-streambed)), remembers one site well enough to drop it to the **2nd** as well.
+- **Hidden count:** each site's marker turns up at **4 points**. Each search adds 1 point; a Survival read of the site adds 2. A Physique dig on that site drops it to the **2nd** search; it does not stack with the read. [@name](../characters/foreman.md), if he came up ([Bring him to the streambed](../characters/foreman.md#bring-him-to-the-streambed)), remembers one site well enough to drop it to the **2nd** as well.
 - **Searches already made count** toward the lower number.
 - **Sites are independent.** Two PCs can search one site each in parallel.
 - **Against the survey:** with reads the hunt costs 4 time and needs no specialist; without, 8, and the players cannot see that coming. That is the trade for skipping the geologist.
 
 ## Exits
 
-- Holding the [Streambed Parameters](../items/streambed-parameters.md), interpret them into [streambed-dead-ends](../clues/clues.md#streambed-dead-ends): read them as a surveyor with the [kit](../items/geologists-kit.md), phone [prof. Bieńkowski](../characters/professor.md), or show [Michał Pytlak](../characters/foreman.md).
+- Holding the [@name](../items/streambed-parameters.md), interpret them into [streambed-dead-ends](../clues/clues.md#streambed-dead-ends): read them as a surveyor with the [@name](../items/geologists-kit.md), phone [@name](../characters/professor.md), or show [@name](../characters/foreman.md).

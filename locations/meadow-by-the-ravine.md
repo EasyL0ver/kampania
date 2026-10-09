@@ -3,7 +3,7 @@
 **Type:** Location (hidden, discoverable)
 **Location:** Deep forest between the villages, off an old hunting track
 **Present:** Nobody
-**Available:** Requires [neighbour-believes-jagna-dead](../clues/clues.md#neighbour-believes-jagna-dead), [dudka-buried-a-friend-at-the-ravine](../clues/clues.md#dudka-buried-a-friend-at-the-ravine), or [The Hunt with Dudka](../events/hunt-with-dudka.md); reached from [Village Outskirts](village-outskirts.md)
+**Available:** Requires [neighbour-believes-jagna-dead](../clues/clues.md#neighbour-believes-jagna-dead), [dudka-buried-a-friend-at-the-ravine](../clues/clues.md#dudka-buried-a-friend-at-the-ravine), or [@name](../events/hunt-with-dudka.md); reached from [@name](village-outskirts.md)
 **Cost:** 1 action to reach
 
 ## Hook
@@ -27,9 +27,9 @@
 ## Actions
 
 ### Open the grave
-- **When:** Found the cairn; [Ryszard Dudka](../characters/neighbour.md) absent or permission to exhume
+- **When:** Found the cairn; [@name](../characters/neighbour.md) absent or permission to exhume
 - **Cost:** 1 time
 - **Outcome:** The stones lift away; underneath are a rotted coat and scattered bones without an identifiable face.
-- **Gives:** [Remains from the Ravine](../items/ravine-remains.md)
+- **Gives:** [@name](../items/ravine-remains.md)
 
 

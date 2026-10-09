@@ -3,7 +3,7 @@
 **Type:** Location (discoverable, revisitable)
 **Location:** The far ridge across the valley from %NEW_VILLAGE%; a dry col that appears to spill toward the next valley.
 **Present:** none
-**Available:** Any day; reached by crossing the valley and climbing to the far ridge from the [Village Outskirts](village-outskirts.md) survey routes.
+**Available:** Any day; reached by crossing the valley and climbing to the far ridge from the [@name](village-outskirts.md) survey routes.
 **Cost:** 1 action to reach; fieldwork costs vary by action.
 
 ## Hook
@@ -20,7 +20,7 @@
 - The col commands the whole valley: from here you look straight down on %NEW_VILLAGE%, across to the %OLD_VILLAGE% ruins, and over the ground the reservoir will drown. It is the natural place to watch the valley from, and men have.
 - Just below the col, under gorse and slid earth, a collapsed dugout with a firing slot faces the valley floor; rusted metal and a rotted timber lip still show. Partisans held this line in the war years.
 - Only if the party turned up the hut on the benchmark search: an abandoned shepherd's koliba stands hidden in the gorse higher on the slope, its low doorway still up, a weathered ram's skull fixed over the lintel and marks cut into the frame, facing out. Parties who have not found it do not see it and get no koliba description.
-- Getting the streambed's elevations plays out as one of two competing scenes: [Surveying the Streambed](../events/surveying-the-streambed.md) or [Search for the Benchmarks](../events/search-for-the-benchmarks.md). Either yields the [Streambed Parameters](../items/streambed-parameters.md).
+- Getting the streambed's elevations plays out as one of two competing scenes: [@name](../events/surveying-the-streambed.md) or [@name](../events/search-for-the-benchmarks.md). Either yields the [@name](../items/streambed-parameters.md).
 
 ## Opportunities
 
@@ -43,18 +43,18 @@
 - **Requires:** [Survival](../cards/survival.md)
 - **Prompted by:** [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area), [old-wartime-positions](../clues/clues.md#old-wartime-positions)
 - **Cost:** 1 time
-- **Outcome:** Working out from the firing position, a tracker picks up the old partisan paths worn between the hillside strongpoints and follows them to a camouflaged dugout deep in the forest northwest, its ventilation shafts breaking the slope. You now know exactly where the [UPA bunker](upa-bunker.md) lies.
+- **Outcome:** Working out from the firing position, a tracker picks up the old partisan paths worn between the hillside strongpoints and follows them to a camouflaged dugout deep in the forest northwest, its ventilation shafts breaking the slope. You now know exactly where the [@name](upa-bunker.md) lies.
 - **Gives:** aware:locations/upa-bunker.md
 
 ### Start a survey
-- **Requires:** [Geology](../cards/geology.md) AND [geologist's kit](../items/geologists-kit.md)
+- **Requires:** [Geology](../cards/geology.md) AND [@name](../items/geologists-kit.md)
 - **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
-- **Outcome:** The party commits to shooting the col's elevation themselves. Opens [Surveying the Streambed](../events/surveying-the-streambed.md).
+- **Outcome:** The party commits to shooting the col's elevation themselves. Opens [@name](../events/surveying-the-streambed.md).
 - **Gives:** aware:events/surveying-the-streambed.md
 
 ### Start a search
 - **Prompted by:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
-- **Outcome:** The party commits to hunting the dam crews' benchmark markers. Opens [Search for the Benchmarks](../events/search-for-the-benchmarks.md).
+- **Outcome:** The party commits to hunting the dam crews' benchmark markers. Opens [@name](../events/search-for-the-benchmarks.md).
 - **Gives:** aware:events/search-for-the-benchmarks.md
 
 <!-- Interpreting the streambed figures into streambed-dead-ends is done off-site: phone prof. Bieńkowski ("Certify the streambed"), read them as a surveyor with the geologist's kit, or show Michał Pytlak. -->

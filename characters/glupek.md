@@ -1,6 +1,6 @@
 # Edek Barnaś
 
-**Type:** Named character — child of [Edward Barnaś](soldier.md)
+**Type:** Named character — child of [@name](soldier.md)
 
 ## Hook
 
@@ -8,11 +8,13 @@ Edek Barnaś, Janina Gajda's large, simple-minded son and dependent.
 
 ## Vital Statistics
 
+- **First name:** Edek
+- **Surname:** Barnaś
 - **Status:** Resident
 - **Born:** 1950
 - **Age in 1967:** 17
-- **Parents:** [Edward Barnaś](soldier.md) and [Marta Konieczna](marta-konieczna.md), both killed in the 1954 lynch
-- **Lives in:** [Janina Gajda's house](../locations/ciotkas-house/ciotkas-house.md) — with [Janina Gajda](ciotka.md)
+- **Parents:** [@name](soldier.md) and [@name](marta-konieczna.md), both killed in the 1954 lynch
+- **Lives in:** [@name](../locations/ciotkas-house/ciotkas-house.md) — with [@name](ciotka.md)
 - **Settled:** Born in %NEW_VILLAGE%
 
 ## Character
@@ -29,23 +31,23 @@ His voice is surprisingly soft for his size. Kindness reaches him after a pause,
 
 ## Opinions
 
-- **[Janina Gajda](ciotka.md)** — "Auntie feeds me and keeps me safe. I love her, and she has always been there."
-- **[ks. Władysław Pająk](priest.md)** — "The church is quiet and safe. He gives me little jobs and waits for me to finish."
-- **[Stanisław Rezeń](butcher.md)** — "Something bad. When his dogs bark I hide, and when he passes I cannot move."
+- **[@name](ciotka.md)** — "Auntie feeds me and keeps me safe. I love her, and she has always been there."
+- **[@name](priest.md)** — "The church is quiet and safe. He gives me little jobs and waits for me to finish."
+- **[@name](butcher.md)** — "Something bad. When his dogs bark I hide, and when he passes I cannot move."
 
 ## Mechanics
 
 ### Shelter
 
-- After [Edek in the Bunker](../events/edek-in-the-bunker.md), Edek is sheltered in one of two places.
-- **At the priest's:** hidden by [ks. Władysław Pająk](priest.md) in the [rectory](../locations/the-rectory.md) cellar.
-- **At Helena's:** in [Helena Rzepka](matrona.md)'s keeping at [her house](../locations/matronas-house.md).
+- After [@name](../events/edek-in-the-bunker.md), Edek is sheltered in one of two places.
+- **At the priest's:** hidden by [@name](priest.md) in the [@name](../locations/the-rectory.md) cellar.
+- **At Helena's:** in [@name](matrona.md)'s keeping at [@name](../locations/matronas-house.md).
 - The two are mutually exclusive; he is at one or the other.
 
 ## Actions
 
 ### Talk to Edek
-- **When:** [Janina Gajda](ciotka.md) present, or Edek found alone outside
+- **When:** [@name](ciotka.md) present, or Edek found alone outside
 - **Outcome:** He answers in short, simple sentences. He can give his routines, likes, dislikes, and basic memories of living with Janina.
 - **Gives:** aware:characters/glupek.md
 

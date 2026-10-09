@@ -2,7 +2,7 @@
 
 **Type:** Location (explorable)
 **Location:** Scattered across [%OLD_VILLAGE%](old-village-ruins.md) — stone foundations and chimneys.
-**Present:** Nobody (day); [Stanisław Rezeń](../characters/butcher.md) (regular visits to the well), [Paraskewia Chyłak](../characters/hag.md) (night rites at the well)
+**Present:** Nobody (day); [@name](../characters/butcher.md) (regular visits to the well), [@name](../characters/hag.md) (night rites at the well)
 **Available:** After reaching %OLD_VILLAGE%.
 **Cost:** 1 action per area searched
 
@@ -50,7 +50,7 @@
 - **Gives:** [someone-tends-the-well-regularly](../clues/clues.md#someone-tends-the-well-regularly)
 
 ### Investigate the area around the well
-- **When:** [Rezeń's hunt](../events/hunt-with-rezen.md) was successful
+- **When:** [@name](../events/hunt-with-rezen.md) was successful
 - **Cost:** 1 time
 - **Outcome:** Minor blood stains mark the stone around the well rim.
 - **Gives:** [blood-stains-by-the-well](../clues/clues.md#blood-stains-by-the-well)

@@ -1,8 +1,8 @@
 # Paraskewia's List of the Dead
 
 **Type:** Item — a written roll of names (document / relic)
-**Source:** [Paraskewia Chyłak's cabin](../locations/hags-cabin.md), or handed over by [Paraskewia](../characters/hag.md) herself if she trusts the players. Also spoken aloud by her, and by [Stefania Kopacz](../characters/babcia.md), during [the ritual](../events/the-ritual.md).
-**Carried:** The names of the twelve Lemko villagers killed in 1947 and put in [the well](../locations/old-village-ruins.md), plus [Dmytro Kosach](../characters/dmytro-kosach.md). The only record they ever existed. Supplies the names the [rite](../events/the-ritual.md) needs spoken.
+**Source:** [@name](../locations/hags-cabin.md), or handed over by [@name](../characters/hag.md) herself if she trusts the players. Also spoken aloud by her, and by [@name](../characters/babcia.md), during [@name](../events/the-ritual.md).
+**Carried:** The names of the twelve Lemko villagers killed in 1947 and put in [@name](../locations/old-village-ruins.md), plus [@name](../characters/dmytro-kosach.md). The only record they ever existed. Supplies the names the [@name](../events/the-ritual.md) needs spoken.
 
 ## Hook
 
@@ -10,7 +10,7 @@ A soft, much-folded sheet covered in old Cyrillic handwriting and small crosses.
 
 ## Description
 
-A single sheet, soft as cloth from twenty years of handling, folded and refolded until the creases have gone furry. Names written in **Cyrillic** in a careful, old-fashioned hand — [Paraskewia](../characters/hag.md)'s. Some in ink gone brown, some later ones in pencil, a few traced over twice where the line faded. A small cross is inked beside each name. It is not a document in any official sense. It is a woman keeping her dead from disappearing, one name at a time, because no state, church, or grave ever would.
+A single sheet, soft as cloth from twenty years of handling, folded and refolded until the creases have gone furry. Names written in **Cyrillic** in a careful, old-fashioned hand — [@name](../characters/hag.md)'s. Some in ink gone brown, some later ones in pencil, a few traced over twice where the line faded. A small cross is inked beside each name. It is not a document in any official sense. It is a woman keeping her dead from disappearing, one name at a time, because no state, church, or grave ever would.
 
 To anyone without the language it is a column of foreign letters. To anyone who can read it, it is a village.
 
@@ -37,11 +37,11 @@ To anyone without the language it is a column of foreign letters. To anyone who 
 
 > Wasyl Koval · Anna Koval · Semen Koval · Kateryna Koval · Petro Hnat · Pelagia Hnat · Mychajło Szafran · Fedir Mac · Olena Krywda · Hryhorij Pyś · Stepan Kiczura · Anastasija Sowa — and, apart, Dmytro Kosach.
 
-Who they were is recorded in [the massacre file](../story-facts/old-village-massacre.md#the-dead-in-the-well). Only [Paraskewia](../characters/hag.md) knew them in life — she is the last person who can put a face to each name.
+Who they were is recorded in [the massacre file](../story-facts/old-village-massacre.md#the-dead-in-the-well). Only [@name](../characters/hag.md) knew them in life — she is the last person who can put a face to each name.
 
 ## Actions
 
 ### Read the names
 - **Requires:** [Paraskewia's List of the Dead](paraskewias-list.md) AND ([Language](../cards/language.md) OR [Culture](../cards/culture.md))
-- **Outcome:** The players can now name the 1947 dead — the twelve villagers and Dmytro Kosach — the core of the [truth the rite requires](../events/the-ritual.md). Without the skill, the names stay locked in the script until someone reads it for them.
+- **Outcome:** The players can now name the 1947 dead — the twelve villagers and Dmytro Kosach — the core of the [@name](../events/the-ritual.md). Without the skill, the names stay locked in the script until someone reads it for them.
 - **Gives:** [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead)

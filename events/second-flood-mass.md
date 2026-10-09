@@ -1,8 +1,8 @@
 # Second Flood Mass
 
-**Location:** [The church](../locations/the-church.md)
-**Present:** [ks. Władysław Pająk](../characters/priest.md), [Helena](../characters/matrona.md), [Emil](../characters/painter.md), [Zbigniew](../characters/wojewoda.md), [Tadek](../characters/wujas.md), villagers
-**Available:** Day 6 morning; before [The Lynch](punishment-lynch.md).
+**Location:** [@name](../locations/the-church.md)
+**Present:** [@name](../characters/priest.md), [@name](../characters/matrona.md), [@name](../characters/painter.md), [@name](../characters/wojewoda.md), [@name](../characters/wujas.md), villagers
+**Available:** Day 6 morning; before [@name](punishment-lynch.md).
 
 ## Trigger
 
@@ -28,7 +28,7 @@
 
 - **The sermon target** `(noticed by: [Culture](../cards/culture.md) OR [History](../cards/history.md))` — Habakkuk points to a settlement founded on blood, not only a personal sin.
 - **The village reaction** `(noticed by: [Violence](../cards/violence.md))` — the parish is primed to seek a body to blame.
-- **Tadek's attendance** `(noticed by: [Devotion](../cards/devotion.md))` — [Tadek](../characters/wujas.md) has attended every Mass since burying his sister.
+- **Tadek's attendance** `(noticed by: [Devotion](../cards/devotion.md))` — [@name](../characters/wujas.md) has attended every Mass since burying his sister.
 
 ## Actions
 
@@ -40,6 +40,6 @@
 
 ## Exits
 
-- Return to [The church](../locations/the-church.md).
-- Continue toward [The Lynch](punishment-lynch.md) that night.
-- If the Faith in Redemption path is strong, continue toward [The Odpust](the-odpust.md).
+- Return to [@name](../locations/the-church.md).
+- Continue toward [@name](punishment-lynch.md) that night.
+- If the Faith in Redemption path is strong, continue toward [@name](the-odpust.md).

@@ -1,8 +1,8 @@
 # Climb the Plug in the Rain
 
-**Location:** [The Ridge Gap](../locations/the-ridge-gap.md)
-**Present:** [Michał Pytlak](../characters/foreman.md)
-**Available:** The engineering finale, after [Michał Pytlak Saves the Village](foreman-saves-village.md): the party has the charges and has committed to the plan.
+**Location:** [@name](../locations/the-ridge-gap.md)
+**Present:** [@name](../characters/foreman.md)
+**Available:** The engineering finale, after [@name](foreman-saves-village.md): the party has the charges and has committed to the plan.
 
 ## Trigger
 
@@ -24,7 +24,7 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 - **The Weeping Clay** `(noticed by: [Geology](../cards/geology.md))` — The soaked clay only holds weight in the right places; get it wrong and you bog. You either know where it bears, or you move light and deft.
 - **A Bad Feeling** `(noticed by: [Survival](../cards/survival.md))` — The loose rock looks extremely dangerous; you wouldn't go up there without a rope and assistance. The fall on the traverse is almost certain; we need a rope.
-- **Two on the Rope** `(noticed by: [Handiwork](../cards/handiwork.md) AND [Rope](../items/rope.md))` — A fall here only comes up safe with enough weight on the line: two bodies at least, not one.
+- **Two on the Rope** `(noticed by: [Handiwork](../cards/handiwork.md) AND [@name](../items/rope.md))` — A fall here only comes up safe with enough weight on the line: two bodies at least, not one.
 - **Something to Haul Against** `(when: the crux is anchored)` `(noticed by: [Handiwork](../cards/handiwork.md))` — The clamp still up top is a fixed point. You can rig a line to it and haul the charge up on its own, so no one climbs with it on their back.
 - **The Anatomy of a Fall** `(noticed by: [Medicine](../cards/medicine.md))` — Off the lower bank, bruises. Off the wet traverse onto the rock, broken bones. From the top pitch you break badly. None of it kills you by itself; the fall hurts, it doesn't kill.
 - **A Soldier's Eye** `(noticed by: [Violence](../cards/violence.md))` — You've seen men fall and you know ordnance. Roughly: the drops break a man, they don't kill him, but the charge on his back is what puts him in the ground. It's old and touchy, a hard knock or a fall with it and it goes off.
@@ -47,12 +47,12 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 - **Changes:** [Climber position](#climber-position) — past the lower bank
 
 ### Carry the charge
-- **Requires:** [The makeshift charge](../items/makeshift-charge.md)
+- **Requires:** [@name](../items/makeshift-charge.md)
 - **Outcome:** The climber carries the charge up the wet bank and onto the line.
 - **Changes:** [The charge](#the-charge) — carried by the climber
 
 ### Take the line
-- **Requires:** [rope](../items/rope.md)
+- **Requires:** [@name](../items/rope.md)
 - **When:** the climber is past the lower bank.
 - **Cost:** 1 time
 - **Outcome:** The climber commits their body to the line as counterweight, to power a haul or catch a fall below.
@@ -80,7 +80,7 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 - **Changes:** [Balance](#balance) — regained on the second Frantic grasp in a row
 
 ### Drive the anchor
-- **When:** The [anchor and hammer](../items/anchor.md); the climber is past the killzone.
+- **When:** The [@name](../items/anchor.md); the climber is past the killzone.
 - **Cost:** 1 time
 - **Outcome:** The climber drives the anchor home at the top of the plug, setting a fixed point for the crux.
 - **Changes:** [Anchor](#anchor) — the top-out is anchored
@@ -99,14 +99,14 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 - **Changes:** [Climber position](#climber-position) — past the top-out
 
 ### Haul a climber one level
-- **Requires:** [rope](../items/rope.md)
+- **Requires:** [@name](../items/rope.md)
 - **When:** The top-out is anchored; **2 counterweight points** (consumed).
 - **Cost:** 1 time
 - **Outcome:** The crew hang their weight on the parallel strand and drag a body up one pitch, no one climbing it under load.
 - **Changes:** [Climber position](#climber-position) — the hauled climber moves up one level; [Counterweight](#counterweight) — 2 points spent
 
 ### Haul the charge one level
-- **Requires:** [rope](../items/rope.md)
+- **Requires:** [@name](../items/rope.md)
 - **When:** The top-out is anchored; **1 counterweight point** (consumed).
 - **Cost:** 1 time
 - **Outcome:** The crew hang their weight on the parallel strand and drag the charge up one pitch, no one climbing it under load.
@@ -114,13 +114,13 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ### Prime the explosives
 - **Requires:** [Violence](../cards/violence.md) OR [Handiwork](../cards/handiwork.md)
-- **When:** the [makeshift charge](../items/makeshift-charge.md) is past the top-out.
+- **When:** the [@name](../items/makeshift-charge.md) is past the top-out.
 - **Cost:** 1 time
 - **Outcome:** The climber sets the detonator and runs the fuse, arming the old ordnance to blow.
 - **Changes:** [The charge](#the-charge) — primed
 
 ### Rappel down one level
-- **Requires:** [rope](../items/rope.md)
+- **Requires:** [@name](../items/rope.md)
 - **When:** the top-out is anchored; another climber still on the plug to work the rope.
 - **Cost:** 1 time
 - **Outcome:** A second climber belays them off the fixed anchor and they rope down one pitch, clear of the load.
@@ -180,10 +180,10 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 ## Exits
 
 - Return to %NEW_VILLAGE% after the water level begins to drop.
-- Go to [%OLD_VILLAGE%](../locations/old-village-ruins.md), which is going under regardless, from this flood and the reservoir that will bury it.
-- Return to [PGR farm](../locations/pgr-farm.md) to manage the aftermath.
+- Go to [@name](../locations/old-village-ruins.md), which is going under regardless, from this flood and the reservoir that will bury it.
+- Return to [@name](../locations/pgr-farm.md) to manage the aftermath.
 
 ## If Missed
 
-- If no one from the committee will climb it, [Michał Pytlak](../characters/foreman.md) goes up the plug alone, in the rain, to set the charge.
-- [Michał Pytlak](../characters/foreman.md) may die on the slab, or save the village at the cost of his body and never return the same.
+- If no one from the committee will climb it, [@name](../characters/foreman.md) goes up the plug alone, in the rain, to set the charge.
+- [@name](../characters/foreman.md) may die on the slab, or save the village at the cost of his body and never return the same.

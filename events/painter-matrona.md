@@ -2,8 +2,8 @@
 
 <!-- Restructured from story essay. Needs scene-level detail: sensory Setup, concrete Opportunities, specific Actions with outcomes. -->
 
-**Location:** [Matrona's house](../locations/matronas-house.md)
-**Present:** [Emil Rzepka](../characters/painter.md), [Helena Rzepka](../characters/matrona.md) (if present)
+**Location:** [@name](../locations/matronas-house.md)
+**Present:** [@name](../characters/painter.md), [@name](../characters/matrona.md) (if present)
 **Available:** Any time players seek out Emil.
 
 ## Trigger
@@ -42,9 +42,9 @@
 
 ## Exits
 
-- Continue pressure at [Matrona's house](../locations/matronas-house.md).
+- Continue pressure at [@name](../locations/matronas-house.md).
 - Follow Emil in another public scene where Helena is absent.
-- Escalate toward Helena's family through [Zbigniew Gajda](../characters/wojewoda.md).
+- Escalate toward Helena's family through [@name](../characters/wojewoda.md).
 
 ## If Missed
 

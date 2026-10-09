@@ -2,7 +2,7 @@
 
 **Type:** Item — field reading of the plug's crest sill
 **Source:** Read from the crest during [Climb the Plug](../events/climb-the-plug.md#take-the-reading-with-the-kit).
-**Carried:** Half of what settles the ridge gap; read with the [Gap Fill Reading](gap-fill-reading.md) by a Geology holder, or phoned to [prof. Bieńkowski](../characters/professor.md).
+**Carried:** Half of what settles the ridge gap; read with the [@name](gap-fill-reading.md) by a Geology holder, or phoned to [@name](../characters/professor.md).
 
 ## Hook
 

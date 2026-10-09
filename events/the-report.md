@@ -1,7 +1,7 @@
 # The Report — The State's Ending
 
 **Location:** Police car on the road out of the village
-**Present:** [por. Witold Skowron](../characters/officer.md), players
+**Present:** [@name](../characters/officer.md), players
 **Available:** End of game; final scene after all other endings resolve.
 
 ## Trigger

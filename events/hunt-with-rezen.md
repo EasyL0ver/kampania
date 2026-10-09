@@ -1,8 +1,8 @@
 # The Hunt with Rezeń
 
-**Location:** [PGR Farm](../locations/pgr-farm.md)
-**Present:** [Stanisław Rezeń](../characters/butcher.md), players (optional)
-**Available:** The morning after [The Wolf Attack](wolf-attack.md), after [Gajda](../characters/wojewoda.md) authorizes Rezeń.
+**Location:** [@name](../locations/pgr-farm.md)
+**Present:** [@name](../characters/butcher.md), players (optional)
+**Available:** The morning after [@name](wolf-attack.md), after [@name](../characters/wojewoda.md) authorizes Rezeń.
 
 ## Trigger
 
@@ -40,14 +40,14 @@ Rezeń at the PGR gate with three dogs, starting to track from the mud.
 - **When:** Follow Rezeń to a killed wolf
 - **Prompted by:** [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves)
 - **Cost:** 1 time
-- **Outcome:** Rezeń carries the carcass deeper toward the [old village](../locations/old-village-ruins.md) and drops it into the well.
+- **Outcome:** Rezeń carries the carcass deeper toward the [@name](../locations/old-village-ruins.md) and drops it into the well.
 - **Gives:** [`butcher-dumps-carcasses-in-well`](../clues/clues.md#butcher-dumps-carcasses-in-well)
 
 ## Exits
 
-- Return to the [PGR Farm](../locations/pgr-farm.md).
-- Continue toward the [old village ruins](../locations/old-village-ruins.md).
-- Trigger [The Hunters Cross Paths](hunters-cross-paths.md), if Rezeń's dogs disrupt Dudka's shot.
+- Return to the [@name](../locations/pgr-farm.md).
+- Continue toward the [@name](../locations/old-village-ruins.md).
+- Trigger [@name](hunters-cross-paths.md), if Rezeń's dogs disrupt Dudka's shot.
 
 ## If Missed
 

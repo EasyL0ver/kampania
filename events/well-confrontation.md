@@ -1,17 +1,17 @@
 # The Well Confrontation
 
-**Location:** [%OLD_VILLAGE%](../locations/old-village-ruins.md)
-**Present:** [Paraskewia Chyłak](../characters/hag.md), [Stanisław Rezeń](../characters/butcher.md), [Ryszard Dudka](../characters/neighbour.md) (if the players got him here and left him his rifle)
-**Available:** Night of Day 4, after [Rezeń's containment has broken](wolf-attack.md), unless [Paraskewia Chyłak](../characters/hag.md) is hostile (see her [Hostility](../characters/hag.md#village-hostility) mechanic)
+**Location:** [@name](../locations/old-village-ruins.md)
+**Present:** [@name](../characters/hag.md), [@name](../characters/butcher.md), [@name](../characters/neighbour.md) (if the players got him here and left him his rifle)
+**Available:** Night of Day 4, after [@name](wolf-attack.md), unless [@name](../characters/hag.md) is hostile (see her [Hostility](../characters/hag.md#village-hostility) mechanic)
 
 ## Trigger
 
-- [Stanisław Rezeń](../characters/butcher.md) is loose after the wolf authorization.
+- [@name](../characters/butcher.md) is loose after the wolf authorization.
 - The well's compulsion sends him to the ruins at night.
-- [Paraskewia Chyłak](../characters/hag.md) is at the well for her nightly rites.
+- [@name](../characters/hag.md) is at the well for her nightly rites.
 - Does not happen if Paraskewia is hostile; she has stopped coming to the well (see her [Hostility](../characters/hag.md#village-hostility) mechanic).
 - Villagers blame her for wolf attacks ([hag-blamed-for-wolves](../clues/clues.md#hag-blamed-for-wolves)).
-- Players are present only if they stake out the well, follow Rezeń, are already at the ruins at night, or arrive with [Ryszard Dudka](../characters/neighbour.md).
+- Players are present only if they stake out the well, follow Rezeń, are already at the ruins at night, or arrive with [@name](../characters/neighbour.md).
 
 ## Hook
 
@@ -20,12 +20,12 @@
 
 ## Setup
 
-- [Paraskewia Chyłak](../characters/hag.md) kneels at the well rim.
+- [@name](../characters/hag.md) kneels at the well rim.
 - Beeswax candles form a semicircle.
 - An icon of the Theotokos faces the water.
 - Bread, a cloth, water, herbs, and church incense are set near the rim.
 - She chants in Lemko.
-- [Stanisław Rezeń](../characters/butcher.md) arrives from the village path with three dogs.
+- [@name](../characters/butcher.md) arrives from the village path with three dogs.
 - He carries a dead wolf.
 - He drops the wolf near the well.
 - He tells Paraskewia to go home.
@@ -64,7 +64,7 @@
 ### Grab the hag and run
 - **When:** Present, no firearm, Physique
 - **Cost:** 1 composure
-- **Outcome:** The player carries [Paraskewia Chyłak](../characters/hag.md) clear; Rezeń does not pursue.
+- **Outcome:** The player carries [@name](../characters/hag.md) clear; Rezeń does not pursue.
 - **Gives:** [Wounded](../cards/wounded.md)
 - **Changes:** [The hag](#the-hag) — badly hurt
 
@@ -76,7 +76,7 @@
 - **Changes:** [Rezeń](#rezeń) — loose
 
 ### Shoot him
-- **When:** Present and holding a gun — [Dudka's rifle](../characters/neighbour.md) or [Zbigniew's pistol](../characters/wojewoda.md)
+- **When:** Present and holding a gun — [@name](../characters/neighbour.md) or [@name](../characters/wojewoda.md)
 - **Cost:** 1 composure
 - **Outcome:** Rezeń reads the resolve, lowers the knife, and retreats with the dogs.
 - **Changes:** [Rezeń](#rezeń) — loose
@@ -88,7 +88,7 @@
 - **Changes:** [Rezeń](#rezeń) — dead in the well
 
 ### Dudka's rifle
-- **When:** The players got [Ryszard Dudka](../characters/neighbour.md) here and left him his rifle; if he is [Humiliated](../characters/neighbour.md#humiliated), a player must use [Uplift Ryszard](../characters/neighbour.md#uplift-ryszard)
+- **When:** The players got [@name](../characters/neighbour.md) here and left him his rifle; if he is [Humiliated](../characters/neighbour.md#humiliated), a player must use [Uplift Ryszard](../characters/neighbour.md#uplift-ryszard)
 - **Outcome:** Dudka aims at Rezeń from the trees; Rezeń backs off and leaves with the dogs.
 - **Changes:** [Rezeń](#rezeń) — loose, backs off
 ## Mechanics
@@ -107,9 +107,9 @@
 
 ## Exits
 
-- Back down the forest path to the village or [PGR quarters](../locations/pgr-quarters.md).
-- To [The Well](../locations/old-village-ruins.md) to investigate blood, water, and tracks.
-- To [Hag's Cabin](../locations/hags-cabin.md) for her icons, herbs, and the form of the rite.
+- Back down the forest path to the village or [@name](../locations/pgr-quarters.md).
+- To [@name](../locations/old-village-ruins.md) to investigate blood, water, and tracks.
+- To [@name](../locations/hags-cabin.md) for her icons, herbs, and the form of the rite.
 - To [Stanisław Rezeń](../characters/butcher.md#actions) if the players confront him.
 
 ## If Missed

@@ -8,11 +8,13 @@ Wanda Mazur, the grieving widow of a PGR worker, lives alone in a small house ne
 
 ## Vital Statistics
 
+- **First name:** Wanda
+- **Surname:** Mazur
 - **Status:** Resident
 - **Born:** ~1912
 - **Age in 1967:** ~55
 - **Heritage:** Polish settler
-- **Lives in:** [%NEW_VILLAGE%](../locations/new-village.md) — a small house near the church, alone
+- **Lives in:** [@name](../locations/new-village.md) — a small house near the church, alone
 - **Settled:** Original settler — arrived with husband Tadeusz Mazur around 1948 to work the land, later the PGR farm
 - **Husband:** Tadeusz Mazur, dead ~1965 in a grain silo accident
 
@@ -30,8 +32,8 @@ Speaks barely above a whisper with a slight tremor. Smells of tallow candles and
 
 ## Opinions
 
-- **[ks. Władysław Pająk](priest.md)** — "He is my lifeline. I come for God, but I also come because he asks how I am managing."
-- **[Michał Pytlak](foreman.md)** — "He was Tadeusz's boss, and I bear him no grudge. Accidents happen on farms, and I am grateful the pension still comes."
+- **[@name](priest.md)** — "He is my lifeline. I come for God, but I also come because he asks how I am managing."
+- **[@name](foreman.md)** — "He was Tadeusz's boss, and I bear him no grudge. Accidents happen on farms, and I am grateful the pension still comes."
 
 ## Actions
 
@@ -51,21 +53,21 @@ Speaks barely above a whisper with a slight tremor. Smells of tallow candles and
 - **Prompted by:** [mazur-death-covered-up](../clues/clues.md#mazur-death-covered-up)
 - **Cost:** 1 time
 - **Outcome:** Told plainly that the "pension" is a dead man's wages and the death was never recorded, Wanda does not break. She goes very still, then asks what it means for her. When the committee promises to leave the pension alone and keep her name out of any report, something settles in her. She says she is in their debt, and means it. From here she will speak freely about the old days. She tells them Tadeusz kept a diary all his years in the valley, and fetches it down for them without being asked.
-- **Gives:** [Tadeusz Mazur's diary](../items/mazur-diary.md)
+- **Gives:** [@name](../items/mazur-diary.md)
 
 ### Share the diary
 - **Requires:** [Bond: Wanda Mazur](../cards/bond-widow.md)
 - **Prompted by:** [mazur-wrote-detailed-diary](../clues/clues.md#mazur-wrote-detailed-diary)
 - **Cost:** 1 time
 - **Outcome:** Treated as a person and not a case, Wanda wants them to know the man Tadeusz was. She takes his diary down from its shelf and presses it into their hands, glad that someone cares to read how he saw the valley and the years.
-- **Gives:** [Tadeusz Mazur's diary](../items/mazur-diary.md).
+- **Gives:** [@name](../items/mazur-diary.md).
 
 ### Take the diary
 - **Requires:** [Finesse](../cards/finesse.md)
 - **Prompted by:** [mazur-wrote-detailed-diary](../clues/clues.md#mazur-wrote-detailed-diary)
 - **Cost:** 1 time
 - **Outcome:** While Wanda is at church, the house stands empty. The diary sits where she keeps it, on the shelf by her reading chair. They let themselves in and lift it.
-- **Gives:** [Tadeusz Mazur's diary](../items/mazur-diary.md).
+- **Gives:** [@name](../items/mazur-diary.md).
 
 ## Bond
 

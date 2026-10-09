@@ -2,7 +2,7 @@
 
 **Type:** Location (revisitable)
 **Location:** Zbigniew Gajda's family home — largest house in %NEW_VILLAGE%.
-**Present:** [Irena Gajda](../characters/wife.md) (usually), [Marek Gajda](../characters/junior.md) (variable), [Tadek Gajda](../characters/wujas.md) (sometimes)
+**Present:** [@name](../characters/wife.md) (usually), [@name](../characters/junior.md) (variable), [@name](../characters/wujas.md) (sometimes)
 **Available:** Any time
 **Cost:** 1 action per visit
 
@@ -20,7 +20,7 @@ Zbigniew Gajda's family home, the largest house in %NEW_VILLAGE%.
 - A small dark wooden icon sits among the Catholic imagery.
 - Irena Gajda keeps the house spotless.
 - Tea is offered to visitors.
-- Zbigniew Gajda's office, phone, maps, and paperwork are at the [PGR](pgr-office.md).
+- Zbigniew Gajda's office, phone, maps, and paperwork are at the [@name](pgr-office.md).
 - If Zbigniew is home in the evening, he moves stiffly through one shoulder and twists slowly.
 
 ## Opportunities

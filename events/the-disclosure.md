@@ -1,7 +1,7 @@
 # The Disclosure
 
-**Location:** [Zbigniew Gajda's house](../locations/wojewodas-house.md)
-**Present:** [Zbigniew Gajda](../characters/wojewoda.md), [Ryszard Dudka](../characters/neighbour.md), [Michał Pytlak](../characters/foreman.md), [Zofia Pytlak](../characters/zofia.md), [Barbara Kopacz](../characters/barbara.md), [Helena Rzepka](../characters/matrona.md), [Marek Gajda](../characters/junior.md), [ks. Władysław Pająk](../characters/priest.md), villagers
+**Location:** [@name](../locations/wojewodas-house.md)
+**Present:** [@name](../characters/wojewoda.md), [@name](../characters/neighbour.md), [@name](../characters/foreman.md), [@name](../characters/zofia.md), [@name](../characters/barbara.md), [@name](../characters/matrona.md), [@name](../characters/junior.md), [@name](../characters/priest.md), villagers
 **Available:** Day 4 onward, after proof that %NEW_VILLAGE% will flood exists and the truth breaks.
 
 ## Trigger
@@ -10,7 +10,7 @@
 - The truth breaks by one of three routes.
 - **Enlisted:** players convinced Zbigniew to reveal it through [Convince him to reveal the flood](../characters/wojewoda.md#convince-him-to-reveal-the-flood).
 - **Forced:** players used [Force the disclosure — the ultimatum](../characters/wojewoda.md#force-the-disclosure--the-ultimatum).
-- **Broken:** players announced it, the truth leaked, a villager panicked, [Dudka](../characters/neighbour.md) pieced it together, or someone overheard.
+- **Broken:** players announced it, the truth leaked, a villager panicked, [@name](../characters/neighbour.md) pieced it together, or someone overheard.
 - Without flood proof, this event does not fire.
 
 ## Hook
@@ -35,16 +35,16 @@
 - **Form B:** the crowd assembled itself.
 - In Form B, Zbigniew is behind a shut door or forced into a yard that is turning on him.
 - In Form B, the crowd accuses the state and the committee of lying.
-- In Form B, [Dudka](../characters/neighbour.md) is loudest.
+- In Form B, [@name](../characters/neighbour.md) is loudest.
 - In either form, the rising water gives the scene a time limit.
-- [Stefania Kopacz](../characters/babcia.md) is not present; she stays in her house.
+- [@name](../characters/babcia.md) is not present; she stays in her house.
 
 ## Opportunities
 
-- **The crowd fracture** `(noticed by: [Speech](../cards/speech.md))` — [Dudka](../characters/neighbour.md) wants someone to hit; [Marek](../characters/junior.md) sees a way out; [Zofia](../characters/zofia.md) is ready to leave; [Pytlak](../characters/foreman.md) wants to fight the water; [Barbara](../characters/barbara.md) is terrified; [Helena](../characters/matrona.md) follows Zbigniew's cue.
+- **The crowd fracture** `(noticed by: [Speech](../cards/speech.md))` — [@name](../characters/neighbour.md) wants someone to hit; [@name](../characters/junior.md) sees a way out; [@name](../characters/zofia.md) is ready to leave; [@name](../characters/foreman.md) wants to fight the water; [@name](../characters/barbara.md) is terrified; [@name](../characters/matrona.md) follows Zbigniew's cue.
 - **Zbigniew's spent authority** `(when: Form A)` `(noticed by: [Finesse](../cards/finesse.md))` — he is spending authority he cannot replace. Public contradiction can break the gathering.
 - **The unasked question** `(noticed by: [Speech](../cards/speech.md))` — the crowd wants to know how long the danger was known. The honest answer can turn the gathering into a mob.
-- **The priest's weight** `(noticed by: [Finesse](../cards/finesse.md))` — the crowd checks [ks. Władysław Pająk](../characters/priest.md). A word from him can bless evacuation or violence.
+- **The priest's weight** `(noticed by: [Finesse](../cards/finesse.md))` — the crowd checks [@name](../characters/priest.md). A word from him can bless evacuation or violence.
 
 ## Actions
 
@@ -78,7 +78,7 @@
 - **Changes:** [The disclosure](#the-disclosure) — TBD
 
 ### Calm it down
-- **When:** A credible way out: evacuation plan, the [phone line to the army](operator-refuses-help.md), or somewhere people can go.
+- **When:** A credible way out: evacuation plan, the [@name](operator-refuses-help.md), or somewhere people can go.
 - **Cost:** 1 time
 - **Outcome:** Players turn the gathering into evacuation logistics: who goes first, where people muster, and when they move.
 - **Changes:** [The disclosure](#the-disclosure) — TBD
@@ -91,9 +91,9 @@
 
 ## Exits
 
-- Toward evacuation through [Operator Refuses Help](operator-refuses-help.md) and army contact.
-- Toward the engineering stand in [Foreman Saves the Village](foreman-saves-village.md).
-- Toward the climax of [The Flood](the-flood.md) if the crowd breaks into panic.
+- Toward evacuation through [@name](operator-refuses-help.md) and army contact.
+- Toward the engineering stand in [@name](foreman-saves-village.md).
+- Toward the climax of [@name](the-flood.md) if the crowd breaks into panic.
 
 ## If Missed
 

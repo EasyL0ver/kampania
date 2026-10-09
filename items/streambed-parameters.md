@@ -1,8 +1,8 @@
 # Streambed Parameters
 
 **Type:** Item — the two elevations that settle the streambed
-**Source:** [Surveying the Streambed](../events/surveying-the-streambed.md) or [Search for the Benchmarks](../events/search-for-the-benchmarks.md).
-**Carried:** Input for reading the streambed: the [geologist's kit](geologists-kit.md), [prof. Bieńkowski](../characters/professor.md) by phone, or [Michał Pytlak](../characters/foreman.md).
+**Source:** [@name](../events/surveying-the-streambed.md) or [@name](../events/search-for-the-benchmarks.md).
+**Carried:** Input for reading the streambed: the [@name](geologists-kit.md), [@name](../characters/professor.md) by phone, or [@name](../characters/foreman.md).
 
 ## Hook
 

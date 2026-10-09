@@ -8,6 +8,9 @@ prof. Tadeusz Bieńkowski, a Kraków hydrologist tied to the Solina Dam project,
 
 ## Vital Statistics
 
+- **First name:** Tadeusz
+- **Surname:** Bieńkowski
+- **Title:** prof.
 - **Status:** Outsider
 - **Born:** 1930
 - **Age in 1967:** 37
@@ -28,28 +31,28 @@ He speaks rapidly and precisely, in the clipped cadence of a lecturer who assume
 
 ## Opinions
 
-- **[%NEW_VILLAGE%](../locations/village-outskirts.md)** — "The projection holds only if two things are true: the ground stands where the map puts it, and the valley can drain. Check both. Level the terrain against the map to confirm the heights, and test the outlets. I know of two outlets, the ridge gap and the old far-ridge streambed. If both are closed, the village is in the flood zone. I cannot prove it from Kraków; someone has to check it on the ground."
+- **[@name](../locations/village-outskirts.md)** — "The projection holds only if two things are true: the ground stands where the map puts it, and the valley can drain. Check both. Level the terrain against the map to confirm the heights, and test the outlets. I know of two outlets, the ridge gap and the old far-ridge streambed. If both are closed, the village is in the flood zone. I cannot prove it from Kraków; someone has to check it on the ground."
 - **[new-village-will-flood](../clues/clues.md#new-village-will-flood)** — "Then the suspicion was right, and the official map is wrong where it matters most."
 - **[gap-is-blocked](../clues/clues.md#gap-is-blocked)** — "One outlet gone. A landslide plug where the map shows a drain. Describe the fill and the sill height and I can document the error."
 
 ## Actions
 
 ### Certify the plug
-- **Requires:** [Gap Fill Reading](../items/gap-fill-reading.md) AND [Gap Sill Reading](../items/gap-sill-reading.md)
+- **Requires:** [@name](../items/gap-fill-reading.md) AND [@name](../items/gap-sill-reading.md)
 - **When:** A phone
 - **Cost:** 1 time
 - **Outcome:** The party describes the sill height at the crest and the packed clay and shattered rock behind it. He judges the water can neither top the plug nor seep through it into %BIG-BASIN%, and documents the ridge gap as a dead outlet.
 - **Gives:** [gap-is-blocked](../clues/clues.md#gap-is-blocked)
 
 ### Certify the streambed
-- **Requires:** [Streambed Parameters](../items/streambed-parameters.md)
+- **Requires:** [@name](../items/streambed-parameters.md)
 - **When:** A phone
 - **Cost:** 1 time
 - **Outcome:** The party reads him the col height and the village height. He compares the two and certifies the col sits above house level, so the rising water tops the village long before it reaches the streambed: a dead outlet.
 - **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 
 ### Certify the ditch
-- **Requires:** [Concrete Ditch Measurements](../items/concrete-ditch-measurements.md) AND [Dugout Measurements](../items/dugout-measurements.md)
+- **Requires:** [@name](../items/concrete-ditch-measurements.md) AND [@name](../items/dugout-measurements.md)
 - **When:** A phone
 - **Cost:** 1 time
 - **Outcome:** The party reads him the two cross-sections: the ample concrete head and the shallow earth dugout that carries most of the length. He runs the drainage figures over the real channel rather than the head alone and certifies the ditch backs up and overflows at flood volume, far too small to carry the water off.

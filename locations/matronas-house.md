@@ -1,9 +1,9 @@
 # Matrona's House
 
 **Type:** Location (revisitable)
-**Location:** Central %NEW_VILLAGE%, close to [the store](the-store.md)
-**Present:** [Helena Rzepka](../characters/matrona.md) (usually), [Emil Rzepka](../characters/painter.md), [Ewa Rzepka](../characters/secondary/ewa-rzepka.md), [Krystian Rzepka](../characters/secondary/krystian-rzepka.md) (irregular)
-**Available:** Any time; possible lodging after [03-dinner](../events/dinner.md)
+**Location:** Central %NEW_VILLAGE%, close to [@name](the-store.md)
+**Present:** [@name](../characters/matrona.md) (usually), [@name](../characters/painter.md), [@name](../characters/secondary/ewa-rzepka.md), [@name](../characters/secondary/krystian-rzepka.md) (irregular)
+**Available:** Any time; possible lodging after [@name](../events/dinner.md)
 **Cost:** 1 action per visit
 
 ## Hook
@@ -17,16 +17,16 @@ The centre of %NEW_VILLAGE%, close to the store.
 - **Interior:** Crucifix above the dining table.
 - **Interior:** Embroidered tablecloth.
 - **Interior:** Beeswax and clean linen smell.
-- **Helena:** [Helena Rzepka](../characters/matrona.md) receives guests at the kitchen table with bread and tea.
+- **Helena:** [@name](../characters/matrona.md) receives guests at the kitchen table with bread and tea.
 - **Helena:** She asks about the census, flood assessment, and each committee member's origin.
 - **Helena:** She remembers answers given by visitors.
 - **Helena:** She keeps a ring of household keys on her apron, the store cabinet key among them.
-- **Emil:** [Emil Rzepka](../characters/painter.md) sits near the stove or works in the garden shed he paints in.
+- **Emil:** [@name](../characters/painter.md) sits near the stove or works in the garden shed he paints in.
 - **Emil:** He says little and looks at Helena before speaking.
 - **Emil:** His hands are stained with paint.
-- **Ewa:** [Ewa Rzepka](../characters/secondary/ewa-rzepka.md) helps in the kitchen and watches Emil.
+- **Ewa:** [@name](../characters/secondary/ewa-rzepka.md) helps in the kitchen and watches Emil.
 - **Ewa:** She brings tea to Emil's shed when Helena is not watching.
-- **Krystian:** [Krystian Rzepka](../characters/secondary/krystian-rzepka.md) comes and goes for altar-boy duties.
+- **Krystian:** [@name](../characters/secondary/krystian-rzepka.md) comes and goes for altar-boy duties.
 - **Krystian:** He repeats village observations to Helena.
 - **Shed:** Emil's shed contains landscapes and village scenes of old wooden houses and a stone church.
 - **Shed:** The old village recurs across many of the canvases, its well, its cerkiew, and its ruined houses, painted with more care than the rest.
@@ -61,5 +61,5 @@ The centre of %NEW_VILLAGE%, close to the store.
 - **When:** close to Helena, over her tea and bread or while her attention is elsewhere
 - **Cost:** 1 time
 - **Outcome:** The cabinet key rides on the ring at her apron. In the fuss of hospitality, or with her turned away, a light hand works it off the ring. She notices nothing until she next reaches for it.
-- **Gives:** [Store cabinet key](../items/store-cabinet-key.md)
+- **Gives:** [@name](../items/store-cabinet-key.md)
 

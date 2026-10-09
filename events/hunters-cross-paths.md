@@ -1,8 +1,8 @@
 # The Hunters Cross Paths
 
-**Location:** [Old Village Ruins](../locations/old-village-ruins.md)
-**Present:** [Ryszard Dudka](../characters/neighbour.md), [Stanisław Rezeń](../characters/butcher.md), players (with whichever hunter they followed)
-**Available:** During either [The Hunt with Rezeń](hunt-with-rezen.md) or [The Hunt with Dudka](hunt-with-dudka.md).
+**Location:** [@name](../locations/old-village-ruins.md)
+**Present:** [@name](../characters/neighbour.md), [@name](../characters/butcher.md), players (with whichever hunter they followed)
+**Available:** During either [@name](hunt-with-rezen.md) or [@name](hunt-with-dudka.md).
 
 ## Trigger
 
@@ -55,12 +55,12 @@ A rifleman confronting a knife-wielding hunter as dogs scatter through the clear
 
 ## Exits
 
-- Return to [The Hunt with Rezeń](hunt-with-rezen.md), if the players followed Rezeń.
-- Return to [The Hunt with Dudka](hunt-with-dudka.md), if the players followed Dudka.
-- Continue toward the [old village ruins](../locations/old-village-ruins.md), if the players follow the deeper forest route.
+- Return to [@name](hunt-with-rezen.md), if the players followed Rezeń.
+- Return to [@name](hunt-with-dudka.md), if the players followed Dudka.
+- Continue toward the [@name](../locations/old-village-ruins.md), if the players follow the deeper forest route.
 
 ## If Missed
 
 - Rezeń's dogs still ruin Dudka's shot.
 - Rezeń humiliates Dudka without a player witness.
-- Dudka gains the Humiliated status and moves closer to the [lynch](punishment-lynch.md).
+- Dudka gains the Humiliated status and moves closer to the [@name](punishment-lynch.md).

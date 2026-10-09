@@ -1,12 +1,12 @@
 # Tadek Visits the Butcher
 
-**Location:** [Butcher's edge house](../locations/butchers-house.md)
-**Present:** [Tadek Gajda](../characters/wujas.md), [Stanisław Rezeń](../characters/butcher.md)
+**Location:** [@name](../locations/butchers-house.md)
+**Present:** [@name](../characters/wujas.md), [@name](../characters/butcher.md)
 **Available:** Days 1–2, recurring until wolf authorization on Day 2 afternoon
 
 ## Trigger
 
-- [Zbigniew Gajda](../characters/wojewoda.md) maintains contact with Rezeń through Tadek.
+- [@name](../characters/wojewoda.md) maintains contact with Rezeń through Tadek.
 - Tadek brings cigarettes or butchering work to Rezeń.
 - The arrangement has run for 13 years.
 
@@ -31,9 +31,9 @@
 
 - **Regular pattern** `(noticed by: [Finesse](../cards/finesse.md))` — Tadek visits the edge house regularly.
 - **No friendship** `(when: Follow Tadek to the edge house)` `(noticed by: [Empathy](../cards/empathy.md))` — the handoff is an errand, not a social visit.
-- **Tadek deflects** `(when: Ask [Tadek Gajda](../characters/wujas.md))` `(noticed by: [Empathy](../cards/empathy.md))` — he cannot explain the visits without shutting down.
-- **Zbigniew pauses** `(when: Ask [Zbigniew Gajda](../characters/wojewoda.md))` `(noticed by: [Empathy](../cards/empathy.md))` — he knows exactly what Tadek is doing.
-- **Rezeń answers plainly** `(when: Ask [Stanisław Rezeń](../characters/butcher.md))` `(noticed by: [Empathy](../cards/empathy.md))` — the visits matter only as deliveries to him.
+- **Tadek deflects** `(when: Ask [@name](../characters/wujas.md))` `(noticed by: [Empathy](../cards/empathy.md))` — he cannot explain the visits without shutting down.
+- **Zbigniew pauses** `(when: Ask [@name](../characters/wojewoda.md))` `(noticed by: [Empathy](../cards/empathy.md))` — he knows exactly what Tadek is doing.
+- **Rezeń answers plainly** `(when: Ask [@name](../characters/butcher.md))` `(noticed by: [Empathy](../cards/empathy.md))` — the visits matter only as deliveries to him.
 
 ## Actions
 
@@ -46,9 +46,9 @@
 
 ## Exits
 
-- Rezeń comes to the [PGR Farm](../locations/pgr-farm.md) for [The Hunt with Rezeń](hunt-with-rezen.md).
-- Zbigniew later confronts him in [Wojewoda Confronts the Butcher](wojewoda-confronts-butcher.md).
-- Tadek starts deteriorating toward [Tadek Gajda Cracks](wujas-cracks.md).
+- Rezeń comes to the [@name](../locations/pgr-farm.md) for [@name](hunt-with-rezen.md).
+- Zbigniew later confronts him in [@name](wojewoda-confronts-butcher.md).
+- Tadek starts deteriorating toward [@name](wujas-cracks.md).
 
 ## If Missed
 

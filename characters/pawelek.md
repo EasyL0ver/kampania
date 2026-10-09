@@ -8,10 +8,12 @@ Pawełek Kopacz, Barbara's lively four-year-old son.
 
 ## Vital Statistics
 
+- **First name:** Pawełek
+- **Surname:** Kopacz
 - **Status:** Resident
 - **Born:** 1963
 - **Age in 1967:** 4
-- **Lives in:** [Barbara Kopacz's house](../locations/barbaras-house.md) — with [Barbara Kopacz](barbara.md) (mother), [Stefania Kopacz](babcia.md) (grandmother)
+- **Lives in:** [@name](../locations/barbaras-house.md) — with [@name](barbara.md) (mother), [@name](babcia.md) (grandmother)
 - **Settled:** Born 1963 in village
 
 ## Character
@@ -28,12 +30,12 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ## Opinions
 
-- **[Barbara Kopacz](barbara.md)** — "Mama is my whole world. When she smiles, I am happy. When she is tired, I climb into her lap."
-- **[Stefania Kopacz](babcia.md)** — "Babcia makes sounds and I copy them. It is a game, but sometimes she holds my face and her eyes get wet."
-- **[Ryszard Dudka](neighbour.md)** — "The nice man next door brings wood and fixes things. He lets me hold nails."
-- **[Marek Gajda](junior.md)** — "He visits Mama sometimes. He does not talk to me."
-- **[Tadek Gajda](wujas.md)** — "He is just a man in the village. I do not know him, and he does not know me."
-- **[Paraskewia](hag.md)** — "The lady in the trees gave me berries and talked like Babcia does. She is nice, and nobody knows I saw her."
+- **[@name](barbara.md)** — "Mama is my whole world. When she smiles, I am happy. When she is tired, I climb into her lap."
+- **[@name](babcia.md)** — "Babcia makes sounds and I copy them. It is a game, but sometimes she holds my face and her eyes get wet."
+- **[@name](neighbour.md)** — "The nice man next door brings wood and fixes things. He lets me hold nails."
+- **[@name](junior.md)** — "He visits Mama sometimes. He does not talk to me."
+- **[@name](wujas.md)** — "He is just a man in the village. I do not know him, and he does not know me."
+- **[@name](hag.md)** — "The lady in the trees gave me berries and talked like Babcia does. She is nice, and nobody knows I saw her."
 
 ## Mechanics
 
@@ -44,7 +46,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ### Health Points
 
-**Ticking clock mechanic.** Tracks Pawełek's condition after he falls ill ([event](../events/pawelek-falls-ill.md)).
+**Ticking clock mechanic.** Tracks Pawełek's condition after he falls ill ([@name](../events/pawelek-falls-ill.md)).
 
 **Starts at 6 HP.** Triggers Day 3 evening. **Loses 1 HP per phase.**
 
@@ -67,10 +69,10 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 ## Opportunities
 
 - **Babcia's sounds** `(when: evening with Pawełek, Babcia)` `(noticed by: [Language](../cards/language.md))` — Pawełek reproduces Babcia's prayer fragments with eerie accuracy. A child is acting as an unconscious vessel for a dying language.
-- **Barbara watching Babcia and Pawełek** `(when: evening with Pawełek, Babcia)` `(noticed by: [Empathy](../cards/empathy.md))` — [Barbara](barbara.md) watches from the kitchen. She does not understand what Babcia says either, and she is watching her son become part of something she was never part of.
+- **Barbara watching Babcia and Pawełek** `(when: evening with Pawełek, Babcia)` `(noticed by: [Empathy](../cards/empathy.md))` — [@name](barbara.md) watches from the kitchen. She does not understand what Babcia says either, and she is watching her son become part of something she was never part of.
 - **Medicine diagnosis** `(when: [Condition](#condition) is tended)` `(noticed by: [Medicine](../cards/medicine.md))` — The illness will not resolve on its own in a child this size. He needs antibacterial medication; stabilization only buys time. → Gives: [paweleks-diagnosis](../clues/clues.md#paweleks-diagnosis)
 - **Contamination pattern** `(when: [Condition](#condition) is tended)` `(noticed by: [Medicine](../cards/medicine.md))` — The bacterial load points to decomposing organic matter in a confined water source over years: a cistern, cellar, or well filled with something large and organic. → Gives: [paweleks-contamination](../clues/clues.md#paweleks-contamination)
-- **Water table mapping** `(when: Ask about drinking water)` `(noticed by: [Geology](../cards/geology.md))` — Contamination follows the water table downhill from the old village. Mapping the flow points toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) and [the well](../locations/old-village-ruins.md). → Gives: aware:locations/old-village-ruins.md
+- **Water table mapping** `(when: Ask about drinking water)` `(noticed by: [Geology](../cards/geology.md))` — Contamination follows the water table downhill from the old village. Mapping the flow points toward [@name](../locations/old-village-ruins.md) and [@name](../locations/old-village-ruins.md). → Gives: aware:locations/old-village-ruins.md
 - **Mud on his shoes** `(when: Ask about drinking water)` `(noticed by: [Survival](../cards/survival.md))` — His shoes by the door carry dark, silty mud with stone dust fragments: forest-path mud with worked stone. → Gives: aware:locations/old-village-ruins.md
 
 ## Actions

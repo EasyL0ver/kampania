@@ -8,10 +8,13 @@ ks. Władysław Pająk, the village's Roman Catholic priest, found at the church
 
 ## Vital Statistics
 
+- **First name:** Władysław
+- **Surname:** Pająk
+- **Title:** ks.
 - **Status:** Resident
 - **Born:** 1925
 - **Age in 1967:** 42
-- **Lives in:** [The rectory](../locations/the-rectory.md) — attached to the church
+- **Lives in:** [@name](../locations/the-rectory.md) — attached to the church
 - **Settled:** After 1954 — assigned to the parish after the lynch
 
 ## Character
@@ -28,10 +31,10 @@ His baritone stays intimate in conversation. When uncomfortable, his hand goes t
 
 ## Opinions
 
-- **[Helena Rzepka](matrona.md)** — "She is my closest parishioner. I see conviction in her and would defend her first if anyone came asking. If her piety is a performance, I have spent thirteen years failing to see it."
-- **[Zbigniew Gajda](wojewoda.md)** — "He controls the village politically, and I control it spiritually. We share meals, negotiate disputes, and pretend the church funding that passes through him buys nothing."
-- **[por. Witold Skowron](officer.md)** — "I fear what he represents: the machinery that could strip me of my parish. We both want quiet, but he sees me as an enemy of the state and I see him as an enemy of God."
-- **[Janina Gajda](ciotka.md)** — "She is my heaviest burden. She comes for comfort, and what passes between us is a full account of a murder that I cannot speak aloud."
+- **[@name](matrona.md)** — "She is my closest parishioner. I see conviction in her and would defend her first if anyone came asking. If her piety is a performance, I have spent thirteen years failing to see it."
+- **[@name](wojewoda.md)** — "He controls the village politically, and I control it spiritually. We share meals, negotiate disputes, and pretend the church funding that passes through him buys nothing."
+- **[@name](officer.md)** — "I fear what he represents: the machinery that could strip me of my parish. We both want quiet, but he sees me as an enemy of the state and I see him as an enemy of God."
+- **[@name](ciotka.md)** — "She is my heaviest burden. She comes for comfort, and what passes between us is a full account of a murder that I cannot speak aloud."
 - **[wujas-is-guilty](../clues/clues.md#wujas-is-guilty)** — "Every man carries his own cross. I will not break the seal of confession, but the weight is on my face."
 
 ## Mechanics
@@ -54,7 +57,7 @@ His baritone stays intimate in conversation. When uncomfortable, his hand goes t
 - **When:** ks. Władysław Pająk brought to Pawełek's sickroom
 - **Prompted by:** [`pawelek-was-possessed`](../clues/clues.md#pawelek-was-possessed)
 - **Cost:** 1 time
-- **Outcome:** He prays loudly over the boy, commanding the devil out, a Roman Catholic blessing that rises to shouting. It does nothing for the fever, and the noise frightens the delirious child. [Stefania Kopacz](babcia.md) comes out of her chair, sharply lucid, and drives him off: the boy is not a demon, and he is not to shout and terrify a sick child. This is not his faith and not his rite.
+- **Outcome:** He prays loudly over the boy, commanding the devil out, a Roman Catholic blessing that rises to shouting. It does nothing for the fever, and the noise frightens the delirious child. [@name](babcia.md) comes out of her chair, sharply lucid, and drives him off: the boy is not a demon, and he is not to shout and terrify a sick child. This is not his faith and not his rite.
 - **Gives:** [`babcia-opposed-to-church`](../clues/clues.md#babcia-opposed-to-church), [`babcia-mind-returns`](../clues/clues.md#babcia-mind-returns)
 
 ### Ask about the three-barred cross
@@ -87,6 +90,6 @@ His baritone stays intimate in conversation. When uncomfortable, his hand goes t
 ## Grudge
 
 - [ ] Demand he reveal what he heard in confession
-- [ ] Disturb the dead: strip or handle [Janina Gajda](ciotka.md)'s body crudely, brushing past his objection
+- [ ] Disturb the dead: strip or handle [@name](ciotka.md)'s body crudely, brushing past his objection
 - [ ] Disrespect the church (smoke inside, shout, handle sacred objects carelessly)
 - [ ] Threaten or pressure one of his parishioners in his presence

@@ -1,7 +1,7 @@
 # Store Robbery
 
-**Location:** [The Store](../locations/the-store.md)
-**Present:** [Helena Rzepka](../characters/matrona.md), [Halina Zając](../characters/secondary/halina-zajac.md)
+**Location:** [@name](../locations/the-store.md)
+**Present:** [@name](../characters/matrona.md), [@name](../characters/secondary/halina-zajac.md)
 **Available:** The first morning after the cabinet is forced
 
 ## Trigger
@@ -22,7 +22,7 @@ Word through the village the next morning that Helena's store was broken into ov
 - If the register was forced, the till is emptied too.
 - Helena treats the theft as something to be answered.
 - If Helena's [Robbery suspect](../characters/matrona.md#robbery-suspect) is the committee, she says little and watches the players with open suspicion.
-- If Helena's [Robbery suspect](../characters/matrona.md#robbery-suspect) is the committee, any committee member lodging at [her house](../locations/matronas-house.md) is turned out: come nightfall the door is barred and their belongings are set out in front of the house.
+- If Helena's [Robbery suspect](../characters/matrona.md#robbery-suspect) is the committee, any committee member lodging at [@name](../locations/matronas-house.md) is turned out: come nightfall the door is barred and their belongings are set out in front of the house.
 
 ## Opportunities
 

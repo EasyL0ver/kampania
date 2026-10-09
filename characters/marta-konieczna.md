@@ -1,23 +1,25 @@
 # Marta Konieczna
 
-**Type:** Named character — deceased; [Edward Barnaś](soldier.md)'s unmarried partner
+**Type:** Named character — deceased; [@name](soldier.md)'s unmarried partner
 
 ## Hook
 
-Marta Konieczna, the woman who lived with [Edward Barnaś](soldier.md); gone with the family since 1954.
+Marta Konieczna, the woman who lived with [@name](soldier.md); gone with the family since 1954.
 
 ## Vital Statistics
 
+- **First name:** Marta
+- **Surname:** Konieczna
 - **Status:** Dead
 - **Born:** ~1915
 - **Died:** 1954 — killed in the lynch, aged ~39
-- **Lived in:** [Edward Barnaś's house](../locations/ciotkas-house/ciotkas-house.md) in %NEW_VILLAGE% — now [Janina Gajda](ciotka.md)'s
-- **Family:** Unmarried partner of [Edward Barnaś](soldier.md); mother of [Hania Barnaś](jagna.md) and [Edek Barnaś](glupek.md)
-- **Records:** Appears in the [PGR expense journal](../items/pgr-expenses.md) under her own surname — the only place her full name is written down
+- **Lived in:** [@name](../locations/ciotkas-house/ciotkas-house.md) in %NEW_VILLAGE% — now [@name](ciotka.md)'s
+- **Family:** Unmarried partner of [@name](soldier.md); mother of [@name](jagna.md) and [@name](glupek.md)
+- **Records:** Appears in the [@name](../items/pgr-expenses.md) under her own surname — the only place her full name is written down
 
 ## Character
 
-Edek and Hania's mother, and Edward's partner though never his wife. She kept her surname, Konieczna, which is why no "Barnaś" wife appears in any village record. The men killed her in the house the night of the lynch; [Stanisław Rezeń](butcher.md) carried her body to the old well. Her identity as Edek's mother is buried with her.
+Edek and Hania's mother, and Edward's partner though never his wife. She kept her surname, Konieczna, which is why no "Barnaś" wife appears in any village record. The men killed her in the house the night of the lynch; [@name](butcher.md) carried her body to the old well. Her identity as Edek's mother is buried with her.
 
 ## Appearance
 

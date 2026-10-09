@@ -2,7 +2,7 @@
 
 **Type:** Location (revisitable)
 **Location:** %NEW_VILLAGE% — church on the hill, cemetery adjacent.
-**Present:** [ks. Władysław Pająk](../characters/priest.md) (inside, usually), [Wanda Mazur](../characters/widow.md) (cemetery, most days)
+**Present:** [@name](../characters/priest.md) (inside, usually), [@name](../characters/widow.md) (cemetery, most days)
 **Available:** Any day
 **Cost:** 1 action per visit
 
@@ -31,7 +31,7 @@ The church on the hill in %NEW_VILLAGE%, beside the cemetery.
 ## Actions
 
 ### Talk to Widow at the grave
-- **When:** [Wanda Mazur](../characters/widow.md) present
+- **When:** [@name](../characters/widow.md) present
 - **Outcome:** Wanda talks about her husband, his PGR work, his accident, and her wish that the committee include him in the census.
 - **Gives:** [wanda-receives-pension](../clues/clues.md#wanda-receives-pension)
 

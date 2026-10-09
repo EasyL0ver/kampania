@@ -8,11 +8,13 @@ The village drunk who was once its schoolteacher, loud against the authorities t
 
 ## Vital Statistics
 
+- **First name:** %RADIOMAN%
+- **Surname:** %RADIOMAN_SURNAME%
 - **Status:** Resident
 - **Born:** 1919
 - **Age in 1967:** 48
 - **Heritage:** Polish
-- **Lives in:** [%NEW_VILLAGE%](../locations/new-village.md) — a run-down cottage on the edge of the village, alone
+- **Lives in:** [@name](../locations/new-village.md) — a run-down cottage on the edge of the village, alone
 - **Settled:** ~1951 — sent here as the new village's schoolteacher during resettlement
 
 ## Character
@@ -29,11 +31,11 @@ He talks in a teacher's cadence, reaches for clever phrases, half-remembers Lati
 
 ## Opinions
 
-- **[Zbigniew Gajda](wojewoda.md)** — "He is our little tsar. He runs to the man in the black car, comes back with orders, and everyone pretends not to see it."
-- **[the man in the black car](officer.md)** — "Bezpieka. I have never spoken to him and never will, but I know what he is."
-- **[ks. Władysław Pająk](priest.md)** — "He sold his silence like everyone else. The Church was supposed to be the one thing they could not buy."
-- **[Tadek Gajda](wujas.md)** — "He is my one honest friend, God help us both. I drink with his crew at the still for the bottle and the talk."
-- **[%NEW_VILLAGE%](../locations/village-outskirts.md)** — "They built it on nothing and called it progress. Now they will drown it and call that progress too."
+- **[@name](wojewoda.md)** — "He is our little tsar. He runs to the man in the black car, comes back with orders, and everyone pretends not to see it."
+- **[@name](officer.md)** — "Bezpieka. I have never spoken to him and never will, but I know what he is."
+- **[@name](priest.md)** — "He sold his silence like everyone else. The Church was supposed to be the one thing they could not buy."
+- **[@name](wujas.md)** — "He is my one honest friend, God help us both. I drink with his crew at the still for the bottle and the talk."
+- **[@name](../locations/village-outskirts.md)** — "They built it on nothing and called it progress. Now they will drown it and call that progress too."
 - **[new-village-will-flood](../clues/clues.md#new-village-will-flood)** — "They knew. Of course they knew. When has the state ever not known and told us anyway?"
 
 ## Mechanics
@@ -78,7 +80,7 @@ He knows the official history, that the old village was Lemko and was cleared in
 - **Gives:** [`survey-was-faked`](../clues/clues.md#survey-was-faked)
 
 ### Do the arithmetic on the ditch
-- **Requires:** [Concrete Ditch Measurements](../items/concrete-ditch-measurements.md) AND [Dugout Measurements](../items/dugout-measurements.md)
+- **Requires:** [@name](../items/concrete-ditch-measurements.md) AND [@name](../items/dugout-measurements.md)
 - **Prompted by:** [ditch-concrete-stops-short](../clues/clues.md#ditch-concrete-stops-short)
 - **Cost:** 1 time
 - **Outcome:** Show the drunk teacher the figures and he sobers enough to work them like a class problem: the fine concrete head carries plenty, but it runs a fraction of the length; the shallow dugout that carries the rest chokes at flood volume and spills. To him it is proof the state built a sham drain and knew it.

@@ -1,7 +1,7 @@
 # Irena Confronts the Wojewoda
 
-**Location:** [Zbigniew Gajda's house](../locations/wojewodas-house.md)
-**Present:** [Zbigniew Gajda](../characters/wojewoda.md), [Irena Gajda](../characters/wife.md)
+**Location:** [@name](../locations/wojewodas-house.md)
+**Present:** [@name](../characters/wojewoda.md), [@name](../characters/wife.md)
 **Available:** When Irena pivots; see [her mechanics](../characters/wife.md#mechanics).
 
 ## Trigger
@@ -13,7 +13,7 @@
 
 ## Hook
 
-- Raised voices are audible from inside [Zbigniew Gajda's house](../locations/wojewodas-house.md).
+- Raised voices are audible from inside [@name](../locations/wojewodas-house.md).
 - The door to the argument is closed.
 - The argument is perceivable from the hall, guest room, or stairs.
 
@@ -42,7 +42,7 @@
 
 ## Exits
 
-- Remain at [Zbigniew Gajda's house](../locations/wojewodas-house.md) under a closed household.
+- Remain at [@name](../locations/wojewodas-house.md) under a closed household.
 - Follow the loss of Irena's investigation through [her mechanics](../characters/wife.md#mechanics).
 - Continue toward any active 1954 route that does not depend on Irena's cooperation.
 

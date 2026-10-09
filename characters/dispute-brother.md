@@ -8,11 +8,13 @@
 
 ## Vital Statistics
 
+- **First name:** %BROTHER%
+- **Surname:** %DISPUTE_SURNAME%
 - **Status:** Resident
 - **Born:** ~1931
 - **Age in 1967:** 36
 - **Heritage:** Polish settler family
-- **Lives in:** [%NEW_VILLAGE%](../locations/new-village.md) — his late father's house, alone
+- **Lives in:** [@name](../locations/new-village.md) — his late father's house, alone
 - **Settled:** 1947, as a child with his father
 
 ## Character
@@ -30,9 +32,9 @@ He speaks like a man who knows the rules are already on his side. His reasonable
 
 ## Opinions
 
-- **[%SISTER%](dispute-sister.md)** — "My sister worked the strip, but father's name is on the deed and the deed covers the land. I am not signing my share away out of sentiment."
-- **[%OLD_VILLAGE%](../locations/old-village-ruins.md)** — "Father used to go up there for timber and stone when we were building. I never liked it, and I do not know what it has to do with a boundary line."
-- **[por. Witold Skowron](officer.md)** — "If your people rule against a legal deed, he is exactly who I will write to. I would rather not, but I will."
+- **[@name](dispute-sister.md)** — "My sister worked the strip, but father's name is on the deed and the deed covers the land. I am not signing my share away out of sentiment."
+- **[@name](../locations/old-village-ruins.md)** — "Father used to go up there for timber and stone when we were building. I never liked it, and I do not know what it has to do with a boundary line."
+- **[@name](officer.md)** — "If your people rule against a legal deed, he is exactly who I will write to. I would rather not, but I will."
 - **[army-massacred-civilians-in-1947](../clues/clues.md#army-massacred-civilians-in-1947)** — "That's her, isn't it? Father's deathbed nonsense has nothing to do with a farm boundary."
 
 ## Mechanics
@@ -54,17 +56,17 @@ He speaks like a man who knows the rules are already on his side. His reasonable
 
 ### Property assessment
 - **Cost:** 1 time
-- **Outcome:** He produces his father's deed to the house and disputed strip. He notes that [%SISTER%](dispute-sister.md) farms the strip, but the paper is his.
+- **Outcome:** He produces his father's deed to the house and disputed strip. He notes that [@name](dispute-sister.md) farms the strip, but the paper is his.
 - **Changes:** [Property Record](../items/census.md#property-record) — %BROTHER% holds the deed to the house and disputed strip; [The dispute](#the-dispute) — TBD
 
 ### Rule the boundary his way
 - **When:** The committee settles the disputed strip in the compensation assessment
-- **Outcome:** The deed stands, and the strip and its compensation go to him. [%SISTER%](dispute-sister.md) loses the ground she has worked for years.
+- **Outcome:** The deed stands, and the strip and its compensation go to him. [@name](dispute-sister.md) loses the ground she has worked for years.
 - **Changes:** [The dispute](#the-dispute) — TBD
 
 ### Rule the boundary against him
-- **When:** The committee settles the strip in [%SISTER%](dispute-sister.md)'s favour despite the deed
-- **Outcome:** He tells the committee the deed is his and they have overstepped. He files a formal complaint through [por. Witold Skowron](officer.md) and the provincial office.
+- **When:** The committee settles the strip in [@name](dispute-sister.md)'s favour despite the deed
+- **Outcome:** He tells the committee the deed is his and they have overstepped. He files a formal complaint through [@name](officer.md) and the provincial office.
 - **Changes:** [The dispute](#the-dispute) — TBD
 
 ## Bond

@@ -1,7 +1,7 @@
 # The Geologist's Kit
 
 **Type:** Item — field surveying kit and briefing dossier (with the previous crew's survey report)
-**Source:** Issued to the committee at the start, packed with the party's gear; [prof. Bieńkowski](../characters/professor.md) flagged the report inside it as thin at the briefing
+**Source:** Issued to the committee at the start, packed with the party's gear; [@name](../characters/professor.md) flagged the report inside it as thin at the briefing
 **Carried:** Lets the party check terrain, read the state's paper, and rerun the flood projection once the outlets are known.
 
 ## Hook
@@ -66,19 +66,19 @@ A worn canvas roll of survey tools: a level and clinometer with its graduated ro
 - **Gives:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
 
 ### Read the figures as a surveyor
-- **Requires:** [The Geologist's Kit](geologists-kit.md) AND [Geology](../cards/geology.md) AND [Streambed Parameters](streambed-parameters.md)
+- **Requires:** [The Geologist's Kit](geologists-kit.md) AND [Geology](../cards/geology.md) AND [@name](streambed-parameters.md)
 - **Cost:** 1 time
 - **Outcome:** Against the kit's drainage tables you read the two elevations and conclude the col sits above house level, so the rising water tops the village before it reaches the streambed.
 - **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 
 ### Run the drainage tables on the ditch head
-- **Requires:** [The Geologist's Kit](geologists-kit.md) AND [Geology](../cards/geology.md) AND [Concrete Ditch Measurements](concrete-ditch-measurements.md)
+- **Requires:** [The Geologist's Kit](geologists-kit.md) AND [Geology](../cards/geology.md) AND [@name](concrete-ditch-measurements.md)
 - **Cost:** 1 time
 - **Outcome:** You run the concrete head's cross-section against the drainage tables. The channel of ample capacity carries the flood clear: on these figures the ditch drains fine. It is the same all-clear the report gives, and it is a trap. The sum covers only the concrete stretch at the head, not the earth dugout below. A party that has not walked the full length and measured the dugout has no cause to doubt it and will cross the ditch off.
 - **Gives:** [ditch-drains-fine](../clues/clues.md#ditch-drains-fine)
 
 ### Recalculate the whole ditch
-- **Requires:** [The Geologist's Kit](geologists-kit.md) AND [Geology](../cards/geology.md) AND [Concrete Ditch Measurements](concrete-ditch-measurements.md) AND [Dugout Measurements](dugout-measurements.md)
+- **Requires:** [The Geologist's Kit](geologists-kit.md) AND [Geology](../cards/geology.md) AND [@name](concrete-ditch-measurements.md) AND [@name](dugout-measurements.md)
 - **Cost:** 1 time
 - **Outcome:** With both cross-sections in hand, the concrete head and the shallow earth dugout, you run the tables over the real channel, not just the head. The undersized dugout backs up and overflows at flood volume. The ditch cannot carry the water off, and the head-only figure was a false all-clear.
 - **Gives:** [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing)

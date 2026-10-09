@@ -4,14 +4,16 @@
 
 ## Hook
 
-- Franek Mucha, a village drunk and brawler, one of [Tadek Gajda](../wujas.md)'s drinking crew.
+- Franek Mucha, a village drunk and brawler, one of [@name](../wujas.md)'s drinking crew.
 
 ## Vital Statistics
 
+- **First name:** Franek
+- **Surname:** Mucha
 - **Status:** Resident
 - **Born:** ~1927
 - **Age in 1967:** ~35-45
-- **Lives in:** [%NEW_VILLAGE%](../../locations/new-village.md)
+- **Lives in:** [@name](../../locations/new-village.md)
 - **Settled:** ~1955
 
 ## Character
@@ -26,4 +28,4 @@ A younger, aggressive brawler in Tadek Gajda's drinking circle. He is the one mo
 
 ## Opinions
 
-- **[Tadek Gajda](../wujas.md)** — "We drink together, but old debts do not vanish in bimber."
+- **[@name](../wujas.md)** — "We drink together, but old debts do not vanish in bimber."

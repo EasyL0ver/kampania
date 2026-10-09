@@ -1,6 +1,6 @@
 # The Village Drowns
 
-**Location:** [%NEW_VILLAGE%](../locations/new-village.md)
+**Location:** [@name](../locations/new-village.md)
 **Present:** everyone still in the valley
 **Available:** End of game, when neither [Evacuate](../characters/jagna.md#evacuate) nor [Fight](../characters/foreman.md#fight) happened.
 

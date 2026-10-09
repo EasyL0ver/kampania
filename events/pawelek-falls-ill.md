@@ -1,8 +1,8 @@
 # Pawełek Falls Ill
 
-**Location:** [Barbara's house](../locations/barbaras-house.md)
-**Present:** [Barbara Kopacz](../characters/barbara.md), [Stefania Kopacz](../characters/babcia.md), [Pawełek Kopacz](../characters/pawelek.md)
-**Available:** Day 3 onward, after [the flood](the-flood.md).
+**Location:** [@name](../locations/barbaras-house.md)
+**Present:** [@name](../characters/barbara.md), [@name](../characters/babcia.md), [@name](../characters/pawelek.md)
+**Available:** Day 3 onward, after [@name](the-flood.md).
 
 ## Trigger
 
@@ -15,8 +15,8 @@
 ## Hook
 
 - Word spreads through the village that Barbara's boy is sick.
-- Players can hear the news at the [PGR](../locations/pgr-farm.md), [the store](../locations/the-store.md), or from any nearby NPC.
-- [Ryszard Dudka](../characters/neighbour.md) may come to find the committee and ask whether anyone is a doctor.
+- Players can hear the news at the [@name](../locations/pgr-farm.md), [@name](../locations/the-store.md), or from any nearby NPC.
+- [@name](../characters/neighbour.md) may come to find the committee and ask whether anyone is a doctor.
 
 ## Setup
 
@@ -69,7 +69,7 @@
 - **Gives:** [`babcia-is-lemko`](../clues/clues.md#babcia-is-lemko), [`babcia-has-the-words`](../clues/clues.md#babcia-has-the-words)
 
 ### Give Pawełek the penicillin
-- **Requires:** [penicillin](../items/penicillin.md)
+- **Requires:** [@name](../items/penicillin.md)
 - **Prompted by:** [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin)
 - **Cost:** 1 time
 - **Outcome:** You give the boy the penicillin at a child's dose. The fever breaks. His HP loss stops for good and he begins to recover.
@@ -88,11 +88,11 @@
 
 ## Exits
 
-- Return to [Barbara's house](../locations/barbaras-house.md) while Pawełek's HP clock continues.
-- Go to [the store](../locations/the-store.md) for medicine.
-- Go to [Zbigniew Gajda's office](../locations/pgr-office.md) to call dr. Sawicki.
-- Go toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) to investigate the water.
-- Go to [Paraskewia](../characters/hag.md) if the herbal route is available.
+- Return to [@name](../locations/barbaras-house.md) while Pawełek's HP clock continues.
+- Go to [@name](../locations/the-store.md) for medicine.
+- Go to [@name](../locations/pgr-office.md) to call dr. Sawicki.
+- Go toward [@name](../locations/old-village-ruins.md) to investigate the water.
+- Go to [@name](../characters/hag.md) if the herbal route is available.
 
 ## If Missed
 

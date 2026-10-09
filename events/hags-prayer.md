@@ -1,23 +1,23 @@
 # Hag's Prayer
 
-**Location:** [Barbara's House](../locations/barbaras-house.md)
-**Present:** [Paraskewia Chyłak](../characters/hag.md) (heard, not seen)
-**Available:** Any night, while [Paraskewia Chyłak](../characters/hag.md) is alive and not hostile (see her [Hostility](../characters/hag.md#village-hostility) mechanic)
+**Location:** [@name](../locations/barbaras-house.md)
+**Present:** [@name](../characters/hag.md) (heard, not seen)
+**Available:** Any night, while [@name](../characters/hag.md) is alive and not hostile (see her [Hostility](../characters/hag.md#village-hostility) mechanic)
 
 ## Trigger
 
 - Middle of the night.
-- Players are at [Barbara's House](../locations/barbaras-house.md) or outside in the village.
-- Fires every night as long as [Paraskewia Chyłak](../characters/hag.md) is alive.
+- Players are at [@name](../locations/barbaras-house.md) or outside in the village.
+- Fires every night as long as [@name](../characters/hag.md) is alive.
 - Does not fire once Paraskewia turns hostile (see her [Hostility](../characters/hag.md#village-hostility) mechanic); she stops coming to the well.
 
 ## Hook
 
-- Faint singing carried on the wind from the forest, heard at night from [Barbara's House](../locations/barbaras-house.md) or anywhere outside in the village.
+- Faint singing carried on the wind from the forest, heard at night from [@name](../locations/barbaras-house.md) or anywhere outside in the village.
 
 ## Setup
 
-- Following the singing leads to the [old-village cerkiew](../locations/old-village-cerkiew.md).
+- Following the singing leads to the [@name](../locations/old-village-cerkiew.md).
 - The ruined nave is dark but for her candles and a low fire; incense, bread, and honey are set on the stones.
 - Paraskewia Chyłak stands over the well, singing the names of the dead; the sound carries off the bare stone.
 - The instant she sees or hears the players, the singing stops and she is gone into the forest.
@@ -31,7 +31,7 @@
 
 ### Follow the singing
 - **Cost:** 1 time
-- **Outcome:** The singing leads through the forest to the [old-village cerkiew](../locations/old-village-cerkiew.md).
+- **Outcome:** The singing leads through the forest to the [@name](../locations/old-village-cerkiew.md).
 - **Gives:** aware:locations/old-village-ruins.md
 
 ### Sneak closer and watch
@@ -47,7 +47,7 @@
 
 ## Mechanics
 
-- Paraskewia cannot be caught, cornered, or spoken to here. The moment she is noticed, she flees, and pursuit fails in the dark. Contact must be made later, at her [cabin](../locations/hags-cabin.md).
+- Paraskewia cannot be caught, cornered, or spoken to here. The moment she is noticed, she flees, and pursuit fails in the dark. Contact must be made later, at her [@name](../locations/hags-cabin.md).
 
 ## Exits
 

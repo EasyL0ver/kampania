@@ -1,9 +1,9 @@
 # Arrival — In the Office
 
-**Part of:** [Arrival — On the Road](arrival.md)
-**Location:** [Zbigniew Gajda's house](../../locations/wojewodas-house.md)
-**Present:** [Zbigniew Gajda](../../characters/wojewoda.md), [Irena Gajda](../../characters/wife.md)
-**Available:** After [Arrival — On the Road](arrival.md).
+**Part of:** [@name](arrival.md)
+**Location:** [@name](../../locations/wojewodas-house.md)
+**Present:** [@name](../../characters/wojewoda.md), [@name](../../characters/wife.md)
+**Available:** After [@name](arrival.md).
 
 ## Hook
 
@@ -11,17 +11,17 @@
 
 ## Setup
 
-- [Zbigniew Gajda](../../characters/wojewoda.md)'s office is clean and organised.
+- [@name](../../characters/wojewoda.md)'s office is clean and organised.
 - A heavy bakelite phone sits on the office desk.
 - Ledgers and maps are visible in the office.
 - Tea is on the table.
-- [Zbigniew Gajda](../../characters/wojewoda.md) presents himself as cooperative and helpful.
-- [Zbigniew Gajda](../../characters/wojewoda.md) invites the committee to a family dinner that evening.
-- [Irena Gajda](../../characters/wife.md) is inside the house.
+- [@name](../../characters/wojewoda.md) presents himself as cooperative and helpful.
+- [@name](../../characters/wojewoda.md) invites the committee to a family dinner that evening.
+- [@name](../../characters/wife.md) is inside the house.
 
 ## Opportunities
 
-- **The listening at the door** `(noticed by: [Finesse](../../cards/finesse.md))` — A shadow and a floorboard creak show someone is listening during the conversation with [Zbigniew Gajda](../../characters/wojewoda.md). → Gives: [`irena-is-watchful`](../../clues/clues.md#irena-is-watchful)
+- **The listening at the door** `(noticed by: [Finesse](../../cards/finesse.md))` — A shadow and a floorboard creak show someone is listening during the conversation with [@name](../../characters/wojewoda.md). → Gives: [`irena-is-watchful`](../../clues/clues.md#irena-is-watchful)
 
 ## Actions
 
@@ -42,5 +42,5 @@
 
 ## Exits
 
-- Stay at [Zbigniew Gajda's house](../../locations/wojewodas-house.md) for official introductions.
-- Continue to [Dinner at Wojewoda's](../dinner.md) if the committee accepts hospitality.
+- Stay at [@name](../../locations/wojewodas-house.md) for official introductions.
+- Continue to [@name](../dinner.md) if the committee accepts hospitality.

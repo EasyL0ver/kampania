@@ -1,7 +1,7 @@
 # Holy Mass — Anti-Flood Prayer
 
-**Location:** [The church](../locations/the-church.md)
-**Present:** [ks. Władysław Pająk](../characters/priest.md), [Helena Rzepka](../characters/matrona.md), [Emil Rzepka](../characters/painter.md), [Zbigniew Gajda](../characters/wojewoda.md), village congregation
+**Location:** [@name](../locations/the-church.md)
+**Present:** [@name](../characters/priest.md), [@name](../characters/matrona.md), [@name](../characters/painter.md), [@name](../characters/wojewoda.md), village congregation
 **Available:** Day 4 morning.
 
 ## Hook
@@ -31,5 +31,5 @@ A Mass beginning in the church as the village gathers against the rising water.
 
 ## Exits
 
-- After Mass, ks. Władysław Pająk sends someone to check Janina Gajda's house → [Ciotka Found Dead](ciotka-found-dead/ciotka-found-dead.md).
-- Remain at [The church](../locations/the-church.md) for confession or follow-up conversations.
+- After Mass, ks. Władysław Pająk sends someone to check Janina Gajda's house → [@name](ciotka-found-dead/ciotka-found-dead.md).
+- Remain at [@name](../locations/the-church.md) for confession or follow-up conversations.

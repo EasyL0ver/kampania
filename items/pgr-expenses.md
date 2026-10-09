@@ -1,7 +1,7 @@
 # PGR Expense Journal
 
 **Type:** Item — farm expense journal (document)
-**Source:** PGR Office desk, via the "Inspect the farm books" action → [PGR Office](../locations/pgr-office.md)
+**Source:** PGR Office desk, via the "Inspect the farm books" action → [@name](../locations/pgr-office.md)
 **Carried:** Financial evidence. Three things hide in the mundane entries: the timing of a death at the grain silo, the only appearance of Marta Konieczna's full name, and the state money that built Barbara's brick house.
 
 ## Hook
@@ -99,5 +99,5 @@ Date        Payee / Description                                    Amount
 ### Trace the brick and masonry (Investigation)
 - **Requires:** [PGR Expense Journal](pgr-expenses.md)
 - **Cost:** 1 time
-- **Outcome:** 1960: the farm buys 4,000 red bricks and pays a mason for "worker housing" — the only brick spending in the ledger. The village has one brick house: [Barbara Kopacz](../characters/barbara.md)'s. State money built a labourer's house.
+- **Outcome:** 1960: the farm buys 4,000 red bricks and pays a mason for "worker housing" — the only brick spending in the ledger. The village has one brick house: [@name](../characters/barbara.md)'s. State money built a labourer's house.
 - **Gives:** [barbara-has-help](../clues/clues.md#barbara-has-help)

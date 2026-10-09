@@ -1,8 +1,8 @@
 # Committee Census Register
 
 **Type:** Item — census register (document)
-**Source:** Issued to the committee for the assignment on the drive in ([The Car In](../events/the-car-in.md)); filled household by household through the **Census interview** action across the village.
-**Carried:** The running record of who lives in %NEW_VILLAGE%. Set against the [PGR worker registry](pgr-ledger.md), it exposes a paid "worker" that no household contains.
+**Source:** Issued to the committee for the assignment on the drive in ([@name](../events/the-car-in.md)); filled household by household through the **Census interview** action across the village.
+**Carried:** The running record of who lives in %NEW_VILLAGE%. Set against the [@name](pgr-ledger.md), it exposes a paid "worker" that no household contains.
 
 ## Hook
 
@@ -46,7 +46,7 @@ Household        Name                 Age   Resident since   Notes
 ## Actions
 
 ### Cross-check against the worker registry
-- **When:** Holding the census with household entries recorded, and the [PGR worker registry](pgr-ledger.md)
+- **When:** Holding the census with household entries recorded, and the [@name](pgr-ledger.md)
 - **Cost:** 1 time
 - **Outcome:** The census records every living head in the village. One name on the farm's payroll, Tadeusz Mazur, belongs to no household: his widow is listed alone. A worker drawing wages that no household accounts for.
 - **Gives:** [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent)

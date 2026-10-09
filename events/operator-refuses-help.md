@@ -1,8 +1,8 @@
 # Operator Refuses Help
 
-**Location:** [Zbigniew Gajda's office](../locations/wojewodas-house.md)
-**Present:** [%OPERATOR%](../characters/jagna.md), [Zbigniew Gajda](../characters/wojewoda.md) (optional)
-**Available:** Day 3 onward, during [the flood](the-flood.md), when players call outside for rescue.
+**Location:** [@name](../locations/wojewodas-house.md)
+**Present:** [@name](../characters/jagna.md), [@name](../characters/wojewoda.md) (optional)
+**Available:** Day 3 onward, during [@name](the-flood.md), when players call outside for rescue.
 
 ## Trigger
 
@@ -38,11 +38,11 @@ A clear voice answering from the telephone exchange while floodwater cuts the vi
 - **When:** On the line with her
 - **Prompted by:** [operator-is-jagna](../clues/clues.md#operator-is-jagna)
 - **Cost:** 1 time
-- **Outcome:** The committee puts her name to the voice: Hania. If they are only guessing, saying her name, her father's, or the well buys one caught breath before she resumes procedure, deniable and not repeatable. Once they know the operator is [Hania Barnaś](../characters/jagna.md) and name her as such, she stops pretending: she does not deny it, does not hang up, and the flat clerk's indifference turns quiet, personal, and vengeful. The rescue does not change; every word after is between the committee and Hania.
+- **Outcome:** The committee puts her name to the voice: Hania. If they are only guessing, saying her name, her father's, or the well buys one caught breath before she resumes procedure, deniable and not repeatable. Once they know the operator is [@name](../characters/jagna.md) and name her as such, she stops pretending: she does not deny it, does not hang up, and the flat clerk's indifference turns quiet, personal, and vengeful. The rescue does not change; every word after is between the committee and Hania.
 - **Changes:** [Mechanics](#mechanics) — the operator drops the clerk and answers as Hania
 
 ### Tell her Edek, her brother, is alive and trapped
-- **When:** [Edek](../characters/glupek.md) has fled to the [UPA bunker](../locations/upa-bunker.md) after [Ciotka Found Dead](ciotka-found-dead/ciotka-found-dead.md)
+- **When:** [@name](../characters/glupek.md) has fled to the [@name](../locations/upa-bunker.md) after [@name](ciotka-found-dead/ciotka-found-dead.md)
 - **Prompted by:** [operator-is-jagna](../clues/clues.md#operator-is-jagna), [edeks-father-left](../clues/clues.md#edeks-father-left), [barnas-had-a-daughter-hania](../clues/clues.md#barnas-had-a-daughter-hania)
 - **Cost:** 1 time
 - **Outcome:** She buried the whole family in her mind in 1954, the baby included. Hearing, and believing, that her brother lived breaks the procedure for good. She stops withholding and relays the call without confirming her identity.
@@ -56,14 +56,14 @@ A clear voice answering from the telephone exchange while floodwater cuts the vi
 
 ## Mechanics
 
-**Anonymity:** anonymous until the committee knows the voice is [Hania Barnaś](../characters/jagna.md) (**Name her**), which turns her indifference vengeful.
-**Willingness:** withholding, and opens only after she is known as Hania, then **Tell her Edek, her brother, is alive and trapped** opens rescue calls or **Name her family's killers** opens exposure calls ([The Report](the-report.md)).
+**Anonymity:** anonymous until the committee knows the voice is [@name](../characters/jagna.md) (**Name her**), which turns her indifference vengeful.
+**Willingness:** withholding, and opens only after she is known as Hania, then **Tell her Edek, her brother, is alive and trapped** opens rescue calls or **Name her family's killers** opens exposure calls ([@name](the-report.md)).
 
 ## Exits
 
-- Return to [The Flood](the-flood.md) with the ordinary rescue route closed.
-- Continue to [The Report](the-report.md), if the players use the line to put the truth outside the valley.
-- Follow the Edek route toward the [UPA bunker](../locations/upa-bunker.md), if the call turns on his survival.
+- Return to [@name](the-flood.md) with the ordinary rescue route closed.
+- Continue to [@name](the-report.md), if the players use the line to put the truth outside the valley.
+- Follow the Edek route toward the [@name](../locations/upa-bunker.md), if the call turns on his survival.
 
 ## If Missed
 

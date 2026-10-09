@@ -1,8 +1,8 @@
 # The Priest's Plea
 
-**Location:** [The Rectory](../locations/the-rectory.md)
-**Present:** [ks. Władysław Pająk](../characters/priest.md), one player with progressed [bond](../characters/priest.md#bond)
-**Available:** Day 4 onward, after [Holy Mass](holy-mass.md); fires once.
+**Location:** [@name](../locations/the-rectory.md)
+**Present:** [@name](../characters/priest.md), one player with progressed [bond](../characters/priest.md#bond)
+**Available:** Day 4 onward, after [@name](holy-mass.md); fires once.
 
 ## Trigger
 
@@ -13,7 +13,7 @@
 ## Hook
 
 - ks. Pająk asks the player for a private talk after Mass.
-- [Krystian](../characters/secondary/krystian-rzepka.md) may bring a folded note from him.
+- [@name](../characters/secondary/krystian-rzepka.md) may bring a folded note from him.
 - ks. Pająk may come to the committee billet.
 - He does not ask twice.
 - He does not invite the whole committee.
@@ -73,13 +73,13 @@
 
 ## Exits
 
-- Return to [The church](../locations/the-church.md).
-- If mercy was supported, continue toward [The Odpust](the-odpust.md).
-- If judgment was supported or no help is given, continue toward [Second Flood Mass](second-flood-mass.md) and [The Seal-Break](the-seal-break.md).
+- Return to [@name](../locations/the-church.md).
+- If mercy was supported, continue toward [@name](the-odpust.md).
+- If judgment was supported or no help is given, continue toward [@name](second-flood-mass.md) and [@name](the-seal-break.md).
 
 ## If Missed
 
 - If no player earns his trust, this event never fires.
 - ks. Pająk carries the fear alone.
-- His crisis defaults toward judgment across [Second Flood Mass](second-flood-mass.md) and [The Seal-Break](the-seal-break.md).
+- His crisis defaults toward judgment across [@name](second-flood-mass.md) and [@name](the-seal-break.md).
 - The Grace path can still open if the guilty are brought to confess.

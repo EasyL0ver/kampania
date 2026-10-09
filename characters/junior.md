@@ -1,6 +1,6 @@
 # Marek Gajda
 
-**Type:** Named character — [Zbigniew Gajda](wojewoda.md)'s son / false suspect
+**Type:** Named character — [@name](wojewoda.md)'s son / false suspect
 
 ## Hook
 
@@ -8,15 +8,17 @@ Marek Gajda, the sołtys's hot-tempered young son.
 
 ## Vital Statistics
 
+- **First name:** Marek
+- **Surname:** Gajda
 - **Status:** Resident
 - **Born:** 1946
 - **Age in 1967:** 21
-- **Lives in:** [Zbigniew Gajda's house](../locations/wojewodas-house.md) — with [Zbigniew Gajda](wojewoda.md), [Irena Gajda](wife.md)
+- **Lives in:** [@name](../locations/wojewodas-house.md) — with [@name](wojewoda.md), [@name](wife.md)
 - **Settled:** Born in %NEW_VILLAGE%
 
 ## Character
 
-Leather jacket, temper, and a useful bad reputation. He looks like the problem, but he is running a parallel investigation for [Irena Gajda](wife.md) and will turn back toward family loyalty if she does.
+Leather jacket, temper, and a useful bad reputation. He looks like the problem, but he is running a parallel investigation for [@name](wife.md) and will turn back toward family loyalty if she does.
 
 ## Appearance
 
@@ -28,12 +30,12 @@ A cigarette is usually between his lips or behind his ear. His studied cool drop
 
 ## Opinions
 
-- **[Zbigniew Gajda](wojewoda.md)** — "I respect his strength and hate his silence. He is hiding something enormous, and every stare tells me to drop it."
-- **[Irena Gajda](wife.md)** — "I trust her completely. She asked me to dig, so I dig."
-- **[Tadek Gajda](wujas.md)** — "He drinks, talks, and forgets what he said. I do not like using him, but Mother needs answers."
-- **[Helena Rzepka](matrona.md)** — "I avoid being alone with her. She watches too closely."
-- **[Janina Gajda](ciotka.md)** — "She was kind to me when I was small. I do not understand why she lives apart from everyone."
-- **[Barbara Kopacz](barbara.md)** — "She is the only good thing here. With her, I stop being a Gajda for a while."
+- **[@name](wojewoda.md)** — "I respect his strength and hate his silence. He is hiding something enormous, and every stare tells me to drop it."
+- **[@name](wife.md)** — "I trust her completely. She asked me to dig, so I dig."
+- **[@name](wujas.md)** — "He drinks, talks, and forgets what he said. I do not like using him, but Mother needs answers."
+- **[@name](matrona.md)** — "I avoid being alone with her. She watches too closely."
+- **[@name](ciotka.md)** — "She was kind to me when I was small. I do not understand why she lives apart from everyone."
+- **[@name](barbara.md)** — "She is the only good thing here. With her, I stop being a Gajda for a while."
 - **[wujas-is-guilty](../clues/clues.md#wujas-is-guilty)** — "Do not make him into a monster before I know what happened. But if he is guilty, I need the rest."
 
 ## Opportunities

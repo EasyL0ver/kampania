@@ -8,11 +8,13 @@
 
 ## Vital Statistics
 
+- **First name:** Paraskewia
+- **Surname:** Chyłak
 - **Status:** Resident
 - **Born:** ~1927
 - **Age in 1967:** ~40
 - **Heritage:** Lemko
-- **Lives in:** [Hag's cabin](../locations/hags-cabin.md) — alone
+- **Lives in:** [@name](../locations/hags-cabin.md) — alone
 - **Settled:** Never left; hid in the forest after the 1947 massacre
 
 ## Character
@@ -29,10 +31,10 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 
 ## Opinions
 
-- **[Stanisław Rezeń](butcher.md)** — "I know the local boy who helped the soldiers in 1947. I have watched his footprints at the well for twenty years."
-- **[%OLD_VILLAGE%](../locations/old-village-ruins.md)** — "My dead are there. The stones remember more honestly than the living."
-- **[%NEW_VILLAGE%](../locations/village-outskirts.md)** — "The river wants its old bed back. The hill came down in the notch and stopped it, so the water climbs to where the houses are."
-- **[Dmytro Kosach](../characters/dmytro-kosach.md)** — "Say his name correctly or do not say it. He was loved, and he died with the rest."
+- **[@name](butcher.md)** — "I know the local boy who helped the soldiers in 1947. I have watched his footprints at the well for twenty years."
+- **[@name](../locations/old-village-ruins.md)** — "My dead are there. The stones remember more honestly than the living."
+- **[@name](../locations/village-outskirts.md)** — "The river wants its old bed back. The hill came down in the notch and stopped it, so the water climbs to where the houses are."
+- **[@name](../characters/dmytro-kosach.md)** — "Say his name correctly or do not say it. He was loved, and he died with the rest."
 - **[hag-tends-the-well](../clues/clues.md#hag-tends-the-well)** — "I do what no one else will do. The dead need names, fire, bread, honey, and prayer."
 - **[hag-poisoned-pawelek](../clues/clues.md#hag-poisoned-pawelek)** — "I warned the boy the water was foul and told him not to drink. He was thirsty and drank anyway. I do not poison children. I keep them from the well."
 - **[hag-blamed-for-wolves](../clues/clues.md#hag-blamed-for-wolves)** — "The wolves have known me twenty years and never touched me. I sing for my dead, not for them. Say I called them if it helps you sleep."
@@ -48,9 +50,9 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 
 ### Village Hostility
 - A flag, true or false. Starts false. True while she believes the village means her harm.
-- By default she can be approached and interviewed at her [cabin](../locations/hags-cabin.md).
+- By default she can be approached and interviewed at her [@name](../locations/hags-cabin.md).
 - If the players come at her as a threat (chasing her at the well, cornering her, open aggression), she comes to believe the village means her harm.
-- While she believes this, she stops her nightly rite, so [Hag's Prayer](../events/hags-prayer.md) no longer fires, and none of her actions below are available.
+- While she believes this, she stops her nightly rite, so [@name](../events/hags-prayer.md) no longer fires, and none of her actions below are available.
 - The **Convince her the villagers are friendly** action clears it.
 
 ## Actions
@@ -107,7 +109,7 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 - **Requires:** [Language](../cards/language.md) AND [Bond: Paraskewia Chyłak](../cards/bond-hag.md)
 - **Prompted by:** [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area)
 - **Cost:** 1 time
-- **Outcome:** With trust earned, she tells them of the dugout deep in the forest northwest, the one she knew in the war years, where she used to meet a man called [Dmytro](../characters/dmytro-kosach.md). She still knows the way to its hidden mouth exactly.
+- **Outcome:** With trust earned, she tells them of the dugout deep in the forest northwest, the one she knew in the war years, where she used to meet a man called [@name](../characters/dmytro-kosach.md). She still knows the way to its hidden mouth exactly.
 - **Gives:** aware:locations/upa-bunker.md
 
 ### Convince her the villagers are friendly

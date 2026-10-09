@@ -1,13 +1,13 @@
 # Wojewoda Confronts the Butcher
 
-**Location:** [The store](../locations/the-store.md)
-**Present:** [Zbigniew Gajda](../characters/wojewoda.md), [Stanisław Rezeń](../characters/butcher.md)
+**Location:** [@name](../locations/the-store.md)
+**Present:** [@name](../characters/wojewoda.md), [@name](../characters/butcher.md)
 **Available:** Day 4 morning, after Rezeń has been in the village since the wolf hunt
 
 ## Trigger
 
 - Rezeń remains in the village after the wolf job.
-- [Zbigniew Gajda](../characters/wojewoda.md) authorized him to hunt wolves through [Tadek](../characters/wujas.md).
+- [@name](../characters/wojewoda.md) authorized him to hunt wolves through [@name](../characters/wujas.md).
 - Rezeń treats the request as permission to reintegrate.
 - Zbigniew goes to move him back to the edge.
 
@@ -31,8 +31,8 @@
 ## Opportunities
 
 - **Power dynamic** `(noticed by: [Finesse](../cards/finesse.md))` — the sołtys gives an order and the butcher ignores it.
-- **Zbigniew after** `(when: speaking to [Zbigniew Gajda](../characters/wojewoda.md))` `(noticed by: [Empathy](../cards/empathy.md))` — he is more rattled than the public exchange warrants.
-- **Rezeń after** `(when: speaking to [Stanisław Rezeń](../characters/butcher.md))` `(noticed by: [Empathy](../cards/empathy.md))` — he is pleased that the order failed.
+- **Zbigniew after** `(when: speaking to [@name](../characters/wojewoda.md))` `(noticed by: [Empathy](../cards/empathy.md))` — he is more rattled than the public exchange warrants.
+- **Rezeń after** `(when: speaking to [@name](../characters/butcher.md))` `(noticed by: [Empathy](../cards/empathy.md))` — he is pleased that the order failed.
 - **Villagers after** `(noticed by: [Finesse](../cards/finesse.md))` — they have not seen Zbigniew fail to move someone before.
 
 ## Actions
@@ -41,9 +41,9 @@
 
 ## Exits
 
-- Follow [Zbigniew Gajda](../characters/wojewoda.md) back toward his office or house.
-- Follow [Stanisław Rezeń](../characters/butcher.md) toward the [PGR Farm](../locations/pgr-farm.md) or his edge house.
-- Stay near [The store](../locations/the-store.md) and question villagers.
+- Follow [@name](../characters/wojewoda.md) back toward his office or house.
+- Follow [@name](../characters/butcher.md) toward the [@name](../locations/pgr-farm.md) or his edge house.
+- Stay near [@name](../locations/the-store.md) and question villagers.
 
 ## If Missed
 

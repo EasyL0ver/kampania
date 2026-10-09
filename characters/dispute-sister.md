@@ -8,16 +8,18 @@
 
 ## Vital Statistics
 
+- **First name:** %SISTER%
+- **Surname:** %DISPUTE_SURNAME%
 - **Status:** Resident
 - **Born:** ~1934
 - **Age in 1967:** 33
 - **Heritage:** Polish settler family
-- **Lives in:** [%NEW_VILLAGE%](../locations/new-village.md) — her husband's family farmhouse
+- **Lives in:** [@name](../locations/new-village.md) — her husband's family farmhouse
 - **Settled:** 1947, as a child with her father
 
 ## Character
 
-A working farmer who claims the border strip by years of labour while her brother holds the deed. Her only weapon is her father's deathbed account of what happened in [%OLD_VILLAGE%](../locations/old-village-ruins.md), and she does not understand the size of what she is handing over.
+A working farmer who claims the border strip by years of labour while her brother holds the deed. Her only weapon is her father's deathbed account of what happened in [@name](../locations/old-village-ruins.md), and she does not understand the size of what she is handing over.
 
 ## Appearance
 
@@ -30,8 +32,8 @@ She states her case rather than begging for it. When she repeats her father's la
 
 ## Opinions
 
-- **[%BROTHER%](dispute-brother.md)** — "He never worked a furrow of it. I was at father's bedside, I kept the strip, and now money turns his paper into a weapon."
-- **[%OLD_VILLAGE%](../locations/old-village-ruins.md)** — "I do not go up there. Father said things about that place at the end, and I have never told anyone the half of it."
+- **[@name](dispute-brother.md)** — "He never worked a furrow of it. I was at father's bedside, I kept the strip, and now money turns his paper into a weapon."
+- **[@name](../locations/old-village-ruins.md)** — "I do not go up there. Father said things about that place at the end, and I have never told anyone the half of it."
 - **[army-massacred-civilians-in-1947](../clues/clues.md#army-massacred-civilians-in-1947)** — "Father told me the land was never ours to hand down. The people here did not leave; they were killed, and the burning hid it."
 
 ## Opportunities

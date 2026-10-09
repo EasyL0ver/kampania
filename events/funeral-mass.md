@@ -1,7 +1,7 @@
 # Funeral Mass — Janina Gajda
 
-**Location:** [The church](../locations/the-church.md)
-**Present:** [ks. Władysław Pająk](../characters/priest.md), [Zbigniew Gajda](../characters/wojewoda.md), [Helena Rzepka](../characters/matrona.md), [Tadek Gajda](../characters/wujas.md), Janina Gajda's coffin, village congregation
+**Location:** [@name](../locations/the-church.md)
+**Present:** [@name](../characters/priest.md), [@name](../characters/wojewoda.md), [@name](../characters/matrona.md), [@name](../characters/wujas.md), Janina Gajda's coffin, village congregation
 **Available:** Day 5 morning.
 
 ## Hook
@@ -28,5 +28,5 @@ A funeral Mass beginning in the church, the coffin set before the congregation.
 
 ## Exits
 
-- Return to [The church](../locations/the-church.md).
-- Return to %NEW_VILLAGE% through the flood response in [The Flood](the-flood.md).
+- Return to [@name](../locations/the-church.md).
+- Return to %NEW_VILLAGE% through the flood response in [@name](the-flood.md).

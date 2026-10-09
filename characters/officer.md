@@ -8,6 +8,9 @@ por. Witold Skowron, an official from outside the village who arrives by car on 
 
 ## Vital Statistics
 
+- **First name:** Witold
+- **Surname:** Skowron
+- **Title:** por.
 - **Status:** Outsider
 - **Born:** 1928
 - **Age in 1967:** 39
@@ -27,8 +30,8 @@ Drives a black Warszawa M-20. Smells of cheap state cologne. His voice is quiet 
 
 ## Opinions
 
-- **[Zbigniew Gajda](wojewoda.md)** — "He is my informant. Competent, self-interested, controllable. I do not trust him; I trust the leverage."
-- **[ks. Władysław Pająk](priest.md)** — "The Church is a relic and a rival power structure. I would like a reason to shut the parish down, even though his silence and mine currently serve the same order."
+- **[@name](wojewoda.md)** — "He is my informant. Competent, self-interested, controllable. I do not trust him; I trust the leverage."
+- **[@name](priest.md)** — "The Church is a relic and a rival power structure. I would like a reason to shut the parish down, even though his silence and mine currently serve the same order."
 
 ## Bond
 

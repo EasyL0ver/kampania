@@ -1,8 +1,8 @@
 # Neighbour's House
 
 **Type:** Location (revisitable)
-**Location:** Beside [Barbara's house](barbaras-house.md), across from [Ciotka's house](ciotkas-house/ciotkas-house.md)
-**Present:** [Ryszard Dudka](../characters/neighbour.md) (evenings most reliable)
+**Location:** Beside [@name](barbaras-house.md), across from [@name](ciotkas-house/ciotkas-house.md)
+**Present:** [@name](../characters/neighbour.md) (evenings most reliable)
 **Available:** Any time; Ryszard often out during the day
 **Cost:** 1 action per visit
 
@@ -17,10 +17,10 @@ The house beside Barbara's, across from Ciotka's.
 - **Interior:** Hunting rifle on a rack by the door.
 - **Interior:** Table with one bottle and one chair.
 - **Interior:** Bed visible behind a partition.
-- **Window to Barbara:** A window faces [Barbara's house](barbaras-house.md) and has no curtain.
-- **Window to Ciotka:** A window faces [Ciotka's house](ciotkas-house/ciotkas-house.md), the former [Edward Barnaś](../characters/soldier.md) plot.
+- **Window to Barbara:** A window faces [@name](barbaras-house.md) and has no curtain.
+- **Window to Ciotka:** A window faces [@name](ciotkas-house/ciotkas-house.md), the former [@name](../characters/soldier.md) plot.
 - **Window to Ciotka:** The window has heavy yellowed curtains that stay drawn.
-- **Ryszard:** If home, [Ryszard Dudka](../characters/neighbour.md) is tense with visitors.
+- **Ryszard:** If home, [@name](../characters/neighbour.md) is tense with visitors.
 - **Ryszard:** He resents state officials because of the coming flood.
 - **Night:** His light may be on at 3am.
 - **Night:** Pacing can be heard from nearby.
@@ -48,6 +48,6 @@ The house beside Barbara's, across from Ciotka's.
 - **Gives:** [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch)
 
 ### Ask about Ciotka next door
-- **When:** Know [Janina Gajda](../characters/ciotka.md) lives there
+- **When:** Know [@name](../characters/ciotka.md) lives there
 - **Outcome:** Ryszard says Janina cares for the boy, says Edek is not hers, and shuts down further detail.
 - **Gives:** [neighbour-knows-about-edek](../clues/clues.md#neighbour-knows-about-edek)

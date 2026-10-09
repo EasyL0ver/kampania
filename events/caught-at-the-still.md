@@ -1,7 +1,7 @@
 # Caught at the Still
 
-**Location:** [Bimber still](../locations/bimber-still.md)
-**Present:** [Tadek Gajda](../characters/wujas.md), Szymek Kępa, Romek Głowacz, Franek Mucha
+**Location:** [@name](../locations/bimber-still.md)
+**Present:** [@name](../characters/wujas.md), Szymek Kępa, Romek Głowacz, Franek Mucha
 **Available:** Any day, when the committee reaches the still while the crew is present — by forest exploration or following the crew from [Village Outskirts](../locations/village-outskirts.md#follow-the-drinking-crew).
 
 ## Trigger
@@ -22,7 +22,7 @@
 - Szymek Kępa puts himself between the committee and the still.
 - Franek Mucha moves onto the footpath, cutting the way out.
 - Romek Głowacz stays seated and watches.
-- [Tadek Gajda](../characters/wujas.md) goes pale and reaches for the bottle.
+- [@name](../characters/wujas.md) goes pale and reaches for the bottle.
 - This goes to blows unless the committee defuses it. Franek Mucha throws the first punch.
 - If any of the committee are already Tadek's [drinking buddies](../characters/wujas.md#drinking-buddy), Tadek stands and vouches for them — but Franek is drunk and riled and does not take his word for it.
 
@@ -84,7 +84,7 @@
 ## Exits
 
 - Back into the forest toward %NEW_VILLAGE%.
-- To [the store](../locations/the-store.md) drinking circle if the committee became buddies.
+- To [@name](../locations/the-store.md) drinking circle if the committee became buddies.
 
 ## If Missed
 

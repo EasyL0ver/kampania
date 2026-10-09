@@ -1,8 +1,8 @@
 # The Hunt with Dudka
 
-**Location:** [PGR Farm](../locations/pgr-farm.md)
-**Present:** [Ryszard Dudka](../characters/neighbour.md), players (optional)
-**Available:** The morning after [The Wolf Attack](wolf-attack.md).
+**Location:** [@name](../locations/pgr-farm.md)
+**Present:** [@name](../characters/neighbour.md), players (optional)
+**Available:** The morning after [@name](wolf-attack.md).
 
 ## Trigger
 
@@ -28,7 +28,7 @@ Dudka shouldering his rifle and heading into the forest after spotting Rezeń.
 - **Dudka's competence** `(noticed by: [Survival](../cards/survival.md))` — Dudka's failure is not lack of skill; one hunter is too little for a smart pack in a large forest.
 - **Dudka's anger** `(noticed by: [Empathy](../cards/empathy.md))` `(prompted by: [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves))` — Dudka's anger is older and more personal than professional failure. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
 - **The distant dogs** `(noticed by: [Empathy](../cards/empathy.md))` `(prompted by: [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves))` — Dudka reacts to Rezeń's dogs before he forces himself calm. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
-- **The hag rumor** `(when: players ask Dudka about the village rumor blaming [Paraskewia Chyłak](../characters/hag.md))` — Dudka treats the wolves as animals reacting to rain, prey, and terrain, not witchcraft.
+- **The hag rumor** `(when: players ask Dudka about the village rumor blaming [@name](../characters/hag.md))` — Dudka treats the wolves as animals reacting to rain, prey, and terrain, not witchcraft.
 - **The boar summer** — Rambling about game, Dudka mentions the boar glut two summers back, all rooting at one spot up past the farm where the PGR tipped a whole silo of spoiled grain. → Gives: [`grain-has-been-dumped`](../clues/clues.md#grain-has-been-dumped)
 
 ## Actions
@@ -42,13 +42,13 @@ Dudka shouldering his rifle and heading into the forest after spotting Rezeń.
 
 ## Exits
 
-- Return to the [PGR Farm](../locations/pgr-farm.md).
-- Go to the [Meadow by the Ravine](../locations/meadow-by-the-ravine.md), if Dudka's detour revealed the grave.
-- Continue toward the [old village ruins](../locations/old-village-ruins.md).
-- Trigger [The Hunters Cross Paths](hunters-cross-paths.md), if Rezeń's dogs disrupt Dudka's shot.
+- Return to the [@name](../locations/pgr-farm.md).
+- Go to the [@name](../locations/meadow-by-the-ravine.md), if Dudka's detour revealed the grave.
+- Continue toward the [@name](../locations/old-village-ruins.md).
+- Trigger [@name](hunters-cross-paths.md), if Rezeń's dogs disrupt Dudka's shot.
 
 ## If Missed
 
 - Dudka hunts alone and reports incomplete wolf information.
 - Dudka still visits the grave, but the players do not learn where it is from him.
-- Dudka's failure keeps pushing him toward [the lynch](punishment-lynch.md).
+- Dudka's failure keeps pushing him toward [@name](punishment-lynch.md).

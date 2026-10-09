@@ -8,6 +8,9 @@
 
 ## Vital Statistics
 
+- **First name:** Leon
+- **Surname:** Sawicki
+- **Title:** dr
 - **Status:** Outsider
 - **Born:** 1911
 - **Age in 1967:** 56

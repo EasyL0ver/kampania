@@ -21,9 +21,9 @@
 - The village is cut off.
 - por. Witold Skowron was supposed to return yesterday and has not.
 - There is no car, word, or explanation from him.
-- The phone in [Zbigniew Gajda](../characters/wojewoda.md)'s office is the only connection to the outside if the line works.
+- The phone in [@name](../characters/wojewoda.md)'s office is the only connection to the outside if the line works.
 - Villagers are already working with sandbags near lower houses.
-- [Michał Pytlak](../characters/foreman.md) has PGR workers reinforcing the livestock barn.
+- [@name](../characters/foreman.md) has PGR workers reinforcing the livestock barn.
 - The village recognizes this as a severe flood.
 - The water table is rising.
 - Cellars are filling.
@@ -34,9 +34,9 @@
 ## Opportunities
 
 - **The washed-out road** `(noticed by: [Handiwork](../cards/handiwork.md))` — the road failed because poor drainage and weak foundation met heavy rain. Repair will take days after the water drops. → Gives: [`road-washes-out`](../clues/clues.md#road-washes-out)
-- **The office phone** `(noticed by: [Finesse](../cards/finesse.md))` — [Zbigniew Gajda](../characters/wojewoda.md) offers access and stays close enough to hear what is reported.
-- **The village response** `(noticed by: [Finesse](../cards/finesse.md))` — Zbigniew gives quiet orders, [Pytlak](../characters/foreman.md) runs the PGR response, and villagers ignore outsider attempts to lead.
-- **The rising water table** `(when: prior visit to [%OLD_VILLAGE%](../locations/old-village-ruins.md))` `(noticed by: [Handiwork](../cards/handiwork.md))` — the well at the old village is filling too. → Gives: [`old-village-flooding`](../clues/clues.md#old-village-flooding)
+- **The office phone** `(noticed by: [Finesse](../cards/finesse.md))` — [@name](../characters/wojewoda.md) offers access and stays close enough to hear what is reported.
+- **The village response** `(noticed by: [Finesse](../cards/finesse.md))` — Zbigniew gives quiet orders, [@name](../characters/foreman.md) runs the PGR response, and villagers ignore outsider attempts to lead.
+- **The rising water table** `(when: prior visit to [@name](../locations/old-village-ruins.md))` `(noticed by: [Handiwork](../cards/handiwork.md))` — the well at the old village is filling too. → Gives: [`old-village-flooding`](../clues/clues.md#old-village-flooding)
 
 ## Actions
 
@@ -48,12 +48,12 @@
 
 ### Help with flood response
 - **Cost:** 1 time
-- **Outcome:** Players help with sandbags, drainage, or livestock. PGR workers mention that the [old village](../locations/old-village-ruins.md) floods worse because water pools there.
+- **Outcome:** Players help with sandbags, drainage, or livestock. PGR workers mention that the [@name](../locations/old-village-ruins.md) floods worse because water pools there.
 - **Gives:** [`old-village-flooding`](../clues/clues.md#old-village-flooding)
 
 ## Exits
 
 - Continue investigations inside %NEW_VILLAGE%, using flood checks as cover.
-- Use the phone through [Operator Refuses Help](operator-refuses-help.md).
-- If the flood proof is established and shared, continue to [The Disclosure](the-disclosure.md).
-- If the village chooses engineering action, continue to [Foreman Saves the Village](foreman-saves-village.md).
+- Use the phone through [@name](operator-refuses-help.md).
+- If the flood proof is established and shared, continue to [@name](the-disclosure.md).
+- If the village chooses engineering action, continue to [@name](foreman-saves-village.md).

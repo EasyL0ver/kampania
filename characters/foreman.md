@@ -8,15 +8,17 @@ Michał Pytlak, the PGR farm overseer, directing work around the farm.
 
 ## Vital Statistics
 
+- **First name:** Michał
+- **Surname:** Pytlak
 - **Status:** Resident
 - **Born:** ~1910
 - **Age in 1967:** ~57
-- **Lives in:** [%NEW_VILLAGE%](../locations/new-village.md) — with Zofia Pytlak (wife) and Staszek Pytlak (son, age 5)
+- **Lives in:** [@name](../locations/new-village.md) — with Zofia Pytlak (wife) and Staszek Pytlak (son, age 5)
 - **Settled:** After 1954; knows nothing about the lynch
 
 ## Character
 
-PGR farm overseer, competent, pragmatic, and loyal to [Zbigniew Gajda](wojewoda.md). He covered up Tadeusz Mazur's death in the grain silo and now insists the village can still fight the flood.
+PGR farm overseer, competent, pragmatic, and loyal to [@name](wojewoda.md). He covered up Tadeusz Mazur's death in the grain silo and now insists the village can still fight the flood.
 
 ## Appearance
 
@@ -28,9 +30,9 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 
 ## Opinions
 
-- **[Zbigniew Gajda](wojewoda.md)** — "I respected him because he always had a plan. Now he talks like surrender is wisdom, and I cannot follow that."
-- **[Barbara Kopacz](barbara.md)** — "She works hard, keeps quiet, and does not complain. That is worth respect."
-- **[Zofia Pytlak](zofia.md)** — "She sees the valley slipping away before I admit it. I cannot listen too long, because then I may have to stop digging."
+- **[@name](wojewoda.md)** — "I respected him because he always had a plan. Now he talks like surrender is wisdom, and I cannot follow that."
+- **[@name](barbara.md)** — "She works hard, keeps quiet, and does not complain. That is worth respect."
+- **[@name](zofia.md)** — "She sees the valley slipping away before I admit it. I cannot listen too long, because then I may have to stop digging."
 
 ## Mechanics
 
@@ -91,12 +93,12 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 - **When:** [Michał Pytlak](foreman.md) willing to coordinate on the flood (after [Talk to him about the flood](#talk-to-him-about-the-flood))
 - **Cost:** 1 time
 - **Outcome:** Michał comes up to the far ridge and spends the fieldwork day working alongside the committee. He can join **only one** of the two streambed scenes, not both, and he sticks with whichever the party runs first.
-  - In [Surveying the Streambed](../events/surveying-the-streambed.md) he holds the staff for one leg of the line at no time cost to the party.
-  - In [Search for the Benchmarks](../events/search-for-the-benchmarks.md) he searches one site himself: he watched the dam crews work and remembers roughly where they drove the markers, clearing that site for **2 cards** instead of 4.
+  - In [@name](../events/surveying-the-streambed.md) he holds the staff for one leg of the line at no time cost to the party.
+  - In [@name](../events/search-for-the-benchmarks.md) he searches one site himself: he watched the dam crews work and remembers roughly where they drove the markers, clearing that site for **2 cards** instead of 4.
 - **Changes:** [Mechanics](../events/surveying-the-streambed.md#mechanics) — holds the staff for one leg, or; [Mechanics](../events/search-for-the-benchmarks.md#mechanics) — drops one site to 2, never both
 
 ### Show him the streambed figures
-- **Requires:** [Streambed Parameters](../items/streambed-parameters.md)
+- **Requires:** [@name](../items/streambed-parameters.md)
 - **When:** [Michał Pytlak](foreman.md) present
 - **Cost:** 1 time
 - **Outcome:** Michał reads the two elevations without hesitation. He has worked this valley for years, and a col standing above house level tells him at once that the water tops the village long before it reaches the streambed. He confirms the streambed is no outlet.
@@ -106,7 +108,7 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 - **When:** [Michał Pytlak](foreman.md) willing to coordinate on the flood (after [Talk to him about the flood](#talk-to-him-about-the-flood)), or a bond with him, or Speech
 - **Cost:** 1 time
 - **Outcome:** Michał hands over the steel clamp and driving hammer from the farm's gear, on the understanding it comes back. Cooperative or bonded, he lends it without a second thought; otherwise a convincing enough story pries it out of a wary man.
-- **Gives:** [anchor and hammer](../items/anchor.md)
+- **Gives:** [@name](../items/anchor.md)
 
 ### Press him about Tadeusz Mazur
 - **When:** asked alone, not in front of the workers

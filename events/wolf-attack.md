@@ -1,13 +1,13 @@
 # The Wolf Attack
 
-**Location:** [PGR Farm](../locations/pgr-farm.md)
-**Present:** [Michał Pytlak](../characters/foreman.md), [Zbigniew Gajda](../characters/wojewoda.md), [Ryszard Dudka](../characters/neighbour.md), farm workers
-**Available:** Day 1–2 morning; fresh livestock kills are visible at the [PGR](../locations/pgr-farm.md) from Day 1
+**Location:** [@name](../locations/pgr-farm.md)
+**Present:** [@name](../characters/foreman.md), [@name](../characters/wojewoda.md), [@name](../characters/neighbour.md), farm workers
+**Available:** Day 1–2 morning; fresh livestock kills are visible at the [@name](../locations/pgr-farm.md) from Day 1
 
 ## Trigger
 
-- Wolves have been attacking the [PGR](../locations/pgr-farm.md) for weeks ([`wolves-attacking-livestock`](../clues/clues.md#wolves-attacking-livestock)).
-- [Ryszard Dudka](../characters/neighbour.md) has hunted them alone and failed ([`dudka-failed-wolf-hunt`](../clues/clues.md#dudka-failed-wolf-hunt)).
+- Wolves have been attacking the [@name](../locations/pgr-farm.md) for weeks ([`wolves-attacking-livestock`](../clues/clues.md#wolves-attacking-livestock)).
+- [@name](../characters/neighbour.md) has hunted them alone and failed ([`dudka-failed-wolf-hunt`](../clues/clues.md#dudka-failed-wolf-hunt)).
 - Another sheep is killed overnight.
 - The kill forces Zbigniew to authorize Rezeń.
 
@@ -24,11 +24,11 @@
 - Blood is in the mud.
 - Drag marks lead toward the treeline.
 - The other animals crowd in the far corner.
-- [Zbigniew Gajda](../characters/wojewoda.md) counts the damage.
-- [Ryszard Dudka](../characters/neighbour.md) stands nearby with his rifle.
+- [@name](../characters/wojewoda.md) counts the damage.
+- [@name](../characters/neighbour.md) stands nearby with his rifle.
 - Zbigniew blames Dudka in front of the workers.
-- Zbigniew tells [Michał Pytlak](../characters/foreman.md) he will handle it.
-- Zbigniew later sends [Tadek](../characters/wujas.md) to the edge house with the request that Rezeń deal with the wolves; see [Tadek Visits the Butcher](wujas-visits-butcher.md).
+- Zbigniew tells [@name](../characters/foreman.md) he will handle it.
+- Zbigniew later sends [@name](../characters/wujas.md) to the edge house with the request that Rezeń deal with the wolves; see [@name](wujas-visits-butcher.md).
 
 ## Opportunities
 
@@ -44,13 +44,13 @@
 
 ## Exits
 
-- Rezeń arrives at the farm gate the next morning to hunt: [The Hunt with Rezeń](hunt-with-rezen.md).
-- Dudka goes out again with his rifle: [The Hunt with Dudka](hunt-with-dudka.md).
-- Tadek carries the authorization: [Tadek Visits the Butcher](wujas-visits-butcher.md).
+- Rezeń arrives at the farm gate the next morning to hunt: [@name](hunt-with-rezen.md).
+- Dudka goes out again with his rifle: [@name](hunt-with-dudka.md).
+- Tadek carries the authorization: [@name](wujas-visits-butcher.md).
 
 ## If Missed
 
 - Zbigniew authorizes Rezeń anyway.
-- Rezeń comes into the village and does not return to isolation; see [Butcher — Well Influence](../characters/butcher.md).
+- Rezeń comes into the village and does not return to isolation; see [@name](../characters/butcher.md).
 - Dudka's failure curdles into rage.
 - Tadek's go-between role dies.

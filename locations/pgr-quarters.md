@@ -2,7 +2,7 @@
 
 **Type:** Location (revisitable)
 **Location:** Behind the PGR main building — stołówka and barracks.
-**Present:** [Zofia Pytlak](../characters/zofia.md) (stołówka, work hours), workers (mealtimes), committee members (if housed here)
+**Present:** [@name](../characters/zofia.md) (stołówka, work hours), workers (mealtimes), committee members (if housed here)
 **Available:** Any time
 **Cost:** Free for eating or brief talk; 1 action for deeper engagement
 

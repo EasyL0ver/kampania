@@ -72,7 +72,7 @@ def parse(path: Path) -> MdFile:
     kind = path.relative_to(REPO_ROOT).parts[0]
     if kind not in SCENE_KINDS or path.name.startswith("_") or path.name == "index.md":
         kind = "other"     # any other .md: only repo-wide rules apply
-    lines = path.read_text(encoding="utf-8").splitlines()
+    lines = path.read_text(encoding="utf-8-sig").splitlines()
     f = MdFile(path=path, rel=rel, kind=kind, lines=lines)
 
     stack: list[Section] = []
@@ -241,6 +241,9 @@ def vital_status(f: MdFile):
         m = VITAL_FIELD.match(t)
         if m:
             fields.setdefault(m.group(1).strip(), (line, m.group(2)))
+    for x in ("First name", "Surname"):
+        if x not in fields:
+            yield s.line, f"Vital Statistics has no {x}"
     if "Status" not in fields:
         yield s.line, "Vital Statistics has no Status (Resident / Outsider / Dead)"
         return

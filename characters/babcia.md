@@ -8,16 +8,18 @@ Stefania Kopacz, an elderly woman living with Barbara and Pawełek.
 
 ## Vital Statistics
 
+- **First name:** Stefania
+- **Surname:** Kopacz
 - **Status:** Resident
 - **Born:** ~1890
 - **Age in 1967:** ~77
 - **Heritage:** Lemko, Greek Catholic
-- **Lives in:** [Barbara Kopacz's house](../locations/barbaras-house.md) — with [Barbara Kopacz](barbara.md), [Pawełek Kopacz](pawelek.md)
+- **Lives in:** [@name](../locations/barbaras-house.md) — with [@name](barbara.md), [@name](pawelek.md)
 - **Settled:** After 1954 for PGR work
 
 ## Character
 
-Sharp-tongued, often disoriented, and unexpectedly lucid. She is a living archive of Lemko death rites, and [Pawełek Kopacz](pawelek.md) is the only person who still sits close enough to receive them.
+Sharp-tongued, often disoriented, and unexpectedly lucid. She is a living archive of Lemko death rites, and [@name](pawelek.md) is the only person who still sits close enough to receive them.
 
 ## Appearance
 
@@ -30,22 +32,22 @@ When her attention fixes on someone, the room feels smaller. The same mouth that
 
 ## Opinions
 
-- **[Barbara Kopacz](barbara.md)** — "My daughter raised herself Polish. The world took the language and the faith from her; I am too old to fight her for it now."
-- **[Pawełek Kopacz](pawelek.md)** — "My light. He sits at my feet and copies every sound, and I pour a dead world into him before I go."
-- **[Paraskewia Chyłak](hag.md)** — "I have never met her, but I hear the forest prayers. Another Lemko woman is holding the other end of the dead."
-- **[ks. Władysław Pająk](priest.md)** — "He is Roman Catholic, not my priest and not my church. He means well, but he does not know the old rites."
+- **[@name](barbara.md)** — "My daughter raised herself Polish. The world took the language and the faith from her; I am too old to fight her for it now."
+- **[@name](pawelek.md)** — "My light. He sits at my feet and copies every sound, and I pour a dead world into him before I go."
+- **[@name](hag.md)** — "I have never met her, but I hear the forest prayers. Another Lemko woman is holding the other end of the dead."
+- **[@name](priest.md)** — "He is Roman Catholic, not my priest and not my church. He means well, but he does not know the old rites."
 
 ## Actions
 
 ### Speak Ukrainian to Babcia
-- **When:** Language skill + present at [Barbara's house](../locations/barbaras-house.md)
+- **When:** Language skill + present at [@name](../locations/barbaras-house.md)
 - **Cost:** 1 time
 - **Outcome:** Ukrainian is not her language, but it is close enough; she understands and warms to hearing the old tongue, taking you for a friend. She tries to tell you more, but it comes in pieces too broken to point anywhere: only that she hears another woman singing for the dead, far off on the wind at night, and that the dead here are unquiet and were never laid to rest.
 - **Gives:** [`singing-in-the-night`](../clues/clues.md#singing-in-the-night), [`spirits-are-restless`](../clues/clues.md#spirits-are-restless)
 
 ### Census interview
 - **Cost:** 1 time
-- **Outcome:** She answers with dead names, slips into Lemko, or orders you out. [Barbara Kopacz](barbara.md) supplies the household details instead.
+- **Outcome:** She answers with dead names, slips into Lemko, or orders you out. [@name](barbara.md) supplies the household details instead.
 - **Changes:** [Census](../items/census.md#census) — Stefania Kopacz, in the Kopacz household
 
 ### Property assessment

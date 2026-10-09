@@ -3,7 +3,7 @@
 **Type:** Location (revisitable)
 **Location:** Runs from the PGR fields down to the low ground east of %NEW_VILLAGE%.
 **Present:** none
-**Available:** Daytime, any day; reached from the [PGR farm](pgr-farm.md) by following the channel off the fields.
+**Available:** Daytime, any day; reached from the [@name](pgr-farm.md) by following the channel off the fields.
 **Cost:** 1 action to reach; walking its length costs by action.
 
 ## Hook
@@ -12,7 +12,7 @@ The ditch running from the PGR fields down to the low ground east of %NEW_VILLAG
 
 ## Setup
 
-- The ditch begins at a concrete head by the PGR fields, which [Zbigniew Gajda](../characters/wojewoda.md) calls the village's flood drain.
+- The ditch begins at a concrete head by the PGR fields, which [@name](../characters/wojewoda.md) calls the village's flood drain.
 - The concrete lining is sound but runs only a short stretch; past it the channel bends away toward the low ground and out of sight.
 - From the head alone it reads as a fine concrete channel of ample capacity.
 - Past the concrete it degrades to a shallow, unlined dugout for most of its length. Nothing at the head announces this; only walking the full length reveals it.
@@ -37,11 +37,11 @@ The ditch running from the PGR fields down to the low ground east of %NEW_VILLAG
 - **Prompted by:** [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain)
 - **Cost:** 1 time
 - **Outcome:** You tape off the lined channel at the head: width, depth, and fall. No skill needed. The figures alone say nothing; someone who can run drainage figures turns them into a drainage answer.
-- **Gives:** [Concrete Ditch Measurements](../items/concrete-ditch-measurements.md)
+- **Gives:** [@name](../items/concrete-ditch-measurements.md)
 
 ### Measure the dugout
 - **When:** A tape
 - **Prompted by:** [ditch-concrete-stops-short](../clues/clues.md#ditch-concrete-stops-short)
 - **Cost:** 1 time
 - **Outcome:** Where the concrete gives out, you tape off the earth channel: width and depth of the shallow dugout that runs the rest of the way. No skill needed. Paired with the head figures, anyone who can run drainage figures can size the real ditch.
-- **Gives:** [Dugout Measurements](../items/dugout-measurements.md)
+- **Gives:** [@name](../items/dugout-measurements.md)

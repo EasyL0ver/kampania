@@ -9,10 +9,12 @@ Irena Gajda, the sołtys's wife.
 
 ## Vital Statistics
 
+- **First name:** Irena
+- **Surname:** Gajda
 - **Status:** Resident
 - **Born:** 1924
 - **Age in 1967:** 43
-- **Lives in:** [Zbigniew Gajda's house](../locations/wojewodas-house.md) — with [Zbigniew Gajda](wojewoda.md), [Marek Gajda](junior.md)
+- **Lives in:** [@name](../locations/wojewodas-house.md) — with [@name](wojewoda.md), [@name](junior.md)
 - **Settled:** ~1948 — first wave, with Zbigniew
 
 ## Character
@@ -29,18 +31,18 @@ Speaks precisely, each word chosen. Tilts her head when listening, then files th
 
 ## Opinions
 
-- **[Zbigniew Gajda](wojewoda.md)** — "I love him, and I have been solving the thing he hides because I wanted him to see me as an equal. Once I see his part in it, I still choose him, and I will hold him silent if he cannot hold himself."
-- **[Marek Gajda](junior.md)** — "My son is my hands in places I will not go. I know the danger reaches him before it reaches me, and I send him anyway."
-- **[Helena Rzepka](matrona.md)** — "She is my sister-in-law, and something in her is closed and hard. I cannot read her, and that bothers me."
-- **[ks. Władysław Pająk](priest.md)** — "He told me to be quiet and stop noticing things. I went to him carefully, more than once, and I will not go back."
-- **[Tadek Gajda](wujas.md)** — "He is a wreck, but a wreck who talks when drunk. Marek can get closer to him than I can."
+- **[@name](wojewoda.md)** — "I love him, and I have been solving the thing he hides because I wanted him to see me as an equal. Once I see his part in it, I still choose him, and I will hold him silent if he cannot hold himself."
+- **[@name](junior.md)** — "My son is my hands in places I will not go. I know the danger reaches him before it reaches me, and I send him anyway."
+- **[@name](matrona.md)** — "She is my sister-in-law, and something in her is closed and hard. I cannot read her, and that bothers me."
+- **[@name](priest.md)** — "He told me to be quiet and stop noticing things. I went to him carefully, more than once, and I will not go back."
+- **[@name](wujas.md)** — "He is a wreck, but a wreck who talks when drunk. Marek can get closer to him than I can."
 - **[wujas-is-guilty](../clues/clues.md#wujas-is-guilty)** — "I knew it. Now I need the detail, the proof, and the piece that makes Zbigniew finally look."
 
 ## Mechanics
 
 ### Two Phases
 
-Irena starts as a rival investigator, then becomes Zbigniew's protector if she connects him to the 1954 killing. The pivot is GM-timed from player behaviour and can fail to happen; if she stays blind, Zbigniew may confess at the [lynch](../events/punishment-lynch.md) and die.
+Irena starts as a rival investigator, then becomes Zbigniew's protector if she connects him to the 1954 killing. The pivot is GM-timed from player behaviour and can fail to happen; if she stays blind, Zbigniew may confess at the [@name](../events/punishment-lynch.md) and die.
 
 ### Phase 1 — Investigating
 
@@ -48,7 +50,7 @@ She trades cautiously with players who treat her as a peer. She shares nothing w
 
 ### Phase 2 — Protector
 
-After [Irena Confronts the Wojewoda](../events/irena-confronts-wojewoda.md), she closes the household, pulls Marek home, and keeps Zbigniew from confessing.
+After [@name](../events/irena-confronts-wojewoda.md), she closes the household, pulls Marek home, and keeps Zbigniew from confessing.
 
 ## Opportunities
 

@@ -1,6 +1,6 @@
 # Dmytro Kosach
 
-**Type:** Deceased — UPA fighter, [Paraskewia Chyłak](hag.md)'s lover
+**Type:** Deceased — UPA fighter, [@name](hag.md)'s lover
 
 ## Hook
 
@@ -8,6 +8,8 @@
 
 ## Vital Statistics
 
+- **First name:** Dmytro
+- **Surname:** Kosach
 - **Status:** Dead
 - **Born:** ~1920
 - **Died:** 1947 (age ~27) — during the [%OLD_VILLAGE% massacre](../story-facts/old-village-massacre.md)
@@ -16,7 +18,7 @@
 
 ## Character
 
-Dmytro Kosach was a UPA guerrilla hiding in %OLD_VILLAGE% when [kpt. Henryk Ćwiek](kbw-officer.md)'s KBW unit came to deport it during Akcja Wisła. His killing of Ćwiek turned the deportation into a massacre.
+Dmytro Kosach was a UPA guerrilla hiding in %OLD_VILLAGE% when [@name](kbw-officer.md)'s KBW unit came to deport it during Akcja Wisła. His killing of Ćwiek turned the deportation into a massacre.
 
 ## Appearance
 
@@ -26,5 +28,5 @@ Dmytro Kosach was a UPA guerrilla hiding in %OLD_VILLAGE% when [kpt. Henryk Ćwi
 
 ## Opinions
 
-- **[Paraskewia Chyłak](hag.md)** — "She is the only living thread to my name."
-- **[kpt. Henryk Ćwiek](kbw-officer.md)** — "One shot changed the whole village's fate."
+- **[@name](hag.md)** — "She is the only living thread to my name."
+- **[@name](kbw-officer.md)** — "One shot changed the whole village's fate."

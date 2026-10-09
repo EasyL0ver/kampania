@@ -8,11 +8,13 @@ Zofia Pytlak, the warm, well-liked PGR cook.
 
 ## Vital Statistics
 
+- **First name:** Zofia
+- **Surname:** Pytlak
 - **Status:** Resident
 - **Born:** ~1920
 - **Age in 1967:** ~47
 - **Heritage:** Polish settler
-- **Lives in:** [%NEW_VILLAGE%](../locations/new-village.md) — the Pytlak household near the PGR farm, with [Michał Pytlak](foreman.md), [Staszek Pytlak](secondary/staszek-pytlak.md)
+- **Lives in:** [@name](../locations/new-village.md) — the Pytlak household near the PGR farm, with [@name](foreman.md), [@name](secondary/staszek-pytlak.md)
 - **Settled:** After 1954 — arrived with Michał Pytlak; no connection to the lynch
 
 ## Character
@@ -29,12 +31,12 @@ Her carrying voice is warm and practical. As the well takes hold, the smile stay
 
 ## Opinions
 
-- **[Michał Pytlak](foreman.md)** — "I love him completely. I want him to tell the truth about the silo, and I know the flood has already beaten the farm he is trying to save."
-- **[Staszek Pytlak](secondary/staszek-pytlak.md)** — "My son is my reason for everything. If the worst comes, I will make sure he is safe before I let go."
-- **[Irena Gajda](wife.md)** — "She calculates where I stay open. I sense the sharpness behind her polite questions, but openness is all I know."
-- **[Barbara Kopacz](barbara.md)** — "I treat her as a person, ask about her day, and save her the good bread. She deserves kindness without pity."
-- **[Wanda Mazur](widow.md)** — "I know the truth about her pension. Being kind to her costs me because I carry that knowledge and smile through it."
-- **[%OLD_VILLAGE%](../locations/old-village-ruins.md)** — "I have never gone up there, and I do not like those who do. A whole village was emptied before we came, and it never felt like ours to keep."
+- **[@name](foreman.md)** — "I love him completely. I want him to tell the truth about the silo, and I know the flood has already beaten the farm he is trying to save."
+- **[@name](secondary/staszek-pytlak.md)** — "My son is my reason for everything. If the worst comes, I will make sure he is safe before I let go."
+- **[@name](wife.md)** — "She calculates where I stay open. I sense the sharpness behind her polite questions, but openness is all I know."
+- **[@name](barbara.md)** — "I treat her as a person, ask about her day, and save her the good bread. She deserves kindness without pity."
+- **[@name](widow.md)** — "I know the truth about her pension. Being kind to her costs me because I carry that knowledge and smile through it."
+- **[@name](../locations/old-village-ruins.md)** — "I have never gone up there, and I do not like those who do. A whole village was emptied before we came, and it never felt like ours to keep."
 
 ## Opportunities
 

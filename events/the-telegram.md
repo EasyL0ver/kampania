@@ -1,8 +1,8 @@
 # The Telegram
 
-**Location:** [Zbigniew Gajda's office](../locations/wojewodas-house.md)
-**Present:** [%OPERATOR%](../characters/jagna.md), [Zbigniew Gajda](../characters/wojewoda.md) (if in his office)
-**Available:** Day 3 onward, during [the flood](the-flood.md), while the committee is on the line with the exchange (during [Operator Refuses Help](operator-refuses-help.md)).
+**Location:** [@name](../locations/wojewodas-house.md)
+**Present:** [@name](../characters/jagna.md), [@name](../characters/wojewoda.md) (if in his office)
+**Available:** Day 3 onward, during [@name](the-flood.md), while the committee is on the line with the exchange (during [@name](operator-refuses-help.md)).
 
 ## Trigger
 
@@ -19,9 +19,9 @@
 - She reads it flat and terse, per-word with STOP between lines, like any wire.
 - It is addressed to the committee and signed BARNAŚ.
 - Content: service papers and uniform buried under the old garden bed behind his house; take them.
-- [Edward Barnaś](../characters/soldier.md) has been dead since 1954 and never knew the committee.
-- The cache is in the backyard of [his old house](../locations/ciotkas-house/ciotkas-house.md), where [Janina Gajda](../characters/ciotka.md) now lives.
-- The only working phone is in [Zbigniew](../characters/wojewoda.md)'s office; if he is in the room, he hears the name read aloud.
+- [@name](../characters/soldier.md) has been dead since 1954 and never knew the committee.
+- The cache is in the backyard of [@name](../locations/ciotkas-house/ciotkas-house.md), where [@name](../characters/ciotka.md) now lives.
+- The only working phone is in [@name](../characters/wojewoda.md)'s office; if he is in the room, he hears the name read aloud.
 - The operator names no sending office and does not repeat the wire.
 
 ## Opportunities
@@ -33,7 +33,7 @@
 
 ### Act on the wire
 - **When:** The committee heard the relayed telegram
-- **Outcome:** The committee takes the directions as a real lead: under the old garden bed behind the Barnaś house, now [Janina Gajda](../characters/ciotka.md)'s, something is buried.
+- **Outcome:** The committee takes the directions as a real lead: under the old garden bed behind the Barnaś house, now [@name](../characters/ciotka.md)'s, something is buried.
 - **Gives:** [`telegram-points-to-barnas-yard`](../clues/clues.md#telegram-points-to-barnas-yard)
 
 ## Mechanics
@@ -45,7 +45,7 @@
 ## Exits
 
 - Dig at [the Barnaś backyard](../locations/ciotkas-house/ciotkas-house.md#dig-in-the-backyard).
-- Back to [Operator Refuses Help](operator-refuses-help.md) and [The Flood](the-flood.md).
+- Back to [@name](operator-refuses-help.md) and [@name](the-flood.md).
 
 ## If Missed
 

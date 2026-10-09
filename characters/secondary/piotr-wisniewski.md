@@ -8,10 +8,12 @@
 
 ## Vital Statistics
 
+- **First name:** Piotr
+- **Surname:** Wiśniewski
 - **Status:** Resident
 - **Born:** ~1945
 - **Age in 1967:** ~20-25
-- **Lives in:** [PGR Workers' Quarters](../../locations/pgr-quarters.md)
+- **Lives in:** [@name](../../locations/pgr-quarters.md)
 - **Settled:** ~1965
 - **Works at:** PGR farm labor
 
@@ -27,5 +29,5 @@ A young farmhand who wants land of his own or a way out of the village. His ambi
 
 ## Opinions
 
-- **[Barbara Kopacz](../barbara.md)** — "I see more than older workers think I see."
-- **[Marek Gajda](../junior.md)** — "If he is careless, that is his problem, not mine."
+- **[@name](../barbara.md)** — "I see more than older workers think I see."
+- **[@name](../junior.md)** — "If he is careless, that is his problem, not mine."

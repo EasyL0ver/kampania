@@ -2,7 +2,7 @@
 
 **Type:** Location (explorable, hidden)
 **Location:** Deep forest northwest of %NEW_VILLAGE%.
-**Present:** Nobody; [Edek Barnaś](../characters/glupek.md) (sometimes near entrance)
+**Present:** Nobody; [@name](../characters/glupek.md) (sometimes near entrance)
 **Available:** Requires forest exploration; ventilation shafts or entrance must be found.
 **Cost:** 1 action to explore
 
@@ -30,7 +30,7 @@
 
 - **Ventilation shafts** `(noticed by: [Survival](../cards/survival.md))` — The shafts reveal an underground structure in the hillside. → Gives: aware:locations/upa-bunker.md
 - **UPA weapons and insignia** `(noticed by: [History](../cards/history.md))` — The rusted weapons and markings show partisan presence. → Gives: [old-wartime-positions](../clues/clues.md#old-wartime-positions)
-- **Dmytro Kosach's cache** `(when: Search inside the bunker)` `(noticed by: [Language](../cards/language.md))` `(prompted by: aware:locations/upa-bunker.md)` — The carved name, cache, and journal fragment connect Dmytro Kosach to the bunker and to [Paraskewia Chyłak's cabin](hags-cabin.md). → Gives: aware:characters/dmytro-kosach.md
+- **Dmytro Kosach's cache** `(when: Search inside the bunker)` `(noticed by: [Language](../cards/language.md))` `(prompted by: aware:locations/upa-bunker.md)` — The carved name, cache, and journal fragment connect Dmytro Kosach to the bunker and to [@name](hags-cabin.md). → Gives: aware:characters/dmytro-kosach.md
 
 ## Actions
 
@@ -44,4 +44,4 @@
 - **When:** Explored the bunker
 - **Cost:** 1 time
 - **Outcome:** The search finds the Д. КОСАЧ carving, a rusted pistol, spare ammunition, and a Ukrainian journal fragment.
-- **Gives:** aware:characters/dmytro-kosach.md, [Journal Fragment](../items/journal-fragment.md)
+- **Gives:** aware:characters/dmytro-kosach.md, [@name](../items/journal-fragment.md)

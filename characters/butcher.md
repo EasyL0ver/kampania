@@ -9,11 +9,13 @@ Stanisław Rezeń, the village butcher and widely avoided pariah, lives alone be
 
 ## Vital Statistics
 
+- **First name:** Stanisław
+- **Surname:** Rezeń
 - **Status:** Resident
 - **Born:** 1921
 - **Age in 1967:** 46
 - **Heritage:** Polish local from a neighbouring Bieszczady village
-- **Lives in:** [Stanisław Rezeń's house](../locations/butchers-house.md) — alone with dogs
+- **Lives in:** [@name](../locations/butchers-house.md) — alone with dogs
 - **Settled:** ~1948, from a neighbouring village
 
 ## Character
@@ -32,11 +34,11 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 
 ## Opinions
 
-- **[Edek Barnaś](glupek.md)** — "I like the boy. I ruffle his hair, slip him food, and talk to him like a nephew. He goes stiff and quiet when I am near, and I have never once wondered why."
-- **[Janina Gajda](ciotka.md)** — "She keeps her distance and bars her door. I never chase it. A whole village laughs at my jokes; one sour woman who will not is no loss to me. And if anyone says I loiter at her door, he grins and turns it into a joke: it is the other way around, usually it is her who comes to him when she wants it. Pure bluster, and false."
-- **[Zbigniew Gajda](wojewoda.md)** — "The sołtys keeps me at arm's length like a chained dog. He needs the threat I represent, and I know where every body is buried."
-- **[Tadek Gajda](wujas.md)** — "Tadek drinks to forget me. Drunk, he says things he should not; sober, he is beneath notice."
-- **[Paraskewia Chyłak](hag.md)** — "I do not know who she is. Someone leaves signs at the well, and I chalk it up to the ruins being strange."
+- **[@name](glupek.md)** — "I like the boy. I ruffle his hair, slip him food, and talk to him like a nephew. He goes stiff and quiet when I am near, and I have never once wondered why."
+- **[@name](ciotka.md)** — "She keeps her distance and bars her door. I never chase it. A whole village laughs at my jokes; one sour woman who will not is no loss to me. And if anyone says I loiter at her door, he grins and turns it into a joke: it is the other way around, usually it is her who comes to him when she wants it. Pure bluster, and false."
+- **[@name](wojewoda.md)** — "The sołtys keeps me at arm's length like a chained dog. He needs the threat I represent, and I know where every body is buried."
+- **[@name](wujas.md)** — "Tadek drinks to forget me. Drunk, he says things he should not; sober, he is beneath notice."
+- **[@name](hag.md)** — "I do not know who she is. Someone leaves signs at the well, and I chalk it up to the ruins being strange."
 
 ## Opportunities
 
@@ -72,7 +74,7 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)
 
 ### Ask about the Carmen cigarette
-- **When:** Players have the [butts](../items/cigarette-butts-from-ciotkas.md) or the [cigarette from Edek's room](../locations/ciotkas-house/ciotkas-house.md#search-edeks-room)
+- **When:** Players have the [@name](../items/cigarette-butts-from-ciotkas.md) or the [cigarette from Edek's room](../locations/ciotkas-house/ciotkas-house.md#search-edeks-room)
 - **Cost:** 1 time
 - **Outcome:** No dodge, no worry. He shrugs and admits he gave the boy one, a boy has got to learn. He talks about Edek warmly, like a nephew, and never once notices anything wrong with the fondness. He does not care that it places him near the door.
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)

@@ -1,8 +1,8 @@
 # Paraskewia Chyłak's Cabin
 
 **Type:** Location (hidden, discoverable)
-**Location:** Deep forest, off an obscured path from [%OLD_VILLAGE%](old-village-ruins.md)
-**Present:** [Paraskewia Chyłak](../characters/hag.md) (usually)
+**Location:** Deep forest, off an obscured path from [@name](old-village-ruins.md)
+**Present:** [@name](../characters/hag.md) (usually)
 **Available:** Requires extensive forest exploration or guidance
 **Cost:** 1 action to find, 1 action to interact
 
@@ -28,14 +28,14 @@
 - **Interior:** Blankets, worn clothes, and cooking implements are present.
 - **Hidden tin:** Floorboards hide a tin with Dmytro Kosach's photograph, a folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth.
 - **Survival:** Paraskewia survives by foraging, preserving food, and enduring isolation.
-- **Absence:** She may be at [the well](old-village-ruins.md) or [cerkiew](old-village-cerkiew.md) performing rites.
+- **Absence:** She may be at [@name](old-village-ruins.md) or [@name](old-village-cerkiew.md) performing rites.
 
 ## Opportunities
 
 - **Ritual materials** `(noticed by: [Culture](../cards/culture.md))` — The icons, candles, herbs, and prayers show someone has the ritual form. → Gives: [hag-has-the-form](../clues/clues.md#hag-has-the-form)
-- **List of the dead** `(noticed by: [Language](../cards/language.md) OR [Finesse](../cards/finesse.md))` — The folded Cyrillic sheet names the dead and belongs with [Paraskewia's List of the Dead](../items/paraskewias-list.md). → Gives: [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead)
+- **List of the dead** `(noticed by: [Language](../cards/language.md) OR [Finesse](../cards/finesse.md))` — The folded Cyrillic sheet names the dead and belongs with [@name](../items/paraskewias-list.md). → Gives: [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead)
 - **The three-barred cross** `(noticed by: [Culture](../cards/culture.md))` `(prompted by: aware:locations/hags-cabin.md)` — A small three-barred crucifix hangs among the icons, unlike a Roman cross. → Gives: [three-barred-cross-in-hags-cabin](../clues/clues.md#three-barred-cross-in-hags-cabin)
-- **Dmytro connection** `(when: found the [UPA bunker](upa-bunker.md) inscription, found the knife marked Д.К.)` — The initials connect Dmytro Kosach's belongings to the bunker. → Gives: aware:characters/dmytro-kosach.md
+- **Dmytro connection** `(when: found the [@name](upa-bunker.md) inscription, found the knife marked Д.К.)` — The initials connect Dmytro Kosach's belongings to the bunker. → Gives: aware:characters/dmytro-kosach.md
 
 ## Actions
 
@@ -43,10 +43,10 @@
 - **When:** Access to the cabin
 - **Cost:** 1 time
 - **Outcome:** The players find Dmytro Kosach's photograph, folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth.
-- **Gives:** aware:characters/dmytro-kosach.md, [Floorboard Tin](../items/floorboard-tin.md)
+- **Gives:** aware:characters/dmytro-kosach.md, [@name](../items/floorboard-tin.md)
 
 ### Search the cabin after confrontation
-- **When:** Hag is dead or missing after [Well Confrontation](../events/well-confrontation.md)
+- **When:** Hag is dead or missing after [@name](../events/well-confrontation.md)
 - **Cost:** 1 time
 - **Outcome:** The cabin is empty, the fire is cold, supplies remain, and ritual materials show twenty years of tending the dead.
 - **Gives:** [hag-tends-the-well](../clues/clues.md#hag-tends-the-well)

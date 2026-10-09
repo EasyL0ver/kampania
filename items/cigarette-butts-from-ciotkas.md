@@ -1,7 +1,7 @@
 # Carmen Cigarette Butts
 
 **Type:** Item — evidence (physical trace)
-**Source:** The ground just outside [Janina Gajda](../characters/ciotka.md)'s door, collected during [Ciotka Found Dead](../events/ciotka-found-dead/ciotka-found-dead.md)
+**Source:** The ground just outside [@name](../characters/ciotka.md)'s door, collected during [@name](../events/ciotka-found-dead/ciotka-found-dead.md)
 **Carried:** Evidence. Places a Carmen smoker at her threshold, but the butts are weathered, left a day or more before she died.
 
 ## Hook
@@ -20,7 +20,7 @@ A small scatter of hand-pinched butts, oval, all one brand: Carmen. An aromatic 
 ## Actions
 
 ### Compare the door and well butts
-- **When:** Holding the butts from [Janina's door](../events/ciotka-found-dead/ciotka-found-dead.md) and the [handful gathered at the well](../locations/old-village-ruins.md#investigate-the-area-around-the-well)
+- **When:** Holding the butts from [@name](../events/ciotka-found-dead/ciotka-found-dead.md) and the [handful gathered at the well](../locations/old-village-ruins.md#investigate-the-area-around-the-well)
 - **Prompted by:** [ciotka-is-dead](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 time
 - **Outcome:** Laid side by side, both scatters are the same oval Carmen. The man who haunts the well left the same brand at her threshold.

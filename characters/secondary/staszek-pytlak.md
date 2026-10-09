@@ -1,19 +1,21 @@
 # Staszek Pytlak
 
-**Type:** Child — [Pawełek Kopacz](../pawelek.md)'s friend
+**Type:** Child — [@name](../pawelek.md)'s friend
 
 ## Hook
 
-- Staszek Pytlak, a small village boy, [Pawełek Kopacz](../pawelek.md)'s playmate.
+- Staszek Pytlak, a small village boy, [@name](../pawelek.md)'s playmate.
 
 ## Vital Statistics
 
+- **First name:** Staszek
+- **Surname:** Pytlak
 - **Status:** Resident
 - **Born:** 1962
 - **Age in 1967:** 5
-- **Lives in:** [%NEW_VILLAGE%](../../locations/new-village.md) — with his parents
+- **Lives in:** [@name](../../locations/new-village.md) — with his parents
 - **Settled:** Born in %NEW_VILLAGE%
-- **Parents:** [Michał Pytlak](../foreman.md) and [Zofia Pytlak](../zofia.md)
+- **Parents:** [@name](../foreman.md) and [@name](../zofia.md)
 
 ## Character
 

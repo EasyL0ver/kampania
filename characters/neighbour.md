@@ -8,10 +8,12 @@ Ryszard Dudka, a quiet farmer and licensed hunter, lives next door to Janina Gaj
 
 ## Vital Statistics
 
+- **First name:** Ryszard
+- **Surname:** Dudka
 - **Status:** Resident
 - **Born:** 1918
 - **Age in 1967:** 49
-- **Lives in:** [Ryszard Dudka's house](../locations/neighbours-house.md) — alone
+- **Lives in:** [@name](../locations/neighbours-house.md) — alone
 - **Settled:** ~1948 — early settler, next door to Barnaś family from the start
 - **Armed:** Hunting rifle (licensed)
 
@@ -29,11 +31,11 @@ He speaks in short flat sentences with long pauses. He goes quieter when angry, 
 
 ## Opinions
 
-- **[Barbara Kopacz](barbara.md)** — "She and Pawełek are the only good thing left. I bring firewood, watch the boy, fix what breaks, and listen when she talks over the fence."
-- **[Stanisław Rezeń](butcher.md)** — "I hate him and fear him in equal measure. If the village finds out I talked, he will not hesitate with me."
-- **[Janina Gajda](ciotka.md)** — "I have watched her tend that boy for thirteen years. I know what she did that night, and I know what it cost her."
-- **[Edward Barnaś](soldier.md)** — "He left. Walked out and abandoned that slow boy behind him. Whatever else a man is, you do not do that."
-- **[Edek Barnaś](glupek.md)** — "He is the living reminder. I heard what happened to him and did nothing."
+- **[@name](barbara.md)** — "She and Pawełek are the only good thing left. I bring firewood, watch the boy, fix what breaks, and listen when she talks over the fence."
+- **[@name](butcher.md)** — "I hate him and fear him in equal measure. If the village finds out I talked, he will not hesitate with me."
+- **[@name](ciotka.md)** — "I have watched her tend that boy for thirteen years. I know what she did that night, and I know what it cost her."
+- **[@name](soldier.md)** — "He left. Walked out and abandoned that slow boy behind him. Whatever else a man is, you do not do that."
+- **[@name](glupek.md)** — "He is the living reminder. I heard what happened to him and did nothing."
 - **[wujas-is-guilty](../clues/clues.md#wujas-is-guilty)** — "Lots of men drink for bad reasons. I will not say more unless something breaks."
 
 ## Mechanics
@@ -59,7 +61,7 @@ He speaks in short flat sentences with long pauses. He goes quieter when angry, 
 ### Property assessment
 - **Prompted by:** aware:characters/neighbour.md
 - **Cost:** 1 time
-- **Outcome:** He identifies his house and plot next to [Janina's](../locations/ciotkas-house/ciotkas-house.md). His papers are in order and his answers stay clipped — the record shows he has held the plot since ~1948.
+- **Outcome:** He identifies his house and plot next to [@name](../locations/ciotkas-house/ciotkas-house.md). His papers are in order and his answers stay clipped — the record shows he has held the plot since ~1948.
 - **Gives:** [neighbour-is-old-settler](../clues/clues.md#neighbour-is-old-settler)
 - **Changes:** [Property Record](../items/census.md#property-record) — Dudka house and farmland
 
@@ -88,10 +90,10 @@ He speaks in short flat sentences with long pauses. He goes quieter when angry, 
 
 - [ ] **Treat Barbara and Pawełek as people, not sources** — ask after them, help the boy, notice the one clean thing in his life
 - [ ] **Meet his 1954 guilt without contempt** — when the inaction surfaces, don't call him a coward; let it stand
-- [ ] **Stand with him against Rezeń** — back him in a real moment instead of leaving him alone with it: defuse [the clash](../events/hunters-cross-paths.md) in his favour, [Uplift him](#uplift-ryszard), or stand beside him at [the well](../events/well-confrontation.md#dudkas-rifle)
+- [ ] **Stand with him against Rezeń** — back him in a real moment instead of leaving him alone with it: defuse [@name](../events/hunters-cross-paths.md) in his favour, [Uplift him](#uplift-ryszard), or stand beside him at [the well](../events/well-confrontation.md#dudkas-rifle)
 
 ## Grudge
 
-- [ ] **Side with Rezeń or humiliate him** — go on [the hunt with Rezeń](../events/hunt-with-rezen.md), laugh him down yourself, dismiss the threat he sees, or leave [the clash](../events/hunters-cross-paths.md) to run so Rezeń wins it
+- [ ] **Side with Rezeń or humiliate him** — go on [@name](../events/hunt-with-rezen.md), laugh him down yourself, dismiss the threat he sees, or leave [@name](../events/hunters-cross-paths.md) to run so Rezeń wins it
 - [ ] **Endanger or use Barbara or Pawełek** — push Barbara carelessly, let the boy come to harm, or treat his one clean thing as leverage
 - [ ] **Treat him as a 1954 suspect** — pull rank, interrogate him as if he were complicit, corner the witness who already can't forgive his own inaction

@@ -1,13 +1,13 @@
 # Rezeń Takes the Body
 
-**Location:** [The church](../locations/the-church.md), then [the well](../locations/old-village-ruins.md)
-**Present:** [Stanisław Rezeń](../characters/butcher.md) (if alive and loose), his dogs
-**Available:** Night of Day 5 into Day 6 morning; requires the [flood](the-flood.md) to have postponed Janina's [burial](funeral-mass.md).
+**Location:** [@name](../locations/the-church.md), then [@name](../locations/old-village-ruins.md)
+**Present:** [@name](../characters/butcher.md) (if alive and loose), his dogs
+**Available:** Night of Day 5 into Day 6 morning; requires the [@name](the-flood.md) to have postponed Janina's [@name](funeral-mass.md).
 
 ## Trigger
 
-- The Day 5 [funeral](funeral-mass.md) cannot finish because burial is impossible.
-- [Janina Gajda](../characters/ciotka.md)'s coffin remains in the church.
+- The Day 5 [@name](funeral-mass.md) cannot finish because burial is impossible.
+- [@name](../characters/ciotka.md)'s coffin remains in the church.
 - Rezeń is alive, loose, not jailed, not killed, and not yet dead at the well.
 - The well's pull takes Rezeń to the church.
 - If players keep vigil over the coffin, this becomes a live confrontation.
@@ -28,7 +28,7 @@
 - The coffin at the front is open and empty.
 - A candle is knocked over.
 - A wet drag trail crosses the flagstones and leaves the church.
-- Heel-furrows in the mud lead toward [%OLD_VILLAGE%](../locations/old-village-ruins.md) and the well.
+- Heel-furrows in the mud lead toward [@name](../locations/old-village-ruins.md) and the well.
 - Dog prints run alongside the drag trail.
 - The village is not awake yet.
 - If players kept vigil, Rezeń enters after midnight, soaked and calm.
@@ -37,7 +37,7 @@
 
 ## Opportunities
 
-- **The drag trail** `(noticed by: [Survival](../cards/survival.md))` — the trail is fresh, made within the last few hours, and points straight toward [%OLD_VILLAGE%](../locations/old-village-ruins.md). → Gives: [`ciotka-body-taken`](../clues/clues.md#ciotka-body-taken)
+- **The drag trail** `(noticed by: [Survival](../cards/survival.md))` — the trail is fresh, made within the last few hours, and points straight toward [@name](../locations/old-village-ruins.md). → Gives: [`ciotka-body-taken`](../clues/clues.md#ciotka-body-taken)
 - **The empty coffin** `(noticed by: [Finesse](../cards/finesse.md))` — there is no sign of struggle, theft, or vandalism. Whoever came wanted the body only.
 - **The dogs** `(noticed by: [Survival](../cards/survival.md))` — the dogs are Rezeń's dogs and move between the church and the forest path.
 - **Rezeń's calm** `(noticed by: [Empathy](../cards/empathy.md))` — he is steadier after taking the body than he has been in days.
@@ -45,7 +45,7 @@
 ## Actions
 
 ### Keep vigil over the body
-- **When:** Players chose to stay with the coffin overnight after the [postponed burial](funeral-mass.md).
+- **When:** Players chose to stay with the coffin overnight after the [@name](funeral-mass.md).
 - **Cost:** 4 time
 - **Outcome:** Rezeń comes for the body after midnight, stops when caught, explains himself, and leaves without the body.
 - **Gives:** [`butcher-dumps-carcasses-in-well`](../clues/clues.md#butcher-dumps-carcasses-in-well)
@@ -53,7 +53,7 @@
 ### Follow the drag trail
 - **When:** Found the empty coffin and the trail.
 - **Cost:** 1 time
-- **Outcome:** The trail reaches the well in [%OLD_VILLAGE%](../locations/old-village-ruins.md); a shawl or shoe is caught on the stone; Rezeń's tracks lead back to [his house](../locations/butchers-house.md).
+- **Outcome:** The trail reaches the well in [@name](../locations/old-village-ruins.md); a shawl or shoe is caught on the stone; Rezeń's tracks lead back to [@name](../locations/butchers-house.md).
 - **Gives:** [`ciotka-body-taken`](../clues/clues.md#ciotka-body-taken)
 
 ### Confront Rezeń
@@ -64,9 +64,9 @@
 
 ## Exits
 
-- Follow the trail to [the well](../locations/old-village-ruins.md).
-- Follow Rezeń's tracks to [Rezeń's house](../locations/butchers-house.md).
-- If the village learns of the theft, continue toward [The Lynch](punishment-lynch.md).
+- Follow the trail to [@name](../locations/old-village-ruins.md).
+- Follow Rezeń's tracks to [@name](../locations/butchers-house.md).
+- If the village learns of the theft, continue toward [@name](punishment-lynch.md).
 
 ## If Missed
 

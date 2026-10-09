@@ -1,6 +1,6 @@
 # The Village Forgets
 
-**Location:** [%NEW_VILLAGE%](../locations/new-village.md)
+**Location:** [@name](../locations/new-village.md)
 **Present:** everyone still in the valley
 **Available:** End of game, when neither [Rest](../characters/hag.md#rest) nor [Grace](../characters/priest.md#grace) happened.
 

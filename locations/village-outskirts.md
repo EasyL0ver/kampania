@@ -1,8 +1,8 @@
-﻿# Village Outskirts
+# Village Outskirts
 
 **Type:** Location (revisitable, multi-trip)
 **Location:** Terrain around the village — river, hillsides, forest edges.
-**Present:** Survey party; [Michał Pytlak](../characters/foreman.md) (if invited)
+**Present:** Survey party; [@name](../characters/foreman.md) (if invited)
 **Available:** Any day; geological survey requires geological knowledge.
 **Cost:** 1 action per site surveyed; full survey is four sites; office maps or Michał Pytlak waive the three easy sites
 
@@ -22,20 +22,20 @@ The river, hillsides, and forest edges around %NEW_VILLAGE%.
 - Long parallel ridges separate valleys.
 - Streams cross ridges through narrow water-gaps.
 - %NEW_VILLAGE% sits in one valley.
-- [%OLD_VILLAGE%](old-village-ruins.md) lies in the lower valley beyond a sandstone ridge.
-- The map marks a [water-gap](the-ridge-gap.md) through the ridge between the new-village valley and the empty %BIG-BASIN%.
+- [@name](old-village-ruins.md) lies in the lower valley beyond a sandstone ridge.
+- The map marks a [@name](the-ridge-gap.md) through the ridge between the new-village valley and the empty %BIG-BASIN%.
 - The marked water-gap is blocked by loose earth and broken rock from an old landslide.
-- A far ridge across the valley carries an old dry streambed that appears to spill toward the next valley; see the [Far-Ridge Streambed](far-ridge-streambed.md).
+- A far ridge across the valley carries an old dry streambed that appears to spill toward the next valley; see the [@name](far-ridge-streambed.md).
 - The wojewoda's new bridge spans the river's present bed; on the map that ground is drawn dry, with the river on its old course.
 - The southern approach rises into a low ridge of higher ground.
 - The survey route can pass the old village ruins.
-- One route passes the last house before the treeline, [Stanisław Rezeń](../characters/butcher.md)'s house.
+- One route passes the last house before the treeline, [@name](../characters/butcher.md)'s house.
 - One route crosses the track used by Tadek Gajda's drinking crew.
 
 ## Opportunities
 
 - **Spot the old village** `(when: Survival on a survey route)` — Stone ruins are visible through the trees. → Gives: aware:locations/old-village-ruins.md
-- **Spot Butcher at his house** `(when: Finesse on the route past [Stanisław Rezeń](../characters/butcher.md)'s house)` — Rezeń is alone near the treeline and using the same direction repeatedly. → Gives: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
+- **Spot Butcher at his house** `(when: Finesse on the route past [@name](../characters/butcher.md)'s house)` — Rezeń is alone near the treeline and using the same direction repeatedly. → Gives: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
 - **Spot the drinking crew heading into the forest** `(when: Survival near the treeline track)` — Tadek Gajda and the crew carry bottles toward the forest. → Gives: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
 - **See the landslide plug** `(when: Survival on a survey route)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The notch in the ridge is choked with fallen rock and earth. → Gives: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 - **The river isn't where the map draws it** `(when: observation comparing map to ground)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The wojewoda's bridge spans running water, but the map shows that ground dry and the river on its old course. → Gives: [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map)
@@ -46,18 +46,18 @@ The river, hillsides, and forest edges around %NEW_VILLAGE%.
 - **When:** Reaching the ridge water-gap (visible from the survey routes)
 - **Prompted by:** [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain), [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map), [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land)
 - **Cost:** 1 time
-- **Outcome:** You reach the notch. A landslide has choked the gap with fallen rock and earth. Whether that fill actually stops the water is a further question, settled at [The Ridge Gap](the-ridge-gap.md) by climbing the plug for a geological read on-site or by describing it to [prof. Bieńkowski](../characters/professor.md).
+- **Outcome:** You reach the notch. A landslide has choked the gap with fallen rock and earth. Whether that fill actually stops the water is a further question, settled at [@name](the-ridge-gap.md) by climbing the plug for a geological read on-site or by describing it to [@name](../characters/professor.md).
 - **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), aware:locations/the-ridge-gap.md, aware:events/climb-the-plug.md, aware:events/foreman-saves-village.md
 
 ### Wander the forest
 - **Cost:** 1 time
-- **Outcome:** The GM gives one missing forest lead from bottle glass and cold ash, deep boot-prints, woodsmoke and burnt herbs, collapsed dugouts and rusted metal, or [Stanisław Rezeń](../characters/butcher.md) watching from the treeline.
+- **Outcome:** The GM gives one missing forest lead from bottle glass and cold ash, deep boot-prints, woodsmoke and burnt herbs, collapsed dugouts and rusted metal, or [@name](../characters/butcher.md) watching from the treeline.
 - **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest), [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest), aware:characters/hag.md, [old-wartime-positions](../clues/clues.md#old-wartime-positions)
 
 ### Follow the drinking crew
 - **Prompted by:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
 - **Cost:** 1 time
-- **Outcome:** The trail leads to the [bimber still](bimber-still.md).
+- **Outcome:** The trail leads to the [@name](bimber-still.md).
 - **Gives:** [bimber-still](../clues/clues.md#bimber-still), aware:locations/bimber-still.md
 
 ### Follow the Butcher's path
@@ -70,11 +70,11 @@ The river, hillsides, and forest edges around %NEW_VILLAGE%.
 ### Track the hag to her cabin
 - **When:** Survival and aware:characters/hag.md
 - **Cost:** 1 time
-- **Outcome:** Knowing someone lives out here, a tracker cuts her sign from the forest floor: silent footfalls, snapped herbs, a worn path under the undergrowth. The trail runs back to the [hag's cabin](hags-cabin.md).
+- **Outcome:** Knowing someone lives out here, a tracker cuts her sign from the forest floor: silent footfalls, snapped herbs, a worn path under the undergrowth. The trail runs back to the [@name](hags-cabin.md).
 - **Gives:** aware:locations/hags-cabin.md
 
 ### Search the old wartime positions
-- **When:** The military map from [Wojewoda's office](pgr-office.md), or Michał Pytlak's terrain hints
+- **When:** The military map from [@name](pgr-office.md), or Michał Pytlak's terrain hints
 - **Cost:** 1 time
 - **Outcome:** The search finds collapsed dugouts and rusted metal.
 - **Gives:** [old-wartime-positions](../clues/clues.md#old-wartime-positions)
@@ -82,5 +82,5 @@ The river, hillsides, and forest edges around %NEW_VILLAGE%.
 ### Look for the UPA bunker
 - **Prompted by:** [old-wartime-positions](../clues/clues.md#old-wartime-positions), [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area)
 - **Cost:** 1 time
-- **Outcome:** Ventilation shafts and a hidden entrance reveal the [UPA bunker](upa-bunker.md); [Edek Barnaś](../characters/glupek.md) may be near the mouth.
+- **Outcome:** Ventilation shafts and a hidden entrance reveal the [@name](upa-bunker.md); [@name](../characters/glupek.md) may be near the mouth.
 - **Gives:** aware:locations/upa-bunker.md, aware:locations/upa-bunker.md

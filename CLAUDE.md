@@ -1,4 +1,4 @@
-﻿# Campaign Project Instructions
+# Campaign Project Instructions
 
 This is a tabletop RPG campaign set in 1960s Bieszczady, Poland. The repository IS the project context.
 

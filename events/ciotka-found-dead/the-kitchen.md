@@ -1,9 +1,9 @@
 # Ciotka Found Dead — The Kitchen
 
-**Part of:** [Ciotka Found Dead — The House](ciotka-found-dead.md)
-**Location:** [Ciotka's house](../../locations/ciotkas-house/ciotkas-house.md)
-**Present:** [Janina Gajda](../../characters/ciotka.md) (dead); [ks. Władysław Pająk](../../characters/priest.md)
-**Available:** From [Ciotka Found Dead — The House](ciotka-found-dead.md), by entering the kitchen.
+**Part of:** [@name](ciotka-found-dead.md)
+**Location:** [@name](../../locations/ciotkas-house/ciotkas-house.md)
+**Present:** [@name](../../characters/ciotka.md) (dead); [@name](../../characters/priest.md)
+**Available:** From [@name](ciotka-found-dead.md), by entering the kitchen.
 
 ## Hook
 
@@ -11,12 +11,12 @@
 
 ## Setup
 
-- [Janina Gajda](../../characters/ciotka.md) lies on the kitchen floor.
-- [Janina Gajda](../../characters/ciotka.md) is on her back, half-turned.
-- [Janina Gajda](../../characters/ciotka.md)'s eyes are open.
-- A fresh, dark bruise rings one of [Janina Gajda](../../characters/ciotka.md)'s wrists.
+- [@name](../../characters/ciotka.md) lies on the kitchen floor.
+- [@name](../../characters/ciotka.md) is on her back, half-turned.
+- [@name](../../characters/ciotka.md)'s eyes are open.
+- A fresh, dark bruise rings one of [@name](../../characters/ciotka.md)'s wrists.
 - Apart from the bruise, there is no wound and no blood.
-- [Janina Gajda](../../characters/ciotka.md)'s hands are at her sides.
+- [@name](../../characters/ciotka.md)'s hands are at her sides.
 - A fallen rosary is near one half-curled hand.
 - A glass with a finger of water sits on the table.
 - Two used coffee cups sit on the table.
@@ -24,9 +24,9 @@
 
 ## Opportunities
 
-- **She is dead** — [Janina Gajda](../../characters/ciotka.md) lies on the floor, eyes open, candles long out. She is dead. → Gives: [`ciotka-is-dead`](../../clues/clues.md#ciotka-is-dead)
+- **She is dead** — [@name](../../characters/ciotka.md) lies on the floor, eyes open, candles long out. She is dead. → Gives: [`ciotka-is-dead`](../../clues/clues.md#ciotka-is-dead)
 - **The two cups** `(prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead))` — Two used coffee cups sit on the table. She was not alone the day before; someone sat and drank with her. → Gives: [`two-coffee-cups`](../../clues/clues.md#two-coffee-cups)
-- **Examine her properly** `(noticed by: [Medicine](../../cards/medicine.md))` — The bruise on her wrist begs a closer look, but a real reading of how she died means undressing her, and [ks. Władysław Pająk](../../characters/priest.md) is praying over her body.
+- **Examine her properly** `(noticed by: [Medicine](../../cards/medicine.md))` — The bruise on her wrist begs a closer look, but a real reading of how she died means undressing her, and [@name](../../characters/priest.md) is praying over her body.
 
 ## Actions
 
@@ -34,7 +34,7 @@
 - **Requires:** [Medicine](../../cards/medicine.md)
 - **Prompted by:** [`ciotka-is-dead`](../../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 composure
-- **Outcome:** Undressing her draws a flinch from [ks. Władysław Pająk](../../characters/priest.md), he is praying over her, but he is no fool. Told a proper examination is how they find who laid hands on her, he understands and turns away to let a Medicine player read her. Her throat is unmarked, no strangulation; nowhere on her body are there defensive wounds. But a fresh bruise rings her wrist, a large hand closed hard while she still lived. It did not kill her, and it did not come from a fall. What did kill her reads in her colour and her slack, stopped breath: a heavy barbiturate dose, and the open Luminal bottle on the table is her own.
+- **Outcome:** Undressing her draws a flinch from [@name](../../characters/priest.md), he is praying over her, but he is no fool. Told a proper examination is how they find who laid hands on her, he understands and turns away to let a Medicine player read her. Her throat is unmarked, no strangulation; nowhere on her body are there defensive wounds. But a fresh bruise rings her wrist, a large hand closed hard while she still lived. It did not kill her, and it did not come from a fall. What did kill her reads in her colour and her slack, stopped breath: a heavy barbiturate dose, and the open Luminal bottle on the table is her own.
 - **Gives:** [`ciotka-hurt-before-death`](../../clues/clues.md#ciotka-hurt-before-death), [ciotka-overdosed](../../clues/clues.md#ciotka-overdosed)
 
 ### Strip her crudely
@@ -44,4 +44,4 @@
 
 ## Exits
 
-- Back into the house: [Ciotka Found Dead — The House](ciotka-found-dead.md).
+- Back into the house: [@name](ciotka-found-dead.md).

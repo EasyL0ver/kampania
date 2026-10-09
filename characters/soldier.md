@@ -8,12 +8,14 @@
 
 ## Vital Statistics
 
+- **First name:** Edward
+- **Surname:** Barnaś
 - **Status:** Dead
 - **Born:** 1910
 - **Died:** 1954 (age 44)
-- **Lived in:** [Janina Gajda's house](../locations/ciotkas-house/ciotkas-house.md) — now [Janina Gajda](ciotka.md)'s; settled ~1948, knew the terrain from KBW service and claimed the best land early
-- **Family:** Unmarried partner [Marta Konieczna](marta-konieczna.md), mother of both his children; [Hania Barnaś](jagna.md) and [Edek Barnaś](glupek.md). Marta was killed in the 1954 lynch.
-- **Records:** Marta appears in the [PGR expense journal](../items/pgr-expenses.md) under her own surname
+- **Lived in:** [@name](../locations/ciotkas-house/ciotkas-house.md) — now [@name](ciotka.md)'s; settled ~1948, knew the terrain from KBW service and claimed the best land early
+- **Family:** Unmarried partner [@name](marta-konieczna.md), mother of both his children; [@name](jagna.md) and [@name](glupek.md). Marta was killed in the 1954 lynch.
+- **Records:** Marta appears in the [@name](../items/pgr-expenses.md) under her own surname
 
 ## Character
 
@@ -29,9 +31,9 @@ In play he is an absence: a missing father, a dead signature, a rifle, a house, 
 
 ## Opinions
 
-- **[Marta Konieczna](marta-konieczna.md)** — "We never married, but we lived as partners and she bore both my children. She was killed the same night I was. Her own surname is why no Barnaś wife ever shows in the records."
-- **[Hania Barnaś](jagna.md)** — "My eldest daughter was my pride. I came for her with the rifle, and I died before I could get her away."
-- **[Edek Barnaś](glupek.md)** — "My young son survived the night that killed the rest of my family. What was done to him is part of what the village buried."
+- **[@name](marta-konieczna.md)** — "We never married, but we lived as partners and she bore both my children. She was killed the same night I was. Her own surname is why no Barnaś wife ever shows in the records."
+- **[@name](jagna.md)** — "My eldest daughter was my pride. I came for her with the rifle, and I died before I could get her away."
+- **[@name](glupek.md)** — "My young son survived the night that killed the rest of my family. What was done to him is part of what the village buried."
 
 ## Bond
 

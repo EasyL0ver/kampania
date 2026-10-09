@@ -1,7 +1,7 @@
 # Edward Barnaś's Unopened Letter
 
 **Type:** Item — letter (unopened, dated 1955)
-**Source:** The attic of [Ciotka's House](../locations/ciotkas-house/ciotkas-house.md) — Edward Barnaś's old house
+**Source:** The attic of [@name](../locations/ciotkas-house/ciotkas-house.md) — Edward Barnaś's old house
 **Carried:** Evidence. Mail that reached a dead man a year after the village recorded him gone.
 
 ## Hook
