@@ -1,9 +1,5 @@
 # Jar of Pills
 
-**Type:** Item — evidence
-**Source:** The kitchen table in [@name](../events/ciotka-found-dead/the-kitchen.md)
-**Carried:** Evidence.
-
 ## Hook
 
 An open medicine jar with some pills missing.

@@ -1,9 +1,5 @@
 # Buried Oilcloth Bundle
 
-**Type:** Item — evidence
-**Source:** Dug up in the backyard of [Ciotka's house](../locations/ciotkas-house/ciotkas-house.md#dig-in-the-backyard).
-**Carried:** Evidence.
-
 ## Hook
 
 - An oilcloth bundle, stiff with earth.

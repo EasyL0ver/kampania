@@ -1,9 +1,5 @@
 # Gap Fill Reading
 
-**Type:** Item — field reading of the landslide fill
-**Source:** Taken up close at the toe of the plug at [the ridge gap](../locations/the-ridge-gap.md#examine-the-fill-at-the-toe).
-**Carried:** Half of what settles the ridge gap; read with the [@name](gap-sill-reading.md) by a Geology holder, or phoned to [@name](../characters/professor.md).
-
 ## Hook
 
 - Notes on the fill at the toe of the plug.

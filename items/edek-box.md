@@ -1,9 +1,5 @@
 # The "EDEK" Box
 
-**Type:** Item — keepsake (a dead man's belongings)
-**Source:** The attic pile during [Ciotka Found Dead](../locations/ciotkas-house/attic.md#search-the-pile-of-rubbish)
-**Carried:** A dust-caked box of a grown man's things marked "EDEK", an old house key among them. Ambivalent: the belongings could be the boy's or the elder Barnaś's.
-
 ## Hook
 
 - A dust-caked wooden box marked "EDEK", packed with a grown man's belongings.

@@ -1,9 +1,5 @@
 # Anchor and Hammer
 
-**Type:** Item — clamp and driving hammer for the crux
-**Source:** Borrowed from [@name](../characters/foreman.md) if he is cooperative, bonded, or talked round with a decent lie; otherwise packed from the [@name](../locations/pgr-farm.md) with the spare gear for the ridge climb.
-**Carried:** Lets the party fix the crux seam when the slab cannot be forced in the rain. It is the fixed anchor a climber can hang off and the hammer needed to set it.
-
 ## Hook
 
 A short steel clamp and a battered hammer, kept together as a field set.

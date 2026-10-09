@@ -1,9 +1,5 @@
 # Tadeusz-Mazur's Diary
 
-**Type:** Item — a settler's private diary, kept from ~1948
-**Source:** Given by [@name](../characters/widow.md) once the committee uncovers the pension cover-up and chooses to shield her
-**Carried:** Evidence. A contemporaneous settler's record of the valley, including the night the Barnaś family vanished.
-
 ## Hook
 
 - A worn cloth-bound notebook, its pages close-written in a careful farmer's hand, years of weather, work, and prices.

@@ -1,9 +1,5 @@
 # The Makeshift Charge
 
-**Type:** Item — old partisan demolition charge, rigged to breach the plug
-**Source:** Recovered from the [@name](../locations/upa-bunker.md) in [@name](../events/foreman-saves-village.md)
-**Carried:** The one thing that can breach the plug. Heavy and touchy: it must be carried or hauled up the climb and seated in the crux seam ([@name](../events/climb-the-plug-in-the-rain.md)). A Wounded fall while carrying it sets it off.
-
 ## Hook
 
 A corroded old casing lashed into a bulky charge with a visible fuse.

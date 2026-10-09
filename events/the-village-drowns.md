@@ -8,6 +8,10 @@
 
 - The water reaching the first houses of [@name](../locations/new-village.md).
 
+## Setup
+
+- TBD.
+
 ## Mechanics
 
 ### Drowned

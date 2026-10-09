@@ -1,9 +1,5 @@
 # Water Hose Contraption
 
-**Type:** Item — a length of irrigation hose
-**Source:** Coiled off the irrigation gear at the [@name](../locations/pgr-farm.md), or bought at [@name](../locations/the-store.md)
-**Carried:** Lets a non-surveyor rig a water level to measure the ridge plug (the Handiwork half of [@name](../events/climb-the-plug.md)) without working the kit's optical level.
-
 ## Hook
 
 A long, mud-stiffened coil of cracked rubber irrigation hose.

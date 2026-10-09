@@ -1,9 +1,5 @@
 # Store Cabinet Key
 
-**Type:** Item — key
-**Source:** Lifted from the ring on [@first-name](../characters/matrona.md) [@surname](../characters/matrona.md)'s apron at [Helena Rzepka & Emil Rzepka's house](../locations/matronas-house.md#lift-matronas-keys).
-**Carried:** Opens the locked drug cabinet at [the store](../locations/the-store.md#unlock-the-cabinet) without forcing it.
-
 ## Hook
 
 - A small iron key, worn smooth, off a household key ring.

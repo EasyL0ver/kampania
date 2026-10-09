@@ -1,9 +1,5 @@
 # Carmen Cigarette Butts
 
-**Type:** Item — evidence (physical trace)
-**Source:** The ground just outside [@name](../characters/ciotka.md)'s door, collected during [@name](../events/ciotka-found-dead/ciotka-found-dead.md)
-**Carried:** Evidence. Places a Carmen smoker at her threshold, but the butts are weathered, left a day or more before she died.
-
 ## Hook
 
 A small scatter of rain-softened, hand-pinched cigarette butts.

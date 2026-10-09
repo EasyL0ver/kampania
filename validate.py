@@ -169,20 +169,6 @@ def allowed_sections(f: MdFile):
         seen.add(s.title)
 
 
-@rule("section-order", *SCENE_KINDS, severity="warning")
-def section_order(f: MdFile):
-    """Template sections appear in template order."""
-    allowed = ALLOWED_SECTIONS[f.kind]
-    last = -1
-    for s in f.sections:
-        if s.title not in allowed:
-            continue
-        idx = allowed.index(s.title)
-        if idx < last:
-            yield s.line, f"section '## {s.title}' is out of order (template puts it before '## {allowed[last]}')"
-        last = max(last, idx)
-
-
 @rule("hook-present", "characters", "events", "locations", "items")
 def hook_present(f: MdFile):
     """Every character, event, location and item has a non-empty ## Hook."""
@@ -565,6 +551,60 @@ def mechanic_type(f: MdFile):
             values = [x.strip() for x in tm.group("values").split("|")]
             if v not in values:
                 yield body[2][0], f"Start '{v}' is not one of: {', '.join(values)}"
+
+
+# Header fields each kind carries between the title and the first ##: (template order, optional ones).
+HEADER_FIELDS = {
+    "characters": (["Type", "Freudian role"], ["Freudian role"]),
+    "events": (["Part of", "Location", "Present", "Available"], ["Part of"]),
+    "locations": (["Part of", "Type", "Location", "Present", "Available", "Cost"], ["Part of"]),
+    "items": ([], []),
+    "cards": (["Pool", "Type", "Composure"], []),
+}
+REQUIRED_SECTIONS = {
+    "characters": ["Hook", "Vital Statistics", "Character"],
+    "events": ["Hook", "Setup"],
+    "locations": ["Hook", "Setup"],
+    "items": ["Hook", "Description"],
+    "cards": ["Card"],
+}
+HEADER_LINE = re.compile(r"^\*\*([^*:]+):\*\*\s*\S")
+
+
+@rule("file-structure", *SCENE_KINDS)
+def file_structure(f: MdFile):
+    """Line 1 is `# Title`; then only the kind's header fields (`**Label:** value`, template order,
+    required ones present); then the template's ## sections in template order, required ones present."""
+    if not f.lines or not f.lines[0].startswith("# "):
+        yield 1, "line 1 must be the # title"
+    known, optional = HEADER_FIELDS[f.kind]
+    required = [x for x in known if x not in optional]
+    first = f.sections[0].line if f.sections else len(f.lines) + 1
+    seen = []
+    for i, t in link_lines(f):
+        if not (1 < i < first) or not t.strip():
+            continue
+        m = HEADER_LINE.match(t.strip())
+        if not m:
+            yield i, f"only header fields may sit between the title and the first ##: '{t.strip()[:60]}'"
+        elif m.group(1) not in known:
+            yield i, f"**{m.group(1)}:** is not a {f.kind} header field ({', '.join(known) or 'none'})"
+        else:
+            seen.append(m.group(1))
+    for label in required:
+        if label not in seen:
+            yield f.title_line or 1, f"missing header field **{label}:**"
+    order = [known.index(x) for x in seen]
+    if order != sorted(order):
+        yield f.title_line or 1, f"header fields out of order: {', '.join(seen)} (template: {', '.join(known)})"
+    present = [x.title for x in f.sections]
+    for name in REQUIRED_SECTIONS[f.kind]:
+        if name not in present:
+            yield f.title_line or 1, f"missing '## {name}' section"
+    allowed = ALLOWED_SECTIONS[f.kind]
+    order = [allowed.index(x) for x in present if x in allowed]
+    if order != sorted(order):
+        yield f.sections[0].line, f"sections out of template order: {', '.join(present)} (template: {', '.join(allowed)})"
 
 
 @rule("opportunity-format", "characters", "events", "locations", "items")

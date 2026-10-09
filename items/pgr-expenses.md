@@ -1,9 +1,5 @@
 # PGR Expense Journal
 
-**Type:** Item — farm expense journal (document)
-**Source:** [@name](../locations/pgr-office.md) desk, via the "Inspect the farm books" action → [@name](../locations/pgr-office.md)
-**Carried:** Financial evidence. Three things hide in the mundane entries: the timing of a death at the grain silo, the only appearance of [@name](../characters/marta-konieczna.md)'s full name, and the state money that built [@first-name](../characters/barbara.md)'s brick house.
-
 ## Hook
 
 A worn farm expense ledger: rows of dates, payees, amounts.

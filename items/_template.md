@@ -1,9 +1,5 @@
 # Item Name
 
-**Type:** Item — [what it is in one phrase — document, weapon, keepsake, remains]
-**Source:** [Where players obtain it — link to the location/event/character that gives it]
-**Carried:** [What holding it means mechanically, if anything — evidence for the report, leverage, a key. Or "—".]
-
 ## Hook
 
 <!-- Spoiler-free. One line: what a player registers on first seeing the object,
@@ -50,7 +46,7 @@
 <!-- Optional. Free, no action cost. Skill-gated impressions, seeds, or atmosphere
      the item gives off when examined. An opportunity may point at a clue, but it
      does not have to — pure atmosphere with no clue is fine (unlike Actions).
-     Format: skill tag in backticks, then what it reveals. Omit the section if the
+     Format: actions-and-opportunities.md. Omit the section if the
      item offers nothing to notice beyond its Actions. -->
 
 - *(when: [world state])* *(noticed by: [Card](../cards/file.md))* — [What is observed; must stand on its own, no title]. → Gives: [clue-id](../clues/clues.md#clue-id) <!-- Prompted by: [clue-id](../clues/clues.md#clue-id) -->

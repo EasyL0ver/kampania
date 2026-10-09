@@ -1,9 +1,5 @@
 # Remains from the Ravine
 
-**Type:** Item — unidentified human remains
-**Source:** Exhumed at the [@name](../locations/meadow-by-the-ravine.md) (the cairn grave [@name](../characters/neighbour.md) built)
-**Carried:** Physical evidence that *someone* died in the forest. Deliberately inconclusive — proves a death, never an identity.
-
 ## Hook
 
 A grim bundle of loose bones and a rotted coat, wrapped for carrying.

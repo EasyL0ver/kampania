@@ -1,9 +1,5 @@
 # The Blue Dress
 
-**Type:** Item — keepsake (a blue dress)
-**Source:** The attic wardrobe during [Ciotka Found Dead](../locations/ciotkas-house/attic.md#open-the-wardrobe)
-**Carried:** A folded blue dress. Kept in the house; can be shown to villagers.
-
 ## Hook
 
 - A blue dress, folded and kept, lifted from the back of the attic wardrobe.

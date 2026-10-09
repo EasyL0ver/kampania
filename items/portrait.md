@@ -1,9 +1,5 @@
 # The Portrait
 
-**Type:** Item — keepsake (an oil portrait)
-**Source:** A wrapped canvas hidden in the ruined cerkiew, found during [Open the wrapped bundle](../locations/old-village-cerkiew.md#open-the-wrapped-bundle)
-**Carried:** An oil portrait of an unnamed young woman. Can be shown to villagers or matched against other evidence.
-
 ## Hook
 
 - A portrait of a dark-haired young woman in a blue dress, unwrapped from a bundle hidden in the ruined cerkiew.

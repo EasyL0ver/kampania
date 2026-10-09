@@ -1,9 +1,5 @@
 # PGR Inventory
 
-**Type:** Item — blank farm stock-take form the committee fills out (document)
-**Source:** Issued to the committee for the movable-property accounting, filled on the ground at the [@name](../locations/pgr-farm.md); prompted by [committee-accounts-movable-state-property](../clues/clues.md#committee-accounts-movable-state-property)
-**Carried:** The committee's own working document. Completing it — physically counting the farm's movable socialist property — is the lawful task that puts outsiders legally among the PGR's stock. Blank until the players fill it.
-
 ## Hook
 
 A blank state stock-take form: ruled columns headed "declared" and "counted," for livestock, grain, machinery, fuel, and stores.

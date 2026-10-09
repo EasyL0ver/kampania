@@ -1,9 +1,5 @@
 # Concrete Ditch Measurements
 
-**Type:** Item — tape measurements of the irrigation ditch's concrete head
-**Source:** Taken with a tape at [the irrigation ditch](../locations/the-irrigation-ditch.md#measure-the-concrete-head).
-**Carried:** Input for the drainage tables: the [@name](geologists-kit.md), [@name](../characters/professor.md) by phone, or [@name](../characters/radioman.md).
-
 ## Hook
 
 - A page of figures in pencil.

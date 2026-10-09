@@ -16,19 +16,18 @@ A police car winding down the mountain road through the rain.
 - The players ride in the back.
 - The players are government committee members.
 - The committee is heading to assess flood risk in a remote Bieszczady village.
-- [@name](../characters/professor.md) briefed the committee before departure: the safe level assumes the ground stands where the map records it and that the valley drains, so he wants both checked, and he named two outlets to verify, the ridge water-gap and the old far-ridge streambed.
 - [@name](../characters/officer.md) is professional and friendly.
 - He talks while he drives.
 
 ## Opportunities
 
-- *(when: bureaucratic experience or intuition)* — he frames the work narrowly and signals that some information should stay out of official writing. → Gives: [`officer-warning`](../clues/clues.md#officer-warning) <!-- Prompted by: [government-committee](../clues/clues.md#government-committee) -->
+- *(noticed by: [Bureaucracy](../cards/bureaucracy.md) OR [Empathy](../cards/empathy.md))* — [@name](../characters/officer.md) frames the work narrowly and signals that old grievances and local legends stay out of the official report. → Gives: [`officer-warning`](../clues/clues.md#officer-warning) <!-- Prompted by: [government-committee](../clues/clues.md#government-committee) -->
 
 ## Actions
 
 ### Take the assignment
-- **Outcome:** On the road in, [@name](../characters/officer.md) lays out who the players are and why they are here: a state committee sent ahead of the reservoir to run a census, assess property for flood damage, and survey the valley. It is the authority the whole visit rests on.
-- **Gives:** [`government-committee`](../clues/clues.md#government-committee)
+- **Outcome:** [@name](../characters/officer.md) lays out who the players are: a state committee sent ahead of the reservoir to take the [@name](../items/census.md), assess property for flood damage, and survey the valley.
+- **Gives:** [`government-committee`](../clues/clues.md#government-committee), [@name](../items/professors-folder.md)
 
 ### Learn the destination
 <!-- Prompted by: [government-committee](../clues/clues.md#government-committee) -->
@@ -37,29 +36,27 @@ A police car winding down the mountain road through the rain.
 
 ### Listen to the briefing
 <!-- Prompted by: [government-committee](../clues/clues.md#government-committee) -->
-- **Outcome:** [@name](../characters/officer.md) explains the committee's survey, property assessment, local contact, village phone, and road risk. He notes the valley's [@name](../locations/pgr-farm.md), the PGR, as the main property the committee will assess, and that its movable socialist property must be inventoried and moved out before the flood.
+- **Outcome:** [@name](../characters/officer.md) explains the survey, the [@name](../items/census.md) and the property assessment. The main property is the [@name](../locations/pgr-farm.md): its movable socialist property must be inventoried and moved out before the flood.
 - **Gives:** [`committee-runs-geographical-survey`](../clues/clues.md#committee-runs-geographical-survey), [`committee-notes-property-for-damage`](../clues/clues.md#committee-notes-property-for-damage), [`committee-fills-census`](../clues/clues.md#committee-fills-census), [`committee-accounts-movable-state-property`](../clues/clues.md#committee-accounts-movable-state-property), [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood), aware:locations/pgr-farm.md
 
-### Pick up on the hidden warning
-- **When:** bureaucratic experience or intuition
-- **Outcome:** Players notice that [@name](../characters/officer.md) expects them to ignore old grievances, local legends, and anything that does not belong in a government report.
-- **Gives:** [`officer-warning`](../clues/clues.md#officer-warning)
-
-### Recall the professor's brief
+### Read the professor's folder
+- **Requires:** [@name](../items/professors-folder.md)
 <!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
-- **Outcome:** The committee recalls [@name](../characters/professor.md)'s pre-trip briefing: the state's safe verdict rests on two things holding true, that the ground stands where the map records it and that the valley drains through its outlets. He wants both tested on the ground: level the terrain against the map to confirm the heights, and check whether water can still get out. He flagged two outlets he knows, the ridge water-gap and the old far-ridge streambed, and knows of no others. He says only that the paperwork does not hold up and he cannot prove it from Kraków; he does not point at the previous survey by name, leaving that for the committee to find on the ground.
+- **Outcome:** [@name](../characters/professor.md)'s typed brief: the safe verdict assumes the map's heights are right and the valley drains. He names two outlets, the ridge water-gap and the far-ridge streambed, and writes that the paperwork does not hold up.
 - **Gives:** [`gap-is-candidate-drain`](../clues/clues.md#gap-is-candidate-drain), [`streambed-is-candidate-drain`](../clues/clues.md#streambed-is-candidate-drain), [`the-flood-line-potentially-miscalculated`](../clues/clues.md#the-flood-line-potentially-miscalculated)
 
-### Draft the committee
-- **Outcome:** The players draft the [card pool](../story-facts/game-system.md#the-draft) in snake order until all 28 cards are taken. [@name](../characters/officer.md) reads each card out of his dossier as it is claimed.
-- **Changes:** [The draft](#the-draft) — done
+### Introduce yourselves
+- **Outcome:** [@name](../characters/officer.md) asks each of them who they are and checks the answer against his dossier. The players draft the [card pool](../story-facts/game-system.md#the-draft) in snake order until all 28 cards are taken, each card a line of their background.
+- **Changes:** [The draft](#the-draft) — true
 
 ## Mechanics
 
 ### The draft
 
-- **Type:** rule
-- Done once, on the drive in. Afterwards every player holds the cards they drafted; a card nobody drafted is out of the game.
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True once the players have introduced themselves. Done once, on the drive in. Afterwards every player holds the cards they drafted; a card nobody drafted is out of the game.
 
 ## Exits
 

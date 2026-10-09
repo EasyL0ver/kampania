@@ -8,6 +8,10 @@
 
 - The village going quiet about the dead, one more time.
 
+## Setup
+
+- TBD.
+
 ## Mechanics
 
 ### Forgotten

@@ -1,9 +1,5 @@
 # Soldier's Unopened Letter
 
-**Type:** Item — letter (unopened, dated 1955)
-**Source:** The attic of [@name](../locations/ciotkas-house/ciotkas-house.md) — [@name](../characters/soldier.md)'s old house
-**Carried:** Evidence. Mail that reached a dead man a year after the village recorded him gone.
-
 ## Hook
 
 - A yellowed, still-sealed envelope in a blunt, barrack-trained hand, postmarked 1955.

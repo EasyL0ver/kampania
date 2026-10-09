@@ -1,9 +1,5 @@
 # Soldier's Departure Declaration
 
-**Type:** Item — property record (forged document)
-**Source:** The wall safe in the [@name](../locations/pgr-office.md) — cracked open along with the sołtys's pistol
-**Carried:** Evidence. A voluntary surrender of house and land, signed by a man who was already dead when it was filed.
-
 ## Hook
 
 A single stamped administrative sheet with a dated signature.

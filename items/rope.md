@@ -1,9 +1,5 @@
 # Rope
 
-**Type:** Item — climbing and hauling line
-**Source:** Bought off the shelf at [@name](../locations/the-store.md), or scrounged and procured at the [@name](../locations/pgr-farm.md); the party must have it for the ridge climb.
-**Carried:** Lets the party rig the killzone and haul the charge. Without it, the traverse is a naked fall and the climb cannot be secured.
-
 ## Hook
 
 A rough field rope of mixed lengths and knots.

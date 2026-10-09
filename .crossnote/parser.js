@@ -1373,11 +1373,13 @@
 "location": "Police car on the mountain road to Testowo",
 "present": "por. Witold Skowron, players",
 "available": "Game start; first scene.",
-"outcome": "On the road in, por. Witold Skowron lays out who the players are and why they are here: a state committee sent ahead of the reservoir to run a census, assess property for flood damage, and survey the valley. It is the authority the whole visit rests on.",
-"gives": "government-committee",
-"when": "bureaucratic experience or intuition",
-"changes": "The draft — done",
-"type": "rule"
+"outcome": "por. Witold Skowron lays out who the players are: a state committee sent ahead of the reservoir to take the Committee Census Register, assess property for flood damage, and survey the valley.",
+"gives": "government-committee, Professor's Folder",
+"requires": "Professor's Folder",
+"changes": "The draft — true",
+"type": "bool",
+"per": "world",
+"start": "false"
 },
 "events/the-disclosure.md": {
 "name": "The Disclosure",
@@ -1578,22 +1580,13 @@
 "changes": "Contempt for the dead — the committee showed contempt for Janina's body"
 },
 "items/anchor.md": {
-"name": "Anchor and Hammer",
-"type": "Item — clamp and driving hammer for the crux",
-"source": "Borrowed from Michał Pytlak if he is cooperative, bonded, or talked round with a decent lie; otherwise packed from the The PGR Farm with the spare gear for the ridge climb.",
-"carried": "Lets the party fix the crux seam when the slab cannot be forced in the rain. It is the fixed anchor a climber can hang off and the hammer needed to set it."
+"name": "Anchor and Hammer"
 },
 "items/attic-key.md": {
-"name": "Attic Key",
-"type": "Item — key",
-"source": "Left by ks. Władysław Pająk in Janina's house (The priest leaves them the key).",
-"carried": "Opens the locked attic hatch in Janina's house without breaking it (Open the attic with the key)."
+"name": "Attic Key"
 },
 "items/barnas-departure-declaration.md": {
 "name": "Soldier's Departure Declaration",
-"type": "Item — property record (forged document)",
-"source": "The wall safe in the PGR Office — cracked open along with the sołtys's pistol",
-"carried": "Evidence. A voluntary surrender of house and land, signed by a man who was already dead when it was filed.",
 "requires": "Bureaucracy",
 "cost": "1 time",
 "outcome": "Held beside the letters, the signature doesn't match the man who wrote them — the letters flow, this is stiff and traced. Someone copied his hand.",
@@ -1601,34 +1594,23 @@
 },
 "items/barnas-letter.md": {
 "name": "Soldier's Unopened Letter",
-"type": "Item — letter (unopened, dated 1955)",
-"source": "The attic of Ciotka's House — Edward Barnaś's old house",
-"carried": "Evidence. Mail that reached a dead man a year after the village recorded him gone.",
 "requires": "Edward Barnaś's Unopened Letter",
 "outcome": "A few lines from an old comrade named Bronek, warm and uneasy, teasing Edward for turning farmer and sending a greeting to Rezeń. The envelope is postmarked 1955, a year after the village says the family left. The words never name a uniform, but a soldier's or clerk's eye reads the rank and unit markings on the sheet as KBW.",
 "gives": "barnas-letter-date-55, butcher-mentioned-in-the-letter, soldier-was-kbw"
 },
 "items/bayonet.md": {
 "name": "Bayonet",
-"type": "Item — weapon (keepsake, hidden)",
-"source": "Hidden among Edek's things, found by searching Edek's room",
-"carried": "Evidence. Wartime German army kit in Edek Barnaś's keeping, impossible from his father's Polish KBW gear.",
 "requires": "Bayonet",
 "cost": "1 time",
 "outcome": "Turned to the light, the flat of the blade shows a small mark scratched in by hand: a trident, three prongs rising from a base.",
 "gives": "trident-on-the-bayonet"
 },
 "items/buried-oilcloth-bundle.md": {
-"name": "Buried Oilcloth Bundle",
-"type": "Item — evidence",
-"source": "Dug up in the backyard of Ciotka's house.",
-"carried": "Evidence."
+"name": "Buried Oilcloth Bundle"
 },
 "items/census.md": {
 "name": "Committee Census Register",
-"type": "Item — census register (document)",
-"source": "Issued to the committee for the assignment on the drive in (The Car In); filled household by household through the Census interview action across the village.",
-"carried": "The running record of who lives in Testowo. Set against the PGR Worker Registry, it exposes a paid \"worker\" that no household contains.",
+"type": "list",
 "requires": "Committee Census Register AND PGR Worker Registry",
 "when": "household entries recorded in the census",
 "cost": "1 time",
@@ -1637,9 +1619,6 @@
 },
 "items/cigarette-butts-from-ciotkas.md": {
 "name": "Carmen Cigarette Butts",
-"type": "Item — evidence (physical trace)",
-"source": "The ground just outside Janina Gajda's door, collected during Ciotka Found Dead — The House",
-"carried": "Evidence. Places a Carmen smoker at her threshold, but the butts are weathered, left a day or more before she died.",
 "requires": "Carmen Cigarette Butts",
 "when": "the handful gathered at the well",
 "cost": "1 time",
@@ -1647,32 +1626,20 @@
 "gives": "door-and-well-butts-match"
 },
 "items/concrete-ditch-measurements.md": {
-"name": "Concrete Ditch Measurements",
-"type": "Item — tape measurements of the irrigation ditch's concrete head",
-"source": "Taken with a tape at the irrigation ditch.",
-"carried": "Input for the drainage tables: the The Geologist's Kit, prof. Tadeusz Bieńkowski by phone, or Bolesław Kurek."
+"name": "Concrete Ditch Measurements"
 },
 "items/ditch-construction-spec.md": {
 "name": "PGR Irrigation Ditch Construction Spec",
-"type": "Item — construction and drainage specification (document)",
-"source": "PGR Office shelf, via the \"Pull the ditch construction file\" action → PGR Office",
-"carried": "The paper the ditch was supposed to be built to. Concrete-lined the full run, with the capacity to carry the fields' runoff clear. It is what the real ditch is measured against: only the head matches it.",
 "requires": "PGR Irrigation Ditch Construction Spec",
 "cost": "1 time",
 "outcome": "The file specifies concrete lining the full run, head to low ground, accepted as built. The walked ditch is concrete only at the head and a shallow earth dugout the rest of the way. The paper and the ground do not match: the ditch was never built to the spec it was signed off against.",
 "gives": "ditch-not-built-to-spec"
 },
 "items/dugout-measurements.md": {
-"name": "Dugout Measurements",
-"type": "Item — tape measurements of the ditch's earth dugout",
-"source": "Taken with a tape at the irrigation ditch, where the concrete gives out.",
-"carried": "Paired with the Concrete Ditch Measurements, input for the drainage tables: the The Geologist's Kit, prof. Tadeusz Bieńkowski by phone, or Bolesław Kurek."
+"name": "Dugout Measurements"
 },
 "items/edek-box.md": {
 "name": "The \"EDEK\" Box",
-"type": "Item — keepsake (a dead man's belongings)",
-"source": "The attic pile during Ciotka Found Dead",
-"carried": "A dust-caked box of a grown man's things marked \"EDEK\", an old house key among them. Ambivalent: the belongings could be the boy's or the elder Barnaś's.",
 "requires": "The \"EDEK\" Box",
 "when": "a door of Ciotka's House",
 "cost": "1 time",
@@ -1680,148 +1647,88 @@
 "gives": "edek-box-key-fits-house"
 },
 "items/floorboard-tin.md": {
-"name": "Floorboard Tin",
-"type": "Item — evidence",
-"source": "Under a floorboard in Paraskewia's cabin.",
-"carried": "Evidence."
+"name": "Floorboard Tin"
 },
 "items/gap-fill-reading.md": {
-"name": "Gap Fill Reading",
-"type": "Item — field reading of the landslide fill",
-"source": "Taken up close at the toe of the plug at the ridge gap.",
-"carried": "Half of what settles the ridge gap; read with the Gap Sill Reading by a Geology holder, or phoned to prof. Tadeusz Bieńkowski."
+"name": "Gap Fill Reading"
 },
 "items/gap-sill-reading.md": {
-"name": "Gap Sill Reading",
-"type": "Item — field reading of the plug's crest sill",
-"source": "Read from the crest during Climb the Plug.",
-"carried": "Half of what settles the ridge gap; read with the Gap Fill Reading by a Geology holder, or phoned to prof. Tadeusz Bieńkowski."
+"name": "Gap Sill Reading"
 },
 "items/geologists-kit.md": {
 "name": "The Geologist's Kit",
-"type": "Item — field surveying kit and briefing dossier (with the previous crew's survey report)",
-"source": "Issued to the committee at the start, packed with the party's gear; prof. Tadeusz Bieńkowski flagged the report inside it as thin at the briefing",
-"carried": "Lets the party check terrain, read the state's paper, and rerun the flood projection once the outlets are known.",
 "requires": "The Geologist's Kit",
 "outcome": "Buried in the text, the crew note the river shifted its bed since the map was drawn, then wave it off as unimportant. The shift is real even if they dismissed it.",
 "gives": "river-doesnt-match-map",
 "cost": "1 time"
 },
 "items/girls-dress.md": {
-"name": "The Blue Dress",
-"type": "Item — keepsake (a blue dress)",
-"source": "The attic wardrobe during Ciotka Found Dead",
-"carried": "A folded blue dress. Kept in the house; can be shown to villagers."
+"name": "The Blue Dress"
 },
 "items/jar-of-pills.md": {
-"name": "Jar of Pills",
-"type": "Item — evidence",
-"source": "The kitchen table in Ciotka Found Dead — The Kitchen",
-"carried": "Evidence."
+"name": "Jar of Pills"
 },
 "items/journal-fragment.md": {
-"name": "Journal Fragment",
-"type": "Item — document",
-"source": "Dmytro Kosach's cache in the UPA bunker.",
-"carried": "A few pages in Ukrainian; reading them needs Language."
+"name": "Journal Fragment"
 },
 "items/kbw-military-knife.md": {
-"name": "KBW Military Knife",
-"type": "Item — weapon",
-"source": "Rezeń's house (Search the house).",
-"carried": "Evidence."
+"name": "KBW Military Knife"
 },
 "items/kbw-rifle.md": {
-"name": "KBW Rifle",
-"type": "Item — weapon",
-"source": "Rezeń's house (Search the house).",
-"carried": "Evidence."
+"name": "KBW Rifle"
 },
 "items/lemko-bell.md": {
-"name": "Lemko Bell",
-"type": "Item — evidence",
-"source": "Taken down from the attic in Ciotka's House",
-"carried": "Evidence. An Eastern-rite object out of place in a Roman Catholic home."
+"name": "Lemko Bell"
 },
 "items/makeshift-charge.md": {
-"name": "The Makeshift Charge",
-"type": "Item — old partisan demolition charge, rigged to breach the plug",
-"source": "Recovered from the UPA Bunker (Ziemianka) in Foreman Saves the Village — The Engineering Ending",
-"carried": "The one thing that can breach the plug. Heavy and touchy: it must be carried or hauled up the climb and seated in the crux seam (Climb the Plug in the Rain). A Wounded fall while carrying it sets it off."
+"name": "The Makeshift Charge"
 },
 "items/mazur-diary.md": {
 "name": "Tadeusz-Mazur's Diary",
-"type": "Item — a settler's private diary, kept from ~1948",
-"source": "Given by Wanda Mazur once the committee uncovers the pension cover-up and chooses to shield her",
-"carried": "Evidence. A contemporaneous settler's record of the valley, including the night the Barnaś family vanished.",
 "requires": "Tadeusz Mazur's Diary",
 "outcome": "Years of an original settler's plain, meticulous record, with a few entries that step back and chronicle the valley: arriving in 1948 to houses emptied of their Lemko people and some burned, Edward Barnaś holding the best land by the water while the village kept its distance from a man nobody had a good word for, Barnaś living unwed with his woman, the family gone overnight in 1954 with only the boy left and a neighbour who never believed the \"moved west\" story, the valley turned into a PGR in 1956 under Zbigniew Gajda, a Party man, and a last entry where the foreman, who always kept the silo to himself, hands Tadeusz the job because he is run off his feet.",
 "gives": "mazur-and-widow-are-old-settlers, old-village-was-lemko, old-village-resettled-during-vistula, old-village-was-burned, soldier-took-best-land, barnas-disliked, soldier-never-married, barnas-family-disappeared, barnas-family-left-edek-behind, mazur-doubted-the-departure, pgr-established-in-56, wojewoda-is-a-party-member, foreman-sent-mazur-in-his-place"
 },
 "items/pack-of-cigarettes.md": {
-"name": "Pack of Cigarettes",
-"type": "Item — consumable",
-"source": "Bought at the store.",
-"carried": "Evidence."
+"name": "Pack of Cigarettes"
 },
 "items/paraskewias-list.md": {
 "name": "Hag's List of the Dead",
-"type": "Item — a written roll of names (document / relic)",
-"source": "Hag's Cabin, or handed over by Paraskewia Chyłak herself if she trusts the players. Also spoken aloud by her, and by Stefania Kopacz, during Performing the Ritual.",
-"carried": "The names of the twelve Lemko villagers killed in 1947 and put in Hołubie — Homestead Ruins, plus Dmytro Kosach. The only record they ever existed. Supplies the names the Performing the Ritual needs spoken.",
 "reading-it-—-language-(cyrillic-/-ukrainian)-or-culture-(lemko)": "The letters resolve into names. Twelve, then a space, then a thirteenth set slightly apart — Dmytro Kosach, held separate from the rest. In Latin letters:",
 "requires": "Paraskewia's List of the Dead AND (Language OR Culture)",
 "outcome": "The players can now name the 1947 dead — the twelve villagers and Dmytro Kosach — the core of the Performing the Ritual. Without the skill, the names stay locked in the script until someone reads it for them.",
 "gives": "paraskewia-named-the-dead"
 },
 "items/penicillin.md": {
-"name": "Penicillin",
-"type": "Item — drug (glass ampoules)",
-"source": "The cabinet in The Store — obtained by Helena Rzepka (née Gajda), by Tadek Gajda, or by breaking in.",
-"carried": "Given to Pawełek at a child's dose, it cures the water fever. See Give Pawełek the penicillin."
+"name": "Penicillin"
 },
 "items/pgr-expenses.md": {
 "name": "PGR Expense Journal",
-"type": "Item — farm expense journal (document)",
-"source": "PGR Office desk, via the \"Inspect the farm books\" action → PGR Office",
-"carried": "Financial evidence. Three things hide in the mundane entries: the timing of a death at the grain silo, the only appearance of Marta Konieczna's full name, and the state money that built Barbara's brick house.",
 "requires": "PGR Expense Journal",
 "cost": "1 time",
 "outcome": "May 1965: a silo repair, then one week later the largest single expense in the journal — an emergency grain purchase because the silo's contents were \"lost.\" A broken silo, grain gone, the biggest bill in years — and not one medical or hospital cost anywhere near it.",
 "gives": "large-grain-purchase"
 },
 "items/pgr-inventory.md": {
-"name": "PGR Inventory",
-"type": "Item — blank farm stock-take form the committee fills out (document)",
-"source": "Issued to the committee for the movable-property accounting, filled on the ground at the The PGR Farm; prompted by committee-accounts-movable-state-property",
-"carried": "The committee's own working document. Completing it — physically counting the farm's movable socialist property — is the lawful task that puts outsiders legally among the PGR's stock. Blank until the players fill it."
+"name": "PGR Inventory"
 },
 "items/pgr-ledger.md": {
-"name": "PGR Worker Registry",
-"type": "Item — farm worker registry (document)",
-"source": "PGR Office desk, via the \"Inspect the PGR ledger\" action → PGR Office",
-"carried": "Payroll evidence. Lists a worker who is dead but still drawing wages."
+"name": "PGR Worker Registry"
 },
 "items/portrait.md": {
 "name": "The Portrait",
-"type": "Item — keepsake (an oil portrait)",
-"source": "A wrapped canvas hidden in the ruined cerkiew, found during Open the wrapped bundle",
-"carried": "An oil portrait of an unnamed young woman. Can be shown to villagers or matched against other evidence.",
 "requires": "The Blue Dress AND The Portrait",
 "outcome": "Set the portrait beside the blue dress taken from the wardrobe: the same cut, the same blue. The woman he painted wore it.",
 "gives": "blue-dress-matches-portrait"
 },
+"items/professors-folder.md": {
+"name": "Professor's Folder"
+},
 "items/propaganda-leaflet.md": {
-"name": "Propaganda Leaflet",
-"type": "Item — keepsake (state propaganda sheet)",
-"source": "Among the dead soldier's things in the The \"EDEK\" Box, and tucked among Rezeń's things in the Butcher's House",
-"carried": "Evidence. State propaganda, the kind issued to the men who fought the partisans."
+"name": "Propaganda Leaflet"
 },
 "items/ravine-remains.md": {
 "name": "Remains from the Ravine",
-"type": "Item — unidentified human remains",
-"source": "Exhumed at the Meadow by the Ravine (the cairn grave Ryszard Dudka built)",
-"carried": "Physical evidence that *someone* died in the forest. Deliberately inconclusive — proves a death, never an identity.",
 "requires": "Medicine AND Remains from the Ravine",
 "cost": "1 time",
 "outcome": "The pelvis and the surviving long bones read female. Whoever this was, she was a grown woman, not a child.",
@@ -1830,50 +1737,29 @@
 "changes": "Crisis of Faith — +1"
 },
 "items/rope.md": {
-"name": "Rope",
-"type": "Item — climbing and hauling line",
-"source": "Bought off the shelf at The Store, or scrounged and procured at the The PGR Farm; the party must have it for the ridge climb.",
-"carried": "Lets the party rig the killzone and haul the charge. Without it, the traverse is a naked fall and the climb cannot be secured."
+"name": "Rope"
 },
 "items/soltys-pistol.md": {
-"name": "Sołtys's Pistol",
-"type": "Item — weapon",
-"source": "The safe in Zbigniew Gajda's office (Crack the safe).",
-"carried": "A loaded firearm."
+"name": "Sołtys's Pistol"
 },
 "items/store-cabinet-key.md": {
-"name": "Store Cabinet Key",
-"type": "Item — key",
-"source": "Lifted from the ring on Helena Rzepka's apron at Helena Rzepka & Emil Rzepka's house.",
-"carried": "Opens the locked drug cabinet at the store without forcing it."
+"name": "Store Cabinet Key"
 },
 "items/streambed-parameters.md": {
-"name": "Streambed Parameters",
-"type": "Item — the two elevations that settle the streambed",
-"source": "Surveying the Streambed or Search for the Benchmarks.",
-"carried": "Input for reading the streambed: the The Geologist's Kit, prof. Tadeusz Bieńkowski by phone, or Michał Pytlak."
+"name": "Streambed Parameters"
 },
 "items/topographic-maps.md": {
-"name": "Topographic Maps",
-"type": "Item — maps",
-"source": "From Zbigniew Gajda's office: asked for or taken.",
-"carried": "The valley's terrain, marked for survey work, including Hołubie."
+"name": "Topographic Maps"
 },
 "items/water-hose-contraption.md": {
 "name": "Water Hose Contraption",
-"type": "Item — a length of irrigation hose",
-"source": "Coiled off the irrigation gear at the The PGR Farm, or bought at The Store",
-"carried": "Lets a non-surveyor rig a water level to measure the ridge plug (the Handiwork half of Climb the Plug) without working the kit's optical level.",
 "requires": "Water Hose Contraption",
 "cost": "2 time",
 "outcome": "Rig the hose as a water level and leapfrog it from the surveyors' flood mark to a chosen point around the valley, marking and summing each step, to read its height against the mark. No surveying skill needed. Pick the point: the lower village, the upper village, the southern rise, the old-village bowl, or the Jasielnik Basin floor.",
 "gives": "lower-village-level, upper-village-level, southern-rise-level, old-village-bowl-level, big-basin-floor-level"
 },
 "items/womans-undergarments.md": {
-"name": "Woman's Undergarments",
-"type": "Item — keepsake",
-"source": "Rezeń's house (Search the house).",
-"carried": "Evidence."
+"name": "Woman's Undergarments"
 },
 "cards/alcoholic.md": {
 "name": "Alcoholic",
