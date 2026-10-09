@@ -1,23 +1,23 @@
 # Far-Ridge Streambed
 
 **Type:** Location (discoverable, revisitable)
-**Location:** The far ridge across the valley from %NEW_VILLAGE%; a dry col that appears to spill toward the next valley.
+**Location:** The far ridge across the valley from [@name](new-village.md); a dry col that appears to spill toward the next valley.
 **Present:** none
 **Available:** Any day; reached by crossing the valley and climbing to the far ridge from the [@name](village-outskirts.md) survey routes.
 **Cost:** 1 action to reach; fieldwork costs vary by action.
 
 ## Hook
 
-- A dry streambed on the far ridge, across the valley from %NEW_VILLAGE%.
+- A dry streambed on the far ridge, across the valley from [@name](new-village.md).
 
 ## Setup
 
 - A dry streambed runs over the far ridge and appears to spill toward the next valley.
-- The streambed's col (its high point) sits above %NEW_VILLAGE% house level, so water tops the village before it ever reaches here. Nothing on the ground announces this; only elevation figures show it.
+- The streambed's col (its high point) sits above [@name](new-village.md) house level, so water tops the village before it ever reaches here. Nothing on the ground announces this; only elevation figures show it.
 - The map draws the streambed honestly but never marks the col's elevation.
-- The dam-survey crews left stamped geodetic benchmarks (repery) at the col and beside %NEW_VILLAGE%.
+- The dam-survey crews left stamped geodetic benchmarks (repery) at the col and beside [@name](new-village.md).
 - The markers are old and half-buried; finding them takes searching.
-- The col commands the whole valley: from here you look straight down on %NEW_VILLAGE%, across to the %OLD_VILLAGE% ruins, and over the ground the reservoir will drown. It is the natural place to watch the valley from, and men have.
+- The col commands the whole valley: from here you look straight down on [@name](new-village.md), across to the [@name](old-village.md) ruins, and over the ground the reservoir will drown. It is the natural place to watch the valley from, and men have.
 - Just below the col, under gorse and slid earth, a collapsed dugout with a firing slot faces the valley floor; rusted metal and a rotted timber lip still show. Partisans held this line in the war years.
 - Only if the party turned up the hut on the benchmark search: an abandoned shepherd's koliba stands hidden in the gorse higher on the slope, its low doorway still up, a weathered ram's skull fixed over the lintel and marks cut into the frame, facing out. Parties who have not found it do not see it and get no koliba description.
 - Getting the streambed's elevations plays out as one of two competing scenes: [@name](../events/surveying-the-streambed.md) or [@name](../events/search-for-the-benchmarks.md). Either yields the [@name](../items/streambed-parameters.md).

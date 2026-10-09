@@ -1,15 +1,15 @@
-# %BROTHER%
+# Kazimierz Wróbel
 
 **Type:** Named character — the heir with the deed (land-dispute red herring)
 
 ## Hook
 
-%BROTHER%, a lorry driver and deed-holder in a dispute over the border strip, lives in his late father's house.
+[@first-name](dispute-brother.md), a lorry driver and deed-holder in a dispute over the border strip, lives in his late father's house.
 
 ## Vital Statistics
 
-- **First name:** %BROTHER%
-- **Surname:** %DISPUTE_SURNAME%
+- **First name:** Kazimierz
+- **Surname:** Wróbel
 - **Status:** Resident
 - **Born:** ~1931
 - **Age in 1967:** 36
@@ -52,12 +52,12 @@ He speaks like a man who knows the rules are already on his side. His reasonable
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** He is cooperative, though often on the road. He gives his own details and his late father's house as his residence.
-- **Changes:** [Census](../items/census.md#census) — %BROTHER%, lorry driver, in his father's house
+- **Changes:** [Census](../items/census.md#census) — [@first-name](dispute-brother.md), lorry driver, in his father's house
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** He produces his father's deed to the house and disputed strip. He notes that [@name](dispute-sister.md) farms the strip, but the paper is his.
-- **Changes:** [Property Record](../items/census.md#property-record) — %BROTHER% holds the deed to the house and disputed strip; [The dispute](#the-dispute) — TBD
+- **Changes:** [Property Record](../items/census.md#property-record) — [@first-name](dispute-brother.md) holds the deed to the house and disputed strip; [The dispute](#the-dispute) — TBD
 
 ### Rule the boundary his way
 - **When:** The committee settles the disputed strip in the compensation assessment

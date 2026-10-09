@@ -74,7 +74,7 @@ The ritual path should feel **earned, not obvious.** Possible routes:
 ## Performing the Ritual
 
 ### The Setup
-- At the well, at %OLD_VILLAGE%
+- At the well, at [@name](../locations/old-village.md)
 - Night is best (traditional) but not required
 - Candles, incense, offerings arranged per Paraskewia Chyłak's diagram
 - At least one person must speak — the words, the names, the truth
@@ -84,7 +84,7 @@ The ritual path should feel **earned, not obvious.** Possible routes:
 The ritual is not a spell. There is no flash of light, no supernatural confirmation. The story never commits to whether it "works" in a metaphysical sense. But:
 
 - **The dreams ease.** Not immediately — but that night, for the first time since Paraskewia Chyłak's death, the players sleep. Not well. But they sleep.
-- **The atmosphere lifts.** The oppressive dread that's been crushing %NEW_VILLAGE% loosens. Not gone — but breathable.
+- **The atmosphere lifts.** The oppressive dread that's been crushing [@name](../locations/new-village.md) loosens. Not gone — but breathable.
 - **The rain doesn't stop.** This is not a fairy tale. The flood is still coming. The dead are still dead. The well still holds its bones. But something has shifted. The wound isn't healed — but for the first time in 20 years, someone other than Paraskewia Chyłak has acknowledged it.
 - **Stanisław Rezeń's dreams return.** The compulsion was satisfied by Paraskewia Chyłak's death. The ritual reopens the wound — properly this time. His calm breaks. He stops sleeping again. The well has new guardians, and they're undoing what he did.
 

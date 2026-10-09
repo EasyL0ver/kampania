@@ -4,7 +4,7 @@
 
 ## The Naturalistic Reading
 
-A small pack (5–7 wolves) ranges in the higher forest above [%OLD_VILLAGE%](../locations/old-village-ruins.md). The Bieszczady has always had wolves — but 20 years of depopulated Lemko villages removed the human presence that kept them at bay. The [PGR farm](../locations/pgr-farm.md)'s livestock is the closest easy prey for miles.
+A small pack (5–7 wolves) ranges in the higher forest above [@name](../locations/old-village-ruins.md). The Bieszczady has always had wolves — but 20 years of depopulated Lemko villages removed the human presence that kept them at bay. The [PGR farm](../locations/pgr-farm.md)'s livestock is the closest easy prey for miles.
 
 The 1967 rain season is the trigger. Exceptionally heavy rains flood the wolves' usual hunting grounds at higher elevation. Prey scatters. The pack moves downhill — toward the farm and its sheep.
 
@@ -80,7 +80,7 @@ Playable scenes: [The Wolf Attack](../events/wolf-attack.md) (the trigger), then
 
 **[Edek Barnaś](../characters/glupek.md):**Not afraid of the wolves. [Stanisław Rezeń](../characters/butcher.md)'s dogs terrify him — but when the howling starts, he goes still. Stands at the window and listens. Not distressed — calm. The contrast with his usual agitation is striking. Players can read it any way they want.
 
-**[Paraskewia Chyłak](../characters/hag.md):** She's lived in their territory for 20 years. The pack knows her — she's part of the landscape. She's never been attacked. The village has seen her fires and heard her chanting at [%OLD_VILLAGE%](../locations/old-village-ruins.md) — rites for the dead, appeasing the unquiet. Nothing to do with wolves. But the village connects the dots: rituals + wolves that avoid her = *"She's summoning them."* This projection arms existing hostility and feeds the pressure that leads to [The Well Confrontation](../events/well-confrontation.md). → [hag-blamed-for-wolves](../clues/clues.md#hag-blamed-for-wolves)
+**[Paraskewia Chyłak](../characters/hag.md):** She's lived in their territory for 20 years. The pack knows her — she's part of the landscape. She's never been attacked. The village has seen her fires and heard her chanting at [@name](../locations/old-village-ruins.md) — rites for the dead, appeasing the unquiet. Nothing to do with wolves. But the village connects the dots: rituals + wolves that avoid her = *"She's summoning them."* This projection arms existing hostility and feeds the pressure that leads to [The Well Confrontation](../events/well-confrontation.md). → [hag-blamed-for-wolves](../clues/clues.md#hag-blamed-for-wolves)
 
 ## Connections to Existing Threads
 
@@ -99,7 +99,7 @@ Tadek sees Rezeń at the PGR and something specific cracks. The man he's been ma
 Domesticated predators vs. wild ones. The dogs obey [Zbigniew Gajda](../characters/wojewoda.md)'s containment — just like [Stanisław Rezeń](../characters/butcher.md). The wolves answer to nobody. The parallel is thematic, not magical: tamed violence vs. wild violence.
 
 ### "The witch sent the wolves"
-The village needs someone to blame. [Paraskewia Chyłak](../characters/hag.md) lives in the forest, the wolves don't touch her, and villagers have seen her fires and heard her chanting at [%OLD_VILLAGE%](../locations/old-village-ruins.md). She's performing rites for the dead — appeasing the unquiet, nothing to do with wolves. But the village connects the dots: rituals + wolves that avoid her = *"She's summoning them."* The projection arms existing hostility with a concrete grievance: she's not just creepy, she's **attacking them**. This feeds anti-hag pressure, and when [Rezeń kills her](../events/well-confrontation.md), nobody mourns. *"Good riddance."* Same silence as 1954.
+The village needs someone to blame. [Paraskewia Chyłak](../characters/hag.md) lives in the forest, the wolves don't touch her, and villagers have seen her fires and heard her chanting at [@name](../locations/old-village-ruins.md). She's performing rites for the dead — appeasing the unquiet, nothing to do with wolves. But the village connects the dots: rituals + wolves that avoid her = *"She's summoning them."* The projection arms existing hostility with a concrete grievance: she's not just creepy, she's **attacking them**. This feeds anti-hag pressure, and when [Rezeń kills her](../events/well-confrontation.md), nobody mourns. *"Good riddance."* Same silence as 1954.
 
 ### Dudka's surveillance
 The wolf authorization puts Rezeń loose in the village — and intensifies Dudka's 13-year habit of watching him. Dudka sees Rezeń leave at night, notes the direction, but **won't follow past the tree line on his own.** Two things break the pattern: players tell him about Rezeń's nighttime well visits (info they don't understand but Dudka does), or players find the well and bring Dudka along for backup. See [The Well Confrontation — Prevention](../events/well-confrontation.md).

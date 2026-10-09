@@ -14,7 +14,7 @@
 - **Born:** ~1953
 - **Age in 1967:** ~13-15
 - **Lives in:** [@name](../../locations/matronas-house.md) — with her parents and brother
-- **Settled:** Born in %NEW_VILLAGE%
+- **Settled:** Born in [@name](../../locations/new-village.md)
 
 ## Character
 

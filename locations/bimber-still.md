@@ -1,14 +1,14 @@
 # Bimber Still
 
 **Type:** Location (hidden, discoverable)
-**Location:** Forest clearing between %NEW_VILLAGE% and %OLD_VILLAGE%, near a stream
+**Location:** Forest clearing between [@name](new-village.md) and [@name](old-village.md), near a stream
 **Present:** [@name](../characters/wujas.md), [@name](../characters/secondary/szymek-kepa.md), [@name](../characters/secondary/romek-glowacz.md), [@name](../characters/secondary/franek-mucha.md) (irregular evenings)
 **Available:** Requires forest exploration or following [@nickname](../characters/wujas.md)'s crew from [Village Outskirts](village-outskirts.md#follow-the-drinking-crew)
 **Cost:** 1 action per visit
 
 ## Hook
 
-- A forest clearing by a stream between %NEW_VILLAGE% and %OLD_VILLAGE%.
+- A forest clearing by a stream between [@name](new-village.md) and [@name](old-village.md).
 
 ## Setup
 
@@ -18,7 +18,7 @@
 - **Use:** Warm ashes show recent use.
 - **Use:** Fermentation smell is strong.
 - **Use:** Cheap Sport cigarette butts are ground into the mud all around the fire and the still.
-- **Path:** A packed footpath leads in from %NEW_VILLAGE%.
+- **Path:** A packed footpath leads in from [@name](new-village.md).
 - **Scale:** The number of barrels and bottles exceeds personal drinking.
 - **If crew present:** The men sit around the fire with bottles and cards.
 - **If crew present:** The crew hears visitors before seeing them.

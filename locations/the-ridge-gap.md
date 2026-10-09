@@ -1,7 +1,7 @@
 # The Ridge Gap
 
 **Type:** Location (revisitable, discoverable)
-**Location:** The notch in the ridge between the %NEW_VILLAGE% valley and the empty %BIG-BASIN% beyond it.
+**Location:** The notch in the ridge between the [@name](new-village.md) valley and the empty [@name](big-basin.md) beyond it.
 **Present:** [@name](../characters/foreman.md) (if brought on the survey)
 **Available:** After reaching the gap from the survey routes ([@name](village-outskirts.md))
 **Cost:** 1 action per interaction; climbing the plug is its own scene (see [@name](../events/climb-the-plug.md))
@@ -12,19 +12,19 @@
 
 ## Setup
 
-- The gap is the low notch where the ridge dips between the %NEW_VILLAGE% valley and %BIG-BASIN%.
+- The gap is the low notch where the ridge dips between the [@name](new-village.md) valley and [@name](big-basin.md).
 - The state map draws it as an open channel, the valley's main drain.
 - An old landslide has choked the notch with fallen rock and earth.
 - From the base the fill looks like loose rubble floodwater would seep straight through.
 - The plug is a steep bank about two storeys high. Climbing it is its own scene: [@name](../events/climb-the-plug.md) on the survey, and [@name](../events/climb-the-plug-in-the-rain.md) for the finale charge.
-- The fill can be sampled at the toe, but that only settles whether it seeps. What decides the outlet is read only at the crest: the height of the plug's lowest saddle (the sill the rising water must top to spill into %BIG-BASIN%) and whether the slid mass beds against the intact ridge or leaves a channel. Both are invisible from below.
-- The top of the plug overlooks the empty %BIG-BASIN%, the ground the map says the valley's water should drain into.
-- Nothing but this fill stands between the valley and %BIG-BASIN%.
+- The fill can be sampled at the toe, but that only settles whether it seeps. What decides the outlet is read only at the crest: the height of the plug's lowest saddle (the sill the rising water must top to spill into [@name](big-basin.md)) and whether the slid mass beds against the intact ridge or leaves a channel. Both are invisible from below.
+- The top of the plug overlooks the empty [@name](big-basin.md), the ground the map says the valley's water should drain into.
+- Nothing but this fill stands between the valley and [@name](big-basin.md).
 
 ## Opportunities
 
 - **The fill looks loose** `(noticed by: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap))` — At the foot of the plug the fill looks like loose, open rubble the water would run straight through, so the gap might yet drain by seeping through it. → Gives: [gap-may-seep](../clues/clues.md#gap-may-seep)
-- **Water would have to top the saddle** `(noticed by: [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain))` — For the gap to drain, rising water must clear the plug's lowest saddle and spill into %BIG-BASIN%; whether that saddle sits below the flood line is the open question. → Gives: [water-may-flow-over](../clues/clues.md#water-may-flow-over)
+- **Water would have to top the saddle** `(noticed by: [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain))` — For the gap to drain, rising water must clear the plug's lowest saddle and spill into [@name](big-basin.md); whether that saddle sits below the flood line is the open question. → Gives: [water-may-flow-over](../clues/clues.md#water-may-flow-over)
 - **The gap won't drain** `(noticed by: [@name](../items/gap-fill-reading.md) AND [@name](../items/gap-sill-reading.md) AND [Geology](../cards/geology.md))` — Put the two readings together: the fill will not seep and the sill will not overtop, so water can leave the valley neither through the plug nor over it. The outlet is dead. → Gives: [gap-is-blocked](../clues/clues.md#gap-is-blocked)
 
 ## Actions

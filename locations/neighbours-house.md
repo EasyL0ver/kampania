@@ -38,7 +38,7 @@ The house beside [@first-name](../characters/barbara.md)'s, across from Ciotka's
 ### Push him about the past
 - **When:** Alcohol, trust, or direct pressure
 - **Cost:** 1 time
-- **Outcome:** [@first-name](../characters/neighbour.md) gives fragments about sounds, movement toward %OLD_VILLAGE%, the next morning's silence, and a warning about the well.
+- **Outcome:** [@first-name](../characters/neighbour.md) gives fragments about sounds, movement toward [@name](old-village.md), the next morning's silence, and a warning about the well.
 - **Gives:** [neighbour-heard-the-lynch](../clues/clues.md#neighbour-heard-the-lynch)
 
 ### Drink with him

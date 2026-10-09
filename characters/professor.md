@@ -19,7 +19,7 @@
 
 ## Character
 
-Hydrologist connected to the Solina Dam project. He discovered the flood projections may be wrong and %NEW_VILLAGE% could be in the flood zone. If the players reach him by phone with evidence, the truth survives outside the valley.
+Hydrologist connected to the Solina Dam project. He discovered the flood projections may be wrong and [@name](../locations/new-village.md) could be in the flood zone. If the players reach him by phone with evidence, the truth survives outside the valley.
 
 ## Appearance
 
@@ -41,7 +41,7 @@ He speaks rapidly and precisely, in the clipped cadence of a lecturer who assume
 - **Requires:** [@name](../items/gap-fill-reading.md) AND [@name](../items/gap-sill-reading.md)
 - **When:** A phone
 - **Cost:** 1 time
-- **Outcome:** The party describes the sill height at the crest and the packed clay and shattered rock behind it. He judges the water can neither top the plug nor seep through it into %BIG-BASIN%, and documents the ridge gap as a dead outlet.
+- **Outcome:** The party describes the sill height at the crest and the packed clay and shattered rock behind it. He judges the water can neither top the plug nor seep through it into [@name](../locations/big-basin.md), and documents the ridge gap as a dead outlet.
 - **Gives:** [gap-is-blocked](../clues/clues.md#gap-is-blocked)
 
 ### Certify the streambed

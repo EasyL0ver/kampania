@@ -4,13 +4,13 @@
 
 ## The Physical Reality
 
-The old well in %OLD_VILLAGE% holds two layers of dead:
+The old well in [@name](../locations/old-village.md) holds two layers of dead:
 
 1. **Lemko massacre remains (1947)** — the villagers killed by soldiers during Akcja Wisła.
 2. **Edward Barnaś (1954)** — dumped after the lynch by Tadek Gajda, Zbigniew Gajda, and Stanisław Rezeń.
 3. **Marta Konieczna (1954)** — Edek's mother, killed in the house the same night; Stanisław Rezeń carried her to the well. Two 1954 bodies lie here; Hania Barnaś fled and vanished (fate unknown).
 
-For 13 years, the well has kept its secrets. Deep, dark, sealed by time and neglect. The village avoids %OLD_VILLAGE%. Nobody looks down.
+For 13 years, the well has kept its secrets. Deep, dark, sealed by time and neglect. The village avoids [@name](../locations/old-village.md). Nobody looks down.
 
 ## The Rain Changes Everything
 
@@ -33,14 +33,14 @@ The well is **guilt made physical**. The village buried its sins — literally t
 
 ### The Players' Dreams
 
-From the first night the committee spends in %NEW_VILLAGE%, the dreams begin. They get worse as the investigation progresses and the rain intensifies:
+From the first night the committee spends in [@name](../locations/new-village.md), the dreams begin. They get worse as the investigation progresses and the rain intensifies:
 
 - **Night 1:** The sound of water dripping in darkness. A sense of depth. The feeling of standing at the edge of something bottomless. Players wake with wet hands — or think they do.
 - **Night 2:** Voices from underwater. Not words — just the rhythm of speech, muffled, in a language they don't know. A woman singing. A child crying. The smell of wet stone.
 - **Night 3:** Clearer now. Hands reaching up through dark water. Faces just below the surface — not decomposed, not skeletal, but *waiting*. Eyes open. The dreamer is standing at the well's edge, and the water is rising toward their feet.
-- **Night 4-5:** The well isn't in %OLD_VILLAGE% anymore. It's in the floor of their room. Under their bed. In the centre of %NEW_VILLAGE%. Wherever they go, the well is already there, and the water is already rising. The dead are patient. They've been waiting for 20 years. They can wait a little longer.
+- **Night 4-5:** The well isn't in [@name](../locations/old-village.md) anymore. It's in the floor of their room. Under their bed. In the centre of [@name](../locations/new-village.md). Wherever they go, the well is already there, and the water is already rising. The dead are patient. They've been waiting for 20 years. They can wait a little longer.
 
-**The dreams don't provide clues.** They don't reveal who did it or what happened. They're not visions — they're *pressure*. The well wants to be found. The dead want to be seen. The dreams are the village's buried guilt leaking into the minds of the only people in %NEW_VILLAGE% who might actually do something about it.
+**The dreams don't provide clues.** They don't reveal who did it or what happened. They're not visions — they're *pressure*. The well wants to be found. The dead want to be seen. The dreams are the village's buried guilt leaking into the minds of the only people in [@name](../locations/new-village.md) who might actually do something about it.
 
 **GM guidance:** The dreams should feel like weather — atmospheric, oppressive, escalating. Never explain them. Never confirm they're supernatural. Let the players decide whether it's stress, bad water, guilt by proximity, or something in that well that knows they're here.
 
@@ -50,7 +50,7 @@ From the first night the committee spends in %NEW_VILLAGE%, the dreams begin. Th
 
 - He sleeps badly. The dogs outside his house whine at night — they hear him thrashing, talking in his sleep.
 - His visits to the well aren't curiosity. They're **compulsion**. He goes because the dreams pull him there. He clears debris from the well because in the dreams, the well is always blocked and the dead can't get out.
-- He's been seen walking toward %OLD_VILLAGE% at night, half-dressed, barefoot — and returning before dawn with no memory of going. Or claiming no memory.
+- He's been seen walking toward [@name](../locations/old-village.md) at night, half-dressed, barefoot — and returning before dawn with no memory of going. Or claiming no memory.
 
 **For the players:** If they learn about Stanisław Rezeń's sleep patterns, his compulsive visits, his nighttime walks — and then they start having the same dreams — the connection is chilling. The well got to him first. It's been calling him for 13 years. Now it's calling them.
 
@@ -71,7 +71,7 @@ Everyone who knows about the lynch has been watching the rain. They know what's 
 
 ## The Invisible War — Compulsion vs. Acknowledgement
 
-Two people haunt %OLD_VILLAGE% on different nights, locked in a push-pull over the well neither fully understands. Read psychoanalytically, they are the two responses to unprocessed trauma:
+Two people haunt [@name](../locations/old-village.md) on different nights, locked in a push-pull over the well neither fully understands. Read psychoanalytically, they are the two responses to unprocessed trauma:
 
 - **Stanisław Rezeń is the repetition compulsion.** The well holds death, and he is compelled to return — to circle, to clear, to keep the wound open. If there were another body, he'd put it in the well. Not because it's practical — because that's what the well is *for*. Unacknowledged trauma doesn't resolve. It repeats. He is the illness.
 - **Paraskewia Chyłak is the therapeutic response.** She acknowledges what happened. She names the dead. She speaks to them, tells them they are seen, remembered, loved — and then tells them to rest. She doesn't fight the rage with force. She fights it with recognition. She is the treatment.

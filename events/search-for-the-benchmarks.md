@@ -14,7 +14,7 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 
 ## Setup
 
-- The Solina dam crews set stamped geodetic benchmarks (repery) at the streambed col and beside %NEW_VILLAGE% years ago.
+- The Solina dam crews set stamped geodetic benchmarks (repery) at the streambed col and beside [@name](../locations/new-village.md) years ago.
 - The markers are old, weathered, and half-buried in undergrowth and slid earth; there is no map to their exact spots.
 - There are two to find: one at the streambed col, one at the village edge. Both elevations are needed, so both markers must be turned up.
 - Quartering the whole slope for markers means crossing ground nobody has walked in years; there is more than benchmarks half-swallowed in the gorse up here.
@@ -49,7 +49,7 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 - **When:** the village-edge marker is not yet found
 - **Prompted by:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
 - **Cost:** 1 time
-- **Outcome:** You comb the ground at the edge of %NEW_VILLAGE%. Until the hidden count is reached: fence posts, field stones, nothing stamped. On the search that reaches it, the stamped benchmark turns up half-buried by a field wall.
+- **Outcome:** You comb the ground at the edge of [@name](../locations/new-village.md). Until the hidden count is reached: fence posts, field stones, nothing stamped. On the search that reaches it, the stamped benchmark turns up half-buried by a field wall.
 - **Changes:** [Hidden count](#hidden-count) — +1 point at the village edge
 
 ### Copy the elevations

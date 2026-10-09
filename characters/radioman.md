@@ -1,4 +1,4 @@
-# %RADIOMAN%
+# Bolesław Kurek
 
 **Type:** Named character — the village drunk / anti-establishment loudmouth
 
@@ -8,8 +8,8 @@ The village drunk who was once its schoolteacher, loud against the authorities t
 
 ## Vital Statistics
 
-- **First name:** %RADIOMAN%
-- **Surname:** %RADIOMAN_SURNAME%
+- **First name:** Bolesław
+- **Surname:** Kurek
 - **Status:** Resident
 - **Born:** 1919
 - **Age in 1967:** 48
@@ -107,7 +107,7 @@ He knows the official history, that the old village was Lemko and was cleared in
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** The census sets him off, but he gives name and age inside a tirade about the teaching post they took and the years they gave him for "agitation."
-- **Changes:** [Census](../items/census.md#census) — %RADIOMAN%, former schoolteacher
+- **Changes:** [Census](../items/census.md#census) — [@first-name](radioman.md), former schoolteacher
 
 ### Property assessment
 - **Cost:** 1 time

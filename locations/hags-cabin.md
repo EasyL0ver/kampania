@@ -8,7 +8,7 @@
 
 ## Hook
 
-- A cabin in the deep forest, off an overgrown path from %OLD_VILLAGE%.
+- A cabin in the deep forest, off an overgrown path from [@name](old-village.md).
 
 ## Setup
 

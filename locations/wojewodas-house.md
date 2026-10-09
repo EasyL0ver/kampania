@@ -1,18 +1,18 @@
 # Wojewoda's House
 
 **Type:** Location (revisitable)
-**Location:** [@name](../characters/wojewoda.md)'s family home — largest house in %NEW_VILLAGE%.
+**Location:** [@name](../characters/wojewoda.md)'s family home — largest house in [@name](new-village.md).
 **Present:** [@name](../characters/wife.md) (usually), [@name](../characters/junior.md) (variable), [@name](../characters/wujas.md) (sometimes)
 **Available:** Any time
 **Cost:** 1 action per visit
 
 ## Hook
 
-[@name](../characters/wojewoda.md)'s family home, the largest house in %NEW_VILLAGE%.
+[@name](../characters/wojewoda.md)'s family home, the largest house in [@name](new-village.md).
 
 ## Setup
 
-- The house is the largest in %NEW_VILLAGE%.
+- The house is the largest in [@name](new-village.md).
 - The construction is solid by village standards.
 - The house has a proper kitchen and a main room used for dining.
 - Family photos hang on the wall.

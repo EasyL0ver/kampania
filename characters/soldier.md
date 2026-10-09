@@ -4,7 +4,7 @@
 
 ## Hook
 
-- [@first-name](soldier.md) [@surname](soldier.md), an early settler of %NEW_VILLAGE%, gone since 1954.
+- [@first-name](soldier.md) [@surname](soldier.md), an early settler of [@name](../locations/new-village.md), gone since 1954.
 
 ## Vital Statistics
 

@@ -1,14 +1,14 @@
 # Butcher's House
 
 **Type:** Location (revisitable)
-**Location:** Edge of %NEW_VILLAGE%, closest to the forest path toward [@name](old-village-ruins.md)
+**Location:** Edge of [@name](new-village.md), closest to the forest path toward [@name](old-village-ruins.md)
 **Present:** [@name](../characters/butcher.md) (often gone), 3 dogs
 **Available:** Any time
 **Cost:** 1 action per visit
 
 ## Hook
 
-The edge of %NEW_VILLAGE%, nearest the forest path toward %OLD_VILLAGE%.
+The edge of [@name](new-village.md), nearest the forest path toward [@name](old-village.md).
 
 ## Setup
 

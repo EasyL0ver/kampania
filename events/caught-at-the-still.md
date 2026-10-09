@@ -83,7 +83,7 @@
 
 ## Exits
 
-- Back into the forest toward %NEW_VILLAGE%.
+- Back into the forest toward [@name](../locations/new-village.md).
 - To [@name](../locations/the-store.md) drinking circle if the committee became buddies.
 
 ## If Missed

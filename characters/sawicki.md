@@ -18,7 +18,7 @@
 
 ## Character
 
-The nearest medical authority outside %NEW_VILLAGE%. He can give diagnosis guidance by telephone if the line works, but he cannot physically reach the village.
+The nearest medical authority outside [@name](../locations/new-village.md). He can give diagnosis guidance by telephone if the line works, but he cannot physically reach the village.
 
 ## Appearance
 

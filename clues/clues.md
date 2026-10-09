@@ -99,7 +99,7 @@ A KBW officer — [@name](../characters/kbw-officer.md) — commanded the unit a
 [@name](../characters/butcher.md) was one of the soldiers present during the 1947 massacre. He participated in the killings.
 
 ### soldier-took-best-land
-[@name](../characters/soldier.md) settled in %NEW_VILLAGE% early because he knew the terrain from service. He claimed the best plot of land — profiting from the destruction.
+[@name](../characters/soldier.md) settled in [@name](../locations/new-village.md) early because he knew the terrain from service. He claimed the best plot of land — profiting from the destruction.
 
 ### old-village-was-burned
 [@name](../locations/old-village-ruins.md) was burned after the massacre. Wooden buildings destroyed, but stone survived — the cerkiew, foundations, the well.
@@ -125,7 +125,7 @@ The flood zone was chosen partly to bury the massacre evidence. [@name](../chara
 ## The 1954 Lynch
 
 ### barnas-family-disappeared
-[@name](../characters/soldier.md)'s entire family — him, his partner, and teenage [@name](../characters/jagna.md) — vanished from %NEW_VILLAGE% overnight in 1954. No goodbyes, no forwarding address. Nobody asked questions. Only [@name](../characters/glupek.md) remained.
+[@name](../characters/soldier.md)'s entire family — him, his partner, and teenage [@name](../characters/jagna.md) — vanished from [@name](../locations/new-village.md) overnight in 1954. No goodbyes, no forwarding address. Nobody asked questions. Only [@name](../characters/glupek.md) remained.
 
 ### barnas-family-left-edek-behind
 When the Barnaś family vanished, they left [@name](../characters/glupek.md) behind. The small boy stayed in the village and was taken in by [@name](../characters/ciotka.md) next door.
@@ -262,7 +262,7 @@ Bone density and joint wear put the woman in the remains at around thirty years 
 The document that recorded the Barnaś family's "departure" and handed their house and land to the [@name](../locations/pgr-farm.md) is a forgery. It carries [@name](../characters/soldier.md)'s signature — but [@first-name](../characters/soldier.md) was already dead when it was filed, weeks after the 1954 lynch. Someone forged his hand to make the family's disappearance read as a voluntary move west. The paper is what let the "they moved away" story stand.
 
 ### pgr-established-in-56
-The PGR state farm in %NEW_VILLAGE% was not established until 1956, two years after the Barnaś family supposedly departed.
+The PGR state farm in [@name](../locations/new-village.md) was not established until 1956, two years after the Barnaś family supposedly departed.
 
 ### departure-declaration-dated-56
 [@name](../characters/soldier.md)'s departure declaration surrendering the house and land to the PGR is dated 1956, two years after the family was recorded as having left the village.
@@ -277,7 +277,7 @@ The unopened 1955 letter to [@name](../characters/soldier.md) passes greetings t
 [@name](../characters/soldier.md) and his partner never married — they lived together. She kept her own surname. This is why no "Barnaś" wife appears in any village records.
 
 ### barnas-disliked
-[@name](../characters/soldier.md) was widely disliked in %NEW_VILLAGE%. People kept their distance and nobody had a good word for him.
+[@name](../characters/soldier.md) was widely disliked in [@name](../locations/new-village.md). People kept their distance and nobody had a good word for him.
 
 ### glupek-strangled
 The night of the lynch, four-year-old [@name](../characters/glupek.md) wouldn't stop crying, and it annoyed [@name](../characters/butcher.md). He took a pillow, pressed it over the boy's face to shut him up, and held it there — deliberate, unhurried. [@name](../characters/ciotka.md) tore it away. It left permanent brain damage — not congenital.
@@ -553,7 +553,7 @@ The blue dress kept in [@name](../characters/ciotka.md)'s house belonged to the 
 A small child's rattle is kept in [@name](../characters/ciotka.md)'s house. A baby lived here once.
 
 ### lemko-bell-from-the-cerkiew
-The brass bell from [@first-name](../characters/ciotka.md)'s attic is the missing fitting of the %OLD_VILLAGE% cerkiew.
+The brass bell from [@first-name](../characters/ciotka.md)'s attic is the missing fitting of the [@name](../locations/old-village.md) cerkiew.
 
 ### lemko-bell-in-ciotkas-house
 A small brass Greek Catholic liturgical bell with Cyrillic lettering is hidden in [@name](../characters/ciotka.md)'s house. An Eastern-rite object, out of place in a Roman Catholic home.
@@ -653,25 +653,25 @@ When drunk enough, [@name](../characters/wujas.md)'s fragments turn to longing. 
 ## The Flood & The Committee
 
 ### new-village-will-flood
-%NEW_VILLAGE% will flood. When the reservoir rises, the valley has no outlet below house level. The ridge water-gap, the PGR irrigation ditch, and the old far-ridge streambed all fail to carry the water off, so it backs up onto the houses. This is proof, not speculation.
+[@name](../locations/new-village.md) will flood. When the reservoir rises, the valley has no outlet below house level. The ridge water-gap, the PGR irrigation ditch, and the old far-ridge streambed all fail to carry the water off, so it backs up onto the houses. This is proof, not speculation.
 
 ### new-village-will-not-flood
-%NEW_VILLAGE% is safe. The PGR irrigation ditch carries the flood clear of the valley, so the water drains away and never reaches the houses. One working outlet is all the valley needs, and here is one. This is the reassuring answer, and it is false: it rests entirely on the ditch's concrete head, which calculates as ample only because no one measured the earth dugout that runs the rest of its length. The gap and the streambed are never even tested. It contradicts new-village-will-flood.
+[@name](../locations/new-village.md) is safe. The PGR irrigation ditch carries the flood clear of the valley, so the water drains away and never reaches the houses. One working outlet is all the valley needs, and here is one. This is the reassuring answer, and it is false: it rests entirely on the ditch's concrete head, which calculates as ample only because no one measured the earth dugout that runs the rest of its length. The gap and the streambed are never even tested. It contradicts new-village-will-flood.
 
 ### gap-is-candidate-drain
-The ridge water-gap, the notch the map shows draining into the empty %BIG-BASIN%, is one of the candidate outlets floodwater could leave the %NEW_VILLAGE% valley through.
+The ridge water-gap, the notch the map shows draining into the empty [@name](../locations/big-basin.md), is one of the candidate outlets floodwater could leave the [@name](../locations/new-village.md) valley through.
 
 ### ditch-is-candidate-drain
-The PGR irrigation ditch is one of the candidate outlets floodwater could leave the %NEW_VILLAGE% valley through.
+The PGR irrigation ditch is one of the candidate outlets floodwater could leave the [@name](../locations/new-village.md) valley through.
 
 ### streambed-is-candidate-drain
-The old far-ridge streambed is one of the candidate outlets floodwater could leave the %NEW_VILLAGE% valley through.
+The old far-ridge streambed is one of the candidate outlets floodwater could leave the [@name](../locations/new-village.md) valley through.
 
 ### the-flood-line-potentially-miscalculated
-[@title](../characters/professor.md) [@surname](../characters/professor.md) suspects the official flood line for the %NEW_VILLAGE% valley may be miscalculated. The projected safe level rests on two assumptions: that the ground stands where the map records it, and that the valley drains through its outlets as the survey assumes. If the mapped heights are wrong, or the outlets do not carry the water off, the safe level is wrong and the new village may not sit above it after all. Both assumptions have to be checked on the ground.
+[@title](../characters/professor.md) [@surname](../characters/professor.md) suspects the official flood line for the [@name](../locations/new-village.md) valley may be miscalculated. The projected safe level rests on two assumptions: that the ground stands where the map records it, and that the valley drains through its outlets as the survey assumes. If the mapped heights are wrong, or the outlets do not carry the water off, the safe level is wrong and the new village may not sit above it after all. Both assumptions have to be checked on the ground.
 
 ### gap-is-blocked
-A ridge separates the %NEW_VILLAGE% valley from the empty %BIG-BASIN% beyond it. The state map shows a water-gap through that ridge as an open drain into %BIG-BASIN%, the outlet the whole safety calculation rests on. An old landslide has plugged it: the crest of the plug stands above the flood line, and the fill is impermeable, so rising water can neither crest the plug nor seep through it into %BIG-BASIN%. It is one of the three outlets the valley needs, and it is sealed.
+A ridge separates the [@name](../locations/new-village.md) valley from the empty [@name](../locations/big-basin.md) beyond it. The state map shows a water-gap through that ridge as an open drain into [@name](../locations/big-basin.md), the outlet the whole safety calculation rests on. An old landslide has plugged it: the crest of the plug stands above the flood line, and the fill is impermeable, so rising water can neither crest the plug nor seep through it into [@name](../locations/big-basin.md). It is one of the three outlets the valley needs, and it is sealed.
 
 ### ditch-drains-nothing
 The PGR irrigation ditch cannot carry the floodwater off. At flood volume it backs up and overflows; it is far too small to drain the valley.
@@ -686,7 +686,7 @@ The irrigation ditch matches its concrete-lined specification only for its first
 The irrigation ditch is concrete-lined only near the head. A short way down the concrete ends and the channel becomes a plain earth dugout. Whether that is a fault, a shortfall against spec, or simply how it was meant to be built is not clear from walking it.
 
 ### streambed-dead-ends
-The old streambed on the far ridge is not an outlet. Its col sits above house level, so the rising water tops %NEW_VILLAGE% before it ever reaches that streambed.
+The old streambed on the far ridge is not an outlet. Its col sits above house level, so the rising water tops [@name](../locations/new-village.md) before it ever reaches that streambed.
 
 ### dam-builders-surveyed-streambed
 The Solina dam-survey crews already worked the far-ridge streambed years ago and set geodetic benchmarks (reper) at the col and by the village. The markers are out there in the field, though their recorded elevations never made it into the kit's papers.
@@ -701,7 +701,7 @@ A landslide sits in the ridge water-gap, filling the notch with fallen rock and 
 From the foot of the plug the landslide fill looks like loose, open rubble, the kind of stone floodwater would run straight through. On that first look the gap might still drain by seeping through the fill. Whether it truly does is unsettled until the fill is examined up close.
 
 ### water-may-flow-over
-For the ridge gap to drain the valley, rising water would have to reach the plug's lowest saddle and spill over it into %BIG-BASIN%. If that saddle sits below the %NEW_VILLAGE% flood line, the gap still drains by overtopping. Whether it is low enough is unsettled until the crest is measured.
+For the ridge gap to drain the valley, rising water would have to reach the plug's lowest saddle and spill over it into [@name](../locations/big-basin.md). If that saddle sits below the [@name](../locations/new-village.md) flood line, the gap still drains by overtopping. Whether it is low enough is unsettled until the crest is measured.
 
 ### river-doesnt-match-map
 The river no longer runs where the map draws it. Its course has shifted: the wojewoda's bridge spans the river's new bed, while the map shows that ground dry and the river running elsewhere. The old course drawn on the map is now dry.
@@ -716,7 +716,7 @@ The state map draws the ridge water-gap as an open channel, an outlet for the va
 The state map predates the landslide that plugged the gap. It cannot be trusted on the gap or on the river's course.
 
 ### village-terrain-matches-map
-The surveyed elevations of the %NEW_VILLAGE% valley match the state map's contours. The ground reads true against the paper, so the map is an accurate record of the terrain everywhere the players check it. The only places it disagrees with reality are the plugged gap and the shifted river.
+The surveyed elevations of the [@name](../locations/new-village.md) valley match the state map's contours. The ground reads true against the paper, so the map is an accurate record of the terrain everywhere the players check it. The only places it disagrees with reality are the plugged gap and the shifted river.
 
 ### survey-was-botched
 The crew sent to re-check the terrain never properly did the work. They drove a few stakes, drank through the visit, took the wojewoda's ditch on faith, dismissed the changed river, and filed thin paper. Not a deliberate forgery, just a half-assed, negligent job, but it means the official survey behind the flood projection cannot be trusted.
@@ -734,22 +734,22 @@ The previous crew's filed survey report is thin: too few field stations, cursory
 The PGR crew rib survey men as famous drunks, and the last survey team who came drank through their whole visit instead of working the ground.
 
 ### flood-mark-left-by-dam-builders
-The flood line staked across the %NEW_VILLAGE% valley was set by the Solina dam-survey crews, not the resettlement survey. It marks the reservoir's projected fill level, tied to the dam builders' own benchmarks, and stands at 420.0 m above sea level.
+The flood line staked across the [@name](../locations/new-village.md) valley was set by the Solina dam-survey crews, not the resettlement survey. It marks the reservoir's projected fill level, tied to the dam builders' own benchmarks, and stands at 420.0 m above sea level.
 
 ### lower-village-level
-The surveyed elevation of the lower part of %NEW_VILLAGE%: 420.8 m above sea level.
+The surveyed elevation of the lower part of [@name](../locations/new-village.md): 420.8 m above sea level.
 
 ### upper-village-level
-The surveyed elevation of the upper part of %NEW_VILLAGE%: 422.0 m above sea level.
+The surveyed elevation of the upper part of [@name](../locations/new-village.md): 422.0 m above sea level.
 
 ### southern-rise-level
-The surveyed elevation of the rise south of %NEW_VILLAGE%: 423.0 m above sea level.
+The surveyed elevation of the rise south of [@name](../locations/new-village.md): 423.0 m above sea level.
 
 ### old-village-bowl-level
 The surveyed elevation of the floor of the old-village bowl: 408.0 m above sea level.
 
 ### big-basin-floor-level
-The surveyed elevation of the floor of %BIG-BASIN%: 405.0 m above sea level.
+The surveyed elevation of the floor of [@name](../locations/big-basin.md): 405.0 m above sea level.
 
 ### gap-foot-level
 The surveyed elevation of the ground at the foot of the ridge plug, just below the gap climb: 418.0 m above sea level. It is the low approach where the valley's water would gather to leave through the gap, below house level but sealed off by the plug rising above it.
@@ -764,13 +764,13 @@ Day 2 brings a major flood. The road out disappears. The committee is stranded. 
 The old village site is flooding — water rising from below, the well filling. Something underground is changing.
 
 ### flood-is-imminent
-The flood is not a future worry but an immediate one. The water is rising fast and %NEW_VILLAGE% will be inundated within days.
+The flood is not a future worry but an immediate one. The water is rising fast and [@name](../locations/new-village.md) will be inundated within days.
 
 ### officer-warning
 [@name](../characters/officer.md) warns on the drive in: not everything needs to be written down.
 
 ### government-committee
-The player characters are a state committee sent to %NEW_VILLAGE% ahead of the reservoir, tasked with a census, a property assessment for flood damage, and a geographical survey of the valley. It is the frame the whole visit hangs on: the reason outsiders can measure land, enter homes, and ask questions at all.
+The player characters are a state committee sent to [@name](../locations/new-village.md) ahead of the reservoir, tasked with a census, a property assessment for flood damage, and a geographical survey of the valley. It is the frame the whole visit hangs on: the reason outsiders can measure land, enter homes, and ask questions at all.
 
 ### committee-runs-geographical-survey
 The committee's stated purpose in the village is a geographical survey — terrain, river, boundaries. It's the cover that explains why outsiders are measuring the land.
@@ -779,7 +779,7 @@ The committee's stated purpose in the village is a geographical survey — terra
 The committee is recording each household's property and its value, ostensibly to assess damages. Asking what land is worth is part of the official remit.
 
 ### committee-hides-the-flood
-What the committee is really here to hide is the flood. Its true job is to run the survey and file a clean report so the resettlement proceeds; the danger that %NEW_VILLAGE% will flood is exactly what the state means it to keep out of the paper.
+What the committee is really here to hide is the flood. Its true job is to run the survey and file a clean report so the resettlement proceeds; the danger that [@name](../locations/new-village.md) will flood is exactly what the state means it to keep out of the paper.
 
 ### committee-fills-census
 The committee is taking a census: who lives in each household, names, ages, how long they have been here. Counting heads is part of the official remit.
@@ -855,10 +855,10 @@ A whole silo's worth of grain was dumped rather than used or sold, tipped out an
 [@name](../characters/widow.md) believes she draws a state widow's pension for her late husband, and is grateful to the state for it.
 
 ### mazur-buried-in-cemetery
-[@name](../characters/tadeusz-mazur.md) lies in a fresh, well-tended grave in the %NEW_VILLAGE% cemetery, the one [@name](../characters/widow.md) kneels beside.
+[@name](../characters/tadeusz-mazur.md) lies in a fresh, well-tended grave in the [@name](../locations/new-village.md) cemetery, the one [@name](../characters/widow.md) kneels beside.
 
 ### mazur-and-widow-are-old-settlers
-[@first-name](../characters/tadeusz-mazur.md) and [@name](../characters/widow.md) were among the first Polish settlers in %NEW_VILLAGE%, arriving around 1948. They were in the village the whole time, through 1954 and after.
+[@first-name](../characters/tadeusz-mazur.md) and [@name](../characters/widow.md) were among the first Polish settlers in [@name](../locations/new-village.md), arriving around 1948. They were in the village the whole time, through 1954 and after.
 
 ### mazur-doubted-the-departure
 [@name](../characters/widow.md), an original settler who was there at the time, never believed the [@name](../characters/soldier.md) simply moved away. He wrote that they vanished in a single night, leaving standing crops and livestock behind, and was certain the departure was not something they chose.

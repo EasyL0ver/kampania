@@ -14,7 +14,7 @@
 - **Status:** Outsider
 - **Born:** 1928
 - **Age in 1967:** 39
-- **Based in:** Outside %NEW_VILLAGE% — arrives by car, doesn't stay
+- **Based in:** Outside [@name](../locations/new-village.md) — arrives by car, doesn't stay
 
 ## Character
 

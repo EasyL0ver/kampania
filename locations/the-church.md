@@ -1,14 +1,14 @@
 # The Church
 
 **Type:** Location (revisitable)
-**Location:** %NEW_VILLAGE% — church on the hill, cemetery adjacent.
+**Location:** [@name](new-village.md) — church on the hill, cemetery adjacent.
 **Present:** [@name](../characters/priest.md) (inside, usually), [@name](../characters/widow.md) (cemetery, most days)
 **Available:** Any day
 **Cost:** 1 action per visit
 
 ## Hook
 
-The church on the hill in %NEW_VILLAGE%, beside the cemetery.
+The church on the hill in [@name](new-village.md), beside the cemetery.
 
 ## Setup
 
@@ -21,7 +21,7 @@ The church on the hill in %NEW_VILLAGE%, beside the cemetery.
 - [@name](../characters/widow.md) often kneels beside a freshly tended grave.
 - A well-tended double grave has fresh flowers, a Polonised surname, and a small three-barred cross partly hidden under lichen.
 - The plebania stands adjacent to the church.
-- The plebania has a stone foundation older than %NEW_VILLAGE%, a kitchen, a study, a spare room with a cot, and a cellar.
+- The plebania has a stone foundation older than [@name](new-village.md), a kitchen, a study, a spare room with a cot, and a cellar.
 - The plebania cellar has stone walls, old liturgical supplies, jars, dust, and a door with a newer padlock.
 
 ## Opportunities

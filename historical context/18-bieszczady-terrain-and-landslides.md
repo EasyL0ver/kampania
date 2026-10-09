@@ -1,6 +1,6 @@
 # Bieszczady Terrain — Ridges, Water-Gaps & Landslide Dams
 
-Reference for the flood arc's physical mechanism: why %NEW_VILLAGE% floods, what the state's map got wrong, and what [Michał Pytlak](../characters/foreman.md) blows up to save it. All of it is grounded in the real geology of the Bieszczady.
+Reference for the flood arc's physical mechanism: why [@name](../locations/new-village.md) floods, what the state's map got wrong, and what [Michał Pytlak](../characters/foreman.md) blows up to save it. All of it is grounded in the real geology of the Bieszczady.
 
 ## The Landscape — "Ladder" Ridges and Trellis Rivers
 
@@ -36,12 +36,12 @@ This is the hydrological hinge of the flood arc:
 
 ## How This Drives the Flood Arc
 
-The terrain feature at the centre of the flood arc: a **sandstone ridge separates the [%NEW_VILLAGE%](../locations/wojewodas-house.md) valley (on the river's flood path) from the empty %BIG-BASIN% beyond it (large, uninhabited, the outlet the state's calculation counts on).** The ridge has a **natural water-gap (przełom)** through it at a low shale saddle, and that gap has been **plugged by an old landslide.** (The lower [old-village](../locations/old-village-ruins.md) basin is a separate feature: the natural sink that drowns on its own from the reservoir, unrelated to this outlet.)
+The terrain feature at the centre of the flood arc: a **sandstone ridge separates the [@name](../locations/wojewodas-house.md) valley (on the river's flood path) from the empty [@name](../locations/big-basin.md) beyond it (large, uninhabited, the outlet the state's calculation counts on).** The ridge has a **natural water-gap (przełom)** through it at a low shale saddle, and that gap has been **plugged by an old landslide.** (The lower [old-village](../locations/old-village-ruins.md) basin is a separate feature: the natural sink that drowns on its own from the reservoir, unrelated to this outlet.)
 
-- **Why the new village floods:** the plug seals the gap, so the swollen river can't drain through into the empty %BIG-BASIN% where the map sends it. It backs up and rises onto the new village instead.
-- **Why the state's map is wrong:** the old military survey map shows the water-gap **open** (true when the map was drawn) and assumes the valley drains freely into %BIG-BASIN%. The landslide that closed it came later and was never recorded. The state planned off a map that was correct once and quietly went obsolete: on paper, water drains through the gap and the new village sits safe above the flood line. On the ground, the plug puts the water on the houses. Honest negligence, not stupidity.
+- **Why the new village floods:** the plug seals the gap, so the swollen river can't drain through into the empty [@name](../locations/big-basin.md) where the map sends it. It backs up and rises onto the new village instead.
+- **Why the state's map is wrong:** the old military survey map shows the water-gap **open** (true when the map was drawn) and assumes the valley drains freely into [@name](../locations/big-basin.md). The landslide that closed it came later and was never recorded. The state planned off a map that was correct once and quietly went obsolete: on paper, water drains through the gap and the new village sits safe above the flood line. On the ground, the plug puts the water on the houses. Honest negligence, not stupidity.
 - **What the geologist finds:** field measurement reveals the plugged gap and the true drainage: the flood has nowhere to go but up onto the village.
-- **What Pytlak blows:** the **landslide plug** in the gap (loose debris, not the hard ridge). One charge opens a breach; the flood scours it into a full water-gap again. Water pours from the new-village valley through the reopened przełom into the empty %BIG-BASIN%. The new village drains; %BIG-BASIN% fills, but no one lives there. The old village drowns regardless, from this flood and from the reservoir that will bury it forever.
+- **What Pytlak blows:** the **landslide plug** in the gap (loose debris, not the hard ridge). One charge opens a breach; the flood scours it into a full water-gap again. Water pours from the new-village valley through the reopened przełom into the empty [@name](../locations/big-basin.md). The new village drains; [@name](../locations/big-basin.md) fills, but no one lives there. The old village drowns regardless, from this flood and from the reservoir that will bury it forever.
 
 ## Sources
 

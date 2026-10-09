@@ -15,7 +15,7 @@
 ## Hook
 
 - The church bell rings steadily through the rain.
-- The bell is audible across %NEW_VILLAGE%.
+- The bell is audible across [@name](../locations/new-village.md).
 - Villagers come expecting another flood Mass.
 - The ringing signals calm rather than panic.
 

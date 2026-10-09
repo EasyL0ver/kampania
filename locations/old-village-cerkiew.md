@@ -1,14 +1,14 @@
-# %OLD_VILLAGE% — Cerkiew
+# [@name](old-village.md) — Cerkiew
 
 **Type:** Location (discoverable)
 **Location:** Hilltop structure in [@name](old-village-ruins.md)
 **Present:** [@name](../characters/hag.md) (night rituals only)
-**Available:** After reaching %OLD_VILLAGE%
+**Available:** After reaching [@name](old-village.md)
 **Cost:** 1 action per visit
 
 ## Hook
 
-- The old cerkiew on the hilltop of %OLD_VILLAGE%.
+- The old cerkiew on the hilltop of [@name](old-village.md).
 
 ## Setup
 

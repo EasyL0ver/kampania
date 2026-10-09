@@ -1,14 +1,14 @@
 # Matrona's House
 
 **Type:** Location (revisitable)
-**Location:** Central %NEW_VILLAGE%, close to [@name](the-store.md)
+**Location:** Central [@name](new-village.md), close to [@name](the-store.md)
 **Present:** [@name](../characters/matrona.md) (usually), [@name](../characters/painter.md), [@name](../characters/secondary/ewa-rzepka.md), [@name](../characters/secondary/krystian-rzepka.md) (irregular)
 **Available:** Any time; possible lodging after [@name](../events/dinner.md)
 **Cost:** 1 action per visit
 
 ## Hook
 
-The centre of %NEW_VILLAGE%, close to the store.
+The centre of [@name](new-village.md), close to the store.
 
 ## Setup
 

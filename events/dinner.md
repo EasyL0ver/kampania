@@ -48,7 +48,7 @@
 
 ## Exits
 
-- Out into %NEW_VILLAGE%.
+- Out into [@name](../locations/new-village.md).
 - To [@name](../locations/the-store.md) if [@nickname](../characters/wujas.md) invited them to drink.
 
 ## If Missed

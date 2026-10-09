@@ -21,7 +21,7 @@
 
 ## Character
 
-Sołtys, pragmatic, authoritative, and controlled. He built %NEW_VILLAGE% into a functioning community and participated in the 1954 lynch without guilt.
+Sołtys, pragmatic, authoritative, and controlled. He built [@name](../locations/new-village.md) into a functioning community and participated in the 1954 lynch without guilt.
 
 ## Appearance
 

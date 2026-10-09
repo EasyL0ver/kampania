@@ -10,4 +10,4 @@
 
 ## Description
 
-The two elevations that settle the streambed: the height of the far-ridge col and the height of %NEW_VILLAGE%. The raw figures, before anyone reads what they mean.
+The two elevations that settle the streambed: the height of the far-ridge col and the height of [@name](../locations/new-village.md). The raw figures, before anyone reads what they mean.

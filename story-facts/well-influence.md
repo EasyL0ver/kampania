@@ -7,7 +7,7 @@ How [the well](the-well.md) affects each character as it strengthens.
 Amplifies **paranoia and need for control.** Not guilt — he has none.
 
 - Sees conspiracies — committee's questions feel pointed, Marek's absences deliberate
-- Tightens access to phone. Finds reasons to keep people from %OLD_VILLAGE%. Orders feel like lockdown
+- Tightens access to phone. Finds reasons to keep people from [@name](../locations/old-village.md). Orders feel like lockdown
 - **Losing grip on Rezeń.** The arrangement frays. Rezeń stops listening, shows up in village, starts drinking. The dog is off the leash
 - Sleep deteriorates. Sits up reviewing who he spoke to, what he said. Careful politician becomes a man counting enemies
 - Decisions get erratic — overreactions, sudden hostility toward non-threats
@@ -39,7 +39,7 @@ Erodes her **performance.** Doesn't shatter her — creates micro-cracks:
 Amplifies **fear and paralysis:**
 
 - Stops leaving the house — the world outside feels threatening
-- Clings to Edek with increasing desperation. Senses something pulling him toward %OLD_VILLAGE%
+- Clings to Edek with increasing desperation. Senses something pulling him toward [@name](../locations/old-village.md)
 - Prayers become frantic, repetitive, compulsive — not devotion but terror. God feels further away
 - Flinches from her siblings — the family feels like a trap closing
 - **Dream:** the night she saved Edek — except she doesn't make it in time. Reaches for the boy and her hands pass through him. Wakes and checks on the boy. Every night
@@ -92,7 +92,7 @@ What the well *does* is darken the world around her:
 
 No guilt, no trauma. The well has nothing to amplify — but it still calls. Children are curious.
 
-- Wanders toward %OLD_VILLAGE%. Finds the well. Drinks the water
+- Wanders toward [@name](../locations/old-village.md). Finds the well. Drinks the water
 - **Falls ill.** High fever, convulsions, delirium. Floodwater contaminates everything — nothing supernatural required
 - In fever-dreams mutters things a 4-year-old shouldn't know — *"the water under the ground," "the old woman"*
 
@@ -113,7 +113,7 @@ This is what eventually makes him grant permission for the Lemko rite.
 Amplifies **desperate need for answers.** Strips away 13 years of caution.
 
 - Gets bolder — approaches players' investigation closer, takes more risks
-- Pushes Marek harder — sends him to %OLD_VILLAGE% at bad times
+- Pushes Marek harder — sends him to [@name](../locations/old-village.md) at bad times
 - May accelerate the breakthrough — cracks the truth faster
 - **Dream:** the night of 1954, but she's outside instead of inside. Can see everything. Can't move, can't shout
 

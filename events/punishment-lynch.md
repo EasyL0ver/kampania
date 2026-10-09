@@ -20,7 +20,7 @@
 - Dogs bark down the valley.
 - [@name](../characters/neighbour.md) rifle is missing from its pegs.
 - The movement converges on the yard in front of the office.
-- This is perceivable anywhere in %NEW_VILLAGE% after dark.
+- This is perceivable anywhere in [@name](../locations/new-village.md) after dark.
 - **Composure:** 2
 
 ## Setup
@@ -32,7 +32,7 @@
 - If [@first-name](../characters/wojewoda.md) is breaking, his authority fails.
 - If [@surname](../characters/neighbour.md) is [Humiliated](../characters/neighbour.md#humiliated) or has already acted at [@name](well-confrontation.md), the crowd can turn on [@first-name](../characters/wojewoda.md).
 - Otherwise, the crowd shoulders past [@first-name](../characters/wojewoda.md) and moves toward the well.
-- The crowd moves down the road toward %OLD_VILLAGE%.
+- The crowd moves down the road toward [@name](../locations/old-village.md).
 - [@surname](../characters/neighbour.md) is at the front with the rifle.
 - The chosen target is dragged, pushed, or guarded by the mob.
 - If [@first-name](../characters/barbara.md) was [@name](barbara-warns-the-players.md), she is absent.

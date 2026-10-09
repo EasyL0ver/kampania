@@ -1,4 +1,4 @@
-# %NEW_VILLAGE%
+# Testowo
 
 **Type:** Location (revisitable)
 **Location:** Valley floor, below the planned reservoir
@@ -8,7 +8,7 @@
 
 ## Hook
 
-- %NEW_VILLAGE%, the resettlement village on the valley floor.
+- [@name](new-village.md), the resettlement village on the valley floor.
 
 ## Setup
 

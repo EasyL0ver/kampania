@@ -6,10 +6,10 @@
 
 ## Trigger
 
-- [@name](../characters/foreman.md) believes %NEW_VILLAGE% can be saved by reopening the water-gap.
-- The water-gap is the notch in the ridge between the %NEW_VILLAGE% valley and the empty %BIG-BASIN%.
+- [@name](../characters/foreman.md) believes [@name](../locations/new-village.md) can be saved by reopening the water-gap.
+- The water-gap is the notch in the ridge between the [@name](../locations/new-village.md) valley and the empty [@name](../locations/big-basin.md).
 - An old landslide plugged the water-gap with loose rock and earth.
-- Clearing the plug sends floodwater through the gap into the empty %BIG-BASIN% instead of backing it up onto the houses.
+- Clearing the plug sends floodwater through the gap into the empty [@name](../locations/big-basin.md) instead of backing it up onto the houses.
 - The only fast way to move the plug is explosives.
 - The only explosives in the valley are old partisan ordnance in the [@name](../locations/upa-bunker.md).
 
@@ -22,7 +22,7 @@
 
 - [@name](../characters/foreman.md) says the village is drowning because the water cannot run through the plugged gap.
 - He asks the committee for help.
-- The ground beyond the gap is the empty %BIG-BASIN%, big enough to take the water without drowning anyone.
+- The ground beyond the gap is the empty [@name](../locations/big-basin.md), big enough to take the water without drowning anyone.
 - The plug is loose debris and soft shale, not hard sandstone.
 - A charge placed in the right seam can start a notch.
 - Floodwater can widen the breach after the blast.

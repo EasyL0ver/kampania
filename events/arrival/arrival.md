@@ -10,7 +10,7 @@ A car stopping on the muddy road as [@name](../../characters/wojewoda.md) comes 
 
 ## Setup
 
-- The car stops on the muddy road in %NEW_VILLAGE%.
+- The car stops on the muddy road in [@name](../../locations/new-village.md).
 - [@name](../../characters/wojewoda.md) is waiting for the committee.
 - [@name](../../characters/wojewoda.md) gives a firm handshake and walks the committee toward his house.
 - Men from [@name](../../characters/wujas.md)'s crew drink in daytime along the route.

@@ -1,14 +1,14 @@
 # UPA Bunker (Ziemianka)
 
 **Type:** Location (explorable, hidden)
-**Location:** Deep forest northwest of %NEW_VILLAGE%.
+**Location:** Deep forest northwest of [@name](new-village.md).
 **Present:** Nobody; [@name](../characters/glupek.md) (sometimes near entrance)
 **Available:** Requires forest exploration; ventilation shafts or entrance must be found.
 **Cost:** 1 action to explore
 
 ## Hook
 
-- A dug-out bunker hidden in the forest northwest of %NEW_VILLAGE%.
+- A dug-out bunker hidden in the forest northwest of [@name](new-village.md).
 
 ## Setup
 

@@ -4,7 +4,7 @@
 
 ## Edward Barnaś's Unpopularity
 
-Edward Barnaś was **wildly unpopular** in %NEW_VILLAGE%. The reasons stacked up:
+Edward Barnaś was **wildly unpopular** in [@name](../locations/new-village.md). The reasons stacked up:
 
 - Took the best land using insider knowledge from his military service
 - Seen as an outsider who profited unfairly
@@ -15,7 +15,7 @@ When he and his family disappeared, **nobody mourned**.
 
 ## The Unnamed Villagers
 
-The rest of %NEW_VILLAGE%'s population falls into two categories:
+The rest of [@name](../locations/new-village.md)'s population falls into two categories:
 
 1. **Arrived after the lynch** — don't know what happened. Accepted the story that Edward Barnaś's family "left" or "disappeared." Didn't ask questions.
 2. **Were there but chose silence** — knew or suspected something, but Edward Barnaś was so hated that nobody cared to investigate. Some may have seen or heard things that night. All of them looked the other way.

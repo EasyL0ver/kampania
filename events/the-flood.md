@@ -1,6 +1,6 @@
 # The Flood
 
-**Location:** %NEW_VILLAGE%
+**Location:** [@name](../locations/new-village.md)
 **Present:** Everyone
 **Available:** Day 3 morning; automatic.
 
@@ -28,7 +28,7 @@
 - The water table is rising.
 - Cellars are filling.
 - The ground is saturated.
-- Surveyors' stakes marking the projected flood line run across the %NEW_VILLAGE% slope, and the water is already climbing past them.
+- Surveyors' stakes marking the projected flood line run across the [@name](../locations/new-village.md) slope, and the water is already climbing past them.
 - The committee is outside the village's normal flood-response machinery.
 
 ## Opportunities
@@ -53,7 +53,7 @@
 
 ## Exits
 
-- Continue investigations inside %NEW_VILLAGE%, using flood checks as cover.
+- Continue investigations inside [@name](../locations/new-village.md), using flood checks as cover.
 - Use the phone through [@name](operator-refuses-help.md).
 - If the flood proof is established and shared, continue to [@name](the-disclosure.md).
 - If the village chooses engineering action, continue to [@name](foreman-saves-village.md).

@@ -15,7 +15,7 @@
 
 - The church bell rings wrong and too long.
 - The bell stops mid-strike.
-- The sound is audible across %NEW_VILLAGE%.
+- The sound is audible across [@name](../locations/new-village.md).
 
 ## Setup
 

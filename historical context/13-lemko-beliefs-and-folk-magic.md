@@ -15,7 +15,7 @@ Taboos around wells:
 
 Water taken from wells on holy feast days (especially Theophany/Epiphany) was believed to have healing and protective powers.
 
-**Scenario relevance:** The well in %OLD_VILLAGE% fits the vodnyk archetype perfectly. Hag's herbs around the well echo protective folk practice. The villagers' fear of the well has deep cultural roots — it's not just superstition, it's doctrine.
+**Scenario relevance:** The well in [@name](../locations/old-village.md) fits the vodnyk archetype perfectly. Hag's herbs around the well echo protective folk practice. The villagers' fear of the well has deep cultural roots — it's not just superstition, it's doctrine.
 
 ## The Unquiet Dead
 

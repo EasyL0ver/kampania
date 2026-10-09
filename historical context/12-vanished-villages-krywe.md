@@ -73,7 +73,7 @@ From apokryfruski.org database — documented killings in the Bieszczady region:
 - AK units from neighboring villages running armed checkpoints
 
 ### Relevance to Campaign
-- The massacre at %OLD_VILLAGE% fits a documented historical pattern — not an outlier
+- The massacre at [@name](../locations/old-village.md) fits a documented historical pattern — not an outlier
 - Bodies disposed in water/wells mirrors real disposal methods
 - Suspicion of UPA connection (real or manufactured) as trigger — maps to Paraskewia Chyłak's UPA lover story
 - The burning of buildings to erase traces — happened systematically

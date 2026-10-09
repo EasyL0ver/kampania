@@ -63,4 +63,4 @@ Setting up a level line at the far-ridge streambed to measure toward the village
 
 ## Exits
 
-- The streambed is settled as a dead outlet; back to the [@name](../locations/far-ridge-streambed.md) or down to %NEW_VILLAGE%.
+- The streambed is settled as a dead outlet; back to the [@name](../locations/far-ridge-streambed.md) or down to [@name](../locations/new-village.md).

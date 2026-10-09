@@ -53,7 +53,7 @@
 
 - Go to the flood line at [@name](../locations/pgr-farm.md).
 - Proceed to [@name](foreman-saves-village.md) if the committee backs the plan.
-- Return to %NEW_VILLAGE% if the committee refuses the flood-line visit.
+- Return to [@name](../locations/new-village.md) if the committee refuses the flood-line visit.
 
 ## If Missed
 

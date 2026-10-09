@@ -14,7 +14,7 @@
 - **Born:** 1962
 - **Age in 1967:** 5
 - **Lives in:** [@name](../../locations/new-village.md) — with his parents
-- **Settled:** Born in %NEW_VILLAGE%
+- **Settled:** Born in [@name](../../locations/new-village.md)
 - **Parents:** [@name](../foreman.md) and [@name](../zofia.md)
 
 ## Character

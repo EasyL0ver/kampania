@@ -54,7 +54,7 @@ People remembered her as clever before they remembered her as kind. Around [@fir
 - She works the manual switchboard at the nearest town's exchange, in the back of a post office, under another name. Nobody in the valley knows she is [@first-name](jagna.md).
 - Every long-distance call the committee places — [@name](professor.md), [@name](sawicki.md), [@name](officer.md)'s superiors, the powiat — routes through her board.
 - Her identity remains unprovable from the line. A bad connection and a thirteen-year-old memory are not evidence.
-- She works one tier out from %NEW_VILLAGE%: close enough to handle the valley's long-distance calls, far enough to stay a stranger.
+- She works one tier out from [@name](../locations/new-village.md): close enough to handle the valley's long-distance calls, far enough to stay a stranger.
 
 ### Calls
 

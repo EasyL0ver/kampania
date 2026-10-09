@@ -29,4 +29,4 @@ A funeral Mass beginning in the church, the coffin set before the congregation.
 ## Exits
 
 - Return to [@name](../locations/the-church.md).
-- Return to %NEW_VILLAGE% through the flood response in [@name](the-flood.md).
+- Return to [@name](../locations/new-village.md) through the flood response in [@name](the-flood.md).

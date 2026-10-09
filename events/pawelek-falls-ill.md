@@ -6,7 +6,7 @@
 
 ## Trigger
 
-- [@first-name](../characters/pawelek.md) wandered unsupervised toward %OLD_VILLAGE% while [@first-name](../characters/barbara.md) was at the PGR.
+- [@first-name](../characters/pawelek.md) wandered unsupervised toward [@name](../locations/old-village.md) while [@first-name](../characters/barbara.md) was at the PGR.
 - Rising groundwater pushed contaminated water up around the old well.
 - [@first-name](../characters/pawelek.md) drank from pooled water near the well.
 - By evening [@first-name](../characters/pawelek.md) has fever.

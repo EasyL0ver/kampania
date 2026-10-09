@@ -1,19 +1,19 @@
 # The Rectory (Plebania)
 
 **Type:** Location (revisitable)
-**Location:** %NEW_VILLAGE% — plebania adjacent to [@name](the-church.md).
+**Location:** [@name](new-village.md) — plebania adjacent to [@name](the-church.md).
 **Present:** [@name](../characters/priest.md) (inside, usually)
 **Available:** Any day
 **Cost:** 1 action per visit
 
 ## Hook
 
-The plebania beside the church in %NEW_VILLAGE%.
+The plebania beside the church in [@name](new-village.md).
 
 ## Setup
 
 - The plebania stands adjacent to the church.
-- The plebania has a stone foundation older than %NEW_VILLAGE%, a kitchen, a book-lined study, a spare room with a cot, and a cellar.
+- The plebania has a stone foundation older than [@name](new-village.md), a kitchen, a book-lined study, a spare room with a cot, and a cellar.
 - The study is small and cold, with one lamp and the parish ledger.
 - The cellar has stone walls, old liturgical supplies, jars, dust, and a door with a newer padlock.
 - A thread of stale tobacco hangs in the study, though no ashtray is in sight.

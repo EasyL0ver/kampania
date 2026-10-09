@@ -48,7 +48,7 @@
 
 ## Exits
 
-- Return to %NEW_VILLAGE% under guard or in a group.
+- Return to [@name](../locations/new-village.md) under guard or in a group.
 - Go to [@name](../locations/wojewodas-house.md) to involve the sołtys.
 - Go to [@name](../locations/butchers-house.md) if the players choose direct confrontation.
 

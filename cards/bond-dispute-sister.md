@@ -1,4 +1,4 @@
-# Bond: %SISTER%
+# Bond: [@first-name](../characters/dispute-sister.md)
 
 **Pool:** Acquired in play
 
@@ -8,4 +8,4 @@
 
 ## Card
 
-[%SISTER%](../characters/dispute-sister.md) trusts you — you, not the rest of the committee. Doors that stay shut to the others open for you.
+[@first-name](../characters/dispute-sister.md) trusts you — you, not the rest of the committee. Doors that stay shut to the others open for you.

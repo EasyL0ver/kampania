@@ -216,7 +216,7 @@ A party that ends most days with cards unspent is being undercharged.
 Charging isn't symmetrical, and it's worth knowing which way it leans:
 
 - **Conversational flailing is nearly free.** One card gets a player through a door; every free action (no Cost line) inside is then harvestable. About a third of all documented actions are free, and most of those are conversations.
-- **Physical flailing is expensive.** Forest travel, searches, stakeouts, and excavation are all costed — and most of them are in or near %OLD_VILLAGE%.
+- **Physical flailing is expensive.** Forest travel, searches, stakeouts, and excavation are all costed — and most of them are in or near [@name](locations/old-village.md).
 
 The [1954 lynch](story-facts/the-lynch.md) is reachable almost entirely by talking. The [1947 massacre](story-facts/old-village-massacre.md) is reachable almost entirely by walking. A GM who under-charges physical exploration gives away the massacre; one who over-charges conversation strangles the social game. **When in doubt, charge the boots and not the mouth.**
 

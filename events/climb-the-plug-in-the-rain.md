@@ -134,7 +134,7 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ### Blow the gap
 - **When:** The charge is primed.
-- **Outcome:** The charge blows: the notch opens, floodwater widens it, and the water in %NEW_VILLAGE% starts to drop. Anyone still on the plug when it goes is killed.
+- **Outcome:** The charge blows: the notch opens, floodwater widens it, and the water in [@name](../locations/new-village.md) starts to drop. Anyone still on the plug when it goes is killed.
 - **Changes:** [The charge](#the-charge) — blown; [Climber position](#climber-position) — anyone still on the plug dies; [Gap blown](#gap-blown) — true, the village is saved and the basin floods
 
 ## Mechanics
@@ -153,7 +153,7 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ### Gap blown
 
-- A flag, true or false. Starts false. True means %NEW_VILLAGE% is saved, the empty %BIG-BASIN% floods, and the engineering ending resolves.
+- A flag, true or false. Starts false. True means [@name](../locations/new-village.md) is saved, the empty [@name](../locations/big-basin.md) floods, and the engineering ending resolves.
 
 ### Anchor
 
@@ -179,7 +179,7 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ## Exits
 
-- Return to %NEW_VILLAGE% after the water level begins to drop.
+- Return to [@name](../locations/new-village.md) after the water level begins to drop.
 - Go to [@name](../locations/old-village-ruins.md), which is going under regardless, from this flood and the reservoir that will bury it.
 - Return to [@name](../locations/pgr-farm.md) to manage the aftermath.
 

@@ -2,7 +2,7 @@
 
 **Type:** Item — census register (document)
 **Source:** Issued to the committee for the assignment on the drive in ([@name](../events/the-car-in.md)); filled household by household through the **Census interview** action across the village.
-**Carried:** The running record of who lives in %NEW_VILLAGE%. Set against the [@name](pgr-ledger.md), it exposes a paid "worker" that no household contains.
+**Carried:** The running record of who lives in [@name](../locations/new-village.md). Set against the [@name](pgr-ledger.md), it exposes a paid "worker" that no household contains.
 
 ## Hook
 
@@ -16,7 +16,7 @@ An official blank census book issued for the resettlement survey: ruled columns 
 
 ```
 POPULATION CENSUS — RESETTLEMENT SURVEY
-%NEW_VILLAGE%
+[@name](../locations/new-village.md)
 
 Household        Name                 Age   Resident since   Notes
 ──────────────   ──────────────────   ───   ──────────────   ──────────────

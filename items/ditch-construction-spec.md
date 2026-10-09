@@ -15,7 +15,7 @@ A land-reclamation (melioracja) file in an official folder: an approved cross-se
 ## Content
 
 > **STATE AGRICULTURAL FARM — LAND DRAINAGE WORKS**
-> **Irrigation and flood-relief ditch, %NEW_VILLAGE% fields**
+> **Irrigation and flood-relief ditch, [@name](../locations/new-village.md) fields**
 >
 > Channel: trapezoidal, concrete-lined **full length**, field head to low ground.
 > Lining: cast concrete throughout, to carry field runoff clear at flood volume.

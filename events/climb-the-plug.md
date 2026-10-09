@@ -21,7 +21,7 @@ Facing the steep plug at the ridge gap.
 - The climb is a one-person job; the rest of the party work the ground: belaying the rope, reading the line, calling up.
 - The party should bring or scrounge a rope (the [@name](../locations/pgr-farm.md) or [@name](../locations/pgr-office.md) has line): they will want it for the traverse, and need it to haul anyone who cannot climb up to the crest.
 - The top pitch has one lasting solution: a clamp driven into the soft shale seam under the slab. The tools, a clamp and a hammer (both at the [@name](../locations/pgr-farm.md)), have to be carried up, which no one brings on a first blind climb.
-- Why climb at all: the sill that decides overtopping into %BIG-BASIN% can be read only from the crest (the reasoning lives at [@name](../locations/the-ridge-gap.md)).
+- Why climb at all: the sill that decides overtopping into [@name](../locations/big-basin.md) can be read only from the crest (the reasoning lives at [@name](../locations/the-ridge-gap.md)).
 
 ## Opportunities
 

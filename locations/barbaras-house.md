@@ -1,14 +1,14 @@
 # Barbara's House
 
 **Type:** Location (revisitable)
-**Location:** Edge of %NEW_VILLAGE%, beside [@name](../characters/neighbour.md)'s house
+**Location:** Edge of [@name](new-village.md), beside [@name](../characters/neighbour.md)'s house
 **Present:** [@name](../characters/barbara.md) (mornings and evenings), [@name](../characters/babcia.md), [@name](../characters/pawelek.md) (usually)
 **Available:** Any time; [@first-name](../characters/barbara.md) home mornings and evenings
 **Cost:** 1 action per visit
 
 ## Hook
 
-The edge of %NEW_VILLAGE%, beside [@name](../characters/neighbour.md)'s house.
+The edge of [@name](new-village.md), beside [@name](../characters/neighbour.md)'s house.
 
 ## Setup
 

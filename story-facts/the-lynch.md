@@ -4,7 +4,7 @@
 
 ## The Trigger
 
-1954, four years after colonists settled in %NEW_VILLAGE%. Tensions are raw, the community is new and fragile.
+1954, four years after colonists settled in [@name](../locations/new-village.md). Tensions are raw, the community is new and fragile.
 
 The affair between Hania Barnaś and Emil Rzepka was an open secret, and **Helena Rzepka — Emil's fiancée — found out on her own.** She made no scene. She went to Hania quietly and asked her, plainly, to give Emil up. It should have ended there.
 
@@ -24,7 +24,7 @@ Three drunk men, each with their own reason to be furious — and one sober woma
 
 ## What Happened
 
-The night ran in two places. It began at the old well in %OLD_VILLAGE% — the ruins where Hania Barnaś and Emil Rzepka met in secret, away from the village — and finished at the Barnaś house.
+The night ran in two places. It began at the old well in [@name](../locations/old-village.md) — the ruins where Hania Barnaś and Emil Rzepka met in secret, away from the village — and finished at the Barnaś house.
 
 ### Phase 1 — the old well
 
@@ -57,7 +57,7 @@ The father was dead and the girl had vanished into the dark. Drunk, bloodied, pa
 
 ## The Well
 
-The well in %OLD_VILLAGE% now contains:
+The well in [@name](../locations/old-village.md) now contains:
 1. **Lemko massacre remains** (1947)
 2. **Edward Barnaś** (1954)
 3. **Marta Konieczna** (1954)
@@ -71,5 +71,5 @@ Edward and Marta both went into the well the night of the lynch. **Hania Barnaś
 - Who knows Hania "blackmailed" the family? **No one, because she never did.** The blackmail is Helena's fabrication — the story she told her brothers in 1954 and still tells anyone who corners her. The four who acted on it (Helena, Zbigniew, Tadek, Janina) believe it to this day. The truth — that Hania knew the secret and never touched it — survives only with Hania herself, and with anyone who learns from Emil or a cracking Tadek that she was never a threat.
 - Who knows Helena Rzepka's true role? The drunk men may genuinely not remember how much of the night was hers.
 - What became of Hania Barnaś? **No one knows — and no one can find out.** She fled and vanished. [Ryszard Dudka](../characters/neighbour.md) is privately certain she died and even buried remains he took to be hers, but he never confirmed it was her. This is the campaign's one deliberately unanswerable thread: she may be dead, she may be alive and long gone. The players can learn that she fled and that Dudka believes her dead — they **cannot** resolve which is true.
-  - *GM only — the sealed answer:* she **lived.** She is now the faceless **telephone-exchange operator** (telefonistka) who patches every one of the committee's outside calls (see [%OPERATOR%](../characters/jagna.md)). The truth exists in the fiction; it is simply unreachable by the players. Hold it; never hand it over.
+  - *GM only — the sealed answer:* she **lived.** She is now the faceless **telephone-exchange operator** (telefonistka) who patches every one of the committee's outside calls (see [@name](../characters/jagna.md)). The truth exists in the fiction; it is simply unreachable by the players. Hold it; never hand it over.
 - Where is Edward Barnaś's rifle? In [Stanisław Rezeń](../characters/butcher.md)'s house — the weapon taken off Edward's body that night, and the leash that runs the other way.

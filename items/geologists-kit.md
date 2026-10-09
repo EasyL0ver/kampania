@@ -14,7 +14,7 @@ A worn canvas roll of survey tools: a level and clinometer with its graduated ro
 
 ## Content
 
-> **TERRAIN RE-SURVEY — %NEW_VILLAGE% RESETTLEMENT ZONE**
+> **TERRAIN RE-SURVEY — [@name](../locations/new-village.md) RESETTLEMENT ZONE**
 >
 > The site sits comfortably above the projected flood line, on firm ground.
 >
@@ -28,13 +28,13 @@ A worn canvas roll of survey tools: a level and clinometer with its graduated ro
 
 > **SOLINA RESERVOIR SURVEY — BENCHMARK STATION INDEX (extract)**
 >
-> ... St. 40 far-ridge streambed col — reper set ... St. 41 %NEW_VILLAGE% datum — reper set ...
+> ... St. 40 far-ridge streambed col — reper set ... St. 41 [@name](../locations/new-village.md) datum — reper set ...
 >
 > *Elevation register: see attached sheet.* [no sheet attached]
 
 ## Opportunities
 
-- **Calculate the flood line** `(noticed by: [gap-is-blocked](../clues/clues.md#gap-is-blocked) AND [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing) AND [streambed-dead-ends](../clues/clues.md#streambed-dead-ends))` — With all three outlets ruled out under the same test, no fresh fieldwork is needed. Laying the findings against the master plan's numbers, the conclusion is arithmetic: when the lake rises, the water has nowhere below house level to go. %NEW_VILLAGE% floods. → Gives: [new-village-will-flood](../clues/clues.md#new-village-will-flood)
+- **Calculate the flood line** `(noticed by: [gap-is-blocked](../clues/clues.md#gap-is-blocked) AND [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing) AND [streambed-dead-ends](../clues/clues.md#streambed-dead-ends))` — With all three outlets ruled out under the same test, no fresh fieldwork is needed. Laying the findings against the master plan's numbers, the conclusion is arithmetic: when the lake rises, the water has nowhere below house level to go. [@name](../locations/new-village.md) floods. → Gives: [new-village-will-flood](../clues/clues.md#new-village-will-flood)
 - **Call the ditch a working drain** `(noticed by: [ditch-drains-fine](../clues/clues.md#ditch-drains-fine))` — If the ditch carries the flood off, the valley has its outlet and the village stays dry; one good drain is all it needs. The reassuring answer the head calc invites, and the trap that ends the investigation early: it takes the concrete head for the whole ditch and never tests the gap or the streambed at all. → Gives: [new-village-will-not-flood](../clues/clues.md#new-village-will-not-flood)
 - **The survey was botched** `(noticed by: [geologists-were-drinking](../clues/clues.md#geologists-were-drinking) AND [original-report-is-thin](../clues/clues.md#original-report-is-thin))` — The drinking and the thin paper are the same story from two sides: a drunk crew drove a few stakes, took the ditch on faith, and filed work that never touched the ground. Not forgery, just negligence, and enough to throw out the official survey. → Gives: [survey-was-botched](../clues/clues.md#survey-was-botched)
 - **The map reads true** `(noticed by: [lower-village-level](../clues/clues.md#lower-village-level) AND [upper-village-level](../clues/clues.md#upper-village-level) AND [southern-rise-level](../clues/clues.md#southern-rise-level) AND [old-village-bowl-level](../clues/clues.md#old-village-bowl-level) AND [big-basin-floor-level](../clues/clues.md#big-basin-floor-level) AND [gap-foot-level](../clues/clues.md#gap-foot-level))` — Every leveled point around the valley agrees with the state map's contours. The paper heights hold true against the ground, so the map is a sound record of the terrain and the only places it lies are the plugged gap and the shifted river. → Gives: [village-terrain-matches-map](../clues/clues.md#village-terrain-matches-map)
@@ -49,7 +49,7 @@ A worn canvas roll of survey tools: a level and clinometer with its graduated ro
 
 ### Read the maps
 - **Requires:** [The Geologist's Kit](geologists-kit.md)
-- **Outcome:** The master plan carries the flood-line figure, and the Solina station index lists a %NEW_VILLAGE% datum benchmark (St. 41). The flood line staked across the valley is the dam builders' work, tied to their reservoir survey, not the resettlement crew's.
+- **Outcome:** The master plan carries the flood-line figure, and the Solina station index lists a [@name](../locations/new-village.md) datum benchmark (St. 41). The flood line staked across the valley is the dam builders' work, tied to their reservoir survey, not the resettlement crew's.
 - **Gives:** [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders)
 
 ### Read it as a surveyor
@@ -87,5 +87,5 @@ A worn canvas roll of survey tools: a level and clinometer with its graduated ro
 - **Requires:** [The Geologist's Kit](geologists-kit.md) AND [Geology](../cards/geology.md)
 - **Prompted by:** [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders)
 - **Cost:** 1 time
-- **Outcome:** Run a level line with the kit's optical level from the surveyors' flood mark to a chosen point around the valley and read its height against the mark. Pick the point: the lower village, the upper village, the southern rise, the old-village bowl, or the %BIG-BASIN% floor.
+- **Outcome:** Run a level line with the kit's optical level from the surveyors' flood mark to a chosen point around the valley and read its height against the mark. Pick the point: the lower village, the upper village, the southern rise, the old-village bowl, or the [@name](../locations/big-basin.md) floor.
 - **Gives:** [lower-village-level](../clues/clues.md#lower-village-level), [upper-village-level](../clues/clues.md#upper-village-level), [southern-rise-level](../clues/clues.md#southern-rise-level), [old-village-bowl-level](../clues/clues.md#old-village-bowl-level), [big-basin-floor-level](../clues/clues.md#big-basin-floor-level)

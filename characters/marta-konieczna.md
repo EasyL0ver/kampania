@@ -13,7 +13,7 @@
 - **Status:** Dead
 - **Born:** ~1915
 - **Died:** 1954 — killed in the lynch, aged ~39
-- **Lived in:** [@name](../locations/ciotkas-house/ciotkas-house.md) in %NEW_VILLAGE% — now [@name](ciotka.md)'s
+- **Lived in:** [@name](../locations/ciotkas-house/ciotkas-house.md) in [@name](../locations/new-village.md) — now [@name](ciotka.md)'s
 - **Family:** Unmarried partner of [@name](soldier.md); mother of [@name](jagna.md) and [@name](glupek.md)
 - **Records:** Appears in the [@name](../items/pgr-expenses.md) under her own surname — the only place her full name is written down
 

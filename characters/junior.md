@@ -14,7 +14,7 @@
 - **Born:** 1946
 - **Age in 1967:** 21
 - **Lives in:** [@name](../locations/wojewodas-house.md) — with [@name](wojewoda.md), [@name](wife.md)
-- **Settled:** Born in %NEW_VILLAGE%
+- **Settled:** Born in [@name](../locations/new-village.md)
 
 ## Character
 

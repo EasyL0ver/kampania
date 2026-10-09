@@ -16,7 +16,7 @@ Irena Gajda never sat Marek Gajda down and told him. It happened gradually — a
 
 Irena Gajda didn't answer directly. But she stopped deflecting. She'd say things like *"Nobody talks about that"* or *"Ask your father and watch his face."* That was enough. Marek Gajda started watching. Then noticing. Then asking more.
 
-Now they have an unspoken pact. She watches the house — Zbigniew Gajda's papers, his meetings with por. Witold Skowron, the locked silences between the siblings. Marek Gajda works the outside — listening to Tadek Gajda when he's drunk, poking around the village, visiting %OLD_VILLAGE% when nobody's watching.
+Now they have an unspoken pact. She watches the house — Zbigniew Gajda's papers, his meetings with por. Witold Skowron, the locked silences between the siblings. Marek Gajda works the outside — listening to Tadek Gajda when he's drunk, poking around the village, visiting [@name](../locations/old-village.md) when nobody's watching.
 
 ## What They've Found (Before the Game)
 
@@ -24,7 +24,7 @@ Not much. Enough to be dangerous, not enough to understand:
 
 - **Irena Gajda's collection:** A stained shirt from 1954 she never threw away. A button she found in the yard that didn't match any of Zbigniew Gajda's clothes. Newspaper clippings about missing persons that never matched anyone. Notes in her handwriting — dates, observations, fragments of overheard conversations. Hidden in a flour tin in the pantry.
 - **Marek Gajda's fragments from Tadek Gajda:** Drunken mumbles. *"She didn't deserve it."* A name — Hania Barnaś — spoken once, never repeated. Tadek Gajda grabbing Marek Gajda's arm one night and saying *"Don't ever be like us"* before passing out. Nothing concrete. Everything damning in tone.
-- **Fresh tracks at %OLD_VILLAGE%:** Marek Gajda has been visiting the ruins. He's seen the well, the cemetery, the cerkiew. He doesn't know what he's looking for. He's felt the wrongness of the place without understanding it.
+- **Fresh tracks at [@name](../locations/old-village.md):** Marek Gajda has been visiting the ruins. He's seen the well, the cemetery, the cerkiew. He doesn't know what he's looking for. He's felt the wrongness of the place without understanding it.
 - **A partial timeline:** Between them, they've roughly established that something happened in 1954, that it involved Edward Barnaś's family, and that all four siblings were somehow connected. They don't know what. They don't have proof. Just a shape in the dark.
 
 ## During the Game — Two Phases
@@ -39,7 +39,7 @@ The committee arrives and starts asking the same questions Irena has been asking
 
 Players encounter signs of her investigation without knowing the source:
 
-- **Fresh footprints at %OLD_VILLAGE%** that aren't Paraskewia Chyłak's. Someone has been there recently.
+- **Fresh footprints at [@name](../locations/old-village.md)** that aren't Paraskewia Chyłak's. Someone has been there recently.
 - **Marek Gajda asking Ryszard Dudka strange questions** — the players hear about this second-hand.
 - **Marek Gajda disappearing into the forest** at night — same pattern as the bimber crew, same pattern as a conspirator. The violent sołtys's kid sneaking around looks like he's destroying evidence for his father. Perfect red herring.
 - **The hidden collection** — if players search Zbigniew Gajda's house, they might find Irena Gajda's flour tin before they find anything of Zbigniew Gajda's. A stained shirt and notes that look like a cover-up dossier.
@@ -61,7 +61,7 @@ Her law from here: never against him. Everything she has flows to protecting him
 
 Through Phase 1 the investigation is dangerous — but Irena never carries the risk. She reads the village from the safest house in it and sends Marek into the places that can kill him:
 
-- **If Stanisław Rezeń notices** Marek at %OLD_VILLAGE%, the man who smothered a crying child for annoying him does not hesitate. Marek doesn't know what's in the well; he's stumbling through a killing ground leaving tracks.
+- **If Stanisław Rezeń notices** Marek at [@name](../locations/old-village.md), the man who smothered a crying child for annoying him does not hesitate. Marek doesn't know what's in the well; he's stumbling through a killing ground leaving tracks.
 - **If Helena Rzepka finds out**, she moves to neutralize it — and she is far better at this than Irena.
 - **If por. Witold Skowron finds out**, state security has a new problem, and it's wearing a leather jacket.
 
@@ -71,7 +71,7 @@ Irena knows all of this. She sends him anyway, and tells herself the outside is 
 
 His mother's loyal field agent. The spoiled sołtys's kid who drank with Tadek Gajda and slept with Barbara Kopacz — now carrying a secret investigation. His closeness to Tadek Gajda is double-edged: genuine bonding AND covert interrogation. He hates using the uncle who loves him.
 
-His visits to %OLD_VILLAGE% are reckless. He doesn't know what's in the well. He's stumbling around a place full of secrets he's not ready for, leaving tracks that others can follow.
+His visits to [@name](../locations/old-village.md) are reckless. He doesn't know what's in the well. He's stumbling around a place full of secrets he's not ready for, leaving tracks that others can follow.
 
 When his mother crosses over, he follows without hesitation. Devoted to her above all.
 

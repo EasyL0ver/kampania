@@ -15,7 +15,7 @@
 - **Age in 1967:** 17
 - **Parents:** [@name](soldier.md) and [@name](marta-konieczna.md), both killed in the 1954 lynch
 - **Lives in:** [@name](../locations/ciotkas-house/ciotkas-house.md) — with [@name](ciotka.md)
-- **Settled:** Born in %NEW_VILLAGE%
+- **Settled:** Born in [@name](../locations/new-village.md)
 
 ## Character
 

@@ -1,15 +1,16 @@
-# %SISTER%
+# Danuta Bednarz (née Wróbel)
 
 **Type:** Named character — the one who works the land (land-dispute red herring)
 
 ## Hook
 
-%SISTER%, a farmer who has worked the disputed border strip for years, lives at her husband's family farmhouse.
+[@first-name](dispute-sister.md), a farmer who has worked the disputed border strip for years, lives at her husband's family farmhouse.
 
 ## Vital Statistics
 
-- **First name:** %SISTER%
-- **Surname:** %DISPUTE_SURNAME%
+- **First name:** Danuta
+- **Surname:** Bednarz
+- **Maiden name:** Wróbel
 - **Status:** Resident
 - **Born:** ~1934
 - **Age in 1967:** 33
@@ -46,12 +47,12 @@ She states her case rather than begging for it. When she repeats her father's la
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** She answers plainly with her own details and her husband's family farmhouse.
-- **Changes:** [Census](../items/census.md#census) — %SISTER%, in her husband's household
+- **Changes:** [Census](../items/census.md#census) — [@first-name](dispute-sister.md), in her husband's household
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** She has no deed and claims the border strip by years of labour. She names her brother's paper as the theft.
-- **Changes:** [Property Record](../items/census.md#property-record) — %SISTER% claims the disputed strip by use, no title; [The dispute](dispute-brother.md#the-dispute) — TBD
+- **Changes:** [Property Record](../items/census.md#property-record) — [@first-name](dispute-sister.md) claims the disputed strip by use, no title; [The dispute](dispute-brother.md#the-dispute) — TBD
 
 ### Take her plea seriously
 - **When:** The committee engages with her as a claimant, not a nuisance

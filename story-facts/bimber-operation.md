@@ -4,13 +4,13 @@
 
 ## What It Is
 
-Tadek Gajda and his drinking crew (Szymek Kępa, Romek Głowacz, Franek Mucha) run an illegal moonshine (bimber) operation deep in the forest between %NEW_VILLAGE% and %OLD_VILLAGE%. A crude copper still hidden under camouflage netting near a stream, surrounded by empty sugar sacks, barrels, and firewood.
+Tadek Gajda and his drinking crew (Szymek Kępa, Romek Głowacz, Franek Mucha) run an illegal moonshine (bimber) operation deep in the forest between [@name](../locations/new-village.md) and [@name](../locations/old-village.md). A crude copper still hidden under camouflage netting near a stream, surrounded by empty sugar sacks, barrels, and firewood.
 
-The drunk ex-schoolteacher [%RADIOMAN%](../characters/radioman.md) drinks with them but works the still with nobody — he's there for the bottle and the company, Tadek's one honest friend. He's a hanger-on, not an operator; he doesn't guard the secret, and he'll cheerfully point outsiders toward the treeline where the good stuff comes from.
+The drunk ex-schoolteacher [@first-name](../characters/radioman.md) drinks with them but works the still with nobody — he's there for the bottle and the company, Tadek's one honest friend. He's a hanger-on, not an operator; he doesn't guard the secret, and he'll cheerfully point outsiders toward the treeline where the good stuff comes from.
 
 ## Location
 
-A small clearing off one of the forest paths, roughly halfway between the two villages. Deliberately placed away from both — far enough from %NEW_VILLAGE% that the smoke isn't visible, close enough to the stream for water supply. The path to it is subtle but worn — someone who looks carefully at foot traffic in the forest will find it.
+A small clearing off one of the forest paths, roughly halfway between the two villages. Deliberately placed away from both — far enough from [@name](../locations/new-village.md) that the smoke isn't visible, close enough to the stream for water supply. The path to it is subtle but worn — someone who looks carefully at foot traffic in the forest will find it.
 
 ## Why It Matters (For Investigation)
 
@@ -28,7 +28,7 @@ When the committee starts asking questions or exploring the forest, they're like
 1. **It wastes player time.** Investigating the still, confronting the crew, following the forest trails — all of it costs actions in a game with only three per day.
 2. **It creates real tension for the wrong reason.** The drinking crew genuinely *is* hiding something and genuinely *will* react with hostility, threats, or evasion when pressed. Tadek Gajda might panic — not because of the lynch, but because he thinks the state committee is here to bust his still. His fear is real; his reason is wrong.
 3. **It muddies Tadek Gajda's behavior.** He's the weakest link in the lynch cover-up AND he's paranoid about the bimber. Players can't easily tell which secret is making him sweat. When he gets evasive or aggressive, is it guilt over murder or fear of a moonshine charge?
-4. **It pulls players toward the forest for the wrong reason.** They may find the still before they find %OLD_VILLAGE%, the well, or Paraskewia Chyłak's cabin — and decide the forest is "solved."
+4. **It pulls players toward the forest for the wrong reason.** They may find the still before they find [@name](../locations/old-village.md), the well, or Paraskewia Chyłak's cabin — and decide the forest is "solved."
 
 ## How Players Might Find It
 
@@ -53,6 +53,6 @@ When the committee starts asking questions or exploring the forest, they're like
 
 ## For the GM
 
-The bimber operation should feel like a breakthrough when discovered — a hidden thing in the forest, nervous men, secrecy. Let the players ride that high for a beat before the realization settles in: this is just moonshine. The disappointment is the point. It teaches them that not every secret in %NEW_VILLAGE% is connected to murder — and it burns an action they can't get back.
+The bimber operation should feel like a breakthrough when discovered — a hidden thing in the forest, nervous men, secrecy. Let the players ride that high for a beat before the realization settles in: this is just moonshine. The disappointment is the point. It teaches them that not every secret in [@name](../locations/new-village.md) is connected to murder — and it burns an action they can't get back.
 
 If players handle the discovery with discretion (not reporting it, using it as leverage), it can become a **tool**: "We know about your still. Now tell us what else you know." Tadek Gajda under that pressure — owing the players a favor, scared they'll talk — is more vulnerable to cracking about the real secret.

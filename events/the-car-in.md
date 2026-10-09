@@ -1,6 +1,6 @@
 # The Car In
 
-**Location:** Police car on the mountain road to %NEW_VILLAGE%
+**Location:** Police car on the mountain road to [@name](../locations/new-village.md)
 **Present:** [@name](../characters/officer.md), players
 **Available:** Game start; first scene.
 
@@ -32,7 +32,7 @@ A police car winding down the mountain road through the rain.
 
 ### Learn the destination
 - **Prompted by:** [government-committee](../clues/clues.md#government-committee)
-- **Outcome:** [@name](../characters/officer.md) names where they are headed: %NEW_VILLAGE%, the resettled village in the valley below the planned reservoir, and points out where the road drops toward it.
+- **Outcome:** [@name](../characters/officer.md) names where they are headed: [@name](../locations/new-village.md), the resettled village in the valley below the planned reservoir, and points out where the road drops toward it.
 - **Gives:** aware:locations/new-village.md
 
 ### Listen to the briefing
@@ -62,5 +62,5 @@ A police car winding down the mountain road through the rain.
 
 ## Exits
 
-- Continue to [@name](arrival/arrival.md) in %NEW_VILLAGE%.
+- Continue to [@name](arrival/arrival.md) in [@name](../locations/new-village.md).
 

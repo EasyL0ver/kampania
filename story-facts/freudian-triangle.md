@@ -108,4 +108,4 @@ The players dream too. The well shows them the id — their own capacity for vio
 - [Zbigniew Gajda](../characters/wojewoda.md) — 1954 Superego
 - [The Well](the-well.md)
 - [The Lynch](the-lynch.md)
-- [The %OLD_VILLAGE% Massacre](old-village-massacre.md)
+- The [@name](../locations/old-village.md) [Massacre](old-village-massacre.md)

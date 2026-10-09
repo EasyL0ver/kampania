@@ -1,14 +1,14 @@
-# The %OLD_VILLAGE% Massacre
+# The [@name](../locations/old-village.md) Massacre
 
 **Type:** Core story secret
 
 ## What Happened
 
-During Operation Vistula (1947), a KBW unit commanded by [kpt. Henryk Ćwiek](../characters/kbw-officer.md) arrived at %OLD_VILLAGE% to forcibly deport its Lemko inhabitants. The unit included [Edward Barnaś](../characters/soldier.md) as a soldier and [Stanisław Rezeń](../characters/butcher.md) as a civilian auxiliary recruited for his knowledge of local terrain.
+During Operation Vistula (1947), a KBW unit commanded by [kpt. Henryk Ćwiek](../characters/kbw-officer.md) arrived at [@name](../locations/old-village.md) to forcibly deport its Lemko inhabitants. The unit included [Edward Barnaś](../characters/soldier.md) as a soldier and [Stanisław Rezeń](../characters/butcher.md) as a civilian auxiliary recruited for his knowledge of local terrain.
 
 The villagers rebelled — refused to leave, resisted the soldiers. Dmytro Kosach — a UPA guerrilla fighter hidden in the village, [Paraskewia Chyłak](../characters/hag.md)'s lover — **shot kpt. Ćwiek dead.** The soldiers, enraged by their captain's killing, turned on the village. The massacre wasn't chaos — it was retribution.
 
-**Most of the village survived.** When the shooting started, people scattered — into the forest, into the ravines, into the deportation columns that took the rest away. A massacre is not a headcount; it is a panic. The ones who died were the ones who **couldn't** run or **wouldn't**: the men who stood and fought at the village centre, the old and the lame who couldn't reach the trees, a mother cut down covering her children's escape, the cantor who would not abandon the cerkiew. **Twelve of them, plus Dmytro Kosach** — thirteen dead in all, thrown down the well. The rest of %OLD_VILLAGE% dispersed into the Lemko diaspora, deported or fled, and never came back.
+**Most of the village survived.** When the shooting started, people scattered — into the forest, into the ravines, into the deportation columns that took the rest away. A massacre is not a headcount; it is a panic. The ones who died were the ones who **couldn't** run or **wouldn't**: the men who stood and fought at the village centre, the old and the lame who couldn't reach the trees, a mother cut down covering her children's escape, the cantor who would not abandon the cerkiew. **Twelve of them, plus Dmytro Kosach** — thirteen dead in all, thrown down the well. The rest of [@name](../locations/old-village.md) dispersed into the Lemko diaspora, deported or fled, and never came back.
 
 The three participants map onto Freud's structural model — see [The Freudian Triangle](freudian-triangle.md). The Superego (Ćwiek) died first. His death didn't leave a vacuum — it unleashed fury. Every soldier's Id broke free through rage. The Ego (Edward) was swept along. The Id (Rezeń) found what it had been waiting for.
 
@@ -35,7 +35,7 @@ And, held apart from the villagers in Paraskewia's list: **Дмитро Коса
 
 ## The Cover-Up
 
-The cover-up doesn't protect the soldiers from justice — it protects them from their own chain of command. What happened at %OLD_VILLAGE% was a **military failure:**
+The cover-up doesn't protect the soldiers from justice — it protects them from their own chain of command. What happened at [@name](../locations/old-village.md) was a **military failure:**
 
 - They didn't detect the UPA presence before entering the village
 - They lost their commanding officer during a routine deportation
@@ -57,7 +57,7 @@ For nearly 20 years, the secret has held.
 
 ## Why It Matters Now
 
-The Solina Dam project will flood the area where %OLD_VILLAGE% stands. The government committee (the players) is sent to assess what will be lost. But the ruins of %OLD_VILLAGE% contain evidence of the massacre — remains, bullet marks, signs that this was not a peaceful evacuation.
+The Solina Dam project will flood the area where [@name](../locations/old-village.md) stands. The government committee (the players) is sent to assess what will be lost. But the ruins of [@name](../locations/old-village.md) contain evidence of the massacre — remains, bullet marks, signs that this was not a peaceful evacuation.
 
 The water is coming. If the dam fills, the evidence disappears forever. The second erasure completes the first.
 

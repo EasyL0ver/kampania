@@ -17,13 +17,13 @@
 - Tea is usually on the table.
 - [@name](../characters/wojewoda.md) works here and receives visitors here.
 - The phone is the only phone in the village.
-- The maps show topography, rivers, old boundaries, and %OLD_VILLAGE%.
+- The maps show topography, rivers, old boundaries, and [@name](old-village.md).
 - The ledger is on the desk during census work.
 - The shelf holds farm records, including construction and land-drainage (melioracja) files.
 
 ## Opportunities
 
-- **Maps on the desk** `(noticed by: [Geology](../cards/geology.md))` — The topographic maps mark %OLD_VILLAGE%. → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
+- **Maps on the desk** `(noticed by: [Geology](../cards/geology.md))` — The topographic maps mark [@name](old-village.md). → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
 - **Read the topographic map** `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The map draws the ridge water-gap as an open channel and draws a bridge spanning dry ground with the river running elsewhere. → Gives: [map-shows-gap-open](../clues/clues.md#map-shows-gap-open), [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land)
 
 ## Actions

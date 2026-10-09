@@ -4,7 +4,7 @@
 
 ## The Truth
 
-The government's choice to flood this specific area was not purely hydrological. por. Witold Skowron (SB agent) knows that the decision to include %OLD_VILLAGE% in the flood zone was made — at least in part — to **permanently bury the evidence of the 1947 Lemko massacre**.
+The government's choice to flood this specific area was not purely hydrological. por. Witold Skowron (SB agent) knows that the decision to include [@name](../locations/old-village.md) in the flood zone was made — at least in part — to **permanently bury the evidence of the 1947 Lemko massacre**.
 
 The dam is infrastructure. It is also a grave.
 

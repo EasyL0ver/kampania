@@ -6,7 +6,7 @@
 
 ## Hook
 
-- The water reaching the first houses of %NEW_VILLAGE%.
+- The water reaching the first houses of [@name](../locations/new-village.md).
 
 ## Mechanics
 

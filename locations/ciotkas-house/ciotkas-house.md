@@ -1,14 +1,14 @@
 # Ciotka's House
 
 **Type:** Location (revisitable)
-**Location:** Best plot in %NEW_VILLAGE%, across from [@name](../neighbours-house.md)
+**Location:** Best plot in [@name](../new-village.md), across from [@name](../neighbours-house.md)
 **Present:** [@name](../../characters/ciotka.md), [@name](../../characters/glupek.md) (usually)
 **Available:** Any time
 **Cost:** 1 action per visit
 
 ## Hook
 
-The best plot in %NEW_VILLAGE%, across from the Neighbour's house.
+The best plot in [@name](../new-village.md), across from the Neighbour's house.
 
 ## Setup
 

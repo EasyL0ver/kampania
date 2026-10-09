@@ -2,11 +2,11 @@
 
 **Location:** [@name](../locations/wojewodas-house.md)
 **Present:** [@name](../characters/wojewoda.md), [@name](../characters/neighbour.md), [@name](../characters/foreman.md), [@name](../characters/zofia.md), [@name](../characters/barbara.md), [@name](../characters/matrona.md), [@name](../characters/junior.md), [@name](../characters/priest.md), villagers
-**Available:** Day 4 onward, after proof that %NEW_VILLAGE% will flood exists and the truth breaks.
+**Available:** Day 4 onward, after proof that [@name](../locations/new-village.md) will flood exists and the truth breaks.
 
 ## Trigger
 
-- The village learns %NEW_VILLAGE% will flood.
+- The village learns [@name](../locations/new-village.md) will flood.
 - The truth breaks by one of three routes.
 - **Enlisted:** players convinced [@first-name](../characters/wojewoda.md) to reveal it through [Convince him to reveal the flood](../characters/wojewoda.md#convince-him-to-reveal-the-flood).
 - **Forced:** players used [Force the disclosure — the ultimatum](../characters/wojewoda.md#force-the-disclosure--the-ultimatum).
@@ -16,9 +16,9 @@
 ## Hook
 
 - Voices gather in the rain.
-- Doors open across %NEW_VILLAGE%.
+- Doors open across [@name](../locations/new-village.md).
 - People call toward the sołtys office.
-- The sound is audible from anywhere in %NEW_VILLAGE%.
+- The sound is audible from anywhere in [@name](../locations/new-village.md).
 - By the time players arrive, most of the village is present.
 
 ## Setup
@@ -26,7 +26,7 @@
 - The scene happens in the muddy yard and square outside the sołtys office.
 - **Form A:** [@first-name](../characters/wojewoda.md) called the gathering.
 - In Form A, [@first-name](../characters/wojewoda.md) stands on the office step above the crowd.
-- In Form A, he says %NEW_VILLAGE% will flood.
+- In Form A, he says [@name](../locations/new-village.md) will flood.
 - In Form A, he does not say how long it was known.
 - In Form A, he promises compensation, relocation, and state help.
 - If enlisted, he names the players as the ones who found the danger in time.
