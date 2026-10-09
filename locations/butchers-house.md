@@ -37,10 +37,10 @@ The edge of [@name](new-village.md), nearest the forest path toward [@name](old-
 
 ## Opportunities
 
-- `(noticed by: [Survival](../cards/survival.md))` — The forest path sees daily use and points straight toward [@name](old-village-ruins.md). → Gives: [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
-- `(when: access to interior)` `(noticed by: [Finesse](../cards/finesse.md))` — The house contains no alcohol, not a single bottle. → Gives: [butcher-doesnt-drink](../clues/clues.md#butcher-doesnt-drink)
-- `(noticed by: [Violence](../cards/violence.md))` — The dogs fear their owner and show signs of practiced cruelty. → Gives: [butcher-is-dangerous](../clues/clues.md#butcher-is-dangerous)
-- `(noticed by: [Medicine](../cards/medicine.md))` — The station has seen more use than ordinary livestock work explains. → Gives: [butcher-is-dangerous](../clues/clues.md#butcher-is-dangerous)
+- *(noticed by: [Survival](../cards/survival.md))* — The forest path sees daily use and points straight toward [@name](old-village-ruins.md). → Gives: [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
+- *(when: access to interior)* *(noticed by: [Finesse](../cards/finesse.md))* — The house contains no alcohol, not a single bottle. → Gives: [butcher-doesnt-drink](../clues/clues.md#butcher-doesnt-drink)
+- *(noticed by: [Violence](../cards/violence.md))* — The dogs fear their owner and show signs of practiced cruelty. → Gives: [butcher-is-dangerous](../clues/clues.md#butcher-is-dangerous)
+- *(noticed by: [Medicine](../cards/medicine.md))* — The station has seen more use than ordinary livestock work explains. → Gives: [butcher-is-dangerous](../clues/clues.md#butcher-is-dangerous)
 
 ## Actions
 

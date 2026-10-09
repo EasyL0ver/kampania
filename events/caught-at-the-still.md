@@ -26,7 +26,7 @@
 
 ## Opportunities
 
-- `(noticed by: [Empathy](../cards/empathy.md))` — In the standoff, the crew is not defending a crime scene; they are frightened men protecting the one thing that gets them through the winter. → Gives: [`still-is-their-livelihood`](../clues/clues.md#still-is-their-livelihood)
+- *(noticed by: [Empathy](../cards/empathy.md))* — In the standoff, the crew is not defending a crime scene; they are frightened men protecting the one thing that gets them through the winter. → Gives: [`still-is-their-livelihood`](../clues/clues.md#still-is-their-livelihood)
 
 ## Actions
 

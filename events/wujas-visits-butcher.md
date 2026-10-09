@@ -29,11 +29,11 @@
 
 ## Opportunities
 
-- `(noticed by: [Finesse](../cards/finesse.md))` — [@nickname](../characters/wujas.md) visits the edge house regularly.
-- `(when: Follow [@nickname](../characters/wujas.md) to the edge house)` `(noticed by: [Empathy](../cards/empathy.md))` — the handoff is an errand, not a social visit.
-- `(when: Ask [@name](../characters/wujas.md))` `(noticed by: [Empathy](../cards/empathy.md))` — [@nickname](../characters/wujas.md) deflects: he cannot explain the visits without shutting down.
-- `(when: Ask [@name](../characters/wojewoda.md))` `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/wojewoda.md) pauses: he knows exactly what [@nickname](../characters/wujas.md) is doing.
-- `(when: Ask [@name](../characters/butcher.md))` `(noticed by: [Empathy](../cards/empathy.md))` — [@surname](../characters/butcher.md) answers plainly: the visits matter only as deliveries to him.
+- *(noticed by: [Finesse](../cards/finesse.md))* — [@nickname](../characters/wujas.md) visits the edge house regularly.
+- *(when: Follow [@nickname](../characters/wujas.md) to the edge house)* *(noticed by: [Empathy](../cards/empathy.md))* — the handoff is an errand, not a social visit.
+- *(when: Ask [@name](../characters/wujas.md))* *(noticed by: [Empathy](../cards/empathy.md))* — [@nickname](../characters/wujas.md) deflects: he cannot explain the visits without shutting down.
+- *(when: Ask [@name](../characters/wojewoda.md))* *(noticed by: [Empathy](../cards/empathy.md))* — [@first-name](../characters/wojewoda.md) pauses: he knows exactly what [@nickname](../characters/wujas.md) is doing.
+- *(when: Ask [@name](../characters/butcher.md))* *(noticed by: [Empathy](../cards/empathy.md))* — [@surname](../characters/butcher.md) answers plainly: the visits matter only as deliveries to him.
 
 ## Actions
 

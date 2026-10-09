@@ -59,8 +59,8 @@ H1 = re.compile(r"^#\s+(.*)")
 HEADING = re.compile(r"^(#{2,6})\s+(.*)")
 FIELD = re.compile(r"\*\*(Requires|When|Prompted by|Cost|Outcome|Gives|Changes):\*\*\s*(.*)")
 OPP_NAME = re.compile(r"^\s*-\s*\*\*(.+?)\*\*")
-NOTICED_TAG = re.compile(r"`\(noticed by:\s*(.*?)\)`", re.IGNORECASE)
-WHEN_TAG = re.compile(r"`\(when:\s*(.*?)\)`", re.IGNORECASE)
+NOTICED_TAG = re.compile(r"\*\(noticed by:\s*(.*?)\)\*", re.IGNORECASE)
+WHEN_TAG = re.compile(r"\*\(when:\s*(.*?)\)\*", re.IGNORECASE)
 PROMPT_TAG = re.compile(r"<!-- Prompted by: (.*?) -->")   # hidden; own line in actions, line end on opportunities
 # "aware:<repo-relative-path>.md" is an awareness token: the existence of a
 # scene entity (character/item/location/event). It behaves as a pseudo-clue
@@ -289,11 +289,11 @@ def parse_scene(path: Path) -> tuple[Scene, list[Node]]:
 
 
 def _parse_opportunity(line: str, rel: str, title: str) -> Node | None:
-    # Opportunities have no title: - `(when: …)` `(noticed by: …)` — text → Gives: … <!-- Prompted by: … -->
+    # Opportunities have no title: - *(when: …)* *(noticed by: …)* — text → Gives: … <!-- Prompted by: … -->
     if not line.startswith("- "):
         return None
     text = re.sub(r"<!--.*?-->|→\s*Gives:.*$", "", line[2:])
-    text = re.sub(r"`\([^`]*\)`|^\s*—\s*", "", text).strip(" —")
+    text = re.sub(r"\*\((?:when|noticed by):.*?\)\*|^\s*—\s*", "", text).strip(" —")
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"", text)
     words = text.split()
     name = " ".join(words[:6]) + ("…" if len(words) > 6 else "")

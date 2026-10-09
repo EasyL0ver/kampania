@@ -407,12 +407,12 @@ def opinions_format(f: MdFile):
 PROSE_LIMIT = 250
 OUTCOME_FIELD = re.compile(r"^\s*-\s*\*\*Outcome:\*\*\s*(.*?)\s*$")
 OPP_LINE = re.compile(
-    r"^- (?:`\(when: (?P<when>(?:[^()`]|\([^()`]*\))+)\)` )?"
-    r"(?:`\(noticed by: (?P<noticed>(?:[^()`]|\([^()`]*\))+)\)` )?"
+    r"^- (?:\*\(when: (?P<when>.+?)\)\* )?"
+    r"(?:\*\(noticed by: (?P<noticed>.+?)\)\* )?"
     r"(?(when)— |(?(noticed)— |))(?P<text>[^`]*?)"
     r"(?: → Gives: (?P<gives>.+?))?"
     r"(?: <!-- Prompted by: (?P<prompted>.+?) -->)?$")
-OPP_TEXT = re.compile(r"^\s*-\s*(?:`\([^`]*\)`\s*)*(?:—\s*)?(.*?)\s*(?:→\s*Gives:.*?)?\s*(?:<!--.*-->)?$")
+OPP_TEXT = re.compile(r"^\s*-\s*(?:\*\((?:when|noticed by):.*?\)\*\s*)*(?:—\s*)?(.*?)\s*(?:→\s*Gives:.*?)?\s*(?:<!--.*-->)?$")
 
 
 def rendered(text: str) -> str:
@@ -444,8 +444,8 @@ def prose_length(f: MdFile):
                 yield r
 
 
-NOTICED_TAG = re.compile(r"`\(noticed by:\s*(.*?)\)`")
-OLD_REQ_TAG = re.compile(r"`\(requires:")
+NOTICED_TAG = re.compile(r"\*\(noticed by:\s*(.*?)\)\*")
+OLD_REQ_TAG = re.compile(r"[`*]\(requires:")
 
 
 @rule("noticed-by-format", "characters", "events", "locations", "items")
@@ -569,7 +569,7 @@ def mechanic_type(f: MdFile):
 
 @rule("opportunity-format", "characters", "events", "locations", "items")
 def opportunity_format(f: MdFile):
-    """Each opportunity is one line: - `(when: …)` `(noticed by: …)` — text → Gives: … <!-- Prompted by: … -->.
+    """Each opportunity is one line: - *(when: …)* *(noticed by: …)* — text → Gives: … <!-- Prompted by: … -->.
     No title; every part optional except the text; parts in that order."""
     s = f.section("Opportunities")
     for line, t in (s.body if s else []):
@@ -578,11 +578,14 @@ def opportunity_format(f: MdFile):
                 yield line, "Opportunities hold only one-line opportunities (- ...)"
             continue
         if t.startswith("- **"):
-            yield line, "opportunity has a title: start with `(when: …)`, `(noticed by: …)` or the text"
+            yield line, "opportunity has a title: start with *(when: …)*, *(noticed by: …)* or the text"
+            continue
+        if "`(when:" in t or "`(noticed by:" in t:
+            yield line, "gates are italic, not code (links don't render in code): *(when: …)* *(noticed by: …)*"
             continue
         m = OPP_LINE.match(t)
         if not m or not m.group("text").strip():
-            yield line, "opportunity must read: - `(when: …)` `(noticed by: …)` — text → Gives: … <!-- Prompted by: … -->"
+            yield line, "opportunity must read: - *(when: …)* *(noticed by: …)* — text → Gives: … <!-- Prompted by: … -->"
 
 
 @rule("opportunity-no-changes", "characters", "events", "locations", "items")
@@ -621,7 +624,7 @@ PROMPTED_CLUE = re.compile(r"^\[`?([a-z0-9-]+)`?\]\((?:\.\./)*clues/clues\.md#([
 PROMPTED_AWARE = re.compile(r"^aware:(characters|events|locations|items)/[a-z0-9/-]+(?:\.md|/)$")
 
 
-PROMPTED_TAG = re.compile(r"`\(prompted by:\s*(.*?)\)`", re.IGNORECASE)
+PROMPTED_TAG = re.compile(r"[`*]\(prompted by:\s*(.*?)\)[`*]", re.IGNORECASE)
 
 
 @rule("prompted-by-format", "characters", "events", "locations", "items")

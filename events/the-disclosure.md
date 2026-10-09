@@ -41,10 +41,10 @@
 
 ## Opportunities
 
-- `(noticed by: [Speech](../cards/speech.md))` — [@name](../characters/neighbour.md) wants someone to hit; [@name](../characters/junior.md) sees a way out; [@name](../characters/zofia.md) is ready to leave; [@name](../characters/foreman.md) wants to fight the water; [@name](../characters/barbara.md) is terrified; [@name](../characters/matrona.md) follows [@first-name](../characters/wojewoda.md)'s cue.
-- `(when: Form A)` `(noticed by: [Finesse](../cards/finesse.md))` — he is spending authority he cannot replace. Public contradiction can break the gathering.
-- `(noticed by: [Speech](../cards/speech.md))` — the crowd wants to know how long the danger was known. The honest answer can turn the gathering into a mob.
-- `(noticed by: [Finesse](../cards/finesse.md))` — the crowd checks [@name](../characters/priest.md). A word from him can bless evacuation or violence.
+- *(noticed by: [Speech](../cards/speech.md))* — [@name](../characters/neighbour.md) wants someone to hit; [@name](../characters/junior.md) sees a way out; [@name](../characters/zofia.md) is ready to leave; [@name](../characters/foreman.md) wants to fight the water; [@name](../characters/barbara.md) is terrified; [@name](../characters/matrona.md) follows [@first-name](../characters/wojewoda.md)'s cue.
+- *(when: Form A)* *(noticed by: [Finesse](../cards/finesse.md))* — he is spending authority he cannot replace. Public contradiction can break the gathering.
+- *(noticed by: [Speech](../cards/speech.md))* — the crowd wants to know how long the danger was known. The honest answer can turn the gathering into a mob.
+- *(noticed by: [Finesse](../cards/finesse.md))* — the crowd checks [@name](../characters/priest.md). A word from him can bless evacuation or violence.
 
 ## Actions
 

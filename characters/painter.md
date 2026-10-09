@@ -37,7 +37,7 @@ His hands are the only alive part of him: long-fingered, always stained with cad
 
 ## Opportunities
 
-- `(when: Committee authority, [@first-name](secondary/ewa-rzepka.md) present during the census)` — While the committee takes the household down, [@name](secondary/ewa-rzepka.md) settles on the stool beside her father and asks him, lightly, to paint her portrait for once. [@first-name](painter.md) turns it away gently: he offers to paint the house, the valley, the cerkiew on the hill, anything but her. Every finished canvas in the room is a place, never a person. He paints the world he lives in and leaves the people out of it. → Gives: [emil-doesnt-paint-people](../clues/clues.md#emil-doesnt-paint-people) <!-- Prompted by: aware:characters/painter.md -->
+- *(when: Committee authority, [@first-name](secondary/ewa-rzepka.md) present during the census)* — While the committee takes the household down, [@name](secondary/ewa-rzepka.md) settles on the stool beside her father and asks him, lightly, to paint her portrait for once. [@first-name](painter.md) turns it away gently: he offers to paint the house, the valley, the cerkiew on the hill, anything but her. Every finished canvas in the room is a place, never a person. He paints the world he lives in and leaves the people out of it. → Gives: [emil-doesnt-paint-people](../clues/clues.md#emil-doesnt-paint-people) <!-- Prompted by: aware:characters/painter.md -->
 
 ## Actions
 

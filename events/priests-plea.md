@@ -36,11 +36,11 @@
 
 ## Opportunities
 
-- `(noticed by: [Empathy](../cards/empathy.md))` — [@title](../characters/priest.md) [@surname](../characters/priest.md) has come to a layperson for reassurance a priest is supposed to give. He is frightened.
-- `(noticed by: [Culture](../cards/culture.md) OR [History](../cards/history.md))` — every scripture example he reaches for is a judgment narrative. His fear points toward the valley deserving to drown.
-- `(noticed by: [Devotion](../cards/devotion.md))` — He is not speaking generally: he knows a specific sin, and he does not name it.
-- `(noticed by: [Devotion](../cards/devotion.md))` — He touches his collar: the confessional seal is the wall keeping his knowledge in, and he is exhausted by holding it.
-- `(noticed by: [Chainsmoker](../cards/chainsmoker.md) AND [priest-smokes](../clues/clues.md#priest-smokes))` — with the cigarette lit, a smoker reads the brand off the paper at once: premium Carmen, the same the village would name at [@first-name](../characters/ciotka.md)'s door. → Gives: [`priest-smokes-carmen`](../clues/clues.md#priest-smokes-carmen)
+- *(noticed by: [Empathy](../cards/empathy.md))* — [@title](../characters/priest.md) [@surname](../characters/priest.md) has come to a layperson for reassurance a priest is supposed to give. He is frightened.
+- *(noticed by: [Culture](../cards/culture.md) OR [History](../cards/history.md))* — every scripture example he reaches for is a judgment narrative. His fear points toward the valley deserving to drown.
+- *(noticed by: [Devotion](../cards/devotion.md))* — He is not speaking generally: he knows a specific sin, and he does not name it.
+- *(noticed by: [Devotion](../cards/devotion.md))* — He touches his collar: the confessional seal is the wall keeping his knowledge in, and he is exhausted by holding it.
+- *(noticed by: [Chainsmoker](../cards/chainsmoker.md) AND [priest-smokes](../clues/clues.md#priest-smokes))* — with the cigarette lit, a smoker reads the brand off the paper at once: premium Carmen, the same the village would name at [@first-name](../characters/ciotka.md)'s door. → Gives: [`priest-smokes-carmen`](../clues/clues.md#priest-smokes-carmen)
 
 ## Actions
 

@@ -34,9 +34,9 @@
 
 ## Opportunities
 
-- `(noticed by: [Survival](../cards/survival.md))` — Dogs appear near the committee, and the same dogs appear near multiple places the players visit.
-- `(noticed by: [Finesse](../cards/finesse.md))` — At a distance, [@name](../characters/butcher.md) is present often enough that coincidence is unlikely.
-- `(noticed by: [Violence](../cards/violence.md))` — Missing items, open doors, or dead animals are threats without written messages.
+- *(noticed by: [Survival](../cards/survival.md))* — Dogs appear near the committee, and the same dogs appear near multiple places the players visit.
+- *(noticed by: [Finesse](../cards/finesse.md))* — At a distance, [@name](../characters/butcher.md) is present often enough that coincidence is unlikely.
+- *(noticed by: [Violence](../cards/violence.md))* — Missing items, open doors, or dead animals are threats without written messages.
 
 ## Actions
 

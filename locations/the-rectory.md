@@ -20,7 +20,7 @@ The plebania beside the church in [@name](new-village.md).
 
 ## Opportunities
 
-- `(noticed by: [Chainsmoker](../cards/chainsmoker.md))` — the stale smell and a smoker's stain on his fingers give him away. The priest smokes, and hides it. The brand does not show from this alone. → Gives: [priest-smokes](../clues/clues.md#priest-smokes)
+- *(noticed by: [Chainsmoker](../cards/chainsmoker.md))* — the stale smell and a smoker's stain on his fingers give him away. The priest smokes, and hides it. The brand does not show from this alone. → Gives: [priest-smokes](../clues/clues.md#priest-smokes)
 
 ## Actions
 

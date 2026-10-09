@@ -29,8 +29,8 @@ The State Agricultural Farm: fields, barns, livestock pens, tool shed.
 
 ## Opportunities
 
-- `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — One ledger name does not match any worker present or recognized on the farm. → Gives: [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent)
-- `(noticed by: [Handiwork](../cards/handiwork.md))` — The livestock pens show repeated wolf attacks over several weeks. → Gives: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock) <!-- Prompted by: aware:locations/pgr-farm.md -->
+- *(noticed by: [Bureaucracy](../cards/bureaucracy.md))* — One ledger name does not match any worker present or recognized on the farm. → Gives: [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent)
+- *(noticed by: [Handiwork](../cards/handiwork.md))* — The livestock pens show repeated wolf attacks over several weeks. → Gives: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock) <!-- Prompted by: aware:locations/pgr-farm.md -->
 
 ## Actions
 

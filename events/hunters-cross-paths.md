@@ -26,10 +26,10 @@ A rifleman confronting a knife-wielding hunter as dogs scatter through the clear
 
 ## Opportunities
 
-- `(noticed by: [Violence](../cards/violence.md))` — [@surname](../characters/neighbour.md) is louder, but [@surname](../characters/butcher.md) is the one ready to kill. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
-- `(noticed by: [Empathy](../cards/empathy.md))` — [@surname](../characters/neighbour.md) openly names [@surname](../characters/butcher.md) as more dangerous than the wolves. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen) <!-- Prompted by: [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves) -->
-- `(noticed by: [Violence](../cards/violence.md))` — [@surname](../characters/butcher.md)'s breathing stays even, his eyes stay flat, and the knife is already out. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
-- `(noticed by: [Survival](../cards/survival.md))` — if the standoff turns violent, it will be [@surname](../characters/butcher.md) and three trained dogs against [@surname](../characters/neighbour.md). → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+- *(noticed by: [Violence](../cards/violence.md))* — [@surname](../characters/neighbour.md) is louder, but [@surname](../characters/butcher.md) is the one ready to kill. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+- *(noticed by: [Empathy](../cards/empathy.md))* — [@surname](../characters/neighbour.md) openly names [@surname](../characters/butcher.md) as more dangerous than the wolves. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen) <!-- Prompted by: [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves) -->
+- *(noticed by: [Violence](../cards/violence.md))* — [@surname](../characters/butcher.md)'s breathing stays even, his eyes stay flat, and the knife is already out. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+- *(noticed by: [Survival](../cards/survival.md))* — if the standoff turns violent, it will be [@surname](../characters/butcher.md) and three trained dogs against [@surname](../characters/neighbour.md). → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
 
 ## Actions
 

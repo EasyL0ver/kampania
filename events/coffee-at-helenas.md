@@ -35,10 +35,10 @@
 
 ## Opportunities
 
-- `(noticed by: [Culture](../cards/culture.md))` — The coffee and generosity are excessive; they manage a threat rather than host guests.
-- `(noticed by: [Finesse](../cards/finesse.md))` — [@name](../characters/matrona.md) never asks what the players have found.
-- `(noticed by: [Finesse](../cards/finesse.md))` — Every practical argument she makes ends at leaving the truth buried. → Gives: [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood)
-- `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/painter.md) flinches at his own name and will not be alone with [@name](../characters/matrona.md) and outsiders.
+- *(noticed by: [Culture](../cards/culture.md))* — The coffee and generosity are excessive; they manage a threat rather than host guests.
+- *(noticed by: [Finesse](../cards/finesse.md))* — [@name](../characters/matrona.md) never asks what the players have found.
+- *(noticed by: [Finesse](../cards/finesse.md))* — Every practical argument she makes ends at leaving the truth buried. → Gives: [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood)
+- *(noticed by: [Empathy](../cards/empathy.md))* — [@name](../characters/painter.md) flinches at his own name and will not be alone with [@name](../characters/matrona.md) and outsiders.
 
 ## Actions
 

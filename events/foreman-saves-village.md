@@ -35,10 +35,10 @@
 
 ## Opportunities
 
-- `(noticed by: [Handiwork](../cards/handiwork.md) OR [Geology](../cards/geology.md) OR [gap-is-blocked](../clues/clues.md#gap-is-blocked))` — The plan is sound: the plug dooms the village, the debris is breachable, and floodwater will widen a breach. → Gives: [`gap-is-blocked`](../clues/clues.md#gap-is-blocked)
-- `(noticed by: [Handiwork](../cards/handiwork.md) OR [History](../cards/history.md))` — Twenty-year-old buried munitions are a risk: they may detonate from a knock, drop, spark, or heat.
-- `(noticed by: [Medicine](../cards/medicine.md))` — [@name](../characters/foreman.md)'s lack of sleep, food, cold response, and pain response is not normal endurance.
-- `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/zofia.md) is weighing the village against her husband.
+- *(noticed by: [Handiwork](../cards/handiwork.md) OR [Geology](../cards/geology.md) OR [gap-is-blocked](../clues/clues.md#gap-is-blocked))* — The plan is sound: the plug dooms the village, the debris is breachable, and floodwater will widen a breach. → Gives: [`gap-is-blocked`](../clues/clues.md#gap-is-blocked)
+- *(noticed by: [Handiwork](../cards/handiwork.md) OR [History](../cards/history.md))* — Twenty-year-old buried munitions are a risk: they may detonate from a knock, drop, spark, or heat.
+- *(noticed by: [Medicine](../cards/medicine.md))* — [@name](../characters/foreman.md)'s lack of sleep, food, cold response, and pain response is not normal endurance.
+- *(noticed by: [Empathy](../cards/empathy.md))* — [@name](../characters/zofia.md) is weighing the village against her husband.
 
 ## Exits
 

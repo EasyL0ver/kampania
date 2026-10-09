@@ -25,9 +25,9 @@
 
 ## Opportunities
 
-- `(when: [@name](../characters/wojewoda.md) home)` `(noticed by: [Medicine](../cards/medicine.md))` — [@first-name](../characters/wojewoda.md)'s ribs show an old badly healed injury from a single heavy blow. → Gives: [wojewoda-was-hurt-that-night](../clues/clues.md#wojewoda-was-hurt-that-night)
-- `(when: Culture or faith knowledge)` — The small wooden icon on the shelf is Greek Catholic or Orthodox Lemko devotional art. → Gives: [siblings-are-lemko](../clues/clues.md#siblings-are-lemko)
-- `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/wife.md) hosts politely while staying tense. → Gives: [irena-is-watchful](../clues/clues.md#irena-is-watchful)
-- `(when: [@name](../characters/junior.md) present)` `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/junior.md) boasts about the gun in his father's office. → Gives: [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
+- *(when: [@name](../characters/wojewoda.md) home)* *(noticed by: [Medicine](../cards/medicine.md))* — [@first-name](../characters/wojewoda.md)'s ribs show an old badly healed injury from a single heavy blow. → Gives: [wojewoda-was-hurt-that-night](../clues/clues.md#wojewoda-was-hurt-that-night)
+- *(when: Culture or faith knowledge)* — The small wooden icon on the shelf is Greek Catholic or Orthodox Lemko devotional art. → Gives: [siblings-are-lemko](../clues/clues.md#siblings-are-lemko)
+- *(noticed by: [Empathy](../cards/empathy.md))* — [@first-name](../characters/wife.md) hosts politely while staying tense. → Gives: [irena-is-watchful](../clues/clues.md#irena-is-watchful)
+- *(when: [@name](../characters/junior.md) present)* *(noticed by: [Empathy](../cards/empathy.md))* — [@first-name](../characters/junior.md) boasts about the gun in his father's office. → Gives: [wojewoda-has-gun](../clues/clues.md#wojewoda-has-gun)
 
 ## Actions

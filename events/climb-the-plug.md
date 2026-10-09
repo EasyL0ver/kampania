@@ -25,16 +25,16 @@ Facing the steep plug at the ridge gap.
 
 ## Opportunities
 
-- `(noticed by: [Survival](../cards/survival.md))` — The lower bank seems easy; the traverse will need a rope. The top pitch can't be read from here.
-- `(noticed by: [Physique](../cards/physique.md))` — The mud underfoot seems easy.
-- `(noticed by: [Handiwork](../cards/handiwork.md) AND [@name](../items/rope.md))` — Securing a fall on this needs two people on the line, not one.
-- `(noticed by: [Medicine](../cards/medicine.md))` — A slip off the lower bank is bruises and mud. Off the traverse onto the rock, broken bones. From the top pitch you break badly. None of it kills you by itself; a fall here hurts, it doesn't kill.
-- `(noticed by: [Violence](../cards/violence.md))` — You've seen men fall. Roughly: the bank bruises, the traverse breaks bones, the top breaks you badly, but none of it puts a man in the ground. Less exact than a medic's read, close enough.
-- `(when: climbed past lower bank)` `(noticed by: [Physique](../cards/physique.md))` — The crossing looks very steep, but I think I can take it.
-- `(when: climbed past lower bank)` `(noticed by: [Finesse](../cards/finesse.md))` — Steep, but there's a delicate line through it if I'm careful.
-- `(when: climbed past the killzone)` `(noticed by: [Physique](../cards/physique.md))` — It's much worse than I realized. I can try it, but I'm scared of falling.
-- `(when: climbed past the killzone)` `(noticed by: [Finesse](../cards/finesse.md))` — No holds worth the name, but I can balance it, barely.
-- `(when: the crux is anchored)` `(noticed by: [Handiwork](../cards/handiwork.md))` — The clamp up top is a fixed point. You can rig a line to it and haul a body up on its own, so someone who can't climb still reaches the crest.
+- *(noticed by: [Survival](../cards/survival.md))* — The lower bank seems easy; the traverse will need a rope. The top pitch can't be read from here.
+- *(noticed by: [Physique](../cards/physique.md))* — The mud underfoot seems easy.
+- *(noticed by: [Handiwork](../cards/handiwork.md) AND [@name](../items/rope.md))* — Securing a fall on this needs two people on the line, not one.
+- *(noticed by: [Medicine](../cards/medicine.md))* — A slip off the lower bank is bruises and mud. Off the traverse onto the rock, broken bones. From the top pitch you break badly. None of it kills you by itself; a fall here hurts, it doesn't kill.
+- *(noticed by: [Violence](../cards/violence.md))* — You've seen men fall. Roughly: the bank bruises, the traverse breaks bones, the top breaks you badly, but none of it puts a man in the ground. Less exact than a medic's read, close enough.
+- *(when: climbed past lower bank)* *(noticed by: [Physique](../cards/physique.md))* — The crossing looks very steep, but I think I can take it.
+- *(when: climbed past lower bank)* *(noticed by: [Finesse](../cards/finesse.md))* — Steep, but there's a delicate line through it if I'm careful.
+- *(when: climbed past the killzone)* *(noticed by: [Physique](../cards/physique.md))* — It's much worse than I realized. I can try it, but I'm scared of falling.
+- *(when: climbed past the killzone)* *(noticed by: [Finesse](../cards/finesse.md))* — No holds worth the name, but I can balance it, barely.
+- *(when: the crux is anchored)* *(noticed by: [Handiwork](../cards/handiwork.md))* — The clamp up top is a fixed point. You can rig a line to it and haul a body up on its own, so someone who can't climb still reaches the crest.
 
 ## Actions
 

@@ -52,7 +52,7 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 
 ## Opportunities
 
-- `(when: [@first-name](foreman.md) talks about the irrigation ditch)` `(noticed by: [Empathy](../cards/empathy.md))` — His voice tightens and he won't meet your eye while praising the ditch. → Gives: [foreman-uneasy-about-ditch](../clues/clues.md#foreman-uneasy-about-ditch) <!-- Prompted by: [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain) -->
+- *(when: [@first-name](foreman.md) talks about the irrigation ditch)* *(noticed by: [Empathy](../cards/empathy.md))* — His voice tightens and he won't meet your eye while praising the ditch. → Gives: [foreman-uneasy-about-ditch](../clues/clues.md#foreman-uneasy-about-ditch) <!-- Prompted by: [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain) -->
 
 ## Actions
 

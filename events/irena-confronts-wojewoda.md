@@ -29,8 +29,8 @@
 
 ## Opportunities
 
-- `(when: present in the house)` `(noticed by: [Finesse](../cards/finesse.md))` — the fight is about something buried from 1954, and [@first-name](../characters/wife.md) is trying to stop [@first-name](../characters/wojewoda.md) from speaking openly. → Gives: [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
-- `(when: present in the house)` `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/wojewoda.md) is certain, not ashamed; [@first-name](../characters/wife.md) is controlling the outcome by protecting him from the consequences of his certainty. → Gives: [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
+- *(when: present in the house)* *(noticed by: [Finesse](../cards/finesse.md))* — the fight is about something buried from 1954, and [@first-name](../characters/wife.md) is trying to stop [@first-name](../characters/wojewoda.md) from speaking openly. → Gives: [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
+- *(when: present in the house)* *(noticed by: [Empathy](../cards/empathy.md))* — [@first-name](../characters/wojewoda.md) is certain, not ashamed; [@first-name](../characters/wife.md) is controlling the outcome by protecting him from the consequences of his certainty. → Gives: [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
 
 ## Actions
 

@@ -42,11 +42,11 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 
 ## Opportunities
 
-- `(when: Census interview)` `(noticed by: [Empathy](../cards/empathy.md))` — When the missing father comes up, her warmth stays in place, but her jaw sets and she waits for the question to pass.
-- `(when: Census interview)` `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — A census form with no father listed is a bureaucratic flag.
-- `(when: Census interview)` `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — Three household members and one farm-labour income cannot explain the house and supplies. → Gives: [`barbara-has-help`](../clues/clues.md#barbara-has-help)
-- `(when: Ask about the village)` `(noticed by: [Finesse](../cards/finesse.md))` — [@first-name](barbara.md) fishes: every answer ends with a question about the committee, the survey, or what the players have found. → Gives: [`barbara-is-a-sieve`](../clues/clues.md#barbara-is-a-sieve)
-- `(when: Ask about the village)` `(noticed by: [Finesse](../cards/finesse.md))` — [@first-name](barbara.md)'s kind descriptions skip [@name](butcher.md) unless asked, soften [@name](wujas.md), and avoid judging [@name](matrona.md).
+- *(when: Census interview)* *(noticed by: [Empathy](../cards/empathy.md))* — When the missing father comes up, her warmth stays in place, but her jaw sets and she waits for the question to pass.
+- *(when: Census interview)* *(noticed by: [Bureaucracy](../cards/bureaucracy.md))* — A census form with no father listed is a bureaucratic flag.
+- *(when: Census interview)* *(noticed by: [Bureaucracy](../cards/bureaucracy.md))* — Three household members and one farm-labour income cannot explain the house and supplies. → Gives: [`barbara-has-help`](../clues/clues.md#barbara-has-help)
+- *(when: Ask about the village)* *(noticed by: [Finesse](../cards/finesse.md))* — [@first-name](barbara.md) fishes: every answer ends with a question about the committee, the survey, or what the players have found. → Gives: [`barbara-is-a-sieve`](../clues/clues.md#barbara-is-a-sieve)
+- *(when: Ask about the village)* *(noticed by: [Finesse](../cards/finesse.md))* — [@first-name](barbara.md)'s kind descriptions skip [@name](butcher.md) unless asked, soften [@name](wujas.md), and avoid judging [@name](matrona.md).
 
 ## Actions
 

@@ -46,34 +46,34 @@ This means Opportunities are the **payoff for the visit** — the minimum a play
 
 Opportunities are **what the GM reveals to a player who clears a gate** — something a plain visitor doesn't get. The player doesn't ask; the GM delivers it based on what the player has (skills, completed actions, held clues, world state).
 
-**Opportunities are ALWAYS gated.** Every opportunity carries a `(noticed by: …)` tag, a `(when: …)` tag, or both. There is no such thing as an ungated opportunity — a thing everyone perceives on arrival is a **Setup** fact, not an opportunity. If it isn't gated, it doesn't belong in this section.
+**Opportunities are ALWAYS gated.** Every opportunity carries a `*(noticed by: …)*` tag, a `*(when: …)*` tag, or both. There is no such thing as an ungated opportunity — a thing everyone perceives on arrival is a **Setup** fact, not an opportunity. If it isn't gated, it doesn't belong in this section.
 
 ### Format
 
 ```
-- `(when: [world state])` `(noticed by: [Card](../cards/file.md) AND [clue-id](../clues/clues.md#clue-id))` — [What the gated player notices]. → Gives: [`clue-id`](../clues/clues.md#clue-id) <!-- Prompted by: … -->
+- *(when: [world state])* *(noticed by: [Card](../cards/file.md) AND [clue-id](../clues/clues.md#clue-id))* — [What the gated player notices]. → Gives: [`clue-id`](../clues/clues.md#clue-id) <!-- Prompted by: … -->
 ```
 
-One line, no title, built to be scanned. The parts always come in this order: `(when: …)`, `(noticed by: …)`, ` — ` and the text, `→ Gives: …`, then the hidden `<!-- Prompted by: … -->`. Every part but the text is optional (the ` — ` only follows a gate). The text must stand on its own: it names what is observed. `Prompted by` is a comment, so it never renders; same meaning and format as an action's (Actions rule 9). Checked by `python validate.py` (rule `opportunity-format`).
+One line, no title, built to be scanned. The parts always come in this order: `*(when: …)*`, `*(noticed by: …)*`, ` — ` and the text, `→ Gives: …`, then the hidden `<!-- Prompted by: … -->`. Every part but the text is optional (the ` — ` only follows a gate). The text must stand on its own: it names what is observed. `Prompted by` is a comment, so it never renders; same meaning and format as an action's (Actions rule 9). Checked by `python validate.py` (rule `opportunity-format`).
 
 ### The gate
 
 An opportunity's gate has two halves. Both are **silent**: the GM never hints at a missing one, because the player never asked for anything.
 
-- **`(noticed by: …)` — who perceives it.** A boolean expression over what the player holds: skill cards (`cards/`), items (`items/`) and **clues**, as links, combined with `AND`, `OR` (uppercase) and parentheses. Unlike an action's `Requires:`, a clue belongs here: knowing something changes what you notice. Checked by `python validate.py` (rule `noticed-by-format`).
-- **`(when: …)` — whether it is there at all.** World state: who is present, an action already done, NPC/world state, an NPC knowing a clue (`npc:` followed by the clue link). Same meaning as an action's `When:`. Format not standardised yet.
+- **`*(noticed by: …)*` — who perceives it.** A boolean expression over what the player holds: skill cards (`cards/`), items (`items/`) and **clues**, as links, combined with `AND`, `OR` (uppercase) and parentheses. Unlike an action's `Requires:`, a clue belongs here: knowing something changes what you notice. Checked by `python validate.py` (rule `noticed-by-format`).
+- **`*(when: …)*` — whether it is there at all.** World state: who is present, an action already done, NPC/world state, an NPC knowing a clue (`npc:` followed by the clue link). Same meaning as an action's `When:`. Format not standardised yet.
 
 ```
-- `(noticed by: [Devotion](../cards/devotion.md) AND [ciotka-is-devout](../clues/clues.md#ciotka-is-devout))` — [@first-name](../characters/ciotka.md)'s pew is the only empty one. …
-- `(when: talked to [@name](../characters/wojewoda.md))` `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/wojewoda.md) sweats, eyes flicking to the door. → Gives: [`wojewoda-rattled`](../clues/clues.md#wojewoda-rattled)
+- *(noticed by: [Devotion](../cards/devotion.md) AND [ciotka-is-devout](../clues/clues.md#ciotka-is-devout))* — [@first-name](../characters/ciotka.md)'s pew is the only empty one. …
+- *(when: talked to [@name](../characters/wojewoda.md))* *(noticed by: [Empathy](../cards/empathy.md))* — [@first-name](../characters/wojewoda.md) sweats, eyes flicking to the door. → Gives: [`wojewoda-rattled`](../clues/clues.md#wojewoda-rattled)
 ```
 
-Meet **every** condition → you get it. Miss one → the opportunity isn't there for you at all. Opportunities never use `(requires: …)` — that word belongs to actions.
+Meet **every** condition → you get it. Miss one → the opportunity isn't there for you at all. Opportunities never use `*(requires: …)*` — that word belongs to actions.
 
 ### Rules
 
 1. **Free means free.** An Opportunity never costs time. If it requires effort (digging, following, breaking in), it's an Action.
-2. **Always gated. Ungated → Setup.** Every opportunity has a `(noticed by: …)` and/or `(when: …)`. A fact everyone gets on the visit is a Setup bullet, not an opportunity. Never write an ungated opportunity.
+2. **Always gated. Ungated → Setup.** Every opportunity has a `*(noticed by: …)*` and/or `*(when: …)*`. A fact everyone gets on the visit is a Setup bullet, not an opportunity. Never write an ungated opportunity.
 3. **The gate is hard, not a layer.** A player who misses any condition gets **nothing**, not a lesser version. There is no "base everyone gets" for an opportunity — the base *is* Setup. A layered reveal is the Setup fact (everyone) plus a gated opportunity (the skill), never a tiered opportunity line.
 4. **Setup must state the observable.** If an opportunity's gate is a skill reading a detail, that detail must already appear in Setup. Players can't notice what the GM never described.
 5. **Binary output.** An Opportunity either gives a clue or gives nothing (atmosphere). There is no third state.
@@ -102,7 +102,7 @@ Actions are **what players do when they declare intent.** Every action produces 
 A skill that would reveal more is **not** an Outcome branch — it is a separate **opportunity** gated by that action plus the skill:
 
 ```
-- `(when: [Action Name] done)` `(noticed by: [Skill])` — [what the skilled player also notices]. → Gives: [`clue-id`](link)
+- *(when: [Action Name] done)* *(noticed by: [Skill])* — [what the skilled player also notices]. → Gives: [`clue-id`](link)
 ```
 
 ### When does an action cost time?
@@ -140,7 +140,7 @@ An action costs time when it eats a meaningful chunk of the character's day — 
 
 7. **A skill gates an action or opens an opportunity — never enriches it.**
    - In a `Requires:` set → **hard gate.** No skill means you can't take the action (or don't get the gated clue) at all.
-   - Reveals more than the flat Outcome → that extra is a separate **opportunity**, `(when: <this action> done)` `(noticed by: <skill>)`. Not a branch inside Outcome.
+   - Reveals more than the flat Outcome → that extra is a separate **opportunity**, `*(when: <this action> done)*` `*(noticed by: <skill>)*`. Not a branch inside Outcome.
    An Action's Outcome is flat — one result for everyone who clears `Requires:`. Skills never sit as enrich-branches in an Outcome.
 8. **Cost is strict.** It is one or more of these parts, joined by ` + `, and nothing else:
    - `N time` — time cards spent (e.g. `1 time`, `2 time`)
@@ -264,11 +264,11 @@ Before committing a scene file, verify:
 - [ ] Every Cost is `N time` / `N composure` / an item link joined by ` + `; free actions have no Cost line
 - [ ] `python validate.py` reports 0 errors
 - [ ] No action produces "nothing" — if it would, cut it or find the real outcome
-- [ ] Every opportunity is gated with `(noticed by: …)` and/or `(when: …)` — ungated observations live in Setup, not Opportunities
+- [ ] Every opportunity is gated with `*(noticed by: …)*` and/or `*(when: …)*` — ungated observations live in Setup, not Opportunities
 - [ ] Skill-gated opportunities read off a detail Setup states
 - [ ] No tiered "base + skill" lines — layered reveals are split into separate gated opportunities
-- [ ] Action Outcomes are flat — no skill branches; a skill reveal is an opportunity `(when: <action> done)` `(noticed by: <skill>)`
+- [ ] Action Outcomes are flat — no skill branches; a skill reveal is an opportunity `*(when: <action> done)*` `*(noticed by: <skill>)*`
 - [ ] No use of "Leads to" or "Result" as outcome labels
-- [ ] Opportunity gates: player side in `(noticed by: …)` (cards/items/clues), world side in `(when: …)`; never `(requires: …)`
+- [ ] Opportunity gates: player side in `*(noticed by: …)*` (cards/items/clues), world side in `*(when: …)*`; never `*(requires: …)*`
 - [ ] Bond gates link the NPC's Bond card (`cards/bond-<character>.md`) in `Requires:`
 - [ ] Actions that belong to a character (not a place) are in the character file

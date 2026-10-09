@@ -21,7 +21,7 @@ The ditch running from the PGR fields down to the low ground east of [@name](new
 
 ## Opportunities
 
-- `(noticed by: [Survival](../cards/survival.md) OR [Handiwork](../cards/handiwork.md))` — This rank patch of thick volunteer cereal and sour, caked ground reads plainly to a country eye: a large quantity of grain was tipped out here and left to rot, not spread as feed or sown as seed. → Gives: [grain-has-been-dumped](../clues/clues.md#grain-has-been-dumped) <!-- Prompted by: aware:locations/the-irrigation-ditch.md -->
+- *(noticed by: [Survival](../cards/survival.md) OR [Handiwork](../cards/handiwork.md))* — This rank patch of thick volunteer cereal and sour, caked ground reads plainly to a country eye: a large quantity of grain was tipped out here and left to rot, not spread as feed or sown as seed. → Gives: [grain-has-been-dumped](../clues/clues.md#grain-has-been-dumped) <!-- Prompted by: aware:locations/the-irrigation-ditch.md -->
 
 ## Actions
 

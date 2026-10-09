@@ -60,7 +60,7 @@ He knows the official history, that the old village was Lemko and was cleared in
 
 ## Opportunities
 
-- `(noticed by: [Bureaucracy](../cards/bureaucracy.md) OR [History](../cards/history.md))` — The jacket and cadence mark what he was before the bottle: an educated man, a teacher, and someone the state broke on purpose.
+- *(noticed by: [Bureaucracy](../cards/bureaucracy.md) OR [History](../cards/history.md))* — The jacket and cadence mark what he was before the bottle: an educated man, a teacher, and someone the state broke on purpose.
 
 ## Actions
 

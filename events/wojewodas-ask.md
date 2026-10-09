@@ -27,8 +27,8 @@
 
 ## Opportunities
 
-- `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/wojewoda.md) is asking for the villagers, not for his own compensation.
-- `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — The request is fraud on paper: deliberate false property recording against the state.
+- *(noticed by: [Empathy](../cards/empathy.md))* — [@first-name](../characters/wojewoda.md) is asking for the villagers, not for his own compensation.
+- *(noticed by: [Bureaucracy](../cards/bureaucracy.md))* — The request is fraud on paper: deliberate false property recording against the state.
 
 ## Actions
 

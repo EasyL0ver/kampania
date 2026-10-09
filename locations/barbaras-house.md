@@ -36,12 +36,12 @@ The edge of [@name](new-village.md), beside [@name](../characters/neighbour.md)'
 
 ## Opportunities
 
-- `(noticed by: [Culture](../cards/culture.md) OR [Superstitious](../cards/superstitious.md))` — The coverings are systematic, old, and tied to death mourning. → Gives: [covered-mirrors](../clues/clues.md#covered-mirrors) <!-- Prompted by: aware:locations/barbaras-house.md -->
+- *(noticed by: [Culture](../cards/culture.md) OR [Superstitious](../cards/superstitious.md))* — The coverings are systematic, old, and tied to death mourning. → Gives: [covered-mirrors](../clues/clues.md#covered-mirrors) <!-- Prompted by: aware:locations/barbaras-house.md -->
 - A small three-barred crucifix hangs in Babcia's corner, unlike the Roman cross on the wall. → Gives: [three-barred-cross-in-babcias-room](../clues/clues.md#three-barred-cross-in-babcias-room) <!-- Prompted by: aware:locations/barbaras-house.md -->
-- `(noticed by: [Handiwork](../cards/handiwork.md))` — The red-brick house's construction does not match [@first-name](../characters/barbara.md)'s poverty; the work used better resources than she could afford. → Gives: [barbara-has-help](../clues/clues.md#barbara-has-help) <!-- Prompted by: aware:locations/barbaras-house.md -->
-- `(noticed by: [Empathy](../cards/empathy.md))` — [@surname](../characters/neighbour.md) at the fence: his help reads as guilt and obligation, not courtship. → Gives: [barbara-has-help](../clues/clues.md#barbara-has-help) <!-- Prompted by: aware:locations/barbaras-house.md -->
-- `(noticed by: [Language](../cards/language.md))` — To a Ukrainian speaker, her muttering is a very weird, unfamiliar variant of the language. <!-- Prompted by: aware:locations/barbaras-house.md -->
-- `(when: [@name](../characters/hag.md) killed)` `(noticed by: [Superstitious](../cards/superstitious.md))` — Babcia notices the night singing has stopped. → Gives: [singing-in-the-night](../clues/clues.md#singing-in-the-night) <!-- Prompted by: aware:locations/barbaras-house.md -->
-- `(when: staying overnight at [@first-name](../characters/barbara.md)'s house)` — Awake in the dark, you hear it yourself: a woman singing for the dead, far out in the forest. Someone lives out there. → Gives: aware:characters/hag.md <!-- Prompted by: aware:locations/barbaras-house.md -->
+- *(noticed by: [Handiwork](../cards/handiwork.md))* — The red-brick house's construction does not match [@first-name](../characters/barbara.md)'s poverty; the work used better resources than she could afford. → Gives: [barbara-has-help](../clues/clues.md#barbara-has-help) <!-- Prompted by: aware:locations/barbaras-house.md -->
+- *(noticed by: [Empathy](../cards/empathy.md))* — [@surname](../characters/neighbour.md) at the fence: his help reads as guilt and obligation, not courtship. → Gives: [barbara-has-help](../clues/clues.md#barbara-has-help) <!-- Prompted by: aware:locations/barbaras-house.md -->
+- *(noticed by: [Language](../cards/language.md))* — To a Ukrainian speaker, her muttering is a very weird, unfamiliar variant of the language. <!-- Prompted by: aware:locations/barbaras-house.md -->
+- *(when: [@name](../characters/hag.md) killed)* *(noticed by: [Superstitious](../cards/superstitious.md))* — Babcia notices the night singing has stopped. → Gives: [singing-in-the-night](../clues/clues.md#singing-in-the-night) <!-- Prompted by: aware:locations/barbaras-house.md -->
+- *(when: staying overnight at [@first-name](../characters/barbara.md)'s house)* — Awake in the dark, you hear it yourself: a woman singing for the dead, far out in the forest. Someone lives out there. → Gives: aware:characters/hag.md <!-- Prompted by: aware:locations/barbaras-house.md -->
 
 ## Actions

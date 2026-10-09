@@ -24,9 +24,9 @@
 
 ## Opportunities
 
-- `(noticed by: [Survival](../cards/survival.md))` — the dogs move as an extension of [@surname](../characters/butcher.md)'s body. → Gives: [`rezen-hunts-wolves`](../clues/clues.md#rezen-hunts-wolves) <!-- Prompted by: [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt) -->
-- `(noticed by: [Violence](../cards/violence.md))` — [@surname](../characters/butcher.md) is not nervous; his hands want something sharp. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
-- `(noticed by: [Empathy](../cards/empathy.md))` — [@surname](../characters/butcher.md) is most relaxed while tracking prey in the forest.
+- *(noticed by: [Survival](../cards/survival.md))* — the dogs move as an extension of [@surname](../characters/butcher.md)'s body. → Gives: [`rezen-hunts-wolves`](../clues/clues.md#rezen-hunts-wolves) <!-- Prompted by: [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt) -->
+- *(noticed by: [Violence](../cards/violence.md))* — [@surname](../characters/butcher.md) is not nervous; his hands want something sharp. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+- *(noticed by: [Empathy](../cards/empathy.md))* — [@surname](../characters/butcher.md) is most relaxed while tracking prey in the forest.
 
 ## Actions
 

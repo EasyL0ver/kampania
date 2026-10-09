@@ -36,10 +36,10 @@
 
 ## Opportunities
 
-- `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/zofia.md) is describing observed physical changes, not exaggerating.
-- `(noticed by: [Medicine](../cards/medicine.md))` — The described endurance — no fatigue, no response to pain or cold — has no medical explanation.
-- `(noticed by: [Finesse](../cards/finesse.md))` — UPA partisan bunkers in Bieszczady forests can hold old ordnance. → Gives: [`upa-bunkers-in-the-area`](../clues/clues.md#upa-bunkers-in-the-area)
-- `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/zofia.md) knows she is asking the committee to choose [@name](../characters/foreman.md) over the village's flood defense.
+- *(noticed by: [Empathy](../cards/empathy.md))* — [@name](../characters/zofia.md) is describing observed physical changes, not exaggerating.
+- *(noticed by: [Medicine](../cards/medicine.md))* — The described endurance — no fatigue, no response to pain or cold — has no medical explanation.
+- *(noticed by: [Finesse](../cards/finesse.md))* — UPA partisan bunkers in Bieszczady forests can hold old ordnance. → Gives: [`upa-bunkers-in-the-area`](../clues/clues.md#upa-bunkers-in-the-area)
+- *(noticed by: [Empathy](../cards/empathy.md))* — [@name](../characters/zofia.md) knows she is asking the committee to choose [@name](../characters/foreman.md) over the village's flood defense.
 
 ## Actions
 

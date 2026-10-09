@@ -45,9 +45,9 @@ At home she moves around [@first-name](glupek.md) with practiced care. In public
 
 ## Opportunities
 
-- `(when: brought up her siblings, Read)` — At any mention of her siblings she flinches: she pulls tight, changes the subject, hands busy. The distance is hers and it costs her. → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family) <!-- Prompted by: aware:characters/ciotka.md -->
-- `(noticed by: [Devotion](../cards/devotion.md))` — Her faith is real: the rosary in her apron pocket is worn to the string, and she murmurs prayers before eating or leaving a room, performing them for no one. She carries it like penance. → Gives: [`ciotka-is-devout`](../clues/clues.md#ciotka-is-devout) <!-- Prompted by: aware:characters/ciotka.md -->
-- `(noticed by: [Empathy](../cards/empathy.md))` — watch her with [@first-name](glupek.md) and the fear leaves her face. She reads his moods before he shows them, warms his food to the temperature he likes, steadies him without being asked. Whatever else she is, this is a woman who loves this boy and has built her whole small life around caring for him.
+- *(when: brought up her siblings, Read)* — At any mention of her siblings she flinches: she pulls tight, changes the subject, hands busy. The distance is hers and it costs her. → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family) <!-- Prompted by: aware:characters/ciotka.md -->
+- *(noticed by: [Devotion](../cards/devotion.md))* — Her faith is real: the rosary in her apron pocket is worn to the string, and she murmurs prayers before eating or leaving a room, performing them for no one. She carries it like penance. → Gives: [`ciotka-is-devout`](../clues/clues.md#ciotka-is-devout) <!-- Prompted by: aware:characters/ciotka.md -->
+- *(noticed by: [Empathy](../cards/empathy.md))* — watch her with [@first-name](glupek.md) and the fear leaves her face. She reads his moods before he shows them, warms his food to the temperature he likes, steadies him without being asked. Whatever else she is, this is a woman who loves this boy and has built her whole small life around caring for him.
 - [@first-name](ciotka.md) sets out coffee for the committee, hospitality she will not skip. [@name](glupek.md) is given a cup too and flinches at the first taste, baffled that anyone drinks something so bitter, and leaves it untouched. Coffee in that house is hers alone. → Gives: [`glupek-wont-drink-coffee`](../clues/clues.md#glupek-wont-drink-coffee) <!-- Prompted by: aware:characters/ciotka.md -->
 
 ## Actions

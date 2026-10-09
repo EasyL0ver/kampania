@@ -41,11 +41,11 @@
 
 ## Opportunities
 
-- `(noticed by: [Finesse](../cards/finesse.md))` — the dark locked office or the man on the steps shows whether [@name](irena-confronts-wojewoda.md) reached [@first-name](../characters/wojewoda.md).
-- `(noticed by: [Finesse](../cards/finesse.md))` — Within the mob, only a handful of men are driving the lynch; most are drunk followers. [@surname](../characters/neighbour.md) is the main driver unless [Barbara](#setup) is present.
-- `(noticed by: [Violence](../cards/violence.md))` — the target may be guilty, innocent, or one of the players. The mob treats the distinction as irrelevant.
-- `(noticed by: [Empathy](../cards/empathy.md))` — [@surname](../characters/neighbour.md)'s face shows he is acting from guilt over his own inaction, not certainty.
-- `(noticed by: [History](../cards/history.md) OR [Culture](../cards/culture.md))` — the same drink, dark road, and well repeat the 1954 pattern.
+- *(noticed by: [Finesse](../cards/finesse.md))* — the dark locked office or the man on the steps shows whether [@name](irena-confronts-wojewoda.md) reached [@first-name](../characters/wojewoda.md).
+- *(noticed by: [Finesse](../cards/finesse.md))* — Within the mob, only a handful of men are driving the lynch; most are drunk followers. [@surname](../characters/neighbour.md) is the main driver unless [Barbara](#setup) is present.
+- *(noticed by: [Violence](../cards/violence.md))* — the target may be guilty, innocent, or one of the players. The mob treats the distinction as irrelevant.
+- *(noticed by: [Empathy](../cards/empathy.md))* — [@surname](../characters/neighbour.md)'s face shows he is acting from guilt over his own inaction, not certainty.
+- *(noticed by: [History](../cards/history.md) OR [Culture](../cards/culture.md))* — the same drink, dark road, and well repeat the 1954 pattern.
 
 ## Exits
 

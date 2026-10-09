@@ -28,10 +28,10 @@ The house beside [@first-name](../characters/barbara.md)'s, across from Ciotka's
 
 ## Opportunities
 
-- `(noticed by: [Finesse](../cards/finesse.md))` — The window toward Ciotka's house is always covered, while the window toward [@first-name](../characters/barbara.md)'s house is open. → Gives: [neighbour-avoids-ciotkas-window](../clues/clues.md#neighbour-avoids-ciotkas-window)
-- `(noticed by: [Violence](../cards/violence.md))` — [@first-name](../characters/neighbour.md) has a licensed hunting rifle and knows how to shoot. → Gives: [neighbour-has-rifle](../clues/clues.md#neighbour-has-rifle)
-- `(when: visiting late, staying nearby, or watching at night)` — [@first-name](../characters/neighbour.md) keeps his light on and paces at 3am. → Gives: [neighbour-has-insomnia](../clues/clues.md#neighbour-has-insomnia)
-- `(when: told [@first-name](../characters/barbara.md) information, later spoke to [@first-name](../characters/neighbour.md))` — [@first-name](../characters/neighbour.md) knows things the players only told [@first-name](../characters/barbara.md). → Gives: [barbara-is-a-sieve](../clues/clues.md#barbara-is-a-sieve)
+- *(noticed by: [Finesse](../cards/finesse.md))* — The window toward Ciotka's house is always covered, while the window toward [@first-name](../characters/barbara.md)'s house is open. → Gives: [neighbour-avoids-ciotkas-window](../clues/clues.md#neighbour-avoids-ciotkas-window)
+- *(noticed by: [Violence](../cards/violence.md))* — [@first-name](../characters/neighbour.md) has a licensed hunting rifle and knows how to shoot. → Gives: [neighbour-has-rifle](../clues/clues.md#neighbour-has-rifle)
+- *(when: visiting late, staying nearby, or watching at night)* — [@first-name](../characters/neighbour.md) keeps his light on and paces at 3am. → Gives: [neighbour-has-insomnia](../clues/clues.md#neighbour-has-insomnia)
+- *(when: told [@first-name](../characters/barbara.md) information, later spoke to [@first-name](../characters/neighbour.md))* — [@first-name](../characters/neighbour.md) knows things the players only told [@first-name](../characters/barbara.md). → Gives: [barbara-is-a-sieve](../clues/clues.md#barbara-is-a-sieve)
 
 ## Actions
 

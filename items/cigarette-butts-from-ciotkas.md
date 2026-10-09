@@ -15,7 +15,7 @@ A small scatter of hand-pinched butts, oval, all one brand: Carmen. An aromatic 
 ## Opportunities
 
 - Hand-pinched butts by the door, all the same brand, but you cannot tell which. Bagged, they could be compared against butts found elsewhere.
-- `(noticed by: [Chainsmoker](../cards/chainsmoker.md))` — The butts' oval shape and aroma give away the brand: Carmen, a premium smoke rarely seen this far out. → Gives: [`butts-at-ciotkas-are-carmen`](../clues/clues.md#butts-at-ciotkas-are-carmen) <!-- Prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead) -->
+- *(noticed by: [Chainsmoker](../cards/chainsmoker.md))* — The butts' oval shape and aroma give away the brand: Carmen, a premium smoke rarely seen this far out. → Gives: [`butts-at-ciotkas-are-carmen`](../clues/clues.md#butts-at-ciotkas-are-carmen) <!-- Prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead) -->
 
 ## Actions
 

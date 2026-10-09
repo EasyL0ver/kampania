@@ -22,7 +22,7 @@ Setting up a level line at the far-ridge streambed to measure toward the village
 
 ## Opportunities
 
-- `(noticed by: [Geology](../cards/geology.md))` — A surveyor standing on the col can see it rides high, but "high" is not a number and will not settle the drain question; only the level line does. → No clue; sets expectations.
+- *(noticed by: [Geology](../cards/geology.md))* — A surveyor standing on the col can see it rides high, but "high" is not a number and will not settle the drain question; only the level line does. → No clue; sets expectations.
 
 ## Actions
 

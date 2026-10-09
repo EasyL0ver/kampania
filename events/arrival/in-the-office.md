@@ -21,7 +21,7 @@
 
 ## Opportunities
 
-- `(noticed by: [Finesse](../../cards/finesse.md))` — A shadow and a floorboard creak show someone is listening during the conversation with [@name](../../characters/wojewoda.md). → Gives: [`irena-is-watchful`](../../clues/clues.md#irena-is-watchful)
+- *(noticed by: [Finesse](../../cards/finesse.md))* — A shadow and a floorboard creak show someone is listening during the conversation with [@name](../../characters/wojewoda.md). → Gives: [`irena-is-watchful`](../../clues/clues.md#irena-is-watchful)
 
 ## Actions
 

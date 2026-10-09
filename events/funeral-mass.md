@@ -19,8 +19,8 @@ A funeral Mass beginning in the church, the coffin set before the congregation.
 
 ## Opportunities
 
-- `(noticed by: [Devotion](../cards/devotion.md))` — The sermon is an accusation: [@name](../characters/priest.md) is not only burying [@first-name](../characters/ciotka.md); he is warning the living that unconfessed blood-guilt stains the whole valley. → Gives: [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
-- `(noticed by: [Culture](../cards/culture.md))` — The coffin is unburied: the flood has stopped a normal burial and left [@first-name](../characters/ciotka.md)'s body inside the church.
+- *(noticed by: [Devotion](../cards/devotion.md))* — The sermon is an accusation: [@name](../characters/priest.md) is not only burying [@first-name](../characters/ciotka.md); he is warning the living that unconfessed blood-guilt stains the whole valley. → Gives: [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
+- *(noticed by: [Culture](../cards/culture.md))* — The coffin is unburied: the flood has stopped a normal burial and left [@first-name](../characters/ciotka.md)'s body inside the church.
 
 ## Actions
 

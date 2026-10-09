@@ -26,8 +26,8 @@
 
 ## Opportunities
 
-- `(when: [@first-name](../characters/wojewoda.md) present)` `(noticed by: [Empathy](../cards/empathy.md))` — he keeps his face still, but Barnaś is a man he helped drown; a held breath, a beat too long before he hands the receiver back.
-- `(noticed by: [Finesse](../cards/finesse.md))` — The sender is twelve years dead: Barnaś cannot have sent a wire; someone living, with his name and a seat on the line, put it through.
+- *(when: [@first-name](../characters/wojewoda.md) present)* *(noticed by: [Empathy](../cards/empathy.md))* — he keeps his face still, but Barnaś is a man he helped drown; a held breath, a beat too long before he hands the receiver back.
+- *(noticed by: [Finesse](../cards/finesse.md))* — The sender is twelve years dead: Barnaś cannot have sent a wire; someone living, with his name and a seat on the line, put it through.
 
 ## Actions
 

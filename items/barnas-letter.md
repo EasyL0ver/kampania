@@ -32,7 +32,7 @@ A sealed envelope gone soft and yellow with damp and years, never opened. It is 
 
 ## Opportunities
 
-- `(noticed by: [Violence](../cards/violence.md))` — The letter is warm: those two did wet work together, and the easy jokes are what grows over it.
+- *(noticed by: [Violence](../cards/violence.md))* — The letter is warm: those two did wet work together, and the easy jokes are what grows over it.
 
 ## Actions
 

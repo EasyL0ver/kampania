@@ -35,8 +35,8 @@ The best plot in [@name](../new-village.md), across from the Neighbour's house.
 
 ## Opportunities
 
-- `(noticed by: [Handiwork](../../cards/handiwork.md))` — The two locks were not fitted together. The old one below is original to the door; the newer one above was added years later. She did not double up out of fear — at some point she changed the lock on this house. → Gives: [`ciotka-changed-the-lock`](../../clues/clues.md#ciotka-changed-the-lock) <!-- Prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead) -->
-- `(when: aware:characters/glupek.md)` — Partway through the visit [@first-name](../../characters/glupek.md) tugs [@first-name](../../characters/ciotka.md)'s sleeve and asks, low, for more of his toys — the ones kept up in the attic. She soothes him: not now, and not himself; once the gentlemen have gone she will go up and bring a couple down. He is not to climb up there. → Gives: [`glupek-forbidden-from-attic`](../../clues/clues.md#glupek-forbidden-from-attic)
+- *(noticed by: [Handiwork](../../cards/handiwork.md))* — The two locks were not fitted together. The old one below is original to the door; the newer one above was added years later. She did not double up out of fear — at some point she changed the lock on this house. → Gives: [`ciotka-changed-the-lock`](../../clues/clues.md#ciotka-changed-the-lock) <!-- Prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead) -->
+- *(when: aware:characters/glupek.md)* — Partway through the visit [@first-name](../../characters/glupek.md) tugs [@first-name](../../characters/ciotka.md)'s sleeve and asks, low, for more of his toys — the ones kept up in the attic. She soothes him: not now, and not himself; once the gentlemen have gone she will go up and bring a couple down. He is not to climb up there. → Gives: [`glupek-forbidden-from-attic`](../../clues/clues.md#glupek-forbidden-from-attic)
 
 ## Actions
 

@@ -27,8 +27,8 @@
 
 ## Opportunities
 
-- `(noticed by: [Empathy](../cards/empathy.md))` — his reaction changes when the 1947 massacre appears in the report.
-- `(noticed by: [Survival](../cards/survival.md))` — The car's route changes if the massacre is in the report and the truth is not already outside the car.
+- *(noticed by: [Empathy](../cards/empathy.md))* — his reaction changes when the 1947 massacre appears in the report.
+- *(noticed by: [Survival](../cards/survival.md))* — The car's route changes if the massacre is in the report and the truth is not already outside the car.
 
 ## Actions
 

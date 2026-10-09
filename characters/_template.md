@@ -112,7 +112,7 @@
      Omit the section if the character has no skill-gated observations.
      Format: actions-and-opportunities.md -->
 
-- `(when: [world state])` `(noticed by: [Card](../cards/file.md))` — [What is observed; must stand on its own, no title]. → Gives: [clue-id](../clues/clues.md#clue-id) <!-- Prompted by: [clue-id](../clues/clues.md#clue-id) -->
+- *(when: [world state])* *(noticed by: [Card](../cards/file.md))* — [What is observed; must stand on its own, no title]. → Gives: [clue-id](../clues/clues.md#clue-id) <!-- Prompted by: [clue-id](../clues/clues.md#clue-id) -->
 
 ## Actions
 

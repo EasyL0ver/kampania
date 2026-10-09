@@ -26,7 +26,7 @@ Word through the village the next morning that [@first-name](../characters/matro
 
 ## Opportunities
 
-- `(when: [Robbery suspect](../characters/matrona.md#robbery-suspect) is the committee)` — The penicillin is gone and the till sits untouched, and the only ones who came to her asking for that drug were the committee. She says nothing and holds the players in a long, open stare.
+- *(when: [Robbery suspect](../characters/matrona.md#robbery-suspect) is the committee)* — The penicillin is gone and the till sits untouched, and the only ones who came to her asking for that drug were the committee. She says nothing and holds the players in a long, open stare.
 
 ## Actions
 

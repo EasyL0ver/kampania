@@ -37,12 +37,12 @@
 
 ## Opportunities
 
-- `(noticed by: [Culture](../cards/culture.md))` — the candles, icon, bread, incense, and chant form a Lemko rite for the dead, not witchcraft. → Gives: [`hag-tends-the-well`](../clues/clues.md#hag-tends-the-well)
-- `(noticed by: [Survival](../cards/survival.md))` — he brought the wolf here as part of a repeated pattern. → Gives: [`butcher-dumps-carcasses-in-well`](../clues/clues.md#butcher-dumps-carcasses-in-well)
-- `(noticed by: [Empathy](../cards/empathy.md))` — tending the well matters to her more than leaving alive.
-- `(noticed by: [Violence](../cards/violence.md))` — he is calm, controlled, and ready to kill. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
-- `(noticed by: [Violence](../cards/violence.md))` — one person cannot handle [@surname](../characters/butcher.md) and the three dogs at the same time.
-- `(noticed by: [Empathy](../cards/empathy.md))` — the well's compulsion and [@surname](../characters/butcher.md)'s own appetite both fit what he is doing.
+- *(noticed by: [Culture](../cards/culture.md))* — the candles, icon, bread, incense, and chant form a Lemko rite for the dead, not witchcraft. → Gives: [`hag-tends-the-well`](../clues/clues.md#hag-tends-the-well)
+- *(noticed by: [Survival](../cards/survival.md))* — he brought the wolf here as part of a repeated pattern. → Gives: [`butcher-dumps-carcasses-in-well`](../clues/clues.md#butcher-dumps-carcasses-in-well)
+- *(noticed by: [Empathy](../cards/empathy.md))* — tending the well matters to her more than leaving alive.
+- *(noticed by: [Violence](../cards/violence.md))* — he is calm, controlled, and ready to kill. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+- *(noticed by: [Violence](../cards/violence.md))* — one person cannot handle [@surname](../characters/butcher.md) and the three dogs at the same time.
+- *(noticed by: [Empathy](../cards/empathy.md))* — the well's compulsion and [@surname](../characters/butcher.md)'s own appetite both fit what he is doing.
 
 ## Actions
 

@@ -22,7 +22,7 @@ A police car winding down the mountain road through the rain.
 
 ## Opportunities
 
-- `(when: bureaucratic experience or intuition)` — he frames the work narrowly and signals that some information should stay out of official writing. → Gives: [`officer-warning`](../clues/clues.md#officer-warning) <!-- Prompted by: [government-committee](../clues/clues.md#government-committee) -->
+- *(when: bureaucratic experience or intuition)* — he frames the work narrowly and signals that some information should stay out of official writing. → Gives: [`officer-warning`](../clues/clues.md#officer-warning) <!-- Prompted by: [government-committee](../clues/clues.md#government-committee) -->
 
 ## Actions
 

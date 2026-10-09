@@ -46,7 +46,7 @@ He speaks like a man who knows the rules are already on his side. His reasonable
 
 ## Opportunities
 
-- `(when: Property assessment)` `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — The deed has father's title, proper transfer, and the strip plainly inside the line.
+- *(when: Property assessment)* *(noticed by: [Bureaucracy](../cards/bureaucracy.md))* — The deed has father's title, proper transfer, and the strip plainly inside the line.
 
 ## Actions
 

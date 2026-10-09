@@ -37,12 +37,12 @@
 
 ## Opportunities
 
-- `(noticed by: [Devotion](../cards/devotion.md))` — The priest on the altar knows what breaking the seal costs and does it deliberately.
-- `(noticed by: [Culture](../cards/culture.md))` — a priest violating the seal of confession is committing one of the gravest violations in his faith.
-- `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/wojewoda.md) looks for an exit; [@name](../characters/wujas.md) weeps; [@name](../characters/matrona.md) waits for her name and does not hear it.
-- `(noticed by: [History](../cards/history.md) OR [Culture](../cards/culture.md))` — The valley is built on a grave: his account connects the lynch to the old village, the people officially called resettled, and the buried cover-up.
+- *(noticed by: [Devotion](../cards/devotion.md))* — The priest on the altar knows what breaking the seal costs and does it deliberately.
+- *(noticed by: [Culture](../cards/culture.md))* — a priest violating the seal of confession is committing one of the gravest violations in his faith.
+- *(noticed by: [Empathy](../cards/empathy.md))* — [@name](../characters/wojewoda.md) looks for an exit; [@name](../characters/wujas.md) weeps; [@name](../characters/matrona.md) waits for her name and does not hear it.
+- *(noticed by: [History](../cards/history.md) OR [Culture](../cards/culture.md))* — The valley is built on a grave: his account connects the lynch to the old village, the people officially called resettled, and the buried cover-up.
 - the man who hid his habit now smokes on the altar, plain to everyone present. → Gives: [priest-smokes](../clues/clues.md#priest-smokes) <!-- Prompted by: aware:events/the-seal-break.md -->
-- `(noticed by: [Chainsmoker](../cards/chainsmoker.md) AND [priest-smokes](../clues/clues.md#priest-smokes))` — a smoker reads the brand off the paper burning in his hand: premium Carmen, the same the village would name at [@first-name](../characters/ciotka.md)'s door. → Gives: [priest-smokes-carmen](../clues/clues.md#priest-smokes-carmen)
+- *(noticed by: [Chainsmoker](../cards/chainsmoker.md) AND [priest-smokes](../clues/clues.md#priest-smokes))* — a smoker reads the brand off the paper burning in his hand: premium Carmen, the same the village would name at [@first-name](../characters/ciotka.md)'s door. → Gives: [priest-smokes-carmen](../clues/clues.md#priest-smokes-carmen)
 
 ## Actions
 

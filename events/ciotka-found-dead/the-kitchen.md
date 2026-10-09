@@ -26,7 +26,7 @@
 
 - [@name](../../characters/ciotka.md) lies on the floor, eyes open, candles long out. She is dead. → Gives: [`ciotka-is-dead`](../../clues/clues.md#ciotka-is-dead)
 - Two used coffee cups sit on the table. She was not alone the day before; someone sat and drank with her. → Gives: [`two-coffee-cups`](../../clues/clues.md#two-coffee-cups) <!-- Prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead) -->
-- `(noticed by: [Medicine](../../cards/medicine.md))` — The bruise on her wrist begs a closer look, but a real reading of how she died means undressing her, and [@name](../../characters/priest.md) is praying over her body.
+- *(noticed by: [Medicine](../../cards/medicine.md))* — The bruise on her wrist begs a closer look, but a real reading of how she died means undressing her, and [@name](../../characters/priest.md) is praying over her body.
 
 ## Actions
 

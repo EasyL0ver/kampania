@@ -22,7 +22,7 @@ A car stopping on the muddy road as [@name](../../characters/wojewoda.md) comes 
 
 ## Opportunities
 
-- `(noticed by: [Handiwork](../../cards/handiwork.md))` — From the road the church looks too nice: fresh repairs, sound roof, ample firewood stacked, beyond what a village this size funds. → Gives: [`church-too-nice`](../../clues/clues.md#church-too-nice)
+- *(noticed by: [Handiwork](../../cards/handiwork.md))* — From the road the church looks too nice: fresh repairs, sound roof, ample firewood stacked, beyond what a village this size funds. → Gives: [`church-too-nice`](../../clues/clues.md#church-too-nice)
 
 ## Actions
 

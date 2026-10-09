@@ -14,7 +14,7 @@ An old military bayonet, the blade kept clean and faintly oiled, the grip worn s
 
 ## Opportunities
 
-- `(noticed by: [Violence](../cards/violence.md))` — The fuller, the muzzle ring, the maker's stamp read at a glance: this is a German wartime bayonet, army issue, nothing like the Polish KBW kit his father carried. It is partisan-era war booty, not something out of his father's house. → Gives: [`edeks-bayonet-is-german`](../clues/clues.md#edeks-bayonet-is-german)
+- *(noticed by: [Violence](../cards/violence.md))* — The fuller, the muzzle ring, the maker's stamp read at a glance: this is a German wartime bayonet, army issue, nothing like the Polish KBW kit his father carried. It is partisan-era war booty, not something out of his father's house. → Gives: [`edeks-bayonet-is-german`](../clues/clues.md#edeks-bayonet-is-german)
 
 ## Actions
 

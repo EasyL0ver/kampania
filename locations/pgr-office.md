@@ -23,8 +23,8 @@
 
 ## Opportunities
 
-- `(noticed by: [Geology](../cards/geology.md))` — The topographic maps mark [@name](old-village.md). → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
-- `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — The map draws the ridge water-gap as an open channel and draws a bridge spanning dry ground with the river running elsewhere. → Gives: [map-shows-gap-open](../clues/clues.md#map-shows-gap-open), [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land) <!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
+- *(noticed by: [Geology](../cards/geology.md))* — The topographic maps mark [@name](old-village.md). → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
+- *(noticed by: [Bureaucracy](../cards/bureaucracy.md))* — The map draws the ridge water-gap as an open channel and draws a bridge spanning dry ground with the river running elsewhere. → Gives: [map-shows-gap-open](../clues/clues.md#map-shows-gap-open), [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land) <!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
 
 ## Actions
 

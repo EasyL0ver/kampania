@@ -53,7 +53,7 @@
      Format: skill tag in backticks, then what it reveals. Omit the section if the
      item offers nothing to notice beyond its Actions. -->
 
-- `(when: [world state])` `(noticed by: [Card](../cards/file.md))` — [What is observed; must stand on its own, no title]. → Gives: [clue-id](../clues/clues.md#clue-id) <!-- Prompted by: [clue-id](../clues/clues.md#clue-id) -->
+- *(when: [world state])* *(noticed by: [Card](../cards/file.md))* — [What is observed; must stand on its own, no title]. → Gives: [clue-id](../clues/clues.md#clue-id) <!-- Prompted by: [clue-id](../clues/clues.md#clue-id) -->
 
 ## Actions
 

@@ -1,0 +1,11 @@
+{
+  "name": "at-refs",
+  "displayName": "Kampania @field refs",
+  "description": "Markdown preview renders [@field](file.md) as the target file's field value.",
+  "version": "0.0.1",
+  "publisher": "local",
+  "engines": { "vscode": "^1.60.0" },
+  "main": "./extension.js",
+  "activationEvents": ["onLanguage:markdown"],
+  "contributes": { "markdown.markdownItPlugins": true }
+}

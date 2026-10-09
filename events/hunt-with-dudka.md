@@ -25,10 +25,10 @@
 
 ## Opportunities
 
-- `(noticed by: [Survival](../cards/survival.md))` — [@surname](../characters/neighbour.md)'s failure is not lack of skill; one hunter is too little for a smart pack in a large forest.
-- `(noticed by: [Empathy](../cards/empathy.md))` — [@surname](../characters/neighbour.md)'s anger is older and more personal than professional failure. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen) <!-- Prompted by: [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves) -->
-- `(noticed by: [Empathy](../cards/empathy.md))` — [@surname](../characters/neighbour.md) reacts to [@surname](../characters/butcher.md)'s dogs before he forces himself calm. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen) <!-- Prompted by: [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves) -->
-- `(when: players ask [@surname](../characters/neighbour.md) about the village rumor blaming [@name](../characters/hag.md))` — [@surname](../characters/neighbour.md) treats the wolves as animals reacting to rain, prey, and terrain, not witchcraft.
+- *(noticed by: [Survival](../cards/survival.md))* — [@surname](../characters/neighbour.md)'s failure is not lack of skill; one hunter is too little for a smart pack in a large forest.
+- *(noticed by: [Empathy](../cards/empathy.md))* — [@surname](../characters/neighbour.md)'s anger is older and more personal than professional failure. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen) <!-- Prompted by: [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves) -->
+- *(noticed by: [Empathy](../cards/empathy.md))* — [@surname](../characters/neighbour.md) reacts to [@surname](../characters/butcher.md)'s dogs before he forces himself calm. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen) <!-- Prompted by: [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves) -->
+- *(when: players ask [@surname](../characters/neighbour.md) about the village rumor blaming [@name](../characters/hag.md))* — [@surname](../characters/neighbour.md) treats the wolves as animals reacting to rain, prey, and terrain, not witchcraft.
 - Rambling about game, [@surname](../characters/neighbour.md) mentions the boar glut two summers back, all rooting at one spot up past the farm where the PGR tipped a whole silo of spoiled grain. → Gives: [`grain-has-been-dumped`](../clues/clues.md#grain-has-been-dumped)
 
 ## Actions

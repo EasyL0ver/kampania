@@ -39,8 +39,8 @@ She states her case rather than begging for it. When she repeats her father's la
 
 ## Opportunities
 
-- `(noticed by: [Empathy](../cards/empathy.md))` — Her anger about the strip is direct, but she keeps circling her father's deathbed without naming it.
-- `(when: old village in view)` `(noticed by: [Culture](../cards/culture.md))` — Her unease fits someone told a place is bloodied, not someone who merely dislikes ruins.
+- *(noticed by: [Empathy](../cards/empathy.md))* — Her anger about the strip is direct, but she keeps circling her father's deathbed without naming it.
+- *(when: old village in view)* *(noticed by: [Culture](../cards/culture.md))* — Her unease fits someone told a place is bloodied, not someone who merely dislikes ruins.
 
 ## Actions
 

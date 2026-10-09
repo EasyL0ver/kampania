@@ -67,10 +67,10 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 
 ## Opportunities
 
-- `(when: [@nickname](wujas.md) present and drinking at the [@name](../locations/bimber-still.md) or the [@name](../locations/the-store.md))` `(noticed by: [Chainsmoker](../cards/chainsmoker.md))` — With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen. → Gives: [`tadek-smokes-cheapest`](../clues/clues.md#tadek-smokes-cheapest) <!-- Prompted by: aware:characters/wujas.md -->
-- `(when: Census interview)` `(noticed by: [Empathy](../cards/empathy.md))` — he is not nervous about the census; he is nervous about being asked anything at all. → Gives: [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
-- `(when: Census interview, [@nickname](wujas.md) is drunk)` — Asked about the census while drunk, he turns the answers into absurd village theatre.
-- `(when: Property assessment, [@nickname](wujas.md) is drunk)` — Drunk, he performs a property boast: he claims a fake grand estate made of the still, his brother's house, and moonlight.
+- *(when: [@nickname](wujas.md) present and drinking at the [@name](../locations/bimber-still.md) or the [@name](../locations/the-store.md))* *(noticed by: [Chainsmoker](../cards/chainsmoker.md))* — With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen. → Gives: [`tadek-smokes-cheapest`](../clues/clues.md#tadek-smokes-cheapest) <!-- Prompted by: aware:characters/wujas.md -->
+- *(when: Census interview)* *(noticed by: [Empathy](../cards/empathy.md))* — he is not nervous about the census; he is nervous about being asked anything at all. → Gives: [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
+- *(when: Census interview, [@nickname](wujas.md) is drunk)* — Asked about the census while drunk, he turns the answers into absurd village theatre.
+- *(when: Property assessment, [@nickname](wujas.md) is drunk)* — Drunk, he performs a property boast: he claims a fake grand estate made of the still, his brother's house, and moonlight.
 
 ## Actions
 

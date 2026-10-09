@@ -44,7 +44,7 @@ Household        Name                 Age   Resident since   Notes
 
 ## Opportunities
 
-- `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — The register is there to gauge damages, not only to count heads, so it has room for the dead as much as the living. A name can sit on a roll long after its owner is gone.
+- *(noticed by: [Bureaucracy](../cards/bureaucracy.md))* — The register is there to gauge damages, not only to count heads, so it has room for the dead as much as the living. A name can sit on a roll long after its owner is gone.
 
 ## Actions
 

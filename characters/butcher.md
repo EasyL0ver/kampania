@@ -42,7 +42,7 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 
 ## Opportunities
 
-- `(noticed by: [Chainsmoker](../cards/chainsmoker.md))` — [@surname](butcher.md) has a cigarette going almost every time you meet him. A smoker reads the brand at a glance: Carmen. → Gives: [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen)
+- *(noticed by: [Chainsmoker](../cards/chainsmoker.md))* — [@surname](butcher.md) has a cigarette going almost every time you meet him. A smoker reads the brand at a glance: Carmen. → Gives: [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen)
 
 ## Actions
 

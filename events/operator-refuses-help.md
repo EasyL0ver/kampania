@@ -28,9 +28,9 @@ A clear voice answering from the telephone exchange while floodwater cuts the vi
 
 ## Opportunities
 
-- `(noticed by: [Empathy](../cards/empathy.md))` — A person is on the line: the line is not failing; the operator is present, lucid, and choosing how much help to provide.
-- `(noticed by: [Finesse](../cards/finesse.md))` — every answer records or routes the request without sending help.
-- `(noticed by: [Finesse](../cards/finesse.md))` — the operator avoids a clear no because a clear refusal could be challenged.
+- *(noticed by: [Empathy](../cards/empathy.md))* — A person is on the line: the line is not failing; the operator is present, lucid, and choosing how much help to provide.
+- *(noticed by: [Finesse](../cards/finesse.md))* — every answer records or routes the request without sending help.
+- *(noticed by: [Finesse](../cards/finesse.md))* — the operator avoids a clear no because a clear refusal could be challenged.
 
 ## Actions
 

@@ -23,9 +23,9 @@
 
 ## Opportunities
 
-- `(noticed by: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap))` — At the foot of the plug the fill looks like loose, open rubble the water would run straight through, so the gap might yet drain by seeping through it. → Gives: [gap-may-seep](../clues/clues.md#gap-may-seep)
-- `(noticed by: [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain))` — For the gap to drain, rising water must clear the plug's lowest saddle and spill into [@name](big-basin.md); whether that saddle sits below the flood line is the open question. → Gives: [water-may-flow-over](../clues/clues.md#water-may-flow-over)
-- `(noticed by: [@name](../items/gap-fill-reading.md) AND [@name](../items/gap-sill-reading.md) AND [Geology](../cards/geology.md))` — The ridge gap won't drain: put the two readings together, and the fill will not seep and the sill will not overtop, so water can leave neither through the plug nor over it. The outlet is dead. → Gives: [gap-is-blocked](../clues/clues.md#gap-is-blocked)
+- *(noticed by: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap))* — At the foot of the plug the fill looks like loose, open rubble the water would run straight through, so the gap might yet drain by seeping through it. → Gives: [gap-may-seep](../clues/clues.md#gap-may-seep)
+- *(noticed by: [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain))* — For the gap to drain, rising water must clear the plug's lowest saddle and spill into [@name](big-basin.md); whether that saddle sits below the flood line is the open question. → Gives: [water-may-flow-over](../clues/clues.md#water-may-flow-over)
+- *(noticed by: [@name](../items/gap-fill-reading.md) AND [@name](../items/gap-sill-reading.md) AND [Geology](../cards/geology.md))* — The ridge gap won't drain: put the two readings together, and the fill will not seep and the sill will not overtop, so water can leave neither through the plug nor over it. The outlet is dead. → Gives: [gap-is-blocked](../clues/clues.md#gap-is-blocked)
 
 ## Actions
 

@@ -33,10 +33,10 @@
 
 ## Opportunities
 
-- `(noticed by: [Handiwork](../cards/handiwork.md))` — the road failed because poor drainage and weak foundation met heavy rain. Repair will take days after the water drops. → Gives: [`road-washes-out`](../clues/clues.md#road-washes-out)
-- `(noticed by: [Finesse](../cards/finesse.md))` — On the office phone, [@name](../characters/wojewoda.md) offers access and stays close enough to hear what is reported.
-- `(noticed by: [Finesse](../cards/finesse.md))` — [@first-name](../characters/wojewoda.md) gives quiet orders, [@name](../characters/foreman.md) runs the PGR response, and villagers ignore outsider attempts to lead.
-- `(when: prior visit to [@name](../locations/old-village-ruins.md))` `(noticed by: [Handiwork](../cards/handiwork.md))` — The water table is rising: the well at the old village is filling too. → Gives: [`old-village-flooding`](../clues/clues.md#old-village-flooding)
+- *(noticed by: [Handiwork](../cards/handiwork.md))* — the road failed because poor drainage and weak foundation met heavy rain. Repair will take days after the water drops. → Gives: [`road-washes-out`](../clues/clues.md#road-washes-out)
+- *(noticed by: [Finesse](../cards/finesse.md))* — On the office phone, [@name](../characters/wojewoda.md) offers access and stays close enough to hear what is reported.
+- *(noticed by: [Finesse](../cards/finesse.md))* — [@first-name](../characters/wojewoda.md) gives quiet orders, [@name](../characters/foreman.md) runs the PGR response, and villagers ignore outsider attempts to lead.
+- *(when: prior visit to [@name](../locations/old-village-ruins.md))* *(noticed by: [Handiwork](../cards/handiwork.md))* — The water table is rising: the well at the old village is filling too. → Gives: [`old-village-flooding`](../clues/clues.md#old-village-flooding)
 
 ## Actions
 

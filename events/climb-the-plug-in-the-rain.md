@@ -22,16 +22,16 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ## Opportunities
 
-- `(noticed by: [Geology](../cards/geology.md))` — The soaked clay only holds weight in the right places; get it wrong and you bog. You either know where it bears, or you move light and deft.
-- `(noticed by: [Survival](../cards/survival.md))` — The loose rock looks extremely dangerous; you wouldn't go up there without a rope and assistance. The fall on the traverse is almost certain; we need a rope.
-- `(noticed by: [Handiwork](../cards/handiwork.md) AND [@name](../items/rope.md))` — A fall here only comes up safe with enough weight on the line: two bodies at least, not one.
-- `(when: the crux is anchored)` `(noticed by: [Handiwork](../cards/handiwork.md))` — The clamp still up top is a fixed point. You can rig a line to it and haul the charge up on its own, so no one climbs with it on their back.
-- `(noticed by: [Medicine](../cards/medicine.md))` — A fall off the lower bank means bruises. Off the wet traverse onto the rock, broken bones. From the top pitch you break badly. None of it kills you by itself; the fall hurts, it doesn't kill.
-- `(noticed by: [Violence](../cards/violence.md))` — You've seen men fall and you know ordnance. Roughly: the drops break a man, they don't kill him, but the charge on his back is what puts him in the ground. It's old and touchy, a hard knock or a fall with it and it goes off.
-- `(when: climbed past lower bank)` `(noticed by: [Physique](../cards/physique.md))` — Looks very steep, but I think I can take it. There is no turning back.
-- `(when: climbed past lower bank)` `(noticed by: [Finesse](../cards/finesse.md))` — Steep, but I can find a delicate line, so long as I climb light. Not with the charge on my back.
-- `(when: climbed past the killzone)` `(noticed by: [Physique](../cards/physique.md))` — It's much worse than I realized, and there's a live charge on my back. I can try it, but I'm scared of falling.
-- `(when: climbed past the killzone)` `(noticed by: [Finesse](../cards/finesse.md))` — I can balance the crux, but only empty-handed; the charge would tip me straight off.
+- *(noticed by: [Geology](../cards/geology.md))* — The soaked clay only holds weight in the right places; get it wrong and you bog. You either know where it bears, or you move light and deft.
+- *(noticed by: [Survival](../cards/survival.md))* — The loose rock looks extremely dangerous; you wouldn't go up there without a rope and assistance. The fall on the traverse is almost certain; we need a rope.
+- *(noticed by: [Handiwork](../cards/handiwork.md) AND [@name](../items/rope.md))* — A fall here only comes up safe with enough weight on the line: two bodies at least, not one.
+- *(when: the crux is anchored)* *(noticed by: [Handiwork](../cards/handiwork.md))* — The clamp still up top is a fixed point. You can rig a line to it and haul the charge up on its own, so no one climbs with it on their back.
+- *(noticed by: [Medicine](../cards/medicine.md))* — A fall off the lower bank means bruises. Off the wet traverse onto the rock, broken bones. From the top pitch you break badly. None of it kills you by itself; the fall hurts, it doesn't kill.
+- *(noticed by: [Violence](../cards/violence.md))* — You've seen men fall and you know ordnance. Roughly: the drops break a man, they don't kill him, but the charge on his back is what puts him in the ground. It's old and touchy, a hard knock or a fall with it and it goes off.
+- *(when: climbed past lower bank)* *(noticed by: [Physique](../cards/physique.md))* — Looks very steep, but I think I can take it. There is no turning back.
+- *(when: climbed past lower bank)* *(noticed by: [Finesse](../cards/finesse.md))* — Steep, but I can find a delicate line, so long as I climb light. Not with the charge on my back.
+- *(when: climbed past the killzone)* *(noticed by: [Physique](../cards/physique.md))* — It's much worse than I realized, and there's a live charge on my back. I can try it, but I'm scared of falling.
+- *(when: climbed past the killzone)* *(noticed by: [Finesse](../cards/finesse.md))* — I can balance the crux, but only empty-handed; the charge would tip me straight off.
 
 ## Actions
 

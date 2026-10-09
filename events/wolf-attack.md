@@ -32,13 +32,13 @@
 
 ## Opportunities
 
-- `(noticed by: [Survival](../cards/survival.md))` — one animal worked confidently inside a known pen.
-- `(noticed by: [Empathy](../cards/empathy.md))` — At the fence, he is bracing to authorize the thing he avoided for thirteen years.
-- `(noticed by: [Empathy](../cards/empathy.md))` — [@surname](../characters/neighbour.md) takes the blame; the humiliation is less important than who will replace him.
-- `(noticed by: [Speech](../cards/speech.md))` — his failure is real and his fear of [@surname](../characters/butcher.md) is older than the wolves.
-- `(noticed by: [Finesse](../cards/finesse.md))` — workers say [@surname](../characters/neighbour.md) has failed for weeks and that the other hunter is good with a knife. → Gives: [`dudka-failed-wolf-hunt`](../clues/clues.md#dudka-failed-wolf-hunt) <!-- Prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock) -->
-- `(noticed by: [Finesse](../cards/finesse.md) OR [Culture](../cards/culture.md))` — workers connect the wolf attacks to fires and chanting in the ruins. → Gives: [`hag-blamed-for-wolves`](../clues/clues.md#hag-blamed-for-wolves) <!-- Prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock) -->
-- `(when: Reinforce the farm)` `(noticed by: [Handiwork](../cards/handiwork.md))` — the fence was rotten before the rains and the wolves used an existing weakness. → Gives: [`pgr-underfunded-fences`](../clues/clues.md#pgr-underfunded-fences) <!-- Prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock) -->
+- *(noticed by: [Survival](../cards/survival.md))* — one animal worked confidently inside a known pen.
+- *(noticed by: [Empathy](../cards/empathy.md))* — At the fence, he is bracing to authorize the thing he avoided for thirteen years.
+- *(noticed by: [Empathy](../cards/empathy.md))* — [@surname](../characters/neighbour.md) takes the blame; the humiliation is less important than who will replace him.
+- *(noticed by: [Speech](../cards/speech.md))* — his failure is real and his fear of [@surname](../characters/butcher.md) is older than the wolves.
+- *(noticed by: [Finesse](../cards/finesse.md))* — workers say [@surname](../characters/neighbour.md) has failed for weeks and that the other hunter is good with a knife. → Gives: [`dudka-failed-wolf-hunt`](../clues/clues.md#dudka-failed-wolf-hunt) <!-- Prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock) -->
+- *(noticed by: [Finesse](../cards/finesse.md) OR [Culture](../cards/culture.md))* — workers connect the wolf attacks to fires and chanting in the ruins. → Gives: [`hag-blamed-for-wolves`](../clues/clues.md#hag-blamed-for-wolves) <!-- Prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock) -->
+- *(when: Reinforce the farm)* *(noticed by: [Handiwork](../cards/handiwork.md))* — the fence was rotten before the rains and the wolves used an existing weakness. → Gives: [`pgr-underfunded-fences`](../clues/clues.md#pgr-underfunded-fences) <!-- Prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock) -->
 
 ## Actions
 

@@ -24,8 +24,8 @@
 
 ## Opportunities
 
-- `(noticed by: [Handiwork](../../cards/handiwork.md))` — Up under the rafters the shingles and boards don't match the roof: pieces cut and curved to skin a dome, reused flat. A builder sees it at once, this timber was made for something round, not this house. → Gives: [`roof-built-for-a-dome`](../../clues/clues.md#roof-built-for-a-dome) <!-- Prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead) -->
-- `(noticed by: [Devotion](../../cards/devotion.md))` — Icons are stacked up in the attic, out of sight of the rooms below. A believer sees it at once: these are Eastern-rite, not the Roman Catholic images hung downstairs. They do not belong in this house. → Gives: [`icons-in-attic-not-catholic`](../../clues/clues.md#icons-in-attic-not-catholic)
+- *(noticed by: [Handiwork](../../cards/handiwork.md))* — Up under the rafters the shingles and boards don't match the roof: pieces cut and curved to skin a dome, reused flat. A builder sees it at once, this timber was made for something round, not this house. → Gives: [`roof-built-for-a-dome`](../../clues/clues.md#roof-built-for-a-dome) <!-- Prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead) -->
+- *(noticed by: [Devotion](../../cards/devotion.md))* — Icons are stacked up in the attic, out of sight of the rooms below. A believer sees it at once: these are Eastern-rite, not the Roman Catholic images hung downstairs. They do not belong in this house. → Gives: [`icons-in-attic-not-catholic`](../../clues/clues.md#icons-in-attic-not-catholic)
 
 ## Actions
 
