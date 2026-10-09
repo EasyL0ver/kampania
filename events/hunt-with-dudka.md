@@ -25,17 +25,17 @@
 
 ## Opportunities
 
-- **[@surname](../characters/neighbour.md)'s competence** `(noticed by: [Survival](../cards/survival.md))` — [@surname](../characters/neighbour.md)'s failure is not lack of skill; one hunter is too little for a smart pack in a large forest.
-- **[@surname](../characters/neighbour.md)'s anger** `(noticed by: [Empathy](../cards/empathy.md))` `(prompted by: [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves))` — [@surname](../characters/neighbour.md)'s anger is older and more personal than professional failure. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
-- **The distant dogs** `(noticed by: [Empathy](../cards/empathy.md))` `(prompted by: [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves))` — [@surname](../characters/neighbour.md) reacts to [@surname](../characters/butcher.md)'s dogs before he forces himself calm. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
-- **The hag rumor** `(when: players ask [@surname](../characters/neighbour.md) about the village rumor blaming [@name](../characters/hag.md))` — [@surname](../characters/neighbour.md) treats the wolves as animals reacting to rain, prey, and terrain, not witchcraft.
-- **The boar summer** — Rambling about game, [@surname](../characters/neighbour.md) mentions the boar glut two summers back, all rooting at one spot up past the farm where the PGR tipped a whole silo of spoiled grain. → Gives: [`grain-has-been-dumped`](../clues/clues.md#grain-has-been-dumped)
+- `(noticed by: [Survival](../cards/survival.md))` — [@surname](../characters/neighbour.md)'s failure is not lack of skill; one hunter is too little for a smart pack in a large forest.
+- `(noticed by: [Empathy](../cards/empathy.md))` — [@surname](../characters/neighbour.md)'s anger is older and more personal than professional failure. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen) <!-- Prompted by: [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves) -->
+- `(noticed by: [Empathy](../cards/empathy.md))` — [@surname](../characters/neighbour.md) reacts to [@surname](../characters/butcher.md)'s dogs before he forces himself calm. → Gives: [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen) <!-- Prompted by: [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves) -->
+- `(when: players ask [@surname](../characters/neighbour.md) about the village rumor blaming [@name](../characters/hag.md))` — [@surname](../characters/neighbour.md) treats the wolves as animals reacting to rain, prey, and terrain, not witchcraft.
+- Rambling about game, [@surname](../characters/neighbour.md) mentions the boar glut two summers back, all rooting at one spot up past the farm where the PGR tipped a whole silo of spoiled grain. → Gives: [`grain-has-been-dumped`](../clues/clues.md#grain-has-been-dumped)
 
 ## Actions
 
 ### The grave in the meadow
 - **When:** Follow [@surname](../characters/neighbour.md) long enough for the hunt to swing toward the far woods
-- **Prompted by:** [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt)
+<!-- Prompted by: [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt) -->
 - **Cost:** 1 time
 - **Outcome:** [@surname](../characters/neighbour.md) leaves the wolf track and detours to a low cairn of moss-grown stones at the lip of a ravine, where he stops to pray. Asked, he identifies the grave only as an old friend he buried himself.
 - **Gives:** [`dudka-buried-a-friend-at-the-ravine`](../clues/clues.md#dudka-buried-a-friend-at-the-ravine), aware:locations/meadow-by-the-ravine.md, aware:locations/meadow-by-the-ravine.md

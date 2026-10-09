@@ -28,9 +28,9 @@
 
 ## Opportunities
 
-- **Close to breaking** `(noticed by: [Empathy](../cards/empathy.md))` — he is not performing drunkenness; he is losing control of the secret. → Gives: [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
-- **Missing a woman** `(noticed by: [Empathy](../cards/empathy.md) OR [Physique](../cards/physique.md))` — his fragments circle one woman and one night. → Gives: [`wujas-misses-someone`](../clues/clues.md#wujas-misses-someone)
-- **Blackmail story cracks** `(noticed by: [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret) AND [Empathy](../cards/empathy.md))` — his guilt focuses on the fact that [@first-name](../characters/jagna.md) never used what she knew. → Gives: [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret)
+- `(noticed by: [Empathy](../cards/empathy.md))` — he is not performing drunkenness; he is losing control of the secret. → Gives: [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
+- `(noticed by: [Empathy](../cards/empathy.md) OR [Physique](../cards/physique.md))` — his fragments circle one woman and one night. → Gives: [`wujas-misses-someone`](../clues/clues.md#wujas-misses-someone)
+- `(noticed by: [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret) AND [Empathy](../cards/empathy.md))` — His blackmail story cracks: his guilt focuses on the fact that [@first-name](../characters/jagna.md) never used what she knew. → Gives: [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret)
 
 ## Actions
 

@@ -28,9 +28,9 @@
 
 ## Opportunities
 
-- **[@first-name](../characters/painter.md) alone** `(when: [@first-name](../characters/painter.md) is away from [@first-name](../characters/matrona.md))` `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/painter.md) is close to speaking but will only give fragments in one conversation. → Gives: [`painter-wants-to-confess`](../clues/clues.md#painter-wants-to-confess)
-- **[@first-name](../characters/matrona.md)'s performance** `(noticed by: [Finesse](../cards/finesse.md))` — [@first-name](../characters/matrona.md)'s version is rehearsed and protects her from responsibility for what the men did. → Gives: [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter)
-- **The control mechanism** `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/painter.md)'s silence changes instantly when [@first-name](../characters/matrona.md) can hear him. → Gives: [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter)
+- `(when: [@first-name](../characters/painter.md) is away from [@first-name](../characters/matrona.md))` `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/painter.md) is close to speaking but will only give fragments in one conversation. → Gives: [`painter-wants-to-confess`](../clues/clues.md#painter-wants-to-confess)
+- `(noticed by: [Finesse](../cards/finesse.md))` — [@first-name](../characters/matrona.md)'s version is rehearsed and protects her from responsibility for what the men did. → Gives: [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter)
+- `(noticed by: [Empathy](../cards/empathy.md))` — The control works like this: [@first-name](../characters/painter.md)'s silence changes instantly when [@first-name](../characters/matrona.md) can hear him. → Gives: [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter)
 
 ## Actions
 

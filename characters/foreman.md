@@ -52,7 +52,7 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 
 ## Opportunities
 
-- **The ditch shames him** `(noticed by: [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain) AND [Empathy](../cards/empathy.md))` — As [@first-name](foreman.md) talks up his irrigation ditch, his voice tightens and he will not hold your eye on it. He does not believe his own reassurance: the concrete runs only a short way and he knows it. → Gives: [ditch-not-built-to-spec](../clues/clues.md#ditch-not-built-to-spec)
+- `(when: [@first-name](foreman.md) talks about the irrigation ditch)` `(noticed by: [Empathy](../cards/empathy.md))` — His voice tightens and he won't meet your eye while praising the ditch. → Gives: [foreman-uneasy-about-ditch](../clues/clues.md#foreman-uneasy-about-ditch) <!-- Prompted by: [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain) -->
 
 ## Actions
 
@@ -67,18 +67,18 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 - **Changes:** [Property Record](../items/census.md#property-record) — none, PGR housing; [Flood Awareness](wojewoda.md#flood-awareness) — [@first-name](foreman.md) mentions it, rises to suspicious
 
 ### Ask about the armed conflict
-- **Prompted by:** [old-wartime-positions](../clues/clues.md#old-wartime-positions)
+<!-- Prompted by: [old-wartime-positions](../clues/clues.md#old-wartime-positions) -->
 - **Outcome:** No secret to him. He lays out the war years plainly: the whole range was cleared in '47 under Akcja Wisła, the people loaded up and sent west, and the partisans left old dugouts scattered through the forest, more than one, up in the hills. He does not know the bunkers from the inside, but he knows they are out there.
 - **Gives:** [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area), [old-village-resettled-during-vistula](../clues/clues.md#old-village-resettled-during-vistula)
 
 ### Talk to him about the flood
 - **When:** [Michał Pytlak](foreman.md) present
-- **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
+<!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
 - **Outcome:** [@first-name](foreman.md) describes drainage ditches, sandbags, and water diversion as practical flood defences. He lays out the valley plainly: when the reservoir rises the water can only leave three ways, through the ridge gap, down his irrigation ditch, or over the far-ridge streambed. When the ditch comes up he is blunt: it is concrete only for a short run near the fields, an unlined dugout the rest of the way, and it will not carry a flood off.
 - **Gives:** [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain)
 
 ### Tell him the flood line may be wrong
-- **Prompted by:** [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
+<!-- Prompted by: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated) -->
 - **Cost:** 1 time
 - **Outcome:** [@first-name](foreman.md) goes still, then drops the reassurances. He admits the ditch is concrete only for a short run near the fields and an unlined dugout the rest of the way, and that it will not carry a flood off.
 - **Gives:** [ditch-not-built-to-spec](../clues/clues.md#ditch-not-built-to-spec)
@@ -92,7 +92,7 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 
 ### Ask where the surveyors have already been
 - **When:** [Michał Pytlak](foreman.md) willing to coordinate on the flood (after [Talk to him about the flood](#talk-to-him-about-the-flood))
-- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
+<!-- Prompted by: [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain) -->
 - **Cost:** 1 time
 - **Outcome:** [@first-name](foreman.md) remembers the Solina dam survey crews working the valley years back. They set benchmark markers across it, up at the far-ridge streambed col and down by the village among them. "If it's the streambed's height you want, their marks are still out there."
 - **Gives:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
@@ -126,7 +126,7 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 
 ### Press him about Tadeusz-Mazur
 - **When:** asked alone, not in front of the workers
-- **Prompted by:** [mazur-death-covered-up](../clues/clues.md#mazur-death-covered-up)
+<!-- Prompted by: [mazur-death-covered-up](../clues/clues.md#mazur-death-covered-up) -->
 - **Cost:** 1 time
 - **Outcome:** Put the books in front of him and the pragmatism drops. He has carried this since 1965 and it comes out plainly: he knew that silo could kill and always tended it himself, but he was tied up elsewhere and put [@surname](tadeusz-mazur.md), his most solid man, on it. [@surname](tadeusz-mazur.md) went up alone and never came back. He suspected the silo had him but could not justify dumping a full state store on a guess, and when he asked the sołtys to empty it he was told no. Two weeks later the smell proved him right. They buried the paperwork, and the sołtys kept the wage flowing to [@first-name](widow.md) so she would not starve. He asks one thing: that [@first-name](widow.md) never learn her pension is a dead man's wage.
 - **Gives:** [`foreman-sent-mazur-in-his-place`](../clues/clues.md#foreman-sent-mazur-in-his-place)

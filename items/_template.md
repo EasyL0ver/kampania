@@ -45,7 +45,6 @@
 - **Start:** false
 - [What sets it.]
 
-
 ## Opportunities
 
 <!-- Optional. Free, no action cost. Skill-gated impressions, seeds, or atmosphere
@@ -54,6 +53,8 @@
      Format: skill tag in backticks, then what it reveals. Omit the section if the
      item offers nothing to notice beyond its Actions. -->
 
+- `(when: [world state])` `(noticed by: [Card](../cards/file.md))` — [What is observed; must stand on its own, no title]. → Gives: [clue-id](../clues/clues.md#clue-id) <!-- Prompted by: [clue-id](../clues/clues.md#clue-id) -->
+
 ## Actions
 
 <!-- Item-bound actions: examine, present to an NPC, use, destroy.
@@ -61,3 +62,12 @@
      Actions that are really about an NPC's *reaction* belong in that character's
      file, gated on holding this item — cross-reference them here.
      Format: actions-and-opportunities.md -->
+
+### [Action name]
+- **Requires:** [Card](../cards/file.md)
+- **When:** [world state]
+<!-- Prompted by: [clue-id](../clues/clues.md#clue-id) -->
+- **Cost:** 1 time
+- **Outcome:** [One flat result.]
+- **Gives:** [clue-id](../clues/clues.md#clue-id)
+

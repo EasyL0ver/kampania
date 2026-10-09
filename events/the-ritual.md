@@ -36,10 +36,10 @@ Gathering ritual materials and arranging them at the well or cerkiew.
 
 ## Opportunities
 
-- **Lemko rite** `(when: ritual materials visible)` `(noticed by: [Culture](../cards/culture.md))` — the rite uses fire, incense, offerings, and prayer for unquiet dead. → Gives: [`hag-tends-the-well`](../clues/clues.md#hag-tends-the-well), [`dead-never-mourned`](../clues/clues.md#dead-never-mourned)
-- **[@first-name](../characters/hag.md) shares the burden** `(when: [@name](../characters/hag.md) present)` `(noticed by: [Empathy](../cards/empathy.md))` — she lets the players speak the truth she did not know.
-- **[@first-name](../characters/babcia.md) is lucid** `(when: [@name](../characters/babcia.md) present)` `(noticed by: [Empathy](../cards/empathy.md) OR [Language](../cards/language.md))` — she speaks the panakhyda completely.
-- **No court required** `(noticed by: [Culture](../cards/culture.md))` — the rite requires naming and acknowledgement, not proof accepted by an authority. → Gives: [`players-supply-truth`](../clues/clues.md#players-supply-truth)
+- `(when: ritual materials visible)` `(noticed by: [Culture](../cards/culture.md))` — The Lemko rite uses fire, incense, offerings, and prayer for unquiet dead. → Gives: [`hag-tends-the-well`](../clues/clues.md#hag-tends-the-well), [`dead-never-mourned`](../clues/clues.md#dead-never-mourned)
+- `(when: [@name](../characters/hag.md) present)` `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/hag.md) shares the burden: she lets the players speak the truth she did not know.
+- `(when: [@name](../characters/babcia.md) present)` `(noticed by: [Empathy](../cards/empathy.md) OR [Language](../cards/language.md))` — [@first-name](../characters/babcia.md) is lucid: she speaks the panakhyda completely.
+- `(noticed by: [Culture](../cards/culture.md))` — the rite requires naming and acknowledgement, not proof accepted by an authority. → Gives: [`players-supply-truth`](../clues/clues.md#players-supply-truth)
 
 ## Exits
 

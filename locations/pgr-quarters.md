@@ -23,6 +23,6 @@ Behind the PGR main building: the stołówka and barracks.
 
 ## Opportunities
 
-- **Kitchen work** `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/zofia.md) speaks while cooking and keeps her hands busy.
+- `(noticed by: [Empathy](../cards/empathy.md))` — In the kitchen, [@first-name](../characters/zofia.md) speaks while cooking and keeps her hands busy.
 
 ## Actions

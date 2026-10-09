@@ -32,8 +32,8 @@
 
 ## Opportunities
 
-- **Burned buildings** — The wooden buildings stand charred and collapsed; the village burned. → Gives: [old-village-was-burned](../clues/clues.md#old-village-was-burned)
-- **The old church** `(prompted by: aware:locations/old-village-ruins.md)` — Apart from the homesteads a larger timber building still stands, clearly the village cerkiew. → Gives: aware:locations/old-village-cerkiew.md
+- The wooden buildings stand charred and collapsed; the village burned. → Gives: [old-village-was-burned](../clues/clues.md#old-village-was-burned)
+- Apart from the homesteads, the old church stands: a larger timber building, clearly the village cerkiew. → Gives: aware:locations/old-village-cerkiew.md <!-- Prompted by: aware:locations/old-village-ruins.md -->
 
 ## Actions
 
@@ -44,7 +44,7 @@
 
 ### Investigate the area around the well
 - **When:** one day passing
-- **Prompted by:** [candles-by-the-well](../clues/clues.md#candles-by-the-well)
+<!-- Prompted by: [candles-by-the-well](../clues/clues.md#candles-by-the-well) -->
 - **Cost:** 1 time
 - **Outcome:** The candles from the earlier visit have been replaced with fresh ones. Someone tends the well on a regular basis.
 - **Gives:** [someone-tends-the-well-regularly](../clues/clues.md#someone-tends-the-well-regularly)

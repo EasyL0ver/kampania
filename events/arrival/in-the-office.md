@@ -21,12 +21,12 @@
 
 ## Opportunities
 
-- **The listening at the door** `(noticed by: [Finesse](../../cards/finesse.md))` — A shadow and a floorboard creak show someone is listening during the conversation with [@name](../../characters/wojewoda.md). → Gives: [`irena-is-watchful`](../../clues/clues.md#irena-is-watchful)
+- `(noticed by: [Finesse](../../cards/finesse.md))` — A shadow and a floorboard creak show someone is listening during the conversation with [@name](../../characters/wojewoda.md). → Gives: [`irena-is-watchful`](../../clues/clues.md#irena-is-watchful)
 
 ## Actions
 
 ### Listen to Wojewoda's welcome
-- **Prompted by:** aware:locations/new-village.md
+<!-- Prompted by: aware:locations/new-village.md -->
 - **Outcome:** He plays the gracious host: he is the committee's point of contact, and the heavy phone on his desk is the only line for miles, so anything the village or the committee needs runs through him.
 - **Gives:** [`wojewoda-has-only-phone`](../../clues/clues.md#wojewoda-has-only-phone)
 

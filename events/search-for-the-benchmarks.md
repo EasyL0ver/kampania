@@ -26,20 +26,20 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 ### Read the ground for likely spots
 - **Requires:** [Survival](../cards/survival.md)
 - **When:** that site's marker is not yet found
-- **Prompted by:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
+<!-- Prompted by: [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed) -->
 - **Outcome:** Survey crews set benchmarks on stable rock at clear sightlines; you read the site for where they would have driven the marker.
 - **Changes:** [Hidden count at the col](#hidden-count-at-the-col) — +2 if read here; [Hidden count at the village edge](#hidden-count-at-the-village-edge) — +2 if read here
 
 ### Dig out the buried marker
 - **Requires:** [Physique](../cards/physique.md)
 - **When:** that site's marker is not yet found
-- **Prompted by:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
+<!-- Prompted by: [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed) -->
 - **Outcome:** Most of the work is heaving aside slid earth and undergrowth to uncover the stamped face; a strong back clears a site fast.
 - **Changes:** [Hidden count at the col](#hidden-count-at-the-col) — dug here, marker turns up at 2; [Hidden count at the village edge](#hidden-count-at-the-village-edge) — dug here, marker turns up at 2
 
 ### Search the col for its marker
 - **When:** the col marker is not yet found
-- **Prompted by:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
+<!-- Prompted by: [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed) -->
 - **Cost:** 1 time
 - **Outcome:** You quarter the ground around the col. Until the hidden count is reached: weathered rock, slid earth, nothing stamped. On the search that reaches it, the stamped benchmark turns up under the gorse, and higher up you stumble on an abandoned shepherd's koliba, easy to miss and long empty. It can be revisited and entered any time from the [@name](../locations/far-ridge-streambed.md).
 - **Gives:** [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed)
@@ -47,7 +47,7 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 
 ### Search the village edge for its marker
 - **When:** the village-edge marker is not yet found
-- **Prompted by:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
+<!-- Prompted by: [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed) -->
 - **Cost:** 1 time
 - **Outcome:** You comb the ground at the edge of [@name](../locations/new-village.md). Until the hidden count is reached: fence posts, field stones, nothing stamped. On the search that reaches it, the stamped benchmark turns up half-buried by a field wall.
 - **Changes:** [Hidden count at the village edge](#hidden-count-at-the-village-edge) — +1

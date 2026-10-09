@@ -67,10 +67,10 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 
 ## Opportunities
 
-- **Smoking while drinking** `(when: [@nickname](wujas.md) present and drinking at the [@name](../locations/bimber-still.md) or the [@name](../locations/the-store.md))` `(noticed by: [Chainsmoker](../cards/chainsmoker.md))` `(prompted by: aware:characters/wujas.md)` — With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen. → Gives: [`tadek-smokes-cheapest`](../clues/clues.md#tadek-smokes-cheapest)
-- **Census nerves** `(when: Census interview)` `(noticed by: [Empathy](../cards/empathy.md))` — he is not nervous about the census; he is nervous about being asked anything at all. → Gives: [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
-- **Drunk census performance** `(when: Census interview, [@nickname](wujas.md) is drunk)` — he turns the answers into absurd village theatre.
-- **Drunk property performance** `(when: Property assessment, [@nickname](wujas.md) is drunk)` — he claims a fake grand estate made of the still, his brother's house, and moonlight.
+- `(when: [@nickname](wujas.md) present and drinking at the [@name](../locations/bimber-still.md) or the [@name](../locations/the-store.md))` `(noticed by: [Chainsmoker](../cards/chainsmoker.md))` — With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen. → Gives: [`tadek-smokes-cheapest`](../clues/clues.md#tadek-smokes-cheapest) <!-- Prompted by: aware:characters/wujas.md -->
+- `(when: Census interview)` `(noticed by: [Empathy](../cards/empathy.md))` — he is not nervous about the census; he is nervous about being asked anything at all. → Gives: [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
+- `(when: Census interview, [@nickname](wujas.md) is drunk)` — Asked about the census while drunk, he turns the answers into absurd village theatre.
+- `(when: Property assessment, [@nickname](wujas.md) is drunk)` — Drunk, he performs a property boast: he claims a fake grand estate made of the still, his brother's house, and moonlight.
 
 ## Actions
 
@@ -88,7 +88,7 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 
 ### Ask about the butcher
 - **When:** [drinking buddy](#drinking-buddy)
-- **Prompted by:** aware:characters/butcher.md
+<!-- Prompted by: aware:characters/butcher.md -->
 - **Outcome:** Loose with drink, [@nickname](wujas.md) remembers [@name](butcher.md) sitting in on the crew's sessions years back, bottle in hand like any of them. Then one day he just stopped, and never came back to the fire.
 - **Gives:** [`butcher-used-to-drink-with-the-crew`](../clues/clues.md#butcher-used-to-drink-with-the-crew)
 
@@ -113,7 +113,7 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 - **Changes:** [Property Record](../items/census.md#property-record) — [@nickname](wujas.md) holds no property, dependent on family
 
 ### Get Pawelek the penicillin
-- **Prompted by:** [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin), [wujas-is-paweleks-father](../clues/clues.md#wujas-is-paweleks-father)
+<!-- Prompted by: [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin), [wujas-is-paweleks-father](../clues/clues.md#wujas-is-paweleks-father) -->
 - **Cost:** 1 time
 - **Outcome:** Faced with the sick boy being his own, [@nickname](wujas.md) goes to his sister [@name](matrona.md). She opens the cabinet for her brother and counts out a child's course, and no census changes hands.
 - **Gives:** [@name](../items/penicillin.md)

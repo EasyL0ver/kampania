@@ -28,9 +28,9 @@
 
 ## Opportunities
 
-- **Ventilation shafts** `(noticed by: [Survival](../cards/survival.md))` — The shafts reveal an underground structure in the hillside. → Gives: aware:locations/upa-bunker.md
-- **UPA weapons and insignia** `(noticed by: [History](../cards/history.md))` — The rusted weapons and markings show partisan presence. → Gives: [old-wartime-positions](../clues/clues.md#old-wartime-positions)
-- **[@name](../characters/dmytro-kosach.md)'s cache** `(when: Search inside the bunker)` `(noticed by: [Language](../cards/language.md))` `(prompted by: aware:locations/upa-bunker.md)` — The carved name, cache, and journal fragment connect [@name](../characters/dmytro-kosach.md) to the bunker and to [@name](hags-cabin.md). → Gives: aware:characters/dmytro-kosach.md
+- `(noticed by: [Survival](../cards/survival.md))` — The shafts reveal an underground structure in the hillside. → Gives: aware:locations/upa-bunker.md
+- `(noticed by: [History](../cards/history.md))` — The rusted weapons and markings show partisan presence. → Gives: [old-wartime-positions](../clues/clues.md#old-wartime-positions)
+- `(when: Search inside the bunker)` `(noticed by: [Language](../cards/language.md))` — The carved name, cache, and journal fragment connect [@name](../characters/dmytro-kosach.md) to the bunker and to [@name](hags-cabin.md). → Gives: aware:characters/dmytro-kosach.md <!-- Prompted by: aware:locations/upa-bunker.md -->
 
 ## Actions
 

@@ -80,7 +80,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 
 ## Opportunities
 
-- **Property suspicion** `(when: Property assessment, flood not disclosed, no convincing cover)` — his questions turn controlled, and he starts tracking where the committee goes. See [Tell Wojewoda about the flood risk](../events/arrival/in-the-office.md#tell-wojewoda-about-the-flood-risk). → Gives: [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood)
+- `(when: Property assessment, flood not disclosed, no convincing cover)` — On the property, his questions turn controlled, and he starts tracking where the committee goes. See [Tell Wojewoda about the flood risk](../events/arrival/in-the-office.md#tell-wojewoda-about-the-flood-risk). → Gives: [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood)
 
 ## Actions
 
@@ -90,7 +90,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **Changes:** [Census](../items/census.md#census) — [@first-name](wojewoda.md), [@first-name](wife.md), [@first-name](junior.md)
 
 ### Ask for the village household roster
-- **Prompted by:** [committee-fills-census](../clues/clues.md#committee-fills-census)
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** As the committee's point of contact, he runs down who lives where. Among the households he names his sister [@name](ciotka.md), the widow who keeps the best house at the edge of the village and cares for the boy, living apart from the rest. He also names [@name](neighbour.md), the neighbour whose house sits between [@first-name](ciotka.md)'s and [@first-name](barbara.md)'s, and the Rzepka household, where [@name](painter.md), the local painter, lives with his wife.
 - **Gives:** aware:characters/ciotka.md, aware:characters/neighbour.md, aware:characters/painter.md
@@ -101,12 +101,12 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **Changes:** [Property Record](../items/census.md#property-record) — sołtys's house, clean title; [Flood Awareness](#flood-awareness) — rises to suspicious
 
 ### Tell him you're assessing property
-- **Prompted by:** aware:characters/wojewoda.md
+<!-- Prompted by: aware:characters/wojewoda.md -->
 - **Outcome:** He nods along, but asks why a resettlement count needs land values. The answer sits badly with him.
 - **Changes:** [Flood Awareness](#flood-awareness) — rises to suspicious
 
 ### Tell him you're inventorying movable assets
-- **Prompted by:** aware:characters/wojewoda.md
+<!-- Prompted by: aware:characters/wojewoda.md -->
 - **Outcome:** He hears that someone means to list what can be carried out of the valley, and goes quiet working out why.
 - **Changes:** [Flood Awareness](#flood-awareness) — rises to suspicious
 
@@ -121,7 +121,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **Changes:** [Flood Awareness](#flood-awareness) — rises to convinced
 
 ### Reveal the risk of the village drowning
-- **Prompted by:** [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
+<!-- Prompted by: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated) -->
 - **Outcome:** The committee raises the risk without proof: the flood line may be wrong, the valley may not drain. [@first-name](wojewoda.md) does not need convincing to act careful. He immediately calls for [@name](foreman.md) and, telling him the warning, orders him to put the farm, his men, and himself at the committee's disposal.
 - **Changes:** [Flood Awareness](#flood-awareness) — rises to needProof; [Cooperative](foreman.md#cooperative) — true
 
@@ -140,7 +140,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **Gives:** aware:events/the-disclosure.md
 
 ### Ask about the old village
-- **Prompted by:** aware:locations/old-village-ruins.md
+<!-- Prompted by: aware:locations/old-village-ruins.md -->
 - **Outcome:** He treats it as nothing worth the committee's time: there was a village up the valley once, cleared out in '47 with the rest of the range, Akcja Wisła, the people sent west. Old history, he says, no bearing on the flood or the census. He does not guard it; he just does not see why they care.
 - **Gives:** [`old-village-resettled-during-vistula`](../clues/clues.md#old-village-resettled-during-vistula)
 
@@ -152,14 +152,14 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 
 ### Ask about Ciotka's house
 - **When:** [@name](../events/wojewodas-ask.md) is underway
-- **Prompted by:** [ciotka-house-is-wojewodas](../clues/clues.md#ciotka-house-is-wojewodas)
+<!-- Prompted by: [ciotka-house-is-wojewodas](../clues/clues.md#ciotka-house-is-wojewodas) -->
 - **Cost:** 1 time
 - **Outcome:** He says the house was abandoned, left to the state, and administered by the farm; he put [@first-name](ciotka.md) in it because she keeps the boy and the place.
 - **Gives:** [`ciotka-house-is-pgrs`](../clues/clues.md#ciotka-house-is-pgrs)
 
 ### Show the paperwork for Ciotka's house
 - **When:** [@name](../events/wojewodas-ask.md) is underway
-- **Prompted by:** [house-belonged-to-edward-senior](../clues/clues.md#house-belonged-to-edward-senior), [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs)
+<!-- Prompted by: [house-belonged-to-edward-senior](../clues/clues.md#house-belonged-to-edward-senior), [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs) -->
 - **Cost:** 1 time
 - **Outcome:** He produces the file and lets them read the 1954 declaration with [@name](soldier.md)'s signature. He keeps the document in his hands; see [@name](../items/barnas-departure-declaration.md).
 - **Gives:** [`soldier-left-his-house-for-state`](../clues/clues.md#soldier-left-his-house-for-state), [`ciotka-moved-in-after-they-were-gone`](../clues/clues.md#ciotka-moved-in-after-they-were-gone), aware:items/barnas-departure-declaration.md

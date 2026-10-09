@@ -16,7 +16,7 @@ A long coil of rubber irrigation hose, cracked at the bends and stiff with dried
 
 ### Level a relative point
 - **Requires:** [Water Hose Contraption](water-hose-contraption.md)
-- **Prompted by:** [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders)
+<!-- Prompted by: [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders) -->
 - **Cost:** 2 time
 - **Outcome:** Rig the hose as a water level and leapfrog it from the surveyors' flood mark to a chosen point around the valley, marking and summing each step, to read its height against the mark. No surveying skill needed. Pick the point: the lower village, the upper village, the southern rise, the old-village bowl, or the [@name](../locations/big-basin.md) floor.
 - **Gives:** [lower-village-level](../clues/clues.md#lower-village-level), [upper-village-level](../clues/clues.md#upper-village-level), [southern-rise-level](../clues/clues.md#southern-rise-level), [old-village-bowl-level](../clues/clues.md#old-village-bowl-level), [big-basin-floor-level](../clues/clues.md#big-basin-floor-level)

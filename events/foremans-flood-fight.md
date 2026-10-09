@@ -36,15 +36,15 @@
 
 ## Opportunities
 
-- **[@first-name](../characters/zofia.md)'s fear** `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/zofia.md) is describing observed physical changes, not exaggerating.
-- **The impossible endurance** `(noticed by: [Medicine](../cards/medicine.md))` — The described lack of fatigue, pain response, and cold response has no medical explanation.
-- **The bunker question** `(noticed by: [Finesse](../cards/finesse.md))` — UPA partisan bunkers in Bieszczady forests can hold old ordnance. → Gives: [`upa-bunkers-in-the-area`](../clues/clues.md#upa-bunkers-in-the-area)
-- **The dilemma** `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/zofia.md) knows she is asking the committee to choose [@name](../characters/foreman.md) over the village's flood defense.
+- `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/zofia.md) is describing observed physical changes, not exaggerating.
+- `(noticed by: [Medicine](../cards/medicine.md))` — The described endurance — no fatigue, no response to pain or cold — has no medical explanation.
+- `(noticed by: [Finesse](../cards/finesse.md))` — UPA partisan bunkers in Bieszczady forests can hold old ordnance. → Gives: [`upa-bunkers-in-the-area`](../clues/clues.md#upa-bunkers-in-the-area)
+- `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/zofia.md) knows she is asking the committee to choose [@name](../characters/foreman.md) over the village's flood defense.
 
 ## Actions
 
 ### Go see Pytlak at the flood line
-- **Prompted by:** [flood-is-imminent](../clues/clues.md#flood-is-imminent)
+<!-- Prompted by: [flood-is-imminent](../clues/clues.md#flood-is-imminent) -->
 - **Cost:** 1 time
 - **Outcome:** The committee finds [@name](../characters/foreman.md) knee-deep in floodwater, directing workers, hauling sandbags, and explaining that explosives can reopen the plugged water-gap above the village, and that the only explosives in reach are the old partisan ordnance left in the UPA bunkers scattered through these hills.
 - **Gives:** [`gap-is-blocked`](../clues/clues.md#gap-is-blocked), [`upa-bunkers-in-the-area`](../clues/clues.md#upa-bunkers-in-the-area), aware:events/foreman-saves-village.md

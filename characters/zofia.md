@@ -40,8 +40,8 @@ Her carrying voice is warm and practical. As the well takes hold, the smile stay
 
 ## Opportunities
 
-- **Evacuation clarity** `(when: Prepare the soft landing (evacuation))` `(noticed by: [Empathy](../cards/empathy.md))` — she is not panicking; she has accepted that the water wins and has turned grief into a list of people to save.
-- **Flood-line key** `(when: Send [@first-name](zofia.md) to [@first-name](foreman.md) (the flood line))` `(noticed by: [Empathy](../cards/empathy.md))` — force and reason will not reach [@first-name](foreman.md); her voice can.
+- `(when: Prepare the soft landing (evacuation))` `(noticed by: [Empathy](../cards/empathy.md))` — On evacuation she is not panicking; she has accepted that the water wins and has turned grief into a list of people to save.
+- `(when: Send [@first-name](zofia.md) to [@first-name](foreman.md) (the flood line))` `(noticed by: [Empathy](../cards/empathy.md))` — Force and reason will not reach [@first-name](foreman.md) at the flood line; her voice can.
 
 ## Actions
 

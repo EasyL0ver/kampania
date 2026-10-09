@@ -24,21 +24,21 @@
 
 ## Opportunities
 
-- **The dogs** `(noticed by: [Survival](../cards/survival.md))` `(prompted by: [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt))` — the dogs move as an extension of [@surname](../characters/butcher.md)'s body. → Gives: [`rezen-hunts-wolves`](../clues/clues.md#rezen-hunts-wolves)
-- **The knife** `(noticed by: [Violence](../cards/violence.md))` — [@surname](../characters/butcher.md) is not nervous; his hands want something sharp. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
-- **The calm hunter** `(noticed by: [Empathy](../cards/empathy.md))` — [@surname](../characters/butcher.md) is most relaxed while tracking prey in the forest.
+- `(noticed by: [Survival](../cards/survival.md))` — the dogs move as an extension of [@surname](../characters/butcher.md)'s body. → Gives: [`rezen-hunts-wolves`](../clues/clues.md#rezen-hunts-wolves) <!-- Prompted by: [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt) -->
+- `(noticed by: [Violence](../cards/violence.md))` — [@surname](../characters/butcher.md) is not nervous; his hands want something sharp. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+- `(noticed by: [Empathy](../cards/empathy.md))` — [@surname](../characters/butcher.md) is most relaxed while tracking prey in the forest.
 
 ## Actions
 
 ### Follow him into the forest
-- **Prompted by:** [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt)
+<!-- Prompted by: [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt) -->
 - **Cost:** 1 time
 - **Outcome:** [@surname](../characters/butcher.md) finds scat, scrapes, wool on brush, likely denning ground, and passable routes without hesitation.
 - **Gives:** [`rezen-hunts-wolves`](../clues/clues.md#rezen-hunts-wolves)
 
 ### Stay with him if he makes a kill
 - **When:** Follow [@surname](../characters/butcher.md) to a killed wolf
-- **Prompted by:** [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves)
+<!-- Prompted by: [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves) -->
 - **Cost:** 1 time
 - **Outcome:** [@surname](../characters/butcher.md) carries the carcass deeper toward the [@name](../locations/old-village-ruins.md) and drops it into the well.
 - **Gives:** [`butcher-dumps-carcasses-in-well`](../clues/clues.md#butcher-dumps-carcasses-in-well)

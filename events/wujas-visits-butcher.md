@@ -29,17 +29,17 @@
 
 ## Opportunities
 
-- **Regular pattern** `(noticed by: [Finesse](../cards/finesse.md))` — [@nickname](../characters/wujas.md) visits the edge house regularly.
-- **No friendship** `(when: Follow [@nickname](../characters/wujas.md) to the edge house)` `(noticed by: [Empathy](../cards/empathy.md))` — the handoff is an errand, not a social visit.
-- **[@nickname](../characters/wujas.md) deflects** `(when: Ask [@name](../characters/wujas.md))` `(noticed by: [Empathy](../cards/empathy.md))` — he cannot explain the visits without shutting down.
-- **[@first-name](../characters/wojewoda.md) pauses** `(when: Ask [@name](../characters/wojewoda.md))` `(noticed by: [Empathy](../cards/empathy.md))` — he knows exactly what [@nickname](../characters/wujas.md) is doing.
-- **[@surname](../characters/butcher.md) answers plainly** `(when: Ask [@name](../characters/butcher.md))` `(noticed by: [Empathy](../cards/empathy.md))` — the visits matter only as deliveries to him.
+- `(noticed by: [Finesse](../cards/finesse.md))` — [@nickname](../characters/wujas.md) visits the edge house regularly.
+- `(when: Follow [@nickname](../characters/wujas.md) to the edge house)` `(noticed by: [Empathy](../cards/empathy.md))` — the handoff is an errand, not a social visit.
+- `(when: Ask [@name](../characters/wujas.md))` `(noticed by: [Empathy](../cards/empathy.md))` — [@nickname](../characters/wujas.md) deflects: he cannot explain the visits without shutting down.
+- `(when: Ask [@name](../characters/wojewoda.md))` `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/wojewoda.md) pauses: he knows exactly what [@nickname](../characters/wujas.md) is doing.
+- `(when: Ask [@name](../characters/butcher.md))` `(noticed by: [Empathy](../cards/empathy.md))` — [@surname](../characters/butcher.md) answers plainly: the visits matter only as deliveries to him.
 
 ## Actions
 
 ### Observe the final visit
 - **When:** Day 1–2, before the wolf authorization finishes
-- **Prompted by:** [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt)
+<!-- Prompted by: [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt) -->
 - **Cost:** 1 time
 - **Outcome:** [@nickname](../characters/wujas.md) carries [@first-name](../characters/wojewoda.md)'s real request to [@surname](../characters/butcher.md): deal with the wolves. [@surname](../characters/butcher.md) treats the request as a call back into the village.
 - **Gives:** [`rezen-hunts-wolves`](../clues/clues.md#rezen-hunts-wolves)

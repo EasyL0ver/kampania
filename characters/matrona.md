@@ -69,14 +69,14 @@ People lower their voices around her. Her own voice stays low and measured, so o
 - **Changes:** [Property Record](../items/census.md#property-record) — Rzepka house and store
 
 ### Ask for the penicillin
-- **Prompted by:** [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin)
+<!-- Prompted by: [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin) -->
 - **Cost:** 1 time
 - **Outcome:** She holds the only cabinet key and will not turn it for nothing. The penicillin is theirs, she says, on one condition: the committee lets her fill the village census in their stead, a kindness to spare busy officials the walking. She will not open the cabinet until they agree. Word of the sick child and what he needs reaches her sister [@name](ciotka.md).
 - **Gives:** [helena-demands-the-census](../clues/clues.md#helena-demands-the-census)
 - **Changes:** [Robbery suspect](#robbery-suspect) — committee, if no one asked before
 
 ### Agree to her terms
-- **Prompted by:** [helena-demands-the-census](../clues/clues.md#helena-demands-the-census)
+<!-- Prompted by: [helena-demands-the-census](../clues/clues.md#helena-demands-the-census) -->
 - **Cost:** 1 time + [@name](../items/census.md)
 - **Outcome:** They agree, and she turns the key. She counts out a child's course of penicillin and takes the census book from their hands: from now the count is hers to fill, hers to decide what it shows.
 - **Gives:** [@name](../items/penicillin.md)

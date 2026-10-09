@@ -60,7 +60,7 @@ He knows the official history, that the old village was Lemko and was cleared in
 
 ## Opportunities
 
-- **The suit jacket and phrasing** `(noticed by: [Bureaucracy](../cards/bureaucracy.md) OR [History](../cards/history.md))` — The jacket and cadence mark what he was before the bottle: an educated man, a teacher, and someone the state broke on purpose.
+- `(noticed by: [Bureaucracy](../cards/bureaucracy.md) OR [History](../cards/history.md))` — The jacket and cadence mark what he was before the bottle: an educated man, a teacher, and someone the state broke on purpose.
 
 ## Actions
 
@@ -69,38 +69,38 @@ He knows the official history, that the old village was Lemko and was cleared in
 - **Gives:** [`drinking-crew-heads-to-forest`](../clues/clues.md#drinking-crew-heads-to-forest)
 
 ### What the last survey crew really did
-- **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
+<!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
 - **Cost:** 1 time
 - **Outcome:** Ask him about the survey and he lights up: the last crew who came to re-check the ground drank at [@nickname](wujas.md)'s still for the best part of a week, drove a few stakes by the road, and left. "They surveyed the bottom of a bottle, and the state signed it." Drunk testimony, but he watched it happen, and the teacher in him read exactly how little work went into what they filed.
 - **Gives:** [`geologists-were-drinking`](../clues/clues.md#geologists-were-drinking), [`original-report-is-thin`](../clues/clues.md#original-report-is-thin)
 
 ### Why he says they did it on purpose
-- **Prompted by:** [original-report-is-thin](../clues/clues.md#original-report-is-thin)
+<!-- Prompted by: [original-report-is-thin](../clues/clues.md#original-report-is-thin) -->
 - **Cost:** 1 time
 - **Outcome:** Press him on it and the teacher's logic curdles into paranoia: a crew does not drink a survey away by accident, he insists, the state wanted it thin, a false all-clear so the village would be built where it would drown. He is certain it was deliberate. It may be the bimber and the bitterness talking, or the one time the pattern is real.
 - **Gives:** [`survey-was-faked`](../clues/clues.md#survey-was-faked)
 
 ### Do the arithmetic on the ditch
 - **Requires:** [@name](../items/concrete-ditch-measurements.md) AND [@name](../items/dugout-measurements.md)
-- **Prompted by:** [ditch-concrete-stops-short](../clues/clues.md#ditch-concrete-stops-short)
+<!-- Prompted by: [ditch-concrete-stops-short](../clues/clues.md#ditch-concrete-stops-short) -->
 - **Cost:** 1 time
 - **Outcome:** Show the drunk teacher the figures and he sobers enough to work them like a class problem: the fine concrete head carries plenty, but it runs a fraction of the length; the shallow dugout that carries the rest chokes at flood volume and spills. To him it is proof the state built a sham drain and knew it.
 - **Gives:** [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing)
 
 ### Ask about the old village
-- **Prompted by:** aware:locations/old-village-ruins.md
+<!-- Prompted by: aware:locations/old-village-ruins.md -->
 - **Cost:** 1 time
 - **Outcome:** The teacher gives the official history without hesitation: it was a Lemko village, Greek Catholic, up the valley, and in 1947 the state cleared the whole range under Akcja Wisła and scattered the people west. "On paper they were resettled. On paper." He knows the record; he has no idea what the record buried.
 - **Gives:** [`old-village-was-lemko`](../clues/clues.md#old-village-was-lemko), [`old-village-resettled-during-vistula`](../clues/clues.md#old-village-resettled-during-vistula)
 
 ### Ask about the trident
-- **Prompted by:** [trident-on-the-bayonet](../clues/clues.md#trident-on-the-bayonet)
+<!-- Prompted by: [trident-on-the-bayonet](../clues/clues.md#trident-on-the-bayonet) -->
 - **Cost:** 1 time
 - **Outcome:** He knows the mark the moment they describe it. The state called them bands, he says, but that three-pronged sign is the partisans' own emblem, the UPA, the Ukrainians the army was sent to clear out of these hills.
 - **Gives:** [`trident-stands-for-upa`](../clues/clues.md#trident-stands-for-upa)
 
 ### Ask about German equipment
-- **Prompted by:** [edeks-bayonet-is-german](../clues/clues.md#edeks-bayonet-is-german)
+<!-- Prompted by: [edeks-bayonet-is-german](../clues/clues.md#edeks-bayonet-is-german) -->
 - **Cost:** 1 time
 - **Outcome:** A German weapon in these hills is no mystery to him. The partisans fought with whatever they stripped off the war, he says, German rifles and blades, Soviet kit too, anything they could carry out of the fighting. The teacher recites it like a lesson.
 - **Gives:** [`upa-used-german-equipment`](../clues/clues.md#upa-used-german-equipment)

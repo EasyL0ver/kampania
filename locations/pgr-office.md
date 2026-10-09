@@ -23,8 +23,8 @@
 
 ## Opportunities
 
-- **Maps on the desk** `(noticed by: [Geology](../cards/geology.md))` — The topographic maps mark [@name](old-village.md). → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
-- **Read the topographic map** `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The map draws the ridge water-gap as an open channel and draws a bridge spanning dry ground with the river running elsewhere. → Gives: [map-shows-gap-open](../clues/clues.md#map-shows-gap-open), [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land)
+- `(noticed by: [Geology](../cards/geology.md))` — The topographic maps mark [@name](old-village.md). → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
+- `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — The map draws the ridge water-gap as an open channel and draws a bridge spanning dry ground with the river running elsewhere. → Gives: [map-shows-gap-open](../clues/clues.md#map-shows-gap-open), [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land) <!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
 
 ## Actions
 
@@ -36,20 +36,20 @@
 
 ### Call the survey archive
 - **When:** Phone access (monitored if [@name](../characters/wojewoda.md) is present)
-- **Prompted by:** [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
+<!-- Prompted by: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated) -->
 - **Cost:** 1 time
 - **Outcome:** The district survey archive confirms the previous crew filed a thin report, drove only a handful of stakes, and closed the job early. On the record it reads as thin work, well short of a proper survey.
 - **Gives:** [original-report-is-thin](../clues/clues.md#original-report-is-thin)
 
 ### Date the map against the ground
 - **When:** The topographic map
-- **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), [gap-is-blocked](../clues/clues.md#gap-is-blocked), [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map)
+<!-- Prompted by: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), [gap-is-blocked](../clues/clues.md#gap-is-blocked), [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map) -->
 - **Cost:** 1 time
 - **Outcome:** The map's survey date predates the landslide and the river's shift. It cannot be trusted on the gap or the river's course.
 - **Gives:** [map-is-outdated](../clues/clues.md#map-is-outdated)
 
 ### Pull the ditch construction file
-- **Prompted by:** [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain)
+<!-- Prompted by: [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain) -->
 - **Cost:** 1 time
 - **Outcome:** The shelf's land-drainage files hold the ditch's construction spec: a concrete-lined channel the full run, signed off as built. Set against a walked ditch it is the paper proof the ditch fell short.
 - **Gives:** [@name](../items/ditch-construction-spec.md)

@@ -37,10 +37,10 @@
 
 ## Opportunities
 
-- **The drag trail** `(noticed by: [Survival](../cards/survival.md))` — the trail is fresh, made within the last few hours, and points straight toward [@name](../locations/old-village-ruins.md). → Gives: [`ciotka-body-taken`](../clues/clues.md#ciotka-body-taken)
-- **The empty coffin** `(noticed by: [Finesse](../cards/finesse.md))` — there is no sign of struggle, theft, or vandalism. Whoever came wanted the body only.
-- **The dogs** `(noticed by: [Survival](../cards/survival.md))` — the dogs are [@surname](../characters/butcher.md)'s dogs and move between the church and the forest path.
-- **[@surname](../characters/butcher.md)'s calm** `(noticed by: [Empathy](../cards/empathy.md))` — he is steadier after taking the body than he has been in days.
+- `(noticed by: [Survival](../cards/survival.md))` — the trail is fresh, made within the last few hours, and points straight toward [@name](../locations/old-village-ruins.md). → Gives: [`ciotka-body-taken`](../clues/clues.md#ciotka-body-taken)
+- `(noticed by: [Finesse](../cards/finesse.md))` — The empty coffin shows no sign of struggle, theft, or vandalism. Whoever came wanted the body only.
+- `(noticed by: [Survival](../cards/survival.md))` — the dogs are [@surname](../characters/butcher.md)'s dogs and move between the church and the forest path.
+- `(noticed by: [Empathy](../cards/empathy.md))` — he is steadier after taking the body than he has been in days.
 
 ## Actions
 

@@ -26,9 +26,9 @@
 
 ## Opportunities
 
-- **The sermon target** `(noticed by: [Culture](../cards/culture.md) OR [History](../cards/history.md))` — Habakkuk points to a settlement founded on blood, not only a personal sin.
-- **The village reaction** `(noticed by: [Violence](../cards/violence.md))` — the parish is primed to seek a body to blame.
-- **[@nickname](../characters/wujas.md)'s attendance** `(noticed by: [Devotion](../cards/devotion.md))` — [@name](../characters/wujas.md) has attended every Mass since burying his sister.
+- `(noticed by: [Culture](../cards/culture.md) OR [History](../cards/history.md))` — In the sermon, Habakkuk points to a settlement founded on blood, not only a personal sin.
+- `(noticed by: [Violence](../cards/violence.md))` — In the village, the parish is primed to seek a body to blame.
+- `(noticed by: [Devotion](../cards/devotion.md))` — [@name](../characters/wujas.md) has attended every Mass since burying his sister.
 
 ## Actions
 

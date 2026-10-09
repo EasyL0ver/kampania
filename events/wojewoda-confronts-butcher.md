@@ -30,10 +30,10 @@
 
 ## Opportunities
 
-- **Power dynamic** `(noticed by: [Finesse](../cards/finesse.md))` — the sołtys gives an order and the butcher ignores it.
-- **[@first-name](../characters/wojewoda.md) after** `(when: speaking to [@name](../characters/wojewoda.md))` `(noticed by: [Empathy](../cards/empathy.md))` — he is more rattled than the public exchange warrants.
-- **[@surname](../characters/butcher.md) after** `(when: speaking to [@name](../characters/butcher.md))` `(noticed by: [Empathy](../cards/empathy.md))` — he is pleased that the order failed.
-- **Villagers after** `(noticed by: [Finesse](../cards/finesse.md))` — they have not seen [@first-name](../characters/wojewoda.md) fail to move someone before.
+- `(noticed by: [Finesse](../cards/finesse.md))` — the sołtys gives an order and the butcher ignores it.
+- `(when: speaking to [@name](../characters/wojewoda.md))` `(noticed by: [Empathy](../cards/empathy.md))` — Afterwards, [@first-name](../characters/wojewoda.md) is more rattled than the public exchange warrants.
+- `(when: speaking to [@name](../characters/butcher.md))` `(noticed by: [Empathy](../cards/empathy.md))` — Afterwards, [@surname](../characters/butcher.md) is pleased that the order failed.
+- `(noticed by: [Finesse](../cards/finesse.md))` — Afterwards, the villagers have not seen [@first-name](../characters/wojewoda.md) fail to move someone before.
 
 ## Actions
 

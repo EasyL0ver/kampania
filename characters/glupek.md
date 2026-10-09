@@ -66,7 +66,7 @@ His voice is surprisingly soft for his size. Kindness reaches him after a pause,
 
 ### Ask Glupek about the butcher
 - **When:** Players talk to him directly
-- **Prompted by:** aware:characters/glupek.md
+<!-- Prompted by: aware:characters/glupek.md -->
 - **Outcome:** He goes quiet and small. He says the butcher's dogs make him hide, and when [@surname](butcher.md) passes he cannot move. He does not know why.
 - **Gives:** [`glupek-fears-butcher`](../clues/clues.md#glupek-fears-butcher)
 

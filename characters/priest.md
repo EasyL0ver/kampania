@@ -64,13 +64,13 @@ His baritone stays intimate in conversation. When uncomfortable, his hand goes t
 
 ### Drive out the devil
 - **When:** [@title](priest.md) [@first-name](priest.md) [@surname](priest.md) brought to [@first-name](pawelek.md)'s sickroom
-- **Prompted by:** [`pawelek-was-possessed`](../clues/clues.md#pawelek-was-possessed)
+<!-- Prompted by: [`pawelek-was-possessed`](../clues/clues.md#pawelek-was-possessed) -->
 - **Cost:** 1 time
 - **Outcome:** He prays loudly over the boy, commanding the devil out, a Roman Catholic blessing that rises to shouting. It does nothing for the fever, and the noise frightens the delirious child. [@name](babcia.md) comes out of her chair, sharply lucid, and drives him off: the boy is not a demon, and he is not to shout and terrify a sick child. This is not his faith and not his rite.
 - **Gives:** [`babcia-opposed-to-church`](../clues/clues.md#babcia-opposed-to-church), [`babcia-mind-returns`](../clues/clues.md#babcia-mind-returns)
 
 ### Ask about the three-barred cross
-- **Prompted by:** [three-barred-cross-on-gajda-grave](../clues/clues.md#three-barred-cross-on-gajda-grave)
+<!-- Prompted by: [three-barred-cross-on-gajda-grave](../clues/clues.md#three-barred-cross-on-gajda-grave) -->
 - **Outcome:** He explains what [@first-name](barbara.md) could not: the three-barred cross is Eastern-rite, Greek Catholic, the old faith of this valley before the Roman parish. He states it plainly as church history, nothing he guards.
 - **Gives:** [`three-barred-cross-is-lemko`](../clues/clues.md#three-barred-cross-is-lemko)
 

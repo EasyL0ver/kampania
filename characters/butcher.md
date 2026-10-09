@@ -42,7 +42,7 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 
 ## Opportunities
 
-- **Always smoking** `(noticed by: [Chainsmoker](../cards/chainsmoker.md))` — [@surname](butcher.md) has a cigarette going almost every time you meet him. A smoker reads the brand at a glance: Carmen. → Gives: [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen)
+- `(noticed by: [Chainsmoker](../cards/chainsmoker.md))` — [@surname](butcher.md) has a cigarette going almost every time you meet him. A smoker reads the brand at a glance: Carmen. → Gives: [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen)
 
 ## Actions
 
@@ -68,7 +68,7 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 
 ### Ask about Glupek smoking
 - **When:** [@surname](butcher.md) present
-- **Prompted by:** [edek-has-carmen-cigarette](../clues/clues.md#edek-has-carmen-cigarette)
+<!-- Prompted by: [edek-has-carmen-cigarette](../clues/clues.md#edek-has-carmen-cigarette) -->
 - **Cost:** 1 time
 - **Outcome:** He laughs it off, warm and easy: the boy does not smoke, cannot even drag on one without coughing himself sick. He gave [@first-name](glupek.md) a Carmen anyway, a boy has got to learn, and he talks about the lad like a fond nephew without ever noticing anything wrong in it.
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)

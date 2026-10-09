@@ -44,11 +44,21 @@
 
 <!-- Format: actions-and-opportunities.md -->
 
+- `(when: [world state])` `(noticed by: [Card](../cards/file.md))` — [What is observed; must stand on its own, no title]. → Gives: [clue-id](../clues/clues.md#clue-id) <!-- Prompted by: [clue-id](../clues/clues.md#clue-id) -->
+
 ## Actions
 
 <!-- Location-bound actions: search the room, dig in the yard, watch from cover.
      Character-bound actions (interview, leverage) belong in the character file.
      Format: actions-and-opportunities.md -->
+
+### [Action name]
+- **Requires:** [Card](../cards/file.md)
+- **When:** [world state]
+<!-- Prompted by: [clue-id](../clues/clues.md#clue-id) -->
+- **Cost:** 1 time
+- **Outcome:** [One flat result.]
+- **Gives:** [clue-id](../clues/clues.md#clue-id)
 
 ## Mechanics
 

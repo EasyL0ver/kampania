@@ -32,12 +32,12 @@ A sealed envelope gone soft and yellow with damp and years, never opened. It is 
 
 ## Opportunities
 
-- **The warmth of it** `(noticed by: [Violence](../cards/violence.md))` — Those two did wet work together, and the easy jokes are what grows over it.
+- `(noticed by: [Violence](../cards/violence.md))` — The letter is warm: those two did wet work together, and the easy jokes are what grows over it.
 
 ## Actions
 
 ### Read the letter
 - **Requires:** [Edward Barnaś's Unopened Letter](barnas-letter.md)
-- **Prompted by:** aware:items/barnas-letter.md
+<!-- Prompted by: aware:items/barnas-letter.md -->
 - **Outcome:** A few lines from an old comrade named Bronek, warm and uneasy, teasing [@first-name](../characters/soldier.md) for turning farmer and sending a greeting to [@surname](../characters/butcher.md). The envelope is postmarked 1955, a year after the village says the family left. The words never name a uniform, but a soldier's or clerk's eye reads the rank and unit markings on the sheet as KBW.
 - **Gives:** [`barnas-letter-date-55`](../clues/clues.md#barnas-letter-date-55), [`butcher-mentioned-in-the-letter`](../clues/clues.md#butcher-mentioned-in-the-letter), [soldier-was-kbw](../clues/clues.md#soldier-was-kbw)

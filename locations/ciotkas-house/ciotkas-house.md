@@ -35,8 +35,8 @@ The best plot in [@name](../new-village.md), across from the Neighbour's house.
 
 ## Opportunities
 
-- **Two locks, two ages** `(noticed by: [Handiwork](../../cards/handiwork.md))` `(prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead))` — The two locks were not fitted together. The old one below is original to the door; the newer one above was added years later. She did not double up out of fear — at some point she changed the lock on this house. → Gives: [`ciotka-changed-the-lock`](../../clues/clues.md#ciotka-changed-the-lock)
-- **The boy's errand** `(when: aware:characters/glupek.md)` — Partway through the visit [@first-name](../../characters/glupek.md) tugs [@first-name](../../characters/ciotka.md)'s sleeve and asks, low, for more of his toys — the ones kept up in the attic. She soothes him: not now, and not himself; once the gentlemen have gone she will go up and bring a couple down. He is not to climb up there. → Gives: [`glupek-forbidden-from-attic`](../../clues/clues.md#glupek-forbidden-from-attic)
+- `(noticed by: [Handiwork](../../cards/handiwork.md))` — The two locks were not fitted together. The old one below is original to the door; the newer one above was added years later. She did not double up out of fear — at some point she changed the lock on this house. → Gives: [`ciotka-changed-the-lock`](../../clues/clues.md#ciotka-changed-the-lock) <!-- Prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead) -->
+- `(when: aware:characters/glupek.md)` — Partway through the visit [@first-name](../../characters/glupek.md) tugs [@first-name](../../characters/ciotka.md)'s sleeve and asks, low, for more of his toys — the ones kept up in the attic. She soothes him: not now, and not himself; once the gentlemen have gone she will go up and bring a couple down. He is not to climb up there. → Gives: [`glupek-forbidden-from-attic`](../../clues/clues.md#glupek-forbidden-from-attic)
 
 ## Actions
 
@@ -48,18 +48,18 @@ The best plot in [@name](../new-village.md), across from the Neighbour's house.
 - **Gives:** [@name](../../items/bayonet.md)
 ### Open the attic with the key
 - **Requires:** [@name](../../items/attic-key.md)
-- **Prompted by:** [`ciotka-is-dead`](../../clues/clues.md#ciotka-is-dead)
+<!-- Prompted by: [`ciotka-is-dead`](../../clues/clues.md#ciotka-is-dead) -->
 - **Cost:** 1 time
 - **Outcome:** The key turns and the hatch lifts quietly. It is the one part of the house [@first-name](../../characters/ciotka.md) guarded.
 - **Changes:** [The attic hatch](#the-attic-hatch) — open
 ### Force the attic
 - **Requires:** [Handiwork](../../cards/handiwork.md) OR [Violence](../../cards/violence.md) OR [Physique](../../cards/physique.md)
-- **Prompted by:** [`ciotka-is-dead`](../../clues/clues.md#ciotka-is-dead)
+<!-- Prompted by: [`ciotka-is-dead`](../../clues/clues.md#ciotka-is-dead) -->
 - **Cost:** 1 time
 - **Outcome:** The players break the locked hatch open. It is loud, splintered wood and a scene the neighbours can hear.
 - **Changes:** [The attic hatch](#the-attic-hatch) — open
 ### Dig in the backyard
-- **Prompted by:** [telegram-points-to-barnas-yard](../../clues/clues.md#telegram-points-to-barnas-yard)
+<!-- Prompted by: [telegram-points-to-barnas-yard](../../clues/clues.md#telegram-points-to-barnas-yard) -->
 - **Cost:** 1 time
 - **Outcome:** About a foot down, the players find oilcloth containing a KBW uniform, service insignia, [@name](../../characters/soldier.md)'s identity documents, deployment dates for the Bieszczady region in 1947, commanding officer [@name](../../characters/kbw-officer.md), and love letters addressed to "M.K."; these can be cross-checked with [@name](../../characters/officer.md)'s classified files, the [@name](../upa-bunker.md), and the [@name](../../items/pgr-expenses.md).
 - **Gives:** [@name](../../items/buried-oilcloth-bundle.md)

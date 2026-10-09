@@ -23,15 +23,15 @@
 
 ## Opportunities
 
-- **The fill looks loose** `(noticed by: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap))` — At the foot of the plug the fill looks like loose, open rubble the water would run straight through, so the gap might yet drain by seeping through it. → Gives: [gap-may-seep](../clues/clues.md#gap-may-seep)
-- **Water would have to top the saddle** `(noticed by: [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain))` — For the gap to drain, rising water must clear the plug's lowest saddle and spill into [@name](big-basin.md); whether that saddle sits below the flood line is the open question. → Gives: [water-may-flow-over](../clues/clues.md#water-may-flow-over)
-- **The gap won't drain** `(noticed by: [@name](../items/gap-fill-reading.md) AND [@name](../items/gap-sill-reading.md) AND [Geology](../cards/geology.md))` — Put the two readings together: the fill will not seep and the sill will not overtop, so water can leave the valley neither through the plug nor over it. The outlet is dead. → Gives: [gap-is-blocked](../clues/clues.md#gap-is-blocked)
+- `(noticed by: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap))` — At the foot of the plug the fill looks like loose, open rubble the water would run straight through, so the gap might yet drain by seeping through it. → Gives: [gap-may-seep](../clues/clues.md#gap-may-seep)
+- `(noticed by: [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain))` — For the gap to drain, rising water must clear the plug's lowest saddle and spill into [@name](big-basin.md); whether that saddle sits below the flood line is the open question. → Gives: [water-may-flow-over](../clues/clues.md#water-may-flow-over)
+- `(noticed by: [@name](../items/gap-fill-reading.md) AND [@name](../items/gap-sill-reading.md) AND [Geology](../cards/geology.md))` — The ridge gap won't drain: put the two readings together, and the fill will not seep and the sill will not overtop, so water can leave neither through the plug nor over it. The outlet is dead. → Gives: [gap-is-blocked](../clues/clues.md#gap-is-blocked)
 
 ## Actions
 
 ### Examine the fill at the toe
 - **When:** reaching the foot of the plug (no climb)
-- **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), [gap-may-seep](../clues/clues.md#gap-may-seep)
+<!-- Prompted by: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), [gap-may-seep](../clues/clues.md#gap-may-seep) -->
 - **Cost:** 1 time
 - **Outcome:** Scramble to the base of the plug and dig into it. From a distance the fill looks like loose rubble the water would run straight through; up close it is dense clay and shattered rock packed tight, impermeable. This settles only whether the plug leaks, not whether the water level can rise over it (that is the crest sill, which needs the climb).
   - **Geology:** reads the fill directly and confirms it will not pass water at flood pressure.
@@ -39,7 +39,7 @@
 
 ### Climb the plug
 - **When:** a climber, the rest of the party on the ground, and a rope for the killzone
-- **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), [water-may-flow-over](../clues/clues.md#water-may-flow-over)
+<!-- Prompted by: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), [water-may-flow-over](../clues/clues.md#water-may-flow-over) -->
 - **Outcome:** The party sets up at the foot of the plug and goes for the crest. Play [@name](../events/climb-the-plug.md).
 - **Gives:** aware:events/climb-the-plug.md
 

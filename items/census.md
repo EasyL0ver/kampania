@@ -44,7 +44,7 @@ Household        Name                 Age   Resident since   Notes
 
 ## Opportunities
 
-- **Not just the living** `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — The register is there to gauge damages, not only to count heads, so it has room for the dead as much as the living. A name can sit on a roll long after its owner is gone.
+- `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — The register is there to gauge damages, not only to count heads, so it has room for the dead as much as the living. A name can sit on a roll long after its owner is gone.
 
 ## Actions
 
@@ -58,6 +58,6 @@ Household        Name                 Age   Resident since   Notes
 ### Read the family's surnames
 - **Requires:** [@name](census.md)
 - **When:** the Gajda/Barnaś household recorded in the census
-- **Prompted by:** [edeks-father-left](../clues/clues.md#edeks-father-left)
+<!-- Prompted by: [edeks-father-left](../clues/clues.md#edeks-father-left) -->
 - **Outcome:** The boy and the father he never knew are set down as Barnaś; the woman raising him is Gajda. She never took his name. Read straight, she and [@name](../characters/soldier.md) were together but never married.
 - **Gives:** [ciotka-never-married](../clues/clues.md#ciotka-never-married)

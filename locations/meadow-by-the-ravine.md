@@ -22,7 +22,7 @@
 
 ## Opportunities
 
-- **Cairn as grave** `(noticed by: [Culture](../cards/culture.md) OR [Survival](../cards/survival.md))` — The stone stack is an old hand-built grave with no priest, marker, or name. → Gives: [dudka-buried-a-friend-at-the-ravine](../clues/clues.md#dudka-buried-a-friend-at-the-ravine)
+- `(noticed by: [Culture](../cards/culture.md) OR [Survival](../cards/survival.md))` — The stone stack is an old hand-built grave with no priest, marker, or name. → Gives: [dudka-buried-a-friend-at-the-ravine](../clues/clues.md#dudka-buried-a-friend-at-the-ravine)
 
 ## Actions
 

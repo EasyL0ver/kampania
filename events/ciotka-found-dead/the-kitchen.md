@@ -24,15 +24,15 @@
 
 ## Opportunities
 
-- **She is dead** — [@name](../../characters/ciotka.md) lies on the floor, eyes open, candles long out. She is dead. → Gives: [`ciotka-is-dead`](../../clues/clues.md#ciotka-is-dead)
-- **The two cups** `(prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead))` — Two used coffee cups sit on the table. She was not alone the day before; someone sat and drank with her. → Gives: [`two-coffee-cups`](../../clues/clues.md#two-coffee-cups)
-- **Examine her properly** `(noticed by: [Medicine](../../cards/medicine.md))` — The bruise on her wrist begs a closer look, but a real reading of how she died means undressing her, and [@name](../../characters/priest.md) is praying over her body.
+- [@name](../../characters/ciotka.md) lies on the floor, eyes open, candles long out. She is dead. → Gives: [`ciotka-is-dead`](../../clues/clues.md#ciotka-is-dead)
+- Two used coffee cups sit on the table. She was not alone the day before; someone sat and drank with her. → Gives: [`two-coffee-cups`](../../clues/clues.md#two-coffee-cups) <!-- Prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead) -->
+- `(noticed by: [Medicine](../../cards/medicine.md))` — The bruise on her wrist begs a closer look, but a real reading of how she died means undressing her, and [@name](../../characters/priest.md) is praying over her body.
 
 ## Actions
 
 ### Examine the body
 - **Requires:** [Medicine](../../cards/medicine.md)
-- **Prompted by:** [`ciotka-is-dead`](../../clues/clues.md#ciotka-is-dead)
+<!-- Prompted by: [`ciotka-is-dead`](../../clues/clues.md#ciotka-is-dead) -->
 - **Cost:** 1 composure
 - **Outcome:** Undressing her draws a flinch from [@name](../../characters/priest.md), he is praying over her, but he is no fool. Told a proper examination is how they find who laid hands on her, he understands and turns away to let a Medicine player read her. Her throat is unmarked, no strangulation; nowhere on her body are there defensive wounds. But a fresh bruise rings her wrist, a large hand closed hard while she still lived. It did not kill her, and it did not come from a fall. What did kill her reads in her colour and her slack, stopped breath: a heavy barbiturate dose, and the open Luminal bottle on the table is her own.
 - **Gives:** [`ciotka-hurt-before-death`](../../clues/clues.md#ciotka-hurt-before-death), [ciotka-overdosed](../../clues/clues.md#ciotka-overdosed)

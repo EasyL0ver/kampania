@@ -14,14 +14,14 @@ An oil portrait of a young dark-haired woman in a blue dress, found wrapped and 
 
 ## Opportunities
 
-- **The signature** `(noticed by: [Culture](../cards/culture.md))` `(prompted by: [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew))` — Low in one corner sits a small, easily missed signature. A trained eye reads the hand and the mark: this is [@name](../characters/painter.md)'s own work. → Gives: [emil-signed-the-portrait](../clues/clues.md#emil-signed-the-portrait)
-- **The style** `(noticed by: [Culture](../cards/culture.md))` `(prompted by: [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew))` — The portrait is Fauvist: the woman and her dress carried in bold, unnatural, expressive colour, alive and full of light. → Gives: [portrait-is-fauvist](../clues/clues.md#portrait-is-fauvist)
-- **The dedication on the back** `(prompted by: [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew))` — Turn the canvas over and there is a line written on the back: "For my forget-me-not, the only blue I ever got right." A private endearment, not a commission. → Gives: [portrait-dedicated-to-forget-me-not](../clues/clues.md#portrait-dedicated-to-forget-me-not)
+- `(noticed by: [Culture](../cards/culture.md))` — Low in one corner sits a small, easily missed signature. A trained eye reads the hand and the mark: this is [@name](../characters/painter.md)'s own work. → Gives: [emil-signed-the-portrait](../clues/clues.md#emil-signed-the-portrait) <!-- Prompted by: [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew) -->
+- `(noticed by: [Culture](../cards/culture.md))` — The portrait's style is Fauvist: the woman and her dress carried in bold, unnatural, expressive colour, alive and full of light. → Gives: [portrait-is-fauvist](../clues/clues.md#portrait-is-fauvist) <!-- Prompted by: [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew) -->
+- The back of the canvas bears a line: "For my forget-me-not, the only blue I ever got right." A private endearment, not a commission. → Gives: [portrait-dedicated-to-forget-me-not](../clues/clues.md#portrait-dedicated-to-forget-me-not) <!-- Prompted by: [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew) -->
 
 ## Actions
 
 ### Compare the dress to the portrait
 - **Requires:** [@name](girls-dress.md) AND [@name](portrait.md)
-- **Prompted by:** [portrait-woman-in-blue-dress](../clues/clues.md#portrait-woman-in-blue-dress)
+<!-- Prompted by: [portrait-woman-in-blue-dress](../clues/clues.md#portrait-woman-in-blue-dress) -->
 - **Outcome:** Set the portrait beside the blue dress taken from the wardrobe: the same cut, the same blue. The woman he painted wore it.
 - **Gives:** [blue-dress-matches-portrait](../clues/clues.md#blue-dress-matches-portrait)

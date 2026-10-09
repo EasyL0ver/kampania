@@ -51,10 +51,10 @@ Opportunities are **what the GM reveals to a player who clears a gate** — some
 ### Format
 
 ```
-- **[Observable thing]** `(when: [world state])` `(noticed by: [Card](../cards/file.md) AND [clue-id](../clues/clues.md#clue-id))` `(prompted by: …)` — [What the gated player notices]. → Gives: [`clue-id`](../clues/clues.md#clue-id)
+- `(when: [world state])` `(noticed by: [Card](../cards/file.md) AND [clue-id](../clues/clues.md#clue-id))` — [What the gated player notices]. → Gives: [`clue-id`](../clues/clues.md#clue-id) <!-- Prompted by: … -->
 ```
 
-The `(prompted by: …)` tag is optional — same meaning and format as an action's `Prompted by:` (Actions rule 9).
+One line, no title, built to be scanned. The parts always come in this order: `(when: …)`, `(noticed by: …)`, ` — ` and the text, `→ Gives: …`, then the hidden `<!-- Prompted by: … -->`. Every part but the text is optional (the ` — ` only follows a gate). The text must stand on its own: it names what is observed. `Prompted by` is a comment, so it never renders; same meaning and format as an action's (Actions rule 9). Checked by `python validate.py` (rule `opportunity-format`).
 
 ### The gate
 
@@ -64,8 +64,8 @@ An opportunity's gate has two halves. Both are **silent**: the GM never hints at
 - **`(when: …)` — whether it is there at all.** World state: who is present, an action already done, NPC/world state, an NPC knowing a clue (`npc:` followed by the clue link). Same meaning as an action's `When:`. Format not standardised yet.
 
 ```
-- **Janina's empty pew** `(noticed by: [Devotion](../cards/devotion.md) AND [ciotka-is-devout](../clues/clues.md#ciotka-is-devout))` — …
-- **He's nervous** `(when: talked to the [sołtys](../characters/wojewoda.md))` `(noticed by: [Empathy](../cards/empathy.md))` — a bead of sweat, eyes flicking to the door. → Gives: [`wojewoda-rattled`](../clues/clues.md#wojewoda-rattled)
+- `(noticed by: [Devotion](../cards/devotion.md) AND [ciotka-is-devout](../clues/clues.md#ciotka-is-devout))` — [@first-name](../characters/ciotka.md)'s pew is the only empty one. …
+- `(when: talked to [@name](../characters/wojewoda.md))` `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/wojewoda.md) sweats, eyes flicking to the door. → Gives: [`wojewoda-rattled`](../clues/clues.md#wojewoda-rattled)
 ```
 
 Meet **every** condition → you get it. Miss one → the opportunity isn't there for you at all. Opportunities never use `(requires: …)` — that word belongs to actions.
@@ -92,7 +92,7 @@ Actions are **what players do when they declare intent.** Every action produces 
 ### Action Name
 - **Requires:** [Cards the player holds — skill card or item links, combined with AND / OR / ( ); omit the line when nothing is required]
 - **When:** [World state that must hold for the action to exist — NPC present, state reached, scene done. GM-only, never hinted. Omit when always available. Format not standardised yet.]
-- **Prompted by:** [Clue links and/or aware:<kind>/<file>.md tokens, separated by ", ". Soft breadcrumb, not a gate. Omit only if nothing points the way (validator warns).]
+<!-- Prompted by: [Clue links and/or aware:<kind>/<file>.md tokens, separated by ", ". Hidden from the page. Soft breadcrumb, not a gate. Omit only if nothing points the way (validator warns).] -->
 - **Cost:** [N time + N composure + [Item](../items/file.md) — any combination; omit the line entirely when free]
 - **Outcome:** [What happens — one flat result for anyone who clears Requires. No skill branches.]
 - **Gives:** [Clue links, aware: tokens, item and card links — what the player now holds, separated by ", "]
@@ -102,7 +102,7 @@ Actions are **what players do when they declare intent.** Every action produces 
 A skill that would reveal more is **not** an Outcome branch — it is a separate **opportunity** gated by that action plus the skill:
 
 ```
-- **[What the skilled player also notices]** `(when: [Action Name] done)` `(noticed by: [Skill])` — [the extra]. → Gives: [`clue-id`](link)
+- `(when: [Action Name] done)` `(noticed by: [Skill])` — [what the skilled player also notices]. → Gives: [`clue-id`](link)
 ```
 
 ### When does an action cost time?
@@ -147,7 +147,6 @@ An action costs time when it eats a meaningful chunk of the character's day — 
    - `N composure` — composure spent (e.g. `1 composure`)
    - an item link — the item is used up or handed over; the item must have its own `items/` file
    - a card link — the player gives the card up for good (e.g. the Loaded card)
-   - a card link — the player gives the card up for good (e.g. the Loaded card)
 
    ```
    - **Cost:** 1 time
@@ -156,7 +155,7 @@ An action costs time when it eats a meaningful chunk of the character's day — 
    ```
 
    **A free action has no Cost line at all** — never write `Free`, `None` or `0`. Conditions, skill discounts, injuries and notes do not belong in Cost: split them into separate actions or move them to Requires/Outcome. See the table above for when an action costs time. Checked by `python validate.py` (rule `action-cost`).
-9. **`Prompted by:` is a soft breadcrumb, not a gate.** It lists prior clue(s) or awareness that would make a player think to try this action. A player without them can still take it. Opportunities may carry it too, as an inline `(prompted by: …)` tag. **Format is strict:** a `, `-separated list where each entry is a clue link written like the one in `Gives:` (link text = the clue id, optionally in backticks) or an awareness token `aware:<characters|events|locations|items>/<file>.md`. Nothing else: no `;`, no free text. An action without `Prompted by:` is a validator warning. Clues never go in `Requires:` (rule 6) — a clue that points the way always goes here. This field feeds the clue graph: it draws the edge from the prompting clue to the clue this action gives.
+9. **`Prompted by:` is a soft breadcrumb, not a gate.** It lists prior clue(s) or awareness that would make a player think to try this action. A player without them can still take it. It is **hidden**: an HTML comment, `<!-- Prompted by: … -->`, on its own line in an action and at the end of the line on an opportunity. It never renders; the validator and the clue graph still read it, and its links must resolve. **Format is strict:** a `, `-separated list where each entry is a clue link written like the one in `Gives:` (link text = the clue id, optionally in backticks) or an awareness token `aware:<characters|events|locations|items>/<file>.md`. Nothing else: no `;`, no free text. An action without `Prompted by:` is a validator warning. Clues never go in `Requires:` (rule 6) — a clue that points the way always goes here. This field feeds the clue graph: it draws the edge from the prompting clue to the clue this action gives.
 
 ---
 

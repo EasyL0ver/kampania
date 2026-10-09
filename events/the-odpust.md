@@ -36,11 +36,11 @@
 
 ## Opportunities
 
-- **The restored priest** `(noticed by: [Devotion](../cards/devotion.md))` — [@title](../characters/priest.md) [@surname](../characters/priest.md) has chosen mercy over judgment.
-- **The rite forming** `(noticed by: [Culture](../cards/culture.md))` — he is building toward general absolution for people in danger of death.
-- **The word scarlet** `(noticed by: [Devotion](../cards/devotion.md))` — his eyes go to [@first-name](../characters/wojewoda.md), [@nickname](../characters/wujas.md), and [@surname](../characters/butcher.md), but not [@first-name](../characters/matrona.md).
-- **The butcher in the pew** `(when: [@name](../characters/butcher.md) present)` `(noticed by: [Empathy](../cards/empathy.md))` — [@surname](../characters/butcher.md) is accepting absolution without visible contrition.
-- **Babcia's objection** `(when: [@name](../characters/babcia.md) present)` `(noticed by: [Culture](../cards/culture.md))` — the Lemko dead have not been named or rested, so Catholic absolution does not answer their grievance.
+- `(noticed by: [Devotion](../cards/devotion.md))` — [@title](../characters/priest.md) [@surname](../characters/priest.md) has chosen mercy over judgment.
+- `(noticed by: [Culture](../cards/culture.md))` — He is building a rite toward general absolution for people in danger of death.
+- `(noticed by: [Devotion](../cards/devotion.md))` — On the word scarlet, his eyes go to [@first-name](../characters/wojewoda.md), [@nickname](../characters/wujas.md), and [@surname](../characters/butcher.md), but not [@first-name](../characters/matrona.md).
+- `(when: [@name](../characters/butcher.md) present)` `(noticed by: [Empathy](../cards/empathy.md))` — [@surname](../characters/butcher.md) is accepting absolution without visible contrition.
+- `(when: [@name](../characters/babcia.md) present)` `(noticed by: [Culture](../cards/culture.md))` — Babcia objects: the Lemko dead have not been named or rested, so Catholic absolution does not answer their grievance.
 
 ## Actions
 

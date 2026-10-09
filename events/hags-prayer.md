@@ -24,8 +24,8 @@
 
 ## Opportunities
 
-- **Hear the singing** — being here at night, the players hear it themselves: a woman singing prayers out in the forest. → Gives: [singing-in-the-night](../clues/clues.md#singing-in-the-night)
-- **Notice the hag** — a woman is there at the well, singing, before she bolts into the dark. → Gives: aware:characters/hag.md
+- being here at night, the players hear it themselves: a woman singing prayers out in the forest. → Gives: [singing-in-the-night](../clues/clues.md#singing-in-the-night)
+- a woman is there at the well, singing, before she bolts into the dark. → Gives: aware:characters/hag.md
 
 ## Actions
 

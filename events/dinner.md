@@ -33,10 +33,10 @@
 
 ## Opportunities
 
-- **[@first-name](../characters/wife.md) watching** `(noticed by: [Finesse](../cards/finesse.md))` — [@name](../characters/wife.md) tracks the committee more closely than the conversation requires. → Gives: [`irena-is-watchful`](../clues/clues.md#irena-is-watchful)
-- **[@first-name](../characters/ciotka.md)'s empty place** `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/matrona.md)'s question about the absent [@name](../characters/ciotka.md) reveals it: [@first-name](../characters/ciotka.md) begged off, as she always does — the distance is hers. → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
-- **She never misses mass** `(noticed by: [Devotion](../cards/devotion.md))` — Someone at the table notes that [@first-name](../characters/ciotka.md) keeps her distance from the family but never from the church: she is the most devout in the village and has not missed a Sunday in years. → Gives: [`ciotka-is-devout`](../clues/clues.md#ciotka-is-devout)
-- **[@nickname](../characters/wujas.md) takes to them** `(when: drank with [@name](../characters/wujas.md) during dinner)` `(noticed by: [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md))` — loosened and glad of the company, [@nickname](../characters/wujas.md) tells them to come drink with him at the [@name](../locations/the-store.md) any day.
+- `(noticed by: [Finesse](../cards/finesse.md))` — [@name](../characters/wife.md) tracks the committee more closely than the conversation requires. → Gives: [`irena-is-watchful`](../clues/clues.md#irena-is-watchful)
+- `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/matrona.md)'s question about the absent [@name](../characters/ciotka.md) reveals it: [@first-name](../characters/ciotka.md) begged off, as she always does — the distance is hers. → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
+- `(noticed by: [Devotion](../cards/devotion.md))` — Someone at the table notes that [@first-name](../characters/ciotka.md) keeps her distance from the family but never from the church: she is the most devout in the village and has not missed a Sunday in years. → Gives: [`ciotka-is-devout`](../clues/clues.md#ciotka-is-devout)
+- `(when: drank with [@name](../characters/wujas.md) during dinner)` `(noticed by: [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md))` — loosened and glad of the company, [@nickname](../characters/wujas.md) tells them to come drink with him at the [@name](../locations/the-store.md) any day.
 
 ## Actions
 

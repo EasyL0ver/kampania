@@ -25,22 +25,22 @@ Facing the steep plug at the ridge gap.
 
 ## Opportunities
 
-- **The Foot of the Plug** `(noticed by: [Survival](../cards/survival.md))` — The lower bank seems easy; the traverse will need a rope. The top pitch can't be read from here.
-- **Mud Underfoot** `(noticed by: [Physique](../cards/physique.md))` — Seems easy.
-- **Two on the [@name](../items/rope.md)** `(noticed by: [Handiwork](../cards/handiwork.md) AND [@name](../items/rope.md))` — Securing a fall on this needs two people on the line, not one.
-- **The Anatomy of a Fall** `(noticed by: [Medicine](../cards/medicine.md))` — A slip off the lower bank is bruises and mud. Off the traverse onto the rock, broken bones. From the top pitch you break badly. None of it kills you by itself; a fall here hurts, it doesn't kill.
-- **A Soldier's Eye** `(noticed by: [Violence](../cards/violence.md))` — You've seen men fall. Roughly: the bank bruises, the traverse breaks bones, the top breaks you badly, but none of it puts a man in the ground. Less exact than a medic's read, close enough.
-- **The Crossing** `(when: climbed past lower bank)` `(noticed by: [Physique](../cards/physique.md))` — Looks very steep, but I think I can take it.
-- **A Delicate Line** `(when: climbed past lower bank)` `(noticed by: [Finesse](../cards/finesse.md))` — Steep, but there's a delicate line through it if I'm careful.
-- **Worse Than It Looked** `(when: climbed past the killzone)` `(noticed by: [Physique](../cards/physique.md))` — It's much worse than I realized. I can try it, but I'm scared of falling.
-- **Balance Over Force** `(when: climbed past the killzone)` `(noticed by: [Finesse](../cards/finesse.md))` — No holds worth the name, but I can balance it, barely.
-- **Something to Haul Against** `(when: the crux is anchored)` `(noticed by: [Handiwork](../cards/handiwork.md))` — The clamp up top is a fixed point. You can rig a line to it and haul a body up on its own, so someone who can't climb still reaches the crest.
+- `(noticed by: [Survival](../cards/survival.md))` — The lower bank seems easy; the traverse will need a rope. The top pitch can't be read from here.
+- `(noticed by: [Physique](../cards/physique.md))` — The mud underfoot seems easy.
+- `(noticed by: [Handiwork](../cards/handiwork.md) AND [@name](../items/rope.md))` — Securing a fall on this needs two people on the line, not one.
+- `(noticed by: [Medicine](../cards/medicine.md))` — A slip off the lower bank is bruises and mud. Off the traverse onto the rock, broken bones. From the top pitch you break badly. None of it kills you by itself; a fall here hurts, it doesn't kill.
+- `(noticed by: [Violence](../cards/violence.md))` — You've seen men fall. Roughly: the bank bruises, the traverse breaks bones, the top breaks you badly, but none of it puts a man in the ground. Less exact than a medic's read, close enough.
+- `(when: climbed past lower bank)` `(noticed by: [Physique](../cards/physique.md))` — The crossing looks very steep, but I think I can take it.
+- `(when: climbed past lower bank)` `(noticed by: [Finesse](../cards/finesse.md))` — Steep, but there's a delicate line through it if I'm careful.
+- `(when: climbed past the killzone)` `(noticed by: [Physique](../cards/physique.md))` — It's much worse than I realized. I can try it, but I'm scared of falling.
+- `(when: climbed past the killzone)` `(noticed by: [Finesse](../cards/finesse.md))` — No holds worth the name, but I can balance it, barely.
+- `(when: the crux is anchored)` `(noticed by: [Handiwork](../cards/handiwork.md))` — The clamp up top is a fixed point. You can rig a line to it and haul a body up on its own, so someone who can't climb still reaches the crest.
 
 ## Actions
 
 ### Scale the lower bank
 - **Requires:** [Physique](../cards/physique.md) OR [Survival](../cards/survival.md) OR [Finesse](../cards/finesse.md)
-- **Prompted by:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
+<!-- Prompted by: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap) -->
 - **Cost:** 1 time
 - **Outcome:** The greasy clay gives underfoot; a strong, sure-footed, or deft climber gets up onto the plug.
 - **Changes:** [Climber position](#climber-position) — past the lower bank
@@ -85,7 +85,7 @@ Facing the steep plug at the ridge gap.
 ### Level the foot of the plug with the kit
 - **Requires:** [@name](../items/geologists-kit.md) AND [Geology](../cards/geology.md)
 - **When:** reaching the foot of the plug (no climb).
-- **Prompted by:** [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders), [water-may-flow-over](../clues/clues.md#water-may-flow-over)
+<!-- Prompted by: [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders), [water-may-flow-over](../clues/clues.md#water-may-flow-over) -->
 - **Cost:** 1 time
 - **Outcome:** Carry the flood line to a fixed mark on the ground just below the plug: bring a level from the marked flood datum down the valley up to the mark, fixing that ground's height against the flood line. You shoot it with the kit's level and rod in a few long sights. This sets the reference the crest reading is dropped against; it does not by itself settle overtopping.
 - **Gives:** [gap-foot-level](../clues/clues.md#gap-foot-level)
@@ -94,7 +94,7 @@ Facing the steep plug at the ridge gap.
 ### Level the foot of the plug with the water hose
 - **Requires:** [@name](../items/geologists-kit.md) AND [Handiwork](../cards/handiwork.md) AND [@name](../items/water-hose-contraption.md)
 - **When:** reaching the foot of the plug (no climb).
-- **Prompted by:** [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders), [water-may-flow-over](../clues/clues.md#water-may-flow-over)
+<!-- Prompted by: [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders), [water-may-flow-over](../clues/clues.md#water-may-flow-over) -->
 - **Cost:** 2 time
 - **Outcome:** Carry the flood line to a fixed mark on the ground just below the plug: bring a level from the marked flood datum down the valley up to the mark, fixing that ground's height against the flood line. You run the [@name](../items/water-hose-contraption.md), leapfrogged one rod-length of rise per step up to the mark: slow, but the same answer. This sets the reference the crest reading is dropped against; it does not by itself settle overtopping.
 - **Gives:** [gap-foot-level](../clues/clues.md#gap-foot-level)
@@ -102,7 +102,7 @@ Facing the steep plug at the ridge gap.
 ### Take the reading with the kit
 - **Requires:** [@name](../items/geologists-kit.md) AND [Geology](../cards/geology.md)
 - **When:** the reader has topped out (past the top-out)
-- **Prompted by:** [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders), [water-may-flow-over](../clues/clues.md#water-may-flow-over), [gap-foot-level](../clues/clues.md#gap-foot-level)
+<!-- Prompted by: [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders), [water-may-flow-over](../clues/clues.md#water-may-flow-over), [gap-foot-level](../clues/clues.md#gap-foot-level) -->
 - **Cost:** 1 time
 - **Outcome:** With the foot mark already fixed against the flood line, the crest reading is two more transfers, and the crest is the only place they can be made:
   1. **Drop the top stone to the foot mark.** Hang the kit's plumb line from the capstone slab at the crest straight down the sheer face to the mark below the climb. The line reads the vertical face directly, fixing the top stone's height above the flood line.
@@ -114,7 +114,7 @@ Facing the steep plug at the ridge gap.
 ### Take the reading with the water hose
 - **Requires:** [@name](../items/geologists-kit.md) AND [Handiwork](../cards/handiwork.md) AND [@name](../items/water-hose-contraption.md)
 - **When:** the reader has topped out (past the top-out)
-- **Prompted by:** [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders), [water-may-flow-over](../clues/clues.md#water-may-flow-over), [gap-foot-level](../clues/clues.md#gap-foot-level)
+<!-- Prompted by: [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders), [water-may-flow-over](../clues/clues.md#water-may-flow-over), [gap-foot-level](../clues/clues.md#gap-foot-level) -->
 - **Cost:** 2 time
 - **Outcome:** With the foot mark already fixed against the flood line, the crest reading is two more transfers, and the crest is the only place they can be made:
   1. **Drop the top stone to the foot mark.** Hang the kit's plumb line from the capstone slab at the crest straight down the sheer face to the mark below the climb. The line reads the vertical face directly, fixing the top stone's height above the flood line.

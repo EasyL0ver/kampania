@@ -34,17 +34,17 @@ The river, hillsides, and forest edges around [@name](new-village.md).
 
 ## Opportunities
 
-- **Spot the old village** `(when: on a survey route)` `(noticed by: [Survival](../cards/survival.md))` — Stone ruins are visible through the trees. → Gives: aware:locations/old-village-ruins.md
-- **Spot Butcher at his house** `(when: on the route past [@name](../characters/butcher.md)'s house)` `(noticed by: [Finesse](../cards/finesse.md))` — [@surname](../characters/butcher.md) is alone near the treeline and using the same direction repeatedly. → Gives: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
-- **Spot the drinking crew heading into the forest** `(when: near the treeline track)` `(noticed by: [Survival](../cards/survival.md))` — [@name](../characters/wujas.md) and the crew carry bottles toward the forest. → Gives: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
-- **See the landslide plug** `(when: on a survey route)` `(noticed by: [Survival](../cards/survival.md))` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The notch in the ridge is choked with fallen rock and earth. → Gives: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
-- **The river isn't where the map draws it** `(when: observation comparing map to ground)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The wojewoda's bridge spans running water, but the map shows that ground dry and the river on its old course. → Gives: [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map)
+- `(when: on a survey route)` `(noticed by: [Survival](../cards/survival.md))` — Stone ruins of the old village are visible through the trees. → Gives: aware:locations/old-village-ruins.md
+- `(when: on the route past [@name](../characters/butcher.md)'s house)` `(noticed by: [Finesse](../cards/finesse.md))` — At his house, [@surname](../characters/butcher.md) is alone near the treeline and using the same direction repeatedly. → Gives: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
+- `(when: near the treeline track)` `(noticed by: [Survival](../cards/survival.md))` — [@name](../characters/wujas.md) and the crew carry bottles toward the forest. → Gives: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
+- `(when: on a survey route)` `(noticed by: [Survival](../cards/survival.md))` — The notch in the ridge is choked with fallen rock and earth: the landslide plug. → Gives: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap) <!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
+- `(when: observation comparing map to ground)` — The wojewoda's bridge spans running water, but the map shows that ground dry and the river on its old course. → Gives: [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map) <!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
 
 ## Actions
 
 ### Walk to the ridge gap
 - **When:** Reaching the ridge water-gap (visible from the survey routes)
-- **Prompted by:** [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain), [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map), [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land)
+<!-- Prompted by: [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain), [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map), [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land) -->
 - **Cost:** 1 time
 - **Outcome:** You reach the notch. A landslide has choked the gap with fallen rock and earth. Whether that fill actually stops the water is a further question, settled at [@name](the-ridge-gap.md) by climbing the plug for a geological read on-site or by describing it to [@name](../characters/professor.md).
 - **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), aware:locations/the-ridge-gap.md, aware:events/climb-the-plug.md, aware:events/foreman-saves-village.md
@@ -55,13 +55,13 @@ The river, hillsides, and forest edges around [@name](new-village.md).
 - **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest), [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest), aware:characters/hag.md, [old-wartime-positions](../clues/clues.md#old-wartime-positions)
 
 ### Follow the drinking crew
-- **Prompted by:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
+<!-- Prompted by: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest) -->
 - **Cost:** 1 time
 - **Outcome:** The trail leads to the [@name](bimber-still.md).
 - **Gives:** [bimber-still](../clues/clues.md#bimber-still), aware:locations/bimber-still.md
 
 ### Follow the Butcher's path
-- **Prompted by:** [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
+<!-- Prompted by: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest) -->
 - **Cost:** 1 time
 - **Outcome:** [@surname](../characters/butcher.md)'s trail leads past the old village toward the ridge.
 - **Gives:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
@@ -69,7 +69,7 @@ The river, hillsides, and forest edges around [@name](new-village.md).
 
 ### Track the hag to her cabin
 - **Requires:** [Survival](../cards/survival.md)
-- **Prompted by:** aware:characters/hag.md
+<!-- Prompted by: aware:characters/hag.md -->
 - **Cost:** 1 time
 - **Outcome:** Knowing someone lives out here, a tracker cuts her sign from the forest floor: silent footfalls, snapped herbs, a worn path under the undergrowth. The trail runs back to the [@name](hags-cabin.md).
 - **Gives:** aware:locations/hags-cabin.md
@@ -81,7 +81,7 @@ The river, hillsides, and forest edges around [@name](new-village.md).
 - **Gives:** [old-wartime-positions](../clues/clues.md#old-wartime-positions)
 
 ### Look for the UPA bunker
-- **Prompted by:** [old-wartime-positions](../clues/clues.md#old-wartime-positions), [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area)
+<!-- Prompted by: [old-wartime-positions](../clues/clues.md#old-wartime-positions), [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area) -->
 - **Cost:** 1 time
 - **Outcome:** Ventilation shafts and a hidden entrance reveal the [@name](upa-bunker.md); [@name](../characters/glupek.md) may be near the mouth.
 - **Gives:** aware:locations/upa-bunker.md, aware:locations/upa-bunker.md

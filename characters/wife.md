@@ -60,8 +60,8 @@ After [@name](../events/irena-confronts-wojewoda.md), she closes the household, 
 
 ## Opportunities
 
-- **Avoided thread** `(when: Trade clues (Phase 1))` `(noticed by: [Empathy](../cards/empathy.md))` — she trades on anyone except her own husband; his name never comes up, and she changes direction when it nears.
-- **Committee scrutiny** `(when: Property assessment, flood not openly disclosed)` — her questions sharpen around why land is being valued.
+- `(when: Trade clues (Phase 1))` `(noticed by: [Empathy](../cards/empathy.md))` — she trades on anyone except her own husband; his name never comes up, and she changes direction when it nears.
+- `(when: Property assessment, flood not openly disclosed)` — Her questions to the committee sharpen around why land is being valued.
 
 ## Actions
 

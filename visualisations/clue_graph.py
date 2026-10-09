@@ -61,7 +61,7 @@ FIELD = re.compile(r"\*\*(Requires|When|Prompted by|Cost|Outcome|Gives|Changes):
 OPP_NAME = re.compile(r"^\s*-\s*\*\*(.+?)\*\*")
 NOTICED_TAG = re.compile(r"`\(noticed by:\s*(.*?)\)`", re.IGNORECASE)
 WHEN_TAG = re.compile(r"`\(when:\s*(.*?)\)`", re.IGNORECASE)
-PROMPT_TAG = re.compile(r"\(prompted by:\s*(.*?)\)\s*`", re.IGNORECASE)
+PROMPT_TAG = re.compile(r"<!-- Prompted by: (.*?) -->")   # hidden; own line in actions, line end on opportunities
 # "aware:<repo-relative-path>.md" is an awareness token: the existence of a
 # scene entity (character/item/location/event). It behaves as a pseudo-clue
 # whose node id is "awareness:<relpath>". Usable in Requires (hard gate),
@@ -289,12 +289,16 @@ def parse_scene(path: Path) -> tuple[Scene, list[Node]]:
 
 
 def _parse_opportunity(line: str, rel: str, title: str) -> Node | None:
-    if "**" not in line or not line.lstrip().startswith("-"):
+    # Opportunities have no title: - `(when: …)` `(noticed by: …)` — text → Gives: … <!-- Prompted by: … -->
+    if not line.startswith("- "):
         return None
-    nm = OPP_NAME.match(line)
-    if not nm:
+    text = re.sub(r"<!--.*?-->|→\s*Gives:.*$", "", line[2:])
+    text = re.sub(r"`\([^`]*\)`|^\s*—\s*", "", text).strip(" —")
+    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"", text)
+    words = text.split()
+    name = " ".join(words[:6]) + ("…" if len(words) > 6 else "")
+    if not name:
         return None
-    name = nm.group(1).strip()
     node = Node(
         id=f"{rel}::{name}", name=name, kind="opportunity",
         scene=rel, scene_title=title,
@@ -328,6 +332,10 @@ def _parse_action_block(htitle: str, body: list[str], rel: str, title: str) -> N
     """A heading block whose body carries fields/Gives is an action giver."""
     req_lines, when_lines, out_lines, gives_lines, cost_lines, prompt_lines = [], [], [], [], [], []
     for line in body:
+        pc = PROMPT_TAG.fullmatch(line.strip())
+        if pc:
+            prompt_lines.append(pc.group(1))
+            continue
         fm = FIELD.search(line)
         if fm:
             f, txt = fm.group(1).lower(), fm.group(2)

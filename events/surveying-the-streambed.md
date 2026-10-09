@@ -22,21 +22,21 @@ Setting up a level line at the far-ridge streambed to measure toward the village
 
 ## Opportunities
 
-- **Read the col by eye** `(noticed by: [Geology](../cards/geology.md))` — A surveyor standing on the col can see it rides high, but "high" is not a number and will not settle the drain question; only the level line does. → No clue; sets expectations.
+- `(noticed by: [Geology](../cards/geology.md))` — A surveyor standing on the col can see it rides high, but "high" is not a number and will not settle the drain question; only the level line does. → No clue; sets expectations.
 
 ## Actions
 
 ### Shoot a leg
 - **Requires:** [Geology](../cards/geology.md) AND [@name](../items/geologists-kit.md)
 - **When:** at the col, the line not yet finished
-- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
+<!-- Prompted by: [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain) -->
 - **Cost:** 1 time
 - **Outcome:** You set the level, sight the staff, and book the reading for one stretch of the line down the slope.
 - **Changes:** [The line](#the-line) — +1 leg
 
 ### Hold the staff
 - **When:** at the col, a geologist working the line
-- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
+<!-- Prompted by: [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain) -->
 - **Cost:** 1 time
 - **Outcome:** You carry and hold the staff and call the readings back, so the geologist keeps moving instead of walking every stretch twice.
 - **Changes:** [The line](#the-line) — +1 leg
@@ -44,7 +44,7 @@ Setting up a level line at the far-ridge streambed to measure toward the village
 ### Haul the level
 - **Requires:** [Physique](../cards/physique.md)
 - **When:** at the col, a geologist working the line
-- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
+<!-- Prompted by: [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain) -->
 - **Cost:** 1 time
 - **Outcome:** You haul the level and staff over the broken ground and reset them stretch after stretch; the slow part goes fast.
 - **Changes:** [The line](#the-line) — +2 legs

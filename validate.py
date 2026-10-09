@@ -65,6 +65,11 @@ class MdFile:
         return None
 
 
+# Prompted by is hidden from the rendered page: an HTML comment, on its own line in an
+# action, at the end of the line on an opportunity. Tools still read it.
+PROMPTED_COMMENT = re.compile(r"<!-- Prompted by: (.*?) -->")
+
+
 def parse(path: Path) -> MdFile:
     rel = path.relative_to(REPO_ROOT).as_posix()
     # The top folder decides the kind, so subfolders (characters/secondary,
@@ -84,7 +89,7 @@ def parse(path: Path) -> MdFile:
             if "-->" in stripped:
                 in_comment = False
             continue
-        if stripped.startswith("<!--"):
+        if stripped.startswith("<!--") and not PROMPTED_COMMENT.fullmatch(stripped):
             in_comment = "-->" not in stripped
             continue
 
@@ -209,13 +214,12 @@ def action_fields(f: MdFile):
 
 @rule("prompted-by-present", "characters", "events", "locations", "items", severity="warning")
 def prompted_by_present(f: MdFile):
-    """Every ### action under ## Actions has a Prompted by line."""
+    """Every ### action under ## Actions has a hidden <!-- Prompted by: ... --> line."""
     s = f.section("Actions")
     if s is None:
         return
     for a in s.children:
-        present = {m.group(1).strip() for _, t in a.body if (m := ACTION_FIELD.match(t))}
-        if "Prompted by" not in present:
+        if not any(PROMPTED_COMMENT.fullmatch(t.strip()) for _, t in a.body):
             yield a.line, f"action '{a.title}' has no Prompted by"
 
 
@@ -402,7 +406,13 @@ def opinions_format(f: MdFile):
 
 PROSE_LIMIT = 250
 OUTCOME_FIELD = re.compile(r"^\s*-\s*\*\*Outcome:\*\*\s*(.*?)\s*$")
-OPP_TEXT = re.compile(r"^\s*-\s*\*\*[^*]+\*\*(?:\s*`\([^`]*\)`)*\s*[—:-]\s*(.*?)\s*(?:→\s*Gives:.*)?$")
+OPP_LINE = re.compile(
+    r"^- (?:`\(when: (?P<when>(?:[^()`]|\([^()`]*\))+)\)` )?"
+    r"(?:`\(noticed by: (?P<noticed>(?:[^()`]|\([^()`]*\))+)\)` )?"
+    r"(?(when)— |(?(noticed)— |))(?P<text>[^`]*?)"
+    r"(?: → Gives: (?P<gives>.+?))?"
+    r"(?: <!-- Prompted by: (?P<prompted>.+?) -->)?$")
+OPP_TEXT = re.compile(r"^\s*-\s*(?:`\([^`]*\)`\s*)*(?:—\s*)?(.*?)\s*(?:→\s*Gives:.*?)?\s*(?:<!--.*-->)?$")
 
 
 def rendered(text: str) -> str:
@@ -457,7 +467,7 @@ def noticed_by_format(f: MdFile):
 
 
 GIVES_FIELD = re.compile(r"^\s*-\s*\*\*Gives:\*\*\s*(.*?)\s*$")
-OPP_GIVES = re.compile(r"→\s*Gives:\s*(.*?)\s*(?=→\s*Changes:|$)")
+OPP_GIVES = re.compile(r"→\s*Gives:\s*(.*?)\s*(?=→\s*Changes:|<!--|$)")
 GIVES_JOIN = ", "
 
 
@@ -557,6 +567,24 @@ def mechanic_type(f: MdFile):
                 yield body[2][0], f"Start '{v}' is not one of: {', '.join(values)}"
 
 
+@rule("opportunity-format", "characters", "events", "locations", "items")
+def opportunity_format(f: MdFile):
+    """Each opportunity is one line: - `(when: …)` `(noticed by: …)` — text → Gives: … <!-- Prompted by: … -->.
+    No title; every part optional except the text; parts in that order."""
+    s = f.section("Opportunities")
+    for line, t in (s.body if s else []):
+        if not t.startswith("- "):
+            if t.strip() and not t.startswith("  "):
+                yield line, "Opportunities hold only one-line opportunities (- ...)"
+            continue
+        if t.startswith("- **"):
+            yield line, "opportunity has a title: start with `(when: …)`, `(noticed by: …)` or the text"
+            continue
+        m = OPP_LINE.match(t)
+        if not m or not m.group("text").strip():
+            yield line, "opportunity must read: - `(when: …)` `(noticed by: …)` — text → Gives: … <!-- Prompted by: … -->"
+
+
 @rule("opportunity-no-changes", "characters", "events", "locations", "items")
 def opportunity_no_changes(f: MdFile):
     """Opportunities are noticed, never done: they may Give but never carry `→ Changes:`."""
@@ -598,12 +626,12 @@ PROMPTED_TAG = re.compile(r"`\(prompted by:\s*(.*?)\)`", re.IGNORECASE)
 
 @rule("prompted-by-format", "characters", "events", "locations", "items")
 def prompted_by_format(f: MdFile):
-    """Prompted by (action line or opportunity `(prompted by: ...)` tag) is a ', '-separated list of clue links [clue-id](../clues/clues.md#clue-id) or aware:<kind>/<file>.md tokens."""
+    """Prompted by (hidden <!-- Prompted by: ... -->, own line in an action, line end on an opportunity) is a ', '-separated list of clue links [clue-id](../clues/clues.md#clue-id) or aware:<kind>/<file>.md tokens."""
     for line, t in f.lines_with_numbers():
-        m = PROMPTED_FIELD.match(t)
-        values = [m.group(1)] if m else [v.strip() for v in PROMPTED_TAG.findall(t)]
-        for value in values:
-            yield from _check_prompted(line, value)
+        if PROMPTED_FIELD.match(t) or PROMPTED_TAG.search(t):
+            yield line, "Prompted by must be hidden: <!-- Prompted by: ... -->"
+        for value in PROMPTED_COMMENT.findall(t):
+            yield from _check_prompted(line, value.strip())
 
 
 def _check_prompted(line: int, value: str):
@@ -702,6 +730,7 @@ def link_lines(f: MdFile):
             continue
         if fence:
             continue
+        t = PROMPTED_COMMENT.sub(lambda m: " " + m.group(1) + " ", t)
         out = ""
         while t:
             if comment:

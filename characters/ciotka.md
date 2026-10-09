@@ -45,22 +45,22 @@ At home she moves around [@first-name](glupek.md) with practiced care. In public
 
 ## Opportunities
 
-- **The flinch at family** `(when: brought up her siblings, Read)` `(prompted by: aware:characters/ciotka.md)` — every mention of her siblings pulls her tight; she changes the subject, hands busy. The distance is hers and it costs her. → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
-- **The faith is real** `(noticed by: [Devotion](../cards/devotion.md))` `(prompted by: aware:characters/ciotka.md)` — the rosary in her apron pocket is worn to the string, beads rubbed pale at the decades. She murmurs before she eats and before she leaves a room, small reflexive prayers she does not perform for anyone. A believer who means it clocks the difference at once: hers is real, and it is heavy. She carries it like penance. → Gives: [`ciotka-is-devout`](../clues/clues.md#ciotka-is-devout)
-- **She loves the boy** `(noticed by: [Empathy](../cards/empathy.md))` — watch her with [@first-name](glupek.md) and the fear leaves her face. She reads his moods before he shows them, warms his food to the temperature he likes, steadies him without being asked. Whatever else she is, this is a woman who loves this boy and has built her whole small life around caring for him.
-- **Coffee for the visitors** `(prompted by: aware:characters/ciotka.md)` — [@first-name](ciotka.md) sets out coffee for the committee, hospitality she will not skip. [@name](glupek.md) is given a cup too and flinches at the first taste, baffled that anyone drinks something so bitter, and leaves it untouched. Coffee in that house is hers alone. → Gives: [`glupek-wont-drink-coffee`](../clues/clues.md#glupek-wont-drink-coffee)
+- `(when: brought up her siblings, Read)` — At any mention of her siblings she flinches: she pulls tight, changes the subject, hands busy. The distance is hers and it costs her. → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family) <!-- Prompted by: aware:characters/ciotka.md -->
+- `(noticed by: [Devotion](../cards/devotion.md))` — Her faith is real: the rosary in her apron pocket is worn to the string, and she murmurs prayers before eating or leaving a room, performing them for no one. She carries it like penance. → Gives: [`ciotka-is-devout`](../clues/clues.md#ciotka-is-devout) <!-- Prompted by: aware:characters/ciotka.md -->
+- `(noticed by: [Empathy](../cards/empathy.md))` — watch her with [@first-name](glupek.md) and the fear leaves her face. She reads his moods before he shows them, warms his food to the temperature he likes, steadies him without being asked. Whatever else she is, this is a woman who loves this boy and has built her whole small life around caring for him.
+- [@first-name](ciotka.md) sets out coffee for the committee, hospitality she will not skip. [@name](glupek.md) is given a cup too and flinches at the first taste, baffled that anyone drinks something so bitter, and leaves it untouched. Coffee in that house is hers alone. → Gives: [`glupek-wont-drink-coffee`](../clues/clues.md#glupek-wont-drink-coffee) <!-- Prompted by: aware:characters/ciotka.md -->
 
 ## Actions
 
 ### Census interview
-- **Prompted by:** aware:characters/ciotka.md
+<!-- Prompted by: aware:characters/ciotka.md -->
 - **Cost:** 1 time
 - **Outcome:** She presents her son [@name](glupek.md) to the committee, then lists herself as mother and [@name](soldier.md) as the father who left the village — a Barnaś, though her own name is Gajda. The house and boy are both presented as hers.
 - **Gives:** [`edeks-father-left`](../clues/clues.md#edeks-father-left), aware:characters/soldier.md, aware:characters/glupek.md
 - **Changes:** [Census](../items/census.md#census) — [@first-name](ciotka.md) [@surname](ciotka.md) and [@name](glupek.md)
 
 ### Property assessment
-- **Prompted by:** aware:characters/ciotka.md
+<!-- Prompted by: aware:characters/ciotka.md -->
 - **Cost:** 1 time
 - **Outcome:** She says the house belongs to her brother, the sołtys, who gave it to her. She claims no deed and no title of her own.
 - **Gives:** [`ciotka-house-is-wojewodas`](../clues/clues.md#ciotka-house-is-wojewodas)

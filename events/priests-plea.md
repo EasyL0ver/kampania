@@ -36,11 +36,11 @@
 
 ## Opportunities
 
-- **The reversed confession** `(noticed by: [Empathy](../cards/empathy.md))` — [@title](../characters/priest.md) [@surname](../characters/priest.md) has come to a layperson for reassurance a priest is supposed to give. He is frightened.
-- **The judgment pattern** `(noticed by: [Culture](../cards/culture.md) OR [History](../cards/history.md))` — every scripture example he reaches for is a judgment narrative. His fear points toward the valley deserving to drown.
-- **The unnamed sin** `(noticed by: [Devotion](../cards/devotion.md))` — he is not speaking generally. He knows a specific sin.
-- **The collar gesture** `(noticed by: [Devotion](../cards/devotion.md))` — the confessional seal is the wall keeping his knowledge in. He is exhausted by holding it.
-- **The brand on the paper** `(noticed by: [Chainsmoker](../cards/chainsmoker.md) AND [priest-smokes](../clues/clues.md#priest-smokes))` — with the cigarette lit, a smoker reads the brand off the paper at once: premium Carmen, the same the village would name at [@first-name](../characters/ciotka.md)'s door. → Gives: [`priest-smokes-carmen`](../clues/clues.md#priest-smokes-carmen)
+- `(noticed by: [Empathy](../cards/empathy.md))` — [@title](../characters/priest.md) [@surname](../characters/priest.md) has come to a layperson for reassurance a priest is supposed to give. He is frightened.
+- `(noticed by: [Culture](../cards/culture.md) OR [History](../cards/history.md))` — every scripture example he reaches for is a judgment narrative. His fear points toward the valley deserving to drown.
+- `(noticed by: [Devotion](../cards/devotion.md))` — He is not speaking generally: he knows a specific sin, and he does not name it.
+- `(noticed by: [Devotion](../cards/devotion.md))` — He touches his collar: the confessional seal is the wall keeping his knowledge in, and he is exhausted by holding it.
+- `(noticed by: [Chainsmoker](../cards/chainsmoker.md) AND [priest-smokes](../clues/clues.md#priest-smokes))` — with the cigarette lit, a smoker reads the brand off the paper at once: premium Carmen, the same the village would name at [@first-name](../characters/ciotka.md)'s door. → Gives: [`priest-smokes-carmen`](../clues/clues.md#priest-smokes-carmen)
 
 ## Actions
 
@@ -67,7 +67,7 @@
 
 ### Share his cigarette
 - **When:** [@title](../characters/priest.md) [@surname](../characters/priest.md) genuinely trusts the player (mercy supported, or a personal confidence shared in return)
-- **Prompted by:** aware:events/priests-plea.md
+<!-- Prompted by: aware:events/priests-plea.md -->
 - **Outcome:** He drops the pretence, takes out a cigarette for himself and offers one to the player. The habit he hides from the village is plain.
 - **Gives:** [`priest-smokes`](../clues/clues.md#priest-smokes)
 

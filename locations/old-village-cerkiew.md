@@ -32,10 +32,10 @@
 
 ## Opportunities
 
-- **Fresh candles and incense** `(noticed by: [Culture](../cards/culture.md))` — Someone still comes here to perform rites. → Gives: [hag-tends-the-well](../clues/clues.md#hag-tends-the-well)
-- **The dead are close** `(noticed by: [Superstitious](../cards/superstitious.md))` — The cold, the drifting candle smoke, and the watching quiet press in; a superstitious soul is certain the old villagers never truly left this hill.
-- **Faded icons** `(noticed by: [Culture](../cards/culture.md) OR [Devotion](../cards/devotion.md) OR [Language](../cards/language.md))` — The icons and Cyrillic inscriptions identify the cerkiew as Greek Catholic and Lemko. → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
-- **The three-barred crosses** `(prompted by: aware:locations/old-village-cerkiew.md)` — The altar screen, icons, and carvings are marked all over with a recurring three-barred cross. → Gives: [three-barred-cross-in-cerkiew](../clues/clues.md#three-barred-cross-in-cerkiew)
+- `(noticed by: [Culture](../cards/culture.md))` — Fresh candles and incense show someone still comes here to perform rites. → Gives: [hag-tends-the-well](../clues/clues.md#hag-tends-the-well)
+- `(noticed by: [Superstitious](../cards/superstitious.md))` — The cold, the drifting candle smoke, and the watching quiet press in; a superstitious soul is certain the old villagers never truly left this hill.
+- `(noticed by: [Culture](../cards/culture.md) OR [Devotion](../cards/devotion.md) OR [Language](../cards/language.md))` — The icons and Cyrillic inscriptions identify the cerkiew as Greek Catholic and Lemko. → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
+- The altar screen, icons, and carvings are marked all over with a recurring three-barred cross. → Gives: [three-barred-cross-in-cerkiew](../clues/clues.md#three-barred-cross-in-cerkiew) <!-- Prompted by: aware:locations/old-village-cerkiew.md -->
 
 ## Actions
 

@@ -42,16 +42,16 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 
 ## Opportunities
 
-- **The missing father matters** `(when: Census interview)` `(noticed by: [Empathy](../cards/empathy.md))` — Her warmth stays in place, but her jaw sets and she waits for the question to pass.
-- **The census omission is formal** `(when: Census interview)` `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — A census form with no father listed is a bureaucratic flag.
-- **The household economics do not fit** `(when: Census interview)` `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — Three household members and one farm-labour income cannot explain the house and supplies. → Gives: [`barbara-has-help`](../clues/clues.md#barbara-has-help)
-- **[@first-name](barbara.md) fishes while she talks** `(when: Ask about the village)` `(noticed by: [Finesse](../cards/finesse.md))` — Every answer ends with a question about the committee, the survey, or what the players have found. → Gives: [`barbara-is-a-sieve`](../clues/clues.md#barbara-is-a-sieve)
-- **[@first-name](barbara.md)'s social map has omissions** `(when: Ask about the village)` `(noticed by: [Finesse](../cards/finesse.md))` — Her kind descriptions skip [@name](butcher.md) unless asked, soften [@name](wujas.md), and avoid judging [@name](matrona.md).
+- `(when: Census interview)` `(noticed by: [Empathy](../cards/empathy.md))` — When the missing father comes up, her warmth stays in place, but her jaw sets and she waits for the question to pass.
+- `(when: Census interview)` `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — A census form with no father listed is a bureaucratic flag.
+- `(when: Census interview)` `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — Three household members and one farm-labour income cannot explain the house and supplies. → Gives: [`barbara-has-help`](../clues/clues.md#barbara-has-help)
+- `(when: Ask about the village)` `(noticed by: [Finesse](../cards/finesse.md))` — [@first-name](barbara.md) fishes: every answer ends with a question about the committee, the survey, or what the players have found. → Gives: [`barbara-is-a-sieve`](../clues/clues.md#barbara-is-a-sieve)
+- `(when: Ask about the village)` `(noticed by: [Finesse](../cards/finesse.md))` — [@first-name](barbara.md)'s kind descriptions skip [@name](butcher.md) unless asked, soften [@name](wujas.md), and avoid judging [@name](matrona.md).
 
 ## Actions
 
 ### Census interview
-- **Prompted by:** [committee-fills-census](../clues/clues.md#committee-fills-census)
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** [@first-name](barbara.md) gives her name, age, household members, and employment cheerfully. She will not name [@name](pawelek.md)'s father.
 - **Gives:** [`barbara-refuses-father`](../clues/clues.md#barbara-refuses-father)
@@ -59,41 +59,41 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 
 ### Push her about the father
 - **Requires:** [Violence](../cards/violence.md) OR [Bureaucracy](../cards/bureaucracy.md)
-- **Prompted by:** [barbara-refuses-father](../clues/clues.md#barbara-refuses-father)
+<!-- Prompted by: [barbara-refuses-father](../clues/clues.md#barbara-refuses-father) -->
 - **Outcome:** She names [@name](junior.md) and begs the players not to write it down. If they record it, [@name](wojewoda.md) sees the census form.
 - **Gives:** [`marek-is-paweleks-father`](../clues/clues.md#marek-is-paweleks-father)
 
 ### Probe her about the help she has
 - **Requires:** [Speech](../cards/speech.md)
-- **Prompted by:** [barbara-has-help](../clues/clues.md#barbara-has-help), [barbara-refuses-father](../clues/clues.md#barbara-refuses-father)
+<!-- Prompted by: [barbara-has-help](../clues/clues.md#barbara-has-help), [barbara-refuses-father](../clues/clues.md#barbara-refuses-father) -->
 - **Outcome:** She names [@name](junior.md) and begs the players not to write it down. If they record it, [@name](wojewoda.md) sees the census form.
 - **Gives:** [`marek-is-paweleks-father`](../clues/clues.md#marek-is-paweleks-father)
 
 ### Property assessment
-- **Prompted by:** [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage)
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** She names the red-brick house and small plot as hers, with vague papers. Pressed on who built or pays for it, she goes quiet.
 - **Gives:** [`barbara-has-help`](../clues/clues.md#barbara-has-help)
 - **Changes:** [Property Record](../items/census.md#property-record) — [@first-name](barbara.md) [@surname](barbara.md)'s house and plot
 
 ### Ask about the village
-- **Prompted by:** aware:locations/new-village.md
+<!-- Prompted by: aware:locations/new-village.md -->
 - **Outcome:** [@first-name](barbara.md) gives a generous social map: [@name](wojewoda.md) has the phone, the Gajda siblings keep the church supplied, [@name](neighbour.md) helps her, [@name](foreman.md) is busy, and the old village is not somewhere people go. Every answer comes with a friendly question back.
 - **Gives:** [`wojewoda-has-only-phone`](../clues/clues.md#wojewoda-has-only-phone), [`siblings-fund-the-church`](../clues/clues.md#siblings-fund-the-church)
 
 ### Ask about the old village
-- **Prompted by:** aware:locations/old-village-ruins.md
+<!-- Prompted by: aware:locations/old-village-ruins.md -->
 - **Outcome:** She lowers her voice. Nobody goes up to the old village, she says; it is a bad place, haunted, and folk keep well away, after dark most of all. She is passing on the village feeling, not anything she has seen herself.
 - **Gives:** [`old-village-is-haunted`](../clues/clues.md#old-village-is-haunted)
 
 ### Ask Barbara about the three-barred cross
-- **Prompted by:** [three-barred-cross-in-babcias-room](../clues/clues.md#three-barred-cross-in-babcias-room)
+<!-- Prompted by: [three-barred-cross-in-babcias-room](../clues/clues.md#three-barred-cross-in-babcias-room) -->
 - **Outcome:** She says the cross is her mother's and that it belongs to "the old way." She cannot explain the theology or history.
 - **Gives:** [`three-barred-cross-is-lemko`](../clues/clues.md#three-barred-cross-is-lemko), [`babcia-is-lemko`](../clues/clues.md#babcia-is-lemko)
 
 ### Show Barbara the dress
 - **Requires:** [@name](../items/girls-dress.md)
-- **Prompted by:** [girls-dress-in-ciotkas-house](../clues/clues.md#girls-dress-in-ciotkas-house)
+<!-- Prompted by: [girls-dress-in-ciotkas-house](../clues/clues.md#girls-dress-in-ciotkas-house) -->
 - **Outcome:** She takes it, turns it over, and knows the cut at once: this was made for a teenage girl, not a grown woman and not a child.
 - **Gives:** [`dress-belonged-to-teenage-girl`](../clues/clues.md#dress-belonged-to-teenage-girl)
 

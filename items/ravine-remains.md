@@ -16,7 +16,7 @@ A rotted coat, its colour long gone to the soil, and a scatter of bones — inco
 
 ### First examination of the remains
 - **Requires:** [Medicine](../cards/medicine.md) AND [Remains from the Ravine](ravine-remains.md)
-- **Prompted by:** [dudka-buried-a-friend-at-the-ravine](../clues/clues.md#dudka-buried-a-friend-at-the-ravine)
+<!-- Prompted by: [dudka-buried-a-friend-at-the-ravine](../clues/clues.md#dudka-buried-a-friend-at-the-ravine) -->
 - **Cost:** 1 time
 - **Outcome:** The pelvis and the surviving long bones read female. Whoever this was, she was a grown woman, not a child.
 - **Gives:** [`ravine-remains-a-woman`](../clues/clues.md#ravine-remains-a-woman)
@@ -24,7 +24,7 @@ A rotted coat, its colour long gone to the soil, and a scatter of bones — inco
 ### Second examination of the remains
 - **Requires:** [Medicine](../cards/medicine.md) AND [Remains from the Ravine](ravine-remains.md)
 - **When:** the first examination is done
-- **Prompted by:** [ravine-remains-a-woman](../clues/clues.md#ravine-remains-a-woman)
+<!-- Prompted by: [ravine-remains-a-woman](../clues/clues.md#ravine-remains-a-woman) -->
 - **Cost:** 1 time
 - **Outcome:** The fracture pattern tells it: multiple breaks from a single heavy impact, ribs and a long bone splintered. Not a beating, not a blade. She fell from a height onto hard ground, consistent with going over the edge of the ravine this meadow overlooks.
 - **Gives:** [`ravine-remains-died-from-fall`](../clues/clues.md#ravine-remains-died-from-fall)
@@ -32,7 +32,7 @@ A rotted coat, its colour long gone to the soil, and a scatter of bones — inco
 ### Third examination of the remains
 - **Requires:** [Medicine](../cards/medicine.md) AND [Remains from the Ravine](ravine-remains.md)
 - **When:** the second examination is done
-- **Prompted by:** [ravine-remains-died-from-fall](../clues/clues.md#ravine-remains-died-from-fall)
+<!-- Prompted by: [ravine-remains-died-from-fall](../clues/clues.md#ravine-remains-died-from-fall) -->
 - **Cost:** 1 time
 - **Outcome:** Bone density, joint wear and the fused ends of the long bones put her near thirty, give or take a couple of years. A woman in her thirties.
 - **Gives:** [`ravine-remains-around-30`](../clues/clues.md#ravine-remains-around-30)

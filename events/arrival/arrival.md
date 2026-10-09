@@ -22,12 +22,12 @@ A car stopping on the muddy road as [@name](../../characters/wojewoda.md) comes 
 
 ## Opportunities
 
-- **The church is too nice** `(noticed by: [Handiwork](../../cards/handiwork.md))` — From the road: fresh repairs, sound roof, ample firewood stacked — beyond what a village this size funds. → Gives: [`church-too-nice`](../../clues/clues.md#church-too-nice)
+- `(noticed by: [Handiwork](../../cards/handiwork.md))` — From the road the church looks too nice: fresh repairs, sound roof, ample firewood stacked, beyond what a village this size funds. → Gives: [`church-too-nice`](../../clues/clues.md#church-too-nice)
 
 ## Actions
 
 ### Get out and look around
-- **Prompted by:** aware:locations/new-village.md
+<!-- Prompted by: aware:locations/new-village.md -->
 - **Outcome:** Standing on the muddy road, the committee takes in the village: [@name](../../characters/barbara.md)'s house at the edge beside [@surname](../../characters/neighbour.md)'s, and the store where the crew loiters.
 - **Gives:** aware:locations/barbaras-house.md, aware:locations/the-store.md
 

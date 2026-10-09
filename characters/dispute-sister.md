@@ -39,8 +39,8 @@ She states her case rather than begging for it. When she repeats her father's la
 
 ## Opportunities
 
-- **She is holding back her father's last words** `(noticed by: [Empathy](../cards/empathy.md))` — Her anger about the strip is direct, but she keeps circling her father's deathbed without naming it.
-- **She will not face the ruins** `(when: old village in view)` `(noticed by: [Culture](../cards/culture.md))` — Her unease fits someone told a place is bloodied, not someone who merely dislikes ruins.
+- `(noticed by: [Empathy](../cards/empathy.md))` — Her anger about the strip is direct, but she keeps circling her father's deathbed without naming it.
+- `(when: old village in view)` `(noticed by: [Culture](../cards/culture.md))` — Her unease fits someone told a place is bloodied, not someone who merely dislikes ruins.
 
 ## Actions
 
@@ -61,7 +61,7 @@ She states her case rather than begging for it. When she repeats her father's la
 - **Gives:** [`army-massacred-civilians-in-1947`](../clues/clues.md#army-massacred-civilians-in-1947)
 
 ### Tell her what her father really witnessed
-- **Prompted by:** [army-massacred-civilians-in-1947](../clues/clues.md#army-massacred-civilians-in-1947)
+<!-- Prompted by: [army-massacred-civilians-in-1947](../clues/clues.md#army-massacred-civilians-in-1947) -->
 - **Outcome:** She goes still and stops using the deathbed account as a property argument. She will not repeat it in an official room again.
 - **Changes:** [The dispute](dispute-brother.md#the-dispute) — TBD
 

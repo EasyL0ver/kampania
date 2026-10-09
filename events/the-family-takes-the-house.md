@@ -30,14 +30,14 @@
 
 ## Opportunities
 
-- **Who decides** `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/matrona.md) leads, [@first-name](../characters/wojewoda.md) follows her.
-- **[@surname](../characters/neighbour.md) at the fence** — the quiet neighbour is holding back anger and will not enter the yard with the family in it.
-- **The overdose they are burying** `(noticed by: [ciotka-overdosed](../clues/clues.md#ciotka-overdosed) OR [ciotka-hurt-before-death](../clues/clues.md#ciotka-hurt-before-death))` — [@first-name](../characters/matrona.md)'s weak heart and [@surname](../characters/neighbour.md)'s foul play are both wrong; only the committee knows what killed her.
+- `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/matrona.md) leads, [@first-name](../characters/wojewoda.md) follows her.
+- [@surname](../characters/neighbour.md) stays at the fence: he is holding back anger and will not enter the yard with the family in it.
+- `(noticed by: [ciotka-overdosed](../clues/clues.md#ciotka-overdosed) OR [ciotka-hurt-before-death](../clues/clues.md#ciotka-hurt-before-death))` — They are burying an overdose: [@first-name](../characters/matrona.md)'s weak heart and [@surname](../characters/neighbour.md)'s foul play are both wrong; only the committee knows what killed her.
 
 ## Actions
 
 ### Point out the wreck, the bruise or the second cup
-- **Prompted by:** [ciotka-house-wrecked](../clues/clues.md#ciotka-house-wrecked), [ciotka-hurt-before-death](../clues/clues.md#ciotka-hurt-before-death), [ciotka-had-a-visitor](../clues/clues.md#ciotka-had-a-visitor)
+<!-- Prompted by: [ciotka-house-wrecked](../clues/clues.md#ciotka-house-wrecked), [ciotka-hurt-before-death](../clues/clues.md#ciotka-hurt-before-death), [ciotka-had-a-visitor](../clues/clues.md#ciotka-had-a-visitor) -->
 - **Outcome:** Naming the wreck, the bruise, or the second cup breaks [@name](../characters/neighbour.md). He accuses the sołtys's son to his face: the boy came the day before she died and they fought. [@name](../characters/wojewoda.md) goes still; [@name](../characters/matrona.md) buries it as a grieving man's nonsense. The ruling does not change.
 - **Gives:** [`junior-pressed-ciotka`](../clues/clues.md#junior-pressed-ciotka)
 

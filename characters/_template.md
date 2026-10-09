@@ -60,7 +60,7 @@
      clue "given" here is isolated/unreachable in the visualisation. If raising
      a topic hands players a discoverable fact, that belongs in an ACTION
      ("Ask <NPC> about X") or an Opportunity — put the `→ Gives:` there and
-     seed it with `(prompted by: aware:characters/<npc>.md)` so it connects.
+     seed it with `<!-- Prompted by: aware:characters/<npc>.md -->` so it connects.
      Opinions only set stance and colour.
 
      Keyed only by a link — never a free topic:
@@ -106,12 +106,13 @@
 - **Start:** false
 - [What sets it.]
 
-
 ## Opportunities
 
 <!-- What the GM reveals about this character when players are in their presence.
      Omit the section if the character has no skill-gated observations.
      Format: actions-and-opportunities.md -->
+
+- `(when: [world state])` `(noticed by: [Card](../cards/file.md))` — [What is observed; must stand on its own, no title]. → Gives: [clue-id](../clues/clues.md#clue-id) <!-- Prompted by: [clue-id](../clues/clues.md#clue-id) -->
 
 ## Actions
 

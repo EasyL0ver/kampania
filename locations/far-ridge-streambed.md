@@ -24,12 +24,12 @@
 
 ## Opportunities
 
-- **Read the old position** `(noticed by: [History](../cards/history.md) OR [Violence](../cards/violence.md))` `(prompted by: [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain))` — The collapsed dugout below the col is a wartime firing position, sited to watch and command the valley: rusted metal, a rotted timber lip, the shape of a partisan line. → Gives: [old-wartime-positions](../clues/clues.md#old-wartime-positions)
-- **Read the koliba** `(noticed by: [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed) AND [Culture](../cards/culture.md))` — The tumbled stones and rotten roof-poles are a koliba, a Lemko shepherd's summer hut; the build and the worn pasture ground read as Greek Catholic hill herders' work, from before the valley was cleared. → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
-- **Duck inside the hut** `(noticed by: [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed))` — Under the ram's skull is a single smoke-blackened room, empty for decades yet armoured against the dark: ash crosses smeared across a long-cold hearth where the shepherd's watra once burned, iron driven into the threshold, the black remains of herb bundles hanging from the rafters, three-barred crosses cut so deep and so often into the timber that whole boards are furred with them. The wards all face outward, to keep something out. → Gives: [three-barred-cross-in-abandoned-house](../clues/clues.md#three-barred-cross-in-abandoned-house)
-- **Name the warding** `(when: inside the hut)` `(noticed by: [Culture](../cards/culture.md))` — Greek Catholic hill-herders' warding against wolves and the restless dead, the same tradition that mourns the unburied. Whatever they feared up here, they lined every surface against it, then one season walked down the mountain and never came back. → No clue; understanding.
-- **Read the scratched Cyrillic** `(when: inside the hut)` `(noticed by: [Language](../cards/language.md))` — Among the crosses are names, and a plea for the dead to lie still. → No clue.
-- **Feel what it wards against** `(when: inside the hut)` `(noticed by: [Superstitious](../cards/superstitious.md))` — You do not read this room, you feel it, and you know exactly what it is warding against. → No clue; GM's call, **1 composure**.
+- `(noticed by: [History](../cards/history.md) OR [Violence](../cards/violence.md))` — The collapsed dugout below the col is a wartime firing position, sited to watch and command the valley: rusted metal, a rotted timber lip, the shape of a partisan line. → Gives: [old-wartime-positions](../clues/clues.md#old-wartime-positions) <!-- Prompted by: [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain) -->
+- `(noticed by: [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed) AND [Culture](../cards/culture.md))` — The tumbled stones and rotten roof-poles are a koliba, a Lemko shepherd's summer hut; the build and the worn pasture ground read as Greek Catholic hill herders' work, from before the valley was cleared. → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
+- `(noticed by: [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed))` — Ducking inside the hut, you find a single smoke-blackened room under the ram's skull, empty for decades yet armoured against the dark: ash crosses smeared across a long-cold hearth where the shepherd's watra once burned, iron driven into the threshold, the black remains of herb bundles hanging from the rafters, three-barred crosses cut so deep and so often into the timber that whole boards are furred with them. The wards all face outward, to keep something out. → Gives: [three-barred-cross-in-abandoned-house](../clues/clues.md#three-barred-cross-in-abandoned-house)
+- `(when: inside the hut)` `(noticed by: [Culture](../cards/culture.md))` — Greek Catholic hill-herders' warding against wolves and the restless dead, the same tradition that mourns the unburied. Whatever they feared up here, they lined every surface against it, then one season walked down the mountain and never came back. → No clue; understanding.
+- `(when: inside the hut)` `(noticed by: [Language](../cards/language.md))` — The scratched Cyrillic among the crosses holds names and a plea for the dead to lie still. → No clue.
+- `(when: inside the hut)` `(noticed by: [Superstitious](../cards/superstitious.md))` — You do not read this room, you feel it, and you know exactly what it is warding against. → No clue; GM's call, **1 composure**.
 
 ## Actions
 
@@ -41,19 +41,19 @@
 
 ### Track the UPA bunker
 - **Requires:** [Survival](../cards/survival.md)
-- **Prompted by:** [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area), [old-wartime-positions](../clues/clues.md#old-wartime-positions)
+<!-- Prompted by: [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area), [old-wartime-positions](../clues/clues.md#old-wartime-positions) -->
 - **Cost:** 1 time
 - **Outcome:** Working out from the firing position, a tracker picks up the old partisan paths worn between the hillside strongpoints and follows them to a camouflaged dugout deep in the forest northwest, its ventilation shafts breaking the slope. You now know exactly where the [@name](upa-bunker.md) lies.
 - **Gives:** aware:locations/upa-bunker.md
 
 ### Start a survey
 - **Requires:** [Geology](../cards/geology.md) AND [@name](../items/geologists-kit.md)
-- **Prompted by:** [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain)
+<!-- Prompted by: [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain) -->
 - **Outcome:** The party commits to shooting the col's elevation themselves. Opens [@name](../events/surveying-the-streambed.md).
 - **Gives:** aware:events/surveying-the-streambed.md
 
 ### Start a search
-- **Prompted by:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
+<!-- Prompted by: [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed) -->
 - **Outcome:** The party commits to hunting the dam crews' benchmark markers. Opens [@name](../events/search-for-the-benchmarks.md).
 - **Gives:** aware:events/search-for-the-benchmarks.md
 

@@ -40,7 +40,7 @@ A cigarette is usually between his lips or behind his ear. His studied cool drop
 
 ## Opportunities
 
-- **Smoking with the crew** `(when: Junior present, drinking with the crew at the [store](../locations/the-store.md#opportunities))` `(noticed by: [Chainsmoker](../cards/chainsmoker.md))` — Away from his father, drinking with the crew, Junior lights up. A smoker reads the brand: Carmen. → Gives: [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen)
+- `(when: Junior present, drinking with the crew at the [store](../locations/the-store.md#opportunities))` `(noticed by: [Chainsmoker](../cards/chainsmoker.md))` — Away from his father, drinking with the crew, Junior lights up. A smoker reads the brand: Carmen. → Gives: [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen)
 
 ## Actions
 
