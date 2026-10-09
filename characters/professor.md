@@ -32,7 +32,7 @@ He speaks rapidly and precisely, in the clipped cadence of a lecturer who assume
 ## Opinions
 
 - **[@name](../locations/village-outskirts.md)** — "The projection holds only if two things are true: the ground stands where the map puts it, and the valley can drain. Check both. Level the terrain against the map to confirm the heights, and test the outlets. I know of two outlets, the ridge gap and the old far-ridge streambed. If both are closed, the village is in the flood zone. I cannot prove it from Kraków; someone has to check it on the ground."
-- **[new-village-will-flood](../clues/clues.md#new-village-will-flood)** — "Then the suspicion was right, and the official map is wrong where it matters most."
+- **[new-village-will-be-drowned-by-solina-lake](../clues/clues.md#new-village-will-be-drowned-by-solina-lake)** — "Then the suspicion was right, and the official map is wrong where it matters most."
 - **[gap-is-blocked](../clues/clues.md#gap-is-blocked)** — "One outlet gone. A landslide plug where the map shows a drain. Describe the fill and the sill height and I can document the error."
 
 ## Actions

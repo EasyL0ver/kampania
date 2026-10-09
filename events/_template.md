@@ -16,6 +16,10 @@
 **Location:** [Place](../locations/file.md)
 **Present:** [Name](../characters/file.md), [Other](../characters/file.md) (if condition)
 **Available:** [Day/time/prerequisite — e.g. "Day 5 morning" or "Day 3 onward, after [the flood](the-flood.md)"]
+<!-- An event stays open until its Exits fire, and events can overlap: an event that runs
+     inside another says "During [that event](file.md), after [what starts it](file.md#anchor)",
+     and the outer event's actions stay available meanwhile. Exits name what ends the event:
+     an action anchor or a mechanic, never a judgement call. -->
 
 ## Trigger
 

@@ -25,8 +25,16 @@ After Akcja Wisła (1947), the Urząd Bezpieczeństwa (UB, later reorganized as 
 
 por. Witold Skowron operates within this documented framework. An SB agent assigned to ensure the Solina Dam cover-up proceeds smoothly is entirely consistent with how the secret police operated in this region.
 
+## Milicja Vehicles
+
+- The **Nysa** van (models 501 / 503, built 1962–1970; the 522 from 1968) served the Milicja as a personnel and prisoner van. Its slang name **"suka"** survives for police vans today; the blue-and-white MO Nysa became a symbol of the regime.
+- SB officers formally belonged to the Milicja (MO) structure and used MO vehicles and drivers.
+- Unverified: "lodówa/lodówka" as slang for a militia vehicle; no source found.
+
 ## Sources
 
 - Muzeum Historii Polski — Akcja Wisła: https://muzhp.pl/wiedza-on-line/akcja-wisla
 - Polskie Radio — Akcja Wisła, wysiedleni z Bieszczad: https://polskieradio24.pl/artykul/1108414
 - Wikipedia — Akcja Wisła: https://pl.wikipedia.org/wiki/Akcja_%E2%80%9EWis%C5%82a%E2%80%9D
+- Spidersweb — milicyjna Nysa: https://autoblog.spidersweb.pl/milicyjna-nysa-na-sprzedaz-17-tys-zl
+- Auto Świat — Żuk i Nysa: https://www.auto-swiat.pl/klasyki/youngtimer/zuk-i-nysa-gwiazdy-polskiego-transportu/mpclemr

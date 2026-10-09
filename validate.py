@@ -847,7 +847,7 @@ ENTITY_KINDS = ("characters", "locations", "events", "items")
 _entity_titles: list[tuple[str, re.Pattern]] | None = None
 
 
-HONORIFICS = {"ks.", "por.", "prof.", "kpt.", "dr", "pan", "pani"}
+HONORIFICS = {"ks.", "por.", "prof.", "kpt.", "kpr.", "dr", "pan", "pani"}
 
 
 _character_names: set[str] = set()

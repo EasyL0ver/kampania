@@ -94,7 +94,7 @@ Cards work two ways, and some do both:
 
 ### The Draft
 
-Character creation is a draft, and it is played as the **opening scene** — por. Skowron briefing the committee on the drive in ([The Car In](../events/the-car-in.md)). Every card taken is a line from his dossier: *"Sobczak, you're the geologist. Wierzbicki — property law, and I'm told you go to Mass."*
+Character creation is a draft, and it is played as the **opening scene** — por. Skowron briefing the committee on the drive in ([The Car In](../events/the-car-in/the-car-in.md)). Every card taken is a line from his dossier: *"Sobczak, you're the geologist. Wierzbicki — property law, and I'm told you go to Mass."*
 
 1. Lay the whole pool **face-up**.
 2. **Snake order** — 1-2-3-4, then 4-3-2-1, and back. Whoever takes the best card first is the one still picking when the good ones are gone.
@@ -171,6 +171,12 @@ Separate from the draft. **Every player chooses for themselves, at creation, whe
 This is by design. The 7-day limit and 12-card economy guarantee that players will miss entire branches of the story. Different groups will have completely different experiences depending on where they spend their time.
 
 The game is **not about solving everything** — it's about what you prioritize when you can't.
+
+## Items
+
+- An item is held by one player at a time. An action that `Requires:` or costs an item needs the acting player to hold it.
+- **Passing an item is free.** Any player can hand an item to another player in the same place, at any time, at no time cost.
+- Cards are not items: skill cards, bonds and other cards stay with the player who holds them and cannot be passed.
 
 ## Bonds (the checks are GM-only; the bond itself is a card)
 

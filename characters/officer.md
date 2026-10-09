@@ -26,7 +26,7 @@ SB secret police agent and true believer in the communist project. He knows abou
 - **Hair & face:** Clean-shaven, hair clipped short with geometric precision; forgettable features, but dark, intelligent eyes give him away
 - **Carriage:** Compact military posture he can't switch off; shoulders square, chin up, hands clasped behind his back when listening
 
-Drives a black Warszawa M-20. Smells of cheap state cologne. His voice is quiet and controlled; he drops it instead of raising it, forcing people to lean in.
+Travels in a Milicja Nysa van, driven by [@name](driver.md). Smells of cheap state cologne. His voice is quiet and controlled; he drops it instead of raising it, forcing people to lean in.
 
 ## Opinions
 

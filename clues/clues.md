@@ -652,11 +652,17 @@ When drunk enough, [@name](../characters/wujas.md)'s fragments turn to longing. 
 
 ## The Flood & The Committee
 
-### new-village-will-flood
+### solina-dam-construction-almost-finished
+The Solina dam is nearly finished. The reservoir behind it is already beginning to fill.
+
+### new-village-will-be-drowned-by-solina-lake
 [@name](../locations/new-village.md) will flood. When the reservoir rises, the valley has no outlet below house level. The ridge water-gap, the PGR irrigation ditch, and the old far-ridge streambed all fail to carry the water off, so it backs up onto the houses. This is proof, not speculation.
 
-### new-village-will-not-flood
-[@name](../locations/new-village.md) is safe. The PGR irrigation ditch carries the flood clear of the valley, so the water drains away and never reaches the houses. One working outlet is all the valley needs, and here is one. This is the reassuring answer, and it is false: it rests entirely on the ditch's concrete head, which calculates as ample only because no one measured the earth dugout that runs the rest of its length. The gap and the streambed are never even tested. It contradicts new-village-will-flood.
+### other-villages-ready-for-evacuation
+Every other village in the Solina flood zone has been emptied or is packed and waiting for evacuation. [@name](../locations/new-village.md) is the only one the plan leaves standing.
+
+### new-village-will-be-next-to-solina-lake
+When the reservoir is full, Lake Solina will stop at the edge of [@name](../locations/new-village.md): a lakeside village, above the waterline. [@name](../locations/new-village.md) is safe. The PGR irrigation ditch carries the flood clear of the valley, so the water drains away and never reaches the houses. One working outlet is all the valley needs, and here is one. This is the reassuring answer, and it is false: it rests entirely on the ditch's concrete head, which calculates as ample only because no one measured the earth dugout that runs the rest of its length. The gap and the streambed are never even tested. It contradicts new-village-will-be-drowned-by-solina-lake.
 
 ### gap-is-candidate-drain
 The ridge water-gap, the notch the map shows draining into the empty [@name](../locations/big-basin.md), is one of the candidate outlets floodwater could leave the [@name](../locations/new-village.md) valley through.
@@ -770,10 +776,10 @@ The old village site is flooding — water rising from below, the well filling. 
 The flood is not a future worry but an immediate one. The water is rising fast and [@name](../locations/new-village.md) will be inundated within days.
 
 ### officer-warning
-[@name](../characters/officer.md) warns on the drive in: not everything needs to be written down.
+[@name](../characters/officer.md) warns on the drive in that not everything needs to be written down. It is a threat: what the committee writes will be remembered.
 
 ### government-committee
-The player characters are a state committee sent to [@name](../locations/new-village.md) ahead of the reservoir, tasked with a census, a property assessment for flood damage, and a geographical survey of the valley. It is the frame the whole visit hangs on: the reason outsiders can measure land, enter homes, and ask questions at all.
+The player characters volunteered as representatives of the public, independent observers on a state committee sent to [@name](../locations/new-village.md) ahead of the reservoir. It is the frame the whole visit hangs on: the reason outsiders can measure land, enter homes, and ask questions at all.
 
 ### committee-runs-geographical-survey
 The committee's stated purpose in the village is a geographical survey — terrain, river, boundaries. It's the cover that explains why outsiders are measuring the land.
@@ -781,8 +787,8 @@ The committee's stated purpose in the village is a geographical survey — terra
 ### committee-notes-property-for-damage
 The committee is recording each household's property and its value, ostensibly to assess damages. Asking what land is worth is part of the official remit.
 
-### committee-hides-the-flood
-What the committee is really here to hide is the flood. Its true job is to run the survey and file a clean report so the resettlement proceeds; the danger that [@name](../locations/new-village.md) will flood is exactly what the state means it to keep out of the paper.
+### village-unaware-of-miscalculation
+The villagers of [@name](../locations/new-village.md) have not been told the flood line may be miscalculated. The committee is not to tell them.
 
 ### committee-fills-census
 The committee is taking a census: who lives in each household, names, ages, how long they have been here. Counting heads is part of the official remit.
@@ -988,4 +994,19 @@ UPA partisans left dugout bunkers (ziemianki) hidden through these forests in th
 ### spirits-are-restless
 The dead here were not buried right. Something is unquiet. Not evidence, not testimony — a feeling grounded in Lemko tradition. The mirrors need covering, the prayers need saying, the dead need tending.
 
+## The Ride In
 
+### wrona-hides-search-from-skowron
+[@name](../characters/driver.md) is looking for something in the van and hiding the search from [@name](../characters/officer.md).
+
+### full-bottle-clinking-in-back
+A full bottle is rolling loose in the back of the van.
+
+### loose-crate-in-back
+A heavy wooden crate in the back of the van has broken its strap and slides on every bend.
+
+### wrona-smokes-sport
+[@name](../characters/driver.md) smokes Sport, the cheapest brand.
+
+### wrona-took-wrong-turn
+[@name](../characters/driver.md) took the wrong fork on the drive in: the left road leads away from the valley.

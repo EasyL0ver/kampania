@@ -36,7 +36,7 @@ He talks in a teacher's cadence, reaches for clever phrases, half-remembers Lati
 - **[@name](priest.md)** — "He sold his silence like everyone else. [@name](../locations/the-church.md) was supposed to be the one thing they could not buy."
 - **[@name](wujas.md)** — "He is my one honest friend, God help us both. I drink with his crew at the still for the bottle and the talk."
 - **[@name](../locations/village-outskirts.md)** — "They built it on nothing and called it progress. Now they will drown it and call that progress too."
-- **[new-village-will-flood](../clues/clues.md#new-village-will-flood)** — "They knew. Of course they knew. When has the state ever not known and told us anyway?"
+- **[new-village-will-be-drowned-by-solina-lake](../clues/clues.md#new-village-will-be-drowned-by-solina-lake)** — "They knew. Of course they knew. When has the state ever not known and told us anyway?"
 
 ## Mechanics
 

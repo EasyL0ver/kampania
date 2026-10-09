@@ -145,6 +145,19 @@
 "hair-&-face": "Not specified.",
 "carriage": "Not specified."
 },
+"characters/driver.md": {
+"name": "kpr. Zdzisław Wrona",
+"type": "Named character — Milicja driver",
+"first-name": "Zdzisław",
+"surname": "Wrona",
+"title": "kpr.",
+"status": "Outsider",
+"born": "1944",
+"age-in-1967": "23",
+"based-in": "The Milicja post in Lesko",
+"per": "player",
+"start": "neutral"
+},
 "characters/foreman.md": {
 "name": "Michał Pytlak",
 "type": "Named character — farm overseer",
@@ -891,6 +904,14 @@
 "available": "Any time",
 "cost": "Free"
 },
+"locations/officers-car.md": {
+"name": "The Milicja Nysa",
+"type": "Location (revisitable)",
+"location": "On the road between the valley and the outside world",
+"present": "kpr. Zdzisław Wrona, por. Witold Skowron (when travelling with the committee)",
+"available": "When the committee travels by car",
+"cost": "Free"
+},
 "locations/old-village-cerkiew.md": {
 "name": "Hołubie — Cerkiew",
 "type": "Location (discoverable)",
@@ -1368,19 +1389,6 @@
 "per": "world",
 "start": "0"
 },
-"events/the-car-in.md": {
-"name": "The Car In",
-"location": "Police car on the mountain road to Testowo",
-"present": "por. Witold Skowron, players",
-"available": "Game start; first scene.",
-"outcome": "por. Witold Skowron lays out who the players are: a state committee sent ahead of the reservoir to take the Committee Census Register, assess property for flood damage, and survey the valley.",
-"gives": "government-committee, Professor's Folder",
-"requires": "Professor's Folder",
-"changes": "The draft — true",
-"type": "bool",
-"per": "world",
-"start": "false"
-},
 "events/the-disclosure.md": {
 "name": "The Disclosure",
 "location": "Wojewoda's House",
@@ -1538,7 +1546,7 @@
 "name": "Arrival — On the Road",
 "location": "Testowo",
 "present": "Zbigniew Gajda, Tadek Gajda, Barbara Kopacz, Pawełek Kopacz",
-"available": "After The Car In.",
+"available": "After The Car In — The Drive.",
 "outcome": "Standing on the muddy road, the committee takes in the village: Barbara Kopacz's house at the edge beside Dudka's, and the store where the crew loiters.",
 "gives": "aware:locations/barbaras-house.md, aware:locations/the-store.md"
 },
@@ -1578,6 +1586,42 @@
 "outcome": "Undressing her draws a flinch from ks. Władysław Pająk, he is praying over her, but he is no fool. Told a proper examination is how they find who laid hands on her, he understands and turns away to let a Medicine player read her. Her throat is unmarked, no strangulation; nowhere on her body are there defensive wounds. But a fresh bruise rings her wrist, a large hand closed hard while she still lived. It did not kill her, and it did not come from a fall. What did kill her reads in her colour and her slack, stopped breath: a heavy barbiturate dose, and the open Luminal bottle on the table is her own.",
 "gives": "ciotka-hurt-before-death, ciotka-overdosed",
 "changes": "Contempt for the dead — the committee showed contempt for Janina's body"
+},
+"events/the-car-in/the-car-in.md": {
+"name": "The Car In",
+"location": "The Milicja Nysa",
+"present": "por. Witold Skowron, kpr. Zdzisław Wrona",
+"available": "Game start. Stays open for the whole ride, until the van reaches Testowo.",
+"outcome": "The dam is nearly done; every other village in its way is emptied. Not Testowo: the engineers say it stays dry, prof. Bieńkowski of AGH says it may drown. Warsaw wants it settled, quietly. \"You observe.\"",
+"gives": "government-committee, solina-dam-construction-almost-finished, other-villages-ready-for-evacuation, the-flood-line-potentially-miscalculated, aware:characters/professor.md"
+},
+"events/the-car-in/the-draft.md": {
+"name": "The Car In — The Draft",
+"part-of": "The Car In",
+"location": "The Milicja Nysa",
+"present": "por. Witold Skowron, kpr. Zdzisław Wrona",
+"available": "During The Car In, after Ask what the work is.",
+"outcome": "por. Witold Skowron asks each of them who they are and checks the answer against his dossier. The players draft the card pool in snake order until the pool is empty, each card a line of their background.",
+"changes": "The draft — true",
+"type": "bool",
+"per": "world",
+"start": "false"
+},
+"events/the-car-in/the-drive.md": {
+"name": "The Car In — The Drive",
+"part-of": "The Car In",
+"location": "The Milicja Nysa",
+"present": "por. Witold Skowron, kpr. Zdzisław Wrona",
+"available": "During The Car In, after The Car In — The Draft.",
+"when": "Standing is not grudge for this player",
+"outcome": "Zdzisław tosses the packet over his shoulder without looking. \"Keep it. I've got more.\"",
+"gives": "Pack of Cigarettes",
+"requires": "Speech",
+"changes": "Permission — permission",
+"cost": "1 time",
+"type": "enum (vigilant | distracted | permission)",
+"per": "world",
+"start": "vigilant"
 },
 "items/anchor.md": {
 "name": "Anchor and Hammer"
@@ -1634,6 +1678,9 @@
 "cost": "1 time",
 "outcome": "The file specifies concrete lining the full run, head to low ground, accepted as built. The walked ditch is concrete only at the head and a shallow earth dugout the rest of the way. The paper and the ground do not match: the ditch was never built to the spec it was signed off against.",
 "gives": "ditch-not-built-to-spec"
+},
+"items/drivers-bottle.md": {
+"name": "Driver's Bottle"
 },
 "items/dugout-measurements.md": {
 "name": "Dugout Measurements"
@@ -1722,7 +1769,10 @@
 "gives": "blue-dress-matches-portrait"
 },
 "items/professors-folder.md": {
-"name": "Professor's Folder"
+"name": "Professor's Folder",
+"requires": "Professor's Folder",
+"outcome": "prof. Tadeusz Bieńkowski's typed brief: the safe verdict assumes the map's heights are right and the valley drains. He names two outlets, the ridge water-gap and the far-ridge streambed, and writes that the paperwork does not hold up.",
+"gives": "gap-is-candidate-drain, streambed-is-candidate-drain, the-flood-line-potentially-miscalculated"
 },
 "items/propaganda-leaflet.md": {
 "name": "Propaganda Leaflet"
@@ -1735,6 +1785,9 @@
 "gives": "ravine-remains-a-woman",
 "when": "the first examination is done",
 "changes": "Crisis of Faith — +1"
+},
+"items/road-map.md": {
+"name": "Road Map"
 },
 "items/rope.md": {
 "name": "Rope"

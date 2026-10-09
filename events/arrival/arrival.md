@@ -2,7 +2,7 @@
 
 **Location:** [@name](../../locations/new-village.md)
 **Present:** [@name](../../characters/wojewoda.md), [@name](../../characters/wujas.md), [@name](../../characters/barbara.md), [@name](../../characters/pawelek.md)
-**Available:** After [@name](../the-car-in.md).
+**Available:** After [@name](../the-car-in/the-drive.md).
 
 ## Hook
 
