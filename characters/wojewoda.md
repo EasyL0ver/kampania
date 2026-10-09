@@ -58,17 +58,25 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 
 ### Braced
 
+- **Type:** bool
+- **Per:** world
+- **Start:** false
 - Braced only if [@name](../events/irena-confronts-wojewoda.md);.
 
 ### Compliance
 
-- A flag, true or false. Starts false. True when [@first-name](wojewoda.md) is convinced to disclose the flood willingly and shields the players. Forcing the disclosure on him leaves it false.
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True when [@first-name](wojewoda.md) is convinced to disclose the flood willingly and shields the players. Forcing the disclosure on him leaves it false.
 
 ### Flood Awareness
 
+- **Type:** enum (unaware | suspicious | needProof | convinced)
+- **Per:** world
+- **Start:** unaware
 - How far [@first-name](wojewoda.md) believes the flood line is wrong: **unaware → suspicious → needProof → convinced**.
 - A counter that only ever goes up. Nothing the players do lowers it.
-- Starts at **unaware**.
 
 ## Opportunities
 
@@ -115,10 +123,11 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 ### Reveal the risk of the village drowning
 - **Prompted by:** [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
 - **Outcome:** The committee raises the risk without proof: the flood line may be wrong, the valley may not drain. [@first-name](wojewoda.md) does not need convincing to act careful. He immediately calls for [@name](foreman.md) and, telling him the warning, orders him to put the farm, his men, and himself at the committee's disposal.
-- **Changes:** [Flood Awareness](#flood-awareness) — rises to needProof
+- **Changes:** [Flood Awareness](#flood-awareness) — rises to needProof; [Cooperative](foreman.md#cooperative) — true
 
 ### Convince him to reveal the flood
-- **When:** Flood proof shared (["Tell with geological proof"](#tell-with-geological-proof) done), a way out such as an evacuation plan, army rescue, or the [@name](../events/operator-refuses-help.md), and [Bond](#bond)
+- **Requires:** [Bond: Zbigniew Gajda](../cards/bond-wojewoda.md)
+- **When:** Flood proof shared (["Tell with geological proof"](#tell-with-geological-proof) done), a way out such as an evacuation plan, army rescue, or the [@name](../events/operator-refuses-help.md)
 - **Cost:** 1 time
 - **Outcome:** The players give him a version of disclosure he can lead: public alarm with a plan. He decides the village must be told by him.
 - **Gives:** aware:events/the-disclosure.md

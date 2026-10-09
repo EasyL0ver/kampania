@@ -51,7 +51,10 @@
 
 ### The report
 
-- What leaves the valley: **cover-up / suppressed / truth survives**. Set by the report the committee submits. The **Report** ending.
+- **Type:** enum (none | cover-up | suppressed | truth-survives)
+- **Per:** world
+- **Start:** none
+- What leaves the valley. Set by the report the committee submits. The **Report** ending.
 
 ## Exits
 

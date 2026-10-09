@@ -56,6 +56,7 @@
 
 ### What Matrona hears
 
+- **Type:** rule
 - If players hold [`something-happened-in-54`](../clues/clues.md#something-happened-in-54), [`lynch-body-in-well`](../clues/clues.md#lynch-body-in-well), [`wujas-participated-in-lynch`](../clues/clues.md#wujas-participated-in-lynch), [`wojewoda-participated-in-lynch`](../clues/clues.md#wojewoda-participated-in-lynch), or [`butcher-participated-in-lynch`](../clues/clues.md#butcher-participated-in-lynch), she says naming the 1954 death buys nothing now.
 - If players hold [`wojewoda-was-hurt-that-night`](../clues/clues.md#wojewoda-was-hurt-that-night), she says [@name](../characters/wojewoda.md) is the only person holding the village together during the flood.
 - If players hold [`siblings-are-lemko`](../clues/clues.md#siblings-are-lemko), she says writing the Gajdas' Lemko identity into a state report makes them a target.

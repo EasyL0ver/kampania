@@ -63,7 +63,8 @@ His hands are the only alive part of him: long-fingered, always stained with cad
 - **Gives:** [`emil-traumatised-in-54`](../clues/clues.md#emil-traumatised-in-54)
 
 ### Press Painter on the streambed's detail
-- **When:** noticed the streambed canvas as a real place (Geology) or its odd precision (Culture); access to [@first-name](painter.md)'s shed
+- **Requires:** [Geology](../cards/geology.md) OR [Culture](../cards/culture.md)
+- **When:** access to [@first-name](painter.md)'s shed
 - **Prompted by:** aware:characters/painter.md
 - **Outcome:** Only a party that has picked out the real detail under the paint can draw him out. Asked about it, [@first-name](painter.md) warms for a moment. It is a streambed on the far ridge across the valley, a place from before, where the water ran down toward the next basin. He describes the col and the crossing plainly enough that the party could find it. Then he sighs: it was a long time ago, and the water probably does not run like that any more.
 - **Gives:** aware:locations/far-ridge-streambed.md, [`streambed-painting-is-old`](../clues/clues.md#streambed-painting-is-old)

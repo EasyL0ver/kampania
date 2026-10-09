@@ -12,4 +12,7 @@
 
 ### Drowned
 
-- A flag, true or false. Starts false. True when the flood takes the village with its people still in it. The **Drown** ending.
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True when the flood takes the village with its people still in it. The **Drown** ending.

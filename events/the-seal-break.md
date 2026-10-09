@@ -56,6 +56,7 @@
 
 ### The seal break
 
+- **Type:** rule
 - TBD.
 
 ## Exits

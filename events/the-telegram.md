@@ -38,6 +38,9 @@
 
 ## Mechanics
 
+### The wire
+
+- **Type:** rule
 - [@first-name](../characters/jagna.md) withholds rescue but feeds evidence: the cache proves the village lynched a KBW officer, and unearthing it damns the village, which is what she wants.
 - She can plant the wire while still anonymous; it does not name her and is deniable as a crossed wire.
 - [@first-name](../characters/wojewoda.md) cannot suppress it: the committee holds the receiver, and he cannot filter the operator's words into their ear. His only block is denying them the phone in the first place.

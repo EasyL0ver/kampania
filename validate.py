@@ -513,6 +513,50 @@ def changes_format(f: MdFile):
                 yield line, f"Changes comment is {len(rendered(comment))} characters (limit {CHANGE_COMMENT_LIMIT})"
 
 
+MECH_TYPE = re.compile(r"^- \*\*Type:\*\* (bool|int|rule|list|enum \((?P<values>[^()]+)\))$")
+MECH_PER = re.compile(r"^- \*\*Per:\*\* (world|player|npc)$")
+MECH_START = re.compile(r"^- \*\*Start:\*\* (?P<value>\S.*)$")
+
+
+@rule("mechanic-type", "characters", "events", "locations", "items")
+def mechanic_type(f: MdFile):
+    """Every ### under ## Mechanics opens with `- **Type:** bool | int | rule | list | enum (a | b | …)`;
+    bool, int and enum follow it with `- **Per:** world | player | npc` (one value for the game, one per
+    player, one per NPC) and `- **Start:** <value legal for the type>`."""
+    s = f.section("Mechanics")
+    if s is None:
+        return
+    for line, t in s.body:
+        if t.strip():
+            yield line, "text directly under ## Mechanics: put it under a ### mechanic"
+            break
+    for m in s.children:
+        body = [(i, t.strip()) for i, t in m.body if t.strip()]
+        if not body or not MECH_TYPE.match(body[0][1]):
+            yield (body[0][0] if body else m.line), f"mechanic '{m.title}' must open with - **Type:** bool | int | rule | list | enum (a | b | …)"
+            continue
+        tm = MECH_TYPE.match(body[0][1])
+        kind = tm.group(1).split(" ")[0]
+        if kind in ("rule", "list"):
+            continue
+        if len(body) < 2 or not MECH_PER.match(body[1][1]):
+            yield body[0][0], f"mechanic '{m.title}' ({kind}) must follow Type with - **Per:** world | player | npc"
+            continue
+        sm = MECH_START.match(body[2][1]) if len(body) > 2 else None
+        if not sm:
+            yield body[1][0], f"mechanic '{m.title}' ({kind}) must follow Per with - **Start:** <value>"
+            continue
+        v = sm.group("value")
+        if kind == "bool" and v not in ("true", "false"):
+            yield body[2][0], f"Start '{v}' is not a bool (true / false)"
+        elif kind == "int" and not re.fullmatch(r"[+-]?\d+", v):
+            yield body[2][0], f"Start '{v}' is not an int"
+        elif kind == "enum":
+            values = [x.strip() for x in tm.group("values").split("|")]
+            if v not in values:
+                yield body[2][0], f"Start '{v}' is not one of: {', '.join(values)}"
+
+
 @rule("opportunity-no-changes", "characters", "events", "locations", "items")
 def opportunity_no_changes(f: MdFile):
     """Opportunities are noticed, never done: they may Give but never carry `→ Changes:`."""

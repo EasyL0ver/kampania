@@ -12,4 +12,7 @@
 
 ### Forgotten
 
-- A flag, true or false. Starts false. True when the truth never lands and the dead stay unnamed. The **Forget** ending.
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True when the truth never lands and the dead stay unnamed. The **Forget** ending.

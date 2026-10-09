@@ -59,6 +59,9 @@ Setting up a level line at the far-ridge streambed to measure toward the village
 
 ### The line
 
+- **Type:** int
+- **Per:** world
+- **Start:** 0
 - **The line is 6 legs.** Each "Shoot a leg" or "Hold the staff" adds 1, "Haul the level" adds 2. The geologist must shoot at least 3 of them; helpers can do the rest. Several PCs can work the same day.
 
 ## Exits

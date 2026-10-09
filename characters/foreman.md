@@ -36,11 +36,19 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 
 ## Mechanics
 
-- [@first-name](foreman.md) follows [Zbigniew's Flood Awareness](wojewoda.md#flood-awareness) as his trusted subordinate; he has no flood state of his own.
+### Cooperative
+
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True when the committee tells [@first-name](wojewoda.md) the flood line may be miscalculated ([Reveal the risk of the village drowning](wojewoda.md#reveal-the-risk-of-the-village-drowning)); [@first-name](wojewoda.md) orders [@first-name](foreman.md) to help the committee.
 
 ### Fight
 
-- A flag, true or false. Starts false. True when the gap is blown ([Gap blown](../events/climb-the-plug-in-the-rain.md#gap-blown)). The **Fight** ending.
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True when the gap is blown ([Gap blown](../events/climb-the-plug-in-the-rain.md#gap-blown)). The **Fight** ending.
 
 ## Opportunities
 
@@ -105,9 +113,15 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 - **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 
 ### Borrow the anchor and hammer
-- **When:** [Michał Pytlak](foreman.md) willing to coordinate on the flood (after [Talk to him about the flood](#talk-to-him-about-the-flood)), or a bond with him, or Speech
+- **When:** [Cooperative](#cooperative) true
 - **Cost:** 1 time
-- **Outcome:** [@first-name](foreman.md) hands over the steel clamp and driving hammer from the farm's gear, on the understanding it comes back. Cooperative or bonded, he lends it without a second thought; otherwise a convincing enough story pries it out of a wary man.
+- **Outcome:** Under orders from [@first-name](wojewoda.md), [@first-name](foreman.md) hands over the steel clamp and driving hammer from the farm's gear without a second thought, on the understanding it comes back.
+- **Gives:** [@name](../items/anchor.md)
+
+### Talk him out of the anchor and hammer
+- **Requires:** [Bond: Michał Pytlak](../cards/bond-foreman.md) OR [Speech](../cards/speech.md)
+- **Cost:** 1 time
+- **Outcome:** Bonded, he lends it as a favour; otherwise a convincing enough story pries the steel clamp and driving hammer out of a wary man, on the understanding they come back.
 - **Gives:** [@name](../items/anchor.md)
 
 ### Press him about Tadeusz-Mazur

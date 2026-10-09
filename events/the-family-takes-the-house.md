@@ -43,6 +43,9 @@
 
 ## Mechanics
 
+### Fixed outcome
+
+- **Type:** rule
 - Fixed outcome. [@name](../characters/wojewoda.md) rules the death natural and backs [@name](../characters/matrona.md). [@name](../characters/junior.md) is never questioned.
 - No search for the boy; the flood is the real crisis. The family asks the committee to look for [@name](../characters/glupek.md) and bring him home if they find him. Framed as care, not a manhunt.
 - The body is moved to [@name](../locations/the-church.md). The family takes the house; the attic, if opened, is closed.

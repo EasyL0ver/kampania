@@ -141,40 +141,61 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ### Climber position
 
+- **Type:** enum (foot | lower-bank | killzone | top-out)
+- **Per:** player
+- **Start:** foot
 - Each climber is at one level: at the foot → past the lower bank → past the killzone → past the top-out. Going down runs the same levels back to clear of the plug.
 
 ### The charge
 
+- **Type:** enum (carried | hauled | primed | blown)
+- **Per:** world
+- **Start:** carried
 - Where the charge is: carried by a climber, or hauled one level at a time on the same levels. Then primed, then blown.
 
 ### Loose rock
 
+- **Type:** enum (in-place | knocked-off)
+- **Per:** world
+- **Start:** in-place
 - In place until the first traverse of the killzone knocks it off the line for good.
 
 ### Gap blown
 
-- A flag, true or false. Starts false. True means [@name](../locations/new-village.md) is saved, the empty [@name](../locations/big-basin.md) floods, and the engineering ending resolves.
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True means [@name](../locations/new-village.md) is saved, the empty [@name](../locations/big-basin.md) floods, and the engineering ending resolves.
 
 ### Anchor
 
+- **Type:** bool
+- **Per:** world
+- **Start:** false
 - The top-out is anchored once the anchor is driven. It stays anchored.
 
 ### Charge carrying
 
+- **Type:** rule
 - A climber carrying the charge automatically loses balance on every level they climb, unless they have **Physique**. This loss is separate from the killzone loose-rock and top-out balance losses and **stacks** with them — a non-Physique carrier crossing the top-out loses balance **twice**. A fall that leaves the carrier **Wounded** detonates the charge: an uncaught killzone fall (0 counterweight) or a fall from the top.
 
 ### Balance
 
+- **Type:** rule
 - If active climber loses balance they need to do something to regain it immediately - otherwise they fall.
 
 ### Counterweight
 
+- **Type:** int
+- **Per:** world
+- **Start:** 0
 - A counterweight point is a body committed to the line by **Take the line**: an ordinary body is **1 point**, a Physique-strong body **2 points**. **Every use spends points** — a spent body drops off the line and must **Take the line** again to count once more:
   - **Hauling** consumes its points (charge **1 per level**, a climber **2 per level**).
   - **Catching a fall** (killzone) consumes **every point on the line** at that moment (see Killzone catch).
 
 ### Killzone catch
 
+- **Type:** rule
 - When a climber falls at the killzone, every counterweight point on the line at that moment goes into the catch: **0 = Wounded**, **1 = Bruised**, **2+ = safe**. All those bodies are spent — they drop off the line and must **Take the line** again.
 
 ## Exits

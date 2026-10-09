@@ -40,7 +40,8 @@ When her attention fixes on someone, the room feels smaller. The same mouth that
 ## Actions
 
 ### Speak Ukrainian to Babcia
-- **When:** Language skill + present at [@name](../locations/barbaras-house.md)
+- **Requires:** [Language](../cards/language.md)
+- **When:** present at [@name](../locations/barbaras-house.md)
 - **Cost:** 1 time
 - **Outcome:** Ukrainian is not her language, but it is close enough; she understands and warms to hearing the old tongue, taking you for a friend. She tries to tell you more, but it comes in pieces too broken to point anywhere: only that she hears another woman singing for the dead, far off on the wind at night, and that the dead here are unquiet and were never laid to rest.
 - **Gives:** [`singing-in-the-night`](../clues/clues.md#singing-in-the-night), [`spirits-are-restless`](../clues/clues.md#spirits-are-restless)

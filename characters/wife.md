@@ -42,14 +42,20 @@ Speaks precisely, each word chosen. Tilts her head when listening, then files th
 
 ### Two Phases
 
+- **Type:** enum (investigating | protector)
+- **Per:** world
+- **Start:** investigating
+
 [@first-name](wife.md) starts as a rival investigator, then becomes [@first-name](wojewoda.md)'s protector if she connects him to the 1954 killing. The pivot is GM-timed from player behaviour and can fail to happen; if she stays blind, [@first-name](wojewoda.md) may confess at the [@name](../events/punishment-lynch.md) and die.
 
 ### Phase 1 — Investigating
 
+- **Type:** rule
 She trades cautiously with players who treat her as a peer. She shares nothing with players who patronize her.
 
 ### Phase 2 — Protector
 
+- **Type:** rule
 After [@name](../events/irena-confronts-wojewoda.md), she closes the household, pulls [@first-name](junior.md) home, and keeps [@first-name](wojewoda.md) from confessing.
 
 ## Opportunities

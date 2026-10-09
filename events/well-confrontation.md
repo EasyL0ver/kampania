@@ -62,14 +62,16 @@
 - **Changes:** [Dogs occupied](#dogs-occupied) — true
 
 ### Grab the hag and run
-- **When:** Present, no firearm, Physique
+- **Requires:** [Physique](../cards/physique.md)
+- **When:** Present, no firearm
 - **Cost:** 1 composure
 - **Outcome:** The player carries [@name](../characters/hag.md) clear; [@surname](../characters/butcher.md) does not pursue.
 - **Gives:** [Wounded](../cards/wounded.md)
 - **Changes:** [The hag](#the-hag) — badly hurt
 
 ### Fight him
-- **When:** Present, no firearm, Violence, and at least one other player has completed [Grapple him](#grapple-him) or [Pin him down](#pin-him-down)
+- **Requires:** [Violence](../cards/violence.md)
+- **When:** Present, no firearm, and at least one other player has completed [Grapple him](#grapple-him) or [Pin him down](#pin-him-down)
 - **Cost:** 2 composure
 - **Outcome:** The fighter drives [@surname](../characters/butcher.md) off while the dogs are occupied.
 - **Gives:** [Wounded](../cards/wounded.md)
@@ -95,15 +97,22 @@
 
 ### Dogs occupied
 
-- A flag, true or false. Starts false. True while someone keeps [@surname](../characters/butcher.md)'s dogs busy.
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True while someone keeps [@surname](../characters/butcher.md)'s dogs busy.
 
 ### The hag
 
-- **unhurt / badly hurt**. Starts unhurt.
+- **Type:** enum (unhurt | badly-hurt)
+- **Per:** world
+- **Start:** unhurt
 
 ### Butcher
 
-- **loose / dead in the well**. Starts loose.
+- **Type:** enum (loose | dead-in-the-well)
+- **Per:** world
+- **Start:** loose
 
 ## Exits
 

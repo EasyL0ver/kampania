@@ -30,7 +30,7 @@ A single administrative sheet, official stamps, dated 1954. It records [@name](.
 
 ### Compare it against Soldier's hand
 - **Requires:** [Bureaucracy](../cards/bureaucracy.md)
-- **When:** Holding the declaration **and** a genuine sample of [@first-name](../characters/soldier.md)'s writing — his [love letters to "M.K."](../locations/ciotkas-house/ciotkas-house.md#dig-in-the-backyard) buried in Ciotka's backyard
+- **Requires:** [@name](barnas-departure-declaration.md) AND [@name](buried-oilcloth-bundle.md)
 - **Cost:** 1 time
 - **Outcome:** Held beside the letters, the signature doesn't match the man who wrote them — the letters flow, this is stiff and traced. Someone copied his hand.
 - **Gives:** [departure-declaration-forged](../clues/clues.md#departure-declaration-forged)

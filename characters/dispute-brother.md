@@ -41,6 +41,7 @@ He speaks like a man who knows the rules are already on his side. His reasonable
 
 ### The dispute
 
+- **Type:** rule
 - TBD.
 
 ## Opportunities

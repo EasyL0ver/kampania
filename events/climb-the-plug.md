@@ -126,26 +126,38 @@ Facing the steep plug at the ridge gap.
 
 ### Climber position
 
+- **Type:** enum (foot | lower-bank | killzone | topped-out)
+- **Per:** player
+- **Start:** foot
 - Each climber is at one level: at the foot → past the lower bank → past the killzone → topped out.
 
 ### Anchor
 
+- **Type:** bool
+- **Per:** world
+- **Start:** false
 - The crux is anchored once the clamp is driven into the shale seam. It stays for later climbs, which skip the top pitch.
 
 ### The fall
 
+- **Type:** rule
 - Off the lower bank, bruises; off the killzone traverse, broken bones; off the top pitch, a bad break. None of it kills. A **Wounded** result blocks Physique and Violence until treated.
 
 ### The killzone is a fake danger
 
+- **Type:** rule
 - The traverse looks like loose rock ready to slide, but the rock is seated and holds: a crossing here never actually falls, whatever the party sets up to catch it. (In the rain the same rock is loose for real and the fall is certain, see [@name](climb-the-plug-in-the-rain.md).)
 
 ### Counterweight
 
+- **Type:** int
+- **Per:** world
+- **Start:** 0
 - A body committed to the rope by **Take the line** is a counterweight point (a Physique-strong body counts as 2). Every body on the line counts, on the ground or already topped out: the climber who drove the clamp can haul from above, so even a three-hand crew musters enough to raise the reader. The killzone catch never fires here (fake danger, no fall), so points are only ever spent **hauling**: dragging the non-climbing reader up a pitch on the clamp costs **2 points per level**. Same system the rain climb uses, minus the fall.
 
 ### The top-out
 
+- **Type:** rule
 - One lasting fix: drive the clamp into the shale seam (needs the clamp and hammer, carried up on a return trip, so not available on a first blind climb). The choice is to force it free-solo for **2 composure**, or retreat, fetch the clamp, and come back to fix the route clean. Forcing it without the reserve is a fall: **Wounded**.
 
 ## Exits

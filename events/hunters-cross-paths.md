@@ -51,6 +51,7 @@ A rifleman confronting a knife-wielding hunter as dogs scatter through the clear
 
 ### The clash
 
+- **Type:** rule
 - Runs until someone ends it: the players get between them, or it burns out with [@surname](../characters/butcher.md) the winner.
 
 ## Exits

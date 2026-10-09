@@ -56,6 +56,20 @@
      escape, a vote. Keep it to the rule itself; the actions above reference it.
      Omit the section entirely if the event has no special resolution rule. -->
 
+### [Mechanic name]
+<!-- Every ### opens with a Type line (checked by validate.py, rule mechanic-type):
+       bool | int | enum (a | b | c) — state; follow with
+         - **Per:** world | player | npc  (one value for the game / one per player / one per NPC)
+         - **Start:** <legal value>
+       rule — how something resolves, no stored state
+       list — a growing set of records (e.g. census entries)
+     Then free bullets: what sets or moves it. Nothing may sit directly under ## Mechanics. -->
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- [What sets it.]
+
+
 ## Exits
 
 <!-- Events only. Where players go after — link to the scenes/locations. -->

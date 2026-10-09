@@ -74,6 +74,7 @@
 ## Mechanics
 
 ### The priest
+- **Type:** rule
 - [@name](../../characters/priest.md) is a decent man walking a tightrope. He wants the committee to find what this house hides, and he cannot be seen to help them: the confession seal binds what [@name](../../characters/ciotka.md) told him, and the parish funding runs through [@name](../../characters/wojewoda.md), so a wrong word costs him his vows or his church. Everything he does here is deniable.
 - He is clever, and he has a good guess what is in the attic: the looted belongings of the [@name](../../characters/soldier.md) family, the thing that would turn the committee's eyes onto the Gajdas. He will never say so, and he will never be seen to point. Play every beat as a decent priest doing the ordinary, proper thing: looking in on her, praying, not touching her things, going to tell the family. The steering should pass unnoticed in the moment. The most you want is for a sharp player, later, once they know what was up there and who was coming, to stop and think: the priest gave us that chance on purpose.
 - He does not obstruct the death investigation itself; that part is his legitimate role and it points at no one living. He understands examining her means undressing her. The one line is her body: handle her with a word of explanation and he turns away; strip her crudely, brushing past his flinch, and he takes it as contempt for the dead ([Contempt for the dead](../../characters/priest.md#contempt-for-the-dead)), his goodwill lost and remembered (see his [Grudge](../../characters/priest.md#grudge)).

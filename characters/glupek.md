@@ -39,6 +39,9 @@ His voice is surprisingly soft for his size. Kindness reaches him after a pause,
 
 ### Shelter
 
+- **Type:** enum (none | rectory | matronas)
+- **Per:** world
+- **Start:** none
 - After [@name](../events/edek-in-the-bunker.md), [@first-name](glupek.md) is sheltered in one of two places.
 - **At the priest's:** hidden by [@name](priest.md) in the [@name](../locations/the-rectory.md) cellar.
 - **At [@first-name](matrona.md)'s:** in [@name](matrona.md)'s keeping at [@name](../locations/matronas-house.md).

@@ -48,7 +48,10 @@ People lower their voices around her. Her own voice stays low and measured, so o
 
 ### Robbery suspect
 
-- Who [@first-name](matrona.md) will blame if the penicillin goes missing: **none / junior / committee**. Starts at **none**.
+- **Type:** enum (none | junior | committee)
+- **Per:** world
+- **Start:** none
+- Who [@first-name](matrona.md) will blame if the penicillin goes missing.
 - Set once, by whoever first asks her for penicillin. Her brother [@nickname](wujas.md) never counts: she simply gives it to him.
 - It only counts if the penicillin goes missing. If the till is robbed too, the money masks the motive and she suspects no one.
 - TBD: if she suspects the committee, every committee member lodging at her house loses the [Lodging at Matrona's](../cards/lodging-at-matronas.md) card.

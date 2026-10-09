@@ -35,8 +35,8 @@
 - **His eyes, to a doctor** `(when: [@first-name](../characters/pawelek.md) at 4 HP or lower)` `(noticed by: [Medicine](../cards/medicine.md))` — the red is in the whites themselves, not from crying. → Gives: [`pawelek-eyes-not-crying`](../clues/clues.md#pawelek-eyes-not-crying)
 - **The colour of him** `(when: [@first-name](../characters/pawelek.md) at 3 HP or lower)` `(prompted by: aware:events/pawelek-falls-ill.md)` — his skin and the whites of his eyes have turned yellow. → Gives: [`pawelek-turns-yellow`](../clues/clues.md#pawelek-turns-yellow)
 - **The colour of him, to a doctor** `(when: [@first-name](../characters/pawelek.md) at 3 HP or lower)` `(noticed by: [Medicine](../cards/medicine.md))` — yellow skin and eyes mean his organs are failing. → Gives: [`pawelek-organs-failing`](../clues/clues.md#pawelek-organs-failing)
-- **The look of it** `(when: Survival and [@first-name](../characters/pawelek.md) at 3 HP or lower)` `(prompted by: aware:events/pawelek-falls-ill.md)` — a woodsman reads the yellowing two ways and cannot settle it: a sickness that comes from foul water, or a child who ate a death cap in the woods. → Gives: [`pawelek-got-it-from-water`](../clues/clues.md#pawelek-got-it-from-water), [`pawelek-ate-death-cap`](../clues/clues.md#pawelek-ate-death-cap)
-- **The mark of poison** `(when: Violence and [@first-name](../characters/pawelek.md) at 3 HP or lower)` `(prompted by: aware:events/pawelek-falls-ill.md)` — you have seen what the yellow rat poison does to a body; the boy's signs could be phosphorus, and that would mean a hand behind it. → Gives: [`pawelek-phosphorus-poison`](../clues/clues.md#pawelek-phosphorus-poison)
+- **The look of it** `(when: [@first-name](../characters/pawelek.md) at 3 HP or lower)` `(noticed by: [Survival](../cards/survival.md))` `(prompted by: aware:events/pawelek-falls-ill.md)` — a woodsman reads the yellowing two ways and cannot settle it: a sickness that comes from foul water, or a child who ate a death cap in the woods. → Gives: [`pawelek-got-it-from-water`](../clues/clues.md#pawelek-got-it-from-water), [`pawelek-ate-death-cap`](../clues/clues.md#pawelek-ate-death-cap)
+- **The mark of poison** `(when: [@first-name](../characters/pawelek.md) at 3 HP or lower)` `(noticed by: [Violence](../cards/violence.md))` `(prompted by: aware:events/pawelek-falls-ill.md)` — you have seen what the yellow rat poison does to a body; the boy's signs could be phosphorus, and that would mean a hand behind it. → Gives: [`pawelek-phosphorus-poison`](../clues/clues.md#pawelek-phosphorus-poison)
 - **The signs on the child** `(noticed by: [Superstitious](../cards/superstitious.md))` `(prompted by: aware:events/pawelek-falls-ill.md)` — he raves of a lady and round stones, and he alone sickens while everyone else is spared. To you the meaning is plain: this is the well's work, not a fever. → Gives: [`pawelek-was-possessed`](../clues/clues.md#pawelek-was-possessed)
 - **His muttering** `(prompted by: aware:events/pawelek-falls-ill.md)` — sit close and listen through the fever. He cries for a lady from the woods who gave him bread and told him not to drink, then trails off into sounds that make no sense. → Gives: aware:characters/hag.md
 - **Screams when moved** `(when: examined, [Health Points](../characters/pawelek.md#health-points) at 5 or lower)` — once the muscle pain has set in he screams when his legs and back are moved. → Gives: [pawelek-in-muscle-pain](../clues/clues.md#pawelek-in-muscle-pain)
@@ -77,6 +77,9 @@
 
 ## Mechanics
 
+### The illness
+
+- **Type:** rule
 - [@first-name](../characters/pawelek.md) starts at 6 HP when symptoms appear on Day 3 evening.
 - [@first-name](../characters/pawelek.md) loses 1 HP per phase without effective treatment.
 - At 0 HP, [@first-name](../characters/pawelek.md) dies.

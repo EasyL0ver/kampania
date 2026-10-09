@@ -42,6 +42,7 @@ He talks in a teacher's cadence, reaches for clever phrases, half-remembers Lati
 
 ### Signal in the noise
 
+- **Type:** rule
 He broadcasts constantly and mixes truth with rubbish. The GM should keep the ratio deliberate: most of what he says is froth, a little is gold, and he cannot tell the difference himself.
 
 **True and safely contained:**

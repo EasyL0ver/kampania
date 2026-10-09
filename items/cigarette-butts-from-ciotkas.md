@@ -20,14 +20,16 @@ A small scatter of hand-pinched butts, oval, all one brand: Carmen. An aromatic 
 ## Actions
 
 ### Compare the door and well butts
-- **When:** Holding the butts from [@name](../events/ciotka-found-dead/ciotka-found-dead.md) and the [handful gathered at the well](../locations/old-village-ruins.md#investigate-the-area-around-the-well)
+- **Requires:** [@name](cigarette-butts-from-ciotkas.md)
+- **When:** the [handful gathered at the well](../locations/old-village-ruins.md#investigate-the-area-around-the-well)
 - **Prompted by:** [ciotka-is-dead](../clues/clues.md#ciotka-is-dead)
 - **Cost:** 1 time
 - **Outcome:** Laid side by side, both scatters are the same oval Carmen. The man who haunts the well left the same brand at her threshold.
 - **Gives:** [door-and-well-butts-match](../clues/clues.md#door-and-well-butts-match)
 
 ### Compare with the cigarette in Glupek's room
-- **When:** Holding the butts and the [single cigarette found in Edek's room](../locations/ciotkas-house/ciotkas-house.md#search-glupeks-room); **Finesse**, **Survival**, or **Chainsmoker**
+- **Requires:** [@name](cigarette-butts-from-ciotkas.md) AND ([Finesse](../cards/finesse.md) OR [Survival](../cards/survival.md) OR [Chainsmoker](../cards/chainsmoker.md))
+- **When:** the [single cigarette found in Glupek's room](../locations/ciotkas-house/ciotkas-house.md#search-glupeks-room)
 - **Prompted by:** [butts-at-ciotkas-are-carmen](../clues/clues.md#butts-at-ciotkas-are-carmen)
 - **Cost:** 1 time
 - **Outcome:** Laid side by side, the unsmoked cigarette from the boy's corner is the same oval Carmen as the butts at the door. [@first-name](../characters/glupek.md) does not smoke, so someone gave it to him. Who can be learned by [asking Edek](../characters/glupek.md#ask-glupek-about-the-cigarette).

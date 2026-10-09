@@ -56,8 +56,19 @@ A clear voice answering from the telephone exchange while floodwater cuts the vi
 
 ## Mechanics
 
-**Anonymity:** anonymous until the committee knows the voice is [@name](../characters/jagna.md) (**Name her**), which turns her indifference vengeful.
-**Willingness:** withholding, and opens only after she is known as [@first-name](../characters/jagna.md), then **Tell her [@first-name](../characters/glupek.md), her brother, is alive and trapped** opens rescue calls or **Name her family's killers** opens exposure calls ([@name](the-report.md)).
+### Anonymity
+
+- **Type:** enum (anonymous | known)
+- **Per:** world
+- **Start:** anonymous
+- Anonymous until the committee knows the voice is [@name](../characters/jagna.md) (**Name her**), which turns her indifference vengeful.
+
+### Willingness
+
+- **Type:** enum (withholding | rescue | exposure)
+- **Per:** world
+- **Start:** withholding
+- Opens only after she is known as [@first-name](../characters/jagna.md), then **Tell her [@first-name](../characters/glupek.md), her brother, is alive and trapped** opens rescue calls or **Name her family's killers** opens exposure calls ([@name](the-report.md)).
 
 ## Exits
 

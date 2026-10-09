@@ -34,10 +34,10 @@ The river, hillsides, and forest edges around [@name](new-village.md).
 
 ## Opportunities
 
-- **Spot the old village** `(when: Survival on a survey route)` — Stone ruins are visible through the trees. → Gives: aware:locations/old-village-ruins.md
-- **Spot Butcher at his house** `(when: Finesse on the route past [@name](../characters/butcher.md)'s house)` — [@surname](../characters/butcher.md) is alone near the treeline and using the same direction repeatedly. → Gives: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
-- **Spot the drinking crew heading into the forest** `(when: Survival near the treeline track)` — [@name](../characters/wujas.md) and the crew carry bottles toward the forest. → Gives: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
-- **See the landslide plug** `(when: Survival on a survey route)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The notch in the ridge is choked with fallen rock and earth. → Gives: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
+- **Spot the old village** `(when: on a survey route)` `(noticed by: [Survival](../cards/survival.md))` — Stone ruins are visible through the trees. → Gives: aware:locations/old-village-ruins.md
+- **Spot Butcher at his house** `(when: on the route past [@name](../characters/butcher.md)'s house)` `(noticed by: [Finesse](../cards/finesse.md))` — [@surname](../characters/butcher.md) is alone near the treeline and using the same direction repeatedly. → Gives: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
+- **Spot the drinking crew heading into the forest** `(when: near the treeline track)` `(noticed by: [Survival](../cards/survival.md))` — [@name](../characters/wujas.md) and the crew carry bottles toward the forest. → Gives: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
+- **See the landslide plug** `(when: on a survey route)` `(noticed by: [Survival](../cards/survival.md))` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The notch in the ridge is choked with fallen rock and earth. → Gives: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 - **The river isn't where the map draws it** `(when: observation comparing map to ground)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The wojewoda's bridge spans running water, but the map shows that ground dry and the river on its old course. → Gives: [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map)
 
 ## Actions
@@ -68,7 +68,8 @@ The river, hillsides, and forest edges around [@name](new-village.md).
 
 
 ### Track the hag to her cabin
-- **When:** Survival and aware:characters/hag.md
+- **Requires:** [Survival](../cards/survival.md)
+- **Prompted by:** aware:characters/hag.md
 - **Cost:** 1 time
 - **Outcome:** Knowing someone lives out here, a tracker cuts her sign from the forest floor: silent footfalls, snapped herbs, a worn path under the undergrowth. The trail runs back to the [@name](hags-cabin.md).
 - **Gives:** aware:locations/hags-cabin.md

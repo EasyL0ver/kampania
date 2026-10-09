@@ -41,10 +41,17 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ### Condition
 
-- **healthy / sick / tended / dead**. Starts healthy; sick once he falls ill.
+- **Type:** enum (healthy | sick | tended | dead)
+- **Per:** world
+- **Start:** healthy
+- Sick once he falls ill.
 - While **tended**, his [Health Points](#health-points) do not drop this phase.
 
 ### Health Points
+
+- **Type:** int
+- **Per:** world
+- **Start:** 6
 
 **Ticking clock mechanic.** Tracks [@first-name](pawelek.md)'s condition after he falls ill ([@name](../events/pawelek-falls-ill.md)).
 
@@ -62,6 +69,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ### Modifiers
 
+- **Type:** rule
 - **Norsulfazol (from [@first-name](matrona.md)/robbery/raid/[@nickname](wujas.md)):** Drain stops permanently. **+1 HP per phase.** Full recovery.
 - **[@first-name](hag.md)'s herbs:** Drain stops permanently. No HP recovery — stays at current HP. [@first-name](pawelek.md) sleeps, unreachable rest of game.
 - **No treatment:** 6 phases (1.5 days) → dead.
@@ -78,7 +86,8 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 ## Actions
 
 ### Build with Pawelek
-- **When:** Morning or afternoon, [@first-name](pawelek.md) playing with stones, and **Handiwork**
+- **Requires:** [Handiwork](../cards/handiwork.md)
+- **When:** Morning or afternoon, [@first-name](pawelek.md) playing with stones
 - **Outcome:** The player helps him build the circular pattern he has been copying from memory. An engineer recognizes the pattern as a well rim.
 - **Gives:** [pawelek-wanders-to-old-village](../clues/clues.md#pawelek-wanders-to-old-village), aware:locations/old-village-ruins.md
 

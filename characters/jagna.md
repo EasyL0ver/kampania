@@ -47,10 +47,14 @@ People remembered her as clever before they remembered her as kind. Around [@fir
 
 ### Evacuate
 
-- A flag, true or false. Starts false. True when she relays the rescue call and the valley is evacuated. The **Evacuate** ending.
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True when she relays the rescue call and the valley is evacuated. The **Evacuate** ending.
 
 ### Identity
 
+- **Type:** rule
 - She works the manual switchboard at the nearest town's exchange, in the back of a post office, under another name. Nobody in the valley knows she is [@first-name](jagna.md).
 - Every long-distance call the committee places — [@name](professor.md), [@name](sawicki.md), [@name](officer.md)'s superiors, the powiat — routes through her board.
 - Her identity remains unprovable from the line. A bad connection and a thirteen-year-old memory are not evidence.
@@ -58,18 +62,21 @@ People remembered her as clever before they remembered her as kind. Around [@fir
 
 ### Calls
 
+- **Type:** rule
 - Most calls connect because she usually holds back from using the switchboard against the valley.
 - A rescue call during the flood can fail because she keeps the channel open and useless.
 - Never let her touch the earlier [@title](professor.md) [@surname](professor.md) call in [@name](../events/the-report.md); that call stays player-driven.
 
 ### Levers
 
+- **Type:** rule
 - [@first-name](glupek.md) is the personal lever. If the players know [@first-name](glupek.md) is her brother and know he is trapped in the flooding forest, carrying his name over the wire makes her relay the call.
 - Justice is the vengeance lever. If the players call to expose a real village crime and bring the guilty to account, she relays the call.
 - A plain plea to save the valley gets nothing.
 
 ### Deniable tell
 
+- **Type:** rule
 - If a player says the one unbearable thing down the wire — her name, "[@first-name](jagna.md)?", her father, or the well — she gives one small, deniable gasp.
 - The gasp happens once only. Repeating the trigger gets flat procedure.
 - The gasp is never confirmation.

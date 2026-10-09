@@ -38,7 +38,10 @@
 
 ### Dinner invitation
 
-- **extended / withdrawn**. Starts extended: [@first-name](../../characters/wojewoda.md) invites the committee to the family dinner that evening. Withdrawn if the committee raises the flood risk.
+- **Type:** enum (extended | withdrawn)
+- **Per:** world
+- **Start:** extended
+- [@first-name](../../characters/wojewoda.md) invites the committee to the family dinner that evening. Withdrawn if the committee raises the flood risk.
 
 ## Exits
 

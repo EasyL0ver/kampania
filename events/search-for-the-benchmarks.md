@@ -28,14 +28,14 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 - **When:** that site's marker is not yet found
 - **Prompted by:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
 - **Outcome:** Survey crews set benchmarks on stable rock at clear sightlines; you read the site for where they would have driven the marker.
-- **Changes:** [Hidden count](#hidden-count) — 2 points toward finding that site's marker
+- **Changes:** [Hidden count at the col](#hidden-count-at-the-col) — +2 if read here; [Hidden count at the village edge](#hidden-count-at-the-village-edge) — +2 if read here
 
 ### Dig out the buried marker
 - **Requires:** [Physique](../cards/physique.md)
 - **When:** that site's marker is not yet found
 - **Prompted by:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
 - **Outcome:** Most of the work is heaving aside slid earth and undergrowth to uncover the stamped face; a strong back clears a site fast.
-- **Changes:** [Hidden count](#hidden-count) — that site's count drops to 2
+- **Changes:** [Hidden count at the col](#hidden-count-at-the-col) — dug here, marker turns up at 2; [Hidden count at the village edge](#hidden-count-at-the-village-edge) — dug here, marker turns up at 2
 
 ### Search the col for its marker
 - **When:** the col marker is not yet found
@@ -43,14 +43,14 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 - **Cost:** 1 time
 - **Outcome:** You quarter the ground around the col. Until the hidden count is reached: weathered rock, slid earth, nothing stamped. On the search that reaches it, the stamped benchmark turns up under the gorse, and higher up you stumble on an abandoned shepherd's koliba, easy to miss and long empty. It can be revisited and entered any time from the [@name](../locations/far-ridge-streambed.md).
 - **Gives:** [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed)
-- **Changes:** [Hidden count](#hidden-count) — +1 point at the col
+- **Changes:** [Hidden count at the col](#hidden-count-at-the-col) — +1
 
 ### Search the village edge for its marker
 - **When:** the village-edge marker is not yet found
 - **Prompted by:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
 - **Cost:** 1 time
 - **Outcome:** You comb the ground at the edge of [@name](../locations/new-village.md). Until the hidden count is reached: fence posts, field stones, nothing stamped. On the search that reaches it, the stamped benchmark turns up half-buried by a field wall.
-- **Changes:** [Hidden count](#hidden-count) — +1 point at the village edge
+- **Changes:** [Hidden count at the village edge](#hidden-count-at-the-village-edge) — +1
 
 ### Copy the elevations
 - **When:** both markers found
@@ -59,8 +59,23 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 
 ## Mechanics
 
-### Hidden count
+### Hidden count at the col
 
+- **Type:** int
+- **Per:** world
+- **Start:** 0
+- Points toward turning up the col's marker; see [The search](#the-search).
+
+### Hidden count at the village edge
+
+- **Type:** int
+- **Per:** world
+- **Start:** 0
+- Points toward turning up the village edge's marker; see [The search](#the-search).
+
+### The search
+
+- **Type:** rule
 - **The search is a gamble, not a fixed price.** Each search costs 1 time and the players never learn how many it takes. The GM answers "nothing yet" until the site's hidden count is reached.
 - **Hidden count:** each site's marker turns up at **4 points**. Each search adds 1 point; a Survival read of the site adds 2. A Physique dig on that site drops it to the **2nd** search; it does not stack with the read. [@name](../characters/foreman.md), if he came up ([Bring him to the streambed](../characters/foreman.md#bring-him-to-the-streambed)), remembers one site well enough to drop it to the **2nd** as well.
 - **Searches already made count** toward the lower number.

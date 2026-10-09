@@ -59,7 +59,10 @@
 
 ### Interrupted
 
-- A flag, true or false. Starts false. True when the odpust is stopped before it is granted: [Grace](../characters/priest.md#grace) can no longer become true.
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True when the odpust is stopped before it is granted: [Grace](../characters/priest.md#grace) can no longer become true.
 
 ## Exits
 

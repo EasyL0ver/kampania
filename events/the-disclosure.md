@@ -87,6 +87,7 @@
 
 ### The disclosure
 
+- **Type:** rule
 - TBD.
 
 ## Exits

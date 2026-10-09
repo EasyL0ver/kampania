@@ -42,12 +42,17 @@ He speaks in short flat sentences with long pauses. He goes quieter when angry, 
 
 ### Lynch Targets
 
-- A score he keeps for every possible lynch target. Starts at **[@surname](butcher.md) 2, the players 1, [@first-name](wojewoda.md) 1**, everyone else 0.
+- **Type:** int
+- **Per:** npc
+- **Start:** 0
+- A score he keeps for every possible lynch target. At the start: **[@surname](butcher.md) 2, the players 1, [@first-name](wojewoda.md) 1**, everyone else 0.
 - Whoever scores highest when he snaps is who he goes after.
 
 ### Humiliated
 
-- A flag, true or false. Starts false.
+- **Type:** bool
+- **Per:** world
+- **Start:** false
 
 ## Actions
 
@@ -82,7 +87,8 @@ He speaks in short flat sentences with long pauses. He goes quieter when angry, 
 - **Gives:** [junior-pressed-ciotka](../clues/clues.md#junior-pressed-ciotka)
 
 ### Uplift Neighbour
-- **When:** [Humiliated](#humiliated), and Empathy or Speech
+- **Requires:** [Empathy](../cards/empathy.md) OR [Speech](../cards/speech.md)
+- **When:** [Humiliated](#humiliated)
 - **Outcome:** The player puts the steel back in him and gives him his face back.
 - **Changes:** [Humiliated](#humiliated) — clears Humiliated
 

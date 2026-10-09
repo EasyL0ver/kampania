@@ -41,15 +41,24 @@ His baritone stays intimate in conversation. When uncomfortable, his hand goes t
 
 ### Grace
 
-- A flag, true or false. Starts false. True when he grants the odpust at the Day 7 Mass, which needs [Crisis of Faith](#crisis-of-faith) at +8. The **Grace** ending.
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True when he grants the odpust at the Day 7 Mass, which needs [Crisis of Faith](#crisis-of-faith) at +8. The **Grace** ending.
 
 ### Contempt for the dead
 
+- **Type:** bool
+- **Per:** world
+- **Start:** false
 - Set when the committee handles [@first-name](ciotka.md)'s body crudely, brushing past his objection. He takes it as contempt for the dead and does not forget it.
 
 ### Crisis of Faith
 
-- A counter that starts at **0** and moves up and down. If it reaches **+8** by the Day 7 Mass, he believes in redemption and grants the odpust.
+- **Type:** int
+- **Per:** world
+- **Start:** 0
+- Moves up and down. If it reaches **+8** by the Day 7 Mass, he believes in redemption and grants the odpust.
 
 ## Actions
 
@@ -76,7 +85,7 @@ His baritone stays intimate in conversation. When uncomfortable, his hand goes t
 - **Changes:** [Property Record](../items/census.md#property-record) — parish/church property, not personally held
 
 ### Donate to the church
-- **When:** The [Loaded](../story-facts/game-system.md) card — hard currency in your pocket to give
+- **Requires:** [Loaded](../cards/loaded.md)
 - **Cost:** [Loaded](../cards/loaded.md)
 - **Outcome:** A committee member puts real money into the parish, no bribe, nothing asked for, just given. [@title](priest.md) [@first-name](priest.md) [@surname](priest.md) did not expect it and cannot quite believe it: one of the state's own clerks choosing a plain good thing. In a man whose faith in people is in crisis, it lands, and he watches the committee differently after.
 - **Changes:** [Crisis of Faith](#crisis-of-faith) — +2

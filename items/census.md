@@ -27,15 +27,18 @@ Household        Name                 Age   Resident since   Notes
 
 ### Census
 
+- **Type:** list
 - One entry per person, made by the **Census interview** action with that person or their household.
 - An entry records household, name, age and years resident, or a refusal or a gap where the person would not answer.
 
 ### Keeper
 
+- **Type:** rule
 - The committee keeps the register unless it hands it over. Whoever holds it fills it, and decides what it shows.
 
 ### Property Record
 
+- **Type:** list
 - One entry per property, made by the **Property assessment** action.
 - An entry records what the household owns and claims, or that the property stayed unassessed.
 
@@ -46,13 +49,15 @@ Household        Name                 Age   Resident since   Notes
 ## Actions
 
 ### Cross-check against the worker registry
-- **When:** Holding the census with household entries recorded, and the [@name](pgr-ledger.md)
+- **Requires:** [@name](census.md) AND [@name](pgr-ledger.md)
+- **When:** household entries recorded in the census
 - **Cost:** 1 time
 - **Outcome:** The census records every living head in the village. One name on the farm's payroll, [@name](../characters/tadeusz-mazur.md), belongs to no household: his widow is listed alone. A worker drawing wages that no household accounts for.
 - **Gives:** [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent)
 
 ### Read the family's surnames
-- **When:** Holding the census with the Gajda/Barnaś household recorded
+- **Requires:** [@name](census.md)
+- **When:** the Gajda/Barnaś household recorded in the census
 - **Prompted by:** [edeks-father-left](../clues/clues.md#edeks-father-left)
 - **Outcome:** The boy and the father he never knew are set down as Barnaś; the woman raising him is Gajda. She never took his name. Read straight, she and [@name](../characters/soldier.md) were together but never married.
 - **Gives:** [ciotka-never-married](../clues/clues.md#ciotka-never-married)

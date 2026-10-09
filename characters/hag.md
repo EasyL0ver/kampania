@@ -43,13 +43,20 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 
 ### Rest
 
-- A flag, true or false. Starts false. True when the Lemko rite is done at the well: the dead are named and mourned. Can no longer become true once [Grace](priest.md#grace) is granted. The **Rest** ending.
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True when the Lemko rite is done at the well: the dead are named and mourned. Can no longer become true once [Grace](priest.md#grace) is granted. The **Rest** ending.
 
 ### Talking to her
+- **Type:** rule
 - [@first-name](hag.md) cannot be spoken to without Language. Even with it, the exchange is halting and hard.
 
 ### Village Hostility
-- A flag, true or false. Starts false. True while she believes the village means her harm.
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True while she believes the village means her harm.
 - By default she can be approached and interviewed at her [@name](../locations/hags-cabin.md).
 - If the players come at her as a threat (chasing her at the well, cornering her, open aggression), she comes to believe the village means her harm.
 - While she believes this, she stops her nightly rite, so [@name](../events/hags-prayer.md) no longer fires, and none of her actions below are available.

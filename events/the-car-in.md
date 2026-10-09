@@ -58,6 +58,7 @@ A police car winding down the mountain road through the rain.
 
 ### The draft
 
+- **Type:** rule
 - Done once, on the drive in. Afterwards every player holds the cards they drafted; a card nobody drafted is out of the game.
 
 ## Exits

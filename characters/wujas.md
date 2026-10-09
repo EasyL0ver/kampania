@@ -41,6 +41,10 @@ His raspy warm voice gets louder and funnier with drink. The morning shakes and 
 
 ### Drinking Buddy
 
+- **Type:** bool
+- **Per:** player
+- **Start:** false
+
 [@nickname](wujas.md)'s guard only drops for people who drink with him. Unlike a [Bond](#bond), this is not exclusive and not hidden — **any** number of PCs can become drinking buddies, and a player can feel themselves being pulled into his circle.
 
 **Becoming a buddy** (GM tracks silently, no announcement):
@@ -51,6 +55,10 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 
 ### Crew Hostile
 
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+
 [@nickname](wujas.md)'s drinking crew ([@name](secondary/szymek-kepa.md), [@name](secondary/romek-glowacz.md), [@name](secondary/franek-mucha.md)) shares one state.
 
 - Set by [@name](../events/caught-at-the-still.md), when the committee fights the whole crew or pulls a gun on them.
@@ -59,7 +67,7 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 
 ## Opportunities
 
-- **Smoking while drinking** `(when: [@nickname](wujas.md) present and drinking at the [@name](../locations/bimber-still.md) or the [@name](../locations/the-store.md), and Chainsmoker)` `(prompted by: aware:characters/wujas.md)` — With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen. → Gives: [`tadek-smokes-cheapest`](../clues/clues.md#tadek-smokes-cheapest)
+- **Smoking while drinking** `(when: [@nickname](wujas.md) present and drinking at the [@name](../locations/bimber-still.md) or the [@name](../locations/the-store.md))` `(noticed by: [Chainsmoker](../cards/chainsmoker.md))` `(prompted by: aware:characters/wujas.md)` — With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen. → Gives: [`tadek-smokes-cheapest`](../clues/clues.md#tadek-smokes-cheapest)
 - **Census nerves** `(when: Census interview)` `(noticed by: [Empathy](../cards/empathy.md))` — he is not nervous about the census; he is nervous about being asked anything at all. → Gives: [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
 - **Drunk census performance** `(when: Census interview, [@nickname](wujas.md) is drunk)` — he turns the answers into absurd village theatre.
 - **Drunk property performance** `(when: Property assessment, [@nickname](wujas.md) is drunk)` — he claims a fake grand estate made of the still, his brother's house, and moonlight.

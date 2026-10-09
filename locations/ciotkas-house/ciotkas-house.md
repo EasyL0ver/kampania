@@ -41,7 +41,8 @@ The best plot in [@name](../new-village.md), across from the Neighbour's house.
 ## Actions
 
 ### Search Glupek's room
-- **When:** [@first-name](../../characters/ciotka.md) absent or distracted; a thorough search (**Finesse**)
+- **Requires:** [Finesse](../../cards/finesse.md)
+- **When:** [@first-name](../../characters/ciotka.md) absent or distracted
 - **Cost:** 1 time
 - **Outcome:** Only a real search of the room turns them up, tucked away like treasures among the boy's few things: a single unsmoked cigarette, and an old [@name](../../items/bayonet.md) kept hidden from [@first-name](../../characters/ciotka.md). [@first-name](../../characters/glupek.md) does not smoke, so the cigarette was a gift; its brand and meaning become clear when [compared with the butts from the door](../../items/cigarette-butts-from-ciotkas.md#compare-with-the-cigarette-in-glupeks-room). What the bayonet is, and that it cannot be his father's, takes a soldier's eye. [@name](../../characters/neighbour.md) is right across the road; a search risks him seeing them at it.
 - **Gives:** [@name](../../items/bayonet.md)
@@ -67,4 +68,7 @@ The best plot in [@name](../new-village.md), across from the Neighbour's house.
 
 ### The attic hatch
 
+- **Type:** enum (shut | locked | open)
+- **Per:** world
+- **Start:** shut
 - Shut, and only [@first-name](../../characters/ciotka.md) goes up while she lives. After her death it is locked until opened with the [@name](../../items/attic-key.md) or forced. Once open, it stays open, and [@name](attic.md) can be visited.
