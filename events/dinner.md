@@ -40,7 +40,7 @@
 
 ## Actions
 
-### Drink with Tadek
+### Drink with Wujas
 - **Requires:** [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md)
 - **When:** [@name](../characters/wujas.md) at the table
 - **Outcome:** You match [@nickname](../characters/wujas.md) glass for glass through the meal without judging him; by the end he is loosened and glad of the company.

@@ -1,4 +1,4 @@
-# The Hunt with Rezeń
+# The Hunt with Butcher
 
 **Location:** [@name](../locations/pgr-farm.md)
 **Present:** [@name](../characters/butcher.md), players (optional)

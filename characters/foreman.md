@@ -110,7 +110,7 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 - **Outcome:** [@first-name](foreman.md) hands over the steel clamp and driving hammer from the farm's gear, on the understanding it comes back. Cooperative or bonded, he lends it without a second thought; otherwise a convincing enough story pries it out of a wary man.
 - **Gives:** [@name](../items/anchor.md)
 
-### Press him about Tadeusz Mazur
+### Press him about Tadeusz-Mazur
 - **When:** asked alone, not in front of the workers
 - **Prompted by:** [mazur-death-covered-up](../clues/clues.md#mazur-death-covered-up)
 - **Cost:** 1 time

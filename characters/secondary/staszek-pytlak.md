@@ -33,7 +33,7 @@ A slightly older village child who plays with [@name](../pawelek.md) before the 
 
 ## Actions
 
-### Ask Staszek about their last day
+### Ask Staszek-Pytlak about their last day
 - **Cost:** 1 time
 - **Outcome:** He tells you they went into the woods and ate mushrooms they picked.
 - **Gives:** [pawelek-ate-mushrooms-in-the-forest](../../clues/clues.md#pawelek-ate-mushrooms-in-the-forest)

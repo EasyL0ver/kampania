@@ -1,4 +1,4 @@
-# Edward Barnaś's Departure Declaration
+# Soldier's Departure Declaration
 
 **Type:** Item — property record (forged document)
 **Source:** The wall safe in the [@name](../locations/pgr-office.md) — cracked open along with the sołtys's pistol
@@ -28,7 +28,7 @@ A single administrative sheet, official stamps, dated 1954. It records [@name](.
 
 ## Actions
 
-### Compare it against Edward's hand
+### Compare it against Soldier's hand
 - **Requires:** [Bureaucracy](../cards/bureaucracy.md)
 - **When:** Holding the declaration **and** a genuine sample of [@first-name](../characters/soldier.md)'s writing — his [love letters to "M.K."](../locations/ciotkas-house/ciotkas-house.md#dig-in-the-backyard) buried in Ciotka's backyard
 - **Cost:** 1 time

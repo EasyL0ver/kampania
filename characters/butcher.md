@@ -66,7 +66,7 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 - **Outcome:** He waves the bottle off without a second look, no grin, no banter, just a flat refusal. He does not drink, and he does not explain it.
 - **Gives:** [butcher-doesnt-drink](../clues/clues.md#butcher-doesnt-drink)
 
-### Ask about Edek smoking
+### Ask about Glupek smoking
 - **When:** [@surname](butcher.md) present
 - **Prompted by:** [edek-has-carmen-cigarette](../clues/clues.md#edek-has-carmen-cigarette)
 - **Cost:** 1 time
@@ -74,7 +74,7 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)
 
 ### Ask about the Carmen cigarette
-- **When:** Players have the [@name](../items/cigarette-butts-from-ciotkas.md) or the [cigarette from Edek's room](../locations/ciotkas-house/ciotkas-house.md#search-edeks-room)
+- **When:** Players have the [@name](../items/cigarette-butts-from-ciotkas.md) or the [cigarette from Edek's room](../locations/ciotkas-house/ciotkas-house.md#search-glupeks-room)
 - **Cost:** 1 time
 - **Outcome:** No dodge, no worry. He shrugs and admits he gave the boy one, a boy has got to learn. He talks about [@first-name](glupek.md) warmly, like a nephew, and never once notices anything wrong with the fondness. He does not care that it places him near the door.
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)

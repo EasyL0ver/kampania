@@ -72,7 +72,7 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 - **Outcome:** The committee buys a round and shares a full session in the drinking circle. [@nickname](wujas.md) warms to whoever kept pace without judging him.
 - **Changes:** [Drinking Buddy](#drinking-buddy) — the drinking PCs become [@nickname](wujas.md)'s drinking buddies
 
-### Get shitfaced with Tadek
+### Get shitfaced with Wujas
 - **When:** [drinking buddy](#drinking-buddy)
 - **Cost:** 2 time + 1 composure
 - **Outcome:** The committee drinks [@nickname](wujas.md) past the point of guard. He gets loud, then maudlin, and grief for a woman he won't name slips out before he can catch it.
@@ -104,7 +104,7 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 - **Outcome:** He says he owns nothing and drifts between siblings' kitchens and the still.
 - **Changes:** [Property Record](../items/census.md#property-record) — [@nickname](wujas.md) holds no property, dependent on family
 
-### Get Pawełek the penicillin
+### Get Pawelek the penicillin
 - **Prompted by:** [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin), [wujas-is-paweleks-father](../clues/clues.md#wujas-is-paweleks-father)
 - **Cost:** 1 time
 - **Outcome:** Faced with the sick boy being his own, [@nickname](wujas.md) goes to his sister [@name](matrona.md). She opens the cabinet for her brother and counts out a child's course, and no census changes hands.

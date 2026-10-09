@@ -73,24 +73,24 @@
 - **Cost:** 2 composure
 - **Outcome:** The fighter drives [@surname](../characters/butcher.md) off while the dogs are occupied.
 - **Gives:** [Wounded](../cards/wounded.md)
-- **Changes:** [Rezeń](#rezeń) — loose
+- **Changes:** [Rezeń](#butcher) — loose
 
 ### Shoot him
 - **When:** Present and holding a gun — [@name](../characters/neighbour.md) or [@name](../characters/wojewoda.md)
 - **Cost:** 1 composure
 - **Outcome:** [@surname](../characters/butcher.md) reads the resolve, lowers the knife, and retreats with the dogs.
-- **Changes:** [Rezeń](#rezeń) — loose
+- **Changes:** [Rezeń](#butcher) — loose
 
 ### Shoot him in the back
 - **When:** [Shoot him](#shoot-him) resolved and [@surname](../characters/butcher.md) is retreating
 - **Cost:** 2 composure
 - **Outcome:** The player shoots [@surname](../characters/butcher.md) in the back; he crawls to the well and goes into the water.
-- **Changes:** [Rezeń](#rezeń) — dead in the well
+- **Changes:** [Rezeń](#butcher) — dead in the well
 
-### Dudka's rifle
-- **When:** The players got [@name](../characters/neighbour.md) here and left him his rifle; if he is [Humiliated](../characters/neighbour.md#humiliated), a player must use [Uplift Ryszard](../characters/neighbour.md#uplift-ryszard)
+### Neighbour's rifle
+- **When:** The players got [@name](../characters/neighbour.md) here and left him his rifle; if he is [Humiliated](../characters/neighbour.md#humiliated), a player must use [Uplift Ryszard](../characters/neighbour.md#uplift-neighbour)
 - **Outcome:** [@surname](../characters/neighbour.md) aims at [@surname](../characters/butcher.md) from the trees; [@surname](../characters/butcher.md) backs off and leaves with the dogs.
-- **Changes:** [Rezeń](#rezeń) — loose, backs off
+- **Changes:** [Rezeń](#butcher) — loose, backs off
 ## Mechanics
 
 ### Dogs occupied
@@ -101,7 +101,7 @@
 
 - **unhurt / badly hurt**. Starts unhurt.
 
-### Rezeń
+### Butcher
 
 - **loose / dead in the well**. Starts loose.
 

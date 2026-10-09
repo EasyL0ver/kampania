@@ -1,4 +1,4 @@
-# Tadek Gajda Cracks
+# Wujas Cracks
 
 **Location:** [@name](../locations/bimber-still.md)
 **Present:** [@name](../characters/wujas.md)

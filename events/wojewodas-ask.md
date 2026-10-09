@@ -38,15 +38,15 @@
 - **Outcome:** [@first-name](../characters/wojewoda.md) says the house was built with PGR brick and labour for a young mother with no support.
 - **Gives:** [barbara-has-help](../clues/clues.md#barbara-has-help)
 
-### Ask about Janina's house
-- **When:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway; see [Zbigniew Gajda](../characters/wojewoda.md#ask-about-janinas-house)
+### Ask about Ciotka's house
+- **When:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway; see [Zbigniew Gajda](../characters/wojewoda.md#ask-about-ciotkas-house)
 - **Prompted by:** [ciotka-house-is-wojewodas](../clues/clues.md#ciotka-house-is-wojewodas)
 - **Cost:** 1 time
 - **Outcome:** [@first-name](../characters/wojewoda.md) says the house was abandoned, left to the state, administered by the PGR, and allocated to [@first-name](../characters/ciotka.md).
 - **Gives:** [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs)
 
-### Show the paperwork for Janina's house
-- **When:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway; see [Zbigniew Gajda](../characters/wojewoda.md#show-the-paperwork-for-janinas-house)
+### Show the paperwork for Ciotka's house
+- **When:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway; see [Zbigniew Gajda](../characters/wojewoda.md#show-the-paperwork-for-ciotkas-house)
 - **Prompted by:** [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs)
 - **Cost:** 1 time
 - **Outcome:** [@first-name](../characters/wojewoda.md) shows the 1954 file with [@name](../items/barnas-departure-declaration.md), but does not hand it over.

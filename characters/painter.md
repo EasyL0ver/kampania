@@ -41,13 +41,13 @@ His hands are the only alive part of him: long-fingered, always stained with cad
 
 ## Actions
 
-### Show Emil the dress
+### Show Painter the dress
 - **Requires:** [@name](../items/girls-dress.md)
 - **Prompted by:** aware:characters/painter.md
 - **Outcome:** He goes still, then his stained hands start to shake. He cannot look at it and cannot look away.
 - **Gives:** [`dress-distressed-painter`](../clues/clues.md#dress-distressed-painter)
 
-### Ask Emil about Hania's portrait
+### Ask Painter about Jagna's portrait
 - **Prompted by:** [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew), [barnas-had-a-daughter-hania](../clues/clues.md#barnas-had-a-daughter-hania)
 - **Outcome:** [@first-name](painter.md) reacts physically to [@first-name](jagna.md)'s name and asks that she be written into the census as someone who lived here.
 - **Gives:** [`painter-wants-to-confess`](../clues/clues.md#painter-wants-to-confess)
@@ -57,12 +57,12 @@ His hands are the only alive part of him: long-fingered, always stained with cad
 - **Outcome:** He answers in a near-whisper, eyes down, and glances at [@name](matrona.md) before every reply. If she is in the room, she answers for him and he lets her.
 - **Changes:** [Census](../items/census.md#census) — [@first-name](painter.md) [@surname](painter.md), painter, in the Rzepka household
 
-### Confront Emil with the style shift
+### Confront Painter with the style shift
 - **Prompted by:** [painters-style-shifted-to-dark](../clues/clues.md#painters-style-shifted-to-dark)
 - **Outcome:** Told plainly that his work broke in two, the bright years and then the black, [@first-name](painter.md) stops fighting it. He admits that something happened to him in 1954 that he never came back from.
 - **Gives:** [`emil-traumatised-in-54`](../clues/clues.md#emil-traumatised-in-54)
 
-### Press Emil on the streambed's detail
+### Press Painter on the streambed's detail
 - **When:** noticed the streambed canvas as a real place (Geology) or its odd precision (Culture); access to [@first-name](painter.md)'s shed
 - **Prompted by:** aware:characters/painter.md
 - **Outcome:** Only a party that has picked out the real detail under the paint can draw him out. Asked about it, [@first-name](painter.md) warms for a moment. It is a streambed on the far ridge across the valley, a place from before, where the water ran down toward the next basin. He describes the col and the crossing plainly enough that the party could find it. Then he sighs: it was a long time ago, and the water probably does not run like that any more.

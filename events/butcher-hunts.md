@@ -1,4 +1,4 @@
-# Stanisław Rezeń Hunts
+# Butcher Hunts
 
 **Location:** [@name](../locations/village-outskirts.md)
 **Present:** [@name](../characters/butcher.md)

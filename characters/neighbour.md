@@ -81,7 +81,7 @@ He speaks in short flat sentences with long pauses. He goes quieter when angry, 
 - **Outcome:** He says the day before she died, the Wojewoda's boy came and the two of them fought. He heard the raised voices carry over the fence.
 - **Gives:** [junior-pressed-ciotka](../clues/clues.md#junior-pressed-ciotka)
 
-### Uplift Ryszard
+### Uplift Neighbour
 - **When:** [Humiliated](#humiliated), and Empathy or Speech
 - **Outcome:** The player puts the steel back in him and gives him his face back.
 - **Changes:** [Humiliated](#humiliated) — clears Humiliated
@@ -90,7 +90,7 @@ He speaks in short flat sentences with long pauses. He goes quieter when angry, 
 
 - [ ] **Treat [@first-name](barbara.md) and [@first-name](pawelek.md) as people, not sources** — ask after them, help the boy, notice the one clean thing in his life
 - [ ] **Meet his 1954 guilt without contempt** — when the inaction surfaces, don't call him a coward; let it stand
-- [ ] **Stand with him against [@surname](butcher.md)** — back him in a real moment instead of leaving him alone with it: defuse [@name](../events/hunters-cross-paths.md) in his favour, [Uplift him](#uplift-ryszard), or stand beside him at [the well](../events/well-confrontation.md#dudkas-rifle)
+- [ ] **Stand with him against [@surname](butcher.md)** — back him in a real moment instead of leaving him alone with it: defuse [@name](../events/hunters-cross-paths.md) in his favour, [Uplift him](#uplift-neighbour), or stand beside him at [the well](../events/well-confrontation.md#neighbours-rifle)
 
 ## Grudge
 

@@ -1,4 +1,4 @@
-# Edek in the Bunker
+# Glupek in the Bunker
 
 **Location:** [@name](../locations/upa-bunker.md)
 **Present:** [@name](../characters/glupek.md) (after [@name](../characters/ciotka.md)'s death)

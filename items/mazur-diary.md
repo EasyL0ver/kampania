@@ -1,4 +1,4 @@
-# Tadeusz Mazur's Diary
+# Tadeusz-Mazur's Diary
 
 **Type:** Item — a settler's private diary, kept from ~1948
 **Source:** Given by [@name](../characters/widow.md) once the committee uncovers the pension cover-up and chooses to shield her

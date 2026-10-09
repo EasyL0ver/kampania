@@ -48,7 +48,7 @@
 
 ## Actions
 
-### Back Zbigniew's line
+### Back Wojewoda's line
 - **When:** Form A and players standing with [@first-name](../characters/wojewoda.md).
 - **Cost:** 1 time
 - **Outcome:** Players reinforce his framing: there is a plan, the state will help, and people must move in order.
@@ -71,7 +71,7 @@
 - **Outcome:** Players admit the lie or redirect blame without offering safety.
 - **Changes:** [The disclosure](#the-disclosure) — TBD
 
-### Force Zbigniew to answer the crowd
+### Force Wojewoda to answer the crowd
 - **When:** Form B and players aim responsibility at the sołtys.
 - **Cost:** 1 time
 - **Outcome:** The crowd's question turns onto [@first-name](../characters/wojewoda.md).

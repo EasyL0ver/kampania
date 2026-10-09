@@ -1,4 +1,4 @@
-# Michał Pytlak Saves the Village — The Engineering Ending
+# Foreman Saves the Village — The Engineering Ending
 
 **Location:** [@name](../locations/upa-bunker.md)
 **Present:** [@name](../characters/foreman.md), [@name](../characters/zofia.md)

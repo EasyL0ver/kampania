@@ -56,7 +56,7 @@ The centre of [@name](new-village.md), close to the store.
 
 ## Actions
 
-### Lift Helena's keys
+### Lift Matrona's keys
 - **Requires:** [Finesse](../cards/finesse.md)
 - **When:** close to [@first-name](../characters/matrona.md), over her tea and bread or while her attention is elsewhere
 - **Cost:** 1 time

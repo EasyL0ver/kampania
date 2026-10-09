@@ -1,4 +1,4 @@
-# Coffee at Helena's
+# Coffee at Matrona's
 
 **Location:** [@name](../locations/matronas-house.md)
 **Present:** [@name](../characters/matrona.md), [@name](../characters/painter.md)
@@ -42,7 +42,7 @@
 
 ## Actions
 
-### Take the scapegoat — give them Rezeń
+### Take the scapegoat — give them Butcher
 - **Outcome:** The committee names [@name](../characters/butcher.md) in the report as the valley's guilt; the Lemko secret, the 1954 lynch, the forgery, and the massacre stay buried behind his name.
 - **Changes:** [Lynch Targets](../characters/neighbour.md#lynch-targets) — [@surname](../characters/butcher.md) becomes [@surname](../characters/neighbour.md)'s locked lynch target
 
@@ -54,7 +54,7 @@
 
 ## Mechanics
 
-### What Helena hears
+### What Matrona hears
 
 - If players hold [`something-happened-in-54`](../clues/clues.md#something-happened-in-54), [`lynch-body-in-well`](../clues/clues.md#lynch-body-in-well), [`wujas-participated-in-lynch`](../clues/clues.md#wujas-participated-in-lynch), [`wojewoda-participated-in-lynch`](../clues/clues.md#wojewoda-participated-in-lynch), or [`butcher-participated-in-lynch`](../clues/clues.md#butcher-participated-in-lynch), she says naming the 1954 death buys nothing now.
 - If players hold [`wojewoda-was-hurt-that-night`](../clues/clues.md#wojewoda-was-hurt-that-night), she says [@name](../characters/wojewoda.md) is the only person holding the village together during the flood.

@@ -1,4 +1,4 @@
-# Pawełek Falls Ill
+# Pawelek Falls Ill
 
 **Location:** [@name](../locations/barbaras-house.md)
 **Present:** [@name](../characters/barbara.md), [@name](../characters/babcia.md), [@name](../characters/pawelek.md)
@@ -68,7 +68,7 @@
 - **Outcome:** You work the old warding rite over the boy. It does nothing for his fever. But [@first-name](../characters/babcia.md), silent in her chair, watches, then corrects your hands and your words and takes up the prayer herself. She knows this rite far better than you do.
 - **Gives:** [`babcia-is-lemko`](../clues/clues.md#babcia-is-lemko), [`babcia-has-the-words`](../clues/clues.md#babcia-has-the-words)
 
-### Give Pawełek the penicillin
+### Give Pawelek the penicillin
 - **Requires:** [@name](../items/penicillin.md)
 - **Prompted by:** [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin)
 - **Cost:** 1 time

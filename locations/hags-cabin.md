@@ -1,4 +1,4 @@
-# Paraskewia Chyłak's Cabin
+# Hag's Cabin
 
 **Type:** Location (hidden, discoverable)
 **Location:** Deep forest, off an obscured path from [@name](old-village-ruins.md)

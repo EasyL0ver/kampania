@@ -1,4 +1,4 @@
-# Emil Rzepka and Helena Rzepka — The Dominated Husband
+# Painter and Matrona — The Dominated Husband
 
 <!-- Restructured from story essay. Needs scene-level detail: sensory Setup, concrete Opportunities, specific Actions with outcomes. -->
 
@@ -34,7 +34,7 @@
 
 ## Actions
 
-### Get Emil Rzepka alone
+### Get Painter alone
 - **When:** Find [@first-name](../characters/painter.md) without [@first-name](../characters/matrona.md) at work, in the field, at the church, or away from her inside the house
 - **Cost:** 1 time
 - **Outcome:** [@first-name](../characters/painter.md) gives the night in fragments: the affair, the attack, being beaten and dragged away, and [@first-name](../characters/matrona.md)'s voice giving instructions.

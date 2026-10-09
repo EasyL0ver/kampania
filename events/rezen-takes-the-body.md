@@ -1,4 +1,4 @@
-# Rezeń Takes the Body
+# Butcher Takes the Body
 
 **Location:** [@name](../locations/the-church.md), then [@name](../locations/old-village-ruins.md)
 **Present:** [@name](../characters/butcher.md) (if alive and loose), his dogs
@@ -56,7 +56,7 @@
 - **Outcome:** The trail reaches the well in [@name](../locations/old-village-ruins.md); a shawl or shoe is caught on the stone; [@surname](../characters/butcher.md)'s tracks lead back to [@name](../locations/butchers-house.md).
 - **Gives:** [`ciotka-body-taken`](../clues/clues.md#ciotka-body-taken)
 
-### Confront Rezeń
+### Confront Butcher
 - **When:** Caught him at the church, or tracked the body to him.
 - **Cost:** 1 time
 - **Outcome:** [@surname](../characters/butcher.md) does not deny taking the body. He says the flood left [@first-name](../characters/ciotka.md) unburied, the body was turning, and the well is where he put her.

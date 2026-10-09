@@ -77,7 +77,7 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 - **Outcome:** She has watched this ground for twenty years. In her own terms she says the river wants its old bed back, that its course shifted, and that a slide came down and closed the notch in the ridge. She has nothing to say about the far-ridge streambed.
 - **Gives:** [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map), [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 
-### Ask her about Pawełek
+### Ask her about Pawelek
 - **Requires:** [Language](../cards/language.md)
 - **Prompted by:** aware:events/pawelek-falls-ill.md
 - **Cost:** 1 time

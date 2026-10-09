@@ -26,9 +26,9 @@ A small scatter of hand-pinched butts, oval, all one brand: Carmen. An aromatic 
 - **Outcome:** Laid side by side, both scatters are the same oval Carmen. The man who haunts the well left the same brand at her threshold.
 - **Gives:** [door-and-well-butts-match](../clues/clues.md#door-and-well-butts-match)
 
-### Compare with the cigarette in Edek's room
-- **When:** Holding the butts and the [single cigarette found in Edek's room](../locations/ciotkas-house/ciotkas-house.md#search-edeks-room); **Finesse**, **Survival**, or **Chainsmoker**
+### Compare with the cigarette in Glupek's room
+- **When:** Holding the butts and the [single cigarette found in Edek's room](../locations/ciotkas-house/ciotkas-house.md#search-glupeks-room); **Finesse**, **Survival**, or **Chainsmoker**
 - **Prompted by:** [butts-at-ciotkas-are-carmen](../clues/clues.md#butts-at-ciotkas-are-carmen)
 - **Cost:** 1 time
-- **Outcome:** Laid side by side, the unsmoked cigarette from the boy's corner is the same oval Carmen as the butts at the door. [@first-name](../characters/glupek.md) does not smoke, so someone gave it to him. Who can be learned by [asking Edek](../characters/glupek.md#ask-edek-about-the-cigarette).
+- **Outcome:** Laid side by side, the unsmoked cigarette from the boy's corner is the same oval Carmen as the butts at the door. [@first-name](../characters/glupek.md) does not smoke, so someone gave it to him. Who can be learned by [asking Edek](../characters/glupek.md#ask-glupek-about-the-cigarette).
 - **Gives:** [edek-has-carmen-cigarette](../clues/clues.md#edek-has-carmen-cigarette)

@@ -1,4 +1,4 @@
-# Paraskewia's List of the Dead
+# Hag's List of the Dead
 
 **Type:** Item — a written roll of names (document / relic)
 **Source:** [@name](../locations/hags-cabin.md), or handed over by [@name](../characters/hag.md) herself if she trusts the players. Also spoken aloud by her, and by [@name](../characters/babcia.md), during [@name](../events/the-ritual.md).

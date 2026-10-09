@@ -1,4 +1,4 @@
-# Edward Barnaś's Unopened Letter
+# Soldier's Unopened Letter
 
 **Type:** Item — letter (unopened, dated 1955)
 **Source:** The attic of [@name](../locations/ciotkas-house/ciotkas-house.md) — [@name](../characters/soldier.md)'s old house

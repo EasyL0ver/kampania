@@ -1,4 +1,4 @@
-# Irena Confronts the Wojewoda
+# Wife Confronts the Wojewoda
 
 **Location:** [@name](../locations/wojewodas-house.md)
 **Present:** [@name](../characters/wojewoda.md), [@name](../characters/wife.md)

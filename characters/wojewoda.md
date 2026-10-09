@@ -141,14 +141,14 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **Outcome:** He says the house is the farm's on paper, built with PGR brick and labour for a young mother with no one to lean on.
 - **Gives:** [`barbara-has-help`](../clues/clues.md#barbara-has-help)
 
-### Ask about Janina's house
+### Ask about Ciotka's house
 - **When:** [@name](../events/wojewodas-ask.md) is underway
 - **Prompted by:** [ciotka-house-is-wojewodas](../clues/clues.md#ciotka-house-is-wojewodas)
 - **Cost:** 1 time
 - **Outcome:** He says the house was abandoned, left to the state, and administered by the farm; he put [@first-name](ciotka.md) in it because she keeps the boy and the place.
 - **Gives:** [`ciotka-house-is-pgrs`](../clues/clues.md#ciotka-house-is-pgrs)
 
-### Show the paperwork for Janina's house
+### Show the paperwork for Ciotka's house
 - **When:** [@name](../events/wojewodas-ask.md) is underway
 - **Prompted by:** [house-belonged-to-edward-senior](../clues/clues.md#house-belonged-to-edward-senior), [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs)
 - **Cost:** 1 time

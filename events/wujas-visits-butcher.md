@@ -1,4 +1,4 @@
-# Tadek Visits the Butcher
+# Wujas Visits the Butcher
 
 **Location:** [@name](../locations/butchers-house.md)
 **Present:** [@name](../characters/wujas.md), [@name](../characters/butcher.md)

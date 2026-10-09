@@ -77,17 +77,17 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ## Actions
 
-### Build with Pawełek
+### Build with Pawelek
 - **When:** Morning or afternoon, [@first-name](pawelek.md) playing with stones, and **Handiwork**
 - **Outcome:** The player helps him build the circular pattern he has been copying from memory. An engineer recognizes the pattern as a well rim.
 - **Gives:** [pawelek-wanders-to-old-village](../clues/clues.md#pawelek-wanders-to-old-village), aware:locations/old-village-ruins.md
 
-### Play cops with Pawełek
+### Play cops with Pawelek
 - **Requires:** [Violence](../cards/violence.md)
 - **Outcome:** Through play, he acts out men around a fire, shouting, bottles, and bad guys hiding in the forest.
 - **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
 
-### Speak Lemko with Pawełek
+### Speak Lemko with Pawelek
 - **Requires:** [Language](../cards/language.md)
 - **Outcome:** He recognizes the speech as like Babcia's and like the lady's. He repeats softer words from an old woman in the forest who has been kind to him.
 - **Gives:** aware:characters/hag.md
@@ -98,7 +98,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 - **Outcome:** He mentions, offhand, that you can't get through the notch in the hill anymore because it all fell down in a big pile of rocks. The lady showed him.
 - **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 
-### Play with Pawełek
+### Play with Pawelek
 - **Cost:** 1 time
 - **Outcome:** The player spends time with him in chase, hide-and-seek, or throwing stones at a tree. He is delighted that an adult plays with him.
 - **Changes:** [Play with him](#pawelek-play)

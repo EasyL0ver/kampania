@@ -1,4 +1,4 @@
-# Funeral Mass — Janina Gajda
+# Funeral Mass — Ciotka
 
 **Location:** [@name](../locations/the-church.md)
 **Present:** [@name](../characters/priest.md), [@name](../characters/wojewoda.md), [@name](../characters/matrona.md), [@name](../characters/wujas.md), [@name](../characters/ciotka.md)'s coffin, village congregation

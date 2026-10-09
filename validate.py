@@ -734,6 +734,10 @@ _entity_titles: list[tuple[str, re.Pattern]] | None = None
 HONORIFICS = {"ks.", "por.", "prof.", "kpt.", "dr", "pan", "pani"}
 
 
+_character_names: set[str] = set()
+NAME_FIELD_LINE = re.compile(r"^- \*\*(First name|Surname|Nickname|Maiden name|Title):\*\*")
+
+
 def entity_titles():
     """(name, pattern) for every character, location, event and item title, plus each character's
     first name and surname where only one character has it. Longest first."""
@@ -748,12 +752,16 @@ def entity_titles():
                 if not t:
                     continue
                 names.add(t)
+                if k == "characters":
+                    _character_names.add(t)
                 if k == "characters" and not t.startswith("%"):
                     words = [w for w in re.sub(r"\(.*?\)", "", t).split() if w.lower() not in HONORIFICS]
                     if len(words) >= 2:
                         for w in (words[0], words[-1]):
                             alias_owners.setdefault(w, set()).add(t)
-        names |= {w for w, owners in alias_owners.items() if len(owners) == 1 and len(w) > 2}
+        unique = {w for w, owners in alias_owners.items() if len(owners) == 1 and len(w) > 2}
+        names |= unique
+        _character_names.update(unique)
         _entity_titles = [(n, re.compile(r"(?<![\w%])" + re.escape(n) + r"(?![\w%])"))
                           for n in sorted(names, key=len, reverse=True)]
     return _entity_titles
@@ -859,12 +867,17 @@ def alias_only(f: MdFile):
         bare = re.sub(r"aware:\S+|`[^`(][^`]*`", lambda m: " " * len(m.group(0)), bare)
         if f.rel == "clues/clues.md" and t.startswith("### "):
             continue          # a clue id may contain aliases
+        if NAME_FIELD_LINE.match(t) or (line == f.title_line and f.kind == "characters"):
+            continue          # the name's own source: a character's title and name fields
+        heading = t.startswith("#")   # headings are labels: aliases allowed, character names not
         for alias, pattern in entity_aliases():
-            if alias != f.path.stem and pattern.search(bare):
+            if heading:
+                bare = pattern.sub(lambda m: " " * len(m.group(0)), bare)
+            elif alias != f.path.stem and pattern.search(bare):
                 yield line, f"alias '{alias}' written as text: use [@name](...) to its file"
                 bare = pattern.sub(lambda m: " " * len(m.group(0)), bare)
         for title, pattern in entity_titles():
-            if title == own:
+            if title == own or (heading and title not in _character_names):
                 continue
             if pattern.search(bare):
                 yield line, f"'{title}' is written out: use [@name](...) to its file"
