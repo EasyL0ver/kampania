@@ -1,7 +1,7 @@
 # Propaganda Leaflet
 
 **Type:** Item — keepsake (state propaganda sheet)
-**Source:** Among the dead soldier's things in the [@name](edek-box.md), and tucked among Rezeń's things in the [@name](../locations/butchers-house.md)
+**Source:** Among the dead soldier's things in the [@name](edek-box.md), and tucked among [@surname](../characters/butcher.md)'s things in the [@name](../locations/butchers-house.md)
 **Carried:** Evidence. State propaganda, the kind issued to the men who fought the partisans.
 
 ## Hook

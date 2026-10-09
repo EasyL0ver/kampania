@@ -7,7 +7,7 @@
 ## Trigger
 
 - The village is cut off by floodwater.
-- The players use the phone in Zbigniew's office.
+- The players use the phone in [@first-name](../characters/wojewoda.md)'s office.
 - The players ask the exchange to connect them to outside help.
 - The call routes through the same town exchange used by earlier long-distance calls.
 
@@ -38,8 +38,8 @@ A clear voice answering from the telephone exchange while floodwater cuts the vi
 - **When:** On the line with her
 - **Prompted by:** [operator-is-jagna](../clues/clues.md#operator-is-jagna)
 - **Cost:** 1 time
-- **Outcome:** The committee puts her name to the voice: Hania. If they are only guessing, saying her name, her father's, or the well buys one caught breath before she resumes procedure, deniable and not repeatable. Once they know the operator is [@name](../characters/jagna.md) and name her as such, she stops pretending: she does not deny it, does not hang up, and the flat clerk's indifference turns quiet, personal, and vengeful. The rescue does not change; every word after is between the committee and Hania.
-- **Changes:** [Mechanics](#mechanics) — the operator drops the clerk and answers as Hania
+- **Outcome:** The committee puts her name to the voice: [@first-name](../characters/jagna.md). If they are only guessing, saying her name, her father's, or the well buys one caught breath before she resumes procedure, deniable and not repeatable. Once they know the operator is [@name](../characters/jagna.md) and name her as such, she stops pretending: she does not deny it, does not hang up, and the flat clerk's indifference turns quiet, personal, and vengeful. The rescue does not change; every word after is between the committee and [@first-name](../characters/jagna.md).
+- **Changes:** [Mechanics](#mechanics) — the operator drops the clerk and answers as [@first-name](../characters/jagna.md)
 
 ### Tell her Edek, her brother, is alive and trapped
 - **When:** [@name](../characters/glupek.md) has fled to the [@name](../locations/upa-bunker.md) after [@name](ciotka-found-dead/ciotka-found-dead.md)
@@ -57,16 +57,16 @@ A clear voice answering from the telephone exchange while floodwater cuts the vi
 ## Mechanics
 
 **Anonymity:** anonymous until the committee knows the voice is [@name](../characters/jagna.md) (**Name her**), which turns her indifference vengeful.
-**Willingness:** withholding, and opens only after she is known as Hania, then **Tell her Edek, her brother, is alive and trapped** opens rescue calls or **Name her family's killers** opens exposure calls ([@name](the-report.md)).
+**Willingness:** withholding, and opens only after she is known as [@first-name](../characters/jagna.md), then **Tell her [@first-name](../characters/glupek.md), her brother, is alive and trapped** opens rescue calls or **Name her family's killers** opens exposure calls ([@name](the-report.md)).
 
 ## Exits
 
 - Return to [@name](the-flood.md) with the ordinary rescue route closed.
 - Continue to [@name](the-report.md), if the players use the line to put the truth outside the valley.
-- Follow the Edek route toward the [@name](../locations/upa-bunker.md), if the call turns on his survival.
+- Follow the [@first-name](../characters/glupek.md) route toward the [@name](../locations/upa-bunker.md), if the call turns on his survival.
 
 ## If Missed
 
 - If the players never call out, the operator never has to refuse them directly.
-- If the players beg without reaching her through Edek or retribution, the line remains formally open and practically useless.
+- If the players beg without reaching her through [@first-name](../characters/glupek.md) or retribution, the line remains formally open and practically useless.
 - The flood eventually brings down a pole and ends the connection.

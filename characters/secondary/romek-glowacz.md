@@ -4,7 +4,7 @@
 
 ## Hook
 
-- Romek Głowacz, a village drunk, one of [@name](../wujas.md)'s drinking crew.
+- [@first-name](romek-glowacz.md) [@surname](romek-glowacz.md), a village drunk, one of [@name](../wujas.md)'s drinking crew.
 
 ## Vital Statistics
 

@@ -4,7 +4,7 @@
 
 ## Hook
 
-Stefania Kopacz, an elderly woman living with Barbara and Pawełek.
+[@first-name](babcia.md) [@surname](babcia.md), an elderly woman living with [@first-name](barbara.md) and [@first-name](pawelek.md).
 
 ## Vital Statistics
 
@@ -48,12 +48,12 @@ When her attention fixes on someone, the room feels smaller. The same mouth that
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** She answers with dead names, slips into Lemko, or orders you out. [@name](barbara.md) supplies the household details instead.
-- **Changes:** [Census](../items/census.md#census) — Stefania Kopacz, in the Kopacz household
+- **Changes:** [Census](../items/census.md#census) — [@first-name](babcia.md) [@surname](babcia.md), in the Kopacz household
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** She owns nothing and lives in her daughter's house. If she registers the question, she waves it off as none of your business.
-- **Changes:** [Property Record](../items/census.md#property-record) — no property held, dependent in Barbara Kopacz's house
+- **Changes:** [Property Record](../items/census.md#property-record) — no property held, dependent in [@name](barbara.md)'s house
 
 ## Bond
 

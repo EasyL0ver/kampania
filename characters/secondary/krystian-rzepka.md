@@ -4,7 +4,7 @@
 
 ## Hook
 
-- Krystian Rzepka, the youngest Rzepka child, altar boy at the church.
+- [@first-name](krystian-rzepka.md) [@surname](krystian-rzepka.md), the youngest Rzepka child, altar boy at the church.
 
 ## Vital Statistics
 
@@ -18,7 +18,7 @@
 
 ## Character
 
-Krystian Rzepka serves at the church with ks. Władysław Pająk. He is innocent, observant, and loyal first to Helena Rzepka.
+[@first-name](krystian-rzepka.md) [@surname](krystian-rzepka.md) serves at the church with [@name](../priest.md). He is innocent, observant, and loyal first to [@first-name](../matrona.md) [@surname](../matrona.md).
 
 ## Appearance
 

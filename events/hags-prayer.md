@@ -9,7 +9,7 @@
 - Middle of the night.
 - Players are at [@name](../locations/barbaras-house.md) or outside in the village.
 - Fires every night as long as [@name](../characters/hag.md) is alive.
-- Does not fire once Paraskewia turns hostile (see her [Hostility](../characters/hag.md#village-hostility) mechanic); she stops coming to the well.
+- Does not fire once [@first-name](../characters/hag.md) turns hostile (see her [Hostility](../characters/hag.md#village-hostility) mechanic); she stops coming to the well.
 
 ## Hook
 
@@ -19,7 +19,7 @@
 
 - Following the singing leads to the [@name](../locations/old-village-cerkiew.md).
 - The ruined nave is dark but for her candles and a low fire; incense, bread, and honey are set on the stones.
-- Paraskewia Chyłak stands over the well, singing the names of the dead; the sound carries off the bare stone.
+- [@name](../characters/hag.md) stands over the well, singing the names of the dead; the sound carries off the bare stone.
 - The instant she sees or hears the players, the singing stops and she is gone into the forest.
 
 ## Opportunities
@@ -37,7 +37,7 @@
 ### Sneak closer and watch
 - **Requires:** [Finesse](../cards/finesse.md)
 - **Cost:** 1 time
-- **Outcome:** You creep closer through the dark, near enough to the well to watch Paraskewia perform the full rite unseen: fire, incense, bread, honey, and the names of the dead sung one by one.
+- **Outcome:** You creep closer through the dark, near enough to the well to watch [@first-name](../characters/hag.md) perform the full rite unseen: fire, incense, bread, honey, and the names of the dead sung one by one.
 - **Gives:** [hag-performs-rite](../clues/clues.md#hag-performs-rite)
 
 ### Chase after her
@@ -47,7 +47,7 @@
 
 ## Mechanics
 
-- Paraskewia cannot be caught, cornered, or spoken to here. The moment she is noticed, she flees, and pursuit fails in the dark. Contact must be made later, at her [@name](../locations/hags-cabin.md).
+- [@first-name](../characters/hag.md) cannot be caught, cornered, or spoken to here. The moment she is noticed, she flees, and pursuit fails in the dark. Contact must be made later, at her [@name](../locations/hags-cabin.md).
 
 ## Exits
 

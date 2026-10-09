@@ -19,11 +19,11 @@ The edge of %NEW_VILLAGE%, nearest the forest path toward %OLD_VILLAGE%.
 - **Dogs:** The dogs growl low instead of barking.
 - **Dogs:** One dog limps from an old bad heal.
 - **Dogs:** One dog flinches when a hand rises.
-- **Rezeń:** If home, [@name](../characters/butcher.md) reaches the door before visitors knock.
-- **Rezeń:** He chain-smokes and leaves burn marks on the doorframe.
-- **Rezeń:** He picks at scabs, scratches himself, and turns a knife in one hand.
-- **Rezeń:** His friendliness is too eager and he watches faces closely.
-- **Rezeń:** He makes lingering personal comments about female player characters.
+- **[@surname](../characters/butcher.md):** If home, [@name](../characters/butcher.md) reaches the door before visitors knock.
+- **[@surname](../characters/butcher.md):** He chain-smokes and leaves burn marks on the doorframe.
+- **[@surname](../characters/butcher.md):** He picks at scabs, scratches himself, and turns a knife in one hand.
+- **[@surname](../characters/butcher.md):** His friendliness is too eager and he watches faces closely.
+- **[@surname](../characters/butcher.md):** He makes lingering personal comments about female player characters.
 - **Path:** A worn track runs from the back door into the forest.
 - **Path:** The mud on the track is usually fresh.
 - **Path:** The track leads toward [@name](old-village-ruins.md) and [the well](../story-facts/the-well.md).
@@ -46,23 +46,23 @@ The edge of %NEW_VILLAGE%, nearest the forest path toward %OLD_VILLAGE%.
 
 ### Observe from distance
 - **When:** Concealment or a safe vantage point
-- **Outcome:** Rezeń leaves at dawn, dusk, or night by the forest path and returns with mud on his hands and scraped knuckles.
+- **Outcome:** [@surname](../characters/butcher.md) leaves at dawn, dusk, or night by the forest path and returns with mud on his hands and scraped knuckles.
 - **Gives:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
 
 ### Follow into forest
-- **When:** Rezeń leaves by the forest path
+- **When:** [@surname](../characters/butcher.md) leaves by the forest path
 - **Cost:** 1 time
-- **Outcome:** Rezeń goes to the well, sits on the rim, clears debris from the mouth, and listens down into it.
+- **Outcome:** [@surname](../characters/butcher.md) goes to the well, sits on the rim, clears debris from the mouth, and listens down into it.
 - **Gives:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
 
 ### Follow into forest at night
-- **When:** Rezeń leaves at night carrying a dead dog
+- **When:** [@surname](../characters/butcher.md) leaves at night carrying a dead dog
 - **Cost:** 1 time
-- **Outcome:** Rezeń carries the dead dog to the well and drops the carcass into it.
+- **Outcome:** [@surname](../characters/butcher.md) carries the dead dog to the well and drops the carcass into it.
 - **Gives:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
 
 ### Search the house
-- **When:** Rezeń absent; door unlocked
+- **When:** [@surname](../characters/butcher.md) absent; door unlocked
 - **Cost:** 1 time
 - **Outcome:** The players find modified blades, a KBW military knife, the hidden KBW rifle, the folded propaganda leaflet, old blood smell in the wood, and a woman's undergarments in the bench-bed drawer; the military evidence cross-references [@name](ciotkas-house/ciotkas-house.md).
 - **Gives:** [butcher-has-soldiers-gun](../clues/clues.md#butcher-has-soldiers-gun), [butcher-ex-soldier](../clues/clues.md#butcher-ex-soldier), [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well), [@name](../items/kbw-military-knife.md), [@name](../items/kbw-rifle.md), [@name](../items/womans-undergarments.md), [@name](../items/propaganda-leaflet.md)

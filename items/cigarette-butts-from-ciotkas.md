@@ -10,7 +10,7 @@ A small scatter of rain-softened, hand-pinched cigarette butts.
 
 ## Description
 
-A small scatter of hand-pinched butts, oval, all one brand: Carmen. An aromatic premium smoke, dearer than the Sport and Extra Mocne the village runs on and rarely seen this far out. Rain has swollen them grey and soft. They were dropped at least a day before Janina died, not the night of.
+A small scatter of hand-pinched butts, oval, all one brand: Carmen. An aromatic premium smoke, dearer than the Sport and Extra Mocne the village runs on and rarely seen this far out. Rain has swollen them grey and soft. They were dropped at least a day before [@first-name](../characters/ciotka.md) died, not the night of.
 
 ## Opportunities
 
@@ -30,5 +30,5 @@ A small scatter of hand-pinched butts, oval, all one brand: Carmen. An aromatic 
 - **When:** Holding the butts and the [single cigarette found in Edek's room](../locations/ciotkas-house/ciotkas-house.md#search-edeks-room); **Finesse**, **Survival**, or **Chainsmoker**
 - **Prompted by:** [butts-at-ciotkas-are-carmen](../clues/clues.md#butts-at-ciotkas-are-carmen)
 - **Cost:** 1 time
-- **Outcome:** Laid side by side, the unsmoked cigarette from the boy's corner is the same oval Carmen as the butts at the door. Edek does not smoke, so someone gave it to him. Who can be learned by [asking Edek](../characters/glupek.md#ask-edek-about-the-cigarette).
+- **Outcome:** Laid side by side, the unsmoked cigarette from the boy's corner is the same oval Carmen as the butts at the door. [@first-name](../characters/glupek.md) does not smoke, so someone gave it to him. Who can be learned by [asking Edek](../characters/glupek.md#ask-edek-about-the-cigarette).
 - **Gives:** [edek-has-carmen-cigarette](../clues/clues.md#edek-has-carmen-cigarette)

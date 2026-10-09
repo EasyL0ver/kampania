@@ -18,7 +18,7 @@ The church on the hill in %NEW_VILLAGE%, beside the cemetery.
 - The cemetery is adjacent to the church.
 - The cemetery has a few dozen graves, most weathered.
 - All visible graves are post-1947.
-- Wanda Mazur often kneels beside a freshly tended grave.
+- [@name](../characters/widow.md) often kneels beside a freshly tended grave.
 - A well-tended double grave has fresh flowers, a Polonised surname, and a small three-barred cross partly hidden under lichen.
 - The plebania stands adjacent to the church.
 - The plebania has a stone foundation older than %NEW_VILLAGE%, a kitchen, a study, a spare room with a cot, and a cellar.
@@ -32,18 +32,18 @@ The church on the hill in %NEW_VILLAGE%, beside the cemetery.
 
 ### Talk to Widow at the grave
 - **When:** [@name](../characters/widow.md) present
-- **Outcome:** Wanda talks about her husband, his PGR work, his accident, and her wish that the committee include him in the census.
+- **Outcome:** [@first-name](../characters/widow.md) talks about her husband, his PGR work, his accident, and her wish that the committee include him in the census.
 - **Gives:** [wanda-receives-pension](../clues/clues.md#wanda-receives-pension)
 
 ### Ask Widow about her husband's work
-- **When:** Talked to Wanda Mazur at the grave
-- **Outcome:** Wanda gives her husband's name, PGR role, and death date; the name matches a current worker if players have the ledger worker list.
+- **When:** Talked to [@name](../characters/widow.md) at the grave
+- **Outcome:** [@first-name](../characters/widow.md) gives her husband's name, PGR role, and death date; the name matches a current worker if players have the ledger worker list.
 - **Gives:** [mazur-died-in-the-silo](../clues/clues.md#mazur-died-in-the-silo)
 
 ### Look for Mazur's grave
-- **Outcome:** The freshly tended grave Wanda kneels beside carries Tadeusz Mazur's name and a recent death date.
+- **Outcome:** The freshly tended grave [@first-name](../characters/widow.md) kneels beside carries [@name](../characters/tadeusz-mazur.md)'s name and a recent death date.
 - **Gives:** [mazur-buried-in-cemetery](../clues/clues.md#mazur-buried-in-cemetery)
 
 ### Look for Gajda graves
-- **Outcome:** The well-tended double grave with the Polonised surname belongs to Zbigniew Gajda's parents; a small three-barred cross sits half-hidden under the lichen on it.
+- **Outcome:** The well-tended double grave with the Polonised surname belongs to [@name](../characters/wojewoda.md)'s parents; a small three-barred cross sits half-hidden under the lichen on it.
 - **Gives:** [three-barred-cross-on-gajda-grave](../clues/clues.md#three-barred-cross-on-gajda-grave)

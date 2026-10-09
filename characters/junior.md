@@ -4,7 +4,7 @@
 
 ## Hook
 
-Marek Gajda, the sołtys's hot-tempered young son.
+[@first-name](junior.md) [@surname](junior.md), the sołtys's hot-tempered young son.
 
 ## Vital Statistics
 
@@ -52,7 +52,7 @@ A cigarette is usually between his lips or behind his ear. His studied cool drop
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** He gives his name and age, and treats the interview like a joke. He answers for himself only.
-- **Changes:** [Census](../items/census.md#census) — Marek Gajda, in his father's household
+- **Changes:** [Census](../items/census.md#census) — [@first-name](junior.md) [@surname](junior.md), in his father's household
 
 ### Property assessment
 - **Cost:** 1 time

@@ -25,7 +25,7 @@
 - [@name](../characters/wife.md) goes quiet.
 - [@name](../characters/zofia.md) sets another plate without being asked.
 - [@name](../characters/matrona.md) asks aloud why [@name](../characters/ciotka.md) is not at the table.
-- Someone says Janina begged off; the answer is brushed past quickly.
+- Someone says [@first-name](../characters/ciotka.md) begged off; the answer is brushed past quickly.
 - Attending dinner makes the Gajda household treat the committee as guests rather than only officials.
 - If players engage well, [@name](../characters/wojewoda.md) offers lodging at his house.
 - If players engage well, [@name](../characters/matrona.md) picks the most inquisitive players to stay at hers.
@@ -33,23 +33,23 @@
 
 ## Opportunities
 
-- **Irena watching** `(noticed by: [Finesse](../cards/finesse.md))` — [@name](../characters/wife.md) tracks the committee more closely than the conversation requires. → Gives: [`irena-is-watchful`](../clues/clues.md#irena-is-watchful)
-- **Janina's empty place** `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/matrona.md)'s question about the absent [@name](../characters/ciotka.md) reveals it: Janina begged off, as she always does — the distance is hers. → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
-- **She never misses mass** `(noticed by: [Devotion](../cards/devotion.md))` — Someone at the table notes that Janina keeps her distance from the family but never from the church: she is the most devout in the village and has not missed a Sunday in years. → Gives: [`ciotka-is-devout`](../clues/clues.md#ciotka-is-devout)
-- **Tadek takes to them** `(when: drank with [@name](../characters/wujas.md) during dinner — Physique or Alcoholic)` — loosened and glad of the company, Tadek tells them to come drink with him at the [@name](../locations/the-store.md) any day.
+- **[@first-name](../characters/wife.md) watching** `(noticed by: [Finesse](../cards/finesse.md))` — [@name](../characters/wife.md) tracks the committee more closely than the conversation requires. → Gives: [`irena-is-watchful`](../clues/clues.md#irena-is-watchful)
+- **[@first-name](../characters/ciotka.md)'s empty place** `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/matrona.md)'s question about the absent [@name](../characters/ciotka.md) reveals it: [@first-name](../characters/ciotka.md) begged off, as she always does — the distance is hers. → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
+- **She never misses mass** `(noticed by: [Devotion](../cards/devotion.md))` — Someone at the table notes that [@first-name](../characters/ciotka.md) keeps her distance from the family but never from the church: she is the most devout in the village and has not missed a Sunday in years. → Gives: [`ciotka-is-devout`](../clues/clues.md#ciotka-is-devout)
+- **[@nickname](../characters/wujas.md) takes to them** `(when: drank with [@name](../characters/wujas.md) during dinner — Physique or Alcoholic)` — loosened and glad of the company, [@nickname](../characters/wujas.md) tells them to come drink with him at the [@name](../locations/the-store.md) any day.
 
 ## Actions
 
 ### Drink with Tadek
 - **Requires:** [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md)
 - **When:** [@name](../characters/wujas.md) at the table
-- **Outcome:** You match Tadek glass for glass through the meal without judging him; by the end he is loosened and glad of the company.
-- **Changes:** [Drinking Buddy](../characters/wujas.md#drinking-buddy) — the drinking PCs become Tadek's buddies, invited to the store
+- **Outcome:** You match [@nickname](../characters/wujas.md) glass for glass through the meal without judging him; by the end he is loosened and glad of the company.
+- **Changes:** [Drinking Buddy](../characters/wujas.md#drinking-buddy) — the drinking PCs become [@nickname](../characters/wujas.md)'s buddies, invited to the store
 
 ## Exits
 
 - Out into %NEW_VILLAGE%.
-- To [@name](../locations/the-store.md) if Tadek invited them to drink.
+- To [@name](../locations/the-store.md) if [@nickname](../characters/wujas.md) invited them to drink.
 
 ## If Missed
 

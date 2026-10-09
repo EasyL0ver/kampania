@@ -4,7 +4,7 @@
 
 ## Hook
 
-- Halina Zając, the woman behind the counter at [@name](../matrona.md)'s store.
+- [@first-name](halina-zajac.md) [@surname](halina-zajac.md), the woman behind the counter at [@name](../matrona.md)'s store.
 
 ## Vital Statistics
 
@@ -15,11 +15,11 @@
 - **Age in 1967:** ~35-45
 - **Lives in:** [@name](../../locations/new-village.md)
 - **Settled:** ~1956
-- **Works at:** Helena Rzepka's small general store
+- **Works at:** [@first-name](../matrona.md) [@surname](../matrona.md)'s small general store
 
 ## Character
 
-Halina Zając handles customers, stock, and money at Helena Rzepka's store. She sees village patterns and gossip, resents Helena Rzepka, and struggles with the drunks who linger there.
+[@first-name](halina-zajac.md) [@surname](halina-zajac.md) handles customers, stock, and money at [@first-name](../matrona.md) [@surname](../matrona.md)'s store. She sees village patterns and gossip, resents [@first-name](../matrona.md) [@surname](../matrona.md), and struggles with the drunks who linger there.
 
 ## Appearance
 
@@ -33,7 +33,7 @@ Halina Zając handles customers, stock, and money at Helena Rzepka's store. She 
 - **[@name](szymek-kepa.md)** — "He turns the shop into a sty and expects me to clean around him."
 - **[@name](romek-glowacz.md)** — "Quiet is not the same as harmless."
 - **[@name](franek-mucha.md)** — "If he starts, he will not stop because I ask politely."
-- **[pawelek-needs-penicillin](../../clues/clues.md#pawelek-needs-penicillin)** — "It is in the cabinet, but the key is Helena's, not mine, and I cannot hand out penicillin without a prescription. Take that up with her, not me."
+- **[pawelek-needs-penicillin](../../clues/clues.md#pawelek-needs-penicillin)** — "It is in the cabinet, but the key is [@first-name](../matrona.md)'s, not mine, and I cannot hand out penicillin without a prescription. Take that up with her, not me."
 
 ## Actions
 

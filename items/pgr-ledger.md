@@ -1,7 +1,7 @@
 # PGR Worker Registry
 
 **Type:** Item — farm worker registry (document)
-**Source:** PGR Office desk, via the "Inspect the PGR ledger" action → [@name](../locations/pgr-office.md)
+**Source:** [@name](../locations/pgr-office.md) desk, via the "Inspect the PGR ledger" action → [@name](../locations/pgr-office.md)
 **Carried:** Payroll evidence. Lists a worker who is dead but still drawing wages.
 
 ## Hook

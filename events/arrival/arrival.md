@@ -6,7 +6,7 @@
 
 ## Hook
 
-A car stopping on the muddy road as Zbigniew Gajda comes forward to meet the committee.
+A car stopping on the muddy road as [@name](../../characters/wojewoda.md) comes forward to meet the committee.
 
 ## Setup
 
@@ -28,9 +28,9 @@ A car stopping on the muddy road as Zbigniew Gajda comes forward to meet the com
 
 ### Get out and look around
 - **Prompted by:** aware:locations/new-village.md
-- **Outcome:** Standing on the muddy road, the committee takes in the village: Barbara Kopacz's house at the edge beside Dudka's, and the store where the crew loiters.
+- **Outcome:** Standing on the muddy road, the committee takes in the village: [@name](../../characters/barbara.md)'s house at the edge beside [@surname](../../characters/neighbour.md)'s, and the store where the crew loiters.
 - **Gives:** aware:locations/barbaras-house.md, aware:locations/the-store.md
 
 ## Exits
 
-- Follow Zbigniew to his house: [@name](in-the-office.md).
+- Follow [@first-name](../../characters/wojewoda.md) to his house: [@name](in-the-office.md).

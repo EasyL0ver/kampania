@@ -4,7 +4,7 @@
 
 ## Hook
 
-Zofia Pytlak, the warm, well-liked PGR cook.
+[@first-name](zofia.md) [@surname](zofia.md), the warm, well-liked PGR cook.
 
 ## Vital Statistics
 
@@ -15,11 +15,11 @@ Zofia Pytlak, the warm, well-liked PGR cook.
 - **Age in 1967:** ~47
 - **Heritage:** Polish settler
 - **Lives in:** [@name](../locations/new-village.md) — the Pytlak household near the PGR farm, with [@name](foreman.md), [@name](secondary/staszek-pytlak.md)
-- **Settled:** After 1954 — arrived with Michał Pytlak; no connection to the lynch
+- **Settled:** After 1954 — arrived with [@name](foreman.md); no connection to the lynch
 
 ## Character
 
-PGR cook and the warmest person in the village. She knows about the silo cover-up, wants Michał to tell the truth, and becomes the calm voice for saving the living when the flood comes.
+PGR cook and the warmest person in the village. She knows about the silo cover-up, wants [@first-name](foreman.md) to tell the truth, and becomes the calm voice for saving the living when the flood comes.
 
 ## Appearance
 
@@ -41,22 +41,22 @@ Her carrying voice is warm and practical. As the well takes hold, the smile stay
 ## Opportunities
 
 - **Evacuation clarity** `(when: Prepare the soft landing (evacuation))` `(noticed by: [Empathy](../cards/empathy.md))` — she is not panicking; she has accepted that the water wins and has turned grief into a list of people to save.
-- **Flood-line key** `(when: Send Zofia to Michał (the flood line))` `(noticed by: [Empathy](../cards/empathy.md))` — force and reason will not reach Michał; her voice can.
+- **Flood-line key** `(when: Send [@first-name](zofia.md) to [@first-name](foreman.md) (the flood line))` `(noticed by: [Empathy](../cards/empathy.md))` — force and reason will not reach [@first-name](foreman.md); her voice can.
 
 ## Actions
 
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** She feeds the players first, then answers the household questions plainly and completely.
-- **Changes:** [Census](../items/census.md#census) — Zofia, Michał, Staszek Pytlak
+- **Changes:** [Census](../items/census.md#census) — [@first-name](zofia.md), [@first-name](foreman.md), [@name](secondary/staszek-pytlak.md)
 
 ### Property assessment
 - **Cost:** 1 time
-- **Outcome:** She says they own nothing; the house comes with Michał's PGR post.
+- **Outcome:** She says they own nothing; the house comes with [@first-name](foreman.md)'s PGR post.
 - **Changes:** [Property Record](../items/census.md#property-record) — no property held, PGR-provided housing
 
 ## Bond
 
-- [ ] Listen to her fears about Michał without dismissing them — take her seriously.
+- [ ] Listen to her fears about [@first-name](foreman.md) without dismissing them — take her seriously.
 - [ ] Offer concrete help — "I'll talk to him" or "I'll check on the situation."
 - [ ] Be kind without condescension — talk to her as an equal, not a worried wife to manage.

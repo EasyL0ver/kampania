@@ -38,13 +38,13 @@
 - **The excessive warmth** `(noticed by: [Culture](../cards/culture.md))` — The coffee and generosity manage a threat rather than host guests.
 - **What she never asks** `(noticed by: [Finesse](../cards/finesse.md))` — [@name](../characters/matrona.md) never asks what the players have found.
 - **The shape of her case** `(noticed by: [Finesse](../cards/finesse.md))` — Every practical argument ends at leaving the truth buried. → Gives: [`committee-hides-the-flood`](../clues/clues.md#committee-hides-the-flood)
-- **Emil at the edges** `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/painter.md) flinches at his own name and will not be alone with [@name](../characters/matrona.md) and outsiders.
+- **[@first-name](../characters/painter.md) at the edges** `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/painter.md) flinches at his own name and will not be alone with [@name](../characters/matrona.md) and outsiders.
 
 ## Actions
 
 ### Take the scapegoat — give them Rezeń
 - **Outcome:** The committee names [@name](../characters/butcher.md) in the report as the valley's guilt; the Lemko secret, the 1954 lynch, the forgery, and the massacre stay buried behind his name.
-- **Changes:** [Lynch Targets](../characters/neighbour.md#lynch-targets) — Rezeń becomes Dudka's locked lynch target
+- **Changes:** [Lynch Targets](../characters/neighbour.md#lynch-targets) — [@surname](../characters/butcher.md) becomes [@surname](../characters/neighbour.md)'s locked lynch target
 
 ### Confront her with her own hand
 - **Prompted by:** [matrona-orchestrated-lynch](../clues/clues.md#matrona-orchestrated-lynch), [painter-heard-matrona](../clues/clues.md#painter-heard-matrona)

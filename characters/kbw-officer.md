@@ -4,7 +4,7 @@
 
 ## Hook
 
-- kpt. Henryk Ćwiek, a KBW officer, dead since 1947.
+- [@title](kbw-officer.md) [@first-name](kbw-officer.md) [@surname](kbw-officer.md), a KBW officer, dead since 1947.
 
 ## Vital Statistics
 

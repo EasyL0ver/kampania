@@ -4,7 +4,7 @@
 
 ## Hook
 
-Marta Konieczna, the woman who lived with [@name](soldier.md); gone with the family since 1954.
+[@first-name](marta-konieczna.md) [@surname](marta-konieczna.md), the woman who lived with [@name](soldier.md); gone with the family since 1954.
 
 ## Vital Statistics
 
@@ -19,7 +19,7 @@ Marta Konieczna, the woman who lived with [@name](soldier.md); gone with the fam
 
 ## Character
 
-Edek and Hania's mother, and Edward's partner though never his wife. She kept her surname, Konieczna, which is why no "Barnaś" wife appears in any village record. The men killed her in the house the night of the lynch; [@name](butcher.md) carried her body to the old well. Her identity as Edek's mother is buried with her.
+[@first-name](glupek.md) and [@first-name](jagna.md)'s mother, and [@first-name](soldier.md)'s partner though never his wife. She kept her surname, [@surname](marta-konieczna.md), which is why no "Barnaś" wife appears in any village record. The men killed her in the house the night of the lynch; [@name](butcher.md) carried her body to the old well. Her identity as [@first-name](glupek.md)'s mother is buried with her.
 
 ## Appearance
 

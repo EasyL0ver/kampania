@@ -19,7 +19,7 @@ The village drunk who was once its schoolteacher, loud against the authorities t
 
 ## Character
 
-The village drunk was once its schoolteacher, until the state took the post and gave him a few years inside for "agitation." Now he drinks Tadek's bimber, listens to Radio Wolna Europa through the jamming, and tells anyone who will listen that the authorities are lying. He is right often enough to be useful and drunk enough that nobody trusts him.
+The village drunk was once its schoolteacher, until the state took the post and gave him a few years inside for "agitation." Now he drinks [@nickname](wujas.md)'s bimber, listens to Radio Wolna Europa through the jamming, and tells anyone who will listen that the authorities are lying. He is right often enough to be useful and drunk enough that nobody trusts him.
 
 ## Appearance
 
@@ -33,7 +33,7 @@ He talks in a teacher's cadence, reaches for clever phrases, half-remembers Lati
 
 - **[@name](wojewoda.md)** — "He is our little tsar. He runs to the man in the black car, comes back with orders, and everyone pretends not to see it."
 - **[@name](officer.md)** — "Bezpieka. I have never spoken to him and never will, but I know what he is."
-- **[@name](priest.md)** — "He sold his silence like everyone else. The Church was supposed to be the one thing they could not buy."
+- **[@name](priest.md)** — "He sold his silence like everyone else. [@name](../locations/the-church.md) was supposed to be the one thing they could not buy."
 - **[@name](wujas.md)** — "He is my one honest friend, God help us both. I drink with his crew at the still for the bottle and the talk."
 - **[@name](../locations/village-outskirts.md)** — "They built it on nothing and called it progress. Now they will drown it and call that progress too."
 - **[new-village-will-flood](../clues/clues.md#new-village-will-flood)** — "They knew. Of course they knew. When has the state ever not known and told us anyway?"
@@ -45,7 +45,7 @@ He talks in a teacher's cadence, reaches for clever phrases, half-remembers Lati
 He broadcasts constantly and mixes truth with rubbish. The GM should keep the ratio deliberate: most of what he says is froth, a little is gold, and he cannot tell the difference himself.
 
 **True and safely contained:**
-- Tadek's crew runs a still out in the forest → [`drinking-crew-heads-to-forest`](../clues/clues.md#drinking-crew-heads-to-forest)
+- [@nickname](wujas.md)'s crew runs a still out in the forest → [`drinking-crew-heads-to-forest`](../clues/clues.md#drinking-crew-heads-to-forest)
 - He drank with the last survey crew when they passed through and watched them do nothing but empty bottles → [`geologists-were-drinking`](../clues/clues.md#geologists-were-drinking), and the teacher in him read how little work backed their filed report → [`original-report-is-thin`](../clues/clues.md#original-report-is-thin) once players are working the survey
 
 **True observation, paranoid conclusion:**
@@ -64,13 +64,13 @@ He knows the official history, that the old village was Lemko and was cleared in
 ## Actions
 
 ### Ask where the good bimber comes from
-- **Outcome:** He points the player toward Tadek's crew and the treeline without coaxing.
+- **Outcome:** He points the player toward [@nickname](wujas.md)'s crew and the treeline without coaxing.
 - **Gives:** [`drinking-crew-heads-to-forest`](../clues/clues.md#drinking-crew-heads-to-forest)
 
 ### What the last survey crew really did
 - **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Cost:** 1 time
-- **Outcome:** Ask him about the survey and he lights up: the last crew who came to re-check the ground drank at Tadek's still for the best part of a week, drove a few stakes by the road, and left. "They surveyed the bottom of a bottle, and the state signed it." Drunk testimony, but he watched it happen, and the teacher in him read exactly how little work went into what they filed.
+- **Outcome:** Ask him about the survey and he lights up: the last crew who came to re-check the ground drank at [@nickname](wujas.md)'s still for the best part of a week, drove a few stakes by the road, and left. "They surveyed the bottom of a bottle, and the state signed it." Drunk testimony, but he watched it happen, and the teacher in him read exactly how little work went into what they filed.
 - **Gives:** [`geologists-were-drinking`](../clues/clues.md#geologists-were-drinking), [`original-report-is-thin`](../clues/clues.md#original-report-is-thin)
 
 ### Why he says they did it on purpose

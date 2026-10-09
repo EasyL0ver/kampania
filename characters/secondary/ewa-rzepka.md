@@ -4,7 +4,7 @@
 
 ## Hook
 
-- Ewa Rzepka, the eldest child of [@name](../matrona.md) and [@name](../painter.md).
+- [@first-name](ewa-rzepka.md) [@surname](ewa-rzepka.md), the eldest child of [@name](../matrona.md) and [@name](../painter.md).
 
 ## Vital Statistics
 
@@ -18,7 +18,7 @@
 
 ## Character
 
-Ewa Rzepka is worried about Emil Rzepka and sees how fragile he has become. Her concern makes her a possible crack in Helena Rzepka's control.
+[@first-name](ewa-rzepka.md) [@surname](ewa-rzepka.md) is worried about [@name](../painter.md) and sees how fragile he has become. Her concern makes her a possible crack in [@first-name](../matrona.md) [@surname](../matrona.md)'s control.
 
 ## Appearance
 

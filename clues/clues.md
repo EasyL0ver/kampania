@@ -16,10 +16,10 @@ A clue may also be **synthesized**: add `**Synthesis:** clue-a + clue-b` under i
 The three-barred cross is a Greek Catholic symbol — Lemko, not Roman Catholic. Seeing one on a headstone, icon, or object means the owner was Lemko.
 
 ### three-barred-cross-on-gajda-grave
-The well-tended double grave of Zbigniew Gajda's parents, under its Polonised surname, carries a small three-barred cross half-hidden beneath the lichen.
+The well-tended double grave of [@name](../characters/wojewoda.md)'s parents, under its Polonised surname, carries a small three-barred cross half-hidden beneath the lichen.
 
 ### three-barred-cross-in-babcias-room
-In Barbara Kopacz's house, a small three-barred crucifix hangs above [@name](../characters/babcia.md)'s corner, unlike the Roman cross on the wall.
+In [@name](../characters/barbara.md)'s house, a small three-barred crucifix hangs above [@name](../characters/babcia.md)'s corner, unlike the Roman cross on the wall.
 
 ### three-barred-cross-in-hags-cabin
 A small three-barred crucifix hangs among the icons in [@name](../characters/hag.md)'s cabin.
@@ -84,7 +84,7 @@ The killing was not ordered or planned. Soldiers came to deport the villagers; t
 The massacre was never reported. The soldiers covered it up to hide their failure — a dead captain and an unauthorized massacre meant courts-martial. The village was filed as "evacuated successfully."
 
 ### officer-killed
-A KBW officer — kpt. Henryk Ćwiek — commanded the unit at [@name](../locations/old-village-ruins.md). He was shot dead during the operation. Official records list him as KIA in a separate UPA engagement. The truth was buried with him.
+A KBW officer — [@name](../characters/kbw-officer.md) — commanded the unit at [@name](../locations/old-village-ruins.md). He was shot dead during the operation. Official records list him as KIA in a separate UPA engagement. The truth was buried with him.
 
 ### soldier-was-kbw
 [@name](../characters/soldier.md) was a soldier — he served in the KBW (Korpus Bezpieczeństwa Wewnętrznego), the internal security troops.
@@ -118,7 +118,7 @@ The flood zone was chosen partly to bury the massacre evidence. [@name](../chara
 **Synthesis:** old-village-flooding + officer-warning + massacre-was-covered-up
 
 ### hag-caused-the-massacre
-[@name](../characters/hag.md) was in love with Dmytro Kosach, a UPA soldier, in 1947. The authorities traced the connection back to the village. Dmytro killed the commanding officer. The massacre happened because of her love — twice over.
+[@name](../characters/hag.md) was in love with [@name](../characters/dmytro-kosach.md), a UPA soldier, in 1947. The authorities traced the connection back to the village. [@first-name](../characters/dmytro-kosach.md) killed the commanding officer. The massacre happened because of her love — twice over.
 
 ---
 
@@ -143,14 +143,14 @@ The front door of [@name](../characters/ciotka.md)'s house carries two locks fit
 In the census the boy and his absent father are recorded as Barnaś, while [@name](../characters/ciotka.md), who raises him, is Gajda. She never took his name — read straight, the two were together but never married.
 
 ### ciotka-and-soldier-were-not-together
-[@name](../characters/ciotka.md) and [@name](../characters/soldier.md) were never together. They were not a couple, and Edek is not her son. The village's "they were together" story is false.
+[@name](../characters/ciotka.md) and [@name](../characters/soldier.md) were never together. They were not a couple, and [@first-name](../characters/glupek.md) is not her son. The village's "they were together" story is false.
 **Synthesis:** ciotka-never-married + ciotka-is-devout
 
 ### box-belongs-to-glupek
 The "EDEK" box could be [@name](../characters/glupek.md)'s — his name on the lid, a young man's kept oddments and the risqué photograph the kind a youth hides away.
 
 ### box-belongs-to-soldier
-The "EDEK" box could be [@name](../characters/soldier.md)'s, the soldier who went by Edek too — a grown man's shaving kit, a military medal, and an old house key.
+The "EDEK" box could be [@name](../characters/soldier.md)'s, the soldier who went by [@first-name](../characters/glupek.md) too — a grown man's shaving kit, a military medal, and an old house key.
 
 ### house-belonged-to-edward-senior
 The house [@name](../characters/ciotka.md) lives in was [@name](../characters/soldier.md)'s own. His key from the "EDEK" box turns the front lock, and his things sat boxed in the attic. Not a stranger's home the state handed her — it was his.
@@ -160,7 +160,7 @@ The house [@name](../characters/ciotka.md) lives in was [@name](../characters/so
 On the paperwork, [@name](../characters/soldier.md) signed his house and land over to the state when the family left the village.
 
 ### glupek-forbidden-from-attic
-[@name](../characters/glupek.md)'s toys are kept up in the attic, and he is not allowed to go up for them himself. Janina climbs up and brings them down for him.
+[@name](../characters/glupek.md)'s toys are kept up in the attic, and he is not allowed to go up for them himself. [@first-name](../characters/ciotka.md) climbs up and brings them down for him.
 
 ### roof-built-for-a-dome
 The attic roof is put together from the wrong pieces — shingles and timber shaped and curved to cover a dome, reused flat on this house. To a builder's eye they were made for something round, not this roof.
@@ -178,7 +178,7 @@ Something violent happened one night in 1954. [@name](../characters/wojewoda.md)
 The [@name](../characters/soldier.md) was murdered in 1954 — [@name](../characters/soldier.md) and his household destroyed the night of the lynch, not a family that quietly moved away.
 
 ### matrona-learned-of-affair
-[@name](../characters/matrona.md) found out about the affair between [@name](../characters/jagna.md) and [@name](../characters/painter.md) on her own, and first tried to handle it quietly — she asked Hania, privately, to give Emil up.
+[@name](../characters/matrona.md) found out about the affair between [@name](../characters/jagna.md) and [@name](../characters/painter.md) on her own, and first tried to handle it quietly — she asked [@first-name](../characters/jagna.md), privately, to give [@first-name](../characters/painter.md) up.
 
 ### jagna-painter-affair
 [@name](../characters/jagna.md) and [@name](../characters/painter.md) were lovers. Open secret in the village — everyone knew.
@@ -215,7 +215,7 @@ The [@name](../characters/soldier.md) was murdered in 1954 — [@name](../charac
 [@name](../characters/neighbour.md) buried the ravine remains as [@name](../characters/jagna.md) — to him, the body under the cairn is her.
 
 ### jagna-died-escaping
-[@name](../characters/jagna.md) ran into the forest the night of the lynch and died there, falling to her death on the rocks; the remains [@name](../characters/neighbour.md) buried at the ravine are hers. False lead. The buried woman is far older than Hania ever was, so it cannot be her, and nothing places Hania among the dead.
+[@name](../characters/jagna.md) ran into the forest the night of the lynch and died there, falling to her death on the rocks; the remains [@name](../characters/neighbour.md) buried at the ravine are hers. False lead. The buried woman is far older than [@first-name](../characters/jagna.md) ever was, so it cannot be her, and nothing places [@first-name](../characters/jagna.md) among the dead.
 **Synthesis:** jagna-fled-the-lynch + ravine-remains-a-woman + ravine-remains-died-from-fall
 
 ### jagna-born-1935
@@ -256,10 +256,10 @@ Bone density and joint wear put the woman in the remains at around thirty years 
 [@name](../characters/ciotka.md) doesn't own the house she lives in and says so plainly — it's the sołtys's, [@name](../characters/wojewoda.md) gave it to her, it's his to allocate. She has no title of her own and names her brother as the source. (On paper the same house was signed over to the [@name](../locations/pgr-farm.md) — see [departure-declaration-forged](#departure-declaration-forged). Her answer and the record don't agree.)
 
 ### ciotka-house-is-pgrs
-[@name](../characters/wojewoda.md) says [@name](../characters/ciotka.md)'s house isn't his to give — it was abandoned, left to the state, and the PGR administers it; he only allocated it to her. His account and Janina's ("it's the sołtys's") don't agree.
+[@name](../characters/wojewoda.md) says [@name](../characters/ciotka.md)'s house isn't his to give — it was abandoned, left to the state, and the PGR administers it; he only allocated it to her. His account and [@first-name](../characters/ciotka.md)'s ("it's the sołtys's") don't agree.
 
 ### departure-declaration-forged
-The document that recorded the Barnaś family's "departure" and handed their house and land to the [@name](../locations/pgr-farm.md) is a forgery. It carries [@name](../characters/soldier.md)'s signature — but Edward was already dead when it was filed, weeks after the 1954 lynch. Someone forged his hand to make the family's disappearance read as a voluntary move west. The paper is what let the "they moved away" story stand.
+The document that recorded the Barnaś family's "departure" and handed their house and land to the [@name](../locations/pgr-farm.md) is a forgery. It carries [@name](../characters/soldier.md)'s signature — but [@first-name](../characters/soldier.md) was already dead when it was filed, weeks after the 1954 lynch. Someone forged his hand to make the family's disappearance read as a voluntary move west. The paper is what let the "they moved away" story stand.
 
 ### pgr-established-in-56
 The PGR state farm in %NEW_VILLAGE% was not established until 1956, two years after the Barnaś family supposedly departed.
@@ -289,7 +289,7 @@ The night of the lynch, four-year-old [@name](../characters/glupek.md) wouldn't 
 [@name](../characters/butcher.md) took the rifle off [@name](../characters/soldier.md)'s body that night and kept it — the KBW rifle from the night of the lynch. It's still in his house.
 
 ### butcher-ex-soldier
-The KBW knife, the KBW rifle, and the state propaganda leaflet in [@name](../characters/butcher.md)'s house make him look like an ex-soldier who served against the partisans. False lead. Rezeń never served — he stripped the kit off [@name](../characters/soldier.md)'s body the night of the 1954 lynch.
+The KBW knife, the KBW rifle, and the state propaganda leaflet in [@name](../characters/butcher.md)'s house make him look like an ex-soldier who served against the partisans. False lead. [@surname](../characters/butcher.md) never served — he stripped the kit off [@name](../characters/soldier.md)'s body the night of the 1954 lynch.
 
 ### butcher-dumped-the-body
 It was [@name](../characters/butcher.md) who put [@name](../characters/soldier.md)'s body down the old well in [@name](../locations/old-village-ruins.md) the night of the 1954 lynch — he carried the dead man to the well and dropped him in among the 1947 remains.
@@ -329,7 +329,7 @@ Under pressure [@name](../characters/butcher.md) doesn't rage — he goes cold. 
 ## The Well
 
 ### butcher-heads-toward-forest
-Stanisław Rezeń is often seen heading toward the forest, alone, always in the same direction. He's going somewhere specific.
+[@name](../characters/butcher.md) is often seen heading toward the forest, alone, always in the same direction. He's going somewhere specific.
 
 ### butcher-dumps-carcasses-in-well
 [@name](../characters/butcher.md) drops animal carcasses and slaughter scraps down the well — the offcuts of his trade, fed to the well between the times he has nothing else to give it.
@@ -406,7 +406,7 @@ The second coffee cup was not [@name](../characters/glupek.md)'s; he will not dr
 **Synthesis:** two-coffee-cups + glupek-wont-drink-coffee
 
 ### glupek-wont-drink-coffee
-[@name](../characters/glupek.md) will not drink coffee. The bitterness baffles him; offered a cup, he flinches and leaves it. In that house, coffee is Janina's alone.
+[@name](../characters/glupek.md) will not drink coffee. The bitterness baffles him; offered a cup, he flinches and leaves it. In that house, coffee is [@first-name](../characters/ciotka.md)'s alone.
 
 ### glupek-fled-into-forest
 Large bare footprints lead from [@name](../characters/ciotka.md)'s house toward the treeline and vanish where the canopy begins. [@name](../characters/glupek.md) fled into the forest the night she died.
@@ -436,7 +436,7 @@ The [@name](../items/bayonet.md) [@name](../characters/glupek.md) hid among his 
 [@name](../characters/junior.md) visited [@name](../characters/ciotka.md) the day before she died and pressed her hard about his mother [@name](../characters/wife.md)'s secret investigation into the family. He wanted her to tell the truth, not to silence her.
 
 ### ciotka-told-edek-the-truth
-Before she died, [@name](../characters/ciotka.md) told [@name](../characters/glupek.md) the truth: the people of this village killed his father [@name](../characters/soldier.md), and Edek is the living proof. The reveal broke him.
+Before she died, [@name](../characters/ciotka.md) told [@name](../characters/glupek.md) the truth: the people of this village killed his father [@name](../characters/soldier.md), and [@first-name](../characters/glupek.md) is the living proof. The reveal broke him.
 
 ### butts-at-ciotkas-are-carmen
 The cigarette butts from [@name](../characters/ciotka.md)'s door are Carmen, a premium brand rarely seen this far out.
@@ -448,10 +448,10 @@ The cigarette butts from [@name](../characters/ciotka.md)'s door are Carmen, a p
 [@name](../characters/butcher.md) smokes Carmen, a premium brand.
 
 ### edek-has-carmen-cigarette
-An unsmoked Carmen cigarette is hidden in [@name](../characters/glupek.md)'s corner. Edek does not smoke.
+An unsmoked Carmen cigarette is hidden in [@name](../characters/glupek.md)'s corner. [@first-name](../characters/glupek.md) does not smoke.
 
 ### rezen-gave-edek-cigarette
-[@name](../characters/butcher.md) gave [@name](../characters/glupek.md) the Carmen cigarette. Rezeń is fond of the boy and slips him food and small gifts.
+[@name](../characters/butcher.md) gave [@name](../characters/glupek.md) the Carmen cigarette. [@surname](../characters/butcher.md) is fond of the boy and slips him food and small gifts.
 
 ### tadek-smokes-cheapest
 [@name](../characters/wujas.md) smokes Sport, the cheapest brand. He does not smoke Carmen.
@@ -463,7 +463,7 @@ The Carmen butts from [@name](../characters/ciotka.md)'s door and the Carmen but
 [@name](../characters/priest.md) secretly smokes. He hides the habit.
 
 ### priest-smokes-carmen
-[@name](../characters/priest.md) secretly smokes Carmen, the same premium brand as Junior and Rezeń. He hides the habit.
+[@name](../characters/priest.md) secretly smokes Carmen, the same premium brand as Junior and [@surname](../characters/butcher.md). He hides the habit.
 
 ### junior-lingered-at-ciotkas-house
 The Carmen butts at [@name](../characters/ciotka.md)'s door match [@name](../characters/junior.md)'s brand. He was at her house shortly before she died.
@@ -478,7 +478,7 @@ The Carmen butts at [@name](../characters/ciotka.md)'s door match [@name](../cha
 **Synthesis:** priest-smokes-carmen + butts-at-ciotkas-are-carmen
 
 ### glupek-smokes
-A Carmen cigarette hides in [@name](../characters/glupek.md)'s corner and Carmen butts litter the door: it looks like Edek is the smoker. False lead. The butts were [@name](../characters/junior.md)'s and the cigarette was a gift; Edek does not smoke.
+A Carmen cigarette hides in [@name](../characters/glupek.md)'s corner and Carmen butts litter the door: it looks like [@first-name](../characters/glupek.md) is the smoker. False lead. The butts were [@name](../characters/junior.md)'s and the cigarette was a gift; [@first-name](../characters/glupek.md) does not smoke.
 **Synthesis:** edek-has-carmen-cigarette + butts-at-ciotkas-are-carmen
 
 ### covered-mirrors
@@ -498,7 +498,7 @@ Someone is helping [@name](../characters/barbara.md). The house, the firewood, t
 [@name](../characters/barbara.md) names [@name](../characters/junior.md) as [@name](../characters/pawelek.md)'s father under pressure. She believes it's true. It's not — the real father is [@name](../characters/wujas.md).
 
 ### wujas-slept-with-barbara
-[@name](../characters/wujas.md) slept with [@name](../characters/barbara.md) once. Neither of them talks about it. Barbara was also with [@name](../characters/junior.md) and assumes Marek is the father. Tadek doesn't even consider the possibility. It was one night.
+[@name](../characters/wujas.md) slept with [@name](../characters/barbara.md) once. Neither of them talks about it. [@first-name](../characters/barbara.md) was also with [@name](../characters/junior.md) and assumes [@first-name](../characters/junior.md) is the father. [@nickname](../characters/wujas.md) doesn't even consider the possibility. It was one night.
 
 ### wujas-is-paweleks-father
 [@name](../characters/wujas.md) is [@name](../characters/pawelek.md)'s father.
@@ -525,7 +525,7 @@ Someone is helping [@name](../characters/barbara.md). The house, the firewood, t
 [@name](../characters/junior.md) drinks with [@name](../characters/wujas.md)'s crew away from his father — a rebellious kid blowing off the sołtys, not a man on cover-up business.
 
 ### wujas-is-guilty
-Tadek Gajda is guilty of something terrible. He's been drinking to forget for 13 years and the guilt is visibly destroying him.
+[@name](../characters/wujas.md) is guilty of something terrible. He's been drinking to forget for 13 years and the guilt is visibly destroying him.
 
 ### matrona-controls-painter
 [@name](../characters/matrona.md) keeps [@name](../characters/painter.md) broken, dependent, and terrified. He knows the truth. She's made sure he'll never speak it.
@@ -553,13 +553,13 @@ The blue dress kept in [@name](../characters/ciotka.md)'s house belonged to the 
 A small child's rattle is kept in [@name](../characters/ciotka.md)'s house. A baby lived here once.
 
 ### lemko-bell-from-the-cerkiew
-The brass bell from Janina's attic is the missing fitting of the %OLD_VILLAGE% cerkiew.
+The brass bell from [@first-name](../characters/ciotka.md)'s attic is the missing fitting of the %OLD_VILLAGE% cerkiew.
 
 ### lemko-bell-in-ciotkas-house
 A small brass Greek Catholic liturgical bell with Cyrillic lettering is hidden in [@name](../characters/ciotka.md)'s house. An Eastern-rite object, out of place in a Roman Catholic home.
 
 ### ciotka-moved-in-after-they-were-gone
-[@name](../characters/ciotka.md) wasn't always in that house. A family lived there before — the Barnaś family. They left, and Janina moved in with the boy.
+[@name](../characters/ciotka.md) wasn't always in that house. A family lived there before — the Barnaś family. They left, and [@first-name](../characters/ciotka.md) moved in with the boy.
 
 ### ciotka-adopted-glupek
 [@name](../characters/ciotka.md) took in [@name](../characters/glupek.md) after the family vanished. Nobody asked her to. Nobody stopped her.
@@ -580,7 +580,7 @@ A small brass Greek Catholic liturgical bell with Cyrillic lettering is hidden i
 [@name](../characters/neighbour.md) is a hunter with a licensed hunting rifle.
 
 ### neighbour-is-old-settler
-[@name](../characters/neighbour.md) has farmed the plot next to the Barnaś/Janina house since ~1948 — an early settler, there through the 1954 lynch.
+[@name](../characters/neighbour.md) has farmed the plot next to the Barnaś/[@first-name](../characters/ciotka.md) house since ~1948 — an early settler, there through the 1954 lynch.
 
 ### siblings-fund-the-church
 The siblings keep the [@name](../locations/the-church.md) unusually well supplied — firewood, food, gifts. [@name](../characters/priest.md)'s silence is materially supported.
@@ -626,25 +626,25 @@ The woman in the hidden portrait is [@name](../characters/jagna.md).
 **Synthesis:** dress-belonged-to-barnas-daughter + blue-dress-matches-portrait
 
 ### neighbour-avoids-ciotkas-window
-Ryszard Dudka's window facing Ciotka's house is always covered with a heavy curtain — never opened. The window facing Barbara's house has no curtain at all.
+[@name](../characters/neighbour.md)'s window facing Ciotka's house is always covered with a heavy curtain — never opened. The window facing [@first-name](../characters/barbara.md)'s house has no curtain at all.
 
 ### neighbour-has-insomnia
-Ryszard Dudka paces at night and keeps his light on at 3am. He doesn't sleep well.
+[@name](../characters/neighbour.md) paces at night and keeps his light on at 3am. He doesn't sleep well.
 
 ### neighbour-knows-about-edek
-Ryszard Dudka knows something about where Edek came from. He deflects when the topic comes up — too quickly, too rehearsed.
+[@name](../characters/neighbour.md) knows something about where [@first-name](../characters/glupek.md) came from. He deflects when the topic comes up — too quickly, too rehearsed.
 
 ### church-too-nice
 The church is too well-maintained for a village this size — fresh repairs, good supplies, ample firewood. Someone is funding it beyond what the parish can afford.
 
 ### wujas-misses-someone
-When drunk enough, Tadek Gajda's fragments turn to longing. Half-sentences about a woman, a name he won't finish, someone he lost long ago. He misses her badly.
+When drunk enough, [@name](../characters/wujas.md)'s fragments turn to longing. Half-sentences about a woman, a name he won't finish, someone he lost long ago. He misses her badly.
 
 ### irena-is-watchful
-Irena Gajda hosts with grace but something is tight behind the hospitality. She listens at doors during conversations with the sołtys — a shadow, a floorboard creak — and tracks the committee more closely than she lets on. She's aware of more than she shows.
+[@name](../characters/wife.md) hosts with grace but something is tight behind the hospitality. She listens at doors during conversations with the sołtys — a shadow, a floorboard creak — and tracks the committee more closely than she lets on. She's aware of more than she shows.
 
 ### wife-protects-husband
-[@name](../characters/wife.md) has realized [@name](../characters/wojewoda.md) took part in the 1954 killing. Rather than expose him, she has closed ranks with him. She has stopped investigating, shut the household, and will keep Zbigniew from confessing — even when he wants to.
+[@name](../characters/wife.md) has realized [@name](../characters/wojewoda.md) took part in the 1954 killing. Rather than expose him, she has closed ranks with him. She has stopped investigating, shut the household, and will keep [@first-name](../characters/wojewoda.md) from confessing — even when he wants to.
 
 
 
@@ -668,7 +668,7 @@ The PGR irrigation ditch is one of the candidate outlets floodwater could leave 
 The old far-ridge streambed is one of the candidate outlets floodwater could leave the %NEW_VILLAGE% valley through.
 
 ### the-flood-line-potentially-miscalculated
-prof. Bieńkowski suspects the official flood line for the %NEW_VILLAGE% valley may be miscalculated. The projected safe level rests on two assumptions: that the ground stands where the map records it, and that the valley drains through its outlets as the survey assumes. If the mapped heights are wrong, or the outlets do not carry the water off, the safe level is wrong and the new village may not sit above it after all. Both assumptions have to be checked on the ground.
+[@title](../characters/professor.md) [@surname](../characters/professor.md) suspects the official flood line for the %NEW_VILLAGE% valley may be miscalculated. The projected safe level rests on two assumptions: that the ground stands where the map records it, and that the valley drains through its outlets as the survey assumes. If the mapped heights are wrong, or the outlets do not carry the water off, the safe level is wrong and the new village may not sit above it after all. Both assumptions have to be checked on the ground.
 
 ### gap-is-blocked
 A ridge separates the %NEW_VILLAGE% valley from the empty %BIG-BASIN% beyond it. The state map shows a water-gap through that ridge as an open drain into %BIG-BASIN%, the outlet the whole safety calculation rests on. An old landslide has plugged it: the crest of the plug stands above the flood line, and the fill is impermeable, so rising water can neither crest the plug nor seep through it into %BIG-BASIN%. It is one of the three outlets the valley needs, and it is sealed.
@@ -725,7 +725,7 @@ The crew sent to re-check the terrain never properly did the work. They drove a 
 The thin survey was not merely lazy work but deliberately falsified: someone knew the ground was never properly checked and signed it off as sound anyway. The official all-clear was manufactured, not just botched.
 
 ### geologists-were-drinking
-The last state survey crew sent to re-check the terrain drank through their whole visit, at Tadek's still and by the road, driving only a few stakes before they left. Testimony from men who watched them, not proof on its own that the survey is worthless.
+The last state survey crew sent to re-check the terrain drank through their whole visit, at [@nickname](../characters/wujas.md)'s still and by the road, driving only a few stakes before they left. Testimony from men who watched them, not proof on its own that the survey is worthless.
 
 ### original-report-is-thin
 The previous crew's filed survey report is thin: too few field stations, cursory coverage, the ditch taken on faith from its concrete head, the changed river dismissed. On the paper alone it does not add up to a real survey, though thin work is not yet proof the whole job was botched.
@@ -824,7 +824,7 @@ Wolves have been killing [@name](../locations/pgr-farm.md) livestock for weeks. 
 [@name](../characters/neighbour.md) openly hates [@name](../characters/butcher.md). Calls him evil to anyone who listens. The anger is visceral — not just about the wolf authorization. Something older.
 
 ### rezen-mocks-an-old-failure
-Taunting [@name](../characters/neighbour.md), [@name](../characters/butcher.md) lets slip *"you didn't stop me then"* — implying there was a past occasion when Rezeń did something and Dudka failed to stop him. He never says what or when. Both men clearly remember it.
+Taunting [@name](../characters/neighbour.md), [@name](../characters/butcher.md) lets slip *"you didn't stop me then"* — implying there was a past occasion when [@surname](../characters/butcher.md) did something and [@surname](../characters/neighbour.md) failed to stop him. He never says what or when. Both men clearly remember it.
 
 ### pgr-underfunded-fences
 The PGR's fences and livestock infrastructure are underfunded and poorly maintained. Wolves got through because management cut corners.
@@ -840,7 +840,7 @@ Villagers blame [@name](../characters/hag.md) for the wolf attacks. They've seen
 ## Red Herrings & Side Mysteries
 
 ### mazur-paid-but-absent
-The PGR worker registry pays a full daily wage to Tadeusz Mazur, a labourer no one on the farm answers to or has seen in about two years.
+The PGR worker registry pays a full daily wage to [@name](../characters/tadeusz-mazur.md), a labourer no one on the farm answers to or has seen in about two years.
 
 ### large-grain-purchase
 The PGR expense journal logs a grain-silo repair in May 1965 and, a week later, the largest single grain purchase in the book. The silo's contents were written off as lost.
@@ -849,16 +849,16 @@ The PGR expense journal logs a grain-silo repair in May 1965 and, a week later, 
 A whole silo's worth of grain was dumped rather than used or sold, tipped out and left to rot instead of going to feed or market.
 
 ### mazur-died-in-the-silo
-Tadeusz Mazur died around 1965 in the farm's concrete grain silo. Tending it meant going up on top of the stored grain, and he fell in alone, sank to the bottom, and was engulfed. Nobody saw it and nothing showed at the surface; his body lay in the grain for about two weeks before the smell gave him away. [@name](../characters/widow.md) believes it was an ordinary farm accident, properly handled.
+[@name](../characters/tadeusz-mazur.md) died around 1965 in the farm's concrete grain silo. Tending it meant going up on top of the stored grain, and he fell in alone, sank to the bottom, and was engulfed. Nobody saw it and nothing showed at the surface; his body lay in the grain for about two weeks before the smell gave him away. [@name](../characters/widow.md) believes it was an ordinary farm accident, properly handled.
 
 ### wanda-receives-pension
 [@name](../characters/widow.md) believes she draws a state widow's pension for her late husband, and is grateful to the state for it.
 
 ### mazur-buried-in-cemetery
-Tadeusz Mazur lies in a fresh, well-tended grave in the %NEW_VILLAGE% cemetery, the one [@name](../characters/widow.md) kneels beside.
+[@name](../characters/tadeusz-mazur.md) lies in a fresh, well-tended grave in the %NEW_VILLAGE% cemetery, the one [@name](../characters/widow.md) kneels beside.
 
 ### mazur-and-widow-are-old-settlers
-Tadeusz and [@name](../characters/widow.md) were among the first Polish settlers in %NEW_VILLAGE%, arriving around 1948. They were in the village the whole time, through 1954 and after.
+[@first-name](../characters/tadeusz-mazur.md) and [@name](../characters/widow.md) were among the first Polish settlers in %NEW_VILLAGE%, arriving around 1948. They were in the village the whole time, through 1954 and after.
 
 ### mazur-doubted-the-departure
 [@name](../characters/widow.md), an original settler who was there at the time, never believed the [@name](../characters/soldier.md) simply moved away. He wrote that they vanished in a single night, leaving standing crops and livestock behind, and was certain the departure was not something they chose.
@@ -867,18 +867,18 @@ Tadeusz and [@name](../characters/widow.md) were among the first Polish settlers
 [@name](../characters/widow.md) kept a careful, detailed diary across all his years in the valley — a settler's running record of the village, its people, and its changes.
 
 ### mazur-death-covered-up
-Tadeusz Mazur died on the PGR farm and the death was never reported to the state. His wage still flows to [@name](../characters/widow.md), disguised as a "widow's pension" she believes is a real state payment. The books prove the death was buried; they do not name who buried it.
+[@name](../characters/tadeusz-mazur.md) died on the PGR farm and the death was never reported to the state. His wage still flows to [@name](../characters/widow.md), disguised as a "widow's pension" she believes is a real state payment. The books prove the death was buried; they do not name who buried it.
 
 **Synthesis:** mazur-died-in-the-silo + mazur-paid-but-absent
 
 ### foreman-sent-mazur-in-his-place
-[@name](../characters/foreman.md) knew the silo was dangerous and always tended it himself to keep others off it. Tied up with other work, he handed the job to Tadeusz Mazur, his most reliable man. Mazur went up alone and fell in. When Mazur vanished, Michał suspected the silo but could not justify dumping a full state store on a guess, and the sołtys refused him permission to empty it. The body only surfaced two weeks later.
+[@name](../characters/foreman.md) knew the silo was dangerous and always tended it himself to keep others off it. Tied up with other work, he handed the job to [@name](../characters/tadeusz-mazur.md), his most reliable man. [@surname](../characters/tadeusz-mazur.md) went up alone and fell in. When [@surname](../characters/tadeusz-mazur.md) vanished, [@first-name](../characters/foreman.md) suspected the silo but could not justify dumping a full state store on a guess, and the sołtys refused him permission to empty it. The body only surfaced two weeks later.
 
 ### foreman-stood-up-to-the-soltys
 [@name](../characters/foreman.md)'s workers respect him for standing up to the boss. They remember him fighting [@name](../characters/wojewoda.md) over the grain.
 
 ### drinking-crew-heads-to-forest
-Tadek Gajda and his crew regularly head into the treeline with bottles. They're going somewhere in the forest.
+[@name](../characters/wujas.md) and his crew regularly head into the treeline with bottles. They're going somewhere in the forest.
 
 ### old-wartime-positions
 Traces of old wartime positions in the forest — collapsed dugouts, rusted metal. Someone was here during the war.
@@ -890,85 +890,85 @@ Traces of old wartime positions in the forest — collapsed dugouts, rusted meta
 The crew guards the still because it is what carries them through the winter, not because it hides anything worse. Their fear is losing it, nothing more.
 
 ### store-has-drug-cabinet
-[@name](../characters/matrona.md)'s [@name](../locations/the-store.md) has a locked pharmaceutical cabinet — a *szafka apteczna*, standard PRL distribution point. Helena holds the only key. [@name](../characters/secondary/halina-zajac.md) can't open it.
+[@name](../characters/matrona.md)'s [@name](../locations/the-store.md) has a locked pharmaceutical cabinet — a *szafka apteczna*, standard PRL distribution point. [@first-name](../characters/matrona.md) holds the only key. [@name](../characters/secondary/halina-zajac.md) can't open it.
 
 ### pawelek-burns-with-fever
-Pawełek is gripped by a sudden high fever, burning hot and shaking with chills.
+[@first-name](../characters/pawelek.md) is gripped by a sudden high fever, burning hot and shaking with chills.
 
 ### pawelek-turns-yellow
-Pawełek's skin and the whites of his eyes have turned yellow.
+[@first-name](../characters/pawelek.md)'s skin and the whites of his eyes have turned yellow.
 
 ### pawelek-eyes-are-red
-The whites of Pawełek's eyes have gone bloodshot and crimson.
+The whites of [@first-name](../characters/pawelek.md)'s eyes have gone bloodshot and crimson.
 
 ### pawelek-in-muscle-pain
-Pawełek cries out when he is moved or touched; his legs and back are in severe pain.
+[@first-name](../characters/pawelek.md) cries out when he is moved or touched; his legs and back are in severe pain.
 
 ### pawelek-passes-dark-urine
-Pawełek passes little urine, and what there is runs dark, the colour of strong tea.
+[@first-name](../characters/pawelek.md) passes little urine, and what there is runs dark, the colour of strong tea.
 
 ### pawelek-eyes-not-crying
-The redness sits in the whites of Pawełek's eyes, not in the lids. It is a sign of the sickness itself, not crying or dust.
+The redness sits in the whites of [@first-name](../characters/pawelek.md)'s eyes, not in the lids. It is a sign of the sickness itself, not crying or dust.
 
 ### pawelek-organs-failing
-The yellowing of Pawełek's skin is a sign that his organs are failing.
+The yellowing of [@first-name](../characters/pawelek.md)'s skin is a sign that his organs are failing.
 
 ### pawelek-not-common-sickness
-Pawełek's illness is not dysentery and not ordinary flu. The fever, muscle pain, red eyes and yellowing together point to something waterborne and specific.
+[@first-name](../characters/pawelek.md)'s illness is not dysentery and not ordinary flu. The fever, muscle pain, red eyes and yellowing together point to something waterborne and specific.
 
 ### pawelek-got-it-from-water
-Pawełek's sickness came from drinking foul water. It does not pass from person to person. Which water is not clear.
+[@first-name](../characters/pawelek.md)'s sickness came from drinking foul water. It does not pass from person to person. Which water is not clear.
 
 ### pawelek-drank-water-while-playing
-Pawełek drank water while he was out playing on his own, away from the house.
+[@first-name](../characters/pawelek.md) drank water while he was out playing on his own, away from the house.
 
 ### pawelek-ate-mushrooms-in-the-forest
-Pawełek ate mushrooms while he was out playing on his own in the forest.
+[@first-name](../characters/pawelek.md) ate mushrooms while he was out playing on his own in the forest.
 
 ### pawelek-mushrooms-were-harmless
-The mushrooms Pawełek ate in the forest were ordinary edible ones. Staszek Pytlak ate the same ones and stayed well.
+The mushrooms [@first-name](../characters/pawelek.md) ate in the forest were ordinary edible ones. [@name](../characters/secondary/staszek-pytlak.md) ate the same ones and stayed well.
 
 ### pawelek-played-in-pgr
-Pawełek was out playing on his own in the [@name](../locations/pgr-farm.md).
+[@first-name](../characters/pawelek.md) was out playing on his own in the [@name](../locations/pgr-farm.md).
 
 ### pawelek-looks-like-common-fever
-Early on, Pawełek's fever and muscle pain read as an ordinary fever, the kind that goes through a village after a flood. It would be expected to pass on its own.
+Early on, [@first-name](../characters/pawelek.md)'s fever and muscle pain read as an ordinary fever, the kind that goes through a village after a flood. It would be expected to pass on its own.
 
 ### pawelek-fever-not-passing
-Pawełek's fever has run too long to be an ordinary one. It should have broken by now and has not.
+[@first-name](../characters/pawelek.md)'s fever has run too long to be an ordinary one. It should have broken by now and has not.
 
 ### pawelek-has-water-fever
-The water fever (leptospirosis): a bacterial sickness caught from foul water. Penicillin cures it if it is given in time.
+The water fever (leptospirosis): a bacterial sickness caught from foul water. [@name](../items/penicillin.md) cures it if it is given in time.
 
 ### pawelek-has-hepatitis
 Infectious hepatitis: a viral sickness of the liver. No antibiotic touches it; the only treatment is rest, and it kills a small child as often as not.
 
 ### pawelek-needs-penicillin
-Pawełek needs penicillin, given now at a child's dose, or the water fever kills him.
+[@first-name](../characters/pawelek.md) needs penicillin, given now at a child's dose, or the water fever kills him.
 
 ### helena-demands-the-census
-Helena Rzepka will hand over the penicillin only if the committee lets her fill the village census herself.
+[@first-name](../characters/matrona.md) [@surname](../characters/matrona.md) will hand over the penicillin only if the committee lets her fill the village census herself.
 
 ### pawelek-was-poisoned
-Pawełek was poisoned. The fever, the muscle pain and the yellow skin could all be the marks of a poison rather than an illness.
+[@first-name](../characters/pawelek.md) was poisoned. The fever, the muscle pain and the yellow skin could all be the marks of a poison rather than an illness.
 
 ### pawelek-ate-death-cap
-Pawełek's yellowing and failing could be death cap poisoning: a child who ate the wrong mushroom in the woods sickens and yellows just like this.
+[@first-name](../characters/pawelek.md)'s yellowing and failing could be death cap poisoning: a child who ate the wrong mushroom in the woods sickens and yellows just like this.
 
 ### pawelek-phosphorus-poison
-Pawełek's signs could be phosphorus poisoning, the yellow rat poison. It would mean someone poisoned him.
+[@first-name](../characters/pawelek.md)'s signs could be phosphorus poisoning, the yellow rat poison. It would mean someone poisoned him.
 
 ### pawelek-was-possessed
-Pawełek was possessed. His fever dreams of "the lady" and "the round stones," and a child sickening while no one else does, look to some like the work of the well rather than a natural illness.
+[@first-name](../characters/pawelek.md) was possessed. His fever dreams of "the lady" and "the round stones," and a child sickening while no one else does, look to some like the work of the well rather than a natural illness.
 
 ### hag-warned-pawelek
-Paraskewia Chyłak met Pawełek at the well in person and told him to his face not to drink the water. The "lady" in his fever dreams is her.
+[@name](../characters/hag.md) met [@first-name](../characters/pawelek.md) at the well in person and told him to his face not to drink the water. The "lady" in his fever dreams is her.
 
 ### hag-poisoned-pawelek
-The witch in the forest poisoned Pawełek. A child who met the "lady" at the well and sickened soon after looks, to some, like her doing.
+The witch in the forest poisoned [@first-name](../characters/pawelek.md). A child who met the "lady" at the well and sickened soon after looks, to some, like her doing.
 
 ### pawelek-needs-a-cleansing-ritual
-Pawełek needs a cleansing ritual. To those who read his sickness as the well's work, only the old rites can drive it out of him.
+[@first-name](../characters/pawelek.md) needs a cleansing ritual. To those who read his sickness as the well's work, only the old rites can drive it out of him.
 
 ### paweleks-diagnosis
 Bacterial dysentery — *Shigella*, most likely. Fever cycling, bloody stool, dehydration. Fatal without treatment in a child this size. Needs antibacterial medication — but which one and what dosage requires a doctor.

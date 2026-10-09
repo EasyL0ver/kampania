@@ -4,7 +4,7 @@
 
 ## Hook
 
-- Paraskewia Chyłak, an old Lemko woman who lives alone in the forest.
+- [@first-name](hag.md) [@surname](hag.md), an old Lemko woman who lives alone in the forest.
 
 ## Vital Statistics
 
@@ -46,7 +46,7 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 - A flag, true or false. Starts false. True when the Lemko rite is done at the well: the dead are named and mourned. Can no longer become true once [Grace](priest.md#grace) is granted. The **Rest** ending.
 
 ### Talking to her
-- Paraskewia cannot be spoken to without Language. Even with it, the exchange is halting and hard.
+- [@first-name](hag.md) cannot be spoken to without Language. Even with it, the exchange is halting and hard.
 
 ### Village Hostility
 - A flag, true or false. Starts false. True while she believes the village means her harm.
@@ -60,9 +60,9 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 ### Census interview
 - **Requires:** [Language](../cards/language.md)
 - **Cost:** 1 time
-- **Outcome:** She gives her name — Paraskewia Chyłak — and says she is Lemko.
+- **Outcome:** She gives her name — [@first-name](hag.md) [@surname](hag.md) — and says she is Lemko.
 - **Gives:** [hag-is-lemko](../clues/clues.md#hag-is-lemko)
-- **Changes:** [Census](../items/census.md#census) — Paraskewia Chyłak, Lemko, living in the forest
+- **Changes:** [Census](../items/census.md#census) — [@first-name](hag.md) [@surname](hag.md), Lemko, living in the forest
 
 ### Property assessment
 - **Requires:** [Language](../cards/language.md)
@@ -121,7 +121,7 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 ## Bond
 
 - [ ] Approach her cabin openly and wait at the treeline — do not barge in.
-- [ ] Show respect for the dead — acknowledge the old graves, the missing families, or Dmytro.
+- [ ] Show respect for the dead — acknowledge the old graves, the missing families, or [@first-name](dmytro-kosach.md).
 - [ ] Leave her ritual objects, icons, candles, and herbs untouched unless invited.
 
 ## Grudge

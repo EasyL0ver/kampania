@@ -6,28 +6,28 @@
 
 ## Trigger
 
-- The players complete [Tell Wojewoda about the flood risk](../events/arrival/in-the-office.md#tell-wojewoda-about-the-flood-risk) or otherwise make Zbigniew believe the flood is possible.
-- Zbigniew learns the committee is recording property values for compensation.
+- The players complete [Tell Wojewoda about the flood risk](../events/arrival/in-the-office.md#tell-wojewoda-about-the-flood-risk) or otherwise make [@first-name](../characters/wojewoda.md) believe the flood is possible.
+- [@first-name](../characters/wojewoda.md) learns the committee is recording property values for compensation.
 - He asks to speak with the players alone.
 
 ## Hook
 
-Zbigniew Gajda closing the PGR office door to speak with the committee privately.
+[@name](../characters/wojewoda.md) closing the PGR office door to speak with the committee privately.
 
 ## Setup
 
-- Zbigniew closes the office door.
+- [@first-name](../characters/wojewoda.md) closes the office door.
 - State compensation follows deeds and recorded ownership.
 - PGR labourers live in PGR housing.
 - Money for PGR housing goes to the state, not the people living there.
-- Zbigniew asks the committee to record those houses as the villagers' own.
+- [@first-name](../characters/wojewoda.md) asks the committee to record those houses as the villagers' own.
 - He does not name [@name](../characters/barbara.md)'s brick house.
 - He does not name [@name](../characters/ciotka.md)'s cottage.
 - The false record would defraud the state and pay villagers who are about to lose everything.
 
 ## Opportunities
 
-- **No personal cut** `(noticed by: [Empathy](../cards/empathy.md))` — Zbigniew is asking for the villagers, not for his own compensation.
+- **No personal cut** `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/wojewoda.md) is asking for the villagers, not for his own compensation.
 - **Fraud on paper** `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — the request is deliberate false property recording against the state.
 
 ## Actions
@@ -35,21 +35,21 @@ Zbigniew Gajda closing the PGR office door to speak with the committee privately
 ### Ask about Barbara's house
 - **When:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway; see [Zbigniew Gajda](../characters/wojewoda.md#ask-about-barbaras-house)
 - **Cost:** 1 time
-- **Outcome:** Zbigniew says the house was built with PGR brick and labour for a young mother with no support.
+- **Outcome:** [@first-name](../characters/wojewoda.md) says the house was built with PGR brick and labour for a young mother with no support.
 - **Gives:** [barbara-has-help](../clues/clues.md#barbara-has-help)
 
 ### Ask about Janina's house
 - **When:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway; see [Zbigniew Gajda](../characters/wojewoda.md#ask-about-janinas-house)
 - **Prompted by:** [ciotka-house-is-wojewodas](../clues/clues.md#ciotka-house-is-wojewodas)
 - **Cost:** 1 time
-- **Outcome:** Zbigniew says the house was abandoned, left to the state, administered by the PGR, and allocated to Janina.
+- **Outcome:** [@first-name](../characters/wojewoda.md) says the house was abandoned, left to the state, administered by the PGR, and allocated to [@first-name](../characters/ciotka.md).
 - **Gives:** [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs)
 
 ### Show the paperwork for Janina's house
 - **When:** [Wojewoda's Ask](../events/wojewodas-ask.md) is underway; see [Zbigniew Gajda](../characters/wojewoda.md#show-the-paperwork-for-janinas-house)
 - **Prompted by:** [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs)
 - **Cost:** 1 time
-- **Outcome:** Zbigniew shows the 1954 file with [@name](../items/barnas-departure-declaration.md), but does not hand it over.
+- **Outcome:** [@first-name](../characters/wojewoda.md) shows the 1954 file with [@name](../items/barnas-departure-declaration.md), but does not hand it over.
 - **Gives:** aware:items/barnas-departure-declaration.md
 
 ## Exits

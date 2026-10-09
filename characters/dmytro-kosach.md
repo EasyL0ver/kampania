@@ -4,7 +4,7 @@
 
 ## Hook
 
-- Dmytro Kosach, a UPA fighter from %OLD_VILLAGE%, killed in the 1947 massacre.
+- [@first-name](dmytro-kosach.md) [@surname](dmytro-kosach.md), a UPA fighter from %OLD_VILLAGE%, killed in the 1947 massacre.
 
 ## Vital Statistics
 
@@ -18,7 +18,7 @@
 
 ## Character
 
-Dmytro Kosach was a UPA guerrilla hiding in %OLD_VILLAGE% when [@name](kbw-officer.md)'s KBW unit came to deport it during Akcja Wisła. His killing of Ćwiek turned the deportation into a massacre.
+[@first-name](dmytro-kosach.md) [@surname](dmytro-kosach.md) was a UPA guerrilla hiding in %OLD_VILLAGE% when [@name](kbw-officer.md)'s KBW unit came to deport it during Akcja Wisła. His killing of [@surname](kbw-officer.md) turned the deportation into a massacre.
 
 ## Appearance
 

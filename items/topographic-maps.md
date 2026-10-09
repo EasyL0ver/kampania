@@ -1,7 +1,7 @@
 # Topographic Maps
 
 **Type:** Item — maps
-**Source:** From Zbigniew Gajda's office: [asked for](../characters/wojewoda.md#ask-for-the-maps) or [taken](../locations/pgr-office.md#steal-the-maps).
+**Source:** From [@name](../characters/wojewoda.md)'s office: [asked for](../characters/wojewoda.md#ask-for-the-maps) or [taken](../locations/pgr-office.md#steal-the-maps).
 **Carried:** The valley's terrain, marked for survey work, including %OLD_VILLAGE%.
 
 ## Hook

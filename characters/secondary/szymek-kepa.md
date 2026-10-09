@@ -4,7 +4,7 @@
 
 ## Hook
 
-- Szymek Kępa, a village drunk, one of [@name](../wujas.md)'s drinking crew.
+- [@first-name](szymek-kepa.md) [@surname](szymek-kepa.md), a village drunk, one of [@name](../wujas.md)'s drinking crew.
 
 ## Vital Statistics
 
@@ -18,7 +18,7 @@
 
 ## Character
 
-A rough, crude drinking companion of Tadek Gajda. He knows village rumors and talks freely when drunk, but cruelty and gossip come before truth.
+A rough, crude drinking companion of [@name](../wujas.md). He knows village rumors and talks freely when drunk, but cruelty and gossip come before truth.
 
 ## Appearance
 

@@ -4,7 +4,7 @@
 
 ## Hook
 
-Pawełek Kopacz, Barbara's lively four-year-old son.
+[@first-name](pawelek.md) [@surname](pawelek.md), [@first-name](barbara.md)'s lively four-year-old son.
 
 ## Vital Statistics
 
@@ -18,7 +18,7 @@ Pawełek Kopacz, Barbara's lively four-year-old son.
 
 ## Character
 
-Bright, fearless four-year-old who wanders too far and repeats things without understanding them. His official father is unknown; his real father is Tadek. He becomes a ticking clock when the contaminated water makes him sick.
+Bright, fearless four-year-old who wanders too far and repeats things without understanding them. His official father is unknown; his real father is [@nickname](wujas.md). He becomes a ticking clock when the contaminated water makes him sick.
 
 ## Appearance
 
@@ -46,7 +46,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ### Health Points
 
-**Ticking clock mechanic.** Tracks Pawełek's condition after he falls ill ([@name](../events/pawelek-falls-ill.md)).
+**Ticking clock mechanic.** Tracks [@first-name](pawelek.md)'s condition after he falls ill ([@name](../events/pawelek-falls-ill.md)).
 
 **Starts at 6 HP.** Triggers Day 3 evening. **Loses 1 HP per phase.**
 
@@ -54,22 +54,22 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 |---|---|
 | 6 | Fever, restless. Babbling, lucid intervals — all delirium clues available |
 | 5 | Worse, sweating. Lucid intervals shorter |
-| 4 | Cycling hard. Babbling stops — only moans. **Barbara names the father** |
-| 3 | Dehydrated, limp. Barbara non-functional |
+| 4 | Cycling hard. Babbling stops — only moans. **[@first-name](barbara.md) names the father** |
+| 3 | Dehydrated, limp. [@first-name](barbara.md) non-functional |
 | 2 | Unresponsive. Last chance for medicine |
 | 1 | Convulsions. Medicine still works but recovery slow and uncertain |
 | 0 | **Dead** |
 
 ### Modifiers
 
-- **Norsulfazol (from Helena/robbery/raid/Tadek):** Drain stops permanently. **+1 HP per phase.** Full recovery.
-- **Paraskewia's herbs:** Drain stops permanently. No HP recovery — stays at current HP. Pawełek sleeps, unreachable rest of game.
+- **Norsulfazol (from [@first-name](matrona.md)/robbery/raid/[@nickname](wujas.md)):** Drain stops permanently. **+1 HP per phase.** Full recovery.
+- **[@first-name](hag.md)'s herbs:** Drain stops permanently. No HP recovery — stays at current HP. [@first-name](pawelek.md) sleeps, unreachable rest of game.
 - **No treatment:** 6 phases (1.5 days) → dead.
 
 ## Opportunities
 
-- **Babcia's sounds** `(when: evening with Pawełek, Babcia)` `(noticed by: [Language](../cards/language.md))` — Pawełek reproduces Babcia's prayer fragments with eerie accuracy. A child is acting as an unconscious vessel for a dying language.
-- **Barbara watching Babcia and Pawełek** `(when: evening with Pawełek, Babcia)` `(noticed by: [Empathy](../cards/empathy.md))` — [@name](barbara.md) watches from the kitchen. She does not understand what Babcia says either, and she is watching her son become part of something she was never part of.
+- **Babcia's sounds** `(when: evening with [@first-name](pawelek.md), Babcia)` `(noticed by: [Language](../cards/language.md))` — [@first-name](pawelek.md) reproduces Babcia's prayer fragments with eerie accuracy. A child is acting as an unconscious vessel for a dying language.
+- **[@first-name](barbara.md) watching Babcia and [@first-name](pawelek.md)** `(when: evening with [@first-name](pawelek.md), Babcia)` `(noticed by: [Empathy](../cards/empathy.md))` — [@name](barbara.md) watches from the kitchen. She does not understand what Babcia says either, and she is watching her son become part of something she was never part of.
 - **Medicine diagnosis** `(when: [Condition](#condition) is tended)` `(noticed by: [Medicine](../cards/medicine.md))` — The illness will not resolve on its own in a child this size. He needs antibacterial medication; stabilization only buys time. → Gives: [paweleks-diagnosis](../clues/clues.md#paweleks-diagnosis)
 - **Contamination pattern** `(when: [Condition](#condition) is tended)` `(noticed by: [Medicine](../cards/medicine.md))` — The bacterial load points to decomposing organic matter in a confined water source over years: a cistern, cellar, or well filled with something large and organic. → Gives: [paweleks-contamination](../clues/clues.md#paweleks-contamination)
 - **Water table mapping** `(when: Ask about drinking water)` `(noticed by: [Geology](../cards/geology.md))` — Contamination follows the water table downhill from the old village. Mapping the flow points toward [@name](../locations/old-village-ruins.md) and [@name](../locations/old-village-ruins.md). → Gives: aware:locations/old-village-ruins.md
@@ -78,7 +78,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 ## Actions
 
 ### Build with Pawełek
-- **When:** Morning or afternoon, Pawełek playing with stones, and **Handiwork**
+- **When:** Morning or afternoon, [@first-name](pawelek.md) playing with stones, and **Handiwork**
 - **Outcome:** The player helps him build the circular pattern he has been copying from memory. An engineer recognizes the pattern as a well rim.
 - **Gives:** [pawelek-wanders-to-old-village](../clues/clues.md#pawelek-wanders-to-old-village), aware:locations/old-village-ruins.md
 
@@ -93,7 +93,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 - **Gives:** aware:characters/hag.md
 
 ### The place you can't get through
-- **When:** Playing or talking with Pawełek about the forest
+- **When:** Playing or talking with [@first-name](pawelek.md) about the forest
 - **Prompted by:** [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
 - **Outcome:** He mentions, offhand, that you can't get through the notch in the hill anymore because it all fell down in a big pile of rocks. The lady showed him.
 - **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
@@ -104,7 +104,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 - **Changes:** [Play with him](#pawelek-play)
 
 ### Ask about drinking water
-- **When:** Pawełek is sick, HP 5-6 (lucid), and Pawełek trusts the player or the player uses Speech
+- **When:** [@first-name](pawelek.md) is sick, HP 5-6 (lucid), and [@first-name](pawelek.md) trusts the player or the player uses Speech
 - **Outcome:** He says he drank by the round stones where the water comes up, and that the lady told him not to drink it but he was thirsty.
 - **Gives:** [well-water-contaminated](../clues/clues.md#well-water-contaminated), aware:locations/old-village-ruins.md
 

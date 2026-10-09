@@ -24,7 +24,7 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 - **The Weeping Clay** `(noticed by: [Geology](../cards/geology.md))` — The soaked clay only holds weight in the right places; get it wrong and you bog. You either know where it bears, or you move light and deft.
 - **A Bad Feeling** `(noticed by: [Survival](../cards/survival.md))` — The loose rock looks extremely dangerous; you wouldn't go up there without a rope and assistance. The fall on the traverse is almost certain; we need a rope.
-- **Two on the Rope** `(noticed by: [Handiwork](../cards/handiwork.md) AND [@name](../items/rope.md))` — A fall here only comes up safe with enough weight on the line: two bodies at least, not one.
+- **Two on the [@name](../items/rope.md)** `(noticed by: [Handiwork](../cards/handiwork.md) AND [@name](../items/rope.md))` — A fall here only comes up safe with enough weight on the line: two bodies at least, not one.
 - **Something to Haul Against** `(when: the crux is anchored)` `(noticed by: [Handiwork](../cards/handiwork.md))` — The clamp still up top is a fixed point. You can rig a line to it and haul the charge up on its own, so no one climbs with it on their back.
 - **The Anatomy of a Fall** `(noticed by: [Medicine](../cards/medicine.md))` — Off the lower bank, bruises. Off the wet traverse onto the rock, broken bones. From the top pitch you break badly. None of it kills you by itself; the fall hurts, it doesn't kill.
 - **A Soldier's Eye** `(noticed by: [Violence](../cards/violence.md))` — You've seen men fall and you know ordnance. Roughly: the drops break a man, they don't kill him, but the charge on his back is what puts him in the ground. It's old and touchy, a hard knock or a fall with it and it goes off.

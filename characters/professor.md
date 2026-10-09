@@ -4,7 +4,7 @@
 
 ## Hook
 
-prof. Tadeusz Bieńkowski, a Kraków hydrologist tied to the Solina Dam project, reachable via the telephone exchange.
+[@title](professor.md) [@first-name](professor.md) [@surname](professor.md), a Kraków hydrologist tied to the Solina Dam project, reachable via the telephone exchange.
 
 ## Vital Statistics
 

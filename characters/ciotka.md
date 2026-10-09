@@ -4,7 +4,7 @@
 
 ## Hook
 
-Janina Gajda, a downtrodden, devout woman who keeps house with her son Edek, sister to the sołtys.
+[@first-name](ciotka.md) [@surname](ciotka.md), a downtrodden, devout woman who keeps house with her son [@first-name](glupek.md), sister to the sołtys.
 
 ## Vital Statistics
 
@@ -28,7 +28,7 @@ Devout, fearful, and honest when her guard drops. She is the moral heart of the 
 - **Carriage:** Shoulders hunched, eyes down, flinches at raised voices; steadier at home with [@name](glupek.md)
 - **Voice:** Thin and breathy in public; silence when frightened
 
-At home she moves around Edek with practiced care. In public she makes herself smaller and lets other people fill the space.
+At home she moves around [@first-name](glupek.md) with practiced care. In public she makes herself smaller and lets other people fill the space.
 
 ## Opinions
 
@@ -37,18 +37,18 @@ At home she moves around Edek with practiced care. In public she makes herself s
   - *(Bond):* "I lock my door because of that man. Don't ask me why. Please."
 - **[@name](priest.md)** — "The priest is a good man. I go to him for confession, like anyone."
 - **[@name](wojewoda.md)** — "My brother is the sołtys. He has been good to me — the house, the boy. I do as he asks."
-- **[@name](matrona.md)** — "Helena runs the store. We're sisters. We manage."
-- **[@name](wujas.md)** — "Tadek drinks too much. He's still family."
+- **[@name](matrona.md)** — "[@first-name](matrona.md) runs the store. We're sisters. We manage."
+- **[@name](wujas.md)** — "[@nickname](wujas.md) drinks too much. He's still family."
 - **[wujas-is-guilty](../clues/clues.md#wujas-is-guilty)** — "He's my brother. He's not a bad man, and I'll not give strangers more than that."
-- **[ciotka-avoids-family](../clues/clues.md#ciotka-avoids-family)** — "I keep busy with Edek and the house. It's hard to get away for gatherings."
+- **[ciotka-avoids-family](../clues/clues.md#ciotka-avoids-family)** — "I keep busy with [@first-name](glupek.md) and the house. It's hard to get away for gatherings."
   - *(Bond):* "I can't sit at that table. It isn't for the boy's sake. It's mine."
 
 ## Opportunities
 
 - **The flinch at family** `(when: brought up her siblings, Read)` `(prompted by: aware:characters/ciotka.md)` — every mention of her siblings pulls her tight; she changes the subject, hands busy. The distance is hers and it costs her. → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
 - **The faith is real** `(noticed by: [Devotion](../cards/devotion.md))` `(prompted by: aware:characters/ciotka.md)` — the rosary in her apron pocket is worn to the string, beads rubbed pale at the decades. She murmurs before she eats and before she leaves a room, small reflexive prayers she does not perform for anyone. A believer who means it clocks the difference at once: hers is real, and it is heavy. She carries it like penance. → Gives: [`ciotka-is-devout`](../clues/clues.md#ciotka-is-devout)
-- **She loves the boy** `(noticed by: [Empathy](../cards/empathy.md))` — watch her with Edek and the fear leaves her face. She reads his moods before he shows them, warms his food to the temperature he likes, steadies him without being asked. Whatever else she is, this is a woman who loves this boy and has built her whole small life around caring for him.
-- **Coffee for the visitors** `(prompted by: aware:characters/ciotka.md)` — Janina sets out coffee for the committee, hospitality she will not skip. [@name](glupek.md) is given a cup too and flinches at the first taste, baffled that anyone drinks something so bitter, and leaves it untouched. Coffee in that house is hers alone. → Gives: [`glupek-wont-drink-coffee`](../clues/clues.md#glupek-wont-drink-coffee)
+- **She loves the boy** `(noticed by: [Empathy](../cards/empathy.md))` — watch her with [@first-name](glupek.md) and the fear leaves her face. She reads his moods before he shows them, warms his food to the temperature he likes, steadies him without being asked. Whatever else she is, this is a woman who loves this boy and has built her whole small life around caring for him.
+- **Coffee for the visitors** `(prompted by: aware:characters/ciotka.md)` — [@first-name](ciotka.md) sets out coffee for the committee, hospitality she will not skip. [@name](glupek.md) is given a cup too and flinches at the first taste, baffled that anyone drinks something so bitter, and leaves it untouched. Coffee in that house is hers alone. → Gives: [`glupek-wont-drink-coffee`](../clues/clues.md#glupek-wont-drink-coffee)
 
 ## Actions
 
@@ -57,18 +57,18 @@ At home she moves around Edek with practiced care. In public she makes herself s
 - **Cost:** 1 time
 - **Outcome:** She presents her son [@name](glupek.md) to the committee, then lists herself as mother and [@name](soldier.md) as the father who left the village — a Barnaś, though her own name is Gajda. The house and boy are both presented as hers.
 - **Gives:** [`edeks-father-left`](../clues/clues.md#edeks-father-left), aware:characters/soldier.md, aware:characters/glupek.md
-- **Changes:** [Census](../items/census.md#census) — Janina Gajda and Edek Barnaś
+- **Changes:** [Census](../items/census.md#census) — [@first-name](ciotka.md) [@surname](ciotka.md) and [@name](glupek.md)
 
 ### Property assessment
 - **Prompted by:** aware:characters/ciotka.md
 - **Cost:** 1 time
 - **Outcome:** She says the house belongs to her brother, the sołtys, who gave it to her. She claims no deed and no title of her own.
 - **Gives:** [`ciotka-house-is-wojewodas`](../clues/clues.md#ciotka-house-is-wojewodas)
-- **Changes:** [Property Record](../items/census.md#property-record) — no title in Janina's name
+- **Changes:** [Property Record](../items/census.md#property-record) — no title in [@first-name](ciotka.md)'s name
 
 ## Bond
 
-- [ ] Ask Janina about old ways, herbs, or customs.
+- [ ] Ask [@first-name](ciotka.md) about old ways, herbs, or customs.
 - [ ] Arrive without official bearing, clipboard, demands, or government tone.
 - [ ] Treat [@name](glupek.md) gently in her presence.
 

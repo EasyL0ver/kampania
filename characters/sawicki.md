@@ -4,7 +4,7 @@
 
 ## Hook
 
-- dr Leon Sawicki, the nearest doctor, reachable only by telephone.
+- [@title](sawicki.md) [@first-name](sawicki.md) [@surname](sawicki.md), the nearest doctor, reachable only by telephone.
 
 ## Vital Statistics
 
@@ -32,7 +32,7 @@ The nearest medical authority outside %NEW_VILLAGE%. He can give diagnosis guida
 - **When:** Phone access
 - **Prompted by:** [pawelek-burns-with-fever](../clues/clues.md#pawelek-burns-with-fever), [pawelek-in-muscle-pain](../clues/clues.md#pawelek-in-muscle-pain)
 - **Cost:** 1 time
-- **Outcome:** Hearing only fever and aches, Sawicki judges it an ordinary fever going round after the flood. He expects it to pass and says to keep the child cool and watered.
+- **Outcome:** Hearing only fever and aches, [@surname](sawicki.md) judges it an ordinary fever going round after the flood. He expects it to pass and says to keep the child cool and watered.
 - **Gives:** [`pawelek-looks-like-common-fever`](../clues/clues.md#pawelek-looks-like-common-fever)
 
 ### Tell him about the yellow skin, red eyes or dark urine
@@ -46,5 +46,5 @@ The nearest medical authority outside %NEW_VILLAGE%. He can give diagnosis guida
 - **When:** Phone access; the party has already told him about the yellow skin, red eyes or dark urine
 - **Prompted by:** [pawelek-got-it-from-water](../clues/clues.md#pawelek-got-it-from-water)
 - **Cost:** 1 time
-- **Outcome:** Foul water changes everything for him. Not the liver sickness, the water fever, leptospirosis, a bacterial one. He drops the rest-and-hope line and prescribes penicillin at once, with a dose for a child Pawełek's size.
+- **Outcome:** Foul water changes everything for him. Not the liver sickness, the water fever, leptospirosis, a bacterial one. He drops the rest-and-hope line and prescribes penicillin at once, with a dose for a child [@first-name](pawelek.md)'s size.
 - **Gives:** [`pawelek-has-water-fever`](../clues/clues.md#pawelek-has-water-fever), [`pawelek-needs-penicillin`](../clues/clues.md#pawelek-needs-penicillin)

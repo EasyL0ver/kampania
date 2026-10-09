@@ -34,7 +34,7 @@
 
 - **The preparation** `(noticed by: [Violence](../cards/violence.md))` — [@name](../characters/barbara.md) is describing preparations, not a mood. → Gives: [`neighbour-has-rifle`](../clues/clues.md#neighbour-has-rifle)
 - **The verdict phrase** `(noticed by: [Finesse](../cards/finesse.md))` — The phrase about someone answering for what they did sounds like a verdict, not grief.
-- **Barbara's fear** `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/barbara.md) is afraid for [@name](../characters/neighbour.md), not afraid of him.
+- **[@first-name](../characters/barbara.md)'s fear** `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/barbara.md) is afraid for [@name](../characters/neighbour.md), not afraid of him.
 
 ## Actions
 

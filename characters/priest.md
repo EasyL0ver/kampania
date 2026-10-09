@@ -4,7 +4,7 @@
 
 ## Hook
 
-ks. Władysław Pająk, the village's Roman Catholic priest, found at the church and rectory.
+[@title](priest.md) [@first-name](priest.md) [@surname](priest.md), the village's Roman Catholic priest, found at the church and rectory.
 
 ## Vital Statistics
 
@@ -45,7 +45,7 @@ His baritone stays intimate in conversation. When uncomfortable, his hand goes t
 
 ### Contempt for the dead
 
-- Set when the committee handles Janina's body crudely, brushing past his objection. He takes it as contempt for the dead and does not forget it.
+- Set when the committee handles [@first-name](ciotka.md)'s body crudely, brushing past his objection. He takes it as contempt for the dead and does not forget it.
 
 ### Crisis of Faith
 
@@ -54,7 +54,7 @@ His baritone stays intimate in conversation. When uncomfortable, his hand goes t
 ## Actions
 
 ### Drive out the devil
-- **When:** ks. Władysław Pająk brought to Pawełek's sickroom
+- **When:** [@title](priest.md) [@first-name](priest.md) [@surname](priest.md) brought to [@first-name](pawelek.md)'s sickroom
 - **Prompted by:** [`pawelek-was-possessed`](../clues/clues.md#pawelek-was-possessed)
 - **Cost:** 1 time
 - **Outcome:** He prays loudly over the boy, commanding the devil out, a Roman Catholic blessing that rises to shouting. It does nothing for the fever, and the noise frightens the delirious child. [@name](babcia.md) comes out of her chair, sharply lucid, and drives him off: the boy is not a demon, and he is not to shout and terrify a sick child. This is not his faith and not his rite.
@@ -62,13 +62,13 @@ His baritone stays intimate in conversation. When uncomfortable, his hand goes t
 
 ### Ask about the three-barred cross
 - **Prompted by:** [three-barred-cross-on-gajda-grave](../clues/clues.md#three-barred-cross-on-gajda-grave)
-- **Outcome:** He explains what Barbara could not: the three-barred cross is Eastern-rite, Greek Catholic, the old faith of this valley before the Roman parish. He states it plainly as church history, nothing he guards.
+- **Outcome:** He explains what [@first-name](barbara.md) could not: the three-barred cross is Eastern-rite, Greek Catholic, the old faith of this valley before the Roman parish. He states it plainly as church history, nothing he guards.
 - **Gives:** [`three-barred-cross-is-lemko`](../clues/clues.md#three-barred-cross-is-lemko)
 
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** He cooperates and gives his details: himself, alone at the rectory.
-- **Changes:** [Census](../items/census.md#census) — ks. Władysław Pająk
+- **Changes:** [Census](../items/census.md#census) — [@title](priest.md) [@first-name](priest.md) [@surname](priest.md)
 
 ### Property assessment
 - **Cost:** 1 time
@@ -78,7 +78,7 @@ His baritone stays intimate in conversation. When uncomfortable, his hand goes t
 ### Donate to the church
 - **When:** The [Loaded](../story-facts/game-system.md) card — hard currency in your pocket to give
 - **Cost:** [Loaded](../cards/loaded.md)
-- **Outcome:** A committee member puts real money into the parish, no bribe, nothing asked for, just given. ks. Władysław Pająk did not expect it and cannot quite believe it: one of the state's own clerks choosing a plain good thing. In a man whose faith in people is in crisis, it lands, and he watches the committee differently after.
+- **Outcome:** A committee member puts real money into the parish, no bribe, nothing asked for, just given. [@title](priest.md) [@first-name](priest.md) [@surname](priest.md) did not expect it and cannot quite believe it: one of the state's own clerks choosing a plain good thing. In a man whose faith in people is in crisis, it lands, and he watches the committee differently after.
 - **Changes:** [Crisis of Faith](#crisis-of-faith) — +2
 
 ## Bond

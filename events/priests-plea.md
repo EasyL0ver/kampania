@@ -6,15 +6,15 @@
 
 ## Trigger
 
-- A player has shown ks. Pająk genuine faith.
+- A player has shown [@title](../characters/priest.md) [@surname](../characters/priest.md) genuine faith.
 - The player has progressed his [bond](../characters/priest.md#bond) by asking counsel, confiding in him, or honouring the church.
-- ks. Pająk asks for that player alone.
+- [@title](../characters/priest.md) [@surname](../characters/priest.md) asks for that player alone.
 
 ## Hook
 
-- ks. Pająk asks the player for a private talk after Mass.
+- [@title](../characters/priest.md) [@surname](../characters/priest.md) asks the player for a private talk after Mass.
 - [@name](../characters/secondary/krystian-rzepka.md) may bring a folded note from him.
-- ks. Pająk may come to the committee billet.
+- [@title](../characters/priest.md) [@surname](../characters/priest.md) may come to the committee billet.
 - He does not ask twice.
 - He does not invite the whole committee.
 
@@ -24,7 +24,7 @@
 - The rectory is small, book-lined, and cold.
 - One lamp is lit.
 - Rain hits the window.
-- ks. Pająk pours tea and does not drink it.
+- [@title](../characters/priest.md) [@surname](../characters/priest.md) pours tea and does not drink it.
 - He says the flood may be divine judgment, not engineering failure.
 - He cites Noah, Sodom, and other judgment stories.
 - He says a place can carry a wrong so long that heaven answers with water.
@@ -36,37 +36,37 @@
 
 ## Opportunities
 
-- **The reversed confession** `(noticed by: [Empathy](../cards/empathy.md))` — ks. Pająk has come to a layperson for reassurance a priest is supposed to give. He is frightened.
+- **The reversed confession** `(noticed by: [Empathy](../cards/empathy.md))` — [@title](../characters/priest.md) [@surname](../characters/priest.md) has come to a layperson for reassurance a priest is supposed to give. He is frightened.
 - **The judgment pattern** `(noticed by: [Culture](../cards/culture.md) OR [History](../cards/history.md))` — every scripture example he reaches for is a judgment narrative. His fear points toward the valley deserving to drown.
 - **The unnamed sin** `(noticed by: [Devotion](../cards/devotion.md))` — he is not speaking generally. He knows a specific sin.
 - **The collar gesture** `(noticed by: [Devotion](../cards/devotion.md))` — the confessional seal is the wall keeping his knowledge in. He is exhausted by holding it.
-- **The brand on the paper** `(noticed by: [Chainsmoker](../cards/chainsmoker.md) AND [priest-smokes](../clues/clues.md#priest-smokes))` — with the cigarette lit, a smoker reads the brand off the paper at once: premium Carmen, the same the village would name at Janina's door. → Gives: [`priest-smokes-carmen`](../clues/clues.md#priest-smokes-carmen)
+- **The brand on the paper** `(noticed by: [Chainsmoker](../cards/chainsmoker.md) AND [priest-smokes](../clues/clues.md#priest-smokes))` — with the cigarette lit, a smoker reads the brand off the paper at once: premium Carmen, the same the village would name at [@first-name](../characters/ciotka.md)'s door. → Gives: [`priest-smokes-carmen`](../clues/clues.md#priest-smokes-carmen)
 
 ## Actions
 
 ### Tell him people can be forgiven
 - **When:** The player answers his question toward mercy.
-- **Outcome:** ks. Pająk steadies. Mercy becomes a possible answer to his crisis.
+- **Outcome:** [@title](../characters/priest.md) [@surname](../characters/priest.md) steadies. Mercy becomes a possible answer to his crisis.
 - **Gives:** [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
 - **Changes:** [Crisis of Faith](../characters/priest.md#crisis-of-faith) — +2
 
 ### Ask him what he needs
-- **Outcome:** ks. Pająk says the lost must be brought back to God before the water comes, especially those with the most to answer for.
+- **Outcome:** [@title](../characters/priest.md) [@surname](../characters/priest.md) says the lost must be brought back to God before the water comes, especially those with the most to answer for.
 - **Gives:** [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
 
 ### Push him to name the sin
 - **When:** The player presses him to say what he knows.
-- **Outcome:** ks. Pająk refuses to betray the confessional and ends the meeting.
+- **Outcome:** [@title](../characters/priest.md) [@surname](../characters/priest.md) refuses to betray the confessional and ends the meeting.
 - **Changes:** [Crisis of Faith](../characters/priest.md#crisis-of-faith) — −2
 
 ### Tell him the valley deserves judgment
 - **When:** The player answers his question toward condemnation.
-- **Outcome:** ks. Pająk leans harder toward judgment.
+- **Outcome:** [@title](../characters/priest.md) [@surname](../characters/priest.md) leans harder toward judgment.
 - **Gives:** [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
 - **Changes:** [Crisis of Faith](../characters/priest.md#crisis-of-faith) — −2
 
 ### Share his cigarette
-- **When:** ks. Pająk genuinely trusts the player (mercy supported, or a personal confidence shared in return)
+- **When:** [@title](../characters/priest.md) [@surname](../characters/priest.md) genuinely trusts the player (mercy supported, or a personal confidence shared in return)
 - **Prompted by:** aware:events/priests-plea.md
 - **Outcome:** He drops the pretence, takes out a cigarette for himself and offers one to the player. The habit he hides from the village is plain.
 - **Gives:** [`priest-smokes`](../clues/clues.md#priest-smokes)
@@ -80,6 +80,6 @@
 ## If Missed
 
 - If no player earns his trust, this event never fires.
-- ks. Pająk carries the fear alone.
+- [@title](../characters/priest.md) [@surname](../characters/priest.md) carries the fear alone.
 - His crisis defaults toward judgment across [@name](second-flood-mass.md) and [@name](the-seal-break.md).
 - The Grace path can still open if the guilty are brought to confess.

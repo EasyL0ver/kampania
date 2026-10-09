@@ -4,49 +4,49 @@
 
 **Location:** [@name](../locations/matronas-house.md)
 **Present:** [@name](../characters/painter.md), [@name](../characters/matrona.md) (if present)
-**Available:** Any time players seek out Emil.
+**Available:** Any time players seek out [@first-name](../characters/painter.md).
 
 ## Trigger
 
-- The players speak with Emil Rzepka at work, at church, or at home.
-- Emil wants to confess about 1954.
-- Helena's presence determines whether Emil can speak.
+- The players speak with [@name](../characters/painter.md) at work, at church, or at home.
+- [@first-name](../characters/painter.md) wants to confess about 1954.
+- [@first-name](../characters/matrona.md)'s presence determines whether [@first-name](../characters/painter.md) can speak.
 
 ## Hook
 
-- Players may notice Emil watching Helena before he answers questions.
-- Players may notice Emil deferring to Helena in public scenes.
+- Players may notice [@first-name](../characters/painter.md) watching [@first-name](../characters/matrona.md) before he answers questions.
+- Players may notice [@first-name](../characters/painter.md) deferring to [@first-name](../characters/matrona.md) in public scenes.
 
 ## Setup
 
-- Emil chooses words carefully when Helena is nearby.
-- Emil glances toward doors, windows, and Helena before answering.
-- Helena supplies a polished version of events if questioned.
-- Helena's account casts her as a betrayed fiancée who told her brothers and did not control what followed.
-- Emil shuts down immediately if Helena enters mid-conversation.
-- Helena treats Emil's silence as expected household order.
+- [@first-name](../characters/painter.md) chooses words carefully when [@first-name](../characters/matrona.md) is nearby.
+- [@first-name](../characters/painter.md) glances toward doors, windows, and [@first-name](../characters/matrona.md) before answering.
+- [@first-name](../characters/matrona.md) supplies a polished version of events if questioned.
+- [@first-name](../characters/matrona.md)'s account casts her as a betrayed fiancée who told her brothers and did not control what followed.
+- [@first-name](../characters/painter.md) shuts down immediately if [@first-name](../characters/matrona.md) enters mid-conversation.
+- [@first-name](../characters/matrona.md) treats [@first-name](../characters/painter.md)'s silence as expected household order.
 
 ## Opportunities
 
-- **Emil alone** `(when: Emil is away from Helena)` `(noticed by: [Empathy](../cards/empathy.md))` — Emil is close to speaking but will only give fragments in one conversation. → Gives: [`painter-wants-to-confess`](../clues/clues.md#painter-wants-to-confess)
-- **Helena's performance** `(noticed by: [Finesse](../cards/finesse.md))` — Helena's version is rehearsed and protects her from responsibility for what the men did. → Gives: [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter)
-- **The control mechanism** `(noticed by: [Empathy](../cards/empathy.md))` — Emil's silence changes instantly when Helena can hear him. → Gives: [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter)
+- **[@first-name](../characters/painter.md) alone** `(when: [@first-name](../characters/painter.md) is away from [@first-name](../characters/matrona.md))` `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/painter.md) is close to speaking but will only give fragments in one conversation. → Gives: [`painter-wants-to-confess`](../clues/clues.md#painter-wants-to-confess)
+- **[@first-name](../characters/matrona.md)'s performance** `(noticed by: [Finesse](../cards/finesse.md))` — [@first-name](../characters/matrona.md)'s version is rehearsed and protects her from responsibility for what the men did. → Gives: [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter)
+- **The control mechanism** `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/painter.md)'s silence changes instantly when [@first-name](../characters/matrona.md) can hear him. → Gives: [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter)
 
 ## Actions
 
 ### Get Emil Rzepka alone
-- **When:** Find Emil without Helena at work, in the field, at the church, or away from her inside the house
+- **When:** Find [@first-name](../characters/painter.md) without [@first-name](../characters/matrona.md) at work, in the field, at the church, or away from her inside the house
 - **Cost:** 1 time
-- **Outcome:** Emil gives the night in fragments: the affair, the attack, being beaten and dragged away, and Helena's voice giving instructions.
+- **Outcome:** [@first-name](../characters/painter.md) gives the night in fragments: the affair, the attack, being beaten and dragged away, and [@first-name](../characters/matrona.md)'s voice giving instructions.
 - **Gives:** [`painter-heard-matrona`](../clues/clues.md#painter-heard-matrona), [`painter-was-spared`](../clues/clues.md#painter-was-spared)
 
 ## Exits
 
 - Continue pressure at [@name](../locations/matronas-house.md).
-- Follow Emil in another public scene where Helena is absent.
-- Escalate toward Helena's family through [@name](../characters/wojewoda.md).
+- Follow [@first-name](../characters/painter.md) in another public scene where [@first-name](../characters/matrona.md) is absent.
+- Escalate toward [@first-name](../characters/matrona.md)'s family through [@name](../characters/wojewoda.md).
 
 ## If Missed
 
-- Emil remains trapped under Helena's control.
-- Helena's version holds until another route exposes her role in 1954.
+- [@first-name](../characters/painter.md) remains trapped under [@first-name](../characters/matrona.md)'s control.
+- [@first-name](../characters/matrona.md)'s version holds until another route exposes her role in 1954.

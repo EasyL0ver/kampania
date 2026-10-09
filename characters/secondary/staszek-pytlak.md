@@ -4,7 +4,7 @@
 
 ## Hook
 
-- Staszek Pytlak, a small village boy, [@name](../pawelek.md)'s playmate.
+- [@first-name](staszek-pytlak.md) [@surname](staszek-pytlak.md), a small village boy, [@name](../pawelek.md)'s playmate.
 
 ## Vital Statistics
 
@@ -19,7 +19,7 @@
 
 ## Character
 
-A slightly older village child who plays with Pawełek Kopacz before the illness. He may know where Pawełek Kopacz drank contaminated water, or he may only remember fragments.
+A slightly older village child who plays with [@name](../pawelek.md) before the illness. He may know where [@name](../pawelek.md) drank contaminated water, or he may only remember fragments.
 
 ## Appearance
 
@@ -29,7 +29,7 @@ A slightly older village child who plays with Pawełek Kopacz before the illness
 
 ## Opportunities
 
-- **Which mushrooms** `(when: asked about their last day)` `(noticed by: [Survival](../../cards/survival.md))` — pressed on which kind, it is clear the boys know their mushrooms: ordinary edible ones, and Staszek ate the same and stayed well. → Gives: [pawelek-mushrooms-were-harmless](../../clues/clues.md#pawelek-mushrooms-were-harmless)
+- **Which mushrooms** `(when: asked about their last day)` `(noticed by: [Survival](../../cards/survival.md))` — pressed on which kind, it is clear the boys know their mushrooms: ordinary edible ones, and [@first-name](staszek-pytlak.md) ate the same and stayed well. → Gives: [pawelek-mushrooms-were-harmless](../../clues/clues.md#pawelek-mushrooms-were-harmless)
 
 ## Actions
 

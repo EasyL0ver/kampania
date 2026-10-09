@@ -1,21 +1,21 @@
 # PGR Office
 
 **Type:** Location (revisitable)
-**Location:** Zbigniew Gajda's office in the PGR main building.
+**Location:** [@name](../characters/wojewoda.md)'s office in the PGR main building.
 **Present:** [@name](../characters/wojewoda.md) (usually during day)
 **Available:** After arrival event
 **Cost:** 1 action per visit
 
 ## Hook
 
-Zbigniew Gajda's office in the PGR main building.
+[@name](../characters/wojewoda.md)'s office in the PGR main building.
 
 ## Setup
 
 - The room contains a clean desk, heavy bakelite phone, ledgers, topographic maps, a shelf, and a heavy iron wall safe.
 - The safe is old, official, and locked.
 - Tea is usually on the table.
-- Zbigniew Gajda works here and receives visitors here.
+- [@name](../characters/wojewoda.md) works here and receives visitors here.
 - The phone is the only phone in the village.
 - The maps show topography, rivers, old boundaries, and %OLD_VILLAGE%.
 - The ledger is on the desk during census work.
@@ -29,13 +29,13 @@ Zbigniew Gajda's office in the PGR main building.
 ## Actions
 
 ### Steal the maps
-- **When:** Zbigniew Gajda absent or distracted
+- **When:** [@name](../characters/wojewoda.md) absent or distracted
 - **Cost:** 1 time
-- **Outcome:** Players take the maps; Zbigniew Gajda will notice eventually.
+- **Outcome:** Players take the maps; [@name](../characters/wojewoda.md) will notice eventually.
 - **Gives:** [@name](../items/topographic-maps.md)
 
 ### Call the survey archive
-- **When:** Phone access (monitored if Zbigniew Gajda is present)
+- **When:** Phone access (monitored if [@name](../characters/wojewoda.md) is present)
 - **Prompted by:** [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
 - **Cost:** 1 time
 - **Outcome:** The district survey archive confirms the previous crew filed a thin report, drove only a handful of stakes, and closed the job early. On the record it reads as thin work, well short of a proper survey.
@@ -61,7 +61,7 @@ Zbigniew Gajda's office in the PGR main building.
 - **Gives:** [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent)
 
 ### Crack the safe
-- **When:** Zbigniew Gajda absent or distracted, and a way to open the safe
+- **When:** [@name](../characters/wojewoda.md) absent or distracted, and a way to open the safe
 - **Cost:** 1 time
 - **Outcome:** The safe contains the sołtys's loaded pistol and [@name](../items/barnas-departure-declaration.md).
 - **Gives:** [@name](../items/barnas-departure-declaration.md), [departure-declaration-forged](../clues/clues.md#departure-declaration-forged), [@name](../items/soltys-pistol.md)

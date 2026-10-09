@@ -10,7 +10,7 @@
 
 ## Description
 
-A blue dress, worn but clean. It is folded and set at the back of the wardrobe, kept rather than thrown out or handed down, put away with some care. No one wears it in Janina's house now.
+A blue dress, worn but clean. It is folded and set at the back of the wardrobe, kept rather than thrown out or handed down, put away with some care. No one wears it in [@first-name](../characters/ciotka.md)'s house now.
 
 ## Opportunities
 

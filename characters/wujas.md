@@ -5,11 +5,12 @@
 
 ## Hook
 
-Tadek Gajda, the sołtys's brother and the village drunk, rarely without a bottle.
+[@nickname](wujas.md) [@surname](wujas.md), the sołtys's brother and the village drunk, rarely without a bottle.
 
 ## Vital Statistics
 
-- **First name:** Tadek
+- **First name:** Tadeusz
+- **Nickname:** Tadek
 - **Surname:** Gajda
 - **Status:** Resident
 - **Born:** 1925
@@ -19,7 +20,7 @@ Tadek Gajda, the sołtys's brother and the village drunk, rarely without a bottl
 
 ## Character
 
-Alcoholic wreck and the weakest link in the cover-up. He helped in the 1954 lynch, let Hania run, and has drowned the guilt in bimber for thirteen years.
+Alcoholic wreck and the weakest link in the cover-up. He helped in the 1954 lynch, let [@first-name](jagna.md) run, and has drowned the guilt in bimber for thirteen years.
 
 ## Appearance
 
@@ -40,7 +41,7 @@ His raspy warm voice gets louder and funnier with drink. The morning shakes and 
 
 ### Drinking Buddy
 
-Tadek's guard only drops for people who drink with him. Unlike a [Bond](#bond), this is not exclusive and not hidden — **any** number of PCs can become drinking buddies, and a player can feel themselves being pulled into his circle.
+[@nickname](wujas.md)'s guard only drops for people who drink with him. Unlike a [Bond](#bond), this is not exclusive and not hidden — **any** number of PCs can become drinking buddies, and a player can feel themselves being pulled into his circle.
 
 **Becoming a buddy** (GM tracks silently, no announcement):
 - Share a full drinking session with him — Drink skill or the Alcoholic card. Nursing a glass or refusing does not count. The entry point is [Drink with the crew](#drink-with-the-crew) at the store, or drinking with him at [@name](../events/dinner.md).
@@ -50,42 +51,42 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 
 ### Crew Hostile
 
-Tadek's drinking crew ([@name](secondary/szymek-kepa.md), [@name](secondary/romek-glowacz.md), [@name](secondary/franek-mucha.md)) shares one state.
+[@nickname](wujas.md)'s drinking crew ([@name](secondary/szymek-kepa.md), [@name](secondary/romek-glowacz.md), [@name](secondary/franek-mucha.md)) shares one state.
 
 - Set by [@name](../events/caught-at-the-still.md), when the committee fights the whole crew or pulls a gun on them.
 - While Hostile: the crew is a standing enemy of the committee — no gossip, no drinking buddies, no cooperation. They move the still to a new site.
-- Not set if only Franek is fought after Tadek vouches, or if the standoff is defused peacefully.
+- Not set if only [@first-name](secondary/franek-mucha.md) is fought after [@nickname](wujas.md) vouches, or if the standoff is defused peacefully.
 
 ## Opportunities
 
-- **Smoking while drinking** `(when: Tadek present and drinking at the [@name](../locations/bimber-still.md) or the [@name](../locations/the-store.md), and Chainsmoker)` `(prompted by: aware:characters/wujas.md)` — With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen. → Gives: [`tadek-smokes-cheapest`](../clues/clues.md#tadek-smokes-cheapest)
+- **Smoking while drinking** `(when: [@nickname](wujas.md) present and drinking at the [@name](../locations/bimber-still.md) or the [@name](../locations/the-store.md), and Chainsmoker)` `(prompted by: aware:characters/wujas.md)` — With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen. → Gives: [`tadek-smokes-cheapest`](../clues/clues.md#tadek-smokes-cheapest)
 - **Census nerves** `(when: Census interview)` `(noticed by: [Empathy](../cards/empathy.md))` — he is not nervous about the census; he is nervous about being asked anything at all. → Gives: [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
-- **Drunk census performance** `(when: Census interview, Tadek is drunk)` — he turns the answers into absurd village theatre.
-- **Drunk property performance** `(when: Property assessment, Tadek is drunk)` — he claims a fake grand estate made of the still, his brother's house, and moonlight.
+- **Drunk census performance** `(when: Census interview, [@nickname](wujas.md) is drunk)` — he turns the answers into absurd village theatre.
+- **Drunk property performance** `(when: Property assessment, [@nickname](wujas.md) is drunk)` — he claims a fake grand estate made of the still, his brother's house, and moonlight.
 
 ## Actions
 
 ### Drink with the crew
-- **When:** Drink or Alcoholic; crew present (outside the [@name](../locations/the-store.md) or at the [@name](../locations/bimber-still.md)) or an invitation from Tadek; the crew is not [Hostile](#crew-hostile)
+- **When:** Drink or Alcoholic; crew present (outside the [@name](../locations/the-store.md) or at the [@name](../locations/bimber-still.md)) or an invitation from [@nickname](wujas.md); the crew is not [Hostile](#crew-hostile)
 - **Cost:** 1 time
-- **Outcome:** The committee buys a round and shares a full session in the drinking circle. Tadek warms to whoever kept pace without judging him.
-- **Changes:** [Drinking Buddy](#drinking-buddy) — the drinking PCs become Tadek's drinking buddies
+- **Outcome:** The committee buys a round and shares a full session in the drinking circle. [@nickname](wujas.md) warms to whoever kept pace without judging him.
+- **Changes:** [Drinking Buddy](#drinking-buddy) — the drinking PCs become [@nickname](wujas.md)'s drinking buddies
 
 ### Get shitfaced with Tadek
 - **When:** [drinking buddy](#drinking-buddy)
 - **Cost:** 2 time + 1 composure
-- **Outcome:** The committee drinks Tadek past the point of guard. He gets loud, then maudlin, and grief for a woman he won't name slips out before he can catch it.
+- **Outcome:** The committee drinks [@nickname](wujas.md) past the point of guard. He gets loud, then maudlin, and grief for a woman he won't name slips out before he can catch it.
 - **Gives:** [`wujas-misses-someone`](../clues/clues.md#wujas-misses-someone)
 
 ### Ask about the butcher
 - **When:** [drinking buddy](#drinking-buddy)
 - **Prompted by:** aware:characters/butcher.md
-- **Outcome:** Loose with drink, Tadek remembers [@name](butcher.md) sitting in on the crew's sessions years back, bottle in hand like any of them. Then one day he just stopped, and never came back to the fire.
+- **Outcome:** Loose with drink, [@nickname](wujas.md) remembers [@name](butcher.md) sitting in on the crew's sessions years back, bottle in hand like any of them. Then one day he just stopped, and never came back to the fire.
 - **Gives:** [`butcher-used-to-drink-with-the-crew`](../clues/clues.md#butcher-used-to-drink-with-the-crew)
 
 ### Leverage — the bimber play, second visit
 - **When:** First leverage visit completed and well influence active
-- **Outcome:** The bottle is not working, and half-sentences slip out around Hania before he catches himself.
+- **Outcome:** The bottle is not working, and half-sentences slip out around [@first-name](jagna.md) before he catches himself.
 - **Gives:** [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
 
 ### Leverage — the bimber play, third visit
@@ -96,17 +97,17 @@ Tadek's drinking crew ([@name](secondary/szymek-kepa.md), [@name](secondary/rome
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** He gives his name and age, reaches for the bottle, and tries to end the questions quickly.
-- **Changes:** [Census](../items/census.md#census) — Tadek Gajda, no fixed household
+- **Changes:** [Census](../items/census.md#census) — [@nickname](wujas.md) [@surname](wujas.md), no fixed household
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** He says he owns nothing and drifts between siblings' kitchens and the still.
-- **Changes:** [Property Record](../items/census.md#property-record) — Tadek holds no property, dependent on family
+- **Changes:** [Property Record](../items/census.md#property-record) — [@nickname](wujas.md) holds no property, dependent on family
 
 ### Get Pawełek the penicillin
 - **Prompted by:** [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin), [wujas-is-paweleks-father](../clues/clues.md#wujas-is-paweleks-father)
 - **Cost:** 1 time
-- **Outcome:** Faced with the sick boy being his own, Tadek goes to his sister [@name](matrona.md). She opens the cabinet for her brother and counts out a child's course, and no census changes hands.
+- **Outcome:** Faced with the sick boy being his own, [@nickname](wujas.md) goes to his sister [@name](matrona.md). She opens the cabinet for her brother and counts out a child's course, and no census changes hands.
 - **Gives:** [@name](../items/penicillin.md)
 
 ## Bond

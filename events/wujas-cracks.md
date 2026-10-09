@@ -6,23 +6,23 @@
 
 ## Trigger
 
-- Tadek has been drinking himself to death for 13 years.
+- [@nickname](../characters/wujas.md) has been drinking himself to death for 13 years.
 - The committee's questions increase pressure.
 - The rain and rising water increase pressure.
 - [@name](../characters/ciotka.md)'s death increases pressure if it has happened.
-- Tadek becomes the weakest link in the cover-up.
+- [@nickname](../characters/wujas.md) becomes the weakest link in the cover-up.
 
 ## Hook
 
-- Tadek gets louder at the drinking spot.
+- [@nickname](../characters/wujas.md) gets louder at the drinking spot.
 - Villagers overhear fragments about a woman and the well.
 - [@name](../characters/wojewoda.md) watches his brother more closely.
 
 ## Setup
 
-- Tadek is drunker than usual.
+- [@nickname](../characters/wujas.md) is drunker than usual.
 - His jokes turn into half-confessions.
-- He repeats Hania's name.
+- He repeats [@first-name](../characters/jagna.md)'s name.
 - He cannot keep a single story straight.
 - He reaches for the bottle whenever the 1954 night is near.
 
@@ -30,14 +30,14 @@
 
 - **Close to breaking** `(noticed by: [Empathy](../cards/empathy.md))` — he is not performing drunkenness; he is losing control of the secret. → Gives: [wujas-is-guilty](../clues/clues.md#wujas-is-guilty)
 - **Missing a woman** `(noticed by: [Empathy](../cards/empathy.md) OR [Physique](../cards/physique.md))` — his fragments circle one woman and one night. → Gives: [`wujas-misses-someone`](../clues/clues.md#wujas-misses-someone)
-- **Blackmail story cracks** `(noticed by: [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret) AND [Empathy](../cards/empathy.md))` — his guilt focuses on the fact that Hania never used what she knew. → Gives: [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret)
+- **Blackmail story cracks** `(noticed by: [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret) AND [Empathy](../cards/empathy.md))` — his guilt focuses on the fact that [@first-name](../characters/jagna.md) never used what she knew. → Gives: [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret)
 
 ## Actions
 
 ### Let him confess
-- **When:** Bond with [@name](../characters/wujas.md) or prior humane treatment; Tadek is not being threatened
+- **When:** Bond with [@name](../characters/wujas.md) or prior humane treatment; [@nickname](../characters/wujas.md) is not being threatened
 - **Cost:** 1 time
-- **Outcome:** Tadek gives the lynch in fragments: Hania knew the family secret and never used it, Helena's threat story was false, Edward came with the rifle, Edward was killed, his body went to the well, and Hania broke free and ran into the night.
+- **Outcome:** [@nickname](../characters/wujas.md) gives the lynch in fragments: [@first-name](../characters/jagna.md) knew the family secret and never used it, [@first-name](../characters/matrona.md)'s threat story was false, [@first-name](../characters/soldier.md) came with the rifle, [@first-name](../characters/soldier.md) was killed, his body went to the well, and [@first-name](../characters/jagna.md) broke free and ran into the night.
 - **Gives:** [jagna-knew-the-secret](../clues/clues.md#jagna-knew-the-secret), [`wujas-participated-in-lynch`](../clues/clues.md#wujas-participated-in-lynch), [`wojewoda-participated-in-lynch`](../clues/clues.md#wojewoda-participated-in-lynch), [`butcher-participated-in-lynch`](../clues/clues.md#butcher-participated-in-lynch), [`soldier-killed-defending-daughter`](../clues/clues.md#soldier-killed-defending-daughter), [`lynch-body-in-well`](../clues/clues.md#lynch-body-in-well), [`butcher-dumped-the-body`](../clues/clues.md#butcher-dumped-the-body), [`jagna-fled-the-lynch`](../clues/clues.md#jagna-fled-the-lynch)
 
 ## Exits
@@ -49,6 +49,6 @@
 
 ## If Missed
 
-- Tadek follows the dangerous spiral by default.
+- [@nickname](../characters/wujas.md) follows the dangerous spiral by default.
 - He leaks fragments in public but does not form usable testimony.
 - [@name](../characters/wojewoda.md) or [@name](../characters/butcher.md) may decide to silence him.

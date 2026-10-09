@@ -37,8 +37,8 @@ Gathering ritual materials and arranging them at the well or cerkiew.
 ## Opportunities
 
 - **Lemko rite** `(when: ritual materials visible)` `(noticed by: [Culture](../cards/culture.md))` — the rite uses fire, incense, offerings, and prayer for unquiet dead. → Gives: [`hag-tends-the-well`](../clues/clues.md#hag-tends-the-well), [`dead-never-mourned`](../clues/clues.md#dead-never-mourned)
-- **Paraskewia shares the burden** `(when: [@name](../characters/hag.md) present)` `(noticed by: [Empathy](../cards/empathy.md))` — she lets the players speak the truth she did not know.
-- **Stefania is lucid** `(when: [@name](../characters/babcia.md) present and Empathy or Language)` — she speaks the panakhyda completely.
+- **[@first-name](../characters/hag.md) shares the burden** `(when: [@name](../characters/hag.md) present)` `(noticed by: [Empathy](../cards/empathy.md))` — she lets the players speak the truth she did not know.
+- **[@first-name](../characters/babcia.md) is lucid** `(when: [@name](../characters/babcia.md) present and Empathy or Language)` — she speaks the panakhyda completely.
 - **No court required** `(noticed by: [Culture](../cards/culture.md))` — the rite requires naming and acknowledgement, not proof accepted by an authority. → Gives: [`players-supply-truth`](../clues/clues.md#players-supply-truth)
 
 ## Exits
@@ -49,7 +49,7 @@ Gathering ritual materials and arranging them at the well or cerkiew.
 
 ## If Missed
 
-- The well is not acknowledged by anyone beyond Paraskewia's incomplete rite for the [1947](../story-facts/old-village-massacre.md) dead.
+- The well is not acknowledged by anyone beyond [@first-name](../characters/hag.md)'s incomplete rite for the [1947](../story-facts/old-village-massacre.md) dead.
 - The unmourned [1954](../story-facts/the-lynch.md) death remains outside the rite.
 - The dreams escalate to the end.
 - The flood completes the [second erasure](../story-facts/old-village-massacre.md).

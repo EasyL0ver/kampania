@@ -5,7 +5,7 @@
 
 ## Hook
 
-Zbigniew Gajda, the village sołtys and principal official, received at his house or office.
+[@first-name](wojewoda.md) [@surname](wojewoda.md), the village sołtys and principal official, received at his house or office.
 
 ## Vital Statistics
 
@@ -35,12 +35,12 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 
 - **[@name](wife.md)** — "My wife. Thirteen years, and she still keeps a good house. Leave her out of committee business."
   - *(Bond):* "I'll be honest — I've waved off my wife's opinions for years. Habit. She's a clever woman and I didn't always treat her like one."
-  - *(Braced):* "I used to brush past what Irena thought. Not anymore. She's the sharpest person in this house, and I've finally the sense to listen to her."
+  - *(Braced):* "I used to brush past what [@first-name](wife.md) thought. Not anymore. She's the sharpest person in this house, and I've finally the sense to listen to her."
 - **[@name](junior.md)** — "My son. He has a temper and too much time. He'll settle when he grows up."
 - **[@name](matrona.md)** — "My sister runs the store and half the village with it. A capable woman. We don't always agree."
-  - *(Bond):* "Helena decides what this village remembers. I keep order; she keeps the story. I don't always know which of us is in charge."
+  - *(Bond):* "[@first-name](matrona.md) decides what this village remembers. I keep order; she keeps the story. I don't always know which of us is in charge."
 - **[@name](wujas.md)** — "My brother drinks. He's harmless. I keep an eye on him because family is family."
-  - *(Bond):* "Tadek wasn't always like this. Something broke in him and never mended. I've carried him for thirteen years and I'm tired."
+  - *(Bond):* "[@nickname](wujas.md) wasn't always like this. Something broke in him and never mended. I've carried him for thirteen years and I'm tired."
 - **[@name](butcher.md)** — "The butcher keeps to himself out past the treeline. He does the work no one else will. I have no complaints."
   - *(Bond):* "A man like that needs a firm hand and a long leash. As long as I hold this village, he stays where I've put him. Pray he stays there."
 - **[@name](officer.md)** — "The lieutenant looks in from time to time. Routine. I report what there is to report."
@@ -48,7 +48,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **[@name](jagna.md)** — "The Barnaś family? They left in '54. People do leave. I don't recall much past that."
 - **[wujas-is-guilty](../clues/clues.md#wujas-is-guilty)** — "My brother drinks; that is not a crime. Leave him alone."
 - **[church-too-nice](../clues/clues.md#church-too-nice)** — "The parish gets what it needs through the farm. A church in good repair keeps the village in order and the priest content — money well spent, not a mystery."
-- **[irena-is-watchful](../clues/clues.md#irena-is-watchful)** — "Irena listens at doors when strangers are in the house. She worries; that is all. Don't read into a woman standing in her own hallway."
+- **[irena-is-watchful](../clues/clues.md#irena-is-watchful)** — "[@first-name](wife.md) listens at doors when strangers are in the house. She worries; that is all. Don't read into a woman standing in her own hallway."
 - **[junior-drinks-with-crew](../clues/clues.md#junior-drinks-with-crew)** — "He drinks with his uncle's crowd. He's young; every young man does something to spite his father. It's nothing."
 - **[wujas-misses-someone](../clues/clues.md#wujas-misses-someone)** — "My brother gets sentimental in his cups. Old sweethearts, old songs — drunks always weep for something. It means nothing."
 - **[@name](../locations/village-outskirts.md)** — "It sits above the flood line, on the plan and in fact. The state left us a concrete drain off the fields; when the water rises, the ditch carries it away. Let it come."
@@ -62,11 +62,11 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 
 ### Compliance
 
-- A flag, true or false. Starts false. True when Zbigniew is convinced to disclose the flood willingly and shields the players. Forcing the disclosure on him leaves it false.
+- A flag, true or false. Starts false. True when [@first-name](wojewoda.md) is convinced to disclose the flood willingly and shields the players. Forcing the disclosure on him leaves it false.
 
 ### Flood Awareness
 
-- How far Zbigniew believes the flood line is wrong: **unaware → suspicious → needProof → convinced**.
+- How far [@first-name](wojewoda.md) believes the flood line is wrong: **unaware → suspicious → needProof → convinced**.
 - A counter that only ever goes up. Nothing the players do lowers it.
 - Starts at **unaware**.
 
@@ -79,12 +79,12 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** He gives the whole household's details himself.
-- **Changes:** [Census](../items/census.md#census) — Zbigniew, Irena, Marek
+- **Changes:** [Census](../items/census.md#census) — [@first-name](wojewoda.md), [@first-name](wife.md), [@first-name](junior.md)
 
 ### Ask for the village household roster
 - **Prompted by:** [committee-fills-census](../clues/clues.md#committee-fills-census)
 - **Cost:** 1 time
-- **Outcome:** As the committee's point of contact, he runs down who lives where. Among the households he names his sister [@name](ciotka.md), the widow who keeps the best house at the edge of the village and cares for the boy, living apart from the rest. He also names [@name](neighbour.md), the neighbour whose house sits between Janina's and Barbara's, and the Rzepka household, where [@name](painter.md), the local painter, lives with his wife.
+- **Outcome:** As the committee's point of contact, he runs down who lives where. Among the households he names his sister [@name](ciotka.md), the widow who keeps the best house at the edge of the village and cares for the boy, living apart from the rest. He also names [@name](neighbour.md), the neighbour whose house sits between [@first-name](ciotka.md)'s and [@first-name](barbara.md)'s, and the Rzepka household, where [@name](painter.md), the local painter, lives with his wife.
 - **Gives:** aware:characters/ciotka.md, aware:characters/neighbour.md, aware:characters/painter.md
 
 ### Property assessment
@@ -114,7 +114,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 
 ### Reveal the risk of the village drowning
 - **Prompted by:** [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
-- **Outcome:** The committee raises the risk without proof: the flood line may be wrong, the valley may not drain. Zbigniew does not need convincing to act careful. He immediately calls for [@name](foreman.md) and, telling him the warning, orders him to put the farm, his men, and himself at the committee's disposal.
+- **Outcome:** The committee raises the risk without proof: the flood line may be wrong, the valley may not drain. [@first-name](wojewoda.md) does not need convincing to act careful. He immediately calls for [@name](foreman.md) and, telling him the warning, orders him to put the farm, his men, and himself at the committee's disposal.
 - **Changes:** [Flood Awareness](#flood-awareness) — rises to needProof
 
 ### Convince him to reveal the flood
@@ -145,7 +145,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **When:** [@name](../events/wojewodas-ask.md) is underway
 - **Prompted by:** [ciotka-house-is-wojewodas](../clues/clues.md#ciotka-house-is-wojewodas)
 - **Cost:** 1 time
-- **Outcome:** He says the house was abandoned, left to the state, and administered by the farm; he put Janina in it because she keeps the boy and the place.
+- **Outcome:** He says the house was abandoned, left to the state, and administered by the farm; he put [@first-name](ciotka.md) in it because she keeps the boy and the place.
 - **Gives:** [`ciotka-house-is-pgrs`](../clues/clues.md#ciotka-house-is-pgrs)
 
 ### Show the paperwork for Janina's house

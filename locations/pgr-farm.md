@@ -18,9 +18,9 @@ The State Agricultural Farm: fields, barns, livestock pens, tool shed.
 - Chickens move between the buildings.
 - The [@name](pgr-office.md) is in the main building.
 - The [@name](pgr-quarters.md) sit behind the main buildings.
-- Michał Pytlak works in the fields, barns, or feed areas during the day.
-- Józef Nowak and Piotr Wiśniewski keep working unless addressed.
-- Barbara Kopacz works apart from the men.
+- [@name](../characters/foreman.md) works in the fields, barns, or feed areas during the day.
+- [@name](../characters/secondary/jozef-nowak.md) and [@name](../characters/secondary/piotr-wisniewski.md) keep working unless addressed.
+- [@name](../characters/barbara.md) works apart from the men.
 - A battered wooden desk in the tool shed holds supply orders, receipts, delivery slips, the [@name](../items/pgr-ledger.md), and the [@name](../items/pgr-expenses.md).
 - The farm has 7 real workers present or accounted for.
 - The ledger lists 8 workers.
@@ -36,13 +36,13 @@ The State Agricultural Farm: fields, barns, livestock pens, tool shed.
 
 ### Inspect the farm books
 - **Cost:** 1 time
-- **Outcome:** The farm books show mostly ordinary farm spending, plus Tadeusz Mazur listed as a current worker drawing wages with no work logs for the past two years.
+- **Outcome:** The farm books show mostly ordinary farm spending, plus [@name](../characters/tadeusz-mazur.md) listed as a current worker drawing wages with no work logs for the past two years.
 - **Gives:** [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent), [@name](../items/pgr-ledger.md), [@name](../items/pgr-expenses.md)
 
 ### Report wolf damage
 - **When:** Day 1+ and wolf damage visible
 - **Prompted by:** aware:locations/pgr-farm.md
-- **Outcome:** Michał shows dead sheep, patched fences, and tracks.
+- **Outcome:** [@first-name](../characters/foreman.md) shows dead sheep, patched fences, and tracks.
 - **Gives:** [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock), aware:events/wolf-attack.md
 
 ### Join the hunt

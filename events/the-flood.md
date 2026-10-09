@@ -19,7 +19,7 @@
 - The bridge over the creek is underwater.
 - The creek has become a flood channel.
 - The village is cut off.
-- por. Witold Skowron was supposed to return yesterday and has not.
+- [@name](../characters/officer.md) was supposed to return yesterday and has not.
 - There is no car, word, or explanation from him.
 - The phone in [@name](../characters/wojewoda.md)'s office is the only connection to the outside if the line works.
 - Villagers are already working with sandbags near lower houses.
@@ -35,15 +35,15 @@
 
 - **The washed-out road** `(noticed by: [Handiwork](../cards/handiwork.md))` — the road failed because poor drainage and weak foundation met heavy rain. Repair will take days after the water drops. → Gives: [`road-washes-out`](../clues/clues.md#road-washes-out)
 - **The office phone** `(noticed by: [Finesse](../cards/finesse.md))` — [@name](../characters/wojewoda.md) offers access and stays close enough to hear what is reported.
-- **The village response** `(noticed by: [Finesse](../cards/finesse.md))` — Zbigniew gives quiet orders, [@name](../characters/foreman.md) runs the PGR response, and villagers ignore outsider attempts to lead.
+- **The village response** `(noticed by: [Finesse](../cards/finesse.md))` — [@first-name](../characters/wojewoda.md) gives quiet orders, [@name](../characters/foreman.md) runs the PGR response, and villagers ignore outsider attempts to lead.
 - **The rising water table** `(when: prior visit to [@name](../locations/old-village-ruins.md))` `(noticed by: [Handiwork](../cards/handiwork.md))` — the well at the old village is filling too. → Gives: [`old-village-flooding`](../clues/clues.md#old-village-flooding)
 
 ## Actions
 
 ### Try the phone
-- **When:** Access to Zbigniew's office.
+- **When:** Access to [@first-name](../characters/wojewoda.md)'s office.
 - **Cost:** 1 time
-- **Outcome:** The line may reach the powiat office, fail, or route through the exchange. Any outside call is unreliable and monitored if Zbigniew is present.
+- **Outcome:** The line may reach the powiat office, fail, or route through the exchange. Any outside call is unreliable and monitored if [@first-name](../characters/wojewoda.md) is present.
 - **Gives:** aware:events/operator-refuses-help.md
 
 ### Help with flood response

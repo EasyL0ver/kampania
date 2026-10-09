@@ -4,7 +4,7 @@
 
 ## Hook
 
-- Piotr Wiśniewski, a young farmhand at the PGR farm.
+- [@first-name](piotr-wisniewski.md) [@surname](piotr-wisniewski.md), a young farmhand at the PGR farm.
 
 ## Vital Statistics
 

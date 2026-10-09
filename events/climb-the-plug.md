@@ -27,7 +27,7 @@ Facing the steep plug at the ridge gap.
 
 - **The Foot of the Plug** `(noticed by: [Survival](../cards/survival.md))` — The lower bank seems easy; the traverse will need a rope. The top pitch can't be read from here.
 - **Mud Underfoot** `(noticed by: [Physique](../cards/physique.md))` — Seems easy.
-- **Two on the Rope** `(noticed by: [Handiwork](../cards/handiwork.md) AND [@name](../items/rope.md))` — Securing a fall on this needs two people on the line, not one.
+- **Two on the [@name](../items/rope.md)** `(noticed by: [Handiwork](../cards/handiwork.md) AND [@name](../items/rope.md))` — Securing a fall on this needs two people on the line, not one.
 - **The Anatomy of a Fall** `(noticed by: [Medicine](../cards/medicine.md))` — A slip off the lower bank is bruises and mud. Off the traverse onto the rock, broken bones. From the top pitch you break badly. None of it kills you by itself; a fall here hurts, it doesn't kill.
 - **A Soldier's Eye** `(noticed by: [Violence](../cards/violence.md))` — You've seen men fall. Roughly: the bank bruises, the traverse breaks bones, the top breaks you badly, but none of it puts a man in the ground. Less exact than a medic's read, close enough.
 - **The Crossing** `(when: climbed past lower bank)` `(noticed by: [Physique](../cards/physique.md))` — Looks very steep, but I think I can take it.

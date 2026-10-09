@@ -5,7 +5,7 @@
 
 ## Hook
 
-Irena Gajda, the sołtys's wife.
+[@first-name](wife.md) [@surname](wife.md), the sołtys's wife.
 
 ## Vital Statistics
 
@@ -15,11 +15,11 @@ Irena Gajda, the sołtys's wife.
 - **Born:** 1924
 - **Age in 1967:** 43
 - **Lives in:** [@name](../locations/wojewodas-house.md) — with [@name](wojewoda.md), [@name](junior.md)
-- **Settled:** ~1948 — first wave, with Zbigniew
+- **Settled:** ~1948 — first wave, with [@first-name](wojewoda.md)
 
 ## Character
 
-Intelligent, observant, and dismissed. She has quietly investigated the 1954 disappearance for years, using Marek as her field agent, but she has avoided the thread that points at her husband.
+Intelligent, observant, and dismissed. She has quietly investigated the 1954 disappearance for years, using [@first-name](junior.md) as her field agent, but she has avoided the thread that points at her husband.
 
 ## Appearance
 
@@ -35,14 +35,14 @@ Speaks precisely, each word chosen. Tilts her head when listening, then files th
 - **[@name](junior.md)** — "My son is my hands in places I will not go. I know the danger reaches him before it reaches me, and I send him anyway."
 - **[@name](matrona.md)** — "She is my sister-in-law, and something in her is closed and hard. I cannot read her, and that bothers me."
 - **[@name](priest.md)** — "He told me to be quiet and stop noticing things. I went to him carefully, more than once, and I will not go back."
-- **[@name](wujas.md)** — "He is a wreck, but a wreck who talks when drunk. Marek can get closer to him than I can."
-- **[wujas-is-guilty](../clues/clues.md#wujas-is-guilty)** — "I knew it. Now I need the detail, the proof, and the piece that makes Zbigniew finally look."
+- **[@name](wujas.md)** — "He is a wreck, but a wreck who talks when drunk. [@first-name](junior.md) can get closer to him than I can."
+- **[wujas-is-guilty](../clues/clues.md#wujas-is-guilty)** — "I knew it. Now I need the detail, the proof, and the piece that makes [@first-name](wojewoda.md) finally look."
 
 ## Mechanics
 
 ### Two Phases
 
-Irena starts as a rival investigator, then becomes Zbigniew's protector if she connects him to the 1954 killing. The pivot is GM-timed from player behaviour and can fail to happen; if she stays blind, Zbigniew may confess at the [@name](../events/punishment-lynch.md) and die.
+[@first-name](wife.md) starts as a rival investigator, then becomes [@first-name](wojewoda.md)'s protector if she connects him to the 1954 killing. The pivot is GM-timed from player behaviour and can fail to happen; if she stays blind, [@first-name](wojewoda.md) may confess at the [@name](../events/punishment-lynch.md) and die.
 
 ### Phase 1 — Investigating
 
@@ -50,7 +50,7 @@ She trades cautiously with players who treat her as a peer. She shares nothing w
 
 ### Phase 2 — Protector
 
-After [@name](../events/irena-confronts-wojewoda.md), she closes the household, pulls Marek home, and keeps Zbigniew from confessing.
+After [@name](../events/irena-confronts-wojewoda.md), she closes the household, pulls [@first-name](junior.md) home, and keeps [@first-name](wojewoda.md) from confessing.
 
 ## Opportunities
 
@@ -69,12 +69,12 @@ After [@name](../events/irena-confronts-wojewoda.md), she closes the household, 
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** She gives precise household details: names, ages, employment, no wasted words.
-- **Changes:** [Census](../items/census.md#census) — Zbigniew, Irena, Marek Gajda
+- **Changes:** [Census](../items/census.md#census) — [@first-name](wojewoda.md), [@first-name](wife.md), [@name](junior.md)
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** She says the house is her husband's and the papers are in order.
-- **Changes:** [Property Record](../items/census.md#property-record) — Zbigniew's house; [Two Phases](#two-phases) — TBD
+- **Changes:** [Property Record](../items/census.md#property-record) — [@first-name](wojewoda.md)'s house; [Two Phases](#two-phases) — TBD
 
 ## Bond
 
@@ -85,5 +85,5 @@ After [@name](../events/irena-confronts-wojewoda.md), she closes the household, 
 ## Grudge
 
 - [ ] Speak to her in a patronizing or dismissive tone when she offers information.
-- [ ] Side with Zbigniew in a disagreement in her presence.
+- [ ] Side with [@first-name](wojewoda.md) in a disagreement in her presence.
 - [ ] Ignore or brush off one of her pointed hints.

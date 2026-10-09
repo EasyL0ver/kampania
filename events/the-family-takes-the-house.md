@@ -30,9 +30,9 @@
 
 ## Opportunities
 
-- **Who decides** `(noticed by: [Empathy](../cards/empathy.md))` — Helena leads, Zbigniew follows her.
-- **Dudka at the fence** — the quiet neighbour is holding back anger and will not enter the yard with the family in it.
-- **The overdose they are burying** `(noticed by: [ciotka-overdosed](../clues/clues.md#ciotka-overdosed) OR [ciotka-hurt-before-death](../clues/clues.md#ciotka-hurt-before-death))` — Helena's weak heart and Dudka's foul play are both wrong; only the committee knows what killed her.
+- **Who decides** `(noticed by: [Empathy](../cards/empathy.md))` — [@first-name](../characters/matrona.md) leads, [@first-name](../characters/wojewoda.md) follows her.
+- **[@surname](../characters/neighbour.md) at the fence** — the quiet neighbour is holding back anger and will not enter the yard with the family in it.
+- **The overdose they are burying** `(noticed by: [ciotka-overdosed](../clues/clues.md#ciotka-overdosed) OR [ciotka-hurt-before-death](../clues/clues.md#ciotka-hurt-before-death))` — [@first-name](../characters/matrona.md)'s weak heart and [@surname](../characters/neighbour.md)'s foul play are both wrong; only the committee knows what killed her.
 
 ## Actions
 

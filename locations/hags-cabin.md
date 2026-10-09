@@ -26,8 +26,8 @@
 - **Interior:** A soft folded sheet of Cyrillic names is kept with the ritual materials.
 - **Interior:** Foraged and preserved foods are stored here.
 - **Interior:** Blankets, worn clothes, and cooking implements are present.
-- **Hidden tin:** Floorboards hide a tin with Dmytro Kosach's photograph, a folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth.
-- **Survival:** Paraskewia survives by foraging, preserving food, and enduring isolation.
+- **Hidden tin:** Floorboards hide a tin with [@name](../characters/dmytro-kosach.md)'s photograph, a folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth.
+- **Survival:** [@first-name](../characters/hag.md) survives by foraging, preserving food, and enduring isolation.
 - **Absence:** She may be at [@name](old-village-ruins.md) or [@name](old-village-cerkiew.md) performing rites.
 
 ## Opportunities
@@ -35,14 +35,14 @@
 - **Ritual materials** `(noticed by: [Culture](../cards/culture.md))` — The icons, candles, herbs, and prayers show someone has the ritual form. → Gives: [hag-has-the-form](../clues/clues.md#hag-has-the-form)
 - **List of the dead** `(noticed by: [Language](../cards/language.md) OR [Finesse](../cards/finesse.md))` — The folded Cyrillic sheet names the dead and belongs with [@name](../items/paraskewias-list.md). → Gives: [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead)
 - **The three-barred cross** `(noticed by: [Culture](../cards/culture.md))` `(prompted by: aware:locations/hags-cabin.md)` — A small three-barred crucifix hangs among the icons, unlike a Roman cross. → Gives: [three-barred-cross-in-hags-cabin](../clues/clues.md#three-barred-cross-in-hags-cabin)
-- **Dmytro connection** `(when: found the [@name](upa-bunker.md) inscription, found the knife marked Д.К.)` — The initials connect Dmytro Kosach's belongings to the bunker. → Gives: aware:characters/dmytro-kosach.md
+- **[@first-name](../characters/dmytro-kosach.md) connection** `(when: found the [@name](upa-bunker.md) inscription, found the knife marked Д.К.)` — The initials connect [@name](../characters/dmytro-kosach.md)'s belongings to the bunker. → Gives: aware:characters/dmytro-kosach.md
 
 ## Actions
 
 ### Search the hidden floorboard tin
 - **When:** Access to the cabin
 - **Cost:** 1 time
-- **Outcome:** The players find Dmytro Kosach's photograph, folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth.
+- **Outcome:** The players find [@name](../characters/dmytro-kosach.md)'s photograph, folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth.
 - **Gives:** aware:characters/dmytro-kosach.md, [@name](../items/floorboard-tin.md)
 
 ### Search the cabin after confrontation

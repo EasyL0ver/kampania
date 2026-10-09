@@ -509,8 +509,8 @@ def changes_format(f: MdFile):
                 yield line, f"Changes link '#{e.group('anchor')}' is neither a ## Mechanics heading nor a ## Bond check anchor in {target.relative_to(REPO_ROOT).as_posix()}"
             elif not comment:
                 yield line, f"Changes mechanic '#{e.group('anchor')}' needs a ` — comment` saying how it changes"
-            elif len(comment) > CHANGE_COMMENT_LIMIT:
-                yield line, f"Changes comment is {len(comment)} characters (limit {CHANGE_COMMENT_LIMIT})"
+            elif len(rendered(comment)) > CHANGE_COMMENT_LIMIT:
+                yield line, f"Changes comment is {len(rendered(comment))} characters (limit {CHANGE_COMMENT_LIMIT})"
 
 
 @rule("opportunity-no-changes", "characters", "events", "locations", "items")
@@ -855,7 +855,8 @@ def alias_only(f: MdFile):
             if kind in ENTITY_KINDS and dest.is_file() and dest != f.path and not text.startswith("@"):
                 yield line, f"link '[{text[:40]}]({target})' should read [@name]({target})"
         bare = re.sub(r"\[[^\]]*\]\([^)]*\)", lambda m: " " * len(m.group(0)), t)
-        bare = re.sub(r"aware:\S+|`[^`]*`", lambda m: " " * len(m.group(0)), bare)
+        # code spans are masked, but not `(when: …)` / `(noticed by: …)` spans, which are prose
+        bare = re.sub(r"aware:\S+|`[^`(][^`]*`", lambda m: " " * len(m.group(0)), bare)
         if f.rel == "clues/clues.md" and t.startswith("### "):
             continue          # a clue id may contain aliases
         for alias, pattern in entity_aliases():

@@ -7,7 +7,7 @@
 ## Trigger
 
 - The committee is on the phone with the exchange during the flood.
-- The operator relays the wire herself; Zbigniew cannot intercept a call the committee is holding.
+- The operator relays the wire herself; [@first-name](../characters/wojewoda.md) cannot intercept a call the committee is holding.
 
 ## Hook
 
@@ -26,7 +26,7 @@
 
 ## Opportunities
 
-- **Zbigniew hears the name** `(when: Zbigniew present)` `(noticed by: [Empathy](../cards/empathy.md))` — he keeps his face still, but Barnaś is a man he helped drown; a held breath, a beat too long before he hands the receiver back.
+- **[@first-name](../characters/wojewoda.md) hears the name** `(when: [@first-name](../characters/wojewoda.md) present)` `(noticed by: [Empathy](../cards/empathy.md))` — he keeps his face still, but Barnaś is a man he helped drown; a held breath, a beat too long before he hands the receiver back.
 - **A sender twelve years dead** `(noticed by: [Finesse](../cards/finesse.md))` — Barnaś cannot have sent a wire; someone living, with his name and a seat on the line, put it through.
 
 ## Actions
@@ -38,9 +38,9 @@
 
 ## Mechanics
 
-- Hania withholds rescue but feeds evidence: the cache proves the village lynched a KBW officer, and unearthing it damns the village, which is what she wants.
+- [@first-name](../characters/jagna.md) withholds rescue but feeds evidence: the cache proves the village lynched a KBW officer, and unearthing it damns the village, which is what she wants.
 - She can plant the wire while still anonymous; it does not name her and is deniable as a crossed wire.
-- Zbigniew cannot suppress it: the committee holds the receiver, and he cannot filter the operator's words into their ear. His only block is denying them the phone in the first place.
+- [@first-name](../characters/wojewoda.md) cannot suppress it: the committee holds the receiver, and he cannot filter the operator's words into their ear. His only block is denying them the phone in the first place.
 
 ## Exits
 

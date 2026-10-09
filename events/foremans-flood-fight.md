@@ -36,7 +36,7 @@
 
 ## Opportunities
 
-- **Zofia's fear** `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/zofia.md) is describing observed physical changes, not exaggerating.
+- **[@first-name](../characters/zofia.md)'s fear** `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/zofia.md) is describing observed physical changes, not exaggerating.
 - **The impossible endurance** `(noticed by: [Medicine](../cards/medicine.md))` — The described lack of fatigue, pain response, and cold response has no medical explanation.
 - **The bunker question** `(noticed by: [Finesse](../cards/finesse.md))` — UPA partisan bunkers in Bieszczady forests can hold old ordnance. → Gives: [`upa-bunkers-in-the-area`](../clues/clues.md#upa-bunkers-in-the-area)
 - **The dilemma** `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/zofia.md) knows she is asking the committee to choose [@name](../characters/foreman.md) over the village's flood defense.

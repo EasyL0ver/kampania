@@ -2,7 +2,7 @@
 
 **Location:** [@name](../locations/upa-bunker.md)
 **Present:** [@name](../characters/glupek.md) (after [@name](../characters/ciotka.md)'s death)
-**Available:** After [@name](ciotka-found-dead/ciotka-found-dead.md), when players follow the Edek route to the bunker.
+**Available:** After [@name](ciotka-found-dead/ciotka-found-dead.md), when players follow the [@first-name](../characters/glupek.md) route to the bunker.
 
 ## Trigger
 

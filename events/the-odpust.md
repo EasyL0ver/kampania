@@ -6,8 +6,8 @@
 
 ## Trigger
 
-- Enough guilty villagers knelt in ks. Pająk's confessional.
-- ks. Pająk's crisis resolves toward mercy.
+- Enough guilty villagers knelt in [@title](../characters/priest.md) [@surname](../characters/priest.md)'s confessional.
+- [@title](../characters/priest.md) [@surname](../characters/priest.md)'s crisis resolves toward mercy.
 - He chooses to offer grace before the water reaches the church.
 - If [@name](the-ritual.md) has fired, this event does not fire.
 - If the threshold is not met, the day goes to [@name](the-seal-break.md).
@@ -25,7 +25,7 @@
 - Black water has reached under the door.
 - Water spreads across the flagstones.
 - Floor candles are drowned.
-- ks. Pająk stands straight at the altar in clean vestments.
+- [@title](../characters/priest.md) [@surname](../characters/priest.md) stands straight at the altar in clean vestments.
 - He preaches on Isaiah: sins like scarlet becoming white.
 - He looks at men he knows carry blood when he says scarlet.
 - He does not name them.
@@ -36,16 +36,16 @@
 
 ## Opportunities
 
-- **The restored priest** `(noticed by: [Devotion](../cards/devotion.md))` — ks. Pająk has chosen mercy over judgment.
+- **The restored priest** `(noticed by: [Devotion](../cards/devotion.md))` — [@title](../characters/priest.md) [@surname](../characters/priest.md) has chosen mercy over judgment.
 - **The rite forming** `(noticed by: [Culture](../cards/culture.md))` — he is building toward general absolution for people in danger of death.
-- **The word scarlet** `(noticed by: [Devotion](../cards/devotion.md))` — his eyes go to Zbigniew, Tadek, and Rezeń, but not Helena.
-- **The butcher in the pew** `(when: [@name](../characters/butcher.md) present)` `(noticed by: [Empathy](../cards/empathy.md))` — Rezeń is accepting absolution without visible contrition.
+- **The word scarlet** `(noticed by: [Devotion](../cards/devotion.md))` — his eyes go to [@first-name](../characters/wojewoda.md), [@nickname](../characters/wujas.md), and [@surname](../characters/butcher.md), but not [@first-name](../characters/matrona.md).
+- **The butcher in the pew** `(when: [@name](../characters/butcher.md) present)` `(noticed by: [Empathy](../cards/empathy.md))` — [@surname](../characters/butcher.md) is accepting absolution without visible contrition.
 - **Babcia's objection** `(when: [@name](../characters/babcia.md) present)` `(noticed by: [Culture](../cards/culture.md))` — the Lemko dead have not been named or rested, so Catholic absolution does not answer their grievance.
 
 ## Actions
 
 ### Receive the odpust
-- **Outcome:** ks. Pająk grants general absolution to the congregation as the water rises.
+- **Outcome:** [@title](../characters/priest.md) [@surname](../characters/priest.md) grants general absolution to the congregation as the water rises.
 - **Changes:** [Grace](../characters/priest.md#grace) — true; [Rest](../characters/hag.md#rest) — can no longer become true
 
 ### Answer Babcia's plea by stopping

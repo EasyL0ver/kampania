@@ -4,7 +4,7 @@
 
 ## Hook
 
-Barbara Kopacz, a PGR worker and young mother, lives with her family in the red-brick house.
+[@first-name](barbara.md) [@surname](barbara.md), a PGR worker and young mother, lives with her family in the red-brick house.
 
 ## Vital Statistics
 
@@ -32,12 +32,12 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 
 ## Opinions
 
-- **[@name](wujas.md)** — "One night, years ago. We got drunk and had a good time; sometimes the timing and Pawełek's face surface in my mind, and I push the thought away."
+- **[@name](wujas.md)** — "One night, years ago. We got drunk and had a good time; sometimes the timing and [@first-name](pawelek.md)'s face surface in my mind, and I push the thought away."
 - **[@name](junior.md)** — "The father. He has to be. He visits sometimes, late and awkward, and I do not push him."
-- **[@name](wojewoda.md)** — "He knows Pawełek is Marek's. I hate needing his help, but Pawełek needs stability, so I keep quiet and take what is offered."
+- **[@name](wojewoda.md)** — "He knows [@first-name](pawelek.md) is [@first-name](junior.md)'s. I hate needing his help, but [@first-name](pawelek.md) needs stability, so I keep quiet and take what is offered."
 - **[@name](pawelek.md)** — "Everything. My whole world. I would burn the village down for him."
-- **[@name](babcia.md)** — "My mother. I do not understand her language, prayers, or world, but she is gentle with Pawełek and that is enough."
-- **[@name](neighbour.md)** — "My rock. He brings firewood, fixes the fence, watches Pawełek, and asks how my day was."
+- **[@name](babcia.md)** — "My mother. I do not understand her language, prayers, or world, but she is gentle with [@first-name](pawelek.md) and that is enough."
+- **[@name](neighbour.md)** — "My rock. He brings firewood, fixes the fence, watches [@first-name](pawelek.md), and asks how my day was."
 - **[@name](priest.md)** — "I go to church because you go to church. He is kind, and faith is always there, like wallpaper."
 
 ## Opportunities
@@ -45,17 +45,17 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 - **The missing father matters** `(when: Census interview)` `(noticed by: [Empathy](../cards/empathy.md))` — Her warmth stays in place, but her jaw sets and she waits for the question to pass.
 - **The census omission is formal** `(when: Census interview)` `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — A census form with no father listed is a bureaucratic flag.
 - **The household economics do not fit** `(when: Census interview)` `(noticed by: [Bureaucracy](../cards/bureaucracy.md))` — Three household members and one farm-labour income cannot explain the house and supplies. → Gives: [`barbara-has-help`](../clues/clues.md#barbara-has-help)
-- **Barbara fishes while she talks** `(when: Ask about the village)` `(noticed by: [Finesse](../cards/finesse.md))` — Every answer ends with a question about the committee, the survey, or what the players have found. → Gives: [`barbara-is-a-sieve`](../clues/clues.md#barbara-is-a-sieve)
-- **Barbara's social map has omissions** `(when: Ask about the village)` `(noticed by: [Finesse](../cards/finesse.md))` — Her kind descriptions skip [@name](butcher.md) unless asked, soften [@name](wujas.md), and avoid judging [@name](matrona.md).
+- **[@first-name](barbara.md) fishes while she talks** `(when: Ask about the village)` `(noticed by: [Finesse](../cards/finesse.md))` — Every answer ends with a question about the committee, the survey, or what the players have found. → Gives: [`barbara-is-a-sieve`](../clues/clues.md#barbara-is-a-sieve)
+- **[@first-name](barbara.md)'s social map has omissions** `(when: Ask about the village)` `(noticed by: [Finesse](../cards/finesse.md))` — Her kind descriptions skip [@name](butcher.md) unless asked, soften [@name](wujas.md), and avoid judging [@name](matrona.md).
 
 ## Actions
 
 ### Census interview
 - **Prompted by:** [committee-fills-census](../clues/clues.md#committee-fills-census)
 - **Cost:** 1 time
-- **Outcome:** Barbara gives her name, age, household members, and employment cheerfully. She will not name [@name](pawelek.md)'s father.
+- **Outcome:** [@first-name](barbara.md) gives her name, age, household members, and employment cheerfully. She will not name [@name](pawelek.md)'s father.
 - **Gives:** [`barbara-refuses-father`](../clues/clues.md#barbara-refuses-father)
-- **Changes:** [Census](../items/census.md#census) — Barbara Kopacz, Stefania Kopacz, and Pawełek Kopacz
+- **Changes:** [Census](../items/census.md#census) — [@first-name](barbara.md) [@surname](barbara.md), [@name](babcia.md), and [@name](pawelek.md)
 
 ### Push her about the father
 - **Requires:** [Violence](../cards/violence.md) OR [Bureaucracy](../cards/bureaucracy.md)
@@ -74,11 +74,11 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 - **Cost:** 1 time
 - **Outcome:** She names the red-brick house and small plot as hers, with vague papers. Pressed on who built or pays for it, she goes quiet.
 - **Gives:** [`barbara-has-help`](../clues/clues.md#barbara-has-help)
-- **Changes:** [Property Record](../items/census.md#property-record) — Barbara Kopacz's house and plot
+- **Changes:** [Property Record](../items/census.md#property-record) — [@first-name](barbara.md) [@surname](barbara.md)'s house and plot
 
 ### Ask about the village
 - **Prompted by:** aware:locations/new-village.md
-- **Outcome:** Barbara gives a generous social map: [@name](wojewoda.md) has the phone, the Gajda siblings keep the church supplied, [@name](neighbour.md) helps her, [@name](foreman.md) is busy, and the old village is not somewhere people go. Every answer comes with a friendly question back.
+- **Outcome:** [@first-name](barbara.md) gives a generous social map: [@name](wojewoda.md) has the phone, the Gajda siblings keep the church supplied, [@name](neighbour.md) helps her, [@name](foreman.md) is busy, and the old village is not somewhere people go. Every answer comes with a friendly question back.
 - **Gives:** [`wojewoda-has-only-phone`](../clues/clues.md#wojewoda-has-only-phone), [`siblings-fund-the-church`](../clues/clues.md#siblings-fund-the-church)
 
 ### Ask about the old village

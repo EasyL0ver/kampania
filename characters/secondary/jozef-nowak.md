@@ -4,7 +4,7 @@
 
 ## Hook
 
-- Józef Nowak, a farmhand at the PGR farm.
+- [@first-name](jozef-nowak.md) [@surname](jozef-nowak.md), a farmhand at the PGR farm.
 
 ## Vital Statistics
 
@@ -19,7 +19,7 @@
 
 ## Character
 
-A common farmhand who does physical labor alongside Barbara Kopacz. He may know casual farm gossip or overheard conversations without knowing the village's deeper secrets.
+A common farmhand who does physical labor alongside [@name](../barbara.md). He may know casual farm gossip or overheard conversations without knowing the village's deeper secrets.
 
 ## Appearance
 

@@ -42,7 +42,7 @@
 - **The names as they land** `(noticed by: [Empathy](../cards/empathy.md))` — [@name](../characters/wojewoda.md) looks for an exit; [@name](../characters/wujas.md) weeps; [@name](../characters/matrona.md) waits for her name and does not hear it.
 - **The valley built on a grave** `(noticed by: [History](../cards/history.md) OR [Culture](../cards/culture.md))` — his account connects the lynch to the old village, the people officially called resettled, and the buried cover-up.
 - **The open vice** `(prompted by: aware:events/the-seal-break.md)`: the man who hid his habit now smokes on the altar, plain to everyone present. → Gives: [priest-smokes](../clues/clues.md#priest-smokes)
-- **The brand on the paper** `(noticed by: [Chainsmoker](../cards/chainsmoker.md) AND [priest-smokes](../clues/clues.md#priest-smokes))` — a smoker reads the brand off the paper burning in his hand: premium Carmen, the same the village would name at Janina's door. → Gives: [priest-smokes-carmen](../clues/clues.md#priest-smokes-carmen)
+- **The brand on the paper** `(noticed by: [Chainsmoker](../cards/chainsmoker.md) AND [priest-smokes](../clues/clues.md#priest-smokes))` — a smoker reads the brand off the paper burning in his hand: premium Carmen, the same the village would name at [@first-name](../characters/ciotka.md)'s door. → Gives: [priest-smokes-carmen](../clues/clues.md#priest-smokes-carmen)
 
 ## Actions
 

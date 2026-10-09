@@ -4,7 +4,7 @@
 
 ## Hook
 
-Edek Barnaś, Janina Gajda's large, simple-minded son and dependent.
+[@first-name](glupek.md) [@surname](glupek.md), [@name](ciotka.md)'s large, simple-minded son and dependent.
 
 ## Vital Statistics
 
@@ -39,43 +39,43 @@ His voice is surprisingly soft for his size. Kindness reaches him after a pause,
 
 ### Shelter
 
-- After [@name](../events/edek-in-the-bunker.md), Edek is sheltered in one of two places.
+- After [@name](../events/edek-in-the-bunker.md), [@first-name](glupek.md) is sheltered in one of two places.
 - **At the priest's:** hidden by [@name](priest.md) in the [@name](../locations/the-rectory.md) cellar.
-- **At Helena's:** in [@name](matrona.md)'s keeping at [@name](../locations/matronas-house.md).
+- **At [@first-name](matrona.md)'s:** in [@name](matrona.md)'s keeping at [@name](../locations/matronas-house.md).
 - The two are mutually exclusive; he is at one or the other.
 
 ## Actions
 
 ### Talk to Edek
-- **When:** [@name](ciotka.md) present, or Edek found alone outside
-- **Outcome:** He answers in short, simple sentences. He can give his routines, likes, dislikes, and basic memories of living with Janina.
+- **When:** [@name](ciotka.md) present, or [@first-name](glupek.md) found alone outside
+- **Outcome:** He answers in short, simple sentences. He can give his routines, likes, dislikes, and basic memories of living with [@first-name](ciotka.md).
 - **Gives:** aware:characters/glupek.md
 
 ### Ask Edek about his mother
 - **When:** Players talk to him directly
-- **Outcome:** He calls Janina "auntie," not mother. When asked about his real parents, he says he has only ever had his aunt.
+- **Outcome:** He calls [@first-name](ciotka.md) "auntie," not mother. When asked about his real parents, he says he has only ever had his aunt.
 - **Gives:** [`ciotka-adopted-glupek`](../clues/clues.md#ciotka-adopted-glupek)
 
 ### Ask Edek about the cigarette
 - **When:** Players found the [Carmen cigarette in his corner](../locations/ciotkas-house/ciotkas-house.md#search-edeks-room); talk to him directly
-- **Outcome:** He brightens and says the butcher gave it to him. Rezeń ruffles his hair and slips him food and little presents. Edek keeps the cigarette but never lights it. He does not understand why the same man makes him freeze when the dogs bark.
+- **Outcome:** He brightens and says the butcher gave it to him. [@surname](butcher.md) ruffles his hair and slips him food and little presents. [@first-name](glupek.md) keeps the cigarette but never lights it. He does not understand why the same man makes him freeze when the dogs bark.
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)
 
 ### Ask Edek about the butcher
 - **When:** Players talk to him directly
 - **Prompted by:** aware:characters/glupek.md
-- **Outcome:** He goes quiet and small. He says the butcher's dogs make him hide, and when Rezeń passes he cannot move. He does not know why.
+- **Outcome:** He goes quiet and small. He says the butcher's dogs make him hide, and when [@surname](butcher.md) passes he cannot move. He does not know why.
 - **Gives:** [`glupek-fears-butcher`](../clues/clues.md#glupek-fears-butcher)
 
 ### Census interview
 - **Cost:** 1 time
-- **Outcome:** He gives short, willing answers: his name and that he lives with his aunt. If asked his age, he looks to Janina.
-- **Changes:** [Census](../items/census.md#census) — Edek Barnaś, in Janina Gajda's household
+- **Outcome:** He gives short, willing answers: his name and that he lives with his aunt. If asked his age, he looks to [@first-name](ciotka.md).
+- **Changes:** [Census](../items/census.md#census) — [@first-name](glupek.md) [@surname](glupek.md), in [@name](ciotka.md)'s household
 
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** He does not understand the question. He says it is his aunt's house.
-- **Changes:** [Property Record](../items/census.md#property-record) — no property held, dependent in Janina's house
+- **Changes:** [Property Record](../items/census.md#property-record) — no property held, dependent in [@first-name](ciotka.md)'s house
 
 ## Bond
 

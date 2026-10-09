@@ -1,8 +1,8 @@
 # PGR Expense Journal
 
 **Type:** Item — farm expense journal (document)
-**Source:** PGR Office desk, via the "Inspect the farm books" action → [@name](../locations/pgr-office.md)
-**Carried:** Financial evidence. Three things hide in the mundane entries: the timing of a death at the grain silo, the only appearance of Marta Konieczna's full name, and the state money that built Barbara's brick house.
+**Source:** [@name](../locations/pgr-office.md) desk, via the "Inspect the farm books" action → [@name](../locations/pgr-office.md)
+**Carried:** Financial evidence. Three things hide in the mundane entries: the timing of a death at the grain silo, the only appearance of [@name](../characters/marta-konieczna.md)'s full name, and the state money that built [@first-name](../characters/barbara.md)'s brick house.
 
 ## Hook
 
@@ -10,7 +10,7 @@ A worn farm expense ledger: rows of dates, payees, amounts.
 
 ## Description
 
-A worn ledger of non-payroll farm spending — seed, transport, repairs, vet bills, seasonal slaughter — running 1950–1967. Page after page of ordinary numbers in a bookkeeper's hand. Nothing looks wrong until you know what you're reading against. Familiar village names recur (Gajda, Rezeń, Dudka, Rzepka) and make the two names that matter easy to skim past.
+A worn ledger of non-payroll farm spending — seed, transport, repairs, vet bills, seasonal slaughter — running 1950–1967. Page after page of ordinary numbers in a bookkeeper's hand. Nothing looks wrong until you know what you're reading against. Familiar village names recur (Gajda, [@surname](../characters/butcher.md), [@surname](../characters/neighbour.md), Rzepka) and make the two names that matter easy to skim past.
 
 ## Content
 

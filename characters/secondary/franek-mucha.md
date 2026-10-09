@@ -4,7 +4,7 @@
 
 ## Hook
 
-- Franek Mucha, a village drunk and brawler, one of [@name](../wujas.md)'s drinking crew.
+- [@first-name](franek-mucha.md) [@surname](franek-mucha.md), a village drunk and brawler, one of [@name](../wujas.md)'s drinking crew.
 
 ## Vital Statistics
 
@@ -18,7 +18,7 @@
 
 ## Character
 
-A younger, aggressive brawler in Tadek Gajda's drinking circle. He is the one most likely to turn a bad conversation at the store into a fight.
+A younger, aggressive brawler in [@name](../wujas.md)'s drinking circle. He is the one most likely to turn a bad conversation at the store into a fight.
 
 ## Appearance
 

@@ -4,7 +4,7 @@
 
 ## Hook
 
-Helena Rzepka, the devout woman who runs the village store.
+[@first-name](matrona.md) [@surname](matrona.md), the devout woman who runs the village store.
 
 ## Vital Statistics
 
@@ -35,7 +35,7 @@ People lower their voices around her. Her own voice stays low and measured, so o
 - **[@name](painter.md)** — "He is my husband and my responsibility. Broken men do not wander far if the house gives them shape."
 - **[@name](wojewoda.md)** — "He manages the village; I manage what may be said inside it. I trust his competence more than his nerve."
 - **[@name](wujas.md)** — "My brother is weak, drunk, and dangerous to the family by accident. I watch him because he may speak before he thinks."
-- **[@name](ciotka.md)** — "Janina's silence comes from love. Mine comes from will."
+- **[@name](ciotka.md)** — "[@first-name](ciotka.md)'s silence comes from love. Mine comes from will."
 - **[@name](priest.md)** — "He sees a struggling soul and wants to protect it. That is useful."
 - **[@name](wife.md)** — "She suspects too much and can prove too little. I keep her close enough to measure and far enough to starve."
 - **[wujas-is-guilty](../clues/clues.md#wujas-is-guilty)** — "My brother is a troubled soul. I pray for him every day."
@@ -48,8 +48,8 @@ People lower their voices around her. Her own voice stays low and measured, so o
 
 ### Robbery suspect
 
-- Who Helena will blame if the penicillin goes missing: **none / junior / committee**. Starts at **none**.
-- Set once, by whoever first asks her for penicillin. Her brother Tadek never counts: she simply gives it to him.
+- Who [@first-name](matrona.md) will blame if the penicillin goes missing: **none / junior / committee**. Starts at **none**.
+- Set once, by whoever first asks her for penicillin. Her brother [@nickname](wujas.md) never counts: she simply gives it to him.
 - It only counts if the penicillin goes missing. If the till is robbed too, the money masks the motive and she suspects no one.
 - TBD: if she suspects the committee, every committee member lodging at her house loses the [Lodging at Matrona's](../cards/lodging-at-matronas.md) card.
 
@@ -58,7 +58,7 @@ People lower their voices around her. Her own voice stays low and measured, so o
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** She gives herself, [@name](painter.md), and the two children before the question is finished.
-- **Changes:** [Census](../items/census.md#census) — Helena, Emil, Ewa, Krystian Rzepka
+- **Changes:** [Census](../items/census.md#census) — [@first-name](matrona.md), [@first-name](painter.md), [@first-name](secondary/ewa-rzepka.md), [@name](secondary/krystian-rzepka.md)
 
 ### Property assessment
 - **Cost:** 1 time
@@ -77,7 +77,7 @@ People lower their voices around her. Her own voice stays low and measured, so o
 - **Cost:** 1 time + [@name](../items/census.md)
 - **Outcome:** They agree, and she turns the key. She counts out a child's course of penicillin and takes the census book from their hands: from now the count is hers to fill, hers to decide what it shows.
 - **Gives:** [@name](../items/penicillin.md)
-- **Changes:** [Keeper](../items/census.md#keeper) — Helena Rzepka fills it herself
+- **Changes:** [Keeper](../items/census.md#keeper) — [@first-name](matrona.md) [@surname](matrona.md) fills it herself
 
 ## Bond
 

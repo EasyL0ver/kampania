@@ -4,7 +4,7 @@
 
 ## Hook
 
-por. Witold Skowron, an official from outside the village who arrives by car on state business.
+[@title](officer.md) [@first-name](officer.md) [@surname](officer.md), an official from outside the village who arrives by car on state business.
 
 ## Vital Statistics
 
@@ -31,7 +31,7 @@ Drives a black Warszawa M-20. Smells of cheap state cologne. His voice is quiet 
 ## Opinions
 
 - **[@name](wojewoda.md)** — "He is my informant. Competent, self-interested, controllable. I do not trust him; I trust the leverage."
-- **[@name](priest.md)** — "The Church is a relic and a rival power structure. I would like a reason to shut the parish down, even though his silence and mine currently serve the same order."
+- **[@name](priest.md)** — "[@name](../locations/the-church.md) is a relic and a rival power structure. I would like a reason to shut the parish down, even though his silence and mine currently serve the same order."
 
 ## Bond
 

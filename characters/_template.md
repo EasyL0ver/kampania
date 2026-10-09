@@ -19,7 +19,7 @@
      Outsider — Born, Age in 1967, Based in (free-text place, e.g. "Kraków"); no Lives in / Settled
      Dead     — Born, Died, and either Lived in (a locations/ link) or Based in (free text, for
                 someone who never lived in the valley); no Age in 1967 / Lives in / Settled
-     First name and Surname are always required; Maiden name and Title (ks., por., prof., kpt., dr)
+     First name and Surname are always required; Nickname, Maiden name and Title (ks., por., prof., kpt., dr)
      are optional. Prose refers to them as [@first-name](file.md), [@surname](file.md) etc. -->
 
 - **First name:** [first name]

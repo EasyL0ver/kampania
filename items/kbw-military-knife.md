@@ -1,7 +1,7 @@
 # KBW Military Knife
 
 **Type:** Item — weapon
-**Source:** Rezeń's house ([Search the house](../locations/butchers-house.md#search-the-house)).
+**Source:** [@surname](../characters/butcher.md)'s house ([Search the house](../locations/butchers-house.md#search-the-house)).
 **Carried:** Evidence.
 
 ## Hook

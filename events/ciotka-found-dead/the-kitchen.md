@@ -40,7 +40,7 @@
 ### Strip her crudely
 - **Cost:** 1 composure
 - **Outcome:** They strip her past the priest's objection without a word to him. He falls silent and does not look at them again.
-- **Changes:** [Contempt for the dead](../../characters/priest.md#contempt-for-the-dead) — the committee showed contempt for Janina's body
+- **Changes:** [Contempt for the dead](../../characters/priest.md#contempt-for-the-dead) — the committee showed contempt for [@first-name](../../characters/ciotka.md)'s body
 
 ## Exits
 

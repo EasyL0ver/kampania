@@ -7,7 +7,7 @@
 
 ## Hook
 
-- Zbigniew Gajda holding open the door of his office for the committee.
+- [@name](../../characters/wojewoda.md) holding open the door of his office for the committee.
 
 ## Setup
 
@@ -38,7 +38,7 @@
 
 ### Dinner invitation
 
-- **extended / withdrawn**. Starts extended: Zbigniew invites the committee to the family dinner that evening. Withdrawn if the committee raises the flood risk.
+- **extended / withdrawn**. Starts extended: [@first-name](../../characters/wojewoda.md) invites the committee to the family dinner that evening. Withdrawn if the committee raises the flood risk.
 
 ## Exits
 

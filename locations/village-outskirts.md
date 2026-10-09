@@ -4,7 +4,7 @@
 **Location:** Terrain around the village — river, hillsides, forest edges.
 **Present:** Survey party; [@name](../characters/foreman.md) (if invited)
 **Available:** Any day; geological survey requires geological knowledge.
-**Cost:** 1 action per site surveyed; full survey is four sites; office maps or Michał Pytlak waive the three easy sites
+**Cost:** 1 action per site surveyed; full survey is four sites; office maps or [@name](../characters/foreman.md) waive the three easy sites
 
 ## Hook
 
@@ -30,13 +30,13 @@ The river, hillsides, and forest edges around %NEW_VILLAGE%.
 - The southern approach rises into a low ridge of higher ground.
 - The survey route can pass the old village ruins.
 - One route passes the last house before the treeline, [@name](../characters/butcher.md)'s house.
-- One route crosses the track used by Tadek Gajda's drinking crew.
+- One route crosses the track used by [@name](../characters/wujas.md)'s drinking crew.
 
 ## Opportunities
 
 - **Spot the old village** `(when: Survival on a survey route)` — Stone ruins are visible through the trees. → Gives: aware:locations/old-village-ruins.md
-- **Spot Butcher at his house** `(when: Finesse on the route past [@name](../characters/butcher.md)'s house)` — Rezeń is alone near the treeline and using the same direction repeatedly. → Gives: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
-- **Spot the drinking crew heading into the forest** `(when: Survival near the treeline track)` — Tadek Gajda and the crew carry bottles toward the forest. → Gives: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
+- **Spot Butcher at his house** `(when: Finesse on the route past [@name](../characters/butcher.md)'s house)` — [@surname](../characters/butcher.md) is alone near the treeline and using the same direction repeatedly. → Gives: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
+- **Spot the drinking crew heading into the forest** `(when: Survival near the treeline track)` — [@name](../characters/wujas.md) and the crew carry bottles toward the forest. → Gives: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
 - **See the landslide plug** `(when: Survival on a survey route)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The notch in the ridge is choked with fallen rock and earth. → Gives: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 - **The river isn't where the map draws it** `(when: observation comparing map to ground)` `(prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))` — The wojewoda's bridge spans running water, but the map shows that ground dry and the river on its old course. → Gives: [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map)
 
@@ -63,7 +63,7 @@ The river, hillsides, and forest edges around %NEW_VILLAGE%.
 ### Follow the Butcher's path
 - **Prompted by:** [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
 - **Cost:** 1 time
-- **Outcome:** Rezeń's trail leads past the old village toward the ridge.
+- **Outcome:** [@surname](../characters/butcher.md)'s trail leads past the old village toward the ridge.
 - **Gives:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
 
 
@@ -74,7 +74,7 @@ The river, hillsides, and forest edges around %NEW_VILLAGE%.
 - **Gives:** aware:locations/hags-cabin.md
 
 ### Search the old wartime positions
-- **When:** The military map from [@name](pgr-office.md), or Michał Pytlak's terrain hints
+- **When:** The military map from [@name](pgr-office.md), or [@name](../characters/foreman.md)'s terrain hints
 - **Cost:** 1 time
 - **Outcome:** The search finds collapsed dugouts and rusted metal.
 - **Gives:** [old-wartime-positions](../clues/clues.md#old-wartime-positions)
