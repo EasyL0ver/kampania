@@ -97,6 +97,7 @@ class Move:
     cost: list[str] = field(default_factory=list)       # "time:1", "composure:1", or an item/card id
     gives: list[str] = field(default_factory=list)      # card / item / clue / aware ids
     changes: str = ""             # raw Changes, plain, for the GM
+    change_refs: list[str] = field(default_factory=list)   # what Changes links to (mechanics, items)
     prompted: list[str] = field(default_factory=list)   # clue / aware ids
 
 
@@ -117,6 +118,7 @@ class Scene:
     moves: list[Move]
     mechanics: list[Mechanic]
     item_moves: dict[str, list[Move]]   # item id -> its actions (open while held)
+    parts: list = field(default_factory=list)   # opening_parts()
 
     @property
     def rel(self) -> str:
@@ -161,6 +163,7 @@ def _actions(f: V.MdFile) -> list[Move]:
                 mv.gives = refs(value, f.path)
             elif label == "Changes":
                 mv.changes = plain(value, f.path)
+                mv.change_refs = refs(value, f.path)
         out.append(mv)
     return out
 
@@ -206,6 +209,20 @@ def _bullets(f: V.MdFile, section: str) -> list[str]:
     return [plain(t[2:] if t.startswith("- ") else t, f.path) for t in lines]
 
 
+def opening_parts(files: list[V.MdFile]) -> list[tuple[str, list[str]]]:
+    """The opening in its three parts: (heading, lines) for the place, what is happening, who is here."""
+    kind = lambda g: g.rel.split("/")[0]
+    scene, rest = files[0], files[1:]
+    places = [g for g in rest if kind(g) == "locations"]
+    events = [g for g in rest if kind(g) == "events"] + ([scene] if kind(scene) != "locations" else [])
+    if kind(scene) == "locations":
+        places = [scene] + places
+    people = [g for g in rest if kind(g) == "characters"]
+    return [("The place", [l for g in places for l in _bullets(g, "Setup")]),
+            ("What is happening", [l for g in events for l in _bullets(g, "Setup")]),
+            ("Who is here", [l for g in people for l in _bullets(g, "Hook")])]
+
+
 def opening(files: list[V.MdFile]) -> list[str]:
     """What the player is told on arrival, in order: the place (each location's Setup),
     the active events (the bundle default's Setup, then the scene's own), and who is
@@ -223,6 +240,16 @@ def opening(files: list[V.MdFile]) -> list[str]:
     for g in people:
         out += _bullets(g, "Hook")
     return out
+
+
+def alive(target: str, base: Path, after: str) -> bool:
+    """A Present character counts only if alive: no "(dead)" after their link, and Status is not Dead."""
+    if re.match(r"\s*\(dead\)", after, re.I):
+        return False
+    p = (base.parent / unquote(target.split("#")[0])).resolve()
+    f = V.parse(p) if p.is_file() else None
+    s = f.section("Vital Statistics") if f else None
+    return not any(re.match(r"^\s*-\s*\*\*Status:\*\*\s*Dead", t) for _, t in (s.body if s else []))
 
 
 def load(path: Path) -> Scene:
@@ -244,17 +271,22 @@ def load(path: Path) -> Scene:
     # The scene stands on its place and its people: their moves are open here too.
     for g in list(files):
         for label in ("Location", "Present"):
-            value = g.header.get(label)
-            for _, target in LINK.findall(value[1] if value else ""):
-                if "/locations/" in "/" + target or "/characters/" in "/" + target or target.startswith(("locations/", "characters/")):
-                    add(target, g.path)
+            value = g.header.get(label, (0, ""))[1]
+            for m in LINK.finditer(value):
+                target = m.group(2)
+                if "locations/" not in target and "characters/" not in target:
+                    continue
+                if "characters/" in target and not alive(target, g.path, value[m.end():]):
+                    continue                     # the dead are here, but nobody to talk to
+                add(target, g.path)
     moves, mechanics = [], []
     for g in files:
         moves += _opportunities(g) + _actions(g)
         mechanics += _mechanics(g)
     setup = opening(files)
     # Items named anywhere in the scene carry their own actions.
-    items = {r for mv in moves for r in mv.gives + mv.cost + refs(mv.requires, mv.src) if r.startswith("items/")}
+    items = {r.split("#")[0] for mv in moves
+             for r in mv.gives + mv.cost + refs(mv.requires, mv.src) + mv.change_refs if r.startswith("items/")}
     item_moves = {}
     for item in sorted(items):
         p = ROOT / item
@@ -262,4 +294,5 @@ def load(path: Path) -> Scene:
             g = V.parse(p)
             item_moves[item] = _opportunities(g) + _actions(g)
             mechanics += _mechanics(g)
-    return Scene(path=path, title=f.title, setup=setup, moves=moves, mechanics=mechanics, item_moves=item_moves)
+    return Scene(path=path, title=f.title, setup=setup, moves=moves, mechanics=mechanics, item_moves=item_moves,
+                 parts=opening_parts(files))

@@ -118,6 +118,16 @@ def givers() -> dict[str, list[Move]]:
     return _givers
 
 
+def self_ref(ref: str, mv: Move) -> bool:
+    """An aware: prompt pointing at the giver's own file, or at the bundle the giver sits in:
+    "you are here", which tells nothing."""
+    if not ref.startswith("aware:"):
+        return False
+    target, src = (ROOT / ref[6:]).resolve(), mv.src.resolve()
+    in_bundle = src.parent.parent.name in SCENE_KINDS            # e.g. events/arrival/the-walk.md
+    return target == src or (in_bundle and target.parent == src.parent)
+
+
 def all_moves(sc: Scene) -> list[Move]:
     return sc.moves + [m for ms in sc.item_moves.values() for m in ms]
 
@@ -144,6 +154,6 @@ def starting_context(sc: Scene) -> tuple[Player, dict[str, list[str]]]:
         seen.add(c)
         clues.append(c)
         for g in givers().get(c, []):          # the chain: what prompted its givers
-            todo += [r for r in g.prompted if r.startswith(("clue:", "aware:"))]
+            todo += [r for r in g.prompted if r.startswith(("clue:", "aware:")) and not self_ref(r, g)]
     p = Player(cards=set(cards), items=set(items), clues=set(clues))
     return p, {"cards": cards, "items": items, "clues": sorted(clues)}

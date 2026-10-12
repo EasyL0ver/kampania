@@ -383,6 +383,10 @@ Lemko prayers for the dead are sung out in the forest at night, carried on the w
 ### ciotka-missed-mass
 [@name](../characters/ciotka.md) was absent from the anti-flood mass. She is devout and never misses a service; her empty place is unheard of.
 
+### something-happened-to-ciotka
+Something has happened to [@name](../characters/ciotka.md): a woman that devout does not miss Mass.
+**Synthesis:** ciotka-missed-mass + ciotka-is-devout
+
 ### ciotka-was-killed
 [@name](../characters/ciotka.md) was murdered. Someone laid hands on her, wrecked the room in a struggle, and left her dead on the floor.
 

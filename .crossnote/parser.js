@@ -412,10 +412,9 @@
 "carriage": "Tall and slightly stooped; bends to listen, moves slowly, and makes people orient around his stillness",
 "per": "world",
 "start": "false",
-"when": "ks. Władysław Pająk brought to Pawełek's sickroom",
+"outcome": "He explains what Barbara could not: the three-barred cross is Eastern-rite, Greek Catholic, the old faith of this valley before the Roman parish. He states it plainly as church history, nothing he guards.",
+"gives": "three-barred-cross-is-lemko",
 "cost": "1 time",
-"outcome": "He prays loudly over the boy, commanding the devil out, a Roman Catholic blessing that rises to shouting. It does nothing for the fever, and the noise frightens the delirious child. Stefania Kopacz comes out of her chair, sharply lucid, and drives him off: the boy is not a demon, and he is not to shout and terrify a sick child. This is not his faith and not his rite.",
-"gives": "babcia-opposed-to-church, babcia-mind-returns",
 "changes": "Census — ks. Władysław Pająk",
 "requires": "Loaded"
 },
@@ -1195,7 +1194,7 @@
 "name": "Glupek in the Bunker",
 "location": "UPA Bunker (Ziemianka)",
 "present": "Edek Barnaś (after Janina Gajda's death)",
-"available": "After Ciotka Found Dead — The House, when players follow the Edek route to the bunker."
+"available": "After Ciotka Found Dead — Outside, when players follow the Edek route to the bunker."
 },
 "events/foreman-saves-village.md": {
 "name": "Foreman Saves the Village — The Engineering Ending",
@@ -1409,7 +1408,7 @@
 "name": "The Family Takes the House",
 "location": "Ciotka's House",
 "present": "Janina Gajda (dead), ks. Władysław Pająk, Zbigniew Gajda, Helena Rzepka (née Gajda), Ryszard Dudka",
-"available": "Shortly after Ciotka Found Dead — The House, when the priest returns with the family; Day 3 or later.",
+"available": "Shortly after Ciotka Found Dead — Outside, when the priest returns with the family; Day 3 or later.",
 "outcome": "Naming the wreck, the bruise, or the second cup breaks Ryszard Dudka. He accuses the sołtys's son to his face: the boy came the day before she died and they fought. Zbigniew Gajda goes still; Helena Rzepka (née Gajda) buries it as a grieving man's nonsense. The ruling does not change.",
 "gives": "junior-pressed-ciotka",
 "type": "rule"
@@ -1573,10 +1572,21 @@
 "gives": "aware:characters/wujas.md, aware:locations/the-store.md"
 },
 "events/ciotka-found-dead/ciotka-found-dead.md": {
+"name": "Ciotka Found Dead — Outside",
+"location": "Testowo",
+"present": "ks. Władysław Pająk",
+"available": "Day 3 or later, when players visit Ciotka's House.",
+"outcome": "\"She wasn't at Mass. She has never once missed Mass.\" He knocked; nobody answered.",
+"gives": "ciotka-missed-mass, something-happened-to-ciotka",
+"when": "Go outside and search the mud.",
+"cost": "1 time"
+},
+"events/ciotka-found-dead/the-house.md": {
 "name": "Ciotka Found Dead — The House",
+"part-of": "Ciotka Found Dead — Outside",
 "location": "Ciotka's House",
 "present": "Janina Gajda (dead); ks. Władysław Pająk",
-"available": "Day 3 or later, when players visit Ciotka's House.",
+"available": "After Go in through the back door.",
 "cost": "1 composure",
 "outcome": "The players step into the kitchen. Janina Gajda lies dead on the floor. Only now can they get close enough to examine the body and the table.",
 "gives": "aware:events/ciotka-found-dead/the-kitchen.md",
@@ -1586,7 +1596,7 @@
 },
 "events/ciotka-found-dead/the-kitchen.md": {
 "name": "Ciotka Found Dead — The Kitchen",
-"part-of": "Ciotka Found Dead — The House",
+"part-of": "Ciotka Found Dead — Outside",
 "location": "Ciotka's House",
 "present": "Janina Gajda (dead); ks. Władysław Pająk",
 "available": "From Ciotka Found Dead — The House, by entering the kitchen.",

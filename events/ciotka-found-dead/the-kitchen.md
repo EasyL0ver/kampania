@@ -3,7 +3,7 @@
 **Part of:** [@name](ciotka-found-dead.md)
 **Location:** [@name](../../locations/ciotkas-house/ciotkas-house.md)
 **Present:** [@name](../../characters/ciotka.md) (dead); [@name](../../characters/priest.md)
-**Available:** From [@name](ciotka-found-dead.md), by entering the kitchen.
+**Available:** From [@name](the-house.md), by entering the kitchen.
 
 ## Hook
 
@@ -44,4 +44,4 @@
 
 ## Exits
 
-- Back into the house: [@name](ciotka-found-dead.md).
+- Back into the house: [@name](the-house.md).

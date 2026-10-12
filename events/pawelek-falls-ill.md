@@ -67,6 +67,13 @@
 - **Outcome:** You work the old warding rite over the boy. It does nothing for his fever. But [@first-name](../characters/babcia.md), silent in her chair, watches, then corrects your hands and your words and takes up the prayer herself. She knows this rite far better than you do.
 - **Gives:** [`babcia-is-lemko`](../clues/clues.md#babcia-is-lemko), [`babcia-has-the-words`](../clues/clues.md#babcia-has-the-words)
 
+### Drive out the devil
+- **When:** [@title](../characters/priest.md) [@first-name](../characters/priest.md) [@surname](../characters/priest.md) brought to [@first-name](../characters/pawelek.md)'s sickroom
+<!-- Prompted by: [`pawelek-was-possessed`](../clues/clues.md#pawelek-was-possessed) -->
+- **Cost:** 1 time
+- **Outcome:** He prays loudly over the boy, commanding the devil out, a Roman Catholic blessing that rises to shouting. It does nothing for the fever, and the noise frightens the delirious child. [@name](../characters/babcia.md) comes out of her chair, sharply lucid, and drives him off: the boy is not a demon, and he is not to shout and terrify a sick child. This is not his faith and not his rite.
+- **Gives:** [`babcia-opposed-to-church`](../clues/clues.md#babcia-opposed-to-church), [`babcia-mind-returns`](../clues/clues.md#babcia-mind-returns)
+
 ### Give Pawelek the penicillin
 - **Requires:** [@name](../items/penicillin.md)
 <!-- Prompted by: [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin) -->
