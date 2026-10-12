@@ -160,8 +160,8 @@ class AIPlayer:
 
     SYSTEM = ("You are a detective. Your goal is to uncover every secret in this scene. You read short "
               "descriptions of what is in front of you. Reply with ONE thing you do next, in at most ten "
-              "words, e.g. \"Ask the driver what he lost.\" Time is of the essence: uncover every secret as "
-              "fast as you can. No explanations.")
+              "words, e.g. \"Ask the driver what he lost.\" Uncover every secret as fast as you can, and "
+              "don't repeat what got you nothing. No explanations.")
 
     def __init__(self, c: anthropic.Anthropic):
         self.c = c
