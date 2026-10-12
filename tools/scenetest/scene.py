@@ -199,6 +199,32 @@ def _mechanics(f: V.MdFile) -> list[Mechanic]:
     return out
 
 
+def _bullets(f: V.MdFile, section: str) -> list[str]:
+    """A section's lines as a reader sees them: its bullets, or its paragraphs."""
+    s = f.section(section)
+    lines = [t.strip() for _, t in (s.body if s else []) if t.strip() and not t.strip().startswith("<!--")]
+    return [plain(t[2:] if t.startswith("- ") else t, f.path) for t in lines]
+
+
+def opening(files: list[V.MdFile]) -> list[str]:
+    """What the player is told on arrival, in order: the place (each location's Setup),
+    the active events (the bundle default's Setup, then the scene's own), and who is
+    here (each present character's Hook: their name and role)."""
+    kind = lambda g: g.rel.split("/")[0]
+    scene, rest = files[0], files[1:]
+    places = [g for g in rest if kind(g) == "locations"]
+    events = [g for g in rest if kind(g) == "events"] + ([scene] if kind(scene) != "locations" else [])
+    if kind(scene) == "locations":
+        places = [scene] + places
+    people = [g for g in rest if kind(g) == "characters"]
+    out = []
+    for g in places + events:
+        out += _bullets(g, "Setup")
+    for g in people:
+        out += _bullets(g, "Hook")
+    return out
+
+
 def load(path: Path) -> Scene:
     path = path.resolve()
     f = V.parse(path)
@@ -210,9 +236,10 @@ def load(path: Path) -> Scene:
             seen.add(p)
             files.append(V.parse(p))
 
-    part_of = f.header.get("Part of")
-    if part_of:                              # the bundle default stays open
-        for _, target in LINK.findall(part_of[1]):
+    # An event that runs "During" another (Available: During [X], ...) has X open around it.
+    available = f.header.get("Available", (0, ""))[1]
+    if available.startswith("During"):
+        for _, target in LINK.findall(available.split(",")[0]):
             add(target, path)
     # The scene stands on its place and its people: their moves are open here too.
     for g in list(files):
@@ -225,8 +252,7 @@ def load(path: Path) -> Scene:
     for g in files:
         moves += _opportunities(g) + _actions(g)
         mechanics += _mechanics(g)
-    setup = [plain(t.strip()[2:], path) for _, t in (f.section("Setup").body if f.section("Setup") else [])
-             if t.strip().startswith("- ")]
+    setup = opening(files)
     # Items named anywhere in the scene carry their own actions.
     items = {r for mv in moves for r in mv.gives + mv.cost + refs(mv.requires, mv.src) if r.startswith("items/")}
     item_moves = {}

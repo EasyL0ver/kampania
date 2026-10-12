@@ -899,7 +899,7 @@
 "locations/new-village.md": {
 "name": "Testowo",
 "type": "Location (revisitable)",
-"location": "Valley floor, below the planned reservoir",
+"location": "A side valley of the San, at the end of the road",
 "present": "Villagers",
 "available": "Any time",
 "cost": "Free"
@@ -1185,7 +1185,7 @@
 "name": "Dinner at Wojewoda's",
 "location": "Wojewoda's House",
 "present": "Zbigniew Gajda, Irena Gajda, Zofia Pytlak, Helena Rzepka (née Gajda), Emil Rzepka, Marek Gajda, Tadek Gajda",
-"available": "First evening after Arrival — In the Office, if flooding is not discussed.",
+"available": "Evening of Day 1, if the Dinner invitation is still extended.",
 "requires": "Physique OR Alcoholic",
 "when": "Tadek Gajda at the table",
 "outcome": "You match Tadek glass for glass through the meal without judging him; by the end he is loosened and glad of the company.",
@@ -1545,23 +1545,32 @@
 "events/arrival/arrival.md": {
 "name": "Arrival — On the Road",
 "location": "Testowo",
-"present": "Zbigniew Gajda, Tadek Gajda, Barbara Kopacz, Pawełek Kopacz",
+"present": "por. Witold Skowron, kpr. Zdzisław Wrona, Zbigniew Gajda",
 "available": "After The Car In — The Drive.",
-"outcome": "Standing on the muddy road, the committee takes in the village: Barbara Kopacz's house at the edge beside Dudka's, and the store where the crew loiters.",
-"gives": "aware:locations/barbaras-house.md, aware:locations/the-store.md"
+"when": "por. Witold Skowron has not yet left",
+"outcome": "\"The morning of the fourth day. I'll take your report then. Anything before that goes through the sołtys's telephone.\"",
+"gives": "officer-returns-on-day-4"
 },
 "events/arrival/in-the-office.md": {
 "name": "Arrival — In the Office",
 "part-of": "Arrival — On the Road",
 "location": "Wojewoda's House",
 "present": "Zbigniew Gajda, Irena Gajda",
-"available": "After Arrival — On the Road.",
+"available": "After Go inside.",
 "outcome": "He plays the gracious host: he is the committee's point of contact, and the heavy phone on his desk is the only line for miles, so anything the village or the committee needs runs through him.",
 "gives": "wojewoda-has-only-phone",
-"changes": "Dinner invitation — withdrawn",
 "type": "enum (extended | withdrawn)",
 "per": "world",
 "start": "extended"
+},
+"events/arrival/the-walk.md": {
+"name": "Arrival — The Walk",
+"part-of": "Arrival — On the Road",
+"location": "Testowo",
+"present": "Zbigniew Gajda",
+"available": "After Go with the sołtys.",
+"outcome": "\"My brother, Tadek, and his friends.\" Zbigniew keeps walking. \"The shop is for everyone.\"",
+"gives": "aware:characters/wujas.md, aware:locations/the-store.md"
 },
 "events/ciotka-found-dead/ciotka-found-dead.md": {
 "name": "Ciotka Found Dead — The House",
@@ -1593,7 +1602,8 @@
 "present": "por. Witold Skowron, kpr. Zdzisław Wrona",
 "available": "Game start. Stays open for the whole ride, until the van reaches Testowo.",
 "outcome": "The dam is nearly done; every other village in its way is emptied. Not Testowo: the engineers say it stays dry, prof. Bieńkowski of AGH says it may drown. Warsaw wants it settled, quietly. \"You observe.\"",
-"gives": "government-committee, solina-dam-construction-almost-finished, other-villages-ready-for-evacuation, the-flood-line-potentially-miscalculated, aware:characters/professor.md"
+"gives": "government-committee, solina-dam-construction-almost-finished, other-villages-ready-for-evacuation, the-flood-line-potentially-miscalculated, aware:characters/professor.md",
+"requires": "Committee Census Register"
 },
 "events/the-car-in/the-draft.md": {
 "name": "The Car In — The Draft",
@@ -1613,9 +1623,9 @@
 "location": "The Milicja Nysa",
 "present": "por. Witold Skowron, kpr. Zdzisław Wrona",
 "available": "During The Car In, after The Car In — The Draft.",
+"outcome": "Two of them matter: the census register, ruled for households and their dead, and the farm's stock-take form, the farm's own figures on one side and a blank column for yours.",
+"gives": "Committee Census Register, PGR Inventory",
 "when": "Standing is not grudge for this player",
-"outcome": "Zdzisław tosses the packet over his shoulder without looking. \"Keep it. I've got more.\"",
-"gives": "Pack of Cigarettes",
 "requires": "Speech",
 "changes": "Permission — permission",
 "cost": "1 time",
@@ -1704,6 +1714,9 @@
 },
 "items/geologists-kit.md": {
 "name": "The Geologist's Kit",
+"type": "bool",
+"per": "world",
+"start": "false",
 "requires": "The Geologist's Kit",
 "outcome": "Buried in the text, the crew note the river shifted its bed since the map was drawn, then wave it off as unimportant. The shift is real even if they dismissed it.",
 "gives": "river-doesnt-match-map",
@@ -2050,6 +2063,12 @@
 },
 "cards/lodging-at-matronas.md": {
 "name": "Lodging at Matrona's",
+"pool": "Acquired in play",
+"type": "Both",
+"composure": "none"
+},
+"cards/lodging-at-pgr-quarters.md": {
+"name": "Lodging at the PGR Quarters",
 "pool": "Acquired in play",
 "type": "Both",
 "composure": "none"
