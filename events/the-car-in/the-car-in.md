@@ -19,7 +19,7 @@ A Milicja van winding down the mountain road through the rain.
 
 ## Opportunities
 
-- *(noticed by: [Bureaucracy](../../cards/bureaucracy.md) OR [Empathy](../../cards/empathy.md))* — Under the courtesy, a threat: [@first-name](../../characters/officer.md) remembers who wrote what, and so does the state. Observers who see too much are not asked back; some are not let go. → Gives: [`officer-warning`](../../clues/clues.md#officer-warning) <!-- Prompted by: [government-committee](../../clues/clues.md#government-committee) -->
+- *(when: [Ask what the work is](#ask-what-the-work-is) done)* *(noticed by: [Bureaucracy](../../cards/bureaucracy.md) OR [Empathy](../../cards/empathy.md))* — [@name](../../characters/officer.md) frames the work narrowly and signals that old grievances and local legends stay out of the official report. → Gives: [`officer-warning`](../../clues/clues.md#officer-warning) <!-- Prompted by: [government-committee](../../clues/clues.md#government-committee) -->
 
 ## Actions
 

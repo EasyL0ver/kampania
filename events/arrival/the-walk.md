@@ -2,7 +2,7 @@
 
 **Part of:** [@name](arrival.md)
 **Location:** [@name](../../locations/new-village.md)
-**Present:** [@name](../../characters/wojewoda.md), [@name](../../characters/wujas.md), [@name](../../characters/barbara.md), [@name](../../characters/pawelek.md), [@name](../../characters/neighbour.md)
+**Present:** [@name](../../characters/wojewoda.md)
 **Available:** After [Go with the sołtys](arrival.md#go-with-the-sołtys).
 
 ## Hook
