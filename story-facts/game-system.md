@@ -172,6 +172,11 @@ This is by design. The 7-day limit and 12-card economy guarantee that players wi
 
 The game is **not about solving everything** — it's about what you prioritize when you can't.
 
+## Travel
+
+- A player can only go to a location they are aware of (an `aware:` token they hold). Asked to go anywhere else, the GM answers: you don't know where that is yet.
+- Awareness is given like any clue: an action's `Gives:` hands over `aware:locations/<file>.md`.
+
 ## Items
 
 - An item is held by one player at a time. An action that `Requires:` or costs an item needs the acting player to hold it.

@@ -68,6 +68,9 @@ def main() -> int:
         return out
 
     player = A.AIPlayer(c)
+    places = {q.relative_to(S.ROOT).as_posix(): S.plain(q.read_text(encoding="utf-8").splitlines()[0].lstrip("# "), q)
+              for q in sorted((S.ROOT / "locations").rglob("*.md"))
+              if not q.name.startswith("_") and q.name != "index.md"}
     say = lambda items: "\n".join(text for _, text in items) or "Nothing happens."
     log.append(f"# {sc.title}\n\nStarting context: cards {', '.join(map(label, ctx['cards']))}; "
                f"items {', '.join(map(label, ctx['items']))}; clues {', '.join(map(label, ctx['clues'])) or 'none'}\n")
@@ -114,9 +117,14 @@ def main() -> int:
         turn += 1
         line = player.speak()
         log.append(f"\n### Turn {turn} (time spent {p.time})\n**Player:** {line}")
-        picks = A.arbitrate(c, line, [m for m in open_moves() if m.kind == "action"], player.recent())
-        log.append(f"*arbiter:* {', '.join(m.name for m in picks) or 'none'}")
+        picks, go = A.arbitrate(c, line, [m for m in open_moves() if m.kind == "action"], player.recent(), places)
+        log.append(f"*arbiter:* {', '.join(m.name for m in picks) or 'none'}{f' | go: {go}' if go else ''}")
         items, changes = [], []
+        if go:                                       # travel: only to a place they know of
+            if p.has(f"aware:{go}"):
+                items.append(("REFUSED", f"You can go to {places[go]} later; this scene is not over."))
+            else:
+                items.append(("REFUSED", "You don't know where that is yet."))
         for m in picks:
             if m.kind == "opportunity":
                 continue

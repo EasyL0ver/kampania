@@ -124,26 +124,31 @@ def rule(c: anthropic.Anthropic, mechanics: list[Mechanic], values: dict[str, st
 
 class Pick(BaseModel):
     keys: list[str]
+    go: str          # key of the place the line tries to go to, or "" if none
     reason: str
 
 
-def arbitrate(c: anthropic.Anthropic, line: str, moves: list[Move], recent: list[str]) -> list[Move]:
-    if not moves:
-        return []
+def arbitrate(c: anthropic.Anthropic, line: str, moves: list[Move], recent: list[str],
+              places: dict[str, str]) -> tuple[list[Move], str]:
+    """The actions the line does, and the place (a location id) it tries to go to, if any."""
     by_key = {str(i): m for i, m in enumerate(moves)}
-    listing = "\n".join(f"- {k}: \"{m.name}\"" for k, m in by_key.items())
+    place_keys = {f"p{i}": pid for i, pid in enumerate(places)}
+    listing = "\n".join(f"- {k}: \"{m.name}\"" for k, m in by_key.items()) or "(none)"
+    place_listing = "\n".join(f"- {k}: {places[pid]}" for k, pid in place_keys.items())
     system = ("You are the arbiter of a tabletop RPG. A player says what their character says or does. "
               "Return the keys of the listed actions the line does, in order: usually one, several only "
               "when the line clearly does several things. Be lenient with paraphrase and casual wording "
               "when the intent is clearly that action. Do not stretch: chatter or something no action "
-              "covers gets an empty list.")
+              "covers gets an empty list. Separately, if the line tries to go somewhere (travel, stop "
+              "and walk to, head for a place), give the key of that place in `go`; otherwise \"\".")
     messages = [{"role": "user", "content":
                  (("Context:\n" + "\n".join(recent) + "\n\n") if recent else "")
-                 + f"Actions:\n{listing}\n\nThe player says: {line}"}]
+                 + f"Actions:\n{listing}\n\nPlaces:\n{place_listing}\n\nThe player says: {line}"}]
     resp = c.messages.parse(model=ARBITER_MODEL, max_tokens=1000, system=system,
                             messages=messages, output_format=Pick)
     record("arbiter", ARBITER_MODEL, system, messages, resp)
-    return [by_key[k] for k in dict.fromkeys(resp.parsed_output.keys) if k in by_key]
+    out = resp.parsed_output
+    return [by_key[k] for k in dict.fromkeys(out.keys) if k in by_key], place_keys.get(out.go, "")
 
 
 # --------------------------------------------------------------------------
