@@ -130,7 +130,7 @@ def main() -> int:
                 continue
             if not E.check(m.requires, m.src, p):
                 tried[m.id] = f"requires {m.requires}"
-                items.append(("REFUSED", f"You can't: {m.name}."))
+                items.append(("REFUSED", f"You can't: {m.name}. Requires: {S.plain(m.requires, m.src)}"))
                 continue
             if m.when and m.id not in when_true:
                 tried[m.id] = f"when: {m.when}"
