@@ -96,7 +96,7 @@
 
 ### Ride on
 - **Outcome:** You settle back and watch the rain for the rest of the ride.
-- **Gives:** [@name](../../items/geologists-kit.md), aware:events/arrival/
+- **Gives:** aware:events/arrival/
 - **Changes:** [Ride time](#ride-time) — 0 for this player; [Damaged](../../items/geologists-kit.md#damaged) — true if [Cargo](#cargo) is still loose
 
 ## Mechanics
@@ -129,7 +129,7 @@
 - Played with real cards: as the drive starts, the GM hands every player 1 time card for the ride.
 - Costed actions on the drive are paid with that card. [Ride on](#ride-on) discards it: the time passes doing nothing. It never goes below 0.
 - When every player has spent theirs and [Turn](#turn) is still wrong, the GM hands every player 1 more: the detour. Once.
-- The ride ends when every player's ride time is 0: the van rolls into [@name](../../locations/new-village.md), and the committee unloads the survey kit from the crate.
+- The ride ends when every player's ride time is 0: the van rolls into [@name](../../locations/new-village.md).
 
 ## Exits
 

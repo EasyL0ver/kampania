@@ -3,7 +3,7 @@
 **Part of:** [@name](arrival.md)
 **Location:** [@name](../../locations/wojewodas-house.md)
 **Present:** [@name](../../characters/wojewoda.md), [@name](../../characters/wife.md)
-**Available:** After [@name](arrival.md).
+**Available:** After [Go inside](the-walk.md#go-inside).
 
 ## Hook
 
@@ -16,7 +16,6 @@
 - Ledgers and maps are visible in the office.
 - Tea is on the table.
 - [@name](../../characters/wojewoda.md) presents himself as cooperative and helpful.
-- [@name](../../characters/wojewoda.md) invites the committee to a family dinner that evening.
 - [@name](../../characters/wife.md) is inside the house.
 
 ## Opportunities
@@ -30,9 +29,9 @@
 - **Outcome:** He plays the gracious host: he is the committee's point of contact, and the heavy phone on his desk is the only line for miles, so anything the village or the committee needs runs through him.
 - **Gives:** [`wojewoda-has-only-phone`](../../clues/clues.md#wojewoda-has-only-phone)
 
-### Tell Wojewoda about the flood risk
-- **Outcome:** He listens, treats the warning as serious but unproven, and urges the committee to get to work at once and bring back geological confirmation.
-- **Changes:** [Dinner invitation](#dinner-invitation) — withdrawn
+### Get to work
+- **Outcome:** [@first-name](../../characters/wojewoda.md) sees you out. "The telephone is here when you need it. You'll bunk in the farm barracks; [@first-name](../../characters/zofia.md) at the canteen has your beds." Half-believing the flood line: "Now get to work. Bring me proof." Otherwise: "Dinner is at seven."
+- **Gives:** [Lodging at the PGR Quarters](../../cards/lodging-at-pgr-quarters.md), aware:locations/pgr-quarters.md, aware:events/dinner.md
 
 ## Mechanics
 
@@ -41,9 +40,8 @@
 - **Type:** enum (extended | withdrawn)
 - **Per:** world
 - **Start:** extended
-- [@first-name](../../characters/wojewoda.md) invites the committee to the family dinner that evening. Withdrawn if the committee raises the flood risk.
+- Withdrawn while [Flood Awareness](../../characters/wojewoda.md#flood-awareness) is needProof or higher: instead of dinner, he sends the committee straight to work.
 
 ## Exits
 
-- Stay at [@name](../../locations/wojewodas-house.md) for official introductions.
-- Continue to [@name](../dinner.md) if the committee accepts hospitality.
+- [Get to work](#get-to-work) ends the arrival. The rest of Day 1 is free play in [@name](../../locations/new-village.md); [@name](../dinner.md) follows in the evening if the [Dinner invitation](#dinner-invitation) is still extended.

@@ -18,7 +18,7 @@
 
 ## Character
 
-SB secret police agent and true believer in the communist project. He knows about the 1947 massacre and that the dam is partly to cover evidence. He is dangerous because he is calm, convinced, and officially useful.
+SB secret police agent and true believer in the communist project. He knows about the 1947 massacre and that the dam is partly to cover evidence. He is dangerous because he is calm, convinced, and officially useful. He promises the committee to return on the morning of Day 4. He never does: the flood cuts the road.
 
 ## Appearance
 

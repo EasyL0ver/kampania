@@ -2,7 +2,7 @@
 
 **Location:** [@name](../locations/wojewodas-house.md)
 **Present:** [@name](../characters/wojewoda.md), [@name](../characters/wife.md), [@name](../characters/zofia.md), [@name](../characters/matrona.md), [@name](../characters/painter.md), [@name](../characters/junior.md), [@name](../characters/wujas.md)
-**Available:** First evening after [@name](arrival/in-the-office.md), if flooding is not discussed.
+**Available:** Evening of Day 1, if the [Dinner invitation](arrival/in-the-office.md#dinner-invitation) is still extended.
 
 ## Hook
 

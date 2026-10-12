@@ -80,7 +80,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 
 ## Opportunities
 
-- *(when: Property assessment, miscalculation not disclosed, no convincing cover)* — On the property, his questions turn controlled, and he starts tracking where the committee goes. See [Tell Wojewoda about the flood risk](../events/arrival/in-the-office.md#tell-wojewoda-about-the-flood-risk). → Gives: [`village-unaware-of-miscalculation`](../clues/clues.md#village-unaware-of-miscalculation)
+- *(when: Property assessment, miscalculation not disclosed, no convincing cover)* — On the property, his questions turn controlled, and he starts tracking where the committee goes. See [Reveal the risk of the village drowning](#reveal-the-risk-of-the-village-drowning). → Gives: [`village-unaware-of-miscalculation`](../clues/clues.md#village-unaware-of-miscalculation)
 
 ## Actions
 

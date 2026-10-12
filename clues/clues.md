@@ -1010,3 +1010,9 @@ A heavy wooden crate in the back of the van has broken its strap and slides on e
 
 ### wrona-took-wrong-turn
 [@name](../characters/driver.md) took the wrong fork on the drive in: the left road leads away from the valley.
+
+### officer-returns-on-day-4
+[@name](../characters/officer.md) will come back for the committee's report on the morning of Day 4. Until then, messages go through the sołtys's telephone.
+
+### wrona-will-drive-you
+[@name](../characters/driver.md) will drive the committee out of the valley if they ring the Milicja post in Lesko and ask for him.

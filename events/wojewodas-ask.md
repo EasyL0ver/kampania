@@ -6,7 +6,7 @@
 
 ## Trigger
 
-- The players complete [Tell Wojewoda about the flood risk](../events/arrival/in-the-office.md#tell-wojewoda-about-the-flood-risk) or otherwise make [@first-name](../characters/wojewoda.md) believe the flood is possible.
+- The players complete [Reveal the risk of the village drowning](../characters/wojewoda.md#reveal-the-risk-of-the-village-drowning) or otherwise make [@first-name](../characters/wojewoda.md) believe the flood is possible.
 - [@first-name](../characters/wojewoda.md) learns the committee is recording property values for compensation.
 - He asks to speak with the players alone.
 

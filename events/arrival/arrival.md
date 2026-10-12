@@ -1,36 +1,42 @@
 # Arrival — On the Road
 
 **Location:** [@name](../../locations/new-village.md)
-**Present:** [@name](../../characters/wojewoda.md), [@name](../../characters/wujas.md), [@name](../../characters/barbara.md), [@name](../../characters/pawelek.md)
+**Present:** [@name](../../characters/officer.md), [@name](../../characters/driver.md), [@name](../../characters/wojewoda.md)
 **Available:** After [@name](../the-car-in/the-drive.md).
 
 ## Hook
 
-A car stopping on the muddy road as [@name](../../characters/wojewoda.md) comes forward to meet the committee.
+The Milicja van stopping on the muddy road as [@name](../../characters/wojewoda.md) comes forward to meet the committee.
 
 ## Setup
 
-- The car stops on the muddy road in [@name](../../locations/new-village.md).
-- [@name](../../characters/wojewoda.md) is waiting for the committee.
-- [@name](../../characters/wojewoda.md) gives a firm handshake and walks the committee toward his house.
-- Men from [@name](../../characters/wujas.md)'s crew drink in daytime along the route.
-- [@name](../../characters/barbara.md) and [@name](../../characters/pawelek.md) are visible along the route.
-- [@name](../../characters/barbara.md)'s house sits at the edge of the village, beside [@name](../../characters/neighbour.md)'s.
-- The village [@name](../../locations/the-store.md) is visible along the route, men from the crew loitering by its steps.
-- The church on the hill is unusually well maintained — fresh repairs, a sound roof, firewood stacked high.
-- Dogs bark toward the forest.
-
-## Opportunities
-
-- *(noticed by: [Handiwork](../../cards/handiwork.md))* — From the road the church looks too nice: fresh repairs, sound roof, ample firewood stacked, beyond what a village this size funds. → Gives: [`church-too-nice`](../../clues/clues.md#church-too-nice)
+- The van stops on the muddy road in [@name](../../locations/new-village.md). Morning, still raining.
+- [@name](../../characters/wojewoda.md) waits at the roadside, cap in hand.
+- [@name](../../characters/officer.md) gets out, shakes his hand, and presents the committee: "Observers, from the public. Look after them."
+- [@name](../../characters/driver.md) drags the crate out of the back and sets it down in the mud.
+- [@name](../../characters/officer.md) is not staying. He will be back in Lesko tonight.
+- [@first-name](../../characters/wojewoda.md) opens an umbrella: "Come, my house is up the road. There's tea."
 
 ## Actions
 
-### Get out and look around
-<!-- Prompted by: aware:locations/new-village.md -->
-- **Outcome:** Standing on the muddy road, the committee takes in the village: [@name](../../characters/barbara.md)'s house at the edge beside [@surname](../../characters/neighbour.md)'s, and the store where the crew loiters.
-- **Gives:** aware:locations/barbaras-house.md, aware:locations/the-store.md
+### Ask him when he will be back
+- **When:** [@name](../../characters/officer.md) has not yet left
+- **Outcome:** "The morning of the fourth day. I'll take your report then. Anything before that goes through the sołtys's telephone."
+- **Gives:** [`officer-returns-on-day-4`](../../clues/clues.md#officer-returns-on-day-4)
+
+### Say goodbye to the driver
+- **When:** [@name](../../characters/officer.md) has not yet left, and [Standing](../../characters/driver.md#standing) is owes-you for this player
+- **Outcome:** [@first-name](../../characters/driver.md) leans out of the window. "If you need a lift out, ring the post in Lesko. Ask for me."
+- **Gives:** [`wrona-will-drive-you`](../../clues/clues.md#wrona-will-drive-you)
+
+### Pick up the crate
+- **Outcome:** The survey instruments, in their straw, wet now on the outside. Yours to carry.
+- **Gives:** [@name](../../items/geologists-kit.md)
+
+### Go with the sołtys
+- **Outcome:** You follow [@first-name](../../characters/wojewoda.md) up the road. Behind you the van turns in the mud and climbs away. By the time you look back, it is gone.
+- **Gives:** aware:events/arrival/the-walk.md
 
 ## Exits
 
-- Follow [@first-name](../../characters/wojewoda.md) to his house: [@name](in-the-office.md).
+- [Go with the sołtys](#go-with-the-sołtys) ends the handover: [@name](the-walk.md), then [@name](in-the-office.md).
