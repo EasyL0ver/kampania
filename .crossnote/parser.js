@@ -951,9 +951,9 @@
 "when": "setup:locations/bimber-still.md",
 "outcome": "The still is worked at commercial scale: the operation is old and tolerated.",
 "gives": "bimber-still",
+"changes": "Caught at the Still — starts",
 "requires": "Physique OR Alcoholic",
 "cost": "1 time",
-"changes": "Drinking Buddy — the drinking PCs become Tadek's drinking buddies",
 "setup": "Crude copper still under camouflage netting. Clearing beside a stream. Empty sugar sacks, barrels, stacked firewood, and a small fire pit.. Warm ashes show recent use. Fermentation smell is strong. Cheap Sport cigarette butts are ground into the mud all around the fire and the still.. A packed footpath leads in from Testowo. The number of barrels and bottles exceeds personal drinking.. The men sit around the fire with bottles and cards. The crew hears visitors before seeing them. Fresh boot prints, warm ashes, and half-full bottles remain. No weapons, documents, hidden room, or grave are visible here."
 },
 "locations/far-ridge-streambed.md": {
@@ -964,6 +964,7 @@
 "gives": "old-wartime-positions",
 "cost": "1 time",
 "requires": "Survival",
+"changes": "Surveying the Streambed — starts",
 "setup": "A dry streambed runs over the far ridge and appears to spill toward the next valley. The streambed's col (its high point) sits above Testowo house level, so water tops the village before it ever reaches here. Nothing on the ground announces this; only elevation figures show it. The map draws the streambed honestly but never marks the col's elevation. The dam-survey crews left stamped geodetic benchmarks (repery) at the col and beside Testowo. The markers are old and half-buried; finding them takes searching. The col commands the whole valley: from here you look straight down on Testowo, across to the Hołubie ruins, and over the ground the reservoir will drown. It is the natural place to watch the valley from, and men have. Just below the col, under gorse and slid earth, a collapsed dugout with a firing slot faces the valley floor; rusted metal and a rotted timber lip still show. Partisans held this line in the war years. Only if the party turned up the hut on the benchmark search: an abandoned shepherd's koliba stands hidden in the gorse higher on the slope, its low doorway still up, a weathered ram's skull fixed over the lintel and marks cut into the frame, facing out. Parties who have not found it do not see it and get no koliba description. Getting the streambed's elevations plays out as one of two competing scenes: Surveying the Streambed or Search for the Benchmarks. Either yields the Streambed Parameters."
 },
 "locations/hags-cabin.md": {
@@ -1014,6 +1015,7 @@
 "when": "setup:locations/old-village-cerkiew.md",
 "outcome": "Fresh candles and incense show someone still comes here to perform rites.",
 "gives": "hag-tends-the-well",
+"changes": "Performing the Ritual — starts",
 "cost": "1 time",
 "setup": "Wooden Greek Catholic cerkiew with onion dome and partial stone construction. The 1947 fire did not destroy it completely. The cerkiew dominates the ruins from the hilltop. Roof partially collapsed on the west side. Interior exposed to rain. Wood is rotting. Some faded icons remain on the interior walls. Three-barred crosses mark the altar screen and recur across the surviving icons and carvings. Door hangs loose. Interior is wet from rain and groundwater seepage. Abandoned altar, broken candle stands, and debris remain on the floor. In a dry corner behind the altar screen, out of the rain, a flat cloth-wrapped bundle has been left with care and kept dry, plainly placed there long after the fire. Fresh candles appear periodically.. Candle wax and faint incense smell are present on some nights. In the half-light the empty nave feels occupied — footprints in the dust, a draft that stirs the candle flames, the steady sense of being watched.. A liturgical bell is absent from where one should be. Some ceiling sections are unstable."
 },
@@ -1022,6 +1024,7 @@
 "when": "setup:locations/old-village-ruins.md",
 "outcome": "The wooden buildings stand charred and collapsed; the village burned.",
 "gives": "old-village-was-burned",
+"changes": "Performing the Ritual — starts",
 "cost": "1 time",
 "setup": "Wooden buildings burned in 1947.. Stone foundations survived. Stone foundations stand 1–2 feet above ground level. Chimneys are partially intact. Interiors are flooded or filled with debris. Underground root cellars and storage pits remain; many are water-filled. Pottery shards, rusted tools, and household fragments lie on the surface. Overgrown orchards still bear apples and plums. Hidden cellar holes, unstable stones, and flooded cellars make searching dangerous. Burn marks remain on surviving stone. The well is stone-lined, its top partially collapsed or sealed with debris; moss and age on the stone, the interior dark, depth unknown, water level obscured. Some well debris has been cleared recently; other debris piled back; candle wax is present near the disturbed debris. Cigarette butts collect in the grass and stone cracks around the well rim, more than any single visit would leave. If dam floods reach Hołubie, the well goes underwater. Well hazards: unstable stone, unknown depth, water, unsafe excavation. Day 2+ after the wolf hunt: fresh blood can be visible on the well's stone rim. Set apart from the homestead ruins, a larger timber building still stands: the village cerkiew, its roof sagging and fire-marked but upright."
 },
@@ -1046,6 +1049,7 @@
 "gives": "gap-may-seep",
 "cost": "1 time",
 "geology": "reads the fill directly and confirms it will not pass water at flood pressure.",
+"changes": "Climb the Plug — starts",
 "setup": "The gap is the low notch where the ridge dips between the Testowo valley and Jasielnik Basin. The state map draws it as an open channel, the valley's main drain. An old landslide has choked the notch with fallen rock and earth. From the base the fill looks like loose rubble floodwater would seep straight through.. The plug is a steep bank about two storeys high. Climbing it is its own scene: Climb the Plug on the survey, and Climb the Plug in the Rain for the finale charge. The fill can be sampled at the toe, but that only settles whether it seeps. What decides the outlet is read only at the crest: the height of the plug's lowest saddle (the sill the rising water must top to spill into Jasielnik Basin) and whether the slid mass beds against the intact ridge or leaves a channel. Both are invisible from below.. The top of the plug overlooks the empty Jasielnik Basin, the ground the map says the valley's water should drain into. Nothing but this fill stands between the valley and Jasielnik Basin."
 },
 "locations/upa-bunker.md": {
@@ -1144,7 +1148,10 @@
 "gives": "store-has-drug-cabinet",
 "requires": "Carmen Cigarette Butts AND (Speech OR Finesse)",
 "cost": "1 time",
-"changes": "Robbery suspect — the penicillin is missing",
+"changes": "Robbery suspect — the penicillin is missing; Cabinet — forced",
+"type": "enum (intact | forced | discovered)",
+"per": "world",
+"start": "intact",
 "setup": "The store is the village social hub. Men sit outside on benches and crates, passing bimber. Tadek Gajda is usually outside. Ryszard Dudka drifts in and out. Stanisław Rezeń does not drink here. Halina Zając runs the counter inside. Helena Rzepka owns the store but is rarely behind the counter. The shelves are sparse but functional. Cigarettes are sold over the counter: cheap Sport on the shelf, a pricier premium brand for those who ask. Bimber is kept under the counter. The crew enters to buy rounds, banter with Halina, and get sent back outside. Marek Gajda drinks with the crew some evenings, away from his father.. Halina resents Helena Rzepka and speaks sharply about the work. The back room has a locked pharmaceutical cabinet. The cabinet contains penicillin, aspirin, bandages, and iodine.. Helena Rzepka keeps the only cabinet key. Halina Zając cannot open the medicine cabinet. Government people are treated with suspicion outside unless they are Tadek Gajda's drinking buddies."
 },
 "locations/new-village/wojewodas-house.md": {
@@ -1234,30 +1241,16 @@
 "name": "Barbara Warns the Players",
 "location": "Barbara's House",
 "present": "Barbara Kopacz",
-"available": "Day 6 late afternoon, if at least one player has a Bond with Barbara Kopacz.",
 "noticed-by": "Violence",
 "when": "setup:events/barbara-warns-the-players.md",
 "outcome": "Barbara Kopacz is describing preparations, not a mood.",
 "gives": "neighbour-has-rifle",
 "setup": "Barbara Kopacz keeps looking toward the fence line and Neighbour's House. Barbara Kopacz grips the trusted player's arm tightly. Barbara Kopacz says Ryszard Dudka has been drinking. Barbara Kopacz says men have been at Ryszard Dudka's place. Barbara Kopacz says Ryszard Dudka took down, cleaned, and did not replace his rifle. Barbara Kopacz says Ryszard Dudka spoke about someone finally answering for what they did. Barbara Kopacz says Ryszard Dudka did not come to the fence tonight. Barbara Kopacz does not know she has been passing the committee's information to Ryszard Dudka."
 },
-"events/butcher-hunts.md": {
-"name": "Butcher Hunts",
-"location": "Village Outskirts",
-"present": "Stanisław Rezeń",
-"available": "Day 3 onward, after players investigate too deeply.",
-"noticed-by": "Survival",
-"when": "setup:events/butcher-hunts.md",
-"outcome": "Dogs appear near the committee, and the same dogs appear near multiple places the players visit.",
-"cost": "1 time",
-"gives": "butcher-is-dangerous",
-"setup": "Stanisław Rezeń tracks what the players do. Stanisław Rezeń tracks who the players talk to. Stanisław Rezeń tracks where the players go.. The road is flooded. The forest edge and village edge are isolated. Stanisław Rezeń's dogs move with him.. Lone players at night, near Hołubie — Homestead Ruins, or on the village edge are vulnerable. Stanisław Rezeń gives no direct warning before escalation.."
-},
 "events/caught-at-the-still.md": {
 "name": "Caught at the Still",
 "location": "Bimber Still",
 "present": "Tadek Gajda, Szymek Kępa, Romek Głowacz, Franek Mucha",
-"available": "Any day, while the crew is at the still",
 "noticed-by": "Empathy",
 "when": "setup:events/caught-at-the-still.md",
 "outcome": "In the standoff, the crew is not defending a crime scene; they are frightened men protecting the one thing that gets them through the winter.",
@@ -1274,7 +1267,6 @@
 "name": "Climb the Plug in the Rain",
 "location": "The Ridge Gap",
 "present": "Michał Pytlak",
-"available": "The engineering finale, after Foreman Saves the Village — The Engineering Ending, while Backed is true and the party has the charges.",
 "noticed-by": "Geology",
 "when": "setup:events/climb-the-plug-in-the-rain.md",
 "outcome": "The soaked clay only holds weight in the right places; get it wrong and you bog. You either know where it bears, or you move light and deft.",
@@ -1290,7 +1282,6 @@
 "name": "Climb the Plug",
 "location": "The Ridge Gap",
 "present": "Michał Pytlak (if On the survey is true)",
-"available": "At the ridge gap, holding landslide-in-the-gap.",
 "lower-bank-(get-on)": "a greasy clay start; strength gets up it fastest, but a sure-footed or determined climber can scramble on too.",
 "the-killzone-(the-crossing)": "a loose, exposed traverse of shifting rock. Every hold looks ready to come away under a boot; the party will want it roped and belayed.",
 "the-top-pitch-(top-out)": "the crest is capped by a slab of intact sandstone torn loose by the slide; from the ground it just looks like the top edge, and what it takes to get over it cannot be read from below, not even by a good eye. You only see the problem once you are under it.",
@@ -1310,7 +1301,6 @@
 "name": "Coffee at Matrona's",
 "location": "Matrona's House",
 "present": "Helena Rzepka (née Gajda), Emil Rzepka",
-"available": "Morning of Day 6.",
 "noticed-by": "Culture",
 "when": "setup:events/coffee-at-helenas.md",
 "outcome": "The coffee and generosity are excessive; they manage a threat rather than host guests.",
@@ -1324,7 +1314,6 @@
 "name": "Dinner at Wojewoda's",
 "location": "Wojewoda's House",
 "present": "Zbigniew Gajda, Irena Gajda, Zofia Pytlak, Helena Rzepka (née Gajda), Emil Rzepka, Marek Gajda, Tadek Gajda",
-"available": "Evening of Day 1, if the Dinner invitation is still extended.",
 "noticed-by": "Finesse",
 "when": "setup:events/dinner.md",
 "outcome": "Irena Gajda tracks the committee more closely than the conversation requires.",
@@ -1337,14 +1326,12 @@
 "name": "Glupek in the Bunker",
 "location": "UPA Bunker (Ziemianka)",
 "present": "Edek Barnaś",
-"available": "After Ciotka Found Dead — Outside, when players follow the Edek route to the bunker.",
 "setup": "TBD."
 },
 "events/foreman-saves-village.md": {
 "name": "Foreman Saves the Village — The Engineering Ending",
 "location": "UPA Bunker (Ziemianka)",
 "present": "Michał Pytlak, Zofia Pytlak",
-"available": "Day 5 onward, after Zofia Comes to the Committee.",
 "noticed-by": "Handiwork OR Geology OR gap-is-blocked",
 "when": "setup:events/foreman-saves-village.md",
 "outcome": "The plan is sound: the plug dooms the village, the debris is breachable, and floodwater will widen a breach.",
@@ -1359,19 +1346,18 @@
 "name": "Zofia Comes to the Committee",
 "location": "The PGR Farm",
 "present": "Zofia Pytlak, Michał Pytlak",
-"available": "Day 5, any phase.",
 "noticed-by": "Empathy",
 "when": "setup:events/foremans-flood-fight.md",
 "outcome": "Zofia Pytlak is describing observed physical changes, not exaggerating.",
 "gives": "upa-bunkers-in-the-area",
 "cost": "1 time",
+"changes": "Foreman Saves the Village — The Engineering Ending — starts",
 "setup": "Zofia Pytlak finds the committee. Zofia Pytlak says something is wrong with her husband. Michał Pytlak has not come home since the flood started. Michał Pytlak does not eat what Zofia Pytlak brings him. Michał Pytlak does not sleep. Michał Pytlak is 57 years old with a bad knee. Michał Pytlak is outlifting younger men. Michał Pytlak's hands bled on the first day and no longer do. Michał Pytlak does not shiver in floodwater. Michał Pytlak does not slow down. Michał Pytlak has been asking about a bunker in the forest. Michał Pytlak wants dynamite. Zofia Pytlak does not know Michał Pytlak's plan. Zofia Pytlak wants the committee to save her husband rather than the farm. The workers keep following Michał Pytlak because he is the only person still fighting the flood."
 },
 "events/funeral-mass.md": {
 "name": "Funeral Mass — Ciotka",
 "location": "The Church",
 "present": "ks. Władysław Pająk, Zbigniew Gajda, Helena Rzepka (née Gajda), Tadek Gajda",
-"available": "Day 5 morning.",
 "noticed-by": "Devotion",
 "when": "setup:events/funeral-mass.md",
 "outcome": "The sermon is an accusation: ks. Władysław Pająk is not only burying Janina; he is warning the living that unconfessed blood-guilt stains the whole valley.",
@@ -1381,8 +1367,7 @@
 "events/hags-prayer.md": {
 "name": "Hag's Prayer",
 "location": "Barbara's House",
-"present": "Paraskewia Chyłak",
-"available": "Any night, while Paraskewia Chyłak is alive and not hostile (see her Hostility mechanic)",
+"present": "Paraskewia Chyłak (if Alive is true)",
 "when": "setup:events/hags-prayer.md",
 "outcome": "being here at night, the players hear it themselves: a woman singing prayers out in the forest.",
 "gives": "singing-in-the-night",
@@ -1396,7 +1381,6 @@
 "name": "Holy Mass — Anti-Flood Prayer",
 "location": "The Church",
 "present": "ks. Władysław Pająk, Helena Rzepka (née Gajda), Emil Rzepka, Zbigniew Gajda",
-"available": "Day 4 morning.",
 "noticed-by": "Devotion AND ciotka-is-devout",
 "when": "setup:events/holy-mass.md",
 "outcome": "Janina Gajda's absence is the only gap in a full church, and the priest keeps looking at it.",
@@ -1407,7 +1391,6 @@
 "name": "The Hunt with Neighbour",
 "location": "The PGR Farm",
 "present": "Ryszard Dudka",
-"available": "The morning after The Wolf Attack.",
 "noticed-by": "Survival",
 "when": "setup:events/hunt-with-dudka.md",
 "outcome": "Dudka's failure is not lack of skill; one hunter is too little for a smart pack in a large forest.",
@@ -1419,19 +1402,18 @@
 "name": "The Hunt with Butcher",
 "location": "The PGR Farm",
 "present": "Stanisław Rezeń",
-"available": "The morning after The Wolf Attack, after Zbigniew Gajda authorizes Rezeń.",
 "noticed-by": "Survival",
 "when": "setup:events/hunt-with-rezen.md",
 "outcome": "the dogs move as an extension of Rezeń's body.",
 "gives": "rezen-hunts-wolves",
 "cost": "1 time",
+"changes": "The Hunters Cross Paths — starts",
 "setup": "Rezeń handles the dogs through small hand signals and quiet sounds. Rezeń reads wolf sign before anyone gives him instructions. Rezeń keeps a knife in his hand and turns it idly. Rezeń is calmer in the forest than in the village. Rezeń's route drifts toward the deeper forest and the old village."
 },
 "events/hunters-cross-paths.md": {
 "name": "The Hunters Cross Paths",
 "location": "Hołubie — Homestead Ruins",
 "present": "Ryszard Dudka, Stanisław Rezeń",
-"available": "During either The Hunt with Butcher or The Hunt with Neighbour.",
 "noticed-by": "Violence",
 "when": "setup:events/hunters-cross-paths.md",
 "outcome": "Dudka is louder, but Rezeń is the one ready to kill.",
@@ -1447,7 +1429,6 @@
 "name": "Wife Confronts the Wojewoda",
 "location": "Wojewoda's House",
 "present": "Zbigniew Gajda, Irena Gajda",
-"available": "When Irena pivots; see her mechanics.",
 "noticed-by": "Finesse",
 "when": "present in the house",
 "outcome": "the fight is about something buried from 1954, and Irena is trying to stop Zbigniew from speaking openly.",
@@ -1459,7 +1440,6 @@
 "name": "Operator Refuses Help",
 "location": "Wojewoda's House",
 "present": "Hania Barnaś, Zbigniew Gajda",
-"available": "Day 3 onward, during The Flood, when players call outside for rescue.",
 "noticed-by": "Empathy",
 "when": "setup:events/operator-refuses-help.md",
 "outcome": "A person is on the line: the line is not failing; the operator is present, lucid, and choosing how much help to provide.",
@@ -1474,7 +1454,6 @@
 "name": "Pawelek Falls Ill",
 "location": "Barbara's House",
 "present": "Barbara Kopacz, Stefania Kopacz, Pawełek Kopacz",
-"available": "Day 3 onward, after The Flood.",
 "when": "Health Points <= 4",
 "outcome": "the whites of his eyes have gone bloodshot and crimson.",
 "gives": "pawelek-eyes-are-red",
@@ -1489,7 +1468,6 @@
 "name": "The Priest's Plea",
 "location": "The Rectory (Plebania)",
 "present": "ks. Władysław Pająk",
-"available": "Day 4 onward, after Holy Mass — Anti-Flood Prayer; fires once.",
 "noticed-by": "Empathy",
 "when": "setup:events/priests-plea.md",
 "outcome": "ks. Pająk has come to a layperson for reassurance a priest is supposed to give. He is frightened.",
@@ -1501,7 +1479,6 @@
 "name": "The Lynch",
 "location": "PGR Office, then Hołubie — Homestead Ruins",
 "present": "Ryszard Dudka, Zbigniew Gajda, Barbara Kopacz (if Side is dudka), Stanisław Rezeń",
-"available": "Night of Day 6; fires once.",
 "composure": "2",
 "noticed-by": "Finesse",
 "when": "setup:events/punishment-lynch.md",
@@ -1512,7 +1489,6 @@
 "name": "Butcher Takes the Body",
 "location": "The Church, then Hołubie — Homestead Ruins",
 "present": "Stanisław Rezeń (if Alive is true)",
-"available": "Night of Day 5 into Day 6 morning; requires the The Flood to have postponed Janina's Funeral Mass — Ciotka.",
 "noticed-by": "Survival",
 "when": "setup:events/rezen-takes-the-body.md",
 "outcome": "the trail is fresh, made within the last few hours, and points straight toward Hołubie — Homestead Ruins.",
@@ -1527,7 +1503,6 @@
 "events/search-for-the-benchmarks.md": {
 "name": "Search for the Benchmarks",
 "location": "Far-Ridge Streambed",
-"available": "Holding dam-builders-surveyed-streambed",
 "requires": "Survival",
 "when": "that site's marker is not yet found",
 "outcome": "Survey crews set benchmarks on stable rock at clear sightlines; you read the site for where they would have driven the marker.",
@@ -1545,7 +1520,6 @@
 "name": "Second Flood Mass",
 "location": "The Church",
 "present": "ks. Władysław Pająk, Helena Rzepka (née Gajda), Emil Rzepka, Zbigniew Gajda, Tadek Gajda",
-"available": "Day 6 morning; before The Lynch.",
 "noticed-by": "Culture OR History",
 "when": "setup:events/second-flood-mass.md",
 "outcome": "In the sermon, Habakkuk points to a settlement founded on blood, not only a personal sin.",
@@ -1557,7 +1531,6 @@
 "name": "Store Robbery",
 "location": "The Store",
 "present": "Helena Rzepka (née Gajda), Halina Zając",
-"available": "The first morning after the cabinet is forced",
 "when": "Robbery suspect is committee",
 "outcome": "The penicillin is gone and the till sits untouched, and the only ones who came to her asking for that drug were the committee. She says nothing and holds the players in a long, open stare.",
 "setup": "The cabinet in the back room stands forced open and emptied. Helena knows the penicillin is gone. If the register was forced, the till is emptied too. Helena treats the theft as something to be answered. If Helena's Robbery suspect is the committee, she says little and watches the players with open suspicion. If Helena's Robbery suspect is the committee, any committee member lodging at Matrona's House is turned out: come nightfall the door is barred and their belongings are set out in front of the house."
@@ -1565,7 +1538,6 @@
 "events/surveying-the-streambed.md": {
 "name": "Surveying the Streambed",
 "location": "Far-Ridge Streambed",
-"available": "Holding streambed-is-candidate-drain; a PC with Geology and the The Geologist's Kit; the far ridge reached",
 "noticed-by": "Geology",
 "when": "setup:events/surveying-the-streambed.md",
 "outcome": "A surveyor standing on the col can see it rides high, but \"high\" is not a number and will not settle the drain question; only the level line does. → No clue; sets expectations.",
@@ -1582,10 +1554,6 @@
 "name": "The Disclosure",
 "location": "Wojewoda's House",
 "present": "Zbigniew Gajda, Ryszard Dudka, Michał Pytlak, Zofia Pytlak, Barbara Kopacz, Helena Rzepka (née Gajda), Marek Gajda, ks. Władysław Pająk",
-"available": "Day 4 onward, after proof that Testowo will flood exists and the truth breaks.",
-"enlisted": "players convinced Zbigniew to reveal it through Convince him to reveal the flood.",
-"forced": "players used Force the disclosure — the ultimatum.",
-"broken": "players announced it, the truth leaked, a villager panicked, Ryszard Dudka pieced it together, or someone overheard.",
 "form-a": "Zbigniew called the gathering.",
 "form-b": "the crowd assembled itself.",
 "noticed-by": "Speech",
@@ -1600,7 +1568,6 @@
 "name": "The Family Takes the House",
 "location": "Ciotka's House",
 "present": "ks. Władysław Pająk, Zbigniew Gajda, Helena Rzepka (née Gajda), Ryszard Dudka",
-"available": "Shortly after Ciotka Found Dead — Outside, when the priest returns with the family; Day 3 or later.",
 "noticed-by": "Empathy",
 "when": "setup:events/the-family-takes-the-house.md",
 "outcome": "Helena leads, Zbigniew follows her.",
@@ -1611,19 +1578,18 @@
 "events/the-flood.md": {
 "name": "The Flood",
 "location": "Testowo",
-"available": "Day 3 morning; automatic.",
 "noticed-by": "Handiwork",
 "when": "setup:events/the-flood.md",
 "outcome": "the road failed because poor drainage and weak foundation met heavy rain. Repair will take days after the water drops.",
 "gives": "road-washes-out",
 "cost": "1 time",
+"changes": "Operator Refuses Help — starts; The Telegram — starts",
 "setup": "Players wake to heavy rain. The windows are grey with flood weather. The road the committee drove in on is gone under mud and flowing water.. The bridge over the creek is underwater. The creek has become a flood channel. The village is cut off. por. Witold Skowron was supposed to return yesterday and has not. There is no car, word, or explanation from him. The phone in Zbigniew Gajda's office is the only connection to the outside if the line works.. Villagers are already working with sandbags near lower houses. Michał Pytlak has PGR workers reinforcing the livestock barn. The village recognizes this as a severe flood. The water table is rising. Cellars are filling. The ground is saturated. Surveyors' stakes marking the projected flood line run across the Testowo slope, and the water is already climbing past them. The committee is outside the village's normal flood-response machinery.."
 },
 "events/the-odpust.md": {
 "name": "The Odpust — Grace at the Last",
 "location": "The Church",
 "present": "ks. Władysław Pająk, Helena Rzepka (née Gajda), Zbigniew Gajda (if Alive is true), Tadek Gajda, Ryszard Dudka, Emil Rzepka, Stanisław Rezeń (if Alive is true), Stefania Kopacz",
-"available": "Day 7; fires only if Faith in Redemption cleared its threshold by end of Day 6 and Performing the Ritual has not fired.",
 "noticed-by": "Devotion",
 "when": "setup:events/the-odpust.md",
 "outcome": "ks. Pająk has chosen mercy over judgment.",
@@ -1639,7 +1605,6 @@
 "name": "The Report — The State's Ending",
 "location": "Police car on the road out of the village",
 "present": "por. Witold Skowron",
-"available": "End of game; final scene after all other endings resolve.",
 "noticed-by": "Empathy",
 "when": "setup:events/the-report.md",
 "outcome": "his reaction changes when the 1947 massacre appears in the report.",
@@ -1653,7 +1618,6 @@
 "name": "Performing the Ritual",
 "location": "Hołubie — Homestead Ruins",
 "present": "Paraskewia Chyłak (if Alive is true), Stefania Kopacz",
-"available": "Late game; before The Flood claims the well, or at the Hołubie — Cerkiew after that",
 "noticed-by": "Culture",
 "when": "ritual materials visible",
 "outcome": "The Lemko rite uses fire, incense, offerings, and prayer for unquiet dead.",
@@ -1664,7 +1628,6 @@
 "name": "The Seal-Break — The Priest Names the Dead",
 "location": "The Church",
 "present": "ks. Władysław Pająk, Helena Rzepka (née Gajda) (if Alive is true), Zbigniew Gajda (if Alive is true), Tadek Gajda (if Alive is true), Ryszard Dudka (if Alive is true), Emil Rzepka (if Alive is true), Stanisław Rezeń (if Alive is true)",
-"available": "Day 7, if Faith in Redemption is below threshold at the end of Day 6; mutually exclusive with The Odpust — Grace at the Last",
 "noticed-by": "Devotion",
 "when": "setup:events/the-seal-break.md",
 "outcome": "The priest on the altar knows what breaking the seal costs and does it deliberately.",
@@ -1678,7 +1641,6 @@
 "name": "The Telegram",
 "location": "Wojewoda's House",
 "present": "Hania Barnaś, Zbigniew Gajda",
-"available": "Day 3 onward, during The Flood, while the committee is on the line with the exchange (during Operator Refuses Help).",
 "noticed-by": "Empathy",
 "when": "setup:events/the-telegram.md",
 "outcome": "he keeps his face still, but Barnaś is a man he helped drown; a held breath, a beat too long before he hands the receiver back.",
@@ -1689,7 +1651,6 @@
 "events/the-village-drowns.md": {
 "name": "The Village Drowns",
 "location": "Testowo",
-"available": "End of game, when neither Evacuate nor Fight happened.",
 "type": "bool",
 "per": "world",
 "start": "false",
@@ -1698,7 +1659,6 @@
 "events/the-village-forgets.md": {
 "name": "The Village Forgets",
 "location": "Testowo",
-"available": "End of game, when neither Rest nor Grace happened.",
 "type": "bool",
 "per": "world",
 "start": "false",
@@ -1708,7 +1668,6 @@
 "name": "The Well Confrontation",
 "location": "Hołubie — Homestead Ruins",
 "present": "Paraskewia Chyłak, Stanisław Rezeń, Ryszard Dudka (if Warned about the well is true)",
-"available": "Night of Day 4, after The Wolf Attack, unless Paraskewia Chyłak is hostile (see her Hostility mechanic)",
 "noticed-by": "Culture",
 "when": "setup:events/well-confrontation.md",
 "outcome": "the candles, icon, bread, incense, and chant form a Lemko rite for the dead, not witchcraft.",
@@ -1725,7 +1684,6 @@
 "name": "Wojewoda Confronts the Butcher",
 "location": "The Store",
 "present": "Zbigniew Gajda, Stanisław Rezeń",
-"available": "Day 4 morning, after Rezeń has been in the village since the wolf hunt",
 "noticed-by": "Finesse",
 "when": "setup:events/wojewoda-confronts-butcher.md",
 "outcome": "the sołtys gives an order and the butcher ignores it.",
@@ -1735,7 +1693,6 @@
 "name": "Wojewoda's Ask",
 "location": "PGR Office",
 "present": "Zbigniew Gajda",
-"available": "After Zbigniew Gajda knows the flood is possible and knows the committee is assessing property for compensation",
 "noticed-by": "Empathy",
 "when": "setup:events/wojewodas-ask.md",
 "outcome": "Zbigniew is asking for the villagers, not for his own compensation.",
@@ -1747,7 +1704,6 @@
 "name": "The Wolf Attack",
 "location": "The PGR Farm",
 "present": "Michał Pytlak, Zbigniew Gajda, Ryszard Dudka",
-"available": "Day 1–2 morning; fresh livestock kills are visible at the The PGR Farm from Day 1",
 "noticed-by": "Survival",
 "when": "setup:events/wolf-attack.md",
 "outcome": "one animal worked confidently inside a known pen.",
@@ -1758,7 +1714,6 @@
 "name": "Wujas Visits the Butcher",
 "location": "Butcher's House",
 "present": "Tadek Gajda, Stanisław Rezeń",
-"available": "Days 1–2, recurring until wolf authorization on Day 2 afternoon",
 "noticed-by": "Finesse",
 "when": "setup:events/wujas-visits-butcher.md",
 "outcome": "Tadek visits the edge house regularly.",
@@ -1770,10 +1725,10 @@
 "name": "Arrival — On the Road",
 "location": "Testowo",
 "present": "por. Witold Skowron, kpr. Zdzisław Wrona, Zbigniew Gajda",
-"available": "After The Car In — The Drive.",
 "when": "por. Witold Skowron has not yet left",
 "outcome": "\"The morning of the fourth day. I'll take your report then. Anything before that goes through the sołtys's telephone.\"",
 "gives": "officer-returns-on-day-4",
+"changes": "Arrival — The Walk — starts",
 "setup": "The van stops on the muddy road in Testowo. Morning, still raining. Zbigniew Gajda waits at the roadside, cap in hand. por. Witold Skowron gets out, shakes his hand, and presents the committee: \"Observers, from the public. Look after them.\". kpr. Zdzisław Wrona drags the crate out of the back and sets it down in the mud. por. Witold Skowron is not staying. He will be back in Lesko tonight. Zbigniew opens an umbrella: \"Come, my house is up the road. There's tea.\"."
 },
 "events/arrival/in-the-office.md": {
@@ -1781,7 +1736,6 @@
 "part-of": "Arrival — On the Road",
 "location": "Wojewoda's House",
 "present": "Zbigniew Gajda, Irena Gajda (if Listener is joined)",
-"available": "After Go inside.",
 "noticed-by": "Finesse",
 "when": "setup:events/arrival/in-the-office.md",
 "outcome": "A shadow and a floorboard creak show someone is listening during the conversation with Zbigniew Gajda.",
@@ -1797,22 +1751,22 @@
 "part-of": "Arrival — On the Road",
 "location": "Testowo",
 "present": "Zbigniew Gajda",
-"available": "After Go with the sołtys.",
 "noticed-by": "Chainsmoker",
 "when": "setup:events/arrival/the-walk.md",
 "outcome": "The man with the bottle smokes Sport, the cheapest there is.",
 "gives": "tadek-smokes-cheapest",
+"changes": "Arrival — In the Office — starts",
 "setup": "The road climbs between low wooden houses. Zbigniew walks ahead under his umbrella; people in doorways nod to him and look at you. Outside a shop, three men drink beer in the rain. A fourth, unshaven, raises his bottle at you and grins. Zbigniew does not look at him. At the edge of the village stands the only red-brick house. A young woman hangs washing under its eaves, a small boy at her skirt. She watches you pass and does not wave. Over the fence next door, a big man splitting wood rests his axe and stares until you are past. On the hill above the roofs stands the church: fresh boards, a sound roof, firewood stacked high.. The road ends at a two-storey house with a fenced yard. Zbigniew holds the door open."
 },
 "events/ciotka-found-dead/ciotka-found-dead.md": {
 "name": "Ciotka Found Dead — Outside",
 "location": "Testowo",
 "present": "ks. Władysław Pająk",
-"available": "Day 3 or later, when players visit Ciotka's House.",
 "when": "setup:events/ciotka-found-dead/ciotka-found-dead.md",
 "outcome": "Some cigarette butts lie just outside the door, hand-pinched and rain-weathered, dropped a day or more before she died. You cannot tell the brand at a glance, but bagged they could be compared.",
 "gives": "ciotka-missed-mass, something-happened-to-ciotka",
 "cost": "1 time",
+"changes": "Ciotka Found Dead — The House — starts",
 "setup": "ks. Władysław Pająk stands at Janina Gajda's front door, knocking. No one answers. The front door is locked, both locks turned, as she always kept it. The back door stands open. Cigarette butts lie scattered just outside the door.."
 },
 "events/ciotka-found-dead/the-house.md": {
@@ -1820,12 +1774,11 @@
 "part-of": "Ciotka Found Dead — Outside",
 "location": "Ciotka's House",
 "present": "ks. Władysław Pająk",
-"available": "After Go in through the back door.",
 "when": "setup:events/ciotka-found-dead/the-house.md",
 "outcome": "One corner of the obsessively ordered house is smashed: toppled furniture, a torn-down shelf, crockery across the floor, a shattered mirror in the corridor. It reads like a violent struggle.",
 "gives": "ciotka-house-wrecked",
 "cost": "1 composure",
-"changes": "The priest — leaves to fetch Zbigniew",
+"changes": "Ciotka Found Dead — The Kitchen — starts",
 "type": "rule",
 "setup": "The house is quiet. ks. Władysław Pająk is here, come to look in on Janina; he helps the committee where he can and flinches only at her body being disturbed. The icons remain on the walls. A hatch to the attic is set in the ceiling, a short ladder folded beside it. The candles have burned out and have been out for hours. The house remains obsessively ordered. One corner tells another story: furniture is smashed, a shelf torn down, crockery broken across the floor. A mirror in the corridor is shattered. Nothing has been ransacked. Nothing has been stolen. Edek Barnaś's room is empty.. Edek Barnaś's mattress is cold. There is no sign of forced entry. The wrecked corner reads like a violent struggle. There is no weapon. A kitchen chair lies on its side among the wreckage."
 },
@@ -1834,7 +1787,6 @@
 "part-of": "Ciotka Found Dead — Outside",
 "location": "Ciotka's House",
 "present": "ks. Władysław Pająk",
-"available": "From Ciotka Found Dead — The House, by entering the kitchen.",
 "when": "setup:events/ciotka-found-dead/the-kitchen.md",
 "outcome": "Janina Gajda lies on the floor, eyes open, candles long out. She is dead.",
 "gives": "ciotka-is-dead",
@@ -1844,309 +1796,26 @@
 "changes": "Contempt for the dead — the committee showed contempt for Janina's body",
 "setup": "Janina Gajda lies on the kitchen floor. Janina Gajda is on her back, half-turned. Janina Gajda's eyes are open.. A fresh, dark bruise rings one of Janina Gajda's wrists. Apart from the bruise, there is no wound and no blood. Janina Gajda's hands are at her sides. A fallen rosary is near one half-curled hand. A glass with a finger of water sits on the table. Two used coffee cups sit on the table.. A small brown pill bottle lies on its side on the table with the cap off."
 },
-"events/day-1/day-1-afternoon.md": {
-"name": "Day 1 — Afternoon",
-"part-of": "Day 1",
+"events/committee-visit/committee-visit.md": {
+"name": "The Committee Visit",
 "location": "Testowo",
-"available": "After Day 1 — Morning: every player's morning cards are spent.",
-"outcome": "The afternoon of Day 1 begins.",
-"changes": "Day 1 — Morning — ends; Day 1 — Afternoon — starts",
-"setup": "The GM asks the players: are you ready to begin the afternoon of Day 1?."
-},
-"events/day-1/day-1-evening.md": {
-"name": "Day 1 — Evening",
-"part-of": "Day 1",
-"location": "Testowo",
-"available": "After Day 1 — Afternoon: every player's afternoon cards are spent.",
-"outcome": "The evening of Day 1 begins.",
-"changes": "Day 1 — Afternoon — ends; Day 1 — Evening — starts",
-"setup": "The GM asks the players: are you ready to begin the evening of Day 1?."
-},
-"events/day-1/day-1-morning.md": {
-"name": "Day 1 — Morning",
-"part-of": "Day 1",
-"location": "Testowo",
-"available": "Game start.",
-"outcome": "The morning of Day 1 begins.",
-"changes": "Day 1 — Morning — starts",
-"setup": "The GM asks the players: are you ready to begin the morning of Day 1?."
-},
-"events/day-1/day-1-night.md": {
-"name": "Day 1 — Night",
-"part-of": "Day 1",
-"location": "Testowo",
-"available": "After Day 1 — Evening: every player's evening cards are spent.",
-"outcome": "The night of Day 1 begins.",
-"changes": "Day 1 — Evening — ends; Day 1 — Night — starts",
-"setup": "The GM asks the players: are you ready to begin the night of Day 1?."
-},
-"events/day-1/day-1.md": {
-"name": "Day 1",
-"location": "Testowo",
-"available": "Game start.",
-"setup": "TBD."
-},
-"events/day-2/day-2-afternoon.md": {
-"name": "Day 2 — Afternoon",
-"part-of": "Day 2",
-"location": "Testowo",
-"available": "After Day 2 — Morning: every player's morning cards are spent.",
-"outcome": "The afternoon of Day 2 begins.",
-"changes": "Day 2 — Morning — ends; Day 2 — Afternoon — starts",
-"setup": "The GM asks the players: are you ready to begin the afternoon of Day 2?."
-},
-"events/day-2/day-2-evening.md": {
-"name": "Day 2 — Evening",
-"part-of": "Day 2",
-"location": "Testowo",
-"available": "After Day 2 — Afternoon: every player's afternoon cards are spent.",
-"outcome": "The evening of Day 2 begins.",
-"changes": "Day 2 — Afternoon — ends; Day 2 — Evening — starts",
-"setup": "The GM asks the players: are you ready to begin the evening of Day 2?."
-},
-"events/day-2/day-2-morning.md": {
-"name": "Day 2 — Morning",
-"part-of": "Day 2",
-"location": "Testowo",
-"available": "After Day 1 — Night: every player's night cards are spent.",
-"outcome": "The morning of Day 2 begins.",
-"changes": "Day 1 — Night — ends; Day 2 — Morning — starts",
-"setup": "The GM asks the players: are you ready to begin the morning of Day 2?."
-},
-"events/day-2/day-2-night.md": {
-"name": "Day 2 — Night",
-"part-of": "Day 2",
-"location": "Testowo",
-"available": "After Day 2 — Evening: every player's evening cards are spent.",
-"outcome": "The night of Day 2 begins.",
-"changes": "Day 2 — Evening — ends; Day 2 — Night — starts",
-"setup": "The GM asks the players: are you ready to begin the night of Day 2?."
-},
-"events/day-2/day-2.md": {
-"name": "Day 2",
-"location": "Testowo",
-"available": "After Day 1 — Night: every player's night cards are spent.",
-"setup": "TBD."
-},
-"events/day-3/day-3-afternoon.md": {
-"name": "Day 3 — Afternoon",
-"part-of": "Day 3",
-"location": "Testowo",
-"available": "After Day 3 — Morning: every player's morning cards are spent.",
-"outcome": "The afternoon of Day 3 begins.",
-"changes": "Day 3 — Morning — ends; Day 3 — Afternoon — starts",
-"setup": "The GM asks the players: are you ready to begin the afternoon of Day 3?."
-},
-"events/day-3/day-3-evening.md": {
-"name": "Day 3 — Evening",
-"part-of": "Day 3",
-"location": "Testowo",
-"available": "After Day 3 — Afternoon: every player's afternoon cards are spent.",
-"outcome": "The evening of Day 3 begins.",
-"changes": "Day 3 — Afternoon — ends; Day 3 — Evening — starts",
-"setup": "The GM asks the players: are you ready to begin the evening of Day 3?."
-},
-"events/day-3/day-3-morning.md": {
-"name": "Day 3 — Morning",
-"part-of": "Day 3",
-"location": "Testowo",
-"available": "After Day 2 — Night: every player's night cards are spent.",
-"outcome": "The morning of Day 3 begins.",
-"changes": "Day 2 — Night — ends; Day 3 — Morning — starts",
-"setup": "The GM asks the players: are you ready to begin the morning of Day 3?."
-},
-"events/day-3/day-3-night.md": {
-"name": "Day 3 — Night",
-"part-of": "Day 3",
-"location": "Testowo",
-"available": "After Day 3 — Evening: every player's evening cards are spent.",
-"outcome": "The night of Day 3 begins.",
-"changes": "Day 3 — Evening — ends; Day 3 — Night — starts",
-"setup": "The GM asks the players: are you ready to begin the night of Day 3?."
-},
-"events/day-3/day-3.md": {
-"name": "Day 3",
-"location": "Testowo",
-"available": "After Day 2 — Night: every player's night cards are spent.",
-"setup": "TBD."
-},
-"events/day-4/day-4-afternoon.md": {
-"name": "Day 4 — Afternoon",
-"part-of": "Day 4",
-"location": "Testowo",
-"available": "After Day 4 — Morning: every player's morning cards are spent.",
-"outcome": "The afternoon of Day 4 begins.",
-"changes": "Day 4 — Morning — ends; Day 4 — Afternoon — starts",
-"setup": "The GM asks the players: are you ready to begin the afternoon of Day 4?."
-},
-"events/day-4/day-4-evening.md": {
-"name": "Day 4 — Evening",
-"part-of": "Day 4",
-"location": "Testowo",
-"available": "After Day 4 — Afternoon: every player's afternoon cards are spent.",
-"outcome": "The evening of Day 4 begins.",
-"changes": "Day 4 — Afternoon — ends; Day 4 — Evening — starts",
-"setup": "The GM asks the players: are you ready to begin the evening of Day 4?."
-},
-"events/day-4/day-4-morning.md": {
-"name": "Day 4 — Morning",
-"part-of": "Day 4",
-"location": "Testowo",
-"available": "After Day 3 — Night: every player's night cards are spent.",
-"outcome": "The morning of Day 4 begins.",
-"changes": "Day 3 — Night — ends; Day 4 — Morning — starts",
-"setup": "The GM asks the players: are you ready to begin the morning of Day 4?."
-},
-"events/day-4/day-4-night.md": {
-"name": "Day 4 — Night",
-"part-of": "Day 4",
-"location": "Testowo",
-"available": "After Day 4 — Evening: every player's evening cards are spent.",
-"outcome": "The night of Day 4 begins.",
-"changes": "Day 4 — Evening — ends; Day 4 — Night — starts",
-"setup": "The GM asks the players: are you ready to begin the night of Day 4?."
-},
-"events/day-4/day-4.md": {
-"name": "Day 4",
-"location": "Testowo",
-"available": "After Day 3 — Night: every player's night cards are spent.",
-"setup": "TBD."
-},
-"events/day-5/day-5-afternoon.md": {
-"name": "Day 5 — Afternoon",
-"part-of": "Day 5",
-"location": "Testowo",
-"available": "After Day 5 — Morning: every player's morning cards are spent.",
-"outcome": "The afternoon of Day 5 begins.",
-"changes": "Day 5 — Morning — ends; Day 5 — Afternoon — starts",
-"setup": "The GM asks the players: are you ready to begin the afternoon of Day 5?."
-},
-"events/day-5/day-5-evening.md": {
-"name": "Day 5 — Evening",
-"part-of": "Day 5",
-"location": "Testowo",
-"available": "After Day 5 — Afternoon: every player's afternoon cards are spent.",
-"outcome": "The evening of Day 5 begins.",
-"changes": "Day 5 — Afternoon — ends; Day 5 — Evening — starts",
-"setup": "The GM asks the players: are you ready to begin the evening of Day 5?."
-},
-"events/day-5/day-5-morning.md": {
-"name": "Day 5 — Morning",
-"part-of": "Day 5",
-"location": "Testowo",
-"available": "After Day 4 — Night: every player's night cards are spent.",
-"outcome": "The morning of Day 5 begins.",
-"changes": "Day 4 — Night — ends; Day 5 — Morning — starts",
-"setup": "The GM asks the players: are you ready to begin the morning of Day 5?."
-},
-"events/day-5/day-5-night.md": {
-"name": "Day 5 — Night",
-"part-of": "Day 5",
-"location": "Testowo",
-"available": "After Day 5 — Evening: every player's evening cards are spent.",
-"outcome": "The night of Day 5 begins.",
-"changes": "Day 5 — Evening — ends; Day 5 — Night — starts",
-"setup": "The GM asks the players: are you ready to begin the night of Day 5?."
-},
-"events/day-5/day-5.md": {
-"name": "Day 5",
-"location": "Testowo",
-"available": "After Day 4 — Night: every player's night cards are spent.",
-"setup": "TBD."
-},
-"events/day-6/day-6-afternoon.md": {
-"name": "Day 6 — Afternoon",
-"part-of": "Day 6",
-"location": "Testowo",
-"available": "After Day 6 — Morning: every player's morning cards are spent.",
-"outcome": "The afternoon of Day 6 begins.",
-"changes": "Day 6 — Morning — ends; Day 6 — Afternoon — starts",
-"setup": "The GM asks the players: are you ready to begin the afternoon of Day 6?."
-},
-"events/day-6/day-6-evening.md": {
-"name": "Day 6 — Evening",
-"part-of": "Day 6",
-"location": "Testowo",
-"available": "After Day 6 — Afternoon: every player's afternoon cards are spent.",
-"outcome": "The evening of Day 6 begins.",
-"changes": "Day 6 — Afternoon — ends; Day 6 — Evening — starts",
-"setup": "The GM asks the players: are you ready to begin the evening of Day 6?."
-},
-"events/day-6/day-6-morning.md": {
-"name": "Day 6 — Morning",
-"part-of": "Day 6",
-"location": "Testowo",
-"available": "After Day 5 — Night: every player's night cards are spent.",
-"outcome": "The morning of Day 6 begins.",
-"changes": "Day 5 — Night — ends; Day 6 — Morning — starts",
-"setup": "The GM asks the players: are you ready to begin the morning of Day 6?."
-},
-"events/day-6/day-6-night.md": {
-"name": "Day 6 — Night",
-"part-of": "Day 6",
-"location": "Testowo",
-"available": "After Day 6 — Evening: every player's evening cards are spent.",
-"outcome": "The night of Day 6 begins.",
-"changes": "Day 6 — Evening — ends; Day 6 — Night — starts",
-"setup": "The GM asks the players: are you ready to begin the night of Day 6?."
-},
-"events/day-6/day-6.md": {
-"name": "Day 6",
-"location": "Testowo",
-"available": "After Day 5 — Night: every player's night cards are spent.",
-"setup": "TBD."
-},
-"events/day-7/day-7-afternoon.md": {
-"name": "Day 7 — Afternoon",
-"part-of": "Day 7",
-"location": "Testowo",
-"available": "After Day 7 — Morning: every player's morning cards are spent.",
-"outcome": "The afternoon of Day 7 begins.",
-"changes": "Day 7 — Morning — ends; Day 7 — Afternoon — starts",
-"setup": "The GM asks the players: are you ready to begin the afternoon of Day 7?."
-},
-"events/day-7/day-7-evening.md": {
-"name": "Day 7 — Evening",
-"part-of": "Day 7",
-"location": "Testowo",
-"available": "After Day 7 — Afternoon: every player's afternoon cards are spent.",
-"outcome": "The evening of Day 7 begins.",
-"changes": "Day 7 — Afternoon — ends; Day 7 — Evening — starts",
-"setup": "The GM asks the players: are you ready to begin the evening of Day 7?."
-},
-"events/day-7/day-7-morning.md": {
-"name": "Day 7 — Morning",
-"part-of": "Day 7",
-"location": "Testowo",
-"available": "After Day 6 — Night: every player's night cards are spent.",
-"outcome": "The morning of Day 7 begins.",
-"changes": "Day 6 — Night — ends; Day 7 — Morning — starts",
-"setup": "The GM asks the players: are you ready to begin the morning of Day 7?."
-},
-"events/day-7/day-7-night.md": {
-"name": "Day 7 — Night",
-"part-of": "Day 7",
-"location": "Testowo",
-"available": "After Day 7 — Evening: every player's evening cards are spent.",
-"outcome": "The night of Day 7 begins.",
-"changes": "Day 7 — Evening — ends; Day 7 — Night — starts",
-"setup": "The GM asks the players: are you ready to begin the night of Day 7?."
-},
-"events/day-7/day-7.md": {
-"name": "Day 7",
-"location": "Testowo",
-"available": "After Day 6 — Night: every player's night cards are spent.",
-"setup": "TBD."
+"when": "setup:events/committee-visit/committee-visit.md",
+"outcome": "The first morning begins with the drive in.",
+"changes": "Day 1 — starts; Day 1 — Morning — starts; The Car In — starts; Phase cards — 12",
+"type": "int",
+"per": "world",
+"start": "12",
+"setup": "The committee sets out for the valley.."
 },
 "events/the-car-in/the-car-in.md": {
 "name": "The Car In",
 "location": "The Milicja Nysa",
 "present": "por. Witold Skowron, kpr. Zdzisław Wrona",
-"available": "Game start.",
 "noticed-by": "Bureaucracy OR Empathy",
 "when": "Ask what the committee must do",
 "outcome": "por. Witold Skowron frames the work narrowly and signals that old grievances and local legends stay out of the official report.",
 "gives": "officer-warning",
+"changes": "The Car In — The Draft — starts",
 "setup": "Rain drums on the roof of a Milicja Nysa winding down a mountain road. kpr. Zdzisław Wrona drives in silence. por. Witold Skowron sits beside him with a stack of folders on his knee. You volunteered to sit on a state committee as representatives of the public, independent observers in an important government matter. The letter said nothing more. Below, the road drops into a valley none of you has a name for. One folder on his knee carries a different stamp: AGH, Faculty of Geological Prospecting. por. Witold Skowron turns in his seat. He chooses his words carefully, and he will talk if you ask."
 },
 "events/the-car-in/the-draft.md": {
@@ -2154,7 +1823,6 @@
 "part-of": "The Car In",
 "location": "The Milicja Nysa",
 "present": "por. Witold Skowron, kpr. Zdzisław Wrona",
-"available": "After Ask what the committee must do.",
 "outcome": "por. Witold Skowron asks each of them who they are and checks the answer against his dossier. The players draft the card pool in snake order until the pool is empty, each card a line of their background.",
 "changes": "The draft — true",
 "type": "bool",
@@ -2167,7 +1835,6 @@
 "part-of": "The Car In",
 "location": "The Milicja Nysa",
 "present": "por. Witold Skowron, kpr. Zdzisław Wrona",
-"available": "After The Car In — The Draft.",
 "noticed-by": "Empathy",
 "when": "setup:events/the-car-in/the-drive.md",
 "outcome": "Zdzisław is hunting for something and hiding the search from Witold.",
@@ -2179,6 +1846,300 @@
 "per": "world",
 "start": "vigilant",
 "setup": "The ride is long: rain, switchbacks, silence. kpr. Zdzisław Wrona says it will take a while yet. A bundle of forms lies on the bench beside you. por. Witold Skowron tells you to get familiar with them before you arrive. kpr. Zdzisław Wrona keeps patting his coat and glancing at por. Witold Skowron, as if he has lost something he should not have. Every few bends, glass clinks somewhere in the back.. kpr. Zdzisław Wrona smokes one cigarette off the last; a crumpled packet sits on the dashboard. Behind the last bench, something heavy slides and bangs against the rear doors on every bend. A folded road map lies on the dashboard in front of por. Witold Skowron. Ahead, the road forks; the signpost lies face down in the ditch. kpr. Zdzisław Wrona swings left without slowing."
+},
+"events/committee-visit/day-1/day-1-afternoon.md": {
+"name": "Day 1 — Afternoon",
+"part-of": "Day 1",
+"location": "Testowo",
+"when": "Phase cards is 0",
+"outcome": "The afternoon is spent.",
+"changes": "Day 1 — Afternoon — ends; Day 1 — Evening — starts; Phase cards — 12",
+"setup": "The afternoon of Day 1 begins."
+},
+"events/committee-visit/day-1/day-1-evening.md": {
+"name": "Day 1 — Evening",
+"part-of": "Day 1",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-1/day-1-evening.md",
+"outcome": "Dinner at Wojewoda's begins.",
+"changes": "Dinner at Wojewoda's — starts",
+"setup": "The evening of Day 1 begins.."
+},
+"events/committee-visit/day-1/day-1-morning.md": {
+"name": "Day 1 — Morning",
+"part-of": "Day 1",
+"location": "Testowo",
+"when": "Phase cards is 0",
+"outcome": "The morning is spent.",
+"changes": "Day 1 — Morning — ends; Day 1 — Afternoon — starts; Phase cards — 12",
+"setup": "The morning of Day 1 begins."
+},
+"events/committee-visit/day-1/day-1-night.md": {
+"name": "Day 1 — Night",
+"part-of": "Day 1",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-1/day-1-night.md",
+"outcome": "Hag's Prayer begins.",
+"changes": "Hag's Prayer — starts",
+"setup": "The night of Day 1 begins.."
+},
+"events/committee-visit/day-1/day-1.md": {
+"name": "Day 1",
+"part-of": "The Committee Visit",
+"location": "Testowo",
+"setup": "TBD."
+},
+"events/committee-visit/day-2/day-2-afternoon.md": {
+"name": "Day 2 — Afternoon",
+"part-of": "Day 2",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-2/day-2-afternoon.md",
+"outcome": "Wujas Visits the Butcher begins.",
+"changes": "Wujas Visits the Butcher — starts",
+"setup": "The afternoon of Day 2 begins.."
+},
+"events/committee-visit/day-2/day-2-evening.md": {
+"name": "Day 2 — Evening",
+"part-of": "Day 2",
+"location": "Testowo",
+"when": "Phase cards is 0",
+"outcome": "The evening is spent.",
+"changes": "Day 2 — Evening — ends; Day 2 — Night — starts; Phase cards — 12",
+"setup": "The evening of Day 2 begins."
+},
+"events/committee-visit/day-2/day-2-morning.md": {
+"name": "Day 2 — Morning",
+"part-of": "Day 2",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-2/day-2-morning.md",
+"outcome": "The Wolf Attack begins.",
+"changes": "The Wolf Attack — starts",
+"setup": "The morning of Day 2 begins.."
+},
+"events/committee-visit/day-2/day-2-night.md": {
+"name": "Day 2 — Night",
+"part-of": "Day 2",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-2/day-2-night.md",
+"outcome": "Hag's Prayer begins.",
+"changes": "Hag's Prayer — starts",
+"setup": "The night of Day 2 begins.."
+},
+"events/committee-visit/day-2/day-2.md": {
+"name": "Day 2",
+"part-of": "The Committee Visit",
+"location": "Testowo",
+"setup": "TBD."
+},
+"events/committee-visit/day-3/day-3-afternoon.md": {
+"name": "Day 3 — Afternoon",
+"part-of": "Day 3",
+"location": "Testowo",
+"when": "Phase cards is 0",
+"outcome": "The afternoon is spent.",
+"changes": "Day 3 — Afternoon — ends; Day 3 — Evening — starts; Phase cards — 12",
+"setup": "The afternoon of Day 3 begins."
+},
+"events/committee-visit/day-3/day-3-evening.md": {
+"name": "Day 3 — Evening",
+"part-of": "Day 3",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-3/day-3-evening.md",
+"outcome": "Pawelek Falls Ill begins.",
+"changes": "Pawelek Falls Ill — starts",
+"setup": "The evening of Day 3 begins.."
+},
+"events/committee-visit/day-3/day-3-morning.md": {
+"name": "Day 3 — Morning",
+"part-of": "Day 3",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-3/day-3-morning.md",
+"outcome": "The Flood begins.",
+"changes": "The Flood — starts",
+"setup": "The morning of Day 3 begins.."
+},
+"events/committee-visit/day-3/day-3-night.md": {
+"name": "Day 3 — Night",
+"part-of": "Day 3",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-3/day-3-night.md",
+"outcome": "Hag's Prayer begins.",
+"changes": "Hag's Prayer — starts",
+"setup": "The night of Day 3 begins.."
+},
+"events/committee-visit/day-3/day-3.md": {
+"name": "Day 3",
+"part-of": "The Committee Visit",
+"location": "Testowo",
+"setup": "TBD."
+},
+"events/committee-visit/day-4/day-4-afternoon.md": {
+"name": "Day 4 — Afternoon",
+"part-of": "Day 4",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-4/day-4-afternoon.md and Bond: Priest",
+"outcome": "The Priest's Plea begins.",
+"changes": "The Priest's Plea — starts",
+"setup": "The afternoon of Day 4 begins.."
+},
+"events/committee-visit/day-4/day-4-evening.md": {
+"name": "Day 4 — Evening",
+"part-of": "Day 4",
+"location": "Testowo",
+"when": "Phase cards is 0",
+"outcome": "The evening is spent.",
+"changes": "Day 4 — Evening — ends; Day 4 — Night — starts; Phase cards — 12",
+"setup": "The evening of Day 4 begins."
+},
+"events/committee-visit/day-4/day-4-morning.md": {
+"name": "Day 4 — Morning",
+"part-of": "Day 4",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-4/day-4-morning.md",
+"outcome": "Holy Mass — Anti-Flood Prayer begins.",
+"changes": "Holy Mass — Anti-Flood Prayer — starts",
+"setup": "The morning of Day 4 begins.."
+},
+"events/committee-visit/day-4/day-4-night.md": {
+"name": "Day 4 — Night",
+"part-of": "Day 4",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-4/day-4-night.md and Village Hostility is false",
+"outcome": "The Well Confrontation begins.",
+"changes": "The Well Confrontation — starts",
+"setup": "The night of Day 4 begins.."
+},
+"events/committee-visit/day-4/day-4.md": {
+"name": "Day 4",
+"part-of": "The Committee Visit",
+"location": "Testowo",
+"setup": "TBD."
+},
+"events/committee-visit/day-5/day-5-afternoon.md": {
+"name": "Day 5 — Afternoon",
+"part-of": "Day 5",
+"location": "Testowo",
+"when": "Phase cards is 0",
+"outcome": "The afternoon is spent.",
+"changes": "Day 5 — Afternoon — ends; Day 5 — Evening — starts; Phase cards — 12",
+"setup": "The afternoon of Day 5 begins."
+},
+"events/committee-visit/day-5/day-5-evening.md": {
+"name": "Day 5 — Evening",
+"part-of": "Day 5",
+"location": "Testowo",
+"when": "Phase cards is 0",
+"outcome": "The evening is spent.",
+"changes": "Day 5 — Evening — ends; Day 5 — Night — starts; Phase cards — 12",
+"setup": "The evening of Day 5 begins."
+},
+"events/committee-visit/day-5/day-5-morning.md": {
+"name": "Day 5 — Morning",
+"part-of": "Day 5",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-5/day-5-morning.md",
+"outcome": "Funeral Mass — Ciotka begins.",
+"changes": "Funeral Mass — Ciotka — starts",
+"setup": "The morning of Day 5 begins.."
+},
+"events/committee-visit/day-5/day-5-night.md": {
+"name": "Day 5 — Night",
+"part-of": "Day 5",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-5/day-5-night.md",
+"outcome": "Butcher Takes the Body begins.",
+"changes": "Butcher Takes the Body — starts",
+"setup": "The night of Day 5 begins.."
+},
+"events/committee-visit/day-5/day-5.md": {
+"name": "Day 5",
+"part-of": "The Committee Visit",
+"location": "Testowo",
+"setup": "TBD."
+},
+"events/committee-visit/day-6/day-6-afternoon.md": {
+"name": "Day 6 — Afternoon",
+"part-of": "Day 6",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-6/day-6-afternoon.md and Bond: Barbara",
+"outcome": "Barbara Warns the Players begins.",
+"changes": "Barbara Warns the Players — starts",
+"setup": "The afternoon of Day 6 begins.."
+},
+"events/committee-visit/day-6/day-6-evening.md": {
+"name": "Day 6 — Evening",
+"part-of": "Day 6",
+"location": "Testowo",
+"when": "Phase cards is 0",
+"outcome": "The evening is spent.",
+"changes": "Day 6 — Evening — ends; Day 6 — Night — starts; Phase cards — 12",
+"setup": "The evening of Day 6 begins."
+},
+"events/committee-visit/day-6/day-6-morning.md": {
+"name": "Day 6 — Morning",
+"part-of": "Day 6",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-6/day-6-morning.md",
+"outcome": "Coffee at Matrona's begins.",
+"changes": "Coffee at Matrona's — starts",
+"setup": "The morning of Day 6 begins.."
+},
+"events/committee-visit/day-6/day-6-night.md": {
+"name": "Day 6 — Night",
+"part-of": "Day 6",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-6/day-6-night.md",
+"outcome": "The Lynch begins.",
+"changes": "The Lynch — starts",
+"setup": "The night of Day 6 begins.."
+},
+"events/committee-visit/day-6/day-6.md": {
+"name": "Day 6",
+"part-of": "The Committee Visit",
+"location": "Testowo",
+"setup": "TBD."
+},
+"events/committee-visit/day-7/day-7-afternoon.md": {
+"name": "Day 7 — Afternoon",
+"part-of": "Day 7",
+"location": "Testowo",
+"when": "Phase cards is 0",
+"outcome": "The afternoon is spent.",
+"changes": "Day 7 — Afternoon — ends; Day 7 — Evening — starts; Phase cards — 12",
+"setup": "The afternoon of Day 7 begins."
+},
+"events/committee-visit/day-7/day-7-evening.md": {
+"name": "Day 7 — Evening",
+"part-of": "Day 7",
+"location": "Testowo",
+"when": "Phase cards is 0",
+"outcome": "The evening is spent.",
+"changes": "Day 7 — Evening — ends; Day 7 — Night — starts; Phase cards — 12",
+"setup": "The evening of Day 7 begins."
+},
+"events/committee-visit/day-7/day-7-morning.md": {
+"name": "Day 7 — Morning",
+"part-of": "Day 7",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-7/day-7-morning.md and Crisis of Faith < 8",
+"outcome": "The Seal-Break — The Priest Names the Dead begins.",
+"changes": "The Seal-Break — The Priest Names the Dead — starts",
+"setup": "The morning of Day 7 begins.."
+},
+"events/committee-visit/day-7/day-7-night.md": {
+"name": "Day 7 — Night",
+"part-of": "Day 7",
+"location": "Testowo",
+"when": "setup:events/committee-visit/day-7/day-7-night.md",
+"outcome": "Hag's Prayer begins.",
+"changes": "Hag's Prayer — starts",
+"setup": "The night of Day 7 begins.."
+},
+"events/committee-visit/day-7/day-7.md": {
+"name": "Day 7",
+"part-of": "The Committee Visit",
+"location": "Testowo",
+"setup": "TBD."
 },
 "items/anchor.md": {
 "name": "Anchor and Hammer",

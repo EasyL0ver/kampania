@@ -76,7 +76,7 @@
 - **Cost:** 1 time
 - **Outcome:** You bash the little door until the lock tears out of the wood and take the child's course of penicillin. Quick and loud, and the splintered frame shows at a glance that someone forced it.
 - **Gives:** [@name](../../items/penicillin.md)
-- **Changes:** [Robbery suspect](../../characters/matrona.md#robbery-suspect) — the penicillin is missing
+- **Changes:** [Robbery suspect](../../characters/matrona.md#robbery-suspect) — the penicillin is missing; [Cabinet](#cabinet) — forced
 
 ### Unlock the cabinet
 - **Requires:** [@name](../../items/store-cabinet-key.md)
@@ -97,3 +97,11 @@
 
 <!-- Drinking with the crew is a crew action — see [Tadek Gajda — Drink with the crew](../../characters/wujas.md#drink-with-the-crew). -->
 
+## Mechanics
+
+### Cabinet
+
+- **Type:** enum (intact | forced | discovered)
+- **Per:** world
+- **Start:** intact
+- Forced by [Force the cabinet](#force-the-cabinet); found out on the next morning (each morning's "with the store robbery" begin).

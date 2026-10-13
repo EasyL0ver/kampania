@@ -1,7 +1,7 @@
 # Hag's Prayer
 
 **Location:** [@name](../locations/new-village/barbaras-house.md)
-**Present:** [@name](../characters/hag.md)
+**Present:** [@name](../characters/hag.md) (if [Alive](../characters/hag.md#alive) is true)
 
 ## Hook
 

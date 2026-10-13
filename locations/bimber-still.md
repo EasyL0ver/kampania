@@ -60,6 +60,12 @@
 
 ## Actions
 
+### Walk into the clearing
+<!-- TBD: only while the drinking crew is at the still (their schedules); needs the presence/clock decision. -->
+- **Outcome:** You step out of the trees into the clearing, in full view of the fire.
+- **Changes:** [@name](../events/caught-at-the-still.md) — starts
+
+
 ### Sit down and drink with the crew
 - **Requires:** [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md)
 - **When:** Crew present; hands off the still

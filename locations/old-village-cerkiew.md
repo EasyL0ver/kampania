@@ -51,6 +51,11 @@
 
 ## Actions
 
+### Begin the rite
+- **Outcome:** The committee lays out the rite and begins to name the dead.
+- **Changes:** [@name](../events/the-ritual.md) — starts
+
+
 ### Explore the interior
 - **Cost:** 1 time
 - **Outcome:** The players document the altar, faded icons, Cyrillic inscriptions, broken candle stands, rain damage, and unstable roof sections.

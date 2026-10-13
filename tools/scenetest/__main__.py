@@ -66,6 +66,8 @@ def main() -> int:
                 p.receive(m.gives)
                 explored[m.id] = {"turn": turn, "cost": "free", "time": p.time}
                 happened.append(f"noticed: {m.text}")
+                if m.changes:                         # what it sets off reaches the referee on its next ruling
+                    happened.append(f"changed: {m.changes}")
                 out.append(("NOTICED", m.text))
         return out
 

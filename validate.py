@@ -331,6 +331,7 @@ def setup_no_bullets(f: MdFile):
 
 WHEN_ACTION_FIELD = re.compile(r"^\s*-\s*\*\*When:\*\*\s*(.*?)\s*$")
 WHEN_OPP_TAG = re.compile(r"^- \*\(when: (.*?)\)\*")
+WHEN_CARD = re.compile(r"^\[[^\]]+\]\(((?:\.\./)*cards/[a-z0-9-]+\.md)\)$")   # some player holds this card
 WHEN_TERM_LINK = re.compile(r"^\[[^\]]+\]\((?P<path>[^)#\s]*)#(?P<anchor>[\w-]+)\)"
                             r"(?: (?P<op>is|<=|>=|<|>) (?P<value>[A-Za-z0-9+-]+))?$")
 
@@ -345,7 +346,8 @@ def when_format(f: MdFile):
     """Every When is strict: terms joined by ' and ', each an action link [Action](file.md#anchor)
     (the move opens as that action is taken), a mechanic condition [Mechanic](file.md#anchor) is value
     (ints and enums also take <, <=, >, >=; an enum compares by the order its values are declared in), or
-    setup:<own file> (it holds as the scene opens: what the Setup shows). Nothing else: no prose."""
+    setup:<own file> (it holds as the scene opens: what the Setup shows), or a card link [Card](cards/x.md)
+    (some player holds that card, e.g. a Bond). Nothing else: no prose."""
     for line, t in f.lines_with_numbers():
         m = WHEN_ACTION_FIELD.match(t) or WHEN_OPP_TAG.match(t.strip())
         if not m:
@@ -367,6 +369,11 @@ def when_format(f: MdFile):
             if st:                                    # setup:<own file> — fires as the scene opens
                 if st.group(1) != f.rel:
                     yield line, f"When '{term}': setup: names the move's own file ({f.rel})"
+                continue
+            card = WHEN_CARD.match(term)
+            if card:                                  # [Card](cards/x.md) — some player holds it
+                if not (f.path.parent / unquote(card.group(1))).resolve().is_file():
+                    yield line, f"When card '{term[:60]}' does not exist"
                 continue
             tm = WHEN_TERM_LINK.match(term)
             k = kind(f"{tm.group('path')}#{tm.group('anchor')}") if tm else None
@@ -416,6 +423,7 @@ def self_presence(f: MdFile):
 
 
 _starts: set[Path] | None = None
+GAME_ROOT = "events/committee-visit/committee-visit.md"   # the one event nothing starts
 
 
 def started_events() -> set[Path]:
@@ -437,6 +445,8 @@ def started_events() -> set[Path]:
 def event_started(f: MdFile):
     """Every event begins because some action's Changes starts it: `[Event](file.md) — starts`.
     (Events have no Available or Trigger: an action starts them, and ends them with `— ends`.)"""
+    if f.rel == GAME_ROOT:
+        return                                        # the game itself starts the visit
     if f.path.resolve() not in started_events():
         yield f.title_line or 1, "no action starts this event: add `[Event](…) — starts` to the Changes of the action that begins it"
 
@@ -944,7 +954,7 @@ def file_structure(f: MdFile):
         yield f.sections[0].line, f"sections out of template order: {', '.join(present)} (template: {', '.join(allowed)})"
 
 
-OPP_FIELDS = ["Noticed by", "When", "Outcome", "Gives"]      # template order; Prompted by is a hidden comment
+OPP_FIELDS = ["Noticed by", "When", "Outcome", "Gives", "Changes"]      # template order; Prompted by is a hidden comment
 OPP_REQUIRED = {"When", "Outcome"}
 FIELD_LABEL = re.compile(r"^\s*-\s*\*\*([^*:]+):\*\*")
 
@@ -953,7 +963,8 @@ FIELD_LABEL = re.compile(r"^\s*-\s*\*\*([^*:]+):\*\*")
 def opportunity_format(f: MdFile):
     """Each opportunity is a ### heading (its anchor), like an action, with fields in this order:
     - **Noticed by:** (optional), - **When:** (required), <!-- Prompted by: … --> (optional),
-    - **Outcome:** (required: what is noticed), - **Gives:** (optional). Nothing else: no Cost, Requires, Changes."""
+    - **Outcome:** (required: what is noticed), - **Gives:** (optional), - **Changes:** (optional: what it sets
+    off, e.g. an event starting). Nothing else: no Cost, no Requires."""
     s = f.section("Opportunities")
     if s is None:
         return
@@ -976,17 +987,7 @@ def opportunity_format(f: MdFile):
             yield o.line, f"opportunity '{o.title}' has no {req}" + (": every opportunity says when it fires" if req == "When" else "")
         order = [OPP_FIELDS.index(l) for l in labels if l in OPP_FIELDS]
         if order != sorted(order):
-            yield o.line, f"opportunity '{o.title}': fields out of order (Noticed by, When, Outcome, Gives)"
-
-
-@rule("opportunity-no-changes", "characters", "events", "locations", "items")
-def opportunity_no_changes(f: MdFile):
-    """Opportunities are noticed, never done: they may Give but never carry `→ Changes:`."""
-    s = f.section("Opportunities")
-    for o in (s.children if s else []):
-        for line, t in o.body:
-            if "→ Changes:" in t or re.match(r"^\s*-\s*\*\*Changes:\*\*", t):
-                yield line, "an opportunity can't change anything; make it an action, or move the change to the event's Mechanics"
+            yield o.line, f"opportunity '{o.title}': fields out of order (Noticed by, When, Outcome, Gives, Changes)"
 
 
 @rule("gives-format", "characters", "events", "locations", "items")

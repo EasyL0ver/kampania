@@ -198,6 +198,9 @@ def _opportunities(f: V.MdFile) -> list[Move]:
                 mv.text = plain(value, f.path)
             elif label == "Gives":
                 mv.gives = refs(value, f.path)
+            elif label == "Changes":
+                mv.changes = plain(value, f.path)
+                mv.change_refs = refs(value, f.path)
         out.append(mv)
     return out
 

@@ -19,6 +19,8 @@ Each day has **4 phases**.
 | **Evening** | ~18:00–00:00 | Social scenes, drinking, dinners, village quiets down |
 | **Night** | ~00:00–6:00 | Dark, dangerous, most NPCs asleep. **Using any night cards = skipping sleep** |
 
+**The clock in the files:** the visit is one event, [The Committee Visit](../events/committee-visit/committee-visit.md), with a bundle per day and an event per phase. Its world counter `Phase cards` (12: the committee's cards for one phase) drops as actions are paid; at 0 the phase's closing opportunity ends it, starts the next and refills the counter. Whatever is tied to a time starts from an opportunity in that phase.
+
 **The game is built for three or four players.** How many cards a phase holds depends on which: the work doesn't shrink when the committee does, so fewer clerks each carry more.
 
 | Players | Cards per phase | Per day, each | Standard (M/A/E), each | Party standard/day |

@@ -39,6 +39,11 @@
 
 ## Actions
 
+### Begin the rite
+- **Outcome:** The committee lays out the rite and begins to name the dead.
+- **Changes:** [@name](../events/the-ritual.md) — starts
+
+
 ### Investigate the area around the well
 - **Cost:** 1 time
 - **Outcome:** A close look at the rim turns up cigarette butts in the grass and stone cracks and burnt-down candles left around the well.

@@ -20,9 +20,12 @@
 **Present:** [Name](../characters/file.md), [Other](../characters/file.md) (if [Mechanic](#mechanic) is value)
 <!-- No Available, no Trigger: an event begins because an action's Changes starts it,
      `[Event](file.md) — starts`, and stops when one ends it, `[Event](file.md) — ends`
-     (validate.py: event-started). Time works the same way: each day phase
-     (events/day-N/day-N-<phase>.md) has a "Begin …" action, and an event tied to a time is
-     started from that action's Changes.
+     (validate.py: event-started). An opportunity's Changes may do it too. Time works the
+     same way: each day phase (events/committee-visit/day-N/day-N-<phase>.md) holds one
+     opportunity per event tied to that time (When: setup:<the phase>, plus any condition)
+     and a closing one (When: [Phase cards] is 0) that ends the phase and starts the next.
+     Same-named actions fire together, each only if its own When holds: a plain one for what always
+     happens, plus one per condition with only that condition's extra Changes.
      Actions that belong to a person or a place live in their file, and are open in every
      event at that place or with that person. -->
 
