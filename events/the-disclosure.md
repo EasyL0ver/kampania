@@ -2,16 +2,6 @@
 
 **Location:** [@name](../locations/new-village/wojewodas-house.md)
 **Present:** [@name](../characters/wojewoda.md), [@name](../characters/neighbour.md), [@name](../characters/foreman.md), [@name](../characters/zofia.md), [@name](../characters/barbara.md), [@name](../characters/matrona.md), [@name](../characters/junior.md), [@name](../characters/priest.md)
-**Available:** Day 4 onward, after proof that [@name](../locations/new-village/new-village.md) will flood exists and the truth breaks.
-
-## Trigger
-
-- The village learns [@name](../locations/new-village/new-village.md) will flood.
-- The truth breaks by one of three routes.
-- **Enlisted:** players convinced [@first-name](../characters/wojewoda.md) to reveal it through [Convince him to reveal the flood](../characters/wojewoda.md#convince-him-to-reveal-the-flood).
-- **Forced:** players used [Force the disclosure — the ultimatum](../characters/wojewoda.md#force-the-disclosure--the-ultimatum).
-- **Broken:** players announced it, the truth leaked, a villager panicked, [@name](../characters/neighbour.md) pieced it together, or someone overheard.
-- Without flood proof, this event does not fire.
 
 ## Hook
 
@@ -27,24 +17,40 @@
 - **Form A:** [@first-name](../characters/wojewoda.md) called the gathering.
 - In Form A, [@first-name](../characters/wojewoda.md) stands on the office step above the crowd.
 - In Form A, he says [@name](../locations/new-village/new-village.md) will flood.
-- In Form A, he does not say how long it was known.
+- In Form A, he does not say how long it was known.[](#honest-answer-may-trigger-mob)
 - In Form A, he promises compensation, relocation, and state help.
 - If enlisted, he names the players as the ones who found the danger in time.
 - If forced, he does not name the players.
 - In Form A, the village still listens to him.
-- **Form B:** the crowd assembled itself.
+- **Form B:** the crowd assembled itself.[](#crowd-split-between-fight-and-flight)
 - In Form B, [@first-name](../characters/wojewoda.md) is behind a shut door or forced into a yard that is turning on him.
 - In Form B, the crowd accuses the state and the committee of lying.
 - In Form B, [@name](../characters/neighbour.md) is loudest.
 - In either form, the rising water gives the scene a time limit.
+- In either form, the crowd keeps glancing at [@name](../characters/priest.md).[](#priests-word-decides-evacuation-or-violence)
 - [@name](../characters/babcia.md) is not present; she stays in her house.
 
 ## Opportunities
 
-- *(noticed by: [Speech](../cards/speech.md))* — [@name](../characters/neighbour.md) wants someone to hit; [@name](../characters/junior.md) sees a way out; [@name](../characters/zofia.md) is ready to leave; [@name](../characters/foreman.md) wants to fight the water; [@name](../characters/barbara.md) is terrified; [@name](../characters/matrona.md) follows [@first-name](../characters/wojewoda.md)'s cue.
-- *(when: Form A)* *(noticed by: [Finesse](../cards/finesse.md))* — he is spending authority he cannot replace. Public contradiction can break the gathering.
-- *(noticed by: [Speech](../cards/speech.md))* — the crowd wants to know how long the danger was known. The honest answer can turn the gathering into a mob.
-- *(noticed by: [Finesse](../cards/finesse.md))* — the crowd checks [@name](../characters/priest.md). A word from him can bless evacuation or violence.
+### Crowd split between fight and flight
+- **Noticed by:** [Speech](../cards/speech.md)
+- **When:** setup:events/the-disclosure.md
+- **Outcome:** [@name](../characters/neighbour.md) wants someone to hit; [@name](../characters/junior.md) sees a way out; [@name](../characters/zofia.md) is ready to leave; [@name](../characters/foreman.md) wants to fight the water; [@name](../characters/barbara.md) is terrified; [@name](../characters/matrona.md) follows [@first-name](../characters/wojewoda.md)'s cue.
+
+### Public contradiction risks breaking gathering
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** Form A
+- **Outcome:** he is spending authority he cannot replace. Public contradiction can break the gathering.
+
+### Honest answer may trigger mob
+- **Noticed by:** [Speech](../cards/speech.md)
+- **When:** setup:events/the-disclosure.md
+- **Outcome:** the crowd wants to know how long the danger was known. The honest answer can turn the gathering into a mob.
+
+### Priest's word decides evacuation or violence
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** setup:events/the-disclosure.md
+- **Outcome:** the crowd checks [@name](../characters/priest.md). A word from him can bless evacuation or violence.
 
 ## Actions
 

@@ -7,18 +7,29 @@
 ## Setup
 
 - Low under the roof, dusty, out of sight of the rooms below.
+- Mismatched curved boards patch the rafters.[](#curved-timber-reused-in-roof)
 - [@first-name](../../../characters/glupek.md)'s spare toys and [@first-name](../../../characters/ciotka.md)'s stores near the hatch.
 - Further in, a dead man's things left where no one looks.
 - A pile of rubbish with a box marked "EDEK" in it.
 - A big wardrobe.
 - A small child's rattle, kept with the rest.
-- Icons stacked up, not hung.
+- Icons stacked up, not hung.[](#eastern-icons-hidden-in-attic)
 - A small brass bell high up on a beam.
 
 ## Opportunities
 
-- *(noticed by: [Handiwork](../../../cards/handiwork.md))* — Up under the rafters the shingles and boards don't match the roof: pieces cut and curved to skin a dome, reused flat. A builder sees it at once, this timber was made for something round, not this house. → Gives: [`roof-built-for-a-dome`](../../../clues/clues.md#roof-built-for-a-dome) <!-- Prompted by: [ciotka-is-dead](../../../clues/clues.md#ciotka-is-dead) -->
-- *(noticed by: [Devotion](../../../cards/devotion.md))* — Icons are stacked up in the attic, out of sight of the rooms below. A believer sees it at once: these are Eastern-rite, not the Roman Catholic images hung downstairs. They do not belong in this house. → Gives: [`icons-in-attic-not-catholic`](../../../clues/clues.md#icons-in-attic-not-catholic)
+### Curved timber reused in roof
+- **Noticed by:** [Handiwork](../../../cards/handiwork.md)
+- **When:** setup:locations/new-village/ciotkas-house/attic.md
+<!-- Prompted by: [ciotka-is-dead](../../../clues/clues.md#ciotka-is-dead) -->
+- **Outcome:** Up under the rafters the shingles and boards don't match the roof: pieces cut and curved to skin a dome, reused flat. A builder sees it at once, this timber was made for something round, not this house.
+- **Gives:** [`roof-built-for-a-dome`](../../../clues/clues.md#roof-built-for-a-dome)
+
+### Eastern icons hidden in attic
+- **Noticed by:** [Devotion](../../../cards/devotion.md)
+- **When:** setup:locations/new-village/ciotkas-house/attic.md
+- **Outcome:** Icons are stacked up in the attic, out of sight of the rooms below. A believer sees it at once: these are Eastern-rite, not the Roman Catholic images hung downstairs. They do not belong in this house.
+- **Gives:** [`icons-in-attic-not-catholic`](../../../clues/clues.md#icons-in-attic-not-catholic)
 
 ## Actions
 

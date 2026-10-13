@@ -2,14 +2,6 @@
 
 **Location:** [@name](../locations/new-village/matronas-house.md)
 **Present:** [@name](../characters/matrona.md), [@name](../characters/painter.md)
-**Available:** Morning of Day 6.
-
-## Trigger
-
-- [@name](../characters/matrona.md) invites the committee to coffee on the morning before [@name](punishment-lynch.md).
-- If the players have started circling the truth, the invitation is her counter-move.
-- [@name](../characters/matrona.md) speaks only to crimes connected to clues the players already hold.
-- [@name](../characters/matrona.md) does not introduce crimes the players have not found.
 
 ## Hook
 
@@ -25,20 +17,36 @@
 - A clock ticks in the room.
 - [@name](../characters/matrona.md) seats the committee herself.
 - [@name](../characters/matrona.md) pours the coffee herself.
-- [@name](../characters/matrona.md) waits until the committee has eaten before speaking.
-- The hospitality is more generous than ordinary village conditions support.
+- [@name](../characters/matrona.md) waits until the committee has eaten before speaking.[](#matrona-never-asks-about-findings)
+- The hospitality is more generous than ordinary village conditions support.[](#excessive-hospitality-masks-a-threat)
 - [@name](../characters/painter.md) refills cups at the edges of the room.
 - [@name](../characters/painter.md) avoids eye contact.
-- [@name](../characters/painter.md) flinches when [@name](../characters/matrona.md) says his name.
-- [@name](../characters/matrona.md) argues that exposing old crimes harms the living and raises none of the dead.
+- [@name](../characters/painter.md) flinches when[](#painter-flinches-at-his-name) [@name](../characters/matrona.md) says his name.
+- [@name](../characters/matrona.md) argues that exposing old crimes harms the living and raises none of the dead.[](#her-arguments-always-bury-the-truth)
 - If the committee needs one name for the report, [@name](../characters/matrona.md) offers [@name](../characters/butcher.md).
 
 ## Opportunities
 
-- *(noticed by: [Culture](../cards/culture.md))* — The coffee and generosity are excessive; they manage a threat rather than host guests.
-- *(noticed by: [Finesse](../cards/finesse.md))* — [@name](../characters/matrona.md) never asks what the players have found.
-- *(noticed by: [Finesse](../cards/finesse.md))* — Every practical argument she makes ends at leaving the truth buried. → Gives: [`village-unaware-of-miscalculation`](../clues/clues.md#village-unaware-of-miscalculation)
-- *(noticed by: [Empathy](../cards/empathy.md))* — [@name](../characters/painter.md) flinches at his own name and will not be alone with [@name](../characters/matrona.md) and outsiders.
+### Excessive hospitality masks a threat
+- **Noticed by:** [Culture](../cards/culture.md)
+- **When:** setup:events/coffee-at-helenas.md
+- **Outcome:** The coffee and generosity are excessive; they manage a threat rather than host guests.
+
+### Matrona never asks about findings
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** setup:events/coffee-at-helenas.md
+- **Outcome:** [@name](../characters/matrona.md) never asks what the players have found.
+
+### Her arguments always bury the truth
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** setup:events/coffee-at-helenas.md
+- **Outcome:** Every practical argument she makes ends at leaving the truth buried.
+- **Gives:** [`village-unaware-of-miscalculation`](../clues/clues.md#village-unaware-of-miscalculation)
+
+### Painter flinches at his name
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** setup:events/coffee-at-helenas.md
+- **Outcome:** [@name](../characters/painter.md) flinches at his own name and will not be alone with [@name](../characters/matrona.md) and outsiders.
 
 ## Actions
 

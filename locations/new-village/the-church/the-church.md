@@ -8,7 +8,7 @@ The church on the hill in [@name](../new-village.md), beside the cemetery.
 
 - The wooden church stands on the hill above the village.
 - The priest's house, [@name](the-rectory.md), stands beside it.
-- The church is unusually well-maintained for the village's poverty.
+- The church is unusually well-maintained for the village's poverty.[](#church-better-supplied-than-village)
 - Fresh paint, a solid roof, stacked firewood, supplies, icons, candles, and incense are present.
 - The cemetery is adjacent to the church.
 - The cemetery has a few dozen graves, most weathered.
@@ -21,7 +21,12 @@ The church on the hill in [@name](../new-village.md), beside the cemetery.
 
 ## Opportunities
 
-- *(noticed by: [Handiwork](../../../cards/handiwork.md))* — The church has better repairs, supplies, and firewood than the village should afford. → Gives: [church-too-nice](../../../clues/clues.md#church-too-nice) <!-- Prompted by: setup:locations/new-village/the-church/the-church.md -->
+### Church better supplied than village
+- **Noticed by:** [Handiwork](../../../cards/handiwork.md)
+- **When:** setup:locations/new-village/the-church/the-church.md
+<!-- Prompted by: setup:locations/new-village/the-church/the-church.md -->
+- **Outcome:** The church has better repairs, supplies, and firewood than the village should afford.
+- **Gives:** [church-too-nice](../../../clues/clues.md#church-too-nice)
 
 ## Actions
 
@@ -31,7 +36,7 @@ The church on the hill in [@name](../new-village.md), beside the cemetery.
 - **Gives:** [wanda-receives-pension](../../../clues/clues.md#wanda-receives-pension)
 
 ### Ask Widow about her husband's work
-- **When:** Talked to [@name](../../../characters/widow.md) at the grave
+- **When:** [Talk to Widow at the grave](#talk-to-widow-at-the-grave)
 - **Outcome:** [@first-name](../../../characters/widow.md) gives her husband's name, PGR role, and death date; the name matches a current worker if players have the ledger worker list.
 - **Gives:** [mazur-died-in-the-silo](../../../clues/clues.md#mazur-died-in-the-silo)
 

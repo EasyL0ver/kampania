@@ -30,7 +30,7 @@ Sołtys, pragmatic, authoritative, and controlled. He built [@name](../locations
 - **Hair & face:** Thinning grey-black hair combed straight back with water; thick grey moustache neatly trimmed; heavy brows over sharp dark eyes.
 - **Carriage:** Stocky and barrel-chested; feet planted, hands behind his back, taking space deliberately.
 
-His voice is deep and unhurried. When angry, he goes still and quiet.
+His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-him-youre-inventorying-movable-assets)
 
 ## Opinions
 
@@ -87,7 +87,10 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 
 ## Opportunities
 
-- *(when: Property assessment, miscalculation not disclosed, no convincing cover)* — On the property, his questions turn controlled, and he starts tracking where the committee goes. See [Reveal the risk of the village drowning](#reveal-the-risk-of-the-village-drowning). → Gives: [`village-unaware-of-miscalculation`](../clues/clues.md#village-unaware-of-miscalculation)
+### Host grows wary of the committee's movements
+- **When:** Property assessment, miscalculation not disclosed, no convincing cover
+- **Outcome:** On the property, his questions turn controlled, and he starts tracking where the committee goes. See [Reveal the risk of the village drowning](#reveal-the-risk-of-the-village-drowning).
+- **Gives:** [`village-unaware-of-miscalculation`](../clues/clues.md#village-unaware-of-miscalculation)
 
 ## Actions
 
@@ -108,7 +111,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **Changes:** [Property Record](../items/census.md#property-record) — sołtys's house, clean title; [Flood Awareness](#flood-awareness) — rises to suspicious
 
 ### Tell him you're assessing property
-<!-- Prompted by: setup:characters/wojewoda.md -->
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Outcome:** He nods along, but asks why a resettlement count needs land values. The answer sits badly with him.
 - **Changes:** [Flood Awareness](#flood-awareness) — rises to suspicious
 
@@ -130,7 +133,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 ### Reveal the risk of the village drowning
 <!-- Prompted by: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated) -->
 - **Outcome:** The committee raises the risk without proof: the flood line may be wrong, the valley may not drain. [@first-name](wojewoda.md) does not need convincing to act careful. He immediately calls for [@name](foreman.md) and, telling him the warning, orders him to put the farm, his men, and himself at the committee's disposal.
-- **Changes:** [Flood Awareness](#flood-awareness) — rises to needProof; [Cooperative](foreman.md#cooperative) — true
+- **Changes:** [Flood Awareness](#flood-awareness) — rises to needProof; [Cooperative](foreman.md#cooperative) — true; [@name](../events/wojewodas-ask.md) — starts
 
 ### Convince him to reveal the flood
 - **Requires:** [Bond: Zbigniew Gajda](../cards/bond-wojewoda.md)
@@ -138,13 +141,14 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **Cost:** 1 time
 - **Outcome:** The players give him a version of disclosure he can lead: public alarm with a plan. He decides the village must be told by him.
 - **Gives:** hook:events/the-disclosure.md
-- **Changes:** [Compliance](#compliance) — true, he owns the disclosure and shields the players
+- **Changes:** [Compliance](#compliance) — true, he owns the disclosure and shields the players; [@name](../events/the-disclosure.md) — starts
 
 ### Force the disclosure — the ultimatum
 - **When:** Players hold the flood proof
 - **Cost:** 1 time
 - **Outcome:** They corner him with proof and a public threat. He agrees to disclose the flood on his own terms.
 - **Gives:** hook:events/the-disclosure.md
+- **Changes:** [@name](../events/the-disclosure.md) — starts
 
 ### Ask about the old village
 <!-- Prompted by: hook:locations/old-village-ruins.md -->

@@ -2,15 +2,6 @@
 
 **Location:** Police car on the road out of the village
 **Present:** [@name](../characters/officer.md)
-**Available:** End of game; final scene after all other endings resolve.
-
-## Trigger
-
-- The game is over.
-- The flood, ritual, lynch, prevention, or other endgame result has resolved.
-- Players leave the village.
-- [@name](../characters/officer.md) meets them.
-- Players hand over their report.
 
 ## Hook
 
@@ -18,17 +9,24 @@
 
 ## Setup
 
-- [@name](../characters/officer.md) reads the report in the car.
+- [@name](../characters/officer.md) reads the report in the car.[](#his-reaction-shifts-when-the-massacre-is-reported)
 - The players may have discovered the 1947 Lemko massacre.
 - The massacre is the state's buried crime under the dam.
 - [@surname](../characters/officer.md) has signaled that the state wants the massacre buried.
 - The dam is infrastructure and a grave.
-- The players choose what goes into the report.
+- The players choose what goes into the report.[](#car-route-changes-when-the-truth-stays-inside)
 
 ## Opportunities
 
-- *(noticed by: [Empathy](../cards/empathy.md))* — his reaction changes when the 1947 massacre appears in the report.
-- *(noticed by: [Survival](../cards/survival.md))* — The car's route changes if the massacre is in the report and the truth is not already outside the car.
+### His reaction shifts when the massacre is reported
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** setup:events/the-report.md
+- **Outcome:** his reaction changes when the 1947 massacre appears in the report.
+
+### Car route changes when the truth stays inside
+- **Noticed by:** [Survival](../cards/survival.md)
+- **When:** setup:events/the-report.md
+- **Outcome:** The car's route changes if the massacre is in the report and the truth is not already outside the car.
 
 ## Actions
 

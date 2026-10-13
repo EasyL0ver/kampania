@@ -2,7 +2,6 @@
 
 **Location:** [@name](../../locations/officers-car.md)
 **Present:** [@name](../../characters/officer.md), [@name](../../characters/driver.md)
-**Available:** Game start.
 
 ## Hook
 
@@ -19,11 +18,17 @@ A Milicja van winding down the mountain road through the rain.
 
 ## Opportunities
 
-- *(when: [Ask what the committee must do](#ask-what-the-committee-must-do) done)* *(noticed by: [Bureaucracy](../../cards/bureaucracy.md) OR [Empathy](../../cards/empathy.md))* — [@name](../../characters/officer.md) frames the work narrowly and signals that old grievances and local legends stay out of the official report. → Gives: [`officer-warning`](../../clues/clues.md#officer-warning) <!-- Prompted by: [government-committee](../../clues/clues.md#government-committee) -->
+### Officer limits the report's scope
+- **Noticed by:** [Bureaucracy](../../cards/bureaucracy.md) OR [Empathy](../../cards/empathy.md)
+- **When:** [Ask what the committee must do](#ask-what-the-committee-must-do)
+<!-- Prompted by: [government-committee](../../clues/clues.md#government-committee) -->
+- **Outcome:** [@name](../../characters/officer.md) frames the work narrowly and signals that old grievances and local legends stay out of the official report.
+- **Gives:** [`officer-warning`](../../clues/clues.md#officer-warning)
 
 ## Actions
 
 ### Ask what the committee must do
 <!-- Prompted by: [government-committee](../../clues/clues.md#government-committee) -->
-- **Outcome:** Count the people, value what they own, watch the survey. The [@name](../../locations/new-village/pgr-farm/pgr-farm.md)'s stock gets counted and moved out regardless. The villagers think they are safe: leave it. He opens your files: "Now, you."
+- **Outcome:** Count the people, value what they own, watch the survey.[](#officer-limits-the-reports-scope) The [@name](../../locations/new-village/pgr-farm/pgr-farm.md)'s stock gets counted and moved out regardless. The villagers think they are safe: leave it. He opens your files: "Now, you."
 - **Gives:** [`committee-runs-geographical-survey`](../../clues/clues.md#committee-runs-geographical-survey), [`committee-notes-property-for-damage`](../../clues/clues.md#committee-notes-property-for-damage), [`committee-fills-census`](../../clues/clues.md#committee-fills-census), [`committee-accounts-movable-state-property`](../../clues/clues.md#committee-accounts-movable-state-property), [`village-unaware-of-miscalculation`](../../clues/clues.md#village-unaware-of-miscalculation), hook:locations/new-village/pgr-farm/pgr-farm.md, hook:events/the-car-in/the-draft.md
+- **Changes:** [@name](the-draft.md) — starts

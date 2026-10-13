@@ -6,7 +6,7 @@ An official blank census book, ruled for households, names, ages, residence date
 
 ## Setup
 
-An official blank census book issued for the resettlement survey: ruled columns for household, names, ages, and years resident. It starts empty and fills as the committee works the village. In a settlement this small, a name on the farm's payroll that appears in no household stands out at once.
+An official blank census book issued for the resettlement survey: ruled columns for household, names, ages, and years resident[](#register-records-damages-as-well-as-people). It starts empty and fills as the committee works the village. In a settlement this small, a name on the farm's payroll that appears in no household stands out at once.
 
 ## Content
 
@@ -40,7 +40,10 @@ Household        Name                 Age   Resident since   Notes
 
 ## Opportunities
 
-- *(noticed by: [Bureaucracy](../cards/bureaucracy.md))* — The register is there to gauge damages, not only to count heads, so it has room for the dead as much as the living. A name can sit on a roll long after its owner is gone.
+### Register records damages as well as people
+- **Noticed by:** [Bureaucracy](../cards/bureaucracy.md)
+- **When:** setup:items/census.md
+- **Outcome:** The register is there to gauge damages, not only to count heads, so it has room for the dead as much as the living. A name can sit on a roll long after its owner is gone.
 
 ## Actions
 

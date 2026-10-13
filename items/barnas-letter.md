@@ -6,7 +6,7 @@
 
 ## Setup
 
-A sealed envelope gone soft and yellow with damp and years, never opened. It is addressed to [@name](../characters/soldier.md) at the village in a heavy, barrack-trained hand, and the postmark is dated 1955. Inside is a single folded sheet from an old service comrade.
+A sealed envelope gone soft and yellow with damp and years, never opened. It is addressed to [@name](../characters/soldier.md) at the village in a heavy, barrack-trained hand, and the postmark is dated 1955. Inside is a single folded sheet from an old service comrade.[](#letter-carries-warmth-between-two)[](#read-the-letter)
 
 ## Content
 
@@ -28,7 +28,10 @@ A sealed envelope gone soft and yellow with damp and years, never opened. It is 
 
 ## Opportunities
 
-- *(noticed by: [Violence](../cards/violence.md))* — The letter is warm: those two did wet work together, and the easy jokes are what grows over it.
+### Letter carries warmth between two
+- **Noticed by:** [Violence](../cards/violence.md)
+- **When:** setup:items/barnas-letter.md
+- **Outcome:** The letter is warm: those two did wet work together, and the easy jokes are what grows over it.
 
 ## Actions
 

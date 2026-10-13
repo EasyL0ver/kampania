@@ -61,8 +61,15 @@ After [@name](../events/irena-confronts-wojewoda.md), she closes the household, 
 
 ## Opportunities
 
-- *(when: Trade clues (Phase 1))* *(noticed by: [Empathy](../cards/empathy.md))* — she trades on anyone except her own husband; his name never comes up, and she changes direction when it nears.
-- *(when: Property assessment, flood not openly disclosed)* — Her questions to the committee sharpen around why land is being valued.
+### Avoids mentioning her husband
+<!-- TBD: the Trade clues Outcome must show her steering away from Zbigniew; then mark it. -->
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** [Trade clues (Phase 1)](#trade-clues-phase-1)
+- **Outcome:** she trades on anyone except her own husband; his name never comes up, and she changes direction when it nears.
+
+### Questions focus on land valuation
+- **When:** Property assessment, flood not openly disclosed
+- **Outcome:** Her questions to the committee sharpen around why land is being valued.
 
 ## Actions
 

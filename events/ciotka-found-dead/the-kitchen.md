@@ -3,7 +3,6 @@
 **Part of:** [@name](ciotka-found-dead.md)
 **Location:** [@name](../../locations/new-village/ciotkas-house/ciotkas-house.md)
 **Present:** [@name](../../characters/priest.md)
-**Available:** From [@name](the-house.md), by entering the kitchen.
 
 ## Hook
 
@@ -13,20 +12,32 @@
 
 - [@name](../../characters/ciotka.md) lies on the kitchen floor.
 - [@name](../../characters/ciotka.md) is on her back, half-turned.
-- [@name](../../characters/ciotka.md)'s eyes are open.
-- A fresh, dark bruise rings one of [@name](../../characters/ciotka.md)'s wrists.
+- [@name](../../characters/ciotka.md)'s eyes are open.[](#ciotka-lies-dead-on-floor)
+- A fresh, dark bruise[](#bruise-on-wrist-and-priest-praying) rings one of [@name](../../characters/ciotka.md)'s wrists.
 - Apart from the bruise, there is no wound and no blood.
 - [@name](../../characters/ciotka.md)'s hands are at her sides.
 - A fallen rosary is near one half-curled hand.
 - A glass with a finger of water sits on the table.
-- Two used coffee cups sit on the table.
+- Two used coffee cups sit on the table.[](#two-used-coffee-cups-on-table)
 - A small brown pill bottle lies on its side on the table with the cap off.
 
 ## Opportunities
 
-- [@name](../../characters/ciotka.md) lies on the floor, eyes open, candles long out. She is dead. → Gives: [`ciotka-is-dead`](../../clues/clues.md#ciotka-is-dead)
-- Two used coffee cups sit on the table. She was not alone the day before; someone sat and drank with her. → Gives: [`two-coffee-cups`](../../clues/clues.md#two-coffee-cups) <!-- Prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead) -->
-- *(noticed by: [Medicine](../../cards/medicine.md))* — The bruise on her wrist begs a closer look, but a real reading of how she died means undressing her, and [@name](../../characters/priest.md) is praying over her body.
+### Ciotka lies dead on floor
+- **When:** setup:events/ciotka-found-dead/the-kitchen.md
+- **Outcome:** [@name](../../characters/ciotka.md) lies on the floor, eyes open, candles long out. She is dead.
+- **Gives:** [`ciotka-is-dead`](../../clues/clues.md#ciotka-is-dead)
+
+### Two used coffee cups on table
+- **When:** setup:events/ciotka-found-dead/the-kitchen.md
+<!-- Prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead) -->
+- **Outcome:** Two used coffee cups sit on the table. She was not alone the day before; someone sat and drank with her.
+- **Gives:** [`two-coffee-cups`](../../clues/clues.md#two-coffee-cups)
+
+### Bruise on wrist and priest praying
+- **Noticed by:** [Medicine](../../cards/medicine.md)
+- **When:** setup:events/ciotka-found-dead/the-kitchen.md
+- **Outcome:** The bruise on her wrist begs a closer look, but a real reading of how she died means undressing her, and [@name](../../characters/priest.md) is praying over her body.
 
 ## Actions
 

@@ -2,11 +2,6 @@
 
 **Location:** [@name](../locations/the-ridge-gap.md)
 **Present:** [@name](../characters/foreman.md) (if [On the survey](../characters/foreman.md#on-the-survey) is true)
-**Available:** At the ridge gap, holding [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap).
-
-## Trigger
-
-- The party decides to climb the plug for the one reading the ground cannot give.
 
 ## Hook
 
@@ -15,8 +10,8 @@ Facing the steep plug at the ridge gap.
 ## Setup
 
 - The plug is a steep bank about two storeys high, and it climbs in three distinct pitches.
-- **Lower bank (get on):** a greasy clay start; strength gets up it fastest, but a sure-footed or determined climber can scramble on too.
-- **The killzone (the crossing):** a loose, exposed traverse of shifting rock. Every hold looks ready to come away under a boot; the party will want it roped and belayed.
+- **Lower bank (get on):** a greasy clay start[](#mud-underfoot-seems-easy)[](#lower-bank-looks-easy); strength gets up it fastest, but a sure-footed or determined climber can scramble on too.
+- **The killzone (the crossing):** a loose, exposed traverse of shifting rock. Every hold looks ready to come away under a boot[](#falls-hurt-but-do-not-kill); the party will want it roped and belayed[](#fall-needs-two-on-line).
 - **The top pitch (top out):** the crest is capped by a slab of intact sandstone torn loose by the slide; from the ground it just looks like the top edge, and what it takes to get over it cannot be read from below, not even by a good eye. You only see the problem once you are under it.
 - The climb is a one-person job; the rest of the party work the ground: belaying the rope, reading the line, calling up.
 - The party should bring or scrounge a rope (the [@name](../locations/new-village/pgr-farm/pgr-farm.md) or [@name](../locations/new-village/pgr-farm/pgr-office.md) has line): they will want it for the traverse, and need it to haul anyone who cannot climb up to the crest.
@@ -25,18 +20,60 @@ Facing the steep plug at the ridge gap.
 
 ## Opportunities
 
-- *(noticed by: [Survival](../cards/survival.md))* — The lower bank seems easy; the traverse will need a rope. The top pitch can't be read from here.
-- *(noticed by: [Physique](../cards/physique.md))* — The mud underfoot seems easy.
-- *(noticed by: [Handiwork](../cards/handiwork.md) AND [@name](../items/rope.md))* — Securing a fall on this needs two people on the line, not one.
-- *(noticed by: [Medicine](../cards/medicine.md))* — A slip off the lower bank is bruises and mud. Off the traverse onto the rock, broken bones. From the top pitch you break badly. None of it kills you by itself; a fall here hurts, it doesn't kill.
-- *(noticed by: [Violence](../cards/violence.md))* — You've seen men fall. Roughly: the bank bruises, the traverse breaks bones, the top breaks you badly, but none of it puts a man in the ground. Less exact than a medic's read, close enough.
-- *(when: climbed past lower bank)* *(noticed by: [Physique](../cards/physique.md))* — The crossing looks very steep, but I think I can take it.
-- *(when: climbed past lower bank)* *(noticed by: [Finesse](../cards/finesse.md))* — Steep, but there's a delicate line through it if I'm careful.
-- *(when: climbed past the killzone)* *(noticed by: [Physique](../cards/physique.md))* — It's much worse than I realized. I can try it, but I'm scared of falling.
-- *(when: climbed past the killzone)* *(noticed by: [Finesse](../cards/finesse.md))* — No holds worth the name, but I can balance it, barely.
-- *(when: the crux is anchored)* *(noticed by: [Handiwork](../cards/handiwork.md))* — The clamp up top is a fixed point. You can rig a line to it and haul a body up on its own, so someone who can't climb still reaches the crest.
+### Lower bank looks easy
+- **Noticed by:** [Survival](../cards/survival.md)
+- **When:** setup:events/climb-the-plug.md
+- **Outcome:** The lower bank seems easy; the traverse will need a rope. The top pitch can't be read from here.
+
+### Mud underfoot seems easy
+- **Noticed by:** [Physique](../cards/physique.md)
+- **When:** setup:events/climb-the-plug.md
+- **Outcome:** The mud underfoot seems easy.
+
+### Fall needs two on line
+- **Noticed by:** [Handiwork](../cards/handiwork.md) AND [@name](../items/rope.md)
+- **When:** setup:events/climb-the-plug.md
+- **Outcome:** Securing a fall on this needs two people on the line, not one.
+
+### Falls hurt but do not kill
+- **Noticed by:** [Medicine](../cards/medicine.md)
+- **When:** setup:events/climb-the-plug.md
+- **Outcome:** A slip off the lower bank is bruises and mud. Off the traverse onto the rock, broken bones. From the top pitch you break badly. None of it kills you by itself; a fall here hurts, it doesn't kill.
+
+### Witnesses describe fall damage
+- **Noticed by:** [Violence](../cards/violence.md)
+- **When:** [Ask what a fall would do](#ask-what-a-fall-would-do)
+- **Outcome:** You've seen men fall. Roughly: the bank bruises, the traverse breaks bones, the top breaks you badly, but none of it puts a man in the ground. Less exact than a medic's read, close enough.
+
+### Crossing looks very steep
+- **Noticed by:** [Physique](../cards/physique.md)
+- **When:** [Climber position](#climber-position) >= lower-bank
+- **Outcome:** The crossing looks very steep, but I think I can take it.
+
+### Steep but delicate line
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** [Climber position](#climber-position) >= lower-bank
+- **Outcome:** Steep, but there's a delicate line through it if I'm careful.
+
+### Much worse than expected
+- **Noticed by:** [Physique](../cards/physique.md)
+- **When:** [Climber position](#climber-position) >= killzone
+- **Outcome:** It's much worse than I realized. I can try it, but I'm scared of falling.
+
+### No holds, balance only
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** [Climber position](#climber-position) >= killzone
+- **Outcome:** No holds worth the name, but I can balance it, barely.
+
+### Clamp works as fixed haul point
+- **Noticed by:** [Handiwork](../cards/handiwork.md)
+- **When:** [Anchor](#anchor) is true
+- **Outcome:** The clamp up top is a fixed point. You can rig a line to it and haul a body up on its own, so someone who can't climb still reaches the crest.
 
 ## Actions
+
+### Ask what a fall would do
+- **Outcome:** The men who've worked the slope tell it plainly[](#witnesses-describe-fall-damage).
 
 ### Scale the lower bank
 - **Requires:** [Physique](../cards/physique.md) OR [Survival](../cards/survival.md) OR [Finesse](../cards/finesse.md)
@@ -58,34 +95,34 @@ Facing the steep plug at the ridge gap.
 
 ### Traverse the killzone
 - **Requires:** [Physique](../cards/physique.md) OR [Finesse](../cards/finesse.md)
-- **When:** the climber is past the lower bank.
+- **When:** [Climber position](#climber-position) >= lower-bank
 - **Cost:** 1 time
 - **Outcome:** The traverse looks ready to come apart, every hold shifting loose under the hand, but the rock is seated and holds. The climber crosses it, roped or not.
 - **Changes:** [Climber position](#climber-position) — past the killzone
 
 ### Force the top-out
-- **When:** The climber is past the killzone.
+- **When:** [Climber position](#climber-position) >= killzone
 - **Cost:** 1 time + 2 composure
 - **Outcome:** The slab overhangs a body-length, smooth and undercut, no holds and nothing above to anchor to. The climber free-solos it anchorless. With the reserve they pull over and top out, leaving the crux bare for anyone who follows. Forcing it without the reserve, they come off the slab: a two-storey fall, nothing to catch them, and they land **Wounded** (attempt spent, back at the foot).
 - **Changes:** [Climber position](#climber-position) — topped out, or Wounded and not up without the reserve
 
 ### Drive the clamp
 - **Requires:** [@name](../items/anchor.md)
-- **When:** the climber is past the killzone.
+- **When:** [Climber position](#climber-position) >= killzone
 - **Cost:** 1 time
 - **Outcome:** The climber drives the steel clamp into the soft shale seam under the slab and pulls over on it, topping out clean with no composure tax. The clamp stays in the rock.
 - **Changes:** [Climber position](#climber-position) — topped out; [Anchor](#anchor) — the crux is anchored for later climbs
 
 ### Haul a climber one level
 - **Requires:** [@name](../items/rope.md)
-- **When:** The crux is anchored (the clamp is driven); **2 counterweight points** (consumed); the hauled climber is past the lower bank.
+- **When:** [Anchor](#anchor) is true and [Counterweight](#counterweight) >= 2 and [Climber position](#climber-position) >= lower-bank
 - **Cost:** 1 time
 - **Outcome:** The crew hang their weight on the parallel strand off the clamp and drag a body up one pitch, no one climbing it under load. This is how the reader who must take the reading, a geologist or a handiworker with an improvised level, but cannot climb the killzone reaches the crest.
 - **Changes:** [Climber position](#climber-position) — the hauled climber moves up one level; [Counterweight](#counterweight) — 2 points spent
 
 ### Level the foot of the plug with the kit
 - **Requires:** [@name](../items/geologists-kit.md) AND [Geology](../cards/geology.md)
-- **When:** reaching the foot of the plug (no climb).
+- **When:** [Climber position](#climber-position) is foot
 <!-- Prompted by: [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders), [water-may-flow-over](../clues/clues.md#water-may-flow-over) -->
 - **Cost:** 1 time
 - **Outcome:** Carry the flood line to a fixed mark on the ground just below the plug: bring a level from the marked flood datum down the valley up to the mark, fixing that ground's height against the flood line. You shoot it with the kit's level and rod in a few long sights. This sets the reference the crest reading is dropped against; it does not by itself settle overtopping.
@@ -93,7 +130,7 @@ Facing the steep plug at the ridge gap.
 
 ### Level the foot of the plug with the water hose
 - **Requires:** [@name](../items/geologists-kit.md) AND [Handiwork](../cards/handiwork.md) AND [@name](../items/water-hose-contraption.md)
-- **When:** reaching the foot of the plug (no climb).
+- **When:** [Climber position](#climber-position) is foot
 <!-- Prompted by: [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders), [water-may-flow-over](../clues/clues.md#water-may-flow-over) -->
 - **Cost:** 2 time
 - **Outcome:** Carry the flood line to a fixed mark on the ground just below the plug: bring a level from the marked flood datum down the valley up to the mark, fixing that ground's height against the flood line. You run the [@name](../items/water-hose-contraption.md), leapfrogged one rod-length of rise per step up to the mark: slow, but the same answer. This sets the reference the crest reading is dropped against; it does not by itself settle overtopping.
@@ -101,7 +138,7 @@ Facing the steep plug at the ridge gap.
 
 ### Take the reading with the kit
 - **Requires:** [@name](../items/geologists-kit.md) AND [Geology](../cards/geology.md)
-- **When:** the reader has topped out (past the top-out)
+- **When:** [Climber position](#climber-position) is topped-out
 <!-- Prompted by: [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders), [water-may-flow-over](../clues/clues.md#water-may-flow-over), [gap-foot-level](../clues/clues.md#gap-foot-level) -->
 - **Cost:** 1 time
 - **Outcome:** With the foot mark already fixed against the flood line, the crest reading is two more transfers, and the crest is the only place they can be made:
@@ -112,7 +149,7 @@ Facing the steep plug at the ridge gap.
 
 ### Take the reading with the water hose
 - **Requires:** [@name](../items/geologists-kit.md) AND [Handiwork](../cards/handiwork.md) AND [@name](../items/water-hose-contraption.md)
-- **When:** the reader has topped out (past the top-out)
+- **When:** [Climber position](#climber-position) is topped-out
 <!-- Prompted by: [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders), [water-may-flow-over](../clues/clues.md#water-may-flow-over), [gap-foot-level](../clues/clues.md#gap-foot-level) -->
 - **Cost:** 2 time
 - **Outcome:** With the foot mark already fixed against the flood line, the crest reading is two more transfers, and the crest is the only place they can be made:

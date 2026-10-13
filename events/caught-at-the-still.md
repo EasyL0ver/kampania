@@ -2,11 +2,6 @@
 
 **Location:** [@name](../locations/bimber-still.md)
 **Present:** [@name](../characters/wujas.md), [@name](../characters/secondary/szymek-kepa.md), [@name](../characters/secondary/romek-glowacz.md), [@name](../characters/secondary/franek-mucha.md)
-**Available:** Any day, while the crew is at the still
-
-## Trigger
-
-- The committee arrives at the still with the crew present around the fire.
 
 ## Hook
 
@@ -17,7 +12,7 @@
 - The crew is around the fire with bottles and cards.
 - They hear the committee coming before they see them.
 - The still, barrels, and sugar sacks are in plain view — no hiding it.
-- Government people at the still means their winter's income is exposed.
+- Government people at the still means their winter's income is exposed.[](#crew-are-frightened-not-criminal)
 - The crew is drunk, cornered, and already on its feet by the time the committee reaches the clearing.
 - [@name](../characters/secondary/szymek-kepa.md) puts himself between the committee and the still.
 - [@name](../characters/secondary/franek-mucha.md) moves onto the footpath, cutting the way out.
@@ -26,7 +21,11 @@
 
 ## Opportunities
 
-- *(noticed by: [Empathy](../cards/empathy.md))* — In the standoff, the crew is not defending a crime scene; they are frightened men protecting the one thing that gets them through the winter. → Gives: [`still-is-their-livelihood`](../clues/clues.md#still-is-their-livelihood)
+### Crew are frightened, not criminal
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** setup:events/caught-at-the-still.md
+- **Outcome:** In the standoff, the crew is not defending a crime scene; they are frightened men protecting the one thing that gets them through the winter.
+- **Gives:** [`still-is-their-livelihood`](../clues/clues.md#still-is-their-livelihood)
 
 ## Actions
 

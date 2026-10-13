@@ -13,7 +13,7 @@ The best plot in [@name](../new-village.md), across from the Neighbour's house.
 - **Interior:** Catholic icons hang on every wall.
 - **Interior:** Candles are lit.
 - **Interior:** The house smells of soap and cooked grain.
-- **Door:** Two locks on the front door — one old and pitted low on the frame, one newer above it. It reads as a fearful woman's caution.
+- **Door:** Two locks on the front door — one old and pitted low on the frame, one newer above it[](#two-locks-fitted-at-different-times). It reads as a fearful woman's caution.
 - **Attic:** A hatch in the ceiling with a short ladder folded beside it. It stays shut, and [@first-name](../../../characters/ciotka.md) is the only one who goes up.
 - **[@first-name](../../../characters/glupek.md):** He plays with a few worn wooden toys and keeps asking [@first-name](../../../characters/ciotka.md) for more of them.
 - **[@first-name](../../../characters/glupek.md)'s care:** Sharp edges, clutter, and surprises are removed.
@@ -29,8 +29,17 @@ The best plot in [@name](../new-village.md), across from the Neighbour's house.
 
 ## Opportunities
 
-- *(noticed by: [Handiwork](../../../cards/handiwork.md))* — The two locks were not fitted together. The old one below is original to the door; the newer one above was added years later. She did not double up out of fear — at some point she changed the lock on this house. → Gives: [`ciotka-changed-the-lock`](../../../clues/clues.md#ciotka-changed-the-lock) <!-- Prompted by: [ciotka-is-dead](../../../clues/clues.md#ciotka-is-dead) -->
-- *(when: hook:characters/glupek.md)* — Partway through the visit [@first-name](../../../characters/glupek.md) tugs [@first-name](../../../characters/ciotka.md)'s sleeve and asks, low, for more of his toys — the ones kept up in the attic. She soothes him: not now, and not himself; once the gentlemen have gone she will go up and bring a couple down. He is not to climb up there. → Gives: [`glupek-forbidden-from-attic`](../../../clues/clues.md#glupek-forbidden-from-attic)
+### Two locks fitted at different times
+- **Noticed by:** [Handiwork](../../../cards/handiwork.md)
+- **When:** setup:locations/new-village/ciotkas-house/ciotkas-house.md
+<!-- Prompted by: [ciotka-is-dead](../../../clues/clues.md#ciotka-is-dead) -->
+- **Outcome:** The two locks were not fitted together. The old one below is original to the door; the newer one above was added years later. She did not double up out of fear — at some point she changed the lock on this house.
+- **Gives:** [`ciotka-changed-the-lock`](../../../clues/clues.md#ciotka-changed-the-lock)
+
+### Glupek asks for toys in the attic
+- **When:** hook:characters/glupek.md
+- **Outcome:** Partway through the visit [@first-name](../../../characters/glupek.md) tugs [@first-name](../../../characters/ciotka.md)'s sleeve and asks, low, for more of his toys — the ones kept up in the attic. She soothes him: not now, and not himself; once the gentlemen have gone she will go up and bring a couple down. He is not to climb up there.
+- **Gives:** [`glupek-forbidden-from-attic`](../../../clues/clues.md#glupek-forbidden-from-attic)
 
 ## Actions
 

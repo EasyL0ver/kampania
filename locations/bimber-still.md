@@ -8,12 +8,12 @@
 
 - **Site:** Crude copper still under camouflage netting.
 - **Site:** Clearing beside a stream.
-- **Site:** Empty sugar sacks, barrels, stacked firewood, and a small fire pit.
+- **Site:** Empty sugar sacks, barrels, stacked firewood, and a small fire pit.[](#sugar-traced-to-matronas-store)
 - **Use:** Warm ashes show recent use.
 - **Use:** Fermentation smell is strong.
-- **Use:** Cheap Sport cigarette butts are ground into the mud all around the fire and the still.
+- **Use:** Cheap Sport cigarette butts are ground into the mud all around the fire and the still.[](#cheap-sport-butts-mark-wujas)
 - **Path:** A packed footpath leads in from [@name](new-village/new-village.md).
-- **Scale:** The number of barrels and bottles exceeds personal drinking.
+- **Scale:** The number of barrels and bottles exceeds personal drinking.[](#commercial-scale-still-tolerated)
 - **If crew present:** The men sit around the fire with bottles and cards.
 - **If crew present:** The crew hears visitors before seeing them.
 - **If crew absent:** Fresh boot prints, warm ashes, and half-full bottles remain.
@@ -21,12 +21,42 @@
 
 ## Opportunities
 
-- *(noticed by: [Finesse](../cards/finesse.md))* — The still is worked at commercial scale: the operation is old and tolerated. → Gives: [bimber-still](../clues/clues.md#bimber-still)
-- *(noticed by: [Bureaucracy](../cards/bureaucracy.md) OR [Finesse](../cards/finesse.md))* — The sugar supply traces to [@name](../characters/matrona.md)'s [@name](new-village/the-store.md), which means she profits from the operation. → Gives: [bimber-still](../clues/clues.md#bimber-still)
-- *(when: searched the site)* *(noticed by: [Finesse](../cards/finesse.md))* — The site is exactly what it looks like: moonshine production, not a murder cache. → Gives: [bimber-still](../clues/clues.md#bimber-still)
-- *(noticed by: [Finesse](../cards/finesse.md) OR [Survival](../cards/survival.md) OR [Chainsmoker](../cards/chainsmoker.md))* — The ground is littered with butts, all the cheapest Sport, [@name](../characters/wujas.md)'s brand. Nothing premium here, no Carmen: the brand marks the man. → Gives: [tadek-smokes-cheapest](../clues/clues.md#tadek-smokes-cheapest) <!-- Prompted by: setup:locations/bimber-still.md -->
-- *(when: [drinking buddy](../characters/wujas.md#drinking-buddy) with [@nickname](../characters/wujas.md))* — The crew laugh about the state surveyors who came before: they drank more than they measured, drove a few stakes, and left early. → Gives: [geologists-were-drinking](../clues/clues.md#geologists-were-drinking) <!-- Prompted by: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated) -->
-- *(when: wujas: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey))* *(noticed by: [Geology](../cards/geology.md))* — The crew rib the geologist as one of them. They clock him for what he is and lean into the joke: survey men are all famous drunks, and the last lot who came drank through their whole visit. → Gives: [surveyors-are-known-drunks](../clues/clues.md#surveyors-are-known-drunks)
+### Commercial scale still tolerated
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** setup:locations/bimber-still.md
+- **Outcome:** The still is worked at commercial scale: the operation is old and tolerated.
+- **Gives:** [bimber-still](../clues/clues.md#bimber-still)
+
+### Sugar traced to Matrona's store
+- **Noticed by:** [Bureaucracy](../cards/bureaucracy.md) OR [Finesse](../cards/finesse.md)
+- **When:** setup:locations/bimber-still.md
+- **Outcome:** The sugar supply traces to [@name](../characters/matrona.md)'s [@name](new-village/the-store.md), which means she profits from the operation.
+- **Gives:** [bimber-still](../clues/clues.md#bimber-still)
+
+### Site is plain moonshine
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** searched the site
+- **Outcome:** The site is exactly what it looks like: moonshine production, not a murder cache.
+- **Gives:** [bimber-still](../clues/clues.md#bimber-still)
+
+### Cheap Sport butts mark Wujas
+- **Noticed by:** [Finesse](../cards/finesse.md) OR [Survival](../cards/survival.md) OR [Chainsmoker](../cards/chainsmoker.md)
+- **When:** setup:locations/bimber-still.md
+<!-- Prompted by: setup:locations/bimber-still.md -->
+- **Outcome:** The ground is littered with butts, all the cheapest Sport, [@name](../characters/wujas.md)'s brand. Nothing premium here, no Carmen: the brand marks the man.
+- **Gives:** [tadek-smokes-cheapest](../clues/clues.md#tadek-smokes-cheapest)
+
+### Crew mock past state surveyors
+- **When:** [drinking buddy](../characters/wujas.md#drinking-buddy) with [@nickname](../characters/wujas.md)
+<!-- Prompted by: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated) -->
+- **Outcome:** The crew laugh about the state surveyors who came before: they drank more than they measured, drove a few stakes, and left early.
+- **Gives:** [geologists-were-drinking](../clues/clues.md#geologists-were-drinking)
+
+### Crew rib geologist as drunk
+- **Noticed by:** [Geology](../cards/geology.md)
+- **When:** wujas: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
+- **Outcome:** The crew rib the geologist as one of them. They clock him for what he is and lean into the joke: survey men are all famous drunks, and the last lot who came drank through their whole visit.
+- **Gives:** [surveyors-are-known-drunks](../clues/clues.md#surveyors-are-known-drunks)
 
 ## Actions
 

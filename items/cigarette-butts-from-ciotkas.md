@@ -6,12 +6,20 @@ A small scatter of rain-softened, hand-pinched cigarette butts.
 
 ## Setup
 
-A small scatter of hand-pinched butts, oval, all one brand: Carmen. An aromatic premium smoke, dearer than the Sport and Extra Mocne the village runs on and rarely seen this far out. Rain has swollen them grey and soft. They were dropped at least a day before [@first-name](../characters/ciotka.md) died, not the night of.
+A small scatter of hand-pinched butts, oval, all one brand: Carmen.[](#hand-pinched-butts-all-the-same-brand) An aromatic premium smoke, dearer than the Sport and Extra Mocne the village runs on and rarely seen this far out.[](#carmen-brand-butts-rare-this-far-out) Rain has swollen them grey and soft. They were dropped at least a day before [@first-name](../characters/ciotka.md) died, not the night of.
 
 ## Opportunities
 
-- Hand-pinched butts by the door, all the same brand, but you cannot tell which. Bagged, they could be compared against butts found elsewhere.
-- *(noticed by: [Chainsmoker](../cards/chainsmoker.md))* — The butts' oval shape and aroma give away the brand: Carmen, a premium smoke rarely seen this far out. → Gives: [`butts-at-ciotkas-are-carmen`](../clues/clues.md#butts-at-ciotkas-are-carmen) <!-- Prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead) -->
+### Hand-pinched butts all the same brand
+- **When:** setup:items/cigarette-butts-from-ciotkas.md
+- **Outcome:** Hand-pinched butts by the door, all the same brand, but you cannot tell which. Bagged, they could be compared against butts found elsewhere.
+
+### Carmen brand butts, rare this far out
+- **Noticed by:** [Chainsmoker](../cards/chainsmoker.md)
+- **When:** setup:items/cigarette-butts-from-ciotkas.md
+<!-- Prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead) -->
+- **Outcome:** The butts' oval shape and aroma give away the brand: Carmen, a premium smoke rarely seen this far out.
+- **Gives:** [`butts-at-ciotkas-are-carmen`](../clues/clues.md#butts-at-ciotkas-are-carmen)
 
 ## Actions
 

@@ -18,18 +18,13 @@
 
 **Location:** [Place](../locations/file.md)
 **Present:** [Name](../characters/file.md), [Other](../characters/file.md) (if [Mechanic](#mechanic) is value)
-**Available:** [Day/time/prerequisite — e.g. "Day 5 morning" or "Day 3 onward, after [the flood](the-flood.md)"]
-<!-- One event at a location at a time: events never overlap. An event stays open until its
-     next one starts. The next event's Available says what ends this one:
-     "After [an action](file.md#anchor)" or a mechanic's value, never a judgement call.
+<!-- No Available, no Trigger: an event begins because an action's Changes starts it,
+     `[Event](file.md) — starts`, and stops when one ends it, `[Event](file.md) — ends`
+     (validate.py: event-started). Time works the same way: each day phase
+     (events/day-N/day-N-<phase>.md) has a "Begin …" action, and an event tied to a time is
+     started from that action's Changes.
      Actions that belong to a person or a place live in their file, and are open in every
      event at that place or with that person. -->
-
-## Trigger
-
-<!-- Optional. Omit if Available already explains the trigger. -->
-
-- [What fires the event — game state, NPC state, player action, time. One fact per line.]
 
 ## Hook
 
@@ -55,7 +50,11 @@
 
 <!-- Format: actions-and-opportunities.md -->
 
-- *(when: [world state])* *(noticed by: [Card](../cards/file.md))* — [What is observed; must stand on its own, no title]. → Gives: [clue-id](../clues/clues.md#clue-id) <!-- Prompted by: [clue-id](../clues/clues.md#clue-id) -->
+### [Short title: what is noticed]
+- **Noticed by:** [Card](../cards/file.md)
+- **When:** setup:<own file>
+- **Outcome:** [What is observed; must stand on its own.]
+- **Gives:** [clue-id](../clues/clues.md#clue-id)
 
 ## Actions
 

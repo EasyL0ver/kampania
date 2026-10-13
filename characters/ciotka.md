@@ -25,12 +25,12 @@ Devout, fearful, and honest when her guard drops. She is the moral heart of the 
 
 ## Setup
 
-- **Clothes:** Shapeless dark dresses buttoned to the throat; headscarf outdoors
+- **Clothes:** Shapeless dark dresses buttoned to the throat; headscarf outdoors; a rosary in her apron pocket, worn to the string[](#real-faith-worn-into-daily-habit)
 - **Hair & face:** Thin grey hair hidden under the scarf; gaunt cheeks, permanent dark circles
 - **Carriage:** Shoulders hunched, eyes down, flinches at raised voices; steadier at home with [@name](glupek.md)
 - **Voice:** Thin and breathy in public; silence when frightened
 
-At home she moves around [@first-name](glupek.md) with practiced care. In public she makes herself smaller and lets other people fill the space.
+At home she moves around[](#property-assessment) [@first-name](glupek.md) with practiced care[](#tender-care-for-glupek). In public she makes herself smaller[](#census-interview) and lets other people fill the space.
 
 ## Opinions
 
@@ -47,12 +47,33 @@ At home she moves around [@first-name](glupek.md) with practiced care. In public
 
 ## Opportunities
 
-- *(when: brought up her siblings, Read)* — At any mention of her siblings she flinches: she pulls tight, changes the subject, hands busy. The distance is hers and it costs her. → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family) <!-- Prompted by: setup:characters/ciotka.md -->
-- *(noticed by: [Devotion](../cards/devotion.md))* — Her faith is real: the rosary in her apron pocket is worn to the string, and she murmurs prayers before eating or leaving a room, performing them for no one. She carries it like penance. → Gives: [`ciotka-is-devout`](../clues/clues.md#ciotka-is-devout) <!-- Prompted by: setup:characters/ciotka.md -->
-- *(noticed by: [Empathy](../cards/empathy.md))* — watch her with [@first-name](glupek.md) and the fear leaves her face. She reads his moods before he shows them, warms his food to the temperature he likes, steadies him without being asked. Whatever else she is, this is a woman who loves this boy and has built her whole small life around caring for him.
-- [@first-name](ciotka.md) sets out coffee for the committee, hospitality she will not skip. [@name](glupek.md) is given a cup too and flinches at the first taste, baffled that anyone drinks something so bitter, and leaves it untouched. Coffee in that house is hers alone. → Gives: [`glupek-wont-drink-coffee`](../clues/clues.md#glupek-wont-drink-coffee) <!-- Prompted by: setup:characters/ciotka.md -->
+### Flinching at mentions of siblings
+- **When:** brought up her siblings, Read
+<!-- Prompted by: setup:characters/ciotka.md -->
+- **Outcome:** At any mention of her siblings she flinches: she pulls tight, changes the subject, hands busy. The distance is hers and it costs her.
+- **Gives:** [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
+
+### Real faith worn into daily habit
+- **Noticed by:** [Devotion](../cards/devotion.md)
+- **When:** setup:characters/ciotka.md
+<!-- Prompted by: setup:characters/ciotka.md -->
+- **Outcome:** Her faith is real: the rosary in her apron pocket is worn to the string, and she murmurs prayers before eating or leaving a room, performing them for no one. She carries it like penance.
+- **Gives:** [`ciotka-is-devout`](../clues/clues.md#ciotka-is-devout)
+
+### Tender care for Glupek
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** setup:characters/ciotka.md
+- **Outcome:** watch her with [@first-name](glupek.md) and the fear leaves her face. She reads his moods before he shows them, warms his food to the temperature he likes, steadies him without being asked. Whatever else she is, this is a woman who loves this boy and has built her whole small life around caring for him.
+
+### Coffee as Ciotka's private ritual
+- **When:** [Accept her coffee](#accept-her-coffee)
+- **Outcome:** [@first-name](ciotka.md) sets out coffee for the committee, hospitality she will not skip. [@name](glupek.md) is given a cup too and flinches at the first taste, baffled that anyone drinks something so bitter, and leaves it untouched. Coffee in that house is hers alone.
+- **Gives:** [`glupek-wont-drink-coffee`](../clues/clues.md#glupek-wont-drink-coffee)
 
 ## Actions
+
+### Accept her coffee
+- **Outcome:** She sets out coffee for the committee and pours a cup for [@first-name](glupek.md) too[](#coffee-as-ciotkas-private-ritual).
 
 ### Census interview
 <!-- Prompted by: setup:characters/ciotka.md -->

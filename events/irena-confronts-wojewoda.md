@@ -2,14 +2,6 @@
 
 **Location:** [@name](../locations/new-village/wojewodas-house.md)
 **Present:** [@name](../characters/wojewoda.md), [@name](../characters/wife.md)
-**Available:** When [@first-name](../characters/wife.md) pivots; see [her mechanics](../characters/wife.md#mechanics).
-
-## Trigger
-
-- [@first-name](../characters/wife.md) confirms that [@first-name](../characters/wojewoda.md) took part in the 1954 killing.
-- [@first-name](../characters/wife.md) confronts [@first-name](../characters/wojewoda.md) privately instead of going to the players or the law.
-- [@first-name](../characters/wojewoda.md) believes the village will defend what he did.
-- [@first-name](../characters/wife.md) argues him out of going public.
 
 ## Hook
 
@@ -29,8 +21,17 @@
 
 ## Opportunities
 
-- *(when: present in the house)* *(noticed by: [Finesse](../cards/finesse.md))* — the fight is about something buried from 1954, and [@first-name](../characters/wife.md) is trying to stop [@first-name](../characters/wojewoda.md) from speaking openly. → Gives: [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
-- *(when: present in the house)* *(noticed by: [Empathy](../cards/empathy.md))* — [@first-name](../characters/wojewoda.md) is certain, not ashamed; [@first-name](../characters/wife.md) is controlling the outcome by protecting him from the consequences of his certainty. → Gives: [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
+### Fight hides a buried 1954 secret
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** present in the house
+- **Outcome:** the fight is about something buried from 1954, and [@first-name](../characters/wife.md) is trying to stop [@first-name](../characters/wojewoda.md) from speaking openly.
+- **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
+
+### Wife shields Wojewoda from his certainty
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** present in the house
+- **Outcome:** [@first-name](../characters/wojewoda.md) is certain, not ashamed; [@first-name](../characters/wife.md) is controlling the outcome by protecting him from the consequences of his certainty.
+- **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
 
 ## Actions
 

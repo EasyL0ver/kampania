@@ -53,18 +53,39 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 
 ## Opportunities
 
-- *(when: Census interview)* *(noticed by: [Empathy](../cards/empathy.md))* — When the missing father comes up, her warmth stays in place, but her jaw sets and she waits for the question to pass.
-- *(when: Census interview)* *(noticed by: [Bureaucracy](../cards/bureaucracy.md))* — A census form with no father listed is a bureaucratic flag.
-- *(when: Census interview)* *(noticed by: [Bureaucracy](../cards/bureaucracy.md))* — Three household members and one farm-labour income cannot explain the house and supplies. → Gives: [`barbara-has-help`](../clues/clues.md#barbara-has-help)
-- *(when: Ask about the village)* *(noticed by: [Finesse](../cards/finesse.md))* — [@first-name](barbara.md) fishes: every answer ends with a question about the committee, the survey, or what the players have found. → Gives: [`barbara-is-a-sieve`](../clues/clues.md#barbara-is-a-sieve)
-- *(when: Ask about the village)* *(noticed by: [Finesse](../cards/finesse.md))* — [@first-name](barbara.md)'s kind descriptions skip [@name](butcher.md) unless asked, soften [@name](wujas.md), and avoid judging [@name](matrona.md).
+### Warmth hides a guarded jaw
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** [Census interview](#census-interview)
+- **Outcome:** When the missing father comes up, her warmth stays in place, but her jaw sets and she waits for the question to pass.
+
+### Census form omits the father
+- **Noticed by:** [Bureaucracy](../cards/bureaucracy.md)
+- **When:** [Census interview](#census-interview)
+- **Outcome:** A census form with no father listed is a bureaucratic flag.
+
+### Household income cannot cover supplies
+- **Noticed by:** [Bureaucracy](../cards/bureaucracy.md)
+- **When:** [Census interview](#census-interview)
+- **Outcome:** Three household members and one farm-labour income cannot explain the house and supplies.
+- **Gives:** [`barbara-has-help`](../clues/clues.md#barbara-has-help)
+
+### Barbara answers with questions
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** [Ask about the village](#ask-about-the-village)
+- **Outcome:** [@first-name](barbara.md) fishes: every answer ends with a question about the committee, the survey, or what the players have found.
+- **Gives:** [`barbara-is-a-sieve`](../clues/clues.md#barbara-is-a-sieve)
+
+### Kind words skip key names
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** [Ask about the village](#ask-about-the-village)
+- **Outcome:** [@first-name](barbara.md)'s kind descriptions skip [@name](butcher.md) unless asked, soften [@name](wujas.md), and avoid judging [@name](matrona.md).
 
 ## Actions
 
 ### Census interview
 <!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
-- **Outcome:** [@first-name](barbara.md) gives her name, age, household members, and employment cheerfully. She will not name [@name](pawelek.md)'s father.
+- **Outcome:** [@first-name](barbara.md) gives her name, age, household members[](#census-form-omits-the-father), and employment[](#household-income-cannot-cover-supplies) cheerfully. She will not name[](#warmth-hides-a-guarded-jaw) [@name](pawelek.md)'s father.
 - **Gives:** [`barbara-refuses-father`](../clues/clues.md#barbara-refuses-father)
 - **Changes:** [Census](../items/census.md#census) — [@first-name](barbara.md) [@surname](barbara.md), [@name](babcia.md), and [@name](pawelek.md)
 
@@ -89,7 +110,7 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 
 ### Ask about the village
 <!-- Prompted by: hook:locations/new-village/new-village.md -->
-- **Outcome:** [@first-name](barbara.md) gives a generous social map: [@name](wojewoda.md) has the phone, the Gajda siblings keep the church supplied, [@name](neighbour.md) helps her, [@name](foreman.md) is busy, and the old village is not somewhere people go. Every answer comes with a friendly question back.
+- **Outcome:** [@first-name](barbara.md) gives a generous social map[](#kind-words-skip-key-names): [@name](wojewoda.md) has the phone, the Gajda siblings keep the church supplied, [@name](neighbour.md) helps her, [@name](foreman.md) is busy, and the old village is not somewhere people go. Every answer comes with a friendly question back.[](#barbara-answers-with-questions)
 - **Gives:** [`wojewoda-has-only-phone`](../clues/clues.md#wojewoda-has-only-phone), [`siblings-fund-the-church`](../clues/clues.md#siblings-fund-the-church)
 
 ### Ask about the old village

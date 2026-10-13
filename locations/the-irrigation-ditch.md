@@ -11,16 +11,20 @@ The ditch running from the PGR fields down to the low ground east of [@name](new
 - From the head alone it reads as a fine concrete channel of ample capacity.
 - Past the concrete it degrades to a shallow, unlined dugout for most of its length. Nothing at the head announces this; only walking the full length reveals it.
 - The channel runs a long way, fields to low ground, over rough and boggy going.
-- Where the dugout peters out into the low ground, one broad patch grows rank and wrong: coarse cereal sprouting thick and volunteer, the wet soil beneath it caked and sour.
+- Where the dugout peters out into the low ground, one broad patch grows rank and wrong[](#rotting-grain-dumped-on-ground): coarse cereal sprouting thick and volunteer, the wet soil beneath it caked and sour.
 
 ## Opportunities
 
-- *(noticed by: [Survival](../cards/survival.md) OR [Handiwork](../cards/handiwork.md))* — This rank patch of thick volunteer cereal and sour, caked ground reads plainly to a country eye: a large quantity of grain was tipped out here and left to rot, not spread as feed or sown as seed. → Gives: [grain-has-been-dumped](../clues/clues.md#grain-has-been-dumped) <!-- Prompted by: setup:locations/the-irrigation-ditch.md -->
+### Rotting grain dumped on ground
+- **Noticed by:** [Survival](../cards/survival.md) OR [Handiwork](../cards/handiwork.md)
+- **When:** setup:locations/the-irrigation-ditch.md
+<!-- Prompted by: setup:locations/the-irrigation-ditch.md -->
+- **Outcome:** This rank patch of thick volunteer cereal and sour, caked ground reads plainly to a country eye: a large quantity of grain was tipped out here and left to rot, not spread as feed or sown as seed.
+- **Gives:** [grain-has-been-dumped](../clues/clues.md#grain-has-been-dumped)
 
 ## Actions
 
 ### Walk the irrigation ditch
-- **When:** Following the ditch its full length, from the concrete head to the low ground
 <!-- Prompted by: [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain) -->
 - **Cost:** 1 time
 - **Outcome:** The concrete lining ends after a short run and the channel becomes a plain earth dugout the rest of the way. Walking it tells you the concrete does not go all the way. It does not tell you whether that is a fault, a shortfall against spec, or the intended build, and it does not tell you whether the ditch can carry the flood.

@@ -2,7 +2,6 @@
 
 **Location:** [@name](../../locations/new-village/new-village.md)
 **Present:** [@name](../../characters/officer.md), [@name](../../characters/driver.md), [@name](../../characters/wojewoda.md)
-**Available:** After [@name](../the-car-in/the-drive.md).
 
 ## Hook
 
@@ -36,3 +35,4 @@ The Milicja van stopping on the muddy road as [@name](../../characters/wojewoda.
 ### Go with the sołtys
 - **Outcome:** You follow [@first-name](../../characters/wojewoda.md) up the road. Behind you the van turns in the mud and climbs away. By the time you look back, it is gone.
 - **Gives:** hook:events/arrival/the-walk.md
+- **Changes:** [@name](the-walk.md) — starts

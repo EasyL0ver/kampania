@@ -24,7 +24,7 @@ Bright, fearless four-year-old who wanders too far and repeats things without un
 
 ## Setup
 
-- **Clothes:** Oversized hand-me-down shirt with rolled sleeves, shorts held up with twine, bare feet black with mud, pockets full of stones and dead beetles
+- **Clothes:** Oversized hand-me-down shirt with rolled sleeves, shorts held up with twine, bare feet black with mud, his only shoes left by the door caked in dark mud[](#mud-with-worked-stone), pockets full of stones and dead beetles
 - **Hair & face:** Sandy-brown hair cut unevenly with kitchen scissors and always in his eyes; round face, gap-toothed grin, skinned knees
 - **Carriage:** Runs everywhere, climbs everything, grabs your hand and drags you; no concept of personal space or boundaries
 
@@ -78,12 +78,39 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ## Opportunities
 
-- *(when: evening with [@first-name](pawelek.md), Babcia)* *(noticed by: [Language](../cards/language.md))* — [@first-name](pawelek.md) reproduces Babcia's prayer fragments with eerie accuracy. A child is acting as an unconscious vessel for a dying language.
-- *(when: evening with [@first-name](pawelek.md), Babcia)* *(noticed by: [Empathy](../cards/empathy.md))* — [@name](barbara.md) watches from the kitchen. She does not understand what Babcia says either, and she is watching her son become part of something she was never part of.
-- *(when: [Condition](#condition) is tended)* *(noticed by: [Medicine](../cards/medicine.md))* — The illness will not resolve on its own in a child this size. He needs antibacterial medication; stabilization only buys time. → Gives: [paweleks-diagnosis](../clues/clues.md#paweleks-diagnosis)
-- *(when: [Condition](#condition) is tended)* *(noticed by: [Medicine](../cards/medicine.md))* — The bacterial load shows a contamination pattern: decomposing organic matter in a confined water source over years, such as a cistern, cellar, or well filled with something large and organic. → Gives: [paweleks-contamination](../clues/clues.md#paweleks-contamination)
-- *(when: Ask about drinking water)* *(noticed by: [Geology](../cards/geology.md))* — Contamination follows the water table downhill from the old village. Mapping the flow points toward [@name](../locations/old-village-ruins.md) and [@name](../locations/old-village-ruins.md). → Gives: hook:locations/old-village-ruins.md
-- *(when: Ask about drinking water)* *(noticed by: [Survival](../cards/survival.md))* — His shoes by the door carry dark, silty mud with stone dust fragments: forest-path mud with worked stone. → Gives: hook:locations/old-village-ruins.md
+### Child echoing dying prayers
+- **Noticed by:** [Language](../cards/language.md)
+- **When:** evening with [@first-name](pawelek.md), Babcia
+- **Outcome:** [@first-name](pawelek.md) reproduces Babcia's prayer fragments with eerie accuracy. A child is acting as an unconscious vessel for a dying language.
+
+### Mother watches from kitchen
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** evening with [@first-name](pawelek.md), Babcia
+- **Outcome:** [@name](barbara.md) watches from the kitchen. She does not understand what Babcia says either, and she is watching her son become part of something she was never part of.
+
+### Child needs antibiotics
+- **Noticed by:** [Medicine](../cards/medicine.md)
+- **When:** [Condition](#condition) is tended
+- **Outcome:** The illness will not resolve on its own in a child this size. He needs antibacterial medication; stabilization only buys time.
+- **Gives:** [paweleks-diagnosis](../clues/clues.md#paweleks-diagnosis)
+
+### Contamination from confined water source
+- **Noticed by:** [Medicine](../cards/medicine.md)
+- **When:** [Condition](#condition) is tended
+- **Outcome:** The bacterial load shows a contamination pattern: decomposing organic matter in a confined water source over years, such as a cistern, cellar, or well filled with something large and organic.
+- **Gives:** [paweleks-contamination](../clues/clues.md#paweleks-contamination)
+
+### Water table points toward ruins
+- **Noticed by:** [Geology](../cards/geology.md)
+- **When:** [Ask about drinking water](#ask-about-drinking-water)
+- **Outcome:** Contamination follows the water table downhill from the old village. Mapping the flow points toward [@name](../locations/old-village-ruins.md) and [@name](../locations/old-village-ruins.md).
+- **Gives:** hook:locations/old-village-ruins.md
+
+### Mud with worked stone
+- **Noticed by:** [Survival](../cards/survival.md)
+- **When:** setup:characters/pawelek.md
+- **Outcome:** His shoes by the door carry dark, silty mud with stone dust fragments: forest-path mud with worked stone.
+- **Gives:** hook:locations/old-village-ruins.md
 
 ## Actions
 
@@ -116,8 +143,8 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ### Ask about drinking water
 - **Requires:** [Bond: Pawełek Kopacz](../cards/bond-pawelek.md) OR [Speech](../cards/speech.md)
-- **When:** [@first-name](pawelek.md) is sick, HP 5-6 (lucid)
-- **Outcome:** He says he drank by the round stones where the water comes up, and that the lady told him not to drink it but he was thirsty.
+- **When:** [Condition](#condition) is sick and [Health Points](#health-points) >= 5
+- **Outcome:** He says he drank by the round stones where the water comes up[](#water-table-points-toward-ruins), and that the lady told him not to drink it but he was thirsty.
 - **Gives:** [well-water-contaminated](../clues/clues.md#well-water-contaminated), hook:locations/old-village-ruins.md
 
 ## Bond

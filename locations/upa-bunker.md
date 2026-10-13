@@ -11,20 +11,35 @@
 - Rotting timber reinforces the structure.
 - The tunnel network has unknown extent.
 - The entrance is camouflaged by vegetation and fallen trees.
-- Ventilation shafts break the hillside.
+- Ventilation shafts break the hillside.[](#shafts-reveal-hidden-underground-structure)
 - Some sections are partially collapsed.
 - Lower areas are flooded.
 - No recent human occupation is apparent.
-- Rusted weapons, ammunition, Cyrillic inscriptions on wood, and rotting documents are scattered inside.
+- Rusted weapons, ammunition, Cyrillic inscriptions on wood[](#rusted-weapons-show-partisan-presence), and rotting documents are scattered inside.
 - One wall section has carved Cyrillic: Д. КОСАЧ and a date.
 - A wrapped bundle near the carving contains a rusted pistol, spare ammunition, and a Ukrainian journal fragment mentioning the village by its Lemko name and a woman's name.
 - Hazards include structural collapse, flooding, disorientation, and possible unexploded ordnance.
 
 ## Opportunities
 
-- *(noticed by: [Survival](../cards/survival.md))* — The shafts reveal an underground structure in the hillside. → Gives: hook:locations/upa-bunker.md
-- *(noticed by: [History](../cards/history.md))* — The rusted weapons and markings show partisan presence. → Gives: [old-wartime-positions](../clues/clues.md#old-wartime-positions)
-- *(when: Search inside the bunker)* *(noticed by: [Language](../cards/language.md))* — The carved name, cache, and journal fragment connect [@name](../characters/dmytro-kosach.md) to the bunker and to [@name](hags-cabin.md). → Gives: hook:characters/dmytro-kosach.md <!-- Prompted by: setup:locations/upa-bunker.md -->
+### Shafts reveal hidden underground structure
+- **Noticed by:** [Survival](../cards/survival.md)
+- **When:** setup:locations/upa-bunker.md
+- **Outcome:** The shafts reveal an underground structure in the hillside.
+- **Gives:** hook:locations/upa-bunker.md
+
+### Rusted weapons show partisan presence
+- **Noticed by:** [History](../cards/history.md)
+- **When:** setup:locations/upa-bunker.md
+- **Outcome:** The rusted weapons and markings show partisan presence.
+- **Gives:** [old-wartime-positions](../clues/clues.md#old-wartime-positions)
+
+### Carved name links Dmytro-kosach to bunker
+- **Noticed by:** [Language](../cards/language.md)
+- **When:** Search inside the bunker
+<!-- Prompted by: setup:locations/upa-bunker.md -->
+- **Outcome:** The carved name, cache, and journal fragment connect [@name](../characters/dmytro-kosach.md) to the bunker and to [@name](hags-cabin.md).
+- **Gives:** hook:characters/dmytro-kosach.md
 
 ## Actions
 
@@ -35,7 +50,7 @@
 - **Gives:** hook:locations/upa-bunker.md, [old-wartime-positions](../clues/clues.md#old-wartime-positions)
 
 ### Search Dmytro-Kosach's cache
-- **When:** Explored the bunker
+- **When:** [Explore the bunker](#explore-the-bunker)
 - **Cost:** 1 time
 - **Outcome:** The search finds the Д. КОСАЧ carving, a rusted pistol, spare ammunition, and a Ukrainian journal fragment.
 - **Gives:** hook:characters/dmytro-kosach.md, [@name](../items/journal-fragment.md)

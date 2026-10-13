@@ -2,15 +2,6 @@
 
 **Location:** [@name](../locations/new-village/the-church/the-church.md)
 **Present:** [@name](../characters/priest.md), [@name](../characters/matrona.md), [@name](../characters/wojewoda.md) (if [Alive](../characters/wojewoda.md#alive) is true), [@name](../characters/wujas.md), [@name](../characters/neighbour.md), [@name](../characters/painter.md), [@name](../characters/butcher.md) (if [Alive](../characters/butcher.md#alive) is true), [@name](../characters/babcia.md)
-**Available:** Day 7; fires only if [Faith in Redemption](../story-facts/spiritual-endings.md) cleared its threshold by end of Day 6 and [@name](the-ritual.md) has not fired.
-
-## Trigger
-
-- Enough guilty villagers knelt in [@title](../characters/priest.md) [@surname](../characters/priest.md)'s confessional.
-- [@title](../characters/priest.md) [@surname](../characters/priest.md)'s crisis resolves toward mercy.
-- He chooses to offer grace before the water reaches the church.
-- If [@name](the-ritual.md) has fired, this event does not fire.
-- If the threshold is not met, the day goes to [@name](the-seal-break.md).
 
 ## Hook
 
@@ -27,20 +18,39 @@
 - Floor candles are drowned.
 - [@title](../characters/priest.md) [@surname](../characters/priest.md) stands straight at the altar in clean vestments.
 - He preaches on Isaiah: sins like scarlet becoming white.
-- He looks at men he knows carry blood when he says scarlet.
+- He looks at men he knows carry blood when he says scarlet.[](#his-gaze-skips-over-matrona)
 - He does not name them.
-- He says the water is the last chance for mercy, not the end of mercy.
-- He offers general absolution to the congregation.
+- He says the water is the last chance for mercy, not the end of mercy.[](#priest-chooses-mercy-over-judgment)
+- He offers general absolution to the congregation.[](#he-plans-general-absolution-rite)
 - If [@name](../characters/butcher.md) lives, he attends despite skipping earlier Masses.
-- If the players stirred the Lemko rite but did not finish [@name](the-ritual.md), [@name](../characters/babcia.md) stands and pleads against washing killers clean while the dead in the well remain unnamed.
+- If the players stirred the Lemko rite but did not finish [@name](the-ritual.md), [@name](../characters/babcia.md) stands and pleads[](#babcia-says-lemko-dead-unanswered) against washing killers clean while the dead in the well remain unnamed.
 
 ## Opportunities
 
-- *(noticed by: [Devotion](../cards/devotion.md))* — [@title](../characters/priest.md) [@surname](../characters/priest.md) has chosen mercy over judgment.
-- *(noticed by: [Culture](../cards/culture.md))* — He is building a rite toward general absolution for people in danger of death.
-- *(noticed by: [Devotion](../cards/devotion.md))* — On the word scarlet, his eyes go to [@first-name](../characters/wojewoda.md), [@nickname](../characters/wujas.md), and [@surname](../characters/butcher.md), but not [@first-name](../characters/matrona.md).
-- *(when: [@name](../characters/butcher.md) present)* *(noticed by: [Empathy](../cards/empathy.md))* — [@surname](../characters/butcher.md) is accepting absolution without visible contrition.
-- *(when: [@name](../characters/babcia.md) present)* *(noticed by: [Culture](../cards/culture.md))* — Babcia objects: the Lemko dead have not been named or rested, so Catholic absolution does not answer their grievance.
+### Priest chooses mercy over judgment
+- **Noticed by:** [Devotion](../cards/devotion.md)
+- **When:** setup:events/the-odpust.md
+- **Outcome:** [@title](../characters/priest.md) [@surname](../characters/priest.md) has chosen mercy over judgment.
+
+### He plans general absolution rite
+- **Noticed by:** [Culture](../cards/culture.md)
+- **When:** setup:events/the-odpust.md
+- **Outcome:** He is building a rite toward general absolution for people in danger of death.
+
+### His gaze skips over Matrona
+- **Noticed by:** [Devotion](../cards/devotion.md)
+- **When:** setup:events/the-odpust.md
+- **Outcome:** On the word scarlet, his eyes go to [@first-name](../characters/wojewoda.md), [@nickname](../characters/wujas.md), and [@surname](../characters/butcher.md), but not [@first-name](../characters/matrona.md).
+
+### Butcher accepts absolution without contrition
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** [Alive](../characters/butcher.md#alive) is true
+- **Outcome:** [@surname](../characters/butcher.md) is accepting absolution without visible contrition.
+
+### Babcia says Lemko dead unanswered
+- **Noticed by:** [Culture](../cards/culture.md)
+- **When:** setup:events/the-odpust.md
+- **Outcome:** Babcia objects: the Lemko dead have not been named or rested, so Catholic absolution does not answer their grievance.
 
 ## Actions
 

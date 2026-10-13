@@ -2,16 +2,6 @@
 
 **Location:** [@name](../locations/old-village-ruins.md)
 **Present:** [@name](../characters/hag.md), [@name](../characters/butcher.md), [@name](../characters/neighbour.md) (if [Warned about the well](#warned-about-the-well) is true)
-**Available:** Night of Day 4, after [@name](wolf-attack.md), unless [@name](../characters/hag.md) is hostile (see her [Hostility](../characters/hag.md#village-hostility) mechanic)
-
-## Trigger
-
-- [@name](../characters/butcher.md) is loose after the wolf authorization.
-- The well's compulsion sends him to the ruins at night.
-- [@name](../characters/hag.md) is at the well for her nightly rites.
-- Does not happen if [@first-name](../characters/hag.md) is hostile; she has stopped coming to the well (see her [Hostility](../characters/hag.md#village-hostility) mechanic).
-- Villagers blame her for wolf attacks ([hag-blamed-for-wolves](../clues/clues.md#hag-blamed-for-wolves)).
-- Players are present only if they stake out the well, follow [@surname](../characters/butcher.md), are already at the ruins at night, or arrive with [@name](../characters/neighbour.md).
 
 ## Hook
 
@@ -20,29 +10,55 @@
 
 ## Setup
 
-- [@name](../characters/hag.md) kneels at the well rim.
+- [@name](../characters/hag.md) kneels at the well rim.[](#tending-the-well-matters-most)
 - Beeswax candles form a semicircle.
 - An icon of the Theotokos faces the water.
 - Bread, a cloth, water, herbs, and church incense are set near the rim.
-- She chants in Lemko.
+- She chants in Lemko.[](#candles-and-chant-form-a-lemko-rite)
 - [@name](../characters/butcher.md) arrives from the village path with three dogs.
 - He carries a dead wolf.
-- He drops the wolf near the well.
+- He drops the wolf near the well.[](#wolf-brought-here-in-a-pattern)
 - He tells [@first-name](../characters/hag.md) to go home.
 - She recognizes him as the auxiliary from 1947.
 - He does not recognize her.
-- He circles her with a knife in his hand.
-- The dogs watch the players' hands.
-- If no one intervenes, he kills her, drops her and the wolf into the well, whistles the dogs, and leaves.
+- He circles her with a knife in his hand.[](#he-is-calm-and-ready-to-kill)
+- The dogs watch the players' hands.[](#one-person-cannot-handle-all)
+- If no one intervenes, he kills her, drops her and the wolf into the well[](#well-compulsion-and-butchers-appetite-align), whistles the dogs, and leaves.
 
 ## Opportunities
 
-- *(noticed by: [Culture](../cards/culture.md))* — the candles, icon, bread, incense, and chant form a Lemko rite for the dead, not witchcraft. → Gives: [`hag-tends-the-well`](../clues/clues.md#hag-tends-the-well)
-- *(noticed by: [Survival](../cards/survival.md))* — he brought the wolf here as part of a repeated pattern. → Gives: [`butcher-dumps-carcasses-in-well`](../clues/clues.md#butcher-dumps-carcasses-in-well)
-- *(noticed by: [Empathy](../cards/empathy.md))* — tending the well matters to her more than leaving alive.
-- *(noticed by: [Violence](../cards/violence.md))* — he is calm, controlled, and ready to kill. → Gives: [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
-- *(noticed by: [Violence](../cards/violence.md))* — one person cannot handle [@surname](../characters/butcher.md) and the three dogs at the same time.
-- *(noticed by: [Empathy](../cards/empathy.md))* — the well's compulsion and [@surname](../characters/butcher.md)'s own appetite both fit what he is doing.
+### Candles and chant form a Lemko rite
+- **Noticed by:** [Culture](../cards/culture.md)
+- **When:** setup:events/well-confrontation.md
+- **Outcome:** the candles, icon, bread, incense, and chant form a Lemko rite for the dead, not witchcraft.
+- **Gives:** [`hag-tends-the-well`](../clues/clues.md#hag-tends-the-well)
+
+### Wolf brought here in a pattern
+- **Noticed by:** [Survival](../cards/survival.md)
+- **When:** setup:events/well-confrontation.md
+- **Outcome:** he brought the wolf here as part of a repeated pattern.
+- **Gives:** [`butcher-dumps-carcasses-in-well`](../clues/clues.md#butcher-dumps-carcasses-in-well)
+
+### Tending the well matters most
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** setup:events/well-confrontation.md
+- **Outcome:** tending the well matters to her more than leaving alive.
+
+### He is calm and ready to kill
+- **Noticed by:** [Violence](../cards/violence.md)
+- **When:** setup:events/well-confrontation.md
+- **Outcome:** he is calm, controlled, and ready to kill.
+- **Gives:** [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
+
+### One person cannot handle all
+- **Noticed by:** [Violence](../cards/violence.md)
+- **When:** setup:events/well-confrontation.md
+- **Outcome:** one person cannot handle [@surname](../characters/butcher.md) and the three dogs at the same time.
+
+### Well compulsion and Butcher's appetite align
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** setup:events/well-confrontation.md
+- **Outcome:** the well's compulsion and [@surname](../characters/butcher.md)'s own appetite both fit what he is doing.
 
 ## Actions
 
@@ -84,7 +100,7 @@
 - **Changes:** [Rezeń](#butcher) — driven-off
 
 ### Shoot him in the back
-- **When:** [Shoot him](#shoot-him) resolved and [@surname](../characters/butcher.md) is retreating
+- **When:** [Shoot him](#shoot-him)
 - **Cost:** 2 composure
 - **Outcome:** The player shoots [@surname](../characters/butcher.md) in the back; he crawls to the well and goes into the water.
 - **Changes:** [Rezeń](#butcher) — dead in the well; [Alive](../characters/butcher.md#alive) — false

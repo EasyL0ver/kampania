@@ -15,9 +15,9 @@
 - **State:** Hearth provides heat and cooking.
 - **State:** No electricity or running water.
 - **Interior:** Single room.
-- **Interior:** Icons, candles, herbs, and prayer materials are kept here.
-- **Interior:** A small three-barred crucifix hangs among the icons.
-- **Interior:** A soft folded sheet of Cyrillic names is kept with the ritual materials.
+- **Interior:** Icons, candles, herbs, and prayer materials are kept here.[](#ritual-form-shown-by-icons)
+- **Interior:** A small three-barred crucifix hangs among the icons[](#three-barred-crucifix-among-icons).
+- **Interior:** A soft folded sheet of Cyrillic names is kept with the ritual materials.[](#cyrillic-sheet-links-to-death-list)
 - **Interior:** Foraged and preserved foods are stored here.
 - **Interior:** Blankets, worn clothes, and cooking implements are present.
 - **Hidden tin:** Floorboards hide a tin with [@name](../characters/dmytro-kosach.md)'s photograph, a folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth.
@@ -26,10 +26,29 @@
 
 ## Opportunities
 
-- *(noticed by: [Culture](../cards/culture.md))* — The icons, candles, herbs, and prayers show someone has the ritual form. → Gives: [hag-has-the-form](../clues/clues.md#hag-has-the-form)
-- *(noticed by: [Language](../cards/language.md) OR [Finesse](../cards/finesse.md))* — The folded Cyrillic sheet names the dead and belongs with [@name](../items/paraskewias-list.md). → Gives: [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead)
-- *(noticed by: [Culture](../cards/culture.md))* — A small three-barred crucifix hangs among the icons, unlike a Roman cross. → Gives: [three-barred-cross-in-hags-cabin](../clues/clues.md#three-barred-cross-in-hags-cabin) <!-- Prompted by: setup:locations/hags-cabin.md -->
-- *(when: found the [@name](upa-bunker.md) inscription, found the knife marked Д.К.)* — The initials connect [@name](../characters/dmytro-kosach.md)'s belongings to the bunker. → Gives: hook:characters/dmytro-kosach.md
+### Ritual form shown by icons
+- **Noticed by:** [Culture](../cards/culture.md)
+- **When:** setup:locations/hags-cabin.md
+- **Outcome:** The icons, candles, herbs, and prayers show someone has the ritual form.
+- **Gives:** [hag-has-the-form](../clues/clues.md#hag-has-the-form)
+
+### Cyrillic sheet links to death list
+- **Noticed by:** [Language](../cards/language.md) OR [Finesse](../cards/finesse.md)
+- **When:** setup:locations/hags-cabin.md
+- **Outcome:** The folded Cyrillic sheet names the dead and belongs with [@name](../items/paraskewias-list.md).
+- **Gives:** [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead)
+
+### Three-barred crucifix among icons
+- **Noticed by:** [Culture](../cards/culture.md)
+- **When:** setup:locations/hags-cabin.md
+<!-- Prompted by: setup:locations/hags-cabin.md -->
+- **Outcome:** A small three-barred crucifix hangs among the icons, unlike a Roman cross.
+- **Gives:** [three-barred-cross-in-hags-cabin](../clues/clues.md#three-barred-cross-in-hags-cabin)
+
+### Initials tie Dmytro-kosach to bunker
+- **When:** found the [@name](upa-bunker.md) inscription, found the knife marked Д.К.
+- **Outcome:** The initials connect [@name](../characters/dmytro-kosach.md)'s belongings to the bunker.
+- **Gives:** hook:characters/dmytro-kosach.md
 
 ## Actions
 

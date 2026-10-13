@@ -67,7 +67,12 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 
 ## Opportunities
 
-- *(when: [@first-name](foreman.md) talks about the irrigation ditch)* *(noticed by: [Empathy](../cards/empathy.md))* — His voice tightens and he won't meet your eye while praising the ditch. → Gives: [foreman-uneasy-about-ditch](../clues/clues.md#foreman-uneasy-about-ditch) <!-- Prompted by: [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain) -->
+### Voice tightens while praising the ditch
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** [@first-name](foreman.md) talks about the irrigation ditch
+<!-- Prompted by: [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain) -->
+- **Outcome:** His voice tightens and he won't meet your eye while praising the ditch.
+- **Gives:** [foreman-uneasy-about-ditch](../clues/clues.md#foreman-uneasy-about-ditch)
 
 ## Actions
 
@@ -87,7 +92,6 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 - **Gives:** [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area), [old-village-resettled-during-vistula](../clues/clues.md#old-village-resettled-during-vistula)
 
 ### Talk to him about the flood
-- **When:** [Michał Pytlak](foreman.md) present
 <!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
 - **Outcome:** [@first-name](foreman.md) describes drainage ditches, sandbags, and water diversion as practical flood defences. He lays out the valley plainly: when the reservoir rises the water can only leave three ways, through the ridge gap, down his irrigation ditch, or over the far-ridge streambed. When the ditch comes up he is blunt: it is concrete only for a short run near the fields, an unlined dugout the rest of the way, and it will not carry a flood off.
 - **Gives:** [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain)
@@ -106,14 +110,14 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 - **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 
 ### Ask where the surveyors have already been
-- **When:** [Michał Pytlak](foreman.md) willing to coordinate on the flood (after [Talk to him about the flood](#talk-to-him-about-the-flood))
+- **When:** [Talk to him about the flood](#talk-to-him-about-the-flood)
 <!-- Prompted by: [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain) -->
 - **Cost:** 1 time
 - **Outcome:** [@first-name](foreman.md) remembers the Solina dam survey crews working the valley years back. They set benchmark markers across it, up at the far-ridge streambed col and down by the village among them. "If it's the streambed's height you want, their marks are still out there."
 - **Gives:** [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
 
 ### Bring him to the streambed
-- **When:** [Michał Pytlak](foreman.md) willing to coordinate on the flood (after [Talk to him about the flood](#talk-to-him-about-the-flood))
+- **When:** [Talk to him about the flood](#talk-to-him-about-the-flood)
 - **Cost:** 1 time
 - **Outcome:** [@first-name](foreman.md) comes up to the far ridge and spends the fieldwork day working alongside the committee. He can join **only one** of the two streambed scenes, not both, and he sticks with whichever the party runs first.
   - In [@name](../events/surveying-the-streambed.md) he holds the staff for one leg of the line at no time cost to the party.
@@ -122,13 +126,12 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 
 ### Show him the streambed figures
 - **Requires:** [@name](../items/streambed-parameters.md)
-- **When:** [Michał Pytlak](foreman.md) present
 - **Cost:** 1 time
 - **Outcome:** [@first-name](foreman.md) reads the two elevations without hesitation. He has worked this valley for years, and a col standing above house level tells him at once that the water tops the village long before it reaches the streambed. He confirms the streambed is no outlet.
 - **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 
 ### Borrow the anchor and hammer
-- **When:** [Cooperative](#cooperative) true
+- **When:** [Cooperative](#cooperative) is true
 - **Cost:** 1 time
 - **Outcome:** Under orders from [@first-name](wojewoda.md), [@first-name](foreman.md) hands over the steel clamp and driving hammer from the farm's gear without a second thought, on the understanding it comes back.
 - **Gives:** [@name](../items/anchor.md)

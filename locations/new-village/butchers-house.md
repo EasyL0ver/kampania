@@ -12,15 +12,15 @@ The edge of [@name](new-village.md), nearest the forest path toward [@name](../o
 - **Dogs:** Three dogs remain; villagers remember five.
 - **Dogs:** The dogs growl low instead of barking.
 - **Dogs:** One dog limps from an old bad heal.
-- **Dogs:** One dog flinches when a hand rises.
+- **Dogs:** One dog flinches when a hand rises.[](#dogs-fear-their-owner)
 - **[@surname](../../characters/butcher.md):** If home, [@name](../../characters/butcher.md) reaches the door before visitors knock.
 - **[@surname](../../characters/butcher.md):** He chain-smokes and leaves burn marks on the doorframe.
 - **[@surname](../../characters/butcher.md):** He picks at scabs, scratches himself, and turns a knife in one hand.
 - **[@surname](../../characters/butcher.md):** His friendliness is too eager and he watches faces closely.
 - **[@surname](../../characters/butcher.md):** He makes lingering personal comments about female player characters.
 - **Path:** A worn track runs from the back door into the forest.
-- **Path:** The mud on the track is usually fresh.
-- **Path:** The track leads toward [@name](../old-village-ruins.md) and [the well](../../story-facts/the-well.md).
+- **Path:** The mud on the track is usually fresh.[](#station-sees-more-use-than-livestock-explains)
+- **Path:** The track leads toward[](#forest-path-leads-to-hołubie) [@name](../old-village-ruins.md) and [the well](../../story-facts/the-well.md).
 - **Interior:** The house contains no alcohol.
 - **Interior:** Old blood smell is soaked into the wood.
 - **Interior:** Modified blades hang on the wall rack.
@@ -31,10 +31,29 @@ The edge of [@name](new-village.md), nearest the forest path toward [@name](../o
 
 ## Opportunities
 
-- *(noticed by: [Survival](../../cards/survival.md))* — The forest path sees daily use and points straight toward [@name](../old-village-ruins.md). → Gives: [butcher-dumps-carcasses-in-well](../../clues/clues.md#butcher-dumps-carcasses-in-well)
-- *(when: access to interior)* *(noticed by: [Finesse](../../cards/finesse.md))* — The house contains no alcohol, not a single bottle. → Gives: [butcher-doesnt-drink](../../clues/clues.md#butcher-doesnt-drink)
-- *(noticed by: [Violence](../../cards/violence.md))* — The dogs fear their owner and show signs of practiced cruelty. → Gives: [butcher-is-dangerous](../../clues/clues.md#butcher-is-dangerous)
-- *(noticed by: [Medicine](../../cards/medicine.md))* — The station has seen more use than ordinary livestock work explains. → Gives: [butcher-is-dangerous](../../clues/clues.md#butcher-is-dangerous)
+### Forest path leads to Hołubie
+- **Noticed by:** [Survival](../../cards/survival.md)
+- **When:** setup:locations/new-village/butchers-house.md
+- **Outcome:** The forest path sees daily use and points straight toward [@name](../old-village-ruins.md).
+- **Gives:** [butcher-dumps-carcasses-in-well](../../clues/clues.md#butcher-dumps-carcasses-in-well)
+
+### House has no alcohol
+- **Noticed by:** [Finesse](../../cards/finesse.md)
+- **When:** access to interior
+- **Outcome:** The house contains no alcohol, not a single bottle.
+- **Gives:** [butcher-doesnt-drink](../../clues/clues.md#butcher-doesnt-drink)
+
+### Dogs fear their owner
+- **Noticed by:** [Violence](../../cards/violence.md)
+- **When:** setup:locations/new-village/butchers-house.md
+- **Outcome:** The dogs fear their owner and show signs of practiced cruelty.
+- **Gives:** [butcher-is-dangerous](../../clues/clues.md#butcher-is-dangerous)
+
+### Station sees more use than livestock explains
+- **Noticed by:** [Medicine](../../cards/medicine.md)
+- **When:** setup:locations/new-village/butchers-house.md
+- **Outcome:** The station has seen more use than ordinary livestock work explains.
+- **Gives:** [butcher-is-dangerous](../../clues/clues.md#butcher-is-dangerous)
 
 ## Actions
 

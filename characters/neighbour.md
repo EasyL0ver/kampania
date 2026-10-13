@@ -29,7 +29,7 @@ Quiet hunter who heard everything in 1954 and did nothing. He carries the guilt 
 - **Hair & face:** Flat cap he rarely removes; pale blue eyes, strong jaw, three-day stubble that never becomes a beard
 - **Carriage:** Lean hunter's build, quiet even indoors; shoulders slightly forward, watches hands and posture more than faces
 
-He speaks in short flat sentences with long pauses. He goes quieter when angry, not louder, and smells of tobacco smoke and pine resin.
+He speaks in short flat sentences with long pauses[](#property-assessment). He goes quieter when angry, not louder[](#census-interview), and smells of tobacco smoke and pine resin.
 
 ## Opinions
 
@@ -96,7 +96,7 @@ He speaks in short flat sentences with long pauses. He goes quieter when angry, 
 
 ### Uplift Neighbour
 - **Requires:** [Empathy](../cards/empathy.md) OR [Speech](../cards/speech.md)
-- **When:** [Humiliated](#humiliated)
+- **When:** [Humiliated](#humiliated) is true
 - **Outcome:** The player puts the steel back in him and gives him his face back.
 - **Changes:** [Humiliated](#humiliated) — clears Humiliated
 

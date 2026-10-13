@@ -2,14 +2,6 @@
 
 **Location:** [@name](../locations/new-village/the-store.md)
 **Present:** [@name](../characters/matrona.md), [@name](../characters/secondary/halina-zajac.md)
-**Available:** The first morning after the cabinet is forced
-
-## Trigger
-
-- Fires the first morning after either:
-  - the players force the store cabinet themselves (the **Physique** break-in), or
-  - the players ask [@first-name](../characters/junior.md) for help, and he forces it the next night.
-- The clean key route does not trigger this: no forced door, no morning-after discovery.
 
 ## Hook
 
@@ -26,6 +18,8 @@ Word through the village the next morning that [@first-name](../characters/matro
 
 ## Opportunities
 
-- *(when: [Robbery suspect](../characters/matrona.md#robbery-suspect) is the committee)* — The penicillin is gone and the till sits untouched, and the only ones who came to her asking for that drug were the committee. She says nothing and holds the players in a long, open stare.
+### Penicillin missing and committee requests
+- **When:** [Robbery suspect](../characters/matrona.md#robbery-suspect) is committee
+- **Outcome:** The penicillin is gone and the till sits untouched, and the only ones who came to her asking for that drug were the committee. She says nothing and holds the players in a long, open stare.
 
 ## Actions

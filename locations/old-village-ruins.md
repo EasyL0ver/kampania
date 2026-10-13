@@ -6,7 +6,7 @@
 
 ## Setup
 
-- Wooden buildings burned in 1947.
+- Wooden buildings burned in 1947.[](#charred-and-collapsed-wooden-buildings)
 - Stone foundations survived.
 - Stone foundations stand 1–2 feet above ground level.
 - Chimneys are partially intact.
@@ -22,12 +22,20 @@
 - If dam floods reach [@name](old-village.md), the well goes underwater.
 - Well hazards: unstable stone, unknown depth, water, unsafe excavation.
 - Day 2+ after the wolf hunt: fresh blood can be visible on the well's stone rim.
-- Set apart from the homestead ruins, a larger timber building still stands: the village cerkiew, its roof sagging and fire-marked but upright.
+- Set apart from the homestead ruins, a larger timber building still stands[](#old-church-standing-among-homesteads): the village cerkiew, its roof sagging and fire-marked but upright.
 
 ## Opportunities
 
-- The wooden buildings stand charred and collapsed; the village burned. → Gives: [old-village-was-burned](../clues/clues.md#old-village-was-burned)
-- Apart from the homesteads, the old church stands: a larger timber building, clearly the village cerkiew. → Gives: hook:locations/old-village-cerkiew.md <!-- Prompted by: setup:locations/old-village-ruins.md -->
+### Charred and collapsed wooden buildings
+- **When:** setup:locations/old-village-ruins.md
+- **Outcome:** The wooden buildings stand charred and collapsed; the village burned.
+- **Gives:** [old-village-was-burned](../clues/clues.md#old-village-was-burned)
+
+### Old church standing among homesteads
+- **When:** setup:locations/old-village-ruins.md
+<!-- Prompted by: setup:locations/old-village-ruins.md -->
+- **Outcome:** Apart from the homesteads, the old church stands: a larger timber building, clearly the village cerkiew.
+- **Gives:** hook:locations/old-village-cerkiew.md
 
 ## Actions
 

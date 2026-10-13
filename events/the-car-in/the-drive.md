@@ -3,7 +3,6 @@
 **Part of:** [@name](the-car-in.md)
 **Location:** [@name](../../locations/officers-car.md)
 **Present:** [@name](../../characters/officer.md), [@name](../../characters/driver.md)
-**Available:** After [@name](the-draft.md).
 
 ## Hook
 
@@ -13,18 +12,32 @@
 
 - The ride is long: rain, switchbacks, silence. [@name](../../characters/driver.md) says it will take a while yet.
 - A bundle of forms lies on the bench beside you. [@name](../../characters/officer.md) tells you to get familiar with them before you arrive.
-- [@name](../../characters/driver.md) keeps patting his coat and glancing at [@name](../../characters/officer.md), as if he has lost something he should not have.
-- Every few bends, glass clinks somewhere in the back.
-- [@name](../../characters/driver.md) smokes one cigarette off the last; a crumpled packet sits on the dashboard.
+- [@name](../../characters/driver.md) keeps patting his coat and glancing at[](#driver-searching-while-concealing-it) [@name](../../characters/officer.md), as if he has lost something he should not have.
+- Every few bends, glass clinks somewhere in the back.[](#clinking-sound-is-a-bottle)
+- [@name](../../characters/driver.md) smokes one cigarette off the last[](#driver-smokes-cheap-sport-cigarettes); a crumpled packet sits on the dashboard.
 - Behind the last bench, something heavy slides and bangs against the rear doors on every bend.
 - A folded road map lies on the dashboard in front of [@name](../../characters/officer.md).
 - Ahead, the road forks; the signpost lies face down in the ditch. [@name](../../characters/driver.md) swings left without slowing.
 
 ## Opportunities
 
-- *(noticed by: [Empathy](../../cards/empathy.md))* — [@first-name](../../characters/driver.md) is hunting for something and hiding the search from [@first-name](../../characters/officer.md). → Gives: [`wrona-hides-search-from-skowron`](../../clues/clues.md#wrona-hides-search-from-skowron)
-- *(noticed by: [Alcoholic](../../cards/alcoholic.md))* — The clink in the back is a full bottle. → Gives: [`full-bottle-clinking-in-back`](../../clues/clues.md#full-bottle-clinking-in-back)
-- *(noticed by: [Chainsmoker](../../cards/chainsmoker.md))* — [@first-name](../../characters/driver.md) smokes Sport, the cheapest there is. The smoke sets your own hands itching, and your pockets are empty: without a cigarette, the shakes are coming. → Gives: [`wrona-smokes-sport`](../../clues/clues.md#wrona-smokes-sport)
+### Driver searching while concealing it
+- **Noticed by:** [Empathy](../../cards/empathy.md)
+- **When:** setup:events/the-car-in/the-drive.md
+- **Outcome:** [@first-name](../../characters/driver.md) is hunting for something and hiding the search from [@first-name](../../characters/officer.md).
+- **Gives:** [`wrona-hides-search-from-skowron`](../../clues/clues.md#wrona-hides-search-from-skowron)
+
+### Clinking sound is a bottle
+- **Noticed by:** [Alcoholic](../../cards/alcoholic.md)
+- **When:** setup:events/the-car-in/the-drive.md
+- **Outcome:** The clink in the back is a full bottle.
+- **Gives:** [`full-bottle-clinking-in-back`](../../clues/clues.md#full-bottle-clinking-in-back)
+
+### Driver smokes cheap Sport cigarettes
+- **Noticed by:** [Chainsmoker](../../cards/chainsmoker.md)
+- **When:** setup:events/the-car-in/the-drive.md
+- **Outcome:** [@first-name](../../characters/driver.md) smokes Sport, the cheapest there is. The smoke sets your own hands itching, and your pockets are empty: without a cigarette, the shakes are coming.
+- **Gives:** [`wrona-smokes-sport`](../../clues/clues.md#wrona-smokes-sport)
 
 ## Actions
 
@@ -97,6 +110,11 @@
 ### Ride on
 - **Outcome:** You settle back and watch the rain for the rest of the ride.
 - **Changes:** [Ride time](#ride-time) — 0 for this player
+
+### Roll into the village
+- **When:** [Ride time](#ride-time) is 0
+- **Outcome:** The van rolls into [@name](../../locations/new-village/new-village.md).
+- **Changes:** [@name](the-drive.md) — ends; [@name](../arrival/arrival.md) — starts
 
 ## Mechanics
 

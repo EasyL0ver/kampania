@@ -3,7 +3,6 @@
 **Part of:** [@name](ciotka-found-dead.md)
 **Location:** [@name](../../locations/new-village/ciotkas-house/ciotkas-house.md)
 **Present:** [@name](../../characters/priest.md)
-**Available:** After [Go in through the back door](ciotka-found-dead.md#go-in-through-the-back-door).
 
 ## Hook
 
@@ -14,14 +13,14 @@
 - The house is quiet.
 - [@name](../../characters/priest.md) is here, come to look in on [@first-name](../../characters/ciotka.md); he helps the committee where he can and flinches only at her body being disturbed.
 - The icons remain on the walls.
-- A hatch to the attic is set in the ceiling, a short ladder folded beside it.
+- A hatch to the attic is set[](#priest-glancing-at-attic-hatch) in the ceiling, a short ladder folded beside it.
 - The candles have burned out and have been out for hours.
 - The house remains obsessively ordered.
-- One corner tells another story: furniture is smashed, a shelf torn down, crockery broken across the floor.
+- One corner tells another story: furniture is smashed[](#smashed-corner-of-the-house), a shelf torn down, crockery broken across the floor.
 - A mirror in the corridor is shattered.
 - Nothing has been ransacked.
 - Nothing has been stolen.
-- [@name](../../characters/glupek.md)'s room is empty.
+- [@name](../../characters/glupek.md)'s room is empty.[](#priest-vouches-for-glupek)
 - [@name](../../characters/glupek.md)'s mattress is cold.
 - There is no sign of forced entry.
 - The wrecked corner reads like a violent struggle.
@@ -30,9 +29,22 @@
 
 ## Opportunities
 
-- One corner of the obsessively ordered house is smashed: toppled furniture, a torn-down shelf, crockery across the floor, a shattered mirror in the corridor. It reads like a violent struggle. → Gives: [`ciotka-house-wrecked`](../../clues/clues.md#ciotka-house-wrecked) <!-- Prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead) -->
-- More than once [@name](../../characters/priest.md) glances at the attic hatch and looks away. Asked, he says only that it was the one part of the house [@first-name](../../characters/ciotka.md) kept locked, not even to him, and lets it go. Nothing in it reads as more than a priest uneasy in a dead parishioner's house. <!-- Prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead) -->
-- Unprompted, [@name](../../characters/priest.md) says he is certain [@name](../../characters/glupek.md) did not do this. The boy helps around his church; he knows him, and the [@first-name](../../characters/glupek.md) he knows could never. → Gives: [`priest-sure-edek-innocent`](../../clues/clues.md#priest-sure-edek-innocent) <!-- Prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead) -->
+### Smashed corner of the house
+- **When:** setup:events/ciotka-found-dead/the-house.md
+<!-- Prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead) -->
+- **Outcome:** One corner of the obsessively ordered house is smashed: toppled furniture, a torn-down shelf, crockery across the floor, a shattered mirror in the corridor. It reads like a violent struggle.
+- **Gives:** [`ciotka-house-wrecked`](../../clues/clues.md#ciotka-house-wrecked)
+
+### Priest glancing at attic hatch
+- **When:** setup:events/ciotka-found-dead/the-house.md
+<!-- Prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead) -->
+- **Outcome:** More than once [@name](../../characters/priest.md) glances at the attic hatch and looks away. Asked, he says only that it was the one part of the house [@first-name](../../characters/ciotka.md) kept locked, not even to him, and lets it go. Nothing in it reads as more than a priest uneasy in a dead parishioner's house.
+
+### Priest vouches for Glupek
+- **When:** setup:events/ciotka-found-dead/the-house.md
+<!-- Prompted by: [ciotka-is-dead](../../clues/clues.md#ciotka-is-dead) -->
+- **Outcome:** Unprompted, [@name](../../characters/priest.md) says he is certain [@name](../../characters/glupek.md) did not do this. The boy helps around his church; he knows him, and the [@first-name](../../characters/glupek.md) he knows could never.
+- **Gives:** [`priest-sure-edek-innocent`](../../clues/clues.md#priest-sure-edek-innocent)
 
 ## Actions
 
@@ -40,6 +52,7 @@
 - **Cost:** 1 composure
 - **Outcome:** The players step into the kitchen. [@name](../../characters/ciotka.md) lies dead on the floor. Only now can they get close enough to examine the body and the table.
 - **Gives:** hook:events/ciotka-found-dead/the-kitchen.md
+- **Changes:** [@name](the-kitchen.md) — starts
 
 ### The priest leaves them the key
 - **When:** The players have noticed the attic hatch (it is in the ceiling) and turned their attention to it, while [@name](../../characters/priest.md) is still present

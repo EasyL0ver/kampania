@@ -48,7 +48,10 @@ He speaks like a man who knows the rules are already on his side. His reasonable
 
 ## Opportunities
 
-- *(when: Property assessment)* *(noticed by: [Bureaucracy](../cards/bureaucracy.md))* — The deed has father's title, proper transfer, and the strip plainly inside the line.
+### Deed confirms clear title and transfer
+- **Noticed by:** [Bureaucracy](../cards/bureaucracy.md)
+- **When:** [Property assessment](#property-assessment)
+- **Outcome:** The deed has father's title, proper transfer, and the strip plainly inside the line.
 
 ## Actions
 
@@ -59,7 +62,7 @@ He speaks like a man who knows the rules are already on his side. His reasonable
 
 ### Property assessment
 - **Cost:** 1 time
-- **Outcome:** He produces his father's deed to the house and disputed strip. He notes that [@name](dispute-sister.md) farms the strip, but the paper is his.
+- **Outcome:** He produces his father's deed to the house[](#deed-confirms-clear-title-and-transfer) and disputed strip. He notes that [@name](dispute-sister.md) farms the strip, but the paper is his.
 - **Changes:** [Property Record](../items/census.md#property-record) — [@first-name](dispute-brother.md) holds the deed to the house and disputed strip; [The dispute](#the-dispute) — TBD
 
 ### Rule the boundary his way

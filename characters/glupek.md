@@ -27,7 +27,7 @@ Physically massive and brain-damaged from being smothered during the 1954 lynch.
 
 - **Clothes:** Always too small — trousers ending above the ankle, sleeves too short; whatever his aunt can find.
 - **Hair & face:** Blond hair cropped unevenly by his aunt's kitchen scissors; soft round boy's face, pale blue eyes.
-- **Carriage:** Huge for seventeen, with man's shoulders and boy's movements; moves slowly and goes still when frightened.
+- **Carriage:** Huge for seventeen, with man's shoulders and boy's movements; moves slowly and goes still when frightened[](#ask-glupek-about-the-butcher).
 
 His voice is surprisingly soft for his size. Kindness reaches him after a pause, then comes back as a careful smile.
 

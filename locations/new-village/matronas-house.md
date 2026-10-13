@@ -6,7 +6,7 @@ The centre of [@name](new-village.md), close to the store.
 
 ## Setup
 
-- **Exterior:** Whitewashed walls, swept path, and flower box. A small garden shed stands in the yard behind the house, its one window often lit.
+- **Exterior:** Whitewashed walls, swept path, and flower box.[](#canvases-without-any-people) A small garden shed stands in the yard behind the house, its one window often lit.
 - **Interior:** Religious icons in every room.
 - **Interior:** Crucifix above the dining table.
 - **Interior:** Embroidered tablecloth.
@@ -22,12 +22,12 @@ The centre of [@name](new-village.md), close to the store.
 - **[@first-name](../../characters/secondary/ewa-rzepka.md):** She brings tea to [@first-name](../../characters/painter.md)'s shed when [@first-name](../../characters/matrona.md) is not watching.
 - **[@first-name](../../characters/secondary/krystian-rzepka.md):** [@name](../../characters/secondary/krystian-rzepka.md) comes and goes for altar-boy duties.
 - **[@first-name](../../characters/secondary/krystian-rzepka.md):** He repeats village observations to [@first-name](../../characters/matrona.md).
-- **Shed:** [@first-name](../../characters/painter.md)'s shed contains landscapes and village scenes of old wooden houses and a stone church.
-- **Shed:** The old village recurs across many of the canvases, its well, its cerkiew, and its ruined houses, painted with more care than the rest.
-- **Shed:** Among the older Fauvist canvases, one shows a streambed on the far ridge across the valley, bright water running down toward the next basin.
-- **Shed:** One of the Informel canvases works over the old cerkiew: its shape still readable under fields of black, encrusted paint.
-- **Shed:** On the easel sits an unfinished canvas he is working on right now: very dark, wholly abstract, the paint still wet and being worked. It is the only piece in the shed that is not finished.
-- **Shed:** Newer paintings show dark circles, black water, and stone rings.
+- **Shed:** [@first-name](../../characters/painter.md)'s shed contains landscapes and village scenes of old wooden houses and a stone church.[](#old-village-painted-from-memory)
+- **Shed:** The old village recurs across many of the canvases[](#recurring-image-of-the-old-village), its well, its cerkiew, and its ruined houses, painted with more care than the rest.
+- **Shed:** Among the older Fauvist canvases[](#fauvist-streambed-canvas-bold-colour), one shows a streambed on the far ridge across the valley[](#hidden-cartographic-precision-beneath-fauvism), bright water running down toward the next basin.[](#real-streambed-landform-beneath-colour)
+- **Shed:** One of the Informel canvases works over the old cerkiew[](#art-informel-cerkiew-canvas): its shape still readable under fields of black, encrusted paint.[](#builders-eye-reads-the-ruin)
+- **Shed:** On the easel sits an unfinished canvas he is working on right now: very dark, wholly abstract, the paint still wet and being worked.[](#unfinished-canvas-still-informel) It is the only piece in the shed that is not finished.
+- **Shed:** Newer paintings show dark circles, black water, and stone rings.[](#newest-works-pull-the-eye-down)
 - **Progression:** As the well strengthens, [@first-name](../../characters/matrona.md) increases public piety, generosity, and church visits.
 - **Night:** Overnight guests see the shed window burning and hear [@first-name](../../characters/painter.md) working out there after midnight.
 - **Night:** Overnight guests hear [@first-name](../../characters/matrona.md) check doors and [@first-name](../../characters/painter.md).
@@ -35,17 +35,71 @@ The centre of [@name](new-village.md), close to the store.
 
 ## Opportunities
 
-- *(when: access to [@first-name](../../characters/painter.md)'s shed)* — Every canvas on the walls is a landscape or a village scene. In a whole shed of paintings, there is not a single person. → Gives: [emil-doesnt-paint-people](../../clues/clues.md#emil-doesnt-paint-people)
-- *(when: access to [@first-name](../../characters/painter.md)'s shed)* *(noticed by: [Culture](../../cards/culture.md))* — The wooden houses and stone church in the older canvases are not the new village. This is the settlement from before the resettlement, a place that no longer stands. He paints it from memory.
-- *(when: access to [@first-name](../../characters/painter.md)'s shed)* *(noticed by: [Empathy](../../cards/empathy.md))* — One place keeps returning across the canvases: the old village, its well, its cerkiew, its ruined houses, painted again and again with a fascination the other scenes never get. → Gives: [painter-fascinated-by-old-village](../../clues/clues.md#painter-fascinated-by-old-village) <!-- Prompted by: setup:locations/new-village/matronas-house.md -->
-- *(when: access to [@first-name](../../characters/painter.md)'s shed)* *(noticed by: [Superstitious](../../cards/superstitious.md))* — The newest paintings are not landscapes. The black water and the ring of stones are rendered like something awake, and the eye is always pulled down into them. → Gives: [you-should-jump-inside](../../clues/clues.md#you-should-jump-inside)
-- *(when: access to [@first-name](../../characters/painter.md)'s shed)* *(noticed by: [Culture](../../cards/culture.md))* — Under the wild Fauvist colour, the streambed canvas hides an odd, almost cartographic precision: the exact course of the water, the col, the crossing, all set down like a record of a real place rather than a mood. A striking thing to find buried in so loose a style. Worth asking [@first-name](../../characters/painter.md) about it.
-- *(when: access to [@first-name](../../characters/painter.md)'s shed)* *(noticed by: [Geology](../../cards/geology.md))* — Stripping the Fauvist colour away in your head, the landform is real and specific: a streambed running off a ridge col toward a lower basin, a place that exists somewhere in this country. Worth asking [@first-name](../../characters/painter.md) where it is.
-- *(when: access to [@first-name](../../characters/painter.md)'s shed)* *(noticed by: [Culture](../../cards/culture.md))* — The streambed canvas is unmistakably Fauvist: the water and the land carried in bold, unnatural, expressive colour, nothing painted as it really looked. Startlingly modern work for a self-taught village man. → Gives: [streambed-painting-is-fauvist](../../clues/clues.md#streambed-painting-is-fauvist) <!-- Prompted by: setup:locations/new-village/matronas-house.md -->
-- *(when: access to [@first-name](../../characters/painter.md)'s shed)* *(noticed by: [Handiwork](../../cards/handiwork.md))* — A builder's eye cuts through the black Informel paint to the structure underneath: the cerkiew in the canvas is failing, timbers sagging, the roofline broken, well into collapse. He painted it as a ruin. → Gives: [painted-building-is-decaying](../../clues/clues.md#painted-building-is-decaying) <!-- Prompted by: setup:locations/new-village/matronas-house.md -->
-- *(when: access to [@first-name](../../characters/painter.md)'s shed)* *(noticed by: [Culture](../../cards/culture.md))* — The cerkiew canvas is Art Informel: the building broken down into abstract fields of black, encrusted, scraped matter, nothing drawn as it looked. Startlingly modern work for a self-taught village man. → Gives: [painted-building-is-informel](../../clues/clues.md#painted-building-is-informel) <!-- Prompted by: setup:locations/new-village/matronas-house.md -->
-- *(when: access to [@first-name](../../characters/painter.md)'s shed)* *(noticed by: [Culture](../../cards/culture.md))* — The unfinished canvas he is working on now is Art Informel too: the same abstract black, encrusted, scraped matter, no subject set down plainly. Whatever it is, he is still deep in it. → Gives: [unfinished-painting-is-informel](../../clues/clues.md#unfinished-painting-is-informel) <!-- Prompted by: setup:locations/new-village/matronas-house.md -->
-- *(when: Day 2+ or well influence active)* *(noticed by: [Empathy](../../cards/empathy.md))* — [@first-name](../../characters/matrona.md) becomes more publicly perfect as pressure rises.
+### Canvases without any people
+- **When:** setup:locations/new-village/matronas-house.md
+- **Outcome:** Every canvas on the walls is a landscape or a village scene. In a whole shed of paintings, there is not a single person.
+- **Gives:** [emil-doesnt-paint-people](../../clues/clues.md#emil-doesnt-paint-people)
+
+### Old village painted from memory
+- **Noticed by:** [Culture](../../cards/culture.md)
+- **When:** setup:locations/new-village/matronas-house.md
+- **Outcome:** The wooden houses and stone church in the older canvases are not the new village. This is the settlement from before the resettlement, a place that no longer stands. He paints it from memory.
+
+### Recurring image of the old village
+- **Noticed by:** [Empathy](../../cards/empathy.md)
+- **When:** setup:locations/new-village/matronas-house.md
+<!-- Prompted by: setup:locations/new-village/matronas-house.md -->
+- **Outcome:** One place keeps returning across the canvases: the old village, its well, its cerkiew, its ruined houses, painted again and again with a fascination the other scenes never get.
+- **Gives:** [painter-fascinated-by-old-village](../../clues/clues.md#painter-fascinated-by-old-village)
+
+### Newest works pull the eye down
+- **Noticed by:** [Superstitious](../../cards/superstitious.md)
+- **When:** setup:locations/new-village/matronas-house.md
+- **Outcome:** The newest paintings are not landscapes. The black water and the ring of stones are rendered like something awake, and the eye is always pulled down into them.
+- **Gives:** [you-should-jump-inside](../../clues/clues.md#you-should-jump-inside)
+
+### Hidden cartographic precision beneath Fauvism
+- **Noticed by:** [Culture](../../cards/culture.md)
+- **When:** setup:locations/new-village/matronas-house.md
+- **Outcome:** Under the wild Fauvist colour, the streambed canvas hides an odd, almost cartographic precision: the exact course of the water, the col, the crossing, all set down like a record of a real place rather than a mood. A striking thing to find buried in so loose a style. Worth asking [@first-name](../../characters/painter.md) about it.
+
+### Real streambed landform beneath colour
+- **Noticed by:** [Geology](../../cards/geology.md)
+- **When:** setup:locations/new-village/matronas-house.md
+- **Outcome:** Stripping the Fauvist colour away in your head, the landform is real and specific: a streambed running off a ridge col toward a lower basin, a place that exists somewhere in this country. Worth asking [@first-name](../../characters/painter.md) where it is.
+
+### Fauvist streambed canvas bold colour
+- **Noticed by:** [Culture](../../cards/culture.md)
+- **When:** setup:locations/new-village/matronas-house.md
+<!-- Prompted by: setup:locations/new-village/matronas-house.md -->
+- **Outcome:** The streambed canvas is unmistakably Fauvist: the water and the land carried in bold, unnatural, expressive colour, nothing painted as it really looked. Startlingly modern work for a self-taught village man.
+- **Gives:** [streambed-painting-is-fauvist](../../clues/clues.md#streambed-painting-is-fauvist)
+
+### Builder's eye reads the ruin
+- **Noticed by:** [Handiwork](../../cards/handiwork.md)
+- **When:** setup:locations/new-village/matronas-house.md
+<!-- Prompted by: setup:locations/new-village/matronas-house.md -->
+- **Outcome:** A builder's eye cuts through the black Informel paint to the structure underneath: the cerkiew in the canvas is failing, timbers sagging, the roofline broken, well into collapse. He painted it as a ruin.
+- **Gives:** [painted-building-is-decaying](../../clues/clues.md#painted-building-is-decaying)
+
+### Art Informel cerkiew canvas
+- **Noticed by:** [Culture](../../cards/culture.md)
+- **When:** setup:locations/new-village/matronas-house.md
+<!-- Prompted by: setup:locations/new-village/matronas-house.md -->
+- **Outcome:** The cerkiew canvas is Art Informel: the building broken down into abstract fields of black, encrusted, scraped matter, nothing drawn as it looked. Startlingly modern work for a self-taught village man.
+- **Gives:** [painted-building-is-informel](../../clues/clues.md#painted-building-is-informel)
+
+### Unfinished canvas still Informel
+- **Noticed by:** [Culture](../../cards/culture.md)
+- **When:** setup:locations/new-village/matronas-house.md
+<!-- Prompted by: setup:locations/new-village/matronas-house.md -->
+- **Outcome:** The unfinished canvas he is working on now is Art Informel too: the same abstract black, encrusted, scraped matter, no subject set down plainly. Whatever it is, he is still deep in it.
+- **Gives:** [unfinished-painting-is-informel](../../clues/clues.md#unfinished-painting-is-informel)
+
+### Matrona grows more publicly perfect
+- **Noticed by:** [Empathy](../../cards/empathy.md)
+- **When:** Day 2+ or well influence active
+- **Outcome:** [@first-name](../../characters/matrona.md) becomes more publicly perfect as pressure rises.
 
 ## Actions
 

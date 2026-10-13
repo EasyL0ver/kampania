@@ -2,14 +2,6 @@
 
 **Location:** [@name](../locations/new-village/wojewodas-house.md)
 **Present:** [@name](../characters/jagna.md), [@name](../characters/wojewoda.md)
-**Available:** Day 3 onward, during [@name](the-flood.md), when players call outside for rescue.
-
-## Trigger
-
-- The village is cut off by floodwater.
-- The players use the phone in [@first-name](../characters/wojewoda.md)'s office.
-- The players ask the exchange to connect them to outside help.
-- The call routes through the same town exchange used by earlier long-distance calls.
 
 ## Hook
 
@@ -17,20 +9,31 @@ A clear voice answering from the telephone exchange while floodwater cuts the vi
 
 ## Setup
 
-- The operator answers clearly despite the storm.
+- The operator answers clearly despite the storm.[](#operator-is-present-and-lucid)
 - The line is working.
 - The operator hears the players' request for rescue.
-- The operator responds with procedure instead of help.
-- The operator never says no.
+- The operator responds with procedure instead of help.[](#answers-route-without-sending-help)
+- The operator never says no.[](#operator-avoids-a-clear-refusal)
 - The operator never hangs up.
 - The operator gives no name, no dispatch, no timeline, and no accountable official.
 - The operator keeps the channel open and useless as long as the players keep talking.
 
 ## Opportunities
 
-- *(noticed by: [Empathy](../cards/empathy.md))* — A person is on the line: the line is not failing; the operator is present, lucid, and choosing how much help to provide.
-- *(noticed by: [Finesse](../cards/finesse.md))* — every answer records or routes the request without sending help.
-- *(noticed by: [Finesse](../cards/finesse.md))* — the operator avoids a clear no because a clear refusal could be challenged.
+### Operator is present and lucid
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** setup:events/operator-refuses-help.md
+- **Outcome:** A person is on the line: the line is not failing; the operator is present, lucid, and choosing how much help to provide.
+
+### Answers route without sending help
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** setup:events/operator-refuses-help.md
+- **Outcome:** every answer records or routes the request without sending help.
+
+### Operator avoids a clear refusal
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** setup:events/operator-refuses-help.md
+- **Outcome:** the operator avoids a clear no because a clear refusal could be challenged.
 
 ## Actions
 

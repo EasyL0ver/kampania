@@ -2,13 +2,6 @@
 
 **Location:** [@name](../locations/old-village-ruins.md)
 **Present:** [@name](../characters/hag.md) (if [Alive](../characters/hag.md#alive) is true), [@name](../characters/babcia.md)
-**Available:** Late game; before [@name](the-flood.md) claims the well, or at the [@name](../locations/old-village-cerkiew.md) after that
-
-## Trigger
-
-- The players bring the Form, the Words, and the Truth to the [@name](../locations/old-village-ruins.md) or the [@name](../locations/old-village-cerkiew.md).
-- The players choose to acknowledge the dead named by the [well's rising influence](../story-facts/well-influence.md).
-- [@name](../characters/hag.md) leads the rite if present.
 
 ## Hook
 
@@ -30,13 +23,31 @@ Gathering ritual materials and arranging them at the well or cerkiew.
 - [@name](../characters/barbara.md) must bring [@name](../characters/babcia.md) if Babcia is physically present.
 - If [@name](../characters/hag.md) is present, she kneels at the rim and supplies the form.
 - If [@name](../characters/hag.md) is dead, the players use her materials and memory.
-- If [@name](../characters/babcia.md) is present, she speaks the panakhyda.
-- At least one living voice must speak the names and the truth.
+- If [@name](../characters/babcia.md) is present, she speaks the panakhyda.[](#babcia-speaks-the-panakhyda-lucidly)
+- At least one living voice must speak the names and the truth.[](#rite-requires-naming-and-acknowledgement)
 - [@name](../characters/priest.md) does not gatekeep the rite; see [spiritual-endings.md](../story-facts/spiritual-endings.md).
 
 ## Opportunities
 
-- *(when: ritual materials visible)* *(noticed by: [Culture](../cards/culture.md))* — The Lemko rite uses fire, incense, offerings, and prayer for unquiet dead. → Gives: [`hag-tends-the-well`](../clues/clues.md#hag-tends-the-well), [`dead-never-mourned`](../clues/clues.md#dead-never-mourned)
-- *(when: [@name](../characters/hag.md) present)* *(noticed by: [Empathy](../cards/empathy.md))* — [@first-name](../characters/hag.md) shares the burden: she lets the players speak the truth she did not know.
-- *(when: [@name](../characters/babcia.md) present)* *(noticed by: [Empathy](../cards/empathy.md) OR [Language](../cards/language.md))* — [@first-name](../characters/babcia.md) is lucid: she speaks the panakhyda completely.
-- *(noticed by: [Culture](../cards/culture.md))* — the rite requires naming and acknowledgement, not proof accepted by an authority. → Gives: [`players-supply-truth`](../clues/clues.md#players-supply-truth)
+### Lemko rite for unquiet dead
+- **Noticed by:** [Culture](../cards/culture.md)
+- **When:** ritual materials visible
+- **Outcome:** The Lemko rite uses fire, incense, offerings, and prayer for unquiet dead.
+- **Gives:** [`hag-tends-the-well`](../clues/clues.md#hag-tends-the-well), [`dead-never-mourned`](../clues/clues.md#dead-never-mourned)
+
+### Hag shares the burden
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** [Alive](../characters/hag.md#alive) is true
+- **Outcome:** [@first-name](../characters/hag.md) shares the burden: she lets the players speak the truth she did not know.
+
+### Babcia speaks the panakhyda lucidly
+- **Noticed by:** [Empathy](../cards/empathy.md) OR [Language](../cards/language.md)
+- **When:** setup:events/the-ritual.md
+- **Outcome:** [@first-name](../characters/babcia.md) is lucid: she speaks the panakhyda completely.
+
+### Rite requires naming and acknowledgement
+- **Noticed by:** [Culture](../cards/culture.md)
+- **When:** setup:events/the-ritual.md
+- **Outcome:** the rite requires naming and acknowledgement, not proof accepted by an authority.
+- **Gives:** [`players-supply-truth`](../clues/clues.md#players-supply-truth)
+

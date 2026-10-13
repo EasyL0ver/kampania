@@ -8,12 +8,12 @@ The house beside [@first-name](../../characters/barbara.md)'s, across from Ciotk
 
 - **House:** Bachelor's house, neat but bare.
 - **House:** No visible family possessions.
-- **Interior:** Hunting rifle on a rack by the door.
+- **Interior:** Hunting rifle on a rack by the door.[](#neighbour-owns-a-hunting-rifle)
 - **Interior:** Table with one bottle and one chair.
 - **Interior:** Bed visible behind a partition.
 - **Window to [@first-name](../../characters/barbara.md):** A window faces [@name](barbaras-house.md) and has no curtain.
 - **Window to Ciotka:** A window faces [@name](ciotkas-house/ciotkas-house.md), the former [@name](../../characters/soldier.md) plot.
-- **Window to Ciotka:** The window has heavy yellowed curtains that stay drawn.
+- **Window to Ciotka:** The window has heavy yellowed curtains that stay drawn.[](#ciotkas-window-always-covered)
 - **[@first-name](../../characters/neighbour.md):** If home, [@name](../../characters/neighbour.md) is tense with visitors.
 - **[@first-name](../../characters/neighbour.md):** He resents state officials because of the coming flood.
 - **Night:** His light may be on at 3am.
@@ -22,10 +22,27 @@ The house beside [@first-name](../../characters/barbara.md)'s, across from Ciotk
 
 ## Opportunities
 
-- *(noticed by: [Finesse](../../cards/finesse.md))* — The window toward Ciotka's house is always covered, while the window toward [@first-name](../../characters/barbara.md)'s house is open. → Gives: [neighbour-avoids-ciotkas-window](../../clues/clues.md#neighbour-avoids-ciotkas-window)
-- *(noticed by: [Violence](../../cards/violence.md))* — [@first-name](../../characters/neighbour.md) has a licensed hunting rifle and knows how to shoot. → Gives: [neighbour-has-rifle](../../clues/clues.md#neighbour-has-rifle)
-- *(when: visiting late, staying nearby, or watching at night)* — [@first-name](../../characters/neighbour.md) keeps his light on and paces at 3am. → Gives: [neighbour-has-insomnia](../../clues/clues.md#neighbour-has-insomnia)
-- *(when: told [@first-name](../../characters/barbara.md) information, later spoke to [@first-name](../../characters/neighbour.md))* — [@first-name](../../characters/neighbour.md) knows things the players only told [@first-name](../../characters/barbara.md). → Gives: [barbara-is-a-sieve](../../clues/clues.md#barbara-is-a-sieve)
+### Ciotka's window always covered
+- **Noticed by:** [Finesse](../../cards/finesse.md)
+- **When:** setup:locations/new-village/neighbours-house.md
+- **Outcome:** The window toward Ciotka's house is always covered, while the window toward [@first-name](../../characters/barbara.md)'s house is open.
+- **Gives:** [neighbour-avoids-ciotkas-window](../../clues/clues.md#neighbour-avoids-ciotkas-window)
+
+### Neighbour owns a hunting rifle
+- **Noticed by:** [Violence](../../cards/violence.md)
+- **When:** setup:locations/new-village/neighbours-house.md
+- **Outcome:** [@first-name](../../characters/neighbour.md) has a licensed hunting rifle and knows how to shoot.
+- **Gives:** [neighbour-has-rifle](../../clues/clues.md#neighbour-has-rifle)
+
+### Neighbour paces at 3am
+- **When:** visiting late, staying nearby, or watching at night
+- **Outcome:** [@first-name](../../characters/neighbour.md) keeps his light on and paces at 3am.
+- **Gives:** [neighbour-has-insomnia](../../clues/clues.md#neighbour-has-insomnia)
+
+### Neighbour knows secrets shared privately
+- **When:** told [@first-name](../../characters/barbara.md) information, later spoke to [@first-name](../../characters/neighbour.md)
+- **Outcome:** [@first-name](../../characters/neighbour.md) knows things the players only told [@first-name](../../characters/barbara.md).
+- **Gives:** [barbara-is-a-sieve](../../clues/clues.md#barbara-is-a-sieve)
 
 ## Actions
 

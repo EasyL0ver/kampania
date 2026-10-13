@@ -2,13 +2,6 @@
 
 **Location:** [@name](../locations/new-village/butchers-house.md)
 **Present:** [@name](../characters/wujas.md), [@name](../characters/butcher.md)
-**Available:** Days 1–2, recurring until wolf authorization on Day 2 afternoon
-
-## Trigger
-
-- [@name](../characters/wojewoda.md) maintains contact with [@surname](../characters/butcher.md) through [@nickname](../characters/wujas.md).
-- [@nickname](../characters/wujas.md) brings cigarettes or butchering work to [@surname](../characters/butcher.md).
-- The arrangement has run for 13 years.
 
 ## Hook
 
@@ -19,7 +12,7 @@
 
 - [@nickname](../characters/wujas.md) walks to the edge house.
 - He brings cigarettes or a butchering job.
-- He stays at the threshold for less than half an hour.
+- He stays at the threshold for less than half an hour.[](#wujass-regular-edge-house-visits)
 - He does not go inside.
 - [@surname](../characters/butcher.md) takes what [@nickname](../characters/wujas.md) brings.
 - The exchange is functional, not friendly.
@@ -29,11 +22,30 @@
 
 ## Opportunities
 
-- *(noticed by: [Finesse](../cards/finesse.md))* — [@nickname](../characters/wujas.md) visits the edge house regularly.
-- *(when: Follow [@nickname](../characters/wujas.md) to the edge house)* *(noticed by: [Empathy](../cards/empathy.md))* — the handoff is an errand, not a social visit.
-- *(when: Ask [@name](../characters/wujas.md))* *(noticed by: [Empathy](../cards/empathy.md))* — [@nickname](../characters/wujas.md) deflects: he cannot explain the visits without shutting down.
-- *(when: Ask [@name](../characters/wojewoda.md))* *(noticed by: [Empathy](../cards/empathy.md))* — [@first-name](../characters/wojewoda.md) pauses: he knows exactly what [@nickname](../characters/wujas.md) is doing.
-- *(when: Ask [@name](../characters/butcher.md))* *(noticed by: [Empathy](../cards/empathy.md))* — [@surname](../characters/butcher.md) answers plainly: the visits matter only as deliveries to him.
+### Wujas's regular edge house visits
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** setup:events/wujas-visits-butcher.md
+- **Outcome:** [@nickname](../characters/wujas.md) visits the edge house regularly.
+
+### Handoff as errand, not social
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** Follow [@nickname](../characters/wujas.md) to the edge house
+- **Outcome:** the handoff is an errand, not a social visit.
+
+### Wujas deflects and shuts down
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** Ask [@name](../characters/wujas.md)
+- **Outcome:** [@nickname](../characters/wujas.md) deflects: he cannot explain the visits without shutting down.
+
+### Wojewoda pauses, knowing Wujas's game
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** Ask [@name](../characters/wojewoda.md)
+- **Outcome:** [@first-name](../characters/wojewoda.md) pauses: he knows exactly what [@nickname](../characters/wujas.md) is doing.
+
+### Butcher's plain answer on deliveries
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** Ask [@name](../characters/butcher.md)
+- **Outcome:** [@surname](../characters/butcher.md) answers plainly: the visits matter only as deliveries to him.
 
 ## Actions
 

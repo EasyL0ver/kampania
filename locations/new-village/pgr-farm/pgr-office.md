@@ -11,14 +11,24 @@
 - Tea is usually on the table.
 - [@name](../../../characters/wojewoda.md) works here and receives visitors here.
 - The phone is the only phone in the village.
-- The maps show topography, rivers, old boundaries, and [@name](../../old-village.md).
+- The maps show topography, rivers, old boundaries, and[](#map-shows-ridge-channel-and-misplaced-bridge)[](#maps-mark-the-village-of-hołubie) [@name](../../old-village.md).
 - The ledger is on the desk during census work.
 - The shelf holds farm records, including construction and land-drainage (melioracja) files.
 
 ## Opportunities
 
-- *(noticed by: [Geology](../../../cards/geology.md))* — The topographic maps mark [@name](../../old-village.md). → Gives: [old-village-was-lemko](../../../clues/clues.md#old-village-was-lemko)
-- *(noticed by: [Bureaucracy](../../../cards/bureaucracy.md))* — The map draws the ridge water-gap as an open channel and draws a bridge spanning dry ground with the river running elsewhere. → Gives: [map-shows-gap-open](../../../clues/clues.md#map-shows-gap-open), [bridge-over-solid-land](../../../clues/clues.md#bridge-over-solid-land) <!-- Prompted by: [committee-runs-geographical-survey](../../../clues/clues.md#committee-runs-geographical-survey) -->
+### Maps mark the village of Hołubie
+- **Noticed by:** [Geology](../../../cards/geology.md)
+- **When:** setup:locations/new-village/pgr-farm/pgr-office.md
+- **Outcome:** The topographic maps mark [@name](../../old-village.md).
+- **Gives:** [old-village-was-lemko](../../../clues/clues.md#old-village-was-lemko)
+
+### Map shows ridge channel and misplaced bridge
+- **Noticed by:** [Bureaucracy](../../../cards/bureaucracy.md)
+- **When:** setup:locations/new-village/pgr-farm/pgr-office.md
+<!-- Prompted by: [committee-runs-geographical-survey](../../../clues/clues.md#committee-runs-geographical-survey) -->
+- **Outcome:** The map draws the ridge water-gap as an open channel and draws a bridge spanning dry ground with the river running elsewhere.
+- **Gives:** [map-shows-gap-open](../../../clues/clues.md#map-shows-gap-open), [bridge-over-solid-land](../../../clues/clues.md#bridge-over-solid-land)
 
 ## Actions
 
@@ -36,7 +46,7 @@
 - **Gives:** [original-report-is-thin](../../../clues/clues.md#original-report-is-thin)
 
 ### Date the map against the ground
-- **When:** The topographic map
+- **Requires:** [Topographic Maps](../../../items/topographic-maps.md)
 <!-- Prompted by: [landslide-in-the-gap](../../../clues/clues.md#landslide-in-the-gap), [gap-is-blocked](../../../clues/clues.md#gap-is-blocked), [river-doesnt-match-map](../../../clues/clues.md#river-doesnt-match-map) -->
 - **Cost:** 1 time
 - **Outcome:** The map's survey date predates the landslide and the river's shift. It cannot be trusted on the gap or the river's course.

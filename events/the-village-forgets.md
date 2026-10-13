@@ -1,7 +1,6 @@
 # The Village Forgets
 
 **Location:** [@name](../locations/new-village/new-village.md)
-**Available:** End of game, when neither [Rest](../characters/hag.md#rest) nor [Grace](../characters/priest.md#grace) happened.
 
 ## Hook
 

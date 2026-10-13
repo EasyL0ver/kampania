@@ -17,14 +17,24 @@ The State Agricultural Farm: fields, barns, livestock pens, tool shed.
 - [@name](../../../characters/barbara.md) works apart from the men.
 - A battered wooden desk in the tool shed holds supply orders, receipts, delivery slips, the [@name](../../../items/pgr-ledger.md), and the [@name](../../../items/pgr-expenses.md).
 - The farm has 7 real workers present or accounted for.
-- The ledger lists 8 workers.
-- Bloodstains, patched fences, and nervous animals are visible from Day 1.
+- The ledger lists 8 workers.[](#unknown-name-in-ledger)
+- Bloodstains, patched fences, and nervous animals are visible from Day 1.[](#repeated-wolf-attacks-on-pens)[](#report-wolf-damage)
 - Day 1–2: fresh wolf damage may bring [@name](../../../characters/wojewoda.md) to the farm.
 
 ## Opportunities
 
-- *(noticed by: [Bureaucracy](../../../cards/bureaucracy.md))* — One ledger name does not match any worker present or recognized on the farm. → Gives: [mazur-paid-but-absent](../../../clues/clues.md#mazur-paid-but-absent)
-- *(noticed by: [Handiwork](../../../cards/handiwork.md))* — The livestock pens show repeated wolf attacks over several weeks. → Gives: [wolves-attacking-livestock](../../../clues/clues.md#wolves-attacking-livestock) <!-- Prompted by: setup:locations/new-village/pgr-farm/pgr-farm.md -->
+### Unknown name in ledger
+- **Noticed by:** [Bureaucracy](../../../cards/bureaucracy.md)
+- **When:** setup:locations/new-village/pgr-farm/pgr-farm.md
+- **Outcome:** One ledger name does not match any worker present or recognized on the farm.
+- **Gives:** [mazur-paid-but-absent](../../../clues/clues.md#mazur-paid-but-absent)
+
+### Repeated wolf attacks on pens
+- **Noticed by:** [Handiwork](../../../cards/handiwork.md)
+- **When:** setup:locations/new-village/pgr-farm/pgr-farm.md
+<!-- Prompted by: setup:locations/new-village/pgr-farm/pgr-farm.md -->
+- **Outcome:** The livestock pens show repeated wolf attacks over several weeks.
+- **Gives:** [wolves-attacking-livestock](../../../clues/clues.md#wolves-attacking-livestock)
 
 ## Actions
 

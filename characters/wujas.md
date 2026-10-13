@@ -74,10 +74,26 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 
 ## Opportunities
 
-- *(when: [@nickname](wujas.md) present and drinking at the [@name](../locations/bimber-still.md) or the [@name](../locations/new-village/the-store.md))* *(noticed by: [Chainsmoker](../cards/chainsmoker.md))* — With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen. → Gives: [`tadek-smokes-cheapest`](../clues/clues.md#tadek-smokes-cheapest) <!-- Prompted by: setup:characters/wujas.md -->
-- *(when: Census interview)* *(noticed by: [Empathy](../cards/empathy.md))* — he is not nervous about the census; he is nervous about being asked anything at all. → Gives: [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
-- *(when: Census interview, [@nickname](wujas.md) is drunk)* — Asked about the census while drunk, he turns the answers into absurd village theatre.
-- *(when: Property assessment, [@nickname](wujas.md) is drunk)* — Drunk, he performs a property boast: he claims a fake grand estate made of the still, his brother's house, and moonlight.
+### Cheap cigarettes give him away
+- **Noticed by:** [Chainsmoker](../cards/chainsmoker.md)
+- **When:** [@nickname](wujas.md) present and drinking at the [@name](../locations/bimber-still.md) or the [@name](../locations/new-village/the-store.md)
+<!-- Prompted by: setup:characters/wujas.md -->
+- **Outcome:** With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen.
+- **Gives:** [`tadek-smokes-cheapest`](../clues/clues.md#tadek-smokes-cheapest)
+
+### Nervous about being questioned
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** [Census interview](#census-interview)
+- **Outcome:** he is not nervous about the census; he is nervous about being asked anything at all.
+- **Gives:** [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
+
+### Drunk census answers become theatre
+- **When:** Census interview, [@nickname](wujas.md) is drunk
+- **Outcome:** Asked about the census while drunk, he turns the answers into absurd village theatre.
+
+### Drunk boast about a fake estate
+- **When:** Property assessment, [@nickname](wujas.md) is drunk
+- **Outcome:** Drunk, he performs a property boast: he claims a fake grand estate made of the still, his brother's house, and moonlight.
 
 ## Actions
 
@@ -89,13 +105,13 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 - **Changes:** [Drinking Buddy](#drinking-buddy) — the drinking PCs become [@nickname](wujas.md)'s drinking buddies
 
 ### Get shitfaced with Wujas
-- **When:** [drinking buddy](#drinking-buddy)
+- **When:** [Drinking Buddy](#drinking-buddy) is true
 - **Cost:** 2 time + 1 composure
 - **Outcome:** The committee drinks [@nickname](wujas.md) past the point of guard. He gets loud, then maudlin, and grief for a woman he won't name slips out before he can catch it.
 - **Gives:** [`wujas-misses-someone`](../clues/clues.md#wujas-misses-someone)
 
 ### Ask about the butcher
-- **When:** [drinking buddy](#drinking-buddy)
+- **When:** [Drinking Buddy](#drinking-buddy) is true
 <!-- Prompted by: hook:characters/butcher.md -->
 - **Outcome:** Loose with drink, [@nickname](wujas.md) remembers [@name](butcher.md) sitting in on the crew's sessions years back, bottle in hand like any of them. Then one day he just stopped, and never came back to the fire.
 - **Gives:** [`butcher-used-to-drink-with-the-crew`](../clues/clues.md#butcher-used-to-drink-with-the-crew)
@@ -107,7 +123,7 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 
 ### Census interview
 - **Cost:** 1 time
-- **Outcome:** He gives his name and age, reaches for the bottle, and tries to end the questions quickly.
+- **Outcome:** He gives his name and age, reaches for the bottle, and tries to end the questions quickly.[](#nervous-about-being-questioned)
 - **Changes:** [Census](../items/census.md#census) — [@nickname](wujas.md) [@surname](wujas.md), no fixed household
 
 ### Property assessment

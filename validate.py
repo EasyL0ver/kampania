@@ -15,6 +15,7 @@ Usage:
 
 from __future__ import annotations
 
+import os
 import re
 import sys
 from dataclasses import dataclass, field
@@ -148,7 +149,7 @@ def rule(rule_id: str, *kinds: str, severity: str = "error"):
 ALLOWED_SECTIONS = {
     "characters": ["Hook", "Vital Statistics", "Character", "Setup", "Opinions",
                    "Mechanics", "Opportunities", "Actions", "Bond", "Grudge"],
-    "events": ["Trigger", "Hook", "Setup", "Opportunities", "Actions", "Mechanics",
+    "events": ["Hook", "Setup", "Opportunities", "Actions", "Mechanics",
                "Resolve"],
     "locations": ["Hook", "Setup", "Opportunities", "Actions", "Mechanics"],
     "items": ["Hook", "Setup", "Content", "Mechanics", "Opportunities", "Actions"],
@@ -183,17 +184,38 @@ ACTION_FIELDS = ["Outcome"]   # plus Gives and/or Changes; Requires and Cost are
 ACTION_FIELD = re.compile(r"^\s*-\s*\*\*([^*:]+):\*\*")
 
 
+_when_refs: set[tuple[Path, str]] | None = None
+
+
+def when_referenced() -> set[tuple[Path, str]]:
+    """(file, action anchor) of every action some move's When names: what it opens is its effect."""
+    global _when_refs
+    if _when_refs is None:
+        _when_refs = set()
+        for p in all_files():
+            g = parse(p)
+            for _, t in g.lines_with_numbers():
+                m = WHEN_ACTION_FIELD.match(t)
+                for term in (m.group(1).split(" and ") if m else []):
+                    tm = WHEN_TERM_LINK.match(term.strip())
+                    if tm and not tm.group("value"):
+                        dest = (p.parent / unquote(tm.group("path"))).resolve() if tm.group("path") else p.resolve()
+                        _when_refs.add((dest, tm.group("anchor")))
+    return _when_refs
+
+
 @rule("action-fields", "characters", "events", "locations", "items")
 def action_fields(f: MdFile):
-    """Every ### action under ## Actions has Outcome, and Gives or Changes (or both)."""
+    """Every ### action under ## Actions has Outcome, and an effect: Gives, Changes, or another move whose
+    When names it (opening that move is what the action does)."""
     s = f.section("Actions")
     if s is None:
         return
     for a in s.children:
         present = {m.group(1).strip() for _, t in a.body if (m := ACTION_FIELD.match(t))}
         missing = [x for x in ACTION_FIELDS if x not in present]
-        if not present & {"Gives", "Changes"}:
-            missing.append("Gives or Changes")
+        if not present & {"Gives", "Changes"} and (f.path.resolve(), slug(a.title)) not in when_referenced():
+            missing.append("Gives or Changes (or a move whose When names it)")
         if missing:
             yield a.line, f"action '{a.title}' is missing: {', '.join(missing)}"
 
@@ -305,6 +327,177 @@ def setup_no_bullets(f: MdFile):
         yield line, "bullet in ## Setup: write it as prose" + (
             " (a character's Setup allows only labelled bullets, e.g. - **Clothes:** …)" if f.kind == "characters" else "")
         break
+
+
+WHEN_ACTION_FIELD = re.compile(r"^\s*-\s*\*\*When:\*\*\s*(.*?)\s*$")
+WHEN_OPP_TAG = re.compile(r"^- \*\(when: (.*?)\)\*")
+WHEN_TERM_LINK = re.compile(r"^\[[^\]]+\]\((?P<path>[^)#\s]*)#(?P<anchor>[\w-]+)\)"
+                            r"(?: (?P<op>is|<=|>=|<|>) (?P<value>[A-Za-z0-9+-]+))?$")
+
+
+def action_anchors(path: Path) -> set[str]:
+    a = parse(path).section("Actions")
+    return {slug(c.title) for c in (a.children if a else [])}
+
+
+@rule("when-format", "characters", "events", "locations", "items")
+def when_format(f: MdFile):
+    """Every When is strict: terms joined by ' and ', each an action link [Action](file.md#anchor)
+    (the move opens as that action is taken), a mechanic condition [Mechanic](file.md#anchor) is value
+    (ints and enums also take <, <=, >, >=; an enum compares by the order its values are declared in), or
+    setup:<own file> (it holds as the scene opens: what the Setup shows). Nothing else: no prose."""
+    for line, t in f.lines_with_numbers():
+        m = WHEN_ACTION_FIELD.match(t) or WHEN_OPP_TAG.match(t.strip())
+        if not m:
+            continue
+        value = m.group(1)
+        def kind(target: str) -> str | None:
+            path, _, anchor = unquote(target).partition("#")
+            dest = (f.path.parent / path).resolve() if path else f.path
+            if not anchor or not dest.is_file():
+                return None
+            if anchor in action_anchors(dest):
+                return "action"
+            if mechanic_kind(dest, anchor):
+                return "mechanic"
+            return None
+        for term in value.split(" and "):
+            term = term.strip()
+            st = PROMPTED_SETUP.match(term)
+            if st:                                    # setup:<own file> — fires as the scene opens
+                if st.group(1) != f.rel:
+                    yield line, f"When '{term}': setup: names the move's own file ({f.rel})"
+                continue
+            tm = WHEN_TERM_LINK.match(term)
+            k = kind(f"{tm.group('path')}#{tm.group('anchor')}") if tm else None
+            if not tm or k is None:
+                yield line, f"When term '{term[:60]}' is not an action link, '[Mechanic](file.md#anchor) is value' or setup:<own file>"
+            elif k == "action" and tm.group("value"):
+                yield line, f"When term '{term[:60]}': an action link takes no comparison"
+            elif k == "mechanic":
+                mk = mechanic_kind((f.path.parent / unquote(tm.group("path"))).resolve() if tm.group("path") else f.path,
+                                   tm.group("anchor"))
+                v = tm.group("value")
+                if not v:
+                    yield line, f"When term '{term[:60]}': a mechanic needs 'is value' (or <, <=, >, >= for int / enum)"
+                elif mk[0] in ("bool", "enum") and v not in mk[1]:
+                    yield line, f"When value '{v}' is not one of: {', '.join(mk[1])}"
+                elif mk[0] == "int" and not re.fullmatch(r"-?\d+", v):
+                    yield line, f"When value '{v}' is not an int"
+                elif mk[0] in ("rule", "list"):
+                    yield line, f"When term '{term[:60]}': a {mk[0]} mechanic has no value to test"
+                elif mk[0] == "bool" and tm.group("op") != "is":
+                    yield line, f"When term '{term[:60]}': a bool takes only 'is'"
+
+
+
+
+SELF_PRESENCE = re.compile(r"\b(present|home|here|absent|at the table|in the room)\b", re.I)
+
+
+@rule("self-presence", "characters", severity="warning")
+def self_presence(f: MdFile):
+    """A character's own moves are only open while they are there, so a When in their own file that
+    checks they are present (a link to this very file plus 'present', 'home', 'absent', …) says nothing."""
+    me = f.path.resolve()
+    for line, t in f.lines_with_numbers():
+        m = WHEN_ACTION_FIELD.match(t)
+        if not m:
+            continue
+        value = m.group(1)
+        # where this character is named: a link to this very file, or its alias written out
+        ends = [lm.end() for lm in re.finditer(r"\[[^\]]*\]\(([^)#\s]+\.md)\)", value)
+                if (f.path.parent / unquote(lm.group(1))).resolve() == me]
+        ends += [am.end() for am in re.finditer(rf"\b{re.escape(f.path.stem)}\b", value, re.I)]
+        # … followed within a few words by a presence word
+        if any(SELF_PRESENCE.match(w) or SELF_PRESENCE.search(" ".join(value[e:].split()[:3])) for e in ends
+               for w in [value[e:].strip(" ,;:")]):
+            yield line, "When checks this character's own presence: their moves are only open while they are there, so drop that part"
+
+
+_starts: set[Path] | None = None
+
+
+def started_events() -> set[Path]:
+    """Every event some action's Changes starts: [Event](file.md) — starts."""
+    global _starts
+    if _starts is None:
+        _starts = set()
+        for p in all_files():
+            for _, t in parse(p).lines_with_numbers():
+                m = CHANGES_FIELD.match(t)
+                for part in (m.group(1).split("; ") if m else []):
+                    ev = CHANGE_EVENT.match(part.strip())
+                    if ev and ev.group("what") == "starts":
+                        _starts.add((p.parent / unquote(ev.group("path"))).resolve())
+    return _starts
+
+
+@rule("event-started", "events")
+def event_started(f: MdFile):
+    """Every event begins because some action's Changes starts it: `[Event](file.md) — starts`.
+    (Events have no Available or Trigger: an action starts them, and ends them with `— ends`.)"""
+    if f.path.resolve() not in started_events():
+        yield f.title_line or 1, "no action starts this event: add `[Event](…) — starts` to the Changes of the action that begins it"
+
+
+MARKER = re.compile(r"\[\]\(([^)\s]*)#([\w-]+)\)")   # invisible link: [](#anchor) or [](file.md#anchor)
+
+
+def _markers(text: str, src: Path) -> set[tuple[Path, str]]:
+    """(file, anchor) of every invisible link in a text, resolved from src."""
+    return {(((src.parent / unquote(path)).resolve() if path else src.resolve()), a) for path, a in MARKER.findall(text)}
+
+
+def _outcome(path: Path, anchor: str) -> str:
+    """The Outcome line(s) of the action at path#anchor ('' if there is none)."""
+    a = parse(path).section("Actions")
+    for c in (a.children if a else []):
+        if slug(c.title) == anchor:
+            return " ".join(t for _, t in c.body if t.strip().startswith("- **Outcome:**"))
+    return ""
+
+
+@rule("moves-marked", "characters", "events", "locations", "items")
+def moves_marked(f: MdFile):
+    """Moves are tied to the exact moment that cues them, by an invisible link to the move:
+    - an action Prompted by setup:<own file> -> [](#action-anchor) in this file's ## Setup;
+    - an opportunity whose When has setup:<own file> -> [](#its-anchor) in ## Setup; whose When names an
+      action -> [](file.md#its-anchor) in that action's Outcome.
+    Every invisible link in ## Setup points at a move of this file."""
+    me = f.path.resolve()
+    setup = f.section("Setup")
+    setup_text = " ".join(t for _, t in (setup.body if setup else []))
+    in_setup = _markers(setup_text, f.path)
+    acts = f.section("Actions")
+    act_ids = set()
+    for a in (acts.children if acts else []):
+        act_ids.add(slug(a.title))
+        if any(PROMPTED_COMMENT.fullmatch(t.strip()) and "setup:" in t for _, t in a.body) and (me, slug(a.title)) not in in_setup:
+            yield a.line, f"action '{a.title}' is Prompted by setup: but ## Setup has no [](#{slug(a.title)}) at the spot that cues it"
+    opps = f.section("Opportunities")
+    opp_ids = set()
+    for o in (opps.children if opps else []):
+        oid = slug(o.title)
+        opp_ids.add(oid)
+        when = next((m.group(1) for _, t in o.body if (m := WHEN_ACTION_FIELD.match(t))), "")
+        for term in when.split(" and "):
+            term = term.strip()
+            st = PROMPTED_SETUP.match(term)
+            if st and st.group(1) == f.rel and (me, oid) not in in_setup:
+                yield o.line, f"opportunity '{o.title}' fires on setup: but ## Setup has no [](#{oid}) at the spot it is noticed"
+            tm = WHEN_TERM_LINK.match(term)
+            if tm and not tm.group("value"):
+                target = (f.path.parent / unquote(tm.group("path"))).resolve() if tm.group("path") else me
+                if target.is_file() and tm.group("anchor") in action_anchors(target):
+                    if (me, oid) not in _markers(_outcome(target, tm.group("anchor")), target):
+                        rel = os.path.relpath(me, target.parent).replace(os.sep, "/") if target != me else ""
+                        yield o.line, (f"opportunity '{o.title}' fires on '{term[:50]}' but that action's Outcome has no "
+                                       f"[]({rel}#{oid}) at the moment it is noticed")
+    for line, t in (setup.body if setup else []):
+        for dest, anchor in _markers(t, f.path):
+            if dest == me and anchor not in act_ids and anchor not in opp_ids:
+                yield line, f"[](#{anchor}) in ## Setup does not point at a move in this file"
 
 
 REQUIRES_FIELD = re.compile(r"^\s*-\s*\*\*Requires:\*\*\s*(.*?)\s*$")
@@ -438,7 +631,8 @@ OPP_LINE = re.compile(
     r"(?:\*\(noticed by: (?P<noticed>.+?)\)\* )?"
     r"(?(when)— |(?(noticed)— |))(?P<text>[^`]*?)"
     r"(?: → Gives: (?P<gives>.+?))?"
-    r"(?: <!-- Prompted by: (?P<prompted>.+?) -->)?$")
+    r"(?: <!-- Prompted by: (?P<prompted>.+?) -->)?"
+    r"(?: <!-- id: (?P<id>[a-z0-9-]+) -->)?$")
 OPP_TEXT = re.compile(r"^\s*-\s*(?:\*\((?:when|noticed by):.*?\)\*\s*)*(?:—\s*)?(.*?)\s*(?:→\s*Gives:.*?)?\s*(?:<!--.*-->)?$")
 
 
@@ -471,7 +665,7 @@ def prose_length(f: MdFile):
                 yield r
 
 
-NOTICED_TAG = re.compile(r"\*\(noticed by:\s*(.*?)\)\*")
+NOTICED_TAG = re.compile(r"\*\(noticed by:\s*(.*?)\)\*|^\s*-\s*\*\*Noticed by:\*\*\s*(.*?)\s*$")
 OLD_REQ_TAG = re.compile(r"[`*]\(requires:")
 
 
@@ -483,7 +677,7 @@ def noticed_by_format(f: MdFile):
         if OLD_REQ_TAG.search(t):
             yield line, "opportunity uses `(requires: ...)`: split it into `(noticed by: ...)` and `(when: ...)`"
     for line, t in f.lines_with_numbers():
-        for value in NOTICED_TAG.findall(t):
+        for value in (a or b for a, b in NOTICED_TAG.findall(t)):
             tokens, rest = _tokenize_requires(value)
             if tokens is None:
                 yield line, f"noticed by '{value[:80]}': cannot read '{rest[:60]}' (only card/item/clue links, AND, OR, parentheses)"
@@ -502,6 +696,7 @@ GIVES_TARGETS = ("everyone present", "every player")   # no tag: the acting (or 
 
 CHANGES_FIELD = re.compile(r"^\s*-\s*\*\*Changes:\*\*\s*(.*?)\s*$")
 CHANGE_ENTRY = re.compile(r"^\[[^\]]+\]\((?P<path>[^)#\s]*)#(?P<anchor>[^)\s]+)\)(?: — (?P<comment>\S.*))?$")
+CHANGE_EVENT = re.compile(r"^\[[^\]]+\]\((?P<path>[^)#\s]+\.md)\) — (?P<what>starts|ends)$")
 CHANGE_COMMENT_LIMIT = 80
 _mech_anchors: dict[Path, set[str]] = {}
 
@@ -533,9 +728,16 @@ def changes_format(f: MdFile):
             yield line, "empty Changes"
             continue
         for part in value.split("; "):
+            ev = CHANGE_EVENT.match(part.strip())
+            if ev:                                     # [Event](events/…md) — starts | ends
+                dest = (f.path.parent / unquote(ev.group("path"))).resolve()
+                if not dest.is_file() or dest.relative_to(REPO_ROOT).parts[0] != "events":
+                    yield line, f"Changes entry '{part[:70]}': only an event can start or end"
+                continue
             e = CHANGE_ENTRY.match(part.strip())
             if not e:
-                yield line, f"Changes entry '{part[:70]}' is not `[name](file.md#mechanics-anchor) — comment` or `[name](file.md#bond-check)`"
+                yield line, (f"Changes entry '{part[:70]}' is not `[name](file.md#mechanics-anchor) — comment`, "
+                             f"`[name](file.md#bond-check)` or `[Event](event.md) — starts | ends`")
                 continue
             target = (f.path.parent / unquote(e.group("path"))).resolve() if e.group("path") else f.path
             anchor = e.group("anchor").lower()
@@ -691,7 +893,7 @@ def present_format(f: MdFile):
 # Header fields each kind carries between the title and the first ##: (template order, optional ones).
 HEADER_FIELDS = {
     "characters": ([], []),              # no header: the folder says what it is, the Hook its role
-    "events": (["Part of", "Location", "Present", "Available"], ["Part of", "Present"]),
+    "events": (["Part of", "Location", "Present"], ["Part of", "Present"]),
     "locations": ([], []),               # no header: who is there comes from the characters' schedules
     "items": ([], []),
     "cards": (["Pool", "Type", "Composure"], []),
@@ -742,34 +944,49 @@ def file_structure(f: MdFile):
         yield f.sections[0].line, f"sections out of template order: {', '.join(present)} (template: {', '.join(allowed)})"
 
 
+OPP_FIELDS = ["Noticed by", "When", "Outcome", "Gives"]      # template order; Prompted by is a hidden comment
+OPP_REQUIRED = {"When", "Outcome"}
+FIELD_LABEL = re.compile(r"^\s*-\s*\*\*([^*:]+):\*\*")
+
+
 @rule("opportunity-format", "characters", "events", "locations", "items")
 def opportunity_format(f: MdFile):
-    """Each opportunity is one line: - *(when: …)* *(noticed by: …)* — text → Gives: … <!-- Prompted by: … -->.
-    No title; every part optional except the text; parts in that order."""
+    """Each opportunity is a ### heading (its anchor), like an action, with fields in this order:
+    - **Noticed by:** (optional), - **When:** (required), <!-- Prompted by: … --> (optional),
+    - **Outcome:** (required: what is noticed), - **Gives:** (optional). Nothing else: no Cost, Requires, Changes."""
     s = f.section("Opportunities")
-    for line, t in (s.body if s else []):
-        if not t.startswith("- "):
-            if t.strip() and not t.startswith("  "):
-                yield line, "Opportunities hold only one-line opportunities (- ...)"
-            continue
-        if t.startswith("- **"):
-            yield line, "opportunity has a title: start with *(when: …)*, *(noticed by: …)* or the text"
-            continue
-        if "`(when:" in t or "`(noticed by:" in t:
-            yield line, "gates are italic, not code (links don't render in code): *(when: …)* *(noticed by: …)*"
-            continue
-        m = OPP_LINE.match(t)
-        if not m or not m.group("text").strip():
-            yield line, "opportunity must read: - *(when: …)* *(noticed by: …)* — text → Gives: … <!-- Prompted by: … -->"
+    if s is None:
+        return
+    for line, t in s.body:
+        if t.strip() and not t.strip().startswith("<!--"):
+            yield line, "text directly under ## Opportunities: each opportunity is a ### heading with fields"
+            break
+    for o in s.children:
+        labels = []
+        for line, t in o.body:
+            m = FIELD_LABEL.match(t)
+            if m:
+                label = m.group(1).strip()
+                if label not in OPP_FIELDS:
+                    yield line, f"opportunity '{o.title}' has a {label} field (allowed: {', '.join(OPP_FIELDS)})"
+                labels.append(label)
+            elif t.strip() and not PROMPTED_COMMENT.fullmatch(t.strip()) and not t.strip().startswith("<!--"):
+                yield line, f"opportunity '{o.title}': only fields here, no free text"
+        for req in sorted(OPP_REQUIRED - set(labels)):
+            yield o.line, f"opportunity '{o.title}' has no {req}" + (": every opportunity says when it fires" if req == "When" else "")
+        order = [OPP_FIELDS.index(l) for l in labels if l in OPP_FIELDS]
+        if order != sorted(order):
+            yield o.line, f"opportunity '{o.title}': fields out of order (Noticed by, When, Outcome, Gives)"
 
 
 @rule("opportunity-no-changes", "characters", "events", "locations", "items")
 def opportunity_no_changes(f: MdFile):
     """Opportunities are noticed, never done: they may Give but never carry `→ Changes:`."""
     s = f.section("Opportunities")
-    for line, t in (s.body if s else []):
-        if "→ Changes:" in t:
-            yield line, "an opportunity can't change anything; make it an action, or move the change to the event's Mechanics"
+    for o in (s.children if s else []):
+        for line, t in o.body:
+            if "→ Changes:" in t or re.match(r"^\s*-\s*\*\*Changes:\*\*", t):
+                yield line, "an opportunity can't change anything; make it an action, or move the change to the event's Mechanics"
 
 
 @rule("gives-format", "characters", "events", "locations", "items")

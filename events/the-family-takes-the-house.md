@@ -2,13 +2,6 @@
 
 **Location:** [@name](../locations/new-village/ciotkas-house/ciotkas-house.md)
 **Present:** [@name](../characters/priest.md), [@name](../characters/wojewoda.md), [@name](../characters/matrona.md), [@name](../characters/neighbour.md)
-**Available:** Shortly after [@name](ciotka-found-dead/ciotka-found-dead.md), when the priest returns with the family; Day 3 or later.
-
-## Trigger
-
-- The committee is still at [@name](../locations/new-village/ciotkas-house/ciotkas-house.md) when [@name](../characters/priest.md) returns with [@name](../characters/wojewoda.md).
-- Fires whether or not the attic was opened.
-- Committee already gone: see If Missed.
 
 ## Hook
 
@@ -21,18 +14,28 @@
 
 - The priest steps back and says little from here.
 - [@name](../characters/wojewoda.md) takes charge of the house as family and sołtys.
-- [@name](../characters/matrona.md) composes the body and starts arranging the church and funeral.
-- [@name](../characters/neighbour.md) stands at the fence, not crossing into the yard.
+- [@name](../characters/matrona.md) composes the body and starts arranging the church and funeral[](#matrona-leads-the-way).
+- [@name](../characters/neighbour.md) stands at the fence, not crossing into the yard[](#neighbour-holds-back-at-fence).
 - The wrecked corner, burned-out candles, and open back door are as the committee found them.
 - If the attic was opened, [@name](../characters/wojewoda.md) sees it, calls the contents his sister's stored junk, and closes it.
-- [@name](../characters/matrona.md) presses [@name](../characters/wojewoda.md): old, frail, her heart gave out, God's will; find the boy and bring him home.
+- [@name](../characters/matrona.md) presses [@name](../characters/wojewoda.md): old, frail, her heart gave out, God's will[](#hidden-overdose-and-suspicious-burial); find the boy and bring him home.
 - [@name](../characters/neighbour.md) does not believe it but holds his tongue, as he did in 1954.
 
 ## Opportunities
 
-- *(noticed by: [Empathy](../cards/empathy.md))* — [@first-name](../characters/matrona.md) leads, [@first-name](../characters/wojewoda.md) follows her.
-- [@surname](../characters/neighbour.md) stays at the fence: he is holding back anger and will not enter the yard with the family in it.
-- *(noticed by: [ciotka-overdosed](../clues/clues.md#ciotka-overdosed) OR [ciotka-hurt-before-death](../clues/clues.md#ciotka-hurt-before-death))* — They are burying an overdose: [@first-name](../characters/matrona.md)'s weak heart and [@surname](../characters/neighbour.md)'s foul play are both wrong; only the committee knows what killed her.
+### Matrona leads the way
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** setup:events/the-family-takes-the-house.md
+- **Outcome:** [@first-name](../characters/matrona.md) leads, [@first-name](../characters/wojewoda.md) follows her.
+
+### Neighbour holds back at fence
+- **When:** setup:events/the-family-takes-the-house.md
+- **Outcome:** [@surname](../characters/neighbour.md) stays at the fence: he is holding back anger and will not enter the yard with the family in it.
+
+### Hidden overdose and suspicious burial
+- **Noticed by:** [ciotka-overdosed](../clues/clues.md#ciotka-overdosed) OR [ciotka-hurt-before-death](../clues/clues.md#ciotka-hurt-before-death)
+- **When:** setup:events/the-family-takes-the-house.md
+- **Outcome:** They are burying an overdose: [@first-name](../characters/matrona.md)'s weak heart and [@surname](../characters/neighbour.md)'s foul play are both wrong; only the committee knows what killed her.
 
 ## Actions
 

@@ -2,7 +2,6 @@
 
 **Location:** [@name](../locations/new-village/wojewodas-house.md)
 **Present:** [@name](../characters/wojewoda.md), [@name](../characters/wife.md), [@name](../characters/zofia.md), [@name](../characters/matrona.md), [@name](../characters/painter.md), [@name](../characters/junior.md), [@name](../characters/wujas.md)
-**Available:** Evening of Day 1, if the [Dinner invitation](arrival/in-the-office.md#dinner-invitation) is still extended.
 
 ## Hook
 
@@ -13,7 +12,7 @@
 
 - [@name](../characters/zofia.md) has laid out a proper meal.
 - [@name](../characters/wojewoda.md) hosts the committee at his table.
-- [@name](../characters/wife.md) is polite and attentive.
+- [@name](../characters/wife.md) is polite and attentive.[](#wife-watches-the-committee-closely)
 - [@name](../characters/junior.md) arrives late.
 - [@name](../characters/junior.md) does not apologise.
 - [@name](../characters/junior.md) sits, eats, and barely engages.
@@ -24,8 +23,8 @@
 - [@name](../characters/wojewoda.md) tenses.
 - [@name](../characters/wife.md) goes quiet.
 - [@name](../characters/zofia.md) sets another plate without being asked.
-- [@name](../characters/matrona.md) asks aloud why [@name](../characters/ciotka.md) is not at the table.
-- Someone says [@first-name](../characters/ciotka.md) begged off; the answer is brushed past quickly.
+- [@name](../characters/matrona.md) asks aloud why [@name](../characters/ciotka.md) is not at the table.[](#ciotka-devout-yet-distant)
+- Someone says [@first-name](../characters/ciotka.md) begged off; the answer is brushed past quickly.[](#ciotkas-absence-reveals-distance)
 - Attending dinner makes the Gajda household treat the committee as guests rather than only officials.
 - If players engage well, [@name](../characters/wojewoda.md) offers lodging at his house.
 - If players engage well, [@name](../characters/matrona.md) picks the most inquisitive players to stay at hers.
@@ -33,15 +32,32 @@
 
 ## Opportunities
 
-- *(noticed by: [Finesse](../cards/finesse.md))* — [@name](../characters/wife.md) tracks the committee more closely than the conversation requires. → Gives: [`irena-is-watchful`](../clues/clues.md#irena-is-watchful)
-- *(noticed by: [Empathy](../cards/empathy.md))* — [@name](../characters/matrona.md)'s question about the absent [@name](../characters/ciotka.md) reveals it: [@first-name](../characters/ciotka.md) begged off, as she always does — the distance is hers. → Gives: [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
-- *(noticed by: [Devotion](../cards/devotion.md))* — Someone at the table notes that [@first-name](../characters/ciotka.md) keeps her distance from the family but never from the church: she is the most devout in the village and has not missed a Sunday in years. → Gives: [`ciotka-is-devout`](../clues/clues.md#ciotka-is-devout)
-- *(when: drank with [@name](../characters/wujas.md) during dinner)* *(noticed by: [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md))* — loosened and glad of the company, [@nickname](../characters/wujas.md) tells them to come drink with him at the [@name](../locations/new-village/the-store.md) any day.
+### Wife watches the committee closely
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** setup:events/dinner.md
+- **Outcome:** [@name](../characters/wife.md) tracks the committee more closely than the conversation requires.
+- **Gives:** [`irena-is-watchful`](../clues/clues.md#irena-is-watchful)
+
+### Ciotka's absence reveals distance
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** setup:events/dinner.md
+- **Outcome:** [@name](../characters/matrona.md)'s question about the absent [@name](../characters/ciotka.md) reveals it: [@first-name](../characters/ciotka.md) begged off, as she always does — the distance is hers.
+- **Gives:** [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
+
+### Ciotka devout yet distant
+- **Noticed by:** [Devotion](../cards/devotion.md)
+- **When:** setup:events/dinner.md
+- **Outcome:** Someone at the table notes that [@first-name](../characters/ciotka.md) keeps her distance from the family but never from the church: she is the most devout in the village and has not missed a Sunday in years.
+- **Gives:** [`ciotka-is-devout`](../clues/clues.md#ciotka-is-devout)
+
+### Wujas invites them to drink
+- **Noticed by:** [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md)
+- **When:** drank with [@name](../characters/wujas.md) during dinner
+- **Outcome:** loosened and glad of the company, [@nickname](../characters/wujas.md) tells them to come drink with him at the [@name](../locations/new-village/the-store.md) any day.
 
 ## Actions
 
 ### Drink with Wujas
 - **Requires:** [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md)
-- **When:** [@name](../characters/wujas.md) at the table
 - **Outcome:** You match [@nickname](../characters/wujas.md) glass for glass through the meal without judging him; by the end he is loosened and glad of the company.
 - **Changes:** [Drinking Buddy](../characters/wujas.md#drinking-buddy) — the drinking PCs become [@nickname](../characters/wujas.md)'s buddies, invited to the store

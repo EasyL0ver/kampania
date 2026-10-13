@@ -10,11 +10,15 @@ The plebania beside the church in [@name](../new-village.md).
 - The plebania has a stone foundation older than [@name](../new-village.md), a kitchen, a book-lined study, a spare room with a cot, and a cellar.
 - The study is small and cold, with one lamp and the parish ledger.
 - The cellar has stone walls, old liturgical supplies, jars, dust, and a door with a newer padlock.
-- A thread of stale tobacco hangs in the study, though no ashtray is in sight.
+- A thread of stale tobacco hangs in the study[](#priest-smokes-and-hides-it), though no ashtray is in sight.
 
 ## Opportunities
 
-- *(noticed by: [Chainsmoker](../../../cards/chainsmoker.md))* — the stale smell and a smoker's stain on his fingers give him away. The priest smokes, and hides it. The brand does not show from this alone. → Gives: [priest-smokes](../../../clues/clues.md#priest-smokes)
+### Priest smokes and hides it
+- **Noticed by:** [Chainsmoker](../../../cards/chainsmoker.md)
+- **When:** setup:locations/new-village/the-church/the-rectory.md
+- **Outcome:** the stale smell and a smoker's stain on his fingers give him away. The priest smokes, and hides it. The brand does not show from this alone.
+- **Gives:** [priest-smokes](../../../clues/clues.md#priest-smokes)
 
 ## Actions
 

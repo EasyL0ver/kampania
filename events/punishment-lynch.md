@@ -2,14 +2,6 @@
 
 **Location:** [@name](../locations/new-village/pgr-farm/pgr-office.md), then [@name](../locations/old-village-ruins.md)
 **Present:** [@name](../characters/neighbour.md), [@name](../characters/wojewoda.md), [@name](../characters/barbara.md) (if [Side](../characters/barbara.md#side) is dudka), [@name](../characters/butcher.md)
-**Available:** Night of Day 6; fires once.
-
-## Trigger
-
-- The flood, the well, dreams, and any fresh body taken to the water push [@name](../characters/neighbour.md) into action.
-- [@surname](../characters/neighbour.md) gathers angry drunk men.
-- The mob goes first to the [@name](../locations/new-village/pgr-farm/pgr-office.md) for [@name](../characters/wojewoda.md)'s word.
-- Someone goes into the well tonight unless the players redirect the outcome.
 
 ## Hook
 
@@ -27,25 +19,44 @@
 
 - The mob starts at the [@name](../locations/new-village/pgr-farm/pgr-office.md).
 - The mob wants the sołtys to bless, lead, or stop the killing.
-- If [@first-name](../characters/wojewoda.md) is braced, the office is dark and locked; he stays inside.
+- If [@first-name](../characters/wojewoda.md) is braced, the office is dark and locked[](#office-light-reveals-confrontation-outcome); he stays inside.
 - If [@first-name](../characters/wojewoda.md) is breaking, he comes onto the steps and tries to command the crowd.
 - If [@first-name](../characters/wojewoda.md) is breaking, his authority fails.
-- If [@surname](../characters/neighbour.md) is [Humiliated](../characters/neighbour.md#humiliated) or has already acted at [@name](well-confrontation.md), the crowd can turn on [@first-name](../characters/wojewoda.md).
+- If [@surname](../characters/neighbour.md) is [Humiliated](../characters/neighbour.md#humiliated) or has already acted at[](#neighbour-acts-from-guilt) [@name](well-confrontation.md), the crowd can turn on [@first-name](../characters/wojewoda.md).
 - Otherwise, the crowd shoulders past [@first-name](../characters/wojewoda.md) and moves toward the well.
-- The crowd moves down the road toward [@name](../locations/old-village.md).
-- [@surname](../characters/neighbour.md) is at the front with the rifle.
-- The chosen target is dragged, pushed, or guarded by the mob.
+- The crowd moves down the road toward[](#scene-repeats-the-1954-pattern) [@name](../locations/old-village.md).
+- [@surname](../characters/neighbour.md) is at the front with the rifle.[](#few-men-drive-the-mob)
+- The chosen target is dragged, pushed, or guarded by the mob.[](#target-guilt-is-irrelevant)
 - If [@first-name](../characters/barbara.md) was [@name](barbara-warns-the-players.md), she is absent.
 - If no player ever bonded with [@first-name](../characters/barbara.md), she stands at [@surname](../characters/neighbour.md)'s shoulder.
 - [@first-name](../characters/barbara.md)'s presence makes the mob harder to turn.
 
 ## Opportunities
 
-- *(noticed by: [Finesse](../cards/finesse.md))* — the dark locked office or the man on the steps shows whether [@name](irena-confronts-wojewoda.md) reached [@first-name](../characters/wojewoda.md).
-- *(noticed by: [Finesse](../cards/finesse.md))* — Within the mob, only a handful of men are driving the lynch; most are drunk followers. [@surname](../characters/neighbour.md) is the main driver unless [Barbara](#setup) is present.
-- *(noticed by: [Violence](../cards/violence.md))* — the target may be guilty, innocent, or one of the players. The mob treats the distinction as irrelevant.
-- *(noticed by: [Empathy](../cards/empathy.md))* — [@surname](../characters/neighbour.md)'s face shows he is acting from guilt over his own inaction, not certainty.
-- *(noticed by: [History](../cards/history.md) OR [Culture](../cards/culture.md))* — the same drink, dark road, and well repeat the 1954 pattern.
+### Office light reveals confrontation outcome
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** setup:events/punishment-lynch.md
+- **Outcome:** the dark locked office or the man on the steps shows whether [@name](irena-confronts-wojewoda.md) reached [@first-name](../characters/wojewoda.md).
+
+### Few men drive the mob
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** setup:events/punishment-lynch.md
+- **Outcome:** Within the mob, only a handful of men are driving the lynch; most are drunk followers. [@surname](../characters/neighbour.md) is the main driver unless [Barbara](#setup) is present.
+
+### Target guilt is irrelevant
+- **Noticed by:** [Violence](../cards/violence.md)
+- **When:** setup:events/punishment-lynch.md
+- **Outcome:** the target may be guilty, innocent, or one of the players. The mob treats the distinction as irrelevant.
+
+### Neighbour acts from guilt
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** setup:events/punishment-lynch.md
+- **Outcome:** [@surname](../characters/neighbour.md)'s face shows he is acting from guilt over his own inaction, not certainty.
+
+### Scene repeats the 1954 pattern
+- **Noticed by:** [History](../cards/history.md) OR [Culture](../cards/culture.md)
+- **When:** setup:events/punishment-lynch.md
+- **Outcome:** the same drink, dark road, and well repeat the 1954 pattern.
 
 ## Resolve
 

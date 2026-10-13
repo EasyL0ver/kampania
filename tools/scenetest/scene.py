@@ -176,21 +176,29 @@ def _actions(f: V.MdFile) -> list[Move]:
 
 
 def _opportunities(f: V.MdFile) -> list[Move]:
+    """Each ### under ## Opportunities: Noticed by (the gate), When, Outcome (what is noticed), Gives."""
     s = f.section("Opportunities")
     out = []
-    for line, t in (s.body if s else []):
-        m = V.OPP_LINE.match(t)
-        if not m or not t.startswith("- "):
-            continue
-        text = plain(m.group("text"), f.path)
-        out.append(Move(
-            id=f"{f.rel}:opp{line}", kind="opportunity", name=" ".join(text.split()[:6]) + "…",
-            src=f.path, text=text,
-            requires=m.group("noticed") or "",
-            when=plain(m.group("when") or "", f.path),
-            gives=refs(m.group("gives") or "", f.path),
-            prompted=refs(m.group("prompted") or "", f.path),
-        ))
+    for o in (s.children if s else []):
+        mv = Move(id=f"{f.rel}#{V.slug(o.title)}", kind="opportunity", name=plain(o.title, f.path), src=f.path)
+        for _, t in o.body:
+            pc = V.PROMPTED_COMMENT.search(t)
+            if pc:
+                mv.prompted = refs(pc.group(1), f.path)
+                continue
+            m = FIELD.match(t)
+            if not m:
+                continue
+            label, value = m.group(1).strip(), m.group(2)
+            if label == "Noticed by":
+                mv.requires = value
+            elif label == "When":
+                mv.when = plain(value, f.path)
+            elif label == "Outcome":
+                mv.text = plain(value, f.path)
+            elif label == "Gives":
+                mv.gives = refs(value, f.path)
+        out.append(mv)
     return out
 
 

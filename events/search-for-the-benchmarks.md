@@ -1,11 +1,6 @@
 # Search for the Benchmarks
 
 **Location:** [@name](../locations/far-ridge-streambed.md)
-**Available:** Holding [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
-
-## Trigger
-
-- The party goes looking for the dam crews' benchmark markers rather than running a survey of their own.
 
 ## Hook
 

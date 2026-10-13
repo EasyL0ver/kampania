@@ -7,8 +7,8 @@
 Scene files are **technical documents**, not stories. They record who / when / what / what-changes. The GM supplies mood and language at the table; the file supplies facts.
 
 1. **Zero prose. Pure facts.** Every line is a statement that is true, not a statement that sets a tone. No atmosphere paragraphs, no lyrical build, no "puts the hair up". Write the fact; the GM performs it.
-2. **Setup is prose; Trigger and Hook are bullets.** Setup is a short paragraph of facts, no bullets (a character's Setup may open with its labelled lines, e.g. `- **Clothes:** …`). Trigger and Hook are fact lists — one thing per line.
-3. **Headers are technical.** Location = one link (events) or terse position (locations). Present = character links, each with at most one mechanic condition, `(if <mechanic link> is value)` — no free-text conditions, no states, no narration, no absent people, no crowds. Present is who is in view (their moves are open); how players see them is the `[@setup]` refs in Setup and Outcomes. Available = shortest trigger, e.g. "Night, Day 4 onward. Fires once."
+2. **Setup is prose; Hook is bullets.** Setup is a short paragraph of facts, no bullets (a character's Setup may open with its labelled lines, e.g. `- **Clothes:** …`). Hook is a fact list — one thing per line.
+3. **Headers are technical.** Location = one link (events) or terse position (locations). Present = character links, each with at most one mechanic condition, `(if <mechanic link> is value)` — no free-text conditions, no states, no narration, no absent people, no crowds. Present is who is in view (their moves are open); how players see them is the `[@setup]` refs in Setup and Outcomes. Events have no Available or Trigger: an action's `Changes: [Event](file.md) — starts` begins them.
 4. **Dialogue only when technically critical.** Write exact words **only** when the words themselves are the mechanical content — a scripture excerpt that *is* the sermon, a password, an exact phrase a clue turns on. Flavor quotes are cut; keep the fact behind them.
 5. **State and behavior go in Setup, not headers.** Who's missing, who's rattled, who arrives later — Setup lines, not Present.
 
@@ -46,34 +46,41 @@ This means Opportunities are the **payoff for the visit** — the minimum a play
 
 Opportunities are **what the GM reveals to a player who clears a gate** — something a plain visitor doesn't get. The player doesn't ask; the GM delivers it based on what the player has (skills, completed actions, held clues, world state).
 
-**Opportunities are ALWAYS gated.** Every opportunity carries a `*(noticed by: …)*` tag, a `*(when: …)*` tag, or both. There is no such thing as an ungated opportunity — a thing everyone perceives on arrival is a **Setup** fact, not an opportunity. If it isn't gated, it doesn't belong in this section.
+**Opportunities are ALWAYS gated.** Every opportunity carries a **When** (required) and, if only some players see it, a **Noticed by**. There is no such thing as an ungated opportunity — a thing everyone perceives on arrival is a **Setup** fact, not an opportunity. If it isn't gated, it doesn't belong in this section.
 
 ### Format
 
 ```
-- *(when: [world state])* *(noticed by: [Card](../cards/file.md) AND [clue-id](../clues/clues.md#clue-id))* — [What the gated player notices]. → Gives: [`clue-id`](../clues/clues.md#clue-id) <!-- Prompted by: … -->
+### [Short title: what is noticed]
+- **Noticed by:** [Card](../cards/file.md) AND [clue-id](../clues/clues.md#clue-id)
+- **When:** setup:<own file>  |  [Action](file.md#anchor)  |  [Mechanic](file.md#anchor) is value
+<!-- Prompted by: … -->
+- **Outcome:** [What the gated player notices.]
+- **Gives:** [`clue-id`](../clues/clues.md#clue-id)
 ```
 
-One line, no title, built to be scanned. The parts always come in this order: `*(when: …)*`, `*(noticed by: …)*`, ` — ` and the text, `→ Gives: …`, then the hidden `<!-- Prompted by: … -->`. Every part but the text is optional (the ` — ` only follows a gate). The text must stand on its own: it names what is observed. `Prompted by` is a comment, so it never renders; same meaning and format as an action's (Actions rule 9). Checked by `python validate.py` (rule `opportunity-format`).
+Formatted like an action: a `###` title (its anchor, so markers can point at it) and fields in this order — `Noticed by` (optional), `When` (required), the hidden `<!-- Prompted by: … -->` (optional), `Outcome` (required: what is noticed; it must stand on its own), `Gives` (optional). No `Requires`, `Cost` or `Changes`: an opportunity is free and fires on its own. Its cue is marked with an invisible link at the exact moment it is noticed (validator error, rule `moves-marked`): a `setup:` When → `[](#its-anchor)` in the file's Setup; an action When → `[](file.md#its-anchor)` in that action's Outcome. A mechanic When needs no marker. Checked by `python validate.py` (rule `opportunity-format`).
 
 ### The gate
 
 An opportunity's gate has two halves. Both are **silent**: the GM never hints at a missing one, because the player never asked for anything.
 
-- **`*(noticed by: …)*` — who perceives it.** A boolean expression over what the player holds: skill cards (`cards/`), items (`items/`) and **clues**, as links, combined with `AND`, `OR` (uppercase) and parentheses. Unlike an action's `Requires:`, a clue belongs here: knowing something changes what you notice. Checked by `python validate.py` (rule `noticed-by-format`).
-- **`*(when: …)*` — whether it is there at all.** World state: who is present, an action already done, NPC/world state, an NPC knowing a clue (`npc:` followed by the clue link). Same meaning as an action's `When:`. Format not standardised yet.
+- **`Noticed by` — who perceives it.** A boolean expression over what the player holds: skill cards (`cards/`), items (`items/`) and **clues**, as links, combined with `AND`, `OR` (uppercase) and parentheses. Unlike an action's `Requires:`, a clue belongs here: knowing something changes what you notice. Checked by `python validate.py` (rule `noticed-by-format`).
+- **`When` — whether it is there at all.** Same strict grammar as an action's `When:` (rule `when-format`).
 
 ```
-- *(noticed by: [Devotion](../cards/devotion.md) AND [ciotka-is-devout](../clues/clues.md#ciotka-is-devout))* — [@first-name](../characters/ciotka.md)'s pew is the only empty one. …
-- *(when: talked to [@name](../characters/wojewoda.md))* *(noticed by: [Empathy](../cards/empathy.md))* — [@first-name](../characters/wojewoda.md) sweats, eyes flicking to the door. → Gives: [`wojewoda-rattled`](../clues/clues.md#wojewoda-rattled)
+### The only empty pew
+- **Noticed by:** [Devotion](../cards/devotion.md) AND [ciotka-is-devout](../clues/clues.md#ciotka-is-devout)
+- **When:** setup:events/holy-mass.md
+- **Outcome:** [@first-name](../characters/ciotka.md)'s pew is the only empty one. …
 ```
 
-Meet **every** condition → you get it. Miss one → the opportunity isn't there for you at all. Opportunities never use `*(requires: …)*` — that word belongs to actions.
+Meet **every** condition → you get it. Miss one → the opportunity isn't there for you at all. Opportunities never use `Requires` — that word belongs to actions.
 
 ### Rules
 
 1. **Free means free.** An Opportunity never costs time. If it requires effort (digging, following, breaking in), it's an Action.
-2. **Always gated. Ungated → Setup.** Every opportunity has a `*(noticed by: …)*` and/or `*(when: …)*`. A fact everyone gets on the visit belongs in the Setup, not an opportunity. Never write an ungated opportunity.
+2. **Always gated. Ungated → Setup.** Every opportunity has a `When` (required: when it fires), and a `Noticed by` if only some players see it. A fact everyone gets on the visit belongs in the Setup, not an opportunity. Never write an ungated opportunity.
 3. **The gate is hard, not a layer.** A player who misses any condition gets **nothing**, not a lesser version. There is no "base everyone gets" for an opportunity — the base *is* Setup. A layered reveal is the Setup fact (everyone) plus a gated opportunity (the skill), never a tiered opportunity line.
 4. **Setup must state the observable.** If an opportunity's gate is a skill reading a detail, that detail must already appear in Setup. Players can't notice what the GM never described.
 5. **Binary output.** An Opportunity either gives a clue or gives nothing (atmosphere). There is no third state.
@@ -91,7 +98,7 @@ Actions are **what players do when they declare intent.** Every action produces 
 ```
 ### Action Name
 - **Requires:** [Cards the player holds — skill card or item links, combined with AND / OR / ( ); omit the line when nothing is required]
-- **When:** [World state that must hold for the action to exist — NPC present, state reached, scene done. GM-only, never hinted. Omit when always available. Format not standardised yet.]
+- **When:** [World state that must hold for the move to exist. GM-only, never hinted. Omit when always available. Strict, always (validator error, rule `when-format`): terms joined by " and ", each an action link `[Action](file.md#anchor)` — the move opens as that action is taken — `[Mechanic](file.md#anchor) is value` (ints and enums also take `<`, `<=`, `>`, `>=`; an enum compares by the order its values are declared in, e.g. `[Climber position](#climber-position) >= killzone`), or `setup:<own file>` — it holds as the scene opens (what the Setup shows), e.g. `- **When:** setup:locations/new-village/the-church/the-church.md`. No prose.]
 <!-- Prompted by: [Clue links, setup:<own file> and/or hook:<kind>/<file>.md tokens, separated by ", ". Hidden from the page. Soft breadcrumb, not a gate. Omit only if nothing points the way (validator warns).] -->
 - **Cost:** [N time + N composure + [Item](../items/file.md) — any combination; omit the line entirely when free]
 - **Outcome:** [What happens — one flat result for anyone who clears Requires. No skill branches.]
@@ -102,7 +109,11 @@ Actions are **what players do when they declare intent.** Every action produces 
 A skill that would reveal more is **not** an Outcome branch — it is a separate **opportunity** gated by that action plus the skill:
 
 ```
-- *(when: [Action Name] done)* *(noticed by: [Skill])* — [what the skilled player also notices]. → Gives: [`clue-id`](link)
+### [What the skilled player also notices]
+- **Noticed by:** [Skill]
+- **When:** [Action Name](#action-anchor)
+- **Outcome:** [what the skilled player also notices]
+- **Gives:** [`clue-id`](link)
 ```
 
 ### When does an action cost time?
@@ -121,7 +132,8 @@ An action costs time when it eats a meaningful chunk of the character's day — 
 
 ### Rules
 
-1. **Every action has a `Gives:` line, a `Changes:` line, or both.**
+1. **Every action has an effect:** a `Gives:` line, a `Changes:` line, or both — or another move whose `When` names it (opening that move is what the action does). Checked by `python validate.py` (rule `action-fields`).
+2a. **Changes can start or end an event:** `[Event](events/file.md) — starts` or `— ends` (no anchor, exactly those words), e.g. a phase's begin action: `- **Changes:** [@name](day-2-night.md) — ends; [@name](day-3-morning.md) — starts`. Checked by `python validate.py` (rule `changes-format`).
 2. **Gives is what the player now holds** — a `, `-separated list of clue links, `hook:<kind>/<file>.md` tokens (knowing a location, character, item or event exists: its Hook), `located:locations/<file>.md` tokens (knowing the way to a place; see [Awareness and whereabouts](story-facts/game-system.md#awareness-and-whereabouts)), item links and card links. Nothing else. A new scene or place becomes reachable by giving its `hook:` token. Checked by `python validate.py` (rule `gives-format`).
    - **Who receives it:** the acting player (for an opportunity, the one who noticed). An optional tag first changes that: `*(to: everyone present)*` (every player in the scene) or `*(to: every player)*` (the whole committee, wherever they are). E.g. `- **Gives:** *(to: every player)* [Lodging at the PGR Quarters](cards/lodging-at-pgr-quarters.md)`.
    **Changes is what the action changes in the world** — NPC state, world state, an NPC learning a clue (`NPC Learns:` then the npc and the clue link), census and property records, event progress, ending progress. Each entry is a link plus ` — short comment`, the link pointing at a heading in a `## Mechanics` section; or a bare link to a bond check's anchor in `## Bond`, with no comment, meaning that check is met; entries are `;`-separated. It is the other side of `When:` (one action's Changes is what another action's When checks).
@@ -141,7 +153,7 @@ An action costs time when it eats a meaningful chunk of the character's day — 
 
 7. **A skill gates an action or opens an opportunity — never enriches it.**
    - In a `Requires:` set → **hard gate.** No skill means you can't take the action (or don't get the gated clue) at all.
-   - Reveals more than the flat Outcome → that extra is a separate **opportunity**, `*(when: <this action> done)*` `*(noticed by: <skill>)*`. Not a branch inside Outcome.
+   - Reveals more than the flat Outcome → that extra is a separate **opportunity**, with `When: [this action](#anchor)` and `Noticed by: <skill>`. Not a branch inside Outcome.
    An Action's Outcome is flat — one result for everyone who clears `Requires:`. Skills never sit as enrich-branches in an Outcome.
 8. **Cost is strict.** It is one or more of these parts, joined by ` + `, and nothing else:
    - `N time` — time cards spent (e.g. `1 time`, `2 time`)
@@ -156,7 +168,7 @@ An action costs time when it eats a meaningful chunk of the character's day — 
    ```
 
    **A free action has no Cost line at all** — never write `Free`, `None` or `0`. Conditions, skill discounts, injuries and notes do not belong in Cost: split them into separate actions or move them to Requires/Outcome. See the table above for when an action costs time. Checked by `python validate.py` (rule `action-cost`).
-9. **`Prompted by:` is a soft breadcrumb, not a gate.** It lists what would make a player think to try this action: prior clue(s), what the scene shows, or knowing of something. A player without them can still take it. It is **hidden**: an HTML comment, `<!-- Prompted by: … -->`, on its own line in an action and at the end of the line on an opportunity. It never renders; the validator and the clue graph still read it, and its links must resolve. **Format is strict:** a `, `-separated list where each entry is a clue link written like the one in `Gives:` (link text = the clue id, optionally in backticks) a `setup:<kind>/<file>.md` token — cued by what the move's own file shows on encounter (its Setup); it always names the move's own file — or a `hook:<kind>/<file>.md` token — cued by knowing of another entity (its Hook), e.g. an "Ask about the old village" action. Nothing else: no `;`, no free text. An action without `Prompted by:` is a validator warning. Clues never go in `Requires:` (rule 6) — a clue that points the way always goes here. This field feeds the clue graph: it draws the edge from the prompting clue to the clue this action gives.
+9. **`Prompted by:` is a soft breadcrumb, not a gate.** It lists what would make a player think to try this action: prior clue(s), what the scene shows, or knowing of something. A player without them can still take it. It is **hidden**: an HTML comment, `<!-- Prompted by: … -->`, on its own line in an action and at the end of the line on an opportunity. It never renders; the validator and the clue graph still read it, and its links must resolve. **Format is strict:** a `, `-separated list where each entry is a clue link written like the one in `Gives:` (link text = the clue id, optionally in backticks) a `setup:<kind>/<file>.md` token — cued by what the move's own file shows on encounter (its Setup); it always names the move's own file — or a `hook:<kind>/<file>.md` token — cued by knowing of another entity (its Hook), e.g. an "Ask about the old village" action. An action prompted by `setup:` must be cued in its file's `## Setup` at the exact spot that prompts it, by an invisible link `[](#action-anchor)` — e.g. `A small garden shed stands in the yard[](#look-around-the-shed).` Every `[](#…)` in a Setup must point at an action in that file (validator error, rule `moves-marked`). Nothing else: no `;`, no free text. An action without `Prompted by:` is a validator warning. Clues never go in `Requires:` (rule 6) — a clue that points the way always goes here. This field feeds the clue graph: it draws the edge from the prompting clue to the clue this action gives.
 
 ---
 
@@ -257,19 +269,19 @@ If an action is triggered at a location but is really about an NPC interaction, 
 
 Before committing a scene file, verify:
 
-- [ ] Zero prose — every line is a fact, not atmosphere; Setup is prose, Trigger/Hook are bullet lists
-- [ ] Headers technical — Location a link, Present names + mechanic conditions only, Available a terse trigger
+- [ ] Zero prose — every line is a fact, not atmosphere; Setup is prose, Hook is a bullet list
+- [ ] Headers technical — Location a link, Present names + mechanic conditions only; events started by an action's `— starts`
 - [ ] Dialogue only where the exact words are the mechanical content (else cut, keep the fact)
 - [ ] Every Opportunity has either `→ Gives: [clue-id]` or no gives line (atmosphere only)
 - [ ] Every Action has `Gives:` (holdables only) and/or `Changes:` (state)
 - [ ] Every Cost is `N time` / `N composure` / an item link joined by ` + `; free actions have no Cost line
 - [ ] `python validate.py` reports 0 errors
 - [ ] No action produces "nothing" — if it would, cut it or find the real outcome
-- [ ] Every opportunity is gated with `*(noticed by: …)*` and/or `*(when: …)*` — ungated observations live in Setup, not Opportunities
+- [ ] Every opportunity is gated with `Noticed by` and/or `When` — ungated observations live in Setup, not Opportunities
 - [ ] Skill-gated opportunities read off a detail Setup states
 - [ ] No tiered "base + skill" lines — layered reveals are split into separate gated opportunities
-- [ ] Action Outcomes are flat — no skill branches; a skill reveal is an opportunity `*(when: <action> done)*` `*(noticed by: <skill>)*`
+- [ ] Action Outcomes are flat — no skill branches; a skill reveal is an opportunity with `When: [action](#anchor)` and `Noticed by: <skill>`
 - [ ] No use of "Leads to" or "Result" as outcome labels
-- [ ] Opportunity gates: player side in `*(noticed by: …)*` (cards/items/clues), world side in `*(when: …)*`; never `*(requires: …)*`
+- [ ] Opportunity gates: player side in `Noticed by` (cards/items/clues), world side in `When`; never `Requires`
 - [ ] Bond gates link the NPC's Bond card (`cards/bond-<character>.md`) in `Requires:`
 - [ ] Actions that belong to a character (not a place) are in the character file

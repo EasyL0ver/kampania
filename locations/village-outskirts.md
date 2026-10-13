@@ -23,16 +23,41 @@ The river, hillsides, and forest edges around [@name](new-village/new-village.md
 - The wojewoda's new bridge spans the river's present bed; on the map that ground is drawn dry, with the river on its old course.
 - The southern approach rises into a low ridge of higher ground.
 - The survey route can pass the old village ruins.
-- One route passes the last house before the treeline, [@name](../characters/butcher.md)'s house.
+- One route passes the last house before the treeline[](#butcher-alone-near-treeline), [@name](../characters/butcher.md)'s house.
 - One route crosses the track used by [@name](../characters/wujas.md)'s drinking crew.
 
 ## Opportunities
 
-- *(when: on a survey route)* *(noticed by: [Survival](../cards/survival.md))* — Stone ruins of the old village are visible through the trees. → Gives: hook:locations/old-village-ruins.md
-- *(when: on the route past [@name](../characters/butcher.md)'s house)* *(noticed by: [Finesse](../cards/finesse.md))* — At his house, [@surname](../characters/butcher.md) is alone near the treeline and using the same direction repeatedly. → Gives: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
-- *(when: near the treeline track)* *(noticed by: [Survival](../cards/survival.md))* — [@name](../characters/wujas.md) and the crew carry bottles toward the forest. → Gives: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
-- *(when: on a survey route)* *(noticed by: [Survival](../cards/survival.md))* — The notch in the ridge is choked with fallen rock and earth: the landslide plug. → Gives: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap) <!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
-- *(when: observation comparing map to ground)* — The wojewoda's bridge spans running water, but the map shows that ground dry and the river on its old course. → Gives: [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map) <!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
+### Stone ruins visible through trees
+- **Noticed by:** [Survival](../cards/survival.md)
+- **When:** on a survey route
+- **Outcome:** Stone ruins of the old village are visible through the trees.
+- **Gives:** hook:locations/old-village-ruins.md
+
+### Butcher alone near treeline
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** setup:locations/village-outskirts.md
+- **Outcome:** At his house, [@surname](../characters/butcher.md) is alone near the treeline and using the same direction repeatedly.
+- **Gives:** [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
+
+### Crew carrying bottles toward forest
+- **Noticed by:** [Survival](../cards/survival.md)
+- **When:** near the treeline track
+- **Outcome:** [@name](../characters/wujas.md) and the crew carry bottles toward the forest.
+- **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
+
+### Ridge notch choked with landslide
+- **Noticed by:** [Survival](../cards/survival.md)
+- **When:** on a survey route
+<!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
+- **Outcome:** The notch in the ridge is choked with fallen rock and earth: the landslide plug.
+- **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
+
+### Bridge over water, map shows dry
+- **When:** observation comparing map to ground
+<!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
+- **Outcome:** The wojewoda's bridge spans running water, but the map shows that ground dry and the river on its old course.
+- **Gives:** [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map)
 
 ## Actions
 

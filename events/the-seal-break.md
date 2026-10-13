@@ -2,14 +2,6 @@
 
 **Location:** [@name](../locations/new-village/the-church/the-church.md)
 **Present:** [@name](../characters/priest.md), [@name](../characters/matrona.md) (if [Alive](../characters/matrona.md#alive) is true), [@name](../characters/wojewoda.md) (if [Alive](../characters/wojewoda.md#alive) is true), [@name](../characters/wujas.md) (if [Alive](../characters/wujas.md#alive) is true), [@name](../characters/neighbour.md) (if [Alive](../characters/neighbour.md#alive) is true), [@name](../characters/painter.md) (if [Alive](../characters/painter.md#alive) is true), [@name](../characters/butcher.md) (if [Alive](../characters/butcher.md#alive) is true)
-**Available:** Day 7, if [Faith in Redemption](../story-facts/spiritual-endings.md) is below threshold at the end of Day 6; mutually exclusive with [@name](the-odpust.md)
-
-## Trigger
-
-- [@name](../characters/priest.md)'s Faith in Redemption score fails.
-- No merciful reading prevails before Day 7.
-- The guilty do not kneel, or the players push him to weaponise the confessional, or the Day-6 night lynch happens.
-- He decides the valley is damned and breaks the seal of confession.
 
 ## Hook
 
@@ -23,13 +15,13 @@
 - Black water is under the door and spreading over the flagstones.
 - Floor candles are drowning.
 - [@name](../characters/priest.md) sits on the altar table with bimber.
-- His collar is off.
+- His collar is off.[](#gravest-violation-of-faith)
 - His vestments are half-undone.
 - He is drunk.
-- A Carmen cigarette burns in his hand; he smokes openly in the church he once forbade it in.
-- He says he has decided to stop lying.
-- He calls the water judgment over a valley built on a grave.
-- He names the acts from the 1954 lynch.
+- A Carmen cigarette burns in his hand;[](#smoker-identifies-brand-from-paper) he smokes openly in the church he once forbade it in.[](#habit-hider-smokes-openly-on-altar)
+- He says he has decided to stop lying.[](#priest-knowingly-breaks-the-seal)
+- He calls the water judgment over a valley built on a grave.[](#valley-built-on-a-grave)
+- He names the acts from the 1954 lynch.[](#gajda-family-waits-for-name)
 - He names [@name](../characters/wojewoda.md), [@name](../characters/wujas.md), and [@name](../characters/butcher.md).
 - He grieves [@name](../characters/ciotka.md) as the source of years of confession.
 - He does not name [@name](../characters/matrona.md).
@@ -37,12 +29,37 @@
 
 ## Opportunities
 
-- *(noticed by: [Devotion](../cards/devotion.md))* — The priest on the altar knows what breaking the seal costs and does it deliberately.
-- *(noticed by: [Culture](../cards/culture.md))* — a priest violating the seal of confession is committing one of the gravest violations in his faith.
-- *(noticed by: [Empathy](../cards/empathy.md))* — [@name](../characters/wojewoda.md) looks for an exit; [@name](../characters/wujas.md) weeps; [@name](../characters/matrona.md) waits for her name and does not hear it.
-- *(noticed by: [History](../cards/history.md) OR [Culture](../cards/culture.md))* — The valley is built on a grave: his account connects the lynch to the old village, the people officially called resettled, and the buried cover-up.
-- the man who hid his habit now smokes on the altar, plain to everyone present. → Gives: [priest-smokes](../clues/clues.md#priest-smokes) <!-- Prompted by: setup:events/the-seal-break.md -->
-- *(noticed by: [Chainsmoker](../cards/chainsmoker.md) AND [priest-smokes](../clues/clues.md#priest-smokes))* — a smoker reads the brand off the paper burning in his hand: premium Carmen, the same the village would name at [@first-name](../characters/ciotka.md)'s door. → Gives: [priest-smokes-carmen](../clues/clues.md#priest-smokes-carmen)
+### Priest knowingly breaks the seal
+- **Noticed by:** [Devotion](../cards/devotion.md)
+- **When:** setup:events/the-seal-break.md
+- **Outcome:** The priest on the altar knows what breaking the seal costs and does it deliberately.
+
+### Gravest violation of faith
+- **Noticed by:** [Culture](../cards/culture.md)
+- **When:** setup:events/the-seal-break.md
+- **Outcome:** a priest violating the seal of confession is committing one of the gravest violations in his faith.
+
+### Gajda family waits for name
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** setup:events/the-seal-break.md
+- **Outcome:** [@name](../characters/wojewoda.md) looks for an exit; [@name](../characters/wujas.md) weeps; [@name](../characters/matrona.md) waits for her name and does not hear it.
+
+### Valley built on a grave
+- **Noticed by:** [History](../cards/history.md) OR [Culture](../cards/culture.md)
+- **When:** setup:events/the-seal-break.md
+- **Outcome:** The valley is built on a grave: his account connects the lynch to the old village, the people officially called resettled, and the buried cover-up.
+
+### Habit-hider smokes openly on altar
+- **When:** setup:events/the-seal-break.md
+<!-- Prompted by: setup:events/the-seal-break.md -->
+- **Outcome:** the man who hid his habit now smokes on the altar, plain to everyone present.
+- **Gives:** [priest-smokes](../clues/clues.md#priest-smokes)
+
+### Smoker identifies brand from paper
+- **Noticed by:** [Chainsmoker](../cards/chainsmoker.md) AND [priest-smokes](../clues/clues.md#priest-smokes)
+- **When:** setup:events/the-seal-break.md
+- **Outcome:** a smoker reads the brand off the paper burning in his hand: premium Carmen, the same the village would name at [@first-name](../characters/ciotka.md)'s door.
+- **Gives:** [priest-smokes-carmen](../clues/clues.md#priest-smokes-carmen)
 
 ## Actions
 

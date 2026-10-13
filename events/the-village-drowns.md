@@ -1,7 +1,6 @@
 # The Village Drowns
 
 **Location:** [@name](../locations/new-village/new-village.md)
-**Available:** End of game, when neither [Evacuate](../characters/jagna.md#evacuate) nor [Fight](../characters/foreman.md#fight) happened.
 
 ## Hook
 

@@ -17,20 +17,41 @@
 - Cigarettes are sold over the counter: cheap Sport on the shelf, a pricier premium brand for those who ask.
 - Bimber is kept under the counter.
 - The crew enters to buy rounds, banter with [@first-name](../../characters/secondary/halina-zajac.md), and get sent back outside.
-- [@name](../../characters/junior.md) drinks with the crew some evenings, away from his father.
+- [@name](../../characters/junior.md) drinks with the crew some evenings, away from his father.[](#junior-brags-about-gun)
 - [@first-name](../../characters/secondary/halina-zajac.md) resents [@first-name](../../characters/matrona.md) [@surname](../../characters/matrona.md) and speaks sharply about the work.
 - The back room has a locked pharmaceutical cabinet.
-- The cabinet contains penicillin, aspirin, bandages, and iodine.
+- The cabinet contains penicillin, aspirin, bandages, and iodine.[](#locked-cabinet-holds-medicine)
 - [@first-name](../../characters/matrona.md) [@surname](../../characters/matrona.md) keeps the only cabinet key.
 - [@name](../../characters/secondary/halina-zajac.md) cannot open the medicine cabinet.
 - Government people are treated with suspicion outside unless they are [@name](../../characters/wujas.md)'s drinking buddies.
 
 ## Opportunities
 
-- *(noticed by: [Medicine](../../cards/medicine.md))* — In the back room a locked cabinet holds penicillin, aspirin, bandages, and iodine; a trained eye reads it as a *szafka apteczna*, the state medicine point for miles. → Gives: [store-has-drug-cabinet](../../clues/clues.md#store-has-drug-cabinet) <!-- Prompted by: setup:locations/new-village/the-store.md -->
-- *(when: [drinking buddy](../../characters/wujas.md#drinking-buddy) with [@nickname](../../characters/wujas.md))* *(noticed by: [Empathy](../../cards/empathy.md))* — [@surname](../../characters/neighbour.md) drinks too fast and shuts down when the past comes up. → Gives: [neighbour-is-rattled](../../clues/clues.md#neighbour-is-rattled)
-- *(when: [@name](../../characters/junior.md) present, or [drinking buddy](../../characters/wujas.md#drinking-buddy) with [@nickname](../../characters/wujas.md) if he is not)* — Present, [@first-name](../../characters/junior.md) sits plainly among the crew on the benches, away from his father; absent, the crew mention the sołtys's son who drinks with them. → Gives: [junior-drinks-with-crew](../../clues/clues.md#junior-drinks-with-crew) <!-- Prompted by: setup:locations/new-village/the-store.md -->
-- *(noticed by: [Physique](../../cards/physique.md))* — Drinking with the crew, [@first-name](../../characters/junior.md) puffs up and talks about the gun in his father's office desk. → Gives: [wojewoda-has-gun](../../clues/clues.md#wojewoda-has-gun) <!-- Prompted by: [junior-drinks-with-crew](../../clues/clues.md#junior-drinks-with-crew) -->
+### Locked cabinet holds medicine
+- **Noticed by:** [Medicine](../../cards/medicine.md)
+- **When:** setup:locations/new-village/the-store.md
+<!-- Prompted by: setup:locations/new-village/the-store.md -->
+- **Outcome:** In the back room a locked cabinet holds penicillin, aspirin, bandages, and iodine; a trained eye reads it as a *szafka apteczna*, the state medicine point for miles.
+- **Gives:** [store-has-drug-cabinet](../../clues/clues.md#store-has-drug-cabinet)
+
+### Neighbour drinks fast
+- **Noticed by:** [Empathy](../../cards/empathy.md)
+- **When:** [drinking buddy](../../characters/wujas.md#drinking-buddy) with [@nickname](../../characters/wujas.md)
+- **Outcome:** [@surname](../../characters/neighbour.md) drinks too fast and shuts down when the past comes up.
+- **Gives:** [neighbour-is-rattled](../../clues/clues.md#neighbour-is-rattled)
+
+### Junior sits apart
+- **When:** [@name](../../characters/junior.md) present, or [drinking buddy](../../characters/wujas.md#drinking-buddy) with [@nickname](../../characters/wujas.md) if he is not
+<!-- Prompted by: setup:locations/new-village/the-store.md -->
+- **Outcome:** Present, [@first-name](../../characters/junior.md) sits plainly among the crew on the benches, away from his father; absent, the crew mention the sołtys's son who drinks with them.
+- **Gives:** [junior-drinks-with-crew](../../clues/clues.md#junior-drinks-with-crew)
+
+### Junior brags about gun
+- **Noticed by:** [Physique](../../cards/physique.md)
+- **When:** setup:locations/new-village/the-store.md
+<!-- Prompted by: [junior-drinks-with-crew](../../clues/clues.md#junior-drinks-with-crew) -->
+- **Outcome:** Drinking with the crew, [@first-name](../../characters/junior.md) puffs up and talks about the gun in his father's office desk.
+- **Gives:** [wojewoda-has-gun](../../clues/clues.md#wojewoda-has-gun)
 
 ## Actions
 

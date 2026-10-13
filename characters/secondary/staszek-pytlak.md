@@ -31,7 +31,11 @@ A slightly older village child who plays with [@name](../pawelek.md) before the 
 
 ## Opportunities
 
-- *(when: asked about their last day)* *(noticed by: [Survival](../../cards/survival.md))* — pressed on which kind, it is clear the boys know their mushrooms: ordinary edible ones, and [@first-name](staszek-pytlak.md) ate the same and stayed well. → Gives: [pawelek-mushrooms-were-harmless](../../clues/clues.md#pawelek-mushrooms-were-harmless)
+### Boys know their mushrooms well
+- **Noticed by:** [Survival](../../cards/survival.md)
+- **When:** asked about their last day
+- **Outcome:** pressed on which kind, it is clear the boys know their mushrooms: ordinary edible ones, and [@first-name](staszek-pytlak.md) ate the same and stayed well.
+- **Gives:** [pawelek-mushrooms-were-harmless](../../clues/clues.md#pawelek-mushrooms-were-harmless)
 
 ## Actions
 

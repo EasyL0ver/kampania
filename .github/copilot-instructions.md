@@ -56,7 +56,7 @@ Read all files in these folders to understand current state:
     - **Events** (`events/`) — One-shot moments. Triggered by game state, time, or player action. Events happen **at** a location — all of the location's persistent actions and opportunities are implicitly available. Event files only contain what's unique to that moment. Numbered (`01-`, `02-`) for play sequence (when the event *can* trigger, not a forced order).
     - **Locations** (`locations/`) — Revisitable places. Persistent actions and NPCs. Named descriptively, no numbers.
     - **Both types follow this format:**
-      - Header: Type, Location, Present (NPCs + conditions), Available (when), Cost
+      - Header: Location, Present (NPCs + conditions) — events; no Available, no Trigger
       - `## Setup` — What players see/hear/feel. **Rule: If an opportunity lets players notice something, the Setup must mention or hint at it.** Players can't notice what the GM never described.
       - `## Opportunities` — Free, no action cost. Impressions, seeds, atmosphere. Skill tags show what each skill reveals.
       - `## Actions` — What costs time. Each action has: Requires, Cost, Outcome (with skill-specific branches), clues given.

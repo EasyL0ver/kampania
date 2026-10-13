@@ -2,14 +2,6 @@
 
 **Location:** [@name](../locations/new-village/barbaras-house.md)
 **Present:** [@name](../characters/hag.md)
-**Available:** Any night, while [@name](../characters/hag.md) is alive and not hostile (see her [Hostility](../characters/hag.md#village-hostility) mechanic)
-
-## Trigger
-
-- Middle of the night.
-- Players are at [@name](../locations/new-village/barbaras-house.md) or outside in the village.
-- Fires every night as long as [@name](../characters/hag.md) is alive.
-- Does not fire once [@first-name](../characters/hag.md) turns hostile (see her [Hostility](../characters/hag.md#village-hostility) mechanic); she stops coming to the well.
 
 ## Hook
 
@@ -17,15 +9,22 @@
 
 ## Setup
 
-- Following the singing leads to the [@name](../locations/old-village-cerkiew.md).
+- Following the singing leads to the[](#woman-singing-prayers-in-forest) [@name](../locations/old-village-cerkiew.md).
 - The ruined nave is dark but for her candles and a low fire; incense, bread, and honey are set on the stones.
-- [@name](../characters/hag.md) stands over the well, singing the names of the dead; the sound carries off the bare stone.
+- [@name](../characters/hag.md) stands over the well, singing the names of the dead[](#woman-singing-at-well); the sound carries off the bare stone.
 - The instant she sees or hears the players, the singing stops and she is gone into the forest.
 
 ## Opportunities
 
-- being here at night, the players hear it themselves: a woman singing prayers out in the forest. → Gives: [singing-in-the-night](../clues/clues.md#singing-in-the-night)
-- a woman is there at the well, singing, before she bolts into the dark. → Gives: hook:characters/hag.md
+### Woman singing prayers in forest
+- **When:** setup:events/hags-prayer.md
+- **Outcome:** being here at night, the players hear it themselves: a woman singing prayers out in the forest.
+- **Gives:** [singing-in-the-night](../clues/clues.md#singing-in-the-night)
+
+### Woman singing at well
+- **When:** setup:events/hags-prayer.md
+- **Outcome:** a woman is there at the well, singing, before she bolts into the dark.
+- **Gives:** hook:characters/hag.md
 
 ## Actions
 

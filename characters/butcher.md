@@ -28,7 +28,7 @@ Charismatic, uninhibited, and dangerous. He participated in the 1947 massacre an
 - **Clothes:** Clean pressed shirt, good boots, cologne; sharper dress than the village norm
 - **Hair & face:** Dark hair slicked back with lard; weathered red-brown face, wide smile, pale grey eyes
 - **Carriage:** Broad-shouldered, stands too close, takes up too much space
-- **Cigarette:** He nearly always has one going, a fresh one lit off the last.
+- **Cigarette:** He nearly always has one going, a fresh one lit off the last.[](#butcher-smokes-almost-constantly)
 - **Voice:** Warm baritone pitched for an audience; loud laughter that can stop without warning
 
 People laugh along because the alternative feels dangerous. When he goes quiet, the room notices.
@@ -51,7 +51,11 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 
 ## Opportunities
 
-- *(noticed by: [Chainsmoker](../cards/chainsmoker.md))* — [@surname](butcher.md) has a cigarette going almost every time you meet him. A smoker reads the brand at a glance: Carmen. → Gives: [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen)
+### Butcher smokes almost constantly
+- **Noticed by:** [Chainsmoker](../cards/chainsmoker.md)
+- **When:** setup:characters/butcher.md
+- **Outcome:** [@surname](butcher.md) has a cigarette going almost every time you meet him. A smoker reads the brand at a glance: Carmen.
+- **Gives:** [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen)
 
 ## Actions
 
@@ -76,7 +80,6 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 - **Gives:** [butcher-doesnt-drink](../clues/clues.md#butcher-doesnt-drink)
 
 ### Ask about Glupek smoking
-- **When:** [@surname](butcher.md) present
 <!-- Prompted by: [edek-has-carmen-cigarette](../clues/clues.md#edek-has-carmen-cigarette) -->
 - **Cost:** 1 time
 - **Outcome:** He laughs it off, warm and easy: the boy does not smoke, cannot even drag on one without coughing himself sick. He gave [@first-name](glupek.md) a Carmen anyway, a boy has got to learn, and he talks about the lad like a fond nephew without ever noticing anything wrong in it.

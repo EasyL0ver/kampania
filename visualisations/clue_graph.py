@@ -66,7 +66,7 @@ PROMPT_TAG = re.compile(r"<!-- Prompted by: (.*?) -->")   # hidden; own line in 
 # scene entity (character/item/location/event). It behaves as a pseudo-clue
 # whose node id is "awareness:<relpath>". Usable in Requires (hard gate),
 # Prompted by (soft breadcrumb) and Gives (grants the awareness).
-AWARE_REF = re.compile(r"aware:([A-Za-z0-9/_.-]+(?:\.md|/))")
+AWARE_REF = re.compile(r"\bhook:([A-Za-z0-9/_.-]+(?:\.md|/))")   # knowing of an entity (its Hook)
 SECTION_NAMES = {"opportunities", "actions"}
 
 
@@ -279,7 +279,8 @@ def parse_scene(path: Path) -> tuple[Scene, list[Node]]:
         # Opportunity bullets can also hang directly in an Opportunities block
         # split across deeper headings; handled above. Everything else that
         # carries a Gives is an action-like giver, at any nesting depth.
-        node = _parse_action_block(htitle, body, rel, title)
+        node = _parse_action_block(htitle, body, rel, title,
+                                   kind="opportunity" if section == "opportunities" and level > section_level else "action")
         if node is not None:
             node.id = uid(node.name)
             nodes.append(node)
@@ -328,9 +329,11 @@ def _parse_opportunity(line: str, rel: str, title: str) -> Node | None:
     return node
 
 
-def _parse_action_block(htitle: str, body: list[str], rel: str, title: str) -> Node | None:
-    """A heading block whose body carries fields/Gives is an action giver."""
+def _parse_action_block(htitle: str, body: list[str], rel: str, title: str, kind: str = "action") -> Node | None:
+    """A heading block whose body carries fields/Gives is a giver: an action, or an opportunity
+    (### under ## Opportunities, gated by Noticed by: cards are who perceives it, clues are hard edges)."""
     req_lines, when_lines, out_lines, gives_lines, cost_lines, prompt_lines = [], [], [], [], [], []
+    noticed_lines = []
     for line in body:
         pc = PROMPT_TAG.fullmatch(line.strip())
         if pc:
@@ -343,7 +346,7 @@ def _parse_action_block(htitle: str, body: list[str], rel: str, title: str) -> N
             # outcome keywords live there now.
             {"requires": req_lines, "when": when_lines, "outcome": out_lines,
              "gives": gives_lines, "changes": gives_lines, "cost": cost_lines,
-             "prompted by": prompt_lines}[f].append(txt)
+             "prompted by": prompt_lines, "noticed by": noticed_lines}.get(f, []).append(txt)
         elif "Gives:" in line:
             # inline Gives inside a numbered/progressive Outcome step
             gives_lines.append(line.split("Gives:", 1)[1])
@@ -357,11 +360,11 @@ def _parse_action_block(htitle: str, body: list[str], rel: str, title: str) -> N
     gives_clues = sorted(set(CLUE_REF.findall(gives_clean)) - learned_c)
     gives_aware = sorted({_aware_id(p) for p in AWARE_REF.findall(gives_clean)})
     gives_other = [kw for kw in OUTCOME_KEYWORDS if kw in gives_text]
-    if not gives_clues and not gives_known and not gives_other and not gives_aware:
+    if not gives_clues and not gives_known and not gives_other and not gives_aware and kind != "opportunity":
         return None
 
     node = Node(
-        id=f"{rel}::{htitle}", name=htitle, kind="action",
+        id=f"{rel}::{htitle}", name=htitle, kind=kind,
         scene=rel, scene_title=title,
     )
     # Requires gates on cards only: skills are read from it, clues never are.
@@ -370,6 +373,10 @@ def _parse_action_block(htitle: str, body: list[str], rel: str, title: str) -> N
     node.requires_raw = " ".join(req_lines).strip()
     node.requires_skills = extract_skills(node.requires_raw)
     node.requires_known = [[npc, c] for npc, c in KNOWN_REQ.findall(" ".join(when_lines))]
+    if noticed_lines:
+        node.requires_raw = " ".join(noticed_lines).strip()
+        node.requires_skills = extract_skills(node.requires_raw)
+        node.requires_clues = sorted(set(CLUE_REF.findall(node.requires_raw)))
     prompt_text = " ".join(prompt_lines)
     node.prompted_by_clues = sorted(set(CLUE_REF.findall(prompt_text)))
     node.prompted_by_clues += sorted({_aware_id(p) for p in AWARE_REF.findall(prompt_text)})

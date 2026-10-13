@@ -27,7 +27,7 @@ A working farmer who claims the border strip by years of labour while her brothe
 ## Setup
 
 - **Clothes:** Headscarf, heavy skirt, man's jacket, field boots; red cracked hands
-- **Hair & face:** Weathered younger than her years; hair pulled back hard; jaw set until the strip comes up
+- **Hair & face:** Weathered younger than her years; hair pulled back hard; jaw set until the strip comes up[](#anger-at-the-strip-avoiding-the-deathbed)
 - **Carriage:** Strong, quick, and economical; arms fold tight when she speaks about her father
 - **Voice:** Blunt and tired, sharper when the deed is mentioned
 
@@ -41,8 +41,15 @@ She states her case rather than begging for it. When she repeats her father's la
 
 ## Opportunities
 
-- *(noticed by: [Empathy](../cards/empathy.md))* — Her anger about the strip is direct, but she keeps circling her father's deathbed without naming it.
-- *(when: old village in view)* *(noticed by: [Culture](../cards/culture.md))* — Her unease fits someone told a place is bloodied, not someone who merely dislikes ruins.
+### Anger at the strip, avoiding the deathbed
+- **Noticed by:** [Empathy](../cards/empathy.md)
+- **When:** setup:characters/dispute-sister.md
+- **Outcome:** Her anger about the strip is direct, but she keeps circling her father's deathbed without naming it.
+
+### Unease suggests she was told of bloodshed
+- **Noticed by:** [Culture](../cards/culture.md)
+- **When:** old village in view
+- **Outcome:** Her unease fits someone told a place is bloodied, not someone who merely dislikes ruins.
 
 ## Actions
 

@@ -1,11 +1,6 @@
 # Surveying the Streambed
 
 **Location:** [@name](../locations/far-ridge-streambed.md)
-**Available:** Holding [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain); a PC with **Geology** and the [@name](../items/geologists-kit.md); the far ridge reached
-
-## Trigger
-
-- The party decides to shoot the col's elevation themselves rather than hunt the old dam-survey markers.
 
 ## Hook
 
@@ -21,7 +16,10 @@ Setting up a level line at the far-ridge streambed to measure toward the village
 
 ## Opportunities
 
-- *(noticed by: [Geology](../cards/geology.md))* — A surveyor standing on the col can see it rides high, but "high" is not a number and will not settle the drain question; only the level line does. → No clue; sets expectations.
+### Surveyor sees high ridge without numbers
+- **Noticed by:** [Geology](../cards/geology.md)
+- **When:** setup:events/surveying-the-streambed.md
+- **Outcome:** A surveyor standing on the col can see it rides high, but "high" is not a number and will not settle the drain question; only the level line does. → No clue; sets expectations.
 
 ## Actions
 
@@ -50,7 +48,7 @@ Setting up a level line at the far-ridge streambed to measure toward the village
 
 ### Read the finished line
 - **Requires:** [Geology](../cards/geology.md) AND [@name](../items/geologists-kit.md)
-- **When:** 6 legs done
+- **When:** [The line](#the-line) is 6
 - **Outcome:** You close the line between the col and the village and read the two heights. They settle it: the col sits above house level, so the rising water tops the village before it ever reaches the streambed.
 - **Gives:** [@name](../items/streambed-parameters.md), [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 

@@ -25,7 +25,7 @@ The village drunk was once its schoolteacher, until the state took the post and 
 
 ## Setup
 
-- **Clothes:** Grey suit jacket gone shiny at the elbows, the last relic of the teacher he was, over peasant trousers and a collarless shirt; nothing fits, nothing is clean
+- **Clothes:** Grey suit jacket gone shiny at the elbows[](#jacket-and-cadence-reveal-former-profession), the last relic of the teacher he was, over peasant trousers and a collarless shirt; nothing fits, nothing is clean
 - **Hair & face:** Grey stubble he shaves twice a week; wire spectacles mended with copper wire; broken veins across the nose; eyes still sharp when drink has not dulled them
 - **Carriage:** Stands too straight when making a point, then folds again; hands tremble until the first glass steadies them
 
@@ -62,7 +62,10 @@ He knows the official history, that the old village was Lemko and was cleared in
 
 ## Opportunities
 
-- *(noticed by: [Bureaucracy](../cards/bureaucracy.md) OR [History](../cards/history.md))* — The jacket and cadence mark what he was before the bottle: an educated man, a teacher, and someone the state broke on purpose.
+### Jacket and cadence reveal former profession
+- **Noticed by:** [Bureaucracy](../cards/bureaucracy.md) OR [History](../cards/history.md)
+- **When:** setup:characters/radioman.md
+- **Outcome:** The jacket and cadence mark what he was before the bottle: an educated man, a teacher, and someone the state broke on purpose.
 
 ## Actions
 

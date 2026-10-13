@@ -24,11 +24,11 @@
 
 ## Setup
 
-- **Clothes:** Paint-spattered work clothes in the garden shed; downstairs, dressed neatly in whatever [@first-name](matrona.md) lays out for him
+- **Clothes:** Paint-spattered work clothes in the garden shed; downstairs, dressed neatly in whatever[](#show-painter-the-dress) [@first-name](matrona.md) lays out for him
 - **Hair & face:** Thinning grey hair, paint-flecked at the temples; gaunt cheeks, watery blue eyes that won't hold a gaze
 - **Carriage:** Thin, stooped, and wall-hugging; moves tentatively, flinches at sudden movement, makes himself small
 
-His hands are the only alive part of him: long-fingered, always stained with cadmium yellow and Prussian blue. He smells of linseed oil.
+His hands are the only alive part of him[](#press-painter-on-the-streambeds-detail): long-fingered, always stained with cadmium yellow and Prussian blue. He smells of linseed oil.
 
 ## Opinions
 
@@ -47,7 +47,11 @@ His hands are the only alive part of him: long-fingered, always stained with cad
 
 ## Opportunities
 
-- *(when: Committee authority, [@first-name](secondary/ewa-rzepka.md) present during the census)* — While the committee takes the household down, [@name](secondary/ewa-rzepka.md) settles on the stool beside her father and asks him, lightly, to paint her portrait for once. [@first-name](painter.md) turns it away gently: he offers to paint the house, the valley, the cerkiew on the hill, anything but her. Every finished canvas in the room is a place, never a person. He paints the world he lives in and leaves the people out of it. → Gives: [emil-doesnt-paint-people](../clues/clues.md#emil-doesnt-paint-people) <!-- Prompted by: setup:characters/painter.md -->
+### Ewa-rzepka asks her father for a portrait
+- **When:** Committee authority, [@first-name](secondary/ewa-rzepka.md) present during the census
+<!-- Prompted by: setup:characters/painter.md -->
+- **Outcome:** While the committee takes the household down, [@name](secondary/ewa-rzepka.md) settles on the stool beside her father and asks him, lightly, to paint her portrait for once. [@first-name](painter.md) turns it away gently: he offers to paint the house, the valley, the cerkiew on the hill, anything but her. Every finished canvas in the room is a place, never a person. He paints the world he lives in and leaves the people out of it.
+- **Gives:** [emil-doesnt-paint-people](../clues/clues.md#emil-doesnt-paint-people)
 
 ## Actions
 

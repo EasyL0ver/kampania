@@ -12,11 +12,15 @@
 - **Ravine:** Water moves below, out of sight.
 - **Tree:** A single old tree stands to one side.
 - **Cairn:** A low moss-grown cairn of stones sits under the tree.
-- **Cairn:** The cairn is deliberate, not natural rockfall.
+- **Cairn:** The cairn is deliberate, not natural rockfall.[](#unmarked-hand-built-grave-with-no-name)
 
 ## Opportunities
 
-- *(noticed by: [Culture](../cards/culture.md) OR [Survival](../cards/survival.md))* — The stone stack is an old hand-built grave with no priest, marker, or name. → Gives: [dudka-buried-a-friend-at-the-ravine](../clues/clues.md#dudka-buried-a-friend-at-the-ravine)
+### Unmarked hand-built grave with no name
+- **Noticed by:** [Culture](../cards/culture.md) OR [Survival](../cards/survival.md)
+- **When:** setup:locations/meadow-by-the-ravine.md
+- **Outcome:** The stone stack is an old hand-built grave with no priest, marker, or name.
+- **Gives:** [dudka-buried-a-friend-at-the-ravine](../clues/clues.md#dudka-buried-a-friend-at-the-ravine)
 
 ## Actions
 

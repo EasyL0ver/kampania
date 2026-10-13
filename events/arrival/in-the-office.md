@@ -3,7 +3,6 @@
 **Part of:** [@name](arrival.md)
 **Location:** [@name](../../locations/new-village/wojewodas-house.md)
 **Present:** [@name](../../characters/wojewoda.md), [@name](../../characters/wife.md) (if [Listener](#listener) is joined)
-**Available:** After [Go inside](the-walk.md#go-inside).
 
 ## Hook
 
@@ -15,12 +14,16 @@
 - A heavy bakelite phone sits on the office desk.
 - Ledgers and maps are visible in the office.
 - Tea is on the table.
-- [@name](../../characters/wojewoda.md) presents himself as cooperative and helpful.
-- The door to the rest of the house stands ajar; a floorboard creaks behind it.
+- [@name](../../characters/wojewoda.md) presents himself as cooperative and helpful.[](#listen-to-wojewodas-welcome)
+- The door to the rest of the house stands ajar; a floorboard creaks behind it.[](#someone-listening-during-gajda-conversation)
 
 ## Opportunities
 
-- *(noticed by: [Finesse](../../cards/finesse.md))* — A shadow and a floorboard creak show someone is listening during the conversation with [@name](../../characters/wojewoda.md). → Gives: [`irena-is-watchful`](../../clues/clues.md#irena-is-watchful)
+### Someone listening during Gajda conversation
+- **Noticed by:** [Finesse](../../cards/finesse.md)
+- **When:** setup:events/arrival/in-the-office.md
+- **Outcome:** A shadow and a floorboard creak show someone is listening during the conversation with [@name](../../characters/wojewoda.md).
+- **Gives:** [`irena-is-watchful`](../../clues/clues.md#irena-is-watchful)
 
 ## Actions
 

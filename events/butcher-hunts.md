@@ -2,16 +2,6 @@
 
 **Location:** [@name](../locations/village-outskirts.md)
 **Present:** [@name](../characters/butcher.md)
-**Available:** Day 3 onward, after players investigate too deeply.
-
-## Trigger
-
-- [@name](../characters/butcher.md) believes the players know too much.
-- Trigger examples include direct questions about [@name](../characters/soldier.md)'s family.
-- Trigger examples include player interest in [@name](../locations/old-village-ruins.md) or the well.
-- Trigger examples include players talking to [@name](../characters/wujas.md) when he is drunk and loose.
-- Trigger examples include [@name](../characters/ciotka.md)'s death after the players were present.
-- Trigger examples include direct confrontation with [@name](../characters/wojewoda.md) or [@name](../characters/butcher.md) about the 1954 lynch.
 
 ## Hook
 
@@ -25,18 +15,29 @@
 
 - [@name](../characters/butcher.md) tracks what the players do.
 - [@name](../characters/butcher.md) tracks who the players talk to.
-- [@name](../characters/butcher.md) tracks where the players go.
+- [@name](../characters/butcher.md) tracks where the players go.[](#butcher-watches-from-afar)
 - The road is flooded.
 - The forest edge and village edge are isolated.
-- [@name](../characters/butcher.md)'s dogs move with him.
+- [@name](../characters/butcher.md)'s dogs move with him.[](#dogs-follow-the-committee-and-players)
 - Lone players at night, near [@name](../locations/old-village-ruins.md), or on the village edge are vulnerable.
-- [@name](../characters/butcher.md) gives no direct warning before escalation.
+- [@name](../characters/butcher.md) gives no direct warning before escalation.[](#threats-appear-without-written-messages)
 
 ## Opportunities
 
-- *(noticed by: [Survival](../cards/survival.md))* — Dogs appear near the committee, and the same dogs appear near multiple places the players visit.
-- *(noticed by: [Finesse](../cards/finesse.md))* — At a distance, [@name](../characters/butcher.md) is present often enough that coincidence is unlikely.
-- *(noticed by: [Violence](../cards/violence.md))* — Missing items, open doors, or dead animals are threats without written messages.
+### Dogs follow the committee and players
+- **Noticed by:** [Survival](../cards/survival.md)
+- **When:** setup:events/butcher-hunts.md
+- **Outcome:** Dogs appear near the committee, and the same dogs appear near multiple places the players visit.
+
+### Butcher watches from afar
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** setup:events/butcher-hunts.md
+- **Outcome:** At a distance, [@name](../characters/butcher.md) is present often enough that coincidence is unlikely.
+
+### Threats appear without written messages
+- **Noticed by:** [Violence](../cards/violence.md)
+- **When:** setup:events/butcher-hunts.md
+- **Outcome:** Missing items, open doors, or dead animals are threats without written messages.
 
 ## Actions
 

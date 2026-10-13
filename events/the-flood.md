@@ -1,7 +1,6 @@
 # The Flood
 
 **Location:** [@name](../locations/new-village/new-village.md)
-**Available:** Day 3 morning; automatic.
 
 ## Hook
 
@@ -14,13 +13,13 @@
 
 - Players wake to heavy rain.
 - The windows are grey with flood weather.
-- The road the committee drove in on is gone under mud and flowing water.
+- The road the committee drove in on is gone under mud and flowing water.[](#road-failed-from-drainage-and-foundation)
 - The bridge over the creek is underwater.
 - The creek has become a flood channel.
 - The village is cut off.
 - [@name](../characters/officer.md) was supposed to return yesterday and has not.
 - There is no car, word, or explanation from him.
-- The phone in [@name](../characters/wojewoda.md)'s office is the only connection to the outside if the line works.
+- The phone in [@name](../characters/wojewoda.md)'s office is the only connection to the outside if the line works.[](#gajda-offers-access-by-office-phone)
 - Villagers are already working with sandbags near lower houses.
 - [@name](../characters/foreman.md) has PGR workers reinforcing the livestock barn.
 - The village recognizes this as a severe flood.
@@ -28,14 +27,31 @@
 - Cellars are filling.
 - The ground is saturated.
 - Surveyors' stakes marking the projected flood line run across the [@name](../locations/new-village/new-village.md) slope, and the water is already climbing past them.
-- The committee is outside the village's normal flood-response machinery.
+- The committee is outside the village's normal flood-response machinery.[](#local-leaders-ignore-outsider-attempts)
 
 ## Opportunities
 
-- *(noticed by: [Handiwork](../cards/handiwork.md))* — the road failed because poor drainage and weak foundation met heavy rain. Repair will take days after the water drops. → Gives: [`road-washes-out`](../clues/clues.md#road-washes-out)
-- *(noticed by: [Finesse](../cards/finesse.md))* — On the office phone, [@name](../characters/wojewoda.md) offers access and stays close enough to hear what is reported.
-- *(noticed by: [Finesse](../cards/finesse.md))* — [@first-name](../characters/wojewoda.md) gives quiet orders, [@name](../characters/foreman.md) runs the PGR response, and villagers ignore outsider attempts to lead.
-- *(when: prior visit to [@name](../locations/old-village-ruins.md))* *(noticed by: [Handiwork](../cards/handiwork.md))* — The water table is rising: the well at the old village is filling too. → Gives: [`old-village-flooding`](../clues/clues.md#old-village-flooding)
+### Road failed from drainage and foundation
+- **Noticed by:** [Handiwork](../cards/handiwork.md)
+- **When:** setup:events/the-flood.md
+- **Outcome:** the road failed because poor drainage and weak foundation met heavy rain. Repair will take days after the water drops.
+- **Gives:** [`road-washes-out`](../clues/clues.md#road-washes-out)
+
+### Gajda offers access by office phone
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** setup:events/the-flood.md
+- **Outcome:** On the office phone, [@name](../characters/wojewoda.md) offers access and stays close enough to hear what is reported.
+
+### Local leaders ignore outsider attempts
+- **Noticed by:** [Finesse](../cards/finesse.md)
+- **When:** setup:events/the-flood.md
+- **Outcome:** [@first-name](../characters/wojewoda.md) gives quiet orders, [@name](../characters/foreman.md) runs the PGR response, and villagers ignore outsider attempts to lead.
+
+### Rising water table fills old well
+- **Noticed by:** [Handiwork](../cards/handiwork.md)
+- **When:** prior visit to [@name](../locations/old-village-ruins.md)
+- **Outcome:** The water table is rising: the well at the old village is filling too.
+- **Gives:** [`old-village-flooding`](../clues/clues.md#old-village-flooding)
 
 ## Actions
 
@@ -44,6 +60,7 @@
 - **Cost:** 1 time
 - **Outcome:** The line may reach the powiat office, fail, or route through the exchange. Any outside call is unreliable and monitored if [@first-name](../characters/wojewoda.md) is present.
 - **Gives:** hook:events/operator-refuses-help.md
+- **Changes:** [@name](operator-refuses-help.md) — starts; [@name](the-telegram.md) — starts
 
 ### Help with flood response
 - **Cost:** 1 time
