@@ -47,13 +47,13 @@ His hands are the only alive part of him: long-fingered, always stained with cad
 
 ## Opportunities
 
-- *(when: Committee authority, [@first-name](secondary/ewa-rzepka.md) present during the census)* — While the committee takes the household down, [@name](secondary/ewa-rzepka.md) settles on the stool beside her father and asks him, lightly, to paint her portrait for once. [@first-name](painter.md) turns it away gently: he offers to paint the house, the valley, the cerkiew on the hill, anything but her. Every finished canvas in the room is a place, never a person. He paints the world he lives in and leaves the people out of it. → Gives: [emil-doesnt-paint-people](../clues/clues.md#emil-doesnt-paint-people) <!-- Prompted by: aware:characters/painter.md -->
+- *(when: Committee authority, [@first-name](secondary/ewa-rzepka.md) present during the census)* — While the committee takes the household down, [@name](secondary/ewa-rzepka.md) settles on the stool beside her father and asks him, lightly, to paint her portrait for once. [@first-name](painter.md) turns it away gently: he offers to paint the house, the valley, the cerkiew on the hill, anything but her. Every finished canvas in the room is a place, never a person. He paints the world he lives in and leaves the people out of it. → Gives: [emil-doesnt-paint-people](../clues/clues.md#emil-doesnt-paint-people) <!-- Prompted by: setup:characters/painter.md -->
 
 ## Actions
 
 ### Show Painter the dress
 - **Requires:** [@name](../items/girls-dress.md)
-<!-- Prompted by: aware:characters/painter.md -->
+<!-- Prompted by: setup:characters/painter.md -->
 - **Outcome:** He goes still, then his stained hands start to shake. He cannot look at it and cannot look away.
 - **Gives:** [`dress-distressed-painter`](../clues/clues.md#dress-distressed-painter)
 
@@ -70,9 +70,9 @@ His hands are the only alive part of him: long-fingered, always stained with cad
 ### Press Painter on the streambed's detail
 - **Requires:** [Geology](../cards/geology.md) OR [Culture](../cards/culture.md)
 - **When:** access to [@first-name](painter.md)'s shed
-<!-- Prompted by: aware:characters/painter.md -->
+<!-- Prompted by: setup:characters/painter.md -->
 - **Outcome:** Only a party that has picked out the real detail under the paint can draw him out. Asked about it, [@first-name](painter.md) warms for a moment. It is a streambed on the far ridge across the valley, a place from before, where the water ran down toward the next basin. He describes the col and the crossing plainly enough that the party could find it. Then he sighs: it was a long time ago, and the water probably does not run like that any more.
-- **Gives:** aware:locations/far-ridge-streambed.md, [`streambed-painting-is-old`](../clues/clues.md#streambed-painting-is-old)
+- **Gives:** hook:locations/far-ridge-streambed.md, [`streambed-painting-is-old`](../clues/clues.md#streambed-painting-is-old)
 
 ### Property assessment
 - **Cost:** 1 time

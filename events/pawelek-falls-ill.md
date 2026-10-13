@@ -31,14 +31,14 @@
 
 ## Opportunities
 
-- *(when: [@first-name](../characters/pawelek.md) at 4 HP or lower)* — the whites of his eyes have gone bloodshot and crimson. → Gives: [`pawelek-eyes-are-red`](../clues/clues.md#pawelek-eyes-are-red) <!-- Prompted by: aware:events/pawelek-falls-ill.md -->
+- *(when: [@first-name](../characters/pawelek.md) at 4 HP or lower)* — the whites of his eyes have gone bloodshot and crimson. → Gives: [`pawelek-eyes-are-red`](../clues/clues.md#pawelek-eyes-are-red) <!-- Prompted by: setup:events/pawelek-falls-ill.md -->
 - *(when: [@first-name](../characters/pawelek.md) at 4 HP or lower)* *(noticed by: [Medicine](../cards/medicine.md))* — His eyes are red in the whites themselves, not from crying. → Gives: [`pawelek-eyes-not-crying`](../clues/clues.md#pawelek-eyes-not-crying)
-- *(when: [@first-name](../characters/pawelek.md) at 3 HP or lower)* — his skin and the whites of his eyes have turned yellow. → Gives: [`pawelek-turns-yellow`](../clues/clues.md#pawelek-turns-yellow) <!-- Prompted by: aware:events/pawelek-falls-ill.md -->
+- *(when: [@first-name](../characters/pawelek.md) at 3 HP or lower)* — his skin and the whites of his eyes have turned yellow. → Gives: [`pawelek-turns-yellow`](../clues/clues.md#pawelek-turns-yellow) <!-- Prompted by: setup:events/pawelek-falls-ill.md -->
 - *(when: [@first-name](../characters/pawelek.md) at 3 HP or lower)* *(noticed by: [Medicine](../cards/medicine.md))* — To a doctor, yellow skin and eyes mean his organs are failing. → Gives: [`pawelek-organs-failing`](../clues/clues.md#pawelek-organs-failing)
-- *(when: [@first-name](../characters/pawelek.md) at 3 HP or lower)* *(noticed by: [Survival](../cards/survival.md))* — a woodsman reads the yellowing two ways and cannot settle it: a sickness that comes from foul water, or a child who ate a death cap in the woods. → Gives: [`pawelek-got-it-from-water`](../clues/clues.md#pawelek-got-it-from-water), [`pawelek-ate-death-cap`](../clues/clues.md#pawelek-ate-death-cap) <!-- Prompted by: aware:events/pawelek-falls-ill.md -->
-- *(when: [@first-name](../characters/pawelek.md) at 3 HP or lower)* *(noticed by: [Violence](../cards/violence.md))* — you have seen what the yellow rat poison does to a body; the boy's signs could be phosphorus, and that would mean a hand behind it. → Gives: [`pawelek-phosphorus-poison`](../clues/clues.md#pawelek-phosphorus-poison) <!-- Prompted by: aware:events/pawelek-falls-ill.md -->
-- *(noticed by: [Superstitious](../cards/superstitious.md))* — The child raves of a lady and round stones, and he alone sickens while everyone else is spared. To you the meaning is plain: this is the well's work, not a fever. → Gives: [`pawelek-was-possessed`](../clues/clues.md#pawelek-was-possessed) <!-- Prompted by: aware:events/pawelek-falls-ill.md -->
-- Sit close and listen through the fever. His muttering cries for a lady from the woods who gave him bread and told him not to drink, then trails off into sounds that make no sense. → Gives: aware:characters/hag.md <!-- Prompted by: aware:events/pawelek-falls-ill.md -->
+- *(when: [@first-name](../characters/pawelek.md) at 3 HP or lower)* *(noticed by: [Survival](../cards/survival.md))* — a woodsman reads the yellowing two ways and cannot settle it: a sickness that comes from foul water, or a child who ate a death cap in the woods. → Gives: [`pawelek-got-it-from-water`](../clues/clues.md#pawelek-got-it-from-water), [`pawelek-ate-death-cap`](../clues/clues.md#pawelek-ate-death-cap) <!-- Prompted by: setup:events/pawelek-falls-ill.md -->
+- *(when: [@first-name](../characters/pawelek.md) at 3 HP or lower)* *(noticed by: [Violence](../cards/violence.md))* — you have seen what the yellow rat poison does to a body; the boy's signs could be phosphorus, and that would mean a hand behind it. → Gives: [`pawelek-phosphorus-poison`](../clues/clues.md#pawelek-phosphorus-poison) <!-- Prompted by: setup:events/pawelek-falls-ill.md -->
+- *(noticed by: [Superstitious](../cards/superstitious.md))* — The child raves of a lady and round stones, and he alone sickens while everyone else is spared. To you the meaning is plain: this is the well's work, not a fever. → Gives: [`pawelek-was-possessed`](../clues/clues.md#pawelek-was-possessed) <!-- Prompted by: setup:events/pawelek-falls-ill.md -->
+- Sit close and listen through the fever. His muttering cries for a lady from the woods who gave him bread and told him not to drink, then trails off into sounds that make no sense. → Gives: hook:characters/hag.md <!-- Prompted by: setup:events/pawelek-falls-ill.md -->
 - *(when: examined, [Health Points](../characters/pawelek.md#health-points) at 5 or lower)* — once the muscle pain has set in he screams when his legs and back are moved. → Gives: [pawelek-in-muscle-pain](../clues/clues.md#pawelek-in-muscle-pain)
 - *(when: examined, [Health Points](../characters/pawelek.md#health-points) at 6 or 5)* *(noticed by: [Medicine](../cards/medicine.md))* — it reads like the common fever going round. → Gives: [pawelek-looks-like-common-fever](../clues/clues.md#pawelek-looks-like-common-fever)
 - *(when: examined, [Health Points](../characters/pawelek.md#health-points) at 4)* *(noticed by: [Medicine](../cards/medicine.md))* — a common fever would have broken by now. → Gives: [pawelek-fever-not-passing](../clues/clues.md#pawelek-fever-not-passing)
@@ -49,13 +49,13 @@
 
 ### Examine him
 - **When:** Hands on [@first-name](../characters/pawelek.md), touching and moving him
-<!-- Prompted by: aware:events/pawelek-falls-ill.md -->
+<!-- Prompted by: setup:events/pawelek-falls-ill.md -->
 - **Cost:** 1 time
 - **Outcome:** His skin is burning hot, and once the muscle pain has set in he screams when you move his legs and back. What you learn depends on how far gone he is. A medic examining him once he is yellowing reads that this is no common sickness.
 - **Gives:** [pawelek-burns-with-fever](../clues/clues.md#pawelek-burns-with-fever)
 
 ### Tend to him
-<!-- Prompted by: aware:events/pawelek-falls-ill.md -->
+<!-- Prompted by: setup:events/pawelek-falls-ill.md -->
 - **Cost:** 1 time
 - **Outcome:** Cool cloths, water, keeping him still. Nothing you do slows the fever; he keeps sinking on the clock all the same. At 2 HP or lower you see he passes little urine, dark as strong tea.
 - **Changes:** [Condition](../characters/pawelek.md#condition) — tended, no HP lost this phase

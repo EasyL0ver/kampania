@@ -39,4 +39,4 @@
 ### Go in through the back door
 <!-- Prompted by: [something-happened-to-ciotka](../../clues/clues.md#something-happened-to-ciotka) -->
 - **Outcome:** The back door gives onto a cold, silent house; the priest follows you in.
-- **Gives:** aware:events/ciotka-found-dead/the-house.md
+- **Gives:** hook:events/ciotka-found-dead/the-house.md

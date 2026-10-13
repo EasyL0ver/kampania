@@ -92,10 +92,10 @@ Actions are **what players do when they declare intent.** Every action produces 
 ### Action Name
 - **Requires:** [Cards the player holds — skill card or item links, combined with AND / OR / ( ); omit the line when nothing is required]
 - **When:** [World state that must hold for the action to exist — NPC present, state reached, scene done. GM-only, never hinted. Omit when always available. Format not standardised yet.]
-<!-- Prompted by: [Clue links and/or aware:<kind>/<file>.md tokens, separated by ", ". Hidden from the page. Soft breadcrumb, not a gate. Omit only if nothing points the way (validator warns).] -->
+<!-- Prompted by: [Clue links, setup:<own file> and/or hook:<kind>/<file>.md tokens, separated by ", ". Hidden from the page. Soft breadcrumb, not a gate. Omit only if nothing points the way (validator warns).] -->
 - **Cost:** [N time + N composure + [Item](../items/file.md) — any combination; omit the line entirely when free]
 - **Outcome:** [What happens — one flat result for anyone who clears Requires. No skill branches.]
-- **Gives:** [Clue links, aware: tokens, item and card links — what the player now holds, separated by ", "]
+- **Gives:** [Clue links, hook: tokens, item and card links — what the player now holds, separated by ", "]
 - **Changes:** [World/NPC state, NPC Learns, records, progress — free text, separated by "; "]
 ```
 
@@ -122,7 +122,7 @@ An action costs time when it eats a meaningful chunk of the character's day — 
 ### Rules
 
 1. **Every action has a `Gives:` line, a `Changes:` line, or both.**
-2. **Gives is what the player now holds** — a `, `-separated list of clue links, `aware:<kind>/<file>.md` tokens (knowing a location, character, item or event exists), `located:locations/<file>.md` tokens (knowing the way to a place; see [Awareness and whereabouts](story-facts/game-system.md#awareness-and-whereabouts)), item links and card links. Nothing else. A new scene or place becomes reachable by giving its `aware:` token. Checked by `python validate.py` (rule `gives-format`).
+2. **Gives is what the player now holds** — a `, `-separated list of clue links, `hook:<kind>/<file>.md` tokens (knowing a location, character, item or event exists: its Hook), `located:locations/<file>.md` tokens (knowing the way to a place; see [Awareness and whereabouts](story-facts/game-system.md#awareness-and-whereabouts)), item links and card links. Nothing else. A new scene or place becomes reachable by giving its `hook:` token. Checked by `python validate.py` (rule `gives-format`).
    - **Who receives it:** the acting player (for an opportunity, the one who noticed). An optional tag first changes that: `*(to: everyone present)*` (every player in the scene) or `*(to: every player)*` (the whole committee, wherever they are). E.g. `- **Gives:** *(to: every player)* [Lodging at the PGR Quarters](cards/lodging-at-pgr-quarters.md)`.
    **Changes is what the action changes in the world** — NPC state, world state, an NPC learning a clue (`NPC Learns:` then the npc and the clue link), census and property records, event progress, ending progress. Each entry is a link plus ` — short comment`, the link pointing at a heading in a `## Mechanics` section; or a bare link to a bond check's anchor in `## Bond`, with no comment, meaning that check is met; entries are `;`-separated. It is the other side of `When:` (one action's Changes is what another action's When checks).
 3. **Multiple outcomes are fine.** An action can give a clue and an item AND change NPC state. List them all.
@@ -156,7 +156,7 @@ An action costs time when it eats a meaningful chunk of the character's day — 
    ```
 
    **A free action has no Cost line at all** — never write `Free`, `None` or `0`. Conditions, skill discounts, injuries and notes do not belong in Cost: split them into separate actions or move them to Requires/Outcome. See the table above for when an action costs time. Checked by `python validate.py` (rule `action-cost`).
-9. **`Prompted by:` is a soft breadcrumb, not a gate.** It lists prior clue(s) or awareness that would make a player think to try this action. A player without them can still take it. It is **hidden**: an HTML comment, `<!-- Prompted by: … -->`, on its own line in an action and at the end of the line on an opportunity. It never renders; the validator and the clue graph still read it, and its links must resolve. **Format is strict:** a `, `-separated list where each entry is a clue link written like the one in `Gives:` (link text = the clue id, optionally in backticks) or an awareness token `aware:<characters|events|locations|items>/<file>.md`. Nothing else: no `;`, no free text. An action without `Prompted by:` is a validator warning. Clues never go in `Requires:` (rule 6) — a clue that points the way always goes here. This field feeds the clue graph: it draws the edge from the prompting clue to the clue this action gives.
+9. **`Prompted by:` is a soft breadcrumb, not a gate.** It lists what would make a player think to try this action: prior clue(s), what the scene shows, or knowing of something. A player without them can still take it. It is **hidden**: an HTML comment, `<!-- Prompted by: … -->`, on its own line in an action and at the end of the line on an opportunity. It never renders; the validator and the clue graph still read it, and its links must resolve. **Format is strict:** a `, `-separated list where each entry is a clue link written like the one in `Gives:` (link text = the clue id, optionally in backticks) a `setup:<kind>/<file>.md` token — cued by what the move's own file shows on encounter (its Setup); it always names the move's own file — or a `hook:<kind>/<file>.md` token — cued by knowing of another entity (its Hook), e.g. an "Ask about the old village" action. Nothing else: no `;`, no free text. An action without `Prompted by:` is a validator warning. Clues never go in `Requires:` (rule 6) — a clue that points the way always goes here. This field feeds the clue graph: it draws the edge from the prompting clue to the clue this action gives.
 
 ---
 

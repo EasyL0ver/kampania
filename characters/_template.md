@@ -65,7 +65,8 @@
      clue "given" here is isolated/unreachable in the visualisation. If raising
      a topic hands players a discoverable fact, that belongs in an ACTION
      ("Ask <NPC> about X") or an Opportunity — put the `→ Gives:` there and
-     seed it with `<!-- Prompted by: aware:characters/<npc>.md -->` so it connects.
+     seed it with `<!-- Prompted by: setup:characters/<npc>.md -->` (or `hook:<kind>/<file>.md` for a topic
+     known from elsewhere) so it connects.
      Opinions only set stance and colour.
 
      Keyed only by a link — never a free topic:

@@ -10,8 +10,8 @@ A wooden box thick with years of dust, untouched in the attic long before [@firs
 
 ## Opportunities
 
-- *(when: aware:characters/glupek.md)* — His name is on the lid, and the risqué photo is the kind a young man keeps hidden. Read this way, the box is [@first-name](../characters/glupek.md)'s. → Gives: [`box-belongs-to-glupek`](../clues/clues.md#box-belongs-to-glupek)
-- *(when: aware:characters/soldier.md)* *(noticed by: [glupek-forbidden-from-attic](../clues/clues.md#glupek-forbidden-from-attic))* — [@name](../characters/soldier.md) went by [@first-name](../characters/glupek.md) too, and the shaving kit, the war medal, the propaganda leaflet, and the house key are a grown man's, not a boy's. The boy is kept out of this attic, yet his name is on the box — so the EDEK things up here are the other [@first-name](../characters/glupek.md)'s, the dead soldier's. → Gives: [`box-belongs-to-soldier`](../clues/clues.md#box-belongs-to-soldier)
+- *(when: hook:characters/glupek.md)* — His name is on the lid, and the risqué photo is the kind a young man keeps hidden. Read this way, the box is [@first-name](../characters/glupek.md)'s. → Gives: [`box-belongs-to-glupek`](../clues/clues.md#box-belongs-to-glupek)
+- *(when: hook:characters/soldier.md)* *(noticed by: [glupek-forbidden-from-attic](../clues/clues.md#glupek-forbidden-from-attic))* — [@name](../characters/soldier.md) went by [@first-name](../characters/glupek.md) too, and the shaving kit, the war medal, the propaganda leaflet, and the house key are a grown man's, not a boy's. The boy is kept out of this attic, yet his name is on the box — so the EDEK things up here are the other [@first-name](../characters/glupek.md)'s, the dead soldier's. → Gives: [`box-belongs-to-soldier`](../clues/clues.md#box-belongs-to-soldier)
 
 ## Actions
 

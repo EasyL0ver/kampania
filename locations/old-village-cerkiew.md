@@ -29,7 +29,7 @@
 - *(noticed by: [Culture](../cards/culture.md))* — Fresh candles and incense show someone still comes here to perform rites. → Gives: [hag-tends-the-well](../clues/clues.md#hag-tends-the-well)
 - *(noticed by: [Superstitious](../cards/superstitious.md))* — The cold, the drifting candle smoke, and the watching quiet press in; a superstitious soul is certain the old villagers never truly left this hill.
 - *(noticed by: [Culture](../cards/culture.md) OR [Devotion](../cards/devotion.md) OR [Language](../cards/language.md))* — The icons and Cyrillic inscriptions identify the cerkiew as Greek Catholic and Lemko. → Gives: [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
-- The altar screen, icons, and carvings are marked all over with a recurring three-barred cross. → Gives: [three-barred-cross-in-cerkiew](../clues/clues.md#three-barred-cross-in-cerkiew) <!-- Prompted by: aware:locations/old-village-cerkiew.md -->
+- The altar screen, icons, and carvings are marked all over with a recurring three-barred cross. → Gives: [three-barred-cross-in-cerkiew](../clues/clues.md#three-barred-cross-in-cerkiew) <!-- Prompted by: setup:locations/old-village-cerkiew.md -->
 
 ## Actions
 
@@ -40,7 +40,7 @@
 - **Gives:** [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
 
 ### Open the wrapped bundle
-- **When:** Access to the cerkiew (prompted by: aware:locations/old-village-cerkiew.md)
+- **When:** Access to the cerkiew (prompted by: hook:locations/old-village-cerkiew.md)
 - **Cost:** 1 time
 - **Outcome:** The players lift the cloth-wrapped bundle from its dry corner and open it. Inside is an oil portrait of a young dark-haired woman in a blue dress, painted with a care nothing in the ruins shares. Someone carried it here and kept it dry on purpose.
 - **Gives:** [@name](../items/portrait.md), [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew), [portrait-woman-in-blue-dress](../clues/clues.md#portrait-woman-in-blue-dress)

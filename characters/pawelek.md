@@ -82,8 +82,8 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 - *(when: evening with [@first-name](pawelek.md), Babcia)* *(noticed by: [Empathy](../cards/empathy.md))* — [@name](barbara.md) watches from the kitchen. She does not understand what Babcia says either, and she is watching her son become part of something she was never part of.
 - *(when: [Condition](#condition) is tended)* *(noticed by: [Medicine](../cards/medicine.md))* — The illness will not resolve on its own in a child this size. He needs antibacterial medication; stabilization only buys time. → Gives: [paweleks-diagnosis](../clues/clues.md#paweleks-diagnosis)
 - *(when: [Condition](#condition) is tended)* *(noticed by: [Medicine](../cards/medicine.md))* — The bacterial load shows a contamination pattern: decomposing organic matter in a confined water source over years, such as a cistern, cellar, or well filled with something large and organic. → Gives: [paweleks-contamination](../clues/clues.md#paweleks-contamination)
-- *(when: Ask about drinking water)* *(noticed by: [Geology](../cards/geology.md))* — Contamination follows the water table downhill from the old village. Mapping the flow points toward [@name](../locations/old-village-ruins.md) and [@name](../locations/old-village-ruins.md). → Gives: aware:locations/old-village-ruins.md
-- *(when: Ask about drinking water)* *(noticed by: [Survival](../cards/survival.md))* — His shoes by the door carry dark, silty mud with stone dust fragments: forest-path mud with worked stone. → Gives: aware:locations/old-village-ruins.md
+- *(when: Ask about drinking water)* *(noticed by: [Geology](../cards/geology.md))* — Contamination follows the water table downhill from the old village. Mapping the flow points toward [@name](../locations/old-village-ruins.md) and [@name](../locations/old-village-ruins.md). → Gives: hook:locations/old-village-ruins.md
+- *(when: Ask about drinking water)* *(noticed by: [Survival](../cards/survival.md))* — His shoes by the door carry dark, silty mud with stone dust fragments: forest-path mud with worked stone. → Gives: hook:locations/old-village-ruins.md
 
 ## Actions
 
@@ -91,7 +91,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 - **Requires:** [Handiwork](../cards/handiwork.md)
 - **When:** Morning or afternoon, [@first-name](pawelek.md) playing with stones
 - **Outcome:** The player helps him build the circular pattern he has been copying from memory. An engineer recognizes the pattern as a well rim.
-- **Gives:** [pawelek-wanders-to-old-village](../clues/clues.md#pawelek-wanders-to-old-village), aware:locations/old-village-ruins.md
+- **Gives:** [pawelek-wanders-to-old-village](../clues/clues.md#pawelek-wanders-to-old-village), hook:locations/old-village-ruins.md
 
 ### Play cops with Pawelek
 - **Requires:** [Violence](../cards/violence.md)
@@ -101,7 +101,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 ### Speak Lemko with Pawelek
 - **Requires:** [Language](../cards/language.md)
 - **Outcome:** He recognizes the speech as like Babcia's and like the lady's. He repeats softer words from an old woman in the forest who has been kind to him.
-- **Gives:** aware:characters/hag.md
+- **Gives:** hook:characters/hag.md
 
 ### The place you can't get through
 - **When:** Playing or talking with [@first-name](pawelek.md) about the forest
@@ -118,7 +118,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 - **Requires:** [Bond: Pawełek Kopacz](../cards/bond-pawelek.md) OR [Speech](../cards/speech.md)
 - **When:** [@first-name](pawelek.md) is sick, HP 5-6 (lucid)
 - **Outcome:** He says he drank by the round stones where the water comes up, and that the lady told him not to drink it but he was thirsty.
-- **Gives:** [well-water-contaminated](../clues/clues.md#well-water-contaminated), aware:locations/old-village-ruins.md
+- **Gives:** [well-water-contaminated](../clues/clues.md#well-water-contaminated), hook:locations/old-village-ruins.md
 
 ## Bond
 

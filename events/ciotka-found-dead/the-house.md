@@ -39,7 +39,7 @@
 ### Enter the kitchen
 - **Cost:** 1 composure
 - **Outcome:** The players step into the kitchen. [@name](../../characters/ciotka.md) lies dead on the floor. Only now can they get close enough to examine the body and the table.
-- **Gives:** aware:events/ciotka-found-dead/the-kitchen.md
+- **Gives:** hook:events/ciotka-found-dead/the-kitchen.md
 
 ### The priest leaves them the key
 - **When:** The players have noticed the attic hatch (it is in the ceiling) and turned their attention to it, while [@name](../../characters/priest.md) is still present

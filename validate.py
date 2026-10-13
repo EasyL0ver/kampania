@@ -776,7 +776,7 @@ def opportunity_no_changes(f: MdFile):
 def gives_format(f: MdFile):
     """Gives (action line or opportunity `→ Gives:`) is an optional target tag, `*(to: everyone present)*` or
     `*(to: every player)*` (none: the acting / noticing player), then a ', '-separated list of what they
-    now hold: clue links, aware: tokens, item and card links."""
+    now hold: clue links, hook: tokens (knowing of an entity), item and card links."""
     for line, t in f.lines_with_numbers():
         m = GIVES_FIELD.match(t) or OPP_GIVES.search(t)
         if not m:
@@ -796,14 +796,16 @@ def gives_format(f: MdFile):
             if REQ_CLUE.match(part) or PROMPTED_AWARE.match(part) or (
                     item and (item.group(2) in ("items", "cards") or (not item.group(2) and f.kind in ("items", "cards")))):
                 continue
-            yield line, f"Gives '{value[:80]}': '{part[:60]}' is not a clue link, aware: token, item or card link (state changes go in Changes)"
+            yield line, f"Gives '{value[:80]}': '{part[:60]}' is not a clue link, hook: token, item or card link (state changes go in Changes)"
             break
 
 
 PROMPTED_FIELD = re.compile(r"^\s*-\s*\*\*Prompted by:\*\*\s*(.*?)\s*$")
 PROMPTED_JOIN = ", "
 PROMPTED_CLUE = re.compile(r"^\[`?([a-z0-9-]+)`?\]\((?:\.\./)*clues/clues\.md#([a-z0-9-]+)\)$")
-PROMPTED_AWARE = re.compile(r"^aware:(characters|events|locations|items)/[a-z0-9/-]+(?:\.md|/)$")
+PROMPTED_AWARE = re.compile(r"^hook:(characters|events|locations|items)/[a-z0-9/-]+(?:\.md|/)$")   # a Gives hook: token
+PROMPTED_SETUP = re.compile(r"^setup:((?:characters|events|locations|items)/[a-z0-9/-]+\.md)$")
+PROMPTED_HOOK = re.compile(r"^hook:((?:characters|events|locations|items)/[a-z0-9/-]+\.md)$")
 
 
 PROMPTED_TAG = re.compile(r"[`*]\(prompted by:\s*(.*?)\)[`*]", re.IGNORECASE)
@@ -811,15 +813,17 @@ PROMPTED_TAG = re.compile(r"[`*]\(prompted by:\s*(.*?)\)[`*]", re.IGNORECASE)
 
 @rule("prompted-by-format", "characters", "events", "locations", "items")
 def prompted_by_format(f: MdFile):
-    """Prompted by (hidden <!-- Prompted by: ... -->, own line in an action, line end on an opportunity) is a ', '-separated list of clue links [clue-id](../clues/clues.md#clue-id) or aware:<kind>/<file>.md tokens."""
+    """Prompted by (hidden <!-- Prompted by: ... -->, own line in an action, line end on an opportunity) is a
+    ', '-separated list of clue links [clue-id](../clues/clues.md#clue-id), setup:<file> (cued by what the move's
+    own file shows on encounter; it must name that file) or hook:<file> (cued by knowing of another entity)."""
     for line, t in f.lines_with_numbers():
         if PROMPTED_FIELD.match(t) or PROMPTED_TAG.search(t):
             yield line, "Prompted by must be hidden: <!-- Prompted by: ... -->"
         for value in PROMPTED_COMMENT.findall(t):
-            yield from _check_prompted(line, value.strip())
+            yield from _check_prompted(line, value.strip(), f)
 
 
-def _check_prompted(line: int, value: str):
+def _check_prompted(line: int, value: str, f: "MdFile | None" = None):
     if not value:
         yield line, "empty Prompted by (omit it instead)"
         return
@@ -829,9 +833,19 @@ def _check_prompted(line: int, value: str):
             if clue.group(1) != clue.group(2):
                 yield line, f"Prompted by: link text '{clue.group(1)}' does not match its anchor '#{clue.group(2)}'"
             continue
-        if not PROMPTED_AWARE.match(part):
-            yield line, f"Prompted by '{value}': '{part}' is not a clue link or an aware:<kind>/<file>.md token"
-            return
+        setup, hook = PROMPTED_SETUP.match(part), PROMPTED_HOOK.match(part)
+        if setup:
+            if f is not None and setup.group(1) != f.rel:
+                yield line, f"Prompted by '{part}': setup: names the move's own file ({f.rel})"
+            continue
+        if hook:
+            if not (REPO_ROOT / hook.group(1)).is_file():
+                yield line, f"Prompted by '{part}': {hook.group(1)} does not exist"
+            elif f is not None and hook.group(1) == f.rel:
+                yield line, f"Prompted by '{part}': hook: of the move's own file means setup:{f.rel}"
+            continue
+        yield line, f"Prompted by '{value}': '{part}' is not a clue link, setup:<own file> or hook:<kind>/<file>.md"
+        return
 
 
 COST_FIELD = re.compile(r"^\s*-\s*\*\*Cost:\*\*\s*(.*?)\s*$")
@@ -865,7 +879,7 @@ def action_cost(f: MdFile):
 
 
 MD_LINK = re.compile(r"!?\[[^\]]*\]\(\s*<?([^)\s>]+)>?(?:\s+\"[^\"]*\")?\s*\)")
-AWARE_TOKEN = re.compile(r"aware:([A-Za-z0-9/_.%-]+(?:\.md|/))")
+AWARE_TOKEN = re.compile(r"\bhook:([A-Za-z0-9/_.%-]+(?:\.md|/))")     # knowing of an entity (its Hook)
 _anchors: dict[Path, set[str]] = {}
 
 
@@ -934,7 +948,7 @@ def link_lines(f: MdFile):
 
 
 def aware_target(token: str) -> Path:
-    """aware:x/y.md is that file; aware:x/bundle/ is the bundle's default x/bundle/bundle.md."""
+    """hook:x/y.md is that file; hook:x/bundle/ is the bundle's default x/bundle/bundle.md."""
     p = unquote(token)
     if p.endswith("/"):
         return REPO_ROOT / p / (p.rstrip("/").split("/")[-1] + ".md")
@@ -1135,7 +1149,7 @@ def alias_only(f: MdFile):
                 yield line, f"link '[{text[:40]}]({target})' should read [@name]({target})"
         bare = re.sub(r"\[[^\]]*\]\([^)]*\)", lambda m: " " * len(m.group(0)), t)
         # code spans are masked, but not `(when: …)` / `(noticed by: …)` spans, which are prose
-        bare = re.sub(r"aware:\S+|`[^`(][^`]*`", lambda m: " " * len(m.group(0)), bare)
+        bare = re.sub(r"(?:aware|setup|hook):\S+|`[^`(][^`]*`", lambda m: " " * len(m.group(0)), bare)
         if f.rel == "clues/clues.md" and t.startswith("### "):
             continue          # a clue id may contain aliases
         if NAME_FIELD_LINE.match(t) or (line == f.title_line and f.kind == "characters"):
@@ -1168,7 +1182,7 @@ def todo_marker(f: MdFile):
 
 @rule("refs-resolve")
 def refs_resolve(f: MdFile):
-    """Every relative link resolves: the file exists, and a #anchor matches a heading in it. aware:path too."""
+    """Every relative link resolves: the file exists, and a #anchor matches a heading in it. hook:path too."""
     for i, t in link_lines(f):
         for target in MD_LINK.findall(t):
             if re.match(r"^[a-z][a-z0-9+.-]*:", target, re.I) or target.startswith("/"):
@@ -1182,7 +1196,7 @@ def refs_resolve(f: MdFile):
                 yield i, f"link '{target}': no heading with id '#{anchor}' in {dest.relative_to(REPO_ROOT).as_posix()}"
         for p in AWARE_TOKEN.findall(t):
             if not aware_target(p).is_file():
-                yield i, f"aware:{p} points at a file that does not exist"
+                yield i, f"hook:{p} points at a file that does not exist"
 
 
 # --------------------------------------------------------------------------

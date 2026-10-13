@@ -30,6 +30,7 @@ import build_names as N  # noqa: E402
 
 LINK = re.compile(r"\[([^\]]*)\]\(([^)\s]+)\)")
 AWARE = re.compile(r"aware:([a-z]+/[a-z0-9/-]+(?:\.md|/))")
+HOOK = re.compile(r"hook:([a-z]+/[a-z0-9/-]+(?:\.md|/))")
 FIELD = re.compile(r"^\s*-\s*\*\*([^*:]+):\*\*\s*(.*?)\s*$")
 
 
@@ -67,7 +68,8 @@ def refs(text: str, src: Path) -> list[str]:
         if r and (r.startswith(("cards/", "items/", "clue:"))):
             out.append(r)
     out += ["aware:" + aware_id(t) for t in AWARE.findall(text)]
-    return out
+    out += ["aware:" + aware_id(t) for t in HOOK.findall(text)]   # hook:X = knowing of X (Gives / Prompted by)
+    return out                                                    # (setup: needs nothing: the scene shows it)
 
 
 _table: dict | None = None

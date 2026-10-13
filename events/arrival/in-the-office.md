@@ -25,19 +25,19 @@
 ## Actions
 
 ### Listen to Wojewoda's welcome
-<!-- Prompted by: aware:locations/new-village/new-village.md -->
+<!-- Prompted by: setup:events/arrival/in-the-office.md -->
 - **Outcome:** He plays the gracious host: he is the committee's point of contact, and the heavy phone on his desk is the only line for miles, so anything the village or the committee needs runs through him.
 - **Gives:** [`wojewoda-has-only-phone`](../../clues/clues.md#wojewoda-has-only-phone)
 
 ### Call the listener in
 <!-- Prompted by: [irena-is-watchful](../../clues/clues.md#irena-is-watchful) -->
 - **Outcome:** [@first-name](../../characters/wojewoda.md) calls toward the door, and a woman steps into the office: [@setup](../../characters/wife.md) He introduces her as [@name](../../characters/wife.md). She pours the tea and stays.
-- **Gives:** aware:characters/wife.md
+- **Gives:** hook:characters/wife.md
 - **Changes:** [Listener](#listener) — joined
 
 ### Get to work
 - **Outcome:** [@first-name](../../characters/wojewoda.md) sees you out. "The telephone is here when you need it. You'll bunk in the farm barracks; [@first-name](../../characters/zofia.md) at the canteen has your beds." Half-believing the flood line: "Now get to work. Bring me proof." Otherwise: "Dinner is at seven."
-- **Gives:** *(to: every player)* [Lodging at the PGR Quarters](../../cards/lodging-at-pgr-quarters.md), aware:locations/new-village/pgr-farm/pgr-quarters.md, aware:events/dinner.md
+- **Gives:** *(to: every player)* [Lodging at the PGR Quarters](../../cards/lodging-at-pgr-quarters.md), hook:locations/new-village/pgr-farm/pgr-quarters.md, hook:events/dinner.md
 
 ## Mechanics
 

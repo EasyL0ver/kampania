@@ -27,7 +27,7 @@
 <!-- Prompted by: [glupek-forbidden-from-attic](../../../clues/clues.md#glupek-forbidden-from-attic) -->
 - **Cost:** 1 time
 - **Outcome:** Up past [@first-name](../../../characters/glupek.md)'s toys and [@first-name](../../../characters/ciotka.md)'s stores, among the dead man's things left where no one looks, is an unopened [@name](../../../items/barnas-letter.md) addressed to [@name](../../../characters/soldier.md), postmarked 1955 and never opened. [@first-name](../../../characters/ciotka.md) keeps the hatch shut and [@first-name](../../../characters/glupek.md) barred from it, so going up risks being caught, and [@name](../../../characters/neighbour.md) is across the road.
-- **Gives:** [@name](../../../items/barnas-letter.md), aware:items/barnas-letter.md
+- **Gives:** [@name](../../../items/barnas-letter.md), hook:items/barnas-letter.md
 ### Search the pile of rubbish
 <!-- Prompted by: [`ciotka-is-dead`](../../../clues/clues.md#ciotka-is-dead) -->
 - **Cost:** 1 time

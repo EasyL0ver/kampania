@@ -38,17 +38,17 @@
 <!-- Prompted by: [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area), [old-wartime-positions](../clues/clues.md#old-wartime-positions) -->
 - **Cost:** 1 time
 - **Outcome:** Working out from the firing position, a tracker picks up the old partisan paths worn between the hillside strongpoints and follows them to a camouflaged dugout deep in the forest northwest, its ventilation shafts breaking the slope. You now know exactly where the [@name](upa-bunker.md) lies.
-- **Gives:** aware:locations/upa-bunker.md
+- **Gives:** hook:locations/upa-bunker.md
 
 ### Start a survey
 - **Requires:** [Geology](../cards/geology.md) AND [@name](../items/geologists-kit.md)
 <!-- Prompted by: [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain) -->
 - **Outcome:** The party commits to shooting the col's elevation themselves. Opens [@name](../events/surveying-the-streambed.md).
-- **Gives:** aware:events/surveying-the-streambed.md
+- **Gives:** hook:events/surveying-the-streambed.md
 
 ### Start a search
 <!-- Prompted by: [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed) -->
 - **Outcome:** The party commits to hunting the dam crews' benchmark markers. Opens [@name](../events/search-for-the-benchmarks.md).
-- **Gives:** aware:events/search-for-the-benchmarks.md
+- **Gives:** hook:events/search-for-the-benchmarks.md
 
 <!-- Interpreting the streambed figures into streambed-dead-ends is done off-site: phone prof. Bieńkowski ("Certify the streambed"), read them as a surveyor with the geologist's kit, or show Michał Pytlak. -->

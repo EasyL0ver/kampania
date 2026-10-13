@@ -65,14 +65,14 @@ He speaks in short flat sentences with long pauses. He goes quieter when angry, 
 ## Actions
 
 ### Census interview
-<!-- Prompted by: aware:characters/neighbour.md -->
+<!-- Prompted by: setup:characters/neighbour.md -->
 - **Cost:** 1 time
 - **Outcome:** He starts hostile to government people in his home, then cooperates with clipped answers. The household record notes the licensed hunting rifle on the wall.
 - **Gives:** [neighbour-has-rifle](../clues/clues.md#neighbour-has-rifle)
 - **Changes:** [Census](../items/census.md#census) — [@first-name](neighbour.md) [@surname](neighbour.md), farmer
 
 ### Property assessment
-<!-- Prompted by: aware:characters/neighbour.md -->
+<!-- Prompted by: setup:characters/neighbour.md -->
 - **Cost:** 1 time
 - **Outcome:** He identifies his house and plot next to [@name](../locations/new-village/ciotkas-house/ciotkas-house.md). His papers are in order and his answers stay clipped — the record shows he has held the plot since ~1948.
 - **Gives:** [neighbour-is-old-settler](../clues/clues.md#neighbour-is-old-settler)
@@ -81,10 +81,10 @@ He speaks in short flat sentences with long pauses. He goes quieter when angry, 
 ### Ask about the teenage girl
 <!-- Prompted by: [dress-belonged-to-teenage-girl](../clues/clues.md#dress-belonged-to-teenage-girl) -->
 - **Outcome:** Asked about the girl who lived with the Barnaś family, he confirms they had a teenage daughter, names her [@first-name](jagna.md), and claims she left with her father years back.
-- **Gives:** [barnas-had-a-daughter-hania](../clues/clues.md#barnas-had-a-daughter-hania), aware:characters/jagna.md
+- **Gives:** [barnas-had-a-daughter-hania](../clues/clues.md#barnas-had-a-daughter-hania), hook:characters/jagna.md
 
 ### Ask about old Barnaś
-<!-- Prompted by: aware:characters/soldier.md -->
+<!-- Prompted by: hook:characters/soldier.md -->
 - **Outcome:** He knew the man from the first day, next fence over, and says it flat and without warmth: Barnaś was a soldier, KBW, came into the valley with the resettlement in '47 and never left. He has no good word for him.
 - **Gives:** [soldier-was-kbw](../clues/clues.md#soldier-was-kbw), [soldier-served-in-akcja-wisla](../clues/clues.md#soldier-served-in-akcja-wisla)
 

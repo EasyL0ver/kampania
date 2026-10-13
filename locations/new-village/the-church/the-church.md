@@ -21,7 +21,7 @@ The church on the hill in [@name](../new-village.md), beside the cemetery.
 
 ## Opportunities
 
-- *(noticed by: [Handiwork](../../../cards/handiwork.md))* — The church has better repairs, supplies, and firewood than the village should afford. → Gives: [church-too-nice](../../../clues/clues.md#church-too-nice) <!-- Prompted by: aware:locations/new-village/new-village.md -->
+- *(noticed by: [Handiwork](../../../cards/handiwork.md))* — The church has better repairs, supplies, and firewood than the village should afford. → Gives: [church-too-nice](../../../clues/clues.md#church-too-nice) <!-- Prompted by: setup:locations/new-village/the-church/the-church.md -->
 
 ## Actions
 

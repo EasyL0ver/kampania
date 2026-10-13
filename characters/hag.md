@@ -94,7 +94,7 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 
 ### Ask her about Pawelek
 - **Requires:** [Language](../cards/language.md)
-<!-- Prompted by: aware:events/pawelek-falls-ill.md -->
+<!-- Prompted by: hook:events/pawelek-falls-ill.md -->
 - **Cost:** 1 time
 - **Outcome:** She found the boy at the well and told him the water was foul and not to drink it. He was thirsty and drank anyway. She knows what bad water does, but her remedy is the old one: the boy needs a cleansing rite, not a doctor.
 - **Gives:** [`pawelek-got-it-from-water`](../clues/clues.md#pawelek-got-it-from-water), [`hag-warned-pawelek`](../clues/clues.md#hag-warned-pawelek), [`pawelek-needs-a-cleansing-ritual`](../clues/clues.md#pawelek-needs-a-cleansing-ritual)
@@ -125,7 +125,7 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 <!-- Prompted by: [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area) -->
 - **Cost:** 1 time
 - **Outcome:** With trust earned, she tells them of the dugout deep in the forest northwest, the one she knew in the war years, where she used to meet a man called [@name](../characters/dmytro-kosach.md). She still knows the way to its hidden mouth exactly.
-- **Gives:** aware:locations/upa-bunker.md
+- **Gives:** hook:locations/upa-bunker.md
 
 ### Convince her the villagers are friendly
 - **Requires:** [Language](../cards/language.md) AND ([Speech](../cards/speech.md) OR [Empathy](../cards/empathy.md))

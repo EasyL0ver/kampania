@@ -178,10 +178,12 @@ Two kinds of knowledge, each an earned token, handed over by an action's or oppo
 
 | Token | Applies to | Means | Lets you |
 |---|---|---|---|
-| `aware:<kind>/<file>.md` | any location, character, item or event | you know it exists: its `## Hook` | bring it up: **Ask about** it |
+| `hook:<kind>/<file>.md` | any location, character, item or event | you know it exists: its `## Hook` | bring it up: **Ask about** it |
 | `located:locations/<file>.md` | locations only | you know the way there | **Travel** there |
 
-`aware:<kind>/<bundle>/` means the bundle's default. `located:` implies `aware:` of the same place.
+`hook:<kind>/<bundle>/` means the bundle's default. `located:` implies `hook:` of the same place. ("Aware of X" in prose means holding `hook:X`.)
+
+The same two words mark what prompts a move (`<!-- Prompted by: … -->`): `setup:<own file>` when the cue is what the scene shows on encounter, `hook:<kind>/<file>.md` when it is knowing of something from elsewhere.
 
 - **Character:** being aware of someone means knowing their name and public role. Seeing someone is not knowing them; you are aware of them once you learn their name, by being introduced or by an action's `Gives:`. You meet people where they are: travel to a place they are at. Knowing a person never tells you where they are, and people move, so they are never located: you find them only by going to places you are located at and meeting them there. Where everyone is, phase by phase, is the GM's: each living character's file holds their schedule (Morning, Afternoon, Evening, Night), and an event's own Present overrides it for that moment.
 - **Item:** being aware of an item means knowing it exists. Getting or using it is always an action (`Requires:`, `Cost:` need you to hold it).
@@ -199,7 +201,7 @@ Two kinds of knowledge, each an earned token, handed over by an action's or oppo
 Who is "there" means two different things, kept apart:
 
 - **Present** (an event's header, or the schedules for a location scene) is who is in view: their moves are open. Each person may carry one condition on a mechanic, `(if [Mechanic](#mechanic) is value)`; while it does not hold they are not present. Everyone listed, conditions aside, is the scene's whole possible cast.
-- **Described** is how the players perceive them: by their Setup, through `[@setup]` refs in the scene's Setup (on arrival) or in an Outcome (coming into view later). They are named only once introduced (`aware:`).
+- **Described** is how the players perceive them: by their Setup, through `[@setup]` refs in the scene's Setup (on arrival) or in an Outcome (coming into view later). They are named only once introduced (`hook:`).
 - Someone out of view (listening behind a door, hiding) is listed with a condition, e.g. `(if [Wife](#wife) is joined)`, and the action that brings them in changes that mechanic.
 
 ## Resolve

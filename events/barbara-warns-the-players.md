@@ -40,7 +40,7 @@
 
 ### Get the timing out of her
 - **Outcome:** [@name](../characters/barbara.md) confirms the men gathered tonight, the rifle is gone, and [@name](../characters/neighbour.md) is not at the fence.
-- **Gives:** aware:events/punishment-lynch.md
+- **Gives:** hook:events/punishment-lynch.md
 
 ## Resolve
 

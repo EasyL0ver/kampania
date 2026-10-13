@@ -39,7 +39,7 @@ Travels in a Milicja Nysa van, driven by [@name](driver.md). Smells of cheap sta
 
 ### Ask what this is all about
 - **Outcome:** The Solina dam is nearly done; every other village in its way is emptied. Not [@name](../locations/new-village/new-village.md): the engineers say it stays dry. [@title](professor.md) [@surname](professor.md) of AGH doubts the map's heights and the drainage. Warsaw wants it settled, quietly. "You observe."
-- **Gives:** [`government-committee`](../clues/clues.md#government-committee), [`solina-dam-construction-almost-finished`](../clues/clues.md#solina-dam-construction-almost-finished), [`other-villages-ready-for-evacuation`](../clues/clues.md#other-villages-ready-for-evacuation), [`the-flood-line-potentially-miscalculated`](../clues/clues.md#the-flood-line-potentially-miscalculated), aware:characters/professor.md
+- **Gives:** [`government-committee`](../clues/clues.md#government-committee), [`solina-dam-construction-almost-finished`](../clues/clues.md#solina-dam-construction-almost-finished), [`other-villages-ready-for-evacuation`](../clues/clues.md#other-villages-ready-for-evacuation), [`the-flood-line-potentially-miscalculated`](../clues/clues.md#the-flood-line-potentially-miscalculated), hook:characters/professor.md
 
 ### Ask about the AGH folder
 <!-- Prompted by: [government-committee](../clues/clues.md#government-committee) -->

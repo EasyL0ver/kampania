@@ -88,12 +88,12 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 - **Changes:** [Property Record](../items/census.md#property-record) — [@first-name](barbara.md) [@surname](barbara.md)'s house and plot
 
 ### Ask about the village
-<!-- Prompted by: aware:locations/new-village/new-village.md -->
+<!-- Prompted by: hook:locations/new-village/new-village.md -->
 - **Outcome:** [@first-name](barbara.md) gives a generous social map: [@name](wojewoda.md) has the phone, the Gajda siblings keep the church supplied, [@name](neighbour.md) helps her, [@name](foreman.md) is busy, and the old village is not somewhere people go. Every answer comes with a friendly question back.
 - **Gives:** [`wojewoda-has-only-phone`](../clues/clues.md#wojewoda-has-only-phone), [`siblings-fund-the-church`](../clues/clues.md#siblings-fund-the-church)
 
 ### Ask about the old village
-<!-- Prompted by: aware:locations/old-village-ruins.md -->
+<!-- Prompted by: hook:locations/old-village-ruins.md -->
 - **Outcome:** She lowers her voice. Nobody goes up to the old village, she says; it is a bad place, haunted, and folk keep well away, after dark most of all. She is passing on the village feeling, not anything she has seen herself.
 - **Gives:** [`old-village-is-haunted`](../clues/clues.md#old-village-is-haunted)
 

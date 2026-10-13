@@ -50,4 +50,4 @@
 <!-- Prompted by: [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs) -->
 - **Cost:** 1 time
 - **Outcome:** [@first-name](../characters/wojewoda.md) shows the 1954 file with [@name](../items/barnas-departure-declaration.md), but does not hand it over.
-- **Gives:** aware:items/barnas-departure-declaration.md
+- **Gives:** hook:items/barnas-departure-declaration.md

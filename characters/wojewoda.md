@@ -100,7 +100,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 <!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** As the committee's point of contact, he runs down who lives where. Among the households he names his sister [@name](ciotka.md), the widow who keeps the best house at the edge of the village and cares for the boy, living apart from the rest. He also names [@name](neighbour.md), the neighbour whose house sits between [@first-name](ciotka.md)'s and [@first-name](barbara.md)'s, and the Rzepka household, where [@name](painter.md), the local painter, lives with his wife.
-- **Gives:** aware:characters/ciotka.md, aware:characters/neighbour.md, aware:characters/painter.md
+- **Gives:** hook:characters/ciotka.md, hook:characters/neighbour.md, hook:characters/painter.md
 
 ### Property assessment
 - **Cost:** 1 time
@@ -108,12 +108,12 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **Changes:** [Property Record](../items/census.md#property-record) — sołtys's house, clean title; [Flood Awareness](#flood-awareness) — rises to suspicious
 
 ### Tell him you're assessing property
-<!-- Prompted by: aware:characters/wojewoda.md -->
+<!-- Prompted by: setup:characters/wojewoda.md -->
 - **Outcome:** He nods along, but asks why a resettlement count needs land values. The answer sits badly with him.
 - **Changes:** [Flood Awareness](#flood-awareness) — rises to suspicious
 
 ### Tell him you're inventorying movable assets
-<!-- Prompted by: aware:characters/wojewoda.md -->
+<!-- Prompted by: setup:characters/wojewoda.md -->
 - **Outcome:** He hears that someone means to list what can be carried out of the valley, and goes quiet working out why.
 - **Changes:** [Flood Awareness](#flood-awareness) — rises to suspicious
 
@@ -137,17 +137,17 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **When:** Flood proof shared (["Tell with geological proof"](#tell-with-geological-proof) done), a way out such as an evacuation plan, army rescue, or the [@name](../events/operator-refuses-help.md)
 - **Cost:** 1 time
 - **Outcome:** The players give him a version of disclosure he can lead: public alarm with a plan. He decides the village must be told by him.
-- **Gives:** aware:events/the-disclosure.md
+- **Gives:** hook:events/the-disclosure.md
 - **Changes:** [Compliance](#compliance) — true, he owns the disclosure and shields the players
 
 ### Force the disclosure — the ultimatum
 - **When:** Players hold the flood proof
 - **Cost:** 1 time
 - **Outcome:** They corner him with proof and a public threat. He agrees to disclose the flood on his own terms.
-- **Gives:** aware:events/the-disclosure.md
+- **Gives:** hook:events/the-disclosure.md
 
 ### Ask about the old village
-<!-- Prompted by: aware:locations/old-village-ruins.md -->
+<!-- Prompted by: hook:locations/old-village-ruins.md -->
 - **Outcome:** He treats it as nothing worth the committee's time: there was a village up the valley once, cleared out in '47 with the rest of the range, Akcja Wisła, the people sent west. Old history, he says, no bearing on the flood or the census. He does not guard it; he just does not see why they care.
 - **Gives:** [`old-village-resettled-during-vistula`](../clues/clues.md#old-village-resettled-during-vistula)
 
@@ -169,7 +169,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 <!-- Prompted by: [house-belonged-to-edward-senior](../clues/clues.md#house-belonged-to-edward-senior), [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs) -->
 - **Cost:** 1 time
 - **Outcome:** He produces the file and lets them read the 1954 declaration with [@name](soldier.md)'s signature. He keeps the document in his hands; see [@name](../items/barnas-departure-declaration.md).
-- **Gives:** [`soldier-left-his-house-for-state`](../clues/clues.md#soldier-left-his-house-for-state), [`ciotka-moved-in-after-they-were-gone`](../clues/clues.md#ciotka-moved-in-after-they-were-gone), aware:items/barnas-departure-declaration.md
+- **Gives:** [`soldier-left-his-house-for-state`](../clues/clues.md#soldier-left-his-house-for-state), [`ciotka-moved-in-after-they-were-gone`](../clues/clues.md#ciotka-moved-in-after-they-were-gone), hook:items/barnas-departure-declaration.md
 
 ### Report the bimber still
 - **When:** Players have discovered the [@name](../locations/bimber-still.md)

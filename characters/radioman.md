@@ -90,7 +90,7 @@ He knows the official history, that the old village was Lemko and was cleared in
 - **Gives:** [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing)
 
 ### Ask about the old village
-<!-- Prompted by: aware:locations/old-village-ruins.md -->
+<!-- Prompted by: hook:locations/old-village-ruins.md -->
 - **Cost:** 1 time
 - **Outcome:** The teacher gives the official history without hesitation: it was a Lemko village, Greek Catholic, up the valley, and in 1947 the state cleared the whole range under Akcja Wisła and scattered the people west. "On paper they were resettled. On paper." He knows the record; he has no idea what the record buried.
 - **Gives:** [`old-village-was-lemko`](../clues/clues.md#old-village-was-lemko), [`old-village-resettled-during-vistula`](../clues/clues.md#old-village-resettled-during-vistula)

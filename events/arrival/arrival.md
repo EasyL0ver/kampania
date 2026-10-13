@@ -35,4 +35,4 @@ The Milicja van stopping on the muddy road as [@name](../../characters/wojewoda.
 
 ### Go with the sołtys
 - **Outcome:** You follow [@first-name](../../characters/wojewoda.md) up the road. Behind you the van turns in the mud and climbs away. By the time you look back, it is gone.
-- **Gives:** aware:events/arrival/the-walk.md
+- **Gives:** hook:events/arrival/the-walk.md

@@ -22,20 +22,20 @@
 
 ## Opportunities
 
-- *(noticed by: [Survival](../cards/survival.md))* — The shafts reveal an underground structure in the hillside. → Gives: aware:locations/upa-bunker.md
+- *(noticed by: [Survival](../cards/survival.md))* — The shafts reveal an underground structure in the hillside. → Gives: hook:locations/upa-bunker.md
 - *(noticed by: [History](../cards/history.md))* — The rusted weapons and markings show partisan presence. → Gives: [old-wartime-positions](../clues/clues.md#old-wartime-positions)
-- *(when: Search inside the bunker)* *(noticed by: [Language](../cards/language.md))* — The carved name, cache, and journal fragment connect [@name](../characters/dmytro-kosach.md) to the bunker and to [@name](hags-cabin.md). → Gives: aware:characters/dmytro-kosach.md <!-- Prompted by: aware:locations/upa-bunker.md -->
+- *(when: Search inside the bunker)* *(noticed by: [Language](../cards/language.md))* — The carved name, cache, and journal fragment connect [@name](../characters/dmytro-kosach.md) to the bunker and to [@name](hags-cabin.md). → Gives: hook:characters/dmytro-kosach.md <!-- Prompted by: setup:locations/upa-bunker.md -->
 
 ## Actions
 
 ### Explore the bunker
-- **When:** aware:locations/upa-bunker.md, or visible ventilation shafts or entrance
+- **When:** hook:locations/upa-bunker.md, or visible ventilation shafts or entrance
 - **Cost:** 1 time
 - **Outcome:** The party enters the abandoned bunker and confirms old partisan use.
-- **Gives:** aware:locations/upa-bunker.md, [old-wartime-positions](../clues/clues.md#old-wartime-positions)
+- **Gives:** hook:locations/upa-bunker.md, [old-wartime-positions](../clues/clues.md#old-wartime-positions)
 
 ### Search Dmytro-Kosach's cache
 - **When:** Explored the bunker
 - **Cost:** 1 time
 - **Outcome:** The search finds the Д. КОСАЧ carving, a rusted pistol, spare ammunition, and a Ukrainian journal fragment.
-- **Gives:** aware:characters/dmytro-kosach.md, [@name](../items/journal-fragment.md)
+- **Gives:** hook:characters/dmytro-kosach.md, [@name](../items/journal-fragment.md)

@@ -52,7 +52,7 @@
 - **When:** [@name](../characters/babcia.md) is present and the players choose not to proceed past her plea.
 - **Cost:** 1 time
 - **Outcome:** The players refuse to let the odpust be the final answer while the well dead remain unnamed.
-- **Gives:** aware:events/the-ritual.md
+- **Gives:** hook:events/the-ritual.md
 - **Changes:** [Interrupted](#interrupted) — Babcia's plea stops the odpust
 
 ## Mechanics

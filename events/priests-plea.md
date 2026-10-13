@@ -67,6 +67,6 @@
 
 ### Share his cigarette
 - **When:** [@title](../characters/priest.md) [@surname](../characters/priest.md) genuinely trusts the player (mercy supported, or a personal confidence shared in return)
-<!-- Prompted by: aware:events/priests-plea.md -->
+<!-- Prompted by: setup:events/priests-plea.md -->
 - **Outcome:** He drops the pretence, takes out a cigarette for himself and offers one to the player. The habit he hides from the village is plain.
 - **Gives:** [`priest-smokes`](../clues/clues.md#priest-smokes)

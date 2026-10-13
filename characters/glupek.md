@@ -54,7 +54,7 @@ His voice is surprisingly soft for his size. Kindness reaches him after a pause,
 ### Talk to Glupek
 - **When:** [@name](ciotka.md) present, or [@first-name](glupek.md) found alone outside
 - **Outcome:** He answers in short, simple sentences. He can give his routines, likes, dislikes, and basic memories of living with [@first-name](ciotka.md).
-- **Gives:** aware:characters/glupek.md
+- **Gives:** hook:characters/glupek.md
 
 ### Ask Glupek about his mother
 - **When:** Players talk to him directly
@@ -68,7 +68,7 @@ His voice is surprisingly soft for his size. Kindness reaches him after a pause,
 
 ### Ask Glupek about the butcher
 - **When:** Players talk to him directly
-<!-- Prompted by: aware:characters/glupek.md -->
+<!-- Prompted by: setup:characters/glupek.md -->
 - **Outcome:** He goes quiet and small. He says the butcher's dogs make him hide, and when [@surname](butcher.md) passes he cannot move. He does not know why.
 - **Gives:** [`glupek-fears-butcher`](../clues/clues.md#glupek-fears-butcher)
 

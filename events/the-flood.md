@@ -43,7 +43,7 @@
 - **When:** Access to [@first-name](../characters/wojewoda.md)'s office.
 - **Cost:** 1 time
 - **Outcome:** The line may reach the powiat office, fail, or route through the exchange. Any outside call is unreliable and monitored if [@first-name](../characters/wojewoda.md) is present.
-- **Gives:** aware:events/operator-refuses-help.md
+- **Gives:** hook:events/operator-refuses-help.md
 
 ### Help with flood response
 - **Cost:** 1 time

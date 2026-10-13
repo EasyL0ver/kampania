@@ -70,7 +70,7 @@ Read all files in these folders to understand current state:
     - **Ending Progress** — Advances an ending chain
 
 16. **Every entity has a `## Hook` and a `## Setup`** — Characters, locations, items and events all carry both:
-    - **Hook = knowing.** What a player knows once aware of it, without being there; the text of its `aware:` token and what they can ask about. Spoiler-free: no GM secrets, no meaning, no analysis.
+    - **Hook = knowing.** What a player knows once aware of it, without being there; the text of its `hook:` token and what they can ask about. Spoiler-free: no GM secrets, no meaning, no analysis.
     - **Setup = encountering.** What a player perceives the first time they are in its presence. For a character, how they look and sound, without their name (names come from introductions).
     - By type, the Hook is:
       - **Character** — name and public role/relation.

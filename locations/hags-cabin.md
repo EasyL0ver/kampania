@@ -28,8 +28,8 @@
 
 - *(noticed by: [Culture](../cards/culture.md))* — The icons, candles, herbs, and prayers show someone has the ritual form. → Gives: [hag-has-the-form](../clues/clues.md#hag-has-the-form)
 - *(noticed by: [Language](../cards/language.md) OR [Finesse](../cards/finesse.md))* — The folded Cyrillic sheet names the dead and belongs with [@name](../items/paraskewias-list.md). → Gives: [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead)
-- *(noticed by: [Culture](../cards/culture.md))* — A small three-barred crucifix hangs among the icons, unlike a Roman cross. → Gives: [three-barred-cross-in-hags-cabin](../clues/clues.md#three-barred-cross-in-hags-cabin) <!-- Prompted by: aware:locations/hags-cabin.md -->
-- *(when: found the [@name](upa-bunker.md) inscription, found the knife marked Д.К.)* — The initials connect [@name](../characters/dmytro-kosach.md)'s belongings to the bunker. → Gives: aware:characters/dmytro-kosach.md
+- *(noticed by: [Culture](../cards/culture.md))* — A small three-barred crucifix hangs among the icons, unlike a Roman cross. → Gives: [three-barred-cross-in-hags-cabin](../clues/clues.md#three-barred-cross-in-hags-cabin) <!-- Prompted by: setup:locations/hags-cabin.md -->
+- *(when: found the [@name](upa-bunker.md) inscription, found the knife marked Д.К.)* — The initials connect [@name](../characters/dmytro-kosach.md)'s belongings to the bunker. → Gives: hook:characters/dmytro-kosach.md
 
 ## Actions
 
@@ -37,7 +37,7 @@
 - **When:** Access to the cabin
 - **Cost:** 1 time
 - **Outcome:** The players find [@name](../characters/dmytro-kosach.md)'s photograph, folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth.
-- **Gives:** aware:characters/dmytro-kosach.md, [@name](../items/floorboard-tin.md)
+- **Gives:** hook:characters/dmytro-kosach.md, [@name](../items/floorboard-tin.md)
 
 ### Search the cabin after confrontation
 - **When:** Hag is dead or missing after [@name](../events/well-confrontation.md)

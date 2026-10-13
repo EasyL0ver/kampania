@@ -28,7 +28,7 @@ The river, hillsides, and forest edges around [@name](new-village/new-village.md
 
 ## Opportunities
 
-- *(when: on a survey route)* *(noticed by: [Survival](../cards/survival.md))* — Stone ruins of the old village are visible through the trees. → Gives: aware:locations/old-village-ruins.md
+- *(when: on a survey route)* *(noticed by: [Survival](../cards/survival.md))* — Stone ruins of the old village are visible through the trees. → Gives: hook:locations/old-village-ruins.md
 - *(when: on the route past [@name](../characters/butcher.md)'s house)* *(noticed by: [Finesse](../cards/finesse.md))* — At his house, [@surname](../characters/butcher.md) is alone near the treeline and using the same direction repeatedly. → Gives: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest)
 - *(when: near the treeline track)* *(noticed by: [Survival](../cards/survival.md))* — [@name](../characters/wujas.md) and the crew carry bottles toward the forest. → Gives: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
 - *(when: on a survey route)* *(noticed by: [Survival](../cards/survival.md))* — The notch in the ridge is choked with fallen rock and earth: the landslide plug. → Gives: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap) <!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
@@ -41,18 +41,18 @@ The river, hillsides, and forest edges around [@name](new-village/new-village.md
 <!-- Prompted by: [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain), [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map), [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land) -->
 - **Cost:** 1 time
 - **Outcome:** You reach the notch. A landslide has choked the gap with fallen rock and earth. Whether that fill actually stops the water is a further question, settled at [@name](the-ridge-gap.md) by climbing the plug for a geological read on-site or by describing it to [@name](../characters/professor.md).
-- **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), aware:locations/the-ridge-gap.md, aware:events/climb-the-plug.md, aware:events/foreman-saves-village.md
+- **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), hook:locations/the-ridge-gap.md, hook:events/climb-the-plug.md, hook:events/foreman-saves-village.md
 
 ### Wander the forest
 - **Cost:** 1 time
 - **Outcome:** The GM gives one missing forest lead from bottle glass and cold ash, deep boot-prints, woodsmoke and burnt herbs, collapsed dugouts and rusted metal, or [@name](../characters/butcher.md) watching from the treeline.
-- **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest), [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest), aware:characters/hag.md, [old-wartime-positions](../clues/clues.md#old-wartime-positions)
+- **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest), [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest), hook:characters/hag.md, [old-wartime-positions](../clues/clues.md#old-wartime-positions)
 
 ### Follow the drinking crew
 <!-- Prompted by: [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest) -->
 - **Cost:** 1 time
 - **Outcome:** The trail leads to the [@name](bimber-still.md).
-- **Gives:** [bimber-still](../clues/clues.md#bimber-still), aware:locations/bimber-still.md
+- **Gives:** [bimber-still](../clues/clues.md#bimber-still), hook:locations/bimber-still.md
 
 ### Follow the Butcher's path
 <!-- Prompted by: [butcher-heads-toward-forest](../clues/clues.md#butcher-heads-toward-forest) -->
@@ -62,10 +62,10 @@ The river, hillsides, and forest edges around [@name](new-village/new-village.md
 
 ### Track the hag to her cabin
 - **Requires:** [Survival](../cards/survival.md)
-<!-- Prompted by: aware:characters/hag.md -->
+<!-- Prompted by: hook:characters/hag.md -->
 - **Cost:** 1 time
 - **Outcome:** Knowing someone lives out here, a tracker cuts her sign from the forest floor: silent footfalls, snapped herbs, a worn path under the undergrowth. The trail runs back to the [@name](hags-cabin.md).
-- **Gives:** aware:locations/hags-cabin.md
+- **Gives:** hook:locations/hags-cabin.md
 
 ### Search the old wartime positions
 - **When:** The military map from [@name](new-village/pgr-farm/pgr-office.md), or [@name](../characters/foreman.md)'s terrain hints
@@ -77,4 +77,4 @@ The river, hillsides, and forest edges around [@name](new-village/new-village.md
 <!-- Prompted by: [old-wartime-positions](../clues/clues.md#old-wartime-positions), [upa-bunkers-in-the-area](../clues/clues.md#upa-bunkers-in-the-area) -->
 - **Cost:** 1 time
 - **Outcome:** Ventilation shafts and a hidden entrance reveal the [@name](upa-bunker.md); [@name](../characters/glupek.md) may be near the mouth.
-- **Gives:** aware:locations/upa-bunker.md, aware:locations/upa-bunker.md
+- **Gives:** hook:locations/upa-bunker.md, hook:locations/upa-bunker.md

@@ -25,14 +25,14 @@
 ## Opportunities
 
 - being here at night, the players hear it themselves: a woman singing prayers out in the forest. → Gives: [singing-in-the-night](../clues/clues.md#singing-in-the-night)
-- a woman is there at the well, singing, before she bolts into the dark. → Gives: aware:characters/hag.md
+- a woman is there at the well, singing, before she bolts into the dark. → Gives: hook:characters/hag.md
 
 ## Actions
 
 ### Follow the singing
 - **Cost:** 1 time
 - **Outcome:** The singing leads through the forest to the [@name](../locations/old-village-cerkiew.md).
-- **Gives:** aware:locations/old-village-ruins.md
+- **Gives:** hook:locations/old-village-ruins.md
 
 ### Sneak closer and watch
 - **Requires:** [Finesse](../cards/finesse.md)

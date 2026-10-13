@@ -27,7 +27,7 @@
 ## Opportunities
 
 - The wooden buildings stand charred and collapsed; the village burned. → Gives: [old-village-was-burned](../clues/clues.md#old-village-was-burned)
-- Apart from the homesteads, the old church stands: a larger timber building, clearly the village cerkiew. → Gives: aware:locations/old-village-cerkiew.md <!-- Prompted by: aware:locations/old-village-ruins.md -->
+- Apart from the homesteads, the old church stands: a larger timber building, clearly the village cerkiew. → Gives: hook:locations/old-village-cerkiew.md <!-- Prompted by: setup:locations/old-village-ruins.md -->
 
 ## Actions
 

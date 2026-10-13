@@ -35,9 +35,9 @@
 - **When:** a climber, the rest of the party on the ground, and a rope for the killzone
 <!-- Prompted by: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), [water-may-flow-over](../clues/clues.md#water-may-flow-over) -->
 - **Outcome:** The party sets up at the foot of the plug and goes for the crest. Play [@name](../events/climb-the-plug.md).
-- **Gives:** aware:events/climb-the-plug.md
+- **Gives:** hook:events/climb-the-plug.md
 
 ### Climb the plug in the rain
 - **When:** The demolition charges and a committed engineering plan (from [@name](../events/foreman-saves-village.md)); a climber willing to go up at flood peak
 - **Outcome:** With the charges in hand and the flood cresting, the party goes back up to set the charge. Play [@name](../events/climb-the-plug-in-the-rain.md).
-- **Gives:** aware:events/climb-the-plug-in-the-rain.md
+- **Gives:** hook:events/climb-the-plug-in-the-rain.md
