@@ -1,7 +1,5 @@
 # Staszek Pytlak
 
-**Type:** Child — [@name](../pawelek.md)'s friend
-
 ## Hook
 
 - [@first-name](staszek-pytlak.md) [@surname](staszek-pytlak.md), a small village boy, [@name](../pawelek.md)'s playmate.
@@ -11,17 +9,21 @@
 - **First name:** Staszek
 - **Surname:** Pytlak
 - **Status:** Resident
+- **Morning:** [@name](../../locations/new-village/new-village.md)
+- **Afternoon:** [@name](../../locations/new-village/new-village.md)
+- **Evening:** [@name](../../locations/new-village/new-village.md)
+- **Night:** [@name](../../locations/new-village/new-village.md)
 - **Born:** 1962
 - **Age in 1967:** 5
-- **Lives in:** [@name](../../locations/new-village.md) — with his parents
-- **Settled:** Born in [@name](../../locations/new-village.md)
+- **Lives in:** [@name](../../locations/new-village/new-village.md) — with his parents
+- **Settled:** Born in [@name](../../locations/new-village/new-village.md)
 - **Parents:** [@name](../foreman.md) and [@name](../zofia.md)
 
 ## Character
 
 A slightly older village child who plays with [@name](../pawelek.md) before the illness. He may know where [@name](../pawelek.md) drank contaminated water, or he may only remember fragments.
 
-## Appearance
+## Setup
 
 - **Clothes:** Not specified.
 - **Hair & face:** Not specified.

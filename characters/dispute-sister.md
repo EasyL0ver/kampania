@@ -1,7 +1,5 @@
 # Danuta Bednarz (née Wróbel)
 
-**Type:** Named character — the one who works the land (land-dispute red herring)
-
 ## Hook
 
 [@first-name](dispute-sister.md), a farmer who has worked the disputed border strip for years, lives at her husband's family farmhouse.
@@ -12,17 +10,21 @@
 - **Surname:** Bednarz
 - **Maiden name:** Wróbel
 - **Status:** Resident
+- **Morning:** [@name](../locations/new-village/new-village.md)
+- **Afternoon:** [@name](../locations/new-village/new-village.md)
+- **Evening:** [@name](../locations/new-village/new-village.md)
+- **Night:** [@name](../locations/new-village/new-village.md)
 - **Born:** ~1934
 - **Age in 1967:** 33
 - **Heritage:** Polish settler family
-- **Lives in:** [@name](../locations/new-village.md) — her husband's family farmhouse
+- **Lives in:** [@name](../locations/new-village/new-village.md) — her husband's family farmhouse
 - **Settled:** 1947, as a child with her father
 
 ## Character
 
 A working farmer who claims the border strip by years of labour while her brother holds the deed. Her only weapon is her father's deathbed account of what happened in [@name](../locations/old-village-ruins.md), and she does not understand the size of what she is handing over.
 
-## Appearance
+## Setup
 
 - **Clothes:** Headscarf, heavy skirt, man's jacket, field boots; red cracked hands
 - **Hair & face:** Weathered younger than her years; hair pulled back hard; jaw set until the strip comes up

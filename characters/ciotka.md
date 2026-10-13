@@ -1,7 +1,5 @@
 # Janina Gajda
 
-**Type:** Named character — sibling (sister)
-
 ## Hook
 
 [@first-name](ciotka.md) [@surname](ciotka.md), a downtrodden, devout woman who keeps house with her son [@first-name](glupek.md), sister to the sołtys.
@@ -11,17 +9,21 @@
 - **First name:** Janina
 - **Surname:** Gajda
 - **Status:** Resident
+- **Morning:** [@name](../locations/new-village/ciotkas-house/ciotkas-house.md)
+- **Afternoon:** [@name](../locations/new-village/ciotkas-house/ciotkas-house.md)
+- **Evening:** [@name](../locations/new-village/ciotkas-house/ciotkas-house.md)
+- **Night:** [@name](../locations/new-village/ciotkas-house/ciotkas-house.md)
 - **Born:** 1912
 - **Age in 1967:** 55
 - **Heritage:** Lemko descent, hidden
-- **Lives in:** [@name](../locations/ciotkas-house/ciotkas-house.md) — with [@name](glupek.md)
+- **Lives in:** [@name](../locations/new-village/ciotkas-house/ciotkas-house.md) — with [@name](glupek.md)
 - **Settled:** ~1948, first wave with siblings
 
 ## Character
 
 Devout, fearful, and honest when her guard drops. She is the moral heart of the 1954 tragedy: the person who saved [@name](glupek.md) and has lived with the cost ever since.
 
-## Appearance
+## Setup
 
 - **Clothes:** Shapeless dark dresses buttoned to the throat; headscarf outdoors
 - **Hair & face:** Thin grey hair hidden under the scarf; gaunt cheeks, permanent dark circles

@@ -1,18 +1,12 @@
 # Village Outskirts
 
-**Type:** Location (revisitable, multi-trip)
-**Location:** Terrain around the village — river, hillsides, forest edges.
-**Present:** Survey party; [@name](../characters/foreman.md) (if invited)
-**Available:** Any day; geological survey requires geological knowledge.
-**Cost:** 1 action per site surveyed; full survey is four sites; office maps or [@name](../characters/foreman.md) waive the three easy sites
-
 ## Hook
 
-The river, hillsides, and forest edges around [@name](new-village.md).
+The river, hillsides, and forest edges around [@name](new-village/new-village.md).
 
 ## Setup
 
-- The terrain includes the river, hillsides, forest edges, ridges, and valley floors around [@name](new-village.md).
+- The terrain includes the river, hillsides, forest edges, ridges, and valley floors around [@name](new-village/new-village.md).
 - The survey uses an old military topographic map and instruments.
 - The map is outdated.
 - The river has shifted.
@@ -21,7 +15,7 @@ The river, hillsides, and forest edges around [@name](new-village.md).
 - The local geology is Carpathian flysch: hard sandstone ridges over soft, slip-prone shale.
 - Long parallel ridges separate valleys.
 - Streams cross ridges through narrow water-gaps.
-- [@name](new-village.md) sits in one valley.
+- [@name](new-village/new-village.md) sits in one valley.
 - [@name](old-village-ruins.md) lies in the lower valley beyond a sandstone ridge.
 - The map marks a [@name](the-ridge-gap.md) through the ridge between the new-village valley and the empty [@name](big-basin.md).
 - The marked water-gap is blocked by loose earth and broken rock from an old landslide.
@@ -66,7 +60,6 @@ The river, hillsides, and forest edges around [@name](new-village.md).
 - **Outcome:** [@surname](../characters/butcher.md)'s trail leads past the old village toward the ridge.
 - **Gives:** [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well)
 
-
 ### Track the hag to her cabin
 - **Requires:** [Survival](../cards/survival.md)
 <!-- Prompted by: aware:characters/hag.md -->
@@ -75,7 +68,7 @@ The river, hillsides, and forest edges around [@name](new-village.md).
 - **Gives:** aware:locations/hags-cabin.md
 
 ### Search the old wartime positions
-- **When:** The military map from [@name](pgr-office.md), or [@name](../characters/foreman.md)'s terrain hints
+- **When:** The military map from [@name](new-village/pgr-farm/pgr-office.md), or [@name](../characters/foreman.md)'s terrain hints
 - **Cost:** 1 time
 - **Outcome:** The search finds collapsed dugouts and rusted metal.
 - **Gives:** [old-wartime-positions](../clues/clues.md#old-wartime-positions)

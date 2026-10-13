@@ -4,7 +4,7 @@
 
 A worn farm expense ledger: rows of dates, payees, amounts.
 
-## Description
+## Setup
 
 A worn ledger of non-payroll farm spending — seed, transport, repairs, vet bills, seasonal slaughter — running 1950–1967. Page after page of ordinary numbers in a bookkeeper's hand. Nothing looks wrong until you know what you're reading against. Familiar village names recur (Gajda, [@surname](../characters/butcher.md), [@surname](../characters/neighbour.md), Rzepka) and make the two names that matter easy to skim past.
 

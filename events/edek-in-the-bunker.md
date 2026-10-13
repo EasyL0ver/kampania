@@ -1,7 +1,7 @@
 # Glupek in the Bunker
 
 **Location:** [@name](../locations/upa-bunker.md)
-**Present:** [@name](../characters/glupek.md) (after [@name](../characters/ciotka.md)'s death)
+**Present:** [@name](../characters/glupek.md)
 **Available:** After [@name](ciotka-found-dead/ciotka-found-dead.md), when players follow the [@first-name](../characters/glupek.md) route to the bunker.
 
 ## Trigger

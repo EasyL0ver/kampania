@@ -1,7 +1,7 @@
 # Climb the Plug
 
 **Location:** [@name](../locations/the-ridge-gap.md)
-**Present:** [@name](../characters/foreman.md) (if brought on the survey)
+**Present:** [@name](../characters/foreman.md) (if [On the survey](../characters/foreman.md#on-the-survey) is true)
 **Available:** At the ridge gap, holding [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap).
 
 ## Trigger
@@ -19,8 +19,8 @@ Facing the steep plug at the ridge gap.
 - **The killzone (the crossing):** a loose, exposed traverse of shifting rock. Every hold looks ready to come away under a boot; the party will want it roped and belayed.
 - **The top pitch (top out):** the crest is capped by a slab of intact sandstone torn loose by the slide; from the ground it just looks like the top edge, and what it takes to get over it cannot be read from below, not even by a good eye. You only see the problem once you are under it.
 - The climb is a one-person job; the rest of the party work the ground: belaying the rope, reading the line, calling up.
-- The party should bring or scrounge a rope (the [@name](../locations/pgr-farm.md) or [@name](../locations/pgr-office.md) has line): they will want it for the traverse, and need it to haul anyone who cannot climb up to the crest.
-- The top pitch has one lasting solution: a clamp driven into the soft shale seam under the slab. The tools, a clamp and a hammer (both at the [@name](../locations/pgr-farm.md)), have to be carried up, which no one brings on a first blind climb.
+- The party should bring or scrounge a rope (the [@name](../locations/new-village/pgr-farm/pgr-farm.md) or [@name](../locations/new-village/pgr-farm/pgr-office.md) has line): they will want it for the traverse, and need it to haul anyone who cannot climb up to the crest.
+- The top pitch has one lasting solution: a clamp driven into the soft shale seam under the slab. The tools, a clamp and a hammer (both at the [@name](../locations/new-village/pgr-farm/pgr-farm.md)), have to be carried up, which no one brings on a first blind climb.
 - Why climb at all: the sill that decides overtopping into [@name](../locations/big-basin.md) can be read only from the crest (the reasoning lives at [@name](../locations/the-ridge-gap.md)).
 
 ## Opportunities
@@ -91,7 +91,6 @@ Facing the steep plug at the ridge gap.
 - **Outcome:** Carry the flood line to a fixed mark on the ground just below the plug: bring a level from the marked flood datum down the valley up to the mark, fixing that ground's height against the flood line. You shoot it with the kit's level and rod in a few long sights. This sets the reference the crest reading is dropped against; it does not by itself settle overtopping.
 - **Gives:** [gap-foot-level](../clues/clues.md#gap-foot-level)
 
-
 ### Level the foot of the plug with the water hose
 - **Requires:** [@name](../items/geologists-kit.md) AND [Handiwork](../cards/handiwork.md) AND [@name](../items/water-hose-contraption.md)
 - **When:** reaching the foot of the plug (no climb).
@@ -110,7 +109,6 @@ Facing the steep plug at the ridge gap.
   2. **Level the notch against the top stone.** Level the plug's lowest saddle against the top stone right there at the crest, a short local step. That last figure is the sill's height above the flood line.
   - If the sill stands above the line, rising water cannot top the plug.
 - **Gives:** [@name](../items/gap-sill-reading.md)
-
 
 ### Take the reading with the water hose
 - **Requires:** [@name](../items/geologists-kit.md) AND [Handiwork](../cards/handiwork.md) AND [@name](../items/water-hose-contraption.md)
@@ -160,8 +158,3 @@ Facing the steep plug at the ridge gap.
 
 - **Type:** rule
 - One lasting fix: drive the clamp into the shale seam (needs the clamp and hammer, carried up on a return trip, so not available on a first blind climb). The choice is to force it free-solo for **2 composure**, or retreat, fetch the clamp, and come back to fix the route clean. Forcing it without the reserve is a fall: **Wounded**.
-
-## Exits
-
-- Back down to [@name](../locations/the-ridge-gap.md) and the survey routes.
-- Report the reading to [@name](../characters/professor.md), or conclude the outlet on-site with Geology.

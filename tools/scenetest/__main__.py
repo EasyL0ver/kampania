@@ -49,6 +49,8 @@ def main() -> int:
 
     def open_moves() -> list:
         extras = [m for item, ms in sc.item_moves.items() if item in p.items for m in ms]
+        # A conditional Present person counts as there, whatever their condition: for now the
+        # test keeps every move in reach (Move.present_if is recorded, not enforced).
         return [m for m in sc.moves + extras if m.id not in explored]
 
     def referee(changes: list[str]) -> set[str]:

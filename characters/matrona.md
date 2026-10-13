@@ -1,7 +1,5 @@
 # Helena Rzepka (née Gajda)
 
-**Type:** Named character — sibling (sister) / true architect of the lynch
-
 ## Hook
 
 [@first-name](matrona.md) [@surname](matrona.md), the devout woman who runs the village store.
@@ -12,17 +10,21 @@
 - **Surname:** Rzepka
 - **Maiden name:** Gajda
 - **Status:** Resident
+- **Morning:** [@name](../locations/new-village/matronas-house.md)
+- **Afternoon:** [@name](../locations/new-village/matronas-house.md)
+- **Evening:** [@name](../locations/new-village/matronas-house.md)
+- **Night:** [@name](../locations/new-village/matronas-house.md)
 - **Born:** 1922
 - **Age in 1967:** 45
 - **Heritage:** Lemko (hidden) — see [@name](wojewoda.md) for shared sibling background
-- **Lives in:** [@name](../locations/matronas-house.md) — with [@name](painter.md), [@name](secondary/ewa-rzepka.md), [@name](secondary/krystian-rzepka.md)
+- **Lives in:** [@name](../locations/new-village/matronas-house.md) — with [@name](painter.md), [@name](secondary/ewa-rzepka.md), [@name](secondary/krystian-rzepka.md)
 - **Settled:** ~1948 — first wave, with siblings
 
 ## Character
 
 Devout in public and impenetrable in private. She is the sober architect of the 1954 lynch, the hardest sibling to crack, and the one most able to turn guilt into order.
 
-## Appearance
+## Setup
 
 - **Clothes:** Immaculate dark clothes — cardigan buttoned to the throat, always an apron, small crucifix at her collar.
 - **Hair & face:** Dark hair pinned tight beneath a headscarf; thin lips, pale grey unblinking eyes.
@@ -46,6 +48,12 @@ People lower their voices around her. Her own voice stays low and measured, so o
 
 ## Mechanics
 
+### Alive
+
+- **Type:** bool
+- **Per:** world
+- **Start:** true
+
 ### Robbery suspect
 
 - **Type:** enum (none | junior | committee)
@@ -65,7 +73,7 @@ People lower their voices around her. Her own voice stays low and measured, so o
 
 ### Property assessment
 - **Cost:** 1 time
-- **Outcome:** She names the house and [@name](../locations/the-store.md) she runs, with papers in order.
+- **Outcome:** She names the house and [@name](../locations/new-village/the-store.md) she runs, with papers in order.
 - **Changes:** [Property Record](../items/census.md#property-record) — Rzepka house and store
 
 ### Ask for the penicillin

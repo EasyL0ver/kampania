@@ -4,7 +4,7 @@
 
 - A dust-caked wooden box marked "EDEK", packed with a grown man's belongings.
 
-## Description
+## Setup
 
 A wooden box thick with years of dust, untouched in the attic long before [@first-name](../characters/ciotka.md) died. On the lid, "EDEK" in worn letters. Inside, a grown man's belongings. The name cuts two ways: [@name](../characters/glupek.md) is a boy but built like a man, and [@name](../characters/soldier.md), the father, went by [@first-name](../characters/glupek.md) too. Among the things: an old iron front-door key, a man's shaving kit and hygiene tins, a military medal, a folded [@name](propaganda-leaflet.md) showing the white eagle driving a bayonet into a trident over the slogan "DEATH TO THE BANDITS", and a photograph of a woman, risqué for the era. The photo cuts both ways — a keepsake of someone's sweetheart, or just adult material a young man might hide away.
 
@@ -17,7 +17,7 @@ A wooden box thick with years of dust, untouched in the attic long before [@firs
 
 ### Try the key in the lock
 - **Requires:** [The "EDEK" Box](edek-box.md)
-- **When:** a door of [@name](../locations/ciotkas-house/ciotkas-house.md)
+- **When:** a door of [@name](../locations/new-village/ciotkas-house/ciotkas-house.md)
 <!-- Prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead) -->
 - **Cost:** 1 time
 - **Outcome:** The key will not turn the newer lock. But the old, pitted lock below it — the door's original — takes the key and turns cleanly. It was cut for this house. The box it sat in is thick with undisturbed dust, set aside long before her time.

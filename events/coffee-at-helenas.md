@@ -1,6 +1,6 @@
 # Coffee at Matrona's
 
-**Location:** [@name](../locations/matronas-house.md)
+**Location:** [@name](../locations/new-village/matronas-house.md)
 **Present:** [@name](../characters/matrona.md), [@name](../characters/painter.md)
 **Available:** Morning of Day 6.
 
@@ -47,7 +47,7 @@
 - **Changes:** [Lynch Targets](../characters/neighbour.md#lynch-targets) — [@surname](../characters/butcher.md) becomes [@surname](../characters/neighbour.md)'s locked lynch target
 
 ### Confront her with her own hand
-<!-- Prompted by: [matrona-orchestrated-lynch](../clues/clues.md#matrona-orchestrated-lynch), [painter-heard-matrona](../clues/clues.md#painter-heard-matrona) -->
+<!-- Prompted by: [matrona-orchestrated-lynch](../clues/clues.md#matrona-orchestrated-lynch) -->
 - **Cost:** 1 composure
 - **Outcome:** [@name](../characters/matrona.md) drops the performance, admits she aimed the mob, falsely claims [@name](../characters/jagna.md) was blackmailing the family, and truthfully identifies [@name](../characters/soldier.md) as a 1947 participant who took Lemko land.
 - **Gives:** [`soldier-participated-in-massacre`](../clues/clues.md#soldier-participated-in-massacre), [`soldier-took-best-land`](../clues/clues.md#soldier-took-best-land)
@@ -65,17 +65,5 @@
 - If players hold [`glupek-strangled`](../clues/clues.md#glupek-strangled), she says exposing how [@name](../characters/glupek.md) was hurt strips away [@name](../characters/ciotka.md)'s care for him.
 - If players hold [`mazur-death-covered-up`](../clues/clues.md#mazur-death-covered-up), she says filing the truth about the PGR death would end [@name](../characters/widow.md)'s payments.
 - If players hold [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty), she says [@name](../characters/wujas.md)'s punishment is already visible in his drinking.
-- If players hold [`jagna-painter-affair`](../clues/clues.md#jagna-painter-affair) or [`matrona-controls-painter`](../clues/clues.md#matrona-controls-painter), she says exposing the affair only breaks [@name](../characters/painter.md) further.
-- If players hold [`matrona-orchestrated-lynch`](../clues/clues.md#matrona-orchestrated-lynch) or [`painter-heard-matrona`](../clues/clues.md#painter-heard-matrona), she admits she aimed the mob and argues that naming her hands the state a Lemko woman to punish.
-
-## Exits
-
-- Back into Day 6 and the village streets.
-- To [@name](second-flood-mass.md).
-- To [@name](punishment-lynch.md) after dark.
-
-## If Missed
-
-- If players decline the invitation, [@name](../characters/matrona.md) reads the refusal as their answer.
-- [@name](../characters/matrona.md) stops offering the quiet solution.
-- [@name](../characters/matrona.md) leans on [@name](../characters/wojewoda.md), tightens her grip on [@name](../characters/painter.md), and lets [@name](punishment-lynch.md) proceed.
+- If players hold [`jagna-painter-affair`](../clues/clues.md#jagna-painter-affair), she says exposing the affair only breaks [@name](../characters/painter.md) further.
+- If players hold [`matrona-orchestrated-lynch`](../clues/clues.md#matrona-orchestrated-lynch), she admits she aimed the mob and argues that naming her hands the state a Lemko woman to punish.

@@ -1,8 +1,5 @@
 # Zbigniew Gajda
 
-**Type:** Named character — sibling (brother) / sołtys
-**Freudian role:** [Superego](../story-facts/freudian-triangle.md) — authority, containment, the rules that hold the id at the edge
-
 ## Hook
 
 [@first-name](wojewoda.md) [@surname](wojewoda.md), the village sołtys and principal official, received at his house or office.
@@ -12,18 +9,22 @@
 - **First name:** Zbigniew
 - **Surname:** Gajda
 - **Status:** Resident
+- **Morning:** [@name](../locations/new-village/pgr-farm/pgr-office.md)
+- **Afternoon:** [@name](../locations/new-village/pgr-farm/pgr-office.md)
+- **Evening:** [@name](../locations/new-village/wojewodas-house.md)
+- **Night:** [@name](../locations/new-village/wojewodas-house.md)
 - **Born:** 1920
 - **Age in 1967:** 47
 - **Heritage:** Lemko hidden behind Polish identity
-- **Lives in:** [@name](../locations/wojewodas-house.md) — with [@name](wife.md), [@name](junior.md); [@name](wujas.md) crashes here
+- **Lives in:** [@name](../locations/new-village/wojewodas-house.md) — with [@name](wife.md), [@name](junior.md); [@name](wujas.md) crashes here
 - **Settled:** ~1948 — first wave, founded the village
 - **Armed:** Sołtys's pistol in the office safe, loaded
 
 ## Character
 
-Sołtys, pragmatic, authoritative, and controlled. He built [@name](../locations/new-village.md) into a functioning community and participated in the 1954 lynch without guilt.
+Sołtys, pragmatic, authoritative, and controlled. He built [@name](../locations/new-village/new-village.md) into a functioning community and participated in the 1954 lynch without guilt.
 
-## Appearance
+## Setup
 
 - **Clothes:** Pressed trousers, polished shoes, wool vest over white shirt even in summer.
 - **Hair & face:** Thinning grey-black hair combed straight back with water; thick grey moustache neatly trimmed; heavy brows over sharp dark eyes.
@@ -55,6 +56,12 @@ His voice is deep and unhurried. When angry, he goes still and quiet.
 - **[ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing)** — "Nonsense. That ditch has carried every spring melt since we cut it. It drains. I've stood and watched it drain. You saw one muddy stretch downstream and lost your nerve."
 
 ## Mechanics
+
+### Alive
+
+- **Type:** bool
+- **Per:** world
+- **Start:** true
 
 ### Braced
 

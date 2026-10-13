@@ -4,6 +4,6 @@
 
 - A military knife of the internal security corps, kept among the butcher's blades.
 
-## Description
+## Setup
 
 A KBW-issue knife, worn, sharpened often.

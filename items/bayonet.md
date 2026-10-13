@@ -4,7 +4,7 @@
 
 - An old sheathed bayonet, the blade worn and lightly oiled, kept like a treasure.
 
-## Description
+## Setup
 
 An old military bayonet, the blade kept clean and faintly oiled, the grip worn smooth from handling. It was tucked away among [@name](../characters/glupek.md)'s few things like a prize and kept hidden from [@name](../characters/ciotka.md). To an untrained eye it is just an old army knife of no particular origin.
 

@@ -1,8 +1,8 @@
 # Ciotka Found Dead — The House
 
 **Part of:** [@name](ciotka-found-dead.md)
-**Location:** [@name](../../locations/ciotkas-house/ciotkas-house.md)
-**Present:** [@name](../../characters/ciotka.md) (dead); [@name](../../characters/priest.md)
+**Location:** [@name](../../locations/new-village/ciotkas-house/ciotkas-house.md)
+**Present:** [@name](../../characters/priest.md)
 **Available:** After [Go in through the back door](ciotka-found-dead.md#go-in-through-the-back-door).
 
 ## Hook
@@ -62,14 +62,7 @@
 - [@name](../../characters/priest.md) is a decent man walking a tightrope. He wants the committee to find what this house hides, and he cannot be seen to help them: the confession seal binds what [@name](../../characters/ciotka.md) told him, and the parish funding runs through [@name](../../characters/wojewoda.md), so a wrong word costs him his vows or his church. Everything he does here is deniable.
 - He is clever, and he has a good guess what is in the attic: the looted belongings of the [@name](../../characters/soldier.md) family, the thing that would turn the committee's eyes onto the Gajdas. He will never say so, and he will never be seen to point. Play every beat as a decent priest doing the ordinary, proper thing: looking in on her, praying, not touching her things, going to tell the family. The steering should pass unnoticed in the moment. The most you want is for a sharp player, later, once they know what was up there and who was coming, to stop and think: the priest gave us that chance on purpose.
 - He does not obstruct the death investigation itself; that part is his legitimate role and it points at no one living. He understands examining her means undressing her. The one line is her body: handle her with a word of explanation and he turns away; strip her crudely, brushing past his flinch, and he takes it as contempt for the dead ([Contempt for the dead](../../characters/priest.md#contempt-for-the-dead)), his goodwill lost and remembered (see his [Grudge](../../characters/priest.md#grudge)).
-- The attic is the line he walks, and he will not step over it first. He will not raise the attic himself. Only if the committee notices the hatch and turns to it on their own does he give them the key, and even then as a plain, helpful fact about where a dead neighbour kept it, never a word about what is up there (see [The priest leaves them the key](#the-priest-leaves-them-the-key)). A committee that never looks up at the attic gets nothing from him about it; he simply leaves, and the hatch can then only be [forced](../../locations/ciotkas-house/ciotkas-house.md#force-the-attic). The help is always theirs to earn by noticing, never his to offer.
+- The attic is the line he walks, and he will not step over it first. He will not raise the attic himself. Only if the committee notices the hatch and turns to it on their own does he give them the key, and even then as a plain, helpful fact about where a dead neighbour kept it, never a word about what is up there (see [The priest leaves them the key](#the-priest-leaves-them-the-key)). A committee that never looks up at the attic gets nothing from him about it; he simply leaves, and the hatch can then only be [forced](../../locations/new-village/ciotkas-house/ciotkas-house.md#force-the-attic). The help is always theirs to earn by noticing, never his to offer.
 - He knows there is money under that board too. In his crisis of faith he is quietly hoping the committee will leave it or put it to some good, not pocket it. He will not say so and he will not stay to watch; taking it carries almost no earthly consequence (see [The money under the board](#the-money-under-the-board)). The choice, and its weight, is the players' alone.
 - How he hands them the window: he never tells them to hurry or to search. He states only neutral, true things, that going through her things is not his place, that he must fetch [@first-name](../../characters/wojewoda.md), that the man may be out and he will be a while, and lets the committee do the arithmetic. The beat he holds at the door is the closest he comes to saying it aloud. If [@first-name](../../characters/wojewoda.md) ever asks, the priest only did his duty and left the officials to theirs.
 - He has gone to fetch [@name](../../characters/wojewoda.md), her brother and the sołtys, who does not want outsiders turning over the family's house. No counted clock: a decisive committee has time to work the attic before he arrives. A committee that dawdles, or that trusts the grieving brother and simply waits for him, finds [@first-name](../../characters/wojewoda.md) take over the house and close the attic off, whatever they have not found by then is his family's business and out of their reach. His return with the family plays out in [@name](../the-family-takes-the-house.md).
-
-## Exits
-
-- Into the kitchen, where the body lies: [@name](the-kitchen.md).
-- When [@name](../../characters/priest.md) returns with the family, [@name](../the-family-takes-the-house.md).
-- Continue investigating [@name](../../locations/ciotkas-house/ciotkas-house.md).
-- Search toward the [@name](../../locations/upa-bunker.md) if the players know where to look for [@name](../../characters/glupek.md).

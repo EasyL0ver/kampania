@@ -4,7 +4,7 @@
 
 - A worn cloth-bound notebook, its pages close-written in a careful farmer's hand, years of weather, work, and prices.
 
-## Description
+## Setup
 
 A thick notebook bound in faded cloth, swollen and soft at the corners from years of handling. Most of it is the plain ledger of a settler's life: what was sown and when, prices at market, a cow calved, a roof mended, hard winters marked. The hand is careful and unhurried. Spread through it, a handful of longer entries step back from the weather and the prices to set down what was happening to the valley itself.
 

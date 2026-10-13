@@ -1,7 +1,5 @@
 # prof. Tadeusz Bieńkowski
 
-**Type:** Named character — outsider / catalyst
-
 ## Hook
 
 [@title](professor.md) [@first-name](professor.md) [@surname](professor.md), a Kraków hydrologist tied to the Solina Dam project, reachable via the telephone exchange.
@@ -12,6 +10,10 @@
 - **Surname:** Bieńkowski
 - **Title:** prof.
 - **Status:** Outsider
+- **Morning:** away
+- **Afternoon:** away
+- **Evening:** away
+- **Night:** away
 - **Born:** 1930
 - **Age in 1967:** 37
 - **Heritage:** Polish
@@ -19,9 +21,9 @@
 
 ## Character
 
-Hydrologist connected to the Solina Dam project. He discovered the flood projections may be wrong and [@name](../locations/new-village.md) could be in the flood zone. If the players reach him by phone with evidence, the truth survives outside the valley.
+Hydrologist connected to the Solina Dam project. He discovered the flood projections may be wrong and [@name](../locations/new-village/new-village.md) could be in the flood zone. If the players reach him by phone with evidence, the truth survives outside the valley.
 
-## Appearance
+## Setup
 
 - **Clothes:** Corduroy jacket with leather elbow patches, shirt pocket full of pens, city shoes wrong for fieldwork
 - **Hair & face:** Thinning hair combed to one side, wire-rimmed glasses sliding down a narrow nose, ink-stained fingers

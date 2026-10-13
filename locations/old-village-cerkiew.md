@@ -1,11 +1,5 @@
 # [@name](old-village.md) — Cerkiew
 
-**Type:** Location (discoverable)
-**Location:** Hilltop structure in [@name](old-village-ruins.md)
-**Present:** [@name](../characters/hag.md) (night rituals only)
-**Available:** After reaching [@name](old-village.md)
-**Cost:** 1 action per visit
-
 ## Hook
 
 - The old cerkiew on the hilltop of [@name](old-village.md).
@@ -58,6 +52,6 @@
 - **Gives:** [hag-tends-the-well](../clues/clues.md#hag-tends-the-well)
 
 ### Compare the brass bell
-- **When:** Searched [Ciotka's attic](ciotkas-house/attic.md#search-the-attic) and found the brass bell
+- **When:** Searched [Ciotka's attic](new-village/ciotkas-house/attic.md#search-the-attic) and found the brass bell
 - **Outcome:** The players identify the brass bell from Ciotka's attic as matching the missing cerkiew fitting.
 - **Gives:** [lemko-bell-from-the-cerkiew](../clues/clues.md#lemko-bell-from-the-cerkiew)

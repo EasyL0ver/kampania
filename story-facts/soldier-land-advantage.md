@@ -6,7 +6,7 @@
 
 When Polish colonists began settling the emptied Bieszczady around 1950, Edward Barnaś had an edge no one else did — he'd arrived in 1948, two years before the main wave. He — he already knew the area. He'd been stationed there during Akcja Wisła as part of the deportation (and massacre) forces.
 
-He used this knowledge to claim the best piece of land in [@name](../locations/new-village.md), arriving before others could scout the terrain.
+He used this knowledge to claim the best piece of land in [@name](../locations/new-village/new-village.md), arriving before others could scout the terrain.
 
 ## Why It Matters
 

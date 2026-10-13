@@ -1,11 +1,5 @@
 # [@name](old-village.md) — Homestead Ruins
 
-**Type:** Location (explorable)
-**Location:** Scattered across [@name](old-village.md) — stone foundations and chimneys.
-**Present:** Nobody (day); [@name](../characters/butcher.md) (regular visits to the well), [@name](../characters/hag.md) (night rites at the well)
-**Available:** After reaching [@name](old-village.md).
-**Cost:** 1 action per area searched
-
 ## Hook
 
 - The stone foundations and chimneys of [@name](old-village.md), the abandoned village up the valley.

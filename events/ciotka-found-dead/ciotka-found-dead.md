@@ -1,18 +1,16 @@
 # Ciotka Found Dead — Outside
 
-**Location:** [@name](../../locations/new-village.md)
+**Location:** [@name](../../locations/new-village/new-village.md)
 **Present:** [@name](../../characters/priest.md)
-**Available:** Day 3 or later, when players visit [@name](../../locations/ciotkas-house/ciotkas-house.md).
+**Available:** Day 3 or later, when players visit [@name](../../locations/new-village/ciotkas-house/ciotkas-house.md).
 
 ## Trigger
 
-- Players visit [@name](../../locations/ciotkas-house/ciotkas-house.md) on Day 3 or later.
-- Fallback trigger: [@name](../../characters/priest.md) notices [@name](../../characters/ciotka.md)'s absence at the anti-flood mass on Day 4 morning and sends someone to check.
+- Players visit [@name](../../locations/new-village/ciotkas-house/ciotkas-house.md) on Day 3 or later.
 
 ## Hook
 
 - [@name](../../characters/ciotka.md)'s front door is locked; the back door stands open.
-- [@name](../../characters/ciotka.md) is absent from mass if the fallback trigger fires.
 
 ## Setup
 
@@ -42,15 +40,3 @@
 <!-- Prompted by: [something-happened-to-ciotka](../../clues/clues.md#something-happened-to-ciotka) -->
 - **Outcome:** The back door gives onto a cold, silent house; the priest follows you in.
 - **Gives:** aware:events/ciotka-found-dead/the-house.md
-
-## Exits
-
-- [Go in through the back door](#go-in-through-the-back-door): [@name](the-house.md), and from there [@name](the-kitchen.md).
-- Search toward the [@name](../../locations/upa-bunker.md) if the players know where to look for [@name](../../characters/glupek.md).
-
-## If Missed
-
-- If players do not visit, [@name](../../characters/priest.md) finds the body after mass on Day 4.
-- If [@name](../../characters/priest.md) finds the body first, [@name](../../characters/matrona.md) can control the scene before the committee arrives.
-- Evidence may be disturbed before the committee arrives.
-- The [@name](../../locations/upa-bunker.md) remains difficult to find without prior knowledge.

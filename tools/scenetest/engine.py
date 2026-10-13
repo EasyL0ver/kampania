@@ -124,7 +124,7 @@ def self_ref(ref: str, mv: Move) -> bool:
     if not ref.startswith("aware:"):
         return False
     target, src = (ROOT / ref[6:]).resolve(), mv.src.resolve()
-    in_bundle = src.parent.parent.name in SCENE_KINDS            # e.g. events/arrival/the-walk.md
+    in_bundle = (src.parent / f"{src.parent.name}.md").is_file()   # any bundle, nested or not
     return target == src or (in_bundle and target.parent == src.parent)
 
 

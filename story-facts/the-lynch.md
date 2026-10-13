@@ -4,7 +4,7 @@
 
 ## The Trigger
 
-1954, four years after colonists settled in [@name](../locations/new-village.md). Tensions are raw, the community is new and fragile.
+1954, four years after colonists settled in [@name](../locations/new-village/new-village.md). Tensions are raw, the community is new and fragile.
 
 The affair between Hania Barnaś and Emil Rzepka was an open secret, and **Helena Rzepka — Emil's fiancée — found out on her own.** She made no scene. She went to Hania quietly and asked her, plainly, to give Emil up. It should have ended there.
 
@@ -44,7 +44,7 @@ The father was dead and the girl had vanished into the dark. Drunk, bloodied, pa
 
 **Helena Rzepka aimed the men at Hania Barnaś. She did not order Edward's death or the attack on the child — the night ran far past what she set in motion. She has never said so.**
 
-*Weeks later — the paperwork.* Edward and Marta were dead and Hania had vanished; the disappearance still had to be made official. **Helena had it laundered into a document.** She didn't hold the pen herself — **Emil Rzepka**, whose painter's hand could copy a dead man's signature, forged Edward's name on an administrative departure declaration that handed the house to the PGR and put the family's vanishing on record as a voluntary move west. Cold, deliberate, filed through the proper office — the architect directing, the broken man executing. *(GM: this is a hard, catchable crime in Emil's own hand — see [his file](../characters/painter.md) — while Helena stays one step removed, as always. The [PGR office](../locations/pgr-office.md) proves the paper is forged; it does not, by itself, name either of them.)*
+*Weeks later — the paperwork.* Edward and Marta were dead and Hania had vanished; the disappearance still had to be made official. **Helena had it laundered into a document.** She didn't hold the pen herself — **Emil Rzepka**, whose painter's hand could copy a dead man's signature, forged Edward's name on an administrative departure declaration that handed the house to the PGR and put the family's vanishing on record as a voluntary move west. Cold, deliberate, filed through the proper office — the architect directing, the broken man executing. *(GM: this is a hard, catchable crime in Emil's own hand — see [his file](../characters/painter.md) — while Helena stays one step removed, as always. The [PGR office](../locations/new-village/pgr-farm/pgr-office.md) proves the paper is forged; it does not, by itself, name either of them.)*
 
 ## The Roles
 

@@ -1,14 +1,8 @@
 # The Irrigation Ditch
 
-**Type:** Location (revisitable)
-**Location:** Runs from the PGR fields down to the low ground east of [@name](new-village.md).
-**Present:** none
-**Available:** Daytime, any day; reached from the [@name](pgr-farm.md) by following the channel off the fields.
-**Cost:** 1 action to reach; walking its length costs by action.
-
 ## Hook
 
-The ditch running from the PGR fields down to the low ground east of [@name](new-village.md).
+The ditch running from the PGR fields down to the low ground east of [@name](new-village/new-village.md).
 
 ## Setup
 

@@ -4,7 +4,7 @@
 
 ## The Naturalistic Reading
 
-A small pack (5–7 wolves) ranges in the higher forest above [@name](../locations/old-village-ruins.md). The Bieszczady has always had wolves — but 20 years of depopulated Lemko villages removed the human presence that kept them at bay. The [PGR farm](../locations/pgr-farm.md)'s livestock is the closest easy prey for miles.
+A small pack (5–7 wolves) ranges in the higher forest above [@name](../locations/old-village-ruins.md). The Bieszczady has always had wolves — but 20 years of depopulated Lemko villages removed the human presence that kept them at bay. The [PGR farm](../locations/new-village/pgr-farm/pgr-farm.md)'s livestock is the closest easy prey for miles.
 
 The 1967 rain season is the trigger. Exceptionally heavy rains flood the wolves' usual hunting grounds at higher elevation. Prey scatters. The pack moves downhill — toward the farm and its sheep.
 
@@ -39,7 +39,7 @@ The chain:
 First kills — a sheep here, a sheep there. [Michał Pytlak](../characters/foreman.md) reinforces the pens. [Ryszard Dudka](../characters/neighbour.md) takes it on himself — he's the village hunter, this is his job. Goes out with his rifle, tracks the pack, can't close. The wolves are smart, the terrain is vast, and one man isn't enough. [Zbigniew Gajda](../characters/wojewoda.md) knows about the problem but hopes Dudka handles it. The alternative is [Stanisław Rezeń](../characters/butcher.md), and that means breaking 13 years of containment.
 
 ### Day 1
-Players arrive. Wolf damage is visible at the [PGR](../locations/pgr-farm.md) — bloodstains in the pen, patched fences, nervous animals. [Michał Pytlak](../characters/foreman.md) mentions it in passing. Dudka, if encountered, is tight-lipped about his failure.
+Players arrive. Wolf damage is visible at the [PGR](../locations/new-village/pgr-farm/pgr-farm.md) — bloodstains in the pen, patched fences, nervous animals. [Michał Pytlak](../characters/foreman.md) mentions it in passing. Dudka, if encountered, is tight-lipped about his failure.
 
 Fresh kill overnight — another sheep. Zbigniew assesses the damage at the PGR. **Players CAN witness this if they're at the farm.** He stands in the pen, counts the dead, and realizes Dudka isn't going to solve this. The practical man makes the practical decision.
 

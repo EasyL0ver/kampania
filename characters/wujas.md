@@ -1,8 +1,5 @@
 # Tadek Gajda
 
-**Type:** Named character — sibling (brother)
-**Freudian role:** [Ego](../story-facts/freudian-triangle.md) — the failing mediator, cracking under the weight of what he cannot reconcile
-
 ## Hook
 
 [@nickname](wujas.md) [@surname](wujas.md), the sołtys's brother and the village drunk, rarely without a bottle.
@@ -13,6 +10,10 @@
 - **Nickname:** Tadek
 - **Surname:** Gajda
 - **Status:** Resident
+- **Morning:** [@name](../locations/new-village/wojewodas-house.md)
+- **Afternoon:** [@name](../locations/new-village/the-store.md)
+- **Evening:** [@name](../locations/bimber-still.md)
+- **Night:** [@name](../locations/bimber-still.md)
 - **Born:** 1925
 - **Age in 1967:** 42
 - **Lives in:** [@name](../locations/bimber-still.md) area / drifts between siblings' homes
@@ -22,7 +23,7 @@
 
 Alcoholic wreck and the weakest link in the cover-up. He helped in the 1954 lynch, let [@first-name](jagna.md) run, and has drowned the guilt in bimber for thirteen years.
 
-## Appearance
+## Setup
 
 - **Clothes:** Checked shirt with rolled sleeves, old marynarka with elbow patches, maciejówka cap cocked forward.
 - **Hair & face:** Still handsome under the wear; unshaven, bloodshot eyes visible up close.
@@ -38,6 +39,12 @@ His raspy warm voice gets louder and funnier with drink. The morning shakes and 
 - **[@name](jagna.md)** — "I loved her, and she never looked at me. I was one of the men who hurt her, and when she ran, I let the mountain take her."
 
 ## Mechanics
+
+### Alive
+
+- **Type:** bool
+- **Per:** world
+- **Start:** true
 
 ### Drinking Buddy
 
@@ -67,7 +74,7 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 
 ## Opportunities
 
-- *(when: [@nickname](wujas.md) present and drinking at the [@name](../locations/bimber-still.md) or the [@name](../locations/the-store.md))* *(noticed by: [Chainsmoker](../cards/chainsmoker.md))* — With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen. → Gives: [`tadek-smokes-cheapest`](../clues/clues.md#tadek-smokes-cheapest) <!-- Prompted by: aware:characters/wujas.md -->
+- *(when: [@nickname](wujas.md) present and drinking at the [@name](../locations/bimber-still.md) or the [@name](../locations/new-village/the-store.md))* *(noticed by: [Chainsmoker](../cards/chainsmoker.md))* — With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen. → Gives: [`tadek-smokes-cheapest`](../clues/clues.md#tadek-smokes-cheapest) <!-- Prompted by: aware:characters/wujas.md -->
 - *(when: Census interview)* *(noticed by: [Empathy](../cards/empathy.md))* — he is not nervous about the census; he is nervous about being asked anything at all. → Gives: [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
 - *(when: Census interview, [@nickname](wujas.md) is drunk)* — Asked about the census while drunk, he turns the answers into absurd village theatre.
 - *(when: Property assessment, [@nickname](wujas.md) is drunk)* — Drunk, he performs a property boast: he claims a fake grand estate made of the still, his brother's house, and moonlight.
@@ -76,7 +83,7 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 
 ### Drink with the crew
 - **Requires:** [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md)
-- **When:** crew present (outside the [@name](../locations/the-store.md) or at the [@name](../locations/bimber-still.md)) or an invitation from [@nickname](wujas.md); the crew is not [Hostile](#crew-hostile)
+- **When:** crew present (outside the [@name](../locations/new-village/the-store.md) or at the [@name](../locations/bimber-still.md)) or an invitation from [@nickname](wujas.md); the crew is not [Hostile](#crew-hostile)
 - **Cost:** 1 time
 - **Outcome:** The committee buys a round and shares a full session in the drinking circle. [@nickname](wujas.md) warms to whoever kept pace without judging him.
 - **Changes:** [Drinking Buddy](#drinking-buddy) — the drinking PCs become [@nickname](wujas.md)'s drinking buddies

@@ -26,7 +26,7 @@ In frontier areas like Bieszczady, PGRs were the **economic backbone** of resett
 
 ## The Bieszczady Model
 
-In [@name](../locations/new-village.md), the **sołtys (village headman) is also the PGR manager** — Zbigniew Gajda holds both titles:
+In [@name](../locations/new-village/new-village.md), the **sołtys (village headman) is also the PGR manager** — Zbigniew Gajda holds both titles:
 
 - **Sołtys:** Village administrator, state representative, law enforcement liaison
 - **Kierownik PGR:** Farm director, employer of most villagers, controller of resources
@@ -46,7 +46,7 @@ In [@name](../locations/new-village.md), the **sołtys (village headman) is also
 - Organization: Shift-based labor, seasonal peaks, rigid hierarchy
 - Conditions: Poor mechanization, harsh manual work, low wages
 
-**In [@name](../locations/new-village.md):**
+**In [@name](../locations/new-village/new-village.md):**
 - Zbigniew Gajda's PGR employs:
   - Michał Pytlak (overseer)
   - Zofia Pytlak (cook for workers)
@@ -67,7 +67,7 @@ Barbara Kopacz, despite being employed by the state, is effectively enslaved to 
 
 ## The Silence
 
-PGR villages like [@name](../locations/new-village.md) were **vertically organized control structures** disguised as economic units. The manager reported to the state, the state reported to the party, the party reported to Moscow. Independent thought or action was eliminated by dependency.
+PGR villages like [@name](../locations/new-village/new-village.md) were **vertically organized control structures** disguised as economic units. The manager reported to the state, the state reported to the party, the party reported to Moscow. Independent thought or action was eliminated by dependency.
 
 A secret like the 1954 lynch could be **buried indefinitely** because:
 - Workers are afraid of unemployment

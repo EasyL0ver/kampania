@@ -1,19 +1,19 @@
 # Hag's Prayer
 
-**Location:** [@name](../locations/barbaras-house.md)
-**Present:** [@name](../characters/hag.md) (heard, not seen)
+**Location:** [@name](../locations/new-village/barbaras-house.md)
+**Present:** [@name](../characters/hag.md)
 **Available:** Any night, while [@name](../characters/hag.md) is alive and not hostile (see her [Hostility](../characters/hag.md#village-hostility) mechanic)
 
 ## Trigger
 
 - Middle of the night.
-- Players are at [@name](../locations/barbaras-house.md) or outside in the village.
+- Players are at [@name](../locations/new-village/barbaras-house.md) or outside in the village.
 - Fires every night as long as [@name](../characters/hag.md) is alive.
 - Does not fire once [@first-name](../characters/hag.md) turns hostile (see her [Hostility](../characters/hag.md#village-hostility) mechanic); she stops coming to the well.
 
 ## Hook
 
-- Faint singing carried on the wind from the forest, heard at night from [@name](../locations/barbaras-house.md) or anywhere outside in the village.
+- Faint singing carried on the wind from the forest, heard at night from [@name](../locations/new-village/barbaras-house.md) or anywhere outside in the village.
 
 ## Setup
 
@@ -51,7 +51,3 @@
 
 - **Type:** rule
 - [@first-name](../characters/hag.md) cannot be caught, cornered, or spoken to here. The moment she is noticed, she flees, and pursuit fails in the dark. Contact must be made later, at her [@name](../locations/hags-cabin.md).
-
-## Exits
-
-- [to dictate]

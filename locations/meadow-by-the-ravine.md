@@ -1,11 +1,5 @@
 # Meadow by the Ravine
 
-**Type:** Location (hidden, discoverable)
-**Location:** Deep forest between the villages, off an old hunting track
-**Present:** Nobody
-**Available:** Requires [neighbour-believes-jagna-dead](../clues/clues.md#neighbour-believes-jagna-dead), [dudka-buried-a-friend-at-the-ravine](../clues/clues.md#dudka-buried-a-friend-at-the-ravine), or [@name](../events/hunt-with-dudka.md); reached from [@name](village-outskirts.md)
-**Cost:** 1 action to reach
-
 ## Hook
 
 - A meadow by a ravine in the forest between the villages, off an old hunting track.
@@ -31,5 +25,4 @@
 - **Cost:** 1 time
 - **Outcome:** The stones lift away; underneath are a rotted coat and scattered bones without an identifiable face.
 - **Gives:** [@name](../items/ravine-remains.md)
-
 

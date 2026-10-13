@@ -1,7 +1,5 @@
 # Hania Barnaś
 
-**Type:** Named character — daughter of [@name](soldier.md), presumed dead since 1954; secretly the telephone-exchange operator
-
 ## Hook
 
 - [@first-name](jagna.md) [@surname](jagna.md), [@name](soldier.md)'s daughter, missing since 1954.
@@ -11,6 +9,10 @@
 - **First name:** Hania
 - **Surname:** Barnaś
 - **Status:** Outsider
+- **Morning:** away
+- **Afternoon:** away
+- **Evening:** away
+- **Night:** away
 - **Born:** 1935
 - **Age in 1967:** 32
 - **Based in:** The nearest town — works the manual switchboard at the telephone exchange in the back of the post office
@@ -21,7 +23,7 @@ Missing since 1954 and presumed dead, though no one truly knows. She was proud, 
 
 From the exchange she has pieced the crime together. She knows for a fact the three men who carried out the killing, [@name](wujas.md), [@name](wojewoda.md), and [@name](butcher.md), and she strongly suspects [@name](matrona.md) instigated it, though she cannot prove it. She knows the village's only telephone sits in [@name](wojewoda.md)'s office, so every call the committee places to the outside passes through her hands.
 
-## Appearance
+## Setup
 
 - **Clothes:** Better-kept than the village expected from the Barnaś house; plain skirts and blouses worn with deliberate neatness.
 - **Hair & face:** Dark hair pinned or braided tight; bright, watchful eyes; a face that looked older when she was listening.
@@ -58,7 +60,7 @@ People remembered her as clever before they remembered her as kind. Around [@fir
 - She works the manual switchboard at the nearest town's exchange, in the back of a post office, under another name. Nobody in the valley knows she is [@first-name](jagna.md).
 - Every long-distance call the committee places — [@name](professor.md), [@name](sawicki.md), [@name](officer.md)'s superiors, the powiat — routes through her board.
 - Her identity remains unprovable from the line. A bad connection and a thirteen-year-old memory are not evidence.
-- She works one tier out from [@name](../locations/new-village.md): close enough to handle the valley's long-distance calls, far enough to stay a stranger.
+- She works one tier out from [@name](../locations/new-village/new-village.md): close enough to handle the valley's long-distance calls, far enough to stay a stranger.
 
 ### Calls
 

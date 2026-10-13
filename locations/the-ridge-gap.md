@@ -1,18 +1,12 @@
 # The Ridge Gap
 
-**Type:** Location (revisitable, discoverable)
-**Location:** The notch in the ridge between the [@name](new-village.md) valley and the empty [@name](big-basin.md) beyond it.
-**Present:** [@name](../characters/foreman.md) (if brought on the survey)
-**Available:** After reaching the gap from the survey routes ([@name](village-outskirts.md))
-**Cost:** 1 action per interaction; climbing the plug is its own scene (see [@name](../events/climb-the-plug.md))
-
 ## Hook
 
 - The notch in the ridge at the end of the valley, reached by the survey routes from the village outskirts.
 
 ## Setup
 
-- The gap is the low notch where the ridge dips between the [@name](new-village.md) valley and [@name](big-basin.md).
+- The gap is the low notch where the ridge dips between the [@name](new-village/new-village.md) valley and [@name](big-basin.md).
 - The state map draws it as an open channel, the valley's main drain.
 - An old landslide has choked the notch with fallen rock and earth.
 - From the base the fill looks like loose rubble floodwater would seep straight through.

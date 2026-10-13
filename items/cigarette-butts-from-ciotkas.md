@@ -4,7 +4,7 @@
 
 A small scatter of rain-softened, hand-pinched cigarette butts.
 
-## Description
+## Setup
 
 A small scatter of hand-pinched butts, oval, all one brand: Carmen. An aromatic premium smoke, dearer than the Sport and Extra Mocne the village runs on and rarely seen this far out. Rain has swollen them grey and soft. They were dropped at least a day before [@first-name](../characters/ciotka.md) died, not the night of.
 
@@ -25,7 +25,7 @@ A small scatter of hand-pinched butts, oval, all one brand: Carmen. An aromatic 
 
 ### Compare with the cigarette in Glupek's room
 - **Requires:** [@name](cigarette-butts-from-ciotkas.md) AND ([Finesse](../cards/finesse.md) OR [Survival](../cards/survival.md) OR [Chainsmoker](../cards/chainsmoker.md))
-- **When:** the [single cigarette found in Glupek's room](../locations/ciotkas-house/ciotkas-house.md#search-glupeks-room)
+- **When:** the [single cigarette found in Glupek's room](../locations/new-village/ciotkas-house/ciotkas-house.md#search-glupeks-room)
 <!-- Prompted by: [butts-at-ciotkas-are-carmen](../clues/clues.md#butts-at-ciotkas-are-carmen) -->
 - **Cost:** 1 time
 - **Outcome:** Laid side by side, the unsmoked cigarette from the boy's corner is the same oval Carmen as the butts at the door. [@first-name](../characters/glupek.md) does not smoke, so someone gave it to him. Who can be learned by [asking Edek](../characters/glupek.md#ask-glupek-about-the-cigarette).

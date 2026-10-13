@@ -1,7 +1,5 @@
 # Halina Zając
 
-**Type:** Store worker — [@name](../matrona.md)'s employee
-
 ## Hook
 
 - [@first-name](halina-zajac.md) [@surname](halina-zajac.md), the woman behind the counter at [@name](../matrona.md)'s store.
@@ -11,9 +9,13 @@
 - **First name:** Halina
 - **Surname:** Zając
 - **Status:** Resident
+- **Morning:** [@name](../../locations/new-village/the-store.md)
+- **Afternoon:** [@name](../../locations/new-village/the-store.md)
+- **Evening:** [@name](../../locations/new-village/new-village.md)
+- **Night:** [@name](../../locations/new-village/new-village.md)
 - **Born:** ~1927
 - **Age in 1967:** ~35-45
-- **Lives in:** [@name](../../locations/new-village.md)
+- **Lives in:** [@name](../../locations/new-village/new-village.md)
 - **Settled:** ~1956
 - **Works at:** [@first-name](../matrona.md) [@surname](../matrona.md)'s small general store
 
@@ -21,7 +23,7 @@
 
 [@first-name](halina-zajac.md) [@surname](halina-zajac.md) handles customers, stock, and money at [@first-name](../matrona.md) [@surname](../matrona.md)'s store. She sees village patterns and gossip, resents [@first-name](../matrona.md) [@surname](../matrona.md), and struggles with the drunks who linger there.
 
-## Appearance
+## Setup
 
 - **Clothes:** Not specified.
 - **Hair & face:** Not specified.

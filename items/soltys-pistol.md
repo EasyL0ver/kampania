@@ -4,6 +4,6 @@
 
 - A service pistol, oiled and loaded.
 
-## Description
+## Setup
 
 The sołtys's pistol, kept loaded in his office safe.

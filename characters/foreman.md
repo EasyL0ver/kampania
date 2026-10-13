@@ -1,7 +1,5 @@
 # Michał Pytlak
 
-**Type:** Named character — farm overseer
-
 ## Hook
 
 [@first-name](foreman.md) [@surname](foreman.md), the PGR farm overseer, directing work around the farm.
@@ -11,16 +9,20 @@
 - **First name:** Michał
 - **Surname:** Pytlak
 - **Status:** Resident
+- **Morning:** [@name](../locations/new-village/pgr-farm/pgr-farm.md)
+- **Afternoon:** [@name](../locations/new-village/pgr-farm/pgr-farm.md)
+- **Evening:** [@name](../locations/new-village/new-village.md)
+- **Night:** [@name](../locations/new-village/new-village.md)
 - **Born:** ~1910
 - **Age in 1967:** ~57
-- **Lives in:** [@name](../locations/new-village.md) — with [@name](zofia.md) (wife) and [@name](secondary/staszek-pytlak.md) (son, age 5)
+- **Lives in:** [@name](../locations/new-village/new-village.md) — with [@name](zofia.md) (wife) and [@name](secondary/staszek-pytlak.md) (son, age 5)
 - **Settled:** After 1954; knows nothing about the lynch
 
 ## Character
 
 PGR farm overseer, competent, pragmatic, and loyal to [@name](wojewoda.md). He covered up [@name](tadeusz-mazur.md)'s death in the grain silo and now insists the village can still fight the flood.
 
-## Appearance
+## Setup
 
 - **Clothes:** Wool flat cap in all weather, oil-stained trousers held up by braces, collarless shirt.
 - **Hair & face:** Short cropped hair under the cap; broad jaw, flat nose broken once and set crooked, small shrewd eyes under heavy brows.
@@ -35,6 +37,19 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 - **[@name](zofia.md)** — "She sees the valley slipping away before I admit it. I cannot listen too long, because then I may have to stop digging."
 
 ## Mechanics
+
+### Alive
+
+- **Type:** bool
+- **Per:** world
+- **Start:** true
+
+### On the survey
+
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True once the committee brings him to the streambed.
 
 ### Cooperative
 
@@ -103,7 +118,7 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 - **Outcome:** [@first-name](foreman.md) comes up to the far ridge and spends the fieldwork day working alongside the committee. He can join **only one** of the two streambed scenes, not both, and he sticks with whichever the party runs first.
   - In [@name](../events/surveying-the-streambed.md) he holds the staff for one leg of the line at no time cost to the party.
   - In [@name](../events/search-for-the-benchmarks.md) he searches one site himself: he watched the dam crews work and remembers roughly where they drove the markers, clearing that site for **2 cards** instead of 4.
-- **Changes:** [Mechanics](../events/surveying-the-streambed.md#mechanics) — holds the staff for one leg, or; [Mechanics](../events/search-for-the-benchmarks.md#mechanics) — drops one site to 2, never both
+- **Changes:** [Mechanics](../events/surveying-the-streambed.md#mechanics) — holds the staff for one leg, or; [Mechanics](../events/search-for-the-benchmarks.md#mechanics) — drops one site to 2, never both; [On the survey](#on-the-survey) — true
 
 ### Show him the streambed figures
 - **Requires:** [@name](../items/streambed-parameters.md)

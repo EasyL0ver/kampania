@@ -3,8 +3,8 @@
 
 Each sheet holds:
 - The opening, in three parts: the place (each location's Setup), what is happening
-  (an outer event when Available says "During", then the scene's own Setup), who
-  is here (each Present character's Hook). From the scene tester (scene.py).
+  (the scene's own Setup), who
+  is here (the [@setup] refs in an event's Setup; schedules in a location). From the scene tester (scene.py).
 - What you start with: the cards, items and knowledge the scene needs but does not
   hand out itself, with the prompted-by chain (engine.starting_context()). Every
   reference is spelled out: a clue by its text, an item by its Hook, a place or
@@ -64,7 +64,9 @@ def sheet(p: Path) -> str:
     out = [f"# {S.plain(sc.title, p)}", ""]
     for heading, lines in sc.parts:
         out += [f"## {heading}", ""] + ([f"- {l}" for l in lines] or ["- (nothing)"]) + [""]
-    out += ["## What you start with", ""]
+    out += ["## Present", ""]
+    out += [f"- {x}" for x in sc.present] or ["- nobody"]
+    out += ["", "## What you start with", ""]
     out.append(f"- **Skills and cards:** {', '.join(title(c) for c in ctx['cards']) or 'none'}")
     out.append("- **You carry:** " + ("none" if not ctx["items"] else ""))
     out += [f"  - {title(i)}: {hook(i)}" for i in ctx["items"]]

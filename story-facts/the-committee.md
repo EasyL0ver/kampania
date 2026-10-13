@@ -4,7 +4,7 @@
 
 ## Formation
 
-After prof. Tadeusz Bieńkowski's discovery that the flood zone **may** swallow [@name](../locations/new-village.md), the state scrambles a response. A committee is formed and dispatched to the village to prepare for the worst case. **por. Witold Skowron** (SB) is assigned as their handler — officially to "facilitate cooperation," in reality to control what they see and what they report.
+After prof. Tadeusz Bieńkowski's discovery that the flood zone **may** swallow [@name](../locations/new-village/new-village.md), the state scrambles a response. A committee is formed and dispatched to the village to prepare for the worst case. **por. Witold Skowron** (SB) is assigned as their handler — officially to "facilitate cooperation," in reality to control what they see and what they report.
 
 ## Mandate
 
@@ -14,11 +14,11 @@ The committee has three tasks, and the first two are kept in **two separate, man
 2. **The Property Ledger (title / damage)** — Who is the rightful owner of each parcel, and **where is that owner** if they are not the occupant. Drives **compensation**: money follows title. An occupant with no title gets nothing; an abandoned parcel reverts to the state.
 3. **Evacuation planning** — Prepare a relocation plan in case the flooding is confirmed.
 
-A fourth, underlying task belongs to **one of the players — a geologist**. They must take field measurements (elevation, soil, terrain) around [@name](../locations/new-village.md) and [@name](../locations/old-village.md) to determine whether the flood will actually reach the village. This survey at the village outskirts is what will confirm or deny the need for evacuation — and it requires going **into the field**, near the ruins, near the well.
+A fourth, underlying task belongs to **one of the players — a geologist**. They must take field measurements (elevation, soil, terrain) around [@name](../locations/new-village/new-village.md) and [@name](../locations/old-village.md) to determine whether the flood will actually reach the village. This survey at the village outskirts is what will confirm or deny the need for evacuation — and it requires going **into the field**, near the ruins, near the well.
 
 ## What the Village Knows
 
-**The villagers have no idea they are about to be flooded.** They know about the Solina Dam — everyone does — but they believe only [@name](../locations/old-village.md) and the lowlands are in the flood zone. [@name](../locations/new-village.md) was never part of the original displacement plan. The committee's arrival is the first sign that something has changed.
+**The villagers have no idea they are about to be flooded.** They know about the Solina Dam — everyone does — but they believe only [@name](../locations/old-village.md) and the lowlands are in the flood zone. [@name](../locations/new-village/new-village.md) was never part of the original displacement plan. The committee's arrival is the first sign that something has changed.
 
 por. Witold Skowron instructs the committee to **be delicate** — don't lead with the evacuation. Start with the census, the damage assessment. Let the villagers think this is routine paperwork. Break the news gradually, once trust is established.
 
@@ -52,7 +52,7 @@ Two crime-surfaces, one per ledger:
 
 ### The Flood Line — the scope that swallows everything
 
-The state does not want the whole valley surveyed. The instruction is narrow: **document only property below the flood line.** On paper the line is drawn low — [@name](../locations/old-village.md) and the lowlands, the parcels the state already conceded in the original displacement plan. Everything uphill, all of [@name](../locations/new-village.md), is officially *above* the water and out of scope. Skowron likes this rule: it is a fence around the paperwork, and it conveniently keeps the committee's pens away from most of the living village.
+The state does not want the whole valley surveyed. The instruction is narrow: **document only property below the flood line.** On paper the line is drawn low — [@name](../locations/old-village.md) and the lowlands, the parcels the state already conceded in the original displacement plan. Everything uphill, all of [@name](../locations/new-village/new-village.md), is officially *above* the water and out of scope. Skowron likes this rule: it is a fence around the paperwork, and it conveniently keeps the committee's pens away from most of the living village.
 
 **The geologist breaks the fence.** The field survey — the fourth task — reveals the real flood line sits far higher than the official one: the water is coming for the **entire village.** Every house, every plot, every parcel is below the line after all.
 
@@ -100,5 +100,5 @@ The players are caught between two forces that both want them to do their job qu
 - How many people are on the committee? (3–4 players?)
 - What are their professional roles? (Clerk, surveyor, engineer, party functionary?)
 - Where do they stay — Zbigniew Gajda's house? The church? A requisitioned building?
-- How long do they have before the water reaches [@name](../locations/new-village.md)?
+- How long do they have before the water reaches [@name](../locations/new-village/new-village.md)?
 - Does por. Witold Skowron travel with them or stay in the village independently?

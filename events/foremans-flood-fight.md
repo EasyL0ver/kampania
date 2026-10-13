@@ -1,6 +1,6 @@
 # Zofia Comes to the Committee
 
-**Location:** [@name](../locations/pgr-farm.md)
+**Location:** [@name](../locations/new-village/pgr-farm/pgr-farm.md)
 **Present:** [@name](../characters/zofia.md), [@name](../characters/foreman.md)
 **Available:** Day 5, any phase.
 
@@ -48,15 +48,3 @@
 - **Cost:** 1 time
 - **Outcome:** The committee finds [@name](../characters/foreman.md) knee-deep in floodwater, directing workers, hauling sandbags, and explaining that explosives can reopen the plugged water-gap above the village, and that the only explosives in reach are the old partisan ordnance left in the UPA bunkers scattered through these hills.
 - **Gives:** [`gap-is-blocked`](../clues/clues.md#gap-is-blocked), [`upa-bunkers-in-the-area`](../clues/clues.md#upa-bunkers-in-the-area), aware:events/foreman-saves-village.md
-
-## Exits
-
-- Go to the flood line at [@name](../locations/pgr-farm.md).
-- Proceed to [@name](foreman-saves-village.md) if the committee backs the plan.
-- Return to [@name](../locations/new-village.md) if the committee refuses the flood-line visit.
-
-## If Missed
-
-- [@name](../characters/zofia.md) returns to watching [@name](../characters/foreman.md) alone.
-- The engineering ending path becomes harder to access.
-- [@name](../characters/zofia.md)'s trust window closes.

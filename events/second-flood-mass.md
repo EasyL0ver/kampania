@@ -1,7 +1,7 @@
 # Second Flood Mass
 
-**Location:** [@name](../locations/the-church.md)
-**Present:** [@name](../characters/priest.md), [@name](../characters/matrona.md), [@name](../characters/painter.md), [@name](../characters/wojewoda.md), [@name](../characters/wujas.md), villagers
+**Location:** [@name](../locations/new-village/the-church/the-church.md)
+**Present:** [@name](../characters/priest.md), [@name](../characters/matrona.md), [@name](../characters/painter.md), [@name](../characters/wojewoda.md), [@name](../characters/wujas.md)
 **Available:** Day 6 morning; before [@name](punishment-lynch.md).
 
 ## Trigger
@@ -37,9 +37,3 @@
 - **Cost:** 1 time
 - **Outcome:** The challenge gives [@title](../characters/priest.md) [@surname](../characters/priest.md) and the parish a visible alternative to judgment.
 - **Changes:** [Crisis of Faith](../characters/priest.md#crisis-of-faith) — +1
-
-## Exits
-
-- Return to [@name](../locations/the-church.md).
-- Continue toward [@name](punishment-lynch.md) that night.
-- If the Faith in Redemption path is strong, continue toward [@name](the-odpust.md).

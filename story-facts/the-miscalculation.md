@@ -1,22 +1,22 @@
-# The Miscalculation — [@name](../locations/new-village.md) Will Flood
+# The Miscalculation — [@name](../locations/new-village/new-village.md) Will Flood
 
 **Type:** Core story event / inciting incident (1967)
 
 ## What Happened
 
-prof. Tadeusz Bieńkowski discovers that the hydrological calculations for the Solina reservoir **may be** wrong. The original projections indicated only [@name](../locations/old-village.md) and the low-lying areas would be submerged. But the calculations potentially underestimated the flood zone — compounded by an **exceptionally heavy 1967 rain season**, the water **could** swallow **[@name](../locations/new-village.md) as well**.
+prof. Tadeusz Bieńkowski discovers that the hydrological calculations for the Solina reservoir **may be** wrong. The original projections indicated only [@name](../locations/old-village.md) and the low-lying areas would be submerged. But the calculations potentially underestimated the flood zone — compounded by an **exceptionally heavy 1967 rain season**, the water **could** swallow **[@name](../locations/new-village/new-village.md) as well**.
 
-The key word is **could**. prof. Tadeusz Bieńkowski doesn't have enough data to be certain. The original terrain surveys lack the precision needed for a definitive answer. **A geologist must take field measurements** — elevation readings, soil samples, terrain mapping around [@name](../locations/new-village.md) and [@name](../locations/old-village.md) — to confirm or deny the threat.
+The key word is **could**. prof. Tadeusz Bieńkowski doesn't have enough data to be certain. The original terrain surveys lack the precision needed for a definitive answer. **A geologist must take field measurements** — elevation readings, soil samples, terrain mapping around [@name](../locations/new-village/new-village.md) and [@name](../locations/old-village.md) — to confirm or deny the threat.
 
 The committee is sent to prepare for the worst case while the geologist determines the truth on the ground.
 
 ## The Physical Cause — The Plugged Water-Gap
 
-The reason [@name](../locations/new-village.md) is in danger is a specific piece of terrain (full detail: [Bieszczady Terrain — Ridges, Water-Gaps & Landslide Dams](../historical%20context/18-bieszczady-terrain-and-landslides.md)).
+The reason [@name](../locations/new-village/new-village.md) is in danger is a specific piece of terrain (full detail: [Bieszczady Terrain — Ridges, Water-Gaps & Landslide Dams](../historical%20context/18-bieszczady-terrain-and-landslides.md)).
 
-A **sandstone ridge** separates the lower [old-village](../locations/old-village-ruins.md) valley — the natural low basin — from the [@name](../locations/wojewodas-house.md) valley on the river's flood path. The ridge has a **natural water-gap (przełom)** through it. On the state's map, that gap is **open**, so floodwater drains through into the low basin and the new village sits safe above it.
+A **sandstone ridge** separates the lower [old-village](../locations/old-village-ruins.md) valley — the natural low basin — from the [@name](../locations/new-village/wojewodas-house.md) valley on the river's flood path. The ridge has a **natural water-gap (przełom)** through it. On the state's map, that gap is **open**, so floodwater drains through into the low basin and the new village sits safe above it.
 
-But since that old military map was drawn, an **old landslide (osuwisko) plugged the gap** with loose debris — ordinary Bieszczady behaviour, the same mechanism that dammed the Olchowaty valley at Zwiezło in 1907. The plug seals the drainage. The swollen river can no longer pass through to the low basin, so it **backs up and rises onto [@name](../locations/new-village.md) instead.**
+But since that old military map was drawn, an **old landslide (osuwisko) plugged the gap** with loose debris — ordinary Bieszczady behaviour, the same mechanism that dammed the Olchowaty valley at Zwiezło in 1907. The plug seals the drainage. The swollen river can no longer pass through to the low basin, so it **backs up and rises onto [@name](../locations/new-village/new-village.md) instead.**
 
 **This is the miscalculation.** The state planned off a map that was correct once and quietly went obsolete — it shows the gap open; the plug that closed it was never recorded. Honest negligence, not stupidity. The geologist's field survey is what catches the difference between the paper and the ground. And the same feature is the [engineering fix](../events/foreman-saves-village.md): blow the loose plug, reopen the gap, send the water where the map always assumed it went.
 

@@ -1,7 +1,7 @@
 # The Well Confrontation
 
 **Location:** [@name](../locations/old-village-ruins.md)
-**Present:** [@name](../characters/hag.md), [@name](../characters/butcher.md), [@name](../characters/neighbour.md) (if the players got him here and left him his rifle)
+**Present:** [@name](../characters/hag.md), [@name](../characters/butcher.md), [@name](../characters/neighbour.md) (if [Warned about the well](#warned-about-the-well) is true)
 **Available:** Night of Day 4, after [@name](wolf-attack.md), unless [@name](../characters/hag.md) is hostile (see her [Hostility](../characters/hag.md#village-hostility) mechanic)
 
 ## Trigger
@@ -75,25 +75,32 @@
 - **Cost:** 2 composure
 - **Outcome:** The fighter drives [@surname](../characters/butcher.md) off while the dogs are occupied.
 - **Gives:** [Wounded](../cards/wounded.md)
-- **Changes:** [Rezeń](#butcher) — loose
+- **Changes:** [Rezeń](#butcher) — driven-off
 
 ### Shoot him
 - **When:** Present and holding a gun — [@name](../characters/neighbour.md) or [@name](../characters/wojewoda.md)
 - **Cost:** 1 composure
 - **Outcome:** [@surname](../characters/butcher.md) reads the resolve, lowers the knife, and retreats with the dogs.
-- **Changes:** [Rezeń](#butcher) — loose
+- **Changes:** [Rezeń](#butcher) — driven-off
 
 ### Shoot him in the back
 - **When:** [Shoot him](#shoot-him) resolved and [@surname](../characters/butcher.md) is retreating
 - **Cost:** 2 composure
 - **Outcome:** The player shoots [@surname](../characters/butcher.md) in the back; he crawls to the well and goes into the water.
-- **Changes:** [Rezeń](#butcher) — dead in the well
+- **Changes:** [Rezeń](#butcher) — dead in the well; [Alive](../characters/butcher.md#alive) — false
 
 ### Neighbour's rifle
 - **When:** The players got [@name](../characters/neighbour.md) here and left him his rifle; if he is [Humiliated](../characters/neighbour.md#humiliated), a player must use [Uplift Ryszard](../characters/neighbour.md#uplift-neighbour)
 - **Outcome:** [@surname](../characters/neighbour.md) aims at [@surname](../characters/butcher.md) from the trees; [@surname](../characters/butcher.md) backs off and leaves with the dogs.
-- **Changes:** [Rezeń](#butcher) — loose, backs off
+- **Changes:** [Rezeń](#butcher) — driven-off
 ## Mechanics
+
+### Warned about the well
+
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True once the players have warned [@surname](../characters/neighbour.md) about what is coming at the well. TBD: no action sets it yet.
 
 ### Dogs occupied
 
@@ -110,19 +117,10 @@
 
 ### Butcher
 
-- **Type:** enum (loose | dead-in-the-well)
+- **Type:** enum (attacking | driven-off | dead-in-the-well)
 - **Per:** world
-- **Start:** loose
+- **Start:** attacking
 
-## Exits
+## Resolve
 
-- Back down the forest path to the village or [@name](../locations/pgr-quarters.md).
-- To [@name](../locations/old-village-ruins.md) to investigate blood, water, and tracks.
-- To [@name](../locations/hags-cabin.md) for her icons, herbs, and the form of the rite.
-- To [Stanisław Rezeń](../characters/butcher.md#actions) if the players confront him.
-
-## If Missed
-
-- Without player intervention or armed [@surname](../characters/neighbour.md), the hag dies.
-- [@surname](../characters/butcher.md) kills her and drops her body in the well.
-- The aftermath belongs to [The Well](../locations/old-village-ruins.md#actions), [Hag's Cabin](../locations/hags-cabin.md#actions), and [well-influence.md](../story-facts/well-influence.md).
+- [Butcher](#butcher) is attacking and [The hag](#the-hag) is unhurt → [Alive](../characters/hag.md#alive) = false

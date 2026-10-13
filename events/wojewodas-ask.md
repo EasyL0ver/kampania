@@ -1,7 +1,7 @@
 # Wojewoda's Ask
 
-**Location:** [@name](../locations/pgr-office.md)
-**Present:** [@name](../characters/wojewoda.md), players
+**Location:** [@name](../locations/new-village/pgr-farm/pgr-office.md)
+**Present:** [@name](../characters/wojewoda.md)
 **Available:** After [@name](../characters/wojewoda.md) knows the flood is possible and knows the committee is assessing property for compensation
 
 ## Trigger
@@ -51,8 +51,3 @@
 - **Cost:** 1 time
 - **Outcome:** [@first-name](../characters/wojewoda.md) shows the 1954 file with [@name](../items/barnas-departure-declaration.md), but does not hand it over.
 - **Gives:** aware:items/barnas-departure-declaration.md
-
-## Exits
-
-- Back to the [@name](../locations/pgr-office.md) and the committee's ongoing work.
-- To [@name](the-report.md) if the players record or refuse the false property ask.

@@ -4,6 +4,6 @@
 
 - A roll of military topographic sheets, creased and annotated in pencil.
 
-## Description
+## Setup
 
 Military topographic sheets of the valley and the ridges around it, with [@name](../locations/old-village.md) still marked.

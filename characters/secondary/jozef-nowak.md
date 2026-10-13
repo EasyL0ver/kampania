@@ -1,7 +1,5 @@
 # Józef Nowak
 
-**Type:** Farm laborer — migrant or day worker
-
 ## Hook
 
 - [@first-name](jozef-nowak.md) [@surname](jozef-nowak.md), a farmhand at the PGR farm.
@@ -11,9 +9,13 @@
 - **First name:** Józef
 - **Surname:** Nowak
 - **Status:** Resident
+- **Morning:** [@name](../../locations/new-village/pgr-farm/pgr-farm.md)
+- **Afternoon:** [@name](../../locations/new-village/pgr-farm/pgr-farm.md)
+- **Evening:** [@name](../../locations/new-village/pgr-farm/pgr-quarters.md)
+- **Night:** [@name](../../locations/new-village/pgr-farm/pgr-quarters.md)
 - **Born:** ~1932
 - **Age in 1967:** ~30-40
-- **Lives in:** [@name](../../locations/pgr-quarters.md)
+- **Lives in:** [@name](../../locations/new-village/pgr-farm/pgr-quarters.md)
 - **Settled:** ~1963
 - **Works at:** PGR farm labor
 
@@ -21,7 +23,7 @@
 
 A common farmhand who does physical labor alongside [@name](../barbara.md). He may know casual farm gossip or overheard conversations without knowing the village's deeper secrets.
 
-## Appearance
+## Setup
 
 - **Clothes:** Not specified.
 - **Hair & face:** Not specified.

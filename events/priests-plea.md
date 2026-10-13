@@ -1,7 +1,7 @@
 # The Priest's Plea
 
-**Location:** [@name](../locations/the-rectory.md)
-**Present:** [@name](../characters/priest.md), one player with progressed [bond](../characters/priest.md#bond)
+**Location:** [@name](../locations/new-village/the-church/the-rectory.md)
+**Present:** [@name](../characters/priest.md)
 **Available:** Day 4 onward, after [@name](holy-mass.md); fires once.
 
 ## Trigger
@@ -70,16 +70,3 @@
 <!-- Prompted by: aware:events/priests-plea.md -->
 - **Outcome:** He drops the pretence, takes out a cigarette for himself and offers one to the player. The habit he hides from the village is plain.
 - **Gives:** [`priest-smokes`](../clues/clues.md#priest-smokes)
-
-## Exits
-
-- Return to [@name](../locations/the-church.md).
-- If mercy was supported, continue toward [@name](the-odpust.md).
-- If judgment was supported or no help is given, continue toward [@name](second-flood-mass.md) and [@name](the-seal-break.md).
-
-## If Missed
-
-- If no player earns his trust, this event never fires.
-- [@title](../characters/priest.md) [@surname](../characters/priest.md) carries the fear alone.
-- His crisis defaults toward judgment across [@name](second-flood-mass.md) and [@name](the-seal-break.md).
-- The Grace path can still open if the guilty are brought to confess.

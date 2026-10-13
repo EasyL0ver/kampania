@@ -4,7 +4,7 @@
 
 ## What the Villagers Believe
 
-The colonists of [@name](../locations/new-village.md) believe [@name](../locations/old-village.md) is **haunted**. Strange lights at night, sounds in the ruins, a feeling of being watched. Nobody goes there willingly. Parents warn children. Even Zbigniew Gajda avoids it. The ruins of the *cerkiew*, the overgrown cemetery with Cyrillic inscriptions, the crumbling *chyże* — it all feels wrong, cursed, poisoned.
+The colonists of [@name](../locations/new-village/new-village.md) believe [@name](../locations/old-village.md) is **haunted**. Strange lights at night, sounds in the ruins, a feeling of being watched. Nobody goes there willingly. Parents warn children. Even Zbigniew Gajda avoids it. The ruins of the *cerkiew*, the overgrown cemetery with Cyrillic inscriptions, the crumbling *chyże* — it all feels wrong, cursed, poisoned.
 
 This fear is convenient for everyone. It keeps people away from the well. It keeps people away from the evidence.
 
@@ -22,7 +22,7 @@ Paraskewia Chyłak has been performing these rites for **20 years** — alone, i
 - **The smell of incense** or burning herbs near [@name](../locations/old-village.md).
 - **Small offerings** — bread, honey, grain — left at the church threshold or near the cemetery.
 - **Footprints** in the mud around the ruins, too small for a man.
-- **Singing** — faint, in a language nobody in [@name](../locations/new-village.md) speaks anymore.
+- **Singing** — faint, in a language nobody in [@name](../locations/new-village/new-village.md) speaks anymore.
 
 ## Why It Matters
 

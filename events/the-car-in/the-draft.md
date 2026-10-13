@@ -3,7 +3,7 @@
 **Part of:** [@name](the-car-in.md)
 **Location:** [@name](../../locations/officers-car.md)
 **Present:** [@name](../../characters/officer.md), [@name](../../characters/driver.md)
-**Available:** During [@name](the-car-in.md), after [Ask what the work is](the-car-in.md#ask-what-the-work-is).
+**Available:** After [Ask what the committee must do](the-car-in.md#ask-what-the-committee-must-do).
 
 ## Hook
 
@@ -28,7 +28,3 @@
 - **Per:** world
 - **Start:** false
 - True once the players have introduced themselves. Done once, on the drive in. Afterwards every player holds the cards they drafted; a card nobody drafted is out of the game.
-
-## Exits
-
-- [@name](the-drive.md): the road down into the valley.

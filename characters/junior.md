@@ -1,7 +1,5 @@
 # Marek Gajda
 
-**Type:** Named character — [@name](wojewoda.md)'s son / false suspect
-
 ## Hook
 
 [@first-name](junior.md) [@surname](junior.md), the sołtys's hot-tempered young son.
@@ -11,16 +9,20 @@
 - **First name:** Marek
 - **Surname:** Gajda
 - **Status:** Resident
+- **Morning:** [@name](../locations/new-village/wojewodas-house.md)
+- **Afternoon:** [@name](../locations/new-village/wojewodas-house.md)
+- **Evening:** [@name](../locations/new-village/the-store.md)
+- **Night:** [@name](../locations/new-village/wojewodas-house.md)
 - **Born:** 1946
 - **Age in 1967:** 21
-- **Lives in:** [@name](../locations/wojewodas-house.md) — with [@name](wojewoda.md), [@name](wife.md)
-- **Settled:** Born in [@name](../locations/new-village.md)
+- **Lives in:** [@name](../locations/new-village/wojewodas-house.md) — with [@name](wojewoda.md), [@name](wife.md)
+- **Settled:** Born in [@name](../locations/new-village/new-village.md)
 
 ## Character
 
 Leather jacket, temper, and a useful bad reputation. He looks like the problem, but he is running a parallel investigation for [@name](wife.md) and will turn back toward family loyalty if she does.
 
-## Appearance
+## Setup
 
 - **Clothes:** Newer leather jacket over a dark turtleneck, scuffed boots, jeans when he can get them.
 - **Hair & face:** Dark hair grown longer than the village approves of, swept back with Brylcreem; sharp jaw, father's hard eyes.
@@ -38,14 +40,23 @@ A cigarette is usually between his lips or behind his ear. His studied cool drop
 - **[@name](barbara.md)** — "She is the only good thing here. With her, I stop being a Gajda for a while."
 - **[wujas-is-guilty](../clues/clues.md#wujas-is-guilty)** — "Do not make him into a monster before I know what happened. But if he is guilty, I need the rest."
 
+## Mechanics
+
+### Investigating
+
+- **Type:** bool
+- **Per:** world
+- **Start:** true
+- True while he runs [@first-name](wife.md)'s errands as her field agent. False once she pulls him home.
+
 ## Opportunities
 
-- *(when: Junior present, drinking with the crew at the [store](../locations/the-store.md#opportunities))* *(noticed by: [Chainsmoker](../cards/chainsmoker.md))* — Away from his father, drinking with the crew, Junior lights up. A smoker reads the brand: Carmen. → Gives: [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen)
+- *(when: Junior present, drinking with the crew at the [store](../locations/new-village/the-store.md#opportunities))* *(noticed by: [Chainsmoker](../cards/chainsmoker.md))* — Away from his father, drinking with the crew, Junior lights up. A smoker reads the brand: Carmen. → Gives: [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen)
 
 ## Actions
 
 ### Offer him a Carmen
-- **When:** Junior present; a Carmen to offer (the [store](../locations/the-store.md#buy-cigarettes) stocks them)
+- **When:** Junior present; a Carmen to offer (the [store](../locations/new-village/the-store.md#buy-cigarettes) stocks them)
 - **Outcome:** He takes it as his own, the one thing he spends on to feel above the place. Offer him a cheap Sport and he waves it off: that is not what he smokes, and you learn nothing.
 - **Gives:** [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen)
 

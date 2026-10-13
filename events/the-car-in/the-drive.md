@@ -3,7 +3,7 @@
 **Part of:** [@name](the-car-in.md)
 **Location:** [@name](../../locations/officers-car.md)
 **Present:** [@name](../../characters/officer.md), [@name](../../characters/driver.md)
-**Available:** During [@name](the-car-in.md), after [@name](the-draft.md).
+**Available:** After [@name](the-draft.md).
 
 ## Hook
 
@@ -57,16 +57,16 @@
 <!-- Prompted by: [wrona-hides-search-from-skowron](../../clues/clues.md#wrona-hides-search-from-skowron), [full-bottle-clinking-in-back](../../clues/clues.md#full-bottle-clinking-in-back) -->
 - **Cost:** 1 time
 - **Outcome:** Wedged behind the spare tyre: half a litre of Wyborowa, unopened. Beside it, a heavy wooden crate slides on every bend: its strap has snapped.
-- **Gives:** [@name](../../items/drivers-bottle.md), [`loose-crate-in-back`](../../clues/clues.md#loose-crate-in-back)
+- **Gives:** [@name](../../items/vodka.md), [`loose-crate-in-back`](../../clues/clues.md#loose-crate-in-back)
 
 ### Slip it back to him
 - **Requires:** [Finesse](../../cards/finesse.md)
-- **Cost:** [@name](../../items/drivers-bottle.md)
+- **Cost:** [@name](../../items/vodka.md)
 - **Outcome:** The bottle goes into [@first-name](../../characters/driver.md)'s coat without [@first-name](../../characters/officer.md) seeing. [@first-name](../../characters/driver.md) says nothing, but he catches your eye in the mirror.
 - **Changes:** [Standing](../../characters/driver.md#standing) — owes-you, for this player
 
 ### Hand it to the officer
-- **Cost:** [@name](../../items/drivers-bottle.md)
+- **Cost:** [@name](../../items/vodka.md)
 - **Outcome:** [@first-name](../../characters/officer.md) takes the bottle, looks at it, and puts it in his briefcase without a word. The back of [@first-name](../../characters/driver.md)'s neck goes red.
 - **Changes:** [Standing](../../characters/driver.md#standing) — grudge, for this player
 
@@ -96,8 +96,7 @@
 
 ### Ride on
 - **Outcome:** You settle back and watch the rain for the rest of the ride.
-- **Gives:** aware:events/arrival/
-- **Changes:** [Ride time](#ride-time) — 0 for this player; [Damaged](../../items/geologists-kit.md#damaged) — true if [Cargo](#cargo) is still loose
+- **Changes:** [Ride time](#ride-time) — 0 for this player
 
 ## Mechanics
 
@@ -127,10 +126,6 @@
 - **Per:** player
 - **Start:** 1
 - Played with real cards: as the drive starts, the GM hands every player 1 time card for the ride.
-- Costed actions on the drive are paid with that card. [Ride on](#ride-on) discards it: the time passes doing nothing. It never goes below 0.
-- When every player has spent theirs and [Turn](#turn) is still wrong, the GM hands every player 1 more: the detour. Once.
-- The ride ends when every player's ride time is 0: the van rolls into [@name](../../locations/new-village.md).
-
-## Exits
-
-- Once every player's [Ride time](#ride-time) is 0, the ride ends: on to [@name](../arrival/arrival.md).
+- Costed actions on the drive are paid with that card. [Ride on](#ride-on) is a pass, for a player with nothing left to do: it discards their card. It never goes below 0.
+- When every player is at 0, first the detour: if [Turn](#turn) is still wrong, every player spends 1 more time card on the long way round. It buys nothing; the van just wanders. Once.
+- Then the ride ends: the van rolls into [@name](../../locations/new-village/new-village.md). If [Cargo](#cargo) is still loose, the crate has burst on the way and the kit is [Damaged](../../items/geologists-kit.md#damaged). Every player is now aware of [@name](../arrival/arrival.md).

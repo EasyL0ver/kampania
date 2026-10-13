@@ -1,11 +1,5 @@
 # Testowo
 
-**Type:** Location (revisitable)
-**Location:** A side valley of the San, at the end of the road
-**Present:** Villagers
-**Available:** Any time
-**Cost:** Free
-
 ## Hook
 
 - [@name](new-village.md), the resettled village at the end of the valley road.
@@ -18,6 +12,7 @@
 - At the lower end of the valley stand the barns and the grain silo of the state farm.
 - Down the valley, the river runs high and brown.
 - The forest closes in on every side.
+- Places in the village: [@name](barbaras-house.md), [@name](butchers-house.md), [@name](matronas-house.md), [@name](neighbours-house.md), [@name](pgr-farm/pgr-farm.md), [@name](pgr-farm/pgr-office.md), [@name](pgr-farm/pgr-quarters.md), [@name](the-church/the-church.md), [@name](the-church/the-rectory.md), [@name](the-store.md), [@name](wojewodas-house.md), [@name](ciotkas-house/ciotkas-house.md).
 
 ## Opportunities
 

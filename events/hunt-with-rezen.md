@@ -1,7 +1,7 @@
 # The Hunt with Butcher
 
-**Location:** [@name](../locations/pgr-farm.md)
-**Present:** [@name](../characters/butcher.md), players (optional)
+**Location:** [@name](../locations/new-village/pgr-farm/pgr-farm.md)
+**Present:** [@name](../characters/butcher.md)
 **Available:** The morning after [@name](wolf-attack.md), after [@name](../characters/wojewoda.md) authorizes [@surname](../characters/butcher.md).
 
 ## Trigger
@@ -42,14 +42,3 @@
 - **Cost:** 1 time
 - **Outcome:** [@surname](../characters/butcher.md) carries the carcass deeper toward the [@name](../locations/old-village-ruins.md) and drops it into the well.
 - **Gives:** [`butcher-dumps-carcasses-in-well`](../clues/clues.md#butcher-dumps-carcasses-in-well)
-
-## Exits
-
-- Return to the [@name](../locations/pgr-farm.md).
-- Continue toward the [@name](../locations/old-village-ruins.md).
-- Trigger [@name](hunters-cross-paths.md), if [@surname](../characters/butcher.md)'s dogs disrupt [@surname](../characters/neighbour.md)'s shot.
-
-## If Missed
-
-- [@surname](../characters/butcher.md) hunts alone and locates the den on high ground.
-- If [@surname](../characters/butcher.md) kills a wolf, he puts the carcass in the well without witnesses.

@@ -1,7 +1,5 @@
 # Bolesław Kurek
 
-**Type:** Named character — the village drunk / anti-establishment loudmouth
-
 ## Hook
 
 The village drunk who was once its schoolteacher, loud against the authorities to anyone who'll share a bottle.
@@ -11,17 +9,21 @@ The village drunk who was once its schoolteacher, loud against the authorities t
 - **First name:** Bolesław
 - **Surname:** Kurek
 - **Status:** Resident
+- **Morning:** [@name](../locations/new-village/new-village.md)
+- **Afternoon:** [@name](../locations/new-village/new-village.md)
+- **Evening:** [@name](../locations/new-village/the-store.md)
+- **Night:** [@name](../locations/new-village/new-village.md)
 - **Born:** 1919
 - **Age in 1967:** 48
 - **Heritage:** Polish
-- **Lives in:** [@name](../locations/new-village.md) — a run-down cottage on the edge of the village, alone
+- **Lives in:** [@name](../locations/new-village/new-village.md) — a run-down cottage on the edge of the village, alone
 - **Settled:** ~1951 — sent here as the new village's schoolteacher during resettlement
 
 ## Character
 
 The village drunk was once its schoolteacher, until the state took the post and gave him a few years inside for "agitation." Now he drinks [@nickname](wujas.md)'s bimber, listens to Radio Wolna Europa through the jamming, and tells anyone who will listen that the authorities are lying. He is right often enough to be useful and drunk enough that nobody trusts him.
 
-## Appearance
+## Setup
 
 - **Clothes:** Grey suit jacket gone shiny at the elbows, the last relic of the teacher he was, over peasant trousers and a collarless shirt; nothing fits, nothing is clean
 - **Hair & face:** Grey stubble he shaves twice a week; wire spectacles mended with copper wire; broken veins across the nose; eyes still sharp when drink has not dulled them
@@ -33,7 +35,7 @@ He talks in a teacher's cadence, reaches for clever phrases, half-remembers Lati
 
 - **[@name](wojewoda.md)** — "He is our little tsar. He runs to the man in the black car, comes back with orders, and everyone pretends not to see it."
 - **[@name](officer.md)** — "Bezpieka. I have never spoken to him and never will, but I know what he is."
-- **[@name](priest.md)** — "He sold his silence like everyone else. [@name](../locations/the-church.md) was supposed to be the one thing they could not buy."
+- **[@name](priest.md)** — "He sold his silence like everyone else. [@name](../locations/new-village/the-church/the-church.md) was supposed to be the one thing they could not buy."
 - **[@name](wujas.md)** — "He is my one honest friend, God help us both. I drink with his crew at the still for the bottle and the talk."
 - **[@name](../locations/village-outskirts.md)** — "They built it on nothing and called it progress. Now they will drown it and call that progress too."
 - **[new-village-will-be-drowned-by-solina-lake](../clues/clues.md#new-village-will-be-drowned-by-solina-lake)** — "They knew. Of course they knew. When has the state ever not known and told us anyway?"

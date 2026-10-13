@@ -1,14 +1,8 @@
 # Bimber Still
 
-**Type:** Location (hidden, discoverable)
-**Location:** Forest clearing between [@name](new-village.md) and [@name](old-village.md), near a stream
-**Present:** [@name](../characters/wujas.md), [@name](../characters/secondary/szymek-kepa.md), [@name](../characters/secondary/romek-glowacz.md), [@name](../characters/secondary/franek-mucha.md) (irregular evenings)
-**Available:** Requires forest exploration or following [@nickname](../characters/wujas.md)'s crew from [Village Outskirts](village-outskirts.md#follow-the-drinking-crew)
-**Cost:** 1 action per visit
-
 ## Hook
 
-- A forest clearing by a stream between [@name](new-village.md) and [@name](old-village.md).
+- A forest clearing by a stream between [@name](new-village/new-village.md) and [@name](old-village.md).
 
 ## Setup
 
@@ -18,7 +12,7 @@
 - **Use:** Warm ashes show recent use.
 - **Use:** Fermentation smell is strong.
 - **Use:** Cheap Sport cigarette butts are ground into the mud all around the fire and the still.
-- **Path:** A packed footpath leads in from [@name](new-village.md).
+- **Path:** A packed footpath leads in from [@name](new-village/new-village.md).
 - **Scale:** The number of barrels and bottles exceeds personal drinking.
 - **If crew present:** The men sit around the fire with bottles and cards.
 - **If crew present:** The crew hears visitors before seeing them.
@@ -28,7 +22,7 @@
 ## Opportunities
 
 - *(noticed by: [Finesse](../cards/finesse.md))* — The still is worked at commercial scale: the operation is old and tolerated. → Gives: [bimber-still](../clues/clues.md#bimber-still)
-- *(noticed by: [Bureaucracy](../cards/bureaucracy.md) OR [Finesse](../cards/finesse.md))* — The sugar supply traces to [@name](../characters/matrona.md)'s [@name](the-store.md), which means she profits from the operation. → Gives: [bimber-still](../clues/clues.md#bimber-still)
+- *(noticed by: [Bureaucracy](../cards/bureaucracy.md) OR [Finesse](../cards/finesse.md))* — The sugar supply traces to [@name](../characters/matrona.md)'s [@name](new-village/the-store.md), which means she profits from the operation. → Gives: [bimber-still](../clues/clues.md#bimber-still)
 - *(when: searched the site)* *(noticed by: [Finesse](../cards/finesse.md))* — The site is exactly what it looks like: moonshine production, not a murder cache. → Gives: [bimber-still](../clues/clues.md#bimber-still)
 - *(noticed by: [Finesse](../cards/finesse.md) OR [Survival](../cards/survival.md) OR [Chainsmoker](../cards/chainsmoker.md))* — The ground is littered with butts, all the cheapest Sport, [@name](../characters/wujas.md)'s brand. Nothing premium here, no Carmen: the brand marks the man. → Gives: [tadek-smokes-cheapest](../clues/clues.md#tadek-smokes-cheapest) <!-- Prompted by: aware:locations/bimber-still.md -->
 - *(when: [drinking buddy](../characters/wujas.md#drinking-buddy) with [@nickname](../characters/wujas.md))* — The crew laugh about the state surveyors who came before: they drank more than they measured, drove a few stakes, and left early. → Gives: [geologists-were-drinking](../clues/clues.md#geologists-were-drinking) <!-- Prompted by: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated) -->

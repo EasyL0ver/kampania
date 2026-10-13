@@ -1,7 +1,5 @@
 # dr Leon Sawicki
 
-**Type:** Named character — authority figure, accessible only by phone
-
 ## Hook
 
 - [@title](sawicki.md) [@first-name](sawicki.md) [@surname](sawicki.md), the nearest doctor, reachable only by telephone.
@@ -12,15 +10,19 @@
 - **Surname:** Sawicki
 - **Title:** dr
 - **Status:** Outsider
+- **Morning:** away
+- **Afternoon:** away
+- **Evening:** away
+- **Night:** away
 - **Born:** 1911
 - **Age in 1967:** 56
 - **Based in:** Outside the valley — reached only by telephone
 
 ## Character
 
-The nearest medical authority outside [@name](../locations/new-village.md). He can give diagnosis guidance by telephone if the line works, but he cannot physically reach the village.
+The nearest medical authority outside [@name](../locations/new-village/new-village.md). He can give diagnosis guidance by telephone if the line works, but he cannot physically reach the village.
 
-## Appearance
+## Setup
 
 - **Clothes:** Not seen.
 - **Hair & face:** Not seen.

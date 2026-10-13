@@ -19,7 +19,7 @@ How a house and its land actually changed hands in the depopulated Bieszczady �
 
 - The 1954 Barnaś document is an **administrative departure declaration** handing the farm back to the PGR, **forged weeks after the lynch** — not a notarial sale deed.
 - **Marta had nothing to sign away** (the land was the State's, held by grant), so her bargain is her **silence and disappearance**, not a property transfer.
-- The **forgery is [Emil Rzepka](../characters/painter.md)'s** hand, at [Helena Rzepka](../characters/matrona.md)'s direction — the architect laundering the vanishing into an official record through the one skill her broken husband has left. See [the lynch](../story-facts/the-lynch.md), [departure-declaration-forged](../clues/clues.md#departure-declaration-forged), [PGR office](../locations/pgr-office.md).
+- The **forgery is [Emil Rzepka](../characters/painter.md)'s** hand, at [Helena Rzepka](../characters/matrona.md)'s direction — the architect laundering the vanishing into an official record through the one skill her broken husband has left. See [the lynch](../story-facts/the-lynch.md), [departure-declaration-forged](../clues/clues.md#departure-declaration-forged), [PGR office](../locations/new-village/pgr-farm/pgr-office.md).
 
 ## Sources
 

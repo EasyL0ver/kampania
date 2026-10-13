@@ -135,7 +135,7 @@ def scene_context(relpath: str) -> str:
     if setup:
         body = setup
     elif kind == "characters":
-        appear = _section(lines, "Appearance")
+        appear = _section(lines, "Setup")
         body = "You are face to face with this person.\n" + appear
     else:
         # preamble under the H1, before the first ## heading

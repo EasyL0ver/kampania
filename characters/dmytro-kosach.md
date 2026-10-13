@@ -1,7 +1,5 @@
 # Dmytro Kosach
 
-**Type:** Deceased — UPA fighter, [@name](hag.md)'s lover
-
 ## Hook
 
 - [@first-name](dmytro-kosach.md) [@surname](dmytro-kosach.md), a UPA fighter from [@name](../locations/old-village.md), killed in the 1947 massacre.
@@ -20,7 +18,7 @@
 
 [@first-name](dmytro-kosach.md) [@surname](dmytro-kosach.md) was a UPA guerrilla hiding in [@name](../locations/old-village.md) when [@name](kbw-officer.md)'s KBW unit came to deport it during Akcja Wisła. His killing of [@surname](kbw-officer.md) turned the deportation into a massacre.
 
-## Appearance
+## Setup
 
 - **Clothes:** Not specified.
 - **Hair & face:** Not specified.

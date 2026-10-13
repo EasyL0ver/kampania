@@ -4,7 +4,7 @@
 
 - A grey cardboard folder tied with string, stamped AGH, Faculty of Geological Prospecting.
 
-## Description
+## Setup
 
 A few typed pages and a hand-drawn sketch of the valley, signed by [@name](../characters/professor.md).
 

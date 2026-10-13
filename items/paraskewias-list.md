@@ -4,7 +4,7 @@
 
 A soft, much-folded sheet covered in old Cyrillic handwriting and small crosses.
 
-## Description
+## Setup
 
 A single sheet, soft as cloth from twenty years of handling, folded and refolded until the creases have gone furry. Names written in **Cyrillic** in a careful, old-fashioned hand — [@name](../characters/hag.md)'s. Some in ink gone brown, some later ones in pencil, a few traced over twice where the line faded. A small cross is inked beside each name. It is not a document in any official sense. It is a woman keeping her dead from disappearing, one name at a time, because no state, church, or grave ever would.
 

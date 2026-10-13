@@ -1,7 +1,7 @@
 # The Odpust — Grace at the Last
 
-**Location:** [@name](../locations/the-church.md)
-**Present:** [@name](../characters/priest.md), [@name](../characters/matrona.md), [@name](../characters/wojewoda.md) (if survived Day 6), [@name](../characters/wujas.md), [@name](../characters/neighbour.md), [@name](../characters/painter.md), [@name](../characters/butcher.md) (if not killed), [@name](../characters/babcia.md) (conditional), villagers
+**Location:** [@name](../locations/new-village/the-church/the-church.md)
+**Present:** [@name](../characters/priest.md), [@name](../characters/matrona.md), [@name](../characters/wojewoda.md) (if [Alive](../characters/wojewoda.md#alive) is true), [@name](../characters/wujas.md), [@name](../characters/neighbour.md), [@name](../characters/painter.md), [@name](../characters/butcher.md) (if [Alive](../characters/butcher.md#alive) is true), [@name](../characters/babcia.md)
 **Available:** Day 7; fires only if [Faith in Redemption](../story-facts/spiritual-endings.md) cleared its threshold by end of Day 6 and [@name](the-ritual.md) has not fired.
 
 ## Trigger
@@ -15,7 +15,7 @@
 ## Hook
 
 - The church bell rings steadily through the rain.
-- The bell is audible across [@name](../locations/new-village.md).
+- The bell is audible across [@name](../locations/new-village/new-village.md).
 - Villagers come expecting another flood Mass.
 - The ringing signals calm rather than panic.
 
@@ -63,9 +63,3 @@
 - **Per:** world
 - **Start:** false
 - True when the odpust is stopped before it is granted: [Grace](../characters/priest.md#grace) can no longer become true.
-
-## Exits
-
-- Into the flood and the final water choices in [@name](the-flood.md).
-- [@name](the-ritual.md) is foreclosed if the odpust completes.
-- If Babcia's plea stops the odpust, go to [@name](the-ritual.md).

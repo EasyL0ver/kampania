@@ -1,7 +1,7 @@
 # Holy Mass — Anti-Flood Prayer
 
-**Location:** [@name](../locations/the-church.md)
-**Present:** [@name](../characters/priest.md), [@name](../characters/matrona.md), [@name](../characters/painter.md), [@name](../characters/wojewoda.md), village congregation
+**Location:** [@name](../locations/new-village/the-church/the-church.md)
+**Present:** [@name](../characters/priest.md), [@name](../characters/matrona.md), [@name](../characters/painter.md), [@name](../characters/wojewoda.md)
 **Available:** Day 4 morning.
 
 ## Hook
@@ -28,8 +28,3 @@ A Mass beginning in the church as the village gathers against the rising water.
 ## Actions
 
 - No event-specific actions.
-
-## Exits
-
-- After Mass, [@name](../characters/priest.md) sends someone to check [@name](../characters/ciotka.md)'s house → [@name](ciotka-found-dead/ciotka-found-dead.md).
-- Remain at [@name](../locations/the-church.md) for confession or follow-up conversations.

@@ -99,7 +99,7 @@ A KBW officer — [@name](../characters/kbw-officer.md) — commanded the unit a
 [@name](../characters/butcher.md) was one of the soldiers present during the 1947 massacre. He participated in the killings.
 
 ### soldier-took-best-land
-[@name](../characters/soldier.md) settled in [@name](../locations/new-village.md) early because he knew the terrain from service. He claimed the best plot of land — profiting from the destruction.
+[@name](../characters/soldier.md) settled in [@name](../locations/new-village/new-village.md) early because he knew the terrain from service. He claimed the best plot of land — profiting from the destruction.
 
 ### old-village-was-burned
 [@name](../locations/old-village-ruins.md) was burned after the massacre. Wooden buildings destroyed, but stone survived — the cerkiew, foundations, the well.
@@ -125,7 +125,7 @@ The flood zone was chosen partly to bury the massacre evidence. [@name](../chara
 ## The 1954 Lynch
 
 ### barnas-family-disappeared
-[@name](../characters/soldier.md)'s entire family — him, his partner, and teenage [@name](../characters/jagna.md) — vanished from [@name](../locations/new-village.md) overnight in 1954. No goodbyes, no forwarding address. Nobody asked questions. Only [@name](../characters/glupek.md) remained.
+[@name](../characters/soldier.md)'s entire family — him, his partner, and teenage [@name](../characters/jagna.md) — vanished from [@name](../locations/new-village/new-village.md) overnight in 1954. No goodbyes, no forwarding address. Nobody asked questions. Only [@name](../characters/glupek.md) remained.
 
 ### barnas-family-left-edek-behind
 When the Barnaś family vanished, they left [@name](../characters/glupek.md) behind. The small boy stayed in the village and was taken in by [@name](../characters/ciotka.md) next door.
@@ -253,16 +253,16 @@ Bone density and joint wear put the woman in the remains at around thirty years 
 [@name](../characters/wojewoda.md) took a bad injury the night of the 1954 lynch — in the struggle over [@name](../characters/soldier.md)'s rifle, the stock was driven into his ribs and cracked them. They never healed right. He carries the old injury under his clothes and has never explained it.
 
 ### ciotka-house-is-wojewodas
-[@name](../characters/ciotka.md) doesn't own the house she lives in and says so plainly — it's the sołtys's, [@name](../characters/wojewoda.md) gave it to her, it's his to allocate. She has no title of her own and names her brother as the source. (On paper the same house was signed over to the [@name](../locations/pgr-farm.md) — see [departure-declaration-forged](#departure-declaration-forged). Her answer and the record don't agree.)
+[@name](../characters/ciotka.md) doesn't own the house she lives in and says so plainly — it's the sołtys's, [@name](../characters/wojewoda.md) gave it to her, it's his to allocate. She has no title of her own and names her brother as the source. (On paper the same house was signed over to the [@name](../locations/new-village/pgr-farm/pgr-farm.md) — see [departure-declaration-forged](#departure-declaration-forged). Her answer and the record don't agree.)
 
 ### ciotka-house-is-pgrs
 [@name](../characters/wojewoda.md) says [@name](../characters/ciotka.md)'s house isn't his to give — it was abandoned, left to the state, and the PGR administers it; he only allocated it to her. His account and [@first-name](../characters/ciotka.md)'s ("it's the sołtys's") don't agree.
 
 ### departure-declaration-forged
-The document that recorded the Barnaś family's "departure" and handed their house and land to the [@name](../locations/pgr-farm.md) is a forgery. It carries [@name](../characters/soldier.md)'s signature — but [@first-name](../characters/soldier.md) was already dead when it was filed, weeks after the 1954 lynch. Someone forged his hand to make the family's disappearance read as a voluntary move west. The paper is what let the "they moved away" story stand.
+The document that recorded the Barnaś family's "departure" and handed their house and land to the [@name](../locations/new-village/pgr-farm/pgr-farm.md) is a forgery. It carries [@name](../characters/soldier.md)'s signature — but [@first-name](../characters/soldier.md) was already dead when it was filed, weeks after the 1954 lynch. Someone forged his hand to make the family's disappearance read as a voluntary move west. The paper is what let the "they moved away" story stand.
 
 ### pgr-established-in-56
-The PGR state farm in [@name](../locations/new-village.md) was not established until 1956, two years after the Barnaś family supposedly departed.
+The PGR state farm in [@name](../locations/new-village/new-village.md) was not established until 1956, two years after the Barnaś family supposedly departed.
 
 ### departure-declaration-dated-56
 [@name](../characters/soldier.md)'s departure declaration surrendering the house and land to the PGR is dated 1956, two years after the family was recorded as having left the village.
@@ -277,7 +277,7 @@ The unopened 1955 letter to [@name](../characters/soldier.md) passes greetings t
 [@name](../characters/soldier.md) and his partner never married — they lived together. She kept her own surname. This is why no "Barnaś" wife appears in any village records.
 
 ### barnas-disliked
-[@name](../characters/soldier.md) was widely disliked in [@name](../locations/new-village.md). People kept their distance and nobody had a good word for him.
+[@name](../characters/soldier.md) was widely disliked in [@name](../locations/new-village/new-village.md). People kept their distance and nobody had a good word for him.
 
 ### glupek-strangled
 The night of the lynch, four-year-old [@name](../characters/glupek.md) wouldn't stop crying, and it annoyed [@name](../characters/butcher.md). He took a pillow, pressed it over the boy's face to shut him up, and held it there — deliberate, unhurried. [@name](../characters/ciotka.md) tore it away. It left permanent brain damage — not congenital.
@@ -296,12 +296,6 @@ It was [@name](../characters/butcher.md) who put [@name](../characters/soldier.m
 
 ### wujas-loved-jagna
 [@name](../characters/wujas.md) was in love with [@name](../characters/jagna.md), but she chose [@name](../characters/painter.md).
-
-### painter-was-spared
-[@name](../characters/painter.md) was beaten but spared because he was [@name](../characters/matrona.md)'s fiancé.
-
-### painter-heard-matrona
-[@name](../characters/painter.md) heard [@name](../characters/matrona.md)'s voice giving instructions during the lynch.
 
 ### ciotka-saved-glupek
 [@name](../characters/ciotka.md) physically intervened to save [@name](../characters/glupek.md)'s life that night. The family has never forgiven her.
@@ -362,7 +356,7 @@ Burnt-down candles and candle wax sit around the well, left by repeated visits.
 The candles at the well are replaced between visits. Someone tends the well on a regular basis.
 
 ### ciotka-body-taken
-[@name](../characters/ciotka.md)'s body is gone. Taken from her coffin in [@name](../locations/the-church.md) during the night, while the flood kept her unburied. A wet drag trail leads out toward [@name](../locations/old-village-ruins.md). **Conditional:** Only exists if [@name](../events/rezen-takes-the-body.md).
+[@name](../characters/ciotka.md)'s body is gone. Taken from her coffin in [@name](../locations/new-village/the-church/the-church.md) during the night, while the flood kept her unburied. A wet drag trail leads out toward [@name](../locations/old-village-ruins.md). **Conditional:** Only exists if [@name](../events/rezen-takes-the-body.md).
 
 ### rezen-fed-ciotka-to-well
 [@name](../characters/butcher.md) took [@name](../characters/ciotka.md)'s body from the church and put it in [the well](../story-facts/the-well.md). He doesn't hide it — he frames it as practical: the flood left her unburied, the body was starting to turn, so he dealt with it. He does not understand, or say, that the well pulled him to do it. **Conditional:** Only exists if [@name](../events/rezen-takes-the-body.md).
@@ -531,12 +525,6 @@ Someone is helping [@name](../characters/barbara.md). The house, the firewood, t
 ### wujas-is-guilty
 [@name](../characters/wujas.md) is guilty of something terrible. He's been drinking to forget for 13 years and the guilt is visibly destroying him.
 
-### matrona-controls-painter
-[@name](../characters/matrona.md) keeps [@name](../characters/painter.md) broken, dependent, and terrified. He knows the truth. She's made sure he'll never speak it.
-
-### painter-wants-to-confess
-[@name](../characters/painter.md) secretly wants [@name](../characters/jagna.md) included in the census so she is not erased by the flood.
-
 ### ciotka-lives-in-soldiers-house
 [@name](../characters/ciotka.md) lives in [@name](../characters/soldier.md)'s former house — the best plot in the village — raising his brain-damaged son. A single woman in a dead man's house with no clean explanation.
 
@@ -587,7 +575,7 @@ A small brass Greek Catholic liturgical bell with Cyrillic lettering is hidden i
 [@name](../characters/neighbour.md) has farmed the plot next to the Barnaś/[@first-name](../characters/ciotka.md) house since ~1948 — an early settler, there through the 1954 lynch.
 
 ### siblings-fund-the-church
-The siblings keep the [@name](../locations/the-church.md) unusually well supplied — firewood, food, gifts. [@name](../characters/priest.md)'s silence is materially supported.
+The siblings keep the [@name](../locations/new-village/the-church/the-church.md) unusually well supplied — firewood, food, gifts. [@name](../characters/priest.md)'s silence is materially supported.
 
 ### emil-doesnt-paint-people
 [@name](../characters/painter.md) paints only landscapes. He never paints people.
@@ -660,28 +648,28 @@ When drunk enough, [@name](../characters/wujas.md)'s fragments turn to longing. 
 The Solina dam is nearly finished. The reservoir behind it is already beginning to fill.
 
 ### new-village-will-be-drowned-by-solina-lake
-[@name](../locations/new-village.md) will flood. When the reservoir rises, the valley has no outlet below house level. The ridge water-gap, the PGR irrigation ditch, and the old far-ridge streambed all fail to carry the water off, so it backs up onto the houses. This is proof, not speculation.
+[@name](../locations/new-village/new-village.md) will flood. When the reservoir rises, the valley has no outlet below house level. The ridge water-gap, the PGR irrigation ditch, and the old far-ridge streambed all fail to carry the water off, so it backs up onto the houses. This is proof, not speculation.
 
 ### other-villages-ready-for-evacuation
-Every other village in the Solina flood zone has been emptied or is packed and waiting for evacuation. [@name](../locations/new-village.md) is the only one the plan leaves standing.
+Every other village in the Solina flood zone has been emptied or is packed and waiting for evacuation. [@name](../locations/new-village/new-village.md) is the only one the plan leaves standing.
 
 ### new-village-will-be-next-to-solina-lake
-When the reservoir is full, Lake Solina will stop at the edge of [@name](../locations/new-village.md): a lakeside village, above the waterline. [@name](../locations/new-village.md) is safe. The PGR irrigation ditch carries the flood clear of the valley, so the water drains away and never reaches the houses. One working outlet is all the valley needs, and here is one. This is the reassuring answer, and it is false: it rests entirely on the ditch's concrete head, which calculates as ample only because no one measured the earth dugout that runs the rest of its length. The gap and the streambed are never even tested. It contradicts new-village-will-be-drowned-by-solina-lake.
+When the reservoir is full, Lake Solina will stop at the edge of [@name](../locations/new-village/new-village.md): a lakeside village, above the waterline. [@name](../locations/new-village/new-village.md) is safe. The PGR irrigation ditch carries the flood clear of the valley, so the water drains away and never reaches the houses. One working outlet is all the valley needs, and here is one. This is the reassuring answer, and it is false: it rests entirely on the ditch's concrete head, which calculates as ample only because no one measured the earth dugout that runs the rest of its length. The gap and the streambed are never even tested. It contradicts new-village-will-be-drowned-by-solina-lake.
 
 ### gap-is-candidate-drain
-The ridge water-gap, the notch the map shows draining into the empty [@name](../locations/big-basin.md), is one of the candidate outlets floodwater could leave the [@name](../locations/new-village.md) valley through.
+The ridge water-gap, the notch the map shows draining into the empty [@name](../locations/big-basin.md), is one of the candidate outlets floodwater could leave the [@name](../locations/new-village/new-village.md) valley through.
 
 ### ditch-is-candidate-drain
-The PGR irrigation ditch is one of the candidate outlets floodwater could leave the [@name](../locations/new-village.md) valley through.
+The PGR irrigation ditch is one of the candidate outlets floodwater could leave the [@name](../locations/new-village/new-village.md) valley through.
 
 ### streambed-is-candidate-drain
-The old far-ridge streambed is one of the candidate outlets floodwater could leave the [@name](../locations/new-village.md) valley through.
+The old far-ridge streambed is one of the candidate outlets floodwater could leave the [@name](../locations/new-village/new-village.md) valley through.
 
 ### the-flood-line-potentially-miscalculated
-[@title](../characters/professor.md) [@surname](../characters/professor.md) suspects the official flood line for the [@name](../locations/new-village.md) valley may be miscalculated. The projected safe level rests on two assumptions: that the ground stands where the map records it, and that the valley drains through its outlets as the survey assumes. If the mapped heights are wrong, or the outlets do not carry the water off, the safe level is wrong and the new village may not sit above it after all. Both assumptions have to be checked on the ground.
+[@title](../characters/professor.md) [@surname](../characters/professor.md) suspects the official flood line for the [@name](../locations/new-village/new-village.md) valley may be miscalculated. The projected safe level rests on two assumptions: that the ground stands where the map records it, and that the valley drains through its outlets as the survey assumes. If the mapped heights are wrong, or the outlets do not carry the water off, the safe level is wrong and the new village may not sit above it after all. Both assumptions have to be checked on the ground.
 
 ### gap-is-blocked
-A ridge separates the [@name](../locations/new-village.md) valley from the empty [@name](../locations/big-basin.md) beyond it. The state map shows a water-gap through that ridge as an open drain into [@name](../locations/big-basin.md), the outlet the whole safety calculation rests on. An old landslide has plugged it: the crest of the plug stands above the flood line, and the fill is impermeable, so rising water can neither crest the plug nor seep through it into [@name](../locations/big-basin.md). It is one of the three outlets the valley needs, and it is sealed.
+A ridge separates the [@name](../locations/new-village/new-village.md) valley from the empty [@name](../locations/big-basin.md) beyond it. The state map shows a water-gap through that ridge as an open drain into [@name](../locations/big-basin.md), the outlet the whole safety calculation rests on. An old landslide has plugged it: the crest of the plug stands above the flood line, and the fill is impermeable, so rising water can neither crest the plug nor seep through it into [@name](../locations/big-basin.md). It is one of the three outlets the valley needs, and it is sealed.
 
 ### ditch-drains-nothing
 The PGR irrigation ditch cannot carry the floodwater off. At flood volume it backs up and overflows; it is far too small to drain the valley.
@@ -699,7 +687,7 @@ The irrigation ditch matches its concrete-lined specification only for its first
 The irrigation ditch is concrete-lined only near the head. A short way down the concrete ends and the channel becomes a plain earth dugout. Whether that is a fault, a shortfall against spec, or simply how it was meant to be built is not clear from walking it.
 
 ### streambed-dead-ends
-The old streambed on the far ridge is not an outlet. Its col sits above house level, so the rising water tops [@name](../locations/new-village.md) before it ever reaches that streambed.
+The old streambed on the far ridge is not an outlet. Its col sits above house level, so the rising water tops [@name](../locations/new-village/new-village.md) before it ever reaches that streambed.
 
 ### dam-builders-surveyed-streambed
 The Solina dam-survey crews already worked the far-ridge streambed years ago and set geodetic benchmarks (reper) at the col and by the village. The markers are out there in the field, though their recorded elevations never made it into the kit's papers.
@@ -714,7 +702,7 @@ A landslide sits in the ridge water-gap, filling the notch with fallen rock and 
 From the foot of the plug the landslide fill looks like loose, open rubble, the kind of stone floodwater would run straight through. On that first look the gap might still drain by seeping through the fill. Whether it truly does is unsettled until the fill is examined up close.
 
 ### water-may-flow-over
-For the ridge gap to drain the valley, rising water would have to reach the plug's lowest saddle and spill over it into [@name](../locations/big-basin.md). If that saddle sits below the [@name](../locations/new-village.md) flood line, the gap still drains by overtopping. Whether it is low enough is unsettled until the crest is measured.
+For the ridge gap to drain the valley, rising water would have to reach the plug's lowest saddle and spill over it into [@name](../locations/big-basin.md). If that saddle sits below the [@name](../locations/new-village/new-village.md) flood line, the gap still drains by overtopping. Whether it is low enough is unsettled until the crest is measured.
 
 ### river-doesnt-match-map
 The river no longer runs where the map draws it. Its course has shifted: the wojewoda's bridge spans the river's new bed, while the map shows that ground dry and the river running elsewhere. The old course drawn on the map is now dry.
@@ -729,7 +717,7 @@ The state map draws the ridge water-gap as an open channel, an outlet for the va
 The state map predates the landslide that plugged the gap. It cannot be trusted on the gap or on the river's course.
 
 ### village-terrain-matches-map
-The surveyed elevations of the [@name](../locations/new-village.md) valley match the state map's contours. The ground reads true against the paper, so the map is an accurate record of the terrain everywhere the players check it. The only places it disagrees with reality are the plugged gap and the shifted river.
+The surveyed elevations of the [@name](../locations/new-village/new-village.md) valley match the state map's contours. The ground reads true against the paper, so the map is an accurate record of the terrain everywhere the players check it. The only places it disagrees with reality are the plugged gap and the shifted river.
 
 ### survey-was-botched
 The crew sent to re-check the terrain never properly did the work. They drove a few stakes, drank through the visit, took the wojewoda's ditch on faith, dismissed the changed river, and filed thin paper. Not a deliberate forgery, just a half-assed, negligent job, but it means the official survey behind the flood projection cannot be trusted.
@@ -747,16 +735,16 @@ The previous crew's filed survey report is thin: too few field stations, cursory
 The PGR crew rib survey men as famous drunks, and the last survey team who came drank through their whole visit instead of working the ground.
 
 ### flood-mark-left-by-dam-builders
-The flood line staked across the [@name](../locations/new-village.md) valley was set by the Solina dam-survey crews, not the resettlement survey. It marks the reservoir's projected fill level, tied to the dam builders' own benchmarks, and stands at 420.0 m above sea level.
+The flood line staked across the [@name](../locations/new-village/new-village.md) valley was set by the Solina dam-survey crews, not the resettlement survey. It marks the reservoir's projected fill level, tied to the dam builders' own benchmarks, and stands at 420.0 m above sea level.
 
 ### lower-village-level
-The surveyed elevation of the lower part of [@name](../locations/new-village.md): 420.8 m above sea level.
+The surveyed elevation of the lower part of [@name](../locations/new-village/new-village.md): 420.8 m above sea level.
 
 ### upper-village-level
-The surveyed elevation of the upper part of [@name](../locations/new-village.md): 422.0 m above sea level.
+The surveyed elevation of the upper part of [@name](../locations/new-village/new-village.md): 422.0 m above sea level.
 
 ### southern-rise-level
-The surveyed elevation of the rise south of [@name](../locations/new-village.md): 423.0 m above sea level.
+The surveyed elevation of the rise south of [@name](../locations/new-village/new-village.md): 423.0 m above sea level.
 
 ### old-village-bowl-level
 The surveyed elevation of the floor of the old-village bowl: 408.0 m above sea level.
@@ -777,13 +765,13 @@ Day 2 brings a major flood. The road out disappears. The committee is stranded. 
 The old village site is flooding — water rising from below, the well filling. Something underground is changing.
 
 ### flood-is-imminent
-The flood is not a future worry but an immediate one. The water is rising fast and [@name](../locations/new-village.md) will be inundated within days.
+The flood is not a future worry but an immediate one. The water is rising fast and [@name](../locations/new-village/new-village.md) will be inundated within days.
 
 ### officer-warning
-[@name](../characters/officer.md) warns on the drive in that not everything needs to be written down. It is a threat: what the committee writes will be remembered.
+[@name](../characters/officer.md) advises the committee to stick to the living villagers and leave old matters alone.
 
 ### government-committee
-The player characters volunteered as representatives of the public, independent observers on a state committee sent to [@name](../locations/new-village.md) ahead of the reservoir. It is the frame the whole visit hangs on: the reason outsiders can measure land, enter homes, and ask questions at all.
+The player characters volunteered as representatives of the public, independent observers on a state committee sent to [@name](../locations/new-village/new-village.md) ahead of the reservoir. It is the frame the whole visit hangs on: the reason outsiders can measure land, enter homes, and ask questions at all.
 
 ### committee-runs-geographical-survey
 The committee's stated purpose in the village is a geographical survey — terrain, river, boundaries. It's the cover that explains why outsiders are measuring the land.
@@ -792,13 +780,13 @@ The committee's stated purpose in the village is a geographical survey — terra
 The committee is recording each household's property and its value, ostensibly to assess damages. Asking what land is worth is part of the official remit.
 
 ### village-unaware-of-miscalculation
-The villagers of [@name](../locations/new-village.md) have not been told the flood line may be miscalculated. The committee is not to tell them.
+The villagers of [@name](../locations/new-village/new-village.md) have not been told the flood line may be miscalculated. The committee is not to tell them.
 
 ### committee-fills-census
 The committee is taking a census: who lives in each household, names, ages, how long they have been here. Counting heads is part of the official remit.
 
 ### committee-accounts-movable-state-property
-The committee's remit also covers the state farm's movable property. The [@name](../locations/pgr-farm.md)'s livestock, machinery, and grain stores are socialist property that cannot be left to drown, so they must be inventoried and moved out before the flood. The buildings and fixed works are written off, but every movable state asset has to be accounted for.
+The committee's remit also covers the state farm's movable property. The [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s livestock, machinery, and grain stores are socialist property that cannot be left to drown, so they must be inventoried and moved out before the flood. The buildings and fixed works are written off, but every movable state asset has to be accounted for.
 
 ---
 
@@ -825,7 +813,7 @@ The players must supply the truth by naming the dead and saying what happened to
 ## The Wolves
 
 ### wolves-attacking-livestock
-Wolves have been killing [@name](../locations/pgr-farm.md) livestock for weeks. The 1967 rains are driving them from higher ground. Multiple sheep dead. The attacks started before the committee arrived and are ongoing.
+Wolves have been killing [@name](../locations/new-village/pgr-farm/pgr-farm.md) livestock for weeks. The 1967 rains are driving them from higher ground. Multiple sheep dead. The attacks started before the committee arrived and are ongoing.
 
 ### dudka-failed-wolf-hunt
 [@name](../characters/neighbour.md) has been hunting the wolves for weeks — he's the village hunter, licensed rifle, knows the forest. He's failed. Can't close on the pack. One man in vast terrain isn't enough.
@@ -868,10 +856,10 @@ A whole silo's worth of grain was dumped rather than used or sold, tipped out an
 [@name](../characters/widow.md) believes she draws a state widow's pension for her late husband, and is grateful to the state for it.
 
 ### mazur-buried-in-cemetery
-[@name](../characters/tadeusz-mazur.md) lies in a fresh, well-tended grave in the [@name](../locations/new-village.md) cemetery, the one [@name](../characters/widow.md) kneels beside.
+[@name](../characters/tadeusz-mazur.md) lies in a fresh, well-tended grave in the [@name](../locations/new-village/new-village.md) cemetery, the one [@name](../characters/widow.md) kneels beside.
 
 ### mazur-and-widow-are-old-settlers
-[@first-name](../characters/tadeusz-mazur.md) and [@name](../characters/widow.md) were among the first Polish settlers in [@name](../locations/new-village.md), arriving around 1948. They were in the village the whole time, through 1954 and after.
+[@first-name](../characters/tadeusz-mazur.md) and [@name](../characters/widow.md) were among the first Polish settlers in [@name](../locations/new-village/new-village.md), arriving around 1948. They were in the village the whole time, through 1954 and after.
 
 ### mazur-doubted-the-departure
 [@name](../characters/widow.md), an original settler who was there at the time, never believed the [@name](../characters/soldier.md) simply moved away. He wrote that they vanished in a single night, leaving standing crops and livestock behind, and was certain the departure was not something they chose.
@@ -903,7 +891,7 @@ Traces of old wartime positions in the forest — collapsed dugouts, rusted meta
 The crew guards the still because it is what carries them through the winter, not because it hides anything worse. Their fear is losing it, nothing more.
 
 ### store-has-drug-cabinet
-[@name](../characters/matrona.md)'s [@name](../locations/the-store.md) has a locked pharmaceutical cabinet — a *szafka apteczna*, standard PRL distribution point. [@first-name](../characters/matrona.md) holds the only key. [@name](../characters/secondary/halina-zajac.md) can't open it.
+[@name](../characters/matrona.md)'s [@name](../locations/new-village/the-store.md) has a locked pharmaceutical cabinet — a *szafka apteczna*, standard PRL distribution point. [@first-name](../characters/matrona.md) holds the only key. [@name](../characters/secondary/halina-zajac.md) can't open it.
 
 ### pawelek-burns-with-fever
 [@first-name](../characters/pawelek.md) is gripped by a sudden high fever, burning hot and shaking with chills.
@@ -942,7 +930,7 @@ The yellowing of [@first-name](../characters/pawelek.md)'s skin is a sign that h
 The mushrooms [@first-name](../characters/pawelek.md) ate in the forest were ordinary edible ones. [@name](../characters/secondary/staszek-pytlak.md) ate the same ones and stayed well.
 
 ### pawelek-played-in-pgr
-[@first-name](../characters/pawelek.md) was out playing on his own in the [@name](../locations/pgr-farm.md).
+[@first-name](../characters/pawelek.md) was out playing on his own in the [@name](../locations/new-village/pgr-farm/pgr-farm.md).
 
 ### pawelek-looks-like-common-fever
 Early on, [@first-name](../characters/pawelek.md)'s fever and muscle pain read as an ordinary fever, the kind that goes through a village after a flood. It would be expected to pass on its own.

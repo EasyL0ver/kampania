@@ -2,7 +2,7 @@
 
 **Location:** [@name](../locations/the-ridge-gap.md)
 **Present:** [@name](../characters/foreman.md)
-**Available:** The engineering finale, after [@name](foreman-saves-village.md): the party has the charges and has committed to the plan.
+**Available:** The engineering finale, after [@name](foreman-saves-village.md), while [Backed](foreman-saves-village.md#backed) is true and the party has the charges.
 
 ## Trigger
 
@@ -39,12 +39,12 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 - **Requires:** [Geology](../cards/geology.md) OR [Finesse](../cards/finesse.md)
 - **Cost:** 1 time
 - **Outcome:** The clay has liquefied and sloughs underfoot; a skilled climber picks the bearing line or muscles up it.
-- **Changes:** [Climber position](#climber-position) — past the lower bank
+- **Changes:** [Climber position](#climber-position) — past the lower bank; [Climb attempted](#climb-attempted) — true
 
 ### Force the lower bank
 - **Cost:** 1 time + 1 composure
 - **Outcome:** No read and no strength for the slop, so the climber grinds up it on nerve alone.
-- **Changes:** [Climber position](#climber-position) — past the lower bank
+- **Changes:** [Climber position](#climber-position) — past the lower bank; [Climb attempted](#climb-attempted) — true
 
 ### Carry the charge
 - **Requires:** [@name](../items/makeshift-charge.md)
@@ -135,7 +135,7 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ### Blow the gap
 - **When:** The charge is primed.
-- **Outcome:** The charge blows: the notch opens, floodwater widens it, and the water in [@name](../locations/new-village.md) starts to drop. Anyone still on the plug when it goes is killed.
+- **Outcome:** The charge blows: the notch opens, floodwater widens it, and the water in [@name](../locations/new-village/new-village.md) starts to drop. Anyone still on the plug when it goes is killed.
 - **Changes:** [The charge](#the-charge) — blown; [Climber position](#climber-position) — anyone still on the plug dies; [Gap blown](#gap-blown) — true, the village is saved and the basin floods
 
 ## Mechanics
@@ -161,12 +161,19 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 - **Start:** in-place
 - In place until the first traverse of the killzone knocks it off the line for good.
 
+### Climb attempted
+
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True once any climber starts up the lower bank.
+
 ### Gap blown
 
 - **Type:** bool
 - **Per:** world
 - **Start:** false
-- True means [@name](../locations/new-village.md) is saved, the empty [@name](../locations/big-basin.md) floods, and the engineering ending resolves.
+- True means [@name](../locations/new-village/new-village.md) is saved, the empty [@name](../locations/big-basin.md) floods, and the engineering ending resolves.
 
 ### Anchor
 
@@ -199,13 +206,6 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 - **Type:** rule
 - When a climber falls at the killzone, every counterweight point on the line at that moment goes into the catch: **0 = Wounded**, **1 = Bruised**, **2+ = safe**. All those bodies are spent — they drop off the line and must **Take the line** again.
 
-## Exits
+## Resolve
 
-- Return to [@name](../locations/new-village.md) after the water level begins to drop.
-- Go to [@name](../locations/old-village-ruins.md), which is going under regardless, from this flood and the reservoir that will bury it.
-- Return to [@name](../locations/pgr-farm.md) to manage the aftermath.
-
-## If Missed
-
-- If no one from the committee will climb it, [@name](../characters/foreman.md) goes up the plug alone, in the rain, to set the charge.
-- [@name](../characters/foreman.md) may die on the slab, or save the village at the cost of his body and never return the same.
+- [Climb attempted](#climb-attempted) is false → [Alive](../characters/foreman.md#alive) = false

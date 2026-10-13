@@ -7,8 +7,8 @@
 Scene files are **technical documents**, not stories. They record who / when / what / what-changes. The GM supplies mood and language at the table; the file supplies facts.
 
 1. **Zero prose. Pure facts.** Every line is a statement that is true, not a statement that sets a tone. No atmosphere paragraphs, no lyrical build, no "puts the hair up". Write the fact; the GM performs it.
-2. **Bullets over paragraphs.** Setup, Trigger, Hook are fact lists — one thing per line.
-3. **Headers are technical.** Location = one link (events) or terse position (locations). Present = character links + terse conditions only, e.g. `(if survived Day 6)` — no states, no narration, no absent people. Available = shortest trigger, e.g. "Night, Day 4 onward. Fires once."
+2. **Setup is prose; Trigger and Hook are bullets.** Setup is a short paragraph of facts, no bullets (a character's Setup may open with its labelled lines, e.g. `- **Clothes:** …`). Trigger and Hook are fact lists — one thing per line.
+3. **Headers are technical.** Location = one link (events) or terse position (locations). Present = character links, each with at most one mechanic condition, `(if <mechanic link> is value)` — no free-text conditions, no states, no narration, no absent people, no crowds. Present is who is in view (their moves are open); how players see them is the `[@setup]` refs in Setup and Outcomes. Available = shortest trigger, e.g. "Night, Day 4 onward. Fires once."
 4. **Dialogue only when technically critical.** Write exact words **only** when the words themselves are the mechanical content — a scripture excerpt that *is* the sermon, a password, an exact phrase a clue turns on. Flavor quotes are cut; keep the fact behind them.
 5. **State and behavior go in Setup, not headers.** Who's missing, who's rattled, who arrives later — Setup lines, not Present.
 
@@ -73,7 +73,7 @@ Meet **every** condition → you get it. Miss one → the opportunity isn't ther
 ### Rules
 
 1. **Free means free.** An Opportunity never costs time. If it requires effort (digging, following, breaking in), it's an Action.
-2. **Always gated. Ungated → Setup.** Every opportunity has a `*(noticed by: …)*` and/or `*(when: …)*`. A fact everyone gets on the visit is a Setup bullet, not an opportunity. Never write an ungated opportunity.
+2. **Always gated. Ungated → Setup.** Every opportunity has a `*(noticed by: …)*` and/or `*(when: …)*`. A fact everyone gets on the visit belongs in the Setup, not an opportunity. Never write an ungated opportunity.
 3. **The gate is hard, not a layer.** A player who misses any condition gets **nothing**, not a lesser version. There is no "base everyone gets" for an opportunity — the base *is* Setup. A layered reveal is the Setup fact (everyone) plus a gated opportunity (the skill), never a tiered opportunity line.
 4. **Setup must state the observable.** If an opportunity's gate is a skill reading a detail, that detail must already appear in Setup. Players can't notice what the GM never described.
 5. **Binary output.** An Opportunity either gives a clue or gives nothing (atmosphere). There is no third state.
@@ -122,7 +122,8 @@ An action costs time when it eats a meaningful chunk of the character's day — 
 ### Rules
 
 1. **Every action has a `Gives:` line, a `Changes:` line, or both.**
-2. **Gives is what the player now holds** — a `, `-separated list of clue links, `aware:<kind>/<file>.md` tokens, item links and card links. Nothing else. A new scene or place becomes reachable by giving its `aware:` token. Checked by `python validate.py` (rule `gives-format`).
+2. **Gives is what the player now holds** — a `, `-separated list of clue links, `aware:<kind>/<file>.md` tokens (knowing a location, character, item or event exists), `located:locations/<file>.md` tokens (knowing the way to a place; see [Awareness and whereabouts](story-facts/game-system.md#awareness-and-whereabouts)), item links and card links. Nothing else. A new scene or place becomes reachable by giving its `aware:` token. Checked by `python validate.py` (rule `gives-format`).
+   - **Who receives it:** the acting player (for an opportunity, the one who noticed). An optional tag first changes that: `*(to: everyone present)*` (every player in the scene) or `*(to: every player)*` (the whole committee, wherever they are). E.g. `- **Gives:** *(to: every player)* [Lodging at the PGR Quarters](cards/lodging-at-pgr-quarters.md)`.
    **Changes is what the action changes in the world** — NPC state, world state, an NPC learning a clue (`NPC Learns:` then the npc and the clue link), census and property records, event progress, ending progress. Each entry is a link plus ` — short comment`, the link pointing at a heading in a `## Mechanics` section; or a bare link to a bond check's anchor in `## Bond`, with no comment, meaning that check is met; entries are `;`-separated. It is the other side of `When:` (one action's Changes is what another action's When checks).
 3. **Multiple outcomes are fine.** An action can give a clue and an item AND change NPC state. List them all.
 4. **"Nothing" is not a valid outcome for documented actions.** If you're writing an action into a scene file, it must give something — otherwise don't document it.
@@ -256,8 +257,8 @@ If an action is triggered at a location but is really about an NPC interaction, 
 
 Before committing a scene file, verify:
 
-- [ ] Zero prose — every line is a fact, not atmosphere; Setup/Trigger/Hook are bullet lists
-- [ ] Headers technical — Location a link, Present names+terse conditions only, Available a terse trigger
+- [ ] Zero prose — every line is a fact, not atmosphere; Setup is prose, Trigger/Hook are bullet lists
+- [ ] Headers technical — Location a link, Present names + mechanic conditions only, Available a terse trigger
 - [ ] Dialogue only where the exact words are the mechanical content (else cut, keep the fact)
 - [ ] Every Opportunity has either `→ Gives: [clue-id]` or no gives line (atmosphere only)
 - [ ] Every Action has `Gives:` (holdables only) and/or `Changes:` (state)

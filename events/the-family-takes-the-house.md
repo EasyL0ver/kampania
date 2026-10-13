@@ -1,12 +1,12 @@
 # The Family Takes the House
 
-**Location:** [@name](../locations/ciotkas-house/ciotkas-house.md)
-**Present:** [@name](../characters/ciotka.md) (dead), [@name](../characters/priest.md), [@name](../characters/wojewoda.md), [@name](../characters/matrona.md), [@name](../characters/neighbour.md)
+**Location:** [@name](../locations/new-village/ciotkas-house/ciotkas-house.md)
+**Present:** [@name](../characters/priest.md), [@name](../characters/wojewoda.md), [@name](../characters/matrona.md), [@name](../characters/neighbour.md)
 **Available:** Shortly after [@name](ciotka-found-dead/ciotka-found-dead.md), when the priest returns with the family; Day 3 or later.
 
 ## Trigger
 
-- The committee is still at [@name](../locations/ciotkas-house/ciotkas-house.md) when [@name](../characters/priest.md) returns with [@name](../characters/wojewoda.md).
+- The committee is still at [@name](../locations/new-village/ciotkas-house/ciotkas-house.md) when [@name](../characters/priest.md) returns with [@name](../characters/wojewoda.md).
 - Fires whether or not the attic was opened.
 - Committee already gone: see If Missed.
 
@@ -48,18 +48,6 @@
 - **Type:** rule
 - Fixed outcome. [@name](../characters/wojewoda.md) rules the death natural and backs [@name](../characters/matrona.md). [@name](../characters/junior.md) is never questioned.
 - No search for the boy; the flood is the real crisis. The family asks the committee to look for [@name](../characters/glupek.md) and bring him home if they find him. Framed as care, not a manhunt.
-- The body is moved to [@name](../locations/the-church.md). The family takes the house; the attic, if opened, is closed.
+- The body is moved to [@name](../locations/new-village/the-church/the-church.md). The family takes the house; the attic, if opened, is closed.
 - [@name](../characters/neighbour.md) leaves angry. The smashed house and sudden death set foul-play rumours moving whether or not he spoke.
 - Confronted with the body or house evidence, [@name](../characters/matrona.md) has a ready answer for each; see her [Opinions](../characters/matrona.md#opinions).
-
-## Exits
-
-- [@name](funeral-mass.md), Day 5.
-- Look for [@name](../characters/glupek.md) in the forest.
-- Revisit [@name](../characters/neighbour.md) at [@name](../locations/neighbours-house.md).
-
-## If Missed
-
-- Committee already gone: the siblings settle it. Death ruled natural, body to [@name](../locations/the-church.md), house and attic pass to the family unseen.
-- The committee hears the result and the rumours second-hand.
-- [@name](../characters/neighbour.md)'s account stays available at [@name](../locations/neighbours-house.md).

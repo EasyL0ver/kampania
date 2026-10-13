@@ -172,10 +172,55 @@ This is by design. The 7-day limit and 12-card economy guarantee that players wi
 
 The game is **not about solving everything** — it's about what you prioritize when you can't.
 
-## Travel
+## Awareness and whereabouts
 
-- A player can only go to a location they are aware of (an `aware:` token they hold). Asked to go anywhere else, the GM answers: you don't know where that is yet.
-- Awareness is given like any clue: an action's `Gives:` hands over `aware:locations/<file>.md`.
+Two kinds of knowledge, each an earned token, handed over by an action's or opportunity's `Gives:` like any clue:
+
+| Token | Applies to | Means | Lets you |
+|---|---|---|---|
+| `aware:<kind>/<file>.md` | any location, character, item or event | you know it exists: its `## Hook` | bring it up: **Ask about** it |
+| `located:locations/<file>.md` | locations only | you know the way there | **Travel** there |
+
+`aware:<kind>/<bundle>/` means the bundle's default. `located:` implies `aware:` of the same place.
+
+- **Character:** being aware of someone means knowing their name and public role. Seeing someone is not knowing them; you are aware of them once you learn their name, by being introduced or by an action's `Gives:`. You meet people where they are: travel to a place they are at. Knowing a person never tells you where they are, and people move, so they are never located: you find them only by going to places you are located at and meeting them there. Where everyone is, phase by phase, is the GM's: each living character's file holds their schedule (Morning, Afternoon, Evening, Night), and an event's own Present overrides it for that moment.
+- **Item:** being aware of an item means knowing it exists. Getting or using it is always an action (`Requires:`, `Cost:` need you to hold it).
+- **Event:** being aware of an event means knowing it is happening. What that does depends on how the event reaches you:
+
+| Kind | Example | Awareness |
+|---|---|---|
+| Comes to you | Barbara warns the players, the wojewoda's ask | Does not gate it. It finds you; its Hook is how it announces itself. |
+| Happens wherever you are | Pawełek falls ill, the flood | Does not gate it. It happens anyway; its Hook carries the news. |
+| You have to show up | Mass, dinner, the funeral | Gates it. Without knowing of it you do not know to be there, and you miss it. You also need to be located at its place. |
+| You continue into it | the house after the back door, the kitchen, the draft | Gates it, but in practice it is automatic: the action that ends the previous scene gives it. |
+
+## Presence
+
+Who is "there" means two different things, kept apart:
+
+- **Present** (an event's header, or the schedules for a location scene) is who is in view: their moves are open. Each person may carry one condition on a mechanic, `(if [Mechanic](#mechanic) is value)`; while it does not hold they are not present. Everyone listed, conditions aside, is the scene's whole possible cast.
+- **Described** is how the players perceive them: by their Setup, through `[@setup]` refs in the scene's Setup (on arrival) or in an Outcome (coming into view later). They are named only once introduced (`aware:`).
+- Someone out of view (listening behind a door, hiding) is listed with a condition, e.g. `(if [Wife](#wife) is joined)`, and the action that brings them in changes that mechanic.
+
+## Resolve
+
+An event's `## Resolve` runs when the event ends (the next event starts), whether the players stayed, walked out, or never came. It never asks who was there. Player actions move mechanics during the event; Resolve only reads mechanics and sets mechanics, nothing else: no description, no clues.
+
+```
+- [Backed](#backed) is false → [Trust Window](../characters/zofia.md#trust-window) = closed
+- → [Lynch Happened](#lynch-happened) = true
+```
+
+Conditions are zero or more `[Mechanic](file.md#anchor) is value` joined by `and`; the assignment sets one bool, int or enum (an int also takes `+N` / `-N`). `rule` and `list` mechanics never appear. The mechanics' Start values are the outcome when nobody intervenes.
+
+## Basic moves
+
+Every player can always do four things, anywhere; no scene file lists them.
+
+1. **Travel** to a location you are located at. It costs 1 time. Whoever and whatever is there when you arrive (the people present, an event running at that hour) is what you find. Asked to go anywhere else, the GM answers: you don't know where that is yet.
+2. **Ask about** anything you are aware of (a place, a person, an item, an event, a fact) to whoever you are with. They answer from their Opinions line on it; with none, they don't know or won't say. Asking never gives a clue: reveals are actions.
+3. **Rest or wait:** let time pass (sleep, a meal, waiting for the evening). See Recovery.
+4. **Step out** of any scene, at any time, to its root location: the outermost location bundle it sits in (from Ciotka's attic, or the PGR office, to Testowo). It is free. An event you walk out of keeps running at its place until the next event replaces it; what you skipped, you skipped: its `## Resolve` runs all the same.
 
 ## Items
 
@@ -383,3 +428,5 @@ The spiritual axis is detailed in [spiritual-endings.md](spiritual-endings.md). 
 - Are there group actions (e.g., two players spending a card together on the same scene)?
 - Do some actions cost more than 1 card? (e.g., a full archaeological dig vs. a quick conversation)
 - Can events interrupt or consume actions? (e.g., a crisis forces the group to spend an action responding)
+- TBD: the phone line. The flood brings down a pole and ends the connection; this needs a `Phone line: up | down` mechanic on [the flood](../events/the-flood.md), read by [the telegram](../events/the-telegram.md) and [the report](../events/the-report.md).
+- TBD: the lynch's Resolve. The target is whoever scores highest on [Dudka's Lynch Targets](../characters/neighbour.md#lynch-targets), an int per NPC; Resolve has no "highest" condition yet. Related: Resolve cannot set a per-NPC int for one NPC (e.g. the village blaming Rezeń in [Butcher Takes the Body](../events/rezen-takes-the-body.md) should raise his Lynch Targets score).

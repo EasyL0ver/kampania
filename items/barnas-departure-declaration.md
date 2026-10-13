@@ -4,7 +4,7 @@
 
 A single stamped administrative sheet with a dated signature.
 
-## Description
+## Setup
 
 A single administrative sheet, official stamps, dated 1954. It records [@name](../characters/soldier.md) surrendering his house, buildings, and land and resettling his household west "of his own free will." At the bottom, his signature. The paper is what let the "they moved away" story stand for thirteen years.
 

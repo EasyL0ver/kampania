@@ -1,7 +1,7 @@
 # The Seal-Break — The Priest Names the Dead
 
-**Location:** [@name](../locations/the-church.md)
-**Present:** [@name](../characters/priest.md), [@name](../characters/matrona.md) (if alive), [@name](../characters/wojewoda.md) (if survived Day 6), [@name](../characters/wujas.md) (if alive), [@name](../characters/neighbour.md) (if alive), [@name](../characters/painter.md) (if alive), [@name](../characters/butcher.md) (if not taken by the mob)
+**Location:** [@name](../locations/new-village/the-church/the-church.md)
+**Present:** [@name](../characters/priest.md), [@name](../characters/matrona.md) (if [Alive](../characters/matrona.md#alive) is true), [@name](../characters/wojewoda.md) (if [Alive](../characters/wojewoda.md#alive) is true), [@name](../characters/wujas.md) (if [Alive](../characters/wujas.md#alive) is true), [@name](../characters/neighbour.md) (if [Alive](../characters/neighbour.md#alive) is true), [@name](../characters/painter.md) (if [Alive](../characters/painter.md#alive) is true), [@name](../characters/butcher.md) (if [Alive](../characters/butcher.md#alive) is true)
 **Available:** Day 7, if [Faith in Redemption](../story-facts/spiritual-endings.md) is below threshold at the end of Day 6; mutually exclusive with [@name](the-odpust.md)
 
 ## Trigger
@@ -15,7 +15,7 @@
 
 - The church bell rings wrong and too long.
 - The bell stops mid-strike.
-- The sound is audible across [@name](../locations/new-village.md).
+- The sound is audible across [@name](../locations/new-village/new-village.md).
 
 ## Setup
 
@@ -58,9 +58,3 @@
 
 - **Type:** rule
 - TBD.
-
-## Exits
-
-- Into [@name](the-flood.md) with the truth spoken and no absolution.
-- [@name](the-odpust.md) is foreclosed.
-- [@name](the-ritual.md) remains open because the seal-break does not name the dead to the dead.

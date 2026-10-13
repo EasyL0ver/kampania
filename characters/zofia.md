@@ -1,7 +1,5 @@
 # Zofia Pytlak
 
-**Type:** Named character — PGR cook / the village's warmth
-
 ## Hook
 
 [@first-name](zofia.md) [@surname](zofia.md), the warm, well-liked PGR cook.
@@ -11,17 +9,21 @@
 - **First name:** Zofia
 - **Surname:** Pytlak
 - **Status:** Resident
+- **Morning:** [@name](../locations/new-village/pgr-farm/pgr-quarters.md)
+- **Afternoon:** [@name](../locations/new-village/pgr-farm/pgr-quarters.md)
+- **Evening:** [@name](../locations/new-village/new-village.md)
+- **Night:** [@name](../locations/new-village/new-village.md)
 - **Born:** ~1920
 - **Age in 1967:** ~47
 - **Heritage:** Polish settler
-- **Lives in:** [@name](../locations/new-village.md) — the Pytlak household near the PGR farm, with [@name](foreman.md), [@name](secondary/staszek-pytlak.md)
+- **Lives in:** [@name](../locations/new-village/new-village.md) — the Pytlak household near the PGR farm, with [@name](foreman.md), [@name](secondary/staszek-pytlak.md)
 - **Settled:** After 1954 — arrived with [@name](foreman.md); no connection to the lynch
 
 ## Character
 
 PGR cook and the warmest person in the village. She knows about the silo cover-up, wants [@first-name](foreman.md) to tell the truth, and becomes the calm voice for saving the living when the flood comes.
 
-## Appearance
+## Setup
 
 - **Clothes:** Flour-dusted apron over a faded print dress; always looks like she just left the stove.
 - **Hair & face:** Dark hair pinned up loosely, strands escaping; round face, deep laugh lines around brown eyes.

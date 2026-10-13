@@ -2,15 +2,17 @@
 
 ## Hook
 
-<!-- Spoiler-free. One line: what a player registers on first seeing the object,
-     its outward look, enough to recognise it exists. The entity as a clue.
-     No hidden meaning; analysis lives in Content, Opportunities, Actions. -->
+<!-- Knowing: what a player knows once they are aware of this item, without holding it:
+     what it is, in a line. Spoiler-free; not where it is, not what it means. -->
 
-- [Outward look. e.g. "a dented tin holding premium Carmen cigarette butts".]
+- [What it is. e.g. "the key to Janina's attic", "a tin of cigarette butts from her door".]
 
-## Description
+## Setup
 
-[What the object is, physically. What players see and feel when they hold it. Keep it concrete — an item is a thing, not a story.]
+<!-- Encountering: what players see and feel when they hold it or come upon it. Keep it
+     concrete: an item is a thing, not a story. -->
+
+[What the object is, physically.]
 
 ## Content
 

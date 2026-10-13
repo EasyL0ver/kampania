@@ -25,7 +25,7 @@ from urllib.parse import unquote
 REPO_ROOT = Path(__file__).resolve().parent
 KINDS = ["characters", "characters/secondary", "events", "locations", "items", "cards"]
 SCENE_KINDS = ("characters", "events", "locations", "items", "cards")
-SKIP_DIRS = {"world", ".git", "node_modules"}
+VALIDATED = ("characters", "events", "locations", "items")   # the only folders the validator reads
 
 HEADING = re.compile(r"^(#{1,6})\s+(.*?)\s*$")
 HEADER_FIELD = re.compile(r"^\*\*([^*:]+):\*\*\s*(.*)$")
@@ -146,12 +146,12 @@ def rule(rule_id: str, *kinds: str, severity: str = "error"):
 
 # The ## sections each kind may contain, in template order (_template.md).
 ALLOWED_SECTIONS = {
-    "characters": ["Hook", "Vital Statistics", "Character", "Appearance", "Opinions",
+    "characters": ["Hook", "Vital Statistics", "Character", "Setup", "Opinions",
                    "Mechanics", "Opportunities", "Actions", "Bond", "Grudge"],
     "events": ["Trigger", "Hook", "Setup", "Opportunities", "Actions", "Mechanics",
-               "Exits", "If Missed"],
+               "Resolve"],
     "locations": ["Hook", "Setup", "Opportunities", "Actions", "Mechanics"],
-    "items": ["Hook", "Description", "Content", "Mechanics", "Opportunities", "Actions"],
+    "items": ["Hook", "Setup", "Content", "Mechanics", "Opportunities", "Actions"],
     "cards": ["Card", "Special rules"],
 }
 
@@ -219,6 +219,28 @@ STATUS_FIELDS = {
 LOCATION_LINK = re.compile(r"^\[[^\]]+\]\((?:\.\./)+locations/[a-z0-9/-]+\.md\)")
 
 
+PHASES = ("Morning", "Afternoon", "Evening", "Night")
+SCHEDULE_VALUE = re.compile(r"^(away|\[[^\]]+\]\((?:\.\./)+locations/[a-z0-9/-]+\.md\))$")
+
+
+@rule("schedule", "characters")
+def schedule(f: MdFile):
+    """Every living character has Morning / Afternoon / Evening / Night in Vital Statistics:
+    one location link each, or `away`. The dead have none."""
+    s = f.section("Vital Statistics")
+    fields = {m.group(1).strip(): (line, m.group(2)) for line, t in (s.body if s else [])
+              if (m := VITAL_FIELD.match(t))}
+    dead = fields.get("Status", (0, ""))[1].startswith("Dead")
+    for p in PHASES:
+        if dead:
+            if p in fields:
+                yield fields[p][0], f"the dead have no schedule: remove **{p}:**"
+        elif p not in fields:
+            yield (s.line if s else 1), f"Vital Statistics has no **{p}:** (a location link, or away)"
+        elif not SCHEDULE_VALUE.match(fields[p][1]):
+            yield fields[p][0], f"**{p}:** must be one location link or away, not '{fields[p][1][:50]}'"
+
+
 @rule("vital-status", "characters")
 def vital_status(f: MdFile):
     """Vital Statistics has Status: Resident / Outsider / Dead, and the fields that status requires (and none it forbids)."""
@@ -257,13 +279,32 @@ def vital_status(f: MdFile):
 
 @rule("appearance-present", "characters")
 def appearance_present(f: MdFile):
-    """## Appearance: required for Residents, optional for everyone else."""
+    """## Setup (how they look when you meet them): required for Residents, optional for everyone else."""
     s = f.section("Vital Statistics")
     status = next((m.group(2) for _, t in (s.body if s else [])
                    if (m := VITAL_FIELD.match(t)) and m.group(1).strip() == "Status"), None)
-    appearance = f.section("Appearance")
+    appearance = f.section("Setup")
     if status == "Resident" and appearance is None:
-        yield f.title_line or 1, "Status Resident requires a '## Appearance' section"
+        yield f.title_line or 1, "Status Resident requires a '## Setup' section (how they look when you meet them)"
+
+
+SETUP_LABELLED = re.compile(r"^- \*\*[^*:]+:\*\* ")
+
+
+@rule("setup-no-bullets", "characters", "events", "locations", "items", severity="warning")
+def setup_no_bullets(f: MdFile):
+    """## Setup is prose. Only a character's Setup may use bullets, and only labelled ones
+    (`- **Clothes:** …`, `- **Hair & face:** …`, `- **Carriage:** …`) before its paragraph."""
+    s = f.section("Setup")
+    for line, t in (s.body if s else []):
+        t = t.strip()
+        if not t.startswith(("- ", "* ")):
+            continue
+        if f.kind == "characters" and SETUP_LABELLED.match(t):
+            continue
+        yield line, "bullet in ## Setup: write it as prose" + (
+            " (a character's Setup allows only labelled bullets, e.g. - **Clothes:** …)" if f.kind == "characters" else "")
+        break
 
 
 REQUIRES_FIELD = re.compile(r"^\s*-\s*\*\*Requires:\*\*\s*(.*?)\s*$")
@@ -455,6 +496,8 @@ def noticed_by_format(f: MdFile):
 GIVES_FIELD = re.compile(r"^\s*-\s*\*\*Gives:\*\*\s*(.*?)\s*$")
 OPP_GIVES = re.compile(r"→\s*Gives:\s*(.*?)\s*(?=→\s*Changes:|<!--|$)")
 GIVES_JOIN = ", "
+GIVES_TO = re.compile(r"^\*\(to: ([^)]*)\)\*\s*")
+GIVES_TARGETS = ("everyone present", "every player")   # no tag: the acting (or noticing) player
 
 
 CHANGES_FIELD = re.compile(r"^\s*-\s*\*\*Changes:\*\*\s*(.*?)\s*$")
@@ -553,11 +596,103 @@ def mechanic_type(f: MdFile):
                 yield body[2][0], f"Start '{v}' is not one of: {', '.join(values)}"
 
 
+def mechanic_kind(path: Path, anchor: str) -> tuple[str, list[str]] | None:
+    """(type, legal values) of the mechanic at path#anchor: bool and enum list their values,
+    int / rule / list none. None if there is no such typed mechanic."""
+    s = parse(path).section("Mechanics")
+    for m in (s.children if s else []):
+        if slug(m.title) != anchor:
+            continue
+        body = [t.strip() for _, t in m.body if t.strip()]
+        tm = MECH_TYPE.match(body[0]) if body else None
+        if not tm:
+            return None
+        kind = tm.group(1).split(" ")[0]
+        if kind == "bool":
+            return kind, ["true", "false"]
+        if kind == "enum":
+            return kind, [x.strip() for x in tm.group("values").split("|")]
+        return kind, []
+    return None
+
+
+def mechanic_values(path: Path, anchor: str) -> list[str] | None:
+    """The legal values of the bool / enum mechanic at path#anchor; None if it is not one."""
+    k = mechanic_kind(path, anchor)
+    return k[1] if k and k[0] in ("bool", "enum") else None
+
+
+MECH_REF = r"\[[^\]]+\]\((?P<path{n}>[^)#\s]*)#(?P<anchor{n}>[a-z0-9-]+)\)"
+RESOLVE_COND = re.compile(MECH_REF.format(n="") + r" is (?P<value>[A-Za-z0-9+-]+)$")
+RESOLVE_SET = re.compile(MECH_REF.format(n="") + r" = (?P<value>[A-Za-z0-9+-]+)$")
+
+
+@rule("resolve-format", "events")
+def resolve_format(f: MdFile):
+    """Every ## Resolve line is `- [conditions] → [Mechanic](file.md#anchor) = value`: conditions are
+    zero or more `[Mechanic](file.md#anchor) is value` joined by ' and '. Only bool / int / enum
+    mechanics, legal values (an int also takes +N / -N). Nothing else: no prose, no comments."""
+    s = f.section("Resolve")
+    if s is None:
+        return
+    for line, t in s.body:
+        t = t.strip()
+        if not t or (t.startswith("<!--") and t.endswith("-->")):
+            continue
+        if not t.startswith("- ") or t.count("→") != 1:
+            yield line, f"Resolve line is not `- [conditions] → [Mechanic](file.md#anchor) = value`: {t[:70]}"
+            continue
+        left, _, right = t[2:].partition("→")
+        conds = [c.strip() for c in left.split(" and ")] if left.strip() else []
+        parts = [(c, RESOLVE_COND.match(c), "condition") for c in conds] + [(right.strip(), RESOLVE_SET.match(right.strip()), "assignment")]
+        for text, m, what in parts:
+            if not m:
+                yield line, f"Resolve {what} '{text[:60]}' is not `[Mechanic](file.md#anchor) {'is' if what == 'condition' else '='} value`"
+                continue
+            target = (f.path.parent / unquote(m.group("path"))).resolve() if m.group("path") else f.path
+            k = mechanic_kind(target, m.group("anchor")) if target.is_file() else None
+            v = m.group("value")
+            if k is None or k[0] not in ("bool", "int", "enum"):
+                yield line, f"Resolve link '#{m.group('anchor')}' is not a bool / int / enum mechanic"
+            elif k[0] == "int":
+                if not re.fullmatch(r"[+-]?\d+" if what == "assignment" else r"-?\d+", v):
+                    yield line, f"Resolve value '{v}' is not an int"
+            elif v not in k[1]:
+                yield line, f"Resolve value '{v}' is not one of: {', '.join(k[1])}"
+
+
+PRESENT_ENTRY = re.compile(
+    r"^\[[^\]]+\]\((?P<who>[^)\s#]*characters/[^)\s#]+\.md)\)"
+    r"(?: \(if \[[^\]]+\]\((?P<path>[^)#\s]*)#(?P<anchor>[a-z0-9-]+)\) is (?P<value>[A-Za-z0-9-]+)\))?$")
+
+
+@rule("present-format", "events")
+def present_format(f: MdFile):
+    """Present is a ', '-separated list of character links, each with at most one condition on a
+    bool / enum mechanic: `[Name](file.md) (if [Mechanic](file.md#mechanic) is value)`. No free text."""
+    line, value = f.header.get("Present", (0, ""))
+    if not line:
+        return
+    for part in re.split(r"[,;]\s*", value.strip()):
+        e = PRESENT_ENTRY.match(part.strip())
+        if not e:
+            yield line, f"Present entry '{part.strip()[:70]}' is not `[Name](characters/file.md)` with an optional `(if [Mechanic](file.md#mechanic) is value)`"
+            continue
+        if not e.group("anchor"):
+            continue
+        target = (f.path.parent / unquote(e.group("path"))).resolve() if e.group("path") else f.path
+        values = mechanic_values(target, e.group("anchor")) if target.is_file() else None
+        if values is None:
+            yield line, f"Present condition '#{e.group('anchor')}' is not a bool / enum mechanic"
+        elif e.group("value") not in values:
+            yield line, f"Present condition value '{e.group('value')}' is not one of: {', '.join(values)}"
+
+
 # Header fields each kind carries between the title and the first ##: (template order, optional ones).
 HEADER_FIELDS = {
-    "characters": (["Type", "Freudian role"], ["Freudian role"]),
-    "events": (["Part of", "Location", "Present", "Available"], ["Part of"]),
-    "locations": (["Part of", "Type", "Location", "Present", "Available", "Cost"], ["Part of"]),
+    "characters": ([], []),              # no header: the folder says what it is, the Hook its role
+    "events": (["Part of", "Location", "Present", "Available"], ["Part of", "Present"]),
+    "locations": ([], []),               # no header: who is there comes from the characters' schedules
     "items": ([], []),
     "cards": (["Pool", "Type", "Composure"], []),
 }
@@ -565,7 +700,7 @@ REQUIRED_SECTIONS = {
     "characters": ["Hook", "Vital Statistics", "Character"],
     "events": ["Hook", "Setup"],
     "locations": ["Hook", "Setup"],
-    "items": ["Hook", "Description"],
+    "items": ["Hook", "Setup"],
     "cards": ["Card"],
 }
 HEADER_LINE = re.compile(r"^\*\*([^*:]+):\*\*\s*\S")
@@ -639,12 +774,19 @@ def opportunity_no_changes(f: MdFile):
 
 @rule("gives-format", "characters", "events", "locations", "items")
 def gives_format(f: MdFile):
-    """Gives (action line or opportunity `→ Gives:`) is a ', '-separated list of what the player now holds: clue links, aware: tokens, item and card links."""
+    """Gives (action line or opportunity `→ Gives:`) is an optional target tag, `*(to: everyone present)*` or
+    `*(to: every player)*` (none: the acting / noticing player), then a ', '-separated list of what they
+    now hold: clue links, aware: tokens, item and card links."""
     for line, t in f.lines_with_numbers():
         m = GIVES_FIELD.match(t) or OPP_GIVES.search(t)
         if not m:
             continue
         value = m.group(1).rstrip(".")
+        to = GIVES_TO.match(value)
+        if to:
+            if to.group(1) not in GIVES_TARGETS:
+                yield line, f"Gives target '{to.group(1)}' is not one of: {', '.join(GIVES_TARGETS)}"
+            value = value[to.end():]
         if not value:
             yield line, "empty Gives"
             continue
@@ -801,19 +943,28 @@ def aware_target(token: str) -> Path:
 
 @rule("bundles", *SCENE_KINDS)
 def bundles(f: MdFile):
-    """A subfolder is a bundle: its default is folder/folder.md; every other file says **Part of:** that default, and the default links it."""
+    """A subfolder is a bundle: its default is folder/folder.md, and every other file in it says
+    **Part of:** that default (locations excepted: their folder says it). Bundles nest: a folder
+    inside a bundle is a sub-bundle, whose default is a part of the outer bundle (Part of: ../outer.md)."""
     parts = f.path.relative_to(REPO_ROOT).parts
-    if len(parts) != 3 or parts[:2] == ("characters", "secondary"):
+    if len(parts) < 3 or parts[:2] == ("characters", "secondary"):
         return
-    folder, default = f.path.parent, f.path.parent / f"{parts[1]}.md"
+    folder = f.path.parent
+    default = folder / f"{folder.name}.md"
     if not default.is_file():
-        yield 1, f"bundle folder {parts[0]}/{parts[1]}/ has no default file {parts[1]}.md"
+        yield 1, f"bundle folder {folder.relative_to(REPO_ROOT).as_posix()}/ has no default file {folder.name}.md"
         return
     if f.path == default:
-        for child in sorted(folder.glob("*.md")):
-            if child != default and not any(f"]({child.name}" in t for t in f.lines):
-                yield 1, f"bundle default does not link its part {child.name}"
+        if len(parts) > 3 and f.kind != "locations":   # a sub-bundle's default is a part of the outer bundle
+            outer = folder.parent / f"{folder.parent.name}.md"
+            line, value = f.header.get("Part of", (0, ""))
+            if not line:
+                yield f.title_line or 1, f"sub-bundle default has no **Part of:** header (should link ../{outer.name})"
+            elif f"](../{outer.name})" not in value:
+                yield line, f"**Part of:** must link the outer bundle default ../{outer.name}"
         return
+    if f.kind == "locations":
+        return                                  # a location's bundle is its folder; no header
     line, value = f.header.get("Part of", (0, ""))
     if not line:
         yield f.title_line or 1, f"bundle part has no **Part of:** header (should link {default.name})"
@@ -910,10 +1061,14 @@ _fields: dict[Path, dict[str, int]] = {}
 
 
 def entity_fields(path: Path) -> dict[str, int]:
-    """field label -> how many times it occurs: name (the title), header fields, Vital Statistics bullets."""
+    """field label -> how many times it occurs: name (the title), header fields, Vital Statistics bullets,
+    and setup (the Setup section, shown by [@setup] as the entity is seen)."""
     if path not in _fields:
         f = parse(path)
         counts = {"name": 1 if f.title else 0}
+        s = f.section("Setup")
+        if s and any(t.strip() and not t.strip().startswith("<!--") for _, t in s.body):
+            counts["setup"] = 1
         for label in f.header:
             counts[field_label(label)] = counts.get(field_label(label), 0) + 1
         s = f.section("Vital Statistics")
@@ -1034,13 +1189,18 @@ def refs_resolve(f: MdFile):
 # Runner
 # --------------------------------------------------------------------------
 
+def validated(p: Path) -> bool:
+    """Only characters/, events/, locations/ and items/, no templates."""
+    try:
+        rel = p.resolve().relative_to(REPO_ROOT)
+    except ValueError:
+        return False
+    return rel.parts[0] in VALIDATED and p.suffix == ".md" and not p.name.startswith("_")
+
+
 def all_files() -> list[Path]:
-    """Every .md in the repo except templates and SKIP_DIRS."""
-    return sorted(
-        p for p in REPO_ROOT.rglob("*.md")
-        if not SKIP_DIRS & set(p.relative_to(REPO_ROOT).parts[:-1])
-        and not p.name.startswith("_")
-    )
+    """Every .md the validator reads: see validated()."""
+    return sorted(p for k in VALIDATED for p in (REPO_ROOT / k).rglob("*.md") if validated(p))
 
 
 def main(argv: list[str]) -> int:
@@ -1051,7 +1211,7 @@ def main(argv: list[str]) -> int:
             print(f"{r.id}  {r.severity}  [{', '.join(sorted(r.kinds)) or 'all'}]  {r.doc}")
         return 0
 
-    paths = [(REPO_ROOT / a).resolve() for a in argv] if argv else all_files()
+    paths = [q for q in ((REPO_ROOT / a).resolve() for a in argv) if validated(q)] if argv else all_files()
     counts = {"error": 0, "warning": 0}
     for p in paths:
         f = parse(p)

@@ -6,7 +6,7 @@
 
 The auditor gets the game rules (story-facts/game-system.md,
 actions-and-opportunities.md), the scene's setups/ sheet (opening + starting
-context), and every move open in the scene (its file, an outer "During" event,
+context), and every move open in the scene (its file,
 its Location and Present characters, held items' actions) with each field
 spelled out, plus the scene's mechanics. It checks the categories in CHECKS
 and returns findings with a severity and a fix.
@@ -114,8 +114,11 @@ SYSTEM = (
     "scene with its fields. Report concrete problems only, each tied to a specific line or move, with a "
     "short, actionable fix. How to read the input: the starting context is what the player already holds "
     "when this scene begins, handed out by earlier scenes (skill cards come from the draft at game start); "
-    "treat it as held, not as an error. Moves from an outer event that this scene runs 'During', from its "
-    "location, from present characters, and from held items are open here too. Do not praise, do not summarise, do not invent problems; an empty list is a "
+    "treat it as held, not as an error. Moves from its "
+    "location, from present characters, and from held items are open here too. The sheet's 'Present' section "
+    "(GM only, never read aloud) lists who is here, each person's moves open while their condition holds; "
+    "'Who is here' in the opening is only who the player sees described on arrival, so an empty 'Who is here' "
+    "with people under 'Present' is not an error. Do not praise, do not summarise, do not invent problems; an empty list is a "
     "valid answer. Severity: blocker = the scene cannot be played as written; problem = players will "
     "stumble or the rules are broken; nit = polish.\n\nCHECKS:\n"
     + "\n".join(f"- {k}: {v}" for k, v in CHECKS.items())

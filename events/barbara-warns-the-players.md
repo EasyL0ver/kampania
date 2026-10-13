@@ -1,6 +1,6 @@
 # Barbara Warns the Players
 
-**Location:** [@name](../locations/barbaras-house.md)
+**Location:** [@name](../locations/new-village/barbaras-house.md)
 **Present:** [@name](../characters/barbara.md)
 **Available:** Day 6 late afternoon, if at least one player has a [Bond](../characters/barbara.md#bond) with [@name](../characters/barbara.md).
 
@@ -21,7 +21,7 @@
 
 ## Setup
 
-- [@name](../characters/barbara.md) keeps looking toward the fence line and [@name](../locations/neighbours-house.md).
+- [@name](../characters/barbara.md) keeps looking toward the fence line and [@name](../locations/new-village/neighbours-house.md).
 - [@name](../characters/barbara.md) grips the trusted player's arm tightly.
 - [@name](../characters/barbara.md) says [@name](../characters/neighbour.md) has been drinking.
 - [@name](../characters/barbara.md) says men have been at [@name](../characters/neighbour.md)'s place.
@@ -42,14 +42,10 @@
 - **Outcome:** [@name](../characters/barbara.md) confirms the men gathered tonight, the rifle is gone, and [@name](../characters/neighbour.md) is not at the fence.
 - **Gives:** aware:events/punishment-lynch.md
 
-## Exits
+## Resolve
 
-- Go to [@name](../locations/neighbours-house.md) before dark.
-- Prepare for [@name](punishment-lynch.md).
-- Keep [@name](../characters/barbara.md) and [@name](../characters/pawelek.md) at [@name](../locations/barbaras-house.md).
-
-## If Missed
-
+<!-- TBD (was If Missed):
 - If no player has a [Bond](../characters/barbara.md#bond) with [@name](../characters/barbara.md), this event never happens.
 - The first sign of [@name](punishment-lynch.md) is lamps on the road and dogs in the dark.
 - [@name](../characters/barbara.md) stands with [@name](../characters/neighbour.md) when the mob forms.
+-->

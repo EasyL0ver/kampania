@@ -4,6 +4,6 @@
 
 - Women's undergarments, folded away in a bench-bed drawer.
 
-## Description
+## Setup
 
 Old women's undergarments, kept folded in the drawer of the bench-bed.

@@ -4,7 +4,7 @@
 
 An official farm-worker register: names, jobs, daily rates, totals.
 
-## Description
+## Setup
 
 The 1967 staff and pay register for the farm — eight names, positions, daily rates, and a monthly cost summary. Kept by the Foreman. Cross-checked against the villagers players have actually met, one name on it belongs to no one you can find on the farm.
 

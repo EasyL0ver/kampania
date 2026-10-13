@@ -1,7 +1,5 @@
 # Ryszard Dudka
 
-**Type:** Named character — bystander witness
-
 ## Hook
 
 [@first-name](neighbour.md) [@surname](neighbour.md), a quiet farmer and licensed hunter, lives next door to [@name](ciotka.md).
@@ -11,9 +9,13 @@
 - **First name:** Ryszard
 - **Surname:** Dudka
 - **Status:** Resident
+- **Morning:** [@name](../locations/new-village/neighbours-house.md)
+- **Afternoon:** [@name](../locations/new-village/the-store.md)
+- **Evening:** [@name](../locations/new-village/neighbours-house.md)
+- **Night:** [@name](../locations/new-village/neighbours-house.md)
 - **Born:** 1918
 - **Age in 1967:** 49
-- **Lives in:** [@name](../locations/neighbours-house.md) — alone
+- **Lives in:** [@name](../locations/new-village/neighbours-house.md) — alone
 - **Settled:** ~1948 — early settler, next door to Barnaś family from the start
 - **Armed:** Hunting rifle (licensed)
 
@@ -21,7 +23,7 @@
 
 Quiet hunter who heard everything in 1954 and did nothing. He carries the guilt of inaction and turns it into fear and hatred of [@surname](butcher.md). He is the easiest NPC to crack.
 
-## Appearance
+## Setup
 
 - **Clothes:** Wool trousers held up by braces, flannel shirt with sleeves rolled in summer, heavy boots — same outfit every day
 - **Hair & face:** Flat cap he rarely removes; pale blue eyes, strong jaw, three-day stubble that never becomes a beard
@@ -39,6 +41,12 @@ He speaks in short flat sentences with long pauses. He goes quieter when angry, 
 - **[wujas-is-guilty](../clues/clues.md#wujas-is-guilty)** — "Lots of men drink for bad reasons. I will not say more unless something breaks."
 
 ## Mechanics
+
+### Alive
+
+- **Type:** bool
+- **Per:** world
+- **Start:** true
 
 ### Lynch Targets
 
@@ -66,7 +74,7 @@ He speaks in short flat sentences with long pauses. He goes quieter when angry, 
 ### Property assessment
 <!-- Prompted by: aware:characters/neighbour.md -->
 - **Cost:** 1 time
-- **Outcome:** He identifies his house and plot next to [@name](../locations/ciotkas-house/ciotkas-house.md). His papers are in order and his answers stay clipped — the record shows he has held the plot since ~1948.
+- **Outcome:** He identifies his house and plot next to [@name](../locations/new-village/ciotkas-house/ciotkas-house.md). His papers are in order and his answers stay clipped — the record shows he has held the plot since ~1948.
 - **Gives:** [neighbour-is-old-settler](../clues/clues.md#neighbour-is-old-settler)
 - **Changes:** [Property Record](../items/census.md#property-record) — [@surname](neighbour.md) house and farmland
 

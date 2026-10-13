@@ -1,7 +1,6 @@
 # Surveying the Streambed
 
 **Location:** [@name](../locations/far-ridge-streambed.md)
-**Present:** Survey party
 **Available:** Holding [streambed-is-candidate-drain](../clues/clues.md#streambed-is-candidate-drain); a PC with **Geology** and the [@name](../items/geologists-kit.md); the far ridge reached
 
 ## Trigger
@@ -63,7 +62,3 @@ Setting up a level line at the far-ridge streambed to measure toward the village
 - **Per:** world
 - **Start:** 0
 - **The line is 6 legs.** Each "Shoot a leg" or "Hold the staff" adds 1, "Haul the level" adds 2. The geologist must shoot at least 3 of them; helpers can do the rest. Several PCs can work the same day.
-
-## Exits
-
-- The streambed is settled as a dead outlet; back to the [@name](../locations/far-ridge-streambed.md) or down to [@name](../locations/new-village.md).

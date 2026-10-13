@@ -1,7 +1,5 @@
 # Kazimierz Wróbel
 
-**Type:** Named character — the heir with the deed (land-dispute red herring)
-
 ## Hook
 
 [@first-name](dispute-brother.md), a lorry driver and deed-holder in a dispute over the border strip, lives in his late father's house.
@@ -11,17 +9,21 @@
 - **First name:** Kazimierz
 - **Surname:** Wróbel
 - **Status:** Resident
+- **Morning:** away
+- **Afternoon:** away
+- **Evening:** [@name](../locations/new-village/new-village.md)
+- **Night:** [@name](../locations/new-village/new-village.md)
 - **Born:** ~1931
 - **Age in 1967:** 36
 - **Heritage:** Polish settler family
-- **Lives in:** [@name](../locations/new-village.md) — his late father's house, alone
+- **Lives in:** [@name](../locations/new-village/new-village.md) — his late father's house, alone
 - **Settled:** 1947, as a child with his father
 
 ## Character
 
 A lorry driver with a valid deed to the house and border strip his sister has farmed for years. He is not cruel or scheming; the paper is his, the flood means money, and he wants his share.
 
-## Appearance
+## Setup
 
 - **Clothes:** Worn village jacket over a clean-ish shirt; boots that do not spend every day in a field
 - **Hair & face:** Short practical haircut, clean-shaven or a day's stubble; soft, tired, unremarkable face

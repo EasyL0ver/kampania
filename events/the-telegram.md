@@ -1,7 +1,7 @@
 # The Telegram
 
-**Location:** [@name](../locations/wojewodas-house.md)
-**Present:** [@name](../characters/jagna.md), [@name](../characters/wojewoda.md) (if in his office)
+**Location:** [@name](../locations/new-village/wojewodas-house.md)
+**Present:** [@name](../characters/jagna.md), [@name](../characters/wojewoda.md)
 **Available:** Day 3 onward, during [@name](the-flood.md), while the committee is on the line with the exchange (during [@name](operator-refuses-help.md)).
 
 ## Trigger
@@ -20,7 +20,7 @@
 - It is addressed to the committee and signed BARNAŚ.
 - Content: service papers and uniform buried under the old garden bed behind his house; take them.
 - [@name](../characters/soldier.md) has been dead since 1954 and never knew the committee.
-- The cache is in the backyard of [@name](../locations/ciotkas-house/ciotkas-house.md), where [@name](../characters/ciotka.md) now lives.
+- The cache is in the backyard of [@name](../locations/new-village/ciotkas-house/ciotkas-house.md), where [@name](../characters/ciotka.md) now lives.
 - The only working phone is in [@name](../characters/wojewoda.md)'s office; if he is in the room, he hears the name read aloud.
 - The operator names no sending office and does not repeat the wire.
 
@@ -44,12 +44,3 @@
 - [@first-name](../characters/jagna.md) withholds rescue but feeds evidence: the cache proves the village lynched a KBW officer, and unearthing it damns the village, which is what she wants.
 - She can plant the wire while still anonymous; it does not name her and is deniable as a crossed wire.
 - [@first-name](../characters/wojewoda.md) cannot suppress it: the committee holds the receiver, and he cannot filter the operator's words into their ear. His only block is denying them the phone in the first place.
-
-## Exits
-
-- Dig at [the Barnaś backyard](../locations/ciotkas-house/ciotkas-house.md#dig-in-the-backyard).
-- Back to [@name](operator-refuses-help.md) and [@name](the-flood.md).
-
-## If Missed
-
-- If the committee never gets on the line during the flood, the wire never comes and the backyard cache keeps its only pointer closed.

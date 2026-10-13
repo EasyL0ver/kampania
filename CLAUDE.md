@@ -60,7 +60,6 @@ Read all files in these folders to understand current state:
       - `## Setup` — What players see/hear/feel. **Rule: If an opportunity lets players notice something, the Setup must mention or hint at it.** Players can't notice what the GM never described.
       - `## Opportunities` — Free, no action cost. Skill-gated observations that give clues or reveal NPC behavior. Skill tags show what each skill reveals.
       - `## Actions` — What costs time. Each action has: Requires, Cost, Outcome (with skill-specific branches), clues given.
-      - `## Exits` (events only) — Where players go after. Locations don't have exits.
 
 15. **Scene outcomes:**
     - **Clue** — Players learn an atomic fact (must exist in `clues/clues.md`)
@@ -70,9 +69,11 @@ Read all files in these folders to understand current state:
     - **World State Change** — The village itself changes
     - **Ending Progress** — Advances an ending chain
 
-16. **Every entity has a `## Hook`** — Characters, locations, items, and events all carry a `## Hook`: one spoiler-free line for how the entity enters the players' awareness and gives them a handle to act on it. An entity's existence is itself a clue, and the Hook is that clue's public text. No GM secrets, no meaning, no analysis. By type:
-    - **Character** — what you learn from an introduction: name + public role/relation.
-    - **Location** — the map handle: where it sits and how to reach it.
-    - **Item** — the outward look on first seeing it.
-    - **Event** — the outward signal that reaches players (a bell, shouting, someone stopping them) and where it is perceivable from.
-
+16. **Every entity has a `## Hook` and a `## Setup`** — Characters, locations, items and events all carry both:
+    - **Hook = knowing.** What a player knows once aware of it, without being there; the text of its `aware:` token and what they can ask about. Spoiler-free: no GM secrets, no meaning, no analysis.
+    - **Setup = encountering.** What a player perceives the first time they are in its presence. For a character, how they look and sound, without their name (names come from introductions).
+    - By type, the Hook is:
+      - **Character** — name and public role/relation.
+      - **Location** — what the place is (not how to reach it: that is `located:`).
+      - **Item** — what it is, in a line.
+      - **Event** — the outward signal that reaches players (a bell, shouting, someone stopping them) and where it is perceivable from.

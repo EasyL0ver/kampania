@@ -1,7 +1,5 @@
 # Emil Rzepka
 
-**Type:** Named character — broken artist, lynch survivor
-
 ## Hook
 
 [@first-name](painter.md) [@surname](painter.md), [@first-name](matrona.md)'s withdrawn husband and a local painter, works in the garden shed.
@@ -11,16 +9,20 @@
 - **First name:** Emil
 - **Surname:** Rzepka
 - **Status:** Resident
+- **Morning:** [@name](../locations/new-village/matronas-house.md)
+- **Afternoon:** [@name](../locations/new-village/matronas-house.md)
+- **Evening:** [@name](../locations/new-village/matronas-house.md)
+- **Night:** [@name](../locations/new-village/matronas-house.md)
 - **Born:** 1923
 - **Age in 1967:** 44
-- **Lives in:** [@name](../locations/matronas-house.md) — with [@name](matrona.md), [@name](secondary/ewa-rzepka.md), [@name](secondary/krystian-rzepka.md)
+- **Lives in:** [@name](../locations/new-village/matronas-house.md) — with [@name](matrona.md), [@name](secondary/ewa-rzepka.md), [@name](secondary/krystian-rzepka.md)
 - **Settled:** ~1948 — first wave, with [@first-name](matrona.md)
 
 ## Character
 
 [@first-name](matrona.md)'s husband, a lynch survivor, and the artist whose life ended without stopping. He paints landscapes and never people, except for one hidden portrait of [@name](jagna.md) in his garden shed. He is useful because his hand and his guilt both left traces.
 
-## Appearance
+## Setup
 
 - **Clothes:** Paint-spattered work clothes in the garden shed; downstairs, dressed neatly in whatever [@first-name](matrona.md) lays out for him
 - **Hair & face:** Thinning grey hair, paint-flecked at the temples; gaunt cheeks, watery blue eyes that won't hold a gaze
@@ -35,6 +37,14 @@ His hands are the only alive part of him: long-fingered, always stained with cad
 - **[emil-traumatised-in-54](../clues/clues.md#emil-traumatised-in-54)** — "Something in me died that year. The colour went out of the world, and it never came back."
 - **[you-should-jump-inside](../clues/clues.md#you-should-jump-inside)** — "You feel it too, then. That pull to climb down into the dark. I feel it every time I paint it. I stopped fighting it on the canvas a long time ago."
 
+## Mechanics
+
+### Alive
+
+- **Type:** bool
+- **Per:** world
+- **Start:** true
+
 ## Opportunities
 
 - *(when: Committee authority, [@first-name](secondary/ewa-rzepka.md) present during the census)* — While the committee takes the household down, [@name](secondary/ewa-rzepka.md) settles on the stool beside her father and asks him, lightly, to paint her portrait for once. [@first-name](painter.md) turns it away gently: he offers to paint the house, the valley, the cerkiew on the hill, anything but her. Every finished canvas in the room is a place, never a person. He paints the world he lives in and leaves the people out of it. → Gives: [emil-doesnt-paint-people](../clues/clues.md#emil-doesnt-paint-people) <!-- Prompted by: aware:characters/painter.md -->
@@ -46,11 +56,6 @@ His hands are the only alive part of him: long-fingered, always stained with cad
 <!-- Prompted by: aware:characters/painter.md -->
 - **Outcome:** He goes still, then his stained hands start to shake. He cannot look at it and cannot look away.
 - **Gives:** [`dress-distressed-painter`](../clues/clues.md#dress-distressed-painter)
-
-### Ask Painter about Jagna's portrait
-<!-- Prompted by: [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew), [barnas-had-a-daughter-hania](../clues/clues.md#barnas-had-a-daughter-hania) -->
-- **Outcome:** [@first-name](painter.md) reacts physically to [@first-name](jagna.md)'s name and asks that she be written into the census as someone who lived here.
-- **Gives:** [`painter-wants-to-confess`](../clues/clues.md#painter-wants-to-confess)
 
 ### Census interview
 - **Cost:** 1 time

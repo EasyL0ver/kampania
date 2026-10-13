@@ -1,7 +1,6 @@
 # Search for the Benchmarks
 
 **Location:** [@name](../locations/far-ridge-streambed.md)
-**Present:** Survey party
 **Available:** Holding [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed)
 
 ## Trigger
@@ -14,7 +13,7 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 
 ## Setup
 
-- The Solina dam crews set stamped geodetic benchmarks (repery) at the streambed col and beside [@name](../locations/new-village.md) years ago.
+- The Solina dam crews set stamped geodetic benchmarks (repery) at the streambed col and beside [@name](../locations/new-village/new-village.md) years ago.
 - The markers are old, weathered, and half-buried in undergrowth and slid earth; there is no map to their exact spots.
 - There are two to find: one at the streambed col, one at the village edge. Both elevations are needed, so both markers must be turned up.
 - Quartering the whole slope for markers means crossing ground nobody has walked in years; there is more than benchmarks half-swallowed in the gorse up here.
@@ -49,7 +48,7 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 - **When:** the village-edge marker is not yet found
 <!-- Prompted by: [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed) -->
 - **Cost:** 1 time
-- **Outcome:** You comb the ground at the edge of [@name](../locations/new-village.md). Until the hidden count is reached: fence posts, field stones, nothing stamped. On the search that reaches it, the stamped benchmark turns up half-buried by a field wall.
+- **Outcome:** You comb the ground at the edge of [@name](../locations/new-village/new-village.md). Until the hidden count is reached: fence posts, field stones, nothing stamped. On the search that reaches it, the stamped benchmark turns up half-buried by a field wall.
 - **Changes:** [Hidden count at the village edge](#hidden-count-at-the-village-edge) — +1
 
 ### Copy the elevations
@@ -81,7 +80,3 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 - **Searches already made count** toward the lower number.
 - **Sites are independent.** Two PCs can search one site each in parallel.
 - **Against the survey:** with reads the hunt costs 4 time and needs no specialist; without, 8, and the players cannot see that coming. That is the trade for skipping the geologist.
-
-## Exits
-
-- Holding the [@name](../items/streambed-parameters.md), interpret them into [streambed-dead-ends](../clues/clues.md#streambed-dead-ends): read them as a surveyor with the [@name](../items/geologists-kit.md), phone [@name](../characters/professor.md), or show [@name](../characters/foreman.md).

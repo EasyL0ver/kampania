@@ -1,7 +1,6 @@
 # The Flood
 
-**Location:** [@name](../locations/new-village.md)
-**Present:** Everyone
+**Location:** [@name](../locations/new-village/new-village.md)
 **Available:** Day 3 morning; automatic.
 
 ## Hook
@@ -28,7 +27,7 @@
 - The water table is rising.
 - Cellars are filling.
 - The ground is saturated.
-- Surveyors' stakes marking the projected flood line run across the [@name](../locations/new-village.md) slope, and the water is already climbing past them.
+- Surveyors' stakes marking the projected flood line run across the [@name](../locations/new-village/new-village.md) slope, and the water is already climbing past them.
 - The committee is outside the village's normal flood-response machinery.
 
 ## Opportunities
@@ -50,10 +49,3 @@
 - **Cost:** 1 time
 - **Outcome:** Players help with sandbags, drainage, or livestock. PGR workers mention that the [@name](../locations/old-village-ruins.md) floods worse because water pools there.
 - **Gives:** [`old-village-flooding`](../clues/clues.md#old-village-flooding)
-
-## Exits
-
-- Continue investigations inside [@name](../locations/new-village.md), using flood checks as cover.
-- Use the phone through [@name](operator-refuses-help.md).
-- If the flood proof is established and shared, continue to [@name](the-disclosure.md).
-- If the village chooses engineering action, continue to [@name](foreman-saves-village.md).

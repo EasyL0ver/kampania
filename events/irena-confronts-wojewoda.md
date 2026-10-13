@@ -1,6 +1,6 @@
 # Wife Confronts the Wojewoda
 
-**Location:** [@name](../locations/wojewodas-house.md)
+**Location:** [@name](../locations/new-village/wojewodas-house.md)
 **Present:** [@name](../characters/wojewoda.md), [@name](../characters/wife.md)
 **Available:** When [@first-name](../characters/wife.md) pivots; see [her mechanics](../characters/wife.md#mechanics).
 
@@ -13,7 +13,7 @@
 
 ## Hook
 
-- Raised voices are audible from inside [@name](../locations/wojewodas-house.md).
+- Raised voices are audible from inside [@name](../locations/new-village/wojewodas-house.md).
 - The door to the argument is closed.
 - The argument is perceivable from the hall, guest room, or stairs.
 
@@ -40,15 +40,8 @@
 - **Outcome:** The players do not hear a full confession, but they learn that [@first-name](../characters/wojewoda.md) is guilty of a 1954 crime, is not sorry, considered bringing it into the open, and was stopped by [@first-name](../characters/wife.md).
 - **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
 
-## Exits
+## Resolve
 
-- Remain at [@name](../locations/wojewodas-house.md) under a closed household.
-- Follow the loss of [@first-name](../characters/wife.md)'s investigation through [her mechanics](../characters/wife.md#mechanics).
-- Continue toward any active 1954 route that does not depend on [@first-name](../characters/wife.md)'s cooperation.
-
-## If Missed
-
-- The argument resolves privately.
-- [@first-name](../characters/wife.md) becomes [@first-name](../characters/wojewoda.md)'s protector regardless; see [her Phase 2](../characters/wife.md#mechanics).
-- The household closes ranks, the flour-tin traces dry up, and [@first-name](../characters/junior.md) is pulled home.
-- [@first-name](../characters/wojewoda.md) is less likely to talk himself into the well because [@first-name](../characters/wife.md) restrains him.
+- → [Two Phases](../characters/wife.md#two-phases) = protector
+- → [Braced](../characters/wojewoda.md#braced) = true
+- → [Investigating](../characters/junior.md#investigating) = false

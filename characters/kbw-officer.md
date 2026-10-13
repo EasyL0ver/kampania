@@ -1,7 +1,5 @@
 # kpt. Henryk Ćwiek
 
-**Type:** Named character — deceased KBW officer
-
 ## Hook
 
 - [@title](kbw-officer.md) [@first-name](kbw-officer.md) [@surname](kbw-officer.md), a KBW officer, dead since 1947.
@@ -22,7 +20,7 @@
 
 Deceased KBW officer who commanded the unit sent to [@name](../locations/old-village.md) during Akcja Wisła. His death during the operation turned a deportation into a massacre.
 
-## Appearance
+## Setup
 
 - **Clothes:** KBW field uniform, officer belt, service boots, and rank insignia.
 - **Hair & face:** Regulation haircut; clean-shaven face; hard officer's stare.

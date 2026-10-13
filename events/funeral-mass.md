@@ -1,7 +1,7 @@
 # Funeral Mass — Ciotka
 
-**Location:** [@name](../locations/the-church.md)
-**Present:** [@name](../characters/priest.md), [@name](../characters/wojewoda.md), [@name](../characters/matrona.md), [@name](../characters/wujas.md), [@name](../characters/ciotka.md)'s coffin, village congregation
+**Location:** [@name](../locations/new-village/the-church/the-church.md)
+**Present:** [@name](../characters/priest.md), [@name](../characters/wojewoda.md), [@name](../characters/matrona.md), [@name](../characters/wujas.md)
 **Available:** Day 5 morning.
 
 ## Hook
@@ -25,8 +25,3 @@ A funeral Mass beginning in the church, the coffin set before the congregation.
 ## Actions
 
 - No event-specific actions.
-
-## Exits
-
-- Return to [@name](../locations/the-church.md).
-- Return to [@name](../locations/new-village.md) through the flood response in [@name](the-flood.md).

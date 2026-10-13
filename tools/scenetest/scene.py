@@ -3,7 +3,9 @@
 A scene is the file itself, plus the moves that stay open while it runs:
 - a bundle part also carries its bundle default's moves (the default stays open);
 - the moves of its Location and of every character in Present (of the file and
-  of that default): an event happens at a place, among people;
+  of that default): an event happens at a place, among people. A Present person
+  with a condition `(if [Mechanic](#m) is value)` is there, moves open, only while
+  that mechanic holds the value. How players see them is the [@setup] refs;
 - an item's own actions are open to whoever holds it (playable, not counted).
 
 Every link is resolved to a repo-relative id:
@@ -13,6 +15,7 @@ GM read plain text.
 """
 from __future__ import annotations
 
+import os
 import re
 import sys
 from dataclasses import dataclass, field
@@ -99,6 +102,7 @@ class Move:
     changes: str = ""             # raw Changes, plain, for the GM
     change_refs: list[str] = field(default_factory=list)   # what Changes links to (mechanics, items)
     prompted: list[str] = field(default_factory=list)   # clue / aware ids
+    present_if: tuple[str, str] | None = None   # (mechanic name, value): open only while it holds
 
 
 @dataclass
@@ -119,6 +123,7 @@ class Scene:
     mechanics: list[Mechanic]
     item_moves: dict[str, list[Move]]   # item id -> its actions (open while held)
     parts: list = field(default_factory=list)   # opening_parts()
+    present: list[str] = field(default_factory=list)   # who is here, with conditions (GM / tools, not read aloud)
 
     @property
     def rel(self) -> str:
@@ -210,36 +215,44 @@ def _bullets(f: V.MdFile, section: str) -> list[str]:
 
 
 def opening_parts(files: list[V.MdFile]) -> list[tuple[str, list[str]]]:
-    """The opening in its three parts: (heading, lines) for the place, what is happening, who is here."""
+    """The opening in its three parts: (heading, lines) for the place, what is happening, who is here.
+    In an event, the people in view are already described in its Setup ([@setup] refs).
+    In a location scene, whoever the schedules put there is in view."""
     kind = lambda g: g.rel.split("/")[0]
     scene, rest = files[0], files[1:]
     places = [g for g in rest if kind(g) == "locations"]
     events = [g for g in rest if kind(g) == "events"] + ([scene] if kind(scene) != "locations" else [])
     if kind(scene) == "locations":
         places = [scene] + places
-    people = [g for g in rest if kind(g) == "characters"]
+    people = [g for g in rest if kind(g) == "characters"] if kind(scene) == "locations" else []
     return [("The place", [l for g in places for l in _bullets(g, "Setup")]),
             ("What is happening", [l for g in events for l in _bullets(g, "Setup")]),
-            ("Who is here", [l for g in people for l in _bullets(g, "Hook")])]
+            ("Who is here", [l for g in people for l in _bullets(g, "Setup")])]   # seen, not yet named
 
 
 def opening(files: list[V.MdFile]) -> list[str]:
-    """What the player is told on arrival, in order: the place (each location's Setup),
-    the active events (the bundle default's Setup, then the scene's own), and who is
-    here (each present character's Hook: their name and role)."""
-    kind = lambda g: g.rel.split("/")[0]
-    scene, rest = files[0], files[1:]
-    places = [g for g in rest if kind(g) == "locations"]
-    events = [g for g in rest if kind(g) == "events"] + ([scene] if kind(scene) != "locations" else [])
-    if kind(scene) == "locations":
-        places = [scene] + places
-    people = [g for g in rest if kind(g) == "characters"]
-    out = []
-    for g in places + events:
-        out += _bullets(g, "Setup")
-    for g in people:
-        out += _bullets(g, "Hook")
-    return out
+    """What the player is told on arrival, in order: the place, what is happening, who is
+    here, as opening_parts() splits it."""
+    return [l for _, lines in opening_parts(files) for l in lines]
+
+
+_schedules: dict[Path, set[Path]] | None = None
+
+
+def scheduled_at(place: Path) -> set[Path]:
+    """Living characters whose Morning / Afternoon / Evening / Night puts them at this place."""
+    global _schedules
+    if _schedules is None:
+        _schedules = {}
+        for p in (ROOT / "characters").rglob("*.md"):
+            if p.name.startswith("_") or p.name == "index.md":
+                continue
+            s = V.parse(p).section("Vital Statistics")
+            for _, t in (s.body if s else []):
+                m = re.match(r"^\s*-\s*\*\*(Morning|Afternoon|Evening|Night):\*\*\s*(.*)$", t)
+                for _, target in LINK.findall(m.group(2) if m else ""):
+                    _schedules.setdefault((p.parent / target).resolve(), set()).add(p.resolve())
+    return _schedules.get(place, set())
 
 
 def alive(target: str, base: Path, after: str) -> bool:
@@ -252,23 +265,38 @@ def alive(target: str, base: Path, after: str) -> bool:
     return not any(re.match(r"^\s*-\s*\*\*Status:\*\*\s*Dead", t) for _, t in (s.body if s else []))
 
 
+PRESENT_IF = re.compile(r"\s*\(if \[[^\]]+\]\(([^)\s]+)\) is ([A-Za-z0-9-]+)\)")
+
+
+def _mechanic_name(src: Path, target: str) -> str:
+    """The rendered title of the mechanic a link points at (the referee keys values by it)."""
+    path, _, anchor = unquote(target).partition("#")
+    f = V.parse((src.parent / path).resolve() if path else src)
+    s = f.section("Mechanics")
+    for m in (s.children if s else []):
+        if V.slug(m.title) == anchor:
+            return plain(m.title, f.path)
+    return anchor
+
+
 def load(path: Path) -> Scene:
     path = path.resolve()
     f = V.parse(path)
     files, seen = [f], {path}
 
-    def add(target: str, base: Path) -> None:
+    gates: dict[Path, tuple[str, str]] = {}      # person -> (mechanic name, value) they are present under
+
+    def add(target: str, base: Path) -> Path | None:
         p = (base.parent / unquote(target.split("#")[0])).resolve()
         if p.suffix == ".md" and p.is_file() and p not in seen:
             seen.add(p)
             files.append(V.parse(p))
+            return p
+        return None
 
-    # An event that runs "During" another (Available: During [X], ...) has X open around it.
-    available = f.header.get("Available", (0, ""))[1]
-    if available.startswith("During"):
-        for _, target in LINK.findall(available.split(",")[0]):
-            add(target, path)
     # The scene stands on its place and its people: their moves are open here too.
+    # (One event at a location at a time: no outer event is ever open around it.)
+    present: list[str] = []
     for g in list(files):
         for label in ("Location", "Present"):
             value = g.header.get(label, (0, ""))[1]
@@ -278,10 +306,26 @@ def load(path: Path) -> Scene:
                     continue
                 if "characters/" in target and not alive(target, g.path, value[m.end():]):
                     continue                     # the dead are here, but nobody to talk to
-                add(target, g.path)
+                p = add(target, g.path)
+                cond = PRESENT_IF.match(value[m.end():])
+                if p and "characters/" in target and cond:
+                    gates[p] = (_mechanic_name(g.path, cond.group(1)), cond.group(2))
+                if label == "Present" and "characters/" in target:
+                    present.append(plain(m.group(0) + (cond.group(0) if cond else ""), g.path))
+    # A location has no Present: whoever's schedule puts them there (any phase) is here.
+    # An event's own Present overrides schedules, so this applies to a location scene only.
+    for g in files[:1]:
+        if g.rel.split("/")[0] == "locations":
+            for person in scheduled_at(g.path.resolve()):
+                rel = os.path.relpath(person, g.path.parent).replace(os.sep, "/")
+                add(rel, g.path)
+                present.append(plain(f"[@name]({rel})", g.path) + " (by schedule)")
     moves, mechanics = [], []
     for g in files:
-        moves += _opportunities(g) + _actions(g)
+        own = _opportunities(g) + _actions(g)
+        for mv in own:
+            mv.present_if = gates.get(g.path.resolve())
+        moves += own
         mechanics += _mechanics(g)
     setup = opening(files)
     # Items named anywhere in the scene carry their own actions.
@@ -295,4 +339,4 @@ def load(path: Path) -> Scene:
             item_moves[item] = _opportunities(g) + _actions(g)
             mechanics += _mechanics(g)
     return Scene(path=path, title=f.title, setup=setup, moves=moves, mechanics=mechanics, item_moves=item_moves,
-                 parts=opening_parts(files))
+                 parts=opening_parts(files), present=present)

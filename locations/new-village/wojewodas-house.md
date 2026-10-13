@@ -1,0 +1,27 @@
+# Wojewoda's House
+
+## Hook
+
+[@name](../../characters/wojewoda.md)'s family home, the largest house in [@name](new-village.md).
+
+## Setup
+
+- The house is the largest in [@name](new-village.md).
+- The construction is solid by village standards.
+- The house has a proper kitchen and a main room used for dining.
+- Family photos hang on the wall.
+- A crucifix hangs in the house.
+- A small dark wooden icon sits among the Catholic imagery.
+- [@name](../../characters/wife.md) keeps the house spotless.
+- Tea is offered to visitors.
+- [@name](../../characters/wojewoda.md)'s office, phone, maps, and paperwork are at the [@name](pgr-farm/pgr-office.md).
+- If [@first-name](../../characters/wojewoda.md) is home in the evening, he moves stiffly through one shoulder and twists slowly.
+
+## Opportunities
+
+- *(when: [@name](../../characters/wojewoda.md) home)* *(noticed by: [Medicine](../../cards/medicine.md))* — [@first-name](../../characters/wojewoda.md)'s ribs show an old badly healed injury from a single heavy blow. → Gives: [wojewoda-was-hurt-that-night](../../clues/clues.md#wojewoda-was-hurt-that-night)
+- *(noticed by: [Culture](../../cards/culture.md) OR [Devotion](../../cards/devotion.md))* — The small wooden icon on the shelf is Greek Catholic or Orthodox Lemko devotional art. → Gives: [siblings-are-lemko](../../clues/clues.md#siblings-are-lemko)
+- *(noticed by: [Empathy](../../cards/empathy.md))* — [@first-name](../../characters/wife.md) hosts politely while staying tense. → Gives: [irena-is-watchful](../../clues/clues.md#irena-is-watchful)
+- *(when: [@name](../../characters/junior.md) present)* *(noticed by: [Empathy](../../cards/empathy.md))* — [@first-name](../../characters/junior.md) boasts about the gun in his father's office. → Gives: [wojewoda-has-gun](../../clues/clues.md#wojewoda-has-gun)
+
+## Actions

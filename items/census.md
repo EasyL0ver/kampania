@@ -4,7 +4,7 @@
 
 An official blank census book, ruled for households, names, ages, residence dates.
 
-## Description
+## Setup
 
 An official blank census book issued for the resettlement survey: ruled columns for household, names, ages, and years resident. It starts empty and fills as the committee works the village. In a settlement this small, a name on the farm's payroll that appears in no household stands out at once.
 
@@ -12,7 +12,7 @@ An official blank census book issued for the resettlement survey: ruled columns 
 
 ```
 POPULATION CENSUS — RESETTLEMENT SURVEY
-[@name](../locations/new-village.md)
+[@name](../locations/new-village/new-village.md)
 
 Household        Name                 Age   Resident since   Notes
 ──────────────   ──────────────────   ───   ──────────────   ──────────────

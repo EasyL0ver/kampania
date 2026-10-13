@@ -1,6 +1,6 @@
 # Pawelek Falls Ill
 
-**Location:** [@name](../locations/barbaras-house.md)
+**Location:** [@name](../locations/new-village/barbaras-house.md)
 **Present:** [@name](../characters/barbara.md), [@name](../characters/babcia.md), [@name](../characters/pawelek.md)
 **Available:** Day 3 onward, after [@name](the-flood.md).
 
@@ -15,7 +15,7 @@
 ## Hook
 
 - Word spreads through the village that [@first-name](../characters/barbara.md)'s boy is sick.
-- Players can hear the news at the [@name](../locations/pgr-farm.md), [@name](../locations/the-store.md), or from any nearby NPC.
+- Players can hear the news at the [@name](../locations/new-village/pgr-farm/pgr-farm.md), [@name](../locations/new-village/the-store.md), or from any nearby NPC.
 - [@name](../characters/neighbour.md) may come to find the committee and ask whether anyone is a doctor.
 
 ## Setup
@@ -94,17 +94,3 @@
 - [@name](../items/penicillin.md), given at a child's dose, stops HP loss permanently and restores 1 HP per phase (see the **Give [@first-name](../characters/pawelek.md) the penicillin** action).
 - [@first-name](../characters/hag.md)'s herbs stop HP loss permanently but leave [@first-name](../characters/pawelek.md) asleep and unreachable for the rest of the game.
 - At 4 HP or lower, [@first-name](../characters/barbara.md) names the father.
-
-## Exits
-
-- Return to [@name](../locations/barbaras-house.md) while [@first-name](../characters/pawelek.md)'s HP clock continues.
-- Go to [@name](../locations/the-store.md) for medicine.
-- Go to [@name](../locations/pgr-office.md) to call dr. [@surname](../characters/sawicki.md).
-- Go toward [@name](../locations/old-village-ruins.md) to investigate the water.
-- Go to [@name](../characters/hag.md) if the herbal route is available.
-
-## If Missed
-
-- [@first-name](../characters/pawelek.md)'s HP drains by 1 per phase until treated or dead.
-- [@first-name](../characters/barbara.md) eventually goes to [@first-name](../characters/matrona.md) directly and accepts whatever terms [@first-name](../characters/matrona.md) sets.
-- The committee loses the medicine-leverage subplot if they never respond.

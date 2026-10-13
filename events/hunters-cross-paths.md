@@ -1,7 +1,7 @@
 # The Hunters Cross Paths
 
 **Location:** [@name](../locations/old-village-ruins.md)
-**Present:** [@name](../characters/neighbour.md), [@name](../characters/butcher.md), players (with whichever hunter they followed)
+**Present:** [@name](../characters/neighbour.md), [@name](../characters/butcher.md)
 **Available:** During either [@name](hunt-with-rezen.md) or [@name](hunt-with-dudka.md).
 
 ## Trigger
@@ -38,30 +38,23 @@ A rifleman confronting a knife-wielding hunter as dogs scatter through the clear
 - **Cost:** 1 time
 - **Outcome:** The standoff ends before blood is drawn; [@surname](../characters/butcher.md) pockets the knife and [@surname](../characters/neighbour.md) is denied the public humiliation of losing to him.
 - **Gives:** [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
-- **Changes:** [The clash](#the-clash) — ends, both separated unhurt
+- **Changes:** [The clash](#the-clash) — separated
 
 ### Let it burn
 - **When:** The players choose not to intervene
 <!-- Prompted by: [dudka-despises-rezen](../clues/clues.md#dudka-despises-rezen) -->
 - **Outcome:** [@surname](../characters/butcher.md) ends the standoff by mocking [@surname](../characters/neighbour.md) for failing to stop him in the past; [@surname](../characters/neighbour.md) is publicly humiliated and [@surname](../characters/butcher.md) leaves with his dogs.
 - **Gives:** [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous), [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen), [`rezen-mocks-an-old-failure`](../clues/clues.md#rezen-mocks-an-old-failure)
-- **Changes:** [Humiliated](../characters/neighbour.md#humiliated) — [@surname](../characters/neighbour.md) is Humiliated
 
 ## Mechanics
 
 ### The clash
 
-- **Type:** rule
-- Runs until someone ends it: the players get between them, or it burns out with [@surname](../characters/butcher.md) the winner.
+- **Type:** enum (standoff | separated)
+- **Per:** world
+- **Start:** standoff
+- Separated once the players get between them; otherwise it burns out with [@surname](../characters/butcher.md) the winner.
 
-## Exits
+## Resolve
 
-- Return to [@name](hunt-with-rezen.md), if the players followed [@surname](../characters/butcher.md).
-- Return to [@name](hunt-with-dudka.md), if the players followed [@surname](../characters/neighbour.md).
-- Continue toward the [@name](../locations/old-village-ruins.md), if the players follow the deeper forest route.
-
-## If Missed
-
-- [@surname](../characters/butcher.md)'s dogs still ruin [@surname](../characters/neighbour.md)'s shot.
-- [@surname](../characters/butcher.md) humiliates [@surname](../characters/neighbour.md) without a player witness.
-- [@surname](../characters/neighbour.md) gains the Humiliated status and moves closer to the [@name](punishment-lynch.md).
+- [The clash](#the-clash) is standoff → [Humiliated](../characters/neighbour.md#humiliated) = true

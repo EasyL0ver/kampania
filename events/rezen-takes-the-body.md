@@ -1,7 +1,7 @@
 # Butcher Takes the Body
 
-**Location:** [@name](../locations/the-church.md), then [@name](../locations/old-village-ruins.md)
-**Present:** [@name](../characters/butcher.md) (if alive and loose), his dogs
+**Location:** [@name](../locations/new-village/the-church/the-church.md), then [@name](../locations/old-village-ruins.md)
+**Present:** [@name](../characters/butcher.md) (if [Alive](../characters/butcher.md#alive) is true)
 **Available:** Night of Day 5 into Day 6 morning; requires the [@name](the-flood.md) to have postponed [@first-name](../characters/ciotka.md)'s [@name](funeral-mass.md).
 
 ## Trigger
@@ -49,11 +49,12 @@
 - **Cost:** 4 time
 - **Outcome:** [@surname](../characters/butcher.md) comes for the body after midnight, stops when caught, explains himself, and leaves without the body.
 - **Gives:** [`butcher-dumps-carcasses-in-well`](../clues/clues.md#butcher-dumps-carcasses-in-well)
+- **Changes:** [Vigil](#vigil) — true
 
 ### Follow the drag trail
 - **When:** Found the empty coffin and the trail.
 - **Cost:** 1 time
-- **Outcome:** The trail reaches the well in [@name](../locations/old-village-ruins.md); a shawl or shoe is caught on the stone; [@surname](../characters/butcher.md)'s tracks lead back to [@name](../locations/butchers-house.md).
+- **Outcome:** The trail reaches the well in [@name](../locations/old-village-ruins.md); a shawl or shoe is caught on the stone; [@surname](../characters/butcher.md)'s tracks lead back to [@name](../locations/new-village/butchers-house.md).
 - **Gives:** [`ciotka-body-taken`](../clues/clues.md#ciotka-body-taken)
 
 ### Confront Butcher
@@ -62,15 +63,22 @@
 - **Outcome:** [@surname](../characters/butcher.md) does not deny taking the body. He says the flood left [@first-name](../characters/ciotka.md) unburied, the body was turning, and the well is where he put her.
 - **Gives:** [`rezen-fed-ciotka-to-well`](../clues/clues.md#rezen-fed-ciotka-to-well)
 
-## Exits
+## Mechanics
 
-- Follow the trail to [@name](../locations/old-village-ruins.md).
-- Follow [@surname](../characters/butcher.md)'s tracks to [@name](../locations/butchers-house.md).
-- If the village learns of the theft, continue toward [@name](punishment-lynch.md).
+### Vigil
 
-## If Missed
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True once players keep vigil over the coffin.
 
-- If players do not guard the body and do not find the trail before the village wakes, others discover the empty coffin.
-- The village blames [@surname](../characters/butcher.md).
-- [@first-name](../characters/ciotka.md) remains in the well.
-- If found later, her body is fresh among the older dead.
+### Ciotka's body
+
+- **Type:** enum (coffin | well)
+- **Per:** world
+- **Start:** coffin
+
+## Resolve
+
+- [Vigil](#vigil) is false → [Ciotka's body](#ciotkas-body) = well
+<!-- TBD: the village blames Rezeń if players did not find the trail before it woke. Needs a per-NPC assignment to raise his Lynch Targets score (see game-system Open Questions). -->

@@ -1,7 +1,5 @@
 # Wanda Mazur
 
-**Type:** Named character — grieving widow
-
 ## Hook
 
 [@first-name](widow.md) [@surname](widow.md), the grieving widow of a PGR worker, lives alone in a small house near the church.
@@ -11,10 +9,14 @@
 - **First name:** Wanda
 - **Surname:** Mazur
 - **Status:** Resident
+- **Morning:** [@name](../locations/new-village/the-church/the-church.md)
+- **Afternoon:** [@name](../locations/new-village/new-village.md)
+- **Evening:** [@name](../locations/new-village/new-village.md)
+- **Night:** [@name](../locations/new-village/new-village.md)
 - **Born:** ~1912
 - **Age in 1967:** ~55
 - **Heritage:** Polish settler
-- **Lives in:** [@name](../locations/new-village.md) — a small house near the church, alone
+- **Lives in:** [@name](../locations/new-village/new-village.md) — a small house near the church, alone
 - **Settled:** Original settler — arrived with husband [@name](tadeusz-mazur.md) around 1948 to work the land, later the PGR farm
 - **Husband:** [@name](tadeusz-mazur.md), dead ~1965 in a grain silo accident
 
@@ -22,7 +24,7 @@
 
 Quiet, devout, harmless widow living on phantom wages from a dead man's PGR ledger entry. She does not know her husband's death was covered up.
 
-## Appearance
+## Setup
 
 - **Clothes:** Same brown wool coat regardless of season; faded floral headscarf tied tight under the chin.
 - **Hair & face:** Thin grey hair under the scarf; deeply lined face, pale watery eyes slightly unfocused.

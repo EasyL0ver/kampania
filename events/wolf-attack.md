@@ -1,12 +1,12 @@
 # The Wolf Attack
 
-**Location:** [@name](../locations/pgr-farm.md)
-**Present:** [@name](../characters/foreman.md), [@name](../characters/wojewoda.md), [@name](../characters/neighbour.md), farm workers
-**Available:** Day 1–2 morning; fresh livestock kills are visible at the [@name](../locations/pgr-farm.md) from Day 1
+**Location:** [@name](../locations/new-village/pgr-farm/pgr-farm.md)
+**Present:** [@name](../characters/foreman.md), [@name](../characters/wojewoda.md), [@name](../characters/neighbour.md)
+**Available:** Day 1–2 morning; fresh livestock kills are visible at the [@name](../locations/new-village/pgr-farm/pgr-farm.md) from Day 1
 
 ## Trigger
 
-- Wolves have been attacking the [@name](../locations/pgr-farm.md) for weeks ([`wolves-attacking-livestock`](../clues/clues.md#wolves-attacking-livestock)).
+- Wolves have been attacking the [@name](../locations/new-village/pgr-farm/pgr-farm.md) for weeks ([`wolves-attacking-livestock`](../clues/clues.md#wolves-attacking-livestock)).
 - [@name](../characters/neighbour.md) has hunted them alone and failed ([`dudka-failed-wolf-hunt`](../clues/clues.md#dudka-failed-wolf-hunt)).
 - Another sheep is killed overnight.
 - The kill forces [@first-name](../characters/wojewoda.md) to authorize [@surname](../characters/butcher.md).
@@ -41,16 +41,3 @@
 - *(when: Reinforce the farm)* *(noticed by: [Handiwork](../cards/handiwork.md))* — the fence was rotten before the rains and the wolves used an existing weakness. → Gives: [`pgr-underfunded-fences`](../clues/clues.md#pgr-underfunded-fences) <!-- Prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock) -->
 
 ## Actions
-
-## Exits
-
-- [@surname](../characters/butcher.md) arrives at the farm gate the next morning to hunt: [@name](hunt-with-rezen.md).
-- [@surname](../characters/neighbour.md) goes out again with his rifle: [@name](hunt-with-dudka.md).
-- [@nickname](../characters/wujas.md) carries the authorization: [@name](wujas-visits-butcher.md).
-
-## If Missed
-
-- [@first-name](../characters/wojewoda.md) authorizes [@surname](../characters/butcher.md) anyway.
-- [@surname](../characters/butcher.md) comes into the village and does not return to isolation; see [@name](../characters/butcher.md).
-- [@surname](../characters/neighbour.md)'s failure curdles into rage.
-- [@nickname](../characters/wujas.md)'s go-between role dies.

@@ -1,12 +1,11 @@
 # The Village Drowns
 
-**Location:** [@name](../locations/new-village.md)
-**Present:** everyone still in the valley
+**Location:** [@name](../locations/new-village/new-village.md)
 **Available:** End of game, when neither [Evacuate](../characters/jagna.md#evacuate) nor [Fight](../characters/foreman.md#fight) happened.
 
 ## Hook
 
-- The water reaching the first houses of [@name](../locations/new-village.md).
+- The water reaching the first houses of [@name](../locations/new-village/new-village.md).
 
 ## Setup
 

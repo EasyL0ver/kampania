@@ -1,6 +1,6 @@
 # Wojewoda Confronts the Butcher
 
-**Location:** [@name](../locations/the-store.md)
+**Location:** [@name](../locations/new-village/the-store.md)
 **Present:** [@name](../characters/wojewoda.md), [@name](../characters/butcher.md)
 **Available:** Day 4 morning, after [@surname](../characters/butcher.md) has been in the village since the wolf hunt
 
@@ -38,15 +38,3 @@
 ## Actions
 
 - None.
-
-## Exits
-
-- Follow [@name](../characters/wojewoda.md) back toward his office or house.
-- Follow [@name](../characters/butcher.md) toward the [@name](../locations/pgr-farm.md) or his edge house.
-- Stay near [@name](../locations/the-store.md) and question villagers.
-
-## If Missed
-
-- Villagers mention that the sołtys tried to move [@surname](../characters/butcher.md) and failed.
-- [@first-name](../characters/wojewoda.md) receives slightly less deference afterward.
-- [@surname](../characters/butcher.md) remains visible in the village centre.

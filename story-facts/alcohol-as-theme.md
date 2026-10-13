@@ -4,7 +4,7 @@
 
 ## Role in the Story
 
-Alcohol is not just a prop — it's a **force** in [@name](../locations/new-village.md), as central as the rain. It doesn't cause the evil — the evil is already there — but it unlocks it. Every atrocity in this story happens under its influence.
+Alcohol is not just a prop — it's a **force** in [@name](../locations/new-village/new-village.md), as central as the rain. It doesn't cause the evil — the evil is already there — but it unlocks it. Every atrocity in this story happens under its influence.
 
 ## The Pattern
 

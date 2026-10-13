@@ -1,7 +1,7 @@
 # The Report — The State's Ending
 
 **Location:** Police car on the road out of the village
-**Present:** [@name](../characters/officer.md), players
+**Present:** [@name](../characters/officer.md)
 **Available:** End of game; final scene after all other endings resolve.
 
 ## Trigger
@@ -55,7 +55,3 @@
 - **Per:** world
 - **Start:** none
 - What leaves the valley. Set by the report the committee submits. The **Report** ending.
-
-## Exits
-
-- End the campaign.

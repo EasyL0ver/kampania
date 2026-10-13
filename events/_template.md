@@ -7,19 +7,23 @@
 
 <!-- Header lines are strict: technical only. No prose, no exposition, no flavor.
      Location: one [Place](../locations/file.md) link. Nothing else.
-     Present: comma-separated [Name](../characters/file.md) links. A terse
-              technical condition in parentheses is allowed — "(if survived Day 6)",
-              "(if not lynched)". NOT allowed: emotional states "(panicking)",
-              narration "arrives within the hour", or absent people. NPC state,
-              arrivals, and who is missing belong in Setup. -->
+     Present: optional (omit when no NPC is involved). Comma-separated [Name](../characters/file.md) links: who is in view, their
+              moves open. Each may carry ONE condition on a mechanic, nothing else:
+              (if [Mechanic](#mechanic) is value). While it fails they are not present.
+              NOT allowed (validate.py errors): free-text conditions "(if survived
+              Day 6)", states "(panicking)", narration, crowds, absent people.
+              NPC state, arrivals, and who is missing belong in Setup.
+     How players SEE someone is their [@setup](../characters/file.md) ref, in Setup (on
+     arrival) or in an Outcome (coming into view later). -->
 
 **Location:** [Place](../locations/file.md)
-**Present:** [Name](../characters/file.md), [Other](../characters/file.md) (if condition)
+**Present:** [Name](../characters/file.md), [Other](../characters/file.md) (if [Mechanic](#mechanic) is value)
 **Available:** [Day/time/prerequisite — e.g. "Day 5 morning" or "Day 3 onward, after [the flood](the-flood.md)"]
-<!-- An event stays open until its Exits fire, and events can overlap: an event that runs
-     inside another says "During [that event](file.md), after [what starts it](file.md#anchor)",
-     and the outer event's actions stay available meanwhile. Exits name what ends the event:
-     an action anchor or a mechanic, never a judgement call. -->
+<!-- One event at a location at a time: events never overlap. An event stays open until its
+     next one starts. The next event's Available says what ends this one:
+     "After [an action](file.md#anchor)" or a mechanic's value, never a judgement call.
+     Actions that belong to a person or a place live in their file, and are open in every
+     event at that place or with that person. -->
 
 ## Trigger
 
@@ -37,13 +41,15 @@
 
 ## Setup
 
-<!-- Bullet facts only. What is true when the event begins — who is where, what
-     is happening, what has changed. No mood-writing; the GM performs the tone.
+<!-- Prose, no bullets (validate.py warns, rule setup-no-bullets). What is true when
+     the event begins — who is where, what is happening, what has changed. Facts, not
+     mood-writing; the GM performs the tone.
+     People in view are shown by their own Setup, [@setup](../characters/file.md),
+     never by name until they are introduced.
      Rule: if an Opportunity lets players notice something, a Setup fact must
      state it. Players can't notice what the file never recorded. -->
 
-- [Fact.]
-- [Fact.]
+[What is happening, as a short paragraph.]
 
 ## Opportunities
 
@@ -83,14 +89,19 @@
 - **Start:** false
 - [What sets it.]
 
-## Exits
+## Resolve
 
-<!-- Events only. Where players go after — link to the scenes/locations. -->
+<!-- Optional. Runs when the event ends (the next event starts), whether the players
+     stayed, walked out, or never came. It never asks who was there: player actions
+     moved the mechanics during the event, Resolve only reads them. Start values are
+     the "nobody intervened" outcome.
+     Pure state, NOTHING ELSE: no description, no Gives, no comment. One line each:
+       - [conditions] → [Mechanic](file.md#anchor) = value
+     conditions: zero or more `[Mechanic](file.md#anchor) is value`, joined by " and ";
+       none means the line always applies.
+     Only bool / int / enum mechanics (never rule or list); values legal for the type;
+       an int may be set to N, +N or -N.
+     Checked by validate.py (rule resolve-format). -->
 
-- [Where they go / what unlocks next.]
-
-## If Missed
-
-<!-- Optional. Omit if the event waits for players or can't be missed. -->
-
-- [What changes in the world if players don't attend — NPC/world state, scenes locked/unlocked. Bullet facts.]
+- [Mechanic](#mechanic) is value → [Other](../characters/file.md#other) = value
+- → [Mechanic](#mechanic) = value

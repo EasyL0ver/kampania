@@ -1,7 +1,5 @@
 # Paraskewia Chyłak
 
-**Type:** Named character — Lemko survivor, forest hermit (hidden)
-
 ## Hook
 
 - [@first-name](hag.md) [@surname](hag.md), an old Lemko woman who lives alone in the forest.
@@ -11,6 +9,10 @@
 - **First name:** Paraskewia
 - **Surname:** Chyłak
 - **Status:** Resident
+- **Morning:** [@name](../locations/hags-cabin.md)
+- **Afternoon:** [@name](../locations/hags-cabin.md)
+- **Evening:** [@name](../locations/hags-cabin.md)
+- **Night:** [@name](../locations/old-village-ruins.md)
 - **Born:** ~1927
 - **Age in 1967:** ~40
 - **Heritage:** Lemko
@@ -21,7 +23,7 @@
 
 Survivor of the 1947 massacre and keeper of [the well](../story-facts/the-well.md). She has spent twenty years performing Lemko death rites there, containing what the village refuses to name.
 
-## Appearance
+## Setup
 
 - **Clothes:** Layers of patched wool and linen in forest colours — browns, greys, faded greens.
 - **Hair & face:** Iron-grey hair hidden under a dark headscarf; deeply lined face, dark watchful eyes.
@@ -40,6 +42,12 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 - **[hag-blamed-for-wolves](../clues/clues.md#hag-blamed-for-wolves)** — "The wolves have known me twenty years and never touched me. I sing for my dead, not for them. Say I called them if it helps you sleep."
 
 ## Mechanics
+
+### Alive
+
+- **Type:** bool
+- **Per:** world
+- **Start:** true
 
 ### Rest
 

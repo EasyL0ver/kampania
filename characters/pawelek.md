@@ -1,7 +1,5 @@
 # Pawełek Kopacz
 
-**Type:** Named character — child
-
 ## Hook
 
 [@first-name](pawelek.md) [@surname](pawelek.md), [@first-name](barbara.md)'s lively four-year-old son.
@@ -11,16 +9,20 @@
 - **First name:** Pawełek
 - **Surname:** Kopacz
 - **Status:** Resident
+- **Morning:** [@name](../locations/new-village/barbaras-house.md)
+- **Afternoon:** [@name](../locations/new-village/barbaras-house.md)
+- **Evening:** [@name](../locations/new-village/barbaras-house.md)
+- **Night:** [@name](../locations/new-village/barbaras-house.md)
 - **Born:** 1963
 - **Age in 1967:** 4
-- **Lives in:** [@name](../locations/barbaras-house.md) — with [@name](barbara.md) (mother), [@name](babcia.md) (grandmother)
+- **Lives in:** [@name](../locations/new-village/barbaras-house.md) — with [@name](barbara.md) (mother), [@name](babcia.md) (grandmother)
 - **Settled:** Born 1963 in village
 
 ## Character
 
 Bright, fearless four-year-old who wanders too far and repeats things without understanding them. His official father is unknown; his real father is [@nickname](wujas.md). He becomes a ticking clock when the contaminated water makes him sick.
 
-## Appearance
+## Setup
 
 - **Clothes:** Oversized hand-me-down shirt with rolled sleeves, shorts held up with twine, bare feet black with mud, pockets full of stones and dead beetles
 - **Hair & face:** Sandy-brown hair cut unevenly with kitchen scissors and always in his eyes; round face, gap-toothed grin, skinned knees

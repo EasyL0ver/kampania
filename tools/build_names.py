@@ -21,13 +21,27 @@ def label(s: str) -> str:
 
 
 def raw_fields(path: Path) -> dict[str, str]:
+    """Header and bullet fields, plus "setup": the file's Setup bullets on one line, so
+    [@setup](file.md) shows that entity as it is seen, before anyone names it."""
     fields: dict[str, str] = {}
-    for line in path.read_text(encoding="utf-8-sig").splitlines():
+    setup: list[str] = []
+    section = ""
+    text_lines = re.sub(r"<!--.*?-->", "", path.read_text(encoding="utf-8-sig"), flags=re.S).splitlines()
+    for line in text_lines:
         if "name" not in fields and line.startswith("# "):
             fields["name"] = line[2:].strip()
+        if line.startswith("## "):
+            section = line[3:].strip()
+        elif section == "Setup" and line.strip() and (line.startswith("- ") or "characters" not in path.parts):
+            # A character shows only its labelled lines (its paragraph is GM portrayal notes);
+            # anything else shows its whole Setup, prose or bullets.
+            text = re.sub(r"^\*\*[^*:]+:\*\*\s*", "", line.strip().removeprefix("- ").strip())
+            setup.append(text if text.endswith((".", "!", "?")) else text + ".")
         m = FIELD.match(line)
         if m:
             fields.setdefault(label(m.group(1)), m.group(2))
+    if setup:
+        fields["setup"] = " ".join(setup)
     return fields
 
 

@@ -1,7 +1,7 @@
 # Performing the Ritual
 
 **Location:** [@name](../locations/old-village-ruins.md)
-**Present:** [@name](../characters/hag.md) (if survived [@name](well-confrontation.md)), [@name](../characters/babcia.md) (if [@name](../characters/barbara.md) brought her)
+**Present:** [@name](../characters/hag.md) (if [Alive](../characters/hag.md#alive) is true), [@name](../characters/babcia.md)
 **Available:** Late game; before [@name](the-flood.md) claims the well, or at the [@name](../locations/old-village-cerkiew.md) after that
 
 ## Trigger
@@ -40,18 +40,3 @@ Gathering ritual materials and arranging them at the well or cerkiew.
 - *(when: [@name](../characters/hag.md) present)* *(noticed by: [Empathy](../cards/empathy.md))* — [@first-name](../characters/hag.md) shares the burden: she lets the players speak the truth she did not know.
 - *(when: [@name](../characters/babcia.md) present)* *(noticed by: [Empathy](../cards/empathy.md) OR [Language](../cards/language.md))* — [@first-name](../characters/babcia.md) is lucid: she speaks the panakhyda completely.
 - *(noticed by: [Culture](../cards/culture.md))* — the rite requires naming and acknowledgement, not proof accepted by an authority. → Gives: [`players-supply-truth`](../clues/clues.md#players-supply-truth)
-
-## Exits
-
-- Back down the forest path to [@name](../locations/pgr-quarters.md).
-- To [@name](../locations/hags-cabin.md).
-- Into the endgame: [@name](the-flood.md), [@name](the-report.md), and [@name](../characters/butcher.md) if he is still alive.
-
-## If Missed
-
-- The well is not acknowledged by anyone beyond [@first-name](../characters/hag.md)'s incomplete rite for the [1947](../story-facts/old-village-massacre.md) dead.
-- The unmourned [1954](../story-facts/the-lynch.md) death remains outside the rite.
-- The dreams escalate to the end.
-- The flood completes the [second erasure](../story-facts/old-village-massacre.md).
-- The Ritual ending does not happen.
-- If [@name](../characters/butcher.md) is alive and the rite is performed, his calm breaks; see [well-influence](../story-facts/well-influence.md#stanisław-rezeń-butcher).

@@ -4,7 +4,7 @@
 
 A grim bundle of loose bones and a rotted coat, wrapped for carrying.
 
-## Description
+## Setup
 
 A rotted coat, its colour long gone to the soil, and a scatter of bones — incomplete, gnawed and shifted by thirteen years of forest. No skull, so nothing that carries a face or a name. Wrapped in whatever the players had to hand, it is a light, grim bundle that smells of wet earth. To an untrained eye it could be anyone — [@surname](../characters/neighbour.md) called it [@first-name](../characters/jagna.md) and buried it. But the bones themselves still hold facts for someone who knows how to read them: whether it's a man or a woman, how old, how they died. The name is gone; the body is not yet silent.
 

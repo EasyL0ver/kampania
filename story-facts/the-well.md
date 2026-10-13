@@ -33,14 +33,14 @@ The well is **guilt made physical**. The village buried its sins — literally t
 
 ### The Players' Dreams
 
-From the first night the committee spends in [@name](../locations/new-village.md), the dreams begin. They get worse as the investigation progresses and the rain intensifies:
+From the first night the committee spends in [@name](../locations/new-village/new-village.md), the dreams begin. They get worse as the investigation progresses and the rain intensifies:
 
 - **Night 1:** The sound of water dripping in darkness. A sense of depth. The feeling of standing at the edge of something bottomless. Players wake with wet hands — or think they do.
 - **Night 2:** Voices from underwater. Not words — just the rhythm of speech, muffled, in a language they don't know. A woman singing. A child crying. The smell of wet stone.
 - **Night 3:** Clearer now. Hands reaching up through dark water. Faces just below the surface — not decomposed, not skeletal, but *waiting*. Eyes open. The dreamer is standing at the well's edge, and the water is rising toward their feet.
-- **Night 4-5:** The well isn't in [@name](../locations/old-village.md) anymore. It's in the floor of their room. Under their bed. In the centre of [@name](../locations/new-village.md). Wherever they go, the well is already there, and the water is already rising. The dead are patient. They've been waiting for 20 years. They can wait a little longer.
+- **Night 4-5:** The well isn't in [@name](../locations/old-village.md) anymore. It's in the floor of their room. Under their bed. In the centre of [@name](../locations/new-village/new-village.md). Wherever they go, the well is already there, and the water is already rising. The dead are patient. They've been waiting for 20 years. They can wait a little longer.
 
-**The dreams don't provide clues.** They don't reveal who did it or what happened. They're not visions — they're *pressure*. The well wants to be found. The dead want to be seen. The dreams are the village's buried guilt leaking into the minds of the only people in [@name](../locations/new-village.md) who might actually do something about it.
+**The dreams don't provide clues.** They don't reveal who did it or what happened. They're not visions — they're *pressure*. The well wants to be found. The dead want to be seen. The dreams are the village's buried guilt leaking into the minds of the only people in [@name](../locations/new-village/new-village.md) who might actually do something about it.
 
 **GM guidance:** The dreams should feel like weather — atmospheric, oppressive, escalating. Never explain them. Never confirm they're supernatural. Let the players decide whether it's stress, bad water, guilt by proximity, or something in that well that knows they're here.
 

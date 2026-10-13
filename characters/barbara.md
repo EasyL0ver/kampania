@@ -1,7 +1,5 @@
 # Barbara Kopacz
 
-**Type:** Named character — villager
-
 ## Hook
 
 [@first-name](barbara.md) [@surname](barbara.md), a PGR worker and young mother, lives with her family in the red-brick house.
@@ -11,17 +9,21 @@
 - **First name:** Barbara
 - **Surname:** Kopacz
 - **Status:** Resident
+- **Morning:** [@name](../locations/new-village/pgr-farm/pgr-farm.md)
+- **Afternoon:** [@name](../locations/new-village/pgr-farm/pgr-farm.md)
+- **Evening:** [@name](../locations/new-village/barbaras-house.md)
+- **Night:** [@name](../locations/new-village/barbaras-house.md)
 - **Born:** 1939
 - **Age in 1967:** 28
 - **Heritage:** Half-Lemko; raised Polish and Catholic
-- **Lives in:** [@name](../locations/barbaras-house.md) — with [@name](babcia.md), [@name](pawelek.md)
+- **Lives in:** [@name](../locations/new-village/barbaras-house.md) — with [@name](babcia.md), [@name](pawelek.md)
 - **Settled:** After 1954 for PGR work
 
 ## Character
 
 Poor, warm, curious, and dangerously open. She is the village sieve: what the players tell her reaches [@name](neighbour.md) by evening.
 
-## Appearance
+## Setup
 
 - **Clothes:** Faded floral housedress, oversized man's cardigan, rubber boots caked in mud
 - **Hair & face:** Soft brown hair in a loose practical bun; round face, high Lemko cheekbones, warm brown eyes
@@ -39,6 +41,15 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 - **[@name](babcia.md)** — "My mother. I do not understand her language, prayers, or world, but she is gentle with [@first-name](pawelek.md) and that is enough."
 - **[@name](neighbour.md)** — "My rock. He brings firewood, fixes the fence, watches [@first-name](pawelek.md), and asks how my day was."
 - **[@name](priest.md)** — "I go to church because you go to church. He is kind, and faith is always there, like wallpaper."
+
+## Mechanics
+
+### Side
+
+- **Type:** enum (players | dudka)
+- **Per:** world
+- **Start:** dudka
+- Whose side she takes when the mob forms. TBD: no action sets it yet.
 
 ## Opportunities
 
@@ -77,7 +88,7 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 - **Changes:** [Property Record](../items/census.md#property-record) — [@first-name](barbara.md) [@surname](barbara.md)'s house and plot
 
 ### Ask about the village
-<!-- Prompted by: aware:locations/new-village.md -->
+<!-- Prompted by: aware:locations/new-village/new-village.md -->
 - **Outcome:** [@first-name](barbara.md) gives a generous social map: [@name](wojewoda.md) has the phone, the Gajda siblings keep the church supplied, [@name](neighbour.md) helps her, [@name](foreman.md) is busy, and the old village is not somewhere people go. Every answer comes with a friendly question back.
 - **Gives:** [`wojewoda-has-only-phone`](../clues/clues.md#wojewoda-has-only-phone), [`siblings-fund-the-church`](../clues/clues.md#siblings-fund-the-church)
 

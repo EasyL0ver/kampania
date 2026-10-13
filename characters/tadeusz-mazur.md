@@ -1,7 +1,5 @@
 # Tadeusz Mazur
 
-**Type:** Named character — deceased; PGR labourer, [@name](widow.md)'s husband
-
 ## Hook
 
 [@name](tadeusz-mazur.md), [@name](widow.md)'s late husband, a labourer on the PGR farm.
@@ -13,7 +11,7 @@
 - **Status:** Dead
 - **Born:** TBD
 - **Died:** ~1965 — fell into the PGR grain silo and was engulfed
-- **Lived in:** [@name](../locations/new-village.md) — a small house near the church, with [@name](widow.md)
+- **Lived in:** [@name](../locations/new-village/new-village.md) — a small house near the church, with [@name](widow.md)
 - **Family:** Husband of [@name](widow.md)
 - **Records:** Still listed in the [@name](../items/pgr-ledger.md) as a current farm labourer drawing wages
 

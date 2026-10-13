@@ -1,7 +1,5 @@
 # ks. Władysław Pająk
 
-**Type:** Named character — village priest
-
 ## Hook
 
 [@title](priest.md) [@first-name](priest.md) [@surname](priest.md), the village's Roman Catholic priest, found at the church and rectory.
@@ -12,16 +10,20 @@
 - **Surname:** Pająk
 - **Title:** ks.
 - **Status:** Resident
+- **Morning:** [@name](../locations/new-village/the-church/the-church.md)
+- **Afternoon:** [@name](../locations/new-village/the-church/the-church.md)
+- **Evening:** [@name](../locations/new-village/the-church/the-rectory.md)
+- **Night:** [@name](../locations/new-village/the-church/the-rectory.md)
 - **Born:** 1925
 - **Age in 1967:** 42
-- **Lives in:** [@name](../locations/the-rectory.md) — attached to the church
+- **Lives in:** [@name](../locations/new-village/the-church/the-rectory.md) — attached to the church
 - **Settled:** After 1954 — assigned to the parish after the lynch
 
 ## Character
 
 Roman Catholic priest who knows the village's blood-guilt through thirteen years of confessions and has chosen silence. As the flood rises, his crisis of faith drives the [Grace ending](../story-facts/spiritual-endings.md): whether he grants the Day-7 odpust or breaks the seal.
 
-## Appearance
+## Setup
 
 - **Clothes:** Black cassock daily, brushed, collar a stark white line; in cold weather a heavy wool overcoat and black beret
 - **Hair & face:** Receding hairline, dark hair combed back, clean-shaven; long narrow face, deep-set brown eyes that hold yours too long

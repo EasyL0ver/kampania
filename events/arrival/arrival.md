@@ -1,6 +1,6 @@
 # Arrival — On the Road
 
-**Location:** [@name](../../locations/new-village.md)
+**Location:** [@name](../../locations/new-village/new-village.md)
 **Present:** [@name](../../characters/officer.md), [@name](../../characters/driver.md), [@name](../../characters/wojewoda.md)
 **Available:** After [@name](../the-car-in/the-drive.md).
 
@@ -10,7 +10,7 @@ The Milicja van stopping on the muddy road as [@name](../../characters/wojewoda.
 
 ## Setup
 
-- The van stops on the muddy road in [@name](../../locations/new-village.md). Morning, still raining.
+- The van stops on the muddy road in [@name](../../locations/new-village/new-village.md). Morning, still raining.
 - [@name](../../characters/wojewoda.md) waits at the roadside, cap in hand.
 - [@name](../../characters/officer.md) gets out, shakes his hand, and presents the committee: "Observers, from the public. Look after them."
 - [@name](../../characters/driver.md) drags the crate out of the back and sets it down in the mud.
@@ -36,7 +36,3 @@ The Milicja van stopping on the muddy road as [@name](../../characters/wojewoda.
 ### Go with the sołtys
 - **Outcome:** You follow [@first-name](../../characters/wojewoda.md) up the road. Behind you the van turns in the mud and climbs away. By the time you look back, it is gone.
 - **Gives:** aware:events/arrival/the-walk.md
-
-## Exits
-
-- [Go with the sołtys](#go-with-the-sołtys) ends the handover: [@name](the-walk.md), then [@name](in-the-office.md).

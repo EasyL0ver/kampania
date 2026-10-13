@@ -1,6 +1,6 @@
 # Wujas Visits the Butcher
 
-**Location:** [@name](../locations/butchers-house.md)
+**Location:** [@name](../locations/new-village/butchers-house.md)
 **Present:** [@name](../characters/wujas.md), [@name](../characters/butcher.md)
 **Available:** Days 1–2, recurring until wolf authorization on Day 2 afternoon
 
@@ -43,14 +43,3 @@
 - **Cost:** 1 time
 - **Outcome:** [@nickname](../characters/wujas.md) carries [@first-name](../characters/wojewoda.md)'s real request to [@surname](../characters/butcher.md): deal with the wolves. [@surname](../characters/butcher.md) treats the request as a call back into the village.
 - **Gives:** [`rezen-hunts-wolves`](../clues/clues.md#rezen-hunts-wolves)
-
-## Exits
-
-- [@surname](../characters/butcher.md) comes to the [@name](../locations/pgr-farm.md) for [@name](hunt-with-rezen.md).
-- [@first-name](../characters/wojewoda.md) later confronts him in [@name](wojewoda-confronts-butcher.md).
-
-## If Missed
-
-- The wolf authorization still happens.
-- Players miss the mechanism that kept [@surname](../characters/butcher.md) contained.
-- They see only the effects: [@surname](../characters/butcher.md) at the farm gate, [@surname](../characters/neighbour.md) angrier, and [@nickname](../characters/wujas.md) drinking harder.

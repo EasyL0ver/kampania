@@ -4,7 +4,7 @@
 
 - A yellowed, still-sealed envelope in a blunt, barrack-trained hand, postmarked 1955.
 
-## Description
+## Setup
 
 A sealed envelope gone soft and yellow with damp and years, never opened. It is addressed to [@name](../characters/soldier.md) at the village in a heavy, barrack-trained hand, and the postmark is dated 1955. Inside is a single folded sheet from an old service comrade.
 

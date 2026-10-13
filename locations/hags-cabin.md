@@ -1,11 +1,5 @@
 # Hag's Cabin
 
-**Type:** Location (hidden, discoverable)
-**Location:** Deep forest, off an obscured path from [@name](old-village-ruins.md)
-**Present:** [@name](../characters/hag.md) (usually)
-**Available:** Requires extensive forest exploration or guidance
-**Cost:** 1 action to find, 1 action to interact
-
 ## Hook
 
 - A cabin in the deep forest, off an overgrown path from [@name](old-village.md).

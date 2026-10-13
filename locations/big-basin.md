@@ -1,11 +1,5 @@
 # Jasielnik Basin
 
-**Type:** Location (discoverable)
-**Location:** Beyond the sandstone ridge, through [@name](the-ridge-gap.md)
-**Present:** Nobody
-**Available:** Any time
-**Cost:** Free
-
 ## Hook
 
 - The empty basin beyond the ridge, on the far side of [@name](the-ridge-gap.md).

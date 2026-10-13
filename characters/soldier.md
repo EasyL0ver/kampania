@@ -1,10 +1,8 @@
 # Edward Barnaś
 
-**Type:** Named character — deceased settler / massacre participant
-
 ## Hook
 
-- [@first-name](soldier.md) [@surname](soldier.md), an early settler of [@name](../locations/new-village.md), gone since 1954.
+- [@first-name](soldier.md) [@surname](soldier.md), an early settler of [@name](../locations/new-village/new-village.md), gone since 1954.
 
 ## Vital Statistics
 
@@ -13,7 +11,7 @@
 - **Status:** Dead
 - **Born:** 1910
 - **Died:** 1954 (age 44)
-- **Lived in:** [@name](../locations/ciotkas-house/ciotkas-house.md) — now [@name](ciotka.md)'s; settled ~1948, knew the terrain from KBW service and claimed the best land early
+- **Lived in:** [@name](../locations/new-village/ciotkas-house/ciotkas-house.md) — now [@name](ciotka.md)'s; settled ~1948, knew the terrain from KBW service and claimed the best land early
 - **Family:** Unmarried partner [@name](marta-konieczna.md), mother of both his children; [@name](jagna.md) and [@name](glupek.md). [@first-name](marta-konieczna.md) was killed in the 1954 lynch.
 - **Records:** [@first-name](marta-konieczna.md) appears in the [@name](../items/pgr-expenses.md) under her own surname
 
@@ -21,7 +19,7 @@
 
 Deceased KBW soldier who participated in the 1947 Lemko massacre, then settled on the best land. In 1954 he came armed to save his daughter, never fired, and was beaten to death with his own service rifle.
 
-## Appearance
+## Setup
 
 - **Clothes:** Not present in 1967; any description comes through records, objects, or testimony.
 - **Hair & face:** Not described in surviving campaign material.

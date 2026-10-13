@@ -4,7 +4,7 @@
 
 - A portrait of a dark-haired young woman in a blue dress, unwrapped from a bundle hidden in the ruined cerkiew.
 
-## Description
+## Setup
 
 An oil portrait of a young dark-haired woman in a blue dress, found wrapped and sheltered in a dry corner of the ruined cerkiew at [@name](../locations/old-village-cerkiew.md). It is painted with a care nothing around it gets. No name or label on the face, though the back of the canvas is not blank. The blue dress is rendered as carefully as her face.
 

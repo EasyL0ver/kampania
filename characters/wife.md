@@ -1,8 +1,5 @@
 # Irena Gajda
 
-**Type:** Named character — the sołtys's wife / shadow investigator
-**Freudian role:** [The analyst](../story-facts/wife-junior-investigation.md) — outside the [Freudian triangle](../story-facts/freudian-triangle.md), watching the psyche break down
-
 ## Hook
 
 [@first-name](wife.md) [@surname](wife.md), the sołtys's wife.
@@ -12,16 +9,20 @@
 - **First name:** Irena
 - **Surname:** Gajda
 - **Status:** Resident
+- **Morning:** [@name](../locations/new-village/wojewodas-house.md)
+- **Afternoon:** [@name](../locations/new-village/wojewodas-house.md)
+- **Evening:** [@name](../locations/new-village/wojewodas-house.md)
+- **Night:** [@name](../locations/new-village/wojewodas-house.md)
 - **Born:** 1924
 - **Age in 1967:** 43
-- **Lives in:** [@name](../locations/wojewodas-house.md) — with [@name](wojewoda.md), [@name](junior.md)
+- **Lives in:** [@name](../locations/new-village/wojewodas-house.md) — with [@name](wojewoda.md), [@name](junior.md)
 - **Settled:** ~1948 — first wave, with [@first-name](wojewoda.md)
 
 ## Character
 
 Intelligent, observant, and dismissed. She has quietly investigated the 1954 disappearance for years, using [@first-name](junior.md) as her field agent, but she has avoided the thread that points at her husband.
 
-## Appearance
+## Setup
 
 - **Clothes:** Pressed blouses, wool skirts without patches; dresses better than most village women.
 - **Hair & face:** Dark hair pulled back in a severe bun going grey at the temples; angular face, high cheekbones.

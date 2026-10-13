@@ -4,7 +4,7 @@
 
 An open medicine jar with some pills missing.
 
-## Description
+## Setup
 
 A jar of pills on the table, cap off. Some are missing.
 

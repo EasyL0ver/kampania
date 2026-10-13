@@ -1,8 +1,8 @@
 # Ciotka Found Dead — The Kitchen
 
 **Part of:** [@name](ciotka-found-dead.md)
-**Location:** [@name](../../locations/ciotkas-house/ciotkas-house.md)
-**Present:** [@name](../../characters/ciotka.md) (dead); [@name](../../characters/priest.md)
+**Location:** [@name](../../locations/new-village/ciotkas-house/ciotkas-house.md)
+**Present:** [@name](../../characters/priest.md)
 **Available:** From [@name](the-house.md), by entering the kitchen.
 
 ## Hook
@@ -41,7 +41,3 @@
 - **Cost:** 1 composure
 - **Outcome:** They strip her past the priest's objection without a word to him. He falls silent and does not look at them again.
 - **Changes:** [Contempt for the dead](../../characters/priest.md#contempt-for-the-dead) — the committee showed contempt for [@first-name](../../characters/ciotka.md)'s body
-
-## Exits
-
-- Back into the house: [@name](the-house.md).

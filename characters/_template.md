@@ -1,13 +1,9 @@
 # Character Name
 
-**Type:** Named character — [role/archetype]
-<!-- Optional secondary tag, e.g. Freudian role: -->
-<!-- **Freudian role:** [Id / Ego / Superego](../story-facts/freudian-triangle.md) — [one-line gloss] -->
-
 ## Hook
 
-<!-- Spoiler-free. One line: what a player knows the instant they are introduced
-     to this person: their name and public role or relation, nothing hidden.
+<!-- Knowing: what a player knows once they are aware of this person, without meeting
+     them: their name and public role or relation, nothing hidden.
      This is the entity as a clue (knowing this person exists). No GM secrets. -->
 
 - [Name, then the public role. e.g. "the village butcher", "the sołtys's wife".]
@@ -19,12 +15,18 @@
      Outsider — Born, Age in 1967, Based in (free-text place, e.g. "Kraków"); no Lives in / Settled
      Dead     — Born, Died, and either Lived in (a locations/ link) or Based in (free text, for
                 someone who never lived in the valley); no Age in 1967 / Lives in / Settled
+     The four phases are the living character's daily schedule: one location link each, or
+     away (outside the valley); the dead have none. Events override it with their Present.
      First name and Surname are always required; Nickname, Maiden name and Title (ks., por., prof., kpt., dr)
      are optional. Prose refers to them as [@first-name](file.md), [@surname](file.md) etc. -->
 
 - **First name:** [first name]
 - **Surname:** [surname]
 - **Status:** [Resident / Outsider / Dead]
+- **Morning:** [Location](../locations/file.md) or away
+- **Afternoon:** [Location](../locations/file.md) or away
+- **Evening:** [Location](../locations/file.md) or away
+- **Night:** [Location](../locations/file.md) or away
 - **Born:** [year]
 - **Age in 1967:** [age]
 - **Heritage:** [Polish / Lemko / Half-Lemko / etc. — omit if irrelevant]
@@ -37,9 +39,12 @@
 
 [1–3 sentence tagline. Who they are, what drives them, what makes them dangerous or useful. No backstory dump — facts go in `story-facts/`, history goes in `historical context/`.]
 
-## Appearance
+## Setup
 
-<!-- Required for Resident; optional for Outsider and Dead (e.g. a photograph, a memory).
+<!-- Encountering: what you see and hear on meeting them, before anyone says who they are.
+     No name, no role: that is the Hook (knowing). The opening of a scene shows people by
+     their Setup until they are introduced.
+     Required for Resident; optional for Outsider and Dead (e.g. a photograph, a memory).
      3–4 bullet points. Each character must cover:
      - **Clothes:** What they wear day-to-day (fabric, condition, style)
      - **Hair & face:** Hairstyle, facial hair, distinguishing facial features

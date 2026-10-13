@@ -4,14 +4,14 @@
 
 An official folder: a ditch cross-section drawing, concrete figures, a signed acceptance note.
 
-## Description
+## Setup
 
 A land-reclamation (melioracja) file in an official folder: an approved cross-section drawing, a bill of concrete, and a signed acceptance note. It specifies a concrete-lined trapezoidal channel for the ditch's entire run from the field head down to the low ground, not just the head, sized to carry the fields' flood runoff. The acceptance note declares the work completed and lined as drawn. A layman reads it as ordinary farm paperwork. Set against a walked ditch, the paper and the ground do not agree past the first short stretch.
 
 ## Content
 
 > **STATE AGRICULTURAL FARM — LAND DRAINAGE WORKS**
-> **Irrigation and flood-relief ditch, [@name](../locations/new-village.md) fields**
+> **Irrigation and flood-relief ditch, [@name](../locations/new-village/new-village.md) fields**
 >
 > Channel: trapezoidal, concrete-lined **full length**, field head to low ground.
 > Lining: cast concrete throughout, to carry field runoff clear at flood volume.

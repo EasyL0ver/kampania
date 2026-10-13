@@ -1,7 +1,7 @@
 # The Hunt with Neighbour
 
-**Location:** [@name](../locations/pgr-farm.md)
-**Present:** [@name](../characters/neighbour.md), players (optional)
+**Location:** [@name](../locations/new-village/pgr-farm/pgr-farm.md)
+**Present:** [@name](../characters/neighbour.md)
 **Available:** The morning after [@name](wolf-attack.md).
 
 ## Trigger
@@ -39,16 +39,3 @@
 - **Cost:** 1 time
 - **Outcome:** [@surname](../characters/neighbour.md) leaves the wolf track and detours to a low cairn of moss-grown stones at the lip of a ravine, where he stops to pray. Asked, he identifies the grave only as an old friend he buried himself.
 - **Gives:** [`dudka-buried-a-friend-at-the-ravine`](../clues/clues.md#dudka-buried-a-friend-at-the-ravine), aware:locations/meadow-by-the-ravine.md, aware:locations/meadow-by-the-ravine.md
-
-## Exits
-
-- Return to the [@name](../locations/pgr-farm.md).
-- Go to the [@name](../locations/meadow-by-the-ravine.md), if [@surname](../characters/neighbour.md)'s detour revealed the grave.
-- Continue toward the [@name](../locations/old-village-ruins.md).
-- Trigger [@name](hunters-cross-paths.md), if [@surname](../characters/butcher.md)'s dogs disrupt [@surname](../characters/neighbour.md)'s shot.
-
-## If Missed
-
-- [@surname](../characters/neighbour.md) hunts alone and reports incomplete wolf information.
-- [@surname](../characters/neighbour.md) still visits the grave, but the players do not learn where it is from him.
-- [@surname](../characters/neighbour.md)'s failure keeps pushing him toward [@name](punishment-lynch.md).
