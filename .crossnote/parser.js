@@ -27,7 +27,8 @@
 "outcome": "Ukrainian is not her language, but it is close enough; she understands and warms to hearing the old tongue, taking you for a friend. She tries to tell you more, but it comes in pieces too broken to point anywhere: only that she hears another woman singing for the dead, far off on the wind at night, and that the dead here are unquiet and were never laid to rest.",
 "gives": "singing-in-the-night, spirits-are-restless",
 "changes": "Census — Stefania Kopacz, in the Kopacz household",
-"setup": "Faded black housedress, knitted shawl in every season, wool stockings sagging at the ankles. Thin white hair pinned back with one black hairpin; sharp Lemko cheekbones, pale grey eyes. Hunched almost double, rocking in her chair; gnarled hands curled from fieldwork. Woodsmoke and camphor; sudden hard focus between long stretches of muttering."
+"setup": "Faded black housedress, knitted shawl in every season, wool stockings sagging at the ankles. Thin white hair pinned back with one black hairpin; sharp Lemko cheekbones, pale grey eyes. Hunched almost double, rocking in her chair; gnarled hands curled from fieldwork. Woodsmoke and camphor; sudden hard focus between long stretches of muttering.",
+"hook": "Stefania Kopacz, an elderly woman living with Barbara and Pawełek."
 },
 "characters/barbara.md": {
 "name": "Barbara Kopacz",
@@ -57,7 +58,8 @@
 "cost": "1 time",
 "changes": "Census — Barbara Kopacz, Stefania Kopacz, and Pawełek Kopacz",
 "requires": "Violence OR Bureaucracy",
-"setup": "Faded floral housedress, oversized man's cardigan, rubber boots caked in mud. Soft brown hair in a loose practical bun; round face, high Lemko cheekbones, warm brown eyes. Leans in when she talks, touches arms, and fills space with unguarded warmth. Loud, friendly, and easy to overhear across the yard."
+"setup": "Faded floral housedress, oversized man's cardigan, rubber boots caked in mud. Soft brown hair in a loose practical bun; round face, high Lemko cheekbones, warm brown eyes. Leans in when she talks, touches arms, and fills space with unguarded warmth. Loud, friendly, and easy to overhear across the yard.",
+"hook": "Barbara Kopacz, a PGR worker and young mother, lives with her family in the red-brick house."
 },
 "characters/butcher.md": {
 "name": "Stanisław Rezeń",
@@ -87,7 +89,8 @@
 "gives": "butcher-smokes-carmen",
 "cost": "1 time",
 "changes": "Census — Stanisław Rezeń, name and age only, remaining fields blank",
-"setup": "Clean pressed shirt, good boots, cologne; sharper dress than the village norm. Dark hair slicked back with lard; weathered red-brown face, wide smile, pale grey eyes. Broad-shouldered, stands too close, takes up too much space. He nearly always has one going, a fresh one lit off the last.. Warm baritone pitched for an audience; loud laughter that can stop without warning."
+"setup": "Clean pressed shirt, good boots, cologne; sharper dress than the village norm. Dark hair slicked back with lard; weathered red-brown face, wide smile, pale grey eyes. Broad-shouldered, stands too close, takes up too much space. He nearly always has one going, a fresh one lit off the last.. Warm baritone pitched for an audience; loud laughter that can stop without warning.",
+"hook": "Stanisław Rezeń, the village butcher and widely avoided pariah, lives alone beyond the treeline with his dogs."
 },
 "characters/ciotka.md": {
 "name": "Janina Gajda",
@@ -113,7 +116,8 @@
 "noticed-by": "Devotion",
 "cost": "1 time",
 "changes": "Census — Janina Gajda and Edek Barnaś",
-"setup": "Shapeless dark dresses buttoned to the throat; headscarf outdoors; a rosary in her apron pocket, worn to the string. Thin grey hair hidden under the scarf; gaunt cheeks, permanent dark circles. Shoulders hunched, eyes down, flinches at raised voices; steadier at home with Edek Barnaś. Thin and breathy in public; silence when frightened."
+"setup": "Shapeless dark dresses buttoned to the throat; headscarf outdoors; a rosary in her apron pocket, worn to the string. Thin grey hair hidden under the scarf; gaunt cheeks, permanent dark circles. Shoulders hunched, eyes down, flinches at raised voices; steadier at home with Edek Barnaś. Thin and breathy in public; silence when frightened.",
+"hook": "Janina Gajda, a downtrodden, devout woman who keeps house with her son Edek, sister to the sołtys."
 },
 "characters/dispute-brother.md": {
 "name": "Kazimierz Wróbel",
@@ -139,7 +143,8 @@
 "outcome": "The deed has father's title, proper transfer, and the strip plainly inside the line.",
 "cost": "1 time",
 "changes": "Census — Kazimierz, lorry driver, in his father's house",
-"setup": "Worn village jacket over a clean-ish shirt; boots that do not spend every day in a field. Short practical haircut, clean-shaven or a day's stubble; soft, tired, unremarkable face. Weight back, hands in pockets, unhurried. Plain and calm, without pleading or raised volume."
+"setup": "Worn village jacket over a clean-ish shirt; boots that do not spend every day in a field. Short practical haircut, clean-shaven or a day's stubble; soft, tired, unremarkable face. Weight back, hands in pockets, unhurried. Plain and calm, without pleading or raised volume.",
+"hook": "Kazimierz, a lorry driver and deed-holder in a dispute over the border strip, lives in his late father's house."
 },
 "characters/dispute-sister.md": {
 "name": "Danuta Bednarz (née Wróbel)",
@@ -166,7 +171,8 @@
 "cost": "1 time",
 "changes": "Census — Danuta, in her husband's household",
 "gives": "army-massacred-civilians-in-1947",
-"setup": "Headscarf, heavy skirt, man's jacket, field boots; red cracked hands. Weathered younger than her years; hair pulled back hard; jaw set until the strip comes up. Strong, quick, and economical; arms fold tight when she speaks about her father. Blunt and tired, sharper when the deed is mentioned."
+"setup": "Headscarf, heavy skirt, man's jacket, field boots; red cracked hands. Weathered younger than her years; hair pulled back hard; jaw set until the strip comes up. Strong, quick, and economical; arms fold tight when she speaks about her father. Blunt and tired, sharper when the deed is mentioned.",
+"hook": "Danuta, a farmer who has worked the disputed border strip for years, lives at her husband's family farmhouse."
 },
 "characters/dmytro-kosach.md": {
 "name": "Dmytro Kosach",
@@ -180,7 +186,8 @@
 "clothes": "Not specified.",
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
-"setup": "Not specified. Not specified. Not specified."
+"setup": "Not specified. Not specified. Not specified.",
+"hook": "Dmytro Kosach, a UPA fighter from Hołubie, killed in the 1947 massacre."
 },
 "characters/driver.md": {
 "name": "kpr. Zdzisław Wrona",
@@ -197,7 +204,8 @@
 "based-in": "The Milicja post in Lesko",
 "type": "enum (neutral | owes-you | grudge)",
 "per": "player",
-"start": "neutral"
+"start": "neutral",
+"hook": "kpr. Zdzisław Wrona, the young Milicja corporal who drives por. Witold Skowron."
 },
 "characters/foreman.md": {
 "name": "Michał Pytlak",
@@ -225,7 +233,8 @@
 "cost": "1 time",
 "changes": "Census — Michał, Zofia, Staszek",
 "requires": "Streambed Parameters",
-"setup": "Wool flat cap in all weather, oil-stained trousers held up by braces, collarless shirt. Short cropped hair under the cap; broad jaw, flat nose broken once and set crooked, small shrewd eyes under heavy brows. Stocky, barrel-chested, low to the ground; slight limp from an old tractor injury; hands drum, grip, and point."
+"setup": "Wool flat cap in all weather, oil-stained trousers held up by braces, collarless shirt. Short cropped hair under the cap; broad jaw, flat nose broken once and set crooked, small shrewd eyes under heavy brows. Stocky, barrel-chested, low to the ground; slight limp from an old tractor injury; hands drum, grip, and point.",
+"hook": "Michał Pytlak, the PGR farm overseer, directing work around the farm."
 },
 "characters/glupek.md": {
 "name": "Edek Barnaś",
@@ -254,7 +263,8 @@
 "gives": "hook:characters/glupek.md",
 "cost": "1 time",
 "changes": "Census — Edek Barnaś, in Janina Gajda's household",
-"setup": "Always too small — trousers ending above the ankle, sleeves too short; whatever his aunt can find. Blond hair cropped unevenly by his aunt's kitchen scissors; soft round boy's face, pale blue eyes. Huge for seventeen, with man's shoulders and boy's movements; moves slowly and goes still when frightened."
+"setup": "Always too small — trousers ending above the ankle, sleeves too short; whatever his aunt can find. Blond hair cropped unevenly by his aunt's kitchen scissors; soft round boy's face, pale blue eyes. Huge for seventeen, with man's shoulders and boy's movements; moves slowly and goes still when frightened.",
+"hook": "Edek Barnaś, Janina Gajda's large, simple-minded son and dependent."
 },
 "characters/hag.md": {
 "name": "Paraskewia Chyłak",
@@ -281,7 +291,8 @@
 "outcome": "She gives her name — Paraskewia Chyłak — and says she is Lemko.",
 "gives": "hag-is-lemko",
 "changes": "Census — Paraskewia Chyłak, Lemko, living in the forest",
-"setup": "Layers of patched wool and linen in forest colours — browns, greys, faded greens. Iron-grey hair hidden under a dark headscarf; deeply lined face, dark watchful eyes. Silent footfall, sudden arrivals, and the stillness of someone who has hidden for twenty years."
+"setup": "Layers of patched wool and linen in forest colours — browns, greys, faded greens. Iron-grey hair hidden under a dark headscarf; deeply lined face, dark watchful eyes. Silent footfall, sudden arrivals, and the stillness of someone who has hidden for twenty years.",
+"hook": "Paraskewia Chyłak, an old Lemko woman who lives alone in the forest."
 },
 "characters/jagna.md": {
 "name": "Hania Barnaś",
@@ -302,7 +313,8 @@
 "type": "bool",
 "per": "world",
 "start": "false",
-"setup": "Better-kept than the village expected from the Barnaś house; plain skirts and blouses worn with deliberate neatness. Dark hair pinned or braided tight; bright, watchful eyes; a face that looked older when she was listening. Quick, upright, and slightly defiant; she held eye contact too long for village comfort. On the line, flat and professional: \"Exchange. Number, please.\" \"Hold for the connection.\" \"Go ahead.\"."
+"setup": "Better-kept than the village expected from the Barnaś house; plain skirts and blouses worn with deliberate neatness. Dark hair pinned or braided tight; bright, watchful eyes; a face that looked older when she was listening. Quick, upright, and slightly defiant; she held eye contact too long for village comfort. On the line, flat and professional: \"Exchange. Number, please.\" \"Hold for the connection.\" \"Go ahead.\".",
+"hook": "Hania Barnaś, Edward Barnaś's daughter, missing since 1954."
 },
 "characters/junior.md": {
 "name": "Marek Gajda",
@@ -329,7 +341,8 @@
 "gives": "junior-smokes-carmen",
 "cost": "1 time",
 "changes": "Census — Marek Gajda, in his father's household",
-"setup": "Newer leather jacket over a dark turtleneck, scuffed boots, jeans when he can get them. Dark hair grown longer than the village approves of, swept back with Brylcreem; sharp jaw, father's hard eyes. Lean, wiry, unable to sit still; shifts weight, drums fingers, cracks knuckles."
+"setup": "Newer leather jacket over a dark turtleneck, scuffed boots, jeans when he can get them. Dark hair grown longer than the village approves of, swept back with Brylcreem; sharp jaw, father's hard eyes. Lean, wiry, unable to sit still; shifts weight, drums fingers, cracks knuckles.",
+"hook": "Marek Gajda, the sołtys's hot-tempered young son."
 },
 "characters/kbw-officer.md": {
 "name": "kpt. Henryk Ćwiek",
@@ -345,7 +358,8 @@
 "clothes": "KBW field uniform, officer belt, service boots, and rank insignia.",
 "hair-&-face": "Regulation haircut; clean-shaven face; hard officer's stare.",
 "carriage": "Upright, clipped, and used to command; he occupied space as state authority.",
-"setup": "KBW field uniform, officer belt, service boots, and rank insignia. Regulation haircut; clean-shaven face; hard officer's stare. Upright, clipped, and used to command; he occupied space as state authority."
+"setup": "KBW field uniform, officer belt, service boots, and rank insignia. Regulation haircut; clean-shaven face; hard officer's stare. Upright, clipped, and used to command; he occupied space as state authority.",
+"hook": "kpt. Henryk Ćwiek, a KBW officer, dead since 1947."
 },
 "characters/marta-konieczna.md": {
 "name": "Marta Konieczna",
@@ -360,7 +374,8 @@
 "clothes": "Not present in 1967; any description comes through records, objects, or testimony.",
 "hair-&-face": "Not described in surviving campaign material.",
 "carriage": "Remembered only as the mother of both Barnaś children.",
-"setup": "Not present in 1967; any description comes through records, objects, or testimony. Not described in surviving campaign material. Remembered only as the mother of both Barnaś children."
+"setup": "Not present in 1967; any description comes through records, objects, or testimony. Not described in surviving campaign material. Remembered only as the mother of both Barnaś children.",
+"hook": "Marta Konieczna, the woman who lived with Edward Barnaś; gone with the family since 1954."
 },
 "characters/matrona.md": {
 "name": "Helena Rzepka (née Gajda)",
@@ -387,7 +402,8 @@
 "outcome": "She gives herself, Emil Rzepka, and the two children before the question is finished.",
 "changes": "Census — Helena, Emil, Ewa, Krystian Rzepka",
 "gives": "helena-demands-the-census",
-"setup": "Immaculate dark clothes — cardigan buttoned to the throat, always an apron, small crucifix at her collar. Dark hair pinned tight beneath a headscarf; thin lips, pale grey unblinking eyes. Tall, straight-backed, and economical; hands busy with rosary, knitting, or wiping something already clean."
+"setup": "Immaculate dark clothes — cardigan buttoned to the throat, always an apron, small crucifix at her collar. Dark hair pinned tight beneath a headscarf; thin lips, pale grey unblinking eyes. Tall, straight-backed, and economical; hands busy with rosary, knitting, or wiping something already clean.",
+"hook": "Helena Rzepka, the devout woman who runs the village store."
 },
 "characters/neighbour.md": {
 "name": "Ryszard Dudka",
@@ -415,7 +431,8 @@
 "changes": "Census — Ryszard Dudka, farmer",
 "when": "He liked the players; they ask who came to Janina's house before she died",
 "requires": "Empathy OR Speech",
-"setup": "Wool trousers held up by braces, flannel shirt with sleeves rolled in summer, heavy boots — same outfit every day. Flat cap he rarely removes; pale blue eyes, strong jaw, three-day stubble that never becomes a beard. Lean hunter's build, quiet even indoors; shoulders slightly forward, watches hands and posture more than faces."
+"setup": "Wool trousers held up by braces, flannel shirt with sleeves rolled in summer, heavy boots — same outfit every day. Flat cap he rarely removes; pale blue eyes, strong jaw, three-day stubble that never becomes a beard. Lean hunter's build, quiet even indoors; shoulders slightly forward, watches hands and posture more than faces.",
+"hook": "Ryszard Dudka, a quiet farmer and licensed hunter, lives next door to Janina Gajda."
 },
 "characters/officer.md": {
 "name": "por. Witold Skowron",
@@ -436,7 +453,8 @@
 "outcome": "The Solina dam is nearly done; every other village in its way is emptied. Not Testowo: the engineers say it stays dry. prof. Bieńkowski of AGH doubts the map's heights and the drainage. Warsaw wants it settled, quietly. \"You observe.\"",
 "gives": "government-committee, solina-dam-construction-almost-finished, other-villages-ready-for-evacuation, the-flood-line-potentially-miscalculated, hook:characters/professor.md",
 "requires": "Committee Census Register",
-"setup": "Grey wool overcoat, pressed shirt and tie, polished shoes wrong for village mud. Clean-shaven, hair clipped short with geometric precision; forgettable features, but dark, intelligent eyes give him away. Compact military posture he can't switch off; shoulders square, chin up, hands clasped behind his back when listening."
+"setup": "Grey wool overcoat, pressed shirt and tie, polished shoes wrong for village mud. Clean-shaven, hair clipped short with geometric precision; forgettable features, but dark, intelligent eyes give him away. Compact military posture he can't switch off; shoulders square, chin up, hands clasped behind his back when listening.",
+"hook": "por. Witold Skowron, an official from outside the village who arrives by car on state business."
 },
 "characters/painter.md": {
 "name": "Emil Rzepka",
@@ -463,7 +481,8 @@
 "requires": "The Blue Dress",
 "cost": "1 time",
 "changes": "Census — Emil Rzepka, painter, in the Rzepka household",
-"setup": "Paint-spattered work clothes in the garden shed; downstairs, dressed neatly in whatever Helena lays out for him. Thinning grey hair, paint-flecked at the temples; gaunt cheeks, watery blue eyes that won't hold a gaze. Thin, stooped, and wall-hugging; moves tentatively, flinches at sudden movement, makes himself small."
+"setup": "Paint-spattered work clothes in the garden shed; downstairs, dressed neatly in whatever Helena lays out for him. Thinning grey hair, paint-flecked at the temples; gaunt cheeks, watery blue eyes that won't hold a gaze. Thin, stooped, and wall-hugging; moves tentatively, flinches at sudden movement, makes himself small.",
+"hook": "Emil Rzepka, Helena's withdrawn husband and a local painter, works in the garden shed."
 },
 "characters/pawelek.md": {
 "name": "Pawełek Kopacz",
@@ -494,7 +513,8 @@
 "requires": "Handiwork",
 "cost": "1 time",
 "changes": "Play with him",
-"setup": "Oversized hand-me-down shirt with rolled sleeves, shorts held up with twine, bare feet black with mud, his only shoes left by the door caked in dark mud, pockets full of stones and dead beetles. Sandy-brown hair cut unevenly with kitchen scissors and always in his eyes; round face, gap-toothed grin, skinned knees. Runs everywhere, climbs everything, grabs your hand and drags you; no concept of personal space or boundaries."
+"setup": "Oversized hand-me-down shirt with rolled sleeves, shorts held up with twine, bare feet black with mud, his only shoes left by the door caked in dark mud, pockets full of stones and dead beetles. Sandy-brown hair cut unevenly with kitchen scissors and always in his eyes; round face, gap-toothed grin, skinned knees. Runs everywhere, climbs everything, grabs your hand and drags you; no concept of personal space or boundaries.",
+"hook": "Pawełek Kopacz, Barbara's lively four-year-old son."
 },
 "characters/priest.md": {
 "name": "ks. Władysław Pająk",
@@ -521,7 +541,8 @@
 "cost": "1 time",
 "changes": "Census — ks. Władysław Pająk",
 "requires": "Loaded",
-"setup": "Black cassock daily, brushed, collar a stark white line; in cold weather a heavy wool overcoat and black beret. Receding hairline, dark hair combed back, clean-shaven; long narrow face, deep-set brown eyes that hold yours too long. Tall and slightly stooped; bends to listen, moves slowly, and makes people orient around his stillness."
+"setup": "Black cassock daily, brushed, collar a stark white line; in cold weather a heavy wool overcoat and black beret. Receding hairline, dark hair combed back, clean-shaven; long narrow face, deep-set brown eyes that hold yours too long. Tall and slightly stooped; bends to listen, moves slowly, and makes people orient around his stillness.",
+"hook": "ks. Władysław Pająk, the village's Roman Catholic priest, found at the church and rectory."
 },
 "characters/professor.md": {
 "name": "prof. Tadeusz Bieńkowski",
@@ -545,7 +566,8 @@
 "cost": "1 time",
 "outcome": "The party describes the sill height at the crest and the packed clay and shattered rock behind it. He judges the water can neither top the plug nor seep through it into Jasielnik Basin, and documents the ridge gap as a dead outlet.",
 "gives": "gap-is-blocked",
-"setup": "Corduroy jacket with leather elbow patches, shirt pocket full of pens, city shoes wrong for fieldwork. Thinning hair combed to one side, wire-rimmed glasses sliding down a narrow nose, ink-stained fingers. Lean, restless academic energy; forgets to eat, talks with both hands when excited."
+"setup": "Corduroy jacket with leather elbow patches, shirt pocket full of pens, city shoes wrong for fieldwork. Thinning hair combed to one side, wire-rimmed glasses sliding down a narrow nose, ink-stained fingers. Lean, restless academic energy; forgets to eat, talks with both hands when excited.",
+"hook": "prof. Tadeusz Bieńkowski, a Kraków hydrologist tied to the Solina Dam project, reachable via the telephone exchange."
 },
 "characters/radioman.md": {
 "name": "Bolesław Kurek",
@@ -575,7 +597,8 @@
 "cost": "1 time",
 "requires": "Concrete Ditch Measurements AND Dugout Measurements",
 "changes": "Census — Bolesław, former schoolteacher",
-"setup": "Grey suit jacket gone shiny at the elbows, the last relic of the teacher he was, over peasant trousers and a collarless shirt; nothing fits, nothing is clean. Grey stubble he shaves twice a week; wire spectacles mended with copper wire; broken veins across the nose; eyes still sharp when drink has not dulled them. Stands too straight when making a point, then folds again; hands tremble until the first glass steadies them."
+"setup": "Grey suit jacket gone shiny at the elbows, the last relic of the teacher he was, over peasant trousers and a collarless shirt; nothing fits, nothing is clean. Grey stubble he shaves twice a week; wire spectacles mended with copper wire; broken veins across the nose; eyes still sharp when drink has not dulled them. Stands too straight when making a point, then folds again; hands tremble until the first glass steadies them.",
+"hook": "The village drunk who was once its schoolteacher, loud against the authorities to anyone who'll share a bottle."
 },
 "characters/sawicki.md": {
 "name": "dr Leon Sawicki",
@@ -597,7 +620,8 @@
 "cost": "1 time",
 "outcome": "Hearing only fever and aches, Sawicki judges it an ordinary fever going round after the flood. He expects it to pass and says to keep the child cool and watered.",
 "gives": "pawelek-looks-like-common-fever",
-"setup": "Not seen. Not seen. Voice only, on a bad line."
+"setup": "Not seen. Not seen. Voice only, on a bad line.",
+"hook": "dr Leon Sawicki, the nearest doctor, reachable only by telephone."
 },
 "characters/soldier.md": {
 "name": "Edward Barnaś",
@@ -612,7 +636,8 @@
 "clothes": "Not present in 1967; any description comes through records, objects, or testimony.",
 "hair-&-face": "Not described in surviving campaign material.",
 "carriage": "Remembered as steady, hard-working, and devoted to his children.",
-"setup": "Not present in 1967; any description comes through records, objects, or testimony. Not described in surviving campaign material. Remembered as steady, hard-working, and devoted to his children."
+"setup": "Not present in 1967; any description comes through records, objects, or testimony. Not described in surviving campaign material. Remembered as steady, hard-working, and devoted to his children.",
+"hook": "Edward Barnaś, an early settler of Testowo, gone since 1954."
 },
 "characters/tadeusz-mazur.md": {
 "name": "Tadeusz Mazur",
@@ -623,7 +648,8 @@
 "died": "~1965 — fell into the PGR grain silo and was engulfed",
 "lived-in": "Testowo — a small house near the church, with Wanda Mazur",
 "family": "Husband of Wanda Mazur",
-"records": "Still listed in the PGR Worker Registry as a current farm labourer drawing wages"
+"records": "Still listed in the PGR Worker Registry as a current farm labourer drawing wages",
+"hook": "Tadeusz Mazur, Wanda Mazur's late husband, a labourer on the PGR farm."
 },
 "characters/widow.md": {
 "name": "Wanda Mazur",
@@ -648,7 +674,8 @@
 "gives": "mazur-and-widow-are-old-settlers, mazur-wrote-detailed-diary",
 "changes": "Census — Wanda Mazur, widow",
 "requires": "Bond: Wanda Mazur",
-"setup": "Same brown wool coat regardless of season; faded floral headscarf tied tight under the chin. Thin grey hair under the scarf; deeply lined face, pale watery eyes slightly unfocused. Small and thinning; moves as if afraid of disturbing someone."
+"setup": "Same brown wool coat regardless of season; faded floral headscarf tied tight under the chin. Thin grey hair under the scarf; deeply lined face, pale watery eyes slightly unfocused. Small and thinning; moves as if afraid of disturbing someone.",
+"hook": "Wanda Mazur, the grieving widow of a PGR worker, lives alone in a small house near the church."
 },
 "characters/wife.md": {
 "name": "Irena Gajda",
@@ -675,7 +702,8 @@
 "cost": "1 time",
 "gives": "jagna-painter-affair, ciotka-lives-in-soldiers-house",
 "changes": "Two Phases — TBD",
-"setup": "Pressed blouses, wool skirts without patches; dresses better than most village women. Dark hair pulled back in a severe bun going grey at the temples; angular face, high cheekbones. Tall, straight posture; hands always busy while her eyes watch the room."
+"setup": "Pressed blouses, wool skirts without patches; dresses better than most village women. Dark hair pulled back in a severe bun going grey at the temples; angular face, high cheekbones. Tall, straight posture; hands always busy while her eyes watch the room.",
+"hook": "Irena Gajda, the sołtys's wife."
 },
 "characters/wojewoda.md": {
 "name": "Zbigniew Gajda",
@@ -704,7 +732,8 @@
 "cost": "1 time",
 "changes": "Census — Zbigniew, Irena, Marek",
 "requires": "Bond: Zbigniew Gajda",
-"setup": "Pressed trousers, polished shoes, wool vest over white shirt even in summer. Thinning grey-black hair combed straight back with water; thick grey moustache neatly trimmed; heavy brows over sharp dark eyes. Stocky and barrel-chested; feet planted, hands behind his back, taking space deliberately."
+"setup": "Pressed trousers, polished shoes, wool vest over white shirt even in summer. Thinning grey-black hair combed straight back with water; thick grey moustache neatly trimmed; heavy brows over sharp dark eyes. Stocky and barrel-chested; feet planted, hands behind his back, taking space deliberately.",
+"hook": "Zbigniew Gajda, the village sołtys and principal official, received at his house or office."
 },
 "characters/wujas.md": {
 "name": "Tadek Gajda",
@@ -733,7 +762,8 @@
 "requires": "Physique OR Alcoholic",
 "cost": "1 time",
 "changes": "Drinking Buddy — the drinking PCs become Tadek's drinking buddies",
-"setup": "Checked shirt with rolled sleeves, old marynarka with elbow patches, maciejówka cap cocked forward. Still handsome under the wear; unshaven, bloodshot eyes visible up close. Lean and rangy; moves loose and easy, like he is still the life of the party."
+"setup": "Checked shirt with rolled sleeves, old marynarka with elbow patches, maciejówka cap cocked forward. Still handsome under the wear; unshaven, bloodshot eyes visible up close. Lean and rangy; moves loose and easy, like he is still the life of the party.",
+"hook": "Tadek Gajda, the sołtys's brother and the village drunk, rarely without a bottle."
 },
 "characters/zofia.md": {
 "name": "Zofia Pytlak",
@@ -757,7 +787,8 @@
 "outcome": "On evacuation she is not panicking; she has accepted that the water wins and has turned grief into a list of people to save.",
 "cost": "1 time",
 "changes": "Census — Zofia, Michał, Staszek Pytlak",
-"setup": "Flour-dusted apron over a faded print dress; always looks like she just left the stove. Dark hair pinned up loosely, strands escaping; round face, deep laugh lines around brown eyes. Sturdy, broad red hands always in motion — stirring, kneading, wiping a child's face."
+"setup": "Flour-dusted apron over a faded print dress; always looks like she just left the stove. Dark hair pinned up loosely, strands escaping; round face, deep laugh lines around brown eyes. Sturdy, broad red hands always in motion — stirring, kneading, wiping a child's face.",
+"hook": "Zofia Pytlak, the warm, well-liked PGR cook."
 },
 "characters/secondary/ewa-rzepka.md": {
 "name": "Ewa Rzepka",
@@ -775,7 +806,8 @@
 "clothes": "Not specified.",
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
-"setup": "Not specified. Not specified. Not specified."
+"setup": "Not specified. Not specified. Not specified.",
+"hook": "Ewa Rzepka, the eldest child of Helena Rzepka (née Gajda) and Emil Rzepka."
 },
 "characters/secondary/franek-mucha.md": {
 "name": "Franek Mucha",
@@ -793,7 +825,8 @@
 "clothes": "Not specified.",
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
-"setup": "Not specified. Not specified. Not specified."
+"setup": "Not specified. Not specified. Not specified.",
+"hook": "Franek Mucha, a village drunk and brawler, one of Tadek Gajda's drinking crew."
 },
 "characters/secondary/halina-zajac.md": {
 "name": "Halina Zając",
@@ -816,7 +849,8 @@
 "cost": "1 time",
 "outcome": "Nobody reads the village like the woman at the till. She rattles off who buys what: the cheap Sport that Tadek Gajda and half the valley burn through, and the pricey Carmen Cigarette Butts only two men ever pay for, the Gajda boy Marek Gajda and the butcher Stanisław Rezeń. The brand marks the man, and she keeps the accounts in her head.",
 "gives": "junior-smokes-carmen, butcher-smokes-carmen, tadek-smokes-cheapest",
-"setup": "Not specified. Not specified. Not specified."
+"setup": "Not specified. Not specified. Not specified.",
+"hook": "Halina Zając, the woman behind the counter at Helena Rzepka (née Gajda)'s store."
 },
 "characters/secondary/jozef-nowak.md": {
 "name": "Józef Nowak",
@@ -835,7 +869,8 @@
 "clothes": "Not specified.",
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
-"setup": "Not specified. Not specified. Not specified."
+"setup": "Not specified. Not specified. Not specified.",
+"hook": "Józef Nowak, a farmhand at the PGR farm."
 },
 "characters/secondary/krystian-rzepka.md": {
 "name": "Krystian Rzepka",
@@ -853,7 +888,8 @@
 "clothes": "Not specified.",
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
-"setup": "Not specified. Not specified. Not specified."
+"setup": "Not specified. Not specified. Not specified.",
+"hook": "Krystian Rzepka, the youngest Rzepka child, altar boy at the church."
 },
 "characters/secondary/piotr-wisniewski.md": {
 "name": "Piotr Wiśniewski",
@@ -872,7 +908,8 @@
 "clothes": "Not specified.",
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
-"setup": "Not specified. Not specified. Not specified."
+"setup": "Not specified. Not specified. Not specified.",
+"hook": "Piotr Wiśniewski, a young farmhand at the PGR farm."
 },
 "characters/secondary/romek-glowacz.md": {
 "name": "Romek Głowacz",
@@ -890,7 +927,8 @@
 "clothes": "Not specified.",
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
-"setup": "Not specified. Not specified. Not specified."
+"setup": "Not specified. Not specified. Not specified.",
+"hook": "Romek Głowacz, a village drunk, one of Tadek Gajda's drinking crew."
 },
 "characters/secondary/staszek-pytlak.md": {
 "name": "Staszek Pytlak",
@@ -914,7 +952,8 @@
 "outcome": "pressed on which kind, it is clear the boys know their mushrooms: ordinary edible ones, and Staszek ate the same and stayed well.",
 "gives": "pawelek-mushrooms-were-harmless",
 "cost": "1 time",
-"setup": "Not specified. Not specified. Not specified."
+"setup": "Not specified. Not specified. Not specified.",
+"hook": "Staszek Pytlak, a small village boy, Pawełek Kopacz's playmate."
 },
 "characters/secondary/szymek-kepa.md": {
 "name": "Szymek Kępa",
@@ -932,11 +971,13 @@
 "clothes": "Not specified.",
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
-"setup": "Not specified. Not specified. Not specified."
+"setup": "Not specified. Not specified. Not specified.",
+"hook": "Szymek Kępa, a village drunk, one of Tadek Gajda's drinking crew."
 },
 "locations/big-basin.md": {
 "name": "Jasielnik Basin",
-"setup": "No one lives in the basin. The basin floor sits at 405.0 m above sea level. The state map shows the ridge water-gap draining into the basin."
+"setup": "No one lives in the basin. The basin floor sits at 405.0 m above sea level. The state map shows the ridge water-gap draining into the basin.",
+"hook": "The empty basin beyond the ridge, on the far side of The Ridge Gap."
 },
 "locations/bimber-still.md": {
 "name": "Bimber Still",
@@ -954,7 +995,8 @@
 "changes": "Caught at the Still — starts",
 "requires": "Physique OR Alcoholic",
 "cost": "1 time",
-"setup": "Crude copper still under camouflage netting. Clearing beside a stream. Empty sugar sacks, barrels, stacked firewood, and a small fire pit.. Warm ashes show recent use. Fermentation smell is strong. Cheap Sport cigarette butts are ground into the mud all around the fire and the still.. A packed footpath leads in from Testowo. The number of barrels and bottles exceeds personal drinking.. The men sit around the fire with bottles and cards. The crew hears visitors before seeing them. Fresh boot prints, warm ashes, and half-full bottles remain. No weapons, documents, hidden room, or grave are visible here."
+"setup": "Crude copper still under camouflage netting. Clearing beside a stream. Empty sugar sacks, barrels, stacked firewood, and a small fire pit.. Warm ashes show recent use. Fermentation smell is strong. Cheap Sport cigarette butts are ground into the mud all around the fire and the still.. A packed footpath leads in from Testowo. The number of barrels and bottles exceeds personal drinking.. The men sit around the fire with bottles and cards. The crew hears visitors before seeing them. Fresh boot prints, warm ashes, and half-full bottles remain. No weapons, documents, hidden room, or grave are visible here.",
+"hook": "A forest clearing by a stream between Testowo and Hołubie."
 },
 "locations/far-ridge-streambed.md": {
 "name": "Far-Ridge Streambed",
@@ -965,7 +1007,8 @@
 "cost": "1 time",
 "requires": "Survival",
 "changes": "Surveying the Streambed — starts",
-"setup": "A dry streambed runs over the far ridge and appears to spill toward the next valley. The streambed's col (its high point) sits above Testowo house level, so water tops the village before it ever reaches here. Nothing on the ground announces this; only elevation figures show it. The map draws the streambed honestly but never marks the col's elevation. The dam-survey crews left stamped geodetic benchmarks (repery) at the col and beside Testowo. The markers are old and half-buried; finding them takes searching. The col commands the whole valley: from here you look straight down on Testowo, across to the Hołubie ruins, and over the ground the reservoir will drown. It is the natural place to watch the valley from, and men have. Just below the col, under gorse and slid earth, a collapsed dugout with a firing slot faces the valley floor; rusted metal and a rotted timber lip still show. Partisans held this line in the war years. Only if the party turned up the hut on the benchmark search: an abandoned shepherd's koliba stands hidden in the gorse higher on the slope, its low doorway still up, a weathered ram's skull fixed over the lintel and marks cut into the frame, facing out. Parties who have not found it do not see it and get no koliba description. Getting the streambed's elevations plays out as one of two competing scenes: Surveying the Streambed or Search for the Benchmarks. Either yields the Streambed Parameters."
+"setup": "A dry streambed runs over the far ridge and appears to spill toward the next valley. The streambed's col (its high point) sits above Testowo house level, so water tops the village before it ever reaches here. Nothing on the ground announces this; only elevation figures show it. The map draws the streambed honestly but never marks the col's elevation. The dam-survey crews left stamped geodetic benchmarks (repery) at the col and beside Testowo. The markers are old and half-buried; finding them takes searching. The col commands the whole valley: from here you look straight down on Testowo, across to the Hołubie ruins, and over the ground the reservoir will drown. It is the natural place to watch the valley from, and men have. Just below the col, under gorse and slid earth, a collapsed dugout with a firing slot faces the valley floor; rusted metal and a rotted timber lip still show. Partisans held this line in the war years. Only if the party turned up the hut on the benchmark search: an abandoned shepherd's koliba stands hidden in the gorse higher on the slope, its low doorway still up, a weathered ram's skull fixed over the lintel and marks cut into the frame, facing out. Parties who have not found it do not see it and get no koliba description. Getting the streambed's elevations plays out as one of two competing scenes: Surveying the Streambed or Search for the Benchmarks. Either yields the Streambed Parameters.",
+"hook": "A dry streambed on the far ridge, across the valley from Testowo."
 },
 "locations/hags-cabin.md": {
 "name": "Hag's Cabin",
@@ -980,7 +1023,8 @@
 "outcome": "The icons, candles, herbs, and prayers show someone has the ritual form.",
 "gives": "hag-has-the-form",
 "cost": "1 time",
-"setup": "Small weathered wooden cabin. Built or repurposed from a pre-war structure. Hidden by trees and undergrowth. Maintained but sparse. Roof is weathered but functional. Walls hold. Hearth provides heat and cooking. No electricity or running water. Single room. Icons, candles, herbs, and prayer materials are kept here.. A small three-barred crucifix hangs among the icons. A soft folded sheet of Cyrillic names is kept with the ritual materials.. Foraged and preserved foods are stored here. Blankets, worn clothes, and cooking implements are present. Floorboards hide a tin with Dmytro Kosach's photograph, a folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth. Paraskewia survives by foraging, preserving food, and enduring isolation. She may be at Hołubie — Homestead Ruins or Hołubie — Cerkiew performing rites."
+"setup": "Small weathered wooden cabin. Built or repurposed from a pre-war structure. Hidden by trees and undergrowth. Maintained but sparse. Roof is weathered but functional. Walls hold. Hearth provides heat and cooking. No electricity or running water. Single room. Icons, candles, herbs, and prayer materials are kept here.. A small three-barred crucifix hangs among the icons. A soft folded sheet of Cyrillic names is kept with the ritual materials.. Foraged and preserved foods are stored here. Blankets, worn clothes, and cooking implements are present. Floorboards hide a tin with Dmytro Kosach's photograph, a folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth. Paraskewia survives by foraging, preserving food, and enduring isolation. She may be at Hołubie — Homestead Ruins or Hołubie — Cerkiew performing rites.",
+"hook": "A cabin in the deep forest, off an overgrown path from Hołubie."
 },
 "locations/meadow-by-the-ravine.md": {
 "name": "Meadow by the Ravine",
@@ -993,13 +1037,15 @@
 "outcome": "The stone stack is an old hand-built grave with no priest, marker, or name.",
 "gives": "dudka-buried-a-friend-at-the-ravine",
 "cost": "1 time",
-"setup": "Open clearing at the lip of a steep ravine. Tall grass, wildflowers, and insects fill the clearing. Ground drops suddenly at the edge. Water moves below, out of sight. A single old tree stands to one side. A low moss-grown cairn of stones sits under the tree. The cairn is deliberate, not natural rockfall.."
+"setup": "Open clearing at the lip of a steep ravine. Tall grass, wildflowers, and insects fill the clearing. Ground drops suddenly at the edge. Water moves below, out of sight. A single old tree stands to one side. A low moss-grown cairn of stones sits under the tree. The cairn is deliberate, not natural rockfall..",
+"hook": "A meadow by a ravine in the forest between the villages, off an old hunting track."
 },
 "locations/officers-car.md": {
 "name": "The Milicja Nysa",
 "outcome": "por. Witold Skowron names where they are headed: Testowo, the resettled village that will sit on the shore of the new lake, and points out where the road drops toward it.",
 "gives": "hook:locations/new-village/new-village.md, new-village-will-be-next-to-solina-lake",
-"setup": "A Nysa 501 van in Milicja blue, mud to the doors. kpr. Zdzisław Wrona drives; por. Witold Skowron rides in front. The committee rides on the bench seats in the back."
+"setup": "A Nysa 501 van in Milicja blue, mud to the doors. kpr. Zdzisław Wrona drives; por. Witold Skowron rides in front. The committee rides on the bench seats in the back.",
+"hook": "The blue Milicja van that brought the committee into the valley."
 },
 "locations/old-village-cerkiew.md": {
 "name": "Hołubie — Cerkiew",
@@ -1017,7 +1063,8 @@
 "gives": "hag-tends-the-well",
 "changes": "Performing the Ritual — starts",
 "cost": "1 time",
-"setup": "Wooden Greek Catholic cerkiew with onion dome and partial stone construction. The 1947 fire did not destroy it completely. The cerkiew dominates the ruins from the hilltop. Roof partially collapsed on the west side. Interior exposed to rain. Wood is rotting. Some faded icons remain on the interior walls. Three-barred crosses mark the altar screen and recur across the surviving icons and carvings. Door hangs loose. Interior is wet from rain and groundwater seepage. Abandoned altar, broken candle stands, and debris remain on the floor. In a dry corner behind the altar screen, out of the rain, a flat cloth-wrapped bundle has been left with care and kept dry, plainly placed there long after the fire. Fresh candles appear periodically.. Candle wax and faint incense smell are present on some nights. In the half-light the empty nave feels occupied — footprints in the dust, a draft that stirs the candle flames, the steady sense of being watched.. A liturgical bell is absent from where one should be. Some ceiling sections are unstable."
+"setup": "Wooden Greek Catholic cerkiew with onion dome and partial stone construction. The 1947 fire did not destroy it completely. The cerkiew dominates the ruins from the hilltop. Roof partially collapsed on the west side. Interior exposed to rain. Wood is rotting. Some faded icons remain on the interior walls. Three-barred crosses mark the altar screen and recur across the surviving icons and carvings. Door hangs loose. Interior is wet from rain and groundwater seepage. Abandoned altar, broken candle stands, and debris remain on the floor. In a dry corner behind the altar screen, out of the rain, a flat cloth-wrapped bundle has been left with care and kept dry, plainly placed there long after the fire. Fresh candles appear periodically.. Candle wax and faint incense smell are present on some nights. In the half-light the empty nave feels occupied — footprints in the dust, a draft that stirs the candle flames, the steady sense of being watched.. A liturgical bell is absent from where one should be. Some ceiling sections are unstable.",
+"hook": "The old cerkiew on the hilltop of Hołubie."
 },
 "locations/old-village-ruins.md": {
 "name": "Hołubie — Homestead Ruins",
@@ -1026,11 +1073,13 @@
 "gives": "old-village-was-burned",
 "changes": "Performing the Ritual — starts",
 "cost": "1 time",
-"setup": "Wooden buildings burned in 1947.. Stone foundations survived. Stone foundations stand 1–2 feet above ground level. Chimneys are partially intact. Interiors are flooded or filled with debris. Underground root cellars and storage pits remain; many are water-filled. Pottery shards, rusted tools, and household fragments lie on the surface. Overgrown orchards still bear apples and plums. Hidden cellar holes, unstable stones, and flooded cellars make searching dangerous. Burn marks remain on surviving stone. The well is stone-lined, its top partially collapsed or sealed with debris; moss and age on the stone, the interior dark, depth unknown, water level obscured. Some well debris has been cleared recently; other debris piled back; candle wax is present near the disturbed debris. Cigarette butts collect in the grass and stone cracks around the well rim, more than any single visit would leave. If dam floods reach Hołubie, the well goes underwater. Well hazards: unstable stone, unknown depth, water, unsafe excavation. Day 2+ after the wolf hunt: fresh blood can be visible on the well's stone rim. Set apart from the homestead ruins, a larger timber building still stands: the village cerkiew, its roof sagging and fire-marked but upright."
+"setup": "Wooden buildings burned in 1947.. Stone foundations survived. Stone foundations stand 1–2 feet above ground level. Chimneys are partially intact. Interiors are flooded or filled with debris. Underground root cellars and storage pits remain; many are water-filled. Pottery shards, rusted tools, and household fragments lie on the surface. Overgrown orchards still bear apples and plums. Hidden cellar holes, unstable stones, and flooded cellars make searching dangerous. Burn marks remain on surviving stone. The well is stone-lined, its top partially collapsed or sealed with debris; moss and age on the stone, the interior dark, depth unknown, water level obscured. Some well debris has been cleared recently; other debris piled back; candle wax is present near the disturbed debris. Cigarette butts collect in the grass and stone cracks around the well rim, more than any single visit would leave. If dam floods reach Hołubie, the well goes underwater. Well hazards: unstable stone, unknown depth, water, unsafe excavation. Day 2+ after the wolf hunt: fresh blood can be visible on the well's stone rim. Set apart from the homestead ruins, a larger timber building still stands: the village cerkiew, its roof sagging and fire-marked but upright.",
+"hook": "The stone foundations and chimneys of Hołubie, the abandoned village up the valley."
 },
 "locations/old-village.md": {
 "name": "Hołubie",
-"setup": "The village was emptied in 1947 and its wooden buildings burned. What remains is the Hołubie — Homestead Ruins and the Hołubie — Cerkiew."
+"setup": "The village was emptied in 1947 and its wooden buildings burned. What remains is the Hołubie — Homestead Ruins and the Hołubie — Cerkiew.",
+"hook": "The abandoned Lemko village up the valley from Testowo."
 },
 "locations/the-irrigation-ditch.md": {
 "name": "The Irrigation Ditch",
@@ -1039,7 +1088,8 @@
 "outcome": "This rank patch of thick volunteer cereal and sour, caked ground reads plainly to a country eye: a large quantity of grain was tipped out here and left to rot, not spread as feed or sown as seed.",
 "gives": "grain-has-been-dumped",
 "cost": "1 time",
-"setup": "The ditch begins at a concrete head by the PGR fields, which Zbigniew Gajda calls the village's flood drain. The concrete lining is sound but runs only a short stretch; past it the channel bends away toward the low ground and out of sight. From the head alone it reads as a fine concrete channel of ample capacity. Past the concrete it degrades to a shallow, unlined dugout for most of its length. Nothing at the head announces this; only walking the full length reveals it. The channel runs a long way, fields to low ground, over rough and boggy going. Where the dugout peters out into the low ground, one broad patch grows rank and wrong: coarse cereal sprouting thick and volunteer, the wet soil beneath it caked and sour."
+"setup": "The ditch begins at a concrete head by the PGR fields, which Zbigniew Gajda calls the village's flood drain. The concrete lining is sound but runs only a short stretch; past it the channel bends away toward the low ground and out of sight. From the head alone it reads as a fine concrete channel of ample capacity. Past the concrete it degrades to a shallow, unlined dugout for most of its length. Nothing at the head announces this; only walking the full length reveals it. The channel runs a long way, fields to low ground, over rough and boggy going. Where the dugout peters out into the low ground, one broad patch grows rank and wrong: coarse cereal sprouting thick and volunteer, the wet soil beneath it caked and sour.",
+"hook": "The ditch running from the PGR fields down to the low ground east of Testowo."
 },
 "locations/the-ridge-gap.md": {
 "name": "The Ridge Gap",
@@ -1050,7 +1100,8 @@
 "cost": "1 time",
 "geology": "reads the fill directly and confirms it will not pass water at flood pressure.",
 "changes": "Climb the Plug — starts",
-"setup": "The gap is the low notch where the ridge dips between the Testowo valley and Jasielnik Basin. The state map draws it as an open channel, the valley's main drain. An old landslide has choked the notch with fallen rock and earth. From the base the fill looks like loose rubble floodwater would seep straight through.. The plug is a steep bank about two storeys high. Climbing it is its own scene: Climb the Plug on the survey, and Climb the Plug in the Rain for the finale charge. The fill can be sampled at the toe, but that only settles whether it seeps. What decides the outlet is read only at the crest: the height of the plug's lowest saddle (the sill the rising water must top to spill into Jasielnik Basin) and whether the slid mass beds against the intact ridge or leaves a channel. Both are invisible from below.. The top of the plug overlooks the empty Jasielnik Basin, the ground the map says the valley's water should drain into. Nothing but this fill stands between the valley and Jasielnik Basin."
+"setup": "The gap is the low notch where the ridge dips between the Testowo valley and Jasielnik Basin. The state map draws it as an open channel, the valley's main drain. An old landslide has choked the notch with fallen rock and earth. From the base the fill looks like loose rubble floodwater would seep straight through.. The plug is a steep bank about two storeys high. Climbing it is its own scene: Climb the Plug on the survey, and Climb the Plug in the Rain for the finale charge. The fill can be sampled at the toe, but that only settles whether it seeps. What decides the outlet is read only at the crest: the height of the plug's lowest saddle (the sill the rising water must top to spill into Jasielnik Basin) and whether the slid mass beds against the intact ridge or leaves a channel. Both are invisible from below.. The top of the plug overlooks the empty Jasielnik Basin, the ground the map says the valley's water should drain into. Nothing but this fill stands between the valley and Jasielnik Basin.",
+"hook": "The notch in the ridge at the end of the valley, reached by the survey routes from the village outskirts."
 },
 "locations/upa-bunker.md": {
 "name": "UPA Bunker (Ziemianka)",
@@ -1059,7 +1110,8 @@
 "outcome": "The shafts reveal an underground structure in the hillside.",
 "gives": "hook:locations/upa-bunker.md",
 "cost": "1 time",
-"setup": "The bunker is an abandoned partisan ziemianka built in the mid-1940s. The dugout is low-ceilinged and earth-cut. Rotting timber reinforces the structure. The tunnel network has unknown extent. The entrance is camouflaged by vegetation and fallen trees. Ventilation shafts break the hillside.. Some sections are partially collapsed. Lower areas are flooded. No recent human occupation is apparent. Rusted weapons, ammunition, Cyrillic inscriptions on wood, and rotting documents are scattered inside. One wall section has carved Cyrillic: Д. КОСАЧ and a date. A wrapped bundle near the carving contains a rusted pistol, spare ammunition, and a Ukrainian journal fragment mentioning the village by its Lemko name and a woman's name. Hazards include structural collapse, flooding, disorientation, and possible unexploded ordnance."
+"setup": "The bunker is an abandoned partisan ziemianka built in the mid-1940s. The dugout is low-ceilinged and earth-cut. Rotting timber reinforces the structure. The tunnel network has unknown extent. The entrance is camouflaged by vegetation and fallen trees. Ventilation shafts break the hillside.. Some sections are partially collapsed. Lower areas are flooded. No recent human occupation is apparent. Rusted weapons, ammunition, Cyrillic inscriptions on wood, and rotting documents are scattered inside. One wall section has carved Cyrillic: Д. КОСАЧ and a date. A wrapped bundle near the carving contains a rusted pistol, spare ammunition, and a Ukrainian journal fragment mentioning the village by its Lemko name and a woman's name. Hazards include structural collapse, flooding, disorientation, and possible unexploded ordnance.",
+"hook": "A dug-out bunker hidden in the forest northwest of Testowo."
 },
 "locations/village-outskirts.md": {
 "name": "Village Outskirts",
@@ -1069,7 +1121,8 @@
 "gives": "hook:locations/old-village-ruins.md",
 "cost": "1 time",
 "requires": "Survival",
-"setup": "The terrain includes the river, hillsides, forest edges, ridges, and valley floors around Testowo. The survey uses an old military topographic map and instruments. The map is outdated. The river has shifted. The river is higher than expected. Soil near the valley floor is saturated. The local geology is Carpathian flysch: hard sandstone ridges over soft, slip-prone shale. Long parallel ridges separate valleys. Streams cross ridges through narrow water-gaps. Testowo sits in one valley. Hołubie — Homestead Ruins lies in the lower valley beyond a sandstone ridge. The map marks a The Ridge Gap through the ridge between the new-village valley and the empty Jasielnik Basin. The marked water-gap is blocked by loose earth and broken rock from an old landslide. A far ridge across the valley carries an old dry streambed that appears to spill toward the next valley; see the Far-Ridge Streambed. The wojewoda's new bridge spans the river's present bed; on the map that ground is drawn dry, with the river on its old course. The southern approach rises into a low ridge of higher ground. The survey route can pass the old village ruins. One route passes the last house before the treeline, Stanisław Rezeń's house. One route crosses the track used by Tadek Gajda's drinking crew."
+"setup": "The terrain includes the river, hillsides, forest edges, ridges, and valley floors around Testowo. The survey uses an old military topographic map and instruments. The map is outdated. The river has shifted. The river is higher than expected. Soil near the valley floor is saturated. The local geology is Carpathian flysch: hard sandstone ridges over soft, slip-prone shale. Long parallel ridges separate valleys. Streams cross ridges through narrow water-gaps. Testowo sits in one valley. Hołubie — Homestead Ruins lies in the lower valley beyond a sandstone ridge. The map marks a The Ridge Gap through the ridge between the new-village valley and the empty Jasielnik Basin. The marked water-gap is blocked by loose earth and broken rock from an old landslide. A far ridge across the valley carries an old dry streambed that appears to spill toward the next valley; see the Far-Ridge Streambed. The wojewoda's new bridge spans the river's present bed; on the map that ground is drawn dry, with the river on its old course. The southern approach rises into a low ridge of higher ground. The survey route can pass the old village ruins. One route passes the last house before the treeline, Stanisław Rezeń's house. One route crosses the track used by Tadek Gajda's drinking crew.",
+"hook": "The river, hillsides, and forest edges around Testowo."
 },
 "locations/new-village/barbaras-house.md": {
 "name": "Barbara's House",
@@ -1085,7 +1138,8 @@
 "when": "setup:locations/new-village/barbaras-house.md",
 "outcome": "The coverings are systematic, old, and tied to death mourning.",
 "gives": "covered-mirrors",
-"setup": "One-room house with a curtain dividing the sleeping area. Wood stove, table, two chairs. Clean but bare. Built of red brick by Zbigniew Gajda; the other village houses are timber. Catholic cross on the wall. Every mirror and reflective surface is covered with old cloth. The cloth coverings are yellowed with age.. Stefania Kopacz sits by the stove or window. She mutters non-Polish fragments, songs, and prayers.. A small three-barred crucifix hangs above her corner.. Pawełek Kopacz usually plays near Babcia and repeats some of her words. He may be outside playing during the day. Barbara Kopacz offers tea and food when home. During the day, Barbara works at the The PGR Farm. Ryszard Dudka is often visible at the fence. He brings firewood and checks on Pawełek. Overnight guests hear Babcia praying, pacing, and muttering in the dark. Overnight guests may hear Pawełek talk in his sleep. On still nights, overnight guests hear a woman's singing carried from the forest on the wind, far off and alone. On later days, Babcia becomes more lucid. After Paraskewia Chyłak is killed, Babcia becomes agitated and watches the forest."
+"setup": "One-room house with a curtain dividing the sleeping area. Wood stove, table, two chairs. Clean but bare. Built of red brick by Zbigniew Gajda; the other village houses are timber. Catholic cross on the wall. Every mirror and reflective surface is covered with old cloth. The cloth coverings are yellowed with age.. Stefania Kopacz sits by the stove or window. She mutters non-Polish fragments, songs, and prayers.. A small three-barred crucifix hangs above her corner.. Pawełek Kopacz usually plays near Babcia and repeats some of her words. He may be outside playing during the day. Barbara Kopacz offers tea and food when home. During the day, Barbara works at the The PGR Farm. Ryszard Dudka is often visible at the fence. He brings firewood and checks on Pawełek. Overnight guests hear Babcia praying, pacing, and muttering in the dark. Overnight guests may hear Pawełek talk in his sleep. On still nights, overnight guests hear a woman's singing carried from the forest on the wind, far off and alone. On later days, Babcia becomes more lucid. After Paraskewia Chyłak is killed, Babcia becomes agitated and watches the forest.",
+"hook": "The edge of Testowo, beside Ryszard Dudka's house."
 },
 "locations/new-village/butchers-house.md": {
 "name": "Butcher's House",
@@ -1099,7 +1153,8 @@
 "outcome": "The forest path sees daily use and points straight toward Hołubie — Homestead Ruins.",
 "gives": "butcher-dumps-carcasses-in-well",
 "cost": "1 time",
-"setup": "Dark timber house with no paint and no curtains. Butchering station behind the house. The station has a scarred block, iron hooks, and a black-stained drainage channel. Three dogs remain; villagers remember five. The dogs growl low instead of barking. One dog limps from an old bad heal. One dog flinches when a hand rises.. If home, Stanisław Rezeń reaches the door before visitors knock. He chain-smokes and leaves burn marks on the doorframe. He picks at scabs, scratches himself, and turns a knife in one hand. His friendliness is too eager and he watches faces closely. He makes lingering personal comments about female player characters. A worn track runs from the back door into the forest. The mud on the track is usually fresh.. The track leads toward Hołubie — Homestead Ruins and the well. The house contains no alcohol. Old blood smell is soaked into the wood. Modified blades hang on the wall rack. A KBW military knife is on the wall rack among butchering tools. A KBW rifle is hidden in the smokehouse rafters, wrapped in oilcloth and sacking. A folded Propaganda Leaflet is tucked among his things: the white eagle driving a bayonet into a trident over the slogan \"DEATH TO THE BANDITS\". On this copy someone has inked a crude cartoon cock onto the eagle. A drawer in the bench-bed frame contains girl's undergarments taken from Hania Barnaś."
+"setup": "Dark timber house with no paint and no curtains. Butchering station behind the house. The station has a scarred block, iron hooks, and a black-stained drainage channel. Three dogs remain; villagers remember five. The dogs growl low instead of barking. One dog limps from an old bad heal. One dog flinches when a hand rises.. If home, Stanisław Rezeń reaches the door before visitors knock. He chain-smokes and leaves burn marks on the doorframe. He picks at scabs, scratches himself, and turns a knife in one hand. His friendliness is too eager and he watches faces closely. He makes lingering personal comments about female player characters. A worn track runs from the back door into the forest. The mud on the track is usually fresh.. The track leads toward Hołubie — Homestead Ruins and the well. The house contains no alcohol. Old blood smell is soaked into the wood. Modified blades hang on the wall rack. A KBW military knife is on the wall rack among butchering tools. A KBW rifle is hidden in the smokehouse rafters, wrapped in oilcloth and sacking. A folded Propaganda Leaflet is tucked among his things: the white eagle driving a bayonet into a trident over the slogan \"DEATH TO THE BANDITS\". On this copy someone has inked a crude cartoon cock onto the eagle. A drawer in the bench-bed frame contains girl's undergarments taken from Hania Barnaś.",
+"hook": "The edge of Testowo, nearest the forest path toward Hołubie."
 },
 "locations/new-village/matronas-house.md": {
 "name": "Matrona's House",
@@ -1118,7 +1173,8 @@
 "noticed-by": "Culture",
 "requires": "Finesse",
 "cost": "1 time",
-"setup": "Whitewashed walls, swept path, and flower box. A small garden shed stands in the yard behind the house, its one window often lit. Religious icons in every room. Crucifix above the dining table. Embroidered tablecloth. Beeswax and clean linen smell. Helena Rzepka (née Gajda) receives guests at the kitchen table with bread and tea. She asks about the census, flood assessment, and each committee member's origin. She remembers answers given by visitors. She keeps a ring of household keys on her apron, the store cabinet key among them. Emil Rzepka sits near the stove or works in the garden shed he paints in. He says little and looks at Helena before speaking. His hands are stained with paint. Ewa Rzepka helps in the kitchen and watches Emil. She brings tea to Emil's shed when Helena is not watching. Krystian Rzepka comes and goes for altar-boy duties. He repeats village observations to Helena. Emil's shed contains landscapes and village scenes of old wooden houses and a stone church.. The old village recurs across many of the canvases, its well, its cerkiew, and its ruined houses, painted with more care than the rest. Among the older Fauvist canvases, one shows a streambed on the far ridge across the valley, bright water running down toward the next basin.. One of the Informel canvases works over the old cerkiew: its shape still readable under fields of black, encrusted paint.. On the easel sits an unfinished canvas he is working on right now: very dark, wholly abstract, the paint still wet and being worked. It is the only piece in the shed that is not finished. Newer paintings show dark circles, black water, and stone rings.. As the well strengthens, Helena increases public piety, generosity, and church visits. Overnight guests see the shed window burning and hear Emil working out there after midnight. Overnight guests hear Helena check doors and Emil. Overnight guests may hear a whispered argument through the wall."
+"setup": "Whitewashed walls, swept path, and flower box. A small garden shed stands in the yard behind the house, its one window often lit. Religious icons in every room. Crucifix above the dining table. Embroidered tablecloth. Beeswax and clean linen smell. Helena Rzepka (née Gajda) receives guests at the kitchen table with bread and tea. She asks about the census, flood assessment, and each committee member's origin. She remembers answers given by visitors. She keeps a ring of household keys on her apron, the store cabinet key among them. Emil Rzepka sits near the stove or works in the garden shed he paints in. He says little and looks at Helena before speaking. His hands are stained with paint. Ewa Rzepka helps in the kitchen and watches Emil. She brings tea to Emil's shed when Helena is not watching. Krystian Rzepka comes and goes for altar-boy duties. He repeats village observations to Helena. Emil's shed contains landscapes and village scenes of old wooden houses and a stone church.. The old village recurs across many of the canvases, its well, its cerkiew, and its ruined houses, painted with more care than the rest. Among the older Fauvist canvases, one shows a streambed on the far ridge across the valley, bright water running down toward the next basin.. One of the Informel canvases works over the old cerkiew: its shape still readable under fields of black, encrusted paint.. On the easel sits an unfinished canvas he is working on right now: very dark, wholly abstract, the paint still wet and being worked. It is the only piece in the shed that is not finished. Newer paintings show dark circles, black water, and stone rings.. As the well strengthens, Helena increases public piety, generosity, and church visits. Overnight guests see the shed window burning and hear Emil working out there after midnight. Overnight guests hear Helena check doors and Emil. Overnight guests may hear a whispered argument through the wall.",
+"hook": "The centre of Testowo, close to the store."
 },
 "locations/new-village/neighbours-house.md": {
 "name": "Neighbour's House",
@@ -1134,11 +1190,13 @@
 "outcome": "The window toward Ciotka's house is always covered, while the window toward Barbara's house is open.",
 "gives": "neighbour-avoids-ciotkas-window",
 "cost": "1 time",
-"setup": "Bachelor's house, neat but bare. No visible family possessions. Hunting rifle on a rack by the door.. Table with one bottle and one chair. Bed visible behind a partition. A window faces Barbara's House and has no curtain. A window faces Ciotka's House, the former Edward Barnaś plot. The window has heavy yellowed curtains that stay drawn.. If home, Ryszard Dudka is tense with visitors. He resents state officials because of the coming flood. His light may be on at 3am. Pacing can be heard from nearby. He sometimes knows things players told Barbara earlier."
+"setup": "Bachelor's house, neat but bare. No visible family possessions. Hunting rifle on a rack by the door.. Table with one bottle and one chair. Bed visible behind a partition. A window faces Barbara's House and has no curtain. A window faces Ciotka's House, the former Edward Barnaś plot. The window has heavy yellowed curtains that stay drawn.. If home, Ryszard Dudka is tense with visitors. He resents state officials because of the coming flood. His light may be on at 3am. Pacing can be heard from nearby. He sometimes knows things players told Barbara earlier.",
+"hook": "The house beside Barbara's, across from Ciotka's."
 },
 "locations/new-village/new-village.md": {
 "name": "Testowo",
-"setup": "One muddy road runs the length of the valley, lined with low wooden houses. A shop with a bench out front stands halfway along the road. A church stands on the hill above the roofs. At the lower end of the valley stand the barns and the grain silo of the state farm. Down the valley, the river runs high and brown. The forest closes in on every side. Places in the village: Barbara's House, Butcher's House, Matrona's House, Neighbour's House, The PGR Farm, PGR Office, PGR Workers' Quarters, The Church, The Rectory (Plebania), The Store, Wojewoda's House, Ciotka's House."
+"setup": "One muddy road runs the length of the valley, lined with low wooden houses. A shop with a bench out front stands halfway along the road. A church stands on the hill above the roofs. At the lower end of the valley stand the barns and the grain silo of the state farm. Down the valley, the river runs high and brown. The forest closes in on every side. Places in the village: Barbara's House, Butcher's House, Matrona's House, Neighbour's House, The PGR Farm, PGR Office, PGR Workers' Quarters, The Church, The Rectory (Plebania), The Store, Wojewoda's House, Ciotka's House.",
+"hook": "Testowo, the resettled village at the end of the valley road."
 },
 "locations/new-village/the-store.md": {
 "name": "The Store",
@@ -1152,7 +1210,8 @@
 "type": "enum (intact | forced | discovered)",
 "per": "world",
 "start": "intact",
-"setup": "The store is the village social hub. Men sit outside on benches and crates, passing bimber. Tadek Gajda is usually outside. Ryszard Dudka drifts in and out. Stanisław Rezeń does not drink here. Halina Zając runs the counter inside. Helena Rzepka owns the store but is rarely behind the counter. The shelves are sparse but functional. Cigarettes are sold over the counter: cheap Sport on the shelf, a pricier premium brand for those who ask. Bimber is kept under the counter. The crew enters to buy rounds, banter with Halina, and get sent back outside. Marek Gajda drinks with the crew some evenings, away from his father.. Halina resents Helena Rzepka and speaks sharply about the work. The back room has a locked pharmaceutical cabinet. The cabinet contains penicillin, aspirin, bandages, and iodine.. Helena Rzepka keeps the only cabinet key. Halina Zając cannot open the medicine cabinet. Government people are treated with suspicion outside unless they are Tadek Gajda's drinking buddies."
+"setup": "The store is the village social hub. Men sit outside on benches and crates, passing bimber. Tadek Gajda is usually outside. Ryszard Dudka drifts in and out. Stanisław Rezeń does not drink here. Halina Zając runs the counter inside. Helena Rzepka owns the store but is rarely behind the counter. The shelves are sparse but functional. Cigarettes are sold over the counter: cheap Sport on the shelf, a pricier premium brand for those who ask. Bimber is kept under the counter. The crew enters to buy rounds, banter with Halina, and get sent back outside. Marek Gajda drinks with the crew some evenings, away from his father.. Halina resents Helena Rzepka and speaks sharply about the work. The back room has a locked pharmaceutical cabinet. The cabinet contains penicillin, aspirin, bandages, and iodine.. Helena Rzepka keeps the only cabinet key. Halina Zając cannot open the medicine cabinet. Government people are treated with suspicion outside unless they are Tadek Gajda's drinking buddies.",
+"hook": "Helena Rzepka's general store."
 },
 "locations/new-village/wojewodas-house.md": {
 "name": "Wojewoda's House",
@@ -1160,7 +1219,8 @@
 "when": "Zbigniew Gajda home",
 "outcome": "Zbigniew's ribs show an old badly healed injury from a single heavy blow.",
 "gives": "wojewoda-was-hurt-that-night",
-"setup": "The house is the largest in Testowo. The construction is solid by village standards. The house has a proper kitchen and a main room used for dining. Family photos hang on the wall. A crucifix hangs in the house. A small dark wooden icon sits among the Catholic imagery.. Irena Gajda keeps the house spotless. Tea is offered to visitors.. Zbigniew Gajda's office, phone, maps, and paperwork are at the PGR Office. If Zbigniew is home in the evening, he moves stiffly through one shoulder and twists slowly."
+"setup": "The house is the largest in Testowo. The construction is solid by village standards. The house has a proper kitchen and a main room used for dining. Family photos hang on the wall. A crucifix hangs in the house. A small dark wooden icon sits among the Catholic imagery.. Irena Gajda keeps the house spotless. Tea is offered to visitors.. Zbigniew Gajda's office, phone, maps, and paperwork are at the PGR Office. If Zbigniew is home in the evening, he moves stiffly through one shoulder and twists slowly.",
+"hook": "Zbigniew Gajda's family home, the largest house in Testowo."
 },
 "locations/new-village/ciotkas-house/attic.md": {
 "name": "Ciotka's House — The Attic",
@@ -1169,7 +1229,8 @@
 "outcome": "Up under the rafters the shingles and boards don't match the roof: pieces cut and curved to skin a dome, reused flat. A builder sees it at once, this timber was made for something round, not this house.",
 "gives": "roof-built-for-a-dome",
 "cost": "1 time",
-"setup": "Low under the roof, dusty, out of sight of the rooms below. Mismatched curved boards patch the rafters.. Edek's spare toys and Janina's stores near the hatch. Further in, a dead man's things left where no one looks. A pile of rubbish with a box marked \"EDEK\" in it. A big wardrobe. A small child's rattle, kept with the rest. Icons stacked up, not hung.. A small brass bell high up on a beam."
+"setup": "Low under the roof, dusty, out of sight of the rooms below. Mismatched curved boards patch the rafters.. Edek's spare toys and Janina's stores near the hatch. Further in, a dead man's things left where no one looks. A pile of rubbish with a box marked \"EDEK\" in it. A big wardrobe. A small child's rattle, kept with the rest. Icons stacked up, not hung.. A small brass bell high up on a beam.",
+"hook": "The hatch in the ceiling of Janina's house, a short ladder folded beside it."
 },
 "locations/new-village/ciotkas-house/ciotkas-house.md": {
 "name": "Ciotka's House",
@@ -1192,7 +1253,8 @@
 "type": "enum (shut | locked | open)",
 "per": "world",
 "start": "shut",
-"setup": "Best house and best plot in the village. Former home of Edward Barnaś. Solid construction and good land. Clean and obsessively ordered. Catholic icons hang on every wall. Candles are lit. The house smells of soap and cooked grain. Two locks on the front door — one old and pitted low on the frame, one newer above it. It reads as a fearful woman's caution. A hatch in the ceiling with a short ladder folded beside it. It stays shut, and Janina is the only one who goes up. He plays with a few worn wooden toys and keeps asking Janina for more of them. Sharp edges, clutter, and surprises are removed. His own room. Straw mattress, age-inappropriate wooden toy, scratch marks on the wall. A grown man's room kept like a small child's. The toys are worn from handling but the room is too quiet, too still. Deep gouges rake the wall by the bed, high up, where a large hand dragged down again and again. Janina Gajda watches the door and distrusts government questions. Edek Barnaś is tall, broad, silent, and often stands behind Janina or sits in his corner. When dogs are audible outside, he can go rigid or hide behind Janina. The backyard is overgrown and mostly unused. A patch near the fence grows badly and has settled unevenly. The patch can look like a failed old garden bed."
+"setup": "Best house and best plot in the village. Former home of Edward Barnaś. Solid construction and good land. Clean and obsessively ordered. Catholic icons hang on every wall. Candles are lit. The house smells of soap and cooked grain. Two locks on the front door — one old and pitted low on the frame, one newer above it. It reads as a fearful woman's caution. A hatch in the ceiling with a short ladder folded beside it. It stays shut, and Janina is the only one who goes up. He plays with a few worn wooden toys and keeps asking Janina for more of them. Sharp edges, clutter, and surprises are removed. His own room. Straw mattress, age-inappropriate wooden toy, scratch marks on the wall. A grown man's room kept like a small child's. The toys are worn from handling but the room is too quiet, too still. Deep gouges rake the wall by the bed, high up, where a large hand dragged down again and again. Janina Gajda watches the door and distrusts government questions. Edek Barnaś is tall, broad, silent, and often stands behind Janina or sits in his corner. When dogs are audible outside, he can go rigid or hide behind Janina. The backyard is overgrown and mostly unused. A patch near the fence grows badly and has settled unevenly. The patch can look like a failed old garden bed.",
+"hook": "The best plot in Testowo, across from the Neighbour's house."
 },
 "locations/new-village/pgr-farm/pgr-farm.md": {
 "name": "The PGR Farm",
@@ -1201,7 +1263,8 @@
 "outcome": "One ledger name does not match any worker present or recognized on the farm.",
 "gives": "mazur-paid-but-absent",
 "cost": "1 time",
-"setup": "The farm has two long barns, a concrete grain silo, a tool shed, livestock pens, and ploughed fields running toward the tree line. One side of the concrete grain silo carries a patch of newer, cruder concrete. A concrete-headed irrigation ditch runs off the fields toward the low ground; Zbigniew Gajda calls it the village's flood drain. Following it its full length is its own scene: The Irrigation Ditch. Chickens move between the buildings. The PGR Office is in the main building. The PGR Workers' Quarters sit behind the main buildings. Michał Pytlak works in the fields, barns, or feed areas during the day. Józef Nowak and Piotr Wiśniewski keep working unless addressed. Barbara Kopacz works apart from the men. A battered wooden desk in the tool shed holds supply orders, receipts, delivery slips, the PGR Worker Registry, and the PGR Expense Journal. The farm has 7 real workers present or accounted for. The ledger lists 8 workers.. Bloodstains, patched fences, and nervous animals are visible from Day 1.. Day 1–2: fresh wolf damage may bring Zbigniew Gajda to the farm."
+"setup": "The farm has two long barns, a concrete grain silo, a tool shed, livestock pens, and ploughed fields running toward the tree line. One side of the concrete grain silo carries a patch of newer, cruder concrete. A concrete-headed irrigation ditch runs off the fields toward the low ground; Zbigniew Gajda calls it the village's flood drain. Following it its full length is its own scene: The Irrigation Ditch. Chickens move between the buildings. The PGR Office is in the main building. The PGR Workers' Quarters sit behind the main buildings. Michał Pytlak works in the fields, barns, or feed areas during the day. Józef Nowak and Piotr Wiśniewski keep working unless addressed. Barbara Kopacz works apart from the men. A battered wooden desk in the tool shed holds supply orders, receipts, delivery slips, the PGR Worker Registry, and the PGR Expense Journal. The farm has 7 real workers present or accounted for. The ledger lists 8 workers.. Bloodstains, patched fences, and nervous animals are visible from Day 1.. Day 1–2: fresh wolf damage may bring Zbigniew Gajda to the farm.",
+"hook": "The State Agricultural Farm: fields, barns, livestock pens, tool shed."
 },
 "locations/new-village/pgr-farm/pgr-office.md": {
 "name": "PGR Office",
@@ -1211,14 +1274,16 @@
 "gives": "old-village-was-lemko",
 "cost": "1 time",
 "requires": "Topographic Maps",
-"setup": "The room contains a clean desk, heavy bakelite phone, ledgers, topographic maps, a shelf, and a heavy iron wall safe. The safe is old, official, and locked. Tea is usually on the table. Zbigniew Gajda works here and receives visitors here. The phone is the only phone in the village. The maps show topography, rivers, old boundaries, and Hołubie. The ledger is on the desk during census work. The shelf holds farm records, including construction and land-drainage (melioracja) files."
+"setup": "The room contains a clean desk, heavy bakelite phone, ledgers, topographic maps, a shelf, and a heavy iron wall safe. The safe is old, official, and locked. Tea is usually on the table. Zbigniew Gajda works here and receives visitors here. The phone is the only phone in the village. The maps show topography, rivers, old boundaries, and Hołubie. The ledger is on the desk during census work. The shelf holds farm records, including construction and land-drainage (melioracja) files.",
+"hook": "Zbigniew Gajda's office in the PGR main building."
 },
 "locations/new-village/pgr-farm/pgr-quarters.md": {
 "name": "PGR Workers' Quarters",
 "noticed-by": "Empathy",
 "when": "setup:locations/new-village/pgr-farm/pgr-quarters.md",
 "outcome": "In the kitchen, Zofia speaks while cooking and keeps her hands busy.",
-"setup": "The stołówka has a rough wooden counter, benches, a cast-iron stove, and food prepared by Zofia Pytlak. PGR workers eat here. Village talk passes through the stołówka. The barracks are a long low building with iron cots, thin mattresses, and a wood stove at each end. The barracks were built for seasonal workers. The committee sleeps here if por. Skowron arranged it. Zofia runs the kitchen efficiently.. Zofia sees workers, visitors, meal patterns, and village interactions."
+"setup": "The stołówka has a rough wooden counter, benches, a cast-iron stove, and food prepared by Zofia Pytlak. PGR workers eat here. Village talk passes through the stołówka. The barracks are a long low building with iron cots, thin mattresses, and a wood stove at each end. The barracks were built for seasonal workers. The committee sleeps here if por. Skowron arranged it. Zofia runs the kitchen efficiently.. Zofia sees workers, visitors, meal patterns, and village interactions.",
+"hook": "Behind the PGR main building: the stołówka and barracks."
 },
 "locations/new-village/the-church/the-church.md": {
 "name": "The Church",
@@ -1226,7 +1291,8 @@
 "when": "setup:locations/new-village/the-church/the-church.md",
 "outcome": "The church has better repairs, supplies, and firewood than the village should afford.",
 "gives": "church-too-nice",
-"setup": "The wooden church stands on the hill above the village. The priest's house, The Rectory (Plebania), stands beside it. The church is unusually well-maintained for the village's poverty.. Fresh paint, a solid roof, stacked firewood, supplies, icons, candles, and incense are present. The cemetery is adjacent to the church. The cemetery has a few dozen graves, most weathered. All visible graves are post-1947. Wanda Mazur often kneels beside a freshly tended grave. A well-tended double grave has fresh flowers, a Polonised surname, and a small three-barred cross partly hidden under lichen. The plebania stands adjacent to the church. The plebania has a stone foundation older than Testowo, a kitchen, a study, a spare room with a cot, and a cellar. The plebania cellar has stone walls, old liturgical supplies, jars, dust, and a door with a newer padlock."
+"setup": "The wooden church stands on the hill above the village. The priest's house, The Rectory (Plebania), stands beside it. The church is unusually well-maintained for the village's poverty.. Fresh paint, a solid roof, stacked firewood, supplies, icons, candles, and incense are present. The cemetery is adjacent to the church. The cemetery has a few dozen graves, most weathered. All visible graves are post-1947. Wanda Mazur often kneels beside a freshly tended grave. A well-tended double grave has fresh flowers, a Polonised surname, and a small three-barred cross partly hidden under lichen. The plebania stands adjacent to the church. The plebania has a stone foundation older than Testowo, a kitchen, a study, a spare room with a cot, and a cellar. The plebania cellar has stone walls, old liturgical supplies, jars, dust, and a door with a newer padlock.",
+"hook": "The church on the hill in Testowo, beside the cemetery."
 },
 "locations/new-village/the-church/the-rectory.md": {
 "name": "The Rectory (Plebania)",
@@ -1235,7 +1301,8 @@
 "outcome": "the stale smell and a smoker's stain on his fingers give him away. The priest smokes, and hides it. The brand does not show from this alone.",
 "gives": "priest-smokes",
 "cost": "1 time",
-"setup": "The plebania stands adjacent to the church. The plebania has a stone foundation older than Testowo, a kitchen, a book-lined study, a spare room with a cot, and a cellar. The study is small and cold, with one lamp and the parish ledger. The cellar has stone walls, old liturgical supplies, jars, dust, and a door with a newer padlock. A thread of stale tobacco hangs in the study, though no ashtray is in sight."
+"setup": "The plebania stands adjacent to the church. The plebania has a stone foundation older than Testowo, a kitchen, a book-lined study, a spare room with a cot, and a cellar. The study is small and cold, with one lamp and the parish ledger. The cellar has stone walls, old liturgical supplies, jars, dust, and a door with a newer padlock. A thread of stale tobacco hangs in the study, though no ashtray is in sight.",
+"hook": "The plebania beside the church in Testowo."
 },
 "events/barbara-warns-the-players.md": {
 "name": "Barbara Warns the Players",
@@ -1245,7 +1312,8 @@
 "when": "setup:events/barbara-warns-the-players.md",
 "outcome": "Barbara Kopacz is describing preparations, not a mood.",
 "gives": "neighbour-has-rifle",
-"setup": "Barbara Kopacz keeps looking toward the fence line and Neighbour's House. Barbara Kopacz grips the trusted player's arm tightly. Barbara Kopacz says Ryszard Dudka has been drinking. Barbara Kopacz says men have been at Ryszard Dudka's place. Barbara Kopacz says Ryszard Dudka took down, cleaned, and did not replace his rifle. Barbara Kopacz says Ryszard Dudka spoke about someone finally answering for what they did. Barbara Kopacz says Ryszard Dudka did not come to the fence tonight. Barbara Kopacz does not know she has been passing the committee's information to Ryszard Dudka."
+"setup": "Barbara Kopacz keeps looking toward the fence line and Neighbour's House. Barbara Kopacz grips the trusted player's arm tightly. Barbara Kopacz says Ryszard Dudka has been drinking. Barbara Kopacz says men have been at Ryszard Dudka's place. Barbara Kopacz says Ryszard Dudka took down, cleaned, and did not replace his rifle. Barbara Kopacz says Ryszard Dudka spoke about someone finally answering for what they did. Barbara Kopacz says Ryszard Dudka did not come to the fence tonight. Barbara Kopacz does not know she has been passing the committee's information to Ryszard Dudka.",
+"hook": "Barbara Kopacz comes to the committee or catches a trusted player in a yard. Barbara Kopacz has no cardigan. Barbara Kopacz has mud to the shins. Barbara Kopacz is out of breath from half-running."
 },
 "events/caught-at-the-still.md": {
 "name": "Caught at the Still",
@@ -1261,7 +1329,8 @@
 "type": "rule",
 "whole-crew-fought": "World State Change — Crew Hostile: the crew becomes a standing enemy of the committee and moves the still; NPC State Change — Tadek is shaken and avoids the committee afterward.",
 "only-[@first-name](../characters/secondary/franek-mucha.md)-fought-([@nickname](../characters/wujas.md)-vouched)": "no grudge. Franek gets put in his place, the crew holds no lasting hostility, and Tadek stays friendly. The still stays where it is.",
-"setup": "The crew is around the fire with bottles and cards. They hear the committee coming before they see them. The still, barrels, and sugar sacks are in plain view — no hiding it. Government people at the still means their winter's income is exposed.. The crew is drunk, cornered, and already on its feet by the time the committee reaches the clearing. Szymek Kępa puts himself between the committee and the still. Franek Mucha moves onto the footpath, cutting the way out. Romek Głowacz stays seated and watches. Tadek Gajda goes pale and reaches for the bottle."
+"setup": "The crew is around the fire with bottles and cards. They hear the committee coming before they see them. The still, barrels, and sugar sacks are in plain view — no hiding it. Government people at the still means their winter's income is exposed.. The crew is drunk, cornered, and already on its feet by the time the committee reaches the clearing. Szymek Kępa puts himself between the committee and the still. Franek Mucha moves onto the footpath, cutting the way out. Romek Głowacz stays seated and watches. Tadek Gajda goes pale and reaches for the bottle.",
+"hook": "Voices, firelight, and the smell of fermentation carry through the trees before the clearing is in sight."
 },
 "events/climb-the-plug-in-the-rain.md": {
 "name": "Climb the Plug in the Rain",
@@ -1276,7 +1345,8 @@
 "type": "enum (foot | lower-bank | killzone | top-out)",
 "per": "player",
 "start": "foot",
-"setup": "The party already knows this climb: the route, the killzone, the crux. What is different is the rain and the load, not the line. The seam that takes the charge is up under the crux slab near the top of the plug, the same overhang the survey climb met, not down at the toe. Rain is sheeting off the plug: the clay banks run with mud, the killzone ledge is strewn with wet rubble, and the crux slab is black and streaming. It looks worse than the survey. How much worse, no one can say from the ground. The charges are twenty-year-old partisan ordnance, heavy and touchy: a knock, drop, spark, or heat can set them off. Getting the weight up the plug is the real problem, not finding the way. If the survey party drove a clamp at the crux, the top pitch is a fixed hold; if not, it has to be free-soloed again, in the rain."
+"setup": "The party already knows this climb: the route, the killzone, the crux. What is different is the rain and the load, not the line. The seam that takes the charge is up under the crux slab near the top of the plug, the same overhang the survey climb met, not down at the toe. Rain is sheeting off the plug: the clay banks run with mud, the killzone ledge is strewn with wet rubble, and the crux slab is black and streaming. It looks worse than the survey. How much worse, no one can say from the ground. The charges are twenty-year-old partisan ordnance, heavy and touchy: a knock, drop, spark, or heat can set them off. Getting the weight up the plug is the real problem, not finding the way. If the survey party drove a clamp at the crux, the top pitch is a fixed hold; if not, it has to be free-soloed again, in the rain.",
+"hook": "Facing the rain-soaked ridge plug, a heavy load to haul up."
 },
 "events/climb-the-plug.md": {
 "name": "Climb the Plug",
@@ -1295,7 +1365,8 @@
 "type": "enum (foot | lower-bank | killzone | topped-out)",
 "per": "player",
 "start": "foot",
-"setup": "The plug is a steep bank about two storeys high, and it climbs in three distinct pitches. a greasy clay start; strength gets up it fastest, but a sure-footed or determined climber can scramble on too. a loose, exposed traverse of shifting rock. Every hold looks ready to come away under a boot; the party will want it roped and belayed. the crest is capped by a slab of intact sandstone torn loose by the slide; from the ground it just looks like the top edge, and what it takes to get over it cannot be read from below, not even by a good eye. You only see the problem once you are under it. The climb is a one-person job; the rest of the party work the ground: belaying the rope, reading the line, calling up. The party should bring or scrounge a rope (the The PGR Farm or PGR Office has line): they will want it for the traverse, and need it to haul anyone who cannot climb up to the crest. The top pitch has one lasting solution: a clamp driven into the soft shale seam under the slab. The tools, a clamp and a hammer (both at the The PGR Farm), have to be carried up, which no one brings on a first blind climb. Why climb at all: the sill that decides overtopping into Jasielnik Basin can be read only from the crest (the reasoning lives at The Ridge Gap)."
+"setup": "The plug is a steep bank about two storeys high, and it climbs in three distinct pitches. a greasy clay start; strength gets up it fastest, but a sure-footed or determined climber can scramble on too. a loose, exposed traverse of shifting rock. Every hold looks ready to come away under a boot; the party will want it roped and belayed. the crest is capped by a slab of intact sandstone torn loose by the slide; from the ground it just looks like the top edge, and what it takes to get over it cannot be read from below, not even by a good eye. You only see the problem once you are under it. The climb is a one-person job; the rest of the party work the ground: belaying the rope, reading the line, calling up. The party should bring or scrounge a rope (the The PGR Farm or PGR Office has line): they will want it for the traverse, and need it to haul anyone who cannot climb up to the crest. The top pitch has one lasting solution: a clamp driven into the soft shale seam under the slab. The tools, a clamp and a hammer (both at the The PGR Farm), have to be carried up, which no one brings on a first blind climb. Why climb at all: the sill that decides overtopping into Jasielnik Basin can be read only from the crest (the reasoning lives at The Ridge Gap).",
+"hook": "Facing the steep plug at the ridge gap."
 },
 "events/coffee-at-helenas.md": {
 "name": "Coffee at Matrona's",
@@ -1308,7 +1379,8 @@
 "changes": "Lynch Targets — Rezeń becomes Dudka's locked lynch target",
 "cost": "1 composure",
 "type": "rule",
-"setup": "The kitchen has a clean pressed cloth. The kitchen has real coffee. Fresh baked food is on the table. A small crucifix hangs on the wall. A clock ticks in the room. Helena Rzepka (née Gajda) seats the committee herself. Helena Rzepka (née Gajda) pours the coffee herself. Helena Rzepka (née Gajda) waits until the committee has eaten before speaking.. The hospitality is more generous than ordinary village conditions support.. Emil Rzepka refills cups at the edges of the room. Emil Rzepka avoids eye contact. Emil Rzepka flinches when Helena Rzepka (née Gajda) says his name. Helena Rzepka (née Gajda) argues that exposing old crimes harms the living and raises none of the dead.. If the committee needs one name for the report, Helena Rzepka (née Gajda) offers Stanisław Rezeń."
+"setup": "The kitchen has a clean pressed cloth. The kitchen has real coffee. Fresh baked food is on the table. A small crucifix hangs on the wall. A clock ticks in the room. Helena Rzepka (née Gajda) seats the committee herself. Helena Rzepka (née Gajda) pours the coffee herself. Helena Rzepka (née Gajda) waits until the committee has eaten before speaking.. The hospitality is more generous than ordinary village conditions support.. Emil Rzepka refills cups at the edges of the room. Emil Rzepka avoids eye contact. Emil Rzepka flinches when Helena Rzepka (née Gajda) says his name. Helena Rzepka (née Gajda) argues that exposing old crimes harms the living and raises none of the dead.. If the committee needs one name for the report, Helena Rzepka (née Gajda) offers Stanisław Rezeń.",
+"hook": "Helena Rzepka (née Gajda) sends word to the committee. Helena Rzepka (née Gajda) may appear at the committee's door."
 },
 "events/dinner.md": {
 "name": "Dinner at Wojewoda's",
@@ -1320,13 +1392,18 @@
 "gives": "irena-is-watchful",
 "requires": "Physique OR Alcoholic",
 "changes": "Drinking Buddy — the drinking PCs become Tadek's buddies, invited to the store",
-"setup": "Zofia Pytlak has laid out a proper meal. Zbigniew Gajda hosts the committee at his table. Irena Gajda is polite and attentive.. Marek Gajda arrives late. Marek Gajda does not apologise. Marek Gajda sits, eats, and barely engages. Zbigniew Gajda looks at Marek Gajda but says nothing. Tadek Gajda arrives midway through dinner. Tadek Gajda is drunk and uninvited. Tadek Gajda lets himself in. Zbigniew Gajda tenses. Irena Gajda goes quiet. Zofia Pytlak sets another plate without being asked. Helena Rzepka (née Gajda) asks aloud why Janina Gajda is not at the table.. Someone says Janina begged off; the answer is brushed past quickly.. Attending dinner makes the Gajda household treat the committee as guests rather than only officials. If players engage well, Zbigniew Gajda offers lodging at his house. If players engage well, Helena Rzepka (née Gajda) picks the most inquisitive players to stay at hers. If the evening is cold, the committee is sent to PGR Workers' Quarters for the night."
+"setup": "Zofia Pytlak has laid out a proper meal. Zbigniew Gajda hosts the committee at his table. Irena Gajda is polite and attentive.. Marek Gajda arrives late. Marek Gajda does not apologise. Marek Gajda sits, eats, and barely engages. Zbigniew Gajda looks at Marek Gajda but says nothing. Tadek Gajda arrives midway through dinner. Tadek Gajda is drunk and uninvited. Tadek Gajda lets himself in. Zbigniew Gajda tenses. Irena Gajda goes quiet. Zofia Pytlak sets another plate without being asked. Helena Rzepka (née Gajda) asks aloud why Janina Gajda is not at the table.. Someone says Janina begged off; the answer is brushed past quickly.. Attending dinner makes the Gajda household treat the committee as guests rather than only officials. If players engage well, Zbigniew Gajda offers lodging at his house. If players engage well, Helena Rzepka (née Gajda) picks the most inquisitive players to stay at hers. If the evening is cold, the committee is sent to PGR Workers' Quarters for the night.",
+"hook": "Zofia Pytlak sets the table. Food smell reaches the office or upstairs rooms."
 },
 "events/edek-in-the-bunker.md": {
 "name": "Glupek in the Bunker",
 "location": "UPA Bunker (Ziemianka)",
 "present": "Edek Barnaś",
-"setup": "TBD."
+"when": "UPA Bunker (Ziemianka)",
+"outcome": "From the bunker mouth: movement in the dark, heavy breathing, a large shape pressed back into the earth.",
+"gives": "*(to: players at UPA Bunker (Ziemianka))* hook:events/edek-in-the-bunker.md",
+"setup": "TBD.",
+"hook": "From the bunker mouth: movement in the dark, heavy breathing, a large shape pressed back into the earth."
 },
 "events/foreman-saves-village.md": {
 "name": "Foreman Saves the Village — The Engineering Ending",
@@ -1340,7 +1417,8 @@
 "type": "bool",
 "per": "world",
 "start": "false",
-"setup": "Michał Pytlak says the village is drowning because the water cannot run through the plugged gap. He asks the committee for help. He has not slept or eaten in days, and his torn hands do not seem to hurt him.. The ground beyond the gap is the empty Jasielnik Basin, big enough to take the water without drowning anyone. The plug is loose debris and soft shale, not hard sandstone.. A charge placed in the right seam can start a notch. Floodwater can widen the breach after the blast. A charge placed wrong can bring more hillside down or open the gap too slowly. The UPA Bunker (Ziemianka) is partially collapsed. The UPA Bunker (Ziemianka) has flooded sections. The UPA Bunker (Ziemianka) has rotten timbers. The old ordnance may have corroded casings, degraded filler, and sensitive fuses.. Zofia Pytlak is trying to pull Michał Pytlak out of the plan."
+"setup": "Michał Pytlak says the village is drowning because the water cannot run through the plugged gap. He asks the committee for help. He has not slept or eaten in days, and his torn hands do not seem to hurt him.. The ground beyond the gap is the empty Jasielnik Basin, big enough to take the water without drowning anyone. The plug is loose debris and soft shale, not hard sandstone.. A charge placed in the right seam can start a notch. Floodwater can widen the breach after the blast. A charge placed wrong can bring more hillside down or open the gap too slowly. The UPA Bunker (Ziemianka) is partially collapsed. The UPA Bunker (Ziemianka) has flooded sections. The UPA Bunker (Ziemianka) has rotten timbers. The old ordnance may have corroded casings, degraded filler, and sensitive fuses.. Zofia Pytlak is trying to pull Michał Pytlak out of the plan.",
+"hook": "Michał Pytlak has stopped hauling sand. Michał Pytlak is asking where the old bunker is and what remains inside it."
 },
 "events/foremans-flood-fight.md": {
 "name": "Zofia Comes to the Committee",
@@ -1352,7 +1430,8 @@
 "gives": "upa-bunkers-in-the-area",
 "cost": "1 time",
 "changes": "Foreman Saves the Village — The Engineering Ending — starts",
-"setup": "Zofia Pytlak finds the committee. Zofia Pytlak says something is wrong with her husband. Michał Pytlak has not come home since the flood started. Michał Pytlak does not eat what Zofia Pytlak brings him. Michał Pytlak does not sleep. Michał Pytlak is 57 years old with a bad knee. Michał Pytlak is outlifting younger men. Michał Pytlak's hands bled on the first day and no longer do. Michał Pytlak does not shiver in floodwater. Michał Pytlak does not slow down. Michał Pytlak has been asking about a bunker in the forest. Michał Pytlak wants dynamite. Zofia Pytlak does not know Michał Pytlak's plan. Zofia Pytlak wants the committee to save her husband rather than the farm. The workers keep following Michał Pytlak because he is the only person still fighting the flood."
+"setup": "Zofia Pytlak finds the committee. Zofia Pytlak says something is wrong with her husband. Michał Pytlak has not come home since the flood started. Michał Pytlak does not eat what Zofia Pytlak brings him. Michał Pytlak does not sleep. Michał Pytlak is 57 years old with a bad knee. Michał Pytlak is outlifting younger men. Michał Pytlak's hands bled on the first day and no longer do. Michał Pytlak does not shiver in floodwater. Michał Pytlak does not slow down. Michał Pytlak has been asking about a bunker in the forest. Michał Pytlak wants dynamite. Zofia Pytlak does not know Michał Pytlak's plan. Zofia Pytlak wants the committee to save her husband rather than the farm. The workers keep following Michał Pytlak because he is the only person still fighting the flood.",
+"hook": "Zofia Pytlak crosses the village looking for the committee. Zofia Pytlak's eyes are red. Zofia Pytlak's hands shake."
 },
 "events/funeral-mass.md": {
 "name": "Funeral Mass — Ciotka",
@@ -1362,20 +1441,22 @@
 "when": "setup:events/funeral-mass.md",
 "outcome": "The sermon is an accusation: ks. Władysław Pająk is not only burying Janina; he is warning the living that unconfessed blood-guilt stains the whole valley.",
 "gives": "priest-fears-divine-judgment",
-"setup": "Janina Gajda's coffin remains inside the church because the flood has taken the cemetery. The Gajda siblings attend the funeral Mass for their sister. Tadek Gajda attends the funeral after days of drinking. ks. Władysław Pająk preaches from Deuteronomy 21:1-9. The sermon frames an unsolved killing as blood-guilt shared by the nearest community until the elders answer for it. The priest looks at the village elders when the sermon turns to washed hands and innocent blood."
+"setup": "Janina Gajda's coffin remains inside the church because the flood has taken the cemetery. The Gajda siblings attend the funeral Mass for their sister. Tadek Gajda attends the funeral after days of drinking. ks. Władysław Pająk preaches from Deuteronomy 21:1-9. The sermon frames an unsolved killing as blood-guilt shared by the nearest community until the elders answer for it. The priest looks at the village elders when the sermon turns to washed hands and innocent blood.",
+"hook": "A funeral Mass beginning in the church, the coffin set before the congregation."
 },
 "events/hags-prayer.md": {
 "name": "Hag's Prayer",
 "location": "Barbara's House",
 "present": "Paraskewia Chyłak (if Alive is true)",
-"when": "setup:events/hags-prayer.md",
-"outcome": "being here at night, the players hear it themselves: a woman singing prayers out in the forest.",
-"gives": "singing-in-the-night",
+"when": "Testowo",
+"outcome": "Faint singing carried on the wind from the forest, heard at night from Barbara's House or anywhere outside in the village.",
+"gives": "*(to: players at Testowo)* hook:events/hags-prayer.md",
 "cost": "1 time",
 "requires": "Finesse",
 "changes": "Village Hostility — true",
 "type": "rule",
-"setup": "Following the singing leads to the Hołubie — Cerkiew. The ruined nave is dark but for her candles and a low fire; incense, bread, and honey are set on the stones. Paraskewia Chyłak stands over the well, singing the names of the dead; the sound carries off the bare stone. The instant she sees or hears the players, the singing stops and she is gone into the forest."
+"setup": "Following the singing leads to the Hołubie — Cerkiew. The ruined nave is dark but for her candles and a low fire; incense, bread, and honey are set on the stones. Paraskewia Chyłak stands over the well, singing the names of the dead; the sound carries off the bare stone. The instant she sees or hears the players, the singing stops and she is gone into the forest.",
+"hook": "Faint singing carried on the wind from the forest, heard at night from Barbara's House or anywhere outside in the village."
 },
 "events/holy-mass.md": {
 "name": "Holy Mass — Anti-Flood Prayer",
@@ -1385,30 +1466,33 @@
 "when": "setup:events/holy-mass.md",
 "outcome": "Janina Gajda's absence is the only gap in a full church, and the priest keeps looking at it.",
 "gives": "ciotka-missed-mass",
-"setup": "This is the first flood Mass. Tadek Gajda is absent. Janina Gajda's pew is empty.. Janina Gajda has not missed Mass in years. ks. Władysław Pająk preaches on Jonah 3:4 and the warning given to Nineveh. The sermon frames the rising water as a deadline before judgment. The priest names no specific sin. The priest tells the village the confessional will stay open after Mass all day. The priest asks the village to confess before the water comes.."
+"setup": "This is the first flood Mass. Tadek Gajda is absent. Janina Gajda's pew is empty.. Janina Gajda has not missed Mass in years. ks. Władysław Pająk preaches on Jonah 3:4 and the warning given to Nineveh. The sermon frames the rising water as a deadline before judgment. The priest names no specific sin. The priest tells the village the confessional will stay open after Mass all day. The priest asks the village to confess before the water comes..",
+"hook": "A Mass beginning in the church as the village gathers against the rising water."
 },
 "events/hunt-with-dudka.md": {
 "name": "The Hunt with Neighbour",
 "location": "The PGR Farm",
 "present": "Ryszard Dudka",
+"when": "The PGR Farm",
+"outcome": "Dudka shouldering his rifle and heading into the forest after spotting Rezeń.",
+"gives": "*(to: players at The PGR Farm)* hook:events/hunt-with-dudka.md",
 "noticed-by": "Survival",
-"when": "setup:events/hunt-with-dudka.md",
-"outcome": "Dudka's failure is not lack of skill; one hunter is too little for a smart pack in a large forest.",
-"gives": "dudka-despises-rezen",
 "cost": "1 time",
-"setup": "Dudka enters the forest to track the same wolf pack Rezeń is hunting. Dudka knows the forest trails, scrapes, and likely wolf routes. Dudka grips the rifle too tightly and pushes deeper than needed. Dudka watches the treeline and reacts to Rezeń's dogs in the distance. Dudka dismisses the idea that Paraskewia Chyłak controls the wolves."
+"setup": "Dudka enters the forest to track the same wolf pack Rezeń is hunting. Dudka knows the forest trails, scrapes, and likely wolf routes. Dudka grips the rifle too tightly and pushes deeper than needed. Dudka watches the treeline and reacts to Rezeń's dogs in the distance. Dudka dismisses the idea that Paraskewia Chyłak controls the wolves.",
+"hook": "Dudka shouldering his rifle and heading into the forest after spotting Rezeń."
 },
 "events/hunt-with-rezen.md": {
 "name": "The Hunt with Butcher",
 "location": "The PGR Farm",
 "present": "Stanisław Rezeń",
+"when": "The PGR Farm",
+"outcome": "Rezeń at the PGR gate with three dogs, starting to track from the mud.",
+"gives": "*(to: players at The PGR Farm)* hook:events/hunt-with-rezen.md",
 "noticed-by": "Survival",
-"when": "setup:events/hunt-with-rezen.md",
-"outcome": "the dogs move as an extension of Rezeń's body.",
-"gives": "rezen-hunts-wolves",
 "cost": "1 time",
 "changes": "The Hunters Cross Paths — starts",
-"setup": "Rezeń handles the dogs through small hand signals and quiet sounds. Rezeń reads wolf sign before anyone gives him instructions. Rezeń keeps a knife in his hand and turns it idly. Rezeń is calmer in the forest than in the village. Rezeń's route drifts toward the deeper forest and the old village."
+"setup": "Rezeń handles the dogs through small hand signals and quiet sounds. Rezeń reads wolf sign before anyone gives him instructions. Rezeń keeps a knife in his hand and turns it idly. Rezeń is calmer in the forest than in the village. Rezeń's route drifts toward the deeper forest and the old village.",
+"hook": "Rezeń at the PGR gate with three dogs, starting to track from the mud."
 },
 "events/hunters-cross-paths.md": {
 "name": "The Hunters Cross Paths",
@@ -1423,7 +1507,8 @@
 "type": "enum (standoff | separated)",
 "per": "world",
 "start": "standoff",
-"setup": "Dudka is hidden with his rifle trained on the wolves. The wolves are in the open and unaware of Dudka. Rezeń's three dogs crash through the brush and drive the wolves into the trees. Dudka's shot is lost. Dudka confronts Rezeń with the rifle in his hands. Rezeń goes still, keeps his knife in hand, and lets the dogs fan out around him. Both men are close enough to violence that one wrong movement can start a killing."
+"setup": "Dudka is hidden with his rifle trained on the wolves. The wolves are in the open and unaware of Dudka. Rezeń's three dogs crash through the brush and drive the wolves into the trees. Dudka's shot is lost. Dudka confronts Rezeń with the rifle in his hands. Rezeń goes still, keeps his knife in hand, and lets the dogs fan out around him. Both men are close enough to violence that one wrong movement can start a killing.",
+"hook": "A rifleman confronting a knife-wielding hunter as dogs scatter through the clearing."
 },
 "events/irena-confronts-wojewoda.md": {
 "name": "Wife Confronts the Wojewoda",
@@ -1434,7 +1519,8 @@
 "outcome": "the fight is about something buried from 1954, and Irena is trying to stop Zbigniew from speaking openly.",
 "gives": "wife-protects-husband",
 "cost": "1 composure",
-"setup": "The voices are muffled by the closed door. Irena says enough for listeners to catch that Zbigniew was there in 1954. Zbigniew answers as a man who believes the killing was necessary. Irena shifts from accusation to tactical argument. Irena uses Rezeń, the body, and 1954 to frighten Zbigniew away from public confession. By the end, the marriage closes ranks instead of breaking. The door does not open on its own."
+"setup": "The voices are muffled by the closed door. Irena says enough for listeners to catch that Zbigniew was there in 1954. Zbigniew answers as a man who believes the killing was necessary. Irena shifts from accusation to tactical argument. Irena uses Rezeń, the body, and 1954 to frighten Zbigniew away from public confession. By the end, the marriage closes ranks instead of breaking. The door does not open on its own.",
+"hook": "Raised voices are audible from inside Wojewoda's House. The door to the argument is closed. The argument is perceivable from the hall, guest room, or stairs."
 },
 "events/operator-refuses-help.md": {
 "name": "Operator Refuses Help",
@@ -1448,7 +1534,8 @@
 "type": "enum (anonymous | known)",
 "per": "world",
 "start": "anonymous",
-"setup": "The operator answers clearly despite the storm.. The line is working. The operator hears the players' request for rescue. The operator responds with procedure instead of help.. The operator never says no.. The operator never hangs up. The operator gives no name, no dispatch, no timeline, and no accountable official. The operator keeps the channel open and useless as long as the players keep talking."
+"setup": "The operator answers clearly despite the storm.. The line is working. The operator hears the players' request for rescue. The operator responds with procedure instead of help.. The operator never says no.. The operator never hangs up. The operator gives no name, no dispatch, no timeline, and no accountable official. The operator keeps the channel open and useless as long as the players keep talking.",
+"hook": "A clear voice answering from the telephone exchange while floodwater cuts the village off."
 },
 "events/pawelek-falls-ill.md": {
 "name": "Pawelek Falls Ill",
@@ -1462,7 +1549,8 @@
 "changes": "Condition — tended, no HP lost this phase",
 "requires": "Superstitious",
 "type": "rule",
-"setup": "Barbara's house is being used as a sickroom. Pawełek lies on Barbara's bed, sweating, feverish, and breathing fast.. In his fever he raves, half-words about a lady who told him not to drink and about round stones.. Barbara stays beside him with cloths, water, and unfinished prayers.. Stefania Kopacz is lucid, upright, and giving orders. Stefania has rearranged icons, candles, bread, and water around the bed in a non-Roman Catholic pattern. The mirrors are covered. Ryszard Dudka arrives within the hour with firewood, clean water, and a blanket."
+"setup": "Barbara's house is being used as a sickroom. Pawełek lies on Barbara's bed, sweating, feverish, and breathing fast.. In his fever he raves, half-words about a lady who told him not to drink and about round stones.. Barbara stays beside him with cloths, water, and unfinished prayers.. Stefania Kopacz is lucid, upright, and giving orders. Stefania has rearranged icons, candles, bread, and water around the bed in a non-Roman Catholic pattern. The mirrors are covered. Ryszard Dudka arrives within the hour with firewood, clean water, and a blanket.",
+"hook": "Word spreads through the village that Barbara's boy is sick. Players can hear the news at the The PGR Farm, The Store, or from any nearby NPC. Ryszard Dudka may come to find the committee and ask whether anyone is a doctor."
 },
 "events/priests-plea.md": {
 "name": "The Priest's Plea",
@@ -1473,7 +1561,8 @@
 "outcome": "ks. Pająk has come to a layperson for reassurance a priest is supposed to give. He is frightened.",
 "gives": "priest-smokes-carmen",
 "changes": "Crisis of Faith — +2",
-"setup": "The meeting happens in the rectory beside the church. The rectory is small, book-lined, and cold. One lamp is lit. Rain hits the window. ks. Pająk pours tea and does not drink it. His hand keeps going to his collar.. He says the flood may be divine judgment, not engineering failure. He cites Noah, Sodom, and other judgment stories.. He says a place can carry a wrong so long that heaven answers with water. He does not name the sin.. He asks whether a man who has done something unforgivable can still be forgiven.. He is asking about someone specific. He will not say who. He may be asking about himself."
+"setup": "The meeting happens in the rectory beside the church. The rectory is small, book-lined, and cold. One lamp is lit. Rain hits the window. ks. Pająk pours tea and does not drink it. His hand keeps going to his collar.. He says the flood may be divine judgment, not engineering failure. He cites Noah, Sodom, and other judgment stories.. He says a place can carry a wrong so long that heaven answers with water. He does not name the sin.. He asks whether a man who has done something unforgivable can still be forgiven.. He is asking about someone specific. He will not say who. He may be asking about himself.",
+"hook": "ks. Pająk asks the player for a private talk after Mass. Krystian Rzepka may bring a folded note from him. ks. Pająk may come to the committee billet. He does not ask twice. He does not invite the whole committee."
 },
 "events/punishment-lynch.md": {
 "name": "The Lynch",
@@ -1483,22 +1572,24 @@
 "noticed-by": "Finesse",
 "when": "setup:events/punishment-lynch.md",
 "outcome": "the dark locked office or the man on the steps shows whether Wife Confronts the Wojewoda reached Zbigniew.",
-"setup": "The mob starts at the PGR Office. The mob wants the sołtys to bless, lead, or stop the killing. If Zbigniew is braced, the office is dark and locked; he stays inside. If Zbigniew is breaking, he comes onto the steps and tries to command the crowd. If Zbigniew is breaking, his authority fails. If Dudka is Humiliated or has already acted at The Well Confrontation, the crowd can turn on Zbigniew. Otherwise, the crowd shoulders past Zbigniew and moves toward the well. The crowd moves down the road toward Hołubie. Dudka is at the front with the rifle.. The chosen target is dragged, pushed, or guarded by the mob.. If Barbara was Barbara Warns the Players, she is absent. If no player ever bonded with Barbara, she stands at Dudka's shoulder. Barbara's presence makes the mob harder to turn."
+"setup": "The mob starts at the PGR Office. The mob wants the sołtys to bless, lead, or stop the killing. If Zbigniew is braced, the office is dark and locked; he stays inside. If Zbigniew is breaking, he comes onto the steps and tries to command the crowd. If Zbigniew is breaking, his authority fails. If Dudka is Humiliated or has already acted at The Well Confrontation, the crowd can turn on Zbigniew. Otherwise, the crowd shoulders past Zbigniew and moves toward the well. The crowd moves down the road toward Hołubie. Dudka is at the front with the rifle.. The chosen target is dragged, pushed, or guarded by the mob.. If Barbara was Barbara Warns the Players, she is absent. If no player ever bonded with Barbara, she stands at Dudka's shoulder. Barbara's presence makes the mob harder to turn.",
+"hook": "During Day 6, the drinking circle turns louder and more purposeful. If a player Barbara Warns the Players, the warning gives the evening to prepare. If not warned, lamps move on the road after dark. Boots cross gravel. Dogs bark down the valley. Ryszard Dudka rifle is missing from its pegs. The movement converges on the yard in front of the office. This is perceivable anywhere in Testowo after dark. Composure: 2."
 },
 "events/rezen-takes-the-body.md": {
 "name": "Butcher Takes the Body",
 "location": "The Church, then Hołubie — Homestead Ruins",
 "present": "Stanisław Rezeń (if Alive is true)",
+"when": "Testowo",
+"outcome": "Rezeń's dogs move in the dark between the church and the forest. The dogs do not bark. A slow dragging sound comes from the church area. The church door stands open. Rain blows across the flagstones. The hook is perceivable near the village centre or by anyone awake at night.",
+"gives": "*(to: players at Testowo)* hook:events/rezen-takes-the-body.md",
 "noticed-by": "Survival",
-"when": "setup:events/rezen-takes-the-body.md",
-"outcome": "the trail is fresh, made within the last few hours, and points straight toward Hołubie — Homestead Ruins.",
-"gives": "ciotka-body-taken",
 "cost": "4 time",
 "changes": "Vigil — true",
 "type": "bool",
 "per": "world",
 "start": "false",
-"setup": "If discovered on Day 6 morning, the church door is ajar. Rain pools inside the church. The coffin at the front is open and empty.. A candle is knocked over. A wet drag trail crosses the flagstones and leaves the church. Heel-furrows in the mud lead toward Hołubie — Homestead Ruins and the well. Dog prints run alongside the drag trail.. The village is not awake yet. If players kept vigil, Rezeń enters after midnight, soaked and calm.. If players kept vigil, his dogs wait at the threshold. If no one stops him, he lifts Janina's body and carries it out."
+"setup": "If discovered on Day 6 morning, the church door is ajar. Rain pools inside the church. The coffin at the front is open and empty.. A candle is knocked over. A wet drag trail crosses the flagstones and leaves the church. Heel-furrows in the mud lead toward Hołubie — Homestead Ruins and the well. Dog prints run alongside the drag trail.. The village is not awake yet. If players kept vigil, Rezeń enters after midnight, soaked and calm.. If players kept vigil, his dogs wait at the threshold. If no one stops him, he lifts Janina's body and carries it out.",
+"hook": "Rezeń's dogs move in the dark between the church and the forest. The dogs do not bark. A slow dragging sound comes from the church area. The church door stands open. Rain blows across the flagstones. The hook is perceivable near the village centre or by anyone awake at night."
 },
 "events/search-for-the-benchmarks.md": {
 "name": "Search for the Benchmarks",
@@ -1514,7 +1605,8 @@
 "start": "0",
 "hidden-count": "each site's marker turns up at 4 points. Each search adds 1 point; a Survival read of the site adds 2. A Physique dig on that site drops it to the 2nd search; it does not stack with the read. Michał Pytlak, if he came up (Bring him to the streambed), remembers one site well enough to drop it to the 2nd as well.",
 "against-the-survey": "with reads the hunt costs 4 time and needs no specialist; without, 8, and the players cannot see that coming. That is the trade for skipping the geologist.",
-"setup": "The Solina dam crews set stamped geodetic benchmarks (repery) at the streambed col and beside Testowo years ago. The markers are old, weathered, and half-buried in undergrowth and slid earth; there is no map to their exact spots. There are two to find: one at the streambed col, one at the village edge. Both elevations are needed, so both markers must be turned up. Quartering the whole slope for markers means crossing ground nobody has walked in years; there is more than benchmarks half-swallowed in the gorse up here. The hunt is the gamble against Surveying the Streambed: no geologist and no kit, but the combing eats more cards than a clean survey unless the party can read the ground. Once found, anyone can copy the two stamped elevations off them, no skill needed."
+"setup": "The Solina dam crews set stamped geodetic benchmarks (repery) at the streambed col and beside Testowo years ago. The markers are old, weathered, and half-buried in undergrowth and slid earth; there is no map to their exact spots. There are two to find: one at the streambed col, one at the village edge. Both elevations are needed, so both markers must be turned up. Quartering the whole slope for markers means crossing ground nobody has walked in years; there is more than benchmarks half-swallowed in the gorse up here. The hunt is the gamble against Surveying the Streambed: no geologist and no kit, but the combing eats more cards than a clean survey unless the party can read the ground. Once found, anyone can copy the two stamped elevations off them, no skill needed.",
+"hook": "Choosing to comb the overgrown streambed and village edge for old survey markers."
 },
 "events/second-flood-mass.md": {
 "name": "Second Flood Mass",
@@ -1525,7 +1617,8 @@
 "outcome": "In the sermon, Habakkuk points to a settlement founded on blood, not only a personal sin.",
 "cost": "1 time",
 "changes": "Crisis of Faith — +1",
-"setup": "ks. Pająk preaches on Habakkuk 2:11-12. The sermon says a town built on blood becomes its own witness.. He says stones and beams cry out against a guilty foundation. He is no longer speaking only about 1954. Tadek Gajda sits at the back, as he does at every Mass.. He points toward the old village, the buried dead, and the valley's deeper debt. The village hears the flood framed as reckoning.. This sermon fuels the mob that forms that night."
+"setup": "ks. Pająk preaches on Habakkuk 2:11-12. The sermon says a town built on blood becomes its own witness.. He says stones and beams cry out against a guilty foundation. He is no longer speaking only about 1954. Tadek Gajda sits at the back, as he does at every Mass.. He points toward the old village, the buried dead, and the valley's deeper debt. The village hears the flood framed as reckoning.. This sermon fuels the mob that forms that night.",
+"hook": "Church bells call the village to Mass in the morning rain. Villagers gather because the flood has trapped them and fear is rising."
 },
 "events/store-robbery.md": {
 "name": "Store Robbery",
@@ -1533,7 +1626,8 @@
 "present": "Helena Rzepka (née Gajda), Halina Zając",
 "when": "Robbery suspect is committee",
 "outcome": "The penicillin is gone and the till sits untouched, and the only ones who came to her asking for that drug were the committee. She says nothing and holds the players in a long, open stare.",
-"setup": "The cabinet in the back room stands forced open and emptied. Helena knows the penicillin is gone. If the register was forced, the till is emptied too. Helena treats the theft as something to be answered. If Helena's Robbery suspect is the committee, she says little and watches the players with open suspicion. If Helena's Robbery suspect is the committee, any committee member lodging at Matrona's House is turned out: come nightfall the door is barred and their belongings are set out in front of the house."
+"setup": "The cabinet in the back room stands forced open and emptied. Helena knows the penicillin is gone. If the register was forced, the till is emptied too. Helena treats the theft as something to be answered. If Helena's Robbery suspect is the committee, she says little and watches the players with open suspicion. If Helena's Robbery suspect is the committee, any committee member lodging at Matrona's House is turned out: come nightfall the door is barred and their belongings are set out in front of the house.",
+"hook": "Word through the village the next morning that Helena's store was broken into overnight."
 },
 "events/surveying-the-streambed.md": {
 "name": "Surveying the Streambed",
@@ -1548,7 +1642,8 @@
 "type": "int",
 "per": "world",
 "start": "0",
-"setup": "The col of the dry streambed stands at the top of the far ridge, the village far below on the valley floor. Settling whether the col drains means one number: is it above or below house level. Getting it means running a level line from the col all the way down to the village, resetting the instrument every short stretch over rough ground. It is a full day's work. The geologist cannot run the instrument and hold the staff at once; every extra pair of hands shortens the day. A cooperative Michał Pytlak will come up and assist here (see Bring him to the streambed), counting as one helping hand, but only if the party brings him to this scene rather than the benchmark hunt."
+"setup": "The col of the dry streambed stands at the top of the far ridge, the village far below on the valley floor. Settling whether the col drains means one number: is it above or below house level. Getting it means running a level line from the col all the way down to the village, resetting the instrument every short stretch over rough ground. It is a full day's work. The geologist cannot run the instrument and hold the staff at once; every extra pair of hands shortens the day. A cooperative Michał Pytlak will come up and assist here (see Bring him to the streambed), counting as one helping hand, but only if the party brings him to this scene rather than the benchmark hunt.",
+"hook": "Setting up a level line at the far-ridge streambed to measure toward the village."
 },
 "events/the-disclosure.md": {
 "name": "The Disclosure",
@@ -1562,7 +1657,8 @@
 "cost": "1 time",
 "changes": "The disclosure — TBD",
 "type": "rule",
-"setup": "The scene happens in the muddy yard and square outside the sołtys office. Zbigniew called the gathering. In Form A, Zbigniew stands on the office step above the crowd. In Form A, he says Testowo will flood. In Form A, he does not say how long it was known.. In Form A, he promises compensation, relocation, and state help. If enlisted, he names the players as the ones who found the danger in time. If forced, he does not name the players. In Form A, the village still listens to him. the crowd assembled itself.. In Form B, Zbigniew is behind a shut door or forced into a yard that is turning on him. In Form B, the crowd accuses the state and the committee of lying. In Form B, Ryszard Dudka is loudest. In either form, the rising water gives the scene a time limit. In either form, the crowd keeps glancing at ks. Władysław Pająk.. Stefania Kopacz is not present; she stays in her house."
+"setup": "The scene happens in the muddy yard and square outside the sołtys office. Zbigniew called the gathering. In Form A, Zbigniew stands on the office step above the crowd. In Form A, he says Testowo will flood. In Form A, he does not say how long it was known.. In Form A, he promises compensation, relocation, and state help. If enlisted, he names the players as the ones who found the danger in time. If forced, he does not name the players. In Form A, the village still listens to him. the crowd assembled itself.. In Form B, Zbigniew is behind a shut door or forced into a yard that is turning on him. In Form B, the crowd accuses the state and the committee of lying. In Form B, Ryszard Dudka is loudest. In either form, the rising water gives the scene a time limit. In either form, the crowd keeps glancing at ks. Władysław Pająk.. Stefania Kopacz is not present; she stays in her house.",
+"hook": "Voices gather in the rain. Doors open across Testowo. People call toward the sołtys office. The sound is audible from anywhere in Testowo. By the time players arrive, most of the village is present."
 },
 "events/the-family-takes-the-house.md": {
 "name": "The Family Takes the House",
@@ -1573,7 +1669,8 @@
 "outcome": "Helena leads, Zbigniew follows her.",
 "gives": "junior-pressed-ciotka",
 "type": "rule",
-"setup": "The priest steps back and says little from here. Zbigniew Gajda takes charge of the house as family and sołtys. Helena Rzepka (née Gajda) composes the body and starts arranging the church and funeral. Ryszard Dudka stands at the fence, not crossing into the yard. The wrecked corner, burned-out candles, and open back door are as the committee found them. If the attic was opened, Zbigniew Gajda sees it, calls the contents his sister's stored junk, and closes it. Helena Rzepka (née Gajda) presses Zbigniew Gajda: old, frail, her heart gave out, God's will; find the boy and bring him home. Ryszard Dudka does not believe it but holds his tongue, as he did in 1954."
+"setup": "The priest steps back and says little from here. Zbigniew Gajda takes charge of the house as family and sołtys. Helena Rzepka (née Gajda) composes the body and starts arranging the church and funeral. Ryszard Dudka stands at the fence, not crossing into the yard. The wrecked corner, burned-out candles, and open back door are as the committee found them. If the attic was opened, Zbigniew Gajda sees it, calls the contents his sister's stored junk, and closes it. Helena Rzepka (née Gajda) presses Zbigniew Gajda: old, frail, her heart gave out, God's will; find the boy and bring him home. Ryszard Dudka does not believe it but holds his tongue, as he did in 1954.",
+"hook": "Voices and footsteps come up the path to the house. Zbigniew Gajda and Helena Rzepka (née Gajda) arrive with ks. Władysław Pająk. Ryszard Dudka comes to the fence from the next yard. Perceivable from inside the house or the yard."
 },
 "events/the-flood.md": {
 "name": "The Flood",
@@ -1584,7 +1681,8 @@
 "gives": "road-washes-out",
 "cost": "1 time",
 "changes": "Operator Refuses Help — starts; The Telegram — starts",
-"setup": "Players wake to heavy rain. The windows are grey with flood weather. The road the committee drove in on is gone under mud and flowing water.. The bridge over the creek is underwater. The creek has become a flood channel. The village is cut off. por. Witold Skowron was supposed to return yesterday and has not. There is no car, word, or explanation from him. The phone in Zbigniew Gajda's office is the only connection to the outside if the line works.. Villagers are already working with sandbags near lower houses. Michał Pytlak has PGR workers reinforcing the livestock barn. The village recognizes this as a severe flood. The water table is rising. Cellars are filling. The ground is saturated. Surveyors' stakes marking the projected flood line run across the Testowo slope, and the water is already climbing past them. The committee is outside the village's normal flood-response machinery.."
+"setup": "Players wake to heavy rain. The windows are grey with flood weather. The road the committee drove in on is gone under mud and flowing water.. The bridge over the creek is underwater. The creek has become a flood channel. The village is cut off. por. Witold Skowron was supposed to return yesterday and has not. There is no car, word, or explanation from him. The phone in Zbigniew Gajda's office is the only connection to the outside if the line works.. Villagers are already working with sandbags near lower houses. Michał Pytlak has PGR workers reinforcing the livestock barn. The village recognizes this as a severe flood. The water table is rising. Cellars are filling. The ground is saturated. Surveyors' stakes marking the projected flood line run across the Testowo slope, and the water is already climbing past them. The committee is outside the village's normal flood-response machinery..",
+"hook": "Rain has continued since Day 1. During the night before Day 3, the rain became louder. In the morning, water drums on roofs across the village. The hook is unavoidable."
 },
 "events/the-odpust.md": {
 "name": "The Odpust — Grace at the Last",
@@ -1599,7 +1697,8 @@
 "type": "bool",
 "per": "world",
 "start": "false",
-"setup": "The church is packed. Black water has reached under the door. Water spreads across the flagstones. Floor candles are drowned. ks. Pająk stands straight at the altar in clean vestments. He preaches on Isaiah: sins like scarlet becoming white. He looks at men he knows carry blood when he says scarlet.. He does not name them. He says the water is the last chance for mercy, not the end of mercy.. He offers general absolution to the congregation.. If Stanisław Rezeń lives, he attends despite skipping earlier Masses. If the players stirred the Lemko rite but did not finish Performing the Ritual, Stefania Kopacz stands and pleads against washing killers clean while the dead in the well remain unnamed."
+"setup": "The church is packed. Black water has reached under the door. Water spreads across the flagstones. Floor candles are drowned. ks. Pająk stands straight at the altar in clean vestments. He preaches on Isaiah: sins like scarlet becoming white. He looks at men he knows carry blood when he says scarlet.. He does not name them. He says the water is the last chance for mercy, not the end of mercy.. He offers general absolution to the congregation.. If Stanisław Rezeń lives, he attends despite skipping earlier Masses. If the players stirred the Lemko rite but did not finish Performing the Ritual, Stefania Kopacz stands and pleads against washing killers clean while the dead in the well remain unnamed.",
+"hook": "The church bell rings steadily through the rain. The bell is audible across Testowo. Villagers come expecting another flood Mass. The ringing signals calm rather than panic."
 },
 "events/the-report.md": {
 "name": "The Report — The State's Ending",
@@ -1612,7 +1711,8 @@
 "type": "enum (none | cover-up | suppressed | truth-survives)",
 "per": "world",
 "start": "none",
-"setup": "por. Witold Skowron reads the report in the car.. The players may have discovered the 1947 Lemko massacre. The massacre is the state's buried crime under the dam. Skowron has signaled that the state wants the massacre buried. The dam is infrastructure and a grave. The players choose what goes into the report.."
+"setup": "por. Witold Skowron reads the report in the car.. The players may have discovered the 1947 Lemko massacre. The massacre is the state's buried crime under the dam. Skowron has signaled that the state wants the massacre buried. The dam is infrastructure and a grave. The players choose what goes into the report..",
+"hook": "Skowron waiting by the police car, asking the departing party for their report."
 },
 "events/the-ritual.md": {
 "name": "Performing the Ritual",
@@ -1622,7 +1722,8 @@
 "when": "ritual materials visible",
 "outcome": "The Lemko rite uses fire, incense, offerings, and prayer for unquiet dead.",
 "gives": "hag-tends-the-well, dead-never-mourned",
-"setup": "The Form is Paraskewia Chyłak's arrangement of icons, candles, herbs, incense, bread, water, and prayer materials. The Words are the Lemko panakhyda held by Stefania Kopacz. The Truth is the players naming the dead and saying what happened to them. The 1947 Lemko dead are in the well: Wasyl, Anna, Semen and Kateryna Koval; Petro and Pelagia Hnat; Mychajło Szafran; Fedir Mac; Olena Krywda; Hryhorij Pyś; Stepan Kiczura; Anastasija Sowa. See Hag's List of the Dead and the roster. Dmytro Kosach is named with the 1947 dead. Edward Barnaś is the 1954 lynch victim in the well. Janina Gajda is named only if Butcher Takes the Body. Paraskewia Chyłak is named only if she died at The Well Confrontation and her body was dropped in the well. Stanisław Rezeń is named only if he died at The Well Confrontation and entered the well. Hania Barnaś is not named as dead unless the players choose wrongly. kpt. Henryk Ćwiek is not named as one of the well dead. Barbara Kopacz must bring Stefania Kopacz if Babcia is physically present. If Paraskewia Chyłak is present, she kneels at the rim and supplies the form. If Paraskewia Chyłak is dead, the players use her materials and memory. If Stefania Kopacz is present, she speaks the panakhyda.. At least one living voice must speak the names and the truth.. ks. Władysław Pająk does not gatekeep the rite; see spiritual-endings.md."
+"setup": "The Form is Paraskewia Chyłak's arrangement of icons, candles, herbs, incense, bread, water, and prayer materials. The Words are the Lemko panakhyda held by Stefania Kopacz. The Truth is the players naming the dead and saying what happened to them. The 1947 Lemko dead are in the well: Wasyl, Anna, Semen and Kateryna Koval; Petro and Pelagia Hnat; Mychajło Szafran; Fedir Mac; Olena Krywda; Hryhorij Pyś; Stepan Kiczura; Anastasija Sowa. See Hag's List of the Dead and the roster. Dmytro Kosach is named with the 1947 dead. Edward Barnaś is the 1954 lynch victim in the well. Janina Gajda is named only if Butcher Takes the Body. Paraskewia Chyłak is named only if she died at The Well Confrontation and her body was dropped in the well. Stanisław Rezeń is named only if he died at The Well Confrontation and entered the well. Hania Barnaś is not named as dead unless the players choose wrongly. kpt. Henryk Ćwiek is not named as one of the well dead. Barbara Kopacz must bring Stefania Kopacz if Babcia is physically present. If Paraskewia Chyłak is present, she kneels at the rim and supplies the form. If Paraskewia Chyłak is dead, the players use her materials and memory. If Stefania Kopacz is present, she speaks the panakhyda.. At least one living voice must speak the names and the truth.. ks. Władysław Pająk does not gatekeep the rite; see spiritual-endings.md.",
+"hook": "Gathering ritual materials and arranging them at the well or cerkiew."
 },
 "events/the-seal-break.md": {
 "name": "The Seal-Break — The Priest Names the Dead",
@@ -1635,7 +1736,8 @@
 "cost": "1 composure",
 "changes": "The seal break — TBD",
 "type": "rule",
-"setup": "The church is packed. Black water is under the door and spreading over the flagstones. Floor candles are drowning. ks. Władysław Pająk sits on the altar table with bimber. His collar is off.. His vestments are half-undone. He is drunk. A Carmen cigarette burns in his hand; he smokes openly in the church he once forbade it in.. He says he has decided to stop lying.. He calls the water judgment over a valley built on a grave.. He names the acts from the 1954 lynch.. He names Zbigniew Gajda, Tadek Gajda, and Stanisław Rezeń. He grieves Janina Gajda as the source of years of confession. He does not name Helena Rzepka (née Gajda). His account reaches from the 1954 lynch back to the old village and the state cover-up."
+"setup": "The church is packed. Black water is under the door and spreading over the flagstones. Floor candles are drowning. ks. Władysław Pająk sits on the altar table with bimber. His collar is off.. His vestments are half-undone. He is drunk. A Carmen cigarette burns in his hand; he smokes openly in the church he once forbade it in.. He says he has decided to stop lying.. He calls the water judgment over a valley built on a grave.. He names the acts from the 1954 lynch.. He names Zbigniew Gajda, Tadek Gajda, and Stanisław Rezeń. He grieves Janina Gajda as the source of years of confession. He does not name Helena Rzepka (née Gajda). His account reaches from the 1954 lynch back to the old village and the state cover-up.",
+"hook": "The church bell rings wrong and too long. The bell stops mid-strike. The sound is audible across Testowo."
 },
 "events/the-telegram.md": {
 "name": "The Telegram",
@@ -1646,7 +1748,8 @@
 "outcome": "he keeps his face still, but Barnaś is a man he helped drown; a held breath, a beat too long before he hands the receiver back.",
 "gives": "telegram-points-to-barnas-yard",
 "type": "rule",
-"setup": "The operator stops the call to relay an incoming telegram for this number. She reads it flat and terse, per-word with STOP between lines, like any wire. It is addressed to the committee and signed BARNAŚ. Content: service papers and uniform buried under the old garden bed behind his house; take them. Edward Barnaś has been dead since 1954 and never knew the committee. The cache is in the backyard of Ciotka's House, where Janina Gajda now lives. The only working phone is in Zbigniew Gajda's office; if he is in the room, he hears the name read aloud. The operator names no sending office and does not repeat the wire."
+"setup": "The operator stops the call to relay an incoming telegram for this number. She reads it flat and terse, per-word with STOP between lines, like any wire. It is addressed to the committee and signed BARNAŚ. Content: service papers and uniform buried under the old garden bed behind his house; take them. Edward Barnaś has been dead since 1954 and never knew the committee. The cache is in the backyard of Ciotka's House, where Janina Gajda now lives. The only working phone is in Zbigniew Gajda's office; if he is in the room, he hears the name read aloud. The operator names no sending office and does not repeat the wire.",
+"hook": "Mid-call, the operator breaks off procedure to read out a telegram just in for this number."
 },
 "events/the-village-drowns.md": {
 "name": "The Village Drowns",
@@ -1654,7 +1757,8 @@
 "type": "bool",
 "per": "world",
 "start": "false",
-"setup": "TBD."
+"setup": "TBD.",
+"hook": "The water reaching the first houses of Testowo."
 },
 "events/the-village-forgets.md": {
 "name": "The Village Forgets",
@@ -1662,32 +1766,36 @@
 "type": "bool",
 "per": "world",
 "start": "false",
-"setup": "TBD."
+"setup": "TBD.",
+"hook": "The village going quiet about the dead, one more time."
 },
 "events/well-confrontation.md": {
 "name": "The Well Confrontation",
 "location": "Hołubie — Homestead Ruins",
 "present": "Paraskewia Chyłak, Stanisław Rezeń, Ryszard Dudka (if Warned about the well is true)",
+"when": "Hołubie — Homestead Ruins",
+"outcome": "From the ruins: Lemko chanting carries across the well clearing. From the forest path: the players hear dogs and a man's footsteps ahead.",
+"gives": "*(to: players at Hołubie — Homestead Ruins)* hook:events/well-confrontation.md",
 "noticed-by": "Culture",
-"when": "setup:events/well-confrontation.md",
-"outcome": "the candles, icon, bread, incense, and chant form a Lemko rite for the dead, not witchcraft.",
-"gives": "hag-tends-the-well",
 "cost": "2 composure",
 "changes": "Dogs occupied — true",
 "requires": "Physique OR Violence",
 "type": "bool",
 "per": "world",
 "start": "false",
-"setup": "Paraskewia Chyłak kneels at the well rim.. Beeswax candles form a semicircle. An icon of the Theotokos faces the water. Bread, a cloth, water, herbs, and church incense are set near the rim. She chants in Lemko.. Stanisław Rezeń arrives from the village path with three dogs. He carries a dead wolf. He drops the wolf near the well.. He tells Paraskewia to go home. She recognizes him as the auxiliary from 1947. He does not recognize her. He circles her with a knife in his hand.. The dogs watch the players' hands.. If no one intervenes, he kills her, drops her and the wolf into the well, whistles the dogs, and leaves."
+"setup": "Paraskewia Chyłak kneels at the well rim.. Beeswax candles form a semicircle. An icon of the Theotokos faces the water. Bread, a cloth, water, herbs, and church incense are set near the rim. She chants in Lemko.. Stanisław Rezeń arrives from the village path with three dogs. He carries a dead wolf. He drops the wolf near the well.. He tells Paraskewia to go home. She recognizes him as the auxiliary from 1947. He does not recognize her. He circles her with a knife in his hand.. The dogs watch the players' hands.. If no one intervenes, he kills her, drops her and the wolf into the well, whistles the dogs, and leaves.",
+"hook": "From the ruins: Lemko chanting carries across the well clearing. From the forest path: the players hear dogs and a man's footsteps ahead."
 },
 "events/wojewoda-confronts-butcher.md": {
 "name": "Wojewoda Confronts the Butcher",
 "location": "The Store",
 "present": "Zbigniew Gajda, Stanisław Rezeń",
+"when": "The Store",
+"outcome": "Players near the village centre see Zbigniew walking toward Rezeń. His pace is controlled and direct.",
+"gives": "*(to: players at The Store)* hook:events/wojewoda-confronts-butcher.md",
 "noticed-by": "Finesse",
-"when": "setup:events/wojewoda-confronts-butcher.md",
-"outcome": "the sołtys gives an order and the butcher ignores it.",
-"setup": "Zbigniew confronts Rezeń in public. Zbigniew orders him to go home. Rezeń does not comply.. Rezeń smokes and handles his knife. Rezeń watches Zbigniew without deference. Zbigniew repeats the order. Rezeń stays. Zbigniew leaves first. Villagers who see it understand that Zbigniew failed to move him."
+"setup": "Zbigniew confronts Rezeń in public. Zbigniew orders him to go home. Rezeń does not comply.. Rezeń smokes and handles his knife. Rezeń watches Zbigniew without deference. Zbigniew repeats the order. Rezeń stays. Zbigniew leaves first. Villagers who see it understand that Zbigniew failed to move him.",
+"hook": "Players near the village centre see Zbigniew walking toward Rezeń. His pace is controlled and direct."
 },
 "events/wojewodas-ask.md": {
 "name": "Wojewoda's Ask",
@@ -1698,28 +1806,31 @@
 "outcome": "Zbigniew is asking for the villagers, not for his own compensation.",
 "cost": "1 time",
 "gives": "barbara-has-help",
-"setup": "Zbigniew closes the office door. State compensation follows deeds and recorded ownership. PGR labourers live in PGR housing. Money for PGR housing goes to the state, not the people living there. Zbigniew asks the committee to record those houses as the villagers' own. He does not name Barbara Kopacz's brick house. He does not name Janina Gajda's cottage. The false record would defraud the state and pay villagers who are about to lose everything."
+"setup": "Zbigniew closes the office door. State compensation follows deeds and recorded ownership. PGR labourers live in PGR housing. Money for PGR housing goes to the state, not the people living there. Zbigniew asks the committee to record those houses as the villagers' own. He does not name Barbara Kopacz's brick house. He does not name Janina Gajda's cottage. The false record would defraud the state and pay villagers who are about to lose everything.",
+"hook": "Zbigniew Gajda closing the PGR office door to speak with the committee privately."
 },
 "events/wolf-attack.md": {
 "name": "The Wolf Attack",
 "location": "The PGR Farm",
 "present": "Michał Pytlak, Zbigniew Gajda, Ryszard Dudka",
+"when": "The PGR Farm",
+"outcome": "Workers gather at the pen at dawn. Crows work the carcass. The dead animal is visible from the farm approach.",
+"gives": "*(to: players at The PGR Farm)* hook:events/wolf-attack.md",
 "noticed-by": "Survival",
-"when": "setup:events/wolf-attack.md",
-"outcome": "one animal worked confidently inside a known pen.",
-"gives": "dudka-failed-wolf-hunt",
-"setup": "A sheep lies dead in the pen.. Its throat is torn. Blood is in the mud. Drag marks lead toward the treeline. The other animals crowd in the far corner. Zbigniew Gajda counts the damage.. Ryszard Dudka stands nearby with his rifle. Zbigniew blames Dudka in front of the workers.. Zbigniew tells Michał Pytlak he will handle it.. Zbigniew later sends Tadek Gajda to the edge house with the request that Rezeń deal with the wolves; see Wujas Visits the Butcher."
+"setup": "A sheep lies dead in the pen.. Its throat is torn. Blood is in the mud. Drag marks lead toward the treeline. The other animals crowd in the far corner. Zbigniew Gajda counts the damage.. Ryszard Dudka stands nearby with his rifle. Zbigniew blames Dudka in front of the workers.. Zbigniew tells Michał Pytlak he will handle it.. Zbigniew later sends Tadek Gajda to the edge house with the request that Rezeń deal with the wolves; see Wujas Visits the Butcher.",
+"hook": "Workers gather at the pen at dawn. Crows work the carcass. The dead animal is visible from the farm approach."
 },
 "events/wujas-visits-butcher.md": {
 "name": "Wujas Visits the Butcher",
 "location": "Butcher's House",
 "present": "Tadek Gajda, Stanisław Rezeń",
+"when": "Testowo",
+"outcome": "Players may see Tadek walking toward the village edge. Villagers may mention that he goes that way sometimes.",
+"gives": "*(to: players at Testowo)* hook:events/wujas-visits-butcher.md",
 "noticed-by": "Finesse",
-"when": "setup:events/wujas-visits-butcher.md",
-"outcome": "Tadek visits the edge house regularly.",
 "cost": "1 time",
-"gives": "rezen-hunts-wolves",
-"setup": "Tadek walks to the edge house. He brings cigarettes or a butchering job. He stays at the threshold for less than half an hour.. He does not go inside. Rezeń takes what Tadek brings. The exchange is functional, not friendly. Villagers treat the visits as drinking-buddy business. Rezeń does not drink. Zbigniew does not visit Rezeń himself."
+"setup": "Tadek walks to the edge house. He brings cigarettes or a butchering job. He stays at the threshold for less than half an hour.. He does not go inside. Rezeń takes what Tadek brings. The exchange is functional, not friendly. Villagers treat the visits as drinking-buddy business. Rezeń does not drink. Zbigniew does not visit Rezeń himself.",
+"hook": "Players may see Tadek walking toward the village edge. Villagers may mention that he goes that way sometimes."
 },
 "events/arrival/arrival.md": {
 "name": "Arrival — On the Road",
@@ -1729,7 +1840,8 @@
 "outcome": "\"The morning of the fourth day. I'll take your report then. Anything before that goes through the sołtys's telephone.\"",
 "gives": "officer-returns-on-day-4",
 "changes": "Arrival — The Walk — starts",
-"setup": "The van stops on the muddy road in Testowo. Morning, still raining. Zbigniew Gajda waits at the roadside, cap in hand. por. Witold Skowron gets out, shakes his hand, and presents the committee: \"Observers, from the public. Look after them.\". kpr. Zdzisław Wrona drags the crate out of the back and sets it down in the mud. por. Witold Skowron is not staying. He will be back in Lesko tonight. Zbigniew opens an umbrella: \"Come, my house is up the road. There's tea.\"."
+"setup": "The van stops on the muddy road in Testowo. Morning, still raining. Zbigniew Gajda waits at the roadside, cap in hand. por. Witold Skowron gets out, shakes his hand, and presents the committee: \"Observers, from the public. Look after them.\". kpr. Zdzisław Wrona drags the crate out of the back and sets it down in the mud. por. Witold Skowron is not staying. He will be back in Lesko tonight. Zbigniew opens an umbrella: \"Come, my house is up the road. There's tea.\".",
+"hook": "The Milicja van stopping on the muddy road as Zbigniew Gajda comes forward to meet the committee."
 },
 "events/arrival/in-the-office.md": {
 "name": "Arrival — In the Office",
@@ -1744,7 +1856,8 @@
 "type": "enum (listening | joined)",
 "per": "world",
 "start": "listening",
-"setup": "Zbigniew Gajda's office is clean and organised. A heavy bakelite phone sits on the office desk. Ledgers and maps are visible in the office. Tea is on the table. Zbigniew Gajda presents himself as cooperative and helpful.. The door to the rest of the house stands ajar; a floorboard creaks behind it.."
+"setup": "Zbigniew Gajda's office is clean and organised. A heavy bakelite phone sits on the office desk. Ledgers and maps are visible in the office. Tea is on the table. Zbigniew Gajda presents himself as cooperative and helpful.. The door to the rest of the house stands ajar; a floorboard creaks behind it..",
+"hook": "Zbigniew Gajda holding open the door of his office for the committee."
 },
 "events/arrival/the-walk.md": {
 "name": "Arrival — The Walk",
@@ -1756,18 +1869,20 @@
 "outcome": "The man with the bottle smokes Sport, the cheapest there is.",
 "gives": "tadek-smokes-cheapest",
 "changes": "Arrival — In the Office — starts",
-"setup": "The road climbs between low wooden houses. Zbigniew walks ahead under his umbrella; people in doorways nod to him and look at you. Outside a shop, three men drink beer in the rain. A fourth, unshaven, raises his bottle at you and grins. Zbigniew does not look at him. At the edge of the village stands the only red-brick house. A young woman hangs washing under its eaves, a small boy at her skirt. She watches you pass and does not wave. Over the fence next door, a big man splitting wood rests his axe and stares until you are past. On the hill above the roofs stands the church: fresh boards, a sound roof, firewood stacked high.. The road ends at a two-storey house with a fenced yard. Zbigniew holds the door open."
+"setup": "The road climbs between low wooden houses. Zbigniew walks ahead under his umbrella; people in doorways nod to him and look at you. Outside a shop, three men drink beer in the rain. A fourth, unshaven, raises his bottle at you and grins. Zbigniew does not look at him. At the edge of the village stands the only red-brick house. A young woman hangs washing under its eaves, a small boy at her skirt. She watches you pass and does not wave. Over the fence next door, a big man splitting wood rests his axe and stares until you are past. On the hill above the roofs stands the church: fresh boards, a sound roof, firewood stacked high.. The road ends at a two-storey house with a fenced yard. Zbigniew holds the door open.",
+"hook": "Zbigniew Gajda walking ahead of the committee up the village road under his umbrella."
 },
 "events/ciotka-found-dead/ciotka-found-dead.md": {
 "name": "Ciotka Found Dead — Outside",
 "location": "Testowo",
 "present": "ks. Władysław Pająk",
-"when": "setup:events/ciotka-found-dead/ciotka-found-dead.md",
-"outcome": "Some cigarette butts lie just outside the door, hand-pinched and rain-weathered, dropped a day or more before she died. You cannot tell the brand at a glance, but bagged they could be compared.",
-"gives": "ciotka-missed-mass, something-happened-to-ciotka",
+"when": "Ciotka's House",
+"outcome": "Janina Gajda's front door is locked; the back door stands open.",
+"gives": "*(to: players at Ciotka's House)* hook:events/ciotka-found-dead/ciotka-found-dead.md",
 "cost": "1 time",
 "changes": "Ciotka Found Dead — The House — starts",
-"setup": "ks. Władysław Pająk stands at Janina Gajda's front door, knocking. No one answers. The front door is locked, both locks turned, as she always kept it. The back door stands open. Cigarette butts lie scattered just outside the door.."
+"setup": "ks. Władysław Pająk stands at Janina Gajda's front door, knocking. No one answers. The front door is locked, both locks turned, as she always kept it. The back door stands open. Cigarette butts lie scattered just outside the door..",
+"hook": "Janina Gajda's front door is locked; the back door stands open."
 },
 "events/ciotka-found-dead/the-house.md": {
 "name": "Ciotka Found Dead — The House",
@@ -1780,7 +1895,8 @@
 "cost": "1 composure",
 "changes": "Ciotka Found Dead — The Kitchen — starts",
 "type": "rule",
-"setup": "The house is quiet. ks. Władysław Pająk is here, come to look in on Janina; he helps the committee where he can and flinches only at her body being disturbed. The icons remain on the walls. A hatch to the attic is set in the ceiling, a short ladder folded beside it. The candles have burned out and have been out for hours. The house remains obsessively ordered. One corner tells another story: furniture is smashed, a shelf torn down, crockery broken across the floor. A mirror in the corridor is shattered. Nothing has been ransacked. Nothing has been stolen. Edek Barnaś's room is empty.. Edek Barnaś's mattress is cold. There is no sign of forced entry. The wrecked corner reads like a violent struggle. There is no weapon. A kitchen chair lies on its side among the wreckage."
+"setup": "The house is quiet. ks. Władysław Pająk is here, come to look in on Janina; he helps the committee where he can and flinches only at her body being disturbed. The icons remain on the walls. A hatch to the attic is set in the ceiling, a short ladder folded beside it. The candles have burned out and have been out for hours. The house remains obsessively ordered. One corner tells another story: furniture is smashed, a shelf torn down, crockery broken across the floor. A mirror in the corridor is shattered. Nothing has been ransacked. Nothing has been stolen. Edek Barnaś's room is empty.. Edek Barnaś's mattress is cold. There is no sign of forced entry. The wrecked corner reads like a violent struggle. There is no weapon. A kitchen chair lies on its side among the wreckage.",
+"hook": "The inside of Janina Gajda's house, cold and silent."
 },
 "events/ciotka-found-dead/the-kitchen.md": {
 "name": "Ciotka Found Dead — The Kitchen",
@@ -1794,18 +1910,21 @@
 "requires": "Medicine",
 "cost": "1 composure",
 "changes": "Contempt for the dead — the committee showed contempt for Janina's body",
-"setup": "Janina Gajda lies on the kitchen floor. Janina Gajda is on her back, half-turned. Janina Gajda's eyes are open.. A fresh, dark bruise rings one of Janina Gajda's wrists. Apart from the bruise, there is no wound and no blood. Janina Gajda's hands are at her sides. A fallen rosary is near one half-curled hand. A glass with a finger of water sits on the table. Two used coffee cups sit on the table.. A small brown pill bottle lies on its side on the table with the cap off."
+"setup": "Janina Gajda lies on the kitchen floor. Janina Gajda is on her back, half-turned. Janina Gajda's eyes are open.. A fresh, dark bruise rings one of Janina Gajda's wrists. Apart from the bruise, there is no wound and no blood. Janina Gajda's hands are at her sides. A fallen rosary is near one half-curled hand. A glass with a finger of water sits on the table. Two used coffee cups sit on the table.. A small brown pill bottle lies on its side on the table with the cap off.",
+"hook": "The kitchen door, and the smell of candles burned out hours ago."
 },
 "events/committee-visit/committee-visit.md": {
 "name": "The Committee Visit",
 "location": "Testowo",
 "when": "setup:events/committee-visit/committee-visit.md",
-"outcome": "The first morning begins with the drive in.",
+"outcome": "A Milicja van winding down the mountain road through the rain.",
+"gives": "*(to: every player)* hook:events/the-car-in/the-car-in.md",
 "changes": "Day 1 — starts; Day 1 — Morning — starts; The Car In — starts; Phase cards — 12",
 "type": "int",
 "per": "world",
 "start": "12",
-"setup": "The committee sets out for the valley.."
+"setup": "The committee sets out for the valley..",
+"hook": "TBD."
 },
 "events/the-car-in/the-car-in.md": {
 "name": "The Car In",
@@ -1816,7 +1935,8 @@
 "outcome": "por. Witold Skowron frames the work narrowly and signals that old grievances and local legends stay out of the official report.",
 "gives": "officer-warning",
 "changes": "The Car In — The Draft — starts",
-"setup": "Rain drums on the roof of a Milicja Nysa winding down a mountain road. kpr. Zdzisław Wrona drives in silence. por. Witold Skowron sits beside him with a stack of folders on his knee. You volunteered to sit on a state committee as representatives of the public, independent observers in an important government matter. The letter said nothing more. Below, the road drops into a valley none of you has a name for. One folder on his knee carries a different stamp: AGH, Faculty of Geological Prospecting. por. Witold Skowron turns in his seat. He chooses his words carefully, and he will talk if you ask."
+"setup": "Rain drums on the roof of a Milicja Nysa winding down a mountain road. kpr. Zdzisław Wrona drives in silence. por. Witold Skowron sits beside him with a stack of folders on his knee. You volunteered to sit on a state committee as representatives of the public, independent observers in an important government matter. The letter said nothing more. Below, the road drops into a valley none of you has a name for. One folder on his knee carries a different stamp: AGH, Faculty of Geological Prospecting. por. Witold Skowron turns in his seat. He chooses his words carefully, and he will talk if you ask.",
+"hook": "A Milicja van winding down the mountain road through the rain."
 },
 "events/the-car-in/the-draft.md": {
 "name": "The Car In — The Draft",
@@ -1828,7 +1948,8 @@
 "type": "bool",
 "per": "world",
 "start": "false",
-"setup": "por. Witold Skowron holds a dossier on each committee member. He wants to hear each of them say who they are."
+"setup": "por. Witold Skowron holds a dossier on each committee member. He wants to hear each of them say who they are.",
+"hook": "por. Witold Skowron turning in his seat with an open dossier on his knee."
 },
 "events/the-car-in/the-drive.md": {
 "name": "The Car In — The Drive",
@@ -1845,7 +1966,8 @@
 "type": "enum (vigilant | distracted | permission)",
 "per": "world",
 "start": "vigilant",
-"setup": "The ride is long: rain, switchbacks, silence. kpr. Zdzisław Wrona says it will take a while yet. A bundle of forms lies on the bench beside you. por. Witold Skowron tells you to get familiar with them before you arrive. kpr. Zdzisław Wrona keeps patting his coat and glancing at por. Witold Skowron, as if he has lost something he should not have. Every few bends, glass clinks somewhere in the back.. kpr. Zdzisław Wrona smokes one cigarette off the last; a crumpled packet sits on the dashboard. Behind the last bench, something heavy slides and bangs against the rear doors on every bend. A folded road map lies on the dashboard in front of por. Witold Skowron. Ahead, the road forks; the signpost lies face down in the ditch. kpr. Zdzisław Wrona swings left without slowing."
+"setup": "The ride is long: rain, switchbacks, silence. kpr. Zdzisław Wrona says it will take a while yet. A bundle of forms lies on the bench beside you. por. Witold Skowron tells you to get familiar with them before you arrive. kpr. Zdzisław Wrona keeps patting his coat and glancing at por. Witold Skowron, as if he has lost something he should not have. Every few bends, glass clinks somewhere in the back.. kpr. Zdzisław Wrona smokes one cigarette off the last; a crumpled packet sits on the dashboard. Behind the last bench, something heavy slides and bangs against the rear doors on every bend. A folded road map lies on the dashboard in front of por. Witold Skowron. Ahead, the road forks; the signpost lies face down in the ditch. kpr. Zdzisław Wrona swings left without slowing.",
+"hook": "The Milicja van dropping off the pass into the valley, wipers working against the rain."
 },
 "events/committee-visit/day-1/day-1-afternoon.md": {
 "name": "Day 1 — Afternoon",
@@ -1854,16 +1976,19 @@
 "when": "Phase cards is 0",
 "outcome": "The afternoon is spent.",
 "changes": "Day 1 — Afternoon — ends; Day 1 — Evening — starts; Phase cards — 12",
-"setup": "The afternoon of Day 1 begins."
+"setup": "The afternoon of Day 1 begins.",
+"hook": "TBD."
 },
 "events/committee-visit/day-1/day-1-evening.md": {
 "name": "Day 1 — Evening",
 "part-of": "Day 1",
 "location": "Testowo",
 "when": "setup:events/committee-visit/day-1/day-1-evening.md",
-"outcome": "Dinner at Wojewoda's begins.",
+"outcome": "Zofia Pytlak sets the table. Food smell reaches the office or upstairs rooms.",
+"gives": "*(to: every player)* hook:events/dinner.md",
 "changes": "Dinner at Wojewoda's — starts",
-"setup": "The evening of Day 1 begins.."
+"setup": "The evening of Day 1 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-1/day-1-morning.md": {
 "name": "Day 1 — Morning",
@@ -1872,7 +1997,8 @@
 "when": "Phase cards is 0",
 "outcome": "The morning is spent.",
 "changes": "Day 1 — Morning — ends; Day 1 — Afternoon — starts; Phase cards — 12",
-"setup": "The morning of Day 1 begins."
+"setup": "The morning of Day 1 begins.",
+"hook": "TBD."
 },
 "events/committee-visit/day-1/day-1-night.md": {
 "name": "Day 1 — Night",
@@ -1881,13 +2007,15 @@
 "when": "setup:events/committee-visit/day-1/day-1-night.md",
 "outcome": "Hag's Prayer begins.",
 "changes": "Hag's Prayer — starts",
-"setup": "The night of Day 1 begins.."
+"setup": "The night of Day 1 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-1/day-1.md": {
 "name": "Day 1",
 "part-of": "The Committee Visit",
 "location": "Testowo",
-"setup": "TBD."
+"setup": "TBD.",
+"hook": "TBD."
 },
 "events/committee-visit/day-2/day-2-afternoon.md": {
 "name": "Day 2 — Afternoon",
@@ -1896,7 +2024,8 @@
 "when": "setup:events/committee-visit/day-2/day-2-afternoon.md",
 "outcome": "Wujas Visits the Butcher begins.",
 "changes": "Wujas Visits the Butcher — starts",
-"setup": "The afternoon of Day 2 begins.."
+"setup": "The afternoon of Day 2 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-2/day-2-evening.md": {
 "name": "Day 2 — Evening",
@@ -1905,7 +2034,8 @@
 "when": "Phase cards is 0",
 "outcome": "The evening is spent.",
 "changes": "Day 2 — Evening — ends; Day 2 — Night — starts; Phase cards — 12",
-"setup": "The evening of Day 2 begins."
+"setup": "The evening of Day 2 begins.",
+"hook": "TBD."
 },
 "events/committee-visit/day-2/day-2-morning.md": {
 "name": "Day 2 — Morning",
@@ -1914,7 +2044,9 @@
 "when": "setup:events/committee-visit/day-2/day-2-morning.md",
 "outcome": "The Wolf Attack begins.",
 "changes": "The Wolf Attack — starts",
-"setup": "The morning of Day 2 begins.."
+"gives": "*(to: every player)* hook:events/store-robbery.md",
+"setup": "The morning of Day 2 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-2/day-2-night.md": {
 "name": "Day 2 — Night",
@@ -1923,13 +2055,15 @@
 "when": "setup:events/committee-visit/day-2/day-2-night.md",
 "outcome": "Hag's Prayer begins.",
 "changes": "Hag's Prayer — starts",
-"setup": "The night of Day 2 begins.."
+"setup": "The night of Day 2 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-2/day-2.md": {
 "name": "Day 2",
 "part-of": "The Committee Visit",
 "location": "Testowo",
-"setup": "TBD."
+"setup": "TBD.",
+"hook": "TBD."
 },
 "events/committee-visit/day-3/day-3-afternoon.md": {
 "name": "Day 3 — Afternoon",
@@ -1938,25 +2072,30 @@
 "when": "Phase cards is 0",
 "outcome": "The afternoon is spent.",
 "changes": "Day 3 — Afternoon — ends; Day 3 — Evening — starts; Phase cards — 12",
-"setup": "The afternoon of Day 3 begins."
+"setup": "The afternoon of Day 3 begins.",
+"hook": "TBD."
 },
 "events/committee-visit/day-3/day-3-evening.md": {
 "name": "Day 3 — Evening",
 "part-of": "Day 3",
 "location": "Testowo",
 "when": "setup:events/committee-visit/day-3/day-3-evening.md",
-"outcome": "Pawelek Falls Ill begins.",
+"outcome": "Word spreads through the village that Barbara's boy is sick. Players can hear the news at the The PGR Farm, The Store, or from any nearby NPC. Ryszard Dudka may come to find the committee and ask whether anyone is a doctor.",
+"gives": "*(to: every player)* hook:events/pawelek-falls-ill.md",
 "changes": "Pawelek Falls Ill — starts",
-"setup": "The evening of Day 3 begins.."
+"setup": "The evening of Day 3 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-3/day-3-morning.md": {
 "name": "Day 3 — Morning",
 "part-of": "Day 3",
 "location": "Testowo",
 "when": "setup:events/committee-visit/day-3/day-3-morning.md",
-"outcome": "The Flood begins.",
+"outcome": "Rain has continued since Day 1. During the night before Day 3, the rain became louder. In the morning, water drums on roofs across the village. The hook is unavoidable.",
+"gives": "*(to: every player)* hook:events/the-flood.md",
 "changes": "The Flood — starts",
-"setup": "The morning of Day 3 begins.."
+"setup": "The morning of Day 3 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-3/day-3-night.md": {
 "name": "Day 3 — Night",
@@ -1965,22 +2104,26 @@
 "when": "setup:events/committee-visit/day-3/day-3-night.md",
 "outcome": "Hag's Prayer begins.",
 "changes": "Hag's Prayer — starts",
-"setup": "The night of Day 3 begins.."
+"setup": "The night of Day 3 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-3/day-3.md": {
 "name": "Day 3",
 "part-of": "The Committee Visit",
 "location": "Testowo",
-"setup": "TBD."
+"setup": "TBD.",
+"hook": "TBD."
 },
 "events/committee-visit/day-4/day-4-afternoon.md": {
 "name": "Day 4 — Afternoon",
 "part-of": "Day 4",
 "location": "Testowo",
 "when": "setup:events/committee-visit/day-4/day-4-afternoon.md and Bond: Priest",
-"outcome": "The Priest's Plea begins.",
+"outcome": "ks. Pająk asks the player for a private talk after Mass. Krystian Rzepka may bring a folded note from him. ks. Pająk may come to the committee billet. He does not ask twice. He does not invite the whole committee.",
+"gives": "*(to: holder of Bond)* hook:events/priests-plea.md",
 "changes": "The Priest's Plea — starts",
-"setup": "The afternoon of Day 4 begins.."
+"setup": "The afternoon of Day 4 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-4/day-4-evening.md": {
 "name": "Day 4 — Evening",
@@ -1989,16 +2132,19 @@
 "when": "Phase cards is 0",
 "outcome": "The evening is spent.",
 "changes": "Day 4 — Evening — ends; Day 4 — Night — starts; Phase cards — 12",
-"setup": "The evening of Day 4 begins."
+"setup": "The evening of Day 4 begins.",
+"hook": "TBD."
 },
 "events/committee-visit/day-4/day-4-morning.md": {
 "name": "Day 4 — Morning",
 "part-of": "Day 4",
 "location": "Testowo",
 "when": "setup:events/committee-visit/day-4/day-4-morning.md",
-"outcome": "Holy Mass — Anti-Flood Prayer begins.",
+"outcome": "A Mass beginning in the church as the village gathers against the rising water.",
+"gives": "*(to: every player)* hook:events/holy-mass.md",
 "changes": "Holy Mass — Anti-Flood Prayer — starts",
-"setup": "The morning of Day 4 begins.."
+"setup": "The morning of Day 4 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-4/day-4-night.md": {
 "name": "Day 4 — Night",
@@ -2007,13 +2153,15 @@
 "when": "setup:events/committee-visit/day-4/day-4-night.md and Village Hostility is false",
 "outcome": "The Well Confrontation begins.",
 "changes": "The Well Confrontation — starts",
-"setup": "The night of Day 4 begins.."
+"setup": "The night of Day 4 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-4/day-4.md": {
 "name": "Day 4",
 "part-of": "The Committee Visit",
 "location": "Testowo",
-"setup": "TBD."
+"setup": "TBD.",
+"hook": "TBD."
 },
 "events/committee-visit/day-5/day-5-afternoon.md": {
 "name": "Day 5 — Afternoon",
@@ -2022,7 +2170,8 @@
 "when": "Phase cards is 0",
 "outcome": "The afternoon is spent.",
 "changes": "Day 5 — Afternoon — ends; Day 5 — Evening — starts; Phase cards — 12",
-"setup": "The afternoon of Day 5 begins."
+"setup": "The afternoon of Day 5 begins.",
+"hook": "TBD."
 },
 "events/committee-visit/day-5/day-5-evening.md": {
 "name": "Day 5 — Evening",
@@ -2031,16 +2180,19 @@
 "when": "Phase cards is 0",
 "outcome": "The evening is spent.",
 "changes": "Day 5 — Evening — ends; Day 5 — Night — starts; Phase cards — 12",
-"setup": "The evening of Day 5 begins."
+"setup": "The evening of Day 5 begins.",
+"hook": "TBD."
 },
 "events/committee-visit/day-5/day-5-morning.md": {
 "name": "Day 5 — Morning",
 "part-of": "Day 5",
 "location": "Testowo",
 "when": "setup:events/committee-visit/day-5/day-5-morning.md",
-"outcome": "Funeral Mass — Ciotka begins.",
+"outcome": "A funeral Mass beginning in the church, the coffin set before the congregation.",
+"gives": "*(to: every player)* hook:events/funeral-mass.md",
 "changes": "Funeral Mass — Ciotka — starts",
-"setup": "The morning of Day 5 begins.."
+"setup": "The morning of Day 5 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-5/day-5-night.md": {
 "name": "Day 5 — Night",
@@ -2049,22 +2201,26 @@
 "when": "setup:events/committee-visit/day-5/day-5-night.md",
 "outcome": "Butcher Takes the Body begins.",
 "changes": "Butcher Takes the Body — starts",
-"setup": "The night of Day 5 begins.."
+"setup": "The night of Day 5 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-5/day-5.md": {
 "name": "Day 5",
 "part-of": "The Committee Visit",
 "location": "Testowo",
-"setup": "TBD."
+"setup": "TBD.",
+"hook": "TBD."
 },
 "events/committee-visit/day-6/day-6-afternoon.md": {
 "name": "Day 6 — Afternoon",
 "part-of": "Day 6",
 "location": "Testowo",
 "when": "setup:events/committee-visit/day-6/day-6-afternoon.md and Bond: Barbara",
-"outcome": "Barbara Warns the Players begins.",
+"outcome": "Barbara Kopacz comes to the committee or catches a trusted player in a yard. Barbara Kopacz has no cardigan. Barbara Kopacz has mud to the shins. Barbara Kopacz is out of breath from half-running.",
+"gives": "*(to: holder of Bond)* hook:events/barbara-warns-the-players.md",
 "changes": "Barbara Warns the Players — starts",
-"setup": "The afternoon of Day 6 begins.."
+"setup": "The afternoon of Day 6 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-6/day-6-evening.md": {
 "name": "Day 6 — Evening",
@@ -2073,31 +2229,37 @@
 "when": "Phase cards is 0",
 "outcome": "The evening is spent.",
 "changes": "Day 6 — Evening — ends; Day 6 — Night — starts; Phase cards — 12",
-"setup": "The evening of Day 6 begins."
+"setup": "The evening of Day 6 begins.",
+"hook": "TBD."
 },
 "events/committee-visit/day-6/day-6-morning.md": {
 "name": "Day 6 — Morning",
 "part-of": "Day 6",
 "location": "Testowo",
 "when": "setup:events/committee-visit/day-6/day-6-morning.md",
-"outcome": "Coffee at Matrona's begins.",
+"outcome": "Helena Rzepka (née Gajda) sends word to the committee. Helena Rzepka (née Gajda) may appear at the committee's door.",
+"gives": "*(to: every player)* hook:events/coffee-at-helenas.md",
 "changes": "Coffee at Matrona's — starts",
-"setup": "The morning of Day 6 begins.."
+"setup": "The morning of Day 6 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-6/day-6-night.md": {
 "name": "Day 6 — Night",
 "part-of": "Day 6",
 "location": "Testowo",
 "when": "setup:events/committee-visit/day-6/day-6-night.md",
-"outcome": "The Lynch begins.",
+"outcome": "During Day 6, the drinking circle turns louder and more purposeful. If a player Barbara Warns the Players, the warning gives the evening to prepare. If not warned, lamps move on the road after dark. Boots cross gravel. Dogs bark down the valley. Ryszard Dudka rifle is missing from its pegs. The movement converges on the yard in front of the office. This is perceivable anywhere in Testowo after dark. Composure: 2.",
+"gives": "*(to: every player)* hook:events/punishment-lynch.md",
 "changes": "The Lynch — starts",
-"setup": "The night of Day 6 begins.."
+"setup": "The night of Day 6 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-6/day-6.md": {
 "name": "Day 6",
 "part-of": "The Committee Visit",
 "location": "Testowo",
-"setup": "TBD."
+"setup": "TBD.",
+"hook": "TBD."
 },
 "events/committee-visit/day-7/day-7-afternoon.md": {
 "name": "Day 7 — Afternoon",
@@ -2106,7 +2268,8 @@
 "when": "Phase cards is 0",
 "outcome": "The afternoon is spent.",
 "changes": "Day 7 — Afternoon — ends; Day 7 — Evening — starts; Phase cards — 12",
-"setup": "The afternoon of Day 7 begins."
+"setup": "The afternoon of Day 7 begins.",
+"hook": "TBD."
 },
 "events/committee-visit/day-7/day-7-evening.md": {
 "name": "Day 7 — Evening",
@@ -2115,16 +2278,19 @@
 "when": "Phase cards is 0",
 "outcome": "The evening is spent.",
 "changes": "Day 7 — Evening — ends; Day 7 — Night — starts; Phase cards — 12",
-"setup": "The evening of Day 7 begins."
+"setup": "The evening of Day 7 begins.",
+"hook": "TBD."
 },
 "events/committee-visit/day-7/day-7-morning.md": {
 "name": "Day 7 — Morning",
 "part-of": "Day 7",
 "location": "Testowo",
 "when": "setup:events/committee-visit/day-7/day-7-morning.md and Crisis of Faith < 8",
-"outcome": "The Seal-Break — The Priest Names the Dead begins.",
+"outcome": "The church bell rings wrong and too long. The bell stops mid-strike. The sound is audible across Testowo.",
+"gives": "*(to: every player)* hook:events/the-seal-break.md",
 "changes": "The Seal-Break — The Priest Names the Dead — starts",
-"setup": "The morning of Day 7 begins.."
+"setup": "The morning of Day 7 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-7/day-7-night.md": {
 "name": "Day 7 — Night",
@@ -2133,21 +2299,26 @@
 "when": "setup:events/committee-visit/day-7/day-7-night.md",
 "outcome": "Hag's Prayer begins.",
 "changes": "Hag's Prayer — starts",
-"setup": "The night of Day 7 begins.."
+"gives": "*(to: every player)* hook:events/the-report.md",
+"setup": "The night of Day 7 begins..",
+"hook": "TBD."
 },
 "events/committee-visit/day-7/day-7.md": {
 "name": "Day 7",
 "part-of": "The Committee Visit",
 "location": "Testowo",
-"setup": "TBD."
+"setup": "TBD.",
+"hook": "TBD."
 },
 "items/anchor.md": {
 "name": "Anchor and Hammer",
-"setup": "A short steel clamp and a battered hammer, kept together as a single field set. The clamp is driven into the shale seam under the overhang; the hammer drives it home. Once planted, the seam becomes a fixed point and a party can seat the charge clean rather than free-soloing the slab in the rain."
+"setup": "A short steel clamp and a battered hammer, kept together as a single field set. The clamp is driven into the shale seam under the overhang; the hammer drives it home. Once planted, the seam becomes a fixed point and a party can seat the charge clean rather than free-soloing the slab in the rain.",
+"hook": "A short steel clamp and a battered hammer, kept together as a field set."
 },
 "items/attic-key.md": {
 "name": "Attic Key",
-"setup": "The key to the attic hatch in Janina's house, the one part of the house she guarded."
+"setup": "The key to the attic hatch in Janina's house, the one part of the house she guarded.",
+"hook": "A small iron key on a loop of string."
 },
 "items/barnas-departure-declaration.md": {
 "name": "Soldier's Departure Declaration",
@@ -2155,7 +2326,8 @@
 "cost": "1 time",
 "outcome": "Held beside the letters, the signature doesn't match the man who wrote them — the letters flow, this is stiff and traced. Someone copied his hand.",
 "gives": "departure-declaration-forged",
-"setup": "A single administrative sheet, official stamps, dated 1954. It records Edward Barnaś surrendering his house, buildings, and land and resettling his household west \"of his own free will.\" At the bottom, his signature. The paper is what let the \"they moved away\" story stand for thirteen years."
+"setup": "A single administrative sheet, official stamps, dated 1954. It records Edward Barnaś surrendering his house, buildings, and land and resettling his household west \"of his own free will.\" At the bottom, his signature. The paper is what let the \"they moved away\" story stand for thirteen years.",
+"hook": "A single stamped administrative sheet with a dated signature."
 },
 "items/barnas-letter.md": {
 "name": "Soldier's Unopened Letter",
@@ -2164,7 +2336,8 @@
 "outcome": "The letter is warm: those two did wet work together, and the easy jokes are what grows over it.",
 "requires": "Edward Barnaś's Unopened Letter",
 "gives": "barnas-letter-date-55, butcher-mentioned-in-the-letter, soldier-was-kbw",
-"setup": "A sealed envelope gone soft and yellow with damp and years, never opened. It is addressed to Edward Barnaś at the village in a heavy, barrack-trained hand, and the postmark is dated 1955. Inside is a single folded sheet from an old service comrade.."
+"setup": "A sealed envelope gone soft and yellow with damp and years, never opened. It is addressed to Edward Barnaś at the village in a heavy, barrack-trained hand, and the postmark is dated 1955. Inside is a single folded sheet from an old service comrade..",
+"hook": "A yellowed, still-sealed envelope in a blunt, barrack-trained hand, postmarked 1955."
 },
 "items/bayonet.md": {
 "name": "Bayonet",
@@ -2174,15 +2347,18 @@
 "gives": "edeks-bayonet-is-german",
 "requires": "Bayonet",
 "cost": "1 time",
-"setup": "An old military bayonet, the blade kept clean and faintly oiled, the grip worn smooth from handling. It was tucked away among Edek Barnaś's few things like a prize and kept hidden from Janina Gajda. To an untrained eye it is just an old army knife of no particular origin."
+"setup": "An old military bayonet, the blade kept clean and faintly oiled, the grip worn smooth from handling. It was tucked away among Edek Barnaś's few things like a prize and kept hidden from Janina Gajda. To an untrained eye it is just an old army knife of no particular origin.",
+"hook": "An old sheathed bayonet, the blade worn and lightly oiled, kept like a treasure."
 },
 "items/bimber.md": {
 "name": "Bottle of Bimber",
-"setup": "An old bottle refilled at a still, no label. Strong, rough, and illegal to make or sell."
+"setup": "An old bottle refilled at a still, no label. Strong, rough, and illegal to make or sell.",
+"hook": "A bottle of cloudy home-distilled spirit, stoppered with a twist of paper."
 },
 "items/buried-oilcloth-bundle.md": {
 "name": "Buried Oilcloth Bundle",
-"setup": "A KBW uniform with its insignia, Edward Barnaś's identity documents and service papers for the Bieszczady in 1947, and love letters addressed to \"M.K.\", all wrapped in oilcloth."
+"setup": "A KBW uniform with its insignia, Edward Barnaś's identity documents and service papers for the Bieszczady in 1947, and love letters addressed to \"M.K.\", all wrapped in oilcloth.",
+"hook": "An oilcloth bundle, stiff with earth."
 },
 "items/census.md": {
 "name": "Committee Census Register",
@@ -2193,7 +2369,8 @@
 "requires": "Committee Census Register AND PGR Worker Registry",
 "cost": "1 time",
 "gives": "mazur-paid-but-absent",
-"setup": "An official blank census book issued for the resettlement survey: ruled columns for household, names, ages, and years resident. It starts empty and fills as the committee works the village. In a settlement this small, a name on the farm's payroll that appears in no household stands out at once."
+"setup": "An official blank census book issued for the resettlement survey: ruled columns for household, names, ages, and years resident. It starts empty and fills as the committee works the village. In a settlement this small, a name on the farm's payroll that appears in no household stands out at once.",
+"hook": "An official blank census book, ruled for households, names, ages, residence dates."
 },
 "items/cigarette-butts-from-ciotkas.md": {
 "name": "Carmen Cigarette Butts",
@@ -2203,11 +2380,13 @@
 "gives": "butts-at-ciotkas-are-carmen",
 "requires": "Carmen Cigarette Butts",
 "cost": "1 time",
-"setup": "A small scatter of hand-pinched butts, oval, all one brand: Carmen. An aromatic premium smoke, dearer than the Sport and Extra Mocne the village runs on and rarely seen this far out. Rain has swollen them grey and soft. They were dropped at least a day before Janina died, not the night of."
+"setup": "A small scatter of hand-pinched butts, oval, all one brand: Carmen. An aromatic premium smoke, dearer than the Sport and Extra Mocne the village runs on and rarely seen this far out. Rain has swollen them grey and soft. They were dropped at least a day before Janina died, not the night of.",
+"hook": "A small scatter of rain-softened, hand-pinched cigarette butts."
 },
 "items/concrete-ditch-measurements.md": {
 "name": "Concrete Ditch Measurements",
-"setup": "The cross-section of the irrigation ditch's concrete head: the width, depth, and fall of the lined channel near the fields. Raw figures, no skill needed to take them. On their own they settle nothing."
+"setup": "The cross-section of the irrigation ditch's concrete head: the width, depth, and fall of the lined channel near the fields. Raw figures, no skill needed to take them. On their own they settle nothing.",
+"hook": "A page of figures in pencil."
 },
 "items/ditch-construction-spec.md": {
 "name": "PGR Irrigation Ditch Construction Spec",
@@ -2215,11 +2394,13 @@
 "cost": "1 time",
 "outcome": "The file specifies concrete lining the full run, head to low ground, accepted as built. The walked ditch is concrete only at the head and a shallow earth dugout the rest of the way. The paper and the ground do not match: the ditch was never built to the spec it was signed off against.",
 "gives": "ditch-not-built-to-spec",
-"setup": "A land-reclamation (melioracja) file in an official folder: an approved cross-section drawing, a bill of concrete, and a signed acceptance note. It specifies a concrete-lined trapezoidal channel for the ditch's entire run from the field head down to the low ground, not just the head, sized to carry the fields' flood runoff. The acceptance note declares the work completed and lined as drawn. A layman reads it as ordinary farm paperwork. Set against a walked ditch, the paper and the ground do not agree past the first short stretch."
+"setup": "A land-reclamation (melioracja) file in an official folder: an approved cross-section drawing, a bill of concrete, and a signed acceptance note. It specifies a concrete-lined trapezoidal channel for the ditch's entire run from the field head down to the low ground, not just the head, sized to carry the fields' flood runoff. The acceptance note declares the work completed and lined as drawn. A layman reads it as ordinary farm paperwork. Set against a walked ditch, the paper and the ground do not agree past the first short stretch.",
+"hook": "An official folder: a ditch cross-section drawing, concrete figures, a signed acceptance note."
 },
 "items/dugout-measurements.md": {
 "name": "Dugout Measurements",
-"setup": "The cross-section of the irrigation ditch where the concrete gives out: the width and depth of the shallow, unlined earth dugout that runs most of its length. Raw figures, no skill needed to take them."
+"setup": "The cross-section of the irrigation ditch where the concrete gives out: the width and depth of the shallow, unlined earth dugout that runs most of its length. Raw figures, no skill needed to take them.",
+"hook": "A page of figures in pencil."
 },
 "items/edek-box.md": {
 "name": "The \"EDEK\" Box",
@@ -2229,19 +2410,23 @@
 "noticed-by": "glupek-forbidden-from-attic",
 "requires": "The \"EDEK\" Box",
 "cost": "1 time",
-"setup": "A wooden box thick with years of dust, untouched in the attic long before Janina died. On the lid, \"EDEK\" in worn letters. Inside, a grown man's belongings. The name cuts two ways: Edek Barnaś is a boy but built like a man, and Edward Barnaś, the father, went by Edek too. Among the things: an old iron front-door key, a man's shaving kit and hygiene tins, a military medal, a folded Propaganda Leaflet showing the white eagle driving a bayonet into a trident over the slogan \"DEATH TO THE BANDITS\", and a photograph of a woman, risqué for the era. The photo cuts both ways — a keepsake of someone's sweetheart, or just adult material a young man might hide away."
+"setup": "A wooden box thick with years of dust, untouched in the attic long before Janina died. On the lid, \"EDEK\" in worn letters. Inside, a grown man's belongings. The name cuts two ways: Edek Barnaś is a boy but built like a man, and Edward Barnaś, the father, went by Edek too. Among the things: an old iron front-door key, a man's shaving kit and hygiene tins, a military medal, a folded Propaganda Leaflet showing the white eagle driving a bayonet into a trident over the slogan \"DEATH TO THE BANDITS\", and a photograph of a woman, risqué for the era. The photo cuts both ways — a keepsake of someone's sweetheart, or just adult material a young man might hide away.",
+"hook": "A dust-caked wooden box marked \"EDEK\", packed with a grown man's belongings."
 },
 "items/floorboard-tin.md": {
 "name": "Floorboard Tin",
-"setup": "A young man's photograph, a folding knife marked Д.К., and letters in Ukrainian."
+"setup": "A young man's photograph, a folding knife marked Д.К., and letters in Ukrainian.",
+"hook": "A dented tin wrapped in oilcloth."
 },
 "items/gap-fill-reading.md": {
 "name": "Gap Fill Reading",
-"setup": "Examined up close at the toe of the plug, the landslide fill is dense clay and shattered rock packed tight, not the loose rubble it looks like from a distance. Water will not seep through it. This settles only whether the plug leaks, not whether it can be overtopped."
+"setup": "Examined up close at the toe of the plug, the landslide fill is dense clay and shattered rock packed tight, not the loose rubble it looks like from a distance. Water will not seep through it. This settles only whether the plug leaks, not whether it can be overtopped.",
+"hook": "Notes on the fill at the toe of the plug."
 },
 "items/gap-sill-reading.md": {
 "name": "Gap Sill Reading",
-"setup": "Measured from the crest, the plug's lowest saddle, the sill any rising water would have to top to spill through into Jasielnik Basin, stands above the Testowo flood line. Water cannot overtop the plug. This settles only the height, not whether the fill leaks."
+"setup": "Measured from the crest, the plug's lowest saddle, the sill any rising water would have to top to spill through into Jasielnik Basin, stands above the Testowo flood line. Water cannot overtop the plug. This settles only the height, not whether the fill leaks.",
+"hook": "A height for the plug's lowest saddle, levelled from the crest."
 },
 "items/geologists-kit.md": {
 "name": "The Geologist's Kit",
@@ -2254,7 +2439,8 @@
 "gives": "new-village-will-be-drowned-by-solina-lake",
 "requires": "The Geologist's Kit",
 "cost": "1 time",
-"setup": "A worn canvas roll of survey tools: a level and clinometer with its graduated rod, a plumb line and tape, a folded copy of the resettlement master plan with its flood-line figures, and drainage tables. Tucked in the dossier is the previous crew's signed survey report, the document whose projection sent the committee here. The report reads clean to a layman. It praises the wojewoda's irrigation ditch, notes in passing that the river changed course and dismisses it, and says nothing at all about the ridge gap or the far-ridge streambed. Also folded in is a Solina dam-survey station index: a bare list of benchmarks the reservoir survey set across the valley, the far-ridge streambed col among them, but the elevation sheet the index points to is not in the dossier."
+"setup": "A worn canvas roll of survey tools: a level and clinometer with its graduated rod, a plumb line and tape, a folded copy of the resettlement master plan with its flood-line figures, and drainage tables. Tucked in the dossier is the previous crew's signed survey report, the document whose projection sent the committee here. The report reads clean to a layman. It praises the wojewoda's irrigation ditch, notes in passing that the river changed course and dismisses it, and says nothing at all about the ridge gap or the far-ridge streambed. Also folded in is a Solina dam-survey station index: a bare list of benchmarks the reservoir survey set across the valley, the far-ridge streambed col among them, but the elevation sheet the index points to is not in the dossier.",
+"hook": "A worn canvas roll of surveying tools, maps, tables, and a folded report."
 },
 "items/girls-dress.md": {
 "name": "The Blue Dress",
@@ -2262,45 +2448,54 @@
 "when": "setup:items/girls-dress.md",
 "outcome": "The dress is folded and kept like something mourned, not stored for use. Whoever wore it is gone.",
 "gives": "girls-dress-in-ciotkas-house",
-"setup": "A blue dress, worn but clean. It is folded and set at the back of the wardrobe, kept rather than thrown out or handed down, put away with some care. No one wears it in Janina's house now."
+"setup": "A blue dress, worn but clean. It is folded and set at the back of the wardrobe, kept rather than thrown out or handed down, put away with some care. No one wears it in Janina's house now.",
+"hook": "A blue dress, folded and kept, lifted from the back of the attic wardrobe."
 },
 "items/jar-of-pills.md": {
 "name": "Jar of Pills",
 "noticed-by": "Medicine",
 "when": "setup:items/jar-of-pills.md",
 "outcome": "A strong sedative. Enough of it can kill. Pills are missing from the jar.",
-"setup": "A jar of pills on the table, cap off. Some are missing.."
+"setup": "A jar of pills on the table, cap off. Some are missing..",
+"hook": "An open medicine jar with some pills missing."
 },
 "items/journal-fragment.md": {
 "name": "Journal Fragment",
-"setup": "A handful of pages from a notebook, damp-stained and torn along the binding, covered in Ukrainian handwriting."
+"setup": "A handful of pages from a notebook, damp-stained and torn along the binding, covered in Ukrainian handwriting.",
+"hook": "A few water-stained pages torn from a notebook, written in Ukrainian."
 },
 "items/kbw-military-knife.md": {
 "name": "KBW Military Knife",
-"setup": "A KBW-issue knife, worn, sharpened often."
+"setup": "A KBW-issue knife, worn, sharpened often.",
+"hook": "A military knife of the internal security corps, kept among the butcher's blades."
 },
 "items/kbw-rifle.md": {
 "name": "KBW Rifle",
-"setup": "A KBW service rifle, oiled and kept out of sight."
+"setup": "A KBW service rifle, oiled and kept out of sight.",
+"hook": "A KBW service rifle, hidden in the butcher's house."
 },
 "items/lemko-bell.md": {
 "name": "Lemko Bell",
-"setup": "A small brass Greek Catholic liturgical bell, Cyrillic lettering around the rim. It can be compared with the Hołubie — Cerkiew or shown to Stefania Kopacz or Paraskewia Chyłak."
+"setup": "A small brass Greek Catholic liturgical bell, Cyrillic lettering around the rim. It can be compared with the Hołubie — Cerkiew or shown to Stefania Kopacz or Paraskewia Chyłak.",
+"hook": "A small brass bell with Cyrillic lettering around the rim."
 },
 "items/makeshift-charge.md": {
 "name": "The Makeshift Charge",
-"setup": "Twenty-year-old partisan ordnance pulled from the bunker and lashed into a single usable charge: corroded casing, degraded filler, a sensitive fuse. Enough to start a notch in the plug if it is seated in the right seam. Too much weight for one climber to hold on wet rock without real strength, and a knock, drop, spark, or heat can set it off."
+"setup": "Twenty-year-old partisan ordnance pulled from the bunker and lashed into a single usable charge: corroded casing, degraded filler, a sensitive fuse. Enough to start a notch in the plug if it is seated in the right seam. Too much weight for one climber to hold on wet rock without real strength, and a knock, drop, spark, or heat can set it off.",
+"hook": "A corroded old casing lashed into a bulky charge with a visible fuse."
 },
 "items/mazur-diary.md": {
 "name": "Tadeusz-Mazur's Diary",
 "requires": "Tadeusz Mazur's Diary",
 "outcome": "Years of an original settler's plain, meticulous record, with a few entries that step back and chronicle the valley: arriving in 1948 to houses emptied of their Lemko people and some burned, Edward Barnaś holding the best land by the water while the village kept its distance from a man nobody had a good word for, Barnaś living unwed with his woman, the family gone overnight in 1954 with only the boy left and a neighbour who never believed the \"moved west\" story, the valley turned into a PGR in 1956 under Zbigniew Gajda, a Party man, and a last entry where the foreman, who always kept the silo to himself, hands Tadeusz the job because he is run off his feet.",
 "gives": "mazur-and-widow-are-old-settlers, old-village-was-lemko, old-village-resettled-during-vistula, old-village-was-burned, soldier-took-best-land, barnas-disliked, soldier-never-married, barnas-family-disappeared, barnas-family-left-edek-behind, mazur-doubted-the-departure, pgr-established-in-56, wojewoda-is-a-party-member, foreman-sent-mazur-in-his-place",
-"setup": "A thick notebook bound in faded cloth, swollen and soft at the corners from years of handling. Most of it is the plain ledger of a settler's life: what was sown and when, prices at market, a cow calved, a roof mended, hard winters marked. The hand is careful and unhurried. Spread through it, a handful of longer entries step back from the weather and the prices to set down what was happening to the valley itself."
+"setup": "A thick notebook bound in faded cloth, swollen and soft at the corners from years of handling. Most of it is the plain ledger of a settler's life: what was sown and when, prices at market, a cow calved, a roof mended, hard winters marked. The hand is careful and unhurried. Spread through it, a handful of longer entries step back from the weather and the prices to set down what was happening to the valley itself.",
+"hook": "A worn cloth-bound notebook, its pages close-written in a careful farmer's hand, years of weather, work, and prices."
 },
 "items/pack-of-cigarettes.md": {
 "name": "Pack of Cigarettes",
-"setup": "One day's supply. Sport is what most of the valley smokes; Carmen is the rare premium brand."
+"setup": "One day's supply. Sport is what most of the valley smokes; Carmen is the rare premium brand.",
+"hook": "A paper pack of cigarettes: cheap Sport, or premium Carmen."
 },
 "items/paraskewias-list.md": {
 "name": "Hag's List of the Dead",
@@ -2308,11 +2503,13 @@
 "requires": "Paraskewia's List of the Dead AND (Language OR Culture)",
 "outcome": "The players can now name the 1947 dead — the twelve villagers and Dmytro Kosach — the core of the Performing the Ritual. Without the skill, the names stay locked in the script until someone reads it for them.",
 "gives": "paraskewia-named-the-dead",
-"setup": "A single sheet, soft as cloth from twenty years of handling, folded and refolded until the creases have gone furry. Names written in Cyrillic in a careful, old-fashioned hand — Paraskewia Chyłak's. Some in ink gone brown, some later ones in pencil, a few traced over twice where the line faded. A small cross is inked beside each name. It is not a document in any official sense. It is a woman keeping her dead from disappearing, one name at a time, because no state, church, or grave ever would. To anyone without the language it is a column of foreign letters. To anyone who can read it, it is a village."
+"setup": "A single sheet, soft as cloth from twenty years of handling, folded and refolded until the creases have gone furry. Names written in Cyrillic in a careful, old-fashioned hand — Paraskewia Chyłak's. Some in ink gone brown, some later ones in pencil, a few traced over twice where the line faded. A small cross is inked beside each name. It is not a document in any official sense. It is a woman keeping her dead from disappearing, one name at a time, because no state, church, or grave ever would. To anyone without the language it is a column of foreign letters. To anyone who can read it, it is a village.",
+"hook": "A soft, much-folded sheet covered in old Cyrillic handwriting and small crosses."
 },
 "items/penicillin.md": {
 "name": "Penicillin",
-"setup": "A few small glass ampoules of penicillin from the store's locked cabinet, the only stock of it in the village."
+"setup": "A few small glass ampoules of penicillin from the store's locked cabinet, the only stock of it in the village.",
+"hook": "Small glass ampoules of penicillin, the store's only stock."
 },
 "items/pgr-expenses.md": {
 "name": "PGR Expense Journal",
@@ -2320,15 +2517,18 @@
 "cost": "1 time",
 "outcome": "May 1965: a silo repair, then one week later the largest single expense in the journal — an emergency grain purchase because the silo's contents were \"lost.\" A broken silo, grain gone, the biggest bill in years — and not one medical or hospital cost anywhere near it.",
 "gives": "large-grain-purchase",
-"setup": "A worn ledger of non-payroll farm spending — seed, transport, repairs, vet bills, seasonal slaughter — running 1950–1967. Page after page of ordinary numbers in a bookkeeper's hand. Nothing looks wrong until you know what you're reading against. Familiar village names recur (Gajda, Rezeń, Dudka, Rzepka) and make the two names that matter easy to skim past."
+"setup": "A worn ledger of non-payroll farm spending — seed, transport, repairs, vet bills, seasonal slaughter — running 1950–1967. Page after page of ordinary numbers in a bookkeeper's hand. Nothing looks wrong until you know what you're reading against. Familiar village names recur (Gajda, Rezeń, Dudka, Rzepka) and make the two names that matter easy to skim past.",
+"hook": "A worn farm expense ledger: rows of dates, payees, amounts."
 },
 "items/pgr-inventory.md": {
 "name": "PGR Inventory",
-"setup": "An empty remanent form the committee must complete before the farm can be evacuated. Fixed works are out of scope: the barns, the silo shell, the ditch, all written off to the water. Everything movable has to be found, counted, and signed for. The farm's own carried-forward figures are printed in the left column; the right column is blank for the committee's count. Under socialist accounting the two are supposed to balance. The work is walking the farm and filling every line."
+"setup": "An empty remanent form the committee must complete before the farm can be evacuated. Fixed works are out of scope: the barns, the silo shell, the ditch, all written off to the water. Everything movable has to be found, counted, and signed for. The farm's own carried-forward figures are printed in the left column; the right column is blank for the committee's count. Under socialist accounting the two are supposed to balance. The work is walking the farm and filling every line.",
+"hook": "A blank state stock-take form: ruled columns headed \"declared\" and \"counted,\" for livestock, grain, machinery, fuel, and stores."
 },
 "items/pgr-ledger.md": {
 "name": "PGR Worker Registry",
-"setup": "The 1967 staff and pay register for the farm — eight names, positions, daily rates, and a monthly cost summary. Kept by the Foreman. Cross-checked against the villagers players have actually met, one name on it belongs to no one you can find on the farm."
+"setup": "The 1967 staff and pay register for the farm — eight names, positions, daily rates, and a monthly cost summary. Kept by the Foreman. Cross-checked against the villagers players have actually met, one name on it belongs to no one you can find on the farm.",
+"hook": "An official farm-worker register: names, jobs, daily rates, totals."
 },
 "items/portrait.md": {
 "name": "The Portrait",
@@ -2337,18 +2537,21 @@
 "outcome": "Low in one corner sits a small, easily missed signature. A trained eye reads the hand and the mark: this is Emil Rzepka's own work.",
 "gives": "emil-signed-the-portrait",
 "requires": "The Blue Dress AND The Portrait",
-"setup": "An oil portrait of a young dark-haired woman in a blue dress, found wrapped and sheltered in a dry corner of the ruined cerkiew at Hołubie — Cerkiew. It is painted with a care nothing around it gets. No name or label on the face, though the back of the canvas is not blank. The blue dress is rendered as carefully as her face. A small mark sits low in one corner.."
+"setup": "An oil portrait of a young dark-haired woman in a blue dress, found wrapped and sheltered in a dry corner of the ruined cerkiew at Hołubie — Cerkiew. It is painted with a care nothing around it gets. No name or label on the face, though the back of the canvas is not blank. The blue dress is rendered as carefully as her face. A small mark sits low in one corner..",
+"hook": "A portrait of a dark-haired young woman in a blue dress, unwrapped from a bundle hidden in the ruined cerkiew."
 },
 "items/professors-folder.md": {
 "name": "Professor's Folder",
 "requires": "Professor's Folder",
 "outcome": "prof. Tadeusz Bieńkowski's typed brief: the safe verdict assumes the map's heights are right and the valley drains. He names two outlets, the ridge water-gap and the far-ridge streambed, and writes that the paperwork does not hold up.",
 "gives": "gap-is-candidate-drain, streambed-is-candidate-drain, the-flood-line-potentially-miscalculated",
-"setup": "A few typed pages and a hand-drawn sketch of the valley, signed by prof. Tadeusz Bieńkowski."
+"setup": "A few typed pages and a hand-drawn sketch of the valley, signed by prof. Tadeusz Bieńkowski.",
+"hook": "A grey cardboard folder tied with string, stamped AGH, Faculty of Geological Prospecting."
 },
 "items/propaganda-leaflet.md": {
 "name": "Propaganda Leaflet",
-"setup": "A single sheet of cheap paper, folded small and gone brittle at the creases. Crude two-colour print: the white Polish eagle driving a bayonet down into a trident, the trident cracking under the blow. Across the bottom, block letters: \"DEATH TO THE BANDITS\". The kind of sheet handed out to the men who were sent into these hills after the partisans."
+"setup": "A single sheet of cheap paper, folded small and gone brittle at the creases. Crude two-colour print: the white Polish eagle driving a bayonet down into a trident, the trident cracking under the blow. Across the bottom, block letters: \"DEATH TO THE BANDITS\". The kind of sheet handed out to the men who were sent into these hills after the partisans.",
+"hook": "A folded, yellowed propaganda sheet: a white eagle driving a bayonet into a trident."
 },
 "items/ravine-remains.md": {
 "name": "Remains from the Ravine",
@@ -2358,35 +2561,43 @@
 "gives": "ravine-remains-a-woman",
 "when": "First examination of the remains",
 "changes": "Crisis of Faith — +1",
-"setup": "A rotted coat, its colour long gone to the soil, and a scatter of bones — incomplete, gnawed and shifted by thirteen years of forest. No skull, so nothing that carries a face or a name. Wrapped in whatever the players had to hand, it is a light, grim bundle that smells of wet earth. To an untrained eye it could be anyone — Dudka called it Hania and buried it. But the bones themselves still hold facts for someone who knows how to read them: whether it's a man or a woman, how old, how they died. The name is gone; the body is not yet silent."
+"setup": "A rotted coat, its colour long gone to the soil, and a scatter of bones — incomplete, gnawed and shifted by thirteen years of forest. No skull, so nothing that carries a face or a name. Wrapped in whatever the players had to hand, it is a light, grim bundle that smells of wet earth. To an untrained eye it could be anyone — Dudka called it Hania and buried it. But the bones themselves still hold facts for someone who knows how to read them: whether it's a man or a woman, how old, how they died. The name is gone; the body is not yet silent.",
+"hook": "A grim bundle of loose bones and a rotted coat, wrapped for carrying."
 },
 "items/road-map.md": {
 "name": "Road Map",
-"setup": "A printed road map of the county, the roads in red, the rivers in blue, the contour lines faint."
+"setup": "A printed road map of the county, the roads in red, the rivers in blue, the contour lines faint.",
+"hook": "A folded road map of the Bieszczady, soft at the creases."
 },
 "items/rope.md": {
 "name": "Rope",
-"setup": "A field rope of mixed lengths and knots, rough but serviceable. It smells of sawdust, damp, and old tar. The line is long enough to cover the lower pitch and the killzone, wide enough to take a body and a charge when used as a haul."
+"setup": "A field rope of mixed lengths and knots, rough but serviceable. It smells of sawdust, damp, and old tar. The line is long enough to cover the lower pitch and the killzone, wide enough to take a body and a charge when used as a haul.",
+"hook": "A rough field rope of mixed lengths and knots."
 },
 "items/soltys-pistol.md": {
 "name": "Sołtys's Pistol",
-"setup": "The sołtys's pistol, kept loaded in his office safe."
+"setup": "The sołtys's pistol, kept loaded in his office safe.",
+"hook": "A service pistol, oiled and loaded."
 },
 "items/store-cabinet-key.md": {
 "name": "Store Cabinet Key",
-"setup": "A small iron cabinet key, the only one to the store's drug cabinet. It hung among Helena's household keys."
+"setup": "A small iron cabinet key, the only one to the store's drug cabinet. It hung among Helena's household keys.",
+"hook": "A small iron key, worn smooth, off a household key ring."
 },
 "items/streambed-parameters.md": {
 "name": "Streambed Parameters",
-"setup": "The two elevations that settle the streambed: the height of the far-ridge col and the height of Testowo. The raw figures, before anyone reads what they mean."
+"setup": "The two elevations that settle the streambed: the height of the far-ridge col and the height of Testowo. The raw figures, before anyone reads what they mean.",
+"hook": "Two heights written down: the far-ridge col and the village."
 },
 "items/topographic-maps.md": {
 "name": "Topographic Maps",
-"setup": "Military topographic sheets of the valley and the ridges around it, with Hołubie still marked."
+"setup": "Military topographic sheets of the valley and the ridges around it, with Hołubie still marked.",
+"hook": "A roll of military topographic sheets, creased and annotated in pencil."
 },
 "items/vodka.md": {
 "name": "Bottle of Vodka",
-"setup": "Clear glass, a paper label, the state seal intact. Shop vodka: the kind you buy, not the kind you make."
+"setup": "Clear glass, a paper label, the state seal intact. Shop vodka: the kind you buy, not the kind you make.",
+"hook": "A half-litre of Wyborowa, unopened."
 },
 "items/water-hose-contraption.md": {
 "name": "Water Hose Contraption",
@@ -2394,11 +2605,13 @@
 "cost": "2 time",
 "outcome": "Rig the hose as a water level and leapfrog it from the surveyors' flood mark to a chosen point around the valley, marking and summing each step, to read its height against the mark. No surveying skill needed. Pick the point: the lower village, the upper village, the southern rise, the old-village bowl, or the Jasielnik Basin floor.",
 "gives": "lower-village-level, upper-village-level, southern-rise-level, old-village-bowl-level, big-basin-floor-level",
-"setup": "A long coil of rubber irrigation hose, cracked at the bends and stiff with dried mud. The ends are open and wide enough to hold water. Filled and held up at both ends, the water settles to the same height on each side, a farmer's level: the trick used to lay out ditches and terraces dead flat. The rubber is opaque, so the water gets read at the open mouths, a bottle neck jammed into each end as a sight glass for a clean line; you run water through first to chase the air bubbles that throw the reading. Distance costs it nothing, water finds the same level however far the hose runs, but it only compares points of near-equal height, so climbing a rise means leapfrogging one rod-length at a time. The number of steps follows the height gained, not the distance, so a long gentle run is a lot of hose but not endless stations. Paired with the The Geologist's Kit plumb line, it lets a handy pair of hands read the plug's sill against the flood mark the slow way, where a geologist would just use the level."
+"setup": "A long coil of rubber irrigation hose, cracked at the bends and stiff with dried mud. The ends are open and wide enough to hold water. Filled and held up at both ends, the water settles to the same height on each side, a farmer's level: the trick used to lay out ditches and terraces dead flat. The rubber is opaque, so the water gets read at the open mouths, a bottle neck jammed into each end as a sight glass for a clean line; you run water through first to chase the air bubbles that throw the reading. Distance costs it nothing, water finds the same level however far the hose runs, but it only compares points of near-equal height, so climbing a rise means leapfrogging one rod-length at a time. The number of steps follows the height gained, not the distance, so a long gentle run is a lot of hose but not endless stations. Paired with the The Geologist's Kit plumb line, it lets a handy pair of hands read the plug's sill against the flood mark the slow way, where a geologist would just use the level.",
+"hook": "A long, mud-stiffened coil of cracked rubber irrigation hose."
 },
 "items/womans-undergarments.md": {
 "name": "Woman's Undergarments",
-"setup": "Old women's undergarments, kept folded in the drawer of the bench-bed."
+"setup": "Old women's undergarments, kept folded in the drawer of the bench-bed.",
+"hook": "Women's undergarments, folded away in a bench-bed drawer."
 },
 "cards/alcoholic.md": {
 "name": "Alcoholic",

@@ -20,7 +20,8 @@ The morning of [@name](day-2.md) begins.[](#wolf-attack-begins)[](#store-robbery
 
 ### Store robbery begins
 - **When:** setup:events/committee-visit/day-2/day-2-morning.md and [Cabinet](../../../locations/new-village/the-store.md#cabinet) is forced
-- **Outcome:** [@name](../../store-robbery.md) begins.
+- **Outcome:** [@hook](../../store-robbery.md)
+- **Gives:** *(to: every player)* hook:events/store-robbery.md
 - **Changes:** [@name](../../store-robbery.md) — starts; [Cabinet](../../../locations/new-village/the-store.md#cabinet) — discovered
 
 ### Afternoon comes

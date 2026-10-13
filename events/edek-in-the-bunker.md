@@ -10,3 +10,11 @@
 ## Setup
 
 - TBD.
+
+## Opportunities
+
+### Arriving on the scene
+- **When:** [@name](../locations/upa-bunker.md)
+- **Outcome:** [@hook](edek-in-the-bunker.md)
+- **Gives:** *(to: players at [@name](../locations/upa-bunker.md))* hook:events/edek-in-the-bunker.md
+

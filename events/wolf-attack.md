@@ -24,6 +24,11 @@
 
 ## Opportunities
 
+### Arriving on the scene
+- **When:** [@name](../locations/new-village/pgr-farm/pgr-farm.md)
+- **Outcome:** [@hook](wolf-attack.md)
+- **Gives:** *(to: players at [@name](../locations/new-village/pgr-farm/pgr-farm.md))* hook:events/wolf-attack.md
+
 ### Animal confident inside familiar pen
 - **Noticed by:** [Survival](../cards/survival.md)
 - **When:** setup:events/wolf-attack.md

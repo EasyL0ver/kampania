@@ -27,6 +27,11 @@
 
 ## Opportunities
 
+### Arriving on the scene
+- **When:** [@name](../locations/old-village-ruins.md)
+- **Outcome:** [@hook](well-confrontation.md)
+- **Gives:** *(to: players at [@name](../locations/old-village-ruins.md))* hook:events/well-confrontation.md
+
 ### Candles and chant form a Lemko rite
 - **Noticed by:** [Culture](../cards/culture.md)
 - **When:** setup:events/well-confrontation.md

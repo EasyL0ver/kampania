@@ -60,8 +60,12 @@ def aware_id(token: str) -> str:
     return token
 
 
+TARGET = re.compile(r"^\s*\*\(to: .+?\)\*\s*")      # a Gives target names who receives, not what
+
+
 def refs(text: str, src: Path) -> list[str]:
     """Every card, item, clue and aware id a field value names, in order."""
+    text = TARGET.sub("", text)
     out = []
     for _, target in LINK.findall(text):
         r = ref_id(target, src)

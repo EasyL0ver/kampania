@@ -17,6 +17,11 @@
 
 ## Opportunities
 
+### Arriving on the scene
+- **When:** [@name](../locations/new-village/pgr-farm/pgr-farm.md)
+- **Outcome:** [@hook](hunt-with-dudka.md)
+- **Gives:** *(to: players at [@name](../locations/new-village/pgr-farm/pgr-farm.md))* hook:events/hunt-with-dudka.md
+
 ### Neighbour's failure is numbers not skill
 - **Noticed by:** [Survival](../cards/survival.md)
 - **When:** setup:events/hunt-with-dudka.md

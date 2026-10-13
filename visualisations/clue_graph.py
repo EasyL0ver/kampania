@@ -295,7 +295,7 @@ def _parse_opportunity(line: str, rel: str, title: str) -> Node | None:
         return None
     text = re.sub(r"<!--.*?-->|→\s*Gives:.*$", "", line[2:])
     text = re.sub(r"\*\((?:when|noticed by):.*?\)\*|^\s*—\s*", "", text).strip(" —")
-    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"", text)
+    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
     words = text.split()
     name = " ".join(words[:6]) + ("…" if len(words) > 6 else "")
     if not name:
@@ -353,7 +353,7 @@ def _parse_action_block(htitle: str, body: list[str], rel: str, title: str, kind
         elif out_lines and line.strip():
             out_lines.append(line.strip())
 
-    gives_text = " ".join(gives_lines)
+    gives_text = re.sub(r"\*\(to: .+?\)\*", "", " ".join(gives_lines))   # the target is who, not what
     gives_known = parse_gives_known(gives_text, rel)
     learned_c = {c for _, c in gives_known}
     gives_clean = re.sub(r"NPC Learns:.*?(?:;|$)", "", gives_text)

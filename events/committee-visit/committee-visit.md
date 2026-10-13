@@ -14,7 +14,8 @@ The committee sets out for the valley.[](#the-visit-begins)
 
 ### The visit begins
 - **When:** setup:events/committee-visit/committee-visit.md
-- **Outcome:** The first morning begins with the drive in.
+- **Outcome:** [@hook](../the-car-in/the-car-in.md)
+- **Gives:** *(to: every player)* hook:events/the-car-in/the-car-in.md
 - **Changes:** [@name](day-1/day-1.md) — starts; [@name](day-1/day-1-morning.md) — starts; [@name](../the-car-in/the-car-in.md) — starts; [Phase cards](#phase-cards) — 12
 
 ## Mechanics

@@ -15,7 +15,8 @@ The afternoon of [@name](day-6.md) begins.[](#barbara-warns-the-players-begins)
 
 ### Barbara warns the players begins
 - **When:** setup:events/committee-visit/day-6/day-6-afternoon.md and [Bond: Barbara](../../../cards/bond-barbara.md)
-- **Outcome:** [@name](../../barbara-warns-the-players.md) begins.
+- **Outcome:** [@hook](../../barbara-warns-the-players.md)
+- **Gives:** *(to: holder of [Bond](../../../cards/bond-barbara.md))* hook:events/barbara-warns-the-players.md
 - **Changes:** [@name](../../barbara-warns-the-players.md) — starts
 
 ### Evening comes

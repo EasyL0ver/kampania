@@ -370,6 +370,11 @@ def when_format(f: MdFile):
                 if st.group(1) != f.rel:
                     yield line, f"When '{term}': setup: names the move's own file ({f.rel})"
                 continue
+            place = PLACE_LINK.match(term)
+            if place:                                 # [Place](locations/x.md) — a player is at (or inside) it
+                if not (f.path.parent / unquote(place.group(1))).resolve().is_file():
+                    yield line, f"When place '{term[:60]}' does not exist"
+                continue
             card = WHEN_CARD.match(term)
             if card:                                  # [Card](cards/x.md) — some player holds it
                 if not (f.path.parent / unquote(card.group(1))).resolve().is_file():
@@ -700,7 +705,10 @@ def noticed_by_format(f: MdFile):
 GIVES_FIELD = re.compile(r"^\s*-\s*\*\*Gives:\*\*\s*(.*?)\s*$")
 OPP_GIVES = re.compile(r"→\s*Gives:\s*(.*?)\s*(?=→\s*Changes:|<!--|$)")
 GIVES_JOIN = ", "
-GIVES_TO = re.compile(r"^\*\(to: ([^)]*)\)\*\s*")
+GIVES_TO = re.compile(r"^\*\(to: (.+?)\)\*\s*")      # up to the first ")*": targets hold links
+GIVES_HOLDER = re.compile(r"^holder of \[[^\]]+\]\(((?:\.\./)*cards/[a-z0-9-]+\.md)\)$")
+GIVES_AT = re.compile(r"^players at (.+)$")
+PLACE_LINK = re.compile(r"^\[[^\]]+\]\(((?:\.\./)*locations/[\w/-]+\.md)\)$")
 GIVES_TARGETS = ("everyone present", "every player")   # no tag: the acting (or noticing) player
 
 
@@ -990,6 +998,29 @@ def opportunity_format(f: MdFile):
             yield o.line, f"opportunity '{o.title}': fields out of order (Noticed by, When, Outcome, Gives, Changes)"
 
 
+def _check_target(line: int, target: str, f: "MdFile"):
+    """A Gives target: every player | everyone present | holder of [Card](cards/x.md) |
+    players at [Place](locations/x.md), [Place](…) — whoever is at (or inside) one of those places."""
+    if target in GIVES_TARGETS:
+        return
+    h = GIVES_HOLDER.match(target)
+    if h:
+        if not (f.path.parent / unquote(h.group(1))).resolve().is_file():
+            yield line, f"Gives target card '{h.group(1)}' does not exist"
+        return
+    at = GIVES_AT.match(target)
+    if at:
+        for place in at.group(1).split(", "):
+            pm = PLACE_LINK.match(place.strip())
+            if not pm:
+                yield line, f"Gives target place '{place[:50]}' is not a [Place](locations/x.md) link"
+            elif not (f.path.parent / unquote(pm.group(1))).resolve().is_file():
+                yield line, f"Gives target place '{pm.group(1)}' does not exist"
+        return
+    yield line, (f"Gives target '{target[:60]}' is not: every player, everyone present, "
+                 f"holder of [Card](cards/x.md), or players at [Place](locations/x.md), …")
+
+
 @rule("gives-format", "characters", "events", "locations", "items")
 def gives_format(f: MdFile):
     """Gives (action line or opportunity `→ Gives:`) is an optional target tag, `*(to: everyone present)*` or
@@ -1002,8 +1033,7 @@ def gives_format(f: MdFile):
         value = m.group(1).rstrip(".")
         to = GIVES_TO.match(value)
         if to:
-            if to.group(1) not in GIVES_TARGETS:
-                yield line, f"Gives target '{to.group(1)}' is not one of: {', '.join(GIVES_TARGETS)}"
+            yield from _check_target(line, to.group(1), f)
             value = value[to.end():]
         if not value:
             yield line, "empty Gives"
@@ -1301,6 +1331,9 @@ def entity_fields(path: Path) -> dict[str, int]:
         s = f.section("Setup")
         if s and any(t.strip() and not t.strip().startswith("<!--") for _, t in s.body):
             counts["setup"] = 1
+        h = f.section("Hook")
+        if h and any(t.strip() and not t.strip().startswith("<!--") for _, t in h.body):
+            counts["hook"] = 1
         for label in f.header:
             counts[field_label(label)] = counts.get(field_label(label), 0) + 1
         s = f.section("Vital Statistics")

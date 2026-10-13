@@ -20,15 +20,18 @@ The night of [@name](day-7.md) begins.[](#hags-prayer-begins)
 
 ### The game ends
 - **When:** [Phase cards](../committee-visit.md#phase-cards) is 0
-- **Outcome:** The seventh night is spent. The committee's time in the valley is over.
+- **Outcome:** [@hook](../../the-report.md)
+- **Gives:** *(to: every player)* hook:events/the-report.md
 - **Changes:** [@name](day-7-night.md) — ends; [@name](day-7.md) — ends; [@name](../committee-visit.md) — ends; [@name](../../the-report.md) — starts; [@name](../../hags-prayer.md) — ends
 
 ### The village drowns
 - **When:** [Phase cards](../committee-visit.md#phase-cards) is 0 and [Evacuate](../../../characters/jagna.md#evacuate) is false and [Fight](../../../characters/foreman.md#fight) is false
-- **Outcome:** Nobody got the village out and nobody opened the gap.
+- **Outcome:** [@hook](../../the-village-drowns.md)
+- **Gives:** *(to: every player)* hook:events/the-village-drowns.md
 - **Changes:** [@name](../../the-village-drowns.md) — starts
 
 ### The village forgets
 - **When:** [Phase cards](../committee-visit.md#phase-cards) is 0 and [Rest](../../../characters/hag.md#rest) is false and [Grace](../../../characters/priest.md#grace) is false
-- **Outcome:** The dead were never rested and nobody was forgiven.
+- **Outcome:** [@hook](../../the-village-forgets.md)
+- **Gives:** *(to: every player)* hook:events/the-village-forgets.md
 - **Changes:** [@name](../../the-village-forgets.md) — starts

@@ -28,6 +28,11 @@
 
 ## Opportunities
 
+### Arriving on the scene
+- **When:** [@name](../locations/new-village/new-village.md)
+- **Outcome:** [@hook](rezen-takes-the-body.md)
+- **Gives:** *(to: players at [@name](../locations/new-village/new-village.md))* hook:events/rezen-takes-the-body.md
+
 ### Fresh trail leads to Hołubie
 - **Noticed by:** [Survival](../cards/survival.md)
 - **When:** setup:events/rezen-takes-the-body.md

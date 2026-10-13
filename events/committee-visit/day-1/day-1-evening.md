@@ -15,7 +15,8 @@ The evening of [@name](day-1.md) begins.[](#dinner-begins)
 
 ### Dinner begins
 - **When:** setup:events/committee-visit/day-1/day-1-evening.md
-- **Outcome:** [@name](../../dinner.md) begins.
+- **Outcome:** [@hook](../../dinner.md)
+- **Gives:** *(to: every player)* hook:events/dinner.md
 - **Changes:** [@name](../../dinner.md) — starts
 
 ### Night falls

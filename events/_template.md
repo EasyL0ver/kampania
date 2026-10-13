@@ -24,6 +24,9 @@
      same way: each day phase (events/committee-visit/day-N/day-N-<phase>.md) holds one
      opportunity per event tied to that time (When: setup:<the phase>, plus any condition)
      and a closing one (When: [Phase cards] is 0) that ends the phase and starts the next.
+     The opportunity that starts an event delivers its Hook: Outcome [@hook](event.md), Gives
+     *(to: every player)* (broadcast) or *(to: holder of [Bond](…))*. A local Hook is delivered by
+     the event itself: an opportunity with When: [Place](…) and Gives *(to: players at [Place](…))*.
      Same-named actions fire together, each only if its own When holds: a plain one for what always
      happens, plus one per condition with only that condition's extra Changes.
      Actions that belong to a person or a place live in their file, and are open in every

@@ -15,7 +15,8 @@ The afternoon of [@name](day-4.md) begins.[](#priests-plea-begins)
 
 ### Priests plea begins
 - **When:** setup:events/committee-visit/day-4/day-4-afternoon.md and [Bond: Priest](../../../cards/bond-priest.md)
-- **Outcome:** [@name](../../priests-plea.md) begins.
+- **Outcome:** [@hook](../../priests-plea.md)
+- **Gives:** *(to: holder of [Bond](../../../cards/bond-priest.md))* hook:events/priests-plea.md
 - **Changes:** [@name](../../priests-plea.md) — starts
 
 ### Evening comes

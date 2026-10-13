@@ -22,6 +22,11 @@
 
 ## Opportunities
 
+### Arriving on the scene
+- **When:** [@name](../locations/new-village/new-village.md)
+- **Outcome:** [@hook](wujas-visits-butcher.md)
+- **Gives:** *(to: players at [@name](../locations/new-village/new-village.md))* hook:events/wujas-visits-butcher.md
+
 ### Wujas's regular edge house visits
 - **Noticed by:** [Finesse](../cards/finesse.md)
 - **When:** setup:events/wujas-visits-butcher.md

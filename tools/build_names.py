@@ -25,6 +25,7 @@ def raw_fields(path: Path) -> dict[str, str]:
     [@setup](file.md) shows that entity as it is seen, before anyone names it."""
     fields: dict[str, str] = {}
     setup: list[str] = []
+    hook: list[str] = []
     section = ""
     text_lines = re.sub(r"<!--.*?-->", "", path.read_text(encoding="utf-8-sig"), flags=re.S).splitlines()
     for line in text_lines:
@@ -32,6 +33,9 @@ def raw_fields(path: Path) -> dict[str, str]:
             fields["name"] = line[2:].strip()
         if line.startswith("## "):
             section = line[3:].strip()
+        elif section == "Hook" and line.strip():
+            text = line.strip().removeprefix("- ").strip()
+            hook.append(text if text.endswith((".", "!", "?")) else text + ".")
         elif section == "Setup" and line.strip() and (line.startswith("- ") or "characters" not in path.parts):
             # A character shows only its labelled lines (its paragraph is GM portrayal notes);
             # anything else shows its whole Setup, prose or bullets.
@@ -42,6 +46,8 @@ def raw_fields(path: Path) -> dict[str, str]:
             fields.setdefault(label(m.group(1)), m.group(2))
     if setup:
         fields["setup"] = " ".join(setup)
+    if hook:
+        fields["hook"] = " ".join(hook)
     return fields
 
 
