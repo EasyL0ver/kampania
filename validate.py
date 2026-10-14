@@ -24,9 +24,9 @@ from typing import Callable, Iterator
 from urllib.parse import unquote
 
 REPO_ROOT = Path(__file__).resolve().parent
-KINDS = ["characters", "characters/secondary", "events", "locations", "items", "cards"]
-SCENE_KINDS = ("characters", "events", "locations", "items", "cards")
-VALIDATED = ("characters", "events", "locations", "items")   # the only folders the validator reads
+KINDS = ["characters", "characters/secondary", "events", "locations", "items", "cards", "tags"]
+SCENE_KINDS = ("characters", "events", "locations", "items", "cards", "tags")
+VALIDATED = ("characters", "events", "locations", "items", "tags")   # the only folders the validator reads
 
 HEADING = re.compile(r"^(#{1,6})\s+(.*?)\s*$")
 HEADER_FIELD = re.compile(r"^\*\*([^*:]+):\*\*\s*(.*)$")
@@ -154,6 +154,7 @@ ALLOWED_SECTIONS = {
     "locations": ["Hook", "Setup", "Opportunities", "Actions", "Mechanics"],
     "items": ["Hook", "Setup", "Content", "Mechanics", "Opportunities", "Actions"],
     "cards": ["Card", "Special rules"],
+    "tags": ["Description", "Mechanics", "Opportunities", "Actions"],   # moves added to everything tagged
 }
 
 
@@ -196,7 +197,7 @@ def when_referenced() -> set[tuple[Path, str]]:
             g = parse(p)
             for _, t in g.lines_with_numbers():
                 m = WHEN_ACTION_FIELD.match(t)
-                for term in (m.group(1).split(" and ") if m else []):
+                for term in (when_terms(m.group(1))[0] if m else []):
                     tm = WHEN_TERM_LINK.match(term.strip())
                     if tm and not tm.group("value"):
                         dest = (p.parent / unquote(tm.group("path"))).resolve() if tm.group("path") else p.resolve()
@@ -204,7 +205,7 @@ def when_referenced() -> set[tuple[Path, str]]:
     return _when_refs
 
 
-@rule("action-fields", "characters", "events", "locations", "items")
+@rule("action-fields", "characters", "events", "locations", "items", "tags")
 def action_fields(f: MdFile):
     """Every ### action under ## Actions has Outcome, and an effect: Gives, Changes, or another move whose
     When names it (opening that move is what the action does)."""
@@ -220,7 +221,7 @@ def action_fields(f: MdFile):
             yield a.line, f"action '{a.title}' is missing: {', '.join(missing)}"
 
 
-@rule("prompted-by-present", "characters", "events", "locations", "items", severity="warning")
+@rule("prompted-by-present", "characters", "events", "locations", "items", "tags", severity="warning")
 def prompted_by_present(f: MdFile):
     """Every ### action under ## Actions has a hidden <!-- Prompted by: ... --> line."""
     s = f.section("Actions")
@@ -341,9 +342,160 @@ def action_anchors(path: Path) -> set[str]:
     return {slug(c.title) for c in (a.children if a else [])}
 
 
-@rule("when-format", "characters", "events", "locations", "items")
+WHEN_LINK = re.compile(r"\[[^\]]*\]\([^)]*\)")
+WHEN_OP = re.compile(r"(\(|\)|\bAND\b|\bOR\b|\bNOT\b)")
+
+
+# --------------------------------------------------------------------------
+# Boolean expressions: the one parser for When, Requires, Noticed by and Resolve conditions
+# --------------------------------------------------------------------------
+# expr := conj (OR conj)* ; conj := factor (AND factor)* ; factor := NOT factor | ( expr ) | term
+# A term is the text between operators; a [link](…) is one piece, so parentheses in its text never group.
+# Tree: ("or", [...]) | ("and", [...]) | ("not", node) | ("term", text). Each field checks its own terms.
+
+def parse_bool(value: str, allow_not: bool = True) -> tuple[tuple | None, str | None]:
+    """The expression's tree, and an error or None."""
+    links: list[str] = []
+    masked = WHEN_LINK.sub(lambda m: links.append(m.group(0)) or f"§{len(links) - 1}§", value)
+    restore = lambda t: re.sub(r"§(\d+)§", lambda m: links[int(m.group(1))], t)
+    tokens = [t.strip() for t in WHEN_OP.split(masked) if t.strip()]
+    pos = 0
+
+    def peek():
+        return tokens[pos] if pos < len(tokens) else None
+
+    def factor():
+        nonlocal pos
+        t = peek()
+        if t is None:
+            raise SyntaxError("ends where a term, NOT or '(' was expected")
+        if t == "NOT":
+            if not allow_not:
+                raise SyntaxError("NOT is not allowed here")
+            pos += 1
+            return ("not", factor())
+        if t == "(":
+            pos += 1
+            node = expr()
+            if peek() != ")":
+                raise SyntaxError("missing ')'")
+            pos += 1
+            return node
+        if t in ("AND", "OR", ")"):
+            raise SyntaxError(f"'{t}' where a term was expected")
+        pos += 1
+        return ("term", restore(t))
+
+    def chain(sub, op, tag):
+        nonlocal pos
+        items = [sub()]
+        while peek() == op:
+            pos += 1
+            items.append(sub())
+        return items[0] if len(items) == 1 else (tag, items)
+
+    def conj():
+        return chain(factor, "AND", "and")
+
+    def expr():
+        return chain(conj, "OR", "or")
+
+    if not tokens:
+        return None, None
+    try:
+        tree = expr()
+        if pos < len(tokens):
+            raise SyntaxError(f"unexpected '{restore(tokens[pos])[:40]}'")
+        return tree, None
+    except SyntaxError as e:
+        return None, str(e)
+
+
+def bool_terms(tree, negated: bool = False) -> list[tuple[bool, str]]:
+    """Every term in the tree, with whether an odd number of NOTs sits above it."""
+    if tree is None:
+        return []
+    kind, val = tree
+    if kind == "term":
+        return [(negated, val)]
+    if kind == "not":
+        return bool_terms(val, not negated)
+    return [t for sub in val for t in bool_terms(sub, negated)]
+
+
+def evaluate(tree, holds) -> bool:
+    """The tree's truth value, given holds(term_text) -> bool for each term."""
+    if tree is None:
+        return True
+    kind, val = tree
+    if kind == "term":
+        return holds(val)
+    if kind == "not":
+        return not evaluate(val, holds)
+    results = [evaluate(sub, holds) for sub in val]
+    return all(results) if kind == "and" else any(results)
+
+
+def when_terms(value: str) -> tuple[list[str], str | None]:
+    """A When's terms (a negated one prefixed "NOT ") and its grammar error, from parse_bool."""
+    tree, err = parse_bool(value)
+    return [("NOT " if neg else "") + t for neg, t in bool_terms(tree)], err
+
+
+PRESENT_TERM = re.compile(r"^\[@present\]\(([^)#\s]*characters/[^)#\s]+\.md)\)$")
+_sched: dict[Path, dict[str, Path | None]] = {}
+
+
+def schedule_of(char: Path) -> dict[str, Path | None]:
+    """phase -> the place a living character's schedule puts them (None = away)."""
+    if char not in _sched:
+        out = {}
+        s = parse(char).section("Vital Statistics")
+        for _, t in (s.body if s else []):
+            m = re.match(r"^\s*-\s*\*\*(Morning|Afternoon|Evening|Night):\*\*\s*(.*)$", t)
+            if m:
+                lk = re.search(r"\]\(([^)#\s]+\.md)\)", m.group(2))
+                out[m.group(1).lower()] = (char.parent / unquote(lk.group(1))).resolve() if lk else None
+        _sched[char] = out
+    return _sched[char]
+
+
+def presence(f: MdFile, char: Path) -> tuple[str, list[str] | str | None]:
+    """Where [@present](char) is read from, and what it says:
+    ("location", [phases the schedule puts them here or inside here]) — in a location file;
+    ("event", None | "" | condition) — in an event: not in Present / always / only under that condition;
+    ("other", None) — anywhere else."""
+    if f.kind == "locations":
+        here = f.path.resolve()
+        bundle = here.parent if here.stem == here.parent.name else None    # a bundle default covers its folder
+        return "location", [ph for ph, loc in schedule_of(char).items()
+                            if loc and (loc == here or (bundle and bundle in loc.parents))]
+    if f.kind == "events":
+        line, value = f.header.get("Present", (0, ""))
+        for part in re.split(r",\s*", value):
+            e = PRESENT_ENTRY.match(part.strip())
+            if e and (f.path.parent / unquote(e.group("who"))).resolve() == char:
+                cond = re.search(r"\(if (.*)\)$", part.strip())
+                return "event", cond.group(1) if cond else ""
+        return "event", None
+    return "other", None
+
+
+def presence_expansion(path: Path, char: Path) -> str:
+    """[@present](char) spelled out from its source of truth, for the tester and the GM."""
+    f = parse(path)
+    kind, what = presence(f, char)
+    if kind == "location":                            # the time of day is whichever phase event runs
+        tag = lambda ph: os.path.relpath(REPO_ROOT / "tags" / f"time-{ph}.md", path.parent).replace(os.sep, "/")
+        return " OR ".join(f"[{ph.capitalize()}]({tag(ph)})" for ph in what) or "never"
+    if kind == "event":
+        return "never" if what is None else (what or "always")
+    return "?"
+
+
+@rule("when-format", "characters", "events", "locations", "items", "tags")
 def when_format(f: MdFile):
-    """Every When is strict: terms joined by ' and ', each an action link [Action](file.md#anchor)
+    """Every When is strict: terms combined with AND, OR and parentheses, each an action link [Action](file.md#anchor)
     (the move opens as that action is taken), a mechanic condition [Mechanic](file.md#anchor) is value
     (ints and enums also take <, <=, >, >=; an enum compares by the order its values are declared in), or
     setup:<own file> (it holds as the scene opens: what the Setup shows), or a card link [Card](cards/x.md)
@@ -363,12 +515,47 @@ def when_format(f: MdFile):
             if mechanic_kind(dest, anchor):
                 return "mechanic"
             return None
-        for term in value.split(" and "):
-            term = term.strip()
+        terms, err = when_terms(value)
+        if err:
+            yield line, f"When: {err}"
+        for term in terms:
+            negated = term.startswith("NOT ")
+            term = term[4:] if negated else term
+            pr = PRESENT_TERM.match(term)
+            if pr:                                    # [@present](character.md) — read from schedule / Present
+                char = (f.path.parent / unquote(pr.group(1))).resolve()
+                pkind, what = presence(f, char) if char.is_file() else ("missing", None)
+                if pkind == "missing":
+                    yield line, f"When '{term[:60]}': no such character"
+                elif pkind == "other":
+                    yield line, f"When '{term[:60]}': [@present] only reads in a location (schedules) or an event (Present)"
+                elif pkind == "location" and not what:
+                    yield line, (f"When 'NOT {term[:55]}': their schedule never puts them here, so it always holds"
+                                 if negated else f"When '{term[:60]}': their schedule never puts them here")
+                elif pkind == "location" and negated and len(what) == len(PHASES):
+                    yield line, f"When 'NOT {term[:55]}': their schedule puts them here in every phase"
+                elif pkind == "event" and what is None:
+                    yield line, f"When '{term[:60]}': not in this event's Present"
+                elif pkind == "event" and negated and what == "":
+                    yield line, f"When 'NOT {term[:55]}': always present in this event"
+                continue
             st = PROMPTED_SETUP.match(term)
             if st:                                    # setup:<own file> — fires as the scene opens
                 if st.group(1) != f.rel:
                     yield line, f"When '{term}': setup: names the move's own file ({f.rel})"
+                continue
+            tagged = TAG_LINK.match(term)
+            if tagged:                                # [Tag](tags/x.md) — a running event carries this tag
+                tag = (f.path.parent / unquote(tagged.group(1))).resolve()
+                if not tag.is_file():
+                    yield line, f"When tag '{term[:60]}' does not exist"
+                elif "events" not in tag_applies_to(tag):
+                    yield line, f"When tag '{term[:60]}': only a tag that applies to events can be running"
+                continue
+            event = EVENT_LINK.match(term)
+            if event:                                 # [Event](events/x.md) — that event is running
+                if not (f.path.parent / unquote(event.group(1))).resolve().is_file():
+                    yield line, f"When event '{term[:60]}' does not exist"
                 continue
             place = PLACE_LINK.match(term)
             if place:                                 # [Place](locations/x.md) — a player is at (or inside) it
@@ -496,7 +683,7 @@ def moves_marked(f: MdFile):
         oid = slug(o.title)
         opp_ids.add(oid)
         when = next((m.group(1) for _, t in o.body if (m := WHEN_ACTION_FIELD.match(t))), "")
-        for term in when.split(" and "):
+        for term in when_terms(when)[0]:
             term = term.strip()
             st = PROMPTED_SETUP.match(term)
             if st and st.group(1) == f.rel and (me, oid) not in in_setup:
@@ -516,73 +703,26 @@ def moves_marked(f: MdFile):
 
 
 REQUIRES_FIELD = re.compile(r"^\s*-\s*\*\*Requires:\*\*\s*(.*?)\s*$")
-REQ_TOKEN = re.compile(r"\s*(\(|\)|AND\b|OR\b|\[[^\]]+\]\([^)\s]+\))")
 REQ_CARD = re.compile(r"^\[[^\]]+\]\(((?:\.\./)*(cards|items)/[a-z0-9-]+\.md|[a-z0-9-]+\.md)\)$")
 
 
-def _tokenize_requires(value: str):
-    """Split into tokens; returns (tokens, None) or (None, the unparseable rest)."""
-    tokens, pos = [], 0
-    while pos < len(value):
-        if value[pos:].strip() == "":
-            break
-        m = REQ_TOKEN.match(value, pos)
-        if not m:
-            return None, value[pos:].strip()
-        tokens.append(m.group(1))
-        pos = m.end()
-    return tokens, None
-
-
-def _parse_requires(tokens: list[str], kind: str, clues: bool = False) -> str | None:
-    """Recursive descent: expr := term (OR term)*; term := atom (AND atom)*;
-    atom := card/item link (or clue link, if clues) | ( expr ). Returns an error message or None."""
-    pos = 0
-
-    def atom():
-        nonlocal pos
-        if pos >= len(tokens):
-            return "expression ends where a card, item or '(' was expected"
-        t = tokens[pos]
-        if t == "(":
-            pos += 1
-            err = expr()
-            if err:
-                return err
-            if pos >= len(tokens) or tokens[pos] != ")":
-                return "missing ')'"
-            pos += 1
-            return None
-        m = REQ_CARD.match(t)
-        if (m and (m.group(2) or kind in ("cards", "items"))) or (clues and REQ_CLUE.match(t)):
-            pos += 1
-            return None
-        return f"'{t}' is not a card{', item or clue' if clues else ' or item'} link (or '(')"
-
-    def chain(sub, op):
-        nonlocal pos
-        err = sub()
-        while not err and pos < len(tokens) and tokens[pos] == op:
-            pos += 1
-            err = sub()
+def _check_gate(value: str, kind: str, clues: bool = False) -> str | None:
+    """Requires / Noticed by: a parse_bool expression (AND, OR, parentheses; no NOT) whose every term is
+    a card or item link (or a clue link, if clues). An error message or None."""
+    tree, err = parse_bool(value, allow_not=False)
+    if err:
         return err
-
-    def term():
-        return chain(atom, "AND")
-
-    def expr():
-        return chain(term, "OR")
-
-    err = expr()
-    if not err and pos < len(tokens):
-        err = f"unexpected '{tokens[pos]}'"
-    return err
+    for _, t in bool_terms(tree):
+        m = REQ_CARD.match(t)
+        if not ((m and (m.group(2) or kind in ("cards", "items"))) or (clues and REQ_CLUE.match(t))):
+            return f"'{t[:60]}' is not a card{', item or clue' if clues else ' or item'} link"
+    return None
 
 
 REQ_CLUE = re.compile(r"^\[`?([a-z0-9-]+)`?\]\((?:\.\./)*clues/clues\.md#\1\)$")
 
 
-@rule("requires-format", "characters", "events", "locations", "items")
+@rule("requires-format", "characters", "events", "locations", "items", "tags")
 def requires_format(f: MdFile):
     """Requires is a boolean expression over card/item links: AND, OR, ( ). Nothing required = no Requires line."""
     for line, t in f.lines_with_numbers():
@@ -593,11 +733,7 @@ def requires_format(f: MdFile):
         if not value:
             yield line, "empty Requires (omit the line instead)"
             continue
-        tokens, rest = _tokenize_requires(value)
-        if tokens is None:
-            yield line, f"Requires '{value}': cannot read '{rest[:60]}' (only card/item links, AND, OR, parentheses)"
-            continue
-        err = _parse_requires(tokens, f.kind)
+        err = _check_gate(value, f.kind)
         if err:
             yield line, f"Requires '{value}': {err}"
 
@@ -657,7 +793,7 @@ def rendered(text: str) -> str:
     return re.sub(r"\*\*|`", "", text).strip()
 
 
-@rule("prose-length", "characters", "events", "locations", "items", severity="warning")
+@rule("prose-length", "characters", "events", "locations", "items", "tags", severity="warning")
 def prose_length(f: MdFile):
     """Prose fields (Outcome, opportunity text, Setup and Hook bullets) are at most PROSE_LIMIT characters as rendered."""
     def check(line, label, text):
@@ -684,7 +820,7 @@ NOTICED_TAG = re.compile(r"\*\(noticed by:\s*(.*?)\)\*|^\s*-\s*\*\*Noticed by:\*
 OLD_REQ_TAG = re.compile(r"[`*]\(requires:")
 
 
-@rule("noticed-by-format", "characters", "events", "locations", "items")
+@rule("noticed-by-format", "characters", "events", "locations", "items", "tags")
 def noticed_by_format(f: MdFile):
     """Opportunities gate with `(noticed by: ...)` (card/item/clue links, AND, OR, ( )) and `(when: ...)`; never `(requires: ...)`."""
     s = f.section("Opportunities")
@@ -693,11 +829,7 @@ def noticed_by_format(f: MdFile):
             yield line, "opportunity uses `(requires: ...)`: split it into `(noticed by: ...)` and `(when: ...)`"
     for line, t in f.lines_with_numbers():
         for value in (a or b for a, b in NOTICED_TAG.findall(t)):
-            tokens, rest = _tokenize_requires(value)
-            if tokens is None:
-                yield line, f"noticed by '{value[:80]}': cannot read '{rest[:60]}' (only card/item/clue links, AND, OR, parentheses)"
-                continue
-            err = _parse_requires(tokens, f.kind, clues=True)
+            err = _check_gate(value, f.kind, clues=True)
             if err:
                 yield line, f"noticed by '{value[:80]}': {err}"
 
@@ -734,7 +866,7 @@ def mechanics_anchors(path: Path) -> set[str]:
     return _mech_anchors[path]
 
 
-@rule("changes-format", "characters", "events", "locations", "items")
+@rule("changes-format", "characters", "events", "locations", "items", "tags")
 def changes_format(f: MdFile):
     """Changes is a '; '-separated list: `[name](file.md#mechanics-heading) — short comment`, or a bare `[name](file.md#bond-check-anchor)` with no comment."""
     for line, t in f.lines_with_numbers():
@@ -777,7 +909,7 @@ MECH_PER = re.compile(r"^- \*\*Per:\*\* (world|player|npc)$")
 MECH_START = re.compile(r"^- \*\*Start:\*\* (?P<value>\S.*)$")
 
 
-@rule("mechanic-type", "characters", "events", "locations", "items")
+@rule("mechanic-type", "characters", "events", "locations", "items", "tags")
 def mechanic_type(f: MdFile):
     """Every ### under ## Mechanics opens with `- **Type:** bool | int | rule | list | enum (a | b | …)`;
     bool, int and enum follow it with `- **Per:** world | player | npc` (one value for the game, one per
@@ -863,7 +995,11 @@ def resolve_format(f: MdFile):
             yield line, f"Resolve line is not `- [conditions] → [Mechanic](file.md#anchor) = value`: {t[:70]}"
             continue
         left, _, right = t[2:].partition("→")
-        conds = [c.strip() for c in left.split(" and ")] if left.strip() else []
+        tree, gerr = parse_bool(left.strip()) if left.strip() else (None, None)
+        if gerr:
+            yield line, f"Resolve conditions: {gerr}"
+            continue
+        conds = [("NOT " if neg else "") + c for neg, c in bool_terms(tree)]
         parts = [(c, RESOLVE_COND.match(c), "condition") for c in conds] + [(right.strip(), RESOLVE_SET.match(right.strip()), "assignment")]
         for text, m, what in parts:
             if not m:
@@ -884,6 +1020,51 @@ def resolve_format(f: MdFile):
 PRESENT_ENTRY = re.compile(
     r"^\[[^\]]+\]\((?P<who>[^)\s#]*characters/[^)\s#]+\.md)\)"
     r"(?: \(if \[[^\]]+\]\((?P<path>[^)#\s]*)#(?P<anchor>[a-z0-9-]+)\) is (?P<value>[A-Za-z0-9-]+)\))?$")
+
+
+TAG_LINK = re.compile(r"^\[[^\]]+\]\(((?:\.\./)*tags/[a-z0-9-]+\.md)\)$")
+
+
+EVENT_LINK = re.compile(r"^\[[^\]]+\]\(((?:\.\./)*events/[\w/-]+\.md)\)$")
+TAG_KINDS = ("characters", "events", "locations", "items", "cards")
+
+
+def tag_applies_to(tag: Path) -> list[str]:
+    """The kinds a tag's **Applies to:** header allows."""
+    return [k.strip() for k in parse(tag).header.get("Applies to", (0, ""))[1].split(",") if k.strip()]
+
+
+@rule("tag-type", "tags")
+def tag_type(f: MdFile):
+    """A tag's **Applies to:** names the kinds of entity that may carry it: characters, events, locations,
+    items, cards (comma-separated)."""
+    line, value = f.header.get("Applies to", (0, ""))
+    for k in [k.strip() for k in value.split(",") if k.strip()]:
+        if k not in TAG_KINDS:
+            yield line, f"Applies to '{k}' is not one of: {', '.join(TAG_KINDS)}"
+
+
+@rule("tags-format", "characters", "events", "locations", "items", "cards")
+def tags_format(f: MdFile):
+    """Tags (an optional header on any entity) is a ', '-separated list of links to tags/<tag>.md files that
+    exist, each applying to this kind of entity (its **Applies to:**)."""
+    line, value = f.header.get("Tags", (0, ""))
+    if not line:
+        return
+    seen = set()
+    for part in value.split(", "):
+        m = TAG_LINK.match(part.strip())
+        if not m:
+            yield line, f"Tags entry '{part.strip()[:60]}' is not a [Tag](tags/x.md) link"
+            continue
+        dest = (f.path.parent / unquote(m.group(1))).resolve()
+        if not dest.is_file():
+            yield line, f"Tags: no tag file {m.group(1)}"
+        elif dest in seen:
+            yield line, f"Tags: {m.group(1)} listed twice"
+        elif f.kind not in tag_applies_to(dest):
+            yield line, f"Tags: {m.group(1)} applies to {', '.join(tag_applies_to(dest)) or 'nothing'}, not {f.kind}"
+        seen.add(dest)
 
 
 @rule("present-format", "events")
@@ -909,12 +1090,13 @@ def present_format(f: MdFile):
 
 
 # Header fields each kind carries between the title and the first ##: (template order, optional ones).
-HEADER_FIELDS = {
-    "characters": ([], []),              # no header: the folder says what it is, the Hook its role
-    "events": (["Part of", "Location", "Present"], ["Part of", "Present"]),
-    "locations": ([], []),               # no header: who is there comes from the characters' schedules
-    "items": ([], []),
-    "cards": (["Pool", "Type", "Composure"], []),
+HEADER_FIELDS = {                        # every entity may carry an optional Tags line, last
+    "characters": (["Tags"], ["Tags"]),  # no other header: the folder says what it is, the Hook its role
+    "events": (["Part of", "Location", "Present", "Tags"], ["Part of", "Present", "Tags"]),
+    "locations": (["Tags"], ["Tags"]),   # who is there comes from the characters' schedules
+    "items": (["Tags"], ["Tags"]),
+    "cards": (["Pool", "Type", "Composure", "Tags"], ["Tags"]),
+    "tags": (["Applies to"], []),        # what kind of entity may carry the tag
 }
 REQUIRED_SECTIONS = {
     "characters": ["Hook", "Vital Statistics", "Character"],
@@ -922,6 +1104,7 @@ REQUIRED_SECTIONS = {
     "locations": ["Hook", "Setup"],
     "items": ["Hook", "Setup"],
     "cards": ["Card"],
+    "tags": ["Description"],
 }
 HEADER_LINE = re.compile(r"^\*\*([^*:]+):\*\*\s*\S")
 
@@ -967,7 +1150,7 @@ OPP_REQUIRED = {"When", "Outcome"}
 FIELD_LABEL = re.compile(r"^\s*-\s*\*\*([^*:]+):\*\*")
 
 
-@rule("opportunity-format", "characters", "events", "locations", "items")
+@rule("opportunity-format", "characters", "events", "locations", "items", "tags")
 def opportunity_format(f: MdFile):
     """Each opportunity is a ### heading (its anchor), like an action, with fields in this order:
     - **Noticed by:** (optional), - **When:** (required), <!-- Prompted by: … --> (optional),
@@ -1021,7 +1204,7 @@ def _check_target(line: int, target: str, f: "MdFile"):
                  f"holder of [Card](cards/x.md), or players at [Place](locations/x.md), …")
 
 
-@rule("gives-format", "characters", "events", "locations", "items")
+@rule("gives-format", "characters", "events", "locations", "items", "tags")
 def gives_format(f: MdFile):
     """Gives (action line or opportunity `→ Gives:`) is an optional target tag, `*(to: everyone present)*` or
     `*(to: every player)*` (none: the acting / noticing player), then a ', '-separated list of what they
@@ -1052,14 +1235,14 @@ PROMPTED_FIELD = re.compile(r"^\s*-\s*\*\*Prompted by:\*\*\s*(.*?)\s*$")
 PROMPTED_JOIN = ", "
 PROMPTED_CLUE = re.compile(r"^\[`?([a-z0-9-]+)`?\]\((?:\.\./)*clues/clues\.md#([a-z0-9-]+)\)$")
 PROMPTED_AWARE = re.compile(r"^hook:(characters|events|locations|items)/[a-z0-9/-]+(?:\.md|/)$")   # a Gives hook: token
-PROMPTED_SETUP = re.compile(r"^setup:((?:characters|events|locations|items)/[a-z0-9/-]+\.md)$")
+PROMPTED_SETUP = re.compile(r"^setup:((?:characters|events|locations|items|tags)/[a-z0-9/-]+\.md)$")   # in a tag: the tagged entity's setup
 PROMPTED_HOOK = re.compile(r"^hook:((?:characters|events|locations|items)/[a-z0-9/-]+\.md)$")
 
 
 PROMPTED_TAG = re.compile(r"[`*]\(prompted by:\s*(.*?)\)[`*]", re.IGNORECASE)
 
 
-@rule("prompted-by-format", "characters", "events", "locations", "items")
+@rule("prompted-by-format", "characters", "events", "locations", "items", "tags")
 def prompted_by_format(f: MdFile):
     """Prompted by (hidden <!-- Prompted by: ... -->, own line in an action, line end on an opportunity) is a
     ', '-separated list of clue links [clue-id](../clues/clues.md#clue-id), setup:<file> (cued by what the move's
@@ -1103,7 +1286,7 @@ COST_COMPOSURE = re.compile(r"^[1-9]\d* composure$")
 COST_ITEM = re.compile(r"^\[[^\]]+\]\(((?:\.\./)*(?:items|cards)/[a-z0-9-]+\.md|[a-z0-9-]+\.md)\)$")
 
 
-@rule("action-cost", "characters", "events", "locations", "items")
+@rule("action-cost", "characters", "events", "locations", "items", "tags")
 def action_cost(f: MdFile):
     """Cost is 'N time', 'N composure', an [item](items/x.md) link (used up) or a [card](cards/x.md) link (given up), joined by ' + '. Free = no Cost line."""
     for line, t in f.lines_with_numbers():
@@ -1334,6 +1517,8 @@ def entity_fields(path: Path) -> dict[str, int]:
         h = f.section("Hook")
         if h and any(t.strip() and not t.strip().startswith("<!--") for _, t in h.body):
             counts["hook"] = 1
+        if f.kind == "characters":
+            counts["present"] = 1                     # [@present](character.md): a When term, read from schedules
         for label in f.header:
             counts[field_label(label)] = counts.get(field_label(label), 0) + 1
         s = f.section("Vital Statistics")
@@ -1381,7 +1566,7 @@ def field_refs(f: MdFile):
 ENTITY_LINK = re.compile(r"\[([^\]]*)\]\(((?:\.\./)*(?:(?:characters|locations|events|items)/)?[a-z0-9/-]+\.md)(#[^)]*)?\)")
 
 
-@rule("alias-only", "characters", "events", "locations", "items", "other", severity="warning")
+@rule("alias-only", "characters", "events", "locations", "items", "tags", "other", severity="warning")
 def alias_only(f: MdFile):
     """Outside an entity's own file, it is referred to only as [@field](its-file.md): no hard-coded names."""
     if f.kind == "other" and f.rel != "clues/clues.md":

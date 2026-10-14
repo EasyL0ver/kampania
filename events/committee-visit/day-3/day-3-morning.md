@@ -2,6 +2,7 @@
 
 **Part of:** [@name](day-3.md)
 **Location:** [@name](../../../locations/new-village/new-village.md)
+**Tags:** [@name](../../../tags/time-morning.md)
 
 ## Hook
 
@@ -32,7 +33,7 @@ The morning of [@name](day-3.md) begins.[](#the-flood-begins)[](#hunt-with-rezen
 ### Ciotka found dead begins
 - **When:** setup:events/committee-visit/day-3/day-3-morning.md
 - **Outcome:** [@name](../../ciotka-found-dead/ciotka-found-dead.md) begins.
-- **Changes:** [@name](../../ciotka-found-dead/ciotka-found-dead.md) — starts
+- **Changes:** [@name](../../ciotka-found-dead/ciotka-found-dead.md) — starts; [Alive](../../../characters/ciotka.md#alive) — false
 
 ### Glupek in the bunker begins
 - **When:** setup:events/committee-visit/day-3/day-3-morning.md
@@ -40,7 +41,7 @@ The morning of [@name](day-3.md) begins.[](#the-flood-begins)[](#hunt-with-rezen
 - **Changes:** [@name](../../edek-in-the-bunker.md) — starts
 
 ### Store robbery begins
-- **When:** setup:events/committee-visit/day-3/day-3-morning.md and [Cabinet](../../../locations/new-village/the-store.md#cabinet) is forced
+- **When:** setup:events/committee-visit/day-3/day-3-morning.md AND [Cabinet](../../../locations/new-village/the-store.md#cabinet) is forced
 - **Outcome:** [@hook](../../store-robbery.md)
 - **Gives:** *(to: every player)* hook:events/store-robbery.md
 - **Changes:** [@name](../../store-robbery.md) — starts; [Cabinet](../../../locations/new-village/the-store.md#cabinet) — discovered

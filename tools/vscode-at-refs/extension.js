@@ -19,12 +19,25 @@ function fieldsOf(file) {
   const hit = cache.get(file);
   if (hit && hit.mtime === stat.mtimeMs) return hit.fields;
   const fields = {};
-  const lines = fs.readFileSync(file, "utf8").replace(/^﻿/, "").split(/\r?\n/);
-  for (const line of lines) {
+  const text = fs.readFileSync(file, "utf8").replace(/^﻿/, "").replace(/<!--[\s\S]*?-->/g, "");
+  const isCharacter = file.split(path.sep).includes("characters");
+  const sentence = (t) => (/[.!?]$/.test(t) ? t : t + ".");
+  const hook = [], setup = [];
+  let section = "";
+  for (const line of text.split(/\r?\n/)) {
     if (!("name" in fields) && line.startsWith("# ")) fields.name = line.slice(2).trim();
+    if (line.startsWith("## ")) section = line.slice(3).trim();
+    else if (section === "Hook" && line.trim()) hook.push(sentence(line.trim().replace(/^- /, "")));
+    // A character's Setup shows only its labelled lines (the paragraph is GM notes); others show it all.
+    else if (section === "Setup" && line.trim() && (line.startsWith("- ") || !isCharacter))
+      setup.push(sentence(line.trim().replace(/^- /, "").replace(/^\*\*[^*:]+:\*\*\s*/, "")));
     const m = FIELD_LINE.exec(line);
     if (m && !(label(m[1]) in fields)) fields[label(m[1])] = m[2];
   }
+  // The same computed fields as tools/build_names.py: [@hook], [@setup], [@present].
+  if (hook.length) fields.hook = hook.join(" ");
+  if (setup.length) fields.setup = setup.join(" ");
+  if (isCharacter && fields.name) fields.present = `${fields.name} is here`;
   cache.set(file, { mtime: stat.mtimeMs, fields });
   return fields;
 }

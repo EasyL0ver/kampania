@@ -29,7 +29,7 @@ from pathlib import Path
 # --------------------------------------------------------------------------
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-SCENE_DIRS = ["locations", "events", "characters", "items"]
+SCENE_DIRS = ["locations", "events", "characters", "items", "tags"]   # a tag's moves are added to what it tags
 CLUES_FILE = REPO_ROOT / "clues" / "clues.md"
 
 # Canonical skill cards (story-facts/game-system.md -> The Cards).

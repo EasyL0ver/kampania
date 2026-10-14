@@ -1,5 +1,7 @@
 # KBW Rifle
 
+**Tags:** [@name](../tags/firearm.md)
+
 ## Hook
 
 - A KBW service rifle, hidden in the butcher's house.

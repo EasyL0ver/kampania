@@ -28,7 +28,8 @@
 "gives": "singing-in-the-night, spirits-are-restless",
 "changes": "Census — Stefania Kopacz, in the Kopacz household",
 "setup": "Faded black housedress, knitted shawl in every season, wool stockings sagging at the ankles. Thin white hair pinned back with one black hairpin; sharp Lemko cheekbones, pale grey eyes. Hunched almost double, rocking in her chair; gnarled hands curled from fieldwork. Woodsmoke and camphor; sudden hard focus between long stretches of muttering.",
-"hook": "Stefania Kopacz, an elderly woman living with Barbara and Pawełek."
+"hook": "Stefania Kopacz, an elderly woman living with Barbara and Pawełek.",
+"present": "Stefania Kopacz is here"
 },
 "characters/barbara.md": {
 "name": "Barbara Kopacz",
@@ -59,7 +60,8 @@
 "changes": "Census — Barbara Kopacz, Stefania Kopacz, and Pawełek Kopacz",
 "requires": "Violence OR Bureaucracy",
 "setup": "Faded floral housedress, oversized man's cardigan, rubber boots caked in mud. Soft brown hair in a loose practical bun; round face, high Lemko cheekbones, warm brown eyes. Leans in when she talks, touches arms, and fills space with unguarded warmth. Loud, friendly, and easy to overhear across the yard.",
-"hook": "Barbara Kopacz, a PGR worker and young mother, lives with her family in the red-brick house."
+"hook": "Barbara Kopacz, a PGR worker and young mother, lives with her family in the red-brick house.",
+"present": "Barbara Kopacz is here"
 },
 "characters/butcher.md": {
 "name": "Stanisław Rezeń",
@@ -90,7 +92,8 @@
 "cost": "1 time",
 "changes": "Census — Stanisław Rezeń, name and age only, remaining fields blank",
 "setup": "Clean pressed shirt, good boots, cologne; sharper dress than the village norm. Dark hair slicked back with lard; weathered red-brown face, wide smile, pale grey eyes. Broad-shouldered, stands too close, takes up too much space. He nearly always has one going, a fresh one lit off the last.. Warm baritone pitched for an audience; loud laughter that can stop without warning.",
-"hook": "Stanisław Rezeń, the village butcher and widely avoided pariah, lives alone beyond the treeline with his dogs."
+"hook": "Stanisław Rezeń, the village butcher and widely avoided pariah, lives alone beyond the treeline with his dogs.",
+"present": "Stanisław Rezeń is here"
 },
 "characters/ciotka.md": {
 "name": "Janina Gajda",
@@ -110,6 +113,9 @@
 "hair-&-face": "Thin grey hair hidden under the scarf; gaunt cheeks, permanent dark circles",
 "carriage": "Shoulders hunched, eyes down, flinches at raised voices; steadier at home with Edek Barnaś",
 "voice": "Thin and breathy in public; silence when frightened",
+"type": "bool",
+"per": "world",
+"start": "true",
 "when": "brought up her siblings, Read",
 "outcome": "At any mention of her siblings she flinches: she pulls tight, changes the subject, hands busy. The distance is hers and it costs her.",
 "gives": "ciotka-avoids-family",
@@ -117,7 +123,8 @@
 "cost": "1 time",
 "changes": "Census — Janina Gajda and Edek Barnaś",
 "setup": "Shapeless dark dresses buttoned to the throat; headscarf outdoors; a rosary in her apron pocket, worn to the string. Thin grey hair hidden under the scarf; gaunt cheeks, permanent dark circles. Shoulders hunched, eyes down, flinches at raised voices; steadier at home with Edek Barnaś. Thin and breathy in public; silence when frightened.",
-"hook": "Janina Gajda, a downtrodden, devout woman who keeps house with her son Edek, sister to the sołtys."
+"hook": "Janina Gajda, a downtrodden, devout woman who keeps house with her son Edek, sister to the sołtys.",
+"present": "Janina Gajda is here"
 },
 "characters/dispute-brother.md": {
 "name": "Kazimierz Wróbel",
@@ -144,7 +151,8 @@
 "cost": "1 time",
 "changes": "Census — Kazimierz, lorry driver, in his father's house",
 "setup": "Worn village jacket over a clean-ish shirt; boots that do not spend every day in a field. Short practical haircut, clean-shaven or a day's stubble; soft, tired, unremarkable face. Weight back, hands in pockets, unhurried. Plain and calm, without pleading or raised volume.",
-"hook": "Kazimierz, a lorry driver and deed-holder in a dispute over the border strip, lives in his late father's house."
+"hook": "Kazimierz, a lorry driver and deed-holder in a dispute over the border strip, lives in his late father's house.",
+"present": "Kazimierz Wróbel is here"
 },
 "characters/dispute-sister.md": {
 "name": "Danuta Bednarz (née Wróbel)",
@@ -172,7 +180,8 @@
 "changes": "Census — Danuta, in her husband's household",
 "gives": "army-massacred-civilians-in-1947",
 "setup": "Headscarf, heavy skirt, man's jacket, field boots; red cracked hands. Weathered younger than her years; hair pulled back hard; jaw set until the strip comes up. Strong, quick, and economical; arms fold tight when she speaks about her father. Blunt and tired, sharper when the deed is mentioned.",
-"hook": "Danuta, a farmer who has worked the disputed border strip for years, lives at her husband's family farmhouse."
+"hook": "Danuta, a farmer who has worked the disputed border strip for years, lives at her husband's family farmhouse.",
+"present": "Danuta Bednarz (née Wróbel) is here"
 },
 "characters/dmytro-kosach.md": {
 "name": "Dmytro Kosach",
@@ -187,7 +196,8 @@
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
 "setup": "Not specified. Not specified. Not specified.",
-"hook": "Dmytro Kosach, a UPA fighter from Hołubie, killed in the 1947 massacre."
+"hook": "Dmytro Kosach, a UPA fighter from Hołubie, killed in the 1947 massacre.",
+"present": "Dmytro Kosach is here"
 },
 "characters/driver.md": {
 "name": "kpr. Zdzisław Wrona",
@@ -205,7 +215,8 @@
 "type": "enum (neutral | owes-you | grudge)",
 "per": "player",
 "start": "neutral",
-"hook": "kpr. Zdzisław Wrona, the young Milicja corporal who drives por. Witold Skowron."
+"hook": "kpr. Zdzisław Wrona, the young Milicja corporal who drives por. Witold Skowron.",
+"present": "kpr. Zdzisław Wrona is here"
 },
 "characters/foreman.md": {
 "name": "Michał Pytlak",
@@ -234,7 +245,8 @@
 "changes": "Census — Michał, Zofia, Staszek",
 "requires": "Streambed Parameters",
 "setup": "Wool flat cap in all weather, oil-stained trousers held up by braces, collarless shirt. Short cropped hair under the cap; broad jaw, flat nose broken once and set crooked, small shrewd eyes under heavy brows. Stocky, barrel-chested, low to the ground; slight limp from an old tractor injury; hands drum, grip, and point.",
-"hook": "Michał Pytlak, the PGR farm overseer, directing work around the farm."
+"hook": "Michał Pytlak, the PGR farm overseer, directing work around the farm.",
+"present": "Michał Pytlak is here"
 },
 "characters/glupek.md": {
 "name": "Edek Barnaś",
@@ -264,7 +276,8 @@
 "cost": "1 time",
 "changes": "Census — Edek Barnaś, in Janina Gajda's household",
 "setup": "Always too small — trousers ending above the ankle, sleeves too short; whatever his aunt can find. Blond hair cropped unevenly by his aunt's kitchen scissors; soft round boy's face, pale blue eyes. Huge for seventeen, with man's shoulders and boy's movements; moves slowly and goes still when frightened.",
-"hook": "Edek Barnaś, Janina Gajda's large, simple-minded son and dependent."
+"hook": "Edek Barnaś, Janina Gajda's large, simple-minded son and dependent.",
+"present": "Edek Barnaś is here"
 },
 "characters/hag.md": {
 "name": "Paraskewia Chyłak",
@@ -292,7 +305,8 @@
 "gives": "hag-is-lemko",
 "changes": "Census — Paraskewia Chyłak, Lemko, living in the forest",
 "setup": "Layers of patched wool and linen in forest colours — browns, greys, faded greens. Iron-grey hair hidden under a dark headscarf; deeply lined face, dark watchful eyes. Silent footfall, sudden arrivals, and the stillness of someone who has hidden for twenty years.",
-"hook": "Paraskewia Chyłak, an old Lemko woman who lives alone in the forest."
+"hook": "Paraskewia Chyłak, an old Lemko woman who lives alone in the forest.",
+"present": "Paraskewia Chyłak is here"
 },
 "characters/jagna.md": {
 "name": "Hania Barnaś",
@@ -314,7 +328,8 @@
 "per": "world",
 "start": "false",
 "setup": "Better-kept than the village expected from the Barnaś house; plain skirts and blouses worn with deliberate neatness. Dark hair pinned or braided tight; bright, watchful eyes; a face that looked older when she was listening. Quick, upright, and slightly defiant; she held eye contact too long for village comfort. On the line, flat and professional: \"Exchange. Number, please.\" \"Hold for the connection.\" \"Go ahead.\".",
-"hook": "Hania Barnaś, Edward Barnaś's daughter, missing since 1954."
+"hook": "Hania Barnaś, Edward Barnaś's daughter, missing since 1954.",
+"present": "Hania Barnaś is here"
 },
 "characters/junior.md": {
 "name": "Marek Gajda",
@@ -342,7 +357,8 @@
 "cost": "1 time",
 "changes": "Census — Marek Gajda, in his father's household",
 "setup": "Newer leather jacket over a dark turtleneck, scuffed boots, jeans when he can get them. Dark hair grown longer than the village approves of, swept back with Brylcreem; sharp jaw, father's hard eyes. Lean, wiry, unable to sit still; shifts weight, drums fingers, cracks knuckles.",
-"hook": "Marek Gajda, the sołtys's hot-tempered young son."
+"hook": "Marek Gajda, the sołtys's hot-tempered young son.",
+"present": "Marek Gajda is here"
 },
 "characters/kbw-officer.md": {
 "name": "kpt. Henryk Ćwiek",
@@ -359,7 +375,8 @@
 "hair-&-face": "Regulation haircut; clean-shaven face; hard officer's stare.",
 "carriage": "Upright, clipped, and used to command; he occupied space as state authority.",
 "setup": "KBW field uniform, officer belt, service boots, and rank insignia. Regulation haircut; clean-shaven face; hard officer's stare. Upright, clipped, and used to command; he occupied space as state authority.",
-"hook": "kpt. Henryk Ćwiek, a KBW officer, dead since 1947."
+"hook": "kpt. Henryk Ćwiek, a KBW officer, dead since 1947.",
+"present": "kpt. Henryk Ćwiek is here"
 },
 "characters/marta-konieczna.md": {
 "name": "Marta Konieczna",
@@ -375,7 +392,8 @@
 "hair-&-face": "Not described in surviving campaign material.",
 "carriage": "Remembered only as the mother of both Barnaś children.",
 "setup": "Not present in 1967; any description comes through records, objects, or testimony. Not described in surviving campaign material. Remembered only as the mother of both Barnaś children.",
-"hook": "Marta Konieczna, the woman who lived with Edward Barnaś; gone with the family since 1954."
+"hook": "Marta Konieczna, the woman who lived with Edward Barnaś; gone with the family since 1954.",
+"present": "Marta Konieczna is here"
 },
 "characters/matrona.md": {
 "name": "Helena Rzepka (née Gajda)",
@@ -403,7 +421,8 @@
 "changes": "Census — Helena, Emil, Ewa, Krystian Rzepka",
 "gives": "helena-demands-the-census",
 "setup": "Immaculate dark clothes — cardigan buttoned to the throat, always an apron, small crucifix at her collar. Dark hair pinned tight beneath a headscarf; thin lips, pale grey unblinking eyes. Tall, straight-backed, and economical; hands busy with rosary, knitting, or wiping something already clean.",
-"hook": "Helena Rzepka, the devout woman who runs the village store."
+"hook": "Helena Rzepka, the devout woman who runs the village store.",
+"present": "Helena Rzepka (née Gajda) is here"
 },
 "characters/neighbour.md": {
 "name": "Ryszard Dudka",
@@ -432,7 +451,8 @@
 "when": "He liked the players; they ask who came to Janina's house before she died",
 "requires": "Empathy OR Speech",
 "setup": "Wool trousers held up by braces, flannel shirt with sleeves rolled in summer, heavy boots — same outfit every day. Flat cap he rarely removes; pale blue eyes, strong jaw, three-day stubble that never becomes a beard. Lean hunter's build, quiet even indoors; shoulders slightly forward, watches hands and posture more than faces.",
-"hook": "Ryszard Dudka, a quiet farmer and licensed hunter, lives next door to Janina Gajda."
+"hook": "Ryszard Dudka, a quiet farmer and licensed hunter, lives next door to Janina Gajda.",
+"present": "Ryszard Dudka is here"
 },
 "characters/officer.md": {
 "name": "por. Witold Skowron",
@@ -454,7 +474,8 @@
 "gives": "government-committee, solina-dam-construction-almost-finished, other-villages-ready-for-evacuation, the-flood-line-potentially-miscalculated, hook:characters/professor.md",
 "requires": "Committee Census Register",
 "setup": "Grey wool overcoat, pressed shirt and tie, polished shoes wrong for village mud. Clean-shaven, hair clipped short with geometric precision; forgettable features, but dark, intelligent eyes give him away. Compact military posture he can't switch off; shoulders square, chin up, hands clasped behind his back when listening.",
-"hook": "por. Witold Skowron, an official from outside the village who arrives by car on state business."
+"hook": "por. Witold Skowron, an official from outside the village who arrives by car on state business.",
+"present": "por. Witold Skowron is here"
 },
 "characters/painter.md": {
 "name": "Emil Rzepka",
@@ -482,7 +503,8 @@
 "cost": "1 time",
 "changes": "Census — Emil Rzepka, painter, in the Rzepka household",
 "setup": "Paint-spattered work clothes in the garden shed; downstairs, dressed neatly in whatever Helena lays out for him. Thinning grey hair, paint-flecked at the temples; gaunt cheeks, watery blue eyes that won't hold a gaze. Thin, stooped, and wall-hugging; moves tentatively, flinches at sudden movement, makes himself small.",
-"hook": "Emil Rzepka, Helena's withdrawn husband and a local painter, works in the garden shed."
+"hook": "Emil Rzepka, Helena's withdrawn husband and a local painter, works in the garden shed.",
+"present": "Emil Rzepka is here"
 },
 "characters/pawelek.md": {
 "name": "Pawełek Kopacz",
@@ -514,7 +536,8 @@
 "cost": "1 time",
 "changes": "Play with him",
 "setup": "Oversized hand-me-down shirt with rolled sleeves, shorts held up with twine, bare feet black with mud, his only shoes left by the door caked in dark mud, pockets full of stones and dead beetles. Sandy-brown hair cut unevenly with kitchen scissors and always in his eyes; round face, gap-toothed grin, skinned knees. Runs everywhere, climbs everything, grabs your hand and drags you; no concept of personal space or boundaries.",
-"hook": "Pawełek Kopacz, Barbara's lively four-year-old son."
+"hook": "Pawełek Kopacz, Barbara's lively four-year-old son.",
+"present": "Pawełek Kopacz is here"
 },
 "characters/priest.md": {
 "name": "ks. Władysław Pająk",
@@ -542,7 +565,8 @@
 "changes": "Census — ks. Władysław Pająk",
 "requires": "Loaded",
 "setup": "Black cassock daily, brushed, collar a stark white line; in cold weather a heavy wool overcoat and black beret. Receding hairline, dark hair combed back, clean-shaven; long narrow face, deep-set brown eyes that hold yours too long. Tall and slightly stooped; bends to listen, moves slowly, and makes people orient around his stillness.",
-"hook": "ks. Władysław Pająk, the village's Roman Catholic priest, found at the church and rectory."
+"hook": "ks. Władysław Pająk, the village's Roman Catholic priest, found at the church and rectory.",
+"present": "ks. Władysław Pająk is here"
 },
 "characters/professor.md": {
 "name": "prof. Tadeusz Bieńkowski",
@@ -567,7 +591,8 @@
 "outcome": "The party describes the sill height at the crest and the packed clay and shattered rock behind it. He judges the water can neither top the plug nor seep through it into Jasielnik Basin, and documents the ridge gap as a dead outlet.",
 "gives": "gap-is-blocked",
 "setup": "Corduroy jacket with leather elbow patches, shirt pocket full of pens, city shoes wrong for fieldwork. Thinning hair combed to one side, wire-rimmed glasses sliding down a narrow nose, ink-stained fingers. Lean, restless academic energy; forgets to eat, talks with both hands when excited.",
-"hook": "prof. Tadeusz Bieńkowski, a Kraków hydrologist tied to the Solina Dam project, reachable via the telephone exchange."
+"hook": "prof. Tadeusz Bieńkowski, a Kraków hydrologist tied to the Solina Dam project, reachable via the telephone exchange.",
+"present": "prof. Tadeusz Bieńkowski is here"
 },
 "characters/radioman.md": {
 "name": "Bolesław Kurek",
@@ -598,7 +623,8 @@
 "requires": "Concrete Ditch Measurements AND Dugout Measurements",
 "changes": "Census — Bolesław, former schoolteacher",
 "setup": "Grey suit jacket gone shiny at the elbows, the last relic of the teacher he was, over peasant trousers and a collarless shirt; nothing fits, nothing is clean. Grey stubble he shaves twice a week; wire spectacles mended with copper wire; broken veins across the nose; eyes still sharp when drink has not dulled them. Stands too straight when making a point, then folds again; hands tremble until the first glass steadies them.",
-"hook": "The village drunk who was once its schoolteacher, loud against the authorities to anyone who'll share a bottle."
+"hook": "The village drunk who was once its schoolteacher, loud against the authorities to anyone who'll share a bottle.",
+"present": "Bolesław Kurek is here"
 },
 "characters/sawicki.md": {
 "name": "dr Leon Sawicki",
@@ -621,7 +647,8 @@
 "outcome": "Hearing only fever and aches, Sawicki judges it an ordinary fever going round after the flood. He expects it to pass and says to keep the child cool and watered.",
 "gives": "pawelek-looks-like-common-fever",
 "setup": "Not seen. Not seen. Voice only, on a bad line.",
-"hook": "dr Leon Sawicki, the nearest doctor, reachable only by telephone."
+"hook": "dr Leon Sawicki, the nearest doctor, reachable only by telephone.",
+"present": "dr Leon Sawicki is here"
 },
 "characters/soldier.md": {
 "name": "Edward Barnaś",
@@ -637,7 +664,8 @@
 "hair-&-face": "Not described in surviving campaign material.",
 "carriage": "Remembered as steady, hard-working, and devoted to his children.",
 "setup": "Not present in 1967; any description comes through records, objects, or testimony. Not described in surviving campaign material. Remembered as steady, hard-working, and devoted to his children.",
-"hook": "Edward Barnaś, an early settler of Testowo, gone since 1954."
+"hook": "Edward Barnaś, an early settler of Testowo, gone since 1954.",
+"present": "Edward Barnaś is here"
 },
 "characters/tadeusz-mazur.md": {
 "name": "Tadeusz Mazur",
@@ -649,7 +677,8 @@
 "lived-in": "Testowo — a small house near the church, with Wanda Mazur",
 "family": "Husband of Wanda Mazur",
 "records": "Still listed in the PGR Worker Registry as a current farm labourer drawing wages",
-"hook": "Tadeusz Mazur, Wanda Mazur's late husband, a labourer on the PGR farm."
+"hook": "Tadeusz Mazur, Wanda Mazur's late husband, a labourer on the PGR farm.",
+"present": "Tadeusz Mazur is here"
 },
 "characters/widow.md": {
 "name": "Wanda Mazur",
@@ -675,7 +704,8 @@
 "changes": "Census — Wanda Mazur, widow",
 "requires": "Bond: Wanda Mazur",
 "setup": "Same brown wool coat regardless of season; faded floral headscarf tied tight under the chin. Thin grey hair under the scarf; deeply lined face, pale watery eyes slightly unfocused. Small and thinning; moves as if afraid of disturbing someone.",
-"hook": "Wanda Mazur, the grieving widow of a PGR worker, lives alone in a small house near the church."
+"hook": "Wanda Mazur, the grieving widow of a PGR worker, lives alone in a small house near the church.",
+"present": "Wanda Mazur is here"
 },
 "characters/wife.md": {
 "name": "Irena Gajda",
@@ -703,7 +733,8 @@
 "gives": "jagna-painter-affair, ciotka-lives-in-soldiers-house",
 "changes": "Two Phases — TBD",
 "setup": "Pressed blouses, wool skirts without patches; dresses better than most village women. Dark hair pulled back in a severe bun going grey at the temples; angular face, high cheekbones. Tall, straight posture; hands always busy while her eyes watch the room.",
-"hook": "Irena Gajda, the sołtys's wife."
+"hook": "Irena Gajda, the sołtys's wife.",
+"present": "Irena Gajda is here"
 },
 "characters/wojewoda.md": {
 "name": "Zbigniew Gajda",
@@ -733,7 +764,8 @@
 "changes": "Census — Zbigniew, Irena, Marek",
 "requires": "Bond: Zbigniew Gajda",
 "setup": "Pressed trousers, polished shoes, wool vest over white shirt even in summer. Thinning grey-black hair combed straight back with water; thick grey moustache neatly trimmed; heavy brows over sharp dark eyes. Stocky and barrel-chested; feet planted, hands behind his back, taking space deliberately.",
-"hook": "Zbigniew Gajda, the village sołtys and principal official, received at his house or office."
+"hook": "Zbigniew Gajda, the village sołtys and principal official, received at his house or office.",
+"present": "Zbigniew Gajda is here"
 },
 "characters/wujas.md": {
 "name": "Tadek Gajda",
@@ -763,7 +795,8 @@
 "cost": "1 time",
 "changes": "Drinking Buddy — the drinking PCs become Tadek's drinking buddies",
 "setup": "Checked shirt with rolled sleeves, old marynarka with elbow patches, maciejówka cap cocked forward. Still handsome under the wear; unshaven, bloodshot eyes visible up close. Lean and rangy; moves loose and easy, like he is still the life of the party.",
-"hook": "Tadek Gajda, the sołtys's brother and the village drunk, rarely without a bottle."
+"hook": "Tadek Gajda, the sołtys's brother and the village drunk, rarely without a bottle.",
+"present": "Tadek Gajda is here"
 },
 "characters/zofia.md": {
 "name": "Zofia Pytlak",
@@ -788,7 +821,8 @@
 "cost": "1 time",
 "changes": "Census — Zofia, Michał, Staszek Pytlak",
 "setup": "Flour-dusted apron over a faded print dress; always looks like she just left the stove. Dark hair pinned up loosely, strands escaping; round face, deep laugh lines around brown eyes. Sturdy, broad red hands always in motion — stirring, kneading, wiping a child's face.",
-"hook": "Zofia Pytlak, the warm, well-liked PGR cook."
+"hook": "Zofia Pytlak, the warm, well-liked PGR cook.",
+"present": "Zofia Pytlak is here"
 },
 "characters/secondary/ewa-rzepka.md": {
 "name": "Ewa Rzepka",
@@ -807,7 +841,8 @@
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
 "setup": "Not specified. Not specified. Not specified.",
-"hook": "Ewa Rzepka, the eldest child of Helena Rzepka (née Gajda) and Emil Rzepka."
+"hook": "Ewa Rzepka, the eldest child of Helena Rzepka (née Gajda) and Emil Rzepka.",
+"present": "Ewa Rzepka is here"
 },
 "characters/secondary/franek-mucha.md": {
 "name": "Franek Mucha",
@@ -826,7 +861,8 @@
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
 "setup": "Not specified. Not specified. Not specified.",
-"hook": "Franek Mucha, a village drunk and brawler, one of Tadek Gajda's drinking crew."
+"hook": "Franek Mucha, a village drunk and brawler, one of Tadek Gajda's drinking crew.",
+"present": "Franek Mucha is here"
 },
 "characters/secondary/halina-zajac.md": {
 "name": "Halina Zając",
@@ -850,7 +886,8 @@
 "outcome": "Nobody reads the village like the woman at the till. She rattles off who buys what: the cheap Sport that Tadek Gajda and half the valley burn through, and the pricey Carmen Cigarette Butts only two men ever pay for, the Gajda boy Marek Gajda and the butcher Stanisław Rezeń. The brand marks the man, and she keeps the accounts in her head.",
 "gives": "junior-smokes-carmen, butcher-smokes-carmen, tadek-smokes-cheapest",
 "setup": "Not specified. Not specified. Not specified.",
-"hook": "Halina Zając, the woman behind the counter at Helena Rzepka (née Gajda)'s store."
+"hook": "Halina Zając, the woman behind the counter at Helena Rzepka (née Gajda)'s store.",
+"present": "Halina Zając is here"
 },
 "characters/secondary/jozef-nowak.md": {
 "name": "Józef Nowak",
@@ -870,7 +907,8 @@
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
 "setup": "Not specified. Not specified. Not specified.",
-"hook": "Józef Nowak, a farmhand at the PGR farm."
+"hook": "Józef Nowak, a farmhand at the PGR farm.",
+"present": "Józef Nowak is here"
 },
 "characters/secondary/krystian-rzepka.md": {
 "name": "Krystian Rzepka",
@@ -889,7 +927,8 @@
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
 "setup": "Not specified. Not specified. Not specified.",
-"hook": "Krystian Rzepka, the youngest Rzepka child, altar boy at the church."
+"hook": "Krystian Rzepka, the youngest Rzepka child, altar boy at the church.",
+"present": "Krystian Rzepka is here"
 },
 "characters/secondary/piotr-wisniewski.md": {
 "name": "Piotr Wiśniewski",
@@ -909,7 +948,8 @@
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
 "setup": "Not specified. Not specified. Not specified.",
-"hook": "Piotr Wiśniewski, a young farmhand at the PGR farm."
+"hook": "Piotr Wiśniewski, a young farmhand at the PGR farm.",
+"present": "Piotr Wiśniewski is here"
 },
 "characters/secondary/romek-glowacz.md": {
 "name": "Romek Głowacz",
@@ -928,7 +968,8 @@
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
 "setup": "Not specified. Not specified. Not specified.",
-"hook": "Romek Głowacz, a village drunk, one of Tadek Gajda's drinking crew."
+"hook": "Romek Głowacz, a village drunk, one of Tadek Gajda's drinking crew.",
+"present": "Romek Głowacz is here"
 },
 "characters/secondary/staszek-pytlak.md": {
 "name": "Staszek Pytlak",
@@ -953,7 +994,8 @@
 "gives": "pawelek-mushrooms-were-harmless",
 "cost": "1 time",
 "setup": "Not specified. Not specified. Not specified.",
-"hook": "Staszek Pytlak, a small village boy, Pawełek Kopacz's playmate."
+"hook": "Staszek Pytlak, a small village boy, Pawełek Kopacz's playmate.",
+"present": "Staszek Pytlak is here"
 },
 "characters/secondary/szymek-kepa.md": {
 "name": "Szymek Kępa",
@@ -972,7 +1014,8 @@
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
 "setup": "Not specified. Not specified. Not specified.",
-"hook": "Szymek Kępa, a village drunk, one of Tadek Gajda's drinking crew."
+"hook": "Szymek Kępa, a village drunk, one of Tadek Gajda's drinking crew.",
+"present": "Szymek Kępa is here"
 },
 "locations/big-basin.md": {
 "name": "Jasielnik Basin",
@@ -1216,7 +1259,7 @@
 "locations/new-village/wojewodas-house.md": {
 "name": "Wojewoda's House",
 "noticed-by": "Medicine",
-"when": "Zbigniew Gajda home",
+"when": "Zbigniew Gajda is here",
 "outcome": "Zbigniew's ribs show an old badly healed injury from a single heavy blow.",
 "gives": "wojewoda-was-hurt-that-night",
 "setup": "The house is the largest in Testowo. The construction is solid by village standards. The house has a proper kitchen and a main room used for dining. Family photos hang on the wall. A crucifix hangs in the house. A small dark wooden icon sits among the Catholic imagery.. Irena Gajda keeps the house spotless. Tea is offered to visitors.. Zbigniew Gajda's office, phone, maps, and paperwork are at the PGR Office. If Zbigniew is home in the evening, he moves stiffly through one shoulder and twists slowly.",
@@ -1919,7 +1962,7 @@
 "when": "setup:events/committee-visit/committee-visit.md",
 "outcome": "A Milicja van winding down the mountain road through the rain.",
 "gives": "*(to: every player)* hook:events/the-car-in/the-car-in.md",
-"changes": "Day 1 — starts; Day 1 — Morning — starts; The Car In — starts; Phase cards — 12",
+"changes": "Day 1 — starts; Day 1 — Morning — starts; The Car In — starts; Phase cards — 12; Phase — morning",
 "type": "int",
 "per": "world",
 "start": "12",
@@ -1973,9 +2016,10 @@
 "name": "Day 1 — Afternoon",
 "part-of": "Day 1",
 "location": "Testowo",
+"tags": "Afternoon",
 "when": "Phase cards is 0",
 "outcome": "The afternoon is spent.",
-"changes": "Day 1 — Afternoon — ends; Day 1 — Evening — starts; Phase cards — 12",
+"changes": "Day 1 — Afternoon — ends; Day 1 — Evening — starts; Phase cards — 12; Phase — evening",
 "setup": "The afternoon of Day 1 begins.",
 "hook": "TBD."
 },
@@ -1983,6 +2027,7 @@
 "name": "Day 1 — Evening",
 "part-of": "Day 1",
 "location": "Testowo",
+"tags": "Evening",
 "when": "setup:events/committee-visit/day-1/day-1-evening.md",
 "outcome": "Zofia Pytlak sets the table. Food smell reaches the office or upstairs rooms.",
 "gives": "*(to: every player)* hook:events/dinner.md",
@@ -1994,9 +2039,10 @@
 "name": "Day 1 — Morning",
 "part-of": "Day 1",
 "location": "Testowo",
+"tags": "Morning",
 "when": "Phase cards is 0",
 "outcome": "The morning is spent.",
-"changes": "Day 1 — Morning — ends; Day 1 — Afternoon — starts; Phase cards — 12",
+"changes": "Day 1 — Morning — ends; Day 1 — Afternoon — starts; Phase cards — 12; Phase — afternoon",
 "setup": "The morning of Day 1 begins.",
 "hook": "TBD."
 },
@@ -2004,10 +2050,11 @@
 "name": "Day 1 — Night",
 "part-of": "Day 1",
 "location": "Testowo",
-"when": "setup:events/committee-visit/day-1/day-1-night.md",
-"outcome": "Hag's Prayer begins.",
-"changes": "Hag's Prayer — starts",
-"setup": "The night of Day 1 begins..",
+"tags": "Night",
+"when": "Phase cards is 0",
+"outcome": "The night is spent.",
+"changes": "Day 1 — Night — ends; Day 1 — ends; Day 2 — starts; Day 2 — Morning — starts; Hag's Prayer — ends; Phase cards — 12; Phase — morning",
+"setup": "The night of Day 1 begins.",
 "hook": "TBD."
 },
 "events/committee-visit/day-1/day-1.md": {
@@ -2021,6 +2068,7 @@
 "name": "Day 2 — Afternoon",
 "part-of": "Day 2",
 "location": "Testowo",
+"tags": "Afternoon",
 "when": "setup:events/committee-visit/day-2/day-2-afternoon.md",
 "outcome": "Wujas Visits the Butcher begins.",
 "changes": "Wujas Visits the Butcher — starts",
@@ -2031,9 +2079,10 @@
 "name": "Day 2 — Evening",
 "part-of": "Day 2",
 "location": "Testowo",
+"tags": "Evening",
 "when": "Phase cards is 0",
 "outcome": "The evening is spent.",
-"changes": "Day 2 — Evening — ends; Day 2 — Night — starts; Phase cards — 12",
+"changes": "Day 2 — Evening — ends; Day 2 — Night — starts; Phase cards — 12; Phase — night",
 "setup": "The evening of Day 2 begins.",
 "hook": "TBD."
 },
@@ -2041,6 +2090,7 @@
 "name": "Day 2 — Morning",
 "part-of": "Day 2",
 "location": "Testowo",
+"tags": "Morning",
 "when": "setup:events/committee-visit/day-2/day-2-morning.md",
 "outcome": "The Wolf Attack begins.",
 "changes": "The Wolf Attack — starts",
@@ -2052,10 +2102,11 @@
 "name": "Day 2 — Night",
 "part-of": "Day 2",
 "location": "Testowo",
-"when": "setup:events/committee-visit/day-2/day-2-night.md",
-"outcome": "Hag's Prayer begins.",
-"changes": "Hag's Prayer — starts",
-"setup": "The night of Day 2 begins..",
+"tags": "Night",
+"when": "Phase cards is 0",
+"outcome": "The night is spent.",
+"changes": "Day 2 — Night — ends; Day 2 — ends; Day 3 — starts; Day 3 — Morning — starts; Hag's Prayer — ends; Phase cards — 12; Phase — morning",
+"setup": "The night of Day 2 begins.",
 "hook": "TBD."
 },
 "events/committee-visit/day-2/day-2.md": {
@@ -2069,9 +2120,10 @@
 "name": "Day 3 — Afternoon",
 "part-of": "Day 3",
 "location": "Testowo",
+"tags": "Afternoon",
 "when": "Phase cards is 0",
 "outcome": "The afternoon is spent.",
-"changes": "Day 3 — Afternoon — ends; Day 3 — Evening — starts; Phase cards — 12",
+"changes": "Day 3 — Afternoon — ends; Day 3 — Evening — starts; Phase cards — 12; Phase — evening",
 "setup": "The afternoon of Day 3 begins.",
 "hook": "TBD."
 },
@@ -2079,6 +2131,7 @@
 "name": "Day 3 — Evening",
 "part-of": "Day 3",
 "location": "Testowo",
+"tags": "Evening",
 "when": "setup:events/committee-visit/day-3/day-3-evening.md",
 "outcome": "Word spreads through the village that Barbara's boy is sick. Players can hear the news at the The PGR Farm, The Store, or from any nearby NPC. Ryszard Dudka may come to find the committee and ask whether anyone is a doctor.",
 "gives": "*(to: every player)* hook:events/pawelek-falls-ill.md",
@@ -2090,6 +2143,7 @@
 "name": "Day 3 — Morning",
 "part-of": "Day 3",
 "location": "Testowo",
+"tags": "Morning",
 "when": "setup:events/committee-visit/day-3/day-3-morning.md",
 "outcome": "Rain has continued since Day 1. During the night before Day 3, the rain became louder. In the morning, water drums on roofs across the village. The hook is unavoidable.",
 "gives": "*(to: every player)* hook:events/the-flood.md",
@@ -2101,10 +2155,11 @@
 "name": "Day 3 — Night",
 "part-of": "Day 3",
 "location": "Testowo",
-"when": "setup:events/committee-visit/day-3/day-3-night.md",
-"outcome": "Hag's Prayer begins.",
-"changes": "Hag's Prayer — starts",
-"setup": "The night of Day 3 begins..",
+"tags": "Night",
+"when": "Phase cards is 0",
+"outcome": "The night is spent.",
+"changes": "Day 3 — Night — ends; Day 3 — ends; Day 4 — starts; Day 4 — Morning — starts; Hag's Prayer — ends; Phase cards — 12; Phase — morning",
+"setup": "The night of Day 3 begins.",
 "hook": "TBD."
 },
 "events/committee-visit/day-3/day-3.md": {
@@ -2118,7 +2173,8 @@
 "name": "Day 4 — Afternoon",
 "part-of": "Day 4",
 "location": "Testowo",
-"when": "setup:events/committee-visit/day-4/day-4-afternoon.md and Bond: Priest",
+"tags": "Afternoon",
+"when": "setup:events/committee-visit/day-4/day-4-afternoon.md AND Bond: Priest",
 "outcome": "ks. Pająk asks the player for a private talk after Mass. Krystian Rzepka may bring a folded note from him. ks. Pająk may come to the committee billet. He does not ask twice. He does not invite the whole committee.",
 "gives": "*(to: holder of Bond)* hook:events/priests-plea.md",
 "changes": "The Priest's Plea — starts",
@@ -2129,9 +2185,10 @@
 "name": "Day 4 — Evening",
 "part-of": "Day 4",
 "location": "Testowo",
+"tags": "Evening",
 "when": "Phase cards is 0",
 "outcome": "The evening is spent.",
-"changes": "Day 4 — Evening — ends; Day 4 — Night — starts; Phase cards — 12",
+"changes": "Day 4 — Evening — ends; Day 4 — Night — starts; Phase cards — 12; Phase — night",
 "setup": "The evening of Day 4 begins.",
 "hook": "TBD."
 },
@@ -2139,6 +2196,7 @@
 "name": "Day 4 — Morning",
 "part-of": "Day 4",
 "location": "Testowo",
+"tags": "Morning",
 "when": "setup:events/committee-visit/day-4/day-4-morning.md",
 "outcome": "A Mass beginning in the church as the village gathers against the rising water.",
 "gives": "*(to: every player)* hook:events/holy-mass.md",
@@ -2150,7 +2208,8 @@
 "name": "Day 4 — Night",
 "part-of": "Day 4",
 "location": "Testowo",
-"when": "setup:events/committee-visit/day-4/day-4-night.md and Village Hostility is false",
+"tags": "Night",
+"when": "setup:events/committee-visit/day-4/day-4-night.md AND Village Hostility is false",
 "outcome": "The Well Confrontation begins.",
 "changes": "The Well Confrontation — starts",
 "setup": "The night of Day 4 begins..",
@@ -2167,9 +2226,10 @@
 "name": "Day 5 — Afternoon",
 "part-of": "Day 5",
 "location": "Testowo",
+"tags": "Afternoon",
 "when": "Phase cards is 0",
 "outcome": "The afternoon is spent.",
-"changes": "Day 5 — Afternoon — ends; Day 5 — Evening — starts; Phase cards — 12",
+"changes": "Day 5 — Afternoon — ends; Day 5 — Evening — starts; Phase cards — 12; Phase — evening",
 "setup": "The afternoon of Day 5 begins.",
 "hook": "TBD."
 },
@@ -2177,9 +2237,10 @@
 "name": "Day 5 — Evening",
 "part-of": "Day 5",
 "location": "Testowo",
+"tags": "Evening",
 "when": "Phase cards is 0",
 "outcome": "The evening is spent.",
-"changes": "Day 5 — Evening — ends; Day 5 — Night — starts; Phase cards — 12",
+"changes": "Day 5 — Evening — ends; Day 5 — Night — starts; Phase cards — 12; Phase — night",
 "setup": "The evening of Day 5 begins.",
 "hook": "TBD."
 },
@@ -2187,6 +2248,7 @@
 "name": "Day 5 — Morning",
 "part-of": "Day 5",
 "location": "Testowo",
+"tags": "Morning",
 "when": "setup:events/committee-visit/day-5/day-5-morning.md",
 "outcome": "A funeral Mass beginning in the church, the coffin set before the congregation.",
 "gives": "*(to: every player)* hook:events/funeral-mass.md",
@@ -2198,6 +2260,7 @@
 "name": "Day 5 — Night",
 "part-of": "Day 5",
 "location": "Testowo",
+"tags": "Night",
 "when": "setup:events/committee-visit/day-5/day-5-night.md",
 "outcome": "Butcher Takes the Body begins.",
 "changes": "Butcher Takes the Body — starts",
@@ -2215,7 +2278,8 @@
 "name": "Day 6 — Afternoon",
 "part-of": "Day 6",
 "location": "Testowo",
-"when": "setup:events/committee-visit/day-6/day-6-afternoon.md and Bond: Barbara",
+"tags": "Afternoon",
+"when": "setup:events/committee-visit/day-6/day-6-afternoon.md AND Bond: Barbara",
 "outcome": "Barbara Kopacz comes to the committee or catches a trusted player in a yard. Barbara Kopacz has no cardigan. Barbara Kopacz has mud to the shins. Barbara Kopacz is out of breath from half-running.",
 "gives": "*(to: holder of Bond)* hook:events/barbara-warns-the-players.md",
 "changes": "Barbara Warns the Players — starts",
@@ -2226,9 +2290,10 @@
 "name": "Day 6 — Evening",
 "part-of": "Day 6",
 "location": "Testowo",
+"tags": "Evening",
 "when": "Phase cards is 0",
 "outcome": "The evening is spent.",
-"changes": "Day 6 — Evening — ends; Day 6 — Night — starts; Phase cards — 12",
+"changes": "Day 6 — Evening — ends; Day 6 — Night — starts; Phase cards — 12; Phase — night",
 "setup": "The evening of Day 6 begins.",
 "hook": "TBD."
 },
@@ -2236,6 +2301,7 @@
 "name": "Day 6 — Morning",
 "part-of": "Day 6",
 "location": "Testowo",
+"tags": "Morning",
 "when": "setup:events/committee-visit/day-6/day-6-morning.md",
 "outcome": "Helena Rzepka (née Gajda) sends word to the committee. Helena Rzepka (née Gajda) may appear at the committee's door.",
 "gives": "*(to: every player)* hook:events/coffee-at-helenas.md",
@@ -2247,6 +2313,7 @@
 "name": "Day 6 — Night",
 "part-of": "Day 6",
 "location": "Testowo",
+"tags": "Night",
 "when": "setup:events/committee-visit/day-6/day-6-night.md",
 "outcome": "During Day 6, the drinking circle turns louder and more purposeful. If a player Barbara Warns the Players, the warning gives the evening to prepare. If not warned, lamps move on the road after dark. Boots cross gravel. Dogs bark down the valley. Ryszard Dudka rifle is missing from its pegs. The movement converges on the yard in front of the office. This is perceivable anywhere in Testowo after dark. Composure: 2.",
 "gives": "*(to: every player)* hook:events/punishment-lynch.md",
@@ -2265,9 +2332,10 @@
 "name": "Day 7 — Afternoon",
 "part-of": "Day 7",
 "location": "Testowo",
+"tags": "Afternoon",
 "when": "Phase cards is 0",
 "outcome": "The afternoon is spent.",
-"changes": "Day 7 — Afternoon — ends; Day 7 — Evening — starts; Phase cards — 12",
+"changes": "Day 7 — Afternoon — ends; Day 7 — Evening — starts; Phase cards — 12; Phase — evening",
 "setup": "The afternoon of Day 7 begins.",
 "hook": "TBD."
 },
@@ -2275,9 +2343,10 @@
 "name": "Day 7 — Evening",
 "part-of": "Day 7",
 "location": "Testowo",
+"tags": "Evening",
 "when": "Phase cards is 0",
 "outcome": "The evening is spent.",
-"changes": "Day 7 — Evening — ends; Day 7 — Night — starts; Phase cards — 12",
+"changes": "Day 7 — Evening — ends; Day 7 — Night — starts; Phase cards — 12; Phase — night",
 "setup": "The evening of Day 7 begins.",
 "hook": "TBD."
 },
@@ -2285,7 +2354,8 @@
 "name": "Day 7 — Morning",
 "part-of": "Day 7",
 "location": "Testowo",
-"when": "setup:events/committee-visit/day-7/day-7-morning.md and Crisis of Faith < 8",
+"tags": "Morning",
+"when": "setup:events/committee-visit/day-7/day-7-morning.md AND Crisis of Faith < 8",
 "outcome": "The church bell rings wrong and too long. The bell stops mid-strike. The sound is audible across Testowo.",
 "gives": "*(to: every player)* hook:events/the-seal-break.md",
 "changes": "The Seal-Break — The Priest Names the Dead — starts",
@@ -2296,11 +2366,12 @@
 "name": "Day 7 — Night",
 "part-of": "Day 7",
 "location": "Testowo",
-"when": "setup:events/committee-visit/day-7/day-7-night.md",
-"outcome": "Hag's Prayer begins.",
-"changes": "Hag's Prayer — starts",
+"tags": "Night",
+"when": "Phase cards is 0",
+"outcome": "Skowron waiting by the police car, asking the departing party for their report.",
 "gives": "*(to: every player)* hook:events/the-report.md",
-"setup": "The night of Day 7 begins..",
+"changes": "Day 7 — Night — ends; Day 7 — ends; The Committee Visit — ends; The Report — The State's Ending — starts; Hag's Prayer — ends",
+"setup": "The night of Day 7 begins.",
 "hook": "TBD."
 },
 "events/committee-visit/day-7/day-7.md": {
@@ -2352,6 +2423,7 @@
 },
 "items/bimber.md": {
 "name": "Bottle of Bimber",
+"tags": "Alcohol",
 "setup": "An old bottle refilled at a still, no label. Strong, rough, and illegal to make or sell.",
 "hook": "A bottle of cloudy home-distilled spirit, stoppered with a twist of paper."
 },
@@ -2471,6 +2543,7 @@
 },
 "items/kbw-rifle.md": {
 "name": "KBW Rifle",
+"tags": "Firearm",
 "setup": "A KBW service rifle, oiled and kept out of sight.",
 "hook": "A KBW service rifle, hidden in the butcher's house."
 },
@@ -2576,6 +2649,7 @@
 },
 "items/soltys-pistol.md": {
 "name": "Sołtys's Pistol",
+"tags": "Firearm",
 "setup": "The sołtys's pistol, kept loaded in his office safe.",
 "hook": "A service pistol, oiled and loaded."
 },
@@ -2596,6 +2670,7 @@
 },
 "items/vodka.md": {
 "name": "Bottle of Vodka",
+"tags": "Alcohol",
 "setup": "Clear glass, a paper label, the state seal intact. Shop vodka: the kind you buy, not the kind you make.",
 "hook": "A half-litre of Wyborowa, unopened."
 },
@@ -2907,6 +2982,27 @@
 "pool": "Starting card",
 "type": "Modifier",
 "composure": "none"
+},
+"tags/alcohol.md": {
+"name": "Alcohol"
+},
+"tags/firearm.md": {
+"name": "Firearm"
+},
+"tags/time-afternoon.md": {
+"name": "Afternoon"
+},
+"tags/time-evening.md": {
+"name": "Evening"
+},
+"tags/time-morning.md": {
+"name": "Morning"
+},
+"tags/time-night.md": {
+"name": "Night",
+"when": "setup:tags/time-night.md",
+"outcome": "Hag's Prayer begins.",
+"changes": "Hag's Prayer — starts"
 }
 };
     const keys = Object.keys(T);

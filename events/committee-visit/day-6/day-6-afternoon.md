@@ -2,6 +2,7 @@
 
 **Part of:** [@name](day-6.md)
 **Location:** [@name](../../../locations/new-village/new-village.md)
+**Tags:** [@name](../../../tags/time-afternoon.md)
 
 ## Hook
 
@@ -14,7 +15,7 @@ The afternoon of [@name](day-6.md) begins.[](#barbara-warns-the-players-begins)
 ## Opportunities
 
 ### Barbara warns the players begins
-- **When:** setup:events/committee-visit/day-6/day-6-afternoon.md and [Bond: Barbara](../../../cards/bond-barbara.md)
+- **When:** setup:events/committee-visit/day-6/day-6-afternoon.md AND [Bond: Barbara](../../../cards/bond-barbara.md)
 - **Outcome:** [@hook](../../barbara-warns-the-players.md)
 - **Gives:** *(to: holder of [Bond](../../../cards/bond-barbara.md))* hook:events/barbara-warns-the-players.md
 - **Changes:** [@name](../../barbara-warns-the-players.md) — starts

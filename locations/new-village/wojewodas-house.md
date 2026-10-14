@@ -21,7 +21,7 @@
 
 ### Old badly healed rib injury
 - **Noticed by:** [Medicine](../../cards/medicine.md)
-- **When:** [@name](../../characters/wojewoda.md) home
+- **When:** [@present](../../characters/wojewoda.md)
 - **Outcome:** [@first-name](../../characters/wojewoda.md)'s ribs show an old badly healed injury from a single heavy blow.
 - **Gives:** [wojewoda-was-hurt-that-night](../../clues/clues.md#wojewoda-was-hurt-that-night)
 
@@ -39,7 +39,7 @@
 
 ### Junior boasts about father's gun
 - **Noticed by:** [Empathy](../../cards/empathy.md)
-- **When:** [@name](../../characters/junior.md) present
+- **When:** [@present](../../characters/junior.md)
 - **Outcome:** [@first-name](../../characters/junior.md) boasts about the gun in his father's office.
 - **Gives:** [wojewoda-has-gun](../../clues/clues.md#wojewoda-has-gun)
 

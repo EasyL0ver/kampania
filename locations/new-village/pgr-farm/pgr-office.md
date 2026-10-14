@@ -33,13 +33,12 @@
 ## Actions
 
 ### Steal the maps
-- **When:** [@name](../../../characters/wojewoda.md) absent or distracted
+- **When:** NOT [@present](../../../characters/wojewoda.md)
 - **Cost:** 1 time
 - **Outcome:** Players take the maps; [@name](../../../characters/wojewoda.md) will notice eventually.
 - **Gives:** [@name](../../../items/topographic-maps.md)
 
 ### Call the survey archive
-- **When:** Phone access (monitored if [@name](../../../characters/wojewoda.md) is present)
 <!-- Prompted by: [the-flood-line-potentially-miscalculated](../../../clues/clues.md#the-flood-line-potentially-miscalculated) -->
 - **Cost:** 1 time
 - **Outcome:** The district survey archive confirms the previous crew filed a thin report, drove only a handful of stakes, and closed the job early. On the record it reads as thin work, well short of a proper survey.
@@ -65,7 +64,8 @@
 - **Gives:** [mazur-paid-but-absent](../../../clues/clues.md#mazur-paid-but-absent)
 
 ### Crack the safe
-- **When:** [@name](../../../characters/wojewoda.md) absent or distracted, and a way to open the safe
+- **When:** NOT [@present](../../../characters/wojewoda.md)
+<!-- TBD: also needs a way to open the safe -->
 - **Cost:** 1 time
 - **Outcome:** The safe contains the sołtys's loaded pistol and [@name](../../../items/barnas-departure-declaration.md).
 - **Gives:** [@name](../../../items/barnas-departure-declaration.md), [departure-declaration-forged](../../../clues/clues.md#departure-declaration-forged), [@name](../../../items/soltys-pistol.md)

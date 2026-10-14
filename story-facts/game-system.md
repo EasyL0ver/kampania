@@ -19,7 +19,7 @@ Each day has **4 phases**.
 | **Evening** | ~18:00–00:00 | Social scenes, drinking, dinners, village quiets down |
 | **Night** | ~00:00–6:00 | Dark, dangerous, most NPCs asleep. **Using any night cards = skipping sleep** |
 
-**The clock in the files:** the visit is one event, [The Committee Visit](../events/committee-visit/committee-visit.md), with a bundle per day and an event per phase. Its world counter `Phase cards` (12: the committee's cards for one phase) drops as actions are paid; at 0 the phase's closing opportunity ends it, starts the next and refills the counter. Whatever is tied to a time starts from an opportunity in that phase.
+**The clock in the files:** the visit is one event, [The Committee Visit](../events/committee-visit/committee-visit.md), with a bundle per day and an event per phase. Its world counter `Phase cards` (12: the committee's cards for one phase) drops as actions are paid; at 0 the phase's closing opportunity ends it, starts the next and refills the counter. Whatever is tied to a time starts from an opportunity in that phase. Each phase event carries its time tag (`tags/time-morning.md` …), so the time of day is simply which tagged phase is running: a `When` tests it with the tag link, and anything every night shares lives once in the Night tag.
 
 **The game is built for three or four players.** How many cards a phase holds depends on which: the work doesn't shrink when the committee does, so fewer clerks each carry more.
 
@@ -215,7 +215,7 @@ An event's `## Resolve` runs when the event ends (the next event starts), whethe
 - → [Lynch Happened](#lynch-happened) = true
 ```
 
-Conditions are zero or more `[Mechanic](file.md#anchor) is value` joined by `and`; the assignment sets one bool, int or enum (an int also takes `+N` / `-N`). `rule` and `list` mechanics never appear. The mechanics' Start values are the outcome when nobody intervenes.
+Conditions are zero or more `[Mechanic](file.md#anchor) is value` combined with `AND`, `OR`, `NOT` and parentheses (the same boolean grammar as `When` and `Requires`); the assignment sets one bool, int or enum (an int also takes `+N` / `-N`). `rule` and `list` mechanics never appear. The mechanics' Start values are the outcome when nobody intervenes.
 
 ## Basic moves
 

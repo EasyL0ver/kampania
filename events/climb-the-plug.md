@@ -115,7 +115,7 @@ Facing the steep plug at the ridge gap.
 
 ### Haul a climber one level
 - **Requires:** [@name](../items/rope.md)
-- **When:** [Anchor](#anchor) is true and [Counterweight](#counterweight) >= 2 and [Climber position](#climber-position) >= lower-bank
+- **When:** [Anchor](#anchor) is true AND [Counterweight](#counterweight) >= 2 AND [Climber position](#climber-position) >= lower-bank
 - **Cost:** 1 time
 - **Outcome:** The crew hang their weight on the parallel strand off the clamp and drag a body up one pitch, no one climbing it under load. This is how the reader who must take the reading, a geologist or a handiworker with an improvised level, but cannot climb the killzone reaches the crest.
 - **Changes:** [Climber position](#climber-position) — the hauled climber moves up one level; [Counterweight](#counterweight) — 2 points spent

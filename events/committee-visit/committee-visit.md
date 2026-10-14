@@ -26,3 +26,4 @@ The committee sets out for the valley.[](#the-visit-begins)
 - **Per:** world
 - **Start:** 12
 - The committee's time cards left in the current phase, all players together (12 with three or four players). Every action's time Cost spends from it; when it reaches 0 the phase ends and the next one refills it.
+

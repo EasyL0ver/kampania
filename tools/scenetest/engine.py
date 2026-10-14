@@ -48,46 +48,24 @@ class Player:
 
 
 # --------------------------------------------------------------------------
-# Requires / noticed by: link AND link OR ( ... ), AND binds tighter
+# Requires / noticed by: validate.parse_bool (AND binds tighter than OR)
 # --------------------------------------------------------------------------
 
 def check(expr: str, src: Path, p: Player) -> bool:
+    """A Requires / Noticed by expression, read by the validator's one boolean parser: each card, item
+    or clue link holds if the player has it."""
     if not expr.strip():
         return True
-    tokens, rest = S.V._tokenize_requires(expr)
-    if tokens is None:
-        raise ValueError(f"cannot read requirement '{expr}' near '{rest}'")
-    pos = 0
+    tree, err = S.V.parse_bool(expr)
+    if err:
+        raise ValueError(f"cannot read requirement '{expr}': {err}")
 
-    def factor() -> bool:
-        nonlocal pos
-        t = tokens[pos]
-        pos += 1
-        if t == "(":
-            v = disj()
-            pos += 1   # ")"
-            return v
-        target = S.LINK.match(t)
+    def holds(term: str) -> bool:
+        target = S.LINK.match(term)
         r = S.ref_id(target.group(2), src) if target else None
         return bool(r) and p.has(r)
 
-    def conj() -> bool:
-        nonlocal pos
-        v = factor()
-        while pos < len(tokens) and tokens[pos] == "AND":
-            pos += 1
-            v = factor() and v
-        return v
-
-    def disj() -> bool:
-        nonlocal pos
-        v = conj()
-        while pos < len(tokens) and tokens[pos] == "OR":
-            pos += 1
-            v = conj() or v
-        return v
-
-    return disj()
+    return S.V.evaluate(tree, holds)
 
 
 def needs(expr: str, src: Path) -> list[str]:

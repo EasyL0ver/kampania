@@ -74,30 +74,30 @@
 - **Gives:** hook:characters/hag.md
 
 ### Screams when limbs are moved
-- **When:** [Examine him](#examine-him) and [Health Points](../characters/pawelek.md#health-points) <= 5
+- **When:** [Examine him](#examine-him) AND [Health Points](../characters/pawelek.md#health-points) <= 5
 - **Outcome:** once the muscle pain has set in he screams when his legs and back are moved.
 - **Gives:** [pawelek-in-muscle-pain](../clues/clues.md#pawelek-in-muscle-pain)
 
 ### Looks like common fever
 - **Noticed by:** [Medicine](../cards/medicine.md)
-- **When:** [Examine him](#examine-him) and [Health Points](../characters/pawelek.md#health-points) >= 5
+- **When:** [Examine him](#examine-him) AND [Health Points](../characters/pawelek.md#health-points) >= 5
 - **Outcome:** it reads like the common fever going round.
 - **Gives:** [pawelek-looks-like-common-fever](../clues/clues.md#pawelek-looks-like-common-fever)
 
 ### Fever should have broken
 - **Noticed by:** [Medicine](../cards/medicine.md)
-- **When:** [Examine him](#examine-him) and [Health Points](../characters/pawelek.md#health-points) is 4
+- **When:** [Examine him](#examine-him) AND [Health Points](../characters/pawelek.md#health-points) is 4
 - **Outcome:** a common fever would have broken by now.
 - **Gives:** [pawelek-fever-not-passing](../clues/clues.md#pawelek-fever-not-passing)
 
 ### Yellowing rules out common sickness
 - **Noticed by:** [Medicine](../cards/medicine.md)
-- **When:** [Examine him](#examine-him) and [Health Points](../characters/pawelek.md#health-points) <= 3
+- **When:** [Examine him](#examine-him) AND [Health Points](../characters/pawelek.md#health-points) <= 3
 - **Outcome:** with him yellowing, this is no common sickness.
 - **Gives:** [pawelek-not-common-sickness](../clues/clues.md#pawelek-not-common-sickness)
 
 ### Dark urine, little of it
-- **When:** [Condition](../characters/pawelek.md#condition) is tended and [Health Points](../characters/pawelek.md#health-points) <= 2
+- **When:** [Condition](../characters/pawelek.md#condition) is tended AND [Health Points](../characters/pawelek.md#health-points) <= 2
 - **Outcome:** he passes little urine, dark as strong tea.
 - **Gives:** [pawelek-passes-dark-urine](../clues/clues.md#pawelek-passes-dark-urine)
 

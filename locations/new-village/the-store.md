@@ -41,7 +41,7 @@
 - **Gives:** [neighbour-is-rattled](../../clues/clues.md#neighbour-is-rattled)
 
 ### Junior sits apart
-- **When:** [@name](../../characters/junior.md) present, or [drinking buddy](../../characters/wujas.md#drinking-buddy) with [@nickname](../../characters/wujas.md) if he is not
+- **When:** [@present](../../characters/junior.md) OR [Drinking Buddy](../../characters/wujas.md#drinking-buddy) is true
 <!-- Prompted by: setup:locations/new-village/the-store.md -->
 - **Outcome:** Present, [@first-name](../../characters/junior.md) sits plainly among the crew on the benches, away from his father; absent, the crew mention the sołtys's son who drinks with them.
 - **Gives:** [junior-drinks-with-crew](../../clues/clues.md#junior-drinks-with-crew)

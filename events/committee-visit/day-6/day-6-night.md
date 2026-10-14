@@ -2,6 +2,7 @@
 
 **Part of:** [@name](day-6.md)
 **Location:** [@name](../../../locations/new-village/new-village.md)
+**Tags:** [@name](../../../tags/time-night.md)
 
 ## Hook
 
@@ -9,7 +10,7 @@
 
 ## Setup
 
-The night of [@name](day-6.md) begins.[](#punishment-lynch-begins)[](#hags-prayer-begins)
+The night of [@name](day-6.md) begins.[](#punishment-lynch-begins)
 
 ## Opportunities
 
@@ -18,11 +19,6 @@ The night of [@name](day-6.md) begins.[](#punishment-lynch-begins)[](#hags-praye
 - **Outcome:** [@hook](../../punishment-lynch.md)
 - **Gives:** *(to: every player)* hook:events/punishment-lynch.md
 - **Changes:** [@name](../../punishment-lynch.md) — starts
-
-### Hags prayer begins
-- **When:** setup:events/committee-visit/day-6/day-6-night.md
-- **Outcome:** [@name](../../hags-prayer.md) begins.
-- **Changes:** [@name](../../hags-prayer.md) — starts
 
 ### Morning comes
 - **When:** [Phase cards](../committee-visit.md#phase-cards) is 0

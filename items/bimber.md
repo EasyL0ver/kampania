@@ -1,5 +1,7 @@
 # Bottle of Bimber
 
+**Tags:** [@name](../tags/alcohol.md)
+
 ## Hook
 
 - A bottle of cloudy home-distilled spirit, stoppered with a twist of paper.

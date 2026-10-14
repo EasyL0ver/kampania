@@ -1,5 +1,7 @@
 # Sołtys's Pistol
 
+**Tags:** [@name](../tags/firearm.md)
+
 ## Hook
 
 - A service pistol, oiled and loaded.

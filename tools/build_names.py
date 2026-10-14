@@ -10,7 +10,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-KINDS = ["characters", "locations", "events", "items", "cards"]
+KINDS = ["characters", "locations", "events", "items", "cards", "tags"]
 FIELD = re.compile(r"^\s*(?:-\s*)?\*\*([^*:]+):\*\*\s*(.*?)\s*$")
 REF = re.compile(r"\[@([a-z0-9-]+)\]\(([^)#\s]+\.md)\)")
 LINK = re.compile(r"\[([^\]]*)\]\([^)]*\)")
@@ -48,6 +48,8 @@ def raw_fields(path: Path) -> dict[str, str]:
         fields["setup"] = " ".join(setup)
     if hook:
         fields["hook"] = " ".join(hook)
+    if "characters" in path.parts and "name" in fields:
+        fields["present"] = f"{fields['name']} is here"     # [@present]: the tools expand it from the schedule
     return fields
 
 

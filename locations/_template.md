@@ -1,5 +1,7 @@
 # Location Name
 
+<!-- Optional header, right under the title: **Tags:** [@name](../tags/file.md), … (validate.py: tags-format) -->
+
 <!-- ZERO PROSE. Pure facts. This is a technical document, not a story.
      Every line is a fact, not atmosphere. Bullets, not paragraphs.
      Dialogue only when the exact words ARE the mechanical content.

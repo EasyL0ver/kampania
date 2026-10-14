@@ -1,5 +1,7 @@
 # Bottle of Vodka
 
+**Tags:** [@name](../tags/alcohol.md)
+
 ## Hook
 
 - A half-litre of Wyborowa, unopened.

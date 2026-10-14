@@ -31,6 +31,7 @@ Read all files in these folders to understand current state:
    - `story-facts/` — plot elements, mechanics
    - `historical context/` — research and reference
    - `inspirations/` — films, books, music, references
+   - `tags/` — one `.md` per tag (e.g. alcohol): groups entities across folders. Each tag declares `**Applies to:**` (the kinds of entity that may carry it). Any character, event, location, item or card may carry an optional `**Tags:** [@name](../tags/x.md), …` header line; a tag's Mechanics, Opportunities and Actions are added to everything it tags → [`tags/_template.md`](tags/_template.md)
 
 7. **File templates** — New characters, events, and locations follow the templates. No other sections allowed.
     - Characters → [`characters/_template.md`](characters/_template.md)

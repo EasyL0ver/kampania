@@ -2,6 +2,7 @@
 
 **Part of:** [@name](day-5.md)
 **Location:** [@name](../../../locations/new-village/new-village.md)
+**Tags:** [@name](../../../tags/time-morning.md)
 
 ## Hook
 
@@ -26,7 +27,7 @@ The morning of [@name](day-5.md) begins.[](#funeral-mass-begins)[](#foremans-flo
 - **Changes:** [@name](../../foremans-flood-fight.md) — starts
 
 ### Store robbery begins
-- **When:** setup:events/committee-visit/day-5/day-5-morning.md and [Cabinet](../../../locations/new-village/the-store.md#cabinet) is forced
+- **When:** setup:events/committee-visit/day-5/day-5-morning.md AND [Cabinet](../../../locations/new-village/the-store.md#cabinet) is forced
 - **Outcome:** [@hook](../../store-robbery.md)
 - **Gives:** *(to: every player)* hook:events/store-robbery.md
 - **Changes:** [@name](../../store-robbery.md) — starts; [Cabinet](../../../locations/new-village/the-store.md#cabinet) — discovered

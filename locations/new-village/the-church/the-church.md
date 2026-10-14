@@ -31,7 +31,7 @@ The church on the hill in [@name](../new-village.md), beside the cemetery.
 ## Actions
 
 ### Talk to Widow at the grave
-- **When:** [@name](../../../characters/widow.md) present
+- **When:** [@present](../../../characters/widow.md)
 - **Outcome:** [@first-name](../../../characters/widow.md) talks about her husband, his PGR work, his accident, and her wish that the committee include him in the census.
 - **Gives:** [wanda-receives-pension](../../../clues/clues.md#wanda-receives-pension)
 

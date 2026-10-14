@@ -135,21 +135,21 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 - **Changes:** [Climber position](#climber-position) — past the top-out; [Balance](#balance) — lost
 
 ### Traverse with anchor
-- **When:** [Anchor](#anchor) is true and [Climber position](#climber-position) >= killzone
+- **When:** [Anchor](#anchor) is true AND [Climber position](#climber-position) >= killzone
 - **Cost:** 1 time
 - **Outcome:** The climber clips the fixed anchor and moves across the crux on the line, the slab no longer able to throw them.
 - **Changes:** [Climber position](#climber-position) — past the top-out
 
 ### Haul a climber one level
 - **Requires:** [@name](../items/rope.md)
-- **When:** [Anchor](#anchor) is true and [Counterweight](#counterweight) >= 2
+- **When:** [Anchor](#anchor) is true AND [Counterweight](#counterweight) >= 2
 - **Cost:** 1 time
 - **Outcome:** The crew hang their weight on the parallel strand and drag a body up one pitch, no one climbing it under load.
 - **Changes:** [Climber position](#climber-position) — the hauled climber moves up one level; [Counterweight](#counterweight) — 2 points spent
 
 ### Haul the charge one level
 - **Requires:** [@name](../items/rope.md)
-- **When:** [Anchor](#anchor) is true and [Counterweight](#counterweight) >= 1
+- **When:** [Anchor](#anchor) is true AND [Counterweight](#counterweight) >= 1
 - **Cost:** 1 time
 - **Outcome:** The crew hang their weight on the parallel strand and drag the charge up one pitch, no one climbing it under load.
 - **Changes:** [The charge](#the-charge) — up one level; [Counterweight](#counterweight) — 1 point spent

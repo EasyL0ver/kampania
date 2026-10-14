@@ -25,7 +25,6 @@
 ## Actions
 
 ### Open the grave
-- **When:** Found the cairn; [@name](../characters/neighbour.md) absent or permission to exhume
 - **Cost:** 1 time
 - **Outcome:** The stones lift away; underneath are a rotted coat and scattered bones without an identifiable face.
 - **Gives:** [@name](../items/ravine-remains.md)

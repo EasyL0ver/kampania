@@ -156,20 +156,20 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 - **Gives:** [`old-village-resettled-during-vistula`](../clues/clues.md#old-village-resettled-during-vistula)
 
 ### Ask about Barbara's house
-- **When:** [@name](../events/wojewodas-ask.md) is underway
+- **When:** [@name](../events/wojewodas-ask.md)
 - **Cost:** 1 time
 - **Outcome:** He says the house is the farm's on paper, built with PGR brick and labour for a young mother with no one to lean on.
 - **Gives:** [`barbara-has-help`](../clues/clues.md#barbara-has-help)
 
 ### Ask about Ciotka's house
-- **When:** [@name](../events/wojewodas-ask.md) is underway
+- **When:** [@name](../events/wojewodas-ask.md)
 <!-- Prompted by: [ciotka-house-is-wojewodas](../clues/clues.md#ciotka-house-is-wojewodas) -->
 - **Cost:** 1 time
 - **Outcome:** He says the house was abandoned, left to the state, and administered by the farm; he put [@first-name](ciotka.md) in it because she keeps the boy and the place.
 - **Gives:** [`ciotka-house-is-pgrs`](../clues/clues.md#ciotka-house-is-pgrs)
 
 ### Show the paperwork for Ciotka's house
-- **When:** [@name](../events/wojewodas-ask.md) is underway
+- **When:** [@name](../events/wojewodas-ask.md)
 <!-- Prompted by: [house-belonged-to-edward-senior](../clues/clues.md#house-belonged-to-edward-senior), [ciotka-house-is-pgrs](../clues/clues.md#ciotka-house-is-pgrs) -->
 - **Cost:** 1 time
 - **Outcome:** He produces the file and lets them read the 1954 declaration with [@name](soldier.md)'s signature. He keeps the document in his hands; see [@name](../items/barnas-departure-declaration.md).

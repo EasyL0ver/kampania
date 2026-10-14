@@ -14,7 +14,8 @@
               Day 6)", states "(panicking)", narration, crowds, absent people.
               NPC state, arrivals, and who is missing belong in Setup.
      How players SEE someone is their [@setup](../characters/file.md) ref, in Setup (on
-     arrival) or in an Outcome (coming into view later). -->
+     arrival) or in an Outcome (coming into view later).
+     Tags: optional, last. Comma-separated [@name](../tags/file.md) links (validate.py: tags-format). -->
 
 **Location:** [Place](../locations/file.md)
 **Present:** [Name](../characters/file.md), [Other](../characters/file.md) (if [Mechanic](#mechanic) is value)
@@ -102,7 +103,7 @@
      the "nobody intervened" outcome.
      Pure state, NOTHING ELSE: no description, no Gives, no comment. One line each:
        - [conditions] → [Mechanic](file.md#anchor) = value
-     conditions: zero or more `[Mechanic](file.md#anchor) is value`, joined by " and ";
+     conditions: zero or more `[Mechanic](file.md#anchor) is value`, combined with AND / OR / NOT and parentheses;
        none means the line always applies.
      Only bool / int / enum mechanics (never rule or list); values legal for the type;
        an int may be set to N, +N or -N.

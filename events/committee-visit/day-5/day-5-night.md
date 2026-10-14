@@ -2,6 +2,7 @@
 
 **Part of:** [@name](day-5.md)
 **Location:** [@name](../../../locations/new-village/new-village.md)
+**Tags:** [@name](../../../tags/time-night.md)
 
 ## Hook
 
@@ -9,7 +10,7 @@
 
 ## Setup
 
-The night of [@name](day-5.md) begins.[](#rezen-takes-the-body-begins)[](#hags-prayer-begins)
+The night of [@name](day-5.md) begins.[](#rezen-takes-the-body-begins)
 
 ## Opportunities
 
@@ -17,11 +18,6 @@ The night of [@name](day-5.md) begins.[](#rezen-takes-the-body-begins)[](#hags-p
 - **When:** setup:events/committee-visit/day-5/day-5-night.md
 - **Outcome:** [@name](../../rezen-takes-the-body.md) begins.
 - **Changes:** [@name](../../rezen-takes-the-body.md) — starts
-
-### Hags prayer begins
-- **When:** setup:events/committee-visit/day-5/day-5-night.md
-- **Outcome:** [@name](../../hags-prayer.md) begins.
-- **Changes:** [@name](../../hags-prayer.md) — starts
 
 ### Morning comes
 - **When:** [Phase cards](../committee-visit.md#phase-cards) is 0

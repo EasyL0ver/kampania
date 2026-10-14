@@ -75,7 +75,7 @@ The edge of [@name](new-village.md), nearest the forest path toward [@name](../o
 - **Gives:** [butcher-dumps-carcasses-in-well](../../clues/clues.md#butcher-dumps-carcasses-in-well)
 
 ### Search the house
-- **When:** [@surname](../../characters/butcher.md) absent; door unlocked
+- **When:** NOT [@present](../../characters/butcher.md)
 - **Cost:** 1 time
 - **Outcome:** The players find modified blades, a KBW military knife, the hidden KBW rifle, the folded propaganda leaflet, old blood smell in the wood, and a woman's undergarments in the bench-bed drawer; the military evidence cross-references [@name](ciotkas-house/ciotkas-house.md).
 - **Gives:** [butcher-has-soldiers-gun](../../clues/clues.md#butcher-has-soldiers-gun), [butcher-ex-soldier](../../clues/clues.md#butcher-ex-soldier), [butcher-dumps-carcasses-in-well](../../clues/clues.md#butcher-dumps-carcasses-in-well), [@name](../../items/kbw-military-knife.md), [@name](../../items/kbw-rifle.md), [@name](../../items/womans-undergarments.md), [@name](../../items/propaganda-leaflet.md)

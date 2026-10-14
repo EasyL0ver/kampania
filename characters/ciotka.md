@@ -45,6 +45,15 @@ At home she moves around[](#property-assessment) [@first-name](glupek.md) with p
 - **[ciotka-avoids-family](../clues/clues.md#ciotka-avoids-family)** — "I keep busy with [@first-name](glupek.md) and the house. It's hard to get away for gatherings."
   - *(Bond):* "I can't sit at that table. It isn't for the boy's sake. It's mine."
 
+## Mechanics
+
+### Alive
+
+- **Type:** bool
+- **Per:** world
+- **Start:** true
+- False from the morning she is found dead.
+
 ## Opportunities
 
 ### Flinching at mentions of siblings

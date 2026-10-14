@@ -1,5 +1,7 @@
 # Item Name
 
+<!-- Optional header, right under the title: **Tags:** [@name](../tags/file.md), … (validate.py: tags-format) -->
+
 ## Hook
 
 <!-- Knowing: what a player knows once they are aware of this item, without holding it:

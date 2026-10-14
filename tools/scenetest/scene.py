@@ -136,6 +136,14 @@ class Scene:
         return self.path.relative_to(ROOT).as_posix()
 
 
+PRESENT = re.compile(r"\[@present\]\(([^)#\s]+\.md)\)")
+
+
+def expand_present(value: str, src: Path) -> str:
+    """[@present](character.md) spelled out from its source of truth (schedule here, or the event's Present)."""
+    return PRESENT.sub(lambda m: "(" + V.presence_expansion(src.resolve(), (src.parent / unquote(m.group(1))).resolve()) + ")", value)
+
+
 def _cost(value: str, src: Path) -> list[str]:
     out = []
     for part in value.split(" + "):
@@ -165,7 +173,7 @@ def _actions(f: V.MdFile) -> list[Move]:
             if label == "Requires":
                 mv.requires = value
             elif label == "When":
-                mv.when = plain(value, f.path)
+                mv.when = plain(expand_present(value, f.path), f.path)
             elif label == "Cost":
                 mv.cost = _cost(value, f.path)
             elif label == "Outcome":
@@ -197,7 +205,7 @@ def _opportunities(f: V.MdFile) -> list[Move]:
             if label == "Noticed by":
                 mv.requires = value
             elif label == "When":
-                mv.when = plain(value, f.path)
+                mv.when = plain(expand_present(value, f.path), f.path)
             elif label == "Outcome":
                 mv.text = plain(value, f.path)
             elif label == "Gives":
@@ -296,6 +304,17 @@ def _mechanic_name(src: Path, target: str) -> str:
     return anchor
 
 
+def tags_of(g: V.MdFile) -> list[V.MdFile]:
+    """The tag files a file's **Tags:** header links to."""
+    value = g.header.get("Tags", (0, ""))[1]
+    out = []
+    for _, target in LINK.findall(value):
+        t = (g.path.parent / unquote(target)).resolve()
+        if t.is_file():
+            out.append(V.parse(t))
+    return out
+
+
 def load(path: Path) -> Scene:
     path = path.resolve()
     f = V.parse(path)
@@ -340,6 +359,9 @@ def load(path: Path) -> Scene:
     moves, mechanics = [], []
     for g in files:
         own = _opportunities(g) + _actions(g)
+        for t in tags_of(g):                          # a tag's moves are added to whatever it tags
+            own += _opportunities(t) + _actions(t)
+            mechanics += _mechanics(t)
         for mv in own:
             mv.present_if = gates.get(g.path.resolve())
         moves += own
@@ -355,5 +377,8 @@ def load(path: Path) -> Scene:
             g = V.parse(p)
             item_moves[item] = _opportunities(g) + _actions(g)
             mechanics += _mechanics(g)
+            for t in tags_of(g):                      # held items carry their tags' moves too
+                item_moves[item] += _opportunities(t) + _actions(t)
+                mechanics += _mechanics(t)
     return Scene(path=path, title=f.title, setup=setup, moves=moves, mechanics=mechanics, item_moves=item_moves,
                  parts=opening_parts(files), present=present)

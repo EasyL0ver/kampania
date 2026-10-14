@@ -143,7 +143,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ### Ask about drinking water
 - **Requires:** [Bond: Pawełek Kopacz](../cards/bond-pawelek.md) OR [Speech](../cards/speech.md)
-- **When:** [Condition](#condition) is sick and [Health Points](#health-points) >= 5
+- **When:** [Condition](#condition) is sick AND [Health Points](#health-points) >= 5
 - **Outcome:** He says he drank by the round stones where the water comes up[](#water-table-points-toward-ruins), and that the lady told him not to drink it but he was thirsty.
 - **Gives:** [well-water-contaminated](../clues/clues.md#well-water-contaminated), hook:locations/old-village-ruins.md
 

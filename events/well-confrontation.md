@@ -144,4 +144,4 @@
 
 ## Resolve
 
-- [Butcher](#butcher) is attacking and [The hag](#the-hag) is unhurt → [Alive](../characters/hag.md#alive) = false
+- [Butcher](#butcher) is attacking AND [The hag](#the-hag) is unhurt → [Alive](../characters/hag.md#alive) = false

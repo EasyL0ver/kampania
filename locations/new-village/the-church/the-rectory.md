@@ -23,13 +23,13 @@ The plebania beside the church in [@name](../new-village.md).
 ## Actions
 
 ### Search the rectory
-- **When:** Priest absent or distracted
+- **When:** NOT [@present](../../../characters/priest.md)
 - **Cost:** 1 time
 - **Outcome:** The parish ledger records [@name](../../../characters/jagna.md)'s First Communion in the early 1950s; after the priest shelters [@first-name](../../../characters/glupek.md), the cellar also holds a straw mattress, blanket, food scraps, and a water jug.
 - **Gives:** [barnas-had-a-daughter-hania](../../../clues/clues.md#barnas-had-a-daughter-hania)
 
 ### Find the hidden cigarettes
-- **When:** Priest absent or distracted
+- **When:** NOT [@present](../../../characters/priest.md)
 - **Cost:** 1 time
 - **Outcome:** Tucked out of sight is a pack of Carmen, the premium brand. He smokes the same brand the village would name at [@first-name](../../../characters/ciotka.md)'s door, and hides it.
 - **Gives:** [priest-smokes-carmen](../../../clues/clues.md#priest-smokes-carmen)

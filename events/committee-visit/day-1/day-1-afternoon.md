@@ -2,6 +2,7 @@
 
 **Part of:** [@name](day-1.md)
 **Location:** [@name](../../../locations/new-village/new-village.md)
+**Tags:** [@name](../../../tags/time-afternoon.md)
 
 ## Hook
 
