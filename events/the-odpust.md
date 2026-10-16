@@ -59,7 +59,6 @@
 - **Changes:** [Grace](../characters/priest.md#grace) — true; [Rest](../characters/hag.md#rest) — can no longer become true
 
 ### Answer Babcia's plea by stopping
-- **When:** [@name](../characters/babcia.md) is present and the players choose not to proceed past her plea.
 - **Cost:** 1 time
 - **Outcome:** The players refuse to let the odpust be the final answer while the well dead remain unnamed.
 - **Gives:** hook:events/the-ritual.md

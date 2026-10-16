@@ -35,30 +35,24 @@ The house beside [@first-name](../../characters/barbara.md)'s, across from Ciotk
 - **Gives:** [neighbour-has-rifle](../../clues/clues.md#neighbour-has-rifle)
 
 ### Neighbour paces at 3am
-- **When:** visiting late, staying nearby, or watching at night
+- **When:** [@name](../../tags/time-night.md)
 - **Outcome:** [@first-name](../../characters/neighbour.md) keeps his light on and paces at 3am.
 - **Gives:** [neighbour-has-insomnia](../../clues/clues.md#neighbour-has-insomnia)
-
-### Neighbour knows secrets shared privately
-- **When:** told [@first-name](../../characters/barbara.md) information, later spoke to [@first-name](../../characters/neighbour.md)
-- **Outcome:** [@first-name](../../characters/neighbour.md) knows things the players only told [@first-name](../../characters/barbara.md).
-- **Gives:** [barbara-is-a-sieve](../../clues/clues.md#barbara-is-a-sieve)
 
 ## Actions
 
 ### Push him about the past
-- **When:** Alcohol, trust, or direct pressure
 - **Cost:** 1 time
 - **Outcome:** [@first-name](../../characters/neighbour.md) gives fragments about sounds, movement toward [@name](../old-village.md), the next morning's silence, and a warning about the well.
 - **Gives:** [neighbour-heard-the-lynch](../../clues/clues.md#neighbour-heard-the-lynch)
 
 ### Drink with him
-- **When:** Bottle
+- **Requires:** [@name](../../tags/alcohol.md)
 - **Cost:** 1 time
 - **Outcome:** Alcohol loosens [@first-name](../../characters/neighbour.md)'s guarded fragments; he talks about [@first-name](../../characters/barbara.md), [@first-name](../../characters/pawelek.md), and failing to stop harm from happening again.
 - **Gives:** [neighbour-heard-the-lynch](../../clues/clues.md#neighbour-heard-the-lynch)
 
 ### Ask about Ciotka next door
-- **When:** Know [@name](../../characters/ciotka.md) lives there
+<!-- Prompted by: hook:characters/ciotka.md -->
 - **Outcome:** [@first-name](../../characters/neighbour.md) says [@first-name](../../characters/ciotka.md) cares for the boy, says [@first-name](../../characters/glupek.md) is not hers, and shuts down further detail.
 - **Gives:** [neighbour-knows-about-edek](../../clues/clues.md#neighbour-knows-about-edek)

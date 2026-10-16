@@ -46,20 +46,20 @@
 - **Gives:** [three-barred-cross-in-hags-cabin](../clues/clues.md#three-barred-cross-in-hags-cabin)
 
 ### Initials tie Dmytro-kosach to bunker
-- **When:** found the [@name](upa-bunker.md) inscription, found the knife marked Д.К.
+- **When:** [Search the hidden floorboard tin](#search-the-hidden-floorboard-tin)
+<!-- Prompted by: hook:locations/upa-bunker.md -->
 - **Outcome:** The initials connect [@name](../characters/dmytro-kosach.md)'s belongings to the bunker.
 - **Gives:** hook:characters/dmytro-kosach.md
 
 ## Actions
 
 ### Search the hidden floorboard tin
-- **When:** Access to the cabin
 - **Cost:** 1 time
-- **Outcome:** The players find [@name](../characters/dmytro-kosach.md)'s photograph, folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth.
+- **Outcome:** The players find [@name](../characters/dmytro-kosach.md)'s photograph, folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth.[](#initials-tie-dmytro-kosach-to-bunker)
 - **Gives:** hook:characters/dmytro-kosach.md, [@name](../items/floorboard-tin.md)
 
 ### Search the cabin after confrontation
-- **When:** Hag is dead or missing after [@name](../events/well-confrontation.md)
+- **When:** [Alive](../characters/hag.md#alive) is false
 - **Cost:** 1 time
 - **Outcome:** The cabin is empty, the fire is cold, supplies remain, and ritual materials show twenty years of tending the dead.
 - **Gives:** [hag-tends-the-well](../clues/clues.md#hag-tends-the-well)

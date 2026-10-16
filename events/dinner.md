@@ -52,12 +52,12 @@
 
 ### Wujas invites them to drink
 - **Noticed by:** [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md)
-- **When:** drank with [@name](../characters/wujas.md) during dinner
+- **When:** [Drink with Wujas](#drink-with-wujas)
 - **Outcome:** loosened and glad of the company, [@nickname](../characters/wujas.md) tells them to come drink with him at the [@name](../locations/new-village/the-store.md) any day.
 
 ## Actions
 
 ### Drink with Wujas
 - **Requires:** [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md)
-- **Outcome:** You match [@nickname](../characters/wujas.md) glass for glass through the meal without judging him; by the end he is loosened and glad of the company.
+- **Outcome:** You match [@nickname](../characters/wujas.md) glass for glass through the meal without judging him; by the end he is loosened and glad of the company.[](#wujas-invites-them-to-drink)
 - **Changes:** [Drinking Buddy](../characters/wujas.md#drinking-buddy) — the drinking PCs become [@nickname](../characters/wujas.md)'s buddies, invited to the store

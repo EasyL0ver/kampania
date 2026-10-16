@@ -52,22 +52,19 @@ His voice is surprisingly soft for his size. Kindness reaches him after a pause,
 ## Actions
 
 ### Talk to Glupek
-- **When:** [@name](ciotka.md) present, or [@first-name](glupek.md) found alone outside
 - **Outcome:** He answers in short, simple sentences. He can give his routines, likes, dislikes, and basic memories of living with [@first-name](ciotka.md).
 - **Gives:** hook:characters/glupek.md
 
 ### Ask Glupek about his mother
-- **When:** Players talk to him directly
 - **Outcome:** He calls [@first-name](ciotka.md) "auntie," not mother. When asked about his real parents, he says he has only ever had his aunt.
 - **Gives:** [`ciotka-adopted-glupek`](../clues/clues.md#ciotka-adopted-glupek)
 
 ### Ask Glupek about the cigarette
-- **When:** Players found the [Carmen cigarette in his corner](../locations/new-village/ciotkas-house/ciotkas-house.md#search-glupeks-room); talk to him directly
+<!-- Prompted by: hook:items/glupeks-cigarette.md -->
 - **Outcome:** He brightens and says the butcher gave it to him. [@surname](butcher.md) ruffles his hair and slips him food and little presents. [@first-name](glupek.md) keeps the cigarette but never lights it. He does not understand why the same man makes him freeze when the dogs bark.
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)
 
 ### Ask Glupek about the butcher
-- **When:** Players talk to him directly
 <!-- Prompted by: setup:characters/glupek.md -->
 - **Outcome:** He goes quiet and small. He says the butcher's dogs make him hide, and when [@surname](butcher.md) passes he cannot move. He does not know why.
 - **Gives:** [`glupek-fears-butcher`](../clues/clues.md#glupek-fears-butcher)

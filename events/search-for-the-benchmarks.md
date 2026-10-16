@@ -1,6 +1,6 @@
 # Search for the Benchmarks
 
-**Location:** [@name](../locations/far-ridge-streambed.md)
+**Location:** [@name](../locations/far-ridge-streambed/far-ridge-streambed.md)
 
 ## Hook
 
@@ -19,35 +19,35 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 
 ### Read the ground for likely spots
 - **Requires:** [Survival](../cards/survival.md)
-- **When:** that site's marker is not yet found
+- **When:** [Col marker](#col-marker) is hidden OR [Village-edge marker](#village-edge-marker) is hidden
 <!-- Prompted by: [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed) -->
 - **Outcome:** Survey crews set benchmarks on stable rock at clear sightlines; you read the site for where they would have driven the marker.
 - **Changes:** [Hidden count at the col](#hidden-count-at-the-col) — +2 if read here; [Hidden count at the village edge](#hidden-count-at-the-village-edge) — +2 if read here
 
 ### Dig out the buried marker
 - **Requires:** [Physique](../cards/physique.md)
-- **When:** that site's marker is not yet found
+- **When:** [Col marker](#col-marker) is hidden OR [Village-edge marker](#village-edge-marker) is hidden
 <!-- Prompted by: [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed) -->
 - **Outcome:** Most of the work is heaving aside slid earth and undergrowth to uncover the stamped face; a strong back clears a site fast.
 - **Changes:** [Hidden count at the col](#hidden-count-at-the-col) — dug here, marker turns up at 2; [Hidden count at the village edge](#hidden-count-at-the-village-edge) — dug here, marker turns up at 2
 
 ### Search the col for its marker
-- **When:** the col marker is not yet found
+- **When:** [Col marker](#col-marker) is hidden
 <!-- Prompted by: [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed) -->
 - **Cost:** 1 time
-- **Outcome:** You quarter the ground around the col. Until the hidden count is reached: weathered rock, slid earth, nothing stamped. On the search that reaches it, the stamped benchmark turns up under the gorse, and higher up you stumble on an abandoned shepherd's koliba, easy to miss and long empty. It can be revisited and entered any time from the [@name](../locations/far-ridge-streambed.md).
+- **Outcome:** You quarter the ground around the col. Until the hidden count is reached: weathered rock, slid earth, nothing stamped. On the search that reaches it, the stamped benchmark turns up under the gorse, and higher up you stumble on an abandoned shepherd's koliba, easy to miss and long empty. It can be revisited and entered any time from the [@name](../locations/far-ridge-streambed/far-ridge-streambed.md).
 - **Gives:** [abandoned-house-by-streambed](../clues/clues.md#abandoned-house-by-streambed)
-- **Changes:** [Hidden count at the col](#hidden-count-at-the-col) — +1
+- **Changes:** [Hidden count at the col](#hidden-count-at-the-col) — +1; [Col marker](#col-marker) — found when the count is reached
 
 ### Search the village edge for its marker
-- **When:** the village-edge marker is not yet found
+- **When:** [Village-edge marker](#village-edge-marker) is hidden
 <!-- Prompted by: [dam-builders-surveyed-streambed](../clues/clues.md#dam-builders-surveyed-streambed) -->
 - **Cost:** 1 time
 - **Outcome:** You comb the ground at the edge of [@name](../locations/new-village/new-village.md). Until the hidden count is reached: fence posts, field stones, nothing stamped. On the search that reaches it, the stamped benchmark turns up half-buried by a field wall.
-- **Changes:** [Hidden count at the village edge](#hidden-count-at-the-village-edge) — +1
+- **Changes:** [Hidden count at the village edge](#hidden-count-at-the-village-edge) — +1; [Village-edge marker](#village-edge-marker) — found when the count is reached
 
 ### Copy the elevations
-- **When:** both markers found
+- **When:** [Col marker](#col-marker) is found AND [Village-edge marker](#village-edge-marker) is found
 - **Outcome:** You copy the two stamped elevations off the benchmarks, the col and the village.
 - **Gives:** [@name](../items/streambed-parameters.md)
 
@@ -66,6 +66,20 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 - **Per:** world
 - **Start:** 0
 - Points toward turning up the village edge's marker; see [The search](#the-search).
+
+### Col marker
+
+- **Type:** enum (hidden | found)
+- **Per:** world
+- **Start:** hidden
+- Found by the search of the col that reaches its hidden count.
+
+### Village-edge marker
+
+- **Type:** enum (hidden | found)
+- **Per:** world
+- **Start:** hidden
+- Found by the search of the village edge that reaches its hidden count.
 
 ### The search
 

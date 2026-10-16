@@ -53,14 +53,14 @@ A cigarette is usually between his lips or behind his ear. His studied cool drop
 
 ### Junior smoking away from his father
 - **Noticed by:** [Chainsmoker](../cards/chainsmoker.md)
-- **When:** Junior present, drinking with the crew at the [store](../locations/new-village/the-store.md#opportunities)
+- **When:** [@name](../locations/new-village/the-store.md)
 - **Outcome:** Away from his father, drinking with the crew, Junior lights up. A smoker reads the brand: Carmen.
 - **Gives:** [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen)
 
 ## Actions
 
 ### Offer him a Carmen
-- **When:** Junior present; a Carmen to offer (the [store](../locations/new-village/the-store.md#buy-cigarettes) stocks them)
+- **Requires:** [@name](../items/pack-of-cigarettes.md)
 - **Outcome:** He takes it as his own, the one thing he spends on to feel above the place. Offer him a cheap Sport and he waves it off: that is not what he smokes, and you learn nothing.
 - **Gives:** [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen)
 

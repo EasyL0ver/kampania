@@ -61,20 +61,10 @@ After [@name](../events/irena-confronts-wojewoda.md), she closes the household, 
 
 ## Opportunities
 
-### Avoids mentioning her husband
-<!-- TBD: the Trade clues Outcome must show her steering away from Zbigniew; then mark it. -->
-- **Noticed by:** [Empathy](../cards/empathy.md)
-- **When:** [Trade clues (Phase 1)](#trade-clues-phase-1)
-- **Outcome:** she trades on anyone except her own husband; his name never comes up, and she changes direction when it nears.
-
-### Questions focus on land valuation
-- **When:** Property assessment, flood not openly disclosed
-- **Outcome:** Her questions to the committee sharpen around why land is being valued.
-
 ## Actions
 
 ### Trade clues (Phase 1)
-- **When:** Phase 1 before she pivots; a 1954 clue she does not already hold
+- **When:** [Two Phases](#two-phases) is investigating
 - **Cost:** 1 time
 - **Outcome:** She waits for a real fact before she gives one back. Once the players put a useful clue on the table, she trades one for one.
 - **Gives:** [jagna-painter-affair](../clues/clues.md#jagna-painter-affair), [ciotka-lives-in-soldiers-house](../clues/clues.md#ciotka-lives-in-soldiers-house)

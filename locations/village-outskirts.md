@@ -18,19 +18,19 @@ The river, hillsides, and forest edges around [@name](new-village/new-village.md
 - [@name](new-village/new-village.md) sits in one valley.
 - [@name](old-village-ruins.md) lies in the lower valley beyond a sandstone ridge.
 - The map marks a [@name](the-ridge-gap.md) through the ridge between the new-village valley and the empty [@name](big-basin.md).
-- The marked water-gap is blocked by loose earth and broken rock from an old landslide.
-- A far ridge across the valley carries an old dry streambed that appears to spill toward the next valley; see the [@name](far-ridge-streambed.md).
-- The wojewoda's new bridge spans the river's present bed; on the map that ground is drawn dry, with the river on its old course.
+- The marked water-gap is blocked by loose earth and broken rock from an old landslide.[](#ridge-notch-choked-with-landslide)
+- A far ridge across the valley carries an old dry streambed that appears to spill toward the next valley; see the [@name](far-ridge-streambed/far-ridge-streambed.md).
+- The wojewoda's new bridge spans the river's present bed; on the map that ground is drawn dry, with the river on its old course.[](#bridge-over-water-map-shows-dry)
 - The southern approach rises into a low ridge of higher ground.
-- The survey route can pass the old village ruins.
+- The survey route can pass the old village ruins.[](#stone-ruins-visible-through-trees)
 - One route passes the last house before the treeline[](#butcher-alone-near-treeline), [@name](../characters/butcher.md)'s house.
-- One route crosses the track used by [@name](../characters/wujas.md)'s drinking crew.
+- One route crosses the track used by [@name](../characters/wujas.md)'s drinking crew.[](#crew-carrying-bottles-toward-forest)
 
 ## Opportunities
 
 ### Stone ruins visible through trees
 - **Noticed by:** [Survival](../cards/survival.md)
-- **When:** on a survey route
+- **When:** setup:locations/village-outskirts.md
 - **Outcome:** Stone ruins of the old village are visible through the trees.
 - **Gives:** hook:locations/old-village-ruins.md
 
@@ -42,19 +42,20 @@ The river, hillsides, and forest edges around [@name](new-village/new-village.md
 
 ### Crew carrying bottles toward forest
 - **Noticed by:** [Survival](../cards/survival.md)
-- **When:** near the treeline track
+- **When:** setup:locations/village-outskirts.md
 - **Outcome:** [@name](../characters/wujas.md) and the crew carry bottles toward the forest.
 - **Gives:** [drinking-crew-heads-to-forest](../clues/clues.md#drinking-crew-heads-to-forest)
 
 ### Ridge notch choked with landslide
 - **Noticed by:** [Survival](../cards/survival.md)
-- **When:** on a survey route
+- **When:** setup:locations/village-outskirts.md
 <!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
 - **Outcome:** The notch in the ridge is choked with fallen rock and earth: the landslide plug.
 - **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 
 ### Bridge over water, map shows dry
-- **When:** observation comparing map to ground
+- **Noticed by:** [@name](../items/topographic-maps.md)
+- **When:** setup:locations/village-outskirts.md
 <!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
 - **Outcome:** The wojewoda's bridge spans running water, but the map shows that ground dry and the river on its old course.
 - **Gives:** [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map)
@@ -62,7 +63,6 @@ The river, hillsides, and forest edges around [@name](new-village/new-village.md
 ## Actions
 
 ### Walk to the ridge gap
-- **When:** Reaching the ridge water-gap (visible from the survey routes)
 <!-- Prompted by: [gap-is-candidate-drain](../clues/clues.md#gap-is-candidate-drain), [river-doesnt-match-map](../clues/clues.md#river-doesnt-match-map), [bridge-over-solid-land](../clues/clues.md#bridge-over-solid-land) -->
 - **Cost:** 1 time
 - **Outcome:** You reach the notch. A landslide has choked the gap with fallen rock and earth. Whether that fill actually stops the water is a further question, settled at [@name](the-ridge-gap.md) by climbing the plug for a geological read on-site or by describing it to [@name](../characters/professor.md).
@@ -93,7 +93,6 @@ The river, hillsides, and forest edges around [@name](new-village/new-village.md
 - **Gives:** hook:locations/hags-cabin.md
 
 ### Search the old wartime positions
-- **When:** The military map from [@name](new-village/pgr-farm/pgr-office.md), or [@name](../characters/foreman.md)'s terrain hints
 - **Cost:** 1 time
 - **Outcome:** The search finds collapsed dugouts and rusted metal.
 - **Gives:** [old-wartime-positions](../clues/clues.md#old-wartime-positions)

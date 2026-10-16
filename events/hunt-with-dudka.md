@@ -42,7 +42,7 @@
 - **Gives:** [`dudka-despises-rezen`](../clues/clues.md#dudka-despises-rezen)
 
 ### Neighbour reads wolves as animals
-- **When:** players ask [@surname](../characters/neighbour.md) about the village rumor blaming [@name](../characters/hag.md)
+- **When:** [Talk game with Neighbour](#talk-game-with-neighbour)
 - **Outcome:** [@surname](../characters/neighbour.md) treats the wolves as animals reacting to rain, prey, and terrain, not witchcraft.
 
 ### Boar glut from spoiled grain
@@ -54,10 +54,9 @@
 
 ### Talk game with Neighbour
 <!-- Prompted by: hook:characters/neighbour.md -->
-- **Outcome:** [@surname](../characters/neighbour.md) loosens up talking about the forest: seasons, tracks, what the woods did in past years[](#boar-glut-from-spoiled-grain).
+- **Outcome:** [@surname](../characters/neighbour.md) loosens up talking about the forest: seasons, tracks, what the woods did in past years[](#boar-glut-from-spoiled-grain).[](#neighbour-reads-wolves-as-animals)
 
 ### The grave in the meadow
-- **When:** Follow [@surname](../characters/neighbour.md) long enough for the hunt to swing toward the far woods
 <!-- Prompted by: [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt) -->
 - **Cost:** 1 time
 - **Outcome:** [@surname](../characters/neighbour.md) leaves the wolf track and detours to a low cairn of moss-grown stones at the lip of a ravine, where he stops to pray. Asked, he identifies the grave only as an old friend he buried himself.

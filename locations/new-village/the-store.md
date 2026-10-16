@@ -36,7 +36,7 @@
 
 ### Neighbour drinks fast
 - **Noticed by:** [Empathy](../../cards/empathy.md)
-- **When:** [drinking buddy](../../characters/wujas.md#drinking-buddy) with [@nickname](../../characters/wujas.md)
+- **When:** [Drinking Buddy](../../characters/wujas.md#drinking-buddy) is true
 - **Outcome:** [@surname](../../characters/neighbour.md) drinks too fast and shuts down when the past comes up.
 - **Gives:** [neighbour-is-rattled](../../clues/clues.md#neighbour-is-rattled)
 
@@ -88,7 +88,7 @@
 
 ### Smash the register open
 - **Requires:** [Physique](../../cards/physique.md)
-- **When:** mid break-in, the store already open to you
+- **When:** NOT [Cabinet](#cabinet) is intact
 - **Cost:** 1 time
 - **Outcome:** You pry the cash drawer until it springs. There is not much inside, a day's small takings, but it is gone now, and an emptied till reads as a plain robbery rather than a hand reaching for one thing.
 - **Changes:** [Robbery suspect](../../characters/matrona.md#robbery-suspect) — money is missing too, she suspects no one

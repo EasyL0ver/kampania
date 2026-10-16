@@ -68,7 +68,6 @@
 ## Actions
 
 ### Grapple him
-- **When:** Present, no firearm
 - **Cost:** 2 composure
 - **Outcome:** The player occupies [@surname](../characters/butcher.md) and the dogs long enough to protect another action. Taking the dogs head-on is optional; whoever does is Wounded.
 - **Gives:** [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
@@ -76,7 +75,6 @@
 
 ### Pin him down
 - **Requires:** [Physique](../cards/physique.md) OR [Violence](../cards/violence.md)
-- **When:** Present, no firearm
 - **Cost:** 1 composure
 - **Outcome:** Strong or practised in a fight, the player locks [@surname](../characters/butcher.md) up and holds off the dogs long enough to protect another action. Taking the dogs head-on is optional; whoever does is Wounded.
 - **Gives:** [`butcher-is-dangerous`](../clues/clues.md#butcher-is-dangerous)
@@ -84,7 +82,6 @@
 
 ### Grab the hag and run
 - **Requires:** [Physique](../cards/physique.md)
-- **When:** Present, no firearm
 - **Cost:** 1 composure
 - **Outcome:** The player carries [@name](../characters/hag.md) clear; [@surname](../characters/butcher.md) does not pursue.
 - **Gives:** [Wounded](../cards/wounded.md)
@@ -92,14 +89,14 @@
 
 ### Fight him
 - **Requires:** [Violence](../cards/violence.md)
-- **When:** Present, no firearm, and at least one other player has completed [Grapple him](#grapple-him) or [Pin him down](#pin-him-down)
+- **When:** [Grapple him](#grapple-him) OR [Pin him down](#pin-him-down)
 - **Cost:** 2 composure
 - **Outcome:** The fighter drives [@surname](../characters/butcher.md) off while the dogs are occupied.
 - **Gives:** [Wounded](../cards/wounded.md)
 - **Changes:** [Rezeń](#butcher) — driven-off
 
 ### Shoot him
-- **When:** Present and holding a gun — [@name](../characters/neighbour.md) or [@name](../characters/wojewoda.md)
+- **Requires:** [@name](../tags/firearm.md)
 - **Cost:** 1 composure
 - **Outcome:** [@surname](../characters/butcher.md) reads the resolve, lowers the knife, and retreats with the dogs.
 - **Changes:** [Rezeń](#butcher) — driven-off
@@ -111,7 +108,7 @@
 - **Changes:** [Rezeń](#butcher) — dead in the well; [Alive](../characters/butcher.md#alive) — false
 
 ### Neighbour's rifle
-- **When:** The players got [@name](../characters/neighbour.md) here and left him his rifle; if he is [Humiliated](../characters/neighbour.md#humiliated), a player must use [Uplift Ryszard](../characters/neighbour.md#uplift-neighbour)
+- **When:** [@present](../characters/neighbour.md) AND NOT [Humiliated](../characters/neighbour.md#humiliated) is true
 - **Outcome:** [@surname](../characters/neighbour.md) aims at [@surname](../characters/butcher.md) from the trees; [@surname](../characters/butcher.md) backs off and leaves with the dogs.
 - **Changes:** [Rezeń](#butcher) — driven-off
 ## Mechanics

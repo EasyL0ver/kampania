@@ -48,16 +48,17 @@
 - **Cost:** 1 time
 - **Outcome:** A close look at the rim turns up cigarette butts in the grass and stone cracks and burnt-down candles left around the well.
 - **Gives:** [cigarette-butts-by-the-well](../clues/clues.md#cigarette-butts-by-the-well), [candles-by-the-well](../clues/clues.md#candles-by-the-well)
+- **Changes:** [Candles](#candles) — seen, if unseen
 
 ### Investigate the area around the well
-- **When:** one day passing
+- **When:** [Candles](#candles) is replaced
 <!-- Prompted by: [candles-by-the-well](../clues/clues.md#candles-by-the-well) -->
 - **Cost:** 1 time
 - **Outcome:** The candles from the earlier visit have been replaced with fresh ones. Someone tends the well on a regular basis.
 - **Gives:** [someone-tends-the-well-regularly](../clues/clues.md#someone-tends-the-well-regularly)
 
 ### Investigate the area around the well
-- **When:** [@name](../events/hunt-with-rezen.md) was successful
+- **When:** [Stay with him if he makes a kill](../events/hunt-with-rezen.md#stay-with-him-if-he-makes-a-kill)
 - **Cost:** 1 time
 - **Outcome:** Minor blood stains mark the stone around the well rim.
 - **Gives:** [blood-stains-by-the-well](../clues/clues.md#blood-stains-by-the-well)
@@ -67,3 +68,11 @@
 - **Outcome:** Leaning over the shaft, you feel a compulsion to climb in. Lose 1 composure.
 - **Gives:** [you-should-jump-inside](../clues/clues.md#you-should-jump-inside)
 
+## Mechanics
+
+### Candles
+
+- **Type:** enum (unseen | seen | replaced)
+- **Per:** world
+- **Start:** unseen
+- Seen once the players find the burnt-down candles at the well; replaced when [@name](../events/hags-prayer.md) next runs, as she lays fresh ones.

@@ -37,25 +37,41 @@ He speaks rapidly and precisely, in the clipped cadence of a lecturer who assume
 - **[new-village-will-be-drowned-by-solina-lake](../clues/clues.md#new-village-will-be-drowned-by-solina-lake)** — "Then the suspicion was right, and the official map is wrong where it matters most."
 - **[gap-is-blocked](../clues/clues.md#gap-is-blocked)** — "One outlet gone. A landslide plug where the map shows a drain. Describe the fill and the sill height and I can document the error."
 
+## Mechanics
+
+### Knows
+
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True once the committee tells him about the 1947 massacre: the truth then exists outside the valley.
+
 ## Actions
+
+### Tell him about the massacre
+- **When:** [@name](../locations/new-village/pgr-farm/pgr-office.md)
+<!-- Prompted by: [army-massacred-civilians-in-1947](../clues/clues.md#army-massacred-civilians-in-1947) -->
+- **Cost:** 1 time
+- **Outcome:** Over the crackling line you give him the dead, the year and the well. He goes quiet, then asks you to repeat the dates, slowly, while he writes them down.
+- **Changes:** [Knows](#knows) — true
 
 ### Certify the plug
 - **Requires:** [@name](../items/gap-fill-reading.md) AND [@name](../items/gap-sill-reading.md)
-- **When:** A phone
+- **When:** [@name](../locations/new-village/pgr-farm/pgr-office.md)
 - **Cost:** 1 time
 - **Outcome:** The party describes the sill height at the crest and the packed clay and shattered rock behind it. He judges the water can neither top the plug nor seep through it into [@name](../locations/big-basin.md), and documents the ridge gap as a dead outlet.
 - **Gives:** [gap-is-blocked](../clues/clues.md#gap-is-blocked)
 
 ### Certify the streambed
 - **Requires:** [@name](../items/streambed-parameters.md)
-- **When:** A phone
+- **When:** [@name](../locations/new-village/pgr-farm/pgr-office.md)
 - **Cost:** 1 time
 - **Outcome:** The party reads him the col height and the village height. He compares the two and certifies the col sits above house level, so the rising water tops the village long before it reaches the streambed: a dead outlet.
 - **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 
 ### Certify the ditch
 - **Requires:** [@name](../items/concrete-ditch-measurements.md) AND [@name](../items/dugout-measurements.md)
-- **When:** A phone
+- **When:** [@name](../locations/new-village/pgr-farm/pgr-office.md)
 - **Cost:** 1 time
 - **Outcome:** The party reads him the two cross-sections: the ample concrete head and the shallow earth dugout that carries most of the length. He runs the drainage figures over the real channel rather than the head alone and certifies the ditch backs up and overflows at flood volume, far too small to carry the water off.
 - **Gives:** [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing)

@@ -64,7 +64,6 @@
 ## Actions
 
 ### Stop him
-- **When:** A player physically silences him
 - **Cost:** 1 composure
 - **Outcome:** The priest stops before the full account is spoken, but whatever names he already said remain public.
 - **Changes:** [The seal break](#the-seal-break) — TBD

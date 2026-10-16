@@ -58,7 +58,6 @@
 - **Gives:** [@name](../../../items/ditch-construction-spec.md)
 
 ### Inspect the PGR ledger
-- **When:** Committee census work
 - **Cost:** 1 time
 - **Outcome:** The ledger lists PGR workers and wages; some names do not match anyone in the village.
 - **Gives:** [mazur-paid-but-absent](../../../clues/clues.md#mazur-paid-but-absent)

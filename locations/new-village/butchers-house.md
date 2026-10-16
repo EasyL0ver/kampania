@@ -21,7 +21,7 @@ The edge of [@name](new-village.md), nearest the forest path toward [@name](../o
 - **Path:** A worn track runs from the back door into the forest.
 - **Path:** The mud on the track is usually fresh.[](#station-sees-more-use-than-livestock-explains)
 - **Path:** The track leads toward[](#forest-path-leads-to-hołubie) [@name](../old-village-ruins.md) and [the well](../../story-facts/the-well.md).
-- **Interior:** The house contains no alcohol.
+- **Interior:** The house contains no alcohol.[](#house-has-no-alcohol)
 - **Interior:** Old blood smell is soaked into the wood.
 - **Interior:** Modified blades hang on the wall rack.
 - **Interior:** A KBW military knife is on the wall rack among butchering tools.
@@ -39,7 +39,7 @@ The edge of [@name](new-village.md), nearest the forest path toward [@name](../o
 
 ### House has no alcohol
 - **Noticed by:** [Finesse](../../cards/finesse.md)
-- **When:** access to interior
+- **When:** setup:locations/new-village/butchers-house.md
 - **Outcome:** The house contains no alcohol, not a single bottle.
 - **Gives:** [butcher-doesnt-drink](../../clues/clues.md#butcher-doesnt-drink)
 
@@ -58,18 +58,17 @@ The edge of [@name](new-village.md), nearest the forest path toward [@name](../o
 ## Actions
 
 ### Observe from distance
-- **When:** Concealment or a safe vantage point
 - **Outcome:** [@surname](../../characters/butcher.md) leaves at dawn, dusk, or night by the forest path and returns with mud on his hands and scraped knuckles.
 - **Gives:** [butcher-dumps-carcasses-in-well](../../clues/clues.md#butcher-dumps-carcasses-in-well)
 
 ### Follow into forest
-- **When:** [@surname](../../characters/butcher.md) leaves by the forest path
+- **When:** [Observe from distance](#observe-from-distance)
 - **Cost:** 1 time
 - **Outcome:** [@surname](../../characters/butcher.md) goes to the well, sits on the rim, clears debris from the mouth, and listens down into it.
 - **Gives:** [butcher-dumps-carcasses-in-well](../../clues/clues.md#butcher-dumps-carcasses-in-well)
 
 ### Follow into forest at night
-- **When:** [@surname](../../characters/butcher.md) leaves at night carrying a dead dog
+- **When:** [@name](../../tags/time-night.md)
 - **Cost:** 1 time
 - **Outcome:** [@surname](../../characters/butcher.md) carries the dead dog to the well and drops the carcass into it.
 - **Gives:** [butcher-dumps-carcasses-in-well](../../clues/clues.md#butcher-dumps-carcasses-in-well)

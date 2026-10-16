@@ -35,7 +35,7 @@
 
 ### Site is plain moonshine
 - **Noticed by:** [Finesse](../cards/finesse.md)
-- **When:** searched the site
+- **When:** [Walk into the clearing](#walk-into-the-clearing)
 - **Outcome:** The site is exactly what it looks like: moonshine production, not a murder cache.
 - **Gives:** [bimber-still](../clues/clues.md#bimber-still)
 
@@ -47,14 +47,15 @@
 - **Gives:** [tadek-smokes-cheapest](../clues/clues.md#tadek-smokes-cheapest)
 
 ### Crew mock past state surveyors
-- **When:** [drinking buddy](../characters/wujas.md#drinking-buddy) with [@nickname](../characters/wujas.md)
+- **When:** [Drinking Buddy](../characters/wujas.md#drinking-buddy) is true
 <!-- Prompted by: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated) -->
 - **Outcome:** The crew laugh about the state surveyors who came before: they drank more than they measured, drove a few stakes, and left early.
 - **Gives:** [geologists-were-drinking](../clues/clues.md#geologists-were-drinking)
 
 ### Crew rib geologist as drunk
 - **Noticed by:** [Geology](../cards/geology.md)
-- **When:** wujas: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey)
+- **When:** [@present](../characters/wujas.md)
+<!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
 - **Outcome:** The crew rib the geologist as one of them. They clock him for what he is and lean into the joke: survey men are all famous drunks, and the last lot who came drank through their whole visit.
 - **Gives:** [surveyors-are-known-drunks](../clues/clues.md#surveyors-are-known-drunks)
 
@@ -62,13 +63,13 @@
 
 ### Walk into the clearing
 <!-- TBD: only while the drinking crew is at the still (their schedules); needs the presence/clock decision. -->
-- **Outcome:** You step out of the trees into the clearing, in full view of the fire.
+- **Outcome:** You step out of the trees into the clearing, in full view of the fire.[](#site-is-plain-moonshine)
 - **Changes:** [@name](../events/caught-at-the-still.md) — starts
 
 
 ### Sit down and drink with the crew
 - **Requires:** [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md)
-- **When:** Crew present; hands off the still
+- **When:** [@present](../characters/wujas.md)
 - **Cost:** 1 time
 - **Outcome:** The committee takes the offered bottle and makes it clear they are not here to shut the still down. The crew relaxes and the night turns into a session. [@nickname](../characters/wujas.md) warms to whoever kept pace without judging him.
 - **Changes:** [Drinking Buddy](../characters/wujas.md#drinking-buddy) — the drinking PCs become [@nickname](../characters/wujas.md)'s drinking buddies

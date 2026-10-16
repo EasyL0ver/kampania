@@ -64,6 +64,13 @@ His baritone stays intimate in conversation. When uncomfortable, his hand goes t
 
 ## Actions
 
+### Bring him to the sick boy
+- **When:** [@name](../events/pawelek-falls-ill.md)
+<!-- Prompted by: hook:events/pawelek-falls-ill.md -->
+- **Cost:** 1 time
+- **Outcome:** He takes his stole and comes with you to the Kopacz house.
+- **Changes:** [Priest brought](../events/pawelek-falls-ill.md#priest-brought) — true
+
 ### Ask about the three-barred cross
 <!-- Prompted by: [three-barred-cross-on-gajda-grave](../clues/clues.md#three-barred-cross-on-gajda-grave) -->
 - **Outcome:** He explains what [@first-name](barbara.md) could not: the three-barred cross is Eastern-rite, Greek Catholic, the old faith of this valley before the Roman parish. He states it plainly as church history, nothing he guards.

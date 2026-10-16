@@ -23,20 +23,20 @@
 
 ### Fight hides a buried 1954 secret
 - **Noticed by:** [Finesse](../cards/finesse.md)
-- **When:** present in the house
+- **When:** [@name](../locations/new-village/wojewodas-house.md)
 - **Outcome:** the fight is about something buried from 1954, and [@first-name](../characters/wife.md) is trying to stop [@first-name](../characters/wojewoda.md) from speaking openly.
 - **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
 
 ### Wife shields Wojewoda from his certainty
 - **Noticed by:** [Empathy](../cards/empathy.md)
-- **When:** present in the house
+- **When:** [@name](../locations/new-village/wojewodas-house.md)
 - **Outcome:** [@first-name](../characters/wojewoda.md) is certain, not ashamed; [@first-name](../characters/wife.md) is controlling the outcome by protecting him from the consequences of his certainty.
 - **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)
 
 ## Actions
 
 ### Strain to catch it
-- **When:** Present in the house when the fight starts
+- **When:** [@name](../locations/new-village/wojewodas-house.md)
 - **Cost:** 1 composure
 - **Outcome:** The players do not hear a full confession, but they learn that [@first-name](../characters/wojewoda.md) is guilty of a 1954 crime, is not sorry, considered bringing it into the open, and was stopped by [@first-name](../characters/wife.md).
 - **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)

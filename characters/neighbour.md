@@ -89,7 +89,8 @@ He speaks in short flat sentences with long pauses[](#property-assessment). He g
 - **Gives:** [soldier-was-kbw](../clues/clues.md#soldier-was-kbw), [soldier-served-in-akcja-wisla](../clues/clues.md#soldier-served-in-akcja-wisla)
 
 ### Ask about Ciotka's visitors
-- **When:** He liked the players; they ask who came to [@first-name](ciotka.md)'s house before she died
+- **Requires:** [@name](../cards/bond-neighbour.md)
+- **When:** [Alive](ciotka.md#alive) is false
 <!-- Prompted by: [ciotka-had-a-visitor](../clues/clues.md#ciotka-had-a-visitor) -->
 - **Outcome:** He says the day before she died, the Wojewoda's boy came and the two of them fought. He heard the raised voices carry over the fence.
 - **Gives:** [junior-pressed-ciotka](../clues/clues.md#junior-pressed-ciotka)

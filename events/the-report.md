@@ -31,17 +31,16 @@
 ## Actions
 
 ### Submit a report without the massacre
-- **When:** Players omit the 1947 Lemko massacre from the report.
 - **Outcome:** [@name](../characters/officer.md) accepts the report and the car drives away.
 - **Changes:** [The report](#the-report) — cover-up, the state's secret stays buried
 
 ### Submit a report with the massacre and no outside witness
-- **When:** Players include the 1947 Lemko massacre and did not call [@name](../characters/professor.md).
+- **When:** [Knows](../characters/professor.md#knows) is false
 - **Outcome:** [@name](../characters/officer.md) reads the report, signals the driver, and the car changes course.
 - **Changes:** [The report](#the-report) — suppressed, the players do not reach the road home
 
 ### Submit a report with the massacre and an outside witness
-- **When:** Players include the 1947 Lemko massacre and called [@name](../characters/professor.md) during the game.
+- **When:** [Knows](../characters/professor.md#knows) is true
 - **Outcome:** [@name](../characters/officer.md) knows the truth already exists outside the car and lets the car continue home.
 - **Changes:** [The report](#the-report) — truth survives outside the valley, the players live
 

@@ -57,8 +57,7 @@ At home she moves around[](#property-assessment) [@first-name](glupek.md) with p
 ## Opportunities
 
 ### Flinching at mentions of siblings
-- **When:** brought up her siblings, Read
-<!-- Prompted by: setup:characters/ciotka.md -->
+- **When:** [Census interview](#census-interview)
 - **Outcome:** At any mention of her siblings she flinches: she pulls tight, changes the subject, hands busy. The distance is hers and it costs her.
 - **Gives:** [`ciotka-avoids-family`](../clues/clues.md#ciotka-avoids-family)
 
@@ -87,7 +86,7 @@ At home she moves around[](#property-assessment) [@first-name](glupek.md) with p
 ### Census interview
 <!-- Prompted by: setup:characters/ciotka.md -->
 - **Cost:** 1 time
-- **Outcome:** She presents her son [@name](glupek.md) to the committee, then lists herself as mother and [@name](soldier.md) as the father who left the village — a Barnaś, though her own name is Gajda. The house and boy are both presented as hers.
+- **Outcome:** She presents her son [@name](glupek.md) to the committee, then lists herself as mother and [@name](soldier.md) as the father who left the village — a Barnaś, though her own name is Gajda. The house and boy are both presented as hers.[](#flinching-at-mentions-of-siblings)
 - **Gives:** [`edeks-father-left`](../clues/clues.md#edeks-father-left), hook:characters/soldier.md, hook:characters/glupek.md
 - **Changes:** [Census](../items/census.md#census) — [@first-name](ciotka.md) [@surname](ciotka.md) and [@name](glupek.md)
 

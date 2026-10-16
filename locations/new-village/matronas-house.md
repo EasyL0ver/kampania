@@ -96,16 +96,11 @@ The centre of [@name](new-village.md), close to the store.
 - **Outcome:** The unfinished canvas he is working on now is Art Informel too: the same abstract black, encrusted, scraped matter, no subject set down plainly. Whatever it is, he is still deep in it.
 - **Gives:** [unfinished-painting-is-informel](../../clues/clues.md#unfinished-painting-is-informel)
 
-### Matrona grows more publicly perfect
-- **Noticed by:** [Empathy](../../cards/empathy.md)
-- **When:** Day 2+ or well influence active
-- **Outcome:** [@first-name](../../characters/matrona.md) becomes more publicly perfect as pressure rises.
-
 ## Actions
 
 ### Lift Matrona's keys
 - **Requires:** [Finesse](../../cards/finesse.md)
-- **When:** close to [@first-name](../../characters/matrona.md), over her tea and bread or while her attention is elsewhere
+- **When:** [@present](../../characters/matrona.md)
 - **Cost:** 1 time
 - **Outcome:** The cabinet key rides on the ring at her apron. In the fuss of hospitality, or with her turned away, a light hand works it off the ring. She notices nothing until she next reaches for it.
 - **Gives:** [@name](../../items/store-cabinet-key.md)

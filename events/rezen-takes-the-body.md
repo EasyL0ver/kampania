@@ -56,25 +56,6 @@
 
 ## Actions
 
-### Keep vigil over the body
-- **When:** Players chose to stay with the coffin overnight after the [@name](funeral-mass.md).
-- **Cost:** 4 time
-- **Outcome:** [@surname](../characters/butcher.md) comes for the body after midnight, stops when caught, explains himself, and leaves without the body.
-- **Gives:** [`butcher-dumps-carcasses-in-well`](../clues/clues.md#butcher-dumps-carcasses-in-well)
-- **Changes:** [Vigil](#vigil) — true
-
-### Follow the drag trail
-- **When:** Found the empty coffin and the trail.
-- **Cost:** 1 time
-- **Outcome:** The trail reaches the well in [@name](../locations/old-village-ruins.md); a shawl or shoe is caught on the stone; [@surname](../characters/butcher.md)'s tracks lead back to [@name](../locations/new-village/butchers-house.md).
-- **Gives:** [`ciotka-body-taken`](../clues/clues.md#ciotka-body-taken)
-
-### Confront Butcher
-- **When:** Caught him at the church, or tracked the body to him.
-- **Cost:** 1 time
-- **Outcome:** [@surname](../characters/butcher.md) does not deny taking the body. He says the flood left [@first-name](../characters/ciotka.md) unburied, the body was turning, and the well is where he put her.
-- **Gives:** [`rezen-fed-ciotka-to-well`](../clues/clues.md#rezen-fed-ciotka-to-well)
-
 ## Mechanics
 
 ### Vigil

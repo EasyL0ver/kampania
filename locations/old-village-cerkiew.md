@@ -62,7 +62,6 @@
 - **Gives:** [old-village-was-lemko](../clues/clues.md#old-village-was-lemko)
 
 ### Open the wrapped bundle
-- **When:** Access to the cerkiew (prompted by: hook:locations/old-village-cerkiew.md)
 - **Cost:** 1 time
 - **Outcome:** The players lift the cloth-wrapped bundle from its dry corner and open it. Inside is an oil portrait of a young dark-haired woman in a blue dress, painted with a care nothing in the ruins shares. Someone carried it here and kept it dry on purpose.
 - **Gives:** [@name](../items/portrait.md), [portrait-hidden-in-cerkiew](../clues/clues.md#portrait-hidden-in-cerkiew), [portrait-woman-in-blue-dress](../clues/clues.md#portrait-woman-in-blue-dress)
@@ -73,6 +72,6 @@
 - **Gives:** [hag-tends-the-well](../clues/clues.md#hag-tends-the-well)
 
 ### Compare the brass bell
-- **When:** Searched [Ciotka's attic](new-village/ciotkas-house/attic.md#search-the-attic) and found the brass bell
+<!-- Prompted by: hook:items/lemko-bell.md -->
 - **Outcome:** The players identify the brass bell from Ciotka's attic as matching the missing cerkiew fitting.
 - **Gives:** [lemko-bell-from-the-cerkiew](../clues/clues.md#lemko-bell-from-the-cerkiew)

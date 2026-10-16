@@ -19,12 +19,11 @@ The Milicja van stopping on the muddy road as [@name](../../characters/wojewoda.
 ## Actions
 
 ### Ask him when he will be back
-- **When:** [@name](../../characters/officer.md) has not yet left
 - **Outcome:** "The morning of the fourth day. I'll take your report then. Anything before that goes through the sołtys's telephone."
 - **Gives:** [`officer-returns-on-day-4`](../../clues/clues.md#officer-returns-on-day-4)
 
 ### Say goodbye to the driver
-- **When:** [@name](../../characters/officer.md) has not yet left, and [Standing](../../characters/driver.md#standing) is owes-you for this player
+- **When:** [Standing](../../characters/driver.md#standing) is owes-you
 - **Outcome:** [@first-name](../../characters/driver.md) leans out of the window. "If you need a lift out, ring the post in Lesko. Ask for me."
 - **Gives:** [`wrona-will-drive-you`](../../clues/clues.md#wrona-will-drive-you)
 

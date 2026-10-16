@@ -24,6 +24,7 @@ from typing import Callable, Iterator
 from urllib.parse import unquote
 
 REPO_ROOT = Path(__file__).resolve().parent
+TAGS_DIR = REPO_ROOT / "tags"
 KINDS = ["characters", "characters/secondary", "events", "locations", "items", "cards", "tags"]
 SCENE_KINDS = ("characters", "events", "locations", "items", "cards", "tags")
 VALIDATED = ("characters", "events", "locations", "items", "tags")   # the only folders the validator reads
@@ -713,9 +714,17 @@ def _check_gate(value: str, kind: str, clues: bool = False) -> str | None:
     if err:
         return err
     for _, t in bool_terms(tree):
+        tag = TAG_LINK.match(t)
+        if tag:                                       # [Tag](tags/x.md): holding an item that carries it
+            dest = TAGS_DIR / Path(tag.group(1)).name
+            if not dest.is_file():
+                return f"tag '{t[:60]}' does not exist"
+            if "items" not in tag_applies_to(dest):
+                return f"tag '{t[:60]}' does not apply to items, so nothing held can carry it"
+            continue
         m = REQ_CARD.match(t)
         if not ((m and (m.group(2) or kind in ("cards", "items"))) or (clues and REQ_CLUE.match(t))):
-            return f"'{t[:60]}' is not a card{', item or clue' if clues else ' or item'} link"
+            return f"'{t[:60]}' is not a card{', item or clue' if clues else ' or item'} link, or an item tag"
     return None
 
 

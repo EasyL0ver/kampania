@@ -88,7 +88,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 ## Opportunities
 
 ### Host grows wary of the committee's movements
-- **When:** Property assessment, miscalculation not disclosed, no convincing cover
+- **When:** [Property assessment](#property-assessment)
 - **Outcome:** On the property, his questions turn controlled, and he starts tracking where the committee goes. See [Reveal the risk of the village drowning](#reveal-the-risk-of-the-village-drowning).
 - **Gives:** [`village-unaware-of-miscalculation`](../clues/clues.md#village-unaware-of-miscalculation)
 
@@ -107,7 +107,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 
 ### Property assessment
 - **Cost:** 1 time
-- **Outcome:** He names his house and land and says the papers are in order.
+- **Outcome:** He names his house and land and says the papers are in order.[](#host-grows-wary-of-the-committees-movements)
 - **Changes:** [Property Record](../items/census.md#property-record) — sołtys's house, clean title; [Flood Awareness](#flood-awareness) — rises to suspicious
 
 ### Tell him you're assessing property
@@ -121,12 +121,11 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 - **Changes:** [Flood Awareness](#flood-awareness) — rises to suspicious
 
 ### Ask for the maps
-- **When:** Flood proof shared
+- **When:** [Tell with geological proof](#tell-with-geological-proof)
 - **Outcome:** He hands over the maps because saving the village matters more than hiding the old terrain.
 - **Gives:** [@name](../items/topographic-maps.md)
 
 ### Tell with geological proof
-- **When:** Players have completed survey at the village outskirts / field measurements
 - **Outcome:** He believes it, loses his temper, then pulls himself back into command.
 - **Changes:** [Flood Awareness](#flood-awareness) — rises to convinced
 
@@ -137,14 +136,14 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 
 ### Convince him to reveal the flood
 - **Requires:** [Bond: Zbigniew Gajda](../cards/bond-wojewoda.md)
-- **When:** Flood proof shared (["Tell with geological proof"](#tell-with-geological-proof) done), a way out such as an evacuation plan, army rescue, or the [@name](../events/operator-refuses-help.md)
+- **When:** [Tell with geological proof](#tell-with-geological-proof)
 - **Cost:** 1 time
 - **Outcome:** The players give him a version of disclosure he can lead: public alarm with a plan. He decides the village must be told by him.
 - **Gives:** hook:events/the-disclosure.md
 - **Changes:** [Compliance](#compliance) — true, he owns the disclosure and shields the players; [@name](../events/the-disclosure.md) — starts
 
 ### Force the disclosure — the ultimatum
-- **When:** Players hold the flood proof
+- **When:** [Tell with geological proof](#tell-with-geological-proof)
 - **Cost:** 1 time
 - **Outcome:** They corner him with proof and a public threat. He agrees to disclose the flood on his own terms.
 - **Gives:** hook:events/the-disclosure.md
@@ -176,7 +175,6 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 - **Gives:** [`soldier-left-his-house-for-state`](../clues/clues.md#soldier-left-his-house-for-state), [`ciotka-moved-in-after-they-were-gone`](../clues/clues.md#ciotka-moved-in-after-they-were-gone), hook:items/barnas-departure-declaration.md
 
 ### Report the bimber still
-- **When:** Players have discovered the [@name](../locations/bimber-still.md)
 - **Outcome:** He says he will handle it and shows no surprise.
 - **Gives:** [`bimber-still`](../clues/clues.md#bimber-still)
 

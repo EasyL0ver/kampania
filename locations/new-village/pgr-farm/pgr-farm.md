@@ -44,13 +44,13 @@ The State Agricultural Farm: fields, barns, livestock pens, tool shed.
 - **Gives:** [mazur-paid-but-absent](../../../clues/clues.md#mazur-paid-but-absent), [@name](../../../items/pgr-ledger.md), [@name](../../../items/pgr-expenses.md)
 
 ### Report wolf damage
-- **When:** Day 1+ and wolf damage visible
+- **When:** NOT [@name](../../../events/committee-visit/day-1/day-1.md)
 <!-- Prompted by: setup:locations/new-village/pgr-farm/pgr-farm.md -->
 - **Outcome:** [@first-name](../../../characters/foreman.md) shows dead sheep, patched fences, and tracks.
 - **Gives:** [wolves-attacking-livestock](../../../clues/clues.md#wolves-attacking-livestock), hook:events/wolf-attack.md
 
 ### Join the hunt
-- **When:** Day 1+ and wolf damage visible
+- **When:** NOT [@name](../../../events/committee-visit/day-1/day-1.md)
 <!-- Prompted by: [wolves-attacking-livestock](../../../clues/clues.md#wolves-attacking-livestock) -->
 - **Cost:** 1 time
 - **Outcome:** The committee joins the men going after the wolves.

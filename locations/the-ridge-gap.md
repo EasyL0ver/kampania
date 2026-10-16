@@ -38,7 +38,6 @@
 ## Actions
 
 ### Examine the fill at the toe
-- **When:** reaching the foot of the plug (no climb)
 <!-- Prompted by: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), [gap-may-seep](../clues/clues.md#gap-may-seep) -->
 - **Cost:** 1 time
 - **Outcome:** Scramble to the base of the plug and dig into it. From a distance the fill looks like loose rubble the water would run straight through; up close it is dense clay and shattered rock packed tight, impermeable. This settles only whether the plug leaks, not whether the water level can rise over it (that is the crest sill, which needs the climb).
@@ -46,14 +45,14 @@
 - **Gives:** [@name](../items/gap-fill-reading.md)
 
 ### Climb the plug
-- **When:** a climber, the rest of the party on the ground, and a rope for the killzone
+- **Requires:** [@name](../items/rope.md)
 <!-- Prompted by: [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap), [water-may-flow-over](../clues/clues.md#water-may-flow-over) -->
 - **Outcome:** The party sets up at the foot of the plug and goes for the crest. Play [@name](../events/climb-the-plug.md).
 - **Gives:** hook:events/climb-the-plug.md
 - **Changes:** [@name](../events/climb-the-plug.md) — starts
 
 ### Climb the plug in the rain
-- **When:** The demolition charges and a committed engineering plan (from [@name](../events/foreman-saves-village.md)); a climber willing to go up at flood peak
+- **Requires:** [@name](../items/makeshift-charge.md)
 - **Outcome:** With the charges in hand and the flood cresting, the party goes back up to set the charge. Play [@name](../events/climb-the-plug-in-the-rain.md).
 - **Gives:** hook:events/climb-the-plug-in-the-rain.md
 - **Changes:** [@name](../events/climb-the-plug-in-the-rain.md) — starts

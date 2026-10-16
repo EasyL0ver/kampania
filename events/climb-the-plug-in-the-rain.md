@@ -34,7 +34,7 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ### Fixed clamp enables hauling
 - **Noticed by:** [Handiwork](../cards/handiwork.md)
-- **When:** the crux is anchored
+- **When:** [Anchor](#anchor) is true
 - **Outcome:** The clamp still up top is a fixed point. You can rig a line to it and haul the charge up on its own, so no one climbs with it on their back.
 
 ### Falls cause varying injuries
@@ -110,15 +110,16 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ### Regain balance
 - **Requires:** [Finesse](../cards/finesse.md)
-- **When:** the climber has lost balance.
+- **When:** [Balance](#balance) is lost
 - **Cost:** 1 composure
 - **Outcome:** The climber catches a delicate hold and settles the stance before the fall takes them.
-- **Changes:** [Balance](#balance) — regained
+- **Changes:** [Balance](#balance) — steady
 
 ### Frantic grasp
+- **When:** [Balance](#balance) is lost
 - **Cost:** 1 composure
 - **Outcome:** The climber claws for any hold, slipping and catching. It only holds on the second grasp; the first buys nothing but the next snatch.
-- **Changes:** [Balance](#balance) — regained on the second Frantic grasp in a row
+- **Changes:** [Balance](#balance) — steady on the second Frantic grasp in a row
 
 ### Drive the anchor
 - **Requires:** [@name](../items/anchor.md)
@@ -156,14 +157,14 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ### Prime the explosives
 - **Requires:** [Violence](../cards/violence.md) OR [Handiwork](../cards/handiwork.md)
-- **When:** the [@name](../items/makeshift-charge.md) is past the top-out.
+- **When:** [Climber position](#climber-position) is top-out AND NOT [The charge](#the-charge) is primed
 - **Cost:** 1 time
 - **Outcome:** The climber sets the detonator and runs the fuse, arming the old ordnance to blow.
 - **Changes:** [The charge](#the-charge) — primed
 
 ### Rappel down one level
 - **Requires:** [@name](../items/rope.md)
-- **When:** the top-out is anchored; another climber still on the plug to work the rope.
+- **When:** [Anchor](#anchor) is true
 - **Cost:** 1 time
 - **Outcome:** A second climber belays them off the fixed anchor and they rope down one pitch, clear of the load.
 - **Changes:** [Climber position](#climber-position) — down one level
@@ -230,7 +231,9 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ### Balance
 
-- **Type:** rule
+- **Type:** enum (steady | lost)
+- **Per:** player
+- **Start:** steady
 - If active climber loses balance they need to do something to regain it immediately - otherwise they fall.
 
 ### Counterweight

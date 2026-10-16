@@ -9,7 +9,7 @@ Gathering ritual materials and arranging them at the well or cerkiew.
 
 ## Setup
 
-- The Form is [@name](../characters/hag.md)'s arrangement of icons, candles, herbs, incense, bread, water, and prayer materials.
+- The Form is [@name](../characters/hag.md)'s arrangement of icons, candles, herbs, incense, bread, water, and prayer materials.[](#lemko-rite-for-unquiet-dead)
 - The Words are the Lemko panakhyda held by [@name](../characters/babcia.md).
 - The Truth is the players naming the dead and saying what happened to them.
 - The 1947 Lemko dead are in the well: Wasyl, Anna, Semen and Kateryna Koval; Petro and Pelagia Hnat; Mychajło Szafran; Fedir Mac; Olena Krywda; Hryhorij Pyś; Stepan Kiczura; Anastasija Sowa. See [@name](../items/paraskewias-list.md) and [the roster](../story-facts/old-village-massacre.md#the-dead-in-the-well).
@@ -31,7 +31,7 @@ Gathering ritual materials and arranging them at the well or cerkiew.
 
 ### Lemko rite for unquiet dead
 - **Noticed by:** [Culture](../cards/culture.md)
-- **When:** ritual materials visible
+- **When:** setup:events/the-ritual.md
 - **Outcome:** The Lemko rite uses fire, incense, offerings, and prayer for unquiet dead.
 - **Gives:** [`hag-tends-the-well`](../clues/clues.md#hag-tends-the-well), [`dead-never-mourned`](../clues/clues.md#dead-never-mourned)
 

@@ -47,16 +47,8 @@ Household        Name                 Age   Resident since   Notes
 
 ## Actions
 
-### Cross-check against the worker registry
-- **Requires:** [@name](census.md) AND [@name](pgr-ledger.md)
-- **When:** household entries recorded in the census
-- **Cost:** 1 time
-- **Outcome:** The census records every living head in the village. One name on the farm's payroll, [@name](../characters/tadeusz-mazur.md), belongs to no household: his widow is listed alone. A worker drawing wages that no household accounts for.
-- **Gives:** [mazur-paid-but-absent](../clues/clues.md#mazur-paid-but-absent)
-
 ### Read the family's surnames
 - **Requires:** [@name](census.md)
-- **When:** the Gajda/Barnaś household recorded in the census
 <!-- Prompted by: [edeks-father-left](../clues/clues.md#edeks-father-left) -->
 - **Outcome:** The boy and the father he never knew are set down as Barnaś; the woman raising him is Gajda. She never took his name. Read straight, she and [@name](../characters/soldier.md) were together but never married.
 - **Gives:** [ciotka-never-married](../clues/clues.md#ciotka-never-married)

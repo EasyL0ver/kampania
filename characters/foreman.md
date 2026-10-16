@@ -69,7 +69,7 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 
 ### Voice tightens while praising the ditch
 - **Noticed by:** [Empathy](../cards/empathy.md)
-- **When:** [@first-name](foreman.md) talks about the irrigation ditch
+- **When:** [Ask his opinion on the drain routes](#ask-his-opinion-on-the-drain-routes)
 <!-- Prompted by: [ditch-is-candidate-drain](../clues/clues.md#ditch-is-candidate-drain) -->
 - **Outcome:** His voice tightens and he won't meet your eye while praising the ditch.
 - **Gives:** [foreman-uneasy-about-ditch](../clues/clues.md#foreman-uneasy-about-ditch)
@@ -104,9 +104,9 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 - **Changes:** [Flood Awareness](wojewoda.md#flood-awareness) — [@first-name](foreman.md) reports up, rises to suspicious
 
 ### Ask his opinion on the drain routes
-- **When:** foreman: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated)
+<!-- Prompted by: [the-flood-line-potentially-miscalculated](../clues/clues.md#the-flood-line-potentially-miscalculated) -->
 - **Cost:** 1 time
-- **Outcome:** With nothing left to protect, [@first-name](foreman.md) walks the outlets from memory. He names the landslide sitting in the ridge gap, though he cannot say whether it seals the notch fully or leaks.
+- **Outcome:** With nothing left to protect, [@first-name](foreman.md) walks the outlets from memory. He names the landslide sitting in the ridge gap, though he cannot say whether it seals the notch fully or leaks.[](#voice-tightens-while-praising-the-ditch)
 - **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
 
 ### Ask where the surveyors have already been
@@ -143,7 +143,7 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 - **Gives:** [@name](../items/anchor.md)
 
 ### Press him about Tadeusz-Mazur
-- **When:** asked alone, not in front of the workers
+- **When:** NOT [@name](../locations/new-village/pgr-farm/pgr-farm.md)
 <!-- Prompted by: [mazur-death-covered-up](../clues/clues.md#mazur-death-covered-up) -->
 - **Cost:** 1 time
 - **Outcome:** Put the books in front of him and the pragmatism drops. He has carried this since 1965 and it comes out plainly: he knew that silo could kill and always tended it himself, but he was tied up elsewhere and put [@surname](tadeusz-mazur.md), his most solid man, on it. [@surname](tadeusz-mazur.md) went up alone and never came back. He suspected the silo had him but could not justify dumping a full state store on a guess, and when he asked the sołtys to empty it he was told no. Two weeks later the smell proved him right. They buried the paperwork, and the sołtys kept the wage flowing to [@first-name](widow.md) so she would not starve. He asks one thing: that [@first-name](widow.md) never learn her pension is a dead man's wage.

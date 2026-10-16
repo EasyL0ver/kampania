@@ -38,15 +38,14 @@ A clear voice answering from the telephone exchange while floodwater cuts the vi
 ## Actions
 
 ### Name her
-- **When:** On the line with her
 <!-- Prompted by: [operator-is-jagna](../clues/clues.md#operator-is-jagna) -->
 - **Cost:** 1 time
 - **Outcome:** The committee puts her name to the voice: [@first-name](../characters/jagna.md). If they are only guessing, saying her name, her father's, or the well buys one caught breath before she resumes procedure, deniable and not repeatable. Once they know the operator is [@name](../characters/jagna.md) and name her as such, she stops pretending: she does not deny it, does not hang up, and the flat clerk's indifference turns quiet, personal, and vengeful. The rescue does not change; every word after is between the committee and [@first-name](../characters/jagna.md).
 - **Changes:** [Anonymity](#anonymity) — known
 
 ### Tell her Glupek, her brother, is alive and trapped
-- **When:** [@name](../characters/glupek.md) has fled to the [@name](../locations/upa-bunker.md) after [@name](ciotka-found-dead/ciotka-found-dead.md)
-<!-- Prompted by: [operator-is-jagna](../clues/clues.md#operator-is-jagna), [edeks-father-left](../clues/clues.md#edeks-father-left), [barnas-had-a-daughter-hania](../clues/clues.md#barnas-had-a-daughter-hania) -->
+- **When:** [Alive](../characters/ciotka.md#alive) is false
+<!-- Prompted by: [glupek-fled-into-forest](../clues/clues.md#glupek-fled-into-forest), [operator-is-jagna](../clues/clues.md#operator-is-jagna), [edeks-father-left](../clues/clues.md#edeks-father-left), [barnas-had-a-daughter-hania](../clues/clues.md#barnas-had-a-daughter-hania) -->
 - **Cost:** 1 time
 - **Outcome:** She buried the whole family in her mind in 1954, the baby included. Hearing, and believing, that her brother lived breaks the procedure for good. She stops withholding and relays the call without confirming her identity.
 - **Changes:** [Willingness](#willingness) — rescue

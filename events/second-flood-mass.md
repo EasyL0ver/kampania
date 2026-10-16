@@ -39,7 +39,6 @@
 ## Actions
 
 ### Challenge the judgment reading
-- **When:** A player publicly pushes mercy or restraint after Mass.
 - **Cost:** 1 time
 - **Outcome:** The challenge gives [@title](../characters/priest.md) [@surname](../characters/priest.md) and the parish a visible alternative to judgment.
 - **Changes:** [Crisis of Faith](../characters/priest.md#crisis-of-faith) — +1

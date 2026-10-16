@@ -43,8 +43,10 @@ He speaks like a man who knows the rules are already on his side. His reasonable
 
 ### The dispute
 
-- **Type:** rule
-- TBD.
+- **Type:** enum (open | his-way | her-way)
+- **Per:** world
+- **Start:** open
+- Set when the committee rules the boundary.
 
 ## Opportunities
 
@@ -63,17 +65,17 @@ He speaks like a man who knows the rules are already on his side. His reasonable
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** He produces his father's deed to the house[](#deed-confirms-clear-title-and-transfer) and disputed strip. He notes that [@name](dispute-sister.md) farms the strip, but the paper is his.
-- **Changes:** [Property Record](../items/census.md#property-record) — [@first-name](dispute-brother.md) holds the deed to the house and disputed strip; [The dispute](#the-dispute) — TBD
+- **Changes:** [Property Record](../items/census.md#property-record) — [@first-name](dispute-brother.md) holds the deed to the house and disputed strip
 
 ### Rule the boundary his way
-- **When:** The committee settles the disputed strip in the compensation assessment
+- **When:** [Property assessment](#property-assessment) AND [The dispute](#the-dispute) is open
 - **Outcome:** The deed stands, and the strip and its compensation go to him. [@name](dispute-sister.md) loses the ground she has worked for years.
-- **Changes:** [The dispute](#the-dispute) — TBD
+- **Changes:** [The dispute](#the-dispute) — his-way
 
 ### Rule the boundary against him
-- **When:** The committee settles the strip in [@name](dispute-sister.md)'s favour despite the deed
+- **When:** [Property assessment](#property-assessment) AND [The dispute](#the-dispute) is open
 - **Outcome:** He tells the committee the deed is his and they have overstepped. He files a formal complaint through [@name](officer.md) and the provincial office.
-- **Changes:** [The dispute](#the-dispute) — TBD
+- **Changes:** [The dispute](#the-dispute) — her-way
 
 ## Bond
 

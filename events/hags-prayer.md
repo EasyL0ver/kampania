@@ -55,3 +55,7 @@
 
 - **Type:** rule
 - [@first-name](../characters/hag.md) cannot be caught, cornered, or spoken to here. The moment she is noticed, she flees, and pursuit fails in the dark. Contact must be made later, at her [@name](../locations/hags-cabin.md).
+
+## Resolve
+
+- [Candles](../locations/old-village-ruins.md#candles) is seen → [Candles](../locations/old-village-ruins.md#candles) = replaced

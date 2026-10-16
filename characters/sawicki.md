@@ -31,21 +31,21 @@ The nearest medical authority outside [@name](../locations/new-village/new-villa
 ## Actions
 
 ### Tell him about the fever and the aching muscles
-- **When:** Phone access
+- **When:** [@name](../locations/new-village/pgr-farm/pgr-office.md)
 <!-- Prompted by: [pawelek-burns-with-fever](../clues/clues.md#pawelek-burns-with-fever), [pawelek-in-muscle-pain](../clues/clues.md#pawelek-in-muscle-pain) -->
 - **Cost:** 1 time
 - **Outcome:** Hearing only fever and aches, [@surname](sawicki.md) judges it an ordinary fever going round after the flood. He expects it to pass and says to keep the child cool and watered.
 - **Gives:** [`pawelek-looks-like-common-fever`](../clues/clues.md#pawelek-looks-like-common-fever)
 
 ### Tell him about the yellow skin, red eyes or dark urine
-- **When:** Phone access
+- **When:** [@name](../locations/new-village/pgr-farm/pgr-office.md)
 <!-- Prompted by: [pawelek-turns-yellow](../clues/clues.md#pawelek-turns-yellow), [pawelek-eyes-are-red](../clues/clues.md#pawelek-eyes-are-red), [pawelek-passes-dark-urine](../clues/clues.md#pawelek-passes-dark-urine) -->
 - **Cost:** 1 time
 - **Outcome:** The yellow skin and dark urine settle it for him: infectious hepatitis, a sickness of the liver. He is confident. There is no drug for it, he says, so keep the child rested and warm and hope it turns. He is wrong, but he does not doubt it.
 - **Gives:** [`pawelek-has-hepatitis`](../clues/clues.md#pawelek-has-hepatitis)
 
 ### Tell him it came from the water
-- **When:** Phone access; the party has already told him about the yellow skin, red eyes or dark urine
+- **When:** [@name](../locations/new-village/pgr-farm/pgr-office.md) AND [Tell him about the yellow skin, red eyes or dark urine](#tell-him-about-the-yellow-skin-red-eyes-or-dark-urine)
 <!-- Prompted by: [pawelek-got-it-from-water](../clues/clues.md#pawelek-got-it-from-water) -->
 - **Cost:** 1 time
 - **Outcome:** Foul water changes everything for him. Not the liver sickness, the water fever, leptospirosis, a bacterial one. He drops the rest-and-hope line and prescribes penicillin at once, with a dose for a child [@first-name](pawelek.md)'s size.

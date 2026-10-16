@@ -29,7 +29,7 @@ PGR cook and the warmest person in the village. She knows about the silo cover-u
 - **Hair & face:** Dark hair pinned up loosely, strands escaping; round face, deep laugh lines around brown eyes.
 - **Carriage:** Sturdy, broad red hands always in motion — stirring, kneading, wiping a child's face.
 
-Her carrying voice is warm and practical. As the well takes hold, the smile stays but her eyes go flat, her movements slow, and the kitchen goes quiet.
+Her carrying voice is warm and practical.[](#voice-succeeds-where-force-and-reason-fail) As the well takes hold, the smile stays but her eyes go flat, her movements slow, and the kitchen goes quiet.
 
 ## Opinions
 
@@ -42,14 +42,9 @@ Her carrying voice is warm and practical. As the well takes hold, the smile stay
 
 ## Opportunities
 
-### Calm acceptance turned into a rescue list
-- **Noticed by:** [Empathy](../cards/empathy.md)
-- **When:** Prepare the soft landing (evacuation)
-- **Outcome:** On evacuation she is not panicking; she has accepted that the water wins and has turned grief into a list of people to save.
-
 ### Voice succeeds where force and reason fail
 - **Noticed by:** [Empathy](../cards/empathy.md)
-- **When:** Send [@first-name](zofia.md) to [@first-name](foreman.md) (the flood line)
+- **When:** setup:characters/zofia.md
 - **Outcome:** Force and reason will not reach [@first-name](foreman.md) at the flood line; her voice can.
 
 ## Actions

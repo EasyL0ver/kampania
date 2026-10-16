@@ -32,30 +32,9 @@
 - **When:** setup:events/wujas-visits-butcher.md
 - **Outcome:** [@nickname](../characters/wujas.md) visits the edge house regularly.
 
-### Handoff as errand, not social
-- **Noticed by:** [Empathy](../cards/empathy.md)
-- **When:** Follow [@nickname](../characters/wujas.md) to the edge house
-- **Outcome:** the handoff is an errand, not a social visit.
-
-### Wujas deflects and shuts down
-- **Noticed by:** [Empathy](../cards/empathy.md)
-- **When:** Ask [@name](../characters/wujas.md)
-- **Outcome:** [@nickname](../characters/wujas.md) deflects: he cannot explain the visits without shutting down.
-
-### Wojewoda pauses, knowing Wujas's game
-- **Noticed by:** [Empathy](../cards/empathy.md)
-- **When:** Ask [@name](../characters/wojewoda.md)
-- **Outcome:** [@first-name](../characters/wojewoda.md) pauses: he knows exactly what [@nickname](../characters/wujas.md) is doing.
-
-### Butcher's plain answer on deliveries
-- **Noticed by:** [Empathy](../cards/empathy.md)
-- **When:** Ask [@name](../characters/butcher.md)
-- **Outcome:** [@surname](../characters/butcher.md) answers plainly: the visits matter only as deliveries to him.
-
 ## Actions
 
 ### Observe the final visit
-- **When:** Day 1–2, before the wolf authorization finishes
 <!-- Prompted by: [dudka-failed-wolf-hunt](../clues/clues.md#dudka-failed-wolf-hunt) -->
 - **Cost:** 1 time
 - **Outcome:** [@nickname](../characters/wujas.md) carries [@first-name](../characters/wojewoda.md)'s real request to [@surname](../characters/butcher.md): deal with the wolves. [@surname](../characters/butcher.md) treats the request as a call back into the village.

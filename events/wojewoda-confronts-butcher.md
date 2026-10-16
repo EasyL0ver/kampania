@@ -10,7 +10,7 @@
 
 ## Setup
 
-- [@first-name](../characters/wojewoda.md) confronts [@surname](../characters/butcher.md) in public.
+- [@first-name](../characters/wojewoda.md) confronts [@surname](../characters/butcher.md) in public.[](#wojewoda-more-rattled-than-expected)
 - [@first-name](../characters/wojewoda.md) orders him to go home.
 - [@surname](../characters/butcher.md) does not comply.[](#butcher-ignores-the-sołtys-order)
 - [@surname](../characters/butcher.md) smokes and handles his knife.
@@ -34,13 +34,8 @@
 
 ### Wojewoda more rattled than expected
 - **Noticed by:** [Empathy](../cards/empathy.md)
-- **When:** speaking to [@name](../characters/wojewoda.md)
+- **When:** setup:events/wojewoda-confronts-butcher.md
 - **Outcome:** Afterwards, [@first-name](../characters/wojewoda.md) is more rattled than the public exchange warrants.
-
-### Butcher pleased the order failed
-- **Noticed by:** [Empathy](../cards/empathy.md)
-- **When:** speaking to [@name](../characters/butcher.md)
-- **Outcome:** Afterwards, [@surname](../characters/butcher.md) is pleased that the order failed.
 
 ### Villagers never saw Wojewoda fail
 - **Noticed by:** [Finesse](../cards/finesse.md)

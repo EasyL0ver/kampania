@@ -70,12 +70,12 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 - **Changes:** [Property Record](../items/census.md#property-record) — refusal logged, property remains unassessed
 
 ### Offer him a Carmen
-- **When:** [@surname](butcher.md) present; a Carmen to offer (the [store](../locations/new-village/the-store.md#buy-cigarettes) stocks them)
+- **Requires:** [@name](../items/pack-of-cigarettes.md)
 - **Outcome:** He waves your pack away with a grin and lights one of his own Carmen, or takes yours as his brand, and makes a small show of it either way. Offer him a cheap Sport instead and you learn nothing: he just refuses it, he does not smoke that.
 - **Gives:** [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen)
 
 ### Offer him a drink
-- **When:** [@surname](butcher.md) present; a bottle or drink to offer
+- **Requires:** [@name](../tags/alcohol.md)
 - **Outcome:** He waves the bottle off without a second look, no grin, no banter, just a flat refusal. He does not drink, and he does not explain it.
 - **Gives:** [butcher-doesnt-drink](../clues/clues.md#butcher-doesnt-drink)
 
@@ -86,7 +86,7 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)
 
 ### Ask about the Carmen cigarette
-- **When:** Players have the [@name](../items/cigarette-butts-from-ciotkas.md) or the [cigarette from Edek's room](../locations/new-village/ciotkas-house/ciotkas-house.md#search-glupeks-room)
+- **Requires:** [@name](../items/cigarette-butts-from-ciotkas.md)
 - **Cost:** 1 time
 - **Outcome:** No dodge, no worry. He shrugs and admits he gave the boy one, a boy has got to learn. He talks about [@first-name](glupek.md) warmly, like a nephew, and never once notices anything wrong with the fondness. He does not care that it places him near the door.
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)

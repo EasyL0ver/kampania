@@ -72,13 +72,12 @@
 - **Changes:** [Crisis of Faith](../characters/priest.md#crisis-of-faith) — −2
 
 ### Tell him the valley deserves judgment
-- **When:** The player answers his question toward condemnation.
 - **Outcome:** [@title](../characters/priest.md) [@surname](../characters/priest.md) leans harder toward judgment.
 - **Gives:** [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
 - **Changes:** [Crisis of Faith](../characters/priest.md#crisis-of-faith) — −2
 
 ### Share his cigarette
-- **When:** [@title](../characters/priest.md) [@surname](../characters/priest.md) genuinely trusts the player (mercy supported, or a personal confidence shared in return)
+- **Requires:** [Bond: priest](../cards/bond-priest.md)
 <!-- Prompted by: hook:characters/priest.md -->
 - **Outcome:** He drops the pretence, takes out a cigarette for himself[](#cigarette-brand-recognised-as-carmen) and offers one to the player. The habit he hides from the village is plain.
 - **Gives:** [`priest-smokes`](../clues/clues.md#priest-smokes)

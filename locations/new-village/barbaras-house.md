@@ -65,13 +65,13 @@ The edge of [@name](new-village.md), beside [@name](../../characters/neighbour.m
 
 ### Babcia notices night singing stopped
 - **Noticed by:** [Superstitious](../../cards/superstitious.md)
-- **When:** [@name](../../characters/hag.md) killed
+- **When:** [Alive](../../characters/hag.md#alive) is false
 <!-- Prompted by: setup:locations/new-village/barbaras-house.md -->
 - **Outcome:** Babcia notices the night singing has stopped.
 - **Gives:** [singing-in-the-night](../../clues/clues.md#singing-in-the-night)
 
 ### Woman singing for dead in forest
-- **When:** staying overnight at [@first-name](../../characters/barbara.md)'s house
+- **When:** [@name](../../tags/time-night.md)
 <!-- Prompted by: setup:locations/new-village/barbaras-house.md -->
 - **Outcome:** Awake in the dark, you hear it yourself: a woman singing for the dead, far out in the forest. Someone lives out there.
 - **Gives:** hook:characters/hag.md

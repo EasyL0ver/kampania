@@ -46,7 +46,7 @@
 - **Gives:** [@name](../../items/census.md), [@name](../../items/pgr-inventory.md)
 
 ### Ask him for a cigarette
-- **When:** [Standing](../../characters/driver.md#standing) is not grudge for this player
+- **When:** NOT [Standing](../../characters/driver.md#standing) is grudge
 <!-- Prompted by: [wrona-smokes-sport](../../clues/clues.md#wrona-smokes-sport) -->
 - **Outcome:** [@first-name](../../characters/driver.md) tosses the packet over his shoulder without looking. "Keep it. I've got more."
 - **Gives:** [@name](../../items/pack-of-cigarettes.md)
@@ -66,7 +66,7 @@
 - **Changes:** [Permission](#permission) — distracted
 
 ### Fish around in the back
-- **When:** [Permission](#permission) distracted or permission
+- **When:** [Permission](#permission) is distracted OR [Permission](#permission) is permission
 <!-- Prompted by: [wrona-hides-search-from-skowron](../../clues/clues.md#wrona-hides-search-from-skowron), [full-bottle-clinking-in-back](../../clues/clues.md#full-bottle-clinking-in-back) -->
 - **Cost:** 1 time
 - **Outcome:** Wedged behind the spare tyre: half a litre of Wyborowa, unopened. Beside it, a heavy wooden crate slides on every bend: its strap has snapped.
@@ -85,7 +85,7 @@
 
 ### Lash down the cargo
 - **Requires:** [Physique](../../cards/physique.md) OR [Handiwork](../../cards/handiwork.md)
-- **When:** [Permission](#permission) distracted or permission
+- **When:** [Permission](#permission) is distracted OR [Permission](#permission) is permission
 <!-- Prompted by: [loose-crate-in-back](../../clues/clues.md#loose-crate-in-back) -->
 - **Cost:** 1 time
 - **Outcome:** You climb over the seatback and lash the crate to the frame.

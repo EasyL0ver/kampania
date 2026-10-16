@@ -34,7 +34,6 @@ A rotted coat, its colour long gone to the soil, and a scatter of bones — inco
 - **Gives:** [`ravine-remains-around-30`](../clues/clues.md#ravine-remains-around-30)
 ### Give the remains a burial
 - **Requires:** [Remains from the Ravine](ravine-remains.md)
-- **When:** a willing officiant — [@name](../characters/priest.md), or the players themselves
 - **Cost:** 1 time
 - **Outcome:** The bones go back into the ground with words said over them — in the churchyard, or wherever the players choose. Whoever she was, someone finally treated her as a person with a name, even if the name is a guess. It settles nothing factual and it changes the people who do it.
 - **Changes:** [Crisis of Faith](../characters/priest.md#crisis-of-faith) — +1

@@ -30,7 +30,7 @@
 ## Actions
 
 ### Let Wujas vouch — already buddies
-- **When:** At least one committee member is [@nickname](../characters/wujas.md)'s [drinking buddy](../characters/wujas.md#drinking-buddy)
+- **When:** [Drinking Buddy](../characters/wujas.md#drinking-buddy) is true
 - **Outcome:** [@nickname](../characters/wujas.md) gets between the committee and his crew and swears they are alright. [@first-name](../characters/secondary/szymek-kepa.md) and [@first-name](../characters/secondary/romek-glowacz.md) stand down on his word — but [@first-name](../characters/secondary/franek-mucha.md) is too drunk to listen and still has to be turned around or put down.
 - **Changes:** [Resolving the brawl](#resolving-the-brawl) — the crew count drops to [@first-name](../characters/secondary/franek-mucha.md) alone
 

@@ -50,7 +50,7 @@
 - **Changes:** [@name](hunters-cross-paths.md) — starts
 
 ### Stay with him if he makes a kill
-- **When:** Follow [@surname](../characters/butcher.md) to a killed wolf
+- **When:** [Follow him into the forest](#follow-him-into-the-forest)
 <!-- Prompted by: [rezen-hunts-wolves](../clues/clues.md#rezen-hunts-wolves) -->
 - **Cost:** 1 time
 - **Outcome:** [@surname](../characters/butcher.md) carries the carcass deeper toward the [@name](../locations/old-village-ruins.md) and drops it into the well.

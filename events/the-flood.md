@@ -14,7 +14,7 @@
 - Players wake to heavy rain.
 - The windows are grey with flood weather.
 - The road the committee drove in on is gone under mud and flowing water.[](#road-failed-from-drainage-and-foundation)
-- The bridge over the creek is underwater.
+- The bridge over the creek is underwater.[](#rising-water-table-fills-old-well)
 - The creek has become a flood channel.
 - The village is cut off.
 - [@name](../characters/officer.md) was supposed to return yesterday and has not.
@@ -49,14 +49,14 @@
 
 ### Rising water table fills old well
 - **Noticed by:** [Handiwork](../cards/handiwork.md)
-- **When:** prior visit to [@name](../locations/old-village-ruins.md)
+- **When:** setup:events/the-flood.md
 - **Outcome:** The water table is rising: the well at the old village is filling too.
 - **Gives:** [`old-village-flooding`](../clues/clues.md#old-village-flooding)
 
 ## Actions
 
 ### Try the phone
-- **When:** Access to [@first-name](../characters/wojewoda.md)'s office.
+- **When:** [@name](../locations/new-village/pgr-farm/pgr-office.md)
 - **Cost:** 1 time
 - **Outcome:** The line may reach the powiat office, fail, or route through the exchange. Any outside call is unreliable and monitored if [@first-name](../characters/wojewoda.md) is present.
 - **Gives:** hook:events/operator-refuses-help.md

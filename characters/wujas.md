@@ -76,7 +76,7 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 
 ### Cheap cigarettes give him away
 - **Noticed by:** [Chainsmoker](../cards/chainsmoker.md)
-- **When:** [@nickname](wujas.md) present and drinking at the [@name](../locations/bimber-still.md) or the [@name](../locations/new-village/the-store.md)
+- **When:** [@name](../locations/bimber-still.md) OR [@name](../locations/new-village/the-store.md)
 <!-- Prompted by: setup:characters/wujas.md -->
 - **Outcome:** With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen.
 - **Gives:** [`tadek-smokes-cheapest`](../clues/clues.md#tadek-smokes-cheapest)
@@ -87,19 +87,15 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 - **Outcome:** he is not nervous about the census; he is nervous about being asked anything at all.
 - **Gives:** [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
 
-### Drunk census answers become theatre
-- **When:** Census interview, [@nickname](wujas.md) is drunk
-- **Outcome:** Asked about the census while drunk, he turns the answers into absurd village theatre.
-
 ### Drunk boast about a fake estate
-- **When:** Property assessment, [@nickname](wujas.md) is drunk
+- **When:** [Property assessment](#property-assessment)
 - **Outcome:** Drunk, he performs a property boast: he claims a fake grand estate made of the still, his brother's house, and moonlight.
 
 ## Actions
 
 ### Drink with the crew
 - **Requires:** [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md)
-- **When:** crew present (outside the [@name](../locations/new-village/the-store.md) or at the [@name](../locations/bimber-still.md)) or an invitation from [@nickname](wujas.md); the crew is not [Hostile](#crew-hostile)
+- **When:** ([@name](../locations/bimber-still.md) OR [@name](../locations/new-village/the-store.md)) AND [Crew Hostile](#crew-hostile) is false
 - **Cost:** 1 time
 - **Outcome:** The committee buys a round and shares a full session in the drinking circle. [@nickname](wujas.md) warms to whoever kept pace without judging him.
 - **Changes:** [Drinking Buddy](#drinking-buddy) — the drinking PCs become [@nickname](wujas.md)'s drinking buddies
@@ -116,11 +112,6 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 - **Outcome:** Loose with drink, [@nickname](wujas.md) remembers [@name](butcher.md) sitting in on the crew's sessions years back, bottle in hand like any of them. Then one day he just stopped, and never came back to the fire.
 - **Gives:** [`butcher-used-to-drink-with-the-crew`](../clues/clues.md#butcher-used-to-drink-with-the-crew)
 
-### Leverage — the bimber play, second visit
-- **When:** First leverage visit completed and well influence active
-- **Outcome:** The bottle is not working, and half-sentences slip out around [@first-name](jagna.md) before he catches himself.
-- **Gives:** [`wujas-is-guilty`](../clues/clues.md#wujas-is-guilty)
-
 ### Census interview
 - **Cost:** 1 time
 - **Outcome:** He gives his name and age, reaches for the bottle, and tries to end the questions quickly.[](#nervous-about-being-questioned)
@@ -128,7 +119,7 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 
 ### Property assessment
 - **Cost:** 1 time
-- **Outcome:** He says he owns nothing and drifts between siblings' kitchens and the still.
+- **Outcome:** He says he owns nothing and drifts between siblings' kitchens and the still.[](#drunk-boast-about-a-fake-estate)
 - **Changes:** [Property Record](../items/census.md#property-record) — [@nickname](wujas.md) holds no property, dependent on family
 
 ### Get Pawelek the penicillin

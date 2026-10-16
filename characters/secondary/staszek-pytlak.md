@@ -33,7 +33,7 @@ A slightly older village child who plays with [@name](../pawelek.md) before the 
 
 ### Boys know their mushrooms well
 - **Noticed by:** [Survival](../../cards/survival.md)
-- **When:** asked about their last day
+- **When:** [Ask Staszek-Pytlak about their last day](#ask-staszek-pytlak-about-their-last-day)
 - **Outcome:** pressed on which kind, it is clear the boys know their mushrooms: ordinary edible ones, and [@first-name](staszek-pytlak.md) ate the same and stayed well.
 - **Gives:** [pawelek-mushrooms-were-harmless](../../clues/clues.md#pawelek-mushrooms-were-harmless)
 
@@ -41,5 +41,5 @@ A slightly older village child who plays with [@name](../pawelek.md) before the 
 
 ### Ask Staszek-Pytlak about their last day
 - **Cost:** 1 time
-- **Outcome:** He tells you they went into the woods and ate mushrooms they picked.
+- **Outcome:** He tells you they went into the woods and ate mushrooms they picked.[](#boys-know-their-mushrooms-well)
 - **Gives:** [pawelek-ate-mushrooms-in-the-forest](../../clues/clues.md#pawelek-ate-mushrooms-in-the-forest)

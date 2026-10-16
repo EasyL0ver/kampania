@@ -104,7 +104,6 @@
 ## Actions
 
 ### Examine him
-- **When:** Hands on [@first-name](../characters/pawelek.md), touching and moving him
 <!-- Prompted by: setup:events/pawelek-falls-ill.md -->
 - **Cost:** 1 time
 - **Outcome:** His skin is burning hot, and once the muscle pain has set in he screams when you move his legs and back[](#screams-when-limbs-are-moved). What you learn depends on how far gone he is[](#looks-like-common-fever)[](#fever-should-have-broken). A medic examining him once he is yellowing reads that this is no common sickness[](#yellowing-rules-out-common-sickness).
@@ -124,7 +123,7 @@
 - **Gives:** [`babcia-is-lemko`](../clues/clues.md#babcia-is-lemko), [`babcia-has-the-words`](../clues/clues.md#babcia-has-the-words)
 
 ### Drive out the devil
-- **When:** [@title](../characters/priest.md) [@first-name](../characters/priest.md) [@surname](../characters/priest.md) brought to [@first-name](../characters/pawelek.md)'s sickroom
+- **When:** [Priest brought](#priest-brought) is true
 <!-- Prompted by: [`pawelek-was-possessed`](../clues/clues.md#pawelek-was-possessed) -->
 - **Cost:** 1 time
 - **Outcome:** He prays loudly over the boy, commanding the devil out, a Roman Catholic blessing that rises to shouting. It does nothing for the fever, and the noise frightens the delirious child. [@name](../characters/babcia.md) comes out of her chair, sharply lucid, and drives him off: the boy is not a demon, and he is not to shout and terrify a sick child. This is not his faith and not his rite.
@@ -138,6 +137,13 @@
 - **Changes:** [Health Points](../characters/pawelek.md#health-points) — drain stops, +1 HP per phase
 
 ## Mechanics
+
+### Priest brought
+
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True once the committee brings the priest to the sickroom ([Bring him to the sick boy](../characters/priest.md#bring-him-to-the-sick-boy)).
 
 ### The illness
 

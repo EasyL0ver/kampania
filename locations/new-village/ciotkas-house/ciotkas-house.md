@@ -15,7 +15,7 @@ The best plot in [@name](../new-village.md), across from the Neighbour's house.
 - **Interior:** The house smells of soap and cooked grain.
 - **Door:** Two locks on the front door — one old and pitted low on the frame, one newer above it[](#two-locks-fitted-at-different-times). It reads as a fearful woman's caution.
 - **Attic:** A hatch in the ceiling with a short ladder folded beside it. It stays shut, and [@first-name](../../../characters/ciotka.md) is the only one who goes up.
-- **[@first-name](../../../characters/glupek.md):** He plays with a few worn wooden toys and keeps asking [@first-name](../../../characters/ciotka.md) for more of them.
+- **[@first-name](../../../characters/glupek.md):** He plays with a few worn wooden toys and keeps asking [@first-name](../../../characters/ciotka.md) for more of them.[](#glupek-asks-for-toys-in-the-attic)
 - **[@first-name](../../../characters/glupek.md)'s care:** Sharp edges, clutter, and surprises are removed.
 - **[@first-name](../../../characters/glupek.md)'s room:** His own room. Straw mattress, age-inappropriate wooden toy, scratch marks on the wall.
 - **[@first-name](../../../characters/glupek.md)'s room:** A grown man's room kept like a small child's. The toys are worn from handling but the room is too quiet, too still.
@@ -37,7 +37,8 @@ The best plot in [@name](../new-village.md), across from the Neighbour's house.
 - **Gives:** [`ciotka-changed-the-lock`](../../../clues/clues.md#ciotka-changed-the-lock)
 
 ### Glupek asks for toys in the attic
-- **When:** hook:characters/glupek.md
+- **When:** setup:locations/new-village/ciotkas-house/ciotkas-house.md
+<!-- Prompted by: hook:characters/glupek.md -->
 - **Outcome:** Partway through the visit [@first-name](../../../characters/glupek.md) tugs [@first-name](../../../characters/ciotka.md)'s sleeve and asks, low, for more of his toys — the ones kept up in the attic. She soothes him: not now, and not himself; once the gentlemen have gone she will go up and bring a couple down. He is not to climb up there.
 - **Gives:** [`glupek-forbidden-from-attic`](../../../clues/clues.md#glupek-forbidden-from-attic)
 
@@ -47,8 +48,8 @@ The best plot in [@name](../new-village.md), across from the Neighbour's house.
 - **Requires:** [Finesse](../../../cards/finesse.md)
 - **When:** [Alive](../../../characters/ciotka.md#alive) is false
 - **Cost:** 1 time
-- **Outcome:** Only a real search of the room turns them up, tucked away like treasures among the boy's few things: a single unsmoked cigarette, and an old [@name](../../../items/bayonet.md) kept hidden from [@first-name](../../../characters/ciotka.md). [@first-name](../../../characters/glupek.md) does not smoke, so the cigarette was a gift; its brand and meaning become clear when [compared with the butts from the door](../../../items/cigarette-butts-from-ciotkas.md#compare-with-the-cigarette-in-glupeks-room). What the bayonet is, and that it cannot be his father's, takes a soldier's eye. [@name](../../../characters/neighbour.md) is right across the road; a search risks him seeing them at it.
-- **Gives:** [@name](../../../items/bayonet.md)
+- **Outcome:** Only a real search of the room turns them up, tucked away like treasures among the boy's few things: a single unsmoked [@name](../../../items/glupeks-cigarette.md), and an old [@name](../../../items/bayonet.md) kept hidden from [@first-name](../../../characters/ciotka.md). [@first-name](../../../characters/glupek.md) does not smoke, so the cigarette was a gift; its brand and meaning become clear when [compared with the butts from the door](../../../items/cigarette-butts-from-ciotkas.md#compare-with-the-cigarette-in-glupeks-room). What the bayonet is, and that it cannot be his father's, takes a soldier's eye. [@name](../../../characters/neighbour.md) is right across the road; a search risks him seeing them at it.
+- **Gives:** [@name](../../../items/bayonet.md), [@name](../../../items/glupeks-cigarette.md)
 ### Open the attic with the key
 - **Requires:** [@name](../../../items/attic-key.md)
 <!-- Prompted by: [`ciotka-is-dead`](../../../clues/clues.md#ciotka-is-dead) -->

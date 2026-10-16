@@ -63,13 +63,6 @@
 - **Outcome:** workers connect the wolf attacks to fires and chanting in the ruins.
 - **Gives:** [`hag-blamed-for-wolves`](../clues/clues.md#hag-blamed-for-wolves)
 
-### Rotten fence exploited by wolves
-- **Noticed by:** [Handiwork](../cards/handiwork.md)
-- **When:** Reinforce the farm
-<!-- Prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock) -->
-- **Outcome:** the fence was rotten before the rains and the wolves used an existing weakness.
-- **Gives:** [`pgr-underfunded-fences`](../clues/clues.md#pgr-underfunded-fences)
-
 ## Actions
 
 ### Listen to the farmhands

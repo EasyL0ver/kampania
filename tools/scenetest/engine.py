@@ -61,6 +61,11 @@ def check(expr: str, src: Path, p: Player) -> bool:
         raise ValueError(f"cannot read requirement '{expr}': {err}")
 
     def holds(term: str) -> bool:
+        tag = S.V.TAG_LINK.match(term)
+        if tag:                                       # a tag: holding any item that carries it
+            want = (S.V.TAGS_DIR / Path(tag.group(1)).name).resolve()
+            return any(want in {t.path.resolve() for t in S.tags_of(S.V.parse(S.ROOT / i))}
+                       for i in p.items if (S.ROOT / i).is_file())
         target = S.LINK.match(term)
         r = S.ref_id(target.group(2), src) if target else None
         return bool(r) and p.has(r)

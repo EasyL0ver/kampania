@@ -48,7 +48,7 @@ She states her case rather than begging for it. When she repeats her father's la
 
 ### Unease suggests she was told of bloodshed
 - **Noticed by:** [Culture](../cards/culture.md)
-- **When:** old village in view
+- **When:** [@name](../locations/old-village.md)
 - **Outcome:** Her unease fits someone told a place is bloodied, not someone who merely dislikes ruins.
 
 ## Actions
@@ -61,18 +61,12 @@ She states her case rather than begging for it. When she repeats her father's la
 ### Property assessment
 - **Cost:** 1 time
 - **Outcome:** She has no deed and claims the border strip by years of labour. She names her brother's paper as the theft.
-- **Changes:** [Property Record](../items/census.md#property-record) — [@first-name](dispute-sister.md) claims the disputed strip by use, no title; [The dispute](dispute-brother.md#the-dispute) — TBD
+- **Changes:** [Property Record](../items/census.md#property-record) — [@first-name](dispute-sister.md) claims the disputed strip by use, no title
 
 ### Take her plea seriously
-- **When:** The committee engages with her as a claimant, not a nuisance
 - **Cost:** 1 time
 - **Outcome:** She repeats her father's dying words: the land was never theirs to pass down, the old village people were killed, and the fire hid it. She offers it as proof that the deed is dirty.
 - **Gives:** [`army-massacred-civilians-in-1947`](../clues/clues.md#army-massacred-civilians-in-1947)
-
-### Tell her what her father really witnessed
-<!-- Prompted by: [army-massacred-civilians-in-1947](../clues/clues.md#army-massacred-civilians-in-1947) -->
-- **Outcome:** She goes still and stops using the deathbed account as a property argument. She will not repeat it in an official room again.
-- **Changes:** [The dispute](dispute-brother.md#the-dispute) — TBD
 
 ## Bond
 

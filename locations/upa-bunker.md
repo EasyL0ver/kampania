@@ -36,7 +36,7 @@
 
 ### Carved name links Dmytro-kosach to bunker
 - **Noticed by:** [Language](../cards/language.md)
-- **When:** Search inside the bunker
+- **When:** [Explore the bunker](#explore-the-bunker)
 <!-- Prompted by: setup:locations/upa-bunker.md -->
 - **Outcome:** The carved name, cache, and journal fragment connect [@name](../characters/dmytro-kosach.md) to the bunker and to [@name](hags-cabin.md).
 - **Gives:** hook:characters/dmytro-kosach.md
@@ -44,9 +44,8 @@
 ## Actions
 
 ### Explore the bunker
-- **When:** hook:locations/upa-bunker.md, or visible ventilation shafts or entrance
 - **Cost:** 1 time
-- **Outcome:** The party enters the abandoned bunker and confirms old partisan use.
+- **Outcome:** The party enters the abandoned bunker and confirms old partisan use.[](#carved-name-links-dmytro-kosach-to-bunker)
 - **Gives:** hook:locations/upa-bunker.md, [old-wartime-positions](../clues/clues.md#old-wartime-positions)
 
 ### Search Dmytro-Kosach's cache

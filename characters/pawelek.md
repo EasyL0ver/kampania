@@ -80,12 +80,12 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ### Child echoing dying prayers
 - **Noticed by:** [Language](../cards/language.md)
-- **When:** evening with [@first-name](pawelek.md), Babcia
+- **When:** [@name](../tags/time-evening.md)
 - **Outcome:** [@first-name](pawelek.md) reproduces Babcia's prayer fragments with eerie accuracy. A child is acting as an unconscious vessel for a dying language.
 
 ### Mother watches from kitchen
 - **Noticed by:** [Empathy](../cards/empathy.md)
-- **When:** evening with [@first-name](pawelek.md), Babcia
+- **When:** [@name](../tags/time-evening.md)
 - **Outcome:** [@name](barbara.md) watches from the kitchen. She does not understand what Babcia says either, and she is watching her son become part of something she was never part of.
 
 ### Child needs antibiotics
@@ -116,7 +116,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ### Build with Pawelek
 - **Requires:** [Handiwork](../cards/handiwork.md)
-- **When:** Morning or afternoon, [@first-name](pawelek.md) playing with stones
+- **When:** [@name](../tags/time-morning.md) OR [@name](../tags/time-afternoon.md)
 - **Outcome:** The player helps him build the circular pattern he has been copying from memory. An engineer recognizes the pattern as a well rim.
 - **Gives:** [pawelek-wanders-to-old-village](../clues/clues.md#pawelek-wanders-to-old-village), hook:locations/old-village-ruins.md
 
@@ -131,7 +131,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 - **Gives:** hook:characters/hag.md
 
 ### The place you can't get through
-- **When:** Playing or talking with [@first-name](pawelek.md) about the forest
+- **When:** [Build with Pawelek](#build-with-pawelek)
 <!-- Prompted by: [committee-runs-geographical-survey](../clues/clues.md#committee-runs-geographical-survey) -->
 - **Outcome:** He mentions, offhand, that you can't get through the notch in the hill anymore because it all fell down in a big pile of rocks. The lady showed him.
 - **Gives:** [landslide-in-the-gap](../clues/clues.md#landslide-in-the-gap)
