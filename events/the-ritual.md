@@ -16,8 +16,8 @@ Gathering ritual materials and arranging them at the well or cerkiew.
 - [@name](../characters/dmytro-kosach.md) is named with the 1947 dead.
 - [@name](../characters/soldier.md) is the 1954 lynch victim in the well.
 - [@name](../characters/ciotka.md) is named only if [@name](rezen-takes-the-body.md).
-- [@name](../characters/hag.md) is named only if she died at [@name](well-confrontation.md) and her body was dropped in the well.
-- [@name](../characters/butcher.md) is named only if he died at [@name](well-confrontation.md) and entered the well.
+- [@name](../characters/hag.md) is named only if she died at [@name](well-confrontation/well-confrontation.md) and her body was dropped in the well.
+- [@name](../characters/butcher.md) is named only if he died at [@name](well-confrontation/well-confrontation.md) and entered the well.
 - [@name](../characters/jagna.md) is not named as dead unless the players choose wrongly.
 - [@name](../characters/kbw-officer.md) is not named as one of the well dead.
 - [@name](../characters/barbara.md) must bring [@name](../characters/babcia.md) if Babcia is physically present.

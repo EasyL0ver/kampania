@@ -10,7 +10,7 @@
 - The safe is old, official, and locked.
 - Tea is usually on the table.
 - [@name](../../../characters/wojewoda.md) works here and receives visitors here.
-- The phone is the only phone in the village.
+- The phone is the only phone in the village.[](#pick-up-the-phone)
 - The maps show topography, rivers, old boundaries, and[](#map-shows-ridge-channel-and-misplaced-bridge)[](#maps-mark-the-village-of-hołubie) [@name](../../old-village.md).
 - The ledger is on the desk during census work.
 - The shelf holds farm records, including construction and land-drainage (melioracja) files.
@@ -32,17 +32,16 @@
 
 ## Actions
 
+### Pick up the phone
+<!-- Prompted by: setup:locations/new-village/pgr-farm/pgr-office.md -->
+- **Outcome:** [@hook](../../../events/phone-calls/phone-calls.md)
+- **Changes:** [@name](../../../events/phone-calls/phone-calls.md) — starts
+
 ### Steal the maps
 - **When:** NOT [@present](../../../characters/wojewoda.md)
 - **Cost:** 1 time
 - **Outcome:** Players take the maps; [@name](../../../characters/wojewoda.md) will notice eventually.
 - **Gives:** [@name](../../../items/topographic-maps.md)
-
-### Call the survey archive
-<!-- Prompted by: [the-flood-line-potentially-miscalculated](../../../clues/clues.md#the-flood-line-potentially-miscalculated) -->
-- **Cost:** 1 time
-- **Outcome:** The district survey archive confirms the previous crew filed a thin report, drove only a handful of stakes, and closed the job early. On the record it reads as thin work, well short of a proper survey.
-- **Gives:** [original-report-is-thin](../../../clues/clues.md#original-report-is-thin)
 
 ### Date the map against the ground
 - **Requires:** [Topographic Maps](../../../items/topographic-maps.md)

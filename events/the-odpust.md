@@ -27,6 +27,11 @@
 
 ## Opportunities
 
+### Arriving on the scene
+- **When:** [@name](../locations/new-village/new-village.md)
+- **Outcome:** [@hook](the-odpust.md)
+- **Gives:** *(to: players at [@name](../locations/new-village/new-village.md))* hook:events/the-odpust.md
+
 ### Priest chooses mercy over judgment
 - **Noticed by:** [Devotion](../cards/devotion.md)
 - **When:** setup:events/the-odpust.md

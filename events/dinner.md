@@ -32,6 +32,11 @@
 
 ## Opportunities
 
+### Arriving on the scene
+- **When:** [@name](../locations/new-village/wojewodas-house.md)
+- **Outcome:** [@hook](dinner.md)
+- **Gives:** *(to: players at [@name](../locations/new-village/wojewodas-house.md))* hook:events/dinner.md
+
 ### Wife watches the committee closely
 - **Noticed by:** [Finesse](../cards/finesse.md)
 - **When:** setup:events/dinner.md

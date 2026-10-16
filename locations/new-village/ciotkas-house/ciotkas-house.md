@@ -42,6 +42,11 @@ The best plot in [@name](../new-village.md), across from the Neighbour's house.
 - **Outcome:** Partway through the visit [@first-name](../../../characters/glupek.md) tugs [@first-name](../../../characters/ciotka.md)'s sleeve and asks, low, for more of his toys — the ones kept up in the attic. She soothes him: not now, and not himself; once the gentlemen have gone she will go up and bring a couple down. He is not to climb up there.
 - **Gives:** [`glupek-forbidden-from-attic`](../../../clues/clues.md#glupek-forbidden-from-attic)
 
+### Patch by the fence dug up
+- **When:** [Cache](#cache) is taken
+- **Outcome:** The patch by the fence has been dug up and filled back in, badly.
+- **Gives:** [`somebody-dug-for-cache`](../../../clues/clues.md#somebody-dug-for-cache)
+
 ## Actions
 
 ### Search Glupek's room
@@ -63,10 +68,12 @@ The best plot in [@name](../new-village.md), across from the Neighbour's house.
 - **Outcome:** The players break the locked hatch open. It is loud, splintered wood and a scene the neighbours can hear.
 - **Changes:** [The attic hatch](#the-attic-hatch) — open
 ### Dig in the backyard
+- **When:** [Cache](#cache) is buried
 <!-- Prompted by: [telegram-points-to-barnas-yard](../../../clues/clues.md#telegram-points-to-barnas-yard) -->
 - **Cost:** 1 time
 - **Outcome:** About a foot down, the players find oilcloth containing a KBW uniform, service insignia, [@name](../../../characters/soldier.md)'s identity documents, deployment dates for the Bieszczady region in 1947, commanding officer [@name](../../../characters/kbw-officer.md), and love letters addressed to "M.K."; these can be cross-checked with [@name](../../../characters/officer.md)'s classified files, the [@name](../../upa-bunker.md), and the [@name](../../../items/pgr-expenses.md).
 - **Gives:** [@name](../../../items/buried-oilcloth-bundle.md)
+- **Changes:** [Cache](#cache) — found
 
 ## Mechanics
 
@@ -76,3 +83,10 @@ The best plot in [@name](../new-village.md), across from the Neighbour's house.
 - **Per:** world
 - **Start:** shut
 - Shut, and only [@first-name](../../../characters/ciotka.md) goes up while she lives. After her death it is locked until opened with the [@name](../../../items/attic-key.md) or forced. Once open, it stays open, and [@name](attic.md) can be visited.
+
+### Cache
+
+- **Type:** enum (buried | found | taken)
+- **Per:** world
+- **Start:** buried
+- The oilcloth bundle under the garden bed behind the house. Found when the committee digs it up or catches [@name](../../../characters/wujas.md) at it; taken if he digs it up unseen ([@name](../../../events/wujas-digs-up-the-cache.md)).

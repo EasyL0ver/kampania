@@ -1,5 +1,7 @@
 # Michał Pytlak
 
+**Tags:** [@name](../tags/villager.md)
+
 ## Hook
 
 [@first-name](foreman.md) [@surname](foreman.md), the PGR farm overseer, directing work around the farm.
@@ -37,12 +39,6 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 - **[@name](zofia.md)** — "She sees the valley slipping away before I admit it. I cannot listen too long, because then I may have to stop digging."
 
 ## Mechanics
-
-### Alive
-
-- **Type:** bool
-- **Per:** world
-- **Start:** true
 
 ### On the survey
 

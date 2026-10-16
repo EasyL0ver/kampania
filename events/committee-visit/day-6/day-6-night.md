@@ -16,8 +16,7 @@ The night of [@name](day-6.md) begins.[](#punishment-lynch-begins)
 
 ### Punishment lynch begins
 - **When:** setup:events/committee-visit/day-6/day-6-night.md
-- **Outcome:** [@hook](../../punishment-lynch.md)
-- **Gives:** *(to: every player)* hook:events/punishment-lynch.md
+- **Outcome:** [@name](../../punishment-lynch.md) begins.
 - **Changes:** [@name](../../punishment-lynch.md) — starts
 
 ### Morning comes

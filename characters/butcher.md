@@ -1,5 +1,7 @@
 # Stanisław Rezeń
 
+**Tags:** [@name](../tags/villager.md)
+
 ## Hook
 
 [@first-name](butcher.md) [@surname](butcher.md), the village butcher and widely avoided pariah, lives alone beyond the treeline with his dogs.
@@ -40,14 +42,6 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 - **[@name](wojewoda.md)** — "The sołtys keeps me at arm's length like a chained dog. He needs the threat I represent, and I know where every body is buried."
 - **[@name](wujas.md)** — "[@nickname](wujas.md) drinks to forget me. Drunk, he says things he should not; sober, he is beneath notice."
 - **[@name](hag.md)** — "I do not know who she is. Someone leaves signs at the well, and I chalk it up to the ruins being strange."
-
-## Mechanics
-
-### Alive
-
-- **Type:** bool
-- **Per:** world
-- **Start:** true
 
 ## Opportunities
 

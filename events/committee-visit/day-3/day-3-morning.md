@@ -16,8 +16,7 @@ The morning of [@name](day-3.md) begins.[](#the-flood-begins)[](#hunt-with-rezen
 
 ### The flood begins
 - **When:** setup:events/committee-visit/day-3/day-3-morning.md
-- **Outcome:** [@hook](../../the-flood.md)
-- **Gives:** *(to: every player)* hook:events/the-flood.md
+- **Outcome:** [@name](../../the-flood.md) begins.
 - **Changes:** [@name](../../the-flood.md) — starts
 
 ### Hunt with rezen begins
@@ -42,8 +41,7 @@ The morning of [@name](day-3.md) begins.[](#the-flood-begins)[](#hunt-with-rezen
 
 ### Store robbery begins
 - **When:** setup:events/committee-visit/day-3/day-3-morning.md AND [Cabinet](../../../locations/new-village/the-store.md#cabinet) is forced
-- **Outcome:** [@hook](../../store-robbery.md)
-- **Gives:** *(to: every player)* hook:events/store-robbery.md
+- **Outcome:** [@name](../../store-robbery.md) begins.
 - **Changes:** [@name](../../store-robbery.md) — starts; [Cabinet](../../../locations/new-village/the-store.md#cabinet) — discovered
 
 ### Afternoon comes

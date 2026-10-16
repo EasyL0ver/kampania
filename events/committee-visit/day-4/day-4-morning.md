@@ -16,8 +16,7 @@ The morning of [@name](day-4.md) begins.[](#holy-mass-begins)[](#wojewoda-confro
 
 ### Holy mass begins
 - **When:** setup:events/committee-visit/day-4/day-4-morning.md
-- **Outcome:** [@hook](../../holy-mass.md)
-- **Gives:** *(to: every player)* hook:events/holy-mass.md
+- **Outcome:** [@name](../../holy-mass.md) begins.
 - **Changes:** [@name](../../holy-mass.md) — starts
 
 ### Wojewoda confronts butcher begins
@@ -27,8 +26,7 @@ The morning of [@name](day-4.md) begins.[](#holy-mass-begins)[](#wojewoda-confro
 
 ### Store robbery begins
 - **When:** setup:events/committee-visit/day-4/day-4-morning.md AND [Cabinet](../../../locations/new-village/the-store.md#cabinet) is forced
-- **Outcome:** [@hook](../../store-robbery.md)
-- **Gives:** *(to: every player)* hook:events/store-robbery.md
+- **Outcome:** [@name](../../store-robbery.md) begins.
 - **Changes:** [@name](../../store-robbery.md) — starts; [Cabinet](../../../locations/new-village/the-store.md#cabinet) — discovered
 
 ### Afternoon comes

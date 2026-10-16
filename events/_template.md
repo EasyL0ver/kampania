@@ -8,8 +8,9 @@
 <!-- Header lines are strict: technical only. No prose, no exposition, no flavor.
      Location: one [Place](../locations/file.md) link. Nothing else.
      Present: optional (omit when no NPC is involved). Comma-separated [Name](../characters/file.md) links: who is in view, their
-              moves open. Each may carry ONE condition on a mechanic, nothing else:
-              (if [Mechanic](#mechanic) is value). While it fails they are not present.
+              moves open. Each may carry a condition on mechanics, nothing else:
+              (if [Mechanic](#mechanic) is value AND [Other](x.md#other) is value), joined
+              by AND, OR, NOT and parentheses. While it fails they are not present.
               NOT allowed (validate.py errors): free-text conditions "(if survived
               Day 6)", states "(panicking)", narration, crowds, absent people.
               NPC state, arrivals, and who is missing belong in Setup.

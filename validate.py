@@ -860,17 +860,32 @@ CHANGE_COMMENT_LIMIT = 80
 _mech_anchors: dict[Path, set[str]] = {}
 
 
+def carried_tags(path: Path) -> list[Path]:
+    """The tag files a file carries in its **Tags:** header: their Mechanics, Opportunities and Actions
+    are the file's own, so file.md#anchor resolves into them too."""
+    if not path.is_file() or path.suffix != ".md" or TAGS_DIR in path.resolve().parents:
+        return []
+    _, value = parse(path).header.get("Tags", (0, ""))
+    out = []
+    for part in value.split(", ") if value else []:
+        m = TAG_LINK.match(part.strip())
+        dest = (path.parent / unquote(m.group(1))).resolve() if m else None
+        if dest and dest.is_file():
+            out.append(dest)
+    return out
+
+
 def mechanics_anchors(path: Path) -> set[str]:
-    """Heading ids of the ## Mechanics section of a file and every heading inside it."""
+    """Heading ids of the ## Mechanics section of a file and every heading inside it, its tags' included."""
     if path not in _mech_anchors:
-        f = parse(path)
         ids = set()
-        s = f.section("Mechanics")
-        stack = [s] if s else []
-        while stack:
-            sec = stack.pop()
-            ids.add(slug(sec.title))
-            stack.extend(sec.children)
+        for src in [path, *carried_tags(path)]:
+            s = parse(src).section("Mechanics")
+            stack = [s] if s else []
+            while stack:
+                sec = stack.pop()
+                ids.add(slug(sec.title))
+                stack.extend(sec.children)
         _mech_anchors[path] = ids
     return _mech_anchors[path]
 
@@ -890,6 +905,8 @@ def changes_format(f: MdFile):
             ev = CHANGE_EVENT.match(part.strip())
             if ev:                                     # [Event](events/…md) — starts | ends
                 dest = (f.path.parent / unquote(ev.group("path"))).resolve()
+                if f.kind == "tags" and dest == f.path.resolve():
+                    continue                           # a tag naming itself: the tagged event
                 if not dest.is_file() or dest.relative_to(REPO_ROOT).parts[0] != "events":
                     yield line, f"Changes entry '{part[:70]}': only an event can start or end"
                 continue
@@ -959,9 +976,10 @@ def mechanic_type(f: MdFile):
 
 def mechanic_kind(path: Path, anchor: str) -> tuple[str, list[str]] | None:
     """(type, legal values) of the mechanic at path#anchor: bool and enum list their values,
-    int / rule / list none. None if there is no such typed mechanic."""
-    s = parse(path).section("Mechanics")
-    for m in (s.children if s else []):
+    int / rule / list none. None if there is no such typed mechanic. A carried tag's mechanics count."""
+    found = [m for src in [path, *carried_tags(path)]
+             for s in [parse(src).section("Mechanics")] for m in (s.children if s else [])]
+    for m in found:
         if slug(m.title) != anchor:
             continue
         body = [t.strip() for _, t in m.body if t.strip()]
@@ -1028,7 +1046,7 @@ def resolve_format(f: MdFile):
 
 PRESENT_ENTRY = re.compile(
     r"^\[[^\]]+\]\((?P<who>[^)\s#]*characters/[^)\s#]+\.md)\)"
-    r"(?: \(if \[[^\]]+\]\((?P<path>[^)#\s]*)#(?P<anchor>[a-z0-9-]+)\) is (?P<value>[A-Za-z0-9-]+)\))?$")
+    r"(?: \(if (?P<cond>.+)\))?$")
 
 
 TAG_LINK = re.compile(r"^\[[^\]]+\]\(((?:\.\./)*tags/[a-z0-9-]+\.md)\)$")
@@ -1078,24 +1096,36 @@ def tags_format(f: MdFile):
 
 @rule("present-format", "events")
 def present_format(f: MdFile):
-    """Present is a ', '-separated list of character links, each with at most one condition on a
-    bool / enum mechanic: `[Name](file.md) (if [Mechanic](file.md#mechanic) is value)`. No free text."""
+    """Present is a ', '-separated list of character links, each with an optional condition: a boolean
+    expression (AND, OR, NOT, parentheses) of mechanic conditions,
+    `[Name](file.md) (if [Mechanic](file.md#mechanic) is value AND …)`. No free text."""
     line, value = f.header.get("Present", (0, ""))
     if not line:
         return
     for part in re.split(r"[,;]\s*", value.strip()):
         e = PRESENT_ENTRY.match(part.strip())
         if not e:
-            yield line, f"Present entry '{part.strip()[:70]}' is not `[Name](characters/file.md)` with an optional `(if [Mechanic](file.md#mechanic) is value)`"
+            yield line, f"Present entry '{part.strip()[:70]}' is not `[Name](characters/file.md)` with an optional `(if <mechanic conditions>)`"
             continue
-        if not e.group("anchor"):
+        if not e.group("cond"):
             continue
-        target = (f.path.parent / unquote(e.group("path"))).resolve() if e.group("path") else f.path
-        values = mechanic_values(target, e.group("anchor")) if target.is_file() else None
-        if values is None:
-            yield line, f"Present condition '#{e.group('anchor')}' is not a bool / enum mechanic"
-        elif e.group("value") not in values:
-            yield line, f"Present condition value '{e.group('value')}' is not one of: {', '.join(values)}"
+        tree, err = parse_bool(e.group("cond"))
+        if err:
+            yield line, f"Present condition: {err}"
+            continue
+        for _, term in bool_terms(tree):
+            tm = WHEN_TERM_LINK.match(term)
+            target = ((f.path.parent / unquote(tm.group("path"))).resolve() if tm.group("path") else f.path) if tm else None
+            mk = mechanic_kind(target, tm.group("anchor")) if tm and target.is_file() else None
+            v = tm.group("value") if tm else None
+            if not mk or mk[0] in ("rule", "list") or not v:
+                yield line, f"Present condition '{term[:60]}' is not '[Mechanic](file.md#anchor) is value'"
+            elif mk[0] in ("bool", "enum") and v not in mk[1]:
+                yield line, f"Present condition value '{v}' is not one of: {', '.join(mk[1])}"
+            elif mk[0] == "int" and not re.fullmatch(r"-?\d+", v):
+                yield line, f"Present condition value '{v}' is not an int"
+            elif mk[0] == "bool" and tm.group("op") != "is":
+                yield line, f"Present condition '{term[:60]}': a bool takes only 'is'"
 
 
 # Header fields each kind carries between the title and the first ##: (template order, optional ones).
@@ -1356,6 +1386,8 @@ def anchors(path: Path) -> set[str]:
                 n = seen.get(base, 0)
                 seen[base] = n + 1
                 ids.add(base if n == 0 else f"{base}-{n}")
+        for tag in carried_tags(path):                  # a tag's moves and mechanics are the file's own
+            ids |= anchors(tag)
         _anchors[path] = ids
     return _anchors[path]
 

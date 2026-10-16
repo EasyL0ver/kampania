@@ -22,14 +22,12 @@ The morning of [@name](day-6.md) begins.[](#coffee-at-helenas-begins)[](#second-
 
 ### Second flood mass begins
 - **When:** setup:events/committee-visit/day-6/day-6-morning.md
-- **Outcome:** [@hook](../../second-flood-mass.md)
-- **Gives:** *(to: every player)* hook:events/second-flood-mass.md
+- **Outcome:** [@name](../../second-flood-mass.md) begins.
 - **Changes:** [@name](../../second-flood-mass.md) — starts
 
 ### Store robbery begins
 - **When:** setup:events/committee-visit/day-6/day-6-morning.md AND [Cabinet](../../../locations/new-village/the-store.md#cabinet) is forced
-- **Outcome:** [@hook](../../store-robbery.md)
-- **Gives:** *(to: every player)* hook:events/store-robbery.md
+- **Outcome:** [@name](../../store-robbery.md) begins.
 - **Changes:** [@name](../../store-robbery.md) — starts; [Cabinet](../../../locations/new-village/the-store.md#cabinet) — discovered
 
 ### Afternoon comes

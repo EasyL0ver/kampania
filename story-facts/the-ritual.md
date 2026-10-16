@@ -10,7 +10,7 @@ For twenty years Paraskewia Chyłak's rites held the well. Her prayers, offering
 
 **The 1967 flood is the trigger, not the cause.** The well runs on water (see [the-well.md](the-well.md)): the exceptional rain raises the groundwater and floats the remains up — the dormant well wakes. Her acknowledgement held while the water was low and everything sat deep and still. Now the rising water is forcing up the unmourned 1954 body *and* beginning to cut off her physical access to the well and cerkiew. One old woman's rite for half the dead cannot hold a well the flood is prying open around a death she can't even name. That is why the players are needed: **they can hold the truth of 1954 she never had.**
 
-**If Paraskewia Chyłak is killed** (see [The Well Confrontation](../events/well-confrontation.md) — this is optional, not guaranteed), even the half-rite stops. The players must reconstruct the ritual from fragments.
+**If Paraskewia Chyłak is killed** (see [The Well Confrontation](../events/well-confrontation/well-confrontation.md) — this is optional, not guaranteed), even the half-rite stops. The players must reconstruct the ritual from fragments.
 
 **If Paraskewia Chyłak survives**, she can teach the players the form directly — but she's exhausted, the water is closing on the site, and her rite was always missing the 1954 truth. She needs help. The players performing the ritual alongside her — supplying the names she never knew — may be the only way to hold the well in check through the final days.
 

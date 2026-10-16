@@ -1,5 +1,7 @@
 # Emil Rzepka
 
+**Tags:** [@name](../tags/villager.md)
+
 ## Hook
 
 [@first-name](painter.md) [@surname](painter.md), [@first-name](matrona.md)'s withdrawn husband and a local painter, works in the garden shed.
@@ -36,14 +38,6 @@ His hands are the only alive part of him[](#press-painter-on-the-streambeds-deta
 - **[jagna-painter-affair](../clues/clues.md#jagna-painter-affair)** — "[@name](jagna.md) has been missing for thirteen years and she is still the only face I can paint. I loved her, and I believe I got her killed."
 - **[emil-traumatised-in-54](../clues/clues.md#emil-traumatised-in-54)** — "Something in me died that year. The colour went out of the world, and it never came back."
 - **[you-should-jump-inside](../clues/clues.md#you-should-jump-inside)** — "You feel it too, then. That pull to climb down into the dark. I feel it every time I paint it. I stopped fighting it on the canvas a long time ago."
-
-## Mechanics
-
-### Alive
-
-- **Type:** bool
-- **Per:** world
-- **Start:** true
 
 ## Opportunities
 

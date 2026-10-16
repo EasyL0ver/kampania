@@ -1,5 +1,7 @@
 # Helena Rzepka (née Gajda)
 
+**Tags:** [@name](../tags/villager.md)
+
 ## Hook
 
 [@first-name](matrona.md) [@surname](matrona.md), the devout woman who runs the village store.
@@ -47,12 +49,6 @@ People lower their voices around her. Her own voice stays low and measured, so o
 - **[ciotka-had-a-visitor](../clues/clues.md#ciotka-had-a-visitor)** — "A widow at the edge of the village had family who looked in on her. Two cups on a table mean someone was kind enough to sit with her. I will not have a coffee cup turned into an accusation."
 
 ## Mechanics
-
-### Alive
-
-- **Type:** bool
-- **Per:** world
-- **Start:** true
 
 ### Robbery suspect
 

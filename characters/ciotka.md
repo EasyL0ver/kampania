@@ -1,5 +1,7 @@
 # Janina Gajda
 
+**Tags:** [@name](../tags/villager.md)
+
 ## Hook
 
 [@first-name](ciotka.md) [@surname](ciotka.md), a downtrodden, devout woman who keeps house with her son [@first-name](glupek.md), sister to the sołtys.
@@ -44,15 +46,6 @@ At home she moves around[](#property-assessment) [@first-name](glupek.md) with p
 - **[wujas-is-guilty](../clues/clues.md#wujas-is-guilty)** — "He's my brother. He's not a bad man, and I'll not give strangers more than that."
 - **[ciotka-avoids-family](../clues/clues.md#ciotka-avoids-family)** — "I keep busy with [@first-name](glupek.md) and the house. It's hard to get away for gatherings."
   - *(Bond):* "I can't sit at that table. It isn't for the boy's sake. It's mine."
-
-## Mechanics
-
-### Alive
-
-- **Type:** bool
-- **Per:** world
-- **Start:** true
-- False from the morning she is found dead.
 
 ## Opportunities
 

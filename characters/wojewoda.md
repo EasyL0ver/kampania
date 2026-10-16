@@ -1,5 +1,7 @@
 # Zbigniew Gajda
 
+**Tags:** [@name](../tags/villager.md)
+
 ## Hook
 
 [@first-name](wojewoda.md) [@surname](wojewoda.md), the village sołtys and principal official, received at his house or office.
@@ -52,16 +54,11 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 - **[irena-is-watchful](../clues/clues.md#irena-is-watchful)** — "[@first-name](wife.md) listens at doors when strangers are in the house. She worries; that is all. Don't read into a woman standing in her own hallway."
 - **[junior-drinks-with-crew](../clues/clues.md#junior-drinks-with-crew)** — "He drinks with his uncle's crowd. He's young; every young man does something to spite his father. It's nothing."
 - **[wujas-misses-someone](../clues/clues.md#wujas-misses-someone)** — "My brother gets sentimental in his cups. Old sweethearts, old songs — drunks always weep for something. It means nothing."
+- **[wojewoda-disturbed-by-telegram](../clues/clues.md#wojewoda-disturbed-by-telegram)** — "Barnaś? That family left in '54. Someone's idea of a joke, or a crossed line. It's nothing."
 - **[@name](../locations/village-outskirts.md)** — "It sits above the flood line, on the plan and in fact. The state left us a concrete drain off the fields; when the water rises, the ditch carries it away. Let it come."
 - **[ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing)** — "Nonsense. That ditch has carried every spring melt since we cut it. It drains. I've stood and watched it drain. You saw one muddy stretch downstream and lost your nerve."
 
 ## Mechanics
-
-### Alive
-
-- **Type:** bool
-- **Per:** world
-- **Start:** true
 
 ### Braced
 
@@ -84,6 +81,13 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 - **Start:** unaware
 - How far [@first-name](wojewoda.md) believes the flood line is wrong: **unaware → suspicious → needProof → convinced**.
 - A counter that only ever goes up. Nothing the players do lowers it.
+
+### Aware of cache
+
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True once [@first-name](wojewoda.md) knows something of Barnaś's is buried behind the Barnaś house.
 
 ## Opportunities
 

@@ -1,5 +1,7 @@
 # Paraskewia Chyłak
 
+**Tags:** [@name](../tags/villager.md)
+
 ## Hook
 
 - [@first-name](hag.md) [@surname](hag.md), an old Lemko woman who lives alone in the forest.
@@ -43,12 +45,6 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 
 ## Mechanics
 
-### Alive
-
-- **Type:** bool
-- **Per:** world
-- **Start:** true
-
 ### Rest
 
 - **Type:** bool
@@ -69,6 +65,13 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 - If the players come at her as a threat (chasing her at the well, cornering her, open aggression), she comes to believe the village means her harm.
 - While she believes this, she stops her nightly rite, so [@name](../events/hags-prayer.md) no longer fires, and none of her actions below are available.
 - The **Convince her the villagers are friendly** action clears it.
+
+## Opportunities
+
+### She will go and she will die
+- **Noticed by:** [Violence](../cards/violence.md) OR [Empathy](../cards/empathy.md)
+- **When:** [Warn her she is in danger](#warn-her-she-is-in-danger)
+- **Outcome:** She means every word, and she is not in her right mind. She will go to the well, and he will kill her there. Someone would have to stop her going, for her own good.
 
 ## Actions
 
@@ -127,6 +130,13 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 - **Outcome:** With trust earned, she tells them of the dugout deep in the forest northwest, the one she knew in the war years, where she used to meet a man called [@name](../characters/dmytro-kosach.md). She still knows the way to its hidden mouth exactly.
 - **Gives:** hook:locations/upa-bunker.md
 
+### Warn her she is in danger
+- **Requires:** [Language](../cards/language.md)
+<!-- Prompted by: [hag-is-in-danger](../clues/clues.md#hag-is-in-danger) -->
+- **Outcome:** She hears you out, then takes a small cross from around her neck and puts it in your hand: against the thing he is, it will keep you. She tells you he is not a man but something the well put on two legs, and that she is the one who has to face him.[](#she-will-go-and-she-will-die)
+- **Gives:** [@name](../items/reliquary-cross.md)
+- **Changes:** [Warn her of the danger at the well](#hag-warned)
+
 ### Convince her the villagers are friendly
 - **Requires:** [Language](../cards/language.md) AND ([Speech](../cards/speech.md) OR [Empathy](../cards/empathy.md))
 - **Cost:** 1 time
@@ -138,6 +148,7 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 - [ ] Approach her cabin openly and wait at the treeline — do not barge in.
 - [ ] Show respect for the dead — acknowledge the old graves, the missing families, or [@first-name](dmytro-kosach.md).
 - [ ] Leave her ritual objects, icons, candles, and herbs untouched unless invited.
+- [ ] <a id="hag-warned"></a>Warn her of the danger waiting for her at the well.
 
 ## Grudge
 

@@ -202,7 +202,7 @@ The same two words mark what prompts a move (`<!-- Prompted by: … -->`): `setu
 
 Who is "there" means two different things, kept apart:
 
-- **Present** (an event's header, or the schedules for a location scene) is who is in view: their moves are open. Each person may carry one condition on a mechanic, `(if [Mechanic](#mechanic) is value)`; while it does not hold they are not present. Everyone listed, conditions aside, is the scene's whole possible cast.
+- **Present** (an event's header, or the schedules for a location scene) is who is in view: their moves are open. Each person may carry a condition, `(if [Mechanic](#mechanic) is value AND …)`, mechanic conditions joined by AND, OR, NOT and parentheses; while it does not hold they are not present. Everyone listed, conditions aside, is the scene's whole possible cast.
 - **Described** is how the players perceive them: by their Setup, through `[@setup]` refs in the scene's Setup (on arrival) or in an Outcome (coming into view later). They are named only once introduced (`hook:`).
 - Someone out of view (listening behind a door, hiding) is listed with a condition, e.g. `(if [Wife](#wife) is joined)`, and the action that brings them in changes that mechanic.
 
@@ -410,6 +410,10 @@ Violence. The well confrontation (fighting Rezeń, grabbing the hag and running 
 
 Open: what Bruised actually costs (temporary Violence/Endurance penalty? a composure tax? clears on its own by next day?). Not yet defined.
 
+## Bitten (TBD)
+
+**TBD.** A dog bite. Not yet defined.
+
 ## Endings
 
 Two axes, plus the Report. Each good ending hangs on one person and lives as a flag in that person's Mechanics. The two bad ones, Forget and Drown, are what happens when nobody acts: each is its own event.
@@ -432,5 +436,5 @@ The spiritual axis is detailed in [spiritual-endings.md](spiritual-endings.md). 
 - Are there group actions (e.g., two players spending a card together on the same scene)?
 - Do some actions cost more than 1 card? (e.g., a full archaeological dig vs. a quick conversation)
 - Can events interrupt or consume actions? (e.g., a crisis forces the group to spend an action responding)
-- TBD: the phone line. The flood brings down a pole and ends the connection; this needs a `Phone line: up | down` mechanic on [the flood](../events/the-flood.md), read by [the telegram](../events/the-telegram.md) and [the report](../events/the-report.md).
+- TBD: the phone line. The flood brings down a pole and ends the connection; this needs a `Phone line: up | down` mechanic on [the flood](../events/the-flood.md), read by [the telegram](../events/phone-calls/the-telegram/the-telegram-phone-call.md) and [the report](../events/the-report.md).
 - TBD: the lynch's Resolve. The target is whoever scores highest on [Dudka's Lynch Targets](../characters/neighbour.md#lynch-targets), an int per NPC; Resolve has no "highest" condition yet. Related: Resolve cannot set a per-NPC int for one NPC (e.g. the village blaming Rezeń in [Butcher Takes the Body](../events/rezen-takes-the-body.md) should raise his Lynch Targets score).

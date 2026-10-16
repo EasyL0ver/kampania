@@ -63,6 +63,10 @@
 - **Outcome:** [@first-name](../../characters/secondary/halina-zajac.md) sells a coil of field line off the shelf, mixed lengths knotted serviceable, long enough for the ridge climb.
 - **Gives:** [@name](../../items/rope.md)
 
+### Buy sausage
+- **Outcome:** [@first-name](../../characters/secondary/halina-zajac.md) cuts a ring of smoked sausage off the hook and wraps it in paper.
+- **Gives:** [@name](../../items/sausage.md)
+
 ### Ask who smokes Carmen
 - **Requires:** [@name](../../items/cigarette-butts-from-ciotkas.md) AND ([Speech](../../cards/speech.md) OR [Finesse](../../cards/finesse.md))
 <!-- Prompted by: [butts-at-ciotkas-are-carmen](../../clues/clues.md#butts-at-ciotkas-are-carmen) -->

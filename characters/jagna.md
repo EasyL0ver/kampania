@@ -83,6 +83,20 @@ People remembered her as clever before they remembered her as kind. Around [@fir
 - The gasp happens once only. Repeating the trigger gets flat procedure.
 - The gasp is never confirmation.
 
+### Anonymity
+
+- **Type:** enum (anonymous | known)
+- **Per:** world
+- **Start:** anonymous
+- Anonymous until the committee knows the voice is [@name](jagna.md) ([Name her](../events/phone-calls/operator-refuses-help.md#name-her)), which turns her indifference vengeful.
+
+### Willingness
+
+- **Type:** enum (withholding | rescue | exposure)
+- **Per:** world
+- **Start:** withholding
+- Opens only after she is known as [@first-name](jagna.md), then **Tell her [@first-name](glupek.md), her brother, is alive and trapped** opens rescue calls or **Name her family's killers** opens exposure calls ([@name](../events/the-report.md)).
+
 ## Bond
 
 - [ ] Treat [@first-name](jagna.md) as a person in the record, not only as a scandal or victim.

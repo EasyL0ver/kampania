@@ -234,6 +234,33 @@ The calm voice at the town telephone exchange is [@name](../characters/jagna.md)
 ### telegram-points-to-barnas-yard
 A telegram relayed through the exchange, addressed to the committee and signed Barnaś, says his service papers and uniform are buried under the old garden bed behind his house. [@name](../characters/soldier.md) has been dead since 1954.
 
+### somebody-dug-for-cache
+Someone was digging behind [@name](../locations/new-village/ciotkas-house/ciotkas-house.md) at night, where the telegram said the bundle was buried.
+
+### wujas-dug-for-the-cache
+[@name](../characters/wujas.md) was digging behind [@name](../locations/new-village/ciotkas-house/ciotkas-house.md) at night, where the telegram said the bundle was buried.
+**Synthesis:** somebody-dug-for-cache + wujas-gone-at-night
+
+### wujas-gone-at-night
+[@name](../characters/wujas.md) was out of the house on the night someone dug behind [@name](../locations/new-village/ciotkas-house/ciotkas-house.md).
+
+### butcher-gone-at-night
+[@name](../characters/butcher.md) was out of the house on the night someone dug behind [@name](../locations/new-village/ciotkas-house/ciotkas-house.md).
+
+### butcher-dug-the-cache
+[@name](../characters/butcher.md) was digging behind [@name](../locations/new-village/ciotkas-house/ciotkas-house.md) at night, where the telegram said the bundle was buried.
+**Synthesis:** somebody-dug-for-cache + butcher-gone-at-night
+
+### neighbour-gone-at-night
+[@name](../characters/neighbour.md) was out of the house on the night someone dug behind [@name](../locations/new-village/ciotkas-house/ciotkas-house.md).
+
+### neighbour-dug-the-cache
+[@name](../characters/neighbour.md) was digging behind [@name](../locations/new-village/ciotkas-house/ciotkas-house.md) at night, where the telegram said the bundle was buried.
+**Synthesis:** somebody-dug-for-cache + neighbour-gone-at-night
+
+### wojewoda-disturbed-by-telegram
+[@name](../characters/wojewoda.md) is shaken when a telegram signed Barnaś is read out to the committee.
+
 ### dudka-buried-a-friend-at-the-ravine
 [@name](../characters/neighbour.md) tends a grave in the meadow above the ravine. He'll say only that it's an old friend who fell from the ravine, and that he buried her himself. He does not name her or explain further.
 
@@ -315,6 +342,9 @@ It was [@name](../characters/butcher.md) who put [@name](../characters/soldier.m
 ### butcher-used-to-drink-with-the-crew
 [@name](../characters/butcher.md) used to drink with [@name](../characters/wujas.md) years back. He doesn't anymore.
 
+### butcher-is-after-hag
+[@name](../characters/butcher.md) is after [@name](../characters/hag.md): she is the one he means to kill.
+
 ### butcher-is-dangerous
 Under pressure [@name](../characters/butcher.md) doesn't rage — he goes cold. Even breathing, flat eyes, a knife already turning in his hand, three dogs moving around him like his own limbs with no command spoken. He is a controlled, capable killer, and he has plainly stood ready to kill before.
 
@@ -334,8 +364,12 @@ Under pressure [@name](../characters/butcher.md) doesn't rage — he goes cold. 
 ### hag-performs-rite
 [@name](../characters/hag.md) performs a rite over the well: fire, incense, bread, honey, and the names of the dead sung one by one.
 
-### butcher-vs-hag
-Someone keeps clearing debris from the well. Someone else keeps piling it back and leaving candle wax in the cerkiew. [@name](../characters/butcher.md) and [@name](../characters/hag.md) are fighting over the well without knowing each other.
+### hag-is-in-danger
+[@name](../characters/hag.md) is in danger at the well: [@name](../characters/butcher.md) goes there too, and he means to kill her.
+**Synthesis:** butcher-dumps-carcasses-in-well + someone-tends-the-well-regularly + hag-tends-the-well + butcher-is-after-hag
+
+### butcher-killed-the-hag
+[@name](../characters/butcher.md) killed [@name](../characters/hag.md) at the well and dropped her body into it.
 
 ### fresh-blood-at-well
 Fresh blood on the well's stone rim. Recent — not old stains. Something was dragged to the well and put in.

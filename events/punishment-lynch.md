@@ -22,7 +22,7 @@
 - If [@first-name](../characters/wojewoda.md) is braced, the office is dark and locked[](#office-light-reveals-confrontation-outcome); he stays inside.
 - If [@first-name](../characters/wojewoda.md) is breaking, he comes onto the steps and tries to command the crowd.
 - If [@first-name](../characters/wojewoda.md) is breaking, his authority fails.
-- If [@surname](../characters/neighbour.md) is [Humiliated](../characters/neighbour.md#humiliated) or has already acted at[](#neighbour-acts-from-guilt) [@name](well-confrontation.md), the crowd can turn on [@first-name](../characters/wojewoda.md).
+- If [@surname](../characters/neighbour.md) is [Humiliated](../characters/neighbour.md#humiliated) or has already acted at[](#neighbour-acts-from-guilt) [@name](well-confrontation/well-confrontation.md), the crowd can turn on [@first-name](../characters/wojewoda.md).
 - Otherwise, the crowd shoulders past [@first-name](../characters/wojewoda.md) and moves toward the well.
 - The crowd moves down the road toward[](#scene-repeats-the-1954-pattern) [@name](../locations/old-village.md).
 - [@surname](../characters/neighbour.md) is at the front with the rifle.[](#few-men-drive-the-mob)
@@ -32,6 +32,11 @@
 - [@first-name](../characters/barbara.md)'s presence makes the mob harder to turn.
 
 ## Opportunities
+
+### Arriving on the scene
+- **When:** [@name](../locations/new-village/new-village.md)
+- **Outcome:** [@hook](punishment-lynch.md)
+- **Gives:** *(to: players at [@name](../locations/new-village/new-village.md))* hook:events/punishment-lynch.md
 
 ### Office light reveals confrontation outcome
 - **Noticed by:** [Finesse](../cards/finesse.md)

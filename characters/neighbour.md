@@ -1,5 +1,7 @@
 # Ryszard Dudka
 
+**Tags:** [@name](../tags/villager.md)
+
 ## Hook
 
 [@first-name](neighbour.md) [@surname](neighbour.md), a quiet farmer and licensed hunter, lives next door to [@name](ciotka.md).
@@ -27,7 +29,7 @@ Quiet hunter who heard everything in 1954 and did nothing. He carries the guilt 
 
 - **Clothes:** Wool trousers held up by braces, flannel shirt with sleeves rolled in summer, heavy boots — same outfit every day
 - **Hair & face:** Flat cap he rarely removes; pale blue eyes, strong jaw, three-day stubble that never becomes a beard
-- **Carriage:** Lean hunter's build, quiet even indoors; shoulders slightly forward, watches hands and posture more than faces
+- **Carriage:** Thin but very tall, a head above most men, with a lean hunter's build; quiet even indoors; shoulders slightly forward, watches hands and posture more than faces
 
 He speaks in short flat sentences with long pauses[](#property-assessment). He goes quieter when angry, not louder[](#census-interview), and smells of tobacco smoke and pine resin.
 
@@ -42,12 +44,6 @@ He speaks in short flat sentences with long pauses[](#property-assessment). He g
 
 ## Mechanics
 
-### Alive
-
-- **Type:** bool
-- **Per:** world
-- **Start:** true
-
 ### Lynch Targets
 
 - **Type:** int
@@ -61,6 +57,20 @@ He speaks in short flat sentences with long pauses[](#property-assessment). He g
 - **Type:** bool
 - **Per:** world
 - **Start:** false
+
+### Knows butcher goes to well
+
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True once [@surname](neighbour.md) knows [@surname](butcher.md) goes to the well ([Warn him about the well](#warn-him-about-the-well), [Tell him Rezeń goes to the well](#tell-him-rezeń-goes-to-the-well)).
+
+### Knows hag goes to well
+
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- True once [@surname](neighbour.md) knows [@name](hag.md) goes to the well ([Warn him about the well](#warn-him-about-the-well), [Tell him the woman tends the well](#tell-him-the-woman-tends-the-well)).
 
 ## Actions
 
@@ -95,6 +105,21 @@ He speaks in short flat sentences with long pauses[](#property-assessment). He g
 - **Outcome:** He says the day before she died, the Wojewoda's boy came and the two of them fought. He heard the raised voices carry over the fence.
 - **Gives:** [junior-pressed-ciotka](../clues/clues.md#junior-pressed-ciotka)
 
+### Warn him about the well
+<!-- Prompted by: [hag-is-in-danger](../clues/clues.md#hag-is-in-danger) -->
+- **Outcome:** You tell him outright: the woman from the forest prays at the old well, [@surname](butcher.md) goes there too, and he means to kill her.
+- **Changes:** [Knows hag goes to well](#knows-hag-goes-to-well) — true; [Knows butcher goes to well](#knows-butcher-goes-to-well) — true
+
+### Tell him Rezeń goes to the well
+<!-- Prompted by: [butcher-dumps-carcasses-in-well](../clues/clues.md#butcher-dumps-carcasses-in-well) -->
+- **Outcome:** You tell him [@surname](butcher.md) takes his carcasses up to the old well and drops them in.
+- **Changes:** [Knows butcher goes to well](#knows-butcher-goes-to-well) — true
+
+### Tell him the woman tends the well
+<!-- Prompted by: [hag-tends-the-well](../clues/clues.md#hag-tends-the-well) -->
+- **Outcome:** You tell him the woman from the forest goes to the old well to pray, and has for years.
+- **Changes:** [Knows hag goes to well](#knows-hag-goes-to-well) — true
+
 ### Uplift Neighbour
 - **Requires:** [Empathy](../cards/empathy.md) OR [Speech](../cards/speech.md)
 - **When:** [Humiliated](#humiliated) is true
@@ -105,7 +130,7 @@ He speaks in short flat sentences with long pauses[](#property-assessment). He g
 
 - [ ] **Treat [@first-name](barbara.md) and [@first-name](pawelek.md) as people, not sources** — ask after them, help the boy, notice the one clean thing in his life
 - [ ] **Meet his 1954 guilt without contempt** — when the inaction surfaces, don't call him a coward; let it stand
-- [ ] **Stand with him against [@surname](butcher.md)** — back him in a real moment instead of leaving him alone with it: defuse [@name](../events/hunters-cross-paths.md) in his favour, [Uplift him](#uplift-neighbour), or stand beside him at [the well](../events/well-confrontation.md#neighbours-rifle)
+- [ ] **Stand with him against [@surname](butcher.md)** — back him in a real moment instead of leaving him alone with it: defuse [@name](../events/hunters-cross-paths.md) in his favour, [Uplift him](#uplift-neighbour), or stand beside him at [the well](../events/well-confrontation/dudka-intervention.md)
 
 ## Grudge
 

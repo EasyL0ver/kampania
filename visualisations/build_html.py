@@ -40,7 +40,7 @@ def build_payload() -> dict:
     def add_fact(cid: str):
         nid = f"clue:{cid}"
         if nid not in nodes:
-            if cid.startswith("awareness:"):
+            if cid.startswith("hook:"):
                 relpath = cid.split(":", 1)[1]
                 folder = Path(relpath).parent.name
                 scat = {"characters": "character", "locations": "location",
@@ -216,7 +216,7 @@ const TYPE = {
   clue:       {color:"#6ea8fe", shape:"circle",   label:"fact clue"},
   orphan:     {color:"#8b6f4a", shape:"circle",   label:"orphan clue"},
   known:      {color:"#e6b34d", shape:"circle",   label:"clue (NPC knows)"},
-  scene:      {color:"#b08bd8", shape:"diamond",  label:"awareness (entity exists)"},
+  scene:      {color:"#b08bd8", shape:"diamond",  label:"hook (knowing of an entity)"},
   move:       {color:"#7d8695", shape:"dot",      label:"move (join / split)"},
 };
 // scene file category (kept for node fill tint of move helpers is by skill; scat only in tooltip)

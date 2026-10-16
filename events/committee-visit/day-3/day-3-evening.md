@@ -16,8 +16,7 @@ The evening of [@name](day-3.md) begins.[](#pawelek-falls-ill-begins)
 
 ### Pawelek falls ill begins
 - **When:** setup:events/committee-visit/day-3/day-3-evening.md
-- **Outcome:** [@hook](../../pawelek-falls-ill.md)
-- **Gives:** *(to: every player)* hook:events/pawelek-falls-ill.md
+- **Outcome:** [@name](../../pawelek-falls-ill.md) begins.
 - **Changes:** [@name](../../pawelek-falls-ill.md) — starts
 
 ### Night falls

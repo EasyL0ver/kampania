@@ -12,7 +12,8 @@
        **Tags:** [@name](../tags/alcohol.md), [@name](../tags/other.md)
      Applies to is required: what kind of entity may carry the tag (validate.py: tag-type,
      tags-format). A When can test a tag only if it applies to events: it then means a running
-     event carries it. -->
+     event carries it. Inside the tag, the tag stands for whatever it is added to: setup:tags/x.md
+     is the tagged entity's Setup, and `[@name](x.md) — ends` ends the tagged event. -->
 
 ## Description
 

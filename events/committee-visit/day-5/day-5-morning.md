@@ -16,8 +16,7 @@ The morning of [@name](day-5.md) begins.[](#funeral-mass-begins)[](#foremans-flo
 
 ### Funeral mass begins
 - **When:** setup:events/committee-visit/day-5/day-5-morning.md
-- **Outcome:** [@hook](../../funeral-mass.md)
-- **Gives:** *(to: every player)* hook:events/funeral-mass.md
+- **Outcome:** [@name](../../funeral-mass.md) begins.
 - **Changes:** [@name](../../funeral-mass.md) — starts
 
 ### Foremans flood fight begins
@@ -28,8 +27,7 @@ The morning of [@name](day-5.md) begins.[](#funeral-mass-begins)[](#foremans-flo
 
 ### Store robbery begins
 - **When:** setup:events/committee-visit/day-5/day-5-morning.md AND [Cabinet](../../../locations/new-village/the-store.md#cabinet) is forced
-- **Outcome:** [@hook](../../store-robbery.md)
-- **Gives:** *(to: every player)* hook:events/store-robbery.md
+- **Outcome:** [@name](../../store-robbery.md) begins.
 - **Changes:** [@name](../../store-robbery.md) — starts; [Cabinet](../../../locations/new-village/the-store.md#cabinet) — discovered
 
 ### Afternoon comes

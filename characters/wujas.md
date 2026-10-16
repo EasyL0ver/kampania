@@ -1,5 +1,7 @@
 # Tadek Gajda
 
+**Tags:** [@name](../tags/villager.md)
+
 ## Hook
 
 [@nickname](wujas.md) [@surname](wujas.md), the sołtys's brother and the village drunk, rarely without a bottle.
@@ -39,12 +41,6 @@ His raspy warm voice gets louder and funnier with drink. The morning shakes and 
 - **[@name](jagna.md)** — "I loved her, and she never looked at me. I was one of the men who hurt her, and when she ran, I let the mountain take her."
 
 ## Mechanics
-
-### Alive
-
-- **Type:** bool
-- **Per:** world
-- **Start:** true
 
 ### Drinking Buddy
 

@@ -31,6 +31,11 @@
 
 ## Opportunities
 
+### Arriving on the scene
+- **When:** [@name](../locations/new-village/new-village.md)
+- **Outcome:** [@hook](the-flood.md)
+- **Gives:** *(to: players at [@name](../locations/new-village/new-village.md))* hook:events/the-flood.md
+
 ### Road failed from drainage and foundation
 - **Noticed by:** [Handiwork](../cards/handiwork.md)
 - **When:** setup:events/the-flood.md
@@ -59,8 +64,8 @@
 - **When:** [@name](../locations/new-village/pgr-farm/pgr-office.md)
 - **Cost:** 1 time
 - **Outcome:** The line may reach the powiat office, fail, or route through the exchange. Any outside call is unreliable and monitored if [@first-name](../characters/wojewoda.md) is present.
-- **Gives:** hook:events/operator-refuses-help.md
-- **Changes:** [@name](operator-refuses-help.md) — starts; [@name](the-telegram.md) — starts
+- **Gives:** hook:events/phone-calls/operator-refuses-help.md
+- **Changes:** [@name](phone-calls/operator-refuses-help.md) — starts; [@name](phone-calls/the-telegram/the-telegram-phone-call.md) — starts
 
 ### Help with flood response
 - **Cost:** 1 time

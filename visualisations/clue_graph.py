@@ -62,19 +62,34 @@ OPP_NAME = re.compile(r"^\s*-\s*\*\*(.+?)\*\*")
 NOTICED_TAG = re.compile(r"\*\(noticed by:\s*(.*?)\)\*", re.IGNORECASE)
 WHEN_TAG = re.compile(r"\*\(when:\s*(.*?)\)\*", re.IGNORECASE)
 PROMPT_TAG = re.compile(r"<!-- Prompted by: (.*?) -->")   # hidden; own line in actions, line end on opportunities
-# "aware:<repo-relative-path>.md" is an awareness token: the existence of a
-# scene entity (character/item/location/event). It behaves as a pseudo-clue
-# whose node id is "awareness:<relpath>". Usable in Requires (hard gate),
-# Prompted by (soft breadcrumb) and Gives (grants the awareness).
-AWARE_REF = re.compile(r"\bhook:([A-Za-z0-9/_.-]+(?:\.md|/))")   # knowing of an entity (its Hook)
+# "hook:<repo-relative-path>.md" is knowing of a scene entity (character/item/location/event):
+# its ## Hook. It behaves as a pseudo-clue whose node id is "hook:<relpath>". Gives grants it;
+# Prompted by leads from it, and so does "setup:<relpath>" (being there needs knowing of it).
+HOOK_REF = re.compile(r"\bhook:([A-Za-z0-9/_.-]+(?:\.md|/))")   # knowing of an entity (its Hook)
+SETUP_REF = re.compile(r"\bsetup:([A-Za-z0-9/_.-]+\.md)")        # cued by an entity's Setup: being there
+ACTION_LINK = re.compile(r"\[[^\]@]+\]\(([^)#\s]*)#([a-z0-9-]+)\)")   # a When term naming a move
 SECTION_NAMES = {"opportunities", "actions"}
 
 
-def _aware_id(relpath: str) -> str:
+def _slug(title: str) -> str:
+    """A heading's anchor (validate.slug)."""
+    t = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", title)
+    t = re.sub(r"[^\w\- \t]", "", t.strip().lower())
+    return re.sub(r"[ \t]", "-", t)
+
+
+def _lead_ids(text: str) -> list[str]:
+    """The clues a Prompted by / When points back to: hook: and setup: both lead from knowing the
+    entity (its existence node). A tag's setup is the tagged scene's, so it names no one entity."""
+    paths = HOOK_REF.findall(text) + [p for p in SETUP_REF.findall(text) if not p.startswith("tags/")]
+    return sorted({_hook_id(p) for p in paths})
+
+
+def _hook_id(relpath: str) -> str:
     rel = relpath.strip().replace("\\", "/")
     if rel.endswith("/"):   # a bundle folder means its default file
         rel = rel + rel.rstrip("/").split("/")[-1] + ".md"
-    return "awareness:" + rel
+    return "hook:" + rel
 
 
 # --------------------------------------------------------------------------
@@ -94,6 +109,7 @@ class Node:
     requires_clues: list[str] = field(default_factory=list)
     requires_known: list[list[str]] = field(default_factory=list)   # [npc, clue] gates
     prompted_by_clues: list[str] = field(default_factory=list)   # soft breadcrumbs
+    when_raw: str = ""
     branch_skills: list[str] = field(default_factory=list)   # skills in Outcome branches
     cost: str = ""
     gives_clues: list[str] = field(default_factory=list)
@@ -109,6 +125,7 @@ class Scene:
     kind: str            # locations | events | characters | items
     header: dict = field(default_factory=dict)
     nodes: list[str] = field(default_factory=list)   # node ids
+    hook: str = ""       # the ## Hook text: what knowing of it tells
 
 
 @dataclass
@@ -279,8 +296,10 @@ def parse_scene(path: Path) -> tuple[Scene, list[Node]]:
         # Opportunity bullets can also hang directly in an Opportunities block
         # split across deeper headings; handled above. Everything else that
         # carries a Gives is an action-like giver, at any nesting depth.
+        in_section = section is not None and level > section_level
         node = _parse_action_block(htitle, body, rel, title,
-                                   kind="opportunity" if section == "opportunities" and level > section_level else "action")
+                                   kind="opportunity" if section == "opportunities" and in_section else "action",
+                                   is_move=in_section)
         if node is not None:
             node.id = uid(node.name)
             nodes.append(node)
@@ -318,20 +337,22 @@ def _parse_opportunity(line: str, rel: str, title: str) -> Node | None:
     prm = PROMPT_TAG.search(line)
     if prm:
         node.prompted_by_clues = sorted(set(CLUE_REF.findall(prm.group(1))))
-        node.prompted_by_clues += sorted({_aware_id(p) for p in AWARE_REF.findall(prm.group(1))})
+        node.prompted_by_clues += sorted({_hook_id(p) for p in HOOK_REF.findall(prm.group(1))})
     tail = re.search(r"→\s*(?:Gives|Changes):(.*)$", line)
     gives = tail.group(1) if tail else ""
     node.gives_known = parse_gives_known(gives, rel)
     learned_c = {c for _, c in node.gives_known}
     gives_clean = re.sub(r"NPC Learns:.*?(?:;|$)", "", gives)
     node.gives_clues = sorted(set(CLUE_REF.findall(gives_clean)) - learned_c)
-    node.gives_clues += sorted({_aware_id(p) for p in AWARE_REF.findall(gives_clean)})
+    node.gives_clues += sorted({_hook_id(p) for p in HOOK_REF.findall(gives_clean)})
     return node
 
 
-def _parse_action_block(htitle: str, body: list[str], rel: str, title: str, kind: str = "action") -> Node | None:
-    """A heading block whose body carries fields/Gives is a giver: an action, or an opportunity
-    (### under ## Opportunities, gated by Noticed by: cards are who perceives it, clues are hard edges)."""
+def _parse_action_block(htitle: str, body: list[str], rel: str, title: str, kind: str = "action",
+                        is_move: bool = False) -> Node | None:
+    """A heading block under ## Actions / ## Opportunities is a move; elsewhere, one that carries a
+    Gives is still read as a giver. A move that gives nothing is kept: its leads feed the opportunities
+    that fire on it. Noticed by / Requires gate on cards and items only: a clue never requires a clue."""
     req_lines, when_lines, out_lines, gives_lines, cost_lines, prompt_lines = [], [], [], [], [], []
     noticed_lines = []
     for line in body:
@@ -358,9 +379,9 @@ def _parse_action_block(htitle: str, body: list[str], rel: str, title: str, kind
     learned_c = {c for _, c in gives_known}
     gives_clean = re.sub(r"NPC Learns:.*?(?:;|$)", "", gives_text)
     gives_clues = sorted(set(CLUE_REF.findall(gives_clean)) - learned_c)
-    gives_aware = sorted({_aware_id(p) for p in AWARE_REF.findall(gives_clean)})
+    gives_hooks = sorted({_hook_id(p) for p in HOOK_REF.findall(gives_clean)})
     gives_other = [kw for kw in OUTCOME_KEYWORDS if kw in gives_text]
-    if not gives_clues and not gives_known and not gives_other and not gives_aware and kind != "opportunity":
+    if not gives_clues and not gives_known and not gives_other and not gives_hooks and not is_move:
         return None
 
     node = Node(
@@ -373,16 +394,15 @@ def _parse_action_block(htitle: str, body: list[str], rel: str, title: str, kind
     node.requires_raw = " ".join(req_lines).strip()
     node.requires_skills = extract_skills(node.requires_raw)
     node.requires_known = [[npc, c] for npc, c in KNOWN_REQ.findall(" ".join(when_lines))]
+    node.when_raw = " ".join(when_lines).strip()
     if noticed_lines:
         node.requires_raw = " ".join(noticed_lines).strip()
         node.requires_skills = extract_skills(node.requires_raw)
-        node.requires_clues = sorted(set(CLUE_REF.findall(node.requires_raw)))
     prompt_text = " ".join(prompt_lines)
-    node.prompted_by_clues = sorted(set(CLUE_REF.findall(prompt_text)))
-    node.prompted_by_clues += sorted({_aware_id(p) for p in AWARE_REF.findall(prompt_text)})
+    node.prompted_by_clues = sorted(set(CLUE_REF.findall(prompt_text))) + _lead_ids(prompt_text)
     node.branch_skills = sorted(set(extract_skills(" ".join(out_lines))) - set(node.requires_skills))
     node.cost = " ".join(cost_lines).strip()
-    node.gives_clues = gives_clues + gives_aware
+    node.gives_clues = gives_clues + gives_hooks
     node.gives_known = gives_known
     node.gives_other = gives_other
     if "Scene Unlock" in gives_text:
@@ -405,6 +425,18 @@ def build_graph() -> Graph:
             scene, nodes = parse_scene(path)
             g.scenes[scene.path] = scene
             parsed.append(nodes)
+
+    # Titles and hooks hold [@field](file.md) refs: render them as the preview does (tools/build_names.py).
+    sys.path.insert(0, str(REPO_ROOT / "tools"))
+    import build_names as bn
+    raw = {rel: bn.raw_fields(REPO_ROOT / rel) for rel in g.scenes}
+    for rel, s in g.scenes.items():
+        f = raw[rel]
+        s.title = bn.render(f.get("name", s.title), REPO_ROOT / rel, raw)
+        s.hook = bn.render(f["hook"], REPO_ROOT / rel, raw) if "hook" in f else s.hook
+    for nodes in parsed:
+        for n in nodes:
+            n.scene_title = g.scenes[n.scene].title
 
     # A "known" gate ("<npc>: [clue]") is only real when <npc> names an actual
     # character scene. Otherwise the colon is prose ("cross-sections: [clue]")
@@ -434,15 +466,38 @@ def build_graph() -> Graph:
             for npc, cid in n.gives_known:
                 g.known_givers.setdefault(f"{npc}: {cid}", []).append(n.id)
 
-    # Awareness pseudo-clues: the existence of a scene entity. Register every
-    # referenced one so trace/validate treat it as a known node; its givers are
-    # already collected above (a move that Gives: aware:<path>).
+    # An opportunity is led to by what cues it: the clues that prompt the action it fires on
+    # (same-named actions fire together, so all of them), its own hook: / setup: (knowing of the
+    # entity), and its own Prompted by.
+    actions_at: dict[tuple[str, str], list[Node]] = {}
+    for n in g.nodes.values():
+        if n.kind == "action":
+            actions_at.setdefault((n.scene, _slug(n.name)), []).append(n)
+    for n in g.nodes.values():
+        if n.kind != "opportunity" or not n.when_raw:
+            continue
+        leads = set(n.prompted_by_clues) | set(_lead_ids(n.when_raw))
+        for path, anchor in ACTION_LINK.findall(n.when_raw):
+            target = n.scene
+            if path:
+                try:
+                    target = str((REPO_ROOT / Path(n.scene).parent / path).resolve()
+                                 .relative_to(REPO_ROOT)).replace("\\", "/")
+                except ValueError:
+                    continue
+            for a in actions_at.get((target, anchor), []):
+                leads |= set(a.prompted_by_clues)
+        n.prompted_by_clues = sorted(leads)
+
+    # Hook pseudo-clues: knowing of a scene entity. Register every referenced one so
+    # trace/validate treat it as a known node; its givers are already collected above
+    # (a move that Gives: hook:<path>). Its description is the entity's ## Hook.
     for n in g.nodes.values():
         for aid in set(n.requires_clues) | set(n.prompted_by_clues) | set(n.gives_clues):
-            if aid.startswith("awareness:") and aid not in g.clues:
+            if aid.startswith("hook:") and aid not in g.clues:
                 relpath = aid.split(":", 1)[1]
                 title = g.scenes[relpath].title if relpath in g.scenes else relpath
-                g.clues[aid] = f"awareness: {title}"
+                g.clues[aid] = g.scenes[relpath].hook if relpath in g.scenes and g.scenes[relpath].hook else title
 
     # Synthesis: a clue derived from holding other clues, in no particular scene.
     # Each route becomes a virtual giver node whose requires_clues AND together.
@@ -472,12 +527,12 @@ def validate(g: Graph) -> dict:
         referenced |= set(n.gives_clues) | set(n.requires_clues)
         ref_known |= {c for _, c in n.gives_known} | {c for _, c in n.requires_known}
     dangling = sorted((referenced | ref_known) - set(g.clues))  # linked but not defined
-    aware_missing = sorted({
+    hook_missing = sorted({
         aid for n in g.nodes.values()
         for aid in (set(n.requires_clues) | set(n.prompted_by_clues) | set(n.gives_clues))
-        if aid.startswith("awareness:") and aid.split(":", 1)[1] not in g.scenes
+        if aid.startswith("hook:") and aid.split(":", 1)[1] not in g.scenes
     })
-    dangling = sorted(set(dangling) | set(aware_missing))
+    dangling = sorted(set(dangling) | set(hook_missing))
     orphans = sorted(c for c in g.clues if c not in g.givers)  # no giver
     return {"dangling": dangling, "orphans": orphans, "referenced": referenced}
 

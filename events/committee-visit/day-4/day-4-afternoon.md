@@ -10,7 +10,7 @@
 
 ## Setup
 
-The afternoon of [@name](day-4.md) begins.[](#priests-plea-begins)
+The afternoon of [@name](day-4.md) begins.[](#priests-plea-begins)[](#urgent-message-begins)
 
 ## Opportunities
 
@@ -19,6 +19,11 @@ The afternoon of [@name](day-4.md) begins.[](#priests-plea-begins)
 - **Outcome:** [@hook](../../priests-plea.md)
 - **Gives:** *(to: holder of [Bond](../../../cards/bond-priest.md))* hook:events/priests-plea.md
 - **Changes:** [@name](../../priests-plea.md) — starts
+
+### Urgent message begins
+- **When:** setup:events/committee-visit/day-4/day-4-afternoon.md
+- **Outcome:** [@name](../../phone-calls/the-telegram/the-telegram.md) begins.
+- **Changes:** [@name](../../phone-calls/the-telegram/the-telegram.md) — starts
 
 ### Evening comes
 - **When:** [Phase cards](../committee-visit.md#phase-cards) is 0
