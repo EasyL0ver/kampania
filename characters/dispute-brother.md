@@ -58,11 +58,13 @@ He speaks like a man who knows the rules are already on his side. His reasonable
 ## Actions
 
 ### Census interview
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** He is cooperative, though often on the road. He gives his own details and his late father's house as his residence.
 - **Changes:** [Census](../items/census.md#census) — [@first-name](dispute-brother.md), lorry driver, in his father's house
 
 ### Property assessment
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** He produces his father's deed to the house[](#deed-confirms-clear-title-and-transfer) and disputed strip. He notes that [@name](dispute-sister.md) farms the strip, but the paper is his.
 - **Changes:** [Property Record](../items/census.md#property-record) — [@first-name](dispute-brother.md) holds the deed to the house and disputed strip

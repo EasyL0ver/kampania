@@ -152,11 +152,13 @@
      it in Gives. If they refuse, log the gap. -->
 
 ### Census interview
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** [1-2 sentences — their answer / tell / refusal, nothing else]
 - **Gives:** Census data — [who]. [+ clue-id if any]
 
 ### Property assessment
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** [1-2 sentences — their answer / tell / refusal, nothing else]
 - **Gives:** Property record — [what]. [+ clue-id if any]

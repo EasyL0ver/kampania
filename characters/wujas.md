@@ -109,11 +109,13 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 - **Gives:** [`butcher-used-to-drink-with-the-crew`](../clues/clues.md#butcher-used-to-drink-with-the-crew)
 
 ### Census interview
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** He gives his name and age, reaches for the bottle, and tries to end the questions quickly.[](#nervous-about-being-questioned)
 - **Changes:** [Census](../items/census.md#census) — [@nickname](wujas.md) [@surname](wujas.md), no fixed household
 
 ### Property assessment
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** He says he owns nothing and drifts between siblings' kitchens and the still.[](#drunk-boast-about-a-fake-estate)
 - **Changes:** [Property Record](../items/census.md#property-record) — [@nickname](wujas.md) holds no property, dependent on family

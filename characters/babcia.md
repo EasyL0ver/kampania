@@ -48,11 +48,13 @@ When her attention fixes on someone, the room feels smaller. The same mouth that
 - **Gives:** [`singing-in-the-night`](../clues/clues.md#singing-in-the-night), [`spirits-are-restless`](../clues/clues.md#spirits-are-restless)
 
 ### Census interview
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** She answers with dead names, slips into Lemko, or orders you out. [@name](barbara.md) supplies the household details instead.
 - **Changes:** [Census](../items/census.md#census) — [@first-name](babcia.md) [@surname](babcia.md), in the Kopacz household
 
 ### Property assessment
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** She owns nothing and lives in her daughter's house. If she registers the question, she waves it off as none of your business.
 - **Changes:** [Property Record](../items/census.md#property-record) — no property held, dependent in [@name](barbara.md)'s house

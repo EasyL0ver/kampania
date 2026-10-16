@@ -56,6 +56,7 @@ His hands are the only alive part of him[](#press-painter-on-the-streambeds-deta
 - **Gives:** [`dress-distressed-painter`](../clues/clues.md#dress-distressed-painter)
 
 ### Census interview
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** He answers in a near-whisper, eyes down, and glances at [@name](matrona.md) before every reply. If she is in the room, she answers for him and he lets her.[](#ewa-rzepka-asks-her-father-for-a-portrait)
 - **Changes:** [Census](../items/census.md#census) — [@first-name](painter.md) [@surname](painter.md), painter, in the Rzepka household
@@ -73,6 +74,7 @@ His hands are the only alive part of him[](#press-painter-on-the-streambeds-deta
 - **Gives:** hook:locations/far-ridge-streambed/far-ridge-streambed.md, [`streambed-painting-is-old`](../clues/clues.md#streambed-painting-is-old)
 
 ### Property assessment
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** He says the house is [@first-name](matrona.md)'s, not his. He states it plainly, like a man used to owning nothing.
 - **Changes:** [Property Record](../items/census.md#property-record) — Rzepka house, held in [@first-name](matrona.md)'s name

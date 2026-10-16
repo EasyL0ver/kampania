@@ -34,6 +34,7 @@
 ## Actions
 
 ### Search the far ridge
+<!-- Prompted by: [streambed-is-candidate-drain](../../clues/clues.md#streambed-is-candidate-drain) -->
 - **Cost:** 1 time
 - **Outcome:** Quartering the slopes and gullies beyond the dry streambed, pushing through the gorse, you turn up an abandoned shepherd's koliba half-swallowed on the slope, easy to miss and long empty.
 - **Gives:** [abandoned-house-by-streambed](../../clues/clues.md#abandoned-house-by-streambed), hook:locations/far-ridge-streambed/shepherds-hut.md

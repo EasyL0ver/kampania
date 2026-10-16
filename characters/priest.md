@@ -77,11 +77,13 @@ His baritone stays intimate in conversation. When uncomfortable, his hand goes t
 - **Gives:** [`three-barred-cross-is-lemko`](../clues/clues.md#three-barred-cross-is-lemko)
 
 ### Census interview
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** He cooperates and gives his details: himself, alone at the rectory.
 - **Changes:** [Census](../items/census.md#census) — [@title](priest.md) [@first-name](priest.md) [@surname](priest.md)
 
 ### Property assessment
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** He says the rectory and church are parish property, not his. He refers the committee to the diocese for anything on paper.
 - **Changes:** [Property Record](../items/census.md#property-record) — parish/church property, not personally held

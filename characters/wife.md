@@ -71,11 +71,13 @@ After [@name](../events/irena-confronts-wojewoda.md), she closes the household, 
 - **Changes:** [Two Phases](#two-phases) — TBD
 
 ### Census interview
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** She gives precise household details: names, ages, employment, no wasted words.
 - **Changes:** [Census](../items/census.md#census) — [@first-name](wojewoda.md), [@first-name](wife.md), [@name](junior.md)
 
 ### Property assessment
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** She says the house is her husband's and the papers are in order.
 - **Changes:** [Property Record](../items/census.md#property-record) — [@first-name](wojewoda.md)'s house; [Two Phases](#two-phases) — TBD

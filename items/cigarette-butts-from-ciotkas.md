@@ -24,8 +24,8 @@ A small scatter of hand-pinched butts, oval, all one brand: Carmen.[](#hand-pinc
 ## Actions
 
 ### Compare the door and well butts
-- **Requires:** [@name](cigarette-butts-from-ciotkas.md)
-<!-- Prompted by: [ciotka-is-dead](../clues/clues.md#ciotka-is-dead) -->
+- **Requires:** [@name](cigarette-butts-from-ciotkas.md) AND [@name](cigarette-butts-from-the-well.md)
+<!-- Prompted by: hook:items/cigarette-butts-from-the-well.md -->
 - **Cost:** 1 time
 - **Outcome:** Laid side by side, both scatters are the same oval Carmen. The man who haunts the well left the same brand at her threshold.
 - **Gives:** [door-and-well-butts-match](../clues/clues.md#door-and-well-butts-match)

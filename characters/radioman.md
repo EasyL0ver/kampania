@@ -70,6 +70,7 @@ He knows the official history, that the old village was Lemko and was cleared in
 ## Actions
 
 ### Ask where the good bimber comes from
+<!-- Prompted by: hook:items/bimber.md -->
 - **Outcome:** He points the player toward [@nickname](wujas.md)'s crew and the treeline without coaxing.
 - **Gives:** [`drinking-crew-heads-to-forest`](../clues/clues.md#drinking-crew-heads-to-forest)
 
@@ -111,11 +112,13 @@ He knows the official history, that the old village was Lemko and was cleared in
 - **Gives:** [`upa-used-german-equipment`](../clues/clues.md#upa-used-german-equipment)
 
 ### Census interview
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** The census sets him off, but he gives name and age inside a tirade about the teaching post they took and the years they gave him for "agitation."
 - **Changes:** [Census](../items/census.md#census) — [@first-name](radioman.md), former schoolteacher
 
 ### Property assessment
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** He gestures at the falling-down cottage the state parked him in.
 - **Changes:** [Property Record](../items/census.md#property-record) — run-down state-assigned cottage

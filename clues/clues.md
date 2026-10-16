@@ -380,9 +380,6 @@ Minor blood stains around the well rim.
 ### you-should-jump-inside
 A certainty settles in that you should climb down into the dark. It does not feel like your own thought.
 
-### cigarette-butts-by-the-well
-Cigarette butts collect in the grass and stone cracks around the well rim, more than a single visit would leave.
-
 ### candles-by-the-well
 Burnt-down candles and candle wax sit around the well, left by repeated visits.
 
@@ -472,6 +469,9 @@ Before she died, [@name](../characters/ciotka.md) told [@name](../characters/glu
 
 ### butts-at-ciotkas-are-carmen
 The cigarette butts from [@name](../characters/ciotka.md)'s door are Carmen, a premium brand rarely seen this far out.
+
+### well-butts-are-carmen
+The cigarette butts around the old well are Carmen, a premium brand rarely seen this far out.
 
 ### junior-smokes-carmen
 [@name](../characters/junior.md) smokes Carmen, a premium brand.

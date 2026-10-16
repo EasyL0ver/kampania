@@ -47,7 +47,7 @@
 ### Investigate the area around the well
 - **Cost:** 1 time
 - **Outcome:** A close look at the rim turns up cigarette butts in the grass and stone cracks and burnt-down candles left around the well.
-- **Gives:** [cigarette-butts-by-the-well](../clues/clues.md#cigarette-butts-by-the-well), [candles-by-the-well](../clues/clues.md#candles-by-the-well)
+- **Gives:** [@name](../items/cigarette-butts-from-the-well.md), [candles-by-the-well](../clues/clues.md#candles-by-the-well)
 - **Changes:** [Candles](#candles) — seen, if unseen
 
 ### Investigate the area around the well

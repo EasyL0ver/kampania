@@ -54,11 +54,13 @@ She states her case rather than begging for it. When she repeats her father's la
 ## Actions
 
 ### Census interview
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** She answers plainly with her own details and her husband's family farmhouse.
 - **Changes:** [Census](../items/census.md#census) — [@first-name](dispute-sister.md), in her husband's household
 
 ### Property assessment
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** She has no deed and claims the border strip by years of labour. She names her brother's paper as the theft.
 - **Changes:** [Property Record](../items/census.md#property-record) — [@first-name](dispute-sister.md) claims the disputed strip by use, no title

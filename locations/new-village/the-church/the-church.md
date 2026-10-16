@@ -32,6 +32,7 @@ The church on the hill in [@name](../new-village.md), beside the cemetery.
 
 ### Talk to Widow at the grave
 - **When:** [@present](../../../characters/widow.md)
+<!-- Prompted by: hook:characters/widow.md -->
 - **Outcome:** [@first-name](../../../characters/widow.md) talks about her husband, his PGR work, his accident, and her wish that the committee include him in the census.
 - **Gives:** [wanda-receives-pension](../../../clues/clues.md#wanda-receives-pension)
 
@@ -41,6 +42,7 @@ The church on the hill in [@name](../new-village.md), beside the cemetery.
 - **Gives:** [mazur-died-in-the-silo](../../../clues/clues.md#mazur-died-in-the-silo)
 
 ### Look for Mazur's grave
+<!-- Prompted by: hook:characters/tadeusz-mazur.md -->
 - **Outcome:** The freshly tended grave [@first-name](../../../characters/widow.md) kneels beside carries [@name](../../../characters/tadeusz-mazur.md)'s name and a recent death date.
 - **Gives:** [mazur-buried-in-cemetery](../../../clues/clues.md#mazur-buried-in-cemetery)
 

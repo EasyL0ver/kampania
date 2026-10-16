@@ -63,11 +63,13 @@ People lower their voices around her. Her own voice stays low and measured, so o
 ## Actions
 
 ### Census interview
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** She gives herself, [@name](painter.md), and the two children before the question is finished.
 - **Changes:** [Census](../items/census.md#census) — [@first-name](matrona.md), [@first-name](painter.md), [@first-name](secondary/ewa-rzepka.md), [@name](secondary/krystian-rzepka.md)
 
 ### Property assessment
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** She names the house and [@name](../locations/new-village/the-store.md) she runs, with papers in order.
 - **Changes:** [Property Record](../items/census.md#property-record) — Rzepka house and store

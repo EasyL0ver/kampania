@@ -61,15 +61,18 @@ A cigarette is usually between his lips or behind his ear. His studied cool drop
 
 ### Offer him a Carmen
 - **Requires:** [@name](../items/pack-of-cigarettes.md)
+<!-- Prompted by: [butts-at-ciotkas-are-carmen](../clues/clues.md#butts-at-ciotkas-are-carmen) -->
 - **Outcome:** He takes it as his own, the one thing he spends on to feel above the place. Offer him a cheap Sport and he waves it off: that is not what he smokes, and you learn nothing.
 - **Gives:** [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen)
 
 ### Census interview
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** He gives his name and age, and treats the interview like a joke. He answers for himself only.
 - **Changes:** [Census](../items/census.md#census) — [@first-name](junior.md) [@surname](junior.md), in his father's household
 
 ### Property assessment
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** He says he owns nothing and lives under his father's roof. He waves the question off.
 - **Changes:** [Property Record](../items/census.md#property-record) — no property of his own, lives in his father's house

@@ -50,11 +50,13 @@ Her carrying voice is warm and practical.[](#voice-succeeds-where-force-and-reas
 ## Actions
 
 ### Census interview
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** She feeds the players first, then answers the household questions plainly and completely.
 - **Changes:** [Census](../items/census.md#census) — [@first-name](zofia.md), [@first-name](foreman.md), [@name](secondary/staszek-pytlak.md)
 
 ### Property assessment
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** She says they own nothing; the house comes with [@first-name](foreman.md)'s PGR post.
 - **Changes:** [Property Record](../items/census.md#property-record) — no property held, PGR-provided housing

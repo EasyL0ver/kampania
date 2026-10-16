@@ -127,6 +127,7 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 
 ### Speak Lemko with Pawelek
 - **Requires:** [Language](../cards/language.md)
+<!-- Prompted by: [babcia-is-lemko](../clues/clues.md#babcia-is-lemko) -->
 - **Outcome:** He recognizes the speech as like Babcia's and like the lady's. He repeats softer words from an old woman in the forest who has been kind to him.
 - **Gives:** hook:characters/hag.md
 

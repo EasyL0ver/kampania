@@ -56,6 +56,7 @@ His voice is surprisingly soft for his size. Kindness reaches him after a pause,
 - **Gives:** hook:characters/glupek.md
 
 ### Ask Glupek about his mother
+<!-- Prompted by: hook:characters/ciotka.md -->
 - **Outcome:** He calls [@first-name](ciotka.md) "auntie," not mother. When asked about his real parents, he says he has only ever had his aunt.
 - **Gives:** [`ciotka-adopted-glupek`](../clues/clues.md#ciotka-adopted-glupek)
 
@@ -70,11 +71,13 @@ His voice is surprisingly soft for his size. Kindness reaches him after a pause,
 - **Gives:** [`glupek-fears-butcher`](../clues/clues.md#glupek-fears-butcher)
 
 ### Census interview
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** He gives short, willing answers: his name and that he lives with his aunt. If asked his age, he looks to [@first-name](ciotka.md).
 - **Changes:** [Census](../items/census.md#census) — [@first-name](glupek.md) [@surname](glupek.md), in [@name](ciotka.md)'s household
 
 ### Property assessment
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** He does not understand the question. He says it is his aunt's house.
 - **Changes:** [Property Record](../items/census.md#property-record) — no property held, dependent in [@first-name](ciotka.md)'s house

@@ -2078,10 +2078,10 @@
 "location": "Hołubie — Homestead Ruins",
 "present": "Ryszard Dudka, Paraskewia Chyłak, Stanisław Rezeń",
 "when": "setup:events/well-confrontation/dudka-intervention.md",
-"outcome": "Rezeń backs off and leaves with the dogs.",
+"outcome": "Rezeń is gone, and the woman is alive.",
 "gives": "*(to: everyone present)* neighbour-gone-at-night",
 "changes": "Butcher — driven-off; Dudka Intervenes — ends; The Brawl at the Well — ends; The Well Confrontation — ends",
-"setup": "Wool trousers held up by braces, flannel shirt with sleeves rolled in summer, heavy boots — same outfit every day. Flat cap he rarely removes; pale blue eyes, strong jaw, three-day stubble that never becomes a beard. Thin but very tall, a head above most men, with a lean hunter's build; quiet even indoors; shoulders slightly forward, watches hands and posture more than faces. comes out of the trees with his rifle raised at Rezeń..",
+"setup": "Wool trousers held up by braces, flannel shirt with sleeves rolled in summer, heavy boots — same outfit every day. Flat cap he rarely removes; pale blue eyes, strong jaw, three-day stubble that never becomes a beard. Thin but very tall, a head above most men, with a lean hunter's build; quiet even indoors; shoulders slightly forward, watches hands and posture more than faces. steps out of the trees with the rifle already at his shoulder. Rezeń does not run. He hauls the woman up off her knees by her headscarf, sets the knife under her jaw, and turns her body into the line of the barrel. He is smiling. The dogs go quiet. The candles gutter in the wind. Nobody breathes, and the woman goes on whispering the names of the dead against the blade. Then the rifle cracks, and the sound rolls away across the stones of the dead village. The bullet cracks off the well's stones a hand's width from Rezeń's head, and stone chips sting his face. Dudka works the bolt and does not lower the barrel. Slowly, Rezeń takes the knife away from her throat and lets her drop. He looks at Dudka a long moment, as if to remember him, then whistles the dogs and walks into the dark..",
 "hook": "A rifle is raised from the trees at the well."
 },
 "events/well-confrontation/the-brawl.md": {
@@ -2111,7 +2111,7 @@
 "outcome": "The woman is dead and in the well.",
 "gives": "*(to: everyone present)* butcher-killed-the-hag",
 "changes": "Alive — false; The Murder at the Well — ends; The Brawl at the Well — ends; The Well Confrontation — ends",
-"setup": "Rezeń kills her, drops her and the wolf into the well, whistles the dogs, and leaves..",
+"setup": "Rezeń stops circling. He takes the woman by her headscarf and bends her back over the rim of the well, and she does not fight him: she keeps chanting, the names of the dead, one after another. His shoulders move once. The chant stops in the middle of a name. He holds her there until she is still, then tips her over the stones into the dark, and the wolf after her. It is a long time before anything sounds from below. He wipes the blade on the grass, whistles the dogs, and walks back down the path like a man coming home from an errand..",
 "hook": "A scream at the well, cut short."
 },
 "events/well-confrontation/well-confrontation.md": {
@@ -2122,7 +2122,7 @@
 "outcome": "From the ruins: Lemko chanting carries across the well clearing. From the forest path: the players hear dogs and a man's footsteps ahead.",
 "gives": "*(to: players at Hołubie — Homestead Ruins)* hook:events/well-confrontation/well-confrontation.md",
 "noticed-by": "Culture",
-"changes": "Dudka Intervenes — starts",
+"changes": "The Brawl at the Well — starts",
 "type": "enum (unhurt | badly-hurt)",
 "per": "world",
 "start": "unhurt",
@@ -2586,10 +2586,19 @@
 "outcome": "Hand-pinched butts by the door, all the same brand, but you cannot tell which. Bagged, they could be compared against butts found elsewhere.",
 "noticed-by": "Chainsmoker",
 "gives": "butts-at-ciotkas-are-carmen",
-"requires": "Carmen Cigarette Butts",
+"requires": "Carmen Cigarette Butts AND Cigarette Butts from the Well",
 "cost": "1 time",
 "setup": "A small scatter of hand-pinched butts, oval, all one brand: Carmen. An aromatic premium smoke, dearer than the Sport and Extra Mocne the village runs on and rarely seen this far out. Rain has swollen them grey and soft. They were dropped at least a day before Janina died, not the night of.",
 "hook": "A small scatter of rain-softened, hand-pinched cigarette butts."
+},
+"items/cigarette-butts-from-the-well.md": {
+"name": "Cigarette Butts from the Well",
+"noticed-by": "Chainsmoker",
+"when": "setup:items/cigarette-butts-from-the-well.md",
+"outcome": "The oval shape and the aroma give the brand away: Carmen, a premium smoke rarely seen this far out.",
+"gives": "well-butts-are-carmen",
+"setup": "A handful of rain-softened butts picked out of the grass and the cracks in the stones around the well rim, more than a single visit would leave..",
+"hook": "A handful of cigarette butts gathered from around the old well."
 },
 "items/concrete-ditch-measurements.md": {
 "name": "Concrete Ditch Measurements",
@@ -2661,7 +2670,11 @@
 },
 "items/glupeks-cigarette.md": {
 "name": "Glupek's Cigarette",
-"setup": "One cigarette, never lit, the paper soft and creased from being handled. It was tucked away among Edek Barnaś's few things like a prize. He does not smoke.",
+"noticed-by": "Chainsmoker",
+"when": "setup:items/glupeks-cigarette.md",
+"outcome": "The oval shape and the aroma give the brand away: Carmen, a premium smoke rarely seen this far out.",
+"gives": "edek-has-carmen-cigarette",
+"setup": "One cigarette, never lit, the paper soft and creased from being handled. It was tucked away among Edek Barnaś's few things like a prize. He does not smoke..",
 "hook": "A single unsmoked cigarette that Edek keeps among his things."
 },
 "items/jar-of-pills.md": {

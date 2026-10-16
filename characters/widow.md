@@ -47,6 +47,7 @@ Speaks barely above a whisper with a slight tremor. Smells of tallow candles and
 - **Changes:** [Census](../items/census.md#census) — [@first-name](widow.md) [@surname](widow.md), widow
 
 ### Property assessment
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** She names her small house near the church.
 - **Changes:** [Property Record](../items/census.md#property-record) — [@first-name](widow.md)'s house

@@ -99,6 +99,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 ## Actions
 
 ### Census interview
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** He gives the whole household's details himself.
 - **Changes:** [Census](../items/census.md#census) — [@first-name](wojewoda.md), [@first-name](wife.md), [@first-name](junior.md)
@@ -110,6 +111,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 - **Gives:** hook:characters/ciotka.md, hook:characters/neighbour.md, hook:characters/painter.md
 
 ### Property assessment
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** He names his house and land and says the papers are in order.[](#host-grows-wary-of-the-committees-movements)
 - **Changes:** [Property Record](../items/census.md#property-record) — sołtys's house, clean title; [Flood Awareness](#flood-awareness) — rises to suspicious
@@ -126,6 +128,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 
 ### Ask for the maps
 - **When:** [Tell with geological proof](#tell-with-geological-proof)
+<!-- Prompted by: hook:items/topographic-maps.md -->
 - **Outcome:** He hands over the maps because saving the village matters more than hiding the old terrain.
 - **Gives:** [@name](../items/topographic-maps.md)
 
@@ -160,6 +163,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 
 ### Ask about Barbara's house
 - **When:** [@name](../events/wojewodas-ask.md)
+<!-- Prompted by: hook:locations/new-village/barbaras-house.md -->
 - **Cost:** 1 time
 - **Outcome:** He says the house is the farm's on paper, built with PGR brick and labour for a young mother with no one to lean on.
 - **Gives:** [`barbara-has-help`](../clues/clues.md#barbara-has-help)
@@ -179,6 +183,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 - **Gives:** [`soldier-left-his-house-for-state`](../clues/clues.md#soldier-left-his-house-for-state), [`ciotka-moved-in-after-they-were-gone`](../clues/clues.md#ciotka-moved-in-after-they-were-gone), hook:items/barnas-departure-declaration.md
 
 ### Report the bimber still
+<!-- Prompted by: hook:locations/bimber-still.md -->
 - **Outcome:** He says he will handle it and shows no surprise.
 - **Gives:** [`bimber-still`](../clues/clues.md#bimber-still)
 

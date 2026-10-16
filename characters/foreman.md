@@ -73,11 +73,13 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 ## Actions
 
 ### Census interview
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** He answers quickly and gives himself, [@first-name](zofia.md), and [@first-name](secondary/staszek-pytlak.md).
 - **Changes:** [Census](../items/census.md#census) — [@first-name](foreman.md), [@first-name](zofia.md), [@first-name](secondary/staszek-pytlak.md)
 
 ### Property assessment
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** He says he owns nothing: he lives in PGR quarters and the farm is state land. He treats questions about land value as odd.
 - **Changes:** [Property Record](../items/census.md#property-record) — none, PGR housing; [Flood Awareness](wojewoda.md#flood-awareness) — [@first-name](foreman.md) mentions it, rises to suspicious

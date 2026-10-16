@@ -77,6 +77,7 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 
 ### Census interview
 - **Requires:** [Language](../cards/language.md)
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** She gives her name — [@first-name](hag.md) [@surname](hag.md) — and says she is Lemko.
 - **Gives:** [hag-is-lemko](../clues/clues.md#hag-is-lemko)
@@ -84,6 +85,7 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 
 ### Property assessment
 - **Requires:** [Language](../cards/language.md)
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** She shows the cabin without fuss: a tiny hut she built and has lived in for twenty years.
 - **Changes:** [Property Record](../items/census.md#property-record) — Hag's cabin, hers by occupation, no title

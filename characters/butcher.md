@@ -54,17 +54,20 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 ## Actions
 
 ### Census interview
+<!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time
 - **Outcome:** He gives his name and age, then turns questions back on the interviewer with a grin.
 - **Changes:** [Census](../items/census.md#census) — [@first-name](butcher.md) [@surname](butcher.md), name and age only, remaining fields blank
 
 ### Property assessment
+<!-- Prompted by: [committee-notes-property-for-damage](../clues/clues.md#committee-notes-property-for-damage) -->
 - **Cost:** 1 time
 - **Outcome:** He refuses assessment and tells the committee to mind the dogs. If pushed, the dogs stand up.
 - **Changes:** [Property Record](../items/census.md#property-record) — refusal logged, property remains unassessed
 
 ### Offer him a Carmen
 - **Requires:** [@name](../items/pack-of-cigarettes.md)
+<!-- Prompted by: [butts-at-ciotkas-are-carmen](../clues/clues.md#butts-at-ciotkas-are-carmen) -->
 - **Outcome:** He waves your pack away with a grin and lights one of his own Carmen, or takes yours as his brand, and makes a small show of it either way. Offer him a cheap Sport instead and you learn nothing: he just refuses it, he does not smoke that.
 - **Gives:** [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen)
 
@@ -74,13 +77,14 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 - **Gives:** [butcher-doesnt-drink](../clues/clues.md#butcher-doesnt-drink)
 
 ### Ask about Glupek smoking
-<!-- Prompted by: [edek-has-carmen-cigarette](../clues/clues.md#edek-has-carmen-cigarette) -->
+<!-- Prompted by: hook:items/glupeks-cigarette.md -->
 - **Cost:** 1 time
 - **Outcome:** He laughs it off, warm and easy: the boy does not smoke, cannot even drag on one without coughing himself sick. He gave [@first-name](glupek.md) a Carmen anyway, a boy has got to learn, and he talks about the lad like a fond nephew without ever noticing anything wrong in it.
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)
 
 ### Ask about the Carmen cigarette
 - **Requires:** [@name](../items/cigarette-butts-from-ciotkas.md)
+<!-- Prompted by: hook:items/glupeks-cigarette.md -->
 - **Cost:** 1 time
 - **Outcome:** No dodge, no worry. He shrugs and admits he gave the boy one, a boy has got to learn. He talks about [@first-name](glupek.md) warmly, like a nephew, and never once notices anything wrong with the fondness. He does not care that it places him near the door.
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)

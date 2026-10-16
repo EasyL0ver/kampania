@@ -25,6 +25,7 @@
 ## Actions
 
 ### Open the grave
+<!-- Prompted by: [dudka-buried-a-friend-at-the-ravine](../clues/clues.md#dudka-buried-a-friend-at-the-ravine) -->
 - **Cost:** 1 time
 - **Outcome:** The stones lift away; underneath are a rotted coat and scattered bones without an identifiable face.
 - **Gives:** [@name](../items/ravine-remains.md)

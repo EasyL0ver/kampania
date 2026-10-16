@@ -34,6 +34,7 @@
 
 ### Ask about Barbara's house
 - **When:** setup:events/wojewodas-ask.md
+<!-- Prompted by: hook:locations/new-village/barbaras-house.md -->
 - **Cost:** 1 time
 - **Outcome:** [@first-name](../characters/wojewoda.md) says the house was built with PGR brick and labour for a young mother with no support.
 - **Gives:** [barbara-has-help](../clues/clues.md#barbara-has-help)
