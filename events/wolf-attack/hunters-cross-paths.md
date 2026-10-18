@@ -10,7 +10,7 @@
 
 ## Setup
 
-The wolves stand in the open below the hunting stand, heads low, unaware of the rifle in the slot above them. Then three dogs burst out of the trees, giving tongue, and the pack is gone into the forest before the shot goes off into nothing. [@surname](../../characters/butcher.md) strolls out after his dogs into the middle of the clearing and looks up at the stand.
+The wolves stand in the open below the hunting stand, heads low, unaware of the rifle in the slot above them. Then three dogs burst out of the trees, giving tongue, the rifle cracks, and the pack is gone into the forest.[](#one-wolf-down) [@surname](../../characters/butcher.md) strolls out after his dogs into the middle of the clearing and looks up at the stand.
 
 The rifle in the slot comes round and settles on him. "Weeks," [@surname](../../characters/neighbour.md) says from above. "Weeks I have sat up here for them."
 
@@ -27,6 +27,10 @@ The rifle in the slot comes round and settles on him. "Weeks," [@surname](../../
 - **When:** setup:events/wolf-attack/hunters-cross-paths.md
 - **Outcome:** [@surname](../../characters/butcher.md) is standing in a rifle's sights and enjoying it. He is certain [@surname](../../characters/neighbour.md) will not fire, as if he has seen him not fire before.
 
+### One wolf down
+- **When:** setup:events/wolf-attack/hunters-cross-paths.md AND [Pipe out](hunt-with-dudka/the-stand.md#pipe-out) is true
+- **Outcome:** One wolf did not make the trees. It lies in the grass of the clearing, the hunter's shot clean through it.
+
 ## Actions
 
 ### Get between them
@@ -38,7 +42,7 @@ The rifle in the slot comes round and settles on him. "Weeks," [@surname](../../
 
 ### Do not intervene
 <!-- Prompted by: setup:events/wolf-attack/hunters-cross-paths.md -->
-- **Outcome:** [@surname](../../characters/butcher.md) ends the standoff by mocking [@surname](../../characters/neighbour.md) for failing to stop him in the past; [@surname](../../characters/neighbour.md) is publicly humiliated and [@surname](../../characters/butcher.md) leaves with his dogs.
+- **Outcome:** [@surname](../../characters/butcher.md) ends the standoff by mocking [@surname](../../characters/neighbour.md) for failing to stop him in the past; then he leaves with his dogs.
 - **Gives:** [`dudka-despises-rezen`](../../clues/clues.md#dudka-despises-rezen), [`rezen-mocks-an-old-failure`](../../clues/clues.md#rezen-mocks-an-old-failure)
 
 ## Mechanics
@@ -52,4 +56,4 @@ The rifle in the slot comes round and settles on him. "Weeks," [@surname](../../
 
 ## Resolve
 
-- [The clash](#the-clash) is standoff → [Humiliated](../../characters/neighbour.md#humiliated) = true
+- [The clash](#the-clash) is standoff AND [Pipe out](hunt-with-dudka/the-stand.md#pipe-out) is false → [Humiliated](../../characters/neighbour.md#humiliated) = true

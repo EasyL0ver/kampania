@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """PostToolUse hook: validate an edited .md file with validate.py, and when a scene
-file changed refresh the preview's names table (tools/build_names.py) and every
-scene's full opening (tools/build_setups.py -> setups/).
+file changed refresh the preview's names table (tools/build_names.py) and the
+card-usage audit (tools/build_card_usage.py -> audits/card-usage.md). The scene
+openings (tools/build_setups.py -> setups/) take ~12 s, so they are rebuilt by hand.
 
 Reads the hook payload on stdin. If the edited file is a .md inside the repo
 (outside world/), runs `python validate.py <file>`. Errors are printed to
@@ -35,10 +36,10 @@ def main() -> int:
     if rel.parts and rel.parts[0] in ("world", ".git", ".claude"):
         return 0
 
-    # Names or openings may have changed: refresh the preview's [@field] table
-    # (.crossnote/parser.js) and every scene's full opening (setups/).
-    if rel.parts and rel.parts[0] in ("characters", "locations", "events", "items", "cards"):
-        for tool in ("build_names.py", "build_setups.py"):
+    # Names or card uses may have changed: refresh the preview's [@field] table
+    # (.crossnote/parser.js) and the card-usage audit (audits/card-usage.md).
+    if rel.parts and rel.parts[0] in ("characters", "locations", "events", "items", "cards", "tags"):
+        for tool in ("build_names.py", "build_card_usage.py"):
             subprocess.run([sys.executable, str(REPO / "tools" / tool)], cwd=REPO, capture_output=True)
 
     result = subprocess.run(

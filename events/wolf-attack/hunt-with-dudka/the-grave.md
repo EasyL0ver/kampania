@@ -24,4 +24,5 @@ At the lip of the ravine there is a low cairn of moss-grown stones. [@surname](.
 ### Lie up with him
 <!-- Prompted by: setup:events/wolf-attack/hunt-with-dudka/the-grave.md -->
 - **Outcome:** You follow him on through the trees to a clearing and up the ladder of a stand at its edge.
+- **Gives:** hook:locations/hunting-stand.md, located:locations/hunting-stand.md
 - **Changes:** [@name](the-grave.md) — ends; [@name](the-stand.md) — starts

@@ -11,8 +11,8 @@ Each sheet holds:
   person you know of by its Hook.
 
 All [@field] refs are rendered to names. One file per scene, mirroring the repo:
-setups/events/arrival/the-walk.md, ... setups/ is gitignored and rebuilt by the
-edit hook. Run by hand:
+setups/events/arrival/the-walk.md, ... setups/ is gitignored. It takes ~12 s, so the
+edit hook does not run it; run it by hand:
     python tools/build_setups.py
 """
 import re

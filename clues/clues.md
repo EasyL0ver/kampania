@@ -892,6 +892,9 @@ Six of the [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s sheep have d
 ### wolves-are-driven-by-the-rain
 The wolves are an ordinary pack: the 1967 rains drove them down off the high ground, and they are hungry.
 
+### neighbour-smokes-pipe
+[@name](../characters/neighbour.md) smokes a pipe.
+
 ### dudka-thinks-hag-is-harmless
 [@name](../characters/neighbour.md) thinks the woman in the forest is a harmless old Lemko woman, and wants her left alone.
 

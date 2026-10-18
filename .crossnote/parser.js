@@ -2195,17 +2195,18 @@
 "part-of": "The Wolf Attack",
 "location": "The Hunting Stand",
 "present": "Ryszard Dudka, Stanisław Rezeń",
-"noticed-by": "Violence",
+"noticed-by": "Empathy",
 "when": "setup:events/wolf-attack/hunters-cross-paths.md",
-"outcome": "Dudka is louder, but Rezeń is the one ready to kill.",
-"gives": "butcher-is-dangerous",
-"cost": "1 time",
+"outcome": "Rezeń is standing in a rifle's sights and enjoying it. He is certain Dudka will not fire, as if he has seen him not fire before.",
+"requires": "Violence OR Speech",
+"cost": "1 composure",
 "changes": "The clash — separated",
+"gives": "dudka-despises-rezen, rezen-mocks-an-old-failure",
 "type": "enum (standoff | separated)",
 "per": "world",
 "start": "standoff",
-"setup": "Dudka is hidden with his rifle trained on the wolves. The wolves are in the open and unaware of Dudka. Rezeń's three dogs crash through the brush and drive the wolves into the trees. Dudka's shot is lost. Dudka confronts Rezeń with the rifle in his hands. Rezeń goes still, keeps his knife in hand, and lets the dogs fan out around him. Both men are close enough to violence that one wrong movement can start a killing.",
-"hook": "A rifleman confronting a knife-wielding hunter as dogs scatter through the clearing."
+"setup": "The wolves stand in the open below the hunting stand, heads low, unaware of the rifle in the slot above them. Then three dogs burst out of the trees, giving tongue, and the pack is gone into the forest before the shot goes off into nothing. Rezeń strolls out after his dogs into the middle of the clearing and looks up at the stand. The rifle in the slot comes round and settles on him. \"Weeks,\" Dudka says from above. \"Weeks I have sat up here for them.\". Rezeń does not move out of the line. He spreads his hands, smiling up at the barrel. \"And I thought I was doing you a favour.\". \"I know what you are.\". \"Then shoot.\" He waits, the dogs settling around his legs. \"No? Then come down.\".",
+"hook": "A rifle-shot and dogs giving tongue in a clearing below the hunting stand."
 },
 "events/wolf-attack/wolf-attack.md": {
 "name": "The Wolf Attack",
@@ -2625,7 +2626,7 @@
 "outcome": "To the hunter there is no curse: the rain has driven a hungry pack down off the high ground.",
 "gives": "*(to: everyone present)* wolves-are-driven-by-the-rain",
 "changes": "The Hunt with Neighbour — ends; The Grave in the Meadow — starts",
-"setup": "Stung and silent, Dudka sets off with his rifle. The farmhands' talk of curses follows him to the gate, and he turns on it: wolves are wolves, the rain drove them down off the high ground, and they are hungry. On the walk he loosens a little and talks game: the boar glut two summers back, all of them rooting at one spot up past the farm where the PGR tipped a whole silo of spoiled grain. Where the ravine path turns off, he stops. He has to see someone first. They can come or not..",
+"setup": "Stung and silent, Dudka sets off with his rifle. At the gate a farmhand calls after him that he is wasting his time: it is a curse, and no bullet stops a curse. Dudka turns on him: wolves are wolves, the rain drove them down off the high ground, and they are hungry. On the walk he loosens a little and talks game: the boar glut two summers back, all of them rooting at one spot up past the farm where the PGR tipped a whole silo of spoiled grain. Where the ravine path turns off, he stops. He has to see someone first. They can come or not..",
 "hook": "Dudka shouldering his rifle and heading for the forest."
 },
 "events/wolf-attack/hunt-with-dudka/the-grave.md": {
@@ -2637,7 +2638,7 @@
 "outcome": "Whoever lies under the cairn, Dudka buried him with his own hands.",
 "gives": "*(to: everyone present)* dudka-buried-a-friend-at-the-ravine, hook:locations/meadow-by-the-ravine.md",
 "changes": "The Grave in the Meadow — ends; The Stand — starts",
-"setup": "At the lip of the ravine there is a low cairn of moss-grown stones. Dudka takes off his cap, kneels, and prays. Asked, he says only that it is an old friend, and that he buried him himself. Then he gets up: the pack crosses a clearing further on at dusk, and he has a stand there. If they can sit still, they can come..",
+"setup": "At the lip of the ravine there is a low cairn of moss-grown stones. Dudka takes off his cap, kneels, and prays. Asked, he says only that it is an old friend, and that he buried him himself. Then he gets up: the pack crosses a clearing further on, and he has a stand there to watch for them. If they can sit still, they can come..",
 "hook": "Dudka kneeling by a cairn at the lip of the ravine."
 },
 "events/wolf-attack/hunt-with-dudka/the-stand.md": {
@@ -2649,8 +2650,9 @@
 "outcome": "This is where he waits for them: his own stand, and now you know the way to it.",
 "gives": "*(to: everyone present)* hook:locations/hunting-stand.md, located:locations/hunting-stand.md",
 "noticed-by": "Empathy",
+"cost": "1 time",
 "changes": "The Stand — ends; The Hunters Cross Paths — starts",
-"setup": "They wait at the shooting slot through the long, cold end of the day. The name Rezeń brings the anger up in him, older and more personal than any failed hunt. Near dusk someone moves along the game path below: an old woman with a bundle, walking slowly, not looking up. Dudka watches her pass without moving and says quietly that she is an old Lemko woman who lives out here. Harmless. Leave her be. She is gone into the trees. A while later the wolves step out into the clearing..",
+"setup": "They wait at the shooting slot, a long, cold wait. The name Rezeń brings the anger up in him, older and more personal than any failed hunt. After a long time someone moves along the game path below: an old woman with a bundle, walking slowly, not looking up. Dudka watches her pass without moving. She is gone into the trees, and the clearing is empty again..",
 "hook": "Someone up in the hunting stand at the edge of the clearing."
 },
 "events/wolf-attack/hunt-with-rezen/at-the-pasture.md": {
@@ -2673,7 +2675,7 @@
 "present": "Tadek Gajda, Stanisław Rezeń",
 "outcome": "He whistles up three dogs from behind the house and sets off up the slope toward the pasture, talking all the way.",
 "changes": "The Hunt with Butcher — ends; At the Pasture — starts",
-"setup": "Tadeusz goes to the last house before the treeline, still unsteady on his feet, and knocks. Clean pressed shirt, good boots, cologne; sharper dress than the village norm. Dark hair slicked back with lard; weathered red-brown face, wide smile, pale grey eyes. Broad-shouldered, stands too close, takes up too much space. He nearly always has one going, a fresh one lit off the last.. Warm baritone pitched for an audience; loud laughter that can stop without warning. hears him out on the doorstep. He looks past him, down the road, as if someone else should be coming: so the sołtys sends his brother, not himself. He takes it with a smile that does not quite hold. Then he is all concern: has Tadek been drinking already, this early? He should look after himself. And with a wink, is he drinking to forget something? He laughs before anyone can answer. Then he turns to the committee, open and easy: they look like people who want to see how it is done, so why not come along?.",
+"setup": "Tadeusz goes to the last house before the treeline, still unsteady on his feet, and knocks. Clean pressed shirt, good boots, cologne; sharper dress than the village norm. Dark hair slicked back with lard; weathered red-brown face, wide smile, pale grey eyes. Broad-shouldered, stands too close, takes up too much space. He nearly always has one going, a fresh one lit off the last.. Warm baritone pitched for an audience; loud laughter that can stop without warning. hears him out on the doorstep. He looks past him, down the road, as if someone else should be coming: so the sołtys sends his brother, not himself. He takes it with a smile that does not quite hold. Then he is all concern: has Tadek been drinking already? He should look after himself. And with a wink, is he drinking to forget something? He laughs before anyone can answer. Then he turns to the committee, open and easy: they look like people who want to see how it is done, so why not come along?.",
 "hook": "Tadek Gajda stumbling off toward the edge house."
 },
 "events/wolf-attack/hunt-with-rezen/the-trail.md": {

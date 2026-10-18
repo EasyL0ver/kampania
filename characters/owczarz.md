@@ -53,12 +53,18 @@ The farm's shepherd. He lives up on the pasture with the flock through the summe
 - **When:** setup:characters/owczarz.md
 - **Outcome:** You know that shake, and the way his eyes go to anything that might be a bottle. This man needs a drink, badly, and one would bring him down faster than any talk.
 
+### No curse, just hunger
+- **Noticed by:** [Survival](../cards/survival.md)
+- **When:** [Ask what happened here](#ask-what-happened-here)
+- **Outcome:** Everything he describes is a hungry pack, not a curse. The rain has flooded the high ground and driven the game off it, and the wolves have come down after the flock.
+- **Gives:** [`wolves-are-driven-by-the-rain`](../clues/clues.md#wolves-are-driven-by-the-rain)
+
 ## Actions
 
 ### Ask what happened here
 - **When:** [Agitated](#agitated) is true
 <!-- Prompted by: [wolves-attacking-livestock](../clues/clues.md#wolves-attacking-livestock) -->
-- **Outcome:** It comes out in fragments, his eyes on the trees the whole time: one every night, never two, they don't come like wolves come, they wait for him to close his eyes. The woman in the forest sends them.
+- **Outcome:** It comes out in fragments, his eyes on the trees the whole time: one every night, never two, they don't come like wolves come, they wait for him to close his eyes. The woman in the forest sends them.[](#no-curse-just-hunger)
 - **Gives:** [`hag-cursed-wolves`](../clues/clues.md#hag-cursed-wolves)
 
 ### Ask what happened here
@@ -79,6 +85,13 @@ The farm's shepherd. He lives up on the pasture with the flock through the summe
 - **When:** [Agitated](#agitated) is true
 - **Cost:** 1 time
 - **Outcome:** You keep him talking about the flock, slowly, until his shoulders come down and he sits for the first time.
+- **Changes:** [Agitated](#agitated) — false
+
+### Tell him it is the rain, not a curse
+- **When:** [Agitated](#agitated) is true
+<!-- Prompted by: [wolves-are-driven-by-the-rain](../clues/clues.md#wolves-are-driven-by-the-rain) -->
+- **Cost:** 1 time
+- **Outcome:** You walk him through it plainly: the flooded high ground, the game gone, a hungry pack following the flock down. He does not believe it all, but the plain sense of it lets his shoulders come down.
 - **Changes:** [Agitated](#agitated) — false
 
 ### Census interview
