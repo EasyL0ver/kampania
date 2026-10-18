@@ -22,11 +22,6 @@
 
 ## Opportunities
 
-### Arriving on the scene
-- **When:** [@name](../locations/new-village/pgr-farm/pgr-farm.md) OR [@name](../locations/new-village/the-store.md)
-- **Outcome:** [@hook](pawelek-falls-ill.md)
-- **Gives:** *(to: players at [@name](../locations/new-village/pgr-farm/pgr-farm.md), [@name](../locations/new-village/the-store.md))* hook:events/pawelek-falls-ill.md
-
 ### Bloodshot crimson eyes
 - **When:** [Health Points](../characters/pawelek.md#health-points) <= 4
 <!-- Prompted by: setup:events/pawelek-falls-ill.md -->

@@ -52,7 +52,7 @@ Rezeń shows up at the PGR. Not at the forest edge — at the farm, among worker
 
 ### Day 2+
 The village reacts:
-- **Dudka** is furious — see [The Hunt with Dudka](../events/hunt-with-dudka.md)
+- **Dudka** is furious — see [The Hunt with Dudka](../events/wolf-attack/hunt-with-dudka/hunt-with-dudka.md)
 - **Zbigniew** is furious — asked for pest control, got reintegration
 - **Pytlak** doesn't understand the tension. He has a wolf problem and a man who can solve it. He's grateful.
 - **Tadek** sees Rezeń at the PGR and something breaks. The man he's been managing from the edge house is *here*, among people. The go-between role is dead.
@@ -64,7 +64,7 @@ The howling continues — or doesn't. The GM decides based on atmosphere, not on
 
 ## The Wolf Hunt
 
-Playable scenes: [The Wolf Attack](../events/wolf-attack.md) (the trigger), then [The Hunt with Rezeń](../events/hunt-with-rezen.md) or [The Hunt with Dudka](../events/hunt-with-dudka.md).
+Playable scenes: [The Wolf Attack](../events/wolf-attack/wolf-attack.md) (the trigger), then [The Hunt with Rezeń](../events/wolf-attack/hunt-with-rezen/at-the-pasture.md) or [The Hunt with Dudka](../events/wolf-attack/hunt-with-dudka/hunt-with-dudka.md).
 
 [Dudka](../characters/neighbour.md) has been failing for weeks. [Zbigniew](../characters/wojewoda.md) authorizes [Rezeń](../characters/butcher.md) via [Tadek](../characters/wujas.md). Rezeń shows up at the PGR. Dudka is furious. The scene is about the political earthquake, not the wolves.
 
@@ -85,9 +85,9 @@ Playable scenes: [The Wolf Attack](../events/wolf-attack.md) (the trigger), then
 ## Connections to Existing Threads
 
 ### Containment-breaking mechanism
-The wolves are the **concrete trigger** for [Rezeń's containment](../characters/butcher.md) breaking. Currently, Zbigniew contains Rezeń through [Tadek's visits](../events/wujas-visits-butcher.md) — cigarettes, odd jobs, a thread keeping the id at the edge. The wolf crisis forces Zbigniew to send a **real request** through that channel. Once Rezeń hears "we need you," the maintenance channel is dead. He doesn't need Tadek's visits anymore. He's been called.
+The wolves are the **concrete trigger** for [Rezeń's containment](../characters/butcher.md) breaking. Currently, Zbigniew contains Rezeń through Tadek's visits — cigarettes, odd jobs, a thread keeping the id at the edge. The wolf crisis forces Zbigniew to send a **real request** through that channel. Once Rezeń hears "we need you," the maintenance channel is dead. He doesn't need Tadek's visits anymore. He's been called.
 
-The visits stop — not (only) because Tadek is too drunk, but because there's nothing left to maintain. The go-between role was hijacked for a real request, and the pretense is gone. See [Tadek Visits the Butcher](../events/wujas-visits-butcher.md).
+The visits stop — not (only) because Tadek is too drunk, but because there's nothing left to maintain. The go-between role was hijacked for a real request, and the pretense is gone. See [The Wolf Attack](../events/wolf-attack/wolf-attack.md).
 
 ### Dudka's escalation fuel
 Dudka's anger about the authorization feeds directly into the [mob violence ending](../events/punishment-lynch.md). He's been building rage since 1954. The wolf failure adds a new layer: not just guilt of inaction, but the humiliation of inadequacy. He tried to protect the village, failed, and the village turned to the man he believes is a murderer. A hunter with a rifle, watching a killer walk freely among villagers because *he wasn't enough* — that's a powder keg.

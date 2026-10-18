@@ -16,11 +16,6 @@
 
 ## Opportunities
 
-### Arriving on the scene
-- **When:** [@name](../../locations/new-village/ciotkas-house/ciotkas-house.md)
-- **Outcome:** [@hook](ciotka-found-dead.md)
-- **Gives:** *(to: players at [@name](../../locations/new-village/ciotkas-house/ciotkas-house.md))* hook:events/ciotka-found-dead/ciotka-found-dead.md
-
 ### Cigarette butts outside the door
 - **When:** setup:events/ciotka-found-dead/ciotka-found-dead.md
 <!-- Prompted by: [something-happened-to-ciotka](../../clues/clues.md#something-happened-to-ciotka) -->

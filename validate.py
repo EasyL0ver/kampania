@@ -239,18 +239,20 @@ STATUS_FIELDS = {
     "Resident": (["Born", "Age in 1967", "Lives in", "Settled"], ["Died", "Lived in", "Based in"]),
     "Outsider": (["Born", "Age in 1967", "Based in"], ["Lives in", "Settled", "Died", "Lived in"]),
     "Dead":     (["Born", "Died"], ["Age in 1967", "Lives in", "Settled"]),
+    "Animal":   (["Lives in"], ["Born", "Age in 1967", "Settled", "Died", "Lived in", "Based in"]),   # no names, no dates
 }
 LOCATION_LINK = re.compile(r"^\[[^\]]+\]\((?:\.\./)+locations/[a-z0-9/-]+\.md\)")
 
 
 PHASES = ("Morning", "Afternoon", "Evening", "Night")
-SCHEDULE_VALUE = re.compile(r"^(away|\[[^\]]+\]\((?:\.\./)+locations/[a-z0-9/-]+\.md\))$")
+SCHEDULE_PLACE = r"\[[^\]]+\]\((?:\.\./)+locations/[a-z0-9/-]+\.md\)"
+SCHEDULE_VALUE = re.compile(rf"^(away|{SCHEDULE_PLACE}(?:, {SCHEDULE_PLACE})*)$")   # several places: spread across them
 
 
 @rule("schedule", "characters")
 def schedule(f: MdFile):
     """Every living character has Morning / Afternoon / Evening / Night in Vital Statistics:
-    one location link each, or `away`. The dead have none."""
+    one or more location links each (', '-separated: spread across all of them), or `away`. The dead have none."""
     s = f.section("Vital Statistics")
     fields = {m.group(1).strip(): (line, m.group(2)) for line, t in (s.body if s else [])
               if (m := VITAL_FIELD.match(t))}
@@ -262,7 +264,7 @@ def schedule(f: MdFile):
         elif p not in fields:
             yield (s.line if s else 1), f"Vital Statistics has no **{p}:** (a location link, or away)"
         elif not SCHEDULE_VALUE.match(fields[p][1]):
-            yield fields[p][0], f"**{p}:** must be one location link or away, not '{fields[p][1][:50]}'"
+            yield fields[p][0], f"**{p}:** must be location links or away, not '{fields[p][1][:50]}'"
 
 
 @rule("vital-status", "characters")
@@ -277,11 +279,11 @@ def vital_status(f: MdFile):
         m = VITAL_FIELD.match(t)
         if m:
             fields.setdefault(m.group(1).strip(), (line, m.group(2)))
-    for x in ("First name", "Surname"):
+    for x in ("First name", "Surname") if fields.get("Status", (0, ""))[1] != "Animal" else ():
         if x not in fields:
             yield s.line, f"Vital Statistics has no {x}"
     if "Status" not in fields:
-        yield s.line, "Vital Statistics has no Status (Resident / Outsider / Dead)"
+        yield s.line, "Vital Statistics has no Status (Resident / Outsider / Dead / Animal)"
         return
     line, status = fields["Status"]
     if status not in STATUS_FIELDS:
@@ -444,19 +446,19 @@ def when_terms(value: str) -> tuple[list[str], str | None]:
 
 
 PRESENT_TERM = re.compile(r"^\[@present\]\(([^)#\s]*characters/[^)#\s]+\.md)\)$")
-_sched: dict[Path, dict[str, Path | None]] = {}
+_sched: dict[Path, dict[str, list[Path]]] = {}
 
 
-def schedule_of(char: Path) -> dict[str, Path | None]:
-    """phase -> the place a living character's schedule puts them (None = away)."""
+def schedule_of(char: Path) -> dict[str, list[Path]]:
+    """phase -> the places a living character's schedule puts them ([] = away)."""
     if char not in _sched:
         out = {}
         s = parse(char).section("Vital Statistics")
         for _, t in (s.body if s else []):
             m = re.match(r"^\s*-\s*\*\*(Morning|Afternoon|Evening|Night):\*\*\s*(.*)$", t)
             if m:
-                lk = re.search(r"\]\(([^)#\s]+\.md)\)", m.group(2))
-                out[m.group(1).lower()] = (char.parent / unquote(lk.group(1))).resolve() if lk else None
+                out[m.group(1).lower()] = [(char.parent / unquote(lk)).resolve()
+                                           for lk in re.findall(r"\]\(([^)#\s]+\.md)\)", m.group(2))]
         _sched[char] = out
     return _sched[char]
 
@@ -469,8 +471,8 @@ def presence(f: MdFile, char: Path) -> tuple[str, list[str] | str | None]:
     if f.kind == "locations":
         here = f.path.resolve()
         bundle = here.parent if here.stem == here.parent.name else None    # a bundle default covers its folder
-        return "location", [ph for ph, loc in schedule_of(char).items()
-                            if loc and (loc == here or (bundle and bundle in loc.parents))]
+        return "location", [ph for ph, locs in schedule_of(char).items()
+                            if any(loc == here or (bundle and bundle in loc.parents) for loc in locs)]
     if f.kind == "events":
         line, value = f.header.get("Present", (0, ""))
         for part in re.split(r",\s*", value):
@@ -554,8 +556,11 @@ def when_format(f: MdFile):
                     yield line, f"When tag '{term[:60]}': only a tag that applies to events can be running"
                 continue
             event = EVENT_LINK.match(term)
-            if event:                                 # [Event](events/x.md) — that event is running
-                if not (f.path.parent / unquote(event.group(1))).resolve().is_file():
+            plain = re.match(r"^\[[^\]]+\]\(([^)#\s]+\.md)\)$", term)
+            dest = (f.path.parent / unquote(plain.group(1))).resolve() if plain else None
+            if event or (dest and dest.is_file() and dest.is_relative_to(REPO_ROOT / "events")):
+                # [Event](…/x.md) — that event is running (any relative path that lands in events/)
+                if event and not (f.path.parent / unquote(event.group(1))).resolve().is_file():
                     yield line, f"When event '{term[:60]}' does not exist"
                 continue
             place = PLACE_LINK.match(term)
@@ -627,7 +632,10 @@ def started_events() -> set[Path]:
         for p in all_files():
             for _, t in parse(p).lines_with_numbers():
                 m = CHANGES_FIELD.match(t)
-                for part in (m.group(1).split("; ") if m else []):
+                parts = m.group(1).split("; ") if m else []
+                if not m and t.lstrip().startswith("- ") and "→" in t:      # a Resolve line: → [Event](…) — starts
+                    parts = [t.split("→", 1)[1]]
+                for part in parts:
                     ev = CHANGE_EVENT.match(part.strip())
                     if ev and ev.group("what") == "starts":
                         _starts.add((p.parent / unquote(ev.group("path"))).resolve())
@@ -849,6 +857,7 @@ GIVES_JOIN = ", "
 GIVES_TO = re.compile(r"^\*\(to: (.+?)\)\*\s*")      # up to the first ")*": targets hold links
 GIVES_HOLDER = re.compile(r"^holder of \[[^\]]+\]\(((?:\.\./)*cards/[a-z0-9-]+\.md)\)$")
 GIVES_AT = re.compile(r"^players at (.+)$")
+GIVES_LOCATED = re.compile(r"^located:(locations/[a-z0-9/-]+\.md)$")   # knowing the way to a place
 PLACE_LINK = re.compile(r"^\[[^\]]+\]\(((?:\.\./)*locations/[\w/-]+\.md)\)$")
 GIVES_TARGETS = ("everyone present", "every player")   # no tag: the acting (or noticing) player
 
@@ -1008,8 +1017,9 @@ RESOLVE_SET = re.compile(MECH_REF.format(n="") + r" = (?P<value>[A-Za-z0-9+-]+)$
 
 @rule("resolve-format", "events")
 def resolve_format(f: MdFile):
-    """Every ## Resolve line is `- [conditions] → [Mechanic](file.md#anchor) = value`: conditions are
-    zero or more `[Mechanic](file.md#anchor) is value` joined by ' and '. Only bool / int / enum
+    """Every ## Resolve line is `- [conditions] → [Mechanic](file.md#anchor) = value` or
+    `- [conditions] → [Event](file.md) — starts | ends` (as the event closes, it sets off another): conditions
+    are zero or more `[Mechanic](file.md#anchor) is value` joined by ' and '. Only bool / int / enum
     mechanics, legal values (an int also takes +N / -N). Nothing else: no prose, no comments."""
     s = f.section("Resolve")
     if s is None:
@@ -1027,7 +1037,14 @@ def resolve_format(f: MdFile):
             yield line, f"Resolve conditions: {gerr}"
             continue
         conds = [("NOT " if neg else "") + c for neg, c in bool_terms(tree)]
-        parts = [(c, RESOLVE_COND.match(c), "condition") for c in conds] + [(right.strip(), RESOLVE_SET.match(right.strip()), "assignment")]
+        parts = [(c, RESOLVE_COND.match(c), "condition") for c in conds]
+        ev = CHANGE_EVENT.match(right.strip())
+        if ev:                                         # → [Event](file.md) — starts | ends
+            dest = (f.path.parent / unquote(ev.group("path"))).resolve()
+            if not dest.is_file() or dest.relative_to(REPO_ROOT).parts[0] != "events":
+                yield line, f"Resolve '{right.strip()[:60]}': only an event can start or end"
+        else:
+            parts.append((right.strip(), RESOLVE_SET.match(right.strip()), "assignment"))
         for text, m, what in parts:
             if not m:
                 yield line, f"Resolve {what} '{text[:60]}' is not `[Mechanic](file.md#anchor) {'is' if what == 'condition' else '='} value`"
@@ -1247,7 +1264,8 @@ def _check_target(line: int, target: str, f: "MdFile"):
 def gives_format(f: MdFile):
     """Gives (action line or opportunity `→ Gives:`) is an optional target tag, `*(to: everyone present)*` or
     `*(to: every player)*` (none: the acting / noticing player), then a ', '-separated list of what they
-    now hold: clue links, hook: tokens (knowing of an entity), item and card links."""
+    now hold: clue links, hook: tokens (knowing of an entity), located: tokens (knowing the way to a place,
+    locations only, the file must exist), item and card links."""
     for line, t in f.lines_with_numbers():
         m = GIVES_FIELD.match(t) or OPP_GIVES.search(t)
         if not m:
@@ -1263,6 +1281,11 @@ def gives_format(f: MdFile):
         for part in value.split(GIVES_JOIN):
             part = part.strip()
             item = REQ_CARD.match(part)
+            loc = GIVES_LOCATED.match(part)
+            if loc:
+                if not (REPO_ROOT / loc.group(1)).is_file():
+                    yield line, f"Gives '{part[:60]}': no such location"
+                continue
             if REQ_CLUE.match(part) or PROMPTED_AWARE.match(part) or (
                     item and (item.group(2) in ("items", "cards") or (not item.group(2) and f.kind in ("items", "cards")))):
                 continue
@@ -1501,13 +1524,15 @@ def entity_titles():
             for p in (REPO_ROOT / k).rglob("*.md"):
                 if p.name.startswith("_") or p.name == "index.md":
                     continue
-                t = p.read_text(encoding="utf-8").splitlines()[0].lstrip("# ").strip()
+                text = p.read_text(encoding="utf-8")
+                t = text.splitlines()[0].lstrip("# ").strip()
                 if not t:
                     continue
+                animal = "- **Status:** Animal" in text      # an animal's title is no first-and-last name
                 names.add(t)
                 if k == "characters":
                     _character_names.add(t)
-                if k == "characters" and not t.startswith("%"):
+                if k == "characters" and not t.startswith("%") and not animal:
                     words = [w for w in re.sub(r"\(.*?\)", "", t).split() if w.lower() not in HONORIFICS]
                     if len(words) >= 2:
                         for w in (words[0], words[-1]):

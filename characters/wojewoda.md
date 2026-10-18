@@ -1,6 +1,6 @@
 # Zbigniew Gajda
 
-**Tags:** [@name](../tags/villager.md)
+**Tags:** [@name](../tags/villager.md), [@name](../tags/pgr-worker.md)
 
 ## Hook
 
@@ -56,6 +56,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 - **[wujas-misses-someone](../clues/clues.md#wujas-misses-someone)** — "My brother gets sentimental in his cups. Old sweethearts, old songs — drunks always weep for something. It means nothing."
 - **[wojewoda-disturbed-by-telegram](../clues/clues.md#wojewoda-disturbed-by-telegram)** — "Barnaś? That family left in '54. Someone's idea of a joke, or a crossed line. It's nothing."
 - **[@name](../locations/village-outskirts.md)** — "It sits above the flood line, on the plan and in fact. The state left us a concrete drain off the fields; when the water rises, the ditch carries it away. Let it come."
+- **[gap-is-blocked](../clues/clues.md#gap-is-blocked)** — "The gap? Water has never gone out that way in my time. The ditch takes it off the fields; that is what we dug it for."
 - **[ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing)** — "Nonsense. That ditch has carried every spring melt since we cut it. It drains. I've stood and watched it drain. You saw one muddy stretch downstream and lost your nerve."
 
 ## Mechanics
@@ -126,13 +127,20 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 - **Outcome:** He hears that someone means to list what can be carried out of the valley, and goes quiet working out why.
 - **Changes:** [Flood Awareness](#flood-awareness) — rises to suspicious
 
+### Tell him about the dead sheep
+<!-- Prompted by: [six-sheep-died-this-week](../clues/clues.md#six-sheep-died-this-week) -->
+- **Outcome:** Six in a week. His jaw sets; he takes his coat and goes down to the farm, shouting for the hunter and for his brother.
+- **Gives:** hook:events/wolf-attack/wolf-attack.md
+- **Changes:** [@name](../events/wolf-attack/wolf-attack.md) — starts
+
 ### Ask for the maps
-- **When:** [Tell with geological proof](#tell-with-geological-proof)
+- **When:** [Tell him the gap is blocked and the ditch does not work](#tell-him-the-gap-is-blocked-and-the-ditch-does-not-work)
 <!-- Prompted by: hook:items/topographic-maps.md -->
 - **Outcome:** He hands over the maps because saving the village matters more than hiding the old terrain.
 - **Gives:** [@name](../items/topographic-maps.md)
 
-### Tell with geological proof
+### Tell him the gap is blocked and the ditch does not work
+<!-- Prompted by: [gap-is-blocked](../clues/clues.md#gap-is-blocked), [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing) -->
 - **Outcome:** He believes it, loses his temper, then pulls himself back into command.
 - **Changes:** [Flood Awareness](#flood-awareness) — rises to convinced
 
@@ -143,14 +151,14 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 
 ### Convince him to reveal the flood
 - **Requires:** [Bond: Zbigniew Gajda](../cards/bond-wojewoda.md)
-- **When:** [Tell with geological proof](#tell-with-geological-proof)
+- **When:** [Tell him the gap is blocked and the ditch does not work](#tell-him-the-gap-is-blocked-and-the-ditch-does-not-work)
 - **Cost:** 1 time
 - **Outcome:** The players give him a version of disclosure he can lead: public alarm with a plan. He decides the village must be told by him.
 - **Gives:** hook:events/the-disclosure.md
 - **Changes:** [Compliance](#compliance) — true, he owns the disclosure and shields the players; [@name](../events/the-disclosure.md) — starts
 
 ### Force the disclosure — the ultimatum
-- **When:** [Tell with geological proof](#tell-with-geological-proof)
+- **When:** [Tell him the gap is blocked and the ditch does not work](#tell-him-the-gap-is-blocked-and-the-ditch-does-not-work)
 - **Cost:** 1 time
 - **Outcome:** They corner him with proof and a public threat. He agrees to disclose the flood on his own terms.
 - **Gives:** hook:events/the-disclosure.md

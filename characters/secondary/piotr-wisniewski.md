@@ -1,5 +1,7 @@
 # Piotr Wiśniewski
 
+**Tags:** [@name](../../tags/pgr-worker.md)
+
 ## Hook
 
 - [@first-name](piotr-wisniewski.md) [@surname](piotr-wisniewski.md), a young farmhand at the PGR farm.

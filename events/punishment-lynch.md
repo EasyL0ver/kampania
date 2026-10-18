@@ -33,11 +33,6 @@
 
 ## Opportunities
 
-### Arriving on the scene
-- **When:** [@name](../locations/new-village/new-village.md)
-- **Outcome:** [@hook](punishment-lynch.md)
-- **Gives:** *(to: players at [@name](../locations/new-village/new-village.md))* hook:events/punishment-lynch.md
-
 ### Office light reveals confrontation outcome
 - **Noticed by:** [Finesse](../cards/finesse.md)
 - **When:** setup:events/punishment-lynch.md

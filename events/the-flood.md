@@ -31,11 +31,6 @@
 
 ## Opportunities
 
-### Arriving on the scene
-- **When:** [@name](../locations/new-village/new-village.md)
-- **Outcome:** [@hook](the-flood.md)
-- **Gives:** *(to: players at [@name](../locations/new-village/new-village.md))* hook:events/the-flood.md
-
 ### Road failed from drainage and foundation
 - **Noticed by:** [Handiwork](../cards/handiwork.md)
 - **When:** setup:events/the-flood.md

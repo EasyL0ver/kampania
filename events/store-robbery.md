@@ -18,11 +18,6 @@ Word through the village the next morning that [@first-name](../characters/matro
 
 ## Opportunities
 
-### Arriving on the scene
-- **When:** [@name](../locations/new-village/new-village.md)
-- **Outcome:** [@hook](store-robbery.md)
-- **Gives:** *(to: players at [@name](../locations/new-village/new-village.md))* hook:events/store-robbery.md
-
 ### Penicillin missing and committee requests
 - **When:** [Robbery suspect](../characters/matrona.md#robbery-suspect) is committee
 - **Outcome:** The penicillin is gone and the till sits untouched, and the only ones who came to her asking for that drug were the committee. She says nothing and holds the players in a long, open stare.

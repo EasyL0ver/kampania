@@ -14,11 +14,6 @@
 
 ## Opportunities
 
-### Arriving on the scene
-- **When:** [@name](../../locations/old-village-ruins.md)
-- **Outcome:** [@hook](well-confrontation.md)
-- **Gives:** *(to: players at [@name](../../locations/old-village-ruins.md))* hook:events/well-confrontation/well-confrontation.md
-
 ### Rezeń is out at the well
 - **When:** setup:events/well-confrontation/well-confrontation.md
 - **Outcome:** [@surname](../../characters/butcher.md) is out here in the night, at the well.
@@ -45,7 +40,6 @@
 - **Noticed by:** [Violence](../../cards/violence.md)
 - **When:** setup:events/well-confrontation/well-confrontation.md
 - **Outcome:** he is calm, controlled, and ready to kill.
-- **Gives:** [`butcher-is-dangerous`](../../clues/clues.md#butcher-is-dangerous)
 
 ### Well compulsion and Butcher's appetite align
 - **Noticed by:** [Empathy](../../cards/empathy.md)

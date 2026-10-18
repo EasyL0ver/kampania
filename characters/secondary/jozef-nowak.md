@@ -1,5 +1,7 @@
 # Józef Nowak
 
+**Tags:** [@name](../../tags/pgr-worker.md)
+
 ## Hook
 
 - [@first-name](jozef-nowak.md) [@surname](jozef-nowak.md), a farmhand at the PGR farm.

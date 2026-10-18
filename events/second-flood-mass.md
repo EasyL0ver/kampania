@@ -21,11 +21,6 @@
 
 ## Opportunities
 
-### Arriving on the scene
-- **When:** [@name](../locations/new-village/new-village.md)
-- **Outcome:** [@hook](second-flood-mass.md)
-- **Gives:** *(to: players at [@name](../locations/new-village/new-village.md))* hook:events/second-flood-mass.md
-
 ### Sermon blames a bloody settlement
 - **Noticed by:** [Culture](../cards/culture.md) OR [History](../cards/history.md)
 - **When:** setup:events/second-flood-mass.md

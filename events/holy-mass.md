@@ -21,11 +21,6 @@ A Mass beginning in the church as the village gathers against the rising water.
 
 ## Opportunities
 
-### Arriving on the scene
-- **When:** [@name](../locations/new-village/new-village.md)
-- **Outcome:** [@hook](holy-mass.md)
-- **Gives:** *(to: players at [@name](../locations/new-village/new-village.md))* hook:events/holy-mass.md
-
 ### Ciotka's empty seat in church
 - **Noticed by:** [Devotion](../cards/devotion.md) AND [ciotka-is-devout](../clues/clues.md#ciotka-is-devout)
 - **When:** setup:events/holy-mass.md

@@ -130,10 +130,10 @@ He speaks in short flat sentences with long pauses[](#property-assessment). He g
 
 - [ ] **Treat [@first-name](barbara.md) and [@first-name](pawelek.md) as people, not sources** — ask after them, help the boy, notice the one clean thing in his life
 - [ ] **Meet his 1954 guilt without contempt** — when the inaction surfaces, don't call him a coward; let it stand
-- [ ] **Stand with him against [@surname](butcher.md)** — back him in a real moment instead of leaving him alone with it: defuse [@name](../events/hunters-cross-paths.md) in his favour, [Uplift him](#uplift-neighbour), or stand beside him at [the well](../events/well-confrontation/dudka-intervention.md)
+- [ ] **Stand with him against [@surname](butcher.md)** — back him in a real moment instead of leaving him alone with it: defuse [@name](../events/wolf-attack/hunters-cross-paths.md) in his favour, [Uplift him](#uplift-neighbour), or stand beside him at [the well](../events/well-confrontation/dudka-intervention.md)
 
 ## Grudge
 
-- [ ] **Side with [@surname](butcher.md) or humiliate him** — go on [@name](../events/hunt-with-rezen.md), laugh him down yourself, dismiss the threat he sees, or leave [@name](../events/hunters-cross-paths.md) to run so [@surname](butcher.md) wins it
+- [ ] **Side with [@surname](butcher.md) or humiliate him** — go on [@name](../events/wolf-attack/hunt-with-rezen/at-the-pasture.md), laugh him down yourself, dismiss the threat he sees, or leave [@name](../events/wolf-attack/hunters-cross-paths.md) to run so [@surname](butcher.md) wins it
 - [ ] **Endanger or use [@first-name](barbara.md) or [@first-name](pawelek.md)** — push [@first-name](barbara.md) carelessly, let the boy come to harm, or treat his one clean thing as leverage
 - [ ] **Treat him as a 1954 suspect** — pull rank, interrogate him as if he were complicit, corner the witness who already can't forgive his own inaction

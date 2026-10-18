@@ -47,13 +47,11 @@ The edge of [@name](new-village.md), nearest the forest path toward [@name](../o
 - **Noticed by:** [Violence](../../cards/violence.md)
 - **When:** setup:locations/new-village/butchers-house.md
 - **Outcome:** The dogs fear their owner and show signs of practiced cruelty.
-- **Gives:** [butcher-is-dangerous](../../clues/clues.md#butcher-is-dangerous)
 
 ### Station sees more use than livestock explains
 - **Noticed by:** [Medicine](../../cards/medicine.md)
 - **When:** setup:locations/new-village/butchers-house.md
 - **Outcome:** The station has seen more use than ordinary livestock work explains.
-- **Gives:** [butcher-is-dangerous](../../clues/clues.md#butcher-is-dangerous)
 
 ## Actions
 

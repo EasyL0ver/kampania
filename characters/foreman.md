@@ -1,6 +1,6 @@
 # Michał Pytlak
 
-**Tags:** [@name](../tags/villager.md)
+**Tags:** [@name](../tags/villager.md), [@name](../tags/pgr-worker.md)
 
 ## Hook
 

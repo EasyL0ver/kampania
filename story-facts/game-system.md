@@ -208,7 +208,7 @@ Who is "there" means two different things, kept apart:
 
 ## Resolve
 
-An event's `## Resolve` runs when the event ends (the next event starts), whether the players stayed, walked out, or never came. It never asks who was there. Player actions move mechanics during the event; Resolve only reads mechanics and sets mechanics, nothing else: no description, no clues.
+An event's `## Resolve` runs when the event ends (the next event starts), whether the players stayed, walked out, or never came. It never asks who was there. Player actions move mechanics during the event; Resolve only reads mechanics and sets mechanics, or starts and ends the events that follow (`→ [Event](file.md) — starts`), nothing else: no description, no clues.
 
 ```
 - [Backed](#backed) is false → [Trust Window](../characters/zofia.md#trust-window) = closed

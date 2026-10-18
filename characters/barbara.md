@@ -1,5 +1,7 @@
 # Barbara Kopacz
 
+**Tags:** [@name](../tags/pgr-worker.md)
+
 ## Hook
 
 [@first-name](barbara.md) [@surname](barbara.md), a PGR worker and young mother, lives with her family in the red-brick house.

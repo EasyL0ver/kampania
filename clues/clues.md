@@ -345,9 +345,6 @@ It was [@name](../characters/butcher.md) who put [@name](../characters/soldier.m
 ### butcher-is-after-hag
 [@name](../characters/butcher.md) is after [@name](../characters/hag.md): she is the one he means to kill.
 
-### butcher-is-dangerous
-Under pressure [@name](../characters/butcher.md) doesn't rage — he goes cold. Even breathing, flat eyes, a knife already turning in his hand, three dogs moving around him like his own limbs with no command spoken. He is a controlled, capable killer, and he has plainly stood ready to kill before.
-
 ---
 
 ## The Well
@@ -672,8 +669,6 @@ When drunk enough, [@name](../characters/wujas.md)'s fragments turn to longing. 
 ### wife-protects-husband
 [@name](../characters/wife.md) has realized [@name](../characters/wojewoda.md) took part in the 1954 killing. Rather than expose him, she has closed ranks with him. She has stopped investigating, shut the household, and will keep [@first-name](../characters/wojewoda.md) from confessing — even when he wants to.
 
-
-
 ---
 
 ## The Flood & The Committee
@@ -820,7 +815,37 @@ The villagers of [@name](../locations/new-village/new-village.md) have not been 
 The committee is taking a census: who lives in each household, names, ages, how long they have been here. Counting heads is part of the official remit.
 
 ### committee-accounts-movable-state-property
-The committee's remit also covers the state farm's movable property. The [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s livestock, machinery, and grain stores are socialist property that cannot be left to drown, so they must be inventoried and moved out before the flood. The buildings and fixed works are written off, but every movable state asset has to be accounted for.
+The committee's remit also covers the state farm's movable property. The [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s livestock, grain, and materials are socialist property that cannot be left to drown, so they must be inventoried and moved out before the flood. The buildings and fixed works are written off, but every movable state asset has to be accounted for.
+
+### committee-should-inventory-livestock
+The committee must inventory the farm's livestock: dairy cattle, pigs, sheep, draft horses and poultry.
+
+### pgr-has-cows
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md) keeps cows.
+
+### pgr-specializes-in-cows
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md) specializes in cows: they are the bulk of its livestock.
+
+### pgr-has-sheep
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md) keeps sheep.
+
+### pgr-has-chickens
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md) keeps chickens.
+
+### zofia-takes-care-of-chickens
+[@name](../characters/zofia.md) looks after the [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s chickens.
+
+### chickens-are-everywhere
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s chickens are spread all over the farm, not kept in one place.
+
+### chicken-population-is-tiny
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md) has only a handful of chickens.
+
+### committee-should-inventory-grain
+The committee must inventory the farm's grain and fodder: seed grain, feed grain, hay, potatoes and the grain stored in the concrete silo.
+
+### committee-should-inventory-materials
+The committee must inventory the farm's materials: timber, brick, nails and fertilizer.
 
 ---
 
@@ -849,11 +874,26 @@ The players must supply the truth by naming the dead and saying what happened to
 ### wolves-attacking-livestock
 Wolves have been killing [@name](../locations/new-village/pgr-farm/pgr-farm.md) livestock for weeks. The 1967 rains are driving them from higher ground. Multiple sheep dead. The attacks started before the committee arrived and are ongoing.
 
+### owczarz-hasnt-slept-for-days
+[@name](../characters/owczarz.md) has not slept for days. He stays awake over the flock every night.
+
+### hag-cursed-wolves
+The woman in the forest has cursed the wolves onto the flock: she sends them.
+
+### six-sheep-died-this-week
+Six of the [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s sheep have died on the pasture this week.
+
+### owczarz-asks-for-help
+[@name](../characters/owczarz.md) wants the sołtys to send men and a rifle up to the pasture to watch the flock at night.
+
 ### dudka-failed-wolf-hunt
 [@name](../characters/neighbour.md) has been hunting the wolves for weeks — he's the village hunter, licensed rifle, knows the forest. He's failed. Can't close on the pack. One man in vast terrain isn't enough.
 
-### rezen-hunts-wolves
-[@name](../characters/wojewoda.md) authorized [@name](../characters/butcher.md) to deal with the wolves — sending the request through [@name](../characters/wujas.md). This brought [@name](../characters/butcher.md) out of 13 years of isolation and into the village.
+### wolves-are-driven-by-the-rain
+The wolves are an ordinary pack: the 1967 rains drove them down off the high ground, and they are hungry.
+
+### dudka-thinks-hag-is-harmless
+[@name](../characters/neighbour.md) thinks the woman in the forest is a harmless old Lemko woman, and wants her left alone.
 
 ### dudka-despises-rezen
 [@name](../characters/neighbour.md) openly hates [@name](../characters/butcher.md). Calls him evil to anyone who listens. The anger is visceral — not just about the wolf authorization. Something older.

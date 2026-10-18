@@ -22,11 +22,6 @@
 
 ## Opportunities
 
-### Arriving on the scene
-- **When:** [@name](../locations/new-village/the-store.md)
-- **Outcome:** [@hook](wojewoda-confronts-butcher.md)
-- **Gives:** *(to: players at [@name](../locations/new-village/the-store.md))* hook:events/wojewoda-confronts-butcher.md
-
 ### Butcher ignores the sołtys order
 - **Noticed by:** [Finesse](../cards/finesse.md)
 - **When:** setup:events/wojewoda-confronts-butcher.md

@@ -1,5 +1,7 @@
 # Danuta Kowalik
 
+**Tags:** [@name](../../tags/pgr-worker.md)
+
 ## Hook
 
 - [@first-name](clerk.md) [@surname](clerk.md), the bookkeeper at the [@name](../../locations/new-village/pgr-farm/pgr-office.md).

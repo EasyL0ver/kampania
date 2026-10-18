@@ -102,8 +102,9 @@
      stayed, walked out, or never came. It never asks who was there: player actions
      moved the mechanics during the event, Resolve only reads them. Start values are
      the "nobody intervened" outcome.
-     Pure state, NOTHING ELSE: no description, no Gives, no comment. One line each:
+     State and what follows, NOTHING ELSE: no description, no Gives, no comment. One line each:
        - [conditions] → [Mechanic](file.md#anchor) = value
+       - [conditions] → [Event](file.md) — starts | ends   (as this event closes, it sets off another)
      conditions: zero or more `[Mechanic](file.md#anchor) is value`, combined with AND / OR / NOT and parentheses;
        none means the line always applies.
      Only bool / int / enum mechanics (never rule or list); values legal for the type;

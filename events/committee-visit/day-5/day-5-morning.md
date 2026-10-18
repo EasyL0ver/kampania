@@ -30,6 +30,16 @@ The morning of [@name](day-5.md) begins.[](#funeral-mass-begins)[](#foremans-flo
 - **Outcome:** [@name](../../store-robbery.md) begins.
 - **Changes:** [@name](../../store-robbery.md) — starts; [Cabinet](../../../locations/new-village/the-store.md#cabinet) — discovered
 
+### A ruckus at the store
+- **When:** [@name](../../../locations/new-village/new-village.md) AND [@name](../../store-robbery.md)
+- **Outcome:** [@hook](../../store-robbery.md)
+- **Gives:** *(to: players at [@name](../../../locations/new-village/new-village.md))* hook:events/store-robbery.md
+
+### Bells for the funeral
+- **When:** [@name](../../../locations/new-village/new-village.md) AND [@name](../../funeral-mass.md)
+- **Outcome:** [@hook](../../funeral-mass.md)
+- **Gives:** *(to: players at [@name](../../../locations/new-village/new-village.md))* hook:events/funeral-mass.md
+
 ### Afternoon comes
 - **When:** [Phase cards](../committee-visit.md#phase-cards) is 0
 - **Outcome:** The morning is spent.

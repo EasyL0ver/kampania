@@ -18,11 +18,6 @@ A funeral Mass beginning in the church, the coffin set before the congregation.
 
 ## Opportunities
 
-### Arriving on the scene
-- **When:** [@name](../locations/new-village/new-village.md)
-- **Outcome:** [@hook](funeral-mass.md)
-- **Gives:** *(to: players at [@name](../locations/new-village/new-village.md))* hook:events/funeral-mass.md
-
 ### Sermon accuses the valley of guilt
 - **Noticed by:** [Devotion](../cards/devotion.md)
 - **When:** setup:events/funeral-mass.md

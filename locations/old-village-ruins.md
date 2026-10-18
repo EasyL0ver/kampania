@@ -58,7 +58,7 @@
 - **Gives:** [someone-tends-the-well-regularly](../clues/clues.md#someone-tends-the-well-regularly)
 
 ### Investigate the area around the well
-- **When:** [Stay with him if he makes a kill](../events/hunt-with-rezen.md#stay-with-him-if-he-makes-a-kill)
+- **When:** [Follow him with the carcass](../events/wolf-attack/hunt-with-rezen/the-trail.md#follow-him-with-the-carcass)
 - **Cost:** 1 time
 - **Outcome:** Minor blood stains mark the stone around the well rim.
 - **Gives:** [blood-stains-by-the-well](../clues/clues.md#blood-stains-by-the-well)

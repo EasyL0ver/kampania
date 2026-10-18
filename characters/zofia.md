@@ -1,5 +1,7 @@
 # Zofia Pytlak
 
+**Tags:** [@name](../tags/pgr-worker.md)
+
 ## Hook
 
 [@first-name](zofia.md) [@surname](zofia.md), the warm, well-liked PGR cook.
@@ -48,6 +50,11 @@ Her carrying voice is warm and practical.[](#voice-succeeds-where-force-and-reas
 - **Outcome:** Force and reason will not reach [@first-name](foreman.md) at the flood line; her voice can.
 
 ## Actions
+
+### Ask her how many chickens there are
+<!-- Prompted by: [zofia-takes-care-of-chickens](../clues/clues.md#zofia-takes-care-of-chickens) -->
+- **Outcome:** She shrugs. She has never counted them. "Twenty? Around twenty. Enough for the pot and the eggs."
+- **Gives:** [`chicken-population-is-tiny`](../clues/clues.md#chicken-population-is-tiny)
 
 ### Census interview
 <!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->

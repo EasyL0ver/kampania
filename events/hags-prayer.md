@@ -16,11 +16,6 @@
 
 ## Opportunities
 
-### Arriving on the scene
-- **When:** [@name](../locations/new-village/new-village.md)
-- **Outcome:** [@hook](hags-prayer.md)
-- **Gives:** *(to: players at [@name](../locations/new-village/new-village.md))* hook:events/hags-prayer.md
-
 ### Woman singing prayers in forest
 - **When:** setup:events/hags-prayer.md
 - **Outcome:** being here at night, the players hear it themselves: a woman singing prayers out in the forest.

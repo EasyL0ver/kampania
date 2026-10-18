@@ -42,7 +42,7 @@
 ## Actions
 
 ### Look through the forms
-- **Outcome:** Two of them matter: the census register, ruled for households and their dead, and the farm's stock-take form, the farm's own figures on one side and a blank column for yours.
+- **Outcome:** Two of them matter: the census register, ruled for households and their dead, and the farm's stock-take form, every line of it blank.
 - **Gives:** [@name](../../items/census.md), [@name](../../items/pgr-inventory.md)
 
 ### Ask him for a cigarette

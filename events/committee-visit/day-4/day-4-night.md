@@ -29,6 +29,11 @@ The night of [@name](day-4.md) begins.[](#well-confrontation-begins)[](#wujas-di
 - **Outcome:** [@hook](../../wujas-digs-up-the-cache.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/ciotkas-house/ciotkas-house.md))* hook:events/wujas-digs-up-the-cache.md
 
+### Chanting at the well
+- **When:** [@name](../../../locations/old-village-ruins.md) AND [@name](../../well-confrontation/well-confrontation.md)
+- **Outcome:** [@hook](../../well-confrontation/well-confrontation.md)
+- **Gives:** *(to: players at [@name](../../../locations/old-village-ruins.md))* hook:events/well-confrontation/well-confrontation.md
+
 ### Morning comes
 - **When:** [Phase cards](../committee-visit.md#phase-cards) is 0
 - **Outcome:** The night is spent.

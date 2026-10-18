@@ -29,11 +29,6 @@
 
 ## Opportunities
 
-### Arriving on the scene
-- **When:** [@name](../locations/new-village/new-village.md)
-- **Outcome:** [@hook](the-seal-break.md)
-- **Gives:** *(to: players at [@name](../locations/new-village/new-village.md))* hook:events/the-seal-break.md
-
 ### Priest knowingly breaks the seal
 - **Noticed by:** [Devotion](../cards/devotion.md)
 - **When:** setup:events/the-seal-break.md

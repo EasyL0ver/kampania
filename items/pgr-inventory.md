@@ -2,57 +2,62 @@
 
 ## Hook
 
-A blank state stock-take form: ruled columns headed "declared" and "counted," for livestock, grain, machinery, fuel, and stores.
+A blank state stock-take form for the farm's livestock, grain, and materials.
 
 ## Setup
 
-An empty remanent form the committee must complete before the farm can be evacuated. Fixed works are out of scope: the barns, the silo shell, the ditch, all written off to the water. Everything movable has to be found, counted, and signed for. The farm's own carried-forward figures are printed in the left column; the right column is blank for the committee's count. Under socialist accounting the two are supposed to balance. The work is walking the farm and filling every line.
+An empty remanent form the committee must complete before the farm can be evacuated. Fixed works are out of scope: the barns, the silo shell, the ditch, all written off to the water. Everything movable has to be found, counted, and signed for.[](#what-the-form-asks-for) Every line is blank: the figures can be taken from the farm's own books, counted on the ground, or both. The work is walking the farm and filling every line.
 
 ## Content
 
 ```
 PGR INVENTORY — MOVABLE PROPERTY (REMANENT) 1967
 State Agricultural Farm — for evacuation
-Declared by: Pytlak, Michał (Foreman)          Counted by: ____________
+Counted by: ____________
 
-                                     DECLARED      COUNTED
+                                     COUNT
 LIVESTOCK
-  Dairy cattle                          24         ________
-  Pigs                                  41         ________
-  Sheep                                 78         ________
-  Draft horses                           6         ________
-  Poultry                              120         ________
+  Dairy cattle                       ________
+  Pigs                               ________
+  Sheep                              ________
+  Draft horses                       ________
+  Poultry                            ________
 
 GRAIN & FODDER
-  Seed grain                            70 q       ________
-  Feed grain                            55 q       ________
-  Hay                                   32 t       ________
-  Potatoes                              40 t       ________
-  Grain silo (concrete), stored        120 q       ________
+  Seed grain                         ________
+  Feed grain                         ________
+  Hay                                ________
+  Potatoes                           ________
+  Grain silo (concrete), stored      ________
 
-MACHINERY & EQUIPMENT
-  Tractor, Ursus C-45                    1         ________
-  Plough / harrow / seed drill           1 ea      ________
-  Threshing machine                      1         ________
-  Carts / wagons                         3         ________
-  Sleighs                                2         ________
-  Harness sets                           6         ________
-
-FUEL & STORES
-  Diesel / petrol                      drums       ________
-  Mineral fertilizer, lime             sacks       ________
-  Veterinary medicines                 cabinet     ________
-  Timber, brick, nails                 yard        ________
-  Hand tools, scythes                  shed        ________
-  Dairy gear — milk cans, separator    dairy       ________
-
-FARM OUTPUT (awaiting dispatch)
-  Milk (daily), wool, hides            —           ________
-
-OFFICE
-  Typewriter, furniture, petty-cash box —          ________
+MATERIALS
+  Timber                             ________
+  Brick                              ________
+  Nails                              ________
+  Fertilizer                         ________
 ```
+
+## Mechanics
+
+### Inventory
+
+- **Type:** list
+- One entry per line of the form, made by the action that counts or totals it.
+- An entry records the stock and the figure written in, or that the line was left blank.
 
 ## Opportunities
 
+### What the form asks for
+- **When:** setup:items/pgr-inventory.md
+- **Outcome:** The form wants every movable thing on the farm accounted for, section by section: livestock, grain and fodder, and materials.
+- **Gives:** [`committee-should-inventory-livestock`](../clues/clues.md#committee-should-inventory-livestock), [`committee-should-inventory-grain`](../clues/clues.md#committee-should-inventory-grain), [`committee-should-inventory-materials`](../clues/clues.md#committee-should-inventory-materials)
+
 ## Actions
+
+### Sum up the chickens
+- **Requires:** [@name](pgr-inventory.md)
+- **When:** [Chickens counted](../locations/new-village/pgr-farm/pgr-farm.md#chickens-counted) is true AND [Chickens counted](../locations/new-village/pgr-farm/cow-barn.md#chickens-counted) is true AND [Chickens counted](../locations/new-village/pgr-farm/grain-silo.md#chickens-counted) is true AND [Chickens counted](../locations/new-village/pgr-farm/warehouse.md#chickens-counted) is true AND [Chickens counted](../locations/new-village/pgr-farm/pgr-office.md#chickens-counted) is true AND [Chickens counted](../locations/new-village/pgr-farm/pgr-quarters.md#chickens-counted) is true
+<!-- Prompted by: [chickens-are-everywhere](../clues/clues.md#chickens-are-everywhere) -->
+- **Outcome:** You add up the tallies from every corner of the farm and write the total in its line: twenty-two.
+- **Gives:** [`chicken-population-is-tiny`](../clues/clues.md#chicken-population-is-tiny)
+- **Changes:** [Inventory](#inventory) — chickens: twenty-two

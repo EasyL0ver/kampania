@@ -1,5 +1,7 @@
 # PGR Office
 
+**Tags:** [@name](../../../tags/pgr-location.md)
+
 ## Hook
 
 [@name](../../../characters/wojewoda.md)'s office in the PGR main building.
@@ -13,9 +15,13 @@
 - The phone is the only phone in the village.[](#pick-up-the-phone)
 - The maps show topography, rivers, old boundaries, and[](#map-shows-ridge-channel-and-misplaced-bridge)[](#maps-mark-the-village-of-hołubie) [@name](../../old-village.md).
 - The ledger is on the desk during census work.
-- The shelf holds farm records, including construction and land-drainage (melioracja) files.
+- The shelf holds farm records, including construction and land-drainage (melioracja) files.[](#a-hen-about)
 
 ## Opportunities
+
+### A hen about
+- **When:** setup:locations/new-village/pgr-farm/pgr-office.md AND [@present](../../../characters/secondary/chickens.md)
+- **Outcome:** A hen clucks somewhere under the window.
 
 ### Maps mark the village of Hołubie
 - **Noticed by:** [Geology](../../../cards/geology.md)

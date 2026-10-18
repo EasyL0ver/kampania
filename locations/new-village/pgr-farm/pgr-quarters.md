@@ -1,5 +1,7 @@
 # PGR Workers' Quarters
 
+**Tags:** [@name](../../../tags/pgr-location.md)
+
 ## Hook
 
 Behind the PGR main building: the stołówka and barracks.
@@ -13,9 +15,13 @@ Behind the PGR main building: the stołówka and barracks.
 - The barracks were built for seasonal workers.
 - The committee sleeps here if [@title](../../../characters/officer.md) [@surname](../../../characters/officer.md) arranged it.
 - [@first-name](../../../characters/zofia.md) runs the kitchen efficiently.[](#zofia-talks-while-cooking)
-- [@first-name](../../../characters/zofia.md) sees workers, visitors, meal patterns, and village interactions.
+- [@first-name](../../../characters/zofia.md) sees workers, visitors, meal patterns, and village interactions.[](#a-hen-about)
 
 ## Opportunities
+
+### A hen about
+- **When:** setup:locations/new-village/pgr-farm/pgr-quarters.md AND [@present](../../../characters/secondary/chickens.md)
+- **Outcome:** A hen picks at crumbs under the benches.
 
 ### Zofia talks while cooking
 - **Noticed by:** [Empathy](../../../cards/empathy.md)

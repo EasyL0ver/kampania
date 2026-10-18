@@ -19,6 +19,11 @@ The night of [@name](day-5.md) begins.[](#rezen-takes-the-body-begins)
 - **Outcome:** [@name](../../rezen-takes-the-body.md) begins.
 - **Changes:** [@name](../../rezen-takes-the-body.md) — starts
 
+### Something taken in the night
+- **When:** [@name](../../../locations/new-village/new-village.md) AND [@name](../../rezen-takes-the-body.md)
+- **Outcome:** [@hook](../../rezen-takes-the-body.md)
+- **Gives:** *(to: players at [@name](../../../locations/new-village/new-village.md))* hook:events/rezen-takes-the-body.md
+
 ### Morning comes
 - **When:** [Phase cards](../committee-visit.md#phase-cards) is 0
 - **Outcome:** The night is spent.
