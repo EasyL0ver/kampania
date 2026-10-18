@@ -1231,6 +1231,8 @@
 "when": "setup:locations/pgr-pasture.md",
 "outcome": "The wool on the wire, the flattened patch and the drag into the trees: wolves have been taking sheep from this pasture.",
 "gives": "wolves-attacking-livestock",
+"cost": "2 time",
+"changes": "Inventory — sheep: seventy-one",
 "setup": "Open grazing on the slope beyond the farm buildings, fenced with posts and wire patched more than mended; tufts of grey wool hang on the barbs. The grass runs up to the forest. Near the trees it is flattened in a dark, wide patch, and something was dragged from it into the undergrowth. The flock grazes bunched tight in the middle of the pasture, every head turning at once when a bird lifts from the trees.",
 "hook": "The state farm's pasture on the slopes outside the farm."
 },
@@ -1241,6 +1243,7 @@
 "outcome": "This rank patch of thick volunteer cereal and sour, caked ground reads plainly to a country eye: a large quantity of grain was tipped out here and left to rot, not spread as feed or sown as seed.",
 "gives": "grain-has-been-dumped",
 "cost": "1 time",
+"requires": "Measuring Tape OR The Geologist's Kit",
 "setup": "The ditch begins at a concrete head by the PGR fields, which Zbigniew Gajda calls the village's flood drain. The concrete lining is sound but runs only a short stretch; past it the channel bends away toward the low ground and out of sight. From the head alone it reads as a fine concrete channel of ample capacity. Past the concrete it degrades to a shallow, unlined dugout for most of its length. Nothing at the head announces this; only walking the full length reveals it. The channel runs a long way, fields to low ground, over rough and boggy going. Where the dugout peters out into the low ground, one broad patch grows rank and wrong: coarse cereal sprouting thick and volunteer, the wet soil beneath it caked and sour.",
 "hook": "The ditch running from the PGR fields down to the low ground east of Testowo."
 },
@@ -1451,7 +1454,10 @@
 "tags": "PGR Location",
 "when": "setup:locations/new-village/pgr-farm/grain-silo.md AND Chickens is here",
 "outcome": "A hen sits on the bottom rung of the ladder.",
-"setup": "A tall concrete silo with an iron ladder up its side to a hatch at the top. One side carries a patch of newer, cruder concrete. Inside, the stored grain lies in a deep pale mass, and the only way to it is down from the hatch..",
+"requires": "(Measuring Tape OR The Geologist's Kit) AND (Bureaucracy OR Handiwork OR Geology OR City manners)",
+"cost": "2 time + 1 composure",
+"changes": "Inventory — grain in the silo: a hundred and twenty quintals",
+"setup": "A tall concrete silo with an iron ladder up its side to a hatch at the top. Beside the hatch, painted on the concrete in faded white, is the silo's height: 12 m. One side carries a patch of newer, cruder concrete. Inside, the stored grain lies in a deep pale mass, and the only way to it is down from the hatch..",
 "hook": "The PGR farm's concrete grain silo."
 },
 "locations/new-village/pgr-farm/henhouse.md": {
@@ -1501,7 +1507,11 @@
 "tags": "PGR Location",
 "when": "setup:locations/new-village/pgr-farm/warehouse.md AND Chickens is here",
 "outcome": "Something shifts among the fertilizer sacks: a hen.",
-"setup": "A low timber storehouse with a padlocked double door. Inside, on the earth floor: stacked timber, sacks of fertilizer, kegs of nails, and a few rows of leftover red bricks..",
+"noticed-by": "Medicine",
+"gives": "pgr-has-poisonous-fertilizer",
+"cost": "2 time",
+"changes": "Inventory — timber 14 m³, nails 6 kegs, red brick 380, fertilizer 22 sacks",
+"setup": "A low timber storehouse with a wide double door. Inside, on the earth floor: stacked timber, kegs of nails, a few rows of leftover red bricks, and a stack of paper fertilizer sacks, some of them split..",
 "hook": "The PGR farm's warehouse."
 },
 "locations/new-village/the-church/the-church.md": {
@@ -2205,7 +2215,7 @@
 "type": "enum (standoff | separated)",
 "per": "world",
 "start": "standoff",
-"setup": "The wolves stand in the open below the hunting stand, heads low, unaware of the rifle in the slot above them. Then three dogs burst out of the trees, giving tongue, and the pack is gone into the forest before the shot goes off into nothing. Rezeń strolls out after his dogs into the middle of the clearing and looks up at the stand. The rifle in the slot comes round and settles on him. \"Weeks,\" Dudka says from above. \"Weeks I have sat up here for them.\". Rezeń does not move out of the line. He spreads his hands, smiling up at the barrel. \"And I thought I was doing you a favour.\". \"I know what you are.\". \"Then shoot.\" He waits, the dogs settling around his legs. \"No? Then come down.\".",
+"setup": "The wolves stand in the open below the hunting stand, heads low, unaware of the rifle in the slot above them. Then three dogs burst out of the trees, giving tongue, the rifle cracks, and the pack is gone into the forest. Rezeń strolls out after his dogs into the middle of the clearing and looks up at the stand. The rifle in the slot comes round and settles on him. \"Weeks,\" Dudka says from above. \"Weeks I have sat up here for them.\". Rezeń does not move out of the line. He spreads his hands, smiling up at the barrel. \"And I thought I was doing you a favour.\". \"I know what you are.\". \"Then shoot.\" He waits, the dogs settling around his legs. \"No? Then come down.\".",
 "hook": "A rifle-shot and dogs giving tongue in a clearing below the hunting stand."
 },
 "events/wolf-attack/wolf-attack.md": {
@@ -2647,12 +2657,15 @@
 "location": "The Hunting Stand",
 "present": "Ryszard Dudka",
 "when": "setup:events/wolf-attack/hunt-with-dudka/the-stand.md",
-"outcome": "This is where he waits for them: his own stand, and now you know the way to it.",
-"gives": "*(to: everyone present)* hook:locations/hunting-stand.md, located:locations/hunting-stand.md",
-"noticed-by": "Empathy",
+"outcome": "Dudka smokes a pipe, even here.",
+"gives": "*(to: everyone present)* neighbour-smokes-pipe",
+"noticed-by": "Chainsmoker",
+"changes": "Pipe out — true",
 "cost": "1 time",
-"changes": "The Stand — ends; The Hunters Cross Paths — starts",
-"setup": "They wait at the shooting slot, a long, cold wait. The name Rezeń brings the anger up in him, older and more personal than any failed hunt. After a long time someone moves along the game path below: an old woman with a bundle, walking slowly, not looking up. Dudka watches her pass without moving. She is gone into the trees, and the clearing is empty again..",
+"type": "bool",
+"per": "world",
+"start": "false",
+"setup": "They wait at the shooting slot, a long, cold wait. Dudka fills his pipe and lights it, and the smoke drifts out of the slot and down across the clearing on the breeze. The name Rezeń brings the anger up in him, older and more personal than any failed hunt. After a long time someone moves along the game path below: an old woman with a bundle, walking slowly, not looking up. Dudka watches her pass without moving. She is gone into the trees, and the clearing is empty again..",
 "hook": "Someone up in the hunting stand at the edge of the clearing."
 },
 "events/wolf-attack/hunt-with-rezen/at-the-pasture.md": {
@@ -2863,6 +2876,15 @@
 "setup": "One cigarette, never lit, the paper soft and creased from being handled. It was tucked away among Edek Barnaś's few things like a prize. He does not smoke..",
 "hook": "A single unsmoked cigarette that Edek keeps among his things."
 },
+"items/herd-register.md": {
+"name": "Yearly Herd Register",
+"noticed-by": "Bureaucracy",
+"when": "setup:items/herd-register.md",
+"outcome": "A yearly register on its last month: it will still carry last winter's dead and know nothing of this year's calves. Its figure is not the herd.",
+"gives": "herd-register-not-up-to-date",
+"setup": "A cloth-bound register with a line for every cow in the herd: ear-tag number, name, date of birth, calvings. Some lines are struck through for cows sold or dead..",
+"hook": "The PGR farm's yearly herd register."
+},
 "items/jar-of-pills.md": {
 "name": "Jar of Pills",
 "noticed-by": "Medicine",
@@ -2904,6 +2926,11 @@
 "gives": "mazur-and-widow-are-old-settlers, old-village-was-lemko, old-village-resettled-during-vistula, old-village-was-burned, soldier-took-best-land, barnas-disliked, soldier-never-married, barnas-family-disappeared, barnas-family-left-edek-behind, mazur-doubted-the-departure, pgr-established-in-56, wojewoda-is-a-party-member, foreman-sent-mazur-in-his-place",
 "setup": "A thick notebook bound in faded cloth, swollen and soft at the corners from years of handling. Most of it is the plain ledger of a settler's life: what was sown and when, prices at market, a cow calved, a roof mended, hard winters marked. The hand is careful and unhurried. Spread through it, a handful of longer entries step back from the weather and the prices to set down what was happening to the valley itself.",
 "hook": "A worn cloth-bound notebook, its pages close-written in a careful farmer's hand, years of weather, work, and prices."
+},
+"items/measuring-tape.md": {
+"name": "Measuring Tape",
+"setup": "A long linen measuring tape wound into a leather case, marked in centimetres, with a brass ring at the free end.",
+"hook": "A surveyor's measuring tape."
 },
 "items/pack-of-cigarettes.md": {
 "name": "Pack of Cigarettes",
@@ -3002,6 +3029,11 @@
 "name": "Sausage",
 "setup": "A ring of smoked sausage wrapped in paper, greasy and strong-smelling.",
 "hook": "A ring of smoked sausage."
+},
+"items/shearing-price-list.md": {
+"name": "Shearing Price List",
+"setup": "A typed price list for a travelling shearing team, made out to a neighbouring state farm down the valley, folded and soft at the creases.",
+"hook": "A travelling shearer's price list from another state farm."
 },
 "items/soltys-pistol.md": {
 "name": "Sołtys's Pistol",

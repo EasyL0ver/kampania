@@ -32,3 +32,8 @@ The people who work on the state farm.
 <!-- Prompted by: [pgr-has-chickens](../clues/clues.md#pgr-has-chickens) -->
 - **Outcome:** The chickens are [@first-name](../characters/zofia.md)'s: she feeds them from the kitchen scraps and knows every one of them.
 - **Gives:** [`zofia-takes-care-of-chickens`](../clues/clues.md#zofia-takes-care-of-chickens), hook:characters/zofia.md
+
+### Ask where the materials are kept
+<!-- Prompted by: [committee-should-inventory-materials](../clues/clues.md#committee-should-inventory-materials) -->
+- **Outcome:** In the [@name](../locations/new-village/pgr-farm/warehouse.md), they tell you, the long timber shed past the barns, and they point it out.
+- **Gives:** hook:locations/new-village/pgr-farm/warehouse.md, located:locations/new-village/pgr-farm/warehouse.md

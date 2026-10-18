@@ -77,9 +77,13 @@ Date        Payee / Description                                    Amount
 03.08.1965  Transport cooperative Sanok — fuel delivery              480 zł
 10.12.1965  Spółdzielnia Lesko — kitchen equipment                  160 zł
 
+                         — 1966 —
+24.05.1966  Shearer, travelling — spring shearing, PGR flock        328 zł
+
                          — 1967 —
 19.01.1967  Spółdzielnia Lesko — winter feed, hay                  1,100 zł
 04.04.1967  Apteka Lesko — veterinary medicines                     230 zł
+22.05.1967  Shearer, travelling — spring shearing, PGR flock        312 zł
 12.06.1967  Rzepka, Emil — whitewashing, tool shed                  320 zł
 30.06.1967  Transport cooperative Sanok — fuel delivery              510 zł
 ```

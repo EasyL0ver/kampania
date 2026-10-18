@@ -826,6 +826,9 @@ The [@name](../locations/new-village/pgr-farm/pgr-farm.md) keeps cows.
 ### pgr-specializes-in-cows
 The [@name](../locations/new-village/pgr-farm/pgr-farm.md) specializes in cows: they are the bulk of its livestock.
 
+### herd-register-not-up-to-date
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s herd register is tallied once a year, and the last tally is nearly a year old: the dead since then are not struck off and this year's calves were never entered.
+
 ### pgr-has-sheep
 The [@name](../locations/new-village/pgr-farm/pgr-farm.md) keeps sheep.
 
@@ -834,6 +837,12 @@ The [@name](../locations/new-village/pgr-farm/pgr-farm.md) keeps chickens.
 
 ### zofia-takes-care-of-chickens
 [@name](../characters/zofia.md) looks after the [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s chickens.
+
+### pgr-has-poisonous-fertilizer
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md) keeps sacks of calcium cyanamide fertilizer, which is poisonous if swallowed.
+
+### pgr-has-red-bricks
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md) keeps a stock of red bricks.
 
 ### chickens-are-everywhere
 The [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s chickens are spread all over the farm, not kept in one place.

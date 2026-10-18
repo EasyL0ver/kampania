@@ -63,6 +63,10 @@
 - **Outcome:** [@first-name](../../characters/secondary/halina-zajac.md) sells a coil of field line off the shelf, mixed lengths knotted serviceable, long enough for the ridge climb.
 - **Gives:** [@name](../../items/rope.md)
 
+### Buy a measuring tape
+- **Outcome:** [@first-name](../../characters/secondary/halina-zajac.md) finds a long linen tape in a leather case at the back of a drawer and blows the dust off it.
+- **Gives:** [@name](../../items/measuring-tape.md)
+
 ### Buy sausage
 - **Outcome:** [@first-name](../../characters/secondary/halina-zajac.md) cuts a ring of smoked sausage off the hook and wraps it in paper.
 - **Gives:** [@name](../../items/sausage.md)
