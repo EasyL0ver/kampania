@@ -94,6 +94,12 @@ The farm's shepherd. He lives up on the pasture with the flock through the summe
 - **Outcome:** You walk him through it plainly: the flooded high ground, the game gone, a hungry pack following the flock down. He does not believe it all, but the plain sense of it lets his shoulders come down.
 - **Changes:** [Agitated](#agitated) — false
 
+### Ask him what a fleece weighs
+- **When:** [Agitated](#agitated) is false
+<!-- Prompted by: hook:items/pgr-income.md -->
+- **Outcome:** He does not have to think: two kilos off a poor one, two and a half off most, three off a good ewe.
+- **Gives:** [`fleece-weighs-2-to-3-kg`](../clues/clues.md#fleece-weighs-2-to-3-kg)
+
 ### Census interview
 - **When:** [Agitated](#agitated) is false
 <!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->

@@ -9,6 +9,7 @@ The edge of [@name](new-village.md), nearest the forest path toward [@name](../o
 - **Exterior:** Dark timber house with no paint and no curtains.
 - **Exterior:** Butchering station behind the house.
 - **Exterior:** The station has a scarred block, iron hooks, and a black-stained drainage channel.
+- **Exterior:** A sack of lime stands by the slaughter station; the block and the drainage channel are washed white with it.[](#lime-at-the-slaughter-station)
 - **Dogs:** Three dogs remain; villagers remember five.
 - **Dogs:** The dogs growl low instead of barking.
 - **Dogs:** One dog limps from an old bad heal.
@@ -30,6 +31,11 @@ The edge of [@name](new-village.md), nearest the forest path toward [@name](../o
 - **Interior:** A drawer in the bench-bed frame contains girl's undergarments taken from [@name](../../characters/jagna.md).
 
 ## Opportunities
+
+### Lime at the slaughter station
+- **When:** setup:locations/new-village/butchers-house.md
+- **Outcome:** He keeps a sack of lime at the slaughter station, and washes the block and channel with it.
+- **Gives:** [`butcher-keeps-lime`](../../clues/clues.md#butcher-keeps-lime)
 
 ### Forest path leads to Hołubie
 - **Noticed by:** [Survival](../../cards/survival.md)

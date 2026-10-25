@@ -18,16 +18,10 @@ Counted by: ____________
                                      COUNT
 LIVESTOCK
   Dairy cattle                       ________
-  Pigs                               ________
   Sheep                              ________
-  Draft horses                       ________
   Poultry                            ________
 
-GRAIN & FODDER
-  Seed grain                         ________
-  Feed grain                         ________
-  Hay                                ________
-  Potatoes                           ________
+GRAIN
   Grain silo (concrete), stored      ________
 
 MATERIALS
@@ -49,7 +43,7 @@ MATERIALS
 
 ### What the form asks for
 - **When:** setup:items/pgr-inventory.md
-- **Outcome:** The form wants every movable thing on the farm accounted for, section by section: livestock, grain and fodder, and materials.
+- **Outcome:** The form wants every movable thing on the farm accounted for, section by section: livestock, grain, and materials.
 - **Gives:** [`committee-should-inventory-livestock`](../clues/clues.md#committee-should-inventory-livestock), [`committee-should-inventory-grain`](../clues/clues.md#committee-should-inventory-grain), [`committee-should-inventory-materials`](../clues/clues.md#committee-should-inventory-materials)
 
 ## Actions
@@ -59,5 +53,5 @@ MATERIALS
 - **When:** [Chickens counted](../locations/new-village/pgr-farm/pgr-farm.md#chickens-counted) is true AND [Chickens counted](../locations/new-village/pgr-farm/cow-barn.md#chickens-counted) is true AND [Chickens counted](../locations/new-village/pgr-farm/grain-silo.md#chickens-counted) is true AND [Chickens counted](../locations/new-village/pgr-farm/warehouse.md#chickens-counted) is true AND [Chickens counted](../locations/new-village/pgr-farm/pgr-office.md#chickens-counted) is true AND [Chickens counted](../locations/new-village/pgr-farm/pgr-quarters.md#chickens-counted) is true
 <!-- Prompted by: [chickens-are-everywhere](../clues/clues.md#chickens-are-everywhere) -->
 - **Outcome:** You add up the tallies from every corner of the farm and write the total in its line: twenty-two.
-- **Gives:** [`chicken-population-is-tiny`](../clues/clues.md#chicken-population-is-tiny)
+- **Gives:** [`chicken-population-is-tiny`](../clues/clues.md#chicken-population-is-tiny), [`pgr-has-22-chickens`](../clues/clues.md#pgr-has-22-chickens)
 - **Changes:** [Inventory](#inventory) — chickens: twenty-two

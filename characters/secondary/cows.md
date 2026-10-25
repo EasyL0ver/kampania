@@ -30,7 +30,7 @@ A hundred and forty dairy cows, the farm's real business. They graze the meadow 
 <!-- Prompted by: [committee-should-inventory-livestock](../../clues/clues.md#committee-should-inventory-livestock) -->
 - **Cost:** 4 time
 - **Outcome:** They drift behind one another all over the meadow; you walk the fence line twice to get it: a hundred and forty. From the far end you see a concrete channel start off the fields and run toward the low ground.
-- **Gives:** [`pgr-specializes-in-cows`](../../clues/clues.md#pgr-specializes-in-cows), hook:locations/the-irrigation-ditch.md, located:locations/the-irrigation-ditch.md
+- **Gives:** [`pgr-specializes-in-cows`](../../clues/clues.md#pgr-specializes-in-cows), [`pgr-has-140-cows`](../../clues/clues.md#pgr-has-140-cows), hook:locations/the-irrigation-ditch.md, located:locations/the-irrigation-ditch.md
 - **Changes:** [Inventory](../../items/pgr-inventory.md#inventory) — cows: a hundred and forty
 
 ### Count the cows in the barn
@@ -38,5 +38,5 @@ A hundred and forty dairy cows, the farm's real business. They graze the meadow 
 <!-- Prompted by: [committee-should-inventory-livestock](../../clues/clues.md#committee-should-inventory-livestock) -->
 - **Cost:** 2 time
 - **Outcome:** Each one stands in her own stall under a board with her name on it. You walk the passage from end to end, board by board: a hundred and forty.
-- **Gives:** [`pgr-specializes-in-cows`](../../clues/clues.md#pgr-specializes-in-cows)
+- **Gives:** [`pgr-specializes-in-cows`](../../clues/clues.md#pgr-specializes-in-cows), [`pgr-has-140-cows`](../../clues/clues.md#pgr-has-140-cows)
 - **Changes:** [Inventory](../../items/pgr-inventory.md#inventory) — cows: a hundred and forty

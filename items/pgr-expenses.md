@@ -6,7 +6,7 @@ A worn farm expense ledger: rows of dates, payees, amounts.
 
 ## Setup
 
-A worn ledger of non-payroll farm spending — seed, transport, repairs, vet bills, seasonal slaughter — running 1950–1967. Page after page of ordinary numbers in a bookkeeper's hand. Nothing looks wrong until you know what you're reading against. Familiar village names recur (Gajda, [@surname](../characters/butcher.md), [@surname](../characters/neighbour.md), Rzepka) and make the two names that matter easy to skim past.
+A worn ledger of non-payroll farm spending — seed, transport, repairs, vet bills, seasonal slaughter — running 1950–1967. Page after page of ordinary numbers in a bookkeeper's hand. Nothing looks wrong until you know what you're reading against. Familiar village names recur (Gajda, [@surname](../characters/butcher.md), [@surname](../characters/neighbour.md), Rzepka) and make the two names that matter easy to skim past.[](#four-thousand-bricks)[](#timber-for-a-new-fold)[](#eighteen-sacks-of-fertilizer)
 
 ## Content
 
@@ -73,7 +73,7 @@ Date        Payee / Description                                    Amount
                          — 1965 —
 28.02.1965  Spółdzielnia Lesko — seed grain                        1,340 zł
 15.05.1965  Silo repair — concrete patching, grain silo              520 zł
-22.05.1965  Spółdzielnia Lesko — emergency feed, grain replacement 1,860 zł
+22.05.1965  Spółdzielnia Lesko — emergency feed grain, 640 q     96,000 zł
 03.08.1965  Transport cooperative Sanok — fuel delivery              480 zł
 10.12.1965  Spółdzielnia Lesko — kitchen equipment                  160 zł
 
@@ -82,11 +82,31 @@ Date        Payee / Description                                    Amount
 
                          — 1967 —
 19.01.1967  Spółdzielnia Lesko — winter feed, hay                  1,100 zł
+14.03.1967  Spółdzielnia Lesko — calcium cyanamide, 18 sacks          540 zł
 04.04.1967  Apteka Lesko — veterinary medicines                     230 zł
+14.04.1967  Forest district Baligród — timber, new sheepfold, 14 m³  2,800 zł
+18.04.1967  Gajda, Tadeusz — transport, timber to the pasture fold    120 zł
 22.05.1967  Shearer, travelling — spring shearing, PGR flock        312 zł
 12.06.1967  Rzepka, Emil — whitewashing, tool shed                  320 zł
 30.06.1967  Transport cooperative Sanok — fuel delivery              510 zł
 ```
+
+## Opportunities
+
+### Four thousand bricks
+- **When:** setup:items/pgr-expenses.md
+- **Outcome:** In March 1960 the farm bought 4,000 red bricks from the Zagórz brickworks.
+- **Gives:** [`pgr-has-4000-bricks`](../clues/clues.md#pgr-has-4000-bricks)
+
+### Eighteen sacks of fertilizer
+- **When:** setup:items/pgr-expenses.md
+- **Outcome:** In March the farm bought 18 sacks of calcium cyanamide fertilizer.
+- **Gives:** [`pgr-has-18-sacks-of-fertilizer`](../clues/clues.md#pgr-has-18-sacks-of-fertilizer)
+
+### Timber for a new fold
+- **When:** setup:items/pgr-expenses.md
+- **Outcome:** In April the farm bought 14 m³ of timber for a new sheepfold, and paid [@name](../characters/wujas.md) to haul it up to the pasture.
+- **Gives:** [`timber-bought-for-new-sheepfold`](../clues/clues.md#timber-bought-for-new-sheepfold), [`wujas-paid-to-haul-the-timber`](../clues/clues.md#wujas-paid-to-haul-the-timber)
 
 ## Actions
 

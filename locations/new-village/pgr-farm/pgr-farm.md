@@ -20,7 +20,7 @@ The State Agricultural Farm: fields, barns, livestock pens, tool shed.
 - [@name](../../../characters/foreman.md) works in the fields, barns, or feed areas during the day.
 - [@name](../../../characters/secondary/jozef-nowak.md) and [@name](../../../characters/secondary/piotr-wisniewski.md) keep working unless addressed.
 - [@name](../../../characters/barbara.md) works apart from the men.
-- A battered wooden desk in the tool shed holds supply orders, receipts, delivery slips, the [@name](../../../items/pgr-ledger.md), and the [@name](../../../items/pgr-expenses.md).
+- A battered wooden desk in the tool shed holds supply orders, receipts, delivery slips, the [@name](../../../items/pgr-ledger.md), the [@name](../../../items/pgr-expenses.md), and the [@name](../../../items/pgr-income.md).
 - The farm has 7 real workers present or accounted for.
 - The ledger lists 8 workers.[](#unknown-name-in-ledger)
 - Bloodstains, patched fences, and nervous animals are visible from Day 1.[](#repeated-wolf-attacks-on-pens)[](#report-wolf-damage)
@@ -50,14 +50,8 @@ The State Agricultural Farm: fields, barns, livestock pens, tool shed.
 
 ### Inspect the farm books
 - **Cost:** 1 time
-- **Outcome:** The farm books show mostly ordinary farm spending, plus [@name](../../../characters/tadeusz-mazur.md) listed as a current worker drawing wages with no work logs for the past two years.
-- **Gives:** [mazur-paid-but-absent](../../../clues/clues.md#mazur-paid-but-absent), [@name](../../../items/pgr-ledger.md), [@name](../../../items/pgr-expenses.md)
-
-### Count the chickens
-<!-- Prompted by: [pgr-has-chickens](../../../clues/clues.md#pgr-has-chickens) -->
-- **Cost:** 3 time
-- **Outcome:** They are everywhere and they will not hold still. You count them round the barns, lose track when two run under a cart, start again, flush a speckled one out from behind the silo, and count the same brown hen three times. By the end the light is going and you have it: eleven. Possibly twelve.
-- **Gives:** [`chicken-population-is-tiny`](../../../clues/clues.md#chicken-population-is-tiny)
+- **Outcome:** The farm books show mostly ordinary farm spending and sales, plus [@name](../../../characters/tadeusz-mazur.md) listed as a current worker drawing wages with no work logs for the past two years.
+- **Gives:** [mazur-paid-but-absent](../../../clues/clues.md#mazur-paid-but-absent), [@name](../../../items/pgr-ledger.md), [@name](../../../items/pgr-expenses.md), [@name](../../../items/pgr-income.md)
 
 ### Report wolf damage
 - **When:** NOT [@name](../../../events/committee-visit/day-1/day-1.md)

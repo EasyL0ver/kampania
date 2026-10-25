@@ -72,4 +72,5 @@ Twenty-two hens and a rooster, looked after by [@name](../zofia.md). By day they
 <!-- Prompted by: [chickens-are-everywhere](../../clues/clues.md#chickens-are-everywhere) -->
 - **Cost:** 1 time
 - **Outcome:** At dusk they are all in, lined up on the perches and too sleepy to move. Twenty-two, counted in one go.
+- **Gives:** [`pgr-has-22-chickens`](../../clues/clues.md#pgr-has-22-chickens)
 - **Changes:** [Chickens counted](../../locations/new-village/pgr-farm/pgr-farm.md#chickens-counted) — true; [Chickens counted](../../locations/new-village/pgr-farm/cow-barn.md#chickens-counted) — true; [Chickens counted](../../locations/new-village/pgr-farm/grain-silo.md#chickens-counted) — true; [Chickens counted](../../locations/new-village/pgr-farm/warehouse.md#chickens-counted) — true; [Chickens counted](../../locations/new-village/pgr-farm/pgr-office.md#chickens-counted) — true; [Chickens counted](../../locations/new-village/pgr-farm/pgr-quarters.md#chickens-counted) — true

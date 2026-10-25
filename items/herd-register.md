@@ -6,7 +6,7 @@
 
 ## Setup
 
-A cloth-bound register with a line for every cow in the herd: ear-tag number, name, date of birth, calvings. Some lines are struck through for cows sold or dead.[](#a-year-out-of-date)
+A cloth-bound register with a line for every cow in the herd: ear-tag number, name, date of birth, calvings. Some lines are struck through for cows sold or dead.[](#head-in-herd)[](#a-year-out-of-date)
 
 ## Content
 
@@ -31,6 +31,11 @@ Tallied 14 July 1966.      Head in herd: 122.
 Not up to date: cows dead since the July 1966 tally are still on it, and none of this year's calves are entered; the herd itself counts 140. A careful reader can see it from the date and the calvings.
 
 ## Opportunities
+
+### Head in herd
+- **When:** setup:items/herd-register.md
+- **Outcome:** The register's last tally puts the dairy herd at 122 head.
+- **Gives:** [`herd-register-lists-122-cows`](../clues/clues.md#herd-register-lists-122-cows)
 
 ### A year out of date
 - **Noticed by:** [Bureaucracy](../cards/bureaucracy.md)

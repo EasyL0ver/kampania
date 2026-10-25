@@ -882,6 +882,7 @@
 "cost": "1 time",
 "outcome": "Seven. Two run under a cart halfway through and you start again. Then they do it again.",
 "changes": "Chickens counted — true",
+"gives": "pgr-has-22-chickens",
 "setup": "Feathers: brown, white, one speckled. Combs, beaks, beady eyes. Never still for long.",
 "hook": "The PGR farm's chickens.",
 "present": "Chickens is here"
@@ -922,7 +923,7 @@
 "when": "The Cow Meadow",
 "cost": "4 time",
 "outcome": "They drift behind one another all over the meadow; you walk the fence line twice to get it: a hundred and forty. From the far end you see a concrete channel start off the fields and run toward the low ground.",
-"gives": "pgr-specializes-in-cows, hook:locations/the-irrigation-ditch.md, located:locations/the-irrigation-ditch.md",
+"gives": "pgr-specializes-in-cows, pgr-has-140-cows, hook:locations/the-irrigation-ditch.md, located:locations/the-irrigation-ditch.md",
 "changes": "Inventory — cows: a hundred and forty",
 "setup": "Black-and-white and red hides, mud to the knees. Wet noses, slow eyes, flies. Heavy, unhurried, always chewing.",
 "hook": "The PGR farm's dairy herd.",
@@ -1229,11 +1230,12 @@
 "locations/pgr-pasture.md": {
 "name": "The Pasture",
 "when": "setup:locations/pgr-pasture.md",
-"outcome": "The wool on the wire, the flattened patch and the drag into the trees: wolves have been taking sheep from this pasture.",
+"outcome": "The wool on the broken hurdles, the flattened patch and the drag into the trees: wolves have been taking sheep from this pasture.",
 "gives": "wolves-attacking-livestock",
+"noticed-by": "Handiwork",
 "cost": "2 time",
 "changes": "Inventory — sheep: seventy-one",
-"setup": "Open grazing on the slope beyond the farm buildings, fenced with posts and wire patched more than mended; tufts of grey wool hang on the barbs. The grass runs up to the forest. Near the trees it is flattened in a dark, wide patch, and something was dragged from it into the undergrowth. The flock grazes bunched tight in the middle of the pasture, every head turning at once when a bird lifts from the trees.",
+"setup": "Open grazing on the slope beyond the farm buildings. Beside the shepherd's hut stands the night fold, a ring of wooden hurdles; several are broken and lashed with wire, and some gaps are wide enough for a dog, tufts of grey wool caught on their splinters. The grass runs up to the forest. Near the trees it is flattened in a dark, wide patch, and something was dragged from it into the undergrowth. The flock grazes bunched tight in the middle of the pasture, every head turning at once when a bird lifts from the trees.",
 "hook": "The state farm's pasture on the slopes outside the farm."
 },
 "locations/the-irrigation-ditch.md": {
@@ -1316,7 +1318,7 @@
 "when": "setup:locations/new-village/barbaras-house.md",
 "outcome": "The coverings are systematic, old, and tied to death mourning.",
 "gives": "covered-mirrors",
-"setup": "One-room house with a curtain dividing the sleeping area. Wood stove, table, two chairs. Clean but bare. Built of red brick by Zbigniew Gajda; the other village houses are timber. Catholic cross on the wall. Every mirror and reflective surface is covered with old cloth. The cloth coverings are yellowed with age.. Stefania Kopacz sits by the stove or window. She mutters non-Polish fragments, songs, and prayers.. A small three-barred crucifix hangs above her corner.. Pawełek Kopacz usually plays near Babcia and repeats some of her words. He may be outside playing during the day. Barbara Kopacz offers tea and food when home. During the day, Barbara works at the The PGR Farm. Ryszard Dudka is often visible at the fence. He brings firewood and checks on Pawełek. Overnight guests hear Babcia praying, pacing, and muttering in the dark. Overnight guests may hear Pawełek talk in his sleep. On still nights, overnight guests hear a woman's singing carried from the forest on the wind, far off and alone. On later days, Babcia becomes more lucid. After Paraskewia Chyłak is killed, Babcia becomes agitated and watches the forest.",
+"setup": "One-room house with a curtain dividing the sleeping area. Wood stove, table, two chairs. Clean but bare. Built of red brick by Zbigniew Gajda; the other village houses are timber.. Catholic cross on the wall. Every mirror and reflective surface is covered with old cloth. The cloth coverings are yellowed with age.. Stefania Kopacz sits by the stove or window. She mutters non-Polish fragments, songs, and prayers.. A small three-barred crucifix hangs above her corner.. Pawełek Kopacz usually plays near Babcia and repeats some of her words. He may be outside playing during the day. Barbara Kopacz offers tea and food when home. During the day, Barbara works at the The PGR Farm. Ryszard Dudka is often visible at the fence. He brings firewood and checks on Pawełek. Overnight guests hear Babcia praying, pacing, and muttering in the dark. Overnight guests may hear Pawełek talk in his sleep. On still nights, overnight guests hear a woman's singing carried from the forest on the wind, far off and alone. On later days, Babcia becomes more lucid. After Paraskewia Chyłak is killed, Babcia becomes agitated and watches the forest.",
 "hook": "The edge of Testowo, beside Ryszard Dudka's house."
 },
 "locations/new-village/butchers-house.md": {
@@ -1326,12 +1328,12 @@
 "[@surname](../../characters/butcher.md)": "If home, Stanisław Rezeń reaches the door before visitors knock.",
 "path": "A worn track runs from the back door into the forest.",
 "interior": "The house contains no alcohol.",
-"noticed-by": "Survival",
 "when": "setup:locations/new-village/butchers-house.md",
-"outcome": "The forest path sees daily use and points straight toward Hołubie — Homestead Ruins.",
-"gives": "butcher-dumps-carcasses-in-well",
+"outcome": "He keeps a sack of lime at the slaughter station, and washes the block and channel with it.",
+"gives": "butcher-keeps-lime",
+"noticed-by": "Survival",
 "cost": "1 time",
-"setup": "Dark timber house with no paint and no curtains. Butchering station behind the house. The station has a scarred block, iron hooks, and a black-stained drainage channel. Three dogs remain; villagers remember five. The dogs growl low instead of barking. One dog limps from an old bad heal. One dog flinches when a hand rises.. If home, Stanisław Rezeń reaches the door before visitors knock. He chain-smokes and leaves burn marks on the doorframe. He picks at scabs, scratches himself, and turns a knife in one hand. His friendliness is too eager and he watches faces closely. He makes lingering personal comments about female player characters. A worn track runs from the back door into the forest. The mud on the track is usually fresh.. The track leads toward Hołubie — Homestead Ruins and the well. The house contains no alcohol.. Old blood smell is soaked into the wood. Modified blades hang on the wall rack. A KBW military knife is on the wall rack among butchering tools. A KBW rifle is hidden in the smokehouse rafters, wrapped in oilcloth and sacking. A folded Propaganda Leaflet is tucked among his things: the white eagle driving a bayonet into a trident over the slogan \"DEATH TO THE BANDITS\". On this copy someone has inked a crude cartoon cock onto the eagle. A drawer in the bench-bed frame contains girl's undergarments taken from Hania Barnaś.",
+"setup": "Dark timber house with no paint and no curtains. Butchering station behind the house. The station has a scarred block, iron hooks, and a black-stained drainage channel. A sack of lime stands by the slaughter station; the block and the drainage channel are washed white with it.. Three dogs remain; villagers remember five. The dogs growl low instead of barking. One dog limps from an old bad heal. One dog flinches when a hand rises.. If home, Stanisław Rezeń reaches the door before visitors knock. He chain-smokes and leaves burn marks on the doorframe. He picks at scabs, scratches himself, and turns a knife in one hand. His friendliness is too eager and he watches faces closely. He makes lingering personal comments about female player characters. A worn track runs from the back door into the forest. The mud on the track is usually fresh.. The track leads toward Hołubie — Homestead Ruins and the well. The house contains no alcohol.. Old blood smell is soaked into the wood. Modified blades hang on the wall rack. A KBW military knife is on the wall rack among butchering tools. A KBW rifle is hidden in the smokehouse rafters, wrapped in oilcloth and sacking. A folded Propaganda Leaflet is tucked among his things: the white eagle driving a bayonet into a trident over the slogan \"DEATH TO THE BANDITS\". On this copy someone has inked a crude cartoon cock onto the eagle. A drawer in the bench-bed frame contains girl's undergarments taken from Hania Barnaś.",
 "hook": "The edge of Testowo, nearest the forest path toward Hołubie."
 },
 "locations/new-village/matronas-house.md": {
@@ -1456,6 +1458,7 @@
 "outcome": "A hen sits on the bottom rung of the ladder.",
 "requires": "(Measuring Tape OR The Geologist's Kit) AND (Bureaucracy OR Handiwork OR Geology OR City manners)",
 "cost": "2 time + 1 composure",
+"gives": "silo-holds-120-quintals, silo-holds-640-quintals-when-full, silo-was-cut-open",
 "changes": "Inventory — grain in the silo: a hundred and twenty quintals",
 "setup": "A tall concrete silo with an iron ladder up its side to a hatch at the top. Beside the hatch, painted on the concrete in faded white, is the silo's height: 12 m. One side carries a patch of newer, cruder concrete. Inside, the stored grain lies in a deep pale mass, and the only way to it is down from the hatch..",
 "hook": "The PGR farm's concrete grain silo."
@@ -1463,9 +1466,6 @@
 "locations/new-village/pgr-farm/henhouse.md": {
 "name": "The Henhouse",
 "tags": "PGR Location",
-"cost": "3 time",
-"outcome": "They will not hold still. You count them in the yard, lose track when two run under the cart, start again, chase a speckled one out from behind the henhouse, and count the same brown hen three times. By the end the light is going and you have it: eleven. Possibly twelve.",
-"gives": "chicken-population-is-tiny",
 "setup": "A small timber henhouse with perches and nesting boxes along the walls. By day the chickens are out between the farm buildings; at dusk they come back in to roost.",
 "hook": "The PGR farm's henhouse."
 },
@@ -1477,7 +1477,7 @@
 "gives": "chickens-are-everywhere",
 "noticed-by": "Bureaucracy",
 "cost": "1 time",
-"setup": "The farm has two long barns, a concrete grain silo, a tool shed, livestock pens, and ploughed fields running toward the tree line. One side of the concrete The Grain Silo carries a patch of newer, cruder concrete. A concrete-headed irrigation ditch runs off the fields toward the low ground; Zbigniew Gajda calls it the village's flood drain. Following it its full length is its own scene: The Irrigation Ditch. Chickens move between the buildings.. The PGR Office is in the main building. One of the two long barns is the The Cow Barn, with the The Cow Meadow beside it. The The Henhouse stands among the buildings. The farm's materials are kept in the The Warehouse. The PGR Workers' Quarters sit behind the main buildings. Michał Pytlak works in the fields, barns, or feed areas during the day. Józef Nowak and Piotr Wiśniewski keep working unless addressed. Barbara Kopacz works apart from the men. A battered wooden desk in the tool shed holds supply orders, receipts, delivery slips, the PGR Worker Registry, and the PGR Expense Journal. The farm has 7 real workers present or accounted for. The ledger lists 8 workers.. Bloodstains, patched fences, and nervous animals are visible from Day 1.. Day 1–2: fresh wolf damage may bring Zbigniew Gajda to the farm.",
+"setup": "The farm has two long barns, a concrete grain silo, a tool shed, livestock pens, and ploughed fields running toward the tree line. One side of the concrete The Grain Silo carries a patch of newer, cruder concrete. A concrete-headed irrigation ditch runs off the fields toward the low ground; Zbigniew Gajda calls it the village's flood drain. Following it its full length is its own scene: The Irrigation Ditch. Chickens move between the buildings.. The PGR Office is in the main building. One of the two long barns is the The Cow Barn, with the The Cow Meadow beside it. The The Henhouse stands among the buildings. The farm's materials are kept in the The Warehouse. The PGR Workers' Quarters sit behind the main buildings. Michał Pytlak works in the fields, barns, or feed areas during the day. Józef Nowak and Piotr Wiśniewski keep working unless addressed. Barbara Kopacz works apart from the men. A battered wooden desk in the tool shed holds supply orders, receipts, delivery slips, the PGR Worker Registry, the PGR Expense Journal, and the PGR Income Journal. The farm has 7 real workers present or accounted for. The ledger lists 8 workers.. Bloodstains, patched fences, and nervous animals are visible from Day 1.. Day 1–2: fresh wolf damage may bring Zbigniew Gajda to the farm.",
 "hook": "The State Agricultural Farm: fields, barns, livestock pens, tool shed."
 },
 "locations/new-village/pgr-farm/pgr-office.md": {
@@ -1511,7 +1511,8 @@
 "gives": "pgr-has-poisonous-fertilizer",
 "cost": "2 time",
 "changes": "Inventory — timber 14 m³, nails 6 kegs, red brick 380, fertilizer 22 sacks",
-"setup": "A low timber storehouse with a wide double door. Inside, on the earth floor: stacked timber, kegs of nails, a few rows of leftover red bricks, and a stack of paper fertilizer sacks, some of them split..",
+"requires": "Handiwork OR Medicine",
+"setup": "A low timber storehouse with a wide double door. Inside, on the earth floor: stacked timber, kegs of nails, one small, low stack of leftover red bricks in a corner, barely enough to patch a wall, and a stack of linen fertilizer sacks, some of them split, the bottom of the stack dark with damp..",
 "hook": "The PGR farm's warehouse."
 },
 "locations/new-village/the-church/the-church.md": {
@@ -2878,10 +2879,10 @@
 },
 "items/herd-register.md": {
 "name": "Yearly Herd Register",
-"noticed-by": "Bureaucracy",
 "when": "setup:items/herd-register.md",
-"outcome": "A yearly register on its last month: it will still carry last winter's dead and know nothing of this year's calves. Its figure is not the herd.",
-"gives": "herd-register-not-up-to-date",
+"outcome": "The register's last tally puts the dairy herd at 122 head.",
+"gives": "herd-register-lists-122-cows",
+"noticed-by": "Bureaucracy",
 "setup": "A cloth-bound register with a line for every cow in the herd: ear-tag number, name, date of birth, calvings. Some lines are struck through for cows sold or dead..",
 "hook": "The PGR farm's yearly herd register."
 },
@@ -2913,6 +2914,11 @@
 "name": "Lemko Bell",
 "setup": "A small brass Greek Catholic liturgical bell, Cyrillic lettering around the rim. It can be compared with the Hołubie — Cerkiew or shown to Stefania Kopacz or Paraskewia Chyłak.",
 "hook": "A small brass bell with Cyrillic lettering around the rim."
+},
+"items/linen-bags.md": {
+"name": "Linen Bags",
+"setup": "Twenty-two empty linen sacks, shaken out but still grey with fertilizer dust.",
+"hook": "A stack of empty linen sacks."
 },
 "items/makeshift-charge.md": {
 "name": "The Makeshift Charge",
@@ -2953,12 +2959,21 @@
 },
 "items/pgr-expenses.md": {
 "name": "PGR Expense Journal",
+"when": "setup:items/pgr-expenses.md",
+"outcome": "In March 1960 the farm bought 4,000 red bricks from the Zagórz brickworks.",
+"gives": "pgr-has-4000-bricks",
 "requires": "PGR Expense Journal",
 "cost": "1 time",
-"outcome": "May 1965: a silo repair, then one week later the largest single expense in the journal — an emergency grain purchase because the silo's contents were \"lost.\" A broken silo, grain gone, the biggest bill in years — and not one medical or hospital cost anywhere near it.",
-"gives": "large-grain-purchase",
-"setup": "A worn ledger of non-payroll farm spending — seed, transport, repairs, vet bills, seasonal slaughter — running 1950–1967. Page after page of ordinary numbers in a bookkeeper's hand. Nothing looks wrong until you know what you're reading against. Familiar village names recur (Gajda, Rezeń, Dudka, Rzepka) and make the two names that matter easy to skim past.",
+"setup": "A worn ledger of non-payroll farm spending — seed, transport, repairs, vet bills, seasonal slaughter — running 1950–1967. Page after page of ordinary numbers in a bookkeeper's hand. Nothing looks wrong until you know what you're reading against. Familiar village names recur (Gajda, Rezeń, Dudka, Rzepka) and make the two names that matter easy to skim past..",
 "hook": "A worn farm expense ledger: rows of dates, payees, amounts."
+},
+"items/pgr-income.md": {
+"name": "PGR Income Journal",
+"when": "setup:items/pgr-income.md",
+"outcome": "This May the farm delivered 180 kg of wool to the state buying point in Sanok.",
+"gives": "pgr-sold-180-kg-of-wool",
+"setup": "A worn ledger kept alongside the expense journal, in the same bookkeeper's hand: deliveries to the state buying points and the odd sale to a neighbouring farm, each with a weight, a price and a total..",
+"hook": "The PGR farm's income journal: what the farm sold, to whom, and for how much."
 },
 "items/pgr-inventory.md": {
 "name": "PGR Inventory",
@@ -3029,11 +3044,6 @@
 "name": "Sausage",
 "setup": "A ring of smoked sausage wrapped in paper, greasy and strong-smelling.",
 "hook": "A ring of smoked sausage."
-},
-"items/shearing-price-list.md": {
-"name": "Shearing Price List",
-"setup": "A typed price list for a travelling shearing team, made out to a neighbouring state farm down the valley, folded and soft at the creases.",
-"hook": "A travelling shearer's price list from another state farm."
 },
 "items/soltys-pistol.md": {
 "name": "Sołtys's Pistol",

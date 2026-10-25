@@ -9,7 +9,7 @@ The edge of [@name](new-village.md), beside [@name](../../characters/neighbour.m
 - **House:** One-room house with a curtain dividing the sleeping area.
 - **House:** Wood stove, table, two chairs.
 - **House:** Clean but bare.
-- **House:** Built of red brick by[](#red-brick-house-exceeds-barbaras-means) [@name](../../characters/wojewoda.md); the other village houses are timber.
+- **House:** Built of red brick by[](#red-brick-house-exceeds-barbaras-means) [@name](../../characters/wojewoda.md); the other village houses are timber.[](#the-only-brick-house)
 - **House:** Catholic cross on the wall.
 - **Mirrors:** Every mirror and reflective surface is covered with old cloth.
 - **Mirrors:** The cloth coverings are yellowed with age.[](#mourning-coverings-are-systematic-and-old)
@@ -42,6 +42,11 @@ The edge of [@name](new-village.md), beside [@name](../../characters/neighbour.m
 <!-- Prompted by: setup:locations/new-village/barbaras-house.md -->
 - **Outcome:** A small three-barred crucifix hangs in Babcia's corner, unlike the Roman cross on the wall.
 - **Gives:** [three-barred-cross-in-babcias-room](../../clues/clues.md#three-barred-cross-in-babcias-room)
+
+### The only brick house
+- **When:** setup:locations/new-village/barbaras-house.md
+- **Outcome:** Every other house in the village is timber; this is the only one built of red brick.
+- **Gives:** [`barbaras-house-is-the-only-brick-house`](../../clues/clues.md#barbaras-house-is-the-only-brick-house)
 
 ### Red-brick house exceeds Barbara's means
 - **Noticed by:** [Handiwork](../../cards/handiwork.md)
@@ -77,3 +82,4 @@ The edge of [@name](new-village.md), beside [@name](../../characters/neighbour.m
 - **Gives:** hook:characters/hag.md
 
 ## Actions
+

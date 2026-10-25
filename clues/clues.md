@@ -336,6 +336,9 @@ It was [@name](../characters/butcher.md) who put [@name](../characters/soldier.m
 ### neighbour-is-rattled
 [@name](../characters/neighbour.md) drinks too fast and shuts down whenever the past comes up. Something about the old days frightens him.
 
+### butcher-keeps-lime
+[@name](../characters/butcher.md) keeps lime at his slaughter station.
+
 ### butcher-doesnt-drink
 [@name](../characters/butcher.md) doesn't drink. His house holds no alcohol at all.
 
@@ -535,8 +538,12 @@ Someone is helping [@name](../characters/barbara.md). The house, the firewood, t
 ### pawelek-wanders-to-old-village
 [@name](../characters/pawelek.md) roams unsupervised as far as [@name](../locations/old-village-ruins.md) — edges, creek, tree line, further than a 4-year-old should go. Nobody watches him closely enough.
 
-### wojewoda-built-barbaras-house
-[@name](../characters/wojewoda.md) built [@name](../characters/barbara.md) a house out of guilt — he suspects [@name](../characters/junior.md) fathered [@name](../characters/pawelek.md). He's wrong.
+### pgr-built-barbaras-house
+[@name](../characters/barbara.md)'s house was built with the [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s bricks.
+**Synthesis:** pgr-has-4000-bricks + pgr-has-380-bricks + barbaras-house-is-the-only-brick-house
+
+### barbaras-house-is-the-only-brick-house
+[@name](../characters/barbara.md)'s house is the only red-brick house in [@name](../locations/new-village/new-village.md); every other house is timber.
 
 ### wojewoda-is-a-party-member
 [@name](../characters/wojewoda.md) is a PZPR (Party) member. It is how a founding sołtys was handed the PGR directorship and runs the farm with near-total autonomy.
@@ -818,7 +825,7 @@ The committee is taking a census: who lives in each household, names, ages, how 
 The committee's remit also covers the state farm's movable property. The [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s livestock, grain, and materials are socialist property that cannot be left to drown, so they must be inventoried and moved out before the flood. The buildings and fixed works are written off, but every movable state asset has to be accounted for.
 
 ### committee-should-inventory-livestock
-The committee must inventory the farm's livestock: dairy cattle, pigs, sheep, draft horses and poultry.
+The committee must inventory the farm's livestock: dairy cattle, sheep and poultry.
 
 ### pgr-has-cows
 The [@name](../locations/new-village/pgr-farm/pgr-farm.md) keeps cows.
@@ -826,11 +833,30 @@ The [@name](../locations/new-village/pgr-farm/pgr-farm.md) keeps cows.
 ### pgr-specializes-in-cows
 The [@name](../locations/new-village/pgr-farm/pgr-farm.md) specializes in cows: they are the bulk of its livestock.
 
+### pgr-has-140-cows
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s dairy herd is 140 cows.
+
+### herd-register-lists-122-cows
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s yearly herd register puts the dairy herd at 122 cows.
+
 ### herd-register-not-up-to-date
 The [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s herd register is tallied once a year, and the last tally is nearly a year old: the dead since then are not struck off and this year's calves were never entered.
 
 ### pgr-has-sheep
 The [@name](../locations/new-village/pgr-farm/pgr-farm.md) keeps sheep.
+
+### fleece-weighs-2-to-3-kg
+A sheep of the [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s flock gives two to three kilos of wool at the spring shearing.
+
+### pgr-sold-180-kg-of-wool
+At this spring's shearing the [@name](../locations/new-village/pgr-farm/pgr-farm.md) delivered 180 kg of wool to the state buying point.
+
+### pgr-has-60-to-90-sheep
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s flock is somewhere between 60 and 90 sheep.
+**Synthesis:** pgr-sold-180-kg-of-wool + fleece-weighs-2-to-3-kg
+
+### pgr-has-71-sheep
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s flock is 71 sheep.
 
 ### pgr-has-chickens
 The [@name](../locations/new-village/pgr-farm/pgr-farm.md) keeps chickens.
@@ -844,14 +870,54 @@ The [@name](../locations/new-village/pgr-farm/pgr-farm.md) keeps sacks of calciu
 ### pgr-has-red-bricks
 The [@name](../locations/new-village/pgr-farm/pgr-farm.md) keeps a stock of red bricks.
 
+### pgr-has-14-m3-timber
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md) has 14 m³ of timber in its warehouse.
+
+### pgr-has-6-kegs-of-nails
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md) has 6 kegs of nails in its warehouse.
+
+### pgr-has-4000-bricks
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md) has 4,000 red bricks.
+
+### pgr-has-380-bricks
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md) has 380 red bricks in its warehouse.
+
+### pgr-has-18-sacks-of-fertilizer
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md) has 18 sacks of fertilizer.
+
+### four-fertilizer-sacks-are-older
+Four of the fertilizer sacks in the [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s warehouse are much older than the rest, their contents set hard.
+
+### four-sacks-are-old-lime
+Four of the fertilizer sacks in the [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s warehouse are not fertilizer but old lime, set solid with age.
+
+### pgr-has-22-sacks-of-fertilizer
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md) has 22 sacks of fertilizer in its warehouse.
+
 ### chickens-are-everywhere
 The [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s chickens are spread all over the farm, not kept in one place.
 
 ### chicken-population-is-tiny
 The [@name](../locations/new-village/pgr-farm/pgr-farm.md) has only a handful of chickens.
 
+### pgr-has-22-chickens
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md) has 22 chickens.
+
 ### committee-should-inventory-grain
-The committee must inventory the farm's grain and fodder: seed grain, feed grain, hay, potatoes and the grain stored in the concrete silo.
+The committee must inventory the farm's grain: the grain stored in the concrete silo.
+
+### silo-holds-120-quintals
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s concrete grain silo holds 120 quintals of rye.
+
+### silo-holds-640-quintals-when-full
+Filled to the hatch, the [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s concrete grain silo holds 640 quintals.
+
+### silo-was-cut-open
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s grain silo was cut open low in the wall and concreted shut again.
+
+### pgr-replaced-a-full-silo
+In 1965 the [@name](../locations/new-village/pgr-farm/pgr-farm.md) bought a full silo's worth of grain.
+**Synthesis:** large-grain-purchase + silo-holds-640-quintals-when-full
 
 ### committee-should-inventory-materials
 The committee must inventory the farm's materials: timber, brick, nails and fertilizer.
@@ -913,8 +979,18 @@ The wolves are an ordinary pack: the 1967 rains drove them down off the high gro
 ### rezen-mocks-an-old-failure
 Taunting [@name](../characters/neighbour.md), [@name](../characters/butcher.md) lets slip *"you didn't stop me then"* — implying there was a past occasion when [@surname](../characters/butcher.md) did something and [@surname](../characters/neighbour.md) failed to stop him. He never says what or when. Both men clearly remember it.
 
-### pgr-underfunded-fences
-The PGR's fences and livestock infrastructure are underfunded and poorly maintained. Wolves got through because management cut corners.
+### sheepfold-is-broken
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s night fold on the pasture is broken: its hurdles cannot keep the wolves out.
+
+### timber-bought-for-new-sheepfold
+In April 1967 the [@name](../locations/new-village/pgr-farm/pgr-farm.md) bought 14 m³ of timber for a new sheepfold.
+
+### wujas-paid-to-haul-the-timber
+The [@name](../locations/new-village/pgr-farm/pgr-farm.md) paid [@name](../characters/wujas.md) to haul the sheepfold timber up to the pasture.
+
+### timber-never-hauled
+The timber bought for the new sheepfold never left the [@name](../locations/new-village/pgr-farm/pgr-farm.md)'s warehouse.
+**Synthesis:** timber-bought-for-new-sheepfold + pgr-has-14-m3-timber + sheepfold-is-broken
 
 ### rezen-leaves-at-night
 [@name](../characters/butcher.md) leaves his house at night and walks toward the forest — toward [@name](../locations/old-village-ruins.md). Alone. Regularly.
