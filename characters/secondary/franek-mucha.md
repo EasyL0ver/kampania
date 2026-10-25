@@ -1,5 +1,7 @@
 # Franek Mucha
 
+**Tags:** [@name](../../tags/gossip.md)
+
 ## Hook
 
 - [@first-name](franek-mucha.md) [@surname](franek-mucha.md), a village drunk and brawler, one of [@name](../wujas.md)'s drinking crew.
@@ -31,3 +33,19 @@ A younger, aggressive brawler in [@name](../wujas.md)'s drinking circle. He is t
 ## Opinions
 
 - **[@name](../wujas.md)** — "We drink together, but old debts do not vanish in bimber."
+
+## Actions
+
+### Drink them under the table
+- **Requires:** [@name](../../tags/alcohol.md)
+<!-- Prompted by: hook:characters/secondary/franek-mucha.md -->
+- **Cost:** 1 time
+- **Outcome:** Past his limit he takes a swing at nobody, then grumbles that he sleeps out at the still and sees the butcher walk past in the dark, alone, night after night. Then he is snoring.
+- **Gives:** [`rezen-leaves-at-night`](../../clues/clues.md#rezen-leaves-at-night)
+
+### Drink with them
+- **Requires:** [@name](../../tags/alcohol.md)
+<!-- Prompted by: hook:characters/secondary/franek-mucha.md -->
+- **Cost:** 1 time
+- **Outcome:** He drinks and gossips: everyone knows the witch in the forest sends the wolves; you see her fires in the ruins.
+- **Gives:** [`hag-blamed-for-wolves`](../../clues/clues.md#hag-blamed-for-wolves)

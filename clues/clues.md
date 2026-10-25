@@ -336,6 +336,9 @@ It was [@name](../characters/butcher.md) who put [@name](../characters/soldier.m
 ### neighbour-is-rattled
 [@name](../characters/neighbour.md) drinks too fast and shuts down whenever the past comes up. Something about the old days frightens him.
 
+### butcher-murdered-someone
+[@name](../characters/butcher.md) has killed someone.
+
 ### butcher-keeps-lime
 [@name](../characters/butcher.md) keeps lime at his slaughter station.
 

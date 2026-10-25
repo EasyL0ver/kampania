@@ -94,12 +94,6 @@ The farm's shepherd. He lives up on the pasture with the flock through the summe
 - **Outcome:** You walk him through it plainly: the flooded high ground, the game gone, a hungry pack following the flock down. He does not believe it all, but the plain sense of it lets his shoulders come down.
 - **Changes:** [Agitated](#agitated) — false
 
-### Ask him what a fleece weighs
-- **When:** [Agitated](#agitated) is false
-<!-- Prompted by: hook:items/pgr-income.md -->
-- **Outcome:** He does not have to think: two kilos off a poor one, two and a half off most, three off a good ewe.
-- **Gives:** [`fleece-weighs-2-to-3-kg`](../clues/clues.md#fleece-weighs-2-to-3-kg)
-
 ### Census interview
 - **When:** [Agitated](#agitated) is false
 <!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
@@ -113,3 +107,10 @@ The farm's shepherd. He lives up on the pasture with the flock through the summe
 - **Cost:** 1 time
 - **Outcome:** He owns nothing. The hut on the pasture is the farm's, and so is every animal in the fold.
 - **Changes:** [Property Record](../items/census.md#property-record) — no property held, PGR hut on the pasture
+
+### Drink with them
+- **Requires:** [@name](../tags/alcohol.md)
+<!-- Prompted by: hook:characters/owczarz.md -->
+- **Cost:** 1 time
+- **Outcome:** He drinks with both hands round the glass and tells it: six sheep this week, and him alone up there.
+- **Gives:** [`six-sheep-died-this-week`](../clues/clues.md#six-sheep-died-this-week)

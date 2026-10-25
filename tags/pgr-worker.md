@@ -37,3 +37,8 @@ The people who work on the state farm.
 <!-- Prompted by: [committee-should-inventory-materials](../clues/clues.md#committee-should-inventory-materials) -->
 - **Outcome:** In the [@name](../locations/new-village/pgr-farm/warehouse.md), they tell you, the long timber shed past the barns, and they point it out.
 - **Gives:** hook:locations/new-village/pgr-farm/warehouse.md, located:locations/new-village/pgr-farm/warehouse.md
+
+### Ask what a fleece weighs
+<!-- Prompted by: [`pgr-sold-180-kg-of-wool`](../clues/clues.md#pgr-sold-180-kg-of-wool) -->
+- **Outcome:** Anyone on the farm knows it: two to three kilos a head off this flock, mountain sheep.
+- **Gives:** [`fleece-weighs-2-to-3-kg`](../clues/clues.md#fleece-weighs-2-to-3-kg)

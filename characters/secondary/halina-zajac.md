@@ -1,5 +1,7 @@
 # Halina Zając
 
+**Tags:** [@name](../../tags/gossip.md)
+
 ## Hook
 
 - [@first-name](halina-zajac.md) [@surname](halina-zajac.md), the woman behind the counter at [@name](../matrona.md)'s store.

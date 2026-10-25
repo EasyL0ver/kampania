@@ -5,6 +5,7 @@
     const T = {
 "characters/babcia.md": {
 "name": "Stefania Kopacz",
+"tags": "Lemko-Raised",
 "first-name": "Stefania",
 "surname": "Kopacz",
 "status": "Resident",
@@ -32,7 +33,7 @@
 },
 "characters/barbara.md": {
 "name": "Barbara Kopacz",
-"tags": "PGR Worker",
+"tags": "PGR Worker, Gossip, Churchgoer",
 "first-name": "Barbara",
 "surname": "Kopacz",
 "status": "Resident",
@@ -83,6 +84,9 @@
 "carriage": "Broad-shouldered, stands too close, takes up too much space",
 "cigarette": "He nearly always has one going, a fresh one lit off the last.",
 "voice": "Warm baritone pitched for an audience; loud laughter that can stop without warning",
+"type": "bool",
+"per": "world",
+"start": "false",
 "noticed-by": "Chainsmoker",
 "when": "setup:characters/butcher.md",
 "outcome": "Rezeń has a cigarette going almost every time you meet him. A smoker reads the brand at a glance: Carmen.",
@@ -280,7 +284,7 @@
 },
 "characters/hag.md": {
 "name": "Paraskewia Chyłak",
-"tags": "Villager",
+"tags": "Villager, Lemko-Raised",
 "first-name": "Paraskewia",
 "surname": "Chyłak",
 "status": "Resident",
@@ -400,7 +404,7 @@
 },
 "characters/matrona.md": {
 "name": "Helena Rzepka (née Gajda)",
-"tags": "Villager",
+"tags": "Villager, Churchgoer",
 "first-name": "Helena",
 "surname": "Rzepka",
 "maiden-name": "Gajda",
@@ -430,7 +434,7 @@
 },
 "characters/neighbour.md": {
 "name": "Ryszard Dudka",
-"tags": "Villager",
+"tags": "Villager, Old Settler",
 "first-name": "Ryszard",
 "surname": "Dudka",
 "status": "Resident",
@@ -636,6 +640,7 @@
 },
 "characters/radioman.md": {
 "name": "Bolesław Kurek",
+"tags": "Old Settler",
 "first-name": "Bolesław",
 "surname": "Kurek",
 "status": "Resident",
@@ -722,6 +727,7 @@
 },
 "characters/widow.md": {
 "name": "Wanda Mazur",
+"tags": "Old Settler, Churchgoer",
 "first-name": "Wanda",
 "surname": "Mazur",
 "status": "Resident",
@@ -777,7 +783,7 @@
 },
 "characters/wojewoda.md": {
 "name": "Zbigniew Gajda",
-"tags": "Villager, PGR Worker",
+"tags": "Villager, PGR Worker, Old Settler",
 "first-name": "Zbigniew",
 "surname": "Gajda",
 "status": "Resident",
@@ -814,13 +820,13 @@
 "nickname": "Tadek",
 "surname": "Gajda",
 "status": "Resident",
-"morning": "Wojewoda's House",
+"morning": "Bimber Still",
 "afternoon": "The Store",
-"evening": "Bimber Still",
-"night": "Bimber Still",
+"evening": "The Store",
+"night": "Wojewoda's House",
 "born": "1925",
 "age-in-1967": "42",
-"lives-in": "Bimber Still area / drifts between siblings' homes",
+"lives-in": "Wojewoda's House — sleeps in various places, but defaults to his brother's house",
 "settled": "~1948 — first wave, with siblings",
 "clothes": "Checked shirt with rolled sleeves, old marynarka with elbow patches, maciejówka cap cocked forward.",
 "hair-&-face": "Still handsome under the wear; unshaven, bloodshot eyes visible up close.",
@@ -834,6 +840,7 @@
 "gives": "tadek-smokes-cheapest",
 "cost": "1 time",
 "changes": "Census — Tadek Gajda, no fixed household",
+"requires": "Alcohol",
 "setup": "Checked shirt with rolled sleeves, old marynarka with elbow patches, maciejówka cap cocked forward. Still handsome under the wear; unshaven, bloodshot eyes visible up close. Lean and rangy; moves loose and easy, like he is still the life of the party.",
 "hook": "Tadek Gajda, the sołtys's brother and the village drunk, rarely without a bottle.",
 "present": "Tadek Gajda is here"
@@ -950,26 +957,32 @@
 },
 "characters/secondary/franek-mucha.md": {
 "name": "Franek Mucha",
+"tags": "Gossip",
 "first-name": "Franek",
 "surname": "Mucha",
 "status": "Resident",
-"morning": "Testowo",
-"afternoon": "Testowo",
-"evening": "Bimber Still",
-"night": "Testowo",
+"morning": "Bimber Still",
+"afternoon": "Bimber Still",
+"evening": "The Store",
+"night": "Bimber Still",
 "born": "~1927",
 "age-in-1967": "~35-45",
-"lives-in": "Testowo",
+"lives-in": "Bimber Still",
 "settled": "~1955",
 "clothes": "Not specified.",
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
+"requires": "Alcohol",
+"cost": "1 time",
+"outcome": "Past his limit he takes a swing at nobody, then grumbles that he sleeps out at the still and sees the butcher walk past in the dark, alone, night after night. Then he is snoring.",
+"gives": "rezen-leaves-at-night",
 "setup": "Not specified. Not specified. Not specified.",
 "hook": "Franek Mucha, a village drunk and brawler, one of Tadek Gajda's drinking crew.",
 "present": "Franek Mucha is here"
 },
 "characters/secondary/halina-zajac.md": {
 "name": "Halina Zając",
+"tags": "Gossip",
 "first-name": "Halina",
 "surname": "Zając",
 "status": "Resident",
@@ -1017,6 +1030,7 @@
 },
 "characters/secondary/krystian-rzepka.md": {
 "name": "Krystian Rzepka",
+"tags": "Churchgoer",
 "first-name": "Krystian",
 "surname": "Rzepka",
 "status": "Resident",
@@ -1063,18 +1077,22 @@
 "first-name": "Romek",
 "surname": "Głowacz",
 "status": "Resident",
-"morning": "Testowo",
-"afternoon": "Testowo",
-"evening": "Bimber Still",
-"night": "Testowo",
+"morning": "The Warehouse",
+"afternoon": "Bimber Still",
+"evening": "The Store",
+"night": "PGR Workers' Quarters",
 "born": "~1922",
 "age-in-1967": "~40-50",
-"lives-in": "Testowo",
+"lives-in": "PGR Workers' Quarters",
 "settled": "~1955",
 "works-at": "The Warehouse, as the farm's storekeeper",
 "clothes": "Not specified.",
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
+"requires": "Alcohol",
+"cost": "1 time",
+"outcome": "Past his limit the quiet man finally talks: the foreman once stood up to the sołtys over the grain, in front of everyone, and the farm has never forgotten it. Then he folds over his glass.",
+"gives": "foreman-stood-up-to-the-soltys",
 "setup": "Not specified. Not specified. Not specified.",
 "hook": "Romek Głowacz, the PGR farm's storekeeper, one of Tadek Gajda's drinking crew.",
 "present": "Romek Głowacz is here"
@@ -2085,13 +2103,14 @@
 "part-of": "The Binge — At the Store",
 "location": "Bimber Still",
 "present": "Tadek Gajda, Romek Głowacz, Franek Mucha",
-"when": "Drinking Buddy is true",
-"outcome": "The crew laugh about the state surveyors who came before: they drank more than they measured, drove a few stakes, and left early.",
+"tags": "Libation",
+"when": "setup:events/the-binge/at-the-still.md",
+"outcome": "One of the crew sets the first bottle on the table and pours a round.",
+"changes": "Round — +1",
 "gives": "geologists-were-drinking",
 "noticed-by": "Geology",
 "requires": "Physique OR Alcoholic",
 "cost": "1 time",
-"changes": "Drinking Buddy — the drinking PCs become Tadek's drinking buddies",
 "setup": "The men sit around the fire with bottles and cards, drinking the still's own Bottle of Bimber..",
 "hook": "Firelight and voices from the clearing by the still at night."
 },
@@ -2099,13 +2118,14 @@
 "name": "The Binge — At the Store",
 "location": "The Store",
 "present": "Tadek Gajda, Romek Głowacz, Franek Mucha, Marek Gajda, Ryszard Dudka, Bolesław Kurek",
+"tags": "Libation",
+"when": "setup:events/the-binge/the-binge.md",
+"outcome": "One of the crew sets the first bottle on the table and pours a round.",
+"changes": "Round — +1",
 "noticed-by": "Empathy",
-"when": "Drinking Buddy is true",
-"outcome": "Dudka drinks too fast and shuts down when the past comes up.",
 "gives": "neighbour-is-rattled",
 "requires": "Physique OR Alcoholic",
 "cost": "1 time",
-"changes": "Drinking Buddy — the drinking PCs become Tadek's drinking buddies",
 "setup": "The men sit outside the store on benches and crates, passing Bottle of Bimber, and go in to buy rounds from Halina and get sent back out. Marek Gajda drinks with the crew, away from his father..",
 "hook": "Men on the benches outside the store, passing a bottle in the evening."
 },
@@ -2775,6 +2795,7 @@
 "items/bimber.md": {
 "name": "Bottle of Bimber",
 "tags": "Alcohol",
+"type": "rule",
 "setup": "An old bottle refilled at a still, no label. Strong, rough, and illegal to make or sell.",
 "hook": "A bottle of cloudy home-distilled spirit, stoppered with a twist of paper."
 },
@@ -3083,6 +3104,7 @@
 "items/vodka.md": {
 "name": "Bottle of Vodka",
 "tags": "Alcohol",
+"type": "rule",
 "setup": "Clear glass, a paper label, the state seal intact. Shop vodka: the kind you buy, not the kind you make.",
 "hook": "A half-litre of Wyborowa, unopened."
 },
@@ -3298,6 +3320,12 @@
 "type": "Both",
 "composure": "+1 (only while in a state of grace)"
 },
+"cards/drunk.md": {
+"name": "Drunk",
+"pool": "Acquired in play",
+"type": "Modifier",
+"composure": "none"
+},
 "cards/empathy.md": {
 "name": "Empathy",
 "pool": "Starting card",
@@ -3403,11 +3431,47 @@
 },
 "tags/alcohol.md": {
 "name": "Alcohol",
-"applies-to": "items"
+"applies-to": "items",
+"type": "rule"
+},
+"tags/churchgoer.md": {
+"name": "Churchgoer",
+"applies-to": "characters",
+"outcome": "The Gajda family keeps the church supplied: firewood, food, repairs, every year.",
+"gives": "siblings-fund-the-church"
 },
 "tags/firearm.md": {
 "name": "Firearm",
 "applies-to": "items"
+},
+"tags/gossip.md": {
+"name": "Gossip",
+"applies-to": "characters",
+"outcome": "Cheap Sport for Tadek and half the valley; the pricey Carmen only for the Gajda boy and the butcher.",
+"gives": "tadek-smokes-cheapest, junior-smokes-carmen, butcher-smokes-carmen"
+},
+"tags/lemko-raised.md": {
+"name": "Lemko-Raised",
+"applies-to": "characters",
+"outcome": "It is the cross of the old faith, the Greek Catholic one. Whoever carries it is of the old people.",
+"gives": "three-barred-cross-is-lemko"
+},
+"tags/libation.md": {
+"name": "Libation",
+"applies-to": "events",
+"type": "int",
+"per": "world",
+"start": "0",
+"cost": "Bottle of Bimber",
+"outcome": "A bottle goes on the table and the next round is poured.",
+"changes": "Round — +1",
+"gives": "Drunk"
+},
+"tags/old-settler.md": {
+"name": "Old Settler",
+"applies-to": "characters",
+"outcome": "There was a village up the valley once, cleared in '47 with the rest of the range, the people sent west. Nobody goes up there now; they say it is haunted.",
+"gives": "old-village-resettled-during-vistula, old-village-is-haunted"
 },
 "tags/pgr-location.md": {
 "name": "PGR Location",

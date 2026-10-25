@@ -107,6 +107,13 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 - **Outcome:** Faced with the sick boy being his own, [@nickname](wujas.md) goes to his sister [@name](matrona.md). She opens the cabinet for her brother and counts out a child's course, and no census changes hands.
 - **Gives:** [@name](../items/penicillin.md)
 
+### Drink them under the table
+- **Requires:** [@name](../tags/alcohol.md)
+<!-- Prompted by: hook:characters/wujas.md -->
+- **Cost:** 1 time
+- **Outcome:** Past his limit he gets loud, then maudlin. First he brags that he had [@first-name](barbara.md) once, one night, years back. Then he weeps for the Barnaś girl: he loved her, and she never looked at him. Then he is asleep on the table.
+- **Gives:** [`wujas-slept-with-barbara`](../clues/clues.md#wujas-slept-with-barbara), [`wujas-loved-jagna`](../clues/clues.md#wujas-loved-jagna)
+
 ## Bond
 
 - [ ] Share a drink with him and match his pace — do not nurse it, do not judge.

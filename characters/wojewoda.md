@@ -1,6 +1,6 @@
 # Zbigniew Gajda
 
-**Tags:** [@name](../tags/villager.md), [@name](../tags/pgr-worker.md)
+**Tags:** [@name](../tags/villager.md), [@name](../tags/pgr-worker.md), [@name](../tags/old-settler.md)
 
 ## Hook
 
@@ -194,6 +194,20 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 <!-- Prompted by: hook:locations/bimber-still.md -->
 - **Outcome:** He says he will handle it and shows no surprise.
 - **Gives:** [`bimber-still`](../clues/clues.md#bimber-still)
+
+### Drink them under the table
+- **Requires:** [@name](../tags/alcohol.md)
+<!-- Prompted by: hook:characters/wojewoda.md -->
+- **Cost:** 1 time
+- **Outcome:** It takes a long time. Past his limit the sołtys stares into his glass and talks about a night in '54: he came home with blood on him, his brother never came back from the bottle, and by morning Barnaś was gone. Then his eyes close.
+- **Gives:** [`something-happened-in-54`](../clues/clues.md#something-happened-in-54)
+
+### Drink with them
+- **Requires:** [@name](../tags/alcohol.md)
+<!-- Prompted by: hook:characters/wojewoda.md -->
+- **Cost:** 1 time
+- **Outcome:** With a glass in him he boasts of his Party card and what it got him: the farm, the say, the ear of the powiat.
+- **Gives:** [`wojewoda-is-a-party-member`](../clues/clues.md#wojewoda-is-a-party-member)
 
 ## Bond
 

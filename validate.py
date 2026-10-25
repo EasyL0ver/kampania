@@ -206,6 +206,18 @@ def when_referenced() -> set[tuple[Path, str]]:
     return _when_refs
 
 
+def tag_move_ids(path: Path) -> set[str]:
+    """Heading ids of the moves the file's tags add to it. A move in the file with the same heading
+    overrides the tag's: the file's version replaces it for this entity."""
+    ids = set()
+    for tag in carried_tags(path):
+        t = parse(tag)
+        for name in ("Actions", "Opportunities"):
+            s = t.section(name)
+            ids |= {slug(c.title) for c in (s.children if s else [])}
+    return ids
+
+
 @rule("action-fields", "characters", "events", "locations", "items", "tags")
 def action_fields(f: MdFile):
     """Every ### action under ## Actions has Outcome, and an effect: Gives, Changes, or another move whose
@@ -213,10 +225,11 @@ def action_fields(f: MdFile):
     s = f.section("Actions")
     if s is None:
         return
+    overrides = tag_move_ids(f.path)
     for a in s.children:
         present = {m.group(1).strip() for _, t in a.body if (m := ACTION_FIELD.match(t))}
         missing = [x for x in ACTION_FIELDS if x not in present]
-        if not present & {"Gives", "Changes"} and (f.path.resolve(), slug(a.title)) not in when_referenced():
+        if not present & {"Gives", "Changes"} and slug(a.title) not in overrides                 and (f.path.resolve(), slug(a.title)) not in when_referenced():
             missing.append("Gives or Changes (or a move whose When names it)")
         if missing:
             yield a.line, f"action '{a.title}' is missing: {', '.join(missing)}"
@@ -1334,8 +1347,6 @@ def _check_prompted(line: int, value: str, f: "MdFile | None" = None):
         if hook:
             if not (REPO_ROOT / hook.group(1)).is_file():
                 yield line, f"Prompted by '{part}': {hook.group(1)} does not exist"
-            elif f is not None and hook.group(1) == f.rel:
-                yield line, f"Prompted by '{part}': hook: of the move's own file means setup:{f.rel}"
             continue
         yield line, f"Prompted by '{value}': '{part}' is not a clue link, setup:<own file> or hook:<kind>/<file>.md"
         return

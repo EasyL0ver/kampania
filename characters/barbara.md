@@ -1,6 +1,6 @@
 # Barbara Kopacz
 
-**Tags:** [@name](../tags/pgr-worker.md)
+**Tags:** [@name](../tags/pgr-worker.md), [@name](../tags/gossip.md), [@name](../tags/churchgoer.md)
 
 ## Hook
 

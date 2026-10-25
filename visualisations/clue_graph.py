@@ -116,6 +116,7 @@ class Node:
     gives_known: list[list[str]] = field(default_factory=list)   # [npc, clue] flags set
     gives_other: list[str] = field(default_factory=list)
     unlocks_scenes: list[str] = field(default_factory=list)
+    carriers: list[str] = field(default_factory=list)   # a tag move: the entities it is open on
 
 
 @dataclass
@@ -226,10 +227,11 @@ def _scene_targets(text: str, self_path: str) -> list[str]:
     return out
 
 
-def parse_scene(path: Path) -> tuple[Scene, list[Node]]:
-    rel = str(path.relative_to(REPO_ROOT)).replace("\\", "/")
+def parse_scene(path: Path, rel: str | None = None, text: str | None = None) -> tuple[Scene, list[Node]]:
+    """rel/text override the file's own: a tag's moves are parsed as the tagged entity's (see build_graph)."""
+    rel = rel or str(path.relative_to(REPO_ROOT)).replace("\\", "/")
     kind = path.parent.name
-    lines = path.read_text(encoding="utf-8").splitlines()
+    lines = (text if text is not None else path.read_text(encoding="utf-8")).splitlines()
 
     # --- title + preamble header (region before the first ##+ heading) ---
     title = ""
@@ -419,12 +421,39 @@ def build_graph() -> Graph:
     g.clues = parse_clues()
     parsed: list = []
     for d in SCENE_DIRS:
+        if d == "tags":
+            continue
         for path in sorted((REPO_ROOT / d).rglob("*.md")):
             if path.name.startswith("_"):
                 continue
             scene, nodes = parse_scene(path)
             g.scenes[scene.path] = scene
             parsed.append(nodes)
+
+    # A tag's moves are added to every entity carrying it. In the graph each tag move is ONE node,
+    # reachable through any carrier (listed in its scene title); an entity whose own file has a move
+    # of the same name overrides it there, and is left out of that node's carriers.
+    carriers: dict[str, list[str]] = {}            # tag rel -> carrying entity rels
+    own_names: dict[str, set[str]] = {}
+    for nodes in parsed:
+        for n in nodes:
+            own_names.setdefault(n.scene, set()).add(n.name)
+    for rel, scene in g.scenes.items():
+        for target in MD_LINK.findall(scene.header.get("Tags", "")):
+            tag_path = ((REPO_ROOT / rel).parent / target).resolve()
+            if tag_path.is_file() and tag_path.parent.name == "tags":
+                carriers.setdefault(str(tag_path.relative_to(REPO_ROOT)).replace("\\", "/"), []).append(rel)
+    for tag_rel, who in sorted(carriers.items()):
+        tscene, tnodes = parse_scene(REPO_ROOT / tag_rel)
+        g.scenes[tag_rel] = tscene
+        kept = []
+        for n in tnodes:
+            n.carriers = [r for r in who if n.name not in own_names.get(r, set())]
+            if n.carriers:
+                kept.append(n)
+        tscene.nodes = [n.id for n in kept]
+        parsed.append(kept)
+    tag_carriers = carriers
 
     # Titles and hooks hold [@field](file.md) refs: render them as the preview does (tools/build_names.py).
     sys.path.insert(0, str(REPO_ROOT / "tools"))
@@ -437,6 +466,8 @@ def build_graph() -> Graph:
     for nodes in parsed:
         for n in nodes:
             n.scene_title = g.scenes[n.scene].title
+            if n.carriers:
+                n.scene_title += " (tag): " + ", ".join(g.scenes[r].title for r in n.carriers)
 
     # A "known" gate ("<npc>: [clue]") is only real when <npc> names an actual
     # character scene. Otherwise the colon is prose ("cross-sections: [clue]")
@@ -513,6 +544,25 @@ def build_graph() -> Graph:
             node.gives_clues = [cid]
             g.nodes[nid] = node
             g.givers.setdefault(cid, []).append(nid)
+
+    # Knowing any carrier of a tag is knowing of the tag ("hook:tags/x.md"), and a tag's moves need it.
+    for tag_rel, who in tag_carriers.items():
+        if not any(n.scene == tag_rel and (n.gives_clues or n.gives_known) for n in g.nodes.values()):
+            continue                               # a tag that reveals nothing needs no awareness node
+        tid = "hook:" + tag_rel
+        g.clues.setdefault(tid, g.scenes[tag_rel].title + " (tag)")
+        for r in who:
+            nid = f"tag::{tag_rel}::{r}"
+            node = Node(id=nid, name=f"knows a carrier of {g.scenes[tag_rel].title}", kind="synthesis",
+                        scene=tag_rel, scene_title=g.scenes[tag_rel].title)
+            node.requires_clues = [_hook_id(r)]
+            node.gives_clues = [tid]
+            g.nodes[nid] = node
+            g.givers.setdefault(tid, []).append(nid)
+            g.clues.setdefault(_hook_id(r), g.scenes[r].hook or g.scenes[r].title)
+        for n in g.nodes.values():
+            if n.scene == tag_rel and n.kind != "synthesis" and tid not in n.requires_clues:
+                n.requires_clues = sorted(set(n.requires_clues) | {tid})
     return g
 
 

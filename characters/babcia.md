@@ -1,5 +1,7 @@
 # Stefania Kopacz
 
+**Tags:** [@name](../tags/lemko-raised.md)
+
 ## Hook
 
 [@first-name](babcia.md) [@surname](babcia.md), an elderly woman living with [@first-name](barbara.md) and [@first-name](pawelek.md).

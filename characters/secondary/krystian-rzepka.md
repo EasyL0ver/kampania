@@ -1,5 +1,7 @@
 # Krystian Rzepka
 
+**Tags:** [@name](../../tags/churchgoer.md)
+
 ## Hook
 
 - [@first-name](krystian-rzepka.md) [@surname](krystian-rzepka.md), the youngest Rzepka child, altar boy at the church.

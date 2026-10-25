@@ -2,6 +2,7 @@
 
 **Location:** [@name](../../locations/new-village/the-store.md)
 **Present:** [@name](../../characters/wujas.md), [@name](../../characters/secondary/romek-glowacz.md), [@name](../../characters/secondary/franek-mucha.md), [@name](../../characters/junior.md), [@name](../../characters/neighbour.md), [@name](../../characters/radioman.md)
+**Tags:** [@name](../../tags/libation.md)
 
 ## Hook
 
@@ -9,9 +10,14 @@
 
 ## Setup
 
-The men sit outside the store on benches and crates, passing [@name](../../items/bimber.md), and go in to buy rounds from [@first-name](../../characters/secondary/halina-zajac.md) and get sent back out. [@name](../../characters/junior.md) drinks with the crew, away from his father.[](#junior-sits-apart)[](#junior-brags-about-gun)
+The men sit outside the store on benches and crates, passing [@name](../../items/bimber.md), and go in to buy rounds from [@first-name](../../characters/secondary/halina-zajac.md) and get sent back out. [@name](../../characters/junior.md) drinks with the crew, away from his father.[](#junior-sits-apart)[](#junior-brags-about-gun)[](#the-crew-opens-the-first-bottle)
 
 ## Opportunities
+
+### The crew opens the first bottle
+- **When:** setup:events/the-binge/the-binge.md
+- **Outcome:** One of the crew sets the first bottle on the table and pours a round.
+- **Changes:** [Round](../../tags/libation.md#round) — +1
 
 ### Neighbour drinks fast
 - **Noticed by:** [Empathy](../../cards/empathy.md)

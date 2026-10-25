@@ -3,6 +3,7 @@
 **Part of:** [@name](the-binge.md)
 **Location:** [@name](../../locations/bimber-still.md)
 **Present:** [@name](../../characters/wujas.md), [@name](../../characters/secondary/romek-glowacz.md), [@name](../../characters/secondary/franek-mucha.md)
+**Tags:** [@name](../../tags/libation.md)
 
 ## Hook
 
@@ -10,9 +11,14 @@
 
 ## Setup
 
-The men sit around the fire with bottles and cards, drinking the still's own [@name](../../items/bimber.md).[](#crew-mock-past-state-surveyors)[](#crew-rib-geologist-as-drunk)
+The men sit around the fire with bottles and cards, drinking the still's own [@name](../../items/bimber.md).[](#crew-mock-past-state-surveyors)[](#crew-rib-geologist-as-drunk)[](#the-crew-opens-the-first-bottle)
 
 ## Opportunities
+
+### The crew opens the first bottle
+- **When:** setup:events/the-binge/at-the-still.md
+- **Outcome:** One of the crew sets the first bottle on the table and pours a round.
+- **Changes:** [Round](../../tags/libation.md#round) — +1
 
 ### Crew mock past state surveyors
 - **When:** [Drinking Buddy](../../characters/wujas.md#drinking-buddy) is true

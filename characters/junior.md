@@ -77,6 +77,20 @@ A cigarette is usually between his lips or behind his ear. His studied cool drop
 - **Outcome:** He says he owns nothing and lives under his father's roof. He waves the question off.
 - **Changes:** [Property Record](../items/census.md#property-record) — no property of his own, lives in his father's house
 
+### Drink them under the table
+- **Requires:** [@name](../tags/alcohol.md)
+<!-- Prompted by: hook:characters/junior.md -->
+- **Cost:** 1 time
+- **Outcome:** Past his limit the cool goes and he talks too fast: he is not snooping for himself, his mother sends him, she has been digging into the old days for years. Then he slides off the bench.
+- **Gives:** [`wife-has-been-investigating`](../clues/clues.md#wife-has-been-investigating)
+
+### Drink with them
+- **Requires:** [@name](../tags/alcohol.md)
+<!-- Prompted by: hook:characters/junior.md -->
+- **Cost:** 1 time
+- **Outcome:** He drinks with you like a man glad of the company, and lights a Carmen to show he can.
+- **Gives:** [`junior-smokes-carmen`](../clues/clues.md#junior-smokes-carmen)
+
 ## Bond
 
 - [ ] Talk to him about life in the city — Warsaw, Kraków, anywhere that is not here.

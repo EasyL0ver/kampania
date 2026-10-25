@@ -43,6 +43,15 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 - **[@name](wujas.md)** — "[@nickname](wujas.md) drinks to forget me. Drunk, he says things he should not; sober, he is beneath notice."
 - **[@name](hag.md)** — "I do not know who she is. Someone leaves signs at the well, and I chalk it up to the ruins being strange."
 
+## Mechanics
+
+### Unleashed
+
+- **Type:** bool
+- **Per:** world
+- **Start:** false
+- He drinks only while unleashed. TBD: what sets it.
+
 ## Opportunities
 
 ### Butcher smokes almost constantly
@@ -73,6 +82,7 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 
 ### Offer him a drink
 - **Requires:** [@name](../tags/alcohol.md)
+- **When:** [Unleashed](#unleashed) is false
 - **Outcome:** He waves the bottle off without a second look, no grin, no banter, just a flat refusal. He does not drink, and he does not explain it.
 - **Gives:** [butcher-doesnt-drink](../clues/clues.md#butcher-doesnt-drink)
 
@@ -88,6 +98,14 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 - **Cost:** 1 time
 - **Outcome:** No dodge, no worry. He shrugs and admits he gave the boy one, a boy has got to learn. He talks about [@first-name](glupek.md) warmly, like a nephew, and never once notices anything wrong with the fondness. He does not care that it places him near the door.
 - **Gives:** [`rezen-gave-edek-cigarette`](../clues/clues.md#rezen-gave-edek-cigarette)
+
+### Drink them under the table
+- **Requires:** [@name](../tags/alcohol.md)
+- **When:** [Unleashed](#unleashed) is true
+<!-- Prompted by: hook:characters/butcher.md -->
+- **Cost:** 1 time
+- **Outcome:** Past his limit the grin stays but the eyes go flat. He leans in close and tells you, pleasantly, that he has killed someone, and that it was easy. Then he laughs and is asleep before the laugh is finished.
+- **Gives:** [`butcher-murdered-someone`](../clues/clues.md#butcher-murdered-someone)
 
 ## Bond
 

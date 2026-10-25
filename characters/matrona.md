@@ -1,6 +1,6 @@
 # Helena Rzepka (née Gajda)
 
-**Tags:** [@name](../tags/villager.md)
+**Tags:** [@name](../tags/villager.md), [@name](../tags/churchgoer.md)
 
 ## Hook
 

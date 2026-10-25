@@ -24,6 +24,7 @@ No installs, no CDN: open the file in a browser.
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 import clue_graph as cg
@@ -44,7 +45,17 @@ def build_payload() -> dict:
                 relpath = cid.split(":", 1)[1]
                 folder = Path(relpath).parent.name
                 scat = {"characters": "character", "locations": "location",
-                        "events": "event", "items": "item"}.get(folder, "other")
+                        "events": "event", "items": "item", "tags": "tag"}.get(folder, "other")
+                if relpath.startswith("characters/"):
+                    scat = "character"                 # characters/secondary/ too
+                elif relpath.startswith("locations/"):
+                    scat = "location"
+                elif relpath.startswith("events/"):
+                    scat = "event"
+                elif relpath.startswith("tags/"):          # a tag takes the type of what it applies to
+                    m = re.search(r"^\*\*Applies to:\*\*\s*(\w+)", (cg.REPO_ROOT / relpath).read_text(encoding="utf-8"), re.M)
+                    scat = {"characters": "character", "locations": "location", "events": "event",
+                            "items": "item"}.get(m.group(1) if m else "", "other")
                 title = g.scenes[relpath].title if relpath in g.scenes else relpath
                 nodes[nid] = {"id": nid, "label": title, "kind": "scene",
                               "catg": "scene", "scat": scat,
@@ -170,7 +181,8 @@ HTML = r"""<!DOCTYPE html>
   .row.orphan .lbl { color:#8b6f4a; }
   .row.scene .lbl { color:#b08bd8; }
   #main { flex:1; position:relative; }
-  svg { width:100%; height:100%; display:block; }
+  #graph { width:100%; height:100%; display:block; }
+  .legend svg { display:inline-block; }
   #hint { position:absolute; top:10px; left:12px; color:#6b7280; font-size:11px; pointer-events:none; }
   #reset { position:absolute; top:8px; right:12px; padding:5px 10px; background:#1a1e27; border:1px solid #2a2f3c; color:#a7b0bd; border-radius:6px; cursor:pointer; }
   .link { fill:none; stroke:#5b6472; }
@@ -202,7 +214,7 @@ HTML = r"""<!DOCTYPE html>
 <div id="main">
   <button id="reset">Show all</button>
   <div id="hint">Node = clue (fact, or a clue known by an NPC). Edge = a move (gated by an ability) that yields a clue. Click a clue to isolate the moves that lead to it.</div>
-  <svg></svg>
+  <svg id="graph"></svg>
   <div id="legend" class="legend"></div>
   <div id="tip"></div>
 </div>
@@ -214,9 +226,13 @@ const NSx = "http://www.w3.org/2000/svg";
 // node type -> colour + shape
 const TYPE = {
   clue:       {color:"#6ea8fe", shape:"circle",   label:"fact clue"},
-  orphan:     {color:"#8b6f4a", shape:"circle",   label:"orphan clue"},
+  orphan:     {color:"#6ea8fe", shape:"circle",   label:"orphan clue (nothing gives it)"},
   known:      {color:"#e6b34d", shape:"circle",   label:"clue (NPC knows)"},
-  scene:      {color:"#b08bd8", shape:"diamond",  label:"hook (knowing of an entity)"},
+  character:  {color:"#d16a8f", shape:"triangle", label:"character (hook)"},
+  location:   {color:"#3fa7a1", shape:"square",   label:"location (hook)"},
+  event:      {color:"#9b7ede", shape:"diamond",  label:"event (hook)"},
+  item:       {color:"#d99a3f", shape:"hex",      label:"item (hook)"},
+  scene:      {color:"#b08bd8", shape:"diamond",  label:"hook (other)"},
   move:       {color:"#7d8695", shape:"dot",      label:"move (join / split)"},
 };
 // scene file category (kept for node fill tint of move helpers is by skill; scat only in tooltip)
@@ -233,7 +249,8 @@ const SKILL = {
 };
 const NOSKILL="#5b6472";
 function skillColor(s){ return SKILL[s] || NOSKILL; }
-function typeOf(n){ if(n.kind==="move") return "move"; if(n.kind==="known") return "known"; if(n.kind==="scene") return "scene"; if(n.kind==="clue") return orphan.has(n.label)?"orphan":"clue"; return n.catg; }
+function typeOf(n){ if(n.kind==="move") return "move"; if(n.kind==="known") return "known"; if(n.kind==="scene") return TYPE[n.scat]?n.scat:"scene"; if(n.kind==="clue") return orphan.has(n.label)?"orphan":"clue"; return n.catg; }
+function hollow(e, t){ e.style.fill="#0f1115"; e.style.stroke=(TYPE[t]||TYPE.clue).color; e.style.strokeWidth="2px"; return e; }
 function makeShape(t, s){
   const c=TYPE[t]||TYPE.clue; const NS=NSx; let e;
   if(c.shape==="circle"){ e=document.createElementNS(NS,"circle"); e.setAttribute("r",9*s); }
@@ -242,12 +259,13 @@ function makeShape(t, s){
   else if(c.shape==="square"){ e=document.createElementNS(NS,"rect"); const w=12*s; e.setAttribute("x",-w/2); e.setAttribute("y",-w/2); e.setAttribute("width",w); e.setAttribute("height",w); e.setAttribute("rx",2); }
   else if(c.shape==="triangle"){ e=document.createElementNS(NS,"polygon"); e.setAttribute("points",`0,${-8*s} ${7*s},${6*s} ${-7*s},${6*s}`); }
   else if(c.shape==="diamond"){ e=document.createElementNS(NS,"polygon"); e.setAttribute("points",`0,${-8*s} ${8*s},0 0,${8*s} ${-8*s},0`); }
+  else if(c.shape==="pentagon"){ const p=[]; for(let i=0;i<5;i++){ const a=-Math.PI/2+i*2*Math.PI/5; p.push(`${8*s*Math.cos(a)},${8*s*Math.sin(a)}`);} e=document.createElementNS(NS,"polygon"); e.setAttribute("points",p.join(" ")); }
   else if(c.shape==="hex"){ e=document.createElementNS(NS,"polygon"); e.setAttribute("points",`${6*s},${-3.5*s} ${6*s},${3.5*s} 0,${7*s} ${-6*s},${3.5*s} ${-6*s},${-3.5*s} 0,${-7*s}`); }
   e.setAttribute("fill",c.color);
   return e;
 }
 
-const svg = document.querySelector("svg");
+const svg = document.getElementById("graph");
 const NS = "http://www.w3.org/2000/svg";
 let W = svg.clientWidth, H = svg.clientHeight;
 const nodes = DATA.nodes.map(n=>({...n, x:Math.random()*W, y:Math.random()*H, vx:0, vy:0}));
@@ -323,7 +341,9 @@ nodes.forEach(n=>{
     t.style.fill=col;
     t.setAttribute("text-anchor","middle"); t.setAttribute("y",2.5); t.textContent=disp; g.appendChild(t);
   } else {
-    const shp=makeShape(typeOf(n), 1); g.appendChild(shp);
+    const shp=makeShape(typeOf(n), 1);
+    if(orphan.has(n.label)) hollow(shp, typeOf(n)==="orphan"?"clue":typeOf(n));
+    g.appendChild(shp);
     const t=document.createElementNS(NS,"text"); t.setAttribute("x",13); t.setAttribute("y",3);
     t.textContent=n.label.length>28?n.label.slice(0,27)+"…":n.label; g.appendChild(t);
   }
@@ -449,13 +469,18 @@ document.getElementById("stats").textContent=`${c.facts} facts · ${c.known} kno
 // legend
 (function(){
   const box=document.getElementById("legend");
-  const order=["clue","orphan","known","scene"];
+  const order=["clue","orphan","known","character","location","event","item"];
   order.forEach(t=>{
     const sp=document.createElement("span");
     const svgi=document.createElementNS(NSx,"svg"); svgi.setAttribute("width",16); svgi.setAttribute("height",16); svgi.style.verticalAlign="middle"; svgi.style.marginRight="4px";
-    const g=document.createElementNS(NSx,"g"); g.setAttribute("transform","translate(8,8)"); g.appendChild(makeShape(t,0.75)); svgi.appendChild(g);
+    const g=document.createElementNS(NSx,"g"); g.setAttribute("transform","translate(8,8)"); g.appendChild(t==="orphan"?hollow(makeShape(t,0.75),"clue"):makeShape(t,0.75)); svgi.appendChild(g);
     sp.appendChild(svgi); sp.appendChild(document.createTextNode(TYPE[t].label)); box.appendChild(sp);
   });
+  { const sp=document.createElement("span");
+    const svgi=document.createElementNS(NSx,"svg"); svgi.setAttribute("width",16); svgi.setAttribute("height",16); svgi.style.verticalAlign="middle"; svgi.style.marginRight="4px";
+    const g=document.createElementNS(NSx,"g"); g.setAttribute("transform","translate(8,8)");
+    const e=hollow(makeShape("character",0.75),"character");
+    g.appendChild(e); svgi.appendChild(g); sp.appendChild(svgi); sp.appendChild(document.createTextNode("orphan hook (nothing makes you aware)")); box.appendChild(sp); }
   // move helper node label colour = scene type
   Object.entries(SCAT).forEach(([lab,col])=>{
     const sp=document.createElement("span");

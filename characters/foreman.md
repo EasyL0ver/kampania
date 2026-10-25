@@ -72,11 +72,6 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 
 ## Actions
 
-### Ask him what a fleece weighs
-<!-- Prompted by: hook:items/pgr-income.md -->
-- **Outcome:** He answers like a man who signs the wool receipts: two to three kilos a head off this flock, mountain sheep, nothing like the lowland breeds.
-- **Gives:** [`fleece-weighs-2-to-3-kg`](../clues/clues.md#fleece-weighs-2-to-3-kg)
-
 ### Census interview
 <!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->
 - **Cost:** 1 time

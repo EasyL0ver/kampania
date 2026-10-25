@@ -359,9 +359,11 @@ def load(path: Path) -> Scene:
     moves, mechanics = [], []
     for g in files:
         own = _opportunities(g) + _actions(g)
-        for t in tags_of(g):                          # a tag's moves are added to whatever it tags
-            own += _opportunities(t) + _actions(t)
-            mechanics += _mechanics(t)
+        names = {V.slug(mv.name) for mv in own}
+        mech_names = {m.name for m in _mechanics(g)}
+        for t in tags_of(g):                          # a tag's moves are added to whatever it tags,
+            own += [mv for mv in _opportunities(t) + _actions(t) if V.slug(mv.name) not in names]   # unless overridden
+            mechanics += [m for m in _mechanics(t) if m.name not in mech_names]
         for mv in own:
             mv.present_if = gates.get(g.path.resolve())
         moves += own

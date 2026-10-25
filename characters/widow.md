@@ -1,5 +1,7 @@
 # Wanda Mazur
 
+**Tags:** [@name](../tags/old-settler.md), [@name](../tags/churchgoer.md)
+
 ## Hook
 
 [@first-name](widow.md) [@surname](widow.md), the grieving widow of a PGR worker, lives alone in a small house near the church.

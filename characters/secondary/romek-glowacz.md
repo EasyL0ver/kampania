@@ -34,3 +34,19 @@ A quieter drunk who listens more than he talks. Years of drinking and watching h
 ## Opinions
 
 - **[@name](../wujas.md)** — "He is not only a bottle beside mine. I know him better than most."
+
+## Actions
+
+### Drink them under the table
+- **Requires:** [@name](../../tags/alcohol.md)
+<!-- Prompted by: hook:characters/secondary/romek-glowacz.md -->
+- **Cost:** 1 time
+- **Outcome:** Past his limit the quiet man finally talks: the foreman once stood up to the sołtys over the grain, in front of everyone, and the farm has never forgotten it. Then he folds over his glass.
+- **Gives:** [`foreman-stood-up-to-the-soltys`](../../clues/clues.md#foreman-stood-up-to-the-soltys)
+
+### Drink with them
+- **Requires:** [@name](../../tags/alcohol.md)
+<!-- Prompted by: hook:characters/secondary/romek-glowacz.md -->
+- **Cost:** 1 time
+- **Outcome:** He drinks quietly, then lets out a joke: survey men are all famous drunks, the last lot drank the whole visit.
+- **Gives:** [`surveyors-are-known-drunks`](../../clues/clues.md#surveyors-are-known-drunks)

@@ -1,6 +1,6 @@
 # Ryszard Dudka
 
-**Tags:** [@name](../tags/villager.md)
+**Tags:** [@name](../tags/villager.md), [@name](../tags/old-settler.md)
 
 ## Hook
 
@@ -125,6 +125,20 @@ He speaks in short flat sentences with long pauses[](#property-assessment). He g
 - **When:** [Humiliated](#humiliated) is true
 - **Outcome:** The player puts the steel back in him and gives him his face back.
 - **Changes:** [Humiliated](#humiliated) — clears Humiliated
+
+### Drink them under the table
+- **Requires:** [@name](../tags/alcohol.md)
+<!-- Prompted by: hook:characters/neighbour.md -->
+- **Cost:** 1 time
+- **Outcome:** Past his limit the silence breaks for one sentence: the Barnaś girl is dead, he found her in the forest and buried her himself. Then he puts his head down and is gone.
+- **Gives:** [`neighbour-believes-jagna-dead`](../clues/clues.md#neighbour-believes-jagna-dead)
+
+### Drink with them
+- **Requires:** [@name](../tags/alcohol.md)
+<!-- Prompted by: hook:characters/neighbour.md -->
+- **Cost:** 1 time
+- **Outcome:** Over the glass he grumbles about the wolves: weeks out with the rifle, and not one of them.
+- **Gives:** [`dudka-failed-wolf-hunt`](../clues/clues.md#dudka-failed-wolf-hunt)
 
 ## Bond
 

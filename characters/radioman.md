@@ -1,5 +1,7 @@
 # Bolesław Kurek
 
+**Tags:** [@name](../tags/old-settler.md)
+
 ## Hook
 
 The village drunk who was once its schoolteacher, loud against the authorities to anyone who'll share a bottle.
@@ -122,6 +124,13 @@ He knows the official history, that the old village was Lemko and was cleared in
 - **Cost:** 1 time
 - **Outcome:** He gestures at the falling-down cottage the state parked him in.
 - **Changes:** [Property Record](../items/census.md#property-record) — run-down state-assigned cottage
+
+### Drink with them
+- **Requires:** [@name](../tags/alcohol.md)
+<!-- Prompted by: hook:characters/radioman.md -->
+- **Cost:** 1 time
+- **Outcome:** Into the bottle he tells ghost stories: lights in the old village at night, and nobody goes up there after dark.
+- **Gives:** [`old-village-is-haunted`](../clues/clues.md#old-village-is-haunted)
 
 ## Bond
 
