@@ -17,16 +17,31 @@ The river, hillsides, and forest edges around [@name](new-village/new-village.md
 - Streams cross ridges through narrow water-gaps.
 - [@name](new-village/new-village.md) sits in one valley.
 - [@name](old-village-ruins.md) lies in the lower valley beyond a sandstone ridge.
-- The map marks a [@name](the-ridge-gap.md) through the ridge between the new-village valley and the empty [@name](big-basin.md).
+- The map marks a [@name](the-ridge-gap.md) through the ridge[](#a-notch-in-the-ridge) between the new-village valley and the empty [@name](big-basin.md).
 - The marked water-gap is blocked by loose earth and broken rock from an old landslide.[](#ridge-notch-choked-with-landslide)
-- A far ridge across the valley carries an old dry streambed that appears to spill toward the next valley; see the [@name](far-ridge-streambed/far-ridge-streambed.md).
+- A far ridge across the valley carries an old dry streambed[](#a-dry-streambed-on-the-far-ridge) that appears to spill toward the next valley; see the [@name](far-ridge-streambed/far-ridge-streambed.md).
 - The wojewoda's new bridge spans the river's present bed; on the map that ground is drawn dry, with the river on its old course.[](#bridge-over-water-map-shows-dry)
 - The southern approach rises into a low ridge of higher ground.
 - The survey route can pass the old village ruins.[](#stone-ruins-visible-through-trees)
-- One route passes the last house before the treeline[](#butcher-alone-near-treeline), [@name](../characters/butcher.md)'s house.
+- One route passes the last house before the treeline[](#the-last-house-before-the-treeline)[](#butcher-alone-near-treeline), [@name](../characters/butcher.md)'s house.
 - One route crosses the track used by [@name](../characters/wujas.md)'s drinking crew.[](#crew-carrying-bottles-toward-forest)
 
 ## Opportunities
+
+### A notch in the ridge
+- **When:** setup:locations/village-outskirts.md
+- **Outcome:** A low notch where the ridge dips, at the end of the valley.
+- **Gives:** located:locations/the-ridge-gap.md
+
+### A dry streambed on the far ridge
+- **When:** setup:locations/village-outskirts.md
+- **Outcome:** An old dry streambed on the far ridge across the valley.
+- **Gives:** located:locations/far-ridge-streambed/far-ridge-streambed.md
+
+### The last house before the treeline
+- **When:** setup:locations/village-outskirts.md
+- **Outcome:** A dark timber house, the last before the treeline.
+- **Gives:** located:locations/new-village/butchers-house.md
 
 ### Stone ruins visible through trees
 - **Noticed by:** [Survival](../cards/survival.md)

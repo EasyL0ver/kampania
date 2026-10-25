@@ -28,7 +28,7 @@ A working farmer who claims the border strip by years of labour while her brothe
 
 - **Clothes:** Headscarf, heavy skirt, man's jacket, field boots; red cracked hands
 - **Hair & face:** Weathered younger than her years; hair pulled back hard; jaw set until the strip comes up[](#anger-at-the-strip-avoiding-the-deathbed)
-- **Carriage:** Strong, quick, and economical; arms fold tight when she speaks about her father
+- **Carriage:** Strong, quick, and economical; arms fold tight when she speaks about her father[](#introduce-yourself)
 - **Voice:** Blunt and tired, sharper when the deed is mentioned
 
 She states her case rather than begging for it. When she repeats her father's last words, her anger drops and something colder takes its place.
@@ -52,6 +52,11 @@ She states her case rather than begging for it. When she repeats her father's la
 - **Outcome:** Her unease fits someone told a place is bloodied, not someone who merely dislikes ruins.
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/dispute-sister.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/dispute-sister.md
 
 ### Census interview
 <!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->

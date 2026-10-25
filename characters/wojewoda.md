@@ -30,7 +30,7 @@ Sołtys, pragmatic, authoritative, and controlled. He built [@name](../locations
 
 - **Clothes:** Pressed trousers, polished shoes, wool vest over white shirt even in summer.
 - **Hair & face:** Thinning grey-black hair combed straight back with water; thick grey moustache neatly trimmed; heavy brows over sharp dark eyes.
-- **Carriage:** Stocky and barrel-chested; feet planted, hands behind his back, taking space deliberately.
+- **Carriage:** Stocky and barrel-chested; feet planted, hands behind his back, taking space deliberately.[](#introduce-yourself)
 
 His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-him-youre-inventorying-movable-assets)
 
@@ -98,6 +98,11 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 - **Gives:** [`village-unaware-of-miscalculation`](../clues/clues.md#village-unaware-of-miscalculation)
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/wojewoda.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/wojewoda.md
 
 ### Census interview
 <!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->

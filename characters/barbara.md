@@ -29,7 +29,7 @@ Poor, warm, curious, and dangerously open. She is the village sieve: what the pl
 
 - **Clothes:** Faded floral housedress, oversized man's cardigan, rubber boots caked in mud
 - **Hair & face:** Soft brown hair in a loose practical bun; round face, high Lemko cheekbones, warm brown eyes
-- **Carriage:** Leans in when she talks, touches arms, and fills space with unguarded warmth
+- **Carriage:** Leans in when she talks, touches arms, and fills space with unguarded warmth[](#introduce-yourself)
 - **Voice:** Loud, friendly, and easy to overhear across the yard
 
 She never seems to lower her voice. Her kindness makes conversation feel safe, which is why players may not notice how much they are giving away.
@@ -83,6 +83,11 @@ She never seems to lower her voice. Her kindness makes conversation feel safe, w
 - **Outcome:** [@first-name](barbara.md)'s kind descriptions skip [@name](butcher.md) unless asked, soften [@name](wujas.md), and avoid judging [@name](matrona.md).
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/barbara.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/barbara.md
 
 ### Census interview
 <!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->

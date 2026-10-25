@@ -26,7 +26,7 @@ Bright, fearless four-year-old who wanders too far and repeats things without un
 
 - **Clothes:** Oversized hand-me-down shirt with rolled sleeves, shorts held up with twine, bare feet black with mud, his only shoes left by the door caked in dark mud[](#mud-with-worked-stone), pockets full of stones and dead beetles
 - **Hair & face:** Sandy-brown hair cut unevenly with kitchen scissors and always in his eyes; round face, gap-toothed grin, skinned knees
-- **Carriage:** Runs everywhere, climbs everything, grabs your hand and drags you; no concept of personal space or boundaries
+- **Carriage:** Runs everywhere, climbs everything, grabs your hand and drags you; no concept of personal space or boundaries[](#introduce-yourself)
 
 He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversations replayed without understanding.
 
@@ -113,6 +113,11 @@ He mimics sounds perfectly: Babcia's prayers, bird calls, and adult conversation
 - **Gives:** hook:locations/old-village-ruins.md
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/pawelek.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/pawelek.md
 
 ### Build with Pawelek
 - **Requires:** [Handiwork](../cards/handiwork.md)

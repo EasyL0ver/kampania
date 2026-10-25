@@ -29,7 +29,7 @@ The farm's shepherd. He lives up on the pasture with the flock through the summe
 
 - **Clothes:** The same wool coat and sheepskin waistcoat for weeks, dew-soaked at the hem.
 - **Hair & face:** Grey stubble; eyes red-rimmed and too wide, the skin under them dark as a bruise.[](#he-hasnt-slept-in-days)
-- **Carriage:** Stays on his feet and leans on his crook rather than sit. Every so often he stops mid-word, eyes open, and picks up again a little further on. His hands will not keep still.[](#he-needs-a-drink)
+- **Carriage:** Stays on his feet and leans on his crook rather than sit. Every so often he stops mid-word, eyes open, and picks up again a little further on. His hands will not keep still.[](#he-needs-a-drink)[](#introduce-yourself)
 
 ## Mechanics
 
@@ -60,6 +60,11 @@ The farm's shepherd. He lives up on the pasture with the flock through the summe
 - **Gives:** [`wolves-are-driven-by-the-rain`](../clues/clues.md#wolves-are-driven-by-the-rain)
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/owczarz.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/owczarz.md
 
 ### Ask what happened here
 - **When:** [Agitated](#agitated) is true

@@ -28,7 +28,7 @@ PGR farm overseer, competent, pragmatic, and loyal to [@name](wojewoda.md). He c
 
 - **Clothes:** Wool flat cap in all weather, oil-stained trousers held up by braces, collarless shirt.
 - **Hair & face:** Short cropped hair under the cap; broad jaw, flat nose broken once and set crooked, small shrewd eyes under heavy brows.
-- **Carriage:** Stocky, barrel-chested, low to the ground; slight limp from an old tractor injury; hands drum, grip, and point.
+- **Carriage:** Stocky, barrel-chested, low to the ground; slight limp from an old tractor injury; hands drum, grip, and point.[](#introduce-yourself)
 
 Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructions or verdicts, not decoration.
 
@@ -71,6 +71,11 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 - **Gives:** [foreman-uneasy-about-ditch](../clues/clues.md#foreman-uneasy-about-ditch)
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/foreman.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/foreman.md
 
 ### Census interview
 <!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->

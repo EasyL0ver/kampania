@@ -14,7 +14,7 @@ The best plot in [@name](../new-village.md), across from the Neighbour's house.
 - **Interior:** Candles are lit.
 - **Interior:** The house smells of soap and cooked grain.
 - **Door:** Two locks on the front door — one old and pitted low on the frame, one newer above it[](#two-locks-fitted-at-different-times). It reads as a fearful woman's caution.
-- **Attic:** A hatch in the ceiling with a short ladder folded beside it. It stays shut, and [@first-name](../../../characters/ciotka.md) is the only one who goes up.
+- **Attic:** A hatch in the ceiling with a short ladder folded beside it.[](#a-hatch-in-the-ceiling) It stays shut, and [@first-name](../../../characters/ciotka.md) is the only one who goes up.
 - **[@first-name](../../../characters/glupek.md):** He plays with a few worn wooden toys and keeps asking [@first-name](../../../characters/ciotka.md) for more of them.[](#glupek-asks-for-toys-in-the-attic)
 - **[@first-name](../../../characters/glupek.md)'s care:** Sharp edges, clutter, and surprises are removed.
 - **[@first-name](../../../characters/glupek.md)'s room:** His own room. Straw mattress, age-inappropriate wooden toy, scratch marks on the wall.
@@ -28,6 +28,11 @@ The best plot in [@name](../new-village.md), across from the Neighbour's house.
 - **Backyard:** The patch can look like a failed old garden bed.
 
 ## Opportunities
+
+### A hatch in the ceiling
+- **When:** setup:locations/new-village/ciotkas-house/ciotkas-house.md
+- **Outcome:** A hatch in the ceiling, a short ladder folded beside it.
+- **Gives:** located:locations/new-village/ciotkas-house/attic.md
 
 ### Two locks fitted at different times
 - **Noticed by:** [Handiwork](../../../cards/handiwork.md)

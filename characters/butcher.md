@@ -29,7 +29,7 @@ Charismatic, uninhibited, and dangerous. He participated in the 1947 massacre an
 
 - **Clothes:** Clean pressed shirt, good boots, cologne; sharper dress than the village norm
 - **Hair & face:** Dark hair slicked back with lard; weathered red-brown face, wide smile, pale grey eyes
-- **Carriage:** Broad-shouldered, stands too close, takes up too much space
+- **Carriage:** Broad-shouldered, stands too close, takes up too much space[](#introduce-yourself)
 - **Cigarette:** He nearly always has one going, a fresh one lit off the last.[](#butcher-smokes-almost-constantly)
 - **Voice:** Warm baritone pitched for an audience; loud laughter that can stop without warning
 
@@ -61,6 +61,11 @@ People laugh along because the alternative feels dangerous. When he goes quiet, 
 - **Gives:** [butcher-smokes-carmen](../clues/clues.md#butcher-smokes-carmen)
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/butcher.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/butcher.md
 
 ### Census interview
 <!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->

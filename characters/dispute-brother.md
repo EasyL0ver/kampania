@@ -27,7 +27,7 @@ A lorry driver with a valid deed to the house and border strip his sister has fa
 
 - **Clothes:** Worn village jacket over a clean-ish shirt; boots that do not spend every day in a field
 - **Hair & face:** Short practical haircut, clean-shaven or a day's stubble; soft, tired, unremarkable face
-- **Carriage:** Weight back, hands in pockets, unhurried
+- **Carriage:** Weight back, hands in pockets, unhurried[](#introduce-yourself)
 - **Voice:** Plain and calm, without pleading or raised volume
 
 He speaks like a man who knows the rules are already on his side. His reasonableness makes ruling against him feel harder, not easier.
@@ -56,6 +56,11 @@ He speaks like a man who knows the rules are already on his side. His reasonable
 - **Outcome:** The deed has father's title, proper transfer, and the strip plainly inside the line.
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/dispute-brother.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/dispute-brother.md
 
 ### Census interview
 <!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->

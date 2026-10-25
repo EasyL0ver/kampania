@@ -26,7 +26,7 @@ SB secret police agent and true believer in the communist project. He knows abou
 
 - **Clothes:** Grey wool overcoat, pressed shirt and tie, polished shoes wrong for village mud
 - **Hair & face:** Clean-shaven, hair clipped short with geometric precision; forgettable features, but dark, intelligent eyes give him away
-- **Carriage:** Compact military posture he can't switch off; shoulders square, chin up, hands clasped behind his back when listening
+- **Carriage:** Compact military posture he can't switch off; shoulders square, chin up, hands clasped behind his back when listening[](#introduce-yourself)
 
 Travels in a Milicja Nysa van, driven by [@name](driver.md). Smells of cheap state cologne. His voice is quiet and controlled; he drops it instead of raising it, forcing people to lean in.
 
@@ -36,6 +36,11 @@ Travels in a Milicja Nysa van, driven by [@name](driver.md). Smells of cheap sta
 - **[@name](priest.md)** — "[@name](../locations/new-village/the-church/the-church.md) is a relic and a rival power structure. I would like a reason to shut the parish down, even though his silence and mine currently serve the same order."
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/officer.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/officer.md
 
 ### Ask what this is all about
 - **Outcome:** The Solina dam is nearly done; every other village in its way is emptied. Not [@name](../locations/new-village/new-village.md): the engineers say it stays dry. [@title](professor.md) [@surname](professor.md) of AGH doubts the map's heights and the drainage. Warsaw wants it settled, quietly. "You observe."

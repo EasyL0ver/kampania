@@ -29,9 +29,16 @@ A common farmhand who does physical labor alongside [@name](../barbara.md). He m
 
 - **Clothes:** Not specified.
 - **Hair & face:** Not specified.
-- **Carriage:** Not specified.
+- **Carriage:** Not specified.[](#introduce-yourself)
 
 ## Opinions
 
 - **[@name](../barbara.md)** — "She works near me. That does not mean I know her business."
 - **[@name](../wujas.md)** — "A drink loosens tongues, but it does not make every word true."
+
+## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/secondary/jozef-nowak.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/secondary/jozef-nowak.md

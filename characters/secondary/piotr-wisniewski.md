@@ -29,9 +29,16 @@ A young farmhand who wants land of his own or a way out of the village. His ambi
 
 - **Clothes:** Not specified.
 - **Hair & face:** Not specified.
-- **Carriage:** Not specified.
+- **Carriage:** Not specified.[](#introduce-yourself)
 
 ## Opinions
 
 - **[@name](../barbara.md)** — "I see more than older workers think I see."
 - **[@name](../junior.md)** — "If he is careless, that is his problem, not mine."
+
+## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/secondary/piotr-wisniewski.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/secondary/piotr-wisniewski.md

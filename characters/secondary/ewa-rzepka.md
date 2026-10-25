@@ -26,9 +26,16 @@
 
 - **Clothes:** Not specified.
 - **Hair & face:** Not specified.
-- **Carriage:** Not specified.
+- **Carriage:** Not specified.[](#introduce-yourself)
 
 ## Opinions
 
 - **[@name](../painter.md)** — "I see how easily he breaks. I will not pretend he is well."
 - **[@name](../matrona.md)** — "Mother decides what our house shows the village. I know better than to cross that lightly."
+
+## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/secondary/ewa-rzepka.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/secondary/ewa-rzepka.md

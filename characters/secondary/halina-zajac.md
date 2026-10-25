@@ -29,7 +29,7 @@
 
 - **Clothes:** Not specified.
 - **Hair & face:** Not specified.
-- **Carriage:** Not specified.
+- **Carriage:** Not specified.[](#introduce-yourself)
 
 ## Opinions
 
@@ -39,6 +39,11 @@
 - **[pawelek-needs-penicillin](../../clues/clues.md#pawelek-needs-penicillin)** — "It is in the cabinet, but the key is [@first-name](../matrona.md)'s, not mine, and I cannot hand out penicillin without a prescription. Take that up with her, not me."
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/secondary/halina-zajac.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/secondary/halina-zajac.md
 
 ### Ask who smokes what
 - **Requires:** [@name](../../cards/bond-halina-zajac.md)

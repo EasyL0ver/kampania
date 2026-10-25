@@ -29,7 +29,7 @@ Quiet hunter who heard everything in 1954 and did nothing. He carries the guilt 
 
 - **Clothes:** Wool trousers held up by braces, flannel shirt with sleeves rolled in summer, heavy boots — same outfit every day
 - **Hair & face:** Flat cap he rarely removes; pale blue eyes, strong jaw, three-day stubble that never becomes a beard
-- **Carriage:** Thin but very tall, a head above most men, with a lean hunter's build; quiet even indoors; shoulders slightly forward, watches hands and posture more than faces
+- **Carriage:** Thin but very tall, a head above most men, with a lean hunter's build; quiet even indoors; shoulders slightly forward, watches hands and posture more than faces[](#introduce-yourself)
 
 He speaks in short flat sentences with long pauses[](#property-assessment). He goes quieter when angry, not louder[](#census-interview), and smells of tobacco smoke and pine resin.
 
@@ -73,6 +73,11 @@ He speaks in short flat sentences with long pauses[](#property-assessment). He g
 - True once [@surname](neighbour.md) knows [@name](hag.md) goes to the well ([Warn him about the well](#warn-him-about-the-well), [Tell him the woman tends the well](#tell-him-the-woman-tends-the-well)).
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/neighbour.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/neighbour.md
 
 ### Census interview
 <!-- Prompted by: setup:characters/neighbour.md -->

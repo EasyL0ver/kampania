@@ -41,7 +41,7 @@ def build_payload() -> dict:
     def add_fact(cid: str):
         nid = f"clue:{cid}"
         if nid not in nodes:
-            if cid.startswith("hook:"):
+            if cid.startswith(("hook:", "met:", "located:")):
                 relpath = cid.split(":", 1)[1]
                 folder = Path(relpath).parent.name
                 scat = {"characters": "character", "locations": "location",
@@ -57,6 +57,10 @@ def build_payload() -> dict:
                     scat = {"characters": "character", "locations": "location", "events": "event",
                             "items": "item"}.get(m.group(1) if m else "", "other")
                 title = g.scenes[relpath].title if relpath in g.scenes else relpath
+                if cid.startswith("met:"):
+                    title += " (met)"
+                elif cid.startswith("located:"):
+                    title += " (located)"
                 nodes[nid] = {"id": nid, "label": title, "kind": "scene",
                               "catg": "scene", "scat": scat,
                               "desc": g.clues.get(cid, ""), "location": ""}

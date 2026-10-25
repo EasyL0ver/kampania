@@ -29,13 +29,18 @@ A quieter drunk who listens more than he talks. Years of drinking and watching h
 
 - **Clothes:** Not specified.
 - **Hair & face:** Not specified.
-- **Carriage:** Not specified.
+- **Carriage:** Not specified.[](#introduce-yourself)
 
 ## Opinions
 
 - **[@name](../wujas.md)** — "He is not only a bottle beside mine. I know him better than most."
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/secondary/romek-glowacz.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/secondary/romek-glowacz.md
 
 ### Drink them under the table
 - **Requires:** [@name](../../tags/alcohol.md)

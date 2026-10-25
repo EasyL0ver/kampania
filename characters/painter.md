@@ -28,7 +28,7 @@
 
 - **Clothes:** Paint-spattered work clothes in the garden shed; downstairs, dressed neatly in whatever[](#show-painter-the-dress) [@first-name](matrona.md) lays out for him
 - **Hair & face:** Thinning grey hair, paint-flecked at the temples; gaunt cheeks, watery blue eyes that won't hold a gaze
-- **Carriage:** Thin, stooped, and wall-hugging; moves tentatively, flinches at sudden movement, makes himself small
+- **Carriage:** Thin, stooped, and wall-hugging; moves tentatively, flinches at sudden movement, makes himself small[](#introduce-yourself)
 
 His hands are the only alive part of him[](#press-painter-on-the-streambeds-detail): long-fingered, always stained with cadmium yellow and Prussian blue. He smells of linseed oil.
 
@@ -48,6 +48,11 @@ His hands are the only alive part of him[](#press-painter-on-the-streambeds-deta
 - **Gives:** [emil-doesnt-paint-people](../clues/clues.md#emil-doesnt-paint-people)
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/painter.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/painter.md
 
 ### Show Painter the dress
 - **Requires:** [@name](../items/girls-dress.md)

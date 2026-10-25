@@ -29,7 +29,7 @@ The village drunk was once its schoolteacher, until the state took the post and 
 
 - **Clothes:** Grey suit jacket gone shiny at the elbows[](#jacket-and-cadence-reveal-former-profession), the last relic of the teacher he was, over peasant trousers and a collarless shirt; nothing fits, nothing is clean
 - **Hair & face:** Grey stubble he shaves twice a week; wire spectacles mended with copper wire; broken veins across the nose; eyes still sharp when drink has not dulled them
-- **Carriage:** Stands too straight when making a point, then folds again; hands tremble until the first glass steadies them
+- **Carriage:** Stands too straight when making a point, then folds again; hands tremble until the first glass steadies them[](#introduce-yourself)
 
 He talks in a teacher's cadence, reaches for clever phrases, half-remembers Latin tags, and quotes broadcasts he heard through static. He reeks of bimber and cold ash.
 
@@ -70,6 +70,11 @@ He knows the official history, that the old village was Lemko and was cleared in
 - **Outcome:** The jacket and cadence mark what he was before the bottle: an educated man, a teacher, and someone the state broke on purpose.
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/radioman.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/radioman.md
 
 ### Ask where the good bimber comes from
 <!-- Prompted by: hook:items/bimber.md -->

@@ -22,9 +22,14 @@
 - If dam floods reach [@name](old-village.md), the well goes underwater.
 - Well hazards: unstable stone, unknown depth, water, unsafe excavation.
 - Day 2+ after the wolf hunt: fresh blood can be visible on the well's stone rim.
-- Set apart from the homestead ruins, a larger timber building still stands[](#old-church-standing-among-homesteads): the village cerkiew, its roof sagging and fire-marked but upright.
+- Set apart from the homestead ruins, a larger timber building still stands[](#a-timber-building-set-apart)[](#old-church-standing-among-homesteads): the village cerkiew, its roof sagging and fire-marked but upright.
 
 ## Opportunities
+
+### A timber building set apart
+- **When:** setup:locations/old-village-ruins.md
+- **Outcome:** A larger timber building set apart from the homesteads, still standing.
+- **Gives:** located:locations/old-village-cerkiew.md
 
 ### Charred and collapsed wooden buildings
 - **When:** setup:locations/old-village-ruins.md

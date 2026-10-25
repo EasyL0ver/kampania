@@ -28,13 +28,18 @@ A younger, aggressive brawler in [@name](../wujas.md)'s drinking circle. He is t
 
 - **Clothes:** Not specified.
 - **Hair & face:** Not specified.
-- **Carriage:** Not specified.
+- **Carriage:** Not specified.[](#introduce-yourself)
 
 ## Opinions
 
 - **[@name](../wujas.md)** — "We drink together, but old debts do not vanish in bimber."
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/secondary/franek-mucha.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/secondary/franek-mucha.md
 
 ### Drink them under the table
 - **Requires:** [@name](../../tags/alcohol.md)

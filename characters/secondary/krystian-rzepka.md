@@ -28,9 +28,16 @@
 
 - **Clothes:** Not specified.
 - **Hair & face:** Not specified.
-- **Carriage:** Not specified.
+- **Carriage:** Not specified.[](#introduce-yourself)
 
 ## Opinions
 
 - **[@name](../priest.md)** — "I help him at the church and I notice who comes and goes."
 - **[@name](../matrona.md)** — "Mother knows what is proper. I listen to her first."
+
+## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/secondary/krystian-rzepka.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/secondary/krystian-rzepka.md

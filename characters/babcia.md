@@ -29,7 +29,7 @@ Sharp-tongued, often disoriented, and unexpectedly lucid. She is a living archiv
 
 - **Clothes:** Faded black housedress, knitted shawl in every season, wool stockings sagging at the ankles
 - **Hair & face:** Thin white hair pinned back with one black hairpin; sharp Lemko cheekbones, pale grey eyes
-- **Carriage:** Hunched almost double, rocking in her chair; gnarled hands curled from fieldwork
+- **Carriage:** Hunched almost double, rocking in her chair; gnarled hands curled from fieldwork[](#introduce-yourself)
 - **Voice & smell:** Woodsmoke and camphor; sudden hard focus between long stretches of muttering
 
 When her attention fixes on someone, the room feels smaller. The same mouth that loses a sentence halfway through can recite a prayer without a missed word.
@@ -42,6 +42,11 @@ When her attention fixes on someone, the room feels smaller. The same mouth that
 - **[@name](priest.md)** — "He is Roman Catholic, not my priest and not my church. He means well, but he does not know the old rites."
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/babcia.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/babcia.md
 
 ### Speak Ukrainian to Babcia
 - **Requires:** [Language](../cards/language.md)

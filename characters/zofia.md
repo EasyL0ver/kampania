@@ -29,7 +29,7 @@ PGR cook and the warmest person in the village. She knows about the silo cover-u
 
 - **Clothes:** Flour-dusted apron over a faded print dress; always looks like she just left the stove.
 - **Hair & face:** Dark hair pinned up loosely, strands escaping; round face, deep laugh lines around brown eyes.
-- **Carriage:** Sturdy, broad red hands always in motion — stirring, kneading, wiping a child's face.
+- **Carriage:** Sturdy, broad red hands always in motion — stirring, kneading, wiping a child's face.[](#introduce-yourself)
 
 Her carrying voice is warm and practical.[](#voice-succeeds-where-force-and-reason-fail) As the well takes hold, the smile stays but her eyes go flat, her movements slow, and the kitchen goes quiet.
 
@@ -50,6 +50,11 @@ Her carrying voice is warm and practical.[](#voice-succeeds-where-force-and-reas
 - **Outcome:** Force and reason will not reach [@first-name](foreman.md) at the flood line; her voice can.
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/zofia.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/zofia.md
 
 ### Ask her how many chickens there are
 <!-- Prompted by: [zofia-takes-care-of-chickens](../clues/clues.md#zofia-takes-care-of-chickens) -->

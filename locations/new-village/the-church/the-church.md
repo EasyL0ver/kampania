@@ -7,7 +7,7 @@ The church on the hill in [@name](../new-village.md), beside the cemetery.
 ## Setup
 
 - The wooden church stands on the hill above the village.
-- The priest's house, [@name](the-rectory.md), stands beside it.
+- The priest's house, [@name](the-rectory.md), stands beside it.[](#a-house-beside-the-church)
 - The church is unusually well-maintained for the village's poverty.[](#church-better-supplied-than-village)
 - Fresh paint, a solid roof, stacked firewood, supplies, icons, candles, and incense are present.
 - The cemetery is adjacent to the church.
@@ -20,6 +20,11 @@ The church on the hill in [@name](../new-village.md), beside the cemetery.
 - The plebania cellar has stone walls, old liturgical supplies, jars, dust, and a door with a newer padlock.
 
 ## Opportunities
+
+### A house beside the church
+- **When:** setup:locations/new-village/the-church/the-church.md
+- **Outcome:** A house beside the church.
+- **Gives:** located:locations/new-village/the-church/the-rectory.md
 
 ### Church better supplied than village
 - **Noticed by:** [Handiwork](../../../cards/handiwork.md)

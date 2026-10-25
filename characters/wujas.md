@@ -29,7 +29,7 @@ Alcoholic wreck and the weakest link in the cover-up. He helped in the 1954 lync
 
 - **Clothes:** Checked shirt with rolled sleeves, old marynarka with elbow patches, maciejówka cap cocked forward.
 - **Hair & face:** Still handsome under the wear; unshaven, bloodshot eyes visible up close.
-- **Carriage:** Lean and rangy; moves loose and easy, like he is still the life of the party.
+- **Carriage:** Lean and rangy; moves loose and easy, like he is still the life of the party.[](#introduce-yourself)
 
 His raspy warm voice gets louder and funnier with drink. The morning shakes and the silence after the charm runs out are private.
 
@@ -88,6 +88,11 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 - **Outcome:** Drunk, he performs a property boast: he claims a fake grand estate made of the still, his brother's house, and moonlight.
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/wujas.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/wujas.md
 
 ### Census interview
 <!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->

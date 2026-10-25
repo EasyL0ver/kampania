@@ -66,6 +66,7 @@ PROMPT_TAG = re.compile(r"<!-- Prompted by: (.*?) -->")   # hidden; own line in 
 # its ## Hook. It behaves as a pseudo-clue whose node id is "hook:<relpath>". Gives grants it;
 # Prompted by leads from it, and so does "setup:<relpath>" (being there needs knowing of it).
 HOOK_REF = re.compile(r"\bhook:([A-Za-z0-9/_.-]+(?:\.md|/))")   # knowing of an entity (its Hook)
+LOCATED_REF = re.compile(r"\blocated:(locations/[A-Za-z0-9/_.-]+\.md)")   # knowing the way to a place
 SETUP_REF = re.compile(r"\bsetup:([A-Za-z0-9/_.-]+\.md)")        # cued by an entity's Setup: being there
 ACTION_LINK = re.compile(r"\[[^\]@]+\]\(([^)#\s]*)#([a-z0-9-]+)\)")   # a When term naming a move
 SECTION_NAMES = {"opportunities", "actions"}
@@ -78,11 +79,44 @@ def _slug(title: str) -> str:
     return re.sub(r"[ \t]", "-", t)
 
 
+_SCHED: dict[str, list[str]] | None = None
+SCHED_SKIP = {"locations/new-village/new-village.md"}   # the village at large: everyone knows it, it leads nowhere
+
+
+def schedules() -> dict[str, list[str]]:
+    """character rel -> the places its Morning/Afternoon/Evening/Night put it (village at large left out)."""
+    global _SCHED
+    if _SCHED is None:
+        _SCHED = {}
+        for f in sorted((REPO_ROOT / "characters").rglob("*.md")):
+            rel = str(f.relative_to(REPO_ROOT)).replace("\\", "/")
+            text = f.read_text(encoding="utf-8")
+            places = []
+            for phase in ("Morning", "Afternoon", "Evening", "Night"):
+                m = re.search(r"^- \*\*%s:\*\*(.*)$" % phase, text, re.M)
+                for t in MD_LINK.findall(m.group(1)) if m else []:
+                    loc = str((f.parent / t).resolve().relative_to(REPO_ROOT)).replace("\\", "/")
+                    if loc.startswith("locations/") and loc not in SCHED_SKIP and loc not in places:
+                        places.append(loc)
+            if places:
+                _SCHED[rel] = places
+    return _SCHED
+
+
+def _setup_id(relpath: str) -> str:
+    """Being cued by an entity's Setup. A scheduled character is met by going where they are
+    ("met:<rel>", led by knowing any of their places); anything else needs knowing of it (its hook)."""
+    if relpath.startswith("locations/"):
+        return "located:" + relpath        # being at a place needs knowing the way there
+    return "met:" + relpath if relpath in schedules() else _hook_id(relpath)
+
+
 def _lead_ids(text: str) -> list[str]:
-    """The clues a Prompted by / When points back to: hook: and setup: both lead from knowing the
-    entity (its existence node). A tag's setup is the tagged scene's, so it names no one entity."""
-    paths = HOOK_REF.findall(text) + [p for p in SETUP_REF.findall(text) if not p.startswith("tags/")]
-    return sorted({_hook_id(p) for p in paths})
+    """The clues a Prompted by / When points back to: hook: leads from knowing the entity, setup: from
+    encountering it. A tag's setup is the tagged scene's, so it names no one entity."""
+    ids = {_hook_id(p) for p in HOOK_REF.findall(text)} | {"located:" + p for p in LOCATED_REF.findall(text)}
+    ids |= {_setup_id(p) for p in SETUP_REF.findall(text) if not p.startswith("tags/")}
+    return sorted(ids)
 
 
 def _hook_id(relpath: str) -> str:
@@ -381,7 +415,8 @@ def _parse_action_block(htitle: str, body: list[str], rel: str, title: str, kind
     learned_c = {c for _, c in gives_known}
     gives_clean = re.sub(r"NPC Learns:.*?(?:;|$)", "", gives_text)
     gives_clues = sorted(set(CLUE_REF.findall(gives_clean)) - learned_c)
-    gives_hooks = sorted({_hook_id(p) for p in HOOK_REF.findall(gives_clean)})
+    gives_hooks = sorted({_hook_id(p) for p in HOOK_REF.findall(gives_clean)}
+                         | {"located:" + p for p in LOCATED_REF.findall(gives_clean)})
     gives_other = [kw for kw in OUTCOME_KEYWORDS if kw in gives_text]
     if not gives_clues and not gives_known and not gives_other and not gives_hooks and not is_move:
         return None
@@ -544,6 +579,38 @@ def build_graph() -> Graph:
             node.gives_clues = [cid]
             g.nodes[nid] = node
             g.givers.setdefault(cid, []).append(nid)
+
+    # Knowing the way to a place is knowing of it.
+    located = {c for n in g.nodes.values() for c in n.gives_clues + n.requires_clues + n.prompted_by_clues
+               if c.startswith("located:")}
+    located |= {"located:" + loc for places in schedules().values() for loc in places}
+    for lid in sorted(located):
+        rel = lid.split(":", 1)[1]
+        title = g.scenes[rel].title if rel in g.scenes else rel
+        g.clues.setdefault(lid, title + " (located)")
+        nid = f"located::{rel}"
+        node = Node(id=nid, name=f"knows the way to {title}", kind="synthesis", scene=rel, scene_title=title)
+        node.requires_clues = [lid]
+        node.gives_clues = [_hook_id(rel)]
+        g.nodes[nid] = node
+        g.givers.setdefault(_hook_id(rel), []).append(nid)
+        g.clues.setdefault(_hook_id(rel), g.scenes[rel].hook if rel in g.scenes else title)
+
+    # Meeting a scheduled character: go where their schedule puts them.
+    for rel, places in schedules().items():
+        mid = "met:" + rel
+        if rel not in g.scenes:
+            continue
+        g.clues.setdefault(mid, g.scenes[rel].title + " (met)")
+        for loc in places:
+            nid = f"meet::{rel}::{loc}"
+            node = Node(id=nid, name=f"meet at {g.scenes[loc].title if loc in g.scenes else loc}", kind="synthesis",
+                        scene=loc, scene_title=g.scenes[loc].title if loc in g.scenes else loc)
+            node.requires_clues = ["located:" + loc]
+            node.gives_clues = [mid]
+            g.nodes[nid] = node
+            g.givers.setdefault(mid, []).append(nid)
+            g.clues.setdefault("located:" + loc, (g.scenes[loc].title if loc in g.scenes else loc) + " (located)")
 
     # Knowing any carrier of a tag is knowing of the tag ("hook:tags/x.md"), and a tag's moves need it.
     for tag_rel, who in tag_carriers.items():

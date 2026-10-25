@@ -27,7 +27,7 @@ A slightly older village child who plays with [@name](../pawelek.md) before the 
 
 - **Clothes:** Not specified.
 - **Hair & face:** Not specified.
-- **Carriage:** Not specified.
+- **Carriage:** Not specified.[](#introduce-yourself)
 
 ## Opportunities
 
@@ -38,6 +38,11 @@ A slightly older village child who plays with [@name](../pawelek.md) before the 
 - **Gives:** [pawelek-mushrooms-were-harmless](../../clues/clues.md#pawelek-mushrooms-were-harmless)
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/secondary/staszek-pytlak.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/secondary/staszek-pytlak.md
 
 ### Ask Staszek-Pytlak about their last day
 - **Cost:** 1 time

@@ -29,7 +29,7 @@ Survivor of the 1947 massacre and keeper of [the well](../story-facts/the-well.m
 
 - **Clothes:** Layers of patched wool and linen in forest colours — browns, greys, faded greens.
 - **Hair & face:** Iron-grey hair hidden under a dark headscarf; deeply lined face, dark watchful eyes.
-- **Carriage:** Silent footfall, sudden arrivals, and the stillness of someone who has hidden for twenty years.
+- **Carriage:** Silent footfall, sudden arrivals, and the stillness of someone who has hidden for twenty years.[](#introduce-yourself)
 
 Her voice is a dry rasp, used sparingly. She feels less like a villager than a surviving part of the forest.
 
@@ -74,6 +74,12 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 - **Outcome:** She means every word, and she is not in her right mind. She will go to the well, and he will kill her there. Someone would have to stop her going, for her own good.
 
 ## Actions
+
+### Introduce yourself
+- **Requires:** [Language](../cards/language.md)
+<!-- Prompted by: setup:characters/hag.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/hag.md
 
 ### Census interview
 - **Requires:** [Language](../cards/language.md)

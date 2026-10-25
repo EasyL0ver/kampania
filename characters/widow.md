@@ -30,7 +30,7 @@ Quiet, devout, harmless widow living on phantom wages from a dead man's PGR ledg
 
 - **Clothes:** Same brown wool coat regardless of season; faded floral headscarf tied tight under the chin.
 - **Hair & face:** Thin grey hair under the scarf; deeply lined face, pale watery eyes slightly unfocused.
-- **Carriage:** Small and thinning; moves as if afraid of disturbing someone.
+- **Carriage:** Small and thinning; moves as if afraid of disturbing someone.[](#introduce-yourself)
 
 Speaks barely above a whisper with a slight tremor. Smells of tallow candles and damp wool.
 
@@ -40,6 +40,11 @@ Speaks barely above a whisper with a slight tremor. Smells of tallow candles and
 - **[@name](foreman.md)** — "He was [@first-name](tadeusz-mazur.md)'s boss, and I bear him no grudge. Accidents happen on farms, and I am grateful the pension still comes."
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/widow.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/widow.md
 
 ### Census interview
 <!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->

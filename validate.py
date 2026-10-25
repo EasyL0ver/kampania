@@ -1662,7 +1662,7 @@ def alias_only(f: MdFile):
                 yield line, f"link '[{text[:40]}]({target})' should read [@name]({target})"
         bare = re.sub(r"\[[^\]]*\]\([^)]*\)", lambda m: " " * len(m.group(0)), t)
         # code spans are masked, but not `(when: …)` / `(noticed by: …)` spans, which are prose
-        bare = re.sub(r"(?:aware|setup|hook):\S+|`[^`(][^`]*`", lambda m: " " * len(m.group(0)), bare)
+        bare = re.sub(r"(?:aware|setup|hook|located):\S+|`[^`(][^`]*`", lambda m: " " * len(m.group(0)), bare)
         if f.rel == "clues/clues.md" and t.startswith("### "):
             continue          # a clue id may contain aliases
         if NAME_FIELD_LINE.match(t) or (line == f.title_line and f.kind == "characters"):

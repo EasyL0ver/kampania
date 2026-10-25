@@ -26,7 +26,7 @@ Intelligent, observant, and dismissed. She has quietly investigated the 1954 dis
 
 - **Clothes:** Pressed blouses, wool skirts without patches; dresses better than most village women.
 - **Hair & face:** Dark hair pulled back in a severe bun going grey at the temples; angular face, high cheekbones.
-- **Carriage:** Tall, straight posture; hands always busy while her eyes watch the room.
+- **Carriage:** Tall, straight posture; hands always busy while her eyes watch the room.[](#introduce-yourself)
 
 Speaks precisely, each word chosen. Tilts her head when listening, then files the detail away.
 
@@ -62,6 +62,11 @@ After [@name](../events/irena-confronts-wojewoda.md), she closes the household, 
 ## Opportunities
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/wife.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/wife.md
 
 ### Trade clues (Phase 1)
 - **When:** [Two Phases](#two-phases) is investigating

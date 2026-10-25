@@ -26,7 +26,7 @@ Leather jacket, temper, and a useful bad reputation. He looks like the problem, 
 
 - **Clothes:** Newer leather jacket over a dark turtleneck, scuffed boots, jeans when he can get them.
 - **Hair & face:** Dark hair grown longer than the village approves of, swept back with Brylcreem; sharp jaw, father's hard eyes.
-- **Carriage:** Lean, wiry, unable to sit still; shifts weight, drums fingers, cracks knuckles.
+- **Carriage:** Lean, wiry, unable to sit still; shifts weight, drums fingers, cracks knuckles.[](#introduce-yourself)
 
 A cigarette is usually between his lips or behind his ear. His studied cool drops when he gets angry, and then he speaks fast.
 
@@ -58,6 +58,11 @@ A cigarette is usually between his lips or behind his ear. His studied cool drop
 - **Gives:** [junior-smokes-carmen](../clues/clues.md#junior-smokes-carmen)
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/junior.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/junior.md
 
 ### Offer him a Carmen
 - **Requires:** [@name](../items/pack-of-cigarettes.md)

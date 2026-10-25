@@ -29,7 +29,7 @@ Devout, fearful, and honest when her guard drops. She is the moral heart of the 
 
 - **Clothes:** Shapeless dark dresses buttoned to the throat; headscarf outdoors; a rosary in her apron pocket, worn to the string[](#real-faith-worn-into-daily-habit)
 - **Hair & face:** Thin grey hair hidden under the scarf; gaunt cheeks, permanent dark circles
-- **Carriage:** Shoulders hunched, eyes down, flinches at raised voices; steadier at home with [@name](glupek.md)
+- **Carriage:** Shoulders hunched, eyes down, flinches at raised voices; steadier at home with [@name](glupek.md)[](#introduce-yourself)
 - **Voice:** Thin and breathy in public; silence when frightened
 
 At home she moves around[](#property-assessment) [@first-name](glupek.md) with practiced care[](#tender-care-for-glupek). In public she makes herself smaller[](#census-interview) and lets other people fill the space.
@@ -72,6 +72,11 @@ At home she moves around[](#property-assessment) [@first-name](glupek.md) with p
 - **Gives:** [`glupek-wont-drink-coffee`](../clues/clues.md#glupek-wont-drink-coffee)
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/ciotka.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/ciotka.md
 
 ### Accept her coffee
 - **Outcome:** She sets out coffee for the committee and pours a cup for [@first-name](glupek.md) too[](#coffee-as-ciotkas-private-ritual).

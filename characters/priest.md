@@ -27,7 +27,7 @@ Roman Catholic priest who knows the village's blood-guilt through thirteen years
 
 - **Clothes:** Black cassock daily, brushed, collar a stark white line; in cold weather a heavy wool overcoat and black beret
 - **Hair & face:** Receding hairline, dark hair combed back, clean-shaven; long narrow face, deep-set brown eyes that hold yours too long
-- **Carriage:** Tall and slightly stooped; bends to listen, moves slowly, and makes people orient around his stillness
+- **Carriage:** Tall and slightly stooped; bends to listen, moves slowly, and makes people orient around his stillness[](#introduce-yourself)
 
 His baritone stays intimate in conversation. When uncomfortable, his hand goes to his collar, adjusts it, and comes away.
 
@@ -63,6 +63,11 @@ His baritone stays intimate in conversation. When uncomfortable, his hand goes t
 - Moves up and down. If it reaches **+8** by the Day 7 Mass, he believes in redemption and grants the odpust.
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/priest.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/priest.md
 
 ### Bring him to the sick boy
 - **When:** [@name](../events/pawelek-falls-ill.md)

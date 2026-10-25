@@ -30,7 +30,7 @@ Devout in public and impenetrable in private. She is the sober architect of the 
 
 - **Clothes:** Immaculate dark clothes — cardigan buttoned to the throat, always an apron, small crucifix at her collar.
 - **Hair & face:** Dark hair pinned tight beneath a headscarf; thin lips, pale grey unblinking eyes.
-- **Carriage:** Tall, straight-backed, and economical; hands busy with rosary, knitting, or wiping something already clean.
+- **Carriage:** Tall, straight-backed, and economical; hands busy with rosary, knitting, or wiping something already clean.[](#introduce-yourself)
 
 People lower their voices around her. Her own voice stays low and measured, so others lean in instead of asking her to speak up.
 
@@ -61,6 +61,11 @@ People lower their voices around her. Her own voice stays low and measured, so o
 - TBD: if she suspects the committee, every committee member lodging at her house loses the [Lodging at Matrona's](../cards/lodging-at-matronas.md) card.
 
 ## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/matrona.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/matrona.md
 
 ### Census interview
 <!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->

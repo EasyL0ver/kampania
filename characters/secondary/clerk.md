@@ -29,4 +29,11 @@
 
 - **Clothes:** Not specified.
 - **Hair & face:** Not specified.
-- **Carriage:** Not specified.
+- **Carriage:** Not specified.[](#introduce-yourself)
+
+## Actions
+
+### Introduce yourself
+<!-- Prompted by: setup:characters/secondary/clerk.md -->
+- **Outcome:** TBD.
+- **Gives:** hook:characters/secondary/clerk.md
