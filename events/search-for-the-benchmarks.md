@@ -50,7 +50,7 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 - **When:** [Col marker](#col-marker) is found AND [Village-edge marker](#village-edge-marker) is found
 <!-- Prompted by: setup:events/search-for-the-benchmarks.md -->
 - **Outcome:** You copy the two stamped elevations off the benchmarks, the col and the village.
-- **Gives:** [@name](../items/streambed-parameters.md)
+- **Gives:** [@name](../items/streambed-parameters.md), hook:items/streambed-parameters.md
 
 ## Mechanics
 

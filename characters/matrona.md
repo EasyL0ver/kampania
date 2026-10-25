@@ -85,7 +85,7 @@ People lower their voices around her. Her own voice stays low and measured, so o
 <!-- Prompted by: [helena-demands-the-census](../clues/clues.md#helena-demands-the-census) -->
 - **Cost:** 1 time + [@name](../items/census.md)
 - **Outcome:** They agree, and she turns the key. She counts out a child's course of penicillin and takes the census book from their hands: from now the count is hers to fill, hers to decide what it shows.
-- **Gives:** [@name](../items/penicillin.md)
+- **Gives:** [@name](../items/penicillin.md), hook:items/penicillin.md
 - **Changes:** [Keeper](../items/census.md#keeper) — [@first-name](matrona.md) [@surname](matrona.md) fills it herself
 
 ## Bond

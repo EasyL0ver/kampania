@@ -151,7 +151,7 @@ Facing the steep plug at the ridge gap.
   1. **Drop the top stone to the foot mark.** Hang the kit's plumb line from the capstone slab at the crest straight down the sheer face to the mark below the climb. The line reads the vertical face directly, fixing the top stone's height above the flood line.
   2. **Level the notch against the top stone.** Level the plug's lowest saddle against the top stone right there at the crest, a short local step. That last figure is the sill's height above the flood line.
   - If the sill stands above the line, rising water cannot top the plug.
-- **Gives:** [@name](../items/gap-sill-reading.md)
+- **Gives:** [@name](../items/gap-sill-reading.md), hook:items/gap-sill-reading.md
 
 ### Take the reading with the water hose
 - **Requires:** [@name](../items/geologists-kit.md) AND [Handiwork](../cards/handiwork.md) AND [@name](../items/water-hose-contraption.md)
@@ -162,7 +162,7 @@ Facing the steep plug at the ridge gap.
   1. **Drop the top stone to the foot mark.** Hang the kit's plumb line from the capstone slab at the crest straight down the sheer face to the mark below the climb. The line reads the vertical face directly, fixing the top stone's height above the flood line.
   2. **Level the notch against the top stone.** Level the plug's lowest saddle against the top stone right there at the crest, a short local step. That last figure is the sill's height above the flood line.
   - If the sill stands above the line, rising water cannot top the plug.
-- **Gives:** [@name](../items/gap-sill-reading.md)
+- **Gives:** [@name](../items/gap-sill-reading.md), hook:items/gap-sill-reading.md
 
 ## Mechanics
 

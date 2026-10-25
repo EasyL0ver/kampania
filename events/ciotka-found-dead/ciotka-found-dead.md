@@ -32,7 +32,7 @@
 <!-- Prompted by: [something-happened-to-ciotka](../../clues/clues.md#something-happened-to-ciotka) -->
 - **Cost:** 1 time
 - **Outcome:** Cigarette butts lie scattered by the door. Large bare footprints run from the house toward the tree line and fade where the canopy starts.
-- **Gives:** [@name](../../items/cigarette-butts-from-ciotkas.md), [`glupek-fled-into-forest`](../../clues/clues.md#glupek-fled-into-forest)
+- **Gives:** [@name](../../items/cigarette-butts-from-ciotkas.md), [`glupek-fled-into-forest`](../../clues/clues.md#glupek-fled-into-forest), hook:items/cigarette-butts-from-ciotkas.md
 
 ### Go in through the back door
 <!-- Prompted by: [something-happened-to-ciotka](../../clues/clues.md#something-happened-to-ciotka) -->

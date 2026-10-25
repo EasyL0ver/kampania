@@ -104,5 +104,5 @@ The centre of [@name](new-village.md), close to the store.
 <!-- Prompted by: hook:items/store-cabinet-key.md -->
 - **Cost:** 1 time
 - **Outcome:** The cabinet key rides on the ring at her apron. In the fuss of hospitality, or with her turned away, a light hand works it off the ring. She notices nothing until she next reaches for it.
-- **Gives:** [@name](../../items/store-cabinet-key.md)
+- **Gives:** [@name](../../items/store-cabinet-key.md), hook:items/store-cabinet-key.md
 

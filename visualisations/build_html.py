@@ -220,6 +220,7 @@ HTML = r"""<!DOCTYPE html>
 </div>
 <script>
 const DATA = __DATA__;
+const P={K:600, SPR:0.2, REST0:30, RESTD:1, RESTMAX:80, GRAV:0.0005, HUBPULL:0.3, ELABELS:0, SPREAD:4, MINZOOM:0.5};   // layout knobs
 const orphan = new Set(DATA.orphans);
 const NSx = "http://www.w3.org/2000/svg";
 
@@ -267,7 +268,7 @@ function makeShape(t, s){
 
 const svg = document.getElementById("graph");
 const NS = "http://www.w3.org/2000/svg";
-let W = svg.clientWidth, H = svg.clientHeight;
+let W = svg.clientWidth||window.innerWidth-320, H = svg.clientHeight||window.innerHeight;
 const nodes = DATA.nodes.map(n=>({...n, x:Math.random()*W, y:Math.random()*H, vx:0, vy:0}));
 const nmap = new Map(nodes.map(n=>[n.id,n]));
 const links = DATA.links.map(l=>({...l, source:nmap.get(l.source), target:nmap.get(l.target)}));
@@ -312,7 +313,7 @@ links.forEach(l=>{
   hit.addEventListener("mouseenter",e=>showEdgeTip(l,e));
   hit.addEventListener("mousemove",moveTip); hit.addEventListener("mouseleave",hideTip);
   // scene file is a LABEL on the line (coloured by scene type), not a node
-  if(l.location){
+  if(l.location && P.ELABELS){
     const lb=document.createElementNS(NS,"text"); lb.setAttribute("class","elabel");
     lb.setAttribute("text-anchor","middle"); lb.style.fill=SCAT[l.scat]||"#9aa3b0";
     lb.textContent=l.location; l._lb=lb; gLbl.appendChild(lb);
@@ -354,17 +355,17 @@ nodes.forEach(n=>{
   gNodes.appendChild(g);
 });
 
-function tick(){
-  const K=9500;
-  for(let i=0;i<nodes.length;i++){ const a=nodes[i];
-    for(let j=i+1;j<nodes.length;j++){ const b=nodes[j];
-      let dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy+.01; const f=K*a.charge*b.charge/d2,d=Math.sqrt(d2);
+function tick(alpha){
+  const K=P.K*alpha, VMAX=25;
+  for(let i=0;i<nodes.length;i++){ const a=nodes[i]; if(!a.deg) continue;
+    for(let j=i+1;j<nodes.length;j++){ const b=nodes[j]; if(!b.deg) continue;
+      let dx=a.x-b.x,dy=a.y-b.y,d2=Math.max(dx*dx+dy*dy,400); const f=K*a.charge*b.charge/d2,d=Math.sqrt(d2);
       const fx=f*dx/d,fy=f*dy/d; a.vx+=fx;a.vy+=fy;b.vx-=fx;b.vy-=fy; } }
   for(const l of links){ const a=l.source,b=l.target;
     let dx=b.x-a.x,dy=b.y-a.y,d=Math.sqrt(dx*dx+dy*dy)+.01;
-    const rest=Math.min(300, 100+(a.deg+b.deg)*6); const f=(d-rest)*0.02,fx=f*dx/d,fy=f*dy/d;
+    const rest=Math.min(P.RESTMAX, P.REST0+(a.deg+b.deg)*P.RESTD); const hub=P.HUBPULL?1/(1+P.HUBPULL*Math.max(a.deg,b.deg)):1; const f=(d-rest)*P.SPR*hub*alpha,fx=f*dx/d,fy=f*dy/d;
     a.vx+=fx;a.vy+=fy;b.vx-=fx;b.vy-=fy; }
-  for(const n of nodes){ n.vx+=(W/2-n.x)*0.001; n.vy+=(H/2-n.y)*0.001; n.vx*=0.85; n.vy*=0.85; n.x+=n.vx; n.y+=n.vy; }
+  for(const n of nodes){ if(!n.deg) continue; n.vx+=(W/2-n.x)*P.GRAV; n.vy+=(H/2-n.y)*P.GRAV; n.vx*=0.85; n.vy*=0.85; const v=Math.hypot(n.vx,n.vy); if(v>VMAX){ n.vx*=VMAX/v; n.vy*=VMAX/v; } n.x+=n.vx; n.y+=n.vy; }
   // edge labels: anchor near the TARGET end so labels fan out along the spokes
   // instead of piling up at a shared source; repel each other; weak spring back.
   for(const p of labels){ const a=p.link.source,b=p.link.target;
@@ -398,9 +399,18 @@ function render(){
     if(l._lb){ const lp=l._lp; l._lb.setAttribute("x",lp.x); l._lb.setAttribute("y",lp.y-2); } }
   for(const n of nodes){ n._el.setAttribute("transform",`translate(${n.x},${n.y})`); }
 }
-let cool=520;
-function loop(){ if(cool>0){ for(let s=0;s<2;s++) tick(); render(); cool--; requestAnimationFrame(loop);} }
-loop();
+const COOL=520; let cool=COOL, fitted=false;
+function spread(){   // pull the settled layout apart so dots get breathing room at readable zoom
+  let cx=0,cy=0,m=0; for(const n of nodes) if(n.deg){ cx+=n.x; cy+=n.y; m++; } cx/=m||1; cy/=m||1;
+  for(const n of nodes) if(n.deg){ n.x=cx+(n.x-cx)*P.SPREAD; n.y=cy+(n.y-cy)*P.SPREAD; } }
+function fit(){ spread(); W=svg.clientWidth||window.innerWidth-320; H=svg.clientHeight||window.innerHeight; let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9; for(const n of nodes){ if(!n.deg) continue; x0=Math.min(x0,n.x); y0=Math.min(y0,n.y); x1=Math.max(x1,n.x); y1=Math.max(y1,n.y); }
+  const lone=nodes.filter(n=>!n.deg), cols=Math.max(1,Math.floor((x1-x0)/170));
+  lone.forEach((n,i)=>{ n.x=x0+(i%cols)*170; n.y=y1+80+Math.floor(i/cols)*22; }); render();
+  if(lone.length) y1=y1+80+Math.ceil(lone.length/cols)*22;
+  const k=Math.max(P.MINZOOM, Math.min(W/(x1-x0+80), H/(y1-y0+80), 2)) || 1; vt.k=k; vt.x=(W-(x1+x0)*k)/2; vt.y=(H-(y1+y0)*k)/2; applyVT(); }
+function loop(){ if(cool>0){ const alpha=Math.max(0.05, cool/COOL); for(let s=0;s<2;s++) tick(alpha); render(); cool--; if(cool>0) requestAnimationFrame(loop); else if(!fitted){ fitted=true; fit(); } } }
+// settle off-screen, then show the finished layout (?animate to watch it move)
+if(!location.search.includes('animate')){ for(let c=COOL;c>0;c--){ const a=Math.max(0.05,c/COOL); tick(a); tick(a);} cool=0; render(); setTimeout(()=>{fitted=true; fit();},0); } else loop();
 
 let vt={x:0,y:0,k:1}; function applyVT(){ gRoot.setAttribute("transform",`translate(${vt.x},${vt.y}) scale(${vt.k})`); }
 svg.addEventListener("wheel",e=>{ e.preventDefault(); const s=e.deltaY<0?1.1:0.9; vt.x=e.offsetX-(e.offsetX-vt.x)*s; vt.y=e.offsetY-(e.offsetY-vt.y)*s; vt.k*=s; applyVT(); },{passive:false});

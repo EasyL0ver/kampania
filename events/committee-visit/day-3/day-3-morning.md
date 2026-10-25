@@ -36,21 +36,25 @@ The morning of [@name](day-3.md) begins.[](#the-flood-begins)[](#ciotka-found-de
 
 ### A ruckus at the store
 - **When:** [@name](../../../locations/new-village/new-village.md) AND [@name](../../store-robbery.md)
+<!-- Prompted by: hook:locations/new-village/new-village.md -->
 - **Outcome:** [@hook](../../store-robbery.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/new-village.md))* hook:events/store-robbery.md
 
 ### Something wrong at Ciotka's house
 - **When:** [@name](../../../locations/new-village/ciotkas-house/ciotkas-house.md) AND [@name](../../ciotka-found-dead/ciotka-found-dead.md)
+<!-- Prompted by: hook:locations/new-village/ciotkas-house/ciotkas-house.md -->
 - **Outcome:** [@hook](../../ciotka-found-dead/ciotka-found-dead.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/ciotkas-house/ciotkas-house.md))* hook:events/ciotka-found-dead/ciotka-found-dead.md
 
 ### Someone in the bunker
 - **When:** [@name](../../../locations/upa-bunker.md) AND [@name](../../edek-in-the-bunker.md)
+<!-- Prompted by: hook:locations/upa-bunker.md -->
 - **Outcome:** [@hook](../../edek-in-the-bunker.md)
 - **Gives:** *(to: players at [@name](../../../locations/upa-bunker.md))* hook:events/edek-in-the-bunker.md
 
 ### The water is rising
 - **When:** [@name](../../../locations/new-village/new-village.md) AND [@name](../../the-flood.md)
+<!-- Prompted by: hook:locations/new-village/new-village.md -->
 - **Outcome:** [@hook](../../the-flood.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/new-village.md))* hook:events/the-flood.md
 

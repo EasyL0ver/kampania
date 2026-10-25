@@ -43,12 +43,12 @@
 <!-- Prompted by: [`ciotka-is-dead`](../../../clues/clues.md#ciotka-is-dead) -->
 - **Cost:** 1 time
 - **Outcome:** A box in the rubbish is marked "EDEK" and reads at a glance like the boy's things. It is not: the belongings are a grown man's, wrong size and wrong age for [@name](../../../characters/glupek.md). [@name](../../../characters/soldier.md) went by [@first-name](../../../characters/glupek.md) too. The box is thick with dust and has sat untouched for years. Among the belongings is an old iron front-door key.
-- **Gives:** [@name](../../../items/edek-box.md)
+- **Gives:** [@name](../../../items/edek-box.md), hook:items/edek-box.md
 ### Open the wardrobe
 <!-- Prompted by: [`ciotka-is-dead`](../../../clues/clues.md#ciotka-is-dead) -->
 - **Cost:** 1 time
 - **Outcome:** Inside the big wardrobe, a blue dress, folded and kept.
-- **Gives:** [@name](../../../items/girls-dress.md)
+- **Gives:** [@name](../../../items/girls-dress.md), hook:items/girls-dress.md
 ### Examine the child's rattle
 <!-- Prompted by: [`ciotka-is-dead`](../../../clues/clues.md#ciotka-is-dead) -->
 - **Cost:** 1 time
@@ -58,4 +58,4 @@
 <!-- Prompted by: [`ciotka-is-dead`](../../../clues/clues.md#ciotka-is-dead) -->
 - **Cost:** 1 time
 - **Outcome:** A small brass Greek Catholic liturgical bell with Cyrillic lettering sits high up, out of place in a Roman Catholic home. Reaching it knocks it loose and it falls, ringing and clattering.
-- **Gives:** [@name](../../../items/lemko-bell.md), [lemko-bell-in-ciotkas-house](../../../clues/clues.md#lemko-bell-in-ciotkas-house)
+- **Gives:** [@name](../../../items/lemko-bell.md), [lemko-bell-in-ciotkas-house](../../../clues/clues.md#lemko-bell-in-ciotkas-house), hook:items/lemko-bell.md

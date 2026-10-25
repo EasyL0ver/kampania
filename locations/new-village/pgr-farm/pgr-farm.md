@@ -51,7 +51,7 @@ The State Agricultural Farm: fields, barns, livestock pens, tool shed.
 ### Inspect the farm books
 - **Cost:** 1 time
 - **Outcome:** The farm books show mostly ordinary farm spending and sales, plus [@name](../../../characters/tadeusz-mazur.md) listed as a current worker drawing wages with no work logs for the past two years.
-- **Gives:** [mazur-paid-but-absent](../../../clues/clues.md#mazur-paid-but-absent), [@name](../../../items/pgr-ledger.md), [@name](../../../items/pgr-expenses.md), [@name](../../../items/pgr-income.md)
+- **Gives:** [mazur-paid-but-absent](../../../clues/clues.md#mazur-paid-but-absent), [@name](../../../items/pgr-ledger.md), [@name](../../../items/pgr-expenses.md), [@name](../../../items/pgr-income.md), hook:items/pgr-ledger.md, hook:items/pgr-expenses.md, hook:items/pgr-income.md
 
 ### Report wolf damage
 - **When:** NOT [@name](../../../events/committee-visit/day-1/day-1.md)

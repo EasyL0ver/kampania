@@ -40,7 +40,7 @@ A low timber storehouse with a wide double door. Inside, on the earth floor: sta
 <!-- Prompted by: [pgr-has-22-sacks-of-fertilizer](../../../clues/clues.md#pgr-has-22-sacks-of-fertilizer) -->
 - **Cost:** 1 time
 - **Outcome:** You untie the sacks and tip the grey powder out across the floor, then shake them out and stack them: a pile of empty linen bags.
-- **Gives:** [@name](../../../items/linen-bags.md)
+- **Gives:** [@name](../../../items/linen-bags.md), hook:items/linen-bags.md
 
 ### Look into the older sacks
 - **Requires:** [Handiwork](../../../cards/handiwork.md) OR [Medicine](../../../cards/medicine.md)

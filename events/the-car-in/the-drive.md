@@ -44,13 +44,13 @@
 ### Look through the forms
 <!-- Prompted by: setup:events/the-car-in/the-drive.md -->
 - **Outcome:** Two of them matter: the census register, ruled for households and their dead, and the farm's stock-take form, every line of it blank.
-- **Gives:** [@name](../../items/census.md), [@name](../../items/pgr-inventory.md)
+- **Gives:** [@name](../../items/census.md), [@name](../../items/pgr-inventory.md), hook:items/census.md, hook:items/pgr-inventory.md
 
 ### Ask him for a cigarette
 - **When:** NOT [Standing](../../characters/driver.md#standing) is grudge
 <!-- Prompted by: [wrona-smokes-sport](../../clues/clues.md#wrona-smokes-sport) -->
 - **Outcome:** [@first-name](../../characters/driver.md) tosses the packet over his shoulder without looking. "Keep it. I've got more."
-- **Gives:** [@name](../../items/pack-of-cigarettes.md)
+- **Gives:** [@name](../../items/pack-of-cigarettes.md), hook:items/pack-of-cigarettes.md
 
 ### Ask to look in the back
 - **Requires:** [Speech](../../cards/speech.md)
@@ -73,7 +73,7 @@
 <!-- Prompted by: [wrona-hides-search-from-skowron](../../clues/clues.md#wrona-hides-search-from-skowron), [full-bottle-clinking-in-back](../../clues/clues.md#full-bottle-clinking-in-back) -->
 - **Cost:** 1 time
 - **Outcome:** Wedged behind the spare tyre: half a litre of Wyborowa, unopened. Beside it, a heavy wooden crate slides on every bend: its strap has snapped.
-- **Gives:** [@name](../../items/vodka.md), [`loose-crate-in-back`](../../clues/clues.md#loose-crate-in-back)
+- **Gives:** [@name](../../items/vodka.md), [`loose-crate-in-back`](../../clues/clues.md#loose-crate-in-back), hook:items/vodka.md
 
 ### Slip it back to him
 - **Requires:** [Finesse](../../cards/finesse.md)
@@ -97,7 +97,7 @@
 ### Ask him for the map
 <!-- Prompted by: setup:events/the-car-in/the-drive.md -->
 - **Outcome:** [@first-name](../../characters/officer.md) passes it back over his shoulder.
-- **Gives:** [@name](../../items/road-map.md)
+- **Gives:** [@name](../../items/road-map.md), hook:items/road-map.md
 
 ### Check the road map
 - **Requires:** [@name](../../items/road-map.md) AND ([Survival](../../cards/survival.md) OR [Geology](../../cards/geology.md))

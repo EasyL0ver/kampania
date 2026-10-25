@@ -105,7 +105,7 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 <!-- Prompted by: [pawelek-needs-penicillin](../clues/clues.md#pawelek-needs-penicillin), [wujas-is-paweleks-father](../clues/clues.md#wujas-is-paweleks-father) -->
 - **Cost:** 1 time
 - **Outcome:** Faced with the sick boy being his own, [@nickname](wujas.md) goes to his sister [@name](matrona.md). She opens the cabinet for her brother and counts out a child's course, and no census changes hands.
-- **Gives:** [@name](../items/penicillin.md)
+- **Gives:** [@name](../items/penicillin.md), hook:items/penicillin.md
 
 ### Drink them under the table
 - **Requires:** [@name](../tags/alcohol.md)

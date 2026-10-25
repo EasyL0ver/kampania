@@ -23,14 +23,14 @@ A dark figure is digging in the badly grown patch near the fence behind the hous
 ### Go after him
 <!-- Prompted by: setup:events/wujas-digs-up-the-cache.md -->
 - **Outcome:** The figure hears them coming, drops the shovel and runs off into the dark. The oilcloth lies half out of the ground.
-- **Gives:** [@name](../items/buried-oilcloth-bundle.md)
+- **Gives:** [@name](../items/buried-oilcloth-bundle.md), hook:items/buried-oilcloth-bundle.md
 - **Changes:** [Caught](#caught) — true; [Cache](../locations/new-village/ciotkas-house/ciotkas-house.md#cache) — found; [@name](wujas-digs-up-the-cache.md) — ends
 
 ### Creep closer
 - **Requires:** [Finesse](../cards/finesse.md) OR [Survival](../cards/survival.md)
 <!-- Prompted by: setup:events/wujas-digs-up-the-cache.md -->
 - **Outcome:** Close enough to make out the face: [@nickname](../characters/wujas.md). He hears them, drops the shovel and runs off into the dark. The oilcloth lies half out of the ground.
-- **Gives:** [`wujas-dug-for-the-cache`](../clues/clues.md#wujas-dug-for-the-cache), [@name](../items/buried-oilcloth-bundle.md)
+- **Gives:** [`wujas-dug-for-the-cache`](../clues/clues.md#wujas-dug-for-the-cache), [@name](../items/buried-oilcloth-bundle.md), hook:items/buried-oilcloth-bundle.md
 - **Changes:** [Caught](#caught) — true; [Cache](../locations/new-village/ciotkas-house/ciotkas-house.md#cache) — found; [@name](wujas-digs-up-the-cache.md) — ends
 
 ## Mechanics

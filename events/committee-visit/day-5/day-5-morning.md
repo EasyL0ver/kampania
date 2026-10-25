@@ -32,11 +32,13 @@ The morning of [@name](day-5.md) begins.[](#funeral-mass-begins)[](#foremans-flo
 
 ### A ruckus at the store
 - **When:** [@name](../../../locations/new-village/new-village.md) AND [@name](../../store-robbery.md)
+<!-- Prompted by: hook:locations/new-village/new-village.md -->
 - **Outcome:** [@hook](../../store-robbery.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/new-village.md))* hook:events/store-robbery.md
 
 ### Bells for the funeral
 - **When:** [@name](../../../locations/new-village/new-village.md) AND [@name](../../funeral-mass.md)
+<!-- Prompted by: hook:locations/new-village/new-village.md -->
 - **Outcome:** [@hook](../../funeral-mass.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/new-village.md))* hook:events/funeral-mass.md
 

@@ -21,6 +21,7 @@ The night of [@name](day-1.md) begins.[](#the-crew-moves-to-the-still)
 
 ### Firelight at the still
 - **When:** [@name](../../../locations/bimber-still.md) AND [@name](../../the-binge/at-the-still.md)
+<!-- Prompted by: hook:locations/bimber-still.md -->
 - **Outcome:** [@hook](../../the-binge/at-the-still.md)
 - **Gives:** *(to: players at [@name](../../../locations/bimber-still.md))* hook:events/the-binge/at-the-still.md
 

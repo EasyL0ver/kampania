@@ -21,6 +21,7 @@ The morning of [@name](day-2.md) begins.[](#store-robbery-begins)
 
 ### A ruckus at the store
 - **When:** [@name](../../../locations/new-village/new-village.md) AND [@name](../../store-robbery.md)
+<!-- Prompted by: hook:locations/new-village/new-village.md -->
 - **Outcome:** [@hook](../../store-robbery.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/new-village.md))* hook:events/store-robbery.md
 

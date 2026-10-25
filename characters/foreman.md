@@ -132,13 +132,13 @@ Voice is a commanding bark with a Podkarpacie drawl. He uses words as instructio
 - **When:** [Cooperative](#cooperative) is true
 - **Cost:** 1 time
 - **Outcome:** Under orders from [@first-name](wojewoda.md), [@first-name](foreman.md) hands over the steel clamp and driving hammer from the farm's gear without a second thought, on the understanding it comes back.
-- **Gives:** [@name](../items/anchor.md)
+- **Gives:** [@name](../items/anchor.md), hook:items/anchor.md
 
 ### Talk him out of the anchor and hammer
 - **Requires:** [Bond: Michał Pytlak](../cards/bond-foreman.md) OR [Speech](../cards/speech.md)
 - **Cost:** 1 time
 - **Outcome:** Bonded, he lends it as a favour; otherwise a convincing enough story pries the steel clamp and driving hammer out of a wary man, on the understanding they come back.
-- **Gives:** [@name](../items/anchor.md)
+- **Gives:** [@name](../items/anchor.md), hook:items/anchor.md
 
 ### Press him about Tadeusz-Mazur
 - **When:** NOT [@name](../locations/new-village/pgr-farm/pgr-farm.md)

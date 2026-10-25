@@ -31,16 +31,19 @@ The morning of [@name](day-4.md) begins.[](#holy-mass-begins)[](#wojewoda-confro
 
 ### A ruckus at the store
 - **When:** [@name](../../../locations/new-village/new-village.md) AND [@name](../../store-robbery.md)
+<!-- Prompted by: hook:locations/new-village/new-village.md -->
 - **Outcome:** [@hook](../../store-robbery.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/new-village.md))* hook:events/store-robbery.md
 
 ### Bells for Mass
 - **When:** [@name](../../../locations/new-village/new-village.md) AND [@name](../../holy-mass.md)
+<!-- Prompted by: hook:locations/new-village/new-village.md -->
 - **Outcome:** [@hook](../../holy-mass.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/new-village.md))* hook:events/holy-mass.md
 
 ### Raised voices at the store
 - **When:** [@name](../../../locations/new-village/the-store.md) AND [@name](../../wojewoda-confronts-butcher.md)
+<!-- Prompted by: hook:locations/new-village/the-store.md -->
 - **Outcome:** [@hook](../../wojewoda-confronts-butcher.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/the-store.md))* hook:events/wojewoda-confronts-butcher.md
 

@@ -42,7 +42,7 @@
 - **Cost:** 1 time
 - **Outcome:** Scramble to the base of the plug and dig into it. From a distance the fill looks like loose rubble the water would run straight through; up close it is dense clay and shattered rock packed tight, impermeable. This settles only whether the plug leaks, not whether the water level can rise over it (that is the crest sill, which needs the climb).
   - **Geology:** reads the fill directly and confirms it will not pass water at flood pressure.
-- **Gives:** [@name](../items/gap-fill-reading.md)
+- **Gives:** [@name](../items/gap-fill-reading.md), hook:items/gap-fill-reading.md
 
 ### Climb the plug
 - **Requires:** [@name](../items/rope.md)

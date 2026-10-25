@@ -21,6 +21,7 @@ The evening of [@name](day-1.md) begins.[](#dinner-begins)[](#the-binge-begins)
 
 ### Dinner is laid
 - **When:** [@name](../../../locations/new-village/wojewodas-house.md) AND [@name](../../dinner.md)
+<!-- Prompted by: hook:locations/new-village/wojewodas-house.md -->
 - **Outcome:** [@hook](../../dinner.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/wojewodas-house.md))* hook:events/dinner.md
 
@@ -31,6 +32,7 @@ The evening of [@name](day-1.md) begins.[](#dinner-begins)[](#the-binge-begins)
 
 ### Drinking on the store benches
 - **When:** [@name](../../../locations/new-village/the-store.md) AND [@name](../../the-binge/the-binge.md)
+<!-- Prompted by: hook:locations/new-village/the-store.md -->
 - **Outcome:** [@hook](../../the-binge/the-binge.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/the-store.md))* hook:events/the-binge/the-binge.md
 

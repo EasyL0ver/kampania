@@ -137,7 +137,7 @@ His voice is deep and unhurried. When angry, he goes still and quiet.[](#tell-hi
 - **When:** [Tell him the gap is blocked and the ditch does not work](#tell-him-the-gap-is-blocked-and-the-ditch-does-not-work)
 <!-- Prompted by: hook:items/topographic-maps.md -->
 - **Outcome:** He hands over the maps because saving the village matters more than hiding the old terrain.
-- **Gives:** [@name](../items/topographic-maps.md)
+- **Gives:** [@name](../items/topographic-maps.md), hook:items/topographic-maps.md
 
 ### Tell him the gap is blocked and the ditch does not work
 <!-- Prompted by: [gap-is-blocked](../clues/clues.md#gap-is-blocked), [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing) -->

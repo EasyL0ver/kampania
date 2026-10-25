@@ -47,7 +47,7 @@
 - **When:** NOT [@present](../../../characters/wojewoda.md)
 - **Cost:** 1 time
 - **Outcome:** Players take the maps; [@name](../../../characters/wojewoda.md) will notice eventually.
-- **Gives:** [@name](../../../items/topographic-maps.md)
+- **Gives:** [@name](../../../items/topographic-maps.md), hook:items/topographic-maps.md
 
 ### Date the map against the ground
 - **Requires:** [Topographic Maps](../../../items/topographic-maps.md)
@@ -60,7 +60,7 @@
 <!-- Prompted by: [ditch-is-candidate-drain](../../../clues/clues.md#ditch-is-candidate-drain) -->
 - **Cost:** 1 time
 - **Outcome:** The shelf's land-drainage files hold the ditch's construction spec: a concrete-lined channel the full run, signed off as built. Set against a walked ditch it is the paper proof the ditch fell short.
-- **Gives:** [@name](../../../items/ditch-construction-spec.md)
+- **Gives:** [@name](../../../items/ditch-construction-spec.md), hook:items/ditch-construction-spec.md
 
 ### Inspect the PGR ledger
 <!-- Prompted by: hook:items/pgr-ledger.md -->
@@ -73,4 +73,4 @@
 <!-- TBD: also needs a way to open the safe -->
 - **Cost:** 1 time
 - **Outcome:** The safe contains the sołtys's loaded pistol and [@name](../../../items/barnas-departure-declaration.md).
-- **Gives:** [@name](../../../items/barnas-departure-declaration.md), [departure-declaration-forged](../../../clues/clues.md#departure-declaration-forged), [@name](../../../items/soltys-pistol.md)
+- **Gives:** [@name](../../../items/barnas-departure-declaration.md), [departure-declaration-forged](../../../clues/clues.md#departure-declaration-forged), [@name](../../../items/soltys-pistol.md), hook:items/barnas-departure-declaration.md, hook:items/soltys-pistol.md

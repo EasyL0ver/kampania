@@ -21,6 +21,7 @@ The night of [@name](day-6.md) begins.[](#punishment-lynch-begins)
 
 ### Lamps on the road after dark
 - **When:** [@name](../../../locations/new-village/new-village.md) AND [@name](../../punishment-lynch.md)
+<!-- Prompted by: hook:locations/new-village/new-village.md -->
 - **Outcome:** [@hook](../../punishment-lynch.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/new-village.md))* hook:events/punishment-lynch.md
 

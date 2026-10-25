@@ -56,7 +56,7 @@
 ### Search the hidden floorboard tin
 - **Cost:** 1 time
 - **Outcome:** The players find [@name](../characters/dmytro-kosach.md)'s photograph, folding knife marked Д.К., and Ukrainian letters wrapped in oilcloth.[](#initials-tie-dmytro-kosach-to-bunker)
-- **Gives:** hook:characters/dmytro-kosach.md, [@name](../items/floorboard-tin.md)
+- **Gives:** hook:characters/dmytro-kosach.md, [@name](../items/floorboard-tin.md), hook:items/floorboard-tin.md
 
 ### Search the cabin after confrontation
 - **When:** [Alive](../characters/hag.md#alive) is false

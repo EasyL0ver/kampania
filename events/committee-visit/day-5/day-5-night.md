@@ -21,6 +21,7 @@ The night of [@name](day-5.md) begins.[](#rezen-takes-the-body-begins)[](#the-cr
 
 ### Something taken in the night
 - **When:** [@name](../../../locations/new-village/new-village.md) AND [@name](../../rezen-takes-the-body.md)
+<!-- Prompted by: hook:locations/new-village/new-village.md -->
 - **Outcome:** [@hook](../../rezen-takes-the-body.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/new-village.md))* hook:events/rezen-takes-the-body.md
 
@@ -31,6 +32,7 @@ The night of [@name](day-5.md) begins.[](#rezen-takes-the-body-begins)[](#the-cr
 
 ### Firelight at the still
 - **When:** [@name](../../../locations/bimber-still.md) AND [@name](../../the-binge/at-the-still.md)
+<!-- Prompted by: hook:locations/bimber-still.md -->
 - **Outcome:** [@hook](../../the-binge/at-the-still.md)
 - **Gives:** *(to: players at [@name](../../../locations/bimber-still.md))* hook:events/the-binge/at-the-still.md
 

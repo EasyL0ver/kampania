@@ -44,7 +44,7 @@ Setting up a level line at the far-ridge streambed to measure toward the village
 - **When:** [The line](#the-line) is 6
 <!-- Prompted by: setup:events/surveying-the-streambed.md -->
 - **Outcome:** You close the line between the col and the village and read the two heights. They settle it: the col sits above house level, so the rising water tops the village before it ever reaches the streambed.
-- **Gives:** [@name](../items/streambed-parameters.md), [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
+- **Gives:** [@name](../items/streambed-parameters.md), [streambed-dead-ends](../clues/clues.md#streambed-dead-ends), hook:items/streambed-parameters.md
 
 ## Mechanics
 

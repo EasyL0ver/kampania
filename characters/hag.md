@@ -136,7 +136,7 @@ Her voice is a dry rasp, used sparingly. She feels less like a villager than a s
 - **Requires:** [Language](../cards/language.md)
 <!-- Prompted by: [hag-is-in-danger](../clues/clues.md#hag-is-in-danger) -->
 - **Outcome:** She hears you out, then takes a small cross from around her neck and puts it in your hand: against the thing he is, it will keep you. She tells you he is not a man but something the well put on two legs, and that she is the one who has to face him.[](#she-will-go-and-she-will-die)
-- **Gives:** [@name](../items/reliquary-cross.md)
+- **Gives:** [@name](../items/reliquary-cross.md), hook:items/reliquary-cross.md
 - **Changes:** [Warn her of the danger at the well](#hag-warned)
 
 ### Convince her the villagers are friendly

@@ -26,11 +26,13 @@ The night of [@name](day-4.md) begins.[](#well-confrontation-begins)[](#wujas-di
 
 ### Digging behind Ciotka's house
 - **When:** [@name](../../../locations/new-village/ciotkas-house/ciotkas-house.md) AND [@name](../../../events/wujas-digs-up-the-cache.md)
+<!-- Prompted by: hook:locations/new-village/ciotkas-house/ciotkas-house.md -->
 - **Outcome:** [@hook](../../wujas-digs-up-the-cache.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/ciotkas-house/ciotkas-house.md))* hook:events/wujas-digs-up-the-cache.md
 
 ### Chanting at the well
 - **When:** [@name](../../../locations/old-village-ruins.md) AND [@name](../../well-confrontation/well-confrontation.md)
+<!-- Prompted by: hook:locations/old-village-ruins.md -->
 - **Outcome:** [@hook](../../well-confrontation/well-confrontation.md)
 - **Gives:** *(to: players at [@name](../../../locations/old-village-ruins.md))* hook:events/well-confrontation/well-confrontation.md
 
@@ -41,6 +43,7 @@ The night of [@name](day-4.md) begins.[](#well-confrontation-begins)[](#wujas-di
 
 ### Firelight at the still
 - **When:** [@name](../../../locations/bimber-still.md) AND [@name](../../the-binge/at-the-still.md)
+<!-- Prompted by: hook:locations/bimber-still.md -->
 - **Outcome:** [@hook](../../the-binge/at-the-still.md)
 - **Gives:** *(to: players at [@name](../../../locations/bimber-still.md))* hook:events/the-binge/at-the-still.md
 

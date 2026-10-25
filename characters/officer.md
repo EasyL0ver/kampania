@@ -44,7 +44,7 @@ Travels in a Milicja Nysa van, driven by [@name](driver.md). Smells of cheap sta
 ### Ask about the AGH folder
 <!-- Prompted by: [government-committee](../clues/clues.md#government-committee) -->
 - **Outcome:** [@name](officer.md) hands it over without looking at it: a brief from [@name](professor.md) for the committee, to be read on the way.
-- **Gives:** [@name](../items/professors-folder.md)
+- **Gives:** [@name](../items/professors-folder.md), hook:items/professors-folder.md
 
 ### Ask about the dead in the census
 - **Requires:** [@name](../items/census.md)

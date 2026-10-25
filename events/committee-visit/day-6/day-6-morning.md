@@ -32,11 +32,13 @@ The morning of [@name](day-6.md) begins.[](#coffee-at-helenas-begins)[](#second-
 
 ### A ruckus at the store
 - **When:** [@name](../../../locations/new-village/new-village.md) AND [@name](../../store-robbery.md)
+<!-- Prompted by: hook:locations/new-village/new-village.md -->
 - **Outcome:** [@hook](../../store-robbery.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/new-village.md))* hook:events/store-robbery.md
 
 ### Bells for the second Mass
 - **When:** [@name](../../../locations/new-village/new-village.md) AND [@name](../../second-flood-mass.md)
+<!-- Prompted by: hook:locations/new-village/new-village.md -->
 - **Outcome:** [@hook](../../second-flood-mass.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/new-village.md))* hook:events/second-flood-mass.md
 

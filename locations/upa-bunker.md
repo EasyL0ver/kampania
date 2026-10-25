@@ -52,4 +52,4 @@
 - **When:** [Explore the bunker](#explore-the-bunker)
 - **Cost:** 1 time
 - **Outcome:** The search finds the Д. КОСАЧ carving, a rusted pistol, spare ammunition, and a Ukrainian journal fragment.
-- **Gives:** hook:characters/dmytro-kosach.md, [@name](../items/journal-fragment.md)
+- **Gives:** hook:characters/dmytro-kosach.md, [@name](../items/journal-fragment.md), hook:items/journal-fragment.md

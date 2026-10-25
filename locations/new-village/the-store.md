@@ -40,22 +40,22 @@
 ### Buy cigarettes
 <!-- Prompted by: setup:locations/new-village/the-store.md -->
 - **Outcome:** [@first-name](../../characters/secondary/halina-zajac.md) sells a pack across the counter: cheap [Sport](../../clues/clues.md#tadek-smokes-cheapest) off the shelf, or premium [@name](../../items/cigarette-butts-from-ciotkas.md) if you ask. A pack lasts one day; keeping one on you is [Chainsmoker](../../story-facts/game-system.md#the-cards) upkeep.
-- **Gives:** [@name](../../items/pack-of-cigarettes.md)
+- **Gives:** [@name](../../items/pack-of-cigarettes.md), hook:items/pack-of-cigarettes.md
 
 ### Buy rope
 <!-- Prompted by: setup:locations/new-village/the-store.md -->
 - **Outcome:** [@first-name](../../characters/secondary/halina-zajac.md) sells a coil of field line off the shelf, mixed lengths knotted serviceable, long enough for the ridge climb.
-- **Gives:** [@name](../../items/rope.md)
+- **Gives:** [@name](../../items/rope.md), hook:items/rope.md
 
 ### Buy a measuring tape
 <!-- Prompted by: setup:locations/new-village/the-store.md -->
 - **Outcome:** [@first-name](../../characters/secondary/halina-zajac.md) finds a long linen tape in a leather case at the back of a drawer and blows the dust off it.
-- **Gives:** [@name](../../items/measuring-tape.md)
+- **Gives:** [@name](../../items/measuring-tape.md), hook:items/measuring-tape.md
 
 ### Buy sausage
 <!-- Prompted by: setup:locations/new-village/the-store.md -->
 - **Outcome:** [@first-name](../../characters/secondary/halina-zajac.md) cuts a ring of smoked sausage off the hook and wraps it in paper.
-- **Gives:** [@name](../../items/sausage.md)
+- **Gives:** [@name](../../items/sausage.md), hook:items/sausage.md
 
 ### Ask who smokes Carmen
 - **Requires:** [@name](../../items/cigarette-butts-from-ciotkas.md) AND ([Speech](../../cards/speech.md) OR [Finesse](../../cards/finesse.md))
@@ -69,7 +69,7 @@
 <!-- Prompted by: [store-has-drug-cabinet](../../clues/clues.md#store-has-drug-cabinet) -->
 - **Cost:** 1 time
 - **Outcome:** You bash the little door until the lock tears out of the wood and take the child's course of penicillin. Quick and loud, and the splintered frame shows at a glance that someone forced it.
-- **Gives:** [@name](../../items/penicillin.md)
+- **Gives:** [@name](../../items/penicillin.md), hook:items/penicillin.md
 - **Changes:** [Robbery suspect](../../characters/matrona.md#robbery-suspect) — the penicillin is missing; [Cabinet](#cabinet) — forced
 
 ### Unlock the cabinet
@@ -77,7 +77,7 @@
 <!-- Prompted by: [store-has-drug-cabinet](../../clues/clues.md#store-has-drug-cabinet) -->
 - **Cost:** 1 time
 - **Outcome:** [@first-name](../../characters/matrona.md)'s own key opens the cabinet clean. You take the child's course and lock up after you, but the missing stock will not go unnoticed for long.
-- **Gives:** [@name](../../items/penicillin.md)
+- **Gives:** [@name](../../items/penicillin.md), hook:items/penicillin.md
 - **Changes:** [Robbery suspect](../../characters/matrona.md#robbery-suspect) — the penicillin is missing
 
 ### Smash the register open

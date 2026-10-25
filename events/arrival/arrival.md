@@ -32,7 +32,7 @@ The Milicja van stopping on the muddy road as [@name](../../characters/wojewoda.
 ### Pick up the crate
 <!-- Prompted by: setup:events/arrival/arrival.md -->
 - **Outcome:** The survey instruments, in their straw, wet now on the outside. Yours to carry.
-- **Gives:** [@name](../../items/geologists-kit.md)
+- **Gives:** [@name](../../items/geologists-kit.md), hook:items/geologists-kit.md
 
 ### Go with the sołtys
 <!-- Prompted by: setup:events/arrival/arrival.md -->

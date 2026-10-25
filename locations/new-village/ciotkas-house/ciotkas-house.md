@@ -54,7 +54,7 @@ The best plot in [@name](../new-village.md), across from the Neighbour's house.
 - **When:** [Alive](../../../characters/ciotka.md#alive) is false
 - **Cost:** 1 time
 - **Outcome:** Only a real search of the room turns them up, tucked away like treasures among the boy's few things: a single unsmoked [@name](../../../items/glupeks-cigarette.md), and an old [@name](../../../items/bayonet.md) kept hidden from [@first-name](../../../characters/ciotka.md). [@first-name](../../../characters/glupek.md) does not smoke, so the cigarette was a gift; its brand and meaning become clear when [compared with the butts from the door](../../../items/cigarette-butts-from-ciotkas.md#compare-with-the-cigarette-in-glupeks-room). What the bayonet is, and that it cannot be his father's, takes a soldier's eye. [@name](../../../characters/neighbour.md) is right across the road; a search risks him seeing them at it.
-- **Gives:** [@name](../../../items/bayonet.md), [@name](../../../items/glupeks-cigarette.md)
+- **Gives:** [@name](../../../items/bayonet.md), [@name](../../../items/glupeks-cigarette.md), hook:items/bayonet.md, hook:items/glupeks-cigarette.md
 ### Open the attic with the key
 - **Requires:** [@name](../../../items/attic-key.md)
 <!-- Prompted by: [`ciotka-is-dead`](../../../clues/clues.md#ciotka-is-dead) -->
@@ -72,7 +72,7 @@ The best plot in [@name](../new-village.md), across from the Neighbour's house.
 <!-- Prompted by: [telegram-points-to-barnas-yard](../../../clues/clues.md#telegram-points-to-barnas-yard) -->
 - **Cost:** 1 time
 - **Outcome:** About a foot down, the players find oilcloth containing a KBW uniform, service insignia, [@name](../../../characters/soldier.md)'s identity documents, deployment dates for the Bieszczady region in 1947, commanding officer [@name](../../../characters/kbw-officer.md), and love letters addressed to "M.K."; these can be cross-checked with [@name](../../../characters/officer.md)'s classified files, the [@name](../../upa-bunker.md), and the [@name](../../../items/pgr-expenses.md).
-- **Gives:** [@name](../../../items/buried-oilcloth-bundle.md)
+- **Gives:** [@name](../../../items/buried-oilcloth-bundle.md), hook:items/buried-oilcloth-bundle.md
 - **Changes:** [Cache](#cache) — found
 
 ## Mechanics
