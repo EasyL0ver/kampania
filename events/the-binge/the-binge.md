@@ -10,7 +10,7 @@
 
 ## Setup
 
-The men sit outside the store on benches and crates, passing [@name](../../items/bimber.md), and go in to buy rounds from [@first-name](../../characters/secondary/halina-zajac.md) and get sent back out. [@name](../../characters/junior.md) drinks with the crew, away from his father.[](#junior-sits-apart)[](#junior-brags-about-gun)[](#the-crew-opens-the-first-bottle)
+The men sit outside the store on benches and crates, passing [@name](../../items/bimber.md), and go in to buy rounds from [@first-name](../../characters/secondary/halina-zajac.md) and get sent back out.[](#drink-with-the-crew) [@name](../../characters/junior.md) drinks with the crew, away from his father.[](#junior-sits-apart)[](#junior-brags-about-gun)[](#the-crew-opens-the-first-bottle)
 
 ## Opportunities
 
@@ -41,6 +41,7 @@ The men sit outside the store on benches and crates, passing [@name](../../items
 ### Drink with the crew
 - **Requires:** [Physique](../../cards/physique.md) OR [Alcoholic](../../cards/alcoholic.md)
 - **When:** [Crew Hostile](../../characters/wujas.md#crew-hostile) is false
+<!-- Prompted by: setup:events/the-binge/the-binge.md -->
 - **Cost:** 1 time
 - **Outcome:** The committee buys a round and shares a full session in the drinking circle. [@nickname](../../characters/wujas.md) warms to whoever kept pace without judging him.
 - **Changes:** [Drinking Buddy](../../characters/wujas.md#drinking-buddy) — the drinking PCs become [@nickname](../../characters/wujas.md)'s drinking buddies

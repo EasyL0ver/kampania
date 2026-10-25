@@ -10,7 +10,7 @@
 
 ## Setup
 
-The committee is between [@surname](../../characters/butcher.md), the knife still in his hand,[](#he-can-be-disarmed-but-not-with-the-dogs-loose) and the woman at the rim,[](#fixated-on-the-woman) and the three dogs turn on them.[](#the-dogs-can-be-handled) For a moment, beyond the candlelight, something seems to move among the trees.[](#a-man-with-a-rifle-in-the-trees)[](#something-watching-from-the-forest)
+The committee is between [@surname](../../characters/butcher.md), the knife still in his hand,[](#grapple-him)[](#disarm-him)[](#fight-him)[](#shoot-him)[](#he-can-be-disarmed-but-not-with-the-dogs-loose) and the woman at the rim,[](#grab-the-hag-and-run)[](#fixated-on-the-woman) and the three dogs turn on them.[](#go-after-a-dog)[](#handle-a-dog)[](#kill-a-dog)[](#throw-the-sausage-to-the-dogs)[](#the-dogs-can-be-handled) For a moment, beyond the candlelight, something seems to move among the trees.[](#a-man-with-a-rifle-in-the-trees)[](#something-watching-from-the-forest)
 
 ## Opportunities
 
@@ -43,12 +43,14 @@ The committee is between [@surname](../../characters/butcher.md), the knife stil
 ## Actions
 
 ### Grapple him
+<!-- Prompted by: setup:events/well-confrontation/the-brawl.md -->
 - **Cost:** 2 composure
 - **Outcome:** You go at [@surname](../../characters/butcher.md), but a dog jumps at you and you scramble with it in the dirt.
 - **Gives:** [Bitten](../../cards/bitten.md)
 - **Changes:** [Dogs occupied](#dogs-occupied) — +1
 
 ### Go after a dog
+<!-- Prompted by: setup:events/well-confrontation/the-brawl.md -->
 - **Cost:** 1 composure
 - **Outcome:** You go for one of the dogs instead and wrestle it down in the dirt.
 - **Gives:** [Bitten](../../cards/bitten.md)
@@ -56,12 +58,14 @@ The committee is between [@surname](../../characters/butcher.md), the knife stil
 
 ### Handle a dog
 - **Requires:** [Survival](../../cards/survival.md)
+<!-- Prompted by: setup:events/well-confrontation/the-brawl.md -->
 - **Cost:** 1 composure
 - **Outcome:** You face one of the dogs down the way a hunter would, low and steady, and it backs off you and stays off.
 - **Changes:** [Dogs occupied](#dogs-occupied) — +1
 
 ### Kill a dog
 - **Requires:** [Violence](../../cards/violence.md)
+<!-- Prompted by: setup:events/well-confrontation/the-brawl.md -->
 - **Cost:** 1 composure
 - **Outcome:** You meet one of the dogs as it comes and kill it before it can close its jaws on you.
 - **Changes:** [Dogs occupied](#dogs-occupied) — +1
@@ -69,6 +73,7 @@ The committee is between [@surname](../../characters/butcher.md), the knife stil
 ### Disarm him
 - **Requires:** [Violence](../../cards/violence.md)
 - **When:** [Dogs occupied](#dogs-occupied) >= 3
+<!-- Prompted by: setup:events/well-confrontation/the-brawl.md -->
 - **Cost:** 2 composure
 - **Outcome:** You get hold of his wrist and wrench the knife out of [@surname](../../characters/butcher.md)'s hand.
 - **Changes:** [Rezeń](well-confrontation.md#butcher) — disarmed
@@ -76,6 +81,7 @@ The committee is between [@surname](../../characters/butcher.md), the knife stil
 ### Disarm him
 - **Requires:** [Violence](../../cards/violence.md)
 - **When:** [Dogs occupied](#dogs-occupied) < 3
+<!-- Prompted by: setup:events/well-confrontation/the-brawl.md -->
 - **Cost:** 2 composure
 - **Outcome:** You struggle with him for the knife, but two of the dogs are on you, and while they drag at you he gets the blade into you.
 - **Gives:** [Wounded](../../cards/wounded.md)
@@ -83,6 +89,7 @@ The committee is between [@surname](../../characters/butcher.md), the knife stil
 
 ### Grab the hag and run
 - **Requires:** [Physique](../../cards/physique.md)
+<!-- Prompted by: setup:events/well-confrontation/the-brawl.md -->
 - **Cost:** 1 composure
 - **Outcome:** You carry [@name](../../characters/hag.md) clear, and all three dogs go after you through the trees.
 - **Gives:** [Wounded](../../cards/wounded.md)
@@ -90,6 +97,7 @@ The committee is between [@surname](../../characters/butcher.md), the knife stil
 
 ### Throw the sausage to the dogs
 - **Requires:** [@name](../../items/sausage.md)
+<!-- Prompted by: setup:events/well-confrontation/the-brawl.md -->
 - **Cost:** [@name](../../items/sausage.md)
 - **Outcome:** Two of the dogs break off and fight over the sausage.
 - **Changes:** [Dogs occupied](#dogs-occupied) — +2
@@ -97,6 +105,7 @@ The committee is between [@surname](../../characters/butcher.md), the knife stil
 ### Fight him
 - **Requires:** [Violence](../../cards/violence.md)
 - **When:** [Dogs occupied](#dogs-occupied) >= 3
+<!-- Prompted by: setup:events/well-confrontation/the-brawl.md -->
 - **Cost:** 2 composure
 - **Outcome:** The fighter drives [@surname](../../characters/butcher.md) off while the dogs are occupied.
 - **Gives:** [Wounded](../../cards/wounded.md)
@@ -104,6 +113,7 @@ The committee is between [@surname](../../characters/butcher.md), the knife stil
 
 ### Shoot him
 - **Requires:** [@name](../../tags/firearm.md)
+<!-- Prompted by: setup:events/well-confrontation/the-brawl.md -->
 - **Cost:** 1 composure
 - **Outcome:** [@surname](../../characters/butcher.md) reads the resolve, lowers the knife, and retreats with the dogs.
 - **Changes:** [Rezeń](well-confrontation.md#butcher) — driven-off

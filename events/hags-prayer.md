@@ -9,10 +9,10 @@
 
 ## Setup
 
-- Following the singing leads to the[](#woman-singing-prayers-in-forest) [@name](../locations/old-village-cerkiew.md).
+- Following the singing leads to the[](#follow-the-singing)[](#woman-singing-prayers-in-forest) [@name](../locations/old-village-cerkiew.md).
 - The ruined nave is dark but for her candles and a low fire; incense, bread, and honey are set on the stones.
-- [@name](../characters/hag.md) stands over the well, singing the names of the dead[](#woman-singing-at-well); the sound carries off the bare stone.
-- The instant she sees or hears the players, the singing stops and she is gone into the forest.
+- [@name](../characters/hag.md) stands over the well, singing the names of the dead[](#sneak-closer-and-watch)[](#woman-singing-at-well); the sound carries off the bare stone.
+- The instant she sees or hears the players, the singing stops and she is gone into the forest.[](#chase-after-her)
 
 ## Opportunities
 
@@ -29,17 +29,20 @@
 ## Actions
 
 ### Follow the singing
+<!-- Prompted by: setup:events/hags-prayer.md -->
 - **Cost:** 1 time
 - **Outcome:** The singing leads through the forest to the [@name](../locations/old-village-cerkiew.md).
 - **Gives:** hook:locations/old-village-ruins.md
 
 ### Sneak closer and watch
 - **Requires:** [Finesse](../cards/finesse.md)
+<!-- Prompted by: setup:events/hags-prayer.md -->
 - **Cost:** 1 time
 - **Outcome:** You creep closer through the dark, near enough to the well to watch [@first-name](../characters/hag.md) perform the full rite unseen: fire, incense, bread, honey, and the names of the dead sung one by one.
 - **Gives:** [hag-performs-rite](../clues/clues.md#hag-performs-rite)
 
 ### Chase after her
+<!-- Prompted by: setup:events/hags-prayer.md -->
 - **Cost:** 1 time
 - **Outcome:** You break cover and run after her. She is gone into the dark before you reach the well and the chase fails. She has now seen the players come at her, and she knows the village means her harm.
 - **Changes:** [Village Hostility](../characters/hag.md#village-hostility) — true

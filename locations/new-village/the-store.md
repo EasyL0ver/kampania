@@ -14,7 +14,8 @@
 - [@name](../../characters/secondary/halina-zajac.md) runs the counter inside.
 - [@first-name](../../characters/matrona.md) [@surname](../../characters/matrona.md) owns the store but is rarely behind the counter.
 - The shelves are sparse but functional.
-- Cigarettes are sold over the counter: cheap Sport on the shelf, a pricier premium brand for those who ask.
+- A coil of field rope[](#buy-rope) hangs on a nail, a ring of smoked sausage on a hook behind the counter[](#buy-sausage), and odd things lie in the drawers, a long linen measuring tape among them.[](#buy-a-measuring-tape)
+- Cigarettes are sold over the counter: cheap Sport on the shelf, a pricier premium brand for those who ask.[](#buy-cigarettes)
 - Bimber is kept under the counter.
 - The crew enters to buy rounds, banter with [@first-name](../../characters/secondary/halina-zajac.md), and get sent back outside.
 - [@name](../../characters/junior.md) drinks with the crew some evenings, away from his father.
@@ -37,18 +38,22 @@
 ## Actions
 
 ### Buy cigarettes
+<!-- Prompted by: setup:locations/new-village/the-store.md -->
 - **Outcome:** [@first-name](../../characters/secondary/halina-zajac.md) sells a pack across the counter: cheap [Sport](../../clues/clues.md#tadek-smokes-cheapest) off the shelf, or premium [@name](../../items/cigarette-butts-from-ciotkas.md) if you ask. A pack lasts one day; keeping one on you is [Chainsmoker](../../story-facts/game-system.md#the-cards) upkeep.
 - **Gives:** [@name](../../items/pack-of-cigarettes.md)
 
 ### Buy rope
+<!-- Prompted by: setup:locations/new-village/the-store.md -->
 - **Outcome:** [@first-name](../../characters/secondary/halina-zajac.md) sells a coil of field line off the shelf, mixed lengths knotted serviceable, long enough for the ridge climb.
 - **Gives:** [@name](../../items/rope.md)
 
 ### Buy a measuring tape
+<!-- Prompted by: setup:locations/new-village/the-store.md -->
 - **Outcome:** [@first-name](../../characters/secondary/halina-zajac.md) finds a long linen tape in a leather case at the back of a drawer and blows the dust off it.
 - **Gives:** [@name](../../items/measuring-tape.md)
 
 ### Buy sausage
+<!-- Prompted by: setup:locations/new-village/the-store.md -->
 - **Outcome:** [@first-name](../../characters/secondary/halina-zajac.md) cuts a ring of smoked sausage off the hook and wraps it in paper.
 - **Gives:** [@name](../../items/sausage.md)
 

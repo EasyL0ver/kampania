@@ -16,7 +16,7 @@
 - He is no longer speaking only about 1954.
 - [@name](../characters/wujas.md) sits at the back, as he does at every Mass.[](#wujas-attends-every-mass)
 - He points toward the old village, the buried dead, and the valley's deeper debt.
-- The village hears the flood framed as reckoning.[](#parish-seeks-a-body-to-blame)
+- The village hears the flood framed as reckoning.[](#challenge-the-judgment-reading)[](#parish-seeks-a-body-to-blame)
 - This sermon fuels the mob that forms that night.
 
 ## Opportunities
@@ -39,6 +39,7 @@
 ## Actions
 
 ### Challenge the judgment reading
+<!-- Prompted by: setup:events/second-flood-mass.md -->
 - **Cost:** 1 time
 - **Outcome:** The challenge gives [@title](../characters/priest.md) [@surname](../characters/priest.md) and the parish a visible alternative to judgment.
 - **Changes:** [Crisis of Faith](../characters/priest.md#crisis-of-faith) — +1

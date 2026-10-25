@@ -13,7 +13,7 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 - There are two to find: one at the streambed col, one at the village edge. Both elevations are needed, so both markers must be turned up.
 - Quartering the whole slope for markers means crossing ground nobody has walked in years; there is more than benchmarks half-swallowed in the gorse up here.
 - The hunt is the gamble against [@name](surveying-the-streambed.md): no geologist and no kit, but the combing eats more cards than a clean survey unless the party can read the ground.
-- Once found, anyone can copy the two stamped elevations off them, no skill needed.
+- Once found, anyone can copy the two stamped elevations off them, no skill needed.[](#copy-the-elevations)
 
 ## Actions
 
@@ -48,6 +48,7 @@ Choosing to comb the overgrown streambed and village edge for old survey markers
 
 ### Copy the elevations
 - **When:** [Col marker](#col-marker) is found AND [Village-edge marker](#village-edge-marker) is found
+<!-- Prompted by: setup:events/search-for-the-benchmarks.md -->
 - **Outcome:** You copy the two stamped elevations off the benchmarks, the col and the village.
 - **Gives:** [@name](../items/streambed-parameters.md)
 

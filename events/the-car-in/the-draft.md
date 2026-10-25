@@ -11,11 +11,12 @@
 ## Setup
 
 - [@name](../../characters/officer.md) holds a dossier on each committee member.
-- He wants to hear each of them say who they are.
+- He wants to hear each of them say who they are.[](#introduce-yourselves)
 
 ## Actions
 
 ### Introduce yourselves
+<!-- Prompted by: setup:events/the-car-in/the-draft.md -->
 - **Outcome:** [@name](../../characters/officer.md) asks each of them who they are and checks the answer against his dossier. The players draft the [card pool](../../story-facts/game-system.md#the-draft) in snake order until the pool is empty, each card a line of their background.
 - **Changes:** [The draft](#the-draft) — true
 

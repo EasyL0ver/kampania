@@ -6,7 +6,7 @@ A single stamped administrative sheet with a dated signature.
 
 ## Setup
 
-A single administrative sheet, official stamps, dated 1954. It records [@name](../characters/soldier.md) surrendering his house, buildings, and land and resettling his household west "of his own free will." At the bottom, his signature. The paper is what let the "they moved away" story stand for thirteen years.
+A single administrative sheet, official stamps, dated 1954. It records [@name](../characters/soldier.md) surrendering his house, buildings, and land and resettling his household west "of his own free will." At the bottom, his signature.[](#compare-it-against-soldiers-hand) The paper is what let the "they moved away" story stand for thirteen years.
 
 ## Content
 
@@ -27,6 +27,7 @@ A single administrative sheet, official stamps, dated 1954. It records [@name](.
 ### Compare it against Soldier's hand
 - **Requires:** [Bureaucracy](../cards/bureaucracy.md)
 - **Requires:** [@name](barnas-departure-declaration.md) AND [@name](buried-oilcloth-bundle.md)
+<!-- Prompted by: setup:items/barnas-departure-declaration.md -->
 - **Cost:** 1 time
 - **Outcome:** Held beside the letters, the signature doesn't match the man who wrote them — the letters flow, this is stiff and traced. Someone copied his hand.
 - **Gives:** [departure-declaration-forged](../clues/clues.md#departure-declaration-forged)

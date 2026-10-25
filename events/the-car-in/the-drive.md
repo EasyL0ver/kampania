@@ -10,14 +10,14 @@
 
 ## Setup
 
-- The ride is long: rain, switchbacks, silence. [@name](../../characters/driver.md) says it will take a while yet.
-- A bundle of forms lies on the bench beside you. [@name](../../characters/officer.md) tells you to get familiar with them before you arrive.
+- The ride is long: rain, switchbacks, silence. [@name](../../characters/driver.md) says it will take a while yet.[](#ride-on)[](#roll-into-the-village)
+- A bundle of forms lies on the bench beside you. [@name](../../characters/officer.md) tells you to get familiar with them before you arrive.[](#look-through-the-forms)
 - [@name](../../characters/driver.md) keeps patting his coat and glancing at[](#driver-searching-while-concealing-it) [@name](../../characters/officer.md), as if he has lost something he should not have.
 - Every few bends, glass clinks somewhere in the back.[](#clinking-sound-is-a-bottle)
 - [@name](../../characters/driver.md) smokes one cigarette off the last[](#driver-smokes-cheap-sport-cigarettes); a crumpled packet sits on the dashboard.
-- Behind the last bench, something heavy slides and bangs against the rear doors on every bend.
-- A folded road map lies on the dashboard in front of [@name](../../characters/officer.md).
-- Ahead, the road forks; the signpost lies face down in the ditch. [@name](../../characters/driver.md) swings left without slowing.
+- Behind the last bench, something heavy slides and bangs against the rear doors on every bend.[](#ask-to-look-in-the-back)[](#tell-him-something-is-loose-in-the-back)
+- A folded road map lies on the dashboard in front of [@name](../../characters/officer.md).[](#ask-him-for-the-map)
+- Ahead, the road forks; the signpost lies face down in the ditch. [@name](../../characters/driver.md) swings left without slowing.[](#check-the-road-map)
 
 ## Opportunities
 
@@ -42,6 +42,7 @@
 ## Actions
 
 ### Look through the forms
+<!-- Prompted by: setup:events/the-car-in/the-drive.md -->
 - **Outcome:** Two of them matter: the census register, ruled for households and their dead, and the farm's stock-take form, every line of it blank.
 - **Gives:** [@name](../../items/census.md), [@name](../../items/pgr-inventory.md)
 
@@ -53,10 +54,12 @@
 
 ### Ask to look in the back
 - **Requires:** [Speech](../../cards/speech.md)
+<!-- Prompted by: setup:events/the-car-in/the-drive.md -->
 - **Outcome:** You give [@first-name](../../characters/officer.md) a reason good enough that he waves a hand without turning round.
 - **Changes:** [Permission](#permission) — permission
 
 ### Tell him something is loose in the back
+<!-- Prompted by: setup:events/the-car-in/the-drive.md -->
 - **Outcome:** [@first-name](../../characters/officer.md) listens to the next bang against the doors. "Then see to it."
 - **Changes:** [Permission](#permission) — permission
 
@@ -92,11 +95,13 @@
 - **Changes:** [Cargo](#cargo) — secured
 
 ### Ask him for the map
+<!-- Prompted by: setup:events/the-car-in/the-drive.md -->
 - **Outcome:** [@first-name](../../characters/officer.md) passes it back over his shoulder.
 - **Gives:** [@name](../../items/road-map.md)
 
 ### Check the road map
 - **Requires:** [@name](../../items/road-map.md) AND ([Survival](../../cards/survival.md) OR [Geology](../../cards/geology.md))
+<!-- Prompted by: setup:events/the-car-in/the-drive.md -->
 - **Outcome:** Read against the ground, the left fork climbs away from the valley toward nothing. The right one followed the river down.
 - **Gives:** [`wrona-took-wrong-turn`](../../clues/clues.md#wrona-took-wrong-turn)
 
@@ -108,11 +113,13 @@
 - **Changes:** [Turn](#turn) — right
 
 ### Ride on
+<!-- Prompted by: setup:events/the-car-in/the-drive.md -->
 - **Outcome:** You settle back and watch the rain for the rest of the ride.
 - **Changes:** [Ride time](#ride-time) — 0 for this player
 
 ### Roll into the village
 - **When:** [Ride time](#ride-time) is 0
+<!-- Prompted by: setup:events/the-car-in/the-drive.md -->
 - **Outcome:** The van rolls into [@name](../../locations/new-village/new-village.md).
 - **Changes:** [@name](the-drive.md) — ends; [@name](../arrival/arrival.md) — starts
 

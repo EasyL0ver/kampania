@@ -21,9 +21,9 @@
 - He looks at men he knows carry blood when he says scarlet.[](#his-gaze-skips-over-matrona)
 - He does not name them.
 - He says the water is the last chance for mercy, not the end of mercy.[](#priest-chooses-mercy-over-judgment)
-- He offers general absolution to the congregation.[](#he-plans-general-absolution-rite)
+- He offers general absolution to the congregation.[](#receive-the-odpust)[](#he-plans-general-absolution-rite)
 - If [@name](../characters/butcher.md) lives, he attends despite skipping earlier Masses.
-- If the players stirred the Lemko rite but did not finish [@name](the-ritual.md), [@name](../characters/babcia.md) stands and pleads[](#babcia-says-lemko-dead-unanswered) against washing killers clean while the dead in the well remain unnamed.
+- If the players stirred the Lemko rite but did not finish [@name](the-ritual.md), [@name](../characters/babcia.md) stands and pleads[](#answer-babcias-plea-by-stopping)[](#babcia-says-lemko-dead-unanswered) against washing killers clean while the dead in the well remain unnamed.
 
 ## Opportunities
 
@@ -55,10 +55,12 @@
 ## Actions
 
 ### Receive the odpust
+<!-- Prompted by: setup:events/the-odpust.md -->
 - **Outcome:** [@title](../characters/priest.md) [@surname](../characters/priest.md) grants general absolution to the congregation as the water rises.
 - **Changes:** [Grace](../characters/priest.md#grace) — true; [Rest](../characters/hag.md#rest) — can no longer become true
 
 ### Answer Babcia's plea by stopping
+<!-- Prompted by: setup:events/the-odpust.md -->
 - **Cost:** 1 time
 - **Outcome:** The players refuse to let the odpust be the final answer while the well dead remain unnamed.
 - **Gives:** hook:events/the-ritual.md

@@ -19,8 +19,8 @@
 - The village is cut off.
 - [@name](../characters/officer.md) was supposed to return yesterday and has not.
 - There is no car, word, or explanation from him.
-- The phone in [@name](../characters/wojewoda.md)'s office is the only connection to the outside if the line works.[](#gajda-offers-access-by-office-phone)
-- Villagers are already working with sandbags near lower houses.
+- The phone in [@name](../characters/wojewoda.md)'s office is the only connection to the outside if the line works.[](#try-the-phone)[](#gajda-offers-access-by-office-phone)
+- Villagers are already working with sandbags near lower houses.[](#help-with-flood-response)
 - [@name](../characters/foreman.md) has PGR workers reinforcing the livestock barn.
 - The village recognizes this as a severe flood.
 - The water table is rising.
@@ -57,12 +57,14 @@
 
 ### Try the phone
 - **When:** [@name](../locations/new-village/pgr-farm/pgr-office.md)
+<!-- Prompted by: setup:events/the-flood.md -->
 - **Cost:** 1 time
 - **Outcome:** The line may reach the powiat office, fail, or route through the exchange. Any outside call is unreliable and monitored if [@first-name](../characters/wojewoda.md) is present.
 - **Gives:** hook:events/phone-calls/operator-refuses-help.md
 - **Changes:** [@name](phone-calls/operator-refuses-help.md) — starts; [@name](phone-calls/the-telegram/the-telegram-phone-call.md) — starts
 
 ### Help with flood response
+<!-- Prompted by: setup:events/the-flood.md -->
 - **Cost:** 1 time
 - **Outcome:** Players help with sandbags, drainage, or livestock. PGR workers mention that the [@name](../locations/old-village-ruins.md) floods worse because water pools there.
 - **Gives:** [`old-village-flooding`](../clues/clues.md#old-village-flooding)

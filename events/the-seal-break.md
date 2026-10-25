@@ -21,7 +21,7 @@
 - A Carmen cigarette burns in his hand;[](#smoker-identifies-brand-from-paper) he smokes openly in the church he once forbade it in.[](#habit-hider-smokes-openly-on-altar)
 - He says he has decided to stop lying.[](#priest-knowingly-breaks-the-seal)
 - He calls the water judgment over a valley built on a grave.[](#valley-built-on-a-grave)
-- He names the acts from the 1954 lynch.[](#gajda-family-waits-for-name)
+- He names the acts from the 1954 lynch.[](#stop-him)[](#gajda-family-waits-for-name)
 - He names [@name](../characters/wojewoda.md), [@name](../characters/wujas.md), and [@name](../characters/butcher.md).
 - He grieves [@name](../characters/ciotka.md) as the source of years of confession.
 - He does not name [@name](../characters/matrona.md).
@@ -64,6 +64,7 @@
 ## Actions
 
 ### Stop him
+<!-- Prompted by: setup:events/the-seal-break.md -->
 - **Cost:** 1 composure
 - **Outcome:** The priest stops before the full account is spoken, but whatever names he already said remain public.
 - **Changes:** [The seal break](#the-seal-break) — TBD

@@ -18,7 +18,7 @@
 - [@name](../characters/junior.md) sits, eats, and barely engages.
 - [@name](../characters/wojewoda.md) looks at [@name](../characters/junior.md) but says nothing.
 - [@name](../characters/wujas.md) arrives midway through dinner.
-- [@name](../characters/wujas.md) is drunk and uninvited.
+- [@name](../characters/wujas.md) is drunk and uninvited.[](#drink-with-wujas)
 - [@name](../characters/wujas.md) lets himself in.
 - [@name](../characters/wojewoda.md) tenses.
 - [@name](../characters/wife.md) goes quiet.
@@ -59,5 +59,6 @@
 
 ### Drink with Wujas
 - **Requires:** [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md)
+<!-- Prompted by: setup:events/dinner.md -->
 - **Outcome:** You match [@nickname](../characters/wujas.md) glass for glass through the meal without judging him; by the end he is loosened and glad of the company.[](#wujas-invites-them-to-drink)
 - **Changes:** [Drinking Buddy](../characters/wujas.md#drinking-buddy) — the drinking PCs become [@nickname](../characters/wujas.md)'s buddies, invited to the store

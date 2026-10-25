@@ -6,7 +6,7 @@
 
 ## Setup
 
-An old military bayonet[](#german-wartime-bayonet-identified-at-a-glance), the blade kept clean and faintly oiled, the grip worn smooth from handling. It was tucked away among [@name](../characters/glupek.md)'s few things like a prize and kept hidden from [@name](../characters/ciotka.md). To an untrained eye it is just an old army knife of no particular origin.
+An old military bayonet[](#german-wartime-bayonet-identified-at-a-glance), the blade kept clean and faintly oiled[](#inspect-the-blade), the grip worn smooth from handling. It was tucked away among [@name](../characters/glupek.md)'s few things like a prize and kept hidden from [@name](../characters/ciotka.md). To an untrained eye it is just an old army knife of no particular origin.
 
 ## Opportunities
 
@@ -20,6 +20,7 @@ An old military bayonet[](#german-wartime-bayonet-identified-at-a-glance), the b
 
 ### Inspect the blade
 - **Requires:** [Bayonet](bayonet.md)
+<!-- Prompted by: setup:items/bayonet.md -->
 - **Cost:** 1 time
 - **Outcome:** Turned to the light, the flat of the blade shows a small mark scratched in by hand: a trident, three prongs rising from a base.
 - **Gives:** [`trident-on-the-bayonet`](../clues/clues.md#trident-on-the-bayonet)

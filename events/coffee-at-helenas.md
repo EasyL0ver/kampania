@@ -23,7 +23,7 @@
 - [@name](../characters/painter.md) avoids eye contact.
 - [@name](../characters/painter.md) flinches when[](#painter-flinches-at-his-name) [@name](../characters/matrona.md) says his name.
 - [@name](../characters/matrona.md) argues that exposing old crimes harms the living and raises none of the dead.[](#her-arguments-always-bury-the-truth)
-- If the committee needs one name for the report, [@name](../characters/matrona.md) offers [@name](../characters/butcher.md).
+- If the committee needs one name for the report, [@name](../characters/matrona.md) offers [@name](../characters/butcher.md).[](#take-the-scapegoat--give-them-butcher)
 
 ## Opportunities
 
@@ -51,6 +51,7 @@
 ## Actions
 
 ### Take the scapegoat — give them Butcher
+<!-- Prompted by: setup:events/coffee-at-helenas.md -->
 - **Outcome:** The committee names [@name](../characters/butcher.md) in the report as the valley's guilt; the Lemko secret, the 1954 lynch, the forgery, and the massacre stay buried behind his name.
 - **Changes:** [Lynch Targets](../characters/neighbour.md#lynch-targets) — [@surname](../characters/butcher.md) becomes [@surname](../characters/neighbour.md)'s locked lynch target
 

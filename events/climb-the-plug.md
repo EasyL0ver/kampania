@@ -10,12 +10,12 @@ Facing the steep plug at the ridge gap.
 ## Setup
 
 - The plug is a steep bank about two storeys high, and it climbs in three distinct pitches.
-- **Lower bank (get on):** a greasy clay start[](#mud-underfoot-seems-easy)[](#lower-bank-looks-easy); strength gets up it fastest, but a sure-footed or determined climber can scramble on too.
-- **The killzone (the crossing):** a loose, exposed traverse of shifting rock. Every hold looks ready to come away under a boot[](#falls-hurt-but-do-not-kill); the party will want it roped and belayed[](#fall-needs-two-on-line).
-- **The top pitch (top out):** the crest is capped by a slab of intact sandstone torn loose by the slide; from the ground it just looks like the top edge, and what it takes to get over it cannot be read from below, not even by a good eye. You only see the problem once you are under it.
+- **Lower bank (get on):** a greasy clay start[](#mud-underfoot-seems-easy)[](#lower-bank-looks-easy); strength gets up it fastest, but a sure-footed or determined climber can scramble on too.[](#force-the-lower-bank)
+- **The killzone (the crossing):** a loose, exposed traverse of shifting rock. Every hold looks ready to come away under a boot[](#falls-hurt-but-do-not-kill); the party will want it roped and belayed[](#traverse-the-killzone)[](#take-the-line)[](#fall-needs-two-on-line).
+- **The top pitch (top out):** the crest is capped by a slab of intact sandstone torn loose by the slide; from the ground it just looks like the top edge, and what it takes to get over it cannot be read from below, not even by a good eye.[](#force-the-top-out) You only see the problem once you are under it.
 - The climb is a one-person job; the rest of the party work the ground: belaying the rope, reading the line, calling up.
-- The party should bring or scrounge a rope (the [@name](../locations/new-village/pgr-farm/pgr-farm.md) or [@name](../locations/new-village/pgr-farm/pgr-office.md) has line): they will want it for the traverse, and need it to haul anyone who cannot climb up to the crest.
-- The top pitch has one lasting solution: a clamp driven into the soft shale seam under the slab. The tools, a clamp and a hammer (both at the [@name](../locations/new-village/pgr-farm/pgr-farm.md)), have to be carried up, which no one brings on a first blind climb.
+- The party should bring or scrounge a rope (the [@name](../locations/new-village/pgr-farm/pgr-farm.md) or [@name](../locations/new-village/pgr-farm/pgr-office.md) has line): they will want it for the traverse, and need it to haul anyone who cannot climb up to the crest.[](#haul-a-climber-one-level)
+- The top pitch has one lasting solution: a clamp driven into the soft shale seam under the slab.[](#drive-the-clamp) The tools, a clamp and a hammer (both at the [@name](../locations/new-village/pgr-farm/pgr-farm.md)), have to be carried up, which no one brings on a first blind climb.
 - Why climb at all: the sill that decides overtopping into [@name](../locations/big-basin.md) can be read only from the crest (the reasoning lives at [@name](../locations/the-ridge-gap.md)).
 
 ## Opportunities
@@ -83,12 +83,14 @@ Facing the steep plug at the ridge gap.
 - **Changes:** [Climber position](#climber-position) — past the lower bank
 
 ### Force the lower bank
+<!-- Prompted by: setup:events/climb-the-plug.md -->
 - **Cost:** 1 time + 1 composure
 - **Outcome:** No strength or footwork for the clay, so the climber grinds up it on nerve alone.
 - **Changes:** [Climber position](#climber-position) — past the lower bank
 
 ### Take the line
 - **Requires:** [@name](../items/rope.md)
+<!-- Prompted by: setup:events/climb-the-plug.md -->
 - **Cost:** 1 time
 - **Outcome:** A partner throws their weight on the line, from the foot of the plug or from the crest off the clamp, ready to hold a fall or power a haul.
 - **Changes:** [Counterweight](#counterweight) — +1 point, +2 for a Physique-strong body
@@ -96,12 +98,14 @@ Facing the steep plug at the ridge gap.
 ### Traverse the killzone
 - **Requires:** [Physique](../cards/physique.md) OR [Finesse](../cards/finesse.md)
 - **When:** [Climber position](#climber-position) >= lower-bank
+<!-- Prompted by: setup:events/climb-the-plug.md -->
 - **Cost:** 1 time
 - **Outcome:** The traverse looks ready to come apart, every hold shifting loose under the hand, but the rock is seated and holds. The climber crosses it, roped or not.
 - **Changes:** [Climber position](#climber-position) — past the killzone
 
 ### Force the top-out
 - **When:** [Climber position](#climber-position) >= killzone
+<!-- Prompted by: setup:events/climb-the-plug.md -->
 - **Cost:** 1 time + 2 composure
 - **Outcome:** The slab overhangs a body-length, smooth and undercut, no holds and nothing above to anchor to. The climber free-solos it anchorless. With the reserve they pull over and top out, leaving the crux bare for anyone who follows. Forcing it without the reserve, they come off the slab: a two-storey fall, nothing to catch them, and they land **Wounded** (attempt spent, back at the foot).
 - **Changes:** [Climber position](#climber-position) — topped out, or Wounded and not up without the reserve
@@ -109,6 +113,7 @@ Facing the steep plug at the ridge gap.
 ### Drive the clamp
 - **Requires:** [@name](../items/anchor.md)
 - **When:** [Climber position](#climber-position) >= killzone
+<!-- Prompted by: setup:events/climb-the-plug.md -->
 - **Cost:** 1 time
 - **Outcome:** The climber drives the steel clamp into the soft shale seam under the slab and pulls over on it, topping out clean with no composure tax. The clamp stays in the rock.
 - **Changes:** [Climber position](#climber-position) — topped out; [Anchor](#anchor) — the crux is anchored for later climbs
@@ -116,6 +121,7 @@ Facing the steep plug at the ridge gap.
 ### Haul a climber one level
 - **Requires:** [@name](../items/rope.md)
 - **When:** [Anchor](#anchor) is true AND [Counterweight](#counterweight) >= 2 AND [Climber position](#climber-position) >= lower-bank
+<!-- Prompted by: setup:events/climb-the-plug.md -->
 - **Cost:** 1 time
 - **Outcome:** The crew hang their weight on the parallel strand off the clamp and drag a body up one pitch, no one climbing it under load. This is how the reader who must take the reading, a geologist or a handiworker with an improvised level, but cannot climb the killzone reaches the crest.
 - **Changes:** [Climber position](#climber-position) — the hauled climber moves up one level; [Counterweight](#counterweight) — 2 points spent

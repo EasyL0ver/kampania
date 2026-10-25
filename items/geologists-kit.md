@@ -6,7 +6,7 @@ A worn canvas roll of surveying tools, maps, tables, and a folded report.
 
 ## Setup
 
-A worn canvas roll of survey tools: a level and clinometer with its graduated rod[](#leveled-points-match-state-contours), a plumb line and tape, a folded copy of the resettlement master plan with its flood-line figures[](#three-outlets-ruled-out-equally), and drainage tables. Tucked in the dossier is the previous crew's signed survey report[](#drunk-crew-filed-unverified-survey), the document whose projection sent the committee here. The report reads clean to a layman. It praises the wojewoda's irrigation ditch[](#ditch-head-mistaken-for-whole-ditch), notes in passing that the river changed course and dismisses it, and says nothing at all about the ridge gap or the far-ridge streambed. Also folded in is a Solina dam-survey station index: a bare list of benchmarks the reservoir survey set across the valley, the far-ridge streambed col among them, but the elevation sheet the index points to is not in the dossier.
+A worn canvas roll of survey tools: a level and clinometer with its graduated rod[](#leveled-points-match-state-contours), a plumb line and tape, a folded copy of the resettlement master plan with its flood-line figures[](#read-the-maps)[](#three-outlets-ruled-out-equally), and drainage tables.[](#read-the-figures-as-a-surveyor)[](#run-the-drainage-tables-on-the-ditch-head)[](#recalculate-the-whole-ditch) Tucked in the dossier is the previous crew's signed survey report[](#drunk-crew-filed-unverified-survey), the document whose projection sent the committee here. The report reads clean to a layman. It praises the wojewoda's irrigation ditch[](#ditch-head-mistaken-for-whole-ditch), notes in passing that the river changed course and dismisses it, and says nothing at all about the ridge gap or the far-ridge streambed. Also folded in is a Solina dam-survey station index: a bare list of benchmarks the reservoir survey set across the valley, the far-ridge streambed col among them, but the elevation sheet the index points to is not in the dossier.
 
 ## Content
 
@@ -74,6 +74,7 @@ A worn canvas roll of survey tools: a level and clinometer with its graduated ro
 
 ### Read the maps
 - **Requires:** [The Geologist's Kit](geologists-kit.md)
+<!-- Prompted by: setup:items/geologists-kit.md -->
 - **Outcome:** The master plan carries the flood-line figure, and the Solina station index lists a [@name](../locations/new-village/new-village.md) datum benchmark (St. 41). The flood line staked across the valley is the dam builders' work, tied to their reservoir survey, not the resettlement crew's.
 - **Gives:** [flood-mark-left-by-dam-builders](../clues/clues.md#flood-mark-left-by-dam-builders)
 
@@ -92,18 +93,21 @@ A worn canvas roll of survey tools: a level and clinometer with its graduated ro
 
 ### Read the figures as a surveyor
 - **Requires:** [The Geologist's Kit](geologists-kit.md) AND [Geology](../cards/geology.md) AND [@name](streambed-parameters.md)
+<!-- Prompted by: setup:items/geologists-kit.md -->
 - **Cost:** 1 time
 - **Outcome:** Against the kit's drainage tables you read the two elevations and conclude the col sits above house level, so the rising water tops the village before it reaches the streambed.
 - **Gives:** [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 
 ### Run the drainage tables on the ditch head
 - **Requires:** [The Geologist's Kit](geologists-kit.md) AND [Geology](../cards/geology.md) AND [@name](concrete-ditch-measurements.md)
+<!-- Prompted by: setup:items/geologists-kit.md -->
 - **Cost:** 1 time
 - **Outcome:** You run the concrete head's cross-section against the drainage tables. The channel of ample capacity carries the flood clear: on these figures the ditch drains fine. It is the same all-clear the report gives, and it is a trap. The sum covers only the concrete stretch at the head, not the earth dugout below. A party that has not walked the full length and measured the dugout has no cause to doubt it and will cross the ditch off.
 - **Gives:** [ditch-drains-fine](../clues/clues.md#ditch-drains-fine)
 
 ### Recalculate the whole ditch
 - **Requires:** [The Geologist's Kit](geologists-kit.md) AND [Geology](../cards/geology.md) AND [@name](concrete-ditch-measurements.md) AND [@name](dugout-measurements.md)
+<!-- Prompted by: setup:items/geologists-kit.md -->
 - **Cost:** 1 time
 - **Outcome:** With both cross-sections in hand, the concrete head and the shallow earth dugout, you run the tables over the real channel, not just the head. The undersized dugout backs up and overflows at flood volume. The ditch cannot carry the water off, and the head-only figure was a false all-clear.
 - **Gives:** [ditch-drains-nothing](../clues/clues.md#ditch-drains-nothing)

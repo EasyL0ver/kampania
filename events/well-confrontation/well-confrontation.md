@@ -10,7 +10,7 @@
 
 ## Setup
 
-[@setup](../../characters/hag.md) kneels at the well rim[](#tending-the-well-matters-most), chanting in a language that is not Polish[](#candles-and-chant-form-a-lemko-rite). Beeswax candles stand in a semicircle around her, an icon faces the water, and bread, a cloth, water, herbs and church incense are set by the stones. [@setup](../../characters/butcher.md) comes up the village path with three dogs and a dead wolf over his shoulder,[](#rezeń-is-out-at-the-well) and drops the wolf by the well[](#wolf-brought-here-in-a-pattern)[](#well-compulsion-and-butchers-appetite-align). He tells her to go home. When she does not move, he circles her with a knife in his hand[](#he-is-calm-and-ready-to-kill); the dogs watch the players' hands.
+[@setup](../../characters/hag.md) kneels at the well rim[](#tending-the-well-matters-most), chanting in a language that is not Polish[](#candles-and-chant-form-a-lemko-rite). Beeswax candles stand in a semicircle around her, an icon faces the water, and bread, a cloth, water, herbs and church incense are set by the stones. [@setup](../../characters/butcher.md) comes up the village path with three dogs and a dead wolf over his shoulder,[](#rezeń-is-out-at-the-well) and drops the wolf by the well[](#wolf-brought-here-in-a-pattern)[](#well-compulsion-and-butchers-appetite-align). He tells her to go home. When she does not move, he circles her with a knife in his hand[](#step-in)[](#hold-back)[](#he-is-calm-and-ready-to-kill); the dogs watch the players' hands.
 
 ## Opportunities
 
@@ -49,16 +49,19 @@
 ## Actions
 
 ### Step in
+<!-- Prompted by: setup:events/well-confrontation/well-confrontation.md -->
 - **Outcome:** The committee steps between the knife and the woman at the rim.
 - **Changes:** [@name](the-brawl.md) — starts
 
 ### Hold back
 - **When:** NOT ([Armed](../../characters/neighbour.md#armed) is true AND [Knows hag goes to well](../../characters/neighbour.md#knows-hag-goes-to-well) is true AND [Knows butcher goes to well](../../characters/neighbour.md#knows-butcher-goes-to-well) is true AND [Humiliated](../../characters/neighbour.md#humiliated) is false)
+<!-- Prompted by: setup:events/well-confrontation/well-confrontation.md -->
 - **Outcome:** The committee stays where it is.
 - **Changes:** [@name](the-murder.md) — starts
 
 ### Hold back
 - **When:** [Armed](../../characters/neighbour.md#armed) is true AND [Knows hag goes to well](../../characters/neighbour.md#knows-hag-goes-to-well) is true AND [Knows butcher goes to well](../../characters/neighbour.md#knows-butcher-goes-to-well) is true AND [Humiliated](../../characters/neighbour.md#humiliated) is false
+<!-- Prompted by: setup:events/well-confrontation/well-confrontation.md -->
 - **Outcome:** Before the knife comes down, [@surname](../../characters/neighbour.md) steps out of the trees.
 - **Changes:** [@name](dudka-intervention.md) — starts
 

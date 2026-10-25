@@ -10,7 +10,7 @@
 
 ## Setup
 
-- [@name](../../characters/ciotka.md) lies on the kitchen floor.
+- [@name](../../characters/ciotka.md) lies on the kitchen floor.[](#strip-her-crudely)
 - [@name](../../characters/ciotka.md) is on her back, half-turned.
 - [@name](../../characters/ciotka.md)'s eyes are open.[](#ciotka-lies-dead-on-floor)
 - A fresh, dark bruise[](#bruise-on-wrist-and-priest-praying) rings one of [@name](../../characters/ciotka.md)'s wrists.
@@ -49,6 +49,7 @@
 - **Gives:** [`ciotka-hurt-before-death`](../../clues/clues.md#ciotka-hurt-before-death), [ciotka-overdosed](../../clues/clues.md#ciotka-overdosed)
 
 ### Strip her crudely
+<!-- Prompted by: setup:events/ciotka-found-dead/the-kitchen.md -->
 - **Cost:** 1 composure
 - **Outcome:** They strip her past the priest's objection without a word to him. He falls silent and does not look at them again.
 - **Changes:** [Contempt for the dead](../../characters/priest.md#contempt-for-the-dead) — the committee showed contempt for [@first-name](../../characters/ciotka.md)'s body

@@ -14,7 +14,7 @@
 - The massacre is the state's buried crime under the dam.
 - [@surname](../characters/officer.md) has signaled that the state wants the massacre buried.
 - The dam is infrastructure and a grave.
-- The players choose what goes into the report.[](#car-route-changes-when-the-truth-stays-inside)
+- The players choose what goes into the report.[](#submit-a-report-without-the-massacre)[](#submit-a-report-with-the-massacre-and-no-outside-witness)[](#submit-a-report-with-the-massacre-and-an-outside-witness)[](#car-route-changes-when-the-truth-stays-inside)
 
 ## Opportunities
 
@@ -31,16 +31,19 @@
 ## Actions
 
 ### Submit a report without the massacre
+<!-- Prompted by: setup:events/the-report.md -->
 - **Outcome:** [@name](../characters/officer.md) accepts the report and the car drives away.
 - **Changes:** [The report](#the-report) — cover-up, the state's secret stays buried
 
 ### Submit a report with the massacre and no outside witness
 - **When:** [Knows](../characters/professor.md#knows) is false
+<!-- Prompted by: setup:events/the-report.md -->
 - **Outcome:** [@name](../characters/officer.md) reads the report, signals the driver, and the car changes course.
 - **Changes:** [The report](#the-report) — suppressed, the players do not reach the road home
 
 ### Submit a report with the massacre and an outside witness
 - **When:** [Knows](../characters/professor.md#knows) is true
+<!-- Prompted by: setup:events/the-report.md -->
 - **Outcome:** [@name](../characters/officer.md) knows the truth already exists outside the car and lets the car continue home.
 - **Changes:** [The report](#the-report) — truth survives outside the valley, the players live
 

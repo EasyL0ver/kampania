@@ -11,7 +11,7 @@
 
 ## Setup
 
-The men sit around the fire with bottles and cards, drinking the still's own [@name](../../items/bimber.md).[](#crew-mock-past-state-surveyors)[](#crew-rib-geologist-as-drunk)[](#the-crew-opens-the-first-bottle)
+The men sit around the fire with bottles and cards,[](#sit-down-and-drink-with-the-crew)[](#get-shitfaced-with-wujas) drinking the still's own [@name](../../items/bimber.md).[](#crew-mock-past-state-surveyors)[](#crew-rib-geologist-as-drunk)[](#the-crew-opens-the-first-bottle)
 
 ## Opportunities
 
@@ -38,12 +38,14 @@ The men sit around the fire with bottles and cards, drinking the still's own [@n
 ### Sit down and drink with the crew
 - **Requires:** [Physique](../../cards/physique.md) OR [Alcoholic](../../cards/alcoholic.md)
 - **When:** [@present](../../characters/wujas.md)
+<!-- Prompted by: setup:events/the-binge/at-the-still.md -->
 - **Cost:** 1 time
 - **Outcome:** The committee takes the offered bottle and makes it clear they are not here to shut the still down. The crew relaxes and the night turns into a session. [@nickname](../../characters/wujas.md) warms to whoever kept pace without judging him.
 - **Changes:** [Drinking Buddy](../../characters/wujas.md#drinking-buddy) — the drinking PCs become [@nickname](../../characters/wujas.md)'s drinking buddies
 
 ### Get shitfaced with Wujas
 - **When:** [Drinking Buddy](../../characters/wujas.md#drinking-buddy) is true
+<!-- Prompted by: setup:events/the-binge/at-the-still.md -->
 - **Cost:** 2 time + 1 composure
 - **Outcome:** The committee drinks [@nickname](../../characters/wujas.md) past the point of guard. He gets loud, then maudlin, and grief for a woman he won't name slips out before he can catch it.
 - **Gives:** [`wujas-misses-someone`](../../clues/clues.md#wujas-misses-someone)

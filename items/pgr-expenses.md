@@ -6,7 +6,7 @@ A worn farm expense ledger: rows of dates, payees, amounts.
 
 ## Setup
 
-A worn ledger of non-payroll farm spending — seed, transport, repairs, vet bills, seasonal slaughter — running 1950–1967. Page after page of ordinary numbers in a bookkeeper's hand. Nothing looks wrong until you know what you're reading against. Familiar village names recur (Gajda, [@surname](../characters/butcher.md), [@surname](../characters/neighbour.md), Rzepka) and make the two names that matter easy to skim past.[](#four-thousand-bricks)[](#timber-for-a-new-fold)[](#eighteen-sacks-of-fertilizer)
+A worn ledger of non-payroll farm spending — seed, transport, repairs, vet bills, seasonal slaughter — running 1950–1967.[](#read-the-1965-entries-investigation)[](#trace-the-brick-and-masonry-investigation) Page after page of ordinary numbers in a bookkeeper's hand. Nothing looks wrong until you know what you're reading against. Familiar village names recur (Gajda, [@surname](../characters/butcher.md), [@surname](../characters/neighbour.md), Rzepka) and make the two names that matter easy to skim past.[](#four-thousand-bricks)[](#timber-for-a-new-fold)[](#eighteen-sacks-of-fertilizer)
 
 ## Content
 
@@ -112,12 +112,14 @@ Date        Payee / Description                                    Amount
 
 ### Read the 1965 entries (Investigation)
 - **Requires:** [PGR Expense Journal](pgr-expenses.md)
+<!-- Prompted by: setup:items/pgr-expenses.md -->
 - **Cost:** 1 time
 - **Outcome:** May 1965: a silo repair, then one week later the largest single expense in the journal — an emergency grain purchase because the silo's contents were "lost." A broken silo, grain gone, the biggest bill in years — and not one medical or hospital cost anywhere near it.
 - **Gives:** [`large-grain-purchase`](../clues/clues.md#large-grain-purchase)
 
 ### Trace the brick and masonry (Investigation)
 - **Requires:** [PGR Expense Journal](pgr-expenses.md)
+<!-- Prompted by: setup:items/pgr-expenses.md -->
 - **Cost:** 1 time
 - **Outcome:** 1960: the farm buys 4,000 red bricks and pays a mason for "worker housing" — the only brick spending in the ledger. The village has one brick house: [@name](../characters/barbara.md)'s. State money built a labourer's house.
 - **Gives:** [barbara-has-help](../clues/clues.md#barbara-has-help)

@@ -6,7 +6,7 @@ A soft, much-folded sheet covered in old Cyrillic handwriting and small crosses.
 
 ## Setup
 
-A single sheet, soft as cloth from twenty years of handling, folded and refolded until the creases have gone furry. Names written in **Cyrillic** in a careful, old-fashioned hand — [@name](../characters/hag.md)'s. Some in ink gone brown, some later ones in pencil, a few traced over twice where the line faded. A small cross is inked beside each name. It is not a document in any official sense. It is a woman keeping her dead from disappearing, one name at a time, because no state, church, or grave ever would.
+A single sheet, soft as cloth from twenty years of handling, folded and refolded until the creases have gone furry. Names written in **Cyrillic** in a careful, old-fashioned hand[](#read-the-names) — [@name](../characters/hag.md)'s. Some in ink gone brown, some later ones in pencil, a few traced over twice where the line faded. A small cross is inked beside each name. It is not a document in any official sense. It is a woman keeping her dead from disappearing, one name at a time, because no state, church, or grave ever would.
 
 To anyone without the language it is a column of foreign letters. To anyone who can read it, it is a village.
 
@@ -39,5 +39,6 @@ Who they were is recorded in [the massacre file](../story-facts/old-village-mass
 
 ### Read the names
 - **Requires:** [Paraskewia's List of the Dead](paraskewias-list.md) AND ([Language](../cards/language.md) OR [Culture](../cards/culture.md))
+<!-- Prompted by: setup:items/paraskewias-list.md -->
 - **Outcome:** The players can now name the 1947 dead — the twelve villagers and [@name](../characters/dmytro-kosach.md) — the core of the [@name](../events/the-ritual.md). Without the skill, the names stay locked in the script until someone reads it for them.
 - **Gives:** [paraskewia-named-the-dead](../clues/clues.md#paraskewia-named-the-dead)

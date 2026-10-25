@@ -19,11 +19,11 @@
 - Rain hits the window.
 - [@title](../characters/priest.md) [@surname](../characters/priest.md) pours tea and does not drink it.
 - His hand keeps going to his collar.[](#collar-touch-reveals-confessional-burden)
-- He says the flood may be divine judgment, not engineering failure.
+- He says the flood may be divine judgment, not engineering failure.[](#tell-him-the-valley-deserves-judgment)
 - He cites Noah, Sodom, and other judgment stories.[](#frightened-priest-reaching-for-judgment)
 - He says a place can carry a wrong so long that heaven answers with water.
-- He does not name the sin.[](#unnamed-specific-sin-withheld)
-- He asks whether a man who has done something unforgivable can still be forgiven.[](#priest-seeks-laypersons-reassurance)
+- He does not name the sin.[](#push-him-to-name-the-sin)[](#unnamed-specific-sin-withheld)
+- He asks whether a man who has done something unforgivable can still be forgiven.[](#tell-him-people-can-be-forgiven)[](#ask-him-what-he-needs)[](#priest-seeks-laypersons-reassurance)
 - He is asking about someone specific.
 - He will not say who.
 - He may be asking about himself.
@@ -59,19 +59,23 @@
 ## Actions
 
 ### Tell him people can be forgiven
+<!-- Prompted by: setup:events/priests-plea.md -->
 - **Outcome:** [@title](../characters/priest.md) [@surname](../characters/priest.md) steadies. Mercy becomes a possible answer to his crisis.
 - **Gives:** [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
 - **Changes:** [Crisis of Faith](../characters/priest.md#crisis-of-faith) — +2
 
 ### Ask him what he needs
+<!-- Prompted by: setup:events/priests-plea.md -->
 - **Outcome:** [@title](../characters/priest.md) [@surname](../characters/priest.md) says the lost must be brought back to God before the water comes, especially those with the most to answer for.
 - **Gives:** [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
 
 ### Push him to name the sin
+<!-- Prompted by: setup:events/priests-plea.md -->
 - **Outcome:** [@title](../characters/priest.md) [@surname](../characters/priest.md) refuses to betray the confessional and ends the meeting.
 - **Changes:** [Crisis of Faith](../characters/priest.md#crisis-of-faith) — −2
 
 ### Tell him the valley deserves judgment
+<!-- Prompted by: setup:events/priests-plea.md -->
 - **Outcome:** [@title](../characters/priest.md) [@surname](../characters/priest.md) leans harder toward judgment.
 - **Gives:** [`priest-fears-divine-judgment`](../clues/clues.md#priest-fears-divine-judgment)
 - **Changes:** [Crisis of Faith](../characters/priest.md#crisis-of-faith) — −2

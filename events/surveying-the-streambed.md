@@ -9,7 +9,7 @@ Setting up a level line at the far-ridge streambed to measure toward the village
 ## Setup
 
 - The col of the dry streambed stands at the top of the far ridge, the village far below on the valley floor.
-- Settling whether the col drains means one number: is it above or below house level.
+- Settling whether the col drains means one number: is it above or below house level.[](#read-the-finished-line)
 - Getting it means running a level line from the col all the way down to the village, resetting the instrument every short stretch over rough ground. It is a full day's work.
 - The geologist cannot run the instrument and hold the staff at once; every extra pair of hands shortens the day.
 - A cooperative [@name](../characters/foreman.md) will come up and assist here (see [Bring him to the streambed](../characters/foreman.md#bring-him-to-the-streambed)), counting as one helping hand, but only if the party brings him to this scene rather than the benchmark hunt.
@@ -42,6 +42,7 @@ Setting up a level line at the far-ridge streambed to measure toward the village
 ### Read the finished line
 - **Requires:** [Geology](../cards/geology.md) AND [@name](../items/geologists-kit.md)
 - **When:** [The line](#the-line) is 6
+<!-- Prompted by: setup:events/surveying-the-streambed.md -->
 - **Outcome:** You close the line between the col and the village and read the two heights. They settle it: the col sits above house level, so the rising water tops the village before it ever reaches the streambed.
 - **Gives:** [@name](../items/streambed-parameters.md), [streambed-dead-ends](../clues/clues.md#streambed-dead-ends)
 

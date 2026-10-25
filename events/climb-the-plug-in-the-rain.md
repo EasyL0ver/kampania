@@ -11,9 +11,9 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 - The party already knows this climb: the route, the killzone, the crux. What is different is the rain and the load, not the line.
 - The seam that takes the charge is up under the crux slab near the top of the plug, the same overhang the survey climb met, not down at the toe.
-- Rain is sheeting off the plug: the clay banks run with mud[](#soaked-clay-bears-weight-selectively), the killzone ledge is strewn with wet rubble[](#loose-rock-demands-a-rope), and the crux slab is black and streaming. It looks worse than the survey. How much worse, no one can say from the ground.
-- The charges are twenty-year-old partisan ordnance, heavy and touchy: a knock, drop, spark, or heat can set them off[](#ordnance-triggers-on-fall). Getting the weight up the plug is the real problem[](#fall-needs-two-bodies), not finding the way.
-- If the survey party drove a clamp at the crux, the top pitch is a fixed hold; if not, it has to be free-soloed again, in the rain.
+- Rain is sheeting off the plug: the clay banks run with mud[](#scale-the-lower-bank)[](#force-the-lower-bank)[](#soaked-clay-bears-weight-selectively), the killzone ledge is strewn with wet rubble[](#traverse-the-killzone)[](#take-the-line)[](#loose-rock-demands-a-rope), and the crux slab is black and streaming.[](#traverse-the-top-out) It looks worse than the survey. How much worse, no one can say from the ground.
+- The charges are twenty-year-old partisan ordnance, heavy and touchy: a knock, drop, spark, or heat can set them off[](#carry-the-charge)[](#prime-the-explosives)[](#blow-the-gap)[](#ordnance-triggers-on-fall). Getting the weight up the plug is the real problem[](#haul-the-charge-one-level)[](#haul-a-climber-one-level)[](#fall-needs-two-bodies), not finding the way.
+- If the survey party drove a clamp at the crux, the top pitch is a fixed hold;[](#traverse-with-anchor)[](#drive-the-anchor) if not, it has to be free-soloed again, in the rain.
 
 ## Opportunities
 
@@ -78,23 +78,27 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ### Scale the lower bank
 - **Requires:** [Geology](../cards/geology.md) OR [Finesse](../cards/finesse.md)
+<!-- Prompted by: setup:events/climb-the-plug-in-the-rain.md -->
 - **Cost:** 1 time
 - **Outcome:** The clay has liquefied and sloughs underfoot; a skilled climber picks the bearing line or muscles up it.
 - **Changes:** [Climber position](#climber-position) — past the lower bank; [Climb attempted](#climb-attempted) — true
 
 ### Force the lower bank
+<!-- Prompted by: setup:events/climb-the-plug-in-the-rain.md -->
 - **Cost:** 1 time + 1 composure
 - **Outcome:** No read and no strength for the slop, so the climber grinds up it on nerve alone.
 - **Changes:** [Climber position](#climber-position) — past the lower bank; [Climb attempted](#climb-attempted) — true
 
 ### Carry the charge
 - **Requires:** [@name](../items/makeshift-charge.md)
+<!-- Prompted by: setup:events/climb-the-plug-in-the-rain.md -->
 - **Outcome:** The climber carries the charge up the wet bank and onto the line.
 - **Changes:** [The charge](#the-charge) — carried by the climber
 
 ### Take the line
 - **Requires:** [@name](../items/rope.md)
 - **When:** [Climber position](#climber-position) >= lower-bank
+<!-- Prompted by: setup:events/climb-the-plug-in-the-rain.md -->
 - **Cost:** 1 time
 - **Outcome:** The climber commits their body to the line as counterweight, to power a haul or catch a fall below.
 - **Changes:** [Counterweight](#counterweight) — +1 point, +2 for a Physique-strong body
@@ -102,6 +106,7 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 ### Traverse the killzone
 - **Requires:** [Physique](../cards/physique.md) OR [Finesse](../cards/finesse.md)
 - **When:** [Climber position](#climber-position) >= lower-bank
+<!-- Prompted by: setup:events/climb-the-plug-in-the-rain.md -->
 - **Cost:** 1 time
 - **Outcome:**
   - **First attempt** `(loose rock in place)` — the loose rock gives and the climber falls, caught by the counterweight on the line (see Mechanics); the fall knocks the rock off the line for good.
@@ -124,6 +129,7 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 ### Drive the anchor
 - **Requires:** [@name](../items/anchor.md)
 - **When:** [Climber position](#climber-position) >= killzone
+<!-- Prompted by: setup:events/climb-the-plug-in-the-rain.md -->
 - **Cost:** 1 time
 - **Outcome:** The climber drives the anchor home at the top of the plug, setting a fixed point for the crux.
 - **Changes:** [Anchor](#anchor) — the top-out is anchored
@@ -131,12 +137,14 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 ### Traverse the top-out
 - **Requires:** [Physique](../cards/physique.md) OR [Finesse](../cards/finesse.md)
 - **When:** [Climber position](#climber-position) >= killzone
+<!-- Prompted by: setup:events/climb-the-plug-in-the-rain.md -->
 - **Cost:** 1 time
 - **Outcome:** The rain-greased crux slab will not hold a stance and the climber loses balance outright.
 - **Changes:** [Climber position](#climber-position) — past the top-out; [Balance](#balance) — lost
 
 ### Traverse with anchor
 - **When:** [Anchor](#anchor) is true AND [Climber position](#climber-position) >= killzone
+<!-- Prompted by: setup:events/climb-the-plug-in-the-rain.md -->
 - **Cost:** 1 time
 - **Outcome:** The climber clips the fixed anchor and moves across the crux on the line, the slab no longer able to throw them.
 - **Changes:** [Climber position](#climber-position) — past the top-out
@@ -144,6 +152,7 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 ### Haul a climber one level
 - **Requires:** [@name](../items/rope.md)
 - **When:** [Anchor](#anchor) is true AND [Counterweight](#counterweight) >= 2
+<!-- Prompted by: setup:events/climb-the-plug-in-the-rain.md -->
 - **Cost:** 1 time
 - **Outcome:** The crew hang their weight on the parallel strand and drag a body up one pitch, no one climbing it under load.
 - **Changes:** [Climber position](#climber-position) — the hauled climber moves up one level; [Counterweight](#counterweight) — 2 points spent
@@ -151,6 +160,7 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 ### Haul the charge one level
 - **Requires:** [@name](../items/rope.md)
 - **When:** [Anchor](#anchor) is true AND [Counterweight](#counterweight) >= 1
+<!-- Prompted by: setup:events/climb-the-plug-in-the-rain.md -->
 - **Cost:** 1 time
 - **Outcome:** The crew hang their weight on the parallel strand and drag the charge up one pitch, no one climbing it under load.
 - **Changes:** [The charge](#the-charge) — up one level; [Counterweight](#counterweight) — 1 point spent
@@ -158,6 +168,7 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 ### Prime the explosives
 - **Requires:** [Violence](../cards/violence.md) OR [Handiwork](../cards/handiwork.md)
 - **When:** [Climber position](#climber-position) is top-out AND NOT [The charge](#the-charge) is primed
+<!-- Prompted by: setup:events/climb-the-plug-in-the-rain.md -->
 - **Cost:** 1 time
 - **Outcome:** The climber sets the detonator and runs the fuse, arming the old ordnance to blow.
 - **Changes:** [The charge](#the-charge) — primed
@@ -177,6 +188,7 @@ Facing the rain-soaked ridge plug, a heavy load to haul up.
 
 ### Blow the gap
 - **When:** [The charge](#the-charge) is primed
+<!-- Prompted by: setup:events/climb-the-plug-in-the-rain.md -->
 - **Outcome:** The charge blows: the notch opens, floodwater widens it, and the water in [@name](../locations/new-village/new-village.md) starts to drop. Anyone still on the plug when it goes is killed.
 - **Changes:** [The charge](#the-charge) — blown; [Climber position](#climber-position) — anyone still on the plug dies; [Gap blown](#gap-blown) — true, the village is saved and the basin floods
 

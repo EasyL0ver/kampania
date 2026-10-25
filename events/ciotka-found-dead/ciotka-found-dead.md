@@ -9,7 +9,7 @@
 
 ## Setup
 
-- [@name](../../characters/priest.md) stands at [@name](../../characters/ciotka.md)'s front door, knocking. No one answers.
+- [@name](../../characters/priest.md) stands at [@name](../../characters/ciotka.md)'s front door, knocking. No one answers.[](#ask-the-priest-what-brings-him-here)
 - The front door is locked, both locks turned, as she always kept it.
 - The back door stands open.
 - Cigarette butts lie scattered just outside the door.[](#cigarette-butts-outside-the-door)
@@ -24,6 +24,7 @@
 ## Actions
 
 ### Ask the priest what brings him here
+<!-- Prompted by: setup:events/ciotka-found-dead/ciotka-found-dead.md -->
 - **Outcome:** "She wasn't at Mass. She has never once missed Mass." He knocked; nobody answered.
 - **Gives:** [ciotka-missed-mass](../../clues/clues.md#ciotka-missed-mass), [something-happened-to-ciotka](../../clues/clues.md#something-happened-to-ciotka)
 

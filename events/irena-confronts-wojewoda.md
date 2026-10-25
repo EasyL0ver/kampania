@@ -11,7 +11,7 @@
 
 ## Setup
 
-- The voices are muffled by the closed door.
+- The voices are muffled by the closed door.[](#strain-to-catch-it)
 - [@first-name](../characters/wife.md) says enough for listeners to catch that [@first-name](../characters/wojewoda.md) was there in 1954.
 - [@first-name](../characters/wojewoda.md) answers as a man who believes the killing was necessary.
 - [@first-name](../characters/wife.md) shifts from accusation to tactical argument.
@@ -37,6 +37,7 @@
 
 ### Strain to catch it
 - **When:** [@name](../locations/new-village/wojewodas-house.md)
+<!-- Prompted by: setup:events/irena-confronts-wojewoda.md -->
 - **Cost:** 1 composure
 - **Outcome:** The players do not hear a full confession, but they learn that [@first-name](../characters/wojewoda.md) is guilty of a 1954 crime, is not sorry, considered bringing it into the open, and was stopped by [@first-name](../characters/wife.md).
 - **Gives:** [`wife-protects-husband`](../clues/clues.md#wife-protects-husband)

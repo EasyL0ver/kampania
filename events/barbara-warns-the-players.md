@@ -15,7 +15,7 @@
 - [@name](../characters/barbara.md) keeps looking toward the fence line and [@name](../locations/new-village/neighbours-house.md).
 - [@name](../characters/barbara.md) grips the trusted player's arm tightly[](#barbara-fears-for-neighbour-not-of-him).
 - [@name](../characters/barbara.md) says [@name](../characters/neighbour.md) has been drinking.
-- [@name](../characters/barbara.md) says men have been at [@name](../characters/neighbour.md)'s place.
+- [@name](../characters/barbara.md) says men have been at [@name](../characters/neighbour.md)'s place.[](#get-the-timing-out-of-her)
 - [@name](../characters/barbara.md) says [@name](../characters/neighbour.md) took down, cleaned, and did not replace his rifle[](#barbara-describes-preparations-rather-than-mood).
 - [@name](../characters/barbara.md) says [@name](../characters/neighbour.md) spoke about someone finally answering for what they did[](#answering-for-deeds-sounds-like-a-verdict).
 - [@name](../characters/barbara.md) says [@name](../characters/neighbour.md) did not come to the fence tonight.
@@ -42,6 +42,7 @@
 ## Actions
 
 ### Get the timing out of her
+<!-- Prompted by: setup:events/barbara-warns-the-players.md -->
 - **Outcome:** [@name](../characters/barbara.md) confirms the men gathered tonight, the rifle is gone, and [@name](../characters/neighbour.md) is not at the fence.
 - **Gives:** hook:events/punishment-lynch.md
 

@@ -11,7 +11,7 @@
 ## Setup
 
 - [@name](../characters/foreman.md) says the village is drowning because the water cannot run through the plugged gap.
-- He asks the committee for help.
+- He asks the committee for help.[](#back-the-plan)
 - He has not slept or eaten in days, and his torn hands do not seem to hurt him.[](#foremans-abnormal-endurance-signs)
 - The ground beyond the gap is the empty [@name](../locations/big-basin.md), big enough to take the water without drowning anyone.
 - The plug is loose debris and soft shale, not hard sandstone.[](#plan-is-sound-overall)
@@ -50,6 +50,7 @@
 ## Actions
 
 ### Back the plan
+<!-- Prompted by: setup:events/foreman-saves-village.md -->
 - **Outcome:** You tell [@first-name](../characters/foreman.md) you are in. He starts on the route to the bunker and the climb to the gap; [@first-name](../characters/zofia.md) looks away.
 - **Changes:** [Backed](#backed) — true
 
