@@ -17,7 +17,7 @@
 - Cigarettes are sold over the counter: cheap Sport on the shelf, a pricier premium brand for those who ask.
 - Bimber is kept under the counter.
 - The crew enters to buy rounds, banter with [@first-name](../../characters/secondary/halina-zajac.md), and get sent back outside.
-- [@name](../../characters/junior.md) drinks with the crew some evenings, away from his father.[](#junior-brags-about-gun)
+- [@name](../../characters/junior.md) drinks with the crew some evenings, away from his father.
 - [@first-name](../../characters/secondary/halina-zajac.md) resents [@first-name](../../characters/matrona.md) [@surname](../../characters/matrona.md) and speaks sharply about the work.
 - The back room has a locked pharmaceutical cabinet.
 - The cabinet contains penicillin, aspirin, bandages, and iodine.[](#locked-cabinet-holds-medicine)
@@ -33,25 +33,6 @@
 <!-- Prompted by: setup:locations/new-village/the-store.md -->
 - **Outcome:** In the back room a locked cabinet holds penicillin, aspirin, bandages, and iodine; a trained eye reads it as a *szafka apteczna*, the state medicine point for miles.
 - **Gives:** [store-has-drug-cabinet](../../clues/clues.md#store-has-drug-cabinet)
-
-### Neighbour drinks fast
-- **Noticed by:** [Empathy](../../cards/empathy.md)
-- **When:** [Drinking Buddy](../../characters/wujas.md#drinking-buddy) is true
-- **Outcome:** [@surname](../../characters/neighbour.md) drinks too fast and shuts down when the past comes up.
-- **Gives:** [neighbour-is-rattled](../../clues/clues.md#neighbour-is-rattled)
-
-### Junior sits apart
-- **When:** [@present](../../characters/junior.md) OR [Drinking Buddy](../../characters/wujas.md#drinking-buddy) is true
-<!-- Prompted by: setup:locations/new-village/the-store.md -->
-- **Outcome:** Present, [@first-name](../../characters/junior.md) sits plainly among the crew on the benches, away from his father; absent, the crew mention the sołtys's son who drinks with them.
-- **Gives:** [junior-drinks-with-crew](../../clues/clues.md#junior-drinks-with-crew)
-
-### Junior brags about gun
-- **Noticed by:** [Physique](../../cards/physique.md)
-- **When:** setup:locations/new-village/the-store.md
-<!-- Prompted by: [junior-drinks-with-crew](../../clues/clues.md#junior-drinks-with-crew) -->
-- **Outcome:** Drinking with the crew, [@first-name](../../characters/junior.md) puffs up and talks about the gun in his father's office desk.
-- **Gives:** [wojewoda-has-gun](../../clues/clues.md#wojewoda-has-gun)
 
 ## Actions
 
@@ -103,7 +84,7 @@
 
 <!-- If bonded with Halina, [Ask who smokes what](../../characters/secondary/halina-zajac.md#ask-who-smokes-what) is her counter action — she knows every villager's brand. -->
 
-<!-- Drinking with the crew is a crew action — see [Tadek Gajda — Drink with the crew](../../characters/wujas.md#drink-with-the-crew). -->
+<!-- Drinking with the crew happens in [@name](../../events/the-binge/the-binge.md). -->
 
 ## Mechanics
 

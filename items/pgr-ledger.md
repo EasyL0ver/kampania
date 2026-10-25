@@ -24,7 +24,7 @@ No.  Name                   Position                Daily rate  Notes
  5   Pytlak, Zofia          Cook                    42 zł       —
  6   Mazur, Tadeusz         Farm labourer           52 zł       —
  7   Wójcik, Henryk         Night watchman          35 zł       Part-time
- 8   Sikora, Marian         Farm labourer           48 zł       Seasonal
+ 8   Głowacz, Romek         Storekeeper             48 zł       —
 
 Payroll (monthly):          10,400 zł
 Kitchen supplies:            2,800 zł

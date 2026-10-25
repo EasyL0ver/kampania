@@ -1,7 +1,7 @@
 # Caught at the Still
 
 **Location:** [@name](../locations/bimber-still.md)
-**Present:** [@name](../characters/wujas.md), [@name](../characters/secondary/szymek-kepa.md), [@name](../characters/secondary/romek-glowacz.md), [@name](../characters/secondary/franek-mucha.md)
+**Present:** [@name](../characters/wujas.md), [@name](../characters/secondary/romek-glowacz.md), [@name](../characters/secondary/franek-mucha.md)
 
 ## Hook
 
@@ -14,7 +14,6 @@
 - The still, barrels, and sugar sacks are in plain view — no hiding it.
 - Government people at the still means their winter's income is exposed.[](#crew-are-frightened-not-criminal)
 - The crew is drunk, cornered, and already on its feet by the time the committee reaches the clearing.
-- [@name](../characters/secondary/szymek-kepa.md) puts himself between the committee and the still.
 - [@name](../characters/secondary/franek-mucha.md) moves onto the footpath, cutting the way out.
 - [@name](../characters/secondary/romek-glowacz.md) stays seated and watches.
 - [@name](../characters/wujas.md) goes pale and reaches for the bottle.
@@ -31,13 +30,13 @@
 
 ### Let Wujas vouch — already buddies
 - **When:** [Drinking Buddy](../characters/wujas.md#drinking-buddy) is true
-- **Outcome:** [@nickname](../characters/wujas.md) gets between the committee and his crew and swears they are alright. [@first-name](../characters/secondary/szymek-kepa.md) and [@first-name](../characters/secondary/romek-glowacz.md) stand down on his word — but [@first-name](../characters/secondary/franek-mucha.md) is too drunk to listen and still has to be turned around or put down.
+- **Outcome:** [@nickname](../characters/wujas.md) gets between the committee and his crew and swears they are alright. [@first-name](../characters/secondary/romek-glowacz.md) stands down on his word — but [@first-name](../characters/secondary/franek-mucha.md) is too drunk to listen and still has to be turned around or put down.
 - **Changes:** [Resolving the brawl](#resolving-the-brawl) — the crew count drops to [@first-name](../characters/secondary/franek-mucha.md) alone
 
 ### Talk the crew down
 - **Requires:** [Speech](../cards/speech.md) OR [Alcoholic](../cards/alcoholic.md)
 - **Cost:** 1 composure
-- **Outcome:** An order or a read of the room backs [@first-name](../characters/secondary/szymek-kepa.md) and [@first-name](../characters/secondary/romek-glowacz.md) off — but not [@first-name](../characters/secondary/franek-mucha.md). He is too far gone to care about rank, and still has to be dealt with before he swings.
+- **Outcome:** An order or a read of the room backs [@first-name](../characters/secondary/romek-glowacz.md) off — but not [@first-name](../characters/secondary/franek-mucha.md). He is too far gone to care about rank, and still has to be dealt with before he swings.
 - **Changes:** [Resolving the brawl](#resolving-the-brawl) — the crew count drops to [@first-name](../characters/secondary/franek-mucha.md) alone
 
 ### Pull a gun on them
@@ -70,7 +69,7 @@
 
 - **Type:** rule
 - Count the committee's fighters: **Scrap = 1**, **Beat them up = 2**. Sum them.
-- Crew present = **4**, or just **[@first-name](../characters/secondary/franek-mucha.md) (1)** if [@nickname](../characters/wujas.md) has vouched.
+- Crew present = **3**, or just **[@first-name](../characters/secondary/franek-mucha.md) (1)** if [@nickname](../characters/wujas.md) has vouched.
 - Fighter total meets or beats the crew number → the committee drives them off the clearing.
 - Fighter total falls short → the committee is beaten back and driven off the still; every committee member who fought takes [Wounded](../cards/wounded.md).
 - **Whole crew fought:** World State Change — [Crew Hostile](../characters/wujas.md#crew-hostile): the crew becomes a standing enemy of the committee and moves the still; NPC State Change — [@nickname](../characters/wujas.md) is shaken and avoids the committee afterward.

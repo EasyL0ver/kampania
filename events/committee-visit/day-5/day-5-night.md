@@ -10,7 +10,7 @@
 
 ## Setup
 
-The night of [@name](day-5.md) begins.[](#rezen-takes-the-body-begins)
+The night of [@name](day-5.md) begins.[](#rezen-takes-the-body-begins)[](#the-crew-moves-to-the-still)
 
 ## Opportunities
 
@@ -24,7 +24,17 @@ The night of [@name](day-5.md) begins.[](#rezen-takes-the-body-begins)
 - **Outcome:** [@hook](../../rezen-takes-the-body.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/new-village.md))* hook:events/rezen-takes-the-body.md
 
+### The crew moves to the still
+- **When:** setup:events/committee-visit/day-5/day-5-night.md
+- **Outcome:** [@name](../../the-binge/at-the-still.md) begins.
+- **Changes:** [@name](../../the-binge/the-binge.md) — ends; [@name](../../the-binge/at-the-still.md) — starts
+
+### Firelight at the still
+- **When:** [@name](../../../locations/bimber-still.md) AND [@name](../../the-binge/at-the-still.md)
+- **Outcome:** [@hook](../../the-binge/at-the-still.md)
+- **Gives:** *(to: players at [@name](../../../locations/bimber-still.md))* hook:events/the-binge/at-the-still.md
+
 ### Morning comes
 - **When:** [Phase cards](../committee-visit.md#phase-cards) is 0
 - **Outcome:** The night is spent.
-- **Changes:** [@name](day-5-night.md) — ends; [@name](day-5.md) — ends; [@name](../day-6/day-6.md) — starts; [@name](../day-6/day-6-morning.md) — starts; [@name](../../hags-prayer.md) — ends; [Phase cards](../committee-visit.md#phase-cards) — 12
+- **Changes:** [@name](../../the-binge/at-the-still.md) — ends; [@name](day-5-night.md) — ends; [@name](day-5.md) — ends; [@name](../day-6/day-6.md) — starts; [@name](../day-6/day-6-morning.md) — starts; [@name](../../hags-prayer.md) — ends; [Phase cards](../committee-visit.md#phase-cards) — 12

@@ -1,22 +1,25 @@
 # Romek Głowacz
 
+**Tags:** [@name](../../tags/pgr-worker.md)
+
 ## Hook
 
-- [@first-name](romek-glowacz.md) [@surname](romek-glowacz.md), a village drunk, one of [@name](../wujas.md)'s drinking crew.
+- [@first-name](romek-glowacz.md) [@surname](romek-glowacz.md), the PGR farm's storekeeper, one of [@name](../wujas.md)'s drinking crew.
 
 ## Vital Statistics
 
 - **First name:** Romek
 - **Surname:** Głowacz
 - **Status:** Resident
-- **Morning:** [@name](../../locations/new-village/new-village.md)
-- **Afternoon:** [@name](../../locations/new-village/new-village.md)
-- **Evening:** [@name](../../locations/bimber-still.md)
-- **Night:** [@name](../../locations/new-village/new-village.md)
+- **Morning:** [@name](../../locations/new-village/pgr-farm/warehouse.md)
+- **Afternoon:** [@name](../../locations/bimber-still.md)
+- **Evening:** [@name](../../locations/new-village/the-store.md)
+- **Night:** [@name](../../locations/new-village/pgr-farm/pgr-quarters.md)
 - **Born:** ~1922
 - **Age in 1967:** ~40-50
-- **Lives in:** [@name](../../locations/new-village/new-village.md)
+- **Lives in:** [@name](../../locations/new-village/pgr-farm/pgr-quarters.md)
 - **Settled:** ~1955
+- **Works at:** [@name](../../locations/new-village/pgr-farm/warehouse.md), as the farm's storekeeper
 
 ## Character
 

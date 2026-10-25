@@ -10,7 +10,7 @@
 
 ## Setup
 
-The evening of [@name](day-3.md) begins.[](#pawelek-falls-ill-begins)
+The evening of [@name](day-3.md) begins.[](#pawelek-falls-ill-begins)[](#the-binge-begins)
 
 ## Opportunities
 
@@ -23,6 +23,16 @@ The evening of [@name](day-3.md) begins.[](#pawelek-falls-ill-begins)
 - **When:** ([@name](../../../locations/new-village/pgr-farm/pgr-farm.md) OR [@name](../../../locations/new-village/the-store.md)) AND [@name](../../pawelek-falls-ill.md)
 - **Outcome:** [@hook](../../pawelek-falls-ill.md)
 - **Gives:** *(to: players at [@name](../../../locations/new-village/pgr-farm/pgr-farm.md), [@name](../../../locations/new-village/the-store.md))* hook:events/pawelek-falls-ill.md
+
+### The binge begins
+- **When:** setup:events/committee-visit/day-3/day-3-evening.md
+- **Outcome:** [@name](../../the-binge/the-binge.md) begins.
+- **Changes:** [@name](../../the-binge/the-binge.md) — starts
+
+### Drinking on the store benches
+- **When:** [@name](../../../locations/new-village/the-store.md) AND [@name](../../the-binge/the-binge.md)
+- **Outcome:** [@hook](../../the-binge/the-binge.md)
+- **Gives:** *(to: players at [@name](../../../locations/new-village/the-store.md))* hook:events/the-binge/the-binge.md
 
 ### Night falls
 - **When:** [Phase cards](../committee-visit.md#phase-cards) is 0

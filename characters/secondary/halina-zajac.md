@@ -32,7 +32,6 @@
 ## Opinions
 
 - **[@name](../matrona.md)** — "She signs the orders, but I deal with the customers and the trouble."
-- **[@name](szymek-kepa.md)** — "He turns the shop into a sty and expects me to clean around him."
 - **[@name](romek-glowacz.md)** — "Quiet is not the same as harmless."
 - **[@name](franek-mucha.md)** — "If he starts, he will not stop because I ask politely."
 - **[pawelek-needs-penicillin](../../clues/clues.md#pawelek-needs-penicillin)** — "It is in the cabinet, but the key is [@first-name](../matrona.md)'s, not mine, and I cannot hand out penicillin without a prescription. Take that up with her, not me."

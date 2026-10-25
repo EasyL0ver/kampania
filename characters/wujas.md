@@ -12,13 +12,13 @@
 - **Nickname:** Tadek
 - **Surname:** Gajda
 - **Status:** Resident
-- **Morning:** [@name](../locations/new-village/wojewodas-house.md)
+- **Morning:** [@name](../locations/bimber-still.md)
 - **Afternoon:** [@name](../locations/new-village/the-store.md)
-- **Evening:** [@name](../locations/bimber-still.md)
-- **Night:** [@name](../locations/bimber-still.md)
+- **Evening:** [@name](../locations/new-village/the-store.md)
+- **Night:** [@name](../locations/new-village/wojewodas-house.md)
 - **Born:** 1925
 - **Age in 1967:** 42
-- **Lives in:** [@name](../locations/bimber-still.md) area / drifts between siblings' homes
+- **Lives in:** [@name](../locations/new-village/wojewodas-house.md) — sleeps in various places, but defaults to his brother's house
 - **Settled:** ~1948 — first wave, with siblings
 
 ## Character
@@ -51,7 +51,7 @@ His raspy warm voice gets louder and funnier with drink. The morning shakes and 
 [@nickname](wujas.md)'s guard only drops for people who drink with him. Unlike a [Bond](#bond), this is not exclusive and not hidden — **any** number of PCs can become drinking buddies, and a player can feel themselves being pulled into his circle.
 
 **Becoming a buddy** (GM tracks silently, no announcement):
-- Share a full drinking session with him — Physique or the Alcoholic card. Nursing a glass or refusing does not count. The entry point is [Drink with the crew](#drink-with-the-crew) at the store, or drinking with him at [@name](../events/dinner.md).
+- Share a full drinking session with him — Physique or the Alcoholic card. Nursing a glass or refusing does not count. The entry point is [@name](../events/the-binge/the-binge.md) at the store, or drinking with him at [@name](../events/dinner.md).
 - Do it without judging him, pulling rank, or steering straight to interrogation.
 
 One qualifying session makes a PC a drinking buddy for the rest of the game. It cannot be lost.
@@ -62,7 +62,7 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 - **Per:** world
 - **Start:** false
 
-[@nickname](wujas.md)'s drinking crew ([@name](secondary/szymek-kepa.md), [@name](secondary/romek-glowacz.md), [@name](secondary/franek-mucha.md)) shares one state.
+[@nickname](wujas.md)'s drinking crew ([@name](secondary/romek-glowacz.md), [@name](secondary/franek-mucha.md)) shares one state.
 
 - Set by [@name](../events/caught-at-the-still.md), when the committee fights the whole crew or pulls a gun on them.
 - While Hostile: the crew is a standing enemy of the committee — no gossip, no drinking buddies, no cooperation. They move the still to a new site.
@@ -88,25 +88,6 @@ One qualifying session makes a PC a drinking buddy for the rest of the game. It 
 - **Outcome:** Drunk, he performs a property boast: he claims a fake grand estate made of the still, his brother's house, and moonlight.
 
 ## Actions
-
-### Drink with the crew
-- **Requires:** [Physique](../cards/physique.md) OR [Alcoholic](../cards/alcoholic.md)
-- **When:** ([@name](../locations/bimber-still.md) OR [@name](../locations/new-village/the-store.md)) AND [Crew Hostile](#crew-hostile) is false
-- **Cost:** 1 time
-- **Outcome:** The committee buys a round and shares a full session in the drinking circle. [@nickname](wujas.md) warms to whoever kept pace without judging him.
-- **Changes:** [Drinking Buddy](#drinking-buddy) — the drinking PCs become [@nickname](wujas.md)'s drinking buddies
-
-### Get shitfaced with Wujas
-- **When:** [Drinking Buddy](#drinking-buddy) is true
-- **Cost:** 2 time + 1 composure
-- **Outcome:** The committee drinks [@nickname](wujas.md) past the point of guard. He gets loud, then maudlin, and grief for a woman he won't name slips out before he can catch it.
-- **Gives:** [`wujas-misses-someone`](../clues/clues.md#wujas-misses-someone)
-
-### Ask about the butcher
-- **When:** [Drinking Buddy](#drinking-buddy) is true
-<!-- Prompted by: hook:characters/butcher.md -->
-- **Outcome:** Loose with drink, [@nickname](wujas.md) remembers [@name](butcher.md) sitting in on the crew's sessions years back, bottle in hand like any of them. Then one day he just stopped, and never came back to the fire.
-- **Gives:** [`butcher-used-to-drink-with-the-crew`](../clues/clues.md#butcher-used-to-drink-with-the-crew)
 
 ### Census interview
 <!-- Prompted by: [committee-fills-census](../clues/clues.md#committee-fills-census) -->

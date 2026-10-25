@@ -9,13 +9,13 @@
 - **First name:** Franek
 - **Surname:** Mucha
 - **Status:** Resident
-- **Morning:** [@name](../../locations/new-village/new-village.md)
-- **Afternoon:** [@name](../../locations/new-village/new-village.md)
-- **Evening:** [@name](../../locations/bimber-still.md)
-- **Night:** [@name](../../locations/new-village/new-village.md)
+- **Morning:** [@name](../../locations/bimber-still.md)
+- **Afternoon:** [@name](../../locations/bimber-still.md)
+- **Evening:** [@name](../../locations/new-village/the-store.md)
+- **Night:** [@name](../../locations/bimber-still.md)
 - **Born:** ~1927
 - **Age in 1967:** ~35-45
-- **Lives in:** [@name](../../locations/new-village/new-village.md)
+- **Lives in:** [@name](../../locations/bimber-still.md)
 - **Settled:** ~1955
 
 ## Character

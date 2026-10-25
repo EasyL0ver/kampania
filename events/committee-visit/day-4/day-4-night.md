@@ -10,7 +10,7 @@
 
 ## Setup
 
-The night of [@name](day-4.md) begins.[](#well-confrontation-begins)[](#wujas-digs-up-the-cache-begins)
+The night of [@name](day-4.md) begins.[](#well-confrontation-begins)[](#wujas-digs-up-the-cache-begins)[](#the-crew-moves-to-the-still)
 
 ## Opportunities
 
@@ -34,7 +34,17 @@ The night of [@name](day-4.md) begins.[](#well-confrontation-begins)[](#wujas-di
 - **Outcome:** [@hook](../../well-confrontation/well-confrontation.md)
 - **Gives:** *(to: players at [@name](../../../locations/old-village-ruins.md))* hook:events/well-confrontation/well-confrontation.md
 
+### The crew moves to the still
+- **When:** setup:events/committee-visit/day-4/day-4-night.md
+- **Outcome:** [@name](../../the-binge/at-the-still.md) begins.
+- **Changes:** [@name](../../the-binge/the-binge.md) — ends; [@name](../../the-binge/at-the-still.md) — starts
+
+### Firelight at the still
+- **When:** [@name](../../../locations/bimber-still.md) AND [@name](../../the-binge/at-the-still.md)
+- **Outcome:** [@hook](../../the-binge/at-the-still.md)
+- **Gives:** *(to: players at [@name](../../../locations/bimber-still.md))* hook:events/the-binge/at-the-still.md
+
 ### Morning comes
 - **When:** [Phase cards](../committee-visit.md#phase-cards) is 0
 - **Outcome:** The night is spent.
-- **Changes:** [@name](day-4-night.md) — ends; [@name](day-4.md) — ends; [@name](../day-5/day-5.md) — starts; [@name](../day-5/day-5-morning.md) — starts; [@name](../../hags-prayer.md) — ends; [@name](../../wujas-digs-up-the-cache.md) — ends; [Phase cards](../committee-visit.md#phase-cards) — 12
+- **Changes:** [@name](../../the-binge/at-the-still.md) — ends; [@name](day-4-night.md) — ends; [@name](day-4.md) — ends; [@name](../day-5/day-5.md) — starts; [@name](../day-5/day-5-morning.md) — starts; [@name](../../hags-prayer.md) — ends; [@name](../../wujas-digs-up-the-cache.md) — ends; [Phase cards](../committee-visit.md#phase-cards) — 12

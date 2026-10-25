@@ -10,9 +10,19 @@
 
 ## Setup
 
-The evening of [@name](day-5.md) begins.
+The evening of [@name](day-5.md) begins.[](#the-binge-begins)
 
 ## Opportunities
+
+### The binge begins
+- **When:** setup:events/committee-visit/day-5/day-5-evening.md
+- **Outcome:** [@name](../../the-binge/the-binge.md) begins.
+- **Changes:** [@name](../../the-binge/the-binge.md) — starts
+
+### Drinking on the store benches
+- **When:** [@name](../../../locations/new-village/the-store.md) AND [@name](../../the-binge/the-binge.md)
+- **Outcome:** [@hook](../../the-binge/the-binge.md)
+- **Gives:** *(to: players at [@name](../../../locations/new-village/the-store.md))* hook:events/the-binge/the-binge.md
 
 ### Night falls
 - **When:** [Phase cards](../committee-visit.md#phase-cards) is 0

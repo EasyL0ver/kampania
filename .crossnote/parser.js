@@ -832,9 +832,8 @@
 "when": "Bimber Still OR The Store",
 "outcome": "With a bottle in hand he chain-smokes. A smoker reads the brand: the cheapest Sport, never Carmen.",
 "gives": "tadek-smokes-cheapest",
-"requires": "Physique OR Alcoholic",
 "cost": "1 time",
-"changes": "Drinking Buddy — the drinking PCs become Tadek's drinking buddies",
+"changes": "Census — Tadek Gajda, no fixed household",
 "setup": "Checked shirt with rolled sleeves, old marynarka with elbow patches, maciejówka cap cocked forward. Still handsome under the wear; unshaven, bloodshot eyes visible up close. Lean and rangy; moves loose and easy, like he is still the life of the party.",
 "hook": "Tadek Gajda, the sołtys's brother and the village drunk, rarely without a bottle.",
 "present": "Tadek Gajda is here"
@@ -1060,6 +1059,7 @@
 },
 "characters/secondary/romek-glowacz.md": {
 "name": "Romek Głowacz",
+"tags": "PGR Worker",
 "first-name": "Romek",
 "surname": "Głowacz",
 "status": "Resident",
@@ -1071,11 +1071,12 @@
 "age-in-1967": "~40-50",
 "lives-in": "Testowo",
 "settled": "~1955",
+"works-at": "The Warehouse, as the farm's storekeeper",
 "clothes": "Not specified.",
 "hair-&-face": "Not specified.",
 "carriage": "Not specified.",
 "setup": "Not specified. Not specified. Not specified.",
-"hook": "Romek Głowacz, a village drunk, one of Tadek Gajda's drinking crew.",
+"hook": "Romek Głowacz, the PGR farm's storekeeper, one of Tadek Gajda's drinking crew.",
 "present": "Romek Głowacz is here"
 },
 "characters/secondary/staszek-pytlak.md": {
@@ -1104,26 +1105,6 @@
 "hook": "Staszek Pytlak, a small village boy, Pawełek Kopacz's playmate.",
 "present": "Staszek Pytlak is here"
 },
-"characters/secondary/szymek-kepa.md": {
-"name": "Szymek Kępa",
-"first-name": "Szymek",
-"surname": "Kępa",
-"status": "Resident",
-"morning": "Testowo",
-"afternoon": "Testowo",
-"evening": "Bimber Still",
-"night": "Testowo",
-"born": "~1917",
-"age-in-1967": "~45-55",
-"lives-in": "Testowo",
-"settled": "~1957",
-"clothes": "Not specified.",
-"hair-&-face": "Not specified.",
-"carriage": "Not specified.",
-"setup": "Not specified. Not specified. Not specified.",
-"hook": "Szymek Kępa, a village drunk, one of Tadek Gajda's drinking crew.",
-"present": "Szymek Kępa is here"
-},
 "locations/big-basin.md": {
 "name": "Jasielnik Basin",
 "setup": "No one lives in the basin. The basin floor sits at 405.0 m above sea level. The state map shows the ridge water-gap draining into the basin.",
@@ -1143,8 +1124,6 @@
 "outcome": "The still is worked at commercial scale: the operation is old and tolerated.",
 "gives": "bimber-still",
 "changes": "Caught at the Still — starts",
-"requires": "Physique OR Alcoholic",
-"cost": "1 time",
 "setup": "Crude copper still under camouflage netting. Clearing beside a stream. Empty sugar sacks, barrels, stacked firewood, and a small fire pit.. Warm ashes show recent use. Fermentation smell is strong. Cheap Sport cigarette butts are ground into the mud all around the fire and the still.. A packed footpath leads in from Testowo. The number of barrels and bottles exceeds personal drinking.. The men sit around the fire with bottles and cards. The crew hears visitors before seeing them. Fresh boot prints, warm ashes, and half-full bottles remain. No weapons, documents, hidden room, or grave are visible here.",
 "hook": "A forest clearing by a stream between Testowo and Hołubie."
 },
@@ -1391,7 +1370,7 @@
 "type": "enum (intact | forced | discovered)",
 "per": "world",
 "start": "intact",
-"setup": "The store is the village social hub. Men sit outside on benches and crates, passing bimber. Tadek Gajda is usually outside. Ryszard Dudka drifts in and out. Stanisław Rezeń does not drink here. Halina Zając runs the counter inside. Helena Rzepka owns the store but is rarely behind the counter. The shelves are sparse but functional. Cigarettes are sold over the counter: cheap Sport on the shelf, a pricier premium brand for those who ask. Bimber is kept under the counter. The crew enters to buy rounds, banter with Halina, and get sent back outside. Marek Gajda drinks with the crew some evenings, away from his father.. Halina resents Helena Rzepka and speaks sharply about the work. The back room has a locked pharmaceutical cabinet. The cabinet contains penicillin, aspirin, bandages, and iodine.. Helena Rzepka keeps the only cabinet key. Halina Zając cannot open the medicine cabinet. Government people are treated with suspicion outside unless they are Tadek Gajda's drinking buddies.",
+"setup": "The store is the village social hub. Men sit outside on benches and crates, passing bimber. Tadek Gajda is usually outside. Ryszard Dudka drifts in and out. Stanisław Rezeń does not drink here. Halina Zając runs the counter inside. Helena Rzepka owns the store but is rarely behind the counter. The shelves are sparse but functional. Cigarettes are sold over the counter: cheap Sport on the shelf, a pricier premium brand for those who ask. Bimber is kept under the counter. The crew enters to buy rounds, banter with Halina, and get sent back outside. Marek Gajda drinks with the crew some evenings, away from his father. Halina resents Helena Rzepka and speaks sharply about the work. The back room has a locked pharmaceutical cabinet. The cabinet contains penicillin, aspirin, bandages, and iodine.. Helena Rzepka keeps the only cabinet key. Halina Zając cannot open the medicine cabinet. Government people are treated with suspicion outside unless they are Tadek Gajda's drinking buddies.",
 "hook": "Helena Rzepka's general store."
 },
 "locations/new-village/wojewodas-house.md": {
@@ -1460,7 +1439,7 @@
 "cost": "2 time + 1 composure",
 "gives": "silo-holds-120-quintals, silo-holds-640-quintals-when-full, silo-was-cut-open",
 "changes": "Inventory — grain in the silo: a hundred and twenty quintals",
-"setup": "A tall concrete silo with an iron ladder up its side to a hatch at the top. Beside the hatch, painted on the concrete in faded white, is the silo's height: 12 m. One side carries a patch of newer, cruder concrete. Inside, the stored grain lies in a deep pale mass, and the only way to it is down from the hatch..",
+"setup": "A tall concrete silo with an iron ladder up its side to a hatch at the top. Beside the hatch, painted on the concrete in faded white, is the silo's height: 12 m. One side carries a patch of newer, cruder concrete. Inside, the stored rye lies in a deep pale mass, and the only way to it is down from the hatch..",
 "hook": "The PGR farm's concrete grain silo."
 },
 "locations/new-village/pgr-farm/henhouse.md": {
@@ -1548,7 +1527,7 @@
 "events/caught-at-the-still.md": {
 "name": "Caught at the Still",
 "location": "Bimber Still",
-"present": "Tadek Gajda, Szymek Kępa, Romek Głowacz, Franek Mucha",
+"present": "Tadek Gajda, Romek Głowacz, Franek Mucha",
 "noticed-by": "Empathy",
 "when": "setup:events/caught-at-the-still.md",
 "outcome": "In the standoff, the crew is not defending a crime scene; they are frightened men protecting the one thing that gets them through the winter.",
@@ -1559,7 +1538,7 @@
 "type": "rule",
 "whole-crew-fought": "World State Change — Crew Hostile: the crew becomes a standing enemy of the committee and moves the still; NPC State Change — Tadek is shaken and avoids the committee afterward.",
 "only-[@first-name](../characters/secondary/franek-mucha.md)-fought-([@nickname](../characters/wujas.md)-vouched)": "no grudge. Franek gets put in his place, the crew holds no lasting hostility, and Tadek stays friendly. The still stays where it is.",
-"setup": "The crew is around the fire with bottles and cards. They hear the committee coming before they see them. The still, barrels, and sugar sacks are in plain view — no hiding it. Government people at the still means their winter's income is exposed.. The crew is drunk, cornered, and already on its feet by the time the committee reaches the clearing. Szymek Kępa puts himself between the committee and the still. Franek Mucha moves onto the footpath, cutting the way out. Romek Głowacz stays seated and watches. Tadek Gajda goes pale and reaches for the bottle.",
+"setup": "The crew is around the fire with bottles and cards. They hear the committee coming before they see them. The still, barrels, and sugar sacks are in plain view — no hiding it. Government people at the still means their winter's income is exposed.. The crew is drunk, cornered, and already on its feet by the time the committee reaches the clearing. Franek Mucha moves onto the footpath, cutting the way out. Romek Głowacz stays seated and watches. Tadek Gajda goes pale and reaches for the bottle.",
 "hook": "Voices, firelight, and the smell of fermentation carry through the trees before the clearing is in sight."
 },
 "events/climb-the-plug-in-the-rain.md": {
@@ -2101,6 +2080,35 @@
 "setup": "Lifting the receiver gets the exchange in town. A woman's voice, clear and unhurried, asks for the number and puts the call through. Every call out of the valley goes through her switchboard.",
 "hook": "The heavy bakelite phone on the office desk, the only line out of the village."
 },
+"events/the-binge/at-the-still.md": {
+"name": "The Binge — At the Still",
+"part-of": "The Binge — At the Store",
+"location": "Bimber Still",
+"present": "Tadek Gajda, Romek Głowacz, Franek Mucha",
+"when": "Drinking Buddy is true",
+"outcome": "The crew laugh about the state surveyors who came before: they drank more than they measured, drove a few stakes, and left early.",
+"gives": "geologists-were-drinking",
+"noticed-by": "Geology",
+"requires": "Physique OR Alcoholic",
+"cost": "1 time",
+"changes": "Drinking Buddy — the drinking PCs become Tadek's drinking buddies",
+"setup": "The men sit around the fire with bottles and cards, drinking the still's own Bottle of Bimber..",
+"hook": "Firelight and voices from the clearing by the still at night."
+},
+"events/the-binge/the-binge.md": {
+"name": "The Binge — At the Store",
+"location": "The Store",
+"present": "Tadek Gajda, Romek Głowacz, Franek Mucha, Marek Gajda, Ryszard Dudka, Bolesław Kurek",
+"noticed-by": "Empathy",
+"when": "Drinking Buddy is true",
+"outcome": "Dudka drinks too fast and shuts down when the past comes up.",
+"gives": "neighbour-is-rattled",
+"requires": "Physique OR Alcoholic",
+"cost": "1 time",
+"changes": "Drinking Buddy — the drinking PCs become Tadek's drinking buddies",
+"setup": "The men sit outside the store on benches and crates, passing Bottle of Bimber, and go in to buy rounds from Halina and get sent back out. Marek Gajda drinks with the crew, away from his father..",
+"hook": "Men on the benches outside the store, passing a bottle in the evening."
+},
 "events/the-car-in/the-car-in.md": {
 "name": "The Car In",
 "location": "The Milicja Nysa",
@@ -2270,10 +2278,11 @@
 "part-of": "Day 1",
 "location": "Testowo",
 "tags": "Night",
-"when": "Phase cards is 0",
-"outcome": "The night is spent.",
-"changes": "Day 1 — Night — ends; Day 1 — ends; Day 2 — starts; Day 2 — Morning — starts; Hag's Prayer — ends; Phase cards — 12",
-"setup": "The night of Day 1 begins.",
+"when": "setup:events/committee-visit/day-1/day-1-night.md",
+"outcome": "The Binge — At the Still begins.",
+"changes": "The Binge — At the Store — ends; The Binge — At the Still — starts",
+"gives": "*(to: players at Bimber Still)* hook:events/the-binge/at-the-still.md",
+"setup": "The night of Day 1 begins..",
 "hook": "TBD."
 },
 "events/committee-visit/day-1/day-1.md": {
@@ -2299,10 +2308,11 @@
 "part-of": "Day 2",
 "location": "Testowo",
 "tags": "Evening",
-"when": "Phase cards is 0",
-"outcome": "The evening is spent.",
-"changes": "Day 2 — Evening — ends; Day 2 — Night — starts; Phase cards — 12",
-"setup": "The evening of Day 2 begins.",
+"when": "setup:events/committee-visit/day-2/day-2-evening.md",
+"outcome": "The Binge — At the Store begins.",
+"changes": "The Binge — At the Store — starts",
+"gives": "*(to: players at The Store)* hook:events/the-binge/the-binge.md",
+"setup": "The evening of Day 2 begins..",
 "hook": "TBD."
 },
 "events/committee-visit/day-2/day-2-morning.md": {
@@ -2322,10 +2332,11 @@
 "part-of": "Day 2",
 "location": "Testowo",
 "tags": "Night",
-"when": "Phase cards is 0",
-"outcome": "The night is spent.",
-"changes": "Day 2 — Night — ends; Day 2 — ends; Day 3 — starts; Day 3 — Morning — starts; Hag's Prayer — ends; Phase cards — 12",
-"setup": "The night of Day 2 begins.",
+"when": "setup:events/committee-visit/day-2/day-2-night.md",
+"outcome": "The Binge — At the Still begins.",
+"changes": "The Binge — At the Store — ends; The Binge — At the Still — starts",
+"gives": "*(to: players at Bimber Still)* hook:events/the-binge/at-the-still.md",
+"setup": "The night of Day 2 begins..",
 "hook": "TBD."
 },
 "events/committee-visit/day-2/day-2.md": {
@@ -2375,10 +2386,11 @@
 "part-of": "Day 3",
 "location": "Testowo",
 "tags": "Night",
-"when": "Phase cards is 0",
-"outcome": "The night is spent.",
-"changes": "Day 3 — Night — ends; Day 3 — ends; Day 4 — starts; Day 4 — Morning — starts; Hag's Prayer — ends; Phase cards — 12",
-"setup": "The night of Day 3 begins.",
+"when": "setup:events/committee-visit/day-3/day-3-night.md",
+"outcome": "The Binge — At the Still begins.",
+"changes": "The Binge — At the Store — ends; The Binge — At the Still — starts",
+"gives": "*(to: players at Bimber Still)* hook:events/the-binge/at-the-still.md",
+"setup": "The night of Day 3 begins..",
 "hook": "TBD."
 },
 "events/committee-visit/day-3/day-3.md": {
@@ -2405,10 +2417,11 @@
 "part-of": "Day 4",
 "location": "Testowo",
 "tags": "Evening",
-"when": "Phase cards is 0",
-"outcome": "The evening is spent.",
-"changes": "Day 4 — Evening — ends; Day 4 — Night — starts; Phase cards — 12",
-"setup": "The evening of Day 4 begins.",
+"when": "setup:events/committee-visit/day-4/day-4-evening.md",
+"outcome": "The Binge — At the Store begins.",
+"changes": "The Binge — At the Store — starts",
+"gives": "*(to: players at The Store)* hook:events/the-binge/the-binge.md",
+"setup": "The evening of Day 4 begins..",
 "hook": "TBD."
 },
 "events/committee-visit/day-4/day-4-morning.md": {
@@ -2458,10 +2471,11 @@
 "part-of": "Day 5",
 "location": "Testowo",
 "tags": "Evening",
-"when": "Phase cards is 0",
-"outcome": "The evening is spent.",
-"changes": "Day 5 — Evening — ends; Day 5 — Night — starts; Phase cards — 12",
-"setup": "The evening of Day 5 begins.",
+"when": "setup:events/committee-visit/day-5/day-5-evening.md",
+"outcome": "The Binge — At the Store begins.",
+"changes": "The Binge — At the Store — starts",
+"gives": "*(to: players at The Store)* hook:events/the-binge/the-binge.md",
+"setup": "The evening of Day 5 begins..",
 "hook": "TBD."
 },
 "events/committee-visit/day-5/day-5-morning.md": {
@@ -2979,7 +2993,7 @@
 "name": "PGR Inventory",
 "type": "list",
 "when": "setup:items/pgr-inventory.md",
-"outcome": "The form wants every movable thing on the farm accounted for, section by section: livestock, grain and fodder, and materials.",
+"outcome": "The form wants every movable thing on the farm accounted for, section by section: livestock, grain, and materials.",
 "gives": "committee-should-inventory-livestock, committee-should-inventory-grain, committee-should-inventory-materials",
 "requires": "PGR Inventory",
 "changes": "Inventory — chickens: twenty-two",
