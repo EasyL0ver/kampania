@@ -57,12 +57,9 @@ def build_payload() -> dict:
                     scat = {"characters": "character", "locations": "location", "events": "event",
                             "items": "item"}.get(m.group(1) if m else "", "other")
                 title = g.scenes[relpath].title if relpath in g.scenes else relpath
-                if cid.startswith("met:"):
-                    title += " (met)"
-                elif cid.startswith("located:"):
-                    title += " (located)"
+                state = "met" if cid.startswith("met:") else "located" if cid.startswith("located:") else "known"
                 nodes[nid] = {"id": nid, "label": title, "kind": "scene",
-                              "catg": "scene", "scat": scat,
+                              "catg": "scene", "scat": scat, "state": state,
                               "desc": g.clues.get(cid, ""), "location": ""}
             else:
                 nodes[nid] = {"id": nid, "label": cid, "kind": "clue",
@@ -150,7 +147,7 @@ def build_payload() -> dict:
     incoming = {nid: 0 for nid in nodes}
     for l in links:
         incoming[l["target"]] = incoming.get(l["target"], 0) + 1
-    orphan_facts = [n["label"] for nid, n in nodes.items()
+    orphan_facts = [nid for nid, n in nodes.items()
                     if n["kind"] in ("clue", "scene") and incoming.get(nid, 0) == 0]
 
     return {
@@ -254,7 +251,7 @@ const SKILL = {
 };
 const NOSKILL="#5b6472";
 function skillColor(s){ return SKILL[s] || NOSKILL; }
-function typeOf(n){ if(n.kind==="move") return "move"; if(n.kind==="known") return "known"; if(n.kind==="scene") return TYPE[n.scat]?n.scat:"scene"; if(n.kind==="clue") return orphan.has(n.label)?"orphan":"clue"; return n.catg; }
+function typeOf(n){ if(n.kind==="move") return "move"; if(n.kind==="known") return "known"; if(n.kind==="scene") return TYPE[n.scat]?n.scat:"scene"; if(n.kind==="clue") return orphan.has(n.id)?"orphan":"clue"; return n.catg; }
 function hollow(e, t){ e.style.fill="#0f1115"; e.style.stroke=(TYPE[t]||TYPE.clue).color; e.style.strokeWidth="2px"; return e; }
 function makeShape(t, s){
   const c=TYPE[t]||TYPE.clue; const NS=NSx; let e;
@@ -347,7 +344,8 @@ nodes.forEach(n=>{
     t.setAttribute("text-anchor","middle"); t.setAttribute("y",2.5); t.textContent=disp; g.appendChild(t);
   } else {
     const shp=makeShape(typeOf(n), 1);
-    if(orphan.has(n.label)) hollow(shp, typeOf(n)==="orphan"?"clue":typeOf(n));
+    if(orphan.has(n.id)) hollow(shp, typeOf(n)==="orphan"?"clue":typeOf(n));
+    else if(n.state==="met"||n.state==="located") shp.setAttribute("fill-opacity","0.45");
     g.appendChild(shp);
     const t=document.createElementNS(NS,"text"); t.setAttribute("x",13); t.setAttribute("y",3);
     t.textContent=n.label.length>28?n.label.slice(0,27)+"…":n.label; g.appendChild(t);
@@ -448,7 +446,7 @@ function showNodeTip(n,e){
     if(n.extra&&n.extra.length) h+=`<br><span class="g">+ ${n.extra.join(", ")}</span>`; }
   else if(n.kind==="scene"){ h=`<b>${n.label}</b><br><span class="g">${(TYPE[n.catg]||{label:"scene"}).label} · exists · ${n.desc}</span>`; }
   else { h=`<b>${n.label}</b><br><span class="g">`+(n.kind==="known"?"clue known by "+n.npc:"fact")+`</span>`; if(n.desc) h+=`<br>${n.desc}`;
-    const gv=incoming.get(n.id).length; h+=`<br><span class="g">${gv} move(s) lead here`+(orphan.has(n.label)?" · ORPHAN":"")+`</span>`; }
+    const gv=incoming.get(n.id).length; h+=`<br><span class="g">${gv} move(s) lead here`+(orphan.has(n.id)?" · ORPHAN":"")+`</span>`; }
   tip.innerHTML=h; tip.style.display="block"; moveTip(e);
 }
 function showEdgeTip(l,e){
@@ -470,7 +468,7 @@ function renderList(f){
   listEl.innerHTML="";
   items.filter(c=>!f||c.label.toLowerCase().includes(f)||(c.desc||"").toLowerCase().includes(f))
     .forEach(c=>{ const r=document.createElement("div");
-      r.className="row"+(c.kind==="scene"?" scene":"")+(orphan.has(c.label)?" orphan":"")+(active===c.id?" on":"");
+      r.className="row"+(c.kind==="scene"?" scene":"")+(orphan.has(c.id)?" orphan":"")+(active===c.id?" on":"");
       r.dataset.id=c.id;
       const col=(TYPE[typeOf(c)]||TYPE.clue).color;
       r.innerHTML=`<span class="lbl" style="color:${col}">${c.label}</span><span class="n">${incoming.get(c.id).length}</span>`;

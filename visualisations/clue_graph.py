@@ -587,7 +587,7 @@ def build_graph() -> Graph:
     for lid in sorted(located):
         rel = lid.split(":", 1)[1]
         title = g.scenes[rel].title if rel in g.scenes else rel
-        g.clues.setdefault(lid, title + " (located)")
+        g.clues.setdefault(lid, "knows the way to " + title)
         nid = f"located::{rel}"
         node = Node(id=nid, name=f"knows the way to {title}", kind="synthesis", scene=rel, scene_title=title)
         node.requires_clues = [lid]
@@ -601,7 +601,7 @@ def build_graph() -> Graph:
         mid = "met:" + rel
         if rel not in g.scenes:
             continue
-        g.clues.setdefault(mid, g.scenes[rel].title + " (met)")
+        g.clues.setdefault(mid, "has met " + g.scenes[rel].title)
         for loc in places:
             nid = f"meet::{rel}::{loc}"
             node = Node(id=nid, name=f"meet at {g.scenes[loc].title if loc in g.scenes else loc}", kind="synthesis",
@@ -610,23 +610,25 @@ def build_graph() -> Graph:
             node.gives_clues = [mid]
             g.nodes[nid] = node
             g.givers.setdefault(mid, []).append(nid)
-            g.clues.setdefault("located:" + loc, (g.scenes[loc].title if loc in g.scenes else loc) + " (located)")
+            g.clues.setdefault("located:" + loc, "knows the way to " + (g.scenes[loc].title if loc in g.scenes else loc))
 
-    # Knowing any carrier of a tag is knowing of the tag ("hook:tags/x.md"), and a tag's moves need it.
+    # A tag's moves are asked of a carrier in person: meeting any carrier ("met:", or knowing them if they
+    # have no schedule) opens them ("hook:tags/x.md", drawn as "a <tag>").
     for tag_rel, who in tag_carriers.items():
         if not any(n.scene == tag_rel and (n.gives_clues or n.gives_known) for n in g.nodes.values()):
             continue                               # a tag that reveals nothing needs no awareness node
         tid = "hook:" + tag_rel
-        g.clues.setdefault(tid, g.scenes[tag_rel].title + " (tag)")
+        g.clues.setdefault(tid, "someone who is a " + g.scenes[tag_rel].title.lower())
         for r in who:
             nid = f"tag::{tag_rel}::{r}"
-            node = Node(id=nid, name=f"knows a carrier of {g.scenes[tag_rel].title}", kind="synthesis",
+            node = Node(id=nid, name=f"is a {g.scenes[tag_rel].title.lower()}", kind="synthesis",
                         scene=tag_rel, scene_title=g.scenes[tag_rel].title)
-            node.requires_clues = [_hook_id(r)]
+            node.requires_clues = [_setup_id(r)]
             node.gives_clues = [tid]
             g.nodes[nid] = node
             g.givers.setdefault(tid, []).append(nid)
-            g.clues.setdefault(_hook_id(r), g.scenes[r].hook or g.scenes[r].title)
+            if _setup_id(r).startswith("hook:"):
+                g.clues.setdefault(_hook_id(r), g.scenes[r].hook or g.scenes[r].title)
         for n in g.nodes.values():
             if n.scene == tag_rel and n.kind != "synthesis" and tid not in n.requires_clues:
                 n.requires_clues = sorted(set(n.requires_clues) | {tid})
